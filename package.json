@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "wrangler": "^4.148.0"
+  },
+  "name": "fusion-tabletop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test tests/game.test.js",
+    "test:e2e": "playwright test",
+    "check": "node --check src/worker.js && node --check public/app.js && wrangler deploy --dry-run"
+  }
+}
