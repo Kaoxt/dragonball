@@ -48,6 +48,17 @@ function practice() {
   game = view(practiceGame, seat); selected = null; status('Solo practice · both seats'); render();
 }
 const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Removed', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
+function startDrawTest() {
+  if (!practiceGame || practiceGame.status !== 'setup') return;
+  const next = structuredClone(practiceGame);
+  for (let i = 0; i < next.players.length; i++) {
+    if (!next.players[i].ready) act(next, i, { type: 'ready' });
+  }
+  act(next, seat, { type: 'draw', count: 3 });
+  practiceGame = next; game = view(practiceGame, seat); selected = null; render();
+  $('hand').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or drag a card onto the table.');
+}
 function cardHTML(c, owner, zone) {
   const mine = owner === seat, key = `${owner}:${zone}:${c.uid}`, hidden = c.faceDown && !mine;
   return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine ? 'data-movable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>${c.image&&(c.faceDown||c.rested)?`<span class="card-state">${c.faceDown?'Face down':''}${c.rested?' · Used':''}</span>`:''}`}</button>`;
@@ -77,6 +88,7 @@ function render() {
   $('table-title').textContent = `${p.name} vs ${opponent?.name || '…'}`;
   $('turn-bar').innerHTML = `<div><h2>${game.status==='finished'?`${esc(game.players[game.winner].name)} wins`:playing?`${esc(game.players[game.turn].name)}’s turn`:game.status==='setup'?'Prepare your personalities':'Prepare your decks'}</h2><p>${playing?`Turn ${game.turnNumber} · ${game.phase} Step`:'Original Score Entertainment DBZ CCG'}</p></div>${playing?game.phase==='Declare'?`<div class="toolbar"><button data-action="phase" data-combat="true" ${game.turn!==seat?'disabled':''}>Declare Combat</button><button data-action="phase" data-combat="false" ${game.turn!==seat?'disabled':''}>Skip Combat</button></div>`:`<button data-action="phase" ${game.turn!==seat?'disabled':''}>${game.phase==='Rejuvenation'?'Pass turn':'Next step'} <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>`:''}`;
   $('setup-bar').innerHTML = game.status==='waiting'?`${p.loaded?'Your deck is ready. ':'Load your deck to get started. '}${seat===0?`<button data-action="start" ${game.players.length<2||!game.players.every(x=>x.loaded)?'disabled':''}>Shuffle & start setup</button>`:'The host starts once both decks are loaded.'}`:game.status==='setup'?`Starting MP: 5 stages above 0, anger 0. Resolve Double Power, alignment, Tokui-Waza, and Sensei choices manually. ${seat===0?`<label>First player<select id="first-player">${game.players.map((x,i)=>`<option value="${i}" ${game.turn===i?'selected':''}>${esc(x.name)}</option>`).join('')}</select></label>`:`${esc(game.players[game.turn].name)} goes first.`}${p.ready?' You are ready.':'<button data-action="ready">Finish setup</button>'}`:'';
+  if (practiceGame && game.status === 'setup') $('setup-bar').insertAdjacentHTML('beforeend', '<button id="start-draw-test" class="primary">Start test · draw 3 cards</button>');
   $('board').innerHTML=fieldHTML(opponent,1-seat)+fieldHTML(p,seat);
   document.querySelectorAll('.free-table [data-x]').forEach(c=>{c.style.left=`calc(${+c.dataset.x*100}% - ${+c.dataset.x*80}px)`;c.style.top=`calc(${+c.dataset.y*100}% - ${+c.dataset.y*114}px)`;});
   const controls=[['draw3','Draw 3'],['draw','Draw 1'],['shuffle','Shuffle Life Deck'],['search','Search Life Deck'],['damage','Flip 1 damage'],['powerUp','Power up'],['rejuvenate','Rejuvenate'],['concede','Concede']];
@@ -95,6 +107,7 @@ function renderInspector(){
 
 document.addEventListener('click', e => {
   if(suppressClick){e.preventDefault();return;}
+  if(e.target.closest('#start-draw-test')) { startDrawTest(); return; }
   const card = e.target.closest('[data-card]');
   if (card) { selected = card.dataset.card; render(); return; }
   if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
