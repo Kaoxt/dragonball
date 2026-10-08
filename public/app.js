@@ -49,16 +49,23 @@ function practice() {
 const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Removed', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
 function cardHTML(c, owner, zone) {
   const mine = owner === seat, key = `${owner}:${zone}:${c.uid}`, hidden = c.faceDown && !mine;
-  return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine && !['mp','mastery','sensei'].includes(zone) && !hidden ? 'draggable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>`}</button>`;
+  return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine ? 'data-movable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>`}</button>`;
 }
 function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
   return `<div class="zone" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div>${hidden ? `<div class="pile"><span class="card back" aria-hidden="true"></span>${count}</div><div class="pile-caption">${zone === 'deck' ? 'Life remaining' : 'Private'}</div>` : `<div class="cards">${data.map(c => cardHTML(c, owner, zone)).join('') || '<span class="empty">Empty</span>'}</div>`}</div>`;
 }
+const playZones=['combat','noncombat','drills','allies','dragonballs'];
+function tableHTML(p,owner){
+  const fixed=z=>z==='mp'?p.personalities[p.level-1]:p[z];
+  let n=0;
+  const placed=(c,z)=>{const q=c.position||{x:(n%6)/6,y:Math.min(.9,Math.floor(n/6)*.22)};n++;return cardHTML(c,owner,z).replace('<button ',`<button data-x="${q.x}" data-y="${q.y}" `);};
+  return `<div class="starting-slots">${['mp','mastery','sensei'].map(z=>`<div class="zone starting-slot" data-zone="${z}" data-owner="${owner}"><div class="zone-label">${labels[z]}</div>${fixed(z)&&!fixed(z).position?cardHTML(fixed(z),owner,z):'<span class="empty">'+(fixed(z)?'Drop here to return':'No card loaded')+'</span>'}</div>`).join('')}</div><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat"><span class="table-hint">${owner===seat?'Drag cards here · Arrange freely':'Opponent’s play area'}</span>${['mp','mastery','sensei'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div>`;
+}
 function counterHTML(p, owner, name, title) { return `<div class="counter"><span>${title}</span><strong>${p[name]}</strong>${owner === seat && ['setup','playing'].includes(game.status) ? `<button data-counter="${name}" data-delta="-1" aria-label="Decrease ${title}">−</button><button data-counter="${name}" data-delta="1" aria-label="Increase ${title}">+</button>` : ''}</div>`; }
 function fieldHTML(p, owner) {
   if (!p) return '<section class="player-field opponent"><p>Waiting for your opponent. Copy the invite to bring them to the table.</p></section>';
-  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'}</strong><span>${p.loaded ? 'Deck loaded' : 'No deck'}${p.tokui ? ` · ${esc(p.tokui)} Tokui-Waza` : ''}</span></div><div class="counter-row">${counterHTML(p,owner,'level','MP level')}${counterHTML(p,owner,'anger','Anger')}${counterHTML(p,owner,'stages','Power stages')}</div><div class="field-grid"><div class="zone-stack"><div class="zone"><div class="zone-label">Main Personality</div>${p.personalities.length ? cardHTML(p.personalities[p.level-1],owner,'mp') : '<span class="empty">Load a deck</span>'}</div>${['mastery','sensei'].map(z=>`<div class="zone"><div class="zone-label">${labels[z]}</div>${p[z]?cardHTML(p[z],owner,z):'<span class="empty">None</span>'}</div>`).join('')}</div><div>${zoneHTML(p,owner,'combat')}<div class="zone-row">${zoneHTML(p,owner,'noncombat')}${zoneHTML(p,owner,'drills')}</div><div class="zone-row">${zoneHTML(p,owner,'allies')}${zoneHTML(p,owner,'dragonballs')}</div></div><div class="zone-stack">${zoneHTML(p,owner,'deck')}${zoneHTML(p,owner,'discard')}${zoneHTML(p,owner,'removed')}</div></div><div class="zone-row">${zoneHTML(p,owner,'location')}${owner!==seat?zoneHTML(p,owner,'hand'):''}</div>${owner===seat?zoneHTML(p,owner,'senseiDeck'):''}${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<div class="sensei-choices">${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></div>`:''}</section>`;
+  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'}</strong><span>${p.loaded ? 'Deck loaded' : 'No deck'}${p.tokui ? ` · ${esc(p.tokui)} Tokui-Waza` : ''}</span></div><div class="counter-row">${counterHTML(p,owner,'level','MP level')}${counterHTML(p,owner,'anger','Anger')}${counterHTML(p,owner,'stages','Power stages')}</div>${tableHTML(p,owner)}<div class="pile-row">${['deck','discard','removed','location'].map(z=>zoneHTML(p,owner,z)).join('')}${owner!==seat?zoneHTML(p,owner,'hand'):''}</div>${owner===seat?zoneHTML(p,owner,'senseiDeck'):''}${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<div class="sensei-choices">${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></div>`:''}</section>`;
 }
 
 function render() {
@@ -70,6 +77,7 @@ function render() {
   $('turn-bar').innerHTML = `<div><h2>${game.status==='finished'?`${esc(game.players[game.winner].name)} wins`:playing?`${esc(game.players[game.turn].name)}’s turn`:game.status==='setup'?'Prepare your personalities':'Prepare your decks'}</h2><p>${playing?`Turn ${game.turnNumber} · ${game.phase} Step`:'Original Score Entertainment DBZ CCG'}</p></div>${playing?game.phase==='Declare'?`<div class="toolbar"><button data-action="phase" data-combat="true" ${game.turn!==seat?'disabled':''}>Declare Combat</button><button data-action="phase" data-combat="false" ${game.turn!==seat?'disabled':''}>Skip Combat</button></div>`:`<button data-action="phase" ${game.turn!==seat?'disabled':''}>${game.phase==='Rejuvenation'?'Pass turn':'Next step'} →</button>`:''}`;
   $('setup-bar').innerHTML = game.status==='waiting'?`${p.loaded?'Your deck is ready. ':'Load your deck to get started. '}${seat===0?`<button data-action="start" ${game.players.length<2||!game.players.every(x=>x.loaded)?'disabled':''}>Shuffle & start setup</button>`:'The host starts once both decks are loaded.'}`:game.status==='setup'?`Starting MP: 5 stages above 0, anger 0. Resolve Double Power, alignment, Tokui-Waza, and Sensei choices manually. ${seat===0?`<label>First player<select id="first-player">${game.players.map((x,i)=>`<option value="${i}" ${game.turn===i?'selected':''}>${esc(x.name)}</option>`).join('')}</select></label>`:`${esc(game.players[game.turn].name)} goes first.`}${p.ready?' You are ready.':'<button data-action="ready">Finish setup</button>'}`:'';
   $('board').innerHTML=fieldHTML(opponent,1-seat)+fieldHTML(p,seat);
+  document.querySelectorAll('.free-table [data-x]').forEach(c=>{c.style.left=`calc(${+c.dataset.x*100}% - ${+c.dataset.x*80}px)`;c.style.top=`calc(${+c.dataset.y*100}% - ${+c.dataset.y*114}px)`;});
   const controls=[['draw3','Draw 3'],['draw','Draw 1'],['shuffle','Shuffle Life Deck'],['search','Search Life Deck'],['damage','Flip 1 damage'],['powerUp','Power up'],['rejuvenate','Rejuvenate'],['concede','Concede']];
   $('controls').innerHTML=controls.map(([action,label])=>`<button data-action="${action}" ${!playing?'disabled':''}>${label}</button>`).join('');
   $('hand-count').textContent=`· ${p.zones.hand.length}`; $('hand').innerHTML=p.zones.hand.map(c=>cardHTML(c,seat,'hand')).join('')||'<p class="empty">No opening hand. Draw three when the game reaches your Draw Step.</p>';
@@ -89,6 +97,7 @@ function renderInspector(){
 }
 
 document.addEventListener('click', e => {
+  if(suppressClick){e.preventDefault();return;}
   const card = e.target.closest('[data-card]');
   if (card) { selected = card.dataset.card; render(); return; }
   const action = e.target.closest('[data-action]');
@@ -99,10 +108,30 @@ document.addEventListener('click', e => {
   if (ca) { const s = getSelected(); if (s) send({ type: ca.dataset.cardAction, from: s.zone, uid: s.c.uid, delta: Number(ca.dataset.delta) }); }
   if (e.target.closest('#move-selected')) { const s = getSelected(), dest = $('destination').value; if (s) send({ type: 'move', from: s.zone, uid: s.c.uid, to: dest === 'deck-bottom' ? 'deck' : dest, bottom: dest === 'deck-bottom' }); }
 });
-document.addEventListener('dragstart', e => { const c = e.target.closest('[data-card]'); if (c) e.dataTransfer.setData('text/plain', c.dataset.card); });
-document.addEventListener('dragover', e => { const z = e.target.closest('[data-zone]'); if (z && Number(z.dataset.owner) === seat) { e.preventDefault(); z.classList.add('drop-target'); } });
-document.addEventListener('dragleave', e => e.target.closest('[data-zone]')?.classList.remove('drop-target'));
-document.addEventListener('drop', e => { const z = e.target.closest('[data-zone]'); if (!z || Number(z.dataset.owner) !== seat) return; e.preventDefault(); z.classList.remove('drop-target'); const [owner, from, uid] = e.dataTransfer.getData('text/plain').split(':'); if (+owner === seat) send({ type: 'move', from, uid, to: z.dataset.zone }); });
+let dragging=null, suppressClick=false;
+document.addEventListener('dragstart',e=>{if(e.target.closest('[data-card]'))e.preventDefault();});
+document.addEventListener('pointerdown',e=>{
+ const c=e.target.closest('[data-movable]');if(!c||e.button!==0||!['playing','setup'].includes(game.status))return;
+ dragging={key:c.dataset.card,startX:e.clientX,startY:e.clientY,card:c,pointer:e.pointerId};
+});
+document.addEventListener('pointermove',e=>{
+ const d=dragging;if(!d||e.pointerId!==d.pointer)return;
+ if(!d.ghost&&Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<7)return;
+ if(!d.ghost){d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
+ d.y=e.clientY;e.preventDefault();d.ghost.style.left=(e.clientX-35)+'px';d.ghost.style.top=(e.clientY-45)+'px';
+},{passive:false});
+document.addEventListener('pointerup',e=>{
+ const d=dragging;dragging=null;if(!d?.ghost)return;d.ghost.remove();suppressClick=true;setTimeout(()=>suppressClick=false,0);
+ const target=document.elementFromPoint(e.clientX,e.clientY),table=target?.closest('[data-table]'),z=target?.closest('[data-zone]');
+ const [owner,from,uid]=d.key.split(':');if(+owner!==seat||!z||+z.dataset.owner!==seat)return;
+ const fixed=['mp','mastery','sensei'].includes(from);
+ if(table){const r=table.getBoundingClientRect(),position={x:Math.max(0,Math.min(1,(e.clientX-r.left-40)/Math.max(1,r.width-80))),y:Math.max(0,Math.min(1,(e.clientY-r.top-57)/Math.max(1,r.height-114)))};
+ if(fixed||playZones.includes(from))send({type:'position',from,uid,position});
+ else send({type:'move',from,uid,to:'combat',position});
+ }else if(fixed){if(z.dataset.zone===from)send({type:'position',from,uid,position:null});}
+ else if(!['mp','mastery','sensei'].includes(z.dataset.zone)&&z.dataset.zone!==from)send({type:'move',from,uid,to:z.dataset.zone});
+});
+document.addEventListener('pointercancel',()=>{dragging?.ghost?.remove();dragging=null;});
 $('room-form').onsubmit = e => { e.preventDefault(); join(true); };
 $('join-form').onsubmit = e => { e.preventDefault(); join(false); };
 $('practice').onclick = practice;
