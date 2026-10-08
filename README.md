@@ -1,19 +1,22 @@
-# Fusion Tabletop
+# DBZ Tabletop — Score Entertainment CCG
 
-A lightweight, browser-based **Dragon Ball Super Card Game: Fusion World** manual tabletop, built for the owner's Cloudflare Workers account. Unofficial fan project; not affiliated with Bandai or the Dragon Ball rights holders.
+A lightweight browser tabletop for the **original Score Entertainment Dragon Ball Z Collectible Card Game**. Uses the Buu Saga rulebook as its guidance baseline. This is not Fusion World, Panini, the 2005 remake, or a full automated rules engine.
 
-## Included in this first version
+## Included
 
-- Private two-player rooms with shareable invite links; browser seats use HttpOnly cookies.
-- Server-side shuffling, hidden decks, private hands and life cards, and per-player state filtering.
-- Text/JSON deck import, local deck draft saving, optional HTTPS artwork URLs, and front/back leader images.
-- Opening six cards, one full-hand mulligan, eight life, random first player, and second-player energy marker.
-- Hand, battle, combo, energy, drop, removed, leader, deck and life areas.
-- Drag/drop on desktop; select-and-move controls on phones.
-- Draw, shuffle, take life, Critical damage, deck search, ready/rest, flip, awaken/revert, temporary power, combo cleanup, marker adjustment, and concession.
-- Charge/Main/End guidance, game log, chat, reconnection, and solo practice controlling both seats.
+- Private two-player rooms, chat, reconnecting, and solo practice controlling both seats.
+- Main Personality stack (levels 1–3, 4, or 5), manual MP level / anger / power-stage counters, Mastery and Sensei cards, declared Tokui-Waza.
+- Life Deck, hand, Combat, Non-Combat, Drills, Allies, Dragon Balls, Battleground/Location, discard, removed-from-game, and private Sensei Deck areas.
+- Three-card draw, single-card damage flips, private deck searches, shuffling, rejuvenation, and manual card movement.
+- Pre-game Sensei swaps select all choices together, reveal selected cards, exchange against the original top Life Deck cards, and shuffle once. Card eligibility/capacity remains manual.
+- Original seven-step turn guidance: Draw, Non-Combat, Power Up, Declare, Combat, Discard, Rejuvenation. Declare/skip Combat controls the path.
+- Power-up helper uses imported MP PUR (+1 for declared Tokui-Waza) and gives Allies one stage. Counters can be adjusted for exceptions. Starting stage count defaults to five; apply Double Power manually.
+- Controller-authorized Dragon Ball transfer for captures; no arbitrary manipulation of the opponent's private cards.
+- Desktop drag/drop and mobile tap/select/move controls.
 
-This is a **manual tabletop MVP**, not a full rules engine or the official digital game. No AI opponent, matchmaking, accounts, automatic card effects, or bundled searchable card/art catalog. Text imports show names/IDs; JSON may supply artwork URLs. Practice cards are clearly labeled placeholders, not playable official decks. Card legality, colors, skill conditions, victory conditions, costs, attack targets, and temporary effects are the players' responsibility. Each player controls their own cards; game-ending concessions are explicit.
+There is no pre-dealt opening hand, separate life pile, energy zone, or automatic mulligan. Host chooses the first player after players resolve alignment and Double Power. At five anger, players manually resolve level changes, reset anger, adjust stages, discard applicable Drills, and check Most Powerful Personality victory. PAT, costs, Endurance, Dragon Ball damage exceptions, combat action timing, card-specific effects, and all victory conditions stay manual. Flip damage one card at a time so effects can be resolved between flips. There is no automatic rules legality or card-type detection.
+
+No searchable card catalog or official artwork is bundled. Practice cards are placeholder test cards. For actual play, import your Score card list and optional image URLs. New Score rooms use a separate server namespace and cookie; old Fusion World room links and deck imports are not compatible.
 
 ## Run locally
 
@@ -32,7 +35,7 @@ Deploy this repository as a **Worker with static assets**, not as a Pages-only p
 
 ### Connect this GitHub repository in Cloudflare
 
-1. Open **Workers & Pages**, create a Worker, and connect **Kaoxt/dregonball** through the Git repository flow.
+1. Open **Workers & Pages**, create a Worker, and connect **Kaoxt/dragonball** through the Git repository flow.
 2. Choose the `main` branch and repository root.
 3. Use `npm ci && npm test` as the build command and `npx wrangler deploy` as the deploy command. If dependencies are installed automatically, running `npm test` as the build command is also sufficient.
 4. Keep the Worker name `dregonball`, matching `wrangler.jsonc`.
@@ -54,34 +57,39 @@ No Cloudflare credentials are stored in this repository. Deployment needs access
 
 ## Importing decks
 
-Enter a leader ID separately, then one entry per line:
+Text import: enter comma-separated Main Personality card IDs in consecutive level order, and optional Mastery, Sensei, and Tokui-Waza. Paste only the cards shuffled into the Life Deck:
 
 ```text
-4 FS01-02 Son Gohan
-4 FS01-03 Son Goku
+3 SAIYAN-001 Card name
+3 SAIYAN-002 Another card
 ```
 
-The snippet only demonstrates syntax; supply a complete 50–60-card deck. Names are optional. Or import JSON:
+Use set-qualified IDs to distinguish repeated card numbers. Names are optional. JSON supports fuller metadata:
 
 ```json
 {
-  "leader": { "id": "FS01-01", "name": "Son Goku", "image": "https://your-art-host/front.webp", "backImage": "https://your-art-host/back.webp" },
-  "cards": [ { "id": "FS01-02", "name": "Son Gohan", "qty": 4, "image": "https://your-art-host/card.webp" } ]
+  "personalities": [
+    {"id":"GOKU-L1", "name":"Goku level 1", "pur":2, "maxStages":10, "image":"https://your-art-host/level1.webp"},
+    {"id":"GOKU-L2", "name":"Goku level 2", "pur":3},
+    {"id":"GOKU-L3", "name":"Goku level 3", "pur":3}
+  ],
+  "mastery":{"id":"YOUR-MASTERY"},
+  "sensei":{"id":"YOUR-SENSEI"},
+  "tokui":"Red",
+  "senseiDeck":[{"id":"YOUR-SENSEI-CARD", "qty":1}],
+  "cards":[{"id":"SAIYAN-001", "name":"Your card", "qty":3, "image":"https://your-art-host/card.webp"}]
 }
 ```
 
-This is a schema example, not a complete deck. Missing/unavailable images fall back to readable card names/IDs. Use artwork you are entitled to host/use; no official images are copied into this repo. HTTPS image hosts are fetched directly by browsers with no referrer; the server does not proxy artwork. No arbitrary HTML or scripts are rendered.
+This is a schema example, not a legal or complete deck. `pur` defaults to 1 and `maxStages` to 10; verify imported personality values. The importer warns on the normal 50–85 total size (90 for Namekian Tokui-Waza) including starting MP/Mastery/Sensei cards, and warns on more than three copies. Warnings can be overridden for card or format exceptions; they are not tournament validation. Sensei Deck capacity, Named cards, Dragon Ball sets, alignment, and other restrictions are checked by players. Up to 90 Life Deck and 90 Sensei Deck cards are accepted as technical bounds, not as a statement of legality.
+
+Missing images fall back to names and IDs. Use artwork you are entitled to use. Images are fetched directly from imported HTTPS URLs with no referrer; arbitrary HTML/scripts are never rendered.
 
 ## Resource and privacy design
 
-- Static HTML/CSS/JS; no framework runtime, containers, image rendering, or polling for game state.
-- One Durable Object per room using WebSocket **hibernation**, with automatic ping/pong handled without waking the object.
-- Save after successful actions, not animation frames. Bounded 80-entry log; at most 60 deck cards per player. Seven-day inactive room cleanup.
-- Room creation/join rate limit: 10 requests per minute per IP per Cloudflare location. Socket actions limited to 35 per 10 seconds per connection. Message size capped at 48 KB.
-- Server enforces ownership and private information. Browsers never receive opponent hand identities, life identities, or deck order. Private deck search is explicitly logged; only the searching player gets the sorted card list.
-- Shuffling uses Web Crypto random numbers with rejection sampling; hidden card IDs are refreshed to reduce tracking.
-- Invite links are unguessable and let the first visitor claim the second seat. There is no host approval or spectator role. Keep invite links private. Lost browser cookies cannot recover seats; create a new room.
-- The shared Workers allowance still applies; existing project usage and optional artwork hosting can add costs. Rate limits reduce accidental load but are not a billing cap or complete anti-abuse system. Review account usage before broadly advertising the service.
+Static HTML/CSS/JS plus one Cloudflare Durable Object per room using hibernating WebSockets. No containers, image generation, or game-state polling. State persists after actions. Rooms expire after seven days without game/join activity; logs are capped at 80 entries. Creation/join is limited to ten requests/minute/IP per Cloudflare location, and sockets to 35 actions/10 seconds/connection with 48 KB messages. These controls are not a billing cap.
+
+The server filters private hands, Sensei Decks, and Life Deck order per seat. Only the player who explicitly searches their Life Deck sees its sorted contents, and the search is logged. Shuffling uses Web Crypto with rejection sampling and refreshes card IDs. Invite links let the first visitor claim the second seat; there is no spectator role. Keep invites private. Lost cookies require a new room.
 
 ## Validation
 
@@ -92,12 +100,10 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-Tests cover hidden-state filtering, ownership, setup/mulligan, search, shuffle, deck validation, phase progression, real two-browser WebSocket play, resume, third-player rejection, chat escaping, and mobile controls.
+Unit tests cover Score setup, Life Deck damage, private information, batch Sensei swaps, turn branches, rejuvenation, manual counters, captures, and old-format rejection. Browser tests cover two-player play/resume, chat escaping, full-room rejection, and mobile controls.
 
-## Rules references
+## Rules reference
 
-- [Official Fusion World rules](https://www.dbs-cardgame.com/fw/en/products/01_31.html)
-- [English rule manual v1.20](https://www.dbs-cardgame.com/fw/pdf/rules/manual/fw_manual_EN_v1.20.pdf)
-- [First-player draw rule update](https://www.dbs-cardgame.com/fw/en/news/01_62.html)
+[Score Buu Saga rulebook archive](https://retrodbzccg.com/rules/dragon-ball-z-ccg-rulebook-buu-saga/) · [Original Score rulebook PDF](https://lackeyccg.com/dbzccg/dbzccg_rules.pdf)
 
-Guidance checked October 7, 2026. Card-specific effects and later errata take priority; consult the current official rules.
+Guidance checked October 8, 2026. Agree on your format and applicable rulings before play. Unofficial fan project, not affiliated with Score Entertainment or the Dragon Ball rights holders.

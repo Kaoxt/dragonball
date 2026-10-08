@@ -3,7 +3,7 @@ import { newGame, addPlayer, act, view } from '../public/game.js';
 const json = (data, status = 200, headers = {}) => Response.json(data, { status, headers: { 'Cache-Control': 'no-store', ...headers } });
 const token = () => crypto.randomUUID().replaceAll('-', '') + crypto.randomUUID().replaceAll('-', '');
 const digest = async s => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))].map(x => x.toString(16).padStart(2, '0')).join('');
-function cookie(req) { return /(?:^|;\s*)fw_session=([a-f0-9]{64})(?:;|$)/.exec(req.headers.get('Cookie') || '')?.[1]; }
+function cookie(req) { return /(?:^|;\s*)score_session=([a-f0-9]{64})(?:;|$)/.exec(req.headers.get('Cookie') || '')?.[1]; }
 export default {
   async fetch(req, env) {
     const u = new URL(req.url);
@@ -13,12 +13,12 @@ export default {
       const ip = req.headers.get('CF-Connecting-IP') || 'local';
       if (env.ROOM_LIMITER && !(await env.ROOM_LIMITER.limit({ key: ip })).success) return json({ error: 'Too many room requests. Try again in a minute.' }, 429);
       const id = token().slice(0, 32);
-      return env.ROOMS.getByName(id).fetch(new Request(`${u.origin}/api/room/${id}/create`, req));
+      return env.ROOMS.getByName(`score-${id}`).fetch(new Request(`${u.origin}/api/room/${id}/create`, req));
     }
     const m = /^\/api\/room\/([a-f0-9]{32})\/(join|socket)$/.exec(u.pathname);
     if (m) {
       if (m[2] === 'join' && env.ROOM_LIMITER && !(await env.ROOM_LIMITER.limit({ key: req.headers.get('CF-Connecting-IP') || 'local' })).success) return json({ error: 'Too many join requests.' }, 429);
-      return env.ROOMS.getByName(m[1]).fetch(req);
+      return env.ROOMS.getByName(`score-${m[1]}`).fetch(req);
     }
     return json({ error: 'Not found.' }, 404);
   }
@@ -56,7 +56,7 @@ export class GameRoom extends DurableObject {
       let seat = this.game.players.findIndex(p => p.token === hash);
       if (seat < 0) { secret = token(); hash = await digest(secret); seat = addPlayer(this.game, hash, body.name); }
       await this.save(); this.broadcast();
-      return json({ id, seat }, 200, { 'Set-Cookie': `fw_session=${secret}; Path=/api/room/${id}/; HttpOnly; SameSite=Strict; Max-Age=604800${secure}` });
+      return json({ id, seat }, 200, { 'Set-Cookie': `score_session=${secret}; Path=/api/room/${id}/; HttpOnly; SameSite=Strict; Max-Age=604800${secure}` });
     } catch (e) { return json({ error: e.message || 'Unable to join.' }, 400); }
   }
   async webSocketMessage(ws, message) {
