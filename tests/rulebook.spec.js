@@ -2,7 +2,6 @@ import {test,expect} from '@playwright/test';
 test('digital rulebook stays local, searches expanded rules and works on mobile',async({page})=>{
   await page.goto('/');
   await expect(page.getByRole('link',{name:'Rulebook',exact:true})).toHaveAttribute('href','/rulebook/');
-  await expect(page.getByRole('link',{name:'Rulebook',exact:true})).toHaveAttribute('target','_blank');
   await page.goto('/rulebook/');
   await expect(page.locator('h1')).toContainText('Know the rules');
   expect(await page.locator('.hero-card img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);

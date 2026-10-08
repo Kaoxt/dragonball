@@ -1,3 +1,4 @@
+import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js';
 import { newGame, addPlayer, act, view } from './game.js';
 const $ = id => document.getElementById(id);
@@ -161,8 +162,21 @@ $('join-form').onsubmit = e => { e.preventDefault(); join(false); };
 $('practice').onclick = practice;
 $('switch-seat').onclick = () => { seat = 1 - seat; selected = null; game = view(practiceGame, seat); render(); };
 $('leave').onclick = () => { intentional = true; clearTimeout(reconnectTimer); socket?.close(); location.href = '/'; };
-$('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
-$('open-deck').onclick = () => { $('deck-error').textContent = ''; $('deck-dialog').showModal(); };
+$('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/play/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
+$('open-deck').onclick = () => {
+  $('deck-error').textContent = '';
+  $('builder-saved-decks').replaceChildren(new Option('Choose a deck…',''));
+  try { for(const d of readDecks().decks) $('builder-saved-decks').add(new Option(d.name || 'Untitled deck',d.id)); }
+  catch { $('deck-error').textContent = 'Saved decks could not be read. You can still import a deck file.'; }
+  $('deck-dialog').showModal();
+};
+$('builder-saved-decks').onchange = () => {
+  try { const d=readDecks().decks.find(d=>d.id===$('builder-saved-decks').value); if(!d)return;
+    const last=d.personalities.findLastIndex(Boolean);
+    if(last<2||d.personalities.slice(0,last+1).some(c=>!c))throw new Error('Complete consecutive Main Personality levels in the deck builder first.');
+    $('deck-text').value=JSON.stringify(exportDeck(d),null,2);$('tokui').value=d.tokui||'';$('deck-error').textContent='';
+  } catch(e) { $('deck-error').textContent=e.message; }
+};
 $('close-deck').onclick = () => $('deck-dialog').close();
 $('close-pile').onclick = () => $('pile-dialog').close();
 $('pile-dialog').addEventListener('close', () => { openPile = null; });

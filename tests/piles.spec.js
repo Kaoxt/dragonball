@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 for (const width of [390, 1280]) {
   test(`piles stay compact and let cards be inspected and moved at ${width}px`, async ({page}) => {
     await page.setViewportSize({width, height:900});
-    await page.goto('/');
+    await page.goto('/play/');
     await page.locator('#practice').click();
     await page.locator('#start-draw-test').click();
     const removed = page.locator('.player-field:not(.opponent) [data-zone="removed"]');

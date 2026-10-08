@@ -16,7 +16,7 @@ A lightweight browser tabletop for the **original Score Entertainment Dragon Bal
 
 There is no pre-dealt opening hand, separate life pile, energy zone, or automatic mulligan. Host chooses the first player after players resolve alignment and Double Power. At five anger, players manually resolve level changes, reset anger, adjust stages, discard applicable Drills, and check Most Powerful Personality victory. PAT, costs, Endurance, Dragon Ball damage exceptions, combat action timing, card-specific effects, and all victory conditions stay manual. Flip damage one card at a time so effects can be resolved between flips. There is no automatic rules legality or card-type detection.
 
-No searchable card catalog or official artwork is bundled. Practice cards are placeholder test cards. For actual play, import your Score card list and optional image URLs. New Score rooms use a separate server namespace and cookie; old Fusion World room links and deck imports are not compatible.
+The home page contains site news. Play is available at `/play/`; legacy root room invitations redirect to the Play page. The shared card catalog lives at `/cards/`, and the deck builder at `/decks/`. Practice decks still use placeholder MP levels and repeated cards. For actual play, build from the available collection or import your Score card list and optional image URLs. New Score rooms use a separate server namespace and cookie; old Fusion World room links and deck imports are not compatible.
 
 ## Run locally
 
@@ -107,3 +107,11 @@ Unit tests cover Score setup, Life Deck damage, private information, batch Sense
 [Score Buu Saga rulebook archive](https://retrodbzccg.com/rules/dragon-ball-z-ccg-rulebook-buu-saga/) · [Original Score rulebook PDF](https://lackeyccg.com/dbzccg/dbzccg_rules.pdf)
 
 Guidance checked October 8, 2026. Agree on your format and applicable rulings before play. Unofficial fan project, not affiliated with Score Entertainment or the Dragon Ball rights holders.
+
+## Deck builder and home
+
+The home page uses static news posts with expandable details and shared responsive navigation. Edit `public/index.html` to publish news. No admin or posting service is required.
+
+The deck builder imports `public/cards/catalog.js`, so future catalog additions appear automatically. It supports filtering, card previews, quantity controls, Main Personality levels, Mastery, Sensei, Life Deck and Sensei Deck, named decks, duplication, deletion, and JSON export. Decks autosave to `score-builder-v1` in this browser; there is no account or cross-device sync. Export backups before clearing browser data. Tabletop “Load deck” includes a saved-deck picker on the same origin.
+
+Deck checks reuse the tabletop importer's guidance and flag missing MP levels. They are advisory, not format legality enforcement. Published personality level and PUR metadata are retained; verify cards with missing metadata manually.
