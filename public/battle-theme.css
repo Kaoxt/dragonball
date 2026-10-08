@@ -19,3 +19,28 @@ header .brand{gap:18px;min-width:0;text-decoration:none}
 header .back-link{white-space:nowrap}
 @media(max-width:650px){header .brand{gap:10px}.brand-logo{width:140px}.brand-arena{padding-left:10px;font-size:17px;letter-spacing:1.5px}.brand-arena small{font-size:6px;letter-spacing:.7px}header .back-link{font-size:10px}}
 @media(max-width:360px){header{padding-left:4%;padding-right:4%}.brand-logo{width:115px}.brand-arena{font-size:15px}}
+
+/* Home arena uses the same ink-splashed orange artwork as the card backs. */
+body.arena-page{background:#110d0b;background-image:linear-gradient(90deg,#100c09d9,#100c0970 55%,#100c09b8),url('/assets/burnt-orange-playmat.webp');background-size:cover;background-position:center top;background-attachment:fixed}
+.arena-page header{border-bottom-color:#a83e19}
+.arena-page .intro{display:block;padding-right:0;min-height:0}
+.arena-page .intro h1{max-width:560px}
+.arena-page .intro>p{max-width:470px}
+.arena-page .intro .feature-row{max-width:none;margin-top:26px}
+.lobby-card-fan{position:relative;width:min(360px,90%);height:330px;margin:35px auto 0;isolation:isolate;pointer-events:none}
+.lobby-card-fan img{position:absolute;top:12px;left:50%;width:185px;height:auto;border-radius:12px;box-shadow:0 12px 25px #0009;transform-origin:50% 85%}
+.lobby-card-fan img:nth-child(1){transform:translateX(-75%) rotate(-21deg);z-index:1}
+.lobby-card-fan img:nth-child(2){transform:translateX(-50%) rotate(-2deg);z-index:2;top:0}
+.lobby-card-fan img:nth-child(3){transform:translateX(-25%) rotate(19deg);z-index:3}
+.arena-page .lobby-panel{background:linear-gradient(145deg,#482516f5,#17110ef5 65%);border-color:#78452d;border-top-color:#c55523;box-shadow:10px 10px 30px #0005}
+.arena-page .lobby-panel input{background:#100d0be8;border-color:#60412f}
+.arena-page .lobby-panel button{background:#302018;border-color:#79503b}
+.arena-page .lobby-panel button:hover{background:#493021}
+.arena-page .lobby-panel .primary{background:#ac421b;border-color:#c35829;color:white}
+.arena-page .lobby-panel .primary:hover{background:#c35021}
+.arena-page .lobby-panel .text-button{color:#f4b28d;background:none;border-color:transparent}
+.arena-page .lobby-panel .text-button:hover{color:#ffd3b8;background:#ffffff08}
+.arena-page footer{color:#baa89a}
+@media(max-width:650px){.arena-page .intro>p{font-size:14px}.lobby-card-fan{width:290px;max-width:90%;height:280px;margin-top:24px}.lobby-card-fan img{width:155px;border-radius:10px}.arena-page .intro .feature-row{margin-bottom:0}.arena-page .lobby{gap:20px}}
+@media print{body.arena-page{background:white}}
+@media(max-width:360px){.lobby-card-fan{height:245px}.lobby-card-fan img{width:130px}}
