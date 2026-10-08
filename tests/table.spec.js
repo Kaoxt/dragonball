@@ -8,7 +8,7 @@ test('two browsers play Score, keep private cards hidden, and resume',async({bro
  await p.getByRole('button',{name:'Finish setup',exact:true}).click();await q.getByRole('button',{name:'Finish setup',exact:true}).click();
  await q.getByRole('button',{name:'Draw 3',exact:true}).click();await expect(q.locator('#hand .card')).toHaveCount(3);await expect(p.locator('.opponent [data-zone=hand] .pile')).toContainText('3');
  await q.locator('#hand .card').first().click();await q.locator('#destination').selectOption('combat');await q.locator('#move-selected').click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveCount(1);
- await q.locator('.player-field:not(.opponent) [data-zone=combat] .card').click();await q.getByRole('button',{name:'Flip',exact:true}).click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveText('Z');
+ await q.locator('.player-field:not(.opponent) [data-zone=combat] .card').click();await q.getByRole('button',{name:'Flip',exact:true}).click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveAttribute('aria-label','Face-down card');
  await q.getByRole('button',{name:'Search Life Deck',exact:true}).click();await expect(q.locator('#search-panel')).toBeVisible();await expect(p.locator('#search-panel')).toBeHidden();await q.getByRole('button',{name:'Finish search & shuffle'}).click();
  await q.getByRole('button',{name:'Increase Anger',exact:true}).click();await expect(p.locator('.opponent .counter').nth(1)).toContainText('1');
  await p.locator('#chat').fill('<img src=x onerror=alert(1)>');await p.locator('#chat-form button').click();await expect(q.locator('#log')).toContainText('<img src=x onerror=alert(1)>');await expect(q.locator('#log img')).toHaveCount(0);
