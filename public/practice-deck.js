@@ -13,6 +13,8 @@ export const sampleCards = [
   ['red-king-cold-observation', 'Red King Cold Observation'],
   ['orange-energy-dan-drill', 'Orange Energy Dan Drill'],
   ['orange-junction-energy-blast', 'Orange Junction Energy Blast'],
+  ['super-android-17-ki-intensity', 'Super Android 17’s Ki Intensity'],
+  ['farewell-drill', 'Farewell Drill'],
 ].map(([id, name]) => ({ id, name, image: `/assets/cards/${id}.webp` }));
 
 export function practiceDeck(opponent = false) {
@@ -30,6 +32,9 @@ export function practiceDeck(opponent = false) {
       'krillin-heat-seeking-blast', 'goku-battle-ready', 'namek-dragon-ball-5',
       'eternal-dragons-quest', 'nail-combat-drill', 'red-king-cold-observation',
       'orange-energy-dan-drill', 'orange-junction-energy-blast',
-    ].map((id, i) => ({ ...lookup(id), qty: i < 2 ? 7 : 6 })),
+    ].map(id => ({ ...lookup(id), qty: 6 })).concat([
+      { ...lookup('super-android-17-ki-intensity'), qty: 1 },
+      { ...lookup('farewell-drill'), qty: 1 },
+    ]),
   };
 }

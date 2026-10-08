@@ -2,7 +2,7 @@ import { practiceDeck } from './practice-deck.js';
 import { newGame, addPlayer, act, view } from './game.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let room = '', seat = 0, game, practiceGame, socket, selected, connected = false, reconnectTimer, intentional = false;
+let room = '', seat = 0, game, practiceGame, socket, selected, openPile, connected = false, reconnectTimer, intentional = false;
 const demo = () => practiceDeck();
 function toast(message) { $('toast').textContent = message; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => $('toast').hidden = true, 5500); }
 function status(text) { $('connection').textContent = text; }
@@ -65,7 +65,18 @@ function cardHTML(c, owner, zone) {
 }
 function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
+  if (!hidden && ['discard', 'removed', 'senseiDeck', 'location'].includes(zone)) {
+    const top = data.at(-1), concealed = top?.faceDown && owner !== seat;
+    return `<div class="zone compact-pile" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div><button class="pile-open" data-pile="${owner}:${zone}" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} ${labels[zone]} pile, ${count} cards"><span class="pile-cover ${count > 1 ? 'stacked' : ''} ${!top ? 'empty-cover' : ''}">${top ? top.image && !concealed ? `<img src="${esc(top.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : concealed ? '<img src="/assets/dragon-ball-online-card-back.webp" alt="">' : `<span>${esc(top.name)}</span>` : '<span>Empty</span>'}</span><span class="pile-caption">${count ? 'View pile' : 'Empty pile'}</span></button></div>`;
+  }
   return `<div class="zone" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div>${hidden ? `<div class="pile"><span class="card back" aria-hidden="true"></span>${count}</div><div class="pile-caption">${zone === 'deck' ? 'Life remaining' : 'Private'}</div>` : `<div class="cards">${data.map(c => cardHTML(c, owner, zone)).join('') || '<span class="empty">Empty</span>'}</div>`}</div>`;
+}
+function renderPile() {
+  if (!openPile) return;
+  const { owner, zone } = openPile, cards = game.players[owner]?.zones[zone];
+  if (!Array.isArray(cards)) { $('pile-dialog').close(); openPile = null; return; }
+  $('pile-title').textContent = `${owner === seat ? 'Your' : game.players[owner].name + '’s'} ${labels[zone]} · ${cards.length}`;
+  $('pile-cards').innerHTML = [...cards].reverse().map(c => cardHTML(c, owner, zone).replace('data-movable="true"', '')).join('') || '<p class="empty">This pile is empty.</p>';
 }
 const playZones=['combat','noncombat','drills','allies','dragonballs'];
 function tableHTML(p,owner){
@@ -96,7 +107,7 @@ function render() {
   $('hand-count').textContent=`· ${p.zones.hand.length}`; $('hand').innerHTML=p.zones.hand.map(c=>cardHTML(c,seat,'hand')).join('')||'<p class="empty">No opening hand. Draw three when the game reaches your Draw Step.</p>';
   $('hand').dataset.zone='hand';$('hand').dataset.owner=seat;
   $('search-panel').hidden=!p.searchCards;$('search-cards').innerHTML=p.searchCards?p.searchCards.map(c=>cardHTML(c,seat,'deck')).join(''):'';
-  $('log').innerHTML=game.log.map(x=>`<li><time>${new Date(x.at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}</time>${esc(x.text)}</li>`).join('');$('log').scrollTop=$('log').scrollHeight;renderInspector();
+  $('log').innerHTML=game.log.map(x=>`<li><time>${new Date(x.at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}</time>${esc(x.text)}</li>`).join('');$('log').scrollTop=$('log').scrollHeight;renderInspector();renderPile();
 }
 function getSelected(){if(!selected)return null;const[owner,zone,uid]=selected.split(':'),p=game.players[+owner];const c=zone==='mp'?p?.personalities[p.level-1]:['mastery','sensei'].includes(zone)?p?.[zone]:zone==='deck'?p?.searchCards?.find(c=>c.uid===uid):Array.isArray(p?.zones[zone])?p.zones[zone].find(c=>c.uid===uid):null;return c?{owner:+owner,zone,c}:null;}
 function renderInspector(){
@@ -108,8 +119,10 @@ function renderInspector(){
 document.addEventListener('click', e => {
   if(suppressClick){e.preventDefault();return;}
   if(e.target.closest('#start-draw-test')) { startDrawTest(); return; }
+  const pile = e.target.closest('[data-pile]');
+  if (pile) { const [owner, zone] = pile.dataset.pile.split(':'); openPile = { owner: Number(owner), zone }; renderPile(); $('pile-dialog').showModal(); return; }
   const card = e.target.closest('[data-card]');
-  if (card) { selected = card.dataset.card; render(); return; }
+  if (card) { if (card.closest('#pile-dialog')) { $('pile-dialog').close(); openPile = null; } selected = card.dataset.card; render(); return; }
   if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
   const action = e.target.closest('[data-action]');
   if (action) { if (action.dataset.action === 'concede' && !confirm('Concede this game?')) return; send(action.dataset.action === 'draw3' ? { type: 'draw', count: 3 } : { type: action.dataset.action, ...(action.dataset.combat !== undefined ? { combat: action.dataset.combat === 'true' } : {}) }); }
@@ -151,6 +164,8 @@ $('leave').onclick = () => { intentional = true; clearTimeout(reconnectTimer); s
 $('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
 $('open-deck').onclick = () => { $('deck-error').textContent = ''; $('deck-dialog').showModal(); };
 $('close-deck').onclick = () => $('deck-dialog').close();
+$('close-pile').onclick = () => $('pile-dialog').close();
+$('pile-dialog').addEventListener('close', () => { openPile = null; });
 $('save-deck').onclick = () => { localStorage.setItem('score-deck', JSON.stringify({ leader: $('mp-ids').value, mastery:$('mastery-id').value, sensei:$('sensei-id').value, tokui:$('tokui').value, text: $('deck-text').value })); toast('Deck draft saved in this browser.'); };
 $('demo-deck').onclick = () => { $('deck-text').value = JSON.stringify(demo(), null, 2); $('mp-ids').value = 'PRACTICE-MP-1, PRACTICE-MP-2, PRACTICE-MP-3'; };
 function deckInput() {
