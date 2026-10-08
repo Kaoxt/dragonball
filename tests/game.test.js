@@ -16,3 +16,24 @@ test('Score import permits format exceptions with warnings; rejects old schema a
 test('shuffle preserves card multiset and concession locks gameplay',()=>{const g=playing(),cards=g.players[0].zones.deck,ids=cards.map(c=>c.id).sort();shuffle(cards);assert.deepEqual(cards.map(c=>c.id).sort(),ids);act(g,0,{type:'concede'});assert.equal(g.winner,1);assert.throws(()=>act(g,1,{type:'draw'}));});
 
 test('table positions validate ownership, survive hidden views, and clear on private moves',()=>{const g=playing();act(g,0,{type:'draw'});const uid=g.players[0].zones.hand[0].uid;act(g,0,{type:'move',from:'hand',to:'combat',uid});const a={type:'position',from:'combat',uid,position:{x:.6,y:.4}};act(g,0,a);assert.throws(()=>act(g,1,a));assert.throws(()=>act(g,0,{...a,position:{x:Infinity,y:0}}));act(g,0,{type:'flip',from:'combat',uid});const c=view(g,1).players[0].zones.combat[0];assert.deepEqual(c.position,a.position);assert.equal(c.id,undefined);act(g,0,{type:'move',from:'combat',to:'hand',uid});assert.equal(g.players[0].zones.hand[0].position,undefined);const mp=g.players[0].personalities[0];act(g,0,{type:'position',from:'mp',uid:mp.uid,position:{x:.2,y:.3}});act(g,0,{type:'position',from:'mp',uid:mp.uid,position:null});assert.equal(mp.position,null);});
+
+test('practice card images use WebP and legacy JPG deck imports migrate', async () => {
+  const {practiceDeck, sampleCards} = await import('../public/practice-deck.js');
+  const {existsSync} = await import('node:fs');
+  for (const card of sampleCards) {
+    assert.ok(card.image.endsWith('.webp'));
+    assert.ok(existsSync(new URL(`../public${card.image}`, import.meta.url)));
+  }
+  const input = practiceDeck();
+  input.personalities[0].image = '/assets/cards/goku-super-saiyan-3.jpg';
+  const parsed = parseDeck(input);
+  assert.equal(parsed.personalities[0].image, '/assets/cards/goku-super-saiyan-3.webp');
+  const g = newGame();
+  addPlayer(g, 'a', 'Goku'); addPlayer(g, 'b', 'Buu');
+  for (let seat = 0; seat < 2; seat++) act(g, seat, {type:'load', deck:practiceDeck(Boolean(seat))});
+  act(g, 0, {type:'start'});
+  for (let seat = 0; seat < 2; seat++) act(g, seat, {type:'ready'});
+  act(g, 0, {type:'draw', count:3});
+  assert.equal(g.players[0].zones.hand.length, 3);
+  assert.ok(g.players[0].zones.hand.every(card => card.image.endsWith('.webp')));
+});

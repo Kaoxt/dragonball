@@ -13,7 +13,7 @@ export const sampleCards = [
   ['red-king-cold-observation', 'Red King Cold Observation'],
   ['orange-energy-dan-drill', 'Orange Energy Dan Drill'],
   ['orange-junction-energy-blast', 'Orange Junction Energy Blast'],
-].map(([id, name]) => ({ id, name, image: `/assets/cards/${id}.jpg` }));
+].map(([id, name]) => ({ id, name, image: `/assets/cards/${id}.webp` }));
 
 export function practiceDeck(opponent = false) {
   const lookup = id => ({ ...sampleCards.find(c => c.id === id) });

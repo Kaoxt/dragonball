@@ -6,7 +6,7 @@ export function randomInt(n) { const limit = 4294967296 - 4294967296 % n; let x;
 export function shuffle(cards) { for (let i = cards.length - 1; i > 0; i--) { const j = randomInt(i + 1); [cards[i], cards[j]] = [cards[j], cards[i]]; } for (const c of cards) c.uid = crypto.randomUUID(); }
 const clean = (v, max = 100) => String(v ?? '').trim().slice(0, max);
 const integer = (v, fallback, max = 20) => Number.isInteger(v) && v >= 0 && v <= max ? v : fallback;
-function url(v) { if (!v) return ''; if (typeof v === 'string' && /^\/assets\/cards\/[a-z0-9-]+\.jpg$/.test(v)) return v; try { const u = new URL(v); return u.protocol === 'https:' ? u.href.slice(0, 1000) : ''; } catch { return ''; } }
+function url(v) { if (!v) return ''; if (typeof v === 'string' && /^\/assets\/cards\/[a-z0-9-]+\.(?:jpg|webp)$/.test(v)) return v.replace(/\.jpg$/, '.webp'); try { const u = new URL(v); return u.protocol === 'https:' ? u.href.slice(0, 1000) : ''; } catch { return ''; } }
 function card(v) { check(v && typeof v === 'object', 'Invalid card.'); const id = clean(v.id, 60); check(id, 'Every card needs an ID.'); return { uid: crypto.randomUUID(), id, name: clean(v.name || id), image: url(v.image), rested: false, faceDown: false, stages: 0, pur: integer(v.pur, 1), maxStages: integer(v.maxStages, 10) }; }
 function expand(items, max = 90) { check(Array.isArray(items) && items.length <= max, 'Invalid card list.'); const result = []; for (const item of items) { const qty = Number(item.qty ?? 1); check(Number.isInteger(qty) && qty > 0 && qty <= max && result.length + qty <= max, 'Invalid quantity or too many cards.'); for (let i = 0; i < qty; i++) result.push(card(item)); } return result; }
 export function parseDeck(input) {
