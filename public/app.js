@@ -1,8 +1,9 @@
+import { practiceDeck } from './practice-deck.js';
 import { newGame, addPlayer, act, view } from './game.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let room = '', seat = 0, game, practiceGame, socket, selected, connected = false, reconnectTimer, intentional = false;
-const demo = () => ({ personalities: [1,2,3].map(n => ({ id: `PRACTICE-MP-${n}`, name: `Practice MP level ${n}`, pur: 2 })), cards: Array.from({ length: 17 }, (_, i) => ({ id: `PRACTICE-${i+1}`, name: `Practice card ${i+1}`, qty: i === 16 ? 2 : 3 })) });
+const demo = () => practiceDeck();
 function toast(message) { $('toast').textContent = message; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => $('toast').hidden = true, 5500); }
 function status(text) { $('connection').textContent = text; }
 function send(action) {
@@ -43,13 +44,13 @@ setInterval(() => { if (socket?.readyState === WebSocket.OPEN) socket.send('ping
 function practice() {
   intentional = true; socket?.close(); clearTimeout(reconnectTimer); room = ''; location.hash = ''; seat = 0;
   practiceGame = newGame(); addPlayer(practiceGame, 'practice-a', $('name').value || 'You'); addPlayer(practiceGame, 'practice-b', 'Practice opponent');
-  act(practiceGame, 0, { type: 'load', deck: demo() }); act(practiceGame, 1, { type: 'load', deck: demo() }); act(practiceGame, 0, { type: 'start' });
+  act(practiceGame, 0, { type: 'load', deck: demo() }); act(practiceGame, 1, { type: 'load', deck: practiceDeck(true) }); act(practiceGame, 0, { type: 'start' });
   game = view(practiceGame, seat); selected = null; status('Solo practice · both seats'); render();
 }
 const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Removed', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
 function cardHTML(c, owner, zone) {
   const mine = owner === seat, key = `${owner}:${zone}:${c.uid}`, hidden = c.faceDown && !mine;
-  return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine ? 'data-movable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>`}</button>`;
+  return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine ? 'data-movable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>${c.image&&(c.faceDown||c.rested)?`<span class="card-state">${c.faceDown?'Face down':''}${c.rested?' · Used':''}</span>`:''}`}</button>`;
 }
 function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
@@ -71,7 +72,7 @@ function fieldHTML(p, owner) {
 function render() {
   $('lobby').hidden = true; $('table').hidden = false;
   $('room-label').textContent = practiceGame ? 'SCORE DBZ · SOLO PRACTICE · NO AI' : `SCORE DBZ · PRIVATE TABLE · ${room.slice(0,8)}`;
-  $('switch-seat').hidden = !practiceGame; $('copy-invite').hidden = !!practiceGame; $('open-deck').disabled = game.status !== 'waiting';
+  document.body.classList.add('at-table'); $('switch-seat').hidden = !practiceGame; $('copy-invite').hidden = !!practiceGame; $('open-deck').disabled = game.status !== 'waiting';
   const p=game.players[seat], opponent=game.players[1-seat], playing=game.status==='playing';
   $('table-title').textContent = `${p.name} vs ${opponent?.name || '…'}`;
   $('turn-bar').innerHTML = `<div><h2>${game.status==='finished'?`${esc(game.players[game.winner].name)} wins`:playing?`${esc(game.players[game.turn].name)}’s turn`:game.status==='setup'?'Prepare your personalities':'Prepare your decks'}</h2><p>${playing?`Turn ${game.turnNumber} · ${game.phase} Step`:'Original Score Entertainment DBZ CCG'}</p></div>${playing?game.phase==='Declare'?`<div class="toolbar"><button data-action="phase" data-combat="true" ${game.turn!==seat?'disabled':''}>Declare Combat</button><button data-action="phase" data-combat="false" ${game.turn!==seat?'disabled':''}>Skip Combat</button></div>`:`<button data-action="phase" ${game.turn!==seat?'disabled':''}>${game.phase==='Rejuvenation'?'Pass turn':'Next step'} →</button>`:''}`;
@@ -93,13 +94,14 @@ function getSelected(){if(!selected)return null;const[owner,zone,uid]=selected.s
 function renderInspector(){
   const s=getSelected();if(!s){selected=null;$('inspect').innerHTML='<p>Select a card to inspect or move it. On mobile, tap a card and choose its destination here.</p>';return;}
   const {owner,zone,c}=s,mine=owner===seat,hidden=c.faceDown&&!mine,fixed=['mp','mastery','sensei'].includes(zone);
-  $('inspect').innerHTML=`${hidden?'<img class="preview-image" src="/assets/score-card-back.jpg" alt="Face-down card">':c.image?`<img class="preview-image" src="${esc(c.image)}" alt="${esc(c.name)}" referrerpolicy="no-referrer">`:'<div class="large-placeholder">Z</div>'}<h3>${esc(hidden?'Face-down card':c.name)}</h3><p>${esc(hidden?'Hidden':c.id)} · ${labels[zone]}</p>${mine&&zone==='senseiDeck'&&game.status==='setup'?'<p class="fine">Choose cards in the Sensei swap checkboxes below your table, then swap them together.</p>':''}${mine&&game.status==='playing'&&!fixed?`<label>Move to<select id="destination">${Object.entries(labels).filter(([z])=>z!==zone&&!['mp','mastery','sensei'].includes(z)).map(([z,l])=>`<option value="${z}">${l}${z==='deck'?' (top)':''}</option>`).join('')}${zone!=='deck'?'<option value="deck-bottom">Life Deck (bottom)</option>':''}</select></label><button class="primary wide" id="move-selected">Move card →</button>${!['hand','deck','senseiDeck'].includes(zone)?`<div class="toolbar"><button data-card-action="rest">${c.rested?'Mark unused':'Mark used'}</button><button data-card-action="flip">Flip</button></div>${zone==='allies'?'<div class="toolbar"><button data-card-action="stages" data-delta="-1">−1 stage</button><button data-card-action="stages" data-delta="1">+1 stage</button></div>':''}${zone==='dragonballs'?'<button data-card-action="giveDragonBall">Transfer to opponent</button>':''}`:''}`:''}`;
+  $('inspect').innerHTML=`${hidden?'<img class="preview-image" src="/assets/score-card-back.jpg" alt="Face-down card">':c.image?`<img class="preview-image" src="${esc(c.image)}" alt="${esc(c.name)}" referrerpolicy="no-referrer">`:'<div class="large-placeholder">Z</div>'}${c.image&&!hidden?'<button id="enlarge-card" class="wide">Enlarge card ↗</button>':''}<h3>${esc(hidden?'Face-down card':c.name)}</h3><p>${esc(hidden?'Hidden':c.id)} · ${labels[zone]}</p>${mine&&zone==='senseiDeck'&&game.status==='setup'?'<p class="fine">Choose cards in the Sensei swap checkboxes below your table, then swap them together.</p>':''}${mine&&game.status==='playing'&&!fixed?`<label>Move to<select id="destination">${Object.entries(labels).filter(([z])=>z!==zone&&!['mp','mastery','sensei'].includes(z)).map(([z,l])=>`<option value="${z}">${l}${z==='deck'?' (top)':''}</option>`).join('')}${zone!=='deck'?'<option value="deck-bottom">Life Deck (bottom)</option>':''}</select></label><button class="primary wide" id="move-selected">Move card →</button>${!['hand','deck','senseiDeck'].includes(zone)?`<div class="toolbar"><button data-card-action="rest">${c.rested?'Mark unused':'Mark used'}</button><button data-card-action="flip">Flip</button></div>${zone==='allies'?'<div class="toolbar"><button data-card-action="stages" data-delta="-1">−1 stage</button><button data-card-action="stages" data-delta="1">+1 stage</button></div>':''}${zone==='dragonballs'?'<button data-card-action="giveDragonBall">Transfer to opponent</button>':''}`:''}`:''}`;
 }
 
 document.addEventListener('click', e => {
   if(suppressClick){e.preventDefault();return;}
   const card = e.target.closest('[data-card]');
   if (card) { selected = card.dataset.card; render(); return; }
+  if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
   const action = e.target.closest('[data-action]');
   if (action) { if (action.dataset.action === 'concede' && !confirm('Concede this game?')) return; send(action.dataset.action === 'draw3' ? { type: 'draw', count: 3 } : { type: action.dataset.action, ...(action.dataset.combat !== undefined ? { combat: action.dataset.combat === 'true' } : {}) }); }
   const counter = e.target.closest('[data-counter]'); if (counter) send({ type: 'counter', counter: counter.dataset.counter, delta: Number(counter.dataset.delta) });
@@ -166,3 +168,5 @@ if (/^#[a-f0-9]{32}$/.test(location.hash)) { $('room-code').value = location.has
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') { e.target.hidden = true; e.target.parentElement.classList.remove('has-image'); } }, true);
 
 document.addEventListener('change', e => { if(e.target.id==='first-player')send({type:'first',seat:Number(e.target.value)}); });
+
+$('close-card-zoom').onclick=()=>$('card-zoom').close();
