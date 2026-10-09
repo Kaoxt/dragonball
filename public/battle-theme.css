@@ -54,14 +54,17 @@ body.arena-page{background:#681824;background-image:linear-gradient(90deg,#100b0
 .arena-page .player-meta{margin-bottom:7px;padding-bottom:6px}
 .arena-page .counter-row{margin:5px 0 8px}
 .arena-page .free-table{height:315px;min-height:315px}
-.arena-page .mat-starting-slots{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:8px;z-index:2;pointer-events:none}
-.arena-page .mat-starting-slots .starting-slot{pointer-events:auto;width:94px;min-height:136px;padding:7px;flex:0 1 94px;background:#1b1318e8}
-.arena-page .mat-starting-slots .zone-label{font-size:8px;min-height:17px;margin-bottom:5px;letter-spacing:.4px}
-.arena-page .mat-starting-slots .card{position:relative;left:auto!important;top:auto!important;width:70px;height:98px;min-height:0}
+.arena-page .mat-starting-slots{position:absolute;bottom:10px;left:10px;right:10px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:end;gap:8px;z-index:2;pointer-events:none}
+.arena-page .mat-starting-slots .starting-slot[data-zone="mp"]{grid-column:3}
+.arena-page .mat-starting-slots .starting-slot[data-zone="mastery"]{grid-column:4}
+.arena-page .mat-starting-slots .starting-slot[data-zone="sensei"]{grid-column:5}
+.arena-page .mat-starting-slots .starting-slot{pointer-events:auto;justify-self:center;display:flex;flex-direction:column;align-items:center;width:100%;max-width:70px;min-width:0;min-height:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+.arena-page .mat-starting-slots .zone-label{justify-content:center;text-align:center;font-size:8px;line-height:1.2;min-height:20px;margin-bottom:4px;letter-spacing:0;text-shadow:0 1px 3px #000}
+.arena-page .mat-starting-slots .card{position:relative;left:auto!important;top:auto!important;width:100%;height:auto;aspect-ratio:5/7;min-height:0}
 .arena-page .mat-starting-slots .empty{font-size:9px}
 .arena-page .free-table .table-hint{bottom:8px}
 .arena-page .pile-row{margin-top:7px;gap:6px}
-@media(max-width:650px){.arena-page .player-field{padding:7px}.arena-page .player-meta{flex-wrap:wrap;gap:3px}.arena-page .free-table{height:275px;min-height:275px}.arena-page .mat-starting-slots{top:6px;left:6px;right:6px;gap:5px}.arena-page .mat-starting-slots .starting-slot{width:calc((100% - 10px)/3);flex:0 1 82px;min-height:128px;padding:5px}.arena-page .mat-starting-slots .card{width:min(100%,65px);height:auto;aspect-ratio:5/7}.arena-page .mat-starting-slots .zone-label{font-size:7px;letter-spacing:0;min-height:19px}.arena-page .pile-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.arena-page .pile-row .zone{padding:5px;min-width:0}.arena-page .pile-row .zone-label{font-size:7px;letter-spacing:0;overflow-wrap:anywhere}}
+@media(max-width:650px){.arena-page .player-field{padding:7px}.arena-page .player-meta{flex-wrap:wrap;gap:3px}.arena-page .free-table{height:275px;min-height:275px}.arena-page .mat-starting-slots{bottom:6px;left:6px;right:6px;gap:5px}.arena-page .mat-starting-slots .starting-slot{max-width:65px}.arena-page .mat-starting-slots .card{width:min(100%,65px);height:auto;aspect-ratio:5/7}.arena-page .mat-starting-slots .zone-label{font-size:7px;letter-spacing:0;min-height:19px}.arena-page .pile-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.arena-page .pile-row .zone{padding:5px;min-width:0}.arena-page .pile-row .zone-label{font-size:7px;letter-spacing:0;overflow-wrap:anywhere}}
 
 /* Readable rulebook headings and copy; branded page wordmarks remain separate. */
 .manual .chapter h2,.manual .chapter h3{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:650;font-style:normal;letter-spacing:0;line-height:1.35;text-shadow:none}
