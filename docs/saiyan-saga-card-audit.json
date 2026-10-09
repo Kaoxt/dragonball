@@ -1,0 +1,22 @@
+{
+  "scope": "Published Saiyan Saga cards 1–60; no claim that all 266 are published or audited.",
+  "live_image_check": "All 60 catalog image URLs returned HTTP 200 and decoded as 1070x1470 WebP after empty-image repairs.",
+  "empty_files_repaired": [
+    8,
+    15,
+    37,
+    44
+  ],
+  "title_review": "Visually reviewed all 60 title panels. Corrected confirmed high titles 17,27,48. This is visual review, not a claim of identical pixel metrics across varied panel designs.",
+  "header_corrections": [
+    17,
+    27,
+    48
+  ],
+  "remaining": "61–266 still need recovery/publication; publish completed batches of at most 10 cards.",
+  "editing": "Built-in imagegen; move only header title downward about 8–9px while preserving typography, artwork, rules and border.",
+  "new_header_blobs": {
+    "17": "a3abe546096e574c759c5fcd7a36e6d497a1b2ab",
+    "48": "822042d2f5960d28600cf6b73c81f974ba680efc"
+  }
+}

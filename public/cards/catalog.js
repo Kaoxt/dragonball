@@ -183,7 +183,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-017-hidden-power-level.webp",
+    "image": "/assets/cards/saiyan-017-hidden-power-level.webp?v=a3abe546",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -524,7 +524,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-048-gokus-touch.webp",
+    "image": "/assets/cards/saiyan-048-gokus-touch.webp?v=822042d2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
