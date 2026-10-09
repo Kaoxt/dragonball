@@ -1,4 +1,3 @@
-// Recovered modernized Saiyan Saga cards; publish in batches of ten.
 export const catalog = [
   {
     "id": "saiyan-001-orange-standing-fist-punch",
@@ -85,7 +84,7 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-008-red-knife-hand.webp",
+    "image": "/assets/cards/saiyan-008-red-knife-hand.webp?v=bdd4ba2e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -162,7 +161,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=4bed510b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -294,7 +293,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-027-tiens-physical-attack.webp",
+    "image": "/assets/cards/saiyan-027-tiens-physical-attack.webp?v=05ccabb5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -404,7 +403,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp",
+    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=9df0b8b9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -481,7 +480,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-044-goku-body-throw.webp",
+    "image": "/assets/cards/saiyan-044-goku-body-throw.webp?v=3e430e90",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
