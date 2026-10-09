@@ -1318,5 +1318,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=6fa8695cc8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-121-nappas-physical-resistance",
+    "name": "Nappa's Physical Resistance",
+    "number": "121",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=267ef00a69",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-122-yajirobes-energy-attack",
+    "name": "Yajirobe's Energy Attack",
+    "number": "122",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=fab94dc0d9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-123-chiaotzus-energy-manipulation",
+    "name": "Chiaotzu's Energy Manipulation",
+    "number": "123",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=13528d511a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-124-red-penetrating-defense-drill",
+    "name": "Red Penetrating Defense Drill",
+    "number": "124",
+    "type": "Non-Combat Drill",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=fa8be7e291",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-125-blue-off-balancing-opponent-drill",
+    "name": "Blue Off-Balancing Opponent Drill",
+    "number": "125",
+    "type": "Non-Combat Drill",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=5b321e67ba",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-126-orange-lifting-drill",
+    "name": "Orange Lifting Drill",
+    "number": "126",
+    "type": "Non-Combat Drill",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=f8569690b2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-127-black-takedown-drill",
+    "name": "Black Takedown Drill",
+    "number": "127",
+    "type": "Non-Combat Drill",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=acf479c227",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-128-red-knee-pick-drill",
+    "name": "Red Knee Pick Drill",
+    "number": "128",
+    "type": "Non-Combat Drill",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-128-red-knee-pick-drill.webp?v=5c219e73cb",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-129-blue-deceiving-drill",
+    "name": "Blue Deceiving Drill",
+    "number": "129",
+    "type": "Non-Combat Drill",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-129-blue-deceiving-drill.webp?v=5076193d2e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-130-orange-tripping-drill",
+    "name": "Orange Tripping Drill",
+    "number": "130",
+    "type": "Non-Combat Drill",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=f99941382f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
