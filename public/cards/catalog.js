@@ -2638,5 +2638,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-240-vegetas-trick.webp?v=cc54a49b98",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-241-vegetas-dragonball-capture",
+    "name": "Vegeta's Dragon Ball Capture",
+    "number": "241",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-241-vegetas-dragonball-capture.webp?v=2217d9e8b2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-242-dream-machine-battle",
+    "name": "Dream Machine Battle",
+    "number": "242",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-242-dream-machine-battle.webp?v=fa0719b2a9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-243-saibaimen",
+    "name": "Saibaimen",
+    "number": "243",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=71b06afc1f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-244-saibaimen",
+    "name": "Saibaimen",
+    "number": "244",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-244-saibaimen.webp?v=e547d9e31a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-245-saibaimen",
+    "name": "Saibaimen",
+    "number": "245",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=354635d439",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-246-saibaimen",
+    "name": "Saibaimen",
+    "number": "246",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=faf0445856",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-247-gokus-truce",
+    "name": "Goku's Truce",
+    "number": "247",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-247-gokus-truce.webp?v=34a0104879",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
+  },
+  {
+    "id": "saiyan-248-gokus-plan",
+    "name": "Goku's Plan",
+    "number": "248",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-248-gokus-plan.webp?v=86a66726c1",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
+  },
+  {
+    "id": "saiyan-249-medic-kit",
+    "name": "Medic Kit",
+    "number": "249",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-249-medic-kit.webp?v=0a676f94da",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
+  },
+  {
+    "id": "saiyan-250-chiaotzus-physical-defense",
+    "name": "Chiaotzu's Physical Defense",
+    "number": "250",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=49b36312df",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
   }
 ];
