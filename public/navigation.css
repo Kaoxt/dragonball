@@ -11,3 +11,9 @@ body .site-header nav a:hover,body .site-header nav a[aria-current=page]{backgro
 .site-header #connection{display:none}
 @media(min-width:901px) and (max-width:1100px){body .site-header{gap:8px;padding-left:16px}body .site-header .brand-logo{width:145px}body .site-header nav a,body .site-header nav a[aria-current=page]{padding:8px 4px}.nav-wordmark{zoom:.82}}
 @media(max-width:900px){body .site-header nav a,body .site-header nav a[aria-current=page]{justify-content:flex-start;padding:10px 18px;min-height:48px}}
+
+/* Page headings reuse the approved navigation lettering. */
+body h1.page-wordmark{max-width:100%;line-height:1;font-size:0;letter-spacing:0;text-shadow:none;margin:16px 0}
+.page-wordmark img{display:block;width:auto;max-width:100%;height:clamp(44px,6vw,68px);object-fit:contain;object-position:left center;filter:url('/assets/navigation-edge.svg#crisp');image-rendering:auto}
+.forums-placeholder .page-wordmark img{object-position:center}
+@media print{.page-wordmark img{filter:brightness(0)}}
