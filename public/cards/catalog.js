@@ -161,7 +161,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=3de439e0ca",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=7e2159fe07",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -172,7 +172,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=aff7863ed6",
+    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=f7f81f9af2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
