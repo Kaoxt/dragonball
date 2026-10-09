@@ -1,7 +1,7 @@
 (() => {
  const root=document.getElementById('account-content');
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- let mode='login',ownerCode=new URLSearchParams(location.hash.slice(1)).get('setup')||'',user=null;
+ let mode=new URLSearchParams(location.search).get('mode')==='register'?'register':'login',ownerCode=new URLSearchParams(location.hash.slice(1)).get('setup')||'',user=null;
  const next=(()=>{try{const u=new URL(new URLSearchParams(location.search).get('next')||'/forums/',location.origin);return u.origin===location.origin?u.pathname+u.search+u.hash:'/forums/';}catch{return '/forums/';}})();
  async function api(action,data){const r=await fetch('/api/auth/'+action,{credentials:'same-origin',cache:'no-store',...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});const result=await r.json();if(!r.ok)throw Error(result.error||'Please try again.');return result;}
  const status='<p class="account-status" role="status" tabindex="-1"></p>';
