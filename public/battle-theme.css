@@ -161,3 +161,9 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
  .arena-page .workspace>aside #log{max-height:min(40vh,320px);max-height:min(40dvh,320px);overflow-y:auto;overscroll-behavior:contain}
  .arena-page .workspace>aside #chat-form{flex-shrink:0}
 }
+
+/* Tidy played-card grid with room to rotate cards sideways. */
+.arena-page .arena-mat .free-table{flex:none;min-height:150px;touch-action:manipulation}
+.arena-page .free-table .card.rested,.arena-page .free-table .card.rested:hover{transform:rotate(90deg);opacity:1}
+.arena-page .arena-dock{margin-top:auto}
+.arena-page .arena-dock .pile{gap:0}

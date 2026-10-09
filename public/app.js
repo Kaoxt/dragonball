@@ -69,9 +69,9 @@ function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
   if (!hidden && ['discard', 'removed', 'senseiDeck', 'location'].includes(zone)) {
     const top = data.at(-1), concealed = top?.faceDown && owner !== seat;
-    return `<div class="zone compact-pile" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div><button class="pile-open" data-pile="${owner}:${zone}" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} ${labels[zone]} pile, ${count} cards"><span class="pile-cover ${count > 1 ? 'stacked' : ''} ${!top ? 'empty-cover' : ''}">${top ? top.image && !concealed ? `<img src="${esc(top.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : concealed ? '<img src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="">' : `<span>${esc(top.name)}</span>` : '<span>Empty</span>'}</span><span class="pile-caption">${count ? 'View pile' : 'Empty pile'}</span></button></div>`;
+    return `<div class="zone compact-pile" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div><button class="pile-open" data-pile="${owner}:${zone}" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} ${labels[zone]} pile, ${count} cards"><span class="pile-cover ${count > 1 ? 'stacked' : ''} ${!top ? 'empty-cover' : ''}">${top ? top.image && !concealed ? `<img src="${esc(top.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : concealed ? '<img src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="">' : `<span>${esc(top.name)}</span>` : '<span>Empty</span>'}</span></button></div>`;
   }
-  return `<div class="zone" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div>${hidden ? `<div class="pile"><span class="card back" aria-hidden="true"></span>${count}</div>${zone === 'deck' ? '' : '<div class="pile-caption">Private</div>'}` : `<div class="cards">${data.map(c => cardHTML(c, owner, zone)).join('') || '<span class="empty">Empty</span>'}</div>`}</div>`;
+  return `<div class="zone" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div>${hidden ? `<div class="pile"><span class="card back" aria-hidden="true"></span></div>` : `<div class="cards">${data.map(c => cardHTML(c, owner, zone)).join('') || '<span class="empty">Empty</span>'}</div>`}</div>`;
 }
 function renderPile() {
   if (!openPile) return;
@@ -90,6 +90,21 @@ function tableHTML(p,owner){
   const slot=z=>`<div class="zone starting-slot" data-zone="${z}" data-owner="${owner}"><div class="zone-label">${z==='mp'?`Main Personality · L${p.level}`:labels[z]}</div>${fixed(z)&&!fixed(z).position?cardHTML(fixed(z),owner,z):'<span class="empty pile-cover">'+(fixed(z)?'Drop here to return':'No card')+'</span>'}</div>`;
   return `<div class="arena-mat"><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat">${['mp','mastery','sensei'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div><div class="arena-dock">${['removed','discard','deck'].map(z=>zoneHTML(p,owner,z)).join('')}${['mp','mastery','sensei'].map(slot).join('')}${zoneHTML(p,owner,'senseiDeck')}</div></div>`;
 }
+function layoutPlayedCards(){
+ document.querySelectorAll('.free-table').forEach(table=>{
+  const cards=[...table.querySelectorAll('[data-card]')], columns=Math.max(1,Math.floor(table.clientWidth/120));
+  const rows=Math.max(1,Math.ceil(cards.length/columns)), used=new Set(), cell=table.clientWidth/columns;
+  table.style.height=Math.max(150,rows*134)+'px';
+  cards.forEach((card,index)=>{
+   const parts=card.dataset.card.split(':'),p=game.players[+parts[0]],source=parts[1]==='mp'?p.personalities[p.level-1]:['mastery','sensei'].includes(parts[1])?p[parts[1]]:p.zones[parts[1]].find(c=>c.uid===parts[2]);
+   let slot=source?.position?Math.round(source.position.x*(columns-1))+Math.round(source.position.y*(rows-1))*columns:index;
+   while(used.has(slot))slot=(slot+1)%(rows*columns);
+   used.add(slot);card.style.left=(slot%columns*cell+(cell-80)/2)+'px';card.style.top=(Math.floor(slot/columns)*134+10)+'px';
+  });
+ });
+}
+window.addEventListener('resize',()=>{if(game)layoutPlayedCards();});
+let cardTap=null, cardTapTimer;
 function counterHTML(p, owner, name, title) { return `<div class="counter"><span>${title}</span><strong>${p[name]}</strong>${owner === seat && ['setup','playing'].includes(game.status) ? `<button data-counter="${name}" data-delta="-1" aria-label="Decrease ${title}">−</button><button data-counter="${name}" data-delta="1" aria-label="Increase ${title}">+</button>` : ''}</div>`; }
 function mpReadout(p,owner) {
  const rating=personalityPower(p), known=!!powerChart(p.personalities[p.level-1]);
@@ -113,7 +128,7 @@ function render() {
   $('setup-bar').innerHTML = game.status==='waiting'?`${p.loaded?'Your deck is ready. ':'Load your deck to get started. '}${seat===0?`<button data-action="start" ${game.players.length<2||!game.players.every(x=>x.loaded)?'disabled':''}>Shuffle & start setup</button>`:'The host starts once both decks are loaded.'}`:game.status==='setup'?`Starting MP: 5 stages above 0, anger 0. Resolve Double Power, alignment, Tokui-Waza, and Sensei choices manually. ${seat===0?`<label>First player<select id="first-player">${game.players.map((x,i)=>`<option value="${i}" ${game.turn===i?'selected':''}>${esc(x.name)}</option>`).join('')}</select></label>`:`${esc(game.players[game.turn].name)} goes first.`}${p.ready?' You are ready.':'<button data-action="ready">Finish setup</button>'}`:'';
   if (practiceGame && game.status === 'setup') $('setup-bar').insertAdjacentHTML('beforeend', '<button id="start-draw-test" class="primary">Start test · draw 3 cards</button>');
   $('board').innerHTML=fieldHTML(opponent,1-seat)+fieldHTML(p,seat);
-  document.querySelectorAll('.free-table [data-x]').forEach(c=>{c.style.left=`calc(${+c.dataset.x*100}% - ${+c.dataset.x*80}px)`;c.style.top=`calc(${+c.dataset.y*100}% - ${+c.dataset.y*114}px)`;});
+  layoutPlayedCards();
   const controls=[['undo','Undo'],['draw3','Draw 3'],['draw','Draw 1'],['shuffle','Shuffle Life Deck'],['search','Search Life Deck'],['damage','Flip 1 damage'],['powerUp','Power up'],['rejuvenate','Rejuvenate'],['concede','Concede']];
   $('controls').innerHTML=controls.map(([action,label])=>`<button data-action="${action}" ${(action==='undo'?!game.canUndo:!playing)?'disabled':''}>${label}</button>`).join('');
   $('hand-count').textContent=`· ${p.zones.hand.length}`; $('hand').innerHTML=p.zones.hand.map(c=>cardHTML(c,seat,'hand')).join('')||'<p class="empty">No opening hand. Draw three when the game reaches your Draw Step.</p>';
@@ -137,6 +152,11 @@ document.addEventListener('click', e => {
   const preview=e.target.closest('[data-mp-preview]'); if(preview){const [owner,index]=preview.dataset.mpPreview.split(':').map(Number),c=game.players[owner].personalities[index];if(c.image){$('card-zoom-image').src=c.image;$('card-zoom-image').alt=c.name;$('card-zoom').showModal();}return;}
   const card = e.target.closest('[data-card]');
   if(card&&card.dataset.card.split(':')[1]==='mp'){openPile={owner:Number(card.dataset.card.split(':')[0]),zone:'mp'};renderPile();$('pile-dialog').showModal();return;}
+  if(card&&card.closest('.free-table')&&card.dataset.card.startsWith(seat+':')&&playZones.includes(card.dataset.card.split(':')[1])&&game.status==='playing'){
+   const key=card.dataset.card;
+   if(cardTap===key){clearTimeout(cardTapTimer);cardTap=null;const [,from,uid]=key.split(':');send({type:'rest',from,uid});return;}
+   clearTimeout(cardTapTimer);cardTap=key;cardTapTimer=setTimeout(()=>{cardTap=null;selected=key;render();},300);return;
+  }
   if (card) { if (card.closest('#pile-dialog')) { $('pile-dialog').close(); openPile = null; } selected = card.dataset.card; render(); return; }
   if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
   const action = e.target.closest('[data-action]');
@@ -156,7 +176,7 @@ document.addEventListener('pointerdown',e=>{
 document.addEventListener('pointermove',e=>{
  const d=dragging;if(!d||e.pointerId!==d.pointer)return;
  if(!d.ghost&&Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<7)return;
- if(!d.ghost){d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
+ if(!d.ghost){clearTimeout(cardTapTimer);cardTap=null;d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
  d.y=e.clientY;e.preventDefault();d.ghost.style.left=(e.clientX-35)+'px';d.ghost.style.top=(e.clientY-45)+'px';
 },{passive:false});
 document.addEventListener('pointerup',e=>{
