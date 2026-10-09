@@ -439,5 +439,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-041-straining-head-lock-move",
+    "name": "Straining Head Lock Move",
+    "number": "41",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-041-straining-head-lock-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-042-straining-rolling-escape-move",
+    "name": "Straining Rolling Escape Move",
+    "number": "42",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-042-straining-rolling-escape-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-043-senzu-bean",
+    "name": "Senzu Bean",
+    "number": "43",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-043-senzu-bean.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-044-goku-body-throw",
+    "name": "Goku Body Throw",
+    "number": "44",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-044-goku-body-throw.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-045-saiyan-city-destruction",
+    "name": "Saiyan City Destruction",
+    "number": "45",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-046-goku-anger-attack",
+    "name": "Goku Anger Attack",
+    "number": "46",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-046-goku-anger-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-047-raditz-total-defense",
+    "name": "Raditz Total Defense",
+    "number": "47",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-047-raditz-total-defense.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-048-gokus-touch",
+    "name": "Goku’s Touch",
+    "number": "48",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-048-gokus-touch.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-049-orange-wrist-flex-takedown",
+    "name": "Orange Wrist Flex Takedown",
+    "number": "49",
+    "type": "Physical Combat",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-050-orange-shoulder-throw",
+    "name": "Orange Shoulder Throw",
+    "number": "50",
+    "type": "Physical Combat",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-050-orange-shoulder-throw.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   }
 ];
