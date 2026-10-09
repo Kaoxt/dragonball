@@ -19,7 +19,7 @@ function render(){
  }));
 }
 function openCard(c){
- $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':'ARENA COLLECTION';
+ $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
  $('detail-meta').replaceChildren(...[['Number',c.number],['Type',c.type],['Style',c.style],['Collection',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.image;$('download').download=c.id+'.webp';$('source').hidden=!c.source;if(c.source)$('source').href=c.source;
  $('preview-note').hidden=c.status!=='Preview';$('card-detail').showModal();
