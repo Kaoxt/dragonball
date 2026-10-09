@@ -988,5 +988,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-090-mothers-touch.webp?v=68c451573c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-091-saiyan-energy-throw",
+    "name": "Saiyan Energy Throw",
+    "number": "91",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=e77b547445",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-092-saiyan-energy-defense",
+    "name": "Saiyan Energy Defense",
+    "number": "92",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=5be4427ad5",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-093-saiyan-mental-energy-attack",
+    "name": "Saiyan Mental Energy Attack",
+    "number": "93",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=8858469d70",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-094-saiyan-energy-blast",
+    "name": "Saiyan Energy Blast",
+    "number": "94",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=d81f654e97",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-095-saiyan-energy-aura",
+    "name": "Saiyan Energy Aura",
+    "number": "95",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=8edee54af0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-096-saiyan-sweeping-defense",
+    "name": "Saiyan Sweeping Defense",
+    "number": "96",
+    "type": "Physical Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=5082f9c19c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-097-power-up-more",
+    "name": "Power Up More!",
+    "number": "97",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-097-power-up-more.webp?v=7a6a43f567",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-098-power-up-the-most",
+    "name": "Power Up the Most!",
+    "number": "98",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-098-power-up-the-most.webp?v=bedaedfe89",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-099-blazing-anger",
+    "name": "Blazing Anger!",
+    "number": "99",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-099-blazing-anger.webp?v=3600feac14",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-100-vegetas-suprise-defense",
+    "name": "Vegeta's Suprise Defense",
+    "number": "100",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=8d652756b2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
