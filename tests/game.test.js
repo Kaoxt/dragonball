@@ -60,3 +60,19 @@ test('printed personality chart follows stage and active level for both players'
  const d=deck('custom');d.personalities[0].powerLevels=[0,100,500];assert.deepEqual(parseDeck(d).personalities[0].powerLevels,[0,100,500]);assert.equal(parseDeck(d).personalities[0].maxStages,2);
  d.personalities[0].powerLevels=[0,-1];assert.equal(parseDeck(d).personalities[0].powerLevels,undefined);
 });
+
+test('played cards are named in the shared log without revealing private movements',()=>{
+ const g=playing();act(g,0,{type:'draw'});
+ let c=g.players[0].zones.hand[0];c.name='Krillin’s Heat Seeking Blast';
+ act(g,0,{type:'move',from:'hand',to:'combat',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice played Krillin’s Heat Seeking Blast from hand to combat.');
+ act(g,0,{type:'move',from:'combat',to:'discard',uid:c.uid});
+ assert.equal(g.log.at(-1).text,'Alice moved Krillin’s Heat Seeking Blast from combat to discard pile.');
+ act(g,0,{type:'draw'});c=g.players[0].zones.hand[0];c.name='Private card identity';
+ act(g,0,{type:'move',from:'hand',to:'deck',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice moved a card from hand to Life Deck (top).');
+ act(g,0,{type:'draw'});c=g.players[0].zones.hand[0];
+ act(g,0,{type:'move',from:'hand',to:'combat',uid:c.uid});act(g,0,{type:'flip',from:'combat',uid:c.uid});
+ act(g,0,{type:'move',from:'combat',to:'hand',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice moved a card from combat to hand.');
+});
