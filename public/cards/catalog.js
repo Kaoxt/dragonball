@@ -768,5 +768,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=7549d3905d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-071-black-back-kick",
+    "name": "Black Back Kick",
+    "number": "71",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=5244964e6e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-072-black-axe-heel-kick",
+    "name": "Black Axe Heel Kick",
+    "number": "72",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=8fb7c4a427",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-073-black-rear-spin-kick",
+    "name": "Black Rear Spin Kick",
+    "number": "73",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=c4d3d9018e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-074-black-jump-turn-kick",
+    "name": "Black Jump Turn Kick",
+    "number": "74",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=e0a487756b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-075-earth-dragon-ball-3",
+    "name": "Earth Dragon Ball 3",
+    "number": "75",
+    "type": "Dragon Ball",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=95644c78e0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-076-earth-dragon-ball-4",
+    "name": "Earth Dragon Ball 4",
+    "number": "76",
+    "type": "Dragon Ball",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=80beccc3f6",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-077-earth-dragon-ball-5",
+    "name": "Earth Dragon Ball 5",
+    "number": "77",
+    "type": "Dragon Ball",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=a7ab37e36a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-078-roshis-training",
+    "name": "Roshi's Training",
+    "number": "78",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-078-roshis-training.webp?v=46dda1e6b7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-079-king-kai-training",
+    "name": "King Kai Training",
+    "number": "79",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-079-king-kai-training.webp?v=a1f9fc220e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-080-saiyan-training",
+    "name": "Saiyan Training",
+    "number": "80",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=426f97ae71",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
