@@ -82,7 +82,7 @@ function renderPile() {
   if(zone==='mp') { $('pile-cards').innerHTML=cards.map((c,i)=>`<div class="mp-stack-card ${i+1===player.level?'active-level':''}"><strong>Level ${i+1}${i+1===player.level?' · Current':''}</strong><button class="card has-image" data-mp-preview="${owner}:${i}" aria-label="View ${esc(c.name)}, level ${i+1}">${c.image?`<img src="${esc(c.image)}" alt="${esc(c.name)}">`:esc(c.name)}</button></div>`).join('');return; }
   $('pile-cards').innerHTML = [...cards].reverse().map(c => cardHTML(c, owner, zone).replace('data-movable="true"', '')).join('') || '<p class="empty">This pile is empty.</p>';
 }
-const playZones=['combat','noncombat','drills','allies','dragonballs'];
+const playZones=['combat','noncombat','drills','allies','dragonballs','location'];
 function tableHTML(p,owner){
   const fixed=z=>z==='mp'?p.personalities[p.level-1]:p[z];
   let n=0;
@@ -97,7 +97,7 @@ function mpReadout(p,owner) {
 }
 function fieldHTML(p, owner) {
   if (!p) return '<section class="player-field opponent"><p>Waiting for your opponent. Copy the invite to bring them to the table.</p></section>';
-  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'}</strong>${mpReadout(p,owner)}</div>${tableHTML(p,owner)}<div class="arena-extras">${zoneHTML(p,owner,'location')}${owner!==seat?zoneHTML(p,owner,'hand'):''}</div>${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<details class="sensei-choices"><summary>Sensei setup swaps</summary>${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></details>`:''}</section>`;
+  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'} <span class="hand-size">· Hand: ${Array.isArray(p.zones.hand)?p.zones.hand.length:p.zones.hand.count}</span></strong>${mpReadout(p,owner)}</div>${tableHTML(p,owner)}${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<details class="sensei-choices"><summary>Sensei setup swaps</summary>${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></details>`:''}</section>`;
 }
 
 function render() {
