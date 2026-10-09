@@ -130,3 +130,19 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 .arena-page .arena-extras .pile{font-size:12px}
 .arena-page .sensei-choices{margin-top:8px;font-size:12px}
 @media(max-width:650px){.arena-page .arena-mat{padding:5px}.arena-page .arena-dock{gap:4px}.arena-page .arena-dock .zone-label{font-size:7px;min-height:26px}.arena-page .arena-dock .pile-caption{font-size:7px}.arena-page .arena-mat .free-table{height:130px;min-height:130px}}
+
+/* MP status shares the player header; the centered dock anchors the mat bottom. */
+.arena-page .player-meta{align-items:center;gap:10px;flex-wrap:wrap}
+.arena-page .player-meta>strong{flex:1 0 auto;font-size:12px}
+.arena-page .player-meta .mp-readout{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px 12px;margin:0;text-align:right}
+.arena-page .player-meta .mp-readout .counter-row{margin:0;gap:4px}
+.arena-page .player-meta .mp-readout .counter{padding:4px 5px;font-size:9px}
+.arena-page .player-meta .mp-readout .counter button{width:22px;height:22px;padding:0}
+.arena-page .player-meta .power-readout{font-size:10px;white-space:nowrap}
+.arena-page .arena-mat{display:flex;flex-direction:column;min-height:310px}
+.arena-page .arena-mat .free-table{flex:1;min-height:150px}
+.arena-page .arena-dock{width:100%;margin:0 auto}
+.mp-stack-card{display:flex;flex-direction:column;align-items:center;gap:8px;padding:9px;border:1px solid #574047;border-radius:8px;font-size:12px}
+.mp-stack-card.active-level{border-color:#ff949d;background:#40242e}
+#pile-cards .mp-stack-card .card{width:120px;height:168px}
+@media(max-width:650px){.arena-page .player-meta .mp-readout{gap:5px;justify-content:flex-start}.arena-page .arena-mat{min-height:265px}.arena-page .player-meta>strong{font-size:11px}.arena-page .player-meta .mp-readout .counter{font-size:8px}.arena-page .player-meta .mp-readout .counter strong{font-size:13px}#pile-cards .mp-stack-card{width:calc((100% - 14px)/2)}#pile-cards .mp-stack-card .card{width:100%;height:auto;aspect-ratio:5/7}}

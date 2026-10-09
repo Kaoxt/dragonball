@@ -45,3 +45,18 @@ test('manual power is shared, validated, and cleared when MP stages or level cha
  act(g,0,{type:'power',value:42});act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,null);
  act(g,0,{type:'power',value:0});assert.equal(view(g,1).players[0].power,0);
 });
+
+test('printed personality chart follows stage and active level for both players',async()=>{
+ const {powerChart}=await import('../public/personality-power.js');
+ const {catalog}=await import('../public/cards/catalog.js');
+ for(const c of catalog.filter(c=>c.type==='Main Personality')) {assert.equal(powerChart(c)?.length,11,c.id);assert.equal(powerChart(c)[0],0);}
+ const g=setup();
+ g.players[0].personalities[0].id='saiyan-158-goku';g.players[0].personalities[1].id='saiyan-159-goku';g.players[0].stages=1;
+ assert.equal(view(g,0).players[0].power,500);assert.equal(view(g,1).players[0].power,500);
+ act(g,0,{type:'counter',counter:'stages',delta:1});assert.equal(view(g,1).players[0].power,600);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,1).players[0].power,3700);
+ g.players[0].stages=0;assert.equal(view(g,1).players[0].power,0);
+ assert.equal(powerChart({image:'/assets/cards/goku-super-saiyan-3.webp'})[1],6025000);
+ const d=deck('custom');d.personalities[0].powerLevels=[0,100,500];assert.deepEqual(parseDeck(d).personalities[0].powerLevels,[0,100,500]);assert.equal(parseDeck(d).personalities[0].maxStages,2);
+ d.personalities[0].powerLevels=[0,-1];assert.equal(parseDeck(d).personalities[0].powerLevels,undefined);
+});

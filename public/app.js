@@ -1,3 +1,4 @@
+import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js';
 import { newGame, addPlayer, act, view } from './game.js';
@@ -74,9 +75,11 @@ function zoneHTML(p, owner, zone) {
 }
 function renderPile() {
   if (!openPile) return;
-  const { owner, zone } = openPile, cards = game.players[owner]?.zones[zone];
+  const { owner, zone } = openPile, player=game.players[owner], cards = zone==='mp'?player?.personalities:player?.zones[zone];
   if (!Array.isArray(cards)) { $('pile-dialog').close(); openPile = null; return; }
   $('pile-title').textContent = `${owner === seat ? 'Your' : game.players[owner].name + '’s'} ${labels[zone]} · ${cards.length}`;
+  const help=$('pile-dialog').querySelector('p.fine'); if(help)help.textContent=zone==='mp'?'All Main Personality levels in this stack. Select a card to enlarge it.':'Top card first. Select a card to inspect it or move your card.';
+  if(zone==='mp') { $('pile-cards').innerHTML=cards.map((c,i)=>`<div class="mp-stack-card ${i+1===player.level?'active-level':''}"><strong>Level ${i+1}${i+1===player.level?' · Current':''}</strong><button class="card has-image" data-mp-preview="${owner}:${i}" aria-label="View ${esc(c.name)}, level ${i+1}">${c.image?`<img src="${esc(c.image)}" alt="${esc(c.name)}">`:esc(c.name)}</button></div>`).join('');return; }
   $('pile-cards').innerHTML = [...cards].reverse().map(c => cardHTML(c, owner, zone).replace('data-movable="true"', '')).join('') || '<p class="empty">This pile is empty.</p>';
 }
 const playZones=['combat','noncombat','drills','allies','dragonballs'];
@@ -85,13 +88,16 @@ function tableHTML(p,owner){
   let n=0;
   const placed=(c,z)=>{const q=c.position||{x:(n%6)/6,y:Math.min(.9,Math.floor(n/6)*.22)};n++;return cardHTML(c,owner,z).replace('<button ',`<button data-x="${q.x}" data-y="${q.y}" `);};
   const slot=z=>`<div class="zone starting-slot" data-zone="${z}" data-owner="${owner}"><div class="zone-label">${z==='mp'?`Main Personality · L${p.level}`:labels[z]}</div>${fixed(z)&&!fixed(z).position?cardHTML(fixed(z),owner,z):'<span class="empty pile-cover">'+(fixed(z)?'Drop here to return':'No card')+'</span>'}</div>`;
-  const power=p.power==null?'—':p.power.toLocaleString();
-  return `<div class="arena-mat"><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat">${['mp','mastery','sensei'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div><div class="arena-dock">${['removed','discard','deck'].map(z=>zoneHTML(p,owner,z)).join('')}${['mp','mastery','sensei'].map(slot).join('')}${zoneHTML(p,owner,'senseiDeck')}</div><div class="mp-readout" aria-label="${esc(p.name)} Main Personality counters"><div class="power-readout">Power <strong>${power}</strong>${owner===seat&&['setup','playing'].includes(game.status)?'<button data-edit-power aria-label="Set current power from printed card">Edit</button>':''}<small>Manual rating</small></div><div class="counter-row">${counterHTML(p,owner,'level','Level')}${counterHTML(p,owner,'stages','Stages above 0')}${counterHTML(p,owner,'anger','Anger')}</div></div></div>`;
+  return `<div class="arena-mat"><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat">${['mp','mastery','sensei'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div><div class="arena-dock">${['removed','discard','deck'].map(z=>zoneHTML(p,owner,z)).join('')}${['mp','mastery','sensei'].map(slot).join('')}${zoneHTML(p,owner,'senseiDeck')}</div></div>`;
 }
 function counterHTML(p, owner, name, title) { return `<div class="counter"><span>${title}</span><strong>${p[name]}</strong>${owner === seat && ['setup','playing'].includes(game.status) ? `<button data-counter="${name}" data-delta="-1" aria-label="Decrease ${title}">−</button><button data-counter="${name}" data-delta="1" aria-label="Increase ${title}">+</button>` : ''}</div>`; }
+function mpReadout(p,owner) {
+ const rating=personalityPower(p), known=!!powerChart(p.personalities[p.level-1]);
+ return `<div class="mp-readout" aria-label="${esc(p.name)} Main Personality counters"><div class="power-readout">Power <strong>${rating==null?'—':rating.toLocaleString()}</strong>${!known&&owner===seat&&['setup','playing'].includes(game.status)?'<button data-edit-power aria-label="Set power for an uncharted card">Edit</button>':''}</div><div class="counter-row">${counterHTML(p,owner,'level','Level')}${counterHTML(p,owner,'stages','Stages above 0')}${counterHTML(p,owner,'anger','Anger')}</div></div>`;
+}
 function fieldHTML(p, owner) {
   if (!p) return '<section class="player-field opponent"><p>Waiting for your opponent. Copy the invite to bring them to the table.</p></section>';
-  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'}</strong><span>${p.loaded ? 'Deck loaded' : 'No deck'}${p.tokui ? ` · ${esc(p.tokui)} Tokui-Waza` : ''}</span></div>${tableHTML(p,owner)}<div class="arena-extras">${zoneHTML(p,owner,'location')}${owner!==seat?zoneHTML(p,owner,'hand'):''}</div>${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<details class="sensei-choices"><summary>Sensei setup swaps</summary>${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></details>`:''}</section>`;
+  return `<section class="player-field ${owner !== seat ? 'opponent' : ''}"><div class="player-meta"><strong>${esc(p.name)} ${owner === seat ? '· You' : '· Opponent'}</strong>${mpReadout(p,owner)}</div>${tableHTML(p,owner)}<div class="arena-extras">${zoneHTML(p,owner,'location')}${owner!==seat?zoneHTML(p,owner,'hand'):''}</div>${owner===seat&&game.status==='setup'&&!p.ready&&!p.senseiSwapped&&p.zones.senseiDeck.length?`<details class="sensei-choices"><summary>Sensei setup swaps</summary>${p.zones.senseiDeck.map(c=>`<label><input type="checkbox" class="sensei-choice" value="${esc(c.uid)}"> ${esc(c.name)}</label>`).join('')}<button id="swap-sensei">Reveal & swap selected Sensei cards</button></details>`:''}</section>`;
 }
 
 function render() {
@@ -125,7 +131,9 @@ document.addEventListener('click', e => {
   if(e.target.closest('[data-edit-power]')) { const value=prompt('Current power from the printed card at your current stage:',game.players[seat].power??''); if(value!==null&&value.trim()!=='')send({type:'power',value:Number(value.replaceAll(',',''))}); return; }
   const pile = e.target.closest('[data-pile]');
   if (pile) { const [owner, zone] = pile.dataset.pile.split(':'); openPile = { owner: Number(owner), zone }; renderPile(); $('pile-dialog').showModal(); return; }
+  const preview=e.target.closest('[data-mp-preview]'); if(preview){const [owner,index]=preview.dataset.mpPreview.split(':').map(Number),c=game.players[owner].personalities[index];if(c.image){$('card-zoom-image').src=c.image;$('card-zoom-image').alt=c.name;$('card-zoom').showModal();}return;}
   const card = e.target.closest('[data-card]');
+  if(card&&card.dataset.card.split(':')[1]==='mp'){openPile={owner:Number(card.dataset.card.split(':')[0]),zone:'mp'};renderPile();$('pile-dialog').showModal();return;}
   if (card) { if (card.closest('#pile-dialog')) { $('pile-dialog').close(); openPile = null; } selected = card.dataset.card; render(); return; }
   if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
   const action = e.target.closest('[data-action]');
