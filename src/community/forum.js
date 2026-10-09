@@ -21,6 +21,8 @@ export async function forumDb(env) {
     db.prepare('CREATE INDEX IF NOT EXISTS forum_topics_member ON forum_topics(member_id, created_at DESC)'),
     db.prepare('CREATE INDEX IF NOT EXISTS forum_replies_topic ON forum_replies(topic_id, hidden, id)'),
     db.prepare('CREATE INDEX IF NOT EXISTS forum_replies_member ON forum_replies(member_id, created_at DESC)'),
+    db.prepare('CREATE TABLE IF NOT EXISTS forum_topic_views (topic_id INTEGER NOT NULL,viewer_hash TEXT NOT NULL,last_viewed_at INTEGER NOT NULL,PRIMARY KEY(topic_id,viewer_hash))'),
+    db.prepare('CREATE INDEX IF NOT EXISTS forum_topic_views_expiry ON forum_topic_views(last_viewed_at)'),
     ...notificationSchema.map(sql => db.prepare(sql)),
     db.prepare('CREATE TABLE IF NOT EXISTS forum_rate_limits (user_id TEXT NOT NULL,scope TEXT NOT NULL,window_start INTEGER NOT NULL,count INTEGER NOT NULL,PRIMARY KEY(user_id,scope))'),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_settings (id INTEGER PRIMARY KEY CHECK(id=1), posting_open INTEGER NOT NULL DEFAULT 1)`),
@@ -32,6 +34,7 @@ export async function forumDb(env) {
     db.prepare("UPDATE forum_categories SET name='Rules & Rulings' WHERE id=3 AND name COLLATE BINARY='Rules & rulings'"),
   ])).then(async()=>{
     const columns=await db.prepare('PRAGMA table_info(forum_topics)').all();
+    if(!columns.results.some(c=>c.name==='view_count'))await db.prepare('ALTER TABLE forum_topics ADD COLUMN view_count INTEGER NOT NULL DEFAULT 0').run();
     if(!columns.results.some(c=>c.name==='github_release_url')){
       try{await db.prepare("ALTER TABLE forum_topics ADD COLUMN github_release_url TEXT NOT NULL DEFAULT ''").run();}
       catch(e){if(!(await db.prepare('PRAGMA table_info(forum_topics)').all()).results.some(c=>c.name==='github_release_url'))throw e;}

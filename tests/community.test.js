@@ -7,9 +7,39 @@ import { onRequestGet,onRequestPost } from '../src/community/forum-api.js';
 import { database } from '../src/community/database.js';
 import { hash } from '../src/community/session.js';
 import { migrateKurtUsername } from '../src/community/account-migrations.js';
+import { recordTopicView } from '../src/community/topic-views.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
 const topic={action:'topic',categoryId:1,title:'My first Dragon Ball deck',body:'What do you think of this deck?'};
+test('topic views count visits, deduplicate refreshes, and ignore pagination and hidden topics',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const id=(await f.forum('alice',topic)).data.id;
+ assert.equal((await f.forum(null,null,{view:'topic',id})).data.topic.view_count,1);
+ assert.equal((await f.forum(null,null,{view:'topic',id})).data.topic.view_count,1);
+ assert.equal((await f.forum('bob',null,{view:'topic',id,after:1})).data.topic.view_count,1);
+ assert.equal((await f.forum('bob',null,{view:'topic',id})).data.topic.view_count,2);
+ assert.equal((await f.forum(null,null,{view:'list'})).data.topics[0].view_count,2);
+ const member=(await f.auth('bob','session')).data.user,request=new Request('https://dragonball.test/');
+ assert.equal(recordTopicView(f.env.DB,request,member,id,Date.now()+1800001),3);
+ await f.auth('alice','claim-owner',{code:'test-owner-code'});
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=1 WHERE id=?').bind(id).run();
+ assert.equal((await f.forum(null,null,{view:'topic',id})).status,404);
+ assert.equal((await f.forum('alice',null,{view:'topic',id})).data.topic.view_count,3);
+});
+test('topic rows use the latest visible poster and preserve the original creation date',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const id=(await f.forum('alice',topic)).data.id;
+ const original=(await f.forum(null,null,{view:'list'})).data.topics[0];
+ assert.equal(original.latest_author,'alice');assert.equal(original.latest_reply_id,null);
+ await f.auth('bob','profile',{displayName:'Bob',avatarUrl:'https://example.com/bob.png'});
+ await f.forum('bob',{action:'reply',id,body:'Latest reply.'});
+ const latest=(await f.forum(null,null,{view:'list'})).data.topics[0];
+ assert.equal(latest.latest_author,'Bob');assert.equal(latest.latest_avatar_url,'https://example.com/bob.png');assert.ok(latest.latest_reply_id);
+ assert.equal(latest.created_at,original.created_at);assert.equal(latest.author,'alice');
+ f.env.DB.prepare('UPDATE forum_replies SET hidden=1 WHERE id=?').bind(latest.latest_reply_id).run();
+ const hidden=(await f.forum(null,null,{view:'list'})).data.topics[0];
+ assert.equal(hidden.latest_author,'alice');assert.equal(hidden.latest_reply_id,null);
+});
 test('requested login rename preserves identity and credentials and runs only once',async()=>{
  const f=await fixture();await f.register('kaoxt');
  const before=(await f.auth('kaoxt','session')).data.user;

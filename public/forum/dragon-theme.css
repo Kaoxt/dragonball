@@ -18,9 +18,21 @@ body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-
 body.community-page .forum-shell #new-topic[hidden]{display:none}
 
 /* Squared forum actions with soft corners, matching the reference buttons. */
-body.community-page main .forum-shell :is(#new-topic,button:not([aria-label]):not([data-command])){
+body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic-shortcuts button,#follow-category){
  border-radius:12px;min-height:34px;padding:6px 12px;font-size:13px;line-height:1.25;
 }
 .forum-shell .forum-like .forum-like-icon{
  display:block;flex:none;width:20px;height:20px;margin:0;
 }
+
+/* Compact topic index, with latest activity aligned on the right. */
+.forum-shell .forum-topic-row{display:grid;grid-template-columns:minmax(0,1fr) 160px;gap:18px;align-items:center;padding:18px 20px}
+.forum-shell .forum-topic-row h3{margin:0 0 7px;font-size:15px;line-height:1.4;gap:7px;flex-wrap:wrap}
+.forum-shell .forum-topic-row h3>a{color:#f4eff2}
+.forum-shell .forum-topic-started{gap:4px 6px;line-height:1.5;font-size:12px}
+.forum-topic-counts{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px;color:var(--issue-muted);font-size:12px;font-variant-numeric:tabular-nums}
+.forum-topic-latest{display:flex;flex-direction:column;align-items:flex-end;gap:5px;min-width:0;text-align:right}
+.forum-topic-latest .forum-author{flex-direction:row-reverse;gap:8px;font-size:12px;max-width:100%}
+.forum-shell .forum-topic-latest .issue-avatar{width:32px;height:32px;flex-basis:32px;font-size:13px}
+.forum-shell .forum-latest-time{color:var(--issue-muted);font-size:11px;line-height:1.5}
+@media(max-width:600px){.forum-shell .forum-topic-row{grid-template-columns:minmax(0,1fr) 100px;gap:12px;padding:15px 14px}.forum-shell .forum-topic-row h3{font-size:14px}.forum-topic-latest .forum-author{flex-direction:column;gap:4px}.forum-shell .forum-latest-time{font-size:10px}}
