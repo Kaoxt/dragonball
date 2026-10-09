@@ -2088,5 +2088,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-190-enraged.webp?v=b972dc4f6c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-191-a-beginners-heart-is-dedicated",
+    "name": "A Beginner's Heart Is Dedicated",
+    "number": "191",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-191-a-beginners-heart-is-dedicated.webp?v=9d67b18777",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-192-teaching-the-unteachable-forces-observation",
+    "name": "Teaching the Unteachable Forces Observation",
+    "number": "192",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp?v=59d44223ee",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-193-respect-the-spirit",
+    "name": "Respect the Spirit",
+    "number": "193",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-193-respect-the-spirit.webp?v=7a9793c763",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-194-unselfish-behavior-is-best",
+    "name": "Unselfish Behavior is Best",
+    "number": "194",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-194-unselfish-behavior-is-best.webp?v=da01e780c5",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-195-hero-advantage",
+    "name": "Hero Advantage",
+    "number": "195",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-195-hero-advantage.webp?v=82c4918f6d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-196-saiyan-honor-quest",
+    "name": "Saiyan Honor Quest",
+    "number": "196",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-196-saiyan-honor-quest.webp?v=ba8c48607e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-197-saiyan-battle-terms",
+    "name": "Saiyan Battle Terms",
+    "number": "197",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-197-saiyan-battle-terms.webp?v=a0b02080d2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-198-saiyan-appraisal-manuever",
+    "name": "Saiyan Appraisal Maneuver",
+    "number": "198",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=8e916b8821",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-199-dream-fighting",
+    "name": "Dream Fighting",
+    "number": "199",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-199-dream-fighting.webp?v=b93d2c4e80",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-200-cutting-the-tail",
+    "name": "Cutting the Tail",
+    "number": "200",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-200-cutting-the-tail.webp?v=7acc34ee3b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   }
 ];
