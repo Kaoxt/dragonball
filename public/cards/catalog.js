@@ -2858,5 +2858,71 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=17f4ead68c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P5-gohan",
+    "name": "Gohan",
+    "number": "P5",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P5-gohan.webp?v=17f4ead68c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P6-krillin-silver-variant",
+    "name": "Krillin (Silver Variant)",
+    "number": "P6",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=090d3d973f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P6-krillin",
+    "name": "Krillin",
+    "number": "P6",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P6-krillin.webp?v=090d3d973f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P7-nappa-silver-variant",
+    "name": "Nappa (Silver Variant)",
+    "number": "P7",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=e54be6199a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P7-nappa",
+    "name": "Nappa",
+    "number": "P7",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P7-nappa.webp?v=e54be6199a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-P115-nappa-error-dupe-error-variant",
+    "name": "Nappa (Error Dupe)",
+    "number": "P115",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-P115-nappa-error-dupe-error-variant.webp?v=c61d05aefe",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   }
 ];

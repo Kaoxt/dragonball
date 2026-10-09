@@ -1,7 +1,7 @@
 # Saiyan Saga continuation
 
-All 266 complete modernized exports were recovered and validated at 1070 × 1470. Clean border images are committed in batches of at most 10, preserving the existing artwork and text. Earth Dragon Balls use the approved gold/green frame with exact star counts.
+All 266 recovered modernized exports are attached to the repository and included in the database: numbered cards #1–250 plus 16 promo/print variants. Existing assets remain 1070 × 1470 high-quality WebP. Additions were committed in batches of at most 10.
 
-The database catalog now contains cards #1–200. Cards #141–200 were added in six batches of 10 using existing optimized WebP assets. Remaining cards and variants are saved as assets, but are not listed in the database yet. Resume database additions with #201, in batches of 10, using the assets and docs/saiyan-crisp-borders-progress.json. Do not recreate artwork.
+Personality design refresh is in progress: approved Goku-inspired layout, clean silver top line, angled power boxes, compact angular PUR badge, smaller ability text; blue heroes and deep red villains (no pink). Preserve all card data. Do not duplicate set entries.
 
-Deployment status must be checked separately.
+Deployment must be verified separately.
