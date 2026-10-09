@@ -549,5 +549,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-050-orange-shoulder-throw.webp",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-051-orange-hip-throw",
+    "name": "Orange Hip Throw",
+    "number": "51",
+    "type": "Physical Combat",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-051-orange-hip-throw.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-052-orange-neck-restraints",
+    "name": "Orange Neck Restraints",
+    "number": "52",
+    "type": "Energy Combat",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-052-orange-neck-restraints.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-053-orange-holding-after-takedown",
+    "name": "Orange Holding After Takedown",
+    "number": "53",
+    "type": "Physical Combat",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-054-red-knee-strike",
+    "name": "Red Knee Strike",
+    "number": "54",
+    "type": "Physical Combat",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-054-red-knee-strike.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-055-red-front-kick",
+    "name": "Red Front Kick",
+    "number": "55",
+    "type": "Physical Combat",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-055-red-front-kick.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-056-red-side-kick",
+    "name": "Red Side Kick",
+    "number": "56",
+    "type": "Energy Combat",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-056-red-side-kick.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-057-red-round-kick",
+    "name": "Red Round Kick",
+    "number": "57",
+    "type": "Physical Combat",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-057-red-round-kick.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-058-red-back-kick",
+    "name": "Red Back Kick",
+    "number": "58",
+    "type": "Physical Combat",
+    "style": "Red",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-058-red-back-kick.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-059-blue-big-outside-drop",
+    "name": "Blue Big Outside Drop",
+    "number": "59",
+    "type": "Physical Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-059-blue-big-outside-drop.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-060-blue-one-arm-shoulder-throw",
+    "name": "Blue One-Arm Shoulder Throw",
+    "number": "60",
+    "type": "Physical Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   }
 ];
