@@ -658,5 +658,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp?v=6a0e1277d9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-061-blue-body-drop-throw",
+    "name": "Blue Body Drop Throw",
+    "number": "61",
+    "type": "Physical Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-061-blue-body-drop-throw.webp?v=d9816d042a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-062-blue-inner-leg-throw",
+    "name": "Blue Inner Leg Throw",
+    "number": "62",
+    "type": "Physical Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-062-blue-inner-leg-throw.webp?v=208d8ed47c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-063-blue-big-whirl-throw",
+    "name": "Blue Big Whirl Throw",
+    "number": "63",
+    "type": "Energy Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=ae956e38db",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-064-blue-ground-holding",
+    "name": "Blue Ground Holding",
+    "number": "64",
+    "type": "Physical Combat",
+    "style": "Blue",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=89119f65e9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-065-black-fore-fist-punch",
+    "name": "Black Fore Fist Punch",
+    "number": "65",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-065-black-fore-fist-punch.webp?v=c395eaf89f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-066-black-knife-hand-strike",
+    "name": "Black Knife Hand Strike",
+    "number": "66",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=f430a0eddb",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-067-black-elbow-strike",
+    "name": "Black Elbow Strike",
+    "number": "67",
+    "type": "Physical Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=9808b2a7bc",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-068-black-front-kick",
+    "name": "Black Front Kick",
+    "number": "68",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-068-black-front-kick.webp?v=e42a477dba",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-069-black-side-kick",
+    "name": "Black Side Kick",
+    "number": "69",
+    "type": "Physical Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-069-black-side-kick.webp?v=dc44a3405a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-070-black-turning-kick",
+    "name": "Black Turning Kick",
+    "number": "70",
+    "type": "Energy Combat",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=7549d3905d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
