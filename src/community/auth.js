@@ -1,3 +1,4 @@
+import { turnstileConfig, verifyRegistration } from './turnstile.js';
 import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
 import { hash, readSession, sessionToken, assertSameOrigin } from './session.js';
 import { IssueError, textField } from './issues.js';
@@ -45,6 +46,7 @@ export async function authRequest(request,env){
  const reply=(data,status=200,setCookie)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...(setCookie?{'Set-Cookie':setCookie}:{})}});
  try{
   if(request.method==='GET'){
+   if(action==='config'){const {required,ready,siteKey}=turnstileConfig(env);return reply({turnstile:{required,ready,siteKey:ready?siteKey:''}});}
    if(action!=='session')throw new IssueError('Not found.',404);
    const user=await readSession(request,env),member=await selfMember(db,user);
    return reply({user:user?{id:user.id,username:user.username,displayName:user.display_name||user.username,avatarUrl:user.avatar_url||'',isAdmin:user.role==='admin',memberId:member?.id||null,about:member?.about||''}:null});
@@ -59,6 +61,7 @@ export async function authRequest(request,env){
    if(!/^[a-z0-9_]{3,24}$/.test(username))throw new IssueError('Username must be 3–24 letters, numbers, or underscores.');
    rate(db,action+':ip:'+ip,action==='register'?5:20,action==='register'?3600:600);
    if(action!=='register')rate(db,action+':user:'+username,10,600);
+   if(action==='register')await verifyRegistration(request,env,body['cf-turnstile-response']);
    const existing=db.prepare('SELECT * FROM auth_accounts WHERE username=?').bind(username).first();
    if(action==='register'){
     validPassword(body.password);

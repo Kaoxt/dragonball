@@ -74,3 +74,32 @@ test('SQL batch rollback and 25-topic pagination',async()=>{
  for(let i=0;i<26;i++)f.env.DB.prepare('INSERT INTO forum_topics(member_id,category_id,title,body,created_at,updated_at) VALUES(?,1,?,?,?,?)').bind(m,'Topic '+i,'A body',new Date().toISOString(),new Date().toISOString()).run();
  assert.equal((await f.forum(null,null,{view:'list'})).data.topics.length,25);assert.equal((await f.forum(null,null,{view:'list',page:2})).data.topics.length,1);
 });
+
+test('Turnstile registration: config privacy, fail-closed verification, hostname/action, replay and outage',async t=>{
+ const f=await fixture();
+ assert.deepEqual((await f.auth('guest','config')).data.turnstile,{required:false,ready:false,siteKey:''});
+ f.env.TURNSTILE_SITE_KEY='public-site-key';
+ const registration={username:'protected',password:'A private registration password'};
+ assert.equal((await f.auth('partial','register',registration)).status,503);
+ f.env.TURNSTILE_SECRET_KEY='private-server-key';
+ const config=await f.auth('guest','config');assert.deepEqual(config.data.turnstile,{required:true,ready:true,siteKey:'public-site-key'});assert.doesNotMatch(JSON.stringify(config),/private-server-key/);
+ let calls=0,result={success:true,hostname:'dragonball.test',action:'register'};
+ t.mock.method(globalThis,'fetch',async(url,options)=>{
+  calls++;assert.equal(url,'https://challenges.cloudflare.com/turnstile/v0/siteverify');
+  const data=JSON.parse(options.body);assert.equal(data.secret,'private-server-key');assert.equal(data.response,'challenge-token');assert.ok(options.signal);
+  return Response.json(result);
+ });
+ assert.equal((await f.auth('missing','register',registration)).status,400);
+ assert.equal((await f.auth('oversize','register',{...registration,'cf-turnstile-response':'a'.repeat(2049)})).status,400);assert.equal(calls,0);
+ const verified={...registration,'cf-turnstile-response':'challenge-token'};
+ result={success:false,'error-codes':['timeout-or-duplicate']};assert.equal((await f.auth('invalid','register',verified)).status,400);
+ result={success:true,hostname:'evil.test',action:'register'};assert.equal((await f.auth('wronghost','register',verified)).status,400);
+ result={success:true,hostname:'dragonball.test',action:'login'};assert.equal((await f.auth('wrongaction','register',verified)).status,400);
+ assert.equal(f.env.DB.prepare('SELECT count(*) AS n FROM auth_accounts').first().n,0);
+ result={success:true,hostname:'dragonball.test',action:'register'};assert.equal((await f.auth('valid','register',verified)).status,201);
+ result={success:false,'error-codes':['timeout-or-duplicate']};assert.equal((await f.auth('replay','register',{...verified,username:'replayed'})).status,400);
+ t.mock.method(globalThis,'fetch',async()=>{throw Error('network down');});
+ assert.equal((await f.auth('outage','register',{...verified,username:'outage'})).status,503);
+ assert.equal(f.env.DB.prepare('SELECT count(*) AS n FROM auth_accounts').first().n,1);
+ assert.equal((await f.auth('valid','login',{username:'protected',password:registration.password})).status,200);
+});
