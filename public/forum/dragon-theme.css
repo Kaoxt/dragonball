@@ -6,3 +6,6 @@ body.community-page{color:#f4eff2;font-family:system-ui,-apple-system,"Segoe UI"
 @media(max-width:700px){.forum-page{padding:25px 14px 50px}.forum-shell .forum-list-title-row{align-items:center;gap:12px}.forum-shell .forum-start-topic{font-size:12px;padding:10px 12px}.forum-shell .forum-topic-name{font-size:21px}.forum-shell .forum-post-bar{padding:10px 14px}.forum-shell .forum-category p{line-height:1.6}.forum-shell .forum-post-author{padding:12px 14px}}
 
 body.community-page .forum-shell #new-topic,body.community-page .forum-shell .forum-reply-shortcut{background:#8f2a45;color:white;border:1px solid #ba4a66;border-radius:7px}
+
+body.community-page .forum-shell #new-topic{background:#f5f5f5;color:#171317;border:1px solid #f5f5f5;border-radius:999px}
+body.community-page .forum-shell #new-topic:hover:not(:disabled){background:#dedade;color:#171317;border-color:#dedade}
