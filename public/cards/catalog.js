@@ -1756,7 +1756,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-160-goku.webp?v=bd5622e572",
+    "image": "/assets/cards/saiyan-160-goku.webp?v=f851cc2a9f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1767,7 +1767,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-161-piccolo.webp?v=e9304c9511",
+    "image": "/assets/cards/saiyan-161-piccolo.webp?v=60698b4c97",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1778,7 +1778,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-162-piccolo.webp?v=a9e914ebe6",
+    "image": "/assets/cards/saiyan-162-piccolo.webp?v=e506f18a34",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1789,7 +1789,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-163-piccolo.webp?v=8360be3b96",
+    "image": "/assets/cards/saiyan-163-piccolo.webp?v=f3b7da3ea7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1800,7 +1800,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-164-gohan.webp?v=04ba80526f",
+    "image": "/assets/cards/saiyan-164-gohan.webp?v=37a1c55669",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1811,7 +1811,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-165-gohan.webp?v=1838381850",
+    "image": "/assets/cards/saiyan-165-gohan.webp?v=62a90166d2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1822,7 +1822,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-166-gohan.webp?v=0bcb474ca3",
+    "image": "/assets/cards/saiyan-166-gohan.webp?v=c7c236cf6c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1833,7 +1833,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-167-krillin.webp?v=c74d3b362c",
+    "image": "/assets/cards/saiyan-167-krillin.webp?v=f9290228c8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1844,7 +1844,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-168-krillin.webp?v=c62e64d75b",
+    "image": "/assets/cards/saiyan-168-krillin.webp?v=06dc1b37cf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
@@ -1866,7 +1866,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-170-raditz.webp?v=e818ec665e",
+    "image": "/assets/cards/saiyan-170-raditz.webp?v=74d68a9361",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   },
   {
