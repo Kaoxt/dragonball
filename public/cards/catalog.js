@@ -2751,7 +2751,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-0P1-goku-silver-variant",
-    "name": "Goku (Silver Variant)",
+    "name": "Goku",
     "number": "P1",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2761,19 +2761,8 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P1-goku",
-    "name": "Goku",
-    "number": "P1",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku.webp?v=c8d1ea30e0",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P2-piccolo-silver-variant",
-    "name": "Piccolo (Silver Variant)",
+    "name": "Piccolo",
     "number": "P2",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2783,19 +2772,8 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P2-piccolo",
-    "name": "Piccolo",
-    "number": "P2",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo.webp?v=29b427bee7",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P3-vegeta-silver-variant",
-    "name": "Vegeta (Silver Variant)",
+    "name": "Vegeta",
     "number": "P3",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2805,30 +2783,8 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P3-vegeta",
-    "name": "Vegeta",
-    "number": "P3",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta.webp?v=1d7402355c",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
-    "id": "saiyan-0P4-goku-error-dupe-error-variant",
-    "name": "Goku (Error Dupe)",
-    "number": "P4",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-goku-error-dupe-error-variant.webp?v=874bf7db16",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P4-raditz-silver-variant",
-    "name": "Raditz (Silver Variant)",
+    "name": "Raditz",
     "number": "P4",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2838,19 +2794,8 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P4-raditz",
-    "name": "Raditz",
-    "number": "P4",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz.webp?v=82d8524338",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P5-gohan-silver-variant",
-    "name": "Gohan (Silver Variant)",
+    "name": "Gohan",
     "number": "P5",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2860,19 +2805,8 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P5-gohan",
-    "name": "Gohan",
-    "number": "P5",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan.webp?v=17f4ead68c",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P6-krillin-silver-variant",
-    "name": "Krillin (Silver Variant)",
+    "name": "Krillin",
     "number": "P6",
     "type": "Main Personality",
     "style": "Freestyle",
@@ -2882,47 +2816,14 @@ export const catalog = [
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
-    "id": "saiyan-0P6-krillin",
-    "name": "Krillin",
-    "number": "P6",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin.webp?v=090d3d973f",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
     "id": "saiyan-0P7-nappa-silver-variant",
-    "name": "Nappa (Silver Variant)",
-    "number": "P7",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=fc9ee43225",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
-    "id": "saiyan-0P7-nappa",
     "name": "Nappa",
     "number": "P7",
     "type": "Main Personality",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa.webp?v=e54be6199a",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
-  },
-  {
-    "id": "saiyan-P115-nappa-error-dupe-error-variant",
-    "name": "Nappa (Error Dupe)",
-    "number": "P115",
-    "type": "Main Personality",
-    "style": "Freestyle",
-    "set": "Saiyan Saga",
-    "status": "Ready",
-    "image": "/assets/cards/saiyan-P115-nappa-error-dupe-error-variant.webp?v=c61d05aefe",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=fc9ee43225",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   }
 ];
