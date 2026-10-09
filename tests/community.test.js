@@ -203,3 +203,41 @@ test('account decks are private, persistent, origin-checked and versioned',async
  assert.equal((await call('alice',{...payload,version:1,data:{decks:[],active:null}})).status,200);
  assert.equal((await call('alice')).data.data.decks.length,0);
 });
+
+test('private messages require login, isolate conversations, and mark only received messages read',async()=>{
+ const f=await fixture();for(const name of ['alice','bob','charlie'])await f.register(name);
+ const member=async who=>(await f.auth(who,'session')).data.user.memberId;
+ const a=await member('alice'),b=await member('bob'),c=await member('charlie');
+ assert.equal((await f.forum(null,null,{view:'messages'})).status,401);
+ const sent=await f.forum('alice',{action:'messageSend',member:b,body:'Private deck advice'});assert.equal(sent.status,201,JSON.stringify(sent));
+ assert.equal((await f.forum('bob',null,{view:'alerts'})).data.messages,1);
+ assert.equal((await f.forum('alice',null,{view:'messages'})).data.conversations[0].member_id,b);
+ assert.equal((await f.forum('bob',null,{view:'messages',member:a})).data.messages[0].body,'Private deck advice');
+ assert.equal((await f.forum('charlie',null,{view:'messages',member:a})).data.messages.length,0);
+ assert.equal((await f.forum('charlie',null,{view:'messages',member:b})).data.messages.length,0);
+ await f.forum('charlie',{action:'messagesRead',member:a,through:sent.data.id});
+ assert.equal((await f.forum('bob',null,{view:'alerts'})).data.messages,1);
+ await f.forum('bob',{action:'messagesRead',member:a,through:sent.data.id});
+ assert.equal((await f.forum('bob',null,{view:'alerts'})).data.messages,0);
+ assert.equal((await f.forum('alice',{action:'messageSend',member:a,body:'Self'})).status,400);
+ f.env.DB.prepare('UPDATE forum_members SET banned=1 WHERE id=?').bind(c).run();
+ assert.equal((await f.forum('alice',{action:'messageSend',member:c,body:'Blocked'})).status,404);
+ assert.equal((await f.forum('charlie',{action:'messageSend',member:a,body:'Blocked'})).status,403);
+ assert.equal((await f.forum('alice',{action:'messageSend',member:b,body:'Bad origin'},{},'https://evil.test')).status,403);
+});
+test('linked quotes notify the original author, deduplicate mentions, and skip hidden sources',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const t=(await f.forum('alice',topic)).data.id;
+ const a=(await f.auth('alice','session')).data.user.memberId;
+ const body=`> [alice wrote:](/forums/#topic/${t})\n> What do you think?\n\nGood idea @[alice](member:${a})`;
+ const r=await f.forum('bob',{action:'reply',id:t,body});assert.equal(r.status,201,JSON.stringify(r));
+ const n=(await f.forum('alice',null,{view:'notifications'})).data;
+ assert.equal(n.unreadCount,1);assert.equal(n.notifications[0].replyId,r.data.id);
+ assert.equal(n.notifications[0].url,`/forums/#topic/${t}?reply=${r.data.id}`);
+ const self=await f.forum('alice',{action:'reply',id:t,body});assert.equal(self.status,201);
+ assert.equal((await f.forum('alice',null,{view:'notifications'})).data.unreadCount,1);
+ const other=(await f.forum('bob',topic)).data.id;
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=1 WHERE id=?').bind(t).run();
+ await f.forum('bob',{action:'reply',id:other,body:`> [alice wrote:](/forums/#topic/${t})\n> Hidden post\n\nTest`});
+ assert.equal(f.env.DB.prepare('SELECT COUNT(*) AS n FROM forum_notifications').first().n,1);
+});

@@ -1,6 +1,7 @@
 import { avatarDb } from './account-avatar.js';
 import { IssueError, profileIdentity, textField } from './issues.js';
 import { assertSameOrigin, isAdminUser, readSession, refreshSessionIfNeeded } from './session.js';
+import { messageSchema } from './forum-messages.js';
 import { notificationSchema } from './forum-mentions.js';
 const schemas = new WeakMap();
 export async function forumDb(env) {
@@ -23,6 +24,7 @@ export async function forumDb(env) {
     db.prepare('CREATE INDEX IF NOT EXISTS forum_replies_member ON forum_replies(member_id, created_at DESC)'),
     db.prepare('CREATE TABLE IF NOT EXISTS forum_topic_views (topic_id INTEGER NOT NULL,viewer_hash TEXT NOT NULL,last_viewed_at INTEGER NOT NULL,PRIMARY KEY(topic_id,viewer_hash))'),
     db.prepare('CREATE INDEX IF NOT EXISTS forum_topic_views_expiry ON forum_topic_views(last_viewed_at)'),
+    ...messageSchema.map(sql => db.prepare(sql)),
     ...notificationSchema.map(sql => db.prepare(sql)),
     db.prepare('CREATE TABLE IF NOT EXISTS forum_rate_limits (user_id TEXT NOT NULL,scope TEXT NOT NULL,window_start INTEGER NOT NULL,count INTEGER NOT NULL,PRIMARY KEY(user_id,scope))'),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_settings (id INTEGER PRIMARY KEY CHECK(id=1), posting_open INTEGER NOT NULL DEFAULT 1)`),

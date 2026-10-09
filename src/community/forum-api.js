@@ -1,6 +1,7 @@
+import { unreadMessages, messageView, sendMessage } from './forum-messages.js';
 import { recordTopicView } from './topic-views.js';
 import { ANNOUNCEMENTS_ID, importLegacyNews } from './forum-news.js';
-import { mentionedMembers, mentionInsert, syncMentionVisibility, notifications, unreadNotifications } from './forum-mentions.js';
+import { postRecipients, mentionedMembers, mentionInsert, syncMentionVisibility, notifications, unreadNotifications } from './forum-mentions.js';
 import { limitForumWrites, forumHandle, forumInput, releaseUrl, IssueError, textField, id, page, requireAdmin, memberSelect, memberJoin, counts, selfMember, ensureMember, mayPost, validCategory } from './forum.js';
 const canEdit=(post,member,admin)=>admin||!!member&&!member.banned&&!post.hidden&&member.id===post.member_id&&Date.now()-Date.parse(post.created_at)<86400000;
 const protectCategory=c=>({...c,read_only:c.id===ANNOUNCEMENTS_ID?1:c.read_only});
@@ -29,6 +30,8 @@ export const onRequestGet = context => forumHandle(context,false,async({db,sessi
   const isNews=['news','latestNews','newsTopic','newsLegacy'].includes(view);
   const legacyId=isNews?await importLegacyNews(db):null;
   const me=await selfMember(db,session);
+  if(view==='messages'){if(!session)throw new IssueError('Sign in to view messages.',401);return reply(await messageView(db,me,q));}
+  if(view==='alerts'){if(!session)throw new IssueError('Sign in to view alerts.',401);return reply({messages:await unreadMessages(db,me),notifications:await unreadNotifications(db,me)});}
   if(view==='mentionMembers'){
     if(!session)throw new IssueError('Sign in to mention a member.',401);
     const members=(await db.prepare(`SELECT ${memberSelect} FROM forum_members m LEFT JOIN account_preferences p ON p.user_id=m.user_id LEFT JOIN account_avatars a ON a.user_id=m.user_id WHERE m.banned=0 AND instr(lower(COALESCE(NULLIF(p.display_name,''),m.author)),lower(?))>0 ORDER BY lower(COALESCE(NULLIF(p.display_name,''),m.author)),m.id LIMIT 8`).bind((q.get('q')||'').trim().slice(0,80)).all()).results;
@@ -111,6 +114,13 @@ export const onRequestPost = context => forumHandle(context,true,async({db,sessi
     await limitForumWrites(db,session.id,'writes',120,60);
     if(action==='topicEdit'||action==='replyEdit')await limitForumWrites(db,session.id,'edits',20,600);
   }
+  if(action==='messageSend'||action==='messagesRead'){
+    const member=await ensureMember(db,session,context.env,data.profileId);
+    if(member.banned)throw new IssueError('Messaging is disabled for this account.',403);
+    if(action==='messageSend'){await limitForumWrites(db,session.id,'messages',20,60);return reply(await sendMessage(db,member,data),201);}
+    await db.prepare('UPDATE forum_messages SET read_at=? WHERE recipient_id=? AND sender_id=? AND id<=? AND read_at IS NULL').bind(new Date().toISOString(),member.id,String(data.member||''),id(data.through)).run();
+    return reply({ok:true});
+  }
   if(action==='notificationsRead'){
     const all=data.all===true;
     if(!all&&(!Array.isArray(data.ids)||!data.ids.length||data.ids.length>100))throw new IssueError('Choose up to 100 notifications to mark as read.');
@@ -166,7 +176,7 @@ export const onRequestPost = context => forumHandle(context,true,async({db,sessi
     if(!canEdit(target,member,admin,now))throw new IssueError('You can edit your own visible posts within 24 hours.',403);
     if(!isTopic&&!admin){const parent=await db.prepare('SELECT hidden FROM forum_topics WHERE id=?').bind(target.topic_id).first();if(!parent||parent.hidden)throw new IssueError('Discussion not found.',404);}
     const body=textField(data.body,'Message',2,10000);
-    const recipients=mentionedMembers(body),previous=new Set(mentionedMembers(target.body,false));
+    const recipients=await postRecipients(db,body),previous=new Set(await postRecipients(db,target.body,false));
     const added=recipients.filter(recipient=>!previous.has(recipient));
     const editedAt=isTopic&&target.category_id===ANNOUNCEMENTS_ID||admin&&data.hideEdit===true?null:new Date(now).toISOString();
     const statements=[];
@@ -236,7 +246,7 @@ export const onRequestPost = context => forumHandle(context,true,async({db,sessi
   if(!['profile','topic','reply'].includes(action))throw new IssueError('Unknown action.');
   // Validate before creating a member or looking up profile data.
   const body=action==='profile'?textField(data.about??'','About me',0,1000):textField(data.body,'Message',2,10000);
-  const recipients=action==='profile'?[]:mentionedMembers(body);
+  const recipients=action==='profile'?[]:await postRecipients(db,body);
   const title=action==='topic'?textField(data.title,'Title',5,160):'';
   const githubUrl=action==='topic'?releaseUrl(data.releaseUrl):'';
   if(githubUrl&&!admin)requireAdmin(admin);

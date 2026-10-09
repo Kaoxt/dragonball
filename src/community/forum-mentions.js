@@ -101,3 +101,16 @@ export async function notifications(db, member, cursor) {
   };
 }
 
+
+// Quote headers carry a link to a real visible post; recipients come from the database.
+export async function postRecipients(db, body, enforceLimit=true) {
+ const recipients=new Set(mentionedMembers(body,enforceLimit));
+ const refs=[...String(body).matchAll(/^> \[[^\r\n]*? wrote:\]\(\/forums\/#topic\/([1-9]\d{0,14})(?:\?reply=([1-9]\d{0,14}))?\)$/gm)];
+ if(enforceLimit && refs.length>10)throw new IssueError('Quote up to 10 posts in one message.');
+ for(const ref of refs.slice(0,10)){
+  const row=await db.prepare(ref[2]?'SELECT r.member_id FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id WHERE r.id=? AND t.id=? AND r.hidden=0 AND t.hidden=0':'SELECT member_id FROM forum_topics WHERE id=? AND hidden=0').bind(...(ref[2]?[Number(ref[2]),Number(ref[1])]:[Number(ref[1])])).first();
+  if(row)recipients.add(row.member_id);
+ }
+ if(enforceLimit&&recipients.size>10)throw new IssueError('Notify up to 10 members in one post.');
+ return [...recipients];
+}

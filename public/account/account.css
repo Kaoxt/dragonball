@@ -20,3 +20,11 @@ body .site-header nav .account-nav-actions a[hidden]{display:none}
 
 body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link{background:#f5f5f5;color:#171317;border-color:#f5f5f5;border-radius:999px;padding:10px 20px;font-size:14px}
 body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link:hover{background:#dedade;border-color:#dedade}
+#community-nav-alerts{display:flex;gap:6px;flex-wrap:wrap}
+#forum-alerts{display:flex;justify-content:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+#forum-alerts[hidden]{display:none}
+#forum-alerts a{display:inline-flex;align-items:center;gap:6px;background:#241c20;border:1px solid #49333c;border-radius:8px;padding:8px 12px;color:#f5eef1;text-decoration:none}
+#mobile-alert-count{position:absolute;top:0;right:0;min-width:16px;font-size:10px}
+#nav-toggle{position:relative}
+#message-thread{max-height:60vh;overflow-y:auto;margin:20px 0}
+@media(max-width:900px){#community-nav-alerts{display:grid;grid-template-columns:1fr 1fr;width:100%}}
