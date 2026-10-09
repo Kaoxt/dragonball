@@ -16,3 +16,11 @@ body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-
  opacity:.42;cursor:not-allowed;
 }
 body.community-page .forum-shell #new-topic[hidden]{display:none}
+
+/* Squared forum actions with soft corners, matching the reference buttons. */
+body.community-page main .forum-shell :is(#new-topic,button:not([aria-label]):not([data-command])){
+ border-radius:12px;
+}
+.forum-shell .forum-like .forum-like-icon{
+ display:block;flex:none;width:20px;height:20px;margin:0;
+}
