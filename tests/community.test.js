@@ -6,9 +6,34 @@ import { forumDb } from '../src/community/forum.js';
 import { onRequestGet,onRequestPost } from '../src/community/forum-api.js';
 import { database } from '../src/community/database.js';
 import { hash } from '../src/community/session.js';
+import { migrateKurtUsername } from '../src/community/account-migrations.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
 const topic={action:'topic',categoryId:1,title:'My first Dragon Ball deck',body:'What do you think of this deck?'};
+test('requested login rename preserves identity and credentials and runs only once',async()=>{
+ const f=await fixture();await f.register('kaoxt');
+ const before=(await f.auth('kaoxt','session')).data.user;
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',before.id).run();
+ const credentials=f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(before.id).first();
+ const post=(await f.forum('kaoxt',topic)).data.id;
+ assert.equal(migrateKurtUsername(f.env.DB),'renamed');
+ assert.deepEqual({...f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(before.id).first()},{...credentials,username:'Kurt'});
+ assert.equal((await f.auth('kaoxt','session')).data.user.id,before.id);
+ assert.equal((await f.forum('kaoxt',{action:'topicEdit',id:post,title:'Still my post',body:'Same account.'})).status,200);
+ assert.equal((await f.auth('new-session','login',{username:'Kurt',password:'My private password 123!'})).status,200);
+ assert.equal((await f.auth('old-name','login',{username:'kaoxt',password:'My private password 123!'})).status,401);
+ assert.equal(migrateKurtUsername(f.env.DB),'completed');
+});
+test('login rename does not affect other identities or take an occupied username',async()=>{
+ const f=await fixture();await f.register('kaoxt');await f.register('kurt');
+ const account=(await f.auth('kaoxt','session')).data.user;
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',account.id).run();
+ assert.equal(migrateKurtUsername(f.env.DB),'conflict');
+ assert.equal((await f.auth('kaoxt','session')).data.user.username,'kaoxt');
+ const other=await fixture();await other.register('kaoxt');
+ assert.equal(migrateKurtUsername(other.env.DB),'not-applicable');
+ assert.equal((await other.auth('kaoxt','session')).data.user.username,'kaoxt');
+});
 test('accounts: registration, secure cookie, login, no leaked password/recovery, logout',async()=>{
  const f=await fixture();const created=await f.register('alice');assert.match(created.data.recoveryCode,/^[a-f0-9]{64}$/);assert.match(created.cookie,/HttpOnly; SameSite=Lax/);assert.match(created.cookie,/Secure/);
  const self=await f.auth('alice','session');assert.equal(self.data.user.username,'alice');assert.equal(self.data.user.isAdmin,false);assert.ok(self.data.user.memberId);assert.doesNotMatch(JSON.stringify(self),/password|recovery_hash/);
