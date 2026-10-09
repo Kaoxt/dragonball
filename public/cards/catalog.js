@@ -1978,5 +1978,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=3659517db7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-181-gohan-lvl-1-ht",
+    "name": "Gohan",
+    "number": "181",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-181-gohan-lvl-1-ht.webp?v=fff28dc7d8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-182-krillin-lvl-1-ht",
+    "name": "Krillin",
+    "number": "182",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=3f07fa8b39",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-183-raditz-lvl-1-ht",
+    "name": "Raditz",
+    "number": "183",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=335ae41561",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-184-vegeta-lvl-1-ht",
+    "name": "Vegeta",
+    "number": "184",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=725e8b8176",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-185-nappa-lvl-1-ht",
+    "name": "Nappa",
+    "number": "185",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=1dcf377c9d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-186-earth-dragon-ball-6",
+    "name": "Earth Dragon Ball 6",
+    "number": "186",
+    "type": "Dragon Ball",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=711ff55507",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-187-earth-dragon-ball-7",
+    "name": "Earth Dragon Ball 7",
+    "number": "187",
+    "type": "Dragon Ball",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=080efc6af4",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-188-earth-dragon-ball-capture",
+    "name": "Earth Dragon Ball Capture",
+    "number": "188",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-188-earth-dragon-ball-capture.webp?v=f3dee4fb39",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-189-earth-dragon-ball-combat",
+    "name": "Earth Dragon Ball Combat",
+    "number": "189",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-189-earth-dragon-ball-combat.webp?v=5bde62ac6f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-190-enraged",
+    "name": "Enraged!",
+    "number": "190",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-190-enraged.webp?v=b972dc4f6c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   }
 ];
