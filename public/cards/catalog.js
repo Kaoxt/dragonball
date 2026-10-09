@@ -329,5 +329,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-030-fall-7-times-get-up-8-times.webp",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-031-fortify-your-spirit",
+    "name": "Fortify Your Spirit",
+    "number": "31",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-031-fortify-your-spirit.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-032-the-untroubled-mind-is-focused",
+    "name": "The Untroubled Mind is Focused",
+    "number": "32",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-033-its-the-little-things-that-matter",
+    "name": "It’s the Little Things That Matter",
+    "number": "33",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-034-straining-off-balancing-move",
+    "name": "Straining Off-Balancing Move",
+    "number": "34",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-034-straining-off-balancing-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-035-straining-penetrating-attack-move",
+    "name": "Straining, Penetrating Attack Move",
+    "number": "35",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-036-straining-fake-left-move",
+    "name": "Straining Fake Left Move",
+    "number": "36",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-036-straining-fake-left-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-037-straining-tripping-move",
+    "name": "Straining Tripping Move",
+    "number": "37",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-038-straining-arm-drag-move",
+    "name": "Straining Arm Drag Move",
+    "number": "38",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-038-straining-arm-drag-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-039-straining-ankle-smash-move",
+    "name": "Straining Ankle Smash Move",
+    "number": "39",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-040-straining-energy-defense-move",
+    "name": "Straining Energy Defense Move",
+    "number": "40",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   }
 ];
