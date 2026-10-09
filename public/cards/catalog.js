@@ -2198,5 +2198,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-200-cutting-the-tail.webp?v=7acc34ee3b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-201-the-tail-grows-back",
+    "name": "The Tail Grows Back",
+    "number": "201",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-201-the-tail-grows-back.webp?v=cf70a08e1b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-202-gokus-lucky-break",
+    "name": "Goku's Lucky Break",
+    "number": "202",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-202-gokus-lucky-break.webp?v=68df0d6b2c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-203-saiyan-truce-card",
+    "name": "Saiyan Truce Card",
+    "number": "203",
+    "type": "Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=d6296a600c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-204-battle-pausing",
+    "name": "Battle Pausing",
+    "number": "204",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-204-battle-pausing.webp?v=dc9346966b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-205-grabbing-the-tail",
+    "name": "Grabbing the Tail",
+    "number": "205",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-205-grabbing-the-tail.webp?v=b2fa9b8c0b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-206-nappas-blinding-stare",
+    "name": "Nappa's Blinding Stare",
+    "number": "206",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-206-nappas-blinding-stare.webp?v=9af504a958",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-207-power-gifting",
+    "name": "Power Gifting",
+    "number": "207",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-207-power-gifting.webp?v=b649bcafc0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-208-terrible-wounds",
+    "name": "Terrible Wounds",
+    "number": "208",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-208-terrible-wounds.webp?v=29e57bef73",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-209-broken-scouter",
+    "name": "Broken Scouter",
+    "number": "209",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-209-broken-scouter.webp?v=7e8e219de0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-210-raditz-flying-kick",
+    "name": "Raditz Flying Kick",
+    "number": "210",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-210-raditz-flying-kick.webp?v=a3d737c5f2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   }
 ];
