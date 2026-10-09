@@ -1,3 +1,4 @@
+import { catalog } from './cards/catalog.js';
 // Modernized user-supplied cards. Repeated cards are for testing, not tournament play.
 export const sampleCards = [
   ['krillin-heat-seeking-blast', 'Krillin’s Heat Seeking Blast'],
@@ -19,13 +20,15 @@ export const sampleCards = [
 
 export function practiceDeck(opponent = false) {
   const lookup = id => ({ ...sampleCards.find(c => c.id === id) });
-  const character = opponent ? 'Majin Buu' : 'Goku';
-  const personality = lookup(opponent ? 'majin-buu' : 'goku-super-saiyan-3');
+  const ids = opponent
+    ? ['saiyan-173-vegeta','saiyan-174-vegeta','saiyan-175-vegeta','saiyan-0P3-vegeta-silver-variant']
+    : ['saiyan-158-goku','saiyan-159-goku','saiyan-160-goku','saiyan-0P1-goku-silver-variant'];
+  const personalities=ids.map((id,index)=>{
+    const c=catalog.find(card=>card.id===id);
+    return {id:c.id,name:c.name,image:c.image,level:index+1,pur:opponent?[2,4,4,4][index]:index+1};
+  });
   return {
-    personalities: [1, 2, 3, 4].map(n => ({
-      id: `PRACTICE-${opponent ? 'BUU' : 'GOKU'}-${n}`,
-      name: `${character} · level ${n} placeholder`, image: personality.image, pur: 2,
-    })).concat({ ...personality, pur: opponent ? 5 : 6 }),
+    personalities,
     mastery: lookup('red-style-mastery'),
     sensei: lookup(opponent ? 'piccolo-sensei' : 'master-roshi-sensei'),
     cards: [

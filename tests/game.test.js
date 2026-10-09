@@ -88,3 +88,19 @@ test('undo restores counters and cards, stays private, and stops at another acti
  act(g,0,{type:'counter',counter:'level',delta:1});act(g,1,{type:'counter',counter:'anger',delta:1});
  assert.throws(()=>act(g,0,{type:'undo'}));act(g,1,{type:'undo'});assert.equal(g.players[0].level,2);
 });
+
+test('practice level changes select distinct matching MP artwork and power charts',async()=>{
+ const {practiceDeck}=await import('../public/practice-deck.js');
+ for(const opponent of [false,true]){
+  const d=practiceDeck(opponent),g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');
+  act(g,0,{type:'load',deck:d});act(g,1,{type:'load',deck:practiceDeck(!opponent)});act(g,0,{type:'start'});
+  const seen=new Set();
+  for(let level=1;level<=d.personalities.length;level++){
+   const p=view(g,0).players[0];const active=p.personalities[p.level-1];
+   assert.equal(p.level,level);assert.equal(active.id,d.personalities[level-1].id);assert.ok(active.image.startsWith('/assets/cards/'));
+   seen.add(active.image);assert.equal(p.power,active.powerLevels[p.stages]);
+   if(level<d.personalities.length)act(g,0,{type:'counter',counter:'level',delta:1});
+  }
+  assert.equal(seen.size,d.personalities.length);act(g,0,{type:'undo'});assert.equal(g.players[0].level,d.personalities.length-1);
+ }
+});
