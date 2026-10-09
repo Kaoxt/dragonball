@@ -5,9 +5,9 @@
 .counter-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.counter{display:flex;align-items:center;gap:6px;background:#242c3c;padding:5px 8px;border-radius:6px;font-size:10px}.counter strong{font-size:17px;color:var(--accent)}.counter button{padding:2px 7px}.sensei-choices{padding:10px}.sensei-choices label{margin:4px;font-size:11px}.sensei-choices input{display:inline;width:auto;margin:0}.setup-bar select{max-width:240px}.zone-label{overflow-wrap:anywhere}.zone-stack .zone{min-width:0}@media(max-width:650px){.counter-row{gap:4px}.counter{padding:3px 5px;font-size:8px;gap:4px}.counter button{padding:2px 5px}.counter strong{font-size:14px}}
 
 /* Shared static card artwork: one download for every hidden card. */
-.art-card,.card.back{background:#10131c url("/assets/dragon-ball-online-card-back.webp") center/100% 100% no-repeat;border:1px solid #080b12;box-shadow:0 3px 9px #0008;padding:0;aspect-ratio:5/7;min-height:0;height:auto}
+.art-card,.card.back{background:#10131c url("/assets/dragon-ball-online-card-back.webp?v=burnt-red-1") center/100% 100% no-repeat;border:1px solid #080b12;box-shadow:0 3px 9px #0008;padding:0;aspect-ratio:5/7;min-height:0;height:auto}
 .art-card{height:180px;box-shadow:0 12px 30px #0009}
-.card.back:hover{background:#10131c url("/assets/dragon-ball-online-card-back.webp") center/100% 100% no-repeat}
+.card.back:hover{background:#10131c url("/assets/dragon-ball-online-card-back.webp?v=burnt-red-1") center/100% 100% no-repeat}
 .pile .card.back{border-radius:3px}
 
 /* Open tabletop, with separate starting slots and private piles. */
