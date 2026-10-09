@@ -1208,5 +1208,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=6fb217f898",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-111-gohans-energy-defense",
+    "name": "Gohan's Energy Defense",
+    "number": "111",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=0bb76866e2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-112-krillins-physical-defense",
+    "name": "Krillin's Physical Defense",
+    "number": "112",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=8529d4f931",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-113-krillins-energy-attack",
+    "name": "Krillin's Energy Attack",
+    "number": "113",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=1943a671b9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-114-tiens-energy-defense",
+    "name": "Tien's Energy Defense",
+    "number": "114",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-114-tiens-energy-defense.webp?v=f27d557ab2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-115-yamchas-energy-attack",
+    "name": "Yamcha's Energy Attack",
+    "number": "115",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=78d24e2bf6",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-116-yamchas-physical-defense",
+    "name": "Yamcha's Physical Defense",
+    "number": "116",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=243d882a53",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-117-raditz-energy-wall",
+    "name": "Raditz Energy Wall",
+    "number": "117",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=a66c8bb88d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-118-raditz-physical-defense",
+    "name": "Raditz Physical Defense",
+    "number": "118",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=e1c4d19c44",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-119-vegetas-energy-blast",
+    "name": "Vegeta's Energy Blast",
+    "number": "119",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=fd69b560c7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-120-nappas-energy-aura",
+    "name": "Nappa's Energy Aura",
+    "number": "120",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=6fa8695cc8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
