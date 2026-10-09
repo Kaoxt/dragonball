@@ -1,5 +1,10 @@
 # Saiyan Saga continuation
 
+## Latest fixed design upload
+
+The recovered fixed-design exports are published for **cards 1–25 only**, in batches 1–10, 11–20, and 21–25. These supersede the earlier cleanup below. `saiyan-fixed-design.json` records their exact Git blob hashes. The user reduced this task from 70 to 25 cards; stop at 25. The renderer is pinned to the pre-update source commit so reruns cannot double-apply the frame.
+
+
 The repository retains 266 recovered image exports, including alternate prints. The active catalog contains **257 unique cards**: #1–250 plus seven promos. Assets are 1070 × 1470 WebP. Additions and refreshes are committed in batches of at most 10. Do not duplicate set entries or restore archived duplicate variants to the active catalog.
 
 The approved standard-frame cleanup is complete through **#70**. The next sequential batch starts at **#71**. Cards #21–70 contain no personalities. See `saiyan-approved-cleanup-001-020.json` and `saiyan-approved-cleanup-021-070.json` for asset versions.

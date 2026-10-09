@@ -15,7 +15,7 @@ def glyph(im,box):
 def render(im,c):
  n=int(c['number']);a,p=THEMES.get(c['style'],THEMES['Freestyle']);g=G
  if n in (15,16):a,p,g='#d9b64f','#a18435','#c7a64c'
- title=glyph(im,(100,55,980,136));label=glyph(im,(215,774,855,826));power=glyph(Image.open(io.BytesIO(subprocess.check_output(['git','show','origin/main:public/assets/cards/saiyan-052-orange-neck-restraints.webp'],cwd=R))).convert('RGB'),(85,892,350,944))
+ title=glyph(im,(100,55,980,136));label=glyph(im,(215,774,855,826));power=glyph(Image.open(io.BytesIO(subprocess.check_output(['git','show','50f5c9c3de0b41b6ada7798b2ef37f781fb017bd:public/assets/cards/saiyan-052-orange-neck-restraints.webp'],cwd=R))).convert('RGB'),(85,892,350,944))
  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="1070" height="1470">
  <defs><linearGradient id="title" x2="0" y2="1"><stop stop-color="{a}"/><stop offset="1" stop-color="{p}"/></linearGradient></defs>
  <rect width="1070" height="166" fill="{B}"/>
@@ -53,11 +53,11 @@ def render(im,c):
  canvas=Image.new('RGB',(1070,1470),'#090d0e');inner=out.resize((1034,1420),Image.Resampling.LANCZOS);canvas.paste(inner,(18,20));mask=Image.new('L',(1070,1470));ImageDraw.Draw(mask).rounded_rectangle((9,10,1061,1460),radius=50,fill=255);return Image.composite(canvas,Image.new('RGB',canvas.size,'#100b09'),mask)
 if __name__=='__main__':
  import argparse
- ap=argparse.ArgumentParser();ap.add_argument('--start',type=int,default=1);ap.add_argument('--end',type=int,default=70);args=ap.parse_args()
+ ap=argparse.ArgumentParser();ap.add_argument('--start',type=int,default=1);ap.add_argument('--end',type=int,default=25);args=ap.parse_args()
  catpath=R/'public/cards/catalog.js';txt=catpath.read_text();cs=json.loads(re.search(r'export const catalog\s*=\s*(\[.*?\]);',txt,re.S)[1]);entries=[]
  for c in cs:
   if not c['number'].isdigit() or not args.start<=int(c['number'])<=args.end:continue
-  path=R/'public'/c['image'].split('?')[0].lstrip('/');im=Image.open(io.BytesIO(subprocess.check_output(['git','show','origin/main:'+str(path.relative_to(R))],cwd=R))).convert('RGB');out=render(im,c);tmp=path.with_suffix('.tmp.webp');out.save(tmp,'WEBP',lossless=True,method=4);tmp.replace(path)
+  path=R/'public'/c['image'].split('?')[0].lstrip('/');im=Image.open(io.BytesIO(subprocess.check_output(['git','show','50f5c9c3de0b41b6ada7798b2ef37f781fb017bd:'+str(path.relative_to(R))],cwd=R))).convert('RGB');out=render(im,c);tmp=path.with_suffix('.tmp.webp');out.save(tmp,'WEBP',lossless=True,method=4);tmp.replace(path)
   b=path.read_bytes();sha=hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest();txt=txt.replace(c['image'],c['image'].split('?')[0]+'?v='+sha[:10]);entries.append({'number':int(c['number']),'path':str(path.relative_to(R)),'sha':sha})
  catpath.write_text(txt);(R/'docs/saiyan-fixed-design.json').write_text(json.dumps({'updated':entries},indent=2)+'\n')
  print('Rendered',len(entries))
