@@ -1758,5 +1758,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-160-goku.webp?v=bd5622e572",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-161-piccolo",
+    "name": "Piccolo",
+    "number": "161",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-161-piccolo.webp?v=e9304c9511",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-162-piccolo",
+    "name": "Piccolo",
+    "number": "162",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-162-piccolo.webp?v=a9e914ebe6",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-163-piccolo",
+    "name": "Piccolo",
+    "number": "163",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-163-piccolo.webp?v=8360be3b96",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-164-gohan",
+    "name": "Gohan",
+    "number": "164",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-164-gohan.webp?v=04ba80526f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-165-gohan",
+    "name": "Gohan",
+    "number": "165",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-165-gohan.webp?v=1838381850",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-166-gohan",
+    "name": "Gohan",
+    "number": "166",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-166-gohan.webp?v=0bcb474ca3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-167-krillin",
+    "name": "Krillin",
+    "number": "167",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-167-krillin.webp?v=c74d3b362c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-168-krillin",
+    "name": "Krillin",
+    "number": "168",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-168-krillin.webp?v=c62e64d75b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-169-krillin",
+    "name": "Krillin",
+    "number": "169",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-169-krillin.webp?v=361e0e78aa",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-170-raditz",
+    "name": "Raditz",
+    "number": "170",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-170-raditz.webp?v=e818ec665e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   }
 ];
