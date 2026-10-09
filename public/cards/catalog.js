@@ -117,7 +117,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp",
+    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp?v=2970af9c20",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -128,7 +128,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp",
+    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp?v=39f05c3f28",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -139,7 +139,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-013-blue-round-throw.webp",
+    "image": "/assets/cards/saiyan-013-blue-round-throw.webp?v=5942d02f06",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -150,7 +150,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp",
+    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp?v=d7b8aab089",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -161,7 +161,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=c1539a0b",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=c6504af68c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -172,7 +172,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=c1cde0b1",
+    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=8ce2082bd4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -183,7 +183,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-017-hidden-power-level.webp?v=a3abe546",
+    "image": "/assets/cards/saiyan-017-hidden-power-level.webp?v=151acb8f07",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -194,7 +194,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp",
+    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp?v=be4017221e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -205,7 +205,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp",
+    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp?v=5537447d56",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -216,7 +216,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp",
+    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp?v=02928c7f29",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -254,7 +254,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku’s Surprise Attack",
+    "name": "Goku\u2019s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -265,7 +265,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku’s Physical Attack",
+    "name": "Goku\u2019s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -276,7 +276,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan’s Physical Attack",
+    "name": "Gohan\u2019s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -287,7 +287,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien’s Physical Attack",
+    "name": "Tien\u2019s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -298,7 +298,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta’s Physical Stance",
+    "name": "Vegeta\u2019s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -309,7 +309,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe’s Physical Attack",
+    "name": "Yajirobe\u2019s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -353,7 +353,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It’s the Little Things That Matter",
+    "name": "It\u2019s the Little Things That Matter",
     "number": "33",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -518,7 +518,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku’s Touch",
+    "name": "Goku\u2019s Touch",
     "number": "48",
     "type": "Non-Combat",
     "style": "Freestyle",
