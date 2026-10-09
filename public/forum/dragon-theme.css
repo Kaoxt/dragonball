@@ -12,3 +12,5 @@ body.community-page .forum-shell #new-topic:hover:not(:disabled){background:#ded
 
 /* Keep the topic action legible even when posting is unavailable. */
 body.community-page main .forum-shell button#new-topic:disabled{background:#f5f5f5;color:#171317;border-color:#f5f5f5;opacity:1;cursor:not-allowed}
+
+body.community-page .forum-shell #new-topic[hidden]{display:none}
