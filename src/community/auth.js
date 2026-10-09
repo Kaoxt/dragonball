@@ -10,7 +10,7 @@ const safeEqual=(a,b)=>timingSafeEqual(Buffer.from(hash(a)),Buffer.from(hash(b))
 export function passwordHash(password,salt=randomBytes(16).toString('hex')){
  const key=scryptSync(password,salt,32,{N:32768,r:8,p:3,maxmem:64*1024*1024}).toString('hex');return `scrypt:32768:8:3:${salt}:${key}`;
 }
-export function validPassword(password){if(typeof password!=='string'||password.length<12||password.length>128)throw new IssueError('Use a password with 12–128 characters.');return password;}
+export function validPassword(password){if(typeof password!=='string'||password.length<8||password.length>128)throw new IssueError('Use a password with 8–128 characters.');return password;}
 export function verifyPassword(password,encoded){
  if(typeof password!=='string'||password.length>128)return false;
  const parts=String(encoded).split(':');if(parts.length!==6)return false;
