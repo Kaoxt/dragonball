@@ -13,7 +13,10 @@ body .site-header nav .account-nav-actions a:hover{background:#52212b}
 body .site-header nav .account-nav-actions .account-register-link:hover{background:#9c3450}
 body .site-header nav .account-nav-actions a[hidden]{display:none}
 @media(max-width:1200px){
- body .site-header nav .account-nav-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 0;padding:16px 6px 6px;border-left:0;border-top:1px solid #52333e}
+ body .site-header nav .account-nav-actions{display:grid;grid-template-columns:1fr;gap:12px;margin:8px 0 0;padding:16px 6px 6px;border-left:0;border-top:1px solid #52333e}
  body .site-header nav .account-nav-actions a{width:100%;max-width:none;min-height:46px;padding:12px 16px;font-size:14px}
  body .site-header nav .account-nav-actions.is-signed-in{grid-template-columns:1fr}
 }
+
+body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link{background:#f5f5f5;color:#171317;border-color:#f5f5f5;border-radius:999px;padding:10px 20px;font-size:14px}
+body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link:hover{background:#dedade;border-color:#dedade}

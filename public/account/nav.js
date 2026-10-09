@@ -4,18 +4,17 @@
   let actions=document.getElementById('account-nav-actions');
   if(!actions){
    actions=document.createElement('div');actions.id='account-nav-actions';actions.className='account-nav-actions';
-   const signIn=document.createElement('a');signIn.id='account-nav';signIn.className='account-nav-link';signIn.href='/account/';signIn.textContent='Sign In';
-   const register=document.createElement('a');register.id='register-nav';register.className='account-register-link';register.href='/account/?mode=register';register.textContent='Register';
-   actions.append(signIn,register);nav.append(actions);
+   const signIn=document.createElement('a');signIn.id='account-nav';signIn.className='account-nav-link';signIn.href='/account/';signIn.textContent='Log In';
+   actions.append(signIn);nav.append(actions);
   }
-  const link=document.getElementById('account-nav'),register=document.getElementById('register-nav');
-  const signedOut=()=>{actions.classList.remove('is-signed-in');register.hidden=false;link.textContent='Sign In';link.removeAttribute('aria-label');};
-  link.removeAttribute('aria-current');register.removeAttribute('aria-current');
-  if(location.pathname.startsWith('/account'))(new URLSearchParams(location.search).get('mode')==='register'?register:link).setAttribute('aria-current','page');
+  const link=document.getElementById('account-nav');
+  const signedOut=()=>{actions.classList.remove('is-signed-in');link.textContent='Log In';link.removeAttribute('aria-label');};
+  link.removeAttribute('aria-current');
+  if(location.pathname.startsWith('/account'))link.setAttribute('aria-current','page');
   try{
    const r=await fetch('/api/auth/session',{credentials:'same-origin',cache:'no-store'});if(!r.ok)return;const {user}=await r.json();
    if(!user){signedOut();return;}
-   actions.classList.add('is-signed-in');register.hidden=true;register.removeAttribute('aria-current');
+   actions.classList.add('is-signed-in');
    if(location.pathname.startsWith('/account'))link.setAttribute('aria-current','page');
    link.replaceChildren();
    const name=document.createElement('span');name.textContent=user.displayName;link.append(name);link.setAttribute('aria-label','Account: '+user.displayName);
