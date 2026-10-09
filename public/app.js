@@ -114,8 +114,8 @@ function render() {
   if (practiceGame && game.status === 'setup') $('setup-bar').insertAdjacentHTML('beforeend', '<button id="start-draw-test" class="primary">Start test · draw 3 cards</button>');
   $('board').innerHTML=fieldHTML(opponent,1-seat)+fieldHTML(p,seat);
   document.querySelectorAll('.free-table [data-x]').forEach(c=>{c.style.left=`calc(${+c.dataset.x*100}% - ${+c.dataset.x*80}px)`;c.style.top=`calc(${+c.dataset.y*100}% - ${+c.dataset.y*114}px)`;});
-  const controls=[['draw3','Draw 3'],['draw','Draw 1'],['shuffle','Shuffle Life Deck'],['search','Search Life Deck'],['damage','Flip 1 damage'],['powerUp','Power up'],['rejuvenate','Rejuvenate'],['concede','Concede']];
-  $('controls').innerHTML=controls.map(([action,label])=>`<button data-action="${action}" ${!playing?'disabled':''}>${label}</button>`).join('');
+  const controls=[['undo','Undo'],['draw3','Draw 3'],['draw','Draw 1'],['shuffle','Shuffle Life Deck'],['search','Search Life Deck'],['damage','Flip 1 damage'],['powerUp','Power up'],['rejuvenate','Rejuvenate'],['concede','Concede']];
+  $('controls').innerHTML=controls.map(([action,label])=>`<button data-action="${action}" ${(action==='undo'?!game.canUndo:!playing)?'disabled':''}>${label}</button>`).join('');
   $('hand-count').textContent=`· ${p.zones.hand.length}`; $('hand').innerHTML=p.zones.hand.map(c=>cardHTML(c,seat,'hand')).join('')||'<p class="empty">No opening hand. Draw three when the game reaches your Draw Step.</p>';
   $('hand').dataset.zone='hand';$('hand').dataset.owner=seat;
   $('search-panel').hidden=!p.searchCards;$('search-cards').innerHTML=p.searchCards?p.searchCards.map(c=>cardHTML(c,seat,'deck')).join(''):'';

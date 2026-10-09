@@ -76,3 +76,15 @@ test('played cards are named in the shared log without revealing private movemen
  act(g,0,{type:'move',from:'combat',to:'hand',uid:c.uid});
  assert.equal(view(g,1).log.at(-1).text,'Alice moved a card from combat to hand.');
 });
+
+test('undo restores counters and cards, stays private, and stops at another action',()=>{
+ const g=playing();const stages=g.players[0].stages;
+ act(g,0,{type:'counter',counter:'stages',delta:-1});
+ assert.equal(view(g,0).canUndo,true);assert.equal(view(g,1).canUndo,false);assert.equal(view(g,0).undo,undefined);
+ act(g,0,{type:'chat',text:'One moment'});act(g,0,{type:'undo'});
+ assert.equal(g.players[0].stages,stages);assert.ok(g.log.some(x=>x.text.includes('One moment')));assert.equal(view(g,0).canUndo,false);
+ act(g,0,{type:'counter',counter:'anger',delta:1});act(g,0,{type:'undo'});assert.equal(g.players[0].anger,0);
+ const count=g.players[0].zones.deck.length;act(g,0,{type:'draw'});act(g,0,{type:'undo'});assert.equal(g.players[0].zones.deck.length,count);assert.equal(g.players[0].zones.hand.length,0);
+ act(g,0,{type:'counter',counter:'level',delta:1});act(g,1,{type:'counter',counter:'anger',delta:1});
+ assert.throws(()=>act(g,0,{type:'undo'}));act(g,1,{type:'undo'});assert.equal(g.players[0].level,2);
+});

@@ -27,7 +27,7 @@ export function log(g, text) { g.log.push({ text, at: Date.now() }); g.log = g.l
 export function addPlayer(g, token, name) { check(g.players.length < 2 && g.status === 'waiting', 'This room is full.'); g.players.push({ token, name: clean(name, 24) || `Player ${g.players.length + 1}`, zones: Object.fromEntries(ZONES.map(z => [z, []])), personalities: [], level: 1, anger: 0, stages: 5, mastery: null, sensei: null, tokui: '', loaded: false, ready: false, warnings: [] }); log(g, `${g.players.at(-1).name} joined the table.`); return g.players.length - 1; }
 function validPosition(q) { return q && Number.isFinite(q.x) && Number.isFinite(q.y) && q.x >= 0 && q.x <= 1 && q.y >= 0 && q.y <= 1; }
 function draw(p, n) { check(p.zones.deck.length >= n, 'Not enough Life Deck cards. Resolve survival victory or card effects manually.'); p.zones.hand.push(...p.zones.deck.splice(0, n)); }
-export function act(g, seat, a) {
+function applyAction(g, seat, a) {
   check(a && typeof a === 'object' && !Array.isArray(a), 'Invalid action.'); const p = g.players[seat]; check(p, 'Not a player.'); const say = text => log(g, `${p.name} ${text}`);
   if (a.type === 'chat') { const text = clean(a.text, 300); check(text, 'Enter a message.'); say(`: ${text}`); }
   else if (a.type === 'load') { check(g.status === 'waiting', 'Decks lock when setup begins.'); const d = parseDeck(a.deck); Object.assign(p, { personalities: d.personalities, mastery: d.mastery, sensei: d.sensei, tokui: d.tokui, warnings: d.warnings, loaded: true }); p.zones.deck = d.cards; p.zones.senseiDeck = d.senseiDeck; say(`loaded ${d.cards.length} Life Deck cards and ${d.personalities.length} MP levels.`); }
@@ -58,4 +58,25 @@ export function act(g, seat, a) {
   }
   g.version++; g.updated = Date.now();
 }
-export function view(g, seat) { return { ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
+// One action of history, kept server-side and never included in a player view.
+const undoable = new Set(['counter','power','powerUp','move','position','rest','flip','stages','damage','draw','rejuvenate','shuffle','senseiSwap','phase','giveDragonBall']);
+export function act(g, seat, a) {
+ check(g.players[seat], 'Not a player.');
+ if (a?.type === 'undo') {
+  check(g.undo?.seat === seat && ['setup','playing'].includes(g.status), 'There is no action you can undo. Another game action may have been made.');
+  const name=g.players[seat].name, history=g.log, version=g.version, previous=g.undo.state, action=g.undo.action;
+  Object.keys(g).forEach(key=>delete g[key]);
+  Object.assign(g,previous,{log:history,version:version+1,updated:Date.now()});
+  delete g.undo;
+  log(g, `${name} undid their last action (${action}).`);
+  return;
+ }
+ const {undo,...state}=g;
+ const previous=undoable.has(a?.type)?structuredClone(state):null;
+ applyAction(g,seat,a);
+ if(a.type!=='chat') {
+  delete g.undo;
+  if(previous) g.undo={seat,state:previous,action:a.type};
+ }
+}
+export function view(g, seat) { return { canUndo: g.undo?.seat===seat && ['setup','playing'].includes(g.status), ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
