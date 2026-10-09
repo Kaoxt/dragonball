@@ -163,15 +163,17 @@ $('practice').onclick = practice;
 $('switch-seat').onclick = () => { seat = 1 - seat; selected = null; game = view(practiceGame, seat); render(); };
 $('leave').onclick = () => { intentional = true; clearTimeout(reconnectTimer); socket?.close(); location.href = '/'; };
 $('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/play/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
-$('open-deck').onclick = () => {
+let availableBuilderDecks=[];
+$('open-deck').onclick = async () => {
   $('deck-error').textContent = '';
   $('builder-saved-decks').replaceChildren(new Option('Choose a deck…',''));
-  try { for(const d of readDecks().decks) $('builder-saved-decks').add(new Option(d.name || 'Untitled deck',d.id)); }
+  availableBuilderDecks=[];$('builder-saved-decks').disabled=true;$('deck-dialog').showModal();
+  try {const response=await fetch('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status===401)availableBuilderDecks=readDecks().decks;else{const result=await response.json();if(!response.ok)throw Error(result.error);availableBuilderDecks=result.data.decks;}for(const d of availableBuilderDecks)$('builder-saved-decks').add(new Option(d.name||'Untitled deck',d.id)); }
   catch { $('deck-error').textContent = 'Saved decks could not be read. You can still import a deck file.'; }
-  $('deck-dialog').showModal();
+  $('builder-saved-decks').disabled=false;
 };
 $('builder-saved-decks').onchange = () => {
-  try { const d=readDecks().decks.find(d=>d.id===$('builder-saved-decks').value); if(!d)return;
+  try { const d=availableBuilderDecks.find(d=>d.id===$('builder-saved-decks').value); if(!d)return;
     const last=d.personalities.findLastIndex(Boolean);
     if(last<2||d.personalities.slice(0,last+1).some(c=>!c))throw new Error('Complete consecutive Main Personality levels in the deck builder first.');
     $('deck-text').value=JSON.stringify(exportDeck(d),null,2);$('tokui').value=d.tokui||'';$('deck-error').textContent='';

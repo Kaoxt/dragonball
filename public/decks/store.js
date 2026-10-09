@@ -17,9 +17,22 @@ export function exportDeck(deck) {
   const clean = c => ({id:c.id, name:c.name, image:c.image, ...(c.pur !== undefined ? {pur:c.pur} : {}), ...(c.qty ? {qty:c.qty} : {})});
   return {name:deck.name, tokui:deck.tokui, personalities:deck.personalities.filter(Boolean).map(clean), mastery:deck.mastery ? clean(deck.mastery) : null, sensei:deck.sensei ? clean(deck.sensei) : null, cards:deck.cards.map(clean), senseiDeck:deck.senseiDeck.map(clean)};
 }
+export const deckLimit = deck => deck.tokui.toLowerCase() === 'namekian' ? 90 : 85;
+export const deckSize = deck => count(deck.cards) + deck.personalities.filter(Boolean).length + Number(!!deck.mastery) + Number(!!deck.sensei);
+export function removalTarget(deck,card,destination='auto'){
+ const zones=destination==='auto'?['personalities','mastery','sensei','cards','senseiDeck']:[destination];
+ for(const zone of zones){
+  if(zone==='personalities'){const index=deck.personalities.findLastIndex(c=>c?.id===card.id);if(index>=0)return {zone,card:deck.personalities[index],index};}
+  else if(zone==='mastery'||zone==='sensei'){if(deck[zone]?.id===card.id)return {zone,card:deck[zone]};}
+  else if(zone==='cards'||zone==='senseiDeck'){const found=deck[zone].find(c=>c.id===card.id);if(found)return {zone,card:found};}
+ }
+ return null;
+}
 export function addCard(deck, card, destination = 'auto') {
   if (destination === 'auto') destination = card.type === 'Main Personality' ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
   const c = snapshot(card);
+  const addsStarting=destination==='personalities'?!deck.personalities[c.level?c.level-1:deck.personalities.findIndex(x=>!x)]:['mastery','sensei'].includes(destination)&&!deck[destination];
+  if((destination==='cards'||addsStarting)&&deckSize(deck)>=deckLimit(deck))throw new Error(`Deck limit is ${deckLimit(deck)} cards including Main Personality levels, Mastery and Sensei. Remove a card first.`);
   if (destination === 'personalities') {
     const index = c.level ? c.level - 1 : deck.personalities.findIndex(x=>!x);
     if (index < 0 || index > 4) throw new Error('All five personality slots are filled. Remove a level first.');
@@ -30,7 +43,7 @@ export function addCard(deck, card, destination = 'auto') {
     deck[destination] = c;
   } else {
     if (!['cards','senseiDeck'].includes(destination)) throw new Error('Choose a deck area.');
-    if (count(deck[destination]) >= 90) throw new Error('This area has reached the tabletop limit of 90 cards.');
+    if (count(deck[destination]) >= 90) throw new Error('The Sensei Deck has reached the tabletop limit of 90 cards. Check your Sensei’s printed capacity.');
     const entry = deck[destination].find(x=>x.id === c.id);
     if (entry) entry.qty++; else deck[destination].push({...c,qty:1});
   }

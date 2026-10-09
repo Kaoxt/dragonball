@@ -1,3 +1,4 @@
+import {decksRequest} from '../src/community/decks-api.js';
 import { avatarRequest, AVATAR_LIMIT } from '../src/community/avatar-upload.js';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -184,4 +185,21 @@ test('avatar uploads enforce size, ownership and origin and appear in profiles',
  await remove('bob');assert.equal((await f.auth('alice','session')).data.user.avatarUrl,avatarUrl);
  await remove('alice');assert.equal((await f.auth('alice','session')).data.user.avatarUrl,'');
  assert.equal((await avatarRequest(new Request('https://dragonball.test'+avatarUrl),f.env)).status,404);
+});
+
+test('account decks are private, persistent, origin-checked and versioned',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const call=async(who,data,origin='https://dragonball.test')=>{const r=await decksRequest(new Request('https://dragonball.test/api/decks',{method:data?'POST':'GET',headers:{Cookie:f.cookies[who]||'',Origin:origin,'Content-Type':'application/json'},...(data?{body:JSON.stringify(data)}:{})}),f.env);return {status:r.status,data:await r.json()};};
+ assert.equal((await call(null)).status,401);
+ const first=(await call('alice')).data;assert.equal(first.version,0);
+ const deck={id:'test-deck',name:'My deck',tokui:'Black',personalities:[null,null,null,null,null],cards:[],senseiDeck:[],mastery:null,sensei:null};
+ const payload={userId:first.userId,version:0,data:{decks:[deck],active:deck.id}};
+ assert.equal((await call('alice',payload,'https://evil.test')).status,403);
+ assert.equal((await call('bob',payload)).status,409);
+ assert.equal((await call('alice',payload)).status,200);
+ assert.equal((await call('alice')).data.data.decks[0].name,'My deck');
+ assert.equal((await call('bob')).data.data.decks.length,0);
+ assert.equal((await call('alice',payload)).status,409);
+ assert.equal((await call('alice',{...payload,version:1,data:{decks:[],active:null}})).status,200);
+ assert.equal((await call('alice')).data.data.decks.length,0);
 });
