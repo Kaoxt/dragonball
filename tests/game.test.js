@@ -104,3 +104,13 @@ test('practice level changes select distinct matching MP artwork and power chart
   assert.equal(seen.size,d.personalities.length);act(g,0,{type:'undo'});assert.equal(g.players[0].level,d.personalities.length-1);
  }
 });
+
+test('stage, level, power-up and undo logs include the matching printed power',async()=>{
+ const {practiceDeck}=await import('../public/practice-deck.js');
+ const g=newGame();addPlayer(g,'a','Alice');addPlayer(g,'b','Bob');act(g,0,{type:'load',deck:practiceDeck()});act(g,1,{type:'load',deck:practiceDeck(true)});act(g,0,{type:'start'});
+ act(g,0,{type:'counter',counter:'stages',delta:1});assert.match(g.log.at(-1).text,/6 stages above 0, power 1,000/);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.match(g.log.at(-1).text,/MP level 2, 6 stages above 0, power 5,700/);
+ act(g,0,{type:'undo'});assert.match(g.log.at(-1).text,/MP level 1, 6 stages above 0, power 1,000/);
+ act(g,0,{type:'ready'});act(g,1,{type:'ready'});act(g,0,{type:'powerUp'});assert.match(g.log.at(-1).text,/7 stages above 0, power 1,100/);
+ g.players[0].stages=1;act(g,0,{type:'counter',counter:'stages',delta:-1});assert.match(g.log.at(-1).text,/0 stages above 0, power 0/);
+});
