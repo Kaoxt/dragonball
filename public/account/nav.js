@@ -17,9 +17,11 @@
    actions.classList.add('is-signed-in');
    if(location.pathname.startsWith('/account'))link.setAttribute('aria-current','page');
    link.replaceChildren();
-   const name=document.createElement('span');name.textContent=user.displayName;link.append(name);link.setAttribute('aria-label','Account: '+user.displayName);
+   const rawName=user.displayName||user.username||'';
+   const displayName=rawName.charAt(0).toUpperCase()+rawName.slice(1);
+   const name=document.createElement('span');name.textContent=displayName;link.append(name);link.setAttribute('aria-label','Account: '+displayName);
    const nr=await fetch('/api/forum?view=notifications&summary=1',{cache:'no-store'});if(!nr.ok)return;const {unreadCount}=await nr.json();
-   if(unreadCount){const badge=document.createElement('span');badge.className='account-badge';badge.textContent=String(unreadCount);link.append(badge);link.setAttribute('aria-label',`Account: ${user.displayName}, ${unreadCount} unread notifications`);}
+   if(unreadCount){const badge=document.createElement('span');badge.className='account-badge';badge.textContent=String(unreadCount);link.append(badge);link.setAttribute('aria-label',`Account: ${displayName}, ${unreadCount} unread notifications`);}
   }catch{/* Keep the account links usable if the connection is interrupted. */}
  }
  window.addEventListener('dragon:auth-signed-in',update);window.addEventListener('dragon:auth-signed-out',update);update();
