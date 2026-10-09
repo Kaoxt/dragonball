@@ -1648,5 +1648,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-150-blue-neck-restraint-drill.webp?v=d5498bfc7d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-151-orange-joint-restraint-drill",
+    "name": "Orange Joint Restraint Drill",
+    "number": "151",
+    "type": "Non-Combat Drill",
+    "style": "Orange",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=c2063652cc",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-152-black-defender-drill",
+    "name": "Black Defender Drill",
+    "number": "152",
+    "type": "Non-Combat Drill",
+    "style": "Black",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=b58ebfe372",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-153-goku-energy-blast",
+    "name": "Goku Energy Blast!",
+    "number": "153",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=19b49ce9bf",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-154-piccolo-sidestep",
+    "name": "Piccolo Sidestep!",
+    "number": "154",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=581ced3037",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-155-piccolo-defense-drill",
+    "name": "Piccolo Defense Drill",
+    "number": "155",
+    "type": "Non-Combat Drill",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=73d2821b14",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-156-allys-sacrifice",
+    "name": "Ally's Sacrifice",
+    "number": "156",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-156-allys-sacrifice.webp?v=db52a7643a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-157-eyes-of-the-dragon",
+    "name": "Eyes of the Dragon",
+    "number": "157",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-157-eyes-of-the-dragon.webp?v=d2486018e4",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-158-goku",
+    "name": "Goku",
+    "number": "158",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-158-goku.webp?v=d56cb043f3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-159-goku",
+    "name": "Goku",
+    "number": "159",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-159-goku.webp?v=5ff91d88ad",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-160-goku",
+    "name": "Goku",
+    "number": "160",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-160-goku.webp?v=bd5622e572",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   }
 ];
