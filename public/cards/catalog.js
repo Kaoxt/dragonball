@@ -1868,5 +1868,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-170-raditz.webp?v=e818ec665e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-171-raditz",
+    "name": "Raditz",
+    "number": "171",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-171-raditz.webp?v=734e5b1cfb",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-172-raditz",
+    "name": "Raditz",
+    "number": "172",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-172-raditz.webp?v=7a6630aa4e",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-173-vegeta",
+    "name": "Vegeta",
+    "number": "173",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-173-vegeta.webp?v=57c0a93867",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-174-vegeta",
+    "name": "Vegeta",
+    "number": "174",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-174-vegeta.webp?v=5cb089bf37",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-175-vegeta",
+    "name": "Vegeta",
+    "number": "175",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-175-vegeta.webp?v=11015a9a69",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-176-nappa",
+    "name": "Nappa",
+    "number": "176",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-176-nappa.webp?v=5cb65028f9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-177-nappa",
+    "name": "Nappa",
+    "number": "177",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-177-nappa.webp?v=f0d1d7a6c7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-178-nappa",
+    "name": "Nappa",
+    "number": "178",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-178-nappa.webp?v=f2fd3159fd",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-179-goku-lvl-1-ht",
+    "name": "Goku",
+    "number": "179",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=119d3c6f66",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
+  },
+  {
+    "id": "saiyan-180-piccolo-lvl-1-ht",
+    "name": "Piccolo",
+    "number": "180",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=3659517db7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/"
   }
 ];
