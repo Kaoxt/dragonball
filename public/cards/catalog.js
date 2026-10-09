@@ -667,7 +667,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-061-blue-body-drop-throw.webp?v=d9816d042a",
+    "image": "/assets/cards/saiyan-061-blue-body-drop-throw.webp?v=00e5515918",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -678,7 +678,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-062-blue-inner-leg-throw.webp?v=208d8ed47c",
+    "image": "/assets/cards/saiyan-062-blue-inner-leg-throw.webp?v=31ee5d6ba1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -689,7 +689,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=ae956e38db",
+    "image": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=baa6d9351e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -700,7 +700,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=89119f65e9",
+    "image": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=c19c914c75",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -711,7 +711,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-065-black-fore-fist-punch.webp?v=c395eaf89f",
+    "image": "/assets/cards/saiyan-065-black-fore-fist-punch.webp?v=1835e5488f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -722,7 +722,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=f430a0eddb",
+    "image": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=8cdbc67559",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -733,7 +733,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=9808b2a7bc",
+    "image": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=2a43aa1f6d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -744,7 +744,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-068-black-front-kick.webp?v=e42a477dba",
+    "image": "/assets/cards/saiyan-068-black-front-kick.webp?v=7eae900adf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -755,7 +755,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-069-black-side-kick.webp?v=dc44a3405a",
+    "image": "/assets/cards/saiyan-069-black-side-kick.webp?v=e737513ce0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -766,7 +766,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=7549d3905d",
+    "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=ca47b12345",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
