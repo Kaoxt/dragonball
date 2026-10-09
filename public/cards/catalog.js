@@ -219,5 +219,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-021-saiyan-neck-hold",
+    "name": "Saiyan Neck Hold",
+    "number": "21",
+    "type": "Physical Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-021-saiyan-neck-hold.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-022-power-up",
+    "name": "Power Up!",
+    "number": "22",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-022-power-up.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-023-burning-rage",
+    "name": "Burning Rage!",
+    "number": "23",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-023-burning-rage.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-024-gokus-surprise-attack",
+    "name": "Goku’s Surprise Attack",
+    "number": "24",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-024-gokus-surprise-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-025-gokus-physical-attack",
+    "name": "Goku’s Physical Attack",
+    "number": "25",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-025-gokus-physical-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-026-gohans-physical-attack",
+    "name": "Gohan’s Physical Attack",
+    "number": "26",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-026-gohans-physical-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-027-tiens-physical-attack",
+    "name": "Tien’s Physical Attack",
+    "number": "27",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-027-tiens-physical-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-028-vegetas-physical-stance",
+    "name": "Vegeta’s Physical Stance",
+    "number": "28",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-028-vegetas-physical-stance.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-029-yajirobes-physical-attack",
+    "name": "Yajirobe’s Physical Attack",
+    "number": "29",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-029-yajirobes-physical-attack.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+  },
+  {
+    "id": "saiyan-030-fall-7-times-get-up-8-times",
+    "name": "Fall 7 Times, Get Up 8 Times.",
+    "number": "30",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-030-fall-7-times-get-up-8-times.webp",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   }
 ];
