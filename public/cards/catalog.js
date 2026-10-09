@@ -878,5 +878,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=426f97ae71",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-081-saiyan-armor",
+    "name": "Saiyan Armor",
+    "number": "81",
+    "type": "Non-Combat",
+    "style": "Saiyan",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-081-saiyan-armor.webp?v=8b9b8a5035",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-082-tien",
+    "name": "Tien",
+    "number": "82",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=8607ea20ba",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-083-tien",
+    "name": "Tien",
+    "number": "83",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=3286eda012",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-084-yamcha",
+    "name": "Yamcha",
+    "number": "84",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=052fed21f7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-085-yamcha",
+    "name": "Yamcha",
+    "number": "85",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=51ccd3977c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-086-chi-chi",
+    "name": "Chi-Chi",
+    "number": "86",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=205f5896ce",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-087-bulma",
+    "name": "Bulma",
+    "number": "87",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=e75dd1a9e1",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-088-king-kai-uniform",
+    "name": "King Kai Uniform",
+    "number": "88",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-088-king-kai-uniform.webp?v=22be6b9286",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-089-dream-chamber-training",
+    "name": "Dream Chamber Training",
+    "number": "89",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-089-dream-chamber-training.webp?v=f0d76731e1",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-090-mothers-touch",
+    "name": "Mother's Touch",
+    "number": "90",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-090-mothers-touch.webp?v=68c451573c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
