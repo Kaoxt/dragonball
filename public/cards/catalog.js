@@ -2748,5 +2748,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=49b36312df",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
+  },
+  {
+    "id": "saiyan-0P1-goku-silver-variant",
+    "name": "Goku (Silver Variant)",
+    "number": "P1",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=c8d1ea30e0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P1-goku",
+    "name": "Goku",
+    "number": "P1",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P1-goku.webp?v=c8d1ea30e0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P2-piccolo-silver-variant",
+    "name": "Piccolo (Silver Variant)",
+    "number": "P2",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=29b427bee7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P2-piccolo",
+    "name": "Piccolo",
+    "number": "P2",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P2-piccolo.webp?v=29b427bee7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P3-vegeta-silver-variant",
+    "name": "Vegeta (Silver Variant)",
+    "number": "P3",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=1d7402355c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P3-vegeta",
+    "name": "Vegeta",
+    "number": "P3",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P3-vegeta.webp?v=1d7402355c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P4-goku-error-dupe-error-variant",
+    "name": "Goku (Error Dupe)",
+    "number": "P4",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P4-goku-error-dupe-error-variant.webp?v=8bdec4ece3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P4-raditz-silver-variant",
+    "name": "Raditz (Silver Variant)",
+    "number": "P4",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=82d8524338",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P4-raditz",
+    "name": "Raditz",
+    "number": "P4",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P4-raditz.webp?v=82d8524338",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
+  },
+  {
+    "id": "saiyan-0P5-gohan-silver-variant",
+    "name": "Gohan (Silver Variant)",
+    "number": "P5",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=17f4ead68c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   }
 ];
