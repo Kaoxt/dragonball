@@ -46,7 +46,11 @@ export const onRequestGet = context => forumHandle(context,false,async({db,sessi
     if(view==='latestNews')return reply({article:articles[0]?{id:articles[0].id,title:articles[0].title,created_at:articles[0].created_at}:null});
     return reply({...common,categories:await categories(db),articles:articles.slice(0,10),hasMore:articles.length>10,page:current});
   }
-  if(view==='categories')return reply({...common,categories:await categoryOverview(db)});
+  if(view==='categories'){
+    const stats=await db.prepare(`SELECT (SELECT COUNT(*) FROM forum_members) AS members,(SELECT COUNT(*) FROM forum_topics WHERE hidden=0) AS topics,((SELECT COUNT(*) FROM forum_topics WHERE hidden=0)+(SELECT COUNT(*) FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id WHERE r.hidden=0 AND t.hidden=0)) AS posts`).first();
+    const newestMember=await db.prepare(`SELECT ${memberSelect},m.created_at FROM forum_members m LEFT JOIN account_preferences p ON p.user_id=m.user_id LEFT JOIN account_avatars a ON a.user_id=m.user_id WHERE m.banned=0 ORDER BY m.created_at DESC,m.rowid DESC LIMIT 1`).first();
+    return reply({...common,categories:await categoryOverview(db),stats,newestMember});
+  }
   if(view==='self'){const stats=me?await db.prepare(`SELECT ${counts} FROM forum_members m WHERE m.id=?`).bind(me.id).first():{topic_count:0,reply_count:0,likes_received:0};const follows=me?await db.prepare(`SELECT COUNT(*) AS total,COALESCE(SUM(CASE WHEN ${unreadSql}>0 THEN 1 ELSE 0 END),0) AS unread FROM forum_topics t LEFT JOIN forum_follows f ON f.topic_id=t.id AND f.member_id=? LEFT JOIN forum_category_follows cf ON cf.category_id=t.category_id AND cf.member_id=? WHERE (f.member_id IS NOT NULL OR cf.member_id IS NOT NULL) AND t.hidden=0`).bind(me.id,me.id).first():{total:0,unread:0};return reply({...common,about:me?.about||'',stats,follows});}
   if(view==='member'){
     const member=await db.prepare(`SELECT ${memberSelect},m.about,m.created_at,${counts} FROM forum_members m LEFT JOIN account_preferences p ON p.user_id=m.user_id LEFT JOIN account_avatars a ON a.user_id=m.user_id WHERE m.id=?`).bind(q.get('id')||'').first();

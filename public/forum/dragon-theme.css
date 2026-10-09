@@ -38,3 +38,19 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 .forum-author-stats{display:flex;justify-content:center;flex-wrap:wrap;gap:16px;color:var(--issue-muted);font-size:13px;margin-top:4px}
 .forum-author-stats>[data-author-likes]{display:inline-flex}
 @media(max-width:600px){.forum-shell .forum-topic-row{grid-template-columns:30px minmax(0,1fr);gap:6px 10px;padding:15px 14px}.forum-shell .forum-topic-row h3{font-size:14px}.forum-topic-counts{grid-column:2;justify-self:end}.forum-shell .forum-topic-avatar .issue-avatar{width:30px;height:30px;flex-basis:30px}.forum-author-stats{gap:12px}}
+
+/* Forum home member information. */
+.forum-shell .forum-member-statistics{margin-top:26px}
+.forum-member-statistics-body{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:28px;padding:26px 24px}
+.forum-community-totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0;text-align:center}
+.forum-community-totals>div{display:flex;flex-direction:column-reverse;gap:5px}
+.forum-community-totals dt{color:var(--issue-muted);font-size:12px}
+.forum-community-totals dd{margin:0;font-size:26px;font-weight:650;font-variant-numeric:tabular-nums}
+.forum-newest-member{display:flex;align-items:center;gap:15px;border-left:1px solid var(--issue-line);padding-left:26px;min-width:0}
+.forum-newest-member>div{min-width:0;overflow-wrap:anywhere}
+.forum-shell .forum-newest-avatar .issue-avatar{width:56px;height:56px;flex-basis:56px;font-size:22px}
+.forum-newest-avatar{flex:none}
+.forum-newest-label{margin:0 0 5px;color:var(--issue-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+.forum-newest-name{font-size:16px;font-weight:600}
+.forum-newest-member .issue-note{margin:5px 0 0;font-size:12px;line-height:1.5}
+@media(max-width:600px){.forum-member-statistics-body{grid-template-columns:1fr;gap:22px;padding:22px 16px}.forum-newest-member{border-left:0;border-top:1px solid var(--issue-line);padding:20px 0 0}.forum-community-totals dd{font-size:24px}}
