@@ -2308,5 +2308,115 @@ export const catalog = [
     "status": "Ready",
     "image": "/assets/cards/saiyan-210-raditz-flying-kick.webp?v=a3d737c5f2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-211-tien-mind-reading-trick",
+    "name": "Tien Mind Reading Trick",
+    "number": "211",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-211-tien-mind-reading-trick.webp?v=c5c8998960",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-212-piccolos-flight",
+    "name": "Piccolo's Flight",
+    "number": "212",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-212-piccolos-flight.webp?v=302127bc4a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-213-plant-two-saibaimen",
+    "name": "Plant Two Saibaimen",
+    "number": "213",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-213-plant-two-saibaimen.webp?v=ba1b7f4eb0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-214-gohans-father-save",
+    "name": "Gohan's Father Save",
+    "number": "214",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-214-gohans-father-save.webp?v=7f89a8ecab",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-215-krillins-drill",
+    "name": "Krillin's Drill",
+    "number": "215",
+    "type": "Non-Combat Drill",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-215-krillins-drill.webp?v=16d60052e5",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-216-krillins-energy-disk",
+    "name": "Krillin's Energy Disk",
+    "number": "216",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=8b25bb25cf",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-217-ribs-broken",
+    "name": "Ribs Broken",
+    "number": "217",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-217-ribs-broken.webp?v=f8e9069bb8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-218-unexpected-allies",
+    "name": "Unexpected Allies",
+    "number": "218",
+    "type": "Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-218-unexpected-allies.webp?v=1323c11c38",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-219-raditz-energy-burst",
+    "name": "Raditz Energy Burst",
+    "number": "219",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=1155ce97c7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+  },
+  {
+    "id": "saiyan-220-vegetas-stance",
+    "name": "Vegeta's Stance",
+    "number": "220",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-220-vegetas-stance.webp?v=f3fb2449fe",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   }
 ];
