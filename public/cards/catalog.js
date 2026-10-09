@@ -898,7 +898,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=8607ea20ba",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=c9c2713816",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -909,7 +909,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=3286eda012",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=8c88a32158",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -920,7 +920,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=052fed21f7",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=462dbe414c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -931,7 +931,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=51ccd3977c",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=760f3a90d5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -942,7 +942,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=205f5896ce",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=eebc07cd35",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -953,7 +953,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=e75dd1a9e1",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=4bfc739539",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -2757,7 +2757,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=c8d1ea30e0",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=625b6a2aa4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
@@ -2779,7 +2779,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=29b427bee7",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=f47508b166",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
@@ -2801,7 +2801,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=1d7402355c",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=2b905b6a1a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
@@ -2823,7 +2823,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-goku-error-dupe-error-variant.webp?v=8bdec4ece3",
+    "image": "/assets/cards/saiyan-0P4-goku-error-dupe-error-variant.webp?v=874bf7db16",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/"
   },
   {
