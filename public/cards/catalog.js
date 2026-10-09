@@ -254,7 +254,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku\u2019s Surprise Attack",
+    "name": "Goku’s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -265,7 +265,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku\u2019s Physical Attack",
+    "name": "Goku’s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -276,7 +276,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan\u2019s Physical Attack",
+    "name": "Gohan’s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -287,7 +287,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien\u2019s Physical Attack",
+    "name": "Tien’s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -298,7 +298,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta\u2019s Physical Stance",
+    "name": "Vegeta’s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -309,7 +309,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe\u2019s Physical Attack",
+    "name": "Yajirobe’s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -353,7 +353,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It\u2019s the Little Things That Matter",
+    "name": "It’s the Little Things That Matter",
     "number": "33",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -518,7 +518,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku\u2019s Touch",
+    "name": "Goku’s Touch",
     "number": "48",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -1097,6 +1097,116 @@ export const catalog = [
     "set": "Saiyan Saga",
     "status": "Ready",
     "image": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=8d652756b2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-101-goku-honor-duel",
+    "name": "Goku Honor Duel!",
+    "number": "101",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-101-goku-honor-duel.webp?v=bfe118c4d3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-102-raditz-honor-duel",
+    "name": "Raditz Honor Duel!",
+    "number": "102",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-102-raditz-honor-duel.webp?v=84997636c0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-103-piccolo-honor-duel",
+    "name": "Piccolo Honor Duel!",
+    "number": "103",
+    "type": "Non-Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-103-piccolo-honor-duel.webp?v=62b5cb0b0f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-104-chiaotzu",
+    "name": "Chiaotzu",
+    "number": "104",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=4dcbb90840",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-105-chiaotzu",
+    "name": "Chiaotzu",
+    "number": "105",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=c6b0d2cd8f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-106-yajirobe",
+    "name": "Yajirobe",
+    "number": "106",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=ad6199185d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-107-yajirobe",
+    "name": "Yajirobe",
+    "number": "107",
+    "type": "Main Personality",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=a9db111767",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-108-gokus-energy-defense",
+    "name": "Goku's Energy Defense",
+    "number": "108",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-108-gokus-energy-defense.webp?v=5456cf859b",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-109-piccolos-energy-attack",
+    "name": "Piccolo's Energy Attack",
+    "number": "109",
+    "type": "Energy Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-109-piccolos-energy-attack.webp?v=52742ca002",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+  },
+  {
+    "id": "saiyan-110-piccolos-physical-defense",
+    "name": "Piccolo's Physical Defense",
+    "number": "110",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "set": "Saiyan Saga",
+    "status": "Ready",
+    "image": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=6fb217f898",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   }
 ];
