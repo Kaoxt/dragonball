@@ -447,7 +447,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-041-straining-head-lock-move.webp",
+    "image": "/assets/cards/saiyan-041-straining-head-lock-move.webp?v=6a86601e36",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -458,7 +458,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-042-straining-rolling-escape-move.webp",
+    "image": "/assets/cards/saiyan-042-straining-rolling-escape-move.webp?v=bbc2cfb017",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -469,7 +469,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-043-senzu-bean.webp",
+    "image": "/assets/cards/saiyan-043-senzu-bean.webp?v=885d8a3b5e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -480,7 +480,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-044-goku-body-throw.webp?v=3e430e90",
+    "image": "/assets/cards/saiyan-044-goku-body-throw.webp?v=886b682f33",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -491,7 +491,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp",
+    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp?v=bcda46cbc8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -502,7 +502,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-046-goku-anger-attack.webp",
+    "image": "/assets/cards/saiyan-046-goku-anger-attack.webp?v=621be673dc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -513,7 +513,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-047-raditz-total-defense.webp",
+    "image": "/assets/cards/saiyan-047-raditz-total-defense.webp?v=3f8a01541e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -524,7 +524,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-048-gokus-touch.webp?v=822042d2",
+    "image": "/assets/cards/saiyan-048-gokus-touch.webp?v=0673e83f71",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -535,7 +535,7 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp",
+    "image": "/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp?v=26f7115894",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -546,7 +546,7 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-050-orange-shoulder-throw.webp",
+    "image": "/assets/cards/saiyan-050-orange-shoulder-throw.webp?v=73ee8c3706",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
