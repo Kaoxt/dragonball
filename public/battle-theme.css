@@ -62,3 +62,13 @@ body.arena-page{background:#681824;background-image:linear-gradient(90deg,#100b0
 .arena-page .free-table .table-hint{bottom:8px}
 .arena-page .pile-row{margin-top:7px;gap:6px}
 @media(max-width:650px){.arena-page .player-field{padding:7px}.arena-page .player-meta{flex-wrap:wrap;gap:3px}.arena-page .free-table{height:275px;min-height:275px}.arena-page .mat-starting-slots{top:6px;left:6px;right:6px;gap:5px}.arena-page .mat-starting-slots .starting-slot{width:calc((100% - 10px)/3);flex:0 1 82px;min-height:128px;padding:5px}.arena-page .mat-starting-slots .card{width:min(100%,65px);height:auto;aspect-ratio:5/7}.arena-page .mat-starting-slots .zone-label{font-size:7px;letter-spacing:0;min-height:19px}.arena-page .pile-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.arena-page .pile-row .zone{padding:5px;min-width:0}.arena-page .pile-row .zone-label{font-size:7px;letter-spacing:0;overflow-wrap:anywhere}}
+
+/* Readable rulebook headings and copy; branded page wordmarks remain separate. */
+.manual .chapter h2,.manual .chapter h3{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:650;font-style:normal;letter-spacing:0;line-height:1.35;text-shadow:none}
+.manual .chapter h2{font-size:clamp(21px,2.4vw,28px)}
+.manual .chapter h3{font-size:18px}
+.manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){font-size:16px;line-height:1.75}
+.manual .chapter summary{font-size:16px;line-height:1.5}
+.manual .chapter .rule-source{font-size:12px;line-height:1.6;letter-spacing:0}
+.manual .chapter-links>a{font-size:13px;line-height:1.5}
+@media print{.manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){font-size:11pt}.manual .chapter h2{font-size:18pt}.manual .chapter h3{font-size:13pt}}
