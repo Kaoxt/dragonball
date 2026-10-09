@@ -117,7 +117,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp?v=ffd079c6c9",
+    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp?v=0aac05a9cb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -128,7 +128,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp?v=8c3d951600",
+    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp?v=f65ae746be",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -139,7 +139,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-013-blue-round-throw.webp?v=f40951e2bd",
+    "image": "/assets/cards/saiyan-013-blue-round-throw.webp?v=3aeea1d49b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -150,7 +150,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp?v=d7e97da153",
+    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp?v=27bcddd161",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -161,7 +161,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=c6504af68c",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=aa02d9dd5a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -172,7 +172,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=8ce2082bd4",
+    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=84e8225096",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -183,7 +183,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-017-hidden-power-level.webp?v=6e61d75c0c",
+    "image": "/assets/cards/saiyan-017-hidden-power-level.webp?v=e187474a11",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -194,7 +194,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp?v=3bf6f68191",
+    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp?v=9a4fe2cbf5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -205,7 +205,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp?v=26a58b8a02",
+    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp?v=63c30d467b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -216,7 +216,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp?v=81971ed5a3",
+    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp?v=361b71c1bf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
