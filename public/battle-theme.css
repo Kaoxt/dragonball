@@ -146,3 +146,9 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 .mp-stack-card.active-level{border-color:#ff949d;background:#40242e}
 #pile-cards .mp-stack-card .card{width:120px;height:168px}
 @media(max-width:650px){.arena-page .player-meta .mp-readout{gap:5px;justify-content:flex-start}.arena-page .arena-mat{min-height:265px}.arena-page .player-meta>strong{font-size:11px}.arena-page .player-meta .mp-readout .counter{font-size:8px}.arena-page .player-meta .mp-readout .counter strong{font-size:13px}#pile-cards .mp-stack-card{width:calc((100% - 14px)/2)}#pile-cards .mp-stack-card .card{width:100%;height:auto;aspect-ratio:5/7}}
+
+/* Table management follows chat, away from the playing area. */
+.arena-page .table-management{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin:14px 0 0;padding:14px;}
+.arena-page .table-management h1{font-size:20px;line-height:1.25;letter-spacing:0;}
+.arena-page .table-management .eyebrow{font-size:9px;letter-spacing:1px;}
+.arena-page .table-management .toolbar{flex-wrap:wrap;gap:6px;}
