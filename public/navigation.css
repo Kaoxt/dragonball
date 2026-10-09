@@ -6,7 +6,7 @@ body .site-header{box-sizing:border-box;display:flex;justify-content:space-betwe
 body .site-header nav{gap:2px}
 body .site-header nav a,body .site-header nav a[aria-current=page]{display:flex;align-items:center;justify-content:center;min-height:44px;padding:8px 10px;border:0;border-radius:9px;box-sizing:border-box;background:transparent}
 body .site-header nav a:hover,body .site-header nav a[aria-current=page]{background:#52212b;box-shadow:inset 0 -2px #c14954}
-.nav-wordmark{display:block;height:25px;background-image:url('/assets/navigation-wordmarks.webp');background-repeat:no-repeat;background-size:125.4px 125.4px;flex-shrink:0}
+.nav-wordmark{display:block;height:25px;background-image:url('/assets/navigation-wordmarks-hd.webp');background-repeat:no-repeat;background-size:125.4px 125.4px;flex-shrink:0}
 .nav-arena{width:87px;background-position:center -4px}.nav-database{width:121px;background-position:center -28px}.nav-decks{width:84px;background-position:center -52px}.nav-forums{width:109px;background-position:center -76px}.nav-rulebook{width:119px;background-position:center -99px}
 .nav-news-art{display:block;position:relative;overflow:hidden;width:85px;height:27px}.nav-news-art img{position:absolute;width:128px;max-width:none;height:auto;left:-21px;top:-8px}
 .site-header #connection{display:none}
@@ -14,4 +14,5 @@ body .site-header nav a:hover,body .site-header nav a[aria-current=page]{backgro
 @media(max-width:760px){body .site-header nav a,body .site-header nav a[aria-current=page]{justify-content:flex-start;padding:10px 18px;min-height:48px}}
 
 /* Keep the original letter shapes with clean white ink and no colored stroke. */
-.nav-wordmark,.nav-news-art{filter:url("/assets/navigation-ink.svg?v=smooth-2#white-ink")}
+.nav-news-art{filter:url("/assets/navigation-ink.svg?v=matched-3#news-ink")}
+.nav-wordmark{filter:url("/assets/navigation-ink.svg?v=matched-3#matched-ink")}
