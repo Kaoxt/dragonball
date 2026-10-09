@@ -105,6 +105,11 @@ test('posting, replies, likes, follows, profile, mentions and notification owner
  const detail=await f.forum(null,null,{view:'topic',id});assert.equal(detail.data.topic.author,'alice');assert.doesNotMatch(JSON.stringify(detail),/password|user_id|recovery/);
  assert.equal((await f.forum('bob',{action:'reply',id,body:'Great deck!'})).status,201);
  assert.equal((await f.forum('bob',{action:'like',kind:'topic',id,liked:true})).status,200);assert.equal((await f.forum('alice',{action:'like',kind:'topic',id,liked:true})).status,403);
+ const likedDetail=(await f.forum(null,null,{view:'topic',id})).data;
+ assert.equal(likedDetail.topic.likes_received,1);assert.equal(likedDetail.topic.post_count,1);
+ assert.equal(likedDetail.replies[0].likes_received,0);assert.equal(likedDetail.replies[0].post_count,1);
+ const unliked=await f.forum('bob',{action:'like',kind:'topic',id,liked:false});
+ assert.equal(unliked.data.likes_received,0);assert.equal((await f.forum(null,null,{view:'topic',id})).data.topic.likes_received,0);
  await f.forum('bob',{action:'follow',id,following:true});assert.equal((await f.forum('bob',null,{view:'followed'})).data.topics.length,1);
  const notices=await f.forum('bob',null,{view:'notifications'});assert.equal(notices.data.unreadCount,1);assert.match(notices.data.notifications[0].url,/^\/forums\/#topic/);assert.equal((await f.forum('alice',null,{view:'notifications'})).data.unreadCount,0);
  await f.auth('bob','profile',{displayName:'Vegeta fan',about:'I play Saiyan decks.',avatarUrl:'https://example.com/avatar.webp'});

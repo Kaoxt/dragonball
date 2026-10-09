@@ -16,7 +16,8 @@ const unreadSql=`(SELECT COUNT(*) FROM forum_replies ur WHERE ur.topic_id=t.id A
 const latestReply = `(SELECT lr.id FROM forum_replies lr WHERE lr.topic_id=t.id AND lr.hidden=0 ORDER BY lr.id DESC LIMIT 1)`;
 const latestFields = `lm.id AS latest_member_id,COALESCE(NULLIF(lp.display_name,''),lm.author) AS latest_author,COALESCE(CASE WHEN la.url!='' THEN la.url WHEN la.id IS NOT NULL THEN '/api/avatars/'||la.id END,lm.avatar_url) AS latest_avatar_url,lm.avatar_color AS latest_avatar_color,COALESCE(last_reply.created_at,t.created_at) AS latest_posted_at,last_reply.id AS latest_reply_id`;
 const latestJoins = `LEFT JOIN forum_replies last_reply ON last_reply.id=${latestReply} JOIN forum_members lm ON lm.id=COALESCE(last_reply.member_id,t.member_id) LEFT JOIN account_preferences lp ON lp.user_id=lm.user_id LEFT JOIN account_avatars la ON la.user_id=lm.user_id`;
-const topicSelect = `SELECT t.*,${latestFields},c.name AS category_name,${memberSelect},((SELECT COUNT(*) FROM forum_topics ft WHERE ft.member_id=m.id AND ft.hidden=0)+(SELECT COUNT(*) FROM forum_replies fr JOIN forum_topics ft ON ft.id=fr.topic_id WHERE fr.member_id=m.id AND fr.hidden=0 AND ft.hidden=0)) AS post_count,(SELECT COUNT(*) FROM forum_replies r WHERE r.topic_id=t.id AND r.hidden=0) AS reply_count FROM forum_topics t JOIN forum_categories c ON c.id=t.category_id ${memberJoin} ${latestJoins}`;
+const memberLikes = counts.slice(counts.indexOf('(SELECT COUNT(*) FROM forum_likes'));
+const topicSelect = `SELECT t.*,${memberLikes},${latestFields},c.name AS category_name,${memberSelect},((SELECT COUNT(*) FROM forum_topics ft WHERE ft.member_id=m.id AND ft.hidden=0)+(SELECT COUNT(*) FROM forum_replies fr JOIN forum_topics ft ON ft.id=fr.topic_id WHERE fr.member_id=m.id AND fr.hidden=0 AND ft.hidden=0)) AS post_count,(SELECT COUNT(*) FROM forum_replies r WHERE r.topic_id=t.id AND r.hidden=0) AS reply_count FROM forum_topics t JOIN forum_categories c ON c.id=t.category_id ${memberJoin} ${latestJoins}`;
 const topicPages=async(db,from,values,current)=>{
   const {total}=await db.prepare(`SELECT COUNT(*) AS total ${from}`).bind(...values).first();
   const totalPages=Math.max(1,Math.ceil(total/25)),selected=Math.min(current,totalPages);
@@ -59,7 +60,7 @@ export const onRequestGet = context => forumHandle(context,false,async({db,sessi
     if(!topic)throw new IssueError('Discussion not found.',404);
     if(!topic.hidden&&!q.has('after'))topic.view_count=recordTopicView(db,context.request,session,topic.id);
     const after=q.get('reply')?id(q.get('reply'))-1:Math.max(0,Number(q.get('after'))||0);
-    const rows=(await db.prepare(`SELECT t.id,t.body,t.created_at,t.edited_at,t.hidden,${memberSelect},((SELECT COUNT(*) FROM forum_topics ft WHERE ft.member_id=m.id AND ft.hidden=0)+(SELECT COUNT(*) FROM forum_replies fr JOIN forum_topics ft ON ft.id=fr.topic_id WHERE fr.member_id=m.id AND fr.hidden=0 AND ft.hidden=0)) AS post_count FROM forum_replies t ${memberJoin} WHERE t.topic_id=? AND t.id>? ${admin?'':'AND t.hidden=0'} ORDER BY t.id LIMIT 21`).bind(topic.id,after).all()).results;
+    const rows=(await db.prepare(`SELECT t.id,t.body,t.created_at,t.edited_at,t.hidden,${memberSelect},${memberLikes},((SELECT COUNT(*) FROM forum_topics ft WHERE ft.member_id=m.id AND ft.hidden=0)+(SELECT COUNT(*) FROM forum_replies fr JOIN forum_topics ft ON ft.id=fr.topic_id WHERE fr.member_id=m.id AND fr.hidden=0 AND ft.hidden=0)) AS post_count FROM forum_replies t ${memberJoin} WHERE t.topic_id=? AND t.id>? ${admin?'':'AND t.hidden=0'} ORDER BY t.id LIMIT 21`).bind(topic.id,after).all()).results;
     const visible=rows.slice(0,20);
     const follow=await db.prepare('SELECT COUNT(*) AS follower_count,COALESCE(MAX(CASE WHEN member_id=? THEN 1 ELSE 0 END),0) AS following FROM forum_follows WHERE topic_id=?').bind(me?.id||'',topic.id).first();
     if(me&&follow.following&&visible.length)await db.prepare('UPDATE forum_follows SET last_read_reply=MAX(last_read_reply,?) WHERE topic_id=? AND member_id=?').bind(visible.at(-1).id,topic.id,me.id).run();
@@ -150,7 +151,8 @@ export const onRequestPost = context => forumHandle(context,true,async({db,sessi
     if(data.liked)await db.prepare('INSERT OR IGNORE INTO forum_likes(kind,post_id,member_id) VALUES(?,?,?)').bind(data.kind,postId,member.id).run();
     else await db.prepare('DELETE FROM forum_likes WHERE kind=? AND post_id=? AND member_id=?').bind(data.kind,postId,member.id).run();
     const count=await db.prepare('SELECT COUNT(*) AS n FROM forum_likes WHERE kind=? AND post_id=?').bind(data.kind,postId).first();
-    return reply({liked:data.liked,like_count:count.n});
+    const stats=await db.prepare(`SELECT ${memberLikes} FROM forum_members m WHERE m.id=?`).bind(target.member_id).first();
+    return reply({liked:data.liked,like_count:count.n,likes_received:stats.likes_received});
   }
   if(action==='topicEdit'||action==='replyEdit'){
     const targetId=id(data.id),isTopic=action==='topicEdit';
