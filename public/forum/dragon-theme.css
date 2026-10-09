@@ -5,12 +5,14 @@ body.community-page{color:#f4eff2;font-family:system-ui,-apple-system,"Segoe UI"
 #forum-search-dialog{--issue-panel:#21171c;--issue-line:#35252d;--issue-muted:#c0acb6;--issue-field:#180f14;background:#21171c;color:#f4edf1;border:1px solid #795160;font-family:system-ui,sans-serif}#forum-search-dialog h2{font-family:inherit;text-shadow:none;letter-spacing:0}#forum-search-dialog button{box-shadow:none;transform:none}
 @media(max-width:700px){.forum-page{padding:25px 14px 50px}.forum-shell .forum-list-title-row{align-items:center;gap:12px}.forum-shell .forum-start-topic{font-size:12px;padding:10px 12px}.forum-shell .forum-topic-name{font-size:21px}.forum-shell .forum-post-bar{padding:0 14px}.forum-shell .forum-category p{line-height:1.6}.forum-shell .forum-post-author{padding:12px 14px}}
 
-body.community-page .forum-shell #new-topic,body.community-page .forum-shell .forum-reply-shortcut{background:#8f2a45;color:white;border:1px solid #ba4a66;border-radius:7px}
-
-body.community-page .forum-shell #new-topic{background:#f5f5f5;color:#171317;border:1px solid #f5f5f5;border-radius:999px}
-body.community-page .forum-shell #new-topic:hover:not(:disabled){background:#dedade;color:#171317;border-color:#dedade}
-
-/* Keep the topic action legible even when posting is unavailable. */
-body.community-page main .forum-shell button#new-topic:disabled{background:#f5f5f5;color:#171317;border-color:#f5f5f5;opacity:1;cursor:not-allowed}
-
+/* Match Start New Topic and form actions to Reply to Topic. */
+body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save,.issue-filters>button){
+ background:#252326;color:#f5f5f5;border:1px solid #444046;border-radius:999px;box-shadow:none;
+}
+body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save,.issue-filters>button):hover:not(:disabled){
+ background:#353137;color:#f5f5f5;border-color:#5a545d;
+}
+body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save,.issue-filters>button):disabled{
+ opacity:.42;cursor:not-allowed;
+}
 body.community-page .forum-shell #new-topic[hidden]{display:none}
