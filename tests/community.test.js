@@ -1,3 +1,4 @@
+import { avatarRequest, AVATAR_LIMIT } from '../src/community/avatar-upload.js';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { DatabaseSync } from 'node:sqlite';
@@ -162,4 +163,25 @@ test('Turnstile registration: config privacy, fail-closed verification, hostname
  assert.equal((await f.auth('outage','register',{...verified,username:'outage'})).status,503);
  assert.equal(f.env.DB.prepare('SELECT count(*) AS n FROM auth_accounts').first().n,1);
  assert.equal((await f.auth('valid','login',{username:'protected',password:registration.password})).status,200);
+});
+
+test('avatar uploads enforce size, ownership and origin and appear in profiles',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aP1sAAAAASUVORK5CYII=','base64');
+ const upload=(who,bytes=png,origin='https://dragonball.test')=>avatarRequest(new Request('https://dragonball.test/api/auth/avatar',{method:'POST',headers:{Origin:origin,Cookie:f.cookies[who]||'','Content-Type':'image/png'},body:bytes}),f.env);
+ assert.equal((await upload(null)).status,401);
+ assert.equal((await upload('alice',png,'https://evil.test')).status,403);
+ assert.equal((await upload('alice',Buffer.from('<svg onload="alert(1)"/>'))).status,400);
+ assert.equal((await upload('alice',Buffer.alloc(AVATAR_LIMIT+1))).status,413);
+ const response=await upload('alice');assert.equal(response.status,200);const {avatarUrl}=await response.json();
+ const image=await avatarRequest(new Request('https://dragonball.test'+avatarUrl),f.env);
+ assert.equal(image.headers.get('Content-Type'),'image/png');assert.deepEqual(Buffer.from(await image.arrayBuffer()),png);
+ assert.equal((await f.auth('alice','session')).data.user.avatarUrl,avatarUrl);
+ const id=(await f.forum('alice',topic)).data.id;assert.equal((await f.forum(null,null,{view:'topic',id})).data.topic.avatar_url,avatarUrl);
+ await f.auth('alice','profile',{displayName:'Alice',about:'Hello',avatarUrl:''});
+ assert.equal((await f.auth('alice','session')).data.user.avatarUrl,avatarUrl);
+ const remove=who=>avatarRequest(new Request('https://dragonball.test/api/auth/avatar-remove',{method:'POST',headers:{Origin:'https://dragonball.test',Cookie:f.cookies[who]}}),f.env);
+ await remove('bob');assert.equal((await f.auth('alice','session')).data.user.avatarUrl,avatarUrl);
+ await remove('alice');assert.equal((await f.auth('alice','session')).data.user.avatarUrl,'');
+ assert.equal((await avatarRequest(new Request('https://dragonball.test'+avatarUrl),f.env)).status,404);
 });
