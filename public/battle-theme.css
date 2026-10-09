@@ -101,3 +101,32 @@ body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled){
  background:#353137;color:#f5f5f5;border-color:#5a545d;
 }
 body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-allowed}
+
+/* Centered seven-slot arena dock and shared MP readout. */
+.arena-page .arena-mat{background:linear-gradient(#100d0b38,#100d0b38),url('/assets/burnt-orange-playmat.webp') center/cover;border:1px solid #78412b;border-radius:5px;padding:8px}
+.arena-page .arena-mat .free-table{height:150px;min-height:150px;background:none;border:0;box-shadow:none;overflow:hidden}
+.arena-page .arena-dock{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:start;max-width:660px;margin:auto}
+.arena-page .arena-dock .zone{display:flex;flex-direction:column;align-items:center;min-width:0;min-height:0;padding:0;background:none;border:0;box-shadow:none}
+.arena-page .arena-dock .zone-label{display:block;text-align:center;font-size:9px;letter-spacing:0;line-height:1.25;min-height:26px;margin:0 0 5px;color:#eee}
+.arena-page .arena-dock .zone-label span{display:block}
+.arena-page .arena-dock .card,.arena-page .arena-dock .pile-cover{position:relative;display:block;width:100%;max-width:70px;height:auto;aspect-ratio:5/7;margin:0;min-height:0}
+.arena-page .arena-dock .pile{display:flex;flex-direction:column;gap:4px;width:100%;align-items:center;font-size:12px}
+.arena-page .arena-dock .pile-open{gap:5px;padding:0}
+.arena-page .arena-dock .pile-caption{font-size:9px;text-align:center;margin-top:4px}
+.arena-page .arena-dock .empty{font-size:9px;text-align:center;display:grid;place-content:center}
+.arena-page .mp-readout{margin:10px auto 0;text-align:center;color:#eee}
+.arena-page .mp-readout .counter-row{justify-content:center;flex-wrap:wrap;gap:5px;margin:5px 0 0}
+.arena-page .mp-readout .counter{font-size:10px;padding:5px;gap:5px}
+.arena-page .mp-readout .counter strong{font-size:15px}
+.arena-page .power-readout{display:flex;justify-content:center;align-items:center;gap:7px;font-size:12px}
+.arena-page .power-readout small{color:#bdaeb2;font-size:9px}
+.arena-page .power-readout button{padding:3px 8px;background:#30252a;border:1px solid #674147;color:#eee}
+.arena-page .arena-extras{display:flex;gap:12px;margin-top:7px}
+.arena-page .arena-extras .zone{display:flex;align-items:center;gap:10px;min-height:0;padding:5px 9px}
+.arena-page .arena-extras .zone-label{font-size:9px;letter-spacing:0;margin:0;max-width:100px}
+.arena-page .arena-extras .pile-open{width:auto;flex-direction:row;font-size:10px}
+.arena-page .arena-extras .pile-cover,.arena-page .arena-extras .card{width:28px;height:39px;min-height:0}
+.arena-page .arena-extras .pile-caption{font-size:9px}
+.arena-page .arena-extras .pile{font-size:12px}
+.arena-page .sensei-choices{margin-top:8px;font-size:12px}
+@media(max-width:650px){.arena-page .arena-mat{padding:5px}.arena-page .arena-dock{gap:4px}.arena-page .arena-dock .zone-label{font-size:7px;min-height:26px}.arena-page .arena-dock .pile-caption{font-size:7px}.arena-page .arena-mat .free-table{height:130px;min-height:130px}}

@@ -37,3 +37,11 @@ test('practice card images use WebP and legacy JPG deck imports migrate', async 
   assert.equal(g.players[0].zones.hand.length, 3);
   assert.ok(g.players[0].zones.hand.every(card => card.image.endsWith('.webp')));
 });
+
+test('manual power is shared, validated, and cleared when MP stages or level change',()=>{
+ const g=setup();act(g,0,{type:'power',value:900000});assert.equal(view(g,1).players[0].power,900000);assert.equal(view(g,1).players[1].power,null);
+ for(const value of [-1,1.5,Infinity,'900000',1000000000])assert.throws(()=>act(g,0,{type:'power',value}));
+ act(g,0,{type:'counter',counter:'stages',delta:-1});assert.equal(view(g,0).players[0].power,null);
+ act(g,0,{type:'power',value:42});act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,null);
+ act(g,0,{type:'power',value:0});assert.equal(view(g,1).players[0].power,0);
+});
