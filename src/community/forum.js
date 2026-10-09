@@ -26,7 +26,10 @@ export async function forumDb(env) {
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_settings (id INTEGER PRIMARY KEY CHECK(id=1), posting_open INTEGER NOT NULL DEFAULT 1)`),
     db.prepare('INSERT OR IGNORE INTO forum_settings(id) VALUES(1)'),
     // Seed only once; category edits and archives survive future deployments.
-    db.prepare(`INSERT OR IGNORE INTO forum_categories(id,name,description,position,read_only) VALUES (1,'General','Talk Dragon Ball and meet other players.',10,0),(2,'Decks & strategies','Share decks, combos, and matchups.',20,0),(3,'Rules & rulings','Ask about card interactions and the Score rules.',30,0),(4,'Announcements','Site updates and community news.',0,1)`),
+    db.prepare(`INSERT OR IGNORE INTO forum_categories(id,name,description,position,read_only) VALUES (1,'General','Talk Dragon Ball and meet other players.',10,0),(2,'Decks & Strategies','Share decks, combos, and matchups.',20,0),(3,'Rules & Rulings','Ask about card interactions and the Score rules.',30,0),(4,'Announcements','Site updates and community news.',0,1)`),
+    // Normalize the original labels without changing custom category names.
+    db.prepare("UPDATE forum_categories SET name='Decks & Strategies' WHERE id=2 AND name COLLATE BINARY='Decks & strategies'"),
+    db.prepare("UPDATE forum_categories SET name='Rules & Rulings' WHERE id=3 AND name COLLATE BINARY='Rules & rulings'"),
   ])).then(async()=>{
     const columns=await db.prepare('PRAGMA table_info(forum_topics)').all();
     if(!columns.results.some(c=>c.name==='github_release_url')){
