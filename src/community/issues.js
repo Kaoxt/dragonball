@@ -1,0 +1,3 @@
+export class IssueError extends Error{constructor(message,status=400){super(message);this.status=status;}}
+export function textField(value,label,min,max){if(typeof value!=="string"||value.trim().length<min||value.trim().length>max)throw new IssueError(`${label} must be between ${min} and ${max} characters.`);return value.trim();}
+export async function profileIdentity(profileId,session,env){const p=await env.DB.prepare('SELECT display_name FROM account_preferences WHERE user_id=?').bind(session.id).first();return {author:p?.display_name||session.username,avatar_url:session.avatar_url||'',avatar_color:'#842a40'};}
