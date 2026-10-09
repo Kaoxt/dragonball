@@ -31,12 +31,21 @@ export function removalTarget(deck,card,destination='auto'){
 export function addCard(deck, card, destination = 'auto') {
   if (destination === 'auto') destination = card.type === 'Main Personality' ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
   const c = snapshot(card);
+  const character=name=>String(name||'').trim().toLowerCase();
+  if(destination==='personalities'){
+    if(c.type!=='Main Personality')throw new Error('Only Main Personality cards can go in the starting stack.');
+    if(deck.personalities.some(p=>p?.id===c.id))throw new Error('That Main Personality card is already in your starting stack.');
+    if(deck.personalities.some(p=>p&&character(p.name)!==character(c.name)))throw new Error('Use one character for all Main Personality levels. Remove the other character first.');
+    if([...deck.cards,...deck.senseiDeck].some(p=>p.type==='Main Personality'&&character(p.name)===character(c.name)))throw new Error('Your Main Personality cannot also be an Ally. Remove its cards from the Life or Sensei Deck first.');
+  }else if(c.type==='Main Personality'&&deck.personalities.some(p=>p&&character(p.name)===character(c.name))){
+    throw new Error('Your Main Personality cannot also be added to the Life or Sensei Deck.');
+  }
   const addsStarting=destination==='personalities'?!deck.personalities[c.level?c.level-1:deck.personalities.findIndex(x=>!x)]:['mastery','sensei'].includes(destination)&&!deck[destination];
   if((destination==='cards'||addsStarting)&&deckSize(deck)>=deckLimit(deck))throw new Error(`Deck limit is ${deckLimit(deck)} cards including Main Personality levels, Mastery and Sensei. Remove a card first.`);
   if (destination === 'personalities') {
     const index = c.level ? c.level - 1 : deck.personalities.findIndex(x=>!x);
     if (index < 0 || index > 4) throw new Error('All five personality slots are filled. Remove a level first.');
-    if (deck.personalities[index] && deck.personalities[index].id !== c.id) throw new Error(`Level ${index+1} is filled. Remove it before adding a different personality.`);
+    if (deck.personalities[index]) throw new Error(`Level ${index+1} is filled. Remove it before adding a different personality.`);
     deck.personalities[index] = c;
   } else if (destination === 'mastery' || destination === 'sensei') {
     if (deck[destination] && deck[destination].id !== c.id) throw new Error(`Remove the current ${destination} before adding another.`);

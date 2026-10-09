@@ -65,7 +65,11 @@ function renderDeck(){
  for(const [key,id,empty]of[['cards','life-list','Add cards from the collection to start your Life Deck.'],['senseiDeck','sensei-list','Choose “Sensei Deck” above the collection to add cards here.']]){
  const cards=[...deck[key]].sort((a,b)=>a.name.localeCompare(b.name));$(id).replaceChildren(...(cards.length?cards.map(c=>row(c,key)):[node('p',empty,'list-empty')]));
  }
- const checks=[];if(deckSize(deck)<50||deckSize(deck)>deckLimit(deck))checks.push(`Deck size: ${deckSize(deck)} of 50–${deckLimit(deck)} cards, including starting cards.`);const last=deck.personalities.findLastIndex(Boolean);
+ const checks=[];
+ const stack=deck.personalities.filter(Boolean);
+ if(new Set(stack.map(c=>c.id)).size!==stack.length)checks.push('Remove duplicate Main Personality cards: use each card only once.');
+ if(new Set(stack.map(c=>c.name.trim().toLowerCase())).size>1)checks.push('All Main Personality levels must belong to the same character.');
+if(deckSize(deck)<50||deckSize(deck)>deckLimit(deck))checks.push(`Deck size: ${deckSize(deck)} of 50–${deckLimit(deck)} cards, including starting cards.`);const last=deck.personalities.findLastIndex(Boolean);
  if(last<2||deck.personalities.slice(0,last+1).some(c=>!c))checks.push('Choose consecutive Main Personality levels starting at level 1 (at least three).');
  if(deck.personalities.some((c,i)=>c?.level&&c.level!==i+1))checks.push('One or more personalities are in the wrong level slot.');
  if(!checks.length){try{checks.push(...parseDeck(exportDeck(deck)).warnings);}catch(e){checks.push(e.message);}}
