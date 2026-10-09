@@ -194,7 +194,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp?v=be4017221e",
+    "image": "/assets/cards/saiyan-018-saiyan-arm-throw.webp?v=b2f263af9c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -205,7 +205,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp?v=5537447d56",
+    "image": "/assets/cards/saiyan-019-saiyan-full-spin-kick.webp?v=368beb851a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -216,7 +216,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp?v=02928c7f29",
+    "image": "/assets/cards/saiyan-020-saiyan-pressure-punch.webp?v=c5c53fc355",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -227,7 +227,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-021-saiyan-neck-hold.webp?v=4eccc0203f",
+    "image": "/assets/cards/saiyan-021-saiyan-neck-hold.webp?v=a86e5c6670",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -491,7 +491,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp?v=bcda46cbc8",
+    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp?v=1413d09bd4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
   },
   {
@@ -876,7 +876,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=426f97ae71",
+    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=89918d5418",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -887,7 +887,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-081-saiyan-armor.webp?v=8b9b8a5035",
+    "image": "/assets/cards/saiyan-081-saiyan-armor.webp?v=aab1cf7c8f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -997,7 +997,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=e77b547445",
+    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=f339951c5a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -1008,7 +1008,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=5be4427ad5",
+    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=569518ded6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -1019,7 +1019,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=8858469d70",
+    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=5e71dcefd3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -1030,7 +1030,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=d81f654e97",
+    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=476a73de72",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -1041,7 +1041,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=8edee54af0",
+    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=0dfec9965b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -1052,7 +1052,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=5082f9c19c",
+    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=d4aa33ae0b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
   },
   {
@@ -2152,7 +2152,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-196-saiyan-honor-quest.webp?v=ba8c48607e",
+    "image": "/assets/cards/saiyan-196-saiyan-honor-quest.webp?v=b48c4f203f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -2163,7 +2163,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-197-saiyan-battle-terms.webp?v=a0b02080d2",
+    "image": "/assets/cards/saiyan-197-saiyan-battle-terms.webp?v=d6f1e684c6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -2174,7 +2174,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=8e916b8821",
+    "image": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=d9e573d1a1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -2229,7 +2229,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=d6296a600c",
+    "image": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=ffccbf6cff",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -2592,7 +2592,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-236-saiyan-power-drill.webp?v=e46f3684aa",
+    "image": "/assets/cards/saiyan-236-saiyan-power-drill.webp?v=f3532c346f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
