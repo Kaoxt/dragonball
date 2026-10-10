@@ -19,3 +19,6 @@ body button.site-close{display:grid!important;place-items:center;flex:none;width
 body button.site-close:hover{background:#ffffff0a!important}
 body button.site-close:focus-visible{outline:2px solid #ffa1ad;outline-offset:2px}
 body button.site-close .site-close-icon{display:block;width:28px!important;height:28px!important;flex:none;margin:0!important;pointer-events:none}
+
+/* Suppress Chromium touch flashes; existing :focus-visible outlines remain. */
+html{-webkit-tap-highlight-color:transparent}
