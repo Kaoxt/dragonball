@@ -235,9 +235,7 @@ html[data-theme=light] .forum-shell #follow-category[aria-pressed=true]{color:#4
 .forum-post-actions>summary::marker{content:""}
 .forum-shell .forum-post-actions>summary:hover,.forum-shell .forum-post-actions[open]>summary{background:transparent}
 .forum-action-icon{position:relative;display:block;width:22px;height:22px}
-.forum-action-icon::before,.forum-action-icon::after{content:"";position:absolute;left:0;top:10px;width:22px;height:2px;background:currentColor;border-radius:2px}
-.forum-post-actions[open] .forum-action-icon::before{transform:rotate(45deg)}
-.forum-post-actions[open] .forum-action-icon::after{transform:rotate(-45deg)}
+.forum-action-icon::before{content:"";position:absolute;left:2px;top:9px;width:4px;height:4px;background:currentColor;border-radius:50%;box-shadow:7px 0 0 currentColor,14px 0 0 currentColor}
 html[data-theme=light] .forum-shell .forum-post-actions>summary{color:#20212b}
 .forum-action-menu{position:absolute;z-index:20;right:0;top:calc(100% + 8px);width:176px;max-width:calc(100vw - 64px);padding:6px;border:1px solid var(--issue-line);border-radius:12px;background:var(--issue-field);color:var(--text,#f4f4f6);box-shadow:0 12px 32px #0005}
 html[data-theme=light] .forum-action-menu{color:#20212b}
