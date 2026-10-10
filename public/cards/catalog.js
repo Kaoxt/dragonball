@@ -3155,7 +3155,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=1edc34b9db",
+    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=bbe6985bbb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3168,7 +3168,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=d204c6aeab",
+    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=cf780646d0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3225,7 +3225,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=e1e9502f3f",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=86696b4ff0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3238,7 +3238,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=a8601dbe54",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=ef9f67079f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3251,7 +3251,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=cb4613b66c",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=44ff31dc6d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3264,7 +3264,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=7ec1fe171f",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=b5b6a5298a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3277,7 +3277,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=6ab4a52e58",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=4acaecedf8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3290,7 +3290,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=6e6f0f50f2",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=00ec63a9a2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
@@ -3303,7 +3303,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=a60c9f8b19",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=532accbab7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1070,
     "height": 1470
