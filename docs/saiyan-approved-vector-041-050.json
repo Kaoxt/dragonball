@@ -1,0 +1,199 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 41,
+      "name": "Straining Head Lock Move",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-041-straining-head-lock-move.webp",
+      "sha": "7e021295a1d45bb836cfbc75b70d282ea12cff8f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a physical attack, but you have to discard another card to use this one.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a physical attack, but you",
+        "have to discard another card to use",
+        "this one."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 42,
+      "name": "Straining Rolling Escape Move",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-042-straining-rolling-escape-move.webp",
+      "sha": "d825b124099c75c7406f280205739ca6a1c012f9",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack, but the user cannot make any attacks for the rest of this combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack, but the",
+        "user cannot make any attacks for",
+        "the rest of this combat."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 43,
+      "name": "Senzu Bean",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-043-senzu-bean.webp",
+      "sha": "c312a2af73ef62ae9de52d80fca2be07f58ee634",
+      "width": 1060,
+      "height": 1484,
+      "rules": "This card is played and then is taken out of the game. It moves the power stage of the main personality to the highest rating.",
+      "body_font_px": 50,
+      "body_lines": [
+        "This card is played and then is",
+        "taken out of the game. It moves the",
+        "power stage of the main personality",
+        "to the highest rating."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 44,
+      "name": "Goku Body Throw",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-044-goku-body-throw.webp",
+      "sha": "89d6f54ae853dac744ee9f36c85d5e16e39418ee",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack causing 1 life card in damage, no matter what Goku’s power level is.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack causing 1 life card",
+        "in damage, no matter what Goku’s",
+        "power level is."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 45,
+      "name": "Saiyan City Destruction",
+      "type": "Non-Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-045-saiyan-city-destruction.webp",
+      "sha": "9f907a732629f566b7f59f1598ee9da6e9745251",
+      "width": 1060,
+      "height": 1484,
+      "rules": "One villain opts to destroy a city instead of combat on his next turn and places the top 2 cards of the discard pile at the bottom of the life deck. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "One villain opts to destroy a city",
+        "instead of combat on his next turn",
+        "and places the top 2 cards of the",
+        "discard pile at the bottom of the life",
+        "deck. Discard from the game after",
+        "use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 46,
+      "name": "Goku Anger Attack",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-046-goku-anger-attack.webp",
+      "sha": "5da79215d1f52cf0eba85f9690f4cd6ee68ab3eb",
+      "width": 1060,
+      "height": 1484,
+      "rules": "This physical attack does double the normal damage if successful.",
+      "body_font_px": 50,
+      "body_lines": [
+        "This physical attack does double",
+        "the normal damage if successful."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 47,
+      "name": "Raditz Total Defense",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-047-raditz-total-defense.webp",
+      "sha": "2d00137985ed9bd210d082d76b8a9a878e854027",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops any physical attack, but costs 1 power stage to perform.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops any physical attack, but costs",
+        "1 power stage to perform."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 48,
+      "name": "Goku’s Touch",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-048-gokus-touch.webp",
+      "sha": "eb565da195b27ae54d7279829d80cdd5d147876a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "After a successful physical attack, take a foe’s Dragon Ball. Discard this card after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "After a successful physical attack,",
+        "take a foe’s Dragon Ball. Discard",
+        "this card after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 49,
+      "name": "Orange Wrist Flex Takedown",
+      "type": "Physical Combat",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp",
+      "sha": "f12fe1dc97bd69cd71b230bcb6e49ade495249ba",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops the foe’s physical attack played this round. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops the foe’s physical attack",
+        "played this round. Raise card user’s",
+        "anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 50,
+      "name": "Orange Shoulder Throw",
+      "type": "Physical Combat",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-050-orange-shoulder-throw.webp",
+      "sha": "a60dec10b714a4433c2665472ba0ba47ed520eac",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an opponent’s physical attack this round. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an opponent’s physical",
+        "attack this round. Raise card user’s",
+        "anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
