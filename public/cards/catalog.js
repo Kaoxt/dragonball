@@ -300,7 +300,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku’s Surprise Attack",
+    "name": "Goku\u2019s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -313,7 +313,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku’s Physical Attack",
+    "name": "Goku\u2019s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -326,7 +326,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan’s Physical Attack",
+    "name": "Gohan\u2019s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -339,7 +339,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien’s Physical Attack",
+    "name": "Tien\u2019s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -352,7 +352,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta’s Physical Stance",
+    "name": "Vegeta\u2019s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -365,7 +365,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe’s Physical Attack",
+    "name": "Yajirobe\u2019s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -417,7 +417,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It’s the Little Things That Matter",
+    "name": "It\u2019s the Little Things That Matter",
     "number": "33",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -612,7 +612,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku’s Touch",
+    "name": "Goku\u2019s Touch",
     "number": "48",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -1060,7 +1060,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=8873a1841a",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=ff1cd3ae1ca1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1073,7 +1073,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=6c2b924293",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=2cb3bb513644",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1086,7 +1086,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=c294952b93",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=1bbb7318d131",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1099,7 +1099,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=a16b723bff",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=333b49321964",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1112,7 +1112,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=28d5f1ca00",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=3b8e46a5f0fd",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1125,7 +1125,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=6041f4cd68",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=65759e1dfec1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -3225,10 +3225,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=86696b4ff0",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=a3769c8d8d75",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P2-piccolo-silver-variant",
@@ -3238,10 +3238,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=ef9f67079f",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=c87c67ebb53f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P3-vegeta-silver-variant",
@@ -3251,10 +3251,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=44ff31dc6d",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=7b4b99068234",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P4-raditz-silver-variant",
@@ -3264,10 +3264,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=b5b6a5298a",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=36bd7eff0dbc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P5-gohan-silver-variant",
