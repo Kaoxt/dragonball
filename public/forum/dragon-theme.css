@@ -54,3 +54,14 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 .forum-newest-name{font-size:16px;font-weight:600}
 .forum-newest-member .issue-note{margin:5px 0 0;font-size:12px;line-height:1.5}
 @media(max-width:600px){.forum-member-statistics-body{grid-template-columns:1fr;gap:22px;padding:22px 16px}.forum-newest-member{border-left:0;border-top:1px solid var(--issue-line);padding:20px 0 0}.forum-community-totals dd{font-size:24px}}
+
+/* Keep forum headings compact instead of inheriting the site header height. */
+.forum-shell .forum-navigation-row{margin-bottom:12px}
+.forum-shell .forum-list-heading{min-height:0;margin:16px 0}
+.forum-shell .forum-list-heading:has(.forum-accessible-title){margin:0 0 12px}
+.forum-shell .forum-list-heading:has(.forum-accessible-title):has(#new-topic[hidden]){margin:0}
+.forum-shell .forum-list-heading + .issue-note{
+ margin:0 0 16px;padding:10px 14px;border:1px solid var(--issue-line);
+ border-radius:8px;background:var(--issue-field);font-size:13px;line-height:1.5;
+}
+.forum-shell .forum-list-heading + .issue-note a{font-weight:600}
