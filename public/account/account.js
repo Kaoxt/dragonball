@@ -1,6 +1,6 @@
 (() => {
  const root=document.getElementById('account-content');
- const defaultAvatar='/assets/default-avatar-dragonball-clean.webp';
+ const defaultAvatar='/assets/default-avatar-dragonball.webp';
  root.addEventListener('error',event=>{const image=event.target;if(image.matches?.('.account-avatar-preview')&&image.getAttribute('src')!==defaultAvatar)image.setAttribute('src',defaultAvatar);},true);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  let mode=new URLSearchParams(location.search).get('mode')==='register'?'register':'login',ownerCode=new URLSearchParams(location.hash.slice(1)).get('setup')||'',user=null;
