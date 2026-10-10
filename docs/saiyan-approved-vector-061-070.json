@@ -1,0 +1,194 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 61,
+      "name": "Blue Body Drop Throw",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-061-blue-body-drop-throw.webp",
+      "sha": "70540d7e3b7b360864bea296a221ffee7145cf90",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a physical attack. Lower foe's anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a physical attack. Lower foe's",
+        "anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 62,
+      "name": "Blue Inner Leg Throw",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-062-blue-inner-leg-throw.webp",
+      "sha": "833dd6fad70ce1f067a214101d2de921fb31e257",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a physical attack. Lower foe's anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a physical attack. Lower foe's",
+        "anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 63,
+      "name": "Blue Big Whirl Throw",
+      "type": "Energy Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-063-blue-big-whirl-throw.webp",
+      "sha": "73394693ba534016ef0590837531705ac62e025d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack. Lower foe's anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack. Lower foe's",
+        "anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 64,
+      "name": "Blue Ground Holding",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-064-blue-ground-holding.webp",
+      "sha": "fb5f09a59f366bcd85a0c62012ba64c349550c91",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack. Lower foe's anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack. Lower foe's",
+        "anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 65,
+      "name": "Black Fore Fist Punch",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-065-black-fore-fist-punch.webp",
+      "sha": "503074ecd5c4a6e6e5b20c005c5ad4b6c23f39be",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 6 life cards of damage. If successful, your opponent loses 3 power stages, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 6 life cards of",
+        "damage. If successful, your",
+        "opponent loses 3 power stages, to",
+        "a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 66,
+      "name": "Black Knife Hand Strike",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-066-black-knife-hand-strike.webp",
+      "sha": "ad2679eef85e5770b4c5aa1eaa4358319e194dfd",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack doing 4 life card draws of damage or stopping any energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack doing 4 life card",
+        "draws of damage or stopping any",
+        "energy attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 67,
+      "name": "Black Elbow Strike",
+      "type": "Physical Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-067-black-elbow-strike.webp",
+      "sha": "b4c33352a02f055a3b32167a80b63d4e8e47dc39",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a foe's physical attack. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a foe's physical attack. Raise",
+        "card user's anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 68,
+      "name": "Black Front Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-068-black-front-kick.webp",
+      "sha": "7a613f0574433dc2c942667af512c24e6ea0826b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack doing 5 life card draws in damage and costing 4 stages of power to perform. Raise card user's anger level 2.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack doing 5 life card",
+        "draws in damage and costing 4",
+        "stages of power to perform. Raise",
+        "card user's anger level 2."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 69,
+      "name": "Black Side Kick",
+      "type": "Physical Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-069-black-side-kick.webp",
+      "sha": "e76b3f341ddddf97dfd1bbcf576d29d3357c7641",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a foe's physical attack. Raise card user's anger level 2.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a foe's physical attack. Raise",
+        "card user's anger level 2."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 70,
+      "name": "Black Turning Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-070-black-turning-kick.webp",
+      "sha": "e44c0288c943ef1abc6e58f666df3d68714c0024",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack doing 5 life card draws of damage or stops a physical attack. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack doing 5 life card",
+        "draws of damage or stops a",
+        "physical attack. Raise card user's",
+        "anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
