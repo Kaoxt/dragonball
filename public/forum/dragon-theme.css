@@ -65,3 +65,11 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
  border-radius:8px;background:var(--issue-field);font-size:13px;line-height:1.5;
 }
 .forum-shell .forum-list-heading + .issue-note a{font-weight:600}
+
+/* Consistent forum links: bold white text, underlined on hover. */
+body.community-page main .forum-shell a[href]:any-link{
+ color:#fff;font-weight:700;text-decoration:none;text-underline-offset:3px;
+}
+body.community-page main .forum-shell a[href]:any-link:hover{
+ color:#fff;text-decoration:underline;
+}
