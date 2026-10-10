@@ -397,7 +397,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-031-fortify-your-spirit.webp?v=f725e6c653",
+    "image": "/assets/cards/saiyan-031-fortify-your-spirit.webp?v=294e18be63",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -410,7 +410,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp?v=ca8dacc31c",
+    "image": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp?v=e0b67bb51a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -423,7 +423,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp?v=bac333729c",
+    "image": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp?v=b693fa1ebc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -436,7 +436,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-034-straining-off-balancing-move.webp?v=f6b8f0f161",
+    "image": "/assets/cards/saiyan-034-straining-off-balancing-move.webp?v=66de8e1f9d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -449,7 +449,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp?v=00f1e4eead",
+    "image": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp?v=1ed7fd0c4a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -462,7 +462,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-036-straining-fake-left-move.webp?v=b9cc952955",
+    "image": "/assets/cards/saiyan-036-straining-fake-left-move.webp?v=fca7363e1e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -475,7 +475,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=e8536e1ef2",
+    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=0cbbd46182",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -488,7 +488,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-038-straining-arm-drag-move.webp?v=6a2e4719c1",
+    "image": "/assets/cards/saiyan-038-straining-arm-drag-move.webp?v=308b5888b7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -501,7 +501,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp?v=9a85a813ae",
+    "image": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp?v=0166fbfa65",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -514,7 +514,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp?v=bd65cd2158",
+    "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp?v=ee8c62f095",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
