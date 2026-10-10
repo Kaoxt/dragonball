@@ -2997,7 +2997,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-231-gokus-mixing-drill.webp?v=e8dc4cbc7a",
+    "image": "/assets/cards/saiyan-231-gokus-mixing-drill.webp?v=e9c67d1e6e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3008,7 +3008,7 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-232-red-life-attack-drill.webp?v=01ad7e8534",
+    "image": "/assets/cards/saiyan-232-red-life-attack-drill.webp?v=323c403fd0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3019,7 +3019,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=9df3229f3b",
+    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=04266c8fed",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3030,7 +3030,7 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-234-orange-focusing-drill.webp?v=e82dea7799",
+    "image": "/assets/cards/saiyan-234-orange-focusing-drill.webp?v=8e87536194",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3041,7 +3041,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=36b4397978",
+    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=e3ce8e99d2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3052,7 +3052,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-236-saiyan-power-drill.webp?v=f3532c346f",
+    "image": "/assets/cards/saiyan-236-saiyan-power-drill.webp?v=59b0db7b96",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3063,7 +3063,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-237-gokus-capturing-drill.webp?v=5963475ff4",
+    "image": "/assets/cards/saiyan-237-gokus-capturing-drill.webp?v=d1e4fef48f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3074,7 +3074,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-238-king-kais-calming.webp?v=fc99d1154e",
+    "image": "/assets/cards/saiyan-238-king-kais-calming.webp?v=21c154a87e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3085,7 +3085,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-239-roshis-calming.webp?v=c0096ce4e8",
+    "image": "/assets/cards/saiyan-239-roshis-calming.webp?v=9db174200b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3096,7 +3096,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-240-vegetas-trick.webp?v=cc54a49b98",
+    "image": "/assets/cards/saiyan-240-vegetas-trick.webp?v=90c6941285",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
