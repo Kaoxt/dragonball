@@ -1,0 +1,106 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 226,
+      "name": "T-Rex Defense",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-226-t-rex-defense.webp",
+      "sha": "8234540217a5e7b27cbb9a0382680298c45c8c35",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Defense Shield: When defending in Combat, stop the first unstopped attack performed on you. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Defense Shield: When defending in",
+        "Combat, stop the first unstopped",
+        "attack performed on you. Remove",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 227,
+      "name": "T-Rex Offense",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-227-t-rex-offense.webp",
+      "sha": "42eef3606f5d134ffd540f985aaa7f4dc112ffa9",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use when you perform an energy attack to have that energy attack do an additional +1 life cards of damage. (If a successful energy attack is performed against you while this card is in play, this card is discarded.)",
+      "body_font_px": 47,
+      "body_lines": [
+        "Use when you perform an energy",
+        "attack to have that energy attack do",
+        "an additional +1 life cards of damage.",
+        "(If a successful energy attack is",
+        "performed against you while this card",
+        "is in play, this card is discarded.)"
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 228,
+      "name": "Vegeta's Plans",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-228-vegetas-plans.webp",
+      "sha": "c0cb9eecdfb8e1afdf0acea0bf89d3ef51573b67",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Get a Dragon Ball card from the life deck and put it into play. Remove from game after one use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Get a Dragon Ball card from the life",
+        "deck and put it into play. Remove",
+        "from game after one use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 229,
+      "name": "Ally Wins!",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-229-ally-wins.webp",
+      "sha": "57df8694f150889c9f15945b71fa2137b2eb1169",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Your opponent discards one life card for every Ally you have in play. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Your opponent discards one life",
+        "card for every Ally you have in play.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 230,
+      "name": "Chiaotzu's Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-230-chiaotzus-drill.webp",
+      "sha": "2c8d4468c61deaf7e862b4bfb6a8018e3e11f66f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All physical attacks performed against you, do 1 less power stage of damage, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All physical attacks performed",
+        "against you, do 1 less power stage",
+        "of damage, to a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}

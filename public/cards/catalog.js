@@ -2932,8 +2932,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-226-t-rex-defense.webp?v=0ce72272c0",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-226-t-rex-defense.webp?v=8234540217",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-227-t-rex-offense",
@@ -2943,8 +2945,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-227-t-rex-offense.webp?v=d1c8aa6474",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-227-t-rex-offense.webp?v=42eef3606f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-228-vegetas-plans",
@@ -2954,8 +2958,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-228-vegetas-plans.webp?v=e4c0bfae6e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-228-vegetas-plans.webp?v=c0cb9eecdf",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-229-ally-wins",
@@ -2965,8 +2971,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-229-ally-wins.webp?v=752210cec7",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-229-ally-wins.webp?v=57df8694f1",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-230-chiaotzus-drill",
@@ -2976,8 +2984,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-230-chiaotzus-drill.webp?v=bab9f9d77e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-230-chiaotzus-drill.webp?v=2c8d4468c6",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-231-gokus-mixing-drill",
