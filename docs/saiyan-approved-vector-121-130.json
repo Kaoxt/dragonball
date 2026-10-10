@@ -1,0 +1,198 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 121,
+      "name": "Nappa's Physical Resistance",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-121-nappas-physical-resistance.webp",
+      "sha": "c4452f9b57345789a1a8a262a34a4981c3c54e2b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a physical attack. Stop all physical attacks performed against you for the remainder of Combat. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a physical attack. Stop all",
+        "physical attacks performed against",
+        "you for the remainder of Combat.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 122,
+      "name": "Yajirobe's Energy Attack",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-122-yajirobes-energy-attack.webp",
+      "sha": "40f68722b9f61cd443e9de15569615b6ec237b94",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack forcing 1 draw from the life deck if not stopped. Remove from game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack forcing 1 draw from",
+        "the life deck if not stopped. Remove",
+        "from game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 123,
+      "name": "Chiaotzu's Energy Manipulation",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp",
+      "sha": "f3a6abdc7a008ed1a5744561f44cb57ad28b3f3d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack forcing 3 draws from the life deck. Remove from the game after use. Card limited to 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack forcing 3 draws from",
+        "the life deck. Remove from the",
+        "game after use. Card limited to 1",
+        "per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 124,
+      "name": "Red Penetrating Defense Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-124-red-penetrating-defense-drill.webp",
+      "sha": "0eecaf03296c8b30f37a9905443d74ec159bafc0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All physical attacks performed against you, do 2 less power stages of damage, to a minimum of zero.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All physical attacks performed",
+        "against you, do 2 less power stages",
+        "of damage, to a minimum of zero."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 125,
+      "name": "Blue Off-Balancing Opponent Drill",
+      "type": "Non-Combat Drill",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp",
+      "sha": "5f029280f095691b4d01d805b3f319b24bffe941",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All of your physical attacks do +1 power stages of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All of your physical attacks do +1",
+        "power stages of damage."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 126,
+      "name": "Orange Lifting Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-126-orange-lifting-drill.webp",
+      "sha": "c27a8a5e94fb1538bb787033c406eb5ebea60305",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Once per Combat, in place of an attack, during your turn, discard all of your opponents’ Drills. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Once per Combat, in place of an",
+        "attack, during your turn, discard all",
+        "of your opponents’ Drills. Limit 1",
+        "per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 127,
+      "name": "Black Takedown Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-127-black-takedown-drill.webp",
+      "sha": "2da21d46078d802824791b88c7f82a62be9dcfa8",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Once per Combat, you may draw a card after performing a successful attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Once per Combat, you may draw a",
+        "card after performing a successful",
+        "attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 128,
+      "name": "Red Knee Pick Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-128-red-knee-pick-drill.webp",
+      "sha": "d550140d6aac0ff12d3bd97cd91d8d215522ec02",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When entering Combat as the attacker, you may draw a card.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When entering Combat as the",
+        "attacker, you may draw a card."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 129,
+      "name": "Blue Deceiving Drill",
+      "type": "Non-Combat Drill",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-129-blue-deceiving-drill.webp",
+      "sha": "b042b0e93fce669901fcdc63034afc9b1e2926d0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When entering Combat as the defender, you may gain up to 3 power stages.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When entering Combat as the",
+        "defender, you may gain up to 3",
+        "power stages."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 130,
+      "name": "Orange Tripping Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-130-orange-tripping-drill.webp",
+      "sha": "114ddf304e3e5763b8e47b140604666a67dd9966",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All energy attacks performed",
+        "against you, do 1 less life card of",
+        "damage, to a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}

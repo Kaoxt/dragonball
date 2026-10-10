@@ -1,5 +1,9 @@
 # Saiyan Saga continuation
 
+## Latest completed task: cards 81–130
+
+The user requested the next 50 cards after 31–80. Cards 81–130 now use the approved bold-title vector frames, and the ten heroes use the approved matte scouter personality template with individually checked levels, PUR, power stages and abilities. All exports are lossless WebP at 1060 × 1484. The checked source transcription is `tools/card-frames/rules-081-130.json`; personality values are in `personality-data-081-130.json`. Renderers pin their source commits and use vector frame geometry. Dense rules use the same font with minimal size adjustment to avoid clipping. Publication uses five ten-card batches. **Stop after 130; next sequential card is 131.** Verify the final Cloudflare build and all 50 live image hashes separately.
+
 ## Current task: cards 31–80 approved for publication
 
 The user requested the next 50 cards after the linked chat completed 11–30. The five batches are 31–40, 41–50, 51–60, 61–70 and 71–80. All use the approved 1060 × 1484 master, identical SVG silver rails, Teko Bold 700 titles (74 px with 5 px black outline), fixed 50 px body type, and lossless WebP. Renderer: `tools/card-frames/render-approved-range-031-080.py`. Each batch has its own `docs/saiyan-approved-vector-NNN-NNN.json` manifest. Cards 71–80 rules were transcribed from the existing published images; 31–70 retain reviewed rules JSON. Existing source artwork is fitted proportionally once. No cards outside 31–80 or catalog entries were changed.
