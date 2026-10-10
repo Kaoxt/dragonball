@@ -2737,7 +2737,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-211-tien-mind-reading-trick.webp?v=42b3e86508",
+    "image": "/assets/cards/saiyan-211-tien-mind-reading-trick.webp?v=812b576b45",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2750,7 +2750,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-212-piccolos-flight.webp?v=2d177808af",
+    "image": "/assets/cards/saiyan-212-piccolos-flight.webp?v=3429c2a3cb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2763,7 +2763,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-213-plant-two-saibaimen.webp?v=5f5ca369a2",
+    "image": "/assets/cards/saiyan-213-plant-two-saibaimen.webp?v=06d3dc7aef",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2776,7 +2776,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-214-gohans-father-save.webp?v=4a2e695c39",
+    "image": "/assets/cards/saiyan-214-gohans-father-save.webp?v=24bc916e4e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2789,7 +2789,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-215-krillins-drill.webp?v=426de62631",
+    "image": "/assets/cards/saiyan-215-krillins-drill.webp?v=6d4b4019a7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2802,7 +2802,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=59712de587",
+    "image": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=59ef0a4551",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2815,7 +2815,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-217-ribs-broken.webp?v=ab26b1ac5a",
+    "image": "/assets/cards/saiyan-217-ribs-broken.webp?v=f4070e2364",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2828,7 +2828,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-218-unexpected-allies.webp?v=1e06938797",
+    "image": "/assets/cards/saiyan-218-unexpected-allies.webp?v=bfae664930",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2841,7 +2841,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=a8998d1d9c",
+    "image": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=7090262891",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2854,7 +2854,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-220-vegetas-stance.webp?v=90c976a4b7",
+    "image": "/assets/cards/saiyan-220-vegetas-stance.webp?v=b17677445f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
