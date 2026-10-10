@@ -1,13 +1,18 @@
 (() => {
   'use strict';
   const drafts = new WeakMap();
+  const defaultAvatar = '/assets/default-avatar-shenron.webp';
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function avatar(author, url, color) {
     let safe = /^\/api\/avatars\/[0-9a-f-]{36}$/.test(url || '') ? url : ''; try { const u = new URL(url); if(u.protocol === 'https:') safe = u.href; } catch {}
-    const shade = /^#[0-9a-f]{6}$/i.test(color || '') ? color : '#6568e8';
-    return `<span class="issue-avatar" aria-hidden="true"><span>${esc((author || 'N')[0].toUpperCase())}</span>${safe ? `<img src="${esc(safe)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}</span>`;
+    return `<span class="issue-avatar" aria-hidden="true"><span>${esc((author || 'N')[0].toUpperCase())}</span><img src="${esc(safe || defaultAvatar)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`;
   }
-  document.addEventListener('error', event => { if(event.target.matches?.('.issue-avatar img')) event.target.remove(); }, true);
+  document.addEventListener('error', event => {
+    const image = event.target;
+    if (!image.matches?.('.issue-avatar img')) return;
+    if (image.getAttribute('src') === defaultAvatar) image.remove();
+    else image.setAttribute('src', defaultAvatar);
+  }, true);
   function gallery(images) {
     return `<div class="issue-images">${(images || []).filter(url => /^\/api\/issues\/\d+\/images\/[0-2](\?comment=\d+)?$/.test(url)).map((url,i) => `<a href="${esc(url)}" target="_blank" rel="noopener" aria-label="Open attached image ${i+1}"><img src="${esc(url)}" alt="Attached error screenshot ${i+1}" loading="lazy"></a>`).join('')}</div>`;
   }

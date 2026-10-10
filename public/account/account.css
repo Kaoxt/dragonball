@@ -28,3 +28,5 @@ body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link
 #nav-toggle{position:relative}
 #message-thread{max-height:60vh;overflow-y:auto;margin:20px 0}
 @media(max-width:900px){#community-nav-alerts{display:grid;grid-template-columns:1fr 1fr;width:100%}}
+
+.account-avatar-preview{object-fit:cover;border-radius:50%;display:block;margin:12px 0}
