@@ -1957,8 +1957,10 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=c2063652cc",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=646222f718",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-152-black-defender-drill",
@@ -1968,8 +1970,10 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=b58ebfe372",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=d5bf9fa6c5",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-153-goku-energy-blast",
@@ -1979,8 +1983,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=19b49ce9bf",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=812141ca31",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-154-piccolo-sidestep",
@@ -1990,8 +1996,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=581ced3037",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=b2346c6094",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-155-piccolo-defense-drill",
@@ -2001,8 +2009,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=73d2821b14",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=3f17bfbeea",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-156-allys-sacrifice",

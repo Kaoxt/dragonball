@@ -1,0 +1,100 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 151,
+      "name": "Orange Joint Restraint Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-151-orange-joint-restraint-drill.webp",
+      "sha": "646222f718797efff2d630ae40930988a478dc4e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All of your physical attacks do +4 power stages of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All of your physical attacks do +4",
+        "power stages of damage."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 152,
+      "name": "Black Defender Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-152-black-defender-drill.webp",
+      "sha": "d5bf9fa6c5249c5301c7e78318d50aecfdb142de",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All energy attacks performed",
+        "against you, do 1 less life card of",
+        "damage, to a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 153,
+      "name": "Goku Energy Blast!",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-153-goku-energy-blast.webp",
+      "sha": "812141ca313109746cade3e8cf8f56d49ad9b625",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy defense stopping a foe's physical attack. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy defense stopping a foe's",
+        "physical attack. Discard from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 154,
+      "name": "Piccolo Sidestep!",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-154-piccolo-sidestep.webp",
+      "sha": "b2346c60943e13da2ff5cb5c7ff32a7d62947199",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop this energy attack. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop this energy attack. Discard",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 155,
+      "name": "Piccolo Defense Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-155-piccolo-defense-drill.webp",
+      "sha": "3f17bfbeea8782a8f539246e5b332637d6ba6e87",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All energy attacks performed",
+        "against you, do 1 less life card of",
+        "damage, to a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
