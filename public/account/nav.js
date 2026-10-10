@@ -2,6 +2,9 @@
  const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const icon=path=>'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+path+'"/></svg>';
  const chevron=icon('m6 9 6 6 6-6'),message=icon('M21 11a8 8 0 0 1-8 8H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z'),bell=icon('M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4');
+ const mobileMenu=window.matchMedia('(max-width:899px), (max-width:1200px) and (orientation:portrait)');
+ const syncAccountMode=()=>{const menu=document.querySelector('.account-dropdown');if(menu)menu.open=mobileMenu.matches;};
+ mobileMenu.addEventListener('change',syncAccountMode);
  let busy=false,identity='';
  async function update(){
   const nav=document.getElementById('site-navigation');if(!nav||busy)return;busy=true;
@@ -20,6 +23,7 @@
     if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(user.avatarUrl||''))avatar=user.avatarUrl;
     else {try{const url=new URL(user.avatarUrl);if(url.protocol==='https:')avatar=url.href;}catch{}}
     actions.innerHTML='<details class="account-dropdown"><summary id="account-nav" aria-label="Account: '+esc(name)+'"><img class="account-trigger-avatar" src="'+esc(avatar)+'" width="30" height="30" alt="" referrerpolicy="no-referrer"><span class="account-trigger-name">'+esc(name)+'</span>'+chevron+'</summary><div class="account-dropdown-panel"><a class="account-menu-profile" href="/account/"><img src="'+esc(avatar)+'" width="48" height="48" alt="" referrerpolicy="no-referrer"><span><strong>'+esc(name)+'</strong><small>Profile: '+esc(user.displayName||name)+'</small></span>'+icon('m9 5 7 7-7 7')+'</a><div id="community-nav-alerts"></div><div class="account-menu-footer">'+(user.isAdmin?'<a class="account-menu-admin" href="/forums/admin/">Admin</a>':'')+'<button type="button" id="nav-logout">Log Out</button></div><p id="account-menu-error" role="alert" hidden></p></div></details>';
+    syncAccountMode();
     actions.querySelectorAll('img').forEach(image=>{image.onerror=()=>{image.onerror=null;image.src='/assets/default-avatar-dragonball.webp';};});
     document.getElementById('nav-logout').onclick=async e=>{
      const button=e.currentTarget;button.disabled=true;const error=document.getElementById('account-menu-error');
@@ -39,8 +43,8 @@
   }catch{/* Preserve usable account controls during a temporary connection failure. */}
   finally{busy=false;}
  }
- document.addEventListener('click',e=>{if(!e.target.closest('.account-dropdown'))document.querySelector('.account-dropdown')?.removeAttribute('open');});
- document.addEventListener('keydown',e=>{const menu=document.querySelector('.account-dropdown[open]');if(e.key==='Escape'&&menu){e.stopImmediatePropagation();menu.open=false;menu.querySelector('summary').focus();}},true);
+ document.addEventListener('click',e=>{if(!mobileMenu.matches&&!e.target.closest('.account-dropdown'))document.querySelector('.account-dropdown')?.removeAttribute('open');});
+ document.addEventListener('keydown',e=>{const menu=document.querySelector('.account-dropdown[open]');if(e.key==='Escape'&&menu&&!mobileMenu.matches){e.stopImmediatePropagation();menu.open=false;menu.querySelector('summary').focus();}},true);
  window.addEventListener('dragon:alerts',update);window.addEventListener('dragon:auth-signed-in',update);window.addEventListener('dragon:auth-signed-out',update);
  setInterval(()=>{if(!document.hidden)update();},30000);update();
 })();
