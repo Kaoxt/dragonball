@@ -86,3 +86,17 @@ body .site-header .account-menu-footer button:hover{background:#35282e}
 @media(orientation:landscape){
  body .site-header nav .account-nav-actions{border-left:0;border-top:0;padding-left:0}
 }
+
+/* Mobile menu: compact links followed by the always-visible account panel. */
+@media(max-width:899px),(max-width:1200px) and (orientation:portrait){
+ body .site-header nav.is-open{gap:0;max-height:calc(100dvh - 104px);overflow-y:auto;overscroll-behavior:contain;padding:8px}
+ body .site-header nav>a,body .site-header nav>a[aria-current=page]{min-height:40px;padding:7px 14px}
+ body .site-header nav>a .nav-wordmark{height:19px;width:auto}
+ body .site-header nav .account-nav-actions{margin:8px 0 0;padding:12px 4px 4px;border-left:0;border-top:1px solid #453039}
+ body .site-header nav .account-dropdown>summary{display:none}
+ body .site-header .account-dropdown-panel{position:static;width:100%;max-width:none;max-height:none;margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;overflow:visible}
+ body .site-header nav .account-dropdown-panel .account-menu-profile{padding:8px 10px 14px}
+ body .site-header nav .account-dropdown-panel .account-menu-profile img{width:42px;height:42px}
+ body .site-header nav .account-dropdown-panel a{min-height:42px;padding:9px 10px}
+ body .site-header .account-menu-footer{margin-top:8px;padding-top:12px}
+}
