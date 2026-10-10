@@ -1437,7 +1437,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=ec8f83cf6d",
+    "image": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=c5475a9d54",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1450,7 +1450,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=10b730a736",
+    "image": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=677fa30eeb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1463,7 +1463,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=446f6ce060",
+    "image": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=53f4446999",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1476,7 +1476,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-114-tiens-energy-defense.webp?v=c94578cf15",
+    "image": "/assets/cards/saiyan-114-tiens-energy-defense.webp?v=5434265ee6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1489,7 +1489,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=c65ac968d3",
+    "image": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=d25ed8d019",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1502,7 +1502,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=ad1566d068",
+    "image": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=cbed8f5cad",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1515,7 +1515,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=3460defd19",
+    "image": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=b0033bf6a5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1528,7 +1528,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=1336243aa0",
+    "image": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=e9e35373aa",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1541,7 +1541,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=708a679afd",
+    "image": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=ebb8a509cf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1554,7 +1554,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=c5aa122c96",
+    "image": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=b6a8335cb4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
