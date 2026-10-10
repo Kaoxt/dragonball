@@ -1,0 +1,204 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 91,
+      "name": "Saiyan Energy Throw",
+      "type": "Energy Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-091-saiyan-energy-throw.webp",
+      "sha": "9f84b1d5e599fb2ba6182f74f01f11b84ec2960f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Physical Attack. Plus it stops a single named foe from making a physical attack on his next phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Physical",
+        "Attack. Plus it stops a single named",
+        "foe from making a physical attack",
+        "on his next phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 92,
+      "name": "Saiyan Energy Defense",
+      "type": "Energy Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-092-saiyan-energy-defense.webp",
+      "sha": "1df29de97bd7038e5c4961afacae7fbed40de4c2",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Stops an energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Stops an",
+        "energy attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 93,
+      "name": "Saiyan Mental Energy Attack",
+      "type": "Energy Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp",
+      "sha": "a418a10afe20555632470831ec7b8231081490b1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Creates an energy attack inflicting 6 life card draws.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Creates an",
+        "energy attack inflicting 6 life card",
+        "draws."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 94,
+      "name": "Saiyan Energy Blast",
+      "type": "Energy Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-094-saiyan-energy-blast.webp",
+      "sha": "ac15c4a63523b0b4fdfcd558f4dfbaba643887a1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Energy attack. Costs 3 power stages to perform. If successful, your opponent cannot perform a physical attack during his next Attacker Attacks phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Energy attack.",
+        "Costs 3 power stages to perform. If",
+        "successful, your opponent cannot",
+        "perform a physical attack during his",
+        "next Attacker Attacks phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 95,
+      "name": "Saiyan Energy Aura",
+      "type": "Energy Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-095-saiyan-energy-aura.webp",
+      "sha": "a12a6bf9c199d7651a8f59d479e067daacf6ccd4",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Stops an energy attack and stops an energy attack during your opponent’s next Attacker Attacks phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Stops an",
+        "energy attack and stops an energy",
+        "attack during your opponent’s next",
+        "Attacker Attacks phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 96,
+      "name": "Saiyan Sweeping Defense",
+      "type": "Physical Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-096-saiyan-sweeping-defense.webp",
+      "sha": "bfbccbdc8450a33c62bdab42d97f7e021ba0f17c",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Stops a physical attack and stops a physical attack during your opponent’s next Attacker Attacks phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Stops a",
+        "physical attack and stops a",
+        "physical attack during your",
+        "opponent’s next Attacker Attacks",
+        "phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 97,
+      "name": "Power Up More!",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-097-power-up-more.webp",
+      "sha": "d2aad47a7600d60d69e600ca4c3df6e4e28c1c64",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Powers up 6 stages for a personality, going no higher than maximum stage",
+      "body_font_px": 50,
+      "body_lines": [
+        "Powers up 6 stages for a",
+        "personality, going no higher than",
+        "maximum stage"
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 98,
+      "name": "Power Up the Most!",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-098-power-up-the-most.webp",
+      "sha": "697774461ab4489f9bcc0d9f0dddfe0dca8034cf",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Powers up to the personality's highest stage. Select 2 discarded cards and place them at the bottom of your life deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Powers up to the personality's",
+        "highest stage. Select 2 discarded",
+        "cards and place them at the bottom",
+        "of your life deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 99,
+      "name": "Blazing Anger!",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-099-blazing-anger.webp",
+      "sha": "5e02425a7cbd1120408ee7c8857de0e0bea35b15",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Increase your anger level by 2. Take the top 2 cards from your discard pile and place them at the bottom of your life deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Increase your anger level by 2. Take",
+        "the top 2 cards from your discard",
+        "pile and place them at the bottom of",
+        "your life deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 100,
+      "name": "Vegeta's Suprise Defense",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-100-vegetas-suprise-defense.webp",
+      "sha": "f94ff0cee8fa95fa20a9ea5fbf01469ac956f0cc",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop one physical or energy attack from doing damage. Discard this card from the game after one use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop one physical or energy attack",
+        "from doing damage. Discard this",
+        "card from the game after one use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
