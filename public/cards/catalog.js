@@ -2412,8 +2412,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=711ff55507",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=eae6e21423",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-187-earth-dragon-ball-7",
@@ -2423,8 +2425,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=080efc6af4",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=bb9952f9f8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-188-earth-dragon-ball-capture",
@@ -2434,8 +2438,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-188-earth-dragon-ball-capture.webp?v=f3dee4fb39",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-188-earth-dragon-ball-capture.webp?v=a41a05f345",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-189-earth-dragon-ball-combat",
@@ -2445,8 +2451,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-189-earth-dragon-ball-combat.webp?v=5bde62ac6f",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-189-earth-dragon-ball-combat.webp?v=3e982608b3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-190-enraged",
@@ -2456,8 +2464,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-190-enraged.webp?v=b972dc4f6c",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-190-enraged.webp?v=8ac268c3d0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-191-a-beginners-heart-is-dedicated",
@@ -2467,8 +2477,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-191-a-beginners-heart-is-dedicated.webp?v=9d67b18777",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-191-a-beginners-heart-is-dedicated.webp?v=070bfd3563",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-192-teaching-the-unteachable-forces-observation",
@@ -2478,8 +2490,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp?v=59d44223ee",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp?v=18fb893204",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-193-respect-the-spirit",
@@ -2489,8 +2503,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-193-respect-the-spirit.webp?v=7a9793c763",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-193-respect-the-spirit.webp?v=4fa71010bf",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-194-unselfish-behavior-is-best",
@@ -2500,8 +2516,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-194-unselfish-behavior-is-best.webp?v=da01e780c5",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-194-unselfish-behavior-is-best.webp?v=151da75d35",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-195-hero-advantage",
@@ -2511,8 +2529,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-195-hero-advantage.webp?v=82c4918f6d",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-195-hero-advantage.webp?v=4cf9ec5f83",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-196-saiyan-honor-quest",

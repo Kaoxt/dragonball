@@ -1,0 +1,206 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 186,
+      "name": "Earth Dragon Ball 6",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-186-earth-dragon-ball-6.webp",
+      "sha": "eae6e214231ad3230fe4846d27ce66a48810080e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "This card ends a combat and the user is powered up to full. Shift all opponents’ anger levels down 2.",
+      "body_font_px": 50,
+      "body_lines": [
+        "This card ends a combat and the",
+        "user is powered up to full. Shift all",
+        "opponents’ anger levels down 2."
+      ],
+      "art_source_commit": "2454c3f78d42a51c42e11a3811c988d5377ba5d0",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 187,
+      "name": "Earth Dragon Ball 7",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-187-earth-dragon-ball-7.webp",
+      "sha": "bb9952f9f8a88906fc40fc81308fa80490fe7079",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Play this card during combat to end the battle. Pick 3 cards out of your discard pile and place them at the top of your life deck. All opponents’ anger levels shift down 2.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Play this card during combat to end",
+        "the battle. Pick 3 cards out of your",
+        "discard pile and place them at the",
+        "top of your life deck. All opponents’",
+        "anger levels shift down 2."
+      ],
+      "art_source_commit": "2454c3f78d42a51c42e11a3811c988d5377ba5d0",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 188,
+      "name": "Earth Dragon Ball Capture",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-188-earth-dragon-ball-capture.webp",
+      "sha": "a41a05f345362abc58e2cdb53623b60e0a83c4f0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Capture an opponent's Dragon Ball.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Capture an opponent's Dragon Ball."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 189,
+      "name": "Earth Dragon Ball Combat",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-189-earth-dragon-ball-combat.webp",
+      "sha": "3e982608b3b458af6c2a8c410f2ecb4628e51bcf",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack. If successful, capture a Dragon Ball.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack. If successful,",
+        "capture a Dragon Ball."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 190,
+      "name": "Enraged!",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-190-enraged.webp",
+      "sha": "8ac268c3d07fef75fd9f008be082925e4e62f797",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Increase your anger level by 2. Select 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after one use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Increase your anger level by 2.",
+        "Select 2 cards from your discard",
+        "pile and place them at the bottom of",
+        "your life deck. Discard this card",
+        "from the game after one use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 191,
+      "name": "A Beginner's Heart Is Dedicated",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-191-a-beginners-heart-is-dedicated.webp",
+      "sha": "070bfd35637255af2c39810cbfaac8af12cc6e51",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Increase the anger of a level 1 or 2 personality by 1 and discard this card from the game.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Increase the anger of a level 1 or 2",
+        "personality by 1 and discard this",
+        "card from the game."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 192,
+      "name": "Teaching the Unteachable Forces Observation",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp",
+      "sha": "18fb89320451d368b9750d3c5c30886469ad8098",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use this card at the beginning of your opponent’s Power Up step. Your opponent may not declare Combat this turn. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use this card at the beginning of",
+        "your opponent’s Power Up step.",
+        "Your opponent may not declare",
+        "Combat this turn. Remove from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 44px, two lines, 3px black outline"
+    },
+    {
+      "number": 193,
+      "name": "Respect the Spirit",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-193-respect-the-spirit.webp",
+      "sha": "4fa71010bf762d7e9b3111650851d8bd957df6c4",
+      "width": 1060,
+      "height": 1484,
+      "rules": "The spirit of the Earth heals you. Place 2 discarded cards at the bottom of your life deck. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "The spirit of the Earth heals you.",
+        "Place 2 discarded cards at the",
+        "bottom of your life deck. Discard",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 194,
+      "name": "Unselfish Behavior is Best",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-194-unselfish-behavior-is-best.webp",
+      "sha": "151da75d35a8daca4d8688e98f0a425921a38dbf",
+      "width": 1060,
+      "height": 1484,
+      "rules": "The efforts of your allies stop this combat. You must have an ally out on the table to use this card. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "The efforts of your allies stop this",
+        "combat. You must have an ally out",
+        "on the table to use this card.",
+        "Discard from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 195,
+      "name": "Hero Advantage",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-195-hero-advantage.webp",
+      "sha": "4cf9ec5f83d9cbae9cfda6877a8c1c4f5c73faed",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Heroes only. Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the top 3 cards from your discard pile. If there are not enough cards in the discard pile, this card cannot be used. Remove from the game after use.",
+      "body_font_px": 43,
+      "body_lines": [
+        "Heroes only. Use when entering Combat",
+        "as the defender. Instead of drawing 3",
+        "cards from your life deck, draw the top 3",
+        "cards from your discard pile. If there are",
+        "not enough cards in the discard pile, this",
+        "card cannot be used. Remove from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
