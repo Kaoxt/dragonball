@@ -1,0 +1,204 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 206,
+      "name": "Nappa's Blinding Stare",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-206-nappas-blinding-stare.webp",
+      "sha": "2e2fd303bc118b5da483df0222ec71a6d877d35c",
+      "width": 1060,
+      "height": 1484,
+      "rules": "The attacker is temporarily blinded and this combat stops. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "The attacker is temporarily blinded",
+        "and this combat stops. Discard this",
+        "card from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 207,
+      "name": "Power Gifting",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-207-power-gifting.webp",
+      "sha": "87756dc272c24778ce1181829dd731a656ca5733",
+      "width": 1060,
+      "height": 1484,
+      "rules": "One ally gives your main personality power on a stage for stage basis, reducing their total and boosting your main personality's. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "One ally gives your main",
+        "personality power on a stage for",
+        "stage basis, reducing their total and",
+        "boosting your main personality's.",
+        "Discard from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 208,
+      "name": "Terrible Wounds",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-208-terrible-wounds.webp",
+      "sha": "2830bf95cdd24ac1617cfc87c01bcca8e9e1e666",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Place this on a foe's personality card. Reset the personality's anger to (0). It cannot go up until after he forces another player to discard a life card. Discard this from the game after use. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Place this on a foe's personality",
+        "card. Reset the personality's anger",
+        "to (0). It cannot go up until after he",
+        "forces another player to discard a",
+        "life card. Discard this from the",
+        "game after use. Limit 1 per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 209,
+      "name": "Broken Scouter",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-209-broken-scouter.webp",
+      "sha": "fcd249ec23813285f5ce9df1f546bdfaca6ab57a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Your power level was miscounted. Raise it to full power. Discard this from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Your power level was miscounted.",
+        "Raise it to full power. Discard this",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 210,
+      "name": "Raditz Flying Kick",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-210-raditz-flying-kick.webp",
+      "sha": "71fc4a4498080bcdbe70d906797e8136629cc3dd",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack doing triple the usual damage if successful.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack doing triple the",
+        "usual damage if successful."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 211,
+      "name": "Tien Mind Reading Trick",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-211-tien-mind-reading-trick.webp",
+      "sha": "42b3e8650857577df2ee598eaf9cfd79f11ba397",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Attach this to your opponent’s Main Personality. If Tien is in play, all villain opponents must play with their hands face up on the table.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Attach this to your opponent’s Main",
+        "Personality. If Tien is in play, all",
+        "villain opponents must play with",
+        "their hands face up on the table."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 212,
+      "name": "Piccolo's Flight",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-212-piccolos-flight.webp",
+      "sha": "2d177808af1ce773717519be55947337cfa1ee32",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a successful physical or energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a successful physical or",
+        "energy attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 213,
+      "name": "Plant Two Saibaimen",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-213-plant-two-saibaimen.webp",
+      "sha": "5f5ca369a2fb8af26730e589ad6697727b2ff2f3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use this card at the end of your Power Up step. Skip Combat this turn. At the beginning of your next turn, search your Life Deck and/or discard pile for your highest level Saibaimen card and place it into play. Remove from the game after use.",
+      "body_font_px": 43,
+      "body_lines": [
+        "Use this card at the end of your Power Up",
+        "step. Skip Combat this turn. At the",
+        "beginning of your next turn, search your",
+        "Life Deck and/or discard pile for your",
+        "highest level Saibaimen card and place it",
+        "into play. Remove from the game after",
+        "use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 214,
+      "name": "Gohan's Father Save",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-214-gohans-father-save.webp",
+      "sha": "4a2e695c39a79f10e99e1f0cebc1e0afdbae8530",
+      "width": 1060,
+      "height": 1484,
+      "rules": "If Gohan is Goku's ally, he stops the foe's combat turn. Discard after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "If Gohan is Goku's ally, he stops the",
+        "foe's combat turn. Discard after",
+        "use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 215,
+      "name": "Krillin's Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-215-krillins-drill.webp",
+      "sha": "426de62631d44705d0745fb55b84367ce0d85f23",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Does an extra life card of damage with each successful attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Does an extra life card of damage",
+        "with each successful attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
