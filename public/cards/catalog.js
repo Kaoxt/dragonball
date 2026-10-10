@@ -2217,7 +2217,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-171-raditz.webp?v=376c9eafc4",
+    "image": "/assets/cards/saiyan-171-raditz.webp?v=5bf5cb2185",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2230,7 +2230,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-172-raditz.webp?v=40d3de09ab",
+    "image": "/assets/cards/saiyan-172-raditz.webp?v=3055192781",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2243,7 +2243,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-173-vegeta.webp?v=f97dd57604",
+    "image": "/assets/cards/saiyan-173-vegeta.webp?v=5f2ad60dda",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2256,7 +2256,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-174-vegeta.webp?v=a4e211d277",
+    "image": "/assets/cards/saiyan-174-vegeta.webp?v=18c19d241a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2269,7 +2269,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-175-vegeta.webp?v=67e088082d",
+    "image": "/assets/cards/saiyan-175-vegeta.webp?v=143fee2aee",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2282,7 +2282,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-176-nappa.webp?v=d555de81fb",
+    "image": "/assets/cards/saiyan-176-nappa.webp?v=8bd2f2e3b4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2295,7 +2295,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-177-nappa.webp?v=55dc550af6",
+    "image": "/assets/cards/saiyan-177-nappa.webp?v=f3fcc55d74",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2308,7 +2308,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-178-nappa.webp?v=78869f8798",
+    "image": "/assets/cards/saiyan-178-nappa.webp?v=076ebbd09a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2321,7 +2321,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=d5639fc514",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=a9257d59f1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2334,7 +2334,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=2d8fd4e6c5",
+    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=ce5c4665d6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
