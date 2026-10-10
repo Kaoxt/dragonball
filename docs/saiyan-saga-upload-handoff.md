@@ -1,5 +1,9 @@
 # Saiyan Saga continuation
 
+## Latest approved test design: cards 1–10
+
+Cards #1–10 now use the user-approved Orange Arm Bar test frame with the exact reference footer, one shared sword on the right, and card numerals vertically centered at y=1351. These exports are 1060 × 1484 lossless WebP and supersede the earlier fixed-design exports for #1–10 only. #11 onward is unchanged. The shared frame and sword were verified by pixel comparison. `saiyan-approved-frame-001-010.json` records their image hashes and rules. Use #5 from this batch as the current visual master; do not rerun older renderers over these assets.
+
 ## Latest fixed design upload
 
 The recovered fixed-design exports are published for **cards 1–25 only**, in batches 1–10, 11–20, and 21–25. These supersede the earlier cleanup below. `saiyan-fixed-design.json` records their exact Git blob hashes. The user reduced this task from 70 to 25 cards; stop at 25. The renderer is pinned to the pre-update source commit so reruns cannot double-apply the frame.

@@ -1,0 +1,107 @@
+{
+  "design": "Approved Orange Arm Bar frame, exact blue-reference footer, vertically centered numbers, one shared right-side sword",
+  "frame_pixel_equality": "Passed for each color group; common sword identical across all 10",
+  "lossless_export_equality": "Passed for all 10",
+  "updated": [
+    {
+      "number": 1,
+      "name": "Orange Standing Fist Punch",
+      "path": "public/assets/cards/saiyan-001-orange-standing-fist-punch.webp",
+      "sha": "6919271f8f244cdab6aa430493dd489cfba7a79d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 2,
+      "name": "Orange One Knuckle Punch",
+      "path": "public/assets/cards/saiyan-002-orange-one-knuckle-punch.webp",
+      "sha": "43f234907bbb6f7b0a798022b0e17ff72269594b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 3,
+      "name": "Orange Two Knuckle Punch",
+      "path": "public/assets/cards/saiyan-003-orange-two-knuckle-punch.webp",
+      "sha": "aa04075600ef057a400db92f91ee7166983b9031",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 4,
+      "name": "Orange Leg Sweep",
+      "path": "public/assets/cards/saiyan-004-orange-leg-sweep.webp",
+      "sha": "c8175aef2ccdac9d2a589e6f6bda9c53de8b2457",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 5,
+      "name": "Orange Arm Bar",
+      "path": "public/assets/cards/saiyan-005-orange-arm-bar.webp",
+      "sha": "402dcf255565f9c8ae655cc782a395300ac670f0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 6,
+      "name": "Red Lunge Punch",
+      "path": "public/assets/cards/saiyan-006-red-lunge-punch.webp",
+      "sha": "78cfd69316af87c8ebff12e840c9642a5948c8b1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 7,
+      "name": "Red Reverse Punch",
+      "path": "public/assets/cards/saiyan-007-red-reverse-punch.webp",
+      "sha": "63110469509b936fc3de306805eac3a2ab65db87",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 8,
+      "name": "Red Knife Hand",
+      "path": "public/assets/cards/saiyan-008-red-knife-hand.webp",
+      "sha": "c0ad1ca7d4e2773c7e64275d27f792c1656fb6ba",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 9,
+      "name": "Red Palm Heel Strike",
+      "path": "public/assets/cards/saiyan-009-red-palm-heel-strike.webp",
+      "sha": "ccce7b3d1b27a9374dd979fb168b1e94d538613c",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    },
+    {
+      "number": 10,
+      "name": "Red Elbow Strike",
+      "path": "public/assets/cards/saiyan-010-red-elbow-strike.webp",
+      "sha": "15936284f3ad101cd67c4ef73927d98c60b5cb1c",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack. Raise card user's anger level 1.",
+      "number_visible_center_y": 1351
+    }
+  ]
+}

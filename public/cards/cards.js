@@ -10,7 +10,7 @@ function render(){
  $('no-results').hidden=!!cards.length;
  $('card-grid').replaceChildren(...cards.map(c=>{
   const button=document.createElement('button');button.className='catalog-card';button.type='button';button.setAttribute('aria-label',`View ${c.name}, card ${c.number}`);
-  const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=1070;img.height=1470;
+  const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
   const title=document.createElement('h2');title.textContent=c.name;
   const meta=document.createElement('p');meta.textContent=`#${c.number} · ${c.type}`;
   button.append(img,title,meta);
