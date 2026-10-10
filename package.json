@@ -10,8 +10,9 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node --test tests/game.test.js tests/community.test.js tests/forum-editor.test.js",
+    "test": "node --test tests/game.test.js tests/community.test.js tests/forum-editor.test.js tests/deck-code.test.js",
     "test:e2e": "playwright test",
     "check": "node --check src/worker.js && node --check src/community/auth.js && node --check public/forum/forum.js && node --check public/account/account.js && node --check public/app.js && wrangler deploy --dry-run"
   }
 }
+

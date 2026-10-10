@@ -1,3 +1,4 @@
+import {setupDeckImages} from './deck-image.js';
 import {catalog} from '../cards/catalog.js';
 import {parseDeck} from '../game.js';
 import {STORAGE_KEY, createDeck, readDecks, snapshot, count, exportDeck, addCard, removalTarget, deckSize, deckLimit} from './store.js';
@@ -107,3 +108,6 @@ if(syncUser&&browserData.decks.some(d=>d.cards.length||d.personalities.some(Bool
 }
 window.addEventListener('beforeunload',event=>{if(syncUser&&(syncDirty||syncBusy)){event.preventDefault();event.returnValue='';}});
 library();browse();renderDeck();save();
+
+
+setupDeckImages({catalog,getDeck:()=>deck,onImport:imported=>{if(syncBlocked)throw Error('Account sync is paused. Export your changes and reload before importing.');if(data.decks.length>=100)throw Error('You have reached 100 decks. Remove a deck before importing another.');data.decks.push(imported);deck=imported;changed();library();$('deck-tab').click();message('Imported as a new private deck');}});

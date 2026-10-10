@@ -11,3 +11,6 @@ body.deck-builder{background:#120f11;background-image:radial-gradient(ellipse at
 .deck-builder .browse-card-actions .remove-card:disabled{opacity:.35;cursor:not-allowed}
 
 .shared-card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:16px}.shared-card-grid figure{margin:0;min-width:0}.shared-card-grid img{width:100%;height:auto;border-radius:7px}.shared-card-grid figcaption{font-size:13px;margin-top:7px;overflow-wrap:anywhere}#shared-deck>.account-card{margin-top:24px}
+
+
+.deck-actions{flex-wrap:wrap}.deck-actions #export-deck-image,.deck-actions #import-deck-image{flex:1 1 130px}#deck-image-dialog{box-sizing:border-box;width:min(620px,94vw);max-height:90dvh;overflow:auto;background:#1a1518;color:#fff;border:1px solid #68384a;border-radius:14px;padding:24px}#close-deck-image{display:block;margin-left:auto}#deck-image-preview canvas{display:block;width:100%;height:auto;max-height:58dvh;object-fit:contain}#deck-image-status{font-size:14px;line-height:1.6;color:#dcc8d0}.deck-image-download{display:inline-block;padding:12px 18px;border-radius:7px;background:#842640;color:white;text-decoration:none}.deck-image-download[hidden]{display:none}
