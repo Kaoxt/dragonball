@@ -241,3 +241,31 @@ test('linked quotes notify the original author, deduplicate mentions, and skip h
  await f.forum('bob',{action:'reply',id:other,body:`> [alice wrote:](/forums/#topic/${t})\n> Hidden post\n\nTest`});
  assert.equal(f.env.DB.prepare('SELECT COUNT(*) AS n FROM forum_notifications').first().n,1);
 });
+
+
+test('News imports the three original articles as Kurt once and shares announcement replies',async()=>{
+ const f=await fixture();
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles.length,0);
+ await f.register('kaoxt');await f.auth('kaoxt','claim-owner',{code:'test-owner-code'});
+ const account=(await f.auth('kaoxt','session')).data.user;
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',account.id).run();
+ await f.auth('kaoxt','profile',{displayName:'Kurt'});
+ const news=(await f.forum(null,null,{view:'news'})).data.articles;
+ assert.equal(news.length,3);assert.ok(news.every(t=>t.author==='Kurt'));
+ assert.equal(news[0].title,'A place to build your next deck.');
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles.length,3);
+ await f.register('reader');
+ assert.equal((await f.forum('reader',{action:'topic',categoryId:4,title:'Unauthorized announcement',body:'No.'})).status,403);
+ assert.equal((await f.forum(null,{action:'reply',id:news[0].id,body:'Anonymous comment'})).status,401);
+ assert.equal((await f.forum('reader',{action:'reply',id:news[0].id,body:'Shared comment from News'})).status,201);
+ const detail=(await f.forum(null,null,{view:'newsTopic',id:news[0].id})).data;
+ assert.equal(detail.replies[0].body,'Shared comment from News');
+ assert.equal((await f.forum(null,null,{view:'topic',id:news[0].id})).data.replies[0].id,detail.replies[0].id);
+ const fresh=await f.forum('kaoxt',{action:'topic',categoryId:4,title:'A new announcement',body:'Automatically in News.'});
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles[0].id,fresh.data.id);
+ await f.forum('kaoxt',{action:'topicDelete',id:news[1].id});
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles.length,3);
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles.some(t=>t.id===news[1].id),false);
+ await f.forum('kaoxt',{action:'topicModerate',id:fresh.data.id,categoryId:4,hidden:true,locked:false,pinned:false});
+ assert.equal((await f.forum(null,null,{view:'news'})).data.articles.some(t=>t.id===fresh.data.id),false);
+});

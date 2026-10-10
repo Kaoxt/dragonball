@@ -17,3 +17,24 @@ body.home-page main .news-post .post-actions button.read-more:hover:not(:disable
 body.home-page main .news-post .post-actions a:hover{
   background:transparent;box-shadow:none;color:#ff949d;text-decoration:none;
 }
+
+
+/* Announcement feed and shared forum comments on the News page. */
+.home-page .news-feed{width:100%;min-width:0;margin:0}
+.home-page .news-post h2{font-size:26px;line-height:1.3;letter-spacing:-.65px;margin:14px 0;font-weight:600}
+.home-page .news-post h2 a{color:inherit;text-decoration:none}
+.home-page .news-post p,.home-page .news-post .forum-rich,.home-page .news-post .forum-rich p{color:#fff;font-size:14px;line-height:1.85}
+.home-page .release-tag{color:#da8da5;font-size:9px;letter-spacing:1.4px;font-weight:650;text-transform:uppercase}
+.home-page .release-meta{color:#b9aab2;font-size:11px;margin:0 0 18px}
+.home-page .release-meta a{color:inherit}
+.home-page .news-full{margin-top:18px;overflow-wrap:anywhere}
+.home-page .news-full img{max-width:100%;height:auto}
+.home-page .news-post .news-comment-link{margin-left:auto}
+.home-page .news-post .news-comment-link svg{flex-shrink:0}
+.home-page .news-feed .forum-rich a{color:#fff;font-weight:600;text-decoration:none}
+.home-page .news-feed .forum-rich a:hover{color:#ff949d}
+.home-page.news-detail-page .news-layout{grid-template-columns:minmax(0,1fr)}
+.home-page.news-detail-page .home-sidebar{display:none}
+.home-page .news-feed .forum-post-main,.home-page .news-feed .forum-rich,.home-page .news-feed .forum-rich p{color:#fff}
+.home-page .news-feed .forum-post-author{display:block}
+@media(max-width:650px){.home-page .news-post h2{font-size:23px}.home-page .news-post p,.home-page .news-post .forum-rich,.home-page .news-post .forum-rich p{font-size:13px}}
