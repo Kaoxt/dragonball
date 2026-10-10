@@ -8,7 +8,7 @@ import { forumDb } from '../src/community/forum.js';
 import { onRequestGet,onRequestPost } from '../src/community/forum-api.js';
 import { database } from '../src/community/database.js';
 import { hash } from '../src/community/session.js';
-import { migrateKurtUsername } from '../src/community/account-migrations.js';
+import { migrateKurtUsername, migrateKaoxtIdentity } from '../src/community/account-migrations.js';
 import { recordTopicView } from '../src/community/topic-views.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
@@ -285,4 +285,22 @@ test('public deck links expose only opted-in decks and are revoked on privacy ch
  deck.visibility='private';await save([deck]);assert.equal((await call(null,null,id)).status,404);
  deck.visibility='public';const newId=(await save([deck])).shares[deck.id];assert.notEqual(newId,id);
  await save([]);assert.equal((await call(null,null,newId)).status,404);
+});
+
+test('restore Kaoxt login and public name once without changing credentials or ownership',async()=>{
+ const f=await fixture();await f.register('kurt');const user=(await f.auth('kurt','session')).data.user;
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',user.id).run();
+ const before=f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(user.id).first();
+ const post=(await f.forum('kurt',topic)).data.id;
+ assert.equal(migrateKaoxtIdentity(f.env.DB),'renamed');
+ assert.deepEqual({...f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(user.id).first()},{...before,username:'Kaoxt'});
+ const session=(await f.auth('kurt','session')).data.user;assert.equal(session.id,user.id);assert.equal(session.username,'Kaoxt');assert.equal(session.displayName,'Kaoxt');
+ assert.equal((await f.forum(null,null,{view:'topic',id:post})).data.topic.author,'Kaoxt');
+ assert.equal((await f.auth('new','login',{username:'Kaoxt',password:'My private password 123!'})).status,200);
+ assert.equal(migrateKaoxtIdentity(f.env.DB),'completed');
+});
+test('Kaoxt restore never renames unrelated members or takes an occupied login',async()=>{
+ const f=await fixture();await f.register('kurt');assert.equal(migrateKaoxtIdentity(f.env.DB),'not-applicable');
+ const user=(await f.auth('kurt','session')).data.user;f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',user.id).run();
+ await f.register('kaoxt');assert.equal(migrateKaoxtIdentity(f.env.DB),'conflict');assert.equal((await f.auth('kurt','session')).data.user.username,'kurt');
 });

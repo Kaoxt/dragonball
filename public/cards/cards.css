@@ -6,8 +6,8 @@
 /* Keep the set identity compact beside the Database heading. */
 .database-intro{display:flex;align-items:center;gap:clamp(12px,3vw,28px)}
 .database-page .database-intro h1.page-wordmark{flex:0 1 auto;min-width:0;max-width:56%;margin:10px 0 8px}
-.database-intro .page-wordmark img{width:auto;max-width:100%;height:auto;max-height:68px}
-.collection-brand{display:flex;align-items:center;flex:0 1 220px;min-width:0;max-width:40%;margin:0}
+.database-intro .page-wordmark img{width:auto;max-width:100%;height:clamp(44px,6vw,68px);max-height:68px}
+.collection-brand{display:flex;align-items:center;flex:0 1 220px;min-width:0;max-width:40%;margin:0 0 0 auto}
 .collection-brand img{display:block;width:100%;height:auto;object-fit:contain}
 .collection-brand h2{margin:0;color:#fff;font-size:clamp(14px,2vw,22px)}
 .collection-brand [hidden]{display:none}
