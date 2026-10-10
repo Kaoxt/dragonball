@@ -4,7 +4,7 @@ const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) $(''+key).add(new Option(value,value));
 // Each collection can supply its own themed wordmark here.
 const collectionBranding = {
- 'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-blue.webp', name:'Saiyan Saga'}
+ 'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-blue-v2.webp', name:'Saiyan Saga'}
 };
 function renderCollectionBrand(){
  const sets=[...new Set(catalog.map(card=>card.set))];

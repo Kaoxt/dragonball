@@ -2,4 +2,4 @@
 #source[hidden]{display:none}
 .catalog-card img{height:auto;aspect-ratio:auto}
 
-.collection-brand{display:flex;align-items:center;min-height:72px;margin:14px 0 0}.collection-brand img{display:block;width:min(480px,100%);height:auto;object-fit:contain}.collection-brand h2{margin:0;color:#fff;font-size:clamp(24px,4vw,36px)}.collection-brand [hidden]{display:none}@media(max-width:650px){.collection-brand{margin-top:10px;min-height:0}.collection-brand img{width:min(360px,100%)}}
+.collection-brand{display:flex;align-items:center;justify-content:center;min-height:72px;margin:14px 0 0}.collection-brand img{display:block;width:min(480px,100%);height:auto;object-fit:contain}.collection-brand h2{margin:0;color:#fff;font-size:clamp(24px,4vw,36px)}.collection-brand [hidden]{display:none}@media(max-width:650px){.collection-brand{margin-top:10px;min-height:0}.collection-brand img{width:min(360px,100%)}}
