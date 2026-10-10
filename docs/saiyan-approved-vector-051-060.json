@@ -1,0 +1,193 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 51,
+      "name": "Orange Hip Throw",
+      "type": "Physical Combat",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-051-orange-hip-throw.webp",
+      "sha": "bc12773e1eb8d9411e310dc192fa488ed68c3f50",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +2 stages of",
+        "damage if successful. Raise card",
+        "user’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 52,
+      "name": "Orange Neck Restraints",
+      "type": "Energy Combat",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-052-orange-neck-restraints.webp",
+      "sha": "dee7ef0ec74e8e04416186ee25814020400dda28",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an opponent’s energy attack.",
+        "Foe’s anger level decreases by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 53,
+      "name": "Orange Holding After Takedown",
+      "type": "Physical Combat",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
+      "sha": "8b201ffe1394f193fc4ff0db94e0b7afd346f589",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops opponent’s physical attack",
+        "this round. Foe’s anger level",
+        "decreases by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 54,
+      "name": "Red Knee Strike",
+      "type": "Physical Combat",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-054-red-knee-strike.webp",
+      "sha": "7f070746e4c7e1b5bf32246673b955d3db8a09fd",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops the foe’s physical attack.",
+        "Raise card user’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 55,
+      "name": "Red Front Kick",
+      "type": "Physical Combat",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-055-red-front-kick.webp",
+      "sha": "57d281dfb055d1c9d5446b562debbc1befd3f7f7",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +1 stage of",
+        "damage if successful. Raise card",
+        "user’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 56,
+      "name": "Red Side Kick",
+      "type": "Energy Combat",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-056-red-side-kick.webp",
+      "sha": "68e56e7b87c3440bfa80e49a4d4a732aed352fa0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop foe’s energy attack this round.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop foe’s energy attack this round."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 57,
+      "name": "Red Round Kick",
+      "type": "Physical Combat",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-057-red-round-kick.webp",
+      "sha": "e191f9eebc172c5946e7c8bf49b53812c43374fa",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +3 stages of",
+        "damage if successful. Foe’s Anger",
+        "level decreases by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 58,
+      "name": "Red Back Kick",
+      "type": "Physical Combat",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-058-red-back-kick.webp",
+      "sha": "b32f2446f51b98c36ada0f02e4ab4c3609336a24",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +3 stages of",
+        "damage if successful. Stops all",
+        "energy attacks for the rest of this",
+        "combat. Foe’s anger level",
+        "decreases by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 59,
+      "name": "Blue Big Outside Drop",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-059-blue-big-outside-drop.webp",
+      "sha": "4cd362981ee96212af5974c6495e18d6a3ec1435",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a physical attack. Raise card user’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a physical attack. Raise card",
+        "user’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 60,
+      "name": "Blue One-Arm Shoulder Throw",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp",
+      "sha": "6b71f19aa782b56537a75526f93df4f1955441f8",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops the foe’s physical attack.",
+        "Lower foe’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
