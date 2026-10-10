@@ -44,3 +44,20 @@ body.home-page main .news-post .post-actions a:hover{
  .home-page .news-post p,.home-page .news-post .forum-rich,.home-page .news-post .forum-rich p,
  .home-page.news-detail-page .news-feed .forum-rich,.home-page.news-detail-page .news-feed .forum-rich p{font-size:18px;line-height:1.8}
 }
+
+/* Keep desktop supporting text in proportion to the article copy. */
+@media(min-width:900px){
+ .home-page .release-meta{font-size:15px;line-height:1.6}
+ .home-page .release-tag{font-size:11px}
+ body.home-page main .news-post .post-actions button.read-more,
+ body.home-page main .news-post .post-actions a{font-size:16px;line-height:1.5;min-height:44px;gap:8px}
+ .home-page .read-more svg{width:18px;height:18px}
+ .home-page .play-invite .eyebrow{font-size:11px}
+ .home-page .play-invite h2{font-size:28px}
+ .home-page .play-invite p{font-size:16px;line-height:1.75}
+ .home-page .play-invite .primary-link{font-size:16px;min-height:44px;box-sizing:border-box}
+ .home-page .play-invite .primary-link svg{width:20px;height:20px}
+ .home-page .quick-links h2{font-size:12px}
+ .home-page .quick-links a{font-size:16px;line-height:1.5}
+ .home-page .quick-links a small{font-size:14px;line-height:1.5}
+}
