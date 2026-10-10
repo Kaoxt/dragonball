@@ -103,14 +103,14 @@ body .site-header .account-menu-footer button:hover{background:#35282e}
 
 /* Reserve the account slot while its deferred script and session check load. */
 @media(min-width:1201px),(min-width:900px) and (orientation:landscape){
- body .site-header nav:not(:has(.account-nav-actions))::after{content:"";display:block;flex:0 0 128px;height:44px;margin-left:10px;border:2px solid #565055;border-radius:18px;background:#170f13;box-sizing:border-box}
- body .site-header nav .account-nav-actions{min-width:128px}
- body .site-header nav .account-dropdown>summary{width:128px;max-width:128px}
+ body .site-header nav:not(:has(.account-nav-actions))::after{content:"";display:block;flex:0 0 104px;height:44px;margin-left:10px;border:2px solid #565055;border-radius:18px;background:#170f13;box-sizing:border-box}
+ body .site-header nav .account-nav-actions{min-width:0}
+ body .site-header nav .account-dropdown>summary{width:max-content;gap:6px;padding-right:9px}
 }
-body .site-header nav .account-nav-actions a.account-loading-preview{box-sizing:border-box;display:flex;justify-content:flex-start;gap:8px;width:128px;min-height:44px;padding:5px 11px 5px 5px;border:2px solid #565055;border-radius:18px;background:#170f13;color:#fff;font:600 13px/1.3 system-ui,sans-serif}
+body .site-header nav .account-nav-actions a.account-loading-preview{box-sizing:border-box;display:flex;justify-content:flex-start;gap:6px;width:max-content;max-width:168px;min-height:44px;padding:5px 9px 5px 5px;border:2px solid #565055;border-radius:18px;background:#170f13;color:#fff;font:600 13px/1.3 system-ui,sans-serif}
 .account-loading-preview img{width:30px;height:30px;flex:0 0 30px;border-radius:50%;object-fit:cover}
 .account-loading-preview span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .account-loading-preview svg{width:15px;height:15px;flex:none}
 @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
- body .site-header nav .account-nav-actions a.account-loading-preview{width:100%;border:0;background:transparent;padding:8px 10px}
+ body .site-header nav .account-nav-actions a.account-loading-preview{width:100%;max-width:none;border:0;background:transparent;padding:8px 10px}
 }
