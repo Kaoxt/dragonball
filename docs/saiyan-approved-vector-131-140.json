@@ -1,0 +1,199 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 131,
+      "name": "Black Bear Hug Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-131-black-bear-hug-drill.webp",
+      "sha": "5449240ed0cfb7c4c19a7118369749894759d6b9",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All of your physical attacks do +2 power stages of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All of your physical attacks do +2",
+        "power stages of damage."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 132,
+      "name": "Red Rolling Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-132-red-rolling-drill.webp",
+      "sha": "4e5d21f24c34eac7888190f5ac244b17f2028e9d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All energy attacks performed against you, do 1 less life card of damage, to a minimum of 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All energy attacks performed",
+        "against you, do 1 less life card of",
+        "damage, to a minimum of 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 133,
+      "name": "Blue Reversal Drill",
+      "type": "Non-Combat Drill",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-133-blue-reversal-drill.webp",
+      "sha": "a34692a2fd621c1bfb88b93643bff5852e3e7f41",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Do the exact same physical attack you defended against during your defending round of combat, once per combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Do the exact same physical attack",
+        "you defended against during your",
+        "defending round of combat, once",
+        "per combat."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 134,
+      "name": "Orange Off-Balancing Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-134-orange-off-balancing-drill.webp",
+      "sha": "c10805fd2a2614b941fd6fb444e083a77f4a6d4b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop the first physical attack made on you in a combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop the first physical attack made",
+        "on you in a combat."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 135,
+      "name": "Black Arm Bar Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-135-black-arm-bar-drill.webp",
+      "sha": "a409b0eb0b6e7b66ea89946608b550d79a0964c9",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops the first energy attack made on you in a combat. Can't be used with any Orange drills in play anywhere on the table.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops the first energy attack made",
+        "on you in a combat. Can't be used",
+        "with any Orange drills in play",
+        "anywhere on the table."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 136,
+      "name": "Black Free-Style Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-136-black-free-style-drill.webp",
+      "sha": "50d565f74fbcc804d4ae740302894b6c0246dd53",
+      "width": 1060,
+      "height": 1484,
+      "rules": "After receiving damage from an energy attack, you may draw the bottom card of your discard pile. Cannot be used with any other Black Drills in play.",
+      "body_font_px": 50,
+      "body_lines": [
+        "After receiving damage from an",
+        "energy attack, you may draw the",
+        "bottom card of your discard pile.",
+        "Cannot be used with any other",
+        "Black Drills in play."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 137,
+      "name": "Orange Spontaneous Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-137-orange-spontaneous-drill.webp",
+      "sha": "6af2ec8cac33e5bbacb68202b3f10cb26830c462",
+      "width": 1060,
+      "height": 1484,
+      "rules": "After taking damage from a physical attack, you may draw the bottom card of your discard pile.",
+      "body_font_px": 50,
+      "body_lines": [
+        "After taking damage from a",
+        "physical attack, you may draw the",
+        "bottom card of your discard pile."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 138,
+      "name": "Blue Cradle Drill",
+      "type": "Non-Combat Drill",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-138-blue-cradle-drill.webp",
+      "sha": "cdadd7960dc8409f5a652bfa4fed43e6125e78a7",
+      "width": 1060,
+      "height": 1484,
+      "rules": "For every life card you lose in combat, your foe loses 1 power stage, down to (0).",
+      "body_font_px": 50,
+      "body_lines": [
+        "For every life card you lose in",
+        "combat, your foe loses 1 power",
+        "stage, down to (0)."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 139,
+      "name": "Red Wrist Control Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-139-red-wrist-control-drill.webp",
+      "sha": "1ef971bcdb13710a3fdfccb9c759195fc6278184",
+      "width": 1060,
+      "height": 1484,
+      "rules": "For every 3 power stages you lose your opponent loses 1 power stage, down to 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "For every 3 power stages you lose",
+        "your opponent loses 1 power stage,",
+        "down to 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 140,
+      "name": "Red Reading Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-140-red-reading-drill.webp",
+      "sha": "df663ce2819d469d05d1c6eed5fe55125f39491a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Once per Combat, you may take 1 less life card of damage from any attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Once per Combat, you may take 1",
+        "less life card of damage from any",
+        "attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
