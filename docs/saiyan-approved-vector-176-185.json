@@ -1,0 +1,379 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 176,
+      "name": "Nappa",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-176-nappa.webp",
+      "sha": "d555de81fb7fcd07f6d770927e4c155f0d23d8a3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the damage from an energy attack performed against you to 2 life cards of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the damage from an energy",
+        "attack performed against you to 2 life",
+        "cards of damage."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 2,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          2000,
+          2200,
+          2400,
+          2600,
+          2800,
+          3000,
+          3200,
+          3400,
+          3600,
+          3800
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 177,
+      "name": "Nappa",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-177-nappa.webp",
+      "sha": "55dc550af67f2043214a1ed79df6a74871a55511",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Special Physical Attack inflicting 6 stages of power drain, no matter what the foe's power stage rating is.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Special Physical Attack inflicting 6",
+        "stages of power drain, no matter what",
+        "the foe's power stage rating is."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 2,
+        "pur": 3,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          4200,
+          4700,
+          5200,
+          5700,
+          6200,
+          6700,
+          7200,
+          7700,
+          8200,
+          8700
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 178,
+      "name": "Nappa",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-178-nappa.webp",
+      "sha": "78869f87981e118f5ef16c5a3d7a6e86aff5d025",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the damage from a physical attack performed against you to 2 power stages of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the damage from a physical",
+        "attack performed against you to 2",
+        "power stages of damage."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 3,
+        "pur": 4,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          9000,
+          9500,
+          10000,
+          10500,
+          11000,
+          11500,
+          12000,
+          12500,
+          13000,
+          13500
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 179,
+      "name": "Goku",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-179-goku-lvl-1-ht.webp",
+      "sha": "d5639fc51417d60d9f7f390225d719372c59a0fe",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack: Do not consult the chart and do 4 stages of damage to the foe.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack: Do not consult the",
+        "chart and do 4 stages of damage to",
+        "the foe."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100,
+          1200,
+          1300,
+          1400
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 180,
+      "name": "Piccolo",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp",
+      "sha": "2d8fd4e6c52f31b752d47308f30103e738d59096",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When defending in combat, take the bottom discard card as well in your three card draw.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When defending in combat, take the",
+        "bottom discard card as well in your",
+        "three card draw."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100,
+          1200,
+          1300,
+          1400
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 181,
+      "name": "Gohan",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-181-gohan-lvl-1-ht.webp",
+      "sha": "6e4caf1f20e5004ac158efec49ef74036ae52ed8",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack: Costs 1 stage and does 3 life card draws of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack: Costs 1 stage and",
+        "does 3 life card draws of damage."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 182,
+      "name": "Krillin",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-182-krillin-lvl-1-ht.webp",
+      "sha": "abac0e2b16c04c5d99d3c9896035e293d5d2714f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Draw a card when entering Combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Draw a card when entering Combat."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 183,
+      "name": "Raditz",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-183-raditz-lvl-1-ht.webp",
+      "sha": "210f8298b570722cc608e34b4db9403d8f7b76c6",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Raise Raditz' anger level one.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Raise Raditz' anger level one."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          1100,
+          1200,
+          1300,
+          1400,
+          1500,
+          1600,
+          1700,
+          1800,
+          1900,
+          2000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 184,
+      "name": "Vegeta",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp",
+      "sha": "4ffadfe6a137d7ef2029507a010aebc5d6d53582",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop an energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop an energy attack."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          2000,
+          2200,
+          2400,
+          2600,
+          2800,
+          3000,
+          3200,
+          3400,
+          3600,
+          3800
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    },
+    {
+      "number": 185,
+      "name": "Nappa",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
+      "sha": "87d052a46da6bdd23078b29d9cddd42f77541a4f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When entering Combat, your Main Personality gains 2 power stages.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When entering Combat, your Main",
+        "Personality gains 2 power stages."
+      ],
+      "art_source_commit": "0c5ae087ceaabded76f282fc1b9f6beccf6309a4",
+      "personality": {
+        "level": 1,
+        "pur": 2,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          2000,
+          2200,
+          2400,
+          2600,
+          2800,
+          3000,
+          3200,
+          3400,
+          3600,
+          3800
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline"
+    }
+  ]
+}
