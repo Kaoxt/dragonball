@@ -2802,8 +2802,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=8b25bb25cf",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=59712de587",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-217-ribs-broken",
@@ -2813,8 +2815,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-217-ribs-broken.webp?v=f8e9069bb8",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-217-ribs-broken.webp?v=ab26b1ac5a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-218-unexpected-allies",
@@ -2824,8 +2828,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-218-unexpected-allies.webp?v=1323c11c38",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-218-unexpected-allies.webp?v=1e06938797",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-219-raditz-energy-burst",
@@ -2835,8 +2841,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=1155ce97c7",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=a8998d1d9c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-220-vegetas-stance",
@@ -2846,8 +2854,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-220-vegetas-stance.webp?v=f3fb2449fe",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-220-vegetas-stance.webp?v=90c976a4b7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-221-vegetas-quickness-drill",
@@ -2857,8 +2867,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-221-vegetas-quickness-drill.webp?v=55c938092e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-221-vegetas-quickness-drill.webp?v=e871128cd7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-222-bulma-finds-a-dragon-ball",
@@ -2868,8 +2880,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-222-bulma-finds-a-dragon-ball.webp?v=311fc8d845",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-222-bulma-finds-a-dragon-ball.webp?v=7ddb3244b4",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-223-bulma-finds-a-drill",
@@ -2879,8 +2893,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-223-bulma-finds-a-drill.webp?v=14c2492c18",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-223-bulma-finds-a-drill.webp?v=ddfdea97ad",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-224-baba-witch-viewing-drill",
@@ -2890,8 +2906,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-224-baba-witch-viewing-drill.webp?v=9fa2233c1a",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-224-baba-witch-viewing-drill.webp?v=188b729000",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-225-babas-energy-blast",
@@ -2901,8 +2919,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-225-babas-energy-blast.webp?v=cafe50112f",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-225-babas-energy-blast.webp?v=ba30b231d9",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-226-t-rex-defense",

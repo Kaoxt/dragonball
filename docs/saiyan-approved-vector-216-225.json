@@ -1,0 +1,200 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 216,
+      "name": "Krillin's Energy Disk",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-216-krillins-energy-disk.webp",
+      "sha": "59712de58757f7d43d217a2700d172bfff2b82d5",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 4 life cards of damage at a cost of 1 stage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 4 life cards of",
+        "damage at a cost of 1 stage."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 217,
+      "name": "Ribs Broken",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-217-ribs-broken.webp",
+      "sha": "ab26b1ac5a845d9dd9e9a6d187bda7ecae5a5160",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 5 life cards of damage. Costs 0 power stages to perform. You must remove an Ally in play from the game in order to perform this attack. This does not have to be an Ally you control.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 5 life cards of",
+        "damage. Costs 0 power stages to",
+        "perform. You must remove an Ally",
+        "in play from the game in order to",
+        "perform this attack. This does not",
+        "have to be an Ally you control."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 218,
+      "name": "Unexpected Allies",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-218-unexpected-allies.webp",
+      "sha": "1e06938797ebe892edec09b4490aa0341e49a497",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Search your Life Deck or discard pile for an Ally and put him into play at his highest power stage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Search your Life Deck or discard",
+        "pile for an Ally and put him into play",
+        "at his highest power stage."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 219,
+      "name": "Raditz Energy Burst",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-219-raditz-energy-burst.webp",
+      "sha": "a8998d1d9cb278fbdd86201a65f311c4268b4d82",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 2 draws from the life card deck if not stopped and costing no power stages to perform.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 2 draws from",
+        "the life card deck if not stopped and",
+        "costing no power stages to",
+        "perform."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 220,
+      "name": "Vegeta's Stance",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-220-vegetas-stance.webp",
+      "sha": "90c976a4b71aa2b3de62ff2b3d7625fa4e7ce7ad",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Prevents all but 1 life card draw from a successful energy attack. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Prevents all but 1 life card draw",
+        "from a successful energy attack.",
+        "Discard from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 221,
+      "name": "Vegeta's Quickness Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-221-vegetas-quickness-drill.webp",
+      "sha": "e871128cd72410d8a78a2f1cfe0a1032cb1ee879",
+      "width": 1060,
+      "height": 1484,
+      "rules": "At the beginning of each combat, draw 1 card from the bottom of the discard pile to use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "At the beginning of each combat,",
+        "draw 1 card from the bottom of the",
+        "discard pile to use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 222,
+      "name": "Bulma Finds a Dragon Ball",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-222-bulma-finds-a-dragon-ball.webp",
+      "sha": "7ddb3244b491e03fbcf163f90b65d8070fb49b03",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When the Bulma ally is in play, use this card to capture a Dragon Ball. Discard from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When the Bulma ally is in play, use",
+        "this card to capture a Dragon Ball.",
+        "Discard from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 223,
+      "name": "Bulma Finds a Drill",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-223-bulma-finds-a-drill.webp",
+      "sha": "ddfdea97ad76d0426c1ff1a71fe012c1e65a3648",
+      "width": 1060,
+      "height": 1484,
+      "rules": "When the Bulma ally is in play, pick a drill from the life deck or the discards and put it into play.",
+      "body_font_px": 50,
+      "body_lines": [
+        "When the Bulma ally is in play, pick",
+        "a drill from the life deck or the",
+        "discards and put it into play."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 224,
+      "name": "Baba Witch Viewing Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-224-baba-witch-viewing-drill.webp",
+      "sha": "188b7290001deab3ca6ceb7525d3bfe32f4e473e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Forces every Villain opponent to constantly show his hand of cards face up at all times.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Forces every Villain opponent to",
+        "constantly show his hand of cards",
+        "face up at all times."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 225,
+      "name": "Baba's Energy Blast",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-225-babas-energy-blast.webp",
+      "sha": "ba30b231d9d248d3287b111e770db8e8138cc484",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use when needed. Your opponent discards 3 cards from his Life Deck. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use when needed. Your opponent",
+        "discards 3 cards from his Life Deck.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
