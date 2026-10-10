@@ -17,7 +17,8 @@ ART_BASE='50f5c9c3de0b41b6ada7798b2ef37f781fb017bd'
 W,H=1060,1484
 THEMES={'Blue':'#008fde','Saiyan':'#008960','Freestyle':'#8d959d'}
 BODY_FONT='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf'
-TITLE_FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+TITLE_FONT=str(HERE/'fonts/Teko-Bold.ttf')
+NUMBER_FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 TYPE_FONT='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf'
 
 def gitbytes(path,ref=BASE):
@@ -70,7 +71,7 @@ def main():
     rail_svg=(HERE/'judder-free-silver-rails.svg').read_text()
     rails=svg_layer(rail_svg)
     font=ImageFont.truetype(BODY_FONT,50)
-    numberfont=ImageFont.truetype(TITLE_FONT,40)
+    numberfont=ImageFont.truetype(NUMBER_FONT,40)
     entries=[]
     for n in range(args.start,args.end+1):
         c=lookup[n];color='#d5b54d' if c['type']=='Dragon Ball' else THEMES[c['style']]
@@ -93,7 +94,7 @@ def main():
         # Clear the title interior without touching the approved outline.
         panel=f'<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1484"><path d="M110 77L123 87H936L949 77L979 105V132L947 164H112L81 132V105Z" fill="{color}"/></svg>'
         result=Image.alpha_composite(result,svg_layer(panel))
-        title=lettering(c['name'].upper(),TITLE_FONT,68,865,stroke=3)
+        title=lettering(c['name'].upper(),TITLE_FONT,74,865,stroke=5)
         result.alpha_composite(title,(round((W-title.width)/2),round(122-title.height/2)))
         # Physical Combat uses the approved lettering and sword. Other types
         # receive their correct label centered in the same strip, without sword.
@@ -107,7 +108,7 @@ def main():
         for j,line in enumerate(lines):d.text((102,960+j*61),line,font=font,fill='#ffffff',anchor='lt')
         # Shadowless numeral, centered at the exact approved footer position.
         d.rectangle((125,1338,219,1373),fill='#080e12')
-        number=lettering(str(n),TITLE_FONT,40,84)
+        number=lettering(str(n),NUMBER_FONT,40,84)
         result.alpha_composite(number,(round(171-number.width/2),round(1351-number.height/2)))
         # Silver rail pixels come from the exact approved vector template.
         result=Image.alpha_composite(result,rails).convert('RGB')
