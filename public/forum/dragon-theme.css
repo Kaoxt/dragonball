@@ -73,3 +73,42 @@ body.community-page main .forum-shell a[href]:any-link{
 body.community-page main .forum-shell a[href]:any-link:hover{
  color:#c9c9cd;text-decoration:none;
 }
+
+/* Search uses separate compact fields with a visible SVG select indicator. */
+#forum-search-dialog{--search-field:#180f14;--search-line:#67404f;--search-focus:#d889a3;width:min(620px,calc(100% - 32px));padding:22px;margin:clamp(24px,10dvh,90px) auto 0;max-height:calc(100dvh - 48px);overflow:auto}
+#forum-search-dialog .forum-popup-search{display:block;margin:0}
+#forum-search-dialog .forum-search-fields{display:grid;grid-template-columns:minmax(0,1fr) 170px 44px;align-items:center;gap:10px;padding:0;background:transparent;border:0;border-radius:0}
+#forum-search-dialog .forum-search-fields label{display:block;min-width:0;max-width:none;margin:0;padding:0;border:0}
+#forum-search-dialog input,#forum-search-dialog select{height:44px;min-height:44px;margin:0;border:1px solid var(--search-line);border-radius:8px;background-color:var(--search-field);padding:10px 12px;line-height:1.4}
+#forum-search-dialog select{width:100%;max-width:none;padding-right:36px;background-image:url('/assets/icons/chevron-down.svg');background-repeat:no-repeat;background-position:right 10px center;background-size:16px}
+#forum-search-dialog input:focus,#forum-search-dialog select:focus{outline:2px solid var(--search-focus);outline-offset:2px}
+#forum-search-dialog button[type=submit]{width:44px;height:44px;background:#35272e;border:1px solid #67404f;border-radius:8px}
+@media(max-width:600px){#forum-search-dialog{padding:18px}#forum-search-dialog .forum-search-fields{grid-template-columns:minmax(0,1fr) 44px}#forum-search-dialog .forum-search-fields label:first-child{grid-column:1/-1}}
+/* Admin dashboard, scoped away from the shared navigation and forum pages. */
+.admin-page .forum-page{max-width:1100px}
+.admin-page .admin-heading{margin-bottom:22px}
+.admin-page .admin-heading h1{margin:6px 0;font-size:30px}
+.admin-page .admin-heading p{margin:0;color:#c0acb6;font-size:14px}
+.admin-page .forum-admin-nav{display:flex;gap:8px;padding:0 0 18px;border-bottom:1px solid #49333c;margin-bottom:22px}
+.admin-page .forum-admin-nav a{padding:10px 16px;border:1px solid #49333c;border-radius:9px;font-size:14px}
+.admin-page .forum-admin-nav a[aria-current=page]{background:#52212b;border-color:#aa435e}
+.admin-page .forum-toolbar{font-size:13px;margin-bottom:18px}
+.admin-page .forum-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 20px}
+.admin-page .forum-stats>div{padding:16px;border:1px solid #49333c;border-radius:10px;background:#21171c}
+.admin-page .forum-stats dt{font-size:12px;color:#c0acb6}
+.admin-page .forum-stats dd{font-size:28px;margin:5px 0 0;font-weight:700}
+.admin-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:22px}
+.admin-shortcuts a{display:grid;gap:8px;padding:18px;border:1px solid #49333c;border-radius:10px;background:#21171c}
+.admin-shortcuts span{font-size:13px;font-weight:400;color:#c0acb6;line-height:1.6}
+.admin-page .forum-shell .issue-card{padding:18px;margin:0 0 16px}
+.admin-page .forum-shell .issue-form{gap:12px;margin-top:14px;align-content:start}
+.admin-page .forum-shell .issue-form label{margin:0;gap:6px;font-size:13px}
+.admin-page .forum-shell input:not([type=checkbox]){margin:0;min-height:42px;padding:10px 12px;font-size:14px}
+.admin-page .forum-shell .issue-form button{justify-self:start;width:auto;min-height:40px;padding:8px 16px}
+.admin-page .forum-shell details{margin:0;padding:0;border:0;background:transparent}
+.admin-page .forum-shell summary{font-size:15px;font-weight:650;padding:4px 28px 4px 0}
+.admin-page .forum-admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.admin-page .issue-error:empty,.admin-page #admin-feedback:empty{display:none}
+.admin-page .admin-member .issue-form{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}
+.admin-page .admin-member .issue-body{font-size:13px;margin:12px 0}
+@media(max-width:650px){.admin-page .forum-admin-grid,.admin-shortcuts{grid-template-columns:1fr}.admin-page .forum-admin-nav{gap:6px}.admin-page .forum-admin-nav a{padding:9px 12px;font-size:13px}}

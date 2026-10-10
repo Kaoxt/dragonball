@@ -114,3 +114,26 @@ body .site-header nav .account-nav-actions a.account-loading-preview{box-sizing:
 @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
  body .site-header nav .account-nav-actions a.account-loading-preview{width:100%;max-width:none;border:0;background:transparent;padding:8px 10px}
 }
+
+/* Compact account settings, independent of the shared game forms. */
+body .account-page{max-width:1000px;padding:28px 24px 48px}
+body .account-page .account-grid{gap:18px;align-items:start}
+body .account-page .account-card{padding:20px;margin-bottom:18px}
+body .account-page .account-card h2{font-size:19px;margin:0 0 16px}
+body .account-page .account-card form{gap:12px;align-content:start}
+body .account-page .account-card label{margin:0;gap:6px;font-size:13px}
+body .account-page .account-card input,body .account-page .account-card textarea{margin:0;min-height:42px;padding:10px 12px;font-size:14px;line-height:1.4}
+body .account-page .account-card input[type=checkbox]{min-height:18px;padding:0}
+body .account-page .account-card button{width:auto;justify-self:start;min-height:40px;margin:0;padding:8px 16px;font-size:13px}
+body .account-page .account-card small{margin:0;font-size:12px}
+body .account-page .account-card hr{border:0;border-top:1px solid #49333c;margin:20px 0}
+body .account-page .account-avatar-form{display:grid;grid-template-columns:60px minmax(0,1fr);gap:16px;align-items:start}
+body .account-page .account-avatar-preview{width:60px;height:60px;margin:0}
+.account-avatar-fields{display:grid;gap:10px;min-width:0}
+.account-form-actions{display:flex;gap:8px;flex-wrap:wrap}
+body .account-page input[type=file]{padding:7px;min-width:0;font-size:12px}
+body .account-page input::file-selector-button{background:#35272e;color:#fff;border:1px solid #63424f;border-radius:6px;padding:6px 9px;margin-right:8px}
+body .account-page .account-heading h1{font-size:27px;margin:4px 0}
+body .account-page .account-heading p{margin:4px 0}
+body .account-page .account-links{gap:10px 18px;margin:16px 0 22px;font-size:13px}
+@media(max-width:700px){body .account-page{padding:24px 16px}body .account-page .account-card{padding:16px}}
