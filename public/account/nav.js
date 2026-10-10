@@ -8,7 +8,7 @@
  const cacheKey='dragon:nav-preview';
  let busy=false,identity='',authVersion=0,refreshQueued=false;
  const cachePreview=value=>{try{if(value)sessionStorage.setItem(cacheKey,JSON.stringify(value));else sessionStorage.removeItem(cacheKey);}catch{}};
- const safeAvatar=value=>{if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(value||''))return value;try{const url=new URL(value);if(url.protocol==='https:')return url.href;}catch{}return '/assets/default-avatar-dragonball.webp';};
+ const safeAvatar=value=>{if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(value||''))return value;try{const url=new URL(value);if(url.protocol==='https:')return url.href;}catch{}return '/assets/default-avatar-dragonball-clean.webp';};
  function initialPreview(){
   let cached;try{cached=JSON.parse(sessionStorage.getItem(cacheKey));}catch{}
   const name=typeof cached?.name==='string'?cached.name.slice(0,100):'Account';
@@ -28,12 +28,12 @@
    const key=JSON.stringify([user.id,user.username,user.displayName,user.avatarUrl,user.isAdmin]);
    if(identity!==key){
     identity=key;
-    let avatar='/assets/default-avatar-dragonball.webp';
+    let avatar='/assets/default-avatar-dragonball-clean.webp';
     if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(user.avatarUrl||''))avatar=user.avatarUrl;
     else {try{const url=new URL(user.avatarUrl);if(url.protocol==='https:')avatar=url.href;}catch{}}
     actions.innerHTML='<details class="account-dropdown"><summary id="account-nav" aria-label="Account: '+esc(name)+'"><img class="account-trigger-avatar" src="'+esc(avatar)+'" width="30" height="30" alt="" referrerpolicy="no-referrer"><span class="account-trigger-name">'+esc(name)+'</span>'+chevron+'</summary><div class="account-dropdown-panel"><a class="account-menu-profile" href="/account/"><img src="'+esc(avatar)+'" width="48" height="48" alt="" referrerpolicy="no-referrer"><span><strong>'+esc(name)+'</strong></span>'+icon('m9 5 7 7-7 7')+'</a><div id="community-nav-alerts"></div><div class="account-menu-footer">'+(user.isAdmin?'<a class="account-menu-admin" href="/forums/admin/">Admin</a>':'')+'<button type="button" id="nav-logout">Log Out</button></div><p id="account-menu-error" role="alert" hidden></p></div></details>';
     syncAccountMode();
-    actions.querySelectorAll('img').forEach(image=>{image.onerror=()=>{image.onerror=null;image.src='/assets/default-avatar-dragonball.webp';};});
+    actions.querySelectorAll('img').forEach(image=>{image.onerror=()=>{image.onerror=null;image.src='/assets/default-avatar-dragonball-clean.webp';};});
     document.getElementById('nav-logout').onclick=async e=>{
      const button=e.currentTarget;button.disabled=true;const error=document.getElementById('account-menu-error');
      try{const r=await fetch('/api/auth/logout',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('Unable to log out. Please try again.');window.dispatchEvent(new Event('dragon:auth-signed-out'));}
