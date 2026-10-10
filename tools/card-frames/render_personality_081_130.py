@@ -43,7 +43,7 @@ def render_personality(c,rules,catalog):
     result,rails=templates();result=result.copy();d=ImageDraw.Draw(result)
     # Keep the approved frame, replacing every Goku-specific content region.
     d.polygon([(201,48),(974,48),(1003,73),(1003,114),(972,143),(201,143)],fill='#0951ce')
-    d.polygon([(78,56),(170,56),(189,76),(189,151),(61,151),(61,78)],fill='#090b0e')
+    d.rectangle((48,44,203,164),fill='#090b0e')
     path='public'+c['image'].split('?')[0]
     original=Image.open(io.BytesIO(source(path))).convert('RGB')
     # Recover only the illustration, excluding the obsolete power-stage UI.
@@ -55,8 +55,8 @@ def render_personality(c,rules,catalog):
     d.rectangle((77,1017,995,1322),fill='#090b0e')
     d.rectangle((77,1377,225,1414),fill='#090b0e')
     centered(result,c['name'].upper(),TITLE,92,598,100,756,4)
-    centered(result,str(data['level']),BODY,76,123,89,104)
-    centered(result,'LEVEL',BODY,25,123,135,104)
+    centered(result,str(data['level']),'/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf',80,127,89,106)
+    centered(result,'LEVEL',BODY,22,137,144,83)
     centered(result,'PUR',BODY,35,122,785,114)
     centered(result,str(data['pur']),BODY,70,122,835,114)
     # Low-opacity dark fills sit under separated, precisely aligned SVG rails.

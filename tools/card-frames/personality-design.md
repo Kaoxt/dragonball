@@ -8,8 +8,7 @@ to show the approved layout; that artwork still needs restoration when #158
 is reached.
 
 - Use blue for heroes and deep red for villains, never pink.
-- Keep the straight silver borders, clean corner joins, and squared lower
-  corners of the LEVEL badge. Do not introduce inset notches.
+- Keep the straight silver borders, clean corner joins, and an angular number panel with a separate, narrower LEVEL tab beneath it, per the October 10 reference. Keep the number bold and slightly oblique; center the label within the tab.
 - Keep the power-stage boxes toward the right, with visible clearance from
   the outer frame and separate, evenly spaced rows.
 - Use a restrained, matte scouter appearance with translucent dark panels.
