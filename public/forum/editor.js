@@ -415,7 +415,9 @@
         const show = preview.hidden;
         preview.hidden = !show;
         preview.innerHTML = render(input.value) || '<p>Nothing to preview yet.</p>';
-        toggle.textContent = show ? 'Close preview' : 'Preview';
+        toggle.innerHTML = show ? '<svg class="site-close-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m4 4 16 16M20 4 4 20"/></svg>' : 'Preview';
+        toggle.classList.toggle('site-close', show);
+        toggle.setAttribute('aria-label', show ? 'Close preview' : 'Preview');
         toggle.setAttribute('aria-pressed', String(show));
       };
       input.addEventListener('input', () => { if (!preview.hidden) preview.innerHTML = render(input.value); });
