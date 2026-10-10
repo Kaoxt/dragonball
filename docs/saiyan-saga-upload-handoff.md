@@ -1,8 +1,8 @@
 # Saiyan Saga continuation
 
-## Approved next batch: cards 11–20
+## Approved next batches: cards 11–30
 
-Cards 11–20 now use the approved 1060 × 1484 frame and judder-free SVG silver rails from cards 1–10, with blue, green, gray and gold accents. Dragon Ball labels have no sword; all Physical Combat cards share the approved sword and type strip. The immutable-source renderer `render-approved-range-011-030.py` fits existing artwork proportionally and uses the reviewed rules JSON with one 50px Nimbus Sans Bold body font. `saiyan-approved-vector-011-020.json` records exact assets and rules. User has explicitly authorized publishing cards 11–30 in this conversation; continue with 21–30 next, and stop after 30.
+Cards 11–30 now use the approved 1060 × 1484 frame and judder-free SVG silver rails from cards 1–10, with blue, green, gray and gold accents. Dragon Ball labels have no sword; all Physical Combat cards share the approved sword and type strip. The immutable-source renderer `render-approved-range-011-030.py` fits existing artwork proportionally and uses the reviewed rules JSON with one 50px Nimbus Sans Bold body font. `saiyan-approved-vector-011-020.json` and `saiyan-approved-vector-021-030.json` record exact assets and rules. User has explicitly authorized publishing cards 11–30 in this conversation; both ten-card batches are complete. Stop after 30; the next sequential card is 31.
 
 ## Latest approved test design: cards 1–10
 
