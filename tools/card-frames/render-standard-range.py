@@ -20,7 +20,7 @@ NUMFONT = ImageFont.truetype('DejaVuSans-Bold.ttf', 36)
 THEMES = {
     'Orange': ('#f0a000', '#d48a05', 1), 'Red': ('#e21d24', '#d80d16', 6),
     'Blue': ('#0096ed', '#0860b5', 11), 'Saiyan': ('#008b62', '#006e50', 18),
-    'Freestyle': ('#969da0', '#7b8286', 17), 'Black': ('#bdc8d2', '#626c7d', 17),
+    'Freestyle': ('#969da0', '#7b8286', 17), 'Black': ('#292c30', '#292c30', 17),
 }
 
 def source(path, ref):

@@ -8,7 +8,7 @@ from PIL import Image,ImageDraw,ImageFont
 import cairosvg
 R=Path(__file__).resolve().parents[2]
 B='#090d0e';G='#9ba6ab'
-THEMES={'Orange':('#f0a000','#d48a05'),'Red':('#e21d24','#ba131c'),'Blue':('#0096ed','#0860b5'),'Saiyan':('#008b62','#006e50'),'Freestyle':('#969da0','#626b70'),'Black':('#bdc8d2','#626c7d')}
+THEMES={'Orange':('#f0a000','#d48a05'),'Red':('#e21d24','#ba131c'),'Blue':('#0096ed','#0860b5'),'Saiyan':('#008b62','#006e50'),'Freestyle':('#969da0','#626b70'),'Black':('#292c30','#292c30')}
 def glyph(im,box):
  c=im.crop(box);a=np.asarray(c);mask=Image.fromarray(np.clip((a.min(2).astype(float)-160)*255/75,0,255).astype('uint8'));return mask
 
