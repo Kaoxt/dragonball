@@ -1346,7 +1346,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=09d5255769",
+    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=060d3d5bbd67",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1359,7 +1359,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=79aca848be",
+    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=5d606440e3ea",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1372,7 +1372,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=07446032f6",
+    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=fb1b19b8b770",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1385,7 +1385,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=fe9893d03f",
+    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=25e38c6f0dca",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -2048,7 +2048,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-158-goku.webp?v=56ae679325",
+    "image": "/assets/cards/saiyan-158-goku.webp?v=3b4456635e2d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2061,7 +2061,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-159-goku.webp?v=b8dff81ba6",
+    "image": "/assets/cards/saiyan-159-goku.webp?v=ed18f0131a69",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2074,7 +2074,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-160-goku.webp?v=b644f8cffb",
+    "image": "/assets/cards/saiyan-160-goku.webp?v=18a7ac55d11b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -3277,10 +3277,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=4acaecedf8",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=75627a563afb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P6-krillin-silver-variant",
@@ -3290,10 +3290,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=00ec63a9a2",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=462801aa9cf0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-0P7-nappa-silver-variant",
@@ -3303,9 +3303,9 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=532accbab7",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=4243807cdc55",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
-    "width": 1070,
-    "height": 1470
+    "width": 1060,
+    "height": 1484
   }
 ];
