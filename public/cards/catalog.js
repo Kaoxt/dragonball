@@ -2542,8 +2542,10 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-196-saiyan-honor-quest.webp?v=b48c4f203f",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-196-saiyan-honor-quest.webp?v=e11b1d44a0",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-197-saiyan-battle-terms",
@@ -2553,8 +2555,10 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-197-saiyan-battle-terms.webp?v=d6f1e684c6",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-197-saiyan-battle-terms.webp?v=5b46cf85de",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-198-saiyan-appraisal-manuever",
@@ -2564,8 +2568,10 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=d9e573d1a1",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=43ed183b6d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-199-dream-fighting",
@@ -2575,8 +2581,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-199-dream-fighting.webp?v=b93d2c4e80",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-199-dream-fighting.webp?v=0b854c52ab",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-200-cutting-the-tail",
@@ -2586,8 +2594,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-200-cutting-the-tail.webp?v=7acc34ee3b",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-200-cutting-the-tail.webp?v=74a09f418a",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-201-the-tail-grows-back",
@@ -2597,8 +2607,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-201-the-tail-grows-back.webp?v=cf70a08e1b",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-201-the-tail-grows-back.webp?v=09ef5e3cc8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-202-gokus-lucky-break",
@@ -2608,8 +2620,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-202-gokus-lucky-break.webp?v=68df0d6b2c",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-202-gokus-lucky-break.webp?v=7b1397d65d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-203-saiyan-truce-card",
@@ -2619,8 +2633,10 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=ffccbf6cff",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=ec4df14ace",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-204-battle-pausing",
@@ -2630,8 +2646,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-204-battle-pausing.webp?v=dc9346966b",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-204-battle-pausing.webp?v=1b07398b9d",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-205-grabbing-the-tail",
@@ -2641,8 +2659,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-205-grabbing-the-tail.webp?v=b2fa9b8c0b",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
+    "image": "/assets/cards/saiyan-205-grabbing-the-tail.webp?v=7f160a39eb",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-206-nappas-blinding-stare",

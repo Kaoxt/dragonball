@@ -1,0 +1,207 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 196,
+      "name": "Saiyan Honor Quest",
+      "type": "Non-Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-196-saiyan-honor-quest.webp",
+      "sha": "e11b1d44a0c75d80009fc73eec96362ac3e95de0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use when entering Combat as the",
+        "defender. Instead of drawing 3",
+        "cards from your life deck, draw the",
+        "bottom 3 cards from your discard",
+        "pile. Remove from the game after",
+        "use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 197,
+      "name": "Saiyan Battle Terms",
+      "type": "Non-Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-197-saiyan-battle-terms.webp",
+      "sha": "5b46cf85de0270b61cf8deac9b8b88f0117169b1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Remove a Non-Combat Card or ally from in front of another player from the game. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Remove a Non-Combat Card or ally",
+        "from in front of another player from",
+        "the game. Discard this card from",
+        "the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 198,
+      "name": "Saiyan Appraisal Maneuver",
+      "type": "Non-Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp",
+      "sha": "43ed183b6d9521f6d8c35dbb84f788cc6ccbb2b1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Name a Non-Combat card and foes with any in their decks must discard them from the game. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Name a Non-Combat card and foes",
+        "with any in their decks must discard",
+        "them from the game. Discard this",
+        "card from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 199,
+      "name": "Dream Fighting",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-199-dream-fighting.webp",
+      "sha": "0b854c52abf25cb0817cf3c4d9d55715422c5b00",
+      "width": 1060,
+      "height": 1484,
+      "rules": "End Combat. Place the bottom card of your discard pile at the bottom of your Life Deck. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "End Combat. Place the bottom card",
+        "of your discard pile at the bottom of",
+        "your Life Deck. Remove from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 200,
+      "name": "Cutting the Tail",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-200-cutting-the-tail.webp",
+      "sha": "74a09f418a4fee702fc36c937134e6e005d4c71e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Set your opponent’s anger at 0. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Set your opponent’s anger at 0.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 201,
+      "name": "The Tail Grows Back",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-201-the-tail-grows-back.webp",
+      "sha": "09ef5e3cc8c4f8c59f7ff7271263888cb911e144",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Increase the personality's power stage to its maximum level. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Increase the personality's power",
+        "stage to its maximum level. Discard",
+        "this card from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 202,
+      "name": "Goku's Lucky Break",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-202-gokus-lucky-break.webp",
+      "sha": "7b1397d65d450d354be1d378112c7d5db46a6dc3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Search your Life Deck for a Dragon Ball and place it in play. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Search your Life Deck for a Dragon",
+        "Ball and place it in play. Remove",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 203,
+      "name": "Saiyan Truce Card",
+      "type": "Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-203-saiyan-truce-card.webp",
+      "sha": "ec4df14ace409d23f8c694871a7f6630fdafabd8",
+      "width": 1060,
+      "height": 1484,
+      "rules": "End Combat. Until the Rejuvenation Step of your next turn, you may keep any cards in your hand during any Rejuvenation Steps. Remove from the game after use. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "End Combat. Until the Rejuvenation",
+        "Step of your next turn, you may",
+        "keep any cards in your hand during",
+        "any Rejuvenation Steps. Remove",
+        "from the game after use. Limit 1 per",
+        "deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 204,
+      "name": "Battle Pausing",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-204-battle-pausing.webp",
+      "sha": "1b07398b9def5d3f154e0dc43ca8e2db913443e3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Draw the top 2 cards from your discard pile. Your opponent’s Main Personality gains 5 power stages. Remove from game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Draw the top 2 cards from your",
+        "discard pile. Your opponent’s Main",
+        "Personality gains 5 power stages.",
+        "Remove from game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 205,
+      "name": "Grabbing the Tail",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-205-grabbing-the-tail.webp",
+      "sha": "7f160a39eb7778ee4cc0d969f8cc0799e0d8acc6",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the foe's power level by 4 stages, or to (0), whichever happens first. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the foe's power level by 4",
+        "stages, or to (0), whichever",
+        "happens first. Discard this card",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
