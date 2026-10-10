@@ -2,6 +2,8 @@
 
 ## Latest approved test design: cards 1–10
 
+The approved lower-corner cleanup is now applied to both sides of all ten cards. It removes the doubled gray rails and rough joins below the colored side tabs. Everything outside those corner regions is pixel-identical to the previous version. The renderer `tools/card-frames/apply-approved-corners-001-010.py` uses immutable source commit `f28f02145b9e1fde9fff21bdfb6a3820121948db` so it can be rerun safely.
+
 Cards #1–10 now use the user-approved Orange Arm Bar test frame with the exact reference footer, one shared sword on the right, and card numerals vertically centered at y=1351. These exports are 1060 × 1484 lossless WebP and supersede the earlier fixed-design exports for #1–10 only. #11 onward is unchanged. The shared frame and sword were verified by pixel comparison. `saiyan-approved-frame-001-010.json` records their image hashes and rules. Use #5 from this batch as the current visual master; do not rerun older renderers over these assets.
 
 ## Latest fixed design upload
