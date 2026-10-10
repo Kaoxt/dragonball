@@ -2087,7 +2087,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-161-piccolo.webp?v=6945ffcba8",
+    "image": "/assets/cards/saiyan-161-piccolo.webp?v=95f1062e57c1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2100,7 +2100,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-162-piccolo.webp?v=6177e529aa",
+    "image": "/assets/cards/saiyan-162-piccolo.webp?v=5859f5f80755",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2113,7 +2113,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-163-piccolo.webp?v=8e16279f72",
+    "image": "/assets/cards/saiyan-163-piccolo.webp?v=533de8c67962",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2126,7 +2126,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-164-gohan.webp?v=026585be0c",
+    "image": "/assets/cards/saiyan-164-gohan.webp?v=4bf2ddbf8b4e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2139,7 +2139,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-165-gohan.webp?v=525d418ccc",
+    "image": "/assets/cards/saiyan-165-gohan.webp?v=6f0287d04764",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2152,7 +2152,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-166-gohan.webp?v=def7660736",
+    "image": "/assets/cards/saiyan-166-gohan.webp?v=3338c97e55d8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2165,7 +2165,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-167-krillin.webp?v=da1df302e3",
+    "image": "/assets/cards/saiyan-167-krillin.webp?v=278e4111f3c2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2178,7 +2178,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-168-krillin.webp?v=33d50be827",
+    "image": "/assets/cards/saiyan-168-krillin.webp?v=c53ddcbc8082",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2191,7 +2191,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-169-krillin.webp?v=3f50e7efac",
+    "image": "/assets/cards/saiyan-169-krillin.webp?v=0936be09683b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
@@ -2204,7 +2204,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-170-raditz.webp?v=cb95bc1206",
+    "image": "/assets/cards/saiyan-170-raditz.webp?v=b6f8d999e538",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484
