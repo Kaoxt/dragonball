@@ -66,10 +66,10 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 }
 .forum-shell .forum-list-heading + .issue-note a{font-weight:600}
 
-/* Consistent forum links: bold white text, underlined on hover. */
+/* Consistent forum links: bold white text with a subtle gray hover. */
 body.community-page main .forum-shell a[href]:any-link{
- color:#fff;font-weight:700;text-decoration:none;text-underline-offset:3px;
+ color:#fff;font-weight:700;text-decoration:none;transition:color .15s ease;
 }
 body.community-page main .forum-shell a[href]:any-link:hover{
- color:#fff;text-decoration:underline;
+ color:#c9c9cd;text-decoration:none;
 }
