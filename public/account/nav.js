@@ -22,7 +22,7 @@
     let avatar='/assets/default-avatar-dragonball.webp';
     if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(user.avatarUrl||''))avatar=user.avatarUrl;
     else {try{const url=new URL(user.avatarUrl);if(url.protocol==='https:')avatar=url.href;}catch{}}
-    actions.innerHTML='<details class="account-dropdown"><summary id="account-nav" aria-label="Account: '+esc(name)+'"><img class="account-trigger-avatar" src="'+esc(avatar)+'" width="30" height="30" alt="" referrerpolicy="no-referrer"><span class="account-trigger-name">'+esc(name)+'</span>'+chevron+'</summary><div class="account-dropdown-panel"><a class="account-menu-profile" href="/account/"><img src="'+esc(avatar)+'" width="48" height="48" alt="" referrerpolicy="no-referrer"><span><strong>'+esc(name)+'</strong><small>Profile: '+esc(user.displayName||name)+'</small></span>'+icon('m9 5 7 7-7 7')+'</a><div id="community-nav-alerts"></div><div class="account-menu-footer">'+(user.isAdmin?'<a class="account-menu-admin" href="/forums/admin/">Admin</a>':'')+'<button type="button" id="nav-logout">Log Out</button></div><p id="account-menu-error" role="alert" hidden></p></div></details>';
+    actions.innerHTML='<details class="account-dropdown"><summary id="account-nav" aria-label="Account: '+esc(name)+'"><img class="account-trigger-avatar" src="'+esc(avatar)+'" width="30" height="30" alt="" referrerpolicy="no-referrer"><span class="account-trigger-name">'+esc(name)+'</span>'+chevron+'</summary><div class="account-dropdown-panel"><a class="account-menu-profile" href="/account/"><img src="'+esc(avatar)+'" width="48" height="48" alt="" referrerpolicy="no-referrer"><span><strong>'+esc(name)+'</strong></span>'+icon('m9 5 7 7-7 7')+'</a><div id="community-nav-alerts"></div><div class="account-menu-footer">'+(user.isAdmin?'<a class="account-menu-admin" href="/forums/admin/">Admin</a>':'')+'<button type="button" id="nav-logout">Log Out</button></div><p id="account-menu-error" role="alert" hidden></p></div></details>';
     syncAccountMode();
     actions.querySelectorAll('img').forEach(image=>{image.onerror=()=>{image.onerror=null;image.src='/assets/default-avatar-dragonball.webp';};});
     document.getElementById('nav-logout').onclick=async e=>{
@@ -36,7 +36,7 @@
    const count=n=>Math.max(0,Math.floor(Number(n)||0));
    const badge=n=>count(n)?'<span class="account-badge">'+count(n)+'</span>':'';
    const markup='<a href="/forums/#messages">'+message+'<span>Messages</span>'+badge(counts.messages)+'</a><a href="/forums/#notifications">'+bell+'<span>Notifications</span>'+badge(counts.notifications)+'</a>';
-   document.getElementById('community-nav-alerts').innerHTML=markup;
+   document.getElementById('community-nav-alerts').innerHTML=markup+'<a href="/account/">'+icon('M20 21v-2a7 7 0 0 0-14 0v2M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0')+'<span>Account</span></a>';
    const fa=document.getElementById('forum-alerts');if(fa){fa.hidden=false;fa.innerHTML=markup;}
    const toggle=document.getElementById('nav-toggle'),total=count(counts.messages)+count(counts.notifications);
    let mobile=document.getElementById('mobile-alert-count');if(toggle&&total){if(!mobile){mobile=document.createElement('span');mobile.id='mobile-alert-count';mobile.className='account-badge';toggle.append(mobile);}mobile.textContent=String(total);}else mobile?.remove();

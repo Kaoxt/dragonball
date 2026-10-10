@@ -269,3 +269,20 @@ test('News imports the three original articles as Kurt once and shares announcem
  await f.forum('kaoxt',{action:'topicModerate',id:fresh.data.id,categoryId:4,hidden:true,locked:false,pinned:false});
  assert.equal((await f.forum(null,null,{view:'news'})).data.articles.some(t=>t.id===fresh.data.id),false);
 });
+
+test('public deck links expose only opted-in decks and are revoked on privacy changes or deletion',async()=>{
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const call=async(who,data,share)=>{const r=await decksRequest(new Request('https://dragonball.test/api/decks'+(share?'?share='+encodeURIComponent(share):''),{method:data?'POST':'GET',headers:{Cookie:f.cookies[who]||'',Origin:'https://dragonball.test','Content-Type':'application/json'},...(data?{body:JSON.stringify(data)}:{})}),f.env);return {status:r.status,data:await r.json()};};
+ const owner=(await call('alice')).data;
+ const deck={id:'share-test',name:'Public test',visibility:'private',tokui:'',personalities:[null,null,null,null,null],cards:[],senseiDeck:[],mastery:null,sensei:null};
+ let version=0;const save=async decks=>{const r=await call('alice',{userId:owner.userId,version,data:{decks,active:decks[0]?.id||null}});assert.equal(r.status,200);version=r.data.version;return r.data;};
+ assert.deepEqual((await save([deck])).shares,{});
+ assert.equal((await call(null,null,deck.id)).status,404);
+ deck.visibility='public';const id=(await save([deck])).shares[deck.id];assert.ok(id);
+ const publicResult=await call(null,null,id);assert.equal(publicResult.status,200);assert.equal(publicResult.data.deck.name,deck.name);assert.deepEqual(Object.keys(publicResult.data),['deck']);
+ assert.equal((await call('bob',{userId:owner.userId,version,data:{decks:[],active:null}})).status,409);
+ deck.name='Updated public deck';assert.equal((await save([deck])).shares[deck.id],id);assert.equal((await call(null,null,id)).data.deck.name,deck.name);
+ deck.visibility='private';await save([deck]);assert.equal((await call(null,null,id)).status,404);
+ deck.visibility='public';const newId=(await save([deck])).shares[deck.id];assert.notEqual(newId,id);
+ await save([]);assert.equal((await call(null,null,newId)).status,404);
+});

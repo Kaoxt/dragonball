@@ -1,6 +1,6 @@
 export const STORAGE_KEY = 'score-builder-v1';
 export function createDeck() {
-  return {id: crypto.randomUUID(), name: 'Untitled deck', tokui: '', personalities: [null,null,null,null,null], mastery: null, sensei: null, cards: [], senseiDeck: []};
+  return {id: crypto.randomUUID(), name: 'Untitled deck', visibility: 'private', tokui: '', personalities: [null,null,null,null,null], mastery: null, sensei: null, cards: [], senseiDeck: []};
 }
 export function readDecks() {
   const raw = localStorage.getItem(STORAGE_KEY);

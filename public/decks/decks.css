@@ -9,3 +9,5 @@ body.deck-builder{background:#120f11;background-image:radial-gradient(ellipse at
 .deck-builder .browse-card-actions .remove-card{background:#1b1519;border:1px solid #463039;color:#c8b7bf}
 .deck-builder .browse-card-actions .remove-card:hover:not(:disabled){background:#30242b;color:#f5eff2}
 .deck-builder .browse-card-actions .remove-card:disabled{opacity:.35;cursor:not-allowed}
+
+.shared-card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:16px}.shared-card-grid figure{margin:0;min-width:0}.shared-card-grid img{width:100%;height:auto;border-radius:7px}.shared-card-grid figcaption{font-size:13px;margin-top:7px;overflow-wrap:anywhere}#shared-deck>.account-card{margin-top:24px}
