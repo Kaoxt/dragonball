@@ -1177,7 +1177,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=9f84b1d5e5",
+    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=efade77369",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1190,7 +1190,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=1df29de97b",
+    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=e8b1bda987",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1203,7 +1203,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=a418a10afe",
+    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=fe7b2bf824",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1216,7 +1216,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=ac15c4a635",
+    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=aa7cabecca",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1229,7 +1229,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=a12a6bf9c1",
+    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=8d479383e0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1242,7 +1242,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=bfbccbdc84",
+    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=c6c06030f2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1255,7 +1255,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-097-power-up-more.webp?v=d2aad47a76",
+    "image": "/assets/cards/saiyan-097-power-up-more.webp?v=87d9cad570",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1268,7 +1268,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-098-power-up-the-most.webp?v=697774461a",
+    "image": "/assets/cards/saiyan-098-power-up-the-most.webp?v=0908597e72",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1281,7 +1281,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-099-blazing-anger.webp?v=5e02425a7c",
+    "image": "/assets/cards/saiyan-099-blazing-anger.webp?v=6f1eda8a59",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1294,7 +1294,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=f94ff0cee8",
+    "image": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=b9784bb326",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
