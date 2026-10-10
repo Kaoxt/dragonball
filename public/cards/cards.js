@@ -2,7 +2,22 @@ import {catalog} from './catalog.js';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) $(''+key).add(new Option(value,value));
+// Each collection can supply its own themed wordmark here.
+const collectionBranding = {
+ 'saiyan saga': {image:'/assets/sets/saiyan-saga-logo.webp', name:'Saiyan Saga'}
+};
+function renderCollectionBrand(){
+ const sets=[...new Set(catalog.map(card=>card.set))];
+ const selected=$('set').value || (sets.length===1?sets[0]:'');
+ const brand=collectionBranding[selected.toLowerCase()];
+ const logo=$('collection-logo'), title=$('collection-name');
+ logo.hidden=!brand;
+ title.hidden=!!brand;
+ if(brand){logo.src=brand.image;logo.alt=brand.name;}
+ else title.textContent=selected || 'All Collections';
+}
 function render(){
+ renderCollectionBrand();
  const query=normalize($('query').value.trim());
  const cards=catalog.filter(c=>normalize(`${c.name} ${c.number} ${c.id}`).includes(query)&&['set','type','style'].every(key=>!$(key).value||c[key]===$(key).value));
  cards.sort((a,b)=>$('sort').value==='number'?a.number.localeCompare(b.number,undefined,{numeric:true}):a.name.localeCompare(b.name));
