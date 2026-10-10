@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const drafts = new WeakMap();
-  const defaultAvatar = '/assets/default-avatar-shenron.webp';
+  const defaultAvatar = '/assets/default-avatar-dragonball.webp';
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function avatar(author, url, color) {
     let safe = /^\/api\/avatars\/[0-9a-f-]{36}$/.test(url || '') ? url : ''; try { const u = new URL(url); if(u.protocol === 'https:') safe = u.href; } catch {}
