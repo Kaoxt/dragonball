@@ -2,6 +2,8 @@
 
 ## Latest approved test design: cards 1–10
 
+The latest approved #1–10 export uses connected silver title/footer rails and a continuous colored stepped stripe beside Physical Combat. Orange Arm Bar #5 has a fresh clean Raditz portrait. All ten are assembled from `tools/card-frames/approved-connected-frame-raditz.png` by `tools/card-frames/render-connected-frame-001-010.py`, preserving the published rules, existing title glyphs and artwork on the other nine cards. Frame pixels are identical within each color group. This supersedes the lower-corner-only renderer below; do not rerun the older renderer over these assets.
+
 The approved lower-corner cleanup is now applied to both sides of all ten cards. It removes the doubled gray rails and rough joins below the colored side tabs. Everything outside those corner regions is pixel-identical to the previous version. The renderer `tools/card-frames/apply-approved-corners-001-010.py` uses immutable source commit `f28f02145b9e1fde9fff21bdfb6a3820121948db` so it can be rerun safely.
 
 Cards #1–10 now use the user-approved Orange Arm Bar test frame with the exact reference footer, one shared sword on the right, and card numerals vertically centered at y=1351. These exports are 1060 × 1484 lossless WebP and supersede the earlier fixed-design exports for #1–10 only. #11 onward is unchanged. The shared frame and sword were verified by pixel comparison. `saiyan-approved-frame-001-010.json` records their image hashes and rules. Use #5 from this batch as the current visual master; do not rerun older renderers over these assets.
