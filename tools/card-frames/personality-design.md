@@ -19,6 +19,12 @@ is reached.
   art and background separately when updating that card.
 - Work from vector geometry and immutable source images so repeated edits
   do not accumulate distorted lines.
+- Artwork framing: use `restore-personality-framing.py` for the existing
+  personalities. The recovered 721 × 579 illustration fits the 761 × 593
+  visible window beside the scouter. Never enlarge that crop to the full
+  994px artwork-plus-scouter width: it zooms and truncates the character.
+  Keep a matte backing behind the stage column, render the existing SVG
+  paths on top, and preserve every pixel outside the artwork mask.
 
 Cards #21–70 contain no personalities. Their renderer rejects personality
 cards, so this template must be applied deliberately in later batches.

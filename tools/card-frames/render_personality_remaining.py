@@ -56,9 +56,9 @@ def render_personality(c,rules,catalog):
     path='public'+c['image'].split('?')[0]
     original=Image.open(io.BytesIO(source(path))).convert('RGB')
     # Recover only the illustration, excluding the obsolete power-stage UI.
-    art=ImageOps.fit(original.crop((63,166,784,745)),(994,638),Image.Resampling.LANCZOS,centering=(0.5,1 if n==85 else 0))
+    art=ImageOps.fit(original.crop((63,166,784,745)),(761,593),Image.Resampling.LANCZOS,centering=(0.5,0.5))
     mask=Image.new('L',(1070,1470));ImageDraw.Draw(mask).polygon([(63,166),(1005,166),(1005,298),(1033,280),(1033,702),(1005,730),(1005,748),(982,803),(796,803),(746,759),(80,759),(40,704),(40,298),(63,288)],fill=255)
-    canvas=Image.new('RGB',(1070,1470));canvas.paste(art,(40,120 if n==85 else 166));result.paste(canvas,(0,0),mask)
+    canvas=Image.new('RGB',(1070,1470),'#170b10' if villain else '#091522');canvas.paste(art,(40,166));result.paste(canvas,(0,0),mask)
     d=ImageDraw.Draw(result)
     d.polygon([(61,761),(182,761),(205,784),(205,837),(175,869),(64,869),(37,841),(37,789)],fill='#090b0e')
     d.rectangle((77,1017,995,1322),fill='#090b0e')
@@ -75,7 +75,7 @@ def render_personality(c,rules,catalog):
     panel=[]
     for j,value in enumerate(reversed(data['stages'])):
         y=179.5+j*55.4
-        panel.append(f'<path d="M820 {y} H995 V{y+30.5} L977 {y+48.5} H801 V{y+18} Z" fill="{'#2c0b13' if villain else '#071e36'}" fill-opacity="0.89"/>')
+        panel.append(f'<path d="M820 {y} H995 V{y+30.5} L977 {y+48.5} H801 V{y+18} Z" fill="{'#2c0b13' if villain else '#071e36'}" fill-opacity="1"/>')
     result=Image.alpha_composite(result,svg_image('<svg xmlns="http://www.w3.org/2000/svg" width="1070" height="1470">'+''.join(panel)+'</svg>'))
     for j,value in enumerate(reversed(data['stages'])):
         centered(result,f'{value:,}',BODY,34,900,204+j*55.4,170,1)

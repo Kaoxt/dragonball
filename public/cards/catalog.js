@@ -1060,7 +1060,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=3aae6816fc",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=8873a1841a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1073,7 +1073,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=a8b9037a8a",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=6c2b924293",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1086,7 +1086,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=a19b7dfdaf",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=c294952b93",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1099,7 +1099,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=02fbfa966f",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=a16b723bff",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1112,7 +1112,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=99a239ad67",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=28d5f1ca00",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1125,7 +1125,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=45cbb9cb9d",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=6041f4cd68",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1346,7 +1346,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=2c7ab078b7",
+    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=09d5255769",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1359,7 +1359,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=5085088b88",
+    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=79aca848be",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1372,7 +1372,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=b0bf468948",
+    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=07446032f6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1385,7 +1385,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=977472f63c",
+    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=fe9893d03f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
