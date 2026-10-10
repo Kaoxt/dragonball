@@ -1567,7 +1567,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=c4452f9b57",
+    "image": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=825fd89056",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1580,7 +1580,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=40f68722b9",
+    "image": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=e5d087c6e3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1593,7 +1593,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=f3a6abdc7a",
+    "image": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=ef51190b4e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1606,7 +1606,7 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=0eecaf0329",
+    "image": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=e67629e5d8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1619,7 +1619,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=5f029280f0",
+    "image": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=5874bf6af9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1632,7 +1632,7 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=c27a8a5e94",
+    "image": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=3e1e1acd70",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1645,7 +1645,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=53c11a17fc",
+    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=c8ffe48dd4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1658,7 +1658,7 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-128-red-knee-pick-drill.webp?v=d550140d6a",
+    "image": "/assets/cards/saiyan-128-red-knee-pick-drill.webp?v=ab399d2668",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1671,7 +1671,7 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-129-blue-deceiving-drill.webp?v=b042b0e93f",
+    "image": "/assets/cards/saiyan-129-blue-deceiving-drill.webp?v=096e338e33",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1684,7 +1684,7 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=114ddf304e",
+    "image": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=19d3eeffe5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
