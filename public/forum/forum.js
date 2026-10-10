@@ -7,10 +7,10 @@
   const backIcon='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14"/></svg>';
   const back=(href=pagePath,label=newsPage?'All news':'All forums')=>`<a class="forum-back" href="${href}">${backIcon}<span>${esc(label)}</span></a>`;
   const releaseField=(value='')=>`<label>GitHub release URL (optional)<input name="releaseUrl" type="url" maxlength="2048" placeholder="https://github.com/owner/repo/releases/tag/v1.0" value="${esc(value)}"></label>`;
-  const releaseLink=post=>post.category_id===4&&post.github_release_url?`<a class="news-github-link" href="${esc(post.github_release_url)}" target="_blank" rel="noopener noreferrer">Open on GitHub <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>`:'';
+  const releaseLink=post=>post.category_id===4&&post.github_release_url?`<a class="news-github-link" href="${esc(post.github_release_url)}" target="_blank" rel="noopener noreferrer">Open on GitHub <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg></a>`:'';
   const articleLink=post=>{
     const match=post.body.match(/\[([^\]]+)\]\(https:\/\/dragonballocg\.com(\/(?:decks|cards|rulebook)\/)\)/);
-    return match?`<a href="${esc(match[2])}">${esc(match[1])} <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>`:'';
+    return match?`<a href="${esc(match[2])}">${esc(match[1])} <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg></a>`:'';
   };
   const rich=body=>window.DragonForumEditor.render(body);
   const editors=()=>window.DragonForumEditor.attach(root);
