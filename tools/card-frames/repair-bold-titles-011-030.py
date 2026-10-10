@@ -7,7 +7,7 @@ Font: Google Fonts Teko, OFL; static instance of weight 700.
 from pathlib import Path
 import argparse, hashlib, importlib.util, io, json, re, subprocess
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw
 
 HERE = Path(__file__).parent
 ROOT = HERE.parents[1]
@@ -33,9 +33,13 @@ def main():
         panel = renderer.svg_layer(f'<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1484"><path d="M110 77L123 87H936L949 77L979 105V132L947 164H112L81 132V105Z" fill="{color}"/></svg>')
         title = renderer.lettering(card['name'].upper(),renderer.TITLE_FONT,74,865,stroke=5)
         result = Image.alpha_composite(original,panel)
+        # The old wide lettering can leave a one-pixel antialias fringe along
+        # the flat inner edge. Clear it fully below the black rail at y=86.
+        ImageDraw.Draw(result).rectangle((125,87,935,91),fill=color)
         result.alpha_composite(title,(round((1060-title.width)/2),round(122-title.height/2)))
         # Copy only the inner panel; even antialiased border pixels are retained.
         mask = np.array(panel)[:,:,3] == 255
+        mask[87:92,125:936] = True
         out = np.array(original.convert('RGB'))
         changed = np.array(result.convert('RGB'))
         out[mask] = changed[mask]
