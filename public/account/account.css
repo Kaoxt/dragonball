@@ -30,3 +30,42 @@ body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link
 @media(max-width:900px){#community-nav-alerts{display:grid;grid-template-columns:1fr 1fr;width:100%}}
 
 .account-avatar-preview{object-fit:cover;border-radius:50%;display:block;margin:12px 0}
+
+/* Compact account trigger; account actions live in its anchored panel. */
+body .site-header nav .account-nav-actions{position:relative;min-width:0;flex:0 0 auto}
+.account-dropdown{position:relative;min-width:0}
+body .site-header .account-dropdown>summary{display:flex;align-items:center;gap:7px;min-height:42px;max-width:130px;padding:10px 8px;list-style:none;cursor:pointer;color:#fff;font:600 13px/1.3 system-ui,sans-serif}
+.account-dropdown>summary::-webkit-details-marker{display:none}
+.account-dropdown>summary::after{display:none}
+.account-trigger-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.account-dropdown>summary svg{width:15px;height:15px;flex:none;transition:transform .15s}
+.account-dropdown[open]>summary svg{transform:rotate(180deg)}
+.account-dropdown>summary:focus-visible{outline:2px solid #ffa1ad;outline-offset:3px;border-radius:8px}
+body .site-header .account-dropdown-panel{position:absolute;top:calc(100% + 16px);right:0;width:320px;max-width:calc(100vw - 40px);padding:12px;background:#151315;border:1px solid #42363c;border-radius:18px;box-shadow:0 20px 50px #0009;z-index:20;max-height:calc(100dvh - 120px);overflow-y:auto}
+body .site-header nav .account-dropdown-panel a{max-width:none;white-space:normal;justify-content:flex-start;border:0;background:transparent;box-shadow:none;padding:12px;border-radius:10px;font-size:14px}
+body .site-header nav .account-dropdown-panel a:hover{background:#2b2026;color:#fff}
+body .site-header nav .account-dropdown-panel .account-menu-profile{display:flex;gap:12px;padding:10px 8px 18px}
+.account-menu-profile img{border-radius:50%;object-fit:cover;flex:none}
+.account-menu-profile>span{flex:1;min-width:0}
+.account-menu-profile strong,.account-menu-profile small{display:block;overflow-wrap:anywhere}
+.account-menu-profile strong{font-size:16px;color:#fff}
+.account-menu-profile small{margin-top:4px;font-size:12px;color:#aca3a8;font-weight:400}
+.account-menu-profile>svg{flex:none}
+body .site-header #community-nav-alerts{display:grid;grid-template-columns:1fr;gap:3px}
+body .site-header #community-nav-alerts a{gap:12px}
+#community-nav-alerts a>span:not(.account-badge){flex:1}
+body .site-header .account-menu-footer{display:flex;justify-content:flex-end;gap:9px;margin-top:12px;padding-top:14px;border-top:1px solid #393036}
+body .site-header nav .account-menu-footer a,body .site-header .account-menu-footer button{width:auto;min-height:40px;padding:9px 15px;border:1px solid #4b4046;border-radius:12px;background:#211d20;color:#fff;font:600 13px/1.3 system-ui,sans-serif;box-shadow:none}
+body .site-header nav .account-menu-footer .account-menu-admin{background:#38202a;border-color:#713749}
+body .site-header .account-menu-footer button:hover{background:#35282e}
+#account-menu-error{font-size:12px;color:#ffb8c5;margin:12px 8px 0}
+@media(max-width:1200px){
+ body .site-header nav .account-dropdown>summary{max-width:none;padding:8px 12px}
+ body .site-header .account-dropdown-panel{position:static;width:100%;max-width:none;max-height:60dvh;margin-top:8px;box-shadow:none;box-sizing:border-box}
+}
+
+@media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
+ body .site-header nav .account-nav-actions{display:flex;margin:0 0 0 4px;padding:0 0 0 8px;border-top:0;border-left:1px solid #52333e}
+ body .site-header nav .account-dropdown>summary{max-width:110px;padding:8px 4px}
+ body .site-header .account-dropdown-panel{position:absolute;top:calc(100% + 14px);right:0;width:300px;max-width:calc(100vw - 40px);margin:0;max-height:calc(100dvh - 110px);box-shadow:0 20px 50px #0009}
+}

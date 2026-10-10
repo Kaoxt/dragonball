@@ -17,3 +17,24 @@ body h1.page-wordmark{max-width:100%;line-height:1;font-size:0;letter-spacing:0;
 .page-wordmark img{display:block;width:auto;max-width:100%;height:clamp(44px,6vw,68px);object-fit:contain;object-position:left center;filter:url('/assets/navigation-edge.svg#crisp');image-rendering:auto}
 .forums-placeholder .page-wordmark img{object-position:center}
 @media print{.page-wordmark img{filter:brightness(0)}}
+
+/* Fit all navigation items and the compact account trigger inside the bar. */
+@media(min-width:1201px) and (max-width:1450px){
+ body .site-header{gap:12px;padding-left:16px}
+ body .site-header .brand-logo{width:155px}
+ body .site-header nav{min-width:0}
+ body .site-header nav>a,body .site-header nav>a[aria-current=page]{padding:8px 5px}
+ body .site-header .nav-wordmark{height:22px;width:auto}
+ body .site-header nav .account-nav-actions{margin-left:4px;padding-left:8px}
+}
+@media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
+ body .site-header{gap:8px;padding:6px 12px}
+ body .site-header .brand-logo{width:125px;height:50px}
+ body .site-header #nav-toggle{display:none}
+ body .site-header nav,body .site-header nav.is-open{display:flex;position:static;flex-direction:row;align-items:center;min-width:0;gap:1px;padding:0;background:transparent;border:0;box-shadow:none}
+ body .site-header nav>a,body .site-header nav>a[aria-current=page]{justify-content:center;padding:8px 4px;min-height:42px}
+ body .site-header .nav-wordmark{height:18px;width:auto}
+ body .site-header nav .account-nav-actions{display:flex;margin:0 0 0 4px;padding:0 0 0 8px;border-top:0;border-left:1px solid #52333e}
+ body .site-header nav .account-dropdown>summary{max-width:110px;padding:8px 4px}
+ body .site-header .account-dropdown-panel{position:absolute;top:calc(100% + 14px);right:0;width:300px;max-width:calc(100vw - 40px);margin:0;max-height:calc(100dvh - 110px);box-shadow:0 20px 50px #0009}
+}
