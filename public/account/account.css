@@ -81,3 +81,8 @@ body .site-header .account-menu-footer button:hover{background:#35282e}
 @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
  body .site-header nav .account-dropdown>summary{max-width:145px}
 }
+
+/* The account pill provides its own separation in landscape navigation. */
+@media(orientation:landscape){
+ body .site-header nav .account-nav-actions{border-left:0;border-top:0;padding-left:0}
+}
