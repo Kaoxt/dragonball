@@ -2,14 +2,13 @@ import {encodeDeck,decodeDeck} from './deck-code.js';
 import {count,deckSize} from './store.js';
 
 const $=id=>document.getElementById(id);
-function star(ctx,x,y,r){ctx.beginPath();for(let i=0;i<10;i++){const a=i*Math.PI/5-Math.PI/2,rr=i%2?r*.42:r;ctx.lineTo(x+Math.cos(a)*rr,y+Math.sin(a)*rr);}ctx.closePath();ctx.fill();}
 export async function drawDeckImage(deck){
  const [{default:qrcode},code]=await Promise.all([import('./vendor/qrcode.js'),encodeDeck(deck)]);
  const qr=qrcode(0,'M');qr.addData(code,'Byte');qr.make();
- const canvas=document.createElement('canvas');canvas.width=1080;canvas.height=1560;
+ const canvas=document.createElement('canvas');canvas.width=1080;canvas.height=1500;
  const ctx=canvas.getContext('2d');
- const bg=ctx.createLinearGradient(0,0,1080,1560);bg.addColorStop(0,'#431423');bg.addColorStop(.5,'#160e13');bg.addColorStop(1,'#271019');ctx.fillStyle=bg;ctx.fillRect(0,0,1080,1560);
- ctx.strokeStyle='#98354d';ctx.lineWidth=3;ctx.strokeRect(25,25,1030,1510);
+ const bg=ctx.createLinearGradient(0,0,1080,1500);bg.addColorStop(0,'#431423');bg.addColorStop(.5,'#160e13');bg.addColorStop(1,'#271019');ctx.fillStyle=bg;ctx.fillRect(0,0,1080,1500);
+ ctx.strokeStyle='#98354d';ctx.lineWidth=3;ctx.strokeRect(25,25,1030,1450);
  ctx.textAlign='center';ctx.fillStyle='#ed9aab';ctx.font='600 24px sans-serif';ctx.fillText('DRAGON BALL ONLINE',540,95);
  ctx.fillStyle='#fff';ctx.font='900 italic 70px sans-serif';ctx.fillText('DECK TRANSMISSION',540,183,960);
  ctx.fillStyle='#ffba55';ctx.font='600 26px sans-serif';ctx.fillText('BUILD • SHARE • BATTLE',540,237);
@@ -19,8 +18,7 @@ export async function drawDeckImage(deck){
  const modules=qr.getModuleCount(),scale=Math.floor(940/(modules+8)),size=(modules+8)*scale,left=Math.floor((1080-size)/2),top=447;
  ctx.fillStyle='#fff';ctx.fillRect(left,top,size,size);ctx.fillStyle='#111';
  for(let row=0;row<modules;row++)for(let col=0;col<modules;col++)if(qr.isDark(row,col))ctx.fillRect(left+(col+4)*scale,top+(row+4)*scale,scale,scale);
- for(let n=1;n<=7;n++){const x=282+(n-1)*86,y=1422;const ball=ctx.createRadialGradient(x-9,y-12,2,x,y,28);ball.addColorStop(0,'#ffe18b');ball.addColorStop(1,'#ed8615');ctx.fillStyle=ball;ctx.beginPath();ctx.arc(x,y,27,0,Math.PI*2);ctx.fill();ctx.fillStyle='#a42b24';for(let i=0;i<n;i++){const a=i*Math.PI*2/n;star(ctx,x+(n===1?0:13*Math.cos(a)),y+(n===1?0:13*Math.sin(a)),5);}}
- ctx.fillStyle='#fff';ctx.font='24px sans-serif';ctx.fillText('Import deck image at dragonballocg.com/decks',540,1492);
+ ctx.fillStyle='#fff';ctx.font='24px sans-serif';ctx.fillText('Import deck image at dragonballocg.com/decks',540,1432);
  return canvas;
 }
 
