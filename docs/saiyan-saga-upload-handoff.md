@@ -1,5 +1,11 @@
 # Saiyan Saga continuation
 
+## Current task: cards 31–80 approved for publication
+
+The user requested the next 50 cards after the linked chat completed 11–30. The five batches are 31–40, 41–50, 51–60, 61–70 and 71–80. All use the approved 1060 × 1484 master, identical SVG silver rails, Teko Bold 700 titles (74 px with 5 px black outline), fixed 50 px body type, and lossless WebP. Renderer: `tools/card-frames/render-approved-range-031-080.py`. Each batch has its own `docs/saiyan-approved-vector-NNN-NNN.json` manifest. Cards 71–80 rules were transcribed from the existing published images; 31–70 retain reviewed rules JSON. Existing source artwork is fitted proportionally once. No cards outside 31–80 or catalog entries were changed.
+
+The user explicitly authorized publishing all 50 cards to `Kaoxt/dragonball` main in five ten-card batches on October 9, 2026. This approval resolves the earlier automatic-review block. Verify Cloudflare deployment and all 50 live image hashes after publishing. Previous live head: `4209d2696ca98cec21d090cdd48bfc7ea1fac720`.
+
 ## Approved next batches: cards 11–30
 
 Cards 11–30 now use the approved 1060 × 1484 frame and judder-free SVG silver rails from cards 1–10, with blue, green, gray and gold accents. Dragon Ball labels have no sword; all Physical Combat cards share the approved sword and type strip. The immutable-source renderer `render-approved-range-011-030.py` fits existing artwork proportionally and uses the reviewed rules JSON with one 50px Nimbus Sans Bold body font. `saiyan-approved-vector-011-020.json` and `saiyan-approved-vector-021-030.json` record exact assets and rules. User has explicitly authorized publishing cards 11–30 in this conversation; both ten-card batches are complete. Stop after 30; the next sequential card is 31.

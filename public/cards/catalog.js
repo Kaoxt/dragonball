@@ -917,8 +917,10 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=5244964e6e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=d2d8eb39c7",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-072-black-axe-heel-kick",
@@ -928,8 +930,10 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=8fb7c4a427",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=71ee93551f",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-073-black-rear-spin-kick",
@@ -939,8 +943,10 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=c4d3d9018e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=c374763eaf",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-074-black-jump-turn-kick",
@@ -950,8 +956,10 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=e0a487756b",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=bbbcff4269",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-075-earth-dragon-ball-3",
@@ -961,8 +969,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=95644c78e0",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=1174dd5190",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-076-earth-dragon-ball-4",
@@ -972,8 +982,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=80beccc3f6",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=591e04c836",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-077-earth-dragon-ball-5",
@@ -983,8 +995,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=a7ab37e36a",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=b5964156c3",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-078-roshis-training",
@@ -994,8 +1008,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-078-roshis-training.webp?v=46dda1e6b7",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-078-roshis-training.webp?v=d5abf60ae8",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-079-king-kai-training",
@@ -1005,8 +1021,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-079-king-kai-training.webp?v=a1f9fc220e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-079-king-kai-training.webp?v=40765b47db",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-080-saiyan-training",
@@ -1016,8 +1034,10 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=89918d5418",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/"
+    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=ecf0a4948c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-081-saiyan-armor",

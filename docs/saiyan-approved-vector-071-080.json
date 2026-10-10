@@ -1,0 +1,200 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 71,
+      "name": "Black Back Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-071-black-back-kick.webp",
+      "sha": "d2d8eb39c7007a08b4478542c5897d1c6efb7323",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack doing 6 life card draws of damage and costing 5 power stages to perform. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack doing 6 life card",
+        "draws of damage and costing 5",
+        "power stages to perform. Raise",
+        "card user's anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 72,
+      "name": "Black Axe Heel Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-072-black-axe-heel-kick.webp",
+      "sha": "71ee93551f37f4012e66ba982090d212796555ca",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a foe's energy attack. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a foe's energy attack. Raise",
+        "card user's anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 73,
+      "name": "Black Rear Spin Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-073-black-rear-spin-kick.webp",
+      "sha": "c374763eaf2c1f50705a3ffea92de246d6019a79",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a foe's energy attack. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a foe's energy attack. Raise",
+        "card user's anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 74,
+      "name": "Black Jump Turn Kick",
+      "type": "Energy Combat",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-074-black-jump-turn-kick.webp",
+      "sha": "bbbcff42698869eec4d2063754eff8588ba56501",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy Attack. Raise card user's anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy Attack. Raise card user's",
+        "anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 75,
+      "name": "Earth Dragon Ball 3",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-075-earth-dragon-ball-3.webp",
+      "sha": "1174dd5190feec1d6b5d3b9bde3976e1dba871d1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Draw three cards and place the top discarded card at the bottom of your life deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Draw three cards and place the top",
+        "discarded card at the bottom of",
+        "your life deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 76,
+      "name": "Earth Dragon Ball 4",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-076-earth-dragon-ball-4.webp",
+      "sha": "591e04c836669876e155379b17e9c85a70097440",
+      "width": 1060,
+      "height": 1484,
+      "rules": "End the very next combat you are forced into before you sustain damage. Your anger level increases 2.",
+      "body_font_px": 50,
+      "body_lines": [
+        "End the very next combat you are",
+        "forced into before you sustain",
+        "damage. Your anger level increases",
+        "2."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 77,
+      "name": "Earth Dragon Ball 5",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-077-earth-dragon-ball-5.webp",
+      "sha": "b5964156c30e48583889b686087c44e8397868a7",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Raise any one of your personalities to his highest power stage. Raise your anger 2 levels. Draw 2 cards. Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Raise any one of your personalities",
+        "to his highest power stage. Raise",
+        "your anger 2 levels. Draw 2 cards.",
+        "Place the top 2 cards of your",
+        "discard pile at the bottom of your",
+        "Life Deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 78,
+      "name": "Roshi's Training",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-078-roshis-training.webp",
+      "sha": "d5abf60ae8991fa5260212b18fd06b6282cf3cf0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Heroes only. The top 3 discarded cards are placed at the bottom of your life deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Heroes only. The top 3 discarded",
+        "cards are placed at the bottom of",
+        "your life deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 79,
+      "name": "King Kai Training",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-079-king-kai-training.webp",
+      "sha": "40765b47db4b878ad25bd5c946c6e5e1d85c0339",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Heroes only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Heroes only. Choose 2 cards from",
+        "your discard pile and place them on",
+        "the bottom of your Life Deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 80,
+      "name": "Saiyan Training",
+      "type": "Non-Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-080-saiyan-training.webp",
+      "sha": "ecf0a4948cd0208d183c4e8d322f3503a3a9a997",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Villains and Goku only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Villains and Goku only. Choose 2",
+        "cards from your discard pile and",
+        "place them on the bottom of your",
+        "Life Deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
