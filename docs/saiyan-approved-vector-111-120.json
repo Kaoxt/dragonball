@@ -1,0 +1,206 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 111,
+      "name": "Gohan's Energy Defense",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-111-gohans-energy-defense.webp",
+      "sha": "ec8f83cf6dc1ce087289914aabbab267c4f2d85f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack. Raise your anger 1 level.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack. Raise your",
+        "anger 1 level."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 112,
+      "name": "Krillin's Physical Defense",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-112-krillins-physical-defense.webp",
+      "sha": "10b730a73684a1b63197eb1d0688b3b89f6ff9a1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Play this card as a defense. If your opponent’s attack does life cards of damage to you, you may take the first life card of damage from that attack and place it in your hand instead of discarding it. If used by Krillin, this card stays in play to be used one more time this Combat.",
+      "body_font_px": 42,
+      "body_lines": [
+        "Play this card as a defense. If your",
+        "opponent’s attack does life cards of",
+        "damage to you, you may take the first life",
+        "card of damage from that attack and place",
+        "it in your hand instead of discarding it. If",
+        "used by Krillin, this card stays in play to be",
+        "used one more time this Combat."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 113,
+      "name": "Krillin's Energy Attack",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-113-krillins-energy-attack.webp",
+      "sha": "446f6ce0600ced4f1cc4846c1b82014c61ac25a1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 2 draws from the life card deck if not stopped. If used by Krillin, this card stays on the table to be used one more time in this combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 2 draws from",
+        "the life card deck if not stopped. If",
+        "used by Krillin, this card stays on",
+        "the table to be used one more time",
+        "in this combat."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 114,
+      "name": "Tien's Energy Defense",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-114-tiens-energy-defense.webp",
+      "sha": "c94578cf159f1fd2797304ad0bad4a230729ffa2",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Prevents a foe's energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Prevents a foe's energy attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 115,
+      "name": "Yamcha's Energy Attack",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-115-yamchas-energy-attack.webp",
+      "sha": "c65ac968d35ef7a6b612892f4c5c4f14ac9934b0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 2 life card draws of damage. Costs 3 power stages to perform.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 2 life card",
+        "draws of damage. Costs 3 power",
+        "stages to perform."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 116,
+      "name": "Yamcha's Physical Defense",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-116-yamchas-physical-defense.webp",
+      "sha": "ad1566d0680ca5ac628695e3a1ec01a4617201bd",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Prevents 3 life cards from being taken in a successful physical attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Prevents 3 life cards from being",
+        "taken in a successful physical",
+        "attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 117,
+      "name": "Raditz Energy Wall",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-117-raditz-energy-wall.webp",
+      "sha": "3460defd19d877d0929eb194e476c17c92a42c9e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Forces a Hero opponent in this combat to discard 1 life card from his deck. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Forces a Hero opponent in this",
+        "combat to discard 1 life card from",
+        "his deck. Discard this card from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 118,
+      "name": "Raditz Physical Defense",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-118-raditz-physical-defense.webp",
+      "sha": "1336243aa01773a1a25e4084593cc195cea506bb",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Forces Hero opponent in this combat to take his anger level down 2. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Forces Hero opponent in this",
+        "combat to take his anger level down",
+        "2. Discard this card from the game",
+        "after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 119,
+      "name": "Vegeta's Energy Blast",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-119-vegetas-energy-blast.webp",
+      "sha": "708a679afdb53ff62297809386604fb029684f79",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Heritage only. Use when needed. This must be your first card played during Combat. Raise your Main Personality to its highest power stage. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Heritage only. Use when",
+        "needed. This must be your first",
+        "card played during Combat. Raise",
+        "your Main Personality to its highest",
+        "power stage. Remove from the",
+        "game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 120,
+      "name": "Nappa's Energy Aura",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-120-nappas-energy-aura.webp",
+      "sha": "c5aa122c96f2fb5e020b3166b5f8a120481cb4b0",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack. Stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack. Stops all",
+        "energy attacks performed against",
+        "you for the remainder of Combat.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}
