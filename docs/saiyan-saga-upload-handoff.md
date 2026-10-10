@@ -1,5 +1,9 @@
 # Saiyan Saga continuation
 
+## Approved next batch: cards 11–20
+
+Cards 11–20 now use the approved 1060 × 1484 frame and judder-free SVG silver rails from cards 1–10, with blue, green, gray and gold accents. Dragon Ball labels have no sword; all Physical Combat cards share the approved sword and type strip. The immutable-source renderer `render-approved-range-011-030.py` fits existing artwork proportionally and uses the reviewed rules JSON with one 50px Nimbus Sans Bold body font. `saiyan-approved-vector-011-020.json` records exact assets and rules. User has explicitly authorized publishing cards 11–30 in this conversation; continue with 21–30 next, and stop after 30.
+
 ## Latest approved test design: cards 1–10
 
 Silver rails were subsequently rebuilt as uniform vector paths in `judder-free-silver-rails.svg`, exported by `render-judder-free-rails.py`. This fixes the user-reported wobbly edges and mottled shading above the title and under the artwork, and applies the same correction to the other silver rails. The renderer preserves all pixels outside its narrow overlay, including the fresh Raditz portrait, title glyphs, rules and numbers. Do not rerun the older connected-frame renderer over these corrected exports.

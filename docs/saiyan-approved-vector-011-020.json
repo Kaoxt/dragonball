@@ -1,0 +1,194 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 11,
+      "name": "Blue Forward Foot Sweep",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-011-blue-forward-foot-sweep.webp",
+      "sha": "5f81ede50fdba03a7ae369e663470745dfccef66",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe’s anger level 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +4 stages of",
+        "damage. If successful, this attack",
+        "stops any energy attack from an",
+        "opponent in his next phase. Lower",
+        "foe’s anger level 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 12,
+      "name": "Blue Hip Spring Throw",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-012-blue-hip-spring-throw.webp",
+      "sha": "7711457e08488b182d094eea78716d3a498be647",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +2 stages of damage if successful. Stops a foe’s physical attack on their next round. Lower foe’s anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +2 stages of",
+        "damage if successful. Stops a foe’s",
+        "physical attack on their next round.",
+        "Lower foe’s anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 13,
+      "name": "Blue Round Throw",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-013-blue-round-throw.webp",
+      "sha": "240edf94ccfd29260e2650d3453e1cd46e405966",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe’s anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +5 stages of",
+        "damage if successful or stops an",
+        "energy attack. Lower foe’s anger",
+        "level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 14,
+      "name": "Blue Shoulder Wheel",
+      "type": "Physical Combat",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-014-blue-shoulder-wheel.webp",
+      "sha": "0721cc23b92e8f5986b5ab59e9dc43d1d8fd64c3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe’s anger level by 1.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical Attack doing +1 stage of",
+        "damage if successful. Raises your",
+        "anger level by 1 and lowers foe’s",
+        "anger level by 1."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 15,
+      "name": "Earth Dragon Ball 1",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-015-earth-dragon-ball-1.webp",
+      "sha": "efdb95511453a7b6eefb94c8c49fc80a3a18ef4a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Instantly power up to full and draw a card.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Instantly power up to full and draw",
+        "a card."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 16,
+      "name": "Earth Dragon Ball 2",
+      "type": "Dragon Ball",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-016-earth-dragon-ball-2.webp",
+      "sha": "ad37ed834f7bbd7fde2241baf3c8321faaeedd25",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All foes have their power ratings changed to 2 stages higher than 0.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All foes have their power ratings",
+        "changed to 2 stages higher than 0."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 17,
+      "name": "Hidden Power Level",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-017-hidden-power-level.webp",
+      "sha": "b0b69d5c39c9388e7564603749304eab80148673",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack. Before physical damage is assessed, change the power stage to the personality’s maximum. They’ve been hiding their true level for just this attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack. Before physical",
+        "damage is assessed, change the",
+        "power stage to the personality’s",
+        "maximum. They’ve been hiding",
+        "their true level for just this attack."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 18,
+      "name": "Saiyan Arm Throw",
+      "type": "Physical Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-018-saiyan-arm-throw.webp",
+      "sha": "9778e2e45f0aa8fada61e1edc307985481b4ff02",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making a physical attack on his next phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Villains, Goku, and Gohan only.",
+        "Physical attack, plus it stops a",
+        "single named foe from making a",
+        "physical attack on his next phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 19,
+      "name": "Saiyan Full Spin Kick",
+      "type": "Physical Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-019-saiyan-full-spin-kick.webp",
+      "sha": "a281a70becea2a11da7c15c2f6ca40be1fd4e4bc",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making an energy attack on his next phase.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Villains, Goku, and Gohan only.",
+        "Physical attack, plus it stops a",
+        "single named foe from making an",
+        "energy attack on his next phase."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    },
+    {
+      "number": 20,
+      "name": "Saiyan Pressure Punch",
+      "type": "Physical Combat",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-020-saiyan-pressure-punch.webp",
+      "sha": "6cf137c0ef6a407f228123c577593f1d2e9a00a4",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Villains, Goku, and Gohan only.\nPhysical attack doing +3 stages of physical damage if successful.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Villains, Goku, and Gohan only.",
+        "Physical attack doing +3 stages of",
+        "physical damage if successful."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd"
+    }
+  ]
+}
