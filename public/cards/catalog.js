@@ -267,7 +267,7 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-021-saiyan-neck-hold.webp?v=18b919ae8d",
+    "image": "/assets/cards/saiyan-021-saiyan-neck-hold.webp?v=85c711e8f8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -280,7 +280,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-022-power-up.webp?v=52e08a7c36",
+    "image": "/assets/cards/saiyan-022-power-up.webp?v=559da9b753",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -293,7 +293,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-023-burning-rage.webp?v=9ff6daa582",
+    "image": "/assets/cards/saiyan-023-burning-rage.webp?v=0b42a4d0b8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -306,7 +306,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-024-gokus-surprise-attack.webp?v=77c410020f",
+    "image": "/assets/cards/saiyan-024-gokus-surprise-attack.webp?v=b46c18110e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -319,7 +319,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-025-gokus-physical-attack.webp?v=01f5532ec7",
+    "image": "/assets/cards/saiyan-025-gokus-physical-attack.webp?v=9965e80d59",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -332,7 +332,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-026-gohans-physical-attack.webp?v=f2c8a9214a",
+    "image": "/assets/cards/saiyan-026-gohans-physical-attack.webp?v=49ba261aad",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -345,7 +345,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-027-tiens-physical-attack.webp?v=aec97c7b45",
+    "image": "/assets/cards/saiyan-027-tiens-physical-attack.webp?v=f104df0709",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -358,7 +358,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-028-vegetas-physical-stance.webp?v=54f16c0db2",
+    "image": "/assets/cards/saiyan-028-vegetas-physical-stance.webp?v=85124d8e64",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -371,7 +371,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-029-yajirobes-physical-attack.webp?v=e9e3067429",
+    "image": "/assets/cards/saiyan-029-yajirobes-physical-attack.webp?v=8c486e41a3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
@@ -384,7 +384,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-030-fall-7-times-get-up-8-times.webp?v=c9eaa90162",
+    "image": "/assets/cards/saiyan-030-fall-7-times-get-up-8-times.webp?v=87ed63277a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484
