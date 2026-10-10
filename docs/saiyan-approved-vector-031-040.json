@@ -1,0 +1,202 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 31,
+      "name": "Fortify Your Spirit",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-031-fortify-your-spirit.webp",
+      "sha": "f725e6c653c96c08ed5222e603d57790fbb0edbc",
+      "width": 1060,
+      "height": 1484,
+      "rules": "The first successful energy attack on you is stopped. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "The first successful energy attack",
+        "on you is stopped. Discard this card",
+        "from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 32,
+      "name": "The Untroubled Mind is Focused",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp",
+      "sha": "ca8dacc31c113d779b3cbb59bb5cd05e6b78a24a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Remove someone else’s drill card or ally from the game. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Remove someone else’s drill card",
+        "or ally from the game. Discard this",
+        "card from the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 33,
+      "name": "It’s the Little Things That Matter",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-033-its-the-little-things-that-matter.webp",
+      "sha": "bac333729cecc010b731046db7bfd182ad9d2698",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stop 1 successful energy or physical life card draw from happening. Discard this card from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stop 1 successful energy or",
+        "physical life card draw from",
+        "happening. Discard this card from",
+        "the game after use."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 34,
+      "name": "Straining Off-Balancing Move",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-034-straining-off-balancing-move.webp",
+      "sha": "f6b8f0f161ad6ec1dd9d0cbc58d61d90959d9916",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack forcing the defender to lose 1 life card and the attacker 3 stages of power. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack forcing the defender",
+        "to lose 1 life card and the attacker 3",
+        "stages of power. Limit 1 per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 35,
+      "name": "Straining, Penetrating Attack Move",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-035-straining-penetrating-attack-move.webp",
+      "sha": "00f1e4eead9a6ec1fd5b76e978feaae32e817028",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack forcing the defender to lose 3 life cards and the attacker 3 stages of power. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack forcing the defender",
+        "to lose 3 life cards and the attacker",
+        "3 stages of power. Limit 1 per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 36,
+      "name": "Straining Fake Left Move",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-036-straining-fake-left-move.webp",
+      "sha": "b9cc952955099358f03048928d734f9156f374c2",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Defensive move preventing up to 3 energy life cards from being discarded and draining the user 4 stages.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Defensive move preventing up to 3",
+        "energy life cards from being",
+        "discarded and draining the user 4",
+        "stages."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 37,
+      "name": "Straining Tripping Move",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-037-straining-tripping-move.webp",
+      "sha": "e8536e1ef23775b505e8bb425d28b67a2e18a1e3",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack forcing the defender to lose 2 life cards and the attacker 4 stages of power. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack forcing the defender",
+        "to lose 2 life cards and the attacker",
+        "4 stages of power. Limit 1 per deck."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 38,
+      "name": "Straining Arm Drag Move",
+      "type": "Physical Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-038-straining-arm-drag-move.webp",
+      "sha": "6a2e4719c1995ae0e5492b445adad8b683109e8c",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Physical attack forcing the defender to lose 1 life card and the attack is over for the attacker.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Physical attack forcing the defender",
+        "to lose 1 life card and the attack is",
+        "over for the attacker."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 39,
+      "name": "Straining Ankle Smash Move",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-039-straining-ankle-smash-move.webp",
+      "sha": "9a85a813ae91fb2322cd800a9b0f244f75e583ff",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Play this card right after the attacker plays a card and pays their energy costs. The defender does 4 stages of power drain on the attacker, no matter what he is doing to the defender.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Play this card right after the",
+        "attacker plays a card and pays their",
+        "energy costs. The defender does 4",
+        "stages of power drain on the",
+        "attacker, no matter what he is doing",
+        "to the defender."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    },
+    {
+      "number": 40,
+      "name": "Straining Energy Defense Move",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-040-straining-energy-defense-move.webp",
+      "sha": "bd65cd21583526fcee73c6d462875a43ee5265c7",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops an energy attack, but you have to discard another card to use this one.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops an energy attack, but you",
+        "have to discard another card to use",
+        "this one."
+      ],
+      "art_source_commit": "50f5c9c3de0b41b6ada7798b2ef37f781fb017bd",
+      "title_font": "Teko Bold 700, 74px, 5px black outline"
+    }
+  ]
+}

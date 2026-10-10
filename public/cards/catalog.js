@@ -397,8 +397,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-031-fortify-your-spirit.webp?v=758f1a905e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-031-fortify-your-spirit.webp?v=f725e6c653",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-032-the-untroubled-mind-is-focused",
@@ -408,8 +410,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp?v=aaa893feae",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp?v=ca8dacc31c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
@@ -419,8 +423,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp?v=f4da0d0e6e",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp?v=bac333729c",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-034-straining-off-balancing-move",
@@ -430,8 +436,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-034-straining-off-balancing-move.webp?v=09eeb0297f",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-034-straining-off-balancing-move.webp?v=f6b8f0f161",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-035-straining-penetrating-attack-move",
@@ -441,8 +449,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp?v=f03166b909",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp?v=00f1e4eead",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-036-straining-fake-left-move",
@@ -452,8 +462,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-036-straining-fake-left-move.webp?v=d7a6dfca56",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-036-straining-fake-left-move.webp?v=b9cc952955",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-037-straining-tripping-move",
@@ -463,8 +475,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=c6831adfc6",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=e8536e1ef2",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-038-straining-arm-drag-move",
@@ -474,8 +488,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-038-straining-arm-drag-move.webp?v=2ee46b80d5",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-038-straining-arm-drag-move.webp?v=6a2e4719c1",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-039-straining-ankle-smash-move",
@@ -485,8 +501,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp?v=8861432ca9",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp?v=9a85a813ae",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-040-straining-energy-defense-move",
@@ -496,8 +514,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp?v=9dd3b6c360",
-    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/"
+    "image": "/assets/cards/saiyan-040-straining-energy-defense-move.webp?v=bd65cd2158",
+    "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "width": 1060,
+    "height": 1484
   },
   {
     "id": "saiyan-041-straining-head-lock-move",
