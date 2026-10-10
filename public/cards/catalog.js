@@ -300,7 +300,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku\u2019s Surprise Attack",
+    "name": "Goku’s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -313,7 +313,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku\u2019s Physical Attack",
+    "name": "Goku’s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -326,7 +326,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan\u2019s Physical Attack",
+    "name": "Gohan’s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -339,7 +339,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien\u2019s Physical Attack",
+    "name": "Tien’s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -352,7 +352,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta\u2019s Physical Stance",
+    "name": "Vegeta’s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -365,7 +365,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe\u2019s Physical Attack",
+    "name": "Yajirobe’s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -417,7 +417,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It\u2019s the Little Things That Matter",
+    "name": "It’s the Little Things That Matter",
     "number": "33",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -612,7 +612,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku\u2019s Touch",
+    "name": "Goku’s Touch",
     "number": "48",
     "type": "Non-Combat",
     "style": "Freestyle",
@@ -1060,7 +1060,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=ff1cd3ae1ca1",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=b42d19fd89aa",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1073,7 +1073,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=2cb3bb513644",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=2907634d37ce",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1086,7 +1086,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=1bbb7318d131",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=6a72576edaa9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1099,7 +1099,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=333b49321964",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=81de9371f6c7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1112,7 +1112,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=3b8e46a5f0fd",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=cd76e8a836c9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1125,7 +1125,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=65759e1dfec1",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=29db070a452c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1346,7 +1346,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=060d3d5bbd67",
+    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=270020f724ab",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1359,7 +1359,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=5d606440e3ea",
+    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=a27a57134deb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1372,7 +1372,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=fb1b19b8b770",
+    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=92786dce3a6f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1385,7 +1385,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=25e38c6f0dca",
+    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=1ce16e8bc2eb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
