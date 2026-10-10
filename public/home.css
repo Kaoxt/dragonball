@@ -29,7 +29,7 @@ body.home-page main .news-post .post-actions a:hover{
 .home-page .release-meta a{color:inherit;font-weight:700}
 .home-page .news-full{margin-top:18px;overflow-wrap:anywhere}
 .home-page .news-full img{max-width:100%;height:auto}
-.home-page .news-post .news-comment-link{margin-left:auto}
+body.home-page main .news-post .post-actions a.news-comment-link{margin-left:auto;flex-shrink:0}
 .home-page .news-post .news-comment-link svg{flex-shrink:0}
 .home-page .news-feed .forum-rich a{color:#fff;font-weight:600;text-decoration:none}
 .home-page .news-feed .forum-rich a:hover{color:#ff949d}
