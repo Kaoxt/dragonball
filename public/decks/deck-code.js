@@ -13,9 +13,9 @@ async function transform(bytes, stream, limit){
 export async function encodeDeck(deck){
  const id=c=>c?(compactIds.get(c.id)??c.id):null, list=cards=>cards.map(c=>[id(c),c.qty||1]);
  const payload=[deck.name,deck.tokui,deck.personalities.map(id),id(deck.mastery),id(deck.sensei),list(deck.cards),list(deck.senseiDeck)];
- let bytes;try{bytes=await transform(new TextEncoder().encode(JSON.stringify(payload)),new CompressionStream('deflate'),1645);}catch{throw Error('This deck is too large for one image code. Export a JSON backup instead.');}
+ let bytes;try{bytes=await transform(new TextEncoder().encode(JSON.stringify(payload)),new CompressionStream('deflate'),1645);}catch{throw Error('This deck is too large for one image code. Reduce the number of cards and try again.');}
  const code=prefix+btoa(String.fromCharCode(...bytes));
- if(code.length>2200)throw Error('This deck is too large for one image code. Export a JSON backup instead.');
+ if(code.length>2200)throw Error('This deck is too large for one image code. Reduce the number of cards and try again.');
  return code;
 }
 export async function decodeDeck(code,catalog){

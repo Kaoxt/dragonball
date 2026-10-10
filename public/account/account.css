@@ -73,10 +73,10 @@ body .site-header .account-menu-footer button:hover{background:#35282e}
 /* Avatar and username share a rounded trigger in the landscape navbar. */
 .account-trigger-avatar{display:none;width:30px;height:30px;flex:0 0 30px;border-radius:50%;object-fit:cover;background:#21171c}
 @media(orientation:landscape),(min-width:1201px){
- body .site-header nav .account-dropdown>summary{box-sizing:border-box;max-width:168px;min-height:44px;padding:5px 11px 5px 5px;gap:8px;border:1px solid #54404a;border-radius:999px;background:#30232b;transition:background .15s,border-color .15s}
+ body .site-header nav .account-dropdown>summary{box-sizing:border-box;max-width:168px;min-height:44px;padding:5px 11px 5px 5px;gap:8px;border:2px solid #565055;border-radius:18px;background:#170f13;transition:background .15s,border-color .15s}
  body .site-header .account-trigger-avatar{display:block}
- body .site-header nav .account-dropdown>summary:hover,body .site-header nav .account-dropdown[open]>summary{background:#482b37;border-color:#845063}
- body .site-header nav .account-dropdown>summary:focus-visible{border-radius:999px}
+ body .site-header nav .account-dropdown>summary:hover,body .site-header nav .account-dropdown[open]>summary{background:#24181e;border-color:#70666d}
+ body .site-header nav .account-dropdown>summary:focus-visible{border-radius:18px}
 }
 @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
  body .site-header nav .account-dropdown>summary{max-width:145px}
