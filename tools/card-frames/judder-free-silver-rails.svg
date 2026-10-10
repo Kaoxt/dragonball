@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1484" viewBox="0 0 1060 1484">
+  <!-- Exact straight segments; one flat silver color avoids generated mottling. -->
+  <defs>
+    <path id="rails" d="M40 72L65 45 M995 45L1020 72 M110 66L125 79H934L949 66L987 103V136L950 173H109L72 135V99Z M41 170L68 190V303L41 282 M1018 170L991 190V303L1018 282 M42 700L90 748H969L1017 700 M44 1185V820L80 785H117L159 824H900L943 785H980L1015 820V1185 M44 1244L52 1252V1345L88 1380H282L328 1332H734L780 1380H975L1007 1345V1252L1015 1244 M111 1320H949"/>
+  </defs>
+  <path d="M155 55H905L891 74H169Z" fill="#05090b"/>
+  <path d="M162 59H898L892 67H168Z" fill="#b7c1cc"/>
+  <g fill="none" stroke-linejoin="miter" stroke-linecap="butt">
+    <use href="#rails" stroke="#05090b" stroke-width="16" stroke-linecap="square"/>
+    <use href="#rails" stroke="#b7c1cc" stroke-width="8"/>
+  </g>
+</svg>

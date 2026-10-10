@@ -2,6 +2,8 @@
 
 ## Latest approved test design: cards 1–10
 
+Silver rails were subsequently rebuilt as uniform vector paths in `judder-free-silver-rails.svg`, exported by `render-judder-free-rails.py`. This fixes the user-reported wobbly edges and mottled shading above the title and under the artwork, and applies the same correction to the other silver rails. The renderer preserves all pixels outside its narrow overlay, including the fresh Raditz portrait, title glyphs, rules and numbers. Do not rerun the older connected-frame renderer over these corrected exports.
+
 The latest approved #1–10 export uses connected silver title/footer rails and a continuous colored stepped stripe beside Physical Combat. Orange Arm Bar #5 has a fresh clean Raditz portrait. All ten are assembled from `tools/card-frames/approved-connected-frame-raditz.png` by `tools/card-frames/render-connected-frame-001-010.py`, preserving the published rules, existing title glyphs and artwork on the other nine cards. Frame pixels are identical within each color group. This supersedes the lower-corner-only renderer below; do not rerun the older renderer over these assets.
 
 The approved lower-corner cleanup is now applied to both sides of all ten cards. It removes the doubled gray rails and rough joins below the colored side tabs. Everything outside those corner regions is pixel-identical to the previous version. The renderer `tools/card-frames/apply-approved-corners-001-010.py` uses immutable source commit `f28f02145b9e1fde9fff21bdfb6a3820121948db` so it can be rerun safely.
