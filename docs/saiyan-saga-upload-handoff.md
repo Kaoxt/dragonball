@@ -1,3 +1,15 @@
+# Saiyan Saga finish and shared middle-label font
+
+Current rollout: all 257 unique catalog cards (#1–250 and P1–P7). The 266 recovered files included archived duplicate prints; do not restore duplicates.
+
+The final 27 cards are fully modernized using the approved clean vector frame, charcoal Black Style palette, angular level badges, matte power stages and deep red villains. Their verified source rules and personality values are in `tools/card-frames/rules-remaining.json` and `personality-data-remaining.json`.
+
+The user explicitly requested the middle card-type text beneath the artwork to match the heavy bold italic Physical Combat reference across ALL cards. `type_label.py` is the shared typesetter. `apply-shared-type-font.py` proves all pixels outside the middle-label interiors are unchanged, preserving every vector rail, corner, illustration, power value, rule and sword icon. Exports are lossless WebP at 1060 × 1484. Run this shared finalizer after any older archival renderer. Current remaining-card renderers already call it.
+
+See `docs/saiyan-finish-progress.json` for the latest published batch and `docs/saiyan-shared-type-font.json` for final asset hashes. Publish at most 10 card assets per commit. Final live verification is separate from GitHub publication.
+
+## Earlier handoff history
+
 # Saiyan Saga continuation
 
 ## Latest completed task: cards 81–130

@@ -1,0 +1,283 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 241,
+      "name": "Vegeta's Dragon Ball Capture",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-241-vegetas-dragonball-capture.webp",
+      "sha": "5faab78ee6d95502cbe758a14ebfc1d00d36b6ef",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Capture 2 of a foe's Dragon Balls and place them at the bottom of his life deck. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Capture 2 of a foe's Dragon Balls",
+        "and place them at the bottom of his",
+        "life deck. Limit 1 per deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 242,
+      "name": "Dream Machine Battle",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-242-dream-machine-battle.webp",
+      "sha": "154fbe57eab60628a9a405397461b5241d96bec9",
+      "width": 1060,
+      "height": 1484,
+      "rules": "This battle never happened. Start all over with new cards and reset all damage to beginning levels. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "This battle never happened. Start all",
+        "over with new cards and reset all",
+        "damage to beginning levels. Limit 1",
+        "per deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "243",
+      "name": "Saibaimen",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-243-saibaimen.webp",
+      "sha": "e458b3b1a31d73c3a53b514d77a2eab586e08673",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the damage from an energy attack performed against you to 2 life cards of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the damage from an energy",
+        "attack performed against you to 2 life",
+        "cards of damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 1,
+        "pur": 1,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          1100,
+          1200,
+          1300,
+          1400,
+          1500,
+          1600,
+          1700,
+          1800,
+          1900,
+          2000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "244",
+      "name": "Saibaimen",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-244-saibaimen.webp",
+      "sha": "1b9efa29e61f7210307178e23ce59fa6a84a19db",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the damage from an energy attack performed against you to 2 life cards of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the damage from an energy",
+        "attack performed against you to 2 life",
+        "cards of damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 2,
+        "pur": 2,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          2000,
+          2200,
+          2400,
+          2600,
+          2800,
+          3000,
+          3200,
+          3400,
+          3600,
+          3800
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "245",
+      "name": "Saibaimen",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-245-saibaimen.webp",
+      "sha": "1edc34b9dbc570231582c937807e856de6aaee6e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Reduce the damage from an energy attack performed against you to 2 life cards of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Reduce the damage from an energy",
+        "attack performed against you to 2 life",
+        "cards of damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 3,
+        "pur": 3,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          4200,
+          4700,
+          5200,
+          5700,
+          6200,
+          6700,
+          7200,
+          7700,
+          8200,
+          8700
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "246",
+      "name": "Saibaimen",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-246-saibaimen.webp",
+      "sha": "d204c6aeabb4098038c7b45f25d748b7e34f2d21",
+      "width": 1060,
+      "height": 1484,
+      "rules": "If there is more than one Saibaimen in play, this one can make a physical attack that inflicts 5 life cards damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "If there is more than one Saibaimen in",
+        "play, this one can make a physical",
+        "attack that inflicts 5 life cards damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          9000,
+          10000,
+          11000,
+          12000,
+          13000,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 247,
+      "name": "Goku's Truce",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-247-gokus-truce.webp",
+      "sha": "27ab29f06343ff9ce09935707519e0872bb6245d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops a successful energy or physical attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops a successful energy or",
+        "physical attack."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 248,
+      "name": "Goku's Plan",
+      "type": "Energy Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-248-gokus-plan.webp",
+      "sha": "06f3fd59cf6c3ab348350989e0486a873cc06738",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Energy attack doing 5 life cards of damage for no power cost.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Energy attack doing 5 life cards of",
+        "damage for no power cost."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 249,
+      "name": "Medic Kit",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-249-medic-kit.webp",
+      "sha": "d4cb1dacbbcddee722f10c1f910f3c966f865152",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Place the top 3 discard cards at the bottom of the life card deck. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Place the top 3 discard cards at the",
+        "bottom of the life card deck. Limit 1",
+        "per deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 250,
+      "name": "Chiaotzu's Physical Defense",
+      "type": "Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-250-chiaotzus-physical-defense.webp",
+      "sha": "d6ce498fac733452c2bd523a5afd8e6da38ed49d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Stops all heroes from losing 1 life card of damage from every attack for the remainder of Combat. Remove from the game after use.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Stops all heroes from losing 1 life",
+        "card of damage from every attack",
+        "for the remainder of Combat.",
+        "Remove from the game after use."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    }
+  ]
+}

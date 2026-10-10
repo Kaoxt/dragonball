@@ -1,0 +1,211 @@
+{
+  "design": "Approved shared frame with exact judder-free silver rails, style-specific accents, fixed body font and centered numbers",
+  "master_commit": "8e5519b3a00561f9cfebc832e3ec76e4ce0c74f0",
+  "svg": "tools/card-frames/judder-free-silver-rails.svg",
+  "updated": [
+    {
+      "number": 231,
+      "name": "Goku's Mixing Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-231-gokus-mixing-drill.webp",
+      "sha": "e9c67d1e6eca7d01cf806b1f78533b79b23f8e4f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Allows multiple colors of drills to be used at the same time.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Allows multiple colors of drills to be",
+        "used at the same time."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 232,
+      "name": "Red Life Attack Drill",
+      "type": "Non-Combat Drill",
+      "style": "Red",
+      "path": "public/assets/cards/saiyan-232-red-life-attack-drill.webp",
+      "sha": "323c403fd09022fa650d3fa0c4593e538c62bf36",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Drill does an extra life card of damage whenever successful damage is done.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Drill does an extra life card of",
+        "damage whenever successful",
+        "damage is done."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 233,
+      "name": "Blue Life Defense Drill",
+      "type": "Non-Combat Drill",
+      "style": "Blue",
+      "path": "public/assets/cards/saiyan-233-blue-life-defense-drill.webp",
+      "sha": "04266c8fed3c21af89f0f6d1cf34390ed1c55824",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Drill prevents 1 life card of damage from being taken whenever a successful attack happens on the card owner.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Drill prevents 1 life card of damage",
+        "from being taken whenever a",
+        "successful attack happens on the",
+        "card owner."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 234,
+      "name": "Orange Focusing Drill",
+      "type": "Non-Combat Drill",
+      "style": "Orange",
+      "path": "public/assets/cards/saiyan-234-orange-focusing-drill.webp",
+      "sha": "8e87536194e726ec673cbbf3ab2835829bbf7d85",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All of your other Drills may not be discarded or removed from the game while this Drill is in play.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All of your other Drills may not be",
+        "discarded or removed from the",
+        "game while this Drill is in play."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 235,
+      "name": "Black Shadow Drill",
+      "type": "Non-Combat Drill",
+      "style": "Black",
+      "path": "public/assets/cards/saiyan-235-black-shadow-drill.webp",
+      "sha": "e3ce8e99d27b801719e5fa752080fdcb3eba217f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Allows the card owner to take 2 less stages of power drain from a successful physical attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Allows the card owner to take 2 less",
+        "stages of power drain from a",
+        "successful physical attack."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 236,
+      "name": "Saiyan Power Drill",
+      "type": "Non-Combat Drill",
+      "style": "Saiyan",
+      "path": "public/assets/cards/saiyan-236-saiyan-power-drill.webp",
+      "sha": "59b0db7b9649d8140e50f009c0e3b8f78a09b75e",
+      "width": 1060,
+      "height": 1484,
+      "rules": "All of your physical attacks do +2 power stages of damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "All of your physical attacks do +2",
+        "power stages of damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 237,
+      "name": "Goku's Capturing Drill",
+      "type": "Non-Combat Drill",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-237-gokus-capturing-drill.webp",
+      "sha": "d1e4fef48f1bd658c962c363cc59f08ca853511b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Dragon Balls you control may not be captured while this Drill is in play.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Dragon Balls you control may not",
+        "be captured while this Drill is in",
+        "play."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 238,
+      "name": "King Kai's Calming",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-238-king-kais-calming.webp",
+      "sha": "21c154a87e3dc365268cd0d263bacdc370e2005f",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use at the end of any turn. If your opponent’s Main Personality is at Level 3, lower his Main Personality one personality level. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use at the end of any turn. If your",
+        "opponent’s Main Personality is at",
+        "Level 3, lower his Main Personality",
+        "one personality level. Limit 1 per",
+        "deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 239,
+      "name": "Roshi's Calming",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-239-roshis-calming.webp",
+      "sha": "9db174200ba5e87e5329469eda0ba4e544803a35",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use at the end of any turn. If your opponent’s Main Personality is at Level 2, lower his Main Personality one personality level. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use at the end of any turn. If your",
+        "opponent’s Main Personality is at",
+        "Level 2, lower his Main Personality",
+        "one personality level. Limit 1 per",
+        "deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": 240,
+      "name": "Vegeta's Trick",
+      "type": "Non-Combat",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-240-vegetas-trick.webp",
+      "sha": "90c6941285cf05b1dfcbfed15f4f55842d69e380",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Find the foe's first Dragon Ball in his life deck and place it at the bottom of his deck. Limit 1 per deck.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Find the foe's first Dragon Ball in",
+        "his life deck and place it at the",
+        "bottom of his deck. Limit 1 per",
+        "deck."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "title_font": "Teko Bold 700, 74px, 5px black outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    }
+  ]
+}

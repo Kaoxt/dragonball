@@ -1,0 +1,270 @@
+{
+  "updated": [
+    {
+      "number": "P1",
+      "name": "Goku",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P1-goku-silver-variant.webp",
+      "sha": "e1e9502f3f8eb4bd4d637f3db004516e10d9a1a5",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Spirit bomb energy attack, cost 1 stage to do.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Spirit bomb energy attack, cost 1",
+        "stage to do."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          14000,
+          16000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          30000,
+          32000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P2",
+      "name": "Piccolo",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P2-piccolo-silver-variant.webp",
+      "sha": "a8601dbe545e45ec047e44b6711ce554b9ae331d",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Use Special Beam Cannon or Multi-Form in a Combat round.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Use Special Beam Cannon or",
+        "Multi-Form in a Combat round."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          8000,
+          8500,
+          9000,
+          9500,
+          10000,
+          10500,
+          11000,
+          11500,
+          12000,
+          12500
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P3",
+      "name": "Vegeta",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P3-vegeta-silver-variant.webp",
+      "sha": "cb4613b66ceab4763738cd22e7832d074662324a",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Vegeta's laugh reduces a foe's power rating by 3 or to 0, which ever happens first.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Vegeta's laugh reduces a foe's power",
+        "rating by 3 or to 0, which ever happens",
+        "first."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          30000,
+          32000,
+          34000,
+          36000,
+          38000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P4",
+      "name": "Raditz",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P4-raditz-silver-variant.webp",
+      "sha": "7ec1fe171f1b186b6e24e3a9ad8600a96e114f6b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Saiyan Throat Strike does five stages of physical damage.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Saiyan Throat Strike does five stages",
+        "of physical damage."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          9000,
+          10000,
+          11000,
+          12000,
+          13000,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P5",
+      "name": "Gohan",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P5-gohan-silver-variant.webp",
+      "sha": "6ab4a52e58d3afeb834a63110e20943442e611b1",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Draws an extra card from the bottom of the discard pile for this combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Draws an extra card from the bottom",
+        "of the discard pile for this combat."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          3200,
+          3700,
+          4200,
+          4700,
+          5200,
+          5700,
+          6200,
+          6700,
+          7200,
+          7700
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P6",
+      "name": "Krillin",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P6-krillin-silver-variant.webp",
+      "sha": "6e6f0f50f2a6ebe191cfe8da9913276c4650c89b",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Draws the bottom two cards from the discard pile to use in this combat.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Draws the bottom two cards from the",
+        "discard pile to use in this combat."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Hero",
+        "stages": [
+          0,
+          3200,
+          3700,
+          4200,
+          4700,
+          5200,
+          5700,
+          6200,
+          6700,
+          7200,
+          7700
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    },
+    {
+      "number": "P7",
+      "name": "Nappa",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "path": "public/assets/cards/saiyan-0P7-nappa-silver-variant.webp",
+      "sha": "a60c9f8b1901b87cc411caa6dcaf0926dc5ce641",
+      "width": 1060,
+      "height": 1484,
+      "rules": "Negate a foe's energy attack.",
+      "body_font_px": 50,
+      "body_lines": [
+        "Negate a foe's energy attack."
+      ],
+      "art_source_commit": "c5ccdf8fbb9a393ad5a58fb6930dca3f2022fcfe",
+      "personality": {
+        "level": 4,
+        "pur": 4,
+        "alignment": "Villain",
+        "stages": [
+          0,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000,
+          19000,
+          20000,
+          21000,
+          22000,
+          23000
+        ]
+      },
+      "frame": "personality-approved-overlay.svg",
+      "title_font": "Teko Bold 700, 92px, 4px outline",
+      "type_font": "Shared heavy oblique Teko Bold middle strip"
+    }
+  ]
+}
