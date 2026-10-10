@@ -2867,7 +2867,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-221-vegetas-quickness-drill.webp?v=e871128cd7",
+    "image": "/assets/cards/saiyan-221-vegetas-quickness-drill.webp?v=12523690f1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2880,7 +2880,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-222-bulma-finds-a-dragon-ball.webp?v=7ddb3244b4",
+    "image": "/assets/cards/saiyan-222-bulma-finds-a-dragon-ball.webp?v=bee3afa0b7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2893,7 +2893,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-223-bulma-finds-a-drill.webp?v=ddfdea97ad",
+    "image": "/assets/cards/saiyan-223-bulma-finds-a-drill.webp?v=58de91aee9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2906,7 +2906,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-224-baba-witch-viewing-drill.webp?v=188b729000",
+    "image": "/assets/cards/saiyan-224-baba-witch-viewing-drill.webp?v=71c4562458",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2919,7 +2919,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-225-babas-energy-blast.webp?v=ba30b231d9",
+    "image": "/assets/cards/saiyan-225-babas-energy-blast.webp?v=a02668cacc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2932,7 +2932,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-226-t-rex-defense.webp?v=8234540217",
+    "image": "/assets/cards/saiyan-226-t-rex-defense.webp?v=35d63eed09",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2945,7 +2945,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-227-t-rex-offense.webp?v=42eef3606f",
+    "image": "/assets/cards/saiyan-227-t-rex-offense.webp?v=c34d455a51",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2958,7 +2958,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-228-vegetas-plans.webp?v=c0cb9eecdf",
+    "image": "/assets/cards/saiyan-228-vegetas-plans.webp?v=c57bc18a48",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2971,7 +2971,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-229-ally-wins.webp?v=57df8694f1",
+    "image": "/assets/cards/saiyan-229-ally-wins.webp?v=ac5b55892f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
@@ -2984,7 +2984,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-230-chiaotzus-drill.webp?v=2c8d4468c6",
+    "image": "/assets/cards/saiyan-230-chiaotzus-drill.webp?v=532e39a5de",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484
