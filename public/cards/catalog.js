@@ -3107,7 +3107,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-241-vegetas-dragonball-capture.webp?v=2217d9e8b2",
+    "image": "/assets/cards/saiyan-241-vegetas-dragonball-capture.webp?v=5faab78ee6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3118,7 +3118,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-242-dream-machine-battle.webp?v=fa0719b2a9",
+    "image": "/assets/cards/saiyan-242-dream-machine-battle.webp?v=154fbe57ea",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
@@ -3129,7 +3129,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=6999d63ab0",
+    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=e458b3b1a3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3142,7 +3142,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-244-saibaimen.webp?v=53f2bcaed8",
+    "image": "/assets/cards/saiyan-244-saibaimen.webp?v=1b9efa29e6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3155,7 +3155,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=a09161ea25",
+    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=1edc34b9db",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3168,7 +3168,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=7a8cb68ff5",
+    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=d204c6aeab",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1070,
     "height": 1470
@@ -3181,7 +3181,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-247-gokus-truce.webp?v=34a0104879",
+    "image": "/assets/cards/saiyan-247-gokus-truce.webp?v=27ab29f063",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
   },
   {
@@ -3192,7 +3192,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-248-gokus-plan.webp?v=86a66726c1",
+    "image": "/assets/cards/saiyan-248-gokus-plan.webp?v=06f3fd59cf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
   },
   {
@@ -3203,7 +3203,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-249-medic-kit.webp?v=0a676f94da",
+    "image": "/assets/cards/saiyan-249-medic-kit.webp?v=d4cb1dacbb",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
   },
   {
@@ -3214,7 +3214,7 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=49b36312df",
+    "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=d6ce498fac",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/"
   },
   {
