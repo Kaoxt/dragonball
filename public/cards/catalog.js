@@ -1645,7 +1645,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=2da21d4607",
+    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=53c11a17fc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1697,7 +1697,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=5449240ed0",
+    "image": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=fd1bbdad8c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1749,7 +1749,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-135-black-arm-bar-drill.webp?v=a409b0eb0b",
+    "image": "/assets/cards/saiyan-135-black-arm-bar-drill.webp?v=b70243adec",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1762,7 +1762,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=50d565f74f",
+    "image": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=b939ae6173",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1853,7 +1853,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-143-black-physical-drill.webp?v=32e6195790",
+    "image": "/assets/cards/saiyan-143-black-physical-drill.webp?v=2e539ea49e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1905,7 +1905,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-147-black-striking-drill.webp?v=4a4ad7f321",
+    "image": "/assets/cards/saiyan-147-black-striking-drill.webp?v=62b3a907ad",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -1970,7 +1970,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=d5bf9fa6c5",
+    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=b8f2441b1a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484
@@ -2947,7 +2947,7 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=3a54fe0fab",
+    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=36b4397978",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/"
   },
   {
