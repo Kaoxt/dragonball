@@ -83,3 +83,23 @@ test('encoded mention labels obey the same 160-character limit as the server', (
   assert.equal(context.window.DragonForumEditor.plainMentions(tooLong), tooLong);
 });
 
+
+test('a quoted author and message share one box, with the reply outside', () => {
+  const html = render('> Kurt wrote:\n> Glad you like it!\n\nTest');
+  assert.equal(html, '<blockquote>Kurt wrote:<br>Glad you like it!</blockquote><br><div>Test</div>');
+});
+
+test('quoted paragraphs stay together while separate quotations stay separate', () => {
+  const html = render('> First paragraph\n>\n> Second paragraph\n\nReply\n\n> Another quotation');
+  assert.equal((html.match(/<blockquote>/g) || []).length, 2);
+  assert.ok(html.includes('<blockquote>First paragraph<br><br>Second paragraph</blockquote>'));
+  assert.ok(html.includes('<div>Reply</div>'));
+});
+
+test('multiline quotes preserve safe inline formatting and escaped HTML', () => {
+  const html = render('> **Kurt wrote:**\n> <script>alert(1)</script>\n> [link](https://example.com)');
+  assert.equal((html.match(/<blockquote>/g) || []).length, 1);
+  assert.ok(html.includes('<strong>Kurt wrote:</strong><br>&lt;script&gt;'));
+  assert.ok(html.includes('href="https://example.com/"'));
+  assert.ok(!html.includes('<script>'));
+});

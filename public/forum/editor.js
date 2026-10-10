@@ -63,10 +63,15 @@
     const flush = () => {
       if (!group.length) return;
       const { text, tokens } = tokenizeInline(group.join('\n'));
+      // Consecutive quoted lines form one quotation, including its attribution.
+      if (quote) {
+        html += '<blockquote>' + text.split('\n').map(line => formatInline(line, tokens)).join('<br>') + '</blockquote>';
+        group = [];
+        return;
+      }
       let list = '';
       const close = () => { if (list) { html += '</' + list + '>'; list = ''; } };
       for (const line of text.split('\n')) {
-        if (quote) { html += '<blockquote>' + formatInline(line, tokens) + '</blockquote>'; continue; }
         const bullet = line.match(/^\s*[-*] (.*)$/), number = line.match(/^\s*\d+\. (.*)$/), kind = bullet ? 'ul' : number ? 'ol' : '';
         if (kind) {
           if (list !== kind) { close(); list = kind; html += '<' + kind + '>'; }
