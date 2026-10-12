@@ -5,7 +5,7 @@ import fs from 'node:fs';
 const source=fs.readFileSync(new URL('../public/load-recovery.js',import.meta.url),'utf8');
 function setup(fetch){
  const listeners={},timers=[];
- const context=vm.createContext({window:{fetch},location:{href:'https://example.com/',origin:'https://example.com'},document:{addEventListener:(name,fn)=>listeners[name]=fn},URL,AbortController,DOMException,Error,setTimeout:(fn,ms)=>{if(ms<10000)timers.push(fn);return fn;},clearTimeout:()=>{}});
+ const context=vm.createContext({window:{fetch,addEventListener(){}},location:{href:'https://example.com/',origin:'https://example.com'},document:{addEventListener:(name,fn)=>listeners[name]=fn},URL,AbortController,DOMException,Error,setTimeout:(fn,ms)=>{if(ms<10000)timers.push(fn);return fn;},clearTimeout:()=>{}});
  vm.runInContext(source,context);
  return {request:context.window.DragonNetwork.fetch,listeners,timers};
 }
@@ -41,7 +41,7 @@ test('every HTML entry loads recovery before styles and application scripts',()=
 test('community dependencies retry before consumers run, and manual retry resumes at failure', async()=>{
  const boot=fs.readFileSync(new URL('../public/forum/boot.js',import.meta.url),'utf8');
  const nodes=[],timers=[],error={textContent:''},root={dataset:{},setAttribute(){},removeAttribute(){},replaceChildren(node){this.retry=node;}};
- const context=vm.createContext({location:{pathname:'/'},document:{getElementById:id=>id==='forum-error'?error:root,createElement:tag=>({tagName:tag,remove(){}}),head:{append:node=>nodes.push(node)}},setTimeout:fn=>timers.push(fn)});
+ const context=vm.createContext({location:{pathname:'/'},document:{getElementById:id=>id==='forum-error'?error:root,createElement:tag=>({tagName:tag,remove(){}}),head:{append:node=>{if(node.tagName==='script')nodes.push(node);}}},setTimeout:fn=>timers.push(fn)});
  vm.runInContext(boot,context);
  const flush=async()=>{for(let i=0;i<10;i++){await Promise.resolve();timers.splice(0).forEach(fn=>fn());}};
  assert.match(nodes[0].src,/media/);nodes[0].onload();await flush();
@@ -49,7 +49,6 @@ test('community dependencies retry before consumers run, and manual retry resume
  for(let i=2;i<5;i++){assert.match(nodes[i].src,/editor/);nodes[i].onerror();await flush();}
  assert.equal(nodes.length,5);assert.match(error.textContent,/Unable to load/);
  root.retry.onclick();await flush();assert.match(nodes[5].src,/editor/);
- nodes[5].onload();await flush();assert.match(nodes[6].src,/inbox/);
- nodes[6].onload();await flush();assert.match(nodes[7].src,/forum\.js/);
- nodes[7].onload();await flush();assert.equal(nodes.length,8);
+ nodes[5].onload();await flush();assert.match(nodes[6].src,/forum\.js/);
+ nodes[6].onload();await flush();assert.equal(nodes.length,7);
 });

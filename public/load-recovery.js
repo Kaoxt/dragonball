@@ -1,4 +1,4 @@
-// Loaded before page assets so even early stylesheet failures can recover.
+// Deferred so a slow recovery-script request cannot block the page HTML.
 (() => {
   const nativeFetch = window.fetch.bind(window);
   const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -32,8 +32,7 @@
     }
   };
   const retries = new WeakMap();
-  document.addEventListener('error', event => {
-    const node = event.target;
+  function recover(node) {
     const stylesheet = node?.tagName === 'LINK' && node.rel === 'stylesheet';
     const image = node?.tagName === 'IMG';
     if (!stylesheet && !image) return;
@@ -53,5 +52,11 @@
       url.searchParams.set('_load_retry', String(count + 1));
       if (stylesheet) node.href = url.href; else node.src = url.href;
     }, 500 * 2 ** count);
-  }, true);
+  }
+  document.addEventListener('error', event => recover(event.target), true);
+  // Catch failures that happened before this deferred script executed.
+  window.addEventListener('load', () => {
+    document.querySelectorAll('link[rel=stylesheet]').forEach(node => { if (!node.sheet) recover(node); });
+    document.querySelectorAll('img').forEach(node => { if (node.complete && !node.naturalWidth) recover(node); });
+  }, {once:true});
 })();

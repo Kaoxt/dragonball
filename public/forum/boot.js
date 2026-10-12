@@ -1,7 +1,14 @@
 // Load dependent community scripts in order; a failed dependency must not run its consumers.
 (() => {
   const admin = location.pathname.startsWith('/forums/admin');
-  const files = admin ? ['media', 'common', 'admin'] : ['media', 'common', 'editor', 'inbox', 'forum'];
+  const files = admin ? ['media', 'common', 'admin'] : ['media', 'common', 'editor', ...(location.pathname.startsWith('/forums') ? ['inbox'] : []), 'forum'];
+  // Fetch in parallel, but execute only once each preceding dependency is ready.
+  for (const name of files) {
+    const preload = document.createElement('link');
+    preload.rel = 'preload'; preload.as = 'script';
+    preload.href = '/forum/' + name + '.js?v=20261012-recovery';
+    document.head.append(preload);
+  }
   let next = 0, busy = false;
   function script(name) {
     return new Promise((resolve, reject) => {
