@@ -1,8 +1,10 @@
 (() => {
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   async function api(params={},data){
-    const response=await (window.DragonNetwork?.fetch || fetch)('/api/forum?'+new URLSearchParams(params),{credentials:'same-origin',cache:'no-store',...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
-    const result=await response.json().catch(()=>({}));if(!response.ok)throw Error(result.error||'Unable to connect. Please try again.');return result;
+    try {
+    const response=await (window.DragonNetwork?.fetch || fetch)('/api/forum?'+new URLSearchParams(params),{credentials:'same-origin',cache:'no-store',...(!data?{signal:AbortSignal.timeout(15000)}:{}),...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
+    const result=await response.json().catch(()=>{throw Error('Unable to load the response. Please try again.');});if(!response.ok)throw Error(result.error||'Unable to connect. Please try again.');return result;
+    } catch(error) { if(['AbortError','TimeoutError'].includes(error.name))throw Error('The connection took too long. Please try again.');throw error; }
   }
   const date=value=>new Date(value).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
   const author=m=>`<a class="forum-author" href="/forums/#member/${encodeURIComponent(m.member_id)}">${window.DragonIssueMedia.avatar(m.author,m.avatar_url,m.avatar_color)}<span>${esc(m.author)}</span></a>`;

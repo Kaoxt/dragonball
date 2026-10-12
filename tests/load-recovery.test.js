@@ -37,3 +37,19 @@ test('every HTML entry loads recovery before styles and application scripts',()=
  const directory=new URL('../public/',import.meta.url);
  for(const entry of fs.readdirSync(directory,{recursive:true}).filter(x=>x.endsWith('.html'))){const html=fs.readFileSync(new URL(entry,directory),'utf8');const i=html.indexOf('/load-recovery.js');assert.ok(i>=0,entry);assert.ok(i<html.indexOf('rel="stylesheet"'),entry);}
 });
+
+test('community dependencies retry before consumers run, and manual retry resumes at failure', async()=>{
+ const boot=fs.readFileSync(new URL('../public/forum/boot.js',import.meta.url),'utf8');
+ const nodes=[],timers=[],error={textContent:''},root={dataset:{},setAttribute(){},removeAttribute(){},replaceChildren(node){this.retry=node;}};
+ const context=vm.createContext({location:{pathname:'/'},document:{getElementById:id=>id==='forum-error'?error:root,createElement:tag=>({tagName:tag,remove(){}}),head:{append:node=>nodes.push(node)}},setTimeout:fn=>timers.push(fn)});
+ vm.runInContext(boot,context);
+ const flush=async()=>{for(let i=0;i<10;i++){await Promise.resolve();timers.splice(0).forEach(fn=>fn());}};
+ assert.match(nodes[0].src,/media/);nodes[0].onload();await flush();
+ assert.match(nodes[1].src,/common/);nodes[1].onload();await flush();
+ for(let i=2;i<5;i++){assert.match(nodes[i].src,/editor/);nodes[i].onerror();await flush();}
+ assert.equal(nodes.length,5);assert.match(error.textContent,/Unable to load/);
+ root.retry.onclick();await flush();assert.match(nodes[5].src,/editor/);
+ nodes[5].onload();await flush();assert.match(nodes[6].src,/inbox/);
+ nodes[6].onload();await flush();assert.match(nodes[7].src,/forum\.js/);
+ nodes[7].onload();await flush();assert.equal(nodes.length,8);
+});
