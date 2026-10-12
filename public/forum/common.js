@@ -1,7 +1,7 @@
 (() => {
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   async function api(params={},data){
-    const response=await fetch('/api/forum?'+new URLSearchParams(params),{credentials:'same-origin',cache:'no-store',...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
+    const response=await (window.DragonNetwork?.fetch || fetch)('/api/forum?'+new URLSearchParams(params),{credentials:'same-origin',cache:'no-store',...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
     const result=await response.json().catch(()=>({}));if(!response.ok)throw Error(result.error||'Unable to connect. Please try again.');return result;
   }
   const date=value=>new Date(value).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});

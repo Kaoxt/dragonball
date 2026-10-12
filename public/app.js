@@ -20,7 +20,7 @@ async function join(create) {
   if (!create) { try { id = new URL(id).hash.slice(1); } catch { id = id.replace(/^#/, ''); } if (!/^[a-f0-9]{32}$/.test(id)) return toast('Paste a valid room link or 32-character code.'); }
   const button = create ? $('create') : $('join-form').querySelector('button'); button.disabled = true;
   try {
-    const res = await fetch(create ? '/api/rooms' : `/api/room/${id}/join`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) });
+    const res = await (window.DragonNetwork?.fetch || fetch)(create ? '/api/rooms' : `/api/room/${id}/join`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) });
     const data = await res.json(); if (!res.ok) throw new Error(data.error || 'Unable to join.');
     room = data.id; seat = data.seat; location.hash = room; practiceGame = null; intentional = false; connect();
   } catch (e) { toast(e.message); } finally { button.disabled = false; }
@@ -202,7 +202,7 @@ $('open-deck').onclick = async () => {
   $('deck-error').textContent = '';
   $('builder-saved-decks').replaceChildren(new Option('Choose a deck…',''));
   availableBuilderDecks=[];$('builder-saved-decks').disabled=true;$('deck-dialog').showModal();
-  try {const response=await fetch('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status===401)availableBuilderDecks=readDecks().decks;else{const result=await response.json();if(!response.ok)throw Error(result.error);availableBuilderDecks=result.data.decks;}for(const d of availableBuilderDecks)$('builder-saved-decks').add(new Option(d.name||'Untitled deck',d.id)); }
+  try {const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status===401)availableBuilderDecks=readDecks().decks;else{const result=await response.json();if(!response.ok)throw Error(result.error);availableBuilderDecks=result.data.decks;}for(const d of availableBuilderDecks)$('builder-saved-decks').add(new Option(d.name||'Untitled deck',d.id)); }
   catch { $('deck-error').textContent = 'Saved decks could not be read. You can still import a deck file.'; }
   $('builder-saved-decks').disabled=false;
 };

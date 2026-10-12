@@ -24,7 +24,7 @@
   retry.onclick=()=>mount(form);
   const update=(ready,text)=>{if(current!==state)return;state.ready=ready;button.disabled=!ready;message.textContent=text;};
   try{
-   const response=await fetch('/api/auth/config',{credentials:'same-origin',cache:'no-store'});
+   const response=await (window.DragonNetwork?.fetch || fetch)('/api/auth/config',{credentials:'same-origin',cache:'no-store'});
    if(!response.ok)throw Error('Security check is unavailable. Please try again.');
    const {turnstile:config}=await response.json();if(current!==state)return;
    if(config?.required===false){state.required=false;update(true,'');box.hidden=true;return;}

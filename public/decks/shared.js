@@ -2,7 +2,7 @@ const root=document.getElementById('shared-deck');
 const el=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
 try{
  const id=new URLSearchParams(location.search).get('id');if(!id)throw Error('No shared deck selected.');
- const response=await fetch('/api/decks?share='+encodeURIComponent(id),{cache:'no-store'}),result=await response.json();
+ const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks?share='+encodeURIComponent(id),{cache:'no-store'}),result=await response.json();
  if(!response.ok)throw Error(result.error||'Unable to load this deck.');
  const deck=result.deck;document.title=deck.name+' · Dragon Ball Online';root.replaceChildren(el('h1',deck.name),el('p','Public deck'+(deck.tokui?' · '+deck.tokui:'')));
  const link=el('a','Open deck builder');link.href='/decks/';root.append(link);

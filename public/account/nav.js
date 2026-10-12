@@ -19,7 +19,7 @@
   let actions=document.getElementById('account-nav-actions');
   if(!actions){actions=document.createElement('div');actions.id='account-nav-actions';actions.className='account-nav-actions';actions.innerHTML=initialPreview();nav.append(actions);}
   try{
-   const response=await fetch('/api/auth/session',{credentials:'same-origin',cache:'no-store'});if(version!==authVersion)return;if(!response.ok)return;
+   const response=await (window.DragonNetwork?.fetch || fetch)('/api/auth/session',{credentials:'same-origin',cache:'no-store'});if(version!==authVersion)return;if(!response.ok)return;
    const {user}=await response.json();if(version!==authVersion)return;
    if(!user){cachePreview(null);identity='';actions.classList.remove('is-signed-in');actions.innerHTML='<a id="account-nav" class="account-nav-link" href="/account/">Log In</a>';document.getElementById('mobile-alert-count')?.remove();const fa=document.getElementById('forum-alerts');if(fa)fa.hidden=true;return;}
    actions.classList.add('is-signed-in');
@@ -36,11 +36,11 @@
     actions.querySelectorAll('img').forEach(image=>{image.onerror=()=>{image.onerror=null;image.src='/assets/default-avatar-dragonball.webp';};});
     document.getElementById('nav-logout').onclick=async e=>{
      const button=e.currentTarget;button.disabled=true;const error=document.getElementById('account-menu-error');
-     try{const r=await fetch('/api/auth/logout',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('Unable to log out. Please try again.');window.dispatchEvent(new Event('dragon:auth-signed-out'));}
+     try{const r=await (window.DragonNetwork?.fetch || fetch)('/api/auth/logout',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('Unable to log out. Please try again.');window.dispatchEvent(new Event('dragon:auth-signed-out'));}
      catch(e){error.hidden=false;error.textContent=e.message;button.disabled=false;}
     };
    }
-   const nr=await fetch('/api/forum?view=alerts',{credentials:'same-origin',cache:'no-store'});
+   const nr=await (window.DragonNetwork?.fetch || fetch)('/api/forum?view=alerts',{credentials:'same-origin',cache:'no-store'});
    const counts=nr.ok?await nr.json():{};if(version!==authVersion)return;
    const count=n=>Math.max(0,Math.floor(Number(n)||0));
    const badge=n=>count(n)?'<span class="account-badge">'+count(n)+'</span>':'';

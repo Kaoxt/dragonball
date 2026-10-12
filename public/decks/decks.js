@@ -12,7 +12,7 @@ if(!data.decks.length){const deck=createDeck();data.decks.push(deck);data.active
 const browserData=structuredClone(data);
 let shares={};
 let syncUser=null,syncVersion=0,syncBusy=false,syncDirty=false,syncBlocked=false,syncTimer;
-try{const response=await fetch('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status!==401){const result=await response.json();if(!response.ok)throw Error(result.error);shares=result.shares||{};syncUser=result.userId;syncVersion=result.version;data=result.data;storageBroken=false;if(!data.decks.length){const fresh=createDeck();data.decks.push(fresh);data.active=fresh.id;}}}
+try{const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status!==401){const result=await response.json();if(!response.ok)throw Error(result.error);shares=result.shares||{};syncUser=result.userId;syncVersion=result.version;data=result.data;storageBroken=false;if(!data.decks.length){const fresh=createDeck();data.decks.push(fresh);data.active=fresh.id;}}}
 catch(e){document.querySelector('.builder-layout').textContent='Unable to load account decks. Reload to try again. Your browser decks are unchanged.';throw e;}
 const requestedDeck=new URLSearchParams(location.search).get('deck');
 let deck=data.decks.find(d=>d.id===(requestedDeck||data.active))||data.decks[0];
@@ -20,7 +20,7 @@ function message(text){$('builder-message').textContent=text;clearTimeout(messag
 async function syncDecks(){
  if(!syncUser||syncBusy||syncBlocked||!syncDirty)return;
  syncBusy=true;syncDirty=false;$('save-status').textContent='Saving to account…';
- try{const response=await fetch('/api/decks',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({userId:syncUser,version:syncVersion,data})});const result=await response.json();if(!response.ok){if([400,401,409,413].includes(response.status))syncBlocked=true;throw Error(result.error||'Unable to sync decks.');}syncVersion=result.version;shares=result.shares||{};renderSharing();$('save-status').textContent='Saved to your account';}
+ try{const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({userId:syncUser,version:syncVersion,data})});const result=await response.json();if(!response.ok){if([400,401,409,413].includes(response.status))syncBlocked=true;throw Error(result.error||'Unable to sync decks.');}syncVersion=result.version;shares=result.shares||{};renderSharing();$('save-status').textContent='Saved to your account';}
  catch(e){syncDirty=true;$('save-status').textContent=e.message+' Your edits remain here; export a backup.';}
  finally{syncBusy=false;renderSharing();if(syncDirty&&!syncBlocked)syncTimer=setTimeout(syncDecks,5000);}
 }
