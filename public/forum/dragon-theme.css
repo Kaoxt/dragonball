@@ -112,3 +112,16 @@ body.community-page main .forum-shell a[href]:any-link:hover{
 .admin-page .admin-member .issue-form{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}
 .admin-page .admin-member .issue-body{font-size:13px;margin:12px 0}
 @media(max-width:650px){.admin-page .forum-admin-grid,.admin-shortcuts{grid-template-columns:1fr}.admin-page .forum-admin-nav{gap:6px}.admin-page .forum-admin-nav a{padding:9px 12px;font-size:13px}}
+
+/* A dark canvas remains visible during mobile keyboard viewport changes.
+   Keep the crimson tint in the painted layers, not the exposed fallback. */
+body.arena-page.community-page{
+ min-height:100vh;min-height:100dvh;background-color:#130e0f;
+ background-image:linear-gradient(90deg,#100b0dd9,#100b0d70 55%,#100b0db8),url('/assets/burnt-orange-playmat.webp'),linear-gradient(#681824,#681824);
+ background-blend-mode:normal,luminosity,normal;
+}
+@media (hover:none) and (pointer:coarse){
+ body.arena-page.community-page{background-attachment:scroll}
+}
+.forum-shell a.forum-post-bar-author{color:inherit;text-decoration:none}
+.forum-shell a.forum-post-bar-author:hover{text-decoration:underline}

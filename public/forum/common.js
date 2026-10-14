@@ -7,7 +7,7 @@
     } catch(error) { if(['AbortError','TimeoutError'].includes(error.name))throw Error('The connection took too long. Please try again.');throw error; }
   }
   const date=value=>new Date(value).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
-  const author=m=>`<a class="forum-author" href="/forums/#member/${encodeURIComponent(m.member_id)}">${window.DragonIssueMedia.avatar(m.author,m.avatar_url,m.avatar_color)}<span>${esc(m.author)}</span></a>`;
+  const author=(m,{avatarOnly=false}={})=>`<a class="forum-author" aria-label="${esc(m.author)}" href="/forums/#member/${encodeURIComponent(m.member_id)}">${window.DragonIssueMedia.avatar(m.author,m.avatar_url,m.avatar_color)}${avatarOnly?'':`<span>${esc(m.author)}</span>`}</a>`;
   const flagIcon=(label,path)=>`<span class="forum-status-icon" role="img" aria-label="${label}" title="${label}"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${path}</svg></span>`;
   const flags=t=>`${t.pinned?flagIcon('Pinned','<path d="M9 3h6l-1 6 4 4v2H6v-2l4-4-1-6ZM12 15v6"/>'):''}${t.locked?flagIcon('Locked','<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/>'):''}${t.hidden?'<span class="issue-badge">Hidden</span>':''}`;
   const icons={
