@@ -11,7 +11,8 @@
  const safeAvatar=value=>{if(/^\/api\/avatars\/[0-9a-f-]{36}$/.test(value||''))return value;try{const url=new URL(value);if(url.protocol==='https:')return url.href;}catch{}return '/assets/default-avatar-dragonball.webp';};
  function initialPreview(){
   let cached;try{cached=JSON.parse(sessionStorage.getItem(cacheKey));}catch{}
-  const name=typeof cached?.name==='string'?cached.name.slice(0,100):'Account';
+  if(typeof cached?.name!=='string'||!cached.name.trim())return '<a id="account-nav" class="account-nav-link" href="/account/">Log In</a>';
+  const name=cached.name.slice(0,100);
   return '<a class="account-loading-preview" href="/account/" aria-label="Checking account" aria-busy="true"><img src="'+esc(safeAvatar(cached?.avatar))+'" width="30" height="30" alt="" referrerpolicy="no-referrer"><span>'+esc(name)+'</span>'+chevron+'</a>';
  }
  async function update(){
