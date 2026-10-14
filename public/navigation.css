@@ -48,3 +48,7 @@ body .site-header .nav-rules{width:98px;filter:none}
 body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
 @media(min-width:1201px) and (max-width:1450px){body .site-header .nav-wordmark{height:22px}}
 @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){body .site-header .nav-wordmark{height:18px}}
+
+/* Give the horizontal navigation labels a little more breathing room. */
+@media(min-width:1201px){body .site-header nav{gap:10px}}
+@media(min-width:900px) and (max-width:1200px) and (orientation:landscape){body .site-header nav,body .site-header nav.is-open{gap:5px}}
