@@ -4,6 +4,13 @@ This source reproduces the updated Saiyan Saga cards 1–5 using the current com
 master geometry, retained artwork, native font outlines and the smaller rarity
 ball/number treatment. It does not require image generation.
 
+The orange-and-black outer background matches the broad diagonal streak style
+of the user's Red Lunge Punch reference (October 15, 2026). It is a separate
+Imagegen texture layer in `assets/orange-base.png`; the title, white rules panel,
+footer rails, borders, typography, symbols and retained character artwork are
+assembled from their existing sources. The combat bar uses an orange palette.
+All five cards share the same background placement and native frame geometry.
+
 Run from the repository root:
 
 ```sh

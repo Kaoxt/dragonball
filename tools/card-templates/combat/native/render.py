@@ -60,11 +60,11 @@ def svg(body,title):
     return f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1060" height="1484" viewBox="0 0 1060 1484"><title>{html.escape(title)}</title>{body}</svg>'
 
 # Reuse the exact approved native geometry. The physical-combat bar gets the
-# established amber palette while its texture spacing stays constant.
+# Orange palette while its texture spacing stays constant.
 frame=(HERE/'assets/frame.svg').read_text()
 frame=frame[frame.index('<defs>'):frame.rindex('</svg>')]
 frame=frame.replace('fill="#101113"','fill="#17181a"').replace('fill="#17181a" stroke="#090a0b"','fill="none" stroke="#090a0b"')
-frame=frame.replace('</defs>','''<pattern id="orange-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#95631f"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="#805119" stroke-width=".65"/></pattern></defs>''')
+frame=frame.replace('</defs>','''<pattern id="orange-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#a84414"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="#87350f" stroke-width=".65"/></pattern></defs>''')
 frame=frame.replace('<g fill="url(#dark-diamonds)"><path d="M184,954','<g fill="url(#orange-diamonds)"><path d="M184,954')
 
 # KanjiVG's Orange glyph, no stroke numbers, centered by actual vector bounds.
