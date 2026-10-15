@@ -7,11 +7,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=789581b2b7",
+    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=e745ce4d8f",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=37c8fb7b85"
+    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=d4f99689f1"
   },
   {
     "id": "saiyan-002-orange-one-knuckle-punch",
@@ -21,11 +21,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=83c0d08084",
+    "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=24297bc14e",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=70ff7a23cb"
+    "downloadImage": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=47de32ea53"
   },
   {
     "id": "saiyan-003-orange-two-knuckle-punch",
@@ -35,11 +35,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=6835109b3f",
+    "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=91d6cce232",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=80f3758568"
+    "downloadImage": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=78bbecf531"
   },
   {
     "id": "saiyan-004-orange-leg-sweep",
@@ -49,11 +49,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=c9ed4efd6e",
+    "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=2b07aba6d1",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=a3f9051fa2"
+    "downloadImage": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=68d41dfa4d"
   },
   {
     "id": "saiyan-005-orange-arm-bar",
@@ -63,11 +63,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=da340caa8c",
+    "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=dadbdbf586",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=7877f1c5fb"
+    "downloadImage": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=fed4952d49"
   },
   {
     "id": "saiyan-006-red-lunge-punch",
@@ -3319,3 +3319,4 @@ export const catalog = [
     "height": 1484
   }
 ];
+
