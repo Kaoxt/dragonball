@@ -1,0 +1,13 @@
+interface:
+  display_name: Dragon Ball OCG Combat Master
+  short_description: Create images with the Dragon Ball OCG Combat Master template
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Create an image using the Dragon Ball OCG Combat Master template.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

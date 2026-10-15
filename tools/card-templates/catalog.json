@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "combat",
+      "name": "Combat",
+      "status": "approved",
+      "version": "1.0.0",
+      "path": "combat",
+      "approvedOn": "2026-10-15",
+      "manifest": "combat/artifact-template.json",
+      "sourceSkill": "artifact-template-dragon-ball-ocg-combat-master",
+      "sourceSkillCommit": "2c73760a37c6621a1a729c968b567a6c8b47f8c8",
+      "referenceSha256": "4c74a077a773a4e6472d7039b3021ccb3704f5ee9731917aabe733ccb751cc7f"
+    },
+    {
+      "id": "main-personalities",
+      "name": "Main Personalities",
+      "status": "pending",
+      "version": null,
+      "path": "main-personalities"
+    },
+    {
+      "id": "masteries",
+      "name": "Masteries",
+      "status": "pending",
+      "version": null,
+      "path": "masteries"
+    },
+    {
+      "id": "locations-battlegrounds",
+      "name": "Locations / Battlegrounds",
+      "status": "pending",
+      "version": null,
+      "path": "locations-battlegrounds"
+    },
+    {
+      "id": "sensei",
+      "name": "Sensei",
+      "status": "pending",
+      "version": null,
+      "path": "sensei"
+    },
+    {
+      "id": "dragon-balls",
+      "name": "Dragon Balls",
+      "status": "pending",
+      "version": null,
+      "path": "dragon-balls"
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "status": "pending",
+      "version": null,
+      "path": "events"
+    },
+    {
+      "id": "setups",
+      "name": "Setups",
+      "status": "pending",
+      "version": null,
+      "path": "setups"
+    },
+    {
+      "id": "drills",
+      "name": "Drills",
+      "status": "pending",
+      "version": null,
+      "path": "drills"
+    }
+  ]
+}

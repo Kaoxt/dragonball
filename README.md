@@ -133,3 +133,8 @@ Only an account possessing the single-use owner setup token can claim administra
 The registration form supports a dark, responsive Turnstile Managed widget. Activation requires creating a widget in Cloudflare Turnstile with hostnames `dragonballocg.com` and `dragonball.kurtfelton.workers.dev`, then adding `TURNSTILE_SITE_KEY` (Text) and `TURNSTILE_SECRET_KEY` (Secret) to the `dragonball` Worker's Settings → Variables and Secrets. Deploy the settings together. Do not put the secret in source control. Pre-clearance is not required.
 
 Until both keys are provisioned, a completely unconfigured deployment retains the existing registration flow; it must not be described as CAPTCHA-protected. Partial configuration blocks registration. Once configured, registration always validates the single-use token with Cloudflare Siteverify on the server, including hostname and `register` action, before looking up or creating an account. Missing, expired, replayed, invalid or unverifiable tokens cannot create accounts. Login and existing sessions remain available. The browser disables submission until verification succeeds, resets the widget after rejected submissions, and offers retry on loading errors. `/api/auth/config` exposes only readiness and the public site key.
+
+## Approved card templates
+
+The [card-template collection](tools/card-templates/README.md) stores approved production references, reusable vector frames, layout coordinates, and design rules. The Combat Master is approved; other card types remain pending until their masters are finished and approved. These source files are kept outside `public` and do not change existing cards or gameplay.
+

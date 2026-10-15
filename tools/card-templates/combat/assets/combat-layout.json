@@ -1,0 +1,114 @@
+{
+  "canvas": {
+    "width": 1060,
+    "height": 1484,
+    "aspect": "5:7"
+  },
+  "reference_card": {
+    "title": "BLACK FORE FIST PUNCH",
+    "number": "65",
+    "style": "Black",
+    "category": "ENERGY COMBAT",
+    "rarity": "Uncommon",
+    "dragon_ball_stars": 3
+  },
+  "title": {
+    "box": [
+      36,
+      26,
+      988,
+      101
+    ],
+    "corner_radius": 50.5,
+    "center": [
+      530,
+      76.5
+    ],
+    "tracking": "positive, even; never touching",
+    "case": "uppercase"
+  },
+  "artwork": {
+    "box": [
+      0,
+      156,
+      1060,
+      794
+    ],
+    "clipped": true
+  },
+  "combat_bar": {
+    "box": [
+      184,
+      954,
+      839,
+      94
+    ],
+    "corner_radius": 47,
+    "text_center": [
+      607,
+      1001
+    ]
+  },
+  "style_badge": {
+    "center": [
+      123,
+      995.5
+    ],
+    "radius": 83.5,
+    "symbol_centered": true,
+    "black_style_symbol": "黒",
+    "black_style_fill": "#ffffff",
+    "glow": false
+  },
+  "rules_panel": {
+    "box": [
+      25,
+      1054,
+      1010,
+      286
+    ],
+    "corner_radius": 44,
+    "inner_text_bounds": [
+      105,
+      1108,
+      850,
+      182
+    ],
+    "alignment": "center",
+    "icon_placement": "inline before attack or stop sentence"
+  },
+  "footer": {
+    "upper_y": 1355,
+    "lower_y": 1440,
+    "left_set_logo_center": [
+      148,
+      1398
+    ],
+    "set_logo_max_bounds": [
+      62,
+      60
+    ],
+    "right_group_center": [
+      907,
+      1398
+    ],
+    "rarity_ball_diameter": 52,
+    "number_visible_height": 44,
+    "rarity_number_gap": 18,
+    "vertical_alignment": "align visible bounding-box centers, not font baseline",
+    "background": "identical dark diamond pattern for both compartments"
+  },
+  "borders": {
+    "title_light_width": 5.5,
+    "combat_light_width": 5.0,
+    "badge_light_width": 5.2,
+    "footer_light_width": 6.3,
+    "rules_dark_width": 3,
+    "palette": {
+      "light": "#eeeeee",
+      "dark": "#0a0a0a"
+    },
+    "geometry": "see combat-master-frame.svg and combat-border-vectors.svg"
+  },
+  "text_status": "Reference lettering and artwork are raster. Frame assets are true editable SVG geometry. Exact original font files were not supplied."
+}

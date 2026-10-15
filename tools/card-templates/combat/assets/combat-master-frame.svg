@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1484" viewBox="0 0 1060 1484" version="1.1"><title>Dragon Ball OCG Combat Master — reusable vector frame</title><desc>Transparent artwork opening. Add the outer texture below this frame, then the card title, combat label, rules, style emblem, set emblem, rarity and number as separate layers. All retained frame geometry is vector.</desc><defs>
+<pattern id="dark-diamonds" width="14" height="14" patternUnits="userSpaceOnUse">
+<rect width="14" height="14" fill="#101113" />
+<path d="M7 0L14 7L7 14L0 7Z" fill="#17181a" stroke="#090a0b" stroke-width="1" />
+</pattern>
+<linearGradient id="rules-white" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" /><stop offset="0.7" stop-color="#fff" /><stop offset="1" stop-color="#eeeeef" /></linearGradient>
+</defs><g id="header-art-divider"><path d="M 0,154 H 1060" fill="none" stroke="#080808" stroke-width="5" /></g>
+<g id="art-combat-divider"><path d="M 0,950 H 48 M 199,950 H 1060" fill="none" stroke="#080808" stroke-width="4" /></g>
+<g id="title-panel" fill="url(#dark-diamonds)"><rect x="36" y="26" width="988" height="101" rx="50.5" /></g>
+<g id="title-border"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="10.5" stroke-linecap="square"><rect x="36" y="26" width="988" height="101" rx="50.5" /></g><g stroke="#eeeeee" stroke-width="5.5"><rect x="36" y="26" width="988" height="101" rx="50.5" /></g></g></g>
+<g id="footer-panels"><path d="M32,1355 H234 L274,1398 H300 L321,1391 L274,1440 H79 L32,1390 Z" fill="url(#dark-diamonds)" /><g transform="translate(1060,0) scale(-1,1)"><path d="M32,1355 H234 L274,1398 H300 L321,1391 L274,1440 H79 L32,1390 Z" fill="url(#dark-diamonds)" /></g></g>
+<g id="footer-center-bridge"><path d="M 263,1376 H 797 L 782,1391 H 749 L 740,1382 H 320 L 311,1391 H 278 Z" fill="#eeeeee" stroke="#0a0a0a" stroke-width="3" stroke-linejoin="miter" /></g>
+<g id="footer-upper-left"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="14" stroke-linecap="square"><path d="M 40,1355 H 234 L 274,1398 H 300" /></g><g stroke="#eeeeee" stroke-width="6.3"><path d="M 40,1355 H 234 L 274,1398 H 300" /></g></g></g>
+<g id="footer-upper-right" transform="translate(1060,0) scale(-1,1)"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="14" stroke-linecap="square"><path d="M 40,1355 H 234 L 274,1398 H 300" /></g><g stroke="#eeeeee" stroke-width="6.3"><path d="M 40,1355 H 234 L 274,1398 H 300" /></g></g></g>
+<g id="footer-lower-left"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="14" stroke-linecap="square"><path d="M 32,1317 V 1390 L 79,1440 H 274 L 321,1391 H 369" /></g><g stroke="#eeeeee" stroke-width="6.3"><path d="M 32,1317 V 1390 L 79,1440 H 274 L 321,1391 H 369" /></g></g></g>
+<g id="footer-lower-right" transform="translate(1060,0) scale(-1,1)"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="14" stroke-linecap="square"><path d="M 32,1317 V 1390 L 79,1440 H 274 L 321,1391 H 369" /></g><g stroke="#eeeeee" stroke-width="6.3"><path d="M 32,1317 V 1390 L 79,1440 H 274 L 321,1391 H 369" /></g></g></g>
+<g id="rules-panel-outline" fill="url(#rules-white)" stroke="#0a0a0a" stroke-width="3"><rect x="25" y="1054" width="1010" height="286" rx="44" /></g>
+<g fill="url(#dark-diamonds)"><path d="M184,954 H976 A47,47 0 0 1 976,1048 H184 Z" /></g>
+<g id="combat-border"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="9.5" stroke-linecap="square"><path d="M 198,954 H 976 A 47,47 0 0 1 976,1048 H 184" /></g><g stroke="#eeeeee" stroke-width="5.0"><path d="M 198,954 H 976 A 47,47 0 0 1 976,1048 H 184" /></g></g></g>
+<g fill="url(#dark-diamonds)"><circle cx="123" cy="995.5" r="83.5" /></g>
+<g id="badge-border"><g fill="none" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><g stroke="#0a0a0a" stroke-width="10.0" stroke-linecap="square"><circle cx="123" cy="995.5" r="83.5" /></g><g stroke="#eeeeee" stroke-width="5.2"><circle cx="123" cy="995.5" r="83.5" /></g></g></g></svg>
