@@ -12,7 +12,7 @@ export async function decksRequest(request,env){
    return reply({deck:JSON.parse(row.data)});
   }
   const sharesFor=id=>Object.fromEntries(db.prepare('SELECT deck_id,share_id FROM public_decks WHERE user_id=?').bind(id).all().results.map(r=>[r.deck_id,r.share_id]));
-  const user=await readSession(request,env);if(!user)throw new IssueError('Log in to sync your decks.',401);
+  const user=await readSession(request,env);if(!user)throw new IssueError('Log in to create and save decks.',401);
   db.prepare("CREATE TABLE IF NOT EXISTS account_decks(user_id TEXT PRIMARY KEY,data TEXT NOT NULL,version INTEGER NOT NULL DEFAULT 0,updated_at TEXT NOT NULL)").run();
   if(request.method==='GET'){const row=db.prepare('SELECT data,version FROM account_decks WHERE user_id=?').bind(user.id).first();return reply({shares:sharesFor(user.id),userId:user.id,version:row?.version||0,data:row?JSON.parse(row.data):{decks:[],active:null}});}
   if(request.method!=='POST')throw new IssueError('Method not allowed.',405);

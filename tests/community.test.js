@@ -223,6 +223,9 @@ test('account decks are private, persistent, origin-checked and versioned',async
  const first=(await call('alice')).data;assert.equal(first.version,0);
  const deck={id:'test-deck',name:'My deck',tokui:'Black',personalities:[null,null,null,null,null],cards:[],senseiDeck:[],mastery:null,sensei:null};
  const payload={userId:first.userId,version:0,data:{decks:[deck],active:deck.id}};
+ assert.equal((await call(null,payload)).status,401);
+ f.cookies.expired='dragon_session='+'a'.repeat(64);
+ assert.equal((await call('expired',payload)).status,401);
  assert.equal((await call('alice',payload,'https://evil.test')).status,403);
  assert.equal((await call('bob',payload)).status,409);
  assert.equal((await call('alice',payload)).status,200);

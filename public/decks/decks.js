@@ -6,29 +6,45 @@ const $ = id => document.getElementById(id);
 const node = (tag, text, className) => { const el=document.createElement(tag); if(text!==undefined)el.textContent=text;if(className)el.className=className;return el; };
 const button = (text, label, action, className='') => {const b=node('button',text,className);b.type='button';b.setAttribute('aria-label',label);b.onclick=action;return b;};
 const normalize = s => String(s || '').toLowerCase().replace(/[’']/g,'');
+const gate=$('deck-access'),workspace=$('deck-workspace');
+function showAccess(message,login=false){
+ workspace.hidden=true;workspace.inert=true;gate.hidden=false;
+ gate.replaceChildren(node('h1',login?'Log in to create decks':'Deck builder'),node('p',message));
+ if(login){
+  for(const [label,mode] of [['Log in','login'],['Create account','register']]){const link=node('a',label);link.href='/account/?mode='+mode+'&next='+encodeURIComponent(location.pathname+location.search);gate.append(link,node('span',' '));}
+ }else gate.append(button('Try again','Reload deck builder',()=>location.reload()));
+}
+async function initialize(){
 let data, storageBroken=false, visible=48, previewCard, messageTimer;
 try { data=readDecks(); } catch {data={decks:[],active:null};storageBroken=true;}
-if(!data.decks.length){const deck=createDeck();data.decks.push(deck);data.active=deck.id;}
 const browserData=structuredClone(data);
 let shares={};
 let syncUser=null,syncVersion=0,syncBusy=false,syncDirty=false,syncBlocked=false,syncTimer;
-try{const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{credentials:'same-origin',cache:'no-store'});if(response.status!==401){const result=await response.json();if(!response.ok)throw Error(result.error);shares=result.shares||{};syncUser=result.userId;syncVersion=result.version;data=result.data;storageBroken=false;if(!data.decks.length){const fresh=createDeck();data.decks.push(fresh);data.active=fresh.id;}}}
-catch(e){document.querySelector('.builder-layout').textContent='Unable to load account decks. Reload to try again. Your browser decks are unchanged.';throw e;}
+function lockBuilder(){syncBlocked=true;syncDirty=false;clearTimeout(syncTimer);for(const dialog of document.querySelectorAll('dialog[open]'))dialog.close();showAccess('Log in or create an account to build and save your decks.',true);}
+window.addEventListener('dragon:auth-signed-out',lockBuilder);
+const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{credentials:'same-origin',cache:'no-store'});
+if(response.status===401){lockBuilder();return;}
+if(syncBlocked)return;
+const result=await response.json();
+if(!response.ok)throw Error(result.error||'Unable to load account decks.');
+if(!result.userId)throw Error('Unable to verify your account.');
+shares=result.shares||{};syncUser=result.userId;syncVersion=result.version;data=result.data;storageBroken=false;
+if(!data.decks.length){const fresh=createDeck();data.decks.push(fresh);data.active=fresh.id;}
 const requestedDeck=new URLSearchParams(location.search).get('deck');
 let deck=data.decks.find(d=>d.id===(requestedDeck||data.active))||data.decks[0];
 function message(text){$('builder-message').textContent=text;clearTimeout(messageTimer);messageTimer=setTimeout(()=>$('builder-message').textContent='',4500);}
 async function syncDecks(){
  if(!syncUser||syncBusy||syncBlocked||!syncDirty)return;
  syncBusy=true;syncDirty=false;$('save-status').textContent='Saving to account…';
- try{const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({userId:syncUser,version:syncVersion,data})});const result=await response.json();if(!response.ok){if([400,401,409,413].includes(response.status))syncBlocked=true;throw Error(result.error||'Unable to sync decks.');}syncVersion=result.version;shares=result.shares||{};renderSharing();$('save-status').textContent='Saved to your account';}
+ try{const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({userId:syncUser,version:syncVersion,data})});const result=await response.json();if(response.status===401){lockBuilder();return;}if(!response.ok){if([400,401,409,413].includes(response.status))syncBlocked=true;throw Error(result.error||'Unable to sync decks.');}syncVersion=result.version;shares=result.shares||{};renderSharing();$('save-status').textContent='Saved to your account';}
  catch(e){syncDirty=true;$('save-status').textContent=e.message+' Your edits remain here; export a backup.';}
  finally{syncBusy=false;renderSharing();if(syncDirty&&!syncBlocked)syncTimer=setTimeout(syncDecks,5000);}
 }
 function save(){
- data.active=deck.id;
- if(syncUser){syncDirty=true;$('save-status').textContent=syncBlocked?'Sync paused — export changes and reload':'Saving to account…';clearTimeout(syncTimer);syncTimer=setTimeout(syncDecks,400);return;}
- try{if(storageBroken)throw new Error();localStorage.setItem(STORAGE_KEY,JSON.stringify(data));$('save-status').textContent='Saved in this browser — log in for account sync';}
- catch{$('save-status').textContent='Unable to save locally — export a backup';}
+ if(!syncUser||workspace.inert)return;
+ data.active=deck.id;syncDirty=true;
+ $('save-status').textContent=syncBlocked?'Sync paused — export changes and reload':'Saving to account…';
+ clearTimeout(syncTimer);syncTimer=setTimeout(syncDecks,400);
 }
 function library(){ $('saved-decks').replaceChildren(...data.decks.map(d=>new Option(d.name||'Untitled deck',d.id)));$('saved-decks').value=deck.id; }
 function changed(){save();renderDeck();renderCounts();}
@@ -100,13 +116,17 @@ $('close-preview').onclick=()=>$('card-preview').close();$('preview-add').onclic
 for(const view of ['cards','deck'])$(view+'-tab').onclick=()=>{document.querySelector('.builder-layout').dataset.view=view;for(const v of ['cards','deck'])$(v+'-tab').setAttribute('aria-pressed',String(v===view));};
 window.addEventListener('storage',e=>{if(!syncUser&&e.key===STORAGE_KEY){storageBroken=true;$('save-status').textContent='Decks changed in another tab — reload before editing';message('Reload to use the latest saved decks.');}});
 const syncNote=document.querySelector('.storage-note');
-syncNote.textContent=syncUser?'Autosaved to your account across devices. Export a deck image to download a backup.':'Autosaved in this browser. Log in to sync decks across devices.';
+syncNote.textContent='Autosaved to your account across devices. Export a deck image to download a backup.';
 if(syncUser&&browserData.decks.some(d=>d.cards.length||d.personalities.some(Boolean)||d.mastery||d.sensei)){
  const importButton=button('Import browser decks','Import decks saved in this browser',()=>{let added=0;for(const d of browserData.decks){if(!data.decks.some(x=>x.id===d.id)){data.decks.push({...structuredClone(d),visibility:'private'});added++;}}if(added){deck=data.decks.at(-1);changed();library();}message(added?`Imported ${added} browser decks`:'These browser decks are already in your account.');});
  syncNote.after(importButton);
 }
 window.addEventListener('beforeunload',event=>{if(syncUser&&(syncDirty||syncBusy)){event.preventDefault();event.returnValue='';}});
+workspace.hidden=false;workspace.inert=false;gate.hidden=true;
 library();browse();renderDeck();save();
 
 
 setupDeckImages({catalog,getDeck:()=>deck,onImport:imported=>{if(syncBlocked)throw Error('Account sync is paused. Export your changes and reload before importing.');if(data.decks.length>=100)throw Error('You have reached 100 decks. Remove a deck before importing another.');data.decks.push(imported);deck=imported;changed();library();$('deck-tab').click();message('Imported as a new private deck');}});
+
+}
+await initialize().catch(()=>showAccess('Unable to load your account decks. Please try again.'));
