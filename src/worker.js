@@ -12,7 +12,9 @@ export default {
     if (u.pathname === '/api/decks' || u.pathname === '/api/forum' || u.pathname.startsWith('/api/auth/') || u.pathname.startsWith('/api/avatars/')) {
       if (!['GET','POST'].includes(req.method)) return json({error:'Method not allowed.'},405);
       if (req.method === 'POST' && req.headers.get('Origin') !== u.origin) return json({error:'Same-origin requests only.'},403);
-      if (u.pathname.startsWith('/api/auth/') && req.method === 'POST' && env.AUTH_LIMITER && !(await env.AUTH_LIMITER.limit({key:req.headers.get('CF-Connecting-IP')||'local'})).success) return json({error:'Too many requests. Please try again shortly.'},429);
+      const communityRoute = u.pathname === '/api/decks' || u.pathname === '/api/forum' || u.pathname.startsWith('/api/auth/') || u.pathname.startsWith('/api/avatars/');
+    if (communityRoute && env.COMMUNITY_LIMITER && !(await env.COMMUNITY_LIMITER.limit({key:req.headers.get('CF-Connecting-IP')||'local'})).success) return json({error:'Too many requests. Please try again shortly.'},429,{'Retry-After':'60'});
+    if (u.pathname.startsWith('/api/auth/') && req.method === 'POST' && env.AUTH_LIMITER && !(await env.AUTH_LIMITER.limit({key:req.headers.get('CF-Connecting-IP')||'local'})).success) return json({error:'Too many requests. Please try again shortly.'},429,{'Retry-After':'60'});
       return env.COMMUNITY.getByName('dragonball-community-v1').fetch(req);
     }
     if (!u.pathname.startsWith('/api/')) return env.ASSETS.fetch(req);
