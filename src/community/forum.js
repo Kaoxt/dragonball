@@ -1,4 +1,5 @@
 import { avatarDb } from './account-avatar.js';
+import { API_SECURITY_HEADERS } from './security.js';
 import { IssueError, profileIdentity, textField } from './issues.js';
 import { assertSameOrigin, isAdminUser, readSession, refreshSessionIfNeeded } from './session.js';
 import { messageSchema } from './forum-messages.js';
@@ -52,7 +53,7 @@ export async function forumDb(env) {
 }
 export async function forumHandle(context, write, run) {
   let cookie;
-  const reply = (data, status=200) => Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...(cookie?{'Set-Cookie':cookie}:{})}});
+  const reply = (data, status=200) => Response.json(data,{status,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store',...(cookie?{'Set-Cookie':cookie}:{})}});
   try {
     if(write && !assertSameOrigin(context.request)) throw new IssueError('Invalid request origin.',403);
     const auth=await refreshSessionIfNeeded(await readSession(context.request,context.env),context.env); cookie=auth.cookie;

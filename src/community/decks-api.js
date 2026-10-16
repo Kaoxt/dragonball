@@ -1,7 +1,8 @@
 import {readSession,assertSameOrigin} from './session.js';
 import {IssueError} from './issues.js';
+import {API_SECURITY_HEADERS} from './security.js';
 export async function decksRequest(request,env){
- const db=env.DB,reply=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+ const db=env.DB,reply=(data,status=200)=>Response.json(data,{status,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store'}});
  try{
   db.prepare("CREATE TABLE IF NOT EXISTS public_decks(share_id TEXT PRIMARY KEY,user_id TEXT NOT NULL,deck_id TEXT NOT NULL,data TEXT NOT NULL,UNIQUE(user_id,deck_id))").run();
   const share=new URL(request.url).searchParams.get('share');
