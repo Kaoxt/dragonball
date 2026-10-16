@@ -61,7 +61,7 @@ export async function authRequest(request,env){
    if(!/^[a-z0-9_]{3,24}$/.test(username))throw new IssueError('Username must be 3–24 letters, numbers, or underscores.');
    rate(db,action+':ip:'+ip,action==='register'?5:20,action==='register'?3600:600);
    if(action!=='register')rate(db,action+':user:'+username,10,600);
-   if(action==='register')await verifyRegistration(request,env,body['cf-turnstile-response']);
+   await verifyRegistration(request,env,body['cf-turnstile-response'],action);
    const existing=db.prepare('SELECT * FROM auth_accounts WHERE username=?').bind(username).first();
    if(action==='register'){
     validPassword(body.password);

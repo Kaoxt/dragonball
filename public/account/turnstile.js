@@ -16,28 +16,28 @@
  function canSubmit(){return !!current?.ready;}
  function validate(){if(!canSubmit())throw Error('Please complete the security check.');}
  function reset(){const state=current;if(!state?.required||state.widget===undefined)return;state.ready=false;state.button.disabled=true;window.turnstile.reset(state.widget);}
- async function mount(form){
+ async function mount(form,action='register'){
   remove();const box=form.querySelector('#registration-security'),button=form.querySelector('[type=submit]');
   const state=current={box,button,ready:false,required:true,widget:undefined};button.disabled=true;
   box.innerHTML='<span class="security-label">Security check</span><p class="security-message" role="status">Loading security check…</p><div class="security-widget"></div><button type="button" class="security-retry" hidden>Retry security check</button>';
   const message=box.querySelector('.security-message'),retry=box.querySelector('.security-retry');
-  retry.onclick=()=>mount(form);
+  retry.onclick=()=>mount(form,action);
   const update=(ready,text)=>{if(current!==state)return;state.ready=ready;button.disabled=!ready;message.textContent=text;};
   try{
    const response=await (window.DragonNetwork?.fetch || fetch)('/api/auth/config',{credentials:'same-origin',cache:'no-store'});
    if(!response.ok)throw Error('Security check is unavailable. Please try again.');
    const {turnstile:config}=await response.json();if(current!==state)return;
    if(config?.required===false){state.required=false;update(true,'');box.hidden=true;return;}
-   if(!config?.ready||!config.siteKey)throw Error('Registration security check is temporarily unavailable. Please try again later.');
+   if(!config?.ready||!config.siteKey)throw Error('Account security check is temporarily unavailable. Please try again later.');
    box.hidden=false;await loadScript();if(current!==state)return;
    state.widget=window.turnstile.render(box.querySelector('.security-widget'),{
-    sitekey:config.siteKey,action:'register',theme:'dark',size:'flexible',
+    sitekey:config.siteKey,action,theme:'dark',size:'flexible',
     callback:()=>{update(true,'Security check complete.');retry.hidden=true;},
     'expired-callback':()=>update(false,'Security check expired. Please verify again.'),
     'timeout-callback':()=>{update(false,'Security check timed out. Please retry.');retry.hidden=false;},
     'error-callback':()=>{update(false,'Security check could not load. Please retry.');retry.hidden=false;}
    });
-   message.textContent='Complete the security check to create your account.';
+   message.textContent='Complete the security check to continue.';
   }catch(error){if(current===state){update(false,error.message);retry.hidden=false;}}
  }
  window.DragonSecurity={mount,remove,reset,validate,canSubmit};

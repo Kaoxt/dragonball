@@ -13,6 +13,35 @@ import { recordTopicView } from '../src/community/topic-views.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
 const topic={action:'topic',categoryId:1,title:'My first Dragon Ball deck',body:'What do you think of this deck?'};
+test('Turnstile protects login and recovery before session or password changes',async t=>{
+ const f=await fixture(),created=await f.register('alice');
+ const oldCookie=f.cookies.alice;
+ f.env.TURNSTILE_SITE_KEY='public-site-key';f.env.TURNSTILE_SECRET_KEY='private-server-key';
+ let result={success:true,hostname:'dragonball.test',action:'login'};
+ t.mock.method(globalThis,'fetch',async()=>Response.json(result));
+ const login={username:'alice',password:'My private password 123!'};
+ const recover={username:'alice',password:'Replacement password 123!',recoveryCode:created.data.recoveryCode};
+ const before=f.env.DB.prepare('SELECT password_version FROM auth_accounts').first().password_version;
+ for(const action of ['login','recover']){
+  const data=action==='login'?login:recover;
+  assert.equal((await f.auth(action+'missing',action,data)).status,400);
+  result={success:true,hostname:'dragonball.test',action:'register'};
+  assert.equal((await f.auth(action+'wrongaction',action,{...data,'cf-turnstile-response':'token'})).status,400);
+  result={success:true,hostname:'other.test',action};
+  assert.equal((await f.auth(action+'wronghost',action,{...data,'cf-turnstile-response':'token'})).status,400);
+  result={success:false,'error-codes':['timeout-or-duplicate']};
+  assert.equal((await f.auth(action+'replayed',action,{...data,'cf-turnstile-response':'token'})).status,400);
+ }
+ assert.equal(f.env.DB.prepare('SELECT password_version FROM auth_accounts').first().password_version,before);
+ assert.equal(f.env.DB.prepare('SELECT COUNT(*) AS n FROM auth_sessions').first().n,1);
+ result={success:true,hostname:'dragonball.test',action:'login'};
+ assert.equal((await f.auth('validlogin','login',{...login,'cf-turnstile-response':'token'})).status,200);
+ result={success:true,hostname:'dragonball.test',action:'recover'};
+ assert.equal((await f.auth('validrecover','recover',{...recover,'cf-turnstile-response':'token'})).status,200);
+ f.cookies.alice=oldCookie;
+ assert.equal((await f.auth('alice','session')).data.user,null);
+ assert.equal(f.env.DB.prepare('SELECT password_version FROM auth_accounts').first().password_version,before+1);
+});
 test('topic views count visits, deduplicate refreshes, and ignore pagination and hidden topics',async()=>{
  const f=await fixture();await f.register('alice');await f.register('bob');
  const id=(await f.forum('alice',topic)).data.id;
@@ -163,7 +192,7 @@ test('Turnstile registration: config privacy, fail-closed verification, hostname
  t.mock.method(globalThis,'fetch',async()=>{throw Error('network down');});
  assert.equal((await f.auth('outage','register',{...verified,username:'outage'})).status,503);
  assert.equal(f.env.DB.prepare('SELECT count(*) AS n FROM auth_accounts').first().n,1);
- assert.equal((await f.auth('valid','login',{username:'protected',password:registration.password})).status,200);
+ assert.equal((await f.auth('valid','login',{username:'protected',password:registration.password})).status,400);
 });
 
 test('avatar uploads enforce size, ownership and origin and appear in profiles',async()=>{

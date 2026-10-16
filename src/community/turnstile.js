@@ -6,11 +6,11 @@ export function turnstileConfig(env) {
  const secretKey=String(env.TURNSTILE_SECRET_KEY||'').trim();
  return {required:!!(siteKey||secretKey),ready:!!(siteKey&&secretKey),siteKey};
 }
-export async function verifyRegistration(request,env,token) {
+export async function verifyRegistration(request,env,token,action='register') {
  const config=turnstileConfig(env);
  // Existing registration remains available until the operator provisions Turnstile.
  if(!config.required)return;
- if(!config.ready)throw new IssueError('Registration security check is temporarily unavailable. Please try again later.',503);
+ if(!config.ready)throw new IssueError('Account security check is temporarily unavailable. Please try again later.',503);
  if(typeof token!=='string'||!token.trim()||token.length>2048)throw new IssueError('Please complete the security check.',400);
  let result;
  try {
@@ -21,6 +21,6 @@ export async function verifyRegistration(request,env,token) {
   if(!response.ok)throw Error('Verification unavailable');
   result=await response.json();
  }catch{throw new IssueError('The security check could not be verified. Please try again.',503);}
- if(result.success!==true||result.action!=='register'||result.hostname!==new URL(request.url).hostname)
+ if(result.success!==true||result.action!==action||result.hostname!==new URL(request.url).hostname)
   throw new IssueError('Security check expired or failed. Please try again.',400);
 }
