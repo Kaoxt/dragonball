@@ -25,7 +25,7 @@ function render(){
  $('no-results').hidden=!!cards.length;
  $('card-grid').replaceChildren(...cards.map(c=>{
   const button=document.createElement('button');button.className='catalog-card';button.type='button';button.setAttribute('aria-label',`View ${c.name}, card ${c.number}`);
-  const img=document.createElement('img');img.src=c.downloadImage||c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
+  const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
   const title=document.createElement('h2');title.textContent=c.name;
   const meta=document.createElement('p');meta.textContent=`#${c.number} · ${c.type}`;
   button.append(img,title,meta);
@@ -34,7 +34,7 @@ function render(){
  }));
 }
 function openCard(c){
- $('detail-image').src=c.downloadImage||c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
+ $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
  $('detail-meta').replaceChildren(...[['Number',c.number],['Type',c.type],['Style',c.style],['Collection',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
  $('preview-note').hidden=c.status!=='Preview';$('card-detail').showModal();
