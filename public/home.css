@@ -96,9 +96,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 @media(min-width:900px){.news-layout{grid-template-columns:minmax(0,1fr) 310px;gap:36px}}
 @media(max-width:650px){.next-move{padding:20px}.next-move h2 img{max-width:280px;margin:auto}.hub-art{height:150px}.hub-copy strong{font-size:15px}.hub-copy small{font-size:12px}}
 
-/* Equal navigation tiles and the banner's small, spaced heading style. */
+/* Banner-style small, spaced heading. */
 @font-face{font-family:HubHeading;src:url('/assets/fonts/rajdhani-semibold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
 .home-page .next-move h2{font-family:HubHeading,'Arial Narrow',sans-serif;font-size:23px;font-weight:600;font-style:normal;line-height:1.4;letter-spacing:.22em;text-transform:uppercase;text-align:center;margin:8px 0 22px}
-.home-page .hub-links{grid-auto-rows:1fr}
-.home-page .hub-links .hub-link{height:100%;min-height:84px}
 @media(max-width:850px) and (min-width:651px){.home-page .next-move h2{font-size:19px;letter-spacing:.18em}}
