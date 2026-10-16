@@ -4,7 +4,7 @@ try{
  const id=new URLSearchParams(location.search).get('id');if(!id)throw Error('No shared deck selected.');
  const response=await (window.DragonNetwork?.fetch || fetch)('/api/decks?share='+encodeURIComponent(id),{cache:'no-store'}),result=await response.json();
  if(!response.ok)throw Error(result.error||'Unable to load this deck.');
- const deck=result.deck;document.title=deck.name+' · Dragon Ball Online';root.replaceChildren(el('h1',deck.name),el('p','Public deck'+(deck.tokui?' · '+deck.tokui:'')));
+ const deck=result.deck;document.title=deck.name+' | Dragon Ball OCG';root.replaceChildren(el('h1',deck.name),el('p','Public deck'+(deck.tokui?' · '+deck.tokui:'')));
  const link=el('a','Open deck builder');link.href='/decks/';root.append(link);
  for(const [title,cards] of [['Starting lineup',[...deck.personalities,deck.mastery,deck.sensei].filter(Boolean)],['Life Deck',deck.cards],['Sensei Deck',deck.senseiDeck]]){
   const section=el('section');section.className='account-card';section.append(el('h2',title+' · '+cards.reduce((n,c)=>n+(c.qty||1),0)));
