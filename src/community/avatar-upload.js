@@ -1,5 +1,6 @@
 import { readSession, assertSameOrigin } from './session.js';
 import { IssueError } from './issues.js';
+import { API_SECURITY_HEADERS } from './security.js';
 export const AVATAR_LIMIT=500*1024;
 function imageType(bytes){
  const b=Buffer.from(bytes);
@@ -11,7 +12,7 @@ function imageType(bytes){
 }
 export async function avatarRequest(request,env){
  const db=env.DB;
- const reply=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+ const reply=(data,status=200)=>Response.json(data,{status,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store'}});
  try{
   const path=new URL(request.url).pathname;
   if(path.startsWith('/api/avatars/')){
@@ -21,7 +22,7 @@ export async function avatarRequest(request,env){
    const row=db.prepare('SELECT image FROM account_avatars WHERE id=? AND image!=?').bind(id,'').first();
    if(!row)throw new IssueError('Avatar not found.',404);
    const bytes=Buffer.from(row.image,'base64');
-   return new Response(request.method==='HEAD'?null:bytes,{headers:{'Content-Type':imageType(bytes),'Content-Length':String(bytes.length),'Cache-Control':'public, max-age=3600','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'; sandbox"}});
+   return new Response(request.method==='HEAD'?null:bytes,{headers:{'Content-Type':imageType(bytes),'Content-Length':String(bytes.length),'Cache-Control':'public, max-age=3600',...API_SECURITY_HEADERS,'Content-Security-Policy':"default-src 'none'; sandbox"}});
   }
   if(request.method!=='POST')throw new IssueError('Method not allowed.',405);
   if(!assertSameOrigin(request))throw new IssueError('Invalid request origin.',403);
