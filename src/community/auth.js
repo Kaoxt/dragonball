@@ -4,6 +4,7 @@ import { hash, readSession, sessionToken, assertSameOrigin } from './session.js'
 import { IssueError, textField } from './issues.js';
 import { forumInput, ensureMember, selfMember } from './forum.js';
 import { OWNER_SETUP_HASH } from './owner-key.js';
+import { API_SECURITY_HEADERS } from './security.js';
 const duration=30*86400000;
 const secret=()=>randomBytes(32).toString('hex');
 const safeEqual=(a,b)=>timingSafeEqual(Buffer.from(hash(a)),Buffer.from(hash(b)));
@@ -43,7 +44,7 @@ function issueSession(db,request,account){
 }
 export async function authRequest(request,env){
  const db=env.DB,action=new URL(request.url).pathname.split('/').at(-1);
- const reply=(data,status=200,setCookie)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...(setCookie?{'Set-Cookie':setCookie}:{})}});
+ const reply=(data,status=200,setCookie)=>Response.json(data,{status,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store',...(setCookie?{'Set-Cookie':setCookie}:{})}});
  try{
   if(request.method==='GET'){
    if(action==='config'){const {required,ready,siteKey}=turnstileConfig(env);return reply({turnstile:{required,ready,siteKey:ready?siteKey:''}});}
@@ -61,7 +62,7 @@ export async function authRequest(request,env){
    if(!/^[a-z0-9_]{3,24}$/.test(username))throw new IssueError('Username must be 3–24 letters, numbers, or underscores.');
    rate(db,action+':ip:'+ip,action==='register'?5:20,action==='register'?3600:600);
    if(action!=='register')rate(db,action+':user:'+username,10,600);
-   await verifyRegistration(request,env,body['cf-turnstile-response'],action);
+   if(action==='register')await verifyRegistration(request,env,body['cf-turnstile-response']);
    const existing=db.prepare('SELECT * FROM auth_accounts WHERE username=?').bind(username).first();
    if(action==='register'){
     validPassword(body.password);
