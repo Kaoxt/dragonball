@@ -1,12 +1,12 @@
-"""Rebuild Saiyan Saga #1–5 from native frame/type and retained raster artwork.
+"""Rebuild Saiyan Saga #1–10 from native frame/type and retained raster artwork.
 
-Run: python tools/card-templates/combat/native/render.py
+Run from a copied production directory: python render.py
 Requires Python Pillow, NumPy, SciPy, fontTools, and the Inkscape CLI.
 The SVGs are production masters; their text is outlined for portable rendering.
 Card wording and line breaks are editable in cards-001-005.json.
 """
 from pathlib import Path
-import base64, hashlib, html, json, math, re, subprocess
+import argparse, base64, hashlib, html, json, math, re, subprocess
 import xml.etree.ElementTree as ET
 import numpy as np
 from PIL import Image, ImageDraw
@@ -15,16 +15,30 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
+from icons import icon, width_at_height
 
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parents[3]
-OUT = HERE / 'output'
-OUT.mkdir(exist_ok=True)
-DATA = json.loads((HERE / 'cards-001-005.json').read_text())
+REPO = HERE.parent
+parser = argparse.ArgumentParser()
+parser.add_argument('--cards', type=Path, default=HERE/'cards-001-005.json')
+parser.add_argument('--output', type=Path, default=HERE/'output')
+parser.add_argument('--only', help='Comma-separated card numbers to render')
+args = parser.parse_args()
+OUT = args.output.resolve()
+OUT.mkdir(parents=True, exist_ok=True)
+DATA = json.loads(args.cards.read_text())
+if args.only:
+    wanted = {int(n) for n in args.only.split(',')}
+    DATA['cards'] = [c for c in DATA['cards'] if c['number'] in wanted]
+    assert {c['number'] for c in DATA['cards']} == wanted, 'Requested number absent from card data'
+if not DATA['cards']: raise ValueError('No cards to render')
 W,H = 1060,1484
+TITLE_TRACKING = 4.0
+CATEGORY_TRACKING = 4.0
+SYMBOL_STANDARD = json.loads((HERE / "assets/style-symbol-standard.json").read_text())
 FONTS = {k:TTFont(HERE/'fonts'/f) for k,f in {
     'title':'Michroma-Regular.ttf','power':'BarlowCondensed-Bold.ttf',
-    'footer':'BarlowCondensed-Regular.ttf'}.items()}
+    'footer':'BarlowCondensed-Regular.ttf','brand':'Rajdhani-SemiBold.ttf'}.items()}
 
 def uri(path):
     return 'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()
@@ -59,37 +73,7 @@ def image_element(id,path,x,y,w,h):
 def svg(body,title):
     return f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1060" height="1484" viewBox="0 0 1060 1484"><title>{html.escape(title)}</title>{body}</svg>'
 
-# Reuse the exact approved native geometry. The physical-combat bar gets the
-# Orange palette while its texture spacing stays constant.
-frame=(HERE/'assets/frame.svg').read_text()
-frame=frame[frame.index('<defs>'):frame.rindex('</svg>')]
-frame=frame.replace('fill="#101113"','fill="#17181a"').replace('fill="#17181a" stroke="#090a0b"','fill="none" stroke="#090a0b"')
-frame=frame.replace('</defs>','''<pattern id="orange-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#a84414"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="#87350f" stroke-width=".65"/></pattern></defs>''')
-frame=frame.replace('<g fill="url(#dark-diamonds)"><path d="M184,954','<g fill="url(#orange-diamonds)"><path d="M184,954')
-
-# KanjiVG's Orange glyph, no stroke numbers, centered by actual vector bounds.
-# Attribution/Share-Alike are retained with the source and README.
-root=ET.parse(HERE/'assets/orange-kanji-source.svg').getroot()
-ns={'s':'http://www.w3.org/2000/svg'}
-orange_paths=[p.get('d') for p in root.findall('.//s:path',ns)]
-orange_symbol='<g id="orange-style-symbol" aria-label="Orange style: 橙" transform="translate(123,995.5) scale(1.17) translate(-53.5,-55.5)" fill="none" stroke="#fff" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">'+''.join(f'<path d="{d}"/>' for d in orange_paths)+'</g>'
-
-# Preserve the approved amber sphere lighting and edge; replace only old stars.
-original=Image.open(HERE/'assets/rarity-ball-three-stars.png').convert('RGBA')
-a=np.array(original).astype(float);rgb=a[:,:,:3]
-yy,xx=np.indices(a.shape[:2]);central=(xx>10)&(xx<46)&(yy>13)&(yy<49)
-red=(rgb[:,:,0]>rgb[:,:,1]*1.9)&(rgb[:,:,1]<130)&central
-mask=binary_dilation(red,iterations=2)
-indices=distance_transform_edt(mask,return_distances=False,return_indices=True)
-fill=rgb[tuple(indices)].copy()
-kernel=np.array([[0,1,0],[1,0,1],[0,1,0]],float)/4
-for _ in range(450):
-    sm=np.stack([convolve(fill[:,:,c],kernel,mode='nearest') for c in range(3)],axis=2)
-    fill[mask]=sm[mask]
-a[:,:,:3][mask]=fill[mask]
-Image.fromarray(np.uint8(np.clip(a,0,255))).save(HERE/'assets/rarity-ball-blank.png')
-
-def ball(cx,cy):
+def ball(cx,cy,stars=1):
     # Same .85 scaling as the user's final approved smaller ball, ~51px visible.
     parts=[image_element('common-rarity-sphere',HERE/'assets/rarity-ball-blank.png',cx-31.5*.85,cy-32*.85,64*.85,64*.85)]
     # Five-point star centered by its visible bounding box, not its circumcircle.
@@ -99,84 +83,117 @@ def ball(cx,cy):
         pts.append((r*math.cos(ang),r*math.sin(ang)))
     ox=(min(p[0] for p in pts)+max(p[0] for p in pts))/2
     oy=(min(p[1] for p in pts)+max(p[1] for p in pts))/2
-    points=' '.join(f'{cx+x-ox:.4f},{cy+y-oy:.4f}' for x,y in pts)
-    parts.append(f'<polygon id="common-rarity-one-star" fill="#b91d0d" points="{points}"/>')
+    assert isinstance(stars,int) and 1 <= stars <= 7, 'Supply a verified rarity star count from 1 to 7'
+    offsets=[(0,0)] if stars==1 else [(-7,0),(7,0)] if stars==2 else [(0,-7),(-7,6),(7,6)] if stars==3 else [(11*math.cos(-math.pi/2+2*math.pi*k/stars),11*math.sin(-math.pi/2+2*math.pi*k/stars)) for k in range(stars)]
+    for index,(dx,dy) in enumerate(offsets):
+        points=' '.join(f'{cx+dx+x-ox:.4f},{cy+dy+y-oy:.4f}' for x,y in pts)
+        parts.append(f'<polygon id="rarity-star-{index+1}" fill="#b91d0d" points="{points}"/>')
     return ''.join(parts)
 
-def swords(cx,cy):
-    # A matched pair of native swords, actual silhouette centered at the origin.
-    blade='M-4,-29 L0,-35 L4,-29 L4,9 L10,9 L10,14 L3,14 L3,27 L5,29 L5,34 L-5,34 L-5,29 L-3,27 L-3,14 L-10,14 L-10,9 L-4,9Z'
-    return f'<g id="physical-attack-icon" transform="translate({cx},{cy})" fill="#060606"><path d="{blade}" transform="rotate(45)"/><path d="{blade}" transform="rotate(-45)"/></g>'
+def effect_icon(line, override=None):
+    if override is not None:
+        if override not in ('attack', 'block', 'none'):
+            raise ValueError('rule_icons must use attack, block or none')
+        return None if override == 'none' else override
+    # Recognize only unambiguous effect wording; never infer from the title.
+    if re.match(r"^Stops?\s+(?:(?:a|an|any|all|the)\s+)?(?:(?:physical|energy)(?:\s+or\s+(?:physical|energy))?\s+)?attacks?\b", line, re.I):
+        return 'block'
+    if re.match(r"^(?:Physical|Energy)\s+attack\b", line, re.I):
+        return 'attack'
+    return None
+
+# Native production uses one geometry definition per style. No generative pass
+# touches the artwork, text, or panel borders during batch rendering.
+def native_frame(style):
+    frame=(HERE/'assets/frame.svg').read_text()
+    frame=frame[frame.index('<defs>'):frame.rindex('</svg>')]
+    frame=frame.replace('fill="#101113"','fill="#17181a"').replace('fill="#17181a" stroke="#090a0b"','fill="none" stroke="#090a0b"')
+    fill,stroke=('#9d3e12','#7b300f') if style=='Orange' else ('#9c070c','#76070b')
+    pattern=f'<pattern id="style-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="{fill}"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="{stroke}" stroke-width=".65"/></pattern>'
+    frame=frame.replace('</defs>',pattern+'</defs>')
+    panel=ET.parse(HERE/'assets/footer-center.svg').getroot()
+    panel_markup=''.join(ET.tostring(e,encoding='unicode') for e in panel)
+    frame=frame.replace('<g id="footer-panels">',panel_markup+'<g id="footer-panels">')
+    return frame.replace('<g fill="url(#dark-diamonds)"><path d="M184,954','<g fill="url(#style-diamonds)"><path d="M184,954')
+
+def background(style):
+    # Approved raster decoration is retained; all variable content is covered
+    # by exact native panels and original artwork in the following layers.
+    return image_element('approved-soft-background',HERE/'assets'/f'{style.lower()}-approved-base.png',0,0,W,H)
+
+def style_symbol(style):
+    if style=='Red':
+        return image_element('red-style-symbol',HERE/'assets/red-style-symbol.png',61,928,124,138)
+    root=ET.parse(HERE/'assets/orange-kanji-source.svg').getroot()
+    paths=[p.get('d') for p in root.findall('.//{http://www.w3.org/2000/svg}path')]
+    # Keep the same main-stroke thickness after the Orange glyph transform.
+    stroke_width = SYMBOL_STANDARD['nominal_stroke_width'] / SYMBOL_STANDARD['orange_scale']
+    return f'<g id="orange-style-symbol" aria-label="Orange style: 橙" transform="translate(123,995.5) scale(1.17) translate(-53.5,-55.5)" fill="none" stroke="#f29216" stroke-width="{stroke_width:.8f}" stroke-linecap="round" stroke-linejoin="round">'+''.join(f'<path d="{d}"/>' for d in paths)+'</g>'
 
 report=[]
 for card in DATA['cards']:
-    n=card['number'];slug=f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
-    layers=[];metrics=[]
-    # The final SVG is self-contained: retained illustration plus vector panels,
-    # border rails, glyph outlines, symbols, and the precisely placed footer.
-    layers.append(image_element('orange-texture',HERE/'assets/orange-base.png',0,0,W,H))
-    layers.append(image_element('retained-artwork',HERE/'artwork'/f'saiyan-{n:03}.png',0,156,1060,794))
-    layers.append(frame);layers.append(orange_symbol)
-    layers.append(image_element('saiyan-set-emblem',HERE/'assets/saiyan-set-logo.png',107,1365,84,66))
-    title=card['name'].upper();size=50
-    while width(title,'title',size,.9,.84)>900:size-=.5
-    textline(layers,metrics,'card-title',title,'title',size,530,76.5,tracking=.9,sx=.84,stroke=2.5)
-    textline(layers,metrics,'card-category','PHYSICAL COMBAT','title',50,607,1001,tracking=.9,sx=.84,stroke=2.5)
-    power_size=49;leading=59
-    rows=card['rules']
-    # Two centered baselines; outline bounds and icon share the first-line center.
+    n=card['number'];style=card['style'];slug=f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
+    if style not in ('Orange','Red'):
+        raise ValueError('Supply an approved template variant for style '+style)
+    category=card.get('category',DATA.get('category','Physical Combat'))
+    if category not in ('Physical Combat','Energy Combat'):
+        raise ValueError('This renderer supports Physical Combat and Energy Combat; supply a matching category template for '+category)
+    set_name=card.get('set',DATA.get('set'))
+    emblem=card.get('set_emblem',DATA.get('set_emblem'))
+    if not emblem:
+        if set_name!='Saiyan Saga': raise ValueError('Supply set_emblem for '+str(set_name))
+        emblem='assets/saiyan-set-logo.png'
+    rarity=card.get('rarity',DATA.get('rarity'))
+    stars=card.get('rarity_stars',DATA.get('rarity_stars'))
+    if not rarity or not isinstance(stars,int): raise ValueError('Supply verified rarity and rarity_stars')
+    layers=[background(style),image_element('retained-artwork',HERE/'artwork'/f'saiyan-{n:03}.png',0,156,1060,794),native_frame(style),style_symbol(style)]
+    layers.append(image_element('saiyan-set-emblem',HERE/emblem,107,1365,84,66))
+    metrics=[];title=card['name'].upper();size=50
+    while width(title,'title',size,TITLE_TRACKING,.84)>900:size-=.5
+    textline(layers,metrics,'card-title',title,'title',size,530,76.5,tracking=TITLE_TRACKING,sx=.84,stroke=2.5)
+    textline(layers,metrics,'card-category',category.upper(),'title',50,607,1001,tracking=CATEGORY_TRACKING,sx=.84,stroke=2.5)
+    power_size=49;leading=59;rows=card['rules']
     baselines=[(1182 if len(rows)==2 else 1156)+i*leading for i in range(len(rows))]
     for i,(line,baseline) in enumerate(zip(rows,baselines)):
         w=width(line,'power',power_size);cx=530
-        if i==0:
-            fullw=w+62+15;left=530-fullw/2
-            cx=left+62+15+w/2
-            _,b=glyphrun(line,'power',power_size)
-            layers.append(swords(left+31,baseline+(b[1]+b[3])/2))
+        overrides=card.get('rule_icons')
+        if overrides is not None and len(overrides)!=len(rows):
+            raise ValueError('rule_icons must have one entry per rules row')
+        kind=effect_icon(line,overrides[i] if overrides is not None else None)
+        if kind:
+            _,cap_bounds=glyphrun('P','power',power_size)
+            cap_height=cap_bounds[3]-cap_bounds[1]
+            iw=width_at_height(kind,cap_height);gap=12*power_size/49
+            fullw=w+gap+iw;left=530-fullw/2;cx=left+iw+gap+w/2
+            symbol,_=icon(kind,left,baseline+cap_bounds[1],cap_height,f'rule-{kind}-icon-{i+1}')
+            layers.append(ET.tostring(symbol,encoding='unicode'))
+            metrics.append({'id':f'rule-{kind}-icon-{i+1}','kind':kind,'height':cap_height,'bounds':[left,baseline+cap_bounds[1],left+iw,baseline+cap_bounds[3]],'text_gap':gap})
             assert left>=60 and left+fullw<=1000,(n,'power overflow',fullw)
         textline(layers,metrics,f'card-power-line-{i+1}',line,'power',power_size,cx,baseline=baseline,fill='#060606')
-    textline(layers,metrics,'footer-brand','DRAGON BALL Z','footer',29,530,1400,tracking=4,fill='#f4f4f4')
+    textline(layers,metrics,'footer-brand','DRAGON BALL Z','brand',30,530,1400,tracking=6,fill='#f4f4f4')
     textline(layers,metrics,'footer-disclaimer','Not endorsed by Toei Animation or Funimation','footer',25,530,1439,fill='#efefef')
-    numberw=width(str(n),'title',42.5,.255,.78)+2.125
-    ballw=60.8*.85;gap=15.3
-    left=907-(ballw+gap+numberw)/2
-    ballcx=left+ballw/2;numcx=left+ballw+gap+numberw/2
-    layers.append(ball(ballcx,1401))
+    numberw=width(str(n),'title',42.5,.255,.78)+2.125;ballw=60.8*.85;gap=15.3
+    left=907-(ballw+gap+numberw)/2;ballcx=left+ballw/2;numcx=left+ballw+gap+numberw/2
+    layers.append(ball(ballcx,1401,stars))
     textline(layers,metrics,'card-number',str(n),'title',42.5,numcx,1401,tracking=.255,sx=.78,stroke=2.125)
     path=OUT/(slug+'.svg');path.write_text(svg(''.join(layers),card['name']))
-    # Render true vector type/frame at 2x; illustration remains retained raster.
     png=OUT/(slug+'.png')
     subprocess.run(['inkscape',str(path),'--export-filename='+str(png),'--export-width=2120'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
-    high=Image.open(png).convert('RGB')
-    highpath=REPO/'public/assets/cards/downloads'/(slug+'.webp');highpath.parent.mkdir(parents=True,exist_ok=True)
-    high.save(highpath,'WEBP',lossless=True,method=6)
-    display=high.resize((W,H),Image.Resampling.LANCZOS)
-    displaypath=REPO/'public/assets/cards'/(slug+'.webp')
-    display.save(displaypath,'WEBP',quality=96,method=6)
-    # Native text & geometry checks before publishing, recorded with each card.
+    high=Image.open(png).convert('RGB');high.save(OUT/(slug+'.webp'),'WEBP',lossless=True,method=6)
+    display=high.resize((W,H),Image.Resampling.LANCZOS);display.save(OUT/(slug+'-preview.png'));display.save(OUT/(slug+'-preview.webp'),'WEBP',quality=92,method=6)
     assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 for m in metrics if m['id'].startswith('card-power'))
     assert abs((left+(left+ballw+gap+numberw))/2-907)<1e-8
-    entry={'id':slug,'number':n,'title':card['name'],'rules':' '.join(rows),'rarity':'Common','stars':1,'display':[W,H],'download':[2120,2968],'footer_group_center':[907,1401],'ball_center':[ballcx,1401],'typography':metrics,'files':{}}
-    for label,p in [('display',displaypath),('download',highpath)]:
-        b=p.read_bytes();entry['files'][label]={'path':p.relative_to(REPO).as_posix(),'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
-    report.append(entry)
-    print(n,card['name'],size,entry['files']['display']['bytes'],flush=True)
+    assert Image.open(OUT/(slug+'.webp')).convert('RGB').tobytes()==high.tobytes()
+    entry={'number':n,'id':slug,'name':card['name'],'style':style,'rules':' '.join(rows),'original_rules':card['original_rules'],'set':set_name,'category':category,'rarity':rarity,'stars':stars,'dimensions':[2120,2968],'artwork_sha256':hashlib.sha256((HERE/'artwork'/f'saiyan-{n:03}.png').read_bytes()).hexdigest(),'frame_sha256':hashlib.sha256(native_frame(style).encode()).hexdigest(),'typography':metrics,'png_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'webp_sha256':hashlib.sha256((OUT/(slug+'.webp')).read_bytes()).hexdigest()}
+    report.append(entry);print(n,card['name'],'rendered',flush=True)
 
 (OUT/'verification.json').write_text(json.dumps(report,indent=2)+'\n')
-# Update only the first five asset URLs. Card IDs, gameplay data and other cards
-# remain untouched; version tokens cover both on-screen and download assets.
-catalogpath=REPO/'public/cards/catalog.js';catalog=catalogpath.read_text()
-for entry in report:
-    for label in ('display','download'):
-        f=entry['files'][label];url='/'+f['path'].removeprefix('public/')
-        catalog,count=re.subn(re.escape(url)+r'\?v=[a-zA-Z0-9]+',url+'?v='+f['sha256'][:10],catalog)
-        assert count==1,(url,count)
-catalogpath.write_text(catalog)
-contact=Image.new('RGB',(2120,1280),'#1c1c1c')
+for style in {x['style'] for x in report}:
+    assert len({x['frame_sha256'] for x in report if x['style']==style})==1
+contact=Image.new('RGB',(530*min(5,len(report)),742*math.ceil(len(report)/5)),'#111111')
 for i,entry in enumerate(report):
-    im=Image.open(REPO/entry['files']['display']['path']).resize((424,594),Image.Resampling.LANCZOS)
-    contact.paste(im,(i*424,0))
-    detail=Image.open(REPO/entry['files']['display']['path']).crop((0,950,1060,1484)).resize((424,214),Image.Resampling.LANCZOS)
-    contact.paste(detail,(i*424,630))
-contact.crop((0,0,2120,844)).save(OUT/'saiyan-first-five-preview.jpg',quality=96)
-print('Rendered and validated five cards; catalog cache tokens updated.')
+    im=Image.open(OUT/(entry['id']+'-preview.png')).resize((530,742),Image.Resampling.LANCZOS)
+    contact.paste(im,((i%5)*530,(i//5)*742))
+contact.save(OUT/'Cards-Preview.jpg',quality=96,subsampling=0)
+print(f'Verified {len(report)} cards, shared vector geometry, and lossless WebP exports.')
+

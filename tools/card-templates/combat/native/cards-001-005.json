@@ -1,10 +1,8 @@
 {
   "set": "Saiyan Saga",
-  "style": "Orange",
   "category": "Physical Combat",
   "rarity": "Common",
   "rarity_stars": 1,
-  "style_glyph": "\u6a59",
   "cards": [
     {
       "number": 1,
@@ -13,7 +11,8 @@
         "Physical attack.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack. Raise card user's anger level 1."
+      "original_rules": "Physical Attack. Raise card user's anger level 1.",
+      "style": "Orange"
     },
     {
       "number": 2,
@@ -23,7 +22,8 @@
         "of damage if successful.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
     },
     {
       "number": 3,
@@ -33,7 +33,8 @@
         "of damage if successful.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
     },
     {
       "number": 4,
@@ -42,7 +43,8 @@
         "Physical attack.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack. Raise card user's anger level 1."
+      "original_rules": "Physical Attack. Raise card user's anger level 1.",
+      "style": "Orange"
     },
     {
       "number": 5,
@@ -52,15 +54,18 @@
         "of damage if successful.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
     }
   ],
   "sources": {
     "source_commit": "70ddcea2453a8dd356ef5d439da8cf10603fe025",
     "card_list_and_rarity": "https://www.vegeth.it/manualegiococarte.pdf#page=24",
     "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "rules": "Repository tools/card-frames/rules-001-020.json and source-card images; checked against user-supplied Expanded CRD. No card-specific overrides for #1\u20135.",
+    "rules": "Existing original card powers checked against supplied Expanded CRD; no named overrides for cards 1-10.",
     "wording_policy": "Use the approved Raise your anger 1 level convention. Expand stage to power stage and retain if successful attached to attack damage; do not condition the separate anger effect.",
-    "artwork": "Published card artwork from source commit, cropped without repainting or stretching. Display source is 1060x1484; downloaded artwork remains raster at original resolution."
-  }
+    "artwork": "Cards 1 and 6: approved cleaned previews. Cards 2-5: retained native artwork. Cards 7-10: retained published artwork, downloaded from Kaoxt/dragonball. No repainting.",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+  },
+  "template_version": "2026-10-16-charcoal-footer-cap-height-effect-icons"
 }

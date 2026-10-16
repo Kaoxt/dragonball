@@ -1,58 +1,17 @@
-# Native combat card production
+# Current native combat production
 
-This source reproduces the updated Saiyan Saga cards 1–5 using the current combat
-master geometry, retained artwork, native font outlines and the smaller rarity
-ball/number treatment. It does not require image generation.
-
-The orange-and-black outer background matches the broad diagonal streak style
-of the user's Red Lunge Punch reference (October 15, 2026). It is a separate
-Imagegen texture layer in `assets/orange-base.png`; the title, white rules panel,
-footer rails, borders, typography, symbols and retained character artwork are
-assembled from their existing sources. The combat bar uses an orange palette.
-All five cards share the same background placement and native frame geometry.
+The October 16, 2026 production master uses the approved Orange and Red decoration, 4-unit title/category tracking, matched Toku Waza weight, charcoal center footer, Rajdhani brand lettering, regular-weight disclaimer, and cap-height SVG attack/block icons.
 
 Run from the repository root:
 
 ```sh
-python tools/card-templates/combat/native/render.py
+python tools/card-templates/combat/native/render.py --only 1,2,3,4,5
 ```
 
-Dependencies: Python with Pillow, NumPy, SciPy and fontTools, plus Inkscape CLI.
-Edit titles, original powers and approved display wording in `cards-001-005.json`.
-The renderer produces self-contained SVG masters, 2120 × 2968 PNG masters,
-1060 × 1484 website WebP images and lossless 2120 × 2968 download WebP images.
-It updates only those five cards' cache tokens in `public/cards/catalog.js`.
-Generated intermediates in `output/` need not be committed.
+Requires Python with Pillow, fontTools, NumPy and SciPy, plus Inkscape CLI. The renderer reads `cards-001-005.json`; use `--cards` for other verified input and `--output` for another output directory. Supply artwork for any new card at `artwork/saiyan-NNN.png`, preserving its aspect ratio. The retained first-five art is unchanged.
 
-Typography uses Michroma and Barlow Condensed; OFL licenses are included. These
-are native matches to the approved appearance, not claimed original Score fonts.
-Text is converted into SVG paths at export, with explicit glyph advances and
-positive title tracking. The powers all use the same 49-unit bold condensed size
-and 59-unit line spacing. Titles reduce font size for length without individually
-stretching glyphs. The title/category width design factor is fixed at 0.84.
+Outputs: native outlined SVG, 2120 × 2968 PNG and pixel-identical lossless WebP, plus 1060 × 1484 quality-92 preview WebP. Publishing is a separate step: copy only selected card previews and downloads to their public paths, then update their hash tokens in `public/cards/catalog.js`. The renderer does not publish automatically.
 
-All five cards are Common: one centered red star in the approved amber sphere.
-The ball/number sizes retain the user's 0.85 reduction. The pair is centered by
-its combined visible bounds at (907, 1401), with a 15.3-unit gap. Card artwork
-is retained raster artwork from the source commit, cropped at its existing art
-window without repainting or stretching. A larger export improves vector text
-and frame detail, not the underlying illustration resolution.
+For every future card, use crossed swords for attack effects and a solid shield for stop-attack effects. Both physical and energy stops are supported. Icons match the capital P height, align to the capital top/baseline, and use a 12-unit gap at the current 49-unit rules size. Use `rule_icons` overrides (`attack`, `block`, `none`) for wording that is not automatically recognized. See `../references/combat-production.md` for the complete standard.
 
-The source card powers were compared with `tools/card-frames/rules-001-020.json`
-and the user-supplied Expanded CRD. No card-specific CRD entries override #1–5.
-Display wording uses the approved “Raise your anger 1 level” convention, expands
-“stage” to “power stage,” and preserves every attack value and condition. The
-separate anger effect is not conditional on a successful attack. Source references
-and original wording are retained in the JSON.
-
-The Orange style glyph is 橙. Its vector stroke data comes from
-[KanjiVG](https://kanjivg.tagaini.net), copyright 2009–2011 Ulrich Apel,
-[source](https://github.com/KanjiVG/kanjivg/blob/master/kanji/06a59.svg),
-under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-The adapted glyph (white strokes, no stroke numbers, scaled and centered) remains
-under that license. The full original notice is retained in
-`assets/orange-kanji-source.svg`. The style glyph is separate from the native
-crossed-swords attack icon in the power box.
-
-`docs/saiyan-native-001-005.json` records render dimensions, text placement and
-SHA-256 hashes. The shared frame gives every card identical panel/border geometry.
+Text and frames are native vector outlines; character art, approved background textures, set emblem and rarity sphere remain retained raster assets. OFL font licenses are bundled. The Orange 橙 glyph is adapted from KanjiVG (Ulrich Apel, CC BY-SA 3.0); its full source notice is retained in `assets/orange-kanji-source.svg`.
