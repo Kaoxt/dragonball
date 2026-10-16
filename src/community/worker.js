@@ -6,6 +6,7 @@ import { authSchema, authRequest } from './auth.js';
 import { forumDb } from './forum.js';
 import { migrateKurtUsername, migrateKaoxtIdentity } from './account-migrations.js';
 import { onRequestGet, onRequestPost } from './forum-api.js';
+import { API_SECURITY_HEADERS } from './security.js';
 export class Community extends DurableObject{
  constructor(ctx,env){super(ctx,env);this.db=database(ctx.storage);this.communityEnv={...env,DB:this.db};ctx.blockConcurrencyWhile(async()=>{authSchema(this.db);await forumDb(this.communityEnv);if(migrateKurtUsername(this.db)==='conflict')console.warn('Requested account rename could not run: username already in use.');if(migrateKaoxtIdentity(this.db)==='conflict')console.warn('Requested Kaoxt identity restore could not run: username already in use.');});}
  async fetch(request){
@@ -16,6 +17,6 @@ export class Community extends DurableObject{
   const context={request,env:this.communityEnv};
   if(u.pathname==='/api/forum'&&request.method==='GET')return onRequestGet(context);
   if(u.pathname==='/api/forum'&&request.method==='POST')return onRequestPost(context);
-  return Response.json({error:'Not found.'},{status:404});
+  return Response.json({error:'Not found.'},{status:404,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store'}});
  }
 }
