@@ -6,7 +6,7 @@ The SVGs are production masters; their text is outlined for portable rendering.
 Card wording and line breaks are editable in cards-001-010.json.
 """
 from pathlib import Path
-import argparse, base64, hashlib, html, json, math, re, subprocess
+import argparse, base64, hashlib, html, io, json, math, os, re, subprocess
 import xml.etree.ElementTree as ET
 import numpy as np
 from PIL import Image, ImageDraw
@@ -127,6 +127,16 @@ def background(style):
     # by exact native panels and original artwork in the following layers.
     return image_element('approved-soft-background',HERE/'assets'/f'{style.lower()}-approved-base.png',0,0,W,H)
 
+def artwork(card):
+    # The cleaned, user-approved Red Lunge Punch master is retained intact.
+    # A native clip exposes only its illustration window; all type/frame layers
+    # are rebuilt below, exactly like the other nine cards.
+    reference=card.get('artwork_reference')
+    if reference:
+        return ('<defs><clipPath id="artwork-window"><rect x="0" y="156" width="1060" height="794"/></clipPath></defs>'
+                '<g clip-path="url(#artwork-window)">'+image_element('retained-artwork',HERE/reference,0,0,W,H)+'</g>')
+    return image_element('retained-artwork',HERE/'artwork'/f'saiyan-{card["number"]:03}.png',0,156,1060,794)
+
 def style_symbol(style):
     if style=='Red':
         return image_element('red-style-symbol',HERE/'assets/red-style-symbol.png',61,928,124,138)
@@ -152,7 +162,7 @@ for card in DATA['cards']:
     rarity=card.get('rarity',DATA.get('rarity'))
     stars=card.get('rarity_stars',DATA.get('rarity_stars'))
     if not rarity or not isinstance(stars,int): raise ValueError('Supply verified rarity and rarity_stars')
-    layers=[background(style),image_element('retained-artwork',HERE/'artwork'/f'saiyan-{n:03}.png',0,156,1060,794),native_frame(style),style_symbol(style)]
+    layers=[background(style),artwork(card),native_frame(style),style_symbol(style)]
     layers.append(image_element('saiyan-set-emblem',HERE/emblem,107,1365,84,66))
     metrics=[];title=card['name'].upper();size=50
     while width(title,'title',size,TITLE_TRACKING,.84)>900:size-=.5
@@ -185,12 +195,18 @@ for card in DATA['cards']:
     path=OUT/(slug+'.svg');path.write_text(svg(''.join(layers),card['name']))
     png=OUT/(slug+'.png')
     subprocess.run(['inkscape',str(path),'--export-filename='+str(png),'--export-width=2120'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
-    high=Image.open(png).convert('RGB');high.save(OUT/(slug+'.webp'),'WEBP',lossless=True,method=6)
+    high=Image.open(png).convert('RGB');high.load()
+    encoded=io.BytesIO();high.save(encoded,format='PNG')
+    temp=png.with_suffix('.png.tmp')
+    with temp.open('wb') as f: f.write(encoded.getvalue());f.flush();os.fsync(f.fileno())
+    temp.replace(png)
+    high.save(OUT/(slug+'.webp'),'WEBP',lossless=True,method=6)
     display=high.resize((W,H),Image.Resampling.LANCZOS);display.save(OUT/(slug+'-preview.png'));display.save(OUT/(slug+'-preview.webp'),'WEBP',quality=92,method=6)
     assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 for m in metrics if m['id'].startswith('card-power'))
     assert abs((left+(left+ballw+gap+numberw))/2-907)<1e-8
     assert Image.open(OUT/(slug+'.webp')).convert('RGB').tobytes()==high.tobytes()
-    entry={'number':n,'id':slug,'name':card['name'],'style':style,'rules':' '.join(rows),'original_rules':card['original_rules'],'set':set_name,'category':category,'rarity':rarity,'stars':stars,'dimensions':[2120,2968],'artwork_sha256':hashlib.sha256((HERE/'artwork'/f'saiyan-{n:03}.png').read_bytes()).hexdigest(),'frame_sha256':hashlib.sha256(native_frame(style).encode()).hexdigest(),'typography':metrics,'png_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'webp_sha256':hashlib.sha256((OUT/(slug+'.webp')).read_bytes()).hexdigest()}
+    artpath=HERE/card['artwork_reference'] if card.get('artwork_reference') else HERE/'artwork'/f'saiyan-{n:03}.png'
+    entry={'number':n,'id':slug,'name':card['name'],'style':style,'rules':' '.join(rows),'original_rules':card['original_rules'],'set':set_name,'category':category,'rarity':rarity,'stars':stars,'dimensions':[2120,2968],'artwork_sha256':hashlib.sha256(artpath.read_bytes()).hexdigest(),'frame_sha256':hashlib.sha256(native_frame(style).encode()).hexdigest(),'typography':metrics,'png_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'webp_sha256':hashlib.sha256((OUT/(slug+'.webp')).read_bytes()).hexdigest()}
     report.append(entry);print(n,card['name'],'rendered',flush=True)
 
 (OUT/'verification.json').write_text(json.dumps(report,indent=2)+'\n')
