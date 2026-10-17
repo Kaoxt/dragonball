@@ -4,6 +4,8 @@ The October 16, 2026 production master uses the approved Orange and Red decorati
 
 Run from the repository root:
 
+Keep the original colored outer background. Center the rarity Dragon Ball and card number at y=1397.5, halfway between the footer silver rails. Use visible sphere alpha bounds and outlined numeral bounds for alignment.
+
 ```sh
 python tools/card-templates/combat/native/render.py --only 1,2,3,4,5
 ```

@@ -35,6 +35,8 @@ if not DATA['cards']: raise ValueError('No cards to render')
 W,H = 1060,1484
 TITLE_TRACKING = 4.0
 CATEGORY_TRACKING = 4.0
+# Center the visible rarity sphere and numeral between the footer silver rails.
+FOOTER_SIDE_CENTER_Y = (1355.0 + 1440.0) / 2
 SYMBOL_STANDARD = json.loads((HERE / "assets/style-symbol-standard.json").read_text())
 FONTS = {k:TTFont(HERE/'fonts'/f) for k,f in {
     'title':'Michroma-Regular.ttf','power':'BarlowCondensed-Bold.ttf',
@@ -75,7 +77,11 @@ def svg(body,title):
 
 def ball(cx,cy,stars=1):
     # Same .85 scaling as the user's final approved smaller ball, ~51px visible.
-    parts=[image_element('common-rarity-sphere',HERE/'assets/rarity-ball-blank.png',cx-31.5*.85,cy-32*.85,64*.85,64*.85)]
+    sphere=HERE/'assets/rarity-ball-blank.png'
+    with Image.open(sphere) as source:
+        l,t,r,b=source.getchannel('A').getbbox()
+    # Center visible pixels rather than the padded raster canvas.
+    parts=[image_element('common-rarity-sphere',sphere,cx-(l+r)/2*.85,cy-(t+b)/2*.85,64*.85,64*.85)]
     # Five-point star centered by its visible bounding box, not its circumcircle.
     pts=[]
     for i in range(10):
@@ -174,8 +180,8 @@ for card in DATA['cards']:
     textline(layers,metrics,'footer-disclaimer','Not endorsed by Toei Animation or Funimation','footer',25,530,1439,fill='#efefef')
     numberw=width(str(n),'title',42.5,.255,.78)+2.125;ballw=60.8*.85;gap=15.3
     left=907-(ballw+gap+numberw)/2;ballcx=left+ballw/2;numcx=left+ballw+gap+numberw/2
-    layers.append(ball(ballcx,1401,stars))
-    textline(layers,metrics,'card-number',str(n),'title',42.5,numcx,1401,tracking=.255,sx=.78,stroke=2.125)
+    layers.append(ball(ballcx,FOOTER_SIDE_CENTER_Y,stars))
+    textline(layers,metrics,'card-number',str(n),'title',42.5,numcx,FOOTER_SIDE_CENTER_Y,tracking=.255,sx=.78,stroke=2.125)
     path=OUT/(slug+'.svg');path.write_text(svg(''.join(layers),card['name']))
     png=OUT/(slug+'.png')
     subprocess.run(['inkscape',str(path),'--export-filename='+str(png),'--export-width=2120'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)

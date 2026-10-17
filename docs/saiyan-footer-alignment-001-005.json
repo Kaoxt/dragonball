@@ -1,0 +1,742 @@
+[
+  {
+    "number": 1,
+    "id": "saiyan-001-orange-standing-fist-punch",
+    "name": "Orange Standing Fist Punch",
+    "style": "Orange",
+    "rules": "Physical attack. Raise your anger 1 level.",
+    "original_rules": "Physical Attack. Raise card user's anger level 1.",
+    "set": "Saiyan Saga",
+    "category": "Physical Combat",
+    "rarity": "Common",
+    "stars": 1,
+    "dimensions": [
+      2120,
+      2968
+    ],
+    "artwork_sha256": "dd3ba77665f04892e08d0a135c3ded663037b73236fc8e08133a98abc18dcc6f",
+    "frame_sha256": "25bbb8046daa585cfefb9b6f4975a0b7a4bdd009b3b58a9ab7d875d7aa9d9003",
+    "typography": [
+      {
+        "id": "card-title",
+        "text": "ORANGE STANDING FIST PUNCH",
+        "font": "title",
+        "size": 41.0,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 91.875,
+        "bounds": [
+          84.15020507812491,
+          60.484375,
+          975.8497949218751,
+          92.515625
+        ]
+      },
+      {
+        "id": "card-category",
+        "text": "PHYSICAL COMBAT",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 1019.75,
+        "bounds": [
+          285.24609375,
+          981.46875,
+          928.75390625,
+          1020.53125
+        ]
+      },
+      {
+        "id": "rule-attack-icon-1",
+        "kind": "attack",
+        "height": 34.349000000000004,
+        "bounds": [
+          362.6315371169676,
+          1147.651,
+          403.12846288303246,
+          1182.0
+        ],
+        "text_gap": 12.0
+      },
+      {
+        "id": "card-power-line-1",
+        "text": "Physical attack.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1182,
+        "bounds": [
+          415.12846288303246,
+          1146.23,
+          697.3684628830324,
+          1191.751
+        ]
+      },
+      {
+        "id": "card-power-line-2",
+        "text": "Raise your anger 1 level.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1241,
+        "bounds": [
+          317.5605000000001,
+          1205.23,
+          742.4395,
+          1251.143
+        ]
+      },
+      {
+        "id": "footer-brand",
+        "text": "DRAGON BALL Z",
+        "font": "brand",
+        "size": 30,
+        "tracking": 6,
+        "width_factor": 1,
+        "baseline": 1409.645,
+        "bounds": [
+          401.21,
+          1390.355,
+          658.79,
+          1409.645
+        ]
+      },
+      {
+        "id": "footer-disclaimer",
+        "text": "Not endorsed by Toei Animation or Funimation",
+        "font": "footer",
+        "size": 25,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1445.375,
+        "bounds": [
+          334.8,
+          1427.625,
+          725.2,
+          1450.375
+        ]
+      },
+      {
+        "id": "card-number",
+        "text": "1",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 0.255,
+        "width_factor": 0.78,
+        "baseline": 1413.4375,
+        "bounds": [
+          929.4669775390623,
+          1381.5625,
+          951.5130224609373,
+          1413.4375
+        ]
+      }
+    ],
+    "png_sha256": "0530aec1a733a138b37cb35c353a86ba30b1e6af1133d9eb976d28e3039efc7f",
+    "webp_sha256": "9b5dcd2a87edf26625707b8dd98e8725e04171724825681bcda77c4c3a9f9905"
+  },
+  {
+    "number": 2,
+    "id": "saiyan-002-orange-one-knuckle-punch",
+    "name": "Orange One Knuckle Punch",
+    "style": "Orange",
+    "rules": "Physical attack doing +1 power stage of damage if successful. Raise your anger 1 level.",
+    "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+    "set": "Saiyan Saga",
+    "category": "Physical Combat",
+    "rarity": "Common",
+    "stars": 1,
+    "dimensions": [
+      2120,
+      2968
+    ],
+    "artwork_sha256": "518e7aeef837275d8b50b77517f78a5d4cf931099cdc29c3da313dd8178eab09",
+    "frame_sha256": "25bbb8046daa585cfefb9b6f4975a0b7a4bdd009b3b58a9ab7d875d7aa9d9003",
+    "typography": [
+      {
+        "id": "card-title",
+        "text": "ORANGE ONE KNUCKLE PUNCH",
+        "font": "title",
+        "size": 43.5,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 92.8125,
+        "bounds": [
+          80.65941894531244,
+          59.5078125,
+          979.3405810546875,
+          93.4921875
+        ]
+      },
+      {
+        "id": "card-category",
+        "text": "PHYSICAL COMBAT",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 1019.75,
+        "bounds": [
+          285.24609375,
+          981.46875,
+          928.75390625,
+          1020.53125
+        ]
+      },
+      {
+        "id": "rule-attack-icon-1",
+        "kind": "attack",
+        "height": 34.349000000000004,
+        "bounds": [
+          176.75003711696752,
+          1121.651,
+          217.24696288303238,
+          1156.0
+        ],
+        "text_gap": 12.0
+      },
+      {
+        "id": "card-power-line-1",
+        "text": "Physical attack doing +1 power stage",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1156,
+        "bounds": [
+          229.24696288303247,
+          1120.23,
+          883.2499628830326,
+          1166.143
+        ]
+      },
+      {
+        "id": "card-power-line-2",
+        "text": "of damage if successful.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1215,
+        "bounds": [
+          313.2485,
+          1179.23,
+          746.7515000000001,
+          1225.143
+        ]
+      },
+      {
+        "id": "card-power-line-3",
+        "text": "Raise your anger 1 level.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1274,
+        "bounds": [
+          317.5605000000001,
+          1238.23,
+          742.4395,
+          1284.143
+        ]
+      },
+      {
+        "id": "footer-brand",
+        "text": "DRAGON BALL Z",
+        "font": "brand",
+        "size": 30,
+        "tracking": 6,
+        "width_factor": 1,
+        "baseline": 1409.645,
+        "bounds": [
+          401.21,
+          1390.355,
+          658.79,
+          1409.645
+        ]
+      },
+      {
+        "id": "footer-disclaimer",
+        "text": "Not endorsed by Toei Animation or Funimation",
+        "font": "footer",
+        "size": 25,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1445.375,
+        "bounds": [
+          334.8,
+          1427.625,
+          725.2,
+          1450.375
+        ]
+      },
+      {
+        "id": "card-number",
+        "text": "2",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 0.255,
+        "width_factor": 0.78,
+        "baseline": 1413.76953125,
+        "bounds": [
+          927.0309057617186,
+          1381.23046875,
+          953.9490942382812,
+          1413.76953125
+        ]
+      }
+    ],
+    "png_sha256": "6b34b87c61537ad0f9626caf5c27169f8fcecd58df34ad4ae8da372b3a2906e9",
+    "webp_sha256": "b9cceb7af1cf702bbc17526764317c48c6d358a9f0a7f955d222f02b9842c9f5"
+  },
+  {
+    "number": 3,
+    "id": "saiyan-003-orange-two-knuckle-punch",
+    "name": "Orange Two Knuckle Punch",
+    "style": "Orange",
+    "rules": "Physical attack doing +1 power stage of damage if successful. Raise your anger 1 level.",
+    "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+    "set": "Saiyan Saga",
+    "category": "Physical Combat",
+    "rarity": "Common",
+    "stars": 1,
+    "dimensions": [
+      2120,
+      2968
+    ],
+    "artwork_sha256": "21a6b557b921931b783d02022ccc4ef2c3f1ceb52f9d435be1221ea6b1d228cd",
+    "frame_sha256": "25bbb8046daa585cfefb9b6f4975a0b7a4bdd009b3b58a9ab7d875d7aa9d9003",
+    "typography": [
+      {
+        "id": "card-title",
+        "text": "ORANGE TWO KNUCKLE PUNCH",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 92.4375,
+        "bounds": [
+          80.07402343750006,
+          59.8984375,
+          979.9259765625,
+          93.1015625
+        ]
+      },
+      {
+        "id": "card-category",
+        "text": "PHYSICAL COMBAT",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 1019.75,
+        "bounds": [
+          285.24609375,
+          981.46875,
+          928.75390625,
+          1020.53125
+        ]
+      },
+      {
+        "id": "rule-attack-icon-1",
+        "kind": "attack",
+        "height": 34.349000000000004,
+        "bounds": [
+          176.75003711696752,
+          1121.651,
+          217.24696288303238,
+          1156.0
+        ],
+        "text_gap": 12.0
+      },
+      {
+        "id": "card-power-line-1",
+        "text": "Physical attack doing +1 power stage",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1156,
+        "bounds": [
+          229.24696288303247,
+          1120.23,
+          883.2499628830326,
+          1166.143
+        ]
+      },
+      {
+        "id": "card-power-line-2",
+        "text": "of damage if successful.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1215,
+        "bounds": [
+          313.2485,
+          1179.23,
+          746.7515000000001,
+          1225.143
+        ]
+      },
+      {
+        "id": "card-power-line-3",
+        "text": "Raise your anger 1 level.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1274,
+        "bounds": [
+          317.5605000000001,
+          1238.23,
+          742.4395,
+          1284.143
+        ]
+      },
+      {
+        "id": "footer-brand",
+        "text": "DRAGON BALL Z",
+        "font": "brand",
+        "size": 30,
+        "tracking": 6,
+        "width_factor": 1,
+        "baseline": 1409.645,
+        "bounds": [
+          401.21,
+          1390.355,
+          658.79,
+          1409.645
+        ]
+      },
+      {
+        "id": "footer-disclaimer",
+        "text": "Not endorsed by Toei Animation or Funimation",
+        "font": "footer",
+        "size": 25,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1445.375,
+        "bounds": [
+          334.8,
+          1427.625,
+          725.2,
+          1450.375
+        ]
+      },
+      {
+        "id": "card-number",
+        "text": "3",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 0.255,
+        "width_factor": 0.78,
+        "baseline": 1413.4375,
+        "bounds": [
+          926.8609472656249,
+          1380.8984375,
+          954.1190527343748,
+          1414.1015625
+        ]
+      }
+    ],
+    "png_sha256": "3a3ae21b3b7a67dfdc26fa6435042943fe21d7440b77f91625cc0677fd4d396a",
+    "webp_sha256": "d164abf79ac11d54dcef970e6d65fa429e29003ec2341a14575853a0d774c77c"
+  },
+  {
+    "number": 4,
+    "id": "saiyan-004-orange-leg-sweep",
+    "name": "Orange Leg Sweep",
+    "style": "Orange",
+    "rules": "Physical attack. Raise your anger 1 level.",
+    "original_rules": "Physical Attack. Raise card user's anger level 1.",
+    "set": "Saiyan Saga",
+    "category": "Physical Combat",
+    "rarity": "Common",
+    "stars": 1,
+    "dimensions": [
+      2120,
+      2968
+    ],
+    "artwork_sha256": "d12563cec4ae076112199f3e412282d10cfc534b22b17dcd6c4edd5b7e9f5ffd",
+    "frame_sha256": "25bbb8046daa585cfefb9b6f4975a0b7a4bdd009b3b58a9ab7d875d7aa9d9003",
+    "typography": [
+      {
+        "id": "card-title",
+        "text": "ORANGE LEG SWEEP",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 95.25,
+        "bounds": [
+          188.92724609375,
+          56.96875,
+          871.07275390625,
+          96.03125
+        ]
+      },
+      {
+        "id": "card-category",
+        "text": "PHYSICAL COMBAT",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 1019.75,
+        "bounds": [
+          285.24609375,
+          981.46875,
+          928.75390625,
+          1020.53125
+        ]
+      },
+      {
+        "id": "rule-attack-icon-1",
+        "kind": "attack",
+        "height": 34.349000000000004,
+        "bounds": [
+          362.6315371169676,
+          1147.651,
+          403.12846288303246,
+          1182.0
+        ],
+        "text_gap": 12.0
+      },
+      {
+        "id": "card-power-line-1",
+        "text": "Physical attack.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1182,
+        "bounds": [
+          415.12846288303246,
+          1146.23,
+          697.3684628830324,
+          1191.751
+        ]
+      },
+      {
+        "id": "card-power-line-2",
+        "text": "Raise your anger 1 level.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1241,
+        "bounds": [
+          317.5605000000001,
+          1205.23,
+          742.4395,
+          1251.143
+        ]
+      },
+      {
+        "id": "footer-brand",
+        "text": "DRAGON BALL Z",
+        "font": "brand",
+        "size": 30,
+        "tracking": 6,
+        "width_factor": 1,
+        "baseline": 1409.645,
+        "bounds": [
+          401.21,
+          1390.355,
+          658.79,
+          1409.645
+        ]
+      },
+      {
+        "id": "footer-disclaimer",
+        "text": "Not endorsed by Toei Animation or Funimation",
+        "font": "footer",
+        "size": 25,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1445.375,
+        "bounds": [
+          334.8,
+          1427.625,
+          725.2,
+          1450.375
+        ]
+      },
+      {
+        "id": "card-number",
+        "text": "4",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 0.255,
+        "width_factor": 0.78,
+        "baseline": 1413.4375,
+        "bounds": [
+          925.9868749999998,
+          1381.5625,
+          954.9931249999998,
+          1413.4375
+        ]
+      }
+    ],
+    "png_sha256": "3e9da1f1e282e02d79cfed42a3074e684d0bbc54111c39da4de7fe22abafd3f5",
+    "webp_sha256": "9c8694f59245a467619bb804cc2605de42320c6f5eb3a0b0b4cf24311c0bd358"
+  },
+  {
+    "number": 5,
+    "id": "saiyan-005-orange-arm-bar",
+    "name": "Orange Arm Bar",
+    "style": "Orange",
+    "rules": "Physical attack doing +3 power stages of damage if successful. Raise your anger 1 level.",
+    "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+    "set": "Saiyan Saga",
+    "category": "Physical Combat",
+    "rarity": "Common",
+    "stars": 1,
+    "dimensions": [
+      2120,
+      2968
+    ],
+    "artwork_sha256": "68b3628c35d61e833be8eb7dd91d21ca916810d4181e6836bb6183a7b2d7bf55",
+    "frame_sha256": "25bbb8046daa585cfefb9b6f4975a0b7a4bdd009b3b58a9ab7d875d7aa9d9003",
+    "typography": [
+      {
+        "id": "card-title",
+        "text": "ORANGE ARM BAR",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 95.25,
+        "bounds": [
+          227.05224609375,
+          56.96875,
+          832.94775390625,
+          96.03125
+        ]
+      },
+      {
+        "id": "card-category",
+        "text": "PHYSICAL COMBAT",
+        "font": "title",
+        "size": 50,
+        "tracking": 4.0,
+        "width_factor": 0.84,
+        "baseline": 1019.75,
+        "bounds": [
+          285.24609375,
+          981.46875,
+          928.75390625,
+          1020.53125
+        ]
+      },
+      {
+        "id": "rule-attack-icon-1",
+        "kind": "attack",
+        "height": 34.349000000000004,
+        "bounds": [
+          162.68703711696753,
+          1121.651,
+          203.1839628830324,
+          1156.0
+        ],
+        "text_gap": 12.0
+      },
+      {
+        "id": "card-power-line-1",
+        "text": "Physical attack doing +3 power stages",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1156,
+        "bounds": [
+          215.18396288303248,
+          1120.23,
+          897.3129628830326,
+          1166.143
+        ]
+      },
+      {
+        "id": "card-power-line-2",
+        "text": "of damage if successful.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1215,
+        "bounds": [
+          313.2485,
+          1179.23,
+          746.7515000000001,
+          1225.143
+        ]
+      },
+      {
+        "id": "card-power-line-3",
+        "text": "Raise your anger 1 level.",
+        "font": "power",
+        "size": 49,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1274,
+        "bounds": [
+          317.5605000000001,
+          1238.23,
+          742.4395,
+          1284.143
+        ]
+      },
+      {
+        "id": "footer-brand",
+        "text": "DRAGON BALL Z",
+        "font": "brand",
+        "size": 30,
+        "tracking": 6,
+        "width_factor": 1,
+        "baseline": 1409.645,
+        "bounds": [
+          401.21,
+          1390.355,
+          658.79,
+          1409.645
+        ]
+      },
+      {
+        "id": "footer-disclaimer",
+        "text": "Not endorsed by Toei Animation or Funimation",
+        "font": "footer",
+        "size": 25,
+        "tracking": 0,
+        "width_factor": 1,
+        "baseline": 1445.375,
+        "bounds": [
+          334.8,
+          1427.625,
+          725.2,
+          1450.375
+        ]
+      },
+      {
+        "id": "card-number",
+        "text": "5",
+        "font": "title",
+        "size": 42.5,
+        "tracking": 0.255,
+        "width_factor": 0.78,
+        "baseline": 1413.10546875,
+        "bounds": [
+          927.1927709960937,
+          1381.23046875,
+          953.7872290039062,
+          1413.76953125
+        ]
+      }
+    ],
+    "png_sha256": "2d0c2a306da1556ec104b0be7c4f8123c0e72596e538c586e37adfcc5c2cb3c4",
+    "webp_sha256": "f3a3412280582d7e3e97b7abe2b320b9e7ccb158a2934e2f92b0814abe79eecc"
+  }
+]
