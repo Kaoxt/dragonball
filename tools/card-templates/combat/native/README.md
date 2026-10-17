@@ -10,7 +10,7 @@ Keep the original colored outer background. Center the rarity Dragon Ball and ca
 python tools/card-templates/combat/native/render.py --only 1,2,3,4,5
 ```
 
-Requires Python with Pillow, fontTools, NumPy and SciPy, plus Inkscape CLI. The renderer reads `cards-001-005.json`; use `--cards` for other verified input and `--output` for another output directory. Supply artwork for any new card at `artwork/saiyan-NNN.png`, preserving its aspect ratio. The retained first-five art is unchanged.
+Requires Python with Pillow, fontTools, NumPy and SciPy, plus Inkscape CLI. The renderer reads `cards-001-010.json`; use `--cards` for other verified input and `--output` for another output directory. Supply artwork for any new card at `artwork/saiyan-NNN.png`, preserving its aspect ratio. The retained first-ten art is unchanged.
 
 Outputs: native outlined SVG, 2120 × 2968 PNG and pixel-identical lossless WebP, plus 1060 × 1484 quality-92 preview WebP. Publishing is a separate step: copy only selected card previews and downloads to their public paths, then update their hash tokens in `public/cards/catalog.js`. The renderer does not publish automatically.
 

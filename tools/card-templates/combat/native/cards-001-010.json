@@ -1,0 +1,124 @@
+{
+  "set": "Saiyan Saga",
+  "category": "Physical Combat",
+  "rarity": "Common",
+  "rarity_stars": 1,
+  "cards": [
+    {
+      "number": 1,
+      "name": "Orange Standing Fist Punch",
+      "rules": [
+        "Physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack. Raise card user's anger level 1.",
+      "style": "Orange"
+    },
+    {
+      "number": 2,
+      "name": "Orange One Knuckle Punch",
+      "rules": [
+        "Physical attack doing +1 power stage",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
+    },
+    {
+      "number": 3,
+      "name": "Orange Two Knuckle Punch",
+      "rules": [
+        "Physical attack doing +1 power stage",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
+    },
+    {
+      "number": 4,
+      "name": "Orange Leg Sweep",
+      "rules": [
+        "Physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack. Raise card user's anger level 1.",
+      "style": "Orange"
+    },
+    {
+      "number": 5,
+      "name": "Orange Arm Bar",
+      "rules": [
+        "Physical attack doing +3 power stages",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "style": "Orange"
+    },
+    {
+      "number": 6,
+      "name": "Red Lunge Punch",
+      "style": "Red",
+      "rules": [
+        "Physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack. Raise card user's anger level 1."
+    },
+    {
+      "number": 7,
+      "name": "Red Reverse Punch",
+      "style": "Red",
+      "rules": [
+        "Physical attack doing +3 power stages",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+    },
+    {
+      "number": 8,
+      "name": "Red Knife Hand",
+      "style": "Red",
+      "rules": [
+        "Physical attack doing +3 power stages",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+    },
+    {
+      "number": 9,
+      "name": "Red Palm Heel Strike",
+      "style": "Red",
+      "rules": [
+        "Physical attack doing +3 power stages",
+        "of damage if successful.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+    },
+    {
+      "number": 10,
+      "name": "Red Elbow Strike",
+      "style": "Red",
+      "rules": [
+        "Physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "original_rules": "Physical Attack. Raise card user's anger level 1."
+    }
+  ],
+  "sources": {
+    "source_commit": "70ddcea2453a8dd356ef5d439da8cf10603fe025",
+    "card_list_and_rarity": "https://www.vegeth.it/manualegiococarte.pdf#page=24",
+    "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "rules": "Existing original card powers checked against supplied Expanded CRD; no named overrides for cards 1-10.",
+    "wording_policy": "Use the approved Raise your anger 1 level convention. Expand stage to power stage and retain if successful attached to attack damage; do not condition the separate anger effect.",
+    "artwork": "Cards 1 and 6: approved cleaned previews. Cards 2-5: retained native artwork. Cards 7-10: retained published artwork, downloaded from Kaoxt/dragonball. No repainting.",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+  },
+  "template_version": "2026-10-16-restored-background-centered-footer"
+}

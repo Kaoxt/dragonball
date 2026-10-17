@@ -1,6 +1,6 @@
 ---
-name: artifact-template-dragon-ball-ocg-combat-master
-description: "Create Dragon Ball OCG combat cards with the permanent approved Orange and Red templates: dark softly blurred outer backgrounds, colored Toku Waza symbols on black badges, fixed thin vector borders, consistent typography, and retained artwork. Use when the user selects Dragon Ball OCG Combat Production or requests new combat cards using the approved permanent October 15 designs."
+name: artifact-template-dragon-ball-ocg-combat-production
+description: "Create Dragon Ball OCG combat cards with the permanent approved Orange and Red templates: original dark softly blurred colored backgrounds, colored Toku Waza symbols on black badges, fixed thin vector borders, consistent typography, and retained artwork. Use when the user selects Dragon Ball OCG Combat Production or requests new combat cards using the approved permanent October 15 designs."
 ---
 
 # Dragon Ball OCG Combat Production
@@ -11,10 +11,16 @@ The user's October 16 production standard applies to ALL future card templates, 
 
 Use the approved October 16 charcoal center footer and cap-height effect icons. Put crossed swords beside attacks and a solid shield beside stop-attack effects, including both physical and energy stops, on all future cards. Read the icon/footer section in `references/combat-production.md`.
 
+## Original colored outer background — latest October 16, 2026 decision
+
+Retain the original dark, softly blurred Orange or Red decorative background around the power box and footer as well as the title. Do not add a solid-black lower-background rectangle. Keep the separate charcoal center footer panel behind the brand and disclaimer. Preserve all artwork, symbols, panels and native borders. This supersedes the earlier solid-black lower-background trial.
+
+Current references are `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier black-background references remain historical.
+
 ## Read first
 
 - Read `artifact-template.json` for the primary orange reference.
-- Inspect the current Orange reference named in `artifact-template.json` and `assets/red-footer-icons-reference.png` for the approved visual designs.
+- Inspect the current Orange reference named in `artifact-template.json` and `assets/red-restored-footer-aligned-reference.png` for the approved visual designs.
 - Read `references/combat-production.md` before composing or editing cards.
 - Read the user-supplied current CRD; `references/Expanded-CRD.txt` is the retained October 15 source and must not be assumed newer than a future user-supplied replacement.
 
@@ -22,7 +28,7 @@ Use the approved October 16 charcoal center footer and cap-height effect icons. 
 
 1. Verify set, number, name, rarity, style, category, and rules from the original card and applicable CRD. Preserve effect timing and whether damage depends on success. Never invent card text.
 2. Copy the entire `native` directory into a new working directory. Keep the installed skill and references unchanged.
-3. Edit the working copy of `cards-001-005.json` for the requested cards; the batch may contain any number of Orange and/or Red cards. Read the input-field rules below before changing set, category, or rarity. Supply each retained art image in `artwork/saiyan-NNN.png` at 1060 × 794; preserve its original aspect ratio. Keep the source image separately.
+3. Edit the working copy of `cards-001-010.json` for the requested cards; the batch may contain any number of Orange and/or Red cards. Read the input-field rules below before changing set, category, or rarity. Supply each retained art image in `artwork/saiyan-NNN.png` at 1060 × 794; preserve its original aspect ratio. Keep the source image separately.
 4. Reuse the native SVG frame, fonts, icons, footer placement, and approved decoration. Run `python render.py` in the copied production directory. It produces outlined SVG masters, 2120 × 2968 PNG and lossless WebP files, 1060 × 1484 previews, and a verification report. Requirements: Pillow, fontTools, NumPy, SciPy, and Inkscape CLI.
 5. Use imagegen only when new raster artwork or an explicitly requested raster edit is needed. Generate artwork separately from text and frame; do not repeatedly regenerate complete cards to change borders, lettering, icons, or background color. When image editing is required, follow the current imagegen instructions and retain the reference images.
 6. Visually check every card, including power lines and footer numbers. Confirm shared geometry within each style, correct rarity, and lossless exports. Never describe embedded raster illustration or symbols as vector artwork.
@@ -30,8 +36,14 @@ Use the approved October 16 charcoal center footer and cap-height effect icons. 
 
 ## Retained variants
 
-- Orange: `assets/orange-footer-icons-reference.png`; orange 橙 strokes matched to the Red main-stroke weight on a dark circle. Keep `assets/reference.png` as the historical original.
-- Red: `assets/red-footer-icons-reference.png`; red 赤 symbol strokes on a dark circle.
+- Orange: `assets/orange-restored-footer-aligned-reference.png`; orange 橙 strokes matched to the Red main-stroke weight on a dark circle. Keep `assets/reference.png` as the historical original.
+- Red: `assets/red-restored-footer-aligned-reference.png`; red 赤 symbol strokes on a dark circle.
 - Both use the same fixed panels, typography, footer, borders, and geometry.
 
-The dark circle background must not be recolored. Keep the dark softly blurred decorative background while character art, type, symbols, and border contours remain sharp.
+The dark circle background must not be recolored. Keep the original colored decorative background around the entire card while character art, type, symbols, and border contours remain sharp.
+
+## Centered footer rarity and number — October 16, 2026
+
+Center the rarity Dragon Ball and card number at y=1397.5 in the 1060 × 1484 design, the midpoint of the horizontal footer silver rails at y=1355 and y=1440. Use `FOOTER_SIDE_CENTER_Y` for both. Position the sphere from its visible alpha bounds and the number from its actual outlined glyph bounds; do not align padded raster canvases or text baselines. Keep the star centered in the sphere and retain the existing group center and spacing for single- and double-digit numbers. This supersedes the old y=1401 placement.
+
+Current references: `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier references are retained unchanged.

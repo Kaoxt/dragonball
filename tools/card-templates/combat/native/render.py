@@ -3,7 +3,7 @@
 Run from a copied production directory: python render.py
 Requires Python Pillow, NumPy, SciPy, fontTools, and the Inkscape CLI.
 The SVGs are production masters; their text is outlined for portable rendering.
-Card wording and line breaks are editable in cards-001-005.json.
+Card wording and line breaks are editable in cards-001-010.json.
 """
 from pathlib import Path
 import argparse, base64, hashlib, html, json, math, re, subprocess
@@ -20,7 +20,7 @@ from icons import icon, width_at_height
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 parser = argparse.ArgumentParser()
-parser.add_argument('--cards', type=Path, default=HERE/'cards-001-005.json')
+parser.add_argument('--cards', type=Path, default=HERE/'cards-001-010.json')
 parser.add_argument('--output', type=Path, default=HERE/'output')
 parser.add_argument('--only', help='Comma-separated card numbers to render')
 args = parser.parse_args()

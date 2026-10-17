@@ -59,3 +59,15 @@ The renderer recognizes unambiguous rows beginning Physical attack, Energy attac
 Use `native/assets/footer-center.svg` for the charcoal center panel behind both footer lines. Use Rajdhani SemiBold at size 30 with 6-unit tracking for DRAGON BALL Z; keep the disclaimer in unstroked Barlow Condensed Regular at size 25, including the word Not. Retain the existing silver rails, side panels, symbol positions and card number. The new panel hides the old baked-in footer lettering.
 
 The current references are `assets/orange-footer-icons-reference.png` and `assets/red-footer-icons-reference.png`. Earlier references are historical. Render a subset with `python render.py --only 1,2,3,4,5 --output /absolute/output`; alternate verified data can be supplied with `--cards /absolute/cards.json`.
+
+## Original colored outer background — latest October 16, 2026 decision
+
+Retain the original dark, softly blurred Orange or Red decorative background around the power box and footer as well as the title. Do not add a solid-black lower-background rectangle. Keep the separate charcoal center footer panel behind the brand and disclaimer. Preserve all artwork, symbols, panels and native borders. This supersedes the earlier solid-black lower-background trial.
+
+Current references are `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier black-background references remain historical.
+
+## Centered footer rarity and number — October 16, 2026
+
+Center the rarity Dragon Ball and card number at y=1397.5 in the 1060 × 1484 design, the midpoint of the horizontal footer silver rails at y=1355 and y=1440. Use `FOOTER_SIDE_CENTER_Y` for both. Position the sphere from its visible alpha bounds and the number from its actual outlined glyph bounds; do not align padded raster canvases or text baselines. Keep the star centered in the sphere and retain the existing group center and spacing for single- and double-digit numbers. This supersedes the old y=1401 placement.
+
+Current references: `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier references are retained unchanged.
