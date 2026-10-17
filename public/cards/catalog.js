@@ -7,11 +7,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=dbf0abbce08c",
+    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=b0f60cc3d122",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=2bdfb37a3b6d"
+    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=a0aa6db57814"
   },
   {
     "id": "saiyan-002-orange-one-knuckle-punch",
