@@ -1,0 +1,362 @@
+{
+  "set": "Saiyan Saga",
+  "rarity": "Common",
+  "rarity_stars": 1,
+  "template_version": "2026-10-18-unified-single-icon-trailing-banish",
+  "cards": [
+    {
+      "number": 51,
+      "id": "saiyan-051-orange-hip-throw",
+      "name": "Orange Hip Throw",
+      "style": "Orange",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: AT +2 stages.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-051.webp",
+      "art_source": "/assets/cards/saiyan-051-orange-hip-throw.webp?v=0ae20f6da6",
+      "art_source_sha256": "a7541e2b3f30d939a19c2fb8c1ca083539b8365120131507095b0ba65275492c",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/51-Orange-Hip-Throw.jpg",
+      "original_scan_sha256": "0baa4f03397838478d7a5e10b01cdefcfe5df6ba9dcb91ccd462c6e1726a227b",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 52,
+      "id": "saiyan-052-orange-neck-restraints",
+      "name": "Orange Neck Restraints",
+      "style": "Orange",
+      "category": "Energy Combat",
+      "rules": [
+        "Stop an energy attack.",
+        "Lower your opponent’s anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+      "artwork_file": "artwork/saiyan-052.webp",
+      "art_source": "/assets/cards/saiyan-052-orange-neck-restraints.webp?v=31f7b936d3",
+      "art_source_sha256": "41b625cb1ed89beca9924f71d1b0ae70af5a308260988569a6da2c1f73082a26",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/52-Orange-Neck-Restraints.jpg",
+      "original_scan_sha256": "7597e6ff7a625146aa224203af0b904b9a0ca53cdb581b4582c561cb44495f82",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 53,
+      "id": "saiyan-053-orange-holding-after-takedown",
+      "name": "Orange Holding After Takedown",
+      "style": "Orange",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Lower your opponent’s anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+      "artwork_file": "artwork/saiyan-053.webp",
+      "art_source": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp?v=dcd634c149",
+      "art_source_sha256": "aeb55e483024b5811e4df85c67ed2d2d793e5351eaba64ac93171919a63f9ee8",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/53-Orange-Holding-After-Takedown.jpg",
+      "original_scan_sha256": "c4d0deb9acba606f4cfc7b801fa9e6e23917a93a7e4adf291169c7398e3c3d51",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 54,
+      "id": "saiyan-054-red-knee-strike",
+      "name": "Red Knee Strike",
+      "style": "Red",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-054.webp",
+      "art_source": "/assets/cards/saiyan-054-red-knee-strike.webp?v=3352785a44",
+      "art_source_sha256": "c1ef5ef40c7fd815c7f5015f45e3d8aa504fb2b321518c07184bde713c17e147",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/54-Red-Knee-Strike.jpg",
+      "original_scan_sha256": "5c58cf981de65bb7270f24aecf93b68b06c39bee1d100c859de1a9446cd90574",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 55,
+      "id": "saiyan-055-red-front-kick",
+      "name": "Red Front Kick",
+      "style": "Red",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: AT +1 stages.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-055.webp",
+      "art_source": "/assets/cards/saiyan-055-red-front-kick.webp?v=0e1286932c",
+      "art_source_sha256": "a62295dbb0e0800f7d09d6030abf2c82555fe7ee83458e4bf68955cfcce36f5f",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/55-Red-Front-Kick.jpg",
+      "original_scan_sha256": "d7a059f41a61d2df09b5fb1bb4f75f3854dcd24c3c38193b922d79c330b38aa4",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 56,
+      "id": "saiyan-056-red-side-kick",
+      "name": "Red Side Kick",
+      "style": "Red",
+      "category": "Energy Combat",
+      "rules": [
+        "Stop an energy attack."
+      ],
+      "rule_icons": [
+        "block"
+      ],
+      "original_rules": "Stop foe’s energy attack this round.",
+      "artwork_file": "artwork/saiyan-056.webp",
+      "art_source": "/assets/cards/saiyan-056-red-side-kick.webp?v=5611d16a1e",
+      "art_source_sha256": "2fd02d5514b4b3103e5453fe8f2e72137f3f8ec1c19be39a8790803fc8192ac2",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/56-Red-Side-Kick.jpg",
+      "original_scan_sha256": "9728638bde1451be0a91597e64a97583d0569e70f082fc8f54ac8e98fe2530e1",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stop foe’s energy attack this round.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 57,
+      "id": "saiyan-057-red-round-kick",
+      "name": "Red Round Kick",
+      "style": "Red",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: AT +3 stages.",
+        "Lower your opponent’s anger 1 level."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+      "artwork_file": "artwork/saiyan-057.webp",
+      "art_source": "/assets/cards/saiyan-057-red-round-kick.webp?v=290fe15123",
+      "art_source_sha256": "0498d5dd5296ebf25da6fbff630a81c85e24807bdfcd0994f5ed089e0016f303",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/57-Red-Round-Kick.jpg",
+      "original_scan_sha256": "3e7dadf643da08a4837f5c8997f5cd690009381b622cde03a212ae9b9e983085",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 58,
+      "id": "saiyan-058-red-back-kick",
+      "name": "Red Back Kick",
+      "style": "Red",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: AT +3 stages.",
+        "Stop all energy attacks for the rest of Combat.",
+        "Lower your opponent’s anger 1 level."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+      "artwork_file": "artwork/saiyan-058.webp",
+      "art_source": "/assets/cards/saiyan-058-red-back-kick.webp?v=736d19cf98",
+      "art_source_sha256": "f3fabc94281d10e2bdb903334fd26265e9f9d0858ce5be3cec61a8b71a8de59e",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/58-Red-Back-Kick.jpg",
+      "original_scan_sha256": "a772946f59cdde163a17e0df82a71521836788f769d27265be10741d7998bd94",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 59,
+      "id": "saiyan-059-blue-big-outside-drop",
+      "name": "Blue Big Outside Drop",
+      "style": "Blue",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops a physical attack. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-059.webp",
+      "art_source": "/assets/cards/saiyan-059-blue-big-outside-drop.webp?v=7e9c9ec44b",
+      "art_source_sha256": "5e8588d61c9cc374d244b72fb3a5a93cce7049995fd46b5b2cb6edf119719490",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/59-Blue-Big-Outside-Drop.jpg",
+      "original_scan_sha256": "db1fab57fa6a39504550b277c33d2978d479d6b7a2b86d8eb3b0ac9349c16643",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops a physical attack. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 60,
+      "id": "saiyan-060-blue-one-arm-shoulder-throw",
+      "name": "Blue One-Arm Shoulder Throw",
+      "style": "Blue",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Lower your opponent’s anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+      "artwork_file": "artwork/saiyan-060.webp",
+      "art_source": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp?v=6a901a6920",
+      "art_source_sha256": "ab1e8340885333a41b8a0f532f7b96a08ec8222dcbb5411cd0c185dc39734917",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/60-Blue-One-Arm-Shoulder-Throw.jpg",
+      "original_scan_sha256": "cdddb8bd59719be59c3ff60777174b24ee8fc24b3af4a103fe2815a108ca9142",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+        "banish_after_use": false
+      }
+    }
+  ],
+  "sources": {
+    "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+    "wording_policy": "references/card-wording.md",
+    "rarity_verification": "Verified original scans: one star for 041–060; three stars for 061–070."
+  }
+}

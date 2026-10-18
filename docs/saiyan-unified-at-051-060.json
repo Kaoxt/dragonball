@@ -1,0 +1,1579 @@
+{
+  "scope": "Saiyan Saga 051-060",
+  "date": "2026-10-18",
+  "card_count": 10,
+  "template": "Unified native geometry, CRD-first wording, one power icon maximum; canonical Freestyle style badge",
+  "non_target_catalog_entries_unchanged": true,
+  "cards": [
+    {
+      "number": 51,
+      "id": "saiyan-051-orange-hip-throw",
+      "name": "Orange Hip Throw",
+      "style": "Orange",
+      "rules": "Physical attack. DAMAGE: AT +2 stages. Raise your anger 1 level.",
+      "original_rules": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "e76cc2141ab4e79663a0585694a08d20e64ea83ee1e5fef0ca5aed39267d5a18",
+      "frame_sha256": "9026e223af81f6a861bca58ef2b7dd685d56cb5a61c67aa82427d84a34697d91",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "ORANGE HIP THROW",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            191.685546875,
+            56.96875,
+            868.314453125,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +2 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            329.6145000000001,
+            1180.308,
+            730.3855,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            317.5605000000001,
+            1238.23,
+            742.4395,
+            1284.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "51",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.1404296875,
+          "bounds": [
+            911.0726724853514,
+            1384.3216796875,
+            957.1811275146483,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "c60b8435bc60add28691c40d2b1f908be00f203a12cadb5de4168b17b8f32d0a",
+      "webp_sha256": "93d83b8c3b20144ad6e6996b5ac398f88da052e9af387b7a3e21044b37eb2998",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "bd108c6602f2929d0eebe1efaec2a6172288e6f0af6ca35bd6933c0cd0dd08cd",
+      "preview_sha256": "97533375e23d0fbc4a0dc49fca3dcc91b565778649bebee03943062e72a4e102",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=93d83b8c3b20"
+    },
+    {
+      "number": 52,
+      "id": "saiyan-052-orange-neck-restraints",
+      "name": "Orange Neck Restraints",
+      "style": "Orange",
+      "rules": "Stop an energy attack. Lower your opponent’s anger 1 level.",
+      "original_rules": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+      "set": "Saiyan Saga",
+      "category": "Energy Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "aa738de38edd1f59a1c1b6c805b6c7c1d26a2a31a7d56158c7a7d9977ae3adc9",
+      "frame_sha256": "9026e223af81f6a861bca58ef2b7dd685d56cb5a61c67aa82427d84a34697d91",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "ORANGE NECK RESTRAINTS",
+          "font": "title",
+          "size": 48.0,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 94.5,
+          "bounds": [
+            84.01249999999995,
+            57.75,
+            975.9875000000001,
+            95.25
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "ENERGY COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            316.98291015625,
+            981.46875,
+            897.01708984375,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            305.7118342105263,
+            1147.651,
+            343.1341657894737,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop an energy attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            355.1341657894736,
+            1147.308,
+            754.2881657894736,
+            1192.143
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Lower your opponent’s anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            208.3395,
+            1206.7,
+            851.6605000000001,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "52",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.423673828125,
+            1384.052734375,
+            957.830126171875,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "5c3983dc72cf783c18b911a88515ef5a939ca1e2b9f510ed2ebef2ab6397eaa8",
+      "webp_sha256": "9fcd3733bdf8c2da17d22a0324f068834b6b1f99ff6292b3442aed787cc3b173",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "50e92768d802795bf9539313eee9ac9eaf1d97037b6e2309766ffb03bb80b637",
+      "preview_sha256": "dc9d21095cbf2b18b78e5574b71a3109dc67c023502c232f0b2cbf3df488ad66",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=9fcd3733bdf8"
+    },
+    {
+      "number": 53,
+      "id": "saiyan-053-orange-holding-after-takedown",
+      "name": "Orange Holding After Takedown",
+      "style": "Orange",
+      "rules": "Stop a physical attack. Lower your opponent’s anger 1 level.",
+      "original_rules": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "374a6a0ace5f233d3617ba68e82809f0eefa800ae998cd873c0fab9a38738d71",
+      "frame_sha256": "9026e223af81f6a861bca58ef2b7dd685d56cb5a61c67aa82427d84a34697d91",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "ORANGE HOLDING AFTER TAKEDOWN",
+          "font": "title",
+          "size": 34.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 89.4375,
+          "bounds": [
+            84.87840820312513,
+            63.0234375,
+            975.1215917968749,
+            89.9765625
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1147.651,
+            341.0761657894737,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            353.07616578947363,
+            1146.23,
+            756.3461657894736,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Lower your opponent’s anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            208.3395,
+            1206.7,
+            851.6605000000001,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "53",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.5088958740233,
+            1384.052734375,
+            957.7449041259765,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "d22f0fc32c3b7c5bbe12a17bbe119d9fe3c16e1f84f390205d98eb6f6f09d548",
+      "webp_sha256": "5e7804a583eb6979cd43c196ae50b7e1d5b5039ba9ed1d58fae110a3cfc24143",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "84f3dc2f41db2a00202248c4fb83afb98f6a07730400d3eed6c222cf59476cd5",
+      "preview_sha256": "b992b6cae5a0981408af8b89737f348972337b21bd414d823113950a72464093",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=5e7804a583eb"
+    },
+    {
+      "number": 54,
+      "id": "saiyan-054-red-knee-strike",
+      "name": "Red Knee Strike",
+      "style": "Red",
+      "rules": "Stop a physical attack. Raise your anger 1 level.",
+      "original_rules": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "54a98c18f8d9a65664e1ea549e1f3bff9285c913ceda374aecb6979a11de3437",
+      "frame_sha256": "3eaa6605f96ab1df85a5a59a43a05c250e0fd72993066308505b57869bf1439f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "RED KNEE STRIKE",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            241.140625,
+            56.96875,
+            818.859375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1147.651,
+            341.0761657894737,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            353.07616578947363,
+            1146.23,
+            756.3461657894736,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Raise your anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            317.5605000000001,
+            1205.23,
+            742.4395,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "54",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.1404296875,
+          "bounds": [
+            909.827119506836,
+            1384.3216796875,
+            958.426680493164,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "86a8508c5badd47e7d77835c61bbbc587952496ce6bd321e3f0a6170b8efbcdb",
+      "webp_sha256": "5bbba259572c610d6c466d1ee65427f5db0725c209bb3b92ec93dcfb3fa1c42e",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "15679ba1b47265e6e7d74be9ee8fd59dedef578c4090da7aa7dc07371d4ea97b",
+      "preview_sha256": "8cbdd507a4bdafcc054994cb8a9114b4f240579368ab881bdcbba20eb4768a65",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=5bbba259572c"
+    },
+    {
+      "number": 55,
+      "id": "saiyan-055-red-front-kick",
+      "name": "Red Front Kick",
+      "style": "Red",
+      "rules": "Physical attack. DAMAGE: AT +1 stages. Raise your anger 1 level.",
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "ae94f322f1bdba45c6993d760b8e99fa790bada4d4b8a7a8c2fadb33f6702649",
+      "frame_sha256": "3eaa6605f96ab1df85a5a59a43a05c250e0fd72993066308505b57869bf1439f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "RED FRONT KICK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            258.521484375,
+            56.96875,
+            801.478515625,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +1 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            333.38750000000005,
+            1180.308,
+            726.6125,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            317.5605000000001,
+            1238.23,
+            742.4395,
+            1284.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "55",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.1404296875,
+          "bounds": [
+            910.4826737060547,
+            1384.3216796875,
+            957.7711262939453,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "189befdafffad456f57159dd502191dc6e61c419d2f829c5390381b936c71e22",
+      "webp_sha256": "b8b309ea23ea2ba63abd220f8d5bc7863fb3e197ec6c21889a0d8fdf0d8af8b1",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "14a8100f72359449c2a9e63c39fc088bcaa1f6579b156695e1610c5677310c4c",
+      "preview_sha256": "007dc9729d6f84cc6c469aacc449e96a8fdf2c48a6691f1ebc97d74ceef20b71",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=b8b309ea23ea"
+    },
+    {
+      "number": 56,
+      "id": "saiyan-056-red-side-kick",
+      "name": "Red Side Kick",
+      "style": "Red",
+      "rules": "Stop an energy attack.",
+      "original_rules": "Stop foe’s energy attack this round.",
+      "set": "Saiyan Saga",
+      "category": "Energy Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "9a6519fc2fb30cc8c1ee2fd2a0c0b0b17d60024b814e04dfa6f65d5d9fb18feb",
+      "frame_sha256": "3eaa6605f96ab1df85a5a59a43a05c250e0fd72993066308505b57869bf1439f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "RED SIDE KICK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            296.205078125,
+            56.96875,
+            763.794921875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "ENERGY COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            316.98291015625,
+            981.46875,
+            897.01708984375,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            305.7118342105263,
+            1168.651,
+            343.1341657894737,
+            1203.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop an energy attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1203,
+          "bounds": [
+            355.1341657894736,
+            1168.308,
+            754.2881657894736,
+            1213.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "56",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.358118408203,
+            1384.052734375,
+            957.8956815917968,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "74197c95100f3c4c56ef2f5402e77f29ddd0b3e0f724f31d9f0493343fc8b829",
+      "webp_sha256": "dc33f7e4f76d3775cc56b30ee9fa17a80d38f0945386c1182edc95724bb5b036",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stop foe’s energy attack this round.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "9e264a52368f04d3648bf5c97998c07ea7709c16c1950b57c647d093d8c54135",
+      "preview_sha256": "ffb0295e140d4dcfa03681b23c72f68bdb477b0d3c73fbc060988b9094d9a1a8",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=dc33f7e4f76d"
+    },
+    {
+      "number": 57,
+      "id": "saiyan-057-red-round-kick",
+      "name": "Red Round Kick",
+      "style": "Red",
+      "rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent’s anger 1 level.",
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "6467406ff808845d66426df1a5b821878407c4c73b069246162ba76272389ac1",
+      "frame_sha256": "3eaa6605f96ab1df85a5a59a43a05c250e0fd72993066308505b57869bf1439f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "RED ROUND KICK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            251.51806640625,
+            56.96875,
+            808.48193359375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +3 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            329.66350000000006,
+            1180.308,
+            730.3364999999999,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Lower your opponent’s anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            208.3395,
+            1239.7,
+            851.6605000000001,
+            1284.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "57",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.1404296875,
+          "bounds": [
+            910.2466741943358,
+            1384.3216796875,
+            958.007125805664,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "aa01586202d46c43aa162d07d3e9074b98dd873492f25792e943b0e0775d748c",
+      "webp_sha256": "ba6fe409afb1cb8ddaeb326f92f2f8dd8ff2f22c158c949d150ecfa6b4cfed52",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "233307b33b0fe14aca1fa816513d8bc1583c630e0bb99aa01606449fa9442d27",
+      "preview_sha256": "96cd3bf8bcaa8a6985d3f65e79389d1fc7760fdac8c146f8ee30dc5ba7e51b3e",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-057-red-round-kick.webp?v=ba6fe409afb1"
+    },
+    {
+      "number": 58,
+      "id": "saiyan-058-red-back-kick",
+      "name": "Red Back Kick",
+      "style": "Red",
+      "rules": "Physical attack. DAMAGE: AT +3 stages. Stop all energy attacks for the rest of Combat. Lower your opponent’s anger 1 level.",
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "524ede0e41178f598a480611923a7a8c77b445a8d782e659e8e2c1eb974939b0",
+      "frame_sha256": "3eaa6605f96ab1df85a5a59a43a05c250e0fd72993066308505b57869bf1439f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "RED BACK KICK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            278.4453125,
+            56.96875,
+            781.5546875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1094.651,
+            403.12846288303246,
+            1129.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            415.12846288303246,
+            1093.23,
+            697.3684628830324,
+            1138.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +3 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            329.66350000000006,
+            1153.308,
+            730.3364999999999,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Stop all energy attacks for the rest of Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            120.0415,
+            1212.308,
+            939.9585,
+            1257.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "Lower your opponent’s anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            208.3395,
+            1271.7,
+            851.6605000000001,
+            1316.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "58",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.5088958740233,
+            1384.052734375,
+            957.7449041259765,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "ab92f6156917e2682aba564e6ff74fd7cd413e9fa19a047b03573b57557f1caa",
+      "webp_sha256": "cab06ff8fce7e6c2484e82b0b65c54ce732fba9033c0df12f1df54dfe236e6a7",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "2e1ea3170f0c3bab7f6e86196224d7b3f59c11a04d71657006d3d112dd34f566",
+      "preview_sha256": "1f928f80d11b7afe453741cfb2a72ebd173a85cfab8d90606cd7cbc5ad41a00c",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=cab06ff8fce7"
+    },
+    {
+      "number": 59,
+      "id": "saiyan-059-blue-big-outside-drop",
+      "name": "Blue Big Outside Drop",
+      "style": "Blue",
+      "rules": "Stop a physical attack. Raise your anger 1 level.",
+      "original_rules": "Stops a physical attack. Raise card user’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "f549fc0cda5ae9e1c0113d9d196736b71290b2e07fa807f7d783ff7c288d2545",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE BIG OUTSIDE DROP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            127.421875,
+            56.96875,
+            932.578125,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1147.651,
+            341.0761657894737,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            353.07616578947363,
+            1146.23,
+            756.3461657894736,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Raise your anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            317.5605000000001,
+            1205.23,
+            742.4395,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "59",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.5088958740233,
+            1384.052734375,
+            957.7449041259765,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "1e26df0319615b22dc948ca8c8b4843d6a1ba6273fe0242ef989561e3eff25e8",
+      "webp_sha256": "e3c24c9acb488c19e45518f1ea7b31ded47e299805b042aa5716b62ab1fd7361",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops a physical attack. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "de7f24fa085f2dd7c44080c743952b6e2f1ca1eb10d346949cbcf3f67f6ff70c",
+      "preview_sha256": "02c6a83fdd7346cf571409bd14dab5c7d85f4db7090364ad877edd36d46b1c70",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=e3c24c9acb48"
+    },
+    {
+      "number": 60,
+      "id": "saiyan-060-blue-one-arm-shoulder-throw",
+      "name": "Blue One-Arm Shoulder Throw",
+      "style": "Blue",
+      "rules": "Stop a physical attack. Lower your opponent’s anger 1 level.",
+      "original_rules": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "4b3c2891e96cb404f2f3fd7103219d77a3c1ddbd5084fea52f382143b496b1fd",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE ONE-ARM SHOULDER THROW",
+          "font": "title",
+          "size": 37.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 90.5625,
+          "bounds": [
+            81.7967529296875,
+            61.8515625,
+            978.2032470703125,
+            91.1484375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1147.651,
+            341.0761657894737,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            353.07616578947363,
+            1146.23,
+            756.3461657894736,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Lower your opponent’s anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            208.3395,
+            1206.7,
+            851.6605000000001,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "60",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.3384517822265,
+            1384.052734375,
+            957.9153482177734,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "82012d90cc83fc96dbdd77695a7ce132553d82c0325dd1735bf37057df0c47a2",
+      "webp_sha256": "ace1921fa8ad415f0af8c664482bf752bcf120e7cce3ef6f3cf485098db3264f",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+        "banish_after_use": false
+      },
+      "lossless_equal": true,
+      "svg_sha256": "b05625a18a842b844d3cfec839edccbc75e408fbfd1a06fc6f4a56be616f1ca0",
+      "preview_sha256": "4a649b06e34781e73f8533959e2370c92fd57e1b7a8656a1855290df7c889c10",
+      "power_icon_count": 1,
+      "catalog_image": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=ace1921fa8ad"
+    }
+  ]
+}
