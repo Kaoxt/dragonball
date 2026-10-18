@@ -9,53 +9,95 @@
       "name": "Orange Standing Fist Punch",
       "rules": [
         "Physical attack.",
+        "DAMAGE: AT stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack. Raise card user's anger level 1.",
-      "style": "Orange"
+      "style": "Orange",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 2,
       "name": "Orange One Knuckle Punch",
       "rules": [
-        "Physical attack doing +1 power stage",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 1 stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
-      "style": "Orange"
+      "style": "Orange",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 3,
       "name": "Orange Two Knuckle Punch",
       "rules": [
-        "Physical attack doing +1 power stage",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 1 stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
-      "style": "Orange"
+      "style": "Orange",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 4,
       "name": "Orange Leg Sweep",
       "rules": [
         "Physical attack.",
+        "DAMAGE: AT stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack. Raise card user's anger level 1.",
-      "style": "Orange"
+      "style": "Orange",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 5,
       "name": "Orange Arm Bar",
       "rules": [
-        "Physical attack doing +3 power stages",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 3 stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
-      "style": "Orange"
+      "style": "Orange",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 6,
@@ -63,43 +105,76 @@
       "style": "Red",
       "rules": [
         "Physical attack.",
+        "DAMAGE: AT stages.",
         "Raise your anger 1 level."
       ],
       "original_rules": "Physical Attack. Raise card user's anger level 1.",
-      "artwork_reference": "assets/red-lunge-punch-confirmed-master.png"
+      "artwork_reference": "assets/red-lunge-punch-confirmed-master.png",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 7,
       "name": "Red Reverse Punch",
       "style": "Red",
       "rules": [
-        "Physical attack doing +3 power stages",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 3 stages.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 8,
       "name": "Red Knife Hand",
       "style": "Red",
       "rules": [
-        "Physical attack doing +3 power stages",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 3 stages.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 9,
       "name": "Red Palm Heel Strike",
       "style": "Red",
       "rules": [
-        "Physical attack doing +3 power stages",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT + 3 stages.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1."
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack doing +3 stages of damage if successful. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 10,
@@ -107,9 +182,18 @@
       "style": "Red",
       "rules": [
         "Physical attack.",
+        "DAMAGE: AT stages.",
         "Raise your anger 1 level."
       ],
-      "original_rules": "Physical Attack. Raise card user's anger level 1."
+      "original_rules": "Physical Attack. Raise card user's anger level 1.",
+      "wording_note": "Attack type and any cost first, then DAMAGE with explicit units. AT means Attack Table and uses the existing power-rating lookup and original bonus. Damage requires success; the separate anger gain remains unconditional.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "matching_card_update": false,
+        "corrected_effect": "Physical Attack. Raise card user's anger level 1.",
+        "banish_after_use": false
+      }
     }
   ],
   "sources": {
@@ -117,9 +201,9 @@
     "card_list_and_rarity": "https://www.vegeth.it/manualegiococarte.pdf#page=24",
     "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "rules": "Existing original card powers checked against supplied Expanded CRD; no named overrides for cards 1-10.",
-    "wording_policy": "Use the approved Raise your anger 1 level convention. Expand stage to power stage and retain if successful attached to attack damage; do not condition the separate anger effect.",
+    "wording_policy": "Apply current Expanded CRD corrections first, then modernize per references/card-wording.md. Put applicable Banish after use in the leading power block. Use generic attack type and immediate cost, DAMAGE with AT and explicit units; HIT only for success-dependent effects. Preserve mechanics and omit inherent copy limits.",
     "artwork": "Cards 1 and 6: approved cleaned previews. Cards 2-5: retained native artwork. Cards 7-10: retained published artwork, downloaded from Kaoxt/dragonball. No repainting.",
     "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
   },
-  "template_version": "2026-10-17-confirmed-combat-master"
+  "template_version": "2026-10-18-unified-layout-at-wording"
 }
