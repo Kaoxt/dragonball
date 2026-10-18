@@ -26,13 +26,13 @@ Use `POWER:` for activated non-attack effects, not before an attack introduction
 
 Use `AT` for **Attack Table** everywhere in new game-facing wording. Rename the existing PAT term only: retain the game's existing lookup table, power-rating comparisons, values and modifiers. AT in a damage formula means the resulting table value; it is not a random roll. Keep `PAT` only in original-source quotations or migration notes.
 
-Write base physical damage as `DAMAGE: AT stages.` Write a stage bonus as `DAMAGE: AT + 4 stages.` Use spaces around the plus sign. AT plus a bonus is a total in stages, so use plural `stages` even for `AT + 1 stages`. A fixed one-stage amount or cost uses singular `1 stage`. Preserve separate life-card components where applicable.
+Write base physical damage as `DAMAGE: AT stages.` Write a stage bonus as `DAMAGE: AT +4 stages.` Keep one space between AT and the modifier; attach the plus sign directly to its number (`AT +3 stages`, never `AT + 3 stages`). Keep the sign and number together on one line. AT plus a bonus is a total in stages, so use plural `stages` even for `AT +1 stages`. A fixed one-stage amount or cost uses singular `1 stage`. Preserve separate life-card components where applicable.
 
 ## Approved examples
 
 - Goku #158: `Energy attack costing 1 stage. DAMAGE: 3 life cards.`
 - Ordinary physical: `Physical attack. DAMAGE: AT stages.`
-- Illustrative physical with a four-stage bonus: `Physical attack. DAMAGE: AT + 4 stages.` This example does not add that bonus to other cards.
+- Illustrative physical with a four-stage bonus: `Physical attack. DAMAGE: AT +4 stages.` This example does not add that bonus to other cards.
 - Red Lunge Punch #6: `Physical attack. DAMAGE: AT stages. Raise your anger 1 level.` Its anger gain stays independent of HIT.
 
 Preserve the approved fonts, power-box geometry and icon sizing. Line breaks may fit the existing text area without changing wording or mechanics. Do not add DAMAGE or AT to non-attack powers.
