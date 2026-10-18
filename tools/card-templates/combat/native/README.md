@@ -1,3 +1,7 @@
+# Current approved master — October 17, 2026
+
+The title and footer side panels use a black base with the preserved subtle diamond texture. The center footer gradient is #08090a to #000000. Orange Standing Fist Punch reproduces the live approved card pixel for pixel. Native frame geometry, artwork and symbols remain unchanged.
+
 # Current native combat production
 
 The October 17 confirmation uses `assets/red-lunge-punch-confirmed-master.png` as the visual authority. The native frame includes the shaped solid-black area between the white power box and the footer rails, while retaining the colored outer decoration. Red Lunge Punch uses the cleaned Goku illustration from that reference through a native artwork clip. Other illustrations remain unchanged.

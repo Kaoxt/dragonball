@@ -5,17 +5,23 @@ description: "Create Dragon Ball OCG combat cards with the permanent approved Or
 
 # Dragon Ball OCG Combat Production
 
-Use the approved October 15, 2026 orange and red design system for new combat cards. Preserve the retained references unchanged.
+Use the approved October 17, 2026 black textured title/footer design with the retained orange and red decoration for new combat cards. Preserve the retained references unchanged.
 
 The user's October 16 production standard applies to ALL future card templates, including Dragon Balls and Main Personalities: use native SVG geometry and outlined font paths for every label, rule, border, level, PUR, power stage and footer. Read `dragon-ball-ocg-vector-production` for the shared policy and the Dragon Ball and Main Personality renderers. Keep this package's existing combat geometry. Do not regenerate a completed card with AI to change its typography or frame.
 
 Use the approved October 16 charcoal center footer and cap-height effect icons. Put crossed swords beside attacks and a solid shield beside stop-attack effects, including both physical and energy stops, on all future cards. Read the icon/footer section in `references/combat-production.md`.
 
-## Original colored outer background — latest October 16, 2026 decision
+## Original colored outer background — retained October 16, 2026 decision
 
 Retain the original dark, softly blurred Orange or Red decorative background around the power box and footer as well as the title. Do not add a solid-black lower-background rectangle. Keep the separate charcoal center footer panel behind the brand and disclaimer. Preserve all artwork, symbols, panels and native borders. This supersedes the earlier solid-black lower-background trial.
 
 Current references are `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier black-background references remain historical.
+
+## Approved black textured panels — October 17, 2026
+
+Use the approved Orange Standing Fist Punch black textured title and footer as the current Combat master. `assets/orange-black-textured-reference.png` is the primary reference; it reproduces the live approved card pixel for pixel. Earlier references are historical. Keep a black #000000 base with the existing 14-unit diamond geometry, #101113 lines and 1-unit stroke on the title and both footer side compartments. Keep the original dark badge and colored combat category bar unchanged. Keep the shaped black inset above the footer and the center brand/disclaimer panel with its #08090a-to-#000000 gradient. Keep the original Orange/Red outer decoration, all artwork, outlined type, thin silver borders, and rarity/number centers at y=1397.5. Never add a rectangular black lower background.
+
+Use `native/render.py` and its retained inputs for new Combat cards. Both physical and energy Combat use this treatment. The renderer's pattern geometry, not a flattened image recolor, is authoritative. The Red reference is `assets/red-black-textured-reference.png`.
 
 ## Read first
 

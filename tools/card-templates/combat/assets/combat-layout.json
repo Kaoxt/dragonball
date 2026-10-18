@@ -5,12 +5,12 @@
     "aspect": "5:7"
   },
   "reference_card": {
-    "title": "BLACK FORE FIST PUNCH",
-    "number": "65",
-    "style": "Black",
-    "category": "ENERGY COMBAT",
-    "rarity": "Uncommon",
-    "dragon_ball_stars": 3
+    "title": "ORANGE STANDING FIST PUNCH",
+    "number": "1",
+    "style": "Orange",
+    "category": "PHYSICAL COMBAT",
+    "rarity": "Common",
+    "dragon_ball_stars": 1
   },
   "title": {
     "box": [
@@ -56,7 +56,7 @@
     ],
     "radius": 83.5,
     "symbol_centered": true,
-    "black_style_symbol": "黒",
+    "black_style_symbol": "\u9ed2",
     "black_style_fill": "#ffffff",
     "glow": false
   },
@@ -96,7 +96,7 @@
     "number_visible_height": 44,
     "rarity_number_gap": 18,
     "vertical_alignment": "align visible bounding-box centers, not font baseline",
-    "background": "identical dark diamond pattern for both compartments"
+    "background": "black #000000 with 14-unit diamond pattern, #101113 lines at width 1"
   },
   "borders": {
     "title_light_width": 5.5,
@@ -110,5 +110,5 @@
     },
     "geometry": "see combat-master-frame.svg and combat-border-vectors.svg"
   },
-  "text_status": "Reference lettering and artwork are raster. Frame assets are true editable SVG geometry. Exact original font files were not supplied."
+  "text_status": "Titles, rules, labels, numbers and borders are native outlined paths. Artwork, decoration, set emblem and rarity sphere are retained raster assets."
 }
