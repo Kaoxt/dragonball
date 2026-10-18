@@ -4,6 +4,7 @@ Retained illustration and set-emblem pixels are intentionally raster. No AI call
 Run: python scripts/render.py --output /absolute/directory [--cards cards.json]
 """
 from pathlib import Path
+from shared_layout import apply_layout
 import argparse, base64, hashlib, html, io, json, math, os, subprocess
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageChops, ImageStat
@@ -138,7 +139,13 @@ def footer(layers,metrics,number,rarity_stars,combat_match=False):
         panel=ET.parse(ASSETS/'combat-footer-center.svg').getroot()
         layers.extend(ET.tostring(x,encoding='unicode') for x in panel)
     layers.append(f'<g id="shared-footer">{paths}</g>')
-    layers.append(image(ASSETS/'saiyan-set-logo.png','saiyan-set-emblem',107,1365,84,66))
+    logo=ET.parse(ASSETS/'saiyan-set-logo-flat.svg').getroot()
+    for e in logo.iter('{http://www.w3.org/2000/svg}image'):
+        key='{http://www.w3.org/1999/xlink}href'
+        href=e.get(key)
+        if href and not href.startswith('data:'):
+            e.set(key,'data:image/png;base64,'+base64.b64encode((ASSETS/href).read_bytes()).decode())
+    layers.append('<g id="saiyan-set-emblem" transform="translate(107,1365)">'+''.join(ET.tostring(e,encoding='unicode') for e in logo)+'</g>')
     text(layers,metrics,'footer-brand','DRAGON BALL Z','brand' if combat_match else 'footer',30 if combat_match else 29,530,1400,tracking=6 if combat_match else 4,fill='#f4f4f4')
     text(layers,metrics,'footer-disclaimer','Not endorsed by Toei Animation or Funimation','footer',25,530,1439,fill='#efefef')
     _,b=glyphrun(str(number),'title',42.5,.255,.78)
@@ -167,9 +174,9 @@ def earth(layers,metrics,c):
         layers.append(f'<g id="retained-two-star-orb" clip-path="url(#two-star-orb-clip)"><image x="1" y="320" width="1060" height="1484" xlink:href="data:image/png;base64,{encoded}"/></g>')
         for k,cx in enumerate([462,607]):
             layers.append(f'<polygon id="large-star-{k+1}" data-star-count="1" fill="#d93209" points="{star(cx,759,55)}"/>')
-    # Card-specific placement preserves the full-art approved composition.
-    layers.append(border('rect x="68" y="67" width="924" height="83" rx="41.5"',ident='title-panel',fill='url(#black-diamonds)'))
-    text(layers,metrics,'card-title',c['name'].upper(),'title',48,530,108.5,tracking=.9,sx=.84,stroke=2.5,maxwidth=858)
+    # Shared Combat title coordinates; never resize or shift the panel by type.
+    layers.append(border('rect x="36" y="26" width="988" height="101" rx="50.5"',ident='title-panel',fill='url(#black-diamonds)'))
+    text(layers,metrics,'card-title',c['name'].upper(),'title',50,530,76.5,tracking=4,sx=.84,stroke=2.5,maxwidth=900)
     layers.append(border('path d="M184 954 H976 A47 47 0 0 1 976 1048 H184Z"',light=5,dark=9.5,ident='category-panel',fill='url(#black-diamonds)'))
     layers.append('<rect id="rules-panel" x="25" y="1054" width="1010" height="286" rx="44" fill="url(#rules-white)" stroke="#0a0a0a" stroke-width="3"/>')
     text(layers,metrics,'card-category','DRAGON BALL','title',50,607,1001,tracking=4,sx=.84,stroke=2.5,maxwidth=700)
@@ -220,7 +227,7 @@ def render(card,out):
     if card['kind']=='dragon-ball' and card.get('graphics_restoration'):
         # Restore only legacy category/orb footprints exposed by the new layout.
         old_orbs=[(134,994,33),(78,1026,33),(188,1020,34),(136,1065,35),(73,1089,36),(143,1120,35),(204,1080,36)]
-        patches='<rect x="68" y="1009" width="956" height="101" rx="50.5"/>'+''.join(f'<circle cx="{x}" cy="{y}" r="{r+5}"/>' for x,y,r in old_orbs)
+        patches='<rect x="61" y="59" width="938" height="99" rx="49.5"/><rect x="68" y="1009" width="956" height="101" rx="50.5"/>'+''.join(f'<circle cx="{x}" cy="{y}" r="{r+5}"/>' for x,y,r in old_orbs)
         layers.append('<defs><clipPath id="earth-legacy-graphics">'+patches+'</clipPath></defs>')
         layers.append('<g id="earth-graphics-restoration" clip-path="url(#earth-legacy-graphics)">'+image(ASSETS/card['graphics_restoration'],'earth-restored-art')+'</g>')
     if card['kind']=='dragon-ball':
@@ -235,17 +242,23 @@ def render(card,out):
     else: raise ValueError('New card types require a native vector layout; never fall back to AI text/frames.')
     body=''.join(layers)
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1060" height="1484" viewBox="0 0 1060 1484"><title>{html.escape(card["name"])}</title><desc>Outlined font paths and native vector frame. Illustration, set emblem and rarity sphere retain raster pixels.</desc>{body}</svg>'
+    if card['kind']=='dragon-ball':
+        svg=apply_layout(svg,'dragon-ball',ASSETS/'fonts',ASSETS/'shared-layout-parts.svg')
+        for metric in metrics:
+            if metric['id']=='card-number':
+                metric['size']*=.81
+                metric['bounds']=[907+(metric['bounds'][0]-907)*.81,1397.5+(metric['bounds'][1]-1397.5)*.81,907+(metric['bounds'][2]-907)*.81,1397.5+(metric['bounds'][3]-1397.5)*.81]
     path=out/(card['id']+'.svg');path.write_text(svg)
     png=out/(card['id']+'.png')
-    subprocess.run(['inkscape',str(path),'--export-filename='+str(png),'--export-width=2120'],check=True,capture_output=True)
-    hi=Image.open(png).convert('RGB');hi.load()
+    rendered=subprocess.run(['inkscape',str(path),'--export-filename=-','--export-type=png','--export-width=2120'],check=True,capture_output=True)
+    hi=Image.open(io.BytesIO(rendered.stdout)).convert('RGB');hi.load()
     # Publish complete PNG bytes atomically after the external renderer exits.
     data=io.BytesIO();hi.save(data,format='PNG')
     temp=png.with_suffix('.png.tmp')
     with temp.open('wb') as handle:
         handle.write(data.getvalue());handle.flush();os.fsync(handle.fileno())
     temp.replace(png)
-    hi.save(out/(card['id']+'.webp'),lossless=True,method=6)
+    hi.save(out/(card['id']+'.webp'),lossless=True,method=4)
     preview=hi.resize((W,H),Image.Resampling.LANCZOS)
     preview.save(out/(card['id']+'-preview.png'))
     preview.save(out/(card['id']+'-preview.webp'),'WEBP',quality=92,method=6)

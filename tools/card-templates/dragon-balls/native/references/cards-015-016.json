@@ -9,11 +9,18 @@
       "reference": "earth-reference.png",
       "rules": [
         "Raise your Main Personality to its",
-        "highest power stage. Draw 1 card."
+        "highest stage. Draw 1 card."
       ],
       "original_rules": "Instantly power up to full and draw a card.",
       "source_note": "Approved Earth Dragon Ball native layout and retained Shenron reference. Original Score power and common rarity verified; current CRD checked. Two-star orb uses retained published sphere with native star outlines. No character artwork repainting.",
-      "graphics_restoration": "earth-clean-illustration.png"
+      "graphics_restoration": "earth-clean-illustration.png",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Instantly power up to full and draw a card.",
+        "banish_after_use": false
+      }
     },
     {
       "id": "saiyan-016-earth-dragon-ball-2",
@@ -24,11 +31,18 @@
       "reference": "earth-reference.png",
       "rules": [
         "Set each opponent's Main Personality",
-        "to 2 power stages above 0."
+        "to 2 stages above 0."
       ],
       "original_rules": "All foes have their power ratings changed to 2 stages higher than 0.",
       "source_note": "Approved Earth Dragon Ball native layout and retained Shenron reference. Original Score power and common rarity verified; current CRD checked. Two-star orb uses retained published sphere with native star outlines. No character artwork repainting.",
-      "graphics_restoration": "earth-clean-illustration.png"
+      "graphics_restoration": "earth-clean-illustration.png",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "All foes have their power ratings changed to 2 stages higher than 0.",
+        "banish_after_use": false
+      }
     }
   ]
 }

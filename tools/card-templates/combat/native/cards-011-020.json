@@ -9,87 +9,108 @@
       "name": "Blue Forward Foot Sweep",
       "style": "Blue",
       "rules": [
-        "Physical attack doing +4 power stages",
-        "of damage.",
-        "If successful, stops any energy attack",
-        "from an opponent in their next phase.",
-        "Lower your opponent's anger 1 level."
+        "Physical attack.",
+        "DAMAGE: AT +4 stages.",
+        "Lower your opponent's anger 1 level.",
+        "HIT: Stop any energy attack from an",
+        "opponent during their next phase."
       ],
       "rule_icons": [
         "attack",
         "none",
-        "block",
+        "none",
         "none",
         "none"
       ],
-      "original_rules": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe\u2019s anger level 1.",
+      "original_rules": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe’s anger level 1.",
       "art_source": "saiyan-011-blue-forward-foot-sweep.webp",
       "art_crop": [
         158,
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe’s anger level 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 12,
       "name": "Blue Hip Spring Throw",
       "style": "Blue",
       "rules": [
-        "Physical attack doing +2 power stages",
-        "of damage if successful.",
-        "Stops an opponent's physical attack",
-        "on their next round.",
+        "Physical attack.",
+        "DAMAGE: AT +2 stages.",
+        "Stop an opponent's physical attack",
+        "during their next round.",
         "Lower your opponent's anger 1 level."
       ],
       "rule_icons": [
         "attack",
         "none",
-        "block",
+        "none",
         "none",
         "none"
       ],
-      "original_rules": "Physical Attack doing +2 stages of damage if successful. Stops a foe\u2019s physical attack on their next round. Lower foe\u2019s anger level by 1.",
+      "original_rules": "Physical Attack doing +2 stages of damage if successful. Stops a foe’s physical attack on their next round. Lower foe’s anger level by 1.",
       "art_source": "saiyan-012-blue-hip-spring-throw.webp",
       "art_crop": [
         158,
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +2 stages of damage if successful. Stops a foe’s physical attack on their next round. Lower foe’s anger level by 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 13,
       "name": "Blue Round Throw",
       "style": "Blue",
       "rules": [
-        "Physical attack doing +5 power stages",
-        "of damage if successful,",
-        "or stops an energy attack.",
+        "Physical attack.",
+        "DAMAGE: AT +5 stages.",
+        "Or stop an energy attack.",
         "Lower your opponent's anger 1 level."
       ],
       "rule_icons": [
         "attack",
         "none",
-        "block",
+        "none",
         "none"
       ],
-      "original_rules": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe\u2019s anger level by 1.",
+      "original_rules": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe’s anger level by 1.",
       "art_source": "saiyan-013-blue-round-throw.webp",
       "art_crop": [
         158,
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe’s anger level by 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 14,
       "name": "Blue Shoulder Wheel",
       "style": "Blue",
       "rules": [
-        "Physical attack doing +1 power stage",
-        "of damage if successful.",
+        "Physical attack.",
+        "DAMAGE: AT +1 stages.",
         "Raise your anger 1 level and lower",
         "your opponent's anger 1 level."
       ],
@@ -99,14 +120,21 @@
         "none",
         "none"
       ],
-      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe\u2019s anger level by 1.",
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe’s anger level by 1.",
       "art_source": "saiyan-014-blue-shoulder-wheel.webp",
       "art_crop": [
         158,
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe’s anger level by 1.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 17,
@@ -114,15 +142,17 @@
       "style": "Freestyle",
       "rules": [
         "Physical attack.",
+        "DAMAGE: AT stages.",
         "Raise your Main Personality to its",
-        "highest power stage."
+        "highest stage."
       ],
       "rule_icons": [
         "attack",
         "none",
+        "none",
         "none"
       ],
-      "original_rules": "Physical attack. Before physical damage is assessed, change the power stage to the personality\u2019s maximum. They\u2019ve been hiding their true level for just this attack.",
+      "original_rules": "Physical attack. Before physical damage is assessed, change the power stage to the personality’s maximum. They’ve been hiding their true level for just this attack.",
       "crd_note": "Expanded CRD, Hidden Power Level: Physical attack. Raise your Main Personality to his highest power stage.",
       "art_source": "saiyan-017-hidden-power-level.webp",
       "art_crop": [
@@ -130,7 +160,14 @@
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD, Hidden Power Level: Physical attack. Raise your Main Personality to his highest power stage.",
+        "corrected_effect": "Physical attack. Raise your Main Personality to his highest power stage.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 18,
@@ -139,13 +176,15 @@
       "rules": [
         "Saiyan Heritage only.",
         "Physical attack.",
-        "Stops a single named opponent from making",
-        "a physical attack in their next phase."
+        "DAMAGE: AT stages.",
+        "Stop one named opponent from performing",
+        "a physical attack during their next phase."
       ],
       "rule_icons": [
         "none",
         "attack",
-        "block",
+        "none",
+        "none",
         "none"
       ],
       "original_rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making a physical attack on his next phase.",
@@ -156,7 +195,14 @@
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack, plus it stops a single named foe from making a physical attack on his next phase.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 19,
@@ -165,13 +211,15 @@
       "rules": [
         "Saiyan Heritage only.",
         "Physical attack.",
-        "Stops a single named opponent from making",
-        "an energy attack in their next phase."
+        "DAMAGE: AT stages.",
+        "Stop one named opponent from performing",
+        "an energy attack during their next phase."
       ],
       "rule_icons": [
         "none",
         "attack",
-        "block",
+        "none",
+        "none",
         "none"
       ],
       "original_rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making an energy attack on his next phase.",
@@ -182,7 +230,14 @@
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack, plus it stops a single named foe from making an energy attack on his next phase.",
+        "banish_after_use": false
+      }
     },
     {
       "number": 20,
@@ -190,8 +245,8 @@
       "style": "Saiyan",
       "rules": [
         "Saiyan Heritage only.",
-        "Physical attack doing +3 power stages",
-        "of physical damage if successful."
+        "Physical attack.",
+        "DAMAGE: AT +3 stages."
       ],
       "rule_icons": [
         "none",
@@ -206,7 +261,14 @@
         184,
         902,
         741
-      ]
+      ],
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack doing +3 stages of physical damage if successful.",
+        "banish_after_use": false
+      }
     }
   ],
   "sources": {
@@ -214,9 +276,9 @@
     "card_list_and_rarity": "https://www.vegeth.it/manualegiococarte.pdf#page=24",
     "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "rules": "Original Score scans verified for #11-14,16,18-20. Current supplied Expanded CRD checked by name and general rules; #17 and #18-20 corrections applied.",
-    "wording_policy": "Use the approved Raise your anger 1 level convention. Expand stage to power stage and retain if successful attached to attack damage; do not condition the separate anger effect.",
+    "wording_policy": "CRD first; generic attack, then DAMAGE with AT and attached modifiers; preserve conditional HIT and independent anger. One power icon. Applicable Banish after use goes last.",
     "artwork": "Retained approved #6-10 assets; retained published #11-14,17-20 scenes fitted proportionally into current native artwork window. No repainting.",
     "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
   },
-  "template_version": "2026-10-16-native-footer-icons-006-020"
+  "template_version": "2026-10-18-unified-single-icon-trailing-banish"
 }

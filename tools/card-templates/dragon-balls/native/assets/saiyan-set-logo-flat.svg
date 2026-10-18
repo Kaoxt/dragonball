@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 66" width="84" height="66">
+  <title>Saiyan Saga — flat white set emblem</title>
+  <desc>Retained Saiyan Saga glyph silhouette rendered in white. No blue outline or metallic gradient. The source remains a raster mask; the white fill is native SVG.</desc>
+  <defs>
+    <filter id="saiyan-white-silhouette" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="1 1 -1 0 0  1 1 -1 0 0  1 1 -1 0 0  0 0 0 1 0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.5" intercept="-0.15"/>
+        <feFuncG type="linear" slope="1.5" intercept="-0.15"/>
+        <feFuncB type="linear" slope="1.5" intercept="-0.15"/>
+      </feComponentTransfer>
+    </filter>
+    <mask id="saiyan-glyph-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="84" height="66" style="mask-type:luminance">
+      <image width="84" height="66" xlink:href="saiyan-set-logo.png" filter="url(#saiyan-white-silhouette)"/>
+    </mask>
+  </defs>
+  <rect width="84" height="66" fill="#ffffff" mask="url(#saiyan-glyph-mask)"/>
+</svg>

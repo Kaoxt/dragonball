@@ -136,13 +136,23 @@ def effect_icon(line, override=None):
         return 'attack'
     return None
 
+def card_effect_icons(rows, overrides):
+    """One power icon per card; an attack takes priority over a block."""
+    if len(overrides) != len(rows):
+        raise ValueError('One rule_icons entry is required per rules row')
+    candidates = [effect_icon(line, override) for line, override in zip(rows, overrides)]
+    selected = next((i for i, kind in enumerate(candidates) if kind == 'attack'), None)
+    if selected is None:
+        selected = next((i for i, kind in enumerate(candidates) if kind), None)
+    return [kind if i == selected else None for i, kind in enumerate(candidates)]
+
 # Native production uses one geometry definition per style. No generative pass
 # touches the artwork, text, or panel borders during batch rendering.
 def native_frame(style):
     frame=(HERE/'assets/frame.svg').read_text()
     frame=frame[frame.index('<defs>'):frame.rindex('</svg>')]
     frame=frame.replace('fill="#101113"','fill="#17181a"').replace('fill="#17181a" stroke="#090a0b"','fill="none" stroke="#090a0b"')
-    fill,stroke=('#9d3e12','#7b300f') if style=='Orange' else ('#9c070c','#76070b')
+    fill,stroke={'Orange':('#9d3e12','#7b300f'),'Red':('#9c070c','#76070b'),'Blue':('#0a426f','#072d4c'),'Saiyan':('#075039','#043526'),'Freestyle':('#454a51','#30343a')}[style]
     pattern=f'<pattern id="style-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="{fill}"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="{stroke}" stroke-width=".65"/></pattern>'
     frame=frame.replace('</defs>',pattern+'</defs>')
     panel=ET.parse(HERE/'assets/footer-center.svg').getroot()
@@ -151,9 +161,12 @@ def native_frame(style):
     return frame.replace('<g fill="url(#dark-diamonds)"><path d="M184,954','<g fill="url(#style-diamonds)"><path d="M184,954')
 
 def background(style):
-    # Approved raster decoration is retained; all variable content is covered
-    # by exact native panels and original artwork in the following layers.
-    return image_element('approved-soft-background',HERE/'assets'/f'{style.lower()}-approved-base.png',0,0,W,H)
+    if style in ('Orange','Red'):
+        return image_element('approved-soft-background',HERE/'assets'/f'{style.lower()}-approved-base.png',0,0,W,H)
+    # Exact retained texture under a native SVG color filter, never artwork.
+    rgb={'Blue':(.15,.48,.80),'Saiyan':(.07,.56,.34),'Freestyle':(.56,.59,.62)}[style]
+    matrix=f'{rgb[0]} 0 0 0 0 {rgb[1]} 0 0 0 0 {rgb[2]} 0 0 0 0 0 0 0 1 0'
+    return f'<defs><filter id="style-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="{matrix}"/></filter></defs><g filter="url(#style-color)">'+image_element('approved-soft-background',HERE/'assets/red-approved-base.png',0,0,W,H)+'</g>'
 
 def artwork(card):
     # The cleaned, user-approved Red Lunge Punch master is retained intact.
@@ -168,16 +181,22 @@ def artwork(card):
 def style_symbol(style):
     if style=='Red':
         return image_element('red-style-symbol',HERE/'assets/red-style-symbol.png',61,928,124,138)
-    root=ET.parse(HERE/'assets/orange-kanji-source.svg').getroot()
+    if style=='Freestyle':
+        symbol,_=icon('attack',79,955,81,'freestyle-physical-icon')
+        for element in symbol.iter():
+            if element.get('fill') and element.get('fill')!='none': element.set('fill','#aeb4bc')
+        symbol.set('fill','#aeb4bc')
+        return ET.tostring(symbol,encoding='unicode')
+    asset,color={'Orange':('orange-kanji-source.svg','#f29216'),'Blue':('blue-kanji-source.svg','#3b9cde'),'Saiyan':('saiyan-kanji-source.svg','#30b477')}[style]
+    root=ET.parse(HERE/'assets'/asset).getroot()
     paths=[p.get('d') for p in root.findall('.//{http://www.w3.org/2000/svg}path')]
-    # Keep the same main-stroke thickness after the Orange glyph transform.
-    stroke_width = SYMBOL_STANDARD['nominal_stroke_width'] / SYMBOL_STANDARD['orange_scale']
-    return f'<g id="orange-style-symbol" aria-label="Orange style: 橙" transform="translate(123,995.5) scale(1.17) translate(-53.5,-55.5)" fill="none" stroke="#f29216" stroke-width="{stroke_width:.8f}" stroke-linecap="round" stroke-linejoin="round">'+''.join(f'<path d="{d}"/>' for d in paths)+'</g>'
+    scale=1.17;stroke_width=SYMBOL_STANDARD['nominal_stroke_width']/scale
+    return f'<g id="{style.lower()}-style-symbol" transform="translate(123,995.5) scale({scale}) translate(-53.5,-55.5)" fill="none" stroke="{color}" stroke-width="{stroke_width:.8f}" stroke-linecap="round" stroke-linejoin="round">'+''.join(f'<path d="{d}"/>' for d in paths)+'</g>'
 
 report=[]
 for card in DATA['cards']:
     n=card['number'];style=card['style'];slug=f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
-    if style not in ('Orange','Red'):
+    if style not in ('Orange','Red','Blue','Saiyan','Freestyle'):
         raise ValueError('Supply an approved template variant for style '+style)
     category=card.get('category',DATA.get('category','Physical Combat'))
     if category not in ('Physical Combat','Energy Combat'):
@@ -197,10 +216,13 @@ for card in DATA['cards']:
     textline(layers,metrics,'card-title',title,'title',size,530,76.5,tracking=TITLE_TRACKING,sx=.84,stroke=2.5)
     textline(layers,metrics,'card-category',category.upper(),'title',50,607,1001,tracking=CATEGORY_TRACKING,sx=.84,stroke=2.5)
     power_size=49;leading=59;rows,overrides=power_rows(card)
-    baselines=[(1182 if len(rows)==2 else 1156)+i*leading for i in range(len(rows))]
+    if len(rows)>3: leading={4:59,5:49}[len(rows)]
+    first={1:1203,2:1182,3:1156,4:1129,5:1112}[len(rows)]
+    baselines=[first+i*leading for i in range(len(rows))]
+    selected_icons=card_effect_icons(rows,overrides)
     for i,(line,baseline) in enumerate(zip(rows,baselines)):
         w=width(line,'power',power_size);cx=530
-        kind=effect_icon(line,overrides[i])
+        kind=selected_icons[i]
         if kind:
             _,cap_bounds=glyphrun('P','power',power_size)
             cap_height=cap_bounds[3]-cap_bounds[1]
@@ -234,7 +256,7 @@ for card in DATA['cards']:
     temp.replace(png)
     high.save(OUT/(slug+'.webp'),'WEBP',lossless=True,method=4)
     display=high.resize((W,H),Image.Resampling.LANCZOS);display.save(OUT/(slug+'-preview.png'));display.save(OUT/(slug+'-preview.webp'),'WEBP',quality=92,method=6)
-    assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 for m in metrics if m['id'].startswith('card-power'))
+    assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 and m['bounds'][1]>=1070 and m['bounds'][3]<=1320 for m in metrics if m['id'].startswith('card-power'))
     assert abs((left+(left+ballw+gap+numberw))/2-907)<1e-8
     assert Image.open(OUT/(slug+'.webp')).convert('RGB').tobytes()==high.tobytes()
     artpath=HERE/card['artwork_reference'] if card.get('artwork_reference') else HERE/'artwork'/f'saiyan-{n:03}.png'

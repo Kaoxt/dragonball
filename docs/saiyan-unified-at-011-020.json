@@ -1,0 +1,1759 @@
+{
+  "scope": "Saiyan Saga 011–020",
+  "date": "2026-10-18",
+  "card_count": 10,
+  "template": "Unified shared geometry, AT wording and one power icon",
+  "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "cards_001_010_unchanged": true,
+  "non_target_catalog_entries_unchanged": true,
+  "banish_after_use": "No after-use self-removal applies to cards 1–20; applicable future text goes last.",
+  "cards": [
+    {
+      "number": 11,
+      "id": "saiyan-011-blue-forward-foot-sweep",
+      "name": "Blue Forward Foot Sweep",
+      "style": "Blue",
+      "rules": "Physical attack. DAMAGE: AT +4 stages. Lower your opponent's anger 1 level. HIT: Stop any energy attack from an opponent during their next phase.",
+      "original_rules": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe’s anger level 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "e0e4f85fbbe2ca27a4ddb77d2f33af319ae858b5bf780d65d3589bdc9e1f4ae0",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE FORWARD FOOT SWEEP",
+          "font": "title",
+          "size": 45.0,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 93.375,
+          "bounds": [
+            80.83124999999991,
+            58.921875,
+            979.16875,
+            94.078125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1077.651,
+            403.12846288303246,
+            1112.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            415.12846288303246,
+            1076.23,
+            697.3684628830324,
+            1121.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +4 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            328.4875,
+            1126.308,
+            731.5124999999999,
+            1171.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Lower your opponent's anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            208.78049999999996,
+            1175.7,
+            851.2195000000002,
+            1220.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "HIT: Stop any energy attack from an",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            211.20600000000007,
+            1224.308,
+            848.794,
+            1269.143
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "opponent during their next phase.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            231.02649999999994,
+            1272.23,
+            828.9735000000001,
+            1318.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "11",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            912.3247810058592,
+            1384.590625,
+            955.9290189941405,
+            1410.409375
+          ]
+        }
+      ],
+      "png_sha256": "75346f973761d15ba620c06c73d829c8fe358107ee87c73dfdfe01cce4ae47df",
+      "webp_sha256": "a75041b2131a98cea7651bfbc538d0ca61187501e21a7f37d2e48c8b9881bd05",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +4 stages of damage. If successful, this attack stops any energy attack from an opponent in his next phase. Lower foe’s anger level 1.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "4cc0c09e14fa234ce28521223f7cf9b78c1c7afc06804bba20745757f9d94ea1",
+      "preview_sha256": "84382dc01dc1d2ab0561617e35c529afa3593aec3b59d25e45387845c49941aa",
+      "catalog_image": "/assets/cards/downloads/saiyan-011-blue-forward-foot-sweep.webp?v=a75041b2131a",
+      "lossless_equal": true
+    },
+    {
+      "number": 12,
+      "id": "saiyan-012-blue-hip-spring-throw",
+      "name": "Blue Hip Spring Throw",
+      "style": "Blue",
+      "rules": "Physical attack. DAMAGE: AT +2 stages. Stop an opponent's physical attack during their next round. Lower your opponent's anger 1 level.",
+      "original_rules": "Physical Attack doing +2 stages of damage if successful. Stops a foe’s physical attack on their next round. Lower foe’s anger level by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "351d062238537f7daf81482542ac9331ff662a792c263cea01c101be79b797c3",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE HIP SPRING THROW",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            111.9384765625,
+            56.96875,
+            948.0615234375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1077.651,
+            403.12846288303246,
+            1112.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            415.12846288303246,
+            1076.23,
+            697.3684628830324,
+            1121.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +2 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            329.6145000000001,
+            1126.308,
+            730.3855,
+            1171.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Stop an opponent's physical attack",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            220.0995,
+            1174.23,
+            839.9005,
+            1219.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "during their next round.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            321.30899999999997,
+            1223.23,
+            738.691,
+            1269.143
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "Lower your opponent's anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            208.78049999999996,
+            1273.7,
+            851.2195000000002,
+            1318.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "12",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.6783203125,
+          "bounds": [
+            911.6757823486327,
+            1384.3216796875,
+            956.5780176513671,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "8ccb455cace0832e9f308e7b1ba5ea9b3a23cec6b38732e3a7c3d5692a2479e0",
+      "webp_sha256": "6f1e6ec7056354be4e80ee0e9eaf95460a63c069dafca3db7fc3a93b81c71654",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +2 stages of damage if successful. Stops a foe’s physical attack on their next round. Lower foe’s anger level by 1.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "27d0156637a6df2cea64cc58f10823e4d6a28d87094bdb42727eb60c92a6da7d",
+      "preview_sha256": "e60a393b28a12eff2812cafd3a1ae7da0915ee449ed57ce8215334eae8d5e0f9",
+      "catalog_image": "/assets/cards/downloads/saiyan-012-blue-hip-spring-throw.webp?v=6f1e6ec70563",
+      "lossless_equal": true
+    },
+    {
+      "number": 13,
+      "id": "saiyan-013-blue-round-throw",
+      "name": "Blue Round Throw",
+      "style": "Blue",
+      "rules": "Physical attack. DAMAGE: AT +5 stages. Or stop an energy attack. Lower your opponent's anger 1 level.",
+      "original_rules": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe’s anger level by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "3d929ea1d52e95575faf6428ed66fd00642609f90969437834654b2580611d5b",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE ROUND THROW",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            180.86767578125,
+            56.96875,
+            879.13232421875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1094.651,
+            403.12846288303246,
+            1129.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            415.12846288303246,
+            1093.23,
+            697.3684628830324,
+            1138.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +5 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            329.59000000000003,
+            1153.308,
+            730.41,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Or stop an energy attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            306.95200000000006,
+            1212.308,
+            753.048,
+            1257.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "Lower your opponent's anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            208.78049999999996,
+            1271.7,
+            851.2195000000002,
+            1316.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "13",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.7610043945311,
+            1384.052734375,
+            956.4927956054687,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "601f2f1632b94a85f6d5e179ed8f89f067562780974fd59db4f60396d97e0c81",
+      "webp_sha256": "837210671024f32b480858fe70c5ad6fa2e023904256021b6e30d9c2c5b53d52",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +5 stages of damage if successful or stops an energy attack. Lower foe’s anger level by 1.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "72792d9f904b50dbe6ed1e90ff7db138d6a2e5d10a513ac7bdbc1fe27008cb6d",
+      "preview_sha256": "6236d78e1c143d80e6d5202b8cda35bc72816f023d75f5186a4bc056e9abd330",
+      "catalog_image": "/assets/cards/downloads/saiyan-013-blue-round-throw.webp?v=837210671024",
+      "lossless_equal": true
+    },
+    {
+      "number": 14,
+      "id": "saiyan-014-blue-shoulder-wheel",
+      "name": "Blue Shoulder Wheel",
+      "style": "Blue",
+      "rules": "Physical attack. DAMAGE: AT +1 stages. Raise your anger 1 level and lower your opponent's anger 1 level.",
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe’s anger level by 1.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "c8cb96713a218b5008fb12cd2ba09dc2e67e00377c03461254787fb50c8b6289",
+      "frame_sha256": "86fd8db8d8c83664cd31c5f1b35aadfe33707613ac7f7e9fa40114756e8d7f48",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BLUE SHOULDER WHEEL",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            127.96630859375,
+            56.96875,
+            932.03369140625,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1094.651,
+            403.12846288303246,
+            1129.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            415.12846288303246,
+            1093.23,
+            697.3684628830324,
+            1138.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT +1 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            333.38750000000005,
+            1153.308,
+            726.6125,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your anger 1 level and lower",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            230.2572,
+            1211.23,
+            829.7428,
+            1257.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "your opponent's anger 1 level.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            267.8255000000001,
+            1271.7,
+            792.1745,
+            1316.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "14",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.0792280273437,
+            1384.590625,
+            957.1745719726562,
+            1410.409375
+          ]
+        }
+      ],
+      "png_sha256": "faa76a1a441831cdaeb7871db49fd527854fd54a0dab39bd8111e79fa642d053",
+      "webp_sha256": "3b46c096b199ce533255114dac1c5cb3b6d0fe905414eeebb10f9dedac64d89e",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical Attack doing +1 stage of damage if successful. Raises your anger level by 1 and lowers foe’s anger level by 1.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "d1598511774ef3b3f14d5ca06eb24944617b2e45db046de656aa818358a91b53",
+      "preview_sha256": "894926bea9d23af5add4f8d2c4574877a7687e4dfbcc75a01de09f6bfe2e995c",
+      "catalog_image": "/assets/cards/downloads/saiyan-014-blue-shoulder-wheel.webp?v=3b46c096b199",
+      "lossless_equal": true
+    },
+    {
+      "id": "saiyan-015-earth-dragon-ball-1",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "text_and_frame": "native vector paths",
+      "source_sha256": "fc3ae0948841c5c7ec3347fbe838060719d728a6dee49db29d877be3b4ac5357",
+      "underlay_sha256": "c4aeeec350a7796519de30dc7d95e7d18c96863d2772462de246c3db57013a55",
+      "footer_geometry_sha256": "c3cd3a0d3e4c46bf86bcd80f4350aa0d704a50d285c19b5e0eb18e45598f8b24",
+      "raster_components": [
+        "retained illustration",
+        "Saiyan Saga emblem",
+        "rarity sphere (stars are vector)",
+        "masked restoration of old category/orb footprints"
+      ],
+      "typography": [
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "15",
+          "font": "title",
+          "size": 34.425000000000004,
+          "bounds": [
+            911.7347822265624,
+            1384.3216796875,
+            956.5190177734373,
+            1410.6783203125
+          ]
+        },
+        {
+          "id": "card-title",
+          "text": "EARTH DRAGON BALL 1",
+          "font": "title",
+          "size": 50,
+          "bounds": [
+            143.64453125,
+            56.96875,
+            916.35546875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "DRAGON BALL",
+          "font": "title",
+          "size": 50,
+          "bounds": [
+            371.14501953125,
+            981.46875,
+            842.85498046875,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rules-line-1",
+          "text": "Raise your Main Personality to its",
+          "font": "power",
+          "size": 49,
+          "bounds": [
+            236.29400000000004,
+            1144.7395,
+            823.706,
+            1190.2604999999999
+          ]
+        },
+        {
+          "id": "rules-line-2",
+          "text": "highest stage. Draw 1 card.",
+          "font": "power",
+          "size": 49,
+          "bounds": [
+            292.66850000000005,
+            1203.5435,
+            767.3315,
+            1249.4565
+          ]
+        }
+      ],
+      "artwork_render_mean_difference": [
+        1.2208136752136751,
+        1.6739931623931623,
+        0.9114358974358975
+      ],
+      "lossless_webp_verified": true,
+      "svg_sha256": "aef79062947726d65daaba7a3b386384625d236a621b437b238f89548165cd4f",
+      "number": 15,
+      "name": "Earth Dragon Ball 1",
+      "rules": "Raise your Main Personality to its highest stage. Draw 1 card.",
+      "original_rules": "Instantly power up to full and draw a card.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Instantly power up to full and draw a card.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 0,
+      "png_sha256": "a0fbe1a2532320ec78127dc6ed033f09278e010c40abe0da958e55c932933f25",
+      "webp_sha256": "fffb6cfe88af0315c8d978bf93c404f25163d40ff7b6b5c7bf384ac78528ec24",
+      "preview_sha256": "b9f59ef0b423de2cbeb48a4af64e32205234542ead0e6fd355c811012b6940b9",
+      "catalog_image": "/assets/cards/downloads/saiyan-015-earth-dragon-ball-1.webp?v=fffb6cfe88af",
+      "lossless_equal": true
+    },
+    {
+      "id": "saiyan-016-earth-dragon-ball-2",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "text_and_frame": "native vector paths",
+      "source_sha256": "fc3ae0948841c5c7ec3347fbe838060719d728a6dee49db29d877be3b4ac5357",
+      "underlay_sha256": "4eb142eedf2495b42ab65843dad71b9e9c572fba3de8af16790ae40a09964067",
+      "footer_geometry_sha256": "c3cd3a0d3e4c46bf86bcd80f4350aa0d704a50d285c19b5e0eb18e45598f8b24",
+      "raster_components": [
+        "retained illustration",
+        "Saiyan Saga emblem",
+        "rarity sphere (stars are vector)",
+        "masked restoration of old category/orb footprints"
+      ],
+      "typography": [
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "16",
+          "font": "title",
+          "size": 34.425000000000004,
+          "bounds": [
+            911.6102269287107,
+            1384.052734375,
+            956.643573071289,
+            1410.947265625
+          ]
+        },
+        {
+          "id": "card-title",
+          "text": "EARTH DRAGON BALL 2",
+          "font": "title",
+          "size": 50,
+          "bounds": [
+            142.62939453125,
+            56.96875,
+            917.37060546875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "DRAGON BALL",
+          "font": "title",
+          "size": 50,
+          "bounds": [
+            371.14501953125,
+            981.46875,
+            842.85498046875,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rules-line-1",
+          "text": "Set each opponent's Main Personality",
+          "font": "power",
+          "size": 49,
+          "bounds": [
+            200.4620294117647,
+            1144.7395,
+            859.5379705882353,
+            1190.2604999999999
+          ]
+        },
+        {
+          "id": "rules-line-2",
+          "text": "to 2 stages above 0.",
+          "font": "power",
+          "size": 49,
+          "bounds": [
+            352.4975,
+            1204.009,
+            707.5025,
+            1248.991
+          ]
+        }
+      ],
+      "artwork_render_mean_difference": [
+        1.8236527777777778,
+        2.387625,
+        1.0507569444444445
+      ],
+      "lossless_webp_verified": true,
+      "svg_sha256": "f0918dfe16512122244704ac9626d9b1d9d520eaa0534191acac95c001cb76e6",
+      "number": 16,
+      "name": "Earth Dragon Ball 2",
+      "rules": "Set each opponent's Main Personality to 2 stages above 0.",
+      "original_rules": "All foes have their power ratings changed to 2 stages higher than 0.",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "All foes have their power ratings changed to 2 stages higher than 0.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 0,
+      "png_sha256": "43e1d3a8b7e15ac2a5e949b5d67ed22bb49a90dd62ca04846f77c00174fa7fd2",
+      "webp_sha256": "145d21fd5d77308d03a50d4e4f66121a0011b87f3af2951c3a30ff2aad599c2d",
+      "preview_sha256": "65d9f3e901a32cfae2ca7bd69ca2db20de8fcb9d958f6adc9ad23e8444af6fd6",
+      "catalog_image": "/assets/cards/downloads/saiyan-016-earth-dragon-ball-2.webp?v=145d21fd5d77",
+      "lossless_equal": true
+    },
+    {
+      "number": 17,
+      "id": "saiyan-017-hidden-power-level",
+      "name": "Hidden Power Level",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: AT stages. Raise your Main Personality to its highest stage.",
+      "original_rules": "Physical attack. Before physical damage is assessed, change the power stage to the personality’s maximum. They’ve been hiding their true level for just this attack.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "82736fe7c7d4679ccd49cd3a8ddf7b622039c5481d97822ccc2212783c46d5c8",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "HIDDEN POWER LEVEL",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            162.8095703125,
+            56.96875,
+            897.1904296875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1094.651,
+            403.12846288303246,
+            1129.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            415.12846288303246,
+            1093.23,
+            697.3684628830324,
+            1138.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            355.97650000000004,
+            1153.308,
+            704.0235,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your Main Personality to its",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            236.29400000000004,
+            1211.23,
+            823.706,
+            1256.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "highest stage.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            405.73600000000005,
+            1270.23,
+            654.264,
+            1316.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "17",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.4987827148436,
+            1384.590625,
+            956.7550172851562,
+            1410.409375
+          ]
+        }
+      ],
+      "png_sha256": "dd329bd1517fd64580bc0b6c539ed3f0a2eb5fc557e077657d0660918c103de2",
+      "webp_sha256": "6f24901048acbd716c4765db4baf3e2f342114289b407354acb54631f6223aa9",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD, Hidden Power Level: Physical attack. Raise your Main Personality to his highest power stage.",
+        "corrected_effect": "Physical attack. Raise your Main Personality to his highest power stage.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "cc14d032da89f6395690603c8f2969ec3b2d1e5db56578ca25b90b9bd40b61fa",
+      "preview_sha256": "961a4cabe287fe8d8226ac5f36cd76f7c6ab7858d7064235e9ff2566da4df6ed",
+      "catalog_image": "/assets/cards/downloads/saiyan-017-hidden-power-level.webp?v=6f24901048ac",
+      "lossless_equal": true
+    },
+    {
+      "number": 18,
+      "id": "saiyan-018-saiyan-arm-throw",
+      "name": "Saiyan Arm Throw",
+      "style": "Saiyan",
+      "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT stages. Stop one named opponent from performing a physical attack during their next phase.",
+      "original_rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making a physical attack on his next phase.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "0147f0d0cb0cfa6960ee6e9ffedd34a056c77b4d8513873d345e9967b9841782",
+      "frame_sha256": "18da9b735d5436ffdd6f5299866db3d714b4c5478c14178914c99a852f012c9f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "SAIYAN ARM THROW",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            179.544921875,
+            56.96875,
+            880.455078125,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Saiyan Heritage only.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            344.2165,
+            1076.23,
+            715.7835,
+            1122.143
+          ]
+        },
+        {
+          "id": "rule-attack-icon-2",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1126.651,
+            403.12846288303246,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            415.12846288303246,
+            1125.23,
+            697.3684628830324,
+            1170.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            355.97650000000004,
+            1175.308,
+            704.0235,
+            1220.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "Stop one named opponent from performing",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            149.44150000000005,
+            1223.23,
+            910.5585,
+            1269.143
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "a physical attack during their next phase.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            161.2505,
+            1272.23,
+            898.7495000000001,
+            1318.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "18",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.7610043945311,
+            1384.052734375,
+            956.4927956054687,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "ac23fb715228d4fb59565f0ea597c7810821f37e0b2a81aa40a9efac32bd947a",
+      "webp_sha256": "e0eefa7681214136ed495044a93b49b0bef9119dd4ca8a7325e9c2f5f14361d5",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack, plus it stops a single named foe from making a physical attack on his next phase.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "6c812ed583967f73ba7a3e84a3967b8697070cc172839ac141fbacadbdaf3435",
+      "preview_sha256": "3aa6febab6583c8ee4a7ad3562d205c3f1a627ac6ef0ed4e090a0e2f711c6ff4",
+      "catalog_image": "/assets/cards/downloads/saiyan-018-saiyan-arm-throw.webp?v=e0eefa768121",
+      "lossless_equal": true
+    },
+    {
+      "number": 19,
+      "id": "saiyan-019-saiyan-full-spin-kick",
+      "name": "Saiyan Full Spin Kick",
+      "style": "Saiyan",
+      "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT stages. Stop one named opponent from performing an energy attack during their next phase.",
+      "original_rules": "Villains, Goku, and Gohan only.\nPhysical attack, plus it stops a single named foe from making an energy attack on his next phase.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "27ed691b7a10371270a18fc16928ded1531a53ae6c6d69695c833c97e1a9fb01",
+      "frame_sha256": "18da9b735d5436ffdd6f5299866db3d714b4c5478c14178914c99a852f012c9f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "SAIYAN FULL SPIN KICK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            140.59814453125,
+            56.96875,
+            919.40185546875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Saiyan Heritage only.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            344.2165,
+            1076.23,
+            715.7835,
+            1122.143
+          ]
+        },
+        {
+          "id": "rule-attack-icon-2",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1126.651,
+            403.12846288303246,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            415.12846288303246,
+            1125.23,
+            697.3684628830324,
+            1170.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            355.97650000000004,
+            1175.308,
+            704.0235,
+            1220.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "Stop one named opponent from performing",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            149.44150000000005,
+            1223.23,
+            910.5585,
+            1269.143
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "an energy attack during their next phase.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            163.30849999999998,
+            1272.23,
+            896.6915000000001,
+            1318.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "19",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.7610043945311,
+            1384.052734375,
+            956.4927956054687,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "07348647d50e4addb674668ea27a87c2999959cd35baf819d83a767c7f3ceca0",
+      "webp_sha256": "c87205fe3cdbff4474ce16ccece76884b2de74e96b91867ffa751feeffa07414",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack, plus it stops a single named foe from making an energy attack on his next phase.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "0aaa7dd4edace6f517db63f0b9b4b741e18b5951c9ccd5ad690eb4f31580308d",
+      "preview_sha256": "90984aa90b83a19e6f512692af28bbd70504009e31fb67ee1bc94681d7522ed9",
+      "catalog_image": "/assets/cards/downloads/saiyan-019-saiyan-full-spin-kick.webp?v=c87205fe3cdb",
+      "lossless_equal": true
+    },
+    {
+      "number": 20,
+      "id": "saiyan-020-saiyan-pressure-punch",
+      "name": "Saiyan Pressure Punch",
+      "style": "Saiyan",
+      "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT +3 stages.",
+      "original_rules": "Villains, Goku, and Gohan only.\nPhysical attack doing +3 stages of physical damage if successful.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "2d733970c90d52e809608f878cc47f738649921bb164d79292950aa54b30875a",
+      "frame_sha256": "18da9b735d5436ffdd6f5299866db3d714b4c5478c14178914c99a852f012c9f",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "SAIYAN PRESSURE PUNCH",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            86.857421875,
+            56.96875,
+            973.142578125,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Saiyan Heritage only.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            344.2165,
+            1120.23,
+            715.7835,
+            1166.143
+          ]
+        },
+        {
+          "id": "rule-attack-icon-2",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1180.651,
+            403.12846288303246,
+            1215.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            415.12846288303246,
+            1179.23,
+            697.3684628830324,
+            1224.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "DAMAGE: AT +3 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            329.66350000000006,
+            1239.308,
+            730.3364999999999,
+            1284.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "20",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4105627441405,
+            1384.052734375,
+            957.8432372558593,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "5171dcc3f551576c067f3c9fb5bd7640fbfcac1f7a236b273e383699371a3662",
+      "webp_sha256": "6a3554bed8ad2f16b8b24854126ac1d49f959f85bb9b799aba14fc2563a67d26",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Expanded CRD glossary, Saiyan Heritage: Villains, Goku and Gohan only becomes Saiyan Heritage only.",
+        "corrected_effect": "Saiyan Heritage only.\nPhysical attack doing +3 stages of physical damage if successful.",
+        "banish_after_use": false
+      },
+      "power_icon_count": 1,
+      "svg_sha256": "ea37cf9d92eb940552ada2fac30d645c80df683e13998bdf0c4c48fba2bc747e",
+      "preview_sha256": "0fca4ac456d462b84803446fa6cb97fcc1f60f84f24c933c9d59f85f6577af7c",
+      "catalog_image": "/assets/cards/downloads/saiyan-020-saiyan-pressure-punch.webp?v=6a3554bed8ad",
+      "lossless_equal": true
+    }
+  ]
+}
