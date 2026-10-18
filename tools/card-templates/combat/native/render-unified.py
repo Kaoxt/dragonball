@@ -103,6 +103,9 @@ def set_emblem(path):
 
 def power_rows(card):
     rows=list(card['rules'])
+    # Parenthesize the terminal self-banish reminder; keep its after-use timing.
+    if rows:
+        rows[-1] = re.sub(r'(?<!\()Banish after use\.$', '(Banish after use.)', rows[-1])
     icons=list(card.get('rule_icons',[None]*len(rows)))
     if len(icons)!=len(rows): raise ValueError('One rule_icons entry is required per rules row')
     for i,line in enumerate(rows):

@@ -1,0 +1,1419 @@
+{
+  "date": "2026-10-18",
+  "change": "Exact terminal reminder (Banish after use.)",
+  "cards": [
+    {
+      "number": 23,
+      "id": "saiyan-023-burning-rage",
+      "name": "Burning Rage!",
+      "style": "Freestyle",
+      "rules": "POWER: Raise your anger 2 levels. Place the bottom 2 cards of your discard pile on the bottom of your Life Deck. (Banish after use.)",
+      "original_rules": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "cbe695e4d603b5bec1123153ce8aa4e187b22dd79e14cdef0b0828aa42a2a884",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BURNING RAGE!",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            273.072265625,
+            56.96875,
+            786.927734375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "POWER: Raise your anger 2 levels.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            229.89949999999996,
+            1093.23,
+            830.1005,
+            1139.143
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Place the bottom 2 cards of your discard pile",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            133.29600000000008,
+            1152.23,
+            926.704,
+            1197.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "on the bottom of your Life Deck.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            246.80449999999996,
+            1211.23,
+            813.1955,
+            1256.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            364.037,
+            1268.809,
+            695.963,
+            1310.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "23",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "776d10667b60a0cccde84d6a2d9496cf8801396fa2b210328ca6e5e630104b2b",
+      "webp_sha256": "48e6bcb7eb9ef03d3dd04a978db477993666067a9ddb640d8c4bad1cc7650075",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "8785d497227683b610f811ae8ba25b9b2f3f5fe636d63afa315c8eb8895b7f60",
+      "preview_sha256": "50a24a27919efc4bafbce5b5c14cdbf65116dc0fcc8227b481b6ab48f8e4a147",
+      "power_icon_count": 0,
+      "changed_pixel_bounds": [
+        728,
+        2537,
+        1392,
+        2621
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=48e6bcb7eb9e"
+    },
+    {
+      "number": 25,
+      "id": "saiyan-025-gokus-physical-attack",
+      "name": "Goku’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "(Limit 2 per deck.) Physical attack. DAMAGE: AT stages. HIT: Draw the bottom card of your discard pile. If used by Goku, keep in play to use once more this Combat. (Banish after use.)",
+      "original_rules": "Physical attack, plus draw the bottom card from the discard pile into your hand. If used by Goku, it stays on the table to be used one more time in this combat.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "eb222016077a720ed58991bd58ff64882f0a741881a0a08367515fb0be0004fa",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "GOKU’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            83.14501953125,
+            56.96875,
+            976.85498046875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "(Limit 2 per deck.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            366.26649999999995,
+            1074.809,
+            693.7335,
+            1121.114
+          ]
+        },
+        {
+          "id": "rule-attack-icon-2",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            181.84603711696752,
+            1126.651,
+            222.34296288303238,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Physical attack. DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            234.34296288303247,
+            1125.23,
+            878.1539628830326,
+            1171.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "HIT: Draw the bottom card of your discard pile.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            116.41550000000012,
+            1174.23,
+            943.5844999999999,
+            1219.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "If used by Goku, keep in play to use once more",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            120.70300000000003,
+            1223.23,
+            939.297,
+            1268.751
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "this Combat. (Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            247.83349999999996,
+            1270.809,
+            812.1665,
+            1312.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "25",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4105627441405,
+            1384.052734375,
+            957.8432372558593,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "a81f001745441a2425e9fd516974075f3499ad36e8ad7cdd6c5bf239ac70db89",
+      "webp_sha256": "96ec487b67f2c1c26f311efe9067cff1993b102b68f3590589f7d5472f93b8e4",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku’s Physical Attack",
+        "corrected_effect": "Physical attack. If successful, draw the bottom card from your discard pile. If used by Goku, it stays in play to be used one more time this Combat. Remove from the game after use. Limit 2 per deck.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "cf49606489d1c6e77b9c6dd9c3a6fa12c075c4aa757118f1e46c563ec666bf13",
+      "preview_sha256": "681dac66ba047f8ca4ce7621d204597f4546f82057f0c2d4acc56c950e5473a4",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        495,
+        2541,
+        1625,
+        2625
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=96ec487b67f2"
+    },
+    {
+      "number": 28,
+      "id": "saiyan-028-vegetas-physical-stance",
+      "name": "Vegeta’s Physical Stance",
+      "style": "Freestyle",
+      "rules": "(Limit 1 per deck.) Stop a physical attack. Stop all physical attacks against you for the remainder of Combat. (Banish after use.)",
+      "original_rules": "No physical attacks will work against Vegeta this combat. Remove from game after use.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "ddc2f4108c312640c155bea909d2b9e70638a6d74508f571038d54280b7baf30",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "VEGETA’S PHYSICAL STANCE",
+          "font": "title",
+          "size": 45.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 93.5625,
+          "bounds": [
+            81.52361816406251,
+            58.7265625,
+            978.4763818359374,
+            94.2734375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "(Limit 1 per deck.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            370.0395,
+            1074.809,
+            689.9605,
+            1121.114
+          ]
+        },
+        {
+          "id": "rule-block-icon-2",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1126.651,
+            341.0761657894737,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            353.07616578947363,
+            1125.23,
+            756.3461657894736,
+            1170.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Stop all physical attacks against you for",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            173.78470000000007,
+            1174.23,
+            886.2153,
+            1220.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "the remainder of Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            304.42850000000004,
+            1223.23,
+            755.5715,
+            1259.392
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            364.037,
+            1270.809,
+            695.963,
+            1312.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "28",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "a1004e24a755354eb7ae428466c9917505328295c6e2ba08ec1d5507ee412461",
+      "webp_sha256": "83d9878a07551ba1a692e3f2277974786887d5f55768f80988231bb53725dc9f",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Vegeta’s Physical Stance",
+        "corrected_effect": "Stops a physical attack. Stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use.",
+        "banish_after_use": true,
+        "restricted_list": "CRD Restricted List grants Limit 1 per deck."
+      },
+      "lossless_equal": true,
+      "svg_sha256": "c25249632af6b0b4c1a7e181658006d0f953e1a338543bbf295bfae425250b45",
+      "preview_sha256": "207d8ad553543f98ceadbdb26fbc580127e062272b4cba9da72f10bf95ac3a94",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        728,
+        2541,
+        1392,
+        2625
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=83d9878a0755"
+    },
+    {
+      "number": 29,
+      "id": "saiyan-029-yajirobes-physical-attack",
+      "name": "Yajirobe’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: 2 life cards. (Banish after use.)",
+      "original_rules": "Physical attack doing 2 draws from the life deck if not stopped. Remove from game after use.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "c3bef93511129274806df743478a776c4b507b0dd8587ecde9a9e37707d310da",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "YAJIROBE’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 42.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 92.4375,
+          "bounds": [
+            80.78056640625006,
+            59.8984375,
+            979.21943359375,
+            93.1015625
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: 2 life cards.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            344.388,
+            1179.23,
+            715.612,
+            1215.392
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            364.037,
+            1236.809,
+            695.963,
+            1278.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "29",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "24333c582ea7fad2040157107647968ab441ddcb662b2dedeb495b5943e5a7c9",
+      "webp_sha256": "2140dabb016ebb869fb469091237a09b7ff89fa380a52adf252545f8c9de73b6",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack doing 2 draws from the life deck if not stopped. Remove from game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "6ef27ed94291d20268090728d950921811d7c1a22c902647b7f7cd9a89a8d7d4",
+      "preview_sha256": "cc87dd5f7d91f227d5480bbd58f5e1c0d6446594be116cbd69f38baaa622a24b",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        728,
+        2473,
+        1392,
+        2557
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=2140dabb016e"
+    },
+    {
+      "number": 30,
+      "id": "saiyan-030-fall-7-times-get-up-8-times",
+      "name": "Fall 7 Times, Get Up 8 Times.",
+      "style": "Freestyle",
+      "rules": "Defense Shield: Stop the first unstopped physical attack against you this Combat. (Banish after use.)",
+      "original_rules": "The first successful physical attack on you is stopped. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "7b871ecdf5c675139e23be9405ef90f2417d5f9bcc63d2261e03724929b05b29",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "FALL 7 TIMES, GET UP 8 TIMES.",
+          "font": "title",
+          "size": 43.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 90.43359375,
+          "bounds": [
+            84.19242187500012,
+            57.12890625,
+            975.807578125,
+            95.87109375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            150.2103342105263,
+            1121.651,
+            187.63266578947366,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Defense Shield: Stop the first unstopped",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            199.63266578947366,
+            1120.23,
+            909.7896657894737,
+            1165.114
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "physical attack against you this Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            170.07049999999995,
+            1179.23,
+            889.9295,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            364.037,
+            1236.809,
+            695.963,
+            1278.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "30",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.1876743164062,
+            1384.052734375,
+            958.0661256835936,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "62c5a930b0db4e76d14f44c935b0721890b46bcf535aa2ae725481c091580fbd",
+      "webp_sha256": "d0fa113cc484e8fbd38c39f924125a3fe6574abdb49f4d098d2a41e88280ea23",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Fall 7 Times, Get Up 8 Times.",
+        "corrected_effect": "Defense Shield: Stops the first unstopped physical attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "25040b180b53cad7f7cbe9b9dbb4fd31c872136645bc24ac57f2040b09a443b9",
+      "preview_sha256": "b8c80701da984670ad1668d3f2f19cf9ec1fe24eb9bf730fbce8f1bce9e578a7",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        728,
+        2473,
+        1392,
+        2557
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=d0fa113cc484"
+    },
+    {
+      "number": 31,
+      "id": "saiyan-031-fortify-your-spirit",
+      "name": "Fortify Your Spirit",
+      "style": "Freestyle",
+      "rules": "Defense Shield: Stop the first unstopped energy attack against you this Combat. (Banish after use.)",
+      "original_rules": "The first successful energy attack on you is stopped. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "a2585ef63fe6a36f0e96bea064b8a56ad91a67a7218409a19ae08c5fcee63e26",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "FORTIFY YOUR SPIRIT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            175.6162109375,
+            56.96875,
+            884.3837890625,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            150.2103342105263,
+            1121.651,
+            187.63266578947366,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Defense Shield: Stop the first unstopped",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            199.63266578947366,
+            1120.23,
+            909.7896657894737,
+            1165.114
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "energy attack against you this Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            182.83499999999992,
+            1179.23,
+            877.1650000000001,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            364.037,
+            1236.809,
+            695.963,
+            1278.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "31",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.777673095703,
+            1384.052734375,
+            957.4761269042967,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "5a59b7df089ddd4fd95420ca540c07fa0f3caf165914ef4e63b35a07ad2dc81a",
+      "webp_sha256": "29819e0e712b94c6e153da2b9bf7fe0a3a133c38ff633b2ddf30e9115d88b9f9",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Fortify Your Spirit",
+        "corrected_effect": "Defense Shield: Stops the first unstopped energy attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "7cd842f36e5caa8de03e72c9bf07224f47f184b9b1cc8d63d0a9818d0ac5a782",
+      "preview_sha256": "61f6f66b44ecaca2750f6ba6f98950e4c15bd9e5767232af050f85dfc0f70538",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        728,
+        2473,
+        1392,
+        2557
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp?v=29819e0e712b"
+    },
+    {
+      "number": 32,
+      "id": "saiyan-032-the-untroubled-mind-is-focused",
+      "name": "The Untroubled Mind is Focused",
+      "style": "Freestyle",
+      "rules": "POWER: Banish an opponent's Drill or Ally. (Banish after use.)",
+      "original_rules": "Remove someone else's drill card or ally from the game. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "d5472d9d00a0aa3f1fcf2b8a538163f0a2e17df55eb5ad444c701d140f36a0f2",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "THE UNTROUBLED MIND IS FOCUSED",
+          "font": "title",
+          "size": 35.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 89.8125,
+          "bounds": [
+            83.2989208984376,
+            62.6328125,
+            976.7010791015623,
+            90.3671875
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "POWER: Banish an opponent's Drill or Ally.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            162.45100000000005,
+            1146.23,
+            897.549,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "(Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            364.037,
+            1203.809,
+            695.963,
+            1245.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "32",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.1286744384765,
+            1384.052734375,
+            958.1251255615234,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "b68b4a61f6bb7985da12ee185771ca0ffd7311f7496b0f31a321f9a62a793cc3",
+      "webp_sha256": "5792f33afd4673cb0c61907bb1109d283ee16cff82bcd834a958d788e8b2b56b",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Remove someone else's drill card or ally from the game. Discard this card from the game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "4f96a226372d4428eb6da7e2ba3ca8bc621e15eae20d9e799ba559d16a91f90a",
+      "preview_sha256": "1654b1d00caf09c9f79080be4dc74aad7b34526022bde3390b48f9a915b49b85",
+      "power_icon_count": 0,
+      "changed_pixel_bounds": [
+        728,
+        2407,
+        1392,
+        2491
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp?v=5792f33afd46"
+    },
+    {
+      "number": 33,
+      "id": "saiyan-033-its-the-little-things-that-matter",
+      "name": "It’s the Little Things That Matter",
+      "style": "Freestyle",
+      "rules": "Defense Shield: Stop the first unstopped physical or energy attack against you this Combat. (Banish after use.)",
+      "original_rules": "Stop 1 successful energy or physical life card draw from happening. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "58d5263cd0a571bbd21777b952177435bb8cbddd4287c88e8f0bf980c35133ab",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "IT’S THE LITTLE THINGS THAT MATTER",
+          "font": "title",
+          "size": 33.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 89.0625,
+          "bounds": [
+            83.97259765625012,
+            63.4140625,
+            976.0274023437499,
+            89.5859375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            150.2103342105263,
+            1121.651,
+            187.63266578947366,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Defense Shield: Stop the first unstopped",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            199.63266578947366,
+            1120.23,
+            909.7896657894737,
+            1165.114
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "physical or energy attack against you",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            196.72649999999996,
+            1179.23,
+            863.2735,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "this Combat. (Banish after use.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            247.83349999999996,
+            1236.809,
+            812.1665,
+            1278.459
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "33",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.2138964843749,
+            1384.052734375,
+            958.0399035156249,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "8bdc638c97173bb4062c864026cbfbf982529b7b79e03e6029835e61f6251979",
+      "webp_sha256": "b0f8e0404fc9b315bd1be984eb5d5edce2a9d932bb653809f5e6e2cdc07474aa",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "It’s the Little Things That Matter",
+        "corrected_effect": "Defense Shield: Stops the first unstopped energy or physical attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      },
+      "lossless_equal": true,
+      "svg_sha256": "718c7d62a5d60bea8e5d84be652243d258384e73622a36d04818bbd21bace5bf",
+      "preview_sha256": "b6d1e5af92765dce85df85802a1a1b1d1bf0b36f6f53e550d7fded1aa8ca34b6",
+      "power_icon_count": 1,
+      "changed_pixel_bounds": [
+        495,
+        2473,
+        1625,
+        2557
+      ],
+      "catalog_image": "/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp?v=b0f8e0404fc9"
+    }
+  ]
+}

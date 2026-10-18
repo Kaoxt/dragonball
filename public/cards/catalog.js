@@ -315,11 +315,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=d9293da98fb6",
+    "image": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=48e6bcb7eb9e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=d9293da98fb6"
+    "downloadImage": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=48e6bcb7eb9e"
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
@@ -343,11 +343,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=b1b2d7a238fb",
+    "image": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=96ec487b67f2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=b1b2d7a238fb"
+    "downloadImage": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=96ec487b67f2"
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
@@ -385,11 +385,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=6006bfe0a58a",
+    "image": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=83d9878a0755",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=6006bfe0a58a"
+    "downloadImage": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=83d9878a0755"
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
@@ -399,11 +399,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=648e3603dd6c",
+    "image": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=2140dabb016e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=648e3603dd6c"
+    "downloadImage": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=2140dabb016e"
   },
   {
     "id": "saiyan-030-fall-7-times-get-up-8-times",
@@ -413,11 +413,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=75a803a1aebc",
+    "image": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=d0fa113cc484",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=75a803a1aebc"
+    "downloadImage": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=d0fa113cc484"
   },
   {
     "id": "saiyan-031-fortify-your-spirit",
@@ -427,11 +427,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp?v=26a863c063da",
+    "image": "/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp?v=29819e0e712b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp?v=26a863c063da"
+    "downloadImage": "/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp?v=29819e0e712b"
   },
   {
     "id": "saiyan-032-the-untroubled-mind-is-focused",
@@ -441,11 +441,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp?v=23044db8c110",
+    "image": "/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp?v=5792f33afd46",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp?v=23044db8c110"
+    "downloadImage": "/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp?v=5792f33afd46"
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
@@ -455,11 +455,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp?v=4cb59e7c8bdd",
+    "image": "/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp?v=b0f8e0404fc9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp?v=4cb59e7c8bdd"
+    "downloadImage": "/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp?v=b0f8e0404fc9"
   },
   {
     "id": "saiyan-034-straining-off-balancing-move",
