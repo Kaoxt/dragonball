@@ -1,0 +1,32 @@
+{
+  "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "corrections": {
+    "21": "Saiyan Heritage only. Physical attack, plus it stops a single named foe from making a physical attack on his next phase. It costs 2 power stages to perform.",
+    "24": "Physical attack doing 5 power stages of damage.",
+    "25": "Physical attack. If successful, draw the bottom card from your discard pile. If used by Goku, it stays in play to be used one more time this Combat. Remove from the game after use. Limit 2 per deck.",
+    "26": "Physical attack. Raise your anger 1. Gain 5 power stages.",
+    "28": "Stops a physical attack. Stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use.",
+    "30": "Defense Shield: Stops the first unstopped physical attack performed against you this Combat. Remove from the game after use.",
+    "31": "Defense Shield: Stops the first unstopped energy attack performed against you this Combat. Remove from the game after use.",
+    "33": "Defense Shield: Stops the first unstopped energy or physical attack performed against you this Combat. Remove from the game after use.",
+    "38": "Physical attack doing 1 life card of damage. You must pass in all remaining phases of Combat.",
+    "39": "Use immediately after your opponent attacks you (this can be a physical or energy attack) and pays any costs for that attack. Lower your opponent’s Main Personality 4 power stages immediately when played."
+  },
+  "banish_cards": [
+    23,
+    25,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "special_limits": {
+    "25": 2,
+    "34": 1,
+    "35": 1,
+    "37": 1,
+    "28": 1
+  }
+}

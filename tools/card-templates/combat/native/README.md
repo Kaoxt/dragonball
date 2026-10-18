@@ -1,10 +1,10 @@
 # Unified layout and AT wording — October 18, 2026
 
-Saiyan Saga cards 001–020 use the shared title/category/power/footer geometry, the 0.81 rarity-and-number group, flat-white set mark, and current AT/DAMAGE wording. Original artwork and attack mechanics are retained. Read `references/shared-layout.md` and `references/card-wording.md`.
+Saiyan Saga cards 001–030 use the shared title/category/power/footer geometry, the 0.81 rarity-and-number group, flat-white set mark, and current AT/DAMAGE wording. Original artwork and attack mechanics are retained. Read `references/shared-layout.md` and `references/card-wording.md`.
 
 Reproduce this batch with `python tools/card-templates/combat/native/render-unified.py`. This reads the updated `cards-001-010.json`, uses `shared_layout.py` and `icons_unified.py`, and exports SVG, 2120 × 2968 PNG/lossless WebP and smaller previews. The unified renderer now supports Orange, Red, Blue, Saiyan and Freestyle. Use it for new work; `render.py` is historical. For cards 11–20, pass `--cards tools/card-templates/combat/native/cards-011-020.json`; render the two Dragon Balls separately through their native renderer.
 
-The public catalog uses the full-resolution lossless files for these twenty cards, with cache-versioned URLs. Artwork and fonts are retained from the existing native source assets.
+The public catalog uses the full-resolution lossless files for these thirty cards, with cache-versioned URLs. Artwork and fonts are retained from the existing native source assets.
 
 # Current approved master — October 17, 2026
 
@@ -32,3 +32,7 @@ For every future card, use at most one power icon: crossed swords for an attack 
 
 Text and frames are native vector outlines; character art, approved background textures, set emblem and rarity sphere remain retained raster assets. OFL font licenses are bundled. The Orange 橙 glyph is adapted from KanjiVG (Ulrich Apel, CC BY-SA 3.0); its full source notice is retained in `assets/orange-kanji-source.svg`.
 
+
+## Saiyan Saga 021–030
+
+Use `cards-021-030.json` with `render-unified.py`. Source scans, corrected CRD effects and modern wording are retained separately. Setups use the same fixed panels and a neutral native card-stack category emblem. The renderer embeds decoded PNG artwork for Inkscape compatibility while retaining compact lossless WebP source crops. All powers retain size49; at most one effect icon is shown.

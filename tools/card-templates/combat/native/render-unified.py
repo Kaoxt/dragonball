@@ -44,7 +44,14 @@ FONTS = {k:TTFont(HERE/'fonts'/f) for k,f in {
     'footer':'BarlowCondensed-Regular.ttf','brand':'Rajdhani-SemiBold.ttf'}.items()}
 
 def uri(path):
-    return 'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()
+    # Inkscape does not reliably decode embedded WebP. Keep the compact
+    # lossless source on disk, but embed its exact decoded pixels as PNG.
+    data=path.read_bytes()
+    if path.suffix.lower()=='.webp':
+        encoded=io.BytesIO()
+        with Image.open(path) as im: im.save(encoded,format='PNG')
+        data=encoded.getvalue()
+    return 'data:image/png;base64,'+base64.b64encode(data).decode()
 
 def glyphrun(text,kind,size,tracking=0,sx=1):
     font=FONTS[kind];gs=font.getGlyphSet();cmap=font.getBestCmap()
@@ -172,13 +179,25 @@ def artwork(card):
     # The cleaned, user-approved Red Lunge Punch master is retained intact.
     # A native clip exposes only its illustration window; all type/frame layers
     # are rebuilt below, exactly like the other nine cards.
+    if card.get('artwork_file'):
+        return image_element('retained-artwork',HERE/card['artwork_file'],0,156,1060,794)
     reference=card.get('artwork_reference')
     if reference:
         return ('<defs><clipPath id="artwork-window"><rect x="0" y="156" width="1060" height="794"/></clipPath></defs>'
                 '<g clip-path="url(#artwork-window)">'+image_element('retained-artwork',HERE/reference,0,0,W,H)+'</g>')
     return image_element('retained-artwork',HERE/'artwork'/f'saiyan-{card["number"]:03}.png',0,156,1060,794)
 
-def style_symbol(style):
+def style_symbol(style,category='Physical Combat'):
+    if category=='Setup':
+        # A neutral native card-stack emblem distinguishes Setups from attacks.
+        # It occupies the shared badge; it is not an effect icon.
+        return ('<g id="setup-category-emblem" fill="#24282d" stroke="#aeb4bc" '
+                'stroke-width="6" stroke-linejoin="round">'
+                '<rect x="83" y="947" width="63" height="82" rx="5"/>'
+                '<rect x="93" y="957" width="63" height="82" rx="5"/>'
+                '<rect x="103" y="967" width="63" height="82" rx="5"/>'
+                '<path d="M116 986H153M116 998H153M116 1010H142" fill="none" stroke-width="4"/>'
+                '</g>')
     if style=='Red':
         return image_element('red-style-symbol',HERE/'assets/red-style-symbol.png',61,928,124,138)
     if style=='Freestyle':
@@ -195,12 +214,14 @@ def style_symbol(style):
 
 report=[]
 for card in DATA['cards']:
-    n=card['number'];style=card['style'];slug=f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
+    n=card['number'];style=card['style'];slug=card.get('id') or f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
     if style not in ('Orange','Red','Blue','Saiyan','Freestyle'):
         raise ValueError('Supply an approved template variant for style '+style)
     category=card.get('category',DATA.get('category','Physical Combat'))
-    if category not in ('Physical Combat','Energy Combat'):
-        raise ValueError('This renderer supports Physical Combat and Energy Combat; supply a matching category template for '+category)
+    if category not in ('Physical Combat','Energy Combat','Setup'):
+        raise ValueError('Supply a matching native category template for '+category)
+    if category=='Setup' and style!='Freestyle':
+        raise ValueError('The shared Setup adaptation currently supports Freestyle only')
     set_name=card.get('set',DATA.get('set'))
     emblem=card.get('set_emblem',DATA.get('set_emblem'))
     if not emblem:
@@ -209,7 +230,7 @@ for card in DATA['cards']:
     rarity=card.get('rarity',DATA.get('rarity'))
     stars=card.get('rarity_stars',DATA.get('rarity_stars'))
     if not rarity or not isinstance(stars,int): raise ValueError('Supply verified rarity and rarity_stars')
-    layers=[background(style),artwork(card),native_frame(style),style_symbol(style)]
+    layers=[background(style),artwork(card),native_frame(style),style_symbol(style,category)]
     layers.append(set_emblem(HERE/emblem))
     metrics=[];title=card['name'].upper();size=50
     while width(title,'title',size,TITLE_TRACKING,.84)>900:size-=.5
@@ -259,9 +280,11 @@ for card in DATA['cards']:
     assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 and m['bounds'][1]>=1070 and m['bounds'][3]<=1320 for m in metrics if m['id'].startswith('card-power'))
     assert abs((left+(left+ballw+gap+numberw))/2-907)<1e-8
     assert Image.open(OUT/(slug+'.webp')).convert('RGB').tobytes()==high.tobytes()
-    artpath=HERE/card['artwork_reference'] if card.get('artwork_reference') else HERE/'artwork'/f'saiyan-{n:03}.png'
+    artpath=HERE/(card.get('artwork_file') or card.get('artwork_reference')) if (card.get('artwork_file') or card.get('artwork_reference')) else HERE/'artwork'/f'saiyan-{n:03}.png'
     entry={'number':n,'id':slug,'name':card['name'],'style':style,'rules':' '.join(rows),'original_rules':card['original_rules'],'set':set_name,'category':category,'rarity':rarity,'stars':stars,'dimensions':[2120,2968],'artwork_sha256':hashlib.sha256(artpath.read_bytes()).hexdigest(),'frame_sha256':hashlib.sha256(native_frame(style).encode()).hexdigest(),'typography':metrics,'png_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'webp_sha256':hashlib.sha256((OUT/(slug+'.webp')).read_bytes()).hexdigest()}
-    report.append(entry);print(n,card['name'],'rendered',flush=True)
+    report.append(entry)
+    (OUT/'verification-progress.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(n,card['name'],'rendered',flush=True)
 
 (OUT/'verification.json').write_text(json.dumps(report,indent=2)+'\n')
 for style in {x['style'] for x in report}:

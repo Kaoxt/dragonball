@@ -11,3 +11,5 @@ Keep titles, rules, numbers, levels, PUR values and borders as native geometry a
 After approval, synchronize the personal production skill, native source, reference previews and catalog metadata. Source templates live under `tools/`; only requested card exports under `public/` are served by the website. Preview WebPs are high-resolution 1060 × 1484 at quality 92; separate downloads remain 2120 × 2968 lossless WebP.
 
 The other template entries retain their existing status in the catalog. Template source updates do not publish any additional card exports.
+
+The shared-layout Setup implementation used by Saiyan Saga cards 22, 23 and 30 is documented in `setups/README.md`. It uses the common native geometry; no separate template approval is implied.

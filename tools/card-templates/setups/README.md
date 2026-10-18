@@ -1,5 +1,18 @@
 # Setups
 
-Status: **Pending — no approved master added yet.**
+## Shared-layout production variant — October 18, 2026
 
-Add the finished reference, vector assets, layout, and production rules after the design is approved. Then update `../catalog.json` and the [template index](../README.md) together. Existing artwork elsewhere in the repository does not establish approval for this template.
+Saiyan Saga Setups 22, 23, 30, 31, 32 and 33 use the native shared title,
+category, power and footer geometry from Combat, Dragon Balls and Personalities.
+The category label is SETUP. The neutral gray badge uses a native card-stack
+emblem; this category emblem is separate from the maximum of one power icon.
+
+Render through `../combat/native/render-unified.py` with `category: "Setup"`
+and `style: "Freestyle"`. Retain the black diamond title, badge and footer,
+gray category bar, opaque power box, native fonts and smaller rarity marker.
+The original published artwork is retained without repainting.
+
+Powers follow `../combat/native/references/card-wording.md`. Defense Shield is
+preserved as a timing keyword and receives one shield icon. Ordinary activated
+powers use POWER. Put applicable Banish after use last. This is the shared-layout
+implementation for the requested card batch, not a separately approved new design.

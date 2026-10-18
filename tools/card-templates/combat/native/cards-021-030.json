@@ -1,0 +1,385 @@
+{
+  "set": "Saiyan Saga",
+  "rarity": "Common",
+  "rarity_stars": 1,
+  "template_version": "2026-10-18-unified-single-icon-trailing-banish",
+  "cards": [
+    {
+      "number": 21,
+      "id": "saiyan-021-saiyan-neck-hold",
+      "name": "Saiyan Neck Hold",
+      "style": "Saiyan",
+      "category": "Physical Combat",
+      "rules": [
+        "Saiyan Heritage only.",
+        "Physical attack costing 2 stages.",
+        "DAMAGE: AT stages.",
+        "Stop one named opponent from performing",
+        "a physical attack during their next phase."
+      ],
+      "rule_icons": [
+        "none",
+        "attack",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Villains, Goku, and Gohan only. Physical attack, plus it stops a single named foe from making a physical attack on his next phase. It costs 2 power stages to perform.",
+      "artwork_file": "artwork/saiyan-021.webp",
+      "art_source": "/assets/cards/saiyan-021-saiyan-neck-hold.webp?v=63d484a4f6",
+      "art_source_sha256": "8be54df6c276421c895ecc4b9f217257824e88d45a493369d546c5da2ce27e5c",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/21-Saiyan-Neck-Hold.jpg",
+      "original_scan_sha256": "7f652676036e45373f9249e453fe509b784c31198ccf756f3068567b8fd07f00",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Saiyan Heritage glossary",
+        "corrected_effect": "Saiyan Heritage only. Physical attack, plus it stops a single named foe from making a physical attack on his next phase. It costs 2 power stages to perform.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 22,
+      "id": "saiyan-022-power-up",
+      "name": "Power Up!",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "POWER: One of your personalities gains",
+        "5 stages, up to its highest stage.",
+        "Place the top card of your discard pile",
+        "on the bottom of your Life Deck."
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Powers up 5 stages for a personality, going no higher than their maximum stage. Take the top discarded card and place them at the bottom of life deck.",
+      "artwork_file": "artwork/saiyan-022.webp",
+      "art_source": "/assets/cards/saiyan-022-power-up.webp?v=dcdf4f58a3",
+      "art_source_sha256": "b32f86fa797ef8c36766e308df330ab6bee27b5b72bf5c1cd86b81e0ac46666e",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/22-Power-Up.jpg",
+      "original_scan_sha256": "b1fe81a201ec3b5ebec3e893815155051a47b9ee6c711e8f5715f805e67f013b",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Powers up 5 stages for a personality, going no higher than their maximum stage. Take the top discarded card and place them at the bottom of life deck.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 23,
+      "id": "saiyan-023-burning-rage",
+      "name": "Burning Rage!",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "POWER: Raise your anger 2 levels.",
+        "Place the bottom 2 cards of your discard pile",
+        "on the bottom of your Life Deck.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
+      "artwork_file": "artwork/saiyan-023.webp",
+      "art_source": "/assets/cards/saiyan-023-burning-rage.webp?v=392dd0b3a0",
+      "art_source_sha256": "affa85eb159d8074874cfdf368836a45185727e62cafe79045ef89e609721680",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/23-Burning-Rage.jpg",
+      "original_scan_sha256": "ae04f78366a78001c94a3a21f0d4abba70fb33529601441c09781afd5f54a593",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 24,
+      "id": "saiyan-024-gokus-surprise-attack",
+      "name": "Goku’s Surprise Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 5 stages."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack striking out for 5 stages of physical damage on a selected foe.",
+      "artwork_file": "artwork/saiyan-024.webp",
+      "art_source": "/assets/cards/saiyan-024-gokus-surprise-attack.webp?v=7f45ce63fe",
+      "art_source_sha256": "c2609241aaef766b9f10b75b9b21e5f5600c5ec535bb65008657ea2e4e5cc3fa",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/24-Gokus-Surprise-Attack.jpg",
+      "original_scan_sha256": "9a258fd0cb324a57db694fc696162248dd293d611eab3a6c692a334f28fdf619",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku’s Surprise Attack",
+        "corrected_effect": "Physical attack doing 5 power stages of damage.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 25,
+      "id": "saiyan-025-gokus-physical-attack",
+      "name": "Goku’s Physical Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack. DAMAGE: AT stages.",
+        "HIT: Draw the bottom card of your discard pile.",
+        "If used by Goku, keep in play to use once more",
+        "this Combat. Banish after use."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical attack, plus draw the bottom card from the discard pile into your hand. If used by Goku, it stays on the table to be used one more time in this combat.",
+      "artwork_file": "artwork/saiyan-025.webp",
+      "art_source": "/assets/cards/saiyan-025-gokus-physical-attack.webp?v=d4ef176518",
+      "art_source_sha256": "777e578c272c198eca683705931ab0b07ebea63626254ba1333274e885c88778",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/25-Gokus-Physical-Attack.jpg",
+      "original_scan_sha256": "6aa024e9ef30c0d2e843fea583ed61b154d0a01db23730ea1624b663ded7a110",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku’s Physical Attack",
+        "corrected_effect": "Physical attack. If successful, draw the bottom card from your discard pile. If used by Goku, it stays in play to be used one more time this Combat. Remove from the game after use. Limit 2 per deck.",
+        "banish_after_use": true
+      },
+      "limit_per_deck": 2
+    },
+    {
+      "number": 26,
+      "id": "saiyan-026-gohans-physical-attack",
+      "name": "Gohan’s Physical Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: AT stages.",
+        "Raise your anger 1 level. Gain 5 stages."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical attack. Gohan gains 1 anger level. Increases Gohan's power rating by 5 stages.",
+      "artwork_file": "artwork/saiyan-026.webp",
+      "art_source": "/assets/cards/saiyan-026-gohans-physical-attack.webp?v=48f2ed2104",
+      "art_source_sha256": "689cc4ada86b99bbd3e7d5ce8a639dd940d593da75ae27534392554dfa7e546f",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/26-Gohans-Physical-Attack.jpg",
+      "original_scan_sha256": "e315112371a06a7eda22fe1ea3bf4d3c5d357f47d2224d101dc237ac3e256066",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Gohan’s Physical Attack",
+        "corrected_effect": "Physical attack. Raise your anger 1. Gain 5 power stages.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 27,
+      "id": "saiyan-027-tiens-physical-attack",
+      "name": "Tien’s Physical Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 5 life cards."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack doing 5 life card draws if successful.",
+      "artwork_file": "artwork/saiyan-027.webp",
+      "art_source": "/assets/cards/saiyan-027-tiens-physical-attack.webp?v=977b27d39c",
+      "art_source_sha256": "b6673faed46d9ad93e58dc572c463aec9ed3fdb2b41d91615325b795805915c1",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/27-Tiens-Physical-Attack.jpg",
+      "original_scan_sha256": "e2fdbf2bdad2f87e2a77809cdf75f7ab4e01822bb4ac640b71b29fb7f0f71939",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack doing 5 life card draws if successful.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 28,
+      "id": "saiyan-028-vegetas-physical-stance",
+      "name": "Vegeta’s Physical Stance",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Stop all physical attacks against you for",
+        "the remainder of Combat.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "block",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "No physical attacks will work against Vegeta this combat. Remove from game after use.",
+      "artwork_file": "artwork/saiyan-028.webp",
+      "art_source": "/assets/cards/saiyan-028-vegetas-physical-stance.webp?v=efec024d88",
+      "art_source_sha256": "7557b5abf0956812efbb2d53e6be09de1c4e62427fa6ca811ad3cf8dbd7c82fc",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/28-Vegetas-Physical-Attack.jpg",
+      "original_scan_sha256": "d0997986fe25041dc49f61bc5a0cb4a50d794c1f3379f74a81f96a39f5e2bbc6",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Vegeta’s Physical Stance",
+        "corrected_effect": "Stops a physical attack. Stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use.",
+        "banish_after_use": true,
+        "restricted_list": "CRD Restricted List grants Limit 1 per deck."
+      },
+      "limit_per_deck": 1
+    },
+    {
+      "number": 29,
+      "id": "saiyan-029-yajirobes-physical-attack",
+      "name": "Yajirobe’s Physical Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 2 life cards.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical attack doing 2 draws from the life deck if not stopped. Remove from game after use.",
+      "artwork_file": "artwork/saiyan-029.webp",
+      "art_source": "/assets/cards/saiyan-029-yajirobes-physical-attack.webp?v=ec3423b4b8",
+      "art_source_sha256": "e09a1e7a71483bfe8c717573226d8d957929d669c8355413969240cc099c5b10",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/29-Yajirobes-Physical-Attack.jpg",
+      "original_scan_sha256": "ef1421f17fc8009ad7ba646c1eb69a4ae6e6bf45ec659bbfecc8f5eba0635ec5",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack doing 2 draws from the life deck if not stopped. Remove from game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 30,
+      "id": "saiyan-030-fall-7-times-get-up-8-times",
+      "name": "Fall 7 Times, Get Up 8 Times.",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "Defense Shield: Stop the first unstopped",
+        "physical attack against you this Combat.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "block",
+        "none",
+        "none"
+      ],
+      "original_rules": "The first successful physical attack on you is stopped. Discard this card from the game after use.",
+      "artwork_file": "artwork/saiyan-030.webp",
+      "art_source": "/assets/cards/saiyan-030-fall-7-times-get-up-8-times.webp?v=d640247aa7",
+      "art_source_sha256": "fa2aaf42ad191daa0b079dc8b2059b081c2371488c4ae01d34566afa5a8a22aa",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/30-Fall-7-Times-Get-Up-8-Times..jpg",
+      "original_scan_sha256": "4abf53d29a69869ef95a2d5c7692317e44ed4c2602d1c80f5492074d4cb26d67",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Fall 7 Times, Get Up 8 Times.",
+        "corrected_effect": "Defense Shield: Stops the first unstopped physical attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    }
+  ],
+  "sources": {
+    "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+    "wording_policy": "references/card-wording.md",
+    "rarity_verification": "One-star rarity directly checked on each original scan."
+  }
+}
