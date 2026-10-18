@@ -1,0 +1,367 @@
+{
+  "set": "Saiyan Saga",
+  "rarity": "Common",
+  "rarity_stars": 1,
+  "template_version": "2026-10-18-unified-single-icon-trailing-banish",
+  "cards": [
+    {
+      "number": 31,
+      "id": "saiyan-031-fortify-your-spirit",
+      "name": "Fortify Your Spirit",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "Defense Shield: Stop the first unstopped",
+        "energy attack against you this Combat.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "block",
+        "none",
+        "none"
+      ],
+      "original_rules": "The first successful energy attack on you is stopped. Discard this card from the game after use.",
+      "artwork_file": "artwork/saiyan-031.webp",
+      "art_source": "/assets/cards/saiyan-031-fortify-your-spirit.webp?v=294e18be63",
+      "art_source_sha256": "e3d50ee3e43b7c3b9eb73efcc41f8ced8c0fedb7e96e2c128402cf03b10a91f3",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/31-Fortify-Your-Spirit.jpg",
+      "original_scan_sha256": "faa702a1b4f6b9f794eec404859755c475a2af2b2b7b2ce66c1b41e27020770b",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Fortify Your Spirit",
+        "corrected_effect": "Defense Shield: Stops the first unstopped energy attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 32,
+      "id": "saiyan-032-the-untroubled-mind-is-focused",
+      "name": "The Untroubled Mind is Focused",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "POWER: Banish an opponent's Drill or Ally.",
+        "Banish after use."
+      ],
+      "rule_icons": [
+        "none",
+        "none"
+      ],
+      "original_rules": "Remove someone else's drill card or ally from the game. Discard this card from the game after use.",
+      "artwork_file": "artwork/saiyan-032.webp",
+      "art_source": "/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp?v=e0b67bb51a",
+      "art_source_sha256": "1e2892ff5292490659607a6ca66432e7761e077517fe4ff503c32a510fc7598d",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/32-The-Untroubled-Mind-is-Focused.jpg",
+      "original_scan_sha256": "e2175ba6dea70fc9cf531e48a01567c517654023c1bff7bb8a815f29bd73860e",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Remove someone else's drill card or ally from the game. Discard this card from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 33,
+      "id": "saiyan-033-its-the-little-things-that-matter",
+      "name": "It’s the Little Things That Matter",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "Defense Shield: Stop the first unstopped",
+        "physical or energy attack against you",
+        "this Combat. Banish after use."
+      ],
+      "rule_icons": [
+        "block",
+        "none",
+        "none"
+      ],
+      "original_rules": "Stop 1 successful energy or physical life card draw from happening. Discard this card from the game after use.",
+      "artwork_file": "artwork/saiyan-033.webp",
+      "art_source": "/assets/cards/saiyan-033-its-the-little-things-that-matter.webp?v=b693fa1ebc",
+      "art_source_sha256": "49f4705938e2f41bb7bed41ea4df671975b3ae82dd1984e13af80da67493a533",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/33-Its-the-Little-Things-That-Matter.jpg",
+      "original_scan_sha256": "efb0dcbe5e8e3058529157ba1ed0fe69ebb72d823afb117c17bfd65f6e0e74f3",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "It’s the Little Things That Matter",
+        "corrected_effect": "Defense Shield: Stops the first unstopped energy or physical attack performed against you this Combat. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 34,
+      "id": "saiyan-034-straining-off-balancing-move",
+      "name": "Straining Off-Balancing Move",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack costing 3 stages.",
+        "DAMAGE: 1 life card."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack forcing the defender to lose 1 life card and the attacker 3 stages of power. Limit 1 per deck.",
+      "artwork_file": "artwork/saiyan-034.webp",
+      "art_source": "/assets/cards/saiyan-034-straining-off-balancing-move.webp?v=66de8e1f9d",
+      "art_source_sha256": "95e604e83d7b29ea4058e00ed33a74b3e06455cafb9e7305e8ddc9e3781338ab",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/34-Straining-Off-Balancing-Move.jpg",
+      "original_scan_sha256": "3668c48940ea27eeb8e93e0e48b15a77120d3707ba90998a02065769b96787e4",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack forcing the defender to lose 1 life card and the attacker 3 stages of power. Limit 1 per deck.",
+        "banish_after_use": false
+      },
+      "limit_per_deck": 1
+    },
+    {
+      "number": 35,
+      "id": "saiyan-035-straining-penetrating-attack-move",
+      "name": "Straining, Penetrating Attack Move",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack costing 3 stages.",
+        "DAMAGE: 3 life cards."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack forcing the defender to lose 3 life cards and the attacker 3 stages of power. Limit 1 per deck.",
+      "artwork_file": "artwork/saiyan-035.webp",
+      "art_source": "/assets/cards/saiyan-035-straining-penetrating-attack-move.webp?v=1ed7fd0c4a",
+      "art_source_sha256": "16cd01c7a7ae0933370aed731776414f723ac83688deb106c2afe6f1560d6836",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/35-Straining-Penetrating-Attack-Move.jpg",
+      "original_scan_sha256": "dbeb7a56f4ac05276ce1a71607b2322c695b2b989c08eb9e05441c2133c09a63",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack forcing the defender to lose 3 life cards and the attacker 3 stages of power. Limit 1 per deck.",
+        "banish_after_use": false
+      },
+      "limit_per_deck": 1
+    },
+    {
+      "number": 36,
+      "id": "saiyan-036-straining-fake-left-move",
+      "name": "Straining Fake Left Move",
+      "style": "Freestyle",
+      "category": "Energy Combat",
+      "rules": [
+        "POWER: Prevent up to 3 life cards of damage",
+        "from an energy attack. Lose 4 stages."
+      ],
+      "rule_icons": [
+        "none",
+        "none"
+      ],
+      "original_rules": "Defensive move preventing up to 3 energy life cards from being discarded and draining the user 4 stages.",
+      "artwork_file": "artwork/saiyan-036.webp",
+      "art_source": "/assets/cards/saiyan-036-straining-fake-left-move.webp?v=fca7363e1e",
+      "art_source_sha256": "4c53f2bca815bb37f95a4c80b414b8b81e19d1d9aa78d13c283f0f7558109313",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/36-Straining-Fake-Left-Move.jpg",
+      "original_scan_sha256": "b5a07382aed1def05b05de2b0713985fce69477dca861c0f77d00c9332f09ecb",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Defensive move preventing up to 3 energy life cards from being discarded and draining the user 4 stages.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 37,
+      "id": "saiyan-037-straining-tripping-move",
+      "name": "Straining Tripping Move",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack costing 4 stages.",
+        "DAMAGE: 2 life cards."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack forcing the defender to lose 2 life cards and the attacker 4 stages of power. Limit 1 per deck.",
+      "artwork_file": "artwork/saiyan-037.webp",
+      "art_source": "/assets/cards/saiyan-037-straining-tripping-move.webp?v=0cbbd46182",
+      "art_source_sha256": "34df059311101ee4ea0973ee26bba3482aa1a062146e6db8ac1436821ccb3ec2",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/37-Straining-Tipping-Move.jpg",
+      "original_scan_sha256": "41257556138d636919cae1c970b168bc161eda79370b8588a1572ea1c045d462",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Physical attack forcing the defender to lose 2 life cards and the attacker 4 stages of power. Limit 1 per deck.",
+        "banish_after_use": false
+      },
+      "limit_per_deck": 1
+    },
+    {
+      "number": 38,
+      "id": "saiyan-038-straining-arm-drag-move",
+      "name": "Straining Arm Drag Move",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 1 life card.",
+        "Pass in all remaining phases of Combat."
+      ],
+      "rule_icons": [
+        "attack",
+        "none",
+        "none"
+      ],
+      "original_rules": "Physical attack forcing the defender to lose 1 life card and the attack is over for the attacker.",
+      "artwork_file": "artwork/saiyan-038.webp",
+      "art_source": "/assets/cards/saiyan-038-straining-arm-drag-move.webp?v=308b5888b7",
+      "art_source_sha256": "07d6f13818bebdbba14fc3ed2059c8620ef9a5670127b8434c32a38efa23334c",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/38-Straining-Arm-Drag-Move.jpg",
+      "original_scan_sha256": "43be94951dae196703e533d9d243d9eefbd496ea9b3c7bc97d0ed12bdf9bfca4",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Straining Arm Drag Move",
+        "corrected_effect": "Physical attack doing 1 life card of damage. You must pass in all remaining phases of Combat.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 39,
+      "id": "saiyan-039-straining-ankle-smash-move",
+      "name": "Straining Ankle Smash Move",
+      "style": "Freestyle",
+      "category": "Energy Combat",
+      "rules": [
+        "Use immediately after your opponent attacks you",
+        "with a physical or energy attack and pays its costs.",
+        "POWER: Immediately lower their",
+        "Main Personality 4 stages."
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "Play this card right after the attacker plays a card and pays their energy costs. The defender does 4 stages of power drain on the attacker, no matter what he is doing to the defender.",
+      "artwork_file": "artwork/saiyan-039.webp",
+      "art_source": "/assets/cards/saiyan-039-straining-ankle-smash-move.webp?v=0166fbfa65",
+      "art_source_sha256": "5ff019f21af06e3b0908eb4705818532212b5d4fce27acda6e035c297dd3ec46",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/39-Straining-Ankle-Smash-Move.jpg",
+      "original_scan_sha256": "f63c7a865e42deacaa818f8fabe93d2278370bd05b080a5b5f1e0a9a1a9abe84",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Straining Ankle Smash Move",
+        "corrected_effect": "Use immediately after your opponent attacks you (this can be a physical or energy attack) and pays any costs for that attack. Lower your opponent’s Main Personality 4 power stages immediately when played.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 40,
+      "id": "saiyan-040-straining-energy-defense-move",
+      "name": "Straining Energy Defense Move",
+      "style": "Freestyle",
+      "category": "Energy Combat",
+      "rules": [
+        "Stop an energy attack by discarding",
+        "1 other card from your hand."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops an energy attack, but you have to discard another card to use this one.",
+      "artwork_file": "artwork/saiyan-040.webp",
+      "art_source": "/assets/cards/saiyan-040-straining-energy-defense-move.webp?v=ee8c62f095",
+      "art_source_sha256": "beeaf84cdcf88453eed44f3e5e5ae6595ff2c67046b82276058fdd28adde12a5",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/40-Straining-Energy-Defense-Move.jpg",
+      "original_scan_sha256": "bae735d4639b948029541b1d629cff6fb3843ce31341be92dbaec00b8b844caa",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops an energy attack, but you have to discard another card to use this one.",
+        "banish_after_use": false
+      }
+    }
+  ],
+  "sources": {
+    "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+    "wording_policy": "references/card-wording.md",
+    "rarity_verification": "One-star rarity directly checked on each original scan."
+  }
+}
