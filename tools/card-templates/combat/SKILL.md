@@ -19,9 +19,9 @@ Current references are `assets/orange-restored-footer-aligned-reference.png` and
 
 ## Approved black textured panels — October 17, 2026
 
-Use the approved Orange Standing Fist Punch black textured title and footer as the current Combat master. `assets/orange-black-textured-reference.png` is the primary reference; it reproduces the live approved card pixel for pixel. Earlier references are historical. Keep a black #000000 base with the existing 14-unit diamond geometry, #101113 lines and 1-unit stroke on the title and both footer side compartments. Keep the original dark badge and colored combat category bar unchanged. Keep the shaped black inset above the footer and the center brand/disclaimer panel with its #08090a-to-#000000 gradient. Keep the original Orange/Red outer decoration, all artwork, outlined type, thin silver borders, and rarity/number centers at y=1397.5. Never add a rectangular black lower background.
+Use the approved Orange Standing Fist Punch black textured title and footer as the current Combat master. `assets/orange-matching-dark-badge-reference.png` is the primary reference for the October 17 matching Toku Waza background update. Earlier references are historical. Keep a black #000000 base with the existing 14-unit diamond geometry, #101113 lines and 1-unit stroke on the title and both footer side compartments. Use this same black diamond pattern on the Toku Waza badge; preserve the colored symbol and colored combat category bar. Keep the shaped black inset above the footer and the center brand/disclaimer panel with its #08090a-to-#000000 gradient. Keep the original Orange/Red outer decoration, all artwork, outlined type, thin silver borders, and rarity/number centers at y=1397.5. Never add a rectangular black lower background.
 
-Use `native/render.py` and its retained inputs for new Combat cards. Both physical and energy Combat use this treatment. The renderer's pattern geometry, not a flattened image recolor, is authoritative. The Red reference is `assets/red-black-textured-reference.png`.
+Use `native/render.py` and its retained inputs for new Combat cards. Both physical and energy Combat use this treatment. The renderer's pattern geometry, not a flattened image recolor, is authoritative. The Red reference is `assets/red-matching-dark-badge-reference.png`.
 
 ## Read first
 
@@ -46,10 +46,14 @@ Use `native/render.py` and its retained inputs for new Combat cards. Both physic
 - Red: `assets/red-restored-footer-aligned-reference.png`; red 赤 symbol strokes on a dark circle.
 - Both use the same fixed panels, typography, footer, borders, and geometry.
 
-The dark circle background must not be recolored. Keep the original colored decorative background around the entire card while character art, type, symbols, and border contours remain sharp.
+The colored Toku Waza symbol must not be recolored; its circle background uses the same black diamond pattern as the title and footer. Keep the original colored decorative background around the entire card while character art, type, symbols, and border contours remain sharp.
 
 ## Centered footer rarity and number — October 16, 2026
 
 Center the rarity Dragon Ball and card number at y=1397.5 in the 1060 × 1484 design, the midpoint of the horizontal footer silver rails at y=1355 and y=1440. Use `FOOTER_SIDE_CENTER_Y` for both. Position the sphere from its visible alpha bounds and the number from its actual outlined glyph bounds; do not align padded raster canvases or text baselines. Keep the star centered in the sphere and retain the existing group center and spacing for single- and double-digit numbers. This supersedes the old y=1401 placement.
 
 Current references: `assets/orange-restored-footer-aligned-reference.png` and `assets/red-restored-footer-aligned-reference.png`. Earlier references are retained unchanged.
+
+## Matching Toku Waza background — October 17, 2026
+
+Use one shared `black-diamonds` SVG pattern for the title, Toku Waza circle and both footer side compartments: #000000 base, #101113 diamond lines, 14-unit repeat and 1-unit stroke. Preserve the Orange/Red symbol colors, shape, size and placement; retain the style-colored combat category bar. This supersedes the earlier instruction to leave the badge background at its older charcoal shade. Keep all earlier reference images unchanged as historical sources.

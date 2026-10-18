@@ -1,6 +1,6 @@
 # Current approved master — October 17, 2026
 
-The title and footer side panels use a black base with the preserved subtle diamond texture. The center footer gradient is #08090a to #000000. Orange Standing Fist Punch reproduces the live approved card pixel for pixel. Native frame geometry, artwork and symbols remain unchanged.
+The title, Toku Waza badge and footer side panels share one black diamond pattern: #000000 base, #101113 lines, 14-unit repeat and 1-unit stroke. The center footer gradient is #08090a to #000000. The October 17 badge update preserves all artwork, colored symbols, typography and border geometry.
 
 # Current native combat production
 
