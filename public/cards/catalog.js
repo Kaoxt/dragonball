@@ -567,10 +567,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-041-straining-head-lock-move.webp?v=91d72e6297",
+    "image": "/assets/cards/downloads/saiyan-041-straining-head-lock-move.webp?v=30a114e32062",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-041-straining-head-lock-move.webp?v=30a114e32062"
   },
   {
     "id": "saiyan-042-straining-rolling-escape-move",
@@ -580,23 +581,25 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-042-straining-rolling-escape-move.webp?v=9e62cbff02",
+    "image": "/assets/cards/downloads/saiyan-042-straining-rolling-escape-move.webp?v=5ec38fdc2a0b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-042-straining-rolling-escape-move.webp?v=5ec38fdc2a0b"
   },
   {
     "id": "saiyan-043-senzu-bean",
     "name": "Senzu Bean",
     "number": "43",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-043-senzu-bean.webp?v=430d3fc8fb",
+    "image": "/assets/cards/downloads/saiyan-043-senzu-bean.webp?v=9c1a36902044",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-043-senzu-bean.webp?v=9c1a36902044"
   },
   {
     "id": "saiyan-044-goku-body-throw",
@@ -606,23 +609,25 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-044-goku-body-throw.webp?v=3e9b400765",
+    "image": "/assets/cards/downloads/saiyan-044-goku-body-throw.webp?v=2a6b16a16b0c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-044-goku-body-throw.webp?v=2a6b16a16b0c"
   },
   {
     "id": "saiyan-045-saiyan-city-destruction",
     "name": "Saiyan City Destruction",
     "number": "45",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-045-saiyan-city-destruction.webp?v=274a3f913d",
+    "image": "/assets/cards/downloads/saiyan-045-saiyan-city-destruction.webp?v=ad6a310dabe8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-045-saiyan-city-destruction.webp?v=ad6a310dabe8"
   },
   {
     "id": "saiyan-046-goku-anger-attack",
@@ -632,10 +637,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-046-goku-anger-attack.webp?v=fb819e373b",
+    "image": "/assets/cards/downloads/saiyan-046-goku-anger-attack.webp?v=b72294f11d69",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-046-goku-anger-attack.webp?v=b72294f11d69"
   },
   {
     "id": "saiyan-047-raditz-total-defense",
@@ -645,23 +651,25 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-047-raditz-total-defense.webp?v=d869d11ef3",
+    "image": "/assets/cards/downloads/saiyan-047-raditz-total-defense.webp?v=c3652da3219f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-047-raditz-total-defense.webp?v=c3652da3219f"
   },
   {
     "id": "saiyan-048-gokus-touch",
     "name": "Goku’s Touch",
     "number": "48",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-048-gokus-touch.webp?v=04d46a90e8",
+    "image": "/assets/cards/downloads/saiyan-048-gokus-touch.webp?v=eee6c6c0c3ee",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-048-gokus-touch.webp?v=eee6c6c0c3ee"
   },
   {
     "id": "saiyan-049-orange-wrist-flex-takedown",
@@ -671,10 +679,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp?v=e9baccd5b0",
+    "image": "/assets/cards/downloads/saiyan-049-orange-wrist-flex-takedown.webp?v=cf69c00ce73a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-049-orange-wrist-flex-takedown.webp?v=cf69c00ce73a"
   },
   {
     "id": "saiyan-050-orange-shoulder-throw",
@@ -684,10 +693,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-050-orange-shoulder-throw.webp?v=1dbe76e47c",
+    "image": "/assets/cards/downloads/saiyan-050-orange-shoulder-throw.webp?v=06d2a428f709",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-050-orange-shoulder-throw.webp?v=06d2a428f709"
   },
   {
     "id": "saiyan-051-orange-hip-throw",

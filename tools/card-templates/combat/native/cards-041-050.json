@@ -1,0 +1,361 @@
+{
+  "set": "Saiyan Saga",
+  "rarity": "Common",
+  "rarity_stars": 1,
+  "template_version": "2026-10-18-unified-single-icon-trailing-banish",
+  "cards": [
+    {
+      "number": 41,
+      "id": "saiyan-041-straining-head-lock-move",
+      "name": "Straining Head Lock Move",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack by discarding",
+        "1 other card from your hand."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops a physical attack, but you have to discard another card to use this one.",
+      "artwork_file": "artwork/saiyan-041.webp",
+      "art_source": "/assets/cards/saiyan-041-straining-head-lock-move.webp?v=91d72e6297",
+      "art_source_sha256": "5d7c07d3f82bbe5d8b93580a9b4c0cb917934c7e0b01c2e9091b91ad1e48bac6",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/41-Straining-Head-Lock-Move.jpg",
+      "original_scan_sha256": "153e78c89cc76b3f9f22102cfbf31ea252c7a212b3b93f9b401db863b470052e",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops a physical attack, but you have to discard another card to use this one.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 42,
+      "id": "saiyan-042-straining-rolling-escape-move",
+      "name": "Straining Rolling Escape Move",
+      "style": "Freestyle",
+      "category": "Energy Combat",
+      "rules": [
+        "Stop an energy attack. You cannot perform",
+        "attacks for the rest of Combat."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops an energy attack, but the user cannot make any attacks for the rest of this combat.",
+      "artwork_file": "artwork/saiyan-042.webp",
+      "art_source": "/assets/cards/saiyan-042-straining-rolling-escape-move.webp?v=9e62cbff02",
+      "art_source_sha256": "9cd005b6a4969c9c37a52b4064fc953358670ef6416e3e6d3417c9c65c37671e",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/42-Straining-Rolling-Escape-Move.jpg",
+      "original_scan_sha256": "abc9fc5426fd83a43a42a0fcba2b8e1bfa957260140e5265a80d4482c5e43308",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops an energy attack, but the user cannot make any attacks for the rest of this combat.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 43,
+      "id": "saiyan-043-senzu-bean",
+      "name": "Senzu Bean",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "When you place this card in play, immediately",
+        "raise your Main Personality to its highest stage.",
+        "(Banish after use.)"
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "This card is played and then is taken out of the game. It moves the power stage of the main personality to the highest rating.",
+      "artwork_file": "artwork/saiyan-043.webp",
+      "art_source": "/assets/cards/saiyan-043-senzu-bean.webp?v=430d3fc8fb",
+      "art_source_sha256": "d3ef7364e7102edfa02905381d1f8eb647c8dbaf6a1b37c5bee0cef94a12916a",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/43-Senzu-Bean.jpg",
+      "original_scan_sha256": "c2640c90184bd9461aa72671c85168f226515c3a170eb7b6e98a102de14eec42",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Senzu Bean",
+        "corrected_effect": "When you place this card in play, immediately raise your Main Personality to its highest power stage. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 44,
+      "id": "saiyan-044-goku-body-throw",
+      "name": "Goku Body Throw",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 1 life card."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "Physical attack causing 1 life card in damage, no matter what Goku’s power level is.",
+      "artwork_file": "artwork/saiyan-044.webp",
+      "art_source": "/assets/cards/saiyan-044-goku-body-throw.webp?v=3e9b400765",
+      "art_source_sha256": "703d08f1e613c9abfae00d191b5ca0a9f69d10cc4b9cedd32d73882ce9f69eb7",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/44-Goku-Body-Throw.jpg",
+      "original_scan_sha256": "ce604cad0f59106e3996bcb7f2885be9eedc30aca7d624c214e0ba9b6b193eae",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku Body Throw",
+        "corrected_effect": "Physical attack doing 1 life card of damage.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 45,
+      "id": "saiyan-045-saiyan-city-destruction",
+      "name": "Saiyan City Destruction",
+      "style": "Saiyan",
+      "category": "Setup",
+      "rules": [
+        "Villains only.",
+        "POWER: Skip your next Combat step. Place the top",
+        "2 cards of your discard pile on the bottom",
+        "of your Life Deck. (Banish after use.)"
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "One villain opts to destroy a city instead of combat on his next turn and places the top 2 cards of the discard pile at the bottom of the life deck. Discard from the game after use.",
+      "artwork_file": "artwork/saiyan-045.webp",
+      "art_source": "/assets/cards/saiyan-045-saiyan-city-destruction.webp?v=274a3f913d",
+      "art_source_sha256": "5f8ba9240933df25e455b020828c2d5c5722a80f0e927419b5209243073443df",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/45-Saiyan-City-Destruction.jpg",
+      "original_scan_sha256": "81c77af2cd6e034e547d595e0ae74bf5aa762cdff03f47f4a74a2145b64bedca",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Saiyan City Destruction",
+        "corrected_effect": "Villains only. Skip your next Combat step. Place the top 2 cards from your discard pile on the bottom of your Life Deck. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 46,
+      "id": "saiyan-046-goku-anger-attack",
+      "name": "Goku Anger Attack",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Physical attack.",
+        "DAMAGE: 2 × AT stages."
+      ],
+      "rule_icons": [
+        "attack",
+        "none"
+      ],
+      "original_rules": "This physical attack does double the normal damage if successful.",
+      "artwork_file": "artwork/saiyan-046.webp",
+      "art_source": "/assets/cards/saiyan-046-goku-anger-attack.webp?v=fb819e373b",
+      "art_source_sha256": "d3cd70b36214a31fe735b194c5b267dc83a29f406c677a36b7278821de350af1",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/46-Goku-Anger-Attack.jpg",
+      "original_scan_sha256": "a395c7e3a06d9f3f4cc248eadf1ffbe5305661c7b1b43dc9fd6b22d5f4f006e1",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku Anger Attack",
+        "corrected_effect": "Physical attack. Double the base damage from the Physical Attack Table before adding modifiers from Drills.",
+        "banish_after_use": false,
+        "damage_note": "Double AT only; Drill modifiers apply afterward."
+      }
+    },
+    {
+      "number": 47,
+      "id": "saiyan-047-raditz-total-defense",
+      "name": "Raditz Total Defense",
+      "style": "Freestyle",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack by paying 1 stage."
+      ],
+      "rule_icons": [
+        "block"
+      ],
+      "original_rules": "Stops any physical attack, but costs 1 power stage to perform.",
+      "artwork_file": "artwork/saiyan-047.webp",
+      "art_source": "/assets/cards/saiyan-047-raditz-total-defense.webp?v=d869d11ef3",
+      "art_source_sha256": "f939b11d40cb37bae6271a864827310a0f5e1dbdf83190243242f3c684c4b47a",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/47-Raditz-Total-Defense.jpg",
+      "original_scan_sha256": "dd21001af03e75f1fd4175736335ceb5d33bf5482ab7abf382d7b10a412b22bb",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops any physical attack, but costs 1 power stage to perform.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 48,
+      "id": "saiyan-048-gokus-touch",
+      "name": "Goku’s Touch",
+      "style": "Freestyle",
+      "category": "Setup",
+      "rules": [
+        "Use after you perform a successful physical attack.",
+        "POWER: Capture an opponent’s Dragon Ball.",
+        "(Banish after use.)"
+      ],
+      "rule_icons": [
+        "none",
+        "none",
+        "none"
+      ],
+      "original_rules": "After a successful physical attack, take a foe’s Dragon Ball. Discard this card after use.",
+      "artwork_file": "artwork/saiyan-048.webp",
+      "art_source": "/assets/cards/saiyan-048-gokus-touch.webp?v=04d46a90e8",
+      "art_source_sha256": "8dd2e373dfeeff59a8b19a25650affe176bc5024f4225ef3b21e1298046d206e",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/48-Gokus-Touch-Goku.jpg",
+      "original_scan_sha256": "9d3341af3273da13a57caa694f78c8a09418af2d4b84f6abf5b0b277af6b5dfc",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Goku’s Touch",
+        "corrected_effect": "Use after you perform a successful physical attack to capture an opponent’s Dragon Ball. Remove from the game after use.",
+        "banish_after_use": true
+      }
+    },
+    {
+      "number": 49,
+      "id": "saiyan-049-orange-wrist-flex-takedown",
+      "name": "Orange Wrist Flex Takedown",
+      "style": "Orange",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops the foe’s physical attack played this round. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-049.webp",
+      "art_source": "/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp?v=e9baccd5b0",
+      "art_source_sha256": "ab544da9b9a0119251c5b2c1ed5f3bd626ac8d7299835cbef96d4f0f2c9f660e",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/49-Orange-Wrist-Flex-Takedown.jpg",
+      "original_scan_sha256": "a03d04d9c01bf5b6d6210f79d5d07a09e2fbb281ddf6c1571e39ff3451c7c3bf",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops the foe’s physical attack played this round. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    },
+    {
+      "number": 50,
+      "id": "saiyan-050-orange-shoulder-throw",
+      "name": "Orange Shoulder Throw",
+      "style": "Orange",
+      "category": "Physical Combat",
+      "rules": [
+        "Stop a physical attack.",
+        "Raise your anger 1 level."
+      ],
+      "rule_icons": [
+        "block",
+        "none"
+      ],
+      "original_rules": "Stops an opponent’s physical attack this round. Raise card user’s anger level 1.",
+      "artwork_file": "artwork/saiyan-050.webp",
+      "art_source": "/assets/cards/saiyan-050-orange-shoulder-throw.webp?v=1dbe76e47c",
+      "art_source_sha256": "4871bc205b5a922361a2351b45d096d9a1bc92b9c3a670ac49ae153268bbe009",
+      "art_crop": [
+        158,
+        184,
+        902,
+        741
+      ],
+      "original_scan": "https://retrodbzccg.com/wp-content/uploads/2012/02/50-Orange-Shoulder-Throw.jpg",
+      "original_scan_sha256": "213101729c3fdbc6094ddaccd568d1049be447c8092e07693883af1fd14d37f3",
+      "crd_review": {
+        "source": "Expanded CRD.odt.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stops an opponent’s physical attack this round. Raise card user’s anger level 1.",
+        "banish_after_use": false
+      }
+    }
+  ],
+  "sources": {
+    "original_cards": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
+    "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+    "wording_policy": "references/card-wording.md",
+    "rarity_verification": "Verified original scans: one star for 041–060; three stars for 061–070."
+  }
+}
