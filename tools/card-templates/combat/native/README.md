@@ -1,10 +1,10 @@
 # Unified layout and AT wording — October 18, 2026
 
-Saiyan Saga cards 001–030 use the shared title/category/power/footer geometry, the 0.81 rarity-and-number group, flat-white set mark, and current AT/DAMAGE wording. Original artwork and attack mechanics are retained. Read `references/shared-layout.md` and `references/card-wording.md`.
+Saiyan Saga cards 001–070 use the shared title/category/power/footer geometry, the 0.81 rarity-and-number group, flat-white set mark, and current AT/DAMAGE wording. Original artwork and attack mechanics are retained. Read `references/shared-layout.md` and `references/card-wording.md`.
 
-Reproduce this batch with `python tools/card-templates/combat/native/render-unified.py`. This reads the updated `cards-001-010.json`, uses `shared_layout.py` and `icons_unified.py`, and exports SVG, 2120 × 2968 PNG/lossless WebP and smaller previews. The unified renderer now supports Orange, Red, Blue, Saiyan and Freestyle. Use it for new work; `render.py` is historical. For cards 11–20, pass `--cards tools/card-templates/combat/native/cards-011-020.json`; render the two Dragon Balls separately through their native renderer.
+Reproduce this batch with `python tools/card-templates/combat/native/render-unified.py`. This reads the updated `cards-001-010.json`, uses `shared_layout.py` and `icons_unified.py`, and exports SVG, 2120 × 2968 PNG/lossless WebP and smaller previews. The unified renderer now supports Orange, Red, Blue, Saiyan Freestyle and Black. Use it for new work; `render.py` is historical. For cards 11–20, pass `--cards tools/card-templates/combat/native/cards-011-020.json`; render the two Dragon Balls separately through their native renderer.
 
-The public catalog uses the full-resolution lossless files for these thirty cards, with cache-versioned URLs. Artwork and fonts are retained from the existing native source assets.
+The public catalog uses the full-resolution lossless files for these seventy cards, with cache-versioned URLs. Artwork and fonts are retained from the existing native source assets.
 
 # Current approved master — October 17, 2026
 
@@ -35,4 +35,22 @@ Text and frames are native vector outlines; character art, approved background t
 
 ## Saiyan Saga 021–030
 
-Use `cards-021-030.json` with `render-unified.py`. Source scans, corrected CRD effects and modern wording are retained separately. Setups use the same fixed panels and a neutral native card-stack category emblem. The renderer embeds decoded PNG artwork for Inkscape compatibility while retaining compact lossless WebP source crops. All powers retain size49; at most one effect icon is shown.
+Use `cards-021-030.json` with `render-unified.py`. Source scans, corrected CRD effects and modern wording are retained separately. Setups use the same fixed panels and their style emblem. The renderer embeds decoded PNG artwork for Inkscape compatibility while retaining compact lossless WebP source crops. All powers retain size49; at most one effect icon is shown.
+
+## Saiyan Saga 041–070
+
+Use the three ten-card JSON files with `render-unified.py --cards PATH --output PATH`. The original source URLs and CRD review are retained in `references/saiyan-041-070`. Source scan files remain local. Cards 041–060 have the verified one-star Common rarity; 061–070 have three-star Uncommon rarity.
+
+Black Style uses charcoal category accents (`#292c30`) and a neutral gray native KanjiVG symbol on the shared black badge, remaining darker than Freestyle. Styled Setups retain their style symbol; Freestyle Setups use the same white mastery-derived style symbol as every other Freestyle card. All panel bounds, fonts, icon weights and footer geometry remain unchanged. The new Black glyph retains its KanjiVG attribution and CC BY-SA license in the asset.
+
+CRD corrections apply to Senzu Bean, Goku Body Throw, Saiyan City Destruction, Goku Anger Attack, Goku’s Touch and Black Fore Fist Punch. Goku Anger Attack doubles AT before Drill modifiers. The original Blue Ground Holding scan stops a physical attack, correcting the older repository transcription. Energy attacks without a printed cost explicitly cost 2 stages, according to the CRD Special Addendum; alternative block modes do not acquire that cost.
+
+Exports use buffered, atomic writes and are checked for PNG/WebP decoded-pixel equality. Release manifests record power icons, typography bounds, source hashes and published image hashes.
+
+## Freestyle style symbol — October 18 correction
+
+Use `assets/freestyle-style-symbol.svg` for every Freestyle card that has a style badge, regardless of whether its category is Physical Combat, Energy Combat, Setup, Drill, Event, or Mastery. This native white silhouette follows the user-supplied Freestyle Mastery reference reviewed locally; the uploaded source image is not included in this repository. Do not use crossed swords, shields, card stacks, or category-dependent substitutes in the style badge. The circle retains the approved black diamond texture and shared geometry. Dragon Balls and Personalities retain their own category/PUR emblems.
+
+The separate power icon rules are unchanged. `render-unified.py` selects the Freestyle symbol solely from style, never from category. Cards 017, 022–044, 046–048 are corrected using this one asset; all their artwork, wording, typography and panel geometry are preserved.
+
+The approved final Freestyle symbol is revision 2: scale0.45 about the shared badge center (123,995.5), with a 110.25-unit visible height and 9–9.9-unit main strokes. This is 10% smaller than the initial Freestyle preview and uses lighter strokes. Preserve its silhouette and placement on every Freestyle card.

@@ -53,6 +53,16 @@ def uri(path):
         data=encoded.getvalue()
     return 'data:image/png;base64,'+base64.b64encode(data).decode()
 
+def save_image_atomic(im,path,format,**options):
+    encoded=io.BytesIO()
+    im.save(encoded,format=format,**options)
+    payload=encoded.getvalue()
+    assert payload, ('Empty image export',str(path))
+    temporary=path.with_suffix(path.suffix+'.tmp')
+    with temporary.open('wb') as f:
+        f.write(payload);f.flush();os.fsync(f.fileno())
+    temporary.replace(path)
+
 def glyphrun(text,kind,size,tracking=0,sx=1):
     font=FONTS[kind];gs=font.getGlyphSet();cmap=font.getBestCmap()
     scale=size/font['head'].unitsPerEm;x=0;parts=[];bounds=[]
@@ -159,7 +169,7 @@ def native_frame(style):
     frame=(HERE/'assets/frame.svg').read_text()
     frame=frame[frame.index('<defs>'):frame.rindex('</svg>')]
     frame=frame.replace('fill="#101113"','fill="#17181a"').replace('fill="#17181a" stroke="#090a0b"','fill="none" stroke="#090a0b"')
-    fill,stroke={'Orange':('#9d3e12','#7b300f'),'Red':('#9c070c','#76070b'),'Blue':('#0a426f','#072d4c'),'Saiyan':('#075039','#043526'),'Freestyle':('#454a51','#30343a')}[style]
+    fill,stroke={'Orange':('#9d3e12','#7b300f'),'Red':('#9c070c','#76070b'),'Blue':('#0a426f','#072d4c'),'Saiyan':('#075039','#043526'),'Freestyle':('#454a51','#30343a'),'Black':('#292c30','#1d1f22')}[style]
     pattern=f'<pattern id="style-diamonds" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="{fill}"/><path d="M7 0L14 7L7 14L0 7Z" fill="none" stroke="{stroke}" stroke-width=".65"/></pattern>'
     frame=frame.replace('</defs>',pattern+'</defs>')
     panel=ET.parse(HERE/'assets/footer-center.svg').getroot()
@@ -171,7 +181,7 @@ def background(style):
     if style in ('Orange','Red'):
         return image_element('approved-soft-background',HERE/'assets'/f'{style.lower()}-approved-base.png',0,0,W,H)
     # Exact retained texture under a native SVG color filter, never artwork.
-    rgb={'Blue':(.15,.48,.80),'Saiyan':(.07,.56,.34),'Freestyle':(.56,.59,.62)}[style]
+    rgb={'Blue':(.15,.48,.80),'Saiyan':(.07,.56,.34),'Freestyle':(.56,.59,.62),'Black':(.32,.34,.37)}[style]
     matrix=f'{rgb[0]} 0 0 0 0 {rgb[1]} 0 0 0 0 {rgb[2]} 0 0 0 0 0 0 0 1 0'
     return f'<defs><filter id="style-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="{matrix}"/></filter></defs><g filter="url(#style-color)">'+image_element('approved-soft-background',HERE/'assets/red-approved-base.png',0,0,W,H)+'</g>'
 
@@ -188,25 +198,16 @@ def artwork(card):
     return image_element('retained-artwork',HERE/'artwork'/f'saiyan-{card["number"]:03}.png',0,156,1060,794)
 
 def style_symbol(style,category='Physical Combat'):
-    if category=='Setup':
-        # A neutral native card-stack emblem distinguishes Setups from attacks.
-        # It occupies the shared badge; it is not an effect icon.
-        return ('<g id="setup-category-emblem" fill="#24282d" stroke="#aeb4bc" '
-                'stroke-width="6" stroke-linejoin="round">'
-                '<rect x="83" y="947" width="63" height="82" rx="5"/>'
-                '<rect x="93" y="957" width="63" height="82" rx="5"/>'
-                '<rect x="103" y="967" width="63" height="82" rx="5"/>'
-                '<path d="M116 986H153M116 998H153M116 1010H142" fill="none" stroke-width="4"/>'
-                '</g>')
     if style=='Red':
         return image_element('red-style-symbol',HERE/'assets/red-style-symbol.png',61,928,124,138)
     if style=='Freestyle':
-        symbol,_=icon('attack',79,955,81,'freestyle-physical-icon')
-        for element in symbol.iter():
-            if element.get('fill') and element.get('fill')!='none': element.set('fill','#aeb4bc')
-        symbol.set('fill','#aeb4bc')
-        return ET.tostring(symbol,encoding='unicode')
-    asset,color={'Orange':('orange-kanji-source.svg','#f29216'),'Blue':('blue-kanji-source.svg','#3b9cde'),'Saiyan':('saiyan-kanji-source.svg','#30b477')}[style]
+        # One style mark for all Freestyle cards, independent of card category.
+        # The native silhouette follows the user's Freestyle Mastery reference.
+        root=ET.parse(HERE/'assets/freestyle-style-symbol.svg').getroot()
+        body=''.join(ET.tostring(e,encoding='unicode') for e in root if e.tag.endswith('}g'))
+        return ('<g id="freestyle-style-symbol" data-symbol="freestyle-mastery-white-v2" '
+                'transform="translate(123,995.5) scale(.45) translate(-119,-137.5)">'+body+'</g>')
+    asset,color={'Orange':('orange-kanji-source.svg','#f29216'),'Blue':('blue-kanji-source.svg','#3b9cde'),'Saiyan':('saiyan-kanji-source.svg','#30b477'),'Black':('black-kanji-source.svg','#777d85')}[style]
     root=ET.parse(HERE/'assets'/asset).getroot()
     paths=[p.get('d') for p in root.findall('.//{http://www.w3.org/2000/svg}path')]
     scale=1.17;stroke_width=SYMBOL_STANDARD['nominal_stroke_width']/scale
@@ -215,13 +216,11 @@ def style_symbol(style,category='Physical Combat'):
 report=[]
 for card in DATA['cards']:
     n=card['number'];style=card['style'];slug=card.get('id') or f'saiyan-{n:03}-'+card['name'].lower().replace(' ','-')
-    if style not in ('Orange','Red','Blue','Saiyan','Freestyle'):
+    if style not in ('Orange','Red','Blue','Saiyan','Freestyle','Black'):
         raise ValueError('Supply an approved template variant for style '+style)
     category=card.get('category',DATA.get('category','Physical Combat'))
     if category not in ('Physical Combat','Energy Combat','Setup'):
         raise ValueError('Supply a matching native category template for '+category)
-    if category=='Setup' and style!='Freestyle':
-        raise ValueError('The shared Setup adaptation currently supports Freestyle only')
     set_name=card.get('set',DATA.get('set'))
     emblem=card.get('set_emblem',DATA.get('set_emblem'))
     if not emblem:
@@ -275,8 +274,10 @@ for card in DATA['cards']:
     temp=png.with_suffix('.png.tmp')
     with temp.open('wb') as f: f.write(encoded.getvalue());f.flush();os.fsync(f.fileno())
     temp.replace(png)
-    high.save(OUT/(slug+'.webp'),'WEBP',lossless=True,method=4)
-    display=high.resize((W,H),Image.Resampling.LANCZOS);display.save(OUT/(slug+'-preview.png'));display.save(OUT/(slug+'-preview.webp'),'WEBP',quality=92,method=6)
+    save_image_atomic(high,OUT/(slug+'.webp'),'WEBP',lossless=True,method=4)
+    display=high.resize((W,H),Image.Resampling.LANCZOS)
+    save_image_atomic(display,OUT/(slug+'-preview.png'),'PNG')
+    save_image_atomic(display,OUT/(slug+'-preview.webp'),'WEBP',quality=92,method=6)
     assert all(m['bounds'][0]>=50 and m['bounds'][2]<=1010 and m['bounds'][1]>=1070 and m['bounds'][3]<=1320 for m in metrics if m['id'].startswith('card-power'))
     assert abs((left+(left+ballw+gap+numberw))/2-907)<1e-8
     assert Image.open(OUT/(slug+'.webp')).convert('RGB').tobytes()==high.tobytes()
@@ -293,6 +294,6 @@ contact=Image.new('RGB',(530*min(5,len(report)),742*math.ceil(len(report)/5)),'#
 for i,entry in enumerate(report):
     im=Image.open(OUT/(entry['id']+'-preview.png')).resize((530,742),Image.Resampling.LANCZOS)
     contact.paste(im,((i%5)*530,(i//5)*742))
-contact.save(OUT/'Cards-Preview.jpg',quality=96,subsampling=0)
+save_image_atomic(contact,OUT/'Cards-Preview.jpg','JPEG',quality=96,subsampling=0)
 print(f'Verified {len(report)} cards, shared vector geometry, and lossless WebP exports.')
 

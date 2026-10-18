@@ -1,0 +1,1728 @@
+{
+  "scope": "freestyle-017-030",
+  "date": "2026-10-18",
+  "change": "Freestyle badge only; shared white mastery-derived native symbol",
+  "cards": [
+    {
+      "number": 17,
+      "id": "saiyan-017-hidden-power-level",
+      "name": "Hidden Power Level",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: AT stages. Raise your Main Personality to its highest stage.",
+      "original_rules": "Physical attack. Before physical damage is assessed, change the power stage to the personality’s maximum. They’ve been hiding their true level for just this attack.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "82736fe7c7d4679ccd49cd3a8ddf7b622039c5481d97822ccc2212783c46d5c8",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "HIDDEN POWER LEVEL",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            162.8095703125,
+            56.96875,
+            897.1904296875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1094.651,
+            403.12846288303246,
+            1129.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            415.12846288303246,
+            1093.23,
+            697.3684628830324,
+            1138.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            355.97650000000004,
+            1153.308,
+            704.0235,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your Main Personality to its",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            236.29400000000004,
+            1211.23,
+            823.706,
+            1256.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "highest stage.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            405.73600000000005,
+            1270.23,
+            654.264,
+            1316.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "17",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            911.4987827148436,
+            1384.590625,
+            956.7550172851562,
+            1410.409375
+          ]
+        }
+      ],
+      "png_sha256": "41dd8c3325ea5bc57bbfad6792421174f060946a70f554ff18156d6bb461367f",
+      "webp_sha256": "27d8e5262bc6c0f21a42d34a99e9103929ce49987e87f787f248db8f76a87c50",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "92d83d28fa6df91330b7e65b2a2a42baa45a2fcb4a848bf3a5d89c375c3b79ce",
+      "preview_sha256": "36b1251eaf32f3df75c8a26b6d134fddc819c49fdc45f8cdeea940ede8bb1781",
+      "catalog_image": "/assets/cards/downloads/saiyan-017-hidden-power-level.webp?v=27d8e5262bc6"
+    },
+    {
+      "number": 22,
+      "id": "saiyan-022-power-up",
+      "name": "Power Up!",
+      "style": "Freestyle",
+      "rules": "POWER: One of your personalities gains 5 stages, up to its highest stage. Place the top card of your discard pile on the bottom of your Life Deck.",
+      "original_rules": "Powers up 5 stages for a personality, going no higher than their maximum stage. Take the top discarded card and place them at the bottom of life deck.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "33c033d4d7b21287c3bfb45f115b842669a83497425f7f1b5f4e09ed2fe1e266",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "POWER UP!",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            347.681640625,
+            56.96875,
+            712.318359375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "POWER: One of your personalities gains",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            182.3695,
+            1093.23,
+            877.6305,
+            1139.143
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "5 stages, up to its highest stage.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            242.93349999999992,
+            1152.23,
+            817.0665000000001,
+            1198.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Place the top card of your discard pile",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            193.4435,
+            1211.23,
+            866.5565,
+            1256.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "on the bottom of your Life Deck.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            246.80449999999996,
+            1270.23,
+            813.1955,
+            1315.751
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "22",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.6783203125,
+          "bounds": [
+            910.3515628662108,
+            1384.3216796875,
+            957.902237133789,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "42759a9145b5d28526a7facce3fb3c6f6c448ca684e209c24461b976b690accf",
+      "webp_sha256": "1da9158cc771513acd3ea040f5ddd1ece84b2d747cc601ad39f635dc9e33a967",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 0,
+      "lossless_equal": true,
+      "svg_sha256": "1ab486a31f6de723dc4a104c5c5b0a100a0f273b294bd90d447b95e865c343a3",
+      "preview_sha256": "c49ffc0e66d664f82fdf12d0e4c64e36e2bd2cbfb7a061d663f088ef38155693",
+      "catalog_image": "/assets/cards/downloads/saiyan-022-power-up.webp?v=1da9158cc771"
+    },
+    {
+      "number": 23,
+      "id": "saiyan-023-burning-rage",
+      "name": "Burning Rage!",
+      "style": "Freestyle",
+      "rules": "POWER: Raise your anger 2 levels. Place the bottom 2 cards of your discard pile on the bottom of your Life Deck. Banish after use.",
+      "original_rules": "Increase your anger level by 2. Take the bottom 2 cards from your discard pile and place them at the bottom of your life deck. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "cbe695e4d603b5bec1123153ce8aa4e187b22dd79e14cdef0b0828aa42a2a884",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "BURNING RAGE!",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            273.072265625,
+            56.96875,
+            786.927734375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "POWER: Raise your anger 2 levels.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1129,
+          "bounds": [
+            229.89949999999996,
+            1093.23,
+            830.1005,
+            1139.143
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Place the bottom 2 cards of your discard pile",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1188,
+          "bounds": [
+            133.29600000000008,
+            1152.23,
+            926.704,
+            1197.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "on the bottom of your Life Deck.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1247,
+          "bounds": [
+            246.80449999999996,
+            1211.23,
+            813.1955,
+            1256.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "Banish after use.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1306,
+          "bounds": [
+            381.089,
+            1270.23,
+            678.9110000000001,
+            1306.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "23",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "56663924b6e7d5f363b1bb8cf7ad889caebcaa8b4a72b30ed796b13d6fb73370",
+      "webp_sha256": "d9293da98fb6516ac29c1b9151216bcdb84692c7d630af13064e083e0095db4c",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 0,
+      "lossless_equal": true,
+      "svg_sha256": "2c21f3d3cd8a72f5b76eee43b546919b7de87355615649448d30aeef4f485daf",
+      "preview_sha256": "cf79f76dfa2266a841d35afe0c79a891c6a832aba07d9b79bdca5f62323430c5",
+      "catalog_image": "/assets/cards/downloads/saiyan-023-burning-rage.webp?v=d9293da98fb6"
+    },
+    {
+      "number": 24,
+      "id": "saiyan-024-gokus-surprise-attack",
+      "name": "Goku’s Surprise Attack",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: 5 stages.",
+      "original_rules": "Physical attack striking out for 5 stages of physical damage on a selected foe.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "c29a6b947bd2656c0087de972313c2ea94e3d781325a24d468df01a3620d6e17",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "GOKU’S SURPRISE ATTACK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            84.3447265625,
+            56.96875,
+            975.6552734375,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1147.651,
+            403.12846288303246,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            415.12846288303246,
+            1146.23,
+            697.3684628830324,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: 5 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            368.49600000000004,
+            1206.308,
+            691.5039999999999,
+            1251.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "24",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.6783203125,
+          "bounds": [
+            909.7550085449218,
+            1384.3216796875,
+            958.498791455078,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "29f0fcd0056a27d7a21d3eb1c9a842b0edc96661da3945a4b5a091944c698404",
+      "webp_sha256": "e6536a57b45207efc378f6674bb83ca328c9f0ab43465c9cb04ab247d8d75a0c",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "6d3d1c1ee1eac8aa9dbce50d919d2704f08838223a802a49cd2620ff21dce4df",
+      "preview_sha256": "81860de76b7a36d8fbfced323ffbbd041335e1fe2ef00e44fdf78a98bd0cb401",
+      "catalog_image": "/assets/cards/downloads/saiyan-024-gokus-surprise-attack.webp?v=e6536a57b452"
+    },
+    {
+      "number": 25,
+      "id": "saiyan-025-gokus-physical-attack",
+      "name": "Goku’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "(Limit 2 per deck.) Physical attack. DAMAGE: AT stages. HIT: Draw the bottom card of your discard pile. If used by Goku, keep in play to use once more this Combat. Banish after use.",
+      "original_rules": "Physical attack, plus draw the bottom card from the discard pile into your hand. If used by Goku, it stays on the table to be used one more time in this combat.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "eb222016077a720ed58991bd58ff64882f0a741881a0a08367515fb0be0004fa",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "GOKU’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            83.14501953125,
+            56.96875,
+            976.85498046875,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "(Limit 2 per deck.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            366.26649999999995,
+            1074.809,
+            693.7335,
+            1121.114
+          ]
+        },
+        {
+          "id": "rule-attack-icon-2",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            181.84603711696752,
+            1126.651,
+            222.34296288303238,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Physical attack. DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            234.34296288303247,
+            1125.23,
+            878.1539628830326,
+            1171.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "HIT: Draw the bottom card of your discard pile.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            116.41550000000012,
+            1174.23,
+            943.5844999999999,
+            1219.751
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "If used by Goku, keep in play to use once more",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            120.70300000000003,
+            1223.23,
+            939.297,
+            1268.751
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "this Combat. Banish after use.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            263.832,
+            1272.23,
+            796.1680000000001,
+            1308.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "25",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4105627441405,
+            1384.052734375,
+            957.8432372558593,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "793a59a565d31a743984894be91fcee4f9d123542f2020a0a7bc3043b857bfcf",
+      "webp_sha256": "b1b2d7a238fba968b89db8e57241ba53531441865afa6548aa26830cb157eead",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "4282e406a31f444b4bac1662352b2a33cc13d1c60bb10691ae2fa80dbd43d8a8",
+      "preview_sha256": "198c24654d4d48d177bd05dd5cb2bf69ff4c522abbe265552bd205b2a6ec1af0",
+      "catalog_image": "/assets/cards/downloads/saiyan-025-gokus-physical-attack.webp?v=b1b2d7a238fb"
+    },
+    {
+      "number": 26,
+      "id": "saiyan-026-gohans-physical-attack",
+      "name": "Gohan’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level. Gain 5 stages.",
+      "original_rules": "Physical attack. Gohan gains 1 anger level. Increases Gohan's power rating by 5 stages.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "ef7f3fe7df85940d4f483126ea8af2a8c869d47ad26459751da5694430481c1e",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "GOHAN’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 47.0,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 94.125,
+          "bounds": [
+            80.90589843750004,
+            58.140625,
+            979.0941015625,
+            94.859375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: AT stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            355.97650000000004,
+            1180.308,
+            704.0235,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Raise your anger 1 level. Gain 5 stages.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            188.22500000000008,
+            1238.23,
+            871.775,
+            1284.143
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "26",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.286007446289,
+            1384.052734375,
+            957.9677925537109,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "0051139fee9ecafb536312ca09880bd1f4fb893fe339537acdbf7e0cd4bcf3bb",
+      "webp_sha256": "e27c26d30d6a958f24e7b22379c93c29e8944cc59ce6f1b2240fe2764de4ea55",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "f1f72fc642e2d4c63e70cd79ea3ca80c46ee4adb3afc0dcfa9d6b2c38dbb5b41",
+      "preview_sha256": "856c4c65a257ea83b49eee50f5f4dca8efe86b2eb574a5398590d585bc120a41",
+      "catalog_image": "/assets/cards/downloads/saiyan-026-gohans-physical-attack.webp?v=e27c26d30d6a"
+    },
+    {
+      "number": 27,
+      "id": "saiyan-027-tiens-physical-attack",
+      "name": "Tien’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: 5 life cards.",
+      "original_rules": "Physical attack doing 5 life card draws if successful.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "84cf68a569db5d69eb0366331cafc5683c1e140a17e713886536c486176859f3",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "TIEN’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 95.25,
+          "bounds": [
+            101.796875,
+            56.96875,
+            958.203125,
+            96.03125
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1147.651,
+            403.12846288303246,
+            1182.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1182,
+          "bounds": [
+            415.12846288303246,
+            1146.23,
+            697.3684628830324,
+            1191.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: 5 life cards.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1241,
+          "bounds": [
+            344.3635,
+            1205.23,
+            715.6365,
+            1241.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "27",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.6783203125,
+          "bounds": [
+            910.1745632324217,
+            1384.3216796875,
+            958.0792367675781,
+            1410.6783203125
+          ]
+        }
+      ],
+      "png_sha256": "e1d39bc831ff713f26f7c20242c2e145d65e2a7e33e5b27e7eb8f1e08a67cd71",
+      "webp_sha256": "2289c764faaebb294960d5029914d5a14c21cd1d0a3b0a70c17a69c56ec6c4c4",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "5651b543cf6244d7f3722439b6724d6aebae387b0f763de4dd2b6de49d3e598f",
+      "preview_sha256": "773d6bc1475b106e809aaa06df90b8d4a466ad0a1d1aa09547a13a414da95c43",
+      "catalog_image": "/assets/cards/downloads/saiyan-027-tiens-physical-attack.webp?v=2289c764faae"
+    },
+    {
+      "number": 28,
+      "id": "saiyan-028-vegetas-physical-stance",
+      "name": "Vegeta’s Physical Stance",
+      "style": "Freestyle",
+      "rules": "(Limit 1 per deck.) Stop a physical attack. Stop all physical attacks against you for the remainder of Combat. Banish after use.",
+      "original_rules": "No physical attacks will work against Vegeta this combat. Remove from game after use.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "ddc2f4108c312640c155bea909d2b9e70638a6d74508f571038d54280b7baf30",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "VEGETA’S PHYSICAL STANCE",
+          "font": "title",
+          "size": 45.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 93.5625,
+          "bounds": [
+            81.52361816406251,
+            58.7265625,
+            978.4763818359374,
+            94.2734375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "(Limit 1 per deck.)",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1112,
+          "bounds": [
+            370.0395,
+            1074.809,
+            689.9605,
+            1121.114
+          ]
+        },
+        {
+          "id": "rule-block-icon-2",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            303.6538342105263,
+            1126.651,
+            341.0761657894737,
+            1161.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "Stop a physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1161,
+          "bounds": [
+            353.07616578947363,
+            1125.23,
+            756.3461657894736,
+            1170.751
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Stop all physical attacks against you for",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1210,
+          "bounds": [
+            173.78470000000007,
+            1174.23,
+            886.2153,
+            1220.143
+          ]
+        },
+        {
+          "id": "card-power-line-4",
+          "text": "the remainder of Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1259,
+          "bounds": [
+            304.42850000000004,
+            1223.23,
+            755.5715,
+            1259.392
+          ]
+        },
+        {
+          "id": "card-power-line-5",
+          "text": "Banish after use.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1308,
+          "bounds": [
+            381.089,
+            1272.23,
+            678.9110000000001,
+            1308.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "28",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "39406a2dd9bd6ab6428dd330756aa67a889854fa5acae85a3441893df49eb6a0",
+      "webp_sha256": "6006bfe0a58a206665252f9226bc5d8c8abf2acac1cf172ba7b27fb1dcfaf79f",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "942a29e33a21db36a2584e1f6c2fa33102bfc1fa9cc561350bf13a580083487a",
+      "preview_sha256": "39c1750696e2407f84754e5310a274d205c189914e99e1df1f225227cc56de5c",
+      "catalog_image": "/assets/cards/downloads/saiyan-028-vegetas-physical-stance.webp?v=6006bfe0a58a"
+    },
+    {
+      "number": 29,
+      "id": "saiyan-029-yajirobes-physical-attack",
+      "name": "Yajirobe’s Physical Attack",
+      "style": "Freestyle",
+      "rules": "Physical attack. DAMAGE: 2 life cards. Banish after use.",
+      "original_rules": "Physical attack doing 2 draws from the life deck if not stopped. Remove from game after use.",
+      "set": "Saiyan Saga",
+      "category": "Physical Combat",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "c3bef93511129274806df743478a776c4b507b0dd8587ecde9a9e37707d310da",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "YAJIROBE’S PHYSICAL ATTACK",
+          "font": "title",
+          "size": 42.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 92.4375,
+          "bounds": [
+            80.78056640625006,
+            59.8984375,
+            979.21943359375,
+            93.1015625
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "PHYSICAL COMBAT",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            285.24609375,
+            981.46875,
+            928.75390625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-attack-icon-1",
+          "kind": "attack",
+          "height": 34.349000000000004,
+          "bounds": [
+            362.6315371169676,
+            1121.651,
+            403.12846288303246,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Physical attack.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            415.12846288303246,
+            1120.23,
+            697.3684628830324,
+            1165.751
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "DAMAGE: 2 life cards.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            344.388,
+            1179.23,
+            715.612,
+            1215.392
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Banish after use.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            381.089,
+            1238.23,
+            678.9110000000001,
+            1274.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "29",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.4367849121093,
+            1384.052734375,
+            957.8170150878906,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "38bda5b7387cc508e14c2757b2a079a8e925b3c95613daf95d7ff55511360670",
+      "webp_sha256": "648e3603dd6c5661711be670c0aa28fa34699282b5d389f7fdf44e5a7da5bd52",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "558e05bf28d94839d4f1e6ae8ab120aca72114626627804692c9f0ae5161cb6e",
+      "preview_sha256": "8efe45f1969139bf2d1fb8e6613e0548493ce2b9ce588c20f95afc9484f2775b",
+      "catalog_image": "/assets/cards/downloads/saiyan-029-yajirobes-physical-attack.webp?v=648e3603dd6c"
+    },
+    {
+      "number": 30,
+      "id": "saiyan-030-fall-7-times-get-up-8-times",
+      "name": "Fall 7 Times, Get Up 8 Times.",
+      "style": "Freestyle",
+      "rules": "Defense Shield: Stop the first unstopped physical attack against you this Combat. Banish after use.",
+      "original_rules": "The first successful physical attack on you is stopped. Discard this card from the game after use.",
+      "set": "Saiyan Saga",
+      "category": "Setup",
+      "rarity": "Common",
+      "stars": 1,
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "artwork_sha256": "7b871ecdf5c675139e23be9405ef90f2417d5f9bcc63d2261e03724929b05b29",
+      "frame_sha256": "718b887f1fff2e4cfdc8608b590696ac40550a535fb2a49d820f736a97d5faab",
+      "typography": [
+        {
+          "id": "card-title",
+          "text": "FALL 7 TIMES, GET UP 8 TIMES.",
+          "font": "title",
+          "size": 43.5,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 90.43359375,
+          "bounds": [
+            84.19242187500012,
+            57.12890625,
+            975.807578125,
+            95.87109375
+          ]
+        },
+        {
+          "id": "card-category",
+          "text": "SETUP",
+          "font": "title",
+          "size": 50,
+          "tracking": 4.0,
+          "width_factor": 0.84,
+          "baseline": 1019.75,
+          "bounds": [
+            498.99365234375,
+            981.46875,
+            715.00634765625,
+            1020.53125
+          ]
+        },
+        {
+          "id": "rule-block-icon-1",
+          "kind": "block",
+          "height": 34.349000000000004,
+          "bounds": [
+            150.2103342105263,
+            1121.651,
+            187.63266578947366,
+            1156.0
+          ],
+          "text_gap": 12.0
+        },
+        {
+          "id": "card-power-line-1",
+          "text": "Defense Shield: Stop the first unstopped",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1156,
+          "bounds": [
+            199.63266578947366,
+            1120.23,
+            909.7896657894737,
+            1165.114
+          ]
+        },
+        {
+          "id": "card-power-line-2",
+          "text": "physical attack against you this Combat.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1215,
+          "bounds": [
+            170.07049999999995,
+            1179.23,
+            889.9295,
+            1225.143
+          ]
+        },
+        {
+          "id": "card-power-line-3",
+          "text": "Banish after use.",
+          "font": "power",
+          "size": 49,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1274,
+          "bounds": [
+            381.089,
+            1238.23,
+            678.9110000000001,
+            1274.392
+          ]
+        },
+        {
+          "id": "footer-brand",
+          "text": "DRAGON BALL Z",
+          "font": "brand",
+          "size": 30,
+          "tracking": 6,
+          "width_factor": 1,
+          "baseline": 1409.645,
+          "bounds": [
+            401.21,
+            1390.355,
+            658.79,
+            1409.645
+          ]
+        },
+        {
+          "id": "footer-disclaimer",
+          "text": "Not endorsed by Toei Animation or Funimation",
+          "font": "footer",
+          "size": 25,
+          "tracking": 0,
+          "width_factor": 1,
+          "baseline": 1445.375,
+          "bounds": [
+            334.8,
+            1427.625,
+            725.2,
+            1450.375
+          ]
+        },
+        {
+          "id": "card-number",
+          "text": "30",
+          "font": "title",
+          "size": 34.425000000000004,
+          "tracking": 0.20655,
+          "width_factor": 0.78,
+          "baseline": 1410.409375,
+          "bounds": [
+            910.1876743164062,
+            1384.052734375,
+            958.0661256835936,
+            1410.947265625
+          ]
+        }
+      ],
+      "png_sha256": "589dde126f364539f37952b7319154b5ca3b4fc4c7f6e86e2a6f58c251e2ba55",
+      "webp_sha256": "75a803a1aebcaeab52487ac9c379d5d7858c0249f787da9fd9481c813e0e0641",
+      "symbol": "freestyle-mastery-white-v2",
+      "badge_only_change": true,
+      "changed_pixel_bounds": [
+        145,
+        1868,
+        347,
+        2114
+      ],
+      "power_icon_count": 1,
+      "lossless_equal": true,
+      "svg_sha256": "f888a4fab58e915c0a7c4d1a1bedc7cf6e16e6553e7cfa4b79c3199e63719ea7",
+      "preview_sha256": "b455b77bbd08f5c889a9eb4e016aa0bca65e23a105cdf1779714cd8e5fb8f58c",
+      "catalog_image": "/assets/cards/downloads/saiyan-030-fall-7-times-get-up-8-times.webp?v=75a803a1aebc"
+    }
+  ]
+}
