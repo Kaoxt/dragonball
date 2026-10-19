@@ -1,0 +1,459 @@
+{
+  "scope": "Saiyan Saga 001-010",
+  "approved_source": "Saiyan-Saga-001-010-AT-Update.zip",
+  "template": "Approved centered power text, corrected Saiyan Saga emblem, and current Freestyle symbol",
+  "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "non_target_catalog_entries_unchanged": true,
+  "cards": [
+    {
+      "id": "saiyan-001-orange-standing-fist-punch",
+      "number": 1,
+      "download_sha256": "f85ef39dc82698fe29ace8ff32819618cb5a639fa4dde3a839e64b05a4e02ea2",
+      "image": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=f85ef39dc826",
+      "checks": {
+        "number": 1,
+        "file": "saiyan-001-orange-standing-fist-punch.svg",
+        "title": "ORANGE STANDING FIST PUNCH",
+        "title_center": [
+          530.0002000000001,
+          76.5
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "96bdadf2f15b0a642455e993074b7dd0003afd222101b1e2d6ed08bffd3c97f0",
+          "retained-artwork": "5f5ac7f1b19f2f7468ada24b44eaef5784c6468d1d94da4cf76859360d1c4896"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-002-orange-one-knuckle-punch",
+      "number": 2,
+      "download_sha256": "f572dc697aedfafe0459474ec338207e0a35ce9ddf342b8c23907b4154e58388",
+      "image": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=f572dc697aed",
+      "checks": {
+        "number": 2,
+        "file": "saiyan-002-orange-one-knuckle-punch.svg",
+        "title": "ORANGE ONE KNUCKLE PUNCH",
+        "title_center": [
+          529.9999,
+          76.5
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "96bdadf2f15b0a642455e993074b7dd0003afd222101b1e2d6ed08bffd3c97f0",
+          "retained-artwork": "5b763bcf9b65f74c025e3d6360060d18f690bcd5df5d6f2d3dbf4139599bc39f"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-003-orange-two-knuckle-punch",
+      "number": 3,
+      "download_sha256": "f258c181df3bc65fb138d361527e46c27721d9f511c7ce226ccd90db64a5a962",
+      "image": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=f258c181df3b",
+      "checks": {
+        "number": 3,
+        "file": "saiyan-003-orange-two-knuckle-punch.svg",
+        "title": "ORANGE TWO KNUCKLE PUNCH",
+        "title_center": [
+          530.0,
+          76.49995
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "96bdadf2f15b0a642455e993074b7dd0003afd222101b1e2d6ed08bffd3c97f0",
+          "retained-artwork": "a48277c649287ad63368273d1c4b982ceadc2de9a0b817e723efb150285db67e"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-004-orange-leg-sweep",
+      "number": 4,
+      "download_sha256": "8b9df0cfa7b7115256fcef9a11c09cc7ecbe4d795464072811001599ac1c58e8",
+      "image": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=8b9df0cfa7b7",
+      "checks": {
+        "number": 4,
+        "file": "saiyan-004-orange-leg-sweep.svg",
+        "title": "ORANGE LEG SWEEP",
+        "title_center": [
+          530.0,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "96bdadf2f15b0a642455e993074b7dd0003afd222101b1e2d6ed08bffd3c97f0",
+          "retained-artwork": "368c43438033d95a2c08de3cc0c1cfee731515406138003e26390bb0242d1af4"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-005-orange-arm-bar",
+      "number": 5,
+      "download_sha256": "c14e0521feeebf90148df7a27b313440e99cf97a368885ab2797889b37a0fb23",
+      "image": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=c14e0521feee",
+      "checks": {
+        "number": 5,
+        "file": "saiyan-005-orange-arm-bar.svg",
+        "title": "ORANGE ARM BAR",
+        "title_center": [
+          530.0,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "96bdadf2f15b0a642455e993074b7dd0003afd222101b1e2d6ed08bffd3c97f0",
+          "retained-artwork": "33d79e29b2f368e670456dfd81873a607386460fc94195d5b24dcf0fbaaaf7dc"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-006-red-lunge-punch",
+      "number": 6,
+      "download_sha256": "995d5993c68a049bfc12ec04be84768f3a82f11b6dc63d7805930820d8048b1f",
+      "image": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=995d5993c68a",
+      "checks": {
+        "number": 6,
+        "file": "saiyan-006-red-lunge-punch.svg",
+        "title": "RED LUNGE PUNCH",
+        "title_center": [
+          530.0005,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "fba0d9e3d491b7275539d8907109d09ecbfae44ba897e1375ba2040490a8a056",
+          "retained-artwork": "b49e7b93d466b38666c26cfa1f5187998d6407918a56befd2f456c594c46d356"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-007-red-reverse-punch",
+      "number": 7,
+      "download_sha256": "6810e92aa673a3e8de71bb775853d29da6b4a359e5b662ffbc43bbb970876b64",
+      "image": "/assets/cards/downloads/saiyan-007-red-reverse-punch.webp?v=6810e92aa673",
+      "checks": {
+        "number": 7,
+        "file": "saiyan-007-red-reverse-punch.svg",
+        "title": "RED REVERSE PUNCH",
+        "title_center": [
+          530.0,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "fba0d9e3d491b7275539d8907109d09ecbfae44ba897e1375ba2040490a8a056",
+          "retained-artwork": "59a12ae3ed9ab9af47df6b41791ebebf6e98e3cb9d0dc6f38f9ed18d99897674"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-008-red-knife-hand",
+      "number": 8,
+      "download_sha256": "def2f405b7a5042b79a7497d72cfbba170e4d774878d8e4411475d6018f28d6e",
+      "image": "/assets/cards/downloads/saiyan-008-red-knife-hand.webp?v=def2f405b7a5",
+      "checks": {
+        "number": 8,
+        "file": "saiyan-008-red-knife-hand.svg",
+        "title": "RED KNIFE HAND",
+        "title_center": [
+          530.0005,
+          76.5
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "fba0d9e3d491b7275539d8907109d09ecbfae44ba897e1375ba2040490a8a056",
+          "retained-artwork": "bd6ef982c0eed205c57d4e2c6bffe74bdf61c7eb7f21da4f852014b9f8207c28"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-009-red-palm-heel-strike",
+      "number": 9,
+      "download_sha256": "e510fa01bbc064405eea080102aaf3124fffab3fc645572545160ef5ab9df65b",
+      "image": "/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp?v=e510fa01bbc0",
+      "checks": {
+        "number": 9,
+        "file": "saiyan-009-red-palm-heel-strike.svg",
+        "title": "RED PALM HEEL STRIKE",
+        "title_center": [
+          530.0005,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "fba0d9e3d491b7275539d8907109d09ecbfae44ba897e1375ba2040490a8a056",
+          "retained-artwork": "085714e627955da8a379e9d044b716ef5801a995dcfd0581c0e1b7fbeee23f4f"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    },
+    {
+      "id": "saiyan-010-red-elbow-strike",
+      "number": 10,
+      "download_sha256": "ad5748817f5efc21697e2e11112be07332e6677ed1b4f5220cc7eac8846885cc",
+      "image": "/assets/cards/downloads/saiyan-010-red-elbow-strike.webp?v=ad5748817f5e",
+      "checks": {
+        "number": 10,
+        "file": "saiyan-010-red-elbow-strike.svg",
+        "title": "RED ELBOW STRIKE",
+        "title_center": [
+          529.9995,
+          76.50005
+        ],
+        "category_center": [
+          607.0,
+          1001.00025
+        ],
+        "power_bounds": [
+          317.56,
+          1115.04,
+          424.879,
+          163.913
+        ],
+        "power_center": [
+          529.9995,
+          1196.9965
+        ],
+        "power_translation_y": -5.1865,
+        "set_emblem_center_y": 1397.5,
+        "footer_scale": 0.81,
+        "power_icon_count": 1,
+        "artwork_unchanged": true,
+        "power_wording_unchanged": true,
+        "artwork_sha256": {
+          "approved-soft-background": "fba0d9e3d491b7275539d8907109d09ecbfae44ba897e1375ba2040490a8a056",
+          "retained-artwork": "3eba79fe8481e3a7713dc0dd419f2b9a2df74910bafda50894216d0f626ae20f"
+        },
+        "png_webp_pixel_identical": true,
+        "export_dimensions": [
+          2120,
+          2968
+        ],
+        "freestyle_symbol": null
+      }
+    }
+  ]
+}
