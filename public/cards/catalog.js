@@ -987,10 +987,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=6fb7cb36a5",
+    "image": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=16154b8cd06f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=16154b8cd06f"
   },
   {
     "id": "saiyan-072-black-axe-heel-kick",
@@ -1000,10 +1001,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=e2a439a359",
+    "image": "/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp?v=29f443763503",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp?v=29f443763503"
   },
   {
     "id": "saiyan-073-black-rear-spin-kick",
@@ -1013,10 +1015,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=0e79691e0e",
+    "image": "/assets/cards/downloads/saiyan-073-black-rear-spin-kick.webp?v=066ed3975f71",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-073-black-rear-spin-kick.webp?v=066ed3975f71"
   },
   {
     "id": "saiyan-074-black-jump-turn-kick",
@@ -1026,10 +1029,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=b7145152b4",
+    "image": "/assets/cards/downloads/saiyan-074-black-jump-turn-kick.webp?v=53a2f1569bf5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-074-black-jump-turn-kick.webp?v=53a2f1569bf5"
   },
   {
     "id": "saiyan-075-earth-dragon-ball-3",
@@ -1039,10 +1043,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=d95ba2fb45",
+    "image": "/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp?v=1e499c14e649",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp?v=1e499c14e649"
   },
   {
     "id": "saiyan-076-earth-dragon-ball-4",
@@ -1052,10 +1057,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=839b555f6a",
+    "image": "/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp?v=416defef4b94",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp?v=416defef4b94"
   },
   {
     "id": "saiyan-077-earth-dragon-ball-5",
@@ -1065,49 +1071,53 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=d53b3da8fd",
+    "image": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=ffe71a2d751e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=ffe71a2d751e"
   },
   {
     "id": "saiyan-078-roshis-training",
-    "name": "Roshi's Training",
+    "name": "Roshi Training",
     "number": "78",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-078-roshis-training.webp?v=72237b255b",
+    "image": "/assets/cards/downloads/saiyan-078-roshis-training.webp?v=f12c8b319200",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-078-roshis-training.webp?v=f12c8b319200"
   },
   {
     "id": "saiyan-079-king-kai-training",
     "name": "King Kai Training",
     "number": "79",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-079-king-kai-training.webp?v=a8e99d0927",
+    "image": "/assets/cards/downloads/saiyan-079-king-kai-training.webp?v=0858f79ee88c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-079-king-kai-training.webp?v=0858f79ee88c"
   },
   {
     "id": "saiyan-080-saiyan-training",
     "name": "Saiyan Training",
     "number": "80",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-080-saiyan-training.webp?v=a95ecee25e",
+    "image": "/assets/cards/downloads/saiyan-080-saiyan-training.webp?v=cfbd065bd44a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-080-saiyan-training.webp?v=cfbd065bd44a"
   },
   {
     "id": "saiyan-081-saiyan-armor",
