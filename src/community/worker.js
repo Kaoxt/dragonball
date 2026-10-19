@@ -5,11 +5,11 @@ import { DurableObject } from 'cloudflare:workers';
 import { database } from './database.js';
 import { authSchema, authRequest } from './auth.js';
 import { forumDb } from './forum.js';
-import { migrateKurtUsername, migrateKaoxtIdentity } from './account-migrations.js';
+import { migrateKurtUsername, migrateKaoxtIdentity, grantKaoxtAdministrator } from './account-migrations.js';
 import { onRequestGet, onRequestPost } from './forum-api.js';
 import { API_SECURITY_HEADERS } from './security.js';
 export class Community extends DurableObject{
- constructor(ctx,env){super(ctx,env);this.db=database(ctx.storage);this.communityEnv={...env,DB:this.db};ctx.blockConcurrencyWhile(async()=>{authSchema(this.db);uploadSchema(this.db);await forumDb(this.communityEnv);if(migrateKurtUsername(this.db)==='conflict')console.warn('Requested account rename could not run: username already in use.');if(migrateKaoxtIdentity(this.db)==='conflict')console.warn('Requested Kaoxt identity restore could not run: username already in use.');});}
+ constructor(ctx,env){super(ctx,env);this.db=database(ctx.storage);this.communityEnv={...env,DB:this.db};ctx.blockConcurrencyWhile(async()=>{authSchema(this.db);uploadSchema(this.db);await forumDb(this.communityEnv);if(migrateKurtUsername(this.db)==='conflict')console.warn('Requested account rename could not run: username already in use.');if(migrateKaoxtIdentity(this.db)==='conflict')console.warn('Requested Kaoxt identity restore could not run: username already in use.');grantKaoxtAdministrator(this.db);});}
  async fetch(request){
   const u=new URL(request.url);
   if(u.pathname.startsWith('/api/admin/uploads')||u.pathname.startsWith('/api/files/'))return uploadRequest(request,this.communityEnv);

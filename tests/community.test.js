@@ -8,7 +8,7 @@ import { forumDb } from '../src/community/forum.js';
 import { onRequestGet,onRequestPost } from '../src/community/forum-api.js';
 import { database } from '../src/community/database.js';
 import { hash } from '../src/community/session.js';
-import { migrateKurtUsername, migrateKaoxtIdentity } from '../src/community/account-migrations.js';
+import { migrateKurtUsername, migrateKaoxtIdentity, grantKaoxtAdministrator } from '../src/community/account-migrations.js';
 import { recordTopicView } from '../src/community/topic-views.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
@@ -335,4 +335,37 @@ test('Kaoxt restore never renames unrelated members or takes an occupied login',
  const f=await fixture();await f.register('kurt');assert.equal(migrateKaoxtIdentity(f.env.DB),'not-applicable');
  const user=(await f.auth('kurt','session')).data.user;f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',user.id).run();
  await f.register('kaoxt');assert.equal(migrateKaoxtIdentity(f.env.DB),'conflict');assert.equal((await f.auth('kurt','session')).data.user.username,'kurt');
+});
+
+
+test('requested Kaoxt admin grant is tied to the established identity and applies only once',async()=>{
+ const f=await fixture();await f.register('kaoxt');await f.register('other');
+ const user=(await f.auth('kaoxt','session')).data.user;
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',user.id).run();
+ assert.equal(grantKaoxtAdministrator(f.env.DB),'not-applicable');
+ assert.equal(migrateKaoxtIdentity(f.env.DB),'renamed');
+ const before=f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(user.id).first();
+ const sessions=f.env.DB.prepare('SELECT * FROM auth_sessions WHERE user_id=?').bind(user.id).all().results;
+ f.env.DB.prepare("INSERT INTO auth_settings(key,value) VALUES('owner_claimed','existing-owner')").run();
+ assert.equal(grantKaoxtAdministrator(f.env.DB),'granted');
+ assert.deepEqual({...f.env.DB.prepare('SELECT * FROM auth_accounts WHERE id=?').bind(user.id).first()},{...before,role:'admin'});
+ assert.deepEqual(f.env.DB.prepare('SELECT * FROM auth_sessions WHERE user_id=?').bind(user.id).all().results,sessions);
+ assert.equal((await f.auth('kaoxt','session')).data.user.isAdmin,true);
+ assert.equal((await f.auth('other','session')).data.user.isAdmin,false);
+ assert.equal((await f.forum('kaoxt',null,{view:'admin'})).status,200);
+ assert.equal(f.env.DB.prepare("SELECT value FROM auth_settings WHERE key='owner_claimed'").first().value,'existing-owner');
+ f.env.DB.prepare("UPDATE auth_accounts SET role='member' WHERE id=?").bind(user.id).run();
+ assert.equal(grantKaoxtAdministrator(f.env.DB),'completed');
+ assert.equal((await f.auth('kaoxt','session')).data.user.isAdmin,false);
+});
+
+test('Kaoxt admin grant rejects a matching username without the established member identity',async()=>{
+ const f=await fixture();await f.register('kaoxt');const user=(await f.auth('kaoxt','session')).data.user;
+ f.env.DB.prepare('INSERT INTO auth_settings(key,value) VALUES(?,?)').bind('2026-10-10-restore-kaoxt-identity',user.id).run();
+ assert.equal(grantKaoxtAdministrator(f.env.DB),'not-applicable');
+ assert.equal((await f.auth('kaoxt','session')).data.user.isAdmin,false);
+ f.env.DB.prepare('UPDATE forum_members SET id=? WHERE user_id=?').bind('7bb24f5c-1f13-4bfc-af60-c153f980e9af',user.id).run();
+ f.env.DB.prepare("UPDATE auth_accounts SET username='different' WHERE id=?").bind(user.id).run();
+ assert.equal(grantKaoxtAdministrator(f.env.DB),'not-applicable');
+ assert.equal(f.env.DB.prepare('SELECT role FROM auth_accounts WHERE id=?').bind(user.id).first().role,'member');
 });
