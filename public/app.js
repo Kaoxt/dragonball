@@ -1,7 +1,7 @@
 import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js';
-import { newGame, addPlayer, act, view } from './game.js';
+import { newGame, addPlayer, act, view, cardImage } from './game.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let room = '', seat = 0, game, practiceGame, socket, selected, openPile, connected = false, reconnectTimer, intentional = false;
@@ -62,20 +62,21 @@ function startDrawTest() {
   toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or drag a card onto the table.');
 }
 function cardHTML(c, owner, zone) {
+  c = {...c, image: cardImage(c)};
   const mine = owner === seat, key = `${owner}:${zone}:${c.uid}`, hidden = c.faceDown && !mine;
   return `<button class="card ${c.rested ? 'rested' : ''} ${selected === key ? 'selected' : ''} ${hidden ? 'back' : ''} ${c.image && !hidden ? 'has-image' : ''}" data-card="${esc(key)}" ${mine ? 'data-movable="true"' : ''} title="${esc(hidden ? 'Face-down card' : c.name)}" aria-label="${esc(hidden ? 'Face-down card' : c.name)}">${hidden ? '' : `${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer">` : ''}<strong>${esc(c.name)}</strong><small>${esc(c.id)}${c.faceDown ? ' · Face down' : ''}${c.rested ? ' · Used' : ''}${zone === 'allies' ? `<br>Stages: ${c.stages}` : ''}</small>${c.image&&(c.faceDown||c.rested)?`<span class="card-state">${c.faceDown?'Face down':''}${c.rested?' · Used':''}</span>`:''}`}</button>`;
 }
 function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
   if (!hidden && ['discard', 'removed', 'senseiDeck', 'location'].includes(zone)) {
-    const top = data.at(-1), concealed = top?.faceDown && owner !== seat;
+    const last = data.at(-1), top = last ? {...last, image: cardImage(last)} : null, concealed = top?.faceDown && owner !== seat;
     return `<div class="zone compact-pile" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div><button class="pile-open" data-pile="${owner}:${zone}" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} ${labels[zone]} pile, ${count} cards"><span class="pile-cover ${count > 1 ? 'stacked' : ''} ${!top ? 'empty-cover' : ''}">${top ? top.image && !concealed ? `<img src="${esc(top.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : concealed ? '<img src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="">' : `<span>${esc(top.name)}</span>` : '<span>Empty</span>'}</span></button></div>`;
   }
   return `<div class="zone" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div>${hidden ? `<div class="pile"><span class="card back" aria-hidden="true"></span></div>` : `<div class="cards">${data.map(c => cardHTML(c, owner, zone)).join('') || '<span class="empty">Empty</span>'}</div>`}</div>`;
 }
 function renderPile() {
   if (!openPile) return;
-  const { owner, zone } = openPile, player=game.players[owner], cards = zone==='mp'?player?.personalities:player?.zones[zone];
+  const { owner, zone } = openPile, player=game.players[owner], cards = zone==='mp'?player?.personalities.map(c=>({...c,image:cardImage(c)})):player?.zones[zone];
   if (!Array.isArray(cards)) { $('pile-dialog').close(); openPile = null; return; }
   $('pile-title').textContent = `${owner === seat ? 'Your' : game.players[owner].name + '’s'} ${labels[zone]} · ${cards.length}`;
   const help=$('pile-dialog').querySelector('p.fine'); if(help)help.textContent=zone==='mp'?'All Main Personality levels in this stack. Select a card to enlarge it.':'Top card first. Select a card to inspect it or move your card.';
@@ -136,7 +137,7 @@ function render() {
   $('search-panel').hidden=!p.searchCards;$('search-cards').innerHTML=p.searchCards?p.searchCards.map(c=>cardHTML(c,seat,'deck')).join(''):'';
   $('log').innerHTML=game.log.map(x=>`<li><time>${new Date(x.at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}</time>${esc(x.text)}</li>`).join('');$('log').scrollTop=$('log').scrollHeight;renderInspector();renderPile();
 }
-function getSelected(){if(!selected)return null;const[owner,zone,uid]=selected.split(':'),p=game.players[+owner];const c=zone==='mp'?p?.personalities[p.level-1]:['mastery','sensei'].includes(zone)?p?.[zone]:zone==='deck'?p?.searchCards?.find(c=>c.uid===uid):Array.isArray(p?.zones[zone])?p.zones[zone].find(c=>c.uid===uid):null;return c?{owner:+owner,zone,c}:null;}
+function getSelected(){if(!selected)return null;const[owner,zone,uid]=selected.split(':'),p=game.players[+owner];const c=zone==='mp'?p?.personalities[p.level-1]:['mastery','sensei'].includes(zone)?p?.[zone]:zone==='deck'?p?.searchCards?.find(c=>c.uid===uid):Array.isArray(p?.zones[zone])?p.zones[zone].find(c=>c.uid===uid):null;return c?{owner:+owner,zone,c:{...c,image:cardImage(c)}}:null;}
 function renderInspector(){
   const s=getSelected();$('card-controls').hidden=!s;if(!s){selected=null;$('inspect').innerHTML='';return;}
   const {owner,zone,c}=s,mine=owner===seat,hidden=c.faceDown&&!mine,fixed=['mp','mastery','sensei'].includes(zone);
@@ -149,7 +150,7 @@ document.addEventListener('click', e => {
   if(e.target.closest('[data-edit-power]')) { const value=prompt('Current power from the printed card at your current stage:',game.players[seat].power??''); if(value!==null&&value.trim()!=='')send({type:'power',value:Number(value.replaceAll(',',''))}); return; }
   const pile = e.target.closest('[data-pile]');
   if (pile) { const [owner, zone] = pile.dataset.pile.split(':'); openPile = { owner: Number(owner), zone }; renderPile(); $('pile-dialog').showModal(); return; }
-  const preview=e.target.closest('[data-mp-preview]'); if(preview){const [owner,index]=preview.dataset.mpPreview.split(':').map(Number),c=game.players[owner].personalities[index];if(c.image){$('card-zoom-image').src=c.image;$('card-zoom-image').alt=c.name;$('card-zoom').showModal();}return;}
+  const preview=e.target.closest('[data-mp-preview]'); if(preview){const [owner,index]=preview.dataset.mpPreview.split(':').map(Number),c=game.players[owner].personalities[index],image=cardImage(c);if(image){$('card-zoom-image').src=image;$('card-zoom-image').alt=c.name;$('card-zoom').showModal();}return;}
   const card = e.target.closest('[data-card]');
   if(card&&card.dataset.card.split(':')[1]==='mp'){openPile={owner:Number(card.dataset.card.split(':')[0]),zone:'mp'};renderPile();$('pile-dialog').showModal();return;}
   if(card&&card.closest('.free-table')&&card.dataset.card.startsWith(seat+':')&&playZones.includes(card.dataset.card.split(':')[1])&&game.status==='playing'){

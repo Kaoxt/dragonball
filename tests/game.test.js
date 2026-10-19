@@ -1,9 +1,33 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {newGame, addPlayer, act, view, parseDeck, shuffle} from '../public/game.js';
+import {newGame, addPlayer, act, view, parseDeck, shuffle, cardImage} from '../public/game.js';
 const deck = prefix => ({personalities:[1,2,3].map(n=>({id:`${prefix}-MP-${n}`,pur:2})), cards:Array.from({length:17},(_,i)=>({id:`${prefix}-${i}`,qty:i===16?2:3}))});
 function setup(){const g=newGame();addPlayer(g,'secret-a','Alice');addPlayer(g,'secret-b','Bob');act(g,0,{type:'load',deck:deck('A')});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});return g;}
 function playing(){const g=setup();act(g,0,{type:'ready'});act(g,1,{type:'ready'});return g;}
+test('updated catalog cards retain lossless artwork in Arena imports and older saved snapshots', async () => {
+  const {catalog} = await import('../public/cards/catalog.js');
+  const updated = catalog.filter(c => c.set === 'Saiyan Saga' && Number(c.number) >= 41 && Number(c.number) <= 80);
+  assert.equal(updated.length, 40);
+  for (const source of updated) {
+    const legacy = {...source, image: `/assets/cards/${source.id}.webp?v=old`};
+    const saved = structuredClone(legacy);
+    for (const entry of [source, legacy, {...source, image: ''}]) {
+      const input = deck('A'); input.cards = [entry];
+      assert.equal(parseDeck(input).cards[0].image, source.image);
+      assert.equal(cardImage(entry), source.image);
+    }
+    assert.deepEqual(legacy, saved);
+  }
+});
+test('Arena image resolution preserves custom images and rejects unsafe relative paths', () => {
+  const id = 'saiyan-078-roshis-training';
+  const external = 'https://example.com/custom-card.webp';
+  assert.equal(cardImage({id, image: external}), external);
+  assert.equal(cardImage({id, image: '/assets/cards/custom-art.webp'}), '/assets/cards/custom-art.webp');
+  assert.equal(cardImage({id: 'custom', image: '/assets/cards/downloads/custom.webp?v=123'}), '/assets/cards/downloads/custom.webp?v=123');
+  for (const image of ['javascript:alert(1)', 'http://example.com/card.webp', '/assets/cards/downloads/../private.webp', '/api/admin/uploads', '//example.com/card.webp']) assert.equal(cardImage({id, image}), '');
+  assert.equal(cardImage({uid: 'hidden', faceDown: true}), '');
+});
 test('Score setup has no opening hand, life pile, energy marker or mulligan',()=>{const g=setup();for(const p of g.players){assert.equal(p.zones.hand.length,0);assert.equal(p.zones.deck.length,50);assert.equal(p.stages,5);assert.equal(p.anger,0);assert.equal(p.level,1);assert.equal(p.zones.life,undefined);assert.equal(p.marker,undefined);}assert.throws(()=>act(g,0,{type:'mulligan'}));act(g,0,{type:'first',seat:1});act(g,0,{type:'ready'});act(g,1,{type:'ready'});assert.equal(g.turn,1);assert.equal(g.phase,'Draw');});
 test('Draw three and damage use the Life Deck; opponent sees only hand counts',()=>{const g=playing();act(g,0,{type:'draw',count:3});act(g,0,{type:'damage'});assert.equal(g.players[0].zones.deck.length,46);assert.equal(g.players[0].zones.discard.length,1);const v=view(g,1);assert.deepEqual(v.players[0].zones.hand,{count:3});assert.ok(!JSON.stringify(v).includes('secret-a'));for(const c of g.players[0].zones.hand)assert.ok(!JSON.stringify(v).includes(c.uid));});
 test('private Sensei choices swap together against original top cards exactly once',()=>{const g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');const d=deck('A');d.sensei={id:'SENSEI'};d.senseiDeck=[{id:'SIDE-A'},{id:'SIDE-B'}];act(g,0,{type:'load',deck:d});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});const top=g.players[0].zones.deck.slice(0,2).map(c=>c.id),ids=g.players[0].zones.senseiDeck.map(c=>c.uid);assert.deepEqual(view(g,1).players[0].zones.senseiDeck,{count:2});act(g,0,{type:'senseiSwap',uids:ids});assert.deepEqual(g.players[0].zones.senseiDeck.map(c=>c.id),top);assert.equal(g.players[0].zones.deck.length,50);assert.ok(g.log.at(-1).text.includes('SIDE-A'));assert.throws(()=>act(g,0,{type:'senseiSwap',uids:g.players[0].zones.senseiDeck.map(c=>c.uid)}));});
