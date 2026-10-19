@@ -9,6 +9,7 @@ function cookie(req) { return /(?:^|;\s*)score_session=([a-f0-9]{64})(?:;|$)/.ex
 export default {
   async fetch(req, env) {
     const u = new URL(req.url);
+    if (u.pathname.startsWith('/api/admin/uploads') || u.pathname.startsWith('/api/files/')) return env.COMMUNITY.getByName('dragonball-community-v1').fetch(req);
     if (u.pathname === '/api/decks' || u.pathname === '/api/forum' || u.pathname.startsWith('/api/auth/') || u.pathname.startsWith('/api/avatars/')) {
       if (!['GET','POST'].includes(req.method)) return json({error:'Method not allowed.'},405);
       if (req.method === 'POST' && req.headers.get('Origin') !== u.origin) return json({error:'Same-origin requests only.'},403);

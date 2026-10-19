@@ -70,5 +70,10 @@
   ],
   "limits": {
     "cpu_ms": 30000
-  }
+  },
+  "r2_buckets": [
+    {
+      "binding": "UPLOADS"
+    }
+  ]
 }

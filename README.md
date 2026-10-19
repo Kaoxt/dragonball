@@ -138,3 +138,46 @@ Until both keys are provisioned, a completely unconfigured deployment retains th
 
 The [card-template collection](tools/card-templates/README.md) stores approved production references, reusable vector frames, layout coordinates, and design rules. The Combat Master is approved; other card types remain pending until their masters are finished and approved. These source files are kept outside `public` and do not change existing cards or gameplay.
 
+
+## Admin file uploads
+
+Administrators open `/admin/` from their account menu. The page uses the existing
+Dragon Ball OCG session and role checks; no new accounts or owner bootstrap are
+introduced. Community moderation remains at `/forums/admin/`.
+
+Upload ZIP, PNG, JPG, or WebP source files up to 2 GiB. The browser sends 8 MiB
+parts to `/api/admin/uploads`, checks SHA-256 on every part, and persists progress
+in the existing Community SQLite database. Reselect the same file to resume
+within six days. The server checks the filename, size, first-part file signature,
+part sizes/checksums, and completed object metadata. Transfers are serialized to
+bound memory use and avoid completing/deleting a file during a part write.
+
+The dedicated `UPLOADS` R2 binding is declared without a bucket ID so Wrangler
+4.45+ can provision it during the existing Cloudflare Workers build/deploy. R2
+must be enabled on the account, and the build token must permit R2 provisioning.
+Wrangler preserves the binding on subsequent deployments. If provisioning is
+not permitted, create a dedicated bucket in Cloudflare and set its `bucket_name`
+on this binding, then redeploy. Do not bind an unrelated production artwork
+bucket. No R2 public bucket, public listing, CORS change, or extra API secret is
+needed. The admin UI reports when the binding is absent and disables uploads.
+
+Completed files are private until an administrator selects **Copy link**. This
+creates an unguessable download URL under `/api/files/` that works without a
+login, including HEAD and single-range requests for resumable downloads. Anyone
+with the link can download it. **Revoke link** invalidates the old URL; sharing
+again creates a new URL. **Delete** revokes access, removes the temporary R2
+object or incomplete multipart upload, and deletes its transfer metadata. It
+never edits card records, Git assets, or published card images. A link alone
+does not grant upload/delete or administrator permissions.
+
+Staging is limited to 100 files, 10 incomplete transfers, and 20 GiB of declared
+file sizes. Incomplete transfers should be deleted when no longer needed; R2's
+default incomplete-multipart lifecycle also applies. Completed uploads remain
+until explicitly deleted. Batch labels and filename search organize source
+files; this feature does not automatically import card ZIP contents.
+
+Validation: `npm test` covers access checks, origin checks, invalid files,
+checksums, retries, quota enforcement, share/revoke, byte ranges, cleanup, and
+completion recovery. `node tests/uploads-runtime.mjs` runs a 388 MiB transfer
+(49 parts) against isolated local Workers, SQLite and R2, then verifies download,
+revocation and deletion without touching production data.
