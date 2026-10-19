@@ -707,11 +707,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=93d83b8c3b20",
+    "image": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=7967acab9231",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=93d83b8c3b20"
+    "downloadImage": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=7967acab9231"
   },
   {
     "id": "saiyan-052-orange-neck-restraints",
@@ -721,11 +721,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=9fcd3733bdf8",
+    "image": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=3c309f9f980d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=9fcd3733bdf8"
+    "downloadImage": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=3c309f9f980d"
   },
   {
     "id": "saiyan-053-orange-holding-after-takedown",
@@ -735,11 +735,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=5e7804a583eb",
+    "image": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=dac380d713fa",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=5e7804a583eb"
+    "downloadImage": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=dac380d713fa"
   },
   {
     "id": "saiyan-054-red-knee-strike",
@@ -749,11 +749,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=5bbba259572c",
+    "image": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=c6dc1b7829e2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=5bbba259572c"
+    "downloadImage": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=c6dc1b7829e2"
   },
   {
     "id": "saiyan-055-red-front-kick",
@@ -763,11 +763,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=b8b309ea23ea",
+    "image": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=3d594bf44d67",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=b8b309ea23ea"
+    "downloadImage": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=3d594bf44d67"
   },
   {
     "id": "saiyan-056-red-side-kick",
@@ -777,11 +777,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=dc33f7e4f76d",
+    "image": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=ac890c1f3e6d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=dc33f7e4f76d"
+    "downloadImage": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=ac890c1f3e6d"
   },
   {
     "id": "saiyan-057-red-round-kick",
@@ -791,11 +791,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-057-red-round-kick.webp?v=ba6fe409afb1",
+    "image": "/assets/cards/downloads/saiyan-057-red-round-kick.webp?v=661ece91adc8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-057-red-round-kick.webp?v=ba6fe409afb1"
+    "downloadImage": "/assets/cards/downloads/saiyan-057-red-round-kick.webp?v=661ece91adc8"
   },
   {
     "id": "saiyan-058-red-back-kick",
@@ -805,11 +805,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=cab06ff8fce7",
+    "image": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=ec280ca2936e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=cab06ff8fce7"
+    "downloadImage": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=ec280ca2936e"
   },
   {
     "id": "saiyan-059-blue-big-outside-drop",
@@ -819,11 +819,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=e3c24c9acb48",
+    "image": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=26f14b731cb9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=e3c24c9acb48"
+    "downloadImage": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=26f14b731cb9"
   },
   {
     "id": "saiyan-060-blue-one-arm-shoulder-throw",
@@ -833,11 +833,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=ace1921fa8ad",
+    "image": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=2c4bc5d0fba4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 2120,
     "height": 2968,
-    "downloadImage": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=ace1921fa8ad"
+    "downloadImage": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=2c4bc5d0fba4"
   },
   {
     "id": "saiyan-061-blue-body-drop-throw",
