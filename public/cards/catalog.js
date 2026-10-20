@@ -1547,23 +1547,25 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=c5475a9d54",
+    "image": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=9284c815deed",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=9284c815deed"
   },
   {
     "id": "saiyan-112-krillins-physical-defense",
     "name": "Krillin's Physical Defense",
     "number": "112",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=677fa30eeb",
+    "image": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=60c2a959724d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=60c2a959724d"
   },
   {
     "id": "saiyan-113-krillins-energy-attack",
@@ -1573,10 +1575,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=53f4446999",
+    "image": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=667cc388ee81",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=667cc388ee81"
   },
   {
     "id": "saiyan-114-tiens-energy-defense",
@@ -1586,10 +1589,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-114-tiens-energy-defense.webp?v=5434265ee6",
+    "image": "/assets/cards/downloads/saiyan-114-tiens-energy-defense.webp?v=ddb10c354ccc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-114-tiens-energy-defense.webp?v=ddb10c354ccc"
   },
   {
     "id": "saiyan-115-yamchas-energy-attack",
@@ -1599,10 +1603,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=d25ed8d019",
+    "image": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=f8d17763dff2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=f8d17763dff2"
   },
   {
     "id": "saiyan-116-yamchas-physical-defense",
@@ -1612,49 +1617,53 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=cbed8f5cad",
+    "image": "/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp?v=5066453c1d69",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp?v=5066453c1d69"
   },
   {
     "id": "saiyan-117-raditz-energy-wall",
     "name": "Raditz Energy Wall",
     "number": "117",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=b0033bf6a5",
+    "image": "/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp?v=5bb8ca0405ef",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp?v=5bb8ca0405ef"
   },
   {
     "id": "saiyan-118-raditz-physical-defense",
     "name": "Raditz Physical Defense",
     "number": "118",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=e9e35373aa",
+    "image": "/assets/cards/downloads/saiyan-118-raditz-physical-defense.webp?v=d4e7313921e5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-118-raditz-physical-defense.webp?v=d4e7313921e5"
   },
   {
     "id": "saiyan-119-vegetas-energy-blast",
     "name": "Vegeta's Energy Blast",
     "number": "119",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=ebb8a509cf",
+    "image": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=7d515f928b07",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=7d515f928b07"
   },
   {
     "id": "saiyan-120-nappas-energy-aura",
@@ -1664,10 +1673,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=b6a8335cb4",
+    "image": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=0092fcc05f4c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=0092fcc05f4c"
   },
   {
     "id": "saiyan-121-nappas-physical-resistance",
