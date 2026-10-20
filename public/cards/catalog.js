@@ -1123,14 +1123,15 @@ export const catalog = [
     "id": "saiyan-081-saiyan-armor",
     "name": "Saiyan Armor",
     "number": "81",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-081-saiyan-armor.webp?v=6d406d381b",
+    "image": "/assets/cards/downloads/saiyan-081-saiyan-armor.webp?v=166921ba2e7d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-081-saiyan-armor.webp?v=166921ba2e7d"
   },
   {
     "id": "saiyan-082-tien",
@@ -1140,10 +1141,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=b42d19fd89aa",
+    "image": "/assets/cards/downloads/saiyan-082-tien.webp?v=08a8a1978f0c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-082-tien.webp?v=08a8a1978f0c"
   },
   {
     "id": "saiyan-083-tien",
@@ -1153,10 +1155,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=2907634d37ce",
+    "image": "/assets/cards/downloads/saiyan-083-tien.webp?v=ab9c309a8e8a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-083-tien.webp?v=ab9c309a8e8a"
   },
   {
     "id": "saiyan-084-yamcha",
@@ -1166,10 +1169,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=6a72576edaa9",
+    "image": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=60ddb26a68ea",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=60ddb26a68ea"
   },
   {
     "id": "saiyan-085-yamcha",
@@ -1179,10 +1183,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=81de9371f6c7",
+    "image": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=df71ca3bb86f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=df71ca3bb86f"
   },
   {
     "id": "saiyan-086-chi-chi",
@@ -1192,10 +1197,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=cd76e8a836c9",
+    "image": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=7aff44f3f1fd",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=7aff44f3f1fd"
   },
   {
     "id": "saiyan-087-bulma",
@@ -1205,49 +1211,53 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=29db070a452c",
+    "image": "/assets/cards/downloads/saiyan-087-bulma.webp?v=b80d09ad480c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-087-bulma.webp?v=b80d09ad480c"
   },
   {
     "id": "saiyan-088-king-kai-uniform",
     "name": "King Kai Uniform",
     "number": "88",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-088-king-kai-uniform.webp?v=2b01ae6d6e",
+    "image": "/assets/cards/downloads/saiyan-088-king-kai-uniform.webp?v=bcb974c9a7ba",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-088-king-kai-uniform.webp?v=bcb974c9a7ba"
   },
   {
     "id": "saiyan-089-dream-chamber-training",
     "name": "Dream Chamber Training",
     "number": "89",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-089-dream-chamber-training.webp?v=c096ba188b",
+    "image": "/assets/cards/downloads/saiyan-089-dream-chamber-training.webp?v=bce846c8f575",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-089-dream-chamber-training.webp?v=bce846c8f575"
   },
   {
     "id": "saiyan-090-mothers-touch",
     "name": "Mother's Touch",
     "number": "90",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-090-mothers-touch.webp?v=b7c72a4e9d",
+    "image": "/assets/cards/downloads/saiyan-090-mothers-touch.webp?v=286d5cd56e0b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-090-mothers-touch.webp?v=286d5cd56e0b"
   },
   {
     "id": "saiyan-091-saiyan-energy-throw",
