@@ -1267,10 +1267,11 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=efade77369",
+    "image": "/assets/cards/downloads/saiyan-091-saiyan-energy-throw.webp?v=d16a4367435c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-091-saiyan-energy-throw.webp?v=d16a4367435c"
   },
   {
     "id": "saiyan-092-saiyan-energy-defense",
@@ -1280,10 +1281,11 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=e8b1bda987",
+    "image": "/assets/cards/downloads/saiyan-092-saiyan-energy-defense.webp?v=76f66f88b3b2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-092-saiyan-energy-defense.webp?v=76f66f88b3b2"
   },
   {
     "id": "saiyan-093-saiyan-mental-energy-attack",
@@ -1293,10 +1295,11 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp?v=fe7b2bf824",
+    "image": "/assets/cards/downloads/saiyan-093-saiyan-mental-energy-attack.webp?v=d628e6a81ff9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-093-saiyan-mental-energy-attack.webp?v=d628e6a81ff9"
   },
   {
     "id": "saiyan-094-saiyan-energy-blast",
@@ -1306,10 +1309,11 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-094-saiyan-energy-blast.webp?v=aa7cabecca",
+    "image": "/assets/cards/downloads/saiyan-094-saiyan-energy-blast.webp?v=1a1f20e2c4c7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-094-saiyan-energy-blast.webp?v=1a1f20e2c4c7"
   },
   {
     "id": "saiyan-095-saiyan-energy-aura",
@@ -1319,10 +1323,11 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=8d479383e0",
+    "image": "/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp?v=e9fa3eeeb059",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp?v=e9fa3eeeb059"
   },
   {
     "id": "saiyan-096-saiyan-sweeping-defense",
@@ -1332,62 +1337,67 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=c6c06030f2",
+    "image": "/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp?v=98dbfa382e78",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp?v=98dbfa382e78"
   },
   {
     "id": "saiyan-097-power-up-more",
     "name": "Power Up More!",
     "number": "97",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-097-power-up-more.webp?v=87d9cad570",
+    "image": "/assets/cards/downloads/saiyan-097-power-up-more.webp?v=a83dad736f0f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-097-power-up-more.webp?v=a83dad736f0f"
   },
   {
     "id": "saiyan-098-power-up-the-most",
     "name": "Power Up the Most!",
     "number": "98",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-098-power-up-the-most.webp?v=0908597e72",
+    "image": "/assets/cards/downloads/saiyan-098-power-up-the-most.webp?v=d1ff8934f837",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-098-power-up-the-most.webp?v=d1ff8934f837"
   },
   {
     "id": "saiyan-099-blazing-anger",
     "name": "Blazing Anger!",
     "number": "99",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-099-blazing-anger.webp?v=6f1eda8a59",
+    "image": "/assets/cards/downloads/saiyan-099-blazing-anger.webp?v=8a13fd6152c5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-099-blazing-anger.webp?v=8a13fd6152c5"
   },
   {
     "id": "saiyan-100-vegetas-suprise-defense",
     "name": "Vegeta's Suprise Defense",
     "number": "100",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=b9784bb326",
+    "image": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=42d57be1bc0e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=42d57be1bc0e"
   },
   {
     "id": "saiyan-101-goku-honor-duel",
