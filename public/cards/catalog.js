@@ -2103,27 +2103,29 @@ export const catalog = [
     "id": "saiyan-151-orange-joint-restraint-drill",
     "name": "Orange Joint Restraint Drill",
     "number": "151",
-    "type": "Non-Combat Drill",
+    "type": "Drill",
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=5a35c48c4a",
+    "image": "/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp?v=32985fe4592f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp?v=32985fe4592f"
   },
   {
     "id": "saiyan-152-black-defender-drill",
     "name": "Black Defender Drill",
     "number": "152",
-    "type": "Non-Combat Drill",
+    "type": "Drill",
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=09bbc060e1",
+    "image": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=abf36f8d74c8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=abf36f8d74c8"
   },
   {
     "id": "saiyan-153-goku-energy-blast",
@@ -2133,10 +2135,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=43decf3498",
+    "image": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=9021463ba7d2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=9021463ba7d2"
   },
   {
     "id": "saiyan-154-piccolo-sidestep",
@@ -2146,49 +2149,53 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=0517477ddb",
+    "image": "/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp?v=f47807271a9a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp?v=f47807271a9a"
   },
   {
     "id": "saiyan-155-piccolo-defense-drill",
     "name": "Piccolo Defense Drill",
     "number": "155",
-    "type": "Non-Combat Drill",
+    "type": "Drill",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=1180f9cf67",
+    "image": "/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp?v=6c226ae3ee52",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp?v=6c226ae3ee52"
   },
   {
     "id": "saiyan-156-allys-sacrifice",
     "name": "Ally's Sacrifice",
     "number": "156",
-    "type": "Combat",
+    "type": "Event",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-156-allys-sacrifice.webp?v=6e01a3f632",
+    "image": "/assets/cards/downloads/saiyan-156-allys-sacrifice.webp?v=1b918440cd89",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-156-allys-sacrifice.webp?v=1b918440cd89"
   },
   {
     "id": "saiyan-157-eyes-of-the-dragon",
     "name": "Eyes of the Dragon",
     "number": "157",
-    "type": "Non-Combat",
+    "type": "Setup",
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-157-eyes-of-the-dragon.webp?v=4375bcb62e",
+    "image": "/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp?v=94c3380f8db6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp?v=94c3380f8db6"
   },
   {
     "id": "saiyan-158-goku",
@@ -2198,10 +2205,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-158-goku.webp?v=d37298689861",
+    "image": "/assets/cards/downloads/saiyan-158-goku.webp?v=5d220708d43d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=5d220708d43d"
   },
   {
     "id": "saiyan-159-goku",
@@ -2211,10 +2219,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-159-goku.webp?v=28cca8897f38",
+    "image": "/assets/cards/downloads/saiyan-159-goku.webp?v=a150a337aded",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-159-goku.webp?v=a150a337aded"
   },
   {
     "id": "saiyan-160-goku",
@@ -2224,10 +2233,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-160-goku.webp?v=b5789b519914",
+    "image": "/assets/cards/downloads/saiyan-160-goku.webp?v=3221525f0db5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
-    "width": 1060,
-    "height": 1484
+    "width": 2120,
+    "height": 2968,
+    "downloadImage": "/assets/cards/downloads/saiyan-160-goku.webp?v=3221525f0db5"
   },
   {
     "id": "saiyan-161-piccolo",
