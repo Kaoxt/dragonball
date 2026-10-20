@@ -37,12 +37,12 @@ for(const width of [390,1280])test(`home and builder work at ${width}`,async({pa
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
 test('legacy room invites still reach the table',async({page})=>{
- const id='a'.repeat(32);await page.goto('/#'+id);await expect(page).toHaveURL(new RegExp('/play/#'+id));await expect(page.locator('#room-code')).toHaveValue(id);
+ const id='a'.repeat(32);await page.goto('/#'+id);await expect(page).toHaveURL(new RegExp('/arena/#'+id));await expect(page.locator('#room-code')).toHaveValue(id);
 });
 test('saved builder deck reaches tabletop importer',async({page})=>{
  await page.goto('/decks/');
  await page.evaluate(async()=>{const {createDeck,STORAGE_KEY}=await import('/decks/store.js');const d=createDeck();d.name='Playable test';d.personalities=[1,2,3].map(level=>({id:'TEST-'+level,name:'Test '+level,pur:2}));d.personalities.push(null,null);d.cards=[{id:'test-card',name:'Test card',qty:50}];localStorage.setItem(STORAGE_KEY,JSON.stringify({active:d.id,decks:[d]}));});
- await page.goto('/play/');
+ await page.goto('/arena/');
  // Exercise the saved-deck picker locally without creating a remote room.
  await page.evaluate(()=>document.getElementById('open-deck').click());await page.locator('#builder-saved-decks').selectOption({label:'Playable test'});const result=await page.evaluate(async()=>{const {parseDeck}=await import('/game.js');return parseDeck(JSON.parse(document.getElementById('deck-text').value));});expect(result.cards).toHaveLength(50);expect(result.personalities).toHaveLength(3);
 });

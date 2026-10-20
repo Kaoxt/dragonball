@@ -197,7 +197,7 @@ $('join-form').onsubmit = e => { e.preventDefault(); join(false); };
 $('practice').onclick = practice;
 $('switch-seat').onclick = () => { seat = 1 - seat; selected = null; game = view(practiceGame, seat); render(); };
 $('leave').onclick = () => { intentional = true; clearTimeout(reconnectTimer); socket?.close(); location.href = '/'; };
-$('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/play/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
+$('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/arena/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
 let availableBuilderDecks=[];
 $('open-deck').onclick = async () => {
   $('deck-error').textContent = '';
