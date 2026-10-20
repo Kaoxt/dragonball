@@ -22,7 +22,8 @@ function fixture() {
     resumeMultipartUpload(key,uploadId) { return {
       uploadId,
       async uploadPart(number,bytes) { const entry=multiparts.get(uploadId);if(!entry)throw Error('NoSuchUpload');const etag=digest(bytes);entry.parts.set(number,Buffer.from(bytes));return {partNumber:number,etag}; },
-      async complete(parts) { const entry=multiparts.get(uploadId);if(!entry)throw Error('NoSuchUpload');const body=Buffer.concat(parts.map(p=>entry.parts.get(p.partNumber))); const object={size:body.length,httpEtag:'"'+digest(body)+'"',customMetadata:entry.options.customMetadata,body};objects.set(key,object);multiparts.delete(uploadId);return object; },
+      // Production R2 omits custom metadata from complete(); head() returns it.
+      async complete(parts) { const entry=multiparts.get(uploadId);if(!entry)throw Error('NoSuchUpload');const body=Buffer.concat(parts.map(p=>entry.parts.get(p.partNumber))); const object={size:body.length,httpEtag:'"'+digest(body)+'"',customMetadata:entry.options.customMetadata,body};objects.set(key,object);multiparts.delete(uploadId);return {size:object.size,httpEtag:object.httpEtag,customMetadata:{}}; },
       async abort() { if(!multiparts.delete(uploadId))throw Error('NoSuchUpload'); }
     }; },
     async head(key) { return objects.get(key) || null; },
@@ -76,6 +77,31 @@ test('resume preserves checksums; partial, altered, and missing parts cannot com
   assert.equal((await f.call(`/${data.id}/complete`,{method:'POST'})).status,200);
   assert.equal((await f.call(`/${data.id}/complete`,{method:'POST'})).status,200);
   assert.equal((await f.call(`/${data.id}/parts/2`,{method:'PUT',bytes:Buffer.alloc(17)})).status,409);
+});
+test('first completion verifies stored metadata and immediately enables sharing',async()=>{
+  const f=fixture(),{data}=await f.begin();
+  await f.call(`/${data.id}/parts/1`,{method:'PUT',bytes:zip(30)});
+  const response=await f.call(`/${data.id}/complete`,{method:'POST'});
+  assert.equal(response.status,200);
+  assert.equal((await response.json()).file.status,'ready');
+  assert.equal((await(await f.call()).json()).files[0].status,'ready');
+  assert.equal((await f.call(`/${data.id}/share`,{method:'POST'})).status,200);
+});
+test('completion rejects missing objects, incorrect sizes, and incorrect transfer identities',async()=>{
+  for(const alter of [()=>null,object=>({...object,size:29}),object=>({...object,customMetadata:{}}),object=>({...object,customMetadata:{transferId:randomUUID()}})]){
+    const f=fixture(),{data}=await f.begin();
+    await f.call(`/${data.id}/parts/1`,{method:'PUT',bytes:zip(30)});
+    const head=f.bucket.head.bind(f.bucket);
+    f.bucket.head=async key=>{const object=await head(key);return object?alter(object):null;};
+    const response=await f.call(`/${data.id}/complete`,{method:'POST'});
+    assert.equal(response.status,502);
+    assert.equal((await response.json()).error,'Stored file verification failed.');
+    assert.equal((await(await f.call()).json()).files[0].status,'uploading');
+    assert.equal((await f.call(`/${data.id}/share`,{method:'POST'})).status,409);
+    // Valid stored data remains recoverable without uploading any parts again.
+    f.bucket.head=head;
+    assert.equal((await f.call(`/${data.id}/complete`,{method:'POST'})).status,200);
+  }
 });
 test('completion recovers if storage committed before the response was saved',async()=>{
   const f=fixture(),{data}=await f.begin();await f.call(`/${data.id}/parts/1`,{method:'PUT',bytes:zip(30)});

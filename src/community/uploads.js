@@ -129,8 +129,13 @@ async function complete(env, row) {
   if (parts.length !== count || parts.some((part, index) => part.number !== index + 1) || parts.reduce((n, p) => n + p.size, 0) !== row.size) throw new UploadError('Upload all parts before finishing.', 409);
   // Recover safely if R2 completed successfully but the response/database update was interrupted.
   let object = await env.UPLOADS.head(row.object_key);
-  if (!object) object = await env.UPLOADS.resumeMultipartUpload(row.object_key, row.multipart_id).complete(parts.map(p => ({ partNumber: p.number, etag: p.etag })));
-  if (object.size !== row.size || object.customMetadata?.transferId !== row.id) throw new UploadError('Stored file verification failed.', 502);
+  if (!object) {
+    await env.UPLOADS.resumeMultipartUpload(row.object_key, row.multipart_id).complete(parts.map(p => ({ partNumber: p.number, etag: p.etag })));
+    // R2's completion response can omit custom metadata. Verify the stored object,
+    // which is immediately readable after completion, rather than that response.
+    object = await env.UPLOADS.head(row.object_key);
+  }
+  if (!object || object.size !== row.size || object.customMetadata?.transferId !== row.id) throw new UploadError('Stored file verification failed.', 502);
   env.DB.prepare("UPDATE admin_uploads SET status='ready',updated_at=? WHERE id=?").bind(Date.now(), row.id).run();
   return reply({ file: describe(env.DB, rowFor(env.DB, row.id)) });
 }
