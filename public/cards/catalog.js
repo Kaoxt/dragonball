@@ -323,7 +323,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku’s Surprise Attack",
+    "name": "Goku\u2019s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -337,7 +337,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku’s Physical Attack",
+    "name": "Goku\u2019s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -351,7 +351,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan’s Physical Attack",
+    "name": "Gohan\u2019s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -365,7 +365,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien’s Physical Attack",
+    "name": "Tien\u2019s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -379,7 +379,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta’s Physical Stance",
+    "name": "Vegeta\u2019s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -393,7 +393,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe’s Physical Attack",
+    "name": "Yajirobe\u2019s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -449,7 +449,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It’s the Little Things That Matter",
+    "name": "It\u2019s the Little Things That Matter",
     "number": "33",
     "type": "Setup",
     "style": "Freestyle",
@@ -659,7 +659,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku’s Touch",
+    "name": "Goku\u2019s Touch",
     "number": "48",
     "type": "Setup",
     "style": "Freestyle",
@@ -2499,10 +2499,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=6cbf5b2eeb58",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=4c9e7594ecaf",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=e4d7513d9c27"
+    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=0bb9340f2dfa"
   },
   {
     "id": "saiyan-180-piccolo-lvl-1-ht",
