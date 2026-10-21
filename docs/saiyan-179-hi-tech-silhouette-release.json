@@ -1,0 +1,117 @@
+{
+  "number": 179,
+  "name": "Goku",
+  "style": "Hero",
+  "rules": [
+    "Physical attack.",
+    "DAMAGE: 4 stages."
+  ],
+  "title": {
+    "id": "card-title",
+    "text": "Goku",
+    "standard": "DB-OCG-Shared-Title-2026-10-20-Level-Aware",
+    "font": "Teko-SemiBold.ttf",
+    "font_sha256": "c6e312589232623060ab3d55b86d2b2978c5f5af958e96781acaf0f7043bc9b3",
+    "font_size": 86.0349127182045,
+    "vertical_scale": 0.0860349127182045,
+    "center_x": 600.25,
+    "body_center_y": 72.0,
+    "baseline_y": 100.778679,
+    "horizontal_fit": 1.0,
+    "safe_width": 799.5,
+    "bounds": [
+      527.8516209476309,
+      43.221322391521184,
+      672.648379052369,
+      100.778679
+    ],
+    "personality_level_clearance": true
+  },
+  "rules_layout": {
+    "font_size": 49,
+    "line_pitch": 59,
+    "bounds": [
+      361.359155790375,
+      1145.2395,
+      698.640844209625,
+      1249.4175
+    ],
+    "power_icons": 1
+  },
+  "frame": {
+    "standard": "DB-OCG-V2-Universal-Silver-2026-10-20",
+    "geometry_sha256": "f0a61d75481c03343cfae434f17f0629e74609734898c2855bd63c96020c039d",
+    "same_title_rules_footer_positions": true,
+    "power_rail": "#788690 / 1.2",
+    "power_outer_outline": "#071018 / 4",
+    "style": "Hero",
+    "viewport": [
+      0,
+      0,
+      1060,
+      1484
+    ],
+    "border": null,
+    "background_source": "character-specific full-bleed painted illustration",
+    "artwork_crop_unchanged": true,
+    "high_tech": true
+  },
+  "artwork": {
+    "mode": "layered full-bleed background with contained cutout",
+    "source_size": [
+      1125,
+      1398
+    ],
+    "source_visible_fraction": 1.0,
+    "rendered_size": [
+      763.1999999999999,
+      948.4031999999999
+    ],
+    "native_contain_gap": [
+      0.0,
+      166.7733333333333
+    ],
+    "added_zoom": false,
+    "modernized": true,
+    "source_pixels_changed": false,
+    "retained_existing_artwork": false,
+    "scale_relative_to_initial_layout": 0.72,
+    "supplied_image_placement": [
+      90,
+      122,
+      763.1999999999999,
+      948.4031999999999
+    ],
+    "supplied_alpha_preserved": true,
+    "background_palette": [
+      "black",
+      "navy",
+      "cobalt",
+      "cyan",
+      "orange"
+    ],
+    "background_file": "assets/goku-hi-tech-silhouette-background.png",
+    "background_bounds": [
+      0,
+      0,
+      1060,
+      1484
+    ]
+  },
+  "PNG_lossless_WebP_pixel_identical": true,
+  "master_dimensions": [
+    2120,
+    2968
+  ],
+  "display_dimensions": [
+    1060,
+    1484
+  ],
+  "display_sha256": "6cbf5b2eeb58684ee7fcbc6ac7c7b1cf2e05b03394416ffcacddbe58d7eff031",
+  "download_sha256": "e4d7513d9c27568d22bf4a9100e55124421741574dde8a22792f8ac132579c44",
+  "svg_sha256": "d55fbb127fdf48679524d31c27f941fb7346ff8bd584a57e120106783cd9e1fe",
+  "png_sha256": "8fea156ce695713620086c95242817ed7036892295c33842011b42ee9575abab",
+  "change": "Added oversized tonal Goku background silhouette to match Piccolo Hi-Tech treatment.",
+  "foreground_cutout_unchanged": true,
+  "native_frame_and_text_unchanged": true
+}
