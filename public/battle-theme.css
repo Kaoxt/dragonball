@@ -103,8 +103,8 @@ body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled){
 body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-allowed}
 
 /* Centered seven-slot arena dock and shared MP readout. */
-/* Desaturate only the playmat texture; cards and labels retain their original colors. */
-.arena-page .arena-mat{background:linear-gradient(#11111138,#11111138),url('/assets/burnt-orange-playmat.webp') center/cover #171717;background-blend-mode:multiply,luminosity;border:1px solid #4b4e53;border-radius:5px;padding:8px}
+/* Crimson artwork on both playmats; the dark overlay keeps cards and labels readable. */
+.arena-page .arena-mat{background:linear-gradient(#0c02042e,#0c02042e),url('/assets/crimson-shatter-playmat.webp') center/cover no-repeat #19070b;border:1px solid #4b4e53;border-radius:5px;padding:8px}
 .arena-page .arena-mat .free-table{height:150px;min-height:150px;background:none;border:0;box-shadow:none;overflow:hidden}
 .arena-page .arena-dock{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:start;max-width:660px;margin:auto}
 .arena-page .arena-dock .zone{display:flex;flex-direction:column;align-items:center;min-width:0;min-height:0;padding:0;background:none;border:0;box-shadow:none}
