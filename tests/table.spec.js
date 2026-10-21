@@ -15,7 +15,7 @@ test('two browsers play Score, keep private cards hidden, and resume',async({bro
  await q.getByRole('button',{name:'Search Life Deck',exact:true}).click();await expect(q.locator('#search-panel')).toBeVisible();await expect(p.locator('#search-panel')).toBeHidden();await q.getByRole('button',{name:'Finish search & shuffle'}).click();
  await q.getByRole('button',{name:'Increase Anger',exact:true}).click();await expect(p.locator('.opponent .counter').nth(1)).toContainText('1');
  await p.locator('#chat').fill('<img src=x onerror=alert(1)>');await p.locator('#chat-form button').click();await expect(q.locator('#log')).toContainText('<img src=x onerror=alert(1)>');await expect(q.locator('#log img')).toHaveCount(0);
- await r.goto(url);await r.locator('#join-form button').click();await expect(r.locator('#toast')).toContainText('full');await q.reload();await q.locator('#join-form button').click();await expect(q.locator('#hand .card')).toHaveCount(2);
+ await r.goto(url);await r.locator('#join-form button').click();await expect(r.locator('#toast')).toContainText('full');await q.reload();await expect(q.locator('#table')).toBeVisible();await expect(q.locator('#hand .card')).toHaveCount(2);
  await q.screenshot({path:'test-results/score-desktop.png',fullPage:true});await a.close();await b.close();await c.close();
 });
 test('mobile Score practice supports personality counters and moving cards',async({page})=>{

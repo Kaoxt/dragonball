@@ -26,7 +26,7 @@ export default {
       const id = token().slice(0, 32);
       return env.ROOMS.getByName(`score-${id}`).fetch(new Request(`${u.origin}/api/room/${id}/create`, req));
     }
-    const m = /^\/api\/room\/([a-f0-9]{32})\/(join|socket)$/.exec(u.pathname);
+    const m = /^\/api\/room\/([a-f0-9]{32})\/(join|resume|socket)$/.exec(u.pathname);
     if (m) {
       if (m[2] === 'join' && env.ROOM_LIMITER && !(await env.ROOM_LIMITER.limit({ key: req.headers.get('CF-Connecting-IP') || 'local' })).success) return json({ error: 'Too many join requests.' }, 429);
       return env.ROOMS.getByName(`score-${m[1]}`).fetch(req);
@@ -57,6 +57,13 @@ export class GameRoom extends DurableObject {
       return new Response(null, { status: 101, webSocket: client });
     }
     if (req.method !== 'POST') return json({ error: 'POST required.' }, 405);
+    // Resume only an existing authenticated seat. Opening an invite must not claim a seat.
+    if (action === 'resume') {
+      if (!this.game) return json({ error: 'Room not found or expired.' }, 404);
+      const seat = hash ? this.game.players.findIndex(p => p.token === hash) : -1;
+      if (seat < 0) return json({ error: 'Join this room first.' }, 401);
+      return json({ id, seat });
+    }
     try {
       const text = await req.text(); if (text.length > 2048) return json({ error: 'Request too large.' }, 413);
       const body = JSON.parse(text);

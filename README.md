@@ -18,6 +18,9 @@ There is no pre-dealt opening hand, separate life pile, energy zone, or automati
 
 The home page contains site news. The Arena is available at `/arena/`; old `/play/` links and legacy root room invitations redirect to the Arena. The shared card catalog lives at `/cards/`, and the deck builder at `/decks/`. Practice decks still use placeholder MP levels and repeated cards. For actual play, build from the available collection or import your Score card list and optional image URLs. New Score rooms use a separate server namespace and cookie; old Fusion World room links and deck imports are not compatible.
 
+Arena refresh restores the current solo practice game and selected seat from tab-local session storage, including the shuffled deck, hands, positions, counters, log, and Undo. Multiplayer refresh verifies the existing room cookie and reconnects automatically; opening an invite does not claim a seat until Join is selected. Leave table clears automatic restoration. Storage failure is reported in solo practice, and reconnect failures keep the saved room available for retry.
+
+
 ## Run locally
 
 Requires Node.js 22 or newer.

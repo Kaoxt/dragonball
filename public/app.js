@@ -2,12 +2,76 @@ import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js';
 import { newGame, addPlayer, act, view, cardImage } from './game.js';
+import { saveArenaSession, readArenaSession, clearArenaSession, sessionToRestore } from './arena-session.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let room = '', seat = 0, game, practiceGame, socket, selected, openPile, connected = false, reconnectTimer, intentional = false;
+let resumeAttempt = 0, resumeRoomId = '', storageWarningShown = false;
 const demo = () => practiceDeck();
 function toast(message) { $('toast').textContent = message; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => $('toast').hidden = true, 5500); }
 function status(text) { $('connection').textContent = text; }
+function rememberTable() {
+  const saved = saveArenaSession(practiceGame ? { kind: 'practice', game: practiceGame, seat } : { kind: 'room', room });
+  if (!saved && practiceGame && !storageWarningShown) {
+    storageWarningShown = true;
+    toast('Browser storage is unavailable. Keep this tab open to retain this practice game.');
+  }
+}
+function disconnect() {
+  clearTimeout(reconnectTimer);
+  if (socket) { socket.onclose = socket.onmessage = socket.onerror = null; socket.close(); socket = null; }
+  connected = false;
+}
+function returnToLobby() {
+  resumeAttempt++; intentional = true; disconnect(); clearArenaSession();
+  clearTimeout(cardTapTimer); cardTap = null;
+  room = ''; game = practiceGame = null; selected = openPile = null;
+  history.replaceState(null, '', location.pathname + location.search);
+  $('arena-resume').hidden = $('table').hidden = true; $('lobby').hidden = false;
+  $('card-controls').hidden = $('search-panel').hidden = true;
+  document.querySelectorAll('dialog[open]').forEach(dialog => dialog.close());
+  document.body.classList.remove('at-table'); status('Online card game');
+}
+async function resumeTable(id) {
+  const attempt = ++resumeAttempt;
+  resumeRoomId = id;
+  $('lobby').hidden = true; $('arena-resume').hidden = false; $('resume-retry').hidden = true;
+  $('resume-message').textContent = 'Reconnecting to your table…'; status('Reconnecting…');
+  $('room-code').value = id;
+  $('join-form').querySelector('button').textContent = 'Join / resume this table';
+  try {
+    const res = await (window.DragonNetwork?.fetch || fetch)(`/api/room/${id}/resume`, {
+      method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: '{}'
+    });
+    if (attempt !== resumeAttempt) return;
+    if (res.status === 401 || res.status === 404) {
+      if (readArenaSession()?.room === id) clearArenaSession();
+      $('arena-resume').hidden = true; $('lobby').hidden = false; status('Online card game');
+      if (res.status === 404) toast('This table has expired. You can create a new table.');
+      return;
+    }
+    if (!res.ok) throw new Error('Unable to reconnect.');
+    const data = await res.json();
+    if (attempt !== resumeAttempt) return;
+    if (data.id !== id || ![0, 1].includes(data.seat)) throw new Error('Invalid table response.');
+    disconnect(); room = id; seat = data.seat; practiceGame = null; intentional = false;
+    history.replaceState(null, '', `#${room}`); rememberTable(); connect();
+  } catch {
+    if (attempt !== resumeAttempt) return;
+    $('resume-message').textContent = 'Unable to reconnect right now. Your saved table has been kept. Try again when your connection returns.';
+    $('resume-retry').hidden = false; status('Connection interrupted');
+  }
+}
+function restoreTable() {
+  const saved = sessionToRestore(location.hash, readArenaSession());
+  if (saved?.kind === 'room') { resumeTable(saved.room); return; }
+  if (saved?.kind === 'practice') {
+    try {
+      practiceGame = saved.game; seat = saved.seat; game = view(practiceGame, seat);
+      intentional = true; status('Solo practice · both seats'); render();
+    } catch { returnToLobby(); toast('The saved practice game could not be restored.'); }
+  }
+}
 function send(action) {
   if (practiceGame) {
     try { const next = structuredClone(practiceGame); act(next, seat, action); practiceGame = next; game = view(practiceGame, seat); render(); } catch (e) { toast(e.message); }
@@ -22,7 +86,7 @@ async function join(create) {
   try {
     const res = await (window.DragonNetwork?.fetch || fetch)(create ? '/api/rooms' : `/api/room/${id}/join`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) });
     const data = await res.json(); if (!res.ok) throw new Error(data.error || 'Unable to join.');
-    room = data.id; seat = data.seat; location.hash = room; practiceGame = null; intentional = false; connect();
+    resumeAttempt++; disconnect(); room = data.id; seat = data.seat; location.hash = room; practiceGame = null; intentional = false; rememberTable(); connect();
   } catch (e) { toast(e.message); } finally { button.disabled = false; }
 }
 function connect() {
@@ -37,14 +101,20 @@ function connect() {
   socket.onclose = event => {
     connected = false;
     if (intentional) return;
-    if (event.code === 4001 || event.code === 4000) { status('Disconnected'); toast(event.reason); return; }
+    if (event.code === 4001 || event.code === 4000) {
+      status('Disconnected'); toast(event.reason);
+      if (event.code === 4000) clearArenaSession();
+      if (!game) { $('arena-resume').hidden = true; $('lobby').hidden = false; }
+      return;
+    }
+    if (!game) $('resume-message').textContent = 'Connection interrupted. Retrying your saved table…';
     status('Reconnecting…'); reconnectTimer = setTimeout(connect, 3000);
   };
   socket.onerror = () => status('Connection interrupted');
 }
 setInterval(() => { if (socket?.readyState === WebSocket.OPEN) socket.send('ping'); }, 30000);
 function practice() {
-  intentional = true; socket?.close(); clearTimeout(reconnectTimer); room = ''; location.hash = ''; seat = 0;
+  resumeAttempt++; intentional = true; disconnect(); room = ''; location.hash = ''; seat = 0;
   practiceGame = newGame(); addPlayer(practiceGame, 'practice-a', $('name').value || 'You'); addPlayer(practiceGame, 'practice-b', 'Practice opponent');
   act(practiceGame, 0, { type: 'load', deck: demo() }); act(practiceGame, 1, { type: 'load', deck: practiceDeck(true) }); act(practiceGame, 0, { type: 'start' });
   game = view(practiceGame, seat); selected = null; status('Solo practice · both seats'); render();
@@ -117,6 +187,7 @@ function fieldHTML(p, owner) {
 }
 
 function render() {
+  rememberTable(); $('arena-resume').hidden = true;
   $('lobby').hidden = true; $('table').hidden = false;
   $('room-label').textContent = practiceGame ? 'SCORE DBZ · SOLO PRACTICE · NO AI' : `SCORE DBZ · PRIVATE TABLE · ${room.slice(0,8)}`;
   document.body.classList.add('at-table'); $('switch-seat').hidden = !practiceGame; $('copy-invite').hidden = !!practiceGame; $('open-deck').disabled = game.status !== 'waiting';
@@ -196,7 +267,9 @@ $('room-form').onsubmit = e => { e.preventDefault(); join(true); };
 $('join-form').onsubmit = e => { e.preventDefault(); join(false); };
 $('practice').onclick = practice;
 $('switch-seat').onclick = () => { seat = 1 - seat; selected = null; game = view(practiceGame, seat); render(); };
-$('leave').onclick = () => { intentional = true; clearTimeout(reconnectTimer); socket?.close(); location.href = '/'; };
+$('leave').onclick = returnToLobby;
+$('resume-retry').onclick = () => resumeTable(resumeRoomId);
+$('resume-lobby').onclick = returnToLobby;
 $('copy-invite').onclick = async () => { try { await navigator.clipboard.writeText(`${location.origin}/arena/#${room}`); toast('Invite copied. Share it with your opponent.'); } catch { toast(`Room code: ${room}`); } };
 let availableBuilderDecks=[];
 $('open-deck').onclick = async () => {
@@ -238,7 +311,6 @@ $('deck-form').onsubmit = e => {
 $('deck-file').onchange = async e => { const f = e.target.files[0]; if (!f) return; if (f.size > 48000) return toast('Deck file must be under 48 KB.'); $('deck-text').value = await f.text(); };
 $('chat-form').onsubmit = e => { e.preventDefault(); const text = $('chat').value.trim(); if (text) { send({ type: 'chat', text }); $('chat').value = ''; } };
 try { $('name').value = localStorage.getItem('score-name') || ''; const draft = JSON.parse(localStorage.getItem('score-deck') || 'null'); if (draft) { $('mp-ids').value = draft.leader; $('deck-text').value = draft.text; $('mastery-id').value=draft.mastery||''; $('sensei-id').value=draft.sensei||''; $('tokui').value=draft.tokui||''; } } catch { /* invalid saved draft */ }
-if (/^#[a-f0-9]{32}$/.test(location.hash)) { $('room-code').value = location.hash.slice(1); $('join-form').querySelector('button').textContent = 'Join / resume this table'; }
 // Failed image URLs leave the readable card name and ID available.
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') { e.target.hidden = true; e.target.parentElement.classList.remove('has-image'); } }, true);
 
@@ -248,3 +320,4 @@ $('close-card-zoom').onclick=()=>$('card-zoom').close();
 
 $('close-card-controls').onclick=()=>{selected=null;renderInspector();document.querySelectorAll('.card.selected').forEach(c=>c.classList.remove('selected'));};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('card-zoom').open){selected=null;renderInspector();}});
+restoreTable();
