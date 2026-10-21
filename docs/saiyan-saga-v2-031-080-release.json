@@ -1,0 +1,532 @@
+{
+  "release": "Saiyan Saga 031–080 V2",
+  "source_zip": "https://dragonballocg.com/api/files/7749b70c-8cd4-4d9f-830d-0fffc5ad25d7/98ed62b82b284830084a1c649ac4c2dc12433a9b9215781873768cb39438f411/Saiyan-Saga-031-080-V2-Site-Ready.zip",
+  "cards": 50,
+  "range": [
+    31,
+    80
+  ],
+  "display_dimensions": [
+    1060,
+    1484
+  ],
+  "lossless_download_dimensions": [
+    2120,
+    2968
+  ],
+  "replacement_artwork_cards": [
+    37,
+    44,
+    74
+  ],
+  "verified_tests": 82,
+  "catalog_entries_preserved": 207,
+  "artwork_commit": "5d6c6052a126e1b9940f04962dbe497a12e56b6d",
+  "files": [
+    {
+      "path": "public/cards/catalog.js",
+      "size": 120327,
+      "sha": "b52c5e2d291ab2b7efb80c2986586edf3025712b"
+    },
+    {
+      "path": "public/assets/cards/saiyan-031-fortify-your-spirit.webp",
+      "size": 345790,
+      "sha": "87b4d7338c89d35b6d37f678e15a7fc2f056813b"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-031-fortify-your-spirit.webp",
+      "size": 3249342,
+      "sha": "78204841de7ea0728f5bb39fda01b344b456e691"
+    },
+    {
+      "path": "public/assets/cards/saiyan-032-the-untroubled-mind-is-focused.webp",
+      "size": 282866,
+      "sha": "0c51a50966d838023f0e4c408bbd288bd024d842"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-032-the-untroubled-mind-is-focused.webp",
+      "size": 2848368,
+      "sha": "a95ae85e06e2b2ad58742ef1b13061efe82b769c"
+    },
+    {
+      "path": "public/assets/cards/saiyan-033-its-the-little-things-that-matter.webp",
+      "size": 280862,
+      "sha": "53b7e603279108a9a845766edd10fcfe0930cc8a"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-033-its-the-little-things-that-matter.webp",
+      "size": 2744768,
+      "sha": "c4fd2966057f7a011ecc6c5cb88528b7677ce0c9"
+    },
+    {
+      "path": "public/assets/cards/saiyan-034-straining-off-balancing-move.webp",
+      "size": 276608,
+      "sha": "a112f2a1b3c514730b0efdb726597ae5bf86f72b"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-034-straining-off-balancing-move.webp",
+      "size": 2683940,
+      "sha": "e5cdba419210f72d8500fe1bab7ee6be7a8d429e"
+    },
+    {
+      "path": "public/assets/cards/saiyan-035-straining-penetrating-attack-move.webp",
+      "size": 297246,
+      "sha": "3848cab775bf223081a57b89c2cd62e7a64662e7"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-035-straining-penetrating-attack-move.webp",
+      "size": 2874310,
+      "sha": "103a0ac076a8528d78ee786eea8684e15243c54d"
+    },
+    {
+      "path": "public/assets/cards/saiyan-036-straining-fake-left-move.webp",
+      "size": 327080,
+      "sha": "5a534b02b8814909e29a3b8a11d17f974be7e98b"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-036-straining-fake-left-move.webp",
+      "size": 3159062,
+      "sha": "e9b7dc9932cd5702f0a6a015be8f283129aedd2e"
+    },
+    {
+      "path": "public/assets/cards/saiyan-037-straining-tripping-move.webp",
+      "size": 262140,
+      "sha": "26540d1ace4d77e03444d3f916d0b14bd80872a9"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-037-straining-tripping-move.webp",
+      "size": 2595152,
+      "sha": "8ae630cba8e149a221291f0c4bc5f575cb99396c"
+    },
+    {
+      "path": "public/assets/cards/saiyan-038-straining-arm-drag-move.webp",
+      "size": 330536,
+      "sha": "d11f4b419411343ba1baa909f5485e3a89b5a93c"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-038-straining-arm-drag-move.webp",
+      "size": 3412302,
+      "sha": "3d323dbcd9f61a29990c0bf65f02695ea715ff67"
+    },
+    {
+      "path": "public/assets/cards/saiyan-039-straining-ankle-smash-move.webp",
+      "size": 390382,
+      "sha": "ef38dc86ca9eb41dc495641543e2def0fd757dd1"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-039-straining-ankle-smash-move.webp",
+      "size": 3791828,
+      "sha": "cc50943c05811c21ac3e853778fba351a2d23352"
+    },
+    {
+      "path": "public/assets/cards/saiyan-040-straining-energy-defense-move.webp",
+      "size": 304212,
+      "sha": "4e3b525f5977553eb57ca0859424202dd9a17300"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-040-straining-energy-defense-move.webp",
+      "size": 2979062,
+      "sha": "cc0bed6fd3a77c2c66b119666c80e922b8d98146"
+    },
+    {
+      "path": "public/assets/cards/saiyan-041-straining-head-lock-move.webp",
+      "size": 324798,
+      "sha": "8b9545ba6737cf7328b412d8183c3c3df27894f3"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-041-straining-head-lock-move.webp",
+      "size": 3129752,
+      "sha": "41ae3291d5482f302297c9abfece5132f82c14a7"
+    },
+    {
+      "path": "public/assets/cards/saiyan-042-straining-rolling-escape-move.webp",
+      "size": 381534,
+      "sha": "176a17bc09cd63efa5ba30ea406ab442ebf01de4"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-042-straining-rolling-escape-move.webp",
+      "size": 3510622,
+      "sha": "2d3cdb02f4eb3aa919884085a948c9e26784dfd5"
+    },
+    {
+      "path": "public/assets/cards/saiyan-043-senzu-bean.webp",
+      "size": 281636,
+      "sha": "e908817283529a4c17b1e0583143df45848bcb76"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-043-senzu-bean.webp",
+      "size": 2738424,
+      "sha": "2fd768fbe4efc497a3c9c9e462d720bcda7154a7"
+    },
+    {
+      "path": "public/assets/cards/saiyan-044-goku-body-throw.webp",
+      "size": 241220,
+      "sha": "0ac82385474d6c68a3e5f15a8795ea5ae40db113"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-044-goku-body-throw.webp",
+      "size": 2399822,
+      "sha": "46501e93e36cc960c61a52a858161d8d62c55814"
+    },
+    {
+      "path": "public/assets/cards/saiyan-045-saiyan-city-destruction.webp",
+      "size": 282456,
+      "sha": "8317c02e4b23012a9716ca7476aa44cf4f72d059"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-045-saiyan-city-destruction.webp",
+      "size": 2693064,
+      "sha": "2d30115ff178dafb060333bc7296d53281160533"
+    },
+    {
+      "path": "public/assets/cards/saiyan-046-goku-anger-attack.webp",
+      "size": 288850,
+      "sha": "6322908268c2c9961ccf3e2bc4783c8a50ec9572"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-046-goku-anger-attack.webp",
+      "size": 3059842,
+      "sha": "82d56e1ec1c11d1abc4ae4f94326c949d3ecb6de"
+    },
+    {
+      "path": "public/assets/cards/saiyan-047-raditz-total-defense.webp",
+      "size": 276678,
+      "sha": "af0f57255727d4d613fa5f4181f1942e37a84240"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-047-raditz-total-defense.webp",
+      "size": 2677072,
+      "sha": "2dffd493f36a18c9e62ddc037dca55869e052e87"
+    },
+    {
+      "path": "public/assets/cards/saiyan-048-gokus-touch.webp",
+      "size": 263032,
+      "sha": "4f1011b3a53aceb02e6ef39b37b0ce1fab1d35da"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-048-gokus-touch.webp",
+      "size": 2581658,
+      "sha": "0b1702c88439ed1650aef3187c4260a998c7913c"
+    },
+    {
+      "path": "public/assets/cards/saiyan-049-orange-wrist-flex-takedown.webp",
+      "size": 360424,
+      "sha": "09c89367dee8980ad209b0028ba7c22a6a02779b"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-049-orange-wrist-flex-takedown.webp",
+      "size": 3175842,
+      "sha": "bf516054034ccfdf78403095dc4f095b01ffab18"
+    },
+    {
+      "path": "public/assets/cards/saiyan-050-orange-shoulder-throw.webp",
+      "size": 268530,
+      "sha": "266542130838957d25195687a6511914b1c073c3"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-050-orange-shoulder-throw.webp",
+      "size": 2442346,
+      "sha": "4d1d257743015e370afb59b25e345dd1c559822c"
+    },
+    {
+      "path": "public/assets/cards/saiyan-051-orange-hip-throw.webp",
+      "size": 301388,
+      "sha": "bbc10aceed83741ca467b6df53452ed4ff68a430"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-051-orange-hip-throw.webp",
+      "size": 2746122,
+      "sha": "856c47f12850acc398cb70659daca3bdb278163d"
+    },
+    {
+      "path": "public/assets/cards/saiyan-052-orange-neck-restraints.webp",
+      "size": 269058,
+      "sha": "0f5c19b4f898e10b17ac6e56a12d41575550e617"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp",
+      "size": 2529278,
+      "sha": "ec61045af7c80c3f7a84ad86280964444422c773"
+    },
+    {
+      "path": "public/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
+      "size": 299276,
+      "sha": "6ccab16cb0368426e51c55bd82ebc2785cb88698"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp",
+      "size": 2594876,
+      "sha": "ba42d06d2d7d5820fa9ff49f97efcf7cdc00a3cd"
+    },
+    {
+      "path": "public/assets/cards/saiyan-054-red-knee-strike.webp",
+      "size": 267838,
+      "sha": "70d2c0c2b2efeda0f9637f84a003009610d48191"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-054-red-knee-strike.webp",
+      "size": 2836758,
+      "sha": "908042f17a114ad23c3205e7e5e7497bab936fb5"
+    },
+    {
+      "path": "public/assets/cards/saiyan-055-red-front-kick.webp",
+      "size": 283898,
+      "sha": "033f2b4ea6d1dafb5898f00f5da75753c6b4ccf6"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-055-red-front-kick.webp",
+      "size": 2764580,
+      "sha": "ef9c203fe21b7d5748998c797d5942191999010a"
+    },
+    {
+      "path": "public/assets/cards/saiyan-056-red-side-kick.webp",
+      "size": 289992,
+      "sha": "eab51e14c9fba0ceb8d203b1092e5d5fae1627de"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-056-red-side-kick.webp",
+      "size": 2781610,
+      "sha": "6fcd11b48703b031342be2c19eb5aed4db88c10d"
+    },
+    {
+      "path": "public/assets/cards/saiyan-057-red-round-kick.webp",
+      "size": 273162,
+      "sha": "730b7a2db4ca174ef0563f789217bd5a28a5a6a0"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-057-red-round-kick.webp",
+      "size": 2637212,
+      "sha": "22390f5f0d42df373c2d05ebcfc4859246f1ce37"
+    },
+    {
+      "path": "public/assets/cards/saiyan-058-red-back-kick.webp",
+      "size": 295968,
+      "sha": "34d5eee59a416068bb817deb0454eb484f92257f"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-058-red-back-kick.webp",
+      "size": 2961212,
+      "sha": "461378e97cbaf37f4a0cb0a815624af747d61086"
+    },
+    {
+      "path": "public/assets/cards/saiyan-059-blue-big-outside-drop.webp",
+      "size": 256056,
+      "sha": "23dcc841e035f8c062942004262da3254cad6885"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp",
+      "size": 2491652,
+      "sha": "1b9335db578c9369224dd6158607ddb137ae29a9"
+    },
+    {
+      "path": "public/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp",
+      "size": 261502,
+      "sha": "156a6e761c4e42cdfc8ebfc51adda9e7a82c4880"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp",
+      "size": 2551284,
+      "sha": "c6188b428123000e9ae66a98460ecd30aeb3c655"
+    },
+    {
+      "path": "public/assets/cards/saiyan-061-blue-body-drop-throw.webp",
+      "size": 298512,
+      "sha": "a573ecfbf5167a5260e2093b707c952f860573d6"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-061-blue-body-drop-throw.webp",
+      "size": 2768186,
+      "sha": "7a3642f858c6aff24820e88e37194a67029a5586"
+    },
+    {
+      "path": "public/assets/cards/saiyan-062-blue-inner-leg-throw.webp",
+      "size": 263496,
+      "sha": "d72446e0723786423fc0cd675009680b1f8d7826"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-062-blue-inner-leg-throw.webp",
+      "size": 2503384,
+      "sha": "ba40a4ad50a2ec6f15c930a233b023664fb43d38"
+    },
+    {
+      "path": "public/assets/cards/saiyan-063-blue-big-whirl-throw.webp",
+      "size": 280952,
+      "sha": "adf79dd073f5c42243aacf1d8175562c35b26945"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp",
+      "size": 2958112,
+      "sha": "0ee4f6054d7c334f826c99dec3ba0829cd41a082"
+    },
+    {
+      "path": "public/assets/cards/saiyan-064-blue-ground-holding.webp",
+      "size": 244790,
+      "sha": "d2dd730898b6a4b5fc9dd91dbe463d77e830f5b0"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-064-blue-ground-holding.webp",
+      "size": 2475566,
+      "sha": "e147be0ecacbf04d6d9700572a082a92eefd674a"
+    },
+    {
+      "path": "public/assets/cards/saiyan-065-black-fore-fist-punch.webp",
+      "size": 217028,
+      "sha": "04446c7829c133cdfa5448a004d5ecc3db86e460"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-065-black-fore-fist-punch.webp",
+      "size": 2276068,
+      "sha": "b8aa5195e1ef70690bd90b5bf284af52ea40676b"
+    },
+    {
+      "path": "public/assets/cards/saiyan-066-black-knife-hand-strike.webp",
+      "size": 289356,
+      "sha": "6d91982886a9dfd64d3e7ac7366c93d7c13bccb7"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp",
+      "size": 3009624,
+      "sha": "546e953c500b12fb81c1b1188d949f9e805aa2a7"
+    },
+    {
+      "path": "public/assets/cards/saiyan-067-black-elbow-strike.webp",
+      "size": 258364,
+      "sha": "2020826944f09c30d8563697663651059d96a4a5"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-067-black-elbow-strike.webp",
+      "size": 2721522,
+      "sha": "d1f55807458629ab71ea5fd60fbcd82f7150a8c5"
+    },
+    {
+      "path": "public/assets/cards/saiyan-068-black-front-kick.webp",
+      "size": 196716,
+      "sha": "ab858c2b5d945907e2de186ec8917e4b19734433"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-068-black-front-kick.webp",
+      "size": 2139718,
+      "sha": "bc2aa732519b29cdd857549bef3506943efb1a6b"
+    },
+    {
+      "path": "public/assets/cards/saiyan-069-black-side-kick.webp",
+      "size": 213306,
+      "sha": "5c876b808aea63d6ddcfb9291869d30a9eaee788"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-069-black-side-kick.webp",
+      "size": 2420090,
+      "sha": "4279f95ede2e0db385efef7a350f226d124083d8"
+    },
+    {
+      "path": "public/assets/cards/saiyan-070-black-turning-kick.webp",
+      "size": 318076,
+      "sha": "9008236a08911a5489f49d94d44b8aa93e6a8748"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-070-black-turning-kick.webp",
+      "size": 3133886,
+      "sha": "9958cbae359fbcb760d8b1d3588f24dfdd823759"
+    },
+    {
+      "path": "public/assets/cards/saiyan-071-black-back-kick.webp",
+      "size": 244672,
+      "sha": "ac0588d598f5e1586bfcc2483f8b687136ce8685"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-071-black-back-kick.webp",
+      "size": 2553610,
+      "sha": "7e17cc7071cf0a81e69fce043e32941e5b9c9f36"
+    },
+    {
+      "path": "public/assets/cards/saiyan-072-black-axe-heel-kick.webp",
+      "size": 318326,
+      "sha": "572d27c0b29cd05fa7654436f4307c988e8194b8"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp",
+      "size": 3261900,
+      "sha": "1d4800fafc9fd873f28ab3e9cd965588befa6368"
+    },
+    {
+      "path": "public/assets/cards/saiyan-073-black-rear-spin-kick.webp",
+      "size": 252256,
+      "sha": "0e64be114d2c079321e083d9a5b4542cab2eafd7"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-073-black-rear-spin-kick.webp",
+      "size": 2655136,
+      "sha": "5528f9e5fdaf37795144e23e181ac3a8cb4e6da8"
+    },
+    {
+      "path": "public/assets/cards/saiyan-074-black-jump-turn-kick.webp",
+      "size": 263218,
+      "sha": "b8c073ea33eecbc84e004fd066260b6df1c18b9a"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-074-black-jump-turn-kick.webp",
+      "size": 2882786,
+      "sha": "abe5278d1be7434a3c41ffb8bd892b91b8a0fac4"
+    },
+    {
+      "path": "public/assets/cards/saiyan-075-earth-dragon-ball-3.webp",
+      "size": 417024,
+      "sha": "dc13f69029f53566ca314b7290b49ee59e03b2ac"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp",
+      "size": 3850118,
+      "sha": "2dca542bca0cac8f7c1ed77bc9838af7e63f17e9"
+    },
+    {
+      "path": "public/assets/cards/saiyan-076-earth-dragon-ball-4.webp",
+      "size": 417994,
+      "sha": "7b6d23bd4ae0cf53a52330c0043c6c4dbe642cd9"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp",
+      "size": 3847448,
+      "sha": "2dbe06122c7c5830dbd6337fb28d0d37cda5e404"
+    },
+    {
+      "path": "public/assets/cards/saiyan-077-earth-dragon-ball-5.webp",
+      "size": 425004,
+      "sha": "03dbb4fa33d90601ac0f1e501e616c702bbb9d78"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp",
+      "size": 3856868,
+      "sha": "b102890fa2326b4f0f2c1ce3a20f321d135084cb"
+    },
+    {
+      "path": "public/assets/cards/saiyan-078-roshis-training.webp",
+      "size": 246882,
+      "sha": "2f1cd7235d6b6642e8d3ae9bb271e9a0d608a4ce"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-078-roshis-training.webp",
+      "size": 2466556,
+      "sha": "119b77a963213f53d84ba055ff4621993b23cdc0"
+    },
+    {
+      "path": "public/assets/cards/saiyan-079-king-kai-training.webp",
+      "size": 311806,
+      "sha": "86cc4c92bf67ba0d27a7e8ab9688edacebe68cf1"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-079-king-kai-training.webp",
+      "size": 3188250,
+      "sha": "4b528f1f41d32aee627b82b80a9708acad5daf96"
+    },
+    {
+      "path": "public/assets/cards/saiyan-080-saiyan-training.webp",
+      "size": 296226,
+      "sha": "81427c153bac1166008c5dd43e2553aa472422ae"
+    },
+    {
+      "path": "public/assets/cards/downloads/saiyan-080-saiyan-training.webp",
+      "size": 2861456,
+      "sha": "b0fe31f953814249108ee0b836b8febccf352e08"
+    }
+  ]
+}
