@@ -2135,11 +2135,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=6884658e45cf",
+    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=cef33e9e53b0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=68cddb509d26"
+    "downloadImage": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=9bbd51698507"
   },
   {
     "id": "saiyan-154-piccolo-sidestep",
@@ -3488,5 +3488,6 @@ export const catalog = [
     "height": 1484
   }
 ];
+
 
 

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "scope": "Replace only card 153 artwork using supplied 1745.jpg; eliminate stretched edge fill. Retain all text, icons and native frame geometry.",
+  "card": {
+    "number": 153,
+    "id": "saiyan-153-goku-energy-blast",
+    "name": "Goku Energy Blast!",
+    "batch": "131-180",
+    "supplied_image": "01-1745.jpg",
+    "supplied_sha256": "023d8d2b6b4798e838236c3153ff3a9bbc7ffd6ffd623525529f10578efd855e",
+    "artwork_sha256": "f55a24dffa29b1dee178b4db6142200afc8e06006e758989bcf41c226e55e12c",
+    "native_frame_and_text_unchanged": true,
+    "complete_image_preserved": true,
+    "lossless_pixels_match": true,
+    "artwork": {
+      "mode": "contain",
+      "source_size": [
+        1536,
+        1208
+      ],
+      "source_visible_fraction": 1.0,
+      "rendered_size": [
+        1027,
+        807.6927083333334
+      ],
+      "added_zoom": false,
+      "source_pixels_changed": false,
+      "edge_fill": null,
+      "modernized": true,
+      "original_file": "provenance/goku-153-01-1745.jpg",
+      "original_sha256": "023d8d2b6b4798e838236c3153ff3a9bbc7ffd6ffd623525529f10578efd855e",
+      "artwork_sha256": "f55a24dffa29b1dee178b4db6142200afc8e06006e758989bcf41c226e55e12c",
+      "provenance": "Correct-aspect-ratio artwork 1745.jpg supplied by user on 22 October 2026. Complete illustration retained proportionally. All stretched edge fills removed."
+    },
+    "display_sha256": "cef33e9e53b00e21ca987a14078be078226ab5b6710a037071e620a4ecf27f07",
+    "download_sha256": "9bbd5169850734b946c187d526f7dcddae6f720b8acc7c16516b84a8b571bce9",
+    "svg_sha256": "f5dc32bb6036bcdfec5ccbd420f95f88e9d82e5f3bf39dd05b7e76da14bf9146",
+    "png_sha256": "7e59acbed9b6f90f7e821f2bcbdbfda77ce271eeec316f80fae7fefd6ef3e7a6"
+  }
+}
