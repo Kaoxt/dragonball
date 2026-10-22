@@ -1407,11 +1407,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-101-goku-honor-duel.webp?v=d2a79ad4ed3e",
+    "image": "/assets/cards/saiyan-101-goku-honor-duel.webp?v=a959de047a86",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-101-goku-honor-duel.webp?v=66f0b9f00066"
+    "downloadImage": "/assets/cards/downloads/saiyan-101-goku-honor-duel.webp?v=4c24a565ab54"
   },
   {
     "id": "saiyan-102-raditz-honor-duel",
@@ -2135,11 +2135,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=f4b2ff87e248",
+    "image": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=6884658e45cf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=73214955cc2a"
+    "downloadImage": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=68cddb509d26"
   },
   {
     "id": "saiyan-154-piccolo-sidestep",
@@ -3488,4 +3488,5 @@ export const catalog = [
     "height": 1484
   }
 ];
+
 
