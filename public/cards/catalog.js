@@ -2205,11 +2205,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-158-goku.webp?v=901d50a77e27",
+    "image": "/assets/cards/saiyan-158-goku.webp?v=b170f439868f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=c2979457941f"
+    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=3214d9ad759b"
   },
   {
     "id": "saiyan-159-goku",
@@ -2219,11 +2219,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-159-goku.webp?v=054c62deae46",
+    "image": "/assets/cards/saiyan-159-goku.webp?v=e58191988b41",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-159-goku.webp?v=80a9c4f12c87"
+    "downloadImage": "/assets/cards/downloads/saiyan-159-goku.webp?v=9ced0a4d618d"
   },
   {
     "id": "saiyan-160-goku",
@@ -2233,11 +2233,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-160-goku.webp?v=4c4140d7eb51",
+    "image": "/assets/cards/saiyan-160-goku.webp?v=9c34e16072a2",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-160-goku.webp?v=fe1586aa4e47"
+    "downloadImage": "/assets/cards/downloads/saiyan-160-goku.webp?v=a636f8791ca6"
   },
   {
     "id": "saiyan-161-piccolo",
@@ -2499,10 +2499,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=4c9e7594ecaf",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=d7bf92b17c7f",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=0bb9340f2dfa"
+    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=44420a1c4bce"
   },
   {
     "id": "saiyan-180-piccolo-lvl-1-ht",
@@ -3488,3 +3488,4 @@ export const catalog = [
     "height": 1484
   }
 ];
+
