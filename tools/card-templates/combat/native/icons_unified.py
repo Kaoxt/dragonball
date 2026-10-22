@@ -24,6 +24,8 @@ INFINITY = ('M4 18 C4 8 11 2 20 2 C35 2 49 34 67 34 '
             'C78 34 86 28 86 18 C86 8 78 2 67 2 '
             'C49 2 35 34 20 34 C11 34 4 28 4 18 Z')
 
+PANINI_INFINITY = 'M356 297C308 340 303 344 284 358C248 386 201 404 165 404C88 404 25 341 25 264C25 187 88 124 165 124C202 124 247 142 284 170C303 184 308 188 356 231C405 188 410 184 429 170C465 142 511 124 548 124C625 124 688 187 688 264C688 341 625 404 548 404C512 404 465 386 429 358C410 344 405 340 356 297ZM392 264C450 321 505 352 547 352C596 352 636 312 636 264C636 215 596 175 547 175C505 175 449 207 392 264ZM321 264C264 208 208 176 166 176C117 176 77 216 77 264C77 312 117 352 166 352C208 352 264 321 321 264Z'
+
 def shape(kind):
     group = ET.Element(f'{{{NS}}}g', {'fill': '#060606'})
     pen = BoundsPen(None)
@@ -37,12 +39,13 @@ def shape(kind):
         parse_path(SHIELD, pen)
         ET.SubElement(group, f'{{{NS}}}path', {'d': SHIELD})
     elif kind == 'constant':
-        parse_path(INFINITY, pen)
-        ET.SubElement(group, f'{{{NS}}}path', {'d': INFINITY, 'fill': 'none',
-            'stroke': '#060606', 'stroke-width': '6', 'stroke-linecap': 'round',
-            'stroke-linejoin': 'round'})
-        l,t,r,b=pen.bounds
-        return group,(l-3,t-3,r+3,b+3)
+        # Printed-card reference: compact flat infinity followed by a colon.
+        # Normalize to a 32-unit capital-height alignment box.
+        ET.SubElement(group, f'{{{NS}}}path', {'d': PANINI_INFINITY,
+            'transform': 'translate(0 27) scale(0.0588235294117647 -0.0642857142857143) translate(-25 -124)'})
+        for y in (9, 25):
+            ET.SubElement(group, f'{{{NS}}}rect', {'x':'45', 'y':str(y), 'width':'5', 'height':'6'})
+        return group, (0, 0, 50, 32)
     else:
         raise ValueError(kind)
     return group, pen.bounds
