@@ -3506,10 +3506,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=32b6c26c06a1",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=b1b0b152d4e3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=4a1b2132a3d4"
   },
   {
     "id": "saiyan-0P2-piccolo-silver-variant",
@@ -3519,10 +3520,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=38d78ed0d6c6",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=2db8cc76baaf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=fda27395443d"
   },
   {
     "id": "saiyan-0P3-vegeta-silver-variant",
@@ -3532,10 +3534,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=d615ca84cdb4",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=9d7dd6afe70d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=52d2ee40093e"
   },
   {
     "id": "saiyan-0P4-raditz-silver-variant",
@@ -3545,10 +3548,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=44d78a656fd4",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=ce81480caa48",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp?v=f9af82f20f2f"
   },
   {
     "id": "saiyan-0P5-gohan-silver-variant",
@@ -3558,10 +3562,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=9a7c5852c1a1",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=9462e259240c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=96a0fdd482ee"
   },
   {
     "id": "saiyan-0P6-krillin-silver-variant",
@@ -3571,10 +3576,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=6ed2b71d784e",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=fa595d0f4e2f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=6c3e53aeb793"
   },
   {
     "id": "saiyan-0P7-nappa-silver-variant",
@@ -3584,9 +3590,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=4db864804592",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=8635361f9e7d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp?v=1a327d876002"
   }
 ];
