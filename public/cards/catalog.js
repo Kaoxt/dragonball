@@ -203,11 +203,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=23d558641896",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=e534435fd892",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-015-earth-dragon-ball-1.webp?v=935da7610928"
+    "downloadImage": "/assets/cards/downloads/saiyan-015-earth-dragon-ball-1.webp?v=81c40fe56fb9"
   },
   {
     "id": "saiyan-016-earth-dragon-ball-2",
@@ -1071,11 +1071,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=acbf38b994b0",
+    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=b1f41b33922d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=5ecd915a4094"
+    "downloadImage": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=48d5370203ff"
   },
   {
     "id": "saiyan-078-roshis-training",
@@ -2591,10 +2591,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=3c0331188a",
+    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=7a5f4f898df9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-186-earth-dragon-ball-6.webp?v=73ed39750a64"
   },
   {
     "id": "saiyan-187-earth-dragon-ball-7",
@@ -2604,10 +2605,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=2e50a92656",
+    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=bf87ba740b49",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
-    "height": 1484
+    "height": 1484,
+    "downloadImage": "/assets/cards/downloads/saiyan-187-earth-dragon-ball-7.webp?v=bcb607724198"
   },
   {
     "id": "saiyan-188-earth-dragon-ball-capture",
