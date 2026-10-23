@@ -203,11 +203,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=e534435fd892",
+    "image": "/assets/cards/saiyan-015-earth-dragon-ball-1.webp?v=7966ef03b06a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-015-earth-dragon-ball-1.webp?v=81c40fe56fb9"
+    "downloadImage": "/assets/cards/downloads/saiyan-015-earth-dragon-ball-1.webp?v=0ff1509d68c6"
   },
   {
     "id": "saiyan-016-earth-dragon-ball-2",
@@ -217,11 +217,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=f0d12f9607a5",
+    "image": "/assets/cards/saiyan-016-earth-dragon-ball-2.webp?v=d6d1bdebc6d0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-016-earth-dragon-ball-2.webp?v=c1d47cfa54bf"
+    "downloadImage": "/assets/cards/downloads/saiyan-016-earth-dragon-ball-2.webp?v=aa3e7feddd19"
   },
   {
     "id": "saiyan-017-hidden-power-level",
@@ -1043,11 +1043,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=42f8b4f38f00",
+    "image": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=a0d6a99dbd98",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp?v=f931717c5fc4"
+    "downloadImage": "/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp?v=4680debb6e2c"
   },
   {
     "id": "saiyan-076-earth-dragon-ball-4",
@@ -1057,11 +1057,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=00523c5f75c0",
+    "image": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=768895864e5d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp?v=5f3a3b5bc673"
+    "downloadImage": "/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp?v=06264179ae45"
   },
   {
     "id": "saiyan-077-earth-dragon-ball-5",
@@ -1071,11 +1071,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=b1f41b33922d",
+    "image": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=7c26ad34cf11",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=48d5370203ff"
+    "downloadImage": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=7a19baca27f3"
   },
   {
     "id": "saiyan-078-roshis-training",
@@ -2596,11 +2596,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=7a5f4f898df9",
+    "image": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=8ca2404b3f97",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-186-earth-dragon-ball-6.webp?v=73ed39750a64"
+    "downloadImage": "/assets/cards/downloads/saiyan-186-earth-dragon-ball-6.webp?v=f0c8e27fcfe6"
   },
   {
     "id": "saiyan-187-earth-dragon-ball-7",
@@ -2610,11 +2610,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=bf87ba740b49",
+    "image": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=aa3a1dea4991",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-187-earth-dragon-ball-7.webp?v=bcb607724198"
+    "downloadImage": "/assets/cards/downloads/saiyan-187-earth-dragon-ball-7.webp?v=e537dfcfa07a"
   },
   {
     "id": "saiyan-188-earth-dragon-ball-capture",
