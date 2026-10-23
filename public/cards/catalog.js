@@ -7,11 +7,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=09b3d6f886b8",
+    "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=fad0e0f686f7",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=c53ebff0fada"
+    "downloadImage": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=bce25ca1b483"
   },
   {
     "id": "saiyan-002-orange-one-knuckle-punch",
@@ -21,11 +21,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=e9c06d3cfa7b",
+    "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=ee7b302ec422",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=bf0220e4a452"
+    "downloadImage": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=58bfc66c1465"
   },
   {
     "id": "saiyan-003-orange-two-knuckle-punch",
@@ -35,11 +35,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=85fadd29c1ed",
+    "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=8483ed53e57d",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=0267f2d79ecd"
+    "downloadImage": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=fb18a418d381"
   },
   {
     "id": "saiyan-004-orange-leg-sweep",
@@ -49,11 +49,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=f3422958712f",
+    "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=b258c3f1f057",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=3d6bddca381b"
+    "downloadImage": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=02f810fc4771"
   },
   {
     "id": "saiyan-005-orange-arm-bar",
@@ -63,11 +63,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=7f19751a3999",
+    "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=87d20e75f959",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=e70269d41d13"
+    "downloadImage": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=8030767e2f95"
   },
   {
     "id": "saiyan-006-red-lunge-punch",
@@ -323,7 +323,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-024-gokus-surprise-attack",
-    "name": "Goku\u2019s Surprise Attack",
+    "name": "Goku’s Surprise Attack",
     "number": "24",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -337,7 +337,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-025-gokus-physical-attack",
-    "name": "Goku\u2019s Physical Attack",
+    "name": "Goku’s Physical Attack",
     "number": "25",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -351,7 +351,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-026-gohans-physical-attack",
-    "name": "Gohan\u2019s Physical Attack",
+    "name": "Gohan’s Physical Attack",
     "number": "26",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -365,7 +365,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-027-tiens-physical-attack",
-    "name": "Tien\u2019s Physical Attack",
+    "name": "Tien’s Physical Attack",
     "number": "27",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -379,7 +379,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-028-vegetas-physical-stance",
-    "name": "Vegeta\u2019s Physical Stance",
+    "name": "Vegeta’s Physical Stance",
     "number": "28",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -393,7 +393,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-029-yajirobes-physical-attack",
-    "name": "Yajirobe\u2019s Physical Attack",
+    "name": "Yajirobe’s Physical Attack",
     "number": "29",
     "type": "Physical Combat",
     "style": "Freestyle",
@@ -449,7 +449,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-033-its-the-little-things-that-matter",
-    "name": "It\u2019s the Little Things That Matter",
+    "name": "It’s the Little Things That Matter",
     "number": "33",
     "type": "Setup",
     "style": "Freestyle",
@@ -659,7 +659,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-048-gokus-touch",
-    "name": "Goku\u2019s Touch",
+    "name": "Goku’s Touch",
     "number": "48",
     "type": "Setup",
     "style": "Freestyle",
@@ -3488,6 +3488,3 @@ export const catalog = [
     "height": 1484
   }
 ];
-
-
-
