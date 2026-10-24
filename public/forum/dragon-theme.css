@@ -66,12 +66,22 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 }
 .forum-shell .forum-list-heading + .issue-note a{font-weight:600}
 
-/* Consistent forum links: bold white text with a subtle gray hover. */
+/* General forum links retain their strong contrast. */
 body.community-page main .forum-shell a[href]:any-link{
  color:#fff;font-weight:700;text-decoration:none;transition:color .15s ease;
 }
 body.community-page main .forum-shell a[href]:any-link:hover{
  color:#c9c9cd;text-decoration:none;
+}
+
+/* Thread titles use the original soft red accent at regular weight. */
+body.community-page main .forum-shell .forum-latest a[href]:any-link,
+body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link{
+ color:#f0aabe;font-weight:400;
+}
+body.community-page main .forum-shell .forum-latest a[href]:any-link:hover,
+body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover{
+ color:#ffb2c6;text-decoration:underline;
 }
 
 /* Search uses separate compact fields with a visible SVG select indicator. */
