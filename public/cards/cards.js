@@ -1,29 +1,49 @@
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute,catalogSets} from './card-links.js';
+import {cardPath,setPath,catalogRoute} from './card-links.js?v=60-per-page-v1';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(value,value));
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
+const PAGE_SIZE=60;
 let activeSet='';
-let activeView='sets';
+let currentPage=1;
 function resetFilters(){
  $('filters').reset();$('set').value=activeSet;$('sort').value=activeSet?'number':'name';
+ currentPage=1;
 }
-// Also populate the directory when serving this file without the Worker locally.
-if(!$('set-rows').children.length){
- for(const set of catalogSets(catalog)){
-  const row=document.createElement('tr'),name=document.createElement('th'),count=document.createElement('td');
-  name.scope='row';
-  const link=document.createElement('a');link.className='set-entry';link.href=set.path;
-  if(set.image){
-   const logo=document.createElement('span');logo.className=`set-logo set-logo--${set.slug}`;logo.setAttribute('aria-hidden','true');
-   for(const part of ['symbol','lettering']){const img=document.createElement('img');img.className=`set-logo-${part}`;img.src=set.image;img.alt='';img.width=2172;img.height=724;logo.append(img);}
-   link.append(logo);
+function browserURL(page=currentPage){
+ const url=new URL(activeSet?setPath(activeSet):'/cards/',location.origin);
+ for(const key of ['query','type','style'])if($(key).value)url.searchParams.set(key,$(key).value);
+ const defaultSort=activeSet?'number':'name';
+ if($('sort').value!==defaultSort)url.searchParams.set('sort',$('sort').value);
+ if(page>1)url.searchParams.set('page',page);
+ return url.pathname+url.search;
+}
+function renderPagination(pageCount){
+ for(const id of ['pagination-top','pagination-bottom']){
+  const nav=$(id);nav.hidden=pageCount<=1;nav.replaceChildren();
+  if(pageCount<=1)continue;
+  const addLink=(label,page,ariaLabel)=>{
+   const link=document.createElement('a');link.textContent=label;link.href=browserURL(page);
+   if(ariaLabel)link.setAttribute('aria-label',ariaLabel);
+   if(page===currentPage)link.setAttribute('aria-current','page');
+   link.onclick=e=>{
+    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+    e.preventDefault();history.pushState(null,'',link.href);syncRoute();
+    $('card-browser').scrollIntoView({block:'start'});$('results-count').focus({preventScroll:true});
+   };
+   nav.append(link);
+  };
+  const addDisabled=label=>{const span=document.createElement('span');span.textContent=label;span.setAttribute('aria-disabled','true');nav.append(span);};
+  if(currentPage>1)addLink('Previous',currentPage-1,'Previous page');else addDisabled('Previous');
+  const pages=[...new Set([1,pageCount,currentPage-1,currentPage,currentPage+1,...(currentPage<=2?[2,3]:[]),...(currentPage>=pageCount-1?[pageCount-2,pageCount-1]:[])])].filter(p=>p>=1&&p<=pageCount).sort((a,b)=>a-b);
+  let previous=0;
+  for(const page of pages){
+   if(previous&&page>previous+1){const gap=document.createElement('span');gap.className='pagination-gap';gap.textContent='…';gap.setAttribute('aria-hidden','true');nav.append(gap);}
+   addLink(String(page),page,`Page ${page}`);previous=page;
   }
-  const label=document.createElement('span');label.className='set-name';label.textContent=set.name;link.append(label);name.append(link);
-  const countLink=document.createElement('a');countLink.className='set-count';countLink.href=set.path;countLink.textContent=String(set.count);countLink.setAttribute('aria-label',`${set.count} cards in ${set.name}`);count.append(countLink);
-  row.append(name,count);$('set-rows').append(row);
+  if(currentPage<pageCount)addLink('Next',currentPage+1,'Next page');else addDisabled('Next');
  }
 }
 // Show each set's wordmark only when that set is selected.
@@ -45,14 +65,18 @@ function renderCollectionBrand(){
 }
 function render(){
  renderCollectionBrand();
- if(activeView==='sets'){$('card-grid').replaceChildren();return;}
  const query=normalize($('query').value.trim());
  const setCards=catalog.filter(c=>!activeSet||c.set===activeSet);
  const cards=setCards.filter(c=>normalize(`${c.name} ${c.number} ${c.id}`).includes(query)&&['type','style'].every(key=>!$(key).value||c[key]===$(key).value));
  cards.sort((a,b)=>$('sort').value==='number'?a.number.localeCompare(b.number,undefined,{numeric:true}):a.name.localeCompare(b.name));
- $('results-count').textContent=`${cards.length} of ${setCards.length} cards${activeSet?' in '+activeSet:''}`;
+ const pageCount=Math.max(1,Math.ceil(cards.length/PAGE_SIZE));
+ currentPage=Math.min(currentPage,pageCount);
+ const start=(currentPage-1)*PAGE_SIZE;
+ const matching=cards.length<setCards.length?' matching':'';
+ $('results-count').textContent=cards.length?`Showing ${start+1}–${Math.min(start+PAGE_SIZE,cards.length)} of ${cards.length}${matching} cards${activeSet?' in '+activeSet:''}`:'0 matching cards';
+ renderPagination(pageCount);
  $('no-results').hidden=!!cards.length;
- $('card-grid').replaceChildren(...cards.map(c=>{
+ $('card-grid').replaceChildren(...cards.slice(start,start+PAGE_SIZE).map(c=>{
   const button=document.createElement('a');button.className='catalog-card';button.href=cardPath(c);button.setAttribute('aria-label',`View ${c.name}, card ${c.number}`);
   const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
   const title=document.createElement('h2');title.textContent=c.name;
@@ -61,7 +85,7 @@ function render(){
   if(c.status==='Preview'){const badge=document.createElement('span');badge.className='preview-tag';badge.textContent='SAIYAN SAGA PREVIEW';button.append(badge);}
   button.onclick=e=>{
    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
-   e.preventDefault();history.pushState({dbocgCard:true,cardReturnPath:location.pathname},'',cardPath(c));openCard(c);
+   e.preventDefault();history.pushState({dbocgCard:true,cardReturnPath:location.pathname+location.search},'',cardPath(c));openCard(c);
   };return button;
  }));
 }
@@ -73,39 +97,45 @@ function openCard(c){
  $('share-url').value=new URL(cardPath(c),location.origin).href;$('share-status').textContent='';
  $('preview-note').hidden=c.status!=='Preview';if(!$('card-detail').open)$('card-detail').showModal();
 }
-function syncRoute(reset=false){
+function syncRoute(){
  const route=catalogRoute(location.pathname,catalog)||{kind:'missing'};
  let base=route;
+ let url=new URL(location.pathname+location.search,location.origin);
  if(route.kind==='card'&&history.state?.dbocgCard){
-  const previous=catalogRoute(history.state.cardReturnPath||'',catalog);
-  if(previous&&['set','all'].includes(previous.kind))base=previous;
+  const previousURL=new URL(history.state.cardReturnPath||'/cards/',location.origin);
+  const previous=catalogRoute(previousURL.pathname,catalog);
+  if(previous&&['set','all'].includes(previous.kind)){base=previous;url=previousURL;}
  }
- const nextSet=base.set||'';
- const nextView=['sets','missing'].includes(route.kind)?'sets':'cards';
- const changed=nextSet!==activeSet||nextView!==activeView;
- activeSet=nextSet;activeView=nextView;
- if(reset||changed)resetFilters();
- $('set').value=activeSet;
+ activeSet=base.set||'';
+ resetFilters();
+ for(const key of ['query','type','style','sort']){
+  const value=url.searchParams.get(key);
+  if(value!==null&&(key==='query'||[...$(key).options].some(option=>option.value===value)))$(key).value=value;
+ }
+ const page=Number(url.searchParams.get('page'));
+ currentPage=Number.isSafeInteger(page)&&page>0?page:1;
  $('card-link-error').hidden=route.kind!=='missing';
- $('set-directory').hidden=activeView!=='sets';
- $('card-browser').hidden=activeView==='sets';
- $('breadcrumb-current').textContent=activeSet||'All cards';
+ $('cards-breadcrumbs').hidden=!activeSet;
+ $('breadcrumb-current').textContent=activeSet;
  render();
  if(route.kind==='card'){openCard(route.card);return;}
  if($('card-detail').open)$('card-detail').close();
- document.title=activeView==='sets'?'Card sets | Dragon Ball OCG':`${activeSet||'All cards'} | Dragon Ball OCG`;
+ if(route.kind!=='missing')history.replaceState(null,'',browserURL());
+ document.title=`${activeSet||'All cards'} | Dragon Ball OCG`;
 }
 function closeCard(){
  if(history.state?.dbocgCard){history.back();return;}
  const route=catalogRoute(location.pathname,catalog);
- history.replaceState(null,'',route?.set?setPath(route.set):'/cards/all/');syncRoute();
+ history.replaceState(null,'',route?.set?setPath(route.set):'/cards/');syncRoute();
 }
-$('filters').onsubmit=e=>e.preventDefault();$('query').oninput=render;
-$('set').onchange=()=>location.assign($('set').value?setPath($('set').value):'/cards/all/');
-for(const key of ['type','style','sort'])$(key).onchange=render;
+function changeFilters(){
+ currentPage=1;render();history.replaceState(null,'',browserURL());
+}
+$('filters').onsubmit=e=>e.preventDefault();$('query').oninput=changeFilters;
+$('set').onchange=()=>location.assign($('set').value?setPath($('set').value):'/cards/');
+for(const key of ['type','style','sort'])$(key).onchange=changeFilters;
 $('clear').onclick=()=>{
- resetFilters();
- render();$('query').focus();
+ resetFilters();changeFilters();$('query').focus();
 };
 $('copy-link').onclick=async()=>{
  try{await navigator.clipboard.writeText($('share-url').value);$('share-status').textContent='Link copied.';}
@@ -115,5 +145,5 @@ $('close-detail').onclick=closeCard;
 $('card-detail').addEventListener('cancel',e=>{e.preventDefault();closeCard();});
 $('card-detail').addEventListener('click',e=>{if(e.target===$('card-detail')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeCard();}});
 window.addEventListener('popstate',()=>syncRoute());
-window.addEventListener('pageshow',()=>syncRoute(true));
-syncRoute(true);
+window.addEventListener('pageshow',()=>syncRoute());
+syncRoute();

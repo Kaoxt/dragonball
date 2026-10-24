@@ -18,17 +18,14 @@ export async function cardPage(request, assets) {
   const card = route.card;
   const sets = catalogSets(catalog);
   const set = sets.find(set => set.name === route.set);
-  const isDirectory = ['sets','missing'].includes(route.kind);
   const title = card ? `${card.name} · ${card.set} #${card.number} | Dragon Ball OCG`
     : route.kind === 'missing' ? 'Cards not found | Dragon Ball OCG'
-    : isDirectory ? 'Card sets | Dragon Ball OCG' : `${route.set || 'All cards'} | Dragon Ball OCG`;
+    : `${route.set || 'All cards'} | Dragon Ball OCG`;
   html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHTML(title)}</title>`);
-  const rows = sets.map(set => `<tr><th scope="row"><a class="set-entry" href="${set.path}">${set.image ? `<span class="set-logo set-logo--${set.slug}" aria-hidden="true"><img class="set-logo-symbol" src="${set.image}" alt="" width="2172" height="724"><img class="set-logo-lettering" src="${set.image}" alt="" width="2172" height="724"></span>` : ''}<span class="set-name">${escapeHTML(set.name)}</span></a></th><td><a class="set-count" href="${set.path}" aria-label="${set.count} cards in ${escapeHTML(set.name)}">${set.count}</a></td></tr>`).join('');
-  html = html.replace('<!-- SET_ROWS -->', rows);
   html = html.replace('<select id="set"><option value="">All sets</option></select>', `<select id="set"><option value=""${!set?' selected':''}>All sets</option>${sets.map(item => `<option value="${escapeHTML(item.name)}"${item.name===route.set?' selected':''}>${escapeHTML(item.name)}</option>`).join('')}</select>`);
-  if (!isDirectory) {
-    html = html.replace('id="set-directory"', 'id="set-directory" hidden').replace('id="card-browser" hidden', 'id="card-browser"');
-    html = html.replace('id="breadcrumb-current" aria-current="page">All cards', `id="breadcrumb-current" aria-current="page">${escapeHTML(route.set||'All cards')}`);
+  if (set) {
+    html = html.replace('id="cards-breadcrumbs" hidden', 'id="cards-breadcrumbs"');
+    html = html.replace('id="breadcrumb-current" aria-current="page">All cards', `id="breadcrumb-current" aria-current="page">${escapeHTML(route.set)}`);
   }
   if (route.kind !== 'missing') {
     const canonical = new URL(route.path, url).href;

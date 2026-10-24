@@ -26,8 +26,7 @@ export function cardFromPath(pathname, catalog) {
 }
 
 export function catalogRoute(pathname, catalog) {
-  if (/^\/cards\/?$/.test(pathname) || pathname === '/cards/index.html') return {kind:'sets', path:'/cards/'};
-  if (/^\/cards\/all\/?$/i.test(pathname)) return {kind:'all', path:'/cards/all/', set:''};
+  if (/^\/cards\/?$/.test(pathname) || pathname === '/cards/index.html' || /^\/cards\/all\/?$/i.test(pathname)) return {kind:'all', path:'/cards/', set:''};
   const card = cardFromPath(pathname, catalog);
   if (card) return {kind:'card', path:cardPath(card), card, set:card.set};
   const match = /^\/cards\/([^/.]+)\/?$/.exec(pathname);

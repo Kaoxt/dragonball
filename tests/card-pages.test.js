@@ -51,18 +51,17 @@ test('card aliases redirect; missing cards return a useful 404; assets remain un
   assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/frieza-saga/011',{method:'POST'}), assets)).status,405);
 });
 
-test('set directory lists every published set with its logo, count and permanent URL', async () => {
-  const response = await cardPage(new Request('https://dragonballocg.com/cards/'), assets);
-  const body = await response.text();
+test('Cards serves the browser directly with set filters and pagination containers', async () => {
+  const response=await cardPage(new Request('https://dragonballocg.com/cards/?page=2'),assets);
+  const body=await response.text();
   assert.equal(response.status,200);
-  assert.ok(body.includes('id="card-browser" hidden'));
-  assert.ok(!body.includes('id="set-directory" hidden'));
-  for(const set of catalogSets(catalog)) {
-    assert.ok(body.includes(`class="set-entry" href="${set.path}"`));
-    assert.ok(body.includes(`${set.count} cards in ${set.name}`));
-    assert.ok(body.includes(set.image));
-    assert.equal(catalogRoute(set.path,catalog).set,set.name);
-  }
+  assert.ok(body.includes('id="card-browser"'));
+  assert.ok(!body.includes('id="card-browser" hidden'));
+  assert.ok(!body.includes('id="set-directory"'));
+  assert.ok(body.includes('id="pagination-top"'));
+  assert.ok(body.includes('id="pagination-bottom"'));
+  for(const set of catalogSets(catalog)) assert.ok(body.includes(`<option value="${set.name}"`));
+  assert.equal(catalogRoute('/cards/',catalog).kind,'all');
 });
 
 test('fresh requests and refreshes retain the URL-selected set and show set breadcrumbs', async () => {
@@ -74,7 +73,7 @@ test('fresh requests and refreshes retain the URL-selected set and show set brea
       assert.equal(response.status,200);
       assert.ok(body.includes(`<option value="${name}" selected>`));
       assert.ok(body.includes(`id="breadcrumb-current" aria-current="page">${name}`));
-      assert.ok(body.includes('id="set-directory" hidden'));
+      assert.ok(!body.includes('id="set-directory"'));
       assert.ok(!body.includes('id="card-browser" hidden'));
       assert.ok(body.includes(`rel="canonical" href="https://dragonballocg.com${path}"`));
     }
@@ -83,7 +82,8 @@ test('fresh requests and refreshes retain the URL-selected set and show set brea
   assert.equal(alias.status,308);
   assert.equal(alias.headers.get('location'),'https://dragonballocg.com/cards/frieza-saga/');
   assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/missing-set/'),assets)).status,404);
-  assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/all/'),assets)).status,200);
+  const all=await cardPage(new Request('https://dragonballocg.com/cards/all/?page=2'),assets);
+  assert.equal(all.status,308);assert.equal(all.headers.get('location'),'https://dragonballocg.com/cards/?page=2');
 });
 
 test('actual Worker dispatch routes card links and still delegates database assets', async () => {
