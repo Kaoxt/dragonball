@@ -84,6 +84,17 @@ body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover
  color:#ffb2c6;text-decoration:underline;
 }
 
+/* Keep category activity on one row, using the space below the post count. */
+.forum-shell .forum-category{grid-template-columns:42px minmax(0,1fr) max-content;row-gap:10px}
+.forum-shell .forum-category p{margin-bottom:0}
+.forum-shell .forum-category-count{display:flex;align-self:start;align-items:baseline;gap:4px;white-space:nowrap}
+.forum-shell .forum-category-count strong{font-size:13px}
+.forum-shell .forum-category-activity{grid-column:2/-1;min-width:0}
+.forum-shell .forum-latest{flex-wrap:nowrap;column-gap:10px}
+.forum-shell .forum-latest a{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.forum-shell .forum-latest>span{flex:none;white-space:nowrap}
+@media(max-width:700px){.forum-shell .forum-category{grid-template-columns:32px minmax(0,1fr) max-content}}
+
 /* Search uses separate compact fields with a visible SVG select indicator. */
 #forum-search-dialog{--search-field:#180f14;--search-line:#67404f;--search-focus:#d889a3;width:min(620px,calc(100% - 32px));padding:22px;margin:clamp(24px,10dvh,90px) auto 0;max-height:calc(100dvh - 48px);overflow:auto}
 #forum-search-dialog .forum-popup-search{display:block;margin:0}
