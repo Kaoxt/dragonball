@@ -102,8 +102,8 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 @media(min-width:900px){.news-layout{grid-template-columns:minmax(0,1fr) 310px;gap:36px}}
 @media(max-width:650px){.next-move{padding:20px}.next-move h2 img{max-width:280px;margin:auto}.hub-art{height:150px}.hub-copy strong{font-size:15px}.hub-copy small{font-size:12px}}
 
-/* Match the arena banner's angular lettering without changing the card or links. */
-.home-page .next-move h2{font-size:0;line-height:0;text-align:center;margin:8px 0 22px}
+/* Match the navigation's vector lettering in the sidebar heading. */
+.home-page .next-move h2{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:0;line-height:0;text-align:center;margin:8px 0 22px}
 .home-page .next-move h2 img{display:block;width:100%;max-width:280px;height:auto;margin:auto}
 
 /* Community links share the sidebar's quiet separators. */
