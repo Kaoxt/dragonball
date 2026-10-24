@@ -4,17 +4,21 @@ const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) $(''+key).add(new Option(value,value));
 // Each collection can supply its own themed wordmark here.
 const collectionBranding = {
- 'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-straight.webp', name:'Saiyan Saga'}
+ 'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp', name:'Saiyan Saga', element:'collection-logo'},
+ 'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp', name:'Frieza Saga', element:'collection-logo-frieza'}
 };
 function renderCollectionBrand(){
  const sets=[...new Set(catalog.map(card=>card.set))];
  const selected=$('set').value || (sets.length===1?sets[0]:'');
- const brand=collectionBranding[selected.toLowerCase()];
- const logo=$('collection-logo'), title=$('collection-name');
- logo.hidden=!brand;
- title.hidden=!!brand;
- if(brand){logo.src=brand.image;logo.alt=brand.name;}
- else title.textContent=selected || 'All Collections';
+ let visibleBrands=0;
+ for(const [key,brand] of Object.entries(collectionBranding)){
+  const logo=$(brand.element);
+  logo.hidden=selected ? selected.toLowerCase()!==key : !sets.includes(brand.name);
+  if(!logo.hidden){logo.src=brand.image;logo.alt=brand.name;visibleBrands++;}
+ }
+ const title=$('collection-name');
+ title.hidden=visibleBrands>0;
+ if(!visibleBrands) title.textContent=selected || 'All Collections';
 }
 function render(){
  renderCollectionBrand();
