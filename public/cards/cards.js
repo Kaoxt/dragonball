@@ -2,23 +2,22 @@ import {catalog} from './catalog.js';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) $(''+key).add(new Option(value,value));
-// Each collection can supply its own themed wordmark here.
+// Show each set's wordmark only when that set is selected.
 const collectionBranding = {
  'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp', name:'Saiyan Saga', element:'collection-logo'},
  'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp', name:'Frieza Saga', element:'collection-logo-frieza'}
 };
 function renderCollectionBrand(){
- const sets=[...new Set(catalog.map(card=>card.set))];
- const selected=$('set').value || (sets.length===1?sets[0]:'');
+ const selected=$('set').value;
  let visibleBrands=0;
  for(const [key,brand] of Object.entries(collectionBranding)){
   const logo=$(brand.element);
-  logo.hidden=selected ? selected.toLowerCase()!==key : !sets.includes(brand.name);
+  logo.hidden=!selected || selected.toLowerCase()!==key;
   if(!logo.hidden){logo.src=brand.image;logo.alt=brand.name;visibleBrands++;}
  }
  const title=$('collection-name');
- title.hidden=visibleBrands>0;
- if(!visibleBrands) title.textContent=selected || 'All Collections';
+ title.hidden=!selected || visibleBrands>0;
+ title.textContent=selected;
 }
 function render(){
  renderCollectionBrand();
@@ -39,7 +38,7 @@ function render(){
 }
 function openCard(c){
  $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
- $('detail-meta').replaceChildren(...[['Number',c.number],['Type',c.type],['Style',c.style],['Collection',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
+ $('detail-meta').replaceChildren(...[['Number',c.number],['Type',c.type],['Style',c.style],['Set',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
  $('preview-note').hidden=c.status!=='Preview';$('card-detail').showModal();
 }
