@@ -168,3 +168,10 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 .arena-page .free-table .card.rested,.arena-page .free-table .card.rested:hover{transform:rotate(90deg);opacity:1}
 .arena-page .arena-dock{margin-top:auto}
 .arena-page .arena-dock .pile{gap:0}
+
+/* Arena interface copy is lighter; setup uses the navigation's vector lettering. */
+.arena-page .table-management h1,.arena-page .turn-bar h2{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:500;letter-spacing:0;text-transform:none;text-shadow:none}
+.arena-page .table-management h1{overflow-wrap:anywhere}
+.arena-page #table button,.arena-page .setup-bar label{font-weight:500}
+.arena-page .turn-bar>div{min-width:0}
+.arena-page .arena-setup-wordmark{display:block;width:560px;max-width:100%;height:auto}
