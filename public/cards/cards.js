@@ -16,8 +16,12 @@ if(!$('set-rows').children.length){
   const row=document.createElement('tr'),name=document.createElement('th'),count=document.createElement('td');
   name.scope='row';
   const link=document.createElement('a');link.className='set-entry';link.href=set.path;
-  if(set.image){const logo=document.createElement('img');logo.src=set.image;logo.alt='';logo.width=180;logo.height=60;link.append(logo);}
-  const label=document.createElement('span');label.textContent=set.name;link.append(label);name.append(link);
+  if(set.image){
+   const logo=document.createElement('span');logo.className=`set-logo set-logo--${set.slug}`;logo.setAttribute('aria-hidden','true');
+   for(const part of ['symbol','lettering']){const img=document.createElement('img');img.className=`set-logo-${part}`;img.src=set.image;img.alt='';img.width=2172;img.height=724;logo.append(img);}
+   link.append(logo);
+  }
+  const label=document.createElement('span');label.className='set-name';label.textContent=set.name;link.append(label);name.append(link);
   const countLink=document.createElement('a');countLink.className='set-count';countLink.href=set.path;countLink.textContent=String(set.count);countLink.setAttribute('aria-label',`${set.count} cards in ${set.name}`);count.append(countLink);
   row.append(name,count);$('set-rows').append(row);
  }

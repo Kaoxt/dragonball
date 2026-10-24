@@ -26,9 +26,16 @@
 .sets-table tbody th,.sets-table td{padding:0;border-bottom:1px solid #3b292f}
 .sets-table tbody tr{background:#20151b}.sets-table tbody tr:nth-child(even){background:#191217}.sets-table tbody tr:hover{background:#302029}
 .set-entry{display:flex;align-items:center;gap:30px;min-height:104px;padding:14px 24px;color:#f5f6fa;text-decoration:none;font-size:18px;font-weight:500}
-.set-entry img{display:block;width:180px;height:60px;object-fit:contain;flex-shrink:0;mix-blend-mode:screen}
+/* Separate the symbol and lettering with 2 CSS pixels, using the original artwork. */
+.set-logo{--logo-width:180px;--logo-height:60px;display:block;position:relative;width:calc(var(--logo-width) + 2px);height:var(--logo-height);flex-shrink:0}
+.set-logo img{position:absolute;display:block;left:0;top:50%;width:var(--logo-width);height:auto;max-width:none;transform:translateY(-50%);mix-blend-mode:screen}
+.set-logo .set-logo-lettering{left:2px}
+.set-logo--saiyan-saga .set-logo-symbol{clip-path:inset(0 78.4% 0 0)}
+.set-logo--saiyan-saga .set-logo-lettering{clip-path:inset(0 0 0 21.6%)}
+.set-logo--frieza-saga .set-logo-symbol{clip-path:polygon(0 0,24% 0,24% 60%,22.5% 75%,22.5% 100%,0 100%)}
+.set-logo--frieza-saga .set-logo-lettering{clip-path:polygon(24% 0,100% 0,100% 100%,22.5% 100%,22.5% 75%,24% 60%)}
 .set-count{display:flex;align-items:center;justify-content:flex-end;min-height:104px;padding:14px 24px;color:#dfd6d8;font-size:17px;font-variant-numeric:tabular-nums;text-decoration:none}
 .set-entry:focus-visible,.set-count:focus-visible{outline:2px solid #ff949d;outline-offset:-2px}.browse-all:focus-visible{outline:2px solid #ff949d;outline-offset:3px}
 .cards-breadcrumbs{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0 0 24px;font-size:14px;color:#b9aeb0}.cards-breadcrumbs a{color:#ff949d;text-decoration:none}.cards-breadcrumbs a:hover{text-decoration:underline}
-@media(max-width:650px){.sets-heading{align-items:flex-start;flex-wrap:wrap;gap:14px;margin-bottom:20px}.sets-heading h2{font-size:21px}.sets-heading p{font-size:13px}.browse-all{font-size:13px}.sets-table thead th{padding:12px}.sets-table thead th:last-child{width:55px}.set-entry{min-height:88px;padding:12px;gap:14px;font-size:14px}.set-entry img{width:100px;height:44px}.set-count{min-height:88px;padding:12px;font-size:14px}}
-@media(max-width:380px){.set-entry{gap:10px}.set-entry img{width:78px;height:40px}.set-entry span{max-width:90px}.set-count{padding-left:6px;padding-right:10px}}
+@media(max-width:650px){.sets-heading{align-items:flex-start;flex-wrap:wrap;gap:14px;margin-bottom:20px}.sets-heading h2{font-size:21px}.sets-heading p{font-size:13px}.browse-all{font-size:13px}.sets-table thead th{padding:12px}.sets-table thead th:last-child{width:55px}.set-entry{min-height:88px;padding:12px;gap:14px;font-size:14px}.set-logo{--logo-width:100px;--logo-height:44px}.set-count{min-height:88px;padding:12px;font-size:14px}}
+@media(max-width:380px){.set-entry{gap:10px}.set-logo{--logo-width:78px;--logo-height:40px}.set-entry>.set-name{max-width:90px}.set-count{padding-left:6px;padding-right:10px}}
