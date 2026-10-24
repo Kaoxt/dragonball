@@ -1,57 +1,68 @@
 import {test,expect} from '@playwright/test';
+import {catalog} from '../public/cards/catalog.js';
 
 const storageKey='dbocg:cards:filters:v1';
 
-test('card filters, search and sort survive reload; Reset clears saved choices',async({page})=>{
+test('old saved searches are discarded and every fresh visit shows all sets',async({page})=>{
+ await page.addInitScript(key=>localStorage.setItem(key,JSON.stringify({set:'Frieza Saga',type:'Energy Combat',style:'Red',query:'suspension',sort:'number'})),storageKey);
  await page.goto('/cards/');
- await page.locator('#set').selectOption('Frieza Saga');
- await page.locator('#type').selectOption('Energy Combat');
- await page.locator('#style').selectOption('Red');
- await page.locator('#query').fill('suspension');
- await page.locator('#sort').selectOption('number');
- await expect(page.locator('.catalog-card h2')).toHaveText(['Red Energy Suspension']);
- await page.reload();
- for(const [key,value] of Object.entries({set:'Frieza Saga',type:'Energy Combat',style:'Red',query:'suspension',sort:'number'})){
-  await expect(page.locator('#'+key)).toHaveValue(value);
- }
- await expect(page.locator('.catalog-card h2')).toHaveText(['Red Energy Suspension']);
- await expect(page.locator('#collection-logo-frieza')).toBeVisible();
- await expect(page.locator('#collection-logo')).toBeHidden();
- await page.locator('#clear').click();
- await expect(page.locator('#query')).toBeFocused();
- await page.reload();
  for(const key of ['query','set','type','style'])await expect(page.locator('#'+key)).toHaveValue('');
- await expect(page.locator('#sort')).toHaveValue('name');
- await expect(page.locator('#collection-logo-frieza')).toBeHidden();
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
  expect(await page.evaluate(key=>localStorage.getItem(key),storageKey)).toBeNull();
-});
-
-test('invalid saved filters do not prevent browsing',async({page})=>{
- await page.goto('/cards/');
- for(const stored of ['broken JSON',JSON.stringify({set:'Missing Saga',type:'Missing Type',style:42,sort:'Missing Sort',query:[]})]){
-  await page.evaluate(([key,value])=>localStorage.setItem(key,value),[storageKey,stored]);
-  await page.reload();
-  await expect(page.locator('#set')).toHaveValue('');
-  await expect(page.locator('#type')).toHaveValue('');
-  await expect(page.locator('#style')).toHaveValue('');
-  await expect(page.locator('#sort')).toHaveValue('name');
-  await expect(page.locator('#query')).toHaveValue('');
-  await expect(page.locator('.catalog-card').first()).toBeVisible();
- }
-});
-
-test('filters and Reset still work when browser storage is blocked',async({page})=>{
- await page.addInitScript(()=>{
-  Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Storage blocked','SecurityError');}});
- });
- const errors=[];
- page.on('pageerror',error=>errors.push(error.message));
- await page.goto('/cards/');
  await page.locator('#set').selectOption('Frieza Saga');
  await page.locator('#query').fill('suspension');
  await expect(page.locator('.catalog-card h2')).toHaveText(['Red Energy Suspension']);
- await page.locator('#clear').click();
+ await page.reload();
  await expect(page.locator('#set')).toHaveValue('');
  await expect(page.locator('#query')).toHaveValue('');
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
+ await page.locator('#set').selectOption('Frieza Saga');
+ await page.goto('/');
+ await page.getByRole('link',{name:'Cards',exact:true}).click();
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
+});
+
+test('card links open directly, survive refresh and support Back, Forward and closing',async({page})=>{
+ await page.goto('/cards/');
+ await page.locator('#query').fill('rapid deflection');
+ const card=page.getByRole('link',{name:'View Saiyan Rapid Deflection, card 11',exact:true});
+ await expect(card).toHaveAttribute('href','/cards/frieza-saga/011');
+ await card.click();
+ await expect(page).toHaveURL(/\/cards\/frieza-saga\/011$/);
+ await expect(page.locator('#detail-name')).toHaveText('Saiyan Rapid Deflection');
+ await expect(page.locator('#share-url')).toHaveValue(/\/cards\/frieza-saga\/011$/);
+ await page.goBack();
+ await expect(page.locator('#card-detail')).not.toBeVisible();
+ await expect(page.locator('#query')).toHaveValue('rapid deflection');
+ await page.goForward();
+ await expect(page.locator('#card-detail')).toBeVisible();
+ await page.reload();
+ await expect(page.locator('#detail-name')).toHaveText('Saiyan Rapid Deflection');
+ await page.goto('/cards/saiyan-saga/p1');
+ await expect(page.locator('#card-detail')).toBeVisible();
+ await page.locator('#close-detail').click();
+ await expect(page).toHaveURL(/\/cards\/$/);
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
+});
+
+test('filters, Reset and sharing fallback work with restricted browser storage and clipboard',async({page})=>{
+ await page.addInitScript(()=>{
+  Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Storage blocked','SecurityError');}});
+  Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw new Error('Clipboard blocked');}}});
+ });
+ const errors=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.goto('/cards/');
+ await page.locator('#set').selectOption('Frieza Saga');
+ await page.locator('#query').fill('suspension');
+ await expect(page.locator('.catalog-card h2')).toHaveText(['Red Energy Suspension']);
+ await page.locator('.catalog-card').click();
+ await page.locator('#copy-link').click();
+ await expect(page.locator('#share-status')).toHaveText('Select and copy the link above.');
+ await expect(page.locator('#share-url')).toBeFocused();
+ await page.keyboard.press('Escape');
+ await expect(page.locator('#card-detail')).not.toBeVisible();
+ await page.locator('#clear').click();
+ await expect(page.locator('#set')).toHaveValue('');
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
  expect(errors).toEqual([]);
 });

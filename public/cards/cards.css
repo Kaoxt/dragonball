@@ -12,3 +12,5 @@
 .collection-brand h2{margin:0;color:#fff;font-size:clamp(14px,2vw,22px)}
 .collection-brand [hidden]{display:none}
 @media(max-width:650px){.collection-brand{flex-basis:150px}.database-intro .page-wordmark img{max-height:44px}}
+
+.catalog-card{display:block;color:inherit;text-decoration:none}.catalog-card:focus-visible{outline:2px solid #ff949d;outline-offset:5px}.share-label{display:block;margin-top:24px;font-size:12px}.share-controls{display:flex;align-items:center;gap:8px}.share-controls input{min-width:0;flex:1;font-size:12px;margin:0}.share-controls button{white-space:nowrap;font-size:12px;padding:12px}#share-status{min-height:1.4em}#card-link-error{padding:16px;border:1px solid #674147}

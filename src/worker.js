@@ -2,6 +2,7 @@ export { Community } from './community/worker.js';
 import { API_SECURITY_HEADERS } from './community/security.js';
 import { DurableObject } from 'cloudflare:workers';
 import { newGame, addPlayer, act, view } from '../public/game.js';
+import { cardPage } from './card-pages.js';
 const json = (data, status = 200, headers = {}) => Response.json(data, { status, headers: { ...API_SECURITY_HEADERS, 'Cache-Control': 'no-store', ...headers } });
 const token = () => crypto.randomUUID().replaceAll('-', '') + crypto.randomUUID().replaceAll('-', '');
 const digest = async s => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))].map(x => x.toString(16).padStart(2, '0')).join('');
@@ -9,6 +10,10 @@ function cookie(req) { return /(?:^|;\s*)score_session=([a-f0-9]{64})(?:;|$)/.ex
 export default {
   async fetch(req, env) {
     const u = new URL(req.url);
+    if (u.pathname.startsWith('/cards/')) {
+      const page = await cardPage(req, env.ASSETS);
+      if (page) return page;
+    }
     if (u.pathname.startsWith('/api/admin/uploads') || u.pathname.startsWith('/api/files/')) return env.COMMUNITY.getByName('dragonball-community-v1').fetch(req);
     if (u.pathname === '/api/decks' || u.pathname === '/api/forum' || u.pathname.startsWith('/api/auth/') || u.pathname.startsWith('/api/avatars/')) {
       if (!['GET','POST'].includes(req.method)) return json({error:'Method not allowed.'},405);

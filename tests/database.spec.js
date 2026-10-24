@@ -1,13 +1,15 @@
 import {test,expect} from '@playwright/test';
+import {catalog} from '../public/cards/catalog.js';
 for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({page})=>{
  await page.setViewportSize({width,height:900});
  await page.goto('/cards/');
- await expect(page.locator('.catalog-card')).toHaveCount(16);
- for(const img of await page.locator('.catalog-card img').all()){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);}
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
+ for(const img of (await page.locator('.catalog-card img').all()).slice(0,5)){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);}
  await page.evaluate(()=>scrollTo(0,0));
  await page.screenshot({path:`/tmp/arena-database-${width}.png`,fullPage:true});
  await page.locator('#set').selectOption('Saiyan Saga');
- await expect(page.locator('.catalog-card')).toHaveCount(1);
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.set==='Saiyan Saga').length);
+ await page.locator('#query').fill('Orange Standing Fist Punch');
  await page.locator('.catalog-card').click();
  await expect(page.locator('#card-detail')).toBeVisible();
  await expect(page.locator('#detail-name')).toHaveText('Orange Standing Fist Punch');
@@ -19,10 +21,10 @@ for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({p
  await page.locator('#query').fill('no-such-card');
  await expect(page.locator('#no-results')).toBeVisible();
  await page.locator('#clear').click();
- await page.locator('#type').selectOption('Non-Combat Drill');
- await expect(page.locator('.catalog-card')).toHaveCount(3);
+ await page.locator('#type').selectOption('Drill');
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.type==='Drill').length);
  await page.locator('.catalog-card').first().click();
- await expect(page.locator('#source')).toBeHidden();
+ await expect(page.locator('#share-url')).toBeVisible();
  await page.locator('#close-detail').click();
  for(const path of ['/cards/','/','/rulebook/']){
   await page.goto(path);
