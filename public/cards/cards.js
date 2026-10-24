@@ -2,6 +2,22 @@ import {catalog} from './catalog.js';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) $(''+key).add(new Option(value,value));
+const filterStorageKey='dbocg:cards:filters:v1';
+const filterKeys=['query','set','type','style','sort'];
+function restoreFilters(){
+ try{
+  const saved=JSON.parse(localStorage.getItem(filterStorageKey));
+  if(!saved || typeof saved!=='object' || Array.isArray(saved))return;
+  for(const key of filterKeys){
+   const control=$(key),value=saved[key];
+   if(typeof value==='string' && (key==='query' || [...control.options].some(option=>option.value===value)))control.value=value;
+  }
+ }catch{/* Filters remain usable when browser storage is unavailable or invalid. */}
+}
+function updateFilters(){
+ try{localStorage.setItem(filterStorageKey,JSON.stringify(Object.fromEntries(filterKeys.map(key=>[key,$(key).value]))));}catch{}
+ render();
+}
 // Show each set's wordmark only when that set is selected.
 const collectionBranding = {
  'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp', name:'Saiyan Saga', element:'collection-logo'},
@@ -42,9 +58,14 @@ function openCard(c){
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
  $('preview-note').hidden=c.status!=='Preview';$('card-detail').showModal();
 }
-$('filters').onsubmit=e=>e.preventDefault();$('query').oninput=render;
-for(const key of ['set','type','style','sort'])$(key).onchange=render;
-$('clear').onclick=()=>{$('filters').reset();$('sort').value='name';render();$('query').focus();};
+$('filters').onsubmit=e=>e.preventDefault();$('query').oninput=updateFilters;
+for(const key of ['set','type','style','sort'])$(key).onchange=updateFilters;
+$('clear').onclick=()=>{
+ $('filters').reset();$('sort').value='name';
+ try{localStorage.removeItem(filterStorageKey);}catch{}
+ render();$('query').focus();
+};
 $('close-detail').onclick=()=>$('card-detail').close();
 $('card-detail').addEventListener('click',e=>{if(e.target===$('card-detail')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
+restoreFilters();
 render();
