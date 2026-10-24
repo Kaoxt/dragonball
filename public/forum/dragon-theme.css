@@ -87,8 +87,6 @@ body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover
 /* Keep category activity on one row, using the space below the post count. */
 .forum-shell .forum-category{grid-template-columns:42px minmax(0,1fr) max-content;row-gap:10px}
 .forum-shell .forum-category p{margin-bottom:0}
-.forum-shell .forum-category-count{display:flex;align-self:start;align-items:baseline;gap:4px;white-space:nowrap}
-.forum-shell .forum-category-count strong{font-size:13px}
 .forum-shell .forum-category-activity{grid-column:2/-1;min-width:0}
 .forum-shell .forum-latest{flex-wrap:nowrap;column-gap:10px}
 .forum-shell .forum-latest a{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
