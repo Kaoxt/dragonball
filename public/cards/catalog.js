@@ -77,11 +77,11 @@ export const catalog = [
     "style": "Red",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=2a75e950fbe0",
+    "image": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=87120df6941c",
     "width": 1060,
     "height": 1484,
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
-    "downloadImage": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=0ae56c21f9bd"
+    "downloadImage": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=fcf0aaeb0244"
   },
   {
     "id": "saiyan-007-red-reverse-punch",
@@ -3652,11 +3652,11 @@ export const catalog = [
     "style": "Red",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-004-red-energy-suspension.webp?v=e92b96dec5e7",
+    "image": "/assets/cards/frieza-004-red-energy-suspension.webp?v=82bc587ce303",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/4_9cef4659-0bb7-4ab6-bb18-25835e4d2776.png?v=1584310480",
-    "downloadImage": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=feab4c0c92c9",
+    "downloadImage": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=b2f1610fb6ff",
     "rarity": "Common",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards."
   },
