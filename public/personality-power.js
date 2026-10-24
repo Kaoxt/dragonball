@@ -2,6 +2,8 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "frieza-124-frieza-the-master": [0, 149991, 149992, 149993, 149994, 149995, 149996, 149997, 149998, 149999, 150000],
+  "frieza-125-super-saiyan-goku": [0, 450000, 500000, 550000, 600000, 650000, 700000, 750000, 800000, 850000, 900000],
   "frieza-089-vegeta-on-namek": [0, 125000, 150000, 175000, 200000, 225000, 250000, 275000, 300000, 325000, 350000],
   "frieza-090-krillin-on-namek": [0, 95000, 100000, 105000, 110000, 115000, 120000, 125000, 130000, 135000, 140000],
   "frieza-091-nappa-restored": [0, 32000, 34000, 36000, 38000, 40000, 42000, 44000, 46000, 48000, 50000],
