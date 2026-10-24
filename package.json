@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node --test tests/arena-session.test.js tests/arena-resume.test.js tests/game.test.js tests/community.test.js tests/forum-editor.test.js tests/deck-code.test.js tests/load-recovery.test.js tests/uploads.test.js tests/card-pages.test.js",
+    "test": "node --test tests/arena-session.test.js tests/arena-resume.test.js tests/game.test.js tests/community.test.js tests/forum-editor.test.js tests/deck-code.test.js tests/load-recovery.test.js tests/uploads.test.js tests/card-pages.test.js tests/card-browser.test.js",
     "test:e2e": "playwright test",
     "check": "node --check src/community/uploads.js && node --check public/admin/admin.js && node --check src/worker.js && node --check src/community/auth.js && node --check public/forum/forum.js && node --check public/account/account.js && node --check public/app.js && wrangler deploy --dry-run"
   },

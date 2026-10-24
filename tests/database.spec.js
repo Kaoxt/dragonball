@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 import {catalog} from '../public/cards/catalog.js';
 for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({page})=>{
  await page.setViewportSize({width,height:900});
- await page.goto('/cards/');
+ await page.goto('/cards/all/');
  await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
  for(const img of (await page.locator('.catalog-card img').all()).slice(0,5)){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);}
  await page.evaluate(()=>scrollTo(0,0));
@@ -22,7 +22,7 @@ for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({p
  await expect(page.locator('#no-results')).toBeVisible();
  await page.locator('#clear').click();
  await page.locator('#type').selectOption('Drill');
- await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.type==='Drill').length);
+ await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.type==='Drill'&&c.set==='Saiyan Saga').length);
  await page.locator('.catalog-card').first().click();
  await expect(page.locator('#share-url')).toBeVisible();
  await page.locator('#close-detail').click();

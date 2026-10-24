@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {catalog} from '../public/cards/catalog.js';
-import {cardPath, cardFromPath} from '../public/cards/card-links.js';
+import {cardPath, cardFromPath, catalogSets, catalogRoute} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 
 const html = readFileSync(new URL('../public/cards/index.html', import.meta.url), 'utf8');
@@ -45,10 +45,45 @@ test('card aliases redirect; missing cards return a useful 404; assets remain un
   assert.equal(missing.status, 404);
   assert.ok((await missing.text()).includes('id="card-link-error" role="status"'));
   assert.equal(await cardPage(new Request('https://dragonballocg.com/cards/cards.js'), assets), null);
-  assert.equal(await cardPage(new Request('https://dragonballocg.com/cards/'), assets), null);
+  assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/'), assets)).status, 200);
   const head = await cardPage(new Request('https://dragonballocg.com/cards/frieza-saga/011',{method:'HEAD'}), assets);
   assert.equal(head.status,200);assert.equal(await head.text(),'');
   assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/frieza-saga/011',{method:'POST'}), assets)).status,405);
+});
+
+test('set directory lists every published set with its logo, count and permanent URL', async () => {
+  const response = await cardPage(new Request('https://dragonballocg.com/cards/'), assets);
+  const body = await response.text();
+  assert.equal(response.status,200);
+  assert.ok(body.includes('id="card-browser" hidden'));
+  assert.ok(!body.includes('id="set-directory" hidden'));
+  for(const set of catalogSets(catalog)) {
+    assert.ok(body.includes(`class="set-entry" href="${set.path}"`));
+    assert.ok(body.includes(`${set.count} cards in ${set.name}`));
+    assert.ok(body.includes(set.image));
+    assert.equal(catalogRoute(set.path,catalog).set,set.name);
+  }
+});
+
+test('fresh requests and refreshes retain the URL-selected set and show set breadcrumbs', async () => {
+  for(const path of ['/cards/frieza-saga/', '/cards/saiyan-saga/']) {
+    const name=catalogRoute(path,catalog).set;
+    for(let visit=0;visit<2;visit++) {
+      const response=await cardPage(new Request('https://dragonballocg.com'+path),assets);
+      const body=await response.text();
+      assert.equal(response.status,200);
+      assert.ok(body.includes(`<option value="${name}" selected>`));
+      assert.ok(body.includes(`id="breadcrumb-current" aria-current="page">${name}`));
+      assert.ok(body.includes('id="set-directory" hidden'));
+      assert.ok(!body.includes('id="card-browser" hidden'));
+      assert.ok(body.includes(`rel="canonical" href="https://dragonballocg.com${path}"`));
+    }
+  }
+  const alias=await cardPage(new Request('https://dragonballocg.com/cards/Frieza-Saga'),assets);
+  assert.equal(alias.status,308);
+  assert.equal(alias.headers.get('location'),'https://dragonballocg.com/cards/frieza-saga/');
+  assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/missing-set/'),assets)).status,404);
+  assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/all/'),assets)).status,200);
 });
 
 test('actual Worker dispatch routes card links and still delegates database assets', async () => {
