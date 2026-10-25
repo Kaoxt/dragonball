@@ -1,0 +1,298 @@
+{
+  "set": "Trunks Saga",
+  "range": [
+    1,
+    10
+  ],
+  "native_canvas": [
+    1060,
+    1484
+  ],
+  "download_size": [
+    2120,
+    2968
+  ],
+  "footer_icon_height": 54,
+  "footer_icon_center": [
+    143.5,
+    1406.25
+  ],
+  "full_art_card": 3,
+  "full_art_subject": "Porunga",
+  "cards": [
+    {
+      "number": 1,
+      "name": "Orange Energy Blast",
+      "style": "Orange",
+      "category": "ENERGY COMBAT",
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+      "power_icon": "attack",
+      "prefix": "",
+      "id": "trunks-001-orange-energy-blast",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-1",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "@ICON@ Energy attack costing 2 stages.",
+        "DAMAGE: 5 life cards."
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Red Kienzan Discs",
+      "style": "Red",
+      "category": "ENERGY COMBAT",
+      "original_rules": "Energy attack. If Earth Dragon Ball 3 is in play this attack cannot be stopped.",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If Earth Dragon Ball 3 is in play, this attack cannot be stopped.",
+      "power_icon": "attack",
+      "prefix": "",
+      "id": "trunks-002-red-kienzan-discs",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-2",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "@ICON@ Energy attack costing 2 stages.",
+        "DAMAGE: 4 life cards. If Earth Dragon Ball 3",
+        "is in play, this attack cannot be stopped."
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Namek Dragon Ball 2",
+      "style": "Freestyle",
+      "category": "DRAGON BALL",
+      "original_rules": "Choose an opponent and reduce his Main Personality 1 personality level if possible.",
+      "modern_rules": "Choose an opponent. Lower their Main Personality 1 level, if possible.",
+      "power_icon": null,
+      "prefix": "",
+      "id": "trunks-003-namek-dragon-ball-2",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-3",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "Choose an opponent. Lower their Main",
+        "Personality 1 level, if possible."
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Captain Ginyu Frog",
+      "style": "Freestyle",
+      "category": "EVENT",
+      "original_rules": "Reduce a villain 1 personality level if possible. Limit 1 per deck. Remove from the game after use.",
+      "modern_rules": "(Limit 1 per deck.) POWER: Lower a Villain 1 level, if possible. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "id": "trunks-004-captain-ginyu-frog",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-4",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "(Limit 1 per deck.) POWER: Lower a Villain",
+        "1 level, if possible. Banish after use."
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Krillin's Kamehameha Outburst",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "original_rules": "Energy attack doing 5 life cards of damage. Lower opponent's anger 2 levels.",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
+      "power_icon": "attack",
+      "prefix": "",
+      "id": "trunks-005-krillins-kamehameha-outburst",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-5",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "@ICON@ Energy attack costing 2 stages.",
+        "DAMAGE: 5 life cards.",
+        "Lower your opponent's anger 2 levels."
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Straining Outburst Move",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "original_rules": "Physical attack doing 5 life cards of damage. Costs 2 power stages to perform.",
+      "modern_rules": "Physical attack costing 2 stages. DAMAGE: 5 life cards.",
+      "power_icon": "attack",
+      "prefix": "",
+      "id": "trunks-006-straining-outburst-move",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-6",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "@ICON@ Physical attack costing 2 stages.",
+        "DAMAGE: 5 life cards."
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Namekian Glare Attack",
+      "style": "Namekian",
+      "category": "ENERGY COMBAT",
+      "original_rules": "Heroes only. Energy attack. Lower your opponent's anger 2 levels.",
+      "modern_rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels.",
+      "power_icon": "attack",
+      "prefix": "Heroes only.",
+      "id": "trunks-007-namekian-glare-attack",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-7",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "Heroes only. @ICON@ Energy attack costing 2 stages.",
+        "DAMAGE: 4 life cards.",
+        "Lower your opponent's anger 2 levels."
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Namekian Braced Attack",
+      "style": "Namekian",
+      "category": "PHYSICAL COMBAT",
+      "original_rules": "Piccolo and Nail only. You may have up to 6 copies of this card in your Life Deck. Physical attack. If successful, gain +4 power stages.",
+      "modern_rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT stages. HIT: Gain 4 stages.",
+      "power_icon": "attack",
+      "prefix": "(Limit 6 per deck.) Piccolo and Nail only.",
+      "id": "trunks-008-namekian-braced-attack",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-8",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "(Limit 6 per deck.) Piccolo and Nail only.",
+        "@ICON@ Physical attack. DAMAGE: AT stages.",
+        "HIT: Gain 4 stages."
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Namekian Thrust",
+      "style": "Namekian",
+      "category": "PHYSICAL COMBAT",
+      "original_rules": "Piccolo and Nail only. You may have up to 6 copies of this card in your Life Deck. Physical attack doing +2 power stages of damage.",
+      "modern_rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT +2 stages.",
+      "power_icon": "attack",
+      "prefix": "(Limit 6 per deck.) Piccolo and Nail only.",
+      "id": "trunks-009-namekian-thrust",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-9",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "(Limit 6 per deck.) Piccolo and Nail only.",
+        "@ICON@ Physical attack. DAMAGE: AT +2 stages."
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Namekian Blocking Defense",
+      "style": "Namekian",
+      "category": "PHYSICAL COMBAT",
+      "original_rules": "Piccolo and Nail only. You may have up to 6 copies of this card in your Life Deck. Stops a physical attack.",
+      "modern_rules": "(Limit 6 per deck.) Piccolo and Nail only. Stop a physical attack.",
+      "power_icon": "block",
+      "prefix": "(Limit 6 per deck.) Piccolo and Nail only.",
+      "id": "trunks-010-namekian-blocking-defense",
+      "set": "Trunks Saga",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "source": "https://dbzoutpost.com/products/trunks-saga-limited-10",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found. Printed character restrictions preserved.",
+        "general": [
+          "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+          "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+        ]
+      },
+      "rule_lines": [
+        "(Limit 6 per deck.) Piccolo and Nail only.",
+        "@ICON@ Stop a physical attack."
+      ]
+    }
+  ]
+}

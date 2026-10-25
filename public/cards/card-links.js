@@ -5,7 +5,8 @@ export const cardPath = card => `/cards/${setSlug(card.set)}/${encodeURIComponen
 export const setPath = name => `/cards/${setSlug(name)}/`;
 const logos = {
   'saiyan-saga':'/assets/sets/saiyan-saga-logo-brushed-blue.webp',
-  'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp'
+  'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp',
+  'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp'
 };
 export function catalogSets(catalog) {
   const sets = new Map();

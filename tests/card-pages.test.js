@@ -22,7 +22,7 @@ test('every catalog card has a unique share link that resolves across sets and p
 });
 
 test('fresh card URLs serve the database with card-specific sharing metadata', async () => {
-  for (const path of ['/cards/frieza-saga/011', '/cards/saiyan-saga/p1']) {
+  for (const path of ['/cards/frieza-saga/011', '/cards/saiyan-saga/p1', '/cards/trunks-saga/003']) {
     const response = await cardPage(new Request('https://dragonballocg.com'+path), assets);
     const body = await response.text();
     assert.equal(response.status, 200);
@@ -65,7 +65,7 @@ test('Cards serves the browser directly with set filters and pagination containe
 });
 
 test('fresh requests and refreshes retain the URL-selected set and show set breadcrumbs', async () => {
-  for(const path of ['/cards/frieza-saga/', '/cards/saiyan-saga/']) {
+  for(const path of ['/cards/frieza-saga/', '/cards/saiyan-saga/', '/cards/trunks-saga/']) {
     const name=catalogRoute(path,catalog).set;
     for(let visit=0;visit<2;visit++) {
       const response=await cardPage(new Request('https://dragonballocg.com'+path),assets);

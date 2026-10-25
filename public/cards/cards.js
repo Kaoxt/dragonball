@@ -49,7 +49,8 @@ function renderPagination(pageCount){
 // Show each set's wordmark only when that set is selected.
 const collectionBranding = {
  'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp', name:'Saiyan Saga', element:'collection-logo'},
- 'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp', name:'Frieza Saga', element:'collection-logo-frieza'}
+ 'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp', name:'Frieza Saga', element:'collection-logo-frieza'},
+ 'trunks saga': {image:'/assets/sets/trunks-saga-logo-brushed-purple.webp', name:'Trunks Saga', element:'collection-logo-trunks'}
 };
 function renderCollectionBrand(){
  const selected=$('set').value;

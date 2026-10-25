@@ -256,5 +256,15 @@ export const codeCardIds = [
   "saiyan-0P4-raditz-silver-variant",
   "saiyan-0P5-gohan-silver-variant",
   "saiyan-0P6-krillin-silver-variant",
-  "saiyan-0P7-nappa-silver-variant"
+  "saiyan-0P7-nappa-silver-variant",
+  "trunks-001-orange-energy-blast",
+  "trunks-002-red-kienzan-discs",
+  "trunks-003-namek-dragon-ball-2",
+  "trunks-004-captain-ginyu-frog",
+  "trunks-005-krillins-kamehameha-outburst",
+  "trunks-006-straining-outburst-move",
+  "trunks-007-namekian-glare-attack",
+  "trunks-008-namekian-braced-attack",
+  "trunks-009-namekian-thrust",
+  "trunks-010-namekian-blocking-defense"
 ];
