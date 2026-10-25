@@ -1155,11 +1155,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=8cb2937e64b2",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=dda9805710b5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-083-tien.webp?v=a557588be040"
+    "downloadImage": "/assets/cards/downloads/saiyan-083-tien.webp?v=6d21a5d63b0b"
   },
   {
     "id": "saiyan-084-yamcha",
