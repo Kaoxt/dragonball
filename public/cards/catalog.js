@@ -1141,11 +1141,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=e2aa7e5e4c9c",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=8ffd0b6fd78c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-082-tien.webp?v=2b3ff3bbd303"
+    "downloadImage": "/assets/cards/downloads/saiyan-082-tien.webp?v=dadaaf44cc8d"
   },
   {
     "id": "saiyan-083-tien",
@@ -1155,11 +1155,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-083-tien.webp?v=3d09877de2cc",
+    "image": "/assets/cards/saiyan-083-tien.webp?v=9f1659537e18",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-083-tien.webp?v=a92085b2daf1"
+    "downloadImage": "/assets/cards/downloads/saiyan-083-tien.webp?v=cfb752f05918"
   },
   {
     "id": "saiyan-084-yamcha",
@@ -1169,11 +1169,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=ed5221af8d0c",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=c83e938a5828",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=5de8fea8963e"
+    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=d8f8397da933"
   },
   {
     "id": "saiyan-085-yamcha",
@@ -1183,11 +1183,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=bf1c0aefedac",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=61683e38b949",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=ff2c6dd6c79c"
+    "downloadImage": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=0cff9038f977"
   },
   {
     "id": "saiyan-086-chi-chi",
@@ -1197,11 +1197,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=5964f6b8c078",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=7948f3dbaad0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=08d0ea645154"
+    "downloadImage": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=e78026de757e"
   },
   {
     "id": "saiyan-087-bulma",
@@ -1211,11 +1211,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-087-bulma.webp?v=db28f0fcf9e8",
+    "image": "/assets/cards/saiyan-087-bulma.webp?v=08edd848395c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-087-bulma.webp?v=6a049574e19a"
+    "downloadImage": "/assets/cards/downloads/saiyan-087-bulma.webp?v=f03c68dc16be"
   },
   {
     "id": "saiyan-088-king-kai-uniform",
@@ -1449,11 +1449,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=3aeb4cc9169c",
+    "image": "/assets/cards/saiyan-104-chiaotzu.webp?v=434680dc1da4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-104-chiaotzu.webp?v=f51e14903bcc"
+    "downloadImage": "/assets/cards/downloads/saiyan-104-chiaotzu.webp?v=8029d60692ad"
   },
   {
     "id": "saiyan-105-chiaotzu",
@@ -1463,11 +1463,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=a99faadee969",
+    "image": "/assets/cards/saiyan-105-chiaotzu.webp?v=68af4be28de5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-105-chiaotzu.webp?v=764bb6ead595"
+    "downloadImage": "/assets/cards/downloads/saiyan-105-chiaotzu.webp?v=0ae26bb35d18"
   },
   {
     "id": "saiyan-106-yajirobe",
@@ -1477,11 +1477,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=fec1e46f7fbf",
+    "image": "/assets/cards/saiyan-106-yajirobe.webp?v=e0930cd1f552",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-106-yajirobe.webp?v=e8617fa86868"
+    "downloadImage": "/assets/cards/downloads/saiyan-106-yajirobe.webp?v=c50b96652088"
   },
   {
     "id": "saiyan-107-yajirobe",
@@ -1491,11 +1491,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=7bca3a28b64e",
+    "image": "/assets/cards/saiyan-107-yajirobe.webp?v=cd77a538f966",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-107-yajirobe.webp?v=f0f245bfa2c3"
+    "downloadImage": "/assets/cards/downloads/saiyan-107-yajirobe.webp?v=4925676a3c0c"
   },
   {
     "id": "saiyan-108-gokus-energy-defense",
@@ -2205,11 +2205,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-158-goku.webp?v=e449ca3db898",
+    "image": "/assets/cards/saiyan-158-goku.webp?v=45254acf715a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=e9a333ac71ac"
+    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=ea617771e8dc"
   },
   {
     "id": "saiyan-159-goku",
@@ -2219,11 +2219,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-159-goku.webp?v=8aefc8b6ed91",
+    "image": "/assets/cards/saiyan-159-goku.webp?v=88e30903e70a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-159-goku.webp?v=8be274648582"
+    "downloadImage": "/assets/cards/downloads/saiyan-159-goku.webp?v=7790d37c4f4d"
   },
   {
     "id": "saiyan-160-goku",
@@ -2233,11 +2233,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-160-goku.webp?v=49da8d54c446",
+    "image": "/assets/cards/saiyan-160-goku.webp?v=1baca1bf97fc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-160-goku.webp?v=fee457ddda9d"
+    "downloadImage": "/assets/cards/downloads/saiyan-160-goku.webp?v=36e9f1dce208"
   },
   {
     "id": "saiyan-161-piccolo",
@@ -2247,11 +2247,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-161-piccolo.webp?v=d5c80ebf67be",
+    "image": "/assets/cards/saiyan-161-piccolo.webp?v=82057fe91cc1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-161-piccolo.webp?v=f7ed623cda73"
+    "downloadImage": "/assets/cards/downloads/saiyan-161-piccolo.webp?v=a3eec06e4802"
   },
   {
     "id": "saiyan-162-piccolo",
@@ -2261,11 +2261,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-162-piccolo.webp?v=bae699454af3",
+    "image": "/assets/cards/saiyan-162-piccolo.webp?v=7d76dbc3e41f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-162-piccolo.webp?v=1f2fdc101bb6"
+    "downloadImage": "/assets/cards/downloads/saiyan-162-piccolo.webp?v=21d5e6a8bef3"
   },
   {
     "id": "saiyan-163-piccolo",
@@ -2275,11 +2275,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-163-piccolo.webp?v=09101a58a86d",
+    "image": "/assets/cards/saiyan-163-piccolo.webp?v=da34f05f6784",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=dac406445374"
+    "downloadImage": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=c49386c88aa1"
   },
   {
     "id": "saiyan-164-gohan",
@@ -2289,11 +2289,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-164-gohan.webp?v=d099e77d61fc",
+    "image": "/assets/cards/saiyan-164-gohan.webp?v=07aa46b4265f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-164-gohan.webp?v=6bf41e88dfe3"
+    "downloadImage": "/assets/cards/downloads/saiyan-164-gohan.webp?v=5fddc277092c"
   },
   {
     "id": "saiyan-165-gohan",
@@ -2303,11 +2303,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-165-gohan.webp?v=b0a3deddfdcf",
+    "image": "/assets/cards/saiyan-165-gohan.webp?v=e80ff1bbb71e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-165-gohan.webp?v=e7df786d6e01"
+    "downloadImage": "/assets/cards/downloads/saiyan-165-gohan.webp?v=68a601b6d486"
   },
   {
     "id": "saiyan-166-gohan",
@@ -2317,11 +2317,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-166-gohan.webp?v=64d0f8687fbf",
+    "image": "/assets/cards/saiyan-166-gohan.webp?v=109978cb6a6b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-166-gohan.webp?v=1388f8aa53da"
+    "downloadImage": "/assets/cards/downloads/saiyan-166-gohan.webp?v=9318ba7ca553"
   },
   {
     "id": "saiyan-167-krillin",
@@ -2331,11 +2331,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-167-krillin.webp?v=a986baa96def",
+    "image": "/assets/cards/saiyan-167-krillin.webp?v=fe9b7e13faca",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-167-krillin.webp?v=a023bf17373a"
+    "downloadImage": "/assets/cards/downloads/saiyan-167-krillin.webp?v=845fac747cfd"
   },
   {
     "id": "saiyan-168-krillin",
@@ -2345,11 +2345,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-168-krillin.webp?v=fd69e2053c05",
+    "image": "/assets/cards/saiyan-168-krillin.webp?v=1a3d95d06456",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-168-krillin.webp?v=587e0373f864"
+    "downloadImage": "/assets/cards/downloads/saiyan-168-krillin.webp?v=c696f229d1bc"
   },
   {
     "id": "saiyan-169-krillin",
@@ -2359,11 +2359,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-169-krillin.webp?v=c399e50d95f4",
+    "image": "/assets/cards/saiyan-169-krillin.webp?v=175b9abab46c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-169-krillin.webp?v=dce899262a16"
+    "downloadImage": "/assets/cards/downloads/saiyan-169-krillin.webp?v=d34f03a01dc8"
   },
   {
     "id": "saiyan-170-raditz",
@@ -2373,11 +2373,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-170-raditz.webp?v=3bd0b0cfca64",
+    "image": "/assets/cards/saiyan-170-raditz.webp?v=494269c02946",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-170-raditz.webp?v=c6ff9b2318a6"
+    "downloadImage": "/assets/cards/downloads/saiyan-170-raditz.webp?v=a7de9ad000fd"
   },
   {
     "id": "saiyan-171-raditz",
@@ -2387,11 +2387,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-171-raditz.webp?v=9f7acc5a2a94",
+    "image": "/assets/cards/saiyan-171-raditz.webp?v=cc6be86c4f09",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-171-raditz.webp?v=5184e1f917d3"
+    "downloadImage": "/assets/cards/downloads/saiyan-171-raditz.webp?v=d9d0d4459d2f"
   },
   {
     "id": "saiyan-172-raditz",
@@ -2401,11 +2401,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-172-raditz.webp?v=35416dcece94",
+    "image": "/assets/cards/saiyan-172-raditz.webp?v=4268ae0d2dda",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-172-raditz.webp?v=6b48e114979e"
+    "downloadImage": "/assets/cards/downloads/saiyan-172-raditz.webp?v=0235efe05741"
   },
   {
     "id": "saiyan-173-vegeta",
@@ -2415,11 +2415,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-173-vegeta.webp?v=9405573f24c8",
+    "image": "/assets/cards/saiyan-173-vegeta.webp?v=7bf29876826f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-173-vegeta.webp?v=5613ea288a5f"
+    "downloadImage": "/assets/cards/downloads/saiyan-173-vegeta.webp?v=ce2edcf15ded"
   },
   {
     "id": "saiyan-174-vegeta",
@@ -2429,11 +2429,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-174-vegeta.webp?v=0bda7aa642d2",
+    "image": "/assets/cards/saiyan-174-vegeta.webp?v=5f815516756b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-174-vegeta.webp?v=79436ff3f987"
+    "downloadImage": "/assets/cards/downloads/saiyan-174-vegeta.webp?v=4cbbb5db795b"
   },
   {
     "id": "saiyan-175-vegeta",
@@ -2443,11 +2443,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-175-vegeta.webp?v=cbd50f2f35b5",
+    "image": "/assets/cards/saiyan-175-vegeta.webp?v=37199d7ff7e7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-175-vegeta.webp?v=4c0a102c8751"
+    "downloadImage": "/assets/cards/downloads/saiyan-175-vegeta.webp?v=c5ea86eddc04"
   },
   {
     "id": "saiyan-176-nappa",
@@ -2457,11 +2457,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-176-nappa.webp?v=da987775fbe1",
+    "image": "/assets/cards/saiyan-176-nappa.webp?v=8edbb1775889",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-176-nappa.webp?v=a22554a90db0"
+    "downloadImage": "/assets/cards/downloads/saiyan-176-nappa.webp?v=699ce85b6781"
   },
   {
     "id": "saiyan-177-nappa",
@@ -2471,11 +2471,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-177-nappa.webp?v=6f26edf68002",
+    "image": "/assets/cards/saiyan-177-nappa.webp?v=9f9848ee4579",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-177-nappa.webp?v=d3df7c65c38b"
+    "downloadImage": "/assets/cards/downloads/saiyan-177-nappa.webp?v=130b01aff06b"
   },
   {
     "id": "saiyan-178-nappa",
@@ -2485,11 +2485,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-178-nappa.webp?v=549f2d34242b",
+    "image": "/assets/cards/saiyan-178-nappa.webp?v=4c8f8ad6172f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-178-nappa.webp?v=d37a478d4bc4"
+    "downloadImage": "/assets/cards/downloads/saiyan-178-nappa.webp?v=7fcfa45ae66a"
   },
   {
     "id": "saiyan-179-goku-lvl-1-ht",
@@ -2499,10 +2499,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=7d94115d399f",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=019e382b007b",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=5306ea4c315f"
+    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=5194e6ee977a"
   },
   {
     "id": "saiyan-180-piccolo-lvl-1-ht",
@@ -2512,11 +2512,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=dc3b2bcd23a8",
+    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=e338ac118114",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-180-piccolo-lvl-1-ht.webp?v=1422250efdb9"
+    "downloadImage": "/assets/cards/downloads/saiyan-180-piccolo-lvl-1-ht.webp?v=0b216151786b"
   },
   {
     "id": "saiyan-181-gohan-lvl-1-ht",
@@ -2526,11 +2526,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-181-gohan-lvl-1-ht.webp?v=f7f8a9052d62",
+    "image": "/assets/cards/saiyan-181-gohan-lvl-1-ht.webp?v=850abe884468",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-181-gohan-lvl-1-ht.webp?v=f57ad90fd2ec"
+    "downloadImage": "/assets/cards/downloads/saiyan-181-gohan-lvl-1-ht.webp?v=470f1ef26c20"
   },
   {
     "id": "saiyan-182-krillin-lvl-1-ht",
@@ -2540,11 +2540,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=74d7999ff6db",
+    "image": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=20f5a2e512ee",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp?v=74435cb97bcf"
+    "downloadImage": "/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp?v=18cd6be739e9"
   },
   {
     "id": "saiyan-183-raditz-lvl-1-ht",
@@ -2554,11 +2554,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=451abd404655",
+    "image": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=d612cc17016c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp?v=044a24672372"
+    "downloadImage": "/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp?v=9d5993e41d71"
   },
   {
     "id": "saiyan-184-vegeta-lvl-1-ht",
@@ -2568,11 +2568,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=2f313a2271ff",
+    "image": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=ae1c07d68fb9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp?v=201c11e070bc"
+    "downloadImage": "/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp?v=8482752a36d2"
   },
   {
     "id": "saiyan-185-nappa-lvl-1-ht",
@@ -2582,11 +2582,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=7a8a9dbbe7ee",
+    "image": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=1578a27e04e3",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp?v=6508a75eea61"
+    "downloadImage": "/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp?v=c9a9fff01caf"
   },
   {
     "id": "saiyan-186-earth-dragon-ball-6",
@@ -3394,11 +3394,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=ad44ca01b195",
+    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=94f87c2c0e1f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-243-saibaimen.webp?v=410a56cb201d"
+    "downloadImage": "/assets/cards/downloads/saiyan-243-saibaimen.webp?v=858443b1f7d0"
   },
   {
     "id": "saiyan-244-saibaimen",
@@ -3408,11 +3408,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-244-saibaimen.webp?v=b2816aace83b",
+    "image": "/assets/cards/saiyan-244-saibaimen.webp?v=7a6f4199cb51",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-244-saibaimen.webp?v=fc60237e3d40"
+    "downloadImage": "/assets/cards/downloads/saiyan-244-saibaimen.webp?v=fe1613c98307"
   },
   {
     "id": "saiyan-245-saibaimen",
@@ -3422,11 +3422,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=eba5b4dbcf25",
+    "image": "/assets/cards/saiyan-245-saibaimen.webp?v=1f3e822b458f",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-245-saibaimen.webp?v=9c66a3491ed0"
+    "downloadImage": "/assets/cards/downloads/saiyan-245-saibaimen.webp?v=4093a4c37ee8"
   },
   {
     "id": "saiyan-246-saibaimen",
@@ -3436,11 +3436,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=08c8a03b1e24",
+    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=2af88b5d877e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-246-saibaimen.webp?v=e5eb0b1a9c19"
+    "downloadImage": "/assets/cards/downloads/saiyan-246-saibaimen.webp?v=864b572176d8"
   },
   {
     "id": "saiyan-247-gokus-truce",
@@ -3506,11 +3506,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=1e6fe1abcf8e",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=33a035b01710",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=e81d5ccb3ae1"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=edcb4c9de04c"
   },
   {
     "id": "saiyan-0P2-piccolo-silver-variant",
@@ -3520,11 +3520,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=3ea34ff1088e",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=8657a7ed412b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=33063cf55562"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=2ad7c5391471"
   },
   {
     "id": "saiyan-0P3-vegeta-silver-variant",
@@ -3534,11 +3534,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=f1111feae506",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=33718ba64461",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=22537567c466"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=8007acf5e149"
   },
   {
     "id": "saiyan-0P4-raditz-silver-variant",
@@ -3548,11 +3548,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=fad99e9d8767",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=3c6700e00d6b",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp?v=57c6b1d6ea0a"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp?v=1367f143db1f"
   },
   {
     "id": "saiyan-0P5-gohan-silver-variant",
@@ -3562,11 +3562,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=e32b4e96134b",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=7ab27ad37f11",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=eafa7c5bc1fe"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=4f839d7706e2"
   },
   {
     "id": "saiyan-0P6-krillin-silver-variant",
@@ -3576,11 +3576,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=44263de60e18",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=d3dfb9b13915",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=e25200e744f4"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=a0a5c3729eb7"
   },
   {
     "id": "saiyan-0P7-nappa-silver-variant",
@@ -3590,11 +3590,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=20c2fe676f32",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=238bd4a0a250",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp?v=a194aa82813d"
+    "downloadImage": "/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp?v=0aa957206aec"
   },
   {
     "id": "frieza-001-orange-planet-destruction",
@@ -4180,11 +4180,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-037-jeice.webp?v=760758b5a6ec",
+    "image": "/assets/cards/frieza-037-jeice.webp?v=afd2d1d42c9a",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/37_209580c1-bb54-4874-9a5a-345fcb1aebf1.png?v=1584310541",
-    "downloadImage": "/assets/cards/downloads/frieza-037-jeice.webp?v=594894ff1a99",
+    "downloadImage": "/assets/cards/downloads/frieza-037-jeice.webp?v=e2f6a92e20f6",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. If stopped, your opponent discards 2 life cards.",
     "level": 1,
@@ -4212,11 +4212,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-038-dodoria.webp?v=80ac1e8c5c50",
+    "image": "/assets/cards/frieza-038-dodoria.webp?v=651ab9779c51",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/38_7a51d538-c234-41bb-9b69-da040f626c2a.png?v=1584310543",
-    "downloadImage": "/assets/cards/downloads/frieza-038-dodoria.webp?v=7ea09471644e",
+    "downloadImage": "/assets/cards/downloads/frieza-038-dodoria.webp?v=6ec743e3b0c8",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: AT stages.",
     "level": 1,
@@ -4244,11 +4244,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-039-tien.webp?v=3125a63d64e8",
+    "image": "/assets/cards/frieza-039-tien.webp?v=31ec844a6cb9",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/39_d6bd4bdb-a14b-4d2a-a393-455160872d06.png?v=1584310544",
-    "downloadImage": "/assets/cards/downloads/frieza-039-tien.webp?v=a95d4baa7c13",
+    "downloadImage": "/assets/cards/downloads/frieza-039-tien.webp?v=dd893cf55ded",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
     "level": 3,
@@ -4276,11 +4276,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-040-yamcha.webp?v=0f7865eafd39",
+    "image": "/assets/cards/frieza-040-yamcha.webp?v=48aff38082b4",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/40_7833b061-4ac2-42f7-ab89-ddeecfd57ce9.png?v=1584310546",
-    "downloadImage": "/assets/cards/downloads/frieza-040-yamcha.webp?v=e7f93c393ea5",
+    "downloadImage": "/assets/cards/downloads/frieza-040-yamcha.webp?v=ba5e45f4d014",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
     "level": 3,
@@ -4329,8 +4329,8 @@ export const catalog = [
       500,
       0
     ],
-    "image": "/assets/cards/frieza-041-chi-chi.webp?v=6000af89c326",
-    "downloadImage": "/assets/cards/downloads/frieza-041-chi-chi.webp?v=6537bcc76793"
+    "image": "/assets/cards/frieza-041-chi-chi.webp?v=27fb08e1c357",
+    "downloadImage": "/assets/cards/downloads/frieza-041-chi-chi.webp?v=c25bc84ea788"
   },
   {
     "id": "frieza-042-bulma",
@@ -4361,8 +4361,8 @@ export const catalog = [
       500,
       0
     ],
-    "image": "/assets/cards/frieza-042-bulma.webp?v=65ef815cd6f1",
-    "downloadImage": "/assets/cards/downloads/frieza-042-bulma.webp?v=3b137cff5eb4"
+    "image": "/assets/cards/frieza-042-bulma.webp?v=27a9e858c0ec",
+    "downloadImage": "/assets/cards/downloads/frieza-042-bulma.webp?v=b445728fdcda"
   },
   {
     "id": "frieza-043-chiaotzu",
@@ -4393,8 +4393,8 @@ export const catalog = [
       14000,
       0
     ],
-    "image": "/assets/cards/frieza-043-chiaotzu.webp?v=fa4055590f9f",
-    "downloadImage": "/assets/cards/downloads/frieza-043-chiaotzu.webp?v=072f0c7a1056"
+    "image": "/assets/cards/frieza-043-chiaotzu.webp?v=78855554a488",
+    "downloadImage": "/assets/cards/downloads/frieza-043-chiaotzu.webp?v=ee2ded0f2f7a"
   },
   {
     "id": "frieza-044-yajirobe-the-hero",
@@ -4425,8 +4425,8 @@ export const catalog = [
       3200,
       0
     ],
-    "image": "/assets/cards/frieza-044-yajirobe-the-hero.webp?v=6978c7d81b25",
-    "downloadImage": "/assets/cards/downloads/frieza-044-yajirobe-the-hero.webp?v=7f8c3a5d14c2"
+    "image": "/assets/cards/frieza-044-yajirobe-the-hero.webp?v=a96301748d1a",
+    "downloadImage": "/assets/cards/downloads/frieza-044-yajirobe-the-hero.webp?v=cee6f24c02ba"
   },
   {
     "id": "frieza-045-guldo",
@@ -4457,8 +4457,8 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-045-guldo.webp?v=9572567f232b",
-    "downloadImage": "/assets/cards/downloads/frieza-045-guldo.webp?v=f469f98244a3"
+    "image": "/assets/cards/frieza-045-guldo.webp?v=58e9db41298b",
+    "downloadImage": "/assets/cards/downloads/frieza-045-guldo.webp?v=403578788e07"
   },
   {
     "id": "frieza-046-guldo",
@@ -4489,8 +4489,8 @@ export const catalog = [
       52000,
       0
     ],
-    "image": "/assets/cards/frieza-046-guldo.webp?v=d9065d2dce75",
-    "downloadImage": "/assets/cards/downloads/frieza-046-guldo.webp?v=e23f6b8f17f3"
+    "image": "/assets/cards/frieza-046-guldo.webp?v=93f97c7ec728",
+    "downloadImage": "/assets/cards/downloads/frieza-046-guldo.webp?v=5b0c2b079bdc"
   },
   {
     "id": "frieza-047-guldo",
@@ -4521,8 +4521,8 @@ export const catalog = [
       80000,
       0
     ],
-    "image": "/assets/cards/frieza-047-guldo.webp?v=1b6ccaca6c79",
-    "downloadImage": "/assets/cards/downloads/frieza-047-guldo.webp?v=09eb2f5db2d5"
+    "image": "/assets/cards/frieza-047-guldo.webp?v=7ea35ce699a1",
+    "downloadImage": "/assets/cards/downloads/frieza-047-guldo.webp?v=2ef177ec5f56"
   },
   {
     "id": "frieza-048-dende-the-unlikely-hero",
@@ -4553,8 +4553,8 @@ export const catalog = [
       500,
       0
     ],
-    "image": "/assets/cards/frieza-048-dende-the-unlikely-hero.webp?v=172739274d1b",
-    "downloadImage": "/assets/cards/downloads/frieza-048-dende-the-unlikely-hero.webp?v=d16523ba3623"
+    "image": "/assets/cards/frieza-048-dende-the-unlikely-hero.webp?v=fdbf6c18e717",
+    "downloadImage": "/assets/cards/downloads/frieza-048-dende-the-unlikely-hero.webp?v=f0db440164ae"
   },
   {
     "id": "frieza-049-frieza-smiles",
@@ -5225,8 +5225,8 @@ export const catalog = [
       125000,
       0
     ],
-    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=c21e1299b7d7",
-    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=f257b77d44c1"
+    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=97d2eef0158d",
+    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=33d6a21e4142"
   },
   {
     "id": "frieza-090-krillin-on-namek",
@@ -5257,8 +5257,8 @@ export const catalog = [
       95000,
       0
     ],
-    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=afc48d885f36",
-    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=1ed50b93764c"
+    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=431248273a4f",
+    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=13f8fdf53b28"
   },
   {
     "id": "frieza-091-nappa-restored",
@@ -5289,8 +5289,8 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=7d7e60d62f99",
-    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=bf80463baca7"
+    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=cc8d5ebc8c46",
+    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=474a19312c6f"
   },
   {
     "id": "frieza-092-raditz-restored",
@@ -5321,8 +5321,8 @@ export const catalog = [
       20000,
       0
     ],
-    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=2862c8214e7f",
-    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=7826e8b5ae8b"
+    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=53342a36057d",
+    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=4f39582a6b4f"
   },
   {
     "id": "frieza-093-goku-on-namek",
@@ -5353,8 +5353,8 @@ export const catalog = [
       480000,
       0
     ],
-    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=156c941082d4",
-    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=03feb404d379"
+    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=254550cda75a",
+    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=a046f6881395"
   },
   {
     "id": "frieza-094-piccolo",
@@ -5385,8 +5385,8 @@ export const catalog = [
       120000,
       0
     ],
-    "image": "/assets/cards/frieza-094-piccolo.webp?v=6f6e589b042f",
-    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=5d0feb59c1a9"
+    "image": "/assets/cards/frieza-094-piccolo.webp?v=b79c679d82b9",
+    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=76b6c6925f8e"
   },
   {
     "id": "frieza-095-gohan",
@@ -5417,8 +5417,8 @@ export const catalog = [
       110000,
       0
     ],
-    "image": "/assets/cards/frieza-095-gohan.webp?v=f845eed4ec41",
-    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=1488dd0b783d"
+    "image": "/assets/cards/frieza-095-gohan.webp?v=44b27b662f79",
+    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=865e403c3f43"
   },
   {
     "id": "frieza-096-nail-the-namekian",
@@ -5449,8 +5449,8 @@ export const catalog = [
       48000,
       0
     ],
-    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=6fb73b1f1790",
-    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=7ca1dde77124"
+    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=798c35bd02cc",
+    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=3f58eb07b60d"
   },
   {
     "id": "frieza-097-straining-force-positioning-move",
@@ -5689,8 +5689,8 @@ export const catalog = [
       60000,
       0
     ],
-    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=a5df3618a99c",
-    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=78d60fa39e10"
+    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=9a23f603803e",
+    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=a8ea28576326"
   },
   {
     "id": "frieza-111-krillin-s-power-tap",
@@ -5817,8 +5817,8 @@ export const catalog = [
       55000,
       0
     ],
-    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=6590ff4dffac",
-    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=08aa56afe51d"
+    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=b47c25557f64",
+    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=a178819645eb"
   },
   {
     "id": "frieza-118-the-plan",
@@ -5945,8 +5945,8 @@ export const catalog = [
       149991,
       0
     ],
-    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=bfcb81fa3076",
-    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=41373fb3e9aa"
+    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=dec16f559949",
+    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=9207cea47d9f"
   },
   {
     "id": "frieza-125-super-saiyan-goku",
@@ -5977,8 +5977,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=7db0a8b51ed1",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=ce04a6dfa3c2"
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=74e61270e415",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=663b06037c19"
   },
   {
     "id": "frieza-p1-it-s-just-not-worth-it",
@@ -6317,4 +6317,5 @@ export const catalog = [
     "rarity": "Common"
   }
 ];
+
 
