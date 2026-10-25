@@ -9,13 +9,13 @@ const PAGE_SIZE=60;
 let activeSet='';
 let currentPage=1;
 function resetFilters(){
- $('filters').reset();$('set').value=activeSet;$('sort').value=activeSet?'number':'name';
+ $('filters').reset();$('set').value=activeSet;$('sort').value='name';
  currentPage=1;
 }
 function browserURL(page=currentPage){
  const url=new URL(activeSet?setPath(activeSet):'/cards/',location.origin);
  for(const key of ['query','type','style'])if($(key).value)url.searchParams.set(key,$(key).value);
- const defaultSort=activeSet?'number':'name';
+ const defaultSort='name';
  if($('sort').value!==defaultSort)url.searchParams.set('sort',$('sort').value);
  if(page>1)url.searchParams.set('page',page);
  return url.pathname+url.search;

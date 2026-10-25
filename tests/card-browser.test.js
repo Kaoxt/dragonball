@@ -100,11 +100,17 @@ test('search, type, style, sort and Reset return to page one; empty results hide
 test('set pages and Reset stay within their set; small sets hide pagination',()=>{
  const b=browser('/cards/frieza-saga/'),el=b.elements;
  const count=catalog.filter(c=>c.set==='Frieza Saga').length;
- assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'number');
+ assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'name');
+ const expected=catalog.filter(c=>c.set==='Frieza Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,60).map(cardPath);
+ assert.deepEqual(grid(b).map(c=>c.href),expected);
  assert.equal(grid(b).length,Math.min(60,count));assert.equal(el['pagination-top'].hidden,count<=60);
  el.query.value='suspension';el.query.oninput();assert.equal(grid(b).length,1);
  b.events.pageshow();assert.equal(el.query.value,'suspension');
- b.click(el.clear);assert.equal(el.set.value,'Frieza Saga');assert.equal(grid(b).length,Math.min(60,count));
+ el.sort.value='number';el.sort.onchange();
+ assert.equal(new URLSearchParams(b.location.search).get('sort'),'number');
+ b.events.pageshow();assert.equal(el.sort.value,'number');
+ b.click(el.clear);assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'name');
+ assert.equal(b.location.search,'');assert.deepEqual(grid(b).map(c=>c.href),expected);
  el.set.value='Saiyan Saga';el.set.onchange();assert.equal(b.location.assigned,'/cards/saiyan-saga/');
  el.set.value='';el.set.onchange();assert.equal(b.location.assigned,'/cards/');
 });
@@ -130,7 +136,7 @@ test('old all-cards links still open the grid and normalize to Cards',()=>{
 });
 
 test('Trunks Saga shows all eighty cards across two pages, with its wordmark and working detail links',()=>{
- const b=browser('/cards/trunks-saga/'),el=b.elements;
+ const b=browser('/cards/trunks-saga/?sort=number'),el=b.elements;
  assert.equal(grid(b).length,60);
  assert.equal(el['collection-logo-trunks'].hidden,false);
  assert.equal(el['collection-logo-trunks'].src,'/assets/sets/trunks-saga-logo-brushed-purple.webp');
