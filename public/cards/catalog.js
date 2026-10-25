@@ -5977,8 +5977,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=37cb3f1ae4cb",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=d4c66d6a8e3b"
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=f6fc650f6e6b",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=a4714765f1fc"
   },
   {
     "id": "frieza-p1-it-s-just-not-worth-it",
@@ -6196,11 +6196,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-003-namek-dragon-ball-2.webp?v=2c0a8bfdea6a",
+    "image": "/assets/cards/trunks-003-namek-dragon-ball-2.webp?v=a88b82917285",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-3",
-    "downloadImage": "/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp?v=93bf614c9aec",
+    "downloadImage": "/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp?v=a002fde7bb79",
     "rules": "Choose an opponent. Lower their Main Personality 1 level, if possible.",
     "rarity": "Common"
   },

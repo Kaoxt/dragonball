@@ -1,0 +1,51 @@
+{
+  "changes": [
+    {
+      "card_id": "trunks-003-namek-dragon-ball-2",
+      "download_size": [
+        2120,
+        2968
+      ],
+      "display_size": [
+        1060,
+        1484
+      ],
+      "changed_high_resolution_pixels": 3591876,
+      "changed_pixels_outside_edit_mask": 0,
+      "png_lossless_webp_pixel_equal": true,
+      "display_lossless": true,
+      "sha256": {
+        "png": "da76b03103edb559e2d6f90ce0a376838db407107ea008bad183d2960fe36e5a",
+        "download": "a002fde7bb79762b5bcf5c05f15f9e91587b3f83a0c22f5c4c2afea6f5ad1e67",
+        "display": "a88b829172852f883df1f1cd7be521df8fcda653bc8646332b3b164da5887280"
+      },
+      "change": "Horizontal SVG transform of retained full-art Porunga; raised hand clear of left Dragon Ball badge."
+    },
+    {
+      "card_id": "frieza-125-super-saiyan-goku",
+      "download_size": [
+        2120,
+        2968
+      ],
+      "display_size": [
+        1060,
+        1484
+      ],
+      "changed_high_resolution_pixels": 1740274,
+      "changed_pixels_outside_edit_mask": 0,
+      "png_lossless_webp_pixel_equal": true,
+      "display_lossless": true,
+      "sha256": {
+        "png": "69c168accc2d6ec0eb9c76825b14d5be4e4d0043435ef72482d479ecc3af6745",
+        "download": "a4714765f1fc4ae315e421004e16341c9949cdd4307fe30cd5a1ce1a78648632",
+        "display": "f6fc650f6e6bfe5ac8957859900b8a042d90bf03162ccc4992397f9e8423f167"
+      },
+      "change": "Generated separate gold/yellow aura; retained Goku interior pixels, native frame and published UI pixels.",
+      "preserved_source_character_interior_pixels": 306792,
+      "generation": "Built-in imagegen; background-only layer; original comparison supplied by user."
+    }
+  ],
+  "other_cards_changed": false,
+  "game_data_changed": false,
+  "frame_geometry_changed": false
+}
