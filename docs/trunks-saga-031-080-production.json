@@ -1,0 +1,2540 @@
+{
+  "set": "Trunks Saga",
+  "range": [
+    31,
+    80
+  ],
+  "cards_added": 50,
+  "set_total": 80,
+  "catalog_total": 473,
+  "native_canvas": [
+    1060,
+    1484
+  ],
+  "download_size": [
+    2120,
+    2968
+  ],
+  "existing_entries_preserved": 423,
+  "validation": {
+    "native_masters": 50,
+    "export_files": 150,
+    "png_lossless_webp_pixel_equal": true,
+    "terminology_files_checked": 51,
+    "terminology_findings": 0,
+    "node_tests_passed": 96,
+    "python_tests_passed": 6
+  },
+  "wording_scope": "Standalone Combat to Event; Non-Combat scope resolved to Setup or Drill; Physical Combat and Energy Combat references preserved. Supplied Expanded CRD reviewed. Existing deferred cards unchanged.",
+  "visual_review": {
+    "reviewed_cards": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "review_surfaces": [
+      "Original scan contact sheets and individual source scans",
+      "Individual generated illustrations",
+      "All five final 10-card contact sheets",
+      "Full-card inspection of representative and corrected cards"
+    ],
+    "checks": [
+      "Original subjects, actions, camera framing and backgrounds retained",
+      "Faces, hands, costumes, transformations and props checked",
+      "Artwork fills its native window without distortion or padding",
+      "Titles, rules, categories, icons and footers readable and aligned",
+      "Common one-star and Uncommon diagonal two-star rarity marks",
+      "Namek Dragon Ball 3 and 4 star counts and approved Porunga artwork"
+    ],
+    "corrected_during_review": {
+      "31": "Removed extraneous lightning around the magenta energy coils.",
+      "40": "Restored original close portrait framing.",
+      "56": "Corrected young Gohan facial proportions.",
+      "58": "Corrected third-form Frieza head and restored Piccolo behind the impact.",
+      "62": "Removed an added Burter scouter.",
+      "67": "Removed an added Burter scouter while retaining Jeice scouter.",
+      "70": "Cleaned Gohan jaw and restored neck motion marks."
+    },
+    "result": "Passed final visual review."
+  },
+  "cards": [
+    {
+      "number": 31,
+      "name": "Garlic Jr's Kyokaika Technique",
+      "id": "trunks-031-garlic-jr-s-kyokaika-technique",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "(Limit 1 per deck unless your Main Personality is Garlic Jr.) Physical attack. DAMAGE: 7 stages. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "(Limit 1 per deck unless your Main Personality is Garlic Jr.)",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-31",
+      "original_scan": "originals/031.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Limit 1 per deck unless your Main Personality is",
+          "baseline": 1049.1868378378379,
+          "width": 852.649,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Garlic Jr.) Physical attack. DAMAGE: 7 stages.",
+          "baseline": 1108.1868378378379,
+          "width": 864.7616999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Banish after use.",
+          "baseline": 1167.1868378378379,
+          "width": 301.54600000000005,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "18f861817bec42293d862c69161cb63a4434fc8648dba57a44cada184bb2865c",
+        "png": "96547a84e48352dcac473519ba3b10ecdb6ae3c0c0e847c2ed09d46b1b606fd6",
+        "lossless-webp": "cf36f540612f13b73bf65908e0823faf5d7c73f3d03aae6d1221338ef328c6c3",
+        "display-webp": "6ae7f359f1cd09a708940eff907e26b99da0b41f5c54b4cc88c0a7ff9425ef83"
+      }
+    },
+    {
+      "number": 32,
+      "name": "Garlic Jr's Energy Blast",
+      "id": "trunks-032-garlic-jr-s-energy-blast",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If Earth Dragon Ball 5 is in play, this attack cannot be stopped. HIT: Lower an opponent's anger 2 levels.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-32",
+      "original_scan": "originals/032.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+          "baseline": 1049.1868378378379,
+          "width": 881.4266999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. If Earth Dragon Ball 5 is in play, this attack",
+          "baseline": 1108.1868378378379,
+          "width": 875.483,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "cannot be stopped. HIT: Lower an opponent's",
+          "baseline": 1167.1868378378379,
+          "width": 798.8470000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "anger 2 levels.",
+          "baseline": 1226.1868378378379,
+          "width": 259.357,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "99f554b181b7fa8ba32b293e7821eebde5620cf8c5d8f3cfd57ea30f22a9b1a1",
+        "png": "9b02174770828e9437e50ecf29b4c963e847ce71e2e88ed20b517495e85f46f8",
+        "lossless-webp": "a6f2c28f9a46bd949252d5798fbf7cdd930aa3dc7d4844c7eec5f7aadf41e520",
+        "display-webp": "dee320c1aa86868f30eaf58ed8765ed79f75b0447c97c28f1729361a687e39a8"
+      }
+    },
+    {
+      "number": 33,
+      "name": "Garlic Jr's Black Water Mist",
+      "id": "trunks-033-garlic-jr-s-black-water-mist",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "EVENT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "POWER: Banish 1 of your opponent's Allies. If it is banished, raise your anger 2 levels.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-33",
+      "original_scan": "originals/033.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Ignore the last sentence. This Named card is Freestyle, not Black style.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Banish 1 of your opponent's Allies. If it is",
+          "baseline": 1049.1868378378379,
+          "width": 860.1459999999997,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "banished, raise your anger 2 levels.",
+          "baseline": 1108.1868378378379,
+          "width": 630.826,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "646b36227dc854563877bf0bdedaebe693317c482ff17bbb2abe03c7f7b221da",
+        "png": "694b9d6c2d55e0e28f7ca165ca70003e3d834050c6e63ff184d6dffa6589e1ed",
+        "lossless-webp": "c2bd2277cebf6cc2cccd12ef142e696e62f9c8381426b825a0470324dca5c660",
+        "display-webp": "17ad3df25bccbeb263b484884370c138e1bdf639dbd1b54cf98487be6ebe75dd"
+      }
+    },
+    {
+      "number": 34,
+      "name": "Krillin Lashes Out",
+      "id": "trunks-034-krillin-lashes-out",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "EVENT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "POWER: Put 1 of your opponent's Allies in play on the bottom of their Life Deck to lower their anger 3 levels.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-34",
+      "original_scan": "originals/034.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Put 1 of your opponent's Allies in play on",
+          "baseline": 1049.1868378378379,
+          "width": 857.745,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "the bottom of their Life Deck to lower their anger",
+          "baseline": 1108.1868378378379,
+          "width": 870.1909999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "3 levels.",
+          "baseline": 1167.1868378378379,
+          "width": 146.853,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "46ab48ffd3e9bbda28a2f44a30e1d6399249eff6c116a0086dc4877f9d7a984e",
+        "png": "97d6e56e76599eb6e6c9d66d8718167674a132e5f7ae25243930424a7a4e14e9",
+        "lossless-webp": "36bc3a470d38c21d58f9fe8373160b31c205cab59cc153b543a8f02d6c478998",
+        "display-webp": "832b8ac98746b83051f12ba67bbccf16eea39913bca59a3a0e4b6af6b5c372e8"
+      }
+    },
+    {
+      "number": 35,
+      "name": "Krillin Takes a Shot",
+      "id": "trunks-035-krillin-takes-a-shot",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "Physical attack. DAMAGE: 5 stages, or 6 stages instead if Gohan is anywhere in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-35",
+      "original_scan": "originals/035.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: 5 stages, or 6 stages",
+          "baseline": 1049.1868378378379,
+          "width": 884.8566999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "instead if Gohan is anywhere in play.",
+          "baseline": 1108.1868378378379,
+          "width": 650.72,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "aae119834e882240bce6d9f12fcebcac287d21b2dfddab5ee01c1628c1001e48",
+        "png": "1e4ac0ebd4b07e25a502e7eadadbd458ffb1fa91b11a37b7dfc39da8d0a80c51",
+        "lossless-webp": "f37d61239b163f6ae24d315a2f1eb1b5b79eb150da40ab5ac92c64a4737e5287",
+        "display-webp": "ee33dffddb06eac4faf661e68240fe9cdcce64aebd1c8ebe89247d868971718f"
+      }
+    },
+    {
+      "number": 36,
+      "name": "Frieza's Finger Tip Energy Blast",
+      "id": "trunks-036-frieza-s-finger-tip-energy-blast",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Set your opponent's anger to 0. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-36",
+      "original_scan": "originals/036.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+          "baseline": 1049.1868378378379,
+          "width": 881.4266999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. HIT: Set your opponent's anger to 0. Banish",
+          "baseline": 1108.1868378378379,
+          "width": 885.4789999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "after use.",
+          "baseline": 1167.1868378378379,
+          "width": 172.137,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "c62b1b2d48c5cba0e007b92ecc423950e18aba21a27b2696b3f7ac8733b5ae35",
+        "png": "0e9463d535c35f903e5ec527a5eb5b96b4dda75860aa67df4820e47ee614090b",
+        "lossless-webp": "61adaf0a378df51e93b7de5984d51d179562c1690d9486230cf230b6b43f9d32",
+        "display-webp": "27ebedb9ebfb9c6f619fb6b632e31257e84eff147e287eb6a983224a81292272"
+      }
+    },
+    {
+      "number": 37,
+      "name": "King Cold Smiles",
+      "id": "trunks-037-king-cold-smiles",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "POWER: Use when your opponent's anger would reach 5 or more. Set their anger to 3 instead of them gaining a Personality level. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-37",
+      "original_scan": "originals/037.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Use when anger would reach 5 or more; set it to 3 instead of a level gain.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Use when your opponent's anger would",
+          "baseline": 1049.1868378378379,
+          "width": 840.3499999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "reach 5 or more. Set their anger to 3 instead of",
+          "baseline": 1108.1868378378379,
+          "width": 831.9710000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "them gaining a Personality level. Banish after",
+          "baseline": 1167.1868378378379,
+          "width": 806.246,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "use.",
+          "baseline": 1226.1868378378379,
+          "width": 74.382,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "96af7832b2925717f4f93b1c9dbf44cbd98796e490d8ec1bf8287f54ff988817",
+        "png": "2a350d64327209b7cae1a30e5b54757356e41b836098308f0001e3b62c4373ca",
+        "lossless-webp": "8427737e0d0b867936848401b75b64bd84209fa64e0fd9cbaf4751cad3927f2b",
+        "display-webp": "402f196a235d26c874614c9188954e1748ecbdf83f73ef45aa0e5bfb0901f36b"
+      }
+    },
+    {
+      "number": 38,
+      "name": "King Cold's End",
+      "id": "trunks-038-king-cold-s-end",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "(Limit 1 per deck.) Villains only. POWER: If your Life Deck has 10 or fewer cards, shuffle up to the top 7 cards of your discard pile into your Life Deck. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-38",
+      "original_scan": "originals/038.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Limit 1 per deck.) Villains only. POWER: If your",
+          "baseline": 1049.1868378378379,
+          "width": 828.0509999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Life Deck has 10 or fewer cards, shuffle up to the",
+          "baseline": 1108.1868378378379,
+          "width": 867.7899999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "top 7 cards of your discard pile into your Life",
+          "baseline": 1167.1868378378379,
+          "width": 797.5239999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Deck. Banish after use.",
+          "baseline": 1226.1868378378379,
+          "width": 410.228,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "fa844fc6dc4823f5e229f514ebae45d0966f022a4411f21c4a333dc1235cebd2",
+        "png": "a1778becfcde0d69df289814e340cb1f5fa30a17794a75d1487cb883db797c19",
+        "lossless-webp": "63e4450d051568aa9bfd756c04b22900a88f57f430387065ff8f3fa596e59f3b",
+        "display-webp": "7949056da26efeb1878561f2a10996e033c8b49086e040655078ce220ae9b6d2"
+      }
+    },
+    {
+      "number": 39,
+      "name": "Goku's Ready",
+      "id": "trunks-039-goku-s-ready",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "(Limit 1 per deck.) POWER: Search your Life Deck for 1 card and set it aside face down. Put it in your hand at the beginning of your opponent's next turn.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-39",
+      "original_scan": "originals/039.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Limit 1 per deck.) POWER: Search your Life Deck",
+          "baseline": 1049.1868378378379,
+          "width": 866.4669999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "for 1 card and set it aside face down. Put it in your",
+          "baseline": 1108.1868378378379,
+          "width": 888.9089999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "hand at the beginning of your opponent's next",
+          "baseline": 1167.1868378378379,
+          "width": 813.89,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "turn.",
+          "baseline": 1226.1868378378379,
+          "width": 84.86800000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "2e077ec7c684988089c81bf0bf6a8bc33863cb94844394a4f5856f72159064d9",
+        "png": "8dac1b2a073736c0e41a1d3f7f3935b6156603d0ebddf6523c411599e758948c",
+        "lossless-webp": "f81866223920f56a6e92db81e3716430bce6309d6e4d37e7a4569677ee1802a2",
+        "display-webp": "68f84c3acad3babd855c3b7298f3900f4252e0a772ca1f439f5d66b55b918419"
+      }
+    },
+    {
+      "number": 40,
+      "name": "Tien's Ready",
+      "id": "trunks-040-tien-s-ready",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "EVENT",
+      "rarity": "Common",
+      "rarity_stars": 1,
+      "modern_rules": "POWER: Raise any Ally to its highest power stage. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-40",
+      "original_scan": "originals/040.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Raise any Ally to its highest power stage.",
+          "baseline": 1049.1868378378379,
+          "width": 876.806,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Banish after use.",
+          "baseline": 1108.1868378378379,
+          "width": 301.54600000000005,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "9c69d74cdaa88adf4fbe1f628f5a81ab4217a96d6bd3b414050d41475fffd48b",
+        "png": "00092956e7bbedabb4ace5b164abb2063d24eb5c389303fc7c6378f61bb60194",
+        "lossless-webp": "eb2dbdf78b7137772a4a8a34aaeac4bfe8af4ee91e424bd124bfb012e64ae938",
+        "display-webp": "6830b1e1a310805cf4ae686d2d44134c363db9e11bce4fbd62882bec758885fa"
+      }
+    },
+    {
+      "number": 41,
+      "name": "Blue Driving Face Off",
+      "id": "trunks-041-blue-driving-face-off",
+      "set": "Trunks Saga",
+      "style": "Blue",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent's anger 1 level.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-41",
+      "original_scan": "originals/041.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT +3 stages. Lower",
+          "baseline": 1049.1868378378379,
+          "width": 874.7626999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "your opponent's anger 1 level.",
+          "baseline": 1108.1868378378379,
+          "width": 526.554,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "25bc9eff61feadafd67a5faaf4073bcaf6101d7f998f976bb4f6a428bb4b58ac",
+        "png": "975984652cd887eeb06a1968378117d7240eb31495d71dee122687284398a11d",
+        "lossless-webp": "339e0e5075554a8d782699718c903508dcbc0a58ca71e0e402bbe01a919f050d",
+        "display-webp": "b51b0417b21659de9c4d3fb845ed7a83cc1c53dcc195c674532f197869e2d77c"
+      }
+    },
+    {
+      "number": 42,
+      "name": "Breakthrough Drill",
+      "id": "trunks-042-breakthrough-drill",
+      "set": "Trunks Saga",
+      "style": "Blue",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "While this Drill is in play, no player may play or use cards that end Combat.",
+      "power_icon": "constant",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-42",
+      "original_scan": "originals/042.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Affects all players, including Dragon Balls that end Combat. Such Dragon Balls cannot enter play.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "While this Drill is in play, no player may play",
+          "baseline": 1049.1868378378379,
+          "width": 843.9588,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "or use cards that end Combat.",
+          "baseline": 1108.1868378378379,
+          "width": 534.639,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "fbe58dbf956203e5104c1f6693ffe8a329aed4dac59dfbff5ac7b65f4bc705d7",
+        "png": "7d86eca3881d57db8f0036a8afeefe23e70d9fea7ff13a93548b558e43026401",
+        "lossless-webp": "eff5d247d93f5371da823e70b6d78b8a39dc6af453c3f77fdd8bce6f382ac8e8",
+        "display-webp": "3698a402acf2e27b7d1af5719276f2bf01cc1405d0774504bc35807fe4af4664"
+      }
+    },
+    {
+      "number": 43,
+      "name": "Blue Thrusting Fist Strike",
+      "id": "trunks-043-blue-thrusting-fist-strike",
+      "set": "Trunks Saga",
+      "style": "Blue",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. HIT: End Combat after damage is dealt. Banish after use; if Saibaimen is anywhere in play, discard this card instead.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-43",
+      "original_scan": "originals/043.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. HIT: End",
+          "baseline": 1049.1868378378379,
+          "width": 858.4946999999997,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Combat after damage is dealt. Banish after use; if",
+          "baseline": 1108.1868378378379,
+          "width": 882.3919999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Saibaimen is anywhere in play, discard this card",
+          "baseline": 1167.1868378378379,
+          "width": 858.774,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "instead.",
+          "baseline": 1226.1868378378379,
+          "width": 143.031,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "85a81ba5cd89513de002cdb5cd05fae1515e58f9120779ffed276617473eea75",
+        "png": "ed6dfa66cd7270fa543b024b79613498b158160af17bb503881bd2f510a91eb4",
+        "lossless-webp": "378ff233a4392e57895d2511bf7e9a4627f08c3b0b2c70d78636aef62c52fd19",
+        "display-webp": "34887fd92fec7f93b7f5eeed914a21154c255ad85eb40bdf4a429fafeffb5d4d"
+      }
+    },
+    {
+      "number": 44,
+      "name": "Chiaotzu's Psychic Halt",
+      "id": "trunks-044-chiaotzu-s-psychic-halt",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "EVENT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "(Limit 1 per deck.) POWER: Your opponent may only defend for the rest of this Combat. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-44",
+      "original_scan": "originals/044.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "CRD changes the printed Physical Combat category to Combat; current category is Event.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Limit 1 per deck.) POWER: Your opponent may",
+          "baseline": 1049.1868378378379,
+          "width": 821.9259999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "only defend for the rest of this Combat. Banish",
+          "baseline": 1108.1868378378379,
+          "width": 826.385,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "after use.",
+          "baseline": 1167.1868378378379,
+          "width": 172.137,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "219604d0e9b199f248023d37fc74ce430678aede2a076617da2036754159abc6",
+        "png": "f8f686f6bdff4545a76b6d3bd0c88e65e4466f3a89c8c9874fb16cb740ccd268",
+        "lossless-webp": "f4ed40f2e5edcc1ea6040845dfcf8744a98d0a1c1ae36631c6e73b5b08577421",
+        "display-webp": "51d1a1cecbfe1f1863de8d41a2c058b84959fbe49e1f4bc95e4631573895685d"
+      }
+    },
+    {
+      "number": 45,
+      "name": "Black Head Strike",
+      "id": "trunks-045-black-head-strike",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages and 2 life cards, or AT stages and 3 life cards instead if Chiaotzu is anywhere in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-45",
+      "original_scan": "originals/045.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages and 2 life",
+          "baseline": 1049.1868378378379,
+          "width": 864.9626999999997,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards, or AT stages and 3 life cards instead if",
+          "baseline": 1108.1868378378379,
+          "width": 805.364,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Chiaotzu is anywhere in play.",
+          "baseline": 1167.1868378378379,
+          "width": 516.8030000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "5059abf14eadce28e56bca964d9452757e204cd23538f0a774e3ebad054f24a2",
+        "png": "273f3eb84c2f6e95c36c8f68216e5e96d73f07e46c72ff8451fe07f9653ca905",
+        "lossless-webp": "f1136b645ee0827784bcecbceec060f53457862a5ef14dc74c5aaa899f68531d",
+        "display-webp": "1b245af4767007cad4cd3798d8ad2bcfe2558bb9b62bf28d87ded08832279051"
+      }
+    },
+    {
+      "number": 46,
+      "name": "Black Hug Maneuver",
+      "id": "trunks-046-black-hug-maneuver",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. Raise your anger 2 levels, or 3 levels instead if Earth Dragon Ball 6 is in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-46",
+      "original_scan": "originals/046.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. Raise",
+          "baseline": 1049.1868378378379,
+          "width": 809.5436999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "your anger 2 levels, or 3 levels instead if Earth",
+          "baseline": 1108.1868378378379,
+          "width": 823.9839999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Dragon Ball 6 is in play.",
+          "baseline": 1167.1868378378379,
+          "width": 411.404,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "95f0c2b872836f64226e5fcc4cea60eab62b7eebc2dfee45b18b14e9767b2a88",
+        "png": "207a110c3a2ff0944e3dbff40b7a17d21dbd289ad4073998cd94155c792b7d3e",
+        "lossless-webp": "75d8d078ad445d43405bb33684f8ec8804328cf7713cda55e5d76eea30076f86",
+        "display-webp": "8a881805d231c60a590a3398ccac581059474a7ab51e76030e16ee8277ce0402"
+      }
+    },
+    {
+      "number": 47,
+      "name": "Black Driving Palm Strike",
+      "id": "trunks-047-black-driving-palm-strike",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: 2 stages. Raise your anger 1 level. Lower your opponent's anger 1 level.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-47",
+      "original_scan": "originals/047.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: 2 stages. Raise your",
+          "baseline": 1049.1868378378379,
+          "width": 874.4196999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "anger 1 level. Lower your opponent's anger 1 level.",
+          "baseline": 1108.1868378378379,
+          "width": 887.5859999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "596950754d2d829e747236461465e7778c41675b50df9c5a1b7f7fdc450c6290",
+        "png": "45ef88be2641dde17a8a7e16c628fa66ba14209ee1dbf3ab02062f3095f48cd2",
+        "lossless-webp": "e56f92ae82235e84ca5b662c22cab172d96bbd13c73c18830fb02297102287c3",
+        "display-webp": "fd9215db5f8f413dae2607514e0b3c201b34415d6b0ef41a001c56a8f3d56bea"
+      }
+    },
+    {
+      "number": 48,
+      "name": "Dodoria's Waiting Game",
+      "id": "trunks-048-dodoria-s-waiting-game",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages and 2 life cards, or AT stages and 4 life cards instead if Earth Dragon Ball 7 is in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-48",
+      "original_scan": "originals/048.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages and 2 life",
+          "baseline": 1049.1868378378379,
+          "width": 864.9626999999997,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards, or AT stages and 4 life cards instead if",
+          "baseline": 1108.1868378378379,
+          "width": 807.716,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Earth Dragon Ball 7 is in play.",
+          "baseline": 1167.1868378378379,
+          "width": 514.941,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "2da3576a22b55204a9c72bfee1d74b4f097a25a33dee4b014b8443a20690ad50",
+        "png": "dbeb6cf71223f62509ba16fac889c4fe5df0f5af6c7675d524de1308ab107710",
+        "lossless-webp": "d100ac8a6229d6c8fa451985ce9ba5eeb144cd2e033a75306546fd583c6f6393",
+        "display-webp": "0654cd6e2be2a859a076ea8d0bca98f02b52378a417ae5f60bcacc503a6ac395"
+      }
+    },
+    {
+      "number": 49,
+      "name": "Frieza's Aura Shot",
+      "id": "trunks-049-frieza-s-aura-shot",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards, or 7 life cards instead if Vegeta's Quickness Drill is anywhere in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-49",
+      "original_scan": "originals/049.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+          "baseline": 1049.1868378378379,
+          "width": 879.2706999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards, or 7 life cards instead if Vegeta's",
+          "baseline": 1108.1868378378379,
+          "width": 705.6489999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Quickness Drill is anywhere in play.",
+          "baseline": 1167.1868378378379,
+          "width": 625.828,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "b760de4c06804611c2e3c82f72f8b8830bf5dff74b532293aa9c8e2fc0efeb9c",
+        "png": "1bf1c1cf1fc4fabf2af4250a01301a6a2d8dff0c2b90e369d5ec5d2ff8d9ca57",
+        "lossless-webp": "b172b92456e8f3e4495912e42bbd403c4714aaa61d23bcdc4afed5853b551138",
+        "display-webp": "ae51d68e0bda1a6c89f6aa323be5f525437ba9cdbc8b44e68afb722d78af6130"
+      }
+    },
+    {
+      "number": 50,
+      "name": "Saiyan Knee Strike",
+      "id": "trunks-050-saiyan-knee-strike",
+      "set": "Trunks Saga",
+      "style": "Saiyan",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT stages. HIT: Your opponent discards 1 random card from their hand.",
+      "power_icon": "attack",
+      "prefix": "Saiyan Heritage only.",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-50",
+      "original_scan": "originals/050.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Saiyan Heritage only. Physical attack.",
+          "baseline": 1049.1868378378379,
+          "width": 727.4146999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "DAMAGE: AT stages. HIT: Your opponent discards 1",
+          "baseline": 1108.1868378378379,
+          "width": 888.909,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "random card from their hand.",
+          "baseline": 1167.1868378378379,
+          "width": 523.908,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "3a8621ebb2473d9a7d1e091e40fbf4b29066978eb66b3a6f7b72ddca36a146cb",
+        "png": "93fb67f1b1b04b982a4b108813cecd7e145c369bad8d1aa3793af366befd08ca",
+        "lossless-webp": "fdebd25449a58c1f470285672cbfefa8c1b4f5da5b133a7421b0c64ff9eb1dd6",
+        "display-webp": "27b5dbc2cc3008a37f7c7aa9afdebebd4435dcbe22f938711cddea059216eb0e"
+      }
+    },
+    {
+      "number": 51,
+      "name": "Frieza's Powering Rage",
+      "id": "trunks-051-frieza-s-powering-rage",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Villains only. POWER: Any Villain Personality gains 5 stages.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-51",
+      "original_scan": "originals/051.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Villains only. POWER: Any Villain Personality gains",
+          "baseline": 1049.1868378378379,
+          "width": 885.5279999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "5 stages.",
+          "baseline": 1108.1868378378379,
+          "width": 161.70000000000002,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "09321532d35b8fca2745291e784dfb43f535c517a0aa88e707cd595fd8b25be5",
+        "png": "af1a6989caba2f4766b735091f07db5aec02b139f0a08d9d158c00c984ee8291",
+        "lossless-webp": "2f6e8957884f5295e3a214401c1f5e92d9ecb500699dbade8bf4d006c866c36e",
+        "display-webp": "d686c941c2fffe6b61fd10c8972ac72730630ef899d04dba8292ee84677ebcc1"
+      }
+    },
+    {
+      "number": 52,
+      "name": "Namekian Fighting",
+      "id": "trunks-052-namekian-fighting",
+      "set": "Trunks Saga",
+      "style": "Namekian",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Piccolo and Nail only. POWER: Banish 1 of your Allies to raise your anger 2 levels. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-52",
+      "original_scan": "originals/052.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Piccolo and Nail only. POWER: Banish 1 of your",
+          "baseline": 1049.1868378378379,
+          "width": 814.723,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Allies to raise your anger 2 levels. Banish after",
+          "baseline": 1108.1868378378379,
+          "width": 828.1980000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "use.",
+          "baseline": 1167.1868378378379,
+          "width": 74.382,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "ab22dba697a721e497b7667a1518716c9d4faf3d8bfe333935700916f52c65a9",
+        "png": "fb53044a56eaab6bc58fca0840fc56dd9b1686f020df0eb8487d02aa40d31389",
+        "lossless-webp": "7de02487e5e6f1799396fadd8654d7ab913ca5b211c3e5dc223e876b834c2a31",
+        "display-webp": "baab103335a1544f8a993473d2c8bb7e2f36876719dd403f78726dca6d793417"
+      }
+    },
+    {
+      "number": 53,
+      "name": "Captain Ginyu Moves to Attack!",
+      "id": "trunks-053-captain-ginyu-moves-to-attack",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages and 3 life cards. Raise your anger 1 level. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-53",
+      "original_scan": "originals/053.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages and 3 life",
+          "baseline": 1049.1868378378379,
+          "width": 864.8646999999997,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. Raise your anger 1 level. Banish after use.",
+          "baseline": 1108.1868378378379,
+          "width": 861.665,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "fde1b969b0673951ece3fd2e002caedcf29de5120b7d73629b250cebc4d6b63d",
+        "png": "9235b04137f38a48cb9a3d5d5815b36cfccdfc75e8ea2635d8ccb1ec15c05f93",
+        "lossless-webp": "639ebf7223ea1fddf1042ef4f87c00d5d5e228bd5b347e32cc6bd4fde4487b17",
+        "display-webp": "9800eb20c34021b10fdd65fc8fee42ecb47e66ef01452fd76c6a6956f6dcb752"
+      }
+    },
+    {
+      "number": 54,
+      "name": "Captain Ginyu's Energy Attack",
+      "id": "trunks-054-captain-ginyu-s-energy-attack",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 3 stages. DAMAGE: 4 life cards. Raise your anger 2 levels. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-54",
+      "original_scan": "originals/054.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 3 stages. DAMAGE: 4 life",
+          "baseline": 1049.1868378378379,
+          "width": 881.3286999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. Raise your anger 2 levels. Banish after use.",
+          "baseline": 1108.1868378378379,
+          "width": 889.3989999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "09e4c0ed7b717530a770eab87bfd1a535618e2c99a510c1dba19a68fb833c130",
+        "png": "500f973b42733705ce4982c03616b889318a7cab22a43f5b0ebb5f1fdd7844d8",
+        "lossless-webp": "430c3bfc5b27a0d771fd331ec5382b387f5e8f990eaa8bffd90ba4a6e4a6c8de",
+        "display-webp": "3bee77e491c7942f02363c2d90ef27f797f9d2d5976540b1e44476f765d318eb"
+      }
+    },
+    {
+      "number": 55,
+      "name": "Namekian Attack Drill",
+      "id": "trunks-055-namekian-attack-drill",
+      "set": "Trunks Saga",
+      "style": "Namekian",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Piccolo and Nail only. You may have all your physical attacks deal +2 stages of damage.",
+      "power_icon": "constant",
+      "prefix": "Piccolo and Nail only.",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-55",
+      "original_scan": "originals/055.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Piccolo and Nail only. You may have all your",
+          "baseline": 1049.1868378378379,
+          "width": 846.2568,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "physical attacks deal +2 stages of damage.",
+          "baseline": 1108.1868378378379,
+          "width": 769.741,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "a0a0488970499d7bc86201f5940f809441c3a32201512f2d3415d2cd4dd102d1",
+        "png": "5ae173d63d014aad35779fb5d59d191780d21ba177c82557f82f14a83ac1ce3a",
+        "lossless-webp": "b835f7796f7070301f0eadd91db184e504e18e6777f05cf307169cb7ceed958d",
+        "display-webp": "9da057bbe48af15405da6fd1f5c43f316d670dc863ab843cf6606d678646d3db"
+      }
+    },
+    {
+      "number": 56,
+      "name": "Frieza's Tail Hold",
+      "id": "trunks-056-frieza-s-tail-hold",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. HIT: Banish an Ally of your choice. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-56",
+      "original_scan": "originals/056.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. HIT:",
+          "baseline": 1049.1868378378379,
+          "width": 783.5246999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Banish an Ally of your choice. Banish after use.",
+          "baseline": 1108.1868378378379,
+          "width": 834.078,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "c53fa2e55d7fd0eec390d2a340f8fe0fabdc1401e69a3f1f894347a52a451ce4",
+        "png": "045dbeab1decfcea1b186fbf34799c0a9721b3ce874a2eb43f296363ec65053b",
+        "lossless-webp": "a851a5fa9388f2a1b274fe26c3e2ae27476d04fa07416a9e5a5089388379d0ca",
+        "display-webp": "178167a0027f18e07d6ab96c30473ca59ce8c911d34b1c8f14c87412f4d291fb"
+      }
+    },
+    {
+      "number": 57,
+      "name": "Frieza's Irritation Grows",
+      "id": "trunks-057-frieza-s-irritation-grows",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. HIT: Raise your anger 1 level for each Frieza's Irritation Grows in your discard pile.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-57",
+      "original_scan": "originals/057.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Count Frieza's Irritation Grows in your discard pile; correct the card-name reference.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. HIT:",
+          "baseline": 1049.1868378378379,
+          "width": 783.5246999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Raise your anger 1 level for each Frieza's",
+          "baseline": 1108.1868378378379,
+          "width": 722.8480000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Irritation Grows in your discard pile.",
+          "baseline": 1167.1868378378379,
+          "width": 639.5970000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "064a924fe260bfc6f741e064d0234ebc447986ad1483dc812cc01e835d1ab401",
+        "png": "3b9e79e69b61ce38e211ffa93d973a99ca1159a4199d9a9dc202675f0975bcde",
+        "lossless-webp": "21b26b08e9a1695e4869d588720cab56e13c04995f6b60fd1b22b6b05ce59009",
+        "display-webp": "8a73c5f3f313a9cfa1a6bd4b90ed1274295c4846f62b110ea3fd656caf0f9a61"
+      }
+    },
+    {
+      "number": 58,
+      "name": "Scorning Aura Shot",
+      "id": "trunks-058-scorning-aura-shot",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower an opponent's anger 1 level, or 2 levels instead if Saiyan Power Drill is anywhere in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-58",
+      "original_scan": "originals/058.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+          "baseline": 1049.1868378378379,
+          "width": 881.4266999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. Lower an opponent's anger 1 level, or 2",
+          "baseline": 1108.1868378378379,
+          "width": 809.4799999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "levels instead if Saiyan Power Drill is anywhere in",
+          "baseline": 1167.1868378378379,
+          "width": 880.1379999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "play.",
+          "baseline": 1226.1868378378379,
+          "width": 85.701,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "4c4ad7369fa3446117b2b73ffe13afe40f48687f723b33d7125accd97b1cf0d7",
+        "png": "8da50abc368e676f8cf5d6a72e4f18cdf0243da053b600de57a8d360a950ab7c",
+        "lossless-webp": "b6d7f8e6d02006de7959393ca666e931258fcd01aca3e662847c623ca264165f",
+        "display-webp": "9daf7b8a7c3b35ee0acf02fc55f227e68962a082360b10342d89e411b7827290"
+      }
+    },
+    {
+      "number": 59,
+      "name": "Frieza is Ready",
+      "id": "trunks-059-frieza-is-ready",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "(Limit 1 per deck.) Villains only. POWER: Use immediately after your Main Personality takes life-card damage from an opponent's attack. That opponent discards twice that many life cards.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-59",
+      "original_scan": "originals/059.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Use immediately after the attack damage. Opponent discards twice the life-card damage; this is not damage, so Endurance and Overkill do not apply.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Limit 1 per deck.) Villains only. POWER: Use",
+          "baseline": 1049.1868378378379,
+          "width": 777.2379999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "immediately after your Main Personality takes",
+          "baseline": 1108.1868378378379,
+          "width": 818.9369999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "life-card damage from an opponent's attack. That",
+          "baseline": 1167.1868378378379,
+          "width": 885.8219999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "opponent discards twice that many life cards.",
+          "baseline": 1226.1868378378379,
+          "width": 815.5069999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "354d7bb640394038259eb01078d2aaf22780708928d3d384428d2061ad7a6306",
+        "png": "b49fba1e2e724b69e094f38eafe92953dde58041547279de404a3012966a22ba",
+        "lossless-webp": "61ba9994b6f8124b3cdcd1e1d71ae88ce061ffbdbe1d80b0341690a5a97dae68",
+        "display-webp": "8db45d9ea5f92e45fc897d10009ade3931b8a5618832d6d78f5e53bfbe917637"
+      }
+    },
+    {
+      "number": 60,
+      "name": "Namekian Physical Drill",
+      "id": "trunks-060-namekian-physical-drill",
+      "set": "Trunks Saga",
+      "style": "Namekian",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Your Main Personality gains +1 PUR. Your physical attacks deal +1 stage of damage.",
+      "power_icon": "constant",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-60",
+      "original_scan": "originals/060.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Your Main Personality gains +1 PUR. Your",
+          "baseline": 1049.1868378378379,
+          "width": 784.5708,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "physical attacks deal +1 stage of damage.",
+          "baseline": 1108.1868378378379,
+          "width": 742.0070000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "1fe1e9121210e2f58454b2d4273f290d518131c488a4f42c327d6d71b61c8025",
+        "png": "e9f773ab7d653d455ae6fbd01821b87dbf931a30dfa138a00a3f1ef02fd65353",
+        "lossless-webp": "8e224cb99ba8922add47445b6218b35ca9b76315c02ac1bd37698266e7290ca8",
+        "display-webp": "551577b2d48367a51ad9399c112f0fc04e20e436d03fcaff53d4a01b15a2ae30"
+      }
+    },
+    {
+      "number": 61,
+      "name": "Namekian Energy Drill",
+      "id": "trunks-061-namekian-energy-drill",
+      "set": "Trunks Saga",
+      "style": "Namekian",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "After each of your successful energy attacks, you may discard 1 card from your hand and shuffle it into your Life Deck, then draw 1 card.",
+      "power_icon": "constant",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-61",
+      "original_scan": "originals/061.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Optional discard and shuffle must be performed to draw. Draw is tied to this optional chain.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "After each of your successful energy attacks,",
+          "baseline": 1049.1868378378379,
+          "width": 878.8957999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "you may discard 1 card from your hand and",
+          "baseline": 1108.1868378378379,
+          "width": 764.988,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "shuffle it into your Life Deck, then draw 1 card.",
+          "baseline": 1167.1868378378379,
+          "width": 827.2179999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "99e1a2be302a9c287fd8c89b0e3bc257c3a5e6253d612b332c0d1ca106e6d464",
+        "png": "598475efa1c9001e9dec0c4f6f608d98e8a078293bcbc551c58c1228c0ea0ad5",
+        "lossless-webp": "f7c9c69e175fa80f84187cfe149908edc02e1b7b7dbbfe39e70364e92244e28e",
+        "display-webp": "40dde111771847bab735930af9d60a42484beb7ebb98f201a744448e4482ea72"
+      }
+    },
+    {
+      "number": 62,
+      "name": "Burter's Power Stance",
+      "id": "trunks-062-burter-s-power-stance",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "POWER: Raise any Villain Main Personality to its highest power stage. Set all of that Main Personality's Allies to 5 stages above 0. Banish after use.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-62",
+      "original_scan": "originals/062.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Raise any Villain Main Personality to its",
+          "baseline": 1049.1868378378379,
+          "width": 841.673,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "highest power stage. Set all of that Main",
+          "baseline": 1108.1868378378379,
+          "width": 711.235,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Personality's Allies to 5 stages above 0. Banish",
+          "baseline": 1167.1868378378379,
+          "width": 832.755,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "after use.",
+          "baseline": 1226.1868378378379,
+          "width": 172.137,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "f8eaa125ba7f11276433b56ad7b87e3c9975ec74b52941c8eee080719c925ca7",
+        "png": "5da809995bb865afa7c3f3142ddc3578d4e9c7e9f110c670317166e900f0bc0c",
+        "lossless-webp": "e35946e6f399b65292c02fee72b9f0adc0245212a12bffb59b176358ebd03630",
+        "display-webp": "92e14dd0ec2e8b62384089cbf9b1f2bb2a5ce127acd06525b4aa328f69459229"
+      }
+    },
+    {
+      "number": 63,
+      "name": "Red Shattering Leap",
+      "id": "trunks-063-red-shattering-leap",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT +4 stages. Keep this card in play to use 1 more time this Combat. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-63",
+      "original_scan": "originals/063.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT +4 stages. Keep",
+          "baseline": 1049.1868378378379,
+          "width": 856.0446999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "this card in play to use 1 more time this Combat.",
+          "baseline": 1108.1868378378379,
+          "width": 851.3749999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Banish after use.",
+          "baseline": 1167.1868378378379,
+          "width": 301.54600000000005,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "da28cff431939a51a656f86bcbc3b256de4493c0ef62f15bbbc9fb21ddb1909c",
+        "png": "1c91a7fb0d33ffe106cd64fdea792bf45493b58d32b31ba1f46d999c1c1e8ffa",
+        "lossless-webp": "3987834d9024b0123ab852043ef5f7e3dc2578513d3dd246e83e5c6d5527dcb5",
+        "display-webp": "1e6dbfc76bf468448d6fbeeed787ff4ab459dac64aa51e9f8af4a190af3358b8"
+      }
+    },
+    {
+      "number": 64,
+      "name": "Gohan's Quest",
+      "id": "trunks-064-gohan-s-quest",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "POWER: Search your Life Deck for Namek Dragon Ball 1 or 2 and play it. That Dragon Ball loses its power for the rest of the game.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-64",
+      "original_scan": "originals/064.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Search your Life Deck for Namek Dragon",
+          "baseline": 1049.1868378378379,
+          "width": 867.8879999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Ball 1 or 2 and play it. That Dragon Ball loses its",
+          "baseline": 1108.1868378378379,
+          "width": 833.6859999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "power for the rest of the game.",
+          "baseline": 1167.1868378378379,
+          "width": 553.6510000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "bd9f68810caabd13fc0b110c326418ef19b8e14ac3cc5f6a41dfac6dc89aa6aa",
+        "png": "7cc333aaf82cad800ee685cf4f655d7d5d46075d516f650417cf4131e032709f",
+        "lossless-webp": "adc5c7d17dbbd9fc228470c5bf8867d94477e43ac77cdb11a33027c6c0e6a789",
+        "display-webp": "37384d885a51625634210b7c066b9e037365836f01f646d3549f1113966c0c6d"
+      }
+    },
+    {
+      "number": 65,
+      "name": "Krillin's Quest",
+      "id": "trunks-065-krillin-s-quest",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "SETUP",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "POWER: Search your Life Deck for Namek Dragon Ball 2 or 3 and play it. That Dragon Ball loses its power for the rest of the game.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-65",
+      "original_scan": "originals/065.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "POWER: Search your Life Deck for Namek Dragon",
+          "baseline": 1049.1868378378379,
+          "width": 867.8879999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Ball 2 or 3 and play it. That Dragon Ball loses its",
+          "baseline": 1108.1868378378379,
+          "width": 841.1339999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "power for the rest of the game.",
+          "baseline": 1167.1868378378379,
+          "width": 553.6510000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "60893f4606f21a2ab573e8f584699442617280de38ccf42b0da7b2c5adbb141d",
+        "png": "a7ad42e73f23035ea43dc7a4947567394dd8f86d68078602ee424b4325ee1db7",
+        "lossless-webp": "95e1bbe1f1df877a63fb398aea2320a5448ec25b87b099c8781a166ee57ae3ca",
+        "display-webp": "b48fb2b186838f66671beec6315184ab02f61b6c225caa3155a78aa1be5db647"
+      }
+    },
+    {
+      "number": 66,
+      "name": "Namekian Head Strike",
+      "id": "trunks-066-namekian-head-strike",
+      "set": "Trunks Saga",
+      "style": "Namekian",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Heroes only. Physical attack. DAMAGE: AT stages. Lower your opponent's anger 2 levels. HIT: Capture an opponent's Dragon Ball. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "Heroes only.",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-66",
+      "original_scan": "originals/066.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Heroes only. Physical attack. DAMAGE: AT",
+          "baseline": 1049.1868378378379,
+          "width": 793.5646999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "stages. Lower your opponent's anger 2 levels.",
+          "baseline": 1108.1868378378379,
+          "width": 814.0859999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "HIT: Capture an opponent's Dragon Ball. Banish",
+          "baseline": 1167.1868378378379,
+          "width": 830.991,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "after use.",
+          "baseline": 1226.1868378378379,
+          "width": 172.137,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "c8ff7f63ff3e87cfebcd78762aa96ba7748a7f1f63321ea3a806ad5815a337ab",
+        "png": "911c204f4275258642380d480f5d125efb22660eaaba181e9cba1297c0985726",
+        "lossless-webp": "60b5a3c1a180f4634cd425bef2fc2510212f3501d44e87e480775815f65f008a",
+        "display-webp": "a3fe72515ed4caeb98c8e275635a01c2b7d132eef67dc08cbe2c2769de7f40b7"
+      }
+    },
+    {
+      "number": 67,
+      "name": "Red Knee Eruption",
+      "id": "trunks-067-red-knee-eruption",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. HIT: Banish 1 of your opponent's Drills in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-67",
+      "original_scan": "originals/067.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. HIT:",
+          "baseline": 1049.1868378378379,
+          "width": 783.5246999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Banish 1 of your opponent's Drills in play.",
+          "baseline": 1108.1868378378379,
+          "width": 722.652,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "f7e8c7c7ecb5eb15e2b5e4c2c7c4780780bee878b9d120657db96c2333fbe193",
+        "png": "64a475a6e0a8c5a89679bd175827cb37c443a7304574fd3a13785bcc3fe17baa",
+        "lossless-webp": "5f4d4b2fe79f4ddc52f41089fac38d12826561f531c634ec500f72c51cb2472f",
+        "display-webp": "d5fe63382fd3c3dfcc4f37d4df04bc302e31e49a6697edc87186691b6a2e304d"
+      }
+    },
+    {
+      "number": 68,
+      "name": "Red Face Upheaval",
+      "id": "trunks-068-red-face-upheaval",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level. HIT: Banish 1 Setup or Drill in play.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-68",
+      "original_scan": "originals/068.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Expanded CRD Non-Combat glossary: Setups and Drills. Keep any-player scope; no Ally or Dragon Ball target.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. Raise",
+          "baseline": 1049.1868378378379,
+          "width": 809.5436999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "your anger 1 level. HIT: Banish 1 Setup or Drill in",
+          "baseline": 1108.1868378378379,
+          "width": 836.7239999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "play.",
+          "baseline": 1167.1868378378379,
+          "width": 85.701,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "398863636072c90f5f26cb2e99f4490adfd7ad1e2cbd63e664b8430e2c492b43",
+        "png": "2fd250401bcefb5f20d20a68f5ca74544de74d062a81c13a2572916894dca19c",
+        "lossless-webp": "b417308a54b5a8de3798ad5f16adf0c4894859646498a6a5c319ed41ea199e6c",
+        "display-webp": "1a1cd4f8d8b210446ae19771fafc79e8b1fd09fbabef70a24202ea2155284193"
+      }
+    },
+    {
+      "number": 69,
+      "name": "Orange Special Beam Cannon",
+      "id": "trunks-069-orange-special-beam-cannon",
+      "set": "Trunks Saga",
+      "style": "Orange",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 3 stages. DAMAGE: 1 life card for each stage the attacking Personality is above 0.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-69",
+      "original_scan": "originals/069.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Pay the cost before evaluating the attacking Personality power stage under normal attack timing.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 3 stages. DAMAGE: 1 life",
+          "baseline": 1049.1868378378379,
+          "width": 871.5286999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "card for each stage the attacking Personality is",
+          "baseline": 1108.1868378378379,
+          "width": 846.965,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "above 0.",
+          "baseline": 1167.1868378378379,
+          "width": 150.969,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "8916bb828c5b0015e59566a8f60af2bcfdd64cf2b999bb620e94ceb84c52df66",
+        "png": "1a95a65615f0f056163a1427c14a45c53fa714fa76a6847f84e205ede13d836d",
+        "lossless-webp": "2bbf7dede9eaf110c8eefb264cc568281651f8ad42a11d691e9f26a61ba568f2",
+        "display-webp": "627f8094da43301ccbf07de94f9fbc7cd08d0ad5c66c3f86bc43e82d4c003a26"
+      }
+    },
+    {
+      "number": 70,
+      "name": "Orange Resistance",
+      "id": "trunks-070-orange-resistance",
+      "set": "Trunks Saga",
+      "style": "Orange",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Stop an energy attack. In your next Attack Phase, either pass or have your Main Personality use this card's attack: Energy attack costing 2 stages. DAMAGE: 4 life cards.",
+      "power_icon": "attack",
+      "prefix": "Stop an energy attack. In your next Attack Phase, either pass or have your Main Personality use this card's attack:",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-70",
+      "original_scan": "originals/070.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Stop an energy attack. In your next Attack Phase,",
+          "baseline": 1049.1868378378379,
+          "width": 879.1089999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "either pass or have your Main Personality use this",
+          "baseline": 1108.1868378378379,
+          "width": 885.7239999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "card's attack: Energy attack costing 2 stages.",
+          "baseline": 1167.1868378378379,
+          "width": 876.2276999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "DAMAGE: 4 life cards.",
+          "baseline": 1226.1868378378379,
+          "width": 377.20200000000006,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "96429af593a239d4768e3a079a359e3b3d12319eacb673fdd382edc3ba687bd6",
+        "png": "a0c13a754576e35b9182e7ba6a7c9aa898baf70d43af4e341964030c607c6d2b",
+        "lossless-webp": "b038feafcd5d0e594e12348824041fc1c214d56a0a25b2b5d065bd1003576eee",
+        "display-webp": "de4c895977862f2e68a8d522c8c401f2ff9d1660f65086930d6bee834b09bab6"
+      }
+    },
+    {
+      "number": 71,
+      "name": "Orange Special Beam Cannon Drill",
+      "id": "trunks-071-orange-special-beam-cannon-drill",
+      "set": "Trunks Saga",
+      "style": "Orange",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "(Once per Combat.) When an energy attack hits you, you may perform the same energy attack in your next Attack Phase.",
+      "power_icon": "constant",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-71",
+      "original_scan": "originals/071.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "(Once per Combat.) When an energy attack",
+          "baseline": 1049.1868378378379,
+          "width": 829.1117999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "hits you, you may perform the same energy",
+          "baseline": 1108.1868378378379,
+          "width": 771.5049999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "attack in your next Attack Phase.",
+          "baseline": 1167.1868378378379,
+          "width": 592.6060000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "d98f7578130648de2cd9df9434260b3c8b18c38e9f19b67edbbb520f09ab060d",
+        "png": "7d40ea6b451010ba2b74e781ea588092c402298cf1d6ff56828ad2dda9a25401",
+        "lossless-webp": "ff8ed05603e251108ff791e6990816cc615c2a90716407ed1e5c06cfe4ec1263",
+        "display-webp": "dcd19f98b004292a6e11ad27ed3c0eeb27d8c10e920da9d90e9903f036623a18"
+      }
+    },
+    {
+      "number": 72,
+      "name": "Black Energy Web",
+      "id": "trunks-072-black-energy-web",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Your opponent cannot perform energy attacks for the rest of this Combat.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-72",
+      "original_scan": "originals/072.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+          "baseline": 1049.1868378378379,
+          "width": 879.2706999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. HIT: Your opponent cannot perform energy",
+          "baseline": 1108.1868378378379,
+          "width": 881.314,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "attacks for the rest of this Combat.",
+          "baseline": 1167.1868378378379,
+          "width": 625.4850000000001,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "d475e0f60eaeb501cd0fb6de9649a7f001e712eb1c9d70bd49ad56fd8e48fa34",
+        "png": "24d75c92bd6b8cc583b358a94f9e2476860baca034888a74d845778da4162daa",
+        "lossless-webp": "f0be900b03402cb620fd09df228d59822b6b368f5ab8af4981949c425cba93db",
+        "display-webp": "84d36d90eee6b7514d469a1c2c4f85d3d1cf2de6f666076bb79cd4e8aff917d3"
+      }
+    },
+    {
+      "number": 73,
+      "name": "Black Energy Blasts",
+      "id": "trunks-073-black-energy-blasts",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 stages. HIT: Gain 4 stages.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-73",
+      "original_scan": "originals/073.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 4",
+          "baseline": 1049.1868378378379,
+          "width": 814.6886999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "stages. HIT: Gain 4 stages.",
+          "baseline": 1108.1868378378379,
+          "width": 472.26200000000006,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "f2214b4b845350db3940b109fe885911e5064f81043afd60d48bb9e7f74d29cf",
+        "png": "995db60994a58b80acf4f6fa05ae70abd917e92c505bd1e7de8ffcda324444fa",
+        "lossless-webp": "194573efada805287b1fe23fc45b86ee0e16979945617bf4426e3144ab4bad65",
+        "display-webp": "77860dc952ec56c75a6e635332a3ed213f77323d721a1fbe7b0df24f89beb2db"
+      }
+    },
+    {
+      "number": 74,
+      "name": "Black Energy Deflection Drill",
+      "id": "trunks-074-black-energy-deflection-drill",
+      "set": "Trunks Saga",
+      "style": "Black",
+      "category": "DRILL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "You may play an energy attack from your hand and pay its costs to stop an energy attack. Then your opponent discards 1 life card. Resolve its secondary effects, but no HIT effects or attack damage.",
+      "power_icon": "constant",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-74",
+      "original_scan": "originals/074.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Play an Energy Combat attack from hand, pay costs, stop incoming energy attack, opponent discards 1 life card. The played card resolves secondary effects, not HIT effects or attack damage.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "You may play an energy attack from your",
+          "baseline": 1049.1868378378379,
+          "width": 798.8788,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "hand and pay its costs to stop an energy attack.",
+          "baseline": 1108.1868378378379,
+          "width": 855.4909999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Then your opponent discards 1 life card. Resolve",
+          "baseline": 1167.1868378378379,
+          "width": 859.068,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "its secondary effects, but no HIT effects or attack",
+          "baseline": 1226.1868378378379,
+          "width": 888.1249999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "damage.",
+          "baseline": 1285.1868378378379,
+          "width": 152.488,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "76ff027c38dfd15265bcf2e5512d8a84cf59b342ccd0d38c639d511be8e429fc",
+        "png": "ad244733cd297ab61e87405032d7d15a4ee1c61488648a08fd31ac91be06d3cf",
+        "lossless-webp": "cfcf7d8b3d7e114de998f240065d0070e3f3b31741675b88c15ff9a0c148ded6",
+        "display-webp": "c935da1d04190cdc4df6ab3d7c3d88a3b626e61c5e7d550d40c6374135085d8e"
+      }
+    },
+    {
+      "number": 75,
+      "name": "Red Power Rush",
+      "id": "trunks-075-red-power-rush",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT +3 stages. Physical Combat cards cannot stop or prevent this attack. Raise your anger 1 level. Banish after use.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-75",
+      "original_scan": "originals/075.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT +3 stages.",
+          "baseline": 1049.1868378378379,
+          "width": 755.1536999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "Physical Combat cards cannot stop or prevent",
+          "baseline": 1108.1868378378379,
+          "width": 821.387,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "this attack. Raise your anger 1 level. Banish after",
+          "baseline": 1167.1868378378379,
+          "width": 868.8679999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "use.",
+          "baseline": 1226.1868378378379,
+          "width": 74.382,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "f9b301e5e4a604e706dc66968afec59328b8b175de66d5570a5b543c474f1309",
+        "png": "c080f28e765a36a8208ec8f114cb11d65ed5d2f7a183364faf492461dcbde2af",
+        "lossless-webp": "1c64d209a08a9c62f22df7eed275bcf4fe99ddd6d6fdeb93270eccb5857f1094",
+        "display-webp": "58b28758e33212a1f5454670737c57429e3d095a16f202457201b0a5d16f1c63"
+      }
+    },
+    {
+      "number": 76,
+      "name": "Red Lightning Slash",
+      "id": "trunks-076-red-lightning-slash",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level. HIT: You may discard either all the defender's Allies or all their Drills instead of dealing damage.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-76",
+      "original_scan": "originals/076.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack. DAMAGE: AT stages. Raise",
+          "baseline": 1049.1868378378379,
+          "width": 809.5436999999998,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "your anger 1 level. HIT: You may discard either all",
+          "baseline": 1108.1868378378379,
+          "width": 875.3849999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "the defender's Allies or all their Drills instead of",
+          "baseline": 1167.1868378378379,
+          "width": 843.8779999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "dealing damage.",
+          "baseline": 1226.1868378378379,
+          "width": 291.795,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "837e20a65387241b244eb82bd80f1b268df90d402c177e697eb17af2852e3095",
+        "png": "d2e37c39ad5e8013c8ff9200291fbecb0f8ea22ec4d4a35624ff7c5ddefa8fc6",
+        "lossless-webp": "20d80ce94939973db2e194664d27905f91686ddc2a9e430965cc16aeb13c5ff9",
+        "display-webp": "993bdd7f6dbcc9acd6260640a020434947835ae2ee622e3e4b337ce3ee7283e0"
+      }
+    },
+    {
+      "number": 77,
+      "name": "Red Energy Blast",
+      "id": "trunks-077-red-energy-blast",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "ENERGY COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Banish 1 of the defender's Allies or Drills. Raise your anger 1 level.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-77",
+      "original_scan": "originals/077.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+          "baseline": 1049.1868378378379,
+          "width": 881.4266999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "cards. Banish 1 of the defender's Allies or Drills.",
+          "baseline": 1108.1868378378379,
+          "width": 841.6729999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Raise your anger 1 level.",
+          "baseline": 1167.1868378378379,
+          "width": 428.60300000000007,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "69de10811ea8f985b4fe00bef73eb3893def1441fba0e1b334ac8395a0dafd71",
+        "png": "33deef040aecbd5e3814d76b480a74042c525f3a8c4d8a1c2289c5284a1f32ef",
+        "lossless-webp": "59ddf6c19db2459e7044f4213aad75f09e60d414bdcac56e230488998d443e77",
+        "display-webp": "79deeb42006ff47847f15a9ae473f670593ef64e44a59045c2ae0bf0ee2067b3"
+      }
+    },
+    {
+      "number": 78,
+      "name": "Red Eye Laser Assault",
+      "id": "trunks-078-red-eye-laser-assault",
+      "set": "Trunks Saga",
+      "style": "Red",
+      "category": "PHYSICAL COMBAT",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "Physical attack costing 4 stages. DAMAGE: AT +3 stages. Raise your anger 2 levels.",
+      "power_icon": "attack",
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-78",
+      "original_scan": "originals/078.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "rule_lines": [
+        {
+          "text": "Physical attack costing 4 stages. DAMAGE: AT",
+          "baseline": 1049.1868378378379,
+          "width": 866.5306999999999,
+          "visible_center_x": 530.0,
+          "icon_inline": true
+        },
+        {
+          "text": "+3 stages. Raise your anger 2 levels.",
+          "baseline": 1108.1868378378379,
+          "width": 649.152,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "f28329e4fd5591ffcdc4b34d27b964df03b63db8deee67c62618c09cb9aa1ff5",
+        "png": "826519c44b2c4ef8dda29f3e5f92c7b6b38fdedfc986f55eedf1bea67add1f4d",
+        "lossless-webp": "9b77f08c45a36718c32b2a83b01eb55943d202b28e58ab90da72266b40ad79ce",
+        "display-webp": "b0ae23ed04a0975f74eba094d7cb3991e94c27a915230ca4490b362ec067042a"
+      }
+    },
+    {
+      "number": 79,
+      "name": "Namek Dragon Ball 3",
+      "id": "trunks-079-namek-dragon-ball-3",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "DRAGON BALL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "POWER: Draw up to the bottom 3 cards of your discard pile into your hand.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-79",
+      "original_scan": "originals/079.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Checked supplied Expanded CRD; no card-specific change needed.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "dragon_ball_number": 3,
+      "rule_lines": [
+        {
+          "text": "POWER: Draw up to the bottom 3 cards of your",
+          "baseline": 1049.1868378378379,
+          "width": 819.819,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "discard pile into your hand.",
+          "baseline": 1108.1868378378379,
+          "width": 484.12,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "396de4711bfc64d2a7f5d0587ffcc97c15ae2d2bbd5f2c20bcab463e9fd2b9ad",
+        "png": "42c67d527e49e269524ba3093dbd04c65b048c4e753ddfdd9d93c76ba2cbe68d",
+        "lossless-webp": "f0ca366745a05d8f5154ebaed68f00a6859bab1177dda694c92be4090171b0c3",
+        "display-webp": "c8960a30ee22314ac61e9795bf3a46c5c9c1e9d8f7956f7edf8c632250d198ce"
+      }
+    },
+    {
+      "number": 80,
+      "name": "Namek Dragon Ball 4",
+      "id": "trunks-080-namek-dragon-ball-4",
+      "set": "Trunks Saga",
+      "style": "Freestyle",
+      "category": "DRAGON BALL",
+      "rarity": "Uncommon",
+      "rarity_stars": 2,
+      "modern_rules": "POWER: Discard all your opponents' Setups and Drills in play.",
+      "power_icon": null,
+      "prefix": "",
+      "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-80",
+      "original_scan": "originals/080.png",
+      "crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Expanded CRD Non-Combat glossary: Setups and Drills. Preserve all-opponents scope; Dragon Balls and Allies are excluded.",
+        "general": "Energy attacks cost 2 stages and deal 4 life cards unless specified. Physical attacks use AT unless fixed damage is specified. Printed +life cards supplements AT. Keep independent effects outside HIT."
+      },
+      "dragon_ball_number": 4,
+      "rule_lines": [
+        {
+          "text": "POWER: Discard all your opponents' Setups and",
+          "baseline": 1049.1868378378379,
+          "width": 836.234,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        },
+        {
+          "text": "Drills in play.",
+          "baseline": 1108.1868378378379,
+          "width": 228.536,
+          "visible_center_x": 530.0,
+          "icon_inline": false
+        }
+      ],
+      "file_hashes": {
+        "masters": "dfbd128cdea13bf00d9ac022b2af7e7b6825a2225bb5e7e7f5b6efe10fbc26c6",
+        "png": "caa963ed48c3d9bcb64a76ad4a11fb5e2cedb4a08fc0a00be0033c4c551c11dc",
+        "lossless-webp": "b5265a60ecc8ba9b750c57f77bbdee7fed7fec431799675800709ae1a2461e93",
+        "display-webp": "8d05ac76fe4b185687d9d60e0d52b496eb957eac9457d614bb1e6bb19bbe4d9c"
+      }
+    }
+  ]
+}

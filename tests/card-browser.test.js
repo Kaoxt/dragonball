@@ -129,16 +129,23 @@ test('old all-cards links still open the grid and normalize to Cards',()=>{
  assert.equal(b.location.pathname,'/cards/');assert.equal(b.location.search,'?page=2');
 });
 
-test('Trunks Saga shows its thirty cards and wordmark, with working card detail links',()=>{
+test('Trunks Saga shows all eighty cards across two pages, with its wordmark and working detail links',()=>{
  const b=browser('/cards/trunks-saga/'),el=b.elements;
- assert.equal(grid(b).length,30);
+ assert.equal(grid(b).length,60);
  assert.equal(el['collection-logo-trunks'].hidden,false);
  assert.equal(el['collection-logo-trunks'].src,'/assets/sets/trunks-saga-logo-brushed-purple.webp');
  assert.equal(el['collection-logo'].hidden,true);
  assert.equal(el['collection-logo-frieza'].hidden,true);
- assert.equal(el['pagination-top'].hidden,true);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:30},(_,i)=>`/cards/trunks-saga/${String(i+1).padStart(3,'0')}`));
+ assert.equal(el['pagination-top'].hidden,false);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:60},(_,i)=>`/cards/trunks-saga/${String(i+1).padStart(3,'0')}`));
  b.click(grid(b)[2]);
  assert.equal(el['card-detail'].open,true);
  assert.equal(b.location.pathname,'/cards/trunks-saga/003');
+ b.click(el['close-detail']);
+ b.click(pageLink(b,2));
+ assert.equal(grid(b).length,20);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:20},(_,i)=>`/cards/trunks-saga/${String(i+61).padStart(3,'0')}`));
+ b.click(grid(b)[19]);
+ assert.equal(el['card-detail'].open,true);
+ assert.equal(b.location.pathname,'/cards/trunks-saga/080');
 });
