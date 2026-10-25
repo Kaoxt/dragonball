@@ -6228,11 +6228,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-005-krillins-kamehameha-outburst.webp?v=01e6e94b6c18",
+    "image": "/assets/cards/trunks-005-krillins-kamehameha-outburst.webp?v=e39e10806dce",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-5",
-    "downloadImage": "/assets/cards/downloads/trunks-005-krillins-kamehameha-outburst.webp?v=00ef43b98fcb",
+    "downloadImage": "/assets/cards/downloads/trunks-005-krillins-kamehameha-outburst.webp?v=03232a6543ac",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
     "rarity": "Common"
   },
