@@ -5977,8 +5977,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=321c2ec61b45",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=d7ee8a75a239"
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=a2227078d553",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=58d9e6f28d3f"
   },
   {
     "id": "frieza-p1-it-s-just-not-worth-it",
