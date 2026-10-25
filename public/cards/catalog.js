@@ -3450,9 +3450,9 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-247-gokus-truce.webp?v=1488bd3dd10f",
+    "image": "/assets/cards/saiyan-247-gokus-truce.webp?v=284224fbd8e4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-247-gokus-truce.webp?v=5f785695bdda",
+    "downloadImage": "/assets/cards/downloads/saiyan-247-gokus-truce.webp?v=92f0935aa8a3",
     "width": 1060,
     "height": 1484
   },
@@ -3464,9 +3464,9 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-248-gokus-plan.webp?v=eb43223fcfe2",
+    "image": "/assets/cards/saiyan-248-gokus-plan.webp?v=ce93d6af0926",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-248-gokus-plan.webp?v=d7a67b0c59c1",
+    "downloadImage": "/assets/cards/downloads/saiyan-248-gokus-plan.webp?v=9a8d00a4cdab",
     "width": 1060,
     "height": 1484
   },
@@ -3478,9 +3478,9 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-249-medic-kit.webp?v=7c9567e898e3",
+    "image": "/assets/cards/saiyan-249-medic-kit.webp?v=ed6ddabe5344",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-249-medic-kit.webp?v=45be22ae5322",
+    "downloadImage": "/assets/cards/downloads/saiyan-249-medic-kit.webp?v=0f7b99bd7ee8",
     "width": 1060,
     "height": 1484
   },
@@ -3492,9 +3492,9 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=ea4562e94e41",
+    "image": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=8b32d4e926dd",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-ultra-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-250-chiaotzus-physical-defense.webp?v=9af77716be65",
+    "downloadImage": "/assets/cards/downloads/saiyan-250-chiaotzus-physical-defense.webp?v=afb84bee5e45",
     "width": 1060,
     "height": 1484
   },
@@ -5945,8 +5945,8 @@ export const catalog = [
       149991,
       0
     ],
-    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=13ab4e069762",
-    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=f4a58b3c7748"
+    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=1dfb514a6e9d",
+    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=a90c64680ede"
   },
   {
     "id": "frieza-125-super-saiyan-goku",
@@ -5977,8 +5977,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=0d09cee3ab0a",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=a0b5b3b406a7"
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=7460cf526828",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=1139ad83c194"
   },
   {
     "id": "frieza-p1-it-s-just-not-worth-it",
