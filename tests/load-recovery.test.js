@@ -91,6 +91,21 @@ test('Rules fallback styles are authorized by the deployed content security poli
  assert.ok(styles.some(([tag])=>tag.includes('id="rulebook-critical"')));
  for(const [,css] of styles){const hash=createHash('sha256').update(css).digest('base64');assert.ok(headers.includes(`'sha256-${hash}'`),'Inline fallback must work under the production CSP');}
 });
+test('navigation images stay small with every stylesheet unavailable',()=>{
+ const directory=new URL('../public/',import.meta.url);
+ for(const entry of fs.readdirSync(directory,{recursive:true}).filter(x=>x.endsWith('.html'))){
+  const html=fs.readFileSync(new URL(entry,directory),'utf8');
+  const header=html.match(/<header class="site-header">[\s\S]*?<\/header>/)?.[0];
+  assert.ok(header,entry);
+  const images=[...header.matchAll(/<img\b[^>]*>/g)];
+  assert.ok(images.length>=7,entry);
+  for(const [image] of images){
+   const width=Number(image.match(/\bwidth="(\d+)"/)?.[1]);
+   const height=Number(image.match(/\bheight="(\d+)"/)?.[1]);
+   assert.ok(width>0&&width<=190&&height>0&&height<=75,`${entry}: oversized intrinsic header image`);
+  }
+ }
+});
 
 test('community dependencies retry before consumers run, and manual retry resumes at failure', async()=>{
  const boot=fs.readFileSync(new URL('../public/forum/boot.js',import.meta.url),'utf8');
