@@ -135,7 +135,7 @@ test('old all-cards links still open the grid and normalize to Cards',()=>{
  assert.equal(b.location.pathname,'/cards/');assert.equal(b.location.search,'?page=2');
 });
 
-test('Trunks Saga shows all 180 cards across three pages, with its wordmark and working detail links',()=>{
+test('Trunks Saga shows all 210 cards across four pages, with its wordmark and working detail links',()=>{
  const b=browser('/cards/trunks-saga/?sort=number'),el=b.elements;
  assert.equal(grid(b).length,60);
  assert.equal(el['collection-logo-trunks'].hidden,false);
@@ -161,4 +161,13 @@ test('Trunks Saga shows all 180 cards across three pages, with its wordmark and 
  b.click(grid(b)[59]);
  assert.equal(el['card-detail'].open,true);
  assert.equal(b.location.pathname,'/cards/trunks-saga/180');
+ b.click(el['close-detail']);
+ b.click(pageLink(b,4));
+ assert.equal(grid(b).length,30);
+ assert.deepEqual(grid(b).slice(0,20).map(c=>c.href),Array.from({length:20},(_,i)=>`/cards/trunks-saga/${181+i}`));
+ assert.deepEqual(grid(b).slice(20).map(c=>c.href),Array.from({length:10},(_,i)=>`/cards/trunks-saga/p${i+1}`));
+ b.click(grid(b)[29]);
+ assert.equal(el['card-detail'].open,true);
+ assert.equal(b.location.pathname,'/cards/trunks-saga/p10');
 });
+
