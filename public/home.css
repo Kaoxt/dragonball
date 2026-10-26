@@ -109,4 +109,24 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 /* Community links share the sidebar's quiet separators. */
 .home-page .hub-discord{padding:20px 8px;border-radius:0;border:0;border-bottom:1px solid #392831;background:transparent}
 
+/* Give each News story a quiet reading surface over the shared page texture. */
+.home-page .news-post{
+ padding:26px;margin:0 0 22px;
+ border:1px solid #57303f;border-radius:13px;
+ background:linear-gradient(145deg,#21171bf0,#171416ed);
+ box-shadow:0 4px 12px #00000014;
+}
+.home-page .news-post:last-child{margin-bottom:0}
+@media(max-width:650px){.home-page .news-post{padding:20px 18px;margin-bottom:18px}}
+
+/* Finish the News page with a full-width dark footer instead of a divider. */
+.home-page .home-footer{
+ max-width:none;width:100%;margin:36px 0 0;
+ padding:28px max(4%,calc((100% - 1140px)/2)) 30px;
+ border:0;background:#130f12;
+}
+.home-page .home-footer>span{color:#c3b0b8}
+.home-page .home-footer p{color:#a998a0}
+@media(max-width:650px){.home-page .home-footer{margin-top:28px;padding:24px 6% 26px}}
+
 
