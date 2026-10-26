@@ -15,10 +15,10 @@ body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-
 body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save,.issue-filters>button):disabled{
  opacity:.42;cursor:not-allowed;
 }
-/* Offset JetBrains Sans's high visual baseline within the centered line box. */
+/* Center the topic label with equal padding in the shared interface font. */
 body.community-page main .forum-shell #new-topic{
  display:inline-flex;align-items:center;justify-content:center;
- padding-block:10px 7px;line-height:1.2;
+ padding-block:10px;line-height:1.2;
 }
 body.community-page .forum-shell #new-topic[hidden]{display:none}
 
