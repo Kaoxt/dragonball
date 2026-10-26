@@ -82,13 +82,16 @@ body.community-page main .forum-shell a[href]:any-link:hover{
 body.community-page main .forum-shell :is(h1,h2,h3) a[href]:any-link,
 body.community-page main .forum-shell a:is([role="button"],.forum-back,.forum-reply-shortcut),
 body.community-page main .forum-shell .forum-page-links a{font-weight:500}
-/* Thread titles use the original soft red accent at regular weight. */
+/* Thread titles and post links use the same regular-weight red as News links. */
 body.community-page main .forum-shell .forum-latest a[href]:any-link,
-body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link{
- color:#f0aabe;font-weight:400;
+body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link,
+body.community-page main .forum-shell .forum-rich a[href]:any-link{
+ color:#f0aabe;font-weight:400;text-decoration:none;
 }
+body.community-page main .forum-shell .forum-rich a[href]:any-link :is(strong,b){font-weight:inherit}
 body.community-page main .forum-shell .forum-latest a[href]:any-link:hover,
-body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover{
+body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover,
+body.community-page main .forum-shell .forum-rich a[href]:any-link:hover{
  color:#ffb2c6;text-decoration:underline;
 }
 
