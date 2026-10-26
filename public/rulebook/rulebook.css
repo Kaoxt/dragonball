@@ -6,7 +6,7 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .manual{max-width:1420px;padding:0 4% 70px}
 .manual .manual-hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:50px;margin:0;padding:44px 12px 40px;min-height:0;border-bottom:1px solid #563339;background:none}
 .manual-hero>div{padding:0;min-width:0}
-.manual-hero .eyebrow{font-size:10px;letter-spacing:2px;color:#ce8a94;font-weight:600}
+.manual-hero .eyebrow{font-size:10px;letter-spacing:2px;color:#ce8a94;font-weight:500}
 .manual .manual-hero h1{margin:15px 0 18px;line-height:1;letter-spacing:0;text-shadow:none}
 .manual .manual-hero h1 img{display:block;width:205px;max-width:100%;height:auto;max-height:70px;object-fit:contain;object-position:left}
 .manual .manual-hero .manual-intro{font-size:clamp(20px,2.2vw,29px);line-height:1.35;color:#faf7f5;margin:0 0 10px;max-width:640px;font-weight:500}
@@ -30,7 +30,7 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .manual .chapter-links>a{display:block;border:0;border-left:2px solid transparent;color:#bdb2b5;padding:8px 10px;font-size:12px;line-height:1.55;border-radius:0 4px 4px 0}
 .manual .chapter-links>a:hover,.manual .chapter-links>a[aria-current=location]{color:#fff;border-left-color:#e5667c;background:#45232d}
 .manual .chapter-links .format-nav-link{background:#25191f;color:#f2c8d1;margin-bottom:12px;border-left-color:#a44759}
-.nav-group{display:block;font-size:9px;letter-spacing:1.3px;font-weight:600;color:#a97c88;margin:18px 10px 7px}
+.nav-group{display:block;font-size:9px;letter-spacing:1.3px;font-weight:500;color:#a97c88;margin:18px 10px 7px}
 .guide-actions{display:flex;gap:8px;padding-top:12px;border-top:1px solid #402b32;margin-top:10px}
 .manual .guide-actions button{padding:9px 11px;font-size:11px;font-weight:500;flex:1}
 .chapters{min-width:0}
@@ -40,20 +40,20 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .chapter-running a{font-size:10px;color:#eca8ba;letter-spacing:0;white-space:nowrap}
 .manual .chapter-heading{display:flex;align-items:center;gap:16px;margin:0 0 17px;padding:0;background:none;border:0;box-shadow:none}
 .manual .chapter-heading>span{display:block;flex-shrink:0;min-width:42px;width:auto;height:auto;border:0;border-radius:0;color:#ffc57c;background:none;font-size:34px;font-weight:500;line-height:1.1;letter-spacing:-1px;font-variant-numeric:tabular-nums}
-.manual .chapter h2{font-family:var(--font-ui);font-size:clamp(22px,2.2vw,29px);font-weight:600;line-height:1.23;letter-spacing:-.7px;color:#ffffff;text-shadow:none;margin:0;min-width:0}
-.manual .chapter h3{color:#fff0e5;font-size:17px;line-height:1.4;font-weight:600;letter-spacing:0;margin:0 0 9px}
+.manual .chapter h2{font-family:var(--font-ui);font-size:clamp(22px,2.2vw,29px);font-weight:500;line-height:1.23;letter-spacing:-.7px;color:#ffffff;text-shadow:none;margin:0;min-width:0}
+.manual .chapter h3{color:#fff0e5;font-size:17px;line-height:1.4;font-weight:500;letter-spacing:0;margin:0 0 9px}
 .manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){color:var(--rules-ink);font-size:15px;line-height:1.82;font-weight:400}
 .manual .chapter p{margin:0 0 17px}
-.manual .chapter b,.manual .chapter strong{font-weight:600}
+.manual .chapter b,.manual .chapter strong{font-weight:500}
 .manual .chapter a{color:#ffabbf;text-decoration:underline;text-underline-offset:3px}
 .manual .chapter a:hover{color:#ffceda}
 .manual .chapter .chapter-lead{color:#dbc4cc;font-size:17px;line-height:1.65;margin:0 0 21px}
 .manual .chapter .rule-source{font-size:10px;line-height:1.5;color:#af929e;margin:0 0 24px;letter-spacing:.3px}
 .manual .chapter ul,.manual .chapter ol:not(.turn-track){padding-left:23px;margin-top:15px;margin-bottom:22px}
 .manual .chapter li{margin-bottom:11px;padding-left:3px}
-.manual .chapter li::marker{color:#ffb56c;font-weight:600}
+.manual .chapter li::marker{color:#ffb56c;font-weight:500}
 .manual .chapter details{border:0;border-top:1px solid var(--rules-line);background:none;border-radius:0;margin:21px 0 0;padding:19px 0 0;color:var(--rules-ink)}
-.manual .chapter summary{font-size:16px;line-height:1.55;font-weight:600;color:#f5e5eb;cursor:pointer;padding-right:30px;list-style:none}
+.manual .chapter summary{font-size:16px;line-height:1.55;font-weight:500;color:#f5e5eb;cursor:pointer;padding-right:30px;list-style:none}
 .manual .chapter summary::-webkit-details-marker{display:none}
 .manual .chapter summary::after{content:'+';background:none;color:#ffabbd;font-size:22px;font-weight:400;line-height:1;top:0;right:1px;width:20px;height:24px;text-align:center;transform:none}
 .manual .chapter details[open]>summary{color:#f5e5eb;margin-bottom:13px}
@@ -67,7 +67,7 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .manual .ball{width:36px;height:36px;border-radius:50%;background:#a34734;color:#fff3dc;display:flex;justify-content:center;align-items:center;font-size:10px;letter-spacing:-1px;margin-bottom:16px;box-shadow:none}
 .turn-track{list-style:none;padding:0;margin:23px 0 0;counter-reset:turn}
 .manual .turn-track li{position:relative;counter-increment:turn;border-left:1px solid #633442;margin:0 0 0 16px;padding:0 0 25px 40px}
-.manual .turn-track li::before{content:counter(turn,decimal);position:absolute;left:-16px;top:0;width:31px;height:31px;border:1px solid #aa5062;background:#41212b;display:grid;place-items:center;color:#ffe0a3;font-size:11px;border-radius:50%;font-weight:600}
+.manual .turn-track li::before{content:counter(turn,decimal);position:absolute;left:-16px;top:0;width:31px;height:31px;border:1px solid #aa5062;background:#41212b;display:grid;place-items:center;color:#ffe0a3;font-size:11px;border-radius:50%;font-weight:500}
 .manual .turn-track li:last-child{padding-bottom:0;border-color:transparent}
 .manual .turn-track p{margin:0}
 .manual .table-note,.rule-callout{padding:17px 19px;border:0;border-left:3px solid #9b3d4e;background:#291c23;margin:24px 0 0}
@@ -79,7 +79,7 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .pat-calculator label{font-size:12px;color:#d6b7c3;margin:0;min-width:0}
 .pat-calculator select{color:#f5edf0;background-color:#171216;border:1px solid #67414d;font-size:12px;margin:8px 0 0;padding:11px 30px 11px 10px;background-image:none;appearance:auto}
 .pat-calculator select option{color:#f5edf0;background:#171216}
-.pat-calculator output{grid-column:1/-1;font-size:21px;font-weight:600;color:#ffc486;line-height:1.5}
+.pat-calculator output{grid-column:1/-1;font-size:21px;font-weight:500;color:#ffc486;line-height:1.5}
 .manual .pat-calculator p{grid-column:1/-1;font-size:12px;margin:0}
 .table-scroll{max-width:100%;overflow-x:auto;border:1px solid #53333f;border-radius:3px;margin:20px 0;scrollbar-color:#9b5268 #24191f}
 .pat-table,.format-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
@@ -89,22 +89,22 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}
 .pat-table th{background:#48232f;color:#ffb5c9}
 .pat-table th:first-child{text-align:left}
 .pat-table tbody tr:nth-child(even){background:#241b21}
-.pat-table .selected-damage{color:white;background:#8b2b42;font-weight:700;box-shadow:inset 0 0 0 2px #e3a5b2}
+.pat-table .selected-damage{color:white;background:#8b2b42;font-weight:500;box-shadow:inset 0 0 0 2px #e3a5b2}
 .format-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px;margin:24px 0}
 .format-grid article{border-top:3px solid #a44a5c;padding-top:15px;min-width:0}
-.format-label{font-size:8px;letter-spacing:.9px;color:#d5a49e;font-weight:600;display:block;margin-bottom:10px;line-height:1.5}
+.format-label{font-size:8px;letter-spacing:.9px;color:#d5a49e;font-weight:500;display:block;margin-bottom:10px;line-height:1.5}
 .manual .format-grid h3{font-size:20px}
 .manual .format-grid p{font-size:13px;line-height:1.75;margin:0}
 .manual .chapter .source-note{font-size:11px;color:#bca1ad;line-height:1.7;margin:18px 0 0}
 .format-table{font-size:13px;line-height:1.65;min-width:570px}
 .format-table th,.format-table td{padding:14px;text-align:left;vertical-align:top;border-bottom:1px solid #49313b;border-right:1px solid #49313b;color:#eee3e8}
 .format-table thead th{background:#772e40;color:#fff;font-size:12px;font-weight:500}
-.format-table tbody th{width:22%;font-weight:600;color:#ffb5c9}
+.format-table tbody th{width:22%;font-weight:500;color:#ffb5c9}
 .format-table td{width:39%}
 .format-table tbody tr:nth-child(even){background:#241b21}
 .glossary{font-size:15px;line-height:1.8;display:grid;grid-template-columns:180px minmax(0,1fr);gap:0 24px}
 .manual .glossary dt,.manual .glossary dd{border-bottom:1px solid var(--rules-line);padding:16px 0;margin:0}
-.manual .glossary dt{font-weight:600;color:#ffc486}
+.manual .glossary dt{font-weight:500;color:#ffc486}
 .manual .glossary dd{color:#eee3e8}
 .manual .chapter .credits{font-size:11px;color:#bca1ad;margin-top:20px;line-height:1.7}
 .manual .chapter .source-list{list-style:none;padding:0}
@@ -152,9 +152,9 @@ body.rulebook-page .manual .hero-links .primary-link:hover{background:#a52c4b;bo
 .manual .chapter .chapter-running a{color:#dba2b2;font-size:10px;text-decoration:none}
 .manual .chapter-heading{position:relative;gap:17px;padding:15px 18px;margin:0 0 20px;background:linear-gradient(105deg,#70263b,#3f1d2b 65%,#291a21);border-left:3px solid #e36b50;border-radius:0 7px 7px 0;overflow:hidden}
 .manual .chapter-heading::after{content:'';position:absolute;top:0;bottom:0;right:16px;width:22px;border-left:5px solid #e6a85b20;border-right:10px solid #e6a85b20;transform:skewX(-22deg);pointer-events:none}
-.manual .chapter-heading>span{display:grid;place-items:center;width:42px;min-width:42px;height:42px;border:1px solid #ffbf6b;background:radial-gradient(circle at 32% 25%,#ffe09b,#f5a43e 58%,#bd571f);border-radius:50%;color:#712516;font-size:19px;font-weight:650;letter-spacing:-.5px;box-shadow:inset 0 0 0 3px #ffc56935,0 2px 10px #0003}
-.manual .chapter h2{position:relative;z-index:1;color:#fff;font-size:clamp(22px,2.1vw,28px);font-weight:600;letter-spacing:-.5px;line-height:1.25;padding-right:15px}
-.manual .chapter h3{color:#fff0e5;font-weight:600}
+.manual .chapter-heading>span{display:grid;place-items:center;width:42px;min-width:42px;height:42px;border:1px solid #ffbf6b;background:radial-gradient(circle at 32% 25%,#ffe09b,#f5a43e 58%,#bd571f);border-radius:50%;color:#712516;font-size:19px;font-weight:500;letter-spacing:-.5px;box-shadow:inset 0 0 0 3px #ffc56935,0 2px 10px #0003}
+.manual .chapter h2{position:relative;z-index:1;color:#fff;font-size:clamp(22px,2.1vw,28px);font-weight:500;letter-spacing:-.5px;line-height:1.25;padding-right:15px}
+.manual .chapter h3{color:#fff0e5;font-weight:500}
 .manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){font-size:16px;line-height:1.8}
 .manual .chapter .rule-source{font-size:11px;color:#bfa3af}
 .manual .chapter .chapter-lead{color:#e7d3db;font-size:17px}
@@ -212,13 +212,13 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 .manual .card-diagram{width:100%;max-width:310px;margin:0 auto;padding:0 15px;min-width:0;box-sizing:border-box}
 .card-diagram-image{position:relative;width:100%;isolation:isolate}
 .card-diagram-image img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 25px #0007}
-.card-pin{position:absolute;left:var(--pin-x);top:var(--pin-y);transform:translate(-50%,-50%);display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#ffc177;border:2px solid #fff1d6;color:#4b1e16;font-size:13px;font-weight:750;box-shadow:0 2px 8px #0009;pointer-events:none;line-height:1}
+.card-pin{position:absolute;left:var(--pin-x);top:var(--pin-y);transform:translate(-50%,-50%);display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#ffc177;border:2px solid #fff1d6;color:#4b1e16;font-size:13px;font-weight:500;box-shadow:0 2px 8px #0009;pointer-events:none;line-height:1}
 .manual .card-diagram figcaption{margin:16px 0 0;text-align:center}
 .manual .card-diagram figcaption a{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:12px;color:#e0c9d3;min-height:32px;text-decoration:none}
 .manual .card-field-list{list-style:none;padding:0;margin:0;display:grid;gap:17px}
 .manual .card-field-list li{display:grid;grid-template-columns:25px minmax(0,1fr);gap:10px;padding:0;margin:0}
-.field-number{display:grid;place-items:center;width:24px;height:24px;border:1px solid #b2744c;border-radius:50%;background:#50332d;color:#ffd49e;font-size:12px;font-weight:650;line-height:1}
-.manual .card-field-list h4{font-size:14px;line-height:1.5;margin:0 0 4px;color:#ffdbb2;font-weight:600;letter-spacing:0}
+.field-number{display:grid;place-items:center;width:24px;height:24px;border:1px solid #b2744c;border-radius:50%;background:#50332d;color:#ffd49e;font-size:12px;font-weight:500;line-height:1}
+.manual .card-field-list h4{font-size:14px;line-height:1.5;margin:0 0 4px;color:#ffdbb2;font-weight:500;letter-spacing:0}
 .manual .card-field-list p{font-size:13px;line-height:1.7;color:#d7cbd1;margin:0}
 .manual .card-example{margin:23px 0 0;padding:15px 17px;background:#35212a;border:1px solid #63404b;border-left:3px solid #edac63;border-radius:0 6px 6px 0}
 .card-example>strong{display:block;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#ffc788;margin-bottom:6px}
@@ -249,7 +249,7 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 
 /* Section titles use the regular site font; keep the approved personality numbers. */
 @font-face{font-family:'DB OCG Personality Numbers';src:url('/assets/fonts/db-ocg-personality-numbers.ttf?v=20261026-open-zero') format('truetype');font-style:normal;font-weight:400;font-display:swap}
-.manual .chapter-heading h2{font-family:var(--font-ui);font-size:28px;font-weight:600;font-style:normal;text-transform:capitalize;letter-spacing:-.02em;line-height:1.3;-webkit-text-stroke:0;text-shadow:none;overflow-wrap:normal;text-wrap:balance;padding-right:8px}
+.manual .chapter-heading h2{font-family:var(--font-ui);font-size:28px;font-weight:500;font-style:normal;text-transform:capitalize;letter-spacing:-.02em;line-height:1.3;-webkit-text-stroke:0;text-shadow:none;overflow-wrap:normal;text-wrap:balance;padding-right:8px}
 .manual .chapter h3,.manual .chapter h4{text-transform:capitalize}
 .manual .chapter-heading{align-items:baseline}
 .manual .chapter-heading>span{display:block;align-self:baseline;transform:skewX(-12deg);transform-origin:center 70%;width:auto;min-width:1.45em;height:auto;padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:#fff;font-family:'DB OCG Personality Numbers',var(--font-ui);font-weight:400;font-style:normal;font-synthesis:none;font-size:32px;letter-spacing:0;line-height:1.3;-webkit-text-stroke:0}

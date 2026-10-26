@@ -1,5 +1,5 @@
 body.community-page{color:#f4eff2;font-family:var(--font-ui)}
-.forum-page{max-width:1240px;width:100%;margin:0 auto;padding:34px 28px 70px;box-sizing:border-box}.forum-shell{--issue-panel:#21171c;--issue-line:#35252d;--issue-muted:#c0acb6;--issue-field:#180f14;max-width:none;font-size:15px}.forum-shell h1,.forum-shell h2,.forum-shell h3{font-family:var(--font-ui);letter-spacing:0;font-weight:650;line-height:1.4;text-shadow:none}.forum-shell h1{font-size:28px}.forum-shell h2{font-size:21px}.forum-shell h3{font-size:17px}.forum-shell .page-wordmark img{height:clamp(40px,5vw,54px)}
+.forum-page{max-width:1240px;width:100%;margin:0 auto;padding:34px 28px 70px;box-sizing:border-box}.forum-shell{--issue-panel:#21171c;--issue-line:#35252d;--issue-muted:#c0acb6;--issue-field:#180f14;max-width:none;font-size:15px}.forum-shell h1,.forum-shell h2,.forum-shell h3{font-family:var(--font-ui);letter-spacing:0;font-weight:500;line-height:1.4;text-shadow:none}.forum-shell h1{font-size:28px}.forum-shell h2{font-size:21px}.forum-shell h3{font-size:17px}.forum-shell .page-wordmark img{height:clamp(40px,5vw,54px)}
 .forum-shell header{height:auto;max-width:none;margin:0;box-shadow:none;border-radius:0;position:static;display:block;padding:0;background:transparent;border:0}.forum-shell nav{background:transparent;box-shadow:none}.forum-shell footer{box-shadow:none;min-height:0}.forum-shell .forum-list-heading{background:transparent;border:0;margin:16px 0 24px;padding:0}.forum-shell .forum-topic-heading{background:#21171c;border:1px solid #35252d;border-radius:10px;margin-top:14px}.forum-shell .forum-post-bar{background:#1b1217;display:flex;align-items:center;gap:12px;min-height:45px;padding:0 18px;border-bottom:1px solid #35252d;border-radius:0}.forum-shell .forum-post-meta{background:transparent}.forum-shell .forum-post-bar-author{min-width:0;padding:6px 0;text-align:left}.forum-shell .forum-post-bar .forum-post-meta{min-height:0;margin:0 0 0 auto;padding:0;justify-content:flex-end}.forum-shell .forum-post-author{background:#191116}.forum-shell .forum-post-main{background:#21171c}.forum-shell .forum-section-title{background:#1b1217}.forum-shell .forum-category-icon{background:transparent;border:0;box-shadow:none}.forum-shell .forum-category-icon img{display:block;width:36px;max-width:100%;height:auto}.forum-shell .forum-accessible-title{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.forum-shell .forum-category h3 a{color:#f8edf2}.forum-shell .issue-avatar{background:#842a40;color:#fff}.forum-shell .forum-rich,.forum-shell .issue-body{color:#f1e7ed;font-size:15px;line-height:1.8}.forum-shell .forum-rich a{color:#ffb2c6;text-decoration:none}.forum-shell .forum-rich a:hover{text-decoration:underline}.forum-shell a{color:#f0aabe}.forum-shell .forum-rich blockquote{border-color:#c6496d;background:#2b1a23}.forum-shell .forum-like[aria-pressed=true]{color:#ffc2d2;background:#64263c;border-color:#b34a6b}
 .forum-shell button{font-family:inherit;box-shadow:none;transform:none;letter-spacing:0}.forum-shell .issue-primary,.forum-shell .forum-start-topic,.forum-shell .forum-reply-shortcut{background:#8f2a45;color:#fff;border:1px solid #ba4a66;box-shadow:none;border-radius:7px;font-size:14px;min-height:44px}.forum-shell .issue-primary:hover,.forum-shell .forum-start-topic:hover:not(:disabled),.forum-shell .forum-reply-shortcut:hover{background:#a33251;color:#fff}.forum-shell .forum-pagination [aria-current=page],.forum-shell .forum-page-links a[aria-current=page]{background:#842a40;color:#fff;border-color:#ba4a66}.forum-shell .forum-back,.forum-shell .forum-breadcrumbs a{color:#dfc0cd}.forum-shell .issue-card,.forum-shell .issue-results,.forum-shell .forum-post{border-radius:10px}.forum-shell .issue-note{color:#c1acb7}.forum-shell .issue-error{color:#ffb6c7}.forum-shell #forum-error:empty{display:none}.forum-shell .forum-status-icon{color:#f7b8cc}.forum-shell input,.forum-shell textarea,.forum-shell select{color:#f4edf1;background-color:#180f14;border-color:#67404f;font-family:inherit}.forum-shell button:focus-visible,.forum-shell a:focus-visible{outline:2px solid #ffbdd0;outline-offset:3px}.forum-shell .forum-post-actions{background:transparent;border:0}.forum-shell .forum-post-actions summary::after{display:none}.forum-shell .forum-post-actions summary{padding:0}.forum-shell .forum-action-menu{background:#2d1d25;border-color:#795160}.forum-shell .forum-topic-name{font-size:24px}.forum-shell .forum-post-footer{background:transparent;border-top:1px solid #35252d}.forum-shell .forum-editor{border-color:#67404f}.forum-shell .forum-editor-preview{background:#21171c}.forum-shell .forum-editor-preview:not(:empty){border-top:1px solid #35252d}
 #forum-search-dialog{--issue-panel:#21171c;--issue-line:#35252d;--issue-muted:#c0acb6;--issue-field:#180f14;background:#21171c;color:#f4edf1;border:1px solid #795160;font-family:var(--font-ui)}#forum-search-dialog h2{font-family:inherit;text-shadow:none;letter-spacing:0}#forum-search-dialog button{box-shadow:none;transform:none}
@@ -50,13 +50,13 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 .forum-community-totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0;text-align:center}
 .forum-community-totals>div{display:flex;flex-direction:column-reverse;gap:5px}
 .forum-community-totals dt{color:var(--issue-muted);font-size:12px}
-.forum-community-totals dd{margin:0;font-size:26px;font-weight:650;font-variant-numeric:tabular-nums}
+.forum-community-totals dd{margin:0;font-size:26px;font-weight:500;font-variant-numeric:tabular-nums}
 .forum-newest-member{display:flex;align-items:center;gap:15px;border-left:1px solid var(--issue-line);padding-left:26px;min-width:0}
 .forum-newest-member>div{min-width:0;overflow-wrap:anywhere}
 .forum-shell .forum-newest-avatar .issue-avatar{width:56px;height:56px;flex-basis:56px;font-size:22px}
 .forum-newest-avatar{flex:none}
 .forum-newest-label{margin:0 0 5px;color:var(--issue-muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
-.forum-newest-name{font-size:16px;font-weight:600}
+.forum-newest-name{font-size:16px;font-weight:500}
 .forum-newest-member .issue-note{margin:5px 0 0;font-size:12px;line-height:1.5}
 @media(max-width:600px){.forum-member-statistics-body{grid-template-columns:1fr;gap:22px;padding:22px 16px}.forum-newest-member{border-left:0;border-top:1px solid var(--issue-line);padding:20px 0 0}.forum-community-totals dd{font-size:24px}}
 
@@ -69,16 +69,19 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
  margin:0 0 16px;padding:10px 14px;border:1px solid var(--issue-line);
  border-radius:8px;background:var(--issue-field);font-size:13px;line-height:1.5;
 }
-.forum-shell .forum-list-heading + .issue-note a{font-weight:600}
+.forum-shell .forum-list-heading + .issue-note a{font-weight:500}
 
-/* General forum links retain their strong contrast. */
+/* Ordinary forum links use Regular; linked headings and actions use Medium. */
 body.community-page main .forum-shell a[href]:any-link{
- color:#fff;font-weight:700;text-decoration:none;transition:color .15s ease;
+ color:#fff;font-weight:400;text-decoration:none;transition:color .15s ease;
 }
 body.community-page main .forum-shell a[href]:any-link:hover{
  color:#c9c9cd;text-decoration:none;
 }
 
+body.community-page main .forum-shell :is(h1,h2,h3) a[href]:any-link,
+body.community-page main .forum-shell a:is([role="button"],.forum-back,.forum-reply-shortcut),
+body.community-page main .forum-shell .forum-page-links a{font-weight:500}
 /* Thread titles use the original soft red accent at regular weight. */
 body.community-page main .forum-shell .forum-latest a[href]:any-link,
 body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link{
@@ -121,7 +124,7 @@ body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover
 .admin-page .forum-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 20px}
 .admin-page .forum-stats>div{padding:16px;border:1px solid #49333c;border-radius:10px;background:#21171c}
 .admin-page .forum-stats dt{font-size:12px;color:#c0acb6}
-.admin-page .forum-stats dd{font-size:28px;margin:5px 0 0;font-weight:700}
+.admin-page .forum-stats dd{font-size:28px;margin:5px 0 0;font-weight:500}
 .admin-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:22px}
 .admin-shortcuts a{display:grid;gap:8px;padding:18px;border:1px solid #49333c;border-radius:10px;background:#21171c}
 .admin-shortcuts span{font-size:13px;font-weight:400;color:#c0acb6;line-height:1.6}
@@ -131,7 +134,7 @@ body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover
 .admin-page .forum-shell input:not([type=checkbox]){margin:0;min-height:42px;padding:10px 12px;font-size:14px}
 .admin-page .forum-shell .issue-form button{justify-self:start;width:auto;min-height:40px;padding:8px 16px}
 .admin-page .forum-shell details{margin:0;padding:0;border:0;background:transparent}
-.admin-page .forum-shell summary{font-size:15px;font-weight:650;padding:4px 28px 4px 0}
+.admin-page .forum-shell summary{font-size:15px;font-weight:500;padding:4px 28px 4px 0}
 .admin-page .forum-admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
 .admin-page .issue-error:empty,.admin-page #admin-feedback:empty{display:none}
 .admin-page .admin-member .issue-form{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px}
