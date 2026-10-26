@@ -44,6 +44,26 @@ def simplify_line(points,tolerance=5):
     if distance<=tolerance:return [points[0],points[-1]]
     return simplify_line(points[:split+1],tolerance)[:-1]+simplify_line(points[split:],tolerance)
 
+def signed_area(contour):
+    return sum(x1*y2-x2*y1 for (x1,y1),(x2,y2) in zip(contour,contour[1:]))/2
+
+def contains_point(contour,point):
+    x,y=point;inside=False
+    for (x1,y1),(x2,y2) in zip(contour,contour[1:]):
+        if (y1>y)!=(y2>y) and x<x1+(y-y1)*(x2-x1)/(y2-y1):inside=not inside
+    return inside
+
+def normalize_winding(contours):
+    # The retained SVGs use even-odd fills; TrueType uses nonzero winding.
+    # Make counters run opposite to their containing outer contour.
+    normalized=[]
+    for i,contour in enumerate(contours):
+        depth=sum(contains_point(other,contour[0]) for j,other in enumerate(contours) if i!=j)
+        clockwise=depth%2==0
+        if (signed_area(contour)<0)!=clockwise:contour=list(reversed(contour))
+        normalized.append(contour)
+    return normalized
+
 def navigation_contours(path):
     pen=OutlinePen();parse_path(path,TransformPen(pen,(4,0,-2.2,-4,430,760)))
     contours=[]
@@ -55,7 +75,7 @@ def navigation_contours(path):
     left=min(x for contour in contours for x,y in contour)
     # Include italic overhangs inside the advance, so spaces and line endings
     # represent the actual ink bounds rather than the unslanted source width.
-    return [[(x-left+35,y) for x,y in contour] for contour in contours]
+    return normalize_winding([[(x-left+35,y) for x,y in contour] for contour in contours])
 
 def ink_profile(contours):
     profile={}

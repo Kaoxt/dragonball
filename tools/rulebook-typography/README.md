@@ -10,3 +10,5 @@ Run `python tools/rulebook-typography/build.py` with fontTools to rebuild the fo
 The navigation font uses contour-based OpenType kerning to remove false gaps in pairs such as RY and RD while preserving the original outlines. Section numbers are plain white text. Heading outlines use stroke-before-fill painting so the white glyph strokes retain their full weight; navigation image outlines use CSS drop shadows.
 
 Navigation glyph advances include the complete slanted ink bounds, keeping words and line ends separate. The build removes trace stair steps with a maximum 5/1000-em deviation and uses 90/1000-em minimum contour spacing. The original SVG outline data stays retained. Chapter numbers use ordinary decimal numbering and the same outline treatment as the titles.
+
+The build converts SVG even-odd counters to TrueType nonzero winding: outer contours are clockwise and inner openings counterclockwise. This keeps P and other enclosed letters open. Q uses one joined exterior with a separate counter, avoiding overlapping tail artifacts. Chapter numerals receive an additional 12-degree slant in CSS; card-template numeral outlines remain unchanged.
