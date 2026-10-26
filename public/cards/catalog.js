@@ -2205,11 +2205,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-158-goku.webp?v=24ee76202e9d",
+    "image": "/assets/cards/saiyan-158-goku.webp?v=9102cd12cf94",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=10ae34930395"
+    "downloadImage": "/assets/cards/downloads/saiyan-158-goku.webp?v=c407bb63e30d"
   },
   {
     "id": "saiyan-159-goku",
