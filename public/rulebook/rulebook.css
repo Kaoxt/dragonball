@@ -243,3 +243,14 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 /* Keep marker coordinates in the stylesheet so the site CSP can allow them. */
 .pin-left{--pin-x:0%}.pin-right{--pin-x:100%}
 .pin-y5{--pin-y:5%}.pin-y32{--pin-y:32%}.pin-y61{--pin-y:61%}.pin-y62{--pin-y:62%}.pin-y76{--pin-y:76%}.pin-y95{--pin-y:95%}
+
+/* Rulebook titles reuse the site's outlined navigation lettering. */
+@font-face{font-family:'DB OCG Navigation';src:url('/assets/fonts/db-ocg-navigation.ttf?v=20261025') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'DB OCG Personality Numbers';src:url('/assets/fonts/db-ocg-personality-numbers.ttf?v=20261025') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.manual .chapter-heading h2{font-family:'DB OCG Navigation',var(--font-ui);font-size:32px;font-weight:400;font-style:normal;font-synthesis:none;text-transform:uppercase;letter-spacing:0;line-height:1.3;overflow-wrap:normal;text-wrap:balance;padding-right:8px}
+.manual .chapter-heading>span{font-family:'DB OCG Personality Numbers',var(--font-ui);font-weight:400;font-style:normal;font-synthesis:none;font-size:24px;letter-spacing:-.5px;line-height:1;padding-top:2px}
+.manual .card-pin,.manual .field-number,.manual .turn-track li::before{font-family:'DB OCG Personality Numbers',var(--font-ui);font-size:16px;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0;line-height:1;padding-top:1px}
+@media(max-width:800px){.manual .chapter-heading h2{font-size:29px}.manual .chapter-heading>span{font-size:22px}}
+@media(max-width:520px){.manual .chapter-heading h2{font-size:25px;line-height:1.35;padding-right:0}.manual .chapter-heading>span{font-size:18px;letter-spacing:-.4px}.manual .card-pin,.manual .field-number,.manual .turn-track li::before{font-size:16px}}
+@media(max-width:360px){.manual .chapter-heading h2{font-size:22px}}
+@media print{.manual .chapter-heading h2{font-size:22pt}.manual .chapter-heading>span{font-size:19pt}}
