@@ -57,6 +57,8 @@ test('illustrated guide supports tabs, search and mobile navigation',async({page
   await page.goto('/rulebook/#card-guide');
   await expect(page.getByRole('tab',{name:'Personality',exact:true})).toHaveAttribute('aria-selected','true');
   await expect(page.locator('[data-card-panel]:visible')).toHaveCount(1);
+  const markerPositions=await page.locator('#guide-personality .card-pin').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return `${r.x},${r.y}`;}));
+  expect(new Set(markerPositions).size).toBe(6);
   await page.getByRole('tab',{name:'Energy',exact:true}).click();
   await expect(page.locator('#guide-energy')).toBeVisible();
   await expect(page.locator('#guide-personality')).toBeHidden();
