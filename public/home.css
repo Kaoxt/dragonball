@@ -87,7 +87,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 }
 
 /* Next move sidebar: shared icon scale and compact navigation. */
-.next-move{border:1px solid #57303f;border-radius:13px;padding:18px;background:linear-gradient(145deg,#21171b,#171416);min-width:0}
+.next-move,.community-links{border:1px solid #57303f;border-radius:13px;padding:18px;background:linear-gradient(145deg,#21171b,#171416);min-width:0}
 .next-move h2{margin:0 0 14px;line-height:0}
 .next-move h2 img{display:block;width:100%;height:auto}
 .hub-art{height:160px;display:flex;align-items:center;justify-content:center;border:1px solid #34262b;border-radius:8px;background:radial-gradient(ellipse at center,#491522,#160f12 75%);margin-bottom:14px;overflow:hidden}
@@ -98,16 +98,13 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 .hub-icon{display:block;width:24px;height:24px;flex-shrink:0;overflow:visible}.hub-swords{height:22px;width:24px}.hub-arrow{width:16px;height:16px}
 .home-page .hub-primary{background:#87253f;border-color:#ac3654}.hub-primary small{color:#e1bac5}
 .home-page .hub-link:hover{background:#353137;border-color:#65515b}.home-page .hub-primary:hover{background:#a52c4b;border-color:#c14965}
-.home-page .hub-discussion{margin-top:24px;padding:20px 8px;border-radius:0;border:0;border-top:1px solid #392831;border-bottom:1px solid #392831;background:transparent}
+.community-links{display:grid;gap:12px;margin-top:24px}
 @media(min-width:900px){.news-layout{grid-template-columns:minmax(0,1fr) 310px;gap:36px}}
-@media(max-width:650px){.next-move{padding:20px}.next-move h2 img{max-width:280px;margin:auto}.hub-art{height:150px}.hub-copy strong{font-size:15px}.hub-copy small{font-size:12px}}
+@media(max-width:650px){.next-move,.community-links{padding:20px}.next-move h2 img{max-width:280px;margin:auto}.hub-art{height:150px}.hub-copy strong{font-size:15px}.hub-copy small{font-size:12px}}
 
 /* Match the navigation's vector lettering in the sidebar heading. */
 .home-page .next-move h2{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:0;line-height:0;text-align:center;margin:8px 0 22px}
 .home-page .next-move h2 img{display:block;width:100%;max-width:280px;height:auto;margin:auto}
-
-/* Community links share the sidebar's quiet separators. */
-.home-page .hub-discord{padding:20px 8px;border-radius:0;border:0;border-bottom:1px solid #392831;background:transparent}
 
 /* Give each News story a quiet reading surface over the shared page texture. */
 .home-page .news-post{
@@ -170,16 +167,16 @@ body.home-page main .news-post .post-actions a{
  font-size:14px;font-weight:600;line-height:1;letter-spacing:-.01em;
 }
 body.home-page main .news-post .post-actions button.read-more{
- background:#f6f7f9;color:#121212;border-color:transparent;
+ background:#87253f;color:#f5f5f5;border-color:#ac3654;
 }
 body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled){
- background:#fff;color:#121212;border-color:transparent;
+ background:#a52c4b;color:#f5f5f5;border-color:#c14965;
 }
 body.home-page main .news-post .post-actions a:not(.news-comment-link){
- background:#191919;color:var(--news-ink);border-color:#ffffff1a;
+ background:#252326;color:#f5f5f5;border-color:#444046;
 }
 body.home-page main .news-post .post-actions a:not(.news-comment-link):hover{
- background:#222;color:var(--news-ink);border-color:#ffffff29;
+ background:#353137;color:#f5f5f5;border-color:#65515b;
 }
 .home-page .home-footer>span,.home-page .home-footer p{
  font-size:14px;line-height:20px;font-weight:400;letter-spacing:normal;
