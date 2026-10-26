@@ -60,3 +60,27 @@ function updateDamage() {
 attacker.addEventListener('change', updateDamage);
 defender.addEventListener('change', updateDamage);
 updateDamage();
+
+
+// The handbook opens with the full rules visible, including before JavaScript runs.
+syncExpandLabel();
+const chapterLinks = [...document.querySelectorAll('.chapter-links a')];
+let pendingLocation = false;
+function updateChapterLocation() {
+  pendingLocation = false;
+  const visible = chapters.filter(chapter => !chapter.hidden);
+  const current = [...visible].reverse().find(chapter => chapter.getBoundingClientRect().top <= 180) || visible[0];
+  for (const link of chapterLinks) {
+    if (current && link.hash === `#${current.id}`) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  }
+}
+function queueChapterLocation() {
+  if (pendingLocation) return;
+  pendingLocation = true;
+  requestAnimationFrame(updateChapterLocation);
+}
+window.addEventListener('scroll', queueChapterLocation, { passive: true });
+search.addEventListener('input', queueChapterLocation);
+window.addEventListener('hashchange', queueChapterLocation);
+updateChapterLocation();

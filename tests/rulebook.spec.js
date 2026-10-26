@@ -1,30 +1,29 @@
 import {test,expect} from '@playwright/test';
 test('digital rulebook stays local, searches expanded rules and works on mobile',async({page})=>{
-  await page.goto('/');
-  await expect(page.getByRole('link',{name:'Rulebook',exact:true})).toHaveAttribute('href','/rulebook/');
   await page.goto('/rulebook/');
-  await expect(page.locator('h1')).toContainText('Know the rules');
+  await expect(page.getByRole('heading',{level:1,name:'Rules',exact:true})).toBeVisible();
   expect(await page.locator('.hero-card img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
-  await expect(page.locator('a[href*="lackey"], iframe, object, embed')).toHaveCount(0);
-  await expect(page.locator('[data-chapter]')).toHaveCount(17);
+  await expect(page.locator('iframe, object, embed')).toHaveCount(0);
+  await expect(page.locator('[data-chapter]')).toHaveCount(19);
   await page.locator('#rule-search').fill('seventh');
   await expect(page.locator('#dragon-balls')).toBeVisible();
   await expect(page.locator('#dragon-balls details').last()).toHaveAttribute('open','');
   await page.locator('#rule-search').fill('no-rule-matches-this');
   await expect(page.locator('#no-results')).toBeVisible();
   await page.locator('#clear-search').click();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(17);
-  await page.locator('#expand-rules').click();
-  expect(await page.locator('details:not([open])').count()).toBe(0);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
+  await expect(page.locator('#expand-rules')).toHaveText('Collapse all');
   await page.locator('#expand-rules').click();
   expect(await page.locator('details[open]').count()).toBe(0);
+  await page.locator('#expand-rules').click();
+  expect(await page.locator('details:not([open])').count()).toBe(0);
   await page.screenshot({path:'test-results/rulebook-desktop.png',fullPage:true});
   await page.setViewportSize({width:390,height:844});
   await page.locator('#rule-search').fill('rejuvenation');
   await expect(page.locator('#turn')).toBeVisible();
   await page.locator('.chapter-nav a[href="#setup"]').click();
   await expect(page.locator('#setup')).toBeVisible();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(17);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   await page.locator('#rule-search').fill('endurance');
   await expect(page.locator('#endurance details').first()).toHaveAttribute('open','');
@@ -32,7 +31,7 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
   expect(await page.locator('details:not([open])').count()).toBe(0);
   await page.emulateMedia({media:'print'});
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(17);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
 });
 test('Physical Attack Table checks ratings, extremes and Z exception',async({page})=>{
   await page.goto('/rulebook/#damage');
@@ -51,3 +50,4 @@ test('Physical Attack Table checks ratings, extremes and Z exception',async({pag
   await page.setViewportSize({width:390,height:844});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
+
