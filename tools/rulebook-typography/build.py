@@ -7,12 +7,55 @@ from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path import parse_path
 from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.basePen import BasePen
+from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 
 ROOT=Path(__file__).resolve().parents[2]
 SOURCE=Path(__file__).with_name('glyphs.json')
 
 def bounds(path):
     pen=BoundsPen(None);parse_path(path,pen);return pen.bounds
+
+class OutlinePen(BasePen):
+    """Sample the actual ink, rather than the unskewed SVG bounding box."""
+    def __init__(self):
+        super().__init__(None);self.contours=[];self.points=[]
+    def _moveTo(self,p):self.points=[p]
+    def _lineTo(self,p):self.points.append(p)
+    def _curveToOne(self,p1,p2,p3):
+        p0=self.points[-1]
+        for step in range(1,33):
+            t=step/32;s=1-t
+            self.points.append(tuple(s*s*s*p0[i]+3*s*s*t*p1[i]+3*s*t*t*p2[i]+t*t*t*p3[i] for i in (0,1)))
+    def _closePath(self):
+        self.contours.append(self.points+[self.points[0]]);self.points=[]
+    def _endPath(self):self._closePath()
+
+def ink_profile(path):
+    pen=OutlinePen();parse_path(path,TransformPen(pen,(4,0,-2.2,-4,430,760)))
+    profile={}
+    for y in range(10,760,10):
+        crossings=[]
+        for contour in pen.contours:
+            for (x1,y1),(x2,y2) in zip(contour,contour[1:]):
+                if min(y1,y2)<=y<max(y1,y2):
+                    crossings.append(x1+(y-y1)*(x2-x1)/(y2-y1))
+        if crossings:profile[y]=(min(crossings),max(crossings))
+    return profile
+
+def add_navigation_kerning(font,paths,cmap,metrics):
+    # Keep a consistent small gap between slanted contours. In particular,
+    # R's long lower leg must not create a false word break before Y or D.
+    profiles={c:ink_profile(p) for c,p in paths.items() if c.isalpha()}
+    rules=[]
+    for left,a in profiles.items():
+        for right,b in profiles.items():
+            advance=metrics[cmap[ord(left)]][0]
+            gaps=[advance+b[y][0]-a[y][1] for y in a.keys()&b.keys()]
+            adjustment=round(65-min(gaps))
+            if abs(adjustment)>=5:
+                rules.append(f'pos {cmap[ord(left)]} {cmap[ord(right)]} {adjustment};')
+    addOpenTypeFeaturesFromString(font,'feature kern {\n'+'\n'.join(rules)+'\n} kern;')
 
 def build(data,kind,family,filename):
     paths=data[kind];upm=1000
@@ -41,7 +84,9 @@ def build(data,kind,family,filename):
     fb.setupHorizontalHeader(ascent=820,descent=-180,lineGap=0)
     fb.setupNameTable({'familyName':family,'styleName':'Regular','uniqueFontIdentifier':family+'-20261025','fullName':family,'psName':family.replace(' ',''),'version':'Version 1.000','copyright':'Dragon Ball OCG custom vector lettering. Derived from retained site and card-template outlines.'})
     fb.setupOS2(sTypoAscender=820,sTypoDescender=-180,sTypoLineGap=0,usWinAscent=850,usWinDescent=180,sxHeight=760,sCapHeight=760,usWeightClass=400,fsType=0)
-    fb.setupPost();fb.setupMaxp();fb.font.recalcTimestamp=False
+    fb.setupPost();fb.setupMaxp()
+    if kind=='navigation':add_navigation_kerning(fb.font,paths,cmap,metrics)
+    fb.font.recalcTimestamp=False
     fb.font['head'].created=fb.font['head'].modified=3875817600
     dest=ROOT/'public/assets/fonts'/filename;fb.save(dest);print(dest.name,dest.stat().st_size)
 

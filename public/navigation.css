@@ -52,3 +52,6 @@ body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
 /* Give the horizontal navigation labels a little more breathing room. */
 @media(min-width:1201px){body .site-header nav{gap:10px}}
 @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){body .site-header nav,body .site-header nav.is-open{gap:5px}}
+
+/* Outline the letter contours while preserving the white navigation artwork. */
+body .site-header .nav-wordmark{filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
