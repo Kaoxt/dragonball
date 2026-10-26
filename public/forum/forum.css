@@ -211,12 +211,12 @@ html[data-theme=light] .forum-shell { --forum-post-link: #4f46e5; }
 #forum-search-dialog{--search-field:#101116;--search-text:#f4f4f6;--search-muted:#a8a9b6;--search-line:#34343e;--search-focus:#777985;--search-hover:#24252e;color-scheme:dark;box-sizing:border-box;width:min(620px,calc(100% - 32px));max-height:80dvh;margin:100px auto 0;padding:24px;border:1px solid #34343e;border-radius:18px;background:#17181f;color:#f4f4f6;box-shadow:0 24px 70px #0008}
 #forum-search-dialog::backdrop{background:#050608b8;backdrop-filter:blur(5px)}
 .forum-search-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
-.forum-search-heading h2{margin:0;font:600 18px Inter,system-ui,sans-serif}
+.forum-search-heading h2{margin:0;font:600 18px var(--font-ui)}
 #forum-search-dialog button{display:grid;place-items:center;min-height:44px;min-width:44px;padding:8px;border:0;border-radius:999px;cursor:pointer;background:transparent;color:inherit;font:inherit}
 #forum-search-dialog [data-close-search]{font-size:28px}
 .forum-search-fields{display:flex;align-items:center;gap:10px;border:1px solid var(--search-line);border-radius:12px;padding:6px 8px 6px 14px;background:var(--search-field);color:var(--search-text)}.forum-search-fields:focus-within{border-color:var(--search-focus)}
 .forum-search-fields label:first-child{flex:1;min-width:0}
-#forum-search-dialog input,#forum-search-dialog select{box-sizing:border-box;width:100%;min-height:42px;border:0;background:transparent;color:var(--search-text);font:16px Inter,system-ui,sans-serif;padding:8px 4px}
+#forum-search-dialog input,#forum-search-dialog select{box-sizing:border-box;width:100%;min-height:42px;border:0;background:transparent;color:var(--search-text);font:16px var(--font-ui);padding:8px 4px}
 .forum-search-fields label:nth-child(2){max-width:42%;min-width:0;border-left:1px solid var(--search-line);padding-left:10px}
 #forum-search-dialog select{max-width:180px;color-scheme:inherit;font-size:14px}#forum-search-dialog select option{background:var(--search-field);color:var(--search-text)}#forum-search-dialog input::placeholder{color:var(--search-muted);opacity:1}
 #forum-search-dialog :focus-visible{outline:2px solid var(--search-focus);outline-offset:2px;border-radius:8px}#forum-search-dialog input:focus,#forum-search-dialog select:focus{outline:none;box-shadow:none}#forum-search-dialog button:hover{background:var(--search-hover)}
