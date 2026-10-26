@@ -1,0 +1,42 @@
+{
+  "download": {
+    "size": [
+      2120,
+      2968
+    ],
+    "changed_pixels": 38325,
+    "changed_pixels_outside_mask": 0,
+    "bbox": [
+      1310,
+      960,
+      1613,
+      1170
+    ]
+  },
+  "-display": {
+    "size": [
+      1060,
+      1484
+    ],
+    "changed_pixels": 9683,
+    "changed_pixels_outside_mask": 0,
+    "bbox": [
+      655,
+      480,
+      806,
+      586
+    ]
+  },
+  "exports": {
+    "display": {
+      "sha256": "3cfedbd1209f347cea1ae365c0a7af91cac8722f195b965b20135f4efc7badb9",
+      "bytes": 1140194
+    },
+    "downloads/": {
+      "sha256": "f521ab6400fbca553f9ac82b5ecf19d808019bffadeec30f684d5d34e5311541",
+      "bytes": 3003860
+    }
+  },
+  "original_reference": "User supplied 1837.png; original Trunks Saga #149",
+  "change": "Restore original tooth-showing asymmetrical smirk; all pixels outside mouth patch retained."
+}

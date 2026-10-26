@@ -8724,11 +8724,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-149-blue-style-mastery.webp?v=6c50f8e1f8ef",
+    "image": "/assets/cards/trunks-149-blue-style-mastery.webp?v=3cfedbd1209f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-149",
-    "downloadImage": "/assets/cards/downloads/trunks-149-blue-style-mastery.webp?v=b875326e819a",
+    "downloadImage": "/assets/cards/downloads/trunks-149-blue-style-mastery.webp?v=f521ab6400fb",
     "rules": "Your opponent needs 6 anger to advance a personality level. Your successful Blue Style attacks lower your opponent's anger 1 level.",
     "rarity": "Rare"
   },
