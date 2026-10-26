@@ -141,7 +141,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 }
 .home-page .news-post h2{
  margin:0;color:var(--news-ink);font-family:var(--font-ui);
- font-size:clamp(24px,17.6px + 1.6vw,36px);font-weight:600;
+ font-size:clamp(24px,17.6px + 1.6vw,36px);font-weight:500;
  line-height:1.08;letter-spacing:-.028em;text-wrap:balance;
 }
 .home-page .release-meta{
