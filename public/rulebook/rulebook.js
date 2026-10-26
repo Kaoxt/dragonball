@@ -1,25 +1,23 @@
 // Enhance the static illustrated guide; every card remains readable without JavaScript.
-const cardTabs = [...document.querySelectorAll('[data-card-tab]')];
-const cardPanels = [...document.querySelectorAll('[data-card-panel]')];
-const tabList = document.querySelector('.card-type-tabs');
+const cardGroups = [...document.querySelectorAll('[data-card-group]')].map(root => ({
+  tabs: [...root.querySelectorAll('[data-card-tab]')],
+  panels: [...root.querySelectorAll('[data-card-panel]')],
+  tabList: root.querySelector('.card-type-tabs')
+}));
+const cardPanels = cardGroups.flatMap(group => group.panels);
 const browseChapters = document.querySelector('#browse-chapters');
 function selectCardPanel(panelId, focusTab = false) {
-  cardTabs.forEach(tab => {
+  const group = cardGroups.find(group => group.panels.some(panel => panel.id === panelId));
+  if (!group) return;
+  group.tabs.forEach(tab => {
     const selected = tab.hash === `#${panelId}`;
     tab.setAttribute('aria-selected', String(selected));
     tab.tabIndex = selected ? 0 : -1;
-    if (selected) {
-      if (focusTab) tab.focus({ preventScroll: true });
-      // Reveal selections in the horizontal switcher without moving the page.
-      const bounds = tab.getBoundingClientRect();
-      const track = tabList.getBoundingClientRect();
-      if (bounds.left < track.left + 7) tabList.scrollLeft += bounds.left - track.left - 7;
-      else if (bounds.right > track.right - 7) tabList.scrollLeft += bounds.right - track.right + 7;
-    }
+    if (selected && focusTab) tab.focus({ preventScroll: true });
   });
-  cardPanels.forEach(panel => { panel.hidden = panel.id !== panelId; });
+  group.panels.forEach(panel => { panel.hidden = panel.id !== panelId; });
 }
-if (cardTabs.length) {
+for (const {tabs: cardTabs, panels, tabList} of cardGroups) {
   tabList.setAttribute('role', 'tablist');
   cardTabs.forEach((tab, index) => {
     tab.setAttribute('role', 'tab');
@@ -36,6 +34,10 @@ if (cardTabs.length) {
       let next = index;
       if (event.key === 'ArrowRight') next = (index + 1) % cardTabs.length;
       else if (event.key === 'ArrowLeft') next = (index - 1 + cardTabs.length) % cardTabs.length;
+      else if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        const columns = cardTabs.filter(tab => tab.offsetTop === cardTabs[0].offsetTop).length;
+        next = (index + (event.key === 'ArrowDown' ? columns : -columns) + cardTabs.length) % cardTabs.length;
+      }
       else if (event.key === 'Home') next = 0;
       else if (event.key === 'End') next = cardTabs.length - 1;
       else if (event.key !== ' ') return;
@@ -43,7 +45,7 @@ if (cardTabs.length) {
       selectCardPanel(cardTabs[next].hash.slice(1), true);
     });
   });
-  selectCardPanel(cardPanels.some(panel => `#${panel.id}` === location.hash) ? location.hash.slice(1) : cardPanels[0].id);
+  selectCardPanel(panels.some(panel => `#${panel.id}` === location.hash) ? location.hash.slice(1) : panels[0].id);
 }
 document.documentElement.classList.add('rules-enhanced');
 browseChapters.addEventListener('click', () => {
@@ -78,8 +80,10 @@ function filterRules() {
     savedOpen.clear();
   }
   if (words.length) {
-    const matchedPanel = cardPanels.find(panel => words.every(word => normalize(panel.textContent).includes(word)));
-    if (matchedPanel) selectCardPanel(matchedPanel.id);
+    for (const group of cardGroups) {
+      const matchedPanel = group.panels.find(panel => words.every(word => normalize(panel.textContent).includes(word)));
+      if (matchedPanel) selectCardPanel(matchedPanel.id);
+    }
   }
   searching = words.length > 0;
   document.querySelector('#search-status').textContent = searching ? `${count} matching chapter${count === 1 ? '' : 's'}` : '';
