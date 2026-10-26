@@ -4,9 +4,10 @@ export const numberSlug = value => /^\d+$/.test(String(value)) ? String(Number(v
 export const cardPath = card => `/cards/${setSlug(card.set)}/${encodeURIComponent(numberSlug(card.number))}`;
 export const setPath = name => `/cards/${setSlug(name)}/`;
 const logos = {
-  'saiyan-saga':'/assets/sets/saiyan-saga-logo-brushed-blue.webp',
-  'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp',
-  'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp'
+  'saiyan-saga':'/assets/sets/saiyan-saga-logo-brushed-blue.webp?v=20261026-set-banners',
+  'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners',
+  'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners',
+  'android-saga':'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners'
 };
 export function catalogSets(catalog) {
   const sets = new Map();

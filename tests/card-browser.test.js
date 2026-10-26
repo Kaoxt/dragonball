@@ -139,7 +139,7 @@ test('Trunks Saga shows all 210 cards across four pages, with its wordmark and w
  const b=browser('/cards/trunks-saga/?sort=number'),el=b.elements;
  assert.equal(grid(b).length,60);
  assert.equal(el['collection-logo-trunks'].hidden,false);
- assert.equal(el['collection-logo-trunks'].src,'/assets/sets/trunks-saga-logo-brushed-purple.webp');
+ assert.equal(el['collection-logo-trunks'].src,'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners');
  assert.equal(el['collection-logo'].hidden,true);
  assert.equal(el['collection-logo-frieza'].hidden,true);
  assert.equal(el['pagination-top'].hidden,false);
@@ -171,3 +171,17 @@ test('Trunks Saga shows all 210 cards across four pages, with its wordmark and w
  assert.equal(b.location.pathname,'/cards/trunks-saga/p10');
 });
 
+
+test('Android set shows its banner through refresh and hides it outside that set',()=>{
+ const b=browser('/cards/android-saga/'),el=b.elements;
+ assert.equal(el.set.value,'Android Saga');
+ assert.equal(el['collection-logo-android'].hidden,false);
+ assert.equal(el['collection-logo-android'].src,'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners');
+ assert.equal(el['collection-name'].hidden,true);
+ for(const id of ['collection-logo','collection-logo-frieza','collection-logo-trunks'])assert.equal(el[id].hidden,true);
+ const expected=catalog.filter(c=>c.set==='Android Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,60).map(cardPath);
+ assert.ok(expected.length>0);assert.deepEqual(grid(b).map(c=>c.href),expected);
+ b.events.pageshow();assert.equal(el['collection-logo-android'].hidden,false);
+ assert.equal(browser('/cards/').elements['collection-logo-android'].hidden,true);
+ assert.equal(browser('/cards/trunks-saga/').elements['collection-logo-android'].hidden,true);
+});

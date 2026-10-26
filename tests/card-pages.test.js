@@ -97,3 +97,11 @@ test('actual Worker dispatch routes card links and still delegates database asse
   const plain = await context.worker.fetch(new Request('https://dragonballocg.com/cards/cards.js'),{ASSETS:{fetch:async()=>new Response('module')}});
   assert.equal(await plain.text(),'module');
 });
+
+test('Android set sharing metadata uses its matching crimson banner',async()=>{
+ const response=await cardPage(new Request('https://dragonballocg.com/cards/android-saga/'),assets);
+ const body=await response.text();
+ assert.equal(response.status,200);
+ assert.ok(body.includes('property="og:image" content="https://dragonballocg.com/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners"'));
+ assert.ok(body.includes('<option value="Android Saga" selected>'));
+});
