@@ -15,3 +15,5 @@ After approval, synchronize the personal production skill, native source, refere
 The other template entries retain their existing status in the catalog. Template source updates do not publish any additional card exports.
 
 The shared-layout Setup implementation used by Saiyan Saga cards 22, 23 and 30 is documented in `setups/README.md`. It uses the common native geometry; no separate template approval is implied.
+
+For the nine October 26 expression repairs, retain and apply the matching native illustration patch in `tools/card-corrections/expression-audit-2026-10-26` when regenerating those exact cards. Check `manifest.json` for the inspected artwork hashes and patch coordinates; do not replace a completed repair with an older uncorrected source.

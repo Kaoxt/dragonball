@@ -1169,11 +1169,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=d37e5fb42112",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=336407ccf874",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=c7069f151070"
+    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=711ccd1f0ff1"
   },
   {
     "id": "saiyan-085-yamcha",
@@ -2261,11 +2261,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-162-piccolo.webp?v=0a87f3ba42ff",
+    "image": "/assets/cards/saiyan-162-piccolo.webp?v=33e86d21a6e9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-162-piccolo.webp?v=c50163a85cbc"
+    "downloadImage": "/assets/cards/downloads/saiyan-162-piccolo.webp?v=39f50d37fa49"
   },
   {
     "id": "saiyan-163-piccolo",
@@ -2904,11 +2904,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-208-terrible-wounds.webp?v=f8b8683c8344",
+    "image": "/assets/cards/saiyan-208-terrible-wounds.webp?v=5ed63e3c7ae9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-208-terrible-wounds.webp?v=b05743d87cb3"
+    "downloadImage": "/assets/cards/downloads/saiyan-208-terrible-wounds.webp?v=a8d8896273fa"
   },
   {
     "id": "saiyan-209-broken-scouter",
@@ -3254,9 +3254,9 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=d2960144c319",
+    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=2742d55cd5cc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-233-blue-life-defense-drill.webp?v=d228600bdf2c",
+    "downloadImage": "/assets/cards/downloads/saiyan-233-blue-life-defense-drill.webp?v=e53fa93c5de2",
     "width": 1060,
     "height": 1484
   },
@@ -3700,11 +3700,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=6efcb906f338",
+    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=3e9f85a7f74e",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/7_a6851f5c-0958-4fd3-96e5-a64b03e59e21.png?v=1584310485",
-    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=1731e5b94d85",
+    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=5206e3e8726b",
     "rarity": "Common",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level."
   },
@@ -4457,8 +4457,8 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-045-guldo.webp?v=955c1c46de5e",
-    "downloadImage": "/assets/cards/downloads/frieza-045-guldo.webp?v=a9d40c07581d"
+    "image": "/assets/cards/frieza-045-guldo.webp?v=b68fa80fe2f3",
+    "downloadImage": "/assets/cards/downloads/frieza-045-guldo.webp?v=f600ff418570"
   },
   {
     "id": "frieza-046-guldo",
@@ -5449,8 +5449,8 @@ export const catalog = [
       48000,
       0
     ],
-    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=4a8fd8b10c14",
-    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=d81595bd5064"
+    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=bca458e27106",
+    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=5ae098a5012e"
   },
   {
     "id": "frieza-097-straining-force-positioning-move",
@@ -6153,8 +6153,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P11_0e6cb743-4043-4289-88f4-fb3bd2dfbc6c.png?v=1756072712",
     "rarity": "Promo",
     "rules": "POWER: Randomly discard 1 card from your opponent's hand.",
-    "image": "/assets/cards/frieza-p11-vegeta-s-lunge.webp?v=7511f3531677",
-    "downloadImage": "/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp?v=0fe966d03a65"
+    "image": "/assets/cards/frieza-p11-vegeta-s-lunge.webp?v=7a8c260ca6da",
+    "downloadImage": "/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp?v=11afc50d00b3"
   },
   {
     "id": "trunks-001-orange-energy-blast",
@@ -6980,11 +6980,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=baab103335a1",
+    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=e85a88bf4d41",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-52",
-    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=7de02487e5e6",
+    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=b8c2c13d7631",
     "rules": "Piccolo and Nail only. POWER: Banish 1 of your Allies to raise your anger 2 levels. Banish after use.",
     "rarity": "Uncommon"
   },

@@ -1,0 +1,461 @@
+[
+  {
+    "id": "saiyan-084-yamcha",
+    "original_reference": "https://retrodbzccg.com/wp-content/uploads/2012/02/84-Yamcha-LV1.jpg",
+    "correction": "Original Yamcha tips his cap with eyes closed in a relaxed smile. Modern Yamcha has both eyes open and a sharper sideways glare. Smile remains, but eye openness changes the expression. Verified enlarged original/current face crops.",
+    "native_patch": {
+      "x": 440.0,
+      "y": 219.5,
+      "width": 134.5,
+      "height": 91.5,
+      "file": "saiyan-084-yamcha/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/saiyan-084-yamcha.webp",
+        "before_sha256": "c7069f151070c2a434d9992075fa56d8b246046e2e6043d23748284af9729c50",
+        "after_sha256": "711ccd1f0ff140b1112a1fb257735c27e938ff6bb5d63478788d78935b9f6c35",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 32537,
+        "changed_bbox": [
+          882,
+          439,
+          1148,
+          619
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/saiyan-084-yamcha.webp",
+        "before_sha256": "d37e5fb42112881a677836aca00df33bc5640de9b54ffa5abfdbf30a0d8a02d7",
+        "after_sha256": "336407ccf8745cad5f21fbdd40814a1db9666e91c563de87497b6e58b3fbbf1c",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 8277,
+        "changed_bbox": [
+          441,
+          220,
+          574,
+          309
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Yamcha",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "saiyan-162-piccolo",
+    "original_reference": "https://retrodbzccg.com/wp-content/uploads/2012/02/162-Piccolo-LV2.jpg",
+    "correction": "Piccolo original upturned confident smile becomes a downturned stern mouth. Confirmed enlarged.",
+    "native_patch": {
+      "x": 302.5,
+      "y": 308.0,
+      "width": 55.5,
+      "height": 44.0,
+      "file": "saiyan-162-piccolo/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/saiyan-162-piccolo.webp",
+        "before_sha256": "c50163a85cbc1aa86d8b4cfbc02663f1e836f855e3aec9f7179f7585e10b9b84",
+        "after_sha256": "39f50d37fa4938b90d84476a85e3427b4ea5a9f23c282890321c6bd293d8e709",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 7040,
+        "changed_bbox": [
+          607,
+          618,
+          715,
+          702
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/saiyan-162-piccolo.webp",
+        "before_sha256": "0a87f3ba42ff79560564091bb8283fa2d1b55ec6cc951617179d7e876ba74a96",
+        "after_sha256": "33e86d21a6e91973a0af88c4dffea1a51b525cf1e614909edd2d0a85c0bfe112",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 1759,
+        "changed_bbox": [
+          303,
+          309,
+          357,
+          351
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Piccolo",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "saiyan-208-terrible-wounds",
+    "original_reference": "https://retrodbzccg.com/wp-content/uploads/2012/02/208-Terrible-Wounds.jpg",
+    "correction": "Yajirobe original partly open eyes with visible pupils become closed eyelid strokes. Confirmed enlarged.",
+    "native_patch": {
+      "x": 434.0,
+      "y": 388.0,
+      "width": 217.0,
+      "height": 98.5,
+      "file": "saiyan-208-terrible-wounds/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/saiyan-208-terrible-wounds.webp",
+        "before_sha256": "b05743d87cb35c94cdc771cce27801961fbdddd4f3a425160de62ec7b7ac8443",
+        "after_sha256": "a8d8896273faa92c22b06c525ab2f9f822345670e7b989a4f896dec644c67806",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 29453,
+        "changed_bbox": [
+          871,
+          780,
+          1300,
+          971
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/saiyan-208-terrible-wounds.webp",
+        "before_sha256": "f8b8683c8344b69754651070c9021f2783da4d64d53e0e8209cdf7bf912beb6f",
+        "after_sha256": "5ed63e3c7ae96ddf5aa17c257f2448077a76119442c534ad6a8d015c7a99f1bd",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 7440,
+        "changed_bbox": [
+          435,
+          390,
+          650,
+          486
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Terrible Wounds",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "saiyan-233-blue-life-defense-drill",
+    "original_reference": "https://retrodbzccg.com/wp-content/uploads/2012/02/233-Blue-Life-Defense-Drill.jpg",
+    "correction": "Tien original two lower eyes are visibly open; modern lower eyes are shut. Third eye remains open. Confirmed enlarged.",
+    "native_patch": {
+      "x": 401.5,
+      "y": 411.5,
+      "width": 249.0,
+      "height": 75.0,
+      "file": "saiyan-233-blue-life-defense-drill/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/saiyan-233-blue-life-defense-drill.webp",
+        "before_sha256": "d228600bdf2c9402421ca17bff9b603966580c3170a1ae2d560a12caa9dac6d7",
+        "after_sha256": "e53fa93c5de21a0e826786f2afcff798403f069032ca9cbdfd3e84f83ba9a5b6",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 46702,
+        "changed_bbox": [
+          806,
+          825,
+          1299,
+          973
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/saiyan-233-blue-life-defense-drill.webp",
+        "before_sha256": "d2960144c3196da5e4f2f769b3cb8de3b387aa4513b9efd2ad9ecea4dbbb8599",
+        "after_sha256": "2742d55cd5ccbd69364986af92c95cfc5ad6ff5d5175de7cd4a9f43ea1621e49",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 11781,
+        "changed_bbox": [
+          404,
+          412,
+          649,
+          486
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Blue Life Defense Drill",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "frieza-007-blue-energy-flight",
+    "original_reference": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/7_a6851f5c-0958-4fd3-96e5-a64b03e59e21.png?v=1584310485",
+    "correction": "Vegeta's original closed, confident smirk becomes an exposed-teeth grimace. Enlarged mouth comparison confirms the change.",
+    "native_patch": {
+      "x": 496.0,
+      "y": 591.5,
+      "width": 69.0,
+      "height": 33.5,
+      "file": "frieza-007-blue-energy-flight/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/frieza-007-blue-energy-flight.webp",
+        "before_sha256": "1731e5b94d85264517cf233d1cb93dc01d059ac4224311b4d221badd778946d3",
+        "after_sha256": "5206e3e8726bc55a754f13130df1e02c3a0a6901447a4b11c520a9b4ecf2d83d",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 5771,
+        "changed_bbox": [
+          994,
+          1184,
+          1129,
+          1250
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/frieza-007-blue-energy-flight.webp",
+        "before_sha256": "6efcb906f338f28b14b39b9dc097d66a6cf6a7545c32166cca4cd68a5c544169",
+        "after_sha256": "3e9f85a7f74ee9b0b3463ecf37a1bd94904603cc537ffaec2c5cf416b71c6e26",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 1448,
+        "changed_bbox": [
+          497,
+          592,
+          564,
+          625
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Blue Energy Flight",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "frieza-045-guldo",
+    "original_reference": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/45_f922a2d2-1483-49e3-b5e8-4028a092b9be.png?v=1584310553",
+    "correction": "Guldo's two front eyes are visibly open narrow white slits in the original; the modern illustration squeezes both front eyes shut. Side eyes remain open.",
+    "native_patch": {
+      "x": 413.0,
+      "y": 286.0,
+      "width": 120.0,
+      "height": 44.5,
+      "file": "frieza-045-guldo/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/frieza-045-guldo.webp",
+        "before_sha256": "a9d40c07581d1802c8bb8e358caac121f7c7115217e5828f3cb22deabef414de",
+        "after_sha256": "f600ff4185706596eff9eb1193f85d09b20545f77a88d587d5fe3dc30076e078",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 14898,
+        "changed_bbox": [
+          828,
+          575,
+          1064,
+          658
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/frieza-045-guldo.webp",
+        "before_sha256": "955c1c46de5e9187ddeb36b707586431d31e283f2ebcbbdddde123c58f386b9a",
+        "after_sha256": "b68fa80fe2f318dc2b067499b0421b1051925256c65ffd437a724e01685f58a2",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 3745,
+        "changed_bbox": [
+          414,
+          287,
+          532,
+          329
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Guldo",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "frieza-096-nail-the-namekian",
+    "original_reference": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/96_7f8d938d-7cdc-41f4-8521-8684f5a04853.png?v=1584310636",
+    "correction": "Nail has a small parted/teeth-showing mouth in the original. The modern face has a closed, stern mouth with no visible teeth.",
+    "native_patch": {
+      "x": 507.0,
+      "y": 353.0,
+      "width": 55.0,
+      "height": 33.5,
+      "file": "frieza-096-nail-the-namekian/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/frieza-096-nail-the-namekian.webp",
+        "before_sha256": "d81595bd5064265c986d879016e9e5675d75706cfe2169e24e109a7c575370f4",
+        "after_sha256": "5ae098a5012e22676d17332ba53573cd1871b8ed84063af4a94fd6525c5293b2",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 5518,
+        "changed_bbox": [
+          1017,
+          706,
+          1121,
+          771
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/frieza-096-nail-the-namekian.webp",
+        "before_sha256": "4a8fd8b10c1489baa24b2eb87b13c97f17540e1c48dd3632d7cceaa15f9635d4",
+        "after_sha256": "bca458e271064e4a790c1148488c982dda890e58e368fc03175a9cdd116e131f",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 1395,
+        "changed_bbox": [
+          508,
+          353,
+          560,
+          385
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Nail The Namekian",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "frieza-p11-vegeta-s-lunge",
+    "original_reference": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P11_0e6cb743-4043-4289-88f4-fb3bd2dfbc6c.png?v=1756072712",
+    "correction": "Vegeta's original raised-corner, confident smirk is replaced by a neutral/stern closed mouth; visible in enlarged comparison.",
+    "native_patch": {
+      "x": 543.0,
+      "y": 389.5,
+      "width": 50.5,
+      "height": 30.5,
+      "file": "frieza-p11-vegeta-s-lunge/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp",
+        "before_sha256": "0fe966d03a6591053e5c9e61262a1af56cfd48dc621bc1bee38c066bce241c08",
+        "after_sha256": "11afc50d00b39756a4e45464289615107de3f81a50225b7f6568fef758a2d00a",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 4193,
+        "changed_bbox": [
+          1090,
+          782,
+          1184,
+          839
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/frieza-p11-vegeta-s-lunge.webp",
+        "before_sha256": "7511f3531677a64c0993cd5c2007a8845b6fe1360a9bb875473ea21503d6e9bf",
+        "after_sha256": "7a8c260ca6da9d6081b60970ee1ea1e7f8ba80253bf6f1087f0bfe828a0303a0",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 1045,
+        "changed_bbox": [
+          545,
+          391,
+          592,
+          419
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Vegeta's Lunge",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  },
+  {
+    "id": "trunks-052-namekian-fighting",
+    "original_reference": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/52_9cb55974-704e-441c-a8d1-27dd6f3f84a4.png?v=1602894069",
+    "correction": "Enlarged comparison: original Piccolo small open mouth with visible white inner/teeth detail is replaced by a closed downturned line. Eyes remain broadly similar.",
+    "native_patch": {
+      "x": 557.0,
+      "y": 489.5,
+      "width": 66.0,
+      "height": 35.0,
+      "file": "trunks-052-namekian-fighting/expression-patch.png"
+    },
+    "outputs": {
+      "download": {
+        "path": "public/assets/cards/downloads/trunks-052-namekian-fighting.webp",
+        "before_sha256": "7de02487e5e6f1799396fadd8654d7ab913ca5b211c3e5dc223e876b834c2a31",
+        "after_sha256": "b8c2c13d7631725c5d17f332fea75c92c8e660c02608bafe6cde4e751ef9f161",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "changed_pixels": 7239,
+        "changed_bbox": [
+          1115,
+          981,
+          1243,
+          1049
+        ],
+        "outside_mask_changed_pixels": 0
+      },
+      "display": {
+        "path": "public/assets/cards/trunks-052-namekian-fighting.webp",
+        "before_sha256": "baab103335a1544f8a993473d2c8bb7e2f36876719dd403f78726dca6d793417",
+        "after_sha256": "e85a88bf4d411d6d4bcc649116d93387a1ebe1d96c5373295eee61dd51cbff81",
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "changed_pixels": 1824,
+        "changed_bbox": [
+          558,
+          491,
+          621,
+          524
+        ],
+        "outside_mask_changed_pixels": 0
+      }
+    },
+    "name": "Namekian Fighting",
+    "status": "corrected and visually rechecked",
+    "visual_review": "Original / retained before / composited result inspected individually; expression matches the visible source."
+  }
+]
