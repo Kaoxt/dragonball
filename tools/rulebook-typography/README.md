@@ -8,3 +8,5 @@
 Run `python tools/rulebook-typography/build.py` with fontTools to rebuild the fonts. The fonts require no external service. The stylesheet applies them only to section headings and numeric badges; body copy and page wordmark placement keep their existing styling.
 
 The navigation font uses contour-based OpenType kerning to remove false gaps in pairs such as RY and RD while preserving the original outlines. Section numbers are plain white text. Heading outlines use stroke-before-fill painting so the white glyph strokes retain their full weight; navigation image outlines use CSS drop shadows.
+
+Navigation glyph advances include the complete slanted ink bounds, keeping words and line ends separate. The build removes trace stair steps with a maximum 5/1000-em deviation and uses 90/1000-em minimum contour spacing. The original SVG outline data stays retained. Chapter numbers use ordinary decimal numbering and the same outline treatment as the titles.
