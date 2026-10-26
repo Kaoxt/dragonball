@@ -195,10 +195,13 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 /* Illustrated card reference; all panels remain readable without scripts. */
 .browse-chapters{display:none}
 .manual .chapter-links .visual-nav-link{border-left-color:#ffc079;color:#ffe1bb;background:#39242b;margin-bottom:8px}
-.manual .card-type-tabs{display:flex;flex-wrap:wrap;gap:7px;margin:24px 0 28px;padding-bottom:20px;border-bottom:1px solid var(--rules-line)}
-.manual .card-type-tabs a{display:flex;align-items:center;justify-content:center;min-height:40px;padding:8px 13px;border:1px solid #61434d;border-radius:6px;background:#241b20;color:#e4d5dc;font-size:13px;line-height:1.4;text-decoration:none;font-weight:500}
-.manual .card-type-tabs a:hover{background:#442734;border-color:#b76f81}
-.manual .card-type-tabs a[aria-selected=true]{background:#8b2d45;border-color:#e5946c;color:#fff;box-shadow:inset 0 -2px #ffbf7b}
+/* Rounded rectangular switcher; colors match the News page actions. */
+.manual .card-type-tabs{display:flex;flex-wrap:nowrap;gap:4px;margin:24px 0 28px;padding:6px;border:1px solid #444046;border-radius:18px;background:#252326;box-shadow:0 5px 12px #0003;overflow-x:auto;scrollbar-width:thin;scrollbar-color:#65515b transparent}
+.manual .card-type-tabs a{display:flex;flex:1 0 auto;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border:1px solid transparent;border-radius:12px;background:transparent;color:#bdb8bd;font-family:var(--font-ui);font-size:13px;line-height:1.4;text-decoration:none;font-weight:500;white-space:nowrap}
+.manual .card-type-tabs a:hover{background:#353137;border-color:#65515b;color:#f5f5f5}
+.manual .card-type-tabs a[aria-selected=true]{background:#87253f;border-color:#ac3654;color:#f5f5f5;box-shadow:none}
+.manual .card-type-tabs a[aria-selected=true]:hover{background:#a52c4b;border-color:#c14965}
+.manual .card-type-tabs a:focus-visible{outline:2px solid #ffabbf;outline-offset:-3px}
 .manual .card-guide-panel{border:0;border-radius:0;background:none;padding:0;margin:0 0 32px;scroll-margin-top:24px;box-shadow:none}
 .manual .card-guide-panel[hidden]{display:none}
 .manual .card-panel-heading{margin-bottom:26px}
@@ -237,22 +240,22 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 .manual .guide-next a{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:#ffcca1;text-decoration:none}
 @media(max-width:1100px) and (min-width:801px){.card-explainer{grid-template-columns:minmax(170px,.8fr) minmax(0,1.2fr);gap:22px}.manual .card-diagram{padding:0 13px}.manual .card-type-tabs a{padding:8px 10px;font-size:12px}}
 @media(max-width:800px){.rules-enhanced .browse-chapters{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:11px 12px;min-height:44px;background:#302029;border:1px solid #704451;border-radius:5px;font-size:13px;color:#f0d5dd}.rules-enhanced .browse-chapters[aria-expanded=false]+.chapter-links{display:none}.browse-chapters[aria-expanded=true] svg{transform:rotate(180deg)}.chapter-links{max-height:300px}.manual .chapter-nav .guide-actions{max-width:none;margin-top:4px;padding-top:12px}.manual .chapter-nav .guide-actions button{min-height:40px}.manual .chapter-nav .search-label{font-size:12px}.manual .chapter-nav input{font-size:14px}.chapter-nav #search-status:empty{display:none}.manual .card-type-tabs a{min-height:44px}.card-explainer{gap:26px}}
-@media(max-width:600px){.card-explainer{grid-template-columns:1fr;gap:24px}.manual .card-diagram{max-width:274px}.manual .card-type-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:20px 0 23px;padding-bottom:18px}.manual .card-type-tabs a{padding:9px 5px;font-size:12px}.manual .card-panel-heading h3{font-size:23px}.manual .card-panel-heading>p{font-size:14px}.manual .card-field-list{gap:16px}.manual .card-field-list li{grid-template-columns:25px minmax(0,1fr)}.manual .card-field-list p,.manual .card-example p{font-size:14px}.manual .card-field-list h4{font-size:15px}.manual .card-guide-panel{margin-bottom:25px}.card-use-label{font-size:9px;letter-spacing:.7px}.manual .location-primer{grid-template-columns:1fr;gap:10px}.location-icon{display:none}.manual .guide-next{display:grid;gap:12px}}
+@media(max-width:600px){.card-explainer{grid-template-columns:1fr;gap:24px}.manual .card-diagram{max-width:274px}.manual .card-type-tabs{margin:20px 0 23px}.manual .card-type-tabs a{padding:10px 13px;font-size:13px}.manual .card-panel-heading h3{font-size:23px}.manual .card-panel-heading>p{font-size:14px}.manual .card-field-list{gap:16px}.manual .card-field-list li{grid-template-columns:25px minmax(0,1fr)}.manual .card-field-list p,.manual .card-example p{font-size:14px}.manual .card-field-list h4{font-size:15px}.manual .card-guide-panel{margin-bottom:25px}.card-use-label{font-size:9px;letter-spacing:.7px}.manual .location-primer{grid-template-columns:1fr;gap:10px}.location-icon{display:none}.manual .guide-next{display:grid;gap:12px}}
 @media print{.manual .card-type-tabs,.browse-chapters,.card-diagram figcaption,.guide-next,.card-rule-link{display:none!important}.manual .card-guide-panel,.manual .card-guide-panel[hidden]{display:block!important;margin:0 0 25px;break-before:auto}.card-panel-heading{break-after:avoid}.card-explainer{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;break-inside:avoid}.card-use-label,.manual .card-field-list h4{color:#333}.manual .card-field-list p,.manual .card-example p{font-size:9pt;color:#111}.manual .card-field-list h4{font-size:10pt}.manual .card-field-list{gap:10px}.manual .card-field-list li{break-inside:avoid}.card-pin,.field-number{background:#eee;border-color:#777;color:#111;box-shadow:none}.card-diagram-image img{box-shadow:none}.manual .card-example,.card-art-placeholder{background:#f5f5f5;color:#111;border-color:#999}.card-art-placeholder strong,.card-art-placeholder span,.card-example>strong,.manual .chapter .card-tip,.art-pending{color:#333}.manual .location-primer{break-inside:avoid}.manual .card-panel-heading h3{font-size:17pt}}
 
 /* Keep marker coordinates in the stylesheet so the site CSP can allow them. */
 .pin-left{--pin-x:0%}.pin-right{--pin-x:100%}
 .pin-y5{--pin-y:5%}.pin-y32{--pin-y:32%}.pin-y61{--pin-y:61%}.pin-y62{--pin-y:62%}.pin-y76{--pin-y:76%}.pin-y95{--pin-y:95%}
 
-/* Rulebook titles reuse the site's outlined navigation lettering. */
-@font-face{font-family:'DB OCG Navigation';src:url('/assets/fonts/db-ocg-navigation.ttf?v=20261026-open-counters') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+/* Section titles use the regular site font; keep the approved personality numbers. */
 @font-face{font-family:'DB OCG Personality Numbers';src:url('/assets/fonts/db-ocg-personality-numbers.ttf?v=20261025') format('truetype');font-style:normal;font-weight:400;font-display:swap}
-.manual .chapter-heading h2{font-family:'DB OCG Navigation',var(--font-ui);font-size:32px;font-weight:400;font-style:normal;font-synthesis:none;text-transform:uppercase;font-kerning:normal;letter-spacing:0;line-height:1.3;-webkit-text-stroke:4px #000;paint-order:stroke fill;overflow-wrap:normal;text-wrap:balance;padding-right:8px}
+.manual .chapter-heading h2{font-family:var(--font-ui);font-size:28px;font-weight:600;font-style:normal;text-transform:none;letter-spacing:-.02em;line-height:1.3;-webkit-text-stroke:0;text-shadow:none;overflow-wrap:normal;text-wrap:balance;padding-right:8px}
 .manual .chapter-heading{align-items:baseline}
 .manual .chapter-heading>span{display:block;align-self:baseline;transform:skewX(-12deg);transform-origin:center 70%;width:auto;min-width:1.45em;height:auto;padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:#fff;font-family:'DB OCG Personality Numbers',var(--font-ui);font-weight:400;font-style:normal;font-synthesis:none;font-size:32px;letter-spacing:0;line-height:1.3;-webkit-text-stroke:4px #000;paint-order:stroke fill}
 .manual .chapter-heading>span:has(svg){align-self:center;transform:none}
 .manual .card-pin,.manual .field-number,.manual .turn-track li::before{font-family:'DB OCG Personality Numbers',var(--font-ui);font-size:16px;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0;line-height:1;padding-top:1px}
-@media(max-width:800px){.manual .chapter-heading h2{font-size:29px}.manual .chapter-heading>span{font-size:29px}}
-@media(max-width:520px){.manual .chapter-heading h2{font-size:25px;line-height:1.35;padding-right:0}.manual .chapter-heading>span{font-size:25px;letter-spacing:0}.manual .card-pin,.manual .field-number,.manual .turn-track li::before{font-size:16px}}
+@media(max-width:800px){.manual .chapter-heading h2{font-size:26px}.manual .chapter-heading>span{font-size:29px}}
+@media(max-width:520px){.manual .chapter-heading h2{font-size:24px;line-height:1.35;padding-right:0}.manual .chapter-heading>span{font-size:25px;letter-spacing:0}.manual .card-pin,.manual .field-number,.manual .turn-track li::before{font-size:16px}}
 @media(max-width:360px){.manual .chapter-heading h2,.manual .chapter-heading>span{font-size:21px}}
 @media print{.manual .chapter-heading h2{font-size:22pt;-webkit-text-stroke:0}.manual .chapter-heading>span{font-size:22pt;color:#111;-webkit-text-stroke:0}}
+

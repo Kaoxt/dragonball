@@ -8,7 +8,14 @@ function selectCardPanel(panelId, focusTab = false) {
     const selected = tab.hash === `#${panelId}`;
     tab.setAttribute('aria-selected', String(selected));
     tab.tabIndex = selected ? 0 : -1;
-    if (selected && focusTab) tab.focus();
+    if (selected) {
+      if (focusTab) tab.focus({ preventScroll: true });
+      // Reveal selections in the horizontal switcher without moving the page.
+      const bounds = tab.getBoundingClientRect();
+      const track = tabList.getBoundingClientRect();
+      if (bounds.left < track.left + 7) tabList.scrollLeft += bounds.left - track.left - 7;
+      else if (bounds.right > track.right - 7) tabList.scrollLeft += bounds.right - track.right + 7;
+    }
   });
   cardPanels.forEach(panel => { panel.hidden = panel.id !== panelId; });
 }
@@ -139,3 +146,4 @@ window.addEventListener('scroll', queueChapterLocation, { passive: true });
 search.addEventListener('input', queueChapterLocation);
 window.addEventListener('hashchange', queueChapterLocation);
 updateChapterLocation();
+
