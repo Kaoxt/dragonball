@@ -129,17 +129,16 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 .home-page .home-footer p{color:#a998a0}
 @media(max-width:650px){.home-page .home-footer{margin-top:28px;padding:24px 6% 26px}}
 
-/* Nuvio-inspired reading scale, neutral colors and compact category labels. */
+/* Nuvio-inspired reading scale with white article copy and red category labels. */
 .home-page{
  --news-ink:#f6f7f9;
- --news-muted:rgba(246,247,249,.64);
  --news-quiet:rgba(246,247,249,.58);
  color:var(--news-ink);font-size:16px;
 }
 .home-page .release-tag{
  display:inline-flex;align-items:center;min-height:28px;
  padding:0 10px;border:1px solid #ffffff1a;border-radius:8px;
- background:transparent;color:var(--news-muted);
+ background:transparent;color:#da8da5;
  font-size:12px;font-weight:600;line-height:1;
  letter-spacing:normal;text-transform:none;margin:0 0 16px;
 }
@@ -161,7 +160,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 .home-page .news-feed .forum-rich p,
 .home-page.news-detail-page .news-feed .forum-rich,
 .home-page.news-detail-page .news-feed .forum-rich p{
- color:var(--news-muted);font-size:16px;font-weight:400;line-height:1.75;
+ color:#fff;font-size:16px;font-weight:400;line-height:1.75;
 }
 .home-page .news-post .release-summary{max-width:68ch;margin:16px 0 0;line-height:1.62}
 .home-page .news-full{margin-top:16px}
