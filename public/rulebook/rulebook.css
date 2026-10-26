@@ -191,3 +191,51 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 @media print{.dragon-ball-emblem,.chapter-heading::after{display:none!important}.manual .chapter-heading{background:white;border:0;padding:0}.manual .chapter-heading>span{background:none;color:#333;border:0;box-shadow:none}.chapter-running{border-color:#bbb}.format-grid article{background:white;border-color:#aaa}.manual .format-grid h3,.manual .format-grid p,.format-label,.manual .rule-callout strong,.source-list span,.manual .chapter .chapter-lead,.manual .chapter .source-note{color:#222}.manual .chapter summary{color:#111}.manual .ball{background:#eee;color:#111;border-color:#aaa;box-shadow:none}.manual .turn-track li::before{background:#eee;color:#111;box-shadow:none}.pat-table th,.pat-table td,.pat-table caption,.format-table caption{background:white;color:#111}.manual .table-note{background:#f4f4f4}}
 
 @media print{body.rulebook-page .manual{max-width:none;padding:0}body.rulebook-page .manual .manual-hero{padding:0 0 15px}body.rulebook-page .manual .manual-hero h1 img{width:130px;height:auto;max-height:none}}
+
+/* Illustrated card reference; all panels remain readable without scripts. */
+.browse-chapters{display:none}
+.manual .chapter-links .visual-nav-link{border-left-color:#ffc079;color:#ffe1bb;background:#39242b;margin-bottom:8px}
+.manual .card-type-tabs{display:flex;flex-wrap:wrap;gap:7px;margin:24px 0 28px;padding-bottom:20px;border-bottom:1px solid var(--rules-line)}
+.manual .card-type-tabs a{display:flex;align-items:center;justify-content:center;min-height:40px;padding:8px 13px;border:1px solid #61434d;border-radius:6px;background:#241b20;color:#e4d5dc;font-size:13px;line-height:1.4;text-decoration:none;font-weight:500}
+.manual .card-type-tabs a:hover{background:#442734;border-color:#b76f81}
+.manual .card-type-tabs a[aria-selected=true]{background:#8b2d45;border-color:#e5946c;color:#fff;box-shadow:inset 0 -2px #ffbf7b}
+.manual .card-guide-panel{border:0;border-radius:0;background:none;padding:0;margin:0 0 32px;scroll-margin-top:24px;box-shadow:none}
+.manual .card-guide-panel[hidden]{display:none}
+.manual .card-panel-heading{margin-bottom:26px}
+.card-use-label{display:block;font-size:10px;letter-spacing:1px;line-height:1.7;color:#eab58d;margin-bottom:7px}
+.manual .card-panel-heading h3{font-size:25px;line-height:1.3;margin:0 0 10px;color:#fff}
+.manual .card-panel-heading>p{font-size:15px;color:#d4c4cb;line-height:1.75;margin:0;max-width:720px}
+.card-explainer{display:grid;grid-template-columns:minmax(200px,.85fr) minmax(0,1.15fr);align-items:start;gap:32px}
+.manual .card-diagram{width:100%;max-width:310px;margin:0 auto;padding:0 15px;min-width:0;box-sizing:border-box}
+.card-diagram-image{position:relative;width:100%;isolation:isolate}
+.card-diagram-image img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 25px #0007}
+.card-pin{position:absolute;left:var(--pin-x);top:var(--pin-y);transform:translate(-50%,-50%);display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#ffc177;border:2px solid #fff1d6;color:#4b1e16;font-size:13px;font-weight:750;box-shadow:0 2px 8px #0009;pointer-events:none;line-height:1}
+.manual .card-diagram figcaption{margin:16px 0 0;text-align:center}
+.manual .card-diagram figcaption a{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:12px;color:#e0c9d3;min-height:32px;text-decoration:none}
+.manual .card-field-list{list-style:none;padding:0;margin:0;display:grid;gap:17px}
+.manual .card-field-list li{display:grid;grid-template-columns:25px minmax(0,1fr);gap:10px;padding:0;margin:0}
+.field-number{display:grid;place-items:center;width:24px;height:24px;border:1px solid #b2744c;border-radius:50%;background:#50332d;color:#ffd49e;font-size:12px;font-weight:650;line-height:1}
+.manual .card-field-list h4{font-size:14px;line-height:1.5;margin:0 0 4px;color:#ffdbb2;font-weight:600;letter-spacing:0}
+.manual .card-field-list p{font-size:13px;line-height:1.7;color:#d7cbd1;margin:0}
+.manual .card-example{margin:23px 0 0;padding:15px 17px;background:#35212a;border:1px solid #63404b;border-left:3px solid #edac63;border-radius:0 6px 6px 0}
+.card-example>strong{display:block;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:#ffc788;margin-bottom:6px}
+.manual .card-example p{margin:0;font-size:13px;line-height:1.75;color:#f2e1e8}
+.manual .chapter .card-tip{font-size:13px;line-height:1.75;color:#d9c5ce;padding-top:22px;margin:22px 0 12px;border-top:1px solid var(--rules-line)}
+.manual .card-rule-link{display:inline-flex;align-items:center;gap:10px;max-width:100%;font-size:13px;line-height:1.6;min-height:34px;text-decoration:none;color:#ffc38b}
+.card-art-placeholder{aspect-ratio:1060/1484;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;background:linear-gradient(135deg,#34242d,#1a1419);border:1px dashed #946576;border-radius:8px;color:#dfbd9d;text-align:center;padding:18px;box-sizing:border-box}
+.card-art-placeholder svg{width:54px;height:68px;color:#c3907d}
+.card-art-placeholder strong{font-size:24px;font-weight:500;color:#ffe0c0}
+.card-art-placeholder span{font-size:12px;line-height:1.6;color:#c7adb9}
+.manual .location-primer{display:grid;grid-template-columns:45px minmax(0,1fr);gap:16px;border-top:1px solid var(--rules-line);padding:23px 0 0;margin:30px 0 0;background:none}
+.location-icon svg{display:block;width:44px;height:44px;color:#e9b382}
+.manual .location-primer h3{font-size:17px;margin:0 0 8px}
+.manual .location-primer p{font-size:14px;color:#d6c5ce;line-height:1.75;margin:0 0 10px}
+.manual .location-primer a{display:inline-flex;align-items:center;gap:8px;font-size:12px;text-decoration:none}
+.art-pending{display:block;color:#b79eab;font-size:11px;margin-top:10px}
+.guide-next{display:flex;align-items:center;flex-wrap:wrap;gap:12px 22px;border-top:1px solid var(--rules-line);margin-top:26px;padding-top:21px}
+.guide-next>span{font-size:12px;color:#bca3af}
+.manual .guide-next a{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:#ffcca1;text-decoration:none}
+@media(max-width:1100px) and (min-width:801px){.card-explainer{grid-template-columns:minmax(170px,.8fr) minmax(0,1.2fr);gap:22px}.manual .card-diagram{padding:0 13px}.manual .card-type-tabs a{padding:8px 10px;font-size:12px}}
+@media(max-width:800px){.rules-enhanced .browse-chapters{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:11px 12px;min-height:44px;background:#302029;border:1px solid #704451;border-radius:5px;font-size:13px;color:#f0d5dd}.rules-enhanced .browse-chapters[aria-expanded=false]+.chapter-links{display:none}.browse-chapters[aria-expanded=true] svg{transform:rotate(180deg)}.chapter-links{max-height:300px}.manual .chapter-nav .guide-actions{max-width:none;margin-top:4px;padding-top:12px}.manual .chapter-nav .guide-actions button{min-height:40px}.manual .chapter-nav .search-label{font-size:12px}.manual .chapter-nav input{font-size:14px}.chapter-nav #search-status:empty{display:none}.manual .card-type-tabs a{min-height:44px}.card-explainer{gap:26px}}
+@media(max-width:600px){.card-explainer{grid-template-columns:1fr;gap:24px}.manual .card-diagram{max-width:274px}.manual .card-type-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:20px 0 23px;padding-bottom:18px}.manual .card-type-tabs a{padding:9px 5px;font-size:12px}.manual .card-panel-heading h3{font-size:23px}.manual .card-panel-heading>p{font-size:14px}.manual .card-field-list{gap:16px}.manual .card-field-list li{grid-template-columns:25px minmax(0,1fr)}.manual .card-field-list p,.manual .card-example p{font-size:14px}.manual .card-field-list h4{font-size:15px}.manual .card-guide-panel{margin-bottom:25px}.card-use-label{font-size:9px;letter-spacing:.7px}.manual .location-primer{grid-template-columns:1fr;gap:10px}.location-icon{display:none}.manual .guide-next{display:grid;gap:12px}}
+@media print{.manual .card-type-tabs,.browse-chapters,.card-diagram figcaption,.guide-next,.card-rule-link{display:none!important}.manual .card-guide-panel,.manual .card-guide-panel[hidden]{display:block!important;margin:0 0 25px;break-before:auto}.card-panel-heading{break-after:avoid}.card-explainer{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;break-inside:avoid}.card-use-label,.manual .card-field-list h4{color:#333}.manual .card-field-list p,.manual .card-example p{font-size:9pt;color:#111}.manual .card-field-list h4{font-size:10pt}.manual .card-field-list{gap:10px}.manual .card-field-list li{break-inside:avoid}.card-pin,.field-number{background:#eee;border-color:#777;color:#111;box-shadow:none}.card-diagram-image img{box-shadow:none}.manual .card-example,.card-art-placeholder{background:#f5f5f5;color:#111;border-color:#999}.card-art-placeholder strong,.card-art-placeholder span,.card-example>strong,.manual .chapter .card-tip,.art-pending{color:#333}.manual .location-primer{break-inside:avoid}.manual .card-panel-heading h3{font-size:17pt}}

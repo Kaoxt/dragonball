@@ -2,16 +2,16 @@ import {test,expect} from '@playwright/test';
 test('digital rulebook stays local, searches expanded rules and works on mobile',async({page})=>{
   await page.goto('/rulebook/');
   await expect(page.getByRole('heading',{level:1,name:'Rules',exact:true})).toBeVisible();
-  expect(await page.locator('.hero-card img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
+  expect(await page.locator('.hero-card img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);
   await expect(page.locator('iframe, object, embed')).toHaveCount(0);
-  await expect(page.locator('[data-chapter]')).toHaveCount(19);
+  await expect(page.locator('[data-chapter]')).toHaveCount(20);
   await page.locator('#rule-search').fill('seventh');
   await expect(page.locator('#dragon-balls')).toBeVisible();
   await expect(page.locator('#dragon-balls details').last()).toHaveAttribute('open','');
   await page.locator('#rule-search').fill('no-rule-matches-this');
   await expect(page.locator('#no-results')).toBeVisible();
   await page.locator('#clear-search').click();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
   await expect(page.locator('#expand-rules')).toHaveText('Collapse all');
   await page.locator('#expand-rules').click();
   expect(await page.locator('details[open]').count()).toBe(0);
@@ -21,9 +21,10 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await page.setViewportSize({width:390,height:844});
   await page.locator('#rule-search').fill('rejuvenation');
   await expect(page.locator('#turn')).toBeVisible();
+  await page.locator('#browse-chapters').click();
   await page.locator('.chapter-nav a[href="#setup"]').click();
   await expect(page.locator('#setup')).toBeVisible();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   await page.locator('#rule-search').fill('endurance');
   await expect(page.locator('#endurance details').first()).toHaveAttribute('open','');
@@ -31,7 +32,7 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
   expect(await page.locator('details:not([open])').count()).toBe(0);
   await page.emulateMedia({media:'print'});
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(19);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
 });
 test('Physical Attack Table checks ratings, extremes and Z exception',async({page})=>{
   await page.goto('/rulebook/#damage');
@@ -51,3 +52,31 @@ test('Physical Attack Table checks ratings, extremes and Z exception',async({pag
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 
+
+test('illustrated guide supports tabs, search and mobile navigation',async({page})=>{
+  await page.goto('/rulebook/#card-guide');
+  await expect(page.getByRole('tab',{name:'Personality',exact:true})).toHaveAttribute('aria-selected','true');
+  await expect(page.locator('[data-card-panel]:visible')).toHaveCount(1);
+  await page.getByRole('tab',{name:'Energy',exact:true}).click();
+  await expect(page.locator('#guide-energy')).toBeVisible();
+  await expect(page.locator('#guide-personality')).toBeHidden();
+  await page.getByRole('tab',{name:'Energy',exact:true}).press('ArrowRight');
+  await expect(page.getByRole('tab',{name:'Event',exact:true})).toBeFocused();
+  await expect(page.locator('#guide-event')).toBeVisible();
+  await page.locator('#rule-search').fill('sensei capacity');
+  await expect(page.locator('#guide-sensei-card')).toBeVisible();
+  await expect(page.locator('#guide-sensei-card img')).toHaveCount(0);
+  await page.locator('#rule-search').fill('meditation');
+  await expect(page.locator('#guide-drill')).toBeVisible();
+  await page.locator('#rule-search').fill('');
+  await page.setViewportSize({width:390,height:844});
+  await expect(page.locator('#chapter-links')).toBeHidden();
+  await page.locator('#browse-chapters').click();
+  await expect(page.locator('#chapter-links')).toBeVisible();
+  await page.locator('.chapter-links a[href="#card-guide"]').click();
+  await expect(page.locator('#chapter-links')).toBeHidden();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await expect(page.locator('body')).not.toContainText('Sources and edition notes');
+  await page.emulateMedia({media:'print'});
+  await expect(page.locator('[data-card-panel]:visible')).toHaveCount(9);
+});

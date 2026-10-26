@@ -1,3 +1,50 @@
+// Enhance the static illustrated guide; every card remains readable without JavaScript.
+const cardTabs = [...document.querySelectorAll('[data-card-tab]')];
+const cardPanels = [...document.querySelectorAll('[data-card-panel]')];
+const tabList = document.querySelector('.card-type-tabs');
+const browseChapters = document.querySelector('#browse-chapters');
+function selectCardPanel(panelId, focusTab = false) {
+  cardTabs.forEach(tab => {
+    const selected = tab.hash === `#${panelId}`;
+    tab.setAttribute('aria-selected', String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+    if (selected && focusTab) tab.focus();
+  });
+  cardPanels.forEach(panel => { panel.hidden = panel.id !== panelId; });
+}
+if (cardTabs.length) {
+  tabList.setAttribute('role', 'tablist');
+  cardTabs.forEach((tab, index) => {
+    tab.setAttribute('role', 'tab');
+    tab.setAttribute('aria-controls', tab.hash.slice(1));
+    const panel = document.querySelector(tab.hash);
+    panel.setAttribute('role', 'tabpanel');
+    panel.setAttribute('aria-labelledby', tab.id);
+    panel.tabIndex = 0;
+    tab.addEventListener('click', event => {
+      event.preventDefault();
+      selectCardPanel(panel.id);
+    });
+    tab.addEventListener('keydown', event => {
+      let next = index;
+      if (event.key === 'ArrowRight') next = (index + 1) % cardTabs.length;
+      else if (event.key === 'ArrowLeft') next = (index - 1 + cardTabs.length) % cardTabs.length;
+      else if (event.key === 'Home') next = 0;
+      else if (event.key === 'End') next = cardTabs.length - 1;
+      else if (event.key !== ' ') return;
+      event.preventDefault();
+      selectCardPanel(cardTabs[next].hash.slice(1), true);
+    });
+  });
+  selectCardPanel(cardPanels.some(panel => `#${panel.id}` === location.hash) ? location.hash.slice(1) : cardPanels[0].id);
+}
+document.documentElement.classList.add('rules-enhanced');
+browseChapters.addEventListener('click', () => {
+  browseChapters.setAttribute('aria-expanded', String(browseChapters.getAttribute('aria-expanded') !== 'true'));
+});
+document.querySelectorAll('.chapter-links a').forEach(link => link.addEventListener('click', () => {
+  browseChapters.setAttribute('aria-expanded', 'false');
+}));
 const search = document.querySelector('#rule-search');
 const chapters = [...document.querySelectorAll('[data-chapter]')];
 const disclosures = [...document.querySelectorAll('details')];
@@ -23,6 +70,10 @@ function filterRules() {
     for (const [d, open] of savedOpen) d.open = open;
     savedOpen.clear();
   }
+  if (words.length) {
+    const matchedPanel = cardPanels.find(panel => words.every(word => normalize(panel.textContent).includes(word)));
+    if (matchedPanel) selectCardPanel(matchedPanel.id);
+  }
   searching = words.length > 0;
   document.querySelector('#search-status').textContent = searching ? `${count} matching chapter${count === 1 ? '' : 's'}` : '';
   document.querySelector('#no-results').hidden = count !== 0;
@@ -31,8 +82,11 @@ function filterRules() {
 search.addEventListener('input', filterRules);
 function clearSearch() { search.value = ''; filterRules(); }
 document.querySelector('#clear-search').addEventListener('click', () => { clearSearch(); search.focus(); });
-document.querySelectorAll('.chapter-nav a, .hero-links a').forEach(a => a.addEventListener('click', clearSearch));
-window.addEventListener('hashchange', clearSearch);
+document.querySelectorAll('.manual a[href^="#"]:not([data-card-tab])').forEach(a => a.addEventListener('click', clearSearch));
+window.addEventListener('hashchange', () => {
+  clearSearch();
+  if (cardPanels.some(panel => `#${panel.id}` === location.hash)) selectCardPanel(location.hash.slice(1));
+});
 expandButton.addEventListener('click', () => {
   const open = !disclosures.every(d => d.open);
   disclosures.forEach(d => { d.open = open; });
@@ -41,6 +95,7 @@ expandButton.addEventListener('click', () => {
 disclosures.forEach(d => d.addEventListener('toggle', syncExpandLabel));
 const previous = new Map();
 window.addEventListener('beforeprint', () => {
+  cardPanels.forEach(panel => panel.querySelectorAll('img').forEach(img => { img.loading = 'eager'; }));
   disclosures.forEach(d => { previous.set(d, d.open); d.open = true; });
 });
 window.addEventListener('afterprint', () => {
