@@ -21,18 +21,7 @@ header .back-link{white-space:nowrap}
 @media(max-width:360px){header{padding-left:4%;padding-right:4%}.brand-logo{width:115px}.brand-arena{font-size:15px}}
 
 /* Crimson arena theme with the card-back texture and three-card fan. */
-/* Keep the artwork independent of mobile browser toolbar/viewport changes. */
-body.arena-page{background:#681824;background-attachment:scroll;isolation:isolate}
-body.arena-page:not(.mail-page)::before{
- content:"";position:fixed;top:0;left:0;right:0;height:100vh;height:100lvh;
- z-index:-1;pointer-events:none;
- background-color:inherit;
- background-image:linear-gradient(90deg,#100b0dd9,#100b0d70 55%,#100b0db8),url('/assets/burnt-orange-playmat.webp');
- background-size:cover;background-position:center top;background-repeat:no-repeat;
- background-blend-mode:normal,luminosity;
- transform:translateZ(0);
-}
-@media print{body.arena-page::before{display:none}}
+body.arena-page{background:#681824;background-image:linear-gradient(90deg,#100b0dd9,#100b0d70 55%,#100b0db8),url('/assets/burnt-orange-playmat.webp');background-size:cover;background-position:center top;background-attachment:fixed;background-blend-mode:normal,luminosity}
 .arena-page header{border-bottom-color:#b92924}
 .arena-page .intro{display:block;padding-right:0;min-height:0}
 .arena-page .intro h1{max-width:560px}
