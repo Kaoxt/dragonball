@@ -1,0 +1,50 @@
+{
+  "card": "android-038-android-17s-haymaker",
+  "original_reference": "original-reference.jpg",
+  "source_comparison": "Modern illustration compared against the user original, with corrected relaxed eyes, subtle closed-mouth smile, head/hair contours and muted backdrop. Taller-window continuation limited to lower torso/background.",
+  "baseline_matches_published_lossless": true,
+  "unchanged_pixels_outside_artwork": true,
+  "display_preserves_pixels_outside_native_art_change_mask": true,
+  "lossless_png_webp_pixel_equal": true,
+  "artwork_dimensions": [
+    1506,
+    1045
+  ],
+  "uniform_fit_scale": 0.6821414716151558,
+  "native_dimensions": [
+    1060,
+    1484
+  ],
+  "download_dimensions": [
+    2120,
+    2968
+  ],
+  "review_scope": "Android Saga #38 only; not a set-wide visual approval",
+  "files": {
+    "display": {
+      "name": "android-038-android-17s-haymaker-display.webp",
+      "bytes": 922300,
+      "sha256": "104ef2968e347f381341d8d3110607298f7b0b680214c4286a1bd38f5f6b8efc",
+      "git_blob_sha": "f873d5b296e8021fe56c7d4e335825a5d1eaf6ab"
+    },
+    "download": {
+      "name": "android-038-android-17s-haymaker-download.webp",
+      "bytes": 2407682,
+      "sha256": "d9487a6a0ad93e26fe111cfd17ae225f63d537434744d26e7fb591eca7da5949",
+      "git_blob_sha": "c17e5bc46dd2bf452460e35575152f7ea6b96a53"
+    },
+    "master": {
+      "name": "android-038-android-17s-haymaker.svg",
+      "bytes": 8025513,
+      "sha256": "7afc9d069c9676797405055d844f123362edd8a72a4f2ffcebf26319c9a1b009",
+      "git_blob_sha": "7667c327127d46954accfd6ca3f4ff129d751249"
+    },
+    "artwork": {
+      "name": "corrected-artwork.png",
+      "bytes": 1678290,
+      "sha256": "4907376a638d47c11b275ce7acbae771a32d452bb7df6580c8fd1e1007be3917",
+      "git_blob_sha": "d2854e3f267e2cfbca89254d17566d6b7109b251"
+    }
+  },
+  "original_artwork_sha256": "232b54dad9679298e817e646920639640e8f866d919a833c2639701480b7a17b"
+}
