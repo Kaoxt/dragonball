@@ -71,9 +71,9 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 }
 .forum-shell .forum-list-heading + .issue-note a{font-weight:500}
 
-/* Ordinary forum links use Regular; linked headings and actions use Medium. */
+/* Forum links use the same semibold weight as News actions. */
 body.community-page main .forum-shell a[href]:any-link{
- color:#fff;font-weight:400;text-decoration:none;transition:color .15s ease;
+ color:#fff;font-weight:600;text-decoration:none;transition:color .15s ease;
 }
 body.community-page main .forum-shell a[href]:any-link:hover{
  color:#c9c9cd;text-decoration:none;
@@ -81,12 +81,12 @@ body.community-page main .forum-shell a[href]:any-link:hover{
 
 body.community-page main .forum-shell :is(h1,h2,h3) a[href]:any-link,
 body.community-page main .forum-shell a:is([role="button"],.forum-back,.forum-reply-shortcut),
-body.community-page main .forum-shell .forum-page-links a{font-weight:500}
-/* Thread titles and post links use the same regular-weight red as News links. */
+body.community-page main .forum-shell .forum-page-links a{font-weight:600}
+/* Keep the established red link color with semibold thread titles and post links. */
 body.community-page main .forum-shell .forum-latest a[href]:any-link,
 body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link,
 body.community-page main .forum-shell .forum-rich a[href]:any-link{
- color:#f0aabe;font-weight:400;text-decoration:none;
+ color:#f0aabe;font-weight:600;text-decoration:none;
 }
 body.community-page main .forum-shell .forum-rich a[href]:any-link :is(strong,b){font-weight:inherit}
 body.community-page main .forum-shell .forum-latest a[href]:any-link:hover,
@@ -156,3 +156,4 @@ body.arena-page.community-page{
 }
 .forum-shell a.forum-post-bar-author{color:inherit;text-decoration:none}
 .forum-shell a.forum-post-bar-author:hover{text-decoration:underline}
+

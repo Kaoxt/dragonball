@@ -103,8 +103,19 @@ body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled){
 body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-allowed}
 
 /* Centered seven-slot arena dock and shared MP readout. */
-/* Crimson artwork on both playmats; the dark overlay keeps cards and labels readable. */
-.arena-page .arena-mat{background:linear-gradient(#0c02042e,#0c02042e),url('/assets/crimson-shatter-playmat.webp') center/cover no-repeat #19070b;border:1px solid #4b4e53;border-radius:5px;padding:8px}
+/* Silver brush-and-halftone playmats, inspired by the white loading-screen reference. */
+.arena-page .arena-mat{
+ background-color:#d6d8da;
+ background-image:linear-gradient(115deg,#ffffffe0,#ffffffb8 48%,#ffffffe0),url('/assets/crimson-shatter-playmat.webp');
+ background-position:center;background-size:cover;background-repeat:no-repeat;
+ background-blend-mode:normal,luminosity;
+ border:1px solid #a5a8ac;border-radius:5px;padding:8px;
+}
+.arena-page .arena-mat .arena-dock .zone-label{color:#282b30;font-weight:600;text-shadow:none}
+.arena-page .arena-mat .table-hint{color:#45484e;text-shadow:none}
+.arena-page .arena-mat .arena-dock .empty{color:#45484e}
+.arena-page .arena-mat .pile-caption{color:#45484e}
+.arena-page .arena-mat .empty-cover{background:#242629;border-color:#666a70;color:#e8e9eb}
 .arena-page .arena-mat .free-table{height:150px;min-height:150px;background:none;border:0;box-shadow:none;overflow:hidden}
 .arena-page .arena-dock{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:start;max-width:660px;margin:auto}
 .arena-page .arena-dock .zone{display:flex;flex-direction:column;align-items:center;min-width:0;min-height:0;padding:0;background:none;border:0;box-shadow:none}
@@ -175,3 +186,4 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 .arena-page #table button,.arena-page .setup-bar label{font-weight:500}
 .arena-page .turn-bar>div{min-width:0}
 .arena-page .arena-setup-wordmark{display:block;width:560px;max-width:100%;height:auto}
+

@@ -1,0 +1,14 @@
+/* Shared News footer, present in the initial markup on every page. */
+body.arena-page .site-footer{
+ box-sizing:border-box;display:block;flex-shrink:0;position:static;
+ max-width:none;width:100%;margin:36px 0 0;
+ padding:28px max(4%,calc((100% - 1140px)/2)) 30px;
+ border:0;border-radius:0;background:#121212;box-shadow:none;text-align:center;
+ font-family:var(--font-ui);font-size:14px;font-weight:400;line-height:20px;
+ letter-spacing:normal;
+}
+body.arena-page .site-footer>span{display:block;color:#ffffffa3;font:inherit;letter-spacing:normal}
+body.arena-page .site-footer p{margin:8px 0;color:#ffffff80;font:inherit;letter-spacing:normal}
+@media(max-width:767px){body.arena-page .site-footer{font-size:12px;line-height:16px}}
+@media(max-width:650px){body.arena-page .site-footer{margin-top:28px;padding:24px 6% 26px}}
+@media print{body.arena-page .site-footer{display:none!important}}
