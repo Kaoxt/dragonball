@@ -230,3 +230,8 @@ body.home-page .community-links{
  border-left:5px solid var(--surface-border);border-radius:0;
  background:var(--surface-panel);box-shadow:none;
 }
+
+.home-page .community-links h2{
+ margin:0 0 4px;font-family:var(--font-ui);font-size:24px;
+ font-weight:600;line-height:1.25;letter-spacing:-.02em;color:var(--content-copy);
+}
