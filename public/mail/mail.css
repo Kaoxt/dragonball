@@ -16,3 +16,6 @@ body.mail-page main.mail-main{max-width:1500px;width:auto;margin:0 auto 70px;pad
 
 /* Match the Decks heading position on small screens. */
 @media(max-width:480px){body.mail-page main.mail-main{padding-top:25px}}
+
+/* Center Compose and the folder title on the same row in the column layout. */
+@media(min-width:801px){.mail-sidebar{padding-top:20px}.list-heading{min-height:57px}}
