@@ -41,7 +41,7 @@
 
  /* Neutral table rows, captions, and separators. */
  body.arena-page .manual :is(.pat-table,.format-table),
- body.arena-page .manual :is(.pat-table,.format-table) :is(caption,thead th),
+ body.arena-page .manual :is(.pat-table,.format-table) :is(caption,th:not(.selected-damage)),
  body.arena-page .manual :is(.pat-table,.format-table) tbody tr:nth-child(even){
   background:var(--surface-panel);
  }
