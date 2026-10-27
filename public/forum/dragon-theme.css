@@ -71,6 +71,17 @@ body.community-page main .forum-shell :is(.forum-post-footer button,.forum-topic
 }
 .forum-shell .forum-list-heading + .issue-note a{font-weight:500}
 
+/* A compact count aligned with the Replies / Comments heading. */
+.forum-shell #forum-content>h2:has(+#forum-replies){
+ display:flex;align-items:center;gap:8px;margin:24px 0 8px;
+}
+.forum-shell #forum-content>h2:has(+#forum-replies)>.issue-badge{
+ display:inline-flex;align-items:center;justify-content:center;flex:none;
+ box-sizing:border-box;min-width:28px;padding:2px 8px;border:1px solid #ffffff1f;
+ border-radius:6px;background:#252629;color:#d7d8da;
+ font-size:13px;font-weight:600;line-height:16px;font-variant-numeric:tabular-nums;
+}
+
 /* Forum links use the same semibold weight as News actions. */
 body.community-page main .forum-shell a[href]:any-link{
  color:#fff;font-weight:600;text-decoration:none;transition:color .15s ease;
@@ -85,7 +96,7 @@ body.community-page main .forum-shell .forum-page-links a{font-weight:600}
 /* Keep semibold thread titles separate from inline reading links. */
 body.community-page main .forum-shell .forum-latest a[href]:any-link,
 body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link{
- color:#f0aabe;font-weight:600;text-decoration:none;
+ color:var(--content-link);font-weight:600;text-decoration:none;
 }
 /* Match the gray reading copy and white underlined links used in News. */
 body.community-page main .forum-shell :is(.forum-post-main,.forum-rich,.forum-rich p){
@@ -101,7 +112,7 @@ body.community-page main .forum-shell .forum-rich a[href]:any-link:hover{
 body.community-page main .forum-shell .forum-rich a[href]:any-link :is(strong,b){font-weight:inherit}
 body.community-page main .forum-shell .forum-latest a[href]:any-link:hover,
 body.community-page main .forum-shell .forum-topic-row h3>a[href]:any-link:hover{
- color:#ffb2c6;text-decoration:underline;
+ color:#fff;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;
 }
 
 /* Keep category activity on one row, using the space below the post count. */
