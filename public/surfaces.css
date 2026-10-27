@@ -16,9 +16,8 @@
  }
  body.rulebook-page{--rules-panel:var(--surface-panel);--rules-line:var(--surface-border)}
 
- /* Shared header and standalone panels. Generic issue cards already use --issue-panel;
+ /* Standalone panels; the shared header has its own frosted surface. Generic issue cards already use --issue-panel;
     let the forum's transparent heading and action rows keep their own background. */
- body.arena-page .site-header,
  body.arena-page :is(
   .news-post,.next-move,.community-links,.play-invite,.collection-progress,.filters,
   .account-card,.admin-panel,.admin-dialog,.mail-workspace,.mail-panel,
@@ -95,15 +94,19 @@
 
  /* Account menu surfaces; compact menus keep their existing layout. */
  body.arena-page .site-header .account-dropdown-panel{
-  background:var(--surface-panel);border-color:var(--surface-border);
+  background:rgba(25,25,25,.98);border-color:var(--surface-border);
+  -webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);
+  box-shadow:0 28px 64px -28px rgba(0,0,0,.82),0 8px 22px -12px rgba(0,0,0,.62);
  }
  body.arena-page .site-header :is(.account-menu-footer,.account-nav-actions){
   border-color:var(--surface-border);
  }
  @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
   body.arena-page .site-header #site-navigation{
-   background:var(--surface-panel);border-color:var(--surface-border);
+   background:rgba(25,25,25,.98);border-color:var(--surface-border);
+   -webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);
+   box-shadow:0 28px 64px -28px rgba(0,0,0,.82),0 8px 22px -12px rgba(0,0,0,.62);
   }
-  body.arena-page .site-header .account-dropdown-panel{background:transparent}
+  body.arena-page .site-header .account-dropdown-panel{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none}
  }
 }

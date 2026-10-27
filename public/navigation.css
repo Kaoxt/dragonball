@@ -55,3 +55,36 @@ body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
 
 /* Outline the letter contours while preserving the white navigation artwork. */
 body .site-header .nav-wordmark{filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
+
+/* Stay with the page using Nuvio's exact top inset and frosted charcoal shell. */
+@media screen{
+ html:root{
+  --site-header-top:14px;
+  --site-header-height:78px;
+  --site-header-clearance:calc(var(--site-header-top) + var(--site-header-height) + 12px);
+  scroll-padding-top:var(--site-header-clearance);
+ }
+ body .site-header{
+  position:sticky;top:var(--site-header-top);z-index:40;
+  margin-top:var(--site-header-top);
+  background:rgba(25,25,25,.9);border-color:rgba(255,255,255,.12);
+  -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+  box-shadow:0 1px 2px rgba(0,0,0,.5),0 14px 32px -16px rgba(0,0,0,.7);
+ }
+ @media(max-width:1200px){html:root{--site-header-height:68px}}
+ @media(max-width:899px){html:root{--site-header-top:12px}}
+ /* Keep existing sticky page controls below the shared navigation. */
+ @media(min-width:801px){
+  body .chapter-nav{
+   top:var(--site-header-clearance);
+   max-height:calc(100dvh - var(--site-header-clearance) - 20px);
+  }
+ }
+ @media(orientation:landscape) and (min-width:800px){
+  body.arena-page .workspace>aside{
+   top:var(--site-header-clearance);
+   max-height:calc(100vh - var(--site-header-clearance) - 12px);
+   max-height:calc(100dvh - var(--site-header-clearance) - 12px);
+  }
+ }
+}
