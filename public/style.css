@@ -1,39 +1,23 @@
-/* Google Sans Regular and Medium, self-hosted from Google Fonts under the SIL OFL. */
+/* Google Sans Flex, self-hosted from Google Fonts under the SIL OFL. */
 @font-face {
-  font-family: 'Google Sans';
+  font-family: 'Google Sans Flex';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 1 1000;
   font-display: swap;
-  src: url(/assets/fonts/google-sans-regular-latin-ext.woff2) format('woff2');
+  src: url(/assets/fonts/google-sans-flex-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Google Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/assets/fonts/google-sans-regular-latin.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: 'Google Sans';
+  font-family: 'Google Sans Flex';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 1 1000;
   font-display: swap;
-  src: url(/assets/fonts/google-sans-medium-latin-ext.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Google Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(/assets/fonts/google-sans-medium-latin.woff2) format('woff2');
+  src: url(/assets/fonts/google-sans-flex-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-:root{--font-ui:"Google Sans",Arial,sans-serif}
+:root{--font-ui:"Google Sans Flex",Arial,sans-serif}
 body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
 :root{color-scheme:dark;--bg:#10131c;--panel:#191e2a;--line:#303747;--muted:#949eaf;--ink:#f5f6fa;--accent:#f5a343;--blue:#88aaff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 var(--font-ui)}button,input,textarea,select{font:inherit}
 /* Shared typography: Regular for reading, Medium for headings and actions. */
