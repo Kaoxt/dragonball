@@ -16,7 +16,8 @@
  }
  body.rulebook-page{--rules-panel:var(--surface-panel);--rules-line:var(--surface-border)}
 
- /* Shared header and standalone panels. */
+ /* Shared header and standalone panels. Generic issue cards already use --issue-panel;
+    let the forum's transparent heading and action rows keep their own background. */
  body.arena-page .site-header,
  body.arena-page :is(
   .news-post,.next-move,.community-links,.play-invite,.collection-progress,.filters,
@@ -28,7 +29,7 @@
  body.arena-page :is(#deck-panel,#card-preview,#deck-image-dialog,#pile-dialog,#card-zoom,#forum-search-dialog),
  body.arena-page .manual :is(.chapter,.chapter-heading,.card-type-tabs,.card-example),
  body.arena-page .forum-shell :is(
-  .issue-card,.issue-results,.forum-post,.forum-topic-heading,.forum-navigation-row,
+  .issue-results,.forum-post,.forum-topic-heading,.forum-navigation-row,
   .forum-section-title,.forum-post-bar,.forum-post-author,.forum-post-main,
   .forum-editor,.forum-editor-preview,.forum-management,.forum-pagination,.forum-action-menu
  ),
