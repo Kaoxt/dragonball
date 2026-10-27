@@ -15,6 +15,14 @@ body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-
 body.community-page main .forum-shell :is(#new-topic,button[type=submit],.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save,.issue-filters>button):disabled{
  opacity:.42;cursor:not-allowed;
 }
+/* Start and reply actions share the News Show more / less red palette. */
+body.community-page main .forum-shell :is(#new-topic,.forum-start-topic,.forum-reply-shortcut){
+ background:#87253f;color:#f5f5f5;border-color:#ac3654;font-weight:600;
+ transition:background-color .18s ease,border-color .18s ease,color .18s ease;
+}
+body.community-page main .forum-shell :is(#new-topic,.forum-start-topic,.forum-reply-shortcut):hover:not(:disabled){
+ background:#a52c4b;color:#f5f5f5;border-color:#c14965;
+}
 /* Center the topic label with equal padding in the shared interface font. */
 body.community-page main .forum-shell #new-topic{
  display:inline-flex;align-items:center;justify-content:center;
