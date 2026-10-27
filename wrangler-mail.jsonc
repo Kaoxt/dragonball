@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dragonball-ocg-mail",
+  "main": "src/mail-receiver.js",
+  "compatibility_date": "2026-10-07",
+  "r2_buckets": [{"binding": "MAIL_STORAGE", "bucket_name": "dragonball-ocg-mail-storage"}],
+  "observability": {"enabled": true}
+}

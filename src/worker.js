@@ -14,6 +14,8 @@ export default {
       const page = await cardPage(req, env.ASSETS);
       if (page) return page;
     }
+    if (u.pathname === '/api/mail' || u.pathname.startsWith('/api/mail/') || u.pathname === '/api/admin/mailboxes') return env.COMMUNITY.getByName('dragonball-community-v1').fetch(req);
+    if (u.pathname === '/admin/mail' || u.pathname === '/admin/mail/') return Response.redirect(u.origin + '/mail/', 302);
     if (u.pathname.startsWith('/api/admin/uploads') || u.pathname.startsWith('/api/files/')) return env.COMMUNITY.getByName('dragonball-community-v1').fetch(req);
     if (u.pathname === '/api/decks' || u.pathname === '/api/forum' || u.pathname.startsWith('/api/auth/') || u.pathname.startsWith('/api/avatars/')) {
       if (!['GET','POST'].includes(req.method)) return json({error:'Method not allowed.'},405);
