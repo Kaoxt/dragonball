@@ -67,7 +67,7 @@
         if (!more) break;
       }
       await list();
-      if (version === generation) notice(more ? 'More stored mail is available. Select Refresh to continue importing.' : 'Mailbox up to date.');
+      if (version === generation) notice(more ? 'More stored mail is available. Select Refresh to continue importing.' : '');
     } catch (error) { if (version === generation) notice(error.message, true); }
     finally { syncing = false; $('refresh-mail').disabled = !box || !config?.storageReady; }
   }
