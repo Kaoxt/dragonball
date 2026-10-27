@@ -31,7 +31,7 @@
   async function loadConfig() {
     config = await api();
     $('mail-gate').hidden = true; $('mail-app').hidden = false;
-    $('manage-mailboxes').hidden = !config.isAdmin; $('admin-return').hidden = !config.isAdmin;
+    $('manage-mailboxes').hidden = !config.isAdmin;
     $('mailbox-select').innerHTML = config.mailboxes.map(item => `<option value="${esc(item.id)}">${esc(item.address)}</option>`).join('');
     if (!config.mailboxes.some(item => item.id === box)) box = config.mailboxes[0]?.id || '';
     $('mailbox-select').value = box;
@@ -162,3 +162,4 @@
   window.addEventListener('beforeunload', event => { if ($('compose-dialog').open && $('compose-body').value) { event.preventDefault(); event.returnValue = ''; } });
   run(async () => { await loadConfig(); await list(); await refresh(); });
 })();
+
