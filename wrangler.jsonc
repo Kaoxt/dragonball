@@ -81,5 +81,13 @@
       "binding": "MAIL_STORAGE",
       "bucket_name": "dragonball-ocg-mail-storage"
     }
-  ]
+  ],
+  "send_email": [
+    {
+      "name": "MAIL_OUTBOUND"
+    }
+  ],
+  "vars": {
+    "MAIL_SEND_ENABLED": "true"
+  }
 }
