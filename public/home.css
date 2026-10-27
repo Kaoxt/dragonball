@@ -128,7 +128,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 
 
 
-/* Nuvio-inspired reading scale with white article copy and red category labels. */
+/* Nuvio-inspired reading scale with white article copy and neutral gray category labels. */
 .home-page{
  --news-ink:#f6f7f9;
  --news-quiet:rgba(246,247,249,.58);
@@ -136,8 +136,8 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 }
 .home-page .release-tag{
  display:inline-flex;align-items:center;min-height:28px;
- padding:0 10px;border:1px solid #ffffff1a;border-radius:8px;
- background:transparent;color:#da8da5;
+ padding:0 10px;border:1px solid #505050;border-radius:8px;
+ background:transparent;color:#a6a7a8;
  font-size:12px;font-weight:500;line-height:1;
  letter-spacing:normal;text-transform:none;margin:0 0 16px;
 }
@@ -199,4 +199,5 @@ body.home-page main :is(button,[role="button"],.primary-link,.hub-link){
 }
 body.home-page main :is(strong,b){font-weight:500}
 body.home-page main .hub-copy small{font-weight:400}
+
 
