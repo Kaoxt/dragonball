@@ -222,3 +222,28 @@ body.home-page main button.news-load-more:hover:not(:disabled){
  background:#353137;color:#f5f5f5;border-color:#65515b;box-shadow:none;transform:none;
 }
 body.home-page main button.news-load-more[hidden]{display:none}
+
+
+/* Community uses the Arena table-heading's flat surface and left accent. */
+body.home-page .community-links{
+ display:block;margin-top:24px;padding:18px 16px;border:0;
+ border-left:5px solid var(--surface-border);border-radius:0;
+ background:var(--surface-panel);box-shadow:none;
+}
+.home-page .community-links h2{
+ margin:0 0 16px;font-family:var(--font-ui);font-size:24px;
+ font-weight:600;line-height:1.25;letter-spacing:-.02em;color:var(--content-copy);
+}
+.home-page .community-actions{display:flex;flex-wrap:wrap;gap:10px}
+body.home-page .community-actions .community-link{
+ display:inline-flex;align-items:center;justify-content:center;gap:8px;
+ min-height:44px;box-sizing:border-box;padding:10px 14px;
+ border:1px solid #444046;border-radius:999px;background:#252326;color:#f5f5f5;
+ font-family:var(--font-ui);font-size:14px;font-weight:600;line-height:1;
+ text-decoration:none;box-shadow:none;transform:none;
+ transition:background-color .18s ease,border-color .18s ease;
+}
+body.home-page .community-actions .community-link:hover{
+ background:#353137;color:#f5f5f5;border-color:#65515b;text-decoration:none;
+}
+.home-page .community-link .hub-icon{width:18px;height:18px}

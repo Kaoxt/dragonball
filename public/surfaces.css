@@ -1,5 +1,5 @@
 /* Nuvio reference: charcoal panels with a 12% white outline.
-   This stylesheet changes surface colors only; layouts, typography, artwork,
+   This stylesheet standardizes surface colors and panel outlines; layouts, typography, artwork,
    and red selected/action states stay in their page stylesheets. */
 @media screen {
  :root{
@@ -38,6 +38,10 @@
   background:var(--surface-panel);
   border-color:var(--surface-border);
  }
+
+ /* Replace legacy top accent stripes with the same thin edge as the panel. */
+ body.arena-page :is(.lobby-panel,.side-panel,.card-controls),
+ body.arena-page .manual .chapter{border-top-width:1px}
 
  /* Neutral table rows, captions, and separators. */
  body.arena-page .manual :is(.pat-table,.format-table),
@@ -110,3 +114,4 @@
   body.arena-page .site-header .account-dropdown-panel{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none}
  }
 }
+

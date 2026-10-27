@@ -46,7 +46,7 @@
    const count=n=>Math.max(0,Math.floor(Number(n)||0));
    const badge=n=>count(n)?'<span class="account-badge">'+count(n)+'</span>':'';
    const markup='<a href="/forums/#messages">'+message+'<span>Messages</span>'+badge(counts.messages)+'</a><a href="/forums/#notifications">'+bell+'<span>Notifications</span>'+badge(counts.notifications)+'</a>';
-   document.getElementById('community-nav-alerts').innerHTML=markup+'<a href="/mail/">'+icon('M3 5h18v14H3ZM3 5l9 7 9-7')+'<span>Mailbox</span></a><a href="/account/">'+icon('M20 21v-2a7 7 0 0 0-14 0v2M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0')+'<span>Account</span></a>';
+   document.getElementById('community-nav-alerts').innerHTML=markup+'<a href="/mail/">'+icon('M3 5h18v14H3ZM3 5l9 7 9-7')+'<span>Mailbox</span></a>';
    const fa=document.getElementById('forum-alerts');if(fa){fa.hidden=false;fa.innerHTML=markup;}
    const toggle=document.getElementById('nav-toggle'),total=count(counts.messages)+count(counts.notifications);
    let mobile=document.getElementById('mobile-alert-count');if(toggle&&total){if(!mobile){mobile=document.createElement('span');mobile.id='mobile-alert-count';mobile.className='account-badge';toggle.append(mobile);}mobile.textContent=String(total);}else mobile?.remove();
@@ -58,3 +58,4 @@
  window.addEventListener('dragon:alerts',update);window.addEventListener('dragon:auth-signed-in',()=>{authVersion++;update();});window.addEventListener('dragon:auth-signed-out',()=>{authVersion++;cachePreview(null);identity='';const actions=document.getElementById('account-nav-actions');if(actions){actions.classList.remove('is-signed-in');actions.innerHTML='<a id="account-nav" class="account-nav-link" href="/account/">Log In</a>';}update();});
  setInterval(()=>{if(!document.hidden)update();},30000);update();
 })();
+
