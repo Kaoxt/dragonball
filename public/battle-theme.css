@@ -105,11 +105,11 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 /* Centered seven-slot arena dock and shared MP readout. */
 /* Dark charcoal playmats retain the reference's brush-and-halftone texture. */
 .arena-page .arena-mat{
- background-color:#2b2d30;
- background-image:linear-gradient(115deg,#2b2d30d9,#232528b8 48%,#2b2d30d9),url('/assets/crimson-shatter-playmat.webp');
+ background-color:#1b1d20;
+ background-image:linear-gradient(115deg,#1b1d20e6,#17191cd1 48%,#1b1d20e6),url('/assets/crimson-shatter-playmat.webp');
  background-position:center;background-size:cover;background-repeat:no-repeat;
  background-blend-mode:normal,luminosity;
- border:1px solid #55585d;border-radius:5px;padding:8px;
+ border:1px solid #44474c;border-radius:5px;padding:8px;
 }
 .arena-page .arena-mat .arena-dock .zone-label{color:#f0f1f2;font-weight:600;text-shadow:0 1px 2px #0008}
 .arena-page .arena-mat .table-hint{color:#bec1c5;text-shadow:none}
