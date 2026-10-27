@@ -90,6 +90,7 @@
  }
  body.arena-page select option{background-color:var(--surface-inset)}
  body.arena-page .deck-title input{background-color:transparent;border-color:var(--surface-border)}
+ body.arena-page :is(input,textarea,select)[aria-invalid="true"]{border-color:#ed929e}
 
  /* Account menu surfaces; compact menus keep their existing layout. */
  body.arena-page .site-header .account-dropdown-panel{
