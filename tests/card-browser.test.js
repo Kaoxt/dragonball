@@ -45,6 +45,24 @@ function browser(path='/cards/') {
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
 
+test('complete Android Saga includes 125 numbered cards, P1–P11, and a reachable third page',()=>{
+ const android=catalog.filter(c=>c.set==='Android Saga');
+ assert.equal(android.length,136);
+ assert.equal(new Set(android.map(c=>c.number)).size,136);
+ for(const n of [...Array.from({length:125},(_,i)=>String(i+1)),...Array.from({length:11},(_,i)=>`P${i+1}`)])
+  assert.ok(android.some(c=>c.number===n),`Missing Android ${n}`);
+ const b=browser('/cards/android-saga/?page=3');
+ const expected=[...android].sort((a,b)=>a.name.localeCompare(b.name)).slice(120).map(cardPath);
+ assert.deepEqual(grid(b).map(c=>c.href),expected);
+ assert.equal(b.elements['results-count'].textContent,'Showing 121–136 of 136 cards in Android Saga');
+ assert.equal(android.find(c=>c.number==='P10').width,1484);
+ assert.equal(android.find(c=>c.number==='P10').type,'Location');
+ for(const c of android.filter(c=>Number(c.number)>=114 && Number(c.number)<=123)){
+  assert.equal(c.type,'Main Personality');assert.equal(c.powerStages.length,11);
+  assert.equal(c.powerStages.at(-1),0);assert.ok(c.downloadImage);
+ }
+});
+
 test('Cards opens all sets directly with 60 cards and no set directory',()=>{
  const b=browser();
  assert.equal(grid(b).length,60);
