@@ -101,9 +101,9 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 .hub-art{height:160px;display:flex;align-items:center;justify-content:center;border:1px solid #34262b;border-radius:8px;background:radial-gradient(ellipse at center,#491522,#160f12 75%);margin-bottom:14px;overflow:hidden}
 .hub-art img{height:132px;width:auto;display:block;transform:translateY(-3px) rotate(-9deg);border-radius:5px;box-shadow:9px 6px 0 #4f283a88}
 .hub-links{display:grid;gap:12px}
-.home-page .hub-link{display:grid;grid-template-columns:24px minmax(0,1fr) 16px;gap:12px;align-items:center;min-height:72px;box-sizing:border-box;padding:12px;border:1px solid #444046;border-radius:9px;background:#252326;color:#f5f5f5;text-decoration:none;box-shadow:none;transform:none}
+.home-page .hub-link{display:grid;grid-template-columns:24px minmax(0,1fr);gap:12px;align-items:center;min-height:72px;box-sizing:border-box;padding:12px;border:1px solid #444046;border-radius:9px;background:#252326;color:#f5f5f5;text-decoration:none;box-shadow:none;transform:none}
 .hub-copy{min-width:0}.hub-copy strong{display:block;font-size:14px;font-weight:600;line-height:1.35}.hub-copy small{display:block;color:#b9aab2;font-size:11px;line-height:1.5;margin-top:4px}
-.hub-icon{display:block;width:24px;height:24px;flex-shrink:0;overflow:visible}.hub-swords{height:22px;width:24px}.hub-arrow{width:16px;height:16px}
+.hub-icon{display:block;width:24px;height:24px;flex-shrink:0;overflow:visible}.hub-swords{height:22px;width:24px}
 .home-page .hub-primary{background:#87253f;border-color:#ac3654}.hub-primary small{color:#e1bac5}
 .home-page .hub-link:hover{background:#353137;border-color:#65515b}.home-page .hub-primary:hover{background:#a52c4b;border-color:#c14965}
 .community-links{display:grid;gap:12px;margin-top:24px}
@@ -207,3 +207,18 @@ body.home-page main .hub-copy small{font-weight:400}
 
 /* Keep rich-text headings distinct from paragraph copy. */
 body.home-page main .news-feed .forum-rich :is(h1,h2,h3,h4,h5,h6){color:var(--content-link)}
+
+/* Load older stories with the same neutral pill as each story's link action. */
+.home-page .news-load-more-wrap{display:flex;justify-content:center;margin-top:24px}
+.home-page .news-load-more-wrap[hidden]{display:none}
+body.home-page main button.news-load-more{
+ display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;
+ min-height:44px;margin:0;padding:8px 16px;border:1px solid #444046;border-radius:999px;
+ background:#252326;color:#f5f5f5;box-shadow:none;transform:none;
+ font-family:var(--font-ui);font-size:14px;font-weight:600;line-height:1;letter-spacing:-.01em;
+ transition:background-color .18s ease,border-color .18s ease,color .18s ease;
+}
+body.home-page main button.news-load-more:hover:not(:disabled){
+ background:#353137;color:#f5f5f5;border-color:#65515b;box-shadow:none;transform:none;
+}
+body.home-page main button.news-load-more[hidden]{display:none}

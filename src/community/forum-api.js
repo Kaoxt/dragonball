@@ -44,10 +44,10 @@ export const onRequestGet = context => forumHandle(context,false,async({db,sessi
   }
   const common={authenticated:!!session,isAdmin:admin,myMemberId:me?.id||null,canPost:!!session&&(!me?.banned||admin),announcementsCategoryId:ANNOUNCEMENTS_ID,postingOpen:!!(await db.prepare('SELECT posting_open FROM forum_settings WHERE id=1').first()).posting_open};
   if(view==='news'||view==='latestNews'){
-    const limit=view==='latestNews'?1:11;
-    const articles=(await db.prepare(`${topicSelect} WHERE t.category_id=? AND t.hidden=0 ORDER BY t.created_at DESC,t.id DESC LIMIT ? OFFSET ?`).bind(ANNOUNCEMENTS_ID,limit,view==='latestNews'?0:(current-1)*10).all()).results;
+    const newsPageSize=5,limit=view==='latestNews'?1:newsPageSize+1;
+    const articles=(await db.prepare(`${topicSelect} WHERE t.category_id=? AND t.hidden=0 ORDER BY t.created_at DESC,t.id DESC LIMIT ? OFFSET ?`).bind(ANNOUNCEMENTS_ID,limit,view==='latestNews'?0:(current-1)*newsPageSize).all()).results;
     if(view==='latestNews')return reply({article:articles[0]?{id:articles[0].id,title:articles[0].title,created_at:articles[0].created_at}:null});
-    return reply({...common,categories:await categories(db),articles:articles.slice(0,10),hasMore:articles.length>10,page:current});
+    return reply({...common,categories:await categories(db),articles:articles.slice(0,newsPageSize),hasMore:articles.length>newsPageSize,page:current});
   }
   if(view==='categories'){
     const stats=await db.prepare(`SELECT (SELECT COUNT(*) FROM forum_members) AS members,(SELECT COUNT(*) FROM forum_topics WHERE hidden=0) AS topics,((SELECT COUNT(*) FROM forum_topics WHERE hidden=0)+(SELECT COUNT(*) FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id WHERE r.hidden=0 AND t.hidden=0)) AS posts`).first();

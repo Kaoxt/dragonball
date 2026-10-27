@@ -144,19 +144,41 @@
   }
   function memberView(d,params){const m=d.member;document.title=m.author+' | Dragon Ball OCG';root.innerHTML=`<div class="forum-toolbar">${back()}${d.authenticated&&d.myMemberId!==m.member_id?`<a href="#messages?member=${encodeURIComponent(m.member_id)}">Message member</a>`:''}${d.myMemberId===m.member_id?'<a href="/account/#community-profile">Edit profile</a>':''}</div><article class="issue-card"><div class="forum-profile-head">${window.DragonIssueMedia.avatar(m.author,m.avatar_url,m.avatar_color)}<div><h2>${esc(m.author)}</h2><p class="issue-note">Joined ${date(m.created_at)}</p></div></div><dl class="forum-stats"><div><dt>Posts</dt><dd>${m.topic_count+m.reply_count}</dd></div><div><dt>Topics</dt><dd>${m.topic_count}</dd></div><div><dt>Replies</dt><dd>${m.reply_count}</dd></div><div><dt>Likes received</dt><dd>${m.likes_received||0}</dd></div></dl><h2>About me</h2><p class="issue-body">${esc(m.about||'Nothing shared yet.')}</p></article><h2>Topics started</h2><div class="issue-results">${rows(d.topics)}</div>${pager(d,p=>'#member/'+m.member_id+'?page='+p)}`;}
 
-  function newsView(d,params){
-    root.innerHTML=`<div id="forum-list">${d.articles.map(t=>{
+  const newsArticle=t=>{
       const readable=window.DragonForumEditor?.plainMentions?.(t.body)??t.body;
       const plain=readable.replace(/\[([^\]]+)\]\(https?:[^)]+\)/g,'$1').replace(/[*+`>#]/g,'');
       return `<article class="release news-article news-post" id="news-${t.id}"><div class="news-entry-content"><div class="release-tag">Dragon Ball Online</div><h2><a href="#topic/${t.id}">${esc(t.title)}</a></h2><div class="release-meta">${date(t.created_at)} · <a href="/forums/#member/${encodeURIComponent(t.member_id)}">${esc(t.author)}</a></div><p class="release-summary" data-summary>${esc(plain.split(/\n\s*\n/)[0].slice(0,320))}${plain.length>320?'…':''}</p><div class="forum-rich news-full" id="news-body-${t.id}" hidden>${rich(t.body)}</div></div><div class="release-actions post-actions"><button type="button" class="read-more" data-expand aria-expanded="false" aria-controls="news-body-${t.id}"><span data-expand-label>Show more</span><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m7 10 5 5 5-5"/></svg></button>${articleLink(t)}${releaseLink(t)}<a class="news-comment-link" href="#topic/${t.id}" aria-label="${t.reply_count} ${t.reply_count===1?'comment':'comments'} on ${esc(t.title)}" title="View comments"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg><span aria-hidden="true">${t.reply_count}</span></a></div></article>`;
-    }).join('')||'<p>No news posts yet.</p>'}</div>${pager(d,p=>'#news?page='+p)}`;
+  };
+  function newsView(d){
+    root.innerHTML=`<div id="forum-list">${d.articles.map(newsArticle).join('')||'<p>No news posts yet.</p>'}</div>${d.hasMore?'<div class="news-load-more-wrap"><button type="button" id="more-news" class="news-load-more" aria-controls="forum-list">Load more</button></div><p id="news-load-status" class="sr-only" role="status"></p>':''}`;
     if($('post-news')){$('post-news').hidden=!d.isAdmin;$('post-news').onclick=()=>newTopic(d);}
+    bindNewsExpand();
+    let page=d.page;const route=version,seen=new Set(d.articles.map(t=>t.id));
+    const moreButton=$('more-news');
+    if(moreButton)moreButton.onclick=async()=>{
+      if(moreButton.disabled)return;
+      moreButton.disabled=true;moreButton.textContent='Loading…';$('forum-error').textContent='';
+      try{
+        const more=await api({view:'news',page:page+1});
+        if(route!==version)return;
+        const articles=more.articles.filter(t=>!seen.has(t.id));
+        $('forum-list').insertAdjacentHTML('beforeend',articles.map(newsArticle).join(''));
+        articles.forEach(t=>seen.add(t.id));page=more.page;
+        moreButton.hidden=!more.hasMore;moreButton.parentElement.hidden=!more.hasMore;
+        $('news-load-status').textContent=articles.length+' more '+(articles.length===1?'story':'stories')+' loaded.';
+        bindNewsExpand();
+        if(articles.length)$('news-'+articles[0].id).querySelector('h2 a').focus({preventScroll:true});
+      }catch(e){if(route===version)$('forum-error').textContent=e.message;}
+      finally{moreButton.disabled=false;moreButton.textContent='Load more';}
+    };
+  }
+  function bindNewsExpand(){
     root.querySelectorAll('[data-expand]').forEach(button=>button.onclick=()=>{const article=button.closest('article'),full=article.querySelector('.news-full'),show=full.hidden;full.hidden=!show;article.querySelector('[data-summary]').hidden=show;button.querySelector('[data-expand-label]').textContent=show?'Show less':'Show more';button.setAttribute('aria-expanded',String(show));});
   }
   async function load(){document.getElementById('forum-search-dialog')?.close();if($('post-news'))$('post-news').hidden=true;const current=++version;$('forum-error').textContent='';root.setAttribute('aria-busy','true');const [route,query='']=location.hash.slice(1).split('?'),params=new URLSearchParams(query),[view,key]=route.split('/');
     forumPage?.classList.toggle('forum-topic-page',view==='topic');
     if(newsPage)document.body.classList.toggle('news-detail-page',view==='topic'||view==='archive');
-    try{if(!newsPage&&['messages','notifications'].includes(view)){await window.DragonInbox.render(root,view,params,()=>current===version);return;}const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'?view:!view?'categories':'list'),...(key?{id:key}:{})});if(current!==version)return;document.title=(newsPage?'News':'Forums')+' | Dragon Ball OCG';if(newsPage){if(view==='topic'||view==='archive')topicView(data);else newsView(data,params);}else if(view==='topic')topicView(data);else if(view==='member')memberView(data,params);else if(!view)categoriesView(data);else listView(data,params);}catch(e){if(current!==version)return;root.innerHTML=back()+'<p><button id="retry-forum">Try again</button></p>';$('forum-error').textContent=e.message;$('retry-forum').onclick=load;}finally{if(current===version)root.removeAttribute('aria-busy');}}
+    try{if(!newsPage&&['messages','notifications'].includes(view)){await window.DragonInbox.render(root,view,params,()=>current===version);return;}const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'?view:!view?'categories':'list'),...(key?{id:key}:{})});if(current!==version)return;document.title=(newsPage?'News':'Forums')+' | Dragon Ball OCG';if(newsPage){if(view==='topic'||view==='archive')topicView(data);else newsView(data);}else if(view==='topic')topicView(data);else if(view==='member')memberView(data,params);else if(!view)categoriesView(data);else listView(data,params);}catch(e){if(current!==version)return;root.innerHTML=back()+'<p><button id="retry-forum">Try again</button></p>';$('forum-error').textContent=e.message;$('retry-forum').onclick=load;}finally{if(current===version)root.removeAttribute('aria-busy');}}
   window.addEventListener('hashchange',()=>{load();});window.addEventListener('dragon:auth-signed-out',load);window.addEventListener('dragon:auth-signed-in',load);load();
 })();
 

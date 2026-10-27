@@ -302,6 +302,29 @@ test('News imports the three original articles as Kurt once and shares announcem
  assert.equal((await f.forum(null,null,{view:'news'})).data.articles.some(t=>t.id===fresh.data.id),false);
 });
 
+test('News loads five visible stories per batch and only offers more when another exists',async()=>{
+ const f=await fixture();await f.register('alice');
+ const member=f.env.DB.prepare('SELECT id FROM forum_members').first().id;
+ const add=(title,hidden=0)=>f.env.DB.prepare('INSERT INTO forum_topics(member_id,category_id,title,body,hidden,created_at,updated_at) VALUES(?,4,?,?,?, ?,?)').bind(member,title,'News body',hidden,'2026-10-27T12:00:00.000Z','2026-10-27T12:00:00.000Z').run().meta.last_row_id;
+ const ids=Array.from({length:5},(_,i)=>add('News story '+(i+1)));
+ add('Hidden announcement',1);
+ let first=(await f.forum(null,null,{view:'news'})).data;
+ assert.equal(first.articles.length,5);assert.equal(first.hasMore,false);assert.equal(first.page,1);
+ ids.push(add('Sixth news story'));
+ first=(await f.forum(null,null,{view:'news'})).data;
+ const second=(await f.forum(null,null,{view:'news',page:2})).data;
+ assert.equal(first.articles.length,5);assert.equal(first.hasMore,true);
+ assert.equal(second.articles.length,1);assert.equal(second.hasMore,false);assert.equal(second.page,2);
+ assert.deepEqual([...first.articles,...second.articles].map(t=>t.id),[...ids].reverse());
+ for(let i=7;i<=11;i++)ids.push(add('News story '+i));
+ const batches=await Promise.all([1,2,3].map(async page=>(await f.forum(null,null,{view:'news',page})).data));
+ assert.deepEqual(batches.map(d=>d.articles.length),[5,5,1]);
+ assert.deepEqual(batches.map(d=>d.hasMore),[true,true,false]);
+ assert.deepEqual(batches.flatMap(d=>d.articles.map(t=>t.id)),[...ids].reverse());
+ assert.equal((await f.forum(null,null,{view:'latestNews'})).data.article.id,ids.at(-1));
+ assert.deepEqual((await f.forum(null,null,{view:'news',page:4})).data.articles,[]);
+});
+
 test('public deck links expose only opted-in decks and are revoked on privacy changes or deletion',async()=>{
  const f=await fixture();await f.register('alice');await f.register('bob');
  const call=async(who,data,share)=>{const r=await decksRequest(new Request('https://dragonball.test/api/decks'+(share?'?share='+encodeURIComponent(share):''),{method:data?'POST':'GET',headers:{Cookie:f.cookies[who]||'',Origin:'https://dragonball.test','Content-Type':'application/json'},...(data?{body:JSON.stringify(data)}:{})}),f.env);return {status:r.status,data:await r.json()};};
@@ -369,3 +392,4 @@ test('Kaoxt admin grant rejects a matching username without the established memb
  assert.equal(grantKaoxtAdministrator(f.env.DB),'not-applicable');
  assert.equal(f.env.DB.prepare('SELECT role FROM auth_accounts WHERE id=?').bind(user.id).first().role,'member');
 });
+
