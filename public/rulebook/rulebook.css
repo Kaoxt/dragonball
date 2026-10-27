@@ -268,3 +268,23 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 
 
 
+
+
+/* Screen reading copy follows News and forum posts; print colors remain defined above. */
+@media screen{
+ body.rulebook-page{--rules-ink:var(--content-copy)}
+ body.rulebook-page .manual .manual-hero .manual-description,
+ body.rulebook-page .manual .chapter :is(p:not(.card-group-label,.rule-source,.source-note,.credits),ul,ol,dd){
+  color:var(--content-copy);
+ }
+ body.rulebook-page .manual .chapter :is(p,li,dd) a[href]:any-link,
+ body.rulebook-page .manual .chapter .card-rule-link[href]:any-link{
+  color:var(--content-link);font-weight:700;text-decoration:underline;
+  text-decoration-color:#ffffff80;text-decoration-thickness:1px;text-underline-offset:3px;
+ }
+ body.rulebook-page .manual .chapter :is(p,li,dd) a[href]:any-link:hover,
+ body.rulebook-page .manual .chapter .card-rule-link[href]:any-link:hover{
+  color:#fff;text-decoration-color:currentColor;
+ }
+ body.rulebook-page .manual .chapter a[href]:any-link :is(strong,b){font-weight:inherit}
+}
