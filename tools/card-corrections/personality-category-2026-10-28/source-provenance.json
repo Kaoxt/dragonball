@@ -1,0 +1,64 @@
+{
+  "native_label_sources": {
+    "Personality-Numerals-Native-Source.zip": {
+      "library_file_id": "libfile_bdd1500c5df88191b7b611b6a3b1df0c",
+      "version": 1,
+      "sets": [
+        "Saiyan Saga",
+        "Frieza Saga"
+      ]
+    },
+    "Android-Saga-Completion-Sources.zip": {
+      "library_file_id": "libfile_7f350b02de348191b4b5a6804a02d0f1",
+      "sets": [
+        "Android Saga"
+      ]
+    },
+    "Trunks-Saga-081-130-Masters-and-Source.zip": {
+      "library_file_id": "libfile_9d9153c651a481919fbe3c49ac98215b",
+      "sets": [
+        "Trunks Saga"
+      ]
+    },
+    "Trunks-Saga-131-180-Native-Masters.zip": {
+      "library_file_id": "libfile_1f28d0bda1e88191ac1f44c25a9c9d7c",
+      "sets": [
+        "Trunks Saga"
+      ]
+    },
+    "Trunks-Saga-Final-Editable-Sources.zip": {
+      "library_file_id": "libfile_86c84b8622d08191808bfaebe3b067ab",
+      "sets": [
+        "Trunks Saga"
+      ]
+    }
+  },
+  "note": "Sources establish original category geometry only. The current published raster was the repair baseline, preserving subsequent illustration and unrelated corrections. Use the category finalizer on the latest complete native master; do not republish these historical full sources unchanged.",
+  "catalog_personalities": 144,
+  "corrected": 119,
+  "unchanged": 25,
+  "exports_checked": 288,
+  "changed_exports": 238,
+  "sets": {
+    "Saiyan Saga": {
+      "checked": 49,
+      "corrected": 26
+    },
+    "Frieza Saga": {
+      "checked": 24,
+      "corrected": 22
+    },
+    "Trunks Saga": {
+      "checked": 61,
+      "corrected": 61
+    },
+    "Android Saga": {
+      "checked": 10,
+      "corrected": 10
+    },
+    "Cell Saga": {
+      "checked": 0,
+      "corrected": 0
+    }
+  }
+}
