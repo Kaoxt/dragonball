@@ -73,7 +73,7 @@ test('manual power is shared, validated, and cleared when MP stages or level cha
 test('printed personality chart follows stage and active level for both players',async()=>{
  const {powerChart}=await import('../public/personality-power.js');
  const {catalog}=await import('../public/cards/catalog.js');
- for(const c of catalog.filter(c=>c.type==='Main Personality')) {assert.equal(powerChart(c)?.length,11,c.id);assert.equal(powerChart(c)[0],0);}
+ for(const c of catalog.filter(c=>c.type==='Main Personality')) {assert.equal(powerChart(c)?.length,c.powerStages?.length??11,c.id);assert.equal(powerChart(c)[0],0);if(c.powerStages)assert.deepEqual(powerChart(c),[...c.powerStages].reverse(),c.id);}
  const g=setup();
  g.players[0].personalities[0].id='saiyan-158-goku';g.players[0].personalities[1].id='saiyan-159-goku';g.players[0].stages=1;
  assert.equal(view(g,0).players[0].power,500);assert.equal(view(g,1).players[0].power,500);
@@ -83,6 +83,17 @@ test('printed personality chart follows stage and active level for both players'
  assert.equal(powerChart({image:'/assets/cards/goku-super-saiyan-3.webp'})[1],6025000);
  const d=deck('custom');d.personalities[0].powerLevels=[0,100,500];assert.deepEqual(parseDeck(d).personalities[0].powerLevels,[0,100,500]);assert.equal(parseDeck(d).personalities[0].maxStages,2);
  d.personalities[0].powerLevels=[0,-1];assert.equal(parseDeck(d).personalities[0].powerLevels,undefined);
+});
+
+test('Cell Android 19 preserves all twelve nonzero stages in Arena',async()=>{
+ const {catalog}=await import('../public/cards/catalog.js');
+ const input=deck('cell');input.personalities=['cell-090-android-19','cell-095-android-19-recalled','cell-098-android-19-recharged'].map(id=>catalog.find(c=>c.id===id));
+ const parsed=parseDeck(input);assert.equal(parsed.personalities[0].maxStages,12);
+ const g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');act(g,0,{type:'load',deck:input});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});
+ for(let i=0;i<20;i++)act(g,0,{type:'counter',counter:'stages',delta:1});
+ assert.equal(g.players[0].stages,12);assert.equal(view(g,0).players[0].power,1200000);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,1250000);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,1300000);
 });
 
 test('played cards are named in the shared log without revealing private movements',()=>{
