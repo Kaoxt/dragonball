@@ -9,6 +9,8 @@
 .database-intro .page-wordmark img{width:auto;max-width:100%;height:clamp(44px,6vw,68px);max-height:68px}
 .collection-brand{display:flex;flex-direction:column;justify-content:center;gap:6px;align-items:center;flex:0 1 220px;min-width:0;max-width:40%;margin:0 0 0 auto}
 .collection-brand img{display:block;width:100%;height:auto;object-fit:contain;mix-blend-mode:screen}
+/* Match Cell's taller artwork to the other saga logos without shifting the header. */
+.collection-brand #collection-logo-cell{aspect-ratio:2277/724;box-sizing:border-box;padding-left:10%}
 .collection-brand h2{margin:0;color:#fff;font-size:clamp(14px,2vw,22px)}
 .collection-brand [hidden]{display:none}
 @media(max-width:650px){.collection-brand{flex-basis:150px}.database-intro .page-wordmark img{max-height:44px}}
