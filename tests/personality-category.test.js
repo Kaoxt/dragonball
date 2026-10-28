@@ -43,7 +43,12 @@ test('every published Personality has verified display and download lettering',(
       assert.ok(card[field].includes(`v=${actual.slice(0,12)}`),`${card.id}: stale image revision`);
       assert.equal(image.pixels_changed_outside_mask,0);
       if(row.native.changed) assert.ok(image.lossless_round_trip);
-      else assert.equal(image.before_sha256,image.after_sha256);
+      else assert.equal(image.before_sha256,image.category_revision_sha256??image.after_sha256);
+      if(image.subsequent_title_revision){
+        assert.ok(image.subsequent_title_revision.category_crop_unchanged);
+        assert.equal(image.subsequent_title_revision.before_sha256,image.category_revision_sha256);
+        assert.equal(image.subsequent_title_revision.after_sha256,image.after_sha256);
+      }
     }
   }
 });
