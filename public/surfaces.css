@@ -25,7 +25,7 @@
   .practice-notice,.table-heading,.table-management,.card-controls,
   .mobile-tabs,.chapter-nav,.pat-calculator,.table-scroll
  ),
- body.arena-page :is(#deck-panel,#card-preview,#deck-image-dialog,#pile-dialog,#card-zoom,#forum-search-dialog),
+ body.arena-page :is(#deck-panel,#card-detail,#card-preview,#deck-image-dialog,#pile-dialog,#card-zoom,#forum-search-dialog),
  body.arena-page .manual :is(.chapter,.chapter-heading,.card-type-tabs,.card-example),
  body.arena-page .forum-shell :is(
   .issue-results,.forum-post,.forum-topic-heading,.forum-navigation-row,
@@ -114,4 +114,5 @@
   body.arena-page .site-header .account-dropdown-panel{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none}
  }
 }
+
 

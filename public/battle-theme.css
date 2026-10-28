@@ -90,14 +90,14 @@ body.community-page .forum-shell button:is(.issue-primary,.forum-start-topic,.fo
 body .arena-page .lobby-panel button[type=submit],
 body main .account-tabs button[aria-pressed=true],
 body main .mobile-tabs button[aria-pressed=true],
-body main a.primary-link,body dialog button.primary{
+body main a.primary-link,body dialog button.primary,body dialog a:is(.primary-link,.deck-image-download){
  background:#252326;color:#f5f5f5;border:1px solid #444046;border-radius:999px;box-shadow:none;
 }
 body main button:is([type=submit],.primary,.issue-primary,.forum-management-save):hover:not(:disabled),
 body.community-page .forum-shell button:is(.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save):hover:not(:disabled),
 body main .account-tabs button[aria-pressed=true]:hover,
 body main .mobile-tabs button[aria-pressed=true]:hover,
-body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled){
+body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled),body dialog a:is(.primary-link,.deck-image-download):hover{
  background:#353137;color:#f5f5f5;border-color:#5a545d;
 }
 body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-allowed}
@@ -186,5 +186,6 @@ body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-all
 .arena-page #table button,.arena-page .setup-bar label{font-weight:600}
 .arena-page .turn-bar>div{min-width:0}
 .arena-page .arena-setup-wordmark{display:block;width:560px;max-width:100%;height:auto}
+
 
 
