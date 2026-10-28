@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0b0f"><title>Foil Test | Dragon Ball OCG</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{color-scheme:dark;font-family:Arial,Helvetica,sans-serif;background:#0a0b0f;color:#f5f6fa}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 25%,#24203b 0%,#101018 47%,#0a0b0f 85%)}
+header{padding:15px max(18px,calc((100vw - 1100px)/2));border-bottom:1px solid #30303a;background:#101116e8;display:flex;align-items:center;justify-content:space-between;gap:18px}
+header img{width:170px;max-width:48vw;height:auto}a{color:#f26c70;text-decoration:none}a:hover{text-decoration:underline}
+main{max-width:1100px;margin:auto;padding:35px 18px 60px}h1{font-size:clamp(26px,4vw,38px);margin:0 0 10px}p{color:#b8b8c7;line-height:1.6;margin:0 0 20px}
+.layout{display:grid;grid-template-columns:minmax(0,450px) minmax(260px,1fr);gap:clamp(22px,5vw,65px);align-items:center}
+.stage{perspective:1100px;padding:12px;touch-action:pan-y;display:grid;place-items:center}
+.card{width:min(100%,410px);position:relative;aspect-ratio:1060/1484;border-radius:4.5%;transform-style:preserve-3d;will-change:transform;transition:transform .48s cubic-bezier(.2,.8,.2,1);isolation:isolate;box-shadow:0 24px 45px #000b,0 2px 8px #0009;overflow:hidden}
+.card img{width:100%;height:100%;display:block;object-fit:cover;pointer-events:none;user-select:none}
+.card::before,.card::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;mix-blend-mode:screen;opacity:var(--active,0);transition:opacity .35s ease}
+.card::before{background:repeating-linear-gradient(110deg,transparent 0 6px,#ff5be918 7px 9px,transparent 11px 17px),linear-gradient(calc(125deg + var(--angle,0deg)),transparent 17%,#ff4fbe45 30%,#60dfff70 43%,#fff9c18c 50%,#ae6bff60 59%,transparent 76%);background-position:var(--posx,50%) var(--posy,50%);background-size:160% 160%;mask-image:linear-gradient(to bottom,#000 0%,#000 59%,transparent 68%,transparent 89%,#000 92%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 59%,transparent 68%,transparent 89%,#000 92%)}
+.card::after{background:radial-gradient(circle at var(--posx,50%) var(--posy,50%),#ffffff85 0%,#b7dfff45 13%,transparent 47%);opacity:calc(var(--active,0) * .65)}
+.controls{border:1px solid #34343e;background:#171820;border-radius:16px;padding:24px}h2{margin:0 0 10px;font-size:22px}label{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:20px 0;color:#e3e3e9}input[type=range]{width:100%;accent-color:#e75c6b}input[type=checkbox]{accent-color:#d74c60;width:20px;height:20px}
+button{border:1px solid #b44453;background:#a6293d;color:white;padding:11px 17px;border-radius:9px;font:inherit;font-weight:600;cursor:pointer}button:hover{background:#c0354b}.hint{font-size:13px;margin-top:16px}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.stage{padding:4px 12px}.card{max-width:350px}.controls{padding:20px}}
+@media(prefers-reduced-motion:reduce){.card,.card::before,.card::after{transition:none!important}}
+</style></head>
+<body>
+<header><a href="/" aria-label="Home"><img src="/assets/dragon-ball-online-logo.webp" alt="Dragon Ball Online"></a><a href="/cards/trunks-saga/195">View original card</a></header>
+<main><h1>Interactive Foil Test</h1><p>Vegeta · Level 2 · Trunks Saga #195. This preview uses the original published card artwork without modifying its pixels.</p>
+<div class="layout"><div class="stage" id="stage"><div class="card" id="card" aria-label="Vegeta Level 2 holographic card preview"><img src="/assets/cards/trunks-195-vegeta.webp?v=1f04d9bb8513" alt="Vegeta Level 2, Trunks Saga card 195" draggable="false"></div></div>
+<section class="controls"><h2>Foil settings</h2><p>Move your mouse across the card, or drag a finger over it. On supported mobile browsers, enable tilt motion below.</p>
+<label for="strength">Foil intensity <output id="value">65%</output></label><input id="strength" type="range" min="0" max="100" value="65">
+<label for="tilt">3D card tilt <input id="tilt" type="checkbox" checked></label>
+<label for="foil">Reflective foil <input id="foil" type="checkbox" checked></label>
+<button type="button" id="motion">Enable device tilt</button><p class="hint" id="status" role="status">Motion sensors are optional. Touch and mouse controls work without them.</p>
+<button type="button" id="reset">Reset preview</button></section></div></main>
+<script>
+const card=document.getElementById('card'),stage=document.getElementById('stage'),strength=document.getElementById('strength'),value=document.getElementById('value'),tilt=document.getElementById('tilt'),foil=document.getElementById('foil'),status=document.getElementById('status');
+let x=.5,y=.5,active=false,motionEnabled=false;
+function render(){const intensity=Number(strength.value)/100;card.style.setProperty('--active',foil.checked?(active?intensity:intensity*.28):0);card.style.setProperty('--posx',(x*100)+'%');card.style.setProperty('--posy',(y*100)+'%');card.style.setProperty('--angle',((x-.5)*70)+'deg');card.style.transform=tilt.checked?'rotateY('+((x-.5)*18)+'deg) rotateX('+((.5-y)*18)+'deg)':'none';value.textContent=strength.value+'%'}
+function point(e){const r=card.getBoundingClientRect();x=Math.max(0,Math.min(1,(e.clientX-r.left)/r.width));y=Math.max(0,Math.min(1,(e.clientY-r.top)/r.height));active=true;render()}
+stage.addEventListener('pointermove',point,{passive:true});stage.addEventListener('pointerdown',point,{passive:true});
+stage.addEventListener('pointerleave',()=>{if(!motionEnabled){x=.5;y=.5;active=false;render()}});
+stage.addEventListener('pointerup',()=>{if(!motionEnabled){active=false;render()}});
+strength.addEventListener('input',render);tilt.addEventListener('change',render);foil.addEventListener('change',render);
+document.getElementById('reset').addEventListener('click',()=>{strength.value=65;tilt.checked=true;foil.checked=true;x=.5;y=.5;active=false;render()});
+document.getElementById('motion').addEventListener('click',async()=>{try{if(typeof DeviceOrientationEvent==='undefined')throw Error('Device motion is unavailable in this browser.');if(typeof DeviceOrientationEvent.requestPermission==='function'){const permission=await DeviceOrientationEvent.requestPermission();if(permission!=='granted')throw Error('Motion permission was not granted.')}if(!motionEnabled){window.addEventListener('deviceorientation',e=>{if(e.gamma==null||e.beta==null)return;x=Math.max(0,Math.min(1,.5+e.gamma/80));y=Math.max(0,Math.min(1,.5+(e.beta-45)/80));active=true;render()},{passive:true});motionEnabled=true}status.textContent='Device tilt enabled. Tilt your phone to move the foil.'}catch(e){status.textContent=e.message}});
+render();
+</script></body></html>
