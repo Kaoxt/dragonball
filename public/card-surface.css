@@ -21,4 +21,10 @@
 .card-finish .card-finish-grain{mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .6)}
 .card-finish-grain::before{content:"";position:absolute;inset:0;background:url('/card-effects/foil-grain.svg') repeat;background-size:108px 108px;mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%);-webkit-mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%)}
 .card-finish .card-finish-sheen{background:linear-gradient(112deg,transparent 30%,#a1cbdf12 38%,#f6e5c755 45%,#fffaf18a 48%,#eef9ff33 51%,transparent 59%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .7)}
+/* Firefox: two fixed masks and one moving, prepainted light. No blend stack or
+   animated gradient/mask rasterization; the same protected artwork and rim. */
+.card-finish .card-finish-texture{background:url('/card-effects/foil-etch.svg') center/100% 100% no-repeat,url('/card-effects/foil-grain.svg') center/108px 108px repeat;mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);opacity:calc(var(--foil-strength,.7) * .18)}
+.card-finish .card-finish-reflection{overflow:hidden;mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask)}
+.card-reflection-light{position:absolute;inset:-60%;background:linear-gradient(112deg,#080c202e 12%,#6595c42e 25%,#91d3d133 33%,#e6c68d40 40%,#fff9e873 47%,#c5d5e547 51%,#b59ace2e 56%,#68b0b02b 63%,#080c202e 77%);transform:translate3d(0,0,0)}
+.is-interacting .card-reflection-light{will-change:transform}
 @media(prefers-reduced-motion:reduce){.card-object{transition:none!important}}

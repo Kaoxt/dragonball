@@ -1,4 +1,4 @@
-import {setupCardSurface} from '/card-surface.js?v=20261028-hi-tech-edge';
+import {setupCardSurface} from '/card-surface.js?v=20261028-firefox-performance';
 const $ = id => document.getElementById(id);
 const stage=$('stage'),strength=$('strength'),value=$('value'),tilt=$('tilt'),foil=$('foil'),status=$('status'),animate=$('animate'),motion=$('motion');
 const surface=setupCardSurface(stage.querySelector('img')),card=surface.element;card.id='card';
@@ -57,7 +57,7 @@ stage.addEventListener('pointermove',e=>{
 });
 stage.addEventListener('pointerleave',()=>{if(pointerId===null&&!auto&&!motionEnabled)center();});
 for(const type of ['pointerup','pointercancel','lostpointercapture'])stage.addEventListener(type,release);
-for(const type of ['touchstart','touchmove'])stage.addEventListener(type,e=>{if(e.cancelable)e.preventDefault();},{passive:false});
+// Pointer events and touch-action:none own the card gesture without blocking touch listeners.
 stage.addEventListener('dragstart',e=>e.preventDefault());
 stage.addEventListener('keydown',e=>{
   if(e.altKey||e.ctrlKey||e.metaKey)return;

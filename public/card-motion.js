@@ -1,4 +1,4 @@
-import {setupCardSurface} from './card-surface.js?v=20261028-hi-tech-edge';
+import {setupCardSurface} from './card-surface.js?v=20261028-firefox-performance';
 
 // Shared physical-card interaction for enlarged previews only.
 export function setupCardMotion(stage) {
@@ -9,10 +9,25 @@ export function setupCardMotion(stage) {
   const surface = setupCardSurface(image);
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let pointerId = null, frame = 0, x = 0, y = 0;
+  let pendingPoint = null, bounds = null;
   const clamp = value => Math.max(-1, Math.min(1, value));
 
   function render() {
     frame = 0;
+    if (pendingPoint) {
+      // Input can arrive faster than the screen refreshes. Read geometry once
+      // per gesture, before style writes, and use only the latest pointer point.
+      if (!bounds) {
+        const rect = stage.getBoundingClientRect();
+        const width = image.offsetWidth, height = image.offsetHeight;
+        if (!width || !height) {pendingPoint = null; return;}
+        bounds = {cx: rect.left + rect.width / 2, cy: rect.top + rect.height / 2, width, height};
+      }
+      x = clamp((pendingPoint.x - bounds.cx) / (bounds.width / 2));
+      y = clamp((pendingPoint.y - bounds.cy) / (bounds.height / 2));
+      pendingPoint = null;
+    }
+    stage.classList.add('is-interacting');
     const angle = reducedMotion.matches ? 4 : 30;
     const travel = reducedMotion.matches ? 0 : pointerId === null ? 6 : 14;
     const roll = reducedMotion.matches ? 0 : -x * y * 4;
@@ -20,7 +35,6 @@ export function setupCardMotion(stage) {
     surface.reflect(x, y);
   }
   function update() {
-    stage.classList.add('is-interacting');
     if (!frame) frame = requestAnimationFrame(render);
   }
   function reset() {
@@ -29,18 +43,13 @@ export function setupCardMotion(stage) {
     pointerId = null;
     if (released !== null && stage.hasPointerCapture(released)) stage.releasePointerCapture(released);
     if (frame) cancelAnimationFrame(frame);
-    frame = 0; x = 0; y = 0;
+    frame = 0; x = 0; y = 0; pendingPoint = null; bounds = null;
     stage.classList.remove('is-interacting');
     surface.element.style.removeProperty('transform');
     surface.reflect();
   }
   function point(event) {
-    // Measure the fixed stage, never the transformed image. This prevents jitter
-    // and keeps the same tilt when the pointer stops moving.
-    const rect = stage.getBoundingClientRect();
-    if (!image.offsetWidth || !image.offsetHeight) return;
-    x = clamp((event.clientX - rect.left - rect.width / 2) / (image.offsetWidth / 2));
-    y = clamp((event.clientY - rect.top - rect.height / 2) / (image.offsetHeight / 2));
+    pendingPoint = {x: event.clientX, y: event.clientY};
     update();
   }
   stage.addEventListener('pointerdown', event => {
@@ -61,11 +70,8 @@ export function setupCardMotion(stage) {
   for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
     stage.addEventListener(type, event => { if (event.pointerId === pointerId) reset(); });
   }
-  // Firefox Android also needs native touch panning cancelled in this region.
-  // Listeners stay on the card stage so the rest of the dialog scrolls normally.
-  for (const type of ['touchstart', 'touchmove']) {
-    stage.addEventListener(type, event => { if (event.cancelable) event.preventDefault(); }, {passive: false});
-  }
+  // touch-action:none on the stage handles panning before dispatch. Avoid
+  // duplicate, blocking touch listeners on the same pointer-driven gesture.
   stage.addEventListener('dragstart', event => event.preventDefault());
   stage.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey) return;
@@ -74,12 +80,18 @@ export function setupCardMotion(stage) {
     const direction = directions[event.key];
     if (!direction) return;
     event.preventDefault();
+    pendingPoint = null;
     x = clamp(x + direction[0]); y = clamp(y + direction[1]); update();
   });
   stage.addEventListener('blur', reset);
   window.addEventListener('blur', reset);
   window.addEventListener('pagehide', reset);
   window.addEventListener('resize', reset);
+  document.addEventListener('scroll', () => {bounds = null;}, {capture: true, passive: true});
+  if (typeof ResizeObserver !== 'undefined') {
+    const sizeObserver = new ResizeObserver(() => {bounds = null;});
+    sizeObserver.observe(stage); sizeObserver.observe(image);
+  }
   document.addEventListener('visibilitychange', () => { if (document.hidden) reset(); });
   reducedMotion.addEventListener('change', reset);
   const dialog = stage.closest('dialog');

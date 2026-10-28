@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {setupCardMotion} from '../public/card-motion.js';
 
-function preview(t, reduced = false) {
+function preview(t, reduced = false, firefox = false) {
   class Target {
     handlers = new Map();
     dataset = {}; children = []; attributes = new Map();
@@ -45,7 +45,7 @@ function preview(t, reduced = false) {
   // A transformed bounding box must never be used as the input coordinate space.
   image.getBoundingClientRect = () => {throw Error('Unstable image measurement');};
   const observations = [];
-  const replacements = {window, document,
+  const replacements = {window, document, CSS: {supports: (property, value) => firefox && property === '-moz-appearance' && value === 'none'},
     requestAnimationFrame: callback => {frames.set(++nextFrame, callback);return nextFrame;},
     cancelAnimationFrame: id => frames.delete(id),
     MutationObserver: class {constructor(callback) {this.callback = callback;} observe(target, options) {observations.push({target, options, callback: this.callback});}}
@@ -91,8 +91,8 @@ test('secondary fingers and unpressed touch cannot take over an active card', t 
   p.stage.fire('pointermove', {pointerType: 'touch', pointerId: 2, clientX: 100}); p.flush();
   p.stage.fire('pointerup', {pointerType: 'touch', pointerId: 2});
   assert.deepEqual([...p.captures], [1]); assert.equal(p.surface.style.transform, tilt);
-  assert.equal(p.stage.fire('touchmove').defaultPrevented, true);
-  assert.equal(p.stage.handlers.get('touchmove')[0].options.passive, false);
+  assert.equal(p.stage.handlers.has('touchstart'), false);
+  assert.equal(p.stage.handlers.has('touchmove'), false);
   assert.equal(p.document.handlers.has('touchmove'), false);
   assert.equal(p.window.handlers.has('touchmove'), false);
 });
@@ -155,7 +155,56 @@ test('switching between Hi-Tech, standard, and face-down previews resets foil wi
     assert.equal(p.surface.dataset.finish, finish);
     assert.equal(p.effects.hidden, finish !== 'hi-tech');
     assert.equal(p.surface.style.transform, undefined);
-    assert.equal(p.surface.style['--light-x'], '50%');
+    if (finish === 'hi-tech') assert.equal(p.surface.style['--light-x'], '50%');
     assert.equal(p.captures.size, 0);
   }
+});
+
+test('rapid pointer events use the latest point and reuse geometry until layout changes', t => {
+  const p = preview(t);
+  let reads = 0;
+  p.stage.getBoundingClientRect = () => {reads++;return {left:100, top:50, width:400, height:600};};
+  p.stage.fire('pointerdown', {pointerType:'touch'});
+  for (let i = 0; i < 50; i++) p.stage.fire('pointermove', {pointerType:'touch', clientX:100+i*10});
+  assert.equal(reads, 0); assert.equal(p.pending(), 1);
+  p.flush(); assert.equal(reads, 1); assert.match(p.surface.style.transform, /rotateY\(30deg\)/);
+  p.stage.fire('pointermove', {pointerType:'touch', clientX:120}); p.flush();
+  assert.equal(reads, 1); assert.match(p.surface.style.transform, /rotateY\(-30deg\)/);
+  p.document.fire('scroll');
+  p.stage.fire('pointermove', {pointerType:'touch', clientX:480}); p.flush(); assert.equal(reads, 2);
+  p.stage.fire('pointerup');
+  p.stage.fire('pointerdown'); p.flush(); assert.equal(reads, 3);
+});
+
+test('Firefox foil moves a reflection without per-frame gradient variables and resets on release', t => {
+  const p = preview(t, false, true);
+  assert.equal(p.surface.dataset.foilRenderer, 'lightweight');
+  p.image.setAttribute('src', '/assets/cards/trunks-195-vegeta.webp');
+  p.observations.find(o => o.target === p.image).callback();
+  assert.equal(p.effects.children.length, 2);
+  const light = p.effects.children[1].children[0];
+  assert.equal(light.style.transform, 'translate3d(0%, 0%, 0)');
+  const styles = {...p.surface.style};
+  p.stage.fire('pointerdown', {pointerType:'touch', clientX:480, clientY:70});p.flush();
+  assert.equal(light.style.transform, 'translate3d(22%, -14%, 0)');
+  for (const key of Object.keys(styles)) assert.equal(p.surface.style[key], styles[key], key);
+  p.stage.fire('pointerup');
+  assert.equal(light.style.transform, 'translate3d(0%, 0%, 0)');
+  assert.equal(p.surface.style.transform, undefined);
+});
+
+test('ordinary cards skip foil work while Chromium retains the full Hi-Tech finish', t => {
+  const p = preview(t);
+  assert.equal(p.surface.dataset.foilRenderer, 'full');
+  assert.equal(p.effects.children.length, 5);
+  p.stage.fire('pointermove', {clientX:450});p.flush();
+  assert.equal(p.surface.style['--light-x'], undefined);
+  p.image.setAttribute('src', '/assets/cards/saiyan-179-goku-lvl-1-ht.webp');
+  p.observations.find(o => o.target === p.image).callback();
+  p.stage.fire('pointermove', {clientX:480});p.flush();
+  assert.equal(p.surface.style['--light-x'], '100%');
+  let writes = 0;
+  p.surface.style.setProperty = () => {writes++;};
+  p.stage.fire('pointermove', {clientX:480});p.flush();
+  assert.equal(writes, 0, 'stationary input does not repaint unchanged foil');
 });
