@@ -49,7 +49,8 @@ body.arena-table-page .player-field {padding: 14px; margin: 0 0 16px; border-rad
 .arena-table-page .counter button {background: #303034; border-color: #48484e; color: #f5f5f5; border-radius: 5px}
 .arena-table-page .counter button:hover {background: #404046}
 .arena-table-page .power-readout button {background: #252528; border-color: #44444b}
-.arena-table-page .arena-mat {border-color: var(--arena-border); border-radius: 10px; padding: 10px}
+/* Keep the bright texture beneath the dark overlay and out of the border. */
+.arena-table-page .arena-mat {border-color: #303135; border-radius: 10px; padding: 10px; background-clip: padding-box}
 .arena-table-page .arena-dock {gap: 10px; padding: 8px 0 2px}
 .arena-table-page .arena-mat .empty-cover {background: #191a1c; border-color: #4e5055; color: #babcc3}
 .arena-table-page .pile-cover {background: #191a1c; border-color: #54565d}
