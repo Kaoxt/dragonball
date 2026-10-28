@@ -82,9 +82,10 @@ function render(){
  $('card-grid').replaceChildren(...cards.slice(start,start+PAGE_SIZE).map(c=>{
   const button=document.createElement('a');button.className='catalog-card';button.href=cardPath(c);button.setAttribute('aria-label',`View ${c.name}, card ${c.number}`);
   const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
+  const art=document.createElement('span');art.className='catalog-card-art'+(['Battleground','Location'].includes(c.type)?' catalog-card-art-sideways':'');art.append(img);
   const title=document.createElement('h2');title.textContent=c.name;
   const meta=document.createElement('p');meta.textContent=`#${c.number} · ${c.type}`;
-  button.append(img,title,meta);
+  button.append(art,title,meta);
   if(c.status==='Preview'){const badge=document.createElement('span');badge.className='preview-tag';badge.textContent='SAIYAN SAGA PREVIEW';button.append(badge);}
   button.onclick=e=>{
    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
