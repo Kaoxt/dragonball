@@ -1318,8 +1318,19 @@
       "corrected_effect": "POWER: Search your Life Deck for up to 7 Allies and place them in play at 3 stages above 0. Banish after use.",
       "crd_note": "Checked the supplied Expanded CRD and original scan; no card-specific effect correction.",
       "full_art": false,
-      "publish": false,
-      "production_status": "Awaiting user-supplied edited artwork; two prior image-generation attempts failed."
+      "publish": true,
+      "production_status": "Complete: user-supplied artwork, final exports visually reviewed and measured.",
+      "artwork_exception": "User supplied this replacement illustration on 2026-10-28. Preserve its costume details, expressions, arrangement and purple/blue background as delivered; do not regenerate to match the old scan.",
+      "artwork_provenance": {
+        "original_file": "artwork/cell-157-user-supplied.jpg",
+        "original_dimensions": [
+          1536,
+          1024
+        ],
+        "original_sha256": "805ba5d0d00e3480bfb8b851183b9fc83eacca4ea0ff01c98786037b87e6d5ff",
+        "working_file": "artwork/cell-157.png",
+        "decoded_pixels_unchanged": true
+      }
     },
     {
       "number": 158,

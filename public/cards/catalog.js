@@ -15731,6 +15731,22 @@ export const catalog = [
     "downloadImage": "/assets/cards/downloads/cell-156-blue-head-charge.webp?v=c2ea44348fde"
   },
   {
+    "id": "cell-157-z-warriors-gather",
+    "name": "Z Warriors Gather",
+    "number": "157",
+    "type": "Setup",
+    "style": "Freestyle",
+    "set": "Cell Saga",
+    "status": "Ready",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-157",
+    "rules": "POWER: Search your Life Deck for up to 7 Allies and place them in play at 3 stages above 0. Banish after use.",
+    "rarity": "Ultra Rare",
+    "image": "/assets/cards/cell-157-z-warriors-gather.webp?v=7c924f616943",
+    "downloadImage": "/assets/cards/downloads/cell-157-z-warriors-gather.webp?v=e645a9c49d33"
+  },
+  {
     "id": "cell-158-cell-s-presence",
     "name": "Cell's Presence",
     "number": "158",

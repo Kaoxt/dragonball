@@ -8270,6 +8270,166 @@
   },
   {
     "title": {
+      "id": "cell-157-z-warriors-gather",
+      "title": "Z Warriors Gather",
+      "set": "Cell Saga",
+      "metrics": {
+        "changed": false,
+        "unrelated_svg_bytes_unchanged": true,
+        "font_size": 77.43142144638405,
+        "center_x": 526,
+        "center_y": 72,
+        "horizontal_fit": 1.0,
+        "bounds": [
+          285.4980049875311,
+          46.09918952618454,
+          766.5019950124688,
+          97.90081047381547
+        ],
+        "level_clearance": null
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-157-z-warriors-gather.webp",
+          "before_sha256": "7c924f6169431821765eec641062022ef0faeff543fc8ea3e672c534e500c68a",
+          "after_sha256": "7c924f6169431821765eec641062022ef0faeff543fc8ea3e672c534e500c68a",
+          "size": [
+            1060,
+            1484
+          ],
+          "verification_kind": "new-card-initial-export",
+          "pixels_changed_outside_title_mask": 0,
+          "lossless_round_trip": true,
+          "power_text_unchanged": true,
+          "title_iou": 0.9664104278074866,
+          "title_core_missing_pixels": 0,
+          "title_extra_ink_pixels": 0,
+          "power_iou": 0.995970139393539,
+          "power_core_missing_pixels": 0,
+          "power_extra_ink_pixels": 0
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-157-z-warriors-gather.webp",
+          "before_sha256": "e645a9c49d33b1545e0d5888d6f8eb129c674a1794d1335b508e6af2a336900e",
+          "after_sha256": "e645a9c49d33b1545e0d5888d6f8eb129c674a1794d1335b508e6af2a336900e",
+          "size": [
+            2120,
+            2968
+          ],
+          "verification_kind": "new-card-initial-export",
+          "pixels_changed_outside_title_mask": 0,
+          "lossless_round_trip": true,
+          "power_text_unchanged": true,
+          "title_iou": 0.9850749358284342,
+          "title_core_missing_pixels": 0,
+          "title_extra_ink_pixels": 0,
+          "power_iou": 0.998178988842168,
+          "power_core_missing_pixels": 0,
+          "power_extra_ink_pixels": 0
+        }
+      ],
+      "native_source_sha256": "bc7d234986ae1dc78fdf3e0dd03c8cda7940c3744e099bb89a7ac784338cff24"
+    },
+    "native": {
+      "id": "cell-157-z-warriors-gather",
+      "lines": [
+        {
+          "id": "rules-line-1",
+          "text": "POWER: Search your Life Deck for up to 7 Allies",
+          "glyphs": 38,
+          "issues": []
+        },
+        {
+          "id": "rules-line-2",
+          "text": "and place them in play at 3 stages above 0.",
+          "glyphs": 34,
+          "issues": []
+        },
+        {
+          "id": "rules-line-3",
+          "text": "Banish after use.",
+          "glyphs": 15,
+          "issues": []
+        }
+      ],
+      "issue_count": 0
+    },
+    "power": {
+      "id": "cell-157-z-warriors-gather",
+      "version": 2,
+      "exports": [
+        {
+          "field": "image",
+          "matched_components": 92,
+          "unmatched": [],
+          "native_power_ink_iou": 0.995970139393539
+        },
+        {
+          "field": "downloadImage",
+          "matched_components": 92,
+          "unmatched": [],
+          "native_power_ink_iou": 0.998178988842168
+        }
+      ]
+    },
+    "alignment": {
+      "id": "cell-157-z-warriors-gather",
+      "exports": [
+        {
+          "field": "image",
+          "expected_center": 530,
+          "lines": [
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1013.0,
+              "bottom": 1059.0
+            },
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1072.0,
+              "bottom": 1118.0
+            },
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1131.0,
+              "bottom": 1168.0
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "expected_center": 530,
+          "lines": [
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1013.5,
+              "bottom": 1059.0
+            },
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1072.5,
+              "bottom": 1118.5
+            },
+            {
+              "center_x": 530.0,
+              "center_error": 0.0,
+              "top": 1131.5,
+              "bottom": 1167.5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "title": {
       "id": "cell-158-cell-s-presence",
       "title": "Cell's Presence",
       "set": "Cell Saga",

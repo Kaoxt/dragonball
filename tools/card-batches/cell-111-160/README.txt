@@ -1,15 +1,14 @@
 CELL SAGA 111–160
 
-49 completed cards: #111–156 and #158–160.
-#157 Z Warriors Gather awaits user-supplied replacement artwork.
-Requested replacement: 2054 × 1426 PNG, landscape, artwork only.
-Preserve the original characters, arrangement, poses and clothing; the native
-card frame, title, category, rules, rarity and footer are added separately.
-The original #157 scan is retained with the editable package.
+50 completed cards: #111–160, including Z Warriors Gather #157.
+#157 uses the user-supplied 1536 × 1024 JPEG replacement received October 28,
+2026. The complete source is retained, with a pixel-identical PNG working copy.
+Uniform placement trims only narrow side strips; all eight characters remain
+visible. See artwork-review-157.json for source and final-export evidence.
 
-Cards package: 49 PNG and lossless WebP files at 2120 × 2968, 49 display
+Cards package: 50 PNG and lossless WebP files at 2120 × 2968, 50 display
 WebP files at 1060 × 1484, five preview sheets and review notes.
-Editable package: 49 native SVG masters, prepared frame templates, separate
+Editable package: 50 native SVG masters, prepared frame templates, separate
 artwork, fonts, vector assets, all 50 original reference scans, card data,
 build scripts and actual export verification reports.
 
@@ -35,7 +34,7 @@ unverified; the original scans remain the source for printed wording.
 Titles use Teko SemiBold at 77.43142144638405 native units, visibly centered
 at y72. Power text uses Barlow Condensed Bold at 49. Personality categories
 use the retained compact native Hero/Villain outlines. Both export sizes were
-measured against native glyphs; all 98 files passed. PNG and high-resolution
+measured against native glyphs; all 100 files passed. PNG and high-resolution
 WebP decode identically. Display WebP is lossless after the 50% downsample.
 The audits record initial-publication baselines, not historical repair claims.
 
@@ -53,7 +52,8 @@ Rebuild with Python 3, Pillow, NumPy, SciPy, fontTools, lxml and Inkscape:
   python source/build.py
   python source/verify_release.py
 Use --only NUMBER with build.py for individual cards. Templates are already
-prepared. #157 remains excluded until its artwork is reviewed and its data
-record is switched to publish=true. The publication helper additionally
-requires the website checkout at ../dragonball-resume and is a one-time
-append operation; it must not be rerun against an already-published catalog.
+prepared. prepare_publication.py is the historical, one-time 49-card append
+operation and must not be rerun. publish_addendum.py integrates the reviewed
+#157 into the website checkout at ../dragonball-resume while preserving all
+other catalog entries. Both export sizes for #157 passed native glyph, title,
+centering and lossless checks; its source is the explicit artwork exception.

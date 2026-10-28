@@ -43272,5 +43272,58 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cell-157-z-warriors-gather",
+    "exports": [
+      {
+        "field": "image",
+        "expected_center": 530,
+        "lines": [
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1013.0,
+            "bottom": 1059.0
+          },
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1072.0,
+            "bottom": 1118.0
+          },
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1131.0,
+            "bottom": 1168.0
+          }
+        ]
+      },
+      {
+        "field": "downloadImage",
+        "expected_center": 530,
+        "lines": [
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1013.5,
+            "bottom": 1059.0
+          },
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1072.5,
+            "bottom": 1118.5
+          },
+          {
+            "center_x": 530.0,
+            "center_error": 0.0,
+            "top": 1131.5,
+            "bottom": 1167.5
+          }
+        ]
+      }
+    ]
   }
 ]

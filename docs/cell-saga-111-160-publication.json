@@ -1,14 +1,8 @@
 {
   "set": "Cell Saga",
   "range": "111\u2013160",
-  "completed_count": 49,
-  "pending": [
-    {
-      "number": 157,
-      "name": "Z Warriors Gather",
-      "reason": "Awaiting user-supplied artwork, 2054 \u00d7 1426 PNG."
-    }
-  ],
+  "completed_count": 50,
+  "pending": [],
   "cards": [
     {
       "id": "cell-111-namekian-regeneration",
@@ -977,6 +971,27 @@
       }
     },
     {
+      "id": "cell-157-z-warriors-gather",
+      "files": {
+        "image": {
+          "path": "public/assets/cards/cell-157-z-warriors-gather.webp",
+          "sha256": "7c924f6169431821765eec641062022ef0faeff543fc8ea3e672c534e500c68a",
+          "size": [
+            1060,
+            1484
+          ]
+        },
+        "downloadImage": {
+          "path": "public/assets/cards/downloads/cell-157-z-warriors-gather.webp",
+          "sha256": "e645a9c49d33b1545e0d5888d6f8eb129c674a1794d1335b508e6af2a336900e",
+          "size": [
+            2120,
+            2968
+          ]
+        }
+      }
+    },
+    {
       "id": "cell-158-cell-s-presence",
       "files": {
         "image": {
@@ -1044,5 +1059,7 @@
   "verification_kind": "new-card-initial-export",
   "verification_note": "Initial publication of recovered and rebuilt native cards. Initial before/after hashes are identical baselines. Glyphs, dimensions, alignment and lossless pixels were independently measured in both sizes.",
   "preserved_reference": "Dende Dragon Balls 6 and 7 continue the approved Dende summoning artwork.",
-  "wording_review": "Original scans, supplied Expanded CRD, and approved current OCG terminology. Card-specific corrections are retained with the batch data."
+  "wording_review": "Original scans, supplied Expanded CRD, and approved current OCG terminology. Card-specific corrections are retained with the batch data.",
+  "completion_note": "Z Warriors Gather #157 completed with the user-supplied replacement illustration on 2026-10-28; source retained and both finished export sizes reviewed.",
+  "artwork_review_157": "../tools/card-batches/cell-111-160/artwork-review-157.json"
 }
