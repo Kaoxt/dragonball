@@ -14,11 +14,16 @@
   "power_font_mismatches": 0,
   "unresolved_findings": 0,
   "unrelated_pixels_changed": 0,
-  "publication_status": "validated release; deployment and live asset verification are recorded separately",
+  "publication_status": "live; all 799 cards and 1598 exports verified",
   "site_tests_passed": 130,
   "terminology_tests_passed": 6,
   "local_syntax_checks_passed": true,
   "cloudflare_dry_run": "blocked by automatic approval review; not retried",
   "power_lines_checked": 4120,
-  "maximum_power_line_center_error_native_pixels": 0.5
+  "maximum_power_line_center_error_native_pixels": 0.5,
+  "release_commit": "abb9128e1e8408805779f9cd854eeb61370e120c",
+  "live_verified_at": "2026-10-28T09:03:29.192009+00:00",
+  "live_exports_verified": 1598,
+  "live_export_failures": 0,
+  "deployment_checks_passed": true
 }
