@@ -1,16 +1,13 @@
+import {setupCardSurface} from '/card-surface.js?v=20261028-hi-tech-edge';
 const $ = id => document.getElementById(id);
-const card=$('card'),stage=$('stage'),strength=$('strength'),value=$('value'),tilt=$('tilt'),foil=$('foil'),status=$('status'),animate=$('animate'),motion=$('motion');
+const stage=$('stage'),strength=$('strength'),value=$('value'),tilt=$('tilt'),foil=$('foil'),status=$('status'),animate=$('animate'),motion=$('motion');
+const surface=setupCardSurface(stage.querySelector('img')),card=surface.element;card.id='card';
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
 let x=.5,y=.5,pointerId=null,auto=false,motionEnabled=false,frame=0,start=0;
 const clamp=n=>Math.max(0,Math.min(1,n));
 function render(){
-  card.style.setProperty('--foil',foil.checked?Number(strength.value)/100:0);
-  card.style.setProperty('--light-x',`${x*100}%`);
-  card.style.setProperty('--light-y',`${y*100}%`);
-  card.style.setProperty('--spectrum-x',`${100-x*100}%`);
-  card.style.setProperty('--spectrum-y',`${85-y*70}%`);
-  card.style.setProperty('--etch-x',`${110-x*120}%`);
-  card.style.setProperty('--etch-y',`${20+y*60}%`);
+  card.style.setProperty('--foil-strength',foil.checked?Number(strength.value)/100:0);
+  surface.reflect(x*2-1,y*2-1);
   const angle=reduced.matches?8:48;
   card.style.transform=tilt.checked?`rotateY(${(x-.5)*angle}deg) rotateX(${(.5-y)*angle}deg)`:'none';
   value.textContent=`${strength.value}%`;

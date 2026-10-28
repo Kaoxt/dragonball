@@ -2,12 +2,10 @@
 .card-motion-stage{display:grid;place-items:center;position:relative;min-width:0;padding:26px 24px;perspective:clamp(500px,80vw,1100px);touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;cursor:grab;isolation:isolate}
 .card-motion-stage.is-interacting:active{cursor:grabbing}
 .card-motion-stage:focus-visible{outline:2px solid #b8b8c0;outline-offset:2px;border-radius:8px}
-.card-motion-stage :is(#detail-image,#preview-image,#card-zoom-image){display:block;width:auto;height:auto;max-width:100%;max-height:var(--card-motion-height,70vh);margin:0;border:0;object-fit:contain;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;pointer-events:none;transform-origin:center;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
-.card-motion-stage.is-interacting img{will-change:transform;transition:none}
 .card-motion-hint{margin:3px 0 0;text-align:center;font-size:11px;line-height:1.5;color:#b9b9c0}
 #card-detail .card-motion-view{--card-motion-height:72vh}
 #card-preview .card-motion-view{--card-motion-height:64vh}
 #card-zoom .card-motion-view{--card-motion-height:70vh}
 @media(max-width:800px){#card-preview .card-motion-view{--card-motion-height:48vh}}
 @media(max-width:650px){#card-detail .card-motion-view{--card-motion-height:59vh}.card-motion-stage{padding:24px 20px}}
-@media(prefers-reduced-motion:reduce){.card-motion-stage img{transition:none!important}}
+@media(prefers-reduced-motion:reduce){.card-motion-stage .card-object{transition:none!important}}

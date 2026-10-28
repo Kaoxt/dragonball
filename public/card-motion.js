@@ -1,9 +1,12 @@
+import {setupCardSurface} from './card-surface.js?v=20261028-hi-tech-edge';
+
 // Shared physical-card interaction for enlarged previews only.
 export function setupCardMotion(stage) {
   const image = stage.querySelector('img');
   if (!image || stage.dataset.motionReady) return;
   stage.dataset.motionReady = 'true';
   image.draggable = false;
+  const surface = setupCardSurface(image);
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let pointerId = null, frame = 0, x = 0, y = 0;
   const clamp = value => Math.max(-1, Math.min(1, value));
@@ -13,7 +16,8 @@ export function setupCardMotion(stage) {
     const angle = reducedMotion.matches ? 4 : 30;
     const travel = reducedMotion.matches ? 0 : pointerId === null ? 6 : 14;
     const roll = reducedMotion.matches ? 0 : -x * y * 4;
-    image.style.transform = `translate3d(${x * travel}px, ${y * travel}px, 0) rotateX(${-y * angle}deg) rotateY(${x * angle}deg) rotateZ(${roll}deg)`;
+    surface.element.style.transform = `translate3d(${x * travel}px, ${y * travel}px, 0) rotateX(${-y * angle}deg) rotateY(${x * angle}deg) rotateZ(${roll}deg)`;
+    surface.reflect(x, y);
   }
   function update() {
     stage.classList.add('is-interacting');
@@ -27,7 +31,8 @@ export function setupCardMotion(stage) {
     if (frame) cancelAnimationFrame(frame);
     frame = 0; x = 0; y = 0;
     stage.classList.remove('is-interacting');
-    image.style.removeProperty('transform');
+    surface.element.style.removeProperty('transform');
+    surface.reflect();
   }
   function point(event) {
     // Measure the fixed stage, never the transformed image. This prevents jitter
@@ -83,10 +88,10 @@ export function setupCardMotion(stage) {
   // A new image or a reopened dialog always starts flat, including cached images.
   image.addEventListener('load', reset);
   image.addEventListener('error', reset);
-  const observer = new MutationObserver(reset);
+  const observer = new MutationObserver(() => {surface.refresh();reset();});
   observer.observe(image, {attributes: true, attributeFilter: ['src']});
   if (dialog) observer.observe(dialog, {attributes: true, attributeFilter: ['open']});
-  return {reset};
+  return {reset, surface};
 }
 
 if (typeof document !== 'undefined') document.querySelectorAll('[data-card-motion]').forEach(setupCardMotion);

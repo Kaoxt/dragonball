@@ -1,0 +1,24 @@
+/* Shared physical card face: the artwork is never cropped or rewritten. */
+.card-object{position:relative;display:grid;width:min(100%,calc(var(--card-motion-height,70vh) * var(--card-ratio,.714286)));max-width:100%;border-radius:7px;transform-style:preserve-3d;transform-origin:center;pointer-events:none;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.card-face{position:relative;display:grid;width:100%;min-width:0;border:2px solid #525459;border-radius:inherit;background:#34363a;overflow:hidden;isolation:isolate;transform:translateZ(.25px);box-shadow:inset 0 0 0 1px #a2a4aa25}
+.card-stock{position:absolute;inset:0;border:1px solid #56585e;border-radius:inherit;background:#3c3e43}
+.card-stock-1{transform:translateZ(-1px);background:#505258}
+.card-stock-2{transform:translateZ(-2px);background:#404248;border-color:#44464c}
+.card-stock-3{transform:translateZ(-3px);background:#2b2d32;border-color:#34363b;box-shadow:0 12px 28px #0008,0 2px 5px #0008}
+.card-object .card-face>:is(img,#detail-image,#preview-image,#card-zoom-image){display:block;width:100%;height:auto;max-width:100%;max-height:none;margin:0;border:0;border-radius:4px;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}
+.is-interacting .card-object,.card-object.is-interacting{will-change:transform;transition:none}
+.card-finish,.card-finish>span{position:absolute;inset:0;pointer-events:none;border-radius:4px}
+.card-finish[hidden]{display:none!important}
+.card-finish{--art-mask:url('/card-effects/hi-tech-mask.svg');--texture-mask:url('/card-effects/hi-tech-background.svg')}
+[data-foil-mask="vegeta"] .card-finish{--texture-mask:url('/card-effects/vegeta-background.svg')}
+.card-finish>span{mask:var(--art-mask) center/100% 100% no-repeat;-webkit-mask:var(--art-mask) center/100% 100% no-repeat;opacity:var(--foil-strength,.7)}
+.card-finish .card-finish-tonal{background:linear-gradient(112deg,#070c208c 12%,#0b141a66 29%,transparent 42%,transparent 51%,#100b1a77 67%,#080d2077 85%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:multiply}
+.card-finish .card-finish-color{background:linear-gradient(112deg,#000 12%,#2c5489 23%,#72b1b1 31%,#b7b8a0 37%,#fff2c3 42%,#eecca3 46%,#989acb 52%,#3e7478 59%,#000 72%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:color-dodge;opacity:calc(var(--foil-strength,.7) * .5)}
+/* A masked parent keeps the stationary engraved pattern off every text panel. */
+.card-finish .card-finish-etch{mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask)}
+.card-finish-etch::before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 24%,#65a3e48c 35%,#e5c894 43%,#fffaf0 48%,#b8cde0 52%,#a68ad37a 58%,transparent 68%);background-size:230% 210%;background-position:var(--etch-x,50%) var(--etch-y,50%);mask:url('/card-effects/foil-etch.svg') center/100% 100% no-repeat;-webkit-mask:url('/card-effects/foil-etch.svg') center/100% 100% no-repeat}
+.card-finish .card-finish-etch{mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .65)}
+.card-finish .card-finish-grain{mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .6)}
+.card-finish-grain::before{content:"";position:absolute;inset:0;background:url('/card-effects/foil-grain.svg') repeat;background-size:108px 108px;mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%);-webkit-mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%)}
+.card-finish .card-finish-sheen{background:linear-gradient(112deg,transparent 30%,#a1cbdf12 38%,#f6e5c755 45%,#fffaf18a 48%,#eef9ff33 51%,transparent 59%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .7)}
+@media(prefers-reduced-motion:reduce){.card-object{transition:none!important}}
