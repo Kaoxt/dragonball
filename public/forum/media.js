@@ -53,6 +53,6 @@
     });
     form.addEventListener('reset',()=>{state.images=[];draw();error.textContent='';});
   }
-  window.DragonIssueMedia=Object.freeze({avatar,gallery,attach,collect:form=>{const draft=drafts.get(form);if(draft?.pending)throw new Error('Please wait for your images to finish processing.');return draft?.images || [];}});
+  window.DragonIssueMedia=Object.freeze({avatar,gallery,attach,compress,collect:form=>{const draft=drafts.get(form);if(draft?.pending)throw new Error('Please wait for your images to finish processing.');return draft?.images || [];}});
 })();
 

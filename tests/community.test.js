@@ -1,5 +1,6 @@
 import {decksRequest} from '../src/community/decks-api.js';
 import { avatarRequest, AVATAR_LIMIT } from '../src/community/avatar-upload.js';
+import { forumImageRequest, FORUM_IMAGE_LIMIT } from '../src/community/forum-images.js';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { DatabaseSync } from 'node:sqlite';
@@ -393,3 +394,54 @@ test('Kaoxt admin grant rejects a matching username without the established memb
  assert.equal(f.env.DB.prepare('SELECT role FROM auth_accounts WHERE id=?').bind(user.id).first().role,'member');
 });
 
+
+async function imageFixture() {
+ const f=await fixture(),objects=new Map();
+ f.env.UPLOADS={async put(key,bytes){objects.set(key,Buffer.from(bytes));},async get(key){return objects.has(key)?{body:objects.get(key)}:null;}};
+ const jpeg=Buffer.from([255,216,255,224,0,2,255,217]);
+ f.upload=(who,bytes=jpeg,origin='https://dragonball.test',type='image/jpeg')=>forumImageRequest(new Request('https://dragonball.test/api/forum/images',{method:'POST',headers:{Origin:origin,Cookie:f.cookies[who]||'','Content-Type':type},body:bytes}),f.env);
+ f.image=(url,who)=>forumImageRequest(new Request('https://dragonball.test'+url,{headers:{Cookie:f.cookies[who]||''}}),f.env);
+ return f;
+}
+test('post image uploads require an active account, same origin, bounded JPEG bytes, and posting permission',async()=>{
+ const f=await imageFixture();await f.register('alice');
+ assert.equal((await f.upload(null)).status,401);
+ assert.equal((await f.upload('alice',undefined,'https://evil.test')).status,403);
+ assert.equal((await f.upload('alice',Buffer.from('<script>bad</script>'))).status,400);
+ assert.equal((await f.upload('alice',undefined,undefined,'image/svg+xml')).status,415);
+ assert.equal((await f.upload('alice',Buffer.alloc(FORUM_IMAGE_LIMIT+1))).status,413);
+ f.env.DB.prepare('UPDATE forum_members SET banned=1').run();
+ assert.equal((await f.upload('alice')).status,403);
+ f.env.DB.prepare('UPDATE forum_members SET banned=0').run();
+ f.env.DB.prepare('UPDATE forum_settings SET posting_open=0').run();
+ assert.equal((await f.upload('alice')).status,409);
+ assert.equal(f.env.DB.prepare('SELECT COUNT(*) AS n FROM forum_images').first().n,0);
+});
+test('image drafts are private and published images follow topic and reply visibility',async()=>{
+ const f=await imageFixture();await f.register('alice');await f.register('bob');
+ const uploaded=await f.upload('alice');assert.equal(uploaded.status,201);const {url}=await uploaded.json();
+ assert.equal((await f.image(url)).status,404);assert.equal((await f.image(url,'bob')).status,404);
+ const own=await f.image(url,'alice');assert.equal(own.status,200);assert.equal(own.headers.get('Content-Type'),'image/jpeg');assert.equal(own.headers.get('Cache-Control'),'private, no-store');
+ const id=(await f.forum('alice',{...topic,body:'My deck\n![Deck]('+url+')'})).data.id;
+ assert.equal((await f.image(url)).status,200);
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=1 WHERE id=?').bind(id).run();
+ assert.equal((await f.image(url)).status,404);
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=0,body=? WHERE id=?').bind('Image removed',id).run();
+ assert.equal((await f.image(url)).status,404);
+ const reply=await f.forum('alice',{action:'reply',id,body:'![Deck]('+url+')'});assert.equal(reply.status,201);
+ assert.equal((await f.image(url)).status,200);
+ f.env.DB.prepare('UPDATE forum_replies SET hidden=1 WHERE topic_id=?').bind(id).run();
+ assert.equal((await f.image(url)).status,404);
+ f.env.DB.prepare('UPDATE forum_replies SET hidden=0 WHERE topic_id=?').bind(id).run();
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=1 WHERE id=?').bind(id).run();
+ assert.equal((await f.image(url)).status,404);
+});
+test('failed object storage writes remove image records and repeated uploads are rate limited',async()=>{
+ const f=await imageFixture();await f.register('alice');
+ f.env.UPLOADS.put=async()=>{throw new Error('storage unavailable');};
+ assert.equal((await f.upload('alice')).status,503);
+ assert.equal(f.env.DB.prepare('SELECT COUNT(*) AS n FROM forum_images').first().n,0);
+ const owner=f.env.DB.prepare('SELECT user_id FROM forum_members').first().user_id;
+ f.env.DB.prepare("UPDATE forum_rate_limits SET count=20 WHERE user_id=? AND scope='image-upload'").bind(owner).run();
+ assert.equal((await f.upload('alice')).status,429);
+});

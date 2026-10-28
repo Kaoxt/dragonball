@@ -103,3 +103,22 @@ test('multiline quotes preserve safe inline formatting and escaped HTML', () => 
   assert.ok(html.includes('href="https://example.com/"'));
   assert.ok(!html.includes('<script>'));
 });
+
+test('uploaded images render inline with escaped captions and safe local URLs', () => {
+  const path = '/api/forum/images/12345678-1234-4234-abcd-1234567890ab';
+  const html = render('Before\n![Deck <img onerror="bad">](' + path + ')\nAfter');
+  assert.ok(html.includes('class="forum-post-image"'));
+  assert.ok(html.includes('src="' + path + '"'));
+  assert.ok(html.includes('alt="Deck &lt;img onerror=&quot;bad&quot;&gt;"'));
+  assert.ok(html.includes('<div>After</div>'));
+  assert.equal((html.match(/<img /g) || []).length, 1);
+});
+
+test('image syntax stays literal in code, when escaped, or with untrusted URLs', () => {
+  const image = '![Image](/api/forum/images/12345678-1234-4234-abcd-1234567890ab)';
+  for (const value of ['`' + image + '`', '```\n' + image + '\n```', '\\' + image,
+    '![x](javascript:alert(1))', '![x](data:image/svg+xml,test)', '![x](https://example.com/image.jpg)',
+    '![x](/api/forum/images/../../admin)', '![x](/api/forum/images/12345678-1234-4234-abcd-1234567890ab?x="bad")']) {
+    assert.ok(!render(value).includes('<img '), value);
+  }
+});

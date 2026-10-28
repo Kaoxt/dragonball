@@ -28,6 +28,8 @@ export async function forumDb(env) {
     ...messageSchema.map(sql => db.prepare(sql)),
     ...notificationSchema.map(sql => db.prepare(sql)),
     db.prepare('CREATE TABLE IF NOT EXISTS forum_rate_limits (user_id TEXT NOT NULL,scope TEXT NOT NULL,window_start INTEGER NOT NULL,count INTEGER NOT NULL,PRIMARY KEY(user_id,scope))'),
+    db.prepare('CREATE TABLE IF NOT EXISTS forum_images (id TEXT PRIMARY KEY,user_id TEXT NOT NULL,size INTEGER NOT NULL,created_at TEXT NOT NULL)'),
+    db.prepare('CREATE INDEX IF NOT EXISTS forum_images_owner ON forum_images(user_id)'),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_settings (id INTEGER PRIMARY KEY CHECK(id=1), posting_open INTEGER NOT NULL DEFAULT 1)`),
     db.prepare('INSERT OR IGNORE INTO forum_settings(id) VALUES(1)'),
     // Seed only once; category edits and archives survive future deployments.

@@ -8,6 +8,7 @@ import { authSchema, authRequest } from './auth.js';
 import { forumDb } from './forum.js';
 import { migrateKurtUsername, migrateKaoxtIdentity, grantKaoxtAdministrator } from './account-migrations.js';
 import { onRequestGet, onRequestPost } from './forum-api.js';
+import { forumImageRequest } from './forum-images.js';
 import { API_SECURITY_HEADERS } from './security.js';
 export class Community extends DurableObject{
  constructor(ctx,env){super(ctx,env);this.db=database(ctx.storage);this.communityEnv={...env,DB:this.db};ctx.blockConcurrencyWhile(async()=>{authSchema(this.db);uploadSchema(this.db);await forumDb(this.communityEnv);if(migrateKurtUsername(this.db)==='conflict')console.warn('Requested account rename could not run: username already in use.');if(migrateKaoxtIdentity(this.db)==='conflict')console.warn('Requested Kaoxt identity restore could not run: username already in use.');grantKaoxtAdministrator(this.db);mailSchema(this.db);});}
@@ -19,6 +20,7 @@ export class Community extends DurableObject{
   if(u.pathname.startsWith('/api/auth/'))return authRequest(request,this.communityEnv);
   if(u.pathname==='/api/decks')return decksRequest(request,this.communityEnv);
   const context={request,env:this.communityEnv};
+  if(u.pathname==='/api/forum/images'||u.pathname.startsWith('/api/forum/images/'))return forumImageRequest(request,this.communityEnv);
   if(u.pathname==='/api/forum'&&request.method==='GET')return onRequestGet(context);
   if(u.pathname==='/api/forum'&&request.method==='POST')return onRequestPost(context);
   return Response.json({error:'Not found.'},{status:404,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store'}});

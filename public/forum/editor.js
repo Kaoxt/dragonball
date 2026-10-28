@@ -4,6 +4,20 @@
   const { esc } = window.DragonForum;
   const MEMBER_ID = '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}';
   const memberIdPattern = new RegExp('^' + MEMBER_ID + '$', 'i');
+  const IMAGE_PATH = '/api/forum/images/[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}';
+  const icons = {
+    Bold: '<path d="M6 4h7a4 4 0 0 1 0 8H6zm0 8h8a4 4 0 0 1 0 8H6z"/>',
+    Italic: '<path d="M10 4h10M4 20h10M15 4 9 20"/>',
+    Underline: '<path d="M6 3v7a6 6 0 0 0 12 0V3M4 21h16"/>',
+    Link: '<path d="m10 13 4-4m-7 5-2 2a4 4 0 0 0 6 6l4-4a4 4 0 0 0 0-6M9 12a4 4 0 0 1 0-6l4-4a4 4 0 0 1 6 6l-2 2" transform="translate(0 -1)"/>',
+    Image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m21 15-5-5L5 21"/>',
+    Quote: '<rect x="3" y="4" width="7" height="7" rx="1"/><rect x="14" y="4" width="7" height="7" rx="1"/><path d="M10 10v4a5 5 0 0 1-5 5m16-9v4a5 5 0 0 1-5 5"/>',
+    'Bulleted list': '<path d="M9 6h12M9 12h12M9 18h12"/><circle cx="3" cy="6" r=".7"/><circle cx="3" cy="12" r=".7"/><circle cx="3" cy="18" r=".7"/>',
+    'Numbered list': '<path d="M10 6h11M10 12h11M10 18h11M3 3h1v6M2 9h4M2 14a2 2 0 0 1 4 0c0 2-4 3-4 6h4"/>',
+    Code: '<path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 4l-4 16"/>',
+    Preview: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+  };
+  const icon = name => '<svg class="forum-editor-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + icons[name] + '</svg>';
   // A selected display name may contain brackets or backslashes. Its member ID,
   // rather than the editable display label, identifies the tagged account.
   const MENTION = '@\\[((?:\\\\[^\\r\\n]|[^\\]\\\\\\r\\n]){1,160})\\]\\(member:(' + MEMBER_ID + ')\\)';
@@ -21,11 +35,11 @@
     const original = String(value).replace(/\u0000/g, '');
     const tokens = [];
     const keep = html => '\u0000' + (tokens.push(html) - 1) + '\u0000';
-    const pattern = new RegExp('(`+)|' + MENTION + '|\\[([^\\]\\n]+)\\]\\((https?:\\/\\/[^\\s<>]+)\\)', 'gi');
+    const pattern = new RegExp('(`+)|!\\[([^\\]\\n]{0,160})\\]\\((' + IMAGE_PATH + ')\\)|' + MENTION + '|\\[([^\\]\\n]+)\\]\\((https?:\\/\\/[^\\s<>]+)\\)', 'gi');
     let text = '', cursor = 0, match;
     while ((match = pattern.exec(original))) {
       text += original.slice(cursor, match.index);
-      const [token, ticks, label, memberId, linkLabel, url] = match;
+      const [token, ticks, imageLabel, imageUrl, label, memberId, linkLabel, url] = match;
       let replacement = token;
       if (ticks && !escapedAt(original, match.index)) {
         const runs = /`+/g;
@@ -36,6 +50,9 @@
           replacement = keep('<code>' + esc(original.slice(pattern.lastIndex, closing.index)) + '</code>');
           pattern.lastIndex = closing.index + closing[0].length;
         }
+      } else if (imageUrl) {
+        replacement = escapedAt(original, match.index) ? keep(esc(token))
+          : keep('<a class="forum-post-image" href="' + esc(imageUrl) + '" target="_blank" rel="noopener"><img src="' + esc(imageUrl) + '" alt="' + esc(imageLabel || 'Post image') + '" loading="lazy" decoding="async"></a>');
       } else if (memberId) {
         replacement = label.length <= 160 && !escapedAt(original, match.index)
           ? keep('<a class="forum-mention" href="/forums/#member/' + memberId.toLowerCase() + '">@' + esc(mentionLabel(label)) + '</a>')
@@ -154,6 +171,57 @@
 
   const fits = (input, start, end, replacement) => input.maxLength < 0 || input.value.length - (end - start) + replacement.length <= input.maxLength;
   const memberToken = member => '@[' + member.author.replace(/[\\[\]]/g, '\\$&') + '](member:' + member.member_id + ')';
+
+  function attachImages(input, editor, bar) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.innerHTML = icon('Image');
+    button.title = 'Insert image';
+    button.setAttribute('aria-label', 'Insert image');
+    button.onmousedown = event => event.preventDefault();
+    bar.append(button);
+    const picker = document.createElement('input');
+    picker.type = 'file'; picker.accept = 'image/jpeg,image/png,image/webp'; picker.hidden = true;
+    picker.setAttribute('aria-label', 'Choose an image');
+    const status = document.createElement('p');
+    status.className = 'forum-editor-upload-status';
+    status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
+    editor.append(picker, status);
+    let pending = false;
+    button.onclick = () => picker.click();
+    input.form?.addEventListener('submit', event => {
+      if (pending) { event.preventDefault(); event.stopImmediatePropagation(); status.textContent = 'Please wait for your image to finish uploading.'; }
+    }, true);
+    picker.addEventListener('change', async () => {
+      const file = picker.files[0]; picker.value = '';
+      if (!file || pending || input.form?.dataset.busy) return;
+      const start = input.selectionStart, end = input.selectionEnd;
+      const label = file.name.replace(/\.[^.]+$/, '').replace(/[\[\]\\\r\n]/g, ' ').trim().slice(0, 80) || 'Image';
+      const template = '\n![' + label + '](/api/forum/images/' + '0'.repeat(36) + ')\n';
+      if (!fits(input, start, end, template)) { status.textContent = 'There is not enough room for an image. Shorten your message first.'; return; }
+      pending = true; editor.setAttribute('aria-busy', 'true'); status.textContent = 'Uploading image…';
+      const readOnly = input.readOnly, buttons = [...bar.querySelectorAll('button')].map(control => [control, control.disabled]);
+      input.readOnly = true; buttons.forEach(([control]) => { control.disabled = true; });
+      try {
+        const encoded = await window.DragonIssueMedia.compress(file);
+        const bytes = Uint8Array.from(atob(encoded.split(',')[1]), c => c.charCodeAt(0));
+        const response = await fetch('/api/forum/images', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'image/jpeg' }, body: bytes, signal: AbortSignal.timeout(60000) });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || 'Unable to upload this image. Please try again.');
+        if (!new RegExp('^' + IMAGE_PATH + '$').test(result.url || '')) throw new Error('The image could not be inserted. Please try again.');
+        if (!input.isConnected) return;
+        input.setRangeText('\n![' + label + '](' + result.url + ')\n', start, end, 'end');
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        status.textContent = 'Image added. Use Preview to see it before posting.';
+      } catch (error) {
+        status.textContent = ['AbortError', 'TimeoutError'].includes(error.name) ? 'The upload timed out. Please try again.' : error.message;
+      } finally {
+        pending = false; editor.removeAttribute('aria-busy'); input.readOnly = readOnly;
+        buttons.forEach(([control, disabled]) => { control.disabled = disabled; });
+        if (input.isConnected) input.focus();
+      }
+    });
+  }
 
   function attachMentions(input, editor, bar) {
     const picker = document.createElement('div');
@@ -384,11 +452,11 @@
       preview.className = 'forum-rich forum-editor-preview';
       preview.hidden = true;
       editor.append(preview);
-      const items = [['Bold', 'B', '**', '**'], ['Italic', 'I', '*', '*'], ['Underline', 'U', '++', '++'], ['Link', 'Link', '[', '](https://example.com)'], ['Quote', 'Quote', '> ', ''], ['Bulleted list', '• List', '- ', ''], ['Numbered list', '1. List', '1. ', ''], ['Code', '</>', '`', '`']];
-      items.forEach(([name, caption, before, after]) => {
+      const items = [['Bold', '**', '**'], ['Italic', '*', '*'], ['Underline', '++', '++'], ['Link', '[', '](https://example.com)'], ['Quote', '> ', ''], ['Bulleted list', '- ', ''], ['Numbered list', '1. ', ''], ['Code', '`', '`']];
+      items.forEach(([name, before, after]) => {
         const button = document.createElement('button');
         button.type = 'button';
-        button.textContent = caption;
+        button.innerHTML = icon(name);
         button.title = name;
         button.setAttribute('aria-label', name);
         bar.append(button);
@@ -404,19 +472,22 @@
           input.focus();
           input.dispatchEvent(new Event('input', { bubbles: true }));
         };
+        if (name === 'Link') attachImages(input, editor, bar);
       });
       attachMentions(input, editor, bar);
       const toggle = document.createElement('button');
       toggle.type = 'button';
-      toggle.textContent = 'Preview';
+      toggle.innerHTML = icon('Preview');
+      toggle.title = 'Preview';
+      toggle.setAttribute('aria-label', 'Preview');
       toggle.setAttribute('aria-pressed', 'false');
       bar.append(toggle);
       toggle.onclick = () => {
         const show = preview.hidden;
         preview.hidden = !show;
         preview.innerHTML = render(input.value) || '<p>Nothing to preview yet.</p>';
-        toggle.innerHTML = show ? '<svg class="site-close-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m4 4 16 16M20 4 4 20"/></svg>' : 'Preview';
-        toggle.classList.toggle('site-close', show);
+        toggle.innerHTML = icon('Preview');
+        toggle.title = show ? 'Close preview' : 'Preview';
         toggle.setAttribute('aria-label', show ? 'Close preview' : 'Preview');
         toggle.setAttribute('aria-pressed', String(show));
       };
