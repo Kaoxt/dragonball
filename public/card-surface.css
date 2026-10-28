@@ -1,10 +1,12 @@
 /* Shared physical card face: the artwork is never cropped or rewritten. */
-.card-object{position:relative;display:grid;width:min(100%,calc(var(--card-motion-height,70vh) * var(--card-ratio,.714286)));max-width:100%;border-radius:7px;transform-style:preserve-3d;transform-origin:center;pointer-events:none;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
-.card-face{position:relative;display:grid;width:100%;min-width:0;border:2px solid #525459;border-radius:inherit;background:#34363a;overflow:hidden;isolation:isolate;transform:translateZ(.25px);box-shadow:inset 0 0 0 1px #a2a4aa25}
-.card-stock{position:absolute;inset:0;border:1px solid #56585e;border-radius:inherit;background:#3c3e43}
-.card-stock-1{transform:translateZ(-1px);background:#505258}
-.card-stock-2{transform:translateZ(-2px);background:#404248;border-color:#44464c}
-.card-stock-3{transform:translateZ(-3px);background:#2b2d32;border-color:#34363b;box-shadow:0 12px 28px #0008,0 2px 5px #0008}
+.card-object{position:relative;display:grid;width:min(100%,calc(var(--card-motion-height,70vh) * var(--card-ratio,.714286)));max-width:100%;border-radius:4px;transform-style:preserve-3d;transform-origin:center;pointer-events:none;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.card-face{position:relative;display:grid;width:100%;min-width:0;border:0;border-radius:inherit;background:transparent;overflow:hidden;isolation:isolate;transform:translateZ(0);box-shadow:none}
+/* Matching silhouettes hide the stock head-on. Depth alone reveals the side
+   as the card tilts; no border, outline or inset highlight surrounds the art. */
+.card-stock{position:absolute;inset:0;border:0;border-radius:inherit;background:#3c3e43}
+.card-stock-1{transform:translateZ(-.65px);background:#505258}
+.card-stock-2{transform:translateZ(-1.3px);background:#404248}
+.card-stock-3{transform:translateZ(-2px);background:#2b2d32;box-shadow:0 12px 28px #0008,0 2px 5px #0008}
 .card-object .card-face>:is(img,#detail-image,#preview-image,#card-zoom-image){display:block;width:100%;height:auto;max-width:100%;max-height:none;margin:0;border:0;border-radius:4px;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}
 .is-interacting .card-object,.card-object.is-interacting{will-change:transform;transition:none}
 .card-finish,.card-finish>span{position:absolute;inset:0;pointer-events:none;border-radius:4px}
@@ -22,9 +24,10 @@
 .card-finish-grain::before{content:"";position:absolute;inset:0;background:url('/card-effects/foil-grain.svg') repeat;background-size:108px 108px;mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%);-webkit-mask:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,50%),#000 0%,#0008 20%,transparent 59%)}
 .card-finish .card-finish-sheen{background:linear-gradient(112deg,transparent 30%,#a1cbdf12 38%,#f6e5c755 45%,#fffaf18a 48%,#eef9ff33 51%,transparent 59%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mix-blend-mode:screen;opacity:calc(var(--foil-strength,.7) * .7)}
 /* Firefox: two fixed masks and one moving, prepainted light. No blend stack or
-   animated gradient/mask rasterization; the same protected artwork and rim. */
+   animated gradient/mask rasterization; the same protected artwork and stock. */
 .card-finish .card-finish-texture{background:url('/card-effects/foil-etch.svg') center/100% 100% no-repeat,url('/card-effects/foil-grain.svg') center/108px 108px repeat;mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);opacity:calc(var(--foil-strength,.7) * .18)}
 .card-finish .card-finish-reflection{overflow:hidden;mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask)}
 .card-reflection-light{position:absolute;inset:-60%;background:linear-gradient(112deg,#080c202e 12%,#6595c42e 25%,#91d3d133 33%,#e6c68d40 40%,#fff9e873 47%,#c5d5e547 51%,#b59ace2e 56%,#68b0b02b 63%,#080c202e 77%);transform:translate3d(0,0,0)}
 .is-interacting .card-reflection-light{will-change:transform}
 @media(prefers-reduced-motion:reduce){.card-object{transition:none!important}}
+
