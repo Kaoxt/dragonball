@@ -296,4 +296,4 @@ html[data-theme=light] .forum-shell .forum-page-links a[aria-current=page]{backg
 .forum-shell .forum-editor-upload-status{padding:0 16px;margin:10px 0;font-size:13px;color:var(--issue-muted)}
 .forum-shell .forum-editor-upload-status:empty{display:none}
 .forum-shell .forum-rich .forum-post-image{display:block;width:fit-content;max-width:100%;margin:12px 0}
-.forum-shell .forum-post-image img{display:block;max-width:100%;width:auto;height:auto;max-height:640px;object-fit:contain;border:1px solid var(--surface-border,#ffffff1f);border-radius:8px}
+.forum-shell .forum-post-image img{display:block;max-width:100%;width:auto;height:auto;max-height:640px;object-fit:contain;border:0;border-radius:8px}
