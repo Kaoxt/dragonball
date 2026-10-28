@@ -10221,109 +10221,109 @@
     ]
   },
   {
-  "id": "trunks-195-vegeta",
-  "set": "Trunks Saga",
-  "category": "HERO PERSONALITY",
-  "native": {
-    "label": "HERO PERSONALITY",
-    "changed": true,
-    "before": [
-      240.942,
-      901.092,
-      577.116,
-      34.4919
-    ],
-    "expected": [
-      262.507,
-      901.228,
-      533.985,
-      34.2188
-    ],
-    "status": "corrected",
-    "after": [
-      262.507,
-      901.228,
-      533.985,
-      34.2188
-    ],
-    "unrelated_svg_bytes_unchanged": true
-  },
-  "idempotent": true,
-  "exports": [
-    {
-      "field": "image",
-      "path": "public/assets/cards/trunks-195-vegeta.webp",
-      "size": [
-        1060,
-        1484
+    "id": "trunks-195-vegeta",
+    "set": "Trunks Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": true,
+      "before": [
+        240.942,
+        901.092,
+        577.116,
+        34.4919
       ],
-      "before_sha256": "1f04d9bb851389962e1f6964ece7cb605d72f9ede1dfe215605f48de5f9e7a6f",
-      "native_ink_iou_before": 0.9511220773117143,
-      "antialias_edge_check": true,
-      "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
-      "pixels_changed": 24860,
-      "pixels_changed_outside_mask": 0,
-      "lossless_round_trip": true,
-      "background_mean_error": 0.672860294971548,
-      "background_p99_error": 2.0,
-      "category_revision_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
-      "subsequent_title_revision": {
-        "date": "2026-10-28",
-        "before_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
-        "after_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
-        "category_crop_unchanged": true,
-        "category_crop_sha256": "86f2bc2aa1142e78a54cb782493ad0aecc7f40dbe27e644e890245d38efba2be"
-      },
-      "typography_revision_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
-      "subsequent_artwork_revision": {
-        "before_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
-        "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
-        "pixels_changed_outside_costume_mask": 0,
-        "lossless_round_trip": true,
-        "title_crop_unchanged": true,
-        "category_crop_unchanged": true,
-        "power_text_unchanged": true,
-        "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
-      }
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "corrected",
+      "after": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "unrelated_svg_bytes_unchanged": true
     },
-    {
-      "field": "downloadImage",
-      "path": "public/assets/cards/downloads/trunks-195-vegeta.webp",
-      "size": [
-        2120,
-        2968
-      ],
-      "before_sha256": "179583eddb3b0990bf48e7b8f3a378a05a32620698b0972d7686feb0c62447ae",
-      "native_ink_iou_before": 0.9997465645415634,
-      "antialias_edge_check": false,
-      "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
-      "pixels_changed": 37181,
-      "pixels_changed_outside_mask": 0,
-      "lossless_round_trip": true,
-      "background_mean_error": 0.0,
-      "background_p99_error": 0.0,
-      "category_revision_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
-      "subsequent_title_revision": {
-        "date": "2026-10-28",
-        "before_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
-        "after_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
-        "category_crop_unchanged": true,
-        "category_crop_sha256": "3d74f661e27aec0d1182f242ebee944ae97c8c00032c641183c71c68792e55df"
-      },
-      "typography_revision_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
-      "subsequent_artwork_revision": {
-        "before_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
-        "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
-        "pixels_changed_outside_costume_mask": 0,
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-195-vegeta.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "1f04d9bb851389962e1f6964ece7cb605d72f9ede1dfe215605f48de5f9e7a6f",
+        "native_ink_iou_before": 0.9511220773117143,
+        "antialias_edge_check": true,
+        "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
+        "pixels_changed": 24860,
+        "pixels_changed_outside_mask": 0,
         "lossless_round_trip": true,
-        "title_crop_unchanged": true,
-        "category_crop_unchanged": true,
-        "power_text_unchanged": true,
-        "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
+        "background_mean_error": 0.672860294971548,
+        "background_p99_error": 2.0,
+        "category_revision_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
+        "subsequent_title_revision": {
+          "date": "2026-10-28",
+          "before_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
+          "after_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+          "category_crop_unchanged": true,
+          "category_crop_sha256": "86f2bc2aa1142e78a54cb782493ad0aecc7f40dbe27e644e890245d38efba2be"
+        },
+        "typography_revision_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+        "subsequent_artwork_revision": {
+          "before_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+          "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
+          "pixels_changed_outside_costume_mask": 0,
+          "lossless_round_trip": true,
+          "title_crop_unchanged": true,
+          "category_crop_unchanged": true,
+          "power_text_unchanged": true,
+          "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
+        }
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-195-vegeta.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "179583eddb3b0990bf48e7b8f3a378a05a32620698b0972d7686feb0c62447ae",
+        "native_ink_iou_before": 0.9997465645415634,
+        "antialias_edge_check": false,
+        "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
+        "pixels_changed": 37181,
+        "pixels_changed_outside_mask": 0,
+        "lossless_round_trip": true,
+        "background_mean_error": 0.0,
+        "background_p99_error": 0.0,
+        "category_revision_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
+        "subsequent_title_revision": {
+          "date": "2026-10-28",
+          "before_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
+          "after_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+          "category_crop_unchanged": true,
+          "category_crop_sha256": "3d74f661e27aec0d1182f242ebee944ae97c8c00032c641183c71c68792e55df"
+        },
+        "typography_revision_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+        "subsequent_artwork_revision": {
+          "before_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+          "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
+          "pixels_changed_outside_costume_mask": 0,
+          "lossless_round_trip": true,
+          "title_crop_unchanged": true,
+          "category_crop_unchanged": true,
+          "power_text_unchanged": true,
+          "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
+        }
       }
-    }
-  ]
-},
+    ]
+  },
   {
     "id": "trunks-196-garlic-jr-the-merciless",
     "set": "Trunks Saga",
@@ -11553,9 +11553,7 @@
         }
       }
     ]
-  }
-,
-
+  },
   {
     "id": "cell-084-yamcha-the-friend",
     "set": "Cell Saga",
@@ -12521,6 +12519,981 @@
         "title_core_missing_pixels": 0,
         "title_extra_ink_pixels": 0,
         "power_iou": 0.9971488943781435,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-114-chi-chi-the-wife",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-114-chi-chi-the-wife.webp",
+        "before_sha256": "07a67165d811b80df2f24728976a37f307944a87d8b7b446404830291dbbe0a0",
+        "after_sha256": "07a67165d811b80df2f24728976a37f307944a87d8b7b446404830291dbbe0a0",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9563395040167656,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9918459886241597,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-114-chi-chi-the-wife.webp",
+        "before_sha256": "d8079b0d427c0dc879cef255696d0218d32937efaaefe995443fd4678b4ece83",
+        "after_sha256": "d8079b0d427c0dc879cef255696d0218d32937efaaefe995443fd4678b4ece83",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9773067865553414,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9977659511090812,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-127-trunks-the-powerful",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-127-trunks-the-powerful.webp",
+        "before_sha256": "5050b57076889a0c23818c1346115abf832208914eff96b83367e70767e43477",
+        "after_sha256": "5050b57076889a0c23818c1346115abf832208914eff96b83367e70767e43477",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9667686926104067,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9947754871505224,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-127-trunks-the-powerful.webp",
+        "before_sha256": "e839505bcd5f4a6f21529ca51766ff13e72e037c08fe1aa0bc795bf145a61e7e",
+        "after_sha256": "e839505bcd5f4a6f21529ca51766ff13e72e037c08fe1aa0bc795bf145a61e7e",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9730906212900673,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9981722357283552,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-132-piccolo-the-namek",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-132-piccolo-the-namek.webp",
+        "before_sha256": "0e18a0c0f468e31c2079668330bbd1fd4e11cccf38c6332f58754e31ce765d11",
+        "after_sha256": "0e18a0c0f468e31c2079668330bbd1fd4e11cccf38c6332f58754e31ce765d11",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9708891229125921,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9928933081193192,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-132-piccolo-the-namek.webp",
+        "before_sha256": "b023b9033ffd09cf9072f70bf69209aa5c91e1d5040ea53a65cec70c5309238a",
+        "after_sha256": "b023b9033ffd09cf9072f70bf69209aa5c91e1d5040ea53a65cec70c5309238a",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9781729231348198,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9972251100782779,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-133-android-18",
+    "set": "Cell Saga",
+    "category": "VILLAIN PERSONALITY",
+    "native": {
+      "label": "VILLAIN PERSONALITY",
+      "changed": false,
+      "before": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "expected": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-133-android-18.webp",
+        "before_sha256": "c62d15f9ee58243f84223ee24c13dd5ac00d1188f6d10566fa3a8c4b1b073ac0",
+        "after_sha256": "c62d15f9ee58243f84223ee24c13dd5ac00d1188f6d10566fa3a8c4b1b073ac0",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.96831264853446,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9906855896266883,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9494005059949401,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9494005059949401
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-133-android-18.webp",
+        "before_sha256": "e3ba14c77712485d422787daf9a217900a2a91cbf7dba3e24635bbc1a74b2b92",
+        "after_sha256": "e3ba14c77712485d422787daf9a217900a2a91cbf7dba3e24635bbc1a74b2b92",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9802575944838353,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9973062857423362,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9745624913876257,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9745624913876257
+      }
+    ]
+  },
+  {
+    "id": "cell-134-gohan-the-winner",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-134-gohan-the-winner.webp",
+        "before_sha256": "a6f274650a140b8dc5097142414dbe150834bb9da01622d242a08a80c1503617",
+        "after_sha256": "a6f274650a140b8dc5097142414dbe150834bb9da01622d242a08a80c1503617",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9644221585482331,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9921127489009568,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-134-gohan-the-winner.webp",
+        "before_sha256": "e3c92cf2a72045d991a580858a2e9ffcdb60366f7ee4064179e64ad04ed356c8",
+        "after_sha256": "e3c92cf2a72045d991a580858a2e9ffcdb60366f7ee4064179e64ad04ed356c8",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9809790099633757,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9966603104833931,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-135-goku",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-135-goku.webp",
+        "before_sha256": "f5701189375387b4def17c8ac44b71db0f54808cc6d8472ca3a57fdf61dbb8fe",
+        "after_sha256": "f5701189375387b4def17c8ac44b71db0f54808cc6d8472ca3a57fdf61dbb8fe",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9481058640373637,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9932899022801303,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-135-goku.webp",
+        "before_sha256": "6e03ac6920b6565bdc78ac5e9d818feedae50579d39e046119bc9d555070d9aa",
+        "after_sha256": "6e03ac6920b6565bdc78ac5e9d818feedae50579d39e046119bc9d555070d9aa",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9915800552558874,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9971491767018924,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-136-cell-the-master",
+    "set": "Cell Saga",
+    "category": "VILLAIN PERSONALITY",
+    "native": {
+      "label": "VILLAIN PERSONALITY",
+      "changed": false,
+      "before": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "expected": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-136-cell-the-master.webp",
+        "before_sha256": "605323f05640e1057d3792e30f10d8f56fc4c1e5b5170a24af8ccd9f6c91517c",
+        "after_sha256": "605323f05640e1057d3792e30f10d8f56fc4c1e5b5170a24af8ccd9f6c91517c",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9683095260618674,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9926931106471816,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9494005059949401,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9494005059949401
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-136-cell-the-master.webp",
+        "before_sha256": "ee08a3d52315c751ba1a5e9b08e902e812b334c2388b698a1dc8eb79c9f6c6aa",
+        "after_sha256": "ee08a3d52315c751ba1a5e9b08e902e812b334c2388b698a1dc8eb79c9f6c6aa",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9796484301560444,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9974108436334495,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9745624913876257,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9745624913876257
+      }
+    ]
+  },
+  {
+    "id": "cell-137-cell-the-destroyer",
+    "set": "Cell Saga",
+    "category": "VILLAIN PERSONALITY",
+    "native": {
+      "label": "VILLAIN PERSONALITY",
+      "changed": false,
+      "before": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "expected": [
+        233.934,
+        901.228,
+        591.132,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-137-cell-the-destroyer.webp",
+        "before_sha256": "96b987ea73494cf16162ac456e9041682c9112ada7bfe10766a2af41a981030c",
+        "after_sha256": "96b987ea73494cf16162ac456e9041682c9112ada7bfe10766a2af41a981030c",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9665075576770088,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9930139720558883,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9494005059949401,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9494005059949401
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-137-cell-the-destroyer.webp",
+        "before_sha256": "38d6ea1a47a660025dd10dbade7800994f44d40e9762d0446c25ef9349b11c89",
+        "after_sha256": "38d6ea1a47a660025dd10dbade7800994f44d40e9762d0446c25ef9349b11c89",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9767249037607344,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9978996206777642,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9745624913876257,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9745624913876257
+      }
+    ]
+  },
+  {
+    "id": "cell-138-gohan-ascendant",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-138-gohan-ascendant.webp",
+        "before_sha256": "0068f87da350d72b67252abf57f52e299b707645a730ef2c63113a96dadebe4b",
+        "after_sha256": "0068f87da350d72b67252abf57f52e299b707645a730ef2c63113a96dadebe4b",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9672379434037465,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9895627501646653,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-138-gohan-ascendant.webp",
+        "before_sha256": "e64f121c18172eba064d7178f33cbd133d64369c01e550a947c55e70463ad31b",
+        "after_sha256": "e64f121c18172eba064d7178f33cbd133d64369c01e550a947c55e70463ad31b",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9756859816023272,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.997772233113527,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-139-krillin-the-mighty",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-139-krillin-the-mighty.webp",
+        "before_sha256": "b6d1b9389025fd783df851a6c3929ee067c8076f3820e83b017c4420b8060776",
+        "after_sha256": "b6d1b9389025fd783df851a6c3929ee067c8076f3820e83b017c4420b8060776",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9617834394904459,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9940332309836458,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-139-krillin-the-mighty.webp",
+        "before_sha256": "c8b05d61d1015fb0daf4d0d78ae423295d21e8621b45b3d7af115a34eee9211a",
+        "after_sha256": "c8b05d61d1015fb0daf4d0d78ae423295d21e8621b45b3d7af115a34eee9211a",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9799104961794767,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9967604302673054,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-154-vegeta-ascendant",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-154-vegeta-ascendant.webp",
+        "before_sha256": "0ec0bec5932be29c9ab62843759389e794ddc3d817a68af2cf62932fb184a330",
+        "after_sha256": "0ec0bec5932be29c9ab62843759389e794ddc3d817a68af2cf62932fb184a330",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9640585485477814,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9929916657646931,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-154-vegeta-ascendant.webp",
+        "before_sha256": "aeede1531bd3b536897aedba0d8d060bfd09a3b0b01157fc31f14614ac8630e0",
+        "after_sha256": "aeede1531bd3b536897aedba0d8d060bfd09a3b0b01157fc31f14614ac8630e0",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9800451878714235,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9968030950926492,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-159-vegeta-the-revitalized",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-159-vegeta-the-revitalized.webp",
+        "before_sha256": "8158e1c120be37df3e7f38d3f05d4731e7d17a4f8cd609ac6160a81972af8f7e",
+        "after_sha256": "8158e1c120be37df3e7f38d3f05d4731e7d17a4f8cd609ac6160a81972af8f7e",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9673014512277264,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9920908708456037,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-159-vegeta-the-revitalized.webp",
+        "before_sha256": "cc1dcbe9286dc1790c5efafd4f29827cf37185afee723b3990c08b2652de16cc",
+        "after_sha256": "cc1dcbe9286dc1790c5efafd4f29827cf37185afee723b3990c08b2652de16cc",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.978032836728489,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9964587593010266,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9770209157716224,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9770209157716224
+      }
+    ]
+  },
+  {
+    "id": "cell-160-goku-the-all-powerful",
+    "set": "Cell Saga",
+    "category": "HERO PERSONALITY",
+    "native": {
+      "label": "HERO PERSONALITY",
+      "changed": false,
+      "before": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "expected": [
+        262.507,
+        901.228,
+        533.985,
+        34.2188
+      ],
+      "status": "approved"
+    },
+    "idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-160-goku-the-all-powerful.webp",
+        "before_sha256": "773ddc5e97cd3377613f01b92c5392fd62cb4ff4f5ad44b5a40eaf907f4000a7",
+        "after_sha256": "773ddc5e97cd3377613f01b92c5392fd62cb4ff4f5ad44b5a40eaf907f4000a7",
+        "size": [
+          1060,
+          1484
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9654307956194749,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9936329129423289,
+        "power_core_missing_pixels": 0,
+        "power_extra_ink_pixels": 0,
+        "category_iou": 0.9495121397776265,
+        "category_core_missing_pixels": 0,
+        "category_extra_ink_pixels": 0,
+        "pixels_changed_outside_mask": 0,
+        "native_ink_iou_after": 0.9495121397776265
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-160-goku-the-all-powerful.webp",
+        "before_sha256": "672107857c1d4118e913af735421d2175bbd41e7b97aa2287b86f245c45b4e2a",
+        "after_sha256": "672107857c1d4118e913af735421d2175bbd41e7b97aa2287b86f245c45b4e2a",
+        "size": [
+          2120,
+          2968
+        ],
+        "verification_kind": "new-card-initial-export",
+        "pixels_changed_outside_title_mask": 0,
+        "lossless_round_trip": true,
+        "power_text_unchanged": true,
+        "title_iou": 0.9748209104470272,
+        "title_core_missing_pixels": 0,
+        "title_extra_ink_pixels": 0,
+        "power_iou": 0.9966725718246938,
         "power_core_missing_pixels": 0,
         "power_extra_ink_pixels": 0,
         "category_iou": 0.9770209157716224,
