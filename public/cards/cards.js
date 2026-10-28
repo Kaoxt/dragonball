@@ -1,5 +1,5 @@
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261026-set-banners';
+import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261028-cell-banner';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(value,value));
@@ -51,7 +51,8 @@ const collectionBranding = {
  'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp?v=20261026-set-banners', name:'Saiyan Saga', element:'collection-logo'},
  'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners', name:'Frieza Saga', element:'collection-logo-frieza'},
  'trunks saga': {image:'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners', name:'Trunks Saga', element:'collection-logo-trunks'},
- 'android saga': {image:'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners', name:'Android Saga', element:'collection-logo-android'}
+ 'android saga': {image:'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners', name:'Android Saga', element:'collection-logo-android'},
+ 'cell saga': {image:'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner', name:'Cell Saga', element:'collection-logo-cell'}
 };
 function renderCollectionBrand(){
  const selected=$('set').value;
