@@ -6,6 +6,16 @@ const context=vm.createContext({window:{},URL});
 vm.runInContext(fs.readFileSync(new URL('../public/forum/common.js',import.meta.url),'utf8'),context);
 vm.runInContext(fs.readFileSync(new URL('../public/forum/editor.js',import.meta.url),'utf8'),context);
 const {render}=context.window.DragonForumEditor;
+test('production image policy permits local upload decoding and attachment previews only as images',()=>{
+ const headers=fs.readFileSync(new URL('../public/_headers',import.meta.url),'utf8');
+ const policy=headers.match(/^\s*Content-Security-Policy:\s*(.+)$/m)[1];
+ const directives=Object.fromEntries(policy.split(';').map(value=>value.trim().split(/\s+/)).map(([name,...sources])=>[name,sources]));
+ for(const scheme of ['blob:','data:']){
+  assert.ok(directives['img-src'].includes(scheme),`${scheme} images must be usable by the upload compressor and previews`);
+  for(const directive of ['script-src','frame-src','connect-src','default-src'])assert.ok(!directives[directive].includes(scheme),`${scheme} must stay restricted to images`);
+ }
+ assert.deepEqual(directives['object-src'],["'none'"]);
+});
 test('formatting supports toolbar syntax and keeps code literal',()=>{
  const html=render('**bold** *italic* ++underline++\n> quote\n- first\n- second\n1. numbered\n`**literal**`\n```\n<script>\n```');
  for(const expected of ['<strong>bold</strong>','<em>italic</em>','<u>underline</u>','<blockquote>quote</blockquote>','<ul><li>first</li><li>second</li></ul>','<ol><li>numbered</li></ol>','<code>**literal**</code>','&lt;script&gt;'])assert.ok(html.includes(expected),expected);
