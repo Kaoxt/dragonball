@@ -10221,87 +10221,109 @@
     ]
   },
   {
-    "id": "trunks-195-vegeta",
-    "set": "Trunks Saga",
-    "category": "HERO PERSONALITY",
-    "native": {
-      "label": "HERO PERSONALITY",
-      "changed": true,
-      "before": [
-        240.942,
-        901.092,
-        577.116,
-        34.4919
-      ],
-      "expected": [
-        262.507,
-        901.228,
-        533.985,
-        34.2188
-      ],
-      "status": "corrected",
-      "after": [
-        262.507,
-        901.228,
-        533.985,
-        34.2188
-      ],
-      "unrelated_svg_bytes_unchanged": true
-    },
-    "idempotent": true,
-    "exports": [
-      {
-        "field": "image",
-        "path": "public/assets/cards/trunks-195-vegeta.webp",
-        "size": [
-          1060,
-          1484
-        ],
-        "before_sha256": "1f04d9bb851389962e1f6964ece7cb605d72f9ede1dfe215605f48de5f9e7a6f",
-        "native_ink_iou_before": 0.9511220773117143,
-        "antialias_edge_check": true,
-        "after_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
-        "pixels_changed": 24860,
-        "pixels_changed_outside_mask": 0,
-        "lossless_round_trip": true,
-        "background_mean_error": 0.672860294971548,
-        "background_p99_error": 2.0,
-        "category_revision_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
-        "subsequent_title_revision": {
-          "date": "2026-10-28",
-          "before_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
-          "after_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
-          "category_crop_unchanged": true,
-          "category_crop_sha256": "86f2bc2aa1142e78a54cb782493ad0aecc7f40dbe27e644e890245d38efba2be"
-        }
-      },
-      {
-        "field": "downloadImage",
-        "path": "public/assets/cards/downloads/trunks-195-vegeta.webp",
-        "size": [
-          2120,
-          2968
-        ],
-        "before_sha256": "179583eddb3b0990bf48e7b8f3a378a05a32620698b0972d7686feb0c62447ae",
-        "native_ink_iou_before": 0.9997465645415634,
-        "antialias_edge_check": false,
-        "after_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
-        "pixels_changed": 37181,
-        "pixels_changed_outside_mask": 0,
-        "lossless_round_trip": true,
-        "background_mean_error": 0.0,
-        "background_p99_error": 0.0,
-        "category_revision_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
-        "subsequent_title_revision": {
-          "date": "2026-10-28",
-          "before_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
-          "after_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
-          "category_crop_unchanged": true,
-          "category_crop_sha256": "3d74f661e27aec0d1182f242ebee944ae97c8c00032c641183c71c68792e55df"
-        }
-      }
-    ]
+  "id": "trunks-195-vegeta",
+  "set": "Trunks Saga",
+  "category": "HERO PERSONALITY",
+  "native": {
+    "label": "HERO PERSONALITY",
+    "changed": true,
+    "before": [
+      240.942,
+      901.092,
+      577.116,
+      34.4919
+    ],
+    "expected": [
+      262.507,
+      901.228,
+      533.985,
+      34.2188
+    ],
+    "status": "corrected",
+    "after": [
+      262.507,
+      901.228,
+      533.985,
+      34.2188
+    ],
+    "unrelated_svg_bytes_unchanged": true
   },
+  "idempotent": true,
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-195-vegeta.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "before_sha256": "1f04d9bb851389962e1f6964ece7cb605d72f9ede1dfe215605f48de5f9e7a6f",
+      "native_ink_iou_before": 0.9511220773117143,
+      "antialias_edge_check": true,
+      "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
+      "pixels_changed": 24860,
+      "pixels_changed_outside_mask": 0,
+      "lossless_round_trip": true,
+      "background_mean_error": 0.672860294971548,
+      "background_p99_error": 2.0,
+      "category_revision_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
+      "subsequent_title_revision": {
+        "date": "2026-10-28",
+        "before_sha256": "3f630d6419775e0e21942ead103ed578826eec29e1fb6481deffadfedd54124d",
+        "after_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+        "category_crop_unchanged": true,
+        "category_crop_sha256": "86f2bc2aa1142e78a54cb782493ad0aecc7f40dbe27e644e890245d38efba2be"
+      },
+      "typography_revision_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+      "subsequent_artwork_revision": {
+        "before_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+        "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
+        "pixels_changed_outside_costume_mask": 0,
+        "lossless_round_trip": true,
+        "title_crop_unchanged": true,
+        "category_crop_unchanged": true,
+        "power_text_unchanged": true,
+        "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
+      }
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-195-vegeta.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "before_sha256": "179583eddb3b0990bf48e7b8f3a378a05a32620698b0972d7686feb0c62447ae",
+      "native_ink_iou_before": 0.9997465645415634,
+      "antialias_edge_check": false,
+      "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
+      "pixels_changed": 37181,
+      "pixels_changed_outside_mask": 0,
+      "lossless_round_trip": true,
+      "background_mean_error": 0.0,
+      "background_p99_error": 0.0,
+      "category_revision_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
+      "subsequent_title_revision": {
+        "date": "2026-10-28",
+        "before_sha256": "d80024e3d4287415ef1185a957fd94cf798b7b349a9902fff544a9bcdb976604",
+        "after_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+        "category_crop_unchanged": true,
+        "category_crop_sha256": "3d74f661e27aec0d1182f242ebee944ae97c8c00032c641183c71c68792e55df"
+      },
+      "typography_revision_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+      "subsequent_artwork_revision": {
+        "before_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+        "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
+        "pixels_changed_outside_costume_mask": 0,
+        "lossless_round_trip": true,
+        "title_crop_unchanged": true,
+        "category_crop_unchanged": true,
+        "power_text_unchanged": true,
+        "verification": "tools/card-corrections/trunks-195-costume-2026-10-28/verification.json"
+      }
+    }
+  ]
+},
   {
     "id": "trunks-196-garlic-jr-the-merciless",
     "set": "Trunks Saga",

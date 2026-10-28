@@ -44,10 +44,17 @@ test('every published Personality has verified display and download lettering',(
       assert.equal(image.pixels_changed_outside_mask,0);
       if(row.native.changed) assert.ok(image.lossless_round_trip);
       else assert.equal(image.before_sha256,image.category_revision_sha256??image.after_sha256);
+      if(image.subsequent_artwork_revision){
+        const revision=image.subsequent_artwork_revision;
+        assert.equal(revision.before_sha256,image.typography_revision_sha256);
+        assert.equal(revision.after_sha256,image.after_sha256);
+        assert.equal(revision.pixels_changed_outside_costume_mask,0);
+        assert.ok(revision.lossless_round_trip&&revision.category_crop_unchanged&&revision.title_crop_unchanged&&revision.power_text_unchanged);
+      }
       if(image.subsequent_title_revision){
         assert.ok(image.subsequent_title_revision.category_crop_unchanged);
         assert.equal(image.subsequent_title_revision.before_sha256,image.category_revision_sha256);
-        assert.equal(image.subsequent_title_revision.after_sha256,image.after_sha256);
+        assert.equal(image.subsequent_title_revision.after_sha256,image.typography_revision_sha256??image.after_sha256);
       }
     }
   }

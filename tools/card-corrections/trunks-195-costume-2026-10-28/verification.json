@@ -1,0 +1,163 @@
+{
+  "id": "trunks-195-vegeta",
+  "approved_file": "Vegeta-Level-2-Corrected-Clothing.png",
+  "approved_sha256": "67c9c17410967359c7237f1df5a89bdcf3425399ea52f7d96fb569d31d5b4c8f",
+  "approved_library_file_id": "libfile_239f48682b088191b0a0ff5796bf6918",
+  "patch_box_native": [
+    253,
+    463,
+    717,
+    846
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-195-vegeta.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "before_sha256": "819133cf1065eddf5d164013cbf984c62bf21209a4fb25894acf3c187635809c",
+      "after_sha256": "3c80dfaba27277020e764581cefed8b311f9755f1e194042e0e16f79239a6fee",
+      "pixels_changed": 77266,
+      "pixels_changed_outside_costume_mask": 0,
+      "lossless_round_trip": true,
+      "title_crop_unchanged": true,
+      "category_crop_unchanged": true,
+      "power_text_unchanged": true,
+      "crop_verification": {
+        "title": {
+          "unchanged": true,
+          "before_sha256": "1be59a4cd235a670143fd830ee963297009a0dab49a7ad57c43f817bcbe0fe22",
+          "after_sha256": "1be59a4cd235a670143fd830ee963297009a0dab49a7ad57c43f817bcbe0fe22"
+        },
+        "category": {
+          "unchanged": true,
+          "before_sha256": "4b21c604b253bb09ee69ba3c2efadb28ab552cef41e5cd072829488690e7c713",
+          "after_sha256": "4b21c604b253bb09ee69ba3c2efadb28ab552cef41e5cd072829488690e7c713"
+        },
+        "power": {
+          "unchanged": true,
+          "before_sha256": "6c9ae3910dffc886507984b20dcbd9ed58add1b3335744c4ee6d1613e57c7be7",
+          "after_sha256": "6c9ae3910dffc886507984b20dcbd9ed58add1b3335744c4ee6d1613e57c7be7"
+        },
+        "footer": {
+          "unchanged": true,
+          "before_sha256": "3e1743c4a632b50e32f4c42c44feab4dbb0a36d0acfe4ccfb7733a77a0ca6fb9",
+          "after_sha256": "3e1743c4a632b50e32f4c42c44feab4dbb0a36d0acfe4ccfb7733a77a0ca6fb9"
+        },
+        "stages": {
+          "unchanged": true,
+          "before_sha256": "a4413a5deb3b7137185a9cd96aa15ca8615c3b5fc0ef06dd155c2530997307b5",
+          "after_sha256": "a4413a5deb3b7137185a9cd96aa15ca8615c3b5fc0ef06dd155c2530997307b5"
+        },
+        "face": {
+          "unchanged": false,
+          "before_sha256": "51efa93ba8ee1029fe792e9615a33bc9b436af4cd7493a86f62e7b3636ec4b77",
+          "after_sha256": "4e95219954e1785d7b1e515297106d04028e2cbadf0edaf72d8dcfd900f82826"
+        }
+      },
+      "measurements": {
+        "title": {
+          "visible_pixel_bounds_native": [
+            437.0,
+            43.0,
+            623.0,
+            101.0
+          ],
+          "center_native": [
+            530.0,
+            72.0
+          ]
+        },
+        "category": {
+          "visible_pixel_bounds_native": [
+            263.0,
+            902.0,
+            796.0,
+            935.0
+          ],
+          "center_native": [
+            529.5,
+            918.5
+          ]
+        }
+      }
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-195-vegeta.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "before_sha256": "07c6cb570def8a72d87f8445f8eb152e52d17dafa7b5bc57aa474d4c9a1802b4",
+      "after_sha256": "24e2cd9963ce8d38a0d3b4b72976789d108eaae000c87bccc49808e00a87bd36",
+      "pixels_changed": 318019,
+      "pixels_changed_outside_costume_mask": 0,
+      "lossless_round_trip": true,
+      "title_crop_unchanged": true,
+      "category_crop_unchanged": true,
+      "power_text_unchanged": true,
+      "crop_verification": {
+        "title": {
+          "unchanged": true,
+          "before_sha256": "afb1e3a5641a502a5603297af28c9038dbfbf4a18cdeaeb82c5b97aefbf9c65c",
+          "after_sha256": "afb1e3a5641a502a5603297af28c9038dbfbf4a18cdeaeb82c5b97aefbf9c65c"
+        },
+        "category": {
+          "unchanged": true,
+          "before_sha256": "9051b975faad0001130e9137f63da3d004c12a48300b2d56c8c05c6c8b2a45ae",
+          "after_sha256": "9051b975faad0001130e9137f63da3d004c12a48300b2d56c8c05c6c8b2a45ae"
+        },
+        "power": {
+          "unchanged": true,
+          "before_sha256": "2a2ba6c610db6a7e168f31175c77912872ac3c8d36b28c3c93d705b623513f14",
+          "after_sha256": "2a2ba6c610db6a7e168f31175c77912872ac3c8d36b28c3c93d705b623513f14"
+        },
+        "footer": {
+          "unchanged": true,
+          "before_sha256": "28ea5f9da23f1defd185c82841dbe9ef6bb8058084ab2456e9dd76fb939fb9ce",
+          "after_sha256": "28ea5f9da23f1defd185c82841dbe9ef6bb8058084ab2456e9dd76fb939fb9ce"
+        },
+        "stages": {
+          "unchanged": true,
+          "before_sha256": "f0e85ccb5cd0e91636c07fbe0ae5f14aaae96750e3420a08a642be6cd88dd3b8",
+          "after_sha256": "f0e85ccb5cd0e91636c07fbe0ae5f14aaae96750e3420a08a642be6cd88dd3b8"
+        },
+        "face": {
+          "unchanged": false,
+          "before_sha256": "028e52acae33050d087d117f127c2f8a0a4bb306ca11efca6e26802be872b51a",
+          "after_sha256": "b7df050f07dec76d4c53d433ca86bbbb5ee6cfe1cff987b8ddb866c9e9b2452c"
+        }
+      },
+      "measurements": {
+        "title": {
+          "visible_pixel_bounds_native": [
+            436.0,
+            42.5,
+            623.0,
+            101.5
+          ],
+          "center_native": [
+            529.5,
+            72.0
+          ]
+        },
+        "category": {
+          "visible_pixel_bounds_native": [
+            262.5,
+            901.5,
+            796.5,
+            935.0
+          ],
+          "center_native": [
+            529.5,
+            918.25
+          ]
+        }
+      }
+    }
+  ],
+  "scope": "Approved white chest armor over long-sleeved blue suit; keep all other current pixels outside the localized patch."
+}

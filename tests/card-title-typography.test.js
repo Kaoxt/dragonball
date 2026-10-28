@@ -32,6 +32,13 @@ test('every catalog card uses verified smaller, visibly centered title exports',
       const actual=hash(path.join(root,e.path));assert.equal(actual,e.after_sha256,`${card.id} ${field}: stale export audit`);
       assert.equal(card[field].split('?')[0],e.path.replace(/^public/,''));
       assert.ok(card[field].includes(`v=${actual.slice(0,12)}`));
+      if(e.subsequent_artwork_revision){
+        const revision=e.subsequent_artwork_revision;
+        assert.equal(revision.before_sha256,e.typography_revision_sha256);
+        assert.equal(revision.after_sha256,e.after_sha256);
+        assert.equal(revision.pixels_changed_outside_costume_mask,0);
+        assert.ok(revision.lossless_round_trip&&revision.title_crop_unchanged&&revision.category_crop_unchanged&&revision.power_text_unchanged);
+      }
       assert.equal(e.pixels_changed_outside_title_mask,0);assert.ok(e.lossless_round_trip&&e.power_text_unchanged);
     }
   }
