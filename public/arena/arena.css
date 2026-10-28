@@ -8,7 +8,9 @@ body.arena-table-page {
   --arena-red-border: #ac3654;
 }
 .arena-table-page main {padding-top: 30px; padding-bottom: 38px}
-.arena-table-page .lobby {gap: clamp(32px, 6vw, 90px); align-items: center}
+/* Match the Decks page's heading inset without changing the game table layout. */
+.arena-table-page main:has(> .lobby:not([hidden])) {max-width: 1500px; padding: 38px 4%}
+.arena-table-page .lobby {max-width: none; margin: 0 auto 10px; gap: clamp(32px, 6vw, 90px); align-items: start}
 body.arena-table-page .lobby-panel {
   padding: 28px; border: 1px solid var(--arena-border); border-radius: 18px;
   background: #191919; box-shadow: 0 20px 50px #0003;
@@ -136,4 +138,7 @@ body.arena-table-page #card-zoom {
   .arena-card-info {padding: 16px 4px 0; border-top: 1px solid var(--arena-border)}
   .arena-card-info h2 {font-size: 23px; margin: 8px 0}
   .arena-card-info .inspect-actions {margin-top: 18px}
+}
+@media (max-width: 480px) {
+  .arena-table-page main:has(> .lobby:not([hidden])) {padding-top: 25px}
 }

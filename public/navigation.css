@@ -53,8 +53,10 @@ body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
 @media(min-width:1201px){body .site-header nav{gap:10px}}
 @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){body .site-header nav,body .site-header nav.is-open{gap:5px}}
 
-/* Outline the letter contours while preserving the white navigation artwork. */
-body .site-header .nav-wordmark{filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
+/* Navigation and page logos share the same black outline around their lettering. */
+@media screen{
+ body .site-header .nav-wordmark,body .page-wordmark img{filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
+}
 
 /* Stay with the page using Nuvio's exact top inset and frosted charcoal shell. */
 @media screen{
