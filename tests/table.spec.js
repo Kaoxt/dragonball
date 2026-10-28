@@ -8,7 +8,7 @@ test('two browsers play Score, keep private cards hidden, and resume',async({bro
  await p.getByRole('button',{name:'Finish setup',exact:true}).click();await q.getByRole('button',{name:'Finish setup',exact:true}).click();
  await q.getByRole('button',{name:'Draw 3',exact:true}).click();await expect(q.locator('#hand .card')).toHaveCount(3);await expect(p.locator('.opponent [data-zone=hand] .pile')).toContainText('3');
  await q.locator('#hand .card').first().click();await q.locator('#destination').selectOption('combat');await q.locator('#move-selected').click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveCount(1);
- await q.locator('.player-field:not(.opponent) [data-zone=combat] .card').click();await q.getByRole('button',{name:'Flip',exact:true}).click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveAttribute('aria-label','Face-down card');
+ await q.locator('.player-field:not(.opponent) [data-zone=combat] .card').click();await q.getByRole('button',{name:'Flip',exact:true}).click();await q.locator('#close-card-zoom').click();await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveAttribute('aria-label','Face-down card');
  const source=q.locator('.player-field:not(.opponent) [data-zone=combat] .card'), area=q.locator('.player-field:not(.opponent) .free-table');
  await area.scrollIntoViewIfNeeded();const cb=await source.boundingBox(),ab=await area.boundingBox();await q.mouse.move(cb.x+30,cb.y+30);await q.mouse.down();await q.mouse.move(ab.x+ab.width*.7,ab.y+220,{steps:8});await q.mouse.up();
  await expect(source).toHaveAttribute('data-x',/0\.[5-9]/);await expect(p.locator('.opponent [data-zone=combat] .card')).toHaveAttribute('data-x',await source.getAttribute('data-x'));

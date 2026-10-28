@@ -24,11 +24,10 @@ function disconnect() {
 }
 function returnToLobby() {
   resumeAttempt++; intentional = true; disconnect(); clearArenaSession();
-  clearTimeout(cardTapTimer); cardTap = null;
   room = ''; game = practiceGame = null; selected = openPile = null;
   history.replaceState(null, '', location.pathname + location.search);
   $('arena-resume').hidden = $('table').hidden = true; $('lobby').hidden = false;
-  $('card-controls').hidden = $('search-panel').hidden = true;
+  $('search-panel').hidden = true;
   document.querySelectorAll('dialog[open]').forEach(dialog => dialog.close());
   document.body.classList.remove('at-table'); status('Online card game');
 }
@@ -175,7 +174,6 @@ function layoutPlayedCards(){
  });
 }
 window.addEventListener('resize',()=>{if(game)layoutPlayedCards();});
-let cardTap=null, cardTapTimer;
 function counterHTML(p, owner, name, title) { return `<div class="counter"><span>${title}</span><strong>${p[name]}</strong>${owner === seat && ['setup','playing'].includes(game.status) ? `<button data-counter="${name}" data-delta="-1" aria-label="Decrease ${title}">−</button><button data-counter="${name}" data-delta="1" aria-label="Increase ${title}">+</button>` : ''}</div>`; }
 function mpReadout(p,owner) {
  const rating=personalityPower(p), known=!!powerChart(p.personalities[p.level-1]);
@@ -210,11 +208,47 @@ function render() {
   $('search-panel').hidden=!p.searchCards;$('search-cards').innerHTML=p.searchCards?p.searchCards.map(c=>cardHTML(c,seat,'deck')).join(''):'';
   $('log').innerHTML=game.log.map(x=>`<li><time>${new Date(x.at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}</time>${esc(x.text)}</li>`).join('');$('log').scrollTop=$('log').scrollHeight;renderInspector();renderPile();
 }
-function getSelected(){if(!selected)return null;const[owner,zone,uid]=selected.split(':'),p=game.players[+owner];const c=zone==='mp'?p?.personalities[p.level-1]:['mastery','sensei'].includes(zone)?p?.[zone]:zone==='deck'?p?.searchCards?.find(c=>c.uid===uid):Array.isArray(p?.zones[zone])?p.zones[zone].find(c=>c.uid===uid):null;return c?{owner:+owner,zone,c:{...c,image:cardImage(c)}}:null;}
-function renderInspector(){
-  const s=getSelected();$('card-controls').hidden=!s;if(!s){selected=null;$('inspect').innerHTML='';return;}
-  const {owner,zone,c}=s,mine=owner===seat,hidden=c.faceDown&&!mine,fixed=['mp','mastery','sensei'].includes(zone);
-  $('inspect').innerHTML=`${hidden?'<img class="preview-image" src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="Face-down card">':c.image?`<img class="preview-image" src="${esc(c.image)}" alt="${esc(c.name)}" referrerpolicy="no-referrer">`:'<div class="large-placeholder">Z</div>'}${c.image&&!hidden?'<button id="enlarge-card" class="wide">Enlarge card <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3h7v7M21 3 10 14"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg></button>':''}<h3>${esc(hidden?'Face-down card':c.name)}</h3><p>${esc(hidden?'Hidden':c.id)} · ${labels[zone]}</p>${mine&&zone==='senseiDeck'&&game.status==='setup'?'<p class="fine">Choose cards in the Sensei swap checkboxes below your table, then swap them together.</p>':''}${mine&&game.status==='playing'&&!fixed?`<label>Move to<select id="destination">${Object.entries(labels).filter(([z])=>z!==zone&&!['mp','mastery','sensei'].includes(z)).map(([z,l])=>`<option value="${z}">${l}${z==='deck'?' (top)':''}</option>`).join('')}${zone!=='deck'?'<option value="deck-bottom">Life Deck (bottom)</option>':''}</select></label><button class="primary wide" id="move-selected">Move card <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>${!['hand','deck','senseiDeck'].includes(zone)?`<div class="toolbar"><button data-card-action="rest">${c.rested?'Mark unused':'Mark used'}</button><button data-card-action="flip">Flip</button></div>${zone==='allies'?'<div class="toolbar"><button data-card-action="stages" data-delta="-1">−1 stage</button><button data-card-action="stages" data-delta="1">+1 stage</button></div>':''}${zone==='dragonballs'?'<button data-card-action="giveDragonBall">Transfer to opponent</button>':''}`:''}`:''}`;
+function getSelected() {
+  if (!selected) return null;
+  const [owner, zone, uid] = selected.split(':'), p = game?.players[+owner];
+  const c = zone === 'mp' ? p?.personalities.find(card => card.uid === uid)
+    : ['mastery', 'sensei'].includes(zone) ? p?.[zone]
+    : zone === 'deck' ? p?.searchCards?.find(card => card.uid === uid)
+    : Array.isArray(p?.zones[zone]) ? p.zones[zone].find(card => card.uid === uid) : null;
+  return c ? {owner: +owner, zone, c: {...c, image: cardImage(c)}} : null;
+}
+function highlightSelectedCard() {
+  document.querySelectorAll('[data-card]').forEach(card => card.classList.toggle('selected', card.dataset.card === selected));
+}
+function openArenaCard(key) {
+  selected = key;
+  openPile = null;
+  if ($('pile-dialog').open) $('pile-dialog').close();
+  renderInspector();
+  highlightSelectedCard();
+  if (getSelected() && !$('card-zoom').open) $('card-zoom').showModal();
+}
+function renderInspector() {
+  const s = getSelected(), dialog = $('card-zoom');
+  if (!s) {
+    selected = null; $('inspect').innerHTML = '';
+    if (dialog.open) dialog.close();
+    return;
+  }
+  const {owner, zone, c} = s, mine = owner === seat, hidden = c.faceDown && !mine;
+  const fixed = ['mp', 'mastery', 'sensei'].includes(zone);
+  const image = $('card-zoom-image');
+  const source = hidden ? '/assets/dragon-ball-online-card-back.webp?v=burnt-red-1' : c.image;
+  $('card-zoom-art').hidden = !source;
+  $('card-zoom-placeholder').hidden = !!source;
+  if (source && image.getAttribute('src') !== source) { image.hidden = false; image.src = source; }
+  image.alt = hidden ? 'Face-down card' : c.name;
+  const level = zone === 'mp' ? game.players[owner].personalities.findIndex(card => card.uid === c.uid) + 1 : 0;
+  $('inspect').innerHTML = `<span class="eyebrow">${esc(labels[zone])}${level ? ` · Level ${level}` : ''}</span><h2 id="inspect-name">${esc(hidden ? 'Face-down card' : c.name)}</h2><p class="inspect-meta">${esc(hidden ? 'Hidden card' : c.id)}${c.rested && !hidden ? ' · Used' : ''}${mine && c.faceDown ? ' · Face down' : ''}</p>
+    ${zone === 'mp' ? '<button type="button" id="view-mp-levels">View all levels</button>' : ''}
+    ${mine && zone === 'senseiDeck' && game.status === 'setup' ? '<p class="fine">Close this view to choose your Sensei swap cards below the table.</p>' : ''}
+    ${mine && game.status === 'playing' && !fixed ? `<div class="inspect-actions"><label for="destination">Move to</label><select id="destination">${Object.entries(labels).filter(([z]) => z !== zone && !['mp','mastery','sensei'].includes(z)).map(([z,l]) => `<option value="${z}">${l}${z === 'deck' ? ' (top)' : ''}</option>`).join('')}${zone !== 'deck' ? '<option value="deck-bottom">Life Deck (bottom)</option>' : ''}</select><button type="button" class="primary wide" id="move-selected">Move card <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+      ${!['hand','deck','senseiDeck'].includes(zone) ? `<div class="toolbar"><button type="button" data-card-action="rest">${c.rested ? 'Mark unused' : 'Mark used'}</button><button type="button" data-card-action="flip">Flip</button></div>${zone === 'allies' ? '<div class="toolbar"><button type="button" data-card-action="stages" data-delta="-1">−1 stage</button><button type="button" data-card-action="stages" data-delta="1">+1 stage</button></div>' : ''}${zone === 'dragonballs' ? '<button type="button" class="wide" data-card-action="giveDragonBall">Transfer to opponent</button>' : ''}` : ''}</div>` : ''}`;
 }
 
 document.addEventListener('click', e => {
@@ -223,16 +257,22 @@ document.addEventListener('click', e => {
   if(e.target.closest('[data-edit-power]')) { const value=prompt('Current power from the printed card at your current stage:',game.players[seat].power??''); if(value!==null&&value.trim()!=='')send({type:'power',value:Number(value.replaceAll(',',''))}); return; }
   const pile = e.target.closest('[data-pile]');
   if (pile) { const [owner, zone] = pile.dataset.pile.split(':'); openPile = { owner: Number(owner), zone }; renderPile(); $('pile-dialog').showModal(); return; }
-  const preview=e.target.closest('[data-mp-preview]'); if(preview){const [owner,index]=preview.dataset.mpPreview.split(':').map(Number),c=game.players[owner].personalities[index],image=cardImage(c);if(image){$('card-zoom-image').src=image;$('card-zoom-image').alt=c.name;$('card-zoom').showModal();}return;}
-  const card = e.target.closest('[data-card]');
-  if(card&&card.dataset.card.split(':')[1]==='mp'){openPile={owner:Number(card.dataset.card.split(':')[0]),zone:'mp'};renderPile();$('pile-dialog').showModal();return;}
-  if(card&&card.closest('.free-table')&&card.dataset.card.startsWith(seat+':')&&playZones.includes(card.dataset.card.split(':')[1])&&game.status==='playing'){
-   const key=card.dataset.card;
-   if(cardTap===key){clearTimeout(cardTapTimer);cardTap=null;const [,from,uid]=key.split(':');send({type:'rest',from,uid});return;}
-   clearTimeout(cardTapTimer);cardTap=key;cardTapTimer=setTimeout(()=>{cardTap=null;selected=key;render();},300);return;
+  const preview = e.target.closest('[data-mp-preview]');
+  if (preview) {
+    const [owner, index] = preview.dataset.mpPreview.split(':').map(Number), c = game.players[owner]?.personalities[index];
+    if (c) openArenaCard(`${owner}:mp:${c.uid}`);
+    return;
   }
-  if (card) { if (card.closest('#pile-dialog')) { $('pile-dialog').close(); openPile = null; } selected = card.dataset.card; render(); return; }
-  if(e.target.closest('#enlarge-card')){const s=getSelected();if(s?.c.image&&!(s.c.faceDown&&s.owner!==seat)){const im=$('card-zoom-image');im.src=s.c.image;im.alt=s.c.name;$('card-zoom').showModal();}return;}
+  const card = e.target.closest('[data-card]');
+  if (card) { openArenaCard(card.dataset.card); return; }
+  if (e.target.closest('#view-mp-levels')) {
+    const s = getSelected();
+    if (s?.zone === 'mp') {
+      $('card-zoom').close();
+      openPile = {owner: s.owner, zone: 'mp'}; renderPile(); $('pile-dialog').showModal();
+    }
+    return;
+  }
   const action = e.target.closest('[data-action]');
   if (action) { if (action.dataset.action === 'concede' && !confirm('Concede this game?')) return; send(action.dataset.action === 'draw3' ? { type: 'draw', count: 3 } : { type: action.dataset.action, ...(action.dataset.combat !== undefined ? { combat: action.dataset.combat === 'true' } : {}) }); }
   const counter = e.target.closest('[data-counter]'); if (counter) send({ type: 'counter', counter: counter.dataset.counter, delta: Number(counter.dataset.delta) });
@@ -250,7 +290,7 @@ document.addEventListener('pointerdown',e=>{
 document.addEventListener('pointermove',e=>{
  const d=dragging;if(!d||e.pointerId!==d.pointer)return;
  if(!d.ghost&&Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<7)return;
- if(!d.ghost){clearTimeout(cardTapTimer);cardTap=null;d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
+ if(!d.ghost){d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
  d.y=e.clientY;e.preventDefault();d.ghost.style.left=(e.clientX-35)+'px';d.ghost.style.top=(e.clientY-45)+'px';
 },{passive:false});
 document.addEventListener('pointerup',e=>{
@@ -320,6 +360,8 @@ document.addEventListener('change', e => { if(e.target.id==='first-player')send(
 
 $('close-card-zoom').onclick=()=>$('card-zoom').close();
 
-$('close-card-controls').onclick=()=>{selected=null;renderInspector();document.querySelectorAll('.card.selected').forEach(c=>c.classList.remove('selected'));};
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('card-zoom').open){selected=null;renderInspector();}});
+$('card-zoom').addEventListener('close', () => {
+  if ($('card-zoom').open) return;
+  selected = null; $('inspect').innerHTML = ''; highlightSelectedCard();
+});
 restoreTable();

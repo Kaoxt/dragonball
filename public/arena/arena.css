@@ -1,0 +1,138 @@
+/* Arena-only layout and colors. Shared site styles remain unchanged. */
+body.arena-table-page {
+  --bg: #0d0e10;
+  --page-overlay: linear-gradient(110deg, #0d0e10f2, #121315e8 55%, #0d0e10f2);
+  --muted: #b9b9c0;
+  --arena-border: rgba(255, 255, 255, .12);
+  --arena-red: #87253f;
+  --arena-red-border: #ac3654;
+}
+.arena-table-page main {padding-top: 30px; padding-bottom: 38px}
+.arena-table-page .lobby {gap: clamp(32px, 6vw, 90px); align-items: center}
+body.arena-table-page .lobby-panel {
+  padding: 28px; border: 1px solid var(--arena-border); border-radius: 18px;
+  background: #191919; box-shadow: 0 20px 50px #0003;
+}
+.arena-table-page .lobby-panel .divider {margin: 24px 0 8px; color: #aaaab2}
+.arena-table-page .lobby-panel .fine {line-height: 1.7; color: #aaaab2}
+.arena-table-page .feature-row {color: #d6d6dc}
+.arena-table-page .feature-row b {color: #aaaab2}
+
+/* Quiet surfaces frame each player, with a compact shared status row. */
+.arena-table-page .workspace {gap: 20px; align-items: start}
+body.arena-table-page :is(.turn-bar, .setup-bar, .practice-notice, .hand-panel, .player-field, .side-panel, .table-management) {
+  background: #191919; border: 1px solid var(--arena-border); box-shadow: none;
+}
+body.arena-table-page .turn-bar {gap: 20px; padding: 18px 20px; border-radius: 14px 14px 0 0}
+.arena-table-page .turn-bar h2 {font-size: 21px; line-height: 1.3}
+.arena-table-page .turn-bar p {color: #b9b9c0; margin-top: 5px}
+body.arena-table-page .practice-notice {
+  padding: 10px 20px; border-top: 0; border-bottom: 0; color: #b9b9c0; line-height: 1.6;
+}
+body.arena-table-page .setup-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+  margin-bottom: 18px; padding: 14px 20px; border-top: 0; border-radius: 0 0 14px 14px;
+  color: #c9c9d0; font-size: 12px; line-height: 1.65;
+}
+.arena-table-page .setup-bar label {display: flex; align-items: center; gap: 10px; margin: 0; white-space: nowrap}
+.arena-table-page .setup-bar select {width: auto; max-width: 190px; margin: 0; padding: 9px 30px 9px 11px}
+.arena-table-page .setup-bar button {margin: 0}
+.arena-table-page .setup-bar[hidden] + #board {margin-top: 18px}
+.arena-table-page .turn-bar:has(~ .setup-bar[hidden]) {border-radius: 14px}
+body.arena-table-page .player-field {padding: 14px; margin: 0 0 16px; border-radius: 14px}
+.arena-table-page .player-meta {gap: 12px; margin: 0 0 12px; padding: 0 0 12px; border-color: var(--arena-border)}
+.arena-table-page .player-meta > strong {font-size: 13px; line-height: 1.5}
+.arena-table-page .player-meta .mp-readout {gap: 8px 12px}
+.arena-table-page .player-meta .power-readout {font-size: 11px; color: #bfc0c7}
+.arena-table-page .power-readout strong {color: #fff; font-size: 15px; font-variant-numeric: tabular-nums}
+.arena-table-page .counter {background: #222225 !important; border-color: var(--arena-border); border-radius: 7px}
+.arena-table-page .counter button {background: #303034; border-color: #48484e; color: #f5f5f5; border-radius: 5px}
+.arena-table-page .counter button:hover {background: #404046}
+.arena-table-page .power-readout button {background: #252528; border-color: #44444b}
+.arena-table-page .arena-mat {border-color: var(--arena-border); border-radius: 10px; padding: 10px}
+.arena-table-page .arena-dock {gap: 10px; padding: 8px 0 2px}
+.arena-table-page .arena-mat .empty-cover {background: #191a1c; border-color: #4e5055; color: #babcc3}
+.arena-table-page .pile-cover {background: #191a1c; border-color: #54565d}
+.arena-table-page .pile-cover.stacked {box-shadow: 3px 3px 0 #252528, 4px 4px 0 #54565d, 6px 6px 0 #252528, 7px 7px 0 #54565d}
+.arena-table-page .card.selected {outline-color: #dddde5}
+.arena-table-page .zone.drop-target {background: #ffffff0a; border-color: #b9b9c0}
+.arena-table-page .card-state {background: #171719ed}
+.arena-table-page .mp-stack-card {background: #191919; border-color: var(--arena-border)}
+.arena-table-page .mp-stack-card.active-level {background: #29292d; border-color: #b8b8c0}
+
+/* Action rows stay easy to scan without tinting the playing area. */
+.arena-table-page #controls {gap: 8px; padding: 0 0 16px}
+.arena-table-page #controls button {min-height: 40px; padding: 9px 15px; font-size: 12px}
+body.arena-table-page .hand-panel {padding: 18px; border-radius: 14px}
+.arena-table-page .hand-panel .section-label {margin-bottom: 16px; color: #c8c8d0}
+.arena-table-page #hand {gap: 12px}
+.arena-table-page .side-panel {padding: 18px; border-radius: 14px}
+.arena-table-page .log-panel .section-label {margin-bottom: 12px; color: #c8c8d0}
+.arena-table-page #log {line-height: 1.65; color: #c1c1c9}
+.arena-table-page #log li {padding: 9px 0; border-color: #ffffff0a}
+.arena-table-page #log time {color: #95959f}
+.arena-table-page #chat-form {margin-top: 14px; gap: 8px}
+body.arena-table-page .table-management {margin-top: 18px; padding: 16px 0 0; border-width: 1px 0 0; border-radius: 0; gap: 14px; background: transparent}
+.arena-table-page .table-management h1 {margin: 0; font-size: 17px}
+.arena-table-page .table-management .toolbar {gap: 8px}
+body.arena-table-page :is(#deck-dialog, #pile-dialog) {background: #191919; border: 1px solid var(--arena-border)}
+body.arena-table-page #toast {background: #29292e; border: 1px solid #505058; color: #fff; box-shadow: 0 8px 28px #0006}
+
+/* Primary buttons reuse the News page's red fill and hover treatment. */
+body.arena-table-page main :is(#create, #join-form button, #start-draw-test, #turn-bar button, #setup-bar [data-action], #controls [data-action="draw3"]),
+body.arena-table-page dialog :is(#move-selected, #deck-form button[type="submit"]) {
+  background: var(--arena-red); border: 1px solid var(--arena-red-border); color: #f5f5f5;
+  border-radius: 999px; box-shadow: none; font-weight: 600;
+  transition: background-color .18s ease, border-color .18s ease;
+}
+body.arena-table-page main :is(#create, #join-form button, #start-draw-test, #turn-bar button, #setup-bar [data-action], #controls [data-action="draw3"]):hover:not(:disabled),
+body.arena-table-page dialog :is(#move-selected, #deck-form button[type="submit"]):hover:not(:disabled) {
+  background: #a52c4b; border-color: #c14965; color: #f5f5f5;
+}
+
+/* One card view contains both the interactive artwork and its game controls. */
+body.arena-table-page #card-zoom {
+  width: min(960px, 96vw); max-height: 92dvh; padding: 16px 20px 24px;
+  border: 1px solid var(--arena-border); border-radius: 18px; background: #191919;
+}
+.arena-table-page #close-card-zoom {margin: 0 0 4px auto}
+.arena-card-layout {display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(220px, 1fr); align-items: center; gap: 28px}
+.arena-table-page #card-zoom .card-motion-view {--card-motion-height: 70dvh; align-self: center}
+.arena-card-info {min-width: 0; padding: 12px 8px 16px 0}
+.arena-card-info .eyebrow {font-size: 10px; color: #b9b9c0; letter-spacing: 1.5px; text-transform: uppercase}
+.arena-card-info h2 {font-size: clamp(23px, 2.5vw, 30px); line-height: 1.2; margin: 12px 0; overflow-wrap: anywhere}
+.arena-card-info .inspect-meta {font-size: 12px; color: #aaaab3; line-height: 1.6; overflow-wrap: anywhere}
+.arena-card-info button {min-height: 42px}
+.arena-card-info .inspect-actions {margin-top: 26px}
+.arena-card-info label {margin: 0 0 8px; color: #c8c8d0}
+.arena-card-info select {margin: 0 0 12px; font-size: 13px}
+.arena-card-info .toolbar {gap: 10px; margin-top: 12px}
+.arena-card-info .toolbar button {flex: 1; padding: 10px 12px}
+.arena-card-info .wide {margin-top: 12px}
+.arena-card-info .fine {margin-top: 18px; color: #b9b9c0}
+.arena-table-page #card-zoom-placeholder {display: grid; place-items: center; min-height: 280px; border: 1px dashed #52525a; border-radius: 12px; color: #b9b9c0}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .arena-table-page .workspace > aside {top: 104px; max-height: calc(100dvh - 120px)}
+}
+@media (max-width: 700px) {
+  .arena-table-page main {padding: 22px 4% 30px}
+  .arena-table-page .lobby-panel {padding: 22px}
+  .arena-table-page .turn-bar {padding: 15px; flex-wrap: wrap; gap: 12px}
+  .arena-table-page .turn-bar h2 {font-size: 19px}
+  .arena-table-page .practice-notice {padding: 8px 15px}
+  .arena-table-page .setup-bar {padding: 12px 15px; gap: 10px}
+  .arena-table-page .player-field {padding: 10px; border-radius: 12px}
+  .arena-table-page .player-meta {gap: 8px}
+  .arena-table-page .player-meta .mp-readout {width: 100%; justify-content: space-between}
+  .arena-table-page .arena-mat {padding: 6px}
+  .arena-table-page .arena-dock {gap: 4px}
+  .arena-table-page #controls {gap: 7px}
+  .arena-table-page #controls button {padding: 8px 12px}
+  .arena-table-page #card-zoom {padding: 12px 14px 20px}
+  .arena-card-layout {grid-template-columns: minmax(0, 1fr); gap: 18px}
+  .arena-table-page #card-zoom .card-motion-view {--card-motion-height: 48dvh}
+  .arena-card-info {padding: 16px 4px 0; border-top: 1px solid var(--arena-border)}
+  .arena-card-info h2 {font-size: 23px; margin: 8px 0}
+  .arena-card-info .inspect-actions {margin-top: 18px}
+}
