@@ -255,8 +255,7 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
 @font-face{font-family:'DB OCG Personality Numbers';src:url('/assets/fonts/db-ocg-personality-numbers.ttf?v=20261026-open-zero') format('truetype');font-style:normal;font-weight:400;font-display:swap}
 .manual .chapter-heading h2{flex:1;min-width:0;font-family:var(--font-ui);font-size:28px;font-weight:600;font-style:normal;text-transform:none;letter-spacing:-.02em;line-height:1.3;-webkit-text-stroke:0;text-shadow:none;overflow-wrap:anywhere;text-wrap:pretty;padding:0}
 .manual .chapter h3,.manual .chapter h4{text-transform:capitalize}
-/* One quiet divider and a stable number column keep wrapped titles aligned. */
-.manual .chapter .chapter-running{padding-bottom:0;margin-bottom:16px;border-bottom:0}
+/* A stable number column keeps wrapped chapter titles aligned. */
 .manual .chapter-heading{align-items:baseline;gap:14px;margin:0 0 20px;padding:0 0 16px;border:0;border-bottom:1px solid var(--rules-line);border-radius:0;background:none;box-shadow:none;overflow:visible}
 .manual .chapter-heading::after{content:none;display:none}
 .manual .chapter-heading>span{display:block;flex:0 0 2ch;align-self:baseline;transform:none;width:2ch;min-width:0;height:auto;padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:#e9a2b4;font-family:var(--font-ui);font-weight:600;font-style:normal;font-synthesis:none;font-size:24px;font-variant-numeric:tabular-nums;letter-spacing:0;line-height:1.3;-webkit-text-stroke:0}
@@ -287,4 +286,91 @@ body.rulebook-page .manual .manual-hero h1 img{width:auto;max-width:100%;height:
   color:#fff;text-decoration-color:currentColor;
  }
  body.rulebook-page .manual .chapter a[href]:any-link :is(strong,b){font-weight:inherit}
+}
+
+/* Neutral chapter plates and secondary copy match the current News surfaces. */
+@media screen{
+ body.rulebook-page{--rules-muted:rgba(246,247,249,.58)}
+ body.rulebook-page .manual .chapter{scroll-margin-top:110px}
+ body.rulebook-page .manual .chapter>.chapter-heading{
+  align-items:baseline;padding:16px 18px;margin:0 0 22px;
+  border:1px solid var(--surface-border);border-radius:8px;
+  background:var(--surface-raised);box-shadow:none;
+ }
+ body.rulebook-page .manual .chapter-heading>span{color:var(--rules-muted)}
+ body.rulebook-page .manual :is(
+  .manual-hero .eyebrow,.manual-hero .manual-description,.edition,.hero-card figcaption,
+  .chapter-nav .search-label,.chapter-nav #search-status,.nav-group,.format-label,
+  .card-use-label,.rule-source,.source-note,.credits,.chapter-lead,
+  .card-diagram figcaption a,.art-pending,.guide-next>span,.card-art-placeholder span
+ ){color:var(--rules-muted)}
+ body.rulebook-page .manual :is(
+  .chapter h3,.chapter h4,.chapter summary,.chapter details[open]>summary,
+  .rule-callout strong,.card-example>strong,.glossary dt,.pat-calculator output,
+  .format-table tbody th,.card-art-placeholder strong,.guide-next a
+ ){color:var(--content-copy)}
+ body.rulebook-page .manual .chapter p.chapter-lead{color:var(--rules-muted)}
+ body.rulebook-page .manual .chapter li::marker,
+ body.rulebook-page .manual .chapter summary::after{color:var(--rules-muted)}
+ body.rulebook-page .manual .chapter-links{scrollbar-color:#555 transparent}
+ body.rulebook-page .manual .chapter-links>a{
+  padding:10px 12px;border:1px solid transparent;border-radius:8px;
+  color:var(--rules-muted);background:transparent;
+ }
+ body.rulebook-page .manual .chapter-links :is(.visual-nav-link,.format-nav-link){
+  background:var(--surface-panel);border-color:var(--surface-border);color:var(--content-copy);
+ }
+ body.rulebook-page .manual .chapter-links>a:hover{
+  background:var(--surface-raised);border-color:var(--surface-border);color:var(--content-copy);
+ }
+ body.rulebook-page .manual .chapter-links>a[aria-current=location]{
+  background:#2b2b2b;border-color:rgba(255,255,255,.24);color:var(--content-copy);
+  box-shadow:inset 2px 0 0 var(--content-copy);
+ }
+ body.rulebook-page .manual :is(.browse-chapters,.guide-actions button){
+  background:var(--surface-raised);border:1px solid var(--surface-border);
+  border-radius:8px;color:var(--content-copy);min-height:44px;
+ }
+ body.rulebook-page .manual :is(.browse-chapters,.guide-actions button):hover{background:#2b2b2b}
+ body.rulebook-page .manual :is(.card-pin,.field-number),
+ body.rulebook-page .manual .turn-track li::before{
+  background:var(--surface-raised);border-color:#737373;color:var(--content-copy);
+  box-shadow:0 2px 8px #0005;
+ }
+ body.rulebook-page .manual .card-art-placeholder{
+  background:var(--surface-inset);border-color:var(--surface-border);color:var(--rules-muted);
+ }
+ body.rulebook-page .manual :is(.card-art-placeholder svg,.location-icon svg){color:var(--rules-muted)}
+ body.rulebook-page .manual :is(.pat-calculator label,.pat-table caption,.format-table caption){color:var(--rules-muted)}
+ body.rulebook-page .manual :is(.pat-table th,.pat-table td,.format-table td){color:var(--content-copy)}
+ body.rulebook-page .manual .pat-table .selected-damage{
+  background:#333;color:#fff;box-shadow:inset 0 0 0 2px #a6a7a8;
+ }
+ body.rulebook-page .manual .table-scroll{scrollbar-color:#555 var(--surface-inset)}
+ body.rulebook-page .manual :is(a,button,summary,select,input,.table-scroll):focus-visible{
+  outline:2px solid #a6a7a8;outline-offset:4px;
+ }
+ body.rulebook-page .manual .chapter-footer{
+  display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:12px 24px;
+  min-height:0;margin:26px 0 0;padding:16px 0 0;
+  border:0;border-top:1px solid var(--rules-line);background:transparent;
+  color:var(--rules-muted);text-align:left;box-shadow:none;
+ }
+ body.rulebook-page .manual .chapter-footer .guide-next{
+  display:flex;align-items:center;flex:1 1 320px;flex-wrap:wrap;gap:8px 20px;
+  margin:0;padding:0;border:0;
+ }
+ body.rulebook-page .manual .chapter-footer .guide-next a{min-height:44px}
+ body.rulebook-page .manual .chapter-top-link{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;
+  min-height:44px;margin-left:auto;padding:9px 14px;
+  border:1px solid var(--surface-border);border-radius:999px;
+  background:var(--surface-raised);color:var(--rules-muted);
+  font-size:13px;font-weight:600;line-height:1.4;text-decoration:none;
+ }
+ body.rulebook-page .manual .chapter-top-link:hover{background:#2b2b2b;color:var(--content-copy)}
+ @media(max-width:520px){
+  body.rulebook-page .manual .chapter>.chapter-heading{padding:14px 12px;margin-bottom:18px}
+  body.rulebook-page .manual .chapter-footer{margin-top:22px;padding-top:14px}
+ }
 }
