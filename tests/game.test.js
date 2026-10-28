@@ -149,3 +149,22 @@ test('stage, level, power-up and undo logs include the matching printed power',a
  act(g,0,{type:'ready'});act(g,1,{type:'ready'});act(g,0,{type:'powerUp'});assert.match(g.log.at(-1).text,/7 stages above 0, power 1,100/);
  g.players[0].stages=1;act(g,0,{type:'counter',counter:'stages',delta:-1});assert.match(g.log.at(-1).text,/0 stages above 0, power 0/);
 });
+
+
+test('Planning follows Draw and legacy Non-Combat saves advance to Power Up',()=>{
+ const g=playing();
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Planning');
+ assert.equal(view(g,1).phase,'Planning');
+ assert.match(g.log.at(-1).text,/Planning Step/);
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Power Up');
+ g.phase='Non-Combat';
+ assert.equal(view(g,0).phase,'Planning');
+ assert.equal(g.phase,'Non-Combat');
+ assert.throws(()=>act(g,1,{type:'phase'}));
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Power Up');
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Declare');
+});

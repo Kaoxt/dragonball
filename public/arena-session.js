@@ -17,6 +17,8 @@ export function readArenaSession() {
     if (saved?.version !== 1) return null;
     if (saved.kind === 'room' && validRoom(saved.room)) return { kind: 'room', room: saved.room };
     const g = saved.game;
+    // Migrate the old step name without dropping an otherwise valid saved table.
+    if (g?.phase === 'Non-Combat') g.phase = 'Planning';
     if (saved.kind !== 'practice' || ![0, 1].includes(saved.seat) || g?.ruleset !== 'score-dbz-v1') return null;
     if (!['setup', 'playing', 'finished'].includes(g.status) || !PHASES.includes(g.phase) || ![0, 1].includes(g.turn)) return null;
     if (!Array.isArray(g.log) || g.players?.length !== 2) return null;
@@ -32,3 +34,4 @@ export function sessionToRestore(hash, saved) {
   // An explicit invite always takes priority over an unrelated saved game.
   return validRoom(invitedRoom) ? { kind: 'room', room: invitedRoom } : saved;
 }
+

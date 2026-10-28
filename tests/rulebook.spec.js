@@ -4,14 +4,14 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await expect(page.getByRole('heading',{level:1,name:'Rules',exact:true})).toBeVisible();
   expect(await page.locator('.hero-card img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);
   await expect(page.locator('iframe, object, embed')).toHaveCount(0);
-  await expect(page.locator('[data-chapter]')).toHaveCount(20);
+  await expect(page.locator('[data-chapter]')).toHaveCount(21);
   await page.locator('#rule-search').fill('seventh');
   await expect(page.locator('#dragon-balls')).toBeVisible();
   await expect(page.locator('#dragon-balls details').last()).toHaveAttribute('open','');
   await page.locator('#rule-search').fill('no-rule-matches-this');
   await expect(page.locator('#no-results')).toBeVisible();
   await page.locator('#clear-search').click();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(21);
   await expect(page.locator('#expand-rules')).toHaveText('Collapse all');
   await page.locator('#expand-rules').click();
   expect(await page.locator('details[open]').count()).toBe(0);
@@ -24,7 +24,7 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await page.locator('#browse-chapters').click();
   await page.locator('.chapter-nav a[href="#setup"]').click();
   await expect(page.locator('#setup')).toBeVisible();
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(21);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   await page.locator('#rule-search').fill('endurance');
   await expect(page.locator('#endurance details').first()).toHaveAttribute('open','');
@@ -32,7 +32,7 @@ test('digital rulebook stays local, searches expanded rules and works on mobile'
   await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
   expect(await page.locator('details:not([open])').count()).toBe(0);
   await page.emulateMedia({media:'print'});
-  await expect(page.locator('[data-chapter]:visible')).toHaveCount(20);
+  await expect(page.locator('[data-chapter]:visible')).toHaveCount(21);
 });
 test('Physical Attack Table checks ratings, extremes and Z exception',async({page})=>{
   await page.goto('/rulebook/#damage');
@@ -82,3 +82,4 @@ test('illustrated guide supports tabs, search and mobile navigation',async({page
   await page.emulateMedia({media:'print'});
   await expect(page.locator('[data-card-panel]:visible')).toHaveCount(9);
 });
+

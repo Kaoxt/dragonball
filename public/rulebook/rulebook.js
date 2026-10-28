@@ -121,7 +121,15 @@ function updateDamage() {
   const a = Number(attacker.value), d = Number(defender.value);
   const damage = a === 9 || d === 9 ? 2 : Math.min(8, Math.max(0, a - d + 1));
   document.querySelector('#pat-result').textContent = `Base damage: ${damage} power stage${damage === 1 ? '' : 's'}${a === 9 || d === 9 ? ' (Z rating)' : ''}`;
-  document.querySelectorAll('.pat-table td').forEach(cell => cell.classList.toggle('selected-damage', Number(cell.dataset.atk) === a && Number(cell.dataset.def) === d));
+  document.querySelectorAll('.pat-table td').forEach(cell => {
+    const selected = Number(cell.dataset.atk) === a && Number(cell.dataset.def) === d;
+    cell.classList.toggle('selected-damage', selected);
+    if (selected) cell.setAttribute('aria-current', 'true');
+    else cell.removeAttribute('aria-current');
+  });
+  document.querySelectorAll('.pat-table tbody tr').forEach((row, index) => row.classList.toggle('selected-attacker', a < 9 && d < 9 && index === a));
+  document.querySelectorAll('.pat-table thead tr:last-child th').forEach((cell, index) => cell.classList.toggle('selected-defender', a < 9 && d < 9 && index === d));
+  document.querySelector('.pat-special').classList.toggle('is-active', a === 9 || d === 9);
 }
 attacker.addEventListener('change', updateDamage);
 defender.addEventListener('change', updateDamage);
@@ -150,4 +158,5 @@ window.addEventListener('scroll', queueChapterLocation, { passive: true });
 search.addEventListener('input', queueChapterLocation);
 window.addEventListener('hashchange', queueChapterLocation);
 updateChapterLocation();
+
 

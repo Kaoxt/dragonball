@@ -53,6 +53,17 @@ test('multiplayer remembers only its room and an explicit invite wins over saved
   assert.deepEqual(sessionToRestore('#' + other, { kind: 'practice', game: practice(), seat: 0 }), { kind: 'room', room: other });
   clearArenaSession(); assert.equal(readArenaSession(), null);
 });
+test('practice saved during the former Non-Combat step restores as Planning', t => {
+  storage(t);
+  const game = practice(); game.phase = 'Non-Combat';
+  const players = structuredClone(game.players);
+  saveArenaSession({ kind: 'practice', seat: 0, game });
+  const restored = readArenaSession();
+  assert.equal(restored.game.phase, 'Planning');
+  assert.deepEqual(restored.game.players, players);
+  act(restored.game, 0, { type: 'phase' });
+  assert.equal(restored.game.phase, 'Power Up');
+});
 test('invalid or unavailable storage never prevents entering the Arena', t => {
   const values = storage(t);
   for (const invalid of ['{', '{"version":2}', JSON.stringify({ version: 1, kind: 'room', room: '../other' }),
@@ -63,3 +74,4 @@ test('invalid or unavailable storage never prevents entering the Arena', t => {
   assert.equal(readArenaSession(), null); assert.equal(saveArenaSession({ kind: 'room', room: 'a'.repeat(32) }), false);
   assert.doesNotThrow(clearArenaSession);
 });
+
