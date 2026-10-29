@@ -16,6 +16,7 @@
  }
  html[data-site-design=v2] body{background-color:var(--bg)}
  html[data-site-design=v2] body .site-header{
+  max-width:1491px;width:calc(100% - 16px);
   min-height:56px;height:56px;padding:6px clamp(44px,9vw,128px);gap:12px;
   background:transparent;border:0;border-radius:0;box-shadow:none;
   -webkit-backdrop-filter:none;backdrop-filter:none;isolation:isolate;
