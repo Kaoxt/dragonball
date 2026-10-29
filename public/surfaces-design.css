@@ -16,7 +16,7 @@
 
  /* Consistent content surfaces, with the playmat still visible between panels. */
  html[data-site-design=v2] body.arena-page :is(
-  .news-post,.next-move,.community-links,.filters,.lobby-panel,.account-card,
+  .next-move,.community-links,.filters,.lobby-panel,.account-card,
   .chapter-nav,.pat-calculator,.table-scroll
  ),
  html[data-site-design=v2] body.arena-page .manual .chapter,
@@ -51,10 +51,37 @@
   --forum-post-inner-radius:2px;
  }
  html[data-site-design=v2] body.home-page .community-links {padding:18px}
- /* Borderless news stories have a full-width brush heading. */
- html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;border:0;border-image:none;border-radius:0;box-shadow:none}
+ /* News reads directly on the page; only its title keeps the brush artwork. */
+ html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;background:none;border:0;border-image:none;border-radius:0;box-shadow:none}
  html[data-site-design=v2] body.home-page .news-post .release-tag {display:none}
  html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
+
+ /* Compact charcoal actions echo the navigation and neutral forum controls. */
+ html[data-site-design=v2] body.home-page main .news-post .post-actions {
+  align-items:center;gap:10px 12px;margin-top:22px;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link),
+ html[data-site-design=v2] body.home-page main button.news-load-more {
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;max-width:100%;box-sizing:border-box;padding:10px 16px;
+  border:1px solid #465058;border-radius:8px;background:#252c31;color:#f5f6fa;
+  font-size:14px;font-weight:600;line-height:1.3;text-align:center;
+  box-shadow:none;text-decoration:none;transform:none;
+  transition:background-color .15s ease,border-color .15s ease,color .15s ease;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link) {
+  background:#1b2126;border-color:#39434b;color:#dce2e7;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled),
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):hover,
+ html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
+  background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
+ html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
+  outline:2px solid #c2c8cd;outline-offset:3px;
+ }
 
  /* The new-topic controls sit directly on the page, without a panel behind them. */
  html[data-site-design=v2] body.arena-page .forum-shell .forum-list-heading {
@@ -144,6 +171,9 @@
 
  @media(max-width:700px) {
   html[data-site-design=v2] body.home-page .news-post {padding:0 18px 20px;margin-bottom:18px}
+  html[data-site-design=v2] body.home-page main .news-post .post-actions {gap:10px}
+  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+  html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link) {padding:10px 12px}
   html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2),
   html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:12px calc(22px + 6.5%) 12px 22px}
   html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -18px;padding:12px max(24px,7.5%)}
