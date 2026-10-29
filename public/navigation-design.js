@@ -9,12 +9,12 @@ let selected = valid(requested) ? requested : valid(saved) ? saved : 'v2';
 
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
-stylesheet.href = '/navigation-design.css?v=20261029-v2-matched-dark-brush';
+stylesheet.href = '/navigation-design.css?v=20261029-v2-shared-dark-brush';
 document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261029-v2-darker-webp-frame';
+surfaces.href = '/surfaces-design.css?v=20261029-v2-shared-dark-brush';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

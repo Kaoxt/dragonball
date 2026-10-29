@@ -12,6 +12,9 @@
   /* Keep the site's real playmat artwork and luminosity blend underneath. */
   --page-overlay:linear-gradient(90deg,#2b2f33e6,#2b2f33c7 55%,#2b2f33e0);
   --site-header-height:56px;
+  /* One shared fill keeps every Version 2 title brush matched to navigation. */
+  --v2-brush-fill-base:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
+  --v2-brush-fill:linear-gradient(#0005,#0005),var(--v2-brush-fill-base);
   background-color:var(--bg);
  }
  html[data-site-design=v2] body{background-color:var(--bg)}
@@ -43,7 +46,7 @@
  }
  html[data-site-design=v2] .site-header-brush::before{
   inset:0;z-index:1;
-  background:linear-gradient(#0005,#0005),repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
+  background:var(--v2-brush-fill);
  }
  html[data-site-design=v2] .site-header-brush::after{
   inset:1px -6px -1px;z-index:0;

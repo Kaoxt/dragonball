@@ -6,7 +6,6 @@
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
   --v2-panel-fill:url('/assets/panel-worn-v2.webp');
-  --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
 
  /* Paint the playmat once on a viewport-sized layer, independent of article
@@ -99,7 +98,7 @@
     dates and post counts. Reading copy keeps its existing off-white contrast. */
  html[data-site-design=v2] body.community-page .forum-shell {
   --issue-muted:#b8c0c6;
-  --forum-title-fill:linear-gradient(#0005,#0005),var(--v2-brush-fill);
+  --forum-title-fill:var(--v2-brush-fill);
  }
  html[data-site-design=v2] body.community-page .forum-shell .issue-note {color:#b8c0c6}
  /* Neutral forum actions match the charcoal navigation instead of the old plum palette. */
@@ -127,7 +126,7 @@
   background:transparent;border-color:transparent;color:#fff;
  }
  html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled)::before {
-  background:var(--v2-brush-fill);
+  background:var(--v2-brush-fill-base);
  }
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:focus-visible,
  html[data-site-design=v2] body.community-page main .forum-shell #new-topic:focus-visible {
@@ -154,7 +153,7 @@
      decorative paint is clipped; heading text and controls remain untouched. */
   clip-path:inset(0 0 0 max(0px,calc(6.5% - 3px)));
  }
- html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -24px;line-height:1.18;padding:14px max(24px,7.5%)}
+ html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -24px;line-height:1.18;padding:14px max(24px,7.5%);text-transform:uppercase}
  html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2::before {
   inset:0 calc(-1 * clamp(12px,2vw,28px)) 0 calc(-1 * clamp(12px,3.5vw,44px));clip-path:none;
  }
