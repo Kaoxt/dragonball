@@ -9,6 +9,11 @@
   --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
 
+ /* News keeps the playmat artwork but lets it scroll with the reading surface.
+    A fixed, luminosity-blended body background repaints beneath each article;
+    Forums already avoids this on touch devices. This also covers News details. */
+ html[data-site-design=v2] body.arena-page.home-page {background-attachment:scroll}
+
  /* Consistent content surfaces, with the playmat still visible between panels. */
  html[data-site-design=v2] body.arena-page :is(
   .news-post,.next-move,.community-links,.filters,.lobby-panel,.account-card,

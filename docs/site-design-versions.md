@@ -8,6 +8,8 @@ Version 2 also loads `public/surfaces-design.css`: card power-box frames, card-t
 
 Texture asset provenance: generated with the built-in Image Generation tool from the user-approved forum preview on 2026-10-29, then encoded as WebP for delivery. Prompt: extract only the panel interior; remove all text, icons, dividers, brush, frame and caps; retain very dark cool charcoal mottling, a quiet center, and fine irregular branching cracks and worn grain concentrated at the perimeter. Avoid repeated diagonal scratches or artificial hatching.
 
+News scrolling: Version 2 News and article-detail pages let the playmat background scroll with the document instead of using a fixed, luminosity-blended body background. This follows the existing Forums touch-device optimization without removing the page artwork or panel texture. The panel WebP is 33,818 bytes; it is shared across the panels. The navigation remains sticky and 56px high.
+
 The preceding Version 2 panel style is saved at commit `4125c31a4a08f388baba10468aa166c0e107b6c0` if the power-box experiment needs to be reverted independently of the navigation.
 
 Version 1 remains in `public/navigation.css` and the original background styles. Those files are unchanged. Every new design rule is scoped to `html[data-site-design=v2]`, so choosing Version 1 immediately restores the original header and background without replacing any source or account/game data.
