@@ -9,7 +9,7 @@ let selected = valid(requested) ? requested : valid(saved) ? saved : 'v2';
 
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
-stylesheet.href = '/navigation-design.css?v=20261029-v2-shared-dark-brush';
+stylesheet.href = '/navigation-design.css?v=20261029-v2-brush-menu-icons';
 document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');

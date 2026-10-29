@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261029-matching-topic-actions';
+import './navigation-design.js?v=20261029-v2-brush-menu-icons';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
