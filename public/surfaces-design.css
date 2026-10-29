@@ -112,27 +112,28 @@
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:hover {
   background:#33383d;color:#fff;border-color:#ffffff40;
  }
- /* A compact brush replaces the pill without shrinking the touch target.
+ /* Start and reply actions share a compact brush without shrinking the touch target.
     The silhouette is only on the paint, leaving the focus outline unobstructed. */
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic {
-  position:relative;isolation:isolate;min-height:44px;padding:10px 26px;
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut) {
+  position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;
+  flex:0 0 auto;min-height:44px;padding:10px 26px;font-size:14px;font-weight:600;line-height:1.2;
   background:transparent;border:1px solid transparent;border-radius:5px;
   color:#f5f6fa;box-shadow:none;white-space:nowrap;
  }
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic::before {
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut)::before {
   content:"";position:absolute;inset:3px 0;z-index:-1;pointer-events:none;
   background:var(--forum-title-fill);
   -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
   mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
  }
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled) {
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):hover:not(:disabled) {
   background:transparent;border-color:transparent;color:#fff;
  }
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled)::before {
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):hover:not(:disabled)::before {
   background:var(--v2-brush-fill-base);
  }
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:focus-visible,
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic:focus-visible {
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):focus-visible {
   outline:2px solid #c2c8cd;outline-offset:3px;
  }
 

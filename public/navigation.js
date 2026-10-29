@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261029-v2';
+import './navigation-design.js?v=20261029-matching-topic-actions';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
