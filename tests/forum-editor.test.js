@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import fs from 'node:fs';
-const context=vm.createContext({window:{},URL});
+const context=vm.createContext({window:{addEventListener(){}},URL});
 vm.runInContext(fs.readFileSync(new URL('../public/forum/common.js',import.meta.url),'utf8'),context);
 vm.runInContext(fs.readFileSync(new URL('../public/forum/editor.js',import.meta.url),'utf8'),context);
 const {render}=context.window.DragonForumEditor;
