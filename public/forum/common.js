@@ -1,10 +1,45 @@
 (() => {
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  async function api(params={},data){
-    try {
-    const response=await (window.DragonNetwork?.fetch || fetch)('/api/forum?'+new URLSearchParams(params),{credentials:'same-origin',cache:'no-store',...(!data?{signal:AbortSignal.timeout(15000)}:{}),...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
-    const result=await response.json().catch(()=>{throw Error('Unable to load the response. Please try again.');});if(!response.ok)throw Error(result.error||'Unable to connect. Please try again.');return result;
-    } catch(error) { if(['AbortError','TimeoutError'].includes(error.name))throw Error('The connection took too long. Please try again.');throw error; }
+  // Short-lived, page-local reuse makes Back immediate without persisting account data.
+  const readCache=new Map(),pendingReads=new Map();
+  const reusableViews=new Set(['news','newsTopic','newsLegacy','categories','list','topic','member','followed']);
+  let readEpoch=0;
+  function clearReadCache(){readEpoch++;readCache.clear();pendingReads.clear();}
+  window.addEventListener('dragon:auth-signed-out',clearReadCache);
+  window.addEventListener('dragon:auth-signed-in',clearReadCache);
+  async function api(params={},data,{reuse=false}={}){
+    if(data)clearReadCache();
+    const query=new URLSearchParams(params);query.sort();
+    const key=query.toString(),cacheable=!data&&reuse&&reusableViews.has(params.view);
+    if(cacheable){
+      const cached=readCache.get(key);
+      if(cached&&cached.expires>Date.now())return structuredClone(cached.value);
+      readCache.delete(key);
+      if(pendingReads.has(key))return structuredClone(await pendingReads.get(key));
+    }
+    const epoch=readEpoch;
+    const request=(async()=>{
+      try{
+        const response=await (window.DragonNetwork?.fetch || fetch)('/api/forum?'+key,{credentials:'same-origin',cache:'no-store',...(!data?{signal:AbortSignal.timeout(15000)}:{}),...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});
+        const result=await response.json().catch(()=>{throw Error('Unable to load the response. Please try again.');});
+        if(!response.ok)throw Error(result.error||'Unable to connect. Please try again.');
+        if(data)clearReadCache(); // Also discard reads started while the write was in flight.
+        return result;
+      }catch(error){
+        if(['AbortError','TimeoutError'].includes(error.name))throw Error('The connection took too long. Please try again.');
+        throw error;
+      }
+    })();
+    if(!cacheable)return request;
+    pendingReads.set(key,request);
+    try{
+      const value=await request;
+      if(epoch===readEpoch){
+        while(readCache.size>=8)readCache.delete(readCache.keys().next().value);
+        readCache.set(key,{value:structuredClone(value),expires:Date.now()+15000});
+      }
+      return value;
+    }finally{if(pendingReads.get(key)===request)pendingReads.delete(key);}
   }
   const date=value=>new Date(value).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'});
   const author=(m,{avatarOnly=false}={})=>`<a class="forum-author" aria-label="${esc(m.author)}" href="/forums/#member/${encodeURIComponent(m.member_id)}">${window.DragonIssueMedia.avatar(m.author,m.avatar_url,m.avatar_color)}${avatarOnly?'':`<span>${esc(m.author)}</span>`}</a>`;
@@ -25,4 +60,5 @@
   }
   window.DragonForum={esc,api,date,author,flags,rows,submit,stat};
 })();
+
 

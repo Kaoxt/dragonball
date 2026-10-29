@@ -9,10 +9,17 @@
   --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
 
- /* News keeps the playmat artwork but lets it scroll with the reading surface.
-    A fixed, luminosity-blended body background repaints beneath each article;
-    Forums already avoids this on touch devices. This also covers News details. */
- html[data-site-design=v2] body.arena-page.home-page {background-attachment:scroll}
+ /* Paint the playmat once on a viewport-sized layer, independent of article
+    expansion and route height. The artwork no longer scales with the document. */
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page) {
+  isolation:isolate;background-image:none;
+ }
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page)::before {
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-color:var(--bg);background-image:var(--page-overlay),url('/assets/burnt-orange-playmat.webp');
+  background-size:cover;background-position:center top;background-blend-mode:normal,luminosity;
+  transform:translateZ(0);
+ }
 
  /* Consistent content surfaces, with the playmat still visible between panels. */
  html[data-site-design=v2] body.arena-page :is(
@@ -30,7 +37,7 @@
  }
 
  /* Card power-box framing belongs to the main panels, not every nested control.
-    A nine-slice border keeps chamfers and distressed rails crisp at any panel size.
+    A 2x WebP nine-slice keeps chamfers and distressed rails crisp without live SVG grain filters.
     The full-panel texture has worn edges and a quiet center without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
     from full-width rows; existing content padding is otherwise preserved. */
@@ -44,7 +51,7 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-v2.svg?v=20261029-worn-charcoal') 28 / 28px / 0 stretch;
+  border-image:url('/assets/power-panel-v2.webp?v=20261029-static-grain') 56 / 28px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
@@ -54,6 +61,7 @@
  /* News reads directly on the page; only its title keeps the brush artwork. */
  html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;background:none;border:0;border-image:none;border-radius:0;box-shadow:none}
  html[data-site-design=v2] body.home-page .news-post .release-tag {display:none}
+ html[data-site-design=v2] body.home-page .news-image-slot {display:block}
  html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
 
  /* Compact charcoal actions echo the navigation and neutral forum controls. */
@@ -133,21 +141,37 @@
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2 {
   display:block;min-height:0;margin:0 calc(-1 * var(--sidebar-pad)) 16px;
   padding:16px var(--sidebar-pad);font-family:var(--font-ui);font-size:22px;
-  font-weight:600;line-height:1.25;letter-spacing:-.02em;text-align:left;color:#f5f6fa;
+  font-weight:600;line-height:1.25;letter-spacing:-.02em;text-align:center;color:#f5f6fa;
  }
- html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:4px}
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
   clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%,0 12px);
  }
  html[data-site-design=v2] body.home-page .next-move>h2 img {display:none}
  html[data-site-design=v2] body.home-page .next-move-label {display:inline}
- html[data-site-design=v2] body.home-page .home-sidebar .hub-link {
-  background:#1b2126;border-color:#39434b;color:#f5f6fa;
+ /* Link rows meet the panel rails; only horizontal dividers remain. */
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-links {
+  gap:0;margin:0 calc(-1 * var(--sidebar-pad)) calc(-1 * var(--sidebar-pad));
  }
- html[data-site-design=v2] body.home-page .home-sidebar .hub-primary {background:#303940;border-color:#58656e}
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links {gap:0;padding-bottom:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links>.hub-link {margin-inline:calc(-1 * var(--sidebar-pad))}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link {
+  --hub-fill:#1b2126;position:relative;isolation:isolate;
+  padding:14px var(--sidebar-pad);background:transparent;border-color:#39434b;
+  border-width:1px 0;border-radius:0;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--hub-fill);
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link+.hub-link {border-top:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child {border-bottom:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px));
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-primary {--hub-fill:#303940;border-color:#58656e}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
- html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {background:#33383d;border-color:#65717a;color:#fff}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#33383d;background:transparent;border-color:#65717a;color:#fff}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
@@ -163,7 +187,20 @@
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:#ffffff08}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
- html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {background:var(--surface-inset)}
+ /* Clip only the inset paint, leaving post-action menus and focus rings free. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {
+  position:relative;isolation:isolate;background:transparent;border-radius:0;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author)::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--surface-inset);
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar {z-index:1}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar::before {
+  clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%,0 12px);
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {
+  clip-path:polygon(0 0,100% 0,100% 100%,12px 100%,0 calc(100% - 12px));
+ }
 
  /* Rule tables keep their semantic columns and existing horizontal scrolling. */
  html[data-site-design=v2] body.rulebook-page .manual .table-scroll {scrollbar-color:#59636c var(--surface-inset)}
@@ -191,6 +228,7 @@
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table .selected-damage {background:#f0f1f2;color:#14191d;box-shadow:inset 0 0 0 3px #b8c1c8;font-weight:700}
 
  @media(max-width:700px) {
+  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {clip-path:none}
   html[data-site-design=v2] body.home-page .news-post {padding:0 18px 20px;margin-bottom:18px}
   html[data-site-design=v2] body.home-page main .news-post .post-actions {gap:10px}
   html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,

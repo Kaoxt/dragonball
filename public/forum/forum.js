@@ -4,6 +4,17 @@
   const forumPage=newsPage?null:root.closest('.secondary-page');
   const pagePath=newsPage?'/':'/forums/';
   let version=0;
+  // Forum/news links stay in-page, including Back and links that omit the design query.
+  root.addEventListener('click',event=>{
+    if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+    const link=event.target.closest('a[href]');
+    if(!link||link.target||link.hasAttribute('download'))return;
+    const url=new URL(link.href,location.href),current=new URL(location.href);
+    url.searchParams.delete('design');current.searchParams.delete('design');
+    if(url.origin===current.origin&&url.pathname===current.pathname&&url.search===current.search&&(url.hash||location.hash)){
+      event.preventDefault();location.hash=url.hash;
+    }
+  });
   const backIcon='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14"/></svg>';
   const back=(href=pagePath,label=newsPage?'All news':'All forums')=>`<a class="forum-back" href="${href}">${backIcon}<span>${esc(label)}</span></a>`;
   const releaseField=(value='')=>`<label>GitHub release URL (optional)<input name="releaseUrl" type="url" maxlength="2048" placeholder="https://github.com/owner/repo/releases/tag/v1.0" value="${esc(value)}"></label>`;
@@ -148,9 +159,10 @@
       const fullBody=rich(t.body);
       // Use only an image already accepted and escaped by the shared renderer.
       const leadImage=fullBody.match(/<a class="forum-post-image"[^>]*><img[^>]*><\/a>/)?.[0]||'';
+      const articleBody=leadImage?fullBody.replace(leadImage,'<span class="news-image-slot" data-news-image-slot></span>'):fullBody;
       const readable=window.DragonForumEditor?.plainMentions?.(t.body)??t.body;
       const plain=readable.replace(/!\[([^\]\n]*)\]\(\/api\/forum\/images\/[0-9a-f-]{36}\)/gi,'').replace(/\[([^\]]+)\]\(https?:[^)]+\)/g,'$1').replace(/[*+`>#]/g,'').trim();
-      return `<article class="release news-article news-post" id="news-${t.id}"><div class="news-entry-content"><div class="release-tag">Dragon Ball Online</div><h2><a href="#topic/${t.id}">${esc(t.title)}</a></h2><div class="release-meta">${date(t.created_at)} · <a href="/forums/#member/${encodeURIComponent(t.member_id)}">${esc(t.author)}</a></div><div class="news-preview" data-summary>${leadImage?`<div class="forum-rich news-preview-image">${leadImage}</div>`:''}${plain?`<p class="release-summary">${esc(plain.split(/\n\s*\n/)[0].slice(0,320))}${plain.length>320?'…':''}</p>`:''}</div><div class="forum-rich news-full" id="news-body-${t.id}" hidden>${fullBody}</div></div><div class="release-actions post-actions"><button type="button" class="read-more" data-expand aria-expanded="false" aria-controls="news-body-${t.id}"><span data-expand-label>Show more</span><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m7 10 5 5 5-5"/></svg></button>${articleLink(t)}${releaseLink(t)}<a class="news-comment-link" href="#topic/${t.id}" aria-label="${t.reply_count} ${t.reply_count===1?'comment':'comments'} on ${esc(t.title)}" title="View comments"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg><span aria-hidden="true">${t.reply_count}</span></a></div></article>`;
+      return `<article class="release news-article news-post" id="news-${t.id}"><div class="news-entry-content"><div class="release-tag">Dragon Ball Online</div><h2><a href="#topic/${t.id}">${esc(t.title)}</a></h2><div class="release-meta">${date(t.created_at)} · <a href="/forums/#member/${encodeURIComponent(t.member_id)}">${esc(t.author)}</a></div><div class="news-preview" data-summary>${leadImage?`<div class="forum-rich news-preview-image">${leadImage}</div>`:''}${plain?`<p class="release-summary">${esc(plain.split(/\n\s*\n/)[0].slice(0,320))}${plain.length>320?'…':''}</p>`:''}</div><div class="forum-rich news-full" id="news-body-${t.id}" hidden>${articleBody}</div></div><div class="release-actions post-actions"><button type="button" class="read-more" data-expand aria-expanded="false" aria-controls="news-body-${t.id}"><span data-expand-label>Show more</span><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m7 10 5 5 5-5"/></svg></button>${articleLink(t)}${releaseLink(t)}<a class="news-comment-link" href="#topic/${t.id}" aria-label="${t.reply_count} ${t.reply_count===1?'comment':'comments'} on ${esc(t.title)}" title="View comments"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg><span aria-hidden="true">${t.reply_count}</span></a></div></article>`;
   };
   function newsView(d){
     root.innerHTML=`<div id="forum-list">${d.articles.map(newsArticle).join('')||'<p>No news posts yet.</p>'}</div>${d.hasMore?'<div class="news-load-more-wrap"><button type="button" id="more-news" class="news-load-more" aria-controls="forum-list">Load more</button></div><p id="news-load-status" class="sr-only" role="status"></p>':''}`;
@@ -176,13 +188,50 @@
     };
   }
   function bindNewsExpand(){
-    root.querySelectorAll('[data-expand]').forEach(button=>button.onclick=()=>{const article=button.closest('article'),full=article.querySelector('.news-full'),show=full.hidden;full.hidden=!show;article.querySelector('[data-summary]').hidden=show;button.querySelector('[data-expand-label]').textContent=show?'Show less':'Show more';button.setAttribute('aria-expanded',String(show));});
+    root.querySelectorAll('[data-expand]').forEach(button=>button.onclick=()=>{
+      const article=button.closest('article'),full=article.querySelector('.news-full'),preview=article.querySelector('[data-summary]'),show=full.hidden;
+      const cover=article.querySelector('.news-preview-image'),slot=full.querySelector('[data-news-image-slot]');
+      // Keep the already-decoded image node in both states, in its original article position.
+      if(cover&&slot){
+        const image=(show?cover:slot).querySelector('.forum-post-image');
+        if(image)(show?slot:cover).append(image);
+      }
+      full.hidden=!show;preview.hidden=show;
+      button.querySelector('[data-expand-label]').textContent=show?'Show less':'Show more';
+      button.setAttribute('aria-expanded',String(show));
+    });
   }
-  async function load(){document.getElementById('forum-search-dialog')?.close();if($('post-news'))$('post-news').hidden=true;const current=++version;$('forum-error').textContent='';root.setAttribute('aria-busy','true');const [route,query='']=location.hash.slice(1).split('?'),params=new URLSearchParams(query),[view,key]=route.split('/');
-    forumPage?.classList.toggle('forum-topic-page',view==='topic');
-    if(newsPage)document.body.classList.toggle('news-detail-page',view==='topic'||view==='archive');
-    try{if(!newsPage&&['messages','notifications'].includes(view)){await window.DragonInbox.render(root,view,params,()=>current===version);return;}const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'?view:!view?'categories':'list'),...(key?{id:key}:{})});if(current!==version)return;document.title=(newsPage?'News':'Forums')+' | Dragon Ball OCG';if(newsPage){if(view==='topic'||view==='archive')topicView(data);else newsView(data);}else if(view==='topic')topicView(data);else if(view==='member')memberView(data,params);else if(!view)categoriesView(data);else listView(data,params);}catch(e){if(current!==version)return;root.innerHTML=back()+'<p><button id="retry-forum">Try again</button></p>';$('forum-error').textContent=e.message;$('retry-forum').onclick=load;}finally{if(current===version)root.removeAttribute('aria-busy');}}
+  async function load(){
+    document.getElementById('forum-search-dialog')?.close();
+    if($('post-news'))$('post-news').hidden=true;
+    const current=++version;
+    $('forum-error').textContent='';root.setAttribute('aria-busy','true');
+    const [route,query='']=location.hash.slice(1).split('?'),params=new URLSearchParams(query),[view,key]=route.split('/');
+    const applyLayout=()=>{
+      forumPage?.classList.toggle('forum-topic-page',view==='topic');
+      if(newsPage)document.body.classList.toggle('news-detail-page',view==='topic'||view==='archive');
+    };
+    try{
+      if(!newsPage&&['messages','notifications'].includes(view)){
+        applyLayout();await window.DragonInbox.render(root,view,params,()=>current===version);return;
+      }
+      const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'?view:!view?'categories':'list'),...(key?{id:key}:{})},undefined,{reuse:true});
+      if(current!==version)return;
+      // Keep the old layout stable until the new route is ready to paint.
+      applyLayout();document.title=(newsPage?'News':'Forums')+' | Dragon Ball OCG';
+      if(newsPage){if(view==='topic'||view==='archive')topicView(data);else newsView(data);}
+      else if(view==='topic')topicView(data);
+      else if(view==='member')memberView(data,params);
+      else if(!view)categoriesView(data);
+      else listView(data,params);
+    }catch(e){
+      if(current!==version)return;
+      root.innerHTML=back()+'<p><button id="retry-forum">Try again</button></p>';
+      $('forum-error').textContent=e.message;$('retry-forum').onclick=load;
+    }finally{if(current===version)root.removeAttribute('aria-busy');}
+  }
   window.addEventListener('hashchange',()=>{load();});window.addEventListener('dragon:auth-signed-out',load);window.addEventListener('dragon:auth-signed-in',load);load();
 })();
+
 
 
