@@ -5,7 +5,7 @@
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
-  --v2-panel-fill:linear-gradient(135deg,#252c31,#1c2226 65%);
+  --v2-panel-fill:linear-gradient(90deg,#1c222600,#1c222680 28%,#1c222680 72%,#1c222600),url('/assets/panel-distress-v2.svg');
   --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
 
@@ -19,34 +19,35 @@
   .issue-results,.issue-card:not(.forum-list-heading),.forum-topic-heading,.forum-post,.forum-navigation-row
  ),
  html[data-site-design=v2] body.arena-page #deck-panel {
-  background:var(--v2-panel-fill);
+  background:var(--v2-panel-fill);background-color:#1e2428;background-size:100% 100%,512px 512px;
   border:1px solid var(--surface-border);border-radius:7px;
   box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
  }
 
  /* Card power-box framing belongs to the main panels, not every nested control.
     A nine-slice border keeps chamfers and silver rails crisp at any panel size.
-    Its filled center supplies the charcoal background without clipping menus,
+    The independently tiled texture keeps its scale without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
     from full-width rows; existing content padding is otherwise preserved. */
  html[data-site-design=v2] body.arena-page :is(
-  .news-post,.next-move,.community-links,.lobby-panel,.account-card
+  .next-move,.community-links,.lobby-panel,.account-card
  ),
  html[data-site-design=v2] body.arena-page .manual .chapter,
  html[data-site-design=v2] body.arena-page .forum-shell :is(
   .issue-results,.forum-topic-heading,.forum-post
  ):not(.forum-list-heading),
  html[data-site-design=v2] body.arena-page #deck-panel {
-  background:none;border:6px solid transparent;border-radius:0;
-  border-image:url('/assets/power-panel-v2.svg?v=20261029-connected-charcoal') 24 fill / 24px / 0 stretch;
+  background:var(--v2-panel-fill);background-color:#1e2428;background-size:100% 100%,512px 512px;
+  background-clip:padding-box;border:6px solid transparent;border-radius:16px;
+  border-image:url('/assets/power-panel-v2.svg?v=20261029-textured') 24 / 24px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
   --forum-post-inner-radius:2px;
  }
  html[data-site-design=v2] body.home-page .community-links {padding:18px}
- /* Start the title brush directly beneath the panel's top bevel. */
- html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px}
+ /* Borderless news stories have a full-width brush heading. */
+ html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;border:0;border-image:none;border-radius:0;box-shadow:none}
  html[data-site-design=v2] body.home-page .news-post .release-tag {display:none}
  html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
 
@@ -91,7 +92,8 @@
      decorative paint is clipped; heading text and controls remain untouched. */
   clip-path:inset(0 0 0 max(0px,calc(6.5% - 3px)));
  }
- html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -10px;line-height:1.18}
+ html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -24px;line-height:1.18;padding:14px max(24px,7.5%)}
+ html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2::before {inset:0 -8px;clip-path:none}
  html[data-site-design=v2] body.home-page .next-move>h2 {margin:0 -5px 20px;min-height:58px}
  html[data-site-design=v2] body.home-page .community-links>h2 {margin:0 -5px 4px;font-size:22px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
@@ -99,12 +101,12 @@
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:10px 12px 0}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
- /* Forum lists: aligned columns, quiet stripes, and a neutral hover/focus cue. */
+ /* Forum rows share one continuous textured surface with a neutral hover/focus cue. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {
   padding:22px 24px;border-color:var(--surface-border);
   background:transparent;transition:background-color .15s ease;
  }
- html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(odd) {background:#ffffff03}
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(n) {background:transparent}
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:#ffffff08}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
@@ -139,6 +141,7 @@
   html[data-site-design=v2] body.home-page .news-post {padding:0 18px 20px;margin-bottom:18px}
   html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2),
   html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:12px calc(22px + 6.5%) 12px 22px}
+  html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -18px;padding:12px max(24px,7.5%)}
   html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {padding:18px 14px;gap:12px}
   html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:8px 8px 0;padding:12px calc(20px + 6.5%) 12px 20px}
   html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:12px 14px}
