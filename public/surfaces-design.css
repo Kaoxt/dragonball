@@ -38,7 +38,7 @@
  ):not(.forum-list-heading),
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:none;border:6px solid transparent;border-radius:0;
-  border-image:url('/assets/power-panel-v2.svg') 24 fill / 24px / 0 stretch;
+  border-image:url('/assets/power-panel-v2.svg?v=20261029-charcoal') 24 fill / 24px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
