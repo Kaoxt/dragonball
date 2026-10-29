@@ -1,3 +1,5 @@
+import './navigation-design.js?v=20261029-v2';
+
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
  const close=()=>{toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation');nav.classList.remove('is-open');};
@@ -5,3 +7,4 @@ if(toggle&&nav){
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){close();toggle.focus();}});
  document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))close();});
 }
+
