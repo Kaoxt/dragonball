@@ -14,7 +14,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261029-v2-shared-dark-brush';
+surfaces.href = '/surfaces-design.css?v=20261029-v2-neutral-controls-flush-headers';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
