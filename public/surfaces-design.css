@@ -172,12 +172,17 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
- /* Forum headings share the table texture and separate from rows with one rule. */
+ /* Full-width card-title texture with clean edges and a bottom divider.
+    Clip only the background at the top corners to expose the metal frame. */
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {
-  margin:0;padding:18px 24px;background:transparent;
+  position:relative;isolation:isolate;margin:0;padding:18px 24px;background:transparent;
   border:0;border-bottom:1px solid var(--surface-border);border-radius:0;box-shadow:none;
  }
- html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {content:none}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:var(--v2-brush-fill);-webkit-mask:none;mask:none;filter:none;
+  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
+ }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
  /* Forum rows keep the same continuous texture on hover and keyboard focus. */
