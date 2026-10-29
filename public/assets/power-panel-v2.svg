@@ -23,7 +23,8 @@
     <use href="#cap" transform="translate(0 96) scale(1 -1)"/>
     <use href="#cap" transform="translate(96 96) scale(-1 -1)"/>
   </g>
-  <path d="m5 17 12-12m62 0 12 12M5 79l12 12m62 0 12-12" fill="none" stroke="#69757e" stroke-opacity=".4"/>
+  <!-- One continuous bevel joins the rails to all four corner accents. -->
+  <path d="M4 16 16 4h64l12 12v64L80 92H16L4 80Z" fill="none" stroke="#69757e" stroke-opacity=".4" stroke-linejoin="miter"/>
   <!-- Quiet etched detail at the perimeter; the central reading area stays plain. -->
   <path d="m10 30 8-8m-8 15 13-13m-13 54 8 8m60-76 8 8m-8 60 8-8m-16 16 13-13" fill="none" stroke="#91a0ab" stroke-opacity=".07" stroke-width=".7"/>
 </svg>
