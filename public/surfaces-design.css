@@ -95,15 +95,39 @@
  html[data-site-design=v2] body.arena-page .forum-shell .forum-list-heading {
   background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;
  }
+ /* Neutral secondary copy replaces the legacy pink tint in category descriptions,
+    dates and post counts. Reading copy keeps its existing off-white contrast. */
+ html[data-site-design=v2] body.community-page .forum-shell {
+  --issue-muted:#b8c0c6;
+  --forum-title-fill:linear-gradient(#0005,#0005),var(--v2-brush-fill);
+ }
+ html[data-site-design=v2] body.community-page .forum-shell .issue-note {color:#b8c0c6}
  /* Neutral forum actions match the charcoal navigation instead of the old plum palette. */
- html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a,
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic {
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a {
   background:#252c31;color:#f5f6fa;border-color:#ffffff26;box-shadow:none;
   min-height:44px;transition:background-color .15s ease,border-color .15s ease;
  }
- html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:hover,
- html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled) {
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:hover {
   background:#33383d;color:#fff;border-color:#ffffff40;
+ }
+ /* A compact brush replaces the pill without shrinking the touch target.
+    The silhouette is only on the paint, leaving the focus outline unobstructed. */
+ html[data-site-design=v2] body.community-page main .forum-shell #new-topic {
+  position:relative;isolation:isolate;min-height:44px;padding:10px 26px;
+  background:transparent;border:1px solid transparent;border-radius:5px;
+  color:#f5f6fa;box-shadow:none;white-space:nowrap;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell #new-topic::before {
+  content:"";position:absolute;inset:3px 0;z-index:-1;pointer-events:none;
+  background:var(--forum-title-fill);
+  -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled) {
+  background:transparent;border-color:transparent;color:#fff;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell #new-topic:hover:not(:disabled)::before {
+  background:var(--v2-brush-fill);
  }
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:focus-visible,
  html[data-site-design=v2] body.community-page main .forum-shell #new-topic:focus-visible {
@@ -180,7 +204,7 @@
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
-  background:var(--v2-brush-fill);-webkit-mask:none;mask:none;filter:none;
+  background:var(--forum-title-fill,var(--v2-brush-fill));-webkit-mask:none;mask:none;filter:none;
   clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
