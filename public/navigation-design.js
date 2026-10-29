@@ -14,7 +14,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261029-v2-connected-silver';
+surfaces.href = '/surfaces-design.css?v=20261029-v2-news-flush-title';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

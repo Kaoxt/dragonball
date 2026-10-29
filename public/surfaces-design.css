@@ -45,8 +45,9 @@
   --forum-post-inner-radius:2px;
  }
  html[data-site-design=v2] body.home-page .community-links {padding:18px}
- html[data-site-design=v2] body.home-page .news-post {padding:24px;margin-bottom:24px}
- html[data-site-design=v2] body.home-page .release-tag {border-color:#ffffff26;color:#c2c8cd;border-radius:4px}
+ /* Start the title brush directly beneath the panel's top bevel. */
+ html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px}
+ html[data-site-design=v2] body.home-page .news-post .release-tag {display:none}
  html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
 
  /* The new-topic controls sit directly on the page, without a panel behind them. */
@@ -135,7 +136,7 @@
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table .selected-damage {background:#f0f1f2;color:#14191d;box-shadow:inset 0 0 0 3px #b8c1c8;font-weight:700}
 
  @media(max-width:700px) {
-  html[data-site-design=v2] body.home-page .news-post {padding:20px 18px;margin-bottom:18px}
+  html[data-site-design=v2] body.home-page .news-post {padding:0 18px 20px;margin-bottom:18px}
   html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2),
   html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:12px calc(22px + 6.5%) 12px 22px}
   html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {padding:18px 14px;gap:12px}
