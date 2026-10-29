@@ -8,12 +8,15 @@
   --v2-panel-fill:url('/assets/panel-worn-v2.webp');
  }
 
+ /* Arena inherits the shared site background instead of its legacy near-black palette. */
+ html[data-site-design=v2] body.arena-table-page {--bg:inherit;--page-overlay:inherit}
+
  /* Paint the playmat once on a viewport-sized layer, independent of article
     expansion and route height. The artwork no longer scales with the document. */
- html[data-site-design=v2] body.arena-page:is(.home-page,.community-page) {
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page,.arena-table-page) {
   isolation:isolate;background-image:none;
  }
- html[data-site-design=v2] body.arena-page:is(.home-page,.community-page)::before {
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page,.arena-table-page)::before {
   content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
   background-color:var(--bg);background-image:var(--page-overlay),url('/assets/burnt-orange-playmat.webp');
   background-size:cover;background-position:center top;background-blend-mode:normal,luminosity;
