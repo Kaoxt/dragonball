@@ -1,4 +1,10 @@
 /* Version 2 companion to the card-title navigation. Version 1 and print stay intact. */
+/* The brush face retained in the Enter the Arena banner source. Loaded only by
+   the prominent Version 2 forum actions; body copy keeps the UI typeface. */
+@font-face {
+ font-family:'Edo SZ';font-style:normal;font-weight:400;font-display:swap;
+ src:url('/assets/fonts/edo-sz.woff2') format('woff2');
+}
 @media screen {
  html[data-site-design=v2] body {
   --surface-panel:#1e2428;
@@ -116,7 +122,9 @@
     The silhouette is only on the paint, leaving the focus outline unobstructed. */
  html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut) {
   position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;
-  flex:0 0 auto;min-height:44px;padding:10px 26px;font-size:14px;font-weight:600;line-height:1.2;
+  flex:0 0 auto;min-height:44px;padding:8px 28px;
+  font-family:'Edo SZ',var(--font-ui);font-size:20px;font-weight:400;font-style:normal;line-height:1.2;
+  font-synthesis:none;letter-spacing:.02em;text-shadow:0 1px 1px #0009;
   background:transparent;border:1px solid transparent;border-radius:5px;
   color:#f5f6fa;box-shadow:none;white-space:nowrap;
  }
