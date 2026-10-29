@@ -50,14 +50,14 @@
   html[data-site-design=v2] body .site-header nav .account-nav-actions{border-left-color:#ffffff1a}
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary,
   html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview{
-   min-height:44px;padding:7px 12px 7px 7px;gap:8px;border-radius:999px;
-   background:#262a2e;color:#f5f6fa;transition:background .15s,color .15s;
+   min-height:44px;padding:7px 12px 7px 7px;gap:8px;border-radius:8px;
+   background:transparent;color:#f5f6fa;transition:background .15s,color .15s;
   }
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary:hover,
-  html[data-site-design=v2] body .site-header nav .account-dropdown[open]>summary,
   html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:hover{background:#33383d;color:#fff}
+  html[data-site-design=v2] body .site-header nav .account-dropdown[open]>summary:not(:hover){background:transparent;color:#f5f6fa}
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary:focus-visible,
-  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:focus-visible{border-radius:999px;outline-color:#d6dbe2}
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:focus-visible{border-radius:8px;outline-color:#d6dbe2}
  }
  @media(min-width:1101px) and (max-width:1200px) and (orientation:landscape){
   html[data-site-design=v2] body .site-header{gap:8px}

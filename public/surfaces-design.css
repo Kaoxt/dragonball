@@ -1,0 +1,103 @@
+/* Version 2 companion to the card-title navigation. Version 1 and print stay intact. */
+@media screen {
+ html[data-site-design=v2] body {
+  --surface-panel:#1e2428;
+  --surface-inset:#151a1e;
+  --surface-raised:#2b3238;
+  --surface-border:#ffffff1f;
+  --v2-panel-fill:linear-gradient(135deg,#252c31,#1c2226 65%);
+  --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
+ }
+
+ /* Consistent content surfaces, with the playmat still visible between panels. */
+ html[data-site-design=v2] body.arena-page :is(
+  .news-post,.next-move,.community-links,.filters,.lobby-panel,.account-card,
+  .chapter-nav,.pat-calculator,.table-scroll
+ ),
+ html[data-site-design=v2] body.arena-page .manual .chapter,
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .issue-results,.issue-card,.forum-topic-heading,.forum-post,.forum-navigation-row
+ ),
+ html[data-site-design=v2] body.arena-page #deck-panel {
+  background:var(--v2-panel-fill);
+  border:1px solid var(--surface-border);border-radius:7px;
+  box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
+ }
+ html[data-site-design=v2] body.home-page .community-links {padding:18px}
+ html[data-site-design=v2] body.home-page .news-post {padding:24px;margin-bottom:24px}
+ html[data-site-design=v2] body.home-page .release-tag {border-color:#ffffff26;color:#c2c8cd;border-radius:4px}
+ html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
+
+ /* Reuse the approved silhouette only behind headings, keeping text and rows crisp. */
+ html[data-site-design=v2] body.home-page :is(.news-post>h2,.next-move>h2,.community-links>h2),
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title,
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {
+  position:relative;isolation:isolate;
+  background:transparent;border:0;border-radius:0;box-shadow:none;
+  padding:14px 26px;overflow:visible;
+ }
+ html[data-site-design=v2] body.home-page :is(.news-post>h2,.next-move>h2,.community-links>h2)::before,
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before,
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
+  content:"";position:absolute;inset:0 -5px;z-index:-1;pointer-events:none;
+  background:var(--v2-brush-fill);
+  -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  filter:drop-shadow(0 2px 1px #0008);
+ }
+ html[data-site-design=v2] body.home-page .news-post>h2 {margin:0 -10px;line-height:1.18}
+ html[data-site-design=v2] body.home-page .next-move>h2 {margin:0 -5px 20px;min-height:58px}
+ html[data-site-design=v2] body.home-page .community-links>h2 {margin:0 -5px 4px;font-size:22px}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:10px 12px 0}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
+
+ /* Forum lists: aligned columns, quiet stripes, and a neutral hover/focus cue. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {
+  padding:22px 24px;border-color:var(--surface-border);
+  background:transparent;transition:background-color .15s ease;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(odd) {background:#ffffff03}
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:#ffffff08}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {background:var(--surface-inset)}
+
+ /* Rule tables keep their semantic columns and existing horizontal scrolling. */
+ html[data-site-design=v2] body.rulebook-page .manual .table-scroll {scrollbar-color:#59636c var(--surface-inset)}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) {
+  background:transparent;color:#f1f3f5;font-variant-numeric:tabular-nums;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) :is(th,td) {border-color:var(--surface-border)}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:16px 18px;line-height:1.65}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table caption {padding:16px 18px;background:var(--v2-brush-fill);color:#f1f3f5;font-size:14px}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table thead th {background:var(--surface-inset);color:#d5dce1;font-size:13px}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table tbody th {background:transparent;color:#e2e7eb}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) tbody tr:nth-child(even) {background:#ffffff04}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) tbody tr:hover {background:#ffffff08}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table :is(.pat-corner,.pat-defender,.pat-attacker) {
+  background:var(--v2-brush-fill);color:#e2e7eb;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference {background:var(--surface-inset);border-color:var(--surface-border);box-shadow:0 4px 12px #0003}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference-title {background:var(--v2-brush-fill);border-color:var(--surface-border)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-scroll {border-color:#ffffff30;scrollbar-color:#59636c var(--surface-inset)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table td:not(.selected-damage) {background:#252d33}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:nth-child(even) td:not(.selected-damage) {background:#2c353c}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:hover td:not(.selected-damage) {background:#35414a}
+ /* Preserve strong calculator selection contrast over striped or hovered rows. */
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table :is(.selected-attacker .pat-rating,.selected-defender) {background:#414d56;box-shadow:inset 0 0 0 1px #cdd4d9}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table .selected-damage {background:#f0f1f2;color:#14191d;box-shadow:inset 0 0 0 3px #b8c1c8;font-weight:700}
+
+ @media(max-width:700px) {
+  html[data-site-design=v2] body.home-page .news-post {padding:20px 18px;margin-bottom:18px}
+  html[data-site-design=v2] body.home-page :is(.news-post>h2,.next-move>h2,.community-links>h2),
+  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:12px 22px}
+  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {padding:18px 14px;gap:12px}
+  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:8px 8px 0;padding:12px 20px}
+  html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:12px 14px}
+ }
+ @media(prefers-reduced-motion:reduce) {
+  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {transition:none}
+ }
+}
