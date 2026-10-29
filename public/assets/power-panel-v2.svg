@@ -2,15 +2,15 @@
   <!-- 28px nine-slice corners preserve the connected chamfers at every panel size. -->
   <defs>
     <linearGradient id="rail" x2="0" y2="1">
-      <stop stop-color="#939898"/>
-      <stop offset=".48" stop-color="#4b555b"/>
-      <stop offset="1" stop-color="#7a8386"/>
+      <stop stop-color="#566169"/>
+      <stop offset=".48" stop-color="#303a42"/>
+      <stop offset="1" stop-color="#49565f"/>
     </linearGradient>
     <linearGradient id="cap-metal" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#879aa6"/>
-      <stop offset=".36" stop-color="#667c8a"/>
-      <stop offset=".58" stop-color="#465965"/>
-      <stop offset="1" stop-color="#2c3b45"/>
+      <stop stop-color="#4e626f"/>
+      <stop offset=".36" stop-color="#3e505d"/>
+      <stop offset=".58" stop-color="#2c3a44"/>
+      <stop offset="1" stop-color="#202b33"/>
     </linearGradient>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency=".065 .55" numOctaves="3" seed="31"/>
@@ -27,22 +27,22 @@
     <path id="bevel" d="M4 17 17 4h990l13 13v478l-13 13H17L4 495Z"/>
     <g id="cap">
       <path d="M4 17 17 4h11L4 28Z" fill="url(#cap-metal)" stroke="#0a1014" stroke-width="1.1"/>
-      <path d="M6 17 18 6h6L6 24Z" fill="#b8c4ca" opacity=".3" mask="url(#wear)"/>
+      <path d="M6 17 18 6h6L6 24Z" fill="#8596a2" opacity=".3" mask="url(#wear)"/>
       <path d="m6 20 10-10m-8 12 10-10m-5 5 4-1" fill="none" stroke="#17252e" stroke-opacity=".55" stroke-width=".6"/>
     </g>
   </defs>
   <path d="M16 1h992l15 15v480l-15 15H16L1 496V16Z" fill="none" stroke="#070b0d" stroke-width="2.8"/>
-  <path d="M17 2.5h990l14.5 14.5v478l-14.5 14.5H17L2.5 495V17Z" fill="none" stroke="#657079" stroke-opacity=".55" stroke-width=".75"/>
+  <path d="M17 2.5h990l14.5 14.5v478l-14.5 14.5H17L2.5 495V17Z" fill="none" stroke="#414d57" stroke-opacity=".55" stroke-width=".75"/>
   <use href="#bevel" fill="none" stroke="url(#rail)" stroke-width="2.2"/>
   <path d="M19 6.2h986l12.8 12.8v474L1005 505.8H19L6.2 493V19Z" fill="none" stroke="#070c10" stroke-width="1.4"/>
-  <path d="M20 7.7h984l12.3 12.3v472l-12.3 12.3H20L7.7 492V20Z" fill="none" stroke="#778186" stroke-opacity=".43" stroke-width=".65"/>
+  <path d="M20 7.7h984l12.3 12.3v472l-12.3 12.3H20L7.7 492V20Z" fill="none" stroke="#4d5a64" stroke-opacity=".43" stroke-width=".65"/>
   <use href="#cap"/>
   <use href="#cap" transform="translate(1024 0) scale(-1 1)"/>
   <use href="#cap" transform="translate(0 512) scale(1 -1)"/>
   <use href="#cap" transform="translate(1024 512) scale(-1 -1)"/>
   <!-- The base bevel remains continuous beneath worn, uneven highlights. -->
-  <use href="#bevel" fill="none" stroke="#aeb8bf" stroke-opacity=".65" stroke-width=".75"/>
-  <use href="#bevel" fill="none" stroke="#e1e0d8" stroke-opacity=".7" stroke-width="1.15" mask="url(#wear)"/>
+  <use href="#bevel" fill="none" stroke="#71818d" stroke-opacity=".55" stroke-width=".75"/>
+  <use href="#bevel" fill="none" stroke="#94a1a7" stroke-opacity=".55" stroke-width="1.15" mask="url(#wear)"/>
   <!-- Irregular shallow chips run with each rail rather than repeating corner marks. -->
   <g fill="#0b1115" opacity=".8">
     <path d="m76 3 35 1-18 1.2-23-.5Zm107 1 67-.4-17 1.4-30-.4Zm168-.8 38 .8-8 1-34-.5Zm214 .5 102 .3-42 1-47-.3Zm223 .2 45-.5-13 1.5-29-.1Z"/>

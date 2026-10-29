@@ -44,7 +44,7 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-v2.svg?v=20261029-worn-reference') 28 / 28px / 0 stretch;
+  border-image:url('/assets/power-panel-v2.svg?v=20261029-worn-charcoal') 28 / 28px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
@@ -126,7 +126,7 @@
  }
  html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -24px;line-height:1.18;padding:14px max(24px,7.5%)}
  html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2::before {
-  inset:0 calc(-1 * clamp(8px,1vw,14px)) 0 calc(-1 * clamp(12px,3.5vw,44px));clip-path:none;
+  inset:0 calc(-1 * clamp(12px,2vw,28px)) 0 calc(-1 * clamp(12px,3.5vw,44px));clip-path:none;
  }
  /* Sidebar headings meet the inner top rail. The paint fills the strip, so
     only its texture is visible; chamfers protect the decorative corner caps. */
