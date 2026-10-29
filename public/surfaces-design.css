@@ -146,7 +146,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%,0 12px);
+  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
  }
  html[data-site-design=v2] body.home-page .next-move>h2 img {display:none}
  html[data-site-design=v2] body.home-page .next-move-label {display:inline}
@@ -167,7 +167,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link+.hub-link {border-top:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child {border-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
-  clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px));
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px));
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-primary {--hub-fill:#303940;border-color:#58656e}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
@@ -187,7 +187,8 @@
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:#ffffff08}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
- /* Clip only the inset paint, leaving post-action menus and focus rings free. */
+ /* The cap ends on x+y=32: after the 6px panel inset, a 20px cutout
+    exposes the full bevel. Clip paint only; menus and focus rings stay free. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {
   position:relative;isolation:isolate;background:transparent;border-radius:0;
  }
@@ -196,10 +197,10 @@
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar {z-index:1}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar::before {
-  clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%,0 12px);
+  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {
-  clip-path:polygon(0 0,100% 0,100% 100%,12px 100%,0 calc(100% - 12px));
+  clip-path:polygon(0 0,100% 0,100% 100%,20px 100%,0 calc(100% - 20px));
  }
 
  /* Rule tables keep their semantic columns and existing horizontal scrolling. */
