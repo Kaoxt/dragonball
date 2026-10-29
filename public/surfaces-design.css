@@ -5,7 +5,7 @@
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
-  --v2-panel-fill:linear-gradient(90deg,#1c222600,#1c222680 28%,#1c222680 72%,#1c222600),url('/assets/panel-distress-v2.svg');
+  --v2-panel-fill:url('/assets/panel-worn-v2.webp');
   --v2-brush-fill:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
 
@@ -19,14 +19,14 @@
   .issue-results,.issue-card:not(.forum-list-heading),.forum-topic-heading,.forum-post,.forum-navigation-row
  ),
  html[data-site-design=v2] body.arena-page #deck-panel {
-  background:var(--v2-panel-fill);background-color:#1e2428;background-size:100% 100%,512px 512px;
+  background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   border:1px solid var(--surface-border);border-radius:7px;
   box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
  }
 
  /* Card power-box framing belongs to the main panels, not every nested control.
-    A nine-slice border keeps chamfers and silver rails crisp at any panel size.
-    The independently tiled texture keeps its scale without clipping menus,
+    A nine-slice border keeps chamfers and distressed rails crisp at any panel size.
+    The full-panel texture has worn edges and a quiet center without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
     from full-width rows; existing content padding is otherwise preserved. */
  html[data-site-design=v2] body.arena-page :is(
@@ -37,9 +37,9 @@
   .issue-results,.forum-topic-heading,.forum-post
  ):not(.forum-list-heading),
  html[data-site-design=v2] body.arena-page #deck-panel {
-  background:var(--v2-panel-fill);background-color:#1e2428;background-size:100% 100%,512px 512px;
+  background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-v2.svg?v=20261029-textured') 24 / 24px / 0 stretch;
+  border-image:url('/assets/power-panel-v2.svg?v=20261029-worn-reference') 28 / 28px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {

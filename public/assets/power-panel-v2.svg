@@ -1,30 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
-  <!-- Nine-slice panel: 24px corners stay fixed as the reading area expands. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <!-- 28px nine-slice corners preserve the connected chamfers at every panel size. -->
   <defs>
-    <linearGradient id="field" x2="0" y2="1">
-      <stop stop-color="#252d32"/>
-      <stop offset=".25" stop-color="#1e2428"/>
-      <stop offset=".75" stop-color="#1e2428"/>
-      <stop offset="1" stop-color="#20272c"/>
-    </linearGradient>
     <linearGradient id="rail" x2="0" y2="1">
-      <stop stop-color="#485159"/>
-      <stop offset=".5" stop-color="#303940"/>
-      <stop offset="1" stop-color="#404950"/>
+      <stop stop-color="#939898"/>
+      <stop offset=".48" stop-color="#4b555b"/>
+      <stop offset="1" stop-color="#7a8386"/>
     </linearGradient>
-    <path id="cap" d="M4 16 16 4h9L4 25Z"/>
+    <linearGradient id="cap-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#879aa6"/>
+      <stop offset=".36" stop-color="#667c8a"/>
+      <stop offset=".58" stop-color="#465965"/>
+      <stop offset="1" stop-color="#2c3b45"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".065 .55" numOctaves="3" seed="31"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="2.4" intercept="-.55"/>
+        <feFuncG type="linear" slope="2.4" intercept="-.55"/>
+        <feFuncB type="linear" slope="2.4" intercept="-.55"/>
+      </feComponentTransfer>
+    </filter>
+    <mask id="wear" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="512">
+      <rect width="1024" height="512" fill="white" filter="url(#grain)"/>
+    </mask>
+    <path id="bevel" d="M4 17 17 4h990l13 13v478l-13 13H17L4 495Z"/>
+    <g id="cap">
+      <path d="M4 17 17 4h11L4 28Z" fill="url(#cap-metal)" stroke="#0a1014" stroke-width="1.1"/>
+      <path d="M6 17 18 6h6L6 24Z" fill="#b8c4ca" opacity=".3" mask="url(#wear)"/>
+      <path d="m6 20 10-10m-8 12 10-10m-5 5 4-1" fill="none" stroke="#17252e" stroke-opacity=".55" stroke-width=".6"/>
+    </g>
   </defs>
-  <path d="M15 1h66l14 14v66L81 95H15L1 81V15Z" fill="none" stroke="#090d10" stroke-width="2"/>
-  <path d="M16 3h64l13 13v64L80 93H16L3 80V16Z" fill="none" stroke="url(#rail)"/>
-  <path d="M18 6h60l12 12v60L78 90H18L6 78V18Z" fill="none" stroke="#333c43" stroke-opacity=".45" stroke-width=".75"/>
-  <g fill="#303940" stroke="#0e1418" stroke-width="1">
-    <use href="#cap"/>
-    <use href="#cap" transform="translate(96 0) scale(-1 1)"/>
-    <use href="#cap" transform="translate(0 96) scale(1 -1)"/>
-    <use href="#cap" transform="translate(96 96) scale(-1 -1)"/>
+  <path d="M16 1h992l15 15v480l-15 15H16L1 496V16Z" fill="none" stroke="#070b0d" stroke-width="2.8"/>
+  <path d="M17 2.5h990l14.5 14.5v478l-14.5 14.5H17L2.5 495V17Z" fill="none" stroke="#657079" stroke-opacity=".55" stroke-width=".75"/>
+  <use href="#bevel" fill="none" stroke="url(#rail)" stroke-width="2.2"/>
+  <path d="M19 6.2h986l12.8 12.8v474L1005 505.8H19L6.2 493V19Z" fill="none" stroke="#070c10" stroke-width="1.4"/>
+  <path d="M20 7.7h984l12.3 12.3v472l-12.3 12.3H20L7.7 492V20Z" fill="none" stroke="#778186" stroke-opacity=".43" stroke-width=".65"/>
+  <use href="#cap"/>
+  <use href="#cap" transform="translate(1024 0) scale(-1 1)"/>
+  <use href="#cap" transform="translate(0 512) scale(1 -1)"/>
+  <use href="#cap" transform="translate(1024 512) scale(-1 -1)"/>
+  <!-- The base bevel remains continuous beneath worn, uneven highlights. -->
+  <use href="#bevel" fill="none" stroke="#aeb8bf" stroke-opacity=".65" stroke-width=".75"/>
+  <use href="#bevel" fill="none" stroke="#e1e0d8" stroke-opacity=".7" stroke-width="1.15" mask="url(#wear)"/>
+  <!-- Irregular shallow chips run with each rail rather than repeating corner marks. -->
+  <g fill="#0b1115" opacity=".8">
+    <path d="m76 3 35 1-18 1.2-23-.5Zm107 1 67-.4-17 1.4-30-.4Zm168-.8 38 .8-8 1-34-.5Zm214 .5 102 .3-42 1-47-.3Zm223 .2 45-.5-13 1.5-29-.1Z"/>
+    <path d="m53 507 54 .8-31 1-29-.6Zm172 .7 92-.6-28 1.5-55-.1Zm231-.4 36 .1-11 1.1-30-.1Zm146 .1 68-.7-26 1.6-37-.2Zm224 .1 85-.3-32 1.2-43-.1Z"/>
+    <path d="m3.4 72 .5 29 1-18-.2-16Zm.2 101 .2 44 1-16-.3-30Zm.1 148-.4 59 1.3-28-.3-26Zm1016.2-260 .7 49 1-23-.5-20Zm.1 157 .6 56 1-32-.5-18Zm.2 171 .4 41 .9-18-.3-28Z"/>
   </g>
-  <!-- One continuous bevel joins the rails to all four corner accents. -->
-  <path d="M4 16 16 4h64l12 12v64L80 92H16L4 80Z" fill="none" stroke="#69757e" stroke-opacity=".4" stroke-linejoin="miter"/>
-  <!-- Quiet etched detail at the perimeter; the central reading area stays plain. -->
-  <path d="m10 30 8-8m-8 15 13-13m-13 54 8 8m60-76 8 8m-8 60 8-8m-16 16 13-13" fill="none" stroke="#91a0ab" stroke-opacity=".07" stroke-width=".7"/>
 </svg>
