@@ -1,6 +1,6 @@
 # Site design versions
 
-Version 2 is the default site design. It retains the existing playmat background image and luminosity blend, with a lighter charcoal overlay. Its 56px navigation uses the reviewed card-title brush silhouette, dark fringe and soft shadow. Logo sizing and the existing two-line hamburger are preserved from the approved preview.
+Version 2 is the default site design. It retains the existing playmat background image and luminosity blend, with a lighter charcoal overlay. Its 56px navigation uses the reviewed card-title brush silhouette, dark fringe and soft shadow. The fill matches the darker Start New Topic brush exactly, including its one-third black overlay and underlying texture. Logo sizing and the existing two-line hamburger are preserved from the approved preview.
 
 The site footer offers **Version 1** and **Version 2**. A choice is saved in this browser and applies across pages. Direct links `/?design=v1` and `/?design=v2` override that preference. Header links also carry the choice when browser storage is disabled.
 

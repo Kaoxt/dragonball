@@ -43,7 +43,7 @@
  }
  html[data-site-design=v2] .site-header-brush::before{
   inset:0;z-index:1;
-  background:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
+  background:linear-gradient(#0005,#0005),repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
  }
  html[data-site-design=v2] .site-header-brush::after{
   inset:1px -6px -1px;z-index:0;
