@@ -167,9 +167,8 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
   clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px));
  }
- html[data-site-design=v2] body.home-page .home-sidebar .hub-primary {--hub-fill:#303940;border-color:#58656e}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
- html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#33383d;background:transparent;border-color:#65717a;color:#fff}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:#65717a;color:#fff}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
