@@ -23,6 +23,27 @@
   border:1px solid var(--surface-border);border-radius:7px;
   box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
  }
+
+ /* Card power-box framing belongs to the main panels, not every nested control.
+    A nine-slice border keeps chamfers and silver rails crisp at any panel size.
+    Its filled center supplies the charcoal background without clipping menus,
+    focus rings, or the existing heading brush. Six pixels protect the rails
+    from full-width rows; existing content padding is otherwise preserved. */
+ html[data-site-design=v2] body.arena-page :is(
+  .news-post,.next-move,.community-links,.lobby-panel,.account-card
+ ),
+ html[data-site-design=v2] body.arena-page .manual .chapter,
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .issue-results,.forum-topic-heading,.forum-post
+ ),
+ html[data-site-design=v2] body.arena-page #deck-panel {
+  background:none;border:6px solid transparent;border-radius:0;
+  border-image:url('/assets/power-panel-v2.svg') 24 fill / 24px / 0 stretch;
+  box-shadow:none;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
+  --forum-post-inner-radius:2px;
+ }
  html[data-site-design=v2] body.home-page .community-links {padding:18px}
  html[data-site-design=v2] body.home-page .news-post {padding:24px;margin-bottom:24px}
  html[data-site-design=v2] body.home-page .release-tag {border-color:#ffffff26;color:#c2c8cd;border-radius:4px}

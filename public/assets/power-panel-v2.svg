@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <!-- Nine-slice panel: 24px corners stay fixed as the reading area expands. -->
+  <defs>
+    <linearGradient id="field" x2="0" y2="1">
+      <stop stop-color="#252d32"/>
+      <stop offset=".25" stop-color="#1e2428"/>
+      <stop offset=".75" stop-color="#1e2428"/>
+      <stop offset="1" stop-color="#20272c"/>
+    </linearGradient>
+    <linearGradient id="rail" x2="0" y2="1">
+      <stop stop-color="#88949c"/>
+      <stop offset=".5" stop-color="#52616b"/>
+      <stop offset="1" stop-color="#74818a"/>
+    </linearGradient>
+    <path id="cap" d="M4 16 16 4h9L4 25Z"/>
+  </defs>
+  <path d="M15 1h66l14 14v66L81 95H15L1 81V15Z" fill="url(#field)" stroke="#090d10" stroke-width="2"/>
+  <path d="M16 3h64l13 13v64L80 93H16L3 80V16Z" fill="none" stroke="url(#rail)"/>
+  <path d="M18 6h60l12 12v60L78 90H18L6 78V18Z" fill="none" stroke="#56616a" stroke-opacity=".45" stroke-width=".75"/>
+  <g fill="#52616b" stroke="#0e1418" stroke-width="1">
+    <use href="#cap"/>
+    <use href="#cap" transform="translate(96 0) scale(-1 1)"/>
+    <use href="#cap" transform="translate(0 96) scale(1 -1)"/>
+    <use href="#cap" transform="translate(96 96) scale(-1 -1)"/>
+  </g>
+  <path d="m5 17 12-12m62 0 12 12M5 79l12 12m62 0 12-12" fill="none" stroke="#b0bac1" stroke-opacity=".55"/>
+  <!-- Quiet etched detail at the perimeter; the central reading area stays plain. -->
+  <path d="m10 30 8-8m-8 15 13-13m-13 54 8 8m60-76 8 8m-8 60 8-8m-16 16 13-13" fill="none" stroke="#91a0ab" stroke-opacity=".07" stroke-width=".7"/>
+</svg>
