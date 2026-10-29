@@ -26,6 +26,7 @@
  html[data-site-design=v2] body .site-header nav>a,
  html[data-site-design=v2] body .site-header nav>a[aria-current=page]{padding:6px 3.75px;min-height:33px}
  html[data-site-design=v2] body .site-header .nav-wordmark{height:15px;width:auto}
+ html[data-site-design=v2] body .site-header nav>a[aria-label="Rules"]{display:none}
  html[data-site-design=v2] .site-header-brush{
   display:block;position:absolute;inset:0;height:56px;z-index:-1;pointer-events:none;isolation:isolate;
   filter:drop-shadow(0 1px 1px #0009) drop-shadow(0 3px 4px #0005);
@@ -43,6 +44,20 @@
  html[data-site-design=v2] .site-header-brush::after{
   inset:1px -6px -1px;z-index:0;
   background:linear-gradient(90deg,#040506e6 0%,#040506dc 11%,#04050630 25%,#04050618 50%,#04050630 75%,#040506dc 89%,#040506e6 100%);
+ }
+ @media(min-width:1201px),(min-width:1101px) and (orientation:landscape){
+  html[data-site-design=v2] body .site-header{padding-right:calc(clamp(44px,9vw,128px) + 32px)}
+  html[data-site-design=v2] body .site-header nav .account-nav-actions{border-left-color:#ffffff1a}
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview{
+   min-height:44px;padding:7px 12px 7px 7px;gap:8px;border-radius:999px;
+   background:#262a2e;color:#f5f6fa;transition:background .15s,color .15s;
+  }
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary:hover,
+  html[data-site-design=v2] body .site-header nav .account-dropdown[open]>summary,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:hover{background:#33383d;color:#fff}
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary:focus-visible,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:focus-visible{border-radius:999px;outline-color:#d6dbe2}
  }
  @media(min-width:1101px) and (max-width:1200px) and (orientation:landscape){
   html[data-site-design=v2] body .site-header{gap:8px}
