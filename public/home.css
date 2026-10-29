@@ -116,6 +116,7 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 /* Match the navigation's vector lettering in the sidebar heading. */
 .home-page .next-move h2{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:0;line-height:0;text-align:center;margin:8px 0 22px}
 .home-page .next-move h2 img{display:block;width:100%;max-width:280px;height:auto;margin:auto}
+.home-page .next-move-label{display:none}
 
 /* Give each News story a quiet reading surface over the shared page texture. */
 .home-page .news-post{
@@ -238,3 +239,4 @@ body.home-page .community-links{
  margin:0 0 4px;font-family:var(--font-ui);font-size:24px;
  font-weight:600;line-height:1.25;letter-spacing:-.02em;color:var(--content-copy);
 }
+

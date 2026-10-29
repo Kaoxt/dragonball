@@ -25,6 +25,10 @@
  html[data-site-design=v2] body .site-header nav{gap:6px}
  html[data-site-design=v2] body .site-header nav>a,
  html[data-site-design=v2] body .site-header nav>a[aria-current=page]{padding:6px 3.75px;min-height:33px}
+ html[data-site-design=v2] body .site-header nav>a:hover{background:#33383d;box-shadow:inset 0 -2px #54616a;color:#fff}
+ html[data-site-design=v2] body .site-header nav>a[aria-current=page]{background:#30383e;box-shadow:inset 0 -2px #7c8992;color:#fff}
+ html[data-site-design=v2] body .site-header :is(a,button):focus-visible{outline-color:#c2c8cd}
+ html[data-site-design=v2] .site-design-switch a[aria-current=true]{box-shadow:inset 0 -2px #7c8992}
  html[data-site-design=v2] body .site-header .nav-wordmark{height:15px;width:auto}
  html[data-site-design=v2] body .site-header nav>a[aria-label="Rules"]{display:none}
  html[data-site-design=v2] .site-header-brush{
