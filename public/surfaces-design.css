@@ -112,14 +112,12 @@
 
  /* Reuse the approved silhouette only behind headings, keeping text and rows crisp. */
  html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2),
- html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title,
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {
   position:relative;isolation:isolate;
   background:transparent;border:0;border-radius:0;box-shadow:none;
   padding:14px calc(26px + 6.5%) 14px 26px;overflow:visible;
  }
  html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2)::before,
- html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before,
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
   /* The silhouette's leading fringe occupies roughly 6.5% of its width.
      Move the artwork left by that amount, keeping type inside the solid center. */
@@ -175,16 +173,21 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {margin:0 -8px 22px}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
- html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:10px 12px 0}
+ /* Forum headings share the table texture and separate from rows with one rule. */
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {
+  margin:0;padding:18px 24px;background:transparent;
+  border:0;border-bottom:1px solid var(--surface-border);border-radius:0;box-shadow:none;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {content:none}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
- /* Forum rows share one continuous textured surface with a neutral hover/focus cue. */
+ /* Forum rows keep the same continuous texture on hover and keyboard focus. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {
   padding:22px 24px;border-color:var(--surface-border);
-  background:transparent;transition:background-color .15s ease;
+  background:transparent;transition:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(n) {background:transparent}
- html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:#ffffff08}
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:transparent}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
  /* The cap ends on x+y=32: after the 6px panel inset, a 20px cutout
@@ -238,7 +241,7 @@
   html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:12px calc(22px + 6.5%) 12px 22px}
   html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -18px;padding:12px max(24px,7.5%)}
   html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {padding:18px 14px;gap:12px}
-  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:8px 8px 0;padding:12px calc(20px + 6.5%) 12px 20px}
+  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:0;padding:16px 14px}
   html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:12px 14px}
  }
  @media(prefers-reduced-motion:reduce) {

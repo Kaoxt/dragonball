@@ -6,14 +6,14 @@
   for (const name of files) {
     const preload = document.createElement('link');
     preload.rel = 'preload'; preload.as = 'script';
-    preload.href = '/forum/' + name + '.js?v=20261029-smooth-navigation';
+    preload.href = '/forum/' + name + '.js?v=20261029-three-line-news';
     document.head.append(preload);
   }
   let next = 0, busy = false;
   function script(name) {
     return new Promise((resolve, reject) => {
       const node = document.createElement('script');
-      node.src = '/forum/' + name + '.js?v=20261029-smooth-navigation';
+      node.src = '/forum/' + name + '.js?v=20261029-three-line-news';
       node.onload = () => resolve();
       node.onerror = () => { node.remove(); reject(new Error('Unable to load this page. Check your connection and try again.')); };
       document.head.append(node);

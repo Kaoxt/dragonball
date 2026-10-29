@@ -167,7 +167,12 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link) svg{
 .home-page.news-detail-page .news-feed .forum-rich p{
  color:var(--content-copy);font-size:16px;font-weight:400;line-height:1.75;
 }
-.home-page .news-post .release-summary{max-width:68ch;margin:16px 0 0;line-height:1.62}
+/* Pull enough copy for three lines and let layout clamp it at every width. */
+.home-page .news-post .release-summary{
+ max-width:68ch;margin:16px 0 0;line-height:1.62;
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;
+ max-height:4.86em;overflow:hidden;
+}
 .home-page .news-full{margin-top:16px}
 body.home-page main .news-post .post-actions button.read-more,
 body.home-page main .news-post .post-actions a{

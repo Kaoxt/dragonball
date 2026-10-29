@@ -30,7 +30,7 @@ test('collapsed News shows the uploaded lead image and readable copy instead of 
  const result=await news(image+'\n\nBrowse the card collection.\n\nMore details.');
  assert.match(result.summary,/<div class="forum-rich news-preview-image"><a class="forum-post-image"/);
  assert.ok(result.summary.includes(`src="${imagePath}"`));
- assert.match(result.summary,/<p class="release-summary">Browse the card collection\.<\/p>/);
+ assert.match(result.summary,/<p class="release-summary">Browse the card collection\. More details\.<\/p>/);
  assert.ok(!result.summary.includes('1000032892…'));
  assert.equal(result.preview.hidden,false);
  assert.equal(result.full.hidden,true);
@@ -58,10 +58,19 @@ test('image-only and multiple-image News show one safe cover without an empty su
 });
 
 test('text-only News keeps its excerpt and later images can serve as the cover',async()=>{
- assert.equal((await news('First paragraph.\n\nSecond paragraph.')).summary,'<p class="release-summary">First paragraph.</p></div>');
+ assert.equal((await news('First paragraph.\n\nSecond paragraph.')).summary,'<p class="release-summary">First paragraph. Second paragraph.</p></div>');
  const result=await news('First paragraph.\n\n'+image);
  assert.ok(result.summary.includes(`src="${imagePath}"`));
  assert.match(result.summary,/<p class="release-summary">First paragraph\.<\/p>/);
+});
+
+test('News previews continue across paragraphs while keeping large post excerpts bounded',async()=>{
+ const result=await news('Short intro.\n\n'+'More detail about building your deck. '.repeat(40));
+ const text=result.summary.match(/<p class="release-summary">([^<]*)<\/p>/)[1];
+ assert.ok(text.startsWith('Short intro. More detail about building your deck.'));
+ assert.ok(text.length<=641);
+ assert.ok(text.endsWith('…'));
+ assert.ok(!text.includes('\n'));
 });
 
 test('News previews do not promote escaped, code, or unsafe image markup to images',async()=>{
