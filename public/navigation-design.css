@@ -53,7 +53,7 @@
   background:linear-gradient(90deg,#040506e6 0%,#040506dc 11%,#04050630 25%,#04050618 50%,#04050630 75%,#040506dc 89%,#040506e6 100%);
  }
  @media(min-width:1201px),(min-width:900px) and (orientation:landscape){
-  html[data-site-design=v2] body .site-header{padding-right:calc(clamp(44px,9vw,128px) + 32px)}
+  html[data-site-design=v2] body .site-header{padding-right:clamp(44px,6vw,88px)}
   html[data-site-design=v2] body .site-header nav .account-nav-actions{border-left-color:#ffffff1a}
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary,
   html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview{

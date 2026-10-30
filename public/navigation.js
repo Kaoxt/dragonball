@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261030-v2-desktop-navigation';
+import './navigation-design.js?v=20261030-account-right';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
