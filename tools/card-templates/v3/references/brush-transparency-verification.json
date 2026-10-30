@@ -1,0 +1,64 @@
+{
+  "revision": "native-contours-v1",
+  "scope": "Transparent brush paint ends only. Artwork and texture remain raster; structural contours, typography and icons remain native SVG.",
+  "families": {
+    "Personality": {
+      "native_components_unchanged": [
+        "continuous-original-background",
+        "shared-charcoal-paint",
+        "retained-illustration",
+        "card-title",
+        "card-category",
+        "footer-text-block",
+        "saga-emblem",
+        "footer-rarity",
+        "card-number",
+        "rules-line-1",
+        "attack-icon",
+        "rules-line-2",
+        "shared-rules-component",
+        "power-stages-v3",
+        "power-stage-gap-overlays",
+        "slim-power-stage-panel",
+        "concept-pur-number",
+        "level-badge-v3"
+      ],
+      "helper_idempotent": true,
+      "zero_changes_outside_brush_panels": true,
+      "unchanged_background_and_paint_bytes": true,
+      "clear_background_pixels_tested": 40549,
+      "clear_background_mismatch_pixels": 0,
+      "minor_interior_raster_rounding_pixels": 44,
+      "minor_interior_max_channel_delta": 2,
+      "lossless_png_webp_equal": true,
+      "master_sha256": "a743fc869e408742e6d5533f11c9b5c94e9ce2f829a8d6a1f361ae917184a47f"
+    },
+    "Combat": {
+      "native_components_unchanged": [
+        "continuous-original-background",
+        "shared-charcoal-paint",
+        "retained-illustration",
+        "card-title",
+        "card-category",
+        "footer-text-block",
+        "saga-emblem",
+        "footer-rarity",
+        "card-number",
+        "rules-line-1",
+        "attack-icon",
+        "rules-line-2",
+        "shared-rules-component",
+        "red-tokui-waza-symbol"
+      ],
+      "helper_idempotent": true,
+      "zero_changes_outside_brush_panels": true,
+      "unchanged_background_and_paint_bytes": true,
+      "clear_background_pixels_tested": 54349,
+      "clear_background_mismatch_pixels": 0,
+      "minor_interior_raster_rounding_pixels": 53,
+      "minor_interior_max_channel_delta": 1,
+      "lossless_png_webp_equal": true,
+      "master_sha256": "05c0a94683fe5a9b84552fdcf4c75febb10c972372c72f95a8d267ca15dace6d"
+    }
+  }
+}

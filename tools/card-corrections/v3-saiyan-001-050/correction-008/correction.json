@@ -1,0 +1,33 @@
+{
+  "number": 8,
+  "purpose": "Restore original asymmetric viewer-left gaze only within two eye/brow polygons.",
+  "tool": "built-in imagegen",
+  "source_artwork": "sources/006-025/source/artwork/saiyan-008.png",
+  "source_artwork_sha256": "2a053c7611703ae2af276d0b4789e80aecb4652ff133e2224c696706eb899987",
+  "generated_context": "corrections/008/generated-full-context.png",
+  "generated_sha256": "38c302fd1e76031e2728607a73df39863d0fdb24aee73008fddb4a11974f31d3",
+  "native_patch_svg": "corrections/008/patch-overlay.svg",
+  "localized_artwork_svg": "corrections/008/localized-artwork.svg",
+  "localized_artwork_png": "corrections/008/localized-artwork.png",
+  "localized_artwork_sha256": "3d34e19bfe4d25d0aa8a48f02869ed565bcedde461ff2f47f47fdfb03e551b8c",
+  "prompt_file": "corrections/008/prompt.txt",
+  "coordinate_space": {
+    "width": 1448,
+    "height": 1086
+  },
+  "clip_paths": [
+    "M 443,282 Q 478,270 513,292 L 701,437 L 695,471 L 660,479 L 516,464 Q 488,446 488,350 L 444,383 Z",
+    "M 739,438 L 941,299 L 983,299 L 1001,391 L 961,395 L 912,464 L 766,479 L 742,468 Z"
+  ],
+  "decoded_pixel_validation": {
+    "different_pixels": 51731,
+    "changed_pixels_outside_nonzero_mask": 0,
+    "changed_bbox": [
+      443,
+      277,
+      1001,
+      479
+    ]
+  },
+  "note": "Full generated image is context only. Use localized artwork PNG or native overlay, never entire generated context. Source file unchanged."
+}

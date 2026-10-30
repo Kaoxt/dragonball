@@ -1,0 +1,32 @@
+{
+  "number": 4,
+  "purpose": "Restore navy undershirt within white-shirt opening only.",
+  "tool": "built-in imagegen",
+  "source_artwork": "sources/001-005/source/artwork/saiyan-004.png",
+  "source_artwork_sha256": "ab65e0d6799034151eb528bcfd315c2f8e7af452dcedde4bf28b84eacd307fa1",
+  "generated_context": "corrections/004/generated-full-context.png",
+  "generated_sha256": "4c22e4ed5a2d28f417bd5c0c02322d54eece73d76198a423939a268d5ef6d9bc",
+  "native_patch_svg": "corrections/004/patch-overlay.svg",
+  "localized_artwork_svg": "corrections/004/localized-artwork.svg",
+  "localized_artwork_png": "corrections/004/localized-artwork.png",
+  "localized_artwork_sha256": "52eb3361267048e49a65590805eeb2905668672117d5fa4be8b5526c86a292c0",
+  "prompt_file": "corrections/004/prompt.txt",
+  "coordinate_space": {
+    "width": 1448,
+    "height": 1086
+  },
+  "clip_paths": [
+    "M 535,795 L 910,795 L 925,839 L 900,874 L 737,1058 L 535,870 L 525,834 Z"
+  ],
+  "decoded_pixel_validation": {
+    "different_pixels": 60112,
+    "changed_pixels_outside_nonzero_mask": 0,
+    "changed_bbox": [
+      525,
+      795,
+      925,
+      1058
+    ]
+  },
+  "note": "Full generated image is context only. Use localized artwork PNG or native overlay, never entire generated context. Source file unchanged."
+}

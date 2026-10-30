@@ -14,11 +14,14 @@ const power=JSON.parse(fs.readFileSync(path.join(folder,'power-export-audit.json
 const alignment=JSON.parse(fs.readFileSync(path.join(folder,'power-alignment-audit.json')));
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 
-test('every catalog card uses verified smaller, visibly centered title exports',()=>{
+test('V2 catalog cards retain verified smaller, visibly centered title exports',()=>{
   assert.equal(hash(path.join(root,'tools/card-templates/shared/Teko-SemiBold.ttf')),'c6e312589232623060ab3d55b86d2b2978c5f5af958e96781acaf0f7043bc9b3');
   const records=new Map(audit.map(r=>[r.id,r]));
   assert.equal(records.size,audit.length);assert.equal(records.size,catalog.length);
   for(const card of catalog){
+    // V3 is a complete frame migration with its own measured geometry/export audit.
+    // The historical V2 pixel-preservation contract does not describe that change.
+    if(card.templateVersion===3)continue;
     const row=records.get(card.id);assert.ok(row,`${card.id}: missing title audit`);
     const m=row.metrics;assert.ok(Math.abs(m.font_size-77.43142144638405)<1e-8);
     assert.ok(Math.abs((m.bounds[1]+m.bounds[3])/2-72)<1e-6);
@@ -50,6 +53,7 @@ test('all power text retains the approved font and reviewed final export evidenc
   assert.equal(nativeMap.size,catalog.length);assert.equal(exportMap.size,catalog.length);
   assert.equal(power.unresolved_text_components,0);
   for(const card of catalog){
+    if(card.templateVersion===3)continue;
     const n=nativeMap.get(card.id);assert.ok(n);assert.equal(n.issue_count,0);
     for(const line of n.lines)assert.equal(line.issues.length,0);
     const p=exportMap.get(card.id);assert.ok(p);assert.equal(p.exports.length,2);
@@ -64,3 +68,4 @@ test('all power text retains the approved font and reviewed final export evidenc
     }
   }
 });
+

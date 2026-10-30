@@ -1,0 +1,49 @@
+{
+  "card": 36,
+  "method": "Built-in imagegen localized boot repair; native SVG clip composite",
+  "original_artwork_path": "sources/026-050/source/artwork/saiyan-036.png",
+  "original_sha256": "c846eb637877166ce1000a0235c657602976b1a1f35782d64be71d1bf0f92ba5",
+  "original_dimensions": [
+    1414,
+    1112
+  ],
+  "generated_patch_path": "corrections/036-boot/generated-boot-patch-v1.png",
+  "generated_patch_sha256": "349a410a87323c7ef9775d8680507a0d207c68ea7e761a5d8fca1654f05277af",
+  "generated_dimensions": [
+    1331,
+    1182
+  ],
+  "placement_in_original_artwork_pixels": {
+    "x": 1020,
+    "y": 325,
+    "width": 394,
+    "height": 350,
+    "preserveAspectRatio": "none"
+  },
+  "clip_path_in_original_artwork_pixels": "M 1126,407 C 1115,410 1105,426 1098,450 C 1084,493 1089,535 1108,565 L 1126,574 L 1254,574 L 1296,591 L 1359,593 L 1398,586 L 1414,587 L 1414,424 L 1380,421 L 1314,417 L 1265,423 L 1190,409 Z",
+  "prompt_path": "corrections/036-boot/prompt.txt",
+  "status": "patch_composite_visually_reviewed_ready_for_integration",
+  "intended_change": "Restore full white boot end and remove unsupported brown ankle ring while preserving other art through native clipping.",
+  "verification": {
+    "composite_dimensions": [
+      1414,
+      1112
+    ],
+    "changed_pixels": 52032,
+    "changed_pixel_bounds_inclusive": [
+      1090,
+      407,
+      1413,
+      592
+    ],
+    "outside_bounding_footprint_changed_pixels": 0,
+    "bounding_footprint": [
+      1080,
+      395,
+      1414,
+      598
+    ],
+    "visual_result": "Complete white toe restored with small right pink margin; original cuff/leg/head/pose/background outside boot footprint retained; unsupported brown ankle ring removed. No global shrink."
+  },
+  "composite_preview_sha256": "c78d32f43e19cc3a96828d8973cdd0cb11de5b0661366019e0d4eefc5222563b"
+}

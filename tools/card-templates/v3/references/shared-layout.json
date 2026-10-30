@@ -1,0 +1,100 @@
+{
+  "canvas": [
+    1060,
+    1484
+  ],
+  "title": {
+    "top": 12,
+    "height": 134,
+    "text_center": [
+      529.5,
+      79
+    ],
+    "font": "Teko SemiBold",
+    "size": 86.0349127182045
+  },
+  "category": {
+    "top": 852,
+    "height": 113,
+    "text_center": [
+      529.5,
+      908.5
+    ],
+    "font": "Michroma Regular",
+    "size": 38.4,
+    "stroke": 4.21875,
+    "hero_material": "Existing blue brush material retained",
+    "combat_material": "shared-brushed-charcoal-panel (same definition as title and footer)",
+    "brush_ends": "True brush alpha reveals a single recovered full-card background image."
+  },
+  "footer": {
+    "top": 1353,
+    "height": 113,
+    "content_center_y": 1409.5,
+    "horizontal_mapping": [
+      [
+        0,
+        180,
+        0,
+        145
+      ],
+      [
+        180,
+        880,
+        145,
+        915
+      ],
+      [
+        880,
+        1060,
+        915,
+        1060
+      ]
+    ],
+    "inner_clearance_target": 96,
+    "actual_inner_clearance": {
+      "left": 95.6596,
+      "right": 95.5
+    },
+    "saga_center": [
+      211.75,
+      1409.5
+    ],
+    "rarity_center": [
+      844,
+      1409.5
+    ],
+    "card_number_left": 880,
+    "ball_number_gap": 12.2,
+    "four_star_layout": "Two offset rows per Goku #179 user reference; individual stars remain upright."
+  },
+  "rules": {
+    "outer_path": "M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z",
+    "body_font": "Barlow Condensed Bold",
+    "body_size": 49,
+    "line_pitch": 59
+  },
+  "background_source": {
+    "hero": "Original-Hero-Background.png (Dark navy diagonal scratch texture, recovered October 29 asset)",
+    "combat": "Original-Combat-Background.png (Deep crimson etched card background, recovered October 20 asset)",
+    "placement": "Single image at 0,0 with native 1060x1484 size; no tiling, mirroring, or cropped-card patches"
+  },
+  "tokui_waza": {
+    "fill": "#ef1626",
+    "outline": "#080b0d",
+    "shape_and_placement": "unchanged"
+  },
+  "brush_alpha": {
+    "revision": "native-contours-v1",
+    "shared_contour": "clean-native-brush-paint-contour",
+    "pur_contour": "clean-native-pur-paint-contour",
+    "uses": [
+      "title",
+      "category",
+      "footer",
+      "personality PUR brush"
+    ],
+    "background": "One continuous original image; no backing patches. Paint ends clipped to native contours with genuine transparent holes.",
+    "verification": "Brush-Transparency-Verification.json; compare fully clear middle-overlay pixels to original background at identical coordinates."
+  }
+}

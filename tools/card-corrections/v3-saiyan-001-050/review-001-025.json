@@ -1,0 +1,1751 @@
+{
+  "reviewer": "saiyan_art_review_001_025",
+  "scope": "Individual retained source artwork and finished V3 artwork review for every card 001\u2013025; normal-card-size and enlarged checks.",
+  "guidelines": [
+    "original-anatomy-and-perspective.md",
+    "facial-expression-fidelity.md"
+  ],
+  "limits": "Actual originals inspected for 001\u2013010 only. 001/006 remain unresolved for fine facial detail, with additional low-resolution limitations recorded per card. Original Score scans unavailable for 011\u2013014 and 017\u2013025: modern artwork/crop/anatomy checked individually, historical expression evidence kept separate, original fidelity unverified. 015/016 approved Shenron redesign exceptions. Both confirmed 004/008 issues corrected and final-card rechecked. All 25 artwork images present; no remaining confirmed material defect found in inspected artwork. PNG/display/download strictly decoded and hashes recorded. Publication not performed by this reviewer.",
+  "confirmed_source_mismatches": [
+    4,
+    8
+  ],
+  "confirmed_sample_crop_mismatches": [
+    17
+  ],
+  "potential_template_donor_art_leftover": [],
+  "cards": [
+    {
+      "number": 1,
+      "id": "saiyan-001-orange-standing-fist-punch",
+      "name": "Orange Standing Fist Punch",
+      "source_artwork": "sources/001-005/source/artwork/saiyan-001.png",
+      "source_artwork_sha256": "dd3ba77665f04892e08d0a135c3ded663037b73236fc8e08133a98abc18dcc6f",
+      "source_artwork_dimensions": [
+        1060,
+        794
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/001-005/source/originals/score-001.jpg",
+          "sha256": "fe0733ce2852fef99ff4681b19948a14cd4d065434b9db4ef444f162b014e3ff",
+          "dimensions": [
+            1117,
+            1536
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "unresolved_fine_detail",
+      "observations": "Raditz and Gohan impact pose, left open hand with five digits, crossed foreground child, armor, scouter and tail are present. No detached/missing visible limb. Raditz wide eye and tense expression broadly compatible; mouth appears more openly shouting in modern art but original is too soft for a confirmed mouth verdict. Gohan face/hand fine detail unresolved. Red/pink impact background retained with modern debris detail.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/1-Orange-Standing-Fist-Punch.jpg",
+        "status": "Unresolved",
+        "finding": "Raditz and Gohan visible. General startled/strained expressions retained, but original faces are too small to verify mouth/eye details.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-001-orange-standing-fist-punch.png",
+        "sha256": "eae8d1283e0c3c423b67a70566c418f702414157088e6a4d5f8cb427bc1f1ed2",
+        "finding": "Artwork present; visible open hand, both faces and armor unobscured; no new material crop defect.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-001-orange-standing-fist-punch.webp",
+            "sha256": "6c9b8f9c81556938de8ffdb57fb01155c08349b18c55e1b522a48773d97eb3dd",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-001-orange-standing-fist-punch.webp",
+            "sha256": "13591442f604acb7911131c71aa3d19cccc375831b05c23c234eb744ee6fcaf6",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 2,
+      "id": "saiyan-002-orange-one-knuckle-punch",
+      "name": "Orange One Knuckle Punch",
+      "source_artwork": "sources/001-005/source/artwork/saiyan-002.png",
+      "source_artwork_sha256": "0f4d920bf4039aebd9a8ec3950b3e616941cf9b7f194328b5e38cac7b7fb2b1e",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/001-005/source/originals/score-002.jpg",
+          "sha256": "dac8c8f65d1ec95b9596b2ac474d9d69ed9f026061809b2d7e16910384881afc",
+          "dimensions": [
+            1200,
+            1600
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Piccolo extreme close-up retains closed/narrowed eyes, pinched inner brows, green skin and sweat. Mouth and limbs are outside the intentional close crop in both. No visible glitch or newly invented anatomy.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/2-Orange-One-Knuckle-Punch.jpg",
+        "status": "Screened compatible",
+        "finding": "Close-up narrowed/closed eyes and brow tension retained; mouth outside crop.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-002-orange-one-knuckle-punch.png",
+        "sha256": "1168953e5c0a6d118027d0fed65142df4d302c725ee6a87ebddd5a4d943f6b03",
+        "finding": "Piccolo close-up present; eyes/brow/sweat coherent, no new material art crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-002-orange-one-knuckle-punch.webp",
+            "sha256": "98a79cd0bf59d1b5d9a3f572b64992ccccd2bbfa3e194badef7ad2de8f53e9c8",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-002-orange-one-knuckle-punch.webp",
+            "sha256": "43f033773f9f4e4a261c61bdfd68b796e373d3124ab085d73631aa4ec752e5f2",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 3,
+      "id": "saiyan-003-orange-two-knuckle-punch",
+      "name": "Orange Two Knuckle Punch",
+      "source_artwork": "sources/001-005/source/artwork/saiyan-003.png",
+      "source_artwork_sha256": "daa289d6c50da706faa5bb9c9cb65dee9ba1edbee6930669431edcfa3536291b",
+      "source_artwork_dimensions": [
+        1505,
+        1045
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/001-005/source/originals/score-003.jpg",
+          "sha256": "d3e3e66bced40593f58768e0038008ab8560d6ab8c312318deb746bda5e7c809",
+          "dimensions": [
+            298,
+            410
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Raditz face/fist composition retained: fist occludes viewer-right eye, visible eye focused inward under tense brow, closed subtly upturned mouth, dark hair and wrist cuff. Visible curled fingers and thumb read coherently. Low-resolution original limits exact finger-line and gaze detail.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/3-Orange-Two-Knuckle-Punch.jpg",
+        "status": "Screened compatible",
+        "finding": "Stern closed mouth and focused visible eye retained; other eye occluded by hand.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-003-orange-two-knuckle-punch.png",
+        "sha256": "81e1b48eab2421a994a277bcc7bb2bfa000291bda397fc9c530cc8c84c6110b3",
+        "finding": "Raditz visible eye/mouth and raised fist retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-003-orange-two-knuckle-punch.webp",
+            "sha256": "a7681f563d364b2034ed0a8cdd570bf3a1818da11bf802815c4fbeb28743f51c",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-003-orange-two-knuckle-punch.webp",
+            "sha256": "685f8b58021726865ff3dad745c344c357cedd2844acd1aed5dabffbfe42a46c",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 4,
+      "id": "saiyan-004-orange-leg-sweep",
+      "name": "Orange Leg Sweep",
+      "source_artwork": "sources/001-005/source/artwork/saiyan-004.png",
+      "source_artwork_sha256": "ab65e0d6799034151eb528bcfd315c2f8e7af452dcedde4bf28b84eacd307fa1",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/001-005/source/originals/score-004.jpg",
+          "sha256": "1935859fca83e7ad03bc0abf676141ca0b2a16ce3242745f2c66913a09ccdb7e",
+          "dimensions": [
+            1200,
+            1600
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "corrected_and_rechecked_final_card",
+      "observations": "Bulma wide shocked eyes, open panic mouth with teeth/tongue, cyan bob, outstretched upper arms and horizontal pastel streaks are retained. Confirmed costume difference: actual score-004 original shows a dark blue/black top under the white open shirt at lower center; retained modern art shows bare cleavage and extends exposed skin downward. No detached/missing visible upper limb.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/4-Orange-Leg-Sweep.jpg",
+        "status": "Screened compatible",
+        "finding": "Bulma's wide eyes and wide-open panicked mouth retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-004-orange-leg-sweep.png",
+        "sha256": "035bfcc98a9595c32438b5c5398e812e26d986a36357c033b2f739aa0a2ef008",
+        "finding": "Native clipped navy-undershirt correction is visible and clean beneath white lapels. Shocked face, pose and background retained. Final enlarged and 265\u00d7371 card-size inspections passed; no new material crop defect.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-004-orange-leg-sweep.webp",
+            "sha256": "0fe65f58ebbdf3ff2157ed6a998f748fd2992c70434550994e8e011e2ecfbb4c",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-004-orange-leg-sweep.webp",
+            "sha256": "b8ea0ea5f95eb13d1d1f0fdc33a8ecc483fba4aa748bb3c9a70b565ec3b670e8",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false,
+      "correction": {
+        "number": 4,
+        "purpose": "Restore navy undershirt within white-shirt opening only.",
+        "tool": "built-in imagegen",
+        "source_artwork": "sources/001-005/source/artwork/saiyan-004.png",
+        "source_artwork_sha256": "ab65e0d6799034151eb528bcfd315c2f8e7af452dcedde4bf28b84eacd307fa1",
+        "generated_context": "corrections/004/generated-full-context.png",
+        "generated_sha256": "4c22e4ed5a2d28f417bd5c0c02322d54eece73d76198a423939a268d5ef6d9bc",
+        "native_patch_svg": "corrections/004/patch-overlay.svg",
+        "localized_artwork_svg": "corrections/004/localized-artwork.svg",
+        "localized_artwork_png": "corrections/004/localized-artwork.png",
+        "localized_artwork_sha256": "52eb3361267048e49a65590805eeb2905668672117d5fa4be8b5526c86a292c0",
+        "prompt_file": "corrections/004/prompt.txt",
+        "coordinate_space": {
+          "width": 1448,
+          "height": 1086
+        },
+        "clip_paths": [
+          "M 535,795 L 910,795 L 925,839 L 900,874 L 737,1058 L 535,870 L 525,834 Z"
+        ],
+        "decoded_pixel_validation": {
+          "different_pixels": 60112,
+          "changed_pixels_outside_nonzero_mask": 0,
+          "changed_bbox": [
+            525,
+            795,
+            925,
+            1058
+          ]
+        },
+        "note": "Full generated image is context only. Use localized artwork PNG or native overlay, never entire generated context. Source file unchanged.",
+        "exact_prompt": "Use case: precise-object-edit.\nAsset type: isolated artwork correction for a retained Dragon Ball OCG illustration, not a card.\nInput images: Image 1 is the exact modern edit target (Bulma with shocked face and open white shirt). Image 2 is the authoritative photographed original Score card; use only its illustration as costume reference.\nPrimary request: restore the dark navy blue strapless undershirt/bandeau visible in the original beneath Bulma's open white shirt. Change only the chest area INSIDE the existing open white shirt. The navy top must cover the currently exposed cleavage/bust below the upper chest, with a simple nearly horizontal upper neckline. Preserve the visible neck/collarbones and upper chest above the navy top. Fit the top behind the white lapels; do not change any white-shirt edge or fold.\nStyle: exactly match the modern edit target's clean anime cell shading and linework.\nComposition/framing: return the SAME complete artwork canvas and alignment as Image 1, same aspect ratio, no crop or zoom. This output will be clipped to the small chest opening later.\nConstraints: preserve Bulma's exact shocked expression, huge eyes and pupils, mouth/teeth/tongue, hair, ears/earrings, head size, pose, raised arms, white shirt shape, background pastel speed lines, shadows and every other feature. Do not add straps. Do not redesign the outfit or body. No card border, text, symbols, watermark, or new objects. Only restore the navy undershirt.\n",
+        "visual_recheck": "Localized composite individually inspected at full size. #004 navy undershirt restored; #008 asymmetric viewer-left gaze restored. No new pose/framing change.",
+        "native_blend": "004 top skin seam uses 795\u2013830px native linear-gradient alpha mask inside the retained clip. Other edges are clipped.",
+        "final_card_integrated": true
+      }
+    },
+    {
+      "number": 5,
+      "id": "saiyan-005-orange-arm-bar",
+      "name": "Orange Arm Bar",
+      "source_artwork": "sources/001-005/source/artwork/saiyan-005.png",
+      "source_artwork_sha256": "4646179b2b39a40734b469dacb2778bc435b544557bca7315f7af2ec117ab93e",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/001-005/source/originals/score-005.jpg",
+          "sha256": "a20cf07e822d8a426cde21d4962d4e5b6716835a8dfc294f21dc058febb4f76e",
+          "dimensions": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "path": "sources/001-005/source/originals/orange-arm-bar-user-reference.jpg",
+          "sha256": "59de880afa4a5d01eb84ce325b08016bacc951e37f666482fed32fb0ed6357c0",
+          "dimensions": [
+            1536,
+            1441
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Raditz frontal bust retains broad widow-peak forehead, large dark hair silhouette, closed stern mouth, narrowed visible eye, green scouter and brown/dark armor. Shoulders and visible upper arms are coherent. Original fine pupil and scouter detail remains resolution-limited; no clear material departure found.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/5-Orange-Arm-Bar.jpg",
+        "status": "Screened compatible",
+        "finding": "Raditz's closed stern mouth and narrowed visible eye retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-005-orange-arm-bar.png",
+        "sha256": "8c6c8020d908ca5cc738aa25784e3d33751b0f49b889ccdeeebdfadf3f965f60",
+        "finding": "Raditz head/scouter/armor retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-005-orange-arm-bar.webp",
+            "sha256": "6b74694de3082f8e4caec89cf518d1973089af9223d6001908a71afd1dc6e4df",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-005-orange-arm-bar.webp",
+            "sha256": "a018d6f2a285a75cfb950cd117d48a49473ffb728589becfe0ee4733ad830afc",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 6,
+      "id": "saiyan-006-red-lunge-punch",
+      "name": "Red Lunge Punch",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-006.png",
+      "source_artwork_sha256": "fa7b2ae2c760dd6d845bb679758527cb6253087d5ff236cb95a1e4c02ed76eb4",
+      "source_artwork_dimensions": [
+        1505,
+        1045
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/006-025/source/artwork/red-lunge-punch-original-user-reference.png",
+          "sha256": "3812ef1cf1fb61bc915711f67d2c2090d3000d1fb936c70077d3b3d8c77e64dc",
+          "dimensions": [
+            420,
+            570
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "unresolved_fine_detail",
+      "observations": "Goku crossed-arm guard, two clenched hands connected through wrists/elbows to shoulders, orange gi with blue undershirt/wristbands and dark teal background retained. Tense brows and forward gaze broadly match. Source mouth too small/watermarked to distinguish opening versus tooth shape reliably; not an exact expression pass.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/6-Red-Lunge-Punch.jpg",
+        "status": "Unresolved",
+        "finding": "Goku's tense brow retained; original mouth too small to distinguish opening versus tooth shape reliably.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-006-red-lunge-punch.png",
+        "sha256": "94a61df1d52e5773dc308353acb3dbf4fde4e846ba62f3ac4249ffc11f61383a",
+        "finding": "Teal-background crossed-arm artwork intact. Previously noted sky strip removed; approved red/black type-band background now continuous. Facial fine detail remains unresolved against low-resolution original.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-006-red-lunge-punch.webp",
+            "sha256": "75dd63f8d27d11ea1b709b15a138ebaf3c682091569b2e4997bfbbc33327f440",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-006-red-lunge-punch.webp",
+            "sha256": "1c204c739fa0e2e42b84efe4a13be193ec5387403f36a82a1a02865ee61fa765",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 7,
+      "id": "saiyan-007-red-reverse-punch",
+      "name": "Red Reverse Punch",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-007.png",
+      "source_artwork_sha256": "4892e19d7053797f9882899dd1b05b76f1eb2c9dc461c534fcc3d37f89d83864",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/006-025/source/original-artwork/score-007.jpg",
+          "sha256": "453e385eadbb363b56b7aa0cefdc4e5e21e1736a64bb31d9081f76b64ff7eaf3",
+          "dimensions": [
+            420,
+            570
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Raditz close-up retains tense visible eye, narrowed tooth-showing horizontal grimace, green scouter and broad forehead/ear placement. Modern expanded bust/armor is coherent; mouth corner/eye fine detail limited by low-resolution original. Historical report calls this Vegeta, but visible modern/reference character is Raditz.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/7-Red-Reverse-Punch.jpg",
+        "status": "Screened compatible",
+        "finding": "Vegeta's narrow tooth-showing grimace and tense visible eye retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-007-red-reverse-punch.png",
+        "sha256": "df4fe640db8f3ebba37906981f9e4003ced24426709b0ecf915d8040c606317a",
+        "finding": "Raditz eye/scouter and tooth-showing grimace retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-007-red-reverse-punch.webp",
+            "sha256": "14d026ebfda5c560c31aa06ef371cf7150cd66f8acd52b2c966186b944a96be1",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-007-red-reverse-punch.webp",
+            "sha256": "ddc7b0e4ee9475c45a9485abfa47261722accebe06552dfb4b90fd81f3c34bd4",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 8,
+      "id": "saiyan-008-red-knife-hand",
+      "name": "Red Knife Hand",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-008.png",
+      "source_artwork_sha256": "2a053c7611703ae2af276d0b4789e80aecb4652ff133e2224c696706eb899987",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/006-025/source/original-artwork/score-008.png",
+          "sha256": "30371048bbf0d743052ba70a3a600c5ab16aeb0459898988888466fb4f5bb2ef",
+          "dimensions": [
+            420,
+            570
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "corrected_and_rechecked_final_card",
+      "observations": "Vegeta stern closed mouth and blue/yellow/white armor retained. Confirmed gaze/eye-shape difference: score-008 original glances toward viewer-left with conspicuously wider viewer-left eye and asymmetric eyelids; modern artwork uses nearly symmetric eyes and forward/inward pupils. No missing anatomy visible in bust crop.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/8-Red-Knife-Hand.jpg",
+        "status": "Screened compatible",
+        "finding": "Vegeta's closed frown, tense brows and sideways glare retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-008-red-knife-hand.png",
+        "sha256": "cd7841bd0d1f0c3d297f31490ba8df3076cbd03cc2233dfee6c22e2f5bbcef29",
+        "finding": "Native clipped correction restores asymmetric wider viewer-left eye and viewer-left glance. Stern mouth, pose, hairline and armor retained. Enlarged and 265\u00d7371 card-size final inspections passed.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-008-red-knife-hand.webp",
+            "sha256": "02441dd85f0636ab1d2a6f2ddb9225a85c2901d8ce2a3121149f04dc7fe978af",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-008-red-knife-hand.webp",
+            "sha256": "1d7653114576502c94db960f2dd520d50bffc6fe7aa22c5900952d3c1bd0064f",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false,
+      "correction": {
+        "number": 8,
+        "purpose": "Restore original asymmetric viewer-left gaze only within two eye/brow polygons.",
+        "tool": "built-in imagegen",
+        "source_artwork": "sources/006-025/source/artwork/saiyan-008.png",
+        "source_artwork_sha256": "2a053c7611703ae2af276d0b4789e80aecb4652ff133e2224c696706eb899987",
+        "generated_context": "corrections/008/generated-full-context.png",
+        "generated_sha256": "38c302fd1e76031e2728607a73df39863d0fdb24aee73008fddb4a11974f31d3",
+        "native_patch_svg": "corrections/008/patch-overlay.svg",
+        "localized_artwork_svg": "corrections/008/localized-artwork.svg",
+        "localized_artwork_png": "corrections/008/localized-artwork.png",
+        "localized_artwork_sha256": "3d34e19bfe4d25d0aa8a48f02869ed565bcedde461ff2f47f47fdfb03e551b8c",
+        "prompt_file": "corrections/008/prompt.txt",
+        "coordinate_space": {
+          "width": 1448,
+          "height": 1086
+        },
+        "clip_paths": [
+          "M 443,282 Q 478,270 513,292 L 701,437 L 695,471 L 660,479 L 516,464 Q 488,446 488,350 L 444,383 Z",
+          "M 739,438 L 941,299 L 983,299 L 1001,391 L 961,395 L 912,464 L 766,479 L 742,468 Z"
+        ],
+        "decoded_pixel_validation": {
+          "different_pixels": 51731,
+          "changed_pixels_outside_nonzero_mask": 0,
+          "changed_bbox": [
+            443,
+            277,
+            1001,
+            479
+          ]
+        },
+        "note": "Full generated image is context only. Use localized artwork PNG or native overlay, never entire generated context. Source file unchanged.",
+        "exact_prompt": "Use case: precise-object-edit.\nAsset type: localized expression correction for Dragon Ball OCG artwork, not a card.\nInput images: Image 1 is the exact modern Vegeta edit target; Image 2 is the original Score Red Knife Hand card, authoritative for the eyes and gaze only.\nPrimary request: correct ONLY Vegeta's two eyes, eyelids and immediately adjoining eyebrow contours to reproduce the distinctive sideways glance in Image 2. He is looking toward the VIEWER'S LEFT, not straight ahead. The eye on the VIEWER'S LEFT is noticeably wider/open vertically and its small black pupil sits toward the outer-left side. The eye on the VIEWER'S RIGHT remains narrower under the strongly angled brow and its pupil also points left, near the nose side. Preserve the original's deliberate asymmetry and focused stern mood. Keep a closed stern frowning mouth exactly as the target.\nStyle: match Image 1 clean anime linework and cell shading exactly.\nComposition/framing: return precisely the same complete canvas, proportions, face size and alignment as Image 1. No zoom, no crop, no camera or head-turn change. This image will be clipped to the smallest eye-region patches later.\nConstraints: do not change forehead outline or hairline, hair, ears, nose, cheeks, mouth, jaw, costume, shoulders, color, backdrop, body pose, expression outside eyes/brows or any other pixels. Do not replace the face or beautify it. No text, frame, symbol, watermark or added objects. The sole goal is the original's asymmetric side-looking eye expression.\n",
+        "visual_recheck": "Localized composite individually inspected at full size. #004 navy undershirt restored; #008 asymmetric viewer-left gaze restored. No new pose/framing change.",
+        "native_blend": "Two native eye/brow clip polygons; unchanged central face and mouth.",
+        "final_card_integrated": true
+      }
+    },
+    {
+      "number": 9,
+      "id": "saiyan-009-red-palm-heel-strike",
+      "name": "Red Palm Heel Strike",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-009.png",
+      "source_artwork_sha256": "65519120b065f54193f75f2ac5992bb15e76a04cca32bbdbe8f0e66f2aab3245",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/006-025/source/original-artwork/score-009.jpg",
+          "sha256": "868ae20067b6afa02d7150ae0bcb47950ddd9f95b6858988143a050ceeeef637",
+          "dimensions": [
+            420,
+            570
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Chi-Chi leaning forward behind black steering wheel retains closed stern mouth, tense inner brows, forward eyes, black fringe/side locks, orange scarf and pink/green vehicle background. Wheel legitimately occludes lower torso/hands in both. No clear material mismatch at available scan resolution.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/9-Red-Palm-Heel-Strike.jpg",
+        "status": "Screened compatible",
+        "finding": "Chi-Chi's closed stern mouth, raised inner eyebrows and forward gaze retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-009-red-palm-heel-strike.png",
+        "sha256": "495d520e3a0a8b7eba30a7ca0b59c2d056d7f2f9dd10c9f871e3e1653687a99b",
+        "finding": "Chi-Chi face/scarf/steering wheel retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-009-red-palm-heel-strike.webp",
+            "sha256": "0d3c5e3554fac1a463c7e2dba8846141012778e3aa0fae153c7e0d282598a627",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-009-red-palm-heel-strike.webp",
+            "sha256": "6d723746e0ccf7be929526b499d57b52ab72c431d5a74bcf3ea95e0495b920e3",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 10,
+      "id": "saiyan-010-red-elbow-strike",
+      "name": "Red Elbow Strike",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-010.png",
+      "source_artwork_sha256": "030e2f116b3d0beecfe806a84c53c8a80e34552d53ba7905652d2e0a57f9811b",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [
+        {
+          "path": "sources/006-025/source/original-artwork/score-010.jpg",
+          "sha256": "abe92514732d4a452144db7b33b09165d93c0887d54da4e18be7b5610ac9df5b",
+          "dimensions": [
+            420,
+            570
+          ]
+        }
+      ],
+      "comparison_evidence": "direct actual original comparison",
+      "verdict": "directly_compared_no_clear_material_mismatch",
+      "observations": "Bulma side glance and open cheerful mouth, cyan bob, arms raised behind head, blue strapless top, pale trousers/black belt, green pillar and dark background with lamps retained. Both upper arms connect coherently; hands hidden behind head in source and redraw. No clear material mismatch.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/10-Red-Elbow-Strike.jpg",
+        "status": "Screened compatible",
+        "finding": "Bulma's open smiling mouth and side gaze retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-010-red-elbow-strike.png",
+        "sha256": "b78c9c0348c3e19406e7e85727f8a08503e3206a1472660d07c278d13826822e",
+        "finding": "Final canonical PNG decodes fully after atomic rerender. Bulma face, raised arms, outfit and pillar/lamps present; no new material crop defect.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-010-red-elbow-strike.webp",
+            "sha256": "8f0a8d96d6343601a490caa030b72c6cbc980d614ff7ea5a94129efd7a724fab",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-010-red-elbow-strike.webp",
+            "sha256": "549feaf127d3651965bc97a378c530412d16665a72a43160c075f7cfdd78ad94",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 11,
+      "id": "saiyan-011-blue-forward-foot-sweep",
+      "name": "Blue Forward Foot Sweep",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-011.png",
+      "source_artwork_sha256": "fa091effd5adae80d4cd5e2fccb8204c0e28d6c8a86498ac376110e746b760b2",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Nappa strained clenched-teeth face and tense eyes are clear. Both arms/hands are present: curled fingers over log, opposite cuff/fist at lower left. Log/arm overlap and colored shoulder armor read coherently. No obvious missing limb, extra digit, broken overlap or raster glitch; original pose/background/expression fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/11-Blue-Forward-Foot-Sweep.jpg",
+        "status": "Screened compatible",
+        "finding": "Nappa's clenched-teeth grimace and angry brows retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-011-blue-forward-foot-sweep.png",
+        "sha256": "9c691aff5d75833880b53bbd5c993ae43db45c41b6b422dc43612577690bb490",
+        "finding": "Artwork present; face, log grip and opposite fist visible, no new material crop defect.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-011-blue-forward-foot-sweep.webp",
+            "sha256": "0b94efad8a359cb36b106d1899891ec094198680080e1c062b9566825d2d63e3",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-011-blue-forward-foot-sweep.webp",
+            "sha256": "8ffb296f51d13cd7408c4fae5f69d23a91bef351f62677bf86bc4d9eefccf25a",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 12,
+      "id": "saiyan-012-blue-hip-spring-throw",
+      "name": "Blue Hip Spring Throw",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-012.png",
+      "source_artwork_sha256": "55f734277ef6b336f5f55560ab433dffc89891333106110f63bca2218804eef9",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Nappa extreme facial close-up has clenched teeth, stressed wide eyes, inward pupils and connected moustache. No limbs in deliberate close crop. No obvious raster artifact or malformed feature; precise pupil/expression/crop fidelity needs actual original.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/12-Blue-Hip-Spring-Throw.jpg",
+        "status": "Screened compatible",
+        "finding": "Extreme close-up clenched teeth and strained wide eyes retained; precise pupil placement needs higher-resolution original.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-012-blue-hip-spring-throw.png",
+        "sha256": "760bf479c28d75990a20f0579ac393d8e175ae56863f279ed6822ac7ae591b30",
+        "finding": "Nappa deliberate extreme close-up retains both eyes and visible teeth; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-012-blue-hip-spring-throw.webp",
+            "sha256": "cfde49d1510daf9583da4914d994094c46613e759e2eaeb89976a38616022497",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-012-blue-hip-spring-throw.webp",
+            "sha256": "13f601d6861b0d8e49b6ae469dad526753138e54ae64082d1f9d48e4fbd50c09",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 13,
+      "id": "saiyan-013-blue-round-throw",
+      "name": "Blue Round Throw",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-013.png",
+      "source_artwork_sha256": "85c5b488ceaa73180f2790278ef5dd28d2641c188a43e9b234f0976e725caaba",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Nappa sideward gaze, closed crooked smile, moustache and hand holding small vial are coherent. Four curled fingers plus thumb support the vial; no floating hand or missing visible digit. Historical record says closed stern mouth, whereas retained modern art visibly smiles; this is a prompt for future direct comparison, not a confirmed mismatch without original.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/13-Blue-Round-Throw.jpg",
+        "status": "Screened compatible",
+        "finding": "Nappa's closed stern mouth and sideways gaze retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-013-blue-round-throw.png",
+        "sha256": "faac2d39ca636bcfc8963faecefab78f96451c5c0e30f86413f4f9bbcf8eabf7",
+        "finding": "Nappa face, vial and all visible holding digits retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-013-blue-round-throw.webp",
+            "sha256": "76bcb717905ec3baa6a1dd9037da32891641716af195a42b7d21ae16771e2b74",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-013-blue-round-throw.webp",
+            "sha256": "bb7c9f353bcc9e4eb5300df24316329fdfe325aa613e4cd08b6a8fee6d31e5e8",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 14,
+      "id": "saiyan-014-blue-shoulder-wheel",
+      "name": "Blue Shoulder Wheel",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-014.png",
+      "source_artwork_sha256": "3d8aee70401c30a471079f6ff354edd921abac073b273e2ea96a03593ea76e90",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Raditz has narrowed visible eye and tooth-showing asymmetric smirk, green scouter, broad dark hair and brown/dark armor. Bust anatomy has no visible missing piece. Historical fine tooth detail was limited; original expression/pose/background fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/14-Blue-Shoulder-Wheel.jpg",
+        "status": "Screened compatible",
+        "finding": "Raditz's slight crooked smirk and narrowed visible eye retained; original small mouth limits fine tooth detail.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-014-blue-shoulder-wheel.png",
+        "sha256": "2e858b90fc3537cbc3eda72306fd0551a623d5281c46a15af73d1ca0dc58331f",
+        "finding": "Raditz face/scouter/smirk and armor retained; no new material crop.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-014-blue-shoulder-wheel.webp",
+            "sha256": "52abe5886f628a15f480fcef65d292c9186d7ef036c7ed4cb3fe224d6fb42953",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-014-blue-shoulder-wheel.webp",
+            "sha256": "ec976e07e826835eecfabb1000f6452535f69c2dd46820fcbe531b74b582a004",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 15,
+      "id": "saiyan-015-earth-dragon-ball-1",
+      "name": "Earth Dragon Ball 1",
+      "source_artwork": "qa-source/saiyan-015-shenron.png",
+      "source_artwork_sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9",
+      "source_artwork_dimensions": [
+        1060,
+        1484
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "explicit approved redesign exception",
+      "verdict": "approved_artwork_exception",
+      "observations": "Approved unified full-art Shenron redesign, not a copy of original Goku. Extracted retained Shenron layer reviewed: face, red eyes, mouth/fangs, horns, whiskers, green coils and glowing orb present. No missing image or raster break. Native master has additional orb layers; final one-star count must be checked in completed render.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/15-Earth-Dragon-Ball-1.jpg",
+        "status": "Recorded artwork exception",
+        "finding": "Earth Dragon Ball unified full-art Shenron redesign; not an expression copy of original Goku illustration.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-015-earth-dragon-ball-1.png",
+        "sha256": "d4c2614f9a6de136b2cc5ae0a8b7afef42459caf49f1041b67e38c96c36443ed",
+        "finding": "Approved full-art Shenron design reviewed individually. Correct 1-star orb visible; face/horns/whiskers/coils present. No missing image.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-015-earth-dragon-ball-1.webp",
+            "sha256": "520ff2789ad051d5cc0f58c7f445d6edec5da6dd7a82940568dd7f3179d60156",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-015-earth-dragon-ball-1.webp",
+            "sha256": "0be04a75909e5efca581fa7b1287ba4323c6cb59b15e6e8731ad62ae2470fd19",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        },
+        "star_count": 1
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 16,
+      "id": "saiyan-016-earth-dragon-ball-2",
+      "name": "Earth Dragon Ball 2",
+      "source_artwork": "qa-source/saiyan-016-shenron.png",
+      "source_artwork_sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9",
+      "source_artwork_dimensions": [
+        1060,
+        1484
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "explicit approved redesign exception",
+      "verdict": "approved_artwork_exception",
+      "observations": "Approved unified full-art Shenron redesign, not a copy of Score original. Extracted retained Shenron layer reviewed separately: same coherent coils/face/horns/whiskers. Underlying shared raster carries a one-star orb; native overlay must supply correct two-star final orb, so no star-count verdict until final render.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/16-Earth-Dragon-Ball-2.jpg",
+        "status": "Recorded artwork exception",
+        "finding": "Earth Dragon Ball unified full-art Shenron redesign; not an expression copy of original illustration.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-016-earth-dragon-ball-2.png",
+        "sha256": "0fd7f35e2a835d4fcde9b9e69feb508db7ab55a31d5251475cfe7d257749fa34",
+        "finding": "Approved full-art Shenron design reviewed individually. Correct 2-star orb visible; face/horns/whiskers/coils present. No missing image.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-016-earth-dragon-ball-2.webp",
+            "sha256": "8066f9c110b6c3a649762fcd65cc4d178c8919149b67e210d68fe4d6ea4d7346",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-016-earth-dragon-ball-2.webp",
+            "sha256": "c257de65f02b94e890f7389e798b96bf6352914b6edc83f81eca177d61a934e4",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        },
+        "star_count": 2
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 17,
+      "id": "saiyan-017-hidden-power-level",
+      "name": "Hidden Power Level",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-017.png",
+      "source_artwork_sha256": "21ef3dfb1a33f22270d9c4d2a70c29bb8d0cb0fdbe442e05f6351f4f1dc7f6c1",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Krillin crouches with one hand gripping opposite shoulder and the other fist hanging downward. Both arms/wrists and torn orange gi/blue bands are coherent. Closed clenched-teeth grimace and one tightly shut eye visible. Entire lower fist outline is present in source image. Original fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/17-Hidden-Power-Level.jpg",
+        "status": "Screened compatible",
+        "finding": "Krillin's tooth-baring strained grimace and squeezed eye retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-017-hidden-power-level.png",
+        "sha256": "abb88ef360d99b76fd048ca74cea3da38d4f5a4d0e77777dd2f1e69329ae0d09",
+        "finding": "Final bottom-anchored framing visibly preserves full hanging fist and knuckle contour. Both hands and face intact; enlarged and normal-size checks passed. Actual Score-original comparison remains unavailable.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-017-hidden-power-level.webp",
+            "sha256": "7a62b5e04c39b98bfe9221a005a3271edb7c7863b055747f0ff8c98b0d56144f",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-017-hidden-power-level.webp",
+            "sha256": "8e928308380f52d9e67e1e2b958bc2e5d6949d0d2bd2367173f9ea1d3f9b2559",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 18,
+      "id": "saiyan-018-saiyan-arm-throw",
+      "name": "Saiyan Arm Throw",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-018.png",
+      "source_artwork_sha256": "430c96b09ca9de1253d72803882b71bf102f5cd6e9a814fee5b9c4befb6a1317",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Young Gohan diagonal leaning bust has wide eyes/small closed mouth, black hair, white scarf, dark gi and red wristbands/sash. Both visible upper arms continue to crop; hands intentionally outside source crop. No obvious detached limb or missing image; original fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/18-Saiyan-Arm-Throw.jpg",
+        "status": "Screened compatible",
+        "finding": "Gohan's wide surprised eyes and small closed mouth retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-018-saiyan-arm-throw.png",
+        "sha256": "00e2ca95e560ffe7bbe93a70aef485d4b91968f53aadacbdb7b1917cf6fac1ed",
+        "finding": "Artwork present; face/scarf and visible arms retained. Lower hand remains outside intentional crop; no new material defect identified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-018-saiyan-arm-throw.webp",
+            "sha256": "0316bea244f0180cadafe2524b3c608c938210b84dd64691719ed5cbc08d0b8d",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-018-saiyan-arm-throw.webp",
+            "sha256": "a6ba381f76d6c4b15a9daffebd8db7d7d2e65e07adbf524a7e7ce0a3993402b6",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 19,
+      "id": "saiyan-019-saiyan-full-spin-kick",
+      "name": "Saiyan Full Spin Kick",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-019.png",
+      "source_artwork_sha256": "6736df040b5f56b438f7c7b7e2a4838af443fbfcad1d6943b8e04b16864ff7f0",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Nappa pointing/energy pose has one extended digit/thumb and curled fingers, opposite closed fist, both arms and legs to crop. Armor/body overlaps coherent, tooth-baring expression clear. Beam obscures part of far eye; original gaze/pose/costume fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/19-Saiyan-Full-Spin-Kick.jpg",
+        "status": "Screened compatible",
+        "finding": "Nappa's strained tooth-baring expression retained; small original face limits detailed gaze comparison.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-019-saiyan-full-spin-kick.png",
+        "sha256": "3ad48dfd570eb47457abeeba8786076cb841443683ff530dbb6ca2aff1491a42",
+        "finding": "Nappa face, pointing hand, opposite fist, armor and visible legs intact; no new material crop defect. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-019-saiyan-full-spin-kick.webp",
+            "sha256": "9d2ff4b82520f806dc0315981783ff7e41523894afdbdd7721e1b92e42b3f621",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-019-saiyan-full-spin-kick.webp",
+            "sha256": "6675c6e14905c1380999e349a8cef85c06731284c01d981997e7a2949961320c",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 20,
+      "id": "saiyan-020-saiyan-pressure-punch",
+      "name": "Saiyan Pressure Punch",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-020.png",
+      "source_artwork_sha256": "16639a50d86afbbb4a789425a99c97ff68936dfc66ae548fb91aabd8e1355b81",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Gohan close-up has round surprised eyes, small closed mouth, white scarf and dark gi. Hair/ears/jaw are coherent; no limbs expected in crop. No obvious image glitch; original fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/20-Saiyan-Pressure-Punch.jpg",
+        "status": "Screened compatible",
+        "finding": "Gohan's wide round eyes, small closed mouth and surprised mood retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-020-saiyan-pressure-punch.png",
+        "sha256": "f5652597835970bc82261c2ae6fd95e60c6062127373c9fa987f8e1a97600a1c",
+        "finding": "Gohan surprised face/scarf intact, deliberate head close-up; no new material crop defect. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-020-saiyan-pressure-punch.webp",
+            "sha256": "1f0c23eea1c0d724cb04402a215c77c4357ac4b892f6a8e1ffae5865883dc4bf",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-020-saiyan-pressure-punch.webp",
+            "sha256": "306a67f0910c66a1eff3aad016a167581e9b08c5f21e27422e36e166e53b8022",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 21,
+      "id": "saiyan-021-saiyan-neck-hold",
+      "name": "Saiyan Neck Hold",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-021.png",
+      "source_artwork_sha256": "0d4349ce8eb03d28ee529621c710bf77543098655c000a3b9e5f82550ff180e9",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Foreground Vegeta confident closed crooked smirk and sideways gaze; background Nappa stern closed mouth. Yellow/white/dark armor, Nappa upper arm and brown tail across lower foreground are continuous. No visible missing piece; original pose/expression/crop fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/21-Saiyan-Neck-Hold.jpg",
+        "status": "Screened compatible",
+        "finding": "Vegeta's crooked confident smirk and sideways glance retained; Nappa's stern background face compatible.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-021-saiyan-neck-hold.png",
+        "sha256": "3564ce8e59704d912a39776886bf67d277231237894bbd392cda0ea6b03ec6ff",
+        "finding": "Vegeta smirk/side gaze and background Nappa face/arm/armor present; no new material crop defect. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-021-saiyan-neck-hold.webp",
+            "sha256": "a72d8ff52dd038ab5d14075668f7faca3a48a264b015cd5110468dc83a3e19eb",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-021-saiyan-neck-hold.webp",
+            "sha256": "7eb7f97883019040e597e50bdb3e9a6195dc68b727fce3c5b83407e0e2f221e3",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 22,
+      "id": "saiyan-022-power-up",
+      "name": "Power Up!",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-022.png",
+      "source_artwork_sha256": "87498c0cf37d15bc4ccf90a69d50fbf47c5e3728e4a277897f56cba82b435f6b",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Extreme eye/forehead close-up with intense brows, visible pupils and nose bridge. Mouth and limbs outside deliberate source crop. No image defect; original fine gaze/crop fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/22-Power-Up.jpg",
+        "status": "Screened compatible",
+        "finding": "Tightly angled brows and intense eyes retained; mouth outside crop.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-022-power-up.png",
+        "sha256": "41a7e840f3539ef8f4e530f3e0fa7750cc8471843ff07e457f78d868a034b022",
+        "finding": "Both intense eyes/brows retained in deliberate extreme close crop. No new image defect. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-022-power-up.webp",
+            "sha256": "96370d7d08a9e746cd45198b3e9131e0a4137169ea6d2d7c95fa06cfc1962b44",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-022-power-up.webp",
+            "sha256": "b2eaf911b430b5bae9fc940e1f0744826352ff146883b3b69f736863d35c6b40",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 23,
+      "id": "saiyan-023-burning-rage",
+      "name": "Burning Rage!",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-023.png",
+      "source_artwork_sha256": "51e042cde01d509c3ec332050c2f71aa371d5628f0fd9bd4b568da93a5bcdb5e",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Piccolo shocked wide eyes and clenched uneven pointed teeth, foreground clawed fingers and bright energy at right are continuous. Parts of hand/arm leave crop; no detached visible limb. Actual original required to verify exact finger arrangement, gaze and edge crop.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/23-Burning-Rage.jpg",
+        "status": "Screened compatible",
+        "finding": "Piccolo's wide eyes and uneven clenched teeth retain the shocked/strained expression.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-023-burning-rage.png",
+        "sha256": "78ec022ba4c9c9b9bb35d6cb77f6c75edbd42ff20caceb2a3baf18fbf9913a52",
+        "finding": "Piccolo eyes/teeth, visible foreground claws and right energy present; no new material crop defect beyond source intentional edge crop. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-023-burning-rage.webp",
+            "sha256": "9fb3ed81d8adff26ff5f289cf81083f9918b565818cb90baae2ac3b3d7df56a4",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-023-burning-rage.webp",
+            "sha256": "56599a00c9fd6adc270a94386304e0de31e6e7e1305c0fadb22c6edfbfe72650",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 24,
+      "id": "saiyan-024-gokus-surprise-attack",
+      "name": "Goku\u2019s Surprise Attack",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-024.png",
+      "source_artwork_sha256": "799d66db18267b3a36e956dad40244e43286b99c29bed92b356261374044198a",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Goku tilted face has tense angled brows, sideways/upward eyes, closed worried mouth and sweat, black hair and orange gi at right. No obvious facial glitch or missing image. Original pose/expression/crop fidelity unverified.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/24-Gokus-Surprise-Attack.jpg",
+        "status": "Screened compatible",
+        "finding": "Goku's tense sideways gaze, closed worried mouth and brow tension retained.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-024-gokus-surprise-attack.png",
+        "sha256": "630b5909eb181eeba4c0928211138ce6344cadac86f89d423a2cf953f838d9ee",
+        "finding": "Goku tense tilted face/eyes, closed mouth, sweat and gi retained; no new material crop defect. Original fidelity unverified.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-024-gokus-surprise-attack.webp",
+            "sha256": "43f1851cd43596d719a97f06f10d5ff5656bea0b507380904ff1feb0f261ebba",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-024-gokus-surprise-attack.webp",
+            "sha256": "52bbb4c17de493d65164fef1563cb1fd958b68b2caa63f2cedac0014de9a36e8",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    },
+    {
+      "number": 25,
+      "id": "saiyan-025-gokus-physical-attack",
+      "name": "Goku\u2019s Physical Attack",
+      "source_artwork": "sources/006-025/source/artwork/saiyan-025.png",
+      "source_artwork_sha256": "2032724b40da1c8927ab4bef89071f91b3d8acb65103134b493ccf943841c687",
+      "source_artwork_dimensions": [
+        1448,
+        1086
+      ],
+      "originals_actually_inspected": [],
+      "comparison_evidence": "modern artwork inspection only; no actual original available",
+      "verdict": "original_unavailable_modern_only",
+      "observations": "Goku grips Raditz tail with both hands; Raditz foreground fist, armor, legs, Goku gi and bent arms are coherent. Both characters show strained teeth/eyes; no obvious missing limb. Goku hand overlaps and exact small facial detail need actual original. Historical audit explicitly unresolved, not a current fidelity pass.",
+      "historical_evidence": {
+        "date": "2026-10-26T04:54:20.617872+00:00",
+        "source_url": "https://retrodbzccg.com/wp-content/uploads/2012/02/25-Gokus-Physical-Attack.jpg",
+        "status": "Unresolved",
+        "finding": "Goku and Raditz face details are small; general strained expressions compatible.",
+        "note": "Historical record only; not a new original-comparison pass."
+      },
+      "final_v3_review": {
+        "status": "final_artwork_reviewed",
+        "path": "output/png/saiyan-025-gokus-physical-attack.png",
+        "sha256": "6dd519ed1eee72f53000c842d286a0e8bf48848fd654c716fd97f0ac6adcf71b",
+        "finding": "Artwork present; both faces, both Goku gripping hands, Raditz fist and tail preserved; no new material crop defect.",
+        "dimensions": [
+          2120,
+          2968
+        ],
+        "decode_verified": true,
+        "individual_enlarged_inspection": true,
+        "normal_card_size_inspection": {
+          "dimensions": [
+            265,
+            371
+          ],
+          "finding": "Artwork present and coherent at normal card size; no new issue beyond explicitly recorded original-reference limitations."
+        },
+        "outputs": {
+          "display": {
+            "path": "output/display/saiyan-025-gokus-physical-attack.webp",
+            "sha256": "098ccc613f8ecbe7f11a3f45d3ddf8500a69a25879730ff36bc4de15e27fe8a5",
+            "dimensions": [
+              1060,
+              1484
+            ],
+            "strict_decode_verified": true
+          },
+          "download": {
+            "path": "output/download/saiyan-025-gokus-physical-attack.webp",
+            "sha256": "37d3e9969b64cd2ac5eae245493172c702152baea4991261a1a13d64c2bb8a52",
+            "dimensions": [
+              2120,
+              2968
+            ],
+            "strict_decode_verified": true
+          }
+        }
+      },
+      "published_and_verified": false
+    }
+  ],
+  "corrections_ready_for_root_review": [
+    4,
+    8
+  ],
+  "pending_final_checks": [],
+  "confirmed_source_mismatch_resolution": "004 and 008 corrected with built-in imagegen and native clipped overlays; rechecked in final cards.",
+  "confirmed_sample_crop_resolution": "017 final framing preserves hanging fist; visually rechecked.",
+  "template_background_resolution": "006 inconsistent sky strip removed in final approved V3 background.",
+  "readiness": "Ready for release review with explicit original-reference limitations; not blanket Score-original fidelity approval."
+}

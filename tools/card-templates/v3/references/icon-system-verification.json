@@ -1,0 +1,25 @@
+{
+  "visual_review_normal_size": [
+    530,
+    742
+  ],
+  "native_icon_height": 34.3,
+  "gap": 12,
+  "normal_size_png": "power-icon-comparison.normal.png",
+  "maximum_center_error_native": 0.004500000000007276,
+  "second_alignment_pass_zero_movement": true,
+  "colon_and_all_text_paths_unchanged": true,
+  "changed_pixels_outside_old_new_icon_bounds_plus_4_pixel_margin": 0,
+  "png_webp_decoded_pixel_equality": true,
+  "notes": [
+    "No blocking failures. Inkscape, fontTools, lxml and Pillow are available.",
+    "render_v3.py hard-codes 2120x2968; keep a 1060x1484 canvas for direct use.",
+    "The specimens are independent examples, not three power icons on one card.",
+    "No original-card CRD applies: all text is expressly neutral demonstration data.",
+    "No artwork was generated or edited; no skills changed; nothing was published or saved externally."
+  ],
+  "visual_review_full_size": [
+    2120,
+    2968
+  ]
+}

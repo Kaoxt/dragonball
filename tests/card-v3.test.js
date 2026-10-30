@@ -1,0 +1,42 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {catalog} from '../public/cards/catalog.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const audit=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-saiyan-001-050/audit.json')));
+const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
+test('all 50 V3 catalog cards have complete verified native sources and both exports',()=>{
+ const selected=catalog.filter(c=>c.templateVersion===3);
+ assert.equal(selected.length,50);assert.equal(audit.length,50);
+ assert.deepEqual(audit.map(r=>r.number),Array.from({length:50},(_,i)=>i+1));
+ for(const c of selected){
+  const row=audit.find(r=>r.id===c.id);assert.ok(row,c.id);
+  const source=path.join(root,row.native_source_path);assert.equal(hash(source),row.native_source_sha256);
+  const svg=fs.readFileSync(source,'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
+  assert.ok(svg.includes('data-template-version="3"'));
+  for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256,`${c.id}: missing or stale raster layer`);
+  assert.ok(row.assets.length>=3,`${c.id}: illustration/texture layers missing`);
+  for(const e of row.exports){
+   const digest=hash(path.join(root,e.path));assert.equal(digest,e.after_sha256);
+   assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+digest.slice(0,12));
+   assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.equal(e.lossless_round_trip,true);
+  }
+ }
+});
+test('V3 titles, category labels, footer content and icons share the approved geometry',()=>{
+ for(const row of audit){
+  const v=row.native_geometry;assert.equal(v.native_outlined_text,true);
+  for(const [id,x,y] of [['card-title',529.5,79],['card-category',529.5,908.5],['footer-text-block',529.5,1409.5],['saga-emblem',211.75,1409.5],['footer-rarity',844,1409.5]]){
+   const [bx,by,w,h]=v.bounds[id];near(bx+w/2,x);near(by+h/2,y);
+  }
+  const num=v.bounds['card-number'];near(num[0],880);near(num[1]+num[3]/2,1409.5);
+  assert.ok(v.icons.length<=1);
+  for(const icon of v.icons){near(icon.center_error,0,.01);near(icon.new_visible_bounds[3],34.3,.1);}
+  for(const [id,b] of Object.entries(v.bounds))if(id.startsWith('rules-line-'))assert.ok(b[1]>=1000&&b[1]+b[3]<1310);
+  if(![15,16].includes(row.number)){assert.equal(row.artwork.horizontal_source_crop,0);assert.equal(row.artwork.artwork_bytes_retained,true);}
+ }
+});
