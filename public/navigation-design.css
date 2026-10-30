@@ -52,7 +52,7 @@
   inset:1px -6px -1px;z-index:0;
   background:linear-gradient(90deg,#040506e6 0%,#040506dc 11%,#04050630 25%,#04050618 50%,#04050630 75%,#040506dc 89%,#040506e6 100%);
  }
- @media(min-width:1201px),(min-width:1101px) and (orientation:landscape){
+ @media(min-width:1201px),(min-width:900px) and (orientation:landscape){
   html[data-site-design=v2] body .site-header{padding-right:calc(clamp(44px,9vw,128px) + 32px)}
   html[data-site-design=v2] body .site-header nav .account-nav-actions{border-left-color:#ffffff1a}
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary,
@@ -66,7 +66,7 @@
   html[data-site-design=v2] body .site-header nav .account-dropdown>summary:focus-visible,
   html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:focus-visible{border-radius:8px;outline-color:#d6dbe2}
  }
- @media(min-width:1101px) and (max-width:1200px) and (orientation:landscape){
+ @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
   html[data-site-design=v2] body .site-header{gap:8px}
   html[data-site-design=v2] body .site-header .brand-logo{width:112px;height:39.2px}
   html[data-site-design=v2] body .site-header .nav-wordmark{height:13.5px}
@@ -74,7 +74,7 @@
   html[data-site-design=v2] body .site-header nav>a,
   html[data-site-design=v2] body .site-header nav>a[aria-current=page]{padding:6px 3px}
  }
- @media(max-width:1100px),(max-width:1200px) and (orientation:portrait){
+ @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
   html[data-site-design=v2] body .site-header{gap:10px}
   html[data-site-design=v2] body .site-header .brand-logo{width:112px;height:39.2px}
   html[data-site-design=v2] body .site-header #nav-toggle{display:grid;place-items:center;width:44px;height:44px;padding:8px;margin-right:24px;flex-shrink:0;color:#d8dee2}

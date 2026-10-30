@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261029-forum-regular-font';
+import './navigation-design.js?v=20261030-v2-desktop-navigation';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){

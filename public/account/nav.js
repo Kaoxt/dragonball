@@ -3,11 +3,10 @@
  const icon=path=>'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+path+'"/></svg>';
  const chevron=icon('m6 9 6 6 6-6'),message=icon('M21 11a8 8 0 0 1-8 8H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z'),bell=icon('M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4');
  const mobileMenu=window.matchMedia('(max-width:899px), (max-width:1200px) and (orientation:portrait)');
- const version2MobileMenu=window.matchMedia('(max-width:1100px), (max-width:1200px) and (orientation:portrait)');
- const isMobileMenu=()=>document.documentElement.dataset.siteDesign==='v2'?version2MobileMenu.matches:mobileMenu.matches;
+ // Both designs use inline navigation from 900px in landscape.
+ const isMobileMenu=()=>mobileMenu.matches;
  const syncAccountMode=()=>{const menu=document.querySelector('.account-dropdown');if(menu)menu.open=isMobileMenu();};
  mobileMenu.addEventListener('change',syncAccountMode);
- version2MobileMenu.addEventListener('change',syncAccountMode);
  window.addEventListener('dragon:design-change',syncAccountMode);
  const cacheKey='dragon:nav-preview';
  let busy=false,identity='',authVersion=0,refreshQueued=false;
