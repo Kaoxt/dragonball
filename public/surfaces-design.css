@@ -1,9 +1,8 @@
 /* Version 2 companion to the card-title navigation. Version 1 and print stay intact. */
-/* The brush face retained in the Enter the Arena banner source. Loaded only by
-   the prominent Version 2 forum actions; body copy keeps the UI typeface. */
+/* Reuse the site's navigation alphabet for prominent Version 2 forum actions. */
 @font-face {
- font-family:'Edo SZ';font-style:normal;font-weight:400;font-display:swap;
- src:url('/assets/fonts/edo-sz.woff2') format('woff2');
+ font-family:'DB OCG Navigation';font-style:normal;font-weight:400;font-display:swap;
+ src:url('/assets/fonts/db-ocg-navigation.ttf') format('truetype');
 }
 @media screen {
  html[data-site-design=v2] body {
@@ -122,9 +121,9 @@
     The silhouette is only on the paint, leaving the focus outline unobstructed. */
  html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut) {
   position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;
-  flex:0 0 auto;min-height:44px;padding:8px 28px;
-  font-family:'Edo SZ',var(--font-ui);font-size:20px;font-weight:400;font-style:normal;line-height:1.2;
-  font-synthesis:none;letter-spacing:.02em;text-shadow:0 1px 1px #0009;
+  flex:0 0 auto;min-height:44px;padding:8px 24px;
+  font-family:'DB OCG Navigation',var(--font-ui);font-size:clamp(16px,4.5vw,18px);font-weight:400;font-style:normal;line-height:1.2;
+  font-synthesis:none;letter-spacing:0;-webkit-text-stroke:.6px #000;paint-order:stroke fill;text-shadow:0 1px 1px #0009;
   background:transparent;border:1px solid transparent;border-radius:5px;
   color:#f5f6fa;box-shadow:none;white-space:nowrap;
  }

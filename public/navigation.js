@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261029-forum-brush-font';
+import './navigation-design.js?v=20261029-forum-navigation-font';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
