@@ -4,9 +4,11 @@
 /* News uses the shared crimson page background from battle-theme.css. */
 
 .home-page main{padding-top:30px}.arena-promo{width:100%;margin:0 0 32px}
-/* Match the approved shorter charcoal artwork without cropping its text. */
-.arena-promo a{position:relative;display:block;aspect-ratio:1536/412;border-radius:10px;overflow:hidden;border:1px solid #292b30;background:#17181c}
-.arena-promo .arena-promo-art{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+/* Preserve the previous 640px banner height while the frame spans the news layout. */
+.arena-promo a{position:relative;display:block;width:100%;aspect-ratio:1536/412;max-height:171.667px;border-radius:10px;overflow:hidden;border:1px solid #292b30;background:#17181c}
+/* A subdued backdrop extends the sides without stretching or cropping the artwork. */
+@media(min-width:696px){.arena-promo a::before{content:"";position:absolute;inset:-24px;background:url("/assets/arena-banner-charcoal-1536.webp") center/cover no-repeat;filter:blur(24px) brightness(.4);pointer-events:none}}
+.arena-promo .arena-promo-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;object-position:center}
 .arena-promo a:hover{border-color:#55585f}
 .arena-promo a:focus-visible{outline:3px solid #e4e6eb;outline-offset:4px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.forums-placeholder{text-align:center;min-height:60vh;display:flex;flex-direction:column;align-items:center;justify-content:center}.forums-placeholder h1{font-size:clamp(40px,7vw,72px);margin:16px 0}.forums-placeholder .coming-soon{color:#f0a0ad;font-size:22px;margin:0}.forums-placeholder p{color:#b9aab2;line-height:1.7}.forums-placeholder .primary-link{margin-top:20px}@media(max-width:650px){.home-page main{padding-top:24px}.arena-promo{margin-bottom:26px}}
