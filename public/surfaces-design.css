@@ -5,6 +5,7 @@
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
+  --v2-frame-divider:#1b242b; /* Matches the inner band of the graphite frame. */
   /* Follow the decal contours at 36/48 scale, minus the 6px panel inset.
      A .25px overlap inside each black stroke closes antialiased seams. */
   --v2-frame-top-clip:polygon(17.3px 0,calc(100% - 17.3px) 0,calc(100% - 6.53px) 13.76px,calc(100% - 5.01px) 19.82px,100% 23.92px,100% 100%,0 100%,0 23.92px,5.01px 19.82px,6.53px 13.76px);
@@ -185,7 +186,7 @@
   padding:16px var(--sidebar-pad);font-family:var(--font-ui);font-size:22px;
   font-weight:600;line-height:1.25;letter-spacing:-.02em;text-align:center;color:#f5f6fa;
  }
- html[data-site-design=v2] body.home-page .home-sidebar .next-move>h2 {border-bottom:1px solid #39434b}
+ html[data-site-design=v2] body.home-page .home-sidebar .next-move>h2 {border-bottom:1px solid var(--v2-frame-divider)}
  html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
@@ -201,7 +202,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .community-links>.hub-link {margin-inline:calc(-1 * var(--sidebar-pad))}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link {
   --hub-fill:#1b2126;position:relative;isolation:isolate;
-  padding:14px var(--sidebar-pad);background:transparent;border-color:#39434b;
+  padding:14px var(--sidebar-pad);background:transparent;border-color:var(--v2-frame-divider);
   border-width:1px 0;border-radius:0;color:#f5f6fa;
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link::before {
@@ -213,7 +214,7 @@
   clip-path:var(--v2-frame-bottom-clip);
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
- html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:#65717a;color:#fff}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:var(--v2-frame-divider);color:#fff}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
  /* Rules use an inset header strip joined to the top frame, like the News sidebar. */
  html[data-site-design=v2] body.rulebook-page .manual .chapter {
@@ -222,7 +223,7 @@
  }
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {
   margin:0 calc(-1 * var(--chapter-pad-x)) 24px;
-  padding:18px var(--chapter-pad-x);border-bottom:1px solid #39434b;
+  padding:18px var(--chapter-pad-x);border-bottom:1px solid var(--v2-frame-divider);
  }
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
@@ -240,7 +241,7 @@
     Clip only the background at the top corners to expose the metal frame. */
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {
   position:relative;isolation:isolate;margin:0;padding:18px 24px;background:transparent;
-  border:0;border-bottom:1px solid var(--surface-border);border-radius:0;box-shadow:none;
+  border:0;border-bottom:1px solid var(--v2-frame-divider);border-radius:0;box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -249,9 +250,14 @@
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
+ /* Dividers that meet the frame use its dark inner-band color. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .forum-post-bar,.forum-post-author,.forum-post-meta,.forum-post-footer,.forum-newest-member
+ ) {border-color:var(--v2-frame-divider)}
+
  /* Forum rows keep the same continuous texture on hover and keyboard focus. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {
-  padding:22px 24px;border-color:var(--surface-border);
+  padding:22px 24px;border-color:var(--v2-frame-divider);
   background:transparent;transition:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(n) {background:transparent}
@@ -368,7 +374,7 @@
  html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) {
   background:transparent;color:#f1f3f5;font-variant-numeric:tabular-nums;
  }
- html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) :is(th,td) {border-color:var(--surface-border)}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) :is(th,td) {border-color:var(--v2-frame-divider)}
  html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:16px 18px;line-height:1.65}
  html[data-site-design=v2] body.rulebook-page .manual .format-table caption {padding:16px 18px;background:var(--v2-brush-fill);color:#f1f3f5;font-size:14px}
  html[data-site-design=v2] body.rulebook-page .manual .format-table thead th {background:var(--surface-inset);color:#d5dce1;font-size:13px}
@@ -379,8 +385,8 @@
   background:var(--v2-brush-fill);color:#e2e7eb;
  }
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference {background:var(--surface-inset);border-color:var(--surface-border);box-shadow:0 4px 12px #0003}
- html[data-site-design=v2] body.rulebook-page .manual .attack-reference-title {background:var(--v2-brush-fill);border-color:var(--surface-border)}
- html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-scroll {border-color:#ffffff30;scrollbar-color:#59636c var(--surface-inset)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference-title {background:var(--v2-brush-fill);border-color:var(--v2-frame-divider)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-scroll {border-color:var(--v2-frame-divider);scrollbar-color:#59636c var(--surface-inset)}
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table td:not(.selected-damage) {background:#252d33}
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:nth-child(even) td:not(.selected-damage) {background:#2c353c}
  html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:hover td:not(.selected-damage) {background:#35414a}

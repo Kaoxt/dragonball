@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261031-joined-dark-corners';
+import './navigation-design.js?v=20261031-dark-inner-dividers';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
