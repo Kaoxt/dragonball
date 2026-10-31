@@ -4,10 +4,11 @@
 /* News uses the shared crimson page background from battle-theme.css. */
 
 .home-page main{padding-top:30px}.arena-promo{width:100%;margin:0 0 32px}
-/* Keep the same poses at every width: focus on Vegeta/Goku on narrow screens,
-   reveal Piccolo in the wider composition, and preserve the desktop height cap. */
+/* Use a centered two-character composition on narrow screens and the original
+   trio on wide screens, preserving both aspect ratios and the height cap. */
 .arena-promo a{position:relative;display:block;width:100%;aspect-ratio:5/1;max-height:171.667px;border-radius:10px;overflow:hidden;border:1px solid #292b30;background:#17181c}
-.arena-promo .arena-promo-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:right center}
+.arena-promo picture{display:block;width:100%;height:100%}
+.arena-promo .arena-promo-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 @media(min-width:696px){.arena-promo a{aspect-ratio:2179/330}.arena-promo .arena-promo-art{object-position:center}}
 .arena-promo a:hover{border-color:#55585f}
 .arena-promo a:focus-visible{outline:3px solid #e4e6eb;outline-offset:4px}
