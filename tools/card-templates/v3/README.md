@@ -29,3 +29,7 @@ Cards 1–10 now use the user's reviewed current V3 preview: one 1.20 sRGB brigh
 ## Saiyan 011–030 brighter-background refresh — October 31
 
 Cards 11–30 use the same current brighter V3 frames, uniformly fitted titles and tracked Michroma middle labels as cards 1–10. Earth Dragon Balls 1 and 2 use the approved full-art Shenron without a central ball and a single left orb at (130,887), radius 118; star counts are one and two, with the retained diagonal two-star orientation. Rules and game data are unchanged. Fourteen attacks use swords; #28 and #30 use shields; the two activated Setups and two Dragon Balls have no constant icon. Seventeen actual character originals were compared, while #17's original remains unavailable. Fine-expression and inherited-crop limits are recorded explicitly in `../../card-corrections/v3-saiyan-011-030-brighter/artwork-review.json`.
+
+## Saiyan 031–050 brighter-background refresh — October 31
+
+Cards 31–50 use the current brighter V3 frames, uniformly fitted titles and tracked Michroma middle labels. Character artwork and rules remain unchanged, including #36's repaired boot and the approved replacements for #37 and #44. Six attacks use swords, eight blocks use shields, and six triggered/activated effects need no constant icon. Ten original scans were directly compared; original retrieval for #41–50 is unavailable. Known fine-detail and source-crop limitations are recorded in `../../card-corrections/v3-saiyan-031-050-brighter/artwork-review.json`.

@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-31",
+  "scope": "Saiyan Saga 031–050",
+  "actual_originals_inspected": 10,
+  "original_unavailable": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "approved_replacement_artwork": [
+    37,
+    44
+  ],
+  "fine_detail_or_inherited_crop_limits": [
+    31,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    41,
+    44,
+    45,
+    47,
+    49
+  ],
+  "cards": [
+    {
+      "id": "saiyan-031-fortify-your-spirit",
+      "number": 31,
+      "finding": "Krillin's closed eyes, orange gi, rear hand and tail agree with the original. The retained source omits the mouth/nose at the left edge, whereas the original includes the face; this remains an inherited framing limitation, not a full-framing pass.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-031.jpg",
+        "sha256": "faa702a1b4f6b9f794eec404859755c475a2af2b2b7b2ce66c1b41e27020770b"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-032-the-untroubled-mind-is-focused",
+      "number": 32,
+      "finding": "Roshi's glasses, beard, green shirt, mug and five-digit open hand match the original scene. Eyes and mouth are obscured; fine facial comparison is not applicable.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-032.jpg",
+        "sha256": "e2175ba6dea70fc9cf531e48a01567c517654023c1bff7bb8a815f29bd73860e"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-033-its-the-little-things-that-matter",
+      "number": 33,
+      "finding": "Krillin's wide happy mouth, closed rounded eyes, buns and hands agree with the original. The retained composition shows less of the turtle and head margin than the original; inherited framing limitation recorded.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-033.jpg",
+        "sha256": "efb0dcbe5e8e3058529157ba1ed0fe69ebb72d823afb117c17bfd65f6e0e74f3"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-034-straining-off-balancing-move",
+      "number": 34,
+      "finding": "Goku's tightly closed eyes, clenched teeth, bruises, bare shoulder and foreground hand are compatible with the original. Fine finger detail remains limited by scan resolution.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-034.jpg",
+        "sha256": "3668c48940ea27eeb8e93e0e48b15a77120d3707ba90998a02065769b96787e4"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-035-straining-penetrating-attack-move",
+      "number": 35,
+      "finding": "Direct enlarged comparison confirms clenched teeth, strained sideways eyes, raised arms, wristband and red lighting. The original shows more of the upper fist than the retained source; inherited framing limitation recorded.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-035.jpg",
+        "sha256": "dbeb7a56f4ac05276ce1a71607b2322c695b2b989c08eb9e05441c2133c09a63"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-036-straining-fake-left-move",
+      "number": 36,
+      "finding": "Original scan compared: Raditz's kick across rear-facing Goku, scouter, armor and raised fist match. The prior localized repair retains the complete rounded white boot toe. Tiny original faces do not resolve exact teeth/tongue/pupil details.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-036.jpg",
+        "sha256": "b5a07382aed1def05b05de2b0713985fce69477dca861c0f77d00c9332f09ecb"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-037-straining-tripping-move",
+      "number": 37,
+      "finding": "User-approved replacement retained. Goku's closed-mouth slight smile, fist and torn orange/blue gi are compatible with the original scene.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-037.jpg",
+        "sha256": "41257556138d636919cae1c970b168bc161eda79370b8588a1572ea1c045d462"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-038-straining-arm-drag-move",
+      "number": 38,
+      "finding": "Original and enlarged retained artwork inspected. Rear-facing Goku reaches with two arms and two skin-toned open hands toward an energy field. A purple angular form overlaps below the lower wrist and reads as floating debris; the small original does not resolve this overlap precisely. No speculative anatomy edit.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-038.jpg",
+        "sha256": "43be94951dae196703e533d9d243d9eefbd496ea9b3c7bc97d0ed12bdf9bfca4"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-039-straining-ankle-smash-move",
+      "number": 39,
+      "finding": "Piccolo's shielding arm, turban/cape, purple gi, bent legs, pink energy streaks and debris are compatible with the original. Eyes are obscured; fine facial details are unresolved.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-039.jpg",
+        "sha256": "f63c7a865e42deacaa818f8fabe93d2278370bd05b080a5b5f1e0a9a1a9abe84"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-040-straining-energy-defense-move",
+      "number": 40,
+      "finding": "Raditz's closed asymmetric smirk, scouter and strongly foreshortened open hands agree with the original composition. Five-digit foreground hand remains coherent.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-031-050-brighter/originals/original-040.jpg",
+        "sha256": "bae735d4639b948029541b1d629cff6fb3843ce31341be92dbaec00b8b844caa"
+      },
+      "review_basis": "actual original and retained artwork",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-041-straining-head-lock-move",
+      "number": 41,
+      "finding": "Retained artwork reviewed: Raditz foreground dive, bared teeth, flared hair and side figures are coherent. Existing side-figure and shoe-edge crop limits remain. Original scan could not be retrieved; exact original fidelity is unresolved.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-042-straining-rolling-escape-move",
+      "number": 42,
+      "finding": "Retained artwork reviewed: Raditz kneeling at a crater, hand on knee, hanging fist, closed firm mouth, scouter and armor are coherent. Full lower fist remains visible. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-043-senzu-bean",
+      "number": 43,
+      "finding": "Retained Goku strained side gaze, clenched teeth, scratches, torn gi and foreshortened shoulder/arm inspected. No new material obstruction. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-044-goku-body-throw",
+      "number": 44,
+      "finding": "User-approved newer replacement retained: Goku focused eyes, closed mouth, orange/blue gi and raised/open arms. Existing source-edge hand crops remain. Original scan unavailable for a fresh direct comparison.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-045-saiyan-city-destruction",
+      "number": 45,
+      "finding": "Masked Arlian figure retains blue lenses, segmented purple/white armor and fist. Ordinary facial expression is not applicable; source antenna and lowest fist-edge crop limitations remain. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-046-goku-anger-attack",
+      "number": 46,
+      "finding": "Retained Goku diagonal flying pose, clenched teeth, near-head fist, bent legs and red/pink energy lighting inspected. Visible limbs are connected and scene is present. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-047-raditz-total-defense",
+      "number": 47,
+      "finding": "Retained Raditz forward flying pose, tooth-showing grin, green scouter, flared hair and shoulder armor inspected. Existing top/side crops remain. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-048-gokus-touch",
+      "number": 48,
+      "finding": "Retained close-up clenched fist and blue wristband inspected: four curled fingers and crossing thumb are coherent, with complete fist outline. No face is present. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-049-orange-wrist-flex-takedown",
+      "number": 49,
+      "finding": "Retained Roshi sunglasses/beard and turtle open mouth/tongue inspected. Existing Roshi top and turtle right-edge crops remain. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-050-orange-shoulder-throw",
+      "number": 50,
+      "finding": "Retained Raditz close-up, narrowed visible eye, closed downturned mouth, scouter and small object pinched between thumb/index finger inspected. Earlier review misnamed the character Vegeta; this review corrects that identification. Original scan unavailable.",
+      "actual_original": null,
+      "review_basis": "retained artwork only",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    }
+  ]
+}
