@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261030-account-right';
+import './navigation-design.js?v=20261031-graphite-table-frames';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){

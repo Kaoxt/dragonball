@@ -39,7 +39,7 @@
  }
 
  /* Card power-box framing belongs to the main panels, not every nested control.
-    A 2x WebP nine-slice keeps chamfers and distressed rails crisp without live SVG grain filters.
+    A filter-free vector nine-slice keeps layered graphite rails and corner caps crisp.
     The full-panel texture has worn edges and a quiet center without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
     from full-width rows; existing content padding is otherwise preserved. */
@@ -53,7 +53,14 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-v2.webp?v=20261029-darker-frame') 56 / 28px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg') 28 / 28px / 0 stretch;
+  box-shadow:none;
+ }
+ /* Data tables use a smaller version of the same frame. Keep the scroll
+    container intact so wide tables still pan horizontally on phones. */
+ html[data-site-design=v2] body.arena-page .manual .table-scroll {
+  background-clip:padding-box;border:6px solid transparent;border-radius:12px;
+  border-image:url('/assets/power-panel-graphite-v2.svg') 28 / 18px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
@@ -155,7 +162,7 @@
   -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
   mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
   filter:drop-shadow(0 2px 1px #0008);
-  /* Keep the left-shifted artwork inside the new silver frame. Only the
+  /* Keep the left-shifted artwork inside the graphite frame. Only the
      decorative paint is clipped; heading text and controls remain untouched. */
   clip-path:inset(0 0 0 max(0px,calc(6.5% - 3px)));
  }

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <!-- 28px nine-slice: fixed-size chamfers, transparent center, no raster grain or live filters. -->
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#46535c"/>
+      <stop offset=".16" stop-color="#26343d"/>
+      <stop offset=".54" stop-color="#17232b"/>
+      <stop offset="1" stop-color="#35434d"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#52616c"/>
+      <stop offset=".35" stop-color="#34444f"/>
+      <stop offset=".7" stop-color="#25333e"/>
+      <stop offset="1" stop-color="#18232b"/>
+    </linearGradient>
+    <g id="corner">
+      <path d="M1.5 17 17 1.5H27L8 21v6L1.5 24Z" fill="url(#cap)" stroke="#080e12" stroke-width="1.4" stroke-linejoin="miter"/>
+      <path d="M3.5 17.8 17.8 3.5h5L5.5 20.8v2.8" fill="none" stroke="#6b7984" stroke-opacity=".62" stroke-width=".8"/>
+      <path d="M6.3 24V21L24 3.5" fill="none" stroke="#101b23" stroke-width="1.1"/>
+      <path d="m9 20-1 7 3 9-.8-13 8-8Z" fill="#0b1319" opacity=".8"/>
+    </g>
+  </defs>
+  <!-- Continuous dark outline, raised graphite rail, recessed inner seam. -->
+  <path d="M17 1.5h990l15.5 15.5v478l-15.5 15.5H17L1.5 495V17Z" fill="none" stroke="#060b0e" stroke-width="3"/>
+  <path d="M17.5 2.6h989L1021.4 17.5v477L1006.5 509.4h-989L2.6 494.5v-477Z" fill="none" stroke="#55636c" stroke-opacity=".62" stroke-width=".8"/>
+  <path d="M19 5h986l14 14v474l-14 14H19L5 493V19Z" fill="none" stroke="url(#metal)" stroke-width="3.2"/>
+  <path d="M19 4.2h986l14.8 14.8v474l-14.8 14.8H19L4.2 493V19Z" fill="none" stroke="#71808a" stroke-opacity=".4" stroke-width=".75"/>
+  <path d="M20 7.2h984l12.8 12.8v472l-12.8 12.8H20L7.2 492V20Z" fill="none" stroke="#050b0f" stroke-width="1.4"/>
+  <path d="M21 8.4h982l12.6 12.6v470l-12.6 12.6H21L8.4 491V21Z" fill="none" stroke="#667680" stroke-opacity=".52" stroke-width=".7"/>
+  <!-- Sparse inward tapered ink marks echo the card frame without noisy rails. -->
+  <g fill="#0a1217" opacity=".8">
+    <path d="m28 8 112 0-32 2-64-.4Zm718 0h250l-38 2-143-.4Z"/>
+    <path d="m8 61 1 43 1 20-2-8Zm0 253 2 29-1 64-1 26Z"/>
+    <path d="m1016 53-2 29 1 66 1 25Zm0 220-1 45-1 28 2-12Z"/>
+    <path d="m28 504 140-1-49 2H28Zm676 0 128-1 92 1-39 1Z"/>
+  </g>
+  <use href="#corner"/>
+  <use href="#corner" transform="translate(1024 0) scale(-1 1)"/>
+  <use href="#corner" transform="translate(0 512) scale(1 -1)"/>
+  <use href="#corner" transform="translate(1024 512) scale(-1 -1)"/>
+</svg>
