@@ -21,6 +21,7 @@ sys.path.insert(0,str(P/'scripts'))
 from text_v3 import text,elem
 from power_icons import icon,width_at_height
 from align_power_icon import align_power_icon
+from tokui_backing import apply as apply_tokui_backing
 S='http://www.w3.org/2000/svg';X='http://www.w3.org/1999/xlink'
 OUT=P/'saiyan-101-150';ASSETS=P/'assets';EVID=ROOT/'tools/card-corrections/v3-saiyan-101-150'
 FONT=TTFont(P/'fonts/BarlowCondensed-Bold.ttf');GS=FONT.getGlyphSet();CM=FONT.getBestCmap();SC=49/FONT['head'].unitsPerEm
@@ -191,6 +192,7 @@ def compose(c,retained):
      if v=='#56300e':el.set(k,'#262d37')
    original=deepcopy(get(old,'black-style-symbol'));original.set('id','black-tokui-waza-outline');outline=deepcopy(original);outline.set('stroke','#080b0d');outline.set('stroke-width','13');original.set('id','black-tokui-waza-paint')
    group=elem('g',id='tokui-waza-symbol',data_style='Black',transform='translate(100 908.5) scale(1.35) translate(-100 -1006)');group.append(outline);group.append(original);replace(r,'tokui-waza-symbol',group)
+ apply_tokui_backing(r)
  reports,iconline=rules(r,c);assets=assetize(r);OUT.mkdir(exist_ok=True)
  # Measurement must resolve shared raster dependencies even from the helper's temp directory.
  measurement=deepcopy(r)

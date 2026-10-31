@@ -1,5 +1,11 @@
 # Dragon Ball OCG Master Templates V3
 
+## Current Tokui Waza backing — October 31
+
+The current brighter V3 batch is Saiyan 001–050, distinct from the older V3 migration through 150. Its 48 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
+
+Run `python3 scripts/tokui_backing.py <source.svg>` after choosing or replacing a style symbol, before rendering. The helper rebuilds the backing from the final symbol and is idempotent; both batch builders call it after their style selection. The Combat master includes it. The release evidence is `../../card-corrections/v3-saiyan-001-050-tokui/release.json`; only the badge footprint changes in display and full-size exports. This update does not advance the brighter-template migration beyond card 50.
+
 Saiyan Saga 001–150 use the approved native SVG brush-theme system. The released batches use retained site illustrations with localized corrections; Earth Dragon Ball cards use approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
 
 Use `references/version-3-standard.md` and the inherited artwork, facial-expression, anatomy, wording and icon references before editing. The title center is (529.5,79), middle label center (529.5,908.5), and footer content center y1409.5. Rules use outlined Barlow Condensed Bold49 with natural spacing. V2 typography finalizers must not run on these files.
