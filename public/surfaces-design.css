@@ -39,7 +39,9 @@
  }
 
  /* Card power-box framing belongs to the main panels, not every nested control.
-    A filter-free vector nine-slice keeps layered graphite rails and corner caps crisp.
+    The original card frame supplies an almost-black band, irregular inner strokes,
+    dark grey corner decals and a thin grey outer outline. A vector nine-slice
+    preserves those details without live filters.
     The full-panel texture has worn edges and a quiet center without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
     from full-width rows; existing content padding is otherwise preserved. */
@@ -53,14 +55,14 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-graphite-v2.svg') 28 / 28px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-original-card-frame') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
  /* Data tables use a smaller version of the same frame. Keep the scroll
     container intact so wide tables still pan horizontally on phones. */
  html[data-site-design=v2] body.arena-page .manual .table-scroll {
   background-clip:padding-box;border:6px solid transparent;border-radius:12px;
-  border-image:url('/assets/power-panel-graphite-v2.svg') 28 / 18px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-original-card-frame') 48 / 24px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
@@ -181,7 +183,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
+  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
  }
  html[data-site-design=v2] body.home-page .next-move>h2 img {display:none}
  html[data-site-design=v2] body.home-page .next-move-label {display:inline}
@@ -202,7 +204,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link+.hub-link {border-top:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child {border-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
-  clip-path:polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px));
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 24px),calc(100% - 24px) 100%,24px 100%,0 calc(100% - 24px));
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:#65717a;color:#fff}
@@ -218,7 +220,7 @@
  }
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
+  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
  }
  @media(max-width:1000px) {
   html[data-site-design=v2] body.rulebook-page .manual .chapter {--chapter-pad-x:23px;--chapter-pad-bottom:23px}
@@ -237,7 +239,7 @@
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:var(--forum-title-fill,var(--v2-brush-fill));-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
+  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
@@ -250,7 +252,7 @@
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:transparent}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
- /* The cap ends on x+y=32: after the 6px panel inset, a 20px cutout
+ /* The original corner decals end on x+y=36: after the 6px panel inset, a 24px cutout
     exposes the full bevel. Clip paint only; menus and focus rings stay free. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {
   position:relative;isolation:isolate;background:transparent;border-radius:0;
@@ -260,10 +262,10 @@
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar {z-index:1}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar::before {
-  clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px);
+  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {
-  clip-path:polygon(0 0,100% 0,100% 100%,20px 100%,0 calc(100% - 20px));
+  clip-path:polygon(0 0,100% 0,100% 100%,24px 100%,0 calc(100% - 24px));
  }
 
 

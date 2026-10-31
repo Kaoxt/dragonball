@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261031-graphite-table-frames';
+import './navigation-design.js?v=20261031-original-card-frame';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
