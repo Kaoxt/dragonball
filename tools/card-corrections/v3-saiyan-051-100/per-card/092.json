@@ -1,0 +1,153 @@
+{
+  "number": 92,
+  "id": "saiyan-092-saiyan-energy-defense",
+  "name": "Saiyan Energy Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-092-saiyan-energy-defense.svg",
+  "native_source_sha256": "9ea87f290a362945491977f40127eb34cc4e796c1d4654ed7b62e9de5d665aba",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b4db9345766d44e5e71e3a100a9272a509801b91db3244ebe19cd5426327fb82.png",
+      "sha256": "b4db9345766d44e5e71e3a100a9272a509801b91db3244ebe19cd5426327fb82"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "6fdb1828ee7aa661940ce46d7153fe7a8830c57fe4fac61df9793f4562db307f",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 858.059947368421,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        185.145,
+        44.5,
+        688.709,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.665,
+        33.708
+      ],
+      "rules-line-1": [
+        101.916,
+        1013.53,
+        855.169,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          487.051,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          537.742,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          487.051,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-092-saiyan-energy-defense.webp",
+      "before_url": "/assets/cards/saiyan-092-saiyan-energy-defense.webp?v=183e7129b203",
+      "before_sha256": "183e7129b203a5358746c2b40466a8bf377df7d95f50fd9c9e2d5063876104de",
+      "after_sha256": "8159a6aa8be48d13f58c8a1db9e02d3e566a95139fb2a1e0233d824886eff582",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-092-saiyan-energy-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-092-saiyan-energy-defense.webp?v=f5262a25b572",
+      "before_sha256": "f5262a25b572be03e3dce63abb6dd330b88b93b23976b600eea107c0e41e3517",
+      "after_sha256": "76fbc951fad0a6ed33723dc7a9c7967d9e271d4309ae7ae84a74d192b43d2dec",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

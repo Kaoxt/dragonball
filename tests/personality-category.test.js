@@ -18,12 +18,15 @@ test('approved compact category references retain their reviewed outlines',()=>{
   for(const family of Object.values(standard.families)) assert.equal(hash(path.join(template,family.file)),family.sha256);
 });
 
-test('every published Personality has verified display and download lettering',()=>{
+test('retained V2 Personalities have verified display and download lettering',()=>{
   const personalities=catalog.filter(c=>c.type==='Main Personality');
   const records=new Map(audit.map(r=>[r.id,r]));
   assert.equal(records.size,audit.length,'duplicate audit entries');
   assert.equal(records.size,personalities.length,'audit must cover the current complete Personality catalog');
   for(const card of personalities){
+    // V3 is a whole-frame migration, validated by card-v3.test.js.
+    // Preserve historical V2 audit evidence without imposing V2 geometry on V3.
+    if(card.templateVersion===3)continue;
     const row=records.get(card.id);
     assert.ok(row,`${card.id}: run the category export audit before publication`);
     assert.ok(row.idempotent);

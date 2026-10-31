@@ -1,0 +1,183 @@
+{
+  "number": 100,
+  "id": "saiyan-100-vegetas-suprise-defense",
+  "name": "Vegeta's Surprise Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-100-vegetas-suprise-defense.svg",
+  "native_source_sha256": "e7222e0b660ea9db4abc7bfd622a2ccdee8254a97b18268640a93e0d9e15614d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96.png",
+      "sha256": "db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723.png",
+      "sha256": "4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "0615a3495fda8719038ef4b0f5942a4d7b35bbe5abef81b071a7048148706d1f",
+    "localized_correction": {
+      "source_dimensions": [
+        1415,
+        1112
+      ],
+      "patch": "corrections/100/generated-mouth-edit.png",
+      "placement": [
+        0,
+        0,
+        1415,
+        1111
+      ],
+      "clip": "M678 578 Q705 571 734 574 Q747 557 761 552 Q780 547 787 561 L787 588 Q771 598 740 600 L683 600 Q675 590 678 578 Z",
+      "reason": "Restore original closed-mouth confident smirk"
+    },
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical or energy attack. Banish after",
+      "baseline": 1049.3,
+      "width": 882.858947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "use.",
+      "baseline": 1108.3,
+      "width": 74.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        131.244,
+        44.5,
+        796.511,
+        69.0
+      ],
+      "card-category": [
+        441.596,
+        891.991,
+        175.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.844,
+        33.708
+      ],
+      "rules-line-1": [
+        138.949,
+        1013.53,
+        831.795,
+        45.913
+      ],
+      "rules-line-2": [
+        493.926,
+        1082.72,
+        71.148,
+        25.97
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          88.2567,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          138.949,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          88.2567,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-100-vegetas-suprise-defense.webp",
+      "before_url": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=6ed806253360",
+      "before_sha256": "6ed8062533600b9d9a0bd52f2e4883cb8f43897a94e2cefce5b59d5e3b117263",
+      "after_sha256": "03439326731744cbedadd52331d01b3bf07af126d105166618443ddfdbabe398",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=1e1c849524c4",
+      "before_sha256": "1e1c849524c46a88b051777291af945c98633028233a3a1696f6d183b0d73879",
+      "after_sha256": "8b2cfb9b46e3b230a6141e76496e1186756fd9b27709b5b9c631f15e948b9dff",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

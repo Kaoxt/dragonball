@@ -1,0 +1,165 @@
+{
+  "number": 69,
+  "id": "saiyan-069-black-side-kick",
+  "name": "Black Side Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-069-black-side-kick.svg",
+  "native_source_sha256": "6c6634f71940fdd52cb3cf8efada1aa6b2f0081850729d781361e9e3f83f8b07",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7c54593e382bb97cc81c9ee5fcceb65059701e8ed771315b2e26862be28944ac.png",
+      "sha256": "7c54593e382bb97cc81c9ee5fcceb65059701e8ed771315b2e26862be28944ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "fceb74312f3425393e33a8eb2c5eae930de0a3d03692bf771d16c08dfb9c549f",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Raise your anger 2",
+      "baseline": 1049.3,
+      "width": 816.365947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "levels.",
+      "baseline": 1108.3,
+      "width": 115.689,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        298.883,
+        50.2213,
+        461.233,
+        57.5574
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.46,
+        33.708
+      ],
+      "rules-line-1": [
+        172.425,
+        1013.53,
+        764.841,
+        45.913
+      ],
+      "rules-line-2": [
+        473.272,
+        1074.0,
+        112.455,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          121.734,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          172.425,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          121.734,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-069-black-side-kick.webp",
+      "before_url": "/assets/cards/saiyan-069-black-side-kick.webp?v=ff3fadc09f64",
+      "before_sha256": "ff3fadc09f64c926cccb47033f785f79d59c4b25513ba5e872bcd009e19550f4",
+      "after_sha256": "964f6b73281487ec81f6d69b4999604b0c5304c7e511e3b735ec6d311ddbe07a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-069-black-side-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-069-black-side-kick.webp?v=e2dea21337fb",
+      "before_sha256": "e2dea21337fb80542b3ed57f68f5c26878710ee28984d0886c08abbfdc72a4bc",
+      "after_sha256": "9066eff9c9664c96cc45f430b48c20ab5e0ea73ec6a529281e94ac544a813775",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

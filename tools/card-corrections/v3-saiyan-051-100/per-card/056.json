@@ -1,0 +1,153 @@
+{
+  "number": 56,
+  "id": "saiyan-056-red-side-kick",
+  "name": "Red Side Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-056-red-side-kick.svg",
+  "native_source_sha256": "0a8df3519d1e88d52ac5246d0a2f00b33e88b13b92de4883f094af50005e5387",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6632ddcc1171236077c8f8512496cccac8993193ec8a2e99b3891ae1a205aa1b.png",
+      "sha256": "6632ddcc1171236077c8f8512496cccac8993193ec8a2e99b3891ae1a205aa1b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "474c19a0dfb61b29a265c7516ff6469dfd9b06d7b3d11fb51eecbce25c4db933",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 471.6019473684211,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        326.587,
+        50.2213,
+        405.827,
+        57.5574
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        345.175,
+        1014.61,
+        419.342,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          345.175,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-056-red-side-kick.webp",
+      "before_url": "/assets/cards/saiyan-056-red-side-kick.webp?v=1559a9081872",
+      "before_sha256": "1559a908187272a14e8b32c284ce62a91f4bcd7bfd73761b7aa0e6b4670c3d0d",
+      "after_sha256": "8aa973d9b383d026b09ff79f9003395923cecc40dbcfea6660f92644af4ba574",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-056-red-side-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-056-red-side-kick.webp?v=17e1d26a4ef6",
+      "before_sha256": "17e1d26a4ef6e332ee942f15a7b56788f898b6a602e68b582a6368111380ce15",
+      "after_sha256": "782ece58b6c910b35a191a7dedcf1e1e1ccb58659d93ef6d7b92fe578619cfd9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

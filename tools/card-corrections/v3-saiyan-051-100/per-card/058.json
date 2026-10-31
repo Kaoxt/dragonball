@@ -1,0 +1,177 @@
+{
+  "number": 58,
+  "id": "saiyan-058-red-back-kick",
+  "name": "Red Back Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-058-red-back-kick.svg",
+  "native_source_sha256": "efef6d99a67926248d3453eb8e7f5149708d65587b623ef194628df50ec53bd8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8833c6d650630ce05cd3f7ca2aa337b213d1f876a996c021b924b6b9b631949e.png",
+      "sha256": "8833c6d650630ce05cd3f7ca2aa337b213d1f876a996c021b924b6b9b631949e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "245b12710fce4048a281aa816e555183953a4adf4e23e15e1561e735fbef35d0",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages. Stops",
+      "baseline": 1049.3,
+      "width": 862.1641555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "all energy attacks for the rest of Combat. Lower",
+      "baseline": 1108.3,
+      "width": 852.9919999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent\u2019s anger 1 level.",
+      "baseline": 1167.3,
+      "width": 527.436,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        316.908,
+        50.2213,
+        425.185,
+        57.5574
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        153.381,
+        1013.53,
+        806.785,
+        45.913
+      ],
+      "rules-line-2": [
+        103.754,
+        1073.61,
+        851.493,
+        44.835
+      ],
+      "rules-line-3": [
+        266.885,
+        1133.0,
+        525.231,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          98.8344,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          153.381,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          98.8344,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-058-red-back-kick.webp",
+      "before_url": "/assets/cards/saiyan-058-red-back-kick.webp?v=21f0a8ac42c9",
+      "before_sha256": "21f0a8ac42c9f9a2aa1b6ce581014baaa566433dabfd0c5edbd130564d641943",
+      "after_sha256": "8c2829c0bda4291a29f554c6d12a55fc5bd8986761dd2bd903c8152c3fd1335d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-058-red-back-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=49418c47a255",
+      "before_sha256": "49418c47a255f45c5a7ac627e9b11c193b070b445076ff3c5314bf16b5d8e83b",
+      "after_sha256": "71152313e58d281c874b4e30413f13901daf47345dd797cb1a68498c7181238d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

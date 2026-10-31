@@ -1,0 +1,165 @@
+{
+  "number": 72,
+  "id": "saiyan-072-black-axe-heel-kick",
+  "name": "Black Axe Heel Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-072-black-axe-heel-kick.svg",
+  "native_source_sha256": "76b14bdfe68e4f353fb53c77a2552a8581ebc579b636c346b1ca82b972681f1d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3b0162189453d5d17d68cbeb1d27e016e70deea675cd71f5ff36341a7159ce.png",
+      "sha256": "6f3b0162189453d5d17d68cbeb1d27e016e70deea675cd71f5ff36341a7159ce"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "9529be787bc0c7060485381baa0a2b1db3130aa48ba44e8ecfac73d7014ca8ee",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. Raise your anger 1",
+      "baseline": 1049.3,
+      "width": 804.703947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "level.",
+      "baseline": 1108.3,
+      "width": 95.501,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        232.163,
+        50.2213,
+        594.673,
+        57.5574
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        178.722,
+        1013.53,
+        752.248,
+        45.913
+      ],
+      "rules-line-2": [
+        483.366,
+        1074.0,
+        92.267,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          128.03,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          178.722,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          128.03,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-072-black-axe-heel-kick.webp",
+      "before_url": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=c6a3e68f8b4a",
+      "before_sha256": "c6a3e68f8b4ae576998af74bb7b4ee6ee6da17461c909674825f88300742d891",
+      "after_sha256": "79b6e58e2a75f3bdc4f6ef6ab3432048e2384eee150c811ebcf21199881ba3fa",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp?v=c898007fdfa9",
+      "before_sha256": "c898007fdfa9632e1ab641fdc340d1eb5f417119146791750bde8aaea90b38d9",
+      "after_sha256": "e4d3cec60b83e78615a65578286525f872a53d588072adb623d5cf0688b07553",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "number": 76,
+  "id": "saiyan-076-earth-dragon-ball-4",
+  "name": "Earth Dragon Ball 4",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-076-earth-dragon-ball-4.svg",
+  "native_source_sha256": "64a54825df1d0203d069f4a88c8f755a3c9fa9d0ef276479cf7a3da041616600",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438.png",
+      "sha256": "2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438"
+    }
+  ],
+  "artwork": {
+    "mode": "approved V3 full-art Shenron",
+    "approved_full_art_redesign": true,
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "dragon_ball_number": 4,
+    "star_geometry_source": "/workspace/scratch/deb30d30aa10/next50-retained/base-051-100/Saiyan-Saga-051-100/masters/saiyan-076-earth-dragon-ball-4.svg",
+    "source_native_sha256": "115d57304bcf3be7a08fe6d26fa794fb015c2e1c2c2e8317b4e1558f1e6f1481"
+  },
+  "rules": [
+    {
+      "text": "Raise your anger 2 levels. The next time an",
+      "baseline": 1049.3,
+      "width": 763.9589999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent declares Combat against you, skip that",
+      "baseline": 1108.3,
+      "width": 868.966,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat immediately.",
+      "baseline": 1167.3,
+      "width": 375.34000000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        242.057,
+        44.5,
+        574.885,
+        69.0
+      ],
+      "card-category": [
+        338.814,
+        891.391,
+        381.372,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        41.34,
+        33.708
+      ],
+      "rules-line-1": [
+        149.432,
+        1013.53,
+        760.137,
+        45.913
+      ],
+      "rules-line-2": [
+        96.242,
+        1072.53,
+        866.516,
+        45.913
+      ],
+      "rules-line-3": [
+        343.447,
+        1131.53,
+        372.106,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-076-earth-dragon-ball-4.webp",
+      "before_url": "/assets/cards/saiyan-076-earth-dragon-ball-4.webp?v=aeb046922698",
+      "before_sha256": "aeb0469226983390ee3cee8fa32e6a3ae26ca21fabbb27200dbf7c59e6a399f5",
+      "after_sha256": "37ebcd5c628e0cc6e0a1662359609d48d57d38fac7740cfb7ffb38ad1eb9614d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp",
+      "before_url": "/assets/cards/downloads/saiyan-076-earth-dragon-ball-4.webp?v=a788c69a6141",
+      "before_sha256": "a788c69a6141349ce6aec84c99e1e612368ff0daf64d1e815413a24ad2ab6413",
+      "after_sha256": "84f01868a67af329c98fee8ea87da5369e16df44d4fcfab5de511ce2f26cc944",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

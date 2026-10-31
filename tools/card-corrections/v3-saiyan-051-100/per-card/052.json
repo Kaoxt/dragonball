@@ -1,0 +1,165 @@
+{
+  "number": 52,
+  "id": "saiyan-052-orange-neck-restraints",
+  "name": "Orange Neck Restraints",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-052-orange-neck-restraints.svg",
+  "native_source_sha256": "284bc45e95c4627146f37f92c78630f720a7eea13895aa44d7dd3e10dc160a77",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b08e60cc158bf491f93900823b3124e888f39694d7301b58bd42fd58f57d255b.png",
+      "sha256": "b08e60cc158bf491f93900823b3124e888f39694d7301b58bd42fd58f57d255b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "fc35be78119a5d356da45d181b33ea7194bdd78b099234e0515224cbfa2a40eb",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. Lower your opponent\u2019s",
+      "baseline": 1049.3,
+      "width": 887.023947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "anger 1 level.",
+      "baseline": 1108.3,
+      "width": 231.62300000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        177.359,
+        44.5,
+        704.282,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.029,
+        33.708
+      ],
+      "rules-line-1": [
+        137.096,
+        1014.61,
+        835.499,
+        44.835
+      ],
+      "rules-line-2": [
+        415.036,
+        1074.0,
+        228.928,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          86.4045,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          137.096,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          86.4045,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-052-orange-neck-restraints.webp",
+      "before_url": "/assets/cards/saiyan-052-orange-neck-restraints.webp?v=3c745aeb52f2",
+      "before_sha256": "3c745aeb52f29bd0d8929d43d26b7319a4d3421519c9481d0e65e709cd592eb4",
+      "after_sha256": "b889a5d99792e18b2af3c1e675135f153ad1f45c11f2cbb40de6a8ba70ab7663",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp",
+      "before_url": "/assets/cards/downloads/saiyan-052-orange-neck-restraints.webp?v=0adbc49cc7ec",
+      "before_sha256": "0adbc49cc7ec8f10162cfaa3159ac3ea3008fcea64b1b341c221c927172720f1",
+      "after_sha256": "9da1e86a9c299edc05ddffd91aaa3f4994d4d181483cbb6955f0516f986d0352",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

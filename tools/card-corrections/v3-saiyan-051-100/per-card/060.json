@@ -1,0 +1,165 @@
+{
+  "number": 60,
+  "id": "saiyan-060-blue-one-arm-shoulder-throw",
+  "name": "Blue One-Arm Shoulder Throw",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-060-blue-one-arm-shoulder-throw.svg",
+  "native_source_sha256": "cc4154b4a989f0b051e67f56c0153cddbe8c72d582cd700b42aa408dfa12f9ae",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e194ec5c4fb6ba0053ae53c865a1fb5fec9e291beca17637097e09fa0f209593.png",
+      "sha256": "e194ec5c4fb6ba0053ae53c865a1fb5fec9e291beca17637097e09fa0f209593"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "c31890a96e1452ae1db5f841829311f8950a1f67397f8c07db0f5bd43933135d",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Lower your",
+      "baseline": 1049.3,
+      "width": 685.290947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "opponent\u2019s anger 1 level.",
+      "baseline": 1108.3,
+      "width": 437.4720000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        78.0318,
+        50.2213,
+        902.936,
+        57.5574
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.937,
+        33.708
+      ],
+      "rules-line-1": [
+        237.733,
+        1013.53,
+        634.227,
+        45.521
+      ],
+      "rules-line-2": [
+        312.308,
+        1074.0,
+        434.385,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          237.733,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp",
+      "before_url": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp?v=a76db7b432b2",
+      "before_sha256": "a76db7b432b24d7b3bcebb38cf898be11865481841f6de9d116e6307c5acd7ec",
+      "after_sha256": "5b4018b4fdf141c532c665d366ac7bc17c8a6d1f5b465e9390696e03df0b9ade",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp",
+      "before_url": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=654f34502163",
+      "before_sha256": "654f34502163a06d02f7af82b1e6112a8e3e4ff5d6aa2adb8ad13f00c5e8dbf1",
+      "after_sha256": "ebd53b5f0265a455586eb95570379772b5717952d11113f1b9c1a2c1e622c4f2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

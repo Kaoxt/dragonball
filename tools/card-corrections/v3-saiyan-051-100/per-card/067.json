@@ -1,0 +1,165 @@
+{
+  "number": 67,
+  "id": "saiyan-067-black-elbow-strike",
+  "name": "Black Elbow Strike",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-067-black-elbow-strike.svg",
+  "native_source_sha256": "f18be9b319a97ed2d972f28be993000931f2be83e4c2c8fb957bddf46b357d6f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9aae486bc38d8617fa14cda735da916f7a1a57725b53c115708d4920c2787936.png",
+      "sha256": "9aae486bc38d8617fa14cda735da916f7a1a57725b53c115708d4920c2787936"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "09b5c832288d1db1d54ae38582f66f51d7f60247162384f4b73e503b294bcf8f",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Raise your anger 1",
+      "baseline": 1049.3,
+      "width": 808.819947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "level.",
+      "baseline": 1108.3,
+      "width": 95.501,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        250.403,
+        50.2213,
+        558.195,
+        57.5574
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        41.234,
+        33.708
+      ],
+      "rules-line-1": [
+        176.664,
+        1013.53,
+        756.364,
+        45.913
+      ],
+      "rules-line-2": [
+        483.366,
+        1074.0,
+        92.267,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          125.972,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          176.664,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          125.972,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-067-black-elbow-strike.webp",
+      "before_url": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=304672588a0d",
+      "before_sha256": "304672588a0dcfdf405f3dbb5ac1f6c1f3bc4dae72e08ee8ec617378de3cf027",
+      "after_sha256": "7ad7370c63afa59d5e473b22d9161beaf59e6050a17643765d63c60c265b145d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-067-black-elbow-strike.webp",
+      "before_url": "/assets/cards/downloads/saiyan-067-black-elbow-strike.webp?v=1c47c07480e7",
+      "before_sha256": "1c47c07480e7240939a77cf1a3819771f3e31234a344437dbe3768cd339f6777",
+      "after_sha256": "dd20489d050a75c1afc3600aa64d58bc70df5ad6d27d772de1384467ef63be4f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

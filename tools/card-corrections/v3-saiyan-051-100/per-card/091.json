@@ -1,0 +1,164 @@
+{
+  "number": 91,
+  "id": "saiyan-091-saiyan-energy-throw",
+  "name": "Saiyan Energy Throw",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-091-saiyan-energy-throw.svg",
+  "native_source_sha256": "28c1784ae3dd73f49a2b6031958ce6e884f286556751f9aced06f0343538cd37",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5e8a81960b80690eecbf590d139977b6e5ba430eca1d7a728df3a9189f901ec5.png",
+      "sha256": "5e8a81960b80690eecbf590d139977b6e5ba430eca1d7a728df3a9189f901ec5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "6b0824ce6ba8c8c02c4e936149952b97bc7c65f469ab657c105ef21098edcc0b",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Energy attack costing 4",
+      "baseline": 1049.3,
+      "width": 862.0611555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "stages. DAMAGE: 7 life cards. Banish after use.",
+      "baseline": 1108.3,
+      "width": 824.9639999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        214.311,
+        44.5,
+        630.378,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        99.4739,
+        1013.53,
+        860.052,
+        45.913
+      ],
+      "rules-line-2": [
+        118.39,
+        1072.53,
+        822.22,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          484.609,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          539.204,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          484.609,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-091-saiyan-energy-throw.webp",
+      "before_url": "/assets/cards/saiyan-091-saiyan-energy-throw.webp?v=989928aa53de",
+      "before_sha256": "989928aa53de3ba4cdb232345d9c4aa6dfc86eb08816bc11495b163bf423ca4e",
+      "after_sha256": "88ec6331f26b90803f839d82df085f803872914f8d9939c8f8bc734c128a1aeb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-091-saiyan-energy-throw.webp",
+      "before_url": "/assets/cards/downloads/saiyan-091-saiyan-energy-throw.webp?v=c37cf2a71d6e",
+      "before_sha256": "c37cf2a71d6e5f2d974d3dc0d3f5fb20a751958045076d4d1bc07973035e4ef1",
+      "after_sha256": "127ee4b6be5f54a8a10ec33b64386b4546afe304bc154caedbe2e82564809512",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "card_number": 65,
+  "correction": "Restore the missing separate small closed smile below the preserved nose, confirmed against the original printed card.",
+  "source": "/workspace/scratch/deb30d30aa10/next50-retained/base-source-051-100/Saiyan-Saga-051-100/source/artwork/saiyan-065.png",
+  "source_size": [
+    1505,
+    1045
+  ],
+  "source_sha256": "a5d263b897e7cb4cb6d1362e73973f247342be0e55703d772c2c3bb34a2a3aa3",
+  "reference": "/workspace/scratch/deb30d30aa10/next50-review/originals/product-065.jpg",
+  "reference_sha256": "fff5f18f096f959dc63b88ec436f4d9adec1d63c57bb057c20161de842c3bd63",
+  "generated_edit": "/workspace/scratch/deb30d30aa10/next50-patches/065/generated-lower-face.png",
+  "generated_sha256": "9b9542d4f74c306cb1ad75764e349ed8405e7c23a0011351b27f1fa154c3246e",
+  "generated_smile_extraction_rect": [
+    490,
+    640,
+    900,
+    760
+  ],
+  "placement": {
+    "x": 650,
+    "y": 928,
+    "width": 176,
+    "height": 52,
+    "coordinate_system": "original retained artwork pixels (1505 by 1045)"
+  },
+  "patch": "/workspace/scratch/deb30d30aa10/next50-patches/065/smile-patch.png",
+  "patch_sha256": "c73c27300bb30900fe759ac0e80857a6c95d7250aa61afa1c97e35b521a50168",
+  "mask": "/workspace/scratch/deb30d30aa10/next50-patches/065/source-coordinate-mask.png",
+  "visible_difference_bounds_inclusive": [
+    659,
+    937,
+    818,
+    972
+  ],
+  "changed_pixel_count": 1222,
+  "changed_pixels_outside_alpha_mask": 0,
+  "preservation": "Original source bytes remain untouched. All generated pixels except isolated mouth ink discarded. Retained artwork is embedded unchanged in the SVG under a localized alpha patch.",
+  "review_status": "Corrected and visually rechecked against the actual printed original at full-art normal viewing size and enlarged lower-face comparison. Small separate closed smile restored; nose, glasses, brows, whiskers, head shape, costume and composition unchanged.",
+  "imagegen_reference_inputs": [
+    "target-lower-face.png",
+    "original-lower-face.png"
+  ]
+}

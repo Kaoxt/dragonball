@@ -1,0 +1,165 @@
+{
+  "number": 66,
+  "id": "saiyan-066-black-knife-hand-strike",
+  "name": "Black Knife Hand Strike",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-066-black-knife-hand-strike.svg",
+  "native_source_sha256": "9f1baaeb2bba53916fed1a485973e591d69ecfe15cf48113da797ea1328219f3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d.png",
+      "sha256": "7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "6dac6ac7da90163f5c4d78183cf926202e4eeac80a59f935bf27852bfc40cbb3",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. OR Stops an energy attack.",
+      "baseline": 1108.3,
+      "width": 600.0050000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        177.359,
+        50.2213,
+        704.282,
+        57.5574
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.884,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "rules-line-2": [
+        231.041,
+        1073.61,
+        596.918,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-066-black-knife-hand-strike.webp",
+      "before_url": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=f4de238432e4",
+      "before_sha256": "f4de238432e44a3030e5f60bba511d65135c83907bbe2deee2634faedde90a65",
+      "after_sha256": "b96080c3239930c7b85a17c8790716e2f87046d34c083d7cb6ed7836272e64b9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp",
+      "before_url": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=a65367105a1f",
+      "before_sha256": "a65367105a1fe4589de301fa494b612001197e9acb4df0eeb2d9c34bf90eb011",
+      "after_sha256": "f5b953d31865ecd6c413d06ad9ebdab66a4d3423880a5924e7f674828799858d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

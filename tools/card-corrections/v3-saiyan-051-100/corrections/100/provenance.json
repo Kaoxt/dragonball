@@ -1,0 +1,40 @@
+{
+  "card": 100,
+  "title": "Vegeta\u2019s Surprise Defense",
+  "correction": "Closed-mouth confident smirk; viewer-right corner raised as original scan.",
+  "source": "/workspace/scratch/deb30d30aa10/next50-retained/base-source-051-100/Saiyan-Saga-051-100/source/artwork/saiyan-100.png",
+  "source_dimensions": [
+    1415,
+    1112
+  ],
+  "generated_asset": "/workspace/scratch/deb30d30aa10/next50-patches/100/generated-mouth-edit.png",
+  "generated_dimensions": [
+    1415,
+    1111
+  ],
+  "placement_in_source_pixels": {
+    "x": 0,
+    "y": 0,
+    "width": 1415,
+    "height": 1111,
+    "preserveAspectRatio": "xMidYMid meet"
+  },
+  "clip_path_source_pixels": "M678 578 Q705 571 734 574 Q747 557 761 552 Q780 547 787 561 L787 588 Q771 598 740 600 L683 600 Q675 590 678 578 Z",
+  "reference": "/workspace/scratch/deb30d30aa10/next50-review/original-100-face.png",
+  "reference_sha256": "c48f3a583d8f57670285871feec60dceeb96de60ab00d2389ba71d3c3352c42a",
+  "original_source_sha256": "db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96",
+  "generated_sha256": "4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723",
+  "method": "Built-in imagegen mouth-only edit; native SVG clip overlays retained artwork; original source bytes not modified.",
+  "review": "PASS: original scan, retained artwork and clipped correction inspected together enlarged and at full artwork scale. Closed mouth, no teeth; viewer-right corner is raised. Nose, chin, eyes, armor, scouter and all illustration pixels outside the native clip are unchanged. No visible patch boundary.",
+  "validation": {
+    "changed_pixels": 3451,
+    "outside_clip_changed_pixels": 0,
+    "changed_pixel_bbox": [
+      677,
+      550,
+      787,
+      600
+    ]
+  },
+  "imagegen_prompt": "Make a surgical local artwork edit to Image 1, the clean Vegeta illustration. Image 2 is ONLY the authoritative reference for his original mouth expression. Keep Image 1 framing, dimensions, character, pose, face geometry, eyes, eyebrows, nose, chin, cheek shadows, skin shading, scouter, hair, armor, background, line weight and color exactly unchanged. Correct ONLY the tiny closed-mouth line near the center of his lower face: replace its little wavy frown with the confident CLOSED-MOUTH smirk in Image 2. The mouth line is shallow and nearly horizontal at the viewer-left side, curves subtly up at the viewer-right corner, with the small upward corner crease of the reference. No teeth, no open mouth, no grin, no bigger mouth. Keep the mouth in the same position and the same small width. Preserve the nose and chin area. Output only the edited clean artwork."
+}

@@ -1,0 +1,208 @@
+{
+  "number": 87,
+  "id": "saiyan-087-bulma",
+  "name": "Bulma",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-087-bulma.svg",
+  "native_source_sha256": "9362fb3743facdf3125f089ee86684085a941a7fa91e1efafef7b5d4268f1cb5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/412076a693b83f474f03f1170e67f01fdd1769db56ac37d7dd7c7c2fa776672b.png",
+      "sha256": "412076a693b83f474f03f1170e67f01fdd1769db56ac37d7dd7c7c2fa776672b"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "834d241f6a596b0b28d555e437bee5e1eb10068a85444c7a33e4902c83a79a0b",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Reduce damage from an energy attack",
+      "baseline": 1049.3,
+      "width": 836.1850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "against you by 2 life cards.",
+      "baseline": 1108.3,
+      "width": 478.5340000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.526,
+        160.009,
+        89.474,
+        38.269
+      ],
+      "power-stage-value-1": [
+        967.594,
+        224.691,
+        63.406,
+        31.164
+      ],
+      "power-stage-value-2": [
+        967.545,
+        289.373,
+        63.455,
+        31.164
+      ],
+      "power-stage-value-3": [
+        970.24,
+        354.054,
+        60.76,
+        31.164
+      ],
+      "power-stage-value-4": [
+        967.888,
+        418.736,
+        63.112,
+        31.164
+      ],
+      "power-stage-value-5": [
+        968.182,
+        483.418,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-6": [
+        966.271,
+        548.1,
+        64.729,
+        31.164
+      ],
+      "power-stage-value-7": [
+        968.182,
+        612.782,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-8": [
+        968.868,
+        677.463,
+        62.132,
+        31.164
+      ],
+      "power-stage-value-9": [
+        974.748,
+        742.145,
+        56.252,
+        31.164
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.314,
+        50.2213,
+        184.373,
+        57.5574
+      ],
+      "card-category": [
+        263.52,
+        891.391,
+        531.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        41.605,
+        33.708
+      ],
+      "rules-line-1": [
+        112.951,
+        1014.61,
+        833.098,
+        44.835
+      ],
+      "rules-line-2": [
+        291.58,
+        1072.53,
+        475.839,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-087-bulma.webp",
+      "before_url": "/assets/cards/saiyan-087-bulma.webp?v=364538c91735",
+      "before_sha256": "364538c91735bd46387f7fe23f8d97fcbbaea3ac7ff277b625fa2a0d69b3b456",
+      "after_sha256": "2baf4b41694152fba7c08c330f4bed667494626c48a7ed9fb33aaed8ae2889a7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-087-bulma.webp",
+      "before_url": "/assets/cards/downloads/saiyan-087-bulma.webp?v=a2ac2a6357bf",
+      "before_sha256": "a2ac2a6357bf2bd1b34eaf703ddb88e55eb82ede1b46b16c320ce0b355409700",
+      "after_sha256": "f8e03262cba7b0cd8387f68e43d33c281d4ee2f01702b93009db811548d633b7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

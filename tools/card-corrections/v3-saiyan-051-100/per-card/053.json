@@ -1,0 +1,183 @@
+{
+  "number": 53,
+  "id": "saiyan-053-orange-holding-after-takedown",
+  "name": "Orange Holding After Takedown",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-053-orange-holding-after-takedown.svg",
+  "native_source_sha256": "2ba967da58fdf787dcd3c6466f396b8768ccd189a3a41f76e8e3e1d480544307",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154.png",
+      "sha256": "b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942.png",
+      "sha256": "5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "33b97d9aad87fe73b4e26b96bd8e1498764d73c78714f444d1a56675d33ad239",
+    "localized_correction": {
+      "source_dimensions": [
+        1505,
+        1045
+      ],
+      "patch": "corrections/053/ear-correction-patch.png",
+      "placement": [
+        830,
+        345,
+        76,
+        64
+      ],
+      "clip": "M830 345H906V409H830Z",
+      "reason": "Remove added gold ear stud; restore original skin and cartilage"
+    },
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Lower your",
+      "baseline": 1049.3,
+      "width": 685.290947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "opponent\u2019s anger 1 level.",
+      "baseline": 1108.3,
+      "width": 437.4720000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        69.5,
+        44.5,
+        920.0,
+        69.0
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.188,
+        33.708
+      ],
+      "rules-line-1": [
+        237.733,
+        1013.53,
+        634.227,
+        45.521
+      ],
+      "rules-line-2": [
+        312.308,
+        1074.0,
+        434.385,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          237.733,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
+      "before_url": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp?v=38b0af751c5c",
+      "before_sha256": "38b0af751c5cab5ace7593af6d4ae009c0fb96049f5f248651a99b4a924b1857",
+      "after_sha256": "f83fe550623c456caac24470f61df29d740e881e84a69079f1cedd2bcbb18a20",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp",
+      "before_url": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=f760c9c22826",
+      "before_sha256": "f760c9c2282688dc6e499f59aee2544498331d3fdca29de62741f14467e0cfd8",
+      "after_sha256": "8537c37b7f46d59d947ad2aa376281b247e85f6e0f652f531262290a1349a1a2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

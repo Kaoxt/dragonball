@@ -1,0 +1,83 @@
+{
+  "card_number": 53,
+  "correction": "Remove erroneous gold stud and restore ordinary peach skin/cartilage to match the actual original.",
+  "source": "/workspace/scratch/deb30d30aa10/next50-retained/base-source-051-100/Saiyan-Saga-051-100/source/artwork/saiyan-053.png",
+  "source_size": [
+    1505,
+    1045
+  ],
+  "source_sha256": "b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154",
+  "reference": "/workspace/scratch/deb30d30aa10/next50-review/originals/product-053.jpg",
+  "reference_sha256": "92c2f9b178ebbd5199307c99e979570257110edd40fb8782459604a306acf9e4",
+  "generated_edit": "/workspace/scratch/deb30d30aa10/next50-patches/053/generated-ear-edit.png",
+  "generated_sha256": "9304a5fa87c1414e1daab11a33919f09684ec0088b0ce82f557b645e290e75a1",
+  "generated_input_source_crop": [
+    760,
+    145,
+    1040,
+    445
+  ],
+  "placement": {
+    "x": 830,
+    "y": 345,
+    "width": 76,
+    "height": 64,
+    "coordinate_system": "original retained artwork pixels (1505 by 1045)"
+  },
+  "patch": "/workspace/scratch/deb30d30aa10/next50-patches/053/ear-correction-patch.png",
+  "patch_sha256": "5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942",
+  "mask": "/workspace/scratch/deb30d30aa10/next50-patches/053/source-coordinate-mask.png",
+  "mask_polygon_source_coords": [
+    [
+      850,
+      348
+    ],
+    [
+      884,
+      348
+    ],
+    [
+      901,
+      355
+    ],
+    [
+      902,
+      378
+    ],
+    [
+      891,
+      395
+    ],
+    [
+      866,
+      403
+    ],
+    [
+      843,
+      400
+    ],
+    [
+      832,
+      389
+    ],
+    [
+      835,
+      369
+    ],
+    [
+      842,
+      354
+    ]
+  ],
+  "mask_feather_pixels": 1.8,
+  "visible_difference_bounds_inclusive": [
+    830,
+    345,
+    905,
+    404
+  ],
+  "changed_pixel_count": 3648,
+  "changed_pixels_outside_alpha_mask": 0,
+  "preservation": "Original source bytes remain untouched. Generated image used only within bounded ear correction alpha mask. Retained artwork is embedded unchanged in the SVG under localized patch.",
+  "review_status": "Corrected and visually rechecked against actual original at normal artwork size, enlarged ear view, and 4x pixel-boundary inspection. Gold stud removed; natural cartilage and skin replace it; expression, face, ear outer contour, costume and framing unchanged."
+}

@@ -1,0 +1,164 @@
+{
+  "number": 55,
+  "id": "saiyan-055-red-front-kick",
+  "name": "Red Front Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-055-red-front-kick.svg",
+  "native_source_sha256": "8be6110f1430445acc9e90f92de47654fce0786ff722812edac3b9d2463b7a5b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6c0bf2a618100974637899dab31729a010cc30ec33e36ffde5da110568053e58.png",
+      "sha256": "6c0bf2a618100974637899dab31729a010cc30ec33e36ffde5da110568053e58"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "c4719023e704c4a87ba03e45fb10d6a6474c862dcded5bc8db9a462e34cc7e66",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +1 stages. Raise",
+      "baseline": 1049.3,
+      "width": 852.1191555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 321.5870000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        312.907,
+        50.2213,
+        433.186,
+        57.5574
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.354,
+        33.708
+      ],
+      "rules-line-1": [
+        158.648,
+        1013.53,
+        796.25,
+        45.913
+      ],
+      "rules-line-2": [
+        369.809,
+        1074.0,
+        319.382,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          104.102,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          158.648,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          104.102,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-055-red-front-kick.webp",
+      "before_url": "/assets/cards/saiyan-055-red-front-kick.webp?v=52cbe11e7a2d",
+      "before_sha256": "52cbe11e7a2d4ff37ed3f6b87ba6eda879fb59f469dd84636e7812a3389cf5b9",
+      "after_sha256": "b9b41df284715e0ab5adb2a783efe68b29dd4afcd3ba7f39181377f6ff505f7d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-055-red-front-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-055-red-front-kick.webp?v=cbcc77bc9571",
+      "before_sha256": "cbcc77bc9571517edd27278bfb223908364532cab368323db0f00e82d863091d",
+      "after_sha256": "3bee6a14c0e4967320464dc458291f1b2dea356d7e5c2a52da440a2ad5c83064",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

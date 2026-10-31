@@ -1,0 +1,71 @@
+{
+  "card": 89,
+  "original_source_path": "/workspace/scratch/deb30d30aa10/next50-retained/base-source-051-100/Saiyan-Saga-051-100/source/artwork/saiyan-089.png",
+  "original_source_sha256": "e83523a5552de96548bb3e7ad812ae243dddf237d685859be254d3f04de4d7e2",
+  "source_bytes_embedded_unchanged": true,
+  "native_window": [
+    0,
+    0,
+    1033,
+    706
+  ],
+  "native_source_placement": [
+    67.63129496402877,
+    0,
+    897.7374100719425,
+    706
+  ],
+  "retained_source_crop": 0,
+  "side_extensions": "Generated purple rocky ground and tiny pre-existing truncated outer arm contour only. Source layer overlays generated backing.",
+  "left_backing_placement": [
+    0,
+    0,
+    289.8435251798561,
+    706
+  ],
+  "right_backing_placement": [
+    743.1564748201439,
+    0,
+    289.8435251798561,
+    706
+  ],
+  "seam_masks": {
+    "width": 8,
+    "left_y_ranges": [
+      [
+        0,
+        170
+      ],
+      [
+        375,
+        706
+      ]
+    ],
+    "right_y_ranges": [
+      [
+        0,
+        225
+      ],
+      [
+        325,
+        706
+      ]
+    ],
+    "method": "native SVG masked front-overlay gradients over purple ground only; arm/fist border rows protected"
+  },
+  "changed_pixels_compared_to_unblended_composite": 8615,
+  "changed_pixels_outside_permitted_ground_blends": 0,
+  "changed_bbox": [
+    67,
+    0,
+    966,
+    706
+  ],
+  "generated_assets": [
+    "/workspace/scratch/deb30d30aa10/next50-review/correction-089/left-side-backing.png",
+    "/workspace/scratch/deb30d30aa10/next50-review/correction-089/right-side-backing.png"
+  ],
+  "final_svg": "/workspace/scratch/deb30d30aa10/next50-review/correction-089/retained-center-final.svg",
+  "final_png": "/workspace/scratch/deb30d30aa10/next50-review/correction-089/retained-center-final.png",
+  "visual_review": "All three heads, hands and shoes visible. No frame or text regenerated. Purple floor continuation inspected normal size."
+}

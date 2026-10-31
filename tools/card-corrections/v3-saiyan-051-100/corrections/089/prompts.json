@@ -1,0 +1,17 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "Minimal illustration edge continuation for height-fit V3 composition; original central artwork is retained unchanged.",
+  "selected": [
+    {
+      "asset": "left-side-backing.png",
+      "input": "left-guide.png",
+      "prompt": "Use case: precise-object-edit. This is a narrow edge crop of a finished illustration, not a request for a new character picture. Fill ONLY the empty white/transparent strip along the LEFT 23.33% of the input, continuing the existing purple rocky floor and the tiny missing outer left edge of Yamcha's arm/fist that touches the boundary. Keep the same tall narrow canvas and existing crop. Preserve the entire right 76.67% of the input exactly, including all ground colors, cracks and character pixels. The new strip must join the exact existing purple shades seamlessly with no vertical line, gradient shift, repeated strip or new standalone boulders. Do not center, enlarge, shrink, move, or redraw the character. Do not expand the crop on any other side. At completion retain the same 457×1112 aspect ratio. No writing, frame or watermark."
+    },
+    {
+      "asset": "right-side-backing.png",
+      "input": "right-guide.png",
+      "prompt": "Use case: precise-object-edit. This is a narrow edge crop of a finished illustration, not a request for a new character picture. Fill ONLY the empty white/transparent strip along the RIGHT 23.33% of the input, continuing the existing purple cracked-rock floor exactly. Keep the same tall narrow canvas and existing crop. Preserve the entire left 76.67% of the input exactly, including all ground colors, cracks and character pixels. The new strip must join the exact existing purple shades seamlessly with no vertical line, gradient shift, repeated strip or new standalone boulders. Do not center, enlarge, shrink, move, or redraw the character. Do not expand the crop on any other side. At completion retain the same 457×1112 aspect ratio. No writing, frame or watermark."
+    }
+  ],
+  "note": "Imagegen's regenerated center pixels are not used. Original source is a separate native SVG image; only side continuations and explicitly bounded 8-unit ground seam blends are exposed."
+}

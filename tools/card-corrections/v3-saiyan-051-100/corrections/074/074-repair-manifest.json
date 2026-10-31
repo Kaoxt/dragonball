@@ -1,0 +1,42 @@
+{
+  "card": "074 Black Jump Turn Kick",
+  "target_art_window": {
+    "x": 14,
+    "y": 146,
+    "width": 1033,
+    "height": 706
+  },
+  "composition_viewBox": [
+    0,
+    0,
+    1755,
+    1199.4482090997096
+  ],
+  "retained_original_in_viewBox": {
+    "x": 125,
+    "y": 0,
+    "width": 1505,
+    "height": 1045
+  },
+  "native_retained_original": {
+    "x": 87.57549857549857,
+    "y": 146,
+    "width": 885.8490028490029,
+    "height": 615.0911680911681
+  },
+  "source_byte_identical": true,
+  "source_sha256": "f6ba485bc28a5a9e2e3ff6a9651e514caae0af78180e2acd4bfb337436105e5c",
+  "generated_backing_sha256": "efe440ea97889fe4cc7af811b3279999b82d02dd30b079739d8205d9a3275a37",
+  "masks": {
+    "background_left": "x125..137,y0..410 and800..1010",
+    "background_right": "x1618..1630,y0..435 and810..1033",
+    "bottom_clothing_shading": "y1033..1045,x125..1630"
+  },
+  "protected": "All face, hair, central torso, arms/fists retained source pixels. Bottom12 source px of plain trouser/blue-belt shading blend into new extension. Original PNG untouched. No new limbs.",
+  "method": "Built-in image_gen edge extension; native SVG composition and12px masks. No full generated center used.",
+  "verification": {
+    "changed_pixels_vs_same_unblended_svg": 31553,
+    "changed_pixels_outside_allowed_masks": 0,
+    "original_rendered_unmasked": true
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "number": 80,
+  "id": "saiyan-080-saiyan-training",
+  "name": "Saiyan Training",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-080-saiyan-training.svg",
+  "native_source_sha256": "4973055666d218764c58b3eb7ca09dd6105562df3fa3dfd5237e6e36d06b50e5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2789a809889f2740bd8dfec8115be91b9f75a5cc153cfa5fa66d84700a95ac51.png",
+      "sha256": "2789a809889f2740bd8dfec8115be91b9f75a5cc153cfa5fa66d84700a95ac51"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "1c98809ed276370045bf84cdf6f2a5be2b6c001c7fe3a2b7d00e214a1cdd870d",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Villains and Goku only. POWER: Choose 2 cards",
+      "baseline": 1049.3,
+      "width": 827.5609999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "from your discard pile and place them on the",
+      "baseline": 1108.3,
+      "width": 795.5149999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "bottom of your Life Deck.",
+      "baseline": 1167.3,
+      "width": 448.7910000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        298.496,
+        44.5,
+        462.007,
+        69.0
+      ],
+      "card-category": [
+        440.072,
+        891.391,
+        178.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        44.308,
+        33.708
+      ],
+      "rules-line-1": [
+        116.675,
+        1013.53,
+        825.65,
+        45.521
+      ],
+      "rules-line-2": [
+        132.845,
+        1072.53,
+        793.31,
+        45.521
+      ],
+      "rules-line-3": [
+        306.819,
+        1131.53,
+        445.361,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-080-saiyan-training.webp",
+      "before_url": "/assets/cards/saiyan-080-saiyan-training.webp?v=5913cec425ea",
+      "before_sha256": "5913cec425ea7dae4ce1b4ed4c6b1a59090819aba362c6991d00517e38319bb0",
+      "after_sha256": "dcfede107d67e372dd4809c6573119b7533a979ba477ea245378fb7054906f9e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-080-saiyan-training.webp",
+      "before_url": "/assets/cards/downloads/saiyan-080-saiyan-training.webp?v=f2dbd9260fb2",
+      "before_sha256": "f2dbd9260fb240c46bc110fd667c819b77fc16bfd19444c72ca1fba2dab52af7",
+      "after_sha256": "0e6fde4a05c78c9cba0f7d17b9d692f9d41a3270799f13ee4d31972702f07c77",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

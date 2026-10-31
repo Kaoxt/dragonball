@@ -1,6 +1,6 @@
 # Dragon Ball OCG Master Templates V3
 
-Saiyan Saga 001–050 use the approved native SVG brush-theme system. The 48 Combat/Setup cards reuse the recent site illustrations; Earth Dragon Balls 1 and 2 use the approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
+Saiyan Saga 001–100 use the approved native SVG brush-theme system. The 48 Combat/Setup cards reuse the recent site illustrations; Earth Dragon Balls 1 and 2 use the approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
 
 Use `references/version-3-standard.md` and the inherited artwork, facial-expression, anatomy, wording and icon references before editing. The title center is (529.5,79), middle label center (529.5,908.5), and footer content center y1409.5. Rules use outlined Barlow Condensed Bold49 with natural spacing. V2 typography finalizers must not run on these files.
 
@@ -13,3 +13,7 @@ Localized artwork corrections are limited to #004's undershirt, #008's gaze, and
 To render a card, run Inkscape against its SVG at 2120px width. Validate the PNG before encoding the lossless full-size WebP; create the 1060×1484 display image from that final PNG. Verify outlined-text bounds and run `scripts/align_power_icon.py` twice, requiring an unchanged second run. Do not replace typography with generated text or regenerate complete cards for a localized artwork repair.
 
 Release evidence is in `../../card-corrections/v3-saiyan-001-050/`. `tests/card-v3.test.js` checks the native sources, all raster dependencies, both export hashes, catalog cache keys and measured alignment. Original source files and historical V2 audits are retained for provenance; they are not evidence that an inaccessible original has been visually verified.
+
+## Saiyan 051–100 release
+
+The second batch includes 6 Personalities, 3 Dragon Balls and 41 Combat/Setup/Event cards. Native sources are in `saiyan-051-100/`; per-card data, actual-original visual review, localized corrections, and export verification are in `../../card-corrections/v3-saiyan-051-100/`. #91 retains the original 4-stage cost and 7-life-card damage, with banishment after use. Character-source bytes and the earlier Yamcha expression and Tien placement corrections remain separate native layers. New side extensions preserve source-visible hands, headwear and footwear. The composite viewBox must be mapped into the full V3 artwork window before rendering. The batch builder isolates font objects between render processes.

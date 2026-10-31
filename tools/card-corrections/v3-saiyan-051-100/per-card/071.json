@@ -1,0 +1,164 @@
+{
+  "number": 71,
+  "id": "saiyan-071-black-back-kick",
+  "name": "Black Back Kick",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-071-black-back-kick.svg",
+  "native_source_sha256": "ec99fb8bf4cdd8634c292fd52827eb1684a05e05350b0741a570a1a149b22b39",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9fa59b1464bfe17be275f056f0be436196f67f3fefe7559e34c492ecbac0c68d.png",
+      "sha256": "9fa59b1464bfe17be275f056f0be436196f67f3fefe7559e34c492ecbac0c68d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "8d42e06e9f117489b967fd37c866c85f38f72ba26617dc368a12ec0916483cc1",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 5 stages. DAMAGE: 6 life",
+      "baseline": 1049.3,
+      "width": 876.7171555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 550.3190000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        289.204,
+        50.2213,
+        480.591,
+        57.5574
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        32.224,
+        33.708
+      ],
+      "rules-line-1": [
+        146.398,
+        1013.53,
+        820.799,
+        45.913
+      ],
+      "rules-line-2": [
+        255.884,
+        1072.53,
+        547.232,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8029,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.398,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8029,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-071-black-back-kick.webp",
+      "before_url": "/assets/cards/saiyan-071-black-back-kick.webp?v=5a1e3c2b701e",
+      "before_sha256": "5a1e3c2b701eb3c0004fde9097d83a2b5e04a16f52934c29e51bf96eb086427e",
+      "after_sha256": "276d53d86cc5b80e054bbe1b3d1bd094f6641512dfb58fc8216b117f781028b4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-071-black-back-kick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=18c0f83c80b6",
+      "before_sha256": "18c0f83c80b683c3b642009b5a22eaeb9f8affc9b21acd5711073f86c825410b",
+      "after_sha256": "316b193dcde8443857d7aa0eee94f49eeb94f8ecb0ebd12305e14919f61f3b62",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

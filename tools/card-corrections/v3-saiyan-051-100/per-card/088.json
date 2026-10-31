@@ -1,0 +1,176 @@
+{
+  "number": 88,
+  "id": "saiyan-088-king-kai-uniform",
+  "name": "King Kai Uniform",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-088-king-kai-uniform.svg",
+  "native_source_sha256": "1371e8c84672321aa4090d366f6de190965765da96023cc1bdf0c908019ab07b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a6dfb4dcf7a5ad59fc3b638796d5db1c5e3f2a3bfbb2d6ed5e2e7fd3fa2c53bc.png",
+      "sha256": "a6dfb4dcf7a5ad59fc3b638796d5db1c5e3f2a3bfbb2d6ed5e2e7fd3fa2c53bc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "1789f7a904ef03aef942bf6fd33884ffa228a9a761c4115fdd0398aedac41b0b",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Reduce life card damage",
+      "baseline": 1049.3,
+      "width": 862.9315789473684,
+      "icon_inline": true
+    },
+    {
+      "text": "from each successful physical attack against you",
+      "baseline": 1108.3,
+      "width": 884.548,
+      "icon_inline": false
+    },
+    {
+      "text": "by 1, to a minimum of 0.",
+      "baseline": 1167.3,
+      "width": 417.235,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        280.429,
+        44.5,
+        498.142,
+        69.0
+      ],
+      "card-category": [
+        440.072,
+        891.391,
+        178.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        98.7202,
+        1012.11,
+        861.56,
+        47.334
+      ],
+      "rules-line-2": [
+        88.598,
+        1072.53,
+        881.804,
+        45.913
+      ],
+      "rules-line-3": [
+        322.598,
+        1131.53,
+        413.805,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          430.69,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          524.278,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          430.69,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-088-king-kai-uniform.webp",
+      "before_url": "/assets/cards/saiyan-088-king-kai-uniform.webp?v=ea040c4f6290",
+      "before_sha256": "ea040c4f62901972389048e44eff46109fcbb3d7333513d087591ca45dab458a",
+      "after_sha256": "1d59baedb2129ef08db4758125a5c32152c4726f27ae3c6ba845ed0ae1301f9e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-088-king-kai-uniform.webp",
+      "before_url": "/assets/cards/downloads/saiyan-088-king-kai-uniform.webp?v=734e5e9c027f",
+      "before_sha256": "734e5e9c027f8d01d9af48f40448100db873e2f607bd7976f4d115a4d91afb06",
+      "after_sha256": "a8e82f52f6dfa864055bfad3c7c2fe2049a8099d5d3aa375f53247cd3873cb44",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

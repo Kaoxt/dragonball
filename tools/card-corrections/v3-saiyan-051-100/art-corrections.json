@@ -1,0 +1,154 @@
+{
+  "65": {
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "patch": "corrections/065/smile-patch.png",
+    "placement": [
+      650,
+      928,
+      176,
+      52
+    ],
+    "clip": "M650 928H826V980H650Z",
+    "reason": "Restore original small closed smile"
+  },
+  "100": {
+    "source_dimensions": [
+      1415,
+      1112
+    ],
+    "patch": "corrections/100/generated-mouth-edit.png",
+    "placement": [
+      0,
+      0,
+      1415,
+      1111
+    ],
+    "clip": "M678 578 Q705 571 734 574 Q747 557 761 552 Q780 547 787 561 L787 588 Q771 598 740 600 L683 600 Q675 590 678 578 Z",
+    "reason": "Restore original closed-mouth confident smirk"
+  },
+  "53": {
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "patch": "corrections/053/ear-correction-patch.png",
+    "placement": [
+      830,
+      345,
+      76,
+      64
+    ],
+    "clip": "M830 345H906V409H830Z",
+    "reason": "Remove added gold ear stud; restore original skin and cartilage"
+  },
+  "74": {
+    "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-074.svg",
+    "reason": "Restore both outer fists with localized edge continuation and native seam masks",
+    "retained_source_bytes": true,
+    "generated_content": "Only added outer strips; original artwork remains an independent raster layer",
+    "source_crop": 0,
+    "frame_placement": [
+      14,
+      146,
+      1033,
+      706
+    ]
+  },
+  "89": {
+    "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-089.svg",
+    "reason": "Retain full heads and shoes with height-fit and purple ground side extensions",
+    "retained_source_bytes": true,
+    "generated_content": "Only added outer strips; original artwork remains an independent raster layer",
+    "source_crop": 0,
+    "frame_placement": [
+      14,
+      146,
+      1033,
+      706
+    ]
+  },
+  "57": {
+    "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-057.svg",
+    "reason": "Recover reference-visible raised right hand",
+    "retained_source_bytes": true,
+    "source_crop": 0,
+    "generated_content": "Right edge only; original image retained in native SVG",
+    "frame_placement": [
+      14,
+      146,
+      1033,
+      706
+    ],
+    "original_sha256": "1aaccdd778b56e86e672a7ea8faf55c0aad3d1a6841e89ce4fc493655e159b09",
+    "generated_sha256": "e0c4799c81a6244b4f6ac2f5fa82e45bc974da070907e2e0205abee8612d4b5a",
+    "source_to_generated_alignment": [
+      0.8947307229099485,
+      0.8846795669311779,
+      1.8052871702325177,
+      1.824443832981321
+    ],
+    "protected_source_region": [
+      0,
+      0,
+      1379,
+      1112
+    ]
+  },
+  "82": {
+    "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-082.svg",
+    "reason": "Retain complete crown/cap and lower anatomy with height-fit and right background extension",
+    "retained_source_bytes": true,
+    "source_crop": 0,
+    "generated_content": "Right edge only; original image retained in native SVG",
+    "frame_placement": [
+      14,
+      146,
+      1033,
+      706
+    ],
+    "original_sha256": "ff080e410498933b05952acf73ed3931f6bb270cac40923bf44ab910a2ba9e81",
+    "generated_sha256": "2e7be0358f65eb061fde720fb2fe151cccf0c33dcb3a835a92685a38aeb80324",
+    "source_to_generated_alignment": [
+      0.9032638353470935,
+      0.9108183116827973,
+      6.531197301731564,
+      0.5064431106569977
+    ],
+    "protected_source_region": [
+      0,
+      0,
+      1379,
+      1113
+    ]
+  },
+  "84": {
+    "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-084.svg",
+    "reason": "Retain complete crown/cap and lower anatomy with height-fit and right background extension",
+    "retained_source_bytes": true,
+    "source_crop": 0,
+    "generated_content": "Right edge only; original image retained in native SVG",
+    "frame_placement": [
+      14,
+      146,
+      1033,
+      706
+    ],
+    "original_sha256": "5024f756be79520edebb5fbae9ff0c9a2475ec49fd70112b25830961ffba1763",
+    "generated_sha256": "46c551f3c04a7c2c2aa9c9c49aca4464e4c821a2098722d572018106362cf1c1",
+    "source_to_generated_alignment": [
+      0.88591866314059,
+      0.8939587823568104,
+      -55.67488930717768,
+      3.4447895571907257
+    ],
+    "protected_source_region": [
+      0,
+      0,
+      1379,
+      1112
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1033" height="706" viewBox="0 0 1755 1199.4482090997096"><defs>
+<linearGradient id="left-join" x1="125" x2="137" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+<linearGradient id="right-join" x1="1618" x2="1630" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="black"/><stop offset="1" stop-color="white"/></linearGradient>
+<linearGradient id="bottom-join" x1="0" x2="0" y1="1033" y2="1045" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="black"/><stop offset="1" stop-color="white"/></linearGradient>
+<mask id="allowed-edge-transition" maskUnits="userSpaceOnUse" x="125" y="0" width="1505" height="1045">
+<path d="M125 0H137V410H125Z M125 800H137V1010H125Z" fill="url(#left-join)"/>
+<path d="M1618 0H1630V435H1618Z M1618 810H1630V1033H1618Z" fill="url(#right-join)"/>
+<rect x="125" y="1033" width="1505" height="12" fill="url(#bottom-join)"/>
+</mask></defs>
+<image id="generated-edge-backing" x="0" y="0" width="1755" height="1199.4482090997096" preserveAspectRatio="none" xlink:href="../assets/efe440ea97889fe4cc7af811b3279999b82d02dd30b079739d8205d9a3275a37.png"/>
+<image id="unmasked-retained-original" x="125" y="0" width="1505" height="1045" xlink:href="../assets/f6ba485bc28a5a9e2e3ff6a9651e514caae0af78180e2acd4bfb337436105e5c.png"/>
+<image id="localized-seam-transition" x="0" y="0" width="1755" height="1199.4482090997096" preserveAspectRatio="none" mask="url(#allowed-edge-transition)" xlink:href="../assets/efe440ea97889fe4cc7af811b3279999b82d02dd30b079739d8205d9a3275a37.png"/>
+</svg>

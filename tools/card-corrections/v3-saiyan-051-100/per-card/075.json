@@ -1,0 +1,128 @@
+{
+  "number": 75,
+  "id": "saiyan-075-earth-dragon-ball-3",
+  "name": "Earth Dragon Ball 3",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-075-earth-dragon-ball-3.svg",
+  "native_source_sha256": "5beda51bc25c5fe35726205b26db04f0098312ef3df0c364851b5e7e933f2ce2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438.png",
+      "sha256": "2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438"
+    }
+  ],
+  "artwork": {
+    "mode": "approved V3 full-art Shenron",
+    "approved_full_art_redesign": true,
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "dragon_ball_number": 3,
+    "star_geometry_source": "/workspace/scratch/deb30d30aa10/next50-retained/base-051-100/Saiyan-Saga-051-100/masters/saiyan-075-earth-dragon-ball-3.svg",
+    "source_native_sha256": "11298d4f1c3adf72900d79d56ebc683f23c695d349bfe372d03079069a55c6eb"
+  },
+  "rules": [
+    {
+      "text": "Draw 3 cards. Place the top card of your discard",
+      "baseline": 1049.3,
+      "width": 856.2259999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "pile on the bottom of your Life Deck.",
+      "baseline": 1108.3,
+      "width": 643.566,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        244.724,
+        44.5,
+        569.551,
+        69.0
+      ],
+      "card-category": [
+        338.814,
+        891.391,
+        381.372,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        41.128,
+        33.708
+      ],
+      "rules-line-1": [
+        103.396,
+        1013.53,
+        852.208,
+        45.521
+      ],
+      "rules-line-2": [
+        209.505,
+        1072.53,
+        639.989,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-075-earth-dragon-ball-3.webp",
+      "before_url": "/assets/cards/saiyan-075-earth-dragon-ball-3.webp?v=81979300da3c",
+      "before_sha256": "81979300da3cb7ca5ac407289887f45200acb8ccea2402adb099dadf8bbf739d",
+      "after_sha256": "692028814b5fc531320de456355e5c4364eeafddeea89a1a2eddfb44cbb89ea9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp",
+      "before_url": "/assets/cards/downloads/saiyan-075-earth-dragon-ball-3.webp?v=73c038c92a4c",
+      "before_sha256": "73c038c92a4c0c2672271d500ba3a5f00c54ff093a8ff68bbc17a69c8eb3e830",
+      "after_sha256": "61451cb14bdc7ee9af043b6df92dc038c8079cc32b87c834d617013d6586f1bf",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

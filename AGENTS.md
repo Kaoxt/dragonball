@@ -1,6 +1,6 @@
 # Card production
 
-V3: Saiyan Saga cards 001–050 now use the approved brush-theme masters. Read `tools/card-templates/v3/README.md` before any V3 edit. Preserve the native V3 coordinates, outlined fonts, genuine brush transparency, and shared title/category/rules/footer geometry. Do not run V2 title or category finalizers on V3. V3 release evidence is in `tools/card-corrections/v3-saiyan-001-050/audit.json`; `tests/card-v3.test.js` verifies both exports and their native sources. `templateVersion: 3` explicitly distinguishes migrated cards; all others retain their established version.
+V3: Saiyan Saga cards 001–100 now use the approved brush-theme masters. Read `tools/card-templates/v3/README.md` before any V3 edit. Preserve the native V3 coordinates, outlined fonts, genuine brush transparency, and shared title/category/rules/footer geometry. Do not run V2 title or category finalizers on V3. V3 release evidence is in `tools/card-corrections/v3-saiyan-001-050/audit.json` and `tools/card-corrections/v3-saiyan-051-100/audit.json`; `tests/card-v3.test.js` verifies both exports and their native sources. `templateVersion: 3` explicitly distinguishes migrated cards; all others retain their established version.
 
 ## Retained V2 cards
 

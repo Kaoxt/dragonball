@@ -1,0 +1,165 @@
+{
+  "number": 64,
+  "id": "saiyan-064-blue-ground-holding",
+  "name": "Blue Ground Holding",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-064-blue-ground-holding.svg",
+  "native_source_sha256": "62335c9a808c7a0d8c5736ad4a92d10b65f22982e5830a2605e347c82afb65e3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e9057661655c6ce8258cf5c0283770fe52d471f49e9376e973e778e0f053a1b7.png",
+      "sha256": "e9057661655c6ce8258cf5c0283770fe52d471f49e9376e973e778e0f053a1b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "08d8bd51199e3a3a15cc22f589f8b9046eb8a87a2222fa195c8eb7a8689ffe9e",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Lower your",
+      "baseline": 1049.3,
+      "width": 685.290947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "opponent\u2019s anger 1 level.",
+      "baseline": 1108.3,
+      "width": 437.4720000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        226.829,
+        44.5,
+        605.342,
+        69.0
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        45.792,
+        33.708
+      ],
+      "rules-line-1": [
+        237.733,
+        1013.53,
+        634.227,
+        45.521
+      ],
+      "rules-line-2": [
+        312.308,
+        1074.0,
+        434.385,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          237.733,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          187.041,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-064-blue-ground-holding.webp",
+      "before_url": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=038aa4150037",
+      "before_sha256": "038aa41500375317265563b552f6535d09661357ed6a8c84f86a1845dc5a89a9",
+      "after_sha256": "565aef9848a318c18f17fd577e9596eea1826356a6f428b654e0dc5f3e51e959",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-064-blue-ground-holding.webp",
+      "before_url": "/assets/cards/downloads/saiyan-064-blue-ground-holding.webp?v=5c6ccca7a4cc",
+      "before_sha256": "5c6ccca7a4cc00c31802479b7974afbc78afe55ed05a8ddead1f2b5b775a36d8",
+      "after_sha256": "8d0bde6851ff481a8204a978b50e752e3ad7ad7d5923b428546c61ed97fc0741",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

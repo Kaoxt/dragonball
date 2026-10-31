@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "cards": 50,
+  "display_images": 50,
+  "full_resolution_downloads": 50,
+  "all_native_sources_and_dependencies_match_hashes": true,
+  "all_images_decode": true,
+  "all_display_pixels_match_resized_lossless_download": true,
+  "unrelated_catalog_records_unchanged": 849,
+  "artwork_resolution": {
+    "53": "Ear stud removed; ear contour matches original.",
+    "57": "Missing right hand restored through localized right-edge continuation; original face and pose retained.",
+    "65": "Original closed smile restored.",
+    "74": "Composite viewport scaling corrected; both full fists visible.",
+    "78": "Existing reflected face recovered by top alignment.",
+    "82": "Full crown and source-visible boots retained by height fitting, with right background extension.",
+    "84": "Full cap and hip hand retained; approved closed-eye expression patch preserved.",
+    "89": "Heads and shoes preserved in complete artwork; added side ground stays background-only.",
+    "100": "Closed-mouth smirk restored by localized mouth patch."
+  },
+  "scope_limit": "Small or obscured original details retain recorded uncertainty; original fidelity is not inferred from export hashes.",
+  "site_tests": {
+    "javascript_passed": 172,
+    "javascript_failed": 0,
+    "python_card_reference_passed": 6
+  }
+}

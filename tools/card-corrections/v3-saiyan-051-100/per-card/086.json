@@ -1,0 +1,250 @@
+{
+  "number": 86,
+  "id": "saiyan-086-chi-chi",
+  "name": "Chi-Chi",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-086-chi-chi.svg",
+  "native_source_sha256": "a649d6ce8f49bfcebae5b3d7c48d0b7c209be0112c152f4ed48c84bcfbf4782b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bf9b133a961c2b4c47147c3c03249d50cfe8e47839c644dedc2ae0944c198b80.png",
+      "sha256": "bf9b133a961c2b4c47147c3c03249d50cfe8e47839c644dedc2ae0944c198b80"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "af04d8c96592a44a7146dc16e28c32aa6c1b366319fe5b0520ed205af1ab6723",
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Once per turn, stop a physical attack against",
+      "baseline": 1049.3,
+      "width": 845.8149473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Gohan or Goku. You may use this power",
+      "baseline": 1108.3,
+      "width": 699.5730000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "regardless of your MP's current stage.",
+      "baseline": 1167.3,
+      "width": 676.5920000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.526,
+        160.009,
+        89.474,
+        38.269
+      ],
+      "power-stage-value-1": [
+        967.594,
+        224.691,
+        63.406,
+        31.164
+      ],
+      "power-stage-value-2": [
+        967.545,
+        289.373,
+        63.455,
+        31.164
+      ],
+      "power-stage-value-3": [
+        970.24,
+        354.054,
+        60.76,
+        31.164
+      ],
+      "power-stage-value-4": [
+        967.888,
+        418.736,
+        63.112,
+        31.164
+      ],
+      "power-stage-value-5": [
+        968.182,
+        483.418,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-6": [
+        966.271,
+        548.1,
+        64.729,
+        31.164
+      ],
+      "power-stage-value-7": [
+        968.182,
+        612.782,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-8": [
+        968.868,
+        677.463,
+        62.132,
+        31.164
+      ],
+      "power-stage-value-9": [
+        974.748,
+        742.145,
+        56.252,
+        31.164
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        422.903,
+        50.2213,
+        213.195,
+        57.5574
+      ],
+      "card-category": [
+        263.52,
+        891.391,
+        531.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        158.093,
+        1013.53,
+        793.849,
+        45.913
+      ],
+      "rules-line-2": [
+        180.733,
+        1072.53,
+        697.535,
+        45.521
+      ],
+      "rules-line-3": [
+        192.919,
+        1132.85,
+        673.162,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "O",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          107.058,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          158.093,
+          1014.61,
+          19.845,
+          35.084
+        ],
+        "new_visible_bounds": [
+          107.058,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-086-chi-chi.webp",
+      "before_url": "/assets/cards/saiyan-086-chi-chi.webp?v=af2eb4d7bd32",
+      "before_sha256": "af2eb4d7bd32e2e57bb7c918ae1a9db431a49cd08697d890405b7192f93c9fe7",
+      "after_sha256": "262a7b36be82718223e62d42dff131f0f7e4551c53ec6f337524c597300e7637",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-086-chi-chi.webp",
+      "before_url": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=0ec3177af46f",
+      "before_sha256": "0ec3177af46f2d68cfb66091d8b7454a5f7e3e2364cf46dc04721b76fe7b5d56",
+      "after_sha256": "97d6451bf2bc390124dc3f7051ff86f555975b4e7081b3109745bba3bab1c4c6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

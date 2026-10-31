@@ -1,0 +1,152 @@
+{
+  "number": 77,
+  "id": "saiyan-077-earth-dragon-ball-5",
+  "name": "Earth Dragon Ball 5",
+  "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-077-earth-dragon-ball-5.svg",
+  "native_source_sha256": "aea5753f2c4fbda03a95b2a87949b960c06e4a4a994e7654d2aa41929457940f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438.png",
+      "sha256": "2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438"
+    }
+  ],
+  "artwork": {
+    "mode": "approved V3 full-art Shenron",
+    "approved_full_art_redesign": true,
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "dragon_ball_number": 5,
+    "star_geometry_source": "/workspace/scratch/deb30d30aa10/next50-retained/base-051-100/Saiyan-Saga-051-100/masters/saiyan-077-earth-dragon-ball-5.svg",
+    "source_native_sha256": "94a303ef8797f7279332e7591e9ede08908f70f0cee5f94ad71a98d0b67aa135"
+  },
+  "rules": [
+    {
+      "text": "Raise 1 of your personalities to its highest stage.",
+      "baseline": 1049.3,
+      "width": 861.5179999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 2 levels. Draw 2 cards. Place the",
+      "baseline": 1108.3,
+      "width": 884.8419999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "top 2 cards of your discard pile on the bottom of",
+      "baseline": 1167.3,
+      "width": 856.6179999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck.",
+      "baseline": 1226.3,
+      "width": 266.21700000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        243.778,
+        44.5,
+        571.444,
+        69.0
+      ],
+      "card-category": [
+        338.814,
+        891.391,
+        381.372,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        38.69,
+        33.708
+      ],
+      "rules-line-1": [
+        100.603,
+        1013.53,
+        857.794,
+        45.913
+      ],
+      "rules-line-2": [
+        88.8185,
+        1072.53,
+        881.363,
+        45.913
+      ],
+      "rules-line-3": [
+        102.024,
+        1131.53,
+        854.952,
+        45.521
+      ],
+      "rules-line-4": [
+        397.494,
+        1190.53,
+        264.012,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-077-earth-dragon-ball-5.webp",
+      "before_url": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=ff99de719d9e",
+      "before_sha256": "ff99de719d9ecd7bd8d1dedf37ba3c02ebfe64cdb12f2b3ff98f0a50b134dc96",
+      "after_sha256": "f9c996acafca245f10b3dfe5ffd5871380b3148397f55f49c8d8ca962aef5354",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp",
+      "before_url": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=49cab767380c",
+      "before_sha256": "49cab767380c764ebfcef7eab8f9543322f1a65e6d17405d3eca4a8ba3a66604",
+      "after_sha256": "6223e8cc0b1e1dc932ce24670df7891f557a5eab10b0e6622fdb057dc0abb309",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}
