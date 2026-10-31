@@ -1,0 +1,165 @@
+{
+  "number": 122,
+  "id": "saiyan-122-yajirobes-energy-attack",
+  "name": "Yajirobe's Energy Attack",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-122-yajirobes-energy-attack.svg",
+  "native_source_sha256": "ce784379e4f1425e7ebb040da1898f9dda8647618a2937be1e457c90eaf9c6c7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bf2f7919e6a3e7a033b5db4e74a247f8372182654d053380bcce29f8a4904e57.png",
+      "sha256": "bf2f7919e6a3e7a033b5db4e74a247f8372182654d053380bcce29f8a4904e57"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "e97a16e14aacfd70de251300038cb10b5515889d221b49d0bd4ffa6339ed979f",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 1 life",
+      "baseline": 1049.3,
+      "width": 869.0241555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "card. Banish after use.",
+      "baseline": 1108.3,
+      "width": 403.07400000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        157.829,
+        44.5,
+        743.342,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        56.922,
+        33.708
+      ],
+      "rules-line-1": [
+        150.245,
+        1013.53,
+        813.106,
+        45.913
+      ],
+      "rules-line-2": [
+        329.506,
+        1072.53,
+        399.987,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          95.6494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          150.245,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          95.6494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-122-yajirobes-energy-attack.webp",
+      "before_url": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=ac925d71ebf2",
+      "before_sha256": "ac925d71ebf25ab2e0628c8a5147d48e3e28fdb7a898adb8d31dd82e3ce87b5d",
+      "after_sha256": "ced628fff68443e14989ccc1319f5321f49bdca87e398093a85af22b720827a7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-122-yajirobes-energy-attack.webp",
+      "before_url": "/assets/cards/downloads/saiyan-122-yajirobes-energy-attack.webp?v=39ed0f54b985",
+      "before_sha256": "39ed0f54b985bfac75e87769453f59f05533b2158fd63dac497e5b2bf04b6559",
+      "after_sha256": "413e6f4b8546231ff74602cf2da3c79f59fd244ef92595241ccecbc5f78e983f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

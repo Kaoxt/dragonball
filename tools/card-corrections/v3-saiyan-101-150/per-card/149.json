@@ -1,0 +1,197 @@
+{
+  "number": 149,
+  "id": "saiyan-149-meditation-drill",
+  "name": "Meditation Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-149-meditation-drill.svg",
+  "native_source_sha256": "579c576ebafaccd836ab65fdbad17b17e4a532223cbff42fa70b8fde1cf1d1e4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958.png",
+      "sha256": "97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ae55dde22519c08b70ee23759ba9f7ecc6c51dadc2f6dba812b11f32833a608b.png",
+      "sha256": "ae55dde22519c08b70ee23759ba9f7ecc6c51dadc2f6dba812b11f32833a608b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-149.svg",
+      "reason": "Recover full reference-visible boots and fingertips using top/right edge continuation while preserving original face, body and hand pixels",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "top-right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "ae55dde22519c08b70ee23759ba9f7ecc6c51dadc2f6dba812b11f32833a608b",
+      "generated_sha256": "97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958",
+      "source_to_generated_alignment": [
+        0.8044239101489784,
+        0.7828688426696456,
+        10.181811182875153,
+        149.63555996609134
+      ],
+      "alignment_error": 0.009478741714625125,
+      "protected_source_region": [
+        0,
+        35,
+        1379,
+        1078
+      ],
+      "viewBox": [
+        0,
+        -130,
+        1818.7237960339944,
+        1243
+      ]
+    },
+    "source_native_sha256": "befca12baf0005ee7123ccf13619830fb08d06f1f1ed4d990894b41079d913aa",
+    "expression_patch_retained": false,
+    "retained_full_subject": true,
+    "source_height_fitted": true
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, you may shuffle your",
+      "baseline": 1049.3,
+      "width": 888.8085789473683,
+      "icon_inline": true
+    },
+    {
+      "text": "Life Deck or your discard pile.",
+      "baseline": 1108.3,
+      "width": 530.964,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        300.647,
+        50.2213,
+        457.706,
+        57.5574
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        177.693,
+        1013.53,
+        796.025,
+        45.913
+      ],
+      "rules-line-2": [
+        265.88,
+        1072.53,
+        527.24,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          85.2819,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          177.693,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          85.2819,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-149-meditation-drill.webp",
+      "before_url": "/assets/cards/saiyan-149-meditation-drill.webp?v=bcc24da23d9f",
+      "before_sha256": "bcc24da23d9f50baed55f7bd95d98d7d035db2fddbecdfca70c53f0bee18e76e",
+      "after_sha256": "2e9080d6fd49ce3b7d2c628e1a244f02425e90498e919a86b1158a855e043401",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-149-meditation-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-149-meditation-drill.webp?v=ca9032e59812",
+      "before_sha256": "ca9032e598125fea29c5c6ce2a5e8f5ee4575454c5dc53cbb4b6b5b6dc579332",
+      "after_sha256": "a2ee0bbfd964003727eeb0337e56887752ddf3179e6a135756d4a0a80276a2a5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

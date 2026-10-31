@@ -1,0 +1,153 @@
+{
+  "number": 110,
+  "id": "saiyan-110-piccolos-physical-defense",
+  "name": "Piccolo's Physical Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-110-piccolos-physical-defense.svg",
+  "native_source_sha256": "491912e790e7101e90236a5d765a6526b88295bbfd03c4c27c4605a8bee22655",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/91ec1d6103348e9eeb2e51ebb5f315a3bd43da93f0ecc1788608db4b1bac83ed.png",
+      "sha256": "91ec1d6103348e9eeb2e51ebb5f315a3bd43da93f0ecc1788608db4b1bac83ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "c81604d4d26a61aceae21ac85d94b94adf20cefd5c5def14eb4a59c707c1625e",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Gain 4 stages.",
+      "baseline": 1049.3,
+      "width": 736.593947368421,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        125.007,
+        44.5,
+        808.986,
+        69.0
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        212.679,
+        1013.53,
+        684.334,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          161.987,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          212.679,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          161.987,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-110-piccolos-physical-defense.webp",
+      "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=a5b95f65cd03",
+      "before_sha256": "a5b95f65cd03c6eef8d4eb6e11a063cfc0d1b8e8010e551f6d281a94a03c8050",
+      "after_sha256": "01fed74b4f0e24629c2d881a5c7b17103ecb37b0f413acd9303f92e8e5026d95",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=1bb053450947",
+      "before_sha256": "1bb0534509474be729bacf7d2e8f0f0389c13ce5fcb78d916fb886b029a1e00e",
+      "after_sha256": "c56789a04133680f8172b061607d155c8792de356348c3da79ccf0870d207d38",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

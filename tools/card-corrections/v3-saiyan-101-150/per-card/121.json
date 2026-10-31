@@ -1,0 +1,177 @@
+{
+  "number": 121,
+  "id": "saiyan-121-nappas-physical-resistance",
+  "name": "Nappa's Physical Resistance",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-121-nappas-physical-resistance.svg",
+  "native_source_sha256": "4e9cf253b1fdfa9f1c8d7ab2f0560589d25de8eb7effac7a01174a9e468b1474",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9076b9528a35e76823ed06e6b4ffa55b4a5514e6d6012b79ff66ea0a2ba00065.png",
+      "sha256": "9076b9528a35e76823ed06e6b4ffa55b4a5514e6d6012b79ff66ea0a2ba00065"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "1d03115f577a7a878d15eb29213e9e3d3227c4643e02a36ad699df51a51d5bf3",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Stops all physical",
+      "baseline": 1049.3,
+      "width": 796.128947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you for the rest of Combat.",
+      "baseline": 1108.3,
+      "width": 764.89,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        97.7338,
+        44.5,
+        863.532,
+        69.0
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        49.343,
+        33.708
+      ],
+      "rules-line-1": [
+        182.96,
+        1013.53,
+        743.771,
+        45.521
+      ],
+      "rules-line-2": [
+        148.403,
+        1072.53,
+        762.195,
+        45.913
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          132.269,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          182.96,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          132.269,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-121-nappas-physical-resistance.webp",
+      "before_url": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=6dcc67cc1670",
+      "before_sha256": "6dcc67cc1670ab5d3678a3996a8e366b2642c23c54679010377204205934879f",
+      "after_sha256": "922b5df839cc389ea67e7ee6e3075b7d683c368aa955e8f8e07a55feae9676ff",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-121-nappas-physical-resistance.webp",
+      "before_url": "/assets/cards/downloads/saiyan-121-nappas-physical-resistance.webp?v=d02ba3728ad7",
+      "before_sha256": "d02ba3728ad748801df2fbffcb7e6f8419244551d87267197fd5112fbdda1837",
+      "after_sha256": "3d19cf5c97c5891b38c5e8d28ae2df8fab62d90f9dd8fec77d3a625d7f056099",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "number": 101,
+  "id": "saiyan-101-goku-honor-duel",
+  "name": "Goku Honor Duel!",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-101-goku-honor-duel.svg",
+  "native_source_sha256": "c2f027fc479863edab1cc224dfe132c61caec57f4219a013dc5d9bf8da94dfb4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0993a3f7375a08f11e9f2eb5ad42555720a02a9982124cddae7b24ff0365123b.png",
+      "sha256": "0993a3f7375a08f11e9f2eb5ad42555720a02a9982124cddae7b24ff0365123b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "c9d2b6bebc97b584195ae3963532b1f90fea97a54fbd323c3ae82a3943ae9631",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Use when entering Combat as the defender.",
+      "baseline": 1049.3,
+      "width": 774.0039999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Instead of drawing 3 cards from your Life Deck,",
+      "baseline": 1108.3,
+      "width": 844.711,
+      "icon_inline": false
+    },
+    {
+      "text": "draw the bottom 3 cards of your discard pile.",
+      "baseline": 1167.3,
+      "width": 799.729,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        271.911,
+        50.2213,
+        515.177,
+        57.5574
+      ],
+      "card-category": [
+        440.072,
+        891.391,
+        178.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        51.675,
+        33.708
+      ],
+      "rules-line-1": [
+        144.287,
+        1013.53,
+        770.427,
+        45.913
+      ],
+      "rules-line-2": [
+        109.043,
+        1072.53,
+        840.915,
+        45.913
+      ],
+      "rules-line-3": [
+        131.179,
+        1131.53,
+        796.642,
+        45.521
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-101-goku-honor-duel.webp",
+      "before_url": "/assets/cards/saiyan-101-goku-honor-duel.webp?v=aac2b19b4ec6",
+      "before_sha256": "aac2b19b4ec680549d916a357039e5d7fd5e4665c5e759f88b13c3e4ac88afcb",
+      "after_sha256": "cc59fb59077ebc817f030712e33172e78ed1ce43fd73b475a05f326ffc326058",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-101-goku-honor-duel.webp",
+      "before_url": "/assets/cards/downloads/saiyan-101-goku-honor-duel.webp?v=cd09ede2bf2c",
+      "before_sha256": "cd09ede2bf2ca0603b6f67b4c82f9d254c7bc20e96704768c059673df4521ce4",
+      "after_sha256": "6dd2db8fbf68c02c945897a364b186ce98d9722825797a0cead80f7963f46172",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

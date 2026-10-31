@@ -1,0 +1,159 @@
+{
+  "number": 103,
+  "id": "saiyan-103-piccolo-honor-duel",
+  "name": "Piccolo Honor Duel!",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-103-piccolo-honor-duel.svg",
+  "native_source_sha256": "1a93619af4e50364e1cf4b26e4fe46ea3d9ebf99eded4395f2c24883b865c41e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697.png",
+      "sha256": "da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "1a68c5d282213748071eb76aa5bbd92a0ca89232519d6d8117832eefe2be29ac",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Use when entering Combat as the defender.",
+      "baseline": 1049.3,
+      "width": 774.0039999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Instead of drawing 3 cards from your Life Deck,",
+      "baseline": 1108.3,
+      "width": 844.711,
+      "icon_inline": false
+    },
+    {
+      "text": "draw the bottom 3 cards of your discard pile.",
+      "baseline": 1167.3,
+      "width": 799.729,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        235.906,
+        50.2213,
+        587.188,
+        57.5574
+      ],
+      "card-category": [
+        440.072,
+        891.391,
+        178.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.413,
+        33.708
+      ],
+      "rules-line-1": [
+        144.287,
+        1013.53,
+        770.427,
+        45.913
+      ],
+      "rules-line-2": [
+        109.043,
+        1072.53,
+        840.915,
+        45.913
+      ],
+      "rules-line-3": [
+        131.179,
+        1131.53,
+        796.642,
+        45.521
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-103-piccolo-honor-duel.webp",
+      "before_url": "/assets/cards/saiyan-103-piccolo-honor-duel.webp?v=60e22b580637",
+      "before_sha256": "60e22b580637f52f9034d912ca1b5bbd8f1d433804f61099f4319d35a30a996d",
+      "after_sha256": "0260bbe30f2a9f001e7a122f194ffda671b5ddf086ab6c18adff8d448adcff12",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp",
+      "before_url": "/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp?v=f2ec0d5bd6d4",
+      "before_sha256": "f2ec0d5bd6d4f102abb15530d94c115b4d084e9c17f2f0eff0bc63dd7d7bedbc",
+      "after_sha256": "916bb80f150a3102aaa0837ae9380ebed6a345b7b37ff636b2998ff158675111",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

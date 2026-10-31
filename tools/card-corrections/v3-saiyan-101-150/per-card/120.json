@@ -1,0 +1,177 @@
+{
+  "number": 120,
+  "id": "saiyan-120-nappas-energy-aura",
+  "name": "Nappa's Energy Aura",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-120-nappas-energy-aura.svg",
+  "native_source_sha256": "2f10caf99168100278fa44c370c8e5b2ab8b9ccd60c4e235af3bc0ad350ca16c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624.png",
+      "sha256": "794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "a07af0980c8d317a8d17920139a54cae79aab426d9630ef83c5ca28aa227d5d3",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. Stops all energy",
+      "baseline": 1049.3,
+      "width": 765.993947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you for the rest of Combat.",
+      "baseline": 1108.3,
+      "width": 764.89,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        220.291,
+        45.9196,
+        618.419,
+        66.1608
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        197.525,
+        1014.61,
+        714.642,
+        44.835
+      ],
+      "rules-line-2": [
+        148.403,
+        1072.53,
+        762.195,
+        45.913
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          146.833,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          197.525,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          146.833,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-120-nappas-energy-aura.webp",
+      "before_url": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=e18e46ce92be",
+      "before_sha256": "e18e46ce92bef2254c26f999a78a73ba994a663a32a11fadadbb4d7ca07714c7",
+      "after_sha256": "1fc3ab1af01d45ea7c803f715712f91c5902531a57506aa7f94791cae09983d1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp",
+      "before_url": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=924513d3f0b0",
+      "before_sha256": "924513d3f0b0b2787c6616bbe244ba1e24a016e2d7328ae24073fd39ab22975e",
+      "after_sha256": "2cc2404a609facf5dbbdf51e71da6e39805fd86f4d597e77e144474c5a40f475",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

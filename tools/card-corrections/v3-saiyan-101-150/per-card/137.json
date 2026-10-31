@@ -1,0 +1,177 @@
+{
+  "number": 137,
+  "id": "saiyan-137-orange-spontaneous-drill",
+  "name": "Orange Spontaneous Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-137-orange-spontaneous-drill.svg",
+  "native_source_sha256": "ea3f238386786e8d0afcd37caff77e67580f35db63eb30808705d88fdfb38018",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b2bf8850bdda05aa08879b0ac1765d695870f2bb84efac36a27c9757f812e7ad.png",
+      "sha256": "b2bf8850bdda05aa08879b0ac1765d695870f2bb84efac36a27c9757f812e7ad"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "f1a428199b8d166ab8fc91680426387d4c3852f17362e2e31e7a122ee6897752",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "After taking damage from a physical attack,",
+      "baseline": 1049.3,
+      "width": 875.6275789473685,
+      "icon_inline": true
+    },
+    {
+      "text": "you may draw the bottom card of your discard",
+      "baseline": 1108.3,
+      "width": 822.906,
+      "icon_inline": false
+    },
+    {
+      "text": "pile.",
+      "baseline": 1167.3,
+      "width": 75.215,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.398,
+        44.5,
+        760.204,
+        69.0
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        56.657,
+        33.708
+      ],
+      "rules-line-1": [
+        184.596,
+        1013.53,
+        781.898,
+        45.913
+      ],
+      "rules-line-2": [
+        119.297,
+        1072.53,
+        820.407,
+        45.521
+      ],
+      "rules-line-3": [
+        493.681,
+        1131.53,
+        71.638,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          92.5062,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          184.596,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          92.5062,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-137-orange-spontaneous-drill.webp",
+      "before_url": "/assets/cards/saiyan-137-orange-spontaneous-drill.webp?v=e336ba16acce",
+      "before_sha256": "e336ba16acce202168e169e5a3f87e8073eccb7f7f75b93e4d5aaac3a08c4429",
+      "after_sha256": "5b6ad83e0fe2c1700bc4d68030e6f4d53202b1b9789052665f1bf6f02e0391d0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-137-orange-spontaneous-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-137-orange-spontaneous-drill.webp?v=cf6308e84c8f",
+      "before_sha256": "cf6308e84c8fd8e3f4031638a2a72471dd5d3e4be51a67ae0cd232fe68391924",
+      "after_sha256": "581d96db3571d9464b6d5144b174fb9ff2c14efe0f4ffbd13cf60c441802af04",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

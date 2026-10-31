@@ -1,0 +1,177 @@
+{
+  "number": 139,
+  "id": "saiyan-139-red-wrist-control-drill",
+  "name": "Red Wrist Control Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-139-red-wrist-control-drill.svg",
+  "native_source_sha256": "a5938c4f40fc7d44b1aaa5ec97a125318507505432b737700b68a72599bc47ad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057.png",
+      "sha256": "3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "3e093fb49ab41dcd1bec049505de5cc9c51b8943e8efa21ee6fc37ec556e46c5",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "For every 3 stages you lose, your opponent",
+      "baseline": 1049.3,
+      "width": 854.6065789473683,
+      "icon_inline": true
+    },
+    {
+      "text": "loses 1 stage, to a minimum of 0. Extra stages do",
+      "baseline": 1108.3,
+      "width": 864.7029999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "not carry over between attacks.",
+      "baseline": 1167.3,
+      "width": 571.585,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        196.674,
+        50.2213,
+        665.652,
+        57.5574
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.883,
+        33.708
+      ],
+      "rules-line-1": [
+        196.25,
+        1015.0,
+        760.088,
+        44.443
+      ],
+      "rules-line-2": [
+        98.7165,
+        1072.53,
+        861.567,
+        45.913
+      ],
+      "rules-line-3": [
+        245.422,
+        1133.0,
+        568.155,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          102.662,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          196.25,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          102.662,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-139-red-wrist-control-drill.webp",
+      "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=6441a22760fa",
+      "before_sha256": "6441a22760fab8944d32ada024e73ab2952ce36c3ed7122d67ae169a233f4e0a",
+      "after_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=07e96031ba95",
+      "before_sha256": "07e96031ba950f88ee953b2bb349d0c6925425ef455b52e544bdf8f47358136b",
+      "after_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

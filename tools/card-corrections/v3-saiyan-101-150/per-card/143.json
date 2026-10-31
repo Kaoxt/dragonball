@@ -1,0 +1,177 @@
+{
+  "number": 143,
+  "id": "saiyan-143-black-physical-drill",
+  "name": "Black Physical Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-143-black-physical-drill.svg",
+  "native_source_sha256": "3b34d860581d4930028b97502f68107a4f71e974a32b2a95da3afd7ba1349273",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/85ebcc44f319349aa3c1cea6204c47889b9be9fac860c3d4a25f38f91bf90d1e.png",
+      "sha256": "85ebcc44f319349aa3c1cea6204c47889b9be9fac860c3d4a25f38f91bf90d1e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "8f80102c65b4856472e8774ce4d2580cfba3ae641d826af3e1b1b948eaa1aa54",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Reduce stage damage from all physical",
+      "baseline": 1049.3,
+      "width": 788.4565789473684,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you by 1, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 779.002,
+      "icon_inline": false
+    },
+    {
+      "text": "Cannot be used with any other Black Drill in play.",
+      "baseline": 1167.3,
+      "width": 864.556,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        240.982,
+        44.5,
+        577.036,
+        69.0
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.095,
+        33.708
+      ],
+      "rules-line-1": [
+        229.692,
+        1013.53,
+        693.203,
+        45.913
+      ],
+      "rules-line-2": [
+        141.347,
+        1072.53,
+        776.307,
+        45.913
+      ],
+      "rules-line-3": [
+        98.839,
+        1131.53,
+        861.322,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          136.105,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          229.692,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          136.105,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-143-black-physical-drill.webp",
+      "before_url": "/assets/cards/saiyan-143-black-physical-drill.webp?v=a60ea4015b99",
+      "before_sha256": "a60ea4015b991618349f0d1825e829c78a31f6fdb1b2cd4a56e225d3e211a238",
+      "after_sha256": "232fbc928f3bf2cd62af3a48213ac3136b0af85a29b52c21f62af766cf8ace03",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-143-black-physical-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-143-black-physical-drill.webp?v=fd960a61525f",
+      "before_sha256": "fd960a61525f5e3ed6be43d3c398f6b13bd340bff660ca9f25601f00a1618a5d",
+      "after_sha256": "3bf23a227669941232bb13fe47e52228f2e55381f5a66e58e6bdf0d435fef9a6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

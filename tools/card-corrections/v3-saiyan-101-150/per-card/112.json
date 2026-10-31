@@ -1,0 +1,171 @@
+{
+  "number": 112,
+  "id": "saiyan-112-krillins-physical-defense",
+  "name": "Krillin's Physical Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-112-krillins-physical-defense.svg",
+  "native_source_sha256": "9d4ee79648f0dac7396ea222ea0d699b6c1591b480ad4703ac411c997a07d3e2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9.png",
+      "sha256": "2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "690a08fd15a0674b524463ed9d20980a61dea7f5ad2cd2cbedd500faef17d9c3",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Use as a defense. If the attack deals life card",
+      "baseline": 1049.3,
+      "width": 802.718,
+      "icon_inline": false
+    },
+    {
+      "text": "damage to you, you may put the first life card of",
+      "baseline": 1108.3,
+      "width": 855.344,
+      "icon_inline": false
+    },
+    {
+      "text": "damage into your hand instead of discarding it. If",
+      "baseline": 1167.3,
+      "width": 874.0619999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "used by Krillin, keep this card in play to use 1",
+      "baseline": 1226.3,
+      "width": 795.172,
+      "icon_inline": false
+    },
+    {
+      "text": "more time this Combat.",
+      "baseline": 1285.3,
+      "width": 414.197,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        146.602,
+        44.5,
+        765.797,
+        69.0
+      ],
+      "card-category": [
+        441.596,
+        891.991,
+        175.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        50.297,
+        33.708
+      ],
+      "rules-line-1": [
+        130.077,
+        1013.53,
+        798.847,
+        36.162
+      ],
+      "rules-line-2": [
+        103.102,
+        1072.53,
+        852.796,
+        45.913
+      ],
+      "rules-line-3": [
+        93.743,
+        1131.53,
+        871.514,
+        45.913
+      ],
+      "rules-line-4": [
+        133.629,
+        1190.53,
+        791.742,
+        45.521
+      ],
+      "rules-line-5": [
+        324.092,
+        1249.53,
+        410.816,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-112-krillins-physical-defense.webp",
+      "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=d765dfadbad7",
+      "before_sha256": "d765dfadbad70c57a1ecefd697a9bff50400c80d6d41fbe7a0bf5cc49eecd7e5",
+      "after_sha256": "9b1264f4fcd6c7bb5b75fcf190f10531dabaa648af977f911df0b5884004533e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=443903e63c48",
+      "before_sha256": "443903e63c4860e2f268a1502f93ebba9f4180b0b7b3eac8235f26c208a9a0d5",
+      "after_sha256": "419a9db9320b9da1c1463f26270cf19f0900e53c3204245ab50c0e0551d6dbbc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

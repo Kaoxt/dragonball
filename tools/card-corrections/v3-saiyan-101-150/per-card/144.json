@@ -1,0 +1,165 @@
+{
+  "number": 144,
+  "id": "saiyan-144-red-coordination-drill",
+  "name": "Red Coordination Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-144-red-coordination-drill.svg",
+  "native_source_sha256": "486f9150c27222102cc3ad9038a7bb6efe1327b852160700434605aba2a8d43d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d0cd257849d76c241b93561259660d3c45fd9fcb878766c0fcc8f4a1f05ed74d.png",
+      "sha256": "d0cd257849d76c241b93561259660d3c45fd9fcb878766c0fcc8f4a1f05ed74d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "2a9805c0e11cda934dbefca549041a939a46fa406cd0067738040f1062d86b0c",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "When entering Combat as the defender, you",
+      "baseline": 1049.3,
+      "width": 867.8365789473685,
+      "icon_inline": true
+    },
+    {
+      "text": "may draw a card.",
+      "baseline": 1108.3,
+      "width": 308.21000000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        203.256,
+        50.2213,
+        652.489,
+        57.5574
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        62.381,
+        33.708
+      ],
+      "rules-line-1": [
+        188.924,
+        1013.53,
+        773.563,
+        45.913
+      ],
+      "rules-line-2": [
+        377.085,
+        1074.0,
+        304.829,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          96.5127,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          188.924,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          96.5127,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-144-red-coordination-drill.webp",
+      "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=bc7b59c3736d",
+      "before_sha256": "bc7b59c3736d0c1558e397b5a582a4d6cd3edc7957535ba4d3edf71168230f9d",
+      "after_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-144-red-coordination-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=7e0f9adb0460",
+      "before_sha256": "7e0f9adb04603b5a0ca6cad4dde7a3e2d16cc0ca55c83f52ae21cf87534cfbc0",
+      "after_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

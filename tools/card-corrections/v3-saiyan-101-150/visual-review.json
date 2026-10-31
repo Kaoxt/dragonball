@@ -1,0 +1,1141 @@
+[
+  {
+    "number": 101,
+    "id": "saiyan-101-goku-honor-duel",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-101.jpg",
+    "original_sha256": "a1005b360883848629fd5b2c40ddead96cb22c0c862c11855f026e7c5ed62606",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Downward action close-up, extended foreground hand, swept hair and purple speed background retained. Closed determined mouth; tiny original mouth detail is partly obscured.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "cc59fb59077ebc817f030712e33172e78ed1ce43fd73b475a05f326ffc326058",
+      "download_sha256": "6dd2db8fbf68c02c945897a364b186ce98d9722825797a0cead80f7963f46172",
+      "native_source_sha256": "c2f027fc479863edab1cc224dfe132c61caec57f4219a013dc5d9bf8da94dfb4",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 102,
+    "id": "saiyan-102-raditz-honor-duel",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-102.jpg",
+    "original_sha256": "564946f9a5775a94013ebb74f510ae2eb22cc47a1358f668d12b1054dd986aa7",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz aerial rear/underside kick retains segmented brown armor, tail, boot, black hair and right fist; partial Goku arms remain at left. Faces mostly obscured in original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "e3ed61423deab2f058982d4239659c192efbd5ea8904167e49907049baf30536",
+      "download_sha256": "337e992539ada1189219b25d6c076f5e09755328568fe364d33a160b453c1949",
+      "native_source_sha256": "857702ccb06910e92f940a344f21176b9460d2464055f709f3993265d80a37fa",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 103,
+    "id": "saiyan-103-piccolo-honor-duel",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-103.jpg",
+    "original_sha256": "b972932c5e3f259431668a0acc915d15fe602ce2e02c1c393fc5ed9d81f5edcf",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo frontal turban and cape, pink arm sections, stern closed mouth and deep teal cloud background retained. Printed original interface overlay is not part of illustration.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "0260bbe30f2a9f001e7a122f194ffda671b5ddf086ab6c18adff8d448adcff12",
+      "download_sha256": "916bb80f150a3102aaa0837ae9380ebed6a345b7b37ff636b2998ff158675111",
+      "native_source_sha256": "1a93619af4e50364e1cf4b26e4fe46ea3d9ebf99eded4395f2c24883b865c41e",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 104,
+    "id": "saiyan-104-chiaotzu",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-104.jpg",
+    "original_sha256": "0735af9c415a368db78bd161d3fa878a096b3bfec288946fa5b9139bc7b507d0",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Airborne Chiaotzu with startled eyes/open mouth, both hands, yellow boots, red cap and rocks. Full-height original art translated left of stages; only right background extended.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-104.svg",
+      "reason": "Center full personality to the left of the power stages, preserving all source-visible anatomy",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 145,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "c2c918bf4ce97d42ef42521ff0ad3923393b035ecaf806a0dee91816c6884ea1",
+      "generated_sha256": "26c76ea61a3b5949d0b9b5c8cbe889f8067fcd6962e717c97ced879b9c24e17e",
+      "source_to_generated_alignment": [
+        0.8110191029244336,
+        0.8641131462407535,
+        -23.97039215463432,
+        35.86686775047983
+      ],
+      "alignment_error": 0.013262846005961913,
+      "protected_source_region": [
+        0,
+        0,
+        1471,
+        1045
+      ],
+      "viewBox": [
+        145,
+        0,
+        1529.0155807365438,
+        1045
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "2688ace0652a063bd6e3b63c70b5f6e1e2e78dee7a87a657630f221d2b796b07",
+      "download_sha256": "6eadffab9689af3ebb95ebd4f0019135cda8b524ff4f0652c059d443a67c5a3c",
+      "native_source_sha256": "5a548a4bd6bf7e60a37da512d9e0fcd6428df65235c98ea64e3369a314e38526",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 105,
+    "id": "saiyan-105-chiaotzu",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-105.jpg",
+    "original_sha256": "3c55216109b409aec6d7c148640f551eea402da81dbcaf90c144ed48982808f3",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Crouching Chiaotzu, yellow energy ball, green/red vest, yellow sleeves, black pants and footwear retained. Corrected lower front-boot clipping using full-height placement and right-floor extension; banishment remains an attack cost.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-105.svg",
+      "reason": "Recover full front boot and center full-height Chiaotzu",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 130,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "71b44bfbcdc2366b13c1a33243b4e7bd4fb4859c87f769ca16f0b815df6adac5",
+      "generated_sha256": "8454aa6da95fec35cdbdd05e5c9e736872af497f0ce389185b456d23e2247160",
+      "source_to_generated_alignment": [
+        0.8964032661276857,
+        0.9197108003593196,
+        -120.9895816164688,
+        -0.6824791903247842
+      ],
+      "alignment_error": 0.010383188477815513,
+      "protected_source_region": [
+        0,
+        0,
+        1379,
+        1112
+      ],
+      "viewBox": [
+        130,
+        0,
+        1627.0481586402266,
+        1112
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "32ad513523773bd37855ab5a3b186b7c44c277ae8b73d287afa381a7234c55ab",
+      "download_sha256": "fefabc11474260998717517f7aacc13f68a7d9dd10324e849773314f6b5aae4c",
+      "native_source_sha256": "e04f66f0a3418a0ac80d2979f52dc2e1653a1190bd08d3053046be4b34ccb3cb",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 106,
+    "id": "saiyan-106-yajirobe",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-106.jpg",
+    "original_sha256": "b2867b8d3a003b2cbf997c0490c622effac6db3a34580228bec90fcce08deb0e",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Seated eating Yajirobe retains closed happy eyes, puffed cheeks, food bag, black wristbands, crossed feet, orange robe, column/wall/grass. Figure moved left of stages using background continuation.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-106.svg",
+      "reason": "Center full personality to the left of the power stages, preserving all source-visible anatomy",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 150,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "55f96a4532f0f81a0b396cce7e73061147259a5bc6951c567dba47a53c21d023",
+      "generated_sha256": "d4816f2d44aea501556427aa99f5b6f8ea2fa0517a52473753e45420a81290b7",
+      "source_to_generated_alignment": [
+        0.8155163335085464,
+        0.8475705430442173,
+        -11.263870549434214,
+        34.72336488834956
+      ],
+      "alignment_error": 0.009300370297540432,
+      "protected_source_region": [
+        0,
+        0,
+        1471,
+        1044
+      ],
+      "viewBox": [
+        150,
+        0,
+        1527.5524079320114,
+        1044
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "e750fa289cedda232db36c69b26d010c95cb4d87f6573370c8953403219a4342",
+      "download_sha256": "c010cbe0397ecb4c096b50efec494c039958921aed66d1ae48992a082c2e5a08",
+      "native_source_sha256": "89c85e579c6dae5ca237ad6ab448603331f33c141c691a22e36c913ff5018de3",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 107,
+    "id": "saiyan-107-yajirobe",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-107.jpg",
+    "original_sha256": "cb3a64be069ea9794174d3613043907749a666c21fdbb431640208e908eda9af",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Standing Yajirobe retains clasped hands, tiny round open mouth, raised brows, orange striped robe, leggings, sandals and sword. Figure centered left of stages using right background continuation.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-107.svg",
+      "reason": "Center full personality to the left of the power stages, preserving all source-visible anatomy",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 146,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "6397ded693f75724a5c1fa1ab60661f55e8bb9e82d3d976b156de5542bfd6f8a",
+      "generated_sha256": "56a58461867559c825a9650fcabf5fea16aca3cb92e83b9523d24244653a82d5",
+      "source_to_generated_alignment": [
+        0.8696354620652161,
+        0.8705503455982992,
+        -34.007274969897516,
+        5.911043234569175
+      ],
+      "alignment_error": 0.002297155819673133,
+      "protected_source_region": [
+        0,
+        0,
+        1455,
+        1056
+      ],
+      "viewBox": [
+        146,
+        0,
+        1545.1104815864023,
+        1056
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "cfc5f49d35a0d751ed189c7bdebc55e8092ebc6ce427ffa07f3fee8df04f395a",
+      "download_sha256": "4563a370b81ec00391f3b0ec27140e319fb03052ae085cee1dac42177edf66ce",
+      "native_source_sha256": "152f6bf48233883d55c4b85375f74a1d1b35b446b82af561cf401c906ea16c90",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 108,
+    "id": "saiyan-108-gokus-energy-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-108.jpg",
+    "original_sha256": "b6c95e134e707c8a6531555730c222688b08e6c68a7fa54591655692f5ef391c",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Shirtless Goku powering up retains shouting grimace, both fists, blue wristbands/boots, orange torn pants and white aura. Source-visible limbs remain in frame.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "252e1aca3eaa7ccd97dc08bdd7ce06435caadeb29dcc65ba06be557b8b5fbf42",
+      "download_sha256": "c2672cfdde651335a3b3a50bd2ed4c9bbaa0fef4210808fc8feb808465fd11f7",
+      "native_source_sha256": "77eada410f56e534d626fe3bc7fd8808db3884a2ac6e6acca181875a9c60385d",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 109,
+    "id": "saiyan-109-piccolos-energy-attack",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-109.jpg",
+    "original_sha256": "d127f2ed76e460e1b0a48e2356f204b30b0efa447aac8b4c350c0fc7180a0ab2",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo hit by Raditz boot retains closed-eye grimace, teeth, sweat, purple gi and pink arm; golden foreground boot and cloud background retained. Original upper head crop is intentional.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "950b78adaa46fd5b0f5c090f333334870f92c821c5ef061dc7f7a7448ff693cd",
+      "download_sha256": "2795d77e3f58769d81191bbc597b92caed364beb903516203fb713d0f258607d",
+      "native_source_sha256": "6bf4a128a97b3987df69c965be78294bd5822c1a7cab8f6feb978211042d17d5",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 110,
+    "id": "saiyan-110-piccolos-physical-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-110.jpg",
+    "original_sha256": "0c1bb883c967853b37113f7e9bca8e88e2a487d6d4b0997aad035be8cd9e46c4",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo holding opposite arm retains closed tense mouth, narrowed eyes, pink arm sections, purple gi and snowy mountains. Original head-top crop retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "01fed74b4f0e24629c2d881a5c7b17103ecb37b0f413acd9303f92e8e5026d95",
+      "download_sha256": "c56789a04133680f8172b061607d155c8792de356348c3da79ccf0870d207d38",
+      "native_source_sha256": "491912e790e7101e90236a5d765a6526b88295bbfd03c4c27c4605a8bee22655",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 111,
+    "id": "saiyan-111-gohans-energy-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-111.jpg",
+    "original_sha256": "1aba81bc10b434b32f0d41d358cd4cfe21b8d7b4ce077d68a72bb20a320feea6",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo in cape/turban grabs Gohan's head; Gohan orange costume, sword, tail and boot sole retained. Piccolo open mouth retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "937408177a138541f8895f7b0070dee74dcf95aa977260a8c62346f665a0ca2c",
+      "download_sha256": "c9cb8247b644c13dd928220eb09e03cfef7ff99580eb0269e3dea4c052d9a42c",
+      "native_source_sha256": "72c082ecb021203e3cb9142ba3e1388bf8ae1c174c671e7465d8d3bb34866546",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 112,
+    "id": "saiyan-112-krillins-physical-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-112.jpg",
+    "original_sha256": "05150654f21398b199610c9a33e41d5b77072f7cf8f3e67422d8240029e3bcae",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Krillin downward close-up retains six dots, gritted teeth, orange gi and green motion background. Very narrow clearance above skull checked against full retained source; no head-outline clipping found.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "9b1264f4fcd6c7bb5b75fcf190f10531dabaa648af977f911df0b5884004533e",
+      "download_sha256": "419a9db9320b9da1c1463f26270cf19f0900e53c3204245ab50c0e0551d6dbbc",
+      "native_source_sha256": "9d4ee79648f0dac7396ea222ea0d699b6c1591b480ad4703ac411c997a07d3e2",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 113,
+    "id": "saiyan-113-krillins-energy-attack",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-113.jpg",
+    "original_sha256": "fd701ae1afe278751dabc4b94ec0c6ebaa4ff15c474480379242c8b257daaadb",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Krillin shouting retains orange sleeveless gi, blue wristbands, turtle emblem and white building/navy window. Localized left extension recovers clenched fist; full-height placement restores full bald head.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-113.svg",
+      "reason": "Recover cropped left fist, retaining full original head and both arms",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "Left fist, wrist and adjoining forearm edge plus left background only; original face, torso core and right arm retained as a native layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7",
+      "generated_sha256": "f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030",
+      "source_to_generated_alignment": [
+        0.9320550297647462,
+        0.9237133864952495,
+        256.88996666570483,
+        9.1059977984598
+      ],
+      "alignment_error": 0.007502577451449556,
+      "protected_source_region": [
+        390,
+        20,
+        1004,
+        1072
+      ],
+      "viewBox": [
+        -213.04815864022657,
+        0,
+        1627.0481586402266,
+        1112
+      ],
+      "seam": "Native contour mask crosses interior color regions and avoids the fist/forearm silhouette"
+    },
+    "final_export_verification": {
+      "display_sha256": "d46b6989e720dc51bc35e3e6a35a53fae3bc320e20e413258d39495083c81006",
+      "download_sha256": "3709d0c8b6a2fd492a566c989a45d99b1860d2773b911a6224b7c5125cbcc4ee",
+      "native_source_sha256": "f63a00c657711dcde11f2bd48bc739fb6e51528df3ed996c76bebf99af6ece5f",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 114,
+    "id": "saiyan-114-tiens-energy-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-114.jpg",
+    "original_sha256": "951ecd3a42a3e490285b1f7b87ba77aa17197d9f2d5d83d16e00a542a24a4d05",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Tien startled close-up retains three wide eyes/tiny pupils, open mouth/tongue and red radial background. Full-height fitting restores bottom of mouth while preserving source third-eye framing.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-114.svg",
+      "reason": "Fit full-height close-up to preserve the mouth and original third-eye framing",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "0692cc633806d995d4379a51587974dcd771368353c73decb4ae721c3e9ea54d",
+      "generated_sha256": "cb371d9f1e756255f5f87d34df23e4bd9c3377cd3fa98c694f68b4dcd0f3f3a1",
+      "source_to_generated_alignment": [
+        0.892048732407866,
+        0.8831597070772489,
+        2.0774787209426635,
+        3.0733272772049953
+      ],
+      "alignment_error": 0.004605747530719926,
+      "protected_source_region": [
+        0,
+        0,
+        1379,
+        1112
+      ],
+      "viewBox": [
+        0,
+        0,
+        1627.0481586402266,
+        1112
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "8e91fba2a8fc105d6a8633701d61ad1c568ab9b7ac471f8ce7f5c5c4266427b7",
+      "download_sha256": "afb888d9493d8743d2b6ae5ba6d07c891473dc3f5b3ebefd00473d0f26808460",
+      "native_source_sha256": "5d693847ad250323dcb4b88c26d69f882b0328ea48ae027f5d943aa7572a5d74",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 115,
+    "id": "saiyan-115-yamchas-energy-attack",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-115.jpg",
+    "original_sha256": "869bda943f5c5673d3140416eff04d13a8a0f8f46be1587c0a2330d2d49bbc90",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Yamcha/Tien hand grip retains upper grip/lower hands, orange gi with blue undershirt, Tien dark top/wristbands and gritted teeth. Left hair crop follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "409f0906507701c5b2a5fca137fcfa0682b80c2376ad607bbb2d3bc238b1a349",
+      "download_sha256": "bcd829f6417ce1658b73ab447d97b038adb56d908d14fa0939eb1ed4d0c40f2e",
+      "native_source_sha256": "e1894ce599c817f49579a20e6960f137a6b84bfb698f07bbf7652de955638c4c",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 116,
+    "id": "saiyan-116-yamchas-physical-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-116.jpg",
+    "original_sha256": "a35753912386dacf118d117fc07e0b650915843a41bea0bb862b67a8eebb1003",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Yamcha defensive two-palm pose, blue wristbands, facial scars and gritted teeth retained. Lower foreground hand and upper hair crop match the original close framing. Damage reduction has no block icon.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "bbb1892e948e6cbec7f3f0da9cd125370bff63a25a7a583b029ff1dc420a6573",
+      "download_sha256": "0753c63292eeecd19a2c8d5cc90ad5b65066934ea69c2b0049fdeeeaf4178ea9",
+      "native_source_sha256": "e88dc35995c98fdcd3e072b68b817be1d2d9541b5aba359f6d97bf7cb4ab39ef",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 117,
+    "id": "saiyan-117-raditz-energy-wall",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-117.jpg",
+    "original_sha256": "e7602e38951f83f3f05df3f1fddf66aa326ac1135552b542cf976ef034a79e39",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz waist-up low angle retains scouter, stern closed mouth, brown armor, tail belt, arm band and cliffs/sky. Original top hair framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "fd09085e235ffd92a92627b85789c62d26ee27299a127a8be230f55c23b0a1aa",
+      "download_sha256": "c8c358ac446570c985044aba5e9833cb82aabe14fbf09f630201904e76ddf056",
+      "native_source_sha256": "47e19d0caf6829e101f26ffdb41acb6831b30ec48d76b57fd8ce70d86b6fbf8b",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 118,
+    "id": "saiyan-118-raditz-physical-defense",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-118.jpg",
+    "original_sha256": "e04d76054b6ccc9f5b61f53644021c0ab51b6fa098cd33ca9f649cd8c9b292cf",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz partial face and scouter at left, swept black hair and upper-right light flash retained. Partial mouth/face framing follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "88dc65ba00ef90eead8a1635be97633ee5788e32b84b3966ed379f7d7e786631",
+      "download_sha256": "d7c7b1a22873b13fb40a384cc7a9e2a783672a8f4218ab93a166d372e961ff9c",
+      "native_source_sha256": "445f8bd05ef72c4e8176efb22dcdc425e9ba79467c5e2921c4c1f8e6dca0398c",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 119,
+    "id": "saiyan-119-vegetas-energy-blast",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-119.jpg",
+    "original_sha256": "d42b512037adcd99e5641311d2ef31515410c42d5db34c1bdef3381f5bb0f977",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Vegeta white-gloved hand and blue sleeve emitting white/pink energy burst retained; no face shown. CRD first-card-in-Combat requirement retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "657fed2527713f0a799420e533790f4aaeaf6c5bf1639d024a0b6f8d4d3d568a",
+      "download_sha256": "9187b0474ad9b2d1c0ec5776b4bcdae8fe32fa2e9c6a1939ac003360cb2ffb72",
+      "native_source_sha256": "068f12b0d8dae06a02264b608c28610360ccbb6e0f250ed3a83d9bf6c7fd0aa0",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 120,
+    "id": "saiyan-120-nappas-energy-aura",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-120.jpg",
+    "original_sha256": "9cfa15c945e2fecbad46daa8917e2e5edf5d4df66d3cea992593403f843a7614",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Nappa face close-up retains wide angry eyes, mustache and shouting mouth/tongue. Original forehead/lower-mouth framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "1fc3ab1af01d45ea7c803f715712f91c5902531a57506aa7f94791cae09983d1",
+      "download_sha256": "2cc2404a609facf5dbbdf51e71da6e39805fd86f4d597e77e144474c5a40f475",
+      "native_source_sha256": "2f10caf99168100278fa44c370c8e5b2ab8b9ccd60c4e235af3bc0ad350ca16c",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 121,
+    "id": "saiyan-121-nappas-physical-resistance",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-121.jpg",
+    "original_sha256": "be3776741ed9805a94ffdae74319843ebb61a25709097fbe8ca6dca869682f5b",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Nappa turned right with shouting mouth, clenched fists and gold-shouldered black armor retained; fists connect to wrists and original body angle preserved.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "922b5df839cc389ea67e7ee6e3075b7d683c368aa955e8f8e07a55feae9676ff",
+      "download_sha256": "3d19cf5c97c5891b38c5e8d28ae2df8fab62d90f9dd8fec77d3a625d7f056099",
+      "native_source_sha256": "4e9cf253b1fdfa9f1c8d7ab2f0560589d25de8eb7effac7a01174a9e468b1474",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 122,
+    "id": "saiyan-122-yajirobes-energy-attack",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-122.jpg",
+    "original_sha256": "3ce9104dca983fb7fd76f6caf5698b26ba1665d837b63b2056aa8ce7c7bd4523",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Yajirobe eating close-up retains puffed cheeks, sideways pupils, closed smile, food and red bag, orange robe and blue wristbands. Source hair crown is already cropped; inherited crop is retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "ced628fff68443e14989ccc1319f5321f49bdca87e398093a85af22b720827a7",
+      "download_sha256": "413e6f4b8546231ff74602cf2da3c79f59fd244ef92595241ccecbc5f78e983f",
+      "native_source_sha256": "ce784379e4f1425e7ebb040da1898f9dda8647618a2937be1e457c90eaf9c6c7",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 123,
+    "id": "saiyan-123-chiaotzus-energy-manipulation",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-123.jpg",
+    "original_sha256": "b347a387695cddc6d5eb7c25f603e9dad3056a8cb7815ace2948cfac3722f903",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Tien holding Chiaotzu retains white sleeveless top, green/red wristbands, Chiaotzu cap/green-yellow costume and Piccolo cape fragment at left. Expression and hand relationships retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "b90522d59d07bab9775c4d665cb5a25109273db8c5b1f65840bda97011e2a963",
+      "download_sha256": "df26af3d14e042b5a3b45d4a8c383e570a7c72b85cc389bbe09848cf66a2d3a7",
+      "native_source_sha256": "c3c6a95e5328299172cedc2cefb1270d53607502d30d6a0ac877fc51aba5f7a4",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 124,
+    "id": "saiyan-124-red-penetrating-defense-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-124.jpg",
+    "original_sha256": "15260ba3071bde6d6264c80a25771aae762bd1ac2b198442f129b71d61d27158",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Seated Yajirobe on purple bench retains bag, closed-eye chewing expression, crossed bare legs, separate sandals on floor and sword hilt. Full footwear and hands remain visible.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "f40cc8b14f6371ca63368a00c4ab39e779d8d2143737204f91a397969664e6c3",
+      "download_sha256": "6ffcc14395c277e5ad7376dbff9e3c1043109ca41b01d3845d5b0dc4b51ace59",
+      "native_source_sha256": "319fddc40c05970480e43c12844d6ed5456d5fe96b9d68cce22d01b4e3ba1a88",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 125,
+    "id": "saiyan-125-blue-off-balancing-opponent-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-125.jpg",
+    "original_sha256": "b9c9913332b066fd61a22fd19470e8d9136a83fccdedf36a8b6853e4272e8b80",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo face close-up retains gritted teeth, sweat, antennae and purple gi. Original upper-head close framing retained; no hands in scene.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "825a35938839f7cfe058f8e6dc6295f7b19aaad30186ce0ff4773d0feb095d01",
+      "download_sha256": "6447d4a05e22dc0c8601670252180f67885ce36cf0f6662174d8912a0110061a",
+      "native_source_sha256": "553beee02a12105e163f9e0796ec4b119a0cd95fe02d1a8523f831fb44e9833b",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 126,
+    "id": "saiyan-126-orange-lifting-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-126.jpg",
+    "original_sha256": "024938bf6fc0752b2df2757db19407ec47e0e339632ff05bd900f84697860677",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Yajirobe clutching rock retains both gripping hands, squeezed-eye grimace, orange robe and rocky landscape. Upper hand/hair edge framing follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "cab598e92a5d524782564648a31acc291f59c926fc2657c4db7cf545b21c976c",
+      "download_sha256": "44b6776ca59146e024429b430880d034974a9a58daff8da66c44c2dd4c4425bc",
+      "native_source_sha256": "e0174b410ee3264e913788ab4145701ed76b0ed32319bb5b25b0c4165951ad83",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 127,
+    "id": "saiyan-127-black-takedown-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-127.jpg",
+    "original_sha256": "d56fe1bb9d0af488739f80f04845ca72798f4d06ff172ba45379a015ccdc2b9f",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo reaches forward with clawed hand, gritted teeth, sweat, pink arm section and purple gi against clouds; original head-top framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "901670170f0c4037965e2c916cce7e9f0f575613bdf8dadddbb0a3d664b3c2d5",
+      "download_sha256": "c8372dd3ed734bbf9f0c799c8ad6a0daea7d0cd46e85d2c7608a96407e1af172",
+      "native_source_sha256": "1c5a514e95e838d6f7cdc667f95528be32bfefa06e5208b47756d36f0fc19257",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 128,
+    "id": "saiyan-128-red-knee-pick-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-128.jpg",
+    "original_sha256": "9073068a0afcc149da18e6017d8d0f22cf9750dce7c6e3715a73f13c9473f2e2",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo side close-up retains gritted teeth, sweat, pointed ear, pink shoulder and horizontal motion lines. Eye/mouth remain readable.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "887e85ca4bdb45f8da66472f3076d38ccff154ecd630b6d7024b05e56056c2ae",
+      "download_sha256": "66b79e7af96cd312d7b3161da98c0ee27412027faa2a9d74b396ea5ff24c871b",
+      "native_source_sha256": "79332252aa2373443e26396f1d153e73526e507eca734d80d4cdb9ef2cd6130f",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 129,
+    "id": "saiyan-129-blue-deceiving-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-129.jpg",
+    "original_sha256": "42a4d497dd5c5fc428993945c8c13c15e277c1593c9f474545309ee355e995fe",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Krillin fist-forward close-up retains closed tense mouth, angled brows, orange gi and blue wristband. Foreground fist and skull framing follow original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "fc4e16b5b2b0e296b40d431359c94f33160b99d4f3b27abb9ee93c0948005f94",
+      "download_sha256": "29a63641d8bebc718332e1d91b22aa61dfa589a20a0a23dd8a87e7f82c6fad59",
+      "native_source_sha256": "bacd29aa62f64f07cb3364c9605ea2ed3ad03e3aa36c791f90630d7879347433",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 130,
+    "id": "saiyan-130-orange-tripping-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-130.jpg",
+    "original_sha256": "00c921a3fd022f5dd275824811c5e94a8f518c43be56a434674ba92f8cd70c89",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Krillin crouched looking right retains orange sleeveless gi, turtle emblem, blue wristbands/belt, clenched hand and raised knee. Trees and pink architecture retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "90e379dfad2b670bf2aba89393bd13a967caebd254e273103a5192b0d2ae03e5",
+      "download_sha256": "442245126dcf7078c0c06ad60049713d3b6733bac8afc21fe3d33ac4704ec6d6",
+      "native_source_sha256": "09b4abc4c60a04979aaae8f82692f6ed29ff54a465a3cca4e274e1b832b833d4",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 131,
+    "id": "saiyan-131-black-bear-hug-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-131.jpg",
+    "original_sha256": "ae28a8319664d2526fce41a0fda05fdbc7663e1ccd86851d588f54477f195536",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Coiled green serpent retains open mouth, red tongue, pale belly, interlocking coils and yellow sky. Original coil layout and mouth direction retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "d5e83baa46557d6d739c66ec8e11dda55c370fcd7f3d8764f615be0b497684eb",
+      "download_sha256": "472231a176dd91af59e96f2a5ce6ccd2611540ba3489292f47b723ae4daa74ec",
+      "native_source_sha256": "6153337da47c8d881ee7008fff48527469fafd9def77e383b6814cdf0a2926c3",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 132,
+    "id": "saiyan-132-red-rolling-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-132.jpg",
+    "original_sha256": "b61499340299faf4dc08331108ace3e6eceaaf9fa3ef6febafcf36719f744e84",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Chi-Chi in kitchen retains wide eyes/small open mouth, purple dress, orange shawl/sash, left hand on table and raised other arm. Bun and offscreen arm framing follow original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "9a897f83977c4615f7a76543ccc4c8eabbda3236f3e5deaa4684533ba194618a",
+      "download_sha256": "0dddaa6e9043fa2c59b5d6349eaf4fae9ecae5dff31fef50c2f7e3b88f3ef71d",
+      "native_source_sha256": "b3dda963a56d5c14e5219bc93cec65e7ace0a9517c1a9894c69ed278c901a10b",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 133,
+    "id": "saiyan-133-blue-reversal-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-133.jpg",
+    "original_sha256": "138d673e4cdc4c44f556bb49f910903973afe0506d56746c1350488b74783728",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz/Goku crossed-arm fight retains brown armor/tail/black bodysuit and Goku orange outfit against green speed lines. Some original shoulder detail is watermarked; no claim of exact hidden detail.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "097b4a8e31479914f912257f4f05065b2b984a3824b7d6d02c4ea74e1794b13a",
+      "download_sha256": "ae9220d17f9f491e665deccba901a6a10cacd7ef418496cb1639212687fd7930",
+      "native_source_sha256": "482a2ab5ba7914e20c6996a8bb75319ea07c26ae20bbdcef57934a2a197cc65b",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 134,
+    "id": "saiyan-134-orange-off-balancing-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-134.jpg",
+    "original_sha256": "b65d3737b0884b9a08365c580148b4349ddc07338c345eb9fe46851480ad6fd2",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Chi-Chi facing Roshi retains surprised eyes/small open mouth, purple dress/orange shawl, high bun; Roshi black clothing, beard and red glasses retained. Original crown framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "6c9c69027254565e5bcfbaceb888bffd81da9de53164318cdf6757b7ef7b2186",
+      "download_sha256": "700708cd66351198526e65c0af43c39c677b700185ad0a755f3a38e6d09888f5",
+      "native_source_sha256": "0b323635c30baa7f4e2041989e698b30fedbd43f1c45138c4ee5c83656851069",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 135,
+    "id": "saiyan-135-black-arm-bar-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-135.jpg",
+    "original_sha256": "ea4e8b6153a28f083d1a9868f83bc3e7d1e6d0079d88e7c6dc1ed675d2837951",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz hit by energy retains wide shocked eye/open mouth, scouter, black/brown armor and yellow blast/electric arcs. Upper body angle matches original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "342bc22d51d924552b1be1f13086c6bbc67f50497bf40989a26f8d09d4870184",
+      "download_sha256": "5dbb27d22fcd1aa96437ba550996a2fc6f787c83a1ab0ed82a32eeabfcce04e1",
+      "native_source_sha256": "05a2cc3bef528d27eb142a4ad2bd3149e76081782296c56fb01f08be3d08a616",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 136,
+    "id": "saiyan-136-black-free-style-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-136.jpg",
+    "original_sha256": "464c501fe17d64fdca39e865c4f9b6abf646344d55387b02a057ba2e57744004",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz fist by mouth retains raised cheek/smirk, narrowed eye, scouter and swept hair. Mouth partly occluded by fist; small original tooth detail uncertain. Black style retained despite Free-Style name.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
+      "download_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
+      "native_source_sha256": "fff4980896c92802c754a7e6e5b195784f725ef45624bef5c0f817c8c1e5bc76",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 137,
+    "id": "saiyan-137-orange-spontaneous-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-137.jpg",
+    "original_sha256": "9aa133b44af1134f79c5a88470c76e45d0d2bc9d87b8a9f024a8e27fc7c9e196",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz/Goku strike retains Raditz brown armor, scouter and hair, Goku orange gi/blue undershirt and foreground bent boot. Pose and overlapping arms follow original; faces partly obscured.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "5b6ad83e0fe2c1700bc4d68030e6f4d53202b1b9789052665f1bf6f02e0391d0",
+      "download_sha256": "581d96db3571d9464b6d5144b174fb9ff2c14efe0f4ffbd13cf60c441802af04",
+      "native_source_sha256": "ea3f238386786e8d0afcd37caff77e67580f35db63eb30808705d88fdfb38018",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 138,
+    "id": "saiyan-138-blue-cradle-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-138.jpg",
+    "original_sha256": "51370df6cb48c4bbef9849e86ac70859589fa09bf2dbb2e1e85abbadb244f5be",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Low-angle shirtless Goku raising both hands retains orange pants, blue sash/wristbands and sky. Top alignment restores all fingertips while keeping the same scale.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "20f5091e28535198bfaf555ca29cc85d5d054d1809afd7519a56bdee0820ed7f",
+      "download_sha256": "b242391d3df131fdef3deea57470b1f20e96856a362b9a60e1793738e6012a46",
+      "native_source_sha256": "96e270e91200b7bb1b3c885f5cc192a1da1064b8825b1b0e8e05e9cfb2d0013f",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 139,
+    "id": "saiyan-139-red-wrist-control-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-139.jpg",
+    "original_sha256": "976b99843e628ac2fa46f338b55a774cb43b4a0cfd12e1b69765f22350c71315",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz frontal three-quarter pose retains closed-mouth smirk, scouter, brown armor, red arm band and sky. Top hair framing follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
+      "download_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
+      "native_source_sha256": "a5938c4f40fc7d44b1aaa5ec97a125318507505432b737700b68a72599bc47ad",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 140,
+    "id": "saiyan-140-red-reading-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-140.jpg",
+    "original_sha256": "8aa85d9538bdb1680fd3968992f8d637353154928bb8d910a9533ba59da6d518",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz ducks under a foreground arm; surprised eye, gritted teeth, scouter edge and brown/black armor retained. Tight partial face/arm framing follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "68c54f5925c8a6f26cfe8f01f5538816173bb02ed58e1e9814c00e371c219aeb",
+      "download_sha256": "593e45a71b7c1e143fecc8d3906bceb01c5558a201b107726357f99c00f9c306",
+      "native_source_sha256": "64d93b0aba256be675eece52ce5dcd1b6d4ac8f1467bf772d22475fafca9f1ab",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 141,
+    "id": "saiyan-141-blue-enemies-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-141.jpg",
+    "original_sha256": "3a3176c12bde1ec103181eb7497c96122c418bddf9f1c19417a75ede6e227ee1",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz side profile retains open shouting mouth, eye, brown shoulder armor and horizontal blue/white motion background.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "de689b2e0747762921af60330e877868b44566d6dd956b55d72d7bdd465b5a2c",
+      "download_sha256": "3b8960f5414f3f5b6fd745538bcf22f0c24b5e7959be8342f4c51a00e3d567a3",
+      "native_source_sha256": "ac5131c5ffabfc36a8fdc166cd4b6363c945f8c6b3f6c640f72fb12a3c229adf",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 142,
+    "id": "saiyan-142-orange-energy-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-142.jpg",
+    "original_sha256": "1209e9650149c17b2bb6281c6939f53825cd8a689377fb063ec0503d5258e740",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Roshi, Bulma, Puar and Oolong retain group positions, surprised expressions, red glasses, blue shirt/red bow, floating Puar and pink interior. Small background details remain a stylized reconstruction.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "8e889aa53f07e650eea7a13cb6015104595f8b2786fc90a2d5920188dadbb36e",
+      "download_sha256": "1ad651be3830cc6d3e1e0ee2aed0d90473f99083a8fa398edf492461cc777c57",
+      "native_source_sha256": "aa03e272a8757b30f115b3a13abf61c90989e097ab8dd80d5cec7faeb6830feb",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 143,
+    "id": "saiyan-143-black-physical-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-143.jpg",
+    "original_sha256": "460f77daf2d1dba3260a64b9a9900a7a5b314dfc5f56603308c2f68083025570",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Goku looks upward in orange gi/blue undershirt, belt and wristbands against cyan sky; turtle emblem, brow and tense mouth retained. Original lower-hand framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "232fbc928f3bf2cd62af3a48213ac3136b0af85a29b52c21f62af766cf8ace03",
+      "download_sha256": "3bf23a227669941232bb13fe47e52228f2e55381f5a66e58e6bdf0d435fef9a6",
+      "native_source_sha256": "3b34d860581d4930028b97502f68107a4f71e974a32b2a95da3afd7ba1349273",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 144,
+    "id": "saiyan-144-red-coordination-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-144.jpg",
+    "original_sha256": "d36d08f8eba17a2a5ae2ae43c4d78d8bf57cf4def975f22ada7c8ec945f34af9",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Piccolo downward-flight pose retains gritted teeth, antennae, purple gi, pink arm sections and orange shoe; extended arm exits the same lower edge as original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
+      "download_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
+      "native_source_sha256": "486f9150c27222102cc3ad9038a7bb6efe1327b852160700434605aba2a8d43d",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 145,
+    "id": "saiyan-145-blue-breakfall-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-145.jpg",
+    "original_sha256": "9dfa62db3416dacc76698d0b561d290e9586cfe4019294b0605ae084a49d4bf9",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz extended clenched fist retains closed smirk, scouter, brown armor/gauntlet and sky. Full fist and wrist remain visible.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "b46cb8bf2baf6339c97cb8d116c1d40310d87c640ab3a0a938014877db8223ce",
+      "download_sha256": "3c4077594d48ad82c94ec10bc1e3c0b450bd829d317253ccaf142756f144b3db",
+      "native_source_sha256": "343f4052f406dd55b5417e77aacff89ad0301e537d968acd44e98d8f3788647d",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 146,
+    "id": "saiyan-146-orange-body-shifting-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-146.jpg",
+    "original_sha256": "0dc18ad1e4e494bb157744195821f0719924b5bfe64f74db5003b3f48e610e53",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Shirtless Goku shoulder close-up retains gritted teeth, sideways eyes, swept hair and cyan background; no costume added.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "daf63ef862884615fc4df893856af630e7f64beb8eadf6c52bf9d10b7315d59c",
+      "download_sha256": "6f6a709f48d6a85c7ff524d3567adbebe795053ca421364410c62ccca874af26",
+      "native_source_sha256": "c26db1afc405ec17e29e5a30077f5002d2bf2a95ed021f4cb70bba33fa3e0993",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 147,
+    "id": "saiyan-147-black-striking-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-147.jpg",
+    "original_sha256": "6bd79493b8e9338a0486097f823872067be46049639f7fb79046c59f008c71e2",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz crosses forearm in front of face with raised other fist; scouter edge, focused eye and motion lines retained. Fist/right-edge framing follows original.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "dc3cb4dd8a8c51700d17a55f97f584e6f8939243f800663bd02b86f617b0d05c",
+      "download_sha256": "1e60be028417c8ccaba4efd2bbbc903d57894ebea77b441b43f4e4bc445dab8f",
+      "native_source_sha256": "2d84193ba53daa62df093ce07d1dca8c589c92f8b9f1cdb94c03a4f7b736c58a",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 148,
+    "id": "saiyan-148-red-pressure-point-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-148.jpg",
+    "original_sha256": "06399e89b1bac0c0a0a3d06a2bb5a51c96ac880ac2c5a80b4ad5514a51d9a135",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Raditz under an overhead forearm retains wide eye, gritted teeth, green scouter and brown armor against blue speed background. Original partial overhead fist framing retained.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "5bcb07b79540a3a3b581e32c26ba7f38c71ec23b6b33af2a3760353aa8256ecc",
+      "download_sha256": "5554c1c2df266b3113ae266458978993bb5649506f593ea48120020f1ebd4ec0",
+      "native_source_sha256": "7f3972762f3d97815aa9d11a7b838397c5a6910a257a1b20ea6c6f79b849f592",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 149,
+    "id": "saiyan-149-meditation-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-149.jpg",
+    "original_sha256": "7cc937702c4dcfc555b142e4e5a31e5afd1cd12db001dfd2856ff31886d13560",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Prone shirtless Goku retains closed squinting eyes, clenched teeth, scratches, orange pants, blue boots/wristband and foreground hand among yellow rocks. Edge extension corrects retained boot/hand crop.",
+    "correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-149.svg",
+      "reason": "Recover full reference-visible boots and fingertips using top/right edge continuation while preserving original face, body and hand pixels",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "top-right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "ae55dde22519c08b70ee23759ba9f7ecc6c51dadc2f6dba812b11f32833a608b",
+      "generated_sha256": "97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958",
+      "source_to_generated_alignment": [
+        0.8044239101489784,
+        0.7828688426696456,
+        10.181811182875153,
+        149.63555996609134
+      ],
+      "alignment_error": 0.009478741714625125,
+      "protected_source_region": [
+        0,
+        35,
+        1379,
+        1078
+      ],
+      "viewBox": [
+        0,
+        -130,
+        1818.7237960339944,
+        1243
+      ]
+    },
+    "final_export_verification": {
+      "display_sha256": "2e9080d6fd49ce3b7d2c628e1a244f02425e90498e919a86b1158a855e043401",
+      "download_sha256": "a2ee0bbfd964003727eeb0337e56887752ddf3179e6a135756d4a0a80276a2a5",
+      "native_source_sha256": "579c576ebafaccd836ab65fdbad17b17e4a532223cbff42fa70b8fde1cf1d1e4",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  },
+  {
+    "number": 150,
+    "id": "saiyan-150-blue-neck-restraint-drill",
+    "actual_original_scan": "tools/card-corrections/v3-saiyan-101-150/original-scans/score-150.jpg",
+    "original_sha256": "1a20f84ae6f7d7993896260eb20368436fc97b2768711e0613151df4132b1e9a",
+    "review_method": "Individual full-card original/final comparison, enlarged retained-art and correction details where needed. Full-resolution native/export geometry measured separately.",
+    "visual_findings": "Green scouter close-up retains lens shape, partial eye/face, yellow Goku silhouette and scan markings. Tiny original display glyphs are stylized rather than a literal transcription.",
+    "correction": null,
+    "final_export_verification": {
+      "display_sha256": "9ddf374facfbc37c5db404a985a39188b4169498373d2e8a9b69e0d3837e9f05",
+      "download_sha256": "afc01723c49c5c24d8b27c06a70d28124a648202a84f24ad7b06a34b68d5f257",
+      "native_source_sha256": "0ad7c4ede3f0b582169f3d306504ce704ecfc913132b106061b4e1497338e30e",
+      "all_images_decode": true,
+      "lossless_display_matches_resized_full_download": true
+    },
+    "review_date": "2026-10-31",
+    "limitation": "Modern illustrations are stylized reconstructions; watermarked, small or obscured original details are not claimed as exact. See card-specific notes."
+  }
+]

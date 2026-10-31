@@ -1,0 +1,165 @@
+{
+  "number": 132,
+  "id": "saiyan-132-red-rolling-drill",
+  "name": "Red Rolling Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-132-red-rolling-drill.svg",
+  "native_source_sha256": "b3dda963a56d5c14e5219bc93cec65e7ace0a9517c1a9894c69ed278c901a10b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0942f951f0f438b2b63f98a7ca0b3b6156858a7b992f283bd5fb4788c5492d47.png",
+      "sha256": "0942f951f0f438b2b63f98a7ca0b3b6156858a7b992f283bd5fb4788c5492d47"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "60e1b7cd4fd3ed1697dd4f7bf94a5a0434a33e4e2dc1249a5d8bdbb3b0b9f53a",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Reduce life card damage from all energy",
+      "baseline": 1049.3,
+      "width": 810.7025789473682,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you by 1, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 779.002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        292.646,
+        44.5,
+        473.708,
+        69.0
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        57.77,
+        33.708
+      ],
+      "rules-line-1": [
+        218.066,
+        1013.53,
+        716.455,
+        45.913
+      ],
+      "rules-line-2": [
+        141.347,
+        1072.53,
+        776.307,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          124.479,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          218.066,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          124.479,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-132-red-rolling-drill.webp",
+      "before_url": "/assets/cards/saiyan-132-red-rolling-drill.webp?v=0be48aa8112c",
+      "before_sha256": "0be48aa8112c4236e47068d658314aa9d80cac0f859ce114c36b86e3913dd3f1",
+      "after_sha256": "9a897f83977c4615f7a76543ccc4c8eabbda3236f3e5deaa4684533ba194618a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-132-red-rolling-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-132-red-rolling-drill.webp?v=1b6b53a79877",
+      "before_sha256": "1b6b53a79877f3a28891866b06f766cf2ffd504adc4e6571d97907c401b7a6da",
+      "after_sha256": "0dddaa6e9043fa2c59b5d6349eaf4fae9ecae5dff31fef50c2f7e3b88f3ef71d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

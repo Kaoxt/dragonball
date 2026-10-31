@@ -1,0 +1,210 @@
+{
+  "number": 113,
+  "id": "saiyan-113-krillins-energy-attack",
+  "name": "Krillin's Energy Attack",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-113-krillins-energy-attack.svg",
+  "native_source_sha256": "f63a00c657711dcde11f2bd48bc739fb6e51528df3ed996c76bebf99af6ece5f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030.png",
+      "sha256": "f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7.png",
+      "sha256": "93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-113.svg",
+      "reason": "Recover cropped left fist, retaining full original head and both arms",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "Left fist, wrist and adjoining forearm edge plus left background only; original face, torso core and right arm retained as a native layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7",
+      "generated_sha256": "f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030",
+      "source_to_generated_alignment": [
+        0.9320550297647462,
+        0.9237133864952495,
+        256.88996666570483,
+        9.1059977984598
+      ],
+      "alignment_error": 0.007502577451449556,
+      "protected_source_region": [
+        390,
+        20,
+        1004,
+        1072
+      ],
+      "viewBox": [
+        -213.04815864022657,
+        0,
+        1627.0481586402266,
+        1112
+      ],
+      "seam": "Native contour mask crosses interior color regions and avoids the fist/forearm silhouette"
+    },
+    "source_native_sha256": "cb6f7381c75b407eb01c132201e0f0b10a562af3cfb096d600c2bd26ac25eefe",
+    "expression_patch_retained": false,
+    "retained_full_subject": true,
+    "source_height_fitted": true
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 2 life",
+      "baseline": 1049.3,
+      "width": 876.5701555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. If used by Krillin, keep this card in play to",
+      "baseline": 1108.3,
+      "width": 855.5889999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "use 1 more time this Combat.",
+      "baseline": 1167.3,
+      "width": 511.168,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        195.599,
+        44.5,
+        667.803,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        50.456,
+        33.708
+      ],
+      "rules-line-1": [
+        146.472,
+        1013.53,
+        820.652,
+        45.913
+      ],
+      "rules-line-2": [
+        103.2,
+        1072.53,
+        852.6,
+        45.521
+      ],
+      "rules-line-3": [
+        275.533,
+        1131.53,
+        507.934,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8764,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.472,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8764,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-113-krillins-energy-attack.webp",
+      "before_url": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=5a78cd89a5fa",
+      "before_sha256": "5a78cd89a5faf0bae2a9148b0e97fa5785285f76081ad8dbf3539a198bbaaeba",
+      "after_sha256": "d46b6989e720dc51bc35e3e6a35a53fae3bc320e20e413258d39495083c81006",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp",
+      "before_url": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=3e73dccc338a",
+      "before_sha256": "3e73dccc338a9ebf133e64f2290ad0d86dde1f080d8c23c60636d5a7d3984320",
+      "after_sha256": "3709d0c8b6a2fd492a566c989a45d99b1860d2773b911a6224b7c5125cbcc4ee",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

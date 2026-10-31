@@ -1,0 +1,271 @@
+{
+  "number": 107,
+  "id": "saiyan-107-yajirobe",
+  "name": "Yajirobe",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-107-yajirobe.svg",
+  "native_source_sha256": "152f6bf48233883d55c4b85375f74a1d1b35b446b82af561cf401c906ea16c90",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/56a58461867559c825a9650fcabf5fea16aca3cb92e83b9523d24244653a82d5.png",
+      "sha256": "56a58461867559c825a9650fcabf5fea16aca3cb92e83b9523d24244653a82d5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6397ded693f75724a5c1fa1ab60661f55e8bb9e82d3d976b156de5542bfd6f8a.png",
+      "sha256": "6397ded693f75724a5c1fa1ab60661f55e8bb9e82d3d976b156de5542bfd6f8a"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 146,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "composite_svg": "tools/card-templates/v3/artwork-corrections/saiyan-107.svg",
+      "reason": "Center full personality to the left of the power stages, preserving all source-visible anatomy",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 146,
+      "generated_content": "right edge only; original image retained as a native SVG layer",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "6397ded693f75724a5c1fa1ab60661f55e8bb9e82d3d976b156de5542bfd6f8a",
+      "generated_sha256": "56a58461867559c825a9650fcabf5fea16aca3cb92e83b9523d24244653a82d5",
+      "source_to_generated_alignment": [
+        0.8696354620652161,
+        0.8705503455982992,
+        -34.007274969897516,
+        5.911043234569175
+      ],
+      "alignment_error": 0.002297155819673133,
+      "protected_source_region": [
+        0,
+        0,
+        1455,
+        1056
+      ],
+      "viewBox": [
+        146,
+        0,
+        1545.1104815864023,
+        1056
+      ]
+    },
+    "source_native_sha256": "29bd2fc8df192f776598be70eb517daea2f0699e1c1076dae7233484ac049995",
+    "expression_patch_retained": false,
+    "retained_full_subject": true,
+    "source_height_fitted": true
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.7261555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.82,
+        160.009,
+        89.18,
+        38.269
+      ],
+      "power-stage-value-1": [
+        942.898,
+        224.691,
+        88.102,
+        38.269
+      ],
+      "power-stage-value-2": [
+        943.682,
+        289.373,
+        87.318,
+        38.269
+      ],
+      "power-stage-value-3": [
+        949.807,
+        354.054,
+        81.193,
+        38.269
+      ],
+      "power-stage-value-4": [
+        941.526,
+        418.736,
+        89.474,
+        38.269
+      ],
+      "power-stage-value-5": [
+        967.594,
+        483.418,
+        63.406,
+        31.164
+      ],
+      "power-stage-value-6": [
+        967.545,
+        548.1,
+        63.455,
+        31.164
+      ],
+      "power-stage-value-7": [
+        970.24,
+        612.782,
+        60.76,
+        31.164
+      ],
+      "power-stage-value-8": [
+        967.888,
+        677.463,
+        63.112,
+        31.164
+      ],
+      "power-stage-value-9": [
+        968.182,
+        742.145,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        404.319,
+        44.5,
+        250.362,
+        69.0
+      ],
+      "card-category": [
+        263.52,
+        891.391,
+        531.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.141,
+        33.708
+      ],
+      "rules-line-1": [
+        145.394,
+        1013.53,
+        822.808,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7984,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.394,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7984,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-107-yajirobe.webp",
+      "before_url": "/assets/cards/saiyan-107-yajirobe.webp?v=030629a4d547",
+      "before_sha256": "030629a4d547256091fd2067078e978f99eb1f2ca0d422436b9e7798d14762f5",
+      "after_sha256": "cfc5f49d35a0d751ed189c7bdebc55e8092ebc6ce427ffa07f3fee8df04f395a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-107-yajirobe.webp",
+      "before_url": "/assets/cards/downloads/saiyan-107-yajirobe.webp?v=f9d738fa34d7",
+      "before_sha256": "f9d738fa34d72aa67412ad821f7737ec1da6c813a10d7563701f63ffd035acf9",
+      "after_sha256": "4563a370b81ec00391f3b0ec27140e319fb03052ae085cee1dac42177edf66ce",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

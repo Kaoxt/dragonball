@@ -1,0 +1,165 @@
+{
+  "number": 123,
+  "id": "saiyan-123-chiaotzus-energy-manipulation",
+  "name": "Chiaotzu's Energy Manipulation",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-123-chiaotzus-energy-manipulation.svg",
+  "native_source_sha256": "c3c6a95e5328299172cedc2cefb1270d53607502d30d6a0ac877fc51aba5f7a4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/26573dee5557c294c20c2dabd96f2d27d6b564a9071ca2aaa591414117e8ef4d.png",
+      "sha256": "26573dee5557c294c20c2dabd96f2d27d6b564a9071ca2aaa591414117e8ef4d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "eb4b63f111012dcd7bc6e9ef311273fbf96797c66cd0950554b0441f597747a4",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Energy attack costing 2",
+      "baseline": 1049.3,
+      "width": 805.3681555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "stages. DAMAGE: 3 life cards. Banish after use.",
+      "baseline": 1108.3,
+      "width": 826.385,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        69.5,
+        44.5,
+        920.0,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        57.081,
+        33.708
+      ],
+      "rules-line-1": [
+        127.257,
+        1012.11,
+        804.486,
+        47.334
+      ],
+      "rules-line-2": [
+        117.679,
+        1072.53,
+        823.641,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          459.227,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          513.822,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          459.227,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp",
+      "before_url": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=5741baa73abb",
+      "before_sha256": "5741baa73abbad65736146be8d998279fbd6edac3c52403729010df7ff480fb2",
+      "after_sha256": "b90522d59d07bab9775c4d665cb5a25109273db8c5b1f65840bda97011e2a963",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-123-chiaotzus-energy-manipulation.webp",
+      "before_url": "/assets/cards/downloads/saiyan-123-chiaotzus-energy-manipulation.webp?v=0ffc9770d586",
+      "before_sha256": "0ffc9770d5867128ccc682ccb3ba92e0248dac5a1ba812a27e72c1c7f6bfbd56",
+      "after_sha256": "df26af3d14e042b5a3b45d4a8c383e570a7c72b85cc389bbe09848cf66a2d3a7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

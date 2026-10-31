@@ -1,0 +1,135 @@
+{
+  "number": 116,
+  "id": "saiyan-116-yamchas-physical-defense",
+  "name": "Yamcha's Physical Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-116-yamchas-physical-defense.svg",
+  "native_source_sha256": "e88dc35995c98fdcd3e072b68b817be1d2d9541b5aba359f6d97bf7cb4ab39ef",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/65dfab4e9cebe38378fe10e9808c80a794884820b2af4b8b999d238de9f1d07f.png",
+      "sha256": "65dfab4e9cebe38378fe10e9808c80a794884820b2af4b8b999d238de9f1d07f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "d4250d313a20977d6e2cfdec4e7f8ef40078b3d8658819985af5534f67a3f816",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Reduce damage from a successful",
+      "baseline": 1049.3,
+      "width": 759.255,
+      "icon_inline": false
+    },
+    {
+      "text": "physical attack against you by 3 life cards.",
+      "baseline": 1108.3,
+      "width": 762.3910000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        113.263,
+        44.5,
+        832.474,
+        69.0
+      ],
+      "card-category": [
+        270.726,
+        891.391,
+        517.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        151.759,
+        1014.61,
+        755.482,
+        44.835
+      ],
+      "rules-line-2": [
+        150.093,
+        1072.53,
+        758.814,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-116-yamchas-physical-defense.webp",
+      "before_url": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=a2da6ae4af53",
+      "before_sha256": "a2da6ae4af53eb8ed5855edac84a9d888638c49e64fd3da05097f03513e831bd",
+      "after_sha256": "bbb1892e948e6cbec7f3f0da9cd125370bff63a25a7a583b029ff1dc420a6573",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp?v=c9339a7bd208",
+      "before_sha256": "c9339a7bd2082d52ed6a5926b84415349cbefb531c2f476505a258ac719489e9",
+      "after_sha256": "0753c63292eeecd19a2c8d5cc90ad5b65066934ea69c2b0049fdeeeaf4178ea9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

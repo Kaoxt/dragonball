@@ -1,0 +1,189 @@
+{
+  "number": 136,
+  "id": "saiyan-136-black-free-style-drill",
+  "name": "Black Free-Style Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-136-black-free-style-drill.svg",
+  "native_source_sha256": "fff4980896c92802c754a7e6e5b195784f725ef45624bef5c0f817c8c1e5bc76",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8.png",
+      "sha256": "51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "846fdd094c34dbdc9989258a3c51e8baf26e25bd7b54ea15910ced92a656fe0d",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "After taking damage from an energy attack,",
+      "baseline": 1049.3,
+      "width": 871.5115789473685,
+      "icon_inline": true
+    },
+    {
+      "text": "you may draw the bottom card of your discard",
+      "baseline": 1108.3,
+      "width": 822.906,
+      "icon_inline": false
+    },
+    {
+      "text": "pile. Cannot be used with any other Black Drill in",
+      "baseline": 1167.3,
+      "width": 854.07,
+      "icon_inline": false
+    },
+    {
+      "text": "play.",
+      "baseline": 1226.3,
+      "width": 85.701,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.461,
+        44.5,
+        634.077,
+        69.0
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        186.654,
+        1013.53,
+        777.782,
+        45.913
+      ],
+      "rules-line-2": [
+        119.297,
+        1072.53,
+        820.407,
+        45.521
+      ],
+      "rules-line-3": [
+        104.302,
+        1131.53,
+        850.395,
+        45.521
+      ],
+      "rules-line-4": [
+        488.438,
+        1192.0,
+        82.124,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          94.5642,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          186.654,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          94.5642,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-136-black-free-style-drill.webp",
+      "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=d8b3e4594fd1",
+      "before_sha256": "d8b3e4594fd13658299d01e848b724f0bc184ad3f21fa3f1e8020f45cffa38c9",
+      "after_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-136-black-free-style-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=995e22a904c8",
+      "before_sha256": "995e22a904c85dc9bf7c6a65a5bfd734d0b3ba4984f26c8dd438e49851230468",
+      "after_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

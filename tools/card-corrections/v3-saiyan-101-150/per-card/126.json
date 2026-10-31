@@ -1,0 +1,147 @@
+{
+  "number": 126,
+  "id": "saiyan-126-orange-lifting-drill",
+  "name": "Orange Lifting Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-126-orange-lifting-drill.svg",
+  "native_source_sha256": "e0174b410ee3264e913788ab4145701ed76b0ed32319bb5b25b0c4165951ad83",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7c7d6ef964e0e6c178b9a32b0552767975bb4c7370fae8480c29bc132f732e2d.png",
+      "sha256": "7c7d6ef964e0e6c178b9a32b0552767975bb4c7370fae8480c29bc132f732e2d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "87d168c0d4628ec7c71bba4dcd5bd3a4af5cbae3a754954dc2f57bc3e27f0843",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Once per Combat,",
+      "baseline": 1049.3,
+      "width": 789.5859999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "during your turn in place of an attack, discard all",
+      "baseline": 1108.3,
+      "width": 867.153,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponents' Drills.",
+      "baseline": 1167.3,
+      "width": 442.51900000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        251.177,
+        44.5,
+        556.646,
+        69.0
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.459,
+        33.708
+      ],
+      "rules-line-1": [
+        135.552,
+        1012.11,
+        787.897,
+        46.305
+      ],
+      "rules-line-2": [
+        97.516,
+        1072.53,
+        863.968,
+        45.913
+      ],
+      "rules-line-3": [
+        309.784,
+        1131.53,
+        439.432,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-126-orange-lifting-drill.webp",
+      "before_url": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=0b8a5561be15",
+      "before_sha256": "0b8a5561be15b676c6d837f2d03fb454fcba3ae64eaccde736bca60aae76478f",
+      "after_sha256": "cab598e92a5d524782564648a31acc291f59c926fc2657c4db7cf545b21c976c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp?v=58a0e8fcd950",
+      "before_sha256": "58a0e8fcd9502eed1ebdf397acb97f42c0740b171a4cab3c5ee25c383fe5e511",
+      "after_sha256": "44b6776ca59146e024429b430880d034974a9a58daff8da66c44c2dd4c4425bc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

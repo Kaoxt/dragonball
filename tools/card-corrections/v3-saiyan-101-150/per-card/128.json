@@ -1,0 +1,165 @@
+{
+  "number": 128,
+  "id": "saiyan-128-red-knee-pick-drill",
+  "name": "Red Knee Pick Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-128-red-knee-pick-drill.svg",
+  "native_source_sha256": "79332252aa2373443e26396f1d153e73526e507eca734d80d4cdb9ef2cd6130f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9c64d0311ecf6e09b14d4750e65cd2c6911091b61418d833f0959c90af8d9924.png",
+      "sha256": "9c64d0311ecf6e09b14d4750e65cd2c6911091b61418d833f0959c90af8d9924"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "83b13177160ab3064d738e9dbf5f1884ae1a2209a3275b0bc5bb91a0318a038e",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "When entering Combat as the attacker, you",
+      "baseline": 1049.3,
+      "width": 860.4865789473685,
+      "icon_inline": true
+    },
+    {
+      "text": "may draw a card.",
+      "baseline": 1108.3,
+      "width": 308.21000000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        248.639,
+        50.2213,
+        561.722,
+        57.5574
+      ],
+      "card-category": [
+        456.339,
+        891.991,
+        146.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.459,
+        33.708
+      ],
+      "rules-line-1": [
+        192.599,
+        1013.53,
+        766.213,
+        45.913
+      ],
+      "rules-line-2": [
+        377.085,
+        1074.0,
+        304.829,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          100.188,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          192.599,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          100.188,
+          1015.0,
+          79.4316,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-128-red-knee-pick-drill.webp",
+      "before_url": "/assets/cards/saiyan-128-red-knee-pick-drill.webp?v=9107257e538f",
+      "before_sha256": "9107257e538f2b5916c2f290554c4252328e0bae423f4df7b9b96d50bb563e90",
+      "after_sha256": "887e85ca4bdb45f8da66472f3076d38ccff154ecd630b6d7024b05e56056c2ae",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-128-red-knee-pick-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-128-red-knee-pick-drill.webp?v=476b71919cb4",
+      "before_sha256": "476b71919cb4953723bf831c3610266a3a0f20b6dc13f04e6ba55c851d359a48",
+      "after_sha256": "66b79e7af96cd312d7b3161da98c0ee27412027faa2a9d74b396ea5ff24c871b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

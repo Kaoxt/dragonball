@@ -1,0 +1,159 @@
+{
+  "number": 119,
+  "id": "saiyan-119-vegetas-energy-blast",
+  "name": "Vegeta's Energy Blast",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-119-vegetas-energy-blast.svg",
+  "native_source_sha256": "068f12b0d8dae06a02264b608c28610360ccbb6e0f250ed3a83d9bf6c7fd0aa0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4.png",
+      "sha256": "124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "dbdbcb67855f3ec05485570da0fdb22e0099ab8be30cfb84444b2076517857d5",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Use when needed. This must",
+      "baseline": 1049.3,
+      "width": 889.3990000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "be your first card played this Combat. POWER:",
+      "baseline": 1108.3,
+      "width": 817.467,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your MP to its highest stage. Banish after",
+      "baseline": 1167.3,
+      "width": 836.234,
+      "icon_inline": false
+    },
+    {
+      "text": "use.",
+      "baseline": 1226.3,
+      "width": 74.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        200.287,
+        44.5,
+        658.425,
+        69.0
+      ],
+      "card-category": [
+        441.596,
+        891.991,
+        175.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        51.41,
+        33.708
+      ],
+      "rules-line-1": [
+        85.9275,
+        1013.53,
+        887.145,
+        45.913
+      ],
+      "rules-line-2": [
+        123.094,
+        1072.53,
+        812.812,
+        45.521
+      ],
+      "rules-line-3": [
+        112.647,
+        1131.53,
+        833.706,
+        45.913
+      ],
+      "rules-line-4": [
+        493.926,
+        1200.72,
+        71.148,
+        25.97
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-119-vegetas-energy-blast.webp",
+      "before_url": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=537c49c6c864",
+      "before_sha256": "537c49c6c8642c7f9d8c9d747dabb80010a298096feaf5cc70c7a978058cf7cc",
+      "after_sha256": "657fed2527713f0a799420e533790f4aaeaf6c5bf1639d024a0b6f8d4d3d568a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp",
+      "before_url": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=425d99646879",
+      "before_sha256": "425d996468798978dba00df903f809fcc6d095fdc9e426d4e344be5adaf7e965",
+      "after_sha256": "9187b0474ad9b2d1c0ec5776b4bcdae8fe32fa2e9c6a1939ac003360cb2ffb72",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}

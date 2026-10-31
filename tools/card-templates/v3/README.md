@@ -1,6 +1,6 @@
 # Dragon Ball OCG Master Templates V3
 
-Saiyan Saga 001–100 use the approved native SVG brush-theme system. The 48 Combat/Setup cards reuse the recent site illustrations; Earth Dragon Balls 1 and 2 use the approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
+Saiyan Saga 001–150 use the approved native SVG brush-theme system. The released batches use retained site illustrations with localized corrections; Earth Dragon Ball cards use approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
 
 Use `references/version-3-standard.md` and the inherited artwork, facial-expression, anatomy, wording and icon references before editing. The title center is (529.5,79), middle label center (529.5,908.5), and footer content center y1409.5. Rules use outlined Barlow Condensed Bold49 with natural spacing. V2 typography finalizers must not run on these files.
 
@@ -17,3 +17,7 @@ Release evidence is in `../../card-corrections/v3-saiyan-001-050/`. `tests/card-
 ## Saiyan 051–100 release
 
 The second batch includes 6 Personalities, 3 Dragon Balls and 41 Combat/Setup/Event cards. Native sources are in `saiyan-051-100/`; per-card data, actual-original visual review, localized corrections, and export verification are in `../../card-corrections/v3-saiyan-051-100/`. #91 retains the original 4-stage cost and 7-life-card damage, with banishment after use. Character-source bytes and the earlier Yamcha expression and Tien placement corrections remain separate native layers. New side extensions preserve source-visible hands, headwear and footwear. The composite viewBox must be mapped into the full V3 artwork window before rendering. The batch builder isolates font objects between render processes.
+
+## Saiyan 101–150 release
+
+The third batch contains 4 Personalities, 3 Setups, 4 Events, 12 Combat cards and 27 Drills. Native sources are in `saiyan-101-150/`; original scans, current Expanded CRD text, per-card visual notes, localized edge corrections and measured export evidence are in `../../card-corrections/v3-saiyan-101-150/`. #105 retains banishment as an attack cost. Full-height Personality artwork is centered left of the stage column using background continuation; native retained image layers protect the approved faces, poses and costumes. Cards with continuous damage reduction use infinity, while actual attack blocks use the shield. Three-digit footer numbers retain the shared left edge.

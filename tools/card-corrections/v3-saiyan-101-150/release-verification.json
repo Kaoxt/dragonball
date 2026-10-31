@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-31",
+  "cards": 50,
+  "display_images": 50,
+  "full_resolution_downloads": 50,
+  "all_native_sources_and_dependencies_match_hashes": true,
+  "all_images_decode": true,
+  "all_display_pixels_match_resized_lossless_download": true,
+  "all_original_scans_available_and_individually_compared": true,
+  "unrelated_catalog_records_unchanged": 849,
+  "artwork_corrections": [
+    "104",
+    "105",
+    "106",
+    "107",
+    "113",
+    "114",
+    "149"
+  ],
+  "placement_correction": {
+    "138": "Top alignment preserves all raised fingertips"
+  },
+  "scope_limit": "Visual comparison is separate from mechanical export checks. Tiny, occluded, watermarked and stylized details retain the limitations in visual-review.json.",
+  "checks": {
+    "site_tests": {
+      "passed": 173,
+      "failed": 0
+    },
+    "card_reference_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "syntax_and_wrangler_dry_run": "passed",
+    "local_browser_preview": "unavailable: managed preview could not start wrangler dev; live verification follows deployment"
+  }
+}

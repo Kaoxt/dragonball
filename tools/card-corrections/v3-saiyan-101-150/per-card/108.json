@@ -1,0 +1,159 @@
+{
+  "number": 108,
+  "id": "saiyan-108-gokus-energy-defense",
+  "name": "Goku's Energy Defense",
+  "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-108-gokus-energy-defense.svg",
+  "native_source_sha256": "77eada410f56e534d626fe3bc7fd8808db3884a2ac6e6acca181875a9c60385d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418.png",
+      "sha256": "78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "ca7d8e4de3e0bda0e90918666042060d9dcb3d337421439e83cc55e606e3bc91",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Reduce damage from a successful",
+      "baseline": 1049.3,
+      "width": 759.255,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack against you by 3 life cards. If used",
+      "baseline": 1108.3,
+      "width": 867.1039999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "by Goku, keep this card in play to use 1 more time",
+      "baseline": 1167.3,
+      "width": 875.7769999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "this Combat.",
+      "baseline": 1226.3,
+      "width": 223.195,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        185.963,
+        44.5,
+        687.075,
+        69.0
+      ],
+      "card-category": [
+        294.969,
+        891.391,
+        469.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.791,
+        33.708
+      ],
+      "rules-line-1": [
+        151.759,
+        1014.61,
+        755.482,
+        44.835
+      ],
+      "rules-line-2": [
+        97.6385,
+        1072.53,
+        863.723,
+        45.913
+      ],
+      "rules-line-3": [
+        93.204,
+        1131.53,
+        872.592,
+        45.521
+      ],
+      "rules-line-4": [
+        419.005,
+        1190.53,
+        220.99,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-108-gokus-energy-defense.webp",
+      "before_url": "/assets/cards/saiyan-108-gokus-energy-defense.webp?v=6e4816c1976f",
+      "before_sha256": "6e4816c1976ff45a97ffc92eb9d40ee80ae3f10fd2ee741db0d61c3714197b7e",
+      "after_sha256": "252e1aca3eaa7ccd97dc08bdd7ce06435caadeb29dcc65ba06be557b8b5fbf42",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp?v=71c50cb7c9be",
+      "before_sha256": "71c50cb7c9be63be59c4aa10f04a282b31b6012c9b8845a40d51aa025fed6dc4",
+      "after_sha256": "c2672cfdde651335a3b3a50bd2ed4c9bbaa0fef4210808fc8feb808465fd11f7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ]
+}
