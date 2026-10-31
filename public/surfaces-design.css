@@ -40,7 +40,8 @@
 
  /* Card power-box framing belongs to the main panels, not every nested control.
     The original card frame supplies an almost-black band, irregular inner strokes,
-    dark grey corner decals and a thin grey outer outline. A vector nine-slice
+    dark grey corner decals and one thin dark grey outer outline, with no inner
+    outline. A vector nine-slice
     preserves those details without live filters.
     The full-panel texture has worn edges and a quiet center without clipping menus,
     focus rings, or the existing heading brush. Six pixels protect the rails
@@ -55,14 +56,14 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-original-card-frame') 48 / 36px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-single-dark-outline') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
  /* Data tables use a smaller version of the same frame. Keep the scroll
     container intact so wide tables still pan horizontally on phones. */
  html[data-site-design=v2] body.arena-page .manual .table-scroll {
   background-clip:padding-box;border:6px solid transparent;border-radius:12px;
-  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-original-card-frame') 48 / 24px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-single-dark-outline') 48 / 24px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {

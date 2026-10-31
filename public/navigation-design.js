@@ -14,7 +14,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261031-original-card-frame';
+surfaces.href = '/surfaces-design.css?v=20261031-single-dark-outline';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

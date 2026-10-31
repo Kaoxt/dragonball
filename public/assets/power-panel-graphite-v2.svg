@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1014" height="378" viewBox="0 0 1014 378">
-  <!-- Adapted from the retained V3 card reference-power-frame. Transparent center; 48px nine-slice preserves the original dark corner decals and uneven black inner strokes. -->
+  <!-- Retained V3 corner decals and irregular black inner strokes. One thin dark grey OUTER outline only; no continuous inner highlight. Transparent center, 48px nine-slice. -->
   <g transform="translate(-22 -963)">
     <path d="M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z" fill="none" stroke="#060b0e" stroke-width="3.2"/>
     <path d="M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z M49 970H1008L1028 990V1314L1008 1333H49L30 1314V990Z" fill="#11191e" fill-rule="evenodd"/>
     <g id="reference-power-frame">
-      <path d="M49 970H1008L1028 990V1314L1008 1333H49L30 1314V990Z" fill="none" stroke="#8b9091" stroke-width=".65"/>
       <path d="M530 971L786 970L772 972L828 973L704 974L747 976L540 974Z" fill="#11171b" opacity=".82"/>
       <path d="M904 973L1008 973L1025 990L1026 1014L1022 1006L1020 991L995 978L940 977Z" fill="#11171b" opacity=".82"/>
       <path d="M35 1325L172 1329L163 1326L267 1328L226 1330L310 1331L47 1332Z" fill="#11171b" opacity=".82"/>
@@ -12,18 +11,17 @@
       <path d="M832 1330L1006 1328L1023 1312L1024 1283L1027 1294L1026 1314L1008 1333L854 1333Z" fill="#11171b" opacity=".82"/>
       <path d="M31 1068L34 1102L32 1144L36 1130L33 1228L31 1216Z" fill="#11171b" opacity=".82"/>
       <path d="M1026 1025L1023 1105L1026 1096L1024 1198L1027 1186L1027 1041Z" fill="#11171b" opacity=".82"/>
-      <path d="M1022 1237V1270" fill="none" stroke="#363b3e" stroke-width=".7" opacity=".65"/>
       <path d="M1002 966H1013L1033 987V1006L1022 997L1020 989Z" fill="#4b525c" stroke="#090e12" stroke-width="2.2" stroke-linejoin="miter"/>
       <path d="M1033 1300V1318L1013 1338H990L1003 1327L1013 1326L1022 1316Z" fill="#4b525c" stroke="#090e12" stroke-width="2.2" stroke-linejoin="miter"/>
       <path d="M25 1299L36 1309L38 1319L49 1329L65 1338H45L25 1318Z" fill="#4b525c" stroke="#090e12" stroke-width="2.2" stroke-linejoin="miter"/>
-      <path d="M1009 969L1029 989V999 M1029 1307V1316L1011 1334H1000 M29 1307V1316L47 1334H56" fill="none" stroke="#78828a" stroke-width=".9"/>
+      <path d="M1009 969L1029 989V999 M1029 1307V1316L1011 1334H1000 M29 1307V1316L47 1334H56" fill="none" stroke="#5e6871" stroke-width=".9"/>
       <path d="M1017 983L1024 991L1028 991 M1011 1329L1018 1324 M35 1322L41 1328" fill="none" stroke="#262d37" stroke-width="2"/>
     </g>
     <g id="matching-upper-left-power-corner" transform="translate(1058 0) scale(-1 1)">
       <path d="M1002 966H1013L1033 987V1006L1022 997L1020 989Z" fill="#4b525c" stroke="#090e12" stroke-width="2.2" stroke-linejoin="miter"/>
-      <path d="M1009 969L1029 989V999" fill="none" stroke="#78828a" stroke-width=".9"/>
+      <path d="M1009 969L1029 989V999" fill="none" stroke="#5e6871" stroke-width=".9"/>
       <path d="M1017 983L1024 991L1028 991" fill="none" stroke="#262d37" stroke-width="2"/>
     </g>
-    <path id="shared-rules-outer-rail" d="M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z" fill="none" stroke="#69747b" stroke-width=".95"/>
+    <path id="shared-rules-outer-rail" d="M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z" fill="none" stroke="#374146" stroke-width=".95" data-reference="Dark outer-edge grey sampled from user close-up; no inner outline."/>
   </g>
 </svg>

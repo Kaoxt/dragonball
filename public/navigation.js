@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261031-original-card-frame';
+import './navigation-design.js?v=20261031-single-dark-outline';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
