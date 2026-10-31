@@ -5,6 +5,11 @@
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
+  /* Follow the decal contours at 36/48 scale, minus the 6px panel inset.
+     A .25px overlap inside each black stroke closes antialiased seams. */
+  --v2-frame-top-clip:polygon(17.3px 0,calc(100% - 17.3px) 0,calc(100% - 6.53px) 13.76px,calc(100% - 5.01px) 19.82px,100% 23.92px,100% 100%,0 100%,0 23.92px,5.01px 19.82px,6.53px 13.76px);
+  --v2-frame-bottom-clip:polygon(0 0,100% 0,100% calc(100% - 20.31px),calc(100% - 4.95px) calc(100% - 13.11px),calc(100% - 11.53px) calc(100% - 5.8px),calc(100% - 18.99px) calc(100% - 5.05px),calc(100% - 24.96px) 100%,20.76px 100%,14.59px calc(100% - 3.47px),6.53px calc(100% - 10.8px),5.03px calc(100% - 18.3px),0 calc(100% - 22.87px));
+  --v2-frame-bottom-left-clip:polygon(0 0,100% 0,100% 100%,20.76px 100%,14.59px calc(100% - 3.47px),6.53px calc(100% - 10.8px),5.03px calc(100% - 18.3px),0 calc(100% - 22.87px));
   --v2-panel-fill:url('/assets/panel-worn-v2.webp');
  }
 
@@ -56,14 +61,14 @@
  html[data-site-design=v2] body.arena-page #deck-panel {
   background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
   background-clip:padding-box;border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-lighter-inner-band') 48 / 36px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
  /* Data tables use a smaller version of the same frame. Keep the scroll
     container intact so wide tables still pan horizontally on phones. */
  html[data-site-design=v2] body.arena-page .manual .table-scroll {
   background-clip:padding-box;border:6px solid transparent;border-radius:12px;
-  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-lighter-inner-band') 48 / 24px / 0 stretch;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 24px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
@@ -184,7 +189,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
+  clip-path:var(--v2-frame-top-clip);
  }
  html[data-site-design=v2] body.home-page .next-move>h2 img {display:none}
  html[data-site-design=v2] body.home-page .next-move-label {display:inline}
@@ -205,7 +210,7 @@
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link+.hub-link {border-top:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child {border-bottom:0}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
-  clip-path:polygon(0 0,100% 0,100% calc(100% - 24px),calc(100% - 24px) 100%,24px 100%,0 calc(100% - 24px));
+  clip-path:var(--v2-frame-bottom-clip);
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:#65717a;color:#fff}
@@ -221,7 +226,7 @@
  }
  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
   inset:0;-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
+  clip-path:var(--v2-frame-top-clip);
  }
  @media(max-width:1000px) {
   html[data-site-design=v2] body.rulebook-page .manual .chapter {--chapter-pad-x:23px;--chapter-pad-bottom:23px}
@@ -240,7 +245,7 @@
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:var(--forum-title-fill,var(--v2-brush-fill));-webkit-mask:none;mask:none;filter:none;
-  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
+  clip-path:var(--v2-frame-top-clip);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
 
@@ -253,8 +258,8 @@
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:transparent}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
- /* The original corner decals end on x+y=36: after the 6px panel inset, a 24px cutout
-    exposes the full bevel. Clip paint only; menus and focus rings stay free. */
+ /* The background follows each decal's inner edge without exposing the panel
+    texture. Clip paint only; menus and focus rings stay free. */
  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {
   position:relative;isolation:isolate;background:transparent;border-radius:0;
  }
@@ -263,10 +268,10 @@
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar {z-index:1}
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar::before {
-  clip-path:polygon(24px 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%,0 24px);
+  clip-path:var(--v2-frame-top-clip);
  }
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {
-  clip-path:polygon(0 0,100% 0,100% 100%,24px 100%,0 calc(100% - 24px));
+  clip-path:var(--v2-frame-bottom-left-clip);
  }
 
 

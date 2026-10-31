@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261031-lighter-inner-band';
+import './navigation-design.js?v=20261031-joined-dark-corners';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
