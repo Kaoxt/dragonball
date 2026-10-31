@@ -4,8 +4,7 @@
     "number": 1,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-001-orange-standing-fist-punch.svg",
-    "native_source_sha256": "15a46a4871f6cb7292e6ada034b4ca259621780877ffb226efc9f4b8974baccb",
-    "standalone_master_sha256": "18f04dce8042496fdf2e8684411bb3b6131f13126e8a1ff7dae014cccc004f12",
+    "native_source_sha256": "8d6d68234d8e9772e806933b94b6d69d804bacf47d69705f4385d8417a185bc3",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -28,15 +27,15 @@
       "id": "saiyan-001-orange-standing-fist-punch",
       "bounds": {
         "card-title": [
-          118.382,
-          44.5,
-          822.236,
-          69.0
+          179.5,
+          49.6289,
+          700.0,
+          58.7423
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -114,7 +113,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "18f04dce8042496fdf2e8684411bb3b6131f13126e8a1ff7dae014cccc004f12"
+      "native_source_sha256": "8d6d68234d8e9772e806933b94b6d69d804bacf47d69705f4385d8417a185bc3"
     },
     "artwork": {
       "full_art": false,
@@ -155,8 +154,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-001-orange-standing-fist-punch.webp",
-        "before_url": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=e073a447152f",
-        "after_sha256": "6c9b8f9c81556938de8ffdb57fb01155c08349b18c55e1b522a48773d97eb3dd",
+        "before_url": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=6c9b8f9c8155",
+        "after_sha256": "dc24b34176f08aface8e83e72739a8abda2059b45d6d3afea5bd8d94c03ebc14",
         "size": [
           1060,
           1484
@@ -166,23 +165,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp",
-        "before_url": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=65a7096d5653",
-        "after_sha256": "13591442f604acb7911131c71aa3d19cccc375831b05c23c234eb744ee6fcaf6",
+        "before_url": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=13591442f604",
+        "after_sha256": "6bdfccf15f3965b39451f36d551c46153e2788a101b179529d9c00530ff89af2",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 73.24474207387254,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 700.0,
+        "visible_height": 58.742283143245785,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 0.8513374368586344
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "135ea410c9094c3d26e6db2764e3b6e5a13aa427a54de2ebc80d5865d620eac0",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "15a46a4871f6cb7292e6ada034b4ca259621780877ffb226efc9f4b8974baccb",
+        "standalone_master_sha256": "18f04dce8042496fdf2e8684411bb3b6131f13126e8a1ff7dae014cccc004f12",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-001-orange-standing-fist-punch.webp",
+            "before_url": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=e073a447152f",
+            "after_sha256": "6c9b8f9c81556938de8ffdb57fb01155c08349b18c55e1b522a48773d97eb3dd",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp",
+            "before_url": "/assets/cards/downloads/saiyan-001-orange-standing-fist-punch.webp?v=65a7096d5653",
+            "after_sha256": "13591442f604acb7911131c71aa3d19cccc375831b05c23c234eb744ee6fcaf6",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-002-orange-one-knuckle-punch",
     "number": 2,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-002-orange-one-knuckle-punch.svg",
-    "native_source_sha256": "6344d910762209180c33ea09f4477d2758ed1f55bd9a79751f946534e85bd1fb",
-    "standalone_master_sha256": "6492fc6c33fa4455520faaca2cc986792a886bf2918031b5e680cc84537297c4",
+    "native_source_sha256": "eaffcc047a2826fe356cec4af0555790f9f3541c084ece19778b6dcbd637a174",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -205,15 +274,15 @@
       "id": "saiyan-002-orange-one-knuckle-punch",
       "bounds": {
         "card-title": [
-          128.061,
-          44.5,
-          802.878,
-          69.0
+          179.5,
+          48.9207,
+          700.0,
+          60.1586
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -291,7 +360,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "6492fc6c33fa4455520faaca2cc986792a886bf2918031b5e680cc84537297c4"
+      "native_source_sha256": "eaffcc047a2826fe356cec4af0555790f9f3541c084ece19778b6dcbd637a174"
     },
     "artwork": {
       "full_art": false,
@@ -332,8 +401,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-002-orange-one-knuckle-punch.webp",
-        "before_url": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=04c051bd0014",
-        "after_sha256": "98a79cd0bf59d1b5d9a3f572b64992ccccd2bbfa3e194badef7ad2de8f53e9c8",
+        "before_url": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=98a79cd0bf59",
+        "after_sha256": "86ee839af1f8c569e7e12139161e9a17f5046a79de5df694421cf2275f0d9a10",
         "size": [
           1060,
           1484
@@ -343,23 +412,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp",
-        "before_url": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=70b3fe01206d",
-        "after_sha256": "43f033773f9f4e4a261c61bdfd68b796e373d3124ab085d73631aa4ec752e5f2",
+        "before_url": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=43f033773f9f",
+        "after_sha256": "3179e4a3fb90e04bcdb02906b148b24f8cbbb507f7983f180d69b97ea000855e",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 75.01071581654521,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 699.9999999999999,
+        "visible_height": 60.15859408486926,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 0.8718636823894095
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "7bd7d25c7dc2b588a274b5ca78bdd70c24b56e8d99a2288c0013f64d96fffeac",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "6344d910762209180c33ea09f4477d2758ed1f55bd9a79751f946534e85bd1fb",
+        "standalone_master_sha256": "6492fc6c33fa4455520faaca2cc986792a886bf2918031b5e680cc84537297c4",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-002-orange-one-knuckle-punch.webp",
+            "before_url": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=04c051bd0014",
+            "after_sha256": "98a79cd0bf59d1b5d9a3f572b64992ccccd2bbfa3e194badef7ad2de8f53e9c8",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp",
+            "before_url": "/assets/cards/downloads/saiyan-002-orange-one-knuckle-punch.webp?v=70b3fe01206d",
+            "after_sha256": "43f033773f9f4e4a261c61bdfd68b796e373d3124ab085d73631aa4ec752e5f2",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-003-orange-two-knuckle-punch",
     "number": 3,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-003-orange-two-knuckle-punch.svg",
-    "native_source_sha256": "d1d07b3a3dc84a65ccc88122932aa644a3c8e3e428495491f295100bcf6df3f1",
-    "standalone_master_sha256": "a4f65f0b5fb9acaf7d7ff652bdfd7b4e4d510d15cdafacc372f7e5a11d3b43df",
+    "native_source_sha256": "0f652413340e74033bfe978adc3392f560eea4d569eb4770901fccc205beab21",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -382,15 +521,15 @@
       "id": "saiyan-003-orange-two-knuckle-punch",
       "bounds": {
         "card-title": [
-          123.071,
-          44.5,
-          812.858,
-          69.0
+          179.5,
+          49.29,
+          700.0,
+          59.42
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -468,7 +607,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "a4f65f0b5fb9acaf7d7ff652bdfd7b4e4d510d15cdafacc372f7e5a11d3b43df"
+      "native_source_sha256": "0f652413340e74033bfe978adc3392f560eea4d569eb4770901fccc205beab21"
     },
     "artwork": {
       "full_art": false,
@@ -509,8 +648,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-003-orange-two-knuckle-punch.webp",
-        "before_url": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=327e7186582e",
-        "after_sha256": "a7681f563d364b2034ed0a8cdd570bf3a1818da11bf802815c4fbeb28743f51c",
+        "before_url": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=a7681f563d36",
+        "after_sha256": "979454917c86916dde0ac3972000ca5b9debfc1a7718a75f50f1f8d5ad284f68",
         "size": [
           1060,
           1484
@@ -520,23 +659,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp",
-        "before_url": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=090619216a28",
-        "after_sha256": "685f8b58021726865ff3dad745c344c357cedd2844acd1aed5dabffbfe42a46c",
+        "before_url": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=685f8b580217",
+        "after_sha256": "703ca6c2bdbf65b679c68d38911978b6dff18f3559fee3840e9e917882161ec1",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 74.08975444538527,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 700.0,
+        "visible_height": 59.419983065198984,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 0.8611591748579562
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "330ada0b4a8e99db087fa3dfacdc26f91563be4ea09df7d39fdcc829c8931e46",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "d1d07b3a3dc84a65ccc88122932aa644a3c8e3e428495491f295100bcf6df3f1",
+        "standalone_master_sha256": "a4f65f0b5fb9acaf7d7ff652bdfd7b4e4d510d15cdafacc372f7e5a11d3b43df",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-003-orange-two-knuckle-punch.webp",
+            "before_url": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=327e7186582e",
+            "after_sha256": "a7681f563d364b2034ed0a8cdd570bf3a1818da11bf802815c4fbeb28743f51c",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp",
+            "before_url": "/assets/cards/downloads/saiyan-003-orange-two-knuckle-punch.webp?v=090619216a28",
+            "after_sha256": "685f8b58021726865ff3dad745c344c357cedd2844acd1aed5dabffbfe42a46c",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-004-orange-leg-sweep",
     "number": 4,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-004-orange-leg-sweep.svg",
-    "native_source_sha256": "82f9e70afd54f2a2365fb3da07cab35878361f47584b7c145df6c40702857089",
-    "standalone_master_sha256": "7f9cea04cca248c73ea5b3ec7b72389fa83d15079fe9897588f778fb240c753c",
+    "native_source_sha256": "5019abed3fc9532cfee6d3400f3f1fe30ddf530db335f12b7c5214e75484b03d",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -569,9 +778,9 @@
           66.1608
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -626,7 +835,7 @@
           "capital_glyph_index": 0,
           "previous_visible_bounds": [
             126.691,
-            1014.89,
+            1014.86,
             40.4392,
             34.3
           ],
@@ -642,14 +851,14 @@
             40.4392,
             34.3
           ],
-          "vertical_shift": -0.02549999999996544,
+          "vertical_shift": 0,
           "center_error": -0.004500000000007276,
           "shape_size_and_horizontal_position_preserved": true,
           "colon_and_text_unchanged": false
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "7f9cea04cca248c73ea5b3ec7b72389fa83d15079fe9897588f778fb240c753c"
+      "native_source_sha256": "5019abed3fc9532cfee6d3400f3f1fe30ddf530db335f12b7c5214e75484b03d"
     },
     "artwork": {
       "full_art": false,
@@ -722,8 +931,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-004-orange-leg-sweep.webp",
-        "before_url": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=637a4a311261",
-        "after_sha256": "0fe65f58ebbdf3ff2157ed6a998f748fd2992c70434550994e8e011e2ecfbb4c",
+        "before_url": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=0fe65f58ebbd",
+        "after_sha256": "7665649ef0144ad45550f7ffb7db8b404047722b0da7707e3a1e93c5a20e160a",
         "size": [
           1060,
           1484
@@ -733,23 +942,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp",
-        "before_url": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=e30ee3ee26b2",
-        "after_sha256": "b8ea0ea5f95eb13d1d1f0fdc33a8ecc483fba4aa748bb3c9a70b565ec3b670e8",
+        "before_url": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=b8ea0ea5f95e",
+        "after_sha256": "ec97b4b2f1f78c9c32c2552ffc0e7b987c2f757d95bbe97ad588745f3e60fa68",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 549.1608478802993,
+        "visible_height": 66.16084788029926,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "f8fcab8a6ed6363c1ad2b82f64dbfb6e41b0f52109e6ace1d242d8c42655060b",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "82f9e70afd54f2a2365fb3da07cab35878361f47584b7c145df6c40702857089",
+        "standalone_master_sha256": "7f9cea04cca248c73ea5b3ec7b72389fa83d15079fe9897588f778fb240c753c",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-004-orange-leg-sweep.webp",
+            "before_url": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=637a4a311261",
+            "after_sha256": "0fe65f58ebbdf3ff2157ed6a998f748fd2992c70434550994e8e011e2ecfbb4c",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp",
+            "before_url": "/assets/cards/downloads/saiyan-004-orange-leg-sweep.webp?v=e30ee3ee26b2",
+            "after_sha256": "b8ea0ea5f95eb13d1d1f0fdc33a8ecc483fba4aa748bb3c9a70b565ec3b670e8",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-005-orange-arm-bar",
     "number": 5,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-005-orange-arm-bar.svg",
-    "native_source_sha256": "faaa27bcfe6196a89987a6907be5da1d3af45229d17ea3b041a8fd7c27afee49",
-    "standalone_master_sha256": "92fc15ed490fa7c75a9557364efa8f8208e876c63b398fdb79c2d7793f0e51d6",
+    "native_source_sha256": "5ddaf537636f22d933152fdab24094cab30c650cc221a598c27fd5521773590c",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -778,9 +1057,9 @@
           66.1608
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -858,7 +1137,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "92fc15ed490fa7c75a9557364efa8f8208e876c63b398fdb79c2d7793f0e51d6"
+      "native_source_sha256": "5ddaf537636f22d933152fdab24094cab30c650cc221a598c27fd5521773590c"
     },
     "artwork": {
       "full_art": false,
@@ -899,8 +1178,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-005-orange-arm-bar.webp",
-        "before_url": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=dcb22c6ea82b",
-        "after_sha256": "6b74694de3082f8e4caec89cf518d1973089af9223d6001908a71afd1dc6e4df",
+        "before_url": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=6b74694de308",
+        "after_sha256": "173855af51c849288993984819f13c9bf2088a66f62980f6a9899fab490d2158",
         "size": [
           1060,
           1484
@@ -910,23 +1189,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-005-orange-arm-bar.webp",
-        "before_url": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=ac8dc1584bc0",
-        "after_sha256": "a018d6f2a285a75cfb950cd117d48a49473ffb728589becfe0ee4733ad830afc",
+        "before_url": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=a018d6f2a285",
+        "after_sha256": "ca527ed0859b8ba7017792feeac814b5f8663db4b9b687da0f16cb9bbce1b33c",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 469.8366583541148,
+        "visible_height": 66.16084788029926,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "4bde5332252a2ef9a5d763ea826f9d1e30b711708120836f8ff16ad2b44cbbf1",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "faaa27bcfe6196a89987a6907be5da1d3af45229d17ea3b041a8fd7c27afee49",
+        "standalone_master_sha256": "92fc15ed490fa7c75a9557364efa8f8208e876c63b398fdb79c2d7793f0e51d6",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-005-orange-arm-bar.webp",
+            "before_url": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=dcb22c6ea82b",
+            "after_sha256": "6b74694de3082f8e4caec89cf518d1973089af9223d6001908a71afd1dc6e4df",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-005-orange-arm-bar.webp",
+            "before_url": "/assets/cards/downloads/saiyan-005-orange-arm-bar.webp?v=ac8dc1584bc0",
+            "after_sha256": "a018d6f2a285a75cfb950cd117d48a49473ffb728589becfe0ee4733ad830afc",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-006-red-lunge-punch",
     "number": 6,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-006-red-lunge-punch.svg",
-    "native_source_sha256": "67bd32e766631c970f7cde6229775fcc57f3208a8506258ad828f74c3487e010",
-    "standalone_master_sha256": "934315a6106e4635e4ee18df8fe07c0a2b46c9e34d41980a6592b210e9187a39",
+    "native_source_sha256": "2aa0274529320cfd37b644f88fd16610033708863a8d378cb14ecad4e5067512",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -955,9 +1304,9 @@
           69.0
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -1035,7 +1384,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "934315a6106e4635e4ee18df8fe07c0a2b46c9e34d41980a6592b210e9187a39"
+      "native_source_sha256": "2aa0274529320cfd37b644f88fd16610033708863a8d378cb14ecad4e5067512"
     },
     "artwork": {
       "full_art": false,
@@ -1076,8 +1425,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-006-red-lunge-punch.webp",
-        "before_url": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=870146356ba9",
-        "after_sha256": "75dd63f8d27d11ea1b709b15a138ebaf3c682091569b2e4997bfbbc33327f440",
+        "before_url": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=75dd63f8d27d",
+        "after_sha256": "3b2772fbcdcd8e47215672f526c7a2b8c9d4191925ec22c7344d2d3412ca2fc2",
         "size": [
           1060,
           1484
@@ -1087,23 +1436,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-006-red-lunge-punch.webp",
-        "before_url": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=1e7296c186b8",
-        "after_sha256": "1c204c739fa0e2e42b84efe4a13be193ec5387403f36a82a1a02865ee61fa765",
+        "before_url": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=1c204c739fa0",
+        "after_sha256": "bb7f469f278b5f4bc671e35baf6b956fef81c943591384b628c7e3fe05012acb",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 508.1221945137158,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "d597c113e66fcc591326a856b7dccf12edb8510ce0235a6250082a75706e73ed",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "67bd32e766631c970f7cde6229775fcc57f3208a8506258ad828f74c3487e010",
+        "standalone_master_sha256": "934315a6106e4635e4ee18df8fe07c0a2b46c9e34d41980a6592b210e9187a39",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-006-red-lunge-punch.webp",
+            "before_url": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=870146356ba9",
+            "after_sha256": "75dd63f8d27d11ea1b709b15a138ebaf3c682091569b2e4997bfbbc33327f440",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-006-red-lunge-punch.webp",
+            "before_url": "/assets/cards/downloads/saiyan-006-red-lunge-punch.webp?v=1e7296c186b8",
+            "after_sha256": "1c204c739fa0e2e42b84efe4a13be193ec5387403f36a82a1a02865ee61fa765",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-007-red-reverse-punch",
     "number": 7,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-007-red-reverse-punch.svg",
-    "native_source_sha256": "462941a3b5b9b4acabfc241546ac61b16c9215b776d64fab1beca91ce625db7f",
-    "standalone_master_sha256": "a9876840684adc1a63084bbdedd619a6afc3812149df2d5ada6ec7b84acb7bb0",
+    "native_source_sha256": "cc61bb95b31db876953df2bf7bc565bba18abe6045266e68c807d7cfff36e8bb",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -1132,9 +1551,9 @@
           57.5574
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -1212,7 +1631,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "a9876840684adc1a63084bbdedd619a6afc3812149df2d5ada6ec7b84acb7bb0"
+      "native_source_sha256": "cc61bb95b31db876953df2bf7bc565bba18abe6045266e68c807d7cfff36e8bb"
     },
     "artwork": {
       "full_art": false,
@@ -1253,8 +1672,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-007-red-reverse-punch.webp",
-        "before_url": "/assets/cards/saiyan-007-red-reverse-punch.webp?v=519276b60055",
-        "after_sha256": "14d026ebfda5c560c31aa06ef371cf7150cd66f8acd52b2c966186b944a96be1",
+        "before_url": "/assets/cards/saiyan-007-red-reverse-punch.webp?v=14d026ebfda5",
+        "after_sha256": "005716ee9206fe91ceb3ac131d35fc3bc697ae92092563e875d75ab54b94f517",
         "size": [
           1060,
           1484
@@ -1264,23 +1683,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-007-red-reverse-punch.webp",
-        "before_url": "/assets/cards/downloads/saiyan-007-red-reverse-punch.webp?v=9b2f58165072",
-        "after_sha256": "ddc7b0e4ee9475c45a9485abfa47261722accebe06552dfb4b90fd81f3c34bd4",
+        "before_url": "/assets/cards/downloads/saiyan-007-red-reverse-punch.webp?v=ddc7b0e4ee94",
+        "after_sha256": "e70d221234970af3fe2aa00de8f9ee48bd2f0597b0c4c06d888b0895d12de59f",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 572.4763092269327,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "e59c7d0d82abb71082d3269b61c703797d01d9fe4c3bee53a225fcbe8ab18ca8",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "462941a3b5b9b4acabfc241546ac61b16c9215b776d64fab1beca91ce625db7f",
+        "standalone_master_sha256": "a9876840684adc1a63084bbdedd619a6afc3812149df2d5ada6ec7b84acb7bb0",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-007-red-reverse-punch.webp",
+            "before_url": "/assets/cards/saiyan-007-red-reverse-punch.webp?v=519276b60055",
+            "after_sha256": "14d026ebfda5c560c31aa06ef371cf7150cd66f8acd52b2c966186b944a96be1",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-007-red-reverse-punch.webp",
+            "before_url": "/assets/cards/downloads/saiyan-007-red-reverse-punch.webp?v=9b2f58165072",
+            "after_sha256": "ddc7b0e4ee9475c45a9485abfa47261722accebe06552dfb4b90fd81f3c34bd4",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-008-red-knife-hand",
     "number": 8,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-008-red-knife-hand.svg",
-    "native_source_sha256": "5e686fb4c552dca1f6a1fe9399702c23fe3cecb516cdd3ebcf19b8bd2ec3a28a",
-    "standalone_master_sha256": "68faf4cef53836b9ec3e756beff90cf713ce981a82a0485d7a3f85c0e923ed7c",
+    "native_source_sha256": "b13f2777a2e5abe6fd5d99730ac6c824d7266048dd350431b75d45f9e794d8e5",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -1313,9 +1802,9 @@
           57.5574
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -1370,7 +1859,7 @@
           "capital_glyph_index": 0,
           "previous_visible_bounds": [
             100.378,
-            1014.89,
+            1014.86,
             40.4392,
             34.3
           ],
@@ -1386,14 +1875,14 @@
             40.4392,
             34.3
           ],
-          "vertical_shift": -0.02549999999996544,
+          "vertical_shift": 0,
           "center_error": -0.004500000000007276,
           "shape_size_and_horizontal_position_preserved": true,
           "colon_and_text_unchanged": false
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "68faf4cef53836b9ec3e756beff90cf713ce981a82a0485d7a3f85c0e923ed7c"
+      "native_source_sha256": "b13f2777a2e5abe6fd5d99730ac6c824d7266048dd350431b75d45f9e794d8e5"
     },
     "artwork": {
       "full_art": false,
@@ -1467,8 +1956,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-008-red-knife-hand.webp",
-        "before_url": "/assets/cards/saiyan-008-red-knife-hand.webp?v=308fbd05312f",
-        "after_sha256": "02441dd85f0636ab1d2a6f2ddb9225a85c2901d8ce2a3121149f04dc7fe978af",
+        "before_url": "/assets/cards/saiyan-008-red-knife-hand.webp?v=02441dd85f06",
+        "after_sha256": "8db14c3f915739960c927f506d4c210188d89e234deb1048598b3f3a75d264e2",
         "size": [
           1060,
           1484
@@ -1478,23 +1967,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-008-red-knife-hand.webp",
-        "before_url": "/assets/cards/downloads/saiyan-008-red-knife-hand.webp?v=34a6044a11ba",
-        "after_sha256": "1d7653114576502c94db960f2dd520d50bffc6fe7aa22c5900952d3c1bd0064f",
+        "before_url": "/assets/cards/downloads/saiyan-008-red-knife-hand.webp?v=1d7653114576",
+        "after_sha256": "c86dfc529a6714b3c12edf35dce55ba0e2cfb7446eff3f0fcf9bf95482559bae",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 452.19950124688285,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "4a4c6172f7348ace8f1dbeb2b662f459a7bf4e4fee0012a9e928377555ae2a70",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "5e686fb4c552dca1f6a1fe9399702c23fe3cecb516cdd3ebcf19b8bd2ec3a28a",
+        "standalone_master_sha256": "68faf4cef53836b9ec3e756beff90cf713ce981a82a0485d7a3f85c0e923ed7c",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-008-red-knife-hand.webp",
+            "before_url": "/assets/cards/saiyan-008-red-knife-hand.webp?v=308fbd05312f",
+            "after_sha256": "02441dd85f0636ab1d2a6f2ddb9225a85c2901d8ce2a3121149f04dc7fe978af",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-008-red-knife-hand.webp",
+            "before_url": "/assets/cards/downloads/saiyan-008-red-knife-hand.webp?v=34a6044a11ba",
+            "after_sha256": "1d7653114576502c94db960f2dd520d50bffc6fe7aa22c5900952d3c1bd0064f",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-009-red-palm-heel-strike",
     "number": 9,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-009-red-palm-heel-strike.svg",
-    "native_source_sha256": "6f220e367613585ed9c72f910ab0b6de511b4fcaf8ad6194693450939f47fb73",
-    "standalone_master_sha256": "1dd5f2641687badd01bd2aaed3bd8a1f083b8448ea32b329a40736aa8d902e66",
+    "native_source_sha256": "3d24b2bc5b464fb071090c4a64b35a145c22a99b9d4d8bc35d99be1e82d20a80",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -1523,9 +2082,9 @@
           57.5574
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -1603,7 +2162,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "1dd5f2641687badd01bd2aaed3bd8a1f083b8448ea32b329a40736aa8d902e66"
+      "native_source_sha256": "3d24b2bc5b464fb071090c4a64b35a145c22a99b9d4d8bc35d99be1e82d20a80"
     },
     "artwork": {
       "full_art": false,
@@ -1644,8 +2203,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-009-red-palm-heel-strike.webp",
-        "before_url": "/assets/cards/saiyan-009-red-palm-heel-strike.webp?v=43c1aad6544f",
-        "after_sha256": "0d3c5e3554fac1a463c7e2dba8846141012778e3aa0fae153c7e0d282598a627",
+        "before_url": "/assets/cards/saiyan-009-red-palm-heel-strike.webp?v=0d3c5e3554fa",
+        "after_sha256": "19e387bd9e8af5623bf7d84f1cfed9c8945e85f1ac3597794013c7586dca28b7",
         "size": [
           1060,
           1484
@@ -1655,23 +2214,93 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp",
-        "before_url": "/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp?v=a1406d71f2f3",
-        "after_sha256": "6d723746e0ccf7be929526b499d57b52ab72c431d5a74bcf3ea95e0495b920e3",
+        "before_url": "/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp?v=6d723746e0cc",
+        "after_sha256": "3b22aec9ef2558e055ff9ac2d0e0db86417ac0a84ce030d85b66bfec5700facb",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 622.9788029925188,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "3de52740380ec945927974fe466734271ab365d442e31e03884dd5ce06c4ca85",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "6f220e367613585ed9c72f910ab0b6de511b4fcaf8ad6194693450939f47fb73",
+        "standalone_master_sha256": "1dd5f2641687badd01bd2aaed3bd8a1f083b8448ea32b329a40736aa8d902e66",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-009-red-palm-heel-strike.webp",
+            "before_url": "/assets/cards/saiyan-009-red-palm-heel-strike.webp?v=43c1aad6544f",
+            "after_sha256": "0d3c5e3554fac1a463c7e2dba8846141012778e3aa0fae153c7e0d282598a627",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp",
+            "before_url": "/assets/cards/downloads/saiyan-009-red-palm-heel-strike.webp?v=a1406d71f2f3",
+            "after_sha256": "6d723746e0ccf7be929526b499d57b52ab72c431d5a74bcf3ea95e0495b920e3",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-010-red-elbow-strike",
     "number": 10,
     "template_version": 3,
     "native_source_path": "tools/card-templates/v3/saiyan-001-050/saiyan-010-red-elbow-strike.svg",
-    "native_source_sha256": "2066e870bfd7cbe2beab25f1e0217f7306b0d11ee2bafa83713ea4495efa6503",
-    "standalone_master_sha256": "c0b42491123dd42f2d5676cd56e3fd45bc569d7ede5b4e2916b018702dac748d",
+    "native_source_sha256": "c2a563bf3aa8b7b319abe0dde77e2e02d361262d52ba70fecf2d2f944f6190ad",
     "assets": [
       {
         "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
@@ -1700,9 +2329,9 @@
           57.5574
         ],
         "card-category": [
-          270.726,
+          242.726,
           891.391,
-          517.549,
+          573.549,
           34.2188
         ],
         "footer-text-block": [
@@ -1780,7 +2409,7 @@
         }
       ],
       "native_outlined_text": true,
-      "master_sha256": "c0b42491123dd42f2d5676cd56e3fd45bc569d7ede5b4e2916b018702dac748d"
+      "native_source_sha256": "c2a563bf3aa8b7b319abe0dde77e2e02d361262d52ba70fecf2d2f944f6190ad"
     },
     "artwork": {
       "full_art": false,
@@ -1821,8 +2450,8 @@
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-010-red-elbow-strike.webp",
-        "before_url": "/assets/cards/saiyan-010-red-elbow-strike.webp?v=b9e56d6a300d",
-        "after_sha256": "8f0a8d96d6343601a490caa030b72c6cbc980d614ff7ea5a94129efd7a724fab",
+        "before_url": "/assets/cards/saiyan-010-red-elbow-strike.webp?v=8f0a8d96d634",
+        "after_sha256": "2ea256195c6f817633a1e821538d5e2cbe6625ca2d8647cd0ec7486b6e978dc5",
         "size": [
           1060,
           1484
@@ -1832,15 +2461,86 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-010-red-elbow-strike.webp",
-        "before_url": "/assets/cards/downloads/saiyan-010-red-elbow-strike.webp?v=dfdd2ee77dd8",
-        "after_sha256": "549feaf127d3651965bc97a378c530412d16665a72a43160c075f7cfdd78ad94",
+        "before_url": "/assets/cards/downloads/saiyan-010-red-elbow-strike.webp?v=549feaf127d3",
+        "after_sha256": "9c6224209622a5d4e4bd7750a014367a10d8daa8b13dfa0f8bbb563f4c7b9a8e",
         "size": [
           2120,
           2968
         ],
         "lossless_round_trip": true
       }
-    ]
+    ],
+    "current_preview_revision": {
+      "date": "2026-10-31",
+      "background_gain_srgb": 1.2,
+      "gain_scope": "continuous original frame only; artwork and brushes unchanged",
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 502.7880299251871,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 700.0,
+        "scale_factor": 1.0
+      },
+      "middle_typography": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+      "middle_clip": [
+        0,
+        852,
+        1060,
+        113
+      ],
+      "artwork_group_unchanged": true,
+      "png_sha256": "38e8612450f13bca1d5d53f73d582f4476b407694110a71445186677e780db75",
+      "source_preview_review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json",
+      "previous_revision": {
+        "native_source_sha256": "2066e870bfd7cbe2beab25f1e0217f7306b0d11ee2bafa83713ea4495efa6503",
+        "standalone_master_sha256": "c0b42491123dd42f2d5676cd56e3fd45bc569d7ede5b4e2916b018702dac748d",
+        "exports": [
+          {
+            "field": "image",
+            "path": "public/assets/cards/saiyan-010-red-elbow-strike.webp",
+            "before_url": "/assets/cards/saiyan-010-red-elbow-strike.webp?v=b9e56d6a300d",
+            "after_sha256": "8f0a8d96d6343601a490caa030b72c6cbc980d614ff7ea5a94129efd7a724fab",
+            "size": [
+              1060,
+              1484
+            ],
+            "lossless_round_trip": true
+          },
+          {
+            "field": "downloadImage",
+            "path": "public/assets/cards/downloads/saiyan-010-red-elbow-strike.webp",
+            "before_url": "/assets/cards/downloads/saiyan-010-red-elbow-strike.webp?v=dfdd2ee77dd8",
+            "after_sha256": "549feaf127d3651965bc97a378c530412d16665a72a43160c075f7cfdd78ad94",
+            "size": [
+              2120,
+              2968
+            ],
+            "lossless_round_trip": true
+          }
+        ]
+      }
+    }
   },
   {
     "id": "saiyan-011-blue-forward-foot-sweep",

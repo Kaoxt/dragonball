@@ -264,43 +264,43 @@
   "missing_rules_image_reviewed": [
     {
       "id": "saiyan-001-orange-standing-fist-punch",
-      "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=6c9b8f9c8155"
+      "image": "/assets/cards/saiyan-001-orange-standing-fist-punch.webp?v=dc24b34176f0"
     },
     {
       "id": "saiyan-002-orange-one-knuckle-punch",
-      "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=98a79cd0bf59"
+      "image": "/assets/cards/saiyan-002-orange-one-knuckle-punch.webp?v=86ee839af1f8"
     },
     {
       "id": "saiyan-003-orange-two-knuckle-punch",
-      "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=a7681f563d36"
+      "image": "/assets/cards/saiyan-003-orange-two-knuckle-punch.webp?v=979454917c86"
     },
     {
       "id": "saiyan-004-orange-leg-sweep",
-      "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=0fe65f58ebbd"
+      "image": "/assets/cards/saiyan-004-orange-leg-sweep.webp?v=7665649ef014"
     },
     {
       "id": "saiyan-005-orange-arm-bar",
-      "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=6b74694de308"
+      "image": "/assets/cards/saiyan-005-orange-arm-bar.webp?v=173855af51c8"
     },
     {
       "id": "saiyan-006-red-lunge-punch",
-      "image": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=75dd63f8d27d"
+      "image": "/assets/cards/saiyan-006-red-lunge-punch.webp?v=3b2772fbcdcd"
     },
     {
       "id": "saiyan-007-red-reverse-punch",
-      "image": "/assets/cards/saiyan-007-red-reverse-punch.webp?v=14d026ebfda5"
+      "image": "/assets/cards/saiyan-007-red-reverse-punch.webp?v=005716ee9206"
     },
     {
       "id": "saiyan-008-red-knife-hand",
-      "image": "/assets/cards/saiyan-008-red-knife-hand.webp?v=02441dd85f06"
+      "image": "/assets/cards/saiyan-008-red-knife-hand.webp?v=8db14c3f9157"
     },
     {
       "id": "saiyan-009-red-palm-heel-strike",
-      "image": "/assets/cards/saiyan-009-red-palm-heel-strike.webp?v=0d3c5e3554fa"
+      "image": "/assets/cards/saiyan-009-red-palm-heel-strike.webp?v=19e387bd9e8a"
     },
     {
       "id": "saiyan-010-red-elbow-strike",
-      "image": "/assets/cards/saiyan-010-red-elbow-strike.webp?v=8f0a8d96d634"
+      "image": "/assets/cards/saiyan-010-red-elbow-strike.webp?v=2ea256195c6f"
     },
     {
       "id": "saiyan-011-blue-forward-foot-sweep",
@@ -1314,9 +1314,25 @@
     "OCR is a search aid; ambiguous matches were reviewed against originals and supplied CRD.",
     "2026-10-27: Refreshed the 257 Saiyan image URLs after the footer-emblem alignment. The prior wording reviews remain valid: decoded image pixels outside the emblem footprint are unchanged for every card. See docs/set-footer-alignment-verification.json and docs/set-footer-logo-alignment.md.",
     "2026-10-28: Refreshed 26 Saiyan Personality image revisions after category typography normalization. Existing wording reviews remain valid: all decoded pixels outside the old/new category lettering footprints, including every rules pixel, are unchanged. See tools/card-corrections/personality-category-2026-10-28/audit.json.",
-    "2026-10-30: Refreshed the 50 Saiyan 001–050 image review URLs for the approved V3 release. Final outlined rules were reviewed for current terminology; native wording, measured typography, exact export hashes and card-by-card visual review evidence are retained in tools/card-corrections/v3-saiyan-001-050/. This is a complete template migration, not a claim that the old rules pixels were unchanged. Existing unresolved semantic references remain unchanged.",
-    "2026-10-30: Refreshed Saiyan 051–100 image review URLs after native V3 migration. Original scans, Expanded CRD, corrected #91 energy attack, approved Stops wording, final art corrections and measured native/export evidence are retained in tools/card-corrections/v3-saiyan-051-100/. Existing unresolved semantic rulings remain unchanged.",
-    "2026-10-31: Refreshed Saiyan 101–150 image-review URLs after native V3 migration. All 50 actual original scans, current Expanded CRD, individual visual findings, localized edge corrections and native/export measurements are retained in tools/card-corrections/v3-saiyan-101-150/. #105 keeps banishment as an attack cost; continuous drill modifiers and actual blocks retain distinct icons. Existing unresolved semantic rulings remain unchanged."
+    "2026-10-30: Refreshed the 50 Saiyan 001\u2013050 image review URLs for the approved V3 release. Final outlined rules were reviewed for current terminology; native wording, measured typography, exact export hashes and card-by-card visual review evidence are retained in tools/card-corrections/v3-saiyan-001-050/. This is a complete template migration, not a claim that the old rules pixels were unchanged. Existing unresolved semantic references remain unchanged.",
+    "2026-10-30: Refreshed Saiyan 051\u2013100 image review URLs after native V3 migration. Original scans, Expanded CRD, corrected #91 energy attack, approved Stops wording, final art corrections and measured native/export evidence are retained in tools/card-corrections/v3-saiyan-051-100/. Existing unresolved semantic rulings remain unchanged.",
+    "2026-10-31: Refreshed Saiyan 101\u2013150 image-review URLs after native V3 migration. All 50 actual original scans, current Expanded CRD, individual visual findings, localized edge corrections and native/export measurements are retained in tools/card-corrections/v3-saiyan-101-150/. #105 keeps banishment as an attack cost; continuous drill modifiers and actual blocks retain distinct icons. Existing unresolved semantic rulings remain unchanged."
   ],
-  "title_only_revision": "2026-10-28: image references refreshed after verified title-only updates; all power-text pixels and wording unchanged."
+  "title_only_revision": "2026-10-28: image references refreshed after verified title-only updates; all power-text pixels and wording unchanged.",
+  "brighter_frame_revision_2026_10_31": {
+    "cards": [
+      "saiyan-001-orange-standing-fist-punch",
+      "saiyan-002-orange-one-knuckle-punch",
+      "saiyan-003-orange-two-knuckle-punch",
+      "saiyan-004-orange-leg-sweep",
+      "saiyan-005-orange-arm-bar",
+      "saiyan-006-red-lunge-punch",
+      "saiyan-007-red-reverse-punch",
+      "saiyan-008-red-knife-hand",
+      "saiyan-009-red-palm-heel-strike",
+      "saiyan-010-red-elbow-strike"
+    ],
+    "rules_pixels_unchanged": true,
+    "review": "tools/card-corrections/v3-saiyan-001-010-brighter/artwork-review.json"
+  }
 }
