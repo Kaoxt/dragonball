@@ -9,7 +9,7 @@ let selected = valid(requested) ? requested : valid(saved) ? saved : 'v2';
 
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
-stylesheet.href = '/navigation-design.css?v=20261030-account-right';
+stylesheet.href = '/navigation-design.css?v=20261030-account-inset-grey-hover';
 document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
