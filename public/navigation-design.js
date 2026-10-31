@@ -14,7 +14,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261031-dark-inner-dividers';
+surfaces.href = '/surfaces-design.css?v=20261031-clearer-inner-dividers';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

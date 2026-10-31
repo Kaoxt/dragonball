@@ -5,7 +5,7 @@
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
   --surface-border:#ffffff1f;
-  --v2-frame-divider:#1b242b; /* Matches the inner band of the graphite frame. */
+  --v2-frame-divider:#2d363d; /* Slightly lighter charcoal keeps panel divisions visible. */
   /* Follow the decal contours at 36/48 scale, minus the 6px panel inset.
      A .25px overlap inside each black stroke closes antialiased seams. */
   --v2-frame-top-clip:polygon(17.3px 0,calc(100% - 17.3px) 0,calc(100% - 6.53px) 13.76px,calc(100% - 5.01px) 19.82px,100% 23.92px,100% 100%,0 100%,0 23.92px,5.01px 19.82px,6.53px 13.76px);
