@@ -2,9 +2,9 @@
 
 ## Current Tokui Waza backing — October 31
 
-The current brighter V3 batch is Saiyan 001–050, distinct from the older V3 migration through 150. Its 48 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
+The current brighter V3 refresh covers Saiyan 001–070, distinct from the older V3 migration through 150. Its 68 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge; Dragon Ball and Personality families are exempt. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
 
-Run `python3 scripts/tokui_backing.py <source.svg>` after choosing or replacing a style symbol, before rendering. The helper rebuilds the backing from the final symbol and is idempotent; both batch builders call it after their style selection. The Combat master includes it. The release evidence is `../../card-corrections/v3-saiyan-001-050-tokui/release.json`; only the badge footprint changes in display and full-size exports. This update does not advance the brighter-template migration beyond card 50.
+Run `python3 scripts/tokui_backing.py <source.svg>` after choosing or replacing a style symbol, before rendering. The helper rebuilds the backing from the final symbol and is idempotent; both batch builders call it after their style selection. The Combat master includes it. The release evidence is `../../card-corrections/v3-saiyan-001-050-tokui/release.json`; only the badge footprint changes in display and full-size exports. The initial backing release covers 001–050; the 051–070 brighter release carries the same backing forward.
 
 Saiyan Saga 001–150 use the approved native SVG brush-theme system. The released batches use retained site illustrations with localized corrections; Earth Dragon Ball cards use approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
 
@@ -39,3 +39,7 @@ Cards 11–30 use the same current brighter V3 frames, uniformly fitted titles a
 ## Saiyan 031–050 brighter-background refresh — October 31
 
 Cards 31–50 use the current brighter V3 frames, uniformly fitted titles and tracked Michroma middle labels. Character artwork and rules remain unchanged, including #36's repaired boot and the approved replacements for #37 and #44. Six attacks use swords, eight blocks use shields, and six triggered/activated effects need no constant icon. Ten original scans were directly compared; original retrieval for #41–50 is unavailable. Known fine-detail and source-crop limitations are recorded in `../../card-corrections/v3-saiyan-031-050-brighter/artwork-review.json`.
+
+## Saiyan 051–070 brighter-background refresh — October 31
+
+Cards 51–70 use the current brighter V3 frame, uniformly fitted titles, tracked Michroma middle labels and the approved soft translucent Tokui Waza backing for every style. Black cards 65–70 restore the approved medium-charcoal base palette with the current frame brightness gain. Artwork and rules remain unchanged, preserving the earlier corrections on 53, 57 and 65. Eight attacks use swords and twelve blocks use shields; there are no constant powers. All twenty actual printed scans were compared. Fine and obscured details are documented individually in `../../card-corrections/v3-saiyan-051-070-brighter/artwork-review.json`. Dragon Ball and Personality cards remain exempt from Tokui backing; neither type occurs in this range.

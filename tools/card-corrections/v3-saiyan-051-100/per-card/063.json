@@ -3,19 +3,19 @@
   "id": "saiyan-063-blue-big-whirl-throw",
   "name": "Blue Big Whirl Throw",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-063-blue-big-whirl-throw.svg",
-  "native_source_sha256": "2dcc133599154d3b213d5048606496605f638a111a4e9888f456c48d43b335ec",
+  "native_source_sha256": "a448469b0c4effa8b1effd71f7d2f62b9e08193cbd1971d11405807dd77e7a92",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/2e1e8074852eb57796ac75a8bf04bfd133192438f3ebd6bc935ce57e28d04cc6.png",
+      "sha256": "2e1e8074852eb57796ac75a8bf04bfd133192438f3ebd6bc935ce57e28d04cc6"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/2e1e8074852eb57796ac75a8bf04bfd133192438f3ebd6bc935ce57e28d04cc6.png",
-      "sha256": "2e1e8074852eb57796ac75a8bf04bfd133192438f3ebd6bc935ce57e28d04cc6"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -40,7 +40,7 @@
   },
   "rules": [
     {
-      "text": "Stops an energy attack. Lower your opponent\u2019s",
+      "text": "Stops an energy attack. Lower your opponent’s",
       "baseline": 1049.3,
       "width": 887.023947368421,
       "icon_inline": true
@@ -62,9 +62,9 @@
         69.0
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "a448469b0c4effa8b1effd71f7d2f62b9e08193cbd1971d11405807dd77e7a92"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-063-blue-big-whirl-throw.webp",
-      "before_url": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=148c715979ff",
+      "before_url": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=87d13e1301d4",
       "before_sha256": "148c715979ffcead7a0b10a7c047d8b412148bbe9b49550f4eb66608af472896",
-      "after_sha256": "87d13e1301d42d5dd7bad147e748bb513294e6700a122348b6eb859fdb08c5a3",
+      "after_sha256": "98a8c61f6fcfaeedb80fa8d13fd0ea5e1f22556f01ecc48a30a071fbf0529cf2",
       "size": [
         1060,
         1484
@@ -152,14 +153,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp",
-      "before_url": "/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp?v=bf4b29b8beda",
+      "before_url": "/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp?v=84a7e595c6e5",
       "before_sha256": "bf4b29b8beda2434ca09ebc5c6c7c6d23c12389557b83fa69f6437eca2659d87",
-      "after_sha256": "84a7e595c6e59061249496820fd1e5f990578491b4bbca8552b044ff47b9bcc3",
+      "after_sha256": "e5efe98761b1012757eac262f0a48f4f629455d5b9476563a676496de62d91c8",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 629.0012468827931,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "7a1f22a2c277e46a7e237667cf38dcbe949c4b8650b19320d58a28af2473b46d",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "2dcc133599154d3b213d5048606496605f638a111a4e9888f456c48d43b335ec",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-063-blue-big-whirl-throw.webp",
+          "before_url": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=148c715979ff",
+          "before_sha256": "148c715979ffcead7a0b10a7c047d8b412148bbe9b49550f4eb66608af472896",
+          "after_sha256": "87d13e1301d42d5dd7bad147e748bb513294e6700a122348b6eb859fdb08c5a3",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp",
+          "before_url": "/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp?v=bf4b29b8beda",
+          "before_sha256": "bf4b29b8beda2434ca09ebc5c6c7c6d23c12389557b83fa69f6437eca2659d87",
+          "after_sha256": "84a7e595c6e59061249496820fd1e5f990578491b4bbca8552b044ff47b9bcc3",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

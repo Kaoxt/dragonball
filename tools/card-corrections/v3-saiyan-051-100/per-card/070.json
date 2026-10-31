@@ -3,19 +3,19 @@
   "id": "saiyan-070-black-turning-kick",
   "name": "Black Turning Kick",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-070-black-turning-kick.svg",
-  "native_source_sha256": "a8256291b21ff8afdf34b41f78383c570ee311e4c3898dddf262536c0975952f",
+  "native_source_sha256": "c8d3f85dc45ef3d2df11711c921f9de4b25bdde6c0bb28232e993e6cc16af712",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/46db790d85a4ab088f11be280a83cb90d0421e6a11f180a82a772c27c72dce48.png",
+      "sha256": "46db790d85a4ab088f11be280a83cb90d0421e6a11f180a82a772c27c72dce48"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/46db790d85a4ab088f11be280a83cb90d0421e6a11f180a82a772c27c72dce48.png",
-      "sha256": "46db790d85a4ab088f11be280a83cb90d0421e6a11f180a82a772c27c72dce48"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -68,9 +68,9 @@
         69.0
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -146,15 +146,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "c8d3f85dc45ef3d2df11711c921f9de4b25bdde6c0bb28232e993e6cc16af712"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-070-black-turning-kick.webp",
-      "before_url": "/assets/cards/saiyan-070-black-turning-kick.webp?v=003b6c9afa82",
+      "before_url": "/assets/cards/saiyan-070-black-turning-kick.webp?v=a0475425c95f",
       "before_sha256": "003b6c9afa82d123f4b15d09d8cebdc23bb6afa99310e97fc6f0745962b4a633",
-      "after_sha256": "a0475425c95fd71db771c14cb8a79c38fff6bcd96b9cc5a7ccc0833d9304ea37",
+      "after_sha256": "31a95e1a50d7fbb157c4cab9610a45dfa80cd60fccdf57e0c0fecb99009d0506",
       "size": [
         1060,
         1484
@@ -164,14 +165,107 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-070-black-turning-kick.webp",
-      "before_url": "/assets/cards/downloads/saiyan-070-black-turning-kick.webp?v=c1cb7073c65c",
+      "before_url": "/assets/cards/downloads/saiyan-070-black-turning-kick.webp?v=d4e04f4530ee",
       "before_sha256": "c1cb7073c65cc5eb8d63dbb53139c9fc99705c6ff75e2dd8af8dccf82ce62828",
-      "after_sha256": "d4e04f4530ee93c845c02d222c0c91e829eb7012a06f61ed42aa6ce5886cf376",
+      "after_sha256": "318ec8d54311710d040f5364908184e852cfb48421b86c35f03c17fc5dc3d339",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 558.4526184538654,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "88c5b67f8ba8ab022017da16a78deeb21eba6c5d2f6c6ef15ae9d7826179c2bd",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "a8256291b21ff8afdf34b41f78383c570ee311e4c3898dddf262536c0975952f",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-070-black-turning-kick.webp",
+          "before_url": "/assets/cards/saiyan-070-black-turning-kick.webp?v=003b6c9afa82",
+          "before_sha256": "003b6c9afa82d123f4b15d09d8cebdc23bb6afa99310e97fc6f0745962b4a633",
+          "after_sha256": "a0475425c95fd71db771c14cb8a79c38fff6bcd96b9cc5a7ccc0833d9304ea37",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-070-black-turning-kick.webp",
+          "before_url": "/assets/cards/downloads/saiyan-070-black-turning-kick.webp?v=c1cb7073c65c",
+          "before_sha256": "c1cb7073c65cc5eb8d63dbb53139c9fc99705c6ff75e2dd8af8dccf82ce62828",
+          "after_sha256": "d4e04f4530ee93c845c02d222c0c91e829eb7012a06f61ed42aa6ce5886cf376",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

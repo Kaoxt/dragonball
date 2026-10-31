@@ -3,23 +3,23 @@
   "id": "saiyan-053-orange-holding-after-takedown",
   "name": "Orange Holding After Takedown",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-053-orange-holding-after-takedown.svg",
-  "native_source_sha256": "2ba967da58fdf787dcd3c6466f396b8768ccd189a3a41f76e8e3e1d480544307",
+  "native_source_sha256": "e04e3fe05e8e2e50c09c0c1881804302acac39f6fac91ea54009be1066bb73ad",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942.png",
+      "sha256": "5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154.png",
-      "sha256": "b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
-      "path": "tools/card-templates/v3/assets/5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942.png",
-      "sha256": "5522ed108ac540e42ba384b3421a55d0fb290a4a10509b5320d11348adeaa942"
+      "path": "tools/card-templates/v3/assets/b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154.png",
+      "sha256": "b2d393b1d1141bccb2d92d237f65d0897b4d4b8c125abaf7aab21a4d3e6ed154"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -64,7 +64,7 @@
       "icon_inline": true
     },
     {
-      "text": "opponent\u2019s anger 1 level.",
+      "text": "opponent’s anger 1 level.",
       "baseline": 1108.3,
       "width": 437.4720000000001,
       "icon_inline": false
@@ -74,15 +74,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        69.5,
-        44.5,
-        920.0,
-        69.0
+        179.5,
+        53.5558,
+        700.0,
+        50.8883
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -152,15 +152,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "e04e3fe05e8e2e50c09c0c1881804302acac39f6fac91ea54009be1066bb73ad"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
-      "before_url": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp?v=38b0af751c5c",
+      "before_url": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp?v=f83fe550623c",
       "before_sha256": "38b0af751c5cab5ace7593af6d4ae009c0fb96049f5f248651a99b4a924b1857",
-      "after_sha256": "f83fe550623c456caac24470f61df29d740e881e84a69079f1cedd2bcbb18a20",
+      "after_sha256": "408e89c955b851d3ca0036174da8108388182592ada31c1331ebacbb39600daa",
       "size": [
         1060,
         1484
@@ -170,14 +171,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp",
-      "before_url": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=f760c9c22826",
+      "before_url": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=8537c37b7f46",
       "before_sha256": "f760c9c2282688dc6e499f59aee2544498331d3fdca29de62741f14467e0cfd8",
-      "after_sha256": "8537c37b7f46d59d947ad2aa376281b247e85f6e0f652f531262290a1349a1a2",
+      "after_sha256": "9f89eaea6744be9bc51111234d61b67dc2458d2eb6d9ded6109013c57caae9b6",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 63.45177664974619,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 50.888324873096444,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.7375119546825571
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "d1526cc39cd740c41555e3a681c534ccea0e8622b081e50a597109ece0a07ab1",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "2ba967da58fdf787dcd3c6466f396b8768ccd189a3a41f76e8e3e1d480544307",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-053-orange-holding-after-takedown.webp",
+          "before_url": "/assets/cards/saiyan-053-orange-holding-after-takedown.webp?v=38b0af751c5c",
+          "before_sha256": "38b0af751c5cab5ace7593af6d4ae009c0fb96049f5f248651a99b4a924b1857",
+          "after_sha256": "f83fe550623c456caac24470f61df29d740e881e84a69079f1cedd2bcbb18a20",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp",
+          "before_url": "/assets/cards/downloads/saiyan-053-orange-holding-after-takedown.webp?v=f760c9c22826",
+          "before_sha256": "f760c9c2282688dc6e499f59aee2544498331d3fdca29de62741f14467e0cfd8",
+          "after_sha256": "8537c37b7f46d59d947ad2aa376281b247e85f6e0f652f531262290a1349a1a2",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

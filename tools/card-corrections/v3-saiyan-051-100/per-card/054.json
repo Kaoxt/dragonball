@@ -3,19 +3,19 @@
   "id": "saiyan-054-red-knee-strike",
   "name": "Red Knee Strike",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-054-red-knee-strike.svg",
-  "native_source_sha256": "8b7664d62fe457288a8731853cbe5dcd90f520b422eb0febe7cb7453be78e809",
+  "native_source_sha256": "a92d723460f3287c16c735129233b86b6613c76bff7892a4b6896f989b50e849",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/3693449b6c3f81ea9dc8ec8b0b9a3cd02a1ee5eeea9e5850a24c551f46a4ab7d.png",
+      "sha256": "3693449b6c3f81ea9dc8ec8b0b9a3cd02a1ee5eeea9e5850a24c551f46a4ab7d"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/3693449b6c3f81ea9dc8ec8b0b9a3cd02a1ee5eeea9e5850a24c551f46a4ab7d.png",
-      "sha256": "3693449b6c3f81ea9dc8ec8b0b9a3cd02a1ee5eeea9e5850a24c551f46a4ab7d"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -62,9 +62,9 @@
         57.5574
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "a92d723460f3287c16c735129233b86b6613c76bff7892a4b6896f989b50e849"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-054-red-knee-strike.webp",
-      "before_url": "/assets/cards/saiyan-054-red-knee-strike.webp?v=62eecc6e4144",
+      "before_url": "/assets/cards/saiyan-054-red-knee-strike.webp?v=e3031a753bcb",
       "before_sha256": "62eecc6e41440677cdd76ae1a83fbd0bd4fe6d62e240e55979480043de0267e4",
-      "after_sha256": "e3031a753bcb30cfb3cff5ebdb176276767317e094e78bf55479e2c539082c62",
+      "after_sha256": "ec88f8460a015af7fd48f026c71e196cb23d78aa2325457cb105402010fe3a5c",
       "size": [
         1060,
         1484
@@ -152,14 +153,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-054-red-knee-strike.webp",
-      "before_url": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=95c2918e6225",
+      "before_url": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=af2241699001",
       "before_sha256": "95c2918e62251f7512e5f99e35a36113303ef96ab5f131a67ad5b124839e086f",
-      "after_sha256": "af2241699001fba1c8cce8bc16cdb7f80df0a92ba8c36f87ecaa4530329df1b6",
+      "after_sha256": "b7a95c798171f5ad2765cd40d44c2278088ff9b6fcdd8d7029c4145e69f01bca",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 471.72942643391525,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "3a9a66803dd905245c2369bdbd9def2a0d2543c9222c1777fc610c2d09cd4a82",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "8b7664d62fe457288a8731853cbe5dcd90f520b422eb0febe7cb7453be78e809",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-054-red-knee-strike.webp",
+          "before_url": "/assets/cards/saiyan-054-red-knee-strike.webp?v=62eecc6e4144",
+          "before_sha256": "62eecc6e41440677cdd76ae1a83fbd0bd4fe6d62e240e55979480043de0267e4",
+          "after_sha256": "e3031a753bcb30cfb3cff5ebdb176276767317e094e78bf55479e2c539082c62",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-054-red-knee-strike.webp",
+          "before_url": "/assets/cards/downloads/saiyan-054-red-knee-strike.webp?v=95c2918e6225",
+          "before_sha256": "95c2918e62251f7512e5f99e35a36113303ef96ab5f131a67ad5b124839e086f",
+          "after_sha256": "af2241699001fba1c8cce8bc16cdb7f80df0a92ba8c36f87ecaa4530329df1b6",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

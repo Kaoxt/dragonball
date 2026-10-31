@@ -3,19 +3,19 @@
   "id": "saiyan-051-orange-hip-throw",
   "name": "Orange Hip Throw",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-051-orange-hip-throw.svg",
-  "native_source_sha256": "330f99bec8f9e934b43116be29eb69d4805a51c78877231b6579dfa0b351c2ec",
+  "native_source_sha256": "21392f35d44dd3e206504e5040d6070828d1c2708601ddf559467e7755f89dbe",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/0aa8e5888c6e65227067f71c6be4b33cf7ac6b7ed90c4fdc1e87c1c19199046e.png",
+      "sha256": "0aa8e5888c6e65227067f71c6be4b33cf7ac6b7ed90c4fdc1e87c1c19199046e"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/0aa8e5888c6e65227067f71c6be4b33cf7ac6b7ed90c4fdc1e87c1c19199046e.png",
-      "sha256": "0aa8e5888c6e65227067f71c6be4b33cf7ac6b7ed90c4fdc1e87c1c19199046e"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -61,9 +61,9 @@
         69.0
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -112,7 +112,7 @@
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
           100.329,
-          1015.0,
+          1014.97,
           40.4392,
           34.3
         ],
@@ -128,20 +128,21 @@
           40.4392,
           34.3
         ],
-        "vertical_shift": -0.02549999999996544,
+        "vertical_shift": 0,
         "center_error": -0.004500000000007276,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "21392f35d44dd3e206504e5040d6070828d1c2708601ddf559467e7755f89dbe"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-051-orange-hip-throw.webp",
-      "before_url": "/assets/cards/saiyan-051-orange-hip-throw.webp?v=7958cd6bff0a",
+      "before_url": "/assets/cards/saiyan-051-orange-hip-throw.webp?v=67cb41f0ac08",
       "before_sha256": "7958cd6bff0abaec9629ad4f147ff31c28f201bba53f6997798e80d8fb4751ca",
-      "after_sha256": "67cb41f0ac088e5ca0655b5c8aa91798e341ce9f60dbffc135ff17e6238fb2a8",
+      "after_sha256": "fe31614219e61eef065342dc1940ea06afee54b000e026da0f833418002b3dea",
       "size": [
         1060,
         1484
@@ -151,14 +152,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-051-orange-hip-throw.webp",
-      "before_url": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=154c605d0ff1",
+      "before_url": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=b009dbf79048",
       "before_sha256": "154c605d0ff1702d44368bcc9f0885d5273465f64234f10cf6e0f702bde2a3da",
-      "after_sha256": "b009dbf790482de6c3ecdf267a74d447ed210602437a1554c630c197e6909702",
+      "after_sha256": "4c86c50aa5bc2b63c44339d8697f212df4e0a14ed0bc8d42787ad5da466c2e66",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 530.1471321695761,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "cf2fd19878c7e92ae24c8ad9eedf9682b5a71709429e9bda11923e71823ebee3",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "330f99bec8f9e934b43116be29eb69d4805a51c78877231b6579dfa0b351c2ec",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-051-orange-hip-throw.webp",
+          "before_url": "/assets/cards/saiyan-051-orange-hip-throw.webp?v=7958cd6bff0a",
+          "before_sha256": "7958cd6bff0abaec9629ad4f147ff31c28f201bba53f6997798e80d8fb4751ca",
+          "after_sha256": "67cb41f0ac088e5ca0655b5c8aa91798e341ce9f60dbffc135ff17e6238fb2a8",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-051-orange-hip-throw.webp",
+          "before_url": "/assets/cards/downloads/saiyan-051-orange-hip-throw.webp?v=154c605d0ff1",
+          "before_sha256": "154c605d0ff1702d44368bcc9f0885d5273465f64234f10cf6e0f702bde2a3da",
+          "after_sha256": "b009dbf790482de6c3ecdf267a74d447ed210602437a1554c630c197e6909702",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

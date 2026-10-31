@@ -1,0 +1,211 @@
+{
+  "source": "project_sources/01-Expanded-CRD.odt.txt",
+  "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "default_energy_cost_reference_lines": [
+    643,
+    648,
+    1191
+  ],
+  "cards": [
+    {
+      "number": 51,
+      "name": "Orange Hip Throw",
+      "original_rules": "Physical Attack doing +2 stages of damage if successful. Raise card user’s anger level 1.",
+      "final_rules": "Physical attack. DAMAGE: AT +2 stages. Raise your anger 1 level.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 52,
+      "name": "Orange Neck Restraints",
+      "original_rules": "Stops an opponent’s energy attack. Foe’s anger level decreases by 1.",
+      "final_rules": "Stops an energy attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 53,
+      "name": "Orange Holding After Takedown",
+      "original_rules": "Stops opponent’s physical attack this round. Foe’s anger level decreases by 1.",
+      "final_rules": "Stops a physical attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 54,
+      "name": "Red Knee Strike",
+      "original_rules": "Stops the foe’s physical attack. Raise card user’s anger level 1.",
+      "final_rules": "Stops a physical attack. Raise your anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 55,
+      "name": "Red Front Kick",
+      "original_rules": "Physical Attack doing +1 stage of damage if successful. Raise card user’s anger level 1.",
+      "final_rules": "Physical attack. DAMAGE: AT +1 stages. Raise your anger 1 level.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 56,
+      "name": "Red Side Kick",
+      "original_rules": "Stop foe’s energy attack this round.",
+      "final_rules": "Stops an energy attack.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 57,
+      "name": "Red Round Kick",
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Foe’s Anger level decreases by 1.",
+      "final_rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent’s anger 1 level.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 58,
+      "name": "Red Back Kick",
+      "original_rules": "Physical Attack doing +3 stages of damage if successful. Stops all energy attacks for the rest of this combat. Foe’s anger level decreases by 1.",
+      "final_rules": "Physical attack. DAMAGE: AT +3 stages. Stops all energy attacks for the rest of Combat. Lower your opponent’s anger 1 level.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 59,
+      "name": "Blue Big Outside Drop",
+      "original_rules": "Stops a physical attack. Raise card user’s anger level 1.",
+      "final_rules": "Stops a physical attack. Raise your anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 60,
+      "name": "Blue One-Arm Shoulder Throw",
+      "original_rules": "Stops the foe’s physical attack. Lower foe’s anger level 1.",
+      "final_rules": "Stops a physical attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 61,
+      "name": "Blue Body Drop Throw",
+      "original_rules": "Stops a physical attack. Lower foe's anger level by 1.",
+      "final_rules": "Stops a physical attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 62,
+      "name": "Blue Inner Leg Throw",
+      "original_rules": "Stops a physical attack. Lower foe's anger level by 1.",
+      "final_rules": "Stops a physical attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 63,
+      "name": "Blue Big Whirl Throw",
+      "original_rules": "Stops an energy attack. Lower foe's anger level by 1.",
+      "final_rules": "Stops an energy attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 64,
+      "name": "Blue Ground Holding",
+      "original_rules": "Stops a physical attack. Lowers foe's anger level by 1.",
+      "final_rules": "Stops a physical attack. Lower your opponent’s anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 65,
+      "name": "Black Fore Fist Punch",
+      "original_rules": "Energy Attack doing 6 life card draws of damage and lowering foe's power 3 stages or to 0, whichever happens first.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Your opponent loses 3 stages (minimum 0).",
+      "effect_icon": "attack",
+      "crd_card_specific_update": "Successful-hit condition for three-stage loss; minimum zero.",
+      "default_energy_cost_applied": true,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 66,
+      "name": "Black Knife Hand Strike",
+      "original_rules": "Energy Attack doing 4 life card draws of damage or stopping any energy attack.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. OR Stops an energy attack.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": true,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 67,
+      "name": "Black Elbow Strike",
+      "original_rules": "Stops a foe's physical attack. Raise card user's anger level 1.",
+      "final_rules": "Stops a physical attack. Raise your anger 1 level.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 68,
+      "name": "Black Front Kick",
+      "original_rules": "Energy Attack doing 5 life card draws in damage and costing 4 stages of power to perform. Raise card user's anger level 2.",
+      "final_rules": "Energy attack costing 4 stages. DAMAGE: 5 life cards. Raise your anger 2 levels.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 69,
+      "name": "Black Side Kick",
+      "original_rules": "Stops a foe's physical attack. Raise card user's anger level 2.",
+      "final_rules": "Stops a physical attack. Raise your anger 2 levels.",
+      "effect_icon": "block",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": false,
+      "rules_changed_in_refresh": false
+    },
+    {
+      "number": 70,
+      "name": "Black Turning Kick",
+      "original_rules": "Energy Attack doing 5 life card draws of damage or stops a physical attack. Raise card user's anger level 1.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. OR Stops a physical attack. Raise your anger 1 level.",
+      "effect_icon": "attack",
+      "crd_card_specific_update": null,
+      "default_energy_cost_applied": true,
+      "rules_changed_in_refresh": false
+    }
+  ]
+}

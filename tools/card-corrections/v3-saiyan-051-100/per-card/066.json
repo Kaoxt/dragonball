@@ -3,19 +3,19 @@
   "id": "saiyan-066-black-knife-hand-strike",
   "name": "Black Knife Hand Strike",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-066-black-knife-hand-strike.svg",
-  "native_source_sha256": "9f1baaeb2bba53916fed1a485973e591d69ecfe15cf48113da797ea1328219f3",
+  "native_source_sha256": "39e98040e118bba17ec75ae5666ea9bcf225f77ab992da5fa9bdd95f223539e3",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d.png",
+      "sha256": "7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d.png",
-      "sha256": "7aa80dbd137206b29d426a96bc68ebc6cbca405da5d8dcd5c67f5ff21c46867d"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        177.359,
-        50.2213,
-        704.282,
-        57.5574
+        179.5,
+        50.3963,
+        700.0,
+        57.2074
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "39e98040e118bba17ec75ae5666ea9bcf225f77ab992da5fa9bdd95f223539e3"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-066-black-knife-hand-strike.webp",
-      "before_url": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=f4de238432e4",
+      "before_url": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=b96080c32399",
       "before_sha256": "f4de238432e44a3030e5f60bba511d65135c83907bbe2deee2634faedde90a65",
-      "after_sha256": "b96080c3239930c7b85a17c8790716e2f87046d34c083d7cb6ed7836272e64b9",
+      "after_sha256": "9722b3d129a6ef09beb55f54c3b096e8fc048fc0ef5ec2edcec0e0de12a9a528",
       "size": [
         1060,
         1484
@@ -152,14 +153,107 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp",
-      "before_url": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=a65367105a1f",
+      "before_url": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=f5b953d31865",
       "before_sha256": "a65367105a1fe4589de301fa494b612001197e9acb4df0eeb2d9c34bf90eb011",
-      "after_sha256": "f5b953d31865ecd6c413d06ad9ebdab66a4d3423880a5924e7f674828799858d",
+      "after_sha256": "315ec7b022be88aa3fe47cda455a886543f600df19fa0b38598816de05e2fda4",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 85.51184949914487,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 57.207427314927926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9939203376567273
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "01447b530916b66319203bdf20beefea2778840e4d2cefcbbb84d69aaecead83",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9f1baaeb2bba53916fed1a485973e591d69ecfe15cf48113da797ea1328219f3",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-066-black-knife-hand-strike.webp",
+          "before_url": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=f4de238432e4",
+          "before_sha256": "f4de238432e44a3030e5f60bba511d65135c83907bbe2deee2634faedde90a65",
+          "after_sha256": "b96080c3239930c7b85a17c8790716e2f87046d34c083d7cb6ed7836272e64b9",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp",
+          "before_url": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=a65367105a1f",
+          "before_sha256": "a65367105a1fe4589de301fa494b612001197e9acb4df0eeb2d9c34bf90eb011",
+          "after_sha256": "f5b953d31865ecd6c413d06ad9ebdab66a4d3423880a5924e7f674828799858d",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

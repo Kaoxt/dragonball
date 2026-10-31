@@ -3,12 +3,8 @@
   "id": "saiyan-058-red-back-kick",
   "name": "Red Back Kick",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-058-red-back-kick.svg",
-  "native_source_sha256": "efef6d99a67926248d3453eb8e7f5149708d65587b623ef194628df50ec53bd8",
+  "native_source_sha256": "81795d4b6d04a1f04de47003bf5c7dc5ea8b8a823363a83b83c03260ede08d23",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/8833c6d650630ce05cd3f7ca2aa337b213d1f876a996c021b924b6b9b631949e.png",
       "sha256": "8833c6d650630ce05cd3f7ca2aa337b213d1f876a996c021b924b6b9b631949e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -52,7 +52,7 @@
       "icon_inline": false
     },
     {
-      "text": "your opponent\u2019s anger 1 level.",
+      "text": "your opponent’s anger 1 level.",
       "baseline": 1167.3,
       "width": 527.436,
       "icon_inline": false
@@ -68,9 +68,9 @@
         57.5574
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -125,7 +125,7 @@
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
           98.8344,
-          1015.0,
+          1014.97,
           40.4392,
           34.3
         ],
@@ -141,20 +141,21 @@
           40.4392,
           34.3
         ],
-        "vertical_shift": -0.02549999999996544,
+        "vertical_shift": 0,
         "center_error": -0.004500000000007276,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "81795d4b6d04a1f04de47003bf5c7dc5ea8b8a823363a83b83c03260ede08d23"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-058-red-back-kick.webp",
-      "before_url": "/assets/cards/saiyan-058-red-back-kick.webp?v=21f0a8ac42c9",
+      "before_url": "/assets/cards/saiyan-058-red-back-kick.webp?v=8c2829c0bda4",
       "before_sha256": "21f0a8ac42c9f9a2aa1b6ce581014baaa566433dabfd0c5edbd130564d641943",
-      "after_sha256": "8c2829c0bda4291a29f554c6d12a55fc5bd8986761dd2bd903c8152c3fd1335d",
+      "after_sha256": "889eb8eeba901421b881255e276da88fbce242d9a973cf040e7f824d137fd17b",
       "size": [
         1060,
         1484
@@ -164,14 +165,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-058-red-back-kick.webp",
-      "before_url": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=49418c47a255",
+      "before_url": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=71152313e58d",
       "before_sha256": "49418c47a255f45c5a7ac627e9b11c193b070b445076ff3c5314bf16b5d8e83b",
-      "after_sha256": "71152313e58d281c874b4e30413f13901daf47345dd797cb1a68498c7181238d",
+      "after_sha256": "19681ed500135d631d20cf37f73cb737dfc625b5a9e0934f375591dd9cb4ddd0",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 425.18453865336664,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "f6d72ea587f203be2d106ba845f13e677e962c7e4518f45aea1bcd2883b631d5",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-051-070-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "efef6d99a67926248d3453eb8e7f5149708d65587b623ef194628df50ec53bd8",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-058-red-back-kick.webp",
+          "before_url": "/assets/cards/saiyan-058-red-back-kick.webp?v=21f0a8ac42c9",
+          "before_sha256": "21f0a8ac42c9f9a2aa1b6ce581014baaa566433dabfd0c5edbd130564d641943",
+          "after_sha256": "8c2829c0bda4291a29f554c6d12a55fc5bd8986761dd2bd903c8152c3fd1335d",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-058-red-back-kick.webp",
+          "before_url": "/assets/cards/downloads/saiyan-058-red-back-kick.webp?v=49418c47a255",
+          "before_sha256": "49418c47a255f45c5a7ac627e9b11c193b070b445076ff3c5314bf16b5d8e83b",
+          "after_sha256": "71152313e58d281c874b4e30413f13901daf47345dd797cb1a68498c7181238d",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }
