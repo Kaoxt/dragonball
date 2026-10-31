@@ -3,12 +3,8 @@
   "id": "saiyan-079-king-kai-training",
   "name": "King Kai Training",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-079-king-kai-training.svg",
-  "native_source_sha256": "9f4493e619ea50d07bcefc3b1a639780b3c0ad2145d48faacc3e5236a1e47a2b",
+  "native_source_sha256": "263014209655d9a77bc642687f080d5bde4e9c42df75753f9b6e686b47dcbe09",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/940dc51b021e46c53f0bdd0b2a4628b8fb1c987bdb5471462414230dc920ab86.png",
       "sha256": "940dc51b021e46c53f0bdd0b2a4628b8fb1c987bdb5471462414230dc920ab86"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -67,9 +67,9 @@
         69.0
       ],
       "card-category": [
-        440.072,
+        432.072,
         891.391,
-        178.856,
+        194.856,
         34.2188
       ],
       "footer-text-block": [
@@ -115,15 +115,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "263014209655d9a77bc642687f080d5bde4e9c42df75753f9b6e686b47dcbe09"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-079-king-kai-training.webp",
-      "before_url": "/assets/cards/saiyan-079-king-kai-training.webp?v=664211d98b61",
+      "before_url": "/assets/cards/saiyan-079-king-kai-training.webp?v=18340652eb97",
       "before_sha256": "664211d98b6119f434c08fab22b3f6b85421c57968de7dc847658454bb6124b9",
-      "after_sha256": "18340652eb974b0b0ad9d155fb4b7d305525b3e82cf4080c4955ae7492a4443c",
+      "after_sha256": "29b47013de5368d068c56251d9f5447b96444ebfb67997e66dbb5161a7ea348e",
       "size": [
         1060,
         1484
@@ -133,14 +134,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-079-king-kai-training.webp",
-      "before_url": "/assets/cards/downloads/saiyan-079-king-kai-training.webp?v=c61e19ca6284",
+      "before_url": "/assets/cards/downloads/saiyan-079-king-kai-training.webp?v=49ea775b8e9d",
       "before_sha256": "c61e19ca6284d87e897de39348f5aa928b19c89afc16dfdffc38d230eb587d72",
-      "after_sha256": "49ea775b8e9d200d98df07cbe0382b2360c45430fecff66b4fc53ff674ff28a6",
+      "after_sha256": "0ce3b2ed2d481f43fca0c579afe911c9da713f3d5d09d819cb750e927284f871",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 503.39027431421454,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "27627023d9f30c4bcb536003bfcca14e89d5f10ec6f7ab3b655fc97db292defa",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9f4493e619ea50d07bcefc3b1a639780b3c0ad2145d48faacc3e5236a1e47a2b",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-079-king-kai-training.webp",
+          "before_url": "/assets/cards/saiyan-079-king-kai-training.webp?v=664211d98b61",
+          "before_sha256": "664211d98b6119f434c08fab22b3f6b85421c57968de7dc847658454bb6124b9",
+          "after_sha256": "18340652eb974b0b0ad9d155fb4b7d305525b3e82cf4080c4955ae7492a4443c",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-079-king-kai-training.webp",
+          "before_url": "/assets/cards/downloads/saiyan-079-king-kai-training.webp?v=c61e19ca6284",
+          "before_sha256": "c61e19ca6284d87e897de39348f5aa928b19c89afc16dfdffc38d230eb587d72",
+          "after_sha256": "49ea775b8e9d200d98df07cbe0382b2360c45430fecff66b4fc53ff674ff28a6",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

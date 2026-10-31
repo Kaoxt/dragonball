@@ -3,19 +3,19 @@
   "id": "saiyan-112-krillins-physical-defense",
   "name": "Krillin's Physical Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-112-krillins-physical-defense.svg",
-  "native_source_sha256": "9d4ee79648f0dac7396ea222ea0d699b6c1591b480ad4703ac411c997a07d3e2",
+  "native_source_sha256": "fbfd09b7226c695db50b08b9f46236b9eddf51f3afa72b3eb600014bc1f52587",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9.png",
+      "sha256": "2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9.png",
-      "sha256": "2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -74,15 +74,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        146.602,
-        44.5,
-        765.797,
-        69.0
+        179.5,
+        47.4642,
+        700.0,
+        63.0716
       ],
       "card-category": [
-        441.596,
+        433.596,
         891.991,
-        175.808,
+        191.808,
         33.0187
       ],
       "footer-text-block": [
@@ -140,15 +140,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "fbfd09b7226c695db50b08b9f46236b9eddf51f3afa72b3eb600014bc1f52587"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-112-krillins-physical-defense.webp",
-      "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=d765dfadbad7",
+      "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=9b1264f4fcd6",
       "before_sha256": "d765dfadbad70c57a1ecefd697a9bff50400c80d6d41fbe7a0bf5cc49eecd7e5",
-      "after_sha256": "9b1264f4fcd6c7bb5b75fcf190f10531dabaa648af977f911df0b5884004533e",
+      "after_sha256": "81b0b8746afc877534b185689a080cb49e739bd752ef5e9643e8ac31266aea89",
       "size": [
         1060,
         1484
@@ -158,14 +159,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=443903e63c48",
+      "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=419a9db9320b",
       "before_sha256": "443903e63c4860e2f268a1502f93ebba9f4180b0b7b3eac8235f26c208a9a0d5",
-      "after_sha256": "419a9db9320b9da1c1463f26270cf19f0900e53c3204245ab50c0e0551d6dbbc",
+      "after_sha256": "37e400493e977eae1ad068190cc04545c085ff1aa5f2a79646b0d10f005d6843",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 78.64284911807661,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 63.07156499269744,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9140806520680788
+    },
+    "middle_typography": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "e60cfc7d0da0c48951bc995528ab84dd669cef38537c3e1efed6b526c296a7ff",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9d4ee79648f0dac7396ea222ea0d699b6c1591b480ad4703ac411c997a07d3e2",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-112-krillins-physical-defense.webp",
+          "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=d765dfadbad7",
+          "before_sha256": "d765dfadbad70c57a1ecefd697a9bff50400c80d6d41fbe7a0bf5cc49eecd7e5",
+          "after_sha256": "9b1264f4fcd6c7bb5b75fcf190f10531dabaa648af977f911df0b5884004533e",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=443903e63c48",
+          "before_sha256": "443903e63c4860e2f268a1502f93ebba9f4180b0b7b3eac8235f26c208a9a0d5",
+          "after_sha256": "419a9db9320b9da1c1463f26270cf19f0900e53c3204245ab50c0e0551d6dbbc",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

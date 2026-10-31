@@ -3,27 +3,27 @@
   "id": "saiyan-100-vegetas-suprise-defense",
   "name": "Vegeta's Surprise Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-100-vegetas-suprise-defense.svg",
-  "native_source_sha256": "e7222e0b660ea9db4abc7bfd622a2ccdee8254a97b18268640a93e0d9e15614d",
+  "native_source_sha256": "4c0b230735f27dc06717958c1602a1901bbd9f9135e0f4a8d57ce4ebc635a93a",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723.png",
+      "sha256": "4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96.png",
-      "sha256": "db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723.png",
-      "sha256": "4a2f99d6415f42db2b3e85a33aa5dee948f6e87eb208f3e441d777b8d2915723"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
       "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96.png",
+      "sha256": "db56e2f49967c1eaa7970c4e12478903e277be161dd77fd7881490b69dcb6f96"
     }
   ],
   "artwork": {
@@ -74,15 +74,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        131.244,
-        44.5,
-        796.511,
-        69.0
+        179.5,
+        48.6803,
+        700.0,
+        60.6394
       ],
       "card-category": [
-        441.596,
+        433.596,
         891.991,
-        175.808,
+        191.808,
         33.0187
       ],
       "footer-text-block": [
@@ -152,15 +152,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "4c0b230735f27dc06717958c1602a1901bbd9f9135e0f4a8d57ce4ebc635a93a"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-100-vegetas-suprise-defense.webp",
-      "before_url": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=6ed806253360",
+      "before_url": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=034393267317",
       "before_sha256": "6ed8062533600b9d9a0bd52f2e4883cb8f43897a94e2cefce5b59d5e3b117263",
-      "after_sha256": "03439326731744cbedadd52331d01b3bf07af126d105166618443ddfdbabe398",
+      "after_sha256": "074eb1f24eae94a6a4a437aa5f8f1ce4a710a6ff2bd3cf700c9ae577f52b4684",
       "size": [
         1060,
         1484
@@ -170,14 +171,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=1e1c849524c4",
+      "before_url": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=8b2cfb9b46e3",
       "before_sha256": "1e1c849524c46a88b051777291af945c98633028233a3a1696f6d183b0d73879",
-      "after_sha256": "8b2cfb9b46e3b230a6141e76496e1186756fd9b27709b5b9c631f15e948b9dff",
+      "after_sha256": "c955c90dbe6d7d8849db3ab700888e7d87226eaf345ae0e948f7998bd8e9914b",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 75.61028299848779,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 60.63944696478721,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.878832564707061
+    },
+    "middle_typography": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "3183dac4ee14db254d21c5f1054208172e7a107cfe5ee29448284dcf1fa9dece",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "e7222e0b660ea9db4abc7bfd622a2ccdee8254a97b18268640a93e0d9e15614d",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-100-vegetas-suprise-defense.webp",
+          "before_url": "/assets/cards/saiyan-100-vegetas-suprise-defense.webp?v=6ed806253360",
+          "before_sha256": "6ed8062533600b9d9a0bd52f2e4883cb8f43897a94e2cefce5b59d5e3b117263",
+          "after_sha256": "03439326731744cbedadd52331d01b3bf07af126d105166618443ddfdbabe398",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-100-vegetas-suprise-defense.webp?v=1e1c849524c4",
+          "before_sha256": "1e1c849524c46a88b051777291af945c98633028233a3a1696f6d183b0d73879",
+          "after_sha256": "8b2cfb9b46e3b230a6141e76496e1186756fd9b27709b5b9c631f15e948b9dff",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

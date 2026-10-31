@@ -3,19 +3,19 @@
   "id": "saiyan-119-vegetas-energy-blast",
   "name": "Vegeta's Energy Blast",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-119-vegetas-energy-blast.svg",
-  "native_source_sha256": "068f12b0d8dae06a02264b608c28610360ccbb6e0f250ed3a83d9bf6c7fd0aa0",
+  "native_source_sha256": "ef7a06d290b13ac8b2e5b8f12f9c71a905fc711205b12a80659152b01961dc8b",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4.png",
+      "sha256": "124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4.png",
-      "sha256": "124e4535a11e13b7027bc5927201f4ea2bb75b15d7b722b42f05cdbd41d4c8b4"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -74,9 +74,9 @@
         69.0
       ],
       "card-category": [
-        441.596,
+        433.596,
         891.991,
-        175.808,
+        191.808,
         33.0187
       ],
       "footer-text-block": [
@@ -128,15 +128,16 @@
         25.97
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "ef7a06d290b13ac8b2e5b8f12f9c71a905fc711205b12a80659152b01961dc8b"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-119-vegetas-energy-blast.webp",
-      "before_url": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=537c49c6c864",
+      "before_url": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=657fed252771",
       "before_sha256": "537c49c6c8642c7f9d8c9d747dabb80010a298096feaf5cc70c7a978058cf7cc",
-      "after_sha256": "657fed2527713f0a799420e533790f4aaeaf6c5bf1639d024a0b6f8d4d3d568a",
+      "after_sha256": "a8448bd96c0afbcdbfc9126601e1f3c498853c302f0718eaafd88015bdee8cf8",
       "size": [
         1060,
         1484
@@ -146,14 +147,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp",
-      "before_url": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=425d99646879",
+      "before_url": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=9187b0474ad9",
       "before_sha256": "425d996468798978dba00df903f809fcc6d095fdc9e426d4e344be5adaf7e965",
-      "after_sha256": "9187b0474ad9b2d1c0ec5776b4bcdae8fe32fa2e9c6a1939ac003360cb2ffb72",
+      "after_sha256": "908067cc34610058b1c16cd330243b83a3fd304b407347552dc12bdb9fc556fb",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 658.425187032419,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "ce3f9dfbf932d709fc6ea5d16bfd18450a42a43a38d48e547f1df03206d5f54a",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "068f12b0d8dae06a02264b608c28610360ccbb6e0f250ed3a83d9bf6c7fd0aa0",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-119-vegetas-energy-blast.webp",
+          "before_url": "/assets/cards/saiyan-119-vegetas-energy-blast.webp?v=537c49c6c864",
+          "before_sha256": "537c49c6c8642c7f9d8c9d747dabb80010a298096feaf5cc70c7a978058cf7cc",
+          "after_sha256": "657fed2527713f0a799420e533790f4aaeaf6c5bf1639d024a0b6f8d4d3d568a",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp",
+          "before_url": "/assets/cards/downloads/saiyan-119-vegetas-energy-blast.webp?v=425d99646879",
+          "before_sha256": "425d996468798978dba00df903f809fcc6d095fdc9e426d4e344be5adaf7e965",
+          "after_sha256": "9187b0474ad9b2d1c0ec5776b4bcdae8fe32fa2e9c6a1939ac003360cb2ffb72",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

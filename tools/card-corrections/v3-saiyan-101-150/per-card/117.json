@@ -3,15 +3,15 @@
   "id": "saiyan-117-raditz-energy-wall",
   "name": "Raditz Energy Wall",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-117-raditz-energy-wall.svg",
-  "native_source_sha256": "47e19d0caf6829e101f26ffdb41acb6831b30ec48d76b57fd8ce70d86b6fbf8b",
+  "native_source_sha256": "ad9491d462a1c0a4bf54d402aa0d993e07ae6a7c321d8b01e0a93c50aacaa6ce",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d0d1249611c3bed8480bf594743dd63e75a29e547ff22b1e0f72c677e0cf2b1b.png",
@@ -62,9 +62,9 @@
         69.0
       ],
       "card-category": [
-        441.596,
+        433.596,
         891.991,
-        175.808,
+        191.808,
         33.0187
       ],
       "footer-text-block": [
@@ -104,15 +104,16 @@
         44.884
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "ad9491d462a1c0a4bf54d402aa0d993e07ae6a7c321d8b01e0a93c50aacaa6ce"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-117-raditz-energy-wall.webp",
-      "before_url": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=add2dafa3c57",
+      "before_url": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=fd09085e235f",
       "before_sha256": "add2dafa3c5750cfcb6b3298c6e8b096995441f827100f787e377c88eb0e8d6e",
-      "after_sha256": "fd09085e235ffd92a92627b85789c62d26ee27299a127a8be230f55c23b0a1aa",
+      "after_sha256": "b44047c9bee23ed1a0c624af40f6d6e4fed8eaf428218632b339a510953702eb",
       "size": [
         1060,
         1484
@@ -122,14 +123,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp",
-      "before_url": "/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp?v=f225c1407d80",
+      "before_url": "/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp?v=c8c358ac4465",
       "before_sha256": "f225c1407d80e7043c9b1f64ddfb4811cf7a8a28a7a2d739328297e109499d20",
-      "after_sha256": "c8c358ac446570c985044aba5e9833cb82aabe14fbf09f630201904e76ddf056",
+      "after_sha256": "483533c56d38f97fc246c7e5e572ca932ba7429ad0abe90f82b0976b4cdc98cc",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 560.4314214463841,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "9f5151c7f63acc4a825d9c2ed258e44e828d026a9d67d0c4af515303db099a48",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "47e19d0caf6829e101f26ffdb41acb6831b30ec48d76b57fd8ce70d86b6fbf8b",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-117-raditz-energy-wall.webp",
+          "before_url": "/assets/cards/saiyan-117-raditz-energy-wall.webp?v=add2dafa3c57",
+          "before_sha256": "add2dafa3c5750cfcb6b3298c6e8b096995441f827100f787e377c88eb0e8d6e",
+          "after_sha256": "fd09085e235ffd92a92627b85789c62d26ee27299a127a8be230f55c23b0a1aa",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp",
+          "before_url": "/assets/cards/downloads/saiyan-117-raditz-energy-wall.webp?v=f225c1407d80",
+          "before_sha256": "f225c1407d80e7043c9b1f64ddfb4811cf7a8a28a7a2d739328297e109499d20",
+          "after_sha256": "c8c358ac446570c985044aba5e9833cb82aabe14fbf09f630201904e76ddf056",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

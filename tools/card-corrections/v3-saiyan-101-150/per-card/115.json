@@ -3,19 +3,19 @@
   "id": "saiyan-115-yamchas-energy-attack",
   "name": "Yamcha's Energy Attack",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-115-yamchas-energy-attack.svg",
-  "native_source_sha256": "e1894ce599c817f49579a20e6960f137a6b84bfb698f07bbf7652de955638c4c",
+  "native_source_sha256": "030fcc16a15f0efecb09957519fa3c945aa016702936b45531b1ef90a5f71d6b",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/5432c51188723587ac29f580da16ab485523de2494f536599a3e09d812f444d3.png",
+      "sha256": "5432c51188723587ac29f580da16ab485523de2494f536599a3e09d812f444d3"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/5432c51188723587ac29f580da16ab485523de2494f536599a3e09d812f444d3.png",
-      "sha256": "5432c51188723587ac29f580da16ab485523de2494f536599a3e09d812f444d3"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        162.26,
-        44.5,
-        734.48,
-        69.0
+        179.5,
+        46.1196,
+        700.0,
+        65.7608
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "030fcc16a15f0efecb09957519fa3c945aa016702936b45531b1ef90a5f71d6b"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-115-yamchas-energy-attack.webp",
-      "before_url": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=b1280e7dba2b",
+      "before_url": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=409f09065077",
       "before_sha256": "b1280e7dba2b750c9357a17c5190cb4f05fe9658b33ecf9f3dda2c5c6f02d3ad",
-      "after_sha256": "409f0906507701c5b2a5fca137fcfa0682b80c2376ad607bbb2d3bc238b1a349",
+      "after_sha256": "9b1a975bcfb87501ccc04e4a3677e8c8319e0a8835bb538e024c16a060a224a4",
       "size": [
         1060,
         1484
@@ -152,14 +153,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp",
-      "before_url": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=7b526bc0b783",
+      "before_url": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=bcd829f6417c",
       "before_sha256": "7b526bc0b783df2052e08b33bdc96a71c4a1608df56a91fe5694fb026ae355dc",
-      "after_sha256": "bcd829f6417ce1658b73ab447d97b038adb56d908d14fa0939eb1ed4d0c40f2e",
+      "after_sha256": "02f699a389dcdeb5e6e69ab8c0b7e75fc28eb728566e441a7c41d6b408d5dccd",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 81.9960173363008,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 65.76080590371323,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9530551580248294
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "af947e9ecca99bd220342c2d137b269a4ee17ed84b2ff6bc23c56a2eaa843422",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "e1894ce599c817f49579a20e6960f137a6b84bfb698f07bbf7652de955638c4c",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-115-yamchas-energy-attack.webp",
+          "before_url": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=b1280e7dba2b",
+          "before_sha256": "b1280e7dba2b750c9357a17c5190cb4f05fe9658b33ecf9f3dda2c5c6f02d3ad",
+          "after_sha256": "409f0906507701c5b2a5fca137fcfa0682b80c2376ad607bbb2d3bc238b1a349",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp",
+          "before_url": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=7b526bc0b783",
+          "before_sha256": "7b526bc0b783df2052e08b33bdc96a71c4a1608df56a91fe5694fb026ae355dc",
+          "after_sha256": "bcd829f6417ce1658b73ab447d97b038adb56d908d14fa0939eb1ed4d0c40f2e",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

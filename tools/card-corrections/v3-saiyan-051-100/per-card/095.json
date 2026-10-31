@@ -3,19 +3,19 @@
   "id": "saiyan-095-saiyan-energy-aura",
   "name": "Saiyan Energy Aura",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-095-saiyan-energy-aura.svg",
-  "native_source_sha256": "4ff666bdea1892371ca5aab10b86c197f984ff9750f7268f4b422e0ec87be6a1",
+  "native_source_sha256": "af76783f19b1d70240a98bfea68448932ca510810b74f4b0518f325b959a20a8",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/53b84346c257f0283eb9c75db2034c672744c07544fb98e92efa532780d9219e.png",
+      "sha256": "53b84346c257f0283eb9c75db2034c672744c07544fb98e92efa532780d9219e"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/53b84346c257f0283eb9c75db2034c672744c07544fb98e92efa532780d9219e.png",
-      "sha256": "53b84346c257f0283eb9c75db2034c672744c07544fb98e92efa532780d9219e"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -68,9 +68,9 @@
         69.0
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -146,15 +146,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "af76783f19b1d70240a98bfea68448932ca510810b74f4b0518f325b959a20a8"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-095-saiyan-energy-aura.webp",
-      "before_url": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=982a4e097323",
+      "before_url": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=62cc33d34ad6",
       "before_sha256": "982a4e0973230e1fdb30a77a42f70bd5af4a43619e9b509988febd320e8d6d9b",
-      "after_sha256": "62cc33d34ad64803c3bad66a85f6040a0ffbfa2fb5837a7c48add3e20f50ef0f",
+      "after_sha256": "8676fa2ff2ba9d37d60e7520cce15279ad3e51b9629d1ed2be3ee22908948018",
       "size": [
         1060,
         1484
@@ -164,14 +165,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp",
-      "before_url": "/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp?v=e023089a3374",
+      "before_url": "/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp?v=47aeb5ac8546",
       "before_sha256": "e023089a33740c2b9fbd3be8d9487f8dece8e7deffac1ff570552f24da10e233",
-      "after_sha256": "47aeb5ac8546c87a1cfce1bafd322f757d970dd775185401afb352c15b1d2b5a",
+      "after_sha256": "258691763465a13cfedeb7bb004e1eee928fe423acd9f90918b499ae487aba47",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 581.0798004987532,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "468cf1cf236ad7404e19ab1165be82df114b0df232eb072f07e92f7668f4c69f",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "4ff666bdea1892371ca5aab10b86c197f984ff9750f7268f4b422e0ec87be6a1",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-095-saiyan-energy-aura.webp",
+          "before_url": "/assets/cards/saiyan-095-saiyan-energy-aura.webp?v=982a4e097323",
+          "before_sha256": "982a4e0973230e1fdb30a77a42f70bd5af4a43619e9b509988febd320e8d6d9b",
+          "after_sha256": "62cc33d34ad64803c3bad66a85f6040a0ffbfa2fb5837a7c48add3e20f50ef0f",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp",
+          "before_url": "/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp?v=e023089a3374",
+          "before_sha256": "e023089a33740c2b9fbd3be8d9487f8dece8e7deffac1ff570552f24da10e233",
+          "after_sha256": "47aeb5ac8546c87a1cfce1bafd322f757d970dd775185401afb352c15b1d2b5a",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

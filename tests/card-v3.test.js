@@ -38,9 +38,9 @@ test('V3 titles, category labels, footer content and icons share the approved ge
   }
   const num=v.bounds['card-number'];near(num[0],880);near(num[1]+num[3]/2,1409.5);
   assert.ok(v.icons.length<=1);
-  for(const icon of v.icons){near(icon.center_error,0,.01);near(icon.new_visible_bounds[3],34.3,.1);}
+  for(const icon of v.icons){near(icon.center_error,0,.01);near(icon.new_visible_bounds[3],row.power_icon_revision==='approved-bold-infinity-colon-v16'?19.29375:34.3,.1);}
   for(const [id,b] of Object.entries(v.bounds))if(id.startsWith('rules-line-'))assert.ok(b[1]>=1000&&b[1]+b[3]<1310);
-  if(![15,16].includes(row.number)){if(row.artwork.subject_crop!==undefined)assert.equal(row.artwork.subject_crop,0);else assert.equal(row.artwork.horizontal_source_crop,0);assert.equal(row.artwork.artwork_bytes_retained,true);}
+  if(![15,16,75,76,77].includes(row.number)){if(row.artwork.subject_crop!==undefined)assert.equal(row.artwork.subject_crop,0);else assert.equal(row.artwork.horizontal_source_crop,0);assert.equal(row.artwork.artwork_bytes_retained,true);}
  }
 });
 
@@ -73,4 +73,23 @@ test('Chiaotzu banishment stays an attack cost and drill effects keep their timi
  assert.match(rules(126),/Once per Combat/);assert.match(rules(126),/in place of an attack/);
  assert.match(rules(135),/any Orange Drill/);assert.match(rules(136),/any other Black Drill/);
  assert.match(rules(139),/do not carry over between attacks/);
+});
+
+// Current approved refresh contains mixed card families and a constant-icon size exception.
+test('Saiyan 71–120 preserves family exceptions and the reviewed Dragon Ball mechanics',()=>{
+ const rows=audit.filter(r=>r.number>=71&&r.number<=120);assert.equal(rows.length,50);
+ assert.equal(rows.filter(r=>r.tokui_waza_backing?.all_styles===true).length,37);
+ for(const n of [75,76,77]){
+  const row=rows.find(r=>r.number===n);assert.equal(row.artwork.approved_replacement,'Shenron-No-Central-Ball.png');
+  assert.equal(row.current_preview_revision.dragon_ball.count,n-72);
+  assert.deepEqual(row.current_preview_revision.dragon_ball.center,[130,887]);
+  assert.equal(row.tokui_waza_backing.applies,false);
+ }
+ for(const n of [81,88]){
+  const row=rows.find(r=>r.number===n);assert.equal(row.power_icon_revision,'approved-bold-infinity-colon-v16');
+  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  assert.ok(svg.includes('id="constant-infinity-symbol"'));assert.ok(svg.includes('approved-bold-infinity-colon-v16'));
+ }
+ const three=rows.find(r=>r.number===75).rules.map(r=>r.text).join(' ');
+ assert.equal(three,'You may draw 3 cards. Place the top card of your discard pile on the bottom of your Life Deck.');
 });

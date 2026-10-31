@@ -1,0 +1,808 @@
+{
+  "source": "project_sources/01-Expanded-CRD.odt.txt",
+  "cards": [
+    {
+      "number": 71,
+      "id": "saiyan-071-black-back-kick",
+      "original_or_retained_rules": "Energy Attack doing 6 life card draws of damage and costing 5 power stages to perform. Raise card user's anger level 1.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Energy attack costing 5 stages. DAMAGE: 6 life cards. Raise your anger 1 level.",
+        "banish_after_use": false,
+        "source_entry": null
+      },
+      "final_rules": "Energy attack costing 5 stages. DAMAGE: 6 life cards. Raise your anger 1 level.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 72,
+      "id": "saiyan-072-black-axe-heel-kick",
+      "original_or_retained_rules": "Stops a foe's energy attack. Raise card user's anger level 1.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stop an energy attack. Raise your anger 1 level.",
+        "banish_after_use": false,
+        "source_entry": null
+      },
+      "final_rules": "Stops an energy attack. Raise your anger 1 level.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 73,
+      "id": "saiyan-073-black-rear-spin-kick",
+      "original_or_retained_rules": "Stops a foe's energy attack. Raise card user's anger level 1.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Stop an energy attack. Raise your anger 1 level.",
+        "banish_after_use": false,
+        "source_entry": null
+      },
+      "final_rules": "Stops an energy attack. Raise your anger 1 level.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 74,
+      "id": "saiyan-074-black-jump-turn-kick",
+      "original_or_retained_rules": "Energy Attack. Raise card user's anger level 1.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Raise your anger 1 level.",
+        "banish_after_use": false,
+        "default_energy_cost_and_damage": "Special Addendum: unqualified energy attacks cost 2 stages and deal 4 life cards.",
+        "source_entry": null
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Raise your anger 1 level.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 75,
+      "id": "saiyan-075-earth-dragon-ball-3",
+      "original_or_retained_rules": "Draw three cards if you wish, and place the top discarded card at the bottom of your life deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Draw 3 cards. Place the top card of your discard pile on the bottom of your Life Deck.",
+        "banish_after_use": false,
+        "source_entry": null
+      },
+      "final_rules": "You may draw 3 cards. Place the top card of your discard pile on the bottom of your Life Deck.",
+      "change": "Restore optional draw from actual printed scan; no card-specific CRD override found.",
+      "expected_power_icon": null
+    },
+    {
+      "number": 76,
+      "id": "saiyan-076-earth-dragon-ball-4",
+      "original_or_retained_rules": "End the very next combat you are forced into before you sustain damage. Your anger level increases 2.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Earth Dragon Ball 4",
+        "corrected_effect": "Raise your anger 2 levels. The next time an opponent declares Combat against you, skip that Combat immediately.",
+        "banish_after_use": false,
+        "clarification": "Anger gain resolves when the ball is placed in play. Skip ability remains active until an opponent declares Combat against the controller. No entering-Combat effects, draws, or damage. Capture transfers control; skip effects do not stack.",
+        "source_entry": "Earth Dragon Ball 4 (Saiyan Saga - #76) - When this card is placed in play, increase your\nMain Personality\u2019s anger 2 levels. The card\u2019s power to skip the next Combat a player is\nforced into \u201cremains active\u201d until that player\u2019s opponent declares Combat. When Combat is\ndeclared this effect skips Combat immediately (do not use \u201cwhen entering Combat effects,\u201d do\nnot draw cards, do not take damage). The player who controls Earth Dragon Ball 4 controls\nthe ability to skip Combat, so if EDB 4 is captured back and forth between 2 players, the\nability to stop Combat does not stack."
+      },
+      "final_rules": "Raise your anger 2 levels. The next time an opponent declares Combat against you, skip that Combat immediately.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 77,
+      "id": "saiyan-077-earth-dragon-ball-5",
+      "original_or_retained_rules": "Raise any one of your personalities to his highest power stage. Raise your anger 2 levels. Draw 2 cards. Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Earth Dragon Ball 5",
+        "corrected_effect": "Raise 1 of your personalities to its highest stage. Raise your anger 2 levels. Draw 2 cards. Place the top 2 cards of your discard pile on the bottom of your Life Deck.",
+        "banish_after_use": false,
+        "source_entry": "Earth Dragon Ball 5 (Saiyan Saga - #77) - Treat this card as if it read, \u201cRaise any one of your\npersonalities to his highest power stage. Raise your anger 2 levels. Draw 2 cards. Place the\ntop 2 cards of your discard pile at the bottom of your Life Deck.\u201d"
+      },
+      "final_rules": "Raise 1 of your personalities to its highest stage. Raise your anger 2 levels. Draw 2 cards. Place the top 2 cards of your discard pile on the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 78,
+      "id": "saiyan-078-roshis-training",
+      "original_or_retained_rules": "Heroes only. The top 3 discarded cards are placed at the bottom of your life deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": null,
+        "corrected_effect": "Heroes only. POWER: Place the top 3 cards of your discard pile on the bottom of your Life Deck.",
+        "banish_after_use": false,
+        "source_entry": null
+      },
+      "final_rules": "Heroes only. POWER: Place the top 3 cards of your discard pile on the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 79,
+      "id": "saiyan-079-king-kai-training",
+      "original_or_retained_rules": "Heroes only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "King Kai Training",
+        "corrected_effect": "Heroes only. POWER: Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+        "banish_after_use": false,
+        "source_entry": "King Kai Training (Saiyan Saga - #79) - Treat this card as if it read, \u201cHeroes only. Choose 2\ncards from your discard pile and place them on the bottom of your Life Deck.\u201d"
+      },
+      "final_rules": "Heroes only. POWER: Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 80,
+      "id": "saiyan-080-saiyan-training",
+      "original_or_retained_rules": "Villains and Goku only. Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_update": "Saiyan Training",
+        "corrected_effect": "Villains and Goku only. POWER: Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+        "banish_after_use": false,
+        "source_entry": "Saiyan Training (Saiyan Saga - #80) - Treat this card as if it read, \u201cVillains and Goku only.\nChoose 2 cards from your discard pile and place them on the bottom of your Life Deck.\u201d"
+      },
+      "final_rules": "Villains and Goku only. POWER: Choose 2 cards from your discard pile and place them on the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 81,
+      "id": "saiyan-081-saiyan-armor",
+      "original_or_retained_rules": "Prevents 1 life card discard from any successful energy attack that would have normally forced 1 or more discards. Limit one per deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Prevents 1 life card discard from any successful energy attack that would have normally forced 1 or more discards. Limit one per deck."
+      },
+      "final_rules": "(Limit 1 per deck.) Reduce life card damage from each successful energy attack against you by 1, to a minimum of 0.",
+      "change": null,
+      "expected_power_icon": "constant"
+    },
+    {
+      "number": 82,
+      "id": "saiyan-082-tien",
+      "original_or_retained_rules": "Multi-Form allows two physical attacks, one after another, or a defense against a physical attack preventing 4 stages of successful damage.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Tien Lv.1 (Saiyan Saga - #82) - \u201cMulti-form allows two physical attacks, one after the other\u201d explained: Multi-form performs two physical attacks. The controlling player performs a physical attack; that player\u2019s opponent defends, the controlling player performs another physical attack, that player\u2019s opponent defends. Then the opponent can attack, and Combat continues as usual. Both physical attacks come from Tien\u2019s Multiform Power, and are not any cards played from your hand.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Multi-Form allows two physical attacks, one after another, or a defense against a physical attack preventing 4 stages of successful damage. Tien Lv.1 (Saiyan Saga - #82) - \u201cMulti-form allows two physical attacks, one after the other\u201d explained: Multi-form performs two physical attacks. The controlling player performs a physical attack; that player\u2019s opponent defends, the controlling player performs another physical attack, that player\u2019s opponent defends. Then the opponent can attack, and Combat continues as usual. Both physical attacks come from Tien\u2019s Multiform Power, and are not any cards played from your hand."
+      },
+      "final_rules": "Perform 2 physical attacks, one after the other. DAMAGE: AT stages each. OR use as a defense to reduce damage from a physical attack by 4 stages.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 83,
+      "id": "saiyan-083-tien",
+      "original_or_retained_rules": "Solar Flare Energy Attack: If it is not blocked it stuns the foe, so he must skip his next opportunity to attack back.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Tien lv.2 (Saiyan Saga - #83) - Solar Flare forces your opponent to \u201cskip\u201d his next \u201cAttacker Attacks\u201d phase, meaning you may not pass to end Combat.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Solar Flare Energy Attack: If it is not blocked it stuns the foe, so he must skip his next opportunity to attack back. Tien lv.2 (Saiyan Saga - #83) - Solar Flare forces your opponent to \u201cskip\u201d his next \u201cAttacker Attacks\u201d phase, meaning you may not pass to end Combat."
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Your opponent skips their next Attacker Attacks phase.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 84,
+      "id": "saiyan-084-yamcha",
+      "original_or_retained_rules": "Spirit Ball Energy Attack does 2 life card draws of damage.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Yamcha Lv.1 (Saiyan Saga - #84) \u2013 This card is an Uncommon and has a 3-Star Dragon Ball.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Spirit Ball Energy Attack does 2 life card draws of damage.",
+        "rarity_entry": "Yamcha Lv.1 (Saiyan Saga - #84) \u2013 This card is an Uncommon and has a 3-Star Dragon Ball."
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 2 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 85,
+      "id": "saiyan-085-yamcha",
+      "original_or_retained_rules": "Solar Flare Energy Attack: If it is not blocked it stuns the foe, so he must skip his next opportunity to attack back.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Yamcha Lv.2 (Saiyan Saga - #85) - Solar Flare forces your opponent to \u201cskip\u201d his next \u201cAttacker Attacks\u201d phase, meaning you may not pass to end Combat.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Solar Flare Energy Attack: If it is not blocked it stuns the foe, so he must skip his next opportunity to attack back. Yamcha Lv.2 (Saiyan Saga - #85) - Solar Flare forces your opponent to \u201cskip\u201d his next \u201cAttacker Attacks\u201d phase, meaning you may not pass to end Combat."
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Your opponent skips their next Attacker Attacks phase.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 86,
+      "id": "saiyan-086-chi-chi",
+      "original_or_retained_rules": "Mother\u2019s Defense: Once per combat, this can block a single physical attack directed at Gohan or Goku so they are not hurt.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Chi-Chi Lv.1 (Saiyan Saga - #86) - Chi-Chi\u2019s power can be used once per turn to stop a physical attack performed against Gohan or Goku. Your Main Personality doesn\u2019t have to be at 0 or 1 stage above 0 in order for Chi-Chi to use this power.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Mother\u2019s Defense: Once per combat, this can block a single physical attack directed at Gohan or Goku so they are not hurt. Chi-Chi Lv.1 (Saiyan Saga - #86) - Chi-Chi\u2019s power can be used once per turn to stop a physical attack performed against Gohan or Goku. Your Main Personality doesn\u2019t have to be at 0 or 1 stage above 0 in order for Chi-Chi to use this power."
+      },
+      "final_rules": "Once per turn, stop a physical attack against Gohan or Goku. You may use this power regardless of your MP's current stage.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 87,
+      "id": "saiyan-087-bulma",
+      "original_or_retained_rules": "Scientific Defense: Reduces the damage done by an energy attack by 2 life card draws.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Scientific Defense: Reduces the damage done by an energy attack by 2 life card draws."
+      },
+      "final_rules": "POWER: Reduce damage from an energy attack against you by 2 life cards.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 88,
+      "id": "saiyan-088-king-kai-uniform",
+      "original_or_retained_rules": "The uniform prevents 1 life card discard from any successful physical attack that would have normally forced 1 or more discards. Limit one per deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "The uniform prevents 1 life card discard from any successful physical attack that would have normally forced 1 or more discards. Limit one per deck."
+      },
+      "final_rules": "(Limit 1 per deck.) Reduce life card damage from each successful physical attack against you by 1, to a minimum of 0.",
+      "change": null,
+      "expected_power_icon": "constant"
+    },
+    {
+      "number": 89,
+      "id": "saiyan-089-dream-chamber-training",
+      "original_or_retained_rules": "Heroes only. 2 discards of the user's choice are placed at the bottom of your life deck. Discard from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Heroes only. 2 discards of the user's choice are placed at the bottom of your life deck. Discard from the game after use."
+      },
+      "final_rules": "Heroes only. POWER: Choose 2 cards in your discard pile and place them at the bottom of your Life Deck. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 90,
+      "id": "saiyan-090-mothers-touch",
+      "original_or_retained_rules": "Stops a physical or energy attack. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Mother\u2019s Touch (Saiyan Saga - #90) - Treat this card as if it read, \u201cStops a physical or energy attack. Remove from the game after use.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Stops a physical or energy attack. Remove from the game after use."
+      },
+      "final_rules": "Stops a physical or energy attack. Banish after use.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 91,
+      "id": "saiyan-091-saiyan-energy-throw",
+      "original_or_retained_rules": "Villains, Goku and Gohan only. Creates an energy attack doing 7 life card draws at a cost of 4 stages of power drain. Discard from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Physical Attack. Plus it stops a single named foe from making a physical attack on his next phase."
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 4 stages. DAMAGE: 7 life cards. Banish after use.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 92,
+      "id": "saiyan-092-saiyan-energy-defense",
+      "original_or_retained_rules": "Saiyan Heritage only. Stops an energy attack.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Saiyan Energy Defense (Saiyan Saga - #92) - Treat this card as if it read, \u201cSaiyan Heritage only. Stops an energy attack.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Stops an energy attack."
+      },
+      "final_rules": "Saiyan Heritage only. Stops an energy attack.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 93,
+      "id": "saiyan-093-saiyan-mental-energy-attack",
+      "original_or_retained_rules": "Saiyan Heritage only. Creates an energy attack inflicting 6 life card draws.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Creates an energy attack inflicting 6 life card draws."
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 6 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 94,
+      "id": "saiyan-094-saiyan-energy-blast",
+      "original_or_retained_rules": "Saiyan Heritage only. Energy attack. Costs 3 power stages to perform. If successful, your opponent cannot perform a physical attack during his next Attacker Attacks phase.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Saiyan Energy Blast (Saiyan Saga - #94) - Treat this card as if it read, \u201cSaiyan Heritage only. Energy attack. Costs 3 power stages to perform. If successful, your opponent cannot perform a physical attack during his next Attacker Attacks phase.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Energy attack. Costs 3 power stages to perform. If successful, your opponent cannot perform a physical attack during his next Attacker Attacks phase."
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 3 stages. DAMAGE: 4 life cards. HIT: Your opponent cannot perform a physical attack during their next Attacker Attacks phase.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 95,
+      "id": "saiyan-095-saiyan-energy-aura",
+      "original_or_retained_rules": "Saiyan Heritage only. Stops an energy attack and stops an energy attack during your opponent\u2019s next Attacker Attacks phase.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Saiyan Energy Aura (Saiyan Saga - #95) - Treat this card as if it read, \u201cSaiyan Heritage only. Stops an energy attack and stops an energy attack during your opponent\u2019s next Attacker Attacks phase.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Stops an energy attack and stops an energy attack during your opponent\u2019s next Attacker Attacks phase."
+      },
+      "final_rules": "Saiyan Heritage only. Stops an energy attack. Stops an energy attack during your opponent's next Attacker Attacks phase.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 96,
+      "id": "saiyan-096-saiyan-sweeping-defense",
+      "original_or_retained_rules": "Saiyan Heritage only. Stops a physical attack and stops a physical attack during your opponent\u2019s next Attacker Attacks phase.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Saiyan Sweeping Defense (Saiyan Saga - #96) - Treat this card as if it read, \u201cSaiyan Heritage only. Stops a physical attack and stops a physical attack during your opponent\u2019s next Attacker Attacks phase.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Stops a physical attack and stops a physical attack during your opponent\u2019s next Attacker Attacks phase."
+      },
+      "final_rules": "Saiyan Heritage only. Stops a physical attack. Stops a physical attack during your opponent's next Attacker Attacks phase.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 97,
+      "id": "saiyan-097-power-up-more",
+      "original_or_retained_rules": "Powers up 6 stages for a personality, going no higher than maximum stage",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Powers up 6 stages for a personality, going no higher than maximum stage"
+      },
+      "final_rules": "POWER: One of your personalities gains 6 stages, up to its highest stage.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 98,
+      "id": "saiyan-098-power-up-the-most",
+      "original_or_retained_rules": "Powers up to the personality's highest stage. Select 2 discarded cards and place them at the bottom of your life deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Powers up to the personality's highest stage. Select 2 discarded cards and place them at the bottom of your life deck."
+      },
+      "final_rules": "POWER: Raise one of your personalities to its highest stage. Choose 2 cards in your discard pile and place them at the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 99,
+      "id": "saiyan-099-blazing-anger",
+      "original_or_retained_rules": "Increase your anger level by 2. Take the top 2 cards from your discard pile and place them at the bottom of your life deck.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Increase your anger level by 2. Take the top 2 cards from your discard pile and place them at the bottom of your life deck."
+      },
+      "final_rules": "POWER: Raise your anger 2 levels. Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 100,
+      "id": "saiyan-100-vegetas-suprise-defense",
+      "original_or_retained_rules": "Stop one physical or energy attack from doing damage. Discard this card from the game after one use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Stop one physical or energy attack from doing damage. Discard this card from the game after one use."
+      },
+      "final_rules": "Stops a physical or energy attack. Banish after use.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 101,
+      "id": "saiyan-101-goku-honor-duel",
+      "original_or_retained_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Goku Honor Duel (Saiyan Saga - #101) - Treat this card as if it read, \u201cUse when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your Life Deck, draw the bottom 3 cards of your discard pile. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 102,
+      "id": "saiyan-102-raditz-honor-duel",
+      "original_or_retained_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Raditz Honor Duel (Saiyan Saga - #102) - Treat this card as if it read, \u201cUse when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your Life Deck, draw the bottom 3 cards of your discard pile. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 103,
+      "id": "saiyan-103-piccolo-honor-duel",
+      "original_or_retained_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Piccolo Honor Duel (Saiyan Saga - #103) - Treat this card as if it read, \u201cUse when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Use when entering Combat as the defender. Instead of drawing 3 cards from your life deck, draw the bottom 3 cards from your discard pile. Remove from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Use when entering Combat as the defender. Instead of drawing 3 cards from your Life Deck, draw the bottom 3 cards of your discard pile. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 104,
+      "id": "saiyan-104-chiaotzu",
+      "original_or_retained_rules": "Power Blast Energy Attack costs 1 power stage to perform.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Power Blast Energy Attack costs 1 power stage to perform.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 1 stage. DAMAGE: 4 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 105,
+      "id": "saiyan-105-chiaotzu",
+      "original_or_retained_rules": "Blast Energy Attack does 6 life cards of damage and removes Chiaotzu from the game.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Chiaotzu Lv.2 (Saiyan Saga - #105) - If Chiaotzu is your Main Personality, and you use his power, Chiaotzu is removed from the game as the cost of the attack, no damage is dealt, and you lose. If Chiaotzu is your Ally, and you use this power, the damage from the attack is dealt, even though Chiaotzu is removed from the game as part of the cost.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Blast Energy Attack does 6 life cards of damage and removes Chiaotzu from the game. Chiaotzu Lv.2 (Saiyan Saga - #105) - If Chiaotzu is your Main Personality, and you use his power, Chiaotzu is removed from the game as the cost of the attack, no damage is dealt, and you lose. If Chiaotzu is your Ally, and you use this power, the damage from the attack is dealt, even though Chiaotzu is removed from the game as part of the cost.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 2 stages and banishing Chiaotzu. DAMAGE: 6 life cards. If Chiaotzu is your MP, you lose before dealing damage.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 106,
+      "id": "saiyan-106-yajirobe",
+      "original_or_retained_rules": "Physical Attack.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Physical Attack.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Physical attack. DAMAGE: AT stages.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 107,
+      "id": "saiyan-107-yajirobe",
+      "original_or_retained_rules": "Energy attack needs 3 power stages to perform.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Energy attack needs 3 power stages to perform.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 3 stages. DAMAGE: 4 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 108,
+      "id": "saiyan-108-gokus-energy-defense",
+      "original_or_retained_rules": "Prevents 3 life cards from being discarded from a successful energy attack. If used by Goku, it stays on the table to be used one more time in this combat.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Prevents 3 life cards from being discarded from a successful energy attack. If used by Goku, it stays on the table to be used one more time in this combat.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "POWER: Reduce damage from a successful energy attack against you by 3 life cards. If used by Goku, keep this card in play to use 1 more time this Combat.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 109,
+      "id": "saiyan-109-piccolos-energy-attack",
+      "original_or_retained_rules": "Does 6 life card draws of damage and costs 5 stages of power drain to perform.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Does 6 life card draws of damage and costs 5 stages of power drain to perform.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 5 stages. DAMAGE: 6 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 110,
+      "id": "saiyan-110-piccolos-physical-defense",
+      "original_or_retained_rules": "Stops a physical attack. Gain 4 power stages.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Piccolo\u2019s Physical Defense (Saiyan Saga - #110) - Treat this card as if it read, \u201cStops a physical attack. Gain 4 power stages.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Stops a physical attack. Gain 4 power stages.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Stops a physical attack. Gain 4 stages.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 111,
+      "id": "saiyan-111-gohans-energy-defense",
+      "original_or_retained_rules": "Stops an energy attack. Raise your anger 1 level.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Gohan\u2019s Energy Defense (Saiyan Saga - #111) - Treat this card as if it read, \u201cStops an energy attack. Raise your anger 1 level.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Stops an energy attack. Raise your anger 1 level.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Stops an energy attack. Raise your anger 1 level.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 112,
+      "id": "saiyan-112-krillins-physical-defense",
+      "original_or_retained_rules": "Play this card as a defense. If your opponent\u2019s attack does life cards of damage to you, you may take the first life card of damage from that attack and place it in your hand instead of discarding it. If used by Krillin, this card stays in play to be used one more time this Combat.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Krillin\u2019s Physical Defense (Saiyan Saga - #112) - Treat this card as if it read \u201cPlay this card as a defense. If your opponent\u2019s attack does life cards of damage to you, you may take the first life card of damage from that attack and place it in your hand instead of discarding it. If used by Krillin, this card stays in play to be used on more time this Combat.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Play this card as a defense. If your opponent\u2019s attack does life cards of damage to you, you may take the first life card of damage from that attack and place it in your hand instead of discarding it. If used by Krillin, this card stays in play to be used on more time this Combat.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Use as a defense. If the attack deals life card damage to you, you may put the first life card of damage into your hand instead of discarding it. If used by Krillin, keep this card in play to use 1 more time this Combat.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 113,
+      "id": "saiyan-113-krillins-energy-attack",
+      "original_or_retained_rules": "Energy attack doing 2 draws from the life card deck if not stopped. If used by Krillin, this card stays on the table to be used one more time in this combat.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Energy attack doing 2 draws from the life card deck if not stopped. If used by Krillin, this card stays on the table to be used one more time in this combat.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 2 life cards. If used by Krillin, keep this card in play to use 1 more time this Combat.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 114,
+      "id": "saiyan-114-tiens-energy-defense",
+      "original_or_retained_rules": "Prevents a foe's energy attack.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Prevents a foe's energy attack.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Stops an energy attack.",
+      "change": null,
+      "expected_power_icon": "block"
+    },
+    {
+      "number": 115,
+      "id": "saiyan-115-yamchas-energy-attack",
+      "original_or_retained_rules": "Energy attack doing 2 life card draws of damage. Costs 3 power stages to perform.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Energy attack doing 2 life card draws of damage. Costs 3 power stages to perform.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Energy attack costing 3 stages. DAMAGE: 2 life cards.",
+      "change": null,
+      "expected_power_icon": "attack"
+    },
+    {
+      "number": 116,
+      "id": "saiyan-116-yamchas-physical-defense",
+      "original_or_retained_rules": "Prevents 3 life cards from being taken in a successful physical attack.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Prevents 3 life cards from being taken in a successful physical attack.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "POWER: Reduce damage from a successful physical attack against you by 3 life cards.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 117,
+      "id": "saiyan-117-raditz-energy-wall",
+      "original_or_retained_rules": "Forces a Hero opponent in this combat to discard 1 life card from his deck. Discard this card from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Forces a Hero opponent in this combat to discard 1 life card from his deck. Discard this card from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "POWER: A Hero opponent in this Combat discards the top card of their Life Deck. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 118,
+      "id": "saiyan-118-raditz-physical-defense",
+      "original_or_retained_rules": "Forces Hero opponent in this combat to take his anger level down 2. Discard this card from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": null,
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Forces Hero opponent in this combat to take his anger level down 2. Discard this card from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "POWER: Lower a Hero opponent's anger 2 levels during this Combat. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 119,
+      "id": "saiyan-119-vegetas-energy-blast",
+      "original_or_retained_rules": "Saiyan Heritage only. Use when needed. This must be your first card played during Combat. Raise your Main Personality to its highest power stage. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Vegeta\u2019s Energy Blast (Saiyan Saga - #119) - Treat this card as if it read, \u201cSaiyan Heritage only. Use when needed. This must be your first card played during Combat. Raise your Main Personality to its highest power stage. Remove from the game after use.",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Saiyan Heritage only. Use when needed. This must be your first card played during Combat. Raise your Main Personality to its highest power stage. Remove from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Saiyan Heritage only. Use when needed. This must be your first card played this Combat. POWER: Raise your MP to its highest stage. Banish after use.",
+      "change": null,
+      "expected_power_icon": null
+    },
+    {
+      "number": 120,
+      "id": "saiyan-120-nappas-energy-aura",
+      "original_or_retained_rules": "Stops an energy attack. Stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use.",
+      "crd_review": {
+        "source": "Expanded-CRD.txt",
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+        "applicable_entry": "Nappa\u2019s Energy Aura (Saiyan Saga - #120) - Treat this card as if it read, \u201cStops an energy attack. Stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use.\u201d",
+        "default_energy_attack": "2 stages; 4 life cards unless otherwise specified.",
+        "corrected_effect": "Stops an energy attack. Stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use.",
+        "current_supplied_source": "Expanded-CRD.txt",
+        "current_supplied_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "final_rules": "Stops an energy attack. Stops all energy attacks against you for the rest of Combat. Banish after use.",
+      "change": null,
+      "expected_power_icon": "block"
+    }
+  ]
+}

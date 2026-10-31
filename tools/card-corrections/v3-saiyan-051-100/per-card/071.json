@@ -3,12 +3,8 @@
   "id": "saiyan-071-black-back-kick",
   "name": "Black Back Kick",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-071-black-back-kick.svg",
-  "native_source_sha256": "ec99fb8bf4cdd8634c292fd52827eb1684a05e05350b0741a570a1a149b22b39",
+  "native_source_sha256": "c3f14ef7c446b547e49d2b7227a829be2ab744d8eba68dbcc4b074070db25459",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/9fa59b1464bfe17be275f056f0be436196f67f3fefe7559e34c492ecbac0c68d.png",
       "sha256": "9fa59b1464bfe17be275f056f0be436196f67f3fefe7559e34c492ecbac0c68d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -61,9 +61,9 @@
         57.5574
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -133,15 +133,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "c3f14ef7c446b547e49d2b7227a829be2ab744d8eba68dbcc4b074070db25459"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-071-black-back-kick.webp",
-      "before_url": "/assets/cards/saiyan-071-black-back-kick.webp?v=5a1e3c2b701e",
+      "before_url": "/assets/cards/saiyan-071-black-back-kick.webp?v=276d53d86cc5",
       "before_sha256": "5a1e3c2b701eb3c0004fde9097d83a2b5e04a16f52934c29e51bf96eb086427e",
-      "after_sha256": "276d53d86cc5b80e054bbe1b3d1bd094f6641512dfb58fc8216b117f781028b4",
+      "after_sha256": "b329b0958cf614aeb319364e3159d855de89e1486e50278ee77fc305fe43fa32",
       "size": [
         1060,
         1484
@@ -151,14 +152,107 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-071-black-back-kick.webp",
-      "before_url": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=18c0f83c80b6",
+      "before_url": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=316b193dcde8",
       "before_sha256": "18c0f83c80b683c3b642009b5a22eaeb9f8affc9b21acd5711073f86c825410b",
-      "after_sha256": "316b193dcde8443857d7aa0eee94f49eeb94f8ecb0ebd12305e14919f61f3b62",
+      "after_sha256": "717f2e6e59611251a0da63fb0befad3a5b454ede574b1b7d7f46234a4fb964a9",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 480.5910224438903,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "dd087d638e1a2c61973595539bf0938472bed4e948a5f0a6196ebd944eb61f67",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "ec99fb8bf4cdd8634c292fd52827eb1684a05e05350b0741a570a1a149b22b39",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-071-black-back-kick.webp",
+          "before_url": "/assets/cards/saiyan-071-black-back-kick.webp?v=5a1e3c2b701e",
+          "before_sha256": "5a1e3c2b701eb3c0004fde9097d83a2b5e04a16f52934c29e51bf96eb086427e",
+          "after_sha256": "276d53d86cc5b80e054bbe1b3d1bd094f6641512dfb58fc8216b117f781028b4",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-071-black-back-kick.webp",
+          "before_url": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=18c0f83c80b6",
+          "before_sha256": "18c0f83c80b683c3b642009b5a22eaeb9f8affc9b21acd5711073f86c825410b",
+          "after_sha256": "316b193dcde8443857d7aa0eee94f49eeb94f8ecb0ebd12305e14919f61f3b62",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

@@ -3,27 +3,27 @@
   "id": "saiyan-113-krillins-energy-attack",
   "name": "Krillin's Energy Attack",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-113-krillins-energy-attack.svg",
-  "native_source_sha256": "f63a00c657711dcde11f2bd48bc739fb6e51528df3ed996c76bebf99af6ece5f",
+  "native_source_sha256": "5dc552f0669fe4de982373e5b136603b0da70b76461b40d9188411bb609afb5c",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030.png",
-      "sha256": "f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030"
     },
     {
       "path": "tools/card-templates/v3/assets/93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7.png",
       "sha256": "93c6a50a2e09524f9461d28a75c1be0371d0aa4885b2050077e44a0ec00f9ed7"
     },
     {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
       "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030.png",
+      "sha256": "f2c75c6c32f2092417f7b7d3b810abfd74dbae430a31a0aaaacc72f37cb50030"
     }
   ],
   "artwork": {
@@ -101,9 +101,9 @@
         69.0
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -179,15 +179,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "5dc552f0669fe4de982373e5b136603b0da70b76461b40d9188411bb609afb5c"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-113-krillins-energy-attack.webp",
-      "before_url": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=5a78cd89a5fa",
+      "before_url": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=d46b6989e720",
       "before_sha256": "5a78cd89a5faf0bae2a9148b0e97fa5785285f76081ad8dbf3539a198bbaaeba",
-      "after_sha256": "d46b6989e720dc51bc35e3e6a35a53fae3bc320e20e413258d39495083c81006",
+      "after_sha256": "20364d1d426388fca24f487d20df1e42435db9683c5ec5d2384acb4ee2d928eb",
       "size": [
         1060,
         1484
@@ -197,14 +198,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp",
-      "before_url": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=3e73dccc338a",
+      "before_url": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=3709d0c8b6a2",
       "before_sha256": "3e73dccc338a9ebf133e64f2290ad0d86dde1f080d8c23c60636d5a7d3984320",
-      "after_sha256": "3709d0c8b6a2fd492a566c989a45d99b1860d2773b911a6224b7c5125cbcc4ee",
+      "after_sha256": "9771e23811504b61a8a5b84bbe1f9d69bff3654df7877dbafe9b91bfb40d8992",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 667.8029925187034,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "26ebb7b9f2d5ed57038b0152352f4baf77913b1afb0d2572a850b5402283e67c",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "f63a00c657711dcde11f2bd48bc739fb6e51528df3ed996c76bebf99af6ece5f",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-113-krillins-energy-attack.webp",
+          "before_url": "/assets/cards/saiyan-113-krillins-energy-attack.webp?v=5a78cd89a5fa",
+          "before_sha256": "5a78cd89a5faf0bae2a9148b0e97fa5785285f76081ad8dbf3539a198bbaaeba",
+          "after_sha256": "d46b6989e720dc51bc35e3e6a35a53fae3bc320e20e413258d39495083c81006",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp",
+          "before_url": "/assets/cards/downloads/saiyan-113-krillins-energy-attack.webp?v=3e73dccc338a",
+          "before_sha256": "3e73dccc338a9ebf133e64f2290ad0d86dde1f080d8c23c60636d5a7d3984320",
+          "after_sha256": "3709d0c8b6a2fd492a566c989a45d99b1860d2773b911a6224b7c5125cbcc4ee",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

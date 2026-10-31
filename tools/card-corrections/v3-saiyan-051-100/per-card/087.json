@@ -3,23 +3,11 @@
   "id": "saiyan-087-bulma",
   "name": "Bulma",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-087-bulma.svg",
-  "native_source_sha256": "9362fb3743facdf3125f089ee86684085a941a7fa91e1efafef7b5d4268f1cb5",
+  "native_source_sha256": "80cda7037f1f566f2a392bc30f7ee3a7a72cc7ed4e452647135d4e3eff39cbfe",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
     {
       "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
       "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
@@ -28,6 +16,18 @@
     {
       "path": "tools/card-templates/v3/assets/412076a693b83f474f03f1170e67f01fdd1769db56ac37d7dd7c7c2fa776672b.png",
       "sha256": "412076a693b83f474f03f1170e67f01fdd1769db56ac37d7dd7c7c2fa776672b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
     }
   ],
   "artwork": {
@@ -135,9 +135,9 @@
         57.5574
       ],
       "card-category": [
-        263.52,
+        233.52,
         891.391,
-        531.96,
+        591.96,
         34.2188
       ],
       "footer-text-block": [
@@ -177,15 +177,16 @@
         45.913
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "80cda7037f1f566f2a392bc30f7ee3a7a72cc7ed4e452647135d4e3eff39cbfe"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-087-bulma.webp",
-      "before_url": "/assets/cards/saiyan-087-bulma.webp?v=364538c91735",
+      "before_url": "/assets/cards/saiyan-087-bulma.webp?v=2baf4b416941",
       "before_sha256": "364538c91735bd46387f7fe23f8d97fcbbaea3ac7ff277b625fa2a0d69b3b456",
-      "after_sha256": "2baf4b41694152fba7c08c330f4bed667494626c48a7ed9fb33aaed8ae2889a7",
+      "after_sha256": "5692b1e50061bbc381b62036658c1c8850fd8c568e234f4d1d64b8a15443cd11",
       "size": [
         1060,
         1484
@@ -195,14 +196,92 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-087-bulma.webp",
-      "before_url": "/assets/cards/downloads/saiyan-087-bulma.webp?v=a2ac2a6357bf",
+      "before_url": "/assets/cards/downloads/saiyan-087-bulma.webp?v=f8e03262cba7",
       "before_sha256": "a2ac2a6357bf2bd1b34eaf703ddb88e55eb82ede1b46b16c320ce0b355409700",
-      "after_sha256": "f8e03262cba7b0cd8387f68e43d33c281d4ee2f01702b93009db811548d633b7",
+      "after_sha256": "653c965614df066aa3f5aa2a4cf117ef599171fb7dbb355119b8f3e38fadf020",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Dragon Ball and Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 184.37281795511225,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "ebf0b6dbefd198deadd766171163a4ea41dbd0619043d670329b8f998023a22a",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9362fb3743facdf3125f089ee86684085a941a7fa91e1efafef7b5d4268f1cb5",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-087-bulma.webp",
+          "before_url": "/assets/cards/saiyan-087-bulma.webp?v=364538c91735",
+          "before_sha256": "364538c91735bd46387f7fe23f8d97fcbbaea3ac7ff277b625fa2a0d69b3b456",
+          "after_sha256": "2baf4b41694152fba7c08c330f4bed667494626c48a7ed9fb33aaed8ae2889a7",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-087-bulma.webp",
+          "before_url": "/assets/cards/downloads/saiyan-087-bulma.webp?v=a2ac2a6357bf",
+          "before_sha256": "a2ac2a6357bf2bd1b34eaf703ddb88e55eb82ede1b46b16c320ce0b355409700",
+          "after_sha256": "f8e03262cba7b0cd8387f68e43d33c281d4ee2f01702b93009db811548d633b7",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

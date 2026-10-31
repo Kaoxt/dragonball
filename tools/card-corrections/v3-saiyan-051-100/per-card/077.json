@@ -3,8 +3,16 @@
   "id": "saiyan-077-earth-dragon-ball-5",
   "name": "Earth Dragon Ball 5",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-077-earth-dragon-ball-5.svg",
-  "native_source_sha256": "aea5753f2c4fbda03a95b2a87949b960c06e4a4a994e7654d2aa41929457940f",
+  "native_source_sha256": "b0470e63929f7f6d1bd8bc5d7cce37b0168a2028366143999aaa9c80b79eacd3",
   "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4.png",
+      "sha256": "928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4"
+    },
     {
       "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
       "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
@@ -12,24 +20,50 @@
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
       "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
-      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438.png",
-      "sha256": "2ac6f9c6e6a2f70551d8ef7ab393c54357e3045759766af1ad0ecbfb04c29438"
     }
   ],
   "artwork": {
     "mode": "approved V3 full-art Shenron",
     "approved_full_art_redesign": true,
     "horizontal_source_crop": 0,
-    "artwork_bytes_retained": true,
+    "artwork_bytes_retained": false,
     "dragon_ball_number": 5,
     "star_geometry_source": "/workspace/scratch/deb30d30aa10/next50-retained/base-051-100/Saiyan-Saga-051-100/masters/saiyan-077-earth-dragon-ball-5.svg",
-    "source_native_sha256": "94a303ef8797f7279332e7591e9ede08908f70f0cee5f94ad71a98d0b67aa135"
+    "source_native_sha256": "94a303ef8797f7279332e7591e9ede08908f70f0cee5f94ad71a98d0b67aa135",
+    "approved_replacement": "Shenron-No-Central-Ball.png",
+    "layout": {
+      "count": 5,
+      "center": [
+        130.0,
+        887.0
+      ],
+      "radius": 118.0,
+      "star_offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.3055555555555556,
+          -0.3055555555555556
+        ],
+        [
+          0.3055555555555556,
+          -0.3055555555555556
+        ],
+        [
+          -0.3055555555555556,
+          0.3055555555555556
+        ],
+        [
+          0.3055555555555556,
+          0.3055555555555556
+        ]
+      ],
+      "star_radius": 24.779999999999998,
+      "background_source": "Shenron-No-Central-Ball.png",
+      "orb_source": "Polished-Star-Free-Orb.png"
+    }
   },
   "rules": [
     {
@@ -67,9 +101,9 @@
         69.0
       ],
       "card-category": [
-        338.814,
+        318.814,
         891.391,
-        381.372,
+        421.372,
         34.2188
       ],
       "footer-text-block": [
@@ -121,15 +155,16 @@
         45.521
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "b0470e63929f7f6d1bd8bc5d7cce37b0168a2028366143999aaa9c80b79eacd3"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-077-earth-dragon-ball-5.webp",
-      "before_url": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=ff99de719d9e",
+      "before_url": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=f9c996acafca",
       "before_sha256": "ff99de719d9ecd7bd8d1dedf37ba3c02ebfe64cdb12f2b3ff98f0a50b134dc96",
-      "after_sha256": "f9c996acafca245f10b3dfe5ffd5871380b3148397f55f49c8d8ca962aef5354",
+      "after_sha256": "4da2bd172ad60c4fee410768de54a2d287da36193819e06e422cd74be5e6cd96",
       "size": [
         1060,
         1484
@@ -139,14 +174,124 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp",
-      "before_url": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=49cab767380c",
+      "before_url": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=6223e8cc0b1e",
       "before_sha256": "49cab767380c764ebfcef7eab8f9543322f1a65e6d17405d3eca4a8ba3a66604",
-      "after_sha256": "6223e8cc0b1e1dc932ce24670df7891f557a5eab10b0e6622fdb057dc0abb309",
+      "after_sha256": "4a13c14744a9f1021ff80c800150f98445b64297025bd08bcba5bb8db0465d3b",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Dragon Ball and Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "full-art Shenron only; orb and UI unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 571.4438902743143,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": false,
+    "dragon_ball": {
+      "count": 5,
+      "center": [
+        130.0,
+        887.0
+      ],
+      "radius": 118.0,
+      "star_offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.3055555555555556,
+          -0.3055555555555556
+        ],
+        [
+          0.3055555555555556,
+          -0.3055555555555556
+        ],
+        [
+          -0.3055555555555556,
+          0.3055555555555556
+        ],
+        [
+          0.3055555555555556,
+          0.3055555555555556
+        ]
+      ],
+      "star_radius": 24.779999999999998,
+      "background_source": "Shenron-No-Central-Ball.png",
+      "orb_source": "Polished-Star-Free-Orb.png"
+    },
+    "png_sha256": "64a3f3f5095dab2e96d2a50c1da90b4ccbbd6637d600390ee04b9f879fd9643e",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "aea5753f2c4fbda03a95b2a87949b960c06e4a4a994e7654d2aa41929457940f",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-077-earth-dragon-ball-5.webp",
+          "before_url": "/assets/cards/saiyan-077-earth-dragon-ball-5.webp?v=ff99de719d9e",
+          "before_sha256": "ff99de719d9ecd7bd8d1dedf37ba3c02ebfe64cdb12f2b3ff98f0a50b134dc96",
+          "after_sha256": "f9c996acafca245f10b3dfe5ffd5871380b3148397f55f49c8d8ca962aef5354",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp",
+          "before_url": "/assets/cards/downloads/saiyan-077-earth-dragon-ball-5.webp?v=49cab767380c",
+          "before_sha256": "49cab767380c764ebfcef7eab8f9543322f1a65e6d17405d3eca4a8ba3a66604",
+          "after_sha256": "6223e8cc0b1e1dc932ce24670df7891f557a5eab10b0e6622fdb057dc0abb309",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

@@ -3,23 +3,23 @@
   "id": "saiyan-103-piccolo-honor-duel",
   "name": "Piccolo Honor Duel!",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-103-piccolo-honor-duel.svg",
-  "native_source_sha256": "1a93619af4e50364e1cf4b26e4fe46ea3d9ebf99eded4395f2c24883b865c41e",
+  "native_source_sha256": "6942f0eba3d1ac2834e92c74c1338aed4e731487a6f727ae118bf2aa8a5c5e80",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697.png",
-      "sha256": "da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
       "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697.png",
+      "sha256": "da6ead43055a71f7559cbf858134de0c3bac391e983eb5ff07e901dbf5efa697"
     }
   ],
   "artwork": {
@@ -74,9 +74,9 @@
         57.5574
       ],
       "card-category": [
-        440.072,
+        432.072,
         891.391,
-        178.856,
+        194.856,
         34.2188
       ],
       "footer-text-block": [
@@ -128,15 +128,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "6942f0eba3d1ac2834e92c74c1338aed4e731487a6f727ae118bf2aa8a5c5e80"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-103-piccolo-honor-duel.webp",
-      "before_url": "/assets/cards/saiyan-103-piccolo-honor-duel.webp?v=60e22b580637",
+      "before_url": "/assets/cards/saiyan-103-piccolo-honor-duel.webp?v=0260bbe30f2a",
       "before_sha256": "60e22b580637f52f9034d912ca1b5bbd8f1d433804f61099f4319d35a30a996d",
-      "after_sha256": "0260bbe30f2a9f001e7a122f194ffda671b5ddf086ab6c18adff8d448adcff12",
+      "after_sha256": "e73ddbf345e5c9ab2ff0af6055a01f3a60687d953541385d8cb4df86872d0e3a",
       "size": [
         1060,
         1484
@@ -146,14 +147,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp",
-      "before_url": "/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp?v=f2ec0d5bd6d4",
+      "before_url": "/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp?v=916bb80f150a",
       "before_sha256": "f2ec0d5bd6d4f102abb15530d94c115b4d084e9c17f2f0eff0bc63dd7d7bedbc",
-      "after_sha256": "916bb80f150a3102aaa0837ae9380ebed6a345b7b37ff636b2998ff158675111",
+      "after_sha256": "31544c7420f13bd07565d4f12e1adeb31014fe3e90a298d9fdfa2e947f32dfd9",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 587.1882793017458,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "41cccf1f81ab5f8aab68730fb8c30228cd378712baead2434a082507845f2d76",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "1a93619af4e50364e1cf4b26e4fe46ea3d9ebf99eded4395f2c24883b865c41e",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-103-piccolo-honor-duel.webp",
+          "before_url": "/assets/cards/saiyan-103-piccolo-honor-duel.webp?v=60e22b580637",
+          "before_sha256": "60e22b580637f52f9034d912ca1b5bbd8f1d433804f61099f4319d35a30a996d",
+          "after_sha256": "0260bbe30f2a9f001e7a122f194ffda671b5ddf086ab6c18adff8d448adcff12",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp",
+          "before_url": "/assets/cards/downloads/saiyan-103-piccolo-honor-duel.webp?v=f2ec0d5bd6d4",
+          "before_sha256": "f2ec0d5bd6d4f102abb15530d94c115b4d084e9c17f2f0eff0bc63dd7d7bedbc",
+          "after_sha256": "916bb80f150a3102aaa0837ae9380ebed6a345b7b37ff636b2998ff158675111",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

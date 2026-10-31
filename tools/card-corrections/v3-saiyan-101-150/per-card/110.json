@@ -3,12 +3,8 @@
   "id": "saiyan-110-piccolos-physical-defense",
   "name": "Piccolo's Physical Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-110-piccolos-physical-defense.svg",
-  "native_source_sha256": "491912e790e7101e90236a5d765a6526b88295bbfd03c4c27c4605a8bee22655",
+  "native_source_sha256": "0fd6403b1709c5b61fefd68edc358fe9fc91e30e9e887d787f5475770ec68e7a",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/91ec1d6103348e9eeb2e51ebb5f315a3bd43da93f0ecc1788608db4b1bac83ed.png",
       "sha256": "91ec1d6103348e9eeb2e51ebb5f315a3bd43da93f0ecc1788608db4b1bac83ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -50,15 +50,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        125.007,
-        44.5,
-        808.986,
-        69.0
+        179.5,
+        49.1478,
+        700.0,
+        59.7043
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -122,15 +122,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "0fd6403b1709c5b61fefd68edc358fe9fc91e30e9e887d787f5475770ec68e7a"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-110-piccolos-physical-defense.webp",
-      "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=a5b95f65cd03",
+      "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=01fed74b4f0e",
       "before_sha256": "a5b95f65cd03c6eef8d4eb6e11a063cfc0d1b8e8010e551f6d281a94a03c8050",
-      "after_sha256": "01fed74b4f0e24629c2d881a5c7b17103ecb37b0f413acd9303f92e8e5026d95",
+      "after_sha256": "570ef6efee9bea6755d353ae2a05b3e4ab36d32324b0903f132deeafc7bff769",
       "size": [
         1060,
         1484
@@ -140,14 +141,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=1bb053450947",
+      "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=c56789a04133",
       "before_sha256": "1bb0534509474be729bacf7d2e8f0f0389c13ce5fcb78d916fb886b029a1e00e",
-      "after_sha256": "c56789a04133680f8172b061607d155c8792de356348c3da79ccf0870d207d38",
+      "after_sha256": "f50822703e55994b011807184e3b21b7f81d32cd6285252b4d3e5eff9b8759b9",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 74.44432627884717,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 59.704349675635434,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.8652804300816729
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "22e3ddaf6919863b63f94b423149e3fff230f03e24e11c6d295d64e404e152c1",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "491912e790e7101e90236a5d765a6526b88295bbfd03c4c27c4605a8bee22655",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-110-piccolos-physical-defense.webp",
+          "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=a5b95f65cd03",
+          "before_sha256": "a5b95f65cd03c6eef8d4eb6e11a063cfc0d1b8e8010e551f6d281a94a03c8050",
+          "after_sha256": "01fed74b4f0e24629c2d881a5c7b17103ecb37b0f413acd9303f92e8e5026d95",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=1bb053450947",
+          "before_sha256": "1bb0534509474be729bacf7d2e8f0f0389c13ce5fcb78d916fb886b029a1e00e",
+          "after_sha256": "c56789a04133680f8172b061607d155c8792de356348c3da79ccf0870d207d38",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

@@ -3,19 +3,19 @@
   "id": "saiyan-108-gokus-energy-defense",
   "name": "Goku's Energy Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-108-gokus-energy-defense.svg",
-  "native_source_sha256": "77eada410f56e534d626fe3bc7fd8808db3884a2ac6e6acca181875a9c60385d",
+  "native_source_sha256": "d7151714abf7be379d01423f4ef6d25f1acb0f30c4ea16ef614df8b42fb7d6af",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418.png",
+      "sha256": "78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418.png",
-      "sha256": "78e9e54a4f715f7f3945990ef1a79ee631c8c47dbf3c5511d17479f3a0255418"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -74,9 +74,9 @@
         69.0
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -128,15 +128,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "d7151714abf7be379d01423f4ef6d25f1acb0f30c4ea16ef614df8b42fb7d6af"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-108-gokus-energy-defense.webp",
-      "before_url": "/assets/cards/saiyan-108-gokus-energy-defense.webp?v=6e4816c1976f",
+      "before_url": "/assets/cards/saiyan-108-gokus-energy-defense.webp?v=252e1aca3eaa",
       "before_sha256": "6e4816c1976ff45a97ffc92eb9d40ee80ae3f10fd2ee741db0d61c3714197b7e",
-      "after_sha256": "252e1aca3eaa7ccd97dc08bdd7ce06435caadeb29dcc65ba06be557b8b5fbf42",
+      "after_sha256": "07136aba9498c9f521b2687ba659960eac5d7dbc831a0d2330f0bf41fcde706c",
       "size": [
         1060,
         1484
@@ -146,14 +147,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp?v=71c50cb7c9be",
+      "before_url": "/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp?v=c2672cfdde65",
       "before_sha256": "71c50cb7c9be63be59c4aa10f04a282b31b6012c9b8845a40d51aa025fed6dc4",
-      "after_sha256": "c2672cfdde651335a3b3a50bd2ed4c9bbaa0fef4210808fc8feb808465fd11f7",
+      "after_sha256": "881c5d3ae2a5dd7581ae0df65dbb579539064e50ebf8d44ff4a5b15db094b144",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 687.0748129675811,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "8781bdac132111a49cf465dd67588ae4a690e9cdbccb690725de873d3e24c08d",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "77eada410f56e534d626fe3bc7fd8808db3884a2ac6e6acca181875a9c60385d",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-108-gokus-energy-defense.webp",
+          "before_url": "/assets/cards/saiyan-108-gokus-energy-defense.webp?v=6e4816c1976f",
+          "before_sha256": "6e4816c1976ff45a97ffc92eb9d40ee80ae3f10fd2ee741db0d61c3714197b7e",
+          "after_sha256": "252e1aca3eaa7ccd97dc08bdd7ce06435caadeb29dcc65ba06be557b8b5fbf42",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-108-gokus-energy-defense.webp?v=71c50cb7c9be",
+          "before_sha256": "71c50cb7c9be63be59c4aa10f04a282b31b6012c9b8845a40d51aa025fed6dc4",
+          "after_sha256": "c2672cfdde651335a3b3a50bd2ed4c9bbaa0fef4210808fc8feb808465fd11f7",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

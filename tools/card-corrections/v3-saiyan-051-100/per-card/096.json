@@ -3,15 +3,15 @@
   "id": "saiyan-096-saiyan-sweeping-defense",
   "name": "Saiyan Sweeping Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-096-saiyan-sweeping-defense.svg",
-  "native_source_sha256": "a2f86ba24cd903acce3c895d188182e3108725a392d6b7959becb682c0053b14",
+  "native_source_sha256": "f32e9d0be983361c9b3c31853bd68f58d94d9cbc40833c1576b48a158bbb9080",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/bf626b55047930ab4b9b3a4c51514d16911a7071028ce74b9abb7d06ffead084.png",
@@ -62,15 +62,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        140.794,
-        44.5,
-        777.411,
-        69.0
+        179.5,
+        47.9354,
+        700.0,
+        62.1293
       ],
       "card-category": [
-        270.726,
+        242.726,
         891.391,
-        517.549,
+        573.549,
         34.2188
       ],
       "footer-text-block": [
@@ -146,15 +146,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "f32e9d0be983361c9b3c31853bd68f58d94d9cbc40833c1576b48a158bbb9080"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-096-saiyan-sweeping-defense.webp",
-      "before_url": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=8c5b721f724a",
+      "before_url": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=983647ae8c96",
       "before_sha256": "8c5b721f724a5bf9b73d68a88381c3d2b7c0c3fe1954d93600d4e8676c9b11a3",
-      "after_sha256": "983647ae8c961a80c59d7856b38e4a3bb26b29fea22869c277846ddc4b9f2ca3",
+      "after_sha256": "1f25e6aaadb6131eed804639e0d4879989ab1e44210e993b15adb2cae50089fb",
       "size": [
         1060,
         1484
@@ -164,14 +165,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp?v=a94b0d1155a0",
+      "before_url": "/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp?v=1298a0b293c2",
       "before_sha256": "a94b0d1155a0c3113ae39488a1ddf5b2eb49f1db2adb42770dfc9d1db849de33",
-      "after_sha256": "1298a0b293c23e79e5f0051fb854c569099fcbfb9c7f7a07fcda0d1614faece2",
+      "after_sha256": "8f5c06f80ce744ead939753f299233f3c5b84ca8746cd784aff715c39d59688f",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 77.4679061531651,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 62.12926073483842,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9004240686208465
+    },
+    "middle_typography": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "c2ca1c7d7cc149df1026f9cd806052a874f8abad1dd7a0c3fd2b09b651bc4f86",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "a2f86ba24cd903acce3c895d188182e3108725a392d6b7959becb682c0053b14",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-096-saiyan-sweeping-defense.webp",
+          "before_url": "/assets/cards/saiyan-096-saiyan-sweeping-defense.webp?v=8c5b721f724a",
+          "before_sha256": "8c5b721f724a5bf9b73d68a88381c3d2b7c0c3fe1954d93600d4e8676c9b11a3",
+          "after_sha256": "983647ae8c961a80c59d7856b38e4a3bb26b29fea22869c277846ddc4b9f2ca3",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp?v=a94b0d1155a0",
+          "before_sha256": "a94b0d1155a0c3113ae39488a1ddf5b2eb49f1db2adb42770dfc9d1db849de33",
+          "after_sha256": "1298a0b293c23e79e5f0051fb854c569099fcbfb9c7f7a07fcda0d1614faece2",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

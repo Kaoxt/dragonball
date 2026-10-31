@@ -3,19 +3,19 @@
   "id": "saiyan-099-blazing-anger",
   "name": "Blazing Anger!",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-099-blazing-anger.svg",
-  "native_source_sha256": "83a4bab689a7f95de5b241528ba44ebfd71ccd411ccc16a590972a30fdcccdc8",
+  "native_source_sha256": "9efb5d5071425d5656e81205fd30c385c0160c1c81142d62dcdab395948badb5",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/072850bb4993d73e4973d9e39ecf8cbb5614b14b4a3a74634955cdc2f89d7fa5.png",
+      "sha256": "072850bb4993d73e4973d9e39ecf8cbb5614b14b4a3a74634955cdc2f89d7fa5"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/072850bb4993d73e4973d9e39ecf8cbb5614b14b4a3a74634955cdc2f89d7fa5.png",
-      "sha256": "072850bb4993d73e4973d9e39ecf8cbb5614b14b4a3a74634955cdc2f89d7fa5"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -67,9 +67,9 @@
         69.0
       ],
       "card-category": [
-        440.072,
+        432.072,
         891.391,
-        178.856,
+        194.856,
         34.2188
       ],
       "footer-text-block": [
@@ -115,15 +115,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "9efb5d5071425d5656e81205fd30c385c0160c1c81142d62dcdab395948badb5"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-099-blazing-anger.webp",
-      "before_url": "/assets/cards/saiyan-099-blazing-anger.webp?v=5829ccc7b2d4",
+      "before_url": "/assets/cards/saiyan-099-blazing-anger.webp?v=ee193a7454ee",
       "before_sha256": "5829ccc7b2d4e8d73c995ee8e8d548d02a07c4b593aef4fbc51ffac6d998ae53",
-      "after_sha256": "ee193a7454ee22bc4994aada279c16dbc7c72a58f6272ca6b683f1b7459283a4",
+      "after_sha256": "cd5af70d540aa99e3acd3cdd2956225a41610f26dbfd13b645e02d1375adb47f",
       "size": [
         1060,
         1484
@@ -133,14 +134,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-099-blazing-anger.webp",
-      "before_url": "/assets/cards/downloads/saiyan-099-blazing-anger.webp?v=f4cd74eb54ee",
+      "before_url": "/assets/cards/downloads/saiyan-099-blazing-anger.webp?v=791beffea298",
       "before_sha256": "f4cd74eb54ee76d474d59a2be1a45af265572caa60d23e2ff8cb431328dcb6fe",
-      "after_sha256": "791beffea298a9754b56e7ef1e82a31a0716bada5d01b6097f4e2930028e660c",
+      "after_sha256": "645d3a0ab057470fcfc18e31194292edf249cd72cbdd90231d5c8dfdd1f086ce",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 431.46508728179555,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "9d2ce24b5bc0906fb4af679b171a2883680bc73dcfd143900adee94eaf0cd716",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "83a4bab689a7f95de5b241528ba44ebfd71ccd411ccc16a590972a30fdcccdc8",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-099-blazing-anger.webp",
+          "before_url": "/assets/cards/saiyan-099-blazing-anger.webp?v=5829ccc7b2d4",
+          "before_sha256": "5829ccc7b2d4e8d73c995ee8e8d548d02a07c4b593aef4fbc51ffac6d998ae53",
+          "after_sha256": "ee193a7454ee22bc4994aada279c16dbc7c72a58f6272ca6b683f1b7459283a4",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-099-blazing-anger.webp",
+          "before_url": "/assets/cards/downloads/saiyan-099-blazing-anger.webp?v=f4cd74eb54ee",
+          "before_sha256": "f4cd74eb54ee76d474d59a2be1a45af265572caa60d23e2ff8cb431328dcb6fe",
+          "after_sha256": "791beffea298a9754b56e7ef1e82a31a0716bada5d01b6097f4e2930028e660c",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

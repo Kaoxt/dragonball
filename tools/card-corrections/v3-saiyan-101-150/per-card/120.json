@@ -3,19 +3,19 @@
   "id": "saiyan-120-nappas-energy-aura",
   "name": "Nappa's Energy Aura",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-120-nappas-energy-aura.svg",
-  "native_source_sha256": "2f10caf99168100278fa44c370c8e5b2ab8b9ccd60c4e235af3bc0ad350ca16c",
+  "native_source_sha256": "fa314d5ea6332aefae4776e73623e19e7e26b0c95ec86186a0de3ce30a63e900",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624.png",
+      "sha256": "794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624.png",
-      "sha256": "794243ce5ace5612b3f47cff14371cd07f368d273441e18d727f09e3f9f67624"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -68,9 +68,9 @@
         66.1608
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -146,15 +146,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "fa314d5ea6332aefae4776e73623e19e7e26b0c95ec86186a0de3ce30a63e900"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-120-nappas-energy-aura.webp",
-      "before_url": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=e18e46ce92be",
+      "before_url": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=1fc3ab1af01d",
       "before_sha256": "e18e46ce92bef2254c26f999a78a73ba994a663a32a11fadadbb4d7ca07714c7",
-      "after_sha256": "1fc3ab1af01d45ea7c803f715712f91c5902531a57506aa7f94791cae09983d1",
+      "after_sha256": "5440a5431247e5291f73238c10f4155a97a517aec8494903dcb213d455a1b5ce",
       "size": [
         1060,
         1484
@@ -164,14 +165,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp",
-      "before_url": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=924513d3f0b0",
+      "before_url": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=2cc2404a609f",
       "before_sha256": "924513d3f0b0b2787c6616bbe244ba1e24a016e2d7328ae24073fd39ab22975e",
-      "after_sha256": "2cc2404a609facf5dbbdf51e71da6e39805fd86f4d597e77e144474c5a40f475",
+      "after_sha256": "146782a1f994378abeefa7c4f7a3f25d27fa0d55501407ae1f24b928e109cb6a",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 618.418952618454,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "0829ae03a8734186d9f3f5d8751eb6f7b0abe1a31773f7a25b17e4e1e93bdd4e",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "2f10caf99168100278fa44c370c8e5b2ab8b9ccd60c4e235af3bc0ad350ca16c",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-120-nappas-energy-aura.webp",
+          "before_url": "/assets/cards/saiyan-120-nappas-energy-aura.webp?v=e18e46ce92be",
+          "before_sha256": "e18e46ce92bef2254c26f999a78a73ba994a663a32a11fadadbb4d7ca07714c7",
+          "after_sha256": "1fc3ab1af01d45ea7c803f715712f91c5902531a57506aa7f94791cae09983d1",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp",
+          "before_url": "/assets/cards/downloads/saiyan-120-nappas-energy-aura.webp?v=924513d3f0b0",
+          "before_sha256": "924513d3f0b0b2787c6616bbe244ba1e24a016e2d7328ae24073fd39ab22975e",
+          "after_sha256": "2cc2404a609facf5dbbdf51e71da6e39805fd86f4d597e77e144474c5a40f475",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

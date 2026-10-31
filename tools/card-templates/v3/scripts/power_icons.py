@@ -4,6 +4,7 @@ Size by visible capital-letter height, not the font's em size. Attack handles
 point upward; blades point downward. The block symbol is one solid shield.
 """
 import math
+from pathlib import Path
 import xml.etree.ElementTree as ET
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
@@ -20,9 +21,7 @@ SHIELD = ('M0 0 C7.1 3.9 14.7 3.8 20.7 0 '
           'C26.7 3.8 34.3 3.9 41.4 0 '
           'C40.1 16.5 32.3 29.8 20.7 38 '
           'C9.1 29.8 1.3 16.5 0 0 Z')
-INFINITY = ('M4 18 C4 8 11 2 20 2 C35 2 49 34 67 34 '
-            'C78 34 86 28 86 18 C86 8 78 2 67 2 '
-            'C49 2 35 34 20 34 C11 34 4 28 4 18 Z')
+CONSTANT_SOURCE = Path(__file__).resolve().parents[1] / 'assets/power-icons/constant-power.svg'
 
 def shape(kind):
     group = ET.Element(f'{{{NS}}}g', {'fill': '#060606'})
@@ -37,12 +36,10 @@ def shape(kind):
         parse_path(SHIELD, pen)
         ET.SubElement(group, f'{{{NS}}}path', {'d': SHIELD})
     elif kind == 'constant':
-        parse_path(INFINITY, pen)
-        ET.SubElement(group, f'{{{NS}}}path', {'d': INFINITY, 'fill': 'none',
-            'stroke': '#060606', 'stroke-width': '6', 'stroke-linecap': 'round',
-            'stroke-linejoin': 'round'})
-        l,t,r,b=pen.bounds
-        return group,(l-3,t-3,r+3,b+3)
+        # Retained bold infinity-and-colon; the older thin outline is obsolete.
+        root = ET.parse(CONSTANT_SOURCE).getroot()
+        group = root.find(f'{{{NS}}}g')
+        return group, (0.0, 9.0, 50.0, 31.0)
     else:
         raise ValueError(kind)
     return group, pen.bounds
@@ -50,6 +47,16 @@ def shape(kind):
 def icon(kind, left, top, height, ident):
     content, bounds = shape(kind)
     l, t, r, b = bounds
+    if kind == 'constant':
+        # Match the approved retained size at 49-unit rules text: scale 1.071875.
+        # Infinity is 18/32 of the cap height; colon remains its own geometry.
+        scale = height / 32.0
+        group = ET.Element(f'{{{NS}}}g', {
+            'id': ident, 'aria-label': 'Constant power',
+            'data-icon-revision': 'approved-bold-infinity-colon-v16',
+            'transform': f'translate({left:.6f} {top+height/2:.6f}) scale({scale:.9f}) translate(0 -20)'})
+        group.append(content)
+        return group, 50.0*scale
     scale = height / (b-t)
     group = ET.Element(f'{{{NS}}}g', {
         'id': ident, 'aria-label': {'attack':'Attack','block':'Stop attack','constant':'Constant power'}[kind],
@@ -59,4 +66,4 @@ def icon(kind, left, top, height, ident):
 
 def width_at_height(kind, height):
     _, (l,t,r,b) = shape(kind)
-    return (r-l)*height/(b-t)
+    return 50.0*height/32.0 if kind == 'constant' else (r-l)*height/(b-t)

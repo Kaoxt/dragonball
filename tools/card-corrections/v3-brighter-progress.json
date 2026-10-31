@@ -1,29 +1,34 @@
 {
   "set": "Saiyan Saga",
   "template_revision": "2026-10-31 brighter V3",
-  "completed_through": 70,
+  "completed_through": 120,
   "current_batch": [
-    51,
-    70
+    71,
+    120
   ],
   "next_batch_of_20": [
-    71,
-    90
+    121,
+    140
   ],
   "release_evidence": [
     "v3-saiyan-001-010-brighter/release.json",
     "v3-saiyan-011-030-brighter/release.json",
     "v3-saiyan-031-050-brighter/release.json",
-    "v3-saiyan-051-070-brighter/release.json"
+    "v3-saiyan-051-070-brighter/release.json",
+    "v3-saiyan-071-120-brighter/release.json"
   ],
   "note": "Completed ranges refer to this brighter V3 refresh, distinct from the earlier V3 migration.",
   "tokui_backing": {
-    "completed_through": 70,
+    "completed_through": 120,
     "excluded_types": [
       "Dragon Ball",
       "Main Personality",
       "Personality"
     ],
-    "applicable_cards_updated": 68
-  }
+    "applicable_cards_updated": 105
+  },
+  "next_batch_of_50": [
+    121,
+    170
+  ]
 }

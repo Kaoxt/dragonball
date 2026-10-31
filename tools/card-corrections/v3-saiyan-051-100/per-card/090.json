@@ -3,19 +3,19 @@
   "id": "saiyan-090-mothers-touch",
   "name": "Mother's Touch",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-090-mothers-touch.svg",
-  "native_source_sha256": "5672567d511458a3b79da23abaf7b8e223593ed62a751afc2cf2586ef9d4696e",
+  "native_source_sha256": "d4f3a16b8c4dc3f5e5fdaba55ebaac5f964fa33f881cc8f8744287cbd331b1ae",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/5f95f5a80092125b8f22e3706f0de812ee7b0cdf942e914f03726853752b95c7.png",
+      "sha256": "5f95f5a80092125b8f22e3706f0de812ee7b0cdf942e914f03726853752b95c7"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/5f95f5a80092125b8f22e3706f0de812ee7b0cdf942e914f03726853752b95c7.png",
-      "sha256": "5f95f5a80092125b8f22e3706f0de812ee7b0cdf942e914f03726853752b95c7"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -62,9 +62,9 @@
         57.5574
       ],
       "card-category": [
-        441.596,
+        433.596,
         891.991,
-        175.808,
+        191.808,
         33.0187
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "d4f3a16b8c4dc3f5e5fdaba55ebaac5f964fa33f881cc8f8744287cbd331b1ae"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-090-mothers-touch.webp",
-      "before_url": "/assets/cards/saiyan-090-mothers-touch.webp?v=d4252d193f09",
+      "before_url": "/assets/cards/saiyan-090-mothers-touch.webp?v=1996278b9c5c",
       "before_sha256": "d4252d193f090167f614290bd07949b6a047a62e5eb6de3bfc0887ff163844ec",
-      "after_sha256": "1996278b9c5c45782c694c1f94956ac9b7e3f537d4064b63f3e378816f250f22",
+      "after_sha256": "d3fe6007098300a889478051b6a6429b62f0fd0e395f8273b791eb72a5d9b596",
       "size": [
         1060,
         1484
@@ -152,14 +153,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-090-mothers-touch.webp",
-      "before_url": "/assets/cards/downloads/saiyan-090-mothers-touch.webp?v=52d89be9eea4",
+      "before_url": "/assets/cards/downloads/saiyan-090-mothers-touch.webp?v=880199286260",
       "before_sha256": "52d89be9eea421babe2f42c3d87a4393a9019d55fdfcb412ad4407e65a1f8726",
-      "after_sha256": "880199286260ab29179880be53288efbee050f316438d3fd1d95f6b45d7e9359",
+      "after_sha256": "dba0b30fd56b9210dcf915fdbcd7edb70b6b27b853266cfddaf1acad545e5d9d",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 457.1895261845387,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "20015f2b15a75aa4409e96f9767987f44dbcfbafe11d9a2545a302dc25ee4e17",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "5672567d511458a3b79da23abaf7b8e223593ed62a751afc2cf2586ef9d4696e",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-090-mothers-touch.webp",
+          "before_url": "/assets/cards/saiyan-090-mothers-touch.webp?v=d4252d193f09",
+          "before_sha256": "d4252d193f090167f614290bd07949b6a047a62e5eb6de3bfc0887ff163844ec",
+          "after_sha256": "1996278b9c5c45782c694c1f94956ac9b7e3f537d4064b63f3e378816f250f22",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-090-mothers-touch.webp",
+          "before_url": "/assets/cards/downloads/saiyan-090-mothers-touch.webp?v=52d89be9eea4",
+          "before_sha256": "52d89be9eea421babe2f42c3d87a4393a9019d55fdfcb412ad4407e65a1f8726",
+          "after_sha256": "880199286260ab29179880be53288efbee050f316438d3fd1d95f6b45d7e9359",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

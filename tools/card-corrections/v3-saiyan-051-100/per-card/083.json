@@ -3,35 +3,35 @@
   "id": "saiyan-083-tien",
   "name": "Tien",
   "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-083-tien.svg",
-  "native_source_sha256": "86e18817aa3027201c46b641db1b216d4a4573740ac0f444ea2bebec725ae070",
+  "native_source_sha256": "f14bab21e8151b44de007b9ab5bdd18ba2458a64057f3f6cb198f6abb8b2cf37",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      "path": "tools/card-templates/v3/assets/186e1a3f818e2e27c003a9ca2c1ac0423e36404d317351f838b5d946b18df6a3.png",
+      "sha256": "186e1a3f818e2e27c003a9ca2c1ac0423e36404d317351f838b5d946b18df6a3"
     },
     {
       "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
       "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
     },
     {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
     },
     {
       "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
       "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
-      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
-      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
-    },
-    {
       "path": "tools/card-templates/v3/assets/cc548ff330e81b97265916ff979849d134676df94c3e891d4efb5bf6a87bdddc.png",
       "sha256": "cc548ff330e81b97265916ff979849d134676df94c3e891d4efb5bf6a87bdddc"
     },
     {
-      "path": "tools/card-templates/v3/assets/186e1a3f818e2e27c003a9ca2c1ac0423e36404d317351f838b5d946b18df6a3.png",
-      "sha256": "186e1a3f818e2e27c003a9ca2c1ac0423e36404d317351f838b5d946b18df6a3"
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
     }
   ],
   "artwork": {
@@ -145,9 +145,9 @@
         57.5574
       ],
       "card-category": [
-        263.52,
+        233.52,
         891.391,
-        531.96,
+        591.96,
         34.2188
       ],
       "footer-text-block": [
@@ -223,15 +223,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "f14bab21e8151b44de007b9ab5bdd18ba2458a64057f3f6cb198f6abb8b2cf37"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-083-tien.webp",
-      "before_url": "/assets/cards/saiyan-083-tien.webp?v=21de2d2533cc",
+      "before_url": "/assets/cards/saiyan-083-tien.webp?v=6cb6246b3d68",
       "before_sha256": "21de2d2533cce0eb63c81249935692c41e62e1d68aae9c4d0e903a8fba02de81",
-      "after_sha256": "6cb6246b3d68ce5270b7dc981577425ad290ddf3c7fe4aa79f672333071c019e",
+      "after_sha256": "f120140e7a70c9f704e06e116aac5a5f86d060f68ce5bdd45a43d26baf91b334",
       "size": [
         1060,
         1484
@@ -241,14 +242,92 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-083-tien.webp",
-      "before_url": "/assets/cards/downloads/saiyan-083-tien.webp?v=1c0df1c8ee98",
+      "before_url": "/assets/cards/downloads/saiyan-083-tien.webp?v=2d464842cd67",
       "before_sha256": "1c0df1c8ee98ca3b0fb465eef9ce0c37a6bf05ea43c0e878b9102bd8f8a81dae",
-      "after_sha256": "2d464842cd670e1ce1103de9c72f5b785bf74b8dd1b7135d743c79047d63dde3",
+      "after_sha256": "cfecff18778bd769a4cbd83f2ef7b581633ef58d924a160a01654f81ca9af818",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Dragon Ball and Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 123.37406483790525,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "196f0dcee9b006f620b2e94d5868204beef87ebcf76c2c38e75dda4b89042e39",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "86e18817aa3027201c46b641db1b216d4a4573740ac0f444ea2bebec725ae070",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-083-tien.webp",
+          "before_url": "/assets/cards/saiyan-083-tien.webp?v=21de2d2533cc",
+          "before_sha256": "21de2d2533cce0eb63c81249935692c41e62e1d68aae9c4d0e903a8fba02de81",
+          "after_sha256": "6cb6246b3d68ce5270b7dc981577425ad290ddf3c7fe4aa79f672333071c019e",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-083-tien.webp",
+          "before_url": "/assets/cards/downloads/saiyan-083-tien.webp?v=1c0df1c8ee98",
+          "before_sha256": "1c0df1c8ee98ca3b0fb465eef9ce0c37a6bf05ea43c0e878b9102bd8f8a81dae",
+          "after_sha256": "2d464842cd670e1ce1103de9c72f5b785bf74b8dd1b7135d743c79047d63dde3",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

@@ -3,12 +3,8 @@
   "id": "saiyan-111-gohans-energy-defense",
   "name": "Gohan's Energy Defense",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-111-gohans-energy-defense.svg",
-  "native_source_sha256": "72c082ecb021203e3cb9142ba3e1388bf8ae1c174c671e7465d8d3bb34866546",
+  "native_source_sha256": "510e789a11f3909d2d58025128008810b945dfa6d20fa992043ff10ac19b132f",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/8cd9ce733cde7f41450e86bd9a3989836e8ee35107fedbb69517101120de6c98.png",
       "sha256": "8cd9ce733cde7f41450e86bd9a3989836e8ee35107fedbb69517101120de6c98"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        166.906,
-        44.5,
-        725.188,
-        69.0
+        179.5,
+        45.6983,
+        700.0,
+        66.6034
       ],
       "card-category": [
-        294.969,
+        270.969,
         891.391,
-        469.061,
+        517.061,
         34.2188
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "510e789a11f3909d2d58025128008810b945dfa6d20fa992043ff10ac19b132f"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-111-gohans-energy-defense.webp",
-      "before_url": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=43b4bc04adfb",
+      "before_url": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=937408177a13",
       "before_sha256": "43b4bc04adfbcfe5ecd58169212267893380a4f17a1a62111a8c0266c46bd24c",
-      "after_sha256": "937408177a138541f8895f7b0070dee74dcf95aa977260a8c62346f665a0ca2c",
+      "after_sha256": "4ef0e9c2315d8c043714fe9ef83295c69c956b0521df91c46814dc522ff14589",
       "size": [
         1060,
         1484
@@ -152,14 +153,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp",
-      "before_url": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=b26e07d801fe",
+      "before_url": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=c9cb8247b644",
       "before_sha256": "b26e07d801fe5aa8c50ae9f67c2577f823fdb0e266ec104c9d71ad3f8422c0ab",
-      "after_sha256": "c9cb8247b644c13dd928220eb09e03cfef7ff99580eb0269e3dea4c052d9a42c",
+      "after_sha256": "3c04c3efff2a146ef8a4fe4624a18c5448a8c339285e140511dc462ee243b8a3",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 83.04662474789417,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 66.60339304781112,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9652665659103061
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "4e839d9c67040e5aab1e2791a43ecb44f8a55c75857c8020f1fca08d1b141583",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "72c082ecb021203e3cb9142ba3e1388bf8ae1c174c671e7465d8d3bb34866546",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-111-gohans-energy-defense.webp",
+          "before_url": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=43b4bc04adfb",
+          "before_sha256": "43b4bc04adfbcfe5ecd58169212267893380a4f17a1a62111a8c0266c46bd24c",
+          "after_sha256": "937408177a138541f8895f7b0070dee74dcf95aa977260a8c62346f665a0ca2c",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp",
+          "before_url": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=b26e07d801fe",
+          "before_sha256": "b26e07d801fe5aa8c50ae9f67c2577f823fdb0e266ec104c9d71ad3f8422c0ab",
+          "after_sha256": "c9cb8247b644c13dd928220eb09e03cfef7ff99580eb0269e3dea4c052d9a42c",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

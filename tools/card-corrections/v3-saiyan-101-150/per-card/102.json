@@ -3,19 +3,19 @@
   "id": "saiyan-102-raditz-honor-duel",
   "name": "Raditz Honor Duel!",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-102-raditz-honor-duel.svg",
-  "native_source_sha256": "857702ccb06910e92f940a344f21176b9460d2464055f709f3993265d80a37fa",
+  "native_source_sha256": "21ecad1a3bb1b5cc8adb2331e488945514c1436ce5a7dfd6af7abd634ba73632",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/6ab4f219c7de86baabf85096b6f3760652216589d4787f5642f0b54880df478b.png",
+      "sha256": "6ab4f219c7de86baabf85096b6f3760652216589d4787f5642f0b54880df478b"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/6ab4f219c7de86baabf85096b6f3760652216589d4787f5642f0b54880df478b.png",
-      "sha256": "6ab4f219c7de86baabf85096b6f3760652216589d4787f5642f0b54880df478b"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -74,9 +74,9 @@
         57.5574
       ],
       "card-category": [
-        440.072,
+        432.072,
         891.391,
-        178.856,
+        194.856,
         34.2188
       ],
       "footer-text-block": [
@@ -128,15 +128,16 @@
         36.162
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "21ecad1a3bb1b5cc8adb2331e488945514c1436ce5a7dfd6af7abd634ba73632"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-102-raditz-honor-duel.webp",
-      "before_url": "/assets/cards/saiyan-102-raditz-honor-duel.webp?v=e8e6c493fadd",
+      "before_url": "/assets/cards/saiyan-102-raditz-honor-duel.webp?v=e3ed61423dea",
       "before_sha256": "e8e6c493faddd61e93ee88aead23ae076c20f286883352083e93fe46311d6ef0",
-      "after_sha256": "e3ed61423deab2f058982d4239659c192efbd5ea8904167e49907049baf30536",
+      "after_sha256": "1331bfa26ba094c365c71a05987bfcbb5315cf9b9bfc833531c397a1fafc2951",
       "size": [
         1060,
         1484
@@ -146,14 +147,94 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-102-raditz-honor-duel.webp",
-      "before_url": "/assets/cards/downloads/saiyan-102-raditz-honor-duel.webp?v=43eb1ce3b7bb",
+      "before_url": "/assets/cards/downloads/saiyan-102-raditz-honor-duel.webp?v=337e992539ad",
       "before_sha256": "43eb1ce3b7bb007695820759ee2c6cd5e6601fec3d5bbc57af3b654b88dc7bc6",
-      "after_sha256": "337e992539ada1189219b25d6c076f5e09755328568fe364d33a160b453c1949",
+      "after_sha256": "7da99fba10557642a041be6a9a7d54578773fd5d73fee3e2c22fb4432fb8048c",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-10-31",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "original frame only; character artwork unchanged",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 550.9675810473816,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_typography": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "dragon_ball": null,
+    "png_sha256": "0dd9525a76cd3155150a0644c6ba5315688249f53c1360c0464f0399da3992f1",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "857702ccb06910e92f940a344f21176b9460d2464055f709f3993265d80a37fa",
+      "standalone_master_sha256": null,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-102-raditz-honor-duel.webp",
+          "before_url": "/assets/cards/saiyan-102-raditz-honor-duel.webp?v=e8e6c493fadd",
+          "before_sha256": "e8e6c493faddd61e93ee88aead23ae076c20f286883352083e93fe46311d6ef0",
+          "after_sha256": "e3ed61423deab2f058982d4239659c192efbd5ea8904167e49907049baf30536",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-102-raditz-honor-duel.webp",
+          "before_url": "/assets/cards/downloads/saiyan-102-raditz-honor-duel.webp?v=43eb1ce3b7bb",
+          "before_sha256": "43eb1ce3b7bb007695820759ee2c6cd5e6601fec3d5bbc57af3b654b88dc7bc6",
+          "after_sha256": "337e992539ada1189219b25d6c076f5e09755328568fe364d33a160b453c1949",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ]
+    }
+  }
 }

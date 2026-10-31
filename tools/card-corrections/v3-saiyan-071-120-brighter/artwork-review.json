@@ -1,0 +1,612 @@
+{
+  "date": "2026-10-31",
+  "scope": "Saiyan Saga 071–120",
+  "actual_originals_inspected": 50,
+  "approved_redesign_exceptions": [
+    75,
+    76,
+    77
+  ],
+  "cards": [
+    {
+      "id": "saiyan-071-black-back-kick",
+      "number": 71,
+      "finding": "Bulma's open smile, upward gaze, blue hair, red earring, white coat and blue garment match the visible original. Pink room/window framing retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/071.jpg",
+        "sha256": "0c6a8057951560a0c35fa22c92b448caec647ab4989bf4f5eb5d9a18970bd3fa"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-072-black-axe-heel-kick",
+      "number": 72,
+      "finding": "Goku's wide eyes and open smile, black spiked hair, orange gi and wooded background retained. Fine facial detail in the small printed scan remains limited.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/072.jpg",
+        "sha256": "334840bc57e8caada95597db38300b0e65539f36d82a25e1349d51ca5194f93b"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-073-black-rear-spin-kick",
+      "number": 73,
+      "finding": "Bulma's gritted-teeth angry face, crossed arms, watch and white coat agree with the original. Both hands remain visible.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/073.jpg",
+        "sha256": "b4ba2e62d07d2cdb15b41030f29603e026cad4e87a36725b3833c6d88f4346f4"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-074-black-jump-turn-kick",
+      "number": 74,
+      "finding": "Goku's bent-knee stance, clenched teeth, orange gi and both full fists retained. Earlier side extensions survive the frame refresh.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/074.jpg",
+        "sha256": "b3475d47a9b958aa929052f5f3a0b923a70bd4a849c86024445e661ccf6fdadd"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-075-earth-dragon-ball-3",
+      "number": 75,
+      "finding": "Approved Shenron scene replacement, one three-star left orb and three-star footer rarity. No printed-scene fidelity claim. Optional draw restored from actual original wording.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/075.jpg",
+        "sha256": "6d14e7829c411acabb63294c13e5a37a27ca5286d633ad84a6ec0841e6c120ab"
+      },
+      "review_basis": "approved Shenron redesign; original checked for wording/rarity",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": false
+    },
+    {
+      "id": "saiyan-076-earth-dragon-ball-4",
+      "number": 76,
+      "finding": "Approved Shenron replacement with one four-star left orb. Staggered star rows match the supplied reference; footer rarity remains three stars. CRD immediate Combat skip retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/076.jpg",
+        "sha256": "cd8a529a24b163deb799a981fe9652f25ffbbee437d18f20d4a4e569fc848b0b"
+      },
+      "review_basis": "approved Shenron redesign; original checked for wording/rarity",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": false
+    },
+    {
+      "id": "saiyan-077-earth-dragon-ball-5",
+      "number": 77,
+      "finding": "Approved Shenron replacement with one five-star left orb; retained quincunx arrangement and separate three-star footer. CRD mandatory draw two retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/077.jpg",
+        "sha256": "b883008c5d28a2144556cdf7d8a1912440931d977453331ab130892d95627cf3"
+      },
+      "review_basis": "approved Shenron redesign; original checked for wording/rarity",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": false
+    },
+    {
+      "id": "saiyan-078-roshis-training",
+      "number": 78,
+      "finding": "Roshi sunglasses/nose/moustache close-up and reflected fighter retained. Tiny reflected facial detail in the original cannot be resolved confidently.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/078.jpg",
+        "sha256": "e026a2ebec2f37c67d1e14effdadeb6613e97c487f6a4f5a95b5483e53e2ec8b"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-079-king-kai-training",
+      "number": 79,
+      "finding": "King Kai's planet, curved path, domed houses, well and trees retain the source arrangement; no character-expression claim applies.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/079.jpg",
+        "sha256": "56b58e2cee345e57e6908d3b782fd11d38075dd9494f71758445d0b5bcfd1e5d"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-080-saiyan-training",
+      "number": 80,
+      "finding": "Vegeta's upward shout, raised arms/fists, armor, tail, rocks and purple smoke retained; no newly cropped limb.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/080.jpg",
+        "sha256": "4a0919df4175c255edb9994f5611a32e471ab7e94b6f7e8abcc10b304e018058"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-081-saiyan-armor",
+      "number": 81,
+      "finding": "Vegeta's clenched-teeth sideward gaze, running fists, armor and red Goku behind remain intact. Hair-tip crop is inherited. Constant effect now uses approved bold infinity and colon.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/081.jpg",
+        "sha256": "698fa5f8a649971698f464bf5f96020d7538da132d073a228e107f3eddd6c4fc"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-082-tien",
+      "number": 82,
+      "finding": "Tien's crossed hands, third eye, green wrist guards/pants, red sash and stance retained. Earlier full-height placement survives; all eleven stages, LEVEL and PUR retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/082.jpg",
+        "sha256": "a687149ae991f4277e5e8fc7c43323c1c9c5864c916da6a9e6320c7efc672a40"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-083-tien",
+      "number": 83,
+      "finding": "Tien's raised fists, three-eyed stern face, white shirt and green/red clothing retained. Existing leftward placement keeps the figure clear of the stages.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/083.jpg",
+        "sha256": "3154420220c84b7ae7ec332f0686b186f674b817c3cb3958f4b937a834d283a6"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-084-yamcha",
+      "number": 84,
+      "finding": "Yamcha's baseball-cap gesture, closed smiling eyes and facial scars retain the earlier expression correction. Yellow uniform and hand at hip retained; rarity follows CRD uncommon correction.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/084.jpg",
+        "sha256": "e81f5d15c66413a05a2db0274e75b4a405f89ed855e4eb2c0f4ed92549d3dfb7"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-085-yamcha",
+      "number": 85,
+      "finding": "Yamcha one-finger handstand, orange gi, wristbands and shadow retained. Shifted the native foreground 25 units left at identical scale to reveal the extended fingertips before the stage column. The original scene still fills the stage gaps; raster source and facial expression unchanged. Hair obscures tiny facial detail in the print.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/085.jpg",
+        "sha256": "79b97b717cc117e0634db3840364b378c642d92340248d80f19c4a8a0c68b4e9"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": false
+    },
+    {
+      "id": "saiyan-086-chi-chi",
+      "number": 86,
+      "finding": "Chi-Chi holding cloth, gentle closed smile, apron/orange shawl, television and duck ornament retained. Both hands remain clear; once-per-turn shield effect follows CRD.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/086.jpg",
+        "sha256": "4b9f820a6a329d11624609c6a6e6cd6b6b5cc9a446a5d47da431019b1e626db5"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-087-bulma",
+      "number": 87,
+      "finding": "Bulma side profile, blue hair, red earring, focused eye and small parted mouth retained. Head-top crop follows the printed close-up; activated reduction correctly has no shield or infinity.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/087.jpg",
+        "sha256": "4cfbfcab3ac71a50c8c10acc47e40385fd1936997002c29eba01e0ae7833b03e"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-088-king-kai-uniform",
+      "number": 88,
+      "finding": "Goku looking down at King Kai, orange/blue gi and pink background retained; small mouth details in the print are limited. Constant reduction uses bold infinity with separate colon.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/088.jpg",
+        "sha256": "1f17f9f4121822dd8481839c0919243a87aeb21e44db2bc60b25da17beba02d6"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-089-dream-chamber-training",
+      "number": 89,
+      "finding": "Yamcha, Krillin and Tien viewed from above retain fists, clothing colors, visible boots and purple floor. Tiny facial detail is limited by the printed scan.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/089.jpg",
+        "sha256": "147ffb2d7668b9ac13ec7a4e5d522e5068ffd3dde670371ca8bccdebd6fba65f"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-090-mothers-touch",
+      "number": 90,
+      "finding": "Chi-Chi surprised wide eyes, small closed mouth and both hands near cheeks retained. Orange/purple costume and sky framing agree with the original.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/090.jpg",
+        "sha256": "a8a835e209d82f984c4dd22cac0ba8e0fcfb5c99a48c03366d26e53bdd8cee59"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-091-saiyan-energy-throw",
+      "number": 91,
+      "finding": "Raditz frontal flying pose, both fists, raised knee, scouter and brown armor retained; energy cost/damage and banishment follow reviewed wording.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/091.jpg",
+        "sha256": "ab1613656d327a2bc72d91295374d9dc73e2d6d8daa1094716c3935fc74f78c3"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-092-saiyan-energy-defense",
+      "number": 92,
+      "finding": "Vegeta/scouter close-up retains clenched teeth, furrowed brow and blue speed lines. Tight original face crop retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/092.jpg",
+        "sha256": "c71b974326c7920bae0974998341920fa144900d4f5b6d3ab648e3a38bb5a168"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-093-saiyan-mental-energy-attack",
+      "number": 93,
+      "finding": "Two armored fighters with purple aura and red tree roots retained. Small faces and boot details in the scan remain too small for exact claims.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/093.jpg",
+        "sha256": "d0743f5a331ffd7f5123afb7d5efb6cd1840a4487a5940b32c09699b4caa7ea3"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-094-saiyan-energy-blast",
+      "number": 94,
+      "finding": "Crying child Gohan, closed eyes, tear jets, open mouth, red hat, yellow/green clothing and grass retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/094.jpg",
+        "sha256": "79b1e0da8248cb6c1c6f2513a8744ab4f6115944ebc1bf4abcd787476b0b5c24"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-095-saiyan-energy-aura",
+      "number": 95,
+      "finding": "Young Gohan forward action retains gritted teeth, left fist, purple gi, white scarf and red wristbands. Original upper hair and rear-arm edge framing retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/095.jpg",
+        "sha256": "32646e406b0cde1e3c0ffb92ff2262804f1fe8f4ade0d3b6bb7ad04bb6a53e93"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-096-saiyan-sweeping-defense",
+      "number": 96,
+      "finding": "Vegeta severe eye/closed mouth and large foreground gloved hand retain the original extreme close-up. Shield correctly represents the two stop effects.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/096.jpg",
+        "sha256": "37f659bd6dccb63f669c13c76c0b87ee96d569eb009e156833ecadefc3188c78"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-097-power-up-more",
+      "number": 97,
+      "finding": "Child Gohan, turtle and Goku lower body retain poses, colors and beach setting. Gohan small closed mouth and sideways gaze remain; tiny source details limited.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/097.jpg",
+        "sha256": "8cd51f96b3ca12c85bf6c4b9dcaed0ac7ba29ce5d308b22487c23d0c06870b83"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-098-power-up-the-most",
+      "number": 98,
+      "finding": "Piccolo gritted teeth, intense eyes, forehead fingers and radiating speed lines retained; source close-up crop unchanged.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/098.jpg",
+        "sha256": "5e5bb4dbb797c23fc7d47c1c02d876013fc474903c83e91262e0ccf814a5fb86"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-099-blazing-anger",
+      "number": 99,
+      "finding": "Piccolo crouched stance, forehead fingers, purple gi/blue sash, both orange boots and smoke background retained. Small printed face detail is partly obscured.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/099.jpg",
+        "sha256": "4bab50fd52b8e8d4a1f968a6c12b2dbbdba917f6217a2762213a68b2fba5cfff"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-100-vegetas-suprise-defense",
+      "number": 100,
+      "finding": "Vegeta red scouter, armor and narrowed eyes retain the earlier localized closed-mouth smirk correction. Shield and banishment remain unchanged.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/100.jpg",
+        "sha256": "ad1d9ff5d0dc8c1ef18bddb1228ea44130fe5a477a54a59ec997118f867dd407"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-101-goku-honor-duel",
+      "number": 101,
+      "finding": "Goku downward attack angle, foreground hand, swept hair, orange gi and purple speed lines retained. Small closed determined mouth follows visible original; fine mouth detail partly obscured.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/101.jpg",
+        "sha256": "a1005b360883848629fd5b2c40ddead96cb22c0c862c11855f026e7c5ed62606"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-102-raditz-honor-duel",
+      "number": 102,
+      "finding": "Raditz rear aerial kick, segmented armor, tail, sole and fist retained, with partial Goku limbs at left. Faces are largely obscured in original and not claimed fully verified.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/102.jpg",
+        "sha256": "564946f9a5775a94013ebb74f510ae2eb22cc47a1358f668d12b1054dd986aa7"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-103-piccolo-honor-duel",
+      "number": 103,
+      "finding": "Piccolo stern face, turban, cape, pink arm sections and teal cloudy background retained. Printed interface overlay is not illustration.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/103.jpg",
+        "sha256": "b972932c5e3f259431668a0acc915d15fe602ce2e02c1c393fc5ed9d81f5edcf"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-104-chiaotzu",
+      "number": 104,
+      "finding": "Chiaotzu airborne startled eyes/open mouth, hands, red cap, both boots and rocks retained. Full-height placement and stage clearance remain correct.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/104.jpg",
+        "sha256": "0735af9c415a368db78bd161d3fa878a096b3bfec288946fa5b9139bc7b507d0"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-105-chiaotzu",
+      "number": 105,
+      "finding": "Chiaotzu crouched stance, stern closed mouth, energy ball, green/red vest and both boots retained. Earlier floor extension and full front boot remain intact. CRD banishment stays an attack cost.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/105.jpg",
+        "sha256": "3c55216109b409aec6d7c148640f551eea402da81dbcaf90c144ed48982808f3"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-106-yajirobe",
+      "number": 106,
+      "finding": "Yajirobe seated eating pose retains closed happy eyes, puffed cheeks, food bag, crossed feet, orange robe and wall/grass background. Earlier full-height placement keeps feet clear.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/106.jpg",
+        "sha256": "b2867b8d3a003b2cbf997c0490c622effac6db3a34580228bec90fcce08deb0e"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-107-yajirobe",
+      "number": 107,
+      "finding": "Yajirobe clasped hands, tiny rounded mouth, raised brows, striped orange robe, sword and both sandals retained. Figure remains clear of stage values.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/107.jpg",
+        "sha256": "cb3a64be069ea9794174d3613043907749a666c21fdbb431640208e908eda9af"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-108-gokus-energy-defense",
+      "number": 108,
+      "finding": "Shirtless Goku shouting with both fists, torn orange pants, blue wristbands/boots and white aura retained. All source-visible limbs remain in frame; damage reduction correctly has no stop icon.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/108.jpg",
+        "sha256": "b6c95e134e707c8a6531555730c222688b08e6c68a7fa54591655692f5ef391c"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-109-piccolos-energy-attack",
+      "number": 109,
+      "finding": "Piccolo struck by Raditz boot retains closed-eye grimace, teeth, sweat, purple gi and pink arm. Original upper-head crop and foreground golden boot retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/109.jpg",
+        "sha256": "d127f2ed76e460e1b0a48e2356f204b30b0efa447aac8b4c350c0fc7180a0ab2"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-110-piccolos-physical-defense",
+      "number": 110,
+      "finding": "Piccolo holding his opposite arm retains narrowed eyes, tense mouth, pink arm sections, purple gi and snowy background. Original head-top crop unchanged.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/110.jpg",
+        "sha256": "0c1bb883c967853b37113f7e9bca8e88e2a487d6d4b0997aad035be8cd9e46c4"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-111-gohans-energy-defense",
+      "number": 111,
+      "finding": "Piccolo in turban/cape grabbing Gohan retains open mouth, fingers, pink arm and Gohan orange outfit, sword, tail and boot sole. Original lower-body framing preserved.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/111.jpg",
+        "sha256": "1aba81bc10b434b32f0d41d358cd4cfe21b8d7b4ce077d68a72bb20a320feea6"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-112-krillins-physical-defense",
+      "number": 112,
+      "finding": "Krillin downward close-up retains six dots, gritted teeth, orange gi and green motion background. Tight skull clearance matches retained source. The defense effect redirects damage and correctly has no stop icon.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/112.jpg",
+        "sha256": "05150654f21398b199610c9a33e41d5b77072f7cf8f3e67422d8240029e3bcae"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-113-krillins-energy-attack",
+      "number": 113,
+      "finding": "Krillin shouting, orange sleeveless gi, blue wristbands and turtle emblem retained. Earlier extension keeps both clenched fists and full bald head visible.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/113.jpg",
+        "sha256": "fd701ae1afe278751dabc4b94ec0c6ebaa4ff15c474480379242c8b257daaadb"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-114-tiens-energy-defense",
+      "number": 114,
+      "finding": "Tien startled close-up retains all three wide eyes, tiny pupils, open mouth/tongue and red radial lines. Earlier full-height placement preserves the bottom of the mouth.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/114.jpg",
+        "sha256": "951ecd3a42a3e490285b1f7b87ba77aa17197d9f2d5d83d16e00a542a24a4d05"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-115-yamchas-energy-attack",
+      "number": 115,
+      "finding": "Yamcha/Tien upper and lower hand grips, gritted teeth, orange/blue clothing and wristbands retained. Original left hair-edge crop preserved.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/115.jpg",
+        "sha256": "869bda943f5c5673d3140416eff04d13a8a0f8f46be1587c0a2330d2d49bbc90"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-116-yamchas-physical-defense",
+      "number": 116,
+      "finding": "Yamcha defensive two-palm pose, wristbands, facial scars and gritted teeth retained. Lower foreground hand/upper hair crop follow original framing. Reduction alone correctly has no shield.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/116.jpg",
+        "sha256": "a35753912386dacf118d117fc07e0b650915843a41bea0bb862b67a8eebb1003"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-117-raditz-energy-wall",
+      "number": 117,
+      "finding": "Raditz low-angle waist-up pose retains scouter, stern small mouth, brown armor, tail belt and cliff/sky scene. Original upper-hair crop retained.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/117.jpg",
+        "sha256": "e7602e38951f83f3f05df3f1fddf66aa326ac1135552b542cf976ef034a79e39"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-118-raditz-physical-defense",
+      "number": 118,
+      "finding": "Partial Raditz face/scouter, swept hair and upper-right light flash retained. Mouth/face partly outside original frame; no exact full-expression claim.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/118.jpg",
+        "sha256": "e04d76054b6ccc9f5b61f53644021c0ab51b6fa098cd33ca9f649cd8c9b292cf"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-119-vegetas-energy-blast",
+      "number": 119,
+      "finding": "Vegeta white-gloved hand and blue sleeve projecting white/pink energy retain the original composition. No face shown. CRD first-card-in-Combat restriction remains explicit.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/119.jpg",
+        "sha256": "d42b512037adcd99e5641311d2ef31515410c42d5db34c1bdef3381f5bb0f977"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    },
+    {
+      "id": "saiyan-120-nappas-energy-aura",
+      "number": 120,
+      "finding": "Nappa close-up retains wide angry eyes, mustache and shouting mouth/tongue. Forehead and lower-mouth crop follow the source. One shield represents the stop effects.",
+      "actual_original": {
+        "path": "tools/card-corrections/v3-saiyan-071-120-brighter/originals/120.jpg",
+        "sha256": "9cfa15c945e2fecbad46daa8917e2e5edf5d4df66d3cea992593403f843a7614"
+      },
+      "review_basis": "actual printed scan and retained illustration",
+      "final_render_visually_inspected": true,
+      "artwork_group_unchanged": true
+    }
+  ]
+}
