@@ -3,17 +3,21 @@ from pathlib import Path
 from lxml import etree as E
 from PIL import Image, ImageFilter
 from concurrent.futures import ProcessPoolExecutor
-import copy, hashlib, json, subprocess, sys
+import argparse, copy, hashlib, json, subprocess, sys
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 sys.path.insert(0, str(HERE / 'scripts'))
 import footer_spacing
-WORK = Path(sys.argv[1]).resolve()
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('work', type=Path)
+parser.add_argument('--range', choices=['001-050', '051-100'], default='001-050')
+args = parser.parse_args()
+WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)
-AUDIT_PATH = ROOT / 'tools/card-corrections/v3-saiyan-001-050/audit.json'
-OUT = ROOT / 'tools/card-corrections/v3-saiyan-001-050-footer-centering'
+AUDIT_PATH = ROOT / f'tools/card-corrections/v3-saiyan-{args.range}/audit.json'
+OUT = ROOT / f'tools/card-corrections/v3-saiyan-{args.range}-footer-centering'
 Y = 1340
 IDS = ['saga-emblem', 'footer-rarity', 'card-number']
 
@@ -139,6 +143,8 @@ def process(row):
 
 if __name__ == '__main__':
     audit = json.loads(AUDIT_PATH.read_text())
+    start, end = map(int, args.range.split('-'))
+    assert [row['number'] for row in audit] == list(range(start, end + 1))
     if all(row.get('footer_spacing_revision', {}).get('treatment', {}).get('revision') == footer_spacing.REVISION for row in audit):
         for row in audit:
             assert sha(ROOT/row['native_source_path']) == row['native_source_sha256']
@@ -169,7 +175,7 @@ if __name__ == '__main__':
     (ROOT/'public/cards/catalog.js').write_text(catalog)
     (OUT/'pixel-checks.json').write_text(json.dumps(results, indent=2)+'\n')
     (OUT/'release.json').write_text(json.dumps({'baseline_commit': before_commit,
-        'scope': 'Saiyan Saga 001–050 only', 'cards': 50, 'independently_verified_exports': 100,
+        'scope': f'Saiyan Saga {args.range} only', 'cards': 50, 'independently_verified_exports': 100,
         'revision': footer_spacing.REVISION, 'saga_center_x': 211.75, 'right_group_center_x': 847.25,
         'pixels_changed_outside_footer_ink_footprint': 0, 'native_helper_idempotent_all_cards': True,
         'artwork_and_all_unrelated_pixels_preserved': True}, indent=2)+'\n')
