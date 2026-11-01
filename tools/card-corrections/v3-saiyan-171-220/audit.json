@@ -11152,7 +11152,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-201-the-tail-grows-back.svg",
-    "native_source_sha256": "34b5a235758532a9bc78928b7e3ed4af8569f3b2de5d4e699d912af43b20b7df",
+    "native_source_sha256": "77600592c37304cdeace116b944e579f7a58cf91d30f6a6b269a143f51c5d1af",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -11233,13 +11233,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.333,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.133,
           1392.65,
           58.035,
           33.708
@@ -11265,7 +11265,7 @@
         "path": "public/assets/cards/saiyan-201-the-tail-grows-back.webp",
         "before_url": "/assets/cards/saiyan-201-the-tail-grows-back.webp?v=6a00dcd10b0d",
         "before_sha256": "6a00dcd10b0d7a556a85596c656877529262d3722f68d59fd68fae5bf4cffbf6",
-        "after_sha256": "2c9523bc9a257233a7f7a0c202e47c95945dd57795a3d3441b6a7ebd7470ed15",
+        "after_sha256": "2584d78b4bc55b0b6d413d7efd325e0ae6c99dac3b58d5fe632dfada03838438",
         "size": [
           1060,
           1484
@@ -11277,7 +11277,7 @@
         "path": "public/assets/cards/downloads/saiyan-201-the-tail-grows-back.webp",
         "before_url": "/assets/cards/downloads/saiyan-201-the-tail-grows-back.webp?v=6b18fcf781b3",
         "before_sha256": "6b18fcf781b35d2b1331fe1d1e737cc7f346be098f5e7981af5bc156c59545e6",
-        "after_sha256": "cfbc6bef8782fef1c53a07d6c6f693993e2e86215ea078946bc3bee1e4448dbd",
+        "after_sha256": "a622e61f19be7f1405c3c6107197004f2c823505d7a9a6c19ad35d31d7c6c278",
         "size": [
           2120,
           2968
@@ -11327,7 +11327,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-201-the-tail-grows-back",
+      "number": 201,
+      "before_native_sha256": "34b5a235758532a9bc78928b7e3ed4af8569f3b2de5d4e699d912af43b20b7df",
+      "after_native_sha256": "77600592c37304cdeace116b944e579f7a58cf91d30f6a6b269a143f51c5d1af",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-201-the-tail-grows-back.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.8675,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.333,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.133,
+          1392.65,
+          58.035,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-201-the-tail-grows-back.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "2c9523bc9a257233a7f7a0c202e47c95945dd57795a3d3441b6a7ebd7470ed15",
+          "after_sha256": "2584d78b4bc55b0b6d413d7efd325e0ae6c99dac3b58d5fe632dfada03838438",
+          "changed_pixels": 6287,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-201-the-tail-grows-back.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "cfbc6bef8782fef1c53a07d6c6f693993e2e86215ea078946bc3bee1e4448dbd",
+          "after_sha256": "a622e61f19be7f1405c3c6107197004f2c823505d7a9a6c19ad35d31d7c6c278",
+          "changed_pixels": 19394,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1877,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 202,
@@ -11336,7 +11422,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-202-gokus-lucky-break.svg",
-    "native_source_sha256": "165eb63d080e9d31f35116c131134959355a843c65c64faf6c19cb544b8b514f",
+    "native_source_sha256": "a75920711a4acbb89839d5773816c4cbf41f0a029ee1f207073a0eee41e93c8f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -11423,13 +11509,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          784.543,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          844.343,
           1392.65,
           65.614,
           33.708
@@ -11461,7 +11547,7 @@
         "path": "public/assets/cards/saiyan-202-gokus-lucky-break.webp",
         "before_url": "/assets/cards/saiyan-202-gokus-lucky-break.webp?v=d26063606443",
         "before_sha256": "d26063606443ca470afb57e54f67211aa2c62a32ecc8d46b704e3471a0159063",
-        "after_sha256": "4ae75ace5b72dd4cd239ff5b0445e98e75338fb279a9bf768945ec58a57b725d",
+        "after_sha256": "7b9405884c2b019f5ece3036e141ea509ec2c3716490b2e3bc64c9cae75875d6",
         "size": [
           1060,
           1484
@@ -11473,7 +11559,7 @@
         "path": "public/assets/cards/downloads/saiyan-202-gokus-lucky-break.webp",
         "before_url": "/assets/cards/downloads/saiyan-202-gokus-lucky-break.webp?v=c673ec9f36fb",
         "before_sha256": "c673ec9f36fb4a6ddb3efa1b43181dce9f0da9f0d31ca9a08f6aa8889852ea32",
-        "after_sha256": "3c6a9edb0805abab13e24774d8a5e22e477dc3c1b624c66a558c7a3b9498683b",
+        "after_sha256": "3b2a01203be54e58268ae2852fccc1ab89c6d6e028590cdbc9fd861e7ab04f3d",
         "size": [
           2120,
           2968
@@ -11523,7 +11609,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-202-gokus-lucky-break",
+      "number": 202,
+      "before_native_sha256": "165eb63d080e9d31f35116c131134959355a843c65c64faf6c19cb544b8b514f",
+      "after_native_sha256": "a75920711a4acbb89839d5773816c4cbf41f0a029ee1f207073a0eee41e93c8f",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-202-gokus-lucky-break.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -35.657,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          784.543,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          844.343,
+          1392.65,
+          65.614,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-202-gokus-lucky-break.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "4ae75ace5b72dd4cd239ff5b0445e98e75338fb279a9bf768945ec58a57b725d",
+          "after_sha256": "7b9405884c2b019f5ece3036e141ea509ec2c3716490b2e3bc64c9cae75875d6",
+          "changed_pixels": 6627,
+          "changed_pixel_bounds": [
+            782,
+            1383,
+            949,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-202-gokus-lucky-break.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "3c6a9edb0805abab13e24774d8a5e22e477dc3c1b624c66a558c7a3b9498683b",
+          "after_sha256": "3b2a01203be54e58268ae2852fccc1ab89c6d6e028590cdbc9fd861e7ab04f3d",
+          "changed_pixels": 20317,
+          "changed_pixel_bounds": [
+            1569,
+            2771,
+            1892,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 203,
@@ -11532,7 +11704,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-203-saiyan-truce-card.svg",
-    "native_source_sha256": "6cbac921eb8a0679061f4dd202941b7fe54a250b661532beb68aa374c141c608",
+    "native_source_sha256": "35012def0b0088cb443f2d91227bb8c217d8d674b6093112d6cdba705044412f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -11625,13 +11797,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          784.464,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          844.264,
           1392.65,
           65.773,
           33.708
@@ -11669,7 +11841,7 @@
         "path": "public/assets/cards/saiyan-203-saiyan-truce-card.webp",
         "before_url": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=ab5fb7222aa4",
         "before_sha256": "ab5fb7222aa423f75e6fd51ff2d709f51b167aec3dd3833682b170fd65aaae21",
-        "after_sha256": "ae80df272f5194758c602c6b7c930889e07a083b60f951faa8e3437650ae3e6f",
+        "after_sha256": "4ca6466ea9a6ef39ce56b1f2ddc0e1074c8d090b623db0557c66481c3d62eb4e",
         "size": [
           1060,
           1484
@@ -11681,7 +11853,7 @@
         "path": "public/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp",
         "before_url": "/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp?v=6b4f9535adc4",
         "before_sha256": "6b4f9535adc445d7324aa8abac3fc3e7fe7fbf753ab53ef9e3a7a99106e26a53",
-        "after_sha256": "8a740dd1949c206365679dc5067aef206bb5bef61f0667c4556e813cd5d5b503",
+        "after_sha256": "a9205ab35ecddcf385393e5d7f692b1b09ced612b2e30f0c4237d87b9f5870ea",
         "size": [
           2120,
           2968
@@ -11731,7 +11903,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-203-saiyan-truce-card",
+      "number": 203,
+      "before_native_sha256": "6cbac921eb8a0679061f4dd202941b7fe54a250b661532beb68aa374c141c608",
+      "after_native_sha256": "35012def0b0088cb443f2d91227bb8c217d8d674b6093112d6cdba705044412f",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-203-saiyan-truce-card.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -35.7365,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505000000001,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          784.464,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          844.264,
+          1392.65,
+          65.773,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-203-saiyan-truce-card.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ae80df272f5194758c602c6b7c930889e07a083b60f951faa8e3437650ae3e6f",
+          "after_sha256": "4ca6466ea9a6ef39ce56b1f2ddc0e1074c8d090b623db0557c66481c3d62eb4e",
+          "changed_pixels": 6676,
+          "changed_pixel_bounds": [
+            782,
+            1383,
+            949,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "8a740dd1949c206365679dc5067aef206bb5bef61f0667c4556e813cd5d5b503",
+          "after_sha256": "a9205ab35ecddcf385393e5d7f692b1b09ced612b2e30f0c4237d87b9f5870ea",
+          "changed_pixels": 20146,
+          "changed_pixel_bounds": [
+            1568,
+            2771,
+            1892,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 204,
@@ -11740,7 +11998,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-204-battle-pausing.svg",
-    "native_source_sha256": "8b455ae3389f52a0a8267025e0b66454913a817e66c7c31ea7441a42d91a4426",
+    "native_source_sha256": "b9960d05e488a5ca4cff19e4480ec8b6e0438e63bc34c93e1a99870dbb916e7b",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -11827,13 +12085,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          782.821,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          842.62,
           1392.65,
           69.059,
           33.708
@@ -11865,7 +12123,7 @@
         "path": "public/assets/cards/saiyan-204-battle-pausing.webp",
         "before_url": "/assets/cards/saiyan-204-battle-pausing.webp?v=3472971c0ccc",
         "before_sha256": "3472971c0cccf32b61a8e6588bcc99e91f3802bcbc19668a8e9ce91fa070191b",
-        "after_sha256": "5c4fd07016ea1ca64b92eba7459bf84bfd3d5d03b6e59f3792f6fc37d98c8a5f",
+        "after_sha256": "cf4d3319d590fab5ef64437812a98bfb731e2334770d7f13c2388cc5184edfd9",
         "size": [
           1060,
           1484
@@ -11877,7 +12135,7 @@
         "path": "public/assets/cards/downloads/saiyan-204-battle-pausing.webp",
         "before_url": "/assets/cards/downloads/saiyan-204-battle-pausing.webp?v=9eaaa7b2c85f",
         "before_sha256": "9eaaa7b2c85f8554071d4ce46e304350f028fc39362e4759ccf9a66de16d65b6",
-        "after_sha256": "a5e354def0477745f2ba46543b66f96f0fe7137c3a14d795939b60369a49ab20",
+        "after_sha256": "e7cb98f0d815975b2cbbecac3be6f6bfa5639c39d3f9a182d8c199438d11111b",
         "size": [
           2120,
           2968
@@ -11927,7 +12185,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-204-battle-pausing",
+      "number": 204,
+      "before_native_sha256": "8b455ae3389f52a0a8267025e0b66454913a817e66c7c31ea7441a42d91a4426",
+      "after_native_sha256": "b9960d05e488a5ca4cff19e4480ec8b6e0438e63bc34c93e1a99870dbb916e7b",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-204-battle-pausing.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -37.3795,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          782.821,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          842.62,
+          1392.65,
+          69.059,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-204-battle-pausing.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "5c4fd07016ea1ca64b92eba7459bf84bfd3d5d03b6e59f3792f6fc37d98c8a5f",
+          "after_sha256": "cf4d3319d590fab5ef64437812a98bfb731e2334770d7f13c2388cc5184edfd9",
+          "changed_pixels": 6679,
+          "changed_pixel_bounds": [
+            780,
+            1383,
+            952,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-204-battle-pausing.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a5e354def0477745f2ba46543b66f96f0fe7137c3a14d795939b60369a49ab20",
+          "after_sha256": "e7cb98f0d815975b2cbbecac3be6f6bfa5639c39d3f9a182d8c199438d11111b",
+          "changed_pixels": 20776,
+          "changed_pixel_bounds": [
+            1565,
+            2771,
+            1899,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 205,
@@ -11936,7 +12280,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-205-grabbing-the-tail.svg",
-    "native_source_sha256": "7449999871b6458a22e07db86e730ed70159e6bb61c5c3cd63116a9b447e5c09",
+    "native_source_sha256": "6f39af9179966435f262083625b82d33b012d12cab02c6fa5bde3a7c869762c0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12017,13 +12361,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          783.881,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          843.681,
           1392.65,
           66.939,
           33.708
@@ -12049,7 +12393,7 @@
         "path": "public/assets/cards/saiyan-205-grabbing-the-tail.webp",
         "before_url": "/assets/cards/saiyan-205-grabbing-the-tail.webp?v=f25b595370ea",
         "before_sha256": "f25b595370ea88a550ecd305dd6ad11b0b9cfb5848082dff1510f0173f58b5b4",
-        "after_sha256": "9aacec0a491324fb62821e1311fdb8af75809b2f71cd8b066b06b1c7a557bbc3",
+        "after_sha256": "733b4281f91a8d5c93f6c752332c937fc7974dc7450159a8bd31e0d59f0ea84d",
         "size": [
           1060,
           1484
@@ -12061,7 +12405,7 @@
         "path": "public/assets/cards/downloads/saiyan-205-grabbing-the-tail.webp",
         "before_url": "/assets/cards/downloads/saiyan-205-grabbing-the-tail.webp?v=f80c4ea78da0",
         "before_sha256": "f80c4ea78da022a3daa7fa5abda31b4b5a87709e666079607b1d72c8f823046f",
-        "after_sha256": "256aeb31b2b8d3b0c1510ec79c111daa4910d1ebf329a2d56fa135590785bc85",
+        "after_sha256": "7ed6918ae72095590b3dd8a28ace4c3e5f39d2742ee780492a0088ffa1bf2700",
         "size": [
           2120,
           2968
@@ -12111,7 +12455,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-205-grabbing-the-tail",
+      "number": 205,
+      "before_native_sha256": "7449999871b6458a22e07db86e730ed70159e6bb61c5c3cd63116a9b447e5c09",
+      "after_native_sha256": "6f39af9179966435f262083625b82d33b012d12cab02c6fa5bde3a7c869762c0",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-205-grabbing-the-tail.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -36.3195,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          783.881,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.681,
+          1392.65,
+          66.939,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-205-grabbing-the-tail.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "9aacec0a491324fb62821e1311fdb8af75809b2f71cd8b066b06b1c7a557bbc3",
+          "after_sha256": "733b4281f91a8d5c93f6c752332c937fc7974dc7450159a8bd31e0d59f0ea84d",
+          "changed_pixels": 6719,
+          "changed_pixel_bounds": [
+            781,
+            1383,
+            950,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-205-grabbing-the-tail.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "256aeb31b2b8d3b0c1510ec79c111daa4910d1ebf329a2d56fa135590785bc85",
+          "after_sha256": "7ed6918ae72095590b3dd8a28ace4c3e5f39d2742ee780492a0088ffa1bf2700",
+          "changed_pixels": 20393,
+          "changed_pixel_bounds": [
+            1567,
+            2771,
+            1894,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 206,
@@ -12120,7 +12550,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-206-nappas-blinding-stare.svg",
-    "native_source_sha256": "08f6026ce4f4aa9624181cd2eca5d661866871d631b45089e447c44d3f8b4670",
+    "native_source_sha256": "f149fd4977e468476c3119c0256a2ea24c1e2f0aa77b3435bbe712d6a2d57599",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12195,13 +12625,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          783.775,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          843.575,
           1392.65,
           67.151,
           33.708
@@ -12221,7 +12651,7 @@
         "path": "public/assets/cards/saiyan-206-nappas-blinding-stare.webp",
         "before_url": "/assets/cards/saiyan-206-nappas-blinding-stare.webp?v=07a5ea0137a7",
         "before_sha256": "07a5ea0137a7aa4524b9e79c411fb2a80877557c3f4140ed9335588ee2be30bf",
-        "after_sha256": "e6d4f436a93e7f5ca7bbd082e2a968fb605fd2f8df622eea2c12fd16df9c7a02",
+        "after_sha256": "f0b077f06f7bb791c113c0269a69ed1558166dcdf741ba83d4b8f9be5bdd7026",
         "size": [
           1060,
           1484
@@ -12233,7 +12663,7 @@
         "path": "public/assets/cards/downloads/saiyan-206-nappas-blinding-stare.webp",
         "before_url": "/assets/cards/downloads/saiyan-206-nappas-blinding-stare.webp?v=1691974afa25",
         "before_sha256": "1691974afa25ce3b1e1f23374f67c4293a223bac41cb3f0cdbfb047c2f93a896",
-        "after_sha256": "b57863b1397c5b5df85cffc2b283a3f15179f37446bfdbfdfdf51bca74313768",
+        "after_sha256": "3708b5a3ee6f9422cabdaee8d4f86e8abec1e47968f119996dbfe9b0f7029afb",
         "size": [
           2120,
           2968
@@ -12283,7 +12713,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-206-nappas-blinding-stare",
+      "number": 206,
+      "before_native_sha256": "08f6026ce4f4aa9624181cd2eca5d661866871d631b45089e447c44d3f8b4670",
+      "after_native_sha256": "f149fd4977e468476c3119c0256a2ea24c1e2f0aa77b3435bbe712d6a2d57599",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-206-nappas-blinding-stare.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -36.4255,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          783.775,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.575,
+          1392.65,
+          67.151,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-206-nappas-blinding-stare.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "e6d4f436a93e7f5ca7bbd082e2a968fb605fd2f8df622eea2c12fd16df9c7a02",
+          "after_sha256": "f0b077f06f7bb791c113c0269a69ed1558166dcdf741ba83d4b8f9be5bdd7026",
+          "changed_pixels": 6719,
+          "changed_pixel_bounds": [
+            781,
+            1383,
+            950,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-206-nappas-blinding-stare.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b57863b1397c5b5df85cffc2b283a3f15179f37446bfdbfdfdf51bca74313768",
+          "after_sha256": "3708b5a3ee6f9422cabdaee8d4f86e8abec1e47968f119996dbfe9b0f7029afb",
+          "changed_pixels": 20562,
+          "changed_pixel_bounds": [
+            1567,
+            2771,
+            1895,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 207,
@@ -12292,7 +12808,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-207-power-gifting.svg",
-    "native_source_sha256": "2747dd0bc4db8b429bbf5c8192e2c6c89c9768a8d811ee71275ebb5b644d7291",
+    "native_source_sha256": "0de1499efa7287d1a51826f88f3a32f2415e00afc36ddb23042cbc189b175e99",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12373,13 +12889,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          785.1,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          844.899,
           1392.65,
           64.501,
           33.708
@@ -12405,7 +12921,7 @@
         "path": "public/assets/cards/saiyan-207-power-gifting.webp",
         "before_url": "/assets/cards/saiyan-207-power-gifting.webp?v=bfa87d04b805",
         "before_sha256": "bfa87d04b805fd9801a23c0c6fa7579ce772d1f9cd7dd84d3bb3c29b31214997",
-        "after_sha256": "442205dca797ea10350e4ca41a8b86126f5b316d07da2da016205dac864d0504",
+        "after_sha256": "cfa96aff0011fc6f6af447cd4663c0c4739ef7281d7328cbb5efbb2ed8466127",
         "size": [
           1060,
           1484
@@ -12417,7 +12933,7 @@
         "path": "public/assets/cards/downloads/saiyan-207-power-gifting.webp",
         "before_url": "/assets/cards/downloads/saiyan-207-power-gifting.webp?v=f79c0f2b913a",
         "before_sha256": "f79c0f2b913a4278e23a15a39d884bd40c84314028fba05081b783bf75361ad4",
-        "after_sha256": "0de2be3da14db0354d6f22bec5357d588bd20a0e7f8a9733f0f03235f3108006",
+        "after_sha256": "c0e44aed1eb3d4b62eb9032fa13f501675109af567a72ef3eed2681fce2e321a",
         "size": [
           2120,
           2968
@@ -12467,7 +12983,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-207-power-gifting",
+      "number": 207,
+      "before_native_sha256": "2747dd0bc4db8b429bbf5c8192e2c6c89c9768a8d811ee71275ebb5b644d7291",
+      "after_native_sha256": "0de1499efa7287d1a51826f88f3a32f2415e00afc36ddb23042cbc189b175e99",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-207-power-gifting.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -35.1005,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          785.1,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          844.899,
+          1392.65,
+          64.501,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-207-power-gifting.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "442205dca797ea10350e4ca41a8b86126f5b316d07da2da016205dac864d0504",
+          "after_sha256": "cfa96aff0011fc6f6af447cd4663c0c4739ef7281d7328cbb5efbb2ed8466127",
+          "changed_pixels": 6453,
+          "changed_pixel_bounds": [
+            783,
+            1383,
+            947,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-207-power-gifting.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "0de2be3da14db0354d6f22bec5357d588bd20a0e7f8a9733f0f03235f3108006",
+          "after_sha256": "c0e44aed1eb3d4b62eb9032fa13f501675109af567a72ef3eed2681fce2e321a",
+          "changed_pixels": 20111,
+          "changed_pixel_bounds": [
+            1570,
+            2771,
+            1890,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 208,
@@ -12476,7 +13078,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-208-terrible-wounds.svg",
-    "native_source_sha256": "4c27c6debddc23092afeac0776075ebaef838b1427a1a1444fa74868585ededf",
+    "native_source_sha256": "de3eb78dca5613dd74d2020b28dfb6148e5ef2d40c68804d6629cc42b7268b32",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12574,13 +13176,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          783.775,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          843.575,
           1392.65,
           67.151,
           33.708
@@ -12618,7 +13220,7 @@
         "path": "public/assets/cards/saiyan-208-terrible-wounds.webp",
         "before_url": "/assets/cards/saiyan-208-terrible-wounds.webp?v=6ffc7a0df241",
         "before_sha256": "6ffc7a0df24199a89bd3437c523466a75342a745bac43d8988f203fd179c3da3",
-        "after_sha256": "5ffc2c1ba5bb8038d6b5473f6ea6a11104c0d8e0a569de420d73794fc0bd5e6b",
+        "after_sha256": "11fdc884edc7f241eafd1013fecf0f784ffa0f0d777d613fe53b056935ebde95",
         "size": [
           1060,
           1484
@@ -12630,7 +13232,7 @@
         "path": "public/assets/cards/downloads/saiyan-208-terrible-wounds.webp",
         "before_url": "/assets/cards/downloads/saiyan-208-terrible-wounds.webp?v=5130794fd30f",
         "before_sha256": "5130794fd30fd3511aa1548057d827a4c2bc9d71d08536d6819344c1c9586924",
-        "after_sha256": "37ea6971c5a4f104537d5f4a2e881de1bf11feddc81dfd99ca10b455e69e3a2d",
+        "after_sha256": "5a40fa68bb1ba01298ea74b5862feebbd37fe0623496c7a99c6db6c799a98334",
         "size": [
           2120,
           2968
@@ -12680,7 +13282,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-208-terrible-wounds",
+      "number": 208,
+      "before_native_sha256": "4c27c6debddc23092afeac0776075ebaef838b1427a1a1444fa74868585ededf",
+      "after_native_sha256": "de3eb78dca5613dd74d2020b28dfb6148e5ef2d40c68804d6629cc42b7268b32",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-208-terrible-wounds.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -36.4255,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          783.775,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.575,
+          1392.65,
+          67.151,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-208-terrible-wounds.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "5ffc2c1ba5bb8038d6b5473f6ea6a11104c0d8e0a569de420d73794fc0bd5e6b",
+          "after_sha256": "11fdc884edc7f241eafd1013fecf0f784ffa0f0d777d613fe53b056935ebde95",
+          "changed_pixels": 6752,
+          "changed_pixel_bounds": [
+            781,
+            1383,
+            950,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-208-terrible-wounds.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "37ea6971c5a4f104537d5f4a2e881de1bf11feddc81dfd99ca10b455e69e3a2d",
+          "after_sha256": "5a40fa68bb1ba01298ea74b5862feebbd37fe0623496c7a99c6db6c799a98334",
+          "changed_pixels": 20544,
+          "changed_pixel_bounds": [
+            1567,
+            2771,
+            1895,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 209,
@@ -12689,7 +13377,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-209-broken-scouter.svg",
-    "native_source_sha256": "5dd072bbe696c037b68cade9c36e9f3dc5de40c42a33e815aed6047c052995ed",
+    "native_source_sha256": "19551bb7a817a026592906f5755f2aefd07f733cf670849bc6a40b0d420e8031",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12790,13 +13478,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          783.987,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          843.787,
           1392.65,
           66.727,
           33.708
@@ -12822,7 +13510,7 @@
         "path": "public/assets/cards/saiyan-209-broken-scouter.webp",
         "before_url": "/assets/cards/saiyan-209-broken-scouter.webp?v=e4967bb85eaf",
         "before_sha256": "e4967bb85eaf14b940b3fa0fbb249cfe83af973810edd48e15b9cdfca239f452",
-        "after_sha256": "aae1ceb99132a12e971e51358eafd72195a2226eae82b8c427c105994e657fe8",
+        "after_sha256": "99da3315b1013262101b44bd08c359e6230e18bb5f1ba7eb653c27054f5aff6b",
         "size": [
           1060,
           1484
@@ -12834,7 +13522,7 @@
         "path": "public/assets/cards/downloads/saiyan-209-broken-scouter.webp",
         "before_url": "/assets/cards/downloads/saiyan-209-broken-scouter.webp?v=afb6057d7e85",
         "before_sha256": "afb6057d7e852c05558dcab6872a33d95f42d39e45b4502cd45de3ad5bea523e",
-        "after_sha256": "0565be992851e381b50cf3d991aa50979b154999b9e62a053d4e2f2d7032fd6c",
+        "after_sha256": "3c7692ac8d98ede603bf389bd0d93e96e66a41e9dddd23e606b4ed364fe0f6ab",
         "size": [
           2120,
           2968
@@ -12884,7 +13572,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-209-broken-scouter",
+      "number": 209,
+      "before_native_sha256": "5dd072bbe696c037b68cade9c36e9f3dc5de40c42a33e815aed6047c052995ed",
+      "after_native_sha256": "19551bb7a817a026592906f5755f2aefd07f733cf670849bc6a40b0d420e8031",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-209-broken-scouter.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -36.2135,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          783.987,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.787,
+          1392.65,
+          66.727,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-209-broken-scouter.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "aae1ceb99132a12e971e51358eafd72195a2226eae82b8c427c105994e657fe8",
+          "after_sha256": "99da3315b1013262101b44bd08c359e6230e18bb5f1ba7eb653c27054f5aff6b",
+          "changed_pixels": 6651,
+          "changed_pixel_bounds": [
+            781,
+            1383,
+            950,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-209-broken-scouter.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "0565be992851e381b50cf3d991aa50979b154999b9e62a053d4e2f2d7032fd6c",
+          "after_sha256": "3c7692ac8d98ede603bf389bd0d93e96e66a41e9dddd23e606b4ed364fe0f6ab",
+          "changed_pixels": 20386,
+          "changed_pixel_bounds": [
+            1567,
+            2771,
+            1894,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 210,
@@ -12893,7 +13667,7 @@
     "family": "PHYSICAL COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-210-raditz-flying-kick.svg",
-    "native_source_sha256": "9836f70034e4397ef7f294863bfa4369e51cd422e78241425d75ad302fbcb6f7",
+    "native_source_sha256": "39b372af807b93500e5079a3680315159eb6a866106d2abc6817ebf4fa21e0b3",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -12974,13 +13748,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.227,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.027,
           1392.65,
           58.247,
           33.708
@@ -13036,7 +13810,7 @@
         "path": "public/assets/cards/saiyan-210-raditz-flying-kick.webp",
         "before_url": "/assets/cards/saiyan-210-raditz-flying-kick.webp?v=54b52f60cdee",
         "before_sha256": "54b52f60cdee40d06e6483ea8e07100d4f6b9a5883b19d09b47f877093939f6c",
-        "after_sha256": "6a097aea243bfead30c9fcd8137c9ae045fa61694ec6284d43963cc13699b11d",
+        "after_sha256": "5a7a2790f7811abf936eca87333e74287fc3b5b08e783b447f7e41134dd05ff7",
         "size": [
           1060,
           1484
@@ -13048,7 +13822,7 @@
         "path": "public/assets/cards/downloads/saiyan-210-raditz-flying-kick.webp",
         "before_url": "/assets/cards/downloads/saiyan-210-raditz-flying-kick.webp?v=22f1ca8d3332",
         "before_sha256": "22f1ca8d3332af3d0d504ceb7898af1a76860ef510fa25d5ee1f68db40fd1028",
-        "after_sha256": "a9f20b4685b2893052f1aba1f467d3a47b7c3567be727bcf6c6facd1de69da22",
+        "after_sha256": "ccb3ffa00ad9dfeedb8620a581680d5a3d6e05978101857ac8aba884931c6a5b",
         "size": [
           2120,
           2968
@@ -13098,7 +13872,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": "attack"
+    "power_icon": "attack",
+    "footer_spacing_revision": {
+      "id": "saiyan-210-raditz-flying-kick",
+      "number": 210,
+      "before_native_sha256": "9836f70034e4397ef7f294863bfa4369e51cd422e78241425d75ad302fbcb6f7",
+      "after_native_sha256": "39b372af807b93500e5079a3680315159eb6a866106d2abc6817ebf4fa21e0b3",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-210-raditz-flying-kick.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.9735,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.227,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.027,
+          1392.65,
+          58.247,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-210-raditz-flying-kick.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "6a097aea243bfead30c9fcd8137c9ae045fa61694ec6284d43963cc13699b11d",
+          "after_sha256": "5a7a2790f7811abf936eca87333e74287fc3b5b08e783b447f7e41134dd05ff7",
+          "changed_pixels": 6298,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-210-raditz-flying-kick.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a9f20b4685b2893052f1aba1f467d3a47b7c3567be727bcf6c6facd1de69da22",
+          "after_sha256": "ccb3ffa00ad9dfeedb8620a581680d5a3d6e05978101857ac8aba884931c6a5b",
+          "changed_pixels": 19697,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1877,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 211,
@@ -13107,7 +13967,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-211-tien-mind-reading-trick.svg",
-    "native_source_sha256": "31c9f5fc3c707d1f5dfb0f94beae19246491942aac70e320db913f9ac9c212d3",
+    "native_source_sha256": "af57eee51ab00cab7b989fafeceac0fdf8eee3e8a2f77a9a17d6b0497b77419c",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -13194,13 +14054,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          792.811,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          852.611,
           1392.65,
           49.078,
           33.708
@@ -13232,7 +14092,7 @@
         "path": "public/assets/cards/saiyan-211-tien-mind-reading-trick.webp",
         "before_url": "/assets/cards/saiyan-211-tien-mind-reading-trick.webp?v=01cc1d522ae8",
         "before_sha256": "01cc1d522ae85a397d29f93a181b0bae8b43e348429936f53ec60d09fbdf49fe",
-        "after_sha256": "3ef518b1483da6599774d3e3893258f453d2773fd437250ac2748287d6f64eee",
+        "after_sha256": "5b176f474676151f48f4a4a5a4bb9f0f57db5dd44da7d7c08761911672065c2d",
         "size": [
           1060,
           1484
@@ -13244,7 +14104,7 @@
         "path": "public/assets/cards/downloads/saiyan-211-tien-mind-reading-trick.webp",
         "before_url": "/assets/cards/downloads/saiyan-211-tien-mind-reading-trick.webp?v=330438351883",
         "before_sha256": "330438351883cf5f3f8b98883d531fb8f215b24dae879c7c2aed799ef5815c15",
-        "after_sha256": "c1cc45cae8832ab221179847d71d02ad2286a77cc1a8398987d43c509a08be2f",
+        "after_sha256": "61713edc66ca3e7c212c79db2b469f364fc5a5cb8b2df78c8a64e7515728c912",
         "size": [
           2120,
           2968
@@ -13294,7 +14154,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-211-tien-mind-reading-trick",
+      "number": 211,
+      "before_native_sha256": "31c9f5fc3c707d1f5dfb0f94beae19246491942aac70e320db913f9ac9c212d3",
+      "after_native_sha256": "af57eee51ab00cab7b989fafeceac0fdf8eee3e8a2f77a9a17d6b0497b77419c",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-211-tien-mind-reading-trick.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -27.389,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          792.811,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          852.611,
+          1392.65,
+          49.078,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-211-tien-mind-reading-trick.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3ef518b1483da6599774d3e3893258f453d2773fd437250ac2748287d6f64eee",
+          "after_sha256": "5b176f474676151f48f4a4a5a4bb9f0f57db5dd44da7d7c08761911672065c2d",
+          "changed_pixels": 5648,
+          "changed_pixel_bounds": [
+            790,
+            1383,
+            932,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-211-tien-mind-reading-trick.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "c1cc45cae8832ab221179847d71d02ad2286a77cc1a8398987d43c509a08be2f",
+          "after_sha256": "61713edc66ca3e7c212c79db2b469f364fc5a5cb8b2df78c8a64e7515728c912",
+          "changed_pixels": 17501,
+          "changed_pixel_bounds": [
+            1585,
+            2771,
+            1859,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 212,
@@ -13303,7 +14249,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-212-piccolos-flight.svg",
-    "native_source_sha256": "389cab2ac910d28f64c53d9c7f10ef13e07f6d9c41daf8cc03119cb68a7b52b7",
+    "native_source_sha256": "42235dd1410f3c2720ef6f9138242a3cd5d27c58a5e1ace42a1fdcf9453b9ee0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -13378,13 +14324,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          789.022,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.822,
           1392.65,
           56.657,
           33.708
@@ -13434,7 +14380,7 @@
         "path": "public/assets/cards/saiyan-212-piccolos-flight.webp",
         "before_url": "/assets/cards/saiyan-212-piccolos-flight.webp?v=680762354148",
         "before_sha256": "680762354148a09adf04ca4572e481489443c6a67652b9abb293f672f47b1380",
-        "after_sha256": "806e1cf8d235be85e2eae7aa4e3ac5d3fe6fce95a6d5867245fd6f8e81492a26",
+        "after_sha256": "e3ff11d7c4c9efb3d2a4a4c6e9ebc1c0e4e147256a2276c0d9ed0b3db3d66cd8",
         "size": [
           1060,
           1484
@@ -13446,7 +14392,7 @@
         "path": "public/assets/cards/downloads/saiyan-212-piccolos-flight.webp",
         "before_url": "/assets/cards/downloads/saiyan-212-piccolos-flight.webp?v=6060a61e12d0",
         "before_sha256": "6060a61e12d00029ccf8858810c95c887bcab0eaddf5758081ab9001c4f7e5d4",
-        "after_sha256": "b038c12e011382fcc19f56d5c42b27676896e5e05ac8d641396d3ddbd2a2a18c",
+        "after_sha256": "5410bbd738d869ccad4c3a1fcffbff1ba07993cd5e77900c5ef302c9cc36b962",
         "size": [
           2120,
           2968
@@ -13496,7 +14442,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": "block"
+    "power_icon": "block",
+    "footer_spacing_revision": {
+      "id": "saiyan-212-piccolos-flight",
+      "number": 212,
+      "before_native_sha256": "389cab2ac910d28f64c53d9c7f10ef13e07f6d9c41daf8cc03119cb68a7b52b7",
+      "after_native_sha256": "42235dd1410f3c2720ef6f9138242a3cd5d27c58a5e1ace42a1fdcf9453b9ee0",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-212-piccolos-flight.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.1785,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.2505000000001,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          789.022,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.822,
+          1392.65,
+          56.657,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-212-piccolos-flight.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "806e1cf8d235be85e2eae7aa4e3ac5d3fe6fce95a6d5867245fd6f8e81492a26",
+          "after_sha256": "e3ff11d7c4c9efb3d2a4a4c6e9ebc1c0e4e147256a2276c0d9ed0b3db3d66cd8",
+          "changed_pixels": 6089,
+          "changed_pixel_bounds": [
+            787,
+            1383,
+            940,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-212-piccolos-flight.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b038c12e011382fcc19f56d5c42b27676896e5e05ac8d641396d3ddbd2a2a18c",
+          "after_sha256": "5410bbd738d869ccad4c3a1fcffbff1ba07993cd5e77900c5ef302c9cc36b962",
+          "changed_pixels": 19003,
+          "changed_pixel_bounds": [
+            1578,
+            2771,
+            1874,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 213,
@@ -13505,7 +14537,7 @@
     "family": "SETUP",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-213-plant-two-saibaimen.svg",
-    "native_source_sha256": "2e6d945ea05a122699b27a8eb6ad6947403c8697497f4859323c473f9f10fc43",
+    "native_source_sha256": "dfd39ea4d70461270cf36c2a41168a2c5cda53b81a37ddf913f9d4c29b59eb7d",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -13604,13 +14636,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.942,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.742,
           1392.65,
           56.816,
           33.708
@@ -13654,7 +14686,7 @@
         "path": "public/assets/cards/saiyan-213-plant-two-saibaimen.webp",
         "before_url": "/assets/cards/saiyan-213-plant-two-saibaimen.webp?v=02c38dbf509f",
         "before_sha256": "02c38dbf509f77049e447f6f4c74a174fbb994c358b0e54c33d42f1a840ba08a",
-        "after_sha256": "548c11cd04e3599de9fd70e230ffa92782a5aaa08f22bc52abc62e5c07c55532",
+        "after_sha256": "987f33d06b9a41854d0a3108cc4bfdf798fcffad73f357ac55fe6246f3def21f",
         "size": [
           1060,
           1484
@@ -13666,7 +14698,7 @@
         "path": "public/assets/cards/downloads/saiyan-213-plant-two-saibaimen.webp",
         "before_url": "/assets/cards/downloads/saiyan-213-plant-two-saibaimen.webp?v=57df740f1479",
         "before_sha256": "57df740f1479835a8473bda7e1937cfbd9aaf5bd40a6fa6551da59adbeacf027",
-        "after_sha256": "1bba428a9f5478ef1591ea514eaae37b09d344f53261946e31355d40d0cc4f4b",
+        "after_sha256": "8a4d0aa103b8be568b91d4ca0f2431eda1fc43d0027b4a12f84a1bd8065f56e3",
         "size": [
           2120,
           2968
@@ -13716,7 +14748,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-213-plant-two-saibaimen",
+      "number": 213,
+      "before_native_sha256": "2e6d945ea05a122699b27a8eb6ad6947403c8697497f4859323c473f9f10fc43",
+      "after_native_sha256": "dfd39ea4d70461270cf36c2a41168a2c5cda53b81a37ddf913f9d4c29b59eb7d",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-213-plant-two-saibaimen.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.258,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.942,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.742,
+          1392.65,
+          56.816,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-213-plant-two-saibaimen.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "548c11cd04e3599de9fd70e230ffa92782a5aaa08f22bc52abc62e5c07c55532",
+          "after_sha256": "987f33d06b9a41854d0a3108cc4bfdf798fcffad73f357ac55fe6246f3def21f",
+          "changed_pixels": 6159,
+          "changed_pixel_bounds": [
+            787,
+            1383,
+            940,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-213-plant-two-saibaimen.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1bba428a9f5478ef1591ea514eaae37b09d344f53261946e31355d40d0cc4f4b",
+          "after_sha256": "8a4d0aa103b8be568b91d4ca0f2431eda1fc43d0027b4a12f84a1bd8065f56e3",
+          "changed_pixels": 19310,
+          "changed_pixel_bounds": [
+            1577,
+            2771,
+            1874,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 214,
@@ -13725,7 +14843,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-214-gohans-father-save.svg",
-    "native_source_sha256": "85c20e142feae37ba42c1bf7b495519203fc760209b8588f5cc998f5e3274fe2",
+    "native_source_sha256": "ecf9042021dcb75c14a224afaaf82ed3242b1f1614c575cf9261a5b58129f49a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -13806,13 +14924,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          787.299,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          847.099,
           1392.65,
           60.102,
           33.708
@@ -13838,7 +14956,7 @@
         "path": "public/assets/cards/saiyan-214-gohans-father-save.webp",
         "before_url": "/assets/cards/saiyan-214-gohans-father-save.webp?v=e7043120781e",
         "before_sha256": "e7043120781e579348cc27051aab48eab3707916064f8370722007b4deafd45c",
-        "after_sha256": "cae862b9e34ae75c53fa7412440ebb223e00959890b55a5e5adc7b4178ee7e54",
+        "after_sha256": "d5ea96ad5f2eaf27541c3598a93ebee1f87ea1cc8a500f9fb24992e96011502c",
         "size": [
           1060,
           1484
@@ -13850,7 +14968,7 @@
         "path": "public/assets/cards/downloads/saiyan-214-gohans-father-save.webp",
         "before_url": "/assets/cards/downloads/saiyan-214-gohans-father-save.webp?v=db1be327089a",
         "before_sha256": "db1be327089a4b6f7f19b060cdc22f49ef70466c5bfadafd77f349524eed3417",
-        "after_sha256": "acace2fe8dcd4e1a3141f71b6032aa7301e404ff3c4027fdf306638943abcbad",
+        "after_sha256": "a160b353276725c078efa2d8a1836dc76bd700567013d2b2f239f18128d154e9",
         "size": [
           2120,
           2968
@@ -13900,7 +15018,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-214-gohans-father-save",
+      "number": 214,
+      "before_native_sha256": "85c20e142feae37ba42c1bf7b495519203fc760209b8588f5cc998f5e3274fe2",
+      "after_native_sha256": "ecf9042021dcb75c14a224afaaf82ed3242b1f1614c575cf9261a5b58129f49a",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-214-gohans-father-save.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -32.901,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          787.299,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.099,
+          1392.65,
+          60.102,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-214-gohans-father-save.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "cae862b9e34ae75c53fa7412440ebb223e00959890b55a5e5adc7b4178ee7e54",
+          "after_sha256": "d5ea96ad5f2eaf27541c3598a93ebee1f87ea1cc8a500f9fb24992e96011502c",
+          "changed_pixels": 6150,
+          "changed_pixel_bounds": [
+            785,
+            1383,
+            943,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-214-gohans-father-save.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "acace2fe8dcd4e1a3141f71b6032aa7301e404ff3c4027fdf306638943abcbad",
+          "after_sha256": "a160b353276725c078efa2d8a1836dc76bd700567013d2b2f239f18128d154e9",
+          "changed_pixels": 19358,
+          "changed_pixel_bounds": [
+            1574,
+            2771,
+            1881,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 215,
@@ -13909,7 +15113,7 @@
     "family": "DRILL",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-215-krillins-drill.svg",
-    "native_source_sha256": "0c2a3da03a3f5c2dff31d80fe42934e1d2977582de78bbb1988160619b1ac26c",
+    "native_source_sha256": "3d48282d5a9612f9f11136494372782cd690be0db26cdfa217f18253bc571a3f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -13984,13 +15188,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.359,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.159,
           1392.65,
           57.982,
           33.708
@@ -14040,7 +15244,7 @@
         "path": "public/assets/cards/saiyan-215-krillins-drill.webp",
         "before_url": "/assets/cards/saiyan-215-krillins-drill.webp?v=6d889eee3b1a",
         "before_sha256": "6d889eee3b1a01a8d415de09ca173309b8cc35cefbe03900db68a926316c32a2",
-        "after_sha256": "bd03902296dedfca191df475fa544f7c39d462f7f9fb77e88916997371d7212d",
+        "after_sha256": "75f9143891de1859fdd52dd2679044711eba0e39f20f32b0fe9bceceb2a88ddd",
         "size": [
           1060,
           1484
@@ -14052,7 +15256,7 @@
         "path": "public/assets/cards/downloads/saiyan-215-krillins-drill.webp",
         "before_url": "/assets/cards/downloads/saiyan-215-krillins-drill.webp?v=e79d5903890e",
         "before_sha256": "e79d5903890eee50d30262cd9352a5dcf18491f6985333c0910c0f02359cd7a1",
-        "after_sha256": "6143f25e46e46a5c8438ce5f9af45a69d1e5c7c70ada6094269c4fc060311bc7",
+        "after_sha256": "5f3b962557c3f7f1111da13b72b534083a49dd84a44e6ccce980d46103b2910d",
         "size": [
           2120,
           2968
@@ -14103,7 +15307,93 @@
       }
     },
     "power_icon": "constant",
-    "power_icon_revision": "approved-bold-infinity-colon-v16"
+    "power_icon_revision": "approved-bold-infinity-colon-v16",
+    "footer_spacing_revision": {
+      "id": "saiyan-215-krillins-drill",
+      "number": 215,
+      "before_native_sha256": "0c2a3da03a3f5c2dff31d80fe42934e1d2977582de78bbb1988160619b1ac26c",
+      "after_native_sha256": "3d48282d5a9612f9f11136494372782cd690be0db26cdfa217f18253bc571a3f",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-215-krillins-drill.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.841,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.359,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.159,
+          1392.65,
+          57.982,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-215-krillins-drill.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "bd03902296dedfca191df475fa544f7c39d462f7f9fb77e88916997371d7212d",
+          "after_sha256": "75f9143891de1859fdd52dd2679044711eba0e39f20f32b0fe9bceceb2a88ddd",
+          "changed_pixels": 6201,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-215-krillins-drill.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "6143f25e46e46a5c8438ce5f9af45a69d1e5c7c70ada6094269c4fc060311bc7",
+          "after_sha256": "5f3b962557c3f7f1111da13b72b534083a49dd84a44e6ccce980d46103b2910d",
+          "changed_pixels": 19240,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1876,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 216,
@@ -14112,7 +15402,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-216-krillins-energy-disk.svg",
-    "native_source_sha256": "1600cdcc7c0872ae9ea307107cb05075e93799e7f26ba4fd61ac55b8991a521a",
+    "native_source_sha256": "733e3f6c9ac29a38e78dcc3b75964558bd132e073292a12a6fda597fbee7e0f7",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -14193,13 +15483,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.253,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.053,
           1392.65,
           58.194,
           33.708
@@ -14255,7 +15545,7 @@
         "path": "public/assets/cards/saiyan-216-krillins-energy-disk.webp",
         "before_url": "/assets/cards/saiyan-216-krillins-energy-disk.webp?v=4434fbf5c991",
         "before_sha256": "4434fbf5c991f30d18ef420dd613b8a3ec7369c2eb7f50f582b00ab3350d4be6",
-        "after_sha256": "50b87be18553296b2a147a6aa33b076f7022fa8823ab389af3a78df4a6d1d816",
+        "after_sha256": "5e30ee3064f48e60e0ed0b724628c10c37e2940bbc661725d7acb1629c467fc9",
         "size": [
           1060,
           1484
@@ -14267,7 +15557,7 @@
         "path": "public/assets/cards/downloads/saiyan-216-krillins-energy-disk.webp",
         "before_url": "/assets/cards/downloads/saiyan-216-krillins-energy-disk.webp?v=f45cd200a804",
         "before_sha256": "f45cd200a804da898665b2487aeb477d016ab9041e54fd32f3a6610b719d723f",
-        "after_sha256": "c5e904d40660e1541daf58674d71c5d68fc605293b23a15acb34455ca5a21895",
+        "after_sha256": "d79ccec977fa3f2e25b0dce889e13a78263160a52f1f22f6a34b55c0e868994d",
         "size": [
           2120,
           2968
@@ -14317,7 +15607,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": "attack"
+    "power_icon": "attack",
+    "footer_spacing_revision": {
+      "id": "saiyan-216-krillins-energy-disk",
+      "number": 216,
+      "before_native_sha256": "1600cdcc7c0872ae9ea307107cb05075e93799e7f26ba4fd61ac55b8991a521a",
+      "after_native_sha256": "733e3f6c9ac29a38e78dcc3b75964558bd132e073292a12a6fda597fbee7e0f7",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-216-krillins-energy-disk.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.947,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.253,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.053,
+          1392.65,
+          58.194,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-216-krillins-energy-disk.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "50b87be18553296b2a147a6aa33b076f7022fa8823ab389af3a78df4a6d1d816",
+          "after_sha256": "5e30ee3064f48e60e0ed0b724628c10c37e2940bbc661725d7acb1629c467fc9",
+          "changed_pixels": 6266,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-216-krillins-energy-disk.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "c5e904d40660e1541daf58674d71c5d68fc605293b23a15acb34455ca5a21895",
+          "after_sha256": "d79ccec977fa3f2e25b0dce889e13a78263160a52f1f22f6a34b55c0e868994d",
+          "changed_pixels": 19527,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1877,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 217,
@@ -14326,7 +15702,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-217-ribs-broken.svg",
-    "native_source_sha256": "a791b147d98e96365e61bc12ff9a4942a10a2948b923839f29531feb8d8b8f2f",
+    "native_source_sha256": "0a458b5f80895f60805bb6b78ccdfa803cbae59021ffd9e6ad77e4b6b932465f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -14407,13 +15783,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          789.578,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          849.378,
           1392.65,
           55.544,
           33.708
@@ -14469,7 +15845,7 @@
         "path": "public/assets/cards/saiyan-217-ribs-broken.webp",
         "before_url": "/assets/cards/saiyan-217-ribs-broken.webp?v=5ec64a2275f7",
         "before_sha256": "5ec64a2275f7b8b075b4e13044d65ae54db452c266984213d0dea4812abc8dca",
-        "after_sha256": "3b3a416b50cef2ac4558498a41d121604114f921b89196427a3f420f55b1f372",
+        "after_sha256": "37215ebb89e6f9ecc464fd87a19c35305a6d10c148658ce9d4e2f895e96cae89",
         "size": [
           1060,
           1484
@@ -14481,7 +15857,7 @@
         "path": "public/assets/cards/downloads/saiyan-217-ribs-broken.webp",
         "before_url": "/assets/cards/downloads/saiyan-217-ribs-broken.webp?v=a2849f4713e9",
         "before_sha256": "a2849f4713e9033db9475edd548ecba9c794f3491d2b7483bb275eb336a42a78",
-        "after_sha256": "7e91720d1934e486411f5ffaf3bf81ccd4b2c44373097684a211c5c8adf4f803",
+        "after_sha256": "42eeea2ff1197973c1f6330cbc460cc18e03babc25085fbdb1c3e60507a8c652",
         "size": [
           2120,
           2968
@@ -14531,7 +15907,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": "attack"
+    "power_icon": "attack",
+    "footer_spacing_revision": {
+      "id": "saiyan-217-ribs-broken",
+      "number": 217,
+      "before_native_sha256": "a791b147d98e96365e61bc12ff9a4942a10a2948b923839f29531feb8d8b8f2f",
+      "after_native_sha256": "0a458b5f80895f60805bb6b78ccdfa803cbae59021ffd9e6ad77e4b6b932465f",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-217-ribs-broken.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -30.622,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          789.578,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          849.378,
+          1392.65,
+          55.544,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-217-ribs-broken.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3b3a416b50cef2ac4558498a41d121604114f921b89196427a3f420f55b1f372",
+          "after_sha256": "37215ebb89e6f9ecc464fd87a19c35305a6d10c148658ce9d4e2f895e96cae89",
+          "changed_pixels": 5865,
+          "changed_pixel_bounds": [
+            787,
+            1383,
+            939,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-217-ribs-broken.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "7e91720d1934e486411f5ffaf3bf81ccd4b2c44373097684a211c5c8adf4f803",
+          "after_sha256": "42eeea2ff1197973c1f6330cbc460cc18e03babc25085fbdb1c3e60507a8c652",
+          "changed_pixels": 18094,
+          "changed_pixel_bounds": [
+            1579,
+            2771,
+            1872,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 218,
@@ -14540,7 +16002,7 @@
     "family": "EVENT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-218-unexpected-allies.svg",
-    "native_source_sha256": "386921776a2adc4c00b1ee5353348b0ead8738566ea49ceee77273f3f777df61",
+    "native_source_sha256": "db58a237ef8419991437f5f55cd1be3e9317f0fc5c9f47c816a88ed19e287c2a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -14621,13 +16083,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.253,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.053,
           1392.65,
           58.194,
           33.708
@@ -14653,7 +16115,7 @@
         "path": "public/assets/cards/saiyan-218-unexpected-allies.webp",
         "before_url": "/assets/cards/saiyan-218-unexpected-allies.webp?v=bbc6db599b39",
         "before_sha256": "bbc6db599b3924f0207495f7cd4c00f208f3ccb631da17418c7114ac2eeeb5e8",
-        "after_sha256": "7d891e657d51f84fe9d625f902db52e95156030a7da28d15cbd9f73619fbd535",
+        "after_sha256": "484eb288fe9bddfdf4092bbf4f3a7f43d941b35920318bcd3a70739e78f9651b",
         "size": [
           1060,
           1484
@@ -14665,7 +16127,7 @@
         "path": "public/assets/cards/downloads/saiyan-218-unexpected-allies.webp",
         "before_url": "/assets/cards/downloads/saiyan-218-unexpected-allies.webp?v=49617b209ae0",
         "before_sha256": "49617b209ae0f3707eb5328cce84d1d656790727f436d9719bb3b09d6638e1a4",
-        "after_sha256": "89dea17778953e81139724e16da03dc4f0a3764448b3aa554002b9c9114820e3",
+        "after_sha256": "f07affa7475d78011fe6200e583cc93067560ef1c6734e856f760d30fbfbc65b",
         "size": [
           2120,
           2968
@@ -14715,7 +16177,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-218-unexpected-allies",
+      "number": 218,
+      "before_native_sha256": "386921776a2adc4c00b1ee5353348b0ead8738566ea49ceee77273f3f777df61",
+      "after_native_sha256": "db58a237ef8419991437f5f55cd1be3e9317f0fc5c9f47c816a88ed19e287c2a",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-218-unexpected-allies.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.947,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.253,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.053,
+          1392.65,
+          58.194,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-218-unexpected-allies.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7d891e657d51f84fe9d625f902db52e95156030a7da28d15cbd9f73619fbd535",
+          "after_sha256": "484eb288fe9bddfdf4092bbf4f3a7f43d941b35920318bcd3a70739e78f9651b",
+          "changed_pixels": 6274,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-218-unexpected-allies.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "89dea17778953e81139724e16da03dc4f0a3764448b3aa554002b9c9114820e3",
+          "after_sha256": "f07affa7475d78011fe6200e583cc93067560ef1c6734e856f760d30fbfbc65b",
+          "changed_pixels": 19664,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1877,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 219,
@@ -14724,7 +16272,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-219-raditz-energy-burst.svg",
-    "native_source_sha256": "670b3b1bafedde0b61ae561cf624b3fb8327338f59674ef31d4e28c0c07abf73",
+    "native_source_sha256": "428a64ac98e2444da33d86db21f99f2cf60c48f009fe49276d45edcfc2b712d0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -14805,13 +16353,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          788.465,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          848.265,
           1392.65,
           57.77,
           33.708
@@ -14867,7 +16415,7 @@
         "path": "public/assets/cards/saiyan-219-raditz-energy-burst.webp",
         "before_url": "/assets/cards/saiyan-219-raditz-energy-burst.webp?v=7af8a613a78d",
         "before_sha256": "7af8a613a78db26df6091b2147b577878046ec259d2c68ff19f83d53d1912123",
-        "after_sha256": "8dfd8bb73c407bd3e1f5037d8216c88ab6e050d327686bbd40c0fd8d9141cf48",
+        "after_sha256": "09f8fb44e93c812e998030a2db32c559c7bffff2009a03ef731aa4b896576c90",
         "size": [
           1060,
           1484
@@ -14879,7 +16427,7 @@
         "path": "public/assets/cards/downloads/saiyan-219-raditz-energy-burst.webp",
         "before_url": "/assets/cards/downloads/saiyan-219-raditz-energy-burst.webp?v=2a41e9e713bb",
         "before_sha256": "2a41e9e713bb3d50a709db6574500e3d3b1b540d57e246d44fa800b0d0fd6d93",
-        "after_sha256": "e3e6bc1da7c16be15431a3ccbcf8509946d3efc2f00e44206a2d0a3472ff8a75",
+        "after_sha256": "83034b3fdea4e8d41edd2bf5ad76e9261d34463a99241f72d36017aaed5920ad",
         "size": [
           2120,
           2968
@@ -14929,7 +16477,93 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": "attack"
+    "power_icon": "attack",
+    "footer_spacing_revision": {
+      "id": "saiyan-219-raditz-energy-burst",
+      "number": 219,
+      "before_native_sha256": "670b3b1bafedde0b61ae561cf624b3fb8327338f59674ef31d4e28c0c07abf73",
+      "after_native_sha256": "428a64ac98e2444da33d86db21f99f2cf60c48f009fe49276d45edcfc2b712d0",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-219-raditz-energy-burst.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -31.735,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          788.465,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.265,
+          1392.65,
+          57.77,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-219-raditz-energy-burst.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "8dfd8bb73c407bd3e1f5037d8216c88ab6e050d327686bbd40c0fd8d9141cf48",
+          "after_sha256": "09f8fb44e93c812e998030a2db32c559c7bffff2009a03ef731aa4b896576c90",
+          "changed_pixels": 6224,
+          "changed_pixel_bounds": [
+            786,
+            1383,
+            941,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-219-raditz-energy-burst.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "e3e6bc1da7c16be15431a3ccbcf8509946d3efc2f00e44206a2d0a3472ff8a75",
+          "after_sha256": "83034b3fdea4e8d41edd2bf5ad76e9261d34463a99241f72d36017aaed5920ad",
+          "changed_pixels": 19742,
+          "changed_pixel_bounds": [
+            1576,
+            2771,
+            1876,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   },
   {
     "number": 220,
@@ -14938,7 +16572,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-220-vegetas-stance.svg",
-    "native_source_sha256": "321d1010ac3c7d7a86d214199064a96c4461ed1a84b1d397e9a75da08d8f8114",
+    "native_source_sha256": "5690ddf92b4c23c1e35fac85d8ebe0e6f38a5f04d7d16c282a971df9b466639c",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -15019,13 +16653,13 @@
           54.6867
         ],
         "footer-rarity": [
-          820.2,
+          784.914,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          844.714,
           1392.65,
           64.872,
           33.708
@@ -15051,7 +16685,7 @@
         "path": "public/assets/cards/saiyan-220-vegetas-stance.webp",
         "before_url": "/assets/cards/saiyan-220-vegetas-stance.webp?v=5a37da91f867",
         "before_sha256": "5a37da91f86744b88b0bd47ca43ef99eb55bd895eab4635c3d3ac26198ee184c",
-        "after_sha256": "20a235de1797390faf9d862b19e725a837155be19bfd4110405a68281691b49e",
+        "after_sha256": "e7a9b3abf3ca62b4837f643a4d40831d827793fdf8d96a0d5c669e7d5280b338",
         "size": [
           1060,
           1484
@@ -15063,7 +16697,7 @@
         "path": "public/assets/cards/downloads/saiyan-220-vegetas-stance.webp",
         "before_url": "/assets/cards/downloads/saiyan-220-vegetas-stance.webp?v=70f75dd04096",
         "before_sha256": "70f75dd04096df0334852d858e5737dd691e2048546460425119f273d89b3434",
-        "after_sha256": "ee9a27922f31af130ea52d334121e5058143b8356a6546bf5133a7bb2971a48d",
+        "after_sha256": "fa1a4eb65b94646dee8a5cab05fe189d14a92fe6410ae77f1b99c5446c050e80",
         "size": [
           2120,
           2968
@@ -15113,6 +16747,92 @@
         "title_helper_idempotent": true
       }
     },
-    "power_icon": null
+    "power_icon": null,
+    "footer_spacing_revision": {
+      "id": "saiyan-220-vegetas-stance",
+      "number": 220,
+      "before_native_sha256": "321d1010ac3c7d7a86d214199064a96c4461ed1a84b1d397e9a75da08d8f8114",
+      "after_native_sha256": "5690ddf92b4c23c1e35fac85d8ebe0e6f38a5f04d7d16c282a971df9b466639c",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-220-vegetas-stance.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -35.286,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.16,
+          53.7814,
+          54.6867
+        ],
+        "footer-rarity": [
+          784.914,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          844.714,
+          1392.65,
+          64.872,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-220-vegetas-stance.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "20a235de1797390faf9d862b19e725a837155be19bfd4110405a68281691b49e",
+          "after_sha256": "e7a9b3abf3ca62b4837f643a4d40831d827793fdf8d96a0d5c669e7d5280b338",
+          "changed_pixels": 6635,
+          "changed_pixel_bounds": [
+            782,
+            1383,
+            948,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-220-vegetas-stance.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "ee9a27922f31af130ea52d334121e5058143b8356a6546bf5133a7bb2971a48d",
+          "after_sha256": "fa1a4eb65b94646dee8a5cab05fe189d14a92fe6410ae77f1b99c5446c050e80",
+          "changed_pixels": 20151,
+          "changed_pixel_bounds": [
+            1569,
+            2771,
+            1890,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json"
+    }
   }
 ]

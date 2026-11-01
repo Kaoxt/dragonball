@@ -12,7 +12,7 @@ sys.path.insert(0, str(HERE / 'scripts'))
 import footer_spacing
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('work', type=Path)
-parser.add_argument('--range', choices=['001-050', '051-100', '101-150', '151-200'], default='001-050')
+parser.add_argument('--range', choices=['001-050', '051-100', '101-150', '151-200', '201-250-promos'], default='001-050')
 args = parser.parse_args()
 WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)
@@ -140,18 +140,21 @@ def process(row):
 
 
 if __name__ == '__main__':
-    start, end = map(int, args.range.split('-'))
+    start, end = map(int, args.range.split('-')[:2])
+    expected_numbers = list(range(start, end + 1))
+    if args.range.endswith('-promos'):
+        expected_numbers += [f'P{i}' for i in range(1, 8)]
     batches = {path: json.loads(path.read_text()) for path in AUDIT_PATHS}
     audit = [row for rows in batches.values() for row in rows
-             if isinstance(row['number'], int) and start <= row['number'] <= end]
+             if row['number'] in expected_numbers]
     source_audits = {row['id']: path for path, rows in batches.items() for row in rows}
-    assert [row['number'] for row in audit] == list(range(start, end + 1))
+    assert [row['number'] for row in audit] == expected_numbers
     if all(row.get('footer_spacing_revision', {}).get('treatment', {}).get('revision') == footer_spacing.REVISION for row in audit):
         for row in audit:
             assert sha(ROOT/row['native_source_path']) == row['native_source_sha256']
             for export in row['exports']:
                 assert sha(ROOT/export['path']) == export['after_sha256']
-        print('All 50 cards already have this footer revision; sources and exports unchanged.')
+        print(f'All {len(audit)} cards already have this footer revision; sources and exports unchanged.')
         raise SystemExit(0)
     original_catalog = (ROOT/'public/cards/catalog.js').read_text()
     before_commit = subprocess.check_output(['git','rev-parse','HEAD'], cwd=ROOT, text=True).strip()
@@ -159,7 +162,7 @@ if __name__ == '__main__':
         results = []
         for result in pool.map(process, audit):
             results.append(result); print('Verified', result['number'], 'both resolutions', flush=True)
-    assert len(results) == 50
+    assert len(results) == len(expected_numbers)
     catalog = original_catalog
     for row, result in zip(audit, results):
         result['audit_path'] = str(source_audits[row['id']].relative_to(ROOT))
@@ -181,7 +184,7 @@ if __name__ == '__main__':
     (ROOT/'public/cards/catalog.js').write_text(catalog)
     (OUT/'pixel-checks.json').write_text(json.dumps(results, indent=2)+'\n')
     (OUT/'release.json').write_text(json.dumps({'baseline_commit': before_commit,
-        'scope': f'Saiyan Saga {args.range} only', 'cards': 50, 'independently_verified_exports': 100,
+        'scope': f'Saiyan Saga {args.range} only', 'cards': len(results), 'independently_verified_exports': 2*len(results),
         'revision': footer_spacing.REVISION, 'saga_center_x': 211.75, 'right_group_center_x': 847.25,
         'pixels_changed_outside_footer_ink_footprint': 0, 'native_helper_idempotent_all_cards': True,
         'artwork_and_all_unrelated_pixels_preserved': True}, indent=2)+'\n')

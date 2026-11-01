@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "606502674e857ba3e9159247917891771f9ed848",
+  "scope": "Saiyan Saga 201-250-promos only",
+  "cards": 57,
+  "independently_verified_exports": 114,
+  "revision": "mirrored-side-group-centers-v1",
+  "saga_center_x": 211.75,
+  "right_group_center_x": 847.25,
+  "pixels_changed_outside_footer_ink_footprint": 0,
+  "native_helper_idempotent_all_cards": true,
+  "artwork_and_all_unrelated_pixels_preserved": true,
+  "validation": {
+    "javascript_tests_passed": 189,
+    "python_tests_passed": 6,
+    "independent_source_and_pixel_comparisons": true,
+    "repeat_run_byte_identical": true,
+    "visual_review": "All 57 completed cards and detailed before/after footer comparisons inspected, including numbered cards and P1\u2013P7 promos."
+  },
+  "set_completion": {
+    "numbered_cards": 250,
+    "promos": 7,
+    "total_cards": 257,
+    "total_exports": 514,
+    "all_current_footer_revisions_verified": true
+  }
+}

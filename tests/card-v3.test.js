@@ -10,14 +10,16 @@ const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
-for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-200',151]])test(`Saiyan ${range} footer centering retains every unrelated pixel in both exports`,()=>{
+for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-200',151],['201-250-promos',201]])test(`Saiyan ${range} footer centering retains every unrelated pixel in both exports`,()=>{
  const dir=path.join(root,`tools/card-corrections/v3-saiyan-${range}-footer-centering`);
  const release=JSON.parse(fs.readFileSync(path.join(dir,'release.json')));
  const checks=JSON.parse(fs.readFileSync(path.join(dir,'pixel-checks.json')));
- assert.equal(release.cards,50);assert.equal(release.independently_verified_exports,100);
+ const numbers=Array.from({length:50},(_,i)=>i+start);
+ if(range.endsWith('-promos'))numbers.push(...Array.from({length:7},(_,i)=>`P${i+1}`));
+ assert.equal(release.cards,numbers.length);assert.equal(release.independently_verified_exports,2*numbers.length);
  assert.equal(release.pixels_changed_outside_footer_ink_footprint,0);
- assert.deepEqual(checks.map(c=>c.number),Array.from({length:50},(_,i)=>i+start));
- assert.equal(audit.filter(r=>r.footer_spacing_revision).length,200);
+ assert.deepEqual(checks.map(c=>c.number),numbers);
+ assert.equal(audit.filter(r=>r.footer_spacing_revision).length,257);
  for(const c of checks){
   const row=audit.find(r=>r.id===c.id),card=catalog.find(r=>r.id===c.id);
   assert.deepEqual(row.footer_spacing_revision,c);assert.ok(c.helper_idempotent&&c.unrelated_native_elements_unchanged);
