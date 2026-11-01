@@ -1,0 +1,522 @@
+[
+  {
+    "number": 1,
+    "id": "frieza-001-orange-planet-destruction",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-001.png",
+    "original_scan_sha256": "f42cd72432a47e4cdf0347afeafe8eb70415231a62ca9f638209d0be3bffd3de",
+    "observations": "Compared the original and final card individually: diagonal Frieza close-up, wide eyes, open mouth with teeth and tongue, purple armor/skin lighting and diagonal streaks retained. The source intentionally crops the head and shoulder. Retailer watermark limits fine lower-face detail; no new zoom or artwork redrawing.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-001-orange-planet-destruction.webp",
+        "before_url": "/assets/cards/frieza-001-orange-planet-destruction.webp?v=8ded2ff86726",
+        "before_sha256": "8ded2ff867261fd33a8b1c91a70a0f31aaeaaee3ac3bdbd48d69f5bcf36bad21",
+        "after_sha256": "45cdaf436ea31cce9e0480f16b52031a48c754bbc40df60fbd2bd36305dba9a2",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-001-orange-planet-destruction.webp",
+        "before_url": "/assets/cards/downloads/frieza-001-orange-planet-destruction.webp?v=51a5869bc267",
+        "before_sha256": "51a5869bc2675203891b42c38817dd233f4ddf8fc95ab7b0319dd9ecb142eafd",
+        "after_sha256": "b40f9faf4c2da1d87285bafe08e4392e35cf5715886171a2be2cc2c65893b44a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "6ddd0950398a6b2b9ef005face1908aa84d00d09ba8ee392d76d1351a3be2d1a",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 2,
+    "id": "frieza-002-orange-kamehameha-attack",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-002.png",
+    "original_scan_sha256": "4df60e7994603f43e2ff5d724dbd83e4c5facde1f35f6054c1d3b4bf5c34232b",
+    "observations": "Original side-facing Frieza close-up retains clenched teeth, lowered brow, blue/white armored shoulder and diagonal motion. Retained prior facial correction is embedded in the source illustration. Fine marks beneath the scan watermark remain unresolved; the final V3 frame does not add a new horizontal crop.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-002-orange-kamehameha-attack.webp",
+        "before_url": "/assets/cards/frieza-002-orange-kamehameha-attack.webp?v=d382f282321d",
+        "before_sha256": "d382f282321d481c111cdb94c9f9bf9ed3c6af8a5cf0837ae2909a41b1960385",
+        "after_sha256": "7c7b67301ce46f07c0cc62e8baaf0d067ae231585fd343e20443db123208a01a",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp",
+        "before_url": "/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp?v=06ea6d9e3128",
+        "before_sha256": "06ea6d9e3128ba73b77c57121f82ce38d72711e00acbe6a140e9fa4fc9c8c841",
+        "after_sha256": "142f927785bd68247cd00e662e0fa9eb91b0243f202dc1e07dda6299a4a8c795",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "7f6f2d60f0f4ea5c3dc0b1b9b84b00934cf312eeb76869a59fa7a0326b3433cd",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 3,
+    "id": "frieza-003-orange-taunting-attack",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-003.png",
+    "original_scan_sha256": "6da6f06f3602d876da56357120b86dbd25df0715a0b89d6f1ff3aeca489e8c2b",
+    "observations": "Original Frieza raised index finger, open taunting mouth, narrowed gaze, purple shoulder and red/pink diagonal scene compared with final. The retained drawing and existing edge crop are preserved; no new pose, expression or costume changes.",
+    "fine_detail_limitations_recorded": false,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-003-orange-taunting-attack.webp",
+        "before_url": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=9b51e5e31401",
+        "before_sha256": "9b51e5e314019796e2f5b4c129f77c062f072335683835ce1497f05cf298db88",
+        "after_sha256": "6d78430b2ffeabd529b4f2787042566a26bcc0e1e8bd4567fd922d3401aed03e",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-003-orange-taunting-attack.webp",
+        "before_url": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=1fea8a305abf",
+        "before_sha256": "1fea8a305abf48987837115fc5eaecec4d3329600e4760932f2b934c59d10f65",
+        "after_sha256": "40ff84c08420dd2629211ac61c72f6973808902461aa2a679750af9df754c44b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 4,
+    "id": "frieza-004-red-energy-suspension",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-004.png",
+    "original_scan_sha256": "d18df05f1249635e4efe7788fd508f04fc94d28994ebd26637c8078e44f757ee",
+    "observations": "Original full first-form Frieza compared with final: horns, purple armor plates, striped red limbs, clenched fists, feet and curved tail remain visible. Preserved the currently published green/yellow tonal background instead of reverting to the older flat-green source. The original face is too small and watermarked to certify all mouth/eye details; unresolved. No limb clipping or exposed art backing in final.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-004-red-energy-suspension.webp",
+        "before_url": "/assets/cards/frieza-004-red-energy-suspension.webp?v=01d64196a635",
+        "before_sha256": "01d64196a63545b4a269e7053b92d1985ace1b996fa087c3d28927d4866fedd5",
+        "after_sha256": "81bc6db689442da66894b979408bde44c12d7d1471b3aeeebc247b1f58e39ed6",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-004-red-energy-suspension.webp",
+        "before_url": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=8a5dc3c4efcc",
+        "before_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+        "after_sha256": "698339ea1b6f262377998f151e1376aba7281139d25ca0de33da3a1fe31fec6c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false,
+      "current_approved_background_retained": true,
+      "localized_background_patch": "tools/card-corrections/v3-frieza-001-010/localized-corrections/004.json",
+      "source_export_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+      "source_export_art_crop": [
+        32,
+        290,
+        2086,
+        1716
+      ]
+    }
+  },
+  {
+    "number": 5,
+    "id": "frieza-005-red-energy-disk",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-005.png",
+    "original_scan_sha256": "ca41986a6cd07fa609fecbebb93540638f3500cef594fea1bc367560817ab1d8",
+    "observations": "No face or costume is present. Original red-centered pink/purple energy disk, white lightning and dark red/blue backdrop compared with final. The approved polished scene is retained without new objects or camera changes. Final artwork fills the image perimeter cleanly.",
+    "fine_detail_limitations_recorded": false,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-005-red-energy-disk.webp",
+        "before_url": "/assets/cards/frieza-005-red-energy-disk.webp?v=240f3e2a7705",
+        "before_sha256": "240f3e2a7705ee9f7f3941960fe3bf71cac968e2fd5bd2c5a402688ff7a557d1",
+        "after_sha256": "d97fa3f8641dc5f397f970cfb2cae630baed16b0fc03697ccb439a253ae52f04",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-005-red-energy-disk.webp",
+        "before_url": "/assets/cards/downloads/frieza-005-red-energy-disk.webp?v=048c506ee988",
+        "before_sha256": "048c506ee988cd5fdb80e21d883bf86c9316699ea495a9240ad036d0559d124a",
+        "after_sha256": "ed735821d90f7277fe6a0501ce570e89e0e79053298b71b005f1c185804cae4c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "513632df3d7ca0c53d5b624c3cb90372ab9d7e90c803625d9ba70209d33a4865",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 6,
+    "id": "frieza-006-red-energy-disk-blasting",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-006.png",
+    "original_scan_sha256": "6ef76a52c6b6821ab9896769591a880206e13cf5997274be3c2be3b52b7c0435",
+    "observations": "Original damaged final-form Frieza, raised palm and disk, leftward tail, purple head/shoulder/shin plates and dark rocky blue scene compared with final. Pose and visible limbs remain continuous. Tiny expression details under the original watermark are unresolved rather than certified exact. No new crop of hands or feet.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-006-red-energy-disk-blasting.webp",
+        "before_url": "/assets/cards/frieza-006-red-energy-disk-blasting.webp?v=faacac498b0c",
+        "before_sha256": "faacac498b0c0886ef0162e13094f4a277db444d75deaf744d44f504f6252a8f",
+        "after_sha256": "3c9eea2eb56bd398f6a8508bf5a232a5763ec19caf72699cf5154841c69046f9",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp",
+        "before_url": "/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp?v=8a0902a83a71",
+        "before_sha256": "8a0902a83a71056e8856ee7f91a7b0216162b47f5cbae6ef9e3b8eaeb0cc38e2",
+        "after_sha256": "747394b4b0ffe9d20875580da1eefe76c7e0a8f628002d7304e38dbbcd5b931b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "b2b3487003b31e81e551b4ef8e2640b8d3f8f9709da1c069e35618525c7f09d5",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 7,
+    "id": "frieza-007-blue-energy-flight",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-007.png",
+    "original_scan_sha256": "f12ea0d4d934785033daefcad3c07d0605c3869d228f05416c561aa278724e15",
+    "observations": "Original head-on flying Vegeta has a closed confident mouth, swept-back open hands and gold shoulder armor. The approved October 26 localized closed-mouth correction is retained as a separate native layer. Final display and full-size face inspected against the original and current website image; patch placement is correct, edges blend, surrounding illustration bytes are unchanged.",
+    "fine_detail_limitations_recorded": false,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-007-blue-energy-flight.webp",
+        "before_url": "/assets/cards/frieza-007-blue-energy-flight.webp?v=ffe1f53fb449",
+        "before_sha256": "ffe1f53fb449f5cec12c4d0c448da91ec2ca0db4ae40bfe5806ea7b953bf0742",
+        "after_sha256": "1263696821647b01e28fea1e33e27be5ecb9713724d9e5240b2552c10673d8eb",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-007-blue-energy-flight.webp",
+        "before_url": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=75fc51098d0c",
+        "before_sha256": "75fc51098d0c06b207cb044ca043ae9d1813eaad9475b617d6ce9e15ccdae3b1",
+        "after_sha256": "b7d4e6b8bb318fcca8574e8e775780ce818884e099e07777b7cca70179b70ccf",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "9320bf6d34bdf127527fdc8fd614d8bff227e727407609b1d25e0681619eccd7",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false,
+      "expression_patch_retained": true
+    }
+  },
+  {
+    "number": 8,
+    "id": "frieza-008-recoome-boom",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-008.png",
+    "original_scan_sha256": "311896b903097dde599cdae7ff7950b6576dffb0c2f9ded68a36140c16200c9f",
+    "observations": "Original Recoome upper-body stance compared with final: orange hair, green scouter, black/brown/white armor, two clenched fists and orange/red radial background retained. Arms connect through wrists, elbows and shoulders. Printed fine facial detail is limited by watermark and resolution; no new expression or pose changes.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-008-recoome-boom.webp",
+        "before_url": "/assets/cards/frieza-008-recoome-boom.webp?v=bc8151faf8f5",
+        "before_sha256": "bc8151faf8f524f780d8857512e0db063738897fa120d0fd827543ce12adfa98",
+        "after_sha256": "fa4bac65526b805b09761b5320c86259af522cf13173604385924572825e354c",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-008-recoome-boom.webp",
+        "before_url": "/assets/cards/downloads/frieza-008-recoome-boom.webp?v=f4bd1578fa98",
+        "before_sha256": "f4bd1578fa981e64fd1e5a4c4ec2401180a2235038a68495d5f9714bed3d287f",
+        "after_sha256": "923d958b6d87b891cb908f15a3943809ee95636fe2d8678ebbd7bd23c530ec3a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "466ed5c169fd217fcf5d35209d8466433a2caf76dd6c1ce0a94370758543c1c3",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 9,
+    "id": "frieza-009-saiyan-rapture",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-009.png",
+    "original_scan_sha256": "88a6ab4bed95f4d86b13b8efbe0863f4e77016bf8d4e14fa10f493ebbbdff08f",
+    "observations": "Original crouching Vegeta with foreground Recoome, flying rocks, orange dust and blue landscape compared with final. Retained landscape composition and character costumes are preserved. Both faces are too small or obscured to certify fine expression fidelity. No newly cropped subject or invented limb.",
+    "fine_detail_limitations_recorded": false,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-009-saiyan-rapture.webp",
+        "before_url": "/assets/cards/frieza-009-saiyan-rapture.webp?v=162ada044c36",
+        "before_sha256": "162ada044c36e335c6457fafca43bae5bcc09174d6167480b0d6c2ddc1648910",
+        "after_sha256": "75951ec833fe66e42211644929b6760c6bf0166a11d99a054befed5480ebc9b5",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-009-saiyan-rapture.webp",
+        "before_url": "/assets/cards/downloads/frieza-009-saiyan-rapture.webp?v=4d4503b1cb86",
+        "before_sha256": "4d4503b1cb86b587c9f27446f38f232c6b71e0cad398e8bf9f1de8ede123346a",
+        "after_sha256": "c9d07857016993b749c08eaf6ddb5e7f064f4362e5f11c638b3192568addcadb",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "c254a3599dd1c121f66ec57a9e68e43197ab0572291ef6b730e82e0c842b2bd6",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": 10,
+    "id": "frieza-010-saiyan-concussion-punch",
+    "original_scan": "tools/card-corrections/v3-frieza-001-010/originals/frieza-010.png",
+    "original_scan_sha256": "357b923ab58a53ff0447d59737e5bdcf3523a2f2d475489e17738aefe8b3cf2e",
+    "observations": "Original front-facing Vegeta power-up compared with final: clenched fists, blue suit, white/gold armor, upright hair and blue/white aura against red vertical streaks retained. Angry open mouth and brow direction remain recognizable. Fine mouth detail under the printed watermark remains unresolved; no new zoom or pose changes.",
+    "fine_detail_limitations_recorded": true,
+    "display_reviewed": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-010-saiyan-concussion-punch.webp",
+        "before_url": "/assets/cards/frieza-010-saiyan-concussion-punch.webp?v=e1aa0d96a492",
+        "before_sha256": "e1aa0d96a492ef615efd52a0629d09189936d4a06272d47662f98e239e2e1108",
+        "after_sha256": "7518ece4f0c1b0548833d380395fe667e68cf1bfa193ff1dbe9da78a348e1152",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp",
+        "before_url": "/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp?v=587c77ffc9bd",
+        "before_sha256": "587c77ffc9bd995ecfdd0bbdf4dec941a06e64942336c4629fef67bee1ec247d",
+        "after_sha256": "58f915986e7b1e0cde30ff553662b0e02e0fdcf90b2502a8f00550e9c8b93ceb",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "7b9855b3ddadfa4be2d5d05f351162b88934b5c9b088a98e8deb1b4679c03d60",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    }
+  }
+]

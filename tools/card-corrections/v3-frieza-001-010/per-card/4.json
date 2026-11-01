@@ -1,0 +1,242 @@
+{
+  "number": 4,
+  "id": "frieza-004-red-energy-suspension",
+  "name": "Red Energy Suspension",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-004-red-energy-suspension.svg",
+  "native_source_sha256": "b3df3c222d6db13a58e02d6e39f45d9aad858845f11d8cee5ac616145783a5fd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77.png",
+      "sha256": "44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e4c78a0499a265a05fdaf4c67738a67f7f207debcee6a4b99044603feeb10c4f.png",
+      "sha256": "e4c78a0499a265a05fdaf4c67738a67f7f207debcee6a4b99044603feeb10c4f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "current_approved_background_retained": true,
+    "localized_background_patch": "tools/card-corrections/v3-frieza-001-010/localized-corrections/004.json",
+    "source_export_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+    "source_export_art_crop": [
+      32,
+      290,
+      2086,
+      1716
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+      "baseline": 1049.3,
+      "width": 876.6191555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        180.155,
+        44.5,
+        698.69,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        23.532,
+        33.708
+      ],
+      "rules-line-1": [
+        146.447,
+        1013.53,
+        820.701,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.447,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-004-red-energy-suspension.webp",
+      "before_url": "/assets/cards/frieza-004-red-energy-suspension.webp?v=01d64196a635",
+      "before_sha256": "01d64196a63545b4a269e7053b92d1985ace1b996fa087c3d28927d4866fedd5",
+      "after_sha256": "81bc6db689442da66894b979408bde44c12d7d1471b3aeeebc247b1f58e39ed6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-004-red-energy-suspension.webp",
+      "before_url": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=8a5dc3c4efcc",
+      "before_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+      "after_sha256": "698339ea1b6f262377998f151e1376aba7281139d25ca0de33da3a1fe31fec6c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 698.6895261845387,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 23.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

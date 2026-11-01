@@ -3861,13 +3861,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-001-orange-planet-destruction.webp?v=8ded2ff86726",
+    "image": "/assets/cards/frieza-001-orange-planet-destruction.webp?v=45cdaf436ea3",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/1_895f1fd5-de1b-4df2-8d7d-19ee05105f3b.png?v=1584310475",
-    "downloadImage": "/assets/cards/downloads/frieza-001-orange-planet-destruction.webp?v=51a5869bc267",
+    "downloadImage": "/assets/cards/downloads/frieza-001-orange-planet-destruction.webp?v=b40f9faf4c2d",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 1 level."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 1 level.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-002-orange-kamehameha-attack",
@@ -3877,13 +3878,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-002-orange-kamehameha-attack.webp?v=d382f282321d",
+    "image": "/assets/cards/frieza-002-orange-kamehameha-attack.webp?v=7c7b67301ce4",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/2_3ae44945-07c2-4215-98bc-b6e1ca8114ad.png?v=1584310477",
-    "downloadImage": "/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp?v=06ea6d9e3128",
+    "downloadImage": "/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp?v=142f927785bd",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-003-orange-taunting-attack",
@@ -3893,13 +3895,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=9b51e5e31401",
+    "image": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=6d78430b2ffe",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/3_71aefa35-9260-4cda-9251-6b9a948ac4fd.png?v=1584310478",
-    "downloadImage": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=1fea8a305abf",
+    "downloadImage": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=40ff84c08420",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-004-red-energy-suspension",
@@ -3909,13 +3912,14 @@ export const catalog = [
     "style": "Red",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-004-red-energy-suspension.webp?v=01d64196a635",
+    "image": "/assets/cards/frieza-004-red-energy-suspension.webp?v=81bc6db68944",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/4_9cef4659-0bb7-4ab6-bb18-25835e4d2776.png?v=1584310480",
-    "downloadImage": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=8a5dc3c4efcc",
+    "downloadImage": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=698339ea1b6f",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-005-red-energy-disk",
@@ -3925,13 +3929,14 @@ export const catalog = [
     "style": "Red",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-005-red-energy-disk.webp?v=240f3e2a7705",
+    "image": "/assets/cards/frieza-005-red-energy-disk.webp?v=d97fa3f8641d",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/5_62b162c7-7f3d-4a85-afbc-7a89519de745.png?v=1584310482",
-    "downloadImage": "/assets/cards/downloads/frieza-005-red-energy-disk.webp?v=048c506ee988",
+    "downloadImage": "/assets/cards/downloads/frieza-005-red-energy-disk.webp?v=ed735821d90f",
     "rarity": "Common",
-    "rules": "Energy attack costing 3 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level."
+    "rules": "Energy attack costing 3 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-006-red-energy-disk-blasting",
@@ -3941,13 +3946,14 @@ export const catalog = [
     "style": "Red",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-006-red-energy-disk-blasting.webp?v=faacac498b0c",
+    "image": "/assets/cards/frieza-006-red-energy-disk-blasting.webp?v=3c9eea2eb56b",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/6_f05543d8-aa23-4d10-bc75-eba256e6b690.png?v=1584310483",
-    "downloadImage": "/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp?v=8a0902a83a71",
+    "downloadImage": "/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp?v=747394b4b0ff",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-007-blue-energy-flight",
@@ -3957,13 +3963,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=ffe1f53fb449",
+    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=126369682164",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/7_a6851f5c-0958-4fd3-96e5-a64b03e59e21.png?v=1584310485",
-    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=75fc51098d0c",
+    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=b7d4e6b8bb31",
     "rarity": "Common",
-    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level."
+    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-008-recoome-boom",
@@ -3973,13 +3980,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-008-recoome-boom.webp?v=bc8151faf8f5",
+    "image": "/assets/cards/frieza-008-recoome-boom.webp?v=fa4bac65526b",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/8_32583eec-a05f-4372-92bc-ca66a863712d.png?v=1584310486",
-    "downloadImage": "/assets/cards/downloads/frieza-008-recoome-boom.webp?v=f4bd1578fa98",
+    "downloadImage": "/assets/cards/downloads/frieza-008-recoome-boom.webp?v=923d958b6d87",
     "rarity": "Common",
-    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Choose an opponent. They cannot perform an energy attack during their next Attacker Attacks phase. Lower your opponent's anger 2 levels."
+    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Choose an opponent. They cannot perform an energy attack during their next Attacker Attacks phase. Lower your opponent's anger 2 levels.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-009-saiyan-rapture",
@@ -3989,13 +3997,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-009-saiyan-rapture.webp?v=162ada044c36",
+    "image": "/assets/cards/frieza-009-saiyan-rapture.webp?v=75951ec833fe",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/9_77b9089f-9349-49e4-8dea-1a1297e22f96.png?v=1584310487",
-    "downloadImage": "/assets/cards/downloads/frieza-009-saiyan-rapture.webp?v=4d4503b1cb86",
+    "downloadImage": "/assets/cards/downloads/frieza-009-saiyan-rapture.webp?v=c9d078570169",
     "rarity": "Common",
-    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards."
+    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-010-saiyan-concussion-punch",
@@ -4005,13 +4014,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-010-saiyan-concussion-punch.webp?v=e1aa0d96a492",
+    "image": "/assets/cards/frieza-010-saiyan-concussion-punch.webp?v=7518ece4f0c1",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/10_8f11eb9c-dcba-453c-a80a-215196b99462.png?v=1584310489",
-    "downloadImage": "/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp?v=587c77ffc9bd",
+    "downloadImage": "/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp?v=58f915986e7b",
     "rarity": "Common",
-    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels."
+    "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
+    "templateVersion": 3
   },
   {
     "id": "frieza-011-saiyan-rapid-deflection",

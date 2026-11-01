@@ -10,8 +10,42 @@ const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
+test('Frieza 1–10 retain their rules and artwork fixes with a centered native footer emblem',()=>{
+ const dir=path.join(root,'tools/card-corrections/v3-frieza-001-010');
+ const rows=JSON.parse(fs.readFileSync(path.join(dir,'audit.json')));
+ const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
+ const cards=JSON.parse(fs.readFileSync(path.join(dir,'cards.json')));
+ const selected=catalog.filter(c=>c.set==='Frieza Saga'&&c.templateVersion===3);
+ assert.deepEqual(selected.map(c=>Number(c.number)),Array.from({length:10},(_,i)=>i+1));
+ assert.equal(rows.length,10);assert.equal(checks.length,10);
+ for(const c of selected){
+  const row=rows.find(r=>r.id===c.id),check=checks.find(r=>r.number===Number(c.number));
+  const source=path.join(root,row.native_source_path),svg=fs.readFileSync(source,'utf8');
+  assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));assert.ok(svg.includes('data-set="Frieza Saga"'));
+  assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,cards.find(r=>r.id===c.id).modern_rules);
+  assert.ok(row.rules.length<=5);assert.equal(row.power_icon,'attack');assert.equal(row.native_geometry.icons.length,1);
+  near(row.native_geometry.icons[0].center_error,0,.01);assert.ok(row.tokui_waza_backing.all_styles);
+  for(const [id,cx,cy] of [['card-title',529.5,79],['card-category',529.5,908.5],['saga-emblem',211.75,1409.5]]){
+   const [x,y,w,h]=row.native_geometry.bounds[id];near(x+w/2,cx,.01);near(y+h/2,cy,.01);
+  }
+  assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
+  for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256);
+  for(const e of row.exports){
+   assert.equal(hash(path.join(root,e.path)),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
+   assert.ok(check.exports.find(x=>x.path===e.path).decoded_pixels_match_render);
+  }
+ }
+ assert.ok(rows.find(r=>r.number===4).artwork.current_approved_background_retained);
+ assert.ok(rows.find(r=>r.number===4).artwork.localized_background_patch);
+ assert.ok(rows.find(r=>r.number===7).artwork.expression_patch_retained);
+ assert.match(cards.find(r=>r.number===5).modern_rules,/costing 3 stages/);
+ assert.match(cards.find(r=>r.number===8).modern_rules,/^Saiyan Heritage only\./);
+ assert.equal(catalog.filter(c=>c.templateVersion===3).length,267);
+});
 test('all 257 Saiyan Saga cards have complete verified V3 native sources and both exports',()=>{
- const selected=catalog.filter(c=>c.templateVersion===3);
+ const selected=catalog.filter(c=>c.templateVersion===3&&c.set==='Saiyan Saga');
  assert.equal(selected.length,257);assert.equal(audit.length,257);
  assert.deepEqual(selected.map(c=>c.id).sort(),catalog.filter(c=>c.set==='Saiyan Saga').map(c=>c.id).sort());
  assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20,50,37]);

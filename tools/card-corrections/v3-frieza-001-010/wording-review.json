@@ -1,0 +1,135 @@
+{
+  "source": "Expanded-CRD.txt",
+  "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "checked_entries": [
+    "Recoome Boom (Frieza Saga - #8): Saiyan Heritage only",
+    "Energy attack defaults: cost 2 stages, damage 4 life cards unless stated",
+    "Saiyan Heritage glossary replaces Villains, Goku and Gohan only"
+  ],
+  "cards": [
+    {
+      "number": 1,
+      "original_rules": "Energy attack doing 5 life cards of damage. Lower opponent's anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 1 level."
+    },
+    {
+      "number": 2,
+      "original_rules": "Energy attack doing 6 life cards of damage. Lower opponent's anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Printed title Orange Kamehemeha Attack corrected to Orange Kamehameha Attack.",
+        "general": [
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level."
+    },
+    {
+      "number": 3,
+      "original_rules": "Energy attack. Lower opponent's anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack costs 2 stages.",
+          "Unstated energy attack damage is 4 life cards."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels."
+    },
+    {
+      "number": 4,
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards."
+    },
+    {
+      "number": 5,
+      "original_rules": "Energy attack doing 6 life cards of damage. Costs 3 stages to use. Lower opponent's anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": []
+      },
+      "final_rules": "Energy attack costing 3 stages. DAMAGE: 6 life cards. Lower your opponent's anger 1 level."
+    },
+    {
+      "number": 6,
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards."
+    },
+    {
+      "number": 7,
+      "original_rules": "Energy attack doing 6 life cards of damage. Raise your anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level."
+    },
+    {
+      "number": 8,
+      "original_rules": "Villains, Goku, and Gohan only. Energy attack. Playing this card stops a single named opponent from making an energy attack on his next combat phase. Lower opponent's anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "Recoome Boom is a Saiyan Heritage only card.",
+        "general": [
+          "Villains, Goku and Gohan only → Saiyan Heritage only (glossary).",
+          "Unstated energy attack costs 2 stages.",
+          "Unstated energy attack damage is 4 life cards."
+        ]
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Choose an opponent. They cannot perform an energy attack during their next Attacker Attacks phase. Lower your opponent's anger 2 levels."
+    },
+    {
+      "number": 9,
+      "original_rules": "Villains, Goku, and Gohan only. Energy attack.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Villains, Goku and Gohan only → Saiyan Heritage only (glossary).",
+          "Unstated energy attack costs 2 stages.",
+          "Unstated energy attack damage is 4 life cards."
+        ]
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards."
+    },
+    {
+      "number": 10,
+      "original_rules": "Villains, Goku, and Gohan only. Energy attack doing 5 life cards of damage. Lower opponent's anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "card_specific": "No card-specific erratum found.",
+        "general": [
+          "Villains, Goku and Gohan only → Saiyan Heritage only (glossary).",
+          "Unstated energy attack costs 2 stages."
+        ]
+      },
+      "final_rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels."
+    }
+  ]
+}

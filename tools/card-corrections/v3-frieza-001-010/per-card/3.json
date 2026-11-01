@@ -1,0 +1,229 @@
+{
+  "number": 3,
+  "id": "frieza-003-orange-taunting-attack",
+  "name": "Orange Taunting Attack",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-003-orange-taunting-attack.svg",
+  "native_source_sha256": "f0d42327752fb0884090a2ff4869295140c64511a04cec4282e6f02b220b3c94",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442.png",
+      "sha256": "0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Lower your opponent's anger 2 levels.",
+      "baseline": 1108.3,
+      "width": 795.6129999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        177.23,
+        44.5,
+        704.54,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        19.345,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "rules-line-2": [
+        133.237,
+        1073.61,
+        792.526,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-003-orange-taunting-attack.webp",
+      "before_url": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=9b51e5e31401",
+      "before_sha256": "9b51e5e314019796e2f5b4c129f77c062f072335683835ce1497f05cf298db88",
+      "after_sha256": "6d78430b2ffeabd529b4f2787042566a26bcc0e1e8bd4567fd922d3401aed03e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-003-orange-taunting-attack.webp",
+      "before_url": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=1fea8a305abf",
+      "before_sha256": "1fea8a305abf48987837115fc5eaecec4d3329600e4760932f2b934c59d10f65",
+      "after_sha256": "40ff84c08420dd2629211ac61c72f6973808902461aa2a679750af9df754c44b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 704.5399002493766,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 21.213203435596427,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

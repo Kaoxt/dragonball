@@ -1,0 +1,2358 @@
+[
+  {
+    "number": 1,
+    "id": "frieza-001-orange-planet-destruction",
+    "name": "Orange Planet Destruction",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-001-orange-planet-destruction.svg",
+    "native_source_sha256": "d2ce279d57bb7e01a2dcf506be072bcbfb5d6e0ec24a36399f90bd01a18cf8d6",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/6ddd0950398a6b2b9ef005face1908aa84d00d09ba8ee392d76d1351a3be2d1a.png",
+        "sha256": "6ddd0950398a6b2b9ef005face1908aa84d00d09ba8ee392d76d1351a3be2d1a"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "6ddd0950398a6b2b9ef005face1908aa84d00d09ba8ee392d76d1351a3be2d1a",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+        "baseline": 1049.3,
+        "width": 876.6191555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "cards. Lower your opponent's anger 1 level.",
+        "baseline": 1108.3,
+        "width": 767.879,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          155.5,
+          46.1901,
+          748.0,
+          65.6198
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          11.978,
+          33.708
+        ],
+        "rules-line-1": [
+          146.447,
+          1013.53,
+          820.701,
+          45.913
+        ],
+        "rules-line-2": [
+          147.104,
+          1074.0,
+          764.792,
+          44.443
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.447,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-001-orange-planet-destruction.webp",
+        "before_url": "/assets/cards/frieza-001-orange-planet-destruction.webp?v=8ded2ff86726",
+        "before_sha256": "8ded2ff867261fd33a8b1c91a70a0f31aaeaaee3ac3bdbd48d69f5bcf36bad21",
+        "after_sha256": "45cdaf436ea31cce9e0480f16b52031a48c754bbc40df60fbd2bd36305dba9a2",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-001-orange-planet-destruction.webp",
+        "before_url": "/assets/cards/downloads/frieza-001-orange-planet-destruction.webp?v=51a5869bc267",
+        "before_sha256": "51a5869bc2675203891b42c38817dd233f4ddf8fc95ab7b0319dd9ecb142eafd",
+        "after_sha256": "b40f9faf4c2da1d87285bafe08e4392e35cf5715886171a2be2cc2c65893b44a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 81.82017064099759,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 747.9999999999999,
+        "visible_height": 65.61977685408006,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 748.0,
+        "scale_factor": 0.9510112587547835
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 1.4142135623730951,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 2,
+    "id": "frieza-002-orange-kamehameha-attack",
+    "name": "Orange Kamehameha Attack",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-002-orange-kamehameha-attack.svg",
+    "native_source_sha256": "36e169fadd3eaf208baaeaee1b995d991cfb7bebe6825ac6db49798b445d2542",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7f6f2d60f0f4ea5c3dc0b1b9b84b00934cf312eeb76869a59fa7a0326b3433cd.png",
+        "sha256": "7f6f2d60f0f4ea5c3dc0b1b9b84b00934cf312eeb76869a59fa7a0326b3433cd"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "7f6f2d60f0f4ea5c3dc0b1b9b84b00934cf312eeb76869a59fa7a0326b3433cd",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+        "baseline": 1049.3,
+        "width": 876.6681555438591,
+        "icon_inline": true
+      },
+      {
+        "text": "cards. Lower your opponent's anger 1 level.",
+        "baseline": 1108.3,
+        "width": 767.879,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          151.5,
+          48.5351,
+          756.0,
+          60.9298
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          19.292,
+          33.708
+        ],
+        "rules-line-1": [
+          146.423,
+          1013.53,
+          820.75,
+          45.913
+        ],
+        "rules-line-2": [
+          147.104,
+          1074.0,
+          764.792,
+          44.443
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8274,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.423,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8274,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-002-orange-kamehameha-attack.webp",
+        "before_url": "/assets/cards/frieza-002-orange-kamehameha-attack.webp?v=d382f282321d",
+        "before_sha256": "d382f282321d481c111cdb94c9f9bf9ed3c6af8a5cf0837ae2909a41b1960385",
+        "after_sha256": "7c7b67301ce46f07c0cc62e8baaf0d067ae231585fd343e20443db123208a01a",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp",
+        "before_url": "/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp?v=06ea6d9e3128",
+        "before_sha256": "06ea6d9e3128ba73b77c57121f82ce38d72711e00acbe6a140e9fa4fc9c8c841",
+        "after_sha256": "142f927785bd68247cd00e662e0fa9eb91b0243f202dc1e07dda6299a4a8c795",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 75.9722640940609,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 756.0000000000001,
+        "visible_height": 60.92975580343685,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 756.0,
+        "scale_factor": 0.883039939180244
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 1.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 3,
+    "id": "frieza-003-orange-taunting-attack",
+    "name": "Orange Taunting Attack",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-003-orange-taunting-attack.svg",
+    "native_source_sha256": "f0d42327752fb0884090a2ff4869295140c64511a04cec4282e6f02b220b3c94",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442.png",
+        "sha256": "0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "0ba0275256abe61e437334f2487f1f1593418b45ffe3226936b3e0903d6af442",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+        "baseline": 1049.3,
+        "width": 878.8241555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "cards. Lower your opponent's anger 2 levels.",
+        "baseline": 1108.3,
+        "width": 795.6129999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          177.23,
+          44.5,
+          704.54,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          19.345,
+          33.708
+        ],
+        "rules-line-1": [
+          145.345,
+          1013.53,
+          822.906,
+          45.913
+        ],
+        "rules-line-2": [
+          133.237,
+          1073.61,
+          792.526,
+          44.835
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            90.7494,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            145.345,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            90.7494,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-003-orange-taunting-attack.webp",
+        "before_url": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=9b51e5e31401",
+        "before_sha256": "9b51e5e314019796e2f5b4c129f77c062f072335683835ce1497f05cf298db88",
+        "after_sha256": "6d78430b2ffeabd529b4f2787042566a26bcc0e1e8bd4567fd922d3401aed03e",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-003-orange-taunting-attack.webp",
+        "before_url": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=1fea8a305abf",
+        "before_sha256": "1fea8a305abf48987837115fc5eaecec4d3329600e4760932f2b934c59d10f65",
+        "after_sha256": "40ff84c08420dd2629211ac61c72f6973808902461aa2a679750af9df754c44b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 704.5399002493766,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 21.213203435596427,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 4,
+    "id": "frieza-004-red-energy-suspension",
+    "name": "Red Energy Suspension",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-004-red-energy-suspension.svg",
+    "native_source_sha256": "b3df3c222d6db13a58e02d6e39f45d9aad858845f11d8cee5ac616145783a5fd",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77.png",
+        "sha256": "44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/e4c78a0499a265a05fdaf4c67738a67f7f207debcee6a4b99044603feeb10c4f.png",
+        "sha256": "e4c78a0499a265a05fdaf4c67738a67f7f207debcee6a4b99044603feeb10c4f"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "44d2e5dccae205a88d1b7aa25a2f135c8f1803890eb85e227eca369c19866b77",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false,
+      "current_approved_background_retained": true,
+      "localized_background_patch": "tools/card-corrections/v3-frieza-001-010/localized-corrections/004.json",
+      "source_export_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+      "source_export_art_crop": [
+        32,
+        290,
+        2086,
+        1716
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+        "baseline": 1049.3,
+        "width": 876.6191555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "cards.",
+        "baseline": 1108.3,
+        "width": 111.91600000000003,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          180.155,
+          44.5,
+          698.69,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          23.532,
+          33.708
+        ],
+        "rules-line-1": [
+          146.447,
+          1013.53,
+          820.701,
+          45.913
+        ],
+        "rules-line-2": [
+          475.085,
+          1074.0,
+          108.829,
+          34.692
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.447,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-004-red-energy-suspension.webp",
+        "before_url": "/assets/cards/frieza-004-red-energy-suspension.webp?v=01d64196a635",
+        "before_sha256": "01d64196a63545b4a269e7053b92d1985ace1b996fa087c3d28927d4866fedd5",
+        "after_sha256": "81bc6db689442da66894b979408bde44c12d7d1471b3aeeebc247b1f58e39ed6",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-004-red-energy-suspension.webp",
+        "before_url": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=8a5dc3c4efcc",
+        "before_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
+        "after_sha256": "698339ea1b6f262377998f151e1376aba7281139d25ca0de33da3a1fe31fec6c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 698.6895261845387,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 23.5,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 5,
+    "id": "frieza-005-red-energy-disk",
+    "name": "Red Energy Disk",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-005-red-energy-disk.svg",
+    "native_source_sha256": "7ca4f6333a26982ece1d0727983171fc19eefe3a947fa35424d94c8a34882389",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/513632df3d7ca0c53d5b624c3cb90372ab9d7e90c803625d9ba70209d33a4865.png",
+        "sha256": "513632df3d7ca0c53d5b624c3cb90372ab9d7e90c803625d9ba70209d33a4865"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "513632df3d7ca0c53d5b624c3cb90372ab9d7e90c803625d9ba70209d33a4865",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 3 stages. DAMAGE: 6 life",
+        "baseline": 1049.3,
+        "width": 876.5701555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "cards. Lower your opponent's anger 1 level.",
+        "baseline": 1108.3,
+        "width": 767.879,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          288.0,
+          44.5,
+          483.0,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          19.769,
+          33.708
+        ],
+        "rules-line-1": [
+          146.472,
+          1013.53,
+          820.652,
+          45.913
+        ],
+        "rules-line-2": [
+          147.104,
+          1074.0,
+          764.792,
+          44.443
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8764,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.472,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8764,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-005-red-energy-disk.webp",
+        "before_url": "/assets/cards/frieza-005-red-energy-disk.webp?v=240f3e2a7705",
+        "before_sha256": "240f3e2a7705ee9f7f3941960fe3bf71cac968e2fd5bd2c5a402688ff7a557d1",
+        "after_sha256": "d97fa3f8641dc5f397f970cfb2cae630baed16b0fc03697ccb439a253ae52f04",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-005-red-energy-disk.webp",
+        "before_url": "/assets/cards/downloads/frieza-005-red-energy-disk.webp?v=048c506ee988",
+        "before_sha256": "048c506ee988cd5fdb80e21d883bf86c9316699ea495a9240ad036d0559d124a",
+        "after_sha256": "ed735821d90f7277fe6a0501ce570e89e0e79053298b71b005f1c185804cae4c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 483.00000000000006,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 33.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 6,
+    "id": "frieza-006-red-energy-disk-blasting",
+    "name": "Red Energy Disk Blasting",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-006-red-energy-disk-blasting.svg",
+    "native_source_sha256": "6e039cde26591ae76effc3101feb074d9d7d6a33bdb5a65101feaf070032c882",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b2b3487003b31e81e551b4ef8e2640b8d3f8f9709da1c069e35618525c7f09d5.png",
+        "sha256": "b2b3487003b31e81e551b4ef8e2640b8d3f8f9709da1c069e35618525c7f09d5"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "b2b3487003b31e81e551b4ef8e2640b8d3f8f9709da1c069e35618525c7f09d5",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+        "baseline": 1049.3,
+        "width": 876.6191555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "cards.",
+        "baseline": 1108.3,
+        "width": 111.91600000000003,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          157.399,
+          44.5,
+          744.202,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          19.928,
+          33.708
+        ],
+        "rules-line-1": [
+          146.447,
+          1013.53,
+          820.701,
+          45.913
+        ],
+        "rules-line-2": [
+          475.085,
+          1074.0,
+          108.829,
+          34.692
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.447,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8519,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-006-red-energy-disk-blasting.webp",
+        "before_url": "/assets/cards/frieza-006-red-energy-disk-blasting.webp?v=faacac498b0c",
+        "before_sha256": "faacac498b0c0886ef0162e13094f4a277db444d75deaf744d44f504f6252a8f",
+        "after_sha256": "3c9eea2eb56bd398f6a8508bf5a232a5763ec19caf72699cf5154841c69046f9",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp",
+        "before_url": "/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp?v=8a0902a83a71",
+        "before_sha256": "8a0902a83a71056e8856ee7f91a7b0216162b47f5cbae6ef9e3b8eaeb0cc38e2",
+        "after_sha256": "747394b4b0ffe9d20875580da1eefe76c7e0a8f628002d7304e38dbbcd5b931b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 744.201995012469,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 1.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 7,
+    "id": "frieza-007-blue-energy-flight",
+    "name": "Blue Energy Flight",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-007-blue-energy-flight.svg",
+    "native_source_sha256": "f40181c2282059417da8d854f225ee6dbe9cdbcc7346239a17230dbdaab8b5f6",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/9320bf6d34bdf127527fdc8fd614d8bff227e727407609b1d25e0681619eccd7.png",
+        "sha256": "9320bf6d34bdf127527fdc8fd614d8bff227e727407609b1d25e0681619eccd7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ebf336f330bdbdc66ab680ad224a1935e047f0276d7275b53354d57ca18b0cb3.png",
+        "sha256": "ebf336f330bdbdc66ab680ad224a1935e047f0276d7275b53354d57ca18b0cb3"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "9320bf6d34bdf127527fdc8fd614d8bff227e727407609b1d25e0681619eccd7",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false,
+      "expression_patch_retained": true
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+        "baseline": 1049.3,
+        "width": 876.6681555438591,
+        "icon_inline": true
+      },
+      {
+        "text": "cards. Raise your anger 1 level.",
+        "baseline": 1108.3,
+        "width": 550.3190000000002,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          259.049,
+          44.5,
+          540.901,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          18.974,
+          33.708
+        ],
+        "rules-line-1": [
+          146.423,
+          1013.53,
+          820.75,
+          45.913
+        ],
+        "rules-line-2": [
+          255.884,
+          1072.53,
+          547.232,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            91.8274,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            146.423,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            91.8274,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-007-blue-energy-flight.webp",
+        "before_url": "/assets/cards/frieza-007-blue-energy-flight.webp?v=ffe1f53fb449",
+        "before_sha256": "ffe1f53fb449f5cec12c4d0c448da91ec2ca0db4ae40bfe5806ea7b953bf0742",
+        "after_sha256": "1263696821647b01e28fea1e33e27be5ecb9713724d9e5240b2552c10673d8eb",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-007-blue-energy-flight.webp",
+        "before_url": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=75fc51098d0c",
+        "before_sha256": "75fc51098d0c06b207cb044ca043ae9d1813eaad9475b617d6ce9e15ccdae3b1",
+        "after_sha256": "b7d4e6b8bb318fcca8574e8e775780ce818884e099e07777b7cca70179b70ccf",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 540.9014962593517,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 33.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 8,
+    "id": "frieza-008-recoome-boom",
+    "name": "Recoome Boom",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-008-recoome-boom.svg",
+    "native_source_sha256": "df57b259f4501b5f941777fde309006c8d9841ffd00ce5cdd00ec82b86a9f30f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/466ed5c169fd217fcf5d35209d8466433a2caf76dd6c1ce0a94370758543c1c3.png",
+        "sha256": "466ed5c169fd217fcf5d35209d8466433a2caf76dd6c1ce0a94370758543c1c3"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "466ed5c169fd217fcf5d35209d8466433a2caf76dd6c1ce0a94370758543c1c3",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Saiyan Heritage only. Energy attack costing 2",
+        "baseline": 1049.3,
+        "width": 859.8071555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "stages. DAMAGE: 4 life cards. Choose an",
+        "baseline": 1108.3,
+        "width": 710.2550000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent. They cannot perform an energy attack",
+        "baseline": 1167.3,
+        "width": 872.6410000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "during their next Attacker Attacks phase. Lower",
+        "baseline": 1226.3,
+        "width": 855.7359999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "your opponent's anger 2 levels.",
+        "baseline": 1285.3,
+        "width": 554.288,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          297.894,
+          51.6409,
+          463.212,
+          54.7182
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          20.034,
+          33.708
+        ],
+        "rules-line-1": [
+          100.674,
+          1013.53,
+          857.651,
+          45.913
+        ],
+        "rules-line-2": [
+          175.793,
+          1072.53,
+          707.413,
+          45.913
+        ],
+        "rules-line-3": [
+          94.429,
+          1132.85,
+          870.142,
+          44.5954
+        ],
+        "rules-line-4": [
+          102.578,
+          1190.53,
+          853.845,
+          45.913
+        ],
+        "rules-line-5": [
+          253.459,
+          1250.61,
+          552.083,
+          44.835
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 19,
+          "previous_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            540.405,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-008-recoome-boom.webp",
+        "before_url": "/assets/cards/frieza-008-recoome-boom.webp?v=bc8151faf8f5",
+        "before_sha256": "bc8151faf8f524f780d8857512e0db063738897fa120d0fd827543ce12adfa98",
+        "after_sha256": "fa4bac65526b805b09761b5320c86259af522cf13173604385924572825e354c",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-008-recoome-boom.webp",
+        "before_url": "/assets/cards/downloads/frieza-008-recoome-boom.webp?v=f4bd1578fa98",
+        "before_sha256": "f4bd1578fa981e64fd1e5a4c4ec2401180a2235038a68495d5f9714bed3d287f",
+        "after_sha256": "923d958b6d87b891cb908f15a3943809ee95636fe2d8678ebbd7bd23c530ec3a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 463.21197007481305,
+        "visible_height": 54.71820448877806,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 40.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 9,
+    "id": "frieza-009-saiyan-rapture",
+    "name": "Saiyan Rapture",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-009-saiyan-rapture.svg",
+    "native_source_sha256": "f49ec52b0b9dd07eca3b512be1be276144cd5bc99b2228ff40027d1e5231d539",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c254a3599dd1c121f66ec57a9e68e43197ab0572291ef6b730e82e0c842b2bd6.png",
+        "sha256": "c254a3599dd1c121f66ec57a9e68e43197ab0572291ef6b730e82e0c842b2bd6"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "c254a3599dd1c121f66ec57a9e68e43197ab0572291ef6b730e82e0c842b2bd6",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Saiyan Heritage only. Energy attack costing 2",
+        "baseline": 1049.3,
+        "width": 859.8071555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "stages. DAMAGE: 4 life cards.",
+        "baseline": 1108.3,
+        "width": 517.3910000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          302.282,
+          44.5,
+          454.436,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          19.928,
+          33.708
+        ],
+        "rules-line-1": [
+          100.674,
+          1013.53,
+          857.651,
+          45.913
+        ],
+        "rules-line-2": [
+          272.176,
+          1072.53,
+          514.647,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 19,
+          "previous_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            540.405,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-009-saiyan-rapture.webp",
+        "before_url": "/assets/cards/frieza-009-saiyan-rapture.webp?v=162ada044c36",
+        "before_sha256": "162ada044c36e335c6457fafca43bae5bcc09174d6167480b0d6c2ddc1648910",
+        "after_sha256": "75951ec833fe66e42211644929b6760c6bf0166a11d99a054befed5480ebc9b5",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-009-saiyan-rapture.webp",
+        "before_url": "/assets/cards/downloads/frieza-009-saiyan-rapture.webp?v=4d4503b1cb86",
+        "before_sha256": "4d4503b1cb86b587c9f27446f38f232c6b71e0cad398e8bf9f1de8ede123346a",
+        "after_sha256": "c9d07857016993b749c08eaf6ddb5e7f064f4362e5f11c638b3192568addcadb",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 454.4364089775562,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 33.0,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  },
+  {
+    "number": 10,
+    "id": "frieza-010-saiyan-concussion-punch",
+    "name": "Saiyan Concussion Punch",
+    "family": "ENERGY COMBAT",
+    "high_tech": false,
+    "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-010-saiyan-concussion-punch.svg",
+    "native_source_sha256": "2299c738a759b2e98cede088980fd89a96137e50e816546719f245e0cdb01df5",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7b9855b3ddadfa4be2d5d05f351162b88934b5c9b088a98e8deb1b4679c03d60.png",
+        "sha256": "7b9855b3ddadfa4be2d5d05f351162b88934b5c9b088a98e8deb1b4679c03d60"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "artwork_bytes_retained": true,
+      "source_sha256": "7b9855b3ddadfa4be2d5d05f351162b88934b5c9b088a98e8deb1b4679c03d60",
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "width_relative_scale_change": 1.005842259006816,
+      "additional_zoom": false
+    },
+    "rules": [
+      {
+        "text": "Saiyan Heritage only. Energy attack costing 2",
+        "baseline": 1049.3,
+        "width": 859.8071555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "stages. DAMAGE: 5 life cards. Lower your",
+        "baseline": 1108.3,
+        "width": 724.759,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent's anger 2 levels.",
+        "baseline": 1167.3,
+        "width": 464.32400000000007,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          155.5,
+          45.4713,
+          748.0,
+          67.0575
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          820.2,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          880.0,
+          1392.65,
+          36.517,
+          33.708
+        ],
+        "rules-line-1": [
+          100.674,
+          1013.53,
+          857.651,
+          45.913
+        ],
+        "rules-line-2": [
+          167.895,
+          1072.53,
+          723.211,
+          45.913
+        ],
+        "rules-line-3": [
+          298.881,
+          1132.61,
+          461.237,
+          44.835
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 19,
+          "previous_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            540.405,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            485.809,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-010-saiyan-concussion-punch.webp",
+        "before_url": "/assets/cards/frieza-010-saiyan-concussion-punch.webp?v=e1aa0d96a492",
+        "before_sha256": "e1aa0d96a492ef615efd52a0629d09189936d4a06272d47662f98e239e2e1108",
+        "after_sha256": "7518ece4f0c1b0548833d380395fe667e68cf1bfa193ff1dbe9da78a348e1152",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp",
+        "before_url": "/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp?v=587c77ffc9bd",
+        "before_sha256": "587c77ffc9bd995ecfdd0bbdf4dec941a06e64942336c4629fef67bee1ec247d",
+        "after_sha256": "58f915986e7b1e0cde30ff553662b0e02e0fdcf90b2502a8f00550e9c8b93ceb",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 83.61278783813994,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 747.9999999999999,
+        "visible_height": 67.05745584618823,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 748.0,
+        "scale_factor": 0.9718471861766409
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true,
+      "title_edge_clearance": {
+        "minimum_brush_clearance": 1.118033988749895,
+        "title_pixels_outside_brush": 0,
+        "title_helper_idempotent": true
+      }
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "source_visible_bounds": [
+        1.1,
+        1.1,
+        97.8,
+        98.8
+      ],
+      "target_center": [
+        211.75,
+        1409.5
+      ],
+      "target_width": 53.7814,
+      "uniform_scale": 0.5499120654396727,
+      "native_vector": true,
+      "measured_visible_center": [
+        211.74970000000002,
+        1409.4956499999998
+      ]
+    }
+  }
+]
