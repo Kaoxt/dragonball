@@ -1,0 +1,234 @@
+{
+  "personality_values": null,
+  "number": 76,
+  "id": "frieza-076-vegetas-getting-bashed-drill",
+  "name": "Vegeta's Getting Bashed Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-076-vegetas-getting-bashed-drill.svg",
+  "native_source_sha256": "6c0f66547e3580280553b5dd139fe1ec9cd0ecf5cf7ab1e9c713903f0319731b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e4c87cd9dda43243f12d3c4f317311556a191e4163c87eec474adc11f7fabb6a.png",
+      "sha256": "e4c87cd9dda43243f12d3c4f317311556a191e4163c87eec474adc11f7fabb6a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "e4c87cd9dda43243f12d3c4f317311556a191e4163c87eec474adc11f7fabb6a",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Vegeta, Goku, Gohan, Nappa, and Raditz only.",
+      "baseline": 1049.3,
+      "width": 862.57875,
+      "icon_inline": true
+    },
+    {
+      "text": "Your successful energy attacks deal +1 life card",
+      "baseline": 1108.3,
+      "width": 851.277,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage.",
+      "baseline": 1167.3,
+      "width": 198.548,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        48.9921,
+        760.0,
+        60.0158
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.68,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.48,
+        1392.65,
+        41.34,
+        33.708
+      ],
+      "rules-line-1": [
+        165.666,
+        1013.53,
+        794.339,
+        45.913
+      ],
+      "rules-line-2": [
+        105.38,
+        1072.53,
+        848.239,
+        45.913
+      ],
+      "rules-line-3": [
+        431.769,
+        1132.85,
+        195.461,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "V",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          98.9946,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          165.666,
+          1015.0,
+          21.7346,
+          34.3
+        ],
+        "new_visible_bounds": [
+          98.9946,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-076-vegetas-getting-bashed-drill.webp",
+      "before_url": "/assets/cards/frieza-076-vegetas-getting-bashed-drill.webp?v=0fe183720f16",
+      "before_sha256": "0fe183720f161ee91059767008e2ca257956c628318060ae67da09e85e54520c",
+      "after_sha256": "eb526497da28b4a0b3dfaee2ab54a838511b5149d3f45078f3c3450fa0b6fca0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-076-vegetas-getting-bashed-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-076-vegetas-getting-bashed-drill.webp?v=d9c0e88e21e0",
+      "before_sha256": "d9c0e88e21e0efe9e75bbc68cff66b544c3f1721784e77fc9d3daa2861073231",
+      "after_sha256": "0d7fcd9cc911b61718b04890dfe567b9aadc14c5a01fdf3e94c24d672ba3b671",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 74.83261126427728,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 60.015754233950375,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8697935396224692
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

@@ -1,0 +1,222 @@
+{
+  "personality_values": null,
+  "number": 71,
+  "id": "frieza-071-orange-leg-drill",
+  "name": "Orange Leg Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-071-orange-leg-drill.svg",
+  "native_source_sha256": "9906cbc2bd2734dfdf485082117b8e894f912947dbe5b70a0e6a72341bff4a88",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4983f6af4dcc04a0c344505e5ab682181a8144447286c270f443b31964c0ce67.png",
+      "sha256": "4983f6af4dcc04a0c344505e5ab682181a8144447286c270f443b31964c0ce67"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "4983f6af4dcc04a0c344505e5ab682181a8144447286c270f443b31964c0ce67",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Physical attacks against",
+      "baseline": 1049.3,
+      "width": 834.9867499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "you deal -2 stages of damage, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 874.5029999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        294.453,
+        44.5,
+        470.095,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        801.238,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        861.038,
+        1392.65,
+        32.224,
+        33.708
+      ],
+      "rules-line-1": [
+        112.497,
+        1012.11,
+        834.007,
+        47.334
+      ],
+      "rules-line-2": [
+        93.351,
+        1072.53,
+        872.298,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "P",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          444.467,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          512.167,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          444.467,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.022399999999834108,
+        "center_error": 0.002399999999852298,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-071-orange-leg-drill.webp",
+      "before_url": "/assets/cards/frieza-071-orange-leg-drill.webp?v=866056a0610b",
+      "before_sha256": "866056a0610bc347be48dff4d27fd8ff3d07552e94a5cc35c41dab4866d63efa",
+      "after_sha256": "40862a506cdc8aa31a4b72f634f1683e5f3824ec9e5a72ea60b13187289f751a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-071-orange-leg-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-071-orange-leg-drill.webp?v=2e425be90a37",
+      "before_sha256": "2e425be90a372a3ee1b224f27bc32b8c31188bdacb8f507a9e3d986a1cb8b192",
+      "after_sha256": "1120bc475fe2acb0cb1c312e8087d9877e2ed8d1b4370257a647bb23651f661f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 470.0947630922694,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

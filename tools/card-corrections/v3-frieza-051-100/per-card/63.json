@@ -1,0 +1,222 @@
+{
+  "personality_values": null,
+  "number": 63,
+  "id": "frieza-063-yajirobes-gifting-drill",
+  "name": "Yajirobe's Gifting Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-063-yajirobes-gifting-drill.svg",
+  "native_source_sha256": "8f7fbc60c88e4c517ace0830e1ff8b68cea089ec3f8e79c12cd4a6ad037df53e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f7a0fd26b58d4a4ff5ba23b88da8d98ec9512e19fb670dae3493c1da534d4bcb.png",
+      "sha256": "f7a0fd26b58d4a4ff5ba23b88da8d98ec9512e19fb670dae3493c1da534d4bcb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "f7a0fd26b58d4a4ff5ba23b88da8d98ec9512e19fb670dae3493c1da534d4bcb",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Reduce damage from all attacks against you",
+      "baseline": 1049.3,
+      "width": 856.64975,
+      "icon_inline": true
+    },
+    {
+      "text": "by 1 stage or 1 life card.",
+      "baseline": 1108.3,
+      "width": 414.63800000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        200.675,
+        44.5,
+        657.651,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.097,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.897,
+        1392.65,
+        42.506,
+        33.708
+      ],
+      "rules-line-1": [
+        169.856,
+        1013.53,
+        787.038,
+        45.913
+      ],
+      "rules-line-2": [
+        323.896,
+        1072.53,
+        411.208,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          102.106,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          169.856,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          102.106,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-063-yajirobes-gifting-drill.webp",
+      "before_url": "/assets/cards/frieza-063-yajirobes-gifting-drill.webp?v=a2bbff595258",
+      "before_sha256": "a2bbff595258ae928a33396795dcbde35d11e65c32c5500685086d9fd551de2e",
+      "after_sha256": "356b2bbb930d4c4230644fb526bba814b2e0898d903f53afd1a68bc3ce242445",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-063-yajirobes-gifting-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-063-yajirobes-gifting-drill.webp?v=b494e15e3b83",
+      "before_sha256": "b494e15e3b83a19130fbac7045846101bbb10d10bb0a8053a31eb280e33c994b",
+      "after_sha256": "1263903a268ef3f730ecf282384a4481309ab41806e8a913596c0d38aa120f3f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 657.6508728179552,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

@@ -1,0 +1,323 @@
+{
+  "personality_values": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      300000,
+      280000,
+      260000,
+      240000,
+      220000,
+      200000,
+      180000,
+      160000,
+      140000,
+      120000,
+      0
+    ]
+  },
+  "number": 94,
+  "id": "frieza-094-piccolo",
+  "name": "Piccolo",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-094-piccolo.svg",
+  "native_source_sha256": "029a5ce08f41657714f7564fad9073084caa7623e1f9a9ac93dccaad437324ce",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8ff0c764ab6c597981e10007c2419dac92e599ffad19c8cfa5aa11aa0e5ea730.png",
+      "sha256": "8ff0c764ab6c597981e10007c2419dac92e599ffad19c8cfa5aa11aa0e5ea730"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "8ff0c764ab6c597981e10007c2419dac92e599ffad19c8cfa5aa11aa0e5ea730",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+      "baseline": 1049.3,
+      "width": 876.6681555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        898.7,
+        224.691,
+        132.3,
+        38.269
+      ],
+      "power-stage-value-2": [
+        896.838,
+        289.373,
+        134.162,
+        38.269
+      ],
+      "power-stage-value-3": [
+        896.887,
+        354.054,
+        134.113,
+        38.269
+      ],
+      "power-stage-value-4": [
+        896.642,
+        418.736,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.664,
+        483.418,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-6": [
+        892.82,
+        548.1,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.958,
+        612.782,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-8": [
+        891.007,
+        677.463,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.762,
+        742.145,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-10": [
+        889.978,
+        806.827,
+        141.022,
+        38.269
+      ],
+      "card-title": [
+        420.881,
+        50.2213,
+        217.238,
+        57.5574
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        794.295,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.095,
+        1392.65,
+        46.11,
+        33.708
+      ],
+      "rules-line-1": [
+        146.423,
+        1013.53,
+        820.75,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8274,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.423,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8274,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-094-piccolo.webp",
+      "before_url": "/assets/cards/frieza-094-piccolo.webp?v=6842ebc5f60d",
+      "before_sha256": "6842ebc5f60d2b03aa33618695d554fc9391be195c95ac96a2df6794acddc0f5",
+      "after_sha256": "810b8deecfa8d65ddf4dce25470208a64602f6341b66997b5474489b992878ee",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-094-piccolo.webp",
+      "before_url": "/assets/cards/downloads/frieza-094-piccolo.webp?v=bcac1ed390ac",
+      "before_sha256": "bcac1ed390ac70e57ab565dbe145a77b53e63920f0f34ed3ea9fef7f26f6ef75",
+      "after_sha256": "536dd199671c668754797a632c165c87ff9ce7e2dc7a177ed6b69d49b1472e19",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 217.23815461346638,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

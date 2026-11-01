@@ -1,0 +1,862 @@
+[
+  {
+    "id": "frieza-051-jeice-shouts",
+    "number": 51,
+    "before_native_sha256": "01411e445547ea133d7f6ca0a9ae0895537e9125de2764b037af207d9e99b4b9",
+    "after_native_sha256": "1495f7ece62e0f32aa8cde2687d435d4c2437c4e2b2db64d82453695ffe25dab",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-051-jeice-shouts.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -20.075,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-051-jeice-shouts.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "51ea607f9c3a668644d4c062fbbda725d6634fa6bc172e90604f7f03b885ac97",
+        "after_sha256": "6897b04b00d6cb585aaa70467e4b20bc3d5d2b1366abdc10800728ba9d8b1c9a",
+        "changed_pixels": 4829,
+        "changed_pixel_bounds": [
+          798,
+          1383,
+          917,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-051-jeice-shouts.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "3f6c67e70922629a58c645d3136c8ada795fa07dc1a453697bb204e55d8a7be5",
+        "after_sha256": "4374da313a4a6023f45b78f9763d224afb78a8c3b3307d3e0f73738a8e71cb13",
+        "changed_pixels": 15432,
+        "changed_pixel_bounds": [
+          1600,
+          2771,
+          1829,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-052-jeice-comet-attack",
+    "number": 52,
+    "before_native_sha256": "ff9d7d035b0c29ff0abec05c486ca17859b8373d2761a04c5cc29b93778f2295",
+    "after_native_sha256": "8557fd522970bc43666f753303925df26b04972f52dccbf6b583cc2e00969b71",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-052-jeice-comet-attack.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -23.8645,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.336,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.135,
+        1392.65,
+        42.029,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-052-jeice-comet-attack.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "a974a45eda61187a955f082ca94006bfb7d27c985f13c530ffc6f3dfede6c56c",
+        "after_sha256": "78e5736d68347c70290931346cde54f4623f66d31b402d7442deff02d232f4e1",
+        "changed_pixels": 5236,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          925,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-052-jeice-comet-attack.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "96b3aa86a915a10ac997112bd990624e53a283b8d50b020ac5fe605f2db20536",
+        "after_sha256": "a3630b3752ea69063ae3070e94354c605705986658a8a3de3db8126409b8f64d",
+        "changed_pixels": 16044,
+        "changed_pixel_bounds": [
+          1592,
+          2771,
+          1845,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-053-dodoria-boom",
+    "number": 53,
+    "before_native_sha256": "a0e06f559112f7735ddce969cb87b7a899c7ba14f52af8d385663355c16d24ba",
+    "after_native_sha256": "8cd5421c131189e5d984201eab4bdaf8c563f2e50f23513c5d38077aedea8f8f",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-053-dodoria-boom.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -23.944,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.256,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.056,
+        1392.65,
+        42.188,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-053-dodoria-boom.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "99954b8bcde9df422fe47a2e7db18be2438717933151580386b93485568a43ad",
+        "after_sha256": "b2788084fcae82695f696edd938de2e23887790ead5af3ebefa52b3d4b458d13",
+        "changed_pixels": 5245,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          925,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-053-dodoria-boom.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "dbe5dd17dd70235b716e7d0d103eef1b5c98702cbf4525eb6efdcac0a1920278",
+        "after_sha256": "c0b41e0b13e07024f2bc4440fc98caf8dd915aa299badd16423c0c3fab230d69",
+        "changed_pixels": 15873,
+        "changed_pixel_bounds": [
+          1592,
+          2771,
+          1845,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-054-gokus-energy-absorption",
+    "number": 54,
+    "before_native_sha256": "2d7b64b24683177a84ae7d4b704ffe8b1b40792995cf23b9eb93152cacafece0",
+    "after_native_sha256": "6ec52769aeaed16630b8134bffc627116495dbfaa1346fa4e20a8ffd6d873962",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-054-gokus-energy-absorption.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -25.587,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        794.613,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.413,
+        1392.65,
+        45.474,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-054-gokus-energy-absorption.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "2875139926b8bd0486bb62cfdb4fa089d30ad91a24e1cc21e7b9a05779d1d77a",
+        "after_sha256": "cb8619b0228badf985193f0dfc3e3c995bbe8da90d6741d4c2b6182d1bfac61b",
+        "changed_pixels": 5199,
+        "changed_pixel_bounds": [
+          792,
+          1383,
+          928,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-054-gokus-energy-absorption.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "0a2c2d639697e02f12fdb45167db7193689b787da61b3e180bc6bca9bed11e67",
+        "after_sha256": "37717ddca7bd9e3ed16c31e2292df8914ffaf591e6153e2af8a93ce9fb67a010",
+        "changed_pixels": 16167,
+        "changed_pixel_bounds": [
+          1589,
+          2771,
+          1851,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-055-guldos-time-freeze-drill",
+    "number": 55,
+    "before_native_sha256": "ad231c540362e357b250bc252f23808718bc0daab0fb78b5880d41246d28e2eb",
+    "after_native_sha256": "f19b4898d0734ec2cf20b737afb34a59c247a271f7c37038ec6796467175bd61",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-055-guldos-time-freeze-drill.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -24.527,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.673,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.473,
+        1392.65,
+        43.354,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-055-guldos-time-freeze-drill.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "6144eb36947aa165478f5e2cc2fa6aeab761ff5ded98bbd90107472e77c9c502",
+        "after_sha256": "47dc18a9d47daff4ccdfd9653a48d5146f47ccaef51b2414919ef76300d193a3",
+        "changed_pixels": 5169,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          926,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-055-guldos-time-freeze-drill.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "bed4a720c380c9b7655bed7853490dac5021a74458fecd6ece16e177b4d216fa",
+        "after_sha256": "7c4b0b57b53f5e3884d3996648b49a89c0ddd805b7ddf6bb4a68f08e7f137e46",
+        "changed_pixels": 15385,
+        "changed_pixel_bounds": [
+          1591,
+          2771,
+          1847,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-056-gohans-anger-blast",
+    "number": 56,
+    "before_native_sha256": "e005c59a8787127b54de4076c42a4f33b74de7c4210b750a117ace919ae70943",
+    "after_native_sha256": "6bfbac5e143d837f069c548b01044420c2e0e57ddbfc605b8d9b64b6dff8007b",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-056-gohans-anger-blast.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -24.633,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-056-gohans-anger-blast.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "0f91951e2f535a2ff86931a91eabd7d91ffaf2e834c091fb515ef11be88db7a9",
+        "after_sha256": "afcfca08486573339765b50650cbf14308f2c94e9d7d8ad1fb74b63aa250aadc",
+        "changed_pixels": 5331,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          927,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-056-gohans-anger-blast.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "2242bab866d0fc2614ac6551119987a2223072bd67fd426a28bbfd24f0b691be",
+        "after_sha256": "abdac93629f828e022d087dbcf41ba4bfa97c9b815e4f104f397ab1f4374a035",
+        "changed_pixels": 16067,
+        "changed_pixel_bounds": [
+          1591,
+          2771,
+          1848,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-057-krillins-anger-blast",
+    "number": 57,
+    "before_native_sha256": "62385b59d23f8573c6a1e343c7486739681606512269f06a3afd23cb2b4e77d8",
+    "after_native_sha256": "e79dc5762ae9bcc3e2a9a872bb97991b860fa5305261e3b3d5347c902edebe68",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-057-krillins-anger-blast.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -23.308,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.892,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.692,
+        1392.65,
+        40.916,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-057-krillins-anger-blast.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "9c8f7c010c87fec74835a54ec8709abfc0c7cb51c65897c1d144012b1ec7b17a",
+        "after_sha256": "916d09d3bce35c65971d2df185de486f3446262934ea1c6c15d4406111cc8085",
+        "changed_pixels": 5023,
+        "changed_pixel_bounds": [
+          794,
+          1383,
+          924,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-057-krillins-anger-blast.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "eb63764a6ec0d3dc539960d4191267e5653f1d9ce6d15b52eb909e55efce25a2",
+        "after_sha256": "de1e6d765a37c808a60859e021b7bf1e83914d377b2f86e06c72cdd1594273e5",
+        "changed_pixels": 15865,
+        "changed_pixel_bounds": [
+          1593,
+          2771,
+          1842,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-058-tiens-power-burst",
+    "number": 58,
+    "before_native_sha256": "f391122023bba5ca12dff4b8d3e7d784f1770342ba99aa80c731405233586439",
+    "after_native_sha256": "215d39245417274875bc0c4b52b4fe72b717b548fef060c285669beb48523995",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-058-tiens-power-burst.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -24.633,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-058-tiens-power-burst.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "1d504a29eeb35c840704735dfd47bcc89fcbfc7531b7fd90feeb23fd67ead55c",
+        "after_sha256": "843fe3db44fae206eee178d213c632538fb0444262a685939494c223c87b3e83",
+        "changed_pixels": 5324,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          927,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-058-tiens-power-burst.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "ebbc841d730d2e8204e75696d9402211d6cedc302221f029759b132b8fbf4473",
+        "after_sha256": "e0512a98cf30f3e37d41379af27d39b1285f08720de2ca356966552ea535d296",
+        "changed_pixels": 16156,
+        "changed_pixel_bounds": [
+          1591,
+          2771,
+          1848,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-059-yamchas-skillful-defense",
+    "number": 59,
+    "before_native_sha256": "d0542eadf39f5d88c4c3caee274e03c972824625a2ad06f73d767f348aa9a33d",
+    "after_native_sha256": "ea5d27732f250f3ae05510a7a449dfb515f558f1fc6d2f8d78c8006c7edd5ccb",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-059-yamchas-skillful-defense.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -24.421,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.25,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.779,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.579,
+        1392.65,
+        43.142,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-059-yamchas-skillful-defense.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "98cbb7c8bae97693987c45b287a069d9d75cc58e803eed1af81d9405ac998aef",
+        "after_sha256": "afdae10efc53a3f44b977b5eadf7a920d7358747731ee07bb9197c04b00678f3",
+        "changed_pixels": 5303,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          926,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-059-yamchas-skillful-defense.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "6b4a2efd0476295e903ee1d81f689e919aee3ea0e8e48507d94dac2eecc525b1",
+        "after_sha256": "bec5635bad2562cef9a1bca75a0cb6524b083d3351e6f0c915650ec8d29b8c8a",
+        "changed_pixels": 16119,
+        "changed_pixel_bounds": [
+          1591,
+          2771,
+          1847,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  },
+  {
+    "id": "frieza-060-vegetas-gallic-gun",
+    "number": 60,
+    "before_native_sha256": "a3d5bcc3803dd1921fed90c2de870879af38e0e1a2c2d5f2a797f4fd777704ea",
+    "after_native_sha256": "f46f3db00b010f5688ee105bd826a3a189f72756fffcf9aef6944231629757e2",
+    "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-060-vegetas-gallic-gun.svg",
+    "treatment": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": -24.8185,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": 0,
+      "ball_number_gap": 12.199999999999953
+    },
+    "helper_idempotent": true,
+    "unrelated_native_elements_unchanged": true,
+    "right_group_center_x": 847.2505,
+    "saga_center_x": 211.74970000000002,
+    "after_bounds": {
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.382,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.182,
+        1392.65,
+        43.937,
+        33.708
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/frieza-060-vegetas-gallic-gun.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "before_sha256": "cfbb11572c3722bdb2c07246465b13c2a6883532d8fbc0cea9bfb1e4a974fdc1",
+        "after_sha256": "c1d1319fef5d46fc86c08b870971918f6a65f834241cb3789db869547365a1ad",
+        "changed_pixels": 5333,
+        "changed_pixel_bounds": [
+          793,
+          1383,
+          927,
+          1436
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/frieza-060-vegetas-gallic-gun.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "before_sha256": "1ccc76158cb3366755e7641e330ba65adc569af4595de36188d023a74b51659b",
+        "after_sha256": "2ce6e4c89c1f1e136cee5309c2a6d75b61c6f84b90681eeb8171eb645ddded40",
+        "changed_pixels": 15988,
+        "changed_pixel_bounds": [
+          1590,
+          2771,
+          1848,
+          2867
+        ],
+        "pixels_changed_outside_footer_ink_footprint": 0,
+        "pixels_changed_above_footer": 0,
+        "old_render_max_channel_difference": 1,
+        "lossless_round_trip": true
+      }
+    ],
+    "audit_path": "tools/card-corrections/v3-frieza-011-060/audit.json"
+  }
+]

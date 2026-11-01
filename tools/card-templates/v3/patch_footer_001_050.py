@@ -13,10 +13,12 @@ import footer_spacing
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('work', type=Path)
 parser.add_argument('--set', choices=['saiyan', 'frieza'], default='saiyan')
-parser.add_argument('--range', choices=['001-050', '051-100', '101-150', '151-200', '201-250-promos'], default='001-050')
+parser.add_argument('--range', choices=['001-050', '051-060', '051-100', '101-150', '151-200', '201-250-promos'], default='001-050')
 args = parser.parse_args()
-if args.set == 'frieza' and args.range != '001-050':
-    parser.error('The supported Frieza footer batch is 001-050.')
+if args.set == 'frieza' and args.range not in ['001-050', '051-060']:
+    parser.error('The supported Frieza footer batches are 001-050 and 051-060.')
+if args.set == 'saiyan' and args.range == '051-060':
+    parser.error('The 051-060 footer batch is Frieza-specific.')
 WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)
 BATCHES = {'saiyan': ['001-050', '051-100', '101-150', '151-170', '171-220', '221-250-promos'],

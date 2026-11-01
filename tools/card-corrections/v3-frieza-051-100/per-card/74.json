@@ -1,0 +1,234 @@
+{
+  "personality_values": null,
+  "number": 74,
+  "id": "frieza-074-captain-ginyu-reversal-drill",
+  "name": "Captain Ginyu Reversal Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-074-captain-ginyu-reversal-drill.svg",
+  "native_source_sha256": "c8cc5d32735dccb5b6d6892a02ecc05fe1aa48e54c779246a351df5a23abef01",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3bda79e8418253515a333d21fef0a99d47015428b382735d632671b96a2568fe.png",
+      "sha256": "3bda79e8418253515a333d21fef0a99d47015428b382735d632671b96a2568fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "3bda79e8418253515a333d21fef0a99d47015428b382735d632671b96a2568fe",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Villains only. For every 3",
+      "baseline": 1049.3,
+      "width": 832.2917499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "stages of damage you take from an attack, your",
+      "baseline": 1108.3,
+      "width": 854.4129999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent takes 1 stage of damage.",
+      "baseline": 1167.3,
+      "width": 617.253,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        154.5,
+        47.8536,
+        750.0,
+        62.2929
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.726,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.526,
+        1392.65,
+        43.248,
+        33.708
+      ],
+      "rules-line-1": [
+        114.163,
+        1012.11,
+        830.675,
+        46.942
+      ],
+      "rules-line-2": [
+        103.068,
+        1073.85,
+        852.865,
+        44.5954
+      ],
+      "rules-line-3": [
+        222.417,
+        1132.85,
+        614.166,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "V",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          446.133,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          512.804,
+          1015.0,
+          21.7346,
+          34.3
+        ],
+        "new_visible_bounds": [
+          446.133,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-074-captain-ginyu-reversal-drill.webp",
+      "before_url": "/assets/cards/frieza-074-captain-ginyu-reversal-drill.webp?v=e6095882c7fb",
+      "before_sha256": "e6095882c7fb6353f6eea26b2ce2c873542dcac03569eb3332c317954dad9928",
+      "after_sha256": "9dd13ce1473e317a12e2d7d83a290eaaa47b1e0d6d94f33ef68ee9e98385d877",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-074-captain-ginyu-reversal-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-074-captain-ginyu-reversal-drill.webp?v=6c6a7a3d61e8",
+      "before_sha256": "6c6a7a3d61e86b05d826c4db88fcb7e8c5fc6abb9f47ec071cf2b0cb3da1d0b2",
+      "after_sha256": "7fec5d236a027a58f95b5d6bb67d9f9d539d52a8559a8eb6be344de422eaf56a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 77.67191383595691,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 749.9999999999999,
+      "visible_height": 62.29287489643744,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 750.0,
+      "scale_factor": 0.9027952883541658
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

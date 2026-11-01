@@ -1,0 +1,54 @@
+[
+  {
+    "number": 85,
+    "generated_source": "exec-9a7d8513-adcf-4175-a48a-6b1d1ce2b498.png",
+    "patch": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-085-sky-patch.png",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mask_pixels": 434694,
+    "pixels_changed_outside_sky_mask": 0,
+    "retained_original_image_bytes": true,
+    "mask_notes": "Connected sky hue regions, eroded one source pixel with three-pixel inward antialias ramp; original foreground contours and terrain retained."
+  },
+  {
+    "number": 87,
+    "generated_source": "exec-af3255c4-98e9-4e1e-b527-2375c763e368.png",
+    "patch": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-087-sky-patch.png",
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "mask_pixels": 598139,
+    "pixels_changed_outside_sky_mask": 0,
+    "retained_original_image_bytes": true,
+    "mask_notes": "Connected sky hue regions, eroded one source pixel with three-pixel inward antialias ramp; original foreground contours and terrain retained."
+  },
+  {
+    "number": 97,
+    "generated_source": "exec-23a2786e-368f-47fa-94f6-5dd28404f285.png",
+    "patch": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-097-sky-patch.png",
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "mask_pixels": 657129,
+    "pixels_changed_outside_sky_mask": 0,
+    "retained_original_image_bytes": true,
+    "mask_notes": "Connected sky hue regions, eroded one source pixel with three-pixel inward antialias ramp; original foreground contours and terrain retained."
+  },
+  {
+    "number": 100,
+    "generated_source": "exec-8d785a1f-9290-40b0-94bc-a9874d1b7a5c.png",
+    "patch": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-100-sky-patch.png",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mask_pixels": 232140,
+    "pixels_changed_outside_sky_mask": 0,
+    "retained_original_image_bytes": true,
+    "mask_notes": "Seeded blue sky components restricted away from the blue columns, eroded one source pixel with a three-pixel inward antialias ramp. Character, wooden staff, column and foliage contours retained."
+  }
+]

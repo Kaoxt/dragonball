@@ -1,0 +1,222 @@
+{
+  "personality_values": null,
+  "number": 72,
+  "id": "frieza-072-black-energy-stamina-drill",
+  "name": "Black Energy Stamina Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-072-black-energy-stamina-drill.svg",
+  "native_source_sha256": "71886f13a8905cbed882abc9d8cd12119bb97e3fb472380c9c260cf28ef03e60",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a6c68f5c630c78401572978b1e24241d2d57bce5c98be38e555c6cf4b309e90b.png",
+      "sha256": "a6c68f5c630c78401572978b1e24241d2d57bce5c98be38e555c6cf4b309e90b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "a6c68f5c630c78401572978b1e24241d2d57bce5c98be38e555c6cf4b309e90b",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Your energy attacks cost 1 stage after all",
+      "baseline": 1049.3,
+      "width": 796.23275,
+      "icon_inline": true
+    },
+    {
+      "text": "other card and effect modifiers.",
+      "baseline": 1108.3,
+      "width": 569.037,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.7667,
+        740.0,
+        64.4667
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        797.449,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.249,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        198.986,
+        1014.85,
+        727.797,
+        44.5954
+      ],
+      "rules-line-2": [
+        246.525,
+        1072.53,
+        565.95,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          132.217,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          198.986,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          132.217,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-072-black-energy-stamina-drill.webp",
+      "before_url": "/assets/cards/frieza-072-black-energy-stamina-drill.webp?v=446978dd7191",
+      "before_sha256": "446978dd71912123572341883206bcb9fa9bbbba408e622c79604477135543c6",
+      "after_sha256": "5115fad37b792f4e458755433539a74c413fa1b7b8be547e979cdf8dd7dbcf42",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp?v=c759bf4b7f39",
+      "before_sha256": "c759bf4b7f39acc932070b40d5c3608a8a4cf1c0c9381fe49ed6a9e07ca3a3c7",
+      "after_sha256": "1eb939b6d5d880a746a70065e985f323d322f680eedd0a89772b2c136c5ca229",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.38235933087117,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 64.46665218335868,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9342993070051981
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

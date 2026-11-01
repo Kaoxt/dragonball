@@ -1,0 +1,47 @@
+[
+  {
+    "number": 85,
+    "method": "ImageGen background edit composited through a verified transparent sky mask",
+    "saved_output": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-085-sky-patch.png",
+    "sha256": "5466610cc89fefc7f0b90c4e9a45a78c966c5dfb63c6f8ca26ae5183281605f3",
+    "reference_scan": "originals/frieza-085.png",
+    "instructions_summary": "Remove added clouds, use restrained smooth tonal depth in the original palette, retain all original foreground anatomy/expression/clothing/props/scenery and all card layers.",
+    "native_card_generated": false
+  },
+  {
+    "number": 87,
+    "method": "ImageGen background edit composited through a verified transparent sky mask",
+    "saved_output": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-087-sky-patch.png",
+    "sha256": "8463b501c2bbcac0245cc38e7e69514e7c9eb7b4220104952861a449c8e468a6",
+    "reference_scan": "originals/frieza-087.png",
+    "instructions_summary": "Remove added clouds, use restrained smooth tonal depth in the original palette, retain all original foreground anatomy/expression/clothing/props/scenery and all card layers.",
+    "native_card_generated": false
+  },
+  {
+    "number": 89,
+    "method": "ImageGen isolated illustration correction",
+    "saved_output": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-089-raised-arms.png",
+    "sha256": "6edcb52918230dfc3f10e254c062f6597a3c071362557733f86f8c477d6f1b11",
+    "reference_scan": "originals/frieza-089.png",
+    "instructions_summary": "Restore both arms raised beside the head, matching the original pose; preserve face, expression, armor and navy-white burst; no text or card UI.",
+    "native_card_generated": false
+  },
+  {
+    "number": 97,
+    "method": "ImageGen background edit composited through a verified transparent sky mask",
+    "saved_output": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-097-sky-patch.png",
+    "sha256": "375cf450ecf8d977804db28652dee40ddd15b3eba3ef03d2c7dceb94ea424c8c",
+    "reference_scan": "originals/frieza-097.png",
+    "instructions_summary": "Remove added clouds, use restrained smooth tonal depth in the original palette, retain all original foreground anatomy/expression/clothing/props/scenery and all card layers.",
+    "native_card_generated": false
+  },
+  {
+    "number": 100,
+    "method": "ImageGen background edit composited through a verified transparent sky mask",
+    "saved_output": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-100-sky-patch.png",
+    "sha256": "86bc90f230e3e98a458997729c06e8b7404f8d2b5d054ca79dbb0fa824d77ae1",
+    "reference_scan": "originals/frieza-100.png",
+    "instructions_summary": "Remove added clouds, use restrained smooth tonal depth in the original palette, retain all original foreground anatomy/expression/clothing/props/scenery and all card layers.",
+    "native_card_generated": false
+  }
+]

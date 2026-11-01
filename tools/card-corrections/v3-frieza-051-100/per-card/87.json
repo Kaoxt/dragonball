@@ -1,0 +1,200 @@
+{
+  "personality_values": null,
+  "number": 87,
+  "id": "frieza-087-krillin-s-concentration",
+  "name": "Krillin's Concentration",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-087-krillin-s-concentration.svg",
+  "native_source_sha256": "8653871c58e1e9692cdb657616d2b2c7e1e96811346f0fd63be8a006b7cf07b0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/892e7de2dc9aa80bbb06213582ffda6b8f0c3e59a83f46d9aaa70268c6b0c307.png",
+      "sha256": "892e7de2dc9aa80bbb06213582ffda6b8f0c3e59a83f46d9aaa70268c6b0c307"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3dfefb81e1ee2a842d94da6cb36a6a460f66526911590c296e0c1e6119854e4c.png",
+      "sha256": "3dfefb81e1ee2a842d94da6cb36a6a460f66526911590c296e0c1e6119854e4c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "892e7de2dc9aa80bbb06213582ffda6b8f0c3e59a83f46d9aaa70268c6b0c307",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "localized_sky_correction": {
+      "path": "tools/card-corrections/v3-frieza-051-100/localized-corrections/frieza-087-sky-patch.png",
+      "sha256": "3dfefb81e1ee2a842d94da6cb36a6a460f66526911590c296e0c1e6119854e4c",
+      "protected_original_foreground": true
+    }
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Search your Life Deck",
+      "baseline": 1049.3,
+      "width": 866.467,
+      "icon_inline": false
+    },
+    {
+      "text": "for 1 Event and put it into your hand.",
+      "baseline": 1108.3,
+      "width": 640.577,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        194.05,
+        50.2213,
+        670.9,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.548,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.347,
+        1392.65,
+        41.605,
+        33.708
+      ],
+      "rules-line-1": [
+        96.781,
+        1012.11,
+        865.438,
+        46.942
+      ],
+      "rules-line-2": [
+        210.437,
+        1072.53,
+        638.127,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-087-krillin-s-concentration.webp",
+      "before_url": "/assets/cards/frieza-087-krillin-s-concentration.webp?v=2b2c194f4f30",
+      "before_sha256": "2b2c194f4f30350e36999b9fb928c68930f014971b17c843caea4bd3419dc4af",
+      "after_sha256": "6c2716acc62651fbf29dbe69d69c40fcb82afa9e3515d3756108c5d9c6f1f04d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-087-krillin-s-concentration.webp",
+      "before_url": "/assets/cards/downloads/frieza-087-krillin-s-concentration.webp?v=f674bf75e2a0",
+      "before_sha256": "f674bf75e2a07752f3f1c422323386e2c4e2b2522fe2d98c45950bab35a6dbad",
+      "after_sha256": "4f9445f6b2778375a4f6e6fe179929b35d3248a88a9942254e978e66a7e9b882",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 670.9002493765587,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

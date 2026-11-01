@@ -1,0 +1,234 @@
+{
+  "personality_values": null,
+  "number": 67,
+  "id": "frieza-067-orange-destruction-drill",
+  "name": "Orange Destruction Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-067-orange-destruction-drill.svg",
+  "native_source_sha256": "84439b3fa16ddd2f82d2188358cefc95a6c9e70277d7d79429d533dfa0d078c3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5daa6ba395277c49124a275e03c263c68d98ca773ca444c199850925c53b4dfa.png",
+      "sha256": "5daa6ba395277c49124a275e03c263c68d98ca773ca444c199850925c53b4dfa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "5daa6ba395277c49124a275e03c263c68d98ca773ca444c199850925c53b4dfa",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) At the beginning of each",
+      "baseline": 1049.3,
+      "width": 828.42075,
+      "icon_inline": true
+    },
+    {
+      "text": "turn, discard 1 of your opponents' Setups or Drills",
+      "baseline": 1108.3,
+      "width": 871.2689999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "in play.",
+      "baseline": 1167.3,
+      "width": 128.135,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        170.82,
+        44.5,
+        717.359,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.733,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.533,
+        1392.65,
+        41.234,
+        33.708
+      ],
+      "rules-line-1": [
+        116.147,
+        1012.11,
+        826.706,
+        47.334
+      ],
+      "rules-line-2": [
+        94.6005,
+        1072.53,
+        869.799,
+        45.521
+      ],
+      "rules-line-3": [
+        466.952,
+        1131.53,
+        125.097,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          448.117,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          514.369,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          448.117,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-067-orange-destruction-drill.webp",
+      "before_url": "/assets/cards/frieza-067-orange-destruction-drill.webp?v=21eaeed3d0b4",
+      "before_sha256": "21eaeed3d0b4838162cfad478c8f8de5a8fb422279794e4d6c2555d2df62ab49",
+      "after_sha256": "bdf6c272cfacfbe73a19eae2721a8e5a087a94c05948759bd8e1d03fdae6841c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-067-orange-destruction-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-067-orange-destruction-drill.webp?v=2493fbc25e42",
+      "before_sha256": "2493fbc25e4235ee459fdf6d15bb0b609e9887d06f9ae0d4fac3b070fa7f1761",
+      "after_sha256": "84c10ce8ca0fae41bf1f73775f3047fa8492514cb34e5f71bcb3a2b9601e7701",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 717.3591022443891,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

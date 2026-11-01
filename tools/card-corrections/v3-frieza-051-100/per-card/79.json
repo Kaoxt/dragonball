@@ -1,0 +1,222 @@
+{
+  "personality_values": null,
+  "number": 79,
+  "id": "frieza-079-friezas-influencing-drill",
+  "name": "Frieza's Influencing Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-079-friezas-influencing-drill.svg",
+  "native_source_sha256": "7c04ad8aec200b7629f0e96d676127a23b23a0168f0041b8bacfeba225e76bf3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cdbad98602c505e85bf1c079e4f199758ef7898d29f09b0f5bf93f27c1b16749.png",
+      "sha256": "cdbad98602c505e85bf1c079e4f199758ef7898d29f09b0f5bf93f27c1b16749"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "cdbad98602c505e85bf1c079e4f199758ef7898d29f09b0f5bf93f27c1b16749",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "After your energy attack hits your opponent,",
+      "baseline": 1049.3,
+      "width": 856.84575,
+      "icon_inline": true
+    },
+    {
+      "text": "lower that opponent's anger 1 level.",
+      "baseline": 1108.3,
+      "width": 627.6410000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        165.185,
+        44.5,
+        728.63,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.892,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.692,
+        1392.65,
+        40.916,
+        33.708
+      ],
+      "rules-line-1": [
+        168.149,
+        1013.53,
+        788.954,
+        45.913
+      ],
+      "rules-line-2": [
+        217.296,
+        1074.0,
+        624.407,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          101.897,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          168.149,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          101.897,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-079-friezas-influencing-drill.webp",
+      "before_url": "/assets/cards/frieza-079-friezas-influencing-drill.webp?v=818888566c67",
+      "before_sha256": "818888566c67920479ca0fd9c361a8784ba60ef3d78fde4a9ff3ef9f296f7af4",
+      "after_sha256": "e7058d22a3a436c746cce05bcda56e5c817b42dfd3d2944812461cf7bf7511a8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-079-friezas-influencing-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-079-friezas-influencing-drill.webp?v=a480ad72e2e2",
+      "before_sha256": "a480ad72e2e2cd1bbb93608324ccaa446b89d9630da1d62fe442480434ee57ac",
+      "after_sha256": "d9a6370c94bd4f690e9c367d1ffeebd60ca81e03d6feea5ab00e0c0fe0253680",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 728.6296758104739,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

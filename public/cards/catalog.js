@@ -4908,8 +4908,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/51_375b3167-ae42-4782-9f0f-28054467699e.png?v=1584310562",
     "rarity": "Uncommon",
     "rules": "POWER: All opponents and their Allies lose 2 stages. Banish after use.",
-    "image": "/assets/cards/frieza-051-jeice-shouts.webp?v=51ea607f9c3a",
-    "downloadImage": "/assets/cards/downloads/frieza-051-jeice-shouts.webp?v=3f6c67e70922",
+    "image": "/assets/cards/frieza-051-jeice-shouts.webp?v=6897b04b00d6",
+    "downloadImage": "/assets/cards/downloads/frieza-051-jeice-shouts.webp?v=4374da313a4a",
     "templateVersion": 3
   },
   {
@@ -4925,8 +4925,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/52_114b5996-5de3-4b63-8340-d2e1c2b351d8.png?v=1584310564",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 3 stages. DAMAGE: 5 life cards.",
-    "image": "/assets/cards/frieza-052-jeice-comet-attack.webp?v=a974a45eda61",
-    "downloadImage": "/assets/cards/downloads/frieza-052-jeice-comet-attack.webp?v=96b3aa86a915",
+    "image": "/assets/cards/frieza-052-jeice-comet-attack.webp?v=78e5736d6834",
+    "downloadImage": "/assets/cards/downloads/frieza-052-jeice-comet-attack.webp?v=a3630b3752ea",
     "templateVersion": 3
   },
   {
@@ -4942,8 +4942,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/53_95745fcc-3416-490b-8217-ced74c36cc0e.png?v=1584310565",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 3 stages. DAMAGE: 5 life cards.",
-    "image": "/assets/cards/frieza-053-dodoria-boom.webp?v=99954b8bcde9",
-    "downloadImage": "/assets/cards/downloads/frieza-053-dodoria-boom.webp?v=dbe5dd17dd70",
+    "image": "/assets/cards/frieza-053-dodoria-boom.webp?v=b2788084fcae",
+    "downloadImage": "/assets/cards/downloads/frieza-053-dodoria-boom.webp?v=c0b41e0b13e0",
     "templateVersion": 3
   },
   {
@@ -4959,8 +4959,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/54_501667d0-a9e2-4abc-bd9f-ce05c4439661.png?v=1584310567",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) Stop an energy attack. Place 2 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
-    "image": "/assets/cards/frieza-054-gokus-energy-absorption.webp?v=2875139926b8",
-    "downloadImage": "/assets/cards/downloads/frieza-054-gokus-energy-absorption.webp?v=0a2c2d639697",
+    "image": "/assets/cards/frieza-054-gokus-energy-absorption.webp?v=cb8619b0228b",
+    "downloadImage": "/assets/cards/downloads/frieza-054-gokus-energy-absorption.webp?v=37717ddca7bd",
     "templateVersion": 3
   },
   {
@@ -4976,8 +4976,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/55_a01eeeef-6458-4947-9ca0-e7adc2fde5e3.png?v=1584310568",
     "rarity": "Uncommon",
     "rules": "Villains only. Reduce damage from all attacks against you by 1 stage or 1 life card.",
-    "image": "/assets/cards/frieza-055-guldos-time-freeze-drill.webp?v=6144eb36947a",
-    "downloadImage": "/assets/cards/downloads/frieza-055-guldos-time-freeze-drill.webp?v=bed4a720c380",
+    "image": "/assets/cards/frieza-055-guldos-time-freeze-drill.webp?v=47dc18a9d47d",
+    "downloadImage": "/assets/cards/downloads/frieza-055-guldos-time-freeze-drill.webp?v=7c4b0b57b53f",
     "templateVersion": 3
   },
   {
@@ -4993,8 +4993,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/56_ace4ea56-8636-4954-ba6e-32c9f392cfeb.png?v=1584310570",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 4 stages. DAMAGE: 6 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-056-gohans-anger-blast.webp?v=0f91951e2f53",
-    "downloadImage": "/assets/cards/downloads/frieza-056-gohans-anger-blast.webp?v=2242bab866d0",
+    "image": "/assets/cards/frieza-056-gohans-anger-blast.webp?v=afcfca084865",
+    "downloadImage": "/assets/cards/downloads/frieza-056-gohans-anger-blast.webp?v=abdac93629f8",
     "templateVersion": 3
   },
   {
@@ -5010,8 +5010,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/57_ec19fef0-3714-4506-9fdc-5ba2d28f44da.png?v=1584310572",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
-    "image": "/assets/cards/frieza-057-krillins-anger-blast.webp?v=9c8f7c010c87",
-    "downloadImage": "/assets/cards/downloads/frieza-057-krillins-anger-blast.webp?v=eb63764a6ec0",
+    "image": "/assets/cards/frieza-057-krillins-anger-blast.webp?v=916d09d3bce3",
+    "downloadImage": "/assets/cards/downloads/frieza-057-krillins-anger-blast.webp?v=de1e6d765a37",
     "templateVersion": 3
   },
   {
@@ -5027,8 +5027,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/58_e62c9de3-ec70-40ca-bb5b-c619f1b74dd7.png?v=1584310573",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Your opponent cannot play energy attack cards for the rest of this Combat.",
-    "image": "/assets/cards/frieza-058-tiens-power-burst.webp?v=1d504a29eeb3",
-    "downloadImage": "/assets/cards/downloads/frieza-058-tiens-power-burst.webp?v=ebbc841d730d",
+    "image": "/assets/cards/frieza-058-tiens-power-burst.webp?v=843fe3db44fa",
+    "downloadImage": "/assets/cards/downloads/frieza-058-tiens-power-burst.webp?v=e0512a98cf30",
     "templateVersion": 3
   },
   {
@@ -5044,8 +5044,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/59_9310ef89-6e72-4885-9c4d-33f1e9492406.png?v=1584310574",
     "rarity": "Uncommon",
     "rules": "Stop a physical or energy attack. Banish after use.",
-    "image": "/assets/cards/frieza-059-yamchas-skillful-defense.webp?v=98cbb7c8bae9",
-    "downloadImage": "/assets/cards/downloads/frieza-059-yamchas-skillful-defense.webp?v=6b4a2efd0476",
+    "image": "/assets/cards/frieza-059-yamchas-skillful-defense.webp?v=afdae10efc53",
+    "downloadImage": "/assets/cards/downloads/frieza-059-yamchas-skillful-defense.webp?v=bec5635bad25",
     "templateVersion": 3
   },
   {
@@ -5061,8 +5061,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/60_778d2f35-eb24-4de7-b508-331bbbffcbc6.png?v=1584310576",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Lower all opponents' anger 1 level. Banish after use.",
-    "image": "/assets/cards/frieza-060-vegetas-gallic-gun.webp?v=cfbb11572c37",
-    "downloadImage": "/assets/cards/downloads/frieza-060-vegetas-gallic-gun.webp?v=1ccc76158cb3",
+    "image": "/assets/cards/frieza-060-vegetas-gallic-gun.webp?v=c1d1319fef5d",
+    "downloadImage": "/assets/cards/downloads/frieza-060-vegetas-gallic-gun.webp?v=2ce6e4c89c1f",
     "templateVersion": 3
   },
   {
@@ -5078,8 +5078,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/61_0b2224f6-ee97-46b2-b029-22925e41c2eb.png?v=1584310577",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 1 stage. DAMAGE: 4 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-061-vegetas-powering-up.webp?v=33a242c7d83d",
-    "downloadImage": "/assets/cards/downloads/frieza-061-vegetas-powering-up.webp?v=7ab3ac773070"
+    "image": "/assets/cards/frieza-061-vegetas-powering-up.webp?v=24cb5033a37e",
+    "downloadImage": "/assets/cards/downloads/frieza-061-vegetas-powering-up.webp?v=5c64a23f8d85",
+    "templateVersion": 3
   },
   {
     "id": "frieza-062-captain-ginyus-visionary-attack",
@@ -5094,8 +5095,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/62_475119b8-511f-41ac-8398-14aba5236889.png?v=1584310579",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 1 stage. DAMAGE: 4 life cards.",
-    "image": "/assets/cards/frieza-062-captain-ginyus-visionary-attack.webp?v=89b5a71fd3e4",
-    "downloadImage": "/assets/cards/downloads/frieza-062-captain-ginyus-visionary-attack.webp?v=a2e34bfeddef"
+    "image": "/assets/cards/frieza-062-captain-ginyus-visionary-attack.webp?v=9adcbe2514c5",
+    "downloadImage": "/assets/cards/downloads/frieza-062-captain-ginyus-visionary-attack.webp?v=a17dd7d2e16e",
+    "templateVersion": 3
   },
   {
     "id": "frieza-063-yajirobes-gifting-drill",
@@ -5110,8 +5112,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/63_846e7ff6-9c5d-47a6-af98-0aa5ad28c314.png?v=1584310580",
     "rarity": "Uncommon",
     "rules": "Reduce damage from all attacks against you by 1 stage or 1 life card.",
-    "image": "/assets/cards/frieza-063-yajirobes-gifting-drill.webp?v=a2bbff595258",
-    "downloadImage": "/assets/cards/downloads/frieza-063-yajirobes-gifting-drill.webp?v=b494e15e3b83"
+    "image": "/assets/cards/frieza-063-yajirobes-gifting-drill.webp?v=356b2bbb930d",
+    "downloadImage": "/assets/cards/downloads/frieza-063-yajirobes-gifting-drill.webp?v=1263903a268e",
+    "templateVersion": 3
   },
   {
     "id": "frieza-064-chiaotzus-glaring-power",
@@ -5126,8 +5129,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/64_4c0351df-35c8-4920-bfbe-221d9b2bf717.png?v=1584310582",
     "rarity": "Uncommon",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-064-chiaotzus-glaring-power.webp?v=7eb97c53a829",
-    "downloadImage": "/assets/cards/downloads/frieza-064-chiaotzus-glaring-power.webp?v=06f4dd4a156e"
+    "image": "/assets/cards/frieza-064-chiaotzus-glaring-power.webp?v=9fa461a94bc8",
+    "downloadImage": "/assets/cards/downloads/frieza-064-chiaotzus-glaring-power.webp?v=2a9dab3c6c07",
+    "templateVersion": 3
   },
   {
     "id": "frieza-065-red-energy-defense-drill",
@@ -5142,8 +5146,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/65_99652df3-29c2-4429-adc9-0f3997d336cf.png?v=1584310583",
     "rarity": "Uncommon",
     "rules": "Energy attacks against you deal -1 life card of damage, to a minimum of 0.",
-    "image": "/assets/cards/frieza-065-red-energy-defense-drill.webp?v=87c420b38a8f",
-    "downloadImage": "/assets/cards/downloads/frieza-065-red-energy-defense-drill.webp?v=c3768e08de54"
+    "image": "/assets/cards/frieza-065-red-energy-defense-drill.webp?v=b8e421a4636d",
+    "downloadImage": "/assets/cards/downloads/frieza-065-red-energy-defense-drill.webp?v=d57975657494",
+    "templateVersion": 3
   },
   {
     "id": "frieza-066-blue-mental-drill",
@@ -5158,8 +5163,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/66_0ccd43e1-0c76-4922-b04c-6f80d8fb0155.png?v=1584310588",
     "rarity": "Uncommon",
     "rules": "Your opponents play with their hands revealed.",
-    "image": "/assets/cards/frieza-066-blue-mental-drill.webp?v=b360ab9fb9f5",
-    "downloadImage": "/assets/cards/downloads/frieza-066-blue-mental-drill.webp?v=503ccfd21678"
+    "image": "/assets/cards/frieza-066-blue-mental-drill.webp?v=fd5a582ce126",
+    "downloadImage": "/assets/cards/downloads/frieza-066-blue-mental-drill.webp?v=d317e0a18916",
+    "templateVersion": 3
   },
   {
     "id": "frieza-067-orange-destruction-drill",
@@ -5174,8 +5180,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/67_71f6a578-969b-4b29-9569-a023964b516d.png?v=1584310590",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) At the beginning of each turn, discard 1 of your opponents' Setups or Drills in play.",
-    "image": "/assets/cards/frieza-067-orange-destruction-drill.webp?v=21eaeed3d0b4",
-    "downloadImage": "/assets/cards/downloads/frieza-067-orange-destruction-drill.webp?v=2493fbc25e42"
+    "image": "/assets/cards/frieza-067-orange-destruction-drill.webp?v=bdf6c272cfac",
+    "downloadImage": "/assets/cards/downloads/frieza-067-orange-destruction-drill.webp?v=84c10ce8ca0f",
+    "templateVersion": 3
   },
   {
     "id": "frieza-068-black-zarbon-transformation-drill",
@@ -5190,8 +5197,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/68_c7b177a5-1918-43cd-8a79-b50e442dcefc.png?v=1584310591",
     "rarity": "Uncommon",
     "rules": "Your PUR is +1.",
-    "image": "/assets/cards/frieza-068-black-zarbon-transformation-drill.webp?v=d3f223e82b87",
-    "downloadImage": "/assets/cards/downloads/frieza-068-black-zarbon-transformation-drill.webp?v=222c4dbc28ef"
+    "image": "/assets/cards/frieza-068-black-zarbon-transformation-drill.webp?v=1a7477be8538",
+    "downloadImage": "/assets/cards/downloads/frieza-068-black-zarbon-transformation-drill.webp?v=d54acde8a710",
+    "templateVersion": 3
   },
   {
     "id": "frieza-069-red-phasing-drill",
@@ -5206,8 +5214,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/69_6fff2762-29fb-4d06-997d-d61eb1b8bb89.png?v=1584310593",
     "rarity": "Uncommon",
     "rules": "Your energy attacks against a Villain deal +3 life cards of damage.",
-    "image": "/assets/cards/frieza-069-red-phasing-drill.webp?v=d4f2872c406d",
-    "downloadImage": "/assets/cards/downloads/frieza-069-red-phasing-drill.webp?v=83c22ba919ea"
+    "image": "/assets/cards/frieza-069-red-phasing-drill.webp?v=dd45e25d3dba",
+    "downloadImage": "/assets/cards/downloads/frieza-069-red-phasing-drill.webp?v=120d4abf3d0f",
+    "templateVersion": 3
   },
   {
     "id": "frieza-070-blue-allies-drill",
@@ -5222,8 +5231,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/70_2f8e3b1e-187c-4230-ab7e-9108477efd91.png?v=1584310594",
     "rarity": "Uncommon",
     "rules": "Once per turn, after your physical attack hits an opponent, search your Life Deck for a level 1 Ally and put it into your hand.",
-    "image": "/assets/cards/frieza-070-blue-allies-drill.webp?v=9cbd006b8b5a",
-    "downloadImage": "/assets/cards/downloads/frieza-070-blue-allies-drill.webp?v=e672c9631feb"
+    "image": "/assets/cards/frieza-070-blue-allies-drill.webp?v=c2cf9342ce37",
+    "downloadImage": "/assets/cards/downloads/frieza-070-blue-allies-drill.webp?v=fc87199199d3",
+    "templateVersion": 3
   },
   {
     "id": "frieza-071-orange-leg-drill",
@@ -5238,8 +5248,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/71_b2aea1b7-80d3-405d-b0cd-961645f33a4a.png?v=1584310596",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) Physical attacks against you deal -2 stages of damage, to a minimum of 0.",
-    "image": "/assets/cards/frieza-071-orange-leg-drill.webp?v=866056a0610b",
-    "downloadImage": "/assets/cards/downloads/frieza-071-orange-leg-drill.webp?v=2e425be90a37"
+    "image": "/assets/cards/frieza-071-orange-leg-drill.webp?v=40862a506cdc",
+    "downloadImage": "/assets/cards/downloads/frieza-071-orange-leg-drill.webp?v=1120bc475fe2",
+    "templateVersion": 3
   },
   {
     "id": "frieza-072-black-energy-stamina-drill",
@@ -5254,8 +5265,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/72_75b6a972-6e1e-4003-93e5-a00ed2cade75.png?v=1584310597",
     "rarity": "Uncommon",
     "rules": "Your energy attacks cost 1 stage after all other card and effect modifiers.",
-    "image": "/assets/cards/frieza-072-black-energy-stamina-drill.webp?v=446978dd7191",
-    "downloadImage": "/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp?v=c759bf4b7f39"
+    "image": "/assets/cards/frieza-072-black-energy-stamina-drill.webp?v=5115fad37b79",
+    "downloadImage": "/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp?v=1eb939b6d5d8",
+    "templateVersion": 3
   },
   {
     "id": "frieza-073-red-implosion-drill",
@@ -5270,8 +5282,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/73_de58a0fd-5114-429f-8f87-aec1c812edc2.png?v=1584310599",
     "rarity": "Uncommon",
     "rules": "Your successful energy attacks deal +2 life cards of damage.",
-    "image": "/assets/cards/frieza-073-red-implosion-drill.webp?v=c8187d16cedf",
-    "downloadImage": "/assets/cards/downloads/frieza-073-red-implosion-drill.webp?v=baab0134837f"
+    "image": "/assets/cards/frieza-073-red-implosion-drill.webp?v=664978babca7",
+    "downloadImage": "/assets/cards/downloads/frieza-073-red-implosion-drill.webp?v=6b8938cd4c11",
+    "templateVersion": 3
   },
   {
     "id": "frieza-074-captain-ginyu-reversal-drill",
@@ -5286,8 +5299,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/74_9eafaa0b-5cf9-4c4f-9898-cfc653489978.png?v=1584310600",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) Villains only. For every 3 stages of damage you take from an attack, your opponent takes 1 stage of damage.",
-    "image": "/assets/cards/frieza-074-captain-ginyu-reversal-drill.webp?v=e6095882c7fb",
-    "downloadImage": "/assets/cards/downloads/frieza-074-captain-ginyu-reversal-drill.webp?v=6c6a7a3d61e8"
+    "image": "/assets/cards/frieza-074-captain-ginyu-reversal-drill.webp?v=9dd13ce1473e",
+    "downloadImage": "/assets/cards/downloads/frieza-074-captain-ginyu-reversal-drill.webp?v=7fec5d236a02",
+    "templateVersion": 3
   },
   {
     "id": "frieza-075-jeices-style-drill",
@@ -5302,8 +5316,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/75_5918430d-7fb6-4ba0-9311-2fadf4398f7d.png?v=1584310602",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) Stop the first energy attack against you each Combat.",
-    "image": "/assets/cards/frieza-075-jeices-style-drill.webp?v=39f572d58afb",
-    "downloadImage": "/assets/cards/downloads/frieza-075-jeices-style-drill.webp?v=dda6c3e37f1d"
+    "image": "/assets/cards/frieza-075-jeices-style-drill.webp?v=f8c244900814",
+    "downloadImage": "/assets/cards/downloads/frieza-075-jeices-style-drill.webp?v=3cfe78594b50",
+    "templateVersion": 3
   },
   {
     "id": "frieza-076-vegetas-getting-bashed-drill",
@@ -5318,8 +5333,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/76_3450f46f-5ebd-403d-a736-cf3a9ee55a31.png?v=1584310603",
     "rarity": "Uncommon",
     "rules": "Vegeta, Goku, Gohan, Nappa, and Raditz only. Your successful energy attacks deal +1 life card of damage.",
-    "image": "/assets/cards/frieza-076-vegetas-getting-bashed-drill.webp?v=0fe183720f16",
-    "downloadImage": "/assets/cards/downloads/frieza-076-vegetas-getting-bashed-drill.webp?v=d9c0e88e21e0"
+    "image": "/assets/cards/frieza-076-vegetas-getting-bashed-drill.webp?v=eb526497da28",
+    "downloadImage": "/assets/cards/downloads/frieza-076-vegetas-getting-bashed-drill.webp?v=0d7fcd9cc911",
+    "templateVersion": 3
   },
   {
     "id": "frieza-077-dende-healing-drill",
@@ -5334,8 +5350,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/77_9e8bfd4a-d33f-4858-8185-3a71bafbc53a.png?v=1584310605",
     "rarity": "Uncommon",
     "rules": "Your PUR is +3 while Dende is anywhere in play.",
-    "image": "/assets/cards/frieza-077-dende-healing-drill.webp?v=8ba8bb5b620e",
-    "downloadImage": "/assets/cards/downloads/frieza-077-dende-healing-drill.webp?v=da01b1bd4471"
+    "image": "/assets/cards/frieza-077-dende-healing-drill.webp?v=68f3ae64352b",
+    "downloadImage": "/assets/cards/downloads/frieza-077-dende-healing-drill.webp?v=8ef308e9c79c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-078-gohan-anger-drill",
@@ -5350,8 +5367,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/78_fa2b0a7a-a4de-4cd9-b5d3-ff4e5ac24c59.png?v=1584310606",
     "rarity": "Uncommon",
     "rules": "Once per Combat, after you hit with both a physical attack and an energy attack this Combat, raise your anger 1 level.",
-    "image": "/assets/cards/frieza-078-gohan-anger-drill.webp?v=e52545635eda",
-    "downloadImage": "/assets/cards/downloads/frieza-078-gohan-anger-drill.webp?v=9564749efe63"
+    "image": "/assets/cards/frieza-078-gohan-anger-drill.webp?v=a024ef76b1a4",
+    "downloadImage": "/assets/cards/downloads/frieza-078-gohan-anger-drill.webp?v=b4d504390c8e",
+    "templateVersion": 3
   },
   {
     "id": "frieza-079-friezas-influencing-drill",
@@ -5366,8 +5384,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/79_476e9831-429e-4424-b5cf-c1309fd6595a.png?v=1584310608",
     "rarity": "Uncommon",
     "rules": "After your energy attack hits your opponent, lower that opponent's anger 1 level.",
-    "image": "/assets/cards/frieza-079-friezas-influencing-drill.webp?v=818888566c67",
-    "downloadImage": "/assets/cards/downloads/frieza-079-friezas-influencing-drill.webp?v=a480ad72e2e2"
+    "image": "/assets/cards/frieza-079-friezas-influencing-drill.webp?v=e7058d22a3a4",
+    "downloadImage": "/assets/cards/downloads/frieza-079-friezas-influencing-drill.webp?v=d9a6370c94bd",
+    "templateVersion": 3
   },
   {
     "id": "frieza-080-black-erasing-drill",
@@ -5382,8 +5401,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/80_e1e1a5fa-f222-4410-bcba-e85b746e3da1.png?v=1584310609",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) After your energy attack hits, banish 1 of your opponents' Setups or Drills in play.",
-    "image": "/assets/cards/frieza-080-black-erasing-drill.webp?v=794c1077919a",
-    "downloadImage": "/assets/cards/downloads/frieza-080-black-erasing-drill.webp?v=15794187ee6a"
+    "image": "/assets/cards/frieza-080-black-erasing-drill.webp?v=a36f8f7166c3",
+    "downloadImage": "/assets/cards/downloads/frieza-080-black-erasing-drill.webp?v=46ee710c4c33",
+    "templateVersion": 3
   },
   {
     "id": "frieza-081-krillin-s-power-block",
@@ -5398,8 +5418,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/81_e78d9239-09bf-4c08-888b-0583c6220e2d.png?v=1584310611",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Your opponent cannot perform physical attacks for the rest of this Combat. Banish after use.",
-    "image": "/assets/cards/frieza-081-krillin-s-power-block.webp?v=253a15d8f285",
-    "downloadImage": "/assets/cards/downloads/frieza-081-krillin-s-power-block.webp?v=90c538831dc0"
+    "image": "/assets/cards/frieza-081-krillin-s-power-block.webp?v=2a8dd68a2d2d",
+    "downloadImage": "/assets/cards/downloads/frieza-081-krillin-s-power-block.webp?v=26418ac0a162",
+    "templateVersion": 3
   },
   {
     "id": "frieza-082-black-standing-position",
@@ -5414,8 +5435,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/82_c8e2c780-af6d-4f62-9ec8-71da6ab6ee37.png?v=1584310613",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: No other Physical Combat cards can be played for the rest of this Combat.",
-    "image": "/assets/cards/frieza-082-black-standing-position.webp?v=21964d55445a",
-    "downloadImage": "/assets/cards/downloads/frieza-082-black-standing-position.webp?v=c604c2cc70dd"
+    "image": "/assets/cards/frieza-082-black-standing-position.webp?v=feedadfdf7e9",
+    "downloadImage": "/assets/cards/downloads/frieza-082-black-standing-position.webp?v=669f5c7f295c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-083-black-right-cross",
@@ -5430,8 +5452,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/83_e749b1f4-7faf-4d05-9993-41b04f606ae8.png?v=1584310615",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: 3 stages. Do not use the AT.",
-    "image": "/assets/cards/frieza-083-black-right-cross.webp?v=9aac057df9ae",
-    "downloadImage": "/assets/cards/downloads/frieza-083-black-right-cross.webp?v=12a4ed974272"
+    "image": "/assets/cards/frieza-083-black-right-cross.webp?v=10639b255cea",
+    "downloadImage": "/assets/cards/downloads/frieza-083-black-right-cross.webp?v=97cdb83a5328",
+    "templateVersion": 3
   },
   {
     "id": "frieza-084-black-driving-leg-thrust",
@@ -5446,8 +5469,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/84_a6f436ea-5d20-45d3-b762-0687d26ba0ee.png?v=1584310616",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: 4 stages. Do not use the AT.",
-    "image": "/assets/cards/frieza-084-black-driving-leg-thrust.webp?v=589fec4d7890",
-    "downloadImage": "/assets/cards/downloads/frieza-084-black-driving-leg-thrust.webp?v=f8707c3ff4ad"
+    "image": "/assets/cards/frieza-084-black-driving-leg-thrust.webp?v=d2c895d23b98",
+    "downloadImage": "/assets/cards/downloads/frieza-084-black-driving-leg-thrust.webp?v=c203143b2f2e",
+    "templateVersion": 3
   },
   {
     "id": "frieza-085-straining-outburst-move",
@@ -5462,8 +5486,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/85_f39b0570-89ee-46ee-913c-13948e962ebf.png?v=1584310619",
     "rarity": "Uncommon",
     "rules": "Physical attack costing 3 stages. DAMAGE: 5 life cards.",
-    "image": "/assets/cards/frieza-085-straining-outburst-move.webp?v=c346549c3254",
-    "downloadImage": "/assets/cards/downloads/frieza-085-straining-outburst-move.webp?v=6e17e9c5f66f"
+    "image": "/assets/cards/frieza-085-straining-outburst-move.webp?v=52e49e49e392",
+    "downloadImage": "/assets/cards/downloads/frieza-085-straining-outburst-move.webp?v=06219e177c18",
+    "templateVersion": 3
   },
   {
     "id": "frieza-086-straining-neck-move",
@@ -5478,8 +5503,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/86_7f1a2cb7-2584-4079-af93-51a6d2a79461.png?v=1584310620",
     "rarity": "Uncommon",
     "rules": "Physical attack costing 1 life card. DAMAGE: AT stages. HIT: Discard all your opponent's Drills in play.",
-    "image": "/assets/cards/frieza-086-straining-neck-move.webp?v=b8eedbefc612",
-    "downloadImage": "/assets/cards/downloads/frieza-086-straining-neck-move.webp?v=9eaea9280b4e"
+    "image": "/assets/cards/frieza-086-straining-neck-move.webp?v=1885200964b9",
+    "downloadImage": "/assets/cards/downloads/frieza-086-straining-neck-move.webp?v=a411eea019e4",
+    "templateVersion": 3
   },
   {
     "id": "frieza-087-krillin-s-concentration",
@@ -5494,8 +5520,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/87_7ba0e50c-d954-4ed0-8d0c-1f8f5bdc25c2.png?v=1584310622",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) POWER: Search your Life Deck for 1 Event and put it into your hand.",
-    "image": "/assets/cards/frieza-087-krillin-s-concentration.webp?v=2b2c194f4f30",
-    "downloadImage": "/assets/cards/downloads/frieza-087-krillin-s-concentration.webp?v=f674bf75e2a0"
+    "image": "/assets/cards/frieza-087-krillin-s-concentration.webp?v=6c2716acc626",
+    "downloadImage": "/assets/cards/downloads/frieza-087-krillin-s-concentration.webp?v=4f9445f6b277",
+    "templateVersion": 3
   },
   {
     "id": "frieza-088-hero-enraged",
@@ -5510,8 +5537,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/88_164a8c21-7335-400a-af29-3a526cc3fdd2.png?v=1584310624",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) Heroes only. POWER: Raise your anger 2 levels. Place any 2 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
-    "image": "/assets/cards/frieza-088-hero-enraged.webp?v=d2db11a8d18f",
-    "downloadImage": "/assets/cards/downloads/frieza-088-hero-enraged.webp?v=d5a8559299de"
+    "image": "/assets/cards/frieza-088-hero-enraged.webp?v=3f921c0a72ab",
+    "downloadImage": "/assets/cards/downloads/frieza-088-hero-enraged.webp?v=0285f0c9c98f",
+    "templateVersion": 3
   },
   {
     "id": "frieza-089-vegeta-on-namek",
@@ -5542,8 +5570,9 @@ export const catalog = [
       125000,
       0
     ],
-    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=182a7f39dfd4",
-    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=1adb33975e05"
+    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=66d89230aa68",
+    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=fb814f6529c7",
+    "templateVersion": 3
   },
   {
     "id": "frieza-090-krillin-on-namek",
@@ -5574,8 +5603,9 @@ export const catalog = [
       95000,
       0
     ],
-    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=020855a3f561",
-    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=300125284ebf"
+    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=ddca9b97f7bb",
+    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=31e944b2a87c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-091-nappa-restored",
@@ -5606,8 +5636,9 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=6676f986585c",
-    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=e90a71c6f475"
+    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=6891d281b228",
+    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=56ecf3791c7b",
+    "templateVersion": 3
   },
   {
     "id": "frieza-092-raditz-restored",
@@ -5638,8 +5669,9 @@ export const catalog = [
       20000,
       0
     ],
-    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=f6b6c42567c7",
-    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=7d76c7d87841"
+    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=06b065375159",
+    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=8e5f0e0ed78d",
+    "templateVersion": 3
   },
   {
     "id": "frieza-093-goku-on-namek",
@@ -5670,8 +5702,9 @@ export const catalog = [
       480000,
       0
     ],
-    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=0771d2d1ef79",
-    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=ca2ddea521dd"
+    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=6ff8bb7be4a8",
+    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=eef7bc038f15",
+    "templateVersion": 3
   },
   {
     "id": "frieza-094-piccolo",
@@ -5702,8 +5735,9 @@ export const catalog = [
       120000,
       0
     ],
-    "image": "/assets/cards/frieza-094-piccolo.webp?v=6842ebc5f60d",
-    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=bcac1ed390ac"
+    "image": "/assets/cards/frieza-094-piccolo.webp?v=810b8deecfa8",
+    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=536dd199671c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-095-gohan",
@@ -5734,8 +5768,9 @@ export const catalog = [
       110000,
       0
     ],
-    "image": "/assets/cards/frieza-095-gohan.webp?v=dda913823971",
-    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=3631c12269ef"
+    "image": "/assets/cards/frieza-095-gohan.webp?v=0849c61c7941",
+    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=07b7d34c933a",
+    "templateVersion": 3
   },
   {
     "id": "frieza-096-nail-the-namekian",
@@ -5766,8 +5801,9 @@ export const catalog = [
       48000,
       0
     ],
-    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=08760505e8c5",
-    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=3d975d528fc8"
+    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=0d6a26999140",
+    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=23ba340c3058",
+    "templateVersion": 3
   },
   {
     "id": "frieza-097-straining-force-positioning-move",
@@ -5782,8 +5818,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/97_41b096f9-0e86-49cb-9385-aed8d0d1dafa.png?v=1584310638",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: All Allies lose 2 stages; this loss cannot cause life-card damage.",
-    "image": "/assets/cards/frieza-097-straining-force-positioning-move.webp?v=3778042f806d",
-    "downloadImage": "/assets/cards/downloads/frieza-097-straining-force-positioning-move.webp?v=6468c808db4b"
+    "image": "/assets/cards/frieza-097-straining-force-positioning-move.webp?v=bf0d1aa79bcd",
+    "downloadImage": "/assets/cards/downloads/frieza-097-straining-force-positioning-move.webp?v=8eab7862979a",
+    "templateVersion": 3
   },
   {
     "id": "frieza-098-blue-stance",
@@ -5798,8 +5835,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/98_2751d42b-59b8-42c9-90c0-cf4af355db70.png?v=1584310640",
     "rarity": "Rare",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 2 levels. Lower your opponent's anger 1 level.",
-    "image": "/assets/cards/frieza-098-blue-stance.webp?v=5658994a6392",
-    "downloadImage": "/assets/cards/downloads/frieza-098-blue-stance.webp?v=e4f3d423a9df"
+    "image": "/assets/cards/frieza-098-blue-stance.webp?v=a4951a9512d3",
+    "downloadImage": "/assets/cards/downloads/frieza-098-blue-stance.webp?v=a0fb42060de2",
+    "templateVersion": 3
   },
   {
     "id": "frieza-099-blue-energy-outburst",
@@ -5814,8 +5852,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/99_0fae5046-d941-44e0-96e5-8391c8b396ae.png?v=1584310641",
     "rarity": "Rare",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level. Lower your opponent's anger 2 levels.",
-    "image": "/assets/cards/frieza-099-blue-energy-outburst.webp?v=27a4266d4a62",
-    "downloadImage": "/assets/cards/downloads/frieza-099-blue-energy-outburst.webp?v=5d92b988b1c5"
+    "image": "/assets/cards/frieza-099-blue-energy-outburst.webp?v=e8e18433fe7c",
+    "downloadImage": "/assets/cards/downloads/frieza-099-blue-energy-outburst.webp?v=b0454d57c3ad",
+    "templateVersion": 3
   },
   {
     "id": "frieza-100-kami-as-your-ally",
@@ -5830,8 +5869,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/100_63af2f5e-06b0-409b-8c5d-6209c2b622f5.png?v=1636810442",
     "rarity": "Rare",
     "rules": "POWER: All opponents search their discard piles and Life Decks for all copies of Kami Fades and banish them. Banish after use.",
-    "image": "/assets/cards/frieza-100-kami-as-your-ally.webp?v=aa4eed928c23",
-    "downloadImage": "/assets/cards/downloads/frieza-100-kami-as-your-ally.webp?v=2f7e2168b865"
+    "image": "/assets/cards/frieza-100-kami-as-your-ally.webp?v=f0df2d400cf0",
+    "downloadImage": "/assets/cards/downloads/frieza-100-kami-as-your-ally.webp?v=83933d5dc21e",
+    "templateVersion": 3
   },
   {
     "id": "frieza-101-hero-teamwork-drill",

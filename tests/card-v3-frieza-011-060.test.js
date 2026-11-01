@@ -51,7 +51,7 @@ test('Frieza 1–50 use the current mirrored footer without changing unrelated p
  assert.equal(release.cards,50);assert.equal(release.independently_verified_exports,100);
  assert.equal(release.pixels_changed_outside_footer_ink_footprint,0);
  assert.deepEqual(checks.map(c=>c.number),Array.from({length:50},(_,i)=>i+1));
- assert.equal(rows.filter(r=>r.footer_spacing_revision).length,50);
+ assert.equal(rows.filter(r=>r.number<=50&&r.footer_spacing_revision).length,50);
  for(const check of checks){
   const row=rows.find(r=>r.id===check.id),card=catalog.find(c=>c.id===row.id);
   assert.equal(card.templateVersion,3);assert.deepEqual(row.footer_spacing_revision,check);

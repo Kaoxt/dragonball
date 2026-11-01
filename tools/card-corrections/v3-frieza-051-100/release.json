@@ -1,0 +1,57 @@
+{
+  "baseline_commit": "fff1045e371698818e100baa749b6df6a165a0c4",
+  "scope": "Frieza Saga 051\u2013100",
+  "cards": 50,
+  "new_v3_migrations": 40,
+  "footer_only_repairs": 10,
+  "verified_exports": 100,
+  "display_size": [
+    1060,
+    1484
+  ],
+  "download_size": [
+    2120,
+    2968
+  ],
+  "native_personalities": 8,
+  "new_villains_with_red_corners": 3,
+  "original_scans_reviewed": 50,
+  "localized_sky_corrections": [
+    85,
+    87,
+    97,
+    100
+  ],
+  "original_pose_correction": 89,
+  "retained_expression_correction": 96,
+  "unresolved_source_detail_cards": [
+    54,
+    55,
+    65,
+    67,
+    70,
+    71,
+    72,
+    73,
+    75,
+    77,
+    79,
+    82,
+    93,
+    94,
+    95,
+    98,
+    99
+  ],
+  "validation": {
+    "node_tests": 194,
+    "python_tests": 6,
+    "build_dry_run": "passed; metrics disabled",
+    "native_and_export_verification": "40 of 40",
+    "independent_footer_checks": "20 of 20; zero unrelated pixel changes",
+    "scoped_card_type_findings": 0
+  },
+  "catalog_scope": "Only 50 image/download URL pairs and 40 templateVersion values change; rules and all other cards are unchanged.",
+  "next_card": 101,
+  "source_detail_note": "Includes small or obscured facial details; consult individual observations rather than treating these as exact expression passes."
+}

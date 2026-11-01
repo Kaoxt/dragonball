@@ -1,0 +1,221 @@
+{
+  "personality_values": null,
+  "number": 62,
+  "id": "frieza-062-captain-ginyus-visionary-attack",
+  "name": "Captain Ginyu's Visionary Attack",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-062-captain-ginyus-visionary-attack.svg",
+  "native_source_sha256": "d65b7e140d8c974499ece67523bb38f63c60f62dc7e8e13912444009be5a5c8f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1489a10a0491e65e62f3d582293e297209036a50fab5ad7b6864f6e37de0b5c6.png",
+      "sha256": "1489a10a0491e65e62f3d582293e297209036a50fab5ad7b6864f6e37de0b5c6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "1489a10a0491e65e62f3d582293e297209036a50fab5ad7b6864f6e37de0b5c6",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 851.0901555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.3111,
+        760.0,
+        53.3777
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.177,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.976,
+        1392.65,
+        42.347,
+        33.708
+      ],
+      "rules-line-1": [
+        159.212,
+        1013.53,
+        795.172,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          104.616,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          159.212,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          104.616,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-062-captain-ginyus-visionary-attack.webp",
+      "before_url": "/assets/cards/frieza-062-captain-ginyus-visionary-attack.webp?v=89b5a71fd3e4",
+      "before_sha256": "89b5a71fd3e4ceb9a612d21908cb9d0b19f5ed005cec9d47bb3eb4de456d62e2",
+      "after_sha256": "9adcbe2514c59fcd633bb6f456617895451803b035d11e8d62dd2b2a64d4282c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-062-captain-ginyus-visionary-attack.webp",
+      "before_url": "/assets/cards/downloads/frieza-062-captain-ginyus-visionary-attack.webp?v=a2e34bfeddef",
+      "before_sha256": "a2e34bfeddefe8282733397d490c8815f6eec4dc654de3e3ad0ba7dfa8fb9dea",
+      "after_sha256": "a17dd7d2e16e732a43f4f11125caa635074c14b2b974b8956b77f7b406736903",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 66.55574043261231,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 53.37770382695507,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.7735899105355807
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

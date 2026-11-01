@@ -1,0 +1,234 @@
+{
+  "personality_values": null,
+  "number": 70,
+  "id": "frieza-070-blue-allies-drill",
+  "name": "Blue Allies Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-070-blue-allies-drill.svg",
+  "native_source_sha256": "79e46c1a21e9b648184ae3b19271c7812d23b609acb97a6b914bf91306c339fd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/27e640eaba85775c5c466e50a6e3ee0977e2c7ee20cdca69205f29cb3ec12ab6.png",
+      "sha256": "27e640eaba85775c5c466e50a6e3ee0977e2c7ee20cdca69205f29cb3ec12ab6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "27e640eaba85775c5c466e50a6e3ee0977e2c7ee20cdca69205f29cb3ec12ab6",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Once per turn, after your physical attack hits",
+      "baseline": 1049.3,
+      "width": 864.93075,
+      "icon_inline": true
+    },
+    {
+      "text": "an opponent, search your Life Deck for a level 1",
+      "baseline": 1108.3,
+      "width": 839.5659999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Ally and put it into your hand.",
+      "baseline": 1167.3,
+      "width": 519.4000000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        302.669,
+        50.2213,
+        453.662,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.654,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.453,
+        1392.65,
+        41.393,
+        33.708
+      ],
+      "rules-line-1": [
+        164.711,
+        1013.53,
+        796.838,
+        45.521
+      ],
+      "rules-line-2": [
+        111.163,
+        1072.53,
+        836.675,
+        45.521
+      ],
+      "rules-line-3": [
+        270.913,
+        1131.53,
+        517.174,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "O",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          97.4511,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          164.711,
+          1014.61,
+          19.845,
+          35.084
+        ],
+        "new_visible_bounds": [
+          97.4511,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-070-blue-allies-drill.webp",
+      "before_url": "/assets/cards/frieza-070-blue-allies-drill.webp?v=9cbd006b8b5a",
+      "before_sha256": "9cbd006b8b5a065314d8af057d6032c12debb3d37cbdd23f7d0cea33877a0e5b",
+      "after_sha256": "c2cf9342ce374b45e2029541cee147685b4847038d93c8c8efff4b8b0e7d0f26",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-070-blue-allies-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-070-blue-allies-drill.webp?v=e672c9631feb",
+      "before_sha256": "e672c9631feb40ce0968832b0709c68d893a953adef24845768039fa24c38c9c",
+      "after_sha256": "fc87199199d33216e1d1e8a82974e37376679389ee644cec89355e1accdf4034",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 453.66209476309234,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

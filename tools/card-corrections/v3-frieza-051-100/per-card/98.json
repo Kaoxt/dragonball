@@ -1,0 +1,233 @@
+{
+  "personality_values": null,
+  "number": 98,
+  "id": "frieza-098-blue-stance",
+  "name": "Blue Stance",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-098-blue-stance.svg",
+  "native_source_sha256": "0a409d1951a142e0d35e60e70340d6de64bf4840a1ff88a593c051c596db6aa7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c353c55e42b50e729a2b2f7d5220435e8d8a1bc41beff0e4e328d9aaefcb0ddb.png",
+      "sha256": "c353c55e42b50e729a2b2f7d5220435e8d8a1bc41beff0e4e328d9aaefcb0ddb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c353c55e42b50e729a2b2f7d5220435e8d8a1bc41beff0e4e328d9aaefcb0ddb",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+      "baseline": 1049.3,
+      "width": 876.6191555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Raise your anger 2 levels. Lower your",
+      "baseline": 1108.3,
+      "width": 787.626,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 436.59000000000015,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        353.042,
+        50.2213,
+        352.915,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.249,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.049,
+        1392.65,
+        44.202,
+        33.708
+      ],
+      "rules-line-1": [
+        146.447,
+        1013.53,
+        820.701,
+        45.913
+      ],
+      "rules-line-2": [
+        136.633,
+        1072.53,
+        785.735,
+        45.913
+      ],
+      "rules-line-3": [
+        312.748,
+        1133.0,
+        433.503,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.447,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-098-blue-stance.webp",
+      "before_url": "/assets/cards/frieza-098-blue-stance.webp?v=5658994a6392",
+      "before_sha256": "5658994a6392b11e3aa353b05ed8eb7d1d9ca214d362424e19289b04566d2003",
+      "after_sha256": "a4951a9512d33ac7e4f4e26c3a352a9db48182c33547021dc9abd37a521ccceb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-098-blue-stance.webp",
+      "before_url": "/assets/cards/downloads/frieza-098-blue-stance.webp?v=e4f3d423a9df",
+      "before_sha256": "e4f3d423a9df810e92dbf0fecab8bf9f2406285d6a0f83ec42bc839e52d113b0",
+      "after_sha256": "a0fb42060de25f1771d1fc876a1a44d19d736f5098ab50d896f541008b9a795a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 352.91521197007484,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}
