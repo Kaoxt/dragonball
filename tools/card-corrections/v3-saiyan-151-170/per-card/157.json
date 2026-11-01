@@ -1,0 +1,260 @@
+{
+  "number": 157,
+  "id": "saiyan-157-eyes-of-the-dragon",
+  "name": "Eyes of the Dragon",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-157-eyes-of-the-dragon.svg",
+  "native_source_sha256": "beaff3e790be42006392bf6474a86d05941ec6c7572c1b2e9ea5340993767425",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/45e49df59513478a96c4cd7cc54d75f89caecfa77d1d8f765a873d9771779b37.png",
+      "sha256": "45e49df59513478a96c4cd7cc54d75f89caecfa77d1d8f765a873d9771779b37"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "b71b0d11c96af72113438f40923be43ea73e9573d43f12634562b519c7c873ac",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Use when needed.",
+      "baseline": 1049.3,
+      "width": 797.7199999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "After you perform a successful energy attack,",
+      "baseline": 1108.3,
+      "width": 820.8480000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "search your Life Deck for a Dragon Ball and place",
+      "baseline": 1167.3,
+      "width": 874.16,
+      "icon_inline": false
+    },
+    {
+      "text": "it in play, then capture an opponent's Dragon Ball.",
+      "baseline": 1226.3,
+      "width": 880.481,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        249.973,
+        44.5,
+        559.055,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        57.399,
+        33.708
+      ],
+      "rules-line-1": [
+        131.449,
+        1012.11,
+        796.103,
+        46.305
+      ],
+      "rules-line-2": [
+        120.225,
+        1073.85,
+        818.55,
+        44.5954
+      ],
+      "rules-line-3": [
+        93.6695,
+        1131.53,
+        871.661,
+        45.913
+      ],
+      "rules-line-4": [
+        90.7785,
+        1190.53,
+        877.443,
+        45.913
+      ]
+    },
+    "icons": [],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "beaff3e790be42006392bf6474a86d05941ec6c7572c1b2e9ea5340993767425"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-157-eyes-of-the-dragon.webp",
+      "before_url": "/assets/cards/saiyan-157-eyes-of-the-dragon.webp?v=1e28870d212c",
+      "before_sha256": "1e28870d212c22c15a6ac0b09bb753699085e4e27d730d76c1a2e5e2834d6b28",
+      "after_sha256": "0913b32fae87f74be9aad38f5b73d5b3bdfc17fddfabf9f05c87dea9c087e844",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp",
+      "before_url": "/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp?v=4bb9471e3597",
+      "before_sha256": "4bb9471e3597357feafd08904534fbf4eb365ed28bce44e4d7a78408c82eafbf",
+      "after_sha256": "6d7c9e1009617441738f3853b2faeccc88b2b8df002c0522d9901ddb8a53e030",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 559.0548628428928,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "daabc1ad62093cd6d2928d343e098304d740234c6979466ff722ae3b215d2a58",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "eede2312659536a1c9d99835bb5e0e142579a7ed05ce177ca87e1bd59cbf3ba2",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-157-eyes-of-the-dragon.webp",
+          "before_url": "/assets/cards/saiyan-157-eyes-of-the-dragon.webp?v=1e28870d212c",
+          "before_sha256": "1e28870d212c22c15a6ac0b09bb753699085e4e27d730d76c1a2e5e2834d6b28",
+          "after_sha256": "7baf9555ce42252ae13d396b29430ce2909f1080cf5ab49e3afa495186aa4c94",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp",
+          "before_url": "/assets/cards/downloads/saiyan-157-eyes-of-the-dragon.webp?v=4bb9471e3597",
+          "before_sha256": "4bb9471e3597357feafd08904534fbf4eb365ed28bce44e4d7a78408c82eafbf",
+          "after_sha256": "4c8d9ff6fd7bf72d166c7c7c3670b4b3ed0115e4e8b79d3dbd651e8ec998586d",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

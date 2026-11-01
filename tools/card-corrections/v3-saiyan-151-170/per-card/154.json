@@ -1,0 +1,254 @@
+{
+  "number": 154,
+  "id": "saiyan-154-piccolo-sidestep",
+  "name": "Piccolo Sidestep!",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-154-piccolo-sidestep.svg",
+  "native_source_sha256": "f82821602b8a80973ea47845ca0b1722446fdd5f1b4afe4a9cec7160aaf54196",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/1435386ec89b729b88ad1b36defb1ba776dc131186ef8d5cef34114ea41aff0c.png",
+      "sha256": "1435386ec89b729b88ad1b36defb1ba776dc131186ef8d5cef34114ea41aff0c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "c89a70847c1bb3f2522189deacba288002bd89069d600b3713517effcf21f313",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. Banish after use.",
+      "baseline": 1049.3,
+      "width": 782.9479473684212,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        270.621,
+        44.5,
+        517.758,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        61.957,
+        33.708
+      ],
+      "rules-line-1": [
+        189.502,
+        1013.53,
+        730.688,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.81,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          189.502,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          138.81,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "f82821602b8a80973ea47845ca0b1722446fdd5f1b4afe4a9cec7160aaf54196"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-154-piccolo-sidestep.webp",
+      "before_url": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=05956c5b3e8f",
+      "before_sha256": "05956c5b3e8fcc5bdfb41ffa2e52f290e50e822a69aa4a3866bfe720597493fa",
+      "after_sha256": "a0376d25508fbe93ef97724c3836c7e1db13602a59c8e9e7c668853adec552e4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp",
+      "before_url": "/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp?v=a5a265ec3b51",
+      "before_sha256": "a5a265ec3b5171a5d067cfa4be7b2e579046f940065d2533169e81a10b0d92dc",
+      "after_sha256": "ad89eb39696c6179790f50ccf0632e6d755ded4807fd80e290bb63e57863922a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 517.7581047381547,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "4ecfda34cb3e5b2ed48d2937bd3af24b600edef9f7b59b2b17a0a177d0f1647c",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "66498159fcf8736a9ad461e9021ec358d78f91b9672a972acec9b309d698d39d",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-154-piccolo-sidestep.webp",
+          "before_url": "/assets/cards/saiyan-154-piccolo-sidestep.webp?v=05956c5b3e8f",
+          "before_sha256": "05956c5b3e8fcc5bdfb41ffa2e52f290e50e822a69aa4a3866bfe720597493fa",
+          "after_sha256": "2129b3e018122157aa5c17263a1e52d3d2de673a66e6046b4f8794fdf7429f5e",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp",
+          "before_url": "/assets/cards/downloads/saiyan-154-piccolo-sidestep.webp?v=a5a265ec3b51",
+          "before_sha256": "a5a265ec3b5171a5d067cfa4be7b2e579046f940065d2533169e81a10b0d92dc",
+          "after_sha256": "1c426298800a0396d11aad014d80d9e96f1622793894fa8299a729e9a345df23",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

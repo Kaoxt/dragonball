@@ -6,16 +6,16 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {catalog} from '../public/cards/catalog.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const batches=['001-050','051-100','101-150'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
+const batches=['001-050','051-100','101-150','151-170'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
-test('all 150 V3 catalog cards have complete verified native sources and both exports',()=>{
+test('all 170 V3 catalog cards have complete verified native sources and both exports',()=>{
  const selected=catalog.filter(c=>c.templateVersion===3);
- assert.equal(selected.length,150);assert.equal(audit.length,150);
- for(const batch of batches)assert.equal(batch.length,50);
- assert.equal(new Set(audit.map(r=>r.id)).size,150);
- assert.deepEqual(audit.map(r=>r.number),Array.from({length:150},(_,i)=>i+1));
+ assert.equal(selected.length,170);assert.equal(audit.length,170);
+ assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20]);
+ assert.equal(new Set(audit.map(r=>r.id)).size,170);
+ assert.deepEqual(audit.map(r=>r.number),Array.from({length:170},(_,i)=>i+1));
  for(const c of selected){
   const row=audit.find(r=>r.id===c.id);assert.ok(row,c.id);
   const source=path.join(root,row.native_source_path);assert.equal(hash(source),row.native_source_sha256);
@@ -45,8 +45,8 @@ test('V3 titles, category labels, footer content and icons share the approved ge
 });
 
 test('V3 Personality numerals and stage digits keep their approved positions',()=>{
- const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107));
- assert.equal(personalities.length,10);
+ const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=170));
+ assert.equal(personalities.length,23);
  for(const row of personalities){
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes('id="v3-level-number"'));assert.ok(svg.includes('id="concept-pur-number"'));
@@ -92,4 +92,29 @@ test('Saiyan 71–120 preserves family exceptions and the reviewed Dragon Ball m
  }
  const three=rows.find(r=>r.number===75).rules.map(r=>r.text).join(' ');
  assert.equal(three,'You may draw 3 cards. Place the top card of your discard pile on the bottom of your Life Deck.');
+});
+
+
+test('Saiyan 121–170 keeps long titles inside the brush and uses reviewed family icons',()=>{
+ const rows=audit.filter(r=>r.number>=121&&r.number<=170);assert.equal(rows.length,50);
+ assert.equal(rows.filter(r=>r.tokui_waza_backing?.all_styles).length,37);
+ assert.equal(rows.filter(r=>r.power_icon_revision==='approved-bold-infinity-colon-v16').length,26);
+ for(const row of rows){
+  const fit=row.current_preview_revision.title_fit;assert.ok(fit.visible_width<=620.001);
+  assert.deepEqual(fit.visible_center,[529.5,79]);assert.ok(fit.font_size<=fit.nominal_font_size);
+  const [x,y,w,h]=row.native_geometry.bounds['card-title'];assert.ok(x>=219.49&&x+w<=839.51);near(y+h/2,79,.01);
+  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-safe-region="219.5 839.5"'));
+  if(row.number>=158)assert.equal(row.tokui_waza_backing.applies,false);
+ }
+ const long=rows.find(r=>r.number===125);assert.ok(long.current_preview_revision.title_fit.font_size<60);
+ const rules=n=>rows.find(r=>r.number===n).rules.map(r=>r.text).join(' ');
+ assert.equal(rules(153),'Stops a physical attack. Banish after use.');
+ assert.equal(rules(154),'Stops an energy attack. Banish after use.');
+ assert.match(rules(170),/Reduce damage from an energy attack against you to 2 life cards/);
+ for(const n of [160,164,169,170])assert.equal(rows.find(r=>r.number===n).native_geometry.icons.length,0);
+ for(const n of [165,166]){
+  const row=rows.find(r=>r.number===n);const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  assert.ok(svg.includes(`id="gohan-${n}-demon-badge-patch"`));
+  const correction=row.artwork.current_costume_correction;assert.equal(hash(path.join(root,correction.patch_asset)),correction.patch_sha256);
+ }
 });

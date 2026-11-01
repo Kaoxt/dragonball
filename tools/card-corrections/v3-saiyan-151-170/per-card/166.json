@@ -1,0 +1,394 @@
+{
+  "number": 166,
+  "id": "saiyan-166-gohan",
+  "name": "Gohan",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-166-gohan.svg",
+  "native_source_sha256": "7ce2269784c0e55080bd855383167a4b3dcee8ce9e4c90fed7c44aa4cc02777b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9.png",
+      "sha256": "1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2cafeb838e8fa42d9cdd882fcfcc083bc8bf1a4adf243b4b1ac4b0426565f6fe.png",
+      "sha256": "2cafeb838e8fa42d9cdd882fcfcc083bc8bf1a4adf243b4b1ac4b0426565f6fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "reason": "Fit full source height and retain reference-visible head, hands and pose; extend background only where needed.",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "None; native blurred boundary-color fill behind the complete source illustration",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "2cafeb838e8fa42d9cdd882fcfcc083bc8bf1a4adf243b4b1ac4b0426565f6fe",
+      "generated_sha256": null,
+      "source_to_generated_alignment": null,
+      "alignment_error": null,
+      "protected_source_region": [
+        25,
+        0,
+        1469,
+        1053
+      ],
+      "viewBox": [
+        -23.360481586402216,
+        0,
+        1540.7209631728044,
+        1053
+      ],
+      "composition_retained_in_native_source": "tools/card-templates/v3/saiyan-151-170/saiyan-166-gohan.svg",
+      "historical_composite_name": "saiyan-166.svg"
+    },
+    "source_native_sha256": "3ca597da39483ca754eaa5d72802e3e5191efe538cf14339843896ae53189c3b",
+    "retained_full_subject": true,
+    "source_height_fitted": true,
+    "expression_patch_retained": false,
+    "current_costume_correction": {
+      "description": "Restore original Saiyan-training demon chest emblem; source illustration retained beneath a localized patch.",
+      "source_asset_sha256": "2cafeb838e8fa42d9cdd882fcfcc083bc8bf1a4adf243b4b1ac4b0426565f6fe",
+      "generated_candidate_sha256": "fa99081a38cd23077eb33999321e051e59da87fe9347bb7394983aaa2174476e",
+      "patch_asset": "tools/card-templates/v3/assets/1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9.png",
+      "patch_sha256": "1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9",
+      "source_pixel_crop": [
+        590,
+        446,
+        679,
+        527
+      ],
+      "source_pixel_clip_ellipse": [
+        634.5,
+        486.5,
+        43,
+        39
+      ],
+      "official_reference": "https://en.dragon-ball-official.com/news/01_344.html",
+      "original_reference": "tools/card-corrections/v3-saiyan-121-170-brighter/originals/166.jpg",
+      "method": "Built-in image generation; only the clipped badge patch is used.",
+      "full_export_allowed_bounds": [
+        849,
+        889,
+        971,
+        1000
+      ]
+    }
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage. DAMAGE: 3 life",
+      "baseline": 1049.3,
+      "width": 848.7381555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        937.116,
+        160.009,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-1": [
+        943.241,
+        224.691,
+        87.759,
+        38.269
+      ],
+      "power-stage-value-2": [
+        936.087,
+        289.373,
+        94.913,
+        38.269
+      ],
+      "power-stage-value-3": [
+        939.909,
+        354.054,
+        91.091,
+        38.269
+      ],
+      "power-stage-value-4": [
+        936.332,
+        418.736,
+        94.668,
+        38.269
+      ],
+      "power-stage-value-5": [
+        937.018,
+        483.418,
+        93.982,
+        38.269
+      ],
+      "power-stage-value-6": [
+        943.927,
+        548.1,
+        87.073,
+        38.269
+      ],
+      "power-stage-value-7": [
+        941.967,
+        612.782,
+        89.033,
+        38.269
+      ],
+      "power-stage-value-8": [
+        945.789,
+        677.463,
+        85.211,
+        38.269
+      ],
+      "power-stage-value-9": [
+        942.212,
+        742.145,
+        88.788,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.873,
+        50.2213,
+        183.254,
+        57.5574
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.42,
+        33.708
+      ],
+      "rules-line-1": [
+        160.388,
+        1013.53,
+        792.82,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          105.792,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          160.388,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          105.792,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "7ce2269784c0e55080bd855383167a4b3dcee8ce9e4c90fed7c44aa4cc02777b"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-166-gohan.webp",
+      "before_url": "/assets/cards/saiyan-166-gohan.webp?v=4a55f9cb29e7",
+      "before_sha256": "4a55f9cb29e7e19688310b22f46b1686e30fb606f9dd70d18293a0c958450fd7",
+      "after_sha256": "d1eb5339309fce4a28d8f81a120c456165a5d6d33f62a072dab79e6a2e98e6e3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-166-gohan.webp",
+      "before_url": "/assets/cards/downloads/saiyan-166-gohan.webp?v=299d08537ed1",
+      "before_sha256": "299d08537ed19c92397d854bb7a517d9a9fb9d8674b92dc1b76ca1fbda72b292",
+      "after_sha256": "d5ff7745d3c62f42def78f55062c07bd1932c982aec1ab02a4d6cbd62805f173",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 183.25436408977558,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": false,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "7495d9d7f4b084c21b793146a511829717d8784d2792484dbfd353983607a996",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "1d43fdb28047a1f8daa17693cfacbf1c1fa6f33b73b11b02ea062231726dbcb4",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-166-gohan.webp",
+          "before_url": "/assets/cards/saiyan-166-gohan.webp?v=4a55f9cb29e7",
+          "before_sha256": "4a55f9cb29e7e19688310b22f46b1686e30fb606f9dd70d18293a0c958450fd7",
+          "after_sha256": "42020d1ef1534881f94e3806c68aa43324fbed3c267d71a0e0afc5b0ad941602",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-166-gohan.webp",
+          "before_url": "/assets/cards/downloads/saiyan-166-gohan.webp?v=299d08537ed1",
+          "before_sha256": "299d08537ed19c92397d854bb7a517d9a9fb9d8674b92dc1b76ca1fbda72b292",
+          "after_sha256": "758378ca1f546f95d0e94bee002cd6a3a72554f1b2fadd8888c4e6f54c22039d",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

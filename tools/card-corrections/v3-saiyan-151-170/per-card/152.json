@@ -1,0 +1,280 @@
+{
+  "number": 152,
+  "id": "saiyan-152-black-defender-drill",
+  "name": "Black Defender Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-152-black-defender-drill.svg",
+  "native_source_sha256": "b39a2c06a9ae203ce18631ffc2ac661888fc76bd4b98a6c6870fc85368d9174c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/06d61253dad78d76ade568e8302da5ac12157b48fc3164fdb49371d6db2887f7.png",
+      "sha256": "06d61253dad78d76ade568e8302da5ac12157b48fc3164fdb49371d6db2887f7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "40593805130039ae7009d3d55304a748847ab4d6dc5db947590440685e16c571",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Reduce life card damage from all energy",
+      "baseline": 1049.3,
+      "width": 784.86475,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you by 1, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 779.002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        231.733,
+        50.2213,
+        595.534,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        205.147,
+        1013.53,
+        716.455,
+        45.913
+      ],
+      "rules-line-2": [
+        141.347,
+        1072.53,
+        776.307,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          205.147,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "b39a2c06a9ae203ce18631ffc2ac661888fc76bd4b98a6c6870fc85368d9174c"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-152-black-defender-drill.webp",
+      "before_url": "/assets/cards/saiyan-152-black-defender-drill.webp?v=8735a02f244f",
+      "before_sha256": "8735a02f244fe7871957947ec7fd844283c707075ecf2dde3eb78aecb188fa15",
+      "after_sha256": "1ddc2e4e3c8182db99913f7e33c3da0b219b50df42a9bd2378b55f3bb87c7683",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-152-black-defender-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=5ded3a0a28bf",
+      "before_sha256": "5ded3a0a28bf65ce1fee53a1cf75d2db4b7cd9e40cc7da9ff60018f11500dfe3",
+      "after_sha256": "790f485e7855f22e5a33c47526a693588907a17462432a8e1fb0283cac28ae08",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 595.5336658354115,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "17eeecabf94c3c4faa5a777c590a9535d544a2ef2b271e21a8c157571e7a02a5",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "d2e8cb762b3dd8e0b6c3e9edd57a9655b6bb568fed622898f44ce693de1d8318",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-152-black-defender-drill.webp",
+          "before_url": "/assets/cards/saiyan-152-black-defender-drill.webp?v=8735a02f244f",
+          "before_sha256": "8735a02f244fe7871957947ec7fd844283c707075ecf2dde3eb78aecb188fa15",
+          "after_sha256": "5617f6a8bae3051a36d3df5d7f26194bddcc39ccc96df10f01d7e4aee456cfe9",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-152-black-defender-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=5ded3a0a28bf",
+          "before_sha256": "5ded3a0a28bf65ce1fee53a1cf75d2db4b7cd9e40cc7da9ff60018f11500dfe3",
+          "after_sha256": "52a9d752b5d72f0a0040372827723ccf465338a11c963dfe8ba51aa906474df1",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

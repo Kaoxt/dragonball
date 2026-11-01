@@ -1,0 +1,278 @@
+{
+  "number": 153,
+  "id": "saiyan-153-goku-energy-blast",
+  "name": "Goku Energy Blast!",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-153-goku-energy-blast.svg",
+  "native_source_sha256": "fd0f8e8ed2d62ce09761b7dab544e303ec5ab11613ee08eca61489e8f8edb63a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f55a24dffa29b1dee178b4db6142200afc8e06006e758989bcf41c226e55e12c.png",
+      "sha256": "f55a24dffa29b1dee178b4db6142200afc8e06006e758989bcf41c226e55e12c"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "reason": "Fit full source height and retain reference-visible head, hands and pose; extend background only where needed.",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "None; native blurred boundary-color fill behind the complete source illustration",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "f55a24dffa29b1dee178b4db6142200afc8e06006e758989bcf41c226e55e12c",
+      "generated_sha256": null,
+      "source_to_generated_alignment": null,
+      "alignment_error": null,
+      "protected_source_region": [
+        25,
+        0,
+        1511,
+        1208
+      ],
+      "viewBox": [
+        -115.75637393767704,
+        0,
+        1767.512747875354,
+        1208
+      ],
+      "composition_retained_in_native_source": "tools/card-templates/v3/saiyan-151-170/saiyan-153-goku-energy-blast.svg",
+      "historical_composite_name": "saiyan-153.svg"
+    },
+    "source_native_sha256": "6ea08b899dd74d382a45424c4de0bfc17a7f1e1439536788234e354b6f07c28d",
+    "retained_full_subject": true,
+    "source_height_fitted": true,
+    "expression_patch_retained": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Banish after use.",
+      "baseline": 1049.3,
+      "width": 787.0639473684212,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        248.639,
+        44.5,
+        561.722,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.671,
+        33.708
+      ],
+      "rules-line-1": [
+        187.444,
+        1013.53,
+        734.804,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          136.752,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          187.444,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          136.752,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "fd0f8e8ed2d62ce09761b7dab544e303ec5ab11613ee08eca61489e8f8edb63a"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-153-goku-energy-blast.webp",
+      "before_url": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=d965d9263e04",
+      "before_sha256": "d965d9263e040e151bf4a2fb69b2533be6306476a509ed3c9d7966889c93c9a4",
+      "after_sha256": "13aee4c219a8bb96522d16a525945e400875bdc48fc3f8b4315dae269a1520a8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-153-goku-energy-blast.webp",
+      "before_url": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=2956dd60e1f1",
+      "before_sha256": "2956dd60e1f1d5eda1e1b2f346dc198c4bc62178549cc48927df0c5179937892",
+      "after_sha256": "2839eae91b1d9438d1c2dd5b9ba381b0575435a090b298c21b97148660ebe3b4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 561.7219451371571,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "bf7ef359664445dfbbceeb6d8d534d6a25f6cff4d2e239c7f7e6f9e687f8fc03",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "f246be9dfe55e5d2b8976cd2a5619e7b51f34b937dcd891b4f315a7b26bd603f",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-153-goku-energy-blast.webp",
+          "before_url": "/assets/cards/saiyan-153-goku-energy-blast.webp?v=d965d9263e04",
+          "before_sha256": "d965d9263e040e151bf4a2fb69b2533be6306476a509ed3c9d7966889c93c9a4",
+          "after_sha256": "ee17e9e2bf3d8f6e7710b50af4d6101e05611e95adddb72dd764cc3846805c83",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-153-goku-energy-blast.webp",
+          "before_url": "/assets/cards/downloads/saiyan-153-goku-energy-blast.webp?v=2956dd60e1f1",
+          "before_sha256": "2956dd60e1f1d5eda1e1b2f346dc198c4bc62178549cc48927df0c5179937892",
+          "after_sha256": "d6b49ed19e357426fade49ad2aaa91f6f7ec8582e5a1f3db83f3d7be08d6f167",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

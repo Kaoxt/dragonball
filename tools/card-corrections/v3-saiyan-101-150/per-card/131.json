@@ -3,15 +3,15 @@
   "id": "saiyan-131-black-bear-hug-drill",
   "name": "Black Bear Hug Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-131-black-bear-hug-drill.svg",
-  "native_source_sha256": "6153337da47c8d881ee7008fff48527469fafd9def77e383b6814cdf0a2926c3",
+  "native_source_sha256": "0629f02c97c96fee94287ae23e4f237e1753a2af2726bc8f458fc7201ca2486f",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/c3de6937f7439b9982c495864ebaeae03d8753360dbf478bb7cd89131f8e668d.png",
@@ -42,7 +42,7 @@
     {
       "text": "Your physical attacks deal +2 stages of",
       "baseline": 1049.3,
-      "width": 791.3475789473682,
+      "width": 765.5097499999998,
       "icon_inline": true
     },
     {
@@ -62,9 +62,9 @@
         69.0
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        226.948,
+        214.029,
         1013.53,
         697.711,
         45.913
@@ -112,37 +112,38 @@
         "first_capital": "Y",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          134.341,
-          1015.0,
-          79.4316,
-          34.3
+          147.26,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          226.948,
+          214.029,
           1015.0,
           20.8642,
           34.251
         ],
         "new_visible_bounds": [
-          134.341,
-          1014.98,
-          79.4316,
-          34.3
+          147.26,
+          1022.48,
+          41.8031,
+          19.2938
         ],
-        "vertical_shift": -0.024499999999989086,
-        "center_error": 0.004500000000007276,
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "0629f02c97c96fee94287ae23e4f237e1753a2af2726bc8f458fc7201ca2486f"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-131-black-bear-hug-drill.webp",
-      "before_url": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=05c67725550c",
-      "before_sha256": "05c67725550c97fe207aa835c72b65825c0551b71f2c0f31d3dae7482e131733",
-      "after_sha256": "d5e83baa46557d6d739c66ec8e11dda55c370fcd7f3d8764f615be0b497684eb",
+      "before_url": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=d5e83baa4655",
+      "before_sha256": "d5e83baa46557d6d739c66ec8e11dda55c370fcd7f3d8764f615be0b497684eb",
+      "after_sha256": "ce07e5c37ec0f57bef5ae31d0c668abbcf9e142e12a1389198da2fd05052abb6",
       "size": [
         1060,
         1484
@@ -152,14 +153,122 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp?v=26e4050e63f9",
-      "before_sha256": "26e4050e63f95ed9ce42998ea7ee6f137954543cbc9b47b54b93584d241fb6ac",
-      "after_sha256": "472231a176dd91af59e96f2a5ce6ccd2611540ba3489292f47b723ae4daa74ec",
+      "before_url": "/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp?v=472231a176dd",
+      "before_sha256": "472231a176dd91af59e96f2a5ce6ccd2611540ba3489292f47b723ae4daa74ec",
+      "after_sha256": "fe236151d720ca44f5a27476a82f26fe06e71fde78b7a02afea53061e6e08389",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 592.6945137157109,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "2af3217e3b2e77c521cecf61678581d77ca7d44ac308dd95cdfa9ddbaa93ca28",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "6153337da47c8d881ee7008fff48527469fafd9def77e383b6814cdf0a2926c3",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-131-black-bear-hug-drill.webp",
+          "before_url": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=05c67725550c",
+          "before_sha256": "05c67725550c97fe207aa835c72b65825c0551b71f2c0f31d3dae7482e131733",
+          "after_sha256": "d5e83baa46557d6d739c66ec8e11dda55c370fcd7f3d8764f615be0b497684eb",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp?v=26e4050e63f9",
+          "before_sha256": "26e4050e63f95ed9ce42998ea7ee6f137954543cbc9b47b54b93584d241fb6ac",
+          "after_sha256": "472231a176dd91af59e96f2a5ce6ccd2611540ba3489292f47b723ae4daa74ec",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

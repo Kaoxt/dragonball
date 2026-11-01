@@ -1,0 +1,272 @@
+{
+  "number": 155,
+  "id": "saiyan-155-piccolo-defense-drill",
+  "name": "Piccolo Defense Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-155-piccolo-defense-drill.svg",
+  "native_source_sha256": "8ce8494e22a05b4b771b152ba474d92eb5b844921d7c7ab1637b3e635a72a88b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9c2e59e6bc70bcd8be6199fd9b9a793fb15eaf9dcb9df0bd03358b2583ed09e4.png",
+      "sha256": "9c2e59e6bc70bcd8be6199fd9b9a793fb15eaf9dcb9df0bd03358b2583ed09e4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "cee32efbd08713e60ab44f027b5acd55a7fd5d6196903f52d7e13e3df05ce5f7",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Reduce life card damage from all energy",
+      "baseline": 1049.3,
+      "width": 784.86475,
+      "icon_inline": true
+    },
+    {
+      "text": "attacks against you by 1, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 779.002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        219.5,
+        50.2796,
+        620.0,
+        57.4408
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.837,
+        33.708
+      ],
+      "rules-line-1": [
+        205.147,
+        1013.53,
+        716.455,
+        45.913
+      ],
+      "rules-line-2": [
+        141.347,
+        1072.53,
+        776.307,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          205.147,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "8ce8494e22a05b4b771b152ba474d92eb5b844921d7c7ab1637b3e635a72a88b"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-155-piccolo-defense-drill.webp",
+      "before_url": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=0d27056b9c6d",
+      "before_sha256": "0d27056b9c6df471a2ce49ce860704f724cd94c93b246a1e8144e29beff523ee",
+      "after_sha256": "5878657a0b74b59655051747c802b0f12a3f5d8dfbfd50d42dfe5aab6c2db49c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp?v=28caebab9882",
+      "before_sha256": "28caebab9882737e1dcfc71bed4d131c07f01ee2b9db72d777b114e9803d369a",
+      "after_sha256": "6b82b3a3b4141eb0dfb54d359e5db7116d5296d1884510d891ec6731ef89caba",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 85.86068411577344,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.0,
+      "visible_height": 57.44079767345243,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.9979749081282651
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        437,
+        100,
+        1681,
+        216
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "ae4d9feabce120feedad14d5d553b53295ea230b7cd5b69d19c0f69c3448280c",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9c354d5e566a35f2f8153eb8af33c365df6651b71372ebe373afe50acbeab3b8",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-155-piccolo-defense-drill.webp",
+          "before_url": "/assets/cards/saiyan-155-piccolo-defense-drill.webp?v=0d27056b9c6d",
+          "before_sha256": "0d27056b9c6df471a2ce49ce860704f724cd94c93b246a1e8144e29beff523ee",
+          "after_sha256": "62d919b80375b22b4811ac3404ef903b047a63e7c18d957e94510cca5f296f19",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-155-piccolo-defense-drill.webp?v=28caebab9882",
+          "before_sha256": "28caebab9882737e1dcfc71bed4d131c07f01ee2b9db72d777b114e9803d369a",
+          "after_sha256": "aa65cfe2a8b1be2d5d9165ea1404b821ab37a5fac560f9c04c1ef017f9d7eca7",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

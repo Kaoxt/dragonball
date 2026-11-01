@@ -1,12 +1,12 @@
 # Dragon Ball OCG Master Templates V3
 
-## Current Tokui Waza backing — October 31
+## Current Tokui Waza backing — November 1
 
-The current brighter V3 refresh covers Saiyan 001–070, distinct from the older V3 migration through 150. Its 68 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge; Dragon Ball and Personality families are exempt. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
+The current brighter V3 refresh covers Saiyan 001–170, including the newly migrated cards 151–170. Its 142 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge; Dragon Ball and Personality families are exempt. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
 
 Run `python3 scripts/tokui_backing.py <source.svg>` after choosing or replacing a style symbol, before rendering. The helper rebuilds the backing from the final symbol and is idempotent; both batch builders call it after their style selection. The Combat master includes it. The release evidence is `../../card-corrections/v3-saiyan-001-050-tokui/release.json`; only the badge footprint changes in display and full-size exports. The initial backing release covers 001–050; the 051–070 brighter release carries the same backing forward.
 
-Saiyan Saga 001–150 use the approved native SVG brush-theme system. The released batches use retained site illustrations with localized corrections; Earth Dragon Ball cards use approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
+Saiyan Saga 001–170 use the approved native SVG brush-theme system. The released batches use retained site illustrations with localized corrections; Earth Dragon Ball cards use approved full-art V3 adaptations. The retained V1/V2 sources remain independent.
 
 Use `references/version-3-standard.md` and the inherited artwork, facial-expression, anatomy, wording and icon references before editing. The title center is (529.5,79), middle label center (529.5,908.5), and footer content center y1409.5. Rules use outlined Barlow Condensed Bold49 with natural spacing. V2 typography finalizers must not run on these files.
 
@@ -14,7 +14,7 @@ Use `references/version-3-standard.md` and the inherited artwork, facial-express
 
 The continuous recovered V3 frame texture replaces the historical masked full-card backing. Retained native palette filters preserve Orange, Red, Blue, Saiyan and Freestyle themes. Brush ends use genuine transparency. No tiled strips, donor-card fragments or opaque rectangular seam patches are used. Title and footer charcoal are shared across families. Only Personality and Dragon Ball middle bars are colored.
 
-Localized artwork corrections are limited to #004's undershirt, #008's gaze, and #036's boot. The original illustration bytes remain embedded as a separate layer beneath native clipped patches. Per-card review records distinguish actual original comparisons from retained-source review and explicitly record unavailable originals and inherited crop limitations.
+The first batch includes localized artwork corrections to #004's undershirt, #008's gaze, and #036's boot. The original illustration bytes remain embedded as a separate layer beneath native clipped patches. Per-card review records distinguish actual original comparisons from retained-source review and explicitly record unavailable originals and inherited crop limitations.
 
 To render a card, run Inkscape against its SVG at 2120px width. Validate the PNG before encoding the lossless full-size WebP; create the 1060×1484 display image from that final PNG. Verify outlined-text bounds and run `scripts/align_power_icon.py` twice, requiring an unchanged second run. Do not replace typography with generated text or regenerate complete cards for a localized artwork repair.
 
@@ -47,3 +47,11 @@ Cards 51–70 use the current brighter V3 frame, uniformly fitted titles, tracke
 ## Saiyan 071–120 brighter-background refresh — October 31
 
 All 50 cards use the brighter V3 frame, fitted titles, tracked middle labels and aligned footer content. All 37 applicable cards have the soft Tokui Waza backing; Dragon Balls 75–77 and ten Personalities remain exempt. Dragon Balls use one left orb with 3/4/5 stars, including the approved staggered four-star layout. Personality stages, LEVEL and PUR values remain intact. Yamcha 85 shifts 25 native units left at identical scale to uncover his extended fingertips; the original scene remains behind the stages. Saiyan Armor (81) and King Kai Uniform (88) use the approved bold infinity with a separate colon. Earth Dragon Ball 3 restores the printed optional draw; the other effects retain the reviewed CRD wording. All 50 original scans and final renders were reviewed; see `../../card-corrections/v3-saiyan-071-120-brighter/`.
+
+## Saiyan 121–170 brighter V3 release — November 1
+
+Cards 121–170 now share the brighter V3 frame, tracked middle labels and footer anchors. Cards 151–170 migrate from their retained V2 website exports; all 13 Personality cards retain verified LEVEL, PUR and stage values and remain exempt from Tokui backing. All 37 other cards have the soft backing. The reviewed powers use 12 swords, 6 shields, 26 bold infinity/colon symbols, and 6 effects without an icon. Retained illustration bytes remain intact; only the chest insignia on Gohan 165/166 uses a clipped costume patch. Original scans, wording checks, visual notes and exact export evidence are retained in `../../card-corrections/v3-saiyan-121-170-brighter/`.
+
+### Long title clearance — current user direction
+
+Long titles shrink proportionally to a maximum visible width of **620 native units**, x219.5–839.5, leaving room before the distressed brush ends. Keep the visible center fixed at **(529.5,79)**; short titles retain the nominal Teko SemiBold size. This supersedes the older 700-unit width for this batch and future composition. Use `scripts/title_fit_v3.py`, require idempotence, and inspect the normal-size title and full export. Existing cards outside the current batch are unchanged.

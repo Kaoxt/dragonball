@@ -3,15 +3,15 @@
   "id": "saiyan-144-red-coordination-drill",
   "name": "Red Coordination Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-144-red-coordination-drill.svg",
-  "native_source_sha256": "486f9150c27222102cc3ad9038a7bb6efe1327b852160700434605aba2a8d43d",
+  "native_source_sha256": "c473833c2f637155762d80b25d08479533026e95cd67d2670da634c38cd27ac9",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d0cd257849d76c241b93561259660d3c45fd9fcb878766c0fcc8f4a1f05ed74d.png",
@@ -42,7 +42,7 @@
     {
       "text": "When entering Combat as the defender, you",
       "baseline": 1049.3,
-      "width": 867.8365789473685,
+      "width": 841.99875,
       "icon_inline": true
     },
     {
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        203.256,
-        50.2213,
-        652.489,
-        57.5574
+        219.5,
+        51.6543,
+        620.0,
+        54.6915
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        188.924,
+        176.005,
         1013.53,
         773.563,
         45.913
@@ -112,37 +112,38 @@
         "first_capital": "W",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          96.5127,
-          1015.0,
-          79.4316,
-          34.3
+          109.432,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          188.924,
+          176.005,
           1015.0,
           31.7651,
           34.3
         ],
         "new_visible_bounds": [
-          96.5127,
-          1015.0,
-          79.4316,
-          34.3
+          109.432,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "c473833c2f637155762d80b25d08479533026e95cd67d2670da634c38cd27ac9"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-144-red-coordination-drill.webp",
-      "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=bc7b59c3736d",
-      "before_sha256": "bc7b59c3736d0c1558e397b5a582a4d6cd3edc7957535ba4d3edf71168230f9d",
-      "after_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
+      "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=b67d28f57f7c",
+      "before_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
+      "after_sha256": "d3edc27399dc56d1aa906c5a4f4cdca63d8bc9ec592584d13cb67120cfef7076",
       "size": [
         1060,
         1484
@@ -152,14 +153,114 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-144-red-coordination-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=7e0f9adb0460",
-      "before_sha256": "7e0f9adb04603b5a0ca6cad4dde7a3e2d16cc0ca55c83f52ae21cf87534cfbc0",
-      "after_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
+      "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=fac7bab615d1",
+      "before_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
+      "after_sha256": "9767f9a2a813fca54e1294d7a53de15ee10203cf065716a1221983006613e794",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 81.75105485232068,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.0,
+      "visible_height": 54.69145569620253,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.9502079129211765
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        406,
+        100,
+        1712,
+        216
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "6fa600022e0c689f3eb74937efa4082108aadcfd81229c1b98a14bf1bb2ba175",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "486f9150c27222102cc3ad9038a7bb6efe1327b852160700434605aba2a8d43d",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-144-red-coordination-drill.webp",
+          "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=bc7b59c3736d",
+          "before_sha256": "bc7b59c3736d0c1558e397b5a582a4d6cd3edc7957535ba4d3edf71168230f9d",
+          "after_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-144-red-coordination-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=7e0f9adb0460",
+          "before_sha256": "7e0f9adb04603b5a0ca6cad4dde7a3e2d16cc0ca55c83f52ae21cf87534cfbc0",
+          "after_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

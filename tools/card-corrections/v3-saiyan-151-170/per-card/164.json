@@ -1,0 +1,344 @@
+{
+  "number": 164,
+  "id": "saiyan-164-gohan",
+  "name": "Gohan",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-164-gohan.svg",
+  "native_source_sha256": "6310e110ba380e381b1d5176c5b6f5c31d9f4362034bcc1ab64d9377bb784756",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/30f6b80a8368fd474d46dea22190e82ab57bb19dff18634e65aace936667e701.png",
+      "sha256": "30f6b80a8368fd474d46dea22190e82ab57bb19dff18634e65aace936667e701"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "reason": "Fit full source height and retain reference-visible head, hands and pose; extend background only where needed.",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "None; native blurred boundary-color fill behind the complete source illustration",
+      "frame_placement": [
+        14,
+        146,
+        1033,
+        706
+      ],
+      "original_sha256": "30f6b80a8368fd474d46dea22190e82ab57bb19dff18634e65aace936667e701",
+      "generated_sha256": null,
+      "source_to_generated_alignment": null,
+      "alignment_error": null,
+      "protected_source_region": [
+        25,
+        0,
+        1462,
+        1058
+      ],
+      "viewBox": [
+        -30.518413597733684,
+        0,
+        1548.0368271954674,
+        1058
+      ],
+      "composition_retained_in_native_source": "tools/card-templates/v3/saiyan-151-170/saiyan-164-gohan.svg",
+      "historical_composite_name": "saiyan-164.svg"
+    },
+    "source_native_sha256": "6981173d0b02bbcf855cd470b0c4972d6b4c70260f88824cc50f108281d29f9b",
+    "retained_full_subject": true,
+    "source_height_fitted": true,
+    "expression_patch_retained": false
+  },
+  "rules": [
+    {
+      "text": "Once per Combat, after a successful energy",
+      "baseline": 1049.3,
+      "width": 777.1890000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attack against Gohan, you may raise his anger 1",
+      "baseline": 1108.3,
+      "width": 846.132,
+      "icon_inline": false
+    },
+    {
+      "text": "level.",
+      "baseline": 1167.3,
+      "width": 95.501,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.526,
+        160.009,
+        89.474,
+        38.269
+      ],
+      "power-stage-value-1": [
+        967.594,
+        224.691,
+        63.406,
+        31.164
+      ],
+      "power-stage-value-2": [
+        967.545,
+        289.373,
+        63.455,
+        31.164
+      ],
+      "power-stage-value-3": [
+        970.24,
+        354.054,
+        60.76,
+        31.164
+      ],
+      "power-stage-value-4": [
+        967.888,
+        418.736,
+        63.112,
+        31.164
+      ],
+      "power-stage-value-5": [
+        968.182,
+        483.418,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-6": [
+        966.271,
+        548.1,
+        64.729,
+        31.164
+      ],
+      "power-stage-value-7": [
+        968.182,
+        612.782,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-8": [
+        968.868,
+        677.463,
+        62.132,
+        31.164
+      ],
+      "power-stage-value-9": [
+        974.748,
+        742.145,
+        56.252,
+        31.164
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.873,
+        50.2213,
+        183.254,
+        57.5574
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        62.328,
+        33.708
+      ],
+      "rules-line-1": [
+        142.069,
+        1014.61,
+        774.863,
+        44.835
+      ],
+      "rules-line-2": [
+        107.88,
+        1072.53,
+        843.241,
+        45.913
+      ],
+      "rules-line-3": [
+        483.366,
+        1133.0,
+        92.267,
+        34.692
+      ]
+    },
+    "icons": [],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "6310e110ba380e381b1d5176c5b6f5c31d9f4362034bcc1ab64d9377bb784756"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-164-gohan.webp",
+      "before_url": "/assets/cards/saiyan-164-gohan.webp?v=06e845005227",
+      "before_sha256": "06e845005227589d93b62778dce072039b4955905b29a48c086a4f699e4b43ef",
+      "after_sha256": "0512bb1840053e8ab2a92e114a6a67dd1a1fb4cb0354c87017bd1c13a83cb57a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-164-gohan.webp",
+      "before_url": "/assets/cards/downloads/saiyan-164-gohan.webp?v=29acd828460f",
+      "before_sha256": "29acd828460f526cce1d101759afb32edada5b7fa83e578ea1d5a0d7f28cb737",
+      "after_sha256": "f968abc316d6155339cfd20b563ec507c1f7f2ee4015950e627d94b0840b2812",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 183.25436408977558,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "2dbda81849b1101529ec56dcc83c588ca33b78bfb3285099e68a2759f2881ffb",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "9105bf0a7a2a5a76b13789b69039cc60bc25b7de4be6533ef20b098fb5ca6c59",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-164-gohan.webp",
+          "before_url": "/assets/cards/saiyan-164-gohan.webp?v=06e845005227",
+          "before_sha256": "06e845005227589d93b62778dce072039b4955905b29a48c086a4f699e4b43ef",
+          "after_sha256": "b86b301606598e5645760fd6689c6441608568d51493e990afef89b88afec38c",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-164-gohan.webp",
+          "before_url": "/assets/cards/downloads/saiyan-164-gohan.webp?v=29acd828460f",
+          "before_sha256": "29acd828460f526cce1d101759afb32edada5b7fa83e578ea1d5a0d7f28cb737",
+          "after_sha256": "543d701bc9f1b3709722360a448a6d4ae4ec7cddabc614a8feae63c6ed835f1c",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

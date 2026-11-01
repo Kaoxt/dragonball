@@ -3,19 +3,19 @@
   "id": "saiyan-148-red-pressure-point-drill",
   "name": "Red Pressure Point Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-148-red-pressure-point-drill.svg",
-  "native_source_sha256": "7f3972762f3d97815aa9d11a7b838397c5a6910a257a1b20ea6c6f79b849f592",
+  "native_source_sha256": "18a0e5ae8535dcef9fcc190845c1f7bfdac2a5d92841ed6671177f9f11f11f2d",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/5508782781fb8711ca3e1ddc25814fdbfe92e18ed9bcfa874f6793982ba67d19.png",
+      "sha256": "5508782781fb8711ca3e1ddc25814fdbfe92e18ed9bcfa874f6793982ba67d19"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/5508782781fb8711ca3e1ddc25814fdbfe92e18ed9bcfa874f6793982ba67d19.png",
-      "sha256": "5508782781fb8711ca3e1ddc25814fdbfe92e18ed9bcfa874f6793982ba67d19"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Your energy attacks deal +1 life card of",
       "baseline": 1049.3,
-      "width": 785.8595789473683,
+      "width": 760.02175,
       "icon_inline": true
     },
     {
@@ -62,15 +62,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        176.155,
-        50.2213,
-        706.691,
-        57.5574
+        219.5,
+        53.7516,
+        620.0,
+        50.4967
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -98,7 +98,7 @@
         33.708
       ],
       "rules-line-1": [
-        229.692,
+        216.773,
         1013.53,
         692.223,
         45.913
@@ -124,37 +124,38 @@
         "first_capital": "Y",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          137.085,
-          1015.0,
-          79.4316,
-          34.3
+          150.004,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          229.692,
+          216.773,
           1015.0,
           20.8642,
           34.251
         ],
         "new_visible_bounds": [
-          137.085,
-          1014.98,
-          79.4316,
-          34.3
+          150.004,
+          1022.48,
+          41.8031,
+          19.2938
         ],
-        "vertical_shift": -0.024499999999989086,
-        "center_error": 0.004500000000007276,
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "18a0e5ae8535dcef9fcc190845c1f7bfdac2a5d92841ed6671177f9f11f11f2d"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-148-red-pressure-point-drill.webp",
-      "before_url": "/assets/cards/saiyan-148-red-pressure-point-drill.webp?v=154c08317453",
-      "before_sha256": "154c083174535f41cb237617f194a86f6bc1d7901e5625a7f0938cbe5fdb0e5e",
-      "after_sha256": "5bcb07b79540a3a3b581e32c26ba7f38c71ec23b6b33af2a3760353aa8256ecc",
+      "before_url": "/assets/cards/saiyan-148-red-pressure-point-drill.webp?v=5bcb07b79540",
+      "before_sha256": "5bcb07b79540a3a3b581e32c26ba7f38c71ec23b6b33af2a3760353aa8256ecc",
+      "after_sha256": "eaea898deb183f168d59b7a1f703c9b33d2ffcd0e97f584dce679d8ace1a36dc",
       "size": [
         1060,
         1484
@@ -164,14 +165,114 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp?v=d214bea8156f",
-      "before_sha256": "d214bea8156fc82402f5eaf0c00102544f0ae425e9df6eef6d0457515b1baa95",
-      "after_sha256": "5554c1c2df266b3113ae266458978993bb5649506f593ea48120020f1ebd4ec0",
+      "before_url": "/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp?v=5554c1c2df26",
+      "before_sha256": "5554c1c2df266b3113ae266458978993bb5649506f593ea48120020f1ebd4ec0",
+      "after_sha256": "abf26bba61e79fb7987a6beb042f16bf151e2004831dd75816acb620d5ee6a6e",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 75.4808862916971,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.0,
+      "visible_height": 50.49671292914537,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.8773285624049431
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        359,
+        100,
+        1759,
+        216
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "ca7c207e1645d6f980b60a9b263ed8262d950cfb3f050debf6b833d60cdaba28",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "7f3972762f3d97815aa9d11a7b838397c5a6910a257a1b20ea6c6f79b849f592",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-148-red-pressure-point-drill.webp",
+          "before_url": "/assets/cards/saiyan-148-red-pressure-point-drill.webp?v=154c08317453",
+          "before_sha256": "154c083174535f41cb237617f194a86f6bc1d7901e5625a7f0938cbe5fdb0e5e",
+          "after_sha256": "5bcb07b79540a3a3b581e32c26ba7f38c71ec23b6b33af2a3760353aa8256ecc",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp?v=d214bea8156f",
+          "before_sha256": "d214bea8156fc82402f5eaf0c00102544f0ae425e9df6eef6d0457515b1baa95",
+          "after_sha256": "5554c1c2df266b3113ae266458978993bb5649506f593ea48120020f1ebd4ec0",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

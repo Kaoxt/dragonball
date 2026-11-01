@@ -1,0 +1,272 @@
+{
+  "number": 151,
+  "id": "saiyan-151-orange-joint-restraint-drill",
+  "name": "Orange Joint Restraint Drill",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-151-orange-joint-restraint-drill.svg",
+  "native_source_sha256": "d17467d36d3119e42ac5140f3f9300308fc2dd257fd3060834da04b720f1abc6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd18624f1bce1ff80d91d25a2564ada185729a3ddd16cf68fd02e9c7db8480d7.png",
+      "sha256": "fd18624f1bce1ff80d91d25a2564ada185729a3ddd16cf68fd02e9c7db8480d7"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "bda616182dad395d7cb681faf381f6404c65e5631a6ea8bd2ce99939268e159a",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Your physical attacks deal +4 stages of",
+      "baseline": 1049.3,
+      "width": 767.7637499999998,
+      "icon_inline": true
+    },
+    {
+      "text": "damage.",
+      "baseline": 1108.3,
+      "width": 152.488,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        219.5,
+        52.624,
+        620.0,
+        52.752
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        50.933,
+        33.708
+      ],
+      "rules-line-1": [
+        212.902,
+        1013.53,
+        699.965,
+        45.913
+      ],
+      "rules-line-2": [
+        454.799,
+        1074.0,
+        149.401,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          146.133,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          212.902,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          146.133,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "d17467d36d3119e42ac5140f3f9300308fc2dd257fd3060834da04b720f1abc6"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-151-orange-joint-restraint-drill.webp",
+      "before_url": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=b54fe629c28f",
+      "before_sha256": "b54fe629c28f28c6217b781625bff3c0f85a0b6477667af63bd041c05ad0ef6e",
+      "after_sha256": "7cb708552cbfbd55a6ed8f8a85a6d0b0b7b08b96d989932077c2fc46cd5e60c7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp?v=2c2bced33988",
+      "before_sha256": "2c2bced3398831528b2909d0ba2b0957890b0ffefabb2ddd5d0fe901cc91914f",
+      "after_sha256": "604bb80b8c16660fdcda6549402b1e25d5afc163ddd6df0453a651ce2ff4e43e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 65.77551453426692,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.0,
+      "visible_height": 52.751962656482064,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.7645211979200299
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        359,
+        98,
+        1759,
+        218
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "fed5b2834fc3f9e911aeb79f9518d2d4e988726a07db8e4575f21a71d60b6dca",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "5a5f519a2ab5fdbc9f0681952c328719792b436afbcb223c19b8d608f3ee7f8f",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-151-orange-joint-restraint-drill.webp",
+          "before_url": "/assets/cards/saiyan-151-orange-joint-restraint-drill.webp?v=b54fe629c28f",
+          "before_sha256": "b54fe629c28f28c6217b781625bff3c0f85a0b6477667af63bd041c05ad0ef6e",
+          "after_sha256": "fb7247caa8ef3dab52ab5e7fe81f8489ddadcfde9a0705e8e0afd8fec1195540",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-151-orange-joint-restraint-drill.webp?v=2c2bced33988",
+          "before_sha256": "2c2bced3398831528b2909d0ba2b0957890b0ffefabb2ddd5d0fe901cc91914f",
+          "after_sha256": "0173be1134efeeadb43e91149a854094cdfe8a47dc13cfa6f31e632bda31ef4d",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

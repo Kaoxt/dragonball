@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "scope": [
+    121,
+    170
+  ],
+  "javascript_tests": {
+    "passed": 175,
+    "failed": 0
+  },
+  "python_wording_checks": {
+    "passed": 6,
+    "failed": 0
+  },
+  "production_dry_run": "passed",
+  "full_resolution_native_and_lossless_export_checks": 50,
+  "display_and_download_lossless_round_trips": 100,
+  "title_safe_width": 620,
+  "title_center": [
+    529.5,
+    79
+  ],
+  "title_helper_idempotence_checked": 50,
+  "long_titles_reduced": 16,
+  "power_icon_counts": {
+    "block": 6,
+    "attack": 12,
+    "constant": 26,
+    "none": 6
+  },
+  "tokui_backing_applicable_cards": 37,
+  "personality_exceptions": 13,
+  "actual_original_scans_reviewed": 50,
+  "localized_costume_repairs": [
+    165,
+    166
+  ],
+  "outside_costume_patch_exact": true,
+  "known_limits": "Fine, covered and inherited crop limitations are recorded individually in artwork-review.json. They are not certified exact-expression passes."
+}

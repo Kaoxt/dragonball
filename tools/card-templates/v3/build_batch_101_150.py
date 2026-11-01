@@ -22,6 +22,7 @@ from text_v3 import text,elem
 from power_icons import icon,width_at_height
 from align_power_icon import align_power_icon
 from tokui_backing import apply as apply_tokui_backing
+from title_fit_v3 import apply as apply_title_fit
 S='http://www.w3.org/2000/svg';X='http://www.w3.org/1999/xlink'
 OUT=P/'saiyan-101-150';ASSETS=P/'assets';EVID=ROOT/'tools/card-corrections/v3-saiyan-101-150'
 FONT=TTFont(P/'fonts/BarlowCondensed-Bold.ttf');GS=FONT.getGlyphSet();CM=FONT.getBestCmap();SC=49/FONT['head'].unitsPerEm
@@ -50,7 +51,9 @@ def word(t):
 def rules(r,c):
  wording=c['modern_rules'];kind=c.get('power_icon');iw=width_at_height(kind,34.3) if kind else 0
  m=re.match(r'^(?:\(Limit \d+ per deck\.\)|Saiyan Heritage only\.)\s*',wording)
- prefix=wording[:m.end()].strip() if m else '';body=wording[m.end():] if m else wording
+ prefix=c.get('icon_prefix',wording[:m.end()].strip() if m else '')
+ assert wording.startswith(prefix)
+ body=wording[len(prefix):].lstrip()
  tokens=prefix.split()+(['@ICON@'] if kind else [])+body.split()
  def arrange(ts):
   xx=0;parts=[]
@@ -174,7 +177,7 @@ def compose(c,retained):
  r=parse(template);r.set('data-template-version','3');r.set('data-card-number',str(n));r.set('data-card-family',c['category']);r.find('{'+S+'}title').text=c['name']
  for e in list(r):
   if e.get('id','').startswith('rules-line-') or e.get('id') in ['power-icon','attack-icon']:r.remove(e)
- title,_=text(c['name'],'Teko-SemiBold.ttf',86.0349127182045,529.5,79,'card-title',maxwidth=700 if mp else 920);replace(r,'card-title',title)
+ title,_=text(c['name'],'Teko-SemiBold.ttf',86.0349127182045,529.5,79,'card-title',maxwidth=700 if mp else 920);replace(r,'card-title',title);apply_title_fit(r)
  category,_=text(c['category'],'Michroma-Regular.ttf',38.4,529.5,908.5,'card-category',stroke=4.21875);category.set('transform','translate(529.5 0) scale(.956 1) translate(-529.5 0) '+category.get('transform'));replace(r,'card-category',category)
  number,b=text(str(n),'Teko-SemiBold.ttf',53,0,1409.5,'card-number');number,b=text(str(n),'Teko-SemiBold.ttf',53,880+b[0]/2,1409.5,'card-number');replace(r,'card-number',number);rarity(r,c['rarity_stars'])
  if db:

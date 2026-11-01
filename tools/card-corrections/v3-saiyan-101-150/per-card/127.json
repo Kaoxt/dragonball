@@ -3,19 +3,19 @@
   "id": "saiyan-127-black-takedown-drill",
   "name": "Black Takedown Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-127-black-takedown-drill.svg",
-  "native_source_sha256": "1c5a514e95e838d6f7cdc667f95528be32bfefa06e5208b47756d36f0fc19257",
+  "native_source_sha256": "0f919f0d1a9c74f77f115051a4951ae7cf128841106c19ce3562f7b0cef3e970",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/12505427a294cae4360c6a1093030d3aab0f991c4e59d2418702b9fea975f1f2.png",
+      "sha256": "12505427a294cae4360c6a1093030d3aab0f991c4e59d2418702b9fea975f1f2"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/12505427a294cae4360c6a1093030d3aab0f991c4e59d2418702b9fea975f1f2.png",
-      "sha256": "12505427a294cae4360c6a1093030d3aab0f991c4e59d2418702b9fea975f1f2"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Once per Combat, you may draw a card after",
       "baseline": 1049.3,
-      "width": 882.5855789473684,
+      "width": 856.7477500000001,
       "icon_inline": true
     },
     {
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        214.655,
-        50.2213,
-        629.69,
-        57.5574
+        219.5,
+        50.6642,
+        620.0,
+        56.6717
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        181.491,
+        168.572,
         1014.61,
         789.116,
         44.443
@@ -112,37 +112,38 @@
         "first_capital": "O",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          88.3934,
-          1015.0,
-          79.4316,
-          34.3
+          101.312,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          181.491,
+          168.572,
           1014.61,
           19.845,
           35.084
         ],
         "new_visible_bounds": [
-          88.3934,
-          1015.0,
-          79.4316,
-          34.3
+          101.312,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": -0.0019999999999527063,
+        "center_error": -0.005100000000084037,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "0f919f0d1a9c74f77f115051a4951ae7cf128841106c19ce3562f7b0cef3e970"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-127-black-takedown-drill.webp",
-      "before_url": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=17342b4386e6",
-      "before_sha256": "17342b4386e62230fd73762e3edd67e862bbe1a326d00818c22e21e0631e9085",
-      "after_sha256": "901670170f0c4037965e2c916cce7e9f0f575613bdf8dadddbb0a3d664b3c2d5",
+      "before_url": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=901670170f0c",
+      "before_sha256": "901670170f0c4037965e2c916cce7e9f0f575613bdf8dadddbb0a3d664b3c2d5",
+      "after_sha256": "c47ed6d470e29ef87951b8ea8b2ff5cf51377c4abd82599402f1a54faadcded8",
       "size": [
         1060,
         1484
@@ -152,14 +153,127 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-127-black-takedown-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=f95b65facbaf",
-      "before_sha256": "f95b65facbafdc45478b8f55919748608a8773d8068bea20eca1832e6972af2a",
-      "after_sha256": "c8372dd3ed734bbf9f0c799c8ad6a0daea7d0cd46e85d2c7608a96407e1af172",
+      "before_url": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=c8372dd3ed73",
+      "before_sha256": "c8372dd3ed734bbf9f0c799c8ad6a0daea7d0cd46e85d2c7608a96407e1af172",
+      "after_sha256": "dcc9da77bd13f41212bd9747ab7f2380d2d5c342c2c1f7d33100b134f96c0a17",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 84.71102609646125,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.9999999999999,
+      "visible_height": 56.67167645853257,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.984612216367564
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        429,
+        100,
+        1689,
+        216
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "e9f088730bbe3f5ff3eb212cb03cb31e4937689d1c3fc4fe550059da91662e31",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "1c5a514e95e838d6f7cdc667f95528be32bfefa06e5208b47756d36f0fc19257",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-127-black-takedown-drill.webp",
+          "before_url": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=17342b4386e6",
+          "before_sha256": "17342b4386e62230fd73762e3edd67e862bbe1a326d00818c22e21e0631e9085",
+          "after_sha256": "901670170f0c4037965e2c916cce7e9f0f575613bdf8dadddbb0a3d664b3c2d5",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-127-black-takedown-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=f95b65facbaf",
+          "before_sha256": "f95b65facbafdc45478b8f55919748608a8773d8068bea20eca1832e6972af2a",
+          "after_sha256": "c8372dd3ed734bbf9f0c799c8ad6a0daea7d0cd46e85d2c7608a96407e1af172",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

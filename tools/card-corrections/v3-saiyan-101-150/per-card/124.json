@@ -3,19 +3,19 @@
   "id": "saiyan-124-red-penetrating-defense-drill",
   "name": "Red Penetrating Defense Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-124-red-penetrating-defense-drill.svg",
-  "native_source_sha256": "319fddc40c05970480e43c12844d6ed5456d5fe96b9d68cce22d01b4e3ba1a88",
+  "native_source_sha256": "1175babb77c12b0ea475d829e258094ea1c0b13c8e867ff5e9afc29ba0c1b76a",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/18bc55f92f1d81759f5fa97fcb57391746641091a5a6bb42c736e73e8b70c7dc.png",
+      "sha256": "18bc55f92f1d81759f5fa97fcb57391746641091a5a6bb42c736e73e8b70c7dc"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/18bc55f92f1d81759f5fa97fcb57391746641091a5a6bb42c736e73e8b70c7dc.png",
-      "sha256": "18bc55f92f1d81759f5fa97fcb57391746641091a5a6bb42c736e73e8b70c7dc"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Reduce stage damage from all physical",
       "baseline": 1049.3,
-      "width": 788.4565789473684,
+      "width": 762.6187500000001,
       "icon_inline": true
     },
     {
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        88.6141,
-        44.5,
-        881.772,
-        69.0
+        219.5,
+        54.742,
+        620.0,
+        48.516
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        229.692,
+        216.773,
         1013.53,
         693.203,
         45.913
@@ -112,37 +112,38 @@
         "first_capital": "R",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          136.105,
-          1015.0,
-          79.4316,
-          34.3
+          149.024,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          229.692,
+          216.773,
           1015.0,
           19.943,
           34.3
         ],
         "new_visible_bounds": [
-          136.105,
-          1015.0,
-          79.4316,
-          34.3
+          149.024,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "1175babb77c12b0ea475d829e258094ea1c0b13c8e867ff5e9afc29ba0c1b76a"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-124-red-penetrating-defense-drill.webp",
-      "before_url": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=121960e150fc",
-      "before_sha256": "121960e150fc17bea2b1be608ee82812019ca7500e89b992b51322a823dfe8d7",
-      "after_sha256": "f40cc8b14f6371ca63368a00c4ab39e779d8d2143737204f91a397969664e6c3",
+      "before_url": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=f40cc8b14f63",
+      "before_sha256": "f40cc8b14f6371ca63368a00c4ab39e779d8d2143737204f91a397969664e6c3",
+      "after_sha256": "7787e2d6661156e86f83071be5d884abfb5ac0ca642a8a84625a6be52ad47068",
       "size": [
         1060,
         1484
@@ -152,14 +153,114 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp?v=8847008bd71d",
-      "before_sha256": "8847008bd71d5eacba5113123335497b88caf11144b31a013bcae39dfe1d68f1",
-      "after_sha256": "6ffcc14395c277e5ad7376dbff9e3c1043109ca41b01d3845d5b0dc4b51ace59",
+      "before_url": "/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp?v=6ffcc14395c2",
+      "before_sha256": "6ffcc14395c277e5ad7376dbff9e3c1043109ca41b01d3845d5b0dc4b51ace59",
+      "after_sha256": "4726a2fe797d5b3503723bb23b1b0ea43f54984b553038331c86c55c47c16f14",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 60.493706703092975,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.9999999999999,
+      "visible_height": 48.515952775880564,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.7031297503750806
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        359,
+        103,
+        1759,
+        213
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "4e7e598b7b8a2d73fc35f40646d238efc761bca49a8f4034d490193fdeadd01c",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "319fddc40c05970480e43c12844d6ed5456d5fe96b9d68cce22d01b4e3ba1a88",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-124-red-penetrating-defense-drill.webp",
+          "before_url": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=121960e150fc",
+          "before_sha256": "121960e150fc17bea2b1be608ee82812019ca7500e89b992b51322a823dfe8d7",
+          "after_sha256": "f40cc8b14f6371ca63368a00c4ab39e779d8d2143737204f91a397969664e6c3",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp?v=8847008bd71d",
+          "before_sha256": "8847008bd71d5eacba5113123335497b88caf11144b31a013bcae39dfe1d68f1",
+          "after_sha256": "6ffcc14395c277e5ad7376dbff9e3c1043109ca41b01d3845d5b0dc4b51ace59",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

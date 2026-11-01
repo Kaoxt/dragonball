@@ -3,19 +3,19 @@
   "id": "saiyan-139-red-wrist-control-drill",
   "name": "Red Wrist Control Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-139-red-wrist-control-drill.svg",
-  "native_source_sha256": "a5938c4f40fc7d44b1aaa5ec97a125318507505432b737700b68a72599bc47ad",
+  "native_source_sha256": "9b49fcef8070983e6055b6e5e56a40ac8f5942141ad590aec46fb1e6e6e62db2",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057.png",
+      "sha256": "3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057.png",
-      "sha256": "3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "For every 3 stages you lose, your opponent",
       "baseline": 1049.3,
-      "width": 854.6065789473683,
+      "width": 828.76875,
       "icon_inline": true
     },
     {
@@ -62,15 +62,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        196.674,
-        50.2213,
-        665.652,
-        57.5574
+        219.5,
+        52.195,
+        620.0,
+        53.6099
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -98,7 +98,7 @@
         33.708
       ],
       "rules-line-1": [
-        196.25,
+        183.331,
         1015.0,
         760.088,
         44.443
@@ -124,37 +124,38 @@
         "first_capital": "F",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          102.662,
-          1015.0,
-          79.4316,
-          34.3
+          115.581,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          196.25,
+          183.331,
           1015.0,
           17.934,
           34.3
         ],
         "new_visible_bounds": [
-          102.662,
-          1015.0,
-          79.4316,
-          34.3
+          115.581,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "9b49fcef8070983e6055b6e5e56a40ac8f5942141ad590aec46fb1e6e6e62db2"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-139-red-wrist-control-drill.webp",
-      "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=6441a22760fa",
-      "before_sha256": "6441a22760fab8944d32ada024e73ab2952ce36c3ed7122d67ae169a233f4e0a",
-      "after_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
+      "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=7e7d80a9d1df",
+      "before_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
+      "after_sha256": "7506024b579a0f5474ebfb1ff4a4abcd47c204d2cdbe19d3782323a0e84c20cf",
       "size": [
         1060,
         1484
@@ -164,14 +165,114 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=07e96031ba95",
-      "before_sha256": "07e96031ba950f88ee953b2bb349d0c6925425ef455b52e544bdf8f47358136b",
-      "after_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
+      "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=9914f695bad3",
+      "before_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
+      "after_sha256": "5099a650f42aa1fe476c9550533f61f0b8bd9859b236b598c016108e1651383e",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 80.13441902546205,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.9999999999999,
+      "visible_height": 53.609926328034106,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.9314174501220371
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        393,
+        100,
+        1725,
+        216
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "36f7f089d669e08974022e2b3c44ce1b3950c586724c8dde030b2ae941e2f8a6",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "a5938c4f40fc7d44b1aaa5ec97a125318507505432b737700b68a72599bc47ad",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-139-red-wrist-control-drill.webp",
+          "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=6441a22760fa",
+          "before_sha256": "6441a22760fab8944d32ada024e73ab2952ce36c3ed7122d67ae169a233f4e0a",
+          "after_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=07e96031ba95",
+          "before_sha256": "07e96031ba950f88ee953b2bb349d0c6925425ef455b52e544bdf8f47358136b",
+          "after_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

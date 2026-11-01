@@ -1,0 +1,308 @@
+{
+  "number": 170,
+  "id": "saiyan-170-raditz",
+  "name": "Raditz",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
+  "native_source_sha256": "1d10e2cc7e844849abcd5b4a3b23a97aea4062a97b29ef81428d7a99ed40ac23",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211.png",
+      "sha256": "6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "4247b1545e6d68662e4de8276d1b079cb28251b271521c73894edf694ff42afe",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Reduce damage from an energy attack",
+      "baseline": 1049.3,
+      "width": 836.1850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "against you to 2 life cards.",
+      "baseline": 1108.3,
+      "width": 471.9190000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        935.646,
+        160.009,
+        95.354,
+        38.269
+      ],
+      "power-stage-value-1": [
+        941.967,
+        224.691,
+        89.033,
+        38.269
+      ],
+      "power-stage-value-2": [
+        941.624,
+        289.373,
+        89.376,
+        38.269
+      ],
+      "power-stage-value-3": [
+        945.789,
+        354.054,
+        85.211,
+        38.269
+      ],
+      "power-stage-value-4": [
+        941.869,
+        418.736,
+        89.131,
+        38.269
+      ],
+      "power-stage-value-5": [
+        942.212,
+        483.418,
+        88.788,
+        38.269
+      ],
+      "power-stage-value-6": [
+        941.82,
+        548.1,
+        89.18,
+        38.269
+      ],
+      "power-stage-value-7": [
+        942.898,
+        612.782,
+        88.102,
+        38.269
+      ],
+      "power-stage-value-8": [
+        943.682,
+        677.463,
+        87.318,
+        38.269
+      ],
+      "power-stage-value-9": [
+        949.807,
+        742.145,
+        81.193,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.916,
+        50.2213,
+        183.168,
+        57.5574
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        56.233,
+        33.708
+      ],
+      "rules-line-1": [
+        112.951,
+        1014.61,
+        833.098,
+        44.835
+      ],
+      "rules-line-2": [
+        294.888,
+        1072.53,
+        469.224,
+        45.913
+      ]
+    },
+    "icons": [],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "1d10e2cc7e844849abcd5b4a3b23a97aea4062a97b29ef81428d7a99ed40ac23"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-170-raditz.webp",
+      "before_url": "/assets/cards/saiyan-170-raditz.webp?v=d31de309fea4",
+      "before_sha256": "d31de309fea4535d92df6551ca0caaedc2e819ba45e4d1ebd3becc7c9cfa670c",
+      "after_sha256": "bf24f8ea9001b06f7db8a0178c0e523458024c47041d8e6d57cef25f224d9a2d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
+      "before_url": "/assets/cards/downloads/saiyan-170-raditz.webp?v=3c8ed062cc83",
+      "before_sha256": "3c8ed062cc83a707a78eb9b8dcfb3b4f66780e7b63f7978de925e0eecf6b9b61",
+      "after_sha256": "ee2624327c5144fd538e3eda128e22508e6af9c6ae5bae1c0efc104616bbc050",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 183.1683291770574,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "58f5efebc90f4748c973939a51029354f8d6fe1aa888fe4b57dd461e7b2e88bb",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "edaab25cb9c9e0476f596097189b2b90a5fc3bd289a03658420f24efb2b126e1",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-170-raditz.webp",
+          "before_url": "/assets/cards/saiyan-170-raditz.webp?v=d31de309fea4",
+          "before_sha256": "d31de309fea4535d92df6551ca0caaedc2e819ba45e4d1ebd3becc7c9cfa670c",
+          "after_sha256": "fc948dc7db13e9a12cd8df11925b2a8a13cf1232ab6bf25375861060db0e7d0d",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
+          "before_url": "/assets/cards/downloads/saiyan-170-raditz.webp?v=3c8ed062cc83",
+          "before_sha256": "3c8ed062cc83a707a78eb9b8dcfb3b4f66780e7b63f7978de925e0eecf6b9b61",
+          "after_sha256": "8d15dedacad04c1d7f44bfab16fa47e3972d175946743169ec61b990b43a6b02",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

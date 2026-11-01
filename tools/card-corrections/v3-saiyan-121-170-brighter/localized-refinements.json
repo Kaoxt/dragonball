@@ -1,0 +1,101 @@
+[
+  {
+    "number": 156,
+    "allowed_full_export_bounds": [
+      [
+        40,
+        1990,
+        2080,
+        2630
+      ]
+    ],
+    "outside_pixels_exact": true,
+    "costume_patch": null
+  },
+  {
+    "number": 165,
+    "allowed_full_export_bounds": [
+      [
+        753,
+        1038,
+        905,
+        1169
+      ],
+      [
+        40,
+        1990,
+        2080,
+        2630
+      ]
+    ],
+    "outside_pixels_exact": true,
+    "costume_patch": {
+      "description": "Restore original Saiyan-training demon chest emblem; source illustration retained beneath a localized patch.",
+      "source_asset_sha256": "cebae53cfc7b22d76f2ca2340e6e8ef192f3d10a5d1d8d92737506874eeab7e2",
+      "generated_candidate_sha256": "8322b8f4d8396afdd8505cdae99d2b45e9caf2aae901ec2441422b91e49dc1fc",
+      "patch_asset": "tools/card-templates/v3/assets/415f70cb554a67b50fa6af2aed515cfac8b5d97e4e2b0aea19989e461d7a2089.png",
+      "patch_sha256": "415f70cb554a67b50fa6af2aed515cfac8b5d97e4e2b0aea19989e461d7a2089",
+      "source_pixel_crop": [
+        524,
+        552,
+        648,
+        658
+      ],
+      "source_pixel_clip_ellipse": [
+        586,
+        605,
+        61,
+        52
+      ],
+      "official_reference": "https://en.dragon-ball-official.com/news/01_344.html",
+      "original_reference": "/workspace/scratch/1462bd7d1bc1/release-repo/tools/card-corrections/v3-saiyan-151-200/original-scans/score-165.jpg",
+      "method": "Built-in image generation; only the clipped badge patch is used.",
+      "full_export_allowed_bounds": [
+        753,
+        1038,
+        905,
+        1169
+      ]
+    }
+  },
+  {
+    "number": 166,
+    "allowed_full_export_bounds": [
+      [
+        849,
+        889,
+        971,
+        1000
+      ]
+    ],
+    "outside_pixels_exact": true,
+    "costume_patch": {
+      "description": "Restore original Saiyan-training demon chest emblem; source illustration retained beneath a localized patch.",
+      "source_asset_sha256": "2cafeb838e8fa42d9cdd882fcfcc083bc8bf1a4adf243b4b1ac4b0426565f6fe",
+      "generated_candidate_sha256": "fa99081a38cd23077eb33999321e051e59da87fe9347bb7394983aaa2174476e",
+      "patch_asset": "tools/card-templates/v3/assets/1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9.png",
+      "patch_sha256": "1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9",
+      "source_pixel_crop": [
+        590,
+        446,
+        679,
+        527
+      ],
+      "source_pixel_clip_ellipse": [
+        634.5,
+        486.5,
+        43,
+        39
+      ],
+      "official_reference": "https://en.dragon-ball-official.com/news/01_344.html",
+      "original_reference": "/workspace/scratch/1462bd7d1bc1/release-repo/tools/card-corrections/v3-saiyan-151-200/original-scans/score-166.jpg",
+      "method": "Built-in image generation; only the clipped badge patch is used.",
+      "full_export_allowed_bounds": [
+        849,
+        889,
+        971,
+        1000
+      ]
+    }
+  }
+]

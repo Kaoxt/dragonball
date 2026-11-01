@@ -3,19 +3,19 @@
   "id": "saiyan-142-orange-energy-drill",
   "name": "Orange Energy Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-142-orange-energy-drill.svg",
-  "native_source_sha256": "aa03e272a8757b30f115b3a13abf61c90989e097ab8dd80d5cec7faeb6830feb",
+  "native_source_sha256": "8404677ef8e39a5aa5fbe2f50cc227fb0fa417114c3a483573b391d5ab84a9b1",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/68a9c878521907e4c5037a905f5c8053d528915fd133eaaad2bcaee90f07f3dc.png",
+      "sha256": "68a9c878521907e4c5037a905f5c8053d528915fd133eaaad2bcaee90f07f3dc"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/68a9c878521907e4c5037a905f5c8053d528915fd133eaaad2bcaee90f07f3dc.png",
-      "sha256": "68a9c878521907e4c5037a905f5c8053d528915fd133eaaad2bcaee90f07f3dc"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Reduce life card damage from all energy",
       "baseline": 1049.3,
-      "width": 810.7025789473682,
+      "width": 784.86475,
       "icon_inline": true
     },
     {
@@ -74,9 +74,9 @@
         69.0
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -104,7 +104,7 @@
         33.708
       ],
       "rules-line-1": [
-        218.066,
+        205.147,
         1013.53,
         716.455,
         45.913
@@ -136,37 +136,38 @@
         "first_capital": "R",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          124.479,
-          1015.0,
-          79.4316,
-          34.3
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          218.066,
+          205.147,
           1015.0,
           19.943,
           34.3
         ],
         "new_visible_bounds": [
-          124.479,
-          1015.0,
-          79.4316,
-          34.3
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "8404677ef8e39a5aa5fbe2f50cc227fb0fa417114c3a483573b391d5ab84a9b1"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-142-orange-energy-drill.webp",
-      "before_url": "/assets/cards/saiyan-142-orange-energy-drill.webp?v=4c378b05832e",
-      "before_sha256": "4c378b05832e899e1e272ad0e82da89fab481b2dd5b020c56db04a0bd15ffb68",
-      "after_sha256": "8e889aa53f07e650eea7a13cb6015104595f8b2786fc90a2d5920188dadbb36e",
+      "before_url": "/assets/cards/saiyan-142-orange-energy-drill.webp?v=8e889aa53f07",
+      "before_sha256": "8e889aa53f07e650eea7a13cb6015104595f8b2786fc90a2d5920188dadbb36e",
+      "after_sha256": "f0da0fcd48f473e70eca0898e164a95870ddf28f93fe403de6f3c88abda1c891",
       "size": [
         1060,
         1484
@@ -176,14 +177,109 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-142-orange-energy-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-142-orange-energy-drill.webp?v=c92f5a48fa60",
-      "before_sha256": "c92f5a48fa604b9d7e76dc4bdb39e35b64f93a4bf72564254fa003c5fa5afbd4",
-      "after_sha256": "1ad651be3830cc6d3e1e0ee2aed0d90473f99083a8fa398edf492461cc777c57",
+      "before_url": "/assets/cards/downloads/saiyan-142-orange-energy-drill.webp?v=1ad651be3830",
+      "before_sha256": "1ad651be3830cc6d3e1e0ee2aed0d90473f99083a8fa398edf492461cc777c57",
+      "after_sha256": "b48f6809d839c819d5f1a5d9b232da703540a449f22e3a22375a4626a637185b",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 572.7344139650874,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "961aac194e6422e3b5a3fb775c17bb3ad74cde10db94f8237ba39e8c419722ab",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "aa03e272a8757b30f115b3a13abf61c90989e097ab8dd80d5cec7faeb6830feb",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-142-orange-energy-drill.webp",
+          "before_url": "/assets/cards/saiyan-142-orange-energy-drill.webp?v=4c378b05832e",
+          "before_sha256": "4c378b05832e899e1e272ad0e82da89fab481b2dd5b020c56db04a0bd15ffb68",
+          "after_sha256": "8e889aa53f07e650eea7a13cb6015104595f8b2786fc90a2d5920188dadbb36e",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-142-orange-energy-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-142-orange-energy-drill.webp?v=c92f5a48fa60",
+          "before_sha256": "c92f5a48fa604b9d7e76dc4bdb39e35b64f93a4bf72564254fa003c5fa5afbd4",
+          "after_sha256": "1ad651be3830cc6d3e1e0ee2aed0d90473f99083a8fa398edf492461cc777c57",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

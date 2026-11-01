@@ -3,19 +3,19 @@
   "id": "saiyan-134-orange-off-balancing-drill",
   "name": "Orange Off-Balancing Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-134-orange-off-balancing-drill.svg",
-  "native_source_sha256": "0b323635c30baa7f4e2041989e698b30fedbd43f1c45138c4ee5c83656851069",
+  "native_source_sha256": "407cc7966e165cc90a63d8f8515dc2bc4c8ea5be1e1bc9b7847033ff4e0752c0",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/515cd729b917e331102e7dce0a8a9a1537d0fa069fdba82753cbfbc13056af6c.png",
+      "sha256": "515cd729b917e331102e7dce0a8a9a1537d0fa069fdba82753cbfbc13056af6c"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/515cd729b917e331102e7dce0a8a9a1537d0fa069fdba82753cbfbc13056af6c.png",
-      "sha256": "515cd729b917e331102e7dce0a8a9a1537d0fa069fdba82753cbfbc13056af6c"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        137.869,
-        44.5,
-        783.262,
-        69.0
+        219.5,
+        51.6911,
+        620.0,
+        54.6178
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -134,15 +134,16 @@
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": false
       }
-    ]
+    ],
+    "native_source_sha256": "407cc7966e165cc90a63d8f8515dc2bc4c8ea5be1e1bc9b7847033ff4e0752c0"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-134-orange-off-balancing-drill.webp",
-      "before_url": "/assets/cards/saiyan-134-orange-off-balancing-drill.webp?v=92437e7c7a71",
-      "before_sha256": "92437e7c7a71684c812cb6aa55fe4676c705124b9485464712a4840901791ac4",
-      "after_sha256": "6c9c69027254565e5bcfbaceb888bffd81da9de53164318cdf6757b7ef7b2186",
+      "before_url": "/assets/cards/saiyan-134-orange-off-balancing-drill.webp?v=6c9c69027254",
+      "before_sha256": "6c9c69027254565e5bcfbaceb888bffd81da9de53164318cdf6757b7ef7b2186",
+      "after_sha256": "4f93da339354580c09f540521b25756319109a0d4fdc01daee83729ada0ee058",
       "size": [
         1060,
         1484
@@ -152,14 +153,113 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp?v=2e9c5c01e6c0",
-      "before_sha256": "2e9c5c01e6c08ec09c3b1a27d748be72283d8a319bc4a72c30b618bb30f1f06a",
-      "after_sha256": "700708cd66351198526e65c0af43c39c677b700185ad0a755f3a38e6d09888f5",
+      "before_url": "/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp?v=700708cd6635",
+      "before_sha256": "700708cd66351198526e65c0af43c39c677b700185ad0a755f3a38e6d09888f5",
+      "after_sha256": "f3fa8adb56eceae4f48f9dbef9d4e781cdc3660a83981cb80add0f6423b66a1b",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 68.1019332161687,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.9999999999998,
+      "visible_height": 54.61775043936729,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.7915616005705405
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        359,
+        96,
+        1759,
+        220
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "cb16eb6de2ef1ef5c821455ec46662f5091ad09629c1da8770a418a612982646",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "0b323635c30baa7f4e2041989e698b30fedbd43f1c45138c4ee5c83656851069",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-134-orange-off-balancing-drill.webp",
+          "before_url": "/assets/cards/saiyan-134-orange-off-balancing-drill.webp?v=92437e7c7a71",
+          "before_sha256": "92437e7c7a71684c812cb6aa55fe4676c705124b9485464712a4840901791ac4",
+          "after_sha256": "6c9c69027254565e5bcfbaceb888bffd81da9de53164318cdf6757b7ef7b2186",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp?v=2e9c5c01e6c0",
+          "before_sha256": "2e9c5c01e6c08ec09c3b1a27d748be72283d8a319bc4a72c30b618bb30f1f06a",
+          "after_sha256": "700708cd66351198526e65c0af43c39c677b700185ad0a755f3a38e6d09888f5",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

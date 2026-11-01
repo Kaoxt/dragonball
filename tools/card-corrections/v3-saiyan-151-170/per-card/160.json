@@ -1,0 +1,308 @@
+{
+  "number": 160,
+  "id": "saiyan-160-goku",
+  "name": "Goku",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-160-goku.svg",
+  "native_source_sha256": "2ed785e7e3e6ebbaabfd242401e3a687554e1516724345b272c758d349e05005",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a914ea2d2dca375597341ff3b74c62b7fae7078ce9955b5c3c3405fbe8834934.png",
+      "sha256": "a914ea2d2dca375597341ff3b74c62b7fae7078ce9955b5c3c3405fbe8834934"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "3a1c11d39077b72a282ab51fc3b46949749cc31389fcf9ff84c4f94d6929109d",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Reduce damage from a successful",
+      "baseline": 1049.3,
+      "width": 759.255,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack against you by 2 life cards.",
+      "baseline": 1108.3,
+      "width": 736.47,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        921.877,
+        160.009,
+        109.123,
+        38.269
+      ],
+      "power-stage-value-1": [
+        921.191,
+        224.691,
+        109.809,
+        38.269
+      ],
+      "power-stage-value-2": [
+        928.002,
+        289.373,
+        102.998,
+        38.269
+      ],
+      "power-stage-value-3": [
+        927.316,
+        354.054,
+        103.684,
+        38.269
+      ],
+      "power-stage-value-4": [
+        919.721,
+        418.736,
+        111.279,
+        38.269
+      ],
+      "power-stage-value-5": [
+        919.035,
+        483.418,
+        111.965,
+        38.269
+      ],
+      "power-stage-value-6": [
+        935.058,
+        548.1,
+        95.942,
+        38.269
+      ],
+      "power-stage-value-7": [
+        934.372,
+        612.782,
+        96.628,
+        38.269
+      ],
+      "power-stage-value-8": [
+        935.009,
+        677.463,
+        95.991,
+        38.269
+      ],
+      "power-stage-value-9": [
+        934.323,
+        742.145,
+        96.677,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        457.102,
+        50.2213,
+        144.797,
+        57.5574
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.473,
+        33.708
+      ],
+      "rules-line-1": [
+        151.759,
+        1014.61,
+        755.482,
+        44.835
+      ],
+      "rules-line-2": [
+        162.808,
+        1072.53,
+        733.383,
+        45.913
+      ]
+    },
+    "icons": [],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "2ed785e7e3e6ebbaabfd242401e3a687554e1516724345b272c758d349e05005"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-160-goku.webp",
+      "before_url": "/assets/cards/saiyan-160-goku.webp?v=03812614b234",
+      "before_sha256": "03812614b2345a34a35fa737f7195b8be271d63e12a54e5714ee7adcbb580e57",
+      "after_sha256": "17885baaf4ed63f8554aadfe6f7be6292a4edaeae307f01aba6413d566c3e47c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-160-goku.webp",
+      "before_url": "/assets/cards/downloads/saiyan-160-goku.webp?v=749f8279e260",
+      "before_sha256": "749f8279e260f2f9593e26859f95acd101435597bbfb7841f3f78d72a6b5065f",
+      "after_sha256": "574261594a6b4fe0a9f887c8ed8606b72005f63f311f0ff19011ba59e62fc89d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 144.7967581047382,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "a5e0976ecd7fc8d7edc5717c5393172acf90cb7a0663f15ae7a75af8b918cf2b",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "2a095673e4e0bd6c60073491fd815e877e79c0c95832ddefb8bd8693601a2eb5",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-160-goku.webp",
+          "before_url": "/assets/cards/saiyan-160-goku.webp?v=03812614b234",
+          "before_sha256": "03812614b2345a34a35fa737f7195b8be271d63e12a54e5714ee7adcbb580e57",
+          "after_sha256": "4473d507dffbd5964a340715e15fd5fb775903b045cbb835c1f2da399a692547",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-160-goku.webp",
+          "before_url": "/assets/cards/downloads/saiyan-160-goku.webp?v=749f8279e260",
+          "before_sha256": "749f8279e260f2f9593e26859f95acd101435597bbfb7841f3f78d72a6b5065f",
+          "after_sha256": "3f30b7bf0b0f341e2477cefc90f710b8aea1f069b0a7691f3605d3f6aaf2e031",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

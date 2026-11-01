@@ -3,12 +3,8 @@
   "id": "saiyan-149-meditation-drill",
   "name": "Meditation Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-149-meditation-drill.svg",
-  "native_source_sha256": "579c576ebafaccd836ab65fdbad17b17e4a532223cbff42fa70b8fde1cf1d1e4",
+  "native_source_sha256": "618f43e93a23c6491706af99d7c53090b913a48d39642640f69878fa7a213001",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958.png",
       "sha256": "97a7f3b5dee9ec3441082548928f230fc62a6edb2ea15ed37342333aa28ae958"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/ae55dde22519c08b70ee23759ba9f7ecc6c51dadc2f6dba812b11f32833a608b.png",
@@ -74,7 +74,7 @@
     {
       "text": "When entering Combat, you may shuffle your",
       "baseline": 1049.3,
-      "width": 888.8085789473683,
+      "width": 862.9707499999998,
       "icon_inline": true
     },
     {
@@ -94,9 +94,9 @@
         57.5574
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -124,7 +124,7 @@
         33.708
       ],
       "rules-line-1": [
-        177.693,
+        164.775,
         1013.53,
         796.025,
         45.913
@@ -144,37 +144,38 @@
         "first_capital": "W",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          85.2819,
-          1015.0,
-          79.4316,
-          34.3
+          98.2008,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          177.693,
+          164.775,
           1015.0,
           31.7651,
           34.3
         ],
         "new_visible_bounds": [
-          85.2819,
-          1015.0,
-          79.4316,
-          34.3
+          98.2008,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "618f43e93a23c6491706af99d7c53090b913a48d39642640f69878fa7a213001"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-149-meditation-drill.webp",
-      "before_url": "/assets/cards/saiyan-149-meditation-drill.webp?v=bcc24da23d9f",
-      "before_sha256": "bcc24da23d9f50baed55f7bd95d98d7d035db2fddbecdfca70c53f0bee18e76e",
-      "after_sha256": "2e9080d6fd49ce3b7d2c628e1a244f02425e90498e919a86b1158a855e043401",
+      "before_url": "/assets/cards/saiyan-149-meditation-drill.webp?v=2e9080d6fd49",
+      "before_sha256": "2e9080d6fd49ce3b7d2c628e1a244f02425e90498e919a86b1158a855e043401",
+      "after_sha256": "970c7bdc4472db4b05115fa9149c9ee81e842b259bf51c114c12f08859466d72",
       "size": [
         1060,
         1484
@@ -184,14 +185,109 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-149-meditation-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-149-meditation-drill.webp?v=ca9032e59812",
-      "before_sha256": "ca9032e598125fea29c5c6ce2a5e8f5ee4575454c5dc53cbb4b6b5b6dc579332",
-      "after_sha256": "a2ee0bbfd964003727eeb0337e56887752ddf3179e6a135756d4a0a80276a2a5",
+      "before_url": "/assets/cards/downloads/saiyan-149-meditation-drill.webp?v=a2ee0bbfd964",
+      "before_sha256": "a2ee0bbfd964003727eeb0337e56887752ddf3179e6a135756d4a0a80276a2a5",
+      "after_sha256": "ce0270027b87a8ef52c64d669f3f1e11ec835ff9f0efa02a995ed3e9c36c873b",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 457.70573566084795,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "66783aaf5105b4a1447c8dc2cb0787984f196cb0a1cc2450bf47dc327222d748",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "579c576ebafaccd836ab65fdbad17b17e4a532223cbff42fa70b8fde1cf1d1e4",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-149-meditation-drill.webp",
+          "before_url": "/assets/cards/saiyan-149-meditation-drill.webp?v=bcc24da23d9f",
+          "before_sha256": "bcc24da23d9f50baed55f7bd95d98d7d035db2fddbecdfca70c53f0bee18e76e",
+          "after_sha256": "2e9080d6fd49ce3b7d2c628e1a244f02425e90498e919a86b1158a855e043401",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-149-meditation-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-149-meditation-drill.webp?v=ca9032e59812",
+          "before_sha256": "ca9032e598125fea29c5c6ce2a5e8f5ee4575454c5dc53cbb4b6b5b6dc579332",
+          "after_sha256": "a2ee0bbfd964003727eeb0337e56887752ddf3179e6a135756d4a0a80276a2a5",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

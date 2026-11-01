@@ -3,12 +3,8 @@
   "id": "saiyan-126-orange-lifting-drill",
   "name": "Orange Lifting Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-126-orange-lifting-drill.svg",
-  "native_source_sha256": "e0174b410ee3264e913788ab4145701ed76b0ed32319bb5b25b0c4165951ad83",
+  "native_source_sha256": "588b7540454f4e7684c401879a34c9f9cb90cfd91c77f898175c14a4511d13a6",
   "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
@@ -16,6 +12,10 @@
     {
       "path": "tools/card-templates/v3/assets/7c7d6ef964e0e6c178b9a32b0552767975bb4c7370fae8480c29bc132f732e2d.png",
       "sha256": "7c7d6ef964e0e6c178b9a32b0552767975bb4c7370fae8480c29bc132f732e2d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -68,9 +68,9 @@
         69.0
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -116,15 +116,16 @@
         45.521
       ]
     },
-    "icons": []
+    "icons": [],
+    "native_source_sha256": "588b7540454f4e7684c401879a34c9f9cb90cfd91c77f898175c14a4511d13a6"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-126-orange-lifting-drill.webp",
-      "before_url": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=0b8a5561be15",
-      "before_sha256": "0b8a5561be15b676c6d837f2d03fb454fcba3ae64eaccde736bca60aae76478f",
-      "after_sha256": "cab598e92a5d524782564648a31acc291f59c926fc2657c4db7cf545b21c976c",
+      "before_url": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=cab598e92a5d",
+      "before_sha256": "cab598e92a5d524782564648a31acc291f59c926fc2657c4db7cf545b21c976c",
+      "after_sha256": "4c9b929659b255c4fdab946027fadeb223683e8ecc0afc912136b495d6f3cb3a",
       "size": [
         1060,
         1484
@@ -134,14 +135,108 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp?v=58a0e8fcd950",
-      "before_sha256": "58a0e8fcd9502eed1ebdf397acb97f42c0740b171a4cab3c5ee25c383fe5e511",
-      "after_sha256": "44b6776ca59146e024429b430880d034974a9a58daff8da66c44c2dd4c4425bc",
+      "before_url": "/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp?v=44b6776ca591",
+      "before_sha256": "44b6776ca59146e024429b430880d034974a9a58daff8da66c44c2dd4c4425bc",
+      "after_sha256": "88cdff2e0500dd0ee363eda38907d9cff91925ba287f65f40696a3bb0d10b797",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 556.6458852867831,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "9b929620924c6c92a6126f332f2e8ff6b089c3880a25cb128b96eb8f572996fe",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "e0174b410ee3264e913788ab4145701ed76b0ed32319bb5b25b0c4165951ad83",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-126-orange-lifting-drill.webp",
+          "before_url": "/assets/cards/saiyan-126-orange-lifting-drill.webp?v=0b8a5561be15",
+          "before_sha256": "0b8a5561be15b676c6d837f2d03fb454fcba3ae64eaccde736bca60aae76478f",
+          "after_sha256": "cab598e92a5d524782564648a31acc291f59c926fc2657c4db7cf545b21c976c",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-126-orange-lifting-drill.webp?v=58a0e8fcd950",
+          "before_sha256": "58a0e8fcd9502eed1ebdf397acb97f42c0740b171a4cab3c5ee25c383fe5e511",
+          "after_sha256": "44b6776ca59146e024429b430880d034974a9a58daff8da66c44c2dd4c4425bc",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

@@ -3,19 +3,19 @@
   "id": "saiyan-146-orange-body-shifting-drill",
   "name": "Orange Body Shifting Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-146-orange-body-shifting-drill.svg",
-  "native_source_sha256": "c26db1afc405ec17e29e5a30077f5002d2bf2a95ed021f4cb70bba33fa3e0993",
+  "native_source_sha256": "8ac03d33c7374498ab282edc6dc599dac0c4dbe9b37c2b1fde0793470530ed59",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/234ec38a008abefe79ab275899c65982a4b1dbc7f9b19efdbec3794d968dc216.png",
+      "sha256": "234ec38a008abefe79ab275899c65982a4b1dbc7f9b19efdbec3794d968dc216"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/234ec38a008abefe79ab275899c65982a4b1dbc7f9b19efdbec3794d968dc216.png",
-      "sha256": "234ec38a008abefe79ab275899c65982a4b1dbc7f9b19efdbec3794d968dc216"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Your energy attacks that cost 2 stages to",
       "baseline": 1049.3,
-      "width": 827.7055789473683,
+      "width": 801.8677499999999,
       "icon_inline": true
     },
     {
@@ -56,15 +56,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        145.526,
-        44.5,
-        767.948,
-        69.0
+        219.5,
+        51.1465,
+        620.0,
+        55.7069
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        208.99,
+        196.071,
         1014.61,
         733.628,
         44.835
@@ -112,37 +112,38 @@
         "first_capital": "Y",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          116.382,
-          1015.0,
-          79.4316,
-          34.3
+          129.301,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          208.99,
+          196.071,
           1015.0,
           20.8642,
           34.251
         ],
         "new_visible_bounds": [
-          116.382,
-          1014.98,
-          79.4316,
-          34.3
+          129.301,
+          1022.48,
+          41.8031,
+          19.2938
         ],
-        "vertical_shift": -0.024499999999989086,
-        "center_error": 0.004500000000007276,
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "8ac03d33c7374498ab282edc6dc599dac0c4dbe9b37c2b1fde0793470530ed59"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-146-orange-body-shifting-drill.webp",
-      "before_url": "/assets/cards/saiyan-146-orange-body-shifting-drill.webp?v=1dc8f291e810",
-      "before_sha256": "1dc8f291e810b6cec4a86ba5afe8d5e7a40d98ee60b4885860694d082873aa71",
-      "after_sha256": "daf63ef862884615fc4df893856af630e7f64beb8eadf6c52bf9d10b7315d59c",
+      "before_url": "/assets/cards/saiyan-146-orange-body-shifting-drill.webp?v=daf63ef86288",
+      "before_sha256": "daf63ef862884615fc4df893856af630e7f64beb8eadf6c52bf9d10b7315d59c",
+      "after_sha256": "5ad12c6282d5fc68990aff037c99b5793556e95557375bf69234d3fcbfcf2bfa",
       "size": [
         1060,
         1484
@@ -152,14 +153,114 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp?v=fa98c3236b43",
-      "before_sha256": "fa98c3236b436ec171c8dec9699ac57780d782de7f8be94e07962e0086782bf5",
-      "after_sha256": "6f6a709f48d6a85c7ff524d3567adbebe795053ca421364410c62ccca874af26",
+      "before_url": "/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp?v=6f6a709f48d6",
+      "before_sha256": "6f6a709f48d6a85c7ff524d3567adbebe795053ca421364410c62ccca874af26",
+      "after_sha256": "b1832ce900d56bdbe0ec1b9cd1bfc311aaa457a7798658eb2d4f7fedda9fccdf",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 69.4600044812906,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.9999999999999,
+      "visible_height": 55.70692359399506,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.8073467187535515
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        359,
+        95,
+        1759,
+        221
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "56101489a97f3b8c7c843e54665f14e319038e8345a1ad7a136694f9bc0f3705",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "c26db1afc405ec17e29e5a30077f5002d2bf2a95ed021f4cb70bba33fa3e0993",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-146-orange-body-shifting-drill.webp",
+          "before_url": "/assets/cards/saiyan-146-orange-body-shifting-drill.webp?v=1dc8f291e810",
+          "before_sha256": "1dc8f291e810b6cec4a86ba5afe8d5e7a40d98ee60b4885860694d082873aa71",
+          "after_sha256": "daf63ef862884615fc4df893856af630e7f64beb8eadf6c52bf9d10b7315d59c",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp?v=fa98c3236b43",
+          "before_sha256": "fa98c3236b436ec171c8dec9699ac57780d782de7f8be94e07962e0086782bf5",
+          "after_sha256": "6f6a709f48d6a85c7ff524d3567adbebe795053ca421364410c62ccca874af26",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

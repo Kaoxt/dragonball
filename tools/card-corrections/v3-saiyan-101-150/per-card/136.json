@@ -3,19 +3,19 @@
   "id": "saiyan-136-black-free-style-drill",
   "name": "Black Free-Style Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-136-black-free-style-drill.svg",
-  "native_source_sha256": "fff4980896c92802c754a7e6e5b195784f725ef45624bef5c0f817c8c1e5bc76",
+  "native_source_sha256": "b4df1b158a1b57ef3cac99c97c992cbd97b2a1d4cee5a5aed89ff449843b4991",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8.png",
+      "sha256": "51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8.png",
-      "sha256": "51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "After taking damage from an energy attack,",
       "baseline": 1049.3,
-      "width": 871.5115789473685,
+      "width": 845.67375,
       "icon_inline": true
     },
     {
@@ -68,15 +68,15 @@
     "native_outlined_text": true,
     "bounds": {
       "card-title": [
-        212.461,
-        44.5,
-        634.077,
-        69.0
+        219.5,
+        45.2659,
+        620.0,
+        67.4681
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -104,7 +104,7 @@
         33.708
       ],
       "rules-line-1": [
-        186.654,
+        173.735,
         1013.53,
         777.782,
         45.913
@@ -136,37 +136,38 @@
         "first_capital": "A",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          94.5642,
-          1015.0,
-          79.4316,
-          34.3
+          107.483,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          186.654,
+          173.735,
           1015.0,
           22.3226,
           34.3
         ],
         "new_visible_bounds": [
-          94.5642,
-          1015.0,
-          79.4316,
-          34.3
+          107.483,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "b4df1b158a1b57ef3cac99c97c992cbd97b2a1d4cee5a5aed89ff449843b4991"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-136-black-free-style-drill.webp",
-      "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=d8b3e4594fd1",
-      "before_sha256": "d8b3e4594fd13658299d01e848b724f0bc184ad3f21fa3f1e8020f45cffa38c9",
-      "after_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
+      "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=00298f081fe0",
+      "before_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
+      "after_sha256": "44756886614a091fd4102cc25e565dbd32337266e584209740150a35253b6b98",
       "size": [
         1060,
         1484
@@ -176,14 +177,127 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-136-black-free-style-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=995e22a904c8",
-      "before_sha256": "995e22a904c85dc9bf7c6a65a5bfd734d0b3ba4984f26c8dd438e49851230468",
-      "after_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
+      "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=ec7d66e60d86",
+      "before_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
+      "after_sha256": "6498fabf32bb392f157b18e6953db80042ac61143d8bee7e1e890d386f63c1a7",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "black_style_palette": {
+    "rgb_scale": [
+      0.64,
+      0.65,
+      0.67
+    ],
+    "rgb_offset_255": [
+      31.5,
+      34.3,
+      35.2
+    ],
+    "brightness_gain_after_palette": 1.2
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 84.12483039348712,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.0,
+      "visible_height": 67.46811397557667,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 0.9777987532692269
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": true,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": [
+        424,
+        89,
+        1694,
+        227
+      ]
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "75666c6c4ee6ddd2de955ace62aef5208089c5db566fee40c29238c5c4cdd3d4",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "fff4980896c92802c754a7e6e5b195784f725ef45624bef5c0f817c8c1e5bc76",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-136-black-free-style-drill.webp",
+          "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=d8b3e4594fd1",
+          "before_sha256": "d8b3e4594fd13658299d01e848b724f0bc184ad3f21fa3f1e8020f45cffa38c9",
+          "after_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-136-black-free-style-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=995e22a904c8",
+          "before_sha256": "995e22a904c85dc9bf7c6a65a5bfd734d0b3ba4984f26c8dd438e49851230468",
+          "after_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }

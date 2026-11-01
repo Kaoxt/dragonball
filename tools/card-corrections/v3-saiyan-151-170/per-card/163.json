@@ -1,0 +1,362 @@
+{
+  "number": 163,
+  "id": "saiyan-163-piccolo",
+  "name": "Piccolo",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-163-piccolo.svg",
+  "native_source_sha256": "c4164123ba947c7c42070bbb18f4b1b7b760a70976e9e44717cea2745991ea40",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b4be8f008790395cc61bd92626e4994afa7a9e6dacb8f9a28157d7eb3a39c15d.png",
+      "sha256": "b4be8f008790395cc61bd92626e4994afa7a9e6dacb8f9a28157d7eb3a39c15d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "source_native_sha256": "9812bb30dadd0cd75ed11ea4080b70db2170a5277a17bb9fe8e9ad2e39395d0f",
+    "localized_correction": null,
+    "expression_patch_retained": false,
+    "tien_placement_retained": false
+  },
+  "rules": [
+    {
+      "text": "Perform 2 physical attacks, one after the",
+      "baseline": 1049.3,
+      "width": 783.2251555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "other. DAMAGE: AT stages each. OR use as a",
+      "baseline": 1108.3,
+      "width": 776.552,
+      "icon_inline": false
+    },
+    {
+      "text": "defense to reduce damage from a physical attack",
+      "baseline": 1167.3,
+      "width": 883.666,
+      "icon_inline": false
+    },
+    {
+      "text": "by 4 stages.",
+      "baseline": 1226.3,
+      "width": 216.23700000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.281,
+        160.009,
+        89.719,
+        38.269
+      ],
+      "power-stage-value-1": [
+        939.174,
+        224.691,
+        91.826,
+        38.269
+      ],
+      "power-stage-value-2": [
+        938.929,
+        289.373,
+        92.071,
+        38.269
+      ],
+      "power-stage-value-3": [
+        936.822,
+        354.054,
+        94.178,
+        38.269
+      ],
+      "power-stage-value-4": [
+        939.223,
+        418.736,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-5": [
+        937.116,
+        483.418,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-6": [
+        937.312,
+        548.1,
+        93.688,
+        38.269
+      ],
+      "power-stage-value-7": [
+        935.205,
+        612.782,
+        95.795,
+        38.269
+      ],
+      "power-stage-value-8": [
+        939.223,
+        677.463,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-9": [
+        937.116,
+        742.145,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        420.881,
+        50.2213,
+        217.238,
+        57.5574
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.042,
+        33.708
+      ],
+      "rules-line-1": [
+        193.095,
+        1013.53,
+        727.356,
+        45.521
+      ],
+      "rules-line-2": [
+        142.743,
+        1073.61,
+        773.514,
+        44.835
+      ],
+      "rules-line-3": [
+        88.9165,
+        1131.53,
+        881.167,
+        45.913
+      ],
+      "rules-line-4": [
+        423.097,
+        1192.0,
+        212.807,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.549,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          193.095,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          138.549,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "c4164123ba947c7c42070bbb18f4b1b7b760a70976e9e44717cea2745991ea40"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-163-piccolo.webp",
+      "before_url": "/assets/cards/saiyan-163-piccolo.webp?v=c53c1be73fee",
+      "before_sha256": "c53c1be73fee3809f5203a84c525c8314aa79c115da106bf0ced08f8ca3ce996",
+      "after_sha256": "e4fac72593bcc430e75447b7a2bf6a9d8b8755b2c6f1221076a735b5a70e2ad1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-163-piccolo.webp",
+      "before_url": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=5a9df8f445db",
+      "before_sha256": "5a9df8f445dbfd9013466bdad114620743d71f2164eecc1eacd090ab8e730b92",
+      "after_sha256": "c7b526a18f09d5a50d7f11dcd8abdec9469f147ec30e461090c9d60313058e03",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 217.23815461346638,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "08c06f44b78cd70c17cb9bf6f56499927070c16a63d4678a721af54b040ef265",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "3531b534cdbf41584b8f10e1cbc19de311c3302d11faeb7e854c02a97f7408d5",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-163-piccolo.webp",
+          "before_url": "/assets/cards/saiyan-163-piccolo.webp?v=c53c1be73fee",
+          "before_sha256": "c53c1be73fee3809f5203a84c525c8314aa79c115da106bf0ced08f8ca3ce996",
+          "after_sha256": "2913eeef8b87cd201a0edf97d4348b2a900d256abe785b427e677c8f67c983eb",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-163-piccolo.webp",
+          "before_url": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=5a9df8f445db",
+          "before_sha256": "5a9df8f445dbfd9013466bdad114620743d71f2164eecc1eacd090ab8e730b92",
+          "after_sha256": "994fde130fbe16fa7152d3c4bda8d801dbf33c0361482ca571074fb182d8d29e",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

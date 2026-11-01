@@ -1,0 +1,324 @@
+{
+  "number": 169,
+  "id": "saiyan-169-krillin",
+  "name": "Krillin",
+  "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-169-krillin.svg",
+  "native_source_sha256": "4932a570c2cd6e80a9273c4ac6b36f602d0858bb2d783a4350d03997c0cf29bf",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8965215ef1df875e0bc79d6b65f5275b428177b9da679d6801f60bedf81e530c.png",
+      "sha256": "8965215ef1df875e0bc79d6b65f5275b428177b9da679d6801f60bedf81e530c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "artwork": {
+    "horizontal_source_crop": 0,
+    "subject_crop": 0,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "reason": "Fit the complete source illustration without additional upper/lower cropping",
+      "retained_source_bytes": true,
+      "subject_crop": 0,
+      "horizontal_background_trim": 0,
+      "generated_content": "None; native soft boundary-color fill only",
+      "original_sha256": "8965215ef1df875e0bc79d6b65f5275b428177b9da679d6801f60bedf81e530c",
+      "viewBox": [
+        -10.77620396600571,
+        0.0,
+        1527.5524079320114,
+        1044.0
+      ],
+      "protected_source_region": [
+        0,
+        0,
+        1506.0,
+        1044.0
+      ],
+      "source_edge_alpha": "Opaque original retained, including subject at source edges",
+      "composition_retained_in_native_source": "tools/card-templates/v3/saiyan-151-170/saiyan-169-krillin.svg",
+      "historical_composite_name": "saiyan-169.svg"
+    },
+    "source_native_sha256": "34e378611692bdbaca37eed0616c5f416e24d453adf2d221056ea9e173d2a962",
+    "retained_full_subject": true,
+    "source_height_fitted": true,
+    "expression_patch_retained": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Choose a card in your discard pile and",
+      "baseline": 1049.3,
+      "width": 824.4739999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "place it at the bottom of your Life Deck.",
+      "baseline": 1108.3,
+      "width": 703.297,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        937.116,
+        160.009,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-1": [
+        943.241,
+        224.691,
+        87.759,
+        38.269
+      ],
+      "power-stage-value-2": [
+        936.087,
+        289.373,
+        94.913,
+        38.269
+      ],
+      "power-stage-value-3": [
+        939.909,
+        354.054,
+        91.091,
+        38.269
+      ],
+      "power-stage-value-4": [
+        936.332,
+        418.736,
+        94.668,
+        38.269
+      ],
+      "power-stage-value-5": [
+        937.018,
+        483.418,
+        93.982,
+        38.269
+      ],
+      "power-stage-value-6": [
+        943.927,
+        548.1,
+        87.073,
+        38.269
+      ],
+      "power-stage-value-7": [
+        941.967,
+        612.782,
+        89.033,
+        38.269
+      ],
+      "power-stage-value-8": [
+        945.789,
+        677.463,
+        85.211,
+        38.269
+      ],
+      "power-stage-value-9": [
+        942.212,
+        742.145,
+        88.788,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        442.519,
+        50.2213,
+        173.963,
+        57.5574
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.996,
+        33.708
+      ],
+      "rules-line-1": [
+        119.248,
+        1013.53,
+        820.505,
+        45.521
+      ],
+      "rules-line-2": [
+        179.64,
+        1072.53,
+        699.72,
+        45.521
+      ]
+    },
+    "icons": [],
+    "footer_spacing": {
+      "logo_dx": 0,
+      "ball_and_number_dx": 0,
+      "four_star_layout_changed": false
+    },
+    "footer_idempotent": true,
+    "native_source_sha256": "4932a570c2cd6e80a9273c4ac6b36f602d0858bb2d783a4350d03997c0cf29bf"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-169-krillin.webp",
+      "before_url": "/assets/cards/saiyan-169-krillin.webp?v=e9747f689bf2",
+      "before_sha256": "e9747f689bf2be2b224ef0cb634588090706a9417b24822b363daa55dcf6f0a6",
+      "after_sha256": "6af19f5527746fa9a0e6355b406211f1992dacc8555ad964af0742a55066bb60",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-169-krillin.webp",
+      "before_url": "/assets/cards/downloads/saiyan-169-krillin.webp?v=b1ae623b02d9",
+      "before_sha256": "b1ae623b02d9d9ce32a81d61ff0fd9a111120aa00fe3334bea60299ff6a3576e",
+      "after_sha256": "d488d69d73ecee9ac1bb508e0365eded4338c64a5f80c3b6e59f46dc06aa18b8",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "reason": "Personality exception"
+  },
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 173.9625935162095,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "13960aaa1a2810dccdab9fa9719e1ad6f051c74c59e29be20744b5d51611ab80",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "8a23434e5253005f5b7ee6905ef69c023bba725786988f030e95b77abbe93c4e",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-169-krillin.webp",
+          "before_url": "/assets/cards/saiyan-169-krillin.webp?v=e9747f689bf2",
+          "before_sha256": "e9747f689bf2be2b224ef0cb634588090706a9417b24822b363daa55dcf6f0a6",
+          "after_sha256": "9484ab25490206bc21f466797e84668d5c7baa74ad15dbd977c2d51121460b0d",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-169-krillin.webp",
+          "before_url": "/assets/cards/downloads/saiyan-169-krillin.webp?v=b1ae623b02d9",
+          "before_sha256": "b1ae623b02d9d9ce32a81d61ff0fd9a111120aa00fe3334bea60299ff6a3576e",
+          "after_sha256": "dd93b244b5c3e2fc97c56dfd4288663f73dd1312942232be911fc3d239ce500a",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "retained V3 draft; site remains V2 before this release"
+    }
+  }
+}

@@ -3,19 +3,19 @@
   "id": "saiyan-130-orange-tripping-drill",
   "name": "Orange Tripping Drill",
   "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-130-orange-tripping-drill.svg",
-  "native_source_sha256": "09b4abc4c60a04979aaae8f82692f6ed29ff54a465a3cca4e274e1b832b833d4",
+  "native_source_sha256": "7b8e645162a683330c35ce260246ee2230818497cda944a6c27d65d970bf139e",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      "path": "tools/card-templates/v3/assets/3823e8165538110810b4609eab903f00e16b1483961ad3cd953032734b171eed.png",
+      "sha256": "3823e8165538110810b4609eab903f00e16b1483961ad3cd953032734b171eed"
     },
     {
       "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
       "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
     },
     {
-      "path": "tools/card-templates/v3/assets/3823e8165538110810b4609eab903f00e16b1483961ad3cd953032734b171eed.png",
-      "sha256": "3823e8165538110810b4609eab903f00e16b1483961ad3cd953032734b171eed"
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
     },
     {
       "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
@@ -42,7 +42,7 @@
     {
       "text": "Reduce life card damage from all energy",
       "baseline": 1049.3,
-      "width": 810.7025789473682,
+      "width": 784.86475,
       "icon_inline": true
     },
     {
@@ -62,9 +62,9 @@
         69.0
       ],
       "card-category": [
-        456.339,
+        448.339,
         891.991,
-        146.322,
+        162.322,
         33.0187
       ],
       "footer-text-block": [
@@ -92,7 +92,7 @@
         33.708
       ],
       "rules-line-1": [
-        218.066,
+        205.147,
         1013.53,
         716.455,
         45.913
@@ -112,37 +112,38 @@
         "first_capital": "R",
         "capital_glyph_index": 0,
         "previous_visible_bounds": [
-          124.479,
-          1015.0,
-          79.4316,
-          34.3
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "capital_visible_bounds": [
-          218.066,
+          205.147,
           1015.0,
           19.943,
           34.3
         ],
         "new_visible_bounds": [
-          124.479,
-          1015.0,
-          79.4316,
-          34.3
+          137.398,
+          1022.5,
+          41.8031,
+          19.2938
         ],
         "vertical_shift": 0,
-        "center_error": 0.0,
+        "center_error": -0.003100000000131331,
         "shape_size_and_horizontal_position_preserved": true,
         "colon_and_text_unchanged": true
       }
-    ]
+    ],
+    "native_source_sha256": "7b8e645162a683330c35ce260246ee2230818497cda944a6c27d65d970bf139e"
   },
   "exports": [
     {
       "field": "image",
       "path": "public/assets/cards/saiyan-130-orange-tripping-drill.webp",
-      "before_url": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=1646e3da1fd4",
-      "before_sha256": "1646e3da1fd44b7d1eaf92a677ccc27f52118b9fafecc45cf3e83f7a6155fa1d",
-      "after_sha256": "90e379dfad2b670bf2aba89393bd13a967caebd254e273103a5192b0d2ae03e5",
+      "before_url": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=90e379dfad2b",
+      "before_sha256": "90e379dfad2b670bf2aba89393bd13a967caebd254e273103a5192b0d2ae03e5",
+      "after_sha256": "faed377742e092fd85c79e04d955e12bc4790d08aec97aa7d138b1d6b899261a",
       "size": [
         1060,
         1484
@@ -152,14 +153,109 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/saiyan-130-orange-tripping-drill.webp",
-      "before_url": "/assets/cards/downloads/saiyan-130-orange-tripping-drill.webp?v=ce64a66c1642",
-      "before_sha256": "ce64a66c1642ca8fe9d72e9e980bf0c9fb3230389cb5eb7d0d2bf7f330e4c8cb",
-      "after_sha256": "442245126dcf7078c0c06ad60049713d3b6733bac8afc21fe3d33ac4704ec6d6",
+      "before_url": "/assets/cards/downloads/saiyan-130-orange-tripping-drill.webp?v=442245126dcf",
+      "before_sha256": "442245126dcf7078c0c06ad60049713d3b6733bac8afc21fe3d33ac4704ec6d6",
+      "after_sha256": "ccae9fb98c08e1895f18793e5aa82abf6eb2bcb5f0529c3acb75b6845ce0fee0",
       "size": [
         2120,
         2968
       ],
       "lossless_round_trip": true
     }
-  ]
+  ],
+  "tokui_waza_backing": {
+    "fill": "#11171b",
+    "opacity": 0.9,
+    "gaussian_blur": 4,
+    "all_styles": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "current_preview_revision": {
+    "date": "2026-11-01",
+    "background_gain_srgb": 1.2,
+    "gain_scope": "continuous frame only",
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 610.9339152119702,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 620.0,
+      "scale_factor": 1.0
+    },
+    "title_edge_clearance": {
+      "safe_region": [
+        219.5,
+        839.5
+      ],
+      "max_width": 620,
+      "center": [
+        529.5,
+        79
+      ],
+      "proportional_font_reduction": false,
+      "changes_confined_to_previous_title_ink_bounds": true,
+      "changed_pixel_bounds": null
+    },
+    "middle_typography": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "middle_paint_transform": "translate(0 848) scale(1 1.17)",
+    "middle_clip": [
+      0,
+      852,
+      1060,
+      113
+    ],
+    "artwork_group_unchanged": true,
+    "retained_illustration_bytes_unchanged": true,
+    "png_sha256": "d261c4445563c36213ef30ce71b191c3cafe7a5d0a7ad2005506f6d2b4af5d61",
+    "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
+    "previous_revision": {
+      "native_source_sha256": "09b4abc4c60a04979aaae8f82692f6ed29ff54a465a3cca4e274e1b832b833d4",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-130-orange-tripping-drill.webp",
+          "before_url": "/assets/cards/saiyan-130-orange-tripping-drill.webp?v=1646e3da1fd4",
+          "before_sha256": "1646e3da1fd44b7d1eaf92a677ccc27f52118b9fafecc45cf3e83f7a6155fa1d",
+          "after_sha256": "90e379dfad2b670bf2aba89393bd13a967caebd254e273103a5192b0d2ae03e5",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-130-orange-tripping-drill.webp",
+          "before_url": "/assets/cards/downloads/saiyan-130-orange-tripping-drill.webp?v=ce64a66c1642",
+          "before_sha256": "ce64a66c1642ca8fe9d72e9e980bf0c9fb3230389cb5eb7d0d2bf7f330e4c8cb",
+          "after_sha256": "442245126dcf7078c0c06ad60049713d3b6733bac8afc21fe3d33ac4704ec6d6",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true
+        }
+      ],
+      "source_status": "previous published V3"
+    }
+  }
 }
