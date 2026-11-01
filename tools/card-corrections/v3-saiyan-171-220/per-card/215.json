@@ -1,0 +1,198 @@
+{
+  "number": 215,
+  "id": "saiyan-215-krillins-drill",
+  "name": "Krillin's Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-215-krillins-drill.svg",
+  "native_source_sha256": "0c2a3da03a3f5c2dff31d80fe42934e1d2977582de78bbb1988160619b1ac26c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/305cd8e2f52926d87d5851351cb36df74010128b9642da3a97e904e51d60195e.png",
+      "sha256": "305cd8e2f52926d87d5851351cb36df74010128b9642da3a97e904e51d60195e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "305cd8e2f52926d87d5851351cb36df74010128b9642da3a97e904e51d60195e",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Your attacks deal +1 life card of damage.",
+      "baseline": 1049.3,
+      "width": 789.6667499999999,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        346.16,
+        50.2213,
+        366.681,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        57.982,
+        33.708
+      ],
+      "rules-line-1": [
+        202.22,
+        1013.53,
+        721.329,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          135.451,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          202.22,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          135.451,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-215-krillins-drill.webp",
+      "before_url": "/assets/cards/saiyan-215-krillins-drill.webp?v=6d889eee3b1a",
+      "before_sha256": "6d889eee3b1a01a8d415de09ca173309b8cc35cefbe03900db68a926316c32a2",
+      "after_sha256": "bd03902296dedfca191df475fa544f7c39d462f7f9fb77e88916997371d7212d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-215-krillins-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-215-krillins-drill.webp?v=e79d5903890e",
+      "before_sha256": "e79d5903890eee50d30262cd9352a5dcf18491f6985333c0910c0f02359cd7a1",
+      "after_sha256": "6143f25e46e46a5c8438ce5f9af45a69d1e5c7c70ada6094269c4fc060311bc7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 366.6807980049876,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

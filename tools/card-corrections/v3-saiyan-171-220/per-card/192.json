@@ -1,0 +1,191 @@
+{
+  "number": 192,
+  "id": "saiyan-192-teaching-the-unteachable-forces-observation",
+  "name": "Teaching the Unteachable Forces Observation",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-192-teaching-the-unteachable-forces-observation.svg",
+  "native_source_sha256": "3d80c1b070b6048aecaec52d8a4252612653bd9efc3f58b876787b88ee1f686f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/02706b365ce11a5f838a15b7af07bba26f037fc8b6a7f26970422464609cd1d5.png",
+      "sha256": "02706b365ce11a5f838a15b7af07bba26f037fc8b6a7f26970422464609cd1d5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "02706b365ce11a5f838a15b7af07bba26f037fc8b6a7f26970422464609cd1d5",
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "mapping_matrix": [
+      0.6868351063829787,
+      0,
+      0,
+      0.6868351063829787,
+      14,
+      139.7852393617021
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Use at the end of your",
+      "baseline": 1049.3,
+      "width": 718.977,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's Power Up Step. Your opponent cannot",
+      "baseline": 1108.3,
+      "width": 873.5229999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "declare Combat this turn. Banish after use.",
+      "baseline": 1167.3,
+      "width": 761.8520000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        60.0118,
+        760.0,
+        37.9763
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.777,
+        33.708
+      ],
+      "rules-line-1": [
+        170.222,
+        1012.11,
+        718.556,
+        46.942
+      ],
+      "rules-line-2": [
+        93.9635,
+        1073.61,
+        871.073,
+        43.806
+      ],
+      "rules-line-3": [
+        150.117,
+        1131.53,
+        758.765,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp",
+      "before_url": "/assets/cards/saiyan-192-teaching-the-unteachable-forces-observation.webp?v=89ee4976da6a",
+      "before_sha256": "89ee4976da6a9fac8237f45e6a1bfbf1f4264cff01467bb6c5b5690633625e4c",
+      "after_sha256": "f4a5564286bd1fcda994d1dacb31475edc3c38a5dee9c340f42d24819c2e031d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-192-teaching-the-unteachable-forces-observation.webp",
+      "before_url": "/assets/cards/downloads/saiyan-192-teaching-the-unteachable-forces-observation.webp?v=8f2d08479ccc",
+      "before_sha256": "8f2d08479ccce36d2601eef43e525f3606aee9aa1be02c0b0d270cd854e5de8a",
+      "after_sha256": "493c9eb8e4dd5f0525606e73bdac5392cc782dc60ae5eebe1d98a27c99a76b9e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 47.35202492211838,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 37.97632398753894,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.5503815070657817
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

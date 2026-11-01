@@ -1,0 +1,191 @@
+{
+  "number": 193,
+  "id": "saiyan-193-respect-the-spirit",
+  "name": "Respect the Spirit",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-193-respect-the-spirit.svg",
+  "native_source_sha256": "4426ce086abc8eafd799e18ec4457f532b756d3294399ae5698caf3dbe554690",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6e44bc923896ad0a128b59862ec5d332439b4672fad262af479552c0846ac529.png",
+      "sha256": "6e44bc923896ad0a128b59862ec5d332439b4672fad262af479552c0846ac529"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "6e44bc923896ad0a128b59862ec5d332439b4672fad262af479552c0846ac529",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Choose 2 cards in your discard pile and place",
+      "baseline": 1049.3,
+      "width": 803.2080000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "them at the bottom of your Life Deck. Banish after",
+      "baseline": 1108.3,
+      "width": 889.595,
+      "icon_inline": false
+    },
+    {
+      "text": "use.",
+      "baseline": 1167.3,
+      "width": 74.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        263.652,
+        44.5,
+        531.696,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.936,
+        33.708
+      ],
+      "rules-line-1": [
+        129.39,
+        1013.53,
+        800.219,
+        45.521
+      ],
+      "rules-line-2": [
+        85.2072,
+        1072.53,
+        888.586,
+        45.521
+      ],
+      "rules-line-3": [
+        493.926,
+        1141.72,
+        71.148,
+        25.97
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-193-respect-the-spirit.webp",
+      "before_url": "/assets/cards/saiyan-193-respect-the-spirit.webp?v=4d04bd0256c4",
+      "before_sha256": "4d04bd0256c41dda15a9ae592f2be91ff8adc306a38e612ba0b822049c52de7e",
+      "after_sha256": "979c4017bceedbb198f204e7bfaf2f0c5dcfe00d06de9a322bc66e69319a51eb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-193-respect-the-spirit.webp",
+      "before_url": "/assets/cards/downloads/saiyan-193-respect-the-spirit.webp?v=35885b1d8135",
+      "before_sha256": "35885b1d813587f1450f826001f70351cc3bad4484c93067a189860616a4559d",
+      "after_sha256": "402a6890f02a2d35153013b301ecc53447fc4e34914054f96b1e58e3af50e4d7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 531.6957605985039,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

@@ -1,0 +1,179 @@
+{
+  "number": 214,
+  "id": "saiyan-214-gohans-father-save",
+  "name": "Gohan's Father Save",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-214-gohans-father-save.svg",
+  "native_source_sha256": "85c20e142feae37ba42c1bf7b495519203fc760209b8588f5cc998f5e3274fe2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/adb9f33bd3e1d612c76fab1c95a1c97206bfc129e01e95cb2c0f5e4bf9b35974.png",
+      "sha256": "adb9f33bd3e1d612c76fab1c95a1c97206bfc129e01e95cb2c0f5e4bf9b35974"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "adb9f33bd3e1d612c76fab1c95a1c97206bfc129e01e95cb2c0f5e4bf9b35974",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "If Gohan is an Ally of your Goku Main Personality,",
+      "baseline": 1049.3,
+      "width": 861.9100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "end Combat.",
+      "baseline": 1108.3,
+      "width": 221.18599999999998,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        224.463,
+        50.2213,
+        610.074,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.102,
+        33.708
+      ],
+      "rules-line-1": [
+        100.443,
+        1013.53,
+        858.114,
+        45.521
+      ],
+      "rules-line-2": [
+        420.451,
+        1073.61,
+        218.099,
+        35.084
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-214-gohans-father-save.webp",
+      "before_url": "/assets/cards/saiyan-214-gohans-father-save.webp?v=e7043120781e",
+      "before_sha256": "e7043120781e579348cc27051aab48eab3707916064f8370722007b4deafd45c",
+      "after_sha256": "cae862b9e34ae75c53fa7412440ebb223e00959890b55a5e5adc7b4178ee7e54",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-214-gohans-father-save.webp",
+      "before_url": "/assets/cards/downloads/saiyan-214-gohans-father-save.webp?v=db1be327089a",
+      "before_sha256": "db1be327089a4b6f7f19b060cdc22f49ef70466c5bfadafd77f349524eed3417",
+      "after_sha256": "acace2fe8dcd4e1a3141f71b6032aa7301e404ff3c4027fdf306638943abcbad",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 610.0735660847881,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

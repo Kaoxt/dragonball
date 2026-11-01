@@ -1,0 +1,199 @@
+{
+  "number": 209,
+  "id": "saiyan-209-broken-scouter",
+  "name": "Broken Scouter",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-209-broken-scouter.svg",
+  "native_source_sha256": "5dd072bbe696c037b68cade9c36e9f3dc5de40c42a33e815aed6047c052995ed",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5531afc50ee127035ebbd5ca804d3d6502f0234e3ef993968cdd44598bba226d.png",
+      "sha256": "5531afc50ee127035ebbd5ca804d3d6502f0234e3ef993968cdd44598bba226d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8c1fb3de0ff7c8075fc220a2b82dd7141c8714c847678913722b4fd44309d6c2.png",
+      "sha256": "8c1fb3de0ff7c8075fc220a2b82dd7141c8714c847678913722b4fd44309d6c2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "5531afc50ee127035ebbd5ca804d3d6502f0234e3ef993968cdd44598bba226d",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "localized_correction": {
+      "patch": "tools/card-corrections/v3-saiyan-171-220/localized-corrections/209.png",
+      "source_placement": [
+        331,
+        0,
+        602,
+        313
+      ],
+      "source_mask_ellipse": [
+        513,
+        82,
+        23,
+        15
+      ],
+      "unrelated_original_image_bytes_retained": true
+    }
+  },
+  "rules": [
+    {
+      "text": "Raise your Personality to its highest power stage.",
+      "baseline": 1049.3,
+      "width": 881.706,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1108.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        298.41,
+        50.2213,
+        462.18,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        66.727,
+        33.708
+      ],
+      "rules-line-1": [
+        90.509,
+        1013.53,
+        877.982,
+        45.913
+      ],
+      "rules-line-2": [
+        380.589,
+        1072.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-209-broken-scouter.webp",
+      "before_url": "/assets/cards/saiyan-209-broken-scouter.webp?v=e4967bb85eaf",
+      "before_sha256": "e4967bb85eaf14b940b3fa0fbb249cfe83af973810edd48e15b9cdfca239f452",
+      "after_sha256": "aae1ceb99132a12e971e51358eafd72195a2226eae82b8c427c105994e657fe8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-209-broken-scouter.webp",
+      "before_url": "/assets/cards/downloads/saiyan-209-broken-scouter.webp?v=afb6057d7e85",
+      "before_sha256": "afb6057d7e852c05558dcab6872a33d95f42d39e45b4502cd45de3ad5bea523e",
+      "after_sha256": "0565be992851e381b50cf3d991aa50979b154999b9e62a053d4e2f2d7032fd6c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 462.1795511221946,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

@@ -1,0 +1,42 @@
+{
+  "archives": [
+    {
+      "filename": "Saiyan-Saga-151-200-Source.zip",
+      "library_file_id": "libfile_c13ad78dfe108191ba48944e4f32e245",
+      "sha256": "a964124e2b7557c1ea2c62912813123933c034184a982d89ed17ea8d120e9291",
+      "bytes": 374505378
+    },
+    {
+      "filename": "Saiyan-Saga-201-250-Source.zip",
+      "library_file_id": "libfile_0dac98ad471081919c7bdf79a86d17ef",
+      "sha256": "f44fea46e7662cd35e983f43ec3d47fbb3394062b4501d00feab57d4c603e9bb",
+      "bytes": 297682076
+    },
+    {
+      "filename": "Hi-Tech-and-Goku-Corrected-Sources.zip",
+      "library_file_id": "libfile_0f97ebe0b43c819194115ee974df76ed",
+      "sha256": "6f0079ac5e288126ab366819ef4f09ed4ef70f62f7b869e6d2592b11aeeb3c74",
+      "bytes": 205411076
+    }
+  ],
+  "localized_edits": [
+    {
+      "number": 197,
+      "tool": "image_gen.imagegen",
+      "edit_brief": "Restore only the slight upward closed-mouth Raditz smirk shown in the original reference. Preserve face, scouter, eye, hair, lighting and all other content.",
+      "asset_path": "tools/card-corrections/v3-saiyan-171-220/localized-corrections/197.png",
+      "sha256": "8609943b42a3ba00e6eedd758c5984fb22a5d6d6e7b90f0c881f9c98294dcf6f",
+      "composition": "Generated crop is composited through a small feathered native ellipse; original illustration bytes remain underneath.",
+      "verification": "render-verification.json"
+    },
+    {
+      "number": 209,
+      "tool": "image_gen.imagegen",
+      "edit_brief": "Restore only the small curved forehead sweat mark visible in the original reference. Preserve all existing creases, eyes, face, colors and other content.",
+      "asset_path": "tools/card-corrections/v3-saiyan-171-220/localized-corrections/209.png",
+      "sha256": "8c1fb3de0ff7c8075fc220a2b82dd7141c8714c847678913722b4fd44309d6c2",
+      "composition": "Generated crop is composited through a small feathered native ellipse; original illustration bytes remain underneath.",
+      "verification": "render-verification.json"
+    }
+  ]
+}

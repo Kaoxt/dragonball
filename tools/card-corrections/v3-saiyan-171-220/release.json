@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-01",
+  "base_commit": "286f77db6baf9a65168f1df090c0a457851d096c",
+  "scope": "Saiyan Saga 171–220 complete V3 frame migration",
+  "cards": 50,
+  "exports": 100,
+  "all_v3_cards": 220,
+  "native_coordinates": [
+    1060,
+    1484
+  ],
+  "lossless_export_sizes": [
+    [
+      1060,
+      1484
+    ],
+    [
+      2120,
+      2968
+    ]
+  ],
+  "artwork_policy": "Retain existing illustration bytes, pose, expressions and framing; two confirmed local corrections use native masks. Preserve existing corrections on 183 and 208. Dragon Balls use separately approved Shenron redesign.",
+  "localized_correction_numbers": [
+    197,
+    209
+  ],
+  "title_visible_ink_center": [
+    529.5,
+    79
+  ],
+  "title_max_width": 760,
+  "title_nominal_font_size": 86.0349127182045,
+  "middle_visible_center": [
+    529.5,
+    908.5
+  ],
+  "footer_visible_center": [
+    529.5,
+    1409.5
+  ],
+  "tokui_backing": "transparent silhouette on 33 applicable cards; excludes 15 Personalities and 2 Dragon Balls",
+  "frame_brightness": "1.20 sRGB gain once; retain approved full-art Hi-Tech pixels",
+  "unrelated_catalog_entries_unchanged": 849,
+  "original_scans_reviewed": 50,
+  "full_size_render_validation": true,
+  "fine_reference_limitations": "See individual artwork-review records; unclear printed details are retained, not certified as exact or invented."
+}

@@ -1,0 +1,209 @@
+{
+  "number": 217,
+  "id": "saiyan-217-ribs-broken",
+  "name": "Ribs Broken",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-217-ribs-broken.svg",
+  "native_source_sha256": "a791b147d98e96365e61bc12ff9a4942a10a2948b923839f29531feb8d8b8f2f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dcb369462e4218ebffbbee40adce97016b9f88ec19503eecc787c986e8027f8f.png",
+      "sha256": "dcb369462e4218ebffbbee40adce97016b9f88ec19503eecc787c986e8027f8f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "dcb369462e4218ebffbbee40adce97016b9f88ec19503eecc787c986e8027f8f",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages and banishing",
+      "baseline": 1049.3,
+      "width": 861.1351555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "an Ally in play. DAMAGE: 5 life cards.",
+      "baseline": 1108.3,
+      "width": 641.1160000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        351.623,
+        50.2213,
+        355.754,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        55.544,
+        33.708
+      ],
+      "rules-line-1": [
+        154.336,
+        1013.53,
+        804.923,
+        45.913
+      ],
+      "rules-line-2": [
+        210.289,
+        1072.53,
+        638.421,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          99.7409,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          154.336,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          99.7409,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-217-ribs-broken.webp",
+      "before_url": "/assets/cards/saiyan-217-ribs-broken.webp?v=5ec64a2275f7",
+      "before_sha256": "5ec64a2275f7b8b075b4e13044d65ae54db452c266984213d0dea4812abc8dca",
+      "after_sha256": "3b3a416b50cef2ac4558498a41d121604114f921b89196427a3f420f55b1f372",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-217-ribs-broken.webp",
+      "before_url": "/assets/cards/downloads/saiyan-217-ribs-broken.webp?v=a2849f4713e9",
+      "before_sha256": "a2849f4713e9033db9475edd548ecba9c794f3491d2b7483bb275eb336a42a78",
+      "after_sha256": "7e91720d1934e486411f5ffaf3bf81ccd4b2c44373097684a211c5c8adf4f803",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 355.7543640897756,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack"
+}

@@ -1,0 +1,167 @@
+{
+  "number": 206,
+  "id": "saiyan-206-nappas-blinding-stare",
+  "name": "Nappa's Blinding Stare",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-206-nappas-blinding-stare.svg",
+  "native_source_sha256": "08f6026ce4f4aa9624181cd2eca5d661866871d631b45089e447c44d3f8b4670",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7685b0dec1641c7f9e8074333e342dcc5353afb26d006252a35e7ca2d4895625.png",
+      "sha256": "7685b0dec1641c7f9e8074333e342dcc5353afb26d006252a35e7ca2d4895625"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "7685b0dec1641c7f9e8074333e342dcc5353afb26d006252a35e7ca2d4895625",
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "mapping_matrix": [
+      0.6868351063829787,
+      0,
+      0,
+      0.6868351063829787,
+      14,
+      139.7852393617021
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "End Combat. Banish after use.",
+      "baseline": 1049.3,
+      "width": 532.63,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        190.264,
+        44.5,
+        678.471,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        67.151,
+        33.708
+      ],
+      "rules-line-1": [
+        265.047,
+        1013.53,
+        528.906,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-206-nappas-blinding-stare.webp",
+      "before_url": "/assets/cards/saiyan-206-nappas-blinding-stare.webp?v=07a5ea0137a7",
+      "before_sha256": "07a5ea0137a7aa4524b9e79c411fb2a80877557c3f4140ed9335588ee2be30bf",
+      "after_sha256": "e6d4f436a93e7f5ca7bbd082e2a968fb605fd2f8df622eea2c12fd16df9c7a02",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-206-nappas-blinding-stare.webp",
+      "before_url": "/assets/cards/downloads/saiyan-206-nappas-blinding-stare.webp?v=1691974afa25",
+      "before_sha256": "1691974afa25ce3b1e1f23374f67c4293a223bac41cb3f0cdbfb047c2f93a896",
+      "after_sha256": "b57863b1397c5b5df85cffc2b283a3f15179f37446bfdbfdfdf51bca74313768",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 678.4713216957607,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

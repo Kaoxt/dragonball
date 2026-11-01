@@ -1,0 +1,307 @@
+{
+  "number": 172,
+  "id": "saiyan-172-raditz",
+  "name": "Raditz",
+  "family": "VILLAIN PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-172-raditz.svg",
+  "native_source_sha256": "802c54c787a15ae003d4426afdc7f36a99dd14b2e77a98bc5ab35e08d0123ea9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1811055cb93dcdf1ed55b65f7f5b6e649bc3fff68c0d72a0ceb83648de3728b5.png",
+      "sha256": "1811055cb93dcdf1ed55b65f7f5b6e649bc3fff68c0d72a0ceb83648de3728b5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "1811055cb93dcdf1ed55b65f7f5b6e649bc3fff68c0d72a0ceb83648de3728b5",
+    "source_dimensions": [
+      1483,
+      1061
+    ],
+    "mapping_matrix": [
+      0.6965610249494268,
+      0,
+      0,
+      0.6965610249494268,
+      14,
+      129.47437626432907
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage. DAMAGE: 3 life",
+      "baseline": 1049.3,
+      "width": 848.7381555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. OR use as a defense to reduce damage",
+      "baseline": 1108.3,
+      "width": 807.569,
+      "icon_inline": false
+    },
+    {
+      "text": "from an energy attack against you to 2 life cards.",
+      "baseline": 1167.3,
+      "width": 878.4229999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        938.586,
+        160.009,
+        92.414,
+        38.269
+      ],
+      "power-stage-value-1": [
+        936.479,
+        224.691,
+        94.521,
+        38.269
+      ],
+      "power-stage-value-2": [
+        941.281,
+        289.373,
+        89.719,
+        38.269
+      ],
+      "power-stage-value-3": [
+        939.174,
+        354.054,
+        91.826,
+        38.269
+      ],
+      "power-stage-value-4": [
+        938.929,
+        418.736,
+        92.071,
+        38.269
+      ],
+      "power-stage-value-5": [
+        936.822,
+        483.418,
+        94.178,
+        38.269
+      ],
+      "power-stage-value-6": [
+        939.223,
+        548.1,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-7": [
+        937.116,
+        612.782,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-8": [
+        937.312,
+        677.463,
+        93.688,
+        38.269
+      ],
+      "power-stage-value-9": [
+        935.205,
+        742.145,
+        95.795,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.916,
+        50.2213,
+        183.168,
+        57.5574
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        54.643,
+        33.708
+      ],
+      "rules-line-1": [
+        160.388,
+        1013.53,
+        792.82,
+        45.913
+      ],
+      "rules-line-2": [
+        127.137,
+        1073.61,
+        804.727,
+        44.835
+      ],
+      "rules-line-3": [
+        91.5135,
+        1131.53,
+        875.973,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          105.792,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          160.388,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          105.792,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-172-raditz.webp",
+      "before_url": "/assets/cards/saiyan-172-raditz.webp?v=d1220312d5a1",
+      "before_sha256": "d1220312d5a16ba2f8cc041e840b16a3533dca26d126cae047f46d6bc427483c",
+      "after_sha256": "449fe15bca290f8b8ad2a40d2bd4043a0a247c27ea573d799e5cb283fef2661a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-172-raditz.webp",
+      "before_url": "/assets/cards/downloads/saiyan-172-raditz.webp?v=7d575ccc6e69",
+      "before_sha256": "7d575ccc6e6922566456dcf8d49a84eb1075e27f1f2899d515e494b1a082aa57",
+      "after_sha256": "6c71f86139c140792526f39a5a10aa8ae871c396c583aa6ad4a9416077c5e9c1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 183.1683291770574,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack"
+}

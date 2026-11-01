@@ -1,0 +1,179 @@
+{
+  "number": 207,
+  "id": "saiyan-207-power-gifting",
+  "name": "Power Gifting",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-207-power-gifting.svg",
+  "native_source_sha256": "2747dd0bc4db8b429bbf5c8192e2c6c89c9768a8d811ee71275ebb5b644d7291",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/59df8a4788dbc280b6a04a37b8d7768bb1376e240c2c17c7838a0d9782a71525.png",
+      "sha256": "59df8a4788dbc280b6a04a37b8d7768bb1376e240c2c17c7838a0d9782a71525"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "59df8a4788dbc280b6a04a37b8d7768bb1376e240c2c17c7838a0d9782a71525",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Transfer any number of stages from one of your",
+      "baseline": 1049.3,
+      "width": 855.6869999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Allies to your Main Personality. Banish after use.",
+      "baseline": 1108.3,
+      "width": 856.863,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        328.695,
+        44.5,
+        401.611,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        64.501,
+        33.708
+      ],
+      "rules-line-1": [
+        102.431,
+        1014.85,
+        854.139,
+        44.5954
+      ],
+      "rules-line-2": [
+        102.182,
+        1072.53,
+        854.637,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-207-power-gifting.webp",
+      "before_url": "/assets/cards/saiyan-207-power-gifting.webp?v=bfa87d04b805",
+      "before_sha256": "bfa87d04b805fd9801a23c0c6fa7579ce772d1f9cd7dd84d3bb3c29b31214997",
+      "after_sha256": "442205dca797ea10350e4ca41a8b86126f5b316d07da2da016205dac864d0504",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-207-power-gifting.webp",
+      "before_url": "/assets/cards/downloads/saiyan-207-power-gifting.webp?v=f79c0f2b913a",
+      "before_sha256": "f79c0f2b913a4278e23a15a39d884bd40c84314028fba05081b783bf75361ad4",
+      "after_sha256": "0de2be3da14db0354d6f22bec5357d588bd20a0e7f8a9733f0f03235f3108006",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 401.61097256857863,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

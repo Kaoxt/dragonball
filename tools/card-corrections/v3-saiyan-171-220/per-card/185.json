@@ -1,0 +1,250 @@
+{
+  "number": 185,
+  "id": "saiyan-185-nappa-lvl-1-ht",
+  "name": "Nappa",
+  "family": "VILLAIN PERSONALITY",
+  "high_tech": true,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-185-nappa-lvl-1-ht.svg",
+  "native_source_sha256": "da164766f36ab37836115c9dc028d7c73e7a5e015cbdc126e108e2d26b21a746",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b17bb7f2d283e1a25fbb1347d77fc1c67d81bec931e6c91aadf47b5a9b34a46.png",
+      "sha256": "7b17bb7f2d283e1a25fbb1347d77fc1c67d81bec931e6c91aadf47b5a9b34a46"
+    }
+  ],
+  "artwork": {
+    "mode": "approved full-art Hi-Tech composition",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "foreground_zoom_added": false,
+    "native_artwork_layer_sha256": "890eca72c3c3e676cbdde4374f3239f1e26f583f5870575aca40afded2db4cdb",
+    "later_portrait_correction_retained": false,
+    "full_art_brightness": "retained approved pixels; no frame-only brightness filter on character art"
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, your Main Personality",
+      "baseline": 1049.3,
+      "width": 805.756,
+      "icon_inline": false
+    },
+    {
+      "text": "gains 2 stages.",
+      "baseline": 1108.3,
+      "width": 267.736,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        935.058,
+        160.009,
+        95.942,
+        38.269
+      ],
+      "power-stage-value-1": [
+        935.303,
+        224.691,
+        95.697,
+        38.269
+      ],
+      "power-stage-value-2": [
+        935.254,
+        289.373,
+        95.746,
+        38.269
+      ],
+      "power-stage-value-3": [
+        937.116,
+        354.054,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-4": [
+        934.96,
+        418.736,
+        96.04,
+        38.269
+      ],
+      "power-stage-value-5": [
+        935.744,
+        483.418,
+        95.256,
+        38.269
+      ],
+      "power-stage-value-6": [
+        935.989,
+        548.1,
+        95.011,
+        38.269
+      ],
+      "power-stage-value-7": [
+        935.94,
+        612.782,
+        95.06,
+        38.269
+      ],
+      "power-stage-value-8": [
+        937.802,
+        677.463,
+        93.198,
+        38.269
+      ],
+      "power-stage-value-9": [
+        935.646,
+        742.145,
+        95.354,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.615,
+        45.9196,
+        183.771,
+        66.1608
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.473,
+        33.708
+      ],
+      "rules-line-1": [
+        127.442,
+        1013.53,
+        804.116,
+        45.913
+      ],
+      "rules-line-2": [
+        397.175,
+        1072.53,
+        264.649,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
+      "before_url": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=21ff451634e8",
+      "before_sha256": "21ff451634e8f0df44df645e57adfcbdd7857c971b8faca7c2f9eea2ba49e201",
+      "after_sha256": "784d21501aa30a15d4bb7893b11f6a964c0cd03e2332ad384bc3e3eafa1e487f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp",
+      "before_url": "/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp?v=5525d76e5336",
+      "before_sha256": "5525d76e53362ae52e5be78442e766c358886911c41d479c55cfbf8560edcb7e",
+      "after_sha256": "2047c347a6808d5c990eaf05e6703e8cf910a8ed9b14acbc729ebfe9461b7d36",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 183.7705735660848,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

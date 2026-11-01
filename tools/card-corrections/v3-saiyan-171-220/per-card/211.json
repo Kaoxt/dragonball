@@ -1,0 +1,191 @@
+{
+  "number": 211,
+  "id": "saiyan-211-tien-mind-reading-trick",
+  "name": "Tien Mind Reading Trick",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-211-tien-mind-reading-trick.svg",
+  "native_source_sha256": "31c9f5fc3c707d1f5dfb0f94beae19246491942aac70e320db913f9ac9c212d3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5ef34b7d62e00cdcc6aa5dcb25095878dabd6cad14511a059fe0d8a4d3072d8b.png",
+      "sha256": "5ef34b7d62e00cdcc6aa5dcb25095878dabd6cad14511a059fe0d8a4d3072d8b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "5ef34b7d62e00cdcc6aa5dcb25095878dabd6cad14511a059fe0d8a4d3072d8b",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Attach to your opponent's Main Personality. While",
+      "baseline": 1049.3,
+      "width": 879.0600000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Tien is in play, all Villain opponents must play",
+      "baseline": 1108.3,
+      "width": 806.9809999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "with their hands revealed.",
+      "baseline": 1167.3,
+      "width": 464.27500000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        171.122,
+        44.5,
+        716.757,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        49.078,
+        33.708
+      ],
+      "rules-line-1": [
+        90.9607,
+        1013.53,
+        877.079,
+        45.521
+      ],
+      "rules-line-2": [
+        126.928,
+        1072.53,
+        805.145,
+        45.521
+      ],
+      "rules-line-3": [
+        298.538,
+        1131.53,
+        461.923,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-211-tien-mind-reading-trick.webp",
+      "before_url": "/assets/cards/saiyan-211-tien-mind-reading-trick.webp?v=01cc1d522ae8",
+      "before_sha256": "01cc1d522ae85a397d29f93a181b0bae8b43e348429936f53ec60d09fbdf49fe",
+      "after_sha256": "3ef518b1483da6599774d3e3893258f453d2773fd437250ac2748287d6f64eee",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-211-tien-mind-reading-trick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-211-tien-mind-reading-trick.webp?v=330438351883",
+      "before_sha256": "330438351883cf5f3f8b98883d531fb8f215b24dae879c7c2aed799ef5815c15",
+      "after_sha256": "c1cc45cae8832ab221179847d71d02ad2286a77cc1a8398987d43c509a08be2f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 716.7568578553617,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

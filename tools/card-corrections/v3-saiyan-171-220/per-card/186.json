@@ -1,0 +1,197 @@
+{
+  "number": 186,
+  "id": "saiyan-186-earth-dragon-ball-6",
+  "name": "Earth Dragon Ball 6",
+  "family": "DRAGON BALL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-186-earth-dragon-ball-6.svg",
+  "native_source_sha256": "3d1425ac09580fa52c90368e1f6a5194a3e24b1e7c3f34d21ca4299968fb2a26",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4.png",
+      "sha256": "928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    }
+  ],
+  "artwork": {
+    "mode": "approved full-art Shenron",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "approved_replacement": "Shenron-No-Central-Ball.png",
+    "approved_full_art_redesign": true,
+    "dragon_ball_number": 6,
+    "center": [
+      130,
+      887
+    ],
+    "radius": 118,
+    "star_geometry_source_sha256": "4e01315de662b7373d85c3b7074f0d685138ded69b1768110caa1760efc86926"
+  },
+  "rules": [
+    {
+      "text": "Lower each opponent's anger 2 levels. During",
+      "baseline": 1049.3,
+      "width": 805.266,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat, you may end Combat and raise your Main",
+      "baseline": 1108.3,
+      "width": 881.608,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality to its highest stage. This power",
+      "baseline": 1167.3,
+      "width": 770.2800000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "remains available until used.",
+      "baseline": 1226.3,
+      "width": 510.92300000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        243.606,
+        44.5,
+        571.788,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.685,
+        33.708
+      ],
+      "rules-line-1": [
+        128.754,
+        1013.53,
+        801.493,
+        45.913
+      ],
+      "rules-line-2": [
+        90.362,
+        1072.53,
+        878.276,
+        45.521
+      ],
+      "rules-line-3": [
+        145.6,
+        1131.53,
+        767.801,
+        45.913
+      ],
+      "rules-line-4": [
+        275.753,
+        1190.53,
+        507.493,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-186-earth-dragon-ball-6.webp",
+      "before_url": "/assets/cards/saiyan-186-earth-dragon-ball-6.webp?v=06e22550e1eb",
+      "before_sha256": "06e22550e1eb5eb03534d4640aaef9dddd048c6540c5e82afd0da5c47d08111d",
+      "after_sha256": "c80bdeb52013e4dbf73f08da1317837f45ec06fd916a0bafb85750afda6383c5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-186-earth-dragon-ball-6.webp",
+      "before_url": "/assets/cards/downloads/saiyan-186-earth-dragon-ball-6.webp?v=8bc581ad32d1",
+      "before_sha256": "8bc581ad32d126f766de3feba87352001f2c951451903a5f025f261b43259794",
+      "after_sha256": "b6a5bd0ab521b0f976db150171fa49a365b0226aaf9b209c5748a4820dadee6e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 571.7880299251871,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

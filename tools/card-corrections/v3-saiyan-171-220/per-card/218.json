@@ -1,0 +1,179 @@
+{
+  "number": 218,
+  "id": "saiyan-218-unexpected-allies",
+  "name": "Unexpected Allies",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-218-unexpected-allies.svg",
+  "native_source_sha256": "386921776a2adc4c00b1ee5353348b0ead8738566ea49ceee77273f3f777df61",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3d80a10d35f57701374ac61d61b57c3fa2349294f72c2165947fd705662f1117.png",
+      "sha256": "3d80a10d35f57701374ac61d61b57c3fa2349294f72c2165947fd705662f1117"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "3d80a10d35f57701374ac61d61b57c3fa2349294f72c2165947fd705662f1117",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Search your Life Deck or discard pile for an Ally",
+      "baseline": 1049.3,
+      "width": 843.9759999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "and place it into play at its highest power stage.",
+      "baseline": 1108.3,
+      "width": 853.09,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        260.684,
+        44.5,
+        537.632,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.194,
+        33.708
+      ],
+      "rules-line-1": [
+        108.504,
+        1013.53,
+        841.993,
+        45.521
+      ],
+      "rules-line-2": [
+        104.302,
+        1072.53,
+        850.395,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-218-unexpected-allies.webp",
+      "before_url": "/assets/cards/saiyan-218-unexpected-allies.webp?v=bbc6db599b39",
+      "before_sha256": "bbc6db599b3924f0207495f7cd4c00f208f3ccb631da17418c7114ac2eeeb5e8",
+      "after_sha256": "7d891e657d51f84fe9d625f902db52e95156030a7da28d15cbd9f73619fbd535",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-218-unexpected-allies.webp",
+      "before_url": "/assets/cards/downloads/saiyan-218-unexpected-allies.webp?v=49617b209ae0",
+      "before_sha256": "49617b209ae0f3707eb5328cce84d1d656790727f436d9719bb3b09d6638e1a4",
+      "after_sha256": "89dea17778953e81139724e16da03dc4f0a3764448b3aa554002b9c9114820e3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 537.6321695760599,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

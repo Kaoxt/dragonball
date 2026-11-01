@@ -1,0 +1,179 @@
+{
+  "number": 201,
+  "id": "saiyan-201-the-tail-grows-back",
+  "name": "The Tail Grows Back",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-201-the-tail-grows-back.svg",
+  "native_source_sha256": "34b5a235758532a9bc78928b7e3ed4af8569f3b2de5d4e699d912af43b20b7df",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1ec7a6f3fe3a14f97c5f15fd8c0285ecf87aae55f12b9b069024e893d6db6f8e.png",
+      "sha256": "1ec7a6f3fe3a14f97c5f15fd8c0285ecf87aae55f12b9b069024e893d6db6f8e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "1ec7a6f3fe3a14f97c5f15fd8c0285ecf87aae55f12b9b069024e893d6db6f8e",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Raise your Personality to its highest power stage.",
+      "baseline": 1049.3,
+      "width": 881.706,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1108.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        227.13,
+        50.2213,
+        604.739,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.035,
+        33.708
+      ],
+      "rules-line-1": [
+        90.509,
+        1013.53,
+        877.982,
+        45.913
+      ],
+      "rules-line-2": [
+        380.589,
+        1072.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-201-the-tail-grows-back.webp",
+      "before_url": "/assets/cards/saiyan-201-the-tail-grows-back.webp?v=6a00dcd10b0d",
+      "before_sha256": "6a00dcd10b0d7a556a85596c656877529262d3722f68d59fd68fae5bf4cffbf6",
+      "after_sha256": "2c9523bc9a257233a7f7a0c202e47c95945dd57795a3d3441b6a7ebd7470ed15",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-201-the-tail-grows-back.webp",
+      "before_url": "/assets/cards/downloads/saiyan-201-the-tail-grows-back.webp?v=6b18fcf781b3",
+      "before_sha256": "6b18fcf781b35d2b1331fe1d1e737cc7f346be098f5e7981af5bc156c59545e6",
+      "after_sha256": "cfbc6bef8782fef1c53a07d6c6f693993e2e86215ea078946bc3bee1e4448dbd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 604.7394014962595,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

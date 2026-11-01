@@ -1,0 +1,197 @@
+{
+  "number": 187,
+  "id": "saiyan-187-earth-dragon-ball-7",
+  "name": "Earth Dragon Ball 7",
+  "family": "DRAGON BALL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-187-earth-dragon-ball-7.svg",
+  "native_source_sha256": "fb176b69a6e2e2356566a8a8c9f71e3d8768af7b8c29cbb3efae05332ba5fb7b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4.png",
+      "sha256": "928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    }
+  ],
+  "artwork": {
+    "mode": "approved full-art Shenron",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "approved_replacement": "Shenron-No-Central-Ball.png",
+    "approved_full_art_redesign": true,
+    "dragon_ball_number": 7,
+    "center": [
+      130,
+      887
+    ],
+    "radius": 118,
+    "star_geometry_source_sha256": "b830ece7bc4c1f1101390071dcaee77373af1e846cc4273ef487c46cc5dc2d47"
+  },
+  "rules": [
+    {
+      "text": "Lower each opponent's anger 2 levels. Place 3",
+      "baseline": 1049.3,
+      "width": 818.5939999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "cards from your discard pile on top of your Life",
+      "baseline": 1108.3,
+      "width": 837.802,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck. You may play this card in place of an attack",
+      "baseline": 1167.3,
+      "width": 886.802,
+      "icon_inline": false
+    },
+    {
+      "text": "to end Combat.",
+      "baseline": 1226.3,
+      "width": 266.903,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        245.757,
+        44.5,
+        567.486,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        58.035,
+        33.708
+      ],
+      "rules-line-1": [
+        122.065,
+        1014.61,
+        814.87,
+        44.835
+      ],
+      "rules-line-2": [
+        112.02,
+        1072.53,
+        834.96,
+        45.521
+      ],
+      "rules-line-3": [
+        87.667,
+        1131.53,
+        883.666,
+        45.521
+      ],
+      "rules-line-4": [
+        397.151,
+        1191.61,
+        264.698,
+        35.084
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-187-earth-dragon-ball-7.webp",
+      "before_url": "/assets/cards/saiyan-187-earth-dragon-ball-7.webp?v=6bdf406958ce",
+      "before_sha256": "6bdf406958cef7f84f819425c98f1bf7f0021271db3e84aedfd6d13a88cacbd1",
+      "after_sha256": "237f9f573f9277f9c39b53b24af7e543e217198948601cb0b802ee9bebef4415",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-187-earth-dragon-ball-7.webp",
+      "before_url": "/assets/cards/downloads/saiyan-187-earth-dragon-ball-7.webp?v=d1dc877d38ab",
+      "before_sha256": "d1dc877d38ab408fb91a9fe618245a4bc7acd50e112a5a493ecedb430b560b63",
+      "after_sha256": "13ec6544a04d15a5821564656d86d54a09e8e3b8189153f1ade90c25fb02dd8e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 567.4862842892769,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

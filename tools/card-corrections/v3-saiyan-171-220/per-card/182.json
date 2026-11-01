@@ -1,0 +1,238 @@
+{
+  "number": 182,
+  "id": "saiyan-182-krillin-lvl-1-ht",
+  "name": "Krillin",
+  "family": "HERO PERSONALITY",
+  "high_tech": true,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-182-krillin-lvl-1-ht.svg",
+  "native_source_sha256": "0b05963a4b4edf7236499854bb81f8242d7d108960dea3a267689e23c953cf12",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a38d8c889e14b5d66eb5d0c2f7e8f47e6e83ea9714b5495847ba24c0724985db.png",
+      "sha256": "a38d8c889e14b5d66eb5d0c2f7e8f47e6e83ea9714b5495847ba24c0724985db"
+    }
+  ],
+  "artwork": {
+    "mode": "approved full-art Hi-Tech composition",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "foreground_zoom_added": false,
+    "native_artwork_layer_sha256": "36d7465abd1dd4466974b750aca7ffa2cea420bc29491c9877d3e7d10c255e2d",
+    "later_portrait_correction_retained": false,
+    "full_art_brightness": "retained approved pixels; no frame-only brightness filter on character art"
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, draw a card.",
+      "baseline": 1049.3,
+      "width": 645.8199999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.526,
+        160.009,
+        89.474,
+        38.269
+      ],
+      "power-stage-value-1": [
+        967.594,
+        224.691,
+        63.406,
+        31.164
+      ],
+      "power-stage-value-2": [
+        967.545,
+        289.373,
+        63.455,
+        31.164
+      ],
+      "power-stage-value-3": [
+        970.24,
+        354.054,
+        60.76,
+        31.164
+      ],
+      "power-stage-value-4": [
+        967.888,
+        418.736,
+        63.112,
+        31.164
+      ],
+      "power-stage-value-5": [
+        968.182,
+        483.418,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-6": [
+        966.271,
+        548.1,
+        64.729,
+        31.164
+      ],
+      "power-stage-value-7": [
+        968.182,
+        612.782,
+        62.818,
+        31.164
+      ],
+      "power-stage-value-8": [
+        968.868,
+        677.463,
+        62.132,
+        31.164
+      ],
+      "power-stage-value-9": [
+        974.748,
+        742.145,
+        56.252,
+        31.164
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        442.519,
+        50.2213,
+        173.963,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        59.148,
+        33.708
+      ],
+      "rules-line-1": [
+        207.864,
+        1013.53,
+        643.272,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-182-krillin-lvl-1-ht.webp",
+      "before_url": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=fa82279509f5",
+      "before_sha256": "fa82279509f5578f24966132f78affb654221f3eab28eb1ddc03b5fc41e367da",
+      "after_sha256": "550c6005868ac49b6d7ed53b8e16fa9b5b50c9a2b4ff34ef1b8608e6dc95dded",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp",
+      "before_url": "/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp?v=6c2f9e0d0cca",
+      "before_sha256": "6c2f9e0d0ccaf0ad3e5db7a18993132eeeafa641600f4bbc548b6fecc88fdf5b",
+      "after_sha256": "9fd837c464bd3be91a0731d692e196252e553a831d16c240915dc4956d926098",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 173.9625935162095,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

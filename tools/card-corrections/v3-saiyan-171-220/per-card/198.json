@@ -1,0 +1,191 @@
+{
+  "number": 198,
+  "id": "saiyan-198-saiyan-appraisal-manuever",
+  "name": "Saiyan Appraisal Maneuver",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-198-saiyan-appraisal-manuever.svg",
+  "native_source_sha256": "33de736659d00faa118555060f0759692fb941bf3101b8564bba45147e01e9f9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ce70180563d5dd677354afe5f78d9872b985f1b121c81b142d21295d246c56bc.png",
+      "sha256": "ce70180563d5dd677354afe5f78d9872b985f1b121c81b142d21295d246c56bc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "ce70180563d5dd677354afe5f78d9872b985f1b121c81b142d21295d246c56bc",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Name a Setup or Drill card. Each opponent",
+      "baseline": 1049.3,
+      "width": 745.976,
+      "icon_inline": false
+    },
+    {
+      "text": "searches their Life Deck and banishes all copies",
+      "baseline": 1108.3,
+      "width": 857.255,
+      "icon_inline": false
+    },
+    {
+      "text": "of that card. Banish after use.",
+      "baseline": 1167.3,
+      "width": 531.2090000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        153.5,
+        47.4536,
+        752.0,
+        63.0928
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        60.314,
+        33.708
+      ],
+      "rules-line-1": [
+        158.056,
+        1013.53,
+        742.889,
+        44.884
+      ],
+      "rules-line-2": [
+        101.877,
+        1072.53,
+        855.246,
+        44.884
+      ],
+      "rules-line-3": [
+        265.439,
+        1131.53,
+        528.122,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp",
+      "before_url": "/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp?v=359775937efc",
+      "before_sha256": "359775937efcafc21fe65083a360cf38565388f51540e99f042f1ff91c3c1b1e",
+      "after_sha256": "f2708a9445059a9d668490a35ae78601f143a6b280bbce5b31309a249f0a3547",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-198-saiyan-appraisal-manuever.webp",
+      "before_url": "/assets/cards/downloads/saiyan-198-saiyan-appraisal-manuever.webp?v=81082f8993f5",
+      "before_sha256": "81082f8993f5a5b788cba47d094b13247444932e73114ae8c3349da87b3e0d4b",
+      "after_sha256": "d14d91bb8e497adb1ca8910c0bbb01279c8395ed76394bbf28e6022a8bbf8d6f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 78.66931687415001,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 752.0,
+      "visible_height": 63.092792133068315,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 752.0,
+      "scale_factor": 0.9143882917835986
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

@@ -1,0 +1,203 @@
+{
+  "number": 203,
+  "id": "saiyan-203-saiyan-truce-card",
+  "name": "Saiyan Truce Card",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-203-saiyan-truce-card.svg",
+  "native_source_sha256": "6cbac921eb8a0679061f4dd202941b7fe54a250b661532beb68aa374c141c608",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/356f2cd0cb466b689642f5b78757fcc1820bc2d3fb07eddbeefa24dedef76a59.png",
+      "sha256": "356f2cd0cb466b689642f5b78757fcc1820bc2d3fb07eddbeefa24dedef76a59"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "356f2cd0cb466b689642f5b78757fcc1820bc2d3fb07eddbeefa24dedef76a59",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) End Combat. You may keep any",
+      "baseline": 1049.3,
+      "width": 883.911,
+      "icon_inline": false
+    },
+    {
+      "text": "number of cards during Discard Steps until the",
+      "baseline": 1108.3,
+      "width": 826.7280000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Rejuvenation Step of your next turn. Banish after",
+      "baseline": 1167.3,
+      "width": 867.839,
+      "icon_inline": false
+    },
+    {
+      "text": "use.",
+      "baseline": 1226.3,
+      "width": 74.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        260.469,
+        44.5,
+        538.062,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        65.773,
+        33.708
+      ],
+      "rules-line-1": [
+        87.899,
+        1012.11,
+        883.202,
+        46.942
+      ],
+      "rules-line-2": [
+        117.729,
+        1072.53,
+        823.543,
+        45.913
+      ],
+      "rules-line-3": [
+        96.8447,
+        1131.53,
+        865.311,
+        45.768
+      ],
+      "rules-line-4": [
+        493.926,
+        1200.72,
+        71.148,
+        25.97
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-203-saiyan-truce-card.webp",
+      "before_url": "/assets/cards/saiyan-203-saiyan-truce-card.webp?v=ab5fb7222aa4",
+      "before_sha256": "ab5fb7222aa423f75e6fd51ff2d709f51b167aec3dd3833682b170fd65aaae21",
+      "after_sha256": "ae80df272f5194758c602c6b7c930889e07a083b60f951faa8e3437650ae3e6f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp",
+      "before_url": "/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp?v=6b4f9535adc4",
+      "before_sha256": "6b4f9535adc445d7324aa8abac3fc3e7fe7fbf753ab53ef9e3a7a99106e26a53",
+      "after_sha256": "8a740dd1949c206365679dc5067aef206bb5bef61f0667c4556e813cd5d5b503",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 538.0623441396509,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null
+}

@@ -6,16 +6,16 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {catalog} from '../public/cards/catalog.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const batches=['001-050','051-100','101-150','151-170'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
+const batches=['001-050','051-100','101-150','151-170','171-220'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
-test('all 170 V3 catalog cards have complete verified native sources and both exports',()=>{
+test('all 220 V3 catalog cards have complete verified native sources and both exports',()=>{
  const selected=catalog.filter(c=>c.templateVersion===3);
- assert.equal(selected.length,170);assert.equal(audit.length,170);
- assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20]);
- assert.equal(new Set(audit.map(r=>r.id)).size,170);
- assert.deepEqual(audit.map(r=>r.number),Array.from({length:170},(_,i)=>i+1));
+ assert.equal(selected.length,220);assert.equal(audit.length,220);
+ assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20,50]);
+ assert.equal(new Set(audit.map(r=>r.id)).size,220);
+ assert.deepEqual(audit.map(r=>r.number),Array.from({length:220},(_,i)=>i+1));
  for(const c of selected){
   const row=audit.find(r=>r.id===c.id);assert.ok(row,c.id);
   const source=path.join(root,row.native_source_path);assert.equal(hash(source),row.native_source_sha256);
@@ -45,8 +45,8 @@ test('V3 titles, category labels, footer content and icons share the approved ge
 });
 
 test('V3 Personality numerals and stage digits keep their approved positions',()=>{
- const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=170));
- assert.equal(personalities.length,23);
+ const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=185));
+ assert.equal(personalities.length,38);
  for(const row of personalities){
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes('id="v3-level-number"'));assert.ok(svg.includes('id="concept-pur-number"'));
@@ -145,5 +145,47 @@ test('all 170 V3 titles use complete visible-ink centering and preserve unrelate
    assert.equal(e.after_sha256,c.exports.find(x=>x.field===e.field).after_sha256);
    const scale=e.field==='image'?1:2;near(e.visible_ink_center[0]/scale,529.5,.51);near(e.visible_ink_center[1]/scale,79,.51);
   }
+ }
+});
+
+
+test('Saiyan 171–220 keeps original artwork, effect types, current restrictions and both verified exports',()=>{
+ const rows=audit.filter(r=>r.number>=171&&r.number<=220);
+ assert.equal(rows.length,50);assert.equal(rows.filter(r=>r.high_tech).length,7);
+ assert.equal(rows.filter(r=>r.tokui_waza_backing?.all_styles).length,33);
+ const dir=path.join(root,'tools/card-corrections/v3-saiyan-171-220');
+ const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
+ const artwork=JSON.parse(fs.readFileSync(path.join(dir,'artwork-review.json')));
+ assert.equal(checks.length,50);assert.equal(artwork.length,50);
+ for(const row of rows){
+  const check=checks.find(c=>c.number===row.number);assert.ok(check);
+  assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
+  assert.equal(check.title_helper_idempotent,true);
+  for(const e of check.exports){assert.equal(hash(path.join(root,e.path)),e.sha256);assert.equal(e.decoded_pixels_match_render,true);}
+  const f=row.current_preview_revision.title_fit;assert.ok(f.visible_width<=f.max_width+.00001);
+  assert.ok(f.max_width<=760);assert.ok(f.font_size<=f.nominal_font_size);
+  const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);
+  assert.equal(hash(path.join(root,a.original_scan)),a.original_scan_sha256);
+ }
+ for(const n of [186,187]){
+  const r=rows.find(r=>r.number===n);assert.deepEqual(r.artwork.center,[130,887]);assert.equal(r.artwork.dragon_ball_number,n-180);
+  assert.equal(r.tokui_waza_backing.applies,false);
+ }
+ const rules=n=>rows.find(r=>r.number===n).rules.map(x=>x.text).join(' ');
+ assert.match(rules(183),/During Combat, in place of an attack/);
+ assert.match(rules(192),/^\(Limit 1 per deck\.\)/);
+ assert.match(rules(198),/Each opponent/);
+ assert.match(rules(217),/costing 0 stages and banishing an Ally in play/);
+ assert.ok(!rules(217).includes('Banish after use'));
+ for(const n of [188,220])assert.equal(rows.find(r=>r.number===n).native_geometry.icons.length,0);
+ for(const n of [184,212])assert.equal(rows.find(r=>r.number===n).power_icon,'block');
+ assert.equal(rows.find(r=>r.number===215).power_icon_revision,'approved-bold-infinity-colon-v16');
+ assert.equal(rows.find(r=>r.number===183).artwork.later_portrait_correction_retained,true);
+ assert.equal(rows.find(r=>r.number===208).artwork.expression_patch_retained,true);
+ for(const n of [197,209]){
+  const c=checks.find(c=>c.number===n).localized_patch;
+  assert.equal(c.pixels_changed_outside_mask,0);assert.equal(c.display_pixels_changed_outside_mask,0);
+  assert.equal(c.original_raster_bytes_retained,true);assert.ok(c.pixels_changed>0);
  }
 });
