@@ -18,7 +18,7 @@ test('Frieza 11–60 have current native sources, unchanged reviewed rules and b
  assert.deepEqual(selected.map(c=>Number(c.number)),Array.from({length:50},(_,i)=>i+11));
  for(const c of selected){
   assert.equal(c.templateVersion,3);const row=rows.find(r=>r.id===c.id),data=cards.find(r=>r.id===c.id),check=checks.find(r=>r.number===row.number);
-  assert.equal(hash(row.native_source_path),row.native_source_sha256);assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(hash(row.native_source_path),row.native_source_sha256);assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,data.modern_rules);assert.ok(row.rules.length<=5);
   assert.ok(row.current_preview_revision.title_fit.max_width<=(row.personality_values?700:760));
@@ -35,11 +35,40 @@ test('Frieza 11–60 have current native sources, unchanged reviewed rules and b
    assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
    const verified=check.exports.find(x=>x.path===e.path);assert.ok(verified.decoded_pixels_match_render);assert.ok(verified.category_rendered);
+   assert.equal(verified.sha256,row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? e.after_sha256);
    near(verified.footer_ink_center[0],211.75,.51);near(verified.footer_ink_center[1],1409.5,.51);
   }
   const review=art.find(a=>a.id===c.id);assert.ok(review.display_reviewed);assert.equal(hash(review.original_scan),review.original_scan_sha256);assert.ok(review.observations.length>40);
  }
  assert.equal(rows.filter(r=>r.personality_values).length,12);assert.equal(rows.filter(r=>r.tokui_waza_backing.applies).length,38);
+});
+
+test('Frieza 1–50 use the current mirrored footer without changing unrelated pixels',()=>{
+ const folder=path.join(root,'tools/card-corrections/v3-frieza-001-050-footer-centering');
+ const checks=JSON.parse(fs.readFileSync(path.join(folder,'pixel-checks.json')));
+ const release=JSON.parse(fs.readFileSync(path.join(folder,'release.json')));
+ const rows=[...JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-frieza-001-010/audit.json'))),...read('audit.json')];
+ assert.equal(release.cards,50);assert.equal(release.independently_verified_exports,100);
+ assert.equal(release.pixels_changed_outside_footer_ink_footprint,0);
+ assert.deepEqual(checks.map(c=>c.number),Array.from({length:50},(_,i)=>i+1));
+ assert.equal(rows.filter(r=>r.footer_spacing_revision).length,50);
+ for(const check of checks){
+  const row=rows.find(r=>r.id===check.id),card=catalog.find(c=>c.id===row.id);
+  assert.equal(card.templateVersion,3);assert.deepEqual(row.footer_spacing_revision,check);
+  assert.equal(hash(row.native_source_path),check.after_native_sha256);
+  assert.equal(row.native_source_sha256,check.after_native_sha256);
+  assert.ok(check.helper_idempotent&&check.unrelated_native_elements_unchanged);
+  near(check.saga_center_x,211.75,.002);near(check.right_group_center_x,847.25,.002);
+  const bounds=row.native_geometry.bounds,ball=bounds['footer-rarity'],num=bounds['card-number'];
+  near((Math.min(ball[0],num[0])+Math.max(ball[0]+ball[2],num[0]+num[2]))/2,847.25,.002);
+  near(num[0]-ball[0]-ball[2],12.2,.002);
+  for(const id of ['saga-emblem','footer-rarity','card-number']){const [x,y,w,h]=bounds[id];near(y+h/2,1409.5);}
+  for(const e of check.exports){
+   assert.equal(hash(e.path),e.after_sha256);assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.ok(e.changed_pixels>0&&e.lossless_round_trip&&e.old_render_max_channel_difference<=3);
+   assert.equal(e.pixels_changed_outside_footer_ink_footprint,0);assert.equal(e.pixels_changed_above_footer,0);
+  }
+ }
 });
 
 test('Frieza Personalities preserve LEVEL, PUR, stage values and Guldo eye correction',()=>{

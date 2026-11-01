@@ -6,7 +6,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-001-orange-planet-destruction.svg",
-    "native_source_sha256": "d2ce279d57bb7e01a2dcf506be072bcbfb5d6e0ec24a36399f90bd01a18cf8d6",
+    "native_source_sha256": "4b5aa5d8d1c190206cfc9a59ed64162df2819c93d65aefd1b5ab3a4c605a77d4",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -83,13 +83,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          811.361,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          871.161,
           1392.65,
           11.978,
           33.708
@@ -145,7 +145,7 @@
         "path": "public/assets/cards/frieza-001-orange-planet-destruction.webp",
         "before_url": "/assets/cards/frieza-001-orange-planet-destruction.webp?v=8ded2ff86726",
         "before_sha256": "8ded2ff867261fd33a8b1c91a70a0f31aaeaaee3ac3bdbd48d69f5bcf36bad21",
-        "after_sha256": "45cdaf436ea31cce9e0480f16b52031a48c754bbc40df60fbd2bd36305dba9a2",
+        "after_sha256": "2ff57c4ed0cc3957a95351f6bb85fde1368b4337c416d062c4f8238e87f36ab9",
         "size": [
           1060,
           1484
@@ -157,7 +157,7 @@
         "path": "public/assets/cards/downloads/frieza-001-orange-planet-destruction.webp",
         "before_url": "/assets/cards/downloads/frieza-001-orange-planet-destruction.webp?v=51a5869bc267",
         "before_sha256": "51a5869bc2675203891b42c38817dd233f4ddf8fc95ab7b0319dd9ecb142eafd",
-        "after_sha256": "b40f9faf4c2da1d87285bafe08e4392e35cf5715886171a2be2cc2c65893b44a",
+        "after_sha256": "5bff92083b7da1938370a0909534bdad8b55b37929632367e43dc9c8f0cfe9ad",
         "size": [
           2120,
           2968
@@ -226,6 +226,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-001-orange-planet-destruction",
+      "number": 1,
+      "before_native_sha256": "d2ce279d57bb7e01a2dcf506be072bcbfb5d6e0ec24a36399f90bd01a18cf8d6",
+      "after_native_sha256": "4b5aa5d8d1c190206cfc9a59ed64162df2819c93d65aefd1b5ab3a4c605a77d4",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-001-orange-planet-destruction.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -8.839,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          811.361,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          871.161,
+          1392.65,
+          11.978,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-001-orange-planet-destruction.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "45cdaf436ea31cce9e0480f16b52031a48c754bbc40df60fbd2bd36305dba9a2",
+          "after_sha256": "2ff57c4ed0cc3957a95351f6bb85fde1368b4337c416d062c4f8238e87f36ab9",
+          "changed_pixels": 3443,
+          "changed_pixel_bounds": [
+            809,
+            1383,
+            895,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-001-orange-planet-destruction.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b40f9faf4c2da1d87285bafe08e4392e35cf5715886171a2be2cc2c65893b44a",
+          "after_sha256": "5bff92083b7da1938370a0909534bdad8b55b37929632367e43dc9c8f0cfe9ad",
+          "changed_pixels": 11161,
+          "changed_pixel_bounds": [
+            1622,
+            2771,
+            1784,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -235,7 +321,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-002-orange-kamehameha-attack.svg",
-    "native_source_sha256": "36e169fadd3eaf208baaeaee1b995d991cfb7bebe6825ac6db49798b445d2542",
+    "native_source_sha256": "e7d6bb2c3722113baf9b4abb7d6e407454db255f3144f9b8c82128ba9f7e2d47",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -312,13 +398,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.704,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.504,
           1392.65,
           19.292,
           33.708
@@ -374,7 +460,7 @@
         "path": "public/assets/cards/frieza-002-orange-kamehameha-attack.webp",
         "before_url": "/assets/cards/frieza-002-orange-kamehameha-attack.webp?v=d382f282321d",
         "before_sha256": "d382f282321d481c111cdb94c9f9bf9ed3c6af8a5cf0837ae2909a41b1960385",
-        "after_sha256": "7c7b67301ce46f07c0cc62e8baaf0d067ae231585fd343e20443db123208a01a",
+        "after_sha256": "4aca86ba35dc45db4f6c2f2d56c853efe0af4b9c3f156c59fbe396252923bcc5",
         "size": [
           1060,
           1484
@@ -386,7 +472,7 @@
         "path": "public/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp",
         "before_url": "/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp?v=06ea6d9e3128",
         "before_sha256": "06ea6d9e3128ba73b77c57121f82ce38d72711e00acbe6a140e9fa4fc9c8c841",
-        "after_sha256": "142f927785bd68247cd00e662e0fa9eb91b0243f202dc1e07dda6299a4a8c795",
+        "after_sha256": "b1ebc73b948ff1bcf3a680c1c4bb15f61185190a76fca6635c3c22aeb1b42b3f",
         "size": [
           2120,
           2968
@@ -455,6 +541,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-002-orange-kamehameha-attack",
+      "number": 2,
+      "before_native_sha256": "36e169fadd3eaf208baaeaee1b995d991cfb7bebe6825ac6db49798b445d2542",
+      "after_native_sha256": "e7d6bb2c3722113baf9b4abb7d6e407454db255f3144f9b8c82128ba9f7e2d47",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-002-orange-kamehameha-attack.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.496,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.704,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.504,
+          1392.65,
+          19.292,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-002-orange-kamehameha-attack.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7c7b67301ce46f07c0cc62e8baaf0d067ae231585fd343e20443db123208a01a",
+          "after_sha256": "4aca86ba35dc45db4f6c2f2d56c853efe0af4b9c3f156c59fbe396252923bcc5",
+          "changed_pixels": 3937,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            902,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-002-orange-kamehameha-attack.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "142f927785bd68247cd00e662e0fa9eb91b0243f202dc1e07dda6299a4a8c795",
+          "after_sha256": "b1ebc73b948ff1bcf3a680c1c4bb15f61185190a76fca6635c3c22aeb1b42b3f",
+          "changed_pixels": 12505,
+          "changed_pixel_bounds": [
+            1615,
+            2771,
+            1799,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -464,7 +636,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-003-orange-taunting-attack.svg",
-    "native_source_sha256": "f0d42327752fb0884090a2ff4869295140c64511a04cec4282e6f02b220b3c94",
+    "native_source_sha256": "c14fca6291e91e83d559d7876b295544520fb9bcf2c5295d135805066390ad47",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -541,13 +713,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.678,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.477,
           1392.65,
           19.345,
           33.708
@@ -603,7 +775,7 @@
         "path": "public/assets/cards/frieza-003-orange-taunting-attack.webp",
         "before_url": "/assets/cards/frieza-003-orange-taunting-attack.webp?v=9b51e5e31401",
         "before_sha256": "9b51e5e314019796e2f5b4c129f77c062f072335683835ce1497f05cf298db88",
-        "after_sha256": "6d78430b2ffeabd529b4f2787042566a26bcc0e1e8bd4567fd922d3401aed03e",
+        "after_sha256": "f2d8f0ed7e5c35a8f67c9b57a57dc3c06ae2c905a3c2d6f9bac162e85707e794",
         "size": [
           1060,
           1484
@@ -615,7 +787,7 @@
         "path": "public/assets/cards/downloads/frieza-003-orange-taunting-attack.webp",
         "before_url": "/assets/cards/downloads/frieza-003-orange-taunting-attack.webp?v=1fea8a305abf",
         "before_sha256": "1fea8a305abf48987837115fc5eaecec4d3329600e4760932f2b934c59d10f65",
-        "after_sha256": "40ff84c08420dd2629211ac61c72f6973808902461aa2a679750af9df754c44b",
+        "after_sha256": "023805af8be8888ad97ea4a147ec1bca63e4f1bf069c2aa47d9ef5aca39c10ea",
         "size": [
           2120,
           2968
@@ -684,6 +856,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-003-orange-taunting-attack",
+      "number": 3,
+      "before_native_sha256": "f0d42327752fb0884090a2ff4869295140c64511a04cec4282e6f02b220b3c94",
+      "after_native_sha256": "c14fca6291e91e83d559d7876b295544520fb9bcf2c5295d135805066390ad47",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-003-orange-taunting-attack.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.5225,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.678,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.477,
+          1392.65,
+          19.345,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-003-orange-taunting-attack.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "6d78430b2ffeabd529b4f2787042566a26bcc0e1e8bd4567fd922d3401aed03e",
+          "after_sha256": "f2d8f0ed7e5c35a8f67c9b57a57dc3c06ae2c905a3c2d6f9bac162e85707e794",
+          "changed_pixels": 3978,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            902,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-003-orange-taunting-attack.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "40ff84c08420dd2629211ac61c72f6973808902461aa2a679750af9df754c44b",
+          "after_sha256": "023805af8be8888ad97ea4a147ec1bca63e4f1bf069c2aa47d9ef5aca39c10ea",
+          "changed_pixels": 12654,
+          "changed_pixel_bounds": [
+            1615,
+            2771,
+            1799,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -693,7 +951,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-004-red-energy-suspension.svg",
-    "native_source_sha256": "b3df3c222d6db13a58e02d6e39f45d9aad858845f11d8cee5ac616145783a5fd",
+    "native_source_sha256": "4ba975a54340652c2daf7b2aba02e2b24c5488918876a62eb718a9622d841ead",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -783,13 +1041,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          805.584,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          865.384,
           1392.65,
           23.532,
           33.708
@@ -845,7 +1103,7 @@
         "path": "public/assets/cards/frieza-004-red-energy-suspension.webp",
         "before_url": "/assets/cards/frieza-004-red-energy-suspension.webp?v=01d64196a635",
         "before_sha256": "01d64196a63545b4a269e7053b92d1985ace1b996fa087c3d28927d4866fedd5",
-        "after_sha256": "81bc6db689442da66894b979408bde44c12d7d1471b3aeeebc247b1f58e39ed6",
+        "after_sha256": "fa8bed7cb20aee9f11b244f840b310154625cace787624a86cc19c667337ddbf",
         "size": [
           1060,
           1484
@@ -857,7 +1115,7 @@
         "path": "public/assets/cards/downloads/frieza-004-red-energy-suspension.webp",
         "before_url": "/assets/cards/downloads/frieza-004-red-energy-suspension.webp?v=8a5dc3c4efcc",
         "before_sha256": "8a5dc3c4efcc5f2390f42bd2b53dd7b7c65011efee8ebba1e08352a57e3f0bec",
-        "after_sha256": "698339ea1b6f262377998f151e1376aba7281139d25ca0de33da3a1fe31fec6c",
+        "after_sha256": "b1885381d10b8e7116f366adf5a6a95dbc1a26bc79d1e8fb732c5f828a345c74",
         "size": [
           2120,
           2968
@@ -926,6 +1184,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-004-red-energy-suspension",
+      "number": 4,
+      "before_native_sha256": "b3df3c222d6db13a58e02d6e39f45d9aad858845f11d8cee5ac616145783a5fd",
+      "after_native_sha256": "4ba975a54340652c2daf7b2aba02e2b24c5488918876a62eb718a9622d841ead",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-004-red-energy-suspension.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -14.616,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          805.584,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          865.384,
+          1392.65,
+          23.532,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-004-red-energy-suspension.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "81bc6db689442da66894b979408bde44c12d7d1471b3aeeebc247b1f58e39ed6",
+          "after_sha256": "fa8bed7cb20aee9f11b244f840b310154625cace787624a86cc19c667337ddbf",
+          "changed_pixels": 3981,
+          "changed_pixel_bounds": [
+            803,
+            1383,
+            906,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-004-red-energy-suspension.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "698339ea1b6f262377998f151e1376aba7281139d25ca0de33da3a1fe31fec6c",
+          "after_sha256": "b1885381d10b8e7116f366adf5a6a95dbc1a26bc79d1e8fb732c5f828a345c74",
+          "changed_pixels": 12722,
+          "changed_pixel_bounds": [
+            1611,
+            2771,
+            1808,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -935,7 +1279,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-005-red-energy-disk.svg",
-    "native_source_sha256": "7ca4f6333a26982ece1d0727983171fc19eefe3a947fa35424d94c8a34882389",
+    "native_source_sha256": "096a60dc0c523325906aa208e27d6b9d9c0a9e40a35a29f68bcc804ee4bdeae8",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -1012,13 +1356,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.466,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.265,
           1392.65,
           19.769,
           33.708
@@ -1074,7 +1418,7 @@
         "path": "public/assets/cards/frieza-005-red-energy-disk.webp",
         "before_url": "/assets/cards/frieza-005-red-energy-disk.webp?v=240f3e2a7705",
         "before_sha256": "240f3e2a7705ee9f7f3941960fe3bf71cac968e2fd5bd2c5a402688ff7a557d1",
-        "after_sha256": "d97fa3f8641dc5f397f970cfb2cae630baed16b0fc03697ccb439a253ae52f04",
+        "after_sha256": "f7048c2ff2811ca0817187d442d1c90c96773ccc9a7e6f6484f1e5a2cea0af5e",
         "size": [
           1060,
           1484
@@ -1086,7 +1430,7 @@
         "path": "public/assets/cards/downloads/frieza-005-red-energy-disk.webp",
         "before_url": "/assets/cards/downloads/frieza-005-red-energy-disk.webp?v=048c506ee988",
         "before_sha256": "048c506ee988cd5fdb80e21d883bf86c9316699ea495a9240ad036d0559d124a",
-        "after_sha256": "ed735821d90f7277fe6a0501ce570e89e0e79053298b71b005f1c185804cae4c",
+        "after_sha256": "dcff8181d6f9a562674e1fa8ada4a1bf3ce5c7693911240562b61833e0d9ad98",
         "size": [
           2120,
           2968
@@ -1155,6 +1499,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-005-red-energy-disk",
+      "number": 5,
+      "before_native_sha256": "7ca4f6333a26982ece1d0727983171fc19eefe3a947fa35424d94c8a34882389",
+      "after_native_sha256": "096a60dc0c523325906aa208e27d6b9d9c0a9e40a35a29f68bcc804ee4bdeae8",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-005-red-energy-disk.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.7345,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.466,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.265,
+          1392.65,
+          19.769,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-005-red-energy-disk.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d97fa3f8641dc5f397f970cfb2cae630baed16b0fc03697ccb439a253ae52f04",
+          "after_sha256": "f7048c2ff2811ca0817187d442d1c90c96773ccc9a7e6f6484f1e5a2cea0af5e",
+          "changed_pixels": 3990,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            903,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-005-red-energy-disk.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "ed735821d90f7277fe6a0501ce570e89e0e79053298b71b005f1c185804cae4c",
+          "after_sha256": "dcff8181d6f9a562674e1fa8ada4a1bf3ce5c7693911240562b61833e0d9ad98",
+          "changed_pixels": 12669,
+          "changed_pixel_bounds": [
+            1614,
+            2771,
+            1800,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -1164,7 +1594,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-006-red-energy-disk-blasting.svg",
-    "native_source_sha256": "6e039cde26591ae76effc3101feb074d9d7d6a33bdb5a65101feaf070032c882",
+    "native_source_sha256": "6233b2d312cdeaddc0e5ce2c68504d4798ffd3192aaaf5a04e82bd199e7056c4",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -1241,13 +1671,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.386,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.186,
           1392.65,
           19.928,
           33.708
@@ -1303,7 +1733,7 @@
         "path": "public/assets/cards/frieza-006-red-energy-disk-blasting.webp",
         "before_url": "/assets/cards/frieza-006-red-energy-disk-blasting.webp?v=faacac498b0c",
         "before_sha256": "faacac498b0c0886ef0162e13094f4a277db444d75deaf744d44f504f6252a8f",
-        "after_sha256": "3c9eea2eb56bd398f6a8508bf5a232a5763ec19caf72699cf5154841c69046f9",
+        "after_sha256": "e4d8772cf0dd1ff99576fe948dec1645e9e09d7aabad81b3846f2e9012e3cfd6",
         "size": [
           1060,
           1484
@@ -1315,7 +1745,7 @@
         "path": "public/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp",
         "before_url": "/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp?v=8a0902a83a71",
         "before_sha256": "8a0902a83a71056e8856ee7f91a7b0216162b47f5cbae6ef9e3b8eaeb0cc38e2",
-        "after_sha256": "747394b4b0ffe9d20875580da1eefe76c7e0a8f628002d7304e38dbbcd5b931b",
+        "after_sha256": "a6357bdad7335ad0c1d4afb094db9e570e89888d4aa6eb1bbdd9b22124df20bf",
         "size": [
           2120,
           2968
@@ -1384,6 +1814,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-006-red-energy-disk-blasting",
+      "number": 6,
+      "before_native_sha256": "6e039cde26591ae76effc3101feb074d9d7d6a33bdb5a65101feaf070032c882",
+      "after_native_sha256": "6233b2d312cdeaddc0e5ce2c68504d4798ffd3192aaaf5a04e82bd199e7056c4",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-006-red-energy-disk-blasting.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.814,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.386,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.186,
+          1392.65,
+          19.928,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-006-red-energy-disk-blasting.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3c9eea2eb56bd398f6a8508bf5a232a5763ec19caf72699cf5154841c69046f9",
+          "after_sha256": "e4d8772cf0dd1ff99576fe948dec1645e9e09d7aabad81b3846f2e9012e3cfd6",
+          "changed_pixels": 4004,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            903,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-006-red-energy-disk-blasting.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "747394b4b0ffe9d20875580da1eefe76c7e0a8f628002d7304e38dbbcd5b931b",
+          "after_sha256": "a6357bdad7335ad0c1d4afb094db9e570e89888d4aa6eb1bbdd9b22124df20bf",
+          "changed_pixels": 12690,
+          "changed_pixel_bounds": [
+            1614,
+            2771,
+            1800,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -1393,7 +1909,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-007-blue-energy-flight.svg",
-    "native_source_sha256": "f40181c2282059417da8d854f225ee6dbe9cdbcc7346239a17230dbdaab8b5f6",
+    "native_source_sha256": "609f94ea43dd5261feee0b5c547f2baecab50588741043b5008aa76f7d3d561a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -1475,13 +1991,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.863,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.663,
           1392.65,
           18.974,
           33.708
@@ -1537,7 +2053,7 @@
         "path": "public/assets/cards/frieza-007-blue-energy-flight.webp",
         "before_url": "/assets/cards/frieza-007-blue-energy-flight.webp?v=ffe1f53fb449",
         "before_sha256": "ffe1f53fb449f5cec12c4d0c448da91ec2ca0db4ae40bfe5806ea7b953bf0742",
-        "after_sha256": "1263696821647b01e28fea1e33e27be5ecb9713724d9e5240b2552c10673d8eb",
+        "after_sha256": "30503fcb08dd38e1526010ec6fbf21f40dd2ab55675547dd1f9235e3fdede8b1",
         "size": [
           1060,
           1484
@@ -1549,7 +2065,7 @@
         "path": "public/assets/cards/downloads/frieza-007-blue-energy-flight.webp",
         "before_url": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=75fc51098d0c",
         "before_sha256": "75fc51098d0c06b207cb044ca043ae9d1813eaad9475b617d6ce9e15ccdae3b1",
-        "after_sha256": "b7d4e6b8bb318fcca8574e8e775780ce818884e099e07777b7cca70179b70ccf",
+        "after_sha256": "116e06b9aa9a301192138bf0d1466dc99996d9cd952e82b1c899f3f7ed3aef5a",
         "size": [
           2120,
           2968
@@ -1618,6 +2134,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-007-blue-energy-flight",
+      "number": 7,
+      "before_native_sha256": "f40181c2282059417da8d854f225ee6dbe9cdbcc7346239a17230dbdaab8b5f6",
+      "after_native_sha256": "609f94ea43dd5261feee0b5c547f2baecab50588741043b5008aa76f7d3d561a",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-007-blue-energy-flight.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.337,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.863,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.663,
+          1392.65,
+          18.974,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-007-blue-energy-flight.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1263696821647b01e28fea1e33e27be5ecb9713724d9e5240b2552c10673d8eb",
+          "after_sha256": "30503fcb08dd38e1526010ec6fbf21f40dd2ab55675547dd1f9235e3fdede8b1",
+          "changed_pixels": 3770,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            902,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-007-blue-energy-flight.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b7d4e6b8bb318fcca8574e8e775780ce818884e099e07777b7cca70179b70ccf",
+          "after_sha256": "116e06b9aa9a301192138bf0d1466dc99996d9cd952e82b1c899f3f7ed3aef5a",
+          "changed_pixels": 12095,
+          "changed_pixel_bounds": [
+            1615,
+            2771,
+            1798,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -1627,7 +2229,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-008-recoome-boom.svg",
-    "native_source_sha256": "df57b259f4501b5f941777fde309006c8d9841ffd00ce5cdd00ec82b86a9f30f",
+    "native_source_sha256": "6472e1632530e95e79d355425ba046bfe36c20aea7729ea259935d3e4ede2d0d",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -1722,13 +2324,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.333,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.133,
           1392.65,
           20.034,
           33.708
@@ -1802,7 +2404,7 @@
         "path": "public/assets/cards/frieza-008-recoome-boom.webp",
         "before_url": "/assets/cards/frieza-008-recoome-boom.webp?v=bc8151faf8f5",
         "before_sha256": "bc8151faf8f524f780d8857512e0db063738897fa120d0fd827543ce12adfa98",
-        "after_sha256": "fa4bac65526b805b09761b5320c86259af522cf13173604385924572825e354c",
+        "after_sha256": "fa6371541a574d0fb88216ac9c0012ea79250ec2c8c69516700f581d7b75fca2",
         "size": [
           1060,
           1484
@@ -1814,7 +2416,7 @@
         "path": "public/assets/cards/downloads/frieza-008-recoome-boom.webp",
         "before_url": "/assets/cards/downloads/frieza-008-recoome-boom.webp?v=f4bd1578fa98",
         "before_sha256": "f4bd1578fa981e64fd1e5a4c4ec2401180a2235038a68495d5f9714bed3d287f",
-        "after_sha256": "923d958b6d87b891cb908f15a3943809ee95636fe2d8678ebbd7bd23c530ec3a",
+        "after_sha256": "69bcbe1e7dd7575bb31ab0014aa153b72f49e1d62a5782b0cca79855aae994c7",
         "size": [
           2120,
           2968
@@ -1883,6 +2485,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-008-recoome-boom",
+      "number": 8,
+      "before_native_sha256": "df57b259f4501b5f941777fde309006c8d9841ffd00ce5cdd00ec82b86a9f30f",
+      "after_native_sha256": "6472e1632530e95e79d355425ba046bfe36c20aea7729ea259935d3e4ede2d0d",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-008-recoome-boom.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.867,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.333,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.133,
+          1392.65,
+          20.034,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-008-recoome-boom.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "fa4bac65526b805b09761b5320c86259af522cf13173604385924572825e354c",
+          "after_sha256": "fa6371541a574d0fb88216ac9c0012ea79250ec2c8c69516700f581d7b75fca2",
+          "changed_pixels": 3994,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            903,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-008-recoome-boom.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "923d958b6d87b891cb908f15a3943809ee95636fe2d8678ebbd7bd23c530ec3a",
+          "after_sha256": "69bcbe1e7dd7575bb31ab0014aa153b72f49e1d62a5782b0cca79855aae994c7",
+          "changed_pixels": 12690,
+          "changed_pixel_bounds": [
+            1614,
+            2771,
+            1801,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -1892,7 +2580,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-009-saiyan-rapture.svg",
-    "native_source_sha256": "f49ec52b0b9dd07eca3b512be1be276144cd5bc99b2228ff40027d1e5231d539",
+    "native_source_sha256": "22d95ea870331663c68f96eb6994363b681680d45e0c484a8b0797d394283d9e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -1969,13 +2657,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          807.386,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          867.186,
           1392.65,
           19.928,
           33.708
@@ -2031,7 +2719,7 @@
         "path": "public/assets/cards/frieza-009-saiyan-rapture.webp",
         "before_url": "/assets/cards/frieza-009-saiyan-rapture.webp?v=162ada044c36",
         "before_sha256": "162ada044c36e335c6457fafca43bae5bcc09174d6167480b0d6c2ddc1648910",
-        "after_sha256": "75951ec833fe66e42211644929b6760c6bf0166a11d99a054befed5480ebc9b5",
+        "after_sha256": "37b3c7e5f35323566bd1e1b37372b0456ede2cace642a03a9cf821e21b8e8837",
         "size": [
           1060,
           1484
@@ -2043,7 +2731,7 @@
         "path": "public/assets/cards/downloads/frieza-009-saiyan-rapture.webp",
         "before_url": "/assets/cards/downloads/frieza-009-saiyan-rapture.webp?v=4d4503b1cb86",
         "before_sha256": "4d4503b1cb86b587c9f27446f38f232c6b71e0cad398e8bf9f1de8ede123346a",
-        "after_sha256": "c9d07857016993b749c08eaf6ddb5e7f064f4362e5f11c638b3192568addcadb",
+        "after_sha256": "65c836482d621c06b2ba849dcd4de6762b79faf24e8648b342d86fb7b75337d6",
         "size": [
           2120,
           2968
@@ -2112,6 +2800,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-009-saiyan-rapture",
+      "number": 9,
+      "before_native_sha256": "f49ec52b0b9dd07eca3b512be1be276144cd5bc99b2228ff40027d1e5231d539",
+      "after_native_sha256": "22d95ea870331663c68f96eb6994363b681680d45e0c484a8b0797d394283d9e",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-009-saiyan-rapture.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -12.814,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          807.386,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          867.186,
+          1392.65,
+          19.928,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-009-saiyan-rapture.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "75951ec833fe66e42211644929b6760c6bf0166a11d99a054befed5480ebc9b5",
+          "after_sha256": "37b3c7e5f35323566bd1e1b37372b0456ede2cace642a03a9cf821e21b8e8837",
+          "changed_pixels": 4030,
+          "changed_pixel_bounds": [
+            805,
+            1383,
+            903,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-009-saiyan-rapture.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "c9d07857016993b749c08eaf6ddb5e7f064f4362e5f11c638b3192568addcadb",
+          "after_sha256": "65c836482d621c06b2ba849dcd4de6762b79faf24e8648b342d86fb7b75337d6",
+          "changed_pixels": 12690,
+          "changed_pixel_bounds": [
+            1614,
+            2771,
+            1800,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   },
   {
@@ -2121,7 +2895,7 @@
     "family": "ENERGY COMBAT",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-010-saiyan-concussion-punch.svg",
-    "native_source_sha256": "2299c738a759b2e98cede088980fd89a96137e50e816546719f245e0cdb01df5",
+    "native_source_sha256": "253df9340b6914060eaaf2f7a477608e1feebac41a749224893acad320476640",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
@@ -2204,13 +2978,13 @@
           54.3313
         ],
         "footer-rarity": [
-          820.2,
+          799.092,
           1385.7,
           47.6,
           47.6
         ],
         "card-number": [
-          880.0,
+          858.891,
           1392.65,
           36.517,
           33.708
@@ -2272,7 +3046,7 @@
         "path": "public/assets/cards/frieza-010-saiyan-concussion-punch.webp",
         "before_url": "/assets/cards/frieza-010-saiyan-concussion-punch.webp?v=e1aa0d96a492",
         "before_sha256": "e1aa0d96a492ef615efd52a0629d09189936d4a06272d47662f98e239e2e1108",
-        "after_sha256": "7518ece4f0c1b0548833d380395fe667e68cf1bfa193ff1dbe9da78a348e1152",
+        "after_sha256": "83db3d40c7ff57992d148582f63fe793760dc249ae92a5c46a6d27efb140105b",
         "size": [
           1060,
           1484
@@ -2284,7 +3058,7 @@
         "path": "public/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp",
         "before_url": "/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp?v=587c77ffc9bd",
         "before_sha256": "587c77ffc9bd995ecfdd0bbdf4dec941a06e64942336c4629fef67bee1ec247d",
-        "after_sha256": "58f915986e7b1e0cde30ff553662b0e02e0fdcf90b2502a8f00550e9c8b93ceb",
+        "after_sha256": "d55b495902ab01767df50cc706116fa1bb6d5928b02ba7f72cdf21d8ec90c4ff",
         "size": [
           2120,
           2968
@@ -2353,6 +3127,92 @@
         211.74970000000002,
         1409.4956499999998
       ]
+    },
+    "footer_spacing_revision": {
+      "id": "frieza-010-saiyan-concussion-punch",
+      "number": 10,
+      "before_native_sha256": "2299c738a759b2e98cede088980fd89a96137e50e816546719f245e0cdb01df5",
+      "after_native_sha256": "253df9340b6914060eaaf2f7a477608e1feebac41a749224893acad320476640",
+      "native_source_path": "tools/card-templates/v3/frieza-001-010/frieza-010-saiyan-concussion-punch.svg",
+      "treatment": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": -21.1085,
+        "changed": true,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "right_group_center_x": 847.25,
+      "saga_center_x": 211.74970000000002,
+      "after_bounds": {
+        "saga-emblem": [
+          184.859,
+          1382.33,
+          53.7814,
+          54.3313
+        ],
+        "footer-rarity": [
+          799.092,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          858.891,
+          1392.65,
+          36.517,
+          33.708
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-010-saiyan-concussion-punch.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7518ece4f0c1b0548833d380395fe667e68cf1bfa193ff1dbe9da78a348e1152",
+          "after_sha256": "83db3d40c7ff57992d148582f63fe793760dc249ae92a5c46a6d27efb140105b",
+          "changed_pixels": 5017,
+          "changed_pixel_bounds": [
+            797,
+            1383,
+            920,
+            1436
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "58f915986e7b1e0cde30ff553662b0e02e0fdcf90b2502a8f00550e9c8b93ceb",
+          "after_sha256": "d55b495902ab01767df50cc706116fa1bb6d5928b02ba7f72cdf21d8ec90c4ff",
+          "changed_pixels": 16185,
+          "changed_pixel_bounds": [
+            1598,
+            2771,
+            1834,
+            2867
+          ],
+          "pixels_changed_outside_footer_ink_footprint": 0,
+          "pixels_changed_above_footer": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        }
+      ],
+      "audit_path": "tools/card-corrections/v3-frieza-001-010/audit.json"
     }
   }
 ]

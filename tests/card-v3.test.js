@@ -51,7 +51,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
  for(const c of selected){
   const row=rows.find(r=>r.id===c.id),check=checks.find(r=>r.number===Number(c.number));
   const source=path.join(root,row.native_source_path),svg=fs.readFileSync(source,'utf8');
-  assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
   assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));assert.ok(svg.includes('data-set="Frieza Saga"'));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,cards.find(r=>r.id===c.id).modern_rules);
   assert.ok(row.rules.length<=5);assert.equal(row.power_icon,'attack');assert.equal(row.native_geometry.icons.length,1);
@@ -64,7 +64,8 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
   for(const e of row.exports){
    assert.equal(hash(path.join(root,e.path)),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
-   assert.ok(check.exports.find(x=>x.path===e.path).decoded_pixels_match_render);
+   const original=check.exports.find(x=>x.path===e.path);assert.ok(original.decoded_pixels_match_render);
+   assert.equal(original.sha256,row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? e.after_sha256);
   }
  }
  assert.ok(rows.find(r=>r.number===4).artwork.current_approved_background_retained);

@@ -12,13 +12,18 @@ sys.path.insert(0, str(HERE / 'scripts'))
 import footer_spacing
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('work', type=Path)
+parser.add_argument('--set', choices=['saiyan', 'frieza'], default='saiyan')
 parser.add_argument('--range', choices=['001-050', '051-100', '101-150', '151-200', '201-250-promos'], default='001-050')
 args = parser.parse_args()
+if args.set == 'frieza' and args.range != '001-050':
+    parser.error('The supported Frieza footer batch is 001-050.')
 WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)
-AUDIT_PATHS = [ROOT / f'tools/card-corrections/v3-saiyan-{batch}/audit.json'
-               for batch in ['001-050', '051-100', '101-150', '151-170', '171-220', '221-250-promos']]
-OUT = ROOT / f'tools/card-corrections/v3-saiyan-{args.range}-footer-centering'
+BATCHES = {'saiyan': ['001-050', '051-100', '101-150', '151-170', '171-220', '221-250-promos'],
+           'frieza': ['001-010', '011-060']}
+AUDIT_PATHS = [ROOT / f'tools/card-corrections/v3-{args.set}-{batch}/audit.json'
+               for batch in BATCHES[args.set]]
+OUT = ROOT / f'tools/card-corrections/v3-{args.set}-{args.range}-footer-centering'
 Y = 1340
 IDS = ['saga-emblem', 'footer-rarity', 'card-number']
 
@@ -184,7 +189,7 @@ if __name__ == '__main__':
     (ROOT/'public/cards/catalog.js').write_text(catalog)
     (OUT/'pixel-checks.json').write_text(json.dumps(results, indent=2)+'\n')
     (OUT/'release.json').write_text(json.dumps({'baseline_commit': before_commit,
-        'scope': f'Saiyan Saga {args.range} only', 'cards': len(results), 'independently_verified_exports': 2*len(results),
+        'scope': f'{args.set.title()} Saga {args.range} only', 'cards': len(results), 'independently_verified_exports': 2*len(results),
         'revision': footer_spacing.REVISION, 'saga_center_x': 211.75, 'right_group_center_x': 847.25,
         'pixels_changed_outside_footer_ink_footprint': 0, 'native_helper_idempotent_all_cards': True,
         'artwork_and_all_unrelated_pixels_preserved': True}, indent=2)+'\n')
