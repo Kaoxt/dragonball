@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "6b9c2db7b0eb4cab3d4ff959f07f195e1fb66b7d",
+  "scope": "Saiyan Saga 151-200 only",
+  "cards": 50,
+  "independently_verified_exports": 100,
+  "revision": "mirrored-side-group-centers-v1",
+  "saga_center_x": 211.75,
+  "right_group_center_x": 847.25,
+  "pixels_changed_outside_footer_ink_footprint": 0,
+  "native_helper_idempotent_all_cards": true,
+  "artwork_and_all_unrelated_pixels_preserved": true,
+  "validation": {
+    "javascript_tests_passed": 188,
+    "python_tests_passed": 6,
+    "independent_source_and_pixel_comparisons": true,
+    "repeat_run_byte_identical": true,
+    "visual_review": "All 50 completed cards and detailed before/after footer comparisons inspected; mixed Combat, Hero/Villain, Hi-Tech and Dragon Ball examples retained their original content."
+  }
+}

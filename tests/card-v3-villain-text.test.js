@@ -40,8 +40,8 @@ test('all 24 V3 Villains have four red power corners with unchanged text and art
  assert.deepEqual(checks.map(c=>c.id).sort(),villains.map(r=>r.id).sort());
  for(const check of checks){
   const row=rows.find(r=>r.id===check.id),card=catalog.find(c=>c.id===row.id);
-  assert.deepEqual(row.villain_corner_revision,check);assert.equal(hash(row.native_source_path),check.after_native_sha256);
-  assert.equal(row.native_source_sha256,check.after_native_sha256);
+  assert.deepEqual(row.villain_corner_revision,check);assert.equal(row.footer_spacing_revision?.before_native_sha256 ?? hash(row.native_source_path),check.after_native_sha256);
+  assert.equal(hash(row.native_source_path),row.native_source_sha256);
   assert.ok(check.helper_idempotent&&check.unrelated_native_elements_unchanged&&check.all_text_and_artwork_unchanged);
   const svg=read(row.native_source_path);
   const panel=svg.slice(svg.indexOf('id="shared-rules-component"'),svg.indexOf('id="shared-rules-outer-rail"'));
@@ -49,8 +49,9 @@ test('all 24 V3 Villains have four red power corners with unchanged text and art
   assert.equal((panel.match(/stroke="#4c1119"/g)||[]).length,2);
   assert.doesNotMatch(panel,/#0a4a96|#092b50/);
   for(const e of check.exports){
-   assert.equal(hash(e.path),e.after_sha256);assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
-   assert.equal(row.exports.find(x=>x.field===e.field).after_sha256,e.after_sha256);
+   const current=row.exports.find(x=>x.field===e.field);
+   assert.equal(hash(e.path),current.after_sha256);assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+current.after_sha256.slice(0,12));
+   assert.equal(row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? current.after_sha256,e.after_sha256);
    assert.ok(e.changed_pixels>0&&e.lossless_round_trip&&e.old_render_max_channel_difference<=3);
    assert.equal(e.pixels_changed_outside_corner_footprint,0);
   }

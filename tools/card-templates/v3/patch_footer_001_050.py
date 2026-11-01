@@ -12,11 +12,12 @@ sys.path.insert(0, str(HERE / 'scripts'))
 import footer_spacing
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('work', type=Path)
-parser.add_argument('--range', choices=['001-050', '051-100', '101-150'], default='001-050')
+parser.add_argument('--range', choices=['001-050', '051-100', '101-150', '151-200'], default='001-050')
 args = parser.parse_args()
 WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)
-AUDIT_PATH = ROOT / f'tools/card-corrections/v3-saiyan-{args.range}/audit.json'
+AUDIT_PATHS = [ROOT / f'tools/card-corrections/v3-saiyan-{batch}/audit.json'
+               for batch in ['001-050', '051-100', '101-150', '151-170', '171-220', '221-250-promos']]
 OUT = ROOT / f'tools/card-corrections/v3-saiyan-{args.range}-footer-centering'
 Y = 1340
 IDS = ['saga-emblem', 'footer-rarity', 'card-number']
@@ -90,7 +91,6 @@ def process(row):
                   'treatment': treatment, 'helper_idempotent': True,
                   'unrelated_native_elements_unchanged': True, 'right_group_center_x': group_center,
                   'saga_center_x': logo[0]+logo[2]/2, 'after_bounds': {id:b[id] for id in IDS}, 'exports': []}
-        outputs = []
         for export in row['exports']:
             target = ROOT / export['path']
             assert sha(target) == export['after_sha256']
@@ -130,11 +130,9 @@ def process(row):
                       'pixels_changed_outside_footer_ink_footprint': 0,
                       'pixels_changed_above_footer': 0, 'old_render_max_channel_difference': max_old,
                       'lossless_round_trip': True}
-            result['exports'].append(report); outputs.append((staged,target))
-        # Both resolutions must pass before this card's actual files are replaced.
-        source.write_bytes(new_source.read_bytes())
-        for staged, target in outputs:
-            target.write_bytes(staged.read_bytes())
+            result['exports'].append(report)
+        # Keep all outputs staged until every card in the selected range passes.
+        (work/'after.svg').write_bytes(new_source.read_bytes())
         (work/'verification.json').write_text(json.dumps(result, indent=2)+'\n')
         return result
     finally:
@@ -142,8 +140,11 @@ def process(row):
 
 
 if __name__ == '__main__':
-    audit = json.loads(AUDIT_PATH.read_text())
     start, end = map(int, args.range.split('-'))
+    batches = {path: json.loads(path.read_text()) for path in AUDIT_PATHS}
+    audit = [row for rows in batches.values() for row in rows
+             if isinstance(row['number'], int) and start <= row['number'] <= end]
+    source_audits = {row['id']: path for path, rows in batches.items() for row in rows}
     assert [row['number'] for row in audit] == list(range(start, end + 1))
     if all(row.get('footer_spacing_revision', {}).get('treatment', {}).get('revision') == footer_spacing.REVISION for row in audit):
         for row in audit:
@@ -161,17 +162,22 @@ if __name__ == '__main__':
     assert len(results) == 50
     catalog = original_catalog
     for row, result in zip(audit, results):
+        result['audit_path'] = str(source_audits[row['id']].relative_to(ROOT))
+        work = WORK / row['id']
+        (ROOT/row['native_source_path']).write_bytes((work/'after.svg').read_bytes())
         row['native_source_sha256'] = result['after_native_sha256']
         row['footer_spacing_revision'] = result
         row['native_geometry']['bounds'].update(result['after_bounds'])
         for export, check in zip(row['exports'], result['exports']):
+            (ROOT/export['path']).write_bytes((work/(export['field']+'.webp')).read_bytes())
             old_url = export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12]
             new_url = export['path'].removeprefix('public') + '?v=' + check['after_sha256'][:12]
             assert catalog.count('"'+old_url+'"') == 1
             catalog = catalog.replace('"'+old_url+'"', '"'+new_url+'"')
             export['after_sha256'] = check['after_sha256']
     OUT.mkdir(parents=True, exist_ok=True)
-    AUDIT_PATH.write_text(json.dumps(audit, indent=2)+'\n')
+    for path in {source_audits[row['id']] for row in audit}:
+        path.write_text(json.dumps(batches[path], indent=2)+'\n')
     (ROOT/'public/cards/catalog.js').write_text(catalog)
     (OUT/'pixel-checks.json').write_text(json.dumps(results, indent=2)+'\n')
     (OUT/'release.json').write_text(json.dumps({'baseline_commit': before_commit,
