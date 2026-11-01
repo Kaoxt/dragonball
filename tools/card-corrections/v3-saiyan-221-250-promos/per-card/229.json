@@ -1,0 +1,200 @@
+{
+  "number": 229,
+  "id": "saiyan-229-ally-wins",
+  "name": "Ally Wins!",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-229-ally-wins.svg",
+  "native_source_sha256": "69a4ea4d2091a2c86ea783f2f4e12476d8782fd4d1f36b99e4cb7fc352c7fb76",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0b04721a25426e7aa951fd921c92effde3b1baf607819e67a73edc5708ce83f5.png",
+      "sha256": "0b04721a25426e7aa951fd921c92effde3b1baf607819e67a73edc5708ce83f5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "0b04721a25426e7aa951fd921c92effde3b1baf607819e67a73edc5708ce83f5",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Your opponent discards the top card of their Life",
+      "baseline": 1049.3,
+      "width": 865.585,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck for each Ally you have in play. Banish after",
+      "baseline": 1108.3,
+      "width": 856.177,
+      "icon_inline": false
+    },
+    {
+      "text": "use.",
+      "baseline": 1167.3,
+      "width": 74.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        376.831,
+        44.5,
+        305.338,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        64.395,
+        33.708
+      ],
+      "rules-line-1": [
+        97.957,
+        1013.53,
+        863.086,
+        44.884
+      ],
+      "rules-line-2": [
+        102.676,
+        1072.53,
+        853.649,
+        45.521
+      ],
+      "rules-line-3": [
+        493.926,
+        1141.72,
+        71.148,
+        25.97
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-229-ally-wins.webp",
+      "before_url": "/assets/cards/saiyan-229-ally-wins.webp?v=53f23a41a3ae",
+      "before_sha256": "53f23a41a3ae498c150d56e47e5471fbe2b3762d619d548f7d68153c86cb404a",
+      "after_sha256": "3c84a03a4327d1d1f9552628a5b2ad510be3d1aa9722dda66e4806de705953d3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-229-ally-wins.webp",
+      "before_url": "/assets/cards/downloads/saiyan-229-ally-wins.webp?v=6460c606be87",
+      "before_sha256": "6460c606be87415bd5b8dd54d70eee18b641f410814273c02d66d0e2c741c148",
+      "after_sha256": "2ffd47b6e82db75917a79b26db943fa9cdb6efd2b60369dceca29b55e8509a3b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 305.3379052369078,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "EVENT"
+  }
+}

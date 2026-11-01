@@ -5,7 +5,7 @@
   "family": "VILLAIN PERSONALITY",
   "high_tech": true,
   "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-185-nappa-lvl-1-ht.svg",
-  "native_source_sha256": "da164766f36ab37836115c9dc028d7c73e7a5e015cbdc126e108e2d26b21a746",
+  "native_source_sha256": "7c729e538eddb2951e0afedbd8da225d57dcdd06f01cfaa09c5ade3be8f7b541",
   "assets": [
     {
       "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -189,7 +189,7 @@
       "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
       "before_url": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=21ff451634e8",
       "before_sha256": "21ff451634e8f0df44df645e57adfcbdd7857c971b8faca7c2f9eea2ba49e201",
-      "after_sha256": "784d21501aa30a15d4bb7893b11f6a964c0cd03e2332ad384bc3e3eafa1e487f",
+      "after_sha256": "22d5c22bdcaa5399371cd4a45fa8a6f9ecc4531e43d64a498e7f8fedde31d9c6",
       "size": [
         1060,
         1484
@@ -201,7 +201,7 @@
       "path": "public/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp",
       "before_url": "/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp?v=5525d76e5336",
       "before_sha256": "5525d76e53362ae52e5be78442e766c358886911c41d479c55cfbf8560edcb7e",
-      "after_sha256": "2047c347a6808d5c990eaf05e6703e8cf910a8ed9b14acbc729ebfe9461b7d36",
+      "after_sha256": "9d3ea22fafbec50a2f0338c5e52f82cdadfa16a4a461c6acd08f5ec84425b605",
       "size": [
         2120,
         2968
@@ -244,7 +244,65 @@
       ]
     },
     "background_gain": 1,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 34.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
   },
-  "power_icon": null
+  "power_icon": null,
+  "middle_bar_revision": {
+    "number": 185,
+    "id": "saiyan-185-nappa-lvl-1-ht",
+    "before_native_sha256": "da164766f36ab37836115c9dc028d7c73e7a5e015cbdc126e108e2d26b21a746",
+    "treatment": {
+      "applies": true,
+      "villain_red": "#cc2119",
+      "hi_tech_isolated": true,
+      "clip_y": [
+        852,
+        965
+      ]
+    },
+    "native_components_outside_middle_unchanged": true,
+    "helper_idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
+        "before_sha256": "784d21501aa30a15d4bb7893b11f6a964c0cd03e2332ad384bc3e3eafa1e487f",
+        "after_sha256": "22d5c22bdcaa5399371cd4a45fa8a6f9ecc4531e43d64a498e7f8fedde31d9c6",
+        "size": [
+          1060,
+          1484
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 98868,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp",
+        "before_sha256": "2047c347a6808d5c990eaf05e6703e8cf910a8ed9b14acbc729ebfe9461b7d36",
+        "after_sha256": "9d3ea22fafbec50a2f0338c5e52f82cdadfa16a4a461c6acd08f5ec84425b605",
+        "size": [
+          2120,
+          2968
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 365051,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      }
+    ],
+    "after_native_sha256": "7c729e538eddb2951e0afedbd8da225d57dcdd06f01cfaa09c5ade3be8f7b541"
+  }
 }

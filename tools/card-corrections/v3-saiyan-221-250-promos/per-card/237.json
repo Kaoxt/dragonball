@@ -1,0 +1,207 @@
+{
+  "number": 237,
+  "id": "saiyan-237-gokus-capturing-drill",
+  "name": "Goku's Capturing Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-237-gokus-capturing-drill.svg",
+  "native_source_sha256": "0ec85c7206a60e878709778deec0bc58dae49a47b44e3eddd66a4fde01c0ceb8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2b335c062c18455211bbe02bd44f5e6c88f45a85d00ce8bbd08ef38e8a807054.png",
+      "sha256": "2b335c062c18455211bbe02bd44f5e6c88f45a85d00ce8bbd08ef38e8a807054"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "2b335c062c18455211bbe02bd44f5e6c88f45a85d00ce8bbd08ef38e8a807054",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Your Dragon Balls cannot be captured.",
+      "baseline": 1049.3,
+      "width": 746.25275,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        205.665,
+        44.5,
+        647.671,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        63.017,
+        33.708
+      ],
+      "rules-line-1": [
+        223.927,
+        1015.0,
+        677.915,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          157.158,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          223.927,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          157.158,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-237-gokus-capturing-drill.webp",
+      "before_url": "/assets/cards/saiyan-237-gokus-capturing-drill.webp?v=2bdfff7205a0",
+      "before_sha256": "2bdfff7205a0a8bb05286d4be675d41499b317a9e2c96639bf46a5f70d1f7c92",
+      "after_sha256": "687c3ec0008b3a0a10360aa76068d9ad5caa075fcffd572a9710d84e1243cb5b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-237-gokus-capturing-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-237-gokus-capturing-drill.webp?v=704164a42527",
+      "before_sha256": "704164a42527b24b63f38d52fae3117a655060dff4194e587ee4eb00c07677d2",
+      "after_sha256": "5bffff2b96005f6a603dbbc5cf36033cabb3f6e9bfd242bc418d687fa61411b5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 647.6708229426434,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 26.92582403567252,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "constant",
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "DRILL"
+  }
+}

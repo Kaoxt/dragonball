@@ -20,6 +20,7 @@ P=Path(__file__).resolve().parent; ROOT=P.parents[2]
 sys.path.insert(0,str(P/'scripts'))
 from title_fit_v3 import apply as title_fit
 from middle_label_v3 import apply as middle_label
+from personality_middle_v3 import apply as personality_middle
 from tokui_backing import apply as tokui_backing
 from align_power_icon import align_power_icon
 from footer_spacing import change as footer_spacing
@@ -147,6 +148,7 @@ def compose(c,retained):
  num,b=text(str(n),'Teko-SemiBold.ttf',53,0,1409.5,'card-number');num,b=text(str(n),'Teko-SemiBold.ttf',53,880+b[0]/2,1409.5,'card-number');replace(r,'card-number',num);rarity(r,c['rarity_stars'])
  ar=dragon_ball(r,c,retained) if db else artwork(r,c,retained)
  if mp:personality(r,c,retained)
+ personality_middle(r,high_tech=c.get("high_tech",False))
  tok=tokui_backing(r);reports,iconline=rules(r,c);assets=shared.assetize(r)
  measurement=deepcopy(r)
  for e in measurement.xpath('//*[local-name()="image"]'):

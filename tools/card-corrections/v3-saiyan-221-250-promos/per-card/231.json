@@ -1,0 +1,219 @@
+{
+  "number": 231,
+  "id": "saiyan-231-gokus-mixing-drill",
+  "name": "Goku's Mixing Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-231-gokus-mixing-drill.svg",
+  "native_source_sha256": "158b57f686eeebf0f777b8e747e17c45d6d70b4992b04c18dfe230278fbc302c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bbb1d353a58917a3409c6da0b109356e6b97570a23ccef5d45f750bcce158880.png",
+      "sha256": "bbb1d353a58917a3409c6da0b109356e6b97570a23ccef5d45f750bcce158880"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "bbb1d353a58917a3409c6da0b109356e6b97570a23ccef5d45f750bcce158880",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "You may have Drills of different styles in play",
+      "baseline": 1049.3,
+      "width": 870.6637499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "at the same time.",
+      "baseline": 1108.3,
+      "width": 309.87600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        252.296,
+        44.5,
+        554.409,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        56.551,
+        33.708
+      ],
+      "rules-line-1": [
+        161.268,
+        1013.53,
+        803.234,
+        45.521
+      ],
+      "rules-line-2": [
+        375.909,
+        1072.53,
+        307.181,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          94.4982,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          161.268,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          94.4982,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-231-gokus-mixing-drill.webp",
+      "before_url": "/assets/cards/saiyan-231-gokus-mixing-drill.webp?v=f3146e36131a",
+      "before_sha256": "f3146e36131a63b5b56b2acff76bdbd969f88c610d74f051ad4ccfd2acf76b01",
+      "after_sha256": "0aedc0f24004b61c326056befdb36b9ab803fb5222af0533fe94dc7e9c9095e1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-231-gokus-mixing-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-231-gokus-mixing-drill.webp?v=e65e83c59955",
+      "before_sha256": "e65e83c59955b33c45c8f0eb7efaad493d7b01d2a3ea8f92222638be05573ce5",
+      "after_sha256": "3c2fbf5c6df5aac4e475ddadbcd9b083dd556c6a67350ed0635e783b4e7f4123",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 554.4089775561098,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "constant",
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "DRILL"
+  }
+}

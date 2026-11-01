@@ -1,0 +1,219 @@
+{
+  "number": 224,
+  "id": "saiyan-224-baba-witch-viewing-drill",
+  "name": "Baba Witch Viewing Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-224-baba-witch-viewing-drill.svg",
+  "native_source_sha256": "915caed3b75ab77ab09f4424b04d60f47475153c301f82066628be00c27b1d98",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ceb6aff0bf4401a45fcff6cd0f3a435a7f7d1f056ad5044ce3879cc10acb6e71.png",
+      "sha256": "ceb6aff0bf4401a45fcff6cd0f3a435a7f7d1f056ad5044ce3879cc10acb6e71"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "ceb6aff0bf4401a45fcff6cd0f3a435a7f7d1f056ad5044ce3879cc10acb6e71",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "All Villain opponents must play with their",
+      "baseline": 1049.3,
+      "width": 790.2057499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "hands revealed.",
+      "baseline": 1108.3,
+      "width": 283.61199999999997,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        158.603,
+        44.5,
+        741.793,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        66.727,
+        33.708
+      ],
+      "rules-line-1": [
+        200.836,
+        1013.53,
+        723.581,
+        45.521
+      ],
+      "rules-line-2": [
+        389.409,
+        1074.0,
+        280.182,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          134.583,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          200.836,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          134.583,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-224-baba-witch-viewing-drill.webp",
+      "before_url": "/assets/cards/saiyan-224-baba-witch-viewing-drill.webp?v=913b5db2c1f9",
+      "before_sha256": "913b5db2c1f9d7a45d31e2d7310d250031467990a01511965835134d75e34f3e",
+      "after_sha256": "a8bbe1588810539ee4a2e6a93e3df70ad37738b1ad853aaa0914fe1c3cb670e2",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-224-baba-witch-viewing-drill.webp",
+      "before_url": "/assets/cards/downloads/saiyan-224-baba-witch-viewing-drill.webp?v=96604a07a7fe",
+      "before_sha256": "96604a07a7fe44ce3da64de22d36be3f65033692d1f5d38878c230757fed3cb7",
+      "after_sha256": "a7a3bee7711a1793945a3776c36aa9093778c758565b517859eb1d2407e95945",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 741.7930174563592,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 2.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "constant",
+  "power_icon_revision": "approved-bold-infinity-colon-v16",
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "DRILL"
+  }
+}

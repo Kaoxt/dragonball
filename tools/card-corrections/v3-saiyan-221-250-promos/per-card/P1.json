@@ -1,0 +1,319 @@
+{
+  "number": "P1",
+  "id": "saiyan-0P1-goku-silver-variant",
+  "name": "Goku",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P1-goku-silver-variant.svg",
+  "native_source_sha256": "605ef5162e28c59b20a4d6c57379d31d6aa6748dc4227ac1f7be906084ff5e6c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c438322ba642301ad4997bf0122ca7f9e1fa28205e2a37419c69ec3290d23f7c.png",
+      "sha256": "c438322ba642301ad4997bf0122ca7f9e1fa28205e2a37419c69ec3290d23f7c"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c438322ba642301ad4997bf0122ca7f9e1fa28205e2a37419c69ec3290d23f7c",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 851.0901555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards.",
+      "baseline": 1108.3,
+      "width": 111.91600000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        914.625,
+        160.009,
+        116.375,
+        38.269
+      ],
+      "power-stage-value-1": [
+        912.469,
+        224.691,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-2": [
+        913.253,
+        289.373,
+        117.747,
+        38.269
+      ],
+      "power-stage-value-3": [
+        913.498,
+        354.054,
+        117.502,
+        38.269
+      ],
+      "power-stage-value-4": [
+        913.449,
+        418.736,
+        117.551,
+        38.269
+      ],
+      "power-stage-value-5": [
+        915.311,
+        483.418,
+        115.689,
+        38.269
+      ],
+      "power-stage-value-6": [
+        913.155,
+        548.1,
+        117.845,
+        38.269
+      ],
+      "power-stage-value-7": [
+        919.133,
+        612.782,
+        111.867,
+        38.269
+      ],
+      "power-stage-value-8": [
+        919.378,
+        677.463,
+        111.622,
+        38.269
+      ],
+      "power-stage-value-9": [
+        919.329,
+        742.145,
+        111.671,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        457.102,
+        50.2213,
+        144.797,
+        57.5574
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        34.821,
+        33.708
+      ],
+      "rules-line-1": [
+        159.212,
+        1013.53,
+        795.172,
+        45.913
+      ],
+      "rules-line-2": [
+        475.085,
+        1074.0,
+        108.829,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          104.616,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          159.212,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          104.616,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-0P1-goku-silver-variant.webp",
+      "before_url": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=ff4b130ab0a1",
+      "before_sha256": "ff4b130ab0a17afe16c6610429782f2b32c79baf89562a1f359942496f2ef809",
+      "after_sha256": "d0d90e2938384a38371bab2dbc2c172c25f75abf5a22a3de9d147fa65c4050c3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp",
+      "before_url": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=c67dd6c23687",
+      "before_sha256": "c67dd6c23687aa35821bfe6709950d8b985ddf922fd602571d4a6d2eb9af6e8d",
+      "after_sha256": "f2a7918f1aa034a635fe7c1c6ae235ce661c8fde673c9f37f2518b55ea351c3c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 144.7967581047382,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "verified_game_data": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      0,
+      14000,
+      16000,
+      18000,
+      20000,
+      22000,
+      24000,
+      26000,
+      28000,
+      30000,
+      32000
+    ],
+    "rarity_stars": 2,
+    "category": "HERO PERSONALITY"
+  }
+}

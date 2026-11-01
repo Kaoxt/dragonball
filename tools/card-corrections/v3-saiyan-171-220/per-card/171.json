@@ -5,7 +5,7 @@
   "family": "VILLAIN PERSONALITY",
   "high_tech": false,
   "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-171-raditz.svg",
-  "native_source_sha256": "3aa2bfaa4fd538413ae762b9b5bb4c3c4862e81326ea14d745205437e6542c69",
+  "native_source_sha256": "512475af6c17add95a1fef08a2ceb7beaeaf782d59d1ba9b49c97aa31441209a",
   "assets": [
     {
       "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -234,7 +234,7 @@
       "path": "public/assets/cards/saiyan-171-raditz.webp",
       "before_url": "/assets/cards/saiyan-171-raditz.webp?v=942c63acde89",
       "before_sha256": "942c63acde89494b838458c920acf552239aafaae4b214246314a51fe37d02d0",
-      "after_sha256": "145451e124c511bca277f83da38226965e4556ea535425c5cd542466b2564810",
+      "after_sha256": "be6961b25c1716c30edf4ef1d6202c54ed5727a726ff7c4d95c9965d5a654b4b",
       "size": [
         1060,
         1484
@@ -246,7 +246,7 @@
       "path": "public/assets/cards/downloads/saiyan-171-raditz.webp",
       "before_url": "/assets/cards/downloads/saiyan-171-raditz.webp?v=b3f5e6c325d6",
       "before_sha256": "b3f5e6c325d6787a6d0f3b75fb71e2247c8185236b4908d954a0d6d7e95159f9",
-      "after_sha256": "a4c14c7955ede1cb8f55a6f85fe450da30fd7ea3f022d5d38a67d6bf9d093ee6",
+      "after_sha256": "8ba58a728730af8f2416e76d21f212711c733c75404d75dc260e3dc9cf21395a",
       "size": [
         2120,
         2968
@@ -289,7 +289,65 @@
       ]
     },
     "background_gain": 1.2,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
   },
-  "power_icon": "attack"
+  "power_icon": "attack",
+  "middle_bar_revision": {
+    "number": 171,
+    "id": "saiyan-171-raditz",
+    "before_native_sha256": "3aa2bfaa4fd538413ae762b9b5bb4c3c4862e81326ea14d745205437e6542c69",
+    "treatment": {
+      "applies": true,
+      "villain_red": "#cc2119",
+      "hi_tech_isolated": false,
+      "clip_y": [
+        852,
+        965
+      ]
+    },
+    "native_components_outside_middle_unchanged": true,
+    "helper_idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/saiyan-171-raditz.webp",
+        "before_sha256": "145451e124c511bca277f83da38226965e4556ea535425c5cd542466b2564810",
+        "after_sha256": "be6961b25c1716c30edf4ef1d6202c54ed5727a726ff7c4d95c9965d5a654b4b",
+        "size": [
+          1060,
+          1484
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 89044,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/saiyan-171-raditz.webp",
+        "before_sha256": "a4c14c7955ede1cb8f55a6f85fe450da30fd7ea3f022d5d38a67d6bf9d093ee6",
+        "after_sha256": "8ba58a728730af8f2416e76d21f212711c733c75404d75dc260e3dc9cf21395a",
+        "size": [
+          2120,
+          2968
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 326500,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      }
+    ],
+    "after_native_sha256": "512475af6c17add95a1fef08a2ceb7beaeaf782d59d1ba9b49c97aa31441209a"
+  }
 }

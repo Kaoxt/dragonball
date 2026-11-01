@@ -6148,7 +6148,7 @@
     "id": "saiyan-170-raditz",
     "name": "Raditz",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
-    "native_source_sha256": "1d10e2cc7e844849abcd5b4a3b23a97aea4062a97b29ef81428d7a99ed40ac23",
+    "native_source_sha256": "8715ce82970f417987bb22aa7893277f735f3149f6bb92d8b56741ec80c97708",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -6338,7 +6338,7 @@
         "path": "public/assets/cards/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/saiyan-170-raditz.webp?v=d31de309fea4",
         "before_sha256": "d31de309fea4535d92df6551ca0caaedc2e819ba45e4d1ebd3becc7c9cfa670c",
-        "after_sha256": "bf24f8ea9001b06f7db8a0178c0e523458024c47041d8e6d57cef25f224d9a2d",
+        "after_sha256": "ee6f7a4174ae65f63e2bcfa2bc182ada9dfc0be101359986c4757df8f0019a3d",
         "size": [
           1060,
           1484
@@ -6350,7 +6350,7 @@
         "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/downloads/saiyan-170-raditz.webp?v=3c8ed062cc83",
         "before_sha256": "3c8ed062cc83a707a78eb9b8dcfb3b4f66780e7b63f7978de925e0eecf6b9b61",
-        "after_sha256": "ee2624327c5144fd538e3eda128e22508e6af9c6ae5bae1c0efc104616bbc050",
+        "after_sha256": "aba2f2d0cb61484d2869096e6b6302c703a6b3a8c85bfc2838d892585a0b76c1",
         "size": [
           2120,
           2968
@@ -6449,6 +6449,59 @@
         ],
         "source_status": "retained V3 draft; site remains V2 before this release"
       }
+    },
+    "middle_bar_revision": {
+      "number": 170,
+      "id": "saiyan-170-raditz",
+      "before_native_sha256": "1d10e2cc7e844849abcd5b4a3b23a97aea4062a97b29ef81428d7a99ed40ac23",
+      "treatment": {
+        "applies": true,
+        "villain_red": "#cc2119",
+        "hi_tech_isolated": false,
+        "clip_y": [
+          852,
+          965
+        ]
+      },
+      "native_components_outside_middle_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-170-raditz.webp",
+          "before_sha256": "bf24f8ea9001b06f7db8a0178c0e523458024c47041d8e6d57cef25f224d9a2d",
+          "after_sha256": "ee6f7a4174ae65f63e2bcfa2bc182ada9dfc0be101359986c4757df8f0019a3d",
+          "size": [
+            1060,
+            1484
+          ],
+          "old_render_matches_changed_pixels": true,
+          "old_render_rounding_pixels": 0,
+          "old_render_max_channel_difference": 0,
+          "composition": "Apply only the old/new native material pixel delta to the published image",
+          "pixels_changed": 89175,
+          "pixels_changed_outside_middle_band": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
+          "before_sha256": "ee2624327c5144fd538e3eda128e22508e6af9c6ae5bae1c0efc104616bbc050",
+          "after_sha256": "aba2f2d0cb61484d2869096e6b6302c703a6b3a8c85bfc2838d892585a0b76c1",
+          "size": [
+            2120,
+            2968
+          ],
+          "old_render_matches_changed_pixels": true,
+          "old_render_rounding_pixels": 0,
+          "old_render_max_channel_difference": 0,
+          "composition": "Apply only the old/new native material pixel delta to the published image",
+          "pixels_changed": 327086,
+          "pixels_changed_outside_middle_band": 0,
+          "lossless_round_trip": true
+        }
+      ],
+      "after_native_sha256": "8715ce82970f417987bb22aa7893277f735f3149f6bb92d8b56741ec80c97708"
     }
   }
 ]

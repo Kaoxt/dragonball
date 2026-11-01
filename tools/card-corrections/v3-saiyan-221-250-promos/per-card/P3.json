@@ -1,0 +1,290 @@
+{
+  "number": "P3",
+  "id": "saiyan-0P3-vegeta-silver-variant",
+  "name": "Vegeta",
+  "family": "VILLAIN PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P3-vegeta-silver-variant.svg",
+  "native_source_sha256": "3b55867f0cb8b32d105aaf8adc8967962462e99354495519fa5643fcdf19532d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/762c5aa842212b6a23078f92f3738b6cdd39ce883b01c8e7eece6e899f773048.png",
+      "sha256": "762c5aa842212b6a23078f92f3738b6cdd39ce883b01c8e7eece6e899f773048"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "762c5aa842212b6a23078f92f3738b6cdd39ce883b01c8e7eece6e899f773048",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Lower your opponent's Personality 3 stages, to a",
+      "baseline": 1049.3,
+      "width": 864.2620000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "minimum of 0.",
+      "baseline": 1108.3,
+      "width": 253.477,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        912.567,
+        160.009,
+        118.433,
+        38.269
+      ],
+      "power-stage-value-1": [
+        912.812,
+        224.691,
+        118.188,
+        38.269
+      ],
+      "power-stage-value-2": [
+        912.763,
+        289.373,
+        118.237,
+        38.269
+      ],
+      "power-stage-value-3": [
+        914.625,
+        354.054,
+        116.375,
+        38.269
+      ],
+      "power-stage-value-4": [
+        912.469,
+        418.736,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-5": [
+        913.253,
+        483.418,
+        117.747,
+        38.269
+      ],
+      "power-stage-value-6": [
+        913.498,
+        548.1,
+        117.502,
+        38.269
+      ],
+      "power-stage-value-7": [
+        913.449,
+        612.782,
+        117.551,
+        38.269
+      ],
+      "power-stage-value-8": [
+        915.311,
+        677.463,
+        115.689,
+        38.269
+      ],
+      "power-stage-value-9": [
+        913.155,
+        742.145,
+        117.845,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        425.484,
+        45.9196,
+        208.032,
+        66.1608
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.559,
+        33.708
+      ],
+      "rules-line-1": [
+        99.2065,
+        1013.53,
+        860.587,
+        45.913
+      ],
+      "rules-line-2": [
+        404.452,
+        1072.53,
+        250.096,
+        36.309
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-0P3-vegeta-silver-variant.webp",
+      "before_url": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=6bd33670bb28",
+      "before_sha256": "6bd33670bb2803333a8470319d1f360a107a77f0b2a2d3df7eef758644211d02",
+      "after_sha256": "ba210a19052b5a8b68963d61750e0d4a909fd5db1e98d05e67d10e87fb339e04",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp",
+      "before_url": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=5c93b094e390",
+      "before_sha256": "5c93b094e3905a3d315d1401bba815737cb22f2b026ed970c8c6a057267c2efc",
+      "after_sha256": "ddd2a81af97415529ac3d75eea82a757da2885e808ef38f766c9d857be6b20c5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 208.03241895261849,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 34.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    },
+    "villain_red": "#cc2119"
+  },
+  "power_icon": null,
+  "verified_game_data": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      0,
+      20000,
+      22000,
+      24000,
+      26000,
+      28000,
+      30000,
+      32000,
+      34000,
+      36000,
+      38000
+    ],
+    "rarity_stars": 2,
+    "category": "VILLAIN PERSONALITY"
+  }
+}

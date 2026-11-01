@@ -5,7 +5,7 @@
   "family": "VILLAIN PERSONALITY",
   "high_tech": false,
   "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-173-vegeta.svg",
-  "native_source_sha256": "d0dfd6df6f4162b3e5881e2dd740d15e32b767224a1a3a644cca91651b14c9ce",
+  "native_source_sha256": "b45db3fd100bb12765240c574c593b64cc54fe93c415c196260b115e81179976",
   "assets": [
     {
       "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -204,7 +204,7 @@
       "path": "public/assets/cards/saiyan-173-vegeta.webp",
       "before_url": "/assets/cards/saiyan-173-vegeta.webp?v=312c091509dc",
       "before_sha256": "312c091509dc1d029e3b774028e2130d161c7654405fc95232b65d7ed4e67b53",
-      "after_sha256": "f1fa8df822f2826a3f8db8008fc5ecda765ff1befbd6d354ce68d7faa59978b3",
+      "after_sha256": "9c198b868326ff2294b5e8fc8627891caa3264492aec8e139bff76b87b3cf9ac",
       "size": [
         1060,
         1484
@@ -216,7 +216,7 @@
       "path": "public/assets/cards/downloads/saiyan-173-vegeta.webp",
       "before_url": "/assets/cards/downloads/saiyan-173-vegeta.webp?v=9c4576c5f1cc",
       "before_sha256": "9c4576c5f1ccbb4d684beb8cc36b405809b30c4c3c9b0f381cbc0442c31f935f",
-      "after_sha256": "76e8263ac9af863b98e8582e0f7760226bb1a2b2399bcc721c1fc35d2b532a7c",
+      "after_sha256": "a544c190571b178424b4468e64f3eb7f40dcd6e780d97eee88f6a0c37acef3c9",
       "size": [
         2120,
         2968
@@ -259,7 +259,65 @@
       ]
     },
     "background_gain": 1.2,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 34.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
   },
-  "power_icon": null
+  "power_icon": null,
+  "middle_bar_revision": {
+    "number": 173,
+    "id": "saiyan-173-vegeta",
+    "before_native_sha256": "d0dfd6df6f4162b3e5881e2dd740d15e32b767224a1a3a644cca91651b14c9ce",
+    "treatment": {
+      "applies": true,
+      "villain_red": "#cc2119",
+      "hi_tech_isolated": false,
+      "clip_y": [
+        852,
+        965
+      ]
+    },
+    "native_components_outside_middle_unchanged": true,
+    "helper_idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/saiyan-173-vegeta.webp",
+        "before_sha256": "f1fa8df822f2826a3f8db8008fc5ecda765ff1befbd6d354ce68d7faa59978b3",
+        "after_sha256": "9c198b868326ff2294b5e8fc8627891caa3264492aec8e139bff76b87b3cf9ac",
+        "size": [
+          1060,
+          1484
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 89110,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/saiyan-173-vegeta.webp",
+        "before_sha256": "76e8263ac9af863b98e8582e0f7760226bb1a2b2399bcc721c1fc35d2b532a7c",
+        "after_sha256": "a544c190571b178424b4468e64f3eb7f40dcd6e780d97eee88f6a0c37acef3c9",
+        "size": [
+          2120,
+          2968
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 326500,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      }
+    ],
+    "after_native_sha256": "b45db3fd100bb12765240c574c593b64cc54fe93c415c196260b115e81179976"
+  }
 }

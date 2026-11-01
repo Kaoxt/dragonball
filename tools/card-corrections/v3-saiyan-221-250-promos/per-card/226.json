@@ -1,0 +1,218 @@
+{
+  "number": 226,
+  "id": "saiyan-226-t-rex-defense",
+  "name": "T-Rex Defense",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-226-t-rex-defense.svg",
+  "native_source_sha256": "307b529f2c3d6b23235c56b625f45eed99c05355707c861488bb980db4dd3f6e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7fed4af445be90a3fe3ed74fbc1cb973502e66b567c6ac312d29ead0b923a656.png",
+      "sha256": "7fed4af445be90a3fe3ed74fbc1cb973502e66b567c6ac312d29ead0b923a656"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "7fed4af445be90a3fe3ed74fbc1cb973502e66b567c6ac312d29ead0b923a656",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "When defending in Combat, stop the first",
+      "baseline": 1049.3,
+      "width": 773.784947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "unstopped attack against you. Banish after use.",
+      "baseline": 1108.3,
+      "width": 850.836,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        311.832,
+        50.2213,
+        435.337,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        64.819,
+        33.708
+      ],
+      "rules-line-1": [
+        193.422,
+        1013.53,
+        722.505,
+        45.913
+      ],
+      "rules-line-2": [
+        105.699,
+        1072.53,
+        847.602,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          143.073,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          193.422,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          143.073,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-226-t-rex-defense.webp",
+      "before_url": "/assets/cards/saiyan-226-t-rex-defense.webp?v=67107dfcd271",
+      "before_sha256": "67107dfcd271e03edbe0443092a9c3cb2a7a7b2e1d2b7e7be15b4e831f81f9b3",
+      "after_sha256": "4fcf90f659bb6c75a37835900e95a6f1adc8ef98fe7f44164400078e037b6704",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-226-t-rex-defense.webp",
+      "before_url": "/assets/cards/downloads/saiyan-226-t-rex-defense.webp?v=0dd11af79490",
+      "before_sha256": "0dd11af7949063d18de7b85a43c6a8a1b5d5b191450caf7fb2ca8dfb7e591c2b",
+      "after_sha256": "7865c69da31cdc54b80b6e7575e5c4bfe25e94d31e570824acecef5da8977104",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 435.3366583541148,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "SETUP"
+  }
+}

@@ -5,7 +5,7 @@
   "family": "HERO PERSONALITY",
   "high_tech": true,
   "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-179-goku-lvl-1-ht.svg",
-  "native_source_sha256": "aa1e66dbd365784d90283dfc561f7d12420496477341bfdb1fabd23ce7609235",
+  "native_source_sha256": "4a4b17bff15647740a5dc5aad4e068e0c620570c7bf50d61c19965c975474809",
   "assets": [
     {
       "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -211,7 +211,7 @@
       "path": "public/assets/cards/saiyan-179-goku-lvl-1-ht.webp",
       "before_url": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=726b31d2c743",
       "before_sha256": "726b31d2c743ddafd357327e8ae9d9ca50e6b16a97f9ce44ce3bfbce9d44799a",
-      "after_sha256": "2bb992200f948c376cdeb8ddcaf287439da70af8d50cdd5c91c2e9f805d1c540",
+      "after_sha256": "96825fefdb23f59bb00e1998e14c9666d253f70b1be90211974fdd732772d26b",
       "size": [
         1060,
         1484
@@ -223,7 +223,7 @@
       "path": "public/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp",
       "before_url": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=ef3bbae8d6ad",
       "before_sha256": "ef3bbae8d6ad00fcbbb8e8998aed8e0370aef4fd72d7604fae8cd818358bfb44",
-      "after_sha256": "a09154235750fcd1c50cf2913a36ed1c35099e9df36aee0ea28ecb33d0bf065f",
+      "after_sha256": "78ef13745f4fb5e43159cd059a1f9e8c4acdca179c7ac6278470df4087a76254",
       "size": [
         2120,
         2968
@@ -266,7 +266,65 @@
       ]
     },
     "background_gain": 1,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
   },
-  "power_icon": "attack"
+  "power_icon": "attack",
+  "middle_bar_revision": {
+    "number": 179,
+    "id": "saiyan-179-goku-lvl-1-ht",
+    "before_native_sha256": "aa1e66dbd365784d90283dfc561f7d12420496477341bfdb1fabd23ce7609235",
+    "treatment": {
+      "applies": true,
+      "villain_red": null,
+      "hi_tech_isolated": true,
+      "clip_y": [
+        852,
+        965
+      ]
+    },
+    "native_components_outside_middle_unchanged": true,
+    "helper_idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/saiyan-179-goku-lvl-1-ht.webp",
+        "before_sha256": "2bb992200f948c376cdeb8ddcaf287439da70af8d50cdd5c91c2e9f805d1c540",
+        "after_sha256": "96825fefdb23f59bb00e1998e14c9666d253f70b1be90211974fdd732772d26b",
+        "size": [
+          1060,
+          1484
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 19940,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp",
+        "before_sha256": "a09154235750fcd1c50cf2913a36ed1c35099e9df36aee0ea28ecb33d0bf065f",
+        "after_sha256": "78ef13745f4fb5e43159cd059a1f9e8c4acdca179c7ac6278470df4087a76254",
+        "size": [
+          2120,
+          2968
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 57282,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      }
+    ],
+    "after_native_sha256": "4a4b17bff15647740a5dc5aad4e068e0c620570c7bf50d61c19965c975474809"
+  }
 }

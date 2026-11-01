@@ -1,0 +1,212 @@
+{
+  "number": 240,
+  "id": "saiyan-240-vegetas-trick",
+  "name": "Vegeta's Trick",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-240-vegetas-trick.svg",
+  "native_source_sha256": "a5dd592b428886716147251f157912463e701546d74788c4e098b8635b3f3049",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/328fbcb061a3fcc23d415c57743df5794858fe3e4376ad91a4a9111a982bf4af.png",
+      "sha256": "328fbcb061a3fcc23d415c57743df5794858fe3e4376ad91a4a9111a982bf4af"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "328fbcb061a3fcc23d415c57743df5794858fe3e4376ad91a4a9111a982bf4af",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Reveal cards from the top of",
+      "baseline": 1049.3,
+      "width": 835.9399999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's Life Deck until you reveal a",
+      "baseline": 1108.3,
+      "width": 776.699,
+      "icon_inline": false
+    },
+    {
+      "text": "Dragon Ball. Set it aside, shuffle their Life Deck,",
+      "baseline": 1167.3,
+      "width": 844.368,
+      "icon_inline": false
+    },
+    {
+      "text": "then place that Dragon Ball at the bottom.",
+      "baseline": 1226.3,
+      "width": 739.851,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        314.241,
+        44.5,
+        430.519,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        66.886,
+        33.708
+      ],
+      "rules-line-1": [
+        112.069,
+        1012.11,
+        834.862,
+        46.305
+      ],
+      "rules-line-2": [
+        142.229,
+        1072.53,
+        774.543,
+        45.521
+      ],
+      "rules-line-3": [
+        109.214,
+        1131.53,
+        840.572,
+        45.913
+      ],
+      "rules-line-4": [
+        160.677,
+        1192.0,
+        737.646,
+        44.443
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-240-vegetas-trick.webp",
+      "before_url": "/assets/cards/saiyan-240-vegetas-trick.webp?v=95e16d09ca5c",
+      "before_sha256": "95e16d09ca5cb52bc83518c01cd3361e1ab54a68bed88ed8137d1160c0f60bc3",
+      "after_sha256": "10b8f9f77af917fc3091097ed68fae2416ee88f15cb602aa4626dd16a5b206f0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-240-vegetas-trick.webp",
+      "before_url": "/assets/cards/downloads/saiyan-240-vegetas-trick.webp?v=ad95605cfee1",
+      "before_sha256": "ad95605cfee150b344d20870437303375792b50bde49185833af787a7aebfff2",
+      "after_sha256": "1f456582056b346d0c73cf5638245aacd11905ffd012a9d7f1e5b230379e1081",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 430.5187032418953,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "verified_game_data": {
+    "rarity_stars": 5,
+    "category": "SETUP"
+  }
+}

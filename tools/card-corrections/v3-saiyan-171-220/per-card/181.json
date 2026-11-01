@@ -5,7 +5,7 @@
   "family": "HERO PERSONALITY",
   "high_tech": true,
   "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-181-gohan-lvl-1-ht.svg",
-  "native_source_sha256": "8ef8e1f960f23501c8f1ad746da301abeed220f1d95ac68adcde715323be408a",
+  "native_source_sha256": "230f1b1cfdc3e6c427d946253c995718131344e06810bdc199f4cee2c3e7133e",
   "assets": [
     {
       "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -219,7 +219,7 @@
       "path": "public/assets/cards/saiyan-181-gohan-lvl-1-ht.webp",
       "before_url": "/assets/cards/saiyan-181-gohan-lvl-1-ht.webp?v=7c9cd8ba10b5",
       "before_sha256": "7c9cd8ba10b5ed82f27a93d72bca9e36b3a1fef933fa8a4ba536e990b896d88e",
-      "after_sha256": "b9b45df7b2090a2089c9ff902ea042b18a909ebb44c7f1d1c3d08611ae488e20",
+      "after_sha256": "d25a4ce8ca820f96d10f3aaa83e039793084dabd6ab23ad03ab12a7b25f0c1e3",
       "size": [
         1060,
         1484
@@ -231,7 +231,7 @@
       "path": "public/assets/cards/downloads/saiyan-181-gohan-lvl-1-ht.webp",
       "before_url": "/assets/cards/downloads/saiyan-181-gohan-lvl-1-ht.webp?v=4b6739ff3399",
       "before_sha256": "4b6739ff3399bb65d26d81fa618358234d11f79655aed4f023de7de48578096f",
-      "after_sha256": "b4e25175e79345caae7a652dc9b371ab4154723934a855c6f1081ec0e51619de",
+      "after_sha256": "14520a1511763de745522b2b8f8e4d51a96a1767fd178f7ed51167cdcc9ddc36",
       "size": [
         2120,
         2968
@@ -274,7 +274,65 @@
       ]
     },
     "background_gain": 1,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
   },
-  "power_icon": "attack"
+  "power_icon": "attack",
+  "middle_bar_revision": {
+    "number": 181,
+    "id": "saiyan-181-gohan-lvl-1-ht",
+    "before_native_sha256": "8ef8e1f960f23501c8f1ad746da301abeed220f1d95ac68adcde715323be408a",
+    "treatment": {
+      "applies": true,
+      "villain_red": null,
+      "hi_tech_isolated": true,
+      "clip_y": [
+        852,
+        965
+      ]
+    },
+    "native_components_outside_middle_unchanged": true,
+    "helper_idempotent": true,
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/saiyan-181-gohan-lvl-1-ht.webp",
+        "before_sha256": "b9b45df7b2090a2089c9ff902ea042b18a909ebb44c7f1d1c3d08611ae488e20",
+        "after_sha256": "d25a4ce8ca820f96d10f3aaa83e039793084dabd6ab23ad03ab12a7b25f0c1e3",
+        "size": [
+          1060,
+          1484
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 20288,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/saiyan-181-gohan-lvl-1-ht.webp",
+        "before_sha256": "b4e25175e79345caae7a652dc9b371ab4154723934a855c6f1081ec0e51619de",
+        "after_sha256": "14520a1511763de745522b2b8f8e4d51a96a1767fd178f7ed51167cdcc9ddc36",
+        "size": [
+          2120,
+          2968
+        ],
+        "old_render_matches_changed_pixels": true,
+        "old_render_rounding_pixels": 0,
+        "old_render_max_channel_difference": 0,
+        "composition": "Apply only the old/new native material pixel delta to the published image",
+        "pixels_changed": 60568,
+        "pixels_changed_outside_middle_band": 0,
+        "lossless_round_trip": true
+      }
+    ],
+    "after_native_sha256": "230f1b1cfdc3e6c427d946253c995718131344e06810bdc199f4cee2c3e7133e"
+  }
 }

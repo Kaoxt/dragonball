@@ -6,16 +6,17 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {catalog} from '../public/cards/catalog.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const batches=['001-050','051-100','101-150','151-170','171-220'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
+const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
-test('all 220 V3 catalog cards have complete verified native sources and both exports',()=>{
+test('all 257 Saiyan Saga cards have complete verified V3 native sources and both exports',()=>{
  const selected=catalog.filter(c=>c.templateVersion===3);
- assert.equal(selected.length,220);assert.equal(audit.length,220);
- assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20,50]);
- assert.equal(new Set(audit.map(r=>r.id)).size,220);
- assert.deepEqual(audit.map(r=>r.number),Array.from({length:220},(_,i)=>i+1));
+ assert.equal(selected.length,257);assert.equal(audit.length,257);
+ assert.deepEqual(selected.map(c=>c.id).sort(),catalog.filter(c=>c.set==='Saiyan Saga').map(c=>c.id).sort());
+ assert.deepEqual(batches.map(batch=>batch.length),[50,50,50,20,50,37]);
+ assert.equal(new Set(audit.map(r=>r.id)).size,257);
+ assert.deepEqual(audit.map(r=>r.number),[...Array.from({length:250},(_,i)=>i+1),...Array.from({length:7},(_,i)=>`P${i+1}`)]);
  for(const c of selected){
   const row=audit.find(r=>r.id===c.id);assert.ok(row,c.id);
   const source=path.join(root,row.native_source_path);assert.equal(hash(source),row.native_source_sha256);
@@ -28,6 +29,53 @@ test('all 220 V3 catalog cards have complete verified native sources and both ex
    assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+digest.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.equal(e.lossless_round_trip,true);
   }
+ }
+});
+
+test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs and verified exports',()=>{
+ const rows=batches.at(-1),dir=path.join(root,'tools/card-corrections/v3-saiyan-221-250-promos');
+ const cards=JSON.parse(fs.readFileSync(path.join(dir,'cards.json')));
+ const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
+ const artwork=JSON.parse(fs.readFileSync(path.join(dir,'artwork-review.json')));
+ assert.equal(checks.length,37);assert.equal(artwork.length,37);
+ const donor=fs.readFileSync(path.join(root,audit.find(r=>r.number===175).native_source_path),'utf8');
+ const pathData=(svg,id)=>svg.match(new RegExp(`<[^>]*id="${id}"[^>]*>`))[0].match(/\sd="([^"]+)"/)[1];
+ const four=pathData(donor,'concept-pur-number');
+ for(const row of rows){
+  const c=cards.find(c=>c.id===row.id),check=checks.find(c=>c.number===row.number);
+  assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
+  for(const e of check.exports){assert.equal(hash(path.join(root,e.path)),e.sha256);assert.ok(e.decoded_pixels_match_render);}
+  const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);assert.equal(hash(path.join(root,a.original_scan)),a.original_scan_sha256);
+  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  assert.ok(svg.includes(`data-star-count="${c.rarity_stars}"`));
+  if(c.level===4){assert.equal(pathData(svg,'v3-level-number'),four);assert.equal(pathData(svg,'v3-level-number-soft-shadow'),four);assert.equal(pathData(svg,'concept-pur-number'),four);}
+ }
+ const rules=n=>rows.find(r=>r.number===n).rules.map(x=>x.text).join(' ');
+ assert.match(rules(228),/^\(Limit 1 per deck\.\)/);
+ assert.match(rules(234),/unless you advance or lose a Personality level/);
+ assert.match(rules(240),/shuffle their Life Deck/);assert.match(rules(241),/owners' Life Decks\. Do not use their powers/);
+ assert.match(rules(246),/more than one Saibaimen is in play:/);
+ assert.match(rules('P2'),/one after the other/);assert.match(rules('P2'),/AT stages each/);
+ for(const n of [243,244,245])assert.equal(rows.find(r=>r.number===n).native_geometry.icons.length,0);
+ for(const n of [247,'P7'])assert.equal(rows.find(r=>r.number===n).power_icon,'block');
+ assert.equal(rows.find(r=>r.number===233).artwork.expression_patch_retained,true);
+});
+
+test('scarlet Villain paint and all seven Hi-Tech bars preserve unrelated published pixels',()=>{
+ const checks=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-personality-middle-bars/pixel-checks.json')));
+ assert.equal(checks.length,16);assert.equal(checks.filter(c=>c.treatment.hi_tech_isolated).length,7);
+ let villains=0,highTech=0;
+ for(const row of audit){
+  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  if(svg.includes('aria-label="VILLAIN PERSONALITY"')){villains++;assert.match(svg,/fill="#cc2119"/);}
+  if(row.high_tech){highTech++;assert.match(svg,/id="middle-foil-isolation"/);}
+ }
+ assert.equal(villains,19);assert.equal(highTech,7);
+ for(const c of checks){
+  const row=audit.find(r=>r.id===c.id);assert.equal(c.after_native_sha256,hash(path.join(root,row.native_source_path)));
+  assert.deepEqual(row.middle_bar_revision,c);assert.ok(c.native_components_outside_middle_unchanged);assert.ok(c.helper_idempotent);
+  for(const e of c.exports){assert.equal(e.after_sha256,hash(path.join(root,e.path)));assert.equal(e.pixels_changed_outside_middle_band,0);assert.ok(e.pixels_changed>0);assert.ok(e.lossless_round_trip);assert.ok(e.old_render_max_channel_difference<=3);}
  }
 });
 test('V3 titles, category labels, footer content and icons share the approved geometry',()=>{
@@ -45,8 +93,8 @@ test('V3 titles, category labels, footer content and icons share the approved ge
 });
 
 test('V3 Personality numerals and stage digits keep their approved positions',()=>{
- const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=185));
- assert.equal(personalities.length,38);
+ const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=185)||(r.number>=243&&r.number<=246)||/^P[1-7]$/.test(r.number));
+ assert.equal(personalities.length,49);
  for(const row of personalities){
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes('id="v3-level-number"'));assert.ok(svg.includes('id="concept-pur-number"'));
@@ -130,11 +178,11 @@ test('all 170 V3 titles use complete visible-ink centering and preserve unrelate
   const f=c.fit;assert.ok(f.visible_width<=f.max_width+.00001&&f.max_width<=760);
   near(c.after_center[0],529.5,.00001);near(c.after_center[1],79,.00001);
   assert.equal(c.helper_idempotent,true);assert.equal(c.unrelated_native_elements_unchanged,true);
-  assert.equal(c.after_native_sha256,row.native_source_sha256);
+  assert.equal(c.after_native_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.native_source_sha256);
   near(f.font_size,row.current_preview_revision.title_fit.font_size,.00001);
   if(!c.needs_smaller_font)near(f.font_size,f.nominal_font_size,.00001);
   else {assert.ok(f.font_size<f.nominal_font_size);near(f.visible_width,f.max_width,.00001);}
-  for(const e of c.exports){assert.equal(hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
+  for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
   if(!c.visual_change){assert.equal(c.before_native_sha256,c.after_native_sha256);continue;}
   const p=pixels.find(p=>p.id===c.id);assert.ok(p);assert.equal(p.new_title_pixels_outside_brush_contour,0);assert.ok(p.minimum_brush_clearance_native_units>=1);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));
@@ -159,10 +207,10 @@ test('Saiyan 171–220 keeps original artwork, effect types, current restriction
  assert.equal(checks.length,50);assert.equal(artwork.length,50);
  for(const row of rows){
   const check=checks.find(c=>c.number===row.number);assert.ok(check);
-  assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.equal(check.native_source_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.native_source_sha256);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
   assert.equal(check.title_helper_idempotent,true);
-  for(const e of check.exports){assert.equal(hash(path.join(root,e.path)),e.sha256);assert.equal(e.decoded_pixels_match_render,true);}
+  for(const e of check.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? hash(path.join(root,e.path)),e.sha256);assert.equal(e.decoded_pixels_match_render,true);}
   const f=row.current_preview_revision.title_fit;assert.ok(f.visible_width<=f.max_width+.00001);
   assert.ok(f.max_width<=760);assert.ok(f.font_size<=f.nominal_font_size);
   const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);

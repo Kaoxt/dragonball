@@ -1,0 +1,355 @@
+{
+  "number": "P2",
+  "id": "saiyan-0P2-piccolo-silver-variant",
+  "name": "Piccolo",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P2-piccolo-silver-variant.svg",
+  "native_source_sha256": "3648f5667c53fc66e8216784bd2e1de6819b61e0ccaf77c3a22273fcfeddfc88",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e5556cff3be5b2fc9ee12a9268aed4397145efa0ddf16e31f6da5fda6cc7b29b.png",
+      "sha256": "e5556cff3be5b2fc9ee12a9268aed4397145efa0ddf16e31f6da5fda6cc7b29b"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "e5556cff3be5b2fc9ee12a9268aed4397145efa0ddf16e31f6da5fda6cc7b29b",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Choose 1: Energy attack costing 1 stage.",
+      "baseline": 1049.3,
+      "width": 764.5021555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 2 life cards. OR perform 2 physical",
+      "baseline": 1108.3,
+      "width": 775.1310000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks, one after the other. DAMAGE: AT stages",
+      "baseline": 1167.3,
+      "width": 852.257,
+      "icon_inline": false
+    },
+    {
+      "text": "each. OR reduce damage from a physical attack",
+      "baseline": 1226.3,
+      "width": 848.7290000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "against you by 4 stages.",
+      "baseline": 1285.3,
+      "width": 432.5230000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        921.877,
+        160.009,
+        109.123,
+        38.269
+      ],
+      "power-stage-value-1": [
+        921.191,
+        224.691,
+        109.809,
+        38.269
+      ],
+      "power-stage-value-2": [
+        928.002,
+        289.373,
+        102.998,
+        38.269
+      ],
+      "power-stage-value-3": [
+        927.316,
+        354.054,
+        103.684,
+        38.269
+      ],
+      "power-stage-value-4": [
+        919.721,
+        418.736,
+        111.279,
+        38.269
+      ],
+      "power-stage-value-5": [
+        919.035,
+        483.418,
+        111.965,
+        38.269
+      ],
+      "power-stage-value-6": [
+        935.058,
+        548.1,
+        95.942,
+        38.269
+      ],
+      "power-stage-value-7": [
+        934.372,
+        612.782,
+        96.628,
+        38.269
+      ],
+      "power-stage-value-8": [
+        935.009,
+        677.463,
+        95.991,
+        38.269
+      ],
+      "power-stage-value-9": [
+        934.323,
+        742.145,
+        96.677,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        420.881,
+        50.2213,
+        217.238,
+        57.5574
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        148.866,
+        1013.53,
+        761.268,
+        45.913
+      ],
+      "rules-line-2": [
+        143.846,
+        1072.53,
+        771.309,
+        45.521
+      ],
+      "rules-line-3": [
+        104.352,
+        1132.61,
+        850.297,
+        44.835
+      ],
+      "rules-line-4": [
+        106.385,
+        1190.53,
+        846.23,
+        45.913
+      ],
+      "rules-line-5": [
+        314.586,
+        1249.53,
+        429.828,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 8,
+        "previous_visible_bounds": [
+          325.898,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          380.493,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          325.898,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-0P2-piccolo-silver-variant.webp",
+      "before_url": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=f9814f239698",
+      "before_sha256": "f9814f239698e9df37c50e7ef683248a70ea8117128858975c4dde849eb4e061",
+      "after_sha256": "d54514a918424dac378125da98aa7c3f514e5d0b24ce6c3c13448e171bd21b50",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp",
+      "before_url": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=9e2e4a9b30db",
+      "before_sha256": "9e2e4a9b30dbd2b91a1e8cd7f28c3bb04291c3d066fa14cfbc7191530decce7d",
+      "after_sha256": "c09f6b7e711adb3ba496dd1f7143355389c8d43c224b9d7d8e625a8d2621256b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 217.23815461346638,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "verified_game_data": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      0,
+      8000,
+      8500,
+      9000,
+      9500,
+      10000,
+      10500,
+      11000,
+      11500,
+      12000,
+      12500
+    ],
+    "rarity_stars": 2,
+    "category": "HERO PERSONALITY"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "number": 247,
+  "id": "saiyan-247-gokus-truce",
+  "name": "Goku's Truce",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-247-gokus-truce.svg",
+  "native_source_sha256": "6acf7b4f723540bd580f96c2052b94c28b31bde97779f790cc69eac0dc2be1d2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/579645c8c2cb087d6a059bee65fff9e691499b5cd8a619eed131e7e274d9f0ba.png",
+      "sha256": "579645c8c2cb087d6a059bee65fff9e691499b5cd8a619eed131e7e274d9f0ba"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained modern illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "579645c8c2cb087d6a059bee65fff9e691499b5cd8a619eed131e7e274d9f0ba",
+    "source_dimensions": [
+      1505,
+      1045
+    ],
+    "mapping_matrix": [
+      0.6863787375415282,
+      0,
+      0,
+      0.6863787375415282,
+      14,
+      140.36710963455153
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stops a physical or energy attack.",
+      "baseline": 1049.3,
+      "width": 655.694947368421,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        337.9,
+        50.2213,
+        383.2,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.16,
+        53.7814,
+        54.6867
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        64.183,
+        33.708
+      ],
+      "rules-line-1": [
+        253.128,
+        1013.53,
+        603.435,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          202.437,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          253.128,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          202.437,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/saiyan-247-gokus-truce.webp",
+      "before_url": "/assets/cards/saiyan-247-gokus-truce.webp?v=d454bc3dea94",
+      "before_sha256": "d454bc3dea94a6903b127301388b4da404a5e61de13771d4c957d1d991db15fc",
+      "after_sha256": "e7f677b176fe38996cf8ef30dde216914f8faac4149ba5dbf815d4920ff66f35",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/saiyan-247-gokus-truce.webp",
+      "before_url": "/assets/cards/downloads/saiyan-247-gokus-truce.webp?v=0c04c1daae06",
+      "before_sha256": "0c04c1daae067f3a033ae79fb59574aca4b100a7f4530b239a06a224d752206a",
+      "after_sha256": "c7dfd14f512abe4cf6358932537bce90eb7aeb7abe2f649e8a05131a18321b38",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 383.19950124688285,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "verified_game_data": {
+    "rarity_stars": 6,
+    "category": "EVENT"
+  }
+}

@@ -1,0 +1,5 @@
+# Personality middle-bar revision
+
+The supplied Captain Ginyu scan is the visual color reference for the stronger scarlet Villain bar (#cc2119). All 19 V3 Villains use this paint, including seven newly migrated personalities. All seven Saiyan Hi-Tech bars now have a soft native brush-contour backing that stops colored artwork showing through the middle paint. The shared y852–965 clip, grain, distressed silhouette, labels and PUR remain intact.
+
+The localized revision covers 16 previously published cards: 170–185. Each display and full-size download was patched independently using only the difference between the old and new native middle material. This preserves small pre-existing renderer rounding differences (at most three channel levels), recorded explicitly per export. Lossless round trips and full-image comparisons confirm zero changed pixels outside y849–968, including the antialias footprint. Every unrelated native component is byte-identical. Historical title and release audits remain unchanged; current card audits link to this subsequent revision.
