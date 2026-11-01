@@ -98,7 +98,7 @@ def compose(c,retained):
   first=align_power_icon(measurement,'power-icon',f'rules-line-{iconline}');second=align_power_icon(measurement,'power-icon',f'rules-line-{iconline}');assert second['vertical_shift']==0
   replace(r,'power-icon',deepcopy(get(measurement,'power-icon')));icons=[first]
  ids=[e.get('id') for e in r.iter()if e.get('id')];assert len(ids)==len(set(ids)),n
- OUT.mkdir(exist_ok=True);svg=OUT/(c['id']+'.svg');save(r,svg);ft=footer_spacing(svg);assert not ft['logo_dx'] and not ft['ball_and_number_dx'];second=footer_spacing(svg);assert not any(second.values())
+ OUT.mkdir(exist_ok=True);svg=OUT/(c['id']+'.svg');save(r,svg);ft=footer_spacing(svg,normalize_gap=True);second=footer_spacing(svg,normalize_gap=True);assert not second['changed']
  render_dir=ROOT.parent/'renders';render_dir.mkdir(exist_ok=True);png=render_dir/(c['id']+'.png');tmp=png.with_suffix('.render.png')
  subprocess.run(['inkscape',str(svg),'--export-filename='+str(tmp),'--export-width=2120'],check=True,capture_output=True)
  im=Image.open(io.BytesIO(tmp.read_bytes())).convert('RGB');assert im.size==(2120,2968);save_image(im,png,'PNG');tmp.unlink()

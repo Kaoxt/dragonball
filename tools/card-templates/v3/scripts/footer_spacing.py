@@ -1,52 +1,54 @@
-"""Inset native footer groups and match the supplied four-star rarity reference."""
+"""Center V3 footer side groups without resizing, redrawing or changing stars."""
 from pathlib import Path
 from lxml import etree as E
-import argparse, subprocess, json
+import argparse, json, subprocess
 
-GAP = 96.0
-FOUR_STAR_OFFSETS = [(-.40,-.22),(.20,-.22),(-.14,.22),(.46,.22)]
+SAGA_CENTER_X = 211.75
+RIGHT_GROUP_CENTER_X = 847.25
+REVISION = 'mirrored-side-group-centers-v1'
+TOLERANCE = .002
+
 
 def bounds(path):
-    out=subprocess.check_output(['inkscape',str(path),'--query-all'],text=True,stderr=subprocess.DEVNULL)
-    return {a[0]:list(map(float,a[1:])) for line in out.splitlines() if len(a:=line.split(','))==5}
+    out = subprocess.check_output(['inkscape', str(path), '--query-all'], text=True, stderr=subprocess.DEVNULL)
+    return {v[0]: list(map(float, v[1:])) for line in out.splitlines() if len(v := line.split(',')) == 5}
 
-def shift(el,dx):
-    if not dx:return
-    el.set('transform',f'translate({dx} 0) '+el.get('transform',''))
 
-def change(source,destination=None):
-    source=Path(source);destination=Path(destination or source)
-    tree=E.parse(str(source));root=tree.getroot();b=bounds(source)
-    def get(id):return root.xpath('//*[@id=$id]',id=id)[0]
-    disclaimer=b['footer-disclaimer'];logo=b['saga-emblem'];ball=b['footer-rarity']
-    def snap(delta):return 0 if abs(delta)<=.55 else round(delta)
-    logo_dx=snap(disclaimer[0]-GAP-logo[0]-logo[2])
-    right_dx=snap(disclaimer[0]+disclaimer[2]+GAP-ball[0])
-    shift(get('saga-emblem'),logo_dx)
-    shift(get('footer-rarity'),right_dx)
-    shift(get('card-number'),right_dx)
-    rarity=get('footer-rarity')
-    stars=rarity.xpath('./*[local-name()="polygon" and starts-with(@id,"rarity-star-")]')
-    stars_changed=False
-    if len(stars)==4 and rarity.get('data-four-star-layout')!='goku-179-reference-offset-rows':
-        circle=rarity.xpath('./*[local-name()="circle"]')[0]
-        cx,cy,r=map(float,[circle.get('cx'),circle.get('cy'),circle.get('r')])
-        for star,(ox,oy) in zip(stars,FOUR_STAR_OFFSETS):
-            points=[tuple(map(float,p.split(','))) for p in star.get('points').split()]
-            oldcx=sum(x for x,y in points)/len(points);oldcy=sum(y for x,y in points)/len(points)
-            dx=cx+ox*r-oldcx;dy=cy+oy*r-oldcy
-            star.set('transform',f'translate({dx:.6f} {dy:.6f})')
-        rarity.set('data-four-star-layout','goku-179-reference-offset-rows')
-        stars_changed=True
-    root.set('data-footer-inner-gap','96')
-    if logo_dx or right_dx:
-        # These centers describe global visible geometry, not the local star frame.
-        rarity.set('data-visible-center',f'{ball[0]+ball[2]/2+right_dx:.6f} {ball[1]+ball[3]/2:.6f}')
-        n=b['card-number'];get('card-number').set('data-visible-center',f'{n[0]+n[2]/2+right_dx:.6f} {n[1]+n[3]/2:.6f}')
-    destination.parent.mkdir(parents=True,exist_ok=True)
-    tree.write(str(destination),encoding='utf-8',xml_declaration=True)
-    return {'logo_dx':logo_dx,'ball_and_number_dx':right_dx,'four_star_layout_changed':stars_changed}
+def change(source, destination=None, normalize_gap=False):
+    source = Path(source)
+    destination = Path(destination or source)
+    tree = E.parse(str(source)); root = tree.getroot(); measured = bounds(source)
+    logo, ball, number = (measured[k] for k in ['saga-emblem', 'footer-rarity', 'card-number'])
+    gap_dx = ball[0] + ball[2] + 12.2 - number[0] if normalize_gap else 0
+    gap_dx = 0 if abs(gap_dx) <= TOLERANCE else round(gap_dx, 6)
+    left = min(ball[0], number[0] + gap_dx); right = max(ball[0] + ball[2], number[0] + gap_dx + number[2])
+    logo_dx = SAGA_CENTER_X - logo[0] - logo[2] / 2
+    right_dx = RIGHT_GROUP_CENTER_X - (left + right) / 2
+    logo_dx = 0 if abs(logo_dx) <= TOLERANCE else round(logo_dx, 6)
+    right_dx = 0 if abs(right_dx) <= TOLERANCE else round(right_dx, 6)
+    metadata_changed = root.get('data-footer-layout') != REVISION or 'data-footer-inner-gap' in root.attrib
+    for id, dx in [('saga-emblem', logo_dx), ('footer-rarity', right_dx), ('card-number', right_dx + gap_dx)]:
+        if not dx: continue
+        el = root.xpath('//*[@id=$id]', id=id)[0]
+        el.set('transform', f'translate({dx:.6f} 0) ' + el.get('transform', ''))
+        x, y, w, h = measured[id]
+        el.set('data-visible-center', f'{x + w/2 + dx:.6f} {y + h/2:.6f}')
+    root.attrib.pop('data-footer-inner-gap', None)
+    root.set('data-footer-layout', REVISION)
+    root.set('data-footer-saga-center-x', str(SAGA_CENTER_X))
+    root.set('data-footer-right-group-center-x', str(RIGHT_GROUP_CENTER_X))
+    changed = bool(logo_dx or right_dx or gap_dx or metadata_changed)
+    if changed or source != destination:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        tree.write(str(destination), encoding='utf-8', xml_declaration=True)
+    return {'revision': REVISION, 'logo_dx': logo_dx, 'ball_and_number_dx': right_dx,
+            'changed': changed, 'saga_center_x': SAGA_CENTER_X,
+            'right_group_center_x': RIGHT_GROUP_CENTER_X,
+            'number_gap_dx': gap_dx,
+            'ball_number_gap': number[0] + gap_dx - ball[0] - ball[2]}
 
-if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('source');p.add_argument('destination',nargs='?');a=p.parse_args()
-    print(json.dumps(change(a.source,a.destination)))
+
+if __name__ == '__main__':
+    p = argparse.ArgumentParser(description=__doc__); p.add_argument('source'); p.add_argument('destination', nargs='?')
+    p.add_argument('--normalize-gap', action='store_true', help='Set the standard 12.2-unit gap after replacing a number during new-card composition; omit for localized spacing repairs.')
+    a = p.parse_args(); print(json.dumps(change(a.source, a.destination, normalize_gap=a.normalize_gap)))

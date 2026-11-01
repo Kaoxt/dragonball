@@ -1,5 +1,11 @@
 # Dragon Ball OCG Master Templates V3
 
+## Current footer spacing — November 1
+
+Use `scripts/footer_spacing.py` after footer data is complete. Center the visible set logo at x211.75 and the complete visible rarity-ball-plus-number group at x847.25, mirrored around the fixed endorsement center x529.5. Measure the ball and number together, including visible stroke; move them by the same horizontal amount. Do not anchor the number at x880 or the ball at x844. Preserve the existing 12.2-unit ball-to-number gap, all sizes, vertical positions, star layouts, brush material, title, artwork and rules. For new-card composition after replacing a number or rarity group, pass `--normalize-gap` to restore the standard gap before centering; omit it for a spacing-only repair of existing cards. Require an unchanged second run. This applies to every V3 family: Combat, Personality, Hi-Tech, Dragon Ball, Mastery, Sensei, Location/Battleground, Setup, Event, Drill, Ally, Freestyle and future types. It does not approve an otherwise unfinished family layout. Patch existing display and download images independently, and require zero changed pixels outside the old/new footer ink and antialias footprints.
+
+Saiyan Saga 001–050 have this footer-only patch; later Saiyan cards and other sets retain their published spacing until separately requested. Evidence is in `../../card-corrections/v3-saiyan-001-050-footer-centering/`.
+
 ## Current Tokui Waza backing — November 1
 
 The current brighter V3 refresh covers Saiyan 001–170, including the newly migrated cards 151–170. Its 142 Tokui Waza cards use the reviewed soft charcoal backing; Dragon Balls 015–016 have no Tokui badge; Dragon Ball and Personality families are exempt. The native logo stays crisp and unchanged above a 90% charcoal silhouette (`#11171b`, 16-unit stroke, 4-unit Gaussian blur in the symbol coordinate system). The backing fills the Freestyle logo's counters and softly obscures the brush end without an opaque rectangular patch or circular badge.
@@ -26,7 +32,7 @@ The second batch includes 6 Personalities, 3 Dragon Balls and 41 Combat/Setup/Ev
 
 ## Saiyan 101–150 release
 
-The third batch contains 4 Personalities, 3 Setups, 4 Events, 12 Combat cards and 27 Drills. Native sources are in `saiyan-101-150/`; original scans, current Expanded CRD text, per-card visual notes, localized edge corrections and measured export evidence are in `../../card-corrections/v3-saiyan-101-150/`. #105 retains banishment as an attack cost. Full-height Personality artwork is centered left of the stage column using background continuation; native retained image layers protect the approved faces, poses and costumes. Cards with continuous damage reduction use infinity, while actual attack blocks use the shield. Three-digit footer numbers retain the shared left edge.
+The third batch contains 4 Personalities, 3 Setups, 4 Events, 12 Combat cards and 27 Drills. Native sources are in `saiyan-101-150/`; original scans, current Expanded CRD text, per-card visual notes, localized edge corrections and measured export evidence are in `../../card-corrections/v3-saiyan-101-150/`. #105 retains banishment as an attack cost. Full-height Personality artwork is centered left of the stage column using background continuation; native retained image layers protect the approved faces, poses and costumes. Cards with continuous damage reduction use infinity, while actual attack blocks use the shield. That release used a shared number left edge; the current November 1 footer standard supersedes it for future composition.
 
 ## Saiyan 001–010 brighter-background refresh — October 31
 

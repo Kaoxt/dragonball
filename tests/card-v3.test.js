@@ -10,6 +10,34 @@ const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos
 const audit=batches.flat();
 const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
+test('Saiyan 1–50 footer centering retains every unrelated pixel in both exports',()=>{
+ const dir=path.join(root,'tools/card-corrections/v3-saiyan-001-050-footer-centering');
+ const release=JSON.parse(fs.readFileSync(path.join(dir,'release.json')));
+ const checks=JSON.parse(fs.readFileSync(path.join(dir,'pixel-checks.json')));
+ assert.equal(release.cards,50);assert.equal(release.independently_verified_exports,100);
+ assert.equal(release.pixels_changed_outside_footer_ink_footprint,0);
+ assert.deepEqual(checks.map(c=>c.number),Array.from({length:50},(_,i)=>i+1));
+ assert.equal(audit.filter(r=>r.footer_spacing_revision).length,50);
+ for(const c of checks){
+  const row=audit.find(r=>r.id===c.id),card=catalog.find(r=>r.id===c.id);
+  assert.deepEqual(row.footer_spacing_revision,c);assert.ok(c.helper_idempotent&&c.unrelated_native_elements_unchanged);
+  near(c.saga_center_x,211.75,.002);near(c.right_group_center_x,847.25,.002);
+  assert.equal(hash(path.join(root,c.native_source_path)),c.after_native_sha256);
+  assert.equal(row.native_source_sha256,c.after_native_sha256);
+  for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256);
+  const svg=fs.readFileSync(path.join(root,c.native_source_path),'utf8');
+  assert.match(svg,/data-footer-layout="mirrored-side-group-centers-v1"/);
+  for(const e of c.exports){
+   assert.equal(hash(path.join(root,e.path)),e.after_sha256);
+   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.ok(e.changed_pixels>0&&e.lossless_round_trip);
+   assert.equal(e.pixels_changed_outside_footer_ink_footprint,0);assert.equal(e.pixels_changed_above_footer,0);
+   assert.ok(e.old_render_max_channel_difference<=3);
+   const scale=e.field==='image'?1:2;
+   assert.ok(e.changed_pixel_bounds[1]>=1380*scale&&e.changed_pixel_bounds[3]<=1440*scale);
+  }
+ }
+});
 test('Frieza 1–10 retain their rules and artwork fixes with a centered native footer emblem',()=>{
  const dir=path.join(root,'tools/card-corrections/v3-frieza-001-010');
  const rows=JSON.parse(fs.readFileSync(path.join(dir,'audit.json')));
@@ -115,10 +143,14 @@ test('scarlet Villain paint and all seven Hi-Tech bars preserve unrelated publis
 test('V3 titles, category labels, footer content and icons share the approved geometry',()=>{
  for(const row of audit){
   const v=row.native_geometry;assert.equal(v.native_outlined_text,true);
-  for(const [id,x,y] of [['card-title',529.5,79],['card-category',529.5,908.5],['footer-text-block',529.5,1409.5],['saga-emblem',211.75,1409.5],['footer-rarity',844,1409.5]]){
+  for(const [id,x,y] of [['card-title',529.5,79],['card-category',529.5,908.5],['footer-text-block',529.5,1409.5],['saga-emblem',211.75,1409.5]]){
    const [bx,by,w,h]=v.bounds[id];near(bx+w/2,x);near(by+h/2,y);
   }
-  const num=v.bounds['card-number'];near(num[0],880);near(num[1]+num[3]/2,1409.5);
+  const num=v.bounds['card-number'],ball=v.bounds['footer-rarity'];near(num[1]+num[3]/2,1409.5);near(ball[1]+ball[3]/2,1409.5);
+  if(row.footer_spacing_revision){
+   near((Math.min(ball[0],num[0])+Math.max(ball[0]+ball[2],num[0]+num[2]))/2,847.25,.002);
+   near(num[0]-ball[0]-ball[2],12.2,.002);
+  }else{near(num[0],880);near(ball[0]+ball[2]/2,844);}
   assert.ok(v.icons.length<=1);
   for(const icon of v.icons){near(icon.center_error,0,.01);near(icon.new_visible_bounds[3],row.power_icon_revision==='approved-bold-infinity-colon-v16'?19.29375:34.3,.1);}
   for(const [id,b] of Object.entries(v.bounds))if(id.startsWith('rules-line-'))assert.ok(b[1]>=1000&&b[1]+b[3]<1310);
@@ -212,11 +244,11 @@ test('all 170 V3 titles use complete visible-ink centering and preserve unrelate
   const f=c.fit;assert.ok(f.visible_width<=f.max_width+.00001&&f.max_width<=760);
   near(c.after_center[0],529.5,.00001);near(c.after_center[1],79,.00001);
   assert.equal(c.helper_idempotent,true);assert.equal(c.unrelated_native_elements_unchanged,true);
-  assert.equal(c.after_native_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(c.after_native_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
   near(f.font_size,row.current_preview_revision.title_fit.font_size,.00001);
   if(!c.needs_smaller_font)near(f.font_size,f.nominal_font_size,.00001);
   else {assert.ok(f.font_size<f.nominal_font_size);near(f.visible_width,f.max_width,.00001);}
-  for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
+  for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
   if(!c.visual_change){assert.equal(c.before_native_sha256,c.after_native_sha256);continue;}
   const p=pixels.find(p=>p.id===c.id);assert.ok(p);assert.equal(p.new_title_pixels_outside_brush_contour,0);assert.ok(p.minimum_brush_clearance_native_units>=1);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));

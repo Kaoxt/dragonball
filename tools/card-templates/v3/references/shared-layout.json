@@ -51,22 +51,23 @@
         1060
       ]
     ],
-    "inner_clearance_target": 96,
-    "actual_inner_clearance": {
-      "left": 95.6596,
-      "right": 95.5
-    },
     "saga_center": [
       211.75,
       1409.5
     ],
-    "rarity_center": [
-      844,
+    "ball_number_gap": 12.2,
+    "four_star_layout": "Two offset rows per Goku #179 user reference; individual stars remain upright.",
+    "spacing_revision": "mirrored-side-group-centers-v1",
+    "right_group_center": [
+      847.25,
       1409.5
     ],
-    "card_number_left": 880,
-    "ball_number_gap": 12.2,
-    "four_star_layout": "Two offset rows per Goku #179 user reference; individual stars remain upright."
+    "right_group_members": [
+      "footer-rarity",
+      "card-number"
+    ],
+    "number_width": "Measure actual visible ink; center the complete right group for any digit count.",
+    "scope": "All V3 card families; preserve unfinished family-layout status."
   },
   "rules": {
     "outer_path": "M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z",

@@ -23,6 +23,7 @@ from power_icons import icon,width_at_height
 from align_power_icon import align_power_icon
 from tokui_backing import apply as apply_tokui_backing
 from title_fit_v3 import apply as apply_title_fit
+from footer_spacing import change as footer_spacing
 S='http://www.w3.org/2000/svg';X='http://www.w3.org/1999/xlink'
 OUT=P/'saiyan-051-100';ASSETS=P/'assets';EVID=ROOT/'tools/card-corrections/v3-saiyan-051-100'
 FONT=TTFont(P/'fonts/BarlowCondensed-Bold.ttf');GS=FONT.getGlyphSet();CM=FONT.getBestCmap();SC=49/FONT['head'].unitsPerEm
@@ -204,6 +205,7 @@ def compose(c,retained):
   replace(r,'power-icon',deepcopy(get(measurement,'power-icon')));ir=[first]
  ids=[e.get('id') for e in r.iter() if e.get('id')];assert len(ids)==len(set(ids)),n
  svg=OUT/(c['id']+'.svg');save(r,svg)
+ footer_spacing(svg,normalize_gap=True);assert not footer_spacing(svg,normalize_gap=True)['changed']
  work=ROOT.parent/'next50-renders';work.mkdir(exist_ok=True);png=work/(c['id']+'.png')
  render=png.with_name(png.stem+'.render.png')
  subprocess.run(['inkscape',str(svg),'--export-filename='+str(render),'--export-width=2120'],check=True,capture_output=True)
