@@ -24,6 +24,9 @@ from align_power_icon import align_power_icon
 from tokui_backing import apply as apply_tokui_backing
 from title_fit_v3 import apply as apply_title_fit
 from footer_spacing import change as footer_spacing
+from text_layout_v3 import validate as validate_text_layout
+from middle_label_v3 import apply as fixed_middle_label
+from personality_corners_v3 import apply as personality_corners
 S='http://www.w3.org/2000/svg';X='http://www.w3.org/1999/xlink'
 OUT=P/'saiyan-101-150';ASSETS=P/'assets';EVID=ROOT/'tools/card-corrections/v3-saiyan-101-150'
 FONT=TTFont(P/'fonts/BarlowCondensed-Bold.ttf');GS=FONT.getGlyphSet();CM=FONT.getBestCmap();SC=49/FONT['head'].unitsPerEm
@@ -197,6 +200,7 @@ def compose(c,retained):
    original=deepcopy(get(old,'black-style-symbol'));original.set('id','black-tokui-waza-outline');outline=deepcopy(original);outline.set('stroke','#080b0d');outline.set('stroke-width','13');original.set('id','black-tokui-waza-paint')
    group=elem('g',id='tokui-waza-symbol',data_style='Black',transform='translate(100 908.5) scale(1.35) translate(-100 -1006)');group.append(outline);group.append(original);replace(r,'tokui-waza-symbol',group)
  apply_tokui_backing(r)
+ fixed_middle_label(r);personality_corners(r)
  reports,iconline=rules(r,c);assets=assetize(r);OUT.mkdir(exist_ok=True)
  # Measurement must resolve shared raster dependencies even from the helper's temp directory.
  measurement=deepcopy(r)
@@ -224,6 +228,7 @@ def compose(c,retained):
  for line in query.stdout.splitlines():
   a=line.split(',')
   if len(a)==5 and (a[0] in ['card-title','card-category','footer-text-block','saga-emblem','footer-rarity','card-number'] or a[0].startswith(('rules-line-','power-stage-value-'))):bounds[a[0]]=list(map(float,a[1:]))
+ validate_text_layout(E.parse(str(svg)).getroot(),bounds)
  row={'number':n,'id':c['id'],'name':c['name'],'native_source_path':str(svg.relative_to(ROOT)),'native_source_sha256':digest(svg),'assets':assets,'artwork':ar,'rules':reports,'native_geometry':{'native_outlined_text':True,'bounds':bounds,'icons':ir},'exports':exports}
  (EVID/'per-card').mkdir(exist_ok=True);(EVID/'per-card'/f'{n:03}.json').write_text(json.dumps(row,indent=2)+'\n');print(f'Completed {n:03} {c["name"]}',flush=True)
  return row

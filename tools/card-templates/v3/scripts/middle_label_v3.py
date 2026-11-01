@@ -1,5 +1,8 @@
 """Original Michroma V3 middle labels with V2's four-unit letter spacing."""
 from pathlib import Path
+import json
+from copy import deepcopy
+from lxml import etree as E
 from fontTools.ttLib import TTFont
 from fontTools.pens.boundsPen import BoundsPen
 from text_v3 import text
@@ -8,7 +11,7 @@ FONT = Path(__file__).resolve().parent.parent/'fonts/Michroma-Regular.ttf'
 SIZE, WIDTH_FACTOR, STROKE, TRACKING = 38.4, .956, 4.21875, 4.0
 CX, CY = 529.5, 908.5
 
-def label(value):
+def _outline_label(value):
     value = value.upper()
     f = TTFont(FONT)
     gs, cmap = f.getGlyphSet(), f.getBestCmap()
@@ -39,6 +42,19 @@ def label(value):
     return group, {'label':value,'font':'Michroma','font_size':SIZE,'tracking':TRACKING,
                    'width_factor':WIDTH_FACTOR,'stroke':STROKE,
                    'visible_center':[CX,CY],'visible_size':[width,height]}
+
+def label(value):
+    """Reuse the retained native text component at its fixed V3 coordinates."""
+    value = value.upper()
+    folder = Path(__file__).resolve().parent.parent / 'assets/text/categories'
+    manifest = json.loads((folder / 'manifest.json').read_text())
+    if value not in manifest:
+        raise ValueError(f'Create and review a fixed V3 text SVG for {value!r} first')
+    spec = manifest[value]
+    root = E.parse(str(folder / spec['file'])).getroot()
+    group = root.xpath('//*[@id="card-category"]')[0]
+    return deepcopy(group), dict(spec['geometry'])
+
 
 def apply(root):
     old = root.xpath('//*[@id="card-category"]')[0]

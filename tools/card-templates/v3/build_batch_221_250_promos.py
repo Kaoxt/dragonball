@@ -24,6 +24,7 @@ from personality_middle_v3 import apply as personality_middle
 from tokui_backing import apply as tokui_backing
 from align_power_icon import align_power_icon
 from footer_spacing import change as footer_spacing
+from text_layout_v3 import validate as validate_text_layout
 S='http://www.w3.org/2000/svg'; X='http://www.w3.org/1999/xlink'
 OUT=P/'saiyan-221-250-promos'; EVID=ROOT/'tools/card-corrections/v3-saiyan-221-250-promos'
 shared.OUT=OUT; shared.EVID=EVID
@@ -130,6 +131,7 @@ def compose(c,retained):
  for line in query.stdout.splitlines():
   a=line.split(',')
   if len(a)==5 and (a[0] in ['card-title','card-category','footer-text-block','saga-emblem','footer-rarity','card-number','v3-level-number','concept-pur-number'] or a[0].startswith(('rules-line-','power-stage-value-'))):bounds[a[0]]=list(map(float,a[1:]))
+ validate_text_layout(E.parse(str(svg)).getroot(),bounds)
  row={'number':n,'id':c['id'],'name':c['name'],'family':c['category'],'high_tech':c.get('high_tech',False),'native_source_path':str(svg.relative_to(ROOT)),'native_source_sha256':digest(svg),'assets':assets,'artwork':ar,'rules':reports,'native_geometry':{'native_outlined_text':True,'bounds':bounds,'icons':icons},'exports':exports,'tokui_waza_backing':{'applies':not(mp or db),'all_styles':not(mp or db),'report':tok},'current_preview_revision':{'title_fit':fit,'middle_label':mid,'background_gain':1 if c.get('high_tech') else 1.2,'footer_idempotent':True},'power_icon':c.get('power_icon')}
  if c.get('power_icon')=='constant':row['power_icon_revision']='approved-bold-infinity-colon-v16'
  (EVID/'per-card'/f'{n}.json').write_text(json.dumps(row,indent=2)+'\n');print(f'Completed {n}: {c["name"]}',flush=True)

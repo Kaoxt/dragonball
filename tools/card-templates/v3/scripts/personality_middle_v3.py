@@ -5,6 +5,7 @@ lettering, PUR, artwork, and the shared middle clip remain untouched.
 """
 from copy import deepcopy
 from lxml import etree as E
+from personality_corners_v3 import apply as apply_corners
 
 S = '{http://www.w3.org/2000/svg}'
 RED = '#cc2119'
@@ -16,6 +17,7 @@ def apply(root, high_tech=False):
     if 'PERSONALITY' not in category:
         return {'applies': False}
     villain = category.startswith('VILLAIN')
+    apply_corners(root)
     if villain:
         root.xpath('//*[@id="shared-category-material"]')[0].find(S+'rect').set('fill', RED)
         root.xpath('//*[@id="worn-blue-material-shading"]/*')[0].set('values', NEUTRAL_GRAIN)

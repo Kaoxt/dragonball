@@ -80,3 +80,5 @@ Use `scripts/clean_brush_alpha.py` for an older master lacking these contours; r
 ## Current Personality middle bars — November 1
 
 Use `scripts/personality_middle_v3.py`. Villain paint is scarlet `#cc2119` with neutral grain. For Hi-Tech only, the user requested removal of the colorful artwork showing through the middle bar: add the helper’s soft native brush silhouette beneath the paint, inheriting the y852–965 clip. This replaces the earlier no-backing rule for this specific middle layer. Keep the distressed outline, all text/PUR paths, and every unrelated pixel unchanged. Retain the original transparency treatment elsewhere.
+
+Read `fixed-native-text-and-villain-corners.md` for the current fixed SVG labels and permanent red Villain corner treatment.

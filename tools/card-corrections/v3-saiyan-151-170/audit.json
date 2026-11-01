@@ -6148,7 +6148,7 @@
     "id": "saiyan-170-raditz",
     "name": "Raditz",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
-    "native_source_sha256": "8715ce82970f417987bb22aa7893277f735f3149f6bb92d8b56741ec80c97708",
+    "native_source_sha256": "8efec5cfc242547e0a8fd21498eb6c03d7f2607ef2cdfa465086d1305b377399",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -6338,7 +6338,7 @@
         "path": "public/assets/cards/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/saiyan-170-raditz.webp?v=d31de309fea4",
         "before_sha256": "d31de309fea4535d92df6551ca0caaedc2e819ba45e4d1ebd3becc7c9cfa670c",
-        "after_sha256": "ee6f7a4174ae65f63e2bcfa2bc182ada9dfc0be101359986c4757df8f0019a3d",
+        "after_sha256": "890bc94d2a8041b9953341e14425c46fb6ca86932e09f7693bd6c85a9469403a",
         "size": [
           1060,
           1484
@@ -6350,7 +6350,7 @@
         "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/downloads/saiyan-170-raditz.webp?v=3c8ed062cc83",
         "before_sha256": "3c8ed062cc83a707a78eb9b8dcfb3b4f66780e7b63f7978de925e0eecf6b9b61",
-        "after_sha256": "aba2f2d0cb61484d2869096e6b6302c703a6b3a8c85bfc2838d892585a0b76c1",
+        "after_sha256": "8886d4487d3354ad1dc3480fd2edb3b2fe7796d4c39e1c73dd534a500a5fd397",
         "size": [
           2120,
           2968
@@ -6502,6 +6502,68 @@
         }
       ],
       "after_native_sha256": "8715ce82970f417987bb22aa7893277f735f3149f6bb92d8b56741ec80c97708"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-170-raditz",
+      "number": 170,
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
+      "before_native_sha256": "8715ce82970f417987bb22aa7893277f735f3149f6bb92d8b56741ec80c97708",
+      "after_native_sha256": "8efec5cfc242547e0a8fd21498eb6c03d7f2607ef2cdfa465086d1305b377399",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-170-raditz.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ee6f7a4174ae65f63e2bcfa2bc182ada9dfc0be101359986c4757df8f0019a3d",
+          "after_sha256": "890bc94d2a8041b9953341e14425c46fb6ca86932e09f7693bd6c85a9469403a",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "aba2f2d0cb61484d2869096e6b6302c703a6b3a8c85bfc2838d892585a0b76c1",
+          "after_sha256": "8886d4487d3354ad1dc3480fd2edb3b2fe7796d4c39e1c73dd534a500a5fd397",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   }
 ]

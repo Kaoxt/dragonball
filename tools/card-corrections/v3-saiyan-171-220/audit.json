@@ -6,7 +6,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-171-raditz.svg",
-    "native_source_sha256": "512475af6c17add95a1fef08a2ceb7beaeaf782d59d1ba9b49c97aa31441209a",
+    "native_source_sha256": "1af97c926334028f6a4533ce55c35ca1d2d750261873be772e425cc6873648f4",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -235,7 +235,7 @@
         "path": "public/assets/cards/saiyan-171-raditz.webp",
         "before_url": "/assets/cards/saiyan-171-raditz.webp?v=942c63acde89",
         "before_sha256": "942c63acde89494b838458c920acf552239aafaae4b214246314a51fe37d02d0",
-        "after_sha256": "be6961b25c1716c30edf4ef1d6202c54ed5727a726ff7c4d95c9965d5a654b4b",
+        "after_sha256": "c0fa0bfdca7b6ff3ea1151f60cd0ef17a783dda4f72d03f53532d263b3f928a2",
         "size": [
           1060,
           1484
@@ -247,7 +247,7 @@
         "path": "public/assets/cards/downloads/saiyan-171-raditz.webp",
         "before_url": "/assets/cards/downloads/saiyan-171-raditz.webp?v=b3f5e6c325d6",
         "before_sha256": "b3f5e6c325d6787a6d0f3b75fb71e2247c8185236b4908d954a0d6d7e95159f9",
-        "after_sha256": "8ba58a728730af8f2416e76d21f212711c733c75404d75dc260e3dc9cf21395a",
+        "after_sha256": "777e5b97bdcc232661fe6b553f62f4daf3052933c4463f093ef3cc612cd215d1",
         "size": [
           2120,
           2968
@@ -350,6 +350,68 @@
         }
       ],
       "after_native_sha256": "512475af6c17add95a1fef08a2ceb7beaeaf782d59d1ba9b49c97aa31441209a"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-171-raditz",
+      "number": 171,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-171-raditz.svg",
+      "before_native_sha256": "512475af6c17add95a1fef08a2ceb7beaeaf782d59d1ba9b49c97aa31441209a",
+      "after_native_sha256": "1af97c926334028f6a4533ce55c35ca1d2d750261873be772e425cc6873648f4",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-171-raditz.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "be6961b25c1716c30edf4ef1d6202c54ed5727a726ff7c4d95c9965d5a654b4b",
+          "after_sha256": "c0fa0bfdca7b6ff3ea1151f60cd0ef17a783dda4f72d03f53532d263b3f928a2",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-171-raditz.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "8ba58a728730af8f2416e76d21f212711c733c75404d75dc260e3dc9cf21395a",
+          "after_sha256": "777e5b97bdcc232661fe6b553f62f4daf3052933c4463f093ef3cc612cd215d1",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -359,7 +421,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-172-raditz.svg",
-    "native_source_sha256": "38253cb315f258d9ab65808e2f4d3e581729e046708b90419fe705fc2bea9a1b",
+    "native_source_sha256": "62df9a30ac9fb5ca893bf2f75de12028826199656839da550d1c2133f9d4c004",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -600,7 +662,7 @@
         "path": "public/assets/cards/saiyan-172-raditz.webp",
         "before_url": "/assets/cards/saiyan-172-raditz.webp?v=d1220312d5a1",
         "before_sha256": "d1220312d5a16ba2f8cc041e840b16a3533dca26d126cae047f46d6bc427483c",
-        "after_sha256": "1859f78d9edfb20c5ea5013d6566292fe4e5b03692f1eb149421a7fb587eb35c",
+        "after_sha256": "347baa793e0ab8bced2af827a1974bddb6048ffa16656301590ec485ba6ff882",
         "size": [
           1060,
           1484
@@ -612,7 +674,7 @@
         "path": "public/assets/cards/downloads/saiyan-172-raditz.webp",
         "before_url": "/assets/cards/downloads/saiyan-172-raditz.webp?v=7d575ccc6e69",
         "before_sha256": "7d575ccc6e6922566456dcf8d49a84eb1075e27f1f2899d515e494b1a082aa57",
-        "after_sha256": "a9a7c66a5a025309aeb327896db9f600df22f73548a1ef821c6a0826fab83ee4",
+        "after_sha256": "909e0da44f61875b575c0a79415773bcc5e2eecd8883cc0e6c93302732adf5dc",
         "size": [
           2120,
           2968
@@ -715,6 +777,68 @@
         }
       ],
       "after_native_sha256": "38253cb315f258d9ab65808e2f4d3e581729e046708b90419fe705fc2bea9a1b"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-172-raditz",
+      "number": 172,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-172-raditz.svg",
+      "before_native_sha256": "38253cb315f258d9ab65808e2f4d3e581729e046708b90419fe705fc2bea9a1b",
+      "after_native_sha256": "62df9a30ac9fb5ca893bf2f75de12028826199656839da550d1c2133f9d4c004",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-172-raditz.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1859f78d9edfb20c5ea5013d6566292fe4e5b03692f1eb149421a7fb587eb35c",
+          "after_sha256": "347baa793e0ab8bced2af827a1974bddb6048ffa16656301590ec485ba6ff882",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-172-raditz.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a9a7c66a5a025309aeb327896db9f600df22f73548a1ef821c6a0826fab83ee4",
+          "after_sha256": "909e0da44f61875b575c0a79415773bcc5e2eecd8883cc0e6c93302732adf5dc",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -724,7 +848,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-173-vegeta.svg",
-    "native_source_sha256": "b45db3fd100bb12765240c574c593b64cc54fe93c415c196260b115e81179976",
+    "native_source_sha256": "e88afe66a4c91592b992b191b676baf82e33957e4715c4d5a2b00e134072e4d7",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -923,7 +1047,7 @@
         "path": "public/assets/cards/saiyan-173-vegeta.webp",
         "before_url": "/assets/cards/saiyan-173-vegeta.webp?v=312c091509dc",
         "before_sha256": "312c091509dc1d029e3b774028e2130d161c7654405fc95232b65d7ed4e67b53",
-        "after_sha256": "9c198b868326ff2294b5e8fc8627891caa3264492aec8e139bff76b87b3cf9ac",
+        "after_sha256": "14df8452f334d7b09a8db695a1b2fa959d2f67919a984940517a652fa10c9626",
         "size": [
           1060,
           1484
@@ -935,7 +1059,7 @@
         "path": "public/assets/cards/downloads/saiyan-173-vegeta.webp",
         "before_url": "/assets/cards/downloads/saiyan-173-vegeta.webp?v=9c4576c5f1cc",
         "before_sha256": "9c4576c5f1ccbb4d684beb8cc36b405809b30c4c3c9b0f381cbc0442c31f935f",
-        "after_sha256": "a544c190571b178424b4468e64f3eb7f40dcd6e780d97eee88f6a0c37acef3c9",
+        "after_sha256": "e6bc18fa473198cd75f05659914efab917aab9516e0114a0707520cd2782c357",
         "size": [
           2120,
           2968
@@ -1038,6 +1162,68 @@
         }
       ],
       "after_native_sha256": "b45db3fd100bb12765240c574c593b64cc54fe93c415c196260b115e81179976"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-173-vegeta",
+      "number": 173,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-173-vegeta.svg",
+      "before_native_sha256": "b45db3fd100bb12765240c574c593b64cc54fe93c415c196260b115e81179976",
+      "after_native_sha256": "e88afe66a4c91592b992b191b676baf82e33957e4715c4d5a2b00e134072e4d7",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-173-vegeta.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "9c198b868326ff2294b5e8fc8627891caa3264492aec8e139bff76b87b3cf9ac",
+          "after_sha256": "14df8452f334d7b09a8db695a1b2fa959d2f67919a984940517a652fa10c9626",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-173-vegeta.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a544c190571b178424b4468e64f3eb7f40dcd6e780d97eee88f6a0c37acef3c9",
+          "after_sha256": "e6bc18fa473198cd75f05659914efab917aab9516e0114a0707520cd2782c357",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -1047,7 +1233,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-174-vegeta.svg",
-    "native_source_sha256": "14d93142f1ea470e7cd3bd4e3c0aea65abb2c6bd83a14ccf52c458804ab94909",
+    "native_source_sha256": "b227958a89deef99754039dcaca32b4f49d4d29255281a5459d17a942819eb33",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1276,7 +1462,7 @@
         "path": "public/assets/cards/saiyan-174-vegeta.webp",
         "before_url": "/assets/cards/saiyan-174-vegeta.webp?v=77bc648a8dd6",
         "before_sha256": "77bc648a8dd60351615c4ba0948c194a80f8c69c3a7242fa1aa9886715668669",
-        "after_sha256": "188bb0aeb367713a311d945e02310fd3cc5dccba949de806a397e6960b1d97d5",
+        "after_sha256": "7048d60746ad27560b3842b94b93e0b10e8b00a5430608a5426e8b658370d0f1",
         "size": [
           1060,
           1484
@@ -1288,7 +1474,7 @@
         "path": "public/assets/cards/downloads/saiyan-174-vegeta.webp",
         "before_url": "/assets/cards/downloads/saiyan-174-vegeta.webp?v=27e62a05fa2d",
         "before_sha256": "27e62a05fa2d74563b9490693775076eaeb3fd47987de2135224c7c3d7b4f3c7",
-        "after_sha256": "43a9fdf729a437ae7df5c17814f6fedb4f9ddadc302de71f2f1988bb511afee4",
+        "after_sha256": "ea68bf2f73eaed1137e413f520a31a559b9d99996bc49c0cd627b84eb961fec8",
         "size": [
           2120,
           2968
@@ -1391,6 +1577,68 @@
         }
       ],
       "after_native_sha256": "14d93142f1ea470e7cd3bd4e3c0aea65abb2c6bd83a14ccf52c458804ab94909"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-174-vegeta",
+      "number": 174,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-174-vegeta.svg",
+      "before_native_sha256": "14d93142f1ea470e7cd3bd4e3c0aea65abb2c6bd83a14ccf52c458804ab94909",
+      "after_native_sha256": "b227958a89deef99754039dcaca32b4f49d4d29255281a5459d17a942819eb33",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-174-vegeta.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "188bb0aeb367713a311d945e02310fd3cc5dccba949de806a397e6960b1d97d5",
+          "after_sha256": "7048d60746ad27560b3842b94b93e0b10e8b00a5430608a5426e8b658370d0f1",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-174-vegeta.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "43a9fdf729a437ae7df5c17814f6fedb4f9ddadc302de71f2f1988bb511afee4",
+          "after_sha256": "ea68bf2f73eaed1137e413f520a31a559b9d99996bc49c0cd627b84eb961fec8",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -1400,7 +1648,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-175-vegeta.svg",
-    "native_source_sha256": "0025ec3b50c8ee587321498306cb4fe22e04b9ab10574d6660e7ff8e715f0ad2",
+    "native_source_sha256": "4f07e711cc287af998fda1ec670ec63ea6a6ff3db609206374a9b170d1bee58c",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1611,7 +1859,7 @@
         "path": "public/assets/cards/saiyan-175-vegeta.webp",
         "before_url": "/assets/cards/saiyan-175-vegeta.webp?v=bdaf6c51f480",
         "before_sha256": "bdaf6c51f48078a18cec78efee566bd7b2bed67bb04e0b3bf49d11ce86ba23a1",
-        "after_sha256": "d4f2c53381e7a7e961c918b5b423465a6ee5dc5d0812dc75dd25350ad3b8ff8d",
+        "after_sha256": "2aafc48bb16183d42a0192b7a0a2b09a8c41c2ce62918f128f0335d054f82114",
         "size": [
           1060,
           1484
@@ -1623,7 +1871,7 @@
         "path": "public/assets/cards/downloads/saiyan-175-vegeta.webp",
         "before_url": "/assets/cards/downloads/saiyan-175-vegeta.webp?v=06041652db5e",
         "before_sha256": "06041652db5ecfd7b01ed123ef0f3f3e6536a86bd871d44a36eb2d5a9b8e477e",
-        "after_sha256": "819beb4e7c7498ae44a1dce38d14c44ce8e590a14ed185d2b3ded0556d195073",
+        "after_sha256": "5b617871ad4c806091a61e5c52e6ebe009a4e9880e067876fca04933e7dceb67",
         "size": [
           2120,
           2968
@@ -1726,6 +1974,68 @@
         }
       ],
       "after_native_sha256": "0025ec3b50c8ee587321498306cb4fe22e04b9ab10574d6660e7ff8e715f0ad2"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-175-vegeta",
+      "number": 175,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-175-vegeta.svg",
+      "before_native_sha256": "0025ec3b50c8ee587321498306cb4fe22e04b9ab10574d6660e7ff8e715f0ad2",
+      "after_native_sha256": "4f07e711cc287af998fda1ec670ec63ea6a6ff3db609206374a9b170d1bee58c",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-175-vegeta.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d4f2c53381e7a7e961c918b5b423465a6ee5dc5d0812dc75dd25350ad3b8ff8d",
+          "after_sha256": "2aafc48bb16183d42a0192b7a0a2b09a8c41c2ce62918f128f0335d054f82114",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-175-vegeta.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "819beb4e7c7498ae44a1dce38d14c44ce8e590a14ed185d2b3ded0556d195073",
+          "after_sha256": "5b617871ad4c806091a61e5c52e6ebe009a4e9880e067876fca04933e7dceb67",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -1735,7 +2045,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-176-nappa.svg",
-    "native_source_sha256": "cf4944b1c19059060d1b2b7d9705571df753f8a925fc93b1247e887ab27bec0d",
+    "native_source_sha256": "3bea5484907448f7831b46bd2a56b342833f5af3438089e8159a0cde15fdf1a3",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1934,7 +2244,7 @@
         "path": "public/assets/cards/saiyan-176-nappa.webp",
         "before_url": "/assets/cards/saiyan-176-nappa.webp?v=a0c1ccefefe8",
         "before_sha256": "a0c1ccefefe82d210c2763434fd5b1d07ab8e2f7dfb23fa85dd09ac85d54468c",
-        "after_sha256": "7d0110be154dbbc582c548107898e115dda28fe05ed54167f856242ed3e5054b",
+        "after_sha256": "10c184d636a36e9012301efaadca9172f7a871c39aab571327b84244000cebf4",
         "size": [
           1060,
           1484
@@ -1946,7 +2256,7 @@
         "path": "public/assets/cards/downloads/saiyan-176-nappa.webp",
         "before_url": "/assets/cards/downloads/saiyan-176-nappa.webp?v=c6191197b066",
         "before_sha256": "c6191197b06662e413a77fb3858133f8dafe3887b7fdb86a9e27f219da10ddc9",
-        "after_sha256": "86afba2a6074456dca1b2d9d0ebac211525e31c347735f4a0eed667551a60fb7",
+        "after_sha256": "2473639b6bd726793bf422b3ad70f35e91a3158f54126410608eef38116caab2",
         "size": [
           2120,
           2968
@@ -2049,6 +2359,68 @@
         }
       ],
       "after_native_sha256": "cf4944b1c19059060d1b2b7d9705571df753f8a925fc93b1247e887ab27bec0d"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-176-nappa",
+      "number": 176,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-176-nappa.svg",
+      "before_native_sha256": "cf4944b1c19059060d1b2b7d9705571df753f8a925fc93b1247e887ab27bec0d",
+      "after_native_sha256": "3bea5484907448f7831b46bd2a56b342833f5af3438089e8159a0cde15fdf1a3",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-176-nappa.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7d0110be154dbbc582c548107898e115dda28fe05ed54167f856242ed3e5054b",
+          "after_sha256": "10c184d636a36e9012301efaadca9172f7a871c39aab571327b84244000cebf4",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-176-nappa.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "86afba2a6074456dca1b2d9d0ebac211525e31c347735f4a0eed667551a60fb7",
+          "after_sha256": "2473639b6bd726793bf422b3ad70f35e91a3158f54126410608eef38116caab2",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -2058,7 +2430,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-177-nappa.svg",
-    "native_source_sha256": "191a7846bc1a5a9e04b6c5a80e15c0e123729ee17a08c38cbabb82a4a4712df1",
+    "native_source_sha256": "f0bbf96be13de6281f47694624b44cd9a73b75b3d640f4b93c5f3c93074518a4",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2275,7 +2647,7 @@
         "path": "public/assets/cards/saiyan-177-nappa.webp",
         "before_url": "/assets/cards/saiyan-177-nappa.webp?v=0a290faabc65",
         "before_sha256": "0a290faabc65594fb00aed519941b99c7df448d1706f2218a7a70b03f6c22aa1",
-        "after_sha256": "b64dea5bbba6479507f74744c8eac65c32d26b1eac0219f700613afb06e0176a",
+        "after_sha256": "c567c64ca6a6429d38172ae4e304540e4a142636c2f0cb35a241718545fad8c2",
         "size": [
           1060,
           1484
@@ -2287,7 +2659,7 @@
         "path": "public/assets/cards/downloads/saiyan-177-nappa.webp",
         "before_url": "/assets/cards/downloads/saiyan-177-nappa.webp?v=e564a75307e1",
         "before_sha256": "e564a75307e183f6175997028423d8a0b0b3a0d1105d6d5cfef87f1ab93528b8",
-        "after_sha256": "36ed44b16706751745ab4e0c4027aab090df80516383496d0b61e5106cf164ee",
+        "after_sha256": "1cb48bfd80a8c6f547a4aae010329b602bc81e47c8a29d14a8b1cba51b8271f0",
         "size": [
           2120,
           2968
@@ -2390,6 +2762,68 @@
         }
       ],
       "after_native_sha256": "191a7846bc1a5a9e04b6c5a80e15c0e123729ee17a08c38cbabb82a4a4712df1"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-177-nappa",
+      "number": 177,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-177-nappa.svg",
+      "before_native_sha256": "191a7846bc1a5a9e04b6c5a80e15c0e123729ee17a08c38cbabb82a4a4712df1",
+      "after_native_sha256": "f0bbf96be13de6281f47694624b44cd9a73b75b3d640f4b93c5f3c93074518a4",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-177-nappa.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "b64dea5bbba6479507f74744c8eac65c32d26b1eac0219f700613afb06e0176a",
+          "after_sha256": "c567c64ca6a6429d38172ae4e304540e4a142636c2f0cb35a241718545fad8c2",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-177-nappa.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "36ed44b16706751745ab4e0c4027aab090df80516383496d0b61e5106cf164ee",
+          "after_sha256": "1cb48bfd80a8c6f547a4aae010329b602bc81e47c8a29d14a8b1cba51b8271f0",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -2399,7 +2833,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-178-nappa.svg",
-    "native_source_sha256": "85fc973cc7d24552f52c0673005cbd0b96540e1ece2526f10137e650905aced0",
+    "native_source_sha256": "246461b67336d03f3f02823722ded9aba1802196b6da8c5117a1245eb5308705",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2598,7 +3032,7 @@
         "path": "public/assets/cards/saiyan-178-nappa.webp",
         "before_url": "/assets/cards/saiyan-178-nappa.webp?v=f5328aedafc9",
         "before_sha256": "f5328aedafc981d0b3bc8c11e592dc78bc40bb6cb21f742dfeebc2af6b811b01",
-        "after_sha256": "f9a3ee449c101ab049d85fa1620d03da08fa7312340666dd2a139b85a22a4d2e",
+        "after_sha256": "15d97d6a0c54c60641036abe6e8e7699cdc59911623e380e0d6be6953c7da7b5",
         "size": [
           1060,
           1484
@@ -2610,7 +3044,7 @@
         "path": "public/assets/cards/downloads/saiyan-178-nappa.webp",
         "before_url": "/assets/cards/downloads/saiyan-178-nappa.webp?v=1150591e5c41",
         "before_sha256": "1150591e5c416324ca6a8d4a6f1c013cfd828e5b11a577f4cdb415f3578047ac",
-        "after_sha256": "7e71c78af37c80fe9b1b0f37b75597b93dd2fa5a96c3f26b335ffdee47db0cd9",
+        "after_sha256": "a78428c1d727ad76e62173b5f0a36679da915d0dc76c0a3a5cbbef6530522a60",
         "size": [
           2120,
           2968
@@ -2713,6 +3147,68 @@
         }
       ],
       "after_native_sha256": "85fc973cc7d24552f52c0673005cbd0b96540e1ece2526f10137e650905aced0"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-178-nappa",
+      "number": 178,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-178-nappa.svg",
+      "before_native_sha256": "85fc973cc7d24552f52c0673005cbd0b96540e1ece2526f10137e650905aced0",
+      "after_native_sha256": "246461b67336d03f3f02823722ded9aba1802196b6da8c5117a1245eb5308705",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-178-nappa.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f9a3ee449c101ab049d85fa1620d03da08fa7312340666dd2a139b85a22a4d2e",
+          "after_sha256": "15d97d6a0c54c60641036abe6e8e7699cdc59911623e380e0d6be6953c7da7b5",
+          "changed_pixels": 2411,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-178-nappa.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "7e71c78af37c80fe9b1b0f37b75597b93dd2fa5a96c3f26b335ffdee47db0cd9",
+          "after_sha256": "a78428c1d727ad76e62173b5f0a36679da915d0dc76c0a3a5cbbef6530522a60",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -4006,7 +4502,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": true,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-183-raditz-lvl-1-ht.svg",
-    "native_source_sha256": "897d463c3bf4e3c3566786dddb152b6449ee0230fd020eeac0b120d5fca0892d",
+    "native_source_sha256": "a6adf407f1955b9cd3cd46f9b0f6b64ea4018c2745cc943a575eb016a44ec0b6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -4202,7 +4698,7 @@
         "path": "public/assets/cards/saiyan-183-raditz-lvl-1-ht.webp",
         "before_url": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=4f79f227b785",
         "before_sha256": "4f79f227b785acd9a88ecdcbb4c2eb0fc04bbc9376d2f83cbde8e06c286aa9f7",
-        "after_sha256": "43e666746d6213db994cd71e9f0f8cc44abd1ebf26529e3b077a1bb99a830168",
+        "after_sha256": "4c4ba949ba70ca1f655d6867af0b739c0436ae098b8f1b8cf364167e53fd98c9",
         "size": [
           1060,
           1484
@@ -4214,7 +4710,7 @@
         "path": "public/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp",
         "before_url": "/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp?v=6754f08de6d2",
         "before_sha256": "6754f08de6d2dbceafbf65eba947a0175e307919987c84abeab914a59731a3d6",
-        "after_sha256": "de7d4964347624f77a271bb7cf0d3e5ef5305c1afefd9f95f0bf01427de9680e",
+        "after_sha256": "9cf820d0cfb6261578421aed3c8917f46b270f0fe0ced6c32e6d1fdd5e2eed74",
         "size": [
           2120,
           2968
@@ -4317,6 +4813,68 @@
         }
       ],
       "after_native_sha256": "897d463c3bf4e3c3566786dddb152b6449ee0230fd020eeac0b120d5fca0892d"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-183-raditz-lvl-1-ht",
+      "number": 183,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-183-raditz-lvl-1-ht.svg",
+      "before_native_sha256": "897d463c3bf4e3c3566786dddb152b6449ee0230fd020eeac0b120d5fca0892d",
+      "after_native_sha256": "a6adf407f1955b9cd3cd46f9b0f6b64ea4018c2745cc943a575eb016a44ec0b6",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-183-raditz-lvl-1-ht.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "43e666746d6213db994cd71e9f0f8cc44abd1ebf26529e3b077a1bb99a830168",
+          "after_sha256": "4c4ba949ba70ca1f655d6867af0b739c0436ae098b8f1b8cf364167e53fd98c9",
+          "changed_pixels": 2419,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "de7d4964347624f77a271bb7cf0d3e5ef5305c1afefd9f95f0bf01427de9680e",
+          "after_sha256": "9cf820d0cfb6261578421aed3c8917f46b270f0fe0ced6c32e6d1fdd5e2eed74",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -4326,7 +4884,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": true,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-184-vegeta-lvl-1-ht.svg",
-    "native_source_sha256": "48b23c109c3b3e28326e50df6e513c16a4a36e2bc85bd2ceebb75eb8907e53dd",
+    "native_source_sha256": "f342bba4e9313756afe0de8d3464f2edcff593d72f1ddcac88d25a58c62730ec",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -4528,7 +5086,7 @@
         "path": "public/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp",
         "before_url": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=99537877740e",
         "before_sha256": "99537877740e6914403d184eca0a33202264e585aaaa646d08689afee45b71a7",
-        "after_sha256": "22e76b5cdca6466da0232cf82b2364dac74b6592c560a76c929706d2ad383d29",
+        "after_sha256": "c13e717cddd04e87c7c2b5d279f538a4a236ce568ed4115d6c7a033d95d8f23d",
         "size": [
           1060,
           1484
@@ -4540,7 +5098,7 @@
         "path": "public/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp",
         "before_url": "/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp?v=1d500ea086c0",
         "before_sha256": "1d500ea086c0093e3e1ce109f9e48af3cb3ee22cca1a19ffd57cfb731c305212",
-        "after_sha256": "9ea922d209a8650560784c302f6187ca2ba09ded7644b932256b9999f103dbbb",
+        "after_sha256": "d3df5ce17ba68363fc332a533f7931fcbb72169bcdf24c581a41b44956ea205a",
         "size": [
           2120,
           2968
@@ -4643,6 +5201,68 @@
         }
       ],
       "after_native_sha256": "48b23c109c3b3e28326e50df6e513c16a4a36e2bc85bd2ceebb75eb8907e53dd"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-184-vegeta-lvl-1-ht",
+      "number": 184,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-184-vegeta-lvl-1-ht.svg",
+      "before_native_sha256": "48b23c109c3b3e28326e50df6e513c16a4a36e2bc85bd2ceebb75eb8907e53dd",
+      "after_native_sha256": "f342bba4e9313756afe0de8d3464f2edcff593d72f1ddcac88d25a58c62730ec",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "22e76b5cdca6466da0232cf82b2364dac74b6592c560a76c929706d2ad383d29",
+          "after_sha256": "c13e717cddd04e87c7c2b5d279f538a4a236ce568ed4115d6c7a033d95d8f23d",
+          "changed_pixels": 2407,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "9ea922d209a8650560784c302f6187ca2ba09ded7644b932256b9999f103dbbb",
+          "after_sha256": "d3df5ce17ba68363fc332a533f7931fcbb72169bcdf24c581a41b44956ea205a",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -4652,7 +5272,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": true,
     "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-185-nappa-lvl-1-ht.svg",
-    "native_source_sha256": "7c729e538eddb2951e0afedbd8da225d57dcdd06f01cfaa09c5ade3be8f7b541",
+    "native_source_sha256": "35dd377a6e02ad62dc0beafed1d1326938e16d42ea67b36ed59dbfea14d50466",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -4836,7 +5456,7 @@
         "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
         "before_url": "/assets/cards/saiyan-185-nappa-lvl-1-ht.webp?v=21ff451634e8",
         "before_sha256": "21ff451634e8f0df44df645e57adfcbdd7857c971b8faca7c2f9eea2ba49e201",
-        "after_sha256": "22d5c22bdcaa5399371cd4a45fa8a6f9ecc4531e43d64a498e7f8fedde31d9c6",
+        "after_sha256": "1fe27d56910535bf3b330de51b97669b6455f832f07786d6cb9c0011acb10756",
         "size": [
           1060,
           1484
@@ -4848,7 +5468,7 @@
         "path": "public/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp",
         "before_url": "/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp?v=5525d76e5336",
         "before_sha256": "5525d76e53362ae52e5be78442e766c358886911c41d479c55cfbf8560edcb7e",
-        "after_sha256": "9d3ea22fafbec50a2f0338c5e52f82cdadfa16a4a461c6acd08f5ec84425b605",
+        "after_sha256": "c0442caf739676ea2c2bdd967604033bff48c49468eb1a779d53ad4ff1815202",
         "size": [
           2120,
           2968
@@ -4951,6 +5571,68 @@
         }
       ],
       "after_native_sha256": "7c729e538eddb2951e0afedbd8da225d57dcdd06f01cfaa09c5ade3be8f7b541"
+    },
+    "villain_corner_revision": {
+      "id": "saiyan-185-nappa-lvl-1-ht",
+      "number": 185,
+      "audit_path": "tools/card-corrections/v3-saiyan-171-220/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-171-220/saiyan-185-nappa-lvl-1-ht.svg",
+      "before_native_sha256": "7c729e538eddb2951e0afedbd8da225d57dcdd06f01cfaa09c5ade3be8f7b541",
+      "after_native_sha256": "35dd377a6e02ad62dc0beafed1d1326938e16d42ea67b36ed59dbfea14d50466",
+      "treatment": {
+        "applies": true,
+        "changed": true,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "helper_idempotent": true,
+      "unrelated_native_elements_unchanged": true,
+      "all_text_and_artwork_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-185-nappa-lvl-1-ht.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "22d5c22bdcaa5399371cd4a45fa8a6f9ecc4531e43d64a498e7f8fedde31d9c6",
+          "after_sha256": "1fe27d56910535bf3b330de51b97669b6455f832f07786d6cb9c0011acb10756",
+          "changed_pixels": 2403,
+          "changed_pixel_bounds": [
+            23,
+            964,
+            1035,
+            1340
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 1,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-185-nappa-lvl-1-ht.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "9d3ea22fafbec50a2f0338c5e52f82cdadfa16a4a461c6acd08f5ec84425b605",
+          "after_sha256": "c0442caf739676ea2c2bdd967604033bff48c49468eb1a779d53ad4ff1815202",
+          "changed_pixels": 5543,
+          "changed_pixel_bounds": [
+            52,
+            1934,
+            2064,
+            2674
+          ],
+          "pixels_changed_outside_corner_footprint": 0,
+          "old_render_max_channel_difference": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {

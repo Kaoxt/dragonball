@@ -2,9 +2,28 @@
 from pathlib import Path
 import argparse,os,subprocess,tempfile,json
 from PIL import Image,ImageChops
+from lxml import etree as E
+from urllib.parse import unquote, urlparse
+
+def check_assets(source):
+    """Fail before rendering if a retained raster layer is unavailable."""
+    source=Path(source).resolve()
+    for image in E.parse(str(source)).xpath('//*[local-name()="image"]'):
+        ref=image.get('{http://www.w3.org/1999/xlink}href') or image.get('href')
+        if not ref:
+            raise ValueError('Native V3 image layer has no source')
+        if ref.startswith('data:'):
+            continue
+        url=urlparse(ref)
+        if url.scheme not in ['', 'file']:
+            raise ValueError('Retain remote artwork locally before rendering')
+        target=Path(unquote(url.path)) if url.scheme=='file' else source.parent/unquote(ref)
+        if not target.is_file():
+            raise FileNotFoundError(f'Missing retained V3 raster: {target}')
 
 def render(source,destination):
     source=Path(source).resolve();destination=Path(destination).resolve();destination.parent.mkdir(parents=True,exist_ok=True)
+    check_assets(source)
     with tempfile.TemporaryDirectory(dir=destination.parent) as temp:
         temp=Path(temp);png=temp/'render.png'
         subprocess.run(['inkscape',str(source),'--export-filename='+str(png),'--export-width=2120','--export-height=2968','--export-overwrite'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)

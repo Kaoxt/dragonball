@@ -18,7 +18,7 @@ test('Frieza 11–60 have current native sources, unchanged reviewed rules and b
  assert.deepEqual(selected.map(c=>Number(c.number)),Array.from({length:50},(_,i)=>i+11));
  for(const c of selected){
   assert.equal(c.templateVersion,3);const row=rows.find(r=>r.id===c.id),data=cards.find(r=>r.id===c.id),check=checks.find(r=>r.number===row.number);
-  assert.equal(hash(row.native_source_path),row.native_source_sha256);assert.equal(check.native_source_sha256,row.native_source_sha256);
+  assert.equal(hash(row.native_source_path),row.native_source_sha256);assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.native_source_sha256);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,data.modern_rules);assert.ok(row.rules.length<=5);
   assert.ok(row.current_preview_revision.title_fit.max_width<=(row.personality_values?700:760));

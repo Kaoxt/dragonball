@@ -97,5 +97,23 @@
     ],
     "background": "One continuous original image; no backing patches. Paint ends clipped to native contours with genuine transparent holes.",
     "verification": "Brush-Transparency-Verification.json; compare fully clear middle-overlay pixels to original background at identical coordinates."
+  },
+  "fixed_text_components": {
+    "revision": "2026-11-01-fixed-native-text-components",
+    "manifest": "assets/text/categories/manifest.json",
+    "validation": "scripts/text_layout_v3.py",
+    "category_visible_center": [
+      529.5,
+      908.5
+    ],
+    "preserve_existing_text_during_localized_repairs": true
+  },
+  "villain_power_corners": {
+    "master": "masters/Personality-Villain-Master-V3.svg",
+    "helper": "scripts/personality_corners_v3.py",
+    "fill": "#8e1722",
+    "shadow_stroke": "#4c1119",
+    "corner_count": 4,
+    "hero_unchanged": true
   }
 }

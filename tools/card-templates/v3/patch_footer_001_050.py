@@ -12,7 +12,7 @@ sys.path.insert(0, str(HERE / 'scripts'))
 import footer_spacing
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('work', type=Path)
-parser.add_argument('--range', choices=['001-050', '051-100'], default='001-050')
+parser.add_argument('--range', choices=['001-050', '051-100', '101-150'], default='001-050')
 args = parser.parse_args()
 WORK = args.work.resolve()
 WORK.mkdir(parents=True, exist_ok=True)

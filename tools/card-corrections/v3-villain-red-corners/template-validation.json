@@ -1,0 +1,357 @@
+{
+  "scope": "Retained Raditz 170 demo; local template validation only. Game values and artwork preserved; no original scan or new CRD verification claimed.",
+  "source_sha256": "4e5dacc41330bcb13f7580653bcfd9c82afe3cd5bc955cc57788a7fccc0c47dc",
+  "baseline_text_validation": {
+    "revision": "2026-11-01-fixed-native-text-components",
+    "native_outlined_text": true,
+    "fixed_category_svg_matches": true,
+    "visible_ink_anchors_verified": true,
+    "rules_rows": 2
+  },
+  "bounds": {
+    "card-title": [
+      437.916,
+      50.2213,
+      183.168,
+      57.5574
+    ],
+    "card-category": [
+      201.125,
+      891.391,
+      656.749,
+      34.2188
+    ],
+    "footer-text-block": [
+      334.3,
+      1382.98,
+      390.4,
+      53.04
+    ],
+    "saga-emblem": [
+      184.859,
+      1382.16,
+      53.7814,
+      54.6867
+    ],
+    "footer-rarity": [
+      789.234,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      849.034,
+      1392.65,
+      56.233,
+      33.708
+    ],
+    "rules-line-1": [
+      112.951,
+      1014.61,
+      833.098,
+      44.835
+    ],
+    "rules-line-2": [
+      294.888,
+      1072.53,
+      469.224,
+      45.913
+    ]
+  },
+  "rules_panel_path": "M45 965H1013L1034 986V1318L1013 1339H45L24 1318V986Z",
+  "native_text_elements": 0,
+  "clean_brush_contours": {
+    "clean-native-brush-paint-contour": true,
+    "clean-native-pur-paint-contour": true
+  },
+  "raster_assets": [
+    {
+      "file": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "file": "6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211.png",
+      "sha256": "6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211"
+    },
+    {
+      "file": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "file": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "file": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "file": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    }
+  ],
+  "game_text": {
+    "power-stage-value-0": "2,000",
+    "power-stage-value-1": "1,900",
+    "power-stage-value-2": "1,800",
+    "power-stage-value-3": "1,700",
+    "power-stage-value-4": "1,600",
+    "power-stage-value-5": "1,500",
+    "power-stage-value-6": "1,400",
+    "power-stage-value-7": "1,300",
+    "power-stage-value-8": "1,200",
+    "power-stage-value-9": "1,100",
+    "power-stage-value-10": "0",
+    "card-title": "Raditz",
+    "v3-level-number-soft-shadow": "1",
+    "v3-level-number": "1",
+    "v3-level-label-soft-shadow": "LEVEL",
+    "v3-level-label": "LEVEL",
+    "card-category": "VILLAIN PERSONALITY",
+    "concept-pur-number": "1",
+    "footer-brand": "DRAGON BALL Z",
+    "footer-disclaimer": "Not endorsed by Toei Animation or Funimation",
+    "card-number": "170",
+    "rules-line-1": "POWER: Reduce damage from an energy attack",
+    "rules-line-2": "against you to 2 life cards."
+  },
+  "passes": [
+    {
+      "title": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 183.1683291770574,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 620.0,
+        "scale_factor": 1.0
+      },
+      "category": {
+        "label": "VILLAIN PERSONALITY",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          656.74935,
+          34.21875
+        ]
+      },
+      "corners": {
+        "applies": true,
+        "changed": false,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "footer": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": 0,
+        "changed": false,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "text_validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      },
+      "sha256": "4179eaea4c017e5e287afbd0e192c702fb0ff4dc20675bfcfa50ff257de5a495"
+    },
+    {
+      "title": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 183.1683291770574,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 620.0,
+        "scale_factor": 1.0
+      },
+      "category": {
+        "label": "VILLAIN PERSONALITY",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          656.74935,
+          34.21875
+        ]
+      },
+      "corners": {
+        "applies": true,
+        "changed": false,
+        "revision": "2026-11-01-villain-red-power-corners",
+        "corner_fill": "#8e1722",
+        "shadow_stroke": "#4c1119",
+        "corner_count": 4,
+        "shadow_path_count": 2
+      },
+      "footer": {
+        "revision": "mirrored-side-group-centers-v1",
+        "logo_dx": 0,
+        "ball_and_number_dx": 0,
+        "changed": false,
+        "saga_center_x": 211.75,
+        "right_group_center_x": 847.25,
+        "number_gap_dx": 0,
+        "ball_number_gap": 12.199999999999953
+      },
+      "text_validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      },
+      "sha256": "4179eaea4c017e5e287afbd0e192c702fb0ff4dc20675bfcfa50ff257de5a495"
+    }
+  ],
+  "painted_geometry_unchanged": true,
+  "source_game_text_unchanged": true,
+  "second_pass_byte_identical": true,
+  "digit_center_checks": [
+    {
+      "value": "2,000",
+      "visible_digit_center_y": 175.591,
+      "expected": 175.590909090909,
+      "error": 9.09090909999577e-05,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,900",
+      "visible_digit_center_y": 240.27300000000002,
+      "expected": 240.272727272727,
+      "error": 0.0002727272730282948,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,800",
+      "visible_digit_center_y": 304.955,
+      "expected": 304.954545454545,
+      "error": 0.0004545454549997885,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,700",
+      "visible_digit_center_y": 369.63599999999997,
+      "expected": 369.636363636364,
+      "error": -0.0003636363640566742,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,600",
+      "visible_digit_center_y": 434.318,
+      "expected": 434.318181818182,
+      "error": -0.0001818181819999154,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,500",
+      "visible_digit_center_y": 499.0,
+      "expected": 499.0,
+      "error": 0.0,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,400",
+      "visible_digit_center_y": 563.682,
+      "expected": 563.681818181818,
+      "error": 0.0001818181819999154,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,300",
+      "visible_digit_center_y": 628.364,
+      "expected": 628.363636363636,
+      "error": 0.0003636363639998308,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,200",
+      "visible_digit_center_y": 693.045,
+      "expected": 693.045454545455,
+      "error": -0.0004545454549997885,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "1,100",
+      "visible_digit_center_y": 757.727,
+      "expected": 757.727272727273,
+      "error": -0.0002727272729998731,
+      "right_edge": 1031.003
+    },
+    {
+      "value": "0",
+      "visible_digit_center_y": 822.409,
+      "expected": 822.409090909091,
+      "error": -9.09090909999577e-05,
+      "right_edge": 1031.003
+    }
+  ],
+  "repeat_render_changed_pixels": 0,
+  "png_lossless_webp_changed_pixels": 0,
+  "installed_master_unchanged": true,
+  "all_copied_raster_bytes_identical": true,
+  "visual_review": {
+    "normal_size": [
+      530,
+      742
+    ],
+    "full_size": [
+      2120,
+      2968
+    ],
+    "result": "Rendered artwork, native title/category/game text, stages, four red rules corners and footer inspected. No missing images, clipping, or visible layout defects in the correctly bundled output. Original scan/CRD fidelity was outside this retained-demo check."
+  },
+  "concrete_failures": [
+    {
+      "component": "scripts/render_v3.py",
+      "finding": "When a copied SVG has unresolved relative image paths, rendering still exits successfully and reports PNG/WebP equality; missing-image symbols replace the artwork and textures. The helper has no missing-resource preflight and suppresses Inkscape diagnostics.",
+      "workaround_used": "Copied all six unique retained raster assets into a sibling assets directory while preserving masters/../assets references. No installed file was edited."
+    }
+  ],
+  "checks_summary": {
+    "template_geometry": "PASS",
+    "text_and_artwork_preservation": "PASS",
+    "second_helper_pass_byte_identical": true,
+    "repeat_render_identical": true,
+    "png_webp_pixels_identical": true,
+    "max_stage_digit_center_error": 0.0004545454549997885,
+    "publication": "Not performed",
+    "original_scan_and_crd_validation": "Not performed; retained demo only"
+  },
+  "remediation": {
+    "component": "scripts/render_v3.py",
+    "change": "Validate every referenced image before rendering; fail on missing or remote image resources.",
+    "checks": {
+      "repository_master_assets_resolve": true,
+      "installed_master_assets_resolve": true,
+      "isolated_master_without_assets_rejected": true
+    }
+  }
+}
