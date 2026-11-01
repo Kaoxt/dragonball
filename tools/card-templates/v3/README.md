@@ -1,5 +1,13 @@
 # Dragon Ball OCG Master Templates V3
 
+## Trunks Saga 001–005 and upcoming Mastery cards
+
+`trunks-001-005/` retains the current V3 sources for the first five Trunks cards. The original native double-C set mark keeps its 54-unit height and is centered by its actual visible ink at (211.75,1409.5); its open right edge is included in the measurement. The complete rarity-ball/number group is centered at (847.25,1409.5), with the standard 12.2-unit gap. All five use fixed native category text and measured title clearance.
+
+Namek Dragon Ball 2 retains the approved front-facing Porunga from `Namek-Dragon-Balls-Porunga-Update.zip`, with unchanged full-card scale and color, both hands visible, and the current single-left two-star orb. It is an explicit original-scene exception. The other four illustrations retain their approved source bytes. Original scans, CRD checks, per-card observations and lossless export evidence are in `../../card-corrections/v3-trunks-001-005/`.
+
+The user selected the new Mastery template for the remainder of this set. Read `references/mastery-v3.md` when reaching those cards: it supersedes historical pending-Mastery statements below and identifies the approved November 1 native source, inset sides, continuous Shenron surround, shared text geometry and mirrored footer. This five-card batch contains no Mastery cards and does not migrate them early.
+
 ## Current footer spacing — November 1
 
 Use `scripts/footer_spacing.py` after footer data is complete. Center the visible set logo at x211.75 and the complete visible rarity-ball-plus-number group at x847.25, mirrored around the fixed endorsement center x529.5. Measure the ball and number together, including visible stroke; move them by the same horizontal amount. Do not anchor the number at x880 or the ball at x844. Preserve the existing 12.2-unit ball-to-number gap, all sizes, vertical positions, star layouts, brush material, title, artwork and rules. For new-card composition after replacing a number or rarity group, pass `--normalize-gap` to restore the standard gap before centering; omit it for a spacing-only repair of existing cards. Require an unchanged second run. This applies to every V3 family: Combat, Personality, Hi-Tech, Dragon Ball, Mastery, Sensei, Location/Battleground, Setup, Event, Drill, Ally, Freestyle and future types. It does not approve an otherwise unfinished family layout. Patch existing display and download images independently, and require zero changed pixels outside the old/new footer ink and antialias footprints.

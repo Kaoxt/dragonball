@@ -1,0 +1,165 @@
+[
+  {
+    "number": 1,
+    "name": "Orange Energy Blast",
+    "style": "Orange",
+    "category": "ENERGY COMBAT",
+    "original_rules": "Energy attack doing 5 life cards of damage.",
+    "modern_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+    "power_icon": "attack",
+    "prefix": "",
+    "id": "trunks-001-orange-energy-blast",
+    "set": "Trunks Saga",
+    "rarity": "Common",
+    "rarity_stars": 1,
+    "source": "https://dbzoutpost.com/products/trunks-saga-limited-1",
+    "crd": {
+      "source": "Expanded-CRD.txt",
+      "card_specific": "Current attached Expanded CRD searched by title; no matching card-specific erratum.",
+      "general": [
+        "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+        "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+      ],
+      "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    "rule_lines": [
+      "@ICON@ Energy attack costing 2 stages.",
+      "DAMAGE: 5 life cards."
+    ],
+    "artwork_file": "artwork/trunks-001.png",
+    "corrected_effect": "Energy attack doing 5 life cards of damage.",
+    "original_scan": "tools/card-corrections/v3-trunks-001-005/originals/trunks-001.png",
+    "original_scan_sha256": "b73e1392b6594a1a71fd7100cc0fa4ecc69706312c5518dc6ae9581937a24b29"
+  },
+  {
+    "number": 2,
+    "name": "Red Kienzan Discs",
+    "style": "Red",
+    "category": "ENERGY COMBAT",
+    "original_rules": "Energy attack. If Earth Dragon Ball 3 is in play this attack cannot be stopped.",
+    "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If Earth Dragon Ball 3 is in play, this attack cannot be stopped.",
+    "power_icon": "attack",
+    "prefix": "",
+    "id": "trunks-002-red-kienzan-discs",
+    "set": "Trunks Saga",
+    "rarity": "Common",
+    "rarity_stars": 1,
+    "source": "https://dbzoutpost.com/products/trunks-saga-limited-2",
+    "crd": {
+      "source": "Expanded-CRD.txt",
+      "card_specific": "Current attached Expanded CRD searched by title; no matching card-specific erratum.",
+      "general": [
+        "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+        "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+      ],
+      "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    "rule_lines": [
+      "@ICON@ Energy attack costing 2 stages.",
+      "DAMAGE: 4 life cards. If Earth Dragon Ball 3",
+      "is in play, this attack cannot be stopped."
+    ],
+    "artwork_file": "artwork/trunks-002.png",
+    "corrected_effect": "Energy attack. If Earth Dragon Ball 3 is in play this attack cannot be stopped.",
+    "original_scan": "tools/card-corrections/v3-trunks-001-005/originals/trunks-002.png",
+    "original_scan_sha256": "b750758fbcc33a04b77dbfe3e85e353348ede46ce45ee23eee59c3ba1f5b46fc"
+  },
+  {
+    "number": 3,
+    "name": "Namek Dragon Ball 2",
+    "style": "Freestyle",
+    "category": "DRAGON BALL",
+    "original_rules": "Choose an opponent and reduce his Main Personality 1 personality level if possible.",
+    "modern_rules": "Choose an opponent. Lower their Main Personality 1 level, if possible.",
+    "power_icon": null,
+    "prefix": "",
+    "id": "trunks-003-namek-dragon-ball-2",
+    "set": "Trunks Saga",
+    "rarity": "Common",
+    "rarity_stars": 1,
+    "source": "https://dbzoutpost.com/products/trunks-saga-limited-3",
+    "crd": {
+      "source": "Expanded-CRD.txt",
+      "card_specific": "Current attached Expanded CRD searched by title; no matching card-specific erratum.",
+      "general": [
+        "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+        "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+      ],
+      "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    "rule_lines": [
+      "Choose an opponent. Lower their Main",
+      "Personality 1 level, if possible."
+    ],
+    "artwork_file": "artwork/trunks-003.png",
+    "corrected_effect": "Choose an opponent and reduce his Main Personality 1 personality level if possible.",
+    "original_scan": "tools/card-corrections/v3-trunks-001-005/originals/trunks-003.png",
+    "original_scan_sha256": "c35259f3110ca982ab861ce8ec580bb8ff565bbe0a773786b733ec6e1a5f0cae",
+    "approved_artwork_exception": "Retain current frontal Porunga with both completed hands, from Namek-Dragon-Balls-Porunga-Update.zip; do not use older overhead/rear orientation or original Gohan/Krillin scene."
+  },
+  {
+    "number": 4,
+    "name": "Captain Ginyu Frog",
+    "style": "Freestyle",
+    "category": "EVENT",
+    "original_rules": "Reduce a villain 1 personality level if possible. Limit 1 per deck. Remove from the game after use.",
+    "modern_rules": "(Limit 1 per deck.) POWER: Lower a Villain 1 level, if possible. Banish after use.",
+    "power_icon": null,
+    "prefix": "",
+    "id": "trunks-004-captain-ginyu-frog",
+    "set": "Trunks Saga",
+    "rarity": "Common",
+    "rarity_stars": 1,
+    "source": "https://dbzoutpost.com/products/trunks-saga-limited-4",
+    "crd": {
+      "source": "Expanded-CRD.txt",
+      "card_specific": "Current attached Expanded CRD searched by title; no matching card-specific erratum.",
+      "general": [
+        "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+        "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+      ],
+      "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    "rule_lines": [
+      "(Limit 1 per deck.) POWER: Lower a Villain",
+      "1 level, if possible. Banish after use."
+    ],
+    "artwork_file": "artwork/trunks-004.png",
+    "corrected_effect": "Reduce a villain 1 personality level if possible. Limit 1 per deck. Remove from the game after use.",
+    "original_scan": "tools/card-corrections/v3-trunks-001-005/originals/trunks-004.png",
+    "original_scan_sha256": "1fbc8117b6e55373808cc20ec44d429c5f38391911e90f424b87401e3b2c62e1"
+  },
+  {
+    "number": 5,
+    "name": "Krillin's Kamehameha Outburst",
+    "style": "Freestyle",
+    "category": "ENERGY COMBAT",
+    "original_rules": "Energy attack doing 5 life cards of damage. Lower opponent's anger 2 levels.",
+    "modern_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
+    "power_icon": "attack",
+    "prefix": "",
+    "id": "trunks-005-krillins-kamehameha-outburst",
+    "set": "Trunks Saga",
+    "rarity": "Common",
+    "rarity_stars": 1,
+    "source": "https://dbzoutpost.com/products/trunks-saga-limited-5",
+    "crd": {
+      "source": "Expanded-CRD.txt",
+      "card_specific": "Current attached Expanded CRD searched by title; no matching card-specific erratum.",
+      "general": [
+        "Energy attack defaults: costs 2 stages, deals 4 life cards unless specified.",
+        "Physical attack defaults: AT stages unless fixed life-card damage is specified."
+      ],
+      "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    "rule_lines": [
+      "@ICON@ Energy attack costing 2 stages.",
+      "DAMAGE: 5 life cards.",
+      "Lower your opponent's anger 2 levels."
+    ],
+    "artwork_file": "artwork/trunks-005.png",
+    "corrected_effect": "Energy attack doing 5 life cards of damage. Lower opponent's anger 2 levels.",
+    "original_scan": "tools/card-corrections/v3-trunks-001-005/originals/trunks-005.png",
+    "original_scan_sha256": "45274291b02a93270fd46de296be0ad58fa963231bacfccb206c6704e80acf14"
+  }
+]

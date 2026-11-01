@@ -1,0 +1,189 @@
+{
+  "number": 3,
+  "id": "trunks-003-namek-dragon-ball-2",
+  "name": "Namek Dragon Ball 2",
+  "family": "DRAGON BALL",
+  "native_source_path": "tools/card-templates/v3/trunks-001-005/trunks-003-namek-dragon-ball-2.svg",
+  "native_source_sha256": "cd7faef30b6d9ad7cb20e7e8b8d86769b88579eed72115b15b1da4ef00772f90",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5.png",
+      "sha256": "88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    }
+  ],
+  "artwork": {
+    "mode": "approved current front-facing Porunga full art",
+    "source_sha256": "88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5",
+    "source_native_sha256": "0975a5a99704b61d2692fc7d1372ce29e901cd2cb4692f1438f618ef67938f48",
+    "artwork_bytes_retained": true,
+    "approved_artwork_exception": true,
+    "additional_zoom": false,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "background_gain": 1
+  },
+  "rules": [
+    {
+      "text": "Choose an opponent. Lower their Main",
+      "baseline": 1049.3,
+      "width": 675.1220000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality 1 level, if possible.",
+      "baseline": 1108.3,
+      "width": 534.002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        219.688,
+        44.5,
+        619.623,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "dragon-ball-left-emblem": [
+        12.0,
+        769.0,
+        236.0,
+        236.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        807.678,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.478,
+        1392.65,
+        19.345,
+        33.708
+      ],
+      "rules-line-1": [
+        193.605,
+        1013.53,
+        671.79,
+        44.884
+      ],
+      "rules-line-2": [
+        264.337,
+        1072.53,
+        530.327,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-003-namek-dragon-ball-2.webp",
+      "before_url": "/assets/cards/trunks-003-namek-dragon-ball-2.webp?v=44654a3fc736",
+      "before_sha256": "44654a3fc7365bab400d9d5b9a8d4a7dcf4b68d32511b463a635ebb0e53108c6",
+      "after_sha256": "5fba3a9f0d11f3b92b3e0cbdf9e9864faf85645ac85c7f6d85d0704701814fed",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp",
+      "before_url": "/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp?v=287e5b22dcac",
+      "before_sha256": "287e5b22dcac4674b936bb1e96ef5d2a07462d2a8232a136f559ad061ab5a3e9",
+      "after_sha256": "35bceacfa60537af2484156a1955c75652cf5bae226c0c8ceed8e331623c8c57",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 619.6234413965088,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

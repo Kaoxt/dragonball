@@ -1,0 +1,224 @@
+{
+  "number": 2,
+  "id": "trunks-002-red-kienzan-discs",
+  "name": "Red Kienzan Discs",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-001-005/trunks-002-red-kienzan-discs.svg",
+  "native_source_sha256": "29d55de38af9717be165bd792b7d19388a5f7fc39d6387b464134ba05628d48c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e0f246e53f9b778f80808ea5aa94f11b047154f537237cd1aa6ddbaef910db57.png",
+      "sha256": "e0f246e53f9b778f80808ea5aa94f11b047154f537237cd1aa6ddbaef910db57"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "e0f246e53f9b778f80808ea5aa94f11b047154f537237cd1aa6ddbaef910db57",
+    "source_native_sha256": "bdb5d348970c63a6360f5e9a1389751744190ee81669618fdc2979c5ef636b74",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If Earth Dragon Ball 3",
+      "baseline": 1108.3,
+      "width": 760.3820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "is in play, this attack cannot be stopped.",
+      "baseline": 1167.3,
+      "width": 719.957,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        257.027,
+        50.2213,
+        544.945,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        807.704,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.504,
+        1392.65,
+        19.292,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        151.171,
+        1072.53,
+        756.658,
+        45.913
+      ],
+      "rules-line-3": [
+        171.04,
+        1131.53,
+        716.919,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-002-red-kienzan-discs.webp",
+      "before_url": "/assets/cards/trunks-002-red-kienzan-discs.webp?v=adba36c4b639",
+      "before_sha256": "adba36c4b63920f30287489e38e820ac40b529d5684228d49af45de021fa0ec8",
+      "after_sha256": "38f88a95dd4c2c36cf3aa7c6b15c65587223e03f167b82ea3b83a5d63be773bf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-002-red-kienzan-discs.webp",
+      "before_url": "/assets/cards/downloads/trunks-002-red-kienzan-discs.webp?v=f853c383f44a",
+      "before_sha256": "f853c383f44afe3265afe8a3ad3a5b0fee7005856848d79fe5b34adc51f3a02c",
+      "after_sha256": "18e82e8bb5566c64244ba9bc1fa507cea5a88f26ed5a237e1c0025274e22b662",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 544.9451371571073,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

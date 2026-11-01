@@ -6557,13 +6557,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-001-orange-energy-blast.webp?v=071d0eb0b0e8",
+    "image": "/assets/cards/trunks-001-orange-energy-blast.webp?v=5701697eab45",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-1",
-    "downloadImage": "/assets/cards/downloads/trunks-001-orange-energy-blast.webp?v=6432ded6f6d7",
+    "downloadImage": "/assets/cards/downloads/trunks-001-orange-energy-blast.webp?v=b1cc9cdb5a91",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-002-red-kienzan-discs",
@@ -6573,13 +6574,14 @@ export const catalog = [
     "style": "Red",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-002-red-kienzan-discs.webp?v=adba36c4b639",
+    "image": "/assets/cards/trunks-002-red-kienzan-discs.webp?v=38f88a95dd4c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-2",
-    "downloadImage": "/assets/cards/downloads/trunks-002-red-kienzan-discs.webp?v=f853c383f44a",
+    "downloadImage": "/assets/cards/downloads/trunks-002-red-kienzan-discs.webp?v=18e82e8bb556",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If Earth Dragon Ball 3 is in play, this attack cannot be stopped.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-003-namek-dragon-ball-2",
@@ -6589,13 +6591,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-003-namek-dragon-ball-2.webp?v=44654a3fc736",
+    "image": "/assets/cards/trunks-003-namek-dragon-ball-2.webp?v=5fba3a9f0d11",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-3",
-    "downloadImage": "/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp?v=287e5b22dcac",
+    "downloadImage": "/assets/cards/downloads/trunks-003-namek-dragon-ball-2.webp?v=35bceacfa605",
     "rules": "Choose an opponent. Lower their Main Personality 1 level, if possible.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-004-captain-ginyu-frog",
@@ -6605,13 +6608,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-004-captain-ginyu-frog.webp?v=d5458ee7f3ec",
+    "image": "/assets/cards/trunks-004-captain-ginyu-frog.webp?v=59cbb6666eeb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-4",
-    "downloadImage": "/assets/cards/downloads/trunks-004-captain-ginyu-frog.webp?v=bc55f00d0f16",
+    "downloadImage": "/assets/cards/downloads/trunks-004-captain-ginyu-frog.webp?v=92ba96393c04",
     "rules": "(Limit 1 per deck.) POWER: Lower a Villain 1 level, if possible. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-005-krillins-kamehameha-outburst",
@@ -6621,13 +6625,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-005-krillins-kamehameha-outburst.webp?v=96a0dcca6966",
+    "image": "/assets/cards/trunks-005-krillins-kamehameha-outburst.webp?v=0da8bf79921b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-5",
-    "downloadImage": "/assets/cards/downloads/trunks-005-krillins-kamehameha-outburst.webp?v=29ff4344daad",
+    "downloadImage": "/assets/cards/downloads/trunks-005-krillins-kamehameha-outburst.webp?v=872e8b78c737",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-006-straining-outburst-move",

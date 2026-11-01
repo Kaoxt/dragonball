@@ -1,0 +1,36 @@
+{
+  "scope": "Trunks Saga 001\u2013005",
+  "cards": 5,
+  "exports": 10,
+  "native_template_version": 3,
+  "base_commit": "eb84b333eef45b9c7bbacd3364153671fae23285",
+  "validation": {
+    "node_tests": 200,
+    "python_tests": 6,
+    "worker_build_dry_run": "passed",
+    "exports_match_render": 10,
+    "minimum_title_brush_clearance": 2.0,
+    "card_type_reference_issues": 0
+  },
+  "footer": {
+    "saga_center": [
+      211.75,
+      1409.5
+    ],
+    "rarity_number_center": [
+      847.25,
+      1409.5
+    ],
+    "ball_number_gap": 12.2,
+    "trunks_mark_height": 54
+  },
+  "approved_artwork_exception": "Namek Dragon Ball 2 retains current frontal Porunga, unchanged full-art transform and color.",
+  "fine_reference_limits": [
+    2,
+    5
+  ],
+  "mastery_adoption": "Use the approved November 1 source in references/mastery-v3.md when reaching Mastery cards. No Mastery cards occur in this batch.",
+  "game_data_changed": false,
+  "other_cards_changed": false,
+  "publication": "Local release verified; live deployment is checked separately after commit."
+}
