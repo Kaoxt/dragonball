@@ -1,0 +1,212 @@
+{
+  "personality_values": null,
+  "number": 13,
+  "id": "frieza-013-empowerment",
+  "name": "Empowerment!",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-013-empowerment.svg",
+  "native_source_sha256": "95d0e197470af90b9f620fee053c3a31aa8807b03bb8c8fc3199c84d06865800",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a8b3f2958e6a5d0aec9e900e8de2e79e151de9690f665889b6e42f9cf6f297af.png",
+      "sha256": "a8b3f2958e6a5d0aec9e900e8de2e79e151de9690f665889b6e42f9cf6f297af"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "a8b3f2958e6a5d0aec9e900e8de2e79e151de9690f665889b6e42f9cf6f297af",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. POWER: Raise your anger 1 level. If",
+      "baseline": 1049.3,
+      "width": 840.8399999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Main Personality is Piccolo or Nail, raise your",
+      "baseline": 1108.3,
+      "width": 888.0759999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "anger 2 levels instead. Banish after use.",
+      "baseline": 1167.3,
+      "width": 712.607,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        303.228,
+        45.9196,
+        452.544,
+        66.1608
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        110.673,
+        1013.53,
+        837.655,
+        45.913
+      ],
+      "rules-line-2": [
+        85.9667,
+        1072.53,
+        887.067,
+        45.521
+      ],
+      "rules-line-3": [
+        174.544,
+        1131.53,
+        709.912,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-013-empowerment.webp",
+      "before_url": "/assets/cards/frieza-013-empowerment.webp?v=69302edfd22e",
+      "before_sha256": "69302edfd22ec33ea2d40b45745873c6445ef2330fbdf396d66fd6ae5bfaad58",
+      "after_sha256": "13dbedc3443027a99f688d7261c4a0d7eb3f46fe6ebe89457271084b5602e032",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-013-empowerment.webp",
+      "before_url": "/assets/cards/downloads/frieza-013-empowerment.webp?v=ae7ea562ac95",
+      "before_sha256": "ae7ea562ac957af76f9913f10d1df8c559f470741723eac57c0b0509d1b9298d",
+      "after_sha256": "1ab0a8719e93ece04642d4f0f93ce9e8428434b79b23c2c37f5a08cada66a26e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 452.54364089775567,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 34.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

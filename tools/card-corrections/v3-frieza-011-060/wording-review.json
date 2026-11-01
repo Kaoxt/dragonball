@@ -1,0 +1,1040 @@
+{
+  "source": "Expanded-CRD.txt",
+  "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "current_source": "User-supplied project_sources/01-Expanded-CRD.odt.txt",
+  "card_specific_entries_checked": [
+    12,
+    13,
+    15,
+    16,
+    17,
+    19,
+    22,
+    23,
+    24,
+    35,
+    37,
+    48,
+    49,
+    55
+  ],
+  "general_entries_checked": [
+    "Unstated energy attack cost: 2 stages; unstated damage: 4 life cards.",
+    "Saiyan Heritage restrictions."
+  ],
+  "rules_changed_from_published": 0,
+  "cards": [
+    {
+      "number": 11,
+      "original_rules": "Villains, Goku, and Gohan only. Energy attack doing 6 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Villains, Goku, and Gohan only. Energy attack doing 6 life cards of damage.",
+      "final_rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 6 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 12,
+      "original_rules": "Power up main personality or ally 5 stages.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Any one of your personalities gains 5 power stages.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Any one of your personalities gains 5 power stages.",
+      "final_rules": "POWER: One of your personalities gains 5 stages.",
+      "personality_values": null
+    },
+    {
+      "number": 13,
+      "original_rules": "Raise Hero's anger 1 level. If Piccolo or Nail is your main personality, raise anger 2 levels. Remove this card from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Heroes only. Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Remove from the game after use.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Heroes only. Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Remove from the game after use.",
+      "final_rules": "Heroes only. POWER: Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 14,
+      "original_rules": "Energy attack. If successful, also draw the top 3 cards from an opponent's discard pile and remove them from the game. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. If successful, also draw the top 3 cards from an opponent's discard pile and remove them from the game. Remove from the game after use.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Banish the top 3 cards of an opponent's discard pile. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 15,
+      "original_rules": "Energy attack. Raise Hero's anger 1 level. If Dragon Ball 6 is in play raise the anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Energy attack. If your Main Personality is a Hero, raise your anger 1 level. If Dragon Ball 6 is in play, raise your anger 2 levels instead.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. If your Main Personality is a Hero, raise your anger 1 level. If Dragon Ball 6 is in play, raise your anger 2 levels instead.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If your Main Personality is a Hero, raise your anger 1 level. If Dragon Ball 6 is in play, raise your anger 2 levels instead.",
+      "personality_values": null
+    },
+    {
+      "number": 16,
+      "original_rules": "Heroes only. Energy attack. If Tien is in play anywhere, you may draw another card.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Heroes only. Energy attack. If performed by Tien, draw a card.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Heroes only. Energy attack. If performed by Tien, draw a card.",
+      "final_rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 4 life cards. If performed by Tien, draw a card.",
+      "personality_values": null
+    },
+    {
+      "number": 17,
+      "original_rules": "Energy attack. No physical attacks will work against villains in this combat. Lower opponent's anger 2 levels. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Energy attack. Stop all physical attacks performed against villains for the remainder of Combat. Lower your opponent's anger 2 levels. Remove from the game after use.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. Stop all physical attacks performed against villains for the remainder of Combat. Lower your opponent's anger 2 levels. Remove from the game after use.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Stop all physical attacks against Villains for the remainder of Combat. Lower your opponent's anger 2 levels. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 18,
+      "original_rules": "Villains, Goku, and Gohan only. Remove opponent's drill card from the game. Lower opponent's anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Villains, Goku, and Gohan only. Remove opponent's drill card from the game. Lower opponent's anger 2 levels.",
+      "final_rules": "Saiyan Heritage only. POWER: Banish 1 opposing Drill. Lower your opponent's anger 2 levels.",
+      "personality_values": null
+    },
+    {
+      "number": 19,
+      "original_rules": "Stops an opponent's current or next combat. Remove this card from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Used during Combat, in place of an attack, to end the current Combat or make an opponent skip their next Combat step. Multiple copies used to skip the next Combat step do not stack.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Used during Combat, in place of an attack, to end the current Combat or make an opponent skip their next Combat step. Multiple copies used to skip the next Combat step do not stack.",
+      "final_rules": "POWER: Use in place of an attack during Combat. End Combat or have an opponent skip their next Combat step. Multiple copies do not stack. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 20,
+      "original_rules": "Energy attack doing 5 life cards of damage. Lower your anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage. Lower your anger 1 level.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your anger 1 level.",
+      "personality_values": null
+    },
+    {
+      "number": 21,
+      "original_rules": "Energy attack. Costs 1 power stage and, if successful, remove the top card from your life deck from the game.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. Costs 1 power stage and, if successful, remove the top card from your life deck from the game.",
+      "final_rules": "Energy attack costing 1 stage. DAMAGE: 4 life cards. HIT: Banish the top card of your Life Deck.",
+      "personality_values": null
+    },
+    {
+      "number": 22,
+      "original_rules": "Energy attack costing 1 life card to use. Combat is over after damage, if any, is taken.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Energy attack that costs 1 life card to perform. If successful, end Combat. Remove from the game after use.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack that costs 1 life card to perform. If successful, end Combat. Remove from the game after use.",
+      "final_rules": "Energy attack costing 1 life card. DAMAGE: 4 life cards. HIT: End Combat. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 23,
+      "original_rules": "For every 2 of your life cards that you now remove from the game, you may remove from the game 1 opponent drill of your choice.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "You can only remove an amount of cards from your deck equal to twice the amount of Drills your opponent has in play.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "You can only remove an amount of cards from your deck equal to twice the amount of Drills your opponent has in play.",
+      "final_rules": "POWER: For every 2 cards you banish from your Life Deck, you may banish 1 opposing Drill. You cannot banish more Life Deck cards than twice the number of opposing Drills.",
+      "personality_values": null
+    },
+    {
+      "number": 24,
+      "original_rules": "Energy attack costing 1-7 life cards. If successful, defender discards that many life cards in damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Energy attack costing X life cards. X must be between 1-7. This attack does X life cards of damage. With Black Energy Stamina Drill, declare the life-card cost before it converts to 1 stage; damage uses the declared amount.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack costing X life cards. X must be between 1-7. This attack does X life cards of damage. With Black Energy Stamina Drill, declare the life-card cost before it converts to 1 stage; damage uses the declared amount.",
+      "final_rules": "Energy attack costing X life cards, where X is 1-7. DAMAGE: X life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 25,
+      "original_rules": "Stops all energy attacks for the rest of this combat. Costs 2 life cards to use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Stops all energy attacks for the rest of this combat. Costs 2 life cards to use.",
+      "final_rules": "Stop all energy attacks against you for the remainder of Combat. Costs 2 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 26,
+      "original_rules": "Power up your main personality to its highest stage. Raise your anger 1 level. Remove from the game after use. Limit 1 per deck.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Power up your main personality to its highest stage. Raise your anger 1 level. Remove from the game after use. Limit 1 per deck.",
+      "final_rules": "(Limit 1 per deck.) POWER: Raise your Main Personality to its highest stage. Raise your anger 1 level. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 27,
+      "original_rules": "Stops an opponent's energy attack. Lower opponent's anger 1 level. If Blue Life Defense Drill is in play lower opponent's anger 2 levels.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Stops an opponent's energy attack. Lower opponent's anger 1 level. If Blue Life Defense Drill is in play lower opponent's anger 2 levels.",
+      "final_rules": "Stop an energy attack. Lower your opponent's anger 1 level. If Blue Life Defense Drill is in play, lower your opponent's anger 2 levels.",
+      "personality_values": null
+    },
+    {
+      "number": 28,
+      "original_rules": "Stops an opponent's physical attack. Lower opponent's anger 1 level.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Stops an opponent's physical attack. Lower opponent's anger 1 level.",
+      "final_rules": "Stop a physical attack. Lower your opponent's anger 1 level.",
+      "personality_values": null
+    },
+    {
+      "number": 29,
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 30,
+      "original_rules": "Stops all attacks from an opponent in this combat. Limit 1 per deck.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Stops all attacks from an opponent in this combat. Limit 1 per deck.",
+      "final_rules": "(Limit 1 per deck.) Stop all attacks from an opponent for the remainder of Combat.",
+      "personality_values": null
+    },
+    {
+      "number": 31,
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 32,
+      "original_rules": "Energy attack. If successful, it also does 3 power stages of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. If successful, it also does 3 power stages of damage.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Deal 3 stages of damage.",
+      "personality_values": null
+    },
+    {
+      "number": 33,
+      "original_rules": "Energy attack. If successful, it also stops opponents from making energy attacks for the rest of this combat.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack. If successful, it also stops opponents from making energy attacks for the rest of this combat.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Your opponents cannot perform energy attacks for the remainder of Combat.",
+      "personality_values": null
+    },
+    {
+      "number": 34,
+      "original_rules": "Villains, Goku, and Gohan only. Stops an energy attack and stops all energy attacks for the rest of this combat.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Villains, Goku, and Gohan only. Stops an energy attack and stops all energy attacks for the rest of this combat.",
+      "final_rules": "Saiyan Heritage only. Stop an energy attack. Stop all energy attacks against you for the remainder of Combat.",
+      "personality_values": null
+    },
+    {
+      "number": 35,
+      "original_rules": "Goku, Gohan, Vegeta, Nappa, Raditz, and other Saiyans and half Saiyans only. Power up your main personality 5 power stages. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "This is a Saiyan Heritage only card.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "This is a Saiyan Heritage only card.",
+      "final_rules": "Saiyan Heritage only. POWER: Your Main Personality gains 5 stages. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 36,
+      "original_rules": "Villains only. Raise your anger 1 level. Power up 3 stages. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Villains only. Raise your anger 1 level. Power up 3 stages. Remove from the game after use.",
+      "final_rules": "Villains only. POWER: Raise your anger 1 level. Gain 3 stages. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 37,
+      "original_rules": "Energy attack doing 5 life cards of damage. If stopped, it still does 2 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 2 life cards.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 2 life cards.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. If stopped, your opponent discards 2 life cards.",
+      "personality_values": {
+        "level": 1,
+        "pur": 1,
+        "stages": [
+          0,
+          32000,
+          34000,
+          36000,
+          38000,
+          40000,
+          42000,
+          44000,
+          46000,
+          48000,
+          50000
+        ]
+      }
+    },
+    {
+      "number": 38,
+      "original_rules": "Physical Attack.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Physical Attack.",
+      "final_rules": "Physical attack. DAMAGE: AT stages.",
+      "personality_values": {
+        "level": 1,
+        "pur": 1,
+        "stages": [
+          0,
+          52000,
+          55000,
+          58000,
+          61000,
+          65000,
+          68000,
+          71000,
+          74000,
+          77000,
+          80000
+        ]
+      }
+    },
+    {
+      "number": 39,
+      "original_rules": "Energy Attack. If successful, Tien also takes the top 2 discarded cards and places them at the bottom of his life deck.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Energy Attack. If successful, Tien also takes the top 2 discarded cards and places them at the bottom of his life deck.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
+      "personality_values": {
+        "level": 3,
+        "pur": 3,
+        "stages": [
+          0,
+          14000,
+          16000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          30000,
+          32000
+        ]
+      }
+    },
+    {
+      "number": 40,
+      "original_rules": "Physical Attack. If successful, Yamcha also takes the top 2 discarded cards and places them at the bottom of his life deck.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Villains, Goku, and Gohan only becomes Saiyan Heritage only.",
+          "Styled/Freestyle classification follows title and kanji, not old background color."
+        ]
+      },
+      "corrected_effect": "Physical Attack. If successful, Yamcha also takes the top 2 discarded cards and places them at the bottom of his life deck.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: Place the top 2 cards of your discard pile at the bottom of your Life Deck.",
+      "personality_values": {
+        "level": 3,
+        "pur": 3,
+        "stages": [
+          0,
+          14000,
+          16000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          30000,
+          32000
+        ]
+      }
+    },
+    {
+      "number": 41,
+      "original_rules": "Physical Attack. If successful, it also does +4 power stages of damage if Goku is present.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Physical Attack. If successful, it also does +4 power stages of damage if Goku is present.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: If Goku is present, deal +4 stages.",
+      "personality_values": {
+        "level": 2,
+        "pur": 2,
+        "stages": [
+          0,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100,
+          1200,
+          1300,
+          1400
+        ]
+      }
+    },
+    {
+      "number": 42,
+      "original_rules": "Bulma may capture a dragon ball from her opponent if she does damage in an energy attack.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Bulma may capture a dragon ball from her opponent if she does damage in an energy attack.",
+      "final_rules": "Bulma may capture a Dragon Ball from her opponent when she deals damage with an energy attack.",
+      "personality_values": {
+        "level": 2,
+        "pur": 2,
+        "stages": [
+          0,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100,
+          1200,
+          1300,
+          1400
+        ]
+      }
+    },
+    {
+      "number": 43,
+      "original_rules": "Energy Attack. If successful, Chiaotzu also stops all other opponent's physical attacks in this combat.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy Attack. If successful, Chiaotzu also stops all other opponent's physical attacks in this combat.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Stop all of your opponent's physical attacks for the rest of this Combat.",
+      "personality_values": {
+        "level": 3,
+        "pur": 3,
+        "stages": [
+          0,
+          14000,
+          16000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          30000,
+          32000
+        ]
+      }
+    },
+    {
+      "number": 44,
+      "original_rules": "Physical Attack. If successful, Yajirobe also does 3 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Physical Attack. If successful, Yajirobe also does 3 life cards of damage.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: Deal 3 life cards of damage.",
+      "personality_values": {
+        "level": 3,
+        "pur": 2,
+        "stages": [
+          0,
+          3200,
+          3700,
+          4200,
+          4700,
+          5200,
+          5700,
+          6200,
+          6700,
+          7200,
+          7700
+        ]
+      }
+    },
+    {
+      "number": 45,
+      "original_rules": "Physical Attack. If successful, you also may take the 2 bottom cards from your discard pile into your hand.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Physical Attack. If successful, you also may take the 2 bottom cards from your discard pile into your hand.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: You may put the bottom 2 cards of your discard pile into your hand.",
+      "personality_values": {
+        "level": 1,
+        "pur": 1,
+        "stages": [
+          0,
+          32000,
+          34000,
+          36000,
+          38000,
+          40000,
+          42000,
+          44000,
+          46000,
+          48000,
+          50000
+        ]
+      }
+    },
+    {
+      "number": 46,
+      "original_rules": "Energy Attack. This attack cannot be stopped by using combat card defenses.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy Attack. This attack cannot be stopped by using combat card defenses.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. This attack cannot be stopped by combat card defenses.",
+      "personality_values": {
+        "level": 2,
+        "pur": 1,
+        "stages": [
+          0,
+          52000,
+          55000,
+          58000,
+          61000,
+          65000,
+          68000,
+          71000,
+          74000,
+          77000,
+          80000
+        ]
+      }
+    },
+    {
+      "number": 47,
+      "original_rules": "Physical Attack. This attack cannot be stopped by using combat card defenses.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Physical Attack. This attack cannot be stopped by using combat card defenses.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. This attack cannot be stopped by combat card defenses.",
+      "personality_values": {
+        "level": 3,
+        "pur": 2,
+        "stages": [
+          0,
+          80000,
+          85000,
+          90000,
+          95000,
+          100000,
+          105000,
+          110000,
+          115000,
+          120000,
+          125000
+        ]
+      }
+    },
+    {
+      "number": 48,
+      "original_rules": "At the end of a combat, put any single ally from your discard pile into play, at 4 stages above zero.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Dende, the Unlikely Hero Lv.1 (Frieza Saga - #48) - Dende must “take control” of Combat, and use his power “in place of an attack.” Then, at the end of Combat, take an Ally from your discard pile and put it into play at 4 power stages above 0. The Ally you bring into play with Dende must be legal. If you bring into play with this power, for instance, Yamcha Lv.2, and you place it on top of Yamcha’s Lv.1, Yamcha does not power up to full, but is placed at 4 power stages above 0.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "In place of an attack, Dende uses this power while controlling Combat. At the end of Combat, put a legal Ally from your discard pile into play at 4 power stages above 0.",
+      "final_rules": "POWER: In place of an attack, use this power to put a legal Ally from your discard pile into play at 4 stages above 0 at the end of this Combat.",
+      "personality_values": {
+        "level": 1,
+        "pur": 2,
+        "stages": [
+          0,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100,
+          1200,
+          1300,
+          1400
+        ]
+      }
+    },
+    {
+      "number": 49,
+      "original_rules": "Stops all energy attacks or physical attacks in this combat if played as this personality's first card in combat.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Frieza Smiles (Frieza Saga - #49) - Treat this card as if it read, “Play this card as your first card from your hand during Combat. Stops a physical or energy attack. For the remainder of Combat, stops all attacks of the same type this card stopped.”",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Play this card as your first card from your hand during Combat. Stops a physical or energy attack. For the remainder of Combat, stops all attacks of the same type this card stopped.",
+      "final_rules": "Play as your first card from your hand this Combat. Stop a physical or energy attack. Stop all attacks of that type for the rest of this Combat.",
+      "personality_values": null
+    },
+    {
+      "number": 50,
+      "original_rules": "All opponents and their allies lose 3 power stages. Remove from the game after use. Limit 1 per deck.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "All opponents and their allies lose 3 power stages. Remove from the game after use. Limit 1 per deck.",
+      "final_rules": "(Limit 1 per deck.) POWER: All opponents and their Allies lose 3 stages. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 51,
+      "original_rules": "All opponents and allies lose 2 power stages. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "All opponents and allies lose 2 power stages. Remove from the game after use.",
+      "final_rules": "POWER: All opponents and their Allies lose 2 stages. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 52,
+      "original_rules": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
+      "final_rules": "Energy attack costing 3 stages. DAMAGE: 5 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 53,
+      "original_rules": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage. Costs 3 power stages to use.",
+      "final_rules": "Energy attack costing 3 stages. DAMAGE: 5 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 54,
+      "original_rules": "Stops an energy attack. Take two cards from your discard pile and put them at the bottom of your life card deck. Limit 1 per deck. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Stops an energy attack. Take two cards from your discard pile and put them at the bottom of your life card deck. Limit 1 per deck. Remove from the game after use.",
+      "final_rules": "(Limit 1 per deck.) Stop an energy attack. Place 2 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 55,
+      "original_rules": "Villains only. All successful attacks on a villain do 1 less power stage or life card of damage than normal.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "Guldo’s Time Freeze Drill (Frieza Saga - #55) - Treat this card as if it read, “Villains only. Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage.”",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Villains only. Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage.",
+      "final_rules": "Villains only. Reduce damage from all attacks against you by 1 stage or 1 life card.",
+      "personality_values": null
+    },
+    {
+      "number": 56,
+      "original_rules": "Energy attack doing 6 life cards of damage. Costs 4 power stages to use. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy attack doing 6 life cards of damage. Costs 4 power stages to use. Remove from the game after use.",
+      "final_rules": "Energy attack costing 4 stages. DAMAGE: 6 life cards. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 57,
+      "original_rules": "Energy attack doing 5 life cards of damage.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy attack doing 5 life cards of damage.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
+      "personality_values": null
+    },
+    {
+      "number": 58,
+      "original_rules": "Energy Attack. If successful, it also stops the opponent from playing any other energy attack cards in this combat.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy Attack. If successful, it also stops the opponent from playing any other energy attack cards in this combat.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Your opponent cannot play energy attack cards for the rest of this Combat.",
+      "personality_values": null
+    },
+    {
+      "number": 59,
+      "original_rules": "Stops a physical or energy attack. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Stops a physical or energy attack. Remove from the game after use.",
+      "final_rules": "Stop a physical or energy attack. Banish after use.",
+      "personality_values": null
+    },
+    {
+      "number": 60,
+      "original_rules": "Energy Attack. If successful, also lower all opponents' anger 1 level. Remove from the game after use.",
+      "applicable_crd": {
+        "source": "Expanded-CRD.txt",
+        "entry": "No card-specific erratum found.",
+        "general": [
+          "Unstated energy attack cost: 2 stages; unstated energy damage: 4 life cards.",
+          "Original non-Combat non-Dragon Ball cards map to Setups or Drills.",
+          "Keep named restrictions unless specifically replaced by CRD."
+        ],
+        "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+      },
+      "corrected_effect": "Energy Attack. If successful, also lower all opponents' anger 1 level. Remove from the game after use.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Lower all opponents' anger 1 level. Banish after use.",
+      "personality_values": null
+    }
+  ]
+}

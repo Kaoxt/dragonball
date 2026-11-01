@@ -1,0 +1,242 @@
+{
+  "personality_values": null,
+  "number": 34,
+  "id": "frieza-034-saiyan-planet-explosion",
+  "name": "Saiyan Planet Explosion",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-034-saiyan-planet-explosion.svg",
+  "native_source_sha256": "d41006eda078fe33b1274b4be79bfbd382949ed1e02dfba0779bb1a1162b5d53",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/66680ad129a1af94fcd5736e0e076987d8e104c7c27d663f3ee9930dff6d52e3.png",
+      "sha256": "66680ad129a1af94fcd5736e0e076987d8e104c7c27d663f3ee9930dff6d52e3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "66680ad129a1af94fcd5736e0e076987d8e104c7c27d663f3ee9930dff6d52e3",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Stop an energy attack.",
+      "baseline": 1049.3,
+      "width": 837.8719473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Stop all energy attacks against you for the",
+      "baseline": 1108.3,
+      "width": 755.433,
+      "icon_inline": false
+    },
+    {
+      "text": "remainder of Combat.",
+      "baseline": 1167.3,
+      "width": 386.02200000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        170.605,
+        44.5,
+        717.789,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        45.474,
+        33.708
+      ],
+      "rules-line-1": [
+        112.01,
+        1013.53,
+        834.981,
+        45.913
+      ],
+      "rules-line-2": [
+        153.107,
+        1072.53,
+        752.787,
+        45.913
+      ],
+      "rules-line-3": [
+        338.204,
+        1131.53,
+        382.592,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          497.145,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          547.836,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          497.145,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-034-saiyan-planet-explosion.webp",
+      "before_url": "/assets/cards/frieza-034-saiyan-planet-explosion.webp?v=81ae30a1a450",
+      "before_sha256": "81ae30a1a45021cdf2739173a6ceb12fa5b0197b997c920dc0dc252b2d7a947e",
+      "after_sha256": "3ed943ca423b28129bc8f1d7e944b5bbc1588006b5d2a8ef258b60d2be6d5f60",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-034-saiyan-planet-explosion.webp",
+      "before_url": "/assets/cards/downloads/frieza-034-saiyan-planet-explosion.webp?v=4169df6b7bd7",
+      "before_sha256": "4169df6b7bd7d659a31e2624b193d60d72759e9d049e678e06a8548cca5596c6",
+      "after_sha256": "bd64c18fdf05b8f21c7dda411c91681030bfc229ab9c93f84f07a42310944d66",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 717.7892768079802,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 14.705441169852742,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

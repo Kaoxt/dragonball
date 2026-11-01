@@ -1,0 +1,230 @@
+{
+  "personality_values": null,
+  "number": 30,
+  "id": "frieza-030-time-is-a-warriors-tool",
+  "name": "Time Is a Warrior's Tool",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-030-time-is-a-warriors-tool.svg",
+  "native_source_sha256": "a00fb9f646af4e98281f1394a76a00adc4e42a0e3c148b1b5cbb3db407164f74",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/74a9b7dffbdfaf99c8929103c6053b4b925aea704a421c30f15dc4a84f273634.png",
+      "sha256": "74a9b7dffbdfaf99c8929103c6053b4b925aea704a421c30f15dc4a84f273634"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "74a9b7dffbdfaf99c8929103c6053b4b925aea704a421c30f15dc4a84f273634",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Stop all attacks from an",
+      "baseline": 1049.3,
+      "width": 807.197947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "opponent for the remainder of Combat.",
+      "baseline": 1108.3,
+      "width": 691.7330000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        173.445,
+        50.2213,
+        712.111,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.619,
+        33.708
+      ],
+      "rules-line-1": [
+        126.759,
+        1012.11,
+        805.483,
+        46.305
+      ],
+      "rules-line-2": [
+        185.177,
+        1072.53,
+        688.646,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          458.729,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          509.42,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          458.729,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-030-time-is-a-warriors-tool.webp",
+      "before_url": "/assets/cards/frieza-030-time-is-a-warriors-tool.webp?v=155a68c47c09",
+      "before_sha256": "155a68c47c093381ab2527391c103927be77b9720628051028b4873177abd2b5",
+      "after_sha256": "d2a3079e83090cb3dda5d9998bbd045e5157406af7dd60fb53bc70465e896dc2",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-030-time-is-a-warriors-tool.webp",
+      "before_url": "/assets/cards/downloads/frieza-030-time-is-a-warriors-tool.webp?v=b0073fcbfbdf",
+      "before_sha256": "b0073fcbfbdf3b0b297ba5631483b9676a82b81f5c2df2ab37e53abee53cb2dd",
+      "after_sha256": "115a5ce16b47f660df0767d7b7a8892ba3c165a6a1013a8d05bacb9b82e4fc7b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 712.1109725685786,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 17.18284027743958,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

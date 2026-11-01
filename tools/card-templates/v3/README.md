@@ -73,3 +73,5 @@ All 19 V3 Villain cards use the scarlet paint, and all seven Saiyan Hi-Tech card
 ## Frieza Saga 001–010
 
 The first ten Frieza cards now use the current V3 system. `build_frieza_001_010.py` reuses retained artwork, the approved current #4 backdrop and #7 mouth patch. The white native Frieza mark uses its actual stroked bounds, uniformly scaled to 53.7814 units wide and centered at (211.75,1409.5). Both exported resolutions are verified. Per-card originals, current CRD review, measured title clearances and footer evidence are in `../../card-corrections/v3-frieza-001-010/`.
+
+Frieza Saga 011–060 now use current V3, recorded in `../../card-corrections/v3-frieza-011-060/`. Preserve the twelve verified Personality LEVEL/PUR/stage sets and Guldo #45’s native front-eye correction. All fifty retain the same stroked-ink Frieza footer center (211.75,1409.5). Both display and download are lossless and independently checked. Continue with card 061.

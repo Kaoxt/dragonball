@@ -1,0 +1,230 @@
+{
+  "personality_values": null,
+  "number": 25,
+  "id": "frieza-025-straining-focusing-move",
+  "name": "Straining Focusing Move",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-025-straining-focusing-move.svg",
+  "native_source_sha256": "7759ecfc405e27bb472dad6a15d58d621d71b72050b95f1071b22b7f04fc4f11",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0c5e5b236f74f054594939c75428b3f3806d082a6660de7b48e621b85b8c7cc9.png",
+      "sha256": "0c5e5b236f74f054594939c75428b3f3806d082a6660de7b48e621b85b8c7cc9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "0c5e5b236f74f054594939c75428b3f3806d082a6660de7b48e621b85b8c7cc9",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stop all energy attacks against you for the",
+      "baseline": 1049.3,
+      "width": 804.801947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "remainder of Combat. Costs 2 life cards.",
+      "baseline": 1108.3,
+      "width": 714.567,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        160.754,
+        44.5,
+        737.491,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.612,
+        33.708
+      ],
+      "rules-line-1": [
+        178.452,
+        1013.53,
+        752.787,
+        45.913
+      ],
+      "rules-line-2": [
+        173.931,
+        1072.53,
+        711.137,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          127.761,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          178.452,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          127.761,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-025-straining-focusing-move.webp",
+      "before_url": "/assets/cards/frieza-025-straining-focusing-move.webp?v=c4c427d31d84",
+      "before_sha256": "c4c427d31d84b0981e55907700da1fb58fc1af76b373c7c7a1e39ebd1885b2de",
+      "after_sha256": "f5e52d06bd2042a335a64210868fade45454a4e12d303e086a0bfa77d10000ea",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-025-straining-focusing-move.webp",
+      "before_url": "/assets/cards/downloads/frieza-025-straining-focusing-move.webp?v=ac35526d912d",
+      "before_sha256": "ac35526d912d69f55e26fb5d987dfa4263b2608e0cd464957ad9d2ed9c47c89c",
+      "after_sha256": "c7fcedf8a4e6fa64594eff16d3b790b4d68e8fd263e7b8ce190731e09fad9a8a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 737.491271820449,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 5.220153254455275,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

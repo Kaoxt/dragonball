@@ -1,0 +1,349 @@
+{
+  "personality_values": {
+    "level": 1,
+    "pur": 1,
+    "stages": [
+      0,
+      32000,
+      34000,
+      36000,
+      38000,
+      40000,
+      42000,
+      44000,
+      46000,
+      48000,
+      50000
+    ]
+  },
+  "number": 45,
+  "id": "frieza-045-guldo",
+  "name": "Guldo",
+  "family": "VILLAIN PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-045-guldo.svg",
+  "native_source_sha256": "511384104dab5d13a8750337eb48a8f98a5ee71ea7cda5227f0900e1353b0312",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a7ec9bc1373a226cd40957fe65eaca8922fefa33025dbd72d74a910402d8f705.png",
+      "sha256": "a7ec9bc1373a226cd40957fe65eaca8922fefa33025dbd72d74a910402d8f705"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d80d94d392a87bb1f94261e5d2c6f96b0987c86b08a971d73fff2ed979d1ffcd.png",
+      "sha256": "d80d94d392a87bb1f94261e5d2c6f96b0987c86b08a971d73fff2ed979d1ffcd"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "a7ec9bc1373a226cd40957fe65eaca8922fefa33025dbd72d74a910402d8f705",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "expression_patch_retained": true
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages. HIT: You",
+      "baseline": 1049.3,
+      "width": 857.5091555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "may put the bottom 2 cards of your discard pile",
+      "baseline": 1108.3,
+      "width": 842.8979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "into your hand.",
+      "baseline": 1167.3,
+      "width": 266.707,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        912.469,
+        160.009,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-1": [
+        910.656,
+        224.691,
+        120.344,
+        38.269
+      ],
+      "power-stage-value-2": [
+        910.901,
+        289.373,
+        120.099,
+        38.269
+      ],
+      "power-stage-value-3": [
+        910.852,
+        354.054,
+        120.148,
+        38.269
+      ],
+      "power-stage-value-4": [
+        912.714,
+        418.736,
+        118.286,
+        38.269
+      ],
+      "power-stage-value-5": [
+        910.558,
+        483.418,
+        120.442,
+        38.269
+      ],
+      "power-stage-value-6": [
+        912.567,
+        548.1,
+        118.433,
+        38.269
+      ],
+      "power-stage-value-7": [
+        912.812,
+        612.782,
+        118.188,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.763,
+        677.463,
+        118.237,
+        38.269
+      ],
+      "power-stage-value-9": [
+        914.625,
+        742.145,
+        116.375,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        447.122,
+        50.2213,
+        164.757,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        45.421,
+        33.708
+      ],
+      "rules-line-1": [
+        156.223,
+        1013.53,
+        801.101,
+        45.913
+      ],
+      "rules-line-2": [
+        109.619,
+        1072.53,
+        839.762,
+        45.521
+      ],
+      "rules-line-3": [
+        397.666,
+        1131.53,
+        263.669,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          101.676,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          156.223,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          101.676,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-045-guldo.webp",
+      "before_url": "/assets/cards/frieza-045-guldo.webp?v=ab1e68b965c3",
+      "before_sha256": "ab1e68b965c3bf36278cb180cc7bdbbd48fe06c6aa9b82b5a907a2f3c83d6aa2",
+      "after_sha256": "7ff2e64b3d3a872514228fda685fec253eb962eda9fa7d77da8bb6b810af5413",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-045-guldo.webp",
+      "before_url": "/assets/cards/downloads/frieza-045-guldo.webp?v=d3ac637b20cd",
+      "before_sha256": "d3ac637b20cda8725c73cbca42e1bd198e6968588f1a35fc23b9d190735d0508",
+      "after_sha256": "4472f45c25fc08a0fc4da07d6b4a5a267809ea4fbe4365d2daf6a6736dbbb223",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 164.75685785536163,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

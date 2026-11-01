@@ -15,7 +15,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
  const rows=JSON.parse(fs.readFileSync(path.join(dir,'audit.json')));
  const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
  const cards=JSON.parse(fs.readFileSync(path.join(dir,'cards.json')));
- const selected=catalog.filter(c=>c.set==='Frieza Saga'&&c.templateVersion===3);
+ const selected=catalog.filter(c=>c.set==='Frieza Saga'&&c.templateVersion===3&&Number(c.number)<=10);
  assert.deepEqual(selected.map(c=>Number(c.number)),Array.from({length:10},(_,i)=>i+1));
  assert.equal(rows.length,10);assert.equal(checks.length,10);
  for(const c of selected){
@@ -42,7 +42,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
  assert.ok(rows.find(r=>r.number===7).artwork.expression_patch_retained);
  assert.match(cards.find(r=>r.number===5).modern_rules,/costing 3 stages/);
  assert.match(cards.find(r=>r.number===8).modern_rules,/^Saiyan Heritage only\./);
- assert.equal(catalog.filter(c=>c.templateVersion===3).length,267);
+ assert.equal(catalog.filter(c=>c.templateVersion===3).length,317);
 });
 test('all 257 Saiyan Saga cards have complete verified V3 native sources and both exports',()=>{
  const selected=catalog.filter(c=>c.templateVersion===3&&c.set==='Saiyan Saga');

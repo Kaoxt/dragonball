@@ -1,0 +1,332 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 2,
+    "stages": [
+      0,
+      3200,
+      3700,
+      4200,
+      4700,
+      5200,
+      5700,
+      6200,
+      6700,
+      7200,
+      7700
+    ]
+  },
+  "number": 44,
+  "id": "frieza-044-yajirobe-the-hero",
+  "name": "Yajirobe the Hero",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-044-yajirobe-the-hero.svg",
+  "native_source_sha256": "ce5d371c409a79c918dde1081c990f0989da8285530228eedbb7be59335cedae",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/59559500a8d15e201f17887f234647fa655f048d22ce3eb645a5479c4a00af9e.png",
+      "sha256": "59559500a8d15e201f17887f234647fa655f048d22ce3eb645a5479c4a00af9e"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "59559500a8d15e201f17887f234647fa655f048d22ce3eb645a5479c4a00af9e",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages. HIT: Deal",
+      "baseline": 1049.3,
+      "width": 867.5051555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "3 life cards of damage.",
+      "baseline": 1108.3,
+      "width": 407.23900000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        941.281,
+        160.009,
+        89.719,
+        38.269
+      ],
+      "power-stage-value-1": [
+        939.174,
+        224.691,
+        91.826,
+        38.269
+      ],
+      "power-stage-value-2": [
+        938.929,
+        289.373,
+        92.071,
+        38.269
+      ],
+      "power-stage-value-3": [
+        936.822,
+        354.054,
+        94.178,
+        38.269
+      ],
+      "power-stage-value-4": [
+        939.223,
+        418.736,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-5": [
+        937.116,
+        483.418,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-6": [
+        937.312,
+        548.1,
+        93.688,
+        38.269
+      ],
+      "power-stage-value-7": [
+        935.205,
+        612.782,
+        95.795,
+        38.269
+      ],
+      "power-stage-value-8": [
+        939.223,
+        677.463,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-9": [
+        937.116,
+        742.145,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        268.642,
+        44.5,
+        521.716,
+        69.0
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        47.541,
+        33.708
+      ],
+      "rules-line-1": [
+        151.127,
+        1013.53,
+        811.293,
+        45.913
+      ],
+      "rules-line-2": [
+        327.228,
+        1072.53,
+        404.544,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          96.5804,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          151.127,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          96.5804,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-044-yajirobe-the-hero.webp",
+      "before_url": "/assets/cards/frieza-044-yajirobe-the-hero.webp?v=d2289c3bea6d",
+      "before_sha256": "d2289c3bea6d34ebe85fa1659602b37271ab56613249337782f1486cd5e8aef6",
+      "after_sha256": "26f65dbce0f83687aef053d14cf16b7fb75fb847371e49a9c249bfa443b7d185",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-044-yajirobe-the-hero.webp",
+      "before_url": "/assets/cards/downloads/frieza-044-yajirobe-the-hero.webp?v=e4a7c7436a23",
+      "before_sha256": "e4a7c7436a23ff9e42eb98ec0ec794e741e88f0f7048422cc742fb1c348bb925",
+      "after_sha256": "f9fdb1c9f453782bab3f7e50c9830e0d0266dd5e968ae5436426f1a5f764c733",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 521.715710723192,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

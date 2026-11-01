@@ -1,0 +1,200 @@
+{
+  "personality_values": null,
+  "number": 35,
+  "id": "frieza-035-saiyan-focusing-power",
+  "name": "Saiyan Focusing Power",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-035-saiyan-focusing-power.svg",
+  "native_source_sha256": "39bc0c8a559b0ccc761ec588689d0a7c24083902d1523af2322193d8f654c8f3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d3eaf7d36722b95d90be9000f53eb6b588930f4d097d49e9a40325dedc3467dd.png",
+      "sha256": "d3eaf7d36722b95d90be9000f53eb6b588930f4d097d49e9a40325dedc3467dd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "d3eaf7d36722b95d90be9000f53eb6b588930f4d097d49e9a40325dedc3467dd",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. POWER: Your Main",
+      "baseline": 1049.3,
+      "width": 705.6,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality gains 5 stages. Banish after use.",
+      "baseline": 1108.3,
+      "width": 790.517,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        179.037,
+        44.5,
+        700.926,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.354,
+        33.708
+      ],
+      "rules-line-1": [
+        178.195,
+        1013.53,
+        702.611,
+        45.913
+      ],
+      "rules-line-2": [
+        136.079,
+        1072.53,
+        786.842,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-035-saiyan-focusing-power.webp",
+      "before_url": "/assets/cards/frieza-035-saiyan-focusing-power.webp?v=5affca122508",
+      "before_sha256": "5affca122508f12074c74bdcc32aa1b896952cea22a9df72019a385c54c5b722",
+      "after_sha256": "57212ee9eb3b3f8959cdb8899606a1bd2355a25d7419f23c3f1c111dcd32742d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-035-saiyan-focusing-power.webp",
+      "before_url": "/assets/cards/downloads/frieza-035-saiyan-focusing-power.webp?v=c683ed5f588a",
+      "before_sha256": "c683ed5f588a82389045ea0daf79c72a7d1f956300f9c13c8a4eb4f4385c279a",
+      "after_sha256": "542a81e956af479f4de3f5a933fb476fa9e08920dc1c41e83b07e673a61808b3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.9264339152121,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 22.85278976405288,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

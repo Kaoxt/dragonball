@@ -1,0 +1,242 @@
+{
+  "personality_values": null,
+  "number": 16,
+  "id": "frieza-016-tiens-jolting-aura",
+  "name": "Tien's Jolting Aura",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-016-tiens-jolting-aura.svg",
+  "native_source_sha256": "5887e885c559fc8ef55e9e08908d260ec78287641688da0109e774b515c4851c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/090d87b471a43973128725acacdca8e7b29461ba1d14df9818feb9cbea00878b.png",
+      "sha256": "090d87b471a43973128725acacdca8e7b29461ba1d14df9818feb9cbea00878b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "090d87b471a43973128725acacdca8e7b29461ba1d14df9818feb9cbea00878b",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 844.7641555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If performed by Tien, draw",
+      "baseline": 1108.3,
+      "width": 859.0190000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a card.",
+      "baseline": 1167.3,
+      "width": 123.382,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        250.145,
+        44.5,
+        558.711,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        108.98,
+        1013.53,
+        841.04,
+        45.913
+      ],
+      "rules-line-2": [
+        101.447,
+        1072.53,
+        856.107,
+        45.521
+      ],
+      "rules-line-3": [
+        469.156,
+        1133.0,
+        120.687,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          338.05,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          392.645,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          338.05,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-016-tiens-jolting-aura.webp",
+      "before_url": "/assets/cards/frieza-016-tiens-jolting-aura.webp?v=8b8cf284e81b",
+      "before_sha256": "8b8cf284e81bfde2bc2b0a9bd6a83c3367d87705d3d7f39285cafea8db933609",
+      "after_sha256": "cf8b6dfe752e782be717266950831b9b6ec5f2b0cee97d62996536650073b0a4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-016-tiens-jolting-aura.webp",
+      "before_url": "/assets/cards/downloads/frieza-016-tiens-jolting-aura.webp?v=1bd9480237c1",
+      "before_sha256": "1bd9480237c17ff4ddc78a2d03a3b41d021f690902220e20eb144b0e81438f2a",
+      "after_sha256": "68d05157a796076fbb363c801a9ba516af6e3bbbf35db03b61280202829f65a7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 558.71072319202,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

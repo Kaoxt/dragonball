@@ -1,0 +1,242 @@
+{
+  "personality_values": null,
+  "number": 27,
+  "id": "frieza-027-orange-thumbs-up",
+  "name": "Orange Thumbs Up",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-027-orange-thumbs-up.svg",
+  "native_source_sha256": "ea50e3d2873bc0c104b9f4ccee64d10338734cfa821d5d5357e6c61293d57081",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c40782ba743235048fdcd50d5ccca3082ca5007781d0e5f4c9636c4cb24a7d56.png",
+      "sha256": "c40782ba743235048fdcd50d5ccca3082ca5007781d0e5f4c9636c4cb24a7d56"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c40782ba743235048fdcd50d5ccca3082ca5007781d0e5f4c9636c4cb24a7d56",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stop an energy attack. Lower your opponent's",
+      "baseline": 1049.3,
+      "width": 865.953947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "anger 1 level. If Blue Life Defense Drill is in play,",
+      "baseline": 1108.3,
+      "width": 843.192,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 663.264,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        251.951,
+        44.5,
+        555.097,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        40.174,
+        33.708
+      ],
+      "rules-line-1": [
+        147.631,
+        1014.61,
+        814.429,
+        44.835
+      ],
+      "rules-line-2": [
+        109.288,
+        1072.53,
+        840.425,
+        45.913
+      ],
+      "rules-line-3": [
+        199.485,
+        1132.61,
+        660.03,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          96.9395,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          147.631,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          96.9395,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-027-orange-thumbs-up.webp",
+      "before_url": "/assets/cards/frieza-027-orange-thumbs-up.webp?v=e3ec9d8014d7",
+      "before_sha256": "e3ec9d8014d7eec4a1d2936fcba5b5c5356f89395d92d00d81dbaeacf850f5b8",
+      "after_sha256": "6b2e19b77b1a194c47a2e5b1aa7ecba013abd07e5226ead090c74d15207603d1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-027-orange-thumbs-up.webp",
+      "before_url": "/assets/cards/downloads/frieza-027-orange-thumbs-up.webp?v=b47033ab71a6",
+      "before_sha256": "b47033ab71a66272c0c7727165da9bbb4597ee9ba36213bcf88a154c9f6d3919",
+      "after_sha256": "e90570853d4f0b290759538fe8c0530f52ae3fff40e13d82e50afa37d9bf5047",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 555.0972568578554,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

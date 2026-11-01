@@ -1,0 +1,242 @@
+{
+  "personality_values": null,
+  "number": 49,
+  "id": "frieza-049-frieza-smiles",
+  "name": "Frieza Smiles",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-049-frieza-smiles.svg",
+  "native_source_sha256": "21439a35081acb6310acd54ac1035ab250e69191f10de65abf4eab48292c9fcb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/da7933d52cabd6d5fccf60d97e4daa1a009e752b4a75b163df66744183422742.png",
+      "sha256": "da7933d52cabd6d5fccf60d97e4daa1a009e752b4a75b163df66744183422742"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "da7933d52cabd6d5fccf60d97e4daa1a009e752b4a75b163df66744183422742",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Play as your first card from your hand this",
+      "baseline": 1049.3,
+      "width": 801.9599473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Combat. Stop a physical or energy attack. Stop all",
+      "baseline": 1108.3,
+      "width": 883.8130000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks of that type for the rest of this Combat.",
+      "baseline": 1167.3,
+      "width": 841.722,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        330.802,
+        50.2213,
+        397.395,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        45.209,
+        33.708
+      ],
+      "rules-line-1": [
+        180.412,
+        1013.53,
+        749.651,
+        45.521
+      ],
+      "rules-line-2": [
+        89.2595,
+        1072.53,
+        880.481,
+        45.913
+      ],
+      "rules-line-3": [
+        109.987,
+        1131.53,
+        839.027,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          128.937,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          180.412,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          128.937,
+          1014.97,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-049-frieza-smiles.webp",
+      "before_url": "/assets/cards/frieza-049-frieza-smiles.webp?v=1bb589f2385e",
+      "before_sha256": "1bb589f2385e198492eca5029eba843027318d7d61a3bca32fe80b707c8627b7",
+      "after_sha256": "522a79612e94acdad929ceea6511755d509df9980be4a47be5f8703faa7fa18b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-049-frieza-smiles.webp",
+      "before_url": "/assets/cards/downloads/frieza-049-frieza-smiles.webp?v=d17636d79a15",
+      "before_sha256": "d17636d79a1580d33023e6cf4d4ca459ca8716c499403fd7eaa0c29c37b77f7b",
+      "after_sha256": "fce68707e9f759bc2b6ee99dbfecfb4dcfce4392e828a930f92b2d7851acebc4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 397.3952618453866,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

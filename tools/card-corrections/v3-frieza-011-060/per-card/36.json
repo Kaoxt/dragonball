@@ -1,0 +1,200 @@
+{
+  "personality_values": null,
+  "number": 36,
+  "id": "frieza-036-alien-anger",
+  "name": "Alien Anger!",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-036-alien-anger.svg",
+  "native_source_sha256": "18ea5d904fc6b62bb965a6fc728192b6065df667af10804a0627de9d49e4dea6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/436edc9b052d373db6f45f569a88edd06706789678216d34d6fecbb019fb5aee.png",
+      "sha256": "436edc9b052d373db6f45f569a88edd06706789678216d34d6fecbb019fb5aee"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "436edc9b052d373db6f45f569a88edd06706789678216d34d6fecbb019fb5aee",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Villains only. POWER: Raise your anger 1 level.",
+      "baseline": 1049.3,
+      "width": 810.9989999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Gain 3 stages. Banish after use.",
+      "baseline": 1108.3,
+      "width": 560.07,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        345.858,
+        44.5,
+        367.283,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        125.324,
+        1013.53,
+        808.353,
+        45.913
+      ],
+      "rules-line-2": [
+        251.082,
+        1072.53,
+        556.836,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-036-alien-anger.webp",
+      "before_url": "/assets/cards/frieza-036-alien-anger.webp?v=9f7642b3889e",
+      "before_sha256": "9f7642b3889e7478977816a1b6b85bf8cfc497e368d29e88c5de593af24fc20f",
+      "after_sha256": "156f4b690e6cd4d92ea55ac93d35e55805cce012a27335ebad3d6f63b9d707dd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-036-alien-anger.webp",
+      "before_url": "/assets/cards/downloads/frieza-036-alien-anger.webp?v=bc15b8ccdb29",
+      "before_sha256": "bc15b8ccdb29ebd832da3d674f126b55445a5e27a81c89e94d798faf82f09887",
+      "after_sha256": "15046a14b4787b02037a39b6eb7b26d89e209f5253b0fba50e91abb5166305b1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 367.283042394015,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

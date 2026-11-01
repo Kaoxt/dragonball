@@ -1,0 +1,200 @@
+{
+  "personality_values": null,
+  "number": 18,
+  "id": "frieza-018-saiyan-concentration",
+  "name": "Saiyan Concentration",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-018-saiyan-concentration.svg",
+  "native_source_sha256": "56211f8e9dd2b983bd7cc19f2f741661c278b0a6e33390c509ea75a57831aca5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8065ce1f2a57aa833c156143620e0319db88a722152950f2510ab60284c7ce8e.png",
+      "sha256": "8065ce1f2a57aa833c156143620e0319db88a722152950f2510ab60284c7ce8e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "8065ce1f2a57aa833c156143620e0319db88a722152950f2510ab60284c7ce8e",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. POWER: Banish 1 opposing",
+      "baseline": 1049.3,
+      "width": 846.5730000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Drill. Lower your opponent's anger 2 levels.",
+      "baseline": 1108.3,
+      "width": 765.0369999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        207.643,
+        44.5,
+        643.713,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        107.683,
+        1013.53,
+        843.633,
+        45.913
+      ],
+      "rules-line-2": [
+        148.844,
+        1072.53,
+        761.313,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-018-saiyan-concentration.webp",
+      "before_url": "/assets/cards/frieza-018-saiyan-concentration.webp?v=c8cdfdbeade9",
+      "before_sha256": "c8cdfdbeade99ab6f5d0ba3d8869cd4ad0343b6692d4c1752a51970171d342cd",
+      "after_sha256": "b853bcd6880f76421f76312b24d715ed331376de9eab5d4208ce56d1141414f6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-018-saiyan-concentration.webp",
+      "before_url": "/assets/cards/downloads/frieza-018-saiyan-concentration.webp?v=55d76a4bc168",
+      "before_sha256": "55d76a4bc168387218367b8db8f43db67a67f48728b08a943ade371208dda85f",
+      "after_sha256": "5f5214f24fe616f54c47c1a4bf7fb0585f0dca87175f7097c94fa429ceb1ecf4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 643.713216957606,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

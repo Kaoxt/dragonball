@@ -1,0 +1,254 @@
+{
+  "personality_values": null,
+  "number": 17,
+  "id": "frieza-017-vegetas-jolting-slash",
+  "name": "Vegeta's Jolting Slash",
+  "family": "ENERGY COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-017-vegetas-jolting-slash.svg",
+  "native_source_sha256": "bbabbd08ec13ffcb7d1e353dc0bbf9b42d5942eb2a1a302f2f0331e70e35b965",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e55bcddf52b26fb63b05a14c24498964ed08b7d5b31a38a2d9f6f8e1173472e6.png",
+      "sha256": "e55bcddf52b26fb63b05a14c24498964ed08b7d5b31a38a2d9f6f8e1173472e6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "e55bcddf52b26fb63b05a14c24498964ed08b7d5b31a38a2d9f6f8e1173472e6",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Stop all physical attacks against Villains",
+      "baseline": 1108.3,
+      "width": 839.4190000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "for the remainder of Combat. Lower your",
+      "baseline": 1167.3,
+      "width": 724.8569999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger 2 levels. Banish after use.",
+      "baseline": 1226.3,
+      "width": 775.6700000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        195.211,
+        44.5,
+        668.577,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        33.814,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "rules-line-2": [
+        110.966,
+        1072.53,
+        837.067,
+        45.913
+      ],
+      "rules-line-3": [
+        167.699,
+        1131.53,
+        723.603,
+        45.521
+      ],
+      "rules-line-4": [
+        143.208,
+        1190.53,
+        772.583,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-017-vegetas-jolting-slash.webp",
+      "before_url": "/assets/cards/frieza-017-vegetas-jolting-slash.webp?v=2e4032308f41",
+      "before_sha256": "2e4032308f4175773031000e1cef3d95c59634200bacb273a07123f0884a5895",
+      "after_sha256": "93f233fd494c545f93ca2568d966891f3ce343a6eafcf28c86634c0ff41becee",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-017-vegetas-jolting-slash.webp",
+      "before_url": "/assets/cards/downloads/frieza-017-vegetas-jolting-slash.webp?v=2bcd95e9166e",
+      "before_sha256": "2bcd95e9166e19293cb49362dd8f84fe8ec9cd930a2afc61552158774e334d92",
+      "after_sha256": "65e007c120b7ad7062aab09dec6fa45c911688a86e3887a3cb93f58e2e784abd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 668.5773067331671,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 30.26962173533062,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

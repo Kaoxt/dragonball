@@ -1,0 +1,212 @@
+{
+  "personality_values": null,
+  "number": 26,
+  "id": "frieza-026-a-hospital-stay",
+  "name": "A Hospital Stay",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-026-a-hospital-stay.svg",
+  "native_source_sha256": "e58449458d27f935763277a0634b300e26ff3f2f13c50a7f8afa22204feb1bf0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/78c99fbc4adccf5ff70fa8f6ca32e3dc62048a2cc2d700e00deb1589d22823bf.png",
+      "sha256": "78c99fbc4adccf5ff70fa8f6ca32e3dc62048a2cc2d700e00deb1589d22823bf"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "78c99fbc4adccf5ff70fa8f6ca32e3dc62048a2cc2d700e00deb1589d22823bf",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Raise your Main",
+      "baseline": 1049.3,
+      "width": 755.678,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality to its highest stage. Raise your anger",
+      "baseline": 1108.3,
+      "width": 873.425,
+      "icon_inline": false
+    },
+    {
+      "text": "1 level. Banish after use.",
+      "baseline": 1167.3,
+      "width": 430.5630000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        300.475,
+        44.5,
+        458.05,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        152.519,
+        1012.11,
+        753.963,
+        46.942
+      ],
+      "rules-line-2": [
+        94.0272,
+        1072.53,
+        870.946,
+        45.913
+      ],
+      "rules-line-3": [
+        315.223,
+        1131.53,
+        428.554,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-026-a-hospital-stay.webp",
+      "before_url": "/assets/cards/frieza-026-a-hospital-stay.webp?v=efac91ff64ac",
+      "before_sha256": "efac91ff64ace20aa81b8d027c834232fda0bb6e5ecef9825ba94ca250419283",
+      "after_sha256": "1a5925a10b98212014fc6bf039a678d847d497acc0fcaae163413b590c2d8b00",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-026-a-hospital-stay.webp",
+      "before_url": "/assets/cards/downloads/frieza-026-a-hospital-stay.webp?v=51e4d893a6d6",
+      "before_sha256": "51e4d893a6d6af999bc2d7615d355d594fd610df8a7ea62e70e522af5e25c167",
+      "after_sha256": "36bfe0dc62fdf875499e05e69d7d6868a90b8c5370fff8b19f76a162b2a456aa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 458.04987531172077,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 33.0,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

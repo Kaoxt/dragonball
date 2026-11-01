@@ -1,0 +1,224 @@
+{
+  "personality_values": null,
+  "number": 19,
+  "id": "frieza-019-powerful-followers",
+  "name": "Powerful Followers",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-019-powerful-followers.svg",
+  "native_source_sha256": "409d5132525f039b35894b9397eac8211405f6c0dae5a883574d142fdaa23cad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9d1a751c65e96fe4c7a303eab79dc496d2c3a318bd45d97d891f174197370b94.png",
+      "sha256": "9d1a751c65e96fe4c7a303eab79dc496d2c3a318bd45d97d891f174197370b94"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "9d1a751c65e96fe4c7a303eab79dc496d2c3a318bd45d97d891f174197370b94",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use in place of an attack during Combat.",
+      "baseline": 1049.3,
+      "width": 866.124,
+      "icon_inline": false
+    },
+    {
+      "text": "End Combat or have an opponent skip their next",
+      "baseline": 1108.3,
+      "width": 851.424,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat step. Multiple copies do not stack. Banish",
+      "baseline": 1167.3,
+      "width": 878.766,
+      "icon_inline": false
+    },
+    {
+      "text": "after use.",
+      "baseline": 1226.3,
+      "width": 172.137,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        237.971,
+        50.2213,
+        583.059,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        36.04,
+        33.708
+      ],
+      "rules-line-1": [
+        98.2755,
+        1013.53,
+        862.449,
+        45.913
+      ],
+      "rules-line-2": [
+        105.332,
+        1072.53,
+        848.337,
+        44.884
+      ],
+      "rules-line-3": [
+        91.783,
+        1131.53,
+        875.434,
+        44.884
+      ],
+      "rules-line-4": [
+        444.779,
+        1191.85,
+        169.442,
+        34.8444
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-019-powerful-followers.webp",
+      "before_url": "/assets/cards/frieza-019-powerful-followers.webp?v=d8786e03fea4",
+      "before_sha256": "d8786e03fea47316a00b23de0ec9fa5db0c6d6254175f1d06df2fae51cb9c611",
+      "after_sha256": "222d70ed7241bba4238f3d2ccf8b5b9cdeb24cad9df9f1e0e84a085ff68d70f8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-019-powerful-followers.webp",
+      "before_url": "/assets/cards/downloads/frieza-019-powerful-followers.webp?v=de52d9fde41f",
+      "before_sha256": "de52d9fde41f3648b161b9c534efec2e9b23ef90d4a89b25aad5fefbe76ddc95",
+      "after_sha256": "7d7c13c84b2a0507ddabe4e37958fc5428a6e1e807bb757b760cb8175c682eb6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 583.0586034912719,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 38.5,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  }
+}

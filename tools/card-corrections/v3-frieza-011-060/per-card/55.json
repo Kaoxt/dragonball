@@ -1,0 +1,231 @@
+{
+  "personality_values": null,
+  "number": 55,
+  "id": "frieza-055-guldos-time-freeze-drill",
+  "name": "Guldo's Time Freeze Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-011-060/frieza-055-guldos-time-freeze-drill.svg",
+  "native_source_sha256": "ad231c540362e357b250bc252f23808718bc0daab0fb78b5880d41246d28e2eb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c09bcf2c052030c26780f56bad4e02e4fb92e31466f2ac1148c22bebd0ed41a8.png",
+      "sha256": "c09bcf2c052030c26780f56bad4e02e4fb92e31466f2ac1148c22bebd0ed41a8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c09bcf2c052030c26780f56bad4e02e4fb92e31466f2ac1148c22bebd0ed41a8",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Villains only. Reduce damage from all attacks",
+      "baseline": 1049.3,
+      "width": 877.42075,
+      "icon_inline": true
+    },
+    {
+      "text": "against you by 1 stage or 1 life card.",
+      "baseline": 1108.3,
+      "width": 630.924,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        161.916,
+        50.2213,
+        735.168,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        820.2,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        880.0,
+        1392.65,
+        43.354,
+        33.708
+      ],
+      "rules-line-1": [
+        91.7451,
+        1013.53,
+        875.51,
+        45.913
+      ],
+      "rules-line-2": [
+        215.386,
+        1072.53,
+        628.229,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "R",
+        "capital_glyph_index": 13,
+        "previous_visible_bounds": [
+          327.724,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          395.474,
+          1015.0,
+          19.943,
+          34.3
+        ],
+        "new_visible_bounds": [
+          327.724,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-055-guldos-time-freeze-drill.webp",
+      "before_url": "/assets/cards/frieza-055-guldos-time-freeze-drill.webp?v=6e1ad216f757",
+      "before_sha256": "6e1ad216f757de90dfee1b397f565e557f42b92adb049ff4fc11fa63909fa30a",
+      "after_sha256": "6144eb36947aa165478f5e2cc2fa6aeab761ff5ded98bbd90107472e77c9c502",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-055-guldos-time-freeze-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-055-guldos-time-freeze-drill.webp?v=52009b741d0c",
+      "before_sha256": "52009b741d0c88cd7b6dce2f57b52f71675237b39740b8f45bc75d96932d6495",
+      "after_sha256": "bed4a720c380c9b7655bed7853490dac5021a74458fecd6ece16e177b4d216fa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 735.1683291770574,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true,
+    "title_edge_clearance": {
+      "minimum_brush_clearance": 9.192388155425117,
+      "title_pixels_outside_brush": 0,
+      "title_helper_idempotent": true
+    }
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true,
+    "measured_visible_center": [
+      211.74970000000002,
+      1409.4956499999998
+    ]
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}
