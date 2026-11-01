@@ -5886,8 +5886,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/101_2adbef66-8031-45d5-97ec-29bc52e3d652.png?v=1584310644",
     "rarity": "Rare",
     "rules": "Heroes only. Opponents can play only 1 Dragon Ball on their turn.",
-    "image": "/assets/cards/frieza-101-hero-teamwork-drill.webp?v=7712e2f6295d",
-    "downloadImage": "/assets/cards/downloads/frieza-101-hero-teamwork-drill.webp?v=095263bf9721"
+    "image": "/assets/cards/frieza-101-hero-teamwork-drill.webp?v=4bfe7bf8090d",
+    "downloadImage": "/assets/cards/downloads/frieza-101-hero-teamwork-drill.webp?v=2a8e4e1f3b90",
+    "templateVersion": 3
   },
   {
     "id": "frieza-102-villain-s-teamwork-drill",
@@ -5902,8 +5903,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/102_3a078646-3c1d-4378-9403-05dec2e64ab0.png?v=1584310647",
     "rarity": "Rare",
     "rules": "Villains only. Opponents can play only 1 Dragon Ball on their turn. If Saibaimen is anywhere in play, Heroes must keep their hands face up during Combat.",
-    "image": "/assets/cards/frieza-102-villain-s-teamwork-drill.webp?v=985275681a00",
-    "downloadImage": "/assets/cards/downloads/frieza-102-villain-s-teamwork-drill.webp?v=3e7e78116d5f"
+    "image": "/assets/cards/frieza-102-villain-s-teamwork-drill.webp?v=5697614b1ec8",
+    "downloadImage": "/assets/cards/downloads/frieza-102-villain-s-teamwork-drill.webp?v=955ba4b3f406",
+    "templateVersion": 3
   },
   {
     "id": "frieza-103-human-technology",
@@ -5918,8 +5920,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/103_c01e6042-916e-45b8-8892-b755cf60ffc5.png?v=1584310650",
     "rarity": "Rare",
     "rules": "Heroes only. POWER: End Combat. Banish after use.",
-    "image": "/assets/cards/frieza-103-human-technology.webp?v=9cd63f7aafd9",
-    "downloadImage": "/assets/cards/downloads/frieza-103-human-technology.webp?v=7aacd17345c8"
+    "image": "/assets/cards/frieza-103-human-technology.webp?v=9564dc3ec082",
+    "downloadImage": "/assets/cards/downloads/frieza-103-human-technology.webp?v=df94356e317c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-104-power",
@@ -5934,8 +5937,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/104_d58d7572-fd56-4962-b7cd-004b25b14bb5.png?v=1584310652",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Villains only. POWER: If your opponent's Main Personality is a Hero, your opponent discards 4 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-104-power.webp?v=6802c5f81c38",
-    "downloadImage": "/assets/cards/downloads/frieza-104-power.webp?v=1e25194a31c3"
+    "image": "/assets/cards/frieza-104-power.webp?v=66ccd0b774fc",
+    "downloadImage": "/assets/cards/downloads/frieza-104-power.webp?v=5fcabdbff8b4",
+    "templateVersion": 3
   },
   {
     "id": "frieza-105-dende-s-help",
@@ -5950,8 +5954,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/105_871e3db1-f2d0-4d41-8b9a-829c392a7c3c.png?v=1584310655",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Heroes only. POWER: Place any 3 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
-    "image": "/assets/cards/frieza-105-dende-s-help.webp?v=ec014f3e3ac4",
-    "downloadImage": "/assets/cards/downloads/frieza-105-dende-s-help.webp?v=1d954aa02f8d"
+    "image": "/assets/cards/frieza-105-dende-s-help.webp?v=b53d1c1bc278",
+    "downloadImage": "/assets/cards/downloads/frieza-105-dende-s-help.webp?v=b1172676c495",
+    "templateVersion": 3
   },
   {
     "id": "frieza-106-goku-s-super-saiyan-blast",
@@ -5966,8 +5971,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/106_189891f9-171e-48cf-ac92-cc72cca122d3.png?v=1584310658",
     "rarity": "Rare",
     "rules": "Stop a physical or energy attack. Alternatively, if Goku's Mixing Drill is in play: Energy attack costing 2 stages. DAMAGE: 4 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-106-goku-s-super-saiyan-blast.webp?v=8f302c0889b1",
-    "downloadImage": "/assets/cards/downloads/frieza-106-goku-s-super-saiyan-blast.webp?v=e94c610d6dd9"
+    "image": "/assets/cards/frieza-106-goku-s-super-saiyan-blast.webp?v=2923843f849b",
+    "downloadImage": "/assets/cards/downloads/frieza-106-goku-s-super-saiyan-blast.webp?v=5e81daea87cb",
+    "templateVersion": 3
   },
   {
     "id": "frieza-107-piccolo-s-wisdom",
@@ -5982,8 +5988,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/107_3ac3968f-57bf-4d93-b0c6-d62ab74f0c08.png?v=1584310661",
     "rarity": "Rare",
     "rules": "Piccolo only. POWER: Search your Life Deck for a Dragon Ball whose number matches Piccolo's current personality level and play it. Banish after use.",
-    "image": "/assets/cards/frieza-107-piccolo-s-wisdom.webp?v=f4a53e986723",
-    "downloadImage": "/assets/cards/downloads/frieza-107-piccolo-s-wisdom.webp?v=d1ed38be14d9"
+    "image": "/assets/cards/frieza-107-piccolo-s-wisdom.webp?v=83ac4d6c1ab7",
+    "downloadImage": "/assets/cards/downloads/frieza-107-piccolo-s-wisdom.webp?v=80d8e520649c",
+    "templateVersion": 3
   },
   {
     "id": "frieza-108-yamcha-s-good-wishes",
@@ -5998,8 +6005,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/108_ebba07b5-5ec2-4040-a700-9577d362219a.png?v=1584310664",
     "rarity": "Rare",
     "rules": "Stop a physical attack. Stop all physical attacks for the rest of this Combat. Banish after use.",
-    "image": "/assets/cards/frieza-108-yamcha-s-good-wishes.webp?v=cc793c4036af",
-    "downloadImage": "/assets/cards/downloads/frieza-108-yamcha-s-good-wishes.webp?v=fe1a54478543"
+    "image": "/assets/cards/frieza-108-yamcha-s-good-wishes.webp?v=44f28102894d",
+    "downloadImage": "/assets/cards/downloads/frieza-108-yamcha-s-good-wishes.webp?v=18cf594d1350",
+    "templateVersion": 3
   },
   {
     "id": "frieza-109-captain-ginyu-s-sacrifice",
@@ -6014,8 +6022,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/109_ee93688e-a08d-4bc0-9a52-743ba36b95d2.png?v=1584310665",
     "rarity": "Rare",
     "rules": "Villains only. POWER: Banish an Ally to end Combat. Alternatively, if Saiyan Power Drill is in play: Energy attack costing 2 stages. DAMAGE: 4 life cards.",
-    "image": "/assets/cards/frieza-109-captain-ginyu-s-sacrifice.webp?v=ca9deebf5d41",
-    "downloadImage": "/assets/cards/downloads/frieza-109-captain-ginyu-s-sacrifice.webp?v=aa6b9d597716"
+    "image": "/assets/cards/frieza-109-captain-ginyu-s-sacrifice.webp?v=cd4503ed80d2",
+    "downloadImage": "/assets/cards/downloads/frieza-109-captain-ginyu-s-sacrifice.webp?v=9accf615c4ca",
+    "templateVersion": 3
   },
   {
     "id": "frieza-110-nail-the-namekian-hero",
@@ -6046,8 +6055,9 @@ export const catalog = [
       60000,
       0
     ],
-    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=b0f93794aba6",
-    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=4b232f1e6884"
+    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=be0d3c42f77d",
+    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=4515b69a60f3",
+    "templateVersion": 3
   },
   {
     "id": "frieza-111-krillin-s-power-tap",
@@ -6062,8 +6072,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/111_861b86df-5c4d-4a13-a80c-d08f108d2683.png?v=1584310668",
     "rarity": "Rare",
     "rules": "POWER: Use when needed. Copy a Drill in play as your floating effect until Combat ends, active only during Attack Phases. If Black Shadow Drill is in play, put all opposing Allies on the bottom of their owners' Life Decks. Banish after use.",
-    "image": "/assets/cards/frieza-111-krillin-s-power-tap.webp?v=53f7b6d31d78",
-    "downloadImage": "/assets/cards/downloads/frieza-111-krillin-s-power-tap.webp?v=9b7ac866e76b"
+    "image": "/assets/cards/frieza-111-krillin-s-power-tap.webp?v=b6ad443460b8",
+    "downloadImage": "/assets/cards/downloads/frieza-111-krillin-s-power-tap.webp?v=dad8c5ad5696",
+    "templateVersion": 3
   },
   {
     "id": "frieza-112-black-swift-elbow-strike",
@@ -6078,8 +6089,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/112_cd85b803-57a1-4ea8-871e-fdd4fbf47c71.png?v=1584310670",
     "rarity": "Rare",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Stop all energy attacks for the rest of this Combat.",
-    "image": "/assets/cards/frieza-112-black-swift-elbow-strike.webp?v=2a375fef664b",
-    "downloadImage": "/assets/cards/downloads/frieza-112-black-swift-elbow-strike.webp?v=018b0cd8f57c"
+    "image": "/assets/cards/frieza-112-black-swift-elbow-strike.webp?v=351e11166491",
+    "downloadImage": "/assets/cards/downloads/frieza-112-black-swift-elbow-strike.webp?v=10dc4ad8e1f6",
+    "templateVersion": 3
   },
   {
     "id": "frieza-113-kami-fades",
@@ -6094,8 +6106,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/113_ff738fe3-d28d-426a-aea3-35f986416dbf.png?v=1584310672",
     "rarity": "Rare",
     "rules": "POWER: Banish all Earth Dragon Balls in play and in all Life Decks.",
-    "image": "/assets/cards/frieza-113-kami-fades.webp?v=16a633f6873a",
-    "downloadImage": "/assets/cards/downloads/frieza-113-kami-fades.webp?v=49d7262072c1"
+    "image": "/assets/cards/frieza-113-kami-fades.webp?v=6b92666aee63",
+    "downloadImage": "/assets/cards/downloads/frieza-113-kami-fades.webp?v=722ab1bb731a",
+    "templateVersion": 3
   },
   {
     "id": "frieza-114-gohan-s-stomp",
@@ -6110,8 +6123,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/114_448092a9-1174-44fe-8838-978c931ca1d2.png?v=1584310673",
     "rarity": "Rare",
     "rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 5 life cards. Main Personality powers cannot stop this attack or prevent or reduce its damage.",
-    "image": "/assets/cards/frieza-114-gohan-s-stomp.webp?v=9c1f2cd33458",
-    "downloadImage": "/assets/cards/downloads/frieza-114-gohan-s-stomp.webp?v=252ca32714a7"
+    "image": "/assets/cards/frieza-114-gohan-s-stomp.webp?v=fcb69a4f7dbb",
+    "downloadImage": "/assets/cards/downloads/frieza-114-gohan-s-stomp.webp?v=c4011b673e24",
+    "templateVersion": 3
   },
   {
     "id": "frieza-115-piccolo-s-stomp",
@@ -6126,8 +6140,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/115_3467ff57-33d0-417d-8f63-cbd0f20aced4.png?v=1584310679",
     "rarity": "Rare",
     "rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 5 life cards, or 7 if Piccolo's Flight is in play. Main Personality powers cannot stop this attack or prevent or reduce its damage.",
-    "image": "/assets/cards/frieza-115-piccolo-s-stomp.webp?v=5ac199e2a5b7",
-    "downloadImage": "/assets/cards/downloads/frieza-115-piccolo-s-stomp.webp?v=dd740e672a17"
+    "image": "/assets/cards/frieza-115-piccolo-s-stomp.webp?v=18f84b4a0f6c",
+    "downloadImage": "/assets/cards/downloads/frieza-115-piccolo-s-stomp.webp?v=c169b75ec8ff",
+    "templateVersion": 3
   },
   {
     "id": "frieza-116-goku-s-quickness",
@@ -6142,8 +6157,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/116_3f35e31d-6b86-4a22-8a4c-4046a38e40e2.png?v=1584310681",
     "rarity": "Rare",
     "rules": "Heroes only. Stop the first physical attack next Combat. Alternatively, if Chiaotzu's Drill is in play: Energy attack costing 2 stages. DAMAGE: 4 life cards. Banish after use.",
-    "image": "/assets/cards/frieza-116-goku-s-quickness.webp?v=729dfa907c96",
-    "downloadImage": "/assets/cards/downloads/frieza-116-goku-s-quickness.webp?v=49cced19d4db"
+    "image": "/assets/cards/frieza-116-goku-s-quickness.webp?v=59fdadab8a84",
+    "downloadImage": "/assets/cards/downloads/frieza-116-goku-s-quickness.webp?v=9b28e727ecb6",
+    "templateVersion": 3
   },
   {
     "id": "frieza-117-nail-inspired",
@@ -6174,8 +6190,9 @@ export const catalog = [
       55000,
       0
     ],
-    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=9dacd836fd73",
-    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=611afa7b71bf"
+    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=ef2c1ef4fd11",
+    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=88f6d6d253cd",
+    "templateVersion": 3
   },
   {
     "id": "frieza-118-the-plan",
@@ -6190,8 +6207,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/118_35b9f73e-4593-4e4e-926e-0a85c8c03d33.png?v=1584310684",
     "rarity": "Rare",
     "rules": "POWER: All opponents discard their Allies in play. Banish after use.",
-    "image": "/assets/cards/frieza-118-the-plan.webp?v=cd691dbba990",
-    "downloadImage": "/assets/cards/downloads/frieza-118-the-plan.webp?v=3e46a796154a"
+    "image": "/assets/cards/frieza-118-the-plan.webp?v=b461ab712601",
+    "downloadImage": "/assets/cards/downloads/frieza-118-the-plan.webp?v=922f34362ce8",
+    "templateVersion": 3
   },
   {
     "id": "frieza-119-mommy-s-coming-dear",
@@ -6206,8 +6224,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/119_3db9da47-6312-4960-88eb-5a8eeaef1957.png?v=1584310686",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Heroes only. Use as a defense. Stop a physical or energy attack and all attacks for the rest of Combat. Banish after use, or discard instead if any Dragon Ball 7 is in play.",
-    "image": "/assets/cards/frieza-119-mommy-s-coming-dear.webp?v=f9b3aec553ea",
-    "downloadImage": "/assets/cards/downloads/frieza-119-mommy-s-coming-dear.webp?v=13a58215ecf1"
+    "image": "/assets/cards/frieza-119-mommy-s-coming-dear.webp?v=1a175cd827cf",
+    "downloadImage": "/assets/cards/downloads/frieza-119-mommy-s-coming-dear.webp?v=e8d7627a269f",
+    "templateVersion": 3
   },
   {
     "id": "frieza-120-bulma-s-scouter",
@@ -6222,8 +6241,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/120_bb6057fa-a9cc-4421-9756-ed3769bad377.png?v=1584310687",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Heroes only. POWER: Search your Life Deck for a Dragon Ball and play it. Banish after use.",
-    "image": "/assets/cards/frieza-120-bulma-s-scouter.webp?v=36bb023457f0",
-    "downloadImage": "/assets/cards/downloads/frieza-120-bulma-s-scouter.webp?v=11119bf1c24c"
+    "image": "/assets/cards/frieza-120-bulma-s-scouter.webp?v=5336622c9308",
+    "downloadImage": "/assets/cards/downloads/frieza-120-bulma-s-scouter.webp?v=9da2432eb02d",
+    "templateVersion": 3
   },
   {
     "id": "frieza-121-this-too-shall-pass",
@@ -6238,8 +6258,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/121_f1ddb220-eacc-44f3-bd52-bc64d97f5e7c.png?v=1584310689",
     "rarity": "Rare",
     "rules": "POWER: Stop the effect of any non-Dragon Ball card and banish that card. You may use this at any time.",
-    "image": "/assets/cards/frieza-121-this-too-shall-pass.webp?v=25273d61592e",
-    "downloadImage": "/assets/cards/downloads/frieza-121-this-too-shall-pass.webp?v=5095ad9e614f"
+    "image": "/assets/cards/frieza-121-this-too-shall-pass.webp?v=fbedd90f098c",
+    "downloadImage": "/assets/cards/downloads/frieza-121-this-too-shall-pass.webp?v=582ab91d98fb",
+    "templateVersion": 3
   },
   {
     "id": "frieza-122-focusing-is-everything",
@@ -6254,8 +6275,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/122_e18da67a-940f-433b-98f0-6e73b5de794c.png?v=1584310690",
     "rarity": "Rare",
     "rules": "Heroes only. POWER: Banish an opponent's Setup or Drill in play. Banish after use.",
-    "image": "/assets/cards/frieza-122-focusing-is-everything.webp?v=851ee4944532",
-    "downloadImage": "/assets/cards/downloads/frieza-122-focusing-is-everything.webp?v=211f3ec43c07"
+    "image": "/assets/cards/frieza-122-focusing-is-everything.webp?v=01f268b44296",
+    "downloadImage": "/assets/cards/downloads/frieza-122-focusing-is-everything.webp?v=7b4ce855516a",
+    "templateVersion": 3
   },
   {
     "id": "frieza-123-red-foot-jolt",
@@ -6270,8 +6292,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/123_f2e9f3eb-8bfc-4509-ac51-3dc7c08ef7fa.png?v=1584310692",
     "rarity": "Rare",
     "rules": "(Limit 1 per deck.) Physical attack. DAMAGE: 0 stages. HIT: Discard all your opponent's Drills in play.",
-    "image": "/assets/cards/frieza-123-red-foot-jolt.webp?v=2ef62d4a5996",
-    "downloadImage": "/assets/cards/downloads/frieza-123-red-foot-jolt.webp?v=11b0c92c8ad3"
+    "image": "/assets/cards/frieza-123-red-foot-jolt.webp?v=bd9f3f0a0f28",
+    "downloadImage": "/assets/cards/downloads/frieza-123-red-foot-jolt.webp?v=0d10f5bf2c62",
+    "templateVersion": 3
   },
   {
     "id": "frieza-124-frieza-the-master",
@@ -6302,8 +6325,9 @@ export const catalog = [
       149991,
       0
     ],
-    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=37aa74e8ffc1",
-    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=5c57311bc9ac"
+    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=8a82825d2cae",
+    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=68eb2cef7fa5",
+    "templateVersion": 3
   },
   {
     "id": "frieza-125-super-saiyan-goku",
@@ -6334,8 +6358,9 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=fbec398b0bec",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=60c163968e83"
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=4d585878c3a8",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=6407beba3fd0",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p1-it-s-just-not-worth-it",
@@ -6350,8 +6375,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P1_b8c3515c-9fbc-47ca-ad61-96c7525037c3.png?v=1756072723",
     "rarity": "Promo",
     "rules": "(Limit 1 per deck.) POWER: Your opponent cannot win by Most Powerful Personality Victory or Dragon Ball Victory until the end of their second turn, starting now. Banish after use.",
-    "image": "/assets/cards/frieza-p1-it-s-just-not-worth-it.webp?v=c06e75246886",
-    "downloadImage": "/assets/cards/downloads/frieza-p1-it-s-just-not-worth-it.webp?v=21a21ac333e4"
+    "image": "/assets/cards/frieza-p1-it-s-just-not-worth-it.webp?v=1e97fb801248",
+    "downloadImage": "/assets/cards/downloads/frieza-p1-it-s-just-not-worth-it.webp?v=cbd287299153",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p2-captain-ginyu-transformed",
@@ -6366,8 +6392,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P2_84d4a8be-4be7-4c41-be09-404ddddc059e.png?v=1756072722",
     "rarity": "Promo",
     "rules": "(Limit 1 per deck.) Physical attack costing 1 life card. DAMAGE: AT stages. Lower your opponent's anger to 0.",
-    "image": "/assets/cards/frieza-p2-captain-ginyu-transformed.webp?v=b8f28640d9b7",
-    "downloadImage": "/assets/cards/downloads/frieza-p2-captain-ginyu-transformed.webp?v=31e6b5ad1dfd"
+    "image": "/assets/cards/frieza-p2-captain-ginyu-transformed.webp?v=9e73f07992a6",
+    "downloadImage": "/assets/cards/downloads/frieza-p2-captain-ginyu-transformed.webp?v=3d03255a8f89",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p3-calming-sanctuary",
@@ -6382,8 +6409,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P3_cade171c-9a9a-4ff2-a129-bedb1059a224.png?v=1756072721",
     "rarity": "Promo",
     "rules": "POWER: For each level you lower your anger, lower all opponents' anger 1 level.",
-    "image": "/assets/cards/frieza-p3-calming-sanctuary.webp?v=a4acdf4c8c0a",
-    "downloadImage": "/assets/cards/downloads/frieza-p3-calming-sanctuary.webp?v=58d3b51a98ab"
+    "image": "/assets/cards/frieza-p3-calming-sanctuary.webp?v=77741bca2422",
+    "downloadImage": "/assets/cards/downloads/frieza-p3-calming-sanctuary.webp?v=9a2c9d56da76",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p4-dragon-s-glare",
@@ -6398,8 +6426,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P4_2cd54ff1-8283-4ef0-b162-800e546c30a6.png?v=1756072720",
     "rarity": "Promo",
     "rules": "POWER: Set all players' anger to 3.",
-    "image": "/assets/cards/frieza-p4-dragon-s-glare.webp?v=0c83d6c6755a",
-    "downloadImage": "/assets/cards/downloads/frieza-p4-dragon-s-glare.webp?v=6d5090d094a9"
+    "image": "/assets/cards/frieza-p4-dragon-s-glare.webp?v=9ae9eaef9775",
+    "downloadImage": "/assets/cards/downloads/frieza-p4-dragon-s-glare.webp?v=24eb5dfb7bdb",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p5-frieza-s-force-bubble",
@@ -6414,8 +6443,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P5_93060d42-a428-48b5-95f1-7e56bbf29a74.png?v=1756072719",
     "rarity": "Promo",
     "rules": "(Limit 1 per deck.) Stop an energy attack. Stop all energy attacks for the rest of this Combat.",
-    "image": "/assets/cards/frieza-p5-frieza-s-force-bubble.webp?v=67837946c527",
-    "downloadImage": "/assets/cards/downloads/frieza-p5-frieza-s-force-bubble.webp?v=2a219907ae4c"
+    "image": "/assets/cards/frieza-p5-frieza-s-force-bubble.webp?v=4453169db8d6",
+    "downloadImage": "/assets/cards/downloads/frieza-p5-frieza-s-force-bubble.webp?v=1754f078c2e2",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p6-the-last-wish",
@@ -6430,8 +6460,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P6_300443d8-ac96-4e4b-ac30-199cd3d7cdce.png?v=1756072717",
     "rarity": "Promo",
     "rules": "POWER: Search your discard pile for an Ally and play it.",
-    "image": "/assets/cards/frieza-p6-the-last-wish.webp?v=72ed1a3becbb",
-    "downloadImage": "/assets/cards/downloads/frieza-p6-the-last-wish.webp?v=c2df2a90fe60"
+    "image": "/assets/cards/frieza-p6-the-last-wish.webp?v=ecfc457b26f7",
+    "downloadImage": "/assets/cards/downloads/frieza-p6-the-last-wish.webp?v=15a4ae815bbf",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p7-friends-help-friends",
@@ -6446,8 +6477,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P7_582c3a44-63d7-4dab-83be-58b226e83cc2.png?v=1756072716",
     "rarity": "Promo",
     "rules": "(Limit 1 per deck.) POWER: Place the top 3 cards of your discard pile on the bottom of your Life Deck.",
-    "image": "/assets/cards/frieza-p7-friends-help-friends.webp?v=23a419fb9755",
-    "downloadImage": "/assets/cards/downloads/frieza-p7-friends-help-friends.webp?v=d4be4e2cffcd"
+    "image": "/assets/cards/frieza-p7-friends-help-friends.webp?v=50ab9e4b989e",
+    "downloadImage": "/assets/cards/downloads/frieza-p7-friends-help-friends.webp?v=2f6e1180ad3f",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p8-goku-s-good-swift-kick",
@@ -6462,8 +6494,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P8_8398e820-5cd7-4807-815f-eebaf797f343.png?v=1756072715",
     "rarity": "Promo",
     "rules": "Physical attack. DAMAGE: 5 stages. Do not use the AT.",
-    "image": "/assets/cards/frieza-p8-goku-s-good-swift-kick.webp?v=1a9b50a9b733",
-    "downloadImage": "/assets/cards/downloads/frieza-p8-goku-s-good-swift-kick.webp?v=1f6a1ec039c1"
+    "image": "/assets/cards/frieza-p8-goku-s-good-swift-kick.webp?v=02385dd1fed9",
+    "downloadImage": "/assets/cards/downloads/frieza-p8-goku-s-good-swift-kick.webp?v=e94ec870313d",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p9-red-blocking-hand",
@@ -6478,8 +6511,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P9_46703ccd-67d2-4264-a6a0-a09489827daf.png?v=1756072714",
     "rarity": "Promo",
     "rules": "Stop a physical attack. Raise your anger 2 levels and gain 2 stages.",
-    "image": "/assets/cards/frieza-p9-red-blocking-hand.webp?v=953ba4a73cb7",
-    "downloadImage": "/assets/cards/downloads/frieza-p9-red-blocking-hand.webp?v=a8d4cf9f517e"
+    "image": "/assets/cards/frieza-p9-red-blocking-hand.webp?v=6f61f35b6c26",
+    "downloadImage": "/assets/cards/downloads/frieza-p9-red-blocking-hand.webp?v=8e13473c39b7",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p10-orange-forceful-kick",
@@ -6494,8 +6528,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P10_e899c7f2-0c14-4729-a608-b7288b816465.png?v=1756072714",
     "rarity": "Promo",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Deal 3 additional life cards of damage.",
-    "image": "/assets/cards/frieza-p10-orange-forceful-kick.webp?v=752a36d39e64",
-    "downloadImage": "/assets/cards/downloads/frieza-p10-orange-forceful-kick.webp?v=258a25d57993"
+    "image": "/assets/cards/frieza-p10-orange-forceful-kick.webp?v=67559e4fa12b",
+    "downloadImage": "/assets/cards/downloads/frieza-p10-orange-forceful-kick.webp?v=b110ca376bbf",
+    "templateVersion": 3
   },
   {
     "id": "frieza-p11-vegeta-s-lunge",
@@ -6510,8 +6545,9 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P11_0e6cb743-4043-4289-88f4-fb3bd2dfbc6c.png?v=1756072712",
     "rarity": "Promo",
     "rules": "POWER: Randomly discard 1 card from your opponent's hand.",
-    "image": "/assets/cards/frieza-p11-vegeta-s-lunge.webp?v=0d82985e7aeb",
-    "downloadImage": "/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp?v=c75602aba18e"
+    "image": "/assets/cards/frieza-p11-vegeta-s-lunge.webp?v=31ee3961cffc",
+    "downloadImage": "/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp?v=e3288fdc960a",
+    "templateVersion": 3
   },
   {
     "id": "trunks-001-orange-energy-blast",

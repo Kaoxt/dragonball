@@ -1,0 +1,323 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 4,
+    "stages": [
+      150000,
+      140000,
+      130000,
+      120000,
+      110000,
+      100000,
+      90000,
+      80000,
+      70000,
+      60000,
+      0
+    ]
+  },
+  "number": 110,
+  "id": "frieza-110-nail-the-namekian-hero",
+  "name": "Nail the Namekian Hero",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-110-nail-the-namekian-hero.svg",
+  "native_source_sha256": "9f7114f34115162af5c3b0c44321b331f4972cabe8911eff14d97109f6513eba",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/12dad2d3ec228558de273e17bd2a3aeb8ddc079c3545930113b81d696aea6d9b.png",
+      "sha256": "12dad2d3ec228558de273e17bd2a3aeb8ddc079c3545930113b81d696aea6d9b"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "12dad2d3ec228558de273e17bd2a3aeb8ddc079c3545930113b81d696aea6d9b",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stop a physical attack. Your opponent takes 1",
+      "baseline": 1049.3,
+      "width": 857.6239473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "life card of damage.",
+      "baseline": 1108.3,
+      "width": 355.88700000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        912.175,
+        224.691,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-2": [
+        914.527,
+        289.373,
+        116.473,
+        38.269
+      ],
+      "power-stage-value-3": [
+        911.832,
+        354.054,
+        119.168,
+        38.269
+      ],
+      "power-stage-value-4": [
+        911.881,
+        418.736,
+        119.119,
+        38.269
+      ],
+      "power-stage-value-5": [
+        896.544,
+        483.418,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-6": [
+        904.825,
+        548.1,
+        126.175,
+        38.269
+      ],
+      "power-stage-value-7": [
+        898.7,
+        612.782,
+        132.3,
+        38.269
+      ],
+      "power-stage-value-8": [
+        897.916,
+        677.463,
+        133.084,
+        38.269
+      ],
+      "power-stage-value-9": [
+        896.838,
+        742.145,
+        134.162,
+        38.269
+      ],
+      "power-stage-value-10": [
+        897.23,
+        806.827,
+        133.77,
+        38.269
+      ],
+      "card-title": [
+        179.5,
+        50.3016,
+        700.0,
+        57.3967
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        791.407,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.207,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        152.262,
+        1013.53,
+        805.168,
+        45.521
+      ],
+      "rules-line-2": [
+        353.173,
+        1072.53,
+        352.653,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          101.57,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          152.262,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          101.57,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-110-nail-the-namekian-hero.webp",
+      "before_url": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=b0f93794aba6",
+      "before_sha256": "b0f93794aba6cfaeef38cb31d6c286bbac10fbad4b704b7e2a0e6d15830eb21a",
+      "after_sha256": "be0d3c42f77d62eb2d3358e916e36e47b9c0b49babea45f320a289da1368bd86",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp",
+      "before_url": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=4b232f1e6884",
+      "before_sha256": "4b232f1e6884416f68111a732d58f5fb46d73cbde8d614d90ba5fb4606c4d3f6",
+      "after_sha256": "4515b69a60f3f35068b48da7634ba646a8eaf729dfb04ecd372447ea5c9e2b2f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 85.7948277975242,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 57.39673979654369,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9972094477335421
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "personality_values": null,
+  "number": "P2",
+  "id": "frieza-p2-captain-ginyu-transformed",
+  "name": "Captain Ginyu Transformed",
+  "family": "PHYSICAL COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-p2-captain-ginyu-transformed.svg",
+  "native_source_sha256": "5591331e8a9955c8a3cfc0bdb65488046d83d2789467102048d44df3fbc764aa",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b4d0b06c4fff72c6d92faab034775a8faf59644f5b938ddca6541825b0429876.png",
+      "sha256": "b4d0b06c4fff72c6d92faab034775a8faf59644f5b938ddca6541825b0429876"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "b4d0b06c4fff72c6d92faab034775a8faf59644f5b938ddca6541825b0429876",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Physical attack costing 1",
+      "baseline": 1049.3,
+      "width": 824.5761555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "life card. DAMAGE: AT stages. Lower your",
+      "baseline": 1108.3,
+      "width": 729.6099999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger to 0.",
+      "baseline": 1167.3,
+      "width": 396.21400000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.5357,
+        740.0,
+        62.9286
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        118.118,
+        1012.11,
+        822.763,
+        47.334
+      ],
+      "rules-line-2": [
+        165.714,
+        1072.53,
+        727.572,
+        45.913
+      ],
+      "rules-line-3": [
+        332.936,
+        1132.46,
+        393.127,
+        44.982
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          450.088,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          504.635,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          450.088,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-p2-captain-ginyu-transformed.webp",
+      "before_url": "/assets/cards/frieza-p2-captain-ginyu-transformed.webp?v=b8f28640d9b7",
+      "before_sha256": "b8f28640d9b7156fe50aed01f3c6c2ea414c76134e46a713401ce986b96b45ca",
+      "after_sha256": "9e73f07992a6e67dea693dc44145975e121d1ab8614d6cde95e9d31bd60693e3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-p2-captain-ginyu-transformed.webp",
+      "before_url": "/assets/cards/downloads/frieza-p2-captain-ginyu-transformed.webp?v=31e6b5ad1dfd",
+      "before_sha256": "31e6b5ad1dfd5465c29e8304737d6847744fc3a31ed94a6b7ae3a8006dd2284d",
+      "after_sha256": "3d03255a8f895d786194f6d30c2f0aa75c3d814471640710b8e0f627300778d9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 78.46463789629942,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 62.92863959283214,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9120092694613352
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

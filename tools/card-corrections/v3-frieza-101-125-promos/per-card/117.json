@@ -1,0 +1,293 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 3,
+    "stages": [
+      100000,
+      95000,
+      90000,
+      85000,
+      80000,
+      75000,
+      70000,
+      65000,
+      60000,
+      55000,
+      0
+    ]
+  },
+  "number": 117,
+  "id": "frieza-117-nail-inspired",
+  "name": "Nail Inspired",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-117-nail-inspired.svg",
+  "native_source_sha256": "11c0e6afcda6c804832892075f72bd1d22a3039813423cbfa8d803a5e8bdbe5f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c47ae9d912ca44ee4e31b428bf422e4c82edb1206b5cbc0846f79084f9e22c5d.png",
+      "sha256": "c47ae9d912ca44ee4e31b428bf422e4c82edb1206b5cbc0846f79084f9e22c5d"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c47ae9d912ca44ee4e31b428bf422e4c82edb1206b5cbc0846f79084f9e22c5d",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Place the top 2 cards of your discard pile",
+      "baseline": 1049.3,
+      "width": 875.5319999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "on the bottom of your Life Deck.",
+      "baseline": 1108.3,
+      "width": 569.4780000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        913.155,
+        224.691,
+        117.845,
+        38.269
+      ],
+      "power-stage-value-2": [
+        912.175,
+        289.373,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-3": [
+        912.861,
+        354.054,
+        118.139,
+        38.269
+      ],
+      "power-stage-value-4": [
+        914.527,
+        418.736,
+        116.473,
+        38.269
+      ],
+      "power-stage-value-5": [
+        915.213,
+        483.418,
+        115.787,
+        38.269
+      ],
+      "power-stage-value-6": [
+        911.832,
+        548.1,
+        119.168,
+        38.269
+      ],
+      "power-stage-value-7": [
+        912.518,
+        612.782,
+        118.482,
+        38.269
+      ],
+      "power-stage-value-8": [
+        911.881,
+        677.463,
+        119.119,
+        38.269
+      ],
+      "power-stage-value-9": [
+        912.567,
+        742.145,
+        118.433,
+        38.269
+      ],
+      "power-stage-value-10": [
+        896.544,
+        806.827,
+        134.456,
+        38.269
+      ],
+      "card-title": [
+        342.159,
+        44.5,
+        374.682,
+        69.0
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        792.758,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.558,
+        1392.65,
+        49.184,
+        33.708
+      ],
+      "rules-line-1": [
+        93.449,
+        1013.53,
+        872.102,
+        45.521
+      ],
+      "rules-line-2": [
+        246.304,
+        1072.53,
+        566.391,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-117-nail-inspired.webp",
+      "before_url": "/assets/cards/frieza-117-nail-inspired.webp?v=9dacd836fd73",
+      "before_sha256": "9dacd836fd7355afcb370df1c2ff27a4c183c1d51e0af6a1f0db0783d399c6b6",
+      "after_sha256": "ef2c1ef4fd11d482a9798b638e6ebc18025425363b9c83a5175a9e77edd1510f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-117-nail-inspired.webp",
+      "before_url": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=611afa7b71bf",
+      "before_sha256": "611afa7b71bf9317c46e70a19a1b2937df2e68e62fd3acdfd3fba83b811a723b",
+      "after_sha256": "88f6d6d253cd093ff4d2640de1f0e5e8942f7503bc28912426128cde39c07758",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 374.6820448877806,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "personality_values": null,
+  "number": "P3",
+  "id": "frieza-p3-calming-sanctuary",
+  "name": "Calming Sanctuary",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-p3-calming-sanctuary.svg",
+  "native_source_sha256": "1f006ddf6e47ac9a17c73dbe83e2366069196bd3888a09a735df0ad0e01379d0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/38abb0258a116642a8fcdf5bee50ab387a1c9d64e242ff215209064c45402dfc.png",
+      "sha256": "38abb0258a116642a8fcdf5bee50ab387a1c9d64e242ff215209064c45402dfc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "38abb0258a116642a8fcdf5bee50ab387a1c9d64e242ff215209064c45402dfc",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: For each level you lower your anger,",
+      "baseline": 1049.3,
+      "width": 792.0360000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "lower all opponents' anger 1 level.",
+      "baseline": 1108.3,
+      "width": 597.7020000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        246.23,
+        44.5,
+        566.54,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        796.071,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.87,
+        1392.65,
+        42.559,
+        33.708
+      ],
+      "rules-line-1": [
+        135.356,
+        1014.61,
+        788.289,
+        44.835
+      ],
+      "rules-line-2": [
+        232.266,
+        1074.0,
+        594.468,
+        44.443
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-p3-calming-sanctuary.webp",
+      "before_url": "/assets/cards/frieza-p3-calming-sanctuary.webp?v=a4acdf4c8c0a",
+      "before_sha256": "a4acdf4c8c0af97caa4d6528cc5a341d99908f06444c5c4e84f64888d8dce596",
+      "after_sha256": "77741bca242222f710e5888c723eddc3435bd376cdcc3bfb9db49a506240aa2f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-p3-calming-sanctuary.webp",
+      "before_url": "/assets/cards/downloads/frieza-p3-calming-sanctuary.webp?v=58d3b51a98ab",
+      "before_sha256": "58d3b51a98abc2b1093fe6d6dd297793dd0d605b9ae4790f504af961b5ae0e0a",
+      "after_sha256": "9a2c9d56da7672223ef07e6f757d21d89ab1f3bb80065eeb3d5748bcdfa421d4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 566.5399002493766,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

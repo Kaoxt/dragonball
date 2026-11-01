@@ -1,0 +1,330 @@
+{
+  "personality_values": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      900000,
+      850000,
+      800000,
+      750000,
+      700000,
+      650000,
+      600000,
+      550000,
+      500000,
+      450000,
+      0
+    ]
+  },
+  "number": 125,
+  "id": "frieza-125-super-saiyan-goku",
+  "name": "Super Saiyan Goku",
+  "family": "HERO PERSONALITY",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-125-super-saiyan-goku.svg",
+  "native_source_sha256": "7501fadc8ed424e8bb9262dc98f7d2ab09a4b26ee277d77554a177c3cb27a005",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bccbcf69bd4ba7b7746dd2d612ec02b7c614e7d087a3aba35080997279127d6.png",
+      "sha256": "7bccbcf69bd4ba7b7746dd2d612ec02b7c614e7d087a3aba35080997279127d6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2d65da2c8157913e85129ae26be9aad4fb026caefc9a564511b12b73a513b4c.png",
+      "sha256": "a2d65da2c8157913e85129ae26be9aad4fb026caefc9a564511b12b73a513b4c"
+    }
+  ],
+  "artwork": {
+    "mode": "approved alternate rear-facing Goku with exact published artwork layer",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "7bccbcf69bd4ba7b7746dd2d612ec02b7c614e7d087a3aba35080997279127d6",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "approved_artwork_exception": true,
+    "published_artwork_overlay_sha256": "a2d65da2c8157913e85129ae26be9aad4fb026caefc9a564511b12b73a513b4c",
+    "published_reference_sha256": "60c163968e83e01f8d9fd2401900297370e86e62dce3231319189d0e920d5382"
+  },
+  "rules": [
+    {
+      "text": "Stop an energy attack. Your opponent takes 3",
+      "baseline": 1049.3,
+      "width": 860.9559473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "stages of damage.",
+      "baseline": 1108.3,
+      "width": 327.81,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        888.753,
+        224.691,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.978,
+        289.373,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.664,
+        354.054,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.684,
+        418.736,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.37,
+        483.418,
+        140.63,
+        38.269
+      ],
+      "power-stage-value-6": [
+        892.036,
+        548.1,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-7": [
+        892.722,
+        612.782,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.341,
+        677.463,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.027,
+        742.145,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-10": [
+        889.39,
+        806.827,
+        141.61,
+        38.269
+      ],
+      "card-title": [
+        250.79,
+        44.5,
+        557.42,
+        69.0
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.6042,
+        876.0,
+        58.7915,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        788.227,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.026,
+        1392.65,
+        58.247,
+        33.708
+      ],
+      "rules-line-1": [
+        150.498,
+        1014.61,
+        808.696,
+        44.835
+      ],
+      "rules-line-2": [
+        366.967,
+        1073.85,
+        325.066,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          99.806,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          150.498,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          99.806,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-125-super-saiyan-goku.webp",
+      "before_url": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=fbec398b0bec",
+      "before_sha256": "fbec398b0becbf7dc327215047d3fae59591d90586b0c3233e9aea0efad30ee0",
+      "after_sha256": "4d585878c3a81ae770343720c692ddc18856314bc9c8ae7624e2af76cc0d4d77",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp",
+      "before_url": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=60c163968e83",
+      "before_sha256": "60c163968e83e01f8d9fd2401900297370e86e62dce3231319189d0e920d5382",
+      "after_sha256": "6407beba3fd08170b05d36807c64e139fd408be66822cb9775bad42910c09502",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 557.420199501247,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

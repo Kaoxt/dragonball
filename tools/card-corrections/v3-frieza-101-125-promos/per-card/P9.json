@@ -1,0 +1,221 @@
+{
+  "personality_values": null,
+  "number": "P9",
+  "id": "frieza-p9-red-blocking-hand",
+  "name": "Red Blocking Hand",
+  "family": "PHYSICAL COMBAT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-p9-red-blocking-hand.svg",
+  "native_source_sha256": "ffb9e5454c402925cd8b49253d51da266d7bfd6d1dad0ad7beabdfa9f35c12c2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a82ddc60ba4c43a01a7f833ce2fece94fa682a64817741e6ecfbb849441b57bc.png",
+      "sha256": "a82ddc60ba4c43a01a7f833ce2fece94fa682a64817741e6ecfbb849441b57bc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "a82ddc60ba4c43a01a7f833ce2fece94fa682a64817741e6ecfbb849441b57bc",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stop a physical attack. Raise your anger 2",
+      "baseline": 1049.3,
+      "width": 796.177947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "levels and gain 2 stages.",
+      "baseline": 1108.3,
+      "width": 437.4720000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        250.403,
+        44.5,
+        558.195,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.594,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.394,
+        1392.65,
+        43.513,
+        33.708
+      ],
+      "rules-line-1": [
+        182.519,
+        1013.53,
+        744.653,
+        45.913
+      ],
+      "rules-line-2": [
+        312.381,
+        1072.53,
+        434.238,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          131.828,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          182.519,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          131.828,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-p9-red-blocking-hand.webp",
+      "before_url": "/assets/cards/frieza-p9-red-blocking-hand.webp?v=953ba4a73cb7",
+      "before_sha256": "953ba4a73cb72df77807dd21c6e2e4c183c34b0be1ee802053de37211c0e2638",
+      "after_sha256": "6f61f35b6c2605e289d6a7b6a3715b7bb2e434b8b307a0d6efcd7ecfd5f7d984",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-p9-red-blocking-hand.webp",
+      "before_url": "/assets/cards/downloads/frieza-p9-red-blocking-hand.webp?v=a8d4cf9f517e",
+      "before_sha256": "a8d4cf9f517e9055a7b3a9e15a55b3ac7633aa4b5b1caeaf50756897388cd563",
+      "after_sha256": "8e13473c39b7e5081a3c55f1d0acd96e67f7156c4f7636af515e5594ce9c2e63",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 558.1945137157109,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

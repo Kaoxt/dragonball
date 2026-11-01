@@ -1,0 +1,191 @@
+{
+  "personality_values": null,
+  "number": 122,
+  "id": "frieza-122-focusing-is-everything",
+  "name": "Focusing is Everything",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-122-focusing-is-everything.svg",
+  "native_source_sha256": "8933d35340b62ee4fbfdcd2c02eba1437c42dfadedbd2968304cb311ee29fc7d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f81ab11b0d1a7707fee668aec23cc10409967bc026acc0afede26795ced33bd1.png",
+      "sha256": "f81ab11b0d1a7707fee668aec23cc10409967bc026acc0afede26795ced33bd1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "f81ab11b0d1a7707fee668aec23cc10409967bc026acc0afede26795ced33bd1",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. POWER: Banish an opponent's Setup",
+      "baseline": 1049.3,
+      "width": 865.7320000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "or Drill in play. Banish after use.",
+      "baseline": 1108.3,
+      "width": 567.028,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        191.899,
+        44.5,
+        675.202,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        788.889,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.689,
+        1392.65,
+        56.922,
+        33.708
+      ],
+      "rules-line-1": [
+        98.447,
+        1013.53,
+        862.106,
+        45.521
+      ],
+      "rules-line-2": [
+        247.529,
+        1072.53,
+        563.941,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-122-focusing-is-everything.webp",
+      "before_url": "/assets/cards/frieza-122-focusing-is-everything.webp?v=851ee4944532",
+      "before_sha256": "851ee49445320f8c21cc314ee84e15b7f9612c9b04e796f0da6befe99f593dbe",
+      "after_sha256": "01f268b44296a719b896f27d143bd8481f38431f670cfbacf3363861c9da4e8b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-122-focusing-is-everything.webp",
+      "before_url": "/assets/cards/downloads/frieza-122-focusing-is-everything.webp?v=211f3ec43c07",
+      "before_sha256": "211f3ec43c07596a194825f4bda22f13181cc503d2518b75cd5d9701131134a0",
+      "after_sha256": "7b4ce855516afa4c7902d1f9e07320d6e96a5f43c13d42e5b79e1f605e4f0e74",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 675.201995012469,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

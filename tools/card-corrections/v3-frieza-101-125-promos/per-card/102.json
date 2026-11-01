@@ -1,0 +1,246 @@
+{
+  "personality_values": null,
+  "number": 102,
+  "id": "frieza-102-villain-s-teamwork-drill",
+  "name": "Villain's Teamwork Drill",
+  "family": "DRILL",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-102-villain-s-teamwork-drill.svg",
+  "native_source_sha256": "96c1de60cd376363651670aa9008bb59ca5a75933b6ad31720291a0f0992468e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/facba226e62f7fb68974433ae652fecbd421a966852c91658d45d8bd12563920.png",
+      "sha256": "facba226e62f7fb68974433ae652fecbd421a966852c91658d45d8bd12563920"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "facba226e62f7fb68974433ae652fecbd421a966852c91658d45d8bd12563920",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Villains only. Opponents can play only 1",
+      "baseline": 1049.3,
+      "width": 756.24875,
+      "icon_inline": true
+    },
+    {
+      "text": "Dragon Ball on their turn. If Saibaimen is",
+      "baseline": 1108.3,
+      "width": 714.6160000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "anywhere in play, Heroes must keep their hands",
+      "baseline": 1167.3,
+      "width": 853.2370000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "face up during Combat.",
+      "baseline": 1226.3,
+      "width": 412.4820000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        172.025,
+        50.2213,
+        714.95,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        787.723,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.523,
+        1392.65,
+        59.254,
+        33.708
+      ],
+      "rules-line-1": [
+        218.929,
+        1013.53,
+        687.813,
+        45.521
+      ],
+      "rules-line-2": [
+        173.686,
+        1072.53,
+        711.627,
+        45.913
+      ],
+      "rules-line-3": [
+        103.861,
+        1131.53,
+        851.277,
+        45.521
+      ],
+      "rules-line-4": [
+        324.484,
+        1190.53,
+        410.032,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "V",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          152.258,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          218.929,
+          1015.0,
+          21.7346,
+          34.3
+        ],
+        "new_visible_bounds": [
+          152.258,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-102-villain-s-teamwork-drill.webp",
+      "before_url": "/assets/cards/frieza-102-villain-s-teamwork-drill.webp?v=985275681a00",
+      "before_sha256": "985275681a00b35f255a06096710089799e7b998437e5fea0518c3372e0dbdfd",
+      "after_sha256": "5697614b1ec85edf57ad35b04ca3930ea1d3021206abb369ca04b108558bab43",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-102-villain-s-teamwork-drill.webp",
+      "before_url": "/assets/cards/downloads/frieza-102-villain-s-teamwork-drill.webp?v=3e7e78116d5f",
+      "before_sha256": "3e7e78116d5ff952d27f8dc29150645c623ad524753757f843c63359091fef76",
+      "after_sha256": "955ba4b3f406292d4b2455536d58f224a57494639e0ce7c5a7e9c92d23956882",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 714.9501246882794,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  },
+  "power_icon_revision": "approved-bold-infinity-colon-v16"
+}

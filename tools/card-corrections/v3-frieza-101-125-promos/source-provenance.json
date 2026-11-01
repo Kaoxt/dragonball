@@ -1,0 +1,35 @@
+{
+  "base_commit": "d6b93fafe477f7688103bc741f28d6bb39b4b6bc",
+  "source_archives": [
+    {
+      "name": "Frieza-Saga-081-120-Editable-Masters.zip",
+      "library_file_id": "libfile_1261a8b295d8819198b388f82095b937"
+    },
+    {
+      "name": "Frieza-Saga-Remaining-Editable-Masters.zip",
+      "library_file_id": "libfile_f3701e8e8be081918586b369cafce539"
+    },
+    {
+      "name": "Goku-Level-4-Modernized-Master-and-Source.zip",
+      "library_file_id": "libfile_0ab75edaeb988191a025ba3cf8156f36"
+    }
+  ],
+  "source_files": [
+    {
+      "name": "cards.json",
+      "sha256": "d0971616f1eec074a5691e13600148f15633782d727ffcf07c3ca9c260b347c8"
+    },
+    {
+      "name": "cards.json",
+      "sha256": "118e3b26eec4679fda8676fa6112e9c39ea6f8975d575878833bc51b5363e328"
+    },
+    {
+      "name": "frieza-125-super-saiyan-goku.svg",
+      "sha256": "2e0f92f02c634b50bcae025beae0e30aa7fdb53f53c97141451d6e4d0c69dd66"
+    }
+  ],
+  "current_crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "rules_review": "Checked printed effects and current supplied Expanded CRD; preserve existing corrected catalog mechanics, updated category references and single power icons. P5 retains its separate restricted-list limit1.",
+  "goku_125_exception": "Current published rear-facing Goku is the artwork authority. See approved-alternate-125/provenance.json. Never use the old front-view art.",
+  "retained_p11_correction": "Original raised-corner smirk patch from expression-audit-2026-10-26 is reapplied as a separate native layer."
+}

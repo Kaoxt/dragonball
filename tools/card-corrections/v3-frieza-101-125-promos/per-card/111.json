@@ -1,0 +1,227 @@
+{
+  "personality_values": null,
+  "number": 111,
+  "id": "frieza-111-krillin-s-power-tap",
+  "name": "Krillin's Power Tap",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-111-krillin-s-power-tap.svg",
+  "native_source_sha256": "2337f3d167e27a3ecefdcafb631474eded38defbe90c436484729a633a42ac09",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2909da92f6e84d50bcf4050ba07b598217bbdf57cd48d9d148bc6ab3727f4eaa.png",
+      "sha256": "2909da92f6e84d50bcf4050ba07b598217bbdf57cd48d9d148bc6ab3727f4eaa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "2909da92f6e84d50bcf4050ba07b598217bbdf57cd48d9d148bc6ab3727f4eaa",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when needed. Copy a Drill in play as",
+      "baseline": 1049.3,
+      "width": 855.491,
+      "icon_inline": false
+    },
+    {
+      "text": "your floating effect until Combat ends, active only",
+      "baseline": 1108.3,
+      "width": 888.468,
+      "icon_inline": false
+    },
+    {
+      "text": "during Attack Phases. If Black Shadow Drill is in",
+      "baseline": 1167.3,
+      "width": 845.9359999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "play, put all opposing Allies on the bottom of their",
+      "baseline": 1226.3,
+      "width": 879.9909999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "owners' Life Decks. Banish after use.",
+      "baseline": 1285.3,
+      "width": 656.943,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        249.8,
+        44.5,
+        559.399,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        103.225,
+        1013.53,
+        852.551,
+        45.521
+      ],
+      "rules-line-2": [
+        85.9145,
+        1072.53,
+        887.171,
+        45.913
+      ],
+      "rules-line-3": [
+        108.125,
+        1131.53,
+        842.751,
+        45.913
+      ],
+      "rules-line-4": [
+        90.6952,
+        1190.53,
+        877.61,
+        45.913
+      ],
+      "rules-line-5": [
+        202.572,
+        1249.53,
+        653.856,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-111-krillin-s-power-tap.webp",
+      "before_url": "/assets/cards/frieza-111-krillin-s-power-tap.webp?v=53f7b6d31d78",
+      "before_sha256": "53f7b6d31d78f8a350c1a6e9e9ada5b1d0ba622c5f276b81adf413c15857d7c7",
+      "after_sha256": "b6ad443460b83352943df8bb8ec81e87344cb4a15f4258ec325a4ec47c1636ab",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-111-krillin-s-power-tap.webp",
+      "before_url": "/assets/cards/downloads/frieza-111-krillin-s-power-tap.webp?v=9b7ac866e76b",
+      "before_sha256": "9b7ac866e76b918dce6a1d30bce959a2a3e435f5fb75463596fb84e30d4e448d",
+      "after_sha256": "dad8c5ad5696263b1836e729ffbc2b0cea8a72017186afc21c5830b61e490443",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 559.3990024937657,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

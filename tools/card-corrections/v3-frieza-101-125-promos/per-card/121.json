@@ -1,0 +1,203 @@
+{
+  "personality_values": null,
+  "number": 121,
+  "id": "frieza-121-this-too-shall-pass",
+  "name": "This Too Shall Pass",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-121-this-too-shall-pass.svg",
+  "native_source_sha256": "aabddcd7f45c58b39d28c989533a44b6cf1e6a77f7601ffd4f93a59b580a6054",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9147c3bae0e1ee0f4a7632bfc2f13a10933e2fed75d3da43e8ebf89f1ab289ee.png",
+      "sha256": "9147c3bae0e1ee0f4a7632bfc2f13a10933e2fed75d3da43e8ebf89f1ab289ee"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "9147c3bae0e1ee0f4a7632bfc2f13a10933e2fed75d3da43e8ebf89f1ab289ee",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Stop the effect of any non-Dragon Ball",
+      "baseline": 1049.3,
+      "width": 824.9639999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "card and banish that card. You may use this at",
+      "baseline": 1108.3,
+      "width": 826.0419999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "any time.",
+      "baseline": 1167.3,
+      "width": 164.64,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        242.574,
+        50.2213,
+        573.853,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        792.679,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.478,
+        1392.65,
+        49.343,
+        33.708
+      ],
+      "rules-line-1": [
+        118.905,
+        1014.61,
+        821.191,
+        44.835
+      ],
+      "rules-line-2": [
+        117.704,
+        1072.53,
+        823.592,
+        45.521
+      ],
+      "rules-line-3": [
+        448.527,
+        1131.53,
+        161.945,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-121-this-too-shall-pass.webp",
+      "before_url": "/assets/cards/frieza-121-this-too-shall-pass.webp?v=25273d61592e",
+      "before_sha256": "25273d61592ec30cf53703cf227c43fb34be51cef608f0dd0ea8d7c4d6326d02",
+      "after_sha256": "fbedd90f098ce697e32df71eb512717a9afb4fc4d870d3aba0138608165890db",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-121-this-too-shall-pass.webp",
+      "before_url": "/assets/cards/downloads/frieza-121-this-too-shall-pass.webp?v=5095ad9e614f",
+      "before_sha256": "5095ad9e614fa18d84617720bdd028f6d86f3a4c1e696b581d3c542adb18762e",
+      "after_sha256": "582ab91d98fb285c49b009514e3951bb46f78f3c84e9c3764ce7ff7728bf8662",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 573.852867830424,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

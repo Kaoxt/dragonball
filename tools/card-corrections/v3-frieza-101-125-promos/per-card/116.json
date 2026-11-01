@@ -1,0 +1,245 @@
+{
+  "personality_values": null,
+  "number": 116,
+  "id": "frieza-116-goku-s-quickness",
+  "name": "Goku's Quickness",
+  "family": "SETUP",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-116-goku-s-quickness.svg",
+  "native_source_sha256": "c6c25795d3cc9f11332c3e4c618b002dc825cae82ebd75ac5ca9628a7b359ce8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c019e45f9f54ff6ba2518d2b0dc76ce38cba2ca3b6e7bdf90ffa7bdfca9b751c.png",
+      "sha256": "c019e45f9f54ff6ba2518d2b0dc76ce38cba2ca3b6e7bdf90ffa7bdfca9b751c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "c019e45f9f54ff6ba2518d2b0dc76ce38cba2ca3b6e7bdf90ffa7bdfca9b751c",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Stop the first physical attack next",
+      "baseline": 1049.3,
+      "width": 834.2250000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat. Alternatively, if Chiaotzu's Drill is in play:",
+      "baseline": 1108.3,
+      "width": 882.4409999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1167.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Banish after use.",
+      "baseline": 1226.3,
+      "width": 423.26200000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        265.674,
+        46.909,
+        527.652,
+        64.182
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        113.931,
+        1013.53,
+        831.138,
+        45.521
+      ],
+      "rules-line-2": [
+        90.509,
+        1072.53,
+        877.982,
+        45.521
+      ],
+      "rules-line-3": [
+        145.345,
+        1131.53,
+        822.906,
+        45.913
+      ],
+      "rules-line-4": [
+        319.412,
+        1190.53,
+        420.175,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-3",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1133.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1133.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1133.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-116-goku-s-quickness.webp",
+      "before_url": "/assets/cards/frieza-116-goku-s-quickness.webp?v=729dfa907c96",
+      "before_sha256": "729dfa907c96453beac43dd01e2ff80108abbb82d9d44dfc209d595e3c04c562",
+      "after_sha256": "59fdadab8a841b442f8ba9a526064047c96046081520283e7ea2873d19332a9d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-116-goku-s-quickness.webp",
+      "before_url": "/assets/cards/downloads/frieza-116-goku-s-quickness.webp?v=49cced19d4db",
+      "before_sha256": "49cced19d4db5abbc55cd1248d20f6724bd16a724e276f734da33cbae24d8fa4",
+      "after_sha256": "9b28e727ecb60c5f8b12ad2f139da6ee66038bc7e3cd3cb84246fed56bcebc31",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 527.6521197007482,
+      "visible_height": 64.18204488778056,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

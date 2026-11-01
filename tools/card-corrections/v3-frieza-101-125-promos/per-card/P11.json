@@ -1,0 +1,196 @@
+{
+  "personality_values": null,
+  "number": "P11",
+  "id": "frieza-p11-vegeta-s-lunge",
+  "name": "Vegeta's Lunge",
+  "family": "EVENT",
+  "high_tech": false,
+  "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-p11-vegeta-s-lunge.svg",
+  "native_source_sha256": "b4a5b985d7ae1e8a38ae95eb520670367dadd32d578e192eee2aef891a88da9a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5d951ba46073c6caaa5e47b5e68997ca2464a7eae94db38b34a9558c9ddba452.png",
+      "sha256": "5d951ba46073c6caaa5e47b5e68997ca2464a7eae94db38b34a9558c9ddba452"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/01224feeb536058c67deb809c007cc5db90468de3a7691527b3795fd5f8e44f5.png",
+      "sha256": "01224feeb536058c67deb809c007cc5db90468de3a7691527b3795fd5f8e44f5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "source_sha256": "5d951ba46073c6caaa5e47b5e68997ca2464a7eae94db38b34a9558c9ddba452",
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "width_relative_scale_change": 1.005842259006816,
+    "additional_zoom": false,
+    "expression_patch_retained": true
+  },
+  "rules": [
+    {
+      "text": "POWER: Randomly discard 1 card from your",
+      "baseline": 1049.3,
+      "width": 764.4979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's hand.",
+      "baseline": 1108.3,
+      "width": 303.35900000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        299.959,
+        45.9196,
+        459.082,
+        66.1608
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.859,
+        1382.33,
+        53.7814,
+        54.3313
+      ],
+      "footer-rarity": [
+        792.255,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.054,
+        1392.65,
+        50.191,
+        33.708
+      ],
+      "rules-line-1": [
+        148.491,
+        1013.53,
+        762.019,
+        45.521
+      ],
+      "rules-line-2": [
+        379.364,
+        1074.0,
+        300.272,
+        43.414
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/frieza-p11-vegeta-s-lunge.webp",
+      "before_url": "/assets/cards/frieza-p11-vegeta-s-lunge.webp?v=0d82985e7aeb",
+      "before_sha256": "0d82985e7aebfc179f7ac797c4f2d9d1df48620975a5d8a9d9c3f1b72ab09935",
+      "after_sha256": "31ee3961cffc909c6fd2ea59342675d822ab8860f346737f0533966742610ee5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp",
+      "before_url": "/assets/cards/downloads/frieza-p11-vegeta-s-lunge.webp?v=c75602aba18e",
+      "before_sha256": "c75602aba18ee4cfa8ff65e63f9362469c1ad16cdf836a311f13b8b1df123aaf",
+      "after_sha256": "e3288fdc960adf510dd21e60bdd234c56036d89c0cfa9eabdd8e44168fc41880",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 459.0822942643392,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "source_visible_bounds": [
+      1.1,
+      1.1,
+      97.8,
+      98.8
+    ],
+    "target_center": [
+      211.75,
+      1409.5
+    ],
+    "target_width": 53.7814,
+    "uniform_scale": 0.5499120654396727,
+    "native_vector": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "Frieza Saga101\u2013125 plusP1\u2013P11",
+  "cards": 36,
+  "set_total": 136,
+  "exports": 72,
+  "native_template_version": 3,
+  "base_commit": "d6b93fafe477f7688103bc741f28d6bb39b4b6bc",
+  "local_validation": {
+    "node_tests": 198,
+    "python_tests": 6,
+    "worker_build_dry_run": "passed",
+    "title_clearance_minimum_native_units": 4.272001872658765,
+    "export_pixels_match_render": 72,
+    "card_type_reference_issues": 0
+  },
+  "footer": {
+    "saga_ink_center": [
+      211.75,
+      1409.5
+    ],
+    "ball_and_number_center": [
+      847.25,
+      1409.5
+    ],
+    "inner_gap": 12.2
+  },
+  "personalities": 4,
+  "villains": 1,
+  "villain_corner_colors": [
+    "#8e1722",
+    "#4c1119"
+  ],
+  "approved_exception": "125 retains published rear-facing Goku artwork; old front-facing art excluded.",
+  "retained_expression_correction": "P11 raised-corner smirk; no pixel changes outside the retained patch footprint in either resolution.",
+  "fine_reference_limits": [
+    102,
+    103,
+    110,
+    118,
+    122,
+    123,
+    124,
+    "P5",
+    "P8",
+    "P10"
+  ],
+  "game_data_changed": false,
+  "other_cards_changed": false,
+  "publication": "Local verified release; live deployment verified separately after publishing this commit."
+}
