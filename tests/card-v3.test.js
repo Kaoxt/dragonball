@@ -100,13 +100,12 @@ test('Saiyan 121–170 keeps long titles inside the brush and uses reviewed fami
  assert.equal(rows.filter(r=>r.tokui_waza_backing?.all_styles).length,37);
  assert.equal(rows.filter(r=>r.power_icon_revision==='approved-bold-infinity-colon-v16').length,26);
  for(const row of rows){
-  const fit=row.current_preview_revision.title_fit;assert.ok(fit.visible_width<=620.001);
+  const fit=row.current_preview_revision.title_fit;assert.ok(fit.visible_width<=760.001);
   assert.deepEqual(fit.visible_center,[529.5,79]);assert.ok(fit.font_size<=fit.nominal_font_size);
-  const [x,y,w,h]=row.native_geometry.bounds['card-title'];assert.ok(x>=219.49&&x+w<=839.51);near(y+h/2,79,.01);
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-safe-region="219.5 839.5"'));
+  const [x,y,w,h]=row.native_geometry.bounds['card-title'];assert.ok(x>=149.49&&x+w<=909.51);near(y+h/2,79,.01);
   if(row.number>=158)assert.equal(row.tokui_waza_backing.applies,false);
  }
- const long=rows.find(r=>r.number===125);assert.ok(long.current_preview_revision.title_fit.font_size<60);
+ const long=rows.find(r=>r.number===125);near(long.current_preview_revision.title_fit.font_size,64.96837066165156,.00001);
  const rules=n=>rows.find(r=>r.number===n).rules.map(r=>r.text).join(' ');
  assert.equal(rules(153),'Stops a physical attack. Banish after use.');
  assert.equal(rules(154),'Stops an energy attack. Banish after use.');
@@ -116,5 +115,35 @@ test('Saiyan 121–170 keeps long titles inside the brush and uses reviewed fami
   const row=rows.find(r=>r.number===n);const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes(`id="gohan-${n}-demon-badge-patch"`));
   const correction=row.artwork.current_costume_correction;assert.equal(hash(path.join(root,correction.patch_asset)),correction.patch_sha256);
+ }
+});
+
+test('all 170 V3 titles use complete visible-ink centering and preserve unrelated pixels',()=>{
+ const dir=path.join(root,'tools/card-corrections/v3-saiyan-001-170-titles');
+ const release=JSON.parse(fs.readFileSync(path.join(dir,'release.json')));
+ const checks=JSON.parse(fs.readFileSync(path.join(dir,'title-checks.json')));
+ const pixels=JSON.parse(fs.readFileSync(path.join(dir,'pixel-checks.json')));
+ assert.equal(checks.length,170);assert.equal(pixels.length,53);
+ assert.equal(release.cards_byte_identical,117);assert.equal(release.pixel_preservation.pixels_changed_outside_title_footprint,0);
+ for(const c of checks){
+  const row=audit.find(r=>r.id===c.id);assert.ok(row);
+  const f=c.fit;assert.ok(f.visible_width<=f.max_width+.00001&&f.max_width<=760);
+  near(c.after_center[0],529.5,.00001);near(c.after_center[1],79,.00001);
+  assert.equal(c.helper_idempotent,true);assert.equal(c.unrelated_native_elements_unchanged,true);
+  assert.equal(c.after_native_sha256,row.native_source_sha256);
+  near(f.font_size,row.current_preview_revision.title_fit.font_size,.00001);
+  if(!c.needs_smaller_font)near(f.font_size,f.nominal_font_size,.00001);
+  else {assert.ok(f.font_size<f.nominal_font_size);near(f.visible_width,f.max_width,.00001);}
+  for(const e of c.exports){assert.equal(hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
+  if(!c.visual_change){assert.equal(c.before_native_sha256,c.after_native_sha256);continue;}
+  const p=pixels.find(p=>p.id===c.id);assert.ok(p);assert.equal(p.new_title_pixels_outside_brush_contour,0);assert.ok(p.minimum_brush_clearance_native_units>=1);
+  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));
+  assert.equal(p.before_native_sha256,c.before_native_sha256);assert.equal(p.after_native_sha256,c.after_native_sha256);
+  for(const e of p.exports){
+   assert.equal(e.old_render_matches_published_title_pixels,true);assert.equal(e.lossless_round_trip,true);
+   assert.equal(e.pixels_changed_outside_title_footprint,0);assert.equal(e.pixels_changed_below_header,0);
+   assert.equal(e.after_sha256,c.exports.find(x=>x.field===e.field).after_sha256);
+   const scale=e.field==='image'?1:2;near(e.visible_ink_center[0]/scale,529.5,.51);near(e.visible_ink_center[1]/scale,79,.51);
+  }
  }
 });

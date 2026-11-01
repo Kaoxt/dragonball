@@ -3,7 +3,7 @@ from text_v3 import text
 
 NOMINAL_SIZE = 86.0349127182045
 CX, CY = 529.5, 79.0
-SAFE_LEFT, SAFE_RIGHT = 219.5, 839.5
+SAFE_LEFT, SAFE_RIGHT = 149.5, 909.5
 
 def title(label, safe_left=SAFE_LEFT, safe_right=SAFE_RIGHT):
     """Reserve additional badge clearance by narrowing the supplied safe region."""
@@ -19,17 +19,28 @@ def title(label, safe_left=SAFE_LEFT, safe_right=SAFE_RIGHT):
     group.set('data-font-family', 'Teko SemiBold')
     group.set('data-font-size', str(size))
     group.set('data-title-fit', 'uniform-font-size')
+    group.set('data-title-vertical-alignment', 'complete-visible-ink-bounds')
     group.set('data-safe-region', f'{safe_left} {safe_right}')
     return group, {'font_size': size, 'nominal_font_size': NOMINAL_SIZE,
                    'visible_width': bounds[0], 'visible_height': bounds[1],
                    'visible_center': [CX, CY], 'max_width': max_width,
                    'scale_factor': size / NOMINAL_SIZE}
 
-def apply(root, safe_left=SAFE_LEFT, safe_right=SAFE_RIGHT):
+def apply(root, safe_left=None, safe_right=None):
+    # Personality LEVEL badges keep their existing clearance.
+    personality = bool(root.xpath('//*[@id="v3-level-number"]'))
     old = root.xpath('//*[@id="card-title"]')[0]
     label = old.get('aria-label')
     if not label:
         raise ValueError('The native title needs an aria-label')
+    # Retain a measured per-title brush clearance after the visual contour check.
+    # Discard it if the title wording changes; the new lettering needs its own check.
+    clearance = old.get('data-brush-safe-width') if old.get('data-brush-safe-label') == label else None
+    if safe_left is None: safe_left = CX-float(clearance)/2 if clearance else (179.5 if personality else SAFE_LEFT)
+    if safe_right is None: safe_right = CX+float(clearance)/2 if clearance else (879.5 if personality else SAFE_RIGHT)
     group, report = title(label, safe_left, safe_right)
+    if not personality and report['max_width'] < SAFE_RIGHT-SAFE_LEFT:
+        group.set('data-brush-safe-width', str(report['max_width']))
+        group.set('data-brush-safe-label', label)
     old.getparent().replace(old, group)
     return report

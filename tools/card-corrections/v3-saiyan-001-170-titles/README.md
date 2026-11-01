@@ -1,0 +1,7 @@
+# Saiyan Saga 001–170 title-only repair
+
+All 170 current V3 cards were checked. The 53 changed titles use the reviewed wider space, keeping Teko SemiBold at its nominal size unless the lettering needs a uniform reduction. Full visible ink, including descenders, is centered at (529.5,79). The maximum width is 760; a measured per-title limit preserves at least one native unit of clearance where a glyph approaches a distressed brush notch. Personality LEVEL clearance is retained.
+
+The other 117 native sources and both public exports remain byte-identical. Each changed display and download was patched independently against its exact published baseline. Before accepting the patch, the old native header render had to match all affected baseline pixels exactly. New pixels were copied only where the old and new title renders differed, within their glyph and antialias footprints. Lossless WebP decoding was compared to the patch, with zero differences outside those footprints or below the header. Artwork, backgrounds, symbols, bars, footer, wording, levels and stages were not changed.
+
+`title-checks.json` covers all 170 cards, their independently measured bounds, nominal/fitted size, helper idempotence and before/after source and export hashes. `pixel-checks.json` records both exports for the 53 changed cards, actual pixel bounds, brush clearance and preservation checks. The immutable baseline commit is recorded in `release.json`. The batch audits and catalog point to the verified new hashes.

@@ -2364,7 +2364,7 @@
     "id": "saiyan-109-piccolos-energy-attack",
     "name": "Piccolo's Energy Attack",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-109-piccolos-energy-attack.svg",
-    "native_source_sha256": "2b0361ec54133c3bcf2b781ad28cf97b5b79f03dc23777ae8f28a07f4274ab29",
+    "native_source_sha256": "104dfb09669eb93ef985f59fb0e46c86dd52bf38c6fbb8705a9afd981f49efd6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2b1decfb27173a70266a9ad417a2e44a5cc3acd8294f954e73b4a7c3b657d1de.png",
@@ -2417,10 +2417,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          45.0334,
-          700.0,
-          67.9332
+          174.00374064837,
+          44.500000000137,
+          710.9925187015521,
+          68.999999999836
         ],
         "card-category": [
           270.969,
@@ -2496,15 +2496,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "2b0361ec54133c3bcf2b781ad28cf97b5b79f03dc23777ae8f28a07f4274ab29"
+      "native_source_sha256": "104dfb09669eb93ef985f59fb0e46c86dd52bf38c6fbb8705a9afd981f49efd6"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-109-piccolos-energy-attack.webp",
-        "before_url": "/assets/cards/saiyan-109-piccolos-energy-attack.webp?v=950b78adaa46",
-        "before_sha256": "5dbf7e69eea4c40645ff0eacf4289f272f3d1715415f39e1058c34df281092db",
-        "after_sha256": "88210efb6f27e8a93031d425f45246a0403482cf8a923f91a1ccf3f385665167",
+        "before_url": "/assets/cards/saiyan-109-piccolos-energy-attack.webp?v=88210efb6f27",
+        "before_sha256": "88210efb6f27e8a93031d425f45246a0403482cf8a923f91a1ccf3f385665167",
+        "after_sha256": "9746bdec9408747b32c0291e128fd1f3e3cf3d7165bf841c7131ddf386866dc5",
         "size": [
           1060,
           1484
@@ -2514,9 +2514,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-109-piccolos-energy-attack.webp",
-        "before_url": "/assets/cards/downloads/saiyan-109-piccolos-energy-attack.webp?v=2795d77e3f58",
-        "before_sha256": "ed5d8a31dcef45493d5c2095e90b38a1a59b8cdd0590b3e4472e2563893030e9",
-        "after_sha256": "fd23980beee027b7ca4f173f081aa0202da5936e41418abe060d5ed7bc175220",
+        "before_url": "/assets/cards/downloads/saiyan-109-piccolos-energy-attack.webp?v=fd23980beee0",
+        "before_sha256": "fd23980beee027b7ca4f173f081aa0202da5936e41418abe060d5ed7bc175220",
+        "after_sha256": "1720434c409565581f1c02aa26edd6aa104d2b6e141b734c7533beb588eca479",
         "size": [
           2120,
           2968
@@ -2535,16 +2535,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 84.70474346563407,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 700.0,
-        "visible_height": 67.93320425943853,
+        "visible_width": 710.992518703242,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.9845391921657756
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "middle_typography": {
         "label": "ENERGY COMBAT",
@@ -2571,7 +2571,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "6b372bb8561f474d88f47d2c1ac2a13e4d26db8c1ec7d777cbb7edfb38724442",
+      "png_sha256": "a66c02965e4617ae2ebf37147191f84bf43f51b4df37745bcf29de430be479f7",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "6bf4a128a97b3987df69c965be78294bd5822c1a7cab8f6feb978211042d17d5",
@@ -2602,7 +2602,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          149.5,
+          909.5
+        ],
+        "max_width": 760.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 17.5
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "2b0361ec54133c3bcf2b781ad28cf97b5b79f03dc23777ae8f28a07f4274ab29",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "6b372bb8561f474d88f47d2c1ac2a13e4d26db8c1ec7d777cbb7edfb38724442"
     }
   },
   {
@@ -2610,7 +2635,7 @@
     "id": "saiyan-110-piccolos-physical-defense",
     "name": "Piccolo's Physical Defense",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-110-piccolos-physical-defense.svg",
-    "native_source_sha256": "0fd6403b1709c5b61fefd68edc358fe9fc91e30e9e887d787f5475770ec68e7a",
+    "native_source_sha256": "40c98ee235359e6d39733d9ba6d5a51ec9cf49a6ea03cc3359f20303e3a2b4ba",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -2657,10 +2682,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          49.1478,
-          700.0,
-          59.7043
+          157.50000000001498,
+          47.271402743578,
+          744.000000003193,
+          63.45719451266199
         ],
         "card-category": [
           242.726,
@@ -2730,15 +2755,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "0fd6403b1709c5b61fefd68edc358fe9fc91e30e9e887d787f5475770ec68e7a"
+      "native_source_sha256": "40c98ee235359e6d39733d9ba6d5a51ec9cf49a6ea03cc3359f20303e3a2b4ba"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-110-piccolos-physical-defense.webp",
-        "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=01fed74b4f0e",
-        "before_sha256": "a5b95f65cd03c6eef8d4eb6e11a063cfc0d1b8e8010e551f6d281a94a03c8050",
-        "after_sha256": "570ef6efee9bea6755d353ae2a05b3e4ab36d32324b0903f132deeafc7bff769",
+        "before_url": "/assets/cards/saiyan-110-piccolos-physical-defense.webp?v=570ef6efee9b",
+        "before_sha256": "570ef6efee9bea6755d353ae2a05b3e4ab36d32324b0903f132deeafc7bff769",
+        "after_sha256": "128433fbac6ea5d443877ee7b1520f1bb24fa51619e29f583bcd1e489c44e8a3",
         "size": [
           1060,
           1484
@@ -2748,9 +2773,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp",
-        "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=c56789a04133",
-        "before_sha256": "1bb0534509474be729bacf7d2e8f0f0389c13ce5fcb78d916fb886b029a1e00e",
-        "after_sha256": "f50822703e55994b011807184e3b21b7f81d32cd6285252b4d3e5eff9b8759b9",
+        "before_url": "/assets/cards/downloads/saiyan-110-piccolos-physical-defense.webp?v=f50822703e55",
+        "before_sha256": "f50822703e55994b011807184e3b21b7f81d32cd6285252b4d3e5eff9b8759b9",
+        "after_sha256": "98653f8b5558d54640ef1b38c2e5bbe2c00573459808ebc82689c52658550b93",
         "size": [
           2120,
           2968
@@ -2769,16 +2794,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 74.44432627884717,
+        "font_size": 79.12368393066042,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 700.0,
-        "visible_height": 59.704349675635434,
+        "visible_width": 744.0,
+        "visible_height": 63.45719451238966,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.8652804300816729
+        "max_width": 744.0,
+        "scale_factor": 0.9196694856868065
       },
       "middle_typography": {
         "label": "PHYSICAL COMBAT",
@@ -2805,7 +2830,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "22e3ddaf6919863b63f94b423149e3fff230f03e24e11c6d295d64e404e152c1",
+      "png_sha256": "657ae0916198f6887fd9b78b4258f2156dc141259417d686a5de1bfe00605fbb",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "491912e790e7101e90236a5d765a6526b88295bbfd03c4c27c4605a8bee22655",
@@ -2836,7 +2861,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          157.5,
+          901.5
+        ],
+        "max_width": 744.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.0
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "0fd6403b1709c5b61fefd68edc358fe9fc91e30e9e887d787f5475770ec68e7a",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "22e3ddaf6919863b63f94b423149e3fff230f03e24e11c6d295d64e404e152c1"
     }
   },
   {
@@ -2844,7 +2894,7 @@
     "id": "saiyan-111-gohans-energy-defense",
     "name": "Gohan's Energy Defense",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-111-gohans-energy-defense.svg",
-    "native_source_sha256": "510e789a11f3909d2d58025128008810b945dfa6d20fa992043ff10ac19b132f",
+    "native_source_sha256": "3dd9423e9506938ba13cdc6245ef9a454b4c2cc10ec390a72e00539602b807da",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -2897,10 +2947,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          45.6983,
-          700.0,
-          66.6034
+          166.90586034911902,
+          44.500000000137,
+          725.1882793000219,
+          68.999999999836
         ],
         "card-category": [
           270.969,
@@ -2976,15 +3026,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "510e789a11f3909d2d58025128008810b945dfa6d20fa992043ff10ac19b132f"
+      "native_source_sha256": "3dd9423e9506938ba13cdc6245ef9a454b4c2cc10ec390a72e00539602b807da"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-111-gohans-energy-defense.webp",
-        "before_url": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=937408177a13",
-        "before_sha256": "43b4bc04adfbcfe5ecd58169212267893380a4f17a1a62111a8c0266c46bd24c",
-        "after_sha256": "4ef0e9c2315d8c043714fe9ef83295c69c956b0521df91c46814dc522ff14589",
+        "before_url": "/assets/cards/saiyan-111-gohans-energy-defense.webp?v=4ef0e9c2315d",
+        "before_sha256": "4ef0e9c2315d8c043714fe9ef83295c69c956b0521df91c46814dc522ff14589",
+        "after_sha256": "73efca705b77d786be8ac3547414e234e392e2ad05c5297d6ff95b0feb5604ec",
         "size": [
           1060,
           1484
@@ -2994,9 +3044,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp",
-        "before_url": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=c9cb8247b644",
-        "before_sha256": "b26e07d801fe5aa8c50ae9f67c2577f823fdb0e266ec104c9d71ad3f8422c0ab",
-        "after_sha256": "3c04c3efff2a146ef8a4fe4624a18c5448a8c339285e140511dc462ee243b8a3",
+        "before_url": "/assets/cards/downloads/saiyan-111-gohans-energy-defense.webp?v=3c04c3efff2a",
+        "before_sha256": "3c04c3efff2a146ef8a4fe4624a18c5448a8c339285e140511dc462ee243b8a3",
+        "after_sha256": "9567cbae9149be9d4165552c0615b6c2edf44af36e4651a2647e3b195b3a888c",
         "size": [
           2120,
           2968
@@ -3015,16 +3065,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 83.04662474789417,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 700.0,
-        "visible_height": 66.60339304781112,
+        "visible_width": 725.1882793017458,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.9652665659103061
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "middle_typography": {
         "label": "ENERGY COMBAT",
@@ -3051,7 +3101,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "4e839d9c67040e5aab1e2791a43ecb44f8a55c75857c8020f1fca08d1b141583",
+      "png_sha256": "bf43bb47730fb1f0c7a26a65fe18c30d63e3e8a6e8074e71b8a52b160004e0e3",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "72c082ecb021203e3cb9142ba3e1388bf8ae1c174c671e7465d8d3bb34866546",
@@ -3082,7 +3132,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          149.5,
+          909.5
+        ],
+        "max_width": 760.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 11.067971810589327
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "510e789a11f3909d2d58025128008810b945dfa6d20fa992043ff10ac19b132f",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "4e839d9c67040e5aab1e2791a43ecb44f8a55c75857c8020f1fca08d1b141583"
     }
   },
   {
@@ -3090,7 +3165,7 @@
     "id": "saiyan-112-krillins-physical-defense",
     "name": "Krillin's Physical Defense",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-112-krillins-physical-defense.svg",
-    "native_source_sha256": "fbfd09b7226c695db50b08b9f46236b9eddf51f3afa72b3eb600014bc1f52587",
+    "native_source_sha256": "831a492dcdf64d9d4dd1c6fa3a8bcd390bf963b92a873dc7c7805a7812b4de3d",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2fe3bfa9e88038e7c66ba03ae83337746dd38d9a846a2c30ffa36da2d8e9dfa9.png",
@@ -3161,10 +3236,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          47.4642,
-          700.0,
-          63.0716
+          157.50000000001,
+          45.481968318022005,
+          744.00000000192,
+          67.03606336383999
         ],
         "card-category": [
           433.596,
@@ -3228,15 +3303,15 @@
         ]
       },
       "icons": [],
-      "native_source_sha256": "fbfd09b7226c695db50b08b9f46236b9eddf51f3afa72b3eb600014bc1f52587"
+      "native_source_sha256": "831a492dcdf64d9d4dd1c6fa3a8bcd390bf963b92a873dc7c7805a7812b4de3d"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-112-krillins-physical-defense.webp",
-        "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=9b1264f4fcd6",
-        "before_sha256": "d765dfadbad70c57a1ecefd697a9bff50400c80d6d41fbe7a0bf5cc49eecd7e5",
-        "after_sha256": "81b0b8746afc877534b185689a080cb49e739bd752ef5e9643e8ac31266aea89",
+        "before_url": "/assets/cards/saiyan-112-krillins-physical-defense.webp?v=81b0b8746afc",
+        "before_sha256": "81b0b8746afc877534b185689a080cb49e739bd752ef5e9643e8ac31266aea89",
+        "after_sha256": "52a2a99a76771f99206c261d5b41b953389695d10810fbc3df7efe8312fc28e0",
         "size": [
           1060,
           1484
@@ -3246,9 +3321,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp",
-        "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=419a9db9320b",
-        "before_sha256": "443903e63c4860e2f268a1502f93ebba9f4180b0b7b3eac8235f26c208a9a0d5",
-        "after_sha256": "37e400493e977eae1ad068190cc04545c085ff1aa5f2a79646b0d10f005d6843",
+        "before_url": "/assets/cards/downloads/saiyan-112-krillins-physical-defense.webp?v=37e400493e97",
+        "before_sha256": "37e400493e977eae1ad068190cc04545c085ff1aa5f2a79646b0d10f005d6843",
+        "after_sha256": "a9e00fc6820ce2d1b2e5606cd68e4c6f79ae4495263d0bd93b4f0033e99e4c8e",
         "size": [
           2120,
           2968
@@ -3267,16 +3342,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 78.64284911807661,
+        "font_size": 83.5861139197843,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 699.9999999999999,
-        "visible_height": 63.07156499269744,
+        "visible_width": 744.0,
+        "visible_height": 67.036063363667,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.9140806520680788
+        "max_width": 744.0,
+        "scale_factor": 0.9715371501980725
       },
       "middle_typography": {
         "label": "EVENT",
@@ -3303,7 +3378,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "e60cfc7d0da0c48951bc995528ab84dd669cef38537c3e1efed6b526c296a7ff",
+      "png_sha256": "14be378749ed9d2575a77da1c3ed55ec5403a366323afe78609cde152dae29b3",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "9d4ee79648f0dac7396ea222ea0d699b6c1591b480ad4703ac411c997a07d3e2",
@@ -3334,7 +3409,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          157.5,
+          901.5
+        ],
+        "max_width": 744.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.0
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "fbfd09b7226c695db50b08b9f46236b9eddf51f3afa72b3eb600014bc1f52587",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "e60cfc7d0da0c48951bc995528ab84dd669cef38537c3e1efed6b526c296a7ff"
     }
   },
   {
@@ -3899,7 +3999,7 @@
     "id": "saiyan-115-yamchas-energy-attack",
     "name": "Yamcha's Energy Attack",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-115-yamchas-energy-attack.svg",
-    "native_source_sha256": "030fcc16a15f0efecb09957519fa3c945aa016702936b45531b1ef90a5f71d6b",
+    "native_source_sha256": "e57dbbab5b8b992fcc24b5e154bcc1f83f248924b8714b1687308284b3406b28",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/5432c51188723587ac29f580da16ab485523de2494f536599a3e09d812f444d3.png",
@@ -3952,10 +4052,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          46.1196,
-          700.0,
-          65.7608
+          162.25997506234398,
+          44.500000000137,
+          734.480049873566,
+          68.999999999836
         ],
         "card-category": [
           270.969,
@@ -4031,15 +4131,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "030fcc16a15f0efecb09957519fa3c945aa016702936b45531b1ef90a5f71d6b"
+      "native_source_sha256": "e57dbbab5b8b992fcc24b5e154bcc1f83f248924b8714b1687308284b3406b28"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-115-yamchas-energy-attack.webp",
-        "before_url": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=409f09065077",
-        "before_sha256": "b1280e7dba2b750c9357a17c5190cb4f05fe9658b33ecf9f3dda2c5c6f02d3ad",
-        "after_sha256": "9b1a975bcfb87501ccc04e4a3677e8c8319e0a8835bb538e024c16a060a224a4",
+        "before_url": "/assets/cards/saiyan-115-yamchas-energy-attack.webp?v=9b1a975bcfb8",
+        "before_sha256": "9b1a975bcfb87501ccc04e4a3677e8c8319e0a8835bb538e024c16a060a224a4",
+        "after_sha256": "bf97cd3bc8b1c67dc6aedd942ff2ac24df6d2bef58495ca4b10da080f9961448",
         "size": [
           1060,
           1484
@@ -4049,9 +4149,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp",
-        "before_url": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=bcd829f6417c",
-        "before_sha256": "7b526bc0b783df2052e08b33bdc96a71c4a1608df56a91fe5694fb026ae355dc",
-        "after_sha256": "02f699a389dcdeb5e6e69ab8c0b7e75fc28eb728566e441a7c41d6b408d5dccd",
+        "before_url": "/assets/cards/downloads/saiyan-115-yamchas-energy-attack.webp?v=02f699a389dc",
+        "before_sha256": "02f699a389dcdeb5e6e69ab8c0b7e75fc28eb728566e441a7c41d6b408d5dccd",
+        "after_sha256": "aba36ca903c20bb513ece2da00851a33b43e9d204685935a245e513d524db571",
         "size": [
           2120,
           2968
@@ -4070,16 +4170,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 81.9960173363008,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 699.9999999999999,
-        "visible_height": 65.76080590371323,
+        "visible_width": 734.4800498753118,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.9530551580248294
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "middle_typography": {
         "label": "ENERGY COMBAT",
@@ -4106,7 +4206,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "af947e9ecca99bd220342c2d137b269a4ee17ed84b2ff6bc23c56a2eaa843422",
+      "png_sha256": "6a6693800cb655e3a4b757cef71c87422aefffe1447f562ae527d99d11a80c8f",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "e1894ce599c817f49579a20e6960f137a6b84bfb698f07bbf7652de955638c4c",
@@ -4137,7 +4237,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          149.5,
+          909.5
+        ],
+        "max_width": 760.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 6.18465843842649
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "030fcc16a15f0efecb09957519fa3c945aa016702936b45531b1ef90a5f71d6b",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "af947e9ecca99bd220342c2d137b269a4ee17ed84b2ff6bc23c56a2eaa843422"
     }
   },
   {
@@ -4145,7 +4270,7 @@
     "id": "saiyan-116-yamchas-physical-defense",
     "name": "Yamcha's Physical Defense",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-116-yamchas-physical-defense.svg",
-    "native_source_sha256": "26cad0b596a56738cd59a9e4c9ac22b46f2f6c5cd00a353ba29d3fd0a95e6e30",
+    "native_source_sha256": "651de6cd93d6dc5ae3e121b05815ebe6b0c44b94c6e61853cf715576a92462e6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/65dfab4e9cebe38378fe10e9808c80a794884820b2af4b8b999d238de9f1d07f.png",
@@ -4198,10 +4323,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          49.9901,
-          700.0,
-          58.0198
+          157.5,
+          48.16659776790699,
+          743.9999999966119,
+          61.666804464373996
         ],
         "card-category": [
           242.726,
@@ -4247,15 +4372,15 @@
         ]
       },
       "icons": [],
-      "native_source_sha256": "26cad0b596a56738cd59a9e4c9ac22b46f2f6c5cd00a353ba29d3fd0a95e6e30"
+      "native_source_sha256": "651de6cd93d6dc5ae3e121b05815ebe6b0c44b94c6e61853cf715576a92462e6"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-116-yamchas-physical-defense.webp",
-        "before_url": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=bbb1892e948e",
-        "before_sha256": "a2da6ae4af53eb8ed5855edac84a9d888638c49e64fd3da05097f03513e831bd",
-        "after_sha256": "c4496807abf88defc3b536959edfead38bc4571f2f98149ebe7e9915d17c6cb6",
+        "before_url": "/assets/cards/saiyan-116-yamchas-physical-defense.webp?v=c4496807abf8",
+        "before_sha256": "c4496807abf88defc3b536959edfead38bc4571f2f98149ebe7e9915d17c6cb6",
+        "after_sha256": "9e9742478b9ce5a0466043550f0b69b59397e4e6d337a655a756c1576c8a3ea2",
         "size": [
           1060,
           1484
@@ -4265,9 +4390,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp",
-        "before_url": "/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp?v=0753c63292ee",
-        "before_sha256": "c9339a7bd2082d52ed6a5926b84415349cbefb531c2f476505a258ac719489e9",
-        "after_sha256": "33721fc9b415dee963a3203cf20d2554a066b11d512a532d49eccffe42cb89b7",
+        "before_url": "/assets/cards/downloads/saiyan-116-yamchas-physical-defense.webp?v=33721fc9b415",
+        "before_sha256": "33721fc9b415dee963a3203cf20d2554a066b11d512a532d49eccffe42cb89b7",
+        "after_sha256": "f1be03dc366dcc31e1f73c26794f4c8f62ce0ebf976a53ba950e0b65246b0a3c",
         "size": [
           2120,
           2968
@@ -4286,16 +4411,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 72.34394377842084,
+        "font_size": 76.89127738735014,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 700.0,
-        "visible_height": 58.01984291029351,
+        "visible_width": 744.0,
+        "visible_height": 61.66680446465482,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.8408672885549784
+        "max_width": 744.0,
+        "scale_factor": 0.893721803835577
       },
       "middle_typography": {
         "label": "PHYSICAL COMBAT",
@@ -4322,7 +4447,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "447184b74bcd28f7af0ebe6c65a07e4f2d99f4cc4098259454fec2788f5eed07",
+      "png_sha256": "a52ef8bd0c35de48897a22683105d00bb2b4234747015c2840ab9d0e8f96e875",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "e88dc35995c98fdcd3e072b68b817be1d2d9541b5aba359f6d97bf7cb4ab39ef",
@@ -4353,7 +4478,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          157.5,
+          901.5
+        ],
+        "max_width": 744.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.0
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "26cad0b596a56738cd59a9e4c9ac22b46f2f6c5cd00a353ba29d3fd0a95e6e30",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "447184b74bcd28f7af0ebe6c65a07e4f2d99f4cc4098259454fec2788f5eed07"
     }
   },
   {
@@ -4577,7 +4727,7 @@
     "id": "saiyan-118-raditz-physical-defense",
     "name": "Raditz Physical Defense",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-118-raditz-physical-defense.svg",
-    "native_source_sha256": "2f017cc13950beabcf06cad31244b455519409385c0e7dbbaf03853961fc73f6",
+    "native_source_sha256": "20802a570c6f5e410d6830abe0b398c8fb350e0bb36c636b33087aa5fae4ad92",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/087b1f084d485a08561b8c56ce61c74aef5bd22b31eadff9f1df68a55102353e.png",
@@ -4630,10 +4780,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          179.5,
-          45.4596,
-          700.0,
-          67.0809
+          169.486907730664,
+          44.500000000137,
+          720.026184536942,
+          68.999999999836
         ],
         "card-category": [
           433.596,
@@ -4679,15 +4829,15 @@
         ]
       },
       "icons": [],
-      "native_source_sha256": "2f017cc13950beabcf06cad31244b455519409385c0e7dbbaf03853961fc73f6"
+      "native_source_sha256": "20802a570c6f5e410d6830abe0b398c8fb350e0bb36c636b33087aa5fae4ad92"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-118-raditz-physical-defense.webp",
-        "before_url": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=88dc65ba00ef",
-        "before_sha256": "8bf9a213acc1855ddd251f4aa4a7c513baf942044b4530a7a6251afd5c091244",
-        "after_sha256": "18193b2a1a49df251563995a451794857666be7e0f773e983c2d2d184684f3c9",
+        "before_url": "/assets/cards/saiyan-118-raditz-physical-defense.webp?v=18193b2a1a49",
+        "before_sha256": "18193b2a1a49df251563995a451794857666be7e0f773e983c2d2d184684f3c9",
+        "after_sha256": "66b5be8404f63f08fcc0902cd1aa1903062e518adde8063b60ec031001506f72",
         "size": [
           1060,
           1484
@@ -4697,9 +4847,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-118-raditz-physical-defense.webp",
-        "before_url": "/assets/cards/downloads/saiyan-118-raditz-physical-defense.webp?v=d7c7b1a22873",
-        "before_sha256": "3e8b7ba16b1c8942e8bf9b803bc7dc4d56685c24245cae7bf5176f1469d81d07",
-        "after_sha256": "c26d80f1c52828df4b5af435982a8347b24782498b7e1caf78f4c29b0da78b8d",
+        "before_url": "/assets/cards/downloads/saiyan-118-raditz-physical-defense.webp?v=c26d80f1c528",
+        "before_sha256": "c26d80f1c52828df4b5af435982a8347b24782498b7e1caf78f4c29b0da78b8d",
+        "after_sha256": "b648ef8fa598c48aac574da69131f6937465c1b7ff4bf8d12ab7138106745220",
         "size": [
           2120,
           2968
@@ -4718,16 +4868,16 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "original frame only; character artwork unchanged",
       "title_fit": {
-        "font_size": 83.64201218783604,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 699.9999999999998,
-        "visible_height": 67.08089377464451,
+        "visible_width": 720.0261845386535,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 700.0,
-        "scale_factor": 0.9721868662991957
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "middle_typography": {
         "label": "EVENT",
@@ -4754,7 +4904,7 @@
       ],
       "artwork_group_unchanged": true,
       "dragon_ball": null,
-      "png_sha256": "01e6ee6dce5522731004a06588b3f330456e44808df5920a2c96c6ef24b2e404",
+      "png_sha256": "f3bcfe715dba14922904e759c12c25c6f4f7ac0091039d1894361014938aa7fa",
       "source_preview_review": "tools/card-corrections/v3-saiyan-071-120-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "445f8bd05ef72c4e8176efb22dcdc425e9ba79467c5e2921c4c1f8e6dca0398c",
@@ -4785,7 +4935,32 @@
             "lossless_round_trip": true
           }
         ]
+      },
+      "title_edge_clearance": {
+        "safe_region": [
+          149.5,
+          909.5
+        ],
+        "max_width": 760.0,
+        "center": [
+          529.5,
+          79
+        ],
+        "proportional_font_reduction": true,
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 13.0
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "2f017cc13950beabcf06cad31244b455519409385c0e7dbbaf03853961fc73f6",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "01e6ee6dce5522731004a06588b3f330456e44808df5920a2c96c6ef24b2e404"
     }
   },
   {
@@ -5291,7 +5466,7 @@
     "id": "saiyan-121-nappas-physical-resistance",
     "name": "Nappa's Physical Resistance",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-121-nappas-physical-resistance.svg",
-    "native_source_sha256": "987bdfab5d4aa2f16d9fbda10af4da3ffdf147a84b77ff47e31b424a76e8d072",
+    "native_source_sha256": "1b08904031c4b78d38224ce4dcda66accfda13aad60f08708bd32825fde8f1d5",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -5350,10 +5525,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          54.2297,
-          620.0,
-          49.5407
+          151.500000000011,
+          48.796154229184,
+          756.0000000025128,
+          60.407691541498
         ],
         "card-category": [
           242.726,
@@ -5435,15 +5610,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "987bdfab5d4aa2f16d9fbda10af4da3ffdf147a84b77ff47e31b424a76e8d072"
+      "native_source_sha256": "1b08904031c4b78d38224ce4dcda66accfda13aad60f08708bd32825fde8f1d5"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-121-nappas-physical-resistance.webp",
-        "before_url": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=922b5df839cc",
-        "before_sha256": "922b5df839cc389ea67e7ee6e3075b7d683c368aa955e8f8e07a55feae9676ff",
-        "after_sha256": "bd0bd99976816e3d767ae1a8591b6cf541190c04a040942bad2f3c103252d0f2",
+        "before_url": "/assets/cards/saiyan-121-nappas-physical-resistance.webp?v=bd0bd9997681",
+        "before_sha256": "bd0bd99976816e3d767ae1a8591b6cf541190c04a040942bad2f3c103252d0f2",
+        "after_sha256": "755781a8f961a1bb5d17668234af05fa72e516a0bf2577f93cb7d340c802e3da",
         "size": [
           1060,
           1484
@@ -5453,9 +5628,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-121-nappas-physical-resistance.webp",
-        "before_url": "/assets/cards/downloads/saiyan-121-nappas-physical-resistance.webp?v=3d19cf5c97c5",
-        "before_sha256": "3d19cf5c97c5891b38c5e8d28ae2df8fab62d90f9dd8fec77d3a625d7f056099",
-        "after_sha256": "97c9666da676dfbf7c59dfb5de567b4ab66293d0264b25bc60e202e353a371bd",
+        "before_url": "/assets/cards/downloads/saiyan-121-nappas-physical-resistance.webp?v=97c9666da676",
+        "before_sha256": "97c9666da676dfbf7c59dfb5de567b4ab66293d0264b25bc60e202e353a371bd",
+        "after_sha256": "c9c818e956389907cf02a2582a4e90f1ba0bf8bac735b7795f524ba0258a3042",
         "size": [
           2120,
           2968
@@ -5474,35 +5649,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 61.77144565109096,
+        "font_size": 75.32131114874961,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 49.54069941217495,
+        "visible_width": 755.9999999999999,
+        "visible_height": 60.40769154129719,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.7179811509010862
+        "max_width": 756.0,
+        "scale_factor": 0.8754737904535824
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          151.5,
+          907.5
         ],
-        "max_width": 620,
+        "max_width": 756.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          102,
-          1759,
-          214
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.0
       },
       "middle_typography": {
         "label": "PHYSICAL COMBAT",
@@ -5529,7 +5701,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "8f0dbc89a892dd00c0b007a2360bc4bb5c7a62cd8f6980c34123d64309669636",
+      "png_sha256": "c1e221efc8b56bd1811554c8c5dbfe815e4a02fbface5d87cf007eadf02d6499",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "4e9cf253b1fdfa9f1c8d7ab2f0560589d25de8eb7effac7a01174a9e468b1474",
@@ -5561,6 +5733,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "987bdfab5d4aa2f16d9fbda10af4da3ffdf147a84b77ff47e31b424a76e8d072",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "8f0dbc89a892dd00c0b007a2360bc4bb5c7a62cd8f6980c34123d64309669636"
     }
   },
   {
@@ -5568,7 +5749,7 @@
     "id": "saiyan-122-yajirobes-energy-attack",
     "name": "Yajirobe's Energy Attack",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-122-yajirobes-energy-attack.svg",
-    "native_source_sha256": "b6d4affdf2b9259b0ae11c05f4a354faa8dc402274fde672269511923ddae718",
+    "native_source_sha256": "36a4a85a930cafdd9b8ed21f50ef2b7ab747f6c58b692542872193c4aff5eebe",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -5621,10 +5802,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          50.2245,
-          620.0,
-          57.5509
+          157.829177057356,
+          44.500000000137,
+          743.34164588352,
+          68.999999999836
         ],
         "card-category": [
           270.969,
@@ -5700,15 +5881,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "b6d4affdf2b9259b0ae11c05f4a354faa8dc402274fde672269511923ddae718"
+      "native_source_sha256": "36a4a85a930cafdd9b8ed21f50ef2b7ab747f6c58b692542872193c4aff5eebe"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-122-yajirobes-energy-attack.webp",
-        "before_url": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=ced628fff684",
-        "before_sha256": "ced628fff68443e14989ccc1319f5321f49bdca87e398093a85af22b720827a7",
-        "after_sha256": "aead789b452a945037773bc7eb446f0941a346c87d306d75229973c61c77090e",
+        "before_url": "/assets/cards/saiyan-122-yajirobes-energy-attack.webp?v=aead789b452a",
+        "before_sha256": "aead789b452a945037773bc7eb446f0941a346c87d306d75229973c61c77090e",
+        "after_sha256": "b5e38d544e0342d34c4dfe3c6a93d942314104115f89362c9eb37e4d7f74cd55",
         "size": [
           1060,
           1484
@@ -5718,9 +5899,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-122-yajirobes-energy-attack.webp",
-        "before_url": "/assets/cards/downloads/saiyan-122-yajirobes-energy-attack.webp?v=413e6f4b8546",
-        "before_sha256": "413e6f4b8546231ff74602cf2da3c79f59fd244ef92595241ccecbc5f78e983f",
-        "after_sha256": "30841d84d6edcdfd41335c9a9357319606f2442632fc452365c7707f1022a56a",
+        "before_url": "/assets/cards/downloads/saiyan-122-yajirobes-energy-attack.webp?v=30841d84d6ed",
+        "before_sha256": "30841d84d6edcdfd41335c9a9357319606f2442632fc452365c7707f1022a56a",
+        "after_sha256": "35fb9bb15fb2fd6fc0533a5c34b68bc2212ddc463e82f393681da5948db149fb",
         "size": [
           2120,
           2968
@@ -5739,35 +5920,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 71.75925925925925,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 57.550925925925924,
+        "visible_width": 743.3416458852869,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.8340713902308103
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          93,
-          1759,
-          223
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 2.0
       },
       "middle_typography": {
         "label": "ENERGY COMBAT",
@@ -5794,7 +5972,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "889d9994495b6ed6ffeb4c1f51c708085e471a34848faa60fbb8cd88e091f975",
+      "png_sha256": "2e7c70d6cb5033ad2e59ac98a3d00888db718f93ebc0d8f3bbff8f99f68de308",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "ce784379e4f1425e7ebb040da1898f9dda8647618a2937be1e457c90eaf9c6c7",
@@ -5826,6 +6004,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "b6d4affdf2b9259b0ae11c05f4a354faa8dc402274fde672269511923ddae718",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "889d9994495b6ed6ffeb4c1f51c708085e471a34848faa60fbb8cd88e091f975"
     }
   },
   {
@@ -5833,7 +6020,7 @@
     "id": "saiyan-123-chiaotzus-energy-manipulation",
     "name": "Chiaotzu's Energy Manipulation",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-123-chiaotzus-energy-manipulation.svg",
-    "native_source_sha256": "aba8e1a6787041a615340db290b78768cb10af3d7a64c98ac8783a6fa7675fae",
+    "native_source_sha256": "67312dd8bb539219aabf9a71ce67ad176ce71f1ffc4e70001838dc7ea6467c24",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/26573dee5557c294c20c2dabd96f2d27d6b564a9071ca2aaa591414117e8ef4d.png",
@@ -5886,10 +6073,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          56.357,
-          620.0,
-          45.286
+          149.499999999987,
+          51.244080145952005,
+          759.9999999961799,
+          55.511839708282004
         ],
         "card-category": [
           270.969,
@@ -5965,15 +6152,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "aba8e1a6787041a615340db290b78768cb10af3d7a64c98ac8783a6fa7675fae"
+      "native_source_sha256": "67312dd8bb539219aabf9a71ce67ad176ce71f1ffc4e70001838dc7ea6467c24"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp",
-        "before_url": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=b90522d59d07",
-        "before_sha256": "b90522d59d07bab9775c4d665cb5a25109273db8c5b1f65840bda97011e2a963",
-        "after_sha256": "a1b1437d8e56ae563395d72885f5bdae85ce828731f1e314ffd80e45197589fe",
+        "before_url": "/assets/cards/saiyan-123-chiaotzus-energy-manipulation.webp?v=a1b1437d8e56",
+        "before_sha256": "a1b1437d8e56ae563395d72885f5bdae85ce828731f1e314ffd80e45197589fe",
+        "after_sha256": "8cc9fc7fbc045759a3c3b9dacef0c198557126181fcb172055eb4c63acf45cfb",
         "size": [
           1060,
           1484
@@ -5983,9 +6170,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-123-chiaotzus-energy-manipulation.webp",
-        "before_url": "/assets/cards/downloads/saiyan-123-chiaotzus-energy-manipulation.webp?v=df26af3d14e0",
-        "before_sha256": "df26af3d14e042b5a3b45d4a8c383e570a7c72b85cc389bbe09848cf66a2d3a7",
-        "after_sha256": "3d6293370455134f6981759b3e0f87f12a6a6d1b8110c6b02104c2c78b64445f",
+        "before_url": "/assets/cards/downloads/saiyan-123-chiaotzus-energy-manipulation.webp?v=3d6293370455",
+        "before_sha256": "3d6293370455134f6981759b3e0f87f12a6a6d1b8110c6b02104c2c78b64445f",
+        "after_sha256": "d5ef45b68c0e599242d939805d406e3225ef257d76fb46ad4e331a501e2a4f2d",
         "size": [
           2120,
           2968
@@ -6004,35 +6191,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 56.4663023679417,
+        "font_size": 69.21675774134789,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 45.28597449908924,
+        "visible_width": 759.9999999999998,
+        "visible_height": 55.511839708561006,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.6563184710012934
+        "max_width": 760.0,
+        "scale_factor": 0.8045194160661016
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          106,
-          1759,
-          210
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 2.0
       },
       "middle_typography": {
         "label": "ENERGY COMBAT",
@@ -6059,7 +6243,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "b84eab500f1dd0cfe730774851577e7dbad3512b0cea324815cbf89ca6cd60dd",
+      "png_sha256": "463565c0274cb526f914f43413ed67c8cef416cb4f5988df7bfe39164c800034",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "c3c6a95e5328299172cedc2cefb1270d53607502d30d6a0ac877fc51aba5f7a4",
@@ -6091,6 +6275,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "aba8e1a6787041a615340db290b78768cb10af3d7a64c98ac8783a6fa7675fae",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "b84eab500f1dd0cfe730774851577e7dbad3512b0cea324815cbf89ca6cd60dd"
     }
   },
   {
@@ -6098,7 +6291,7 @@
     "id": "saiyan-124-red-penetrating-defense-drill",
     "name": "Red Penetrating Defense Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-124-red-penetrating-defense-drill.svg",
-    "native_source_sha256": "1175babb77c12b0ea475d829e258094ea1c0b13c8e867ff5e9afc29ba0c1b76a",
+    "native_source_sha256": "3a1c02c32d7188e2b7e308959632b4851e584f6b3d0ee7ae307c9fd2a05d3719",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/18bc55f92f1d81759f5fa97fcb57391746641091a5a6bb42c736e73e8b70c7dc.png",
@@ -6151,10 +6344,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          54.742,
-          620.0,
-          48.516
+          149.500000000016,
+          49.26441604034199,
+          760.0000000037909,
+          59.47116791911801
         ],
         "card-category": [
           448.339,
@@ -6230,15 +6423,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "1175babb77c12b0ea475d829e258094ea1c0b13c8e867ff5e9afc29ba0c1b76a"
+      "native_source_sha256": "3a1c02c32d7188e2b7e308959632b4851e584f6b3d0ee7ae307c9fd2a05d3719"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-124-red-penetrating-defense-drill.webp",
-        "before_url": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=f40cc8b14f63",
-        "before_sha256": "f40cc8b14f6371ca63368a00c4ab39e779d8d2143737204f91a397969664e6c3",
-        "after_sha256": "7787e2d6661156e86f83071be5d884abfb5ac0ca642a8a84625a6be52ad47068",
+        "before_url": "/assets/cards/saiyan-124-red-penetrating-defense-drill.webp?v=7787e2d66611",
+        "before_sha256": "7787e2d6661156e86f83071be5d884abfb5ac0ca642a8a84625a6be52ad47068",
+        "after_sha256": "db85210ac6abbabbde14f9dd37ac7bb48b82eb74b03d5653d0abda4c75330a06",
         "size": [
           1060,
           1484
@@ -6248,9 +6441,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp?v=6ffcc14395c2",
-        "before_sha256": "6ffcc14395c277e5ad7376dbff9e3c1043109ca41b01d3845d5b0dc4b51ace59",
-        "after_sha256": "4726a2fe797d5b3503723bb23b1b0ea43f54984b553038331c86c55c47c16f14",
+        "before_url": "/assets/cards/downloads/saiyan-124-red-penetrating-defense-drill.webp?v=4726a2fe797d",
+        "before_sha256": "4726a2fe797d5b3503723bb23b1b0ea43f54984b553038331c86c55c47c16f14",
+        "after_sha256": "ef297f730c94e754fc556a389c8f133f32365170cf0592f9983ed08933429a56",
         "size": [
           2120,
           2968
@@ -6270,35 +6463,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 60.493706703092975,
+        "font_size": 74.1535759586301,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 48.515952775880564,
+        "visible_width": 760.0,
+        "visible_height": 59.471167918821344,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.7031297503750806
+        "max_width": 760.0,
+        "scale_factor": 0.861900984330744
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          103,
-          1759,
-          213
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.0
       },
       "middle_typography": {
         "label": "DRILL",
@@ -6325,7 +6515,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "4e7e598b7b8a2d73fc35f40646d238efc761bca49a8f4034d490193fdeadd01c",
+      "png_sha256": "1faa9d49bd3235fc19303ef7faad2b82e852d60750de4f8090b63a126c5ff929",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "319fddc40c05970480e43c12844d6ed5456d5fe96b9d68cce22d01b4e3ba1a88",
@@ -6357,6 +6547,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "1175babb77c12b0ea475d829e258094ea1c0b13c8e867ff5e9afc29ba0c1b76a",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "4e7e598b7b8a2d73fc35f40646d238efc761bca49a8f4034d490193fdeadd01c"
     }
   },
   {
@@ -6364,7 +6563,7 @@
     "id": "saiyan-125-blue-off-balancing-opponent-drill",
     "name": "Blue Off-Balancing Opponent Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-125-blue-off-balancing-opponent-drill.svg",
-    "native_source_sha256": "0c1b6018bb0a215e4c2f15cd6a6793f0af995d1fbb934efd80485e4acd271aae",
+    "native_source_sha256": "8d659f139f4a10c40f6dd1b4ff25b29752b3b163dfccad148b672c79e35dd4e9",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/54aa915259a2a4c079a524fea422a6f21606943a4a04104475d684a421f40067.png",
@@ -6417,10 +6616,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          57.7468,
-          620.0,
-          42.5064
+          149.50000000001498,
+          52.947683364445005,
+          760.0000000040759,
+          52.104633270924005
         ],
         "card-category": [
           448.339,
@@ -6496,15 +6695,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "0c1b6018bb0a215e4c2f15cd6a6793f0af995d1fbb934efd80485e4acd271aae"
+      "native_source_sha256": "8d659f139f4a10c40f6dd1b4ff25b29752b3b163dfccad148b672c79e35dd4e9"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp",
-        "before_url": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=825a35938839",
-        "before_sha256": "825a35938839f7cfe058f8e6dc6295f7b19aaad30186ce0ff4773d0feb095d01",
-        "after_sha256": "86a60f12fcb1e76440e71e66efb0d43c755cc42aace2c653eb7f9cfab1e3a582",
+        "before_url": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=86a60f12fcb1",
+        "before_sha256": "86a60f12fcb1e76440e71e66efb0d43c755cc42aace2c653eb7f9cfab1e3a582",
+        "after_sha256": "c6d733197aed3ca527f6478af05b6985e89e60486c06d4ef8cd53fa281575e8e",
         "size": [
           1060,
           1484
@@ -6514,9 +6713,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-125-blue-off-balancing-opponent-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-125-blue-off-balancing-opponent-drill.webp?v=6447d4a05e22",
-        "before_sha256": "6447d4a05e22dc0c8601670252180f67885ce36cf0f6662174d8912a0110061a",
-        "after_sha256": "fb57d85b9e2e1191a0783f698eb557e8f3ad7a4c3b8bad8c9a08967022f131db",
+        "before_url": "/assets/cards/downloads/saiyan-125-blue-off-balancing-opponent-drill.webp?v=fb57d85b9e2e",
+        "before_sha256": "fb57d85b9e2e1191a0783f698eb557e8f3ad7a4c3b8bad8c9a08967022f131db",
+        "after_sha256": "93770f3640431a3032d4515bd045ca1e64ecf6ba4db4680fce48cd8dabae3b39",
         "size": [
           2120,
           2968
@@ -6536,35 +6735,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 53.000512908189435,
+        "font_size": 64.96837066165156,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 42.50641135236793,
+        "visible_width": 760.0,
+        "visible_height": 52.104633270644555,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.616034947135767
+        "max_width": 760.0,
+        "scale_factor": 0.755139612618037
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          110,
-          1759,
-          206
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 2.0
       },
       "middle_typography": {
         "label": "DRILL",
@@ -6591,7 +6787,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "9308eac09b5d0a0923fb6b0a84902cf3fac92d7a14194de6db2be39a8e68ff72",
+      "png_sha256": "17d469279d56017380e85d4a7551782cd461e61000b233a3304823924b20de1a",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "553beee02a12105e163f9e0796ec4b119a0cd95fe02d1a8523f831fb44e9833b",
@@ -6623,6 +6819,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "0c1b6018bb0a215e4c2f15cd6a6793f0af995d1fbb934efd80485e4acd271aae",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "9308eac09b5d0a0923fb6b0a84902cf3fac92d7a14194de6db2be39a8e68ff72"
     }
   },
   {
@@ -6872,7 +7077,7 @@
     "id": "saiyan-127-black-takedown-drill",
     "name": "Black Takedown Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-127-black-takedown-drill.svg",
-    "native_source_sha256": "0f919f0d1a9c74f77f115051a4951ae7cf128841106c19ce3562f7b0cef3e970",
+    "native_source_sha256": "373c5934ccd84a7b4a01a91c7be71930eefd922b2dcca0d7d882c95e8721348a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/12505427a294cae4360c6a1093030d3aab0f991c4e59d2418702b9fea975f1f2.png",
@@ -6925,10 +7130,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          50.6642,
-          620.0,
-          56.6717
+          214.65523690772199,
+          50.221321695897,
+          629.6895261830421,
+          57.557356608342
         ],
         "card-category": [
           448.339,
@@ -7004,15 +7209,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "0f919f0d1a9c74f77f115051a4951ae7cf128841106c19ce3562f7b0cef3e970"
+      "native_source_sha256": "373c5934ccd84a7b4a01a91c7be71930eefd922b2dcca0d7d882c95e8721348a"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-127-black-takedown-drill.webp",
-        "before_url": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=901670170f0c",
-        "before_sha256": "901670170f0c4037965e2c916cce7e9f0f575613bdf8dadddbb0a3d664b3c2d5",
-        "after_sha256": "c47ed6d470e29ef87951b8ea8b2ff5cf51377c4abd82599402f1a54faadcded8",
+        "before_url": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=c47ed6d470e2",
+        "before_sha256": "c47ed6d470e29ef87951b8ea8b2ff5cf51377c4abd82599402f1a54faadcded8",
+        "after_sha256": "baf2e74949f2804f28f0dbe0775ea9e1bb6cc8a0ecd506413856ad89da366835",
         "size": [
           1060,
           1484
@@ -7022,9 +7227,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-127-black-takedown-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=c8372dd3ed73",
-        "before_sha256": "c8372dd3ed734bbf9f0c799c8ad6a0daea7d0cd46e85d2c7608a96407e1af172",
-        "after_sha256": "dcc9da77bd13f41212bd9747ab7f2380d2d5c342c2c1f7d33100b134f96c0a17",
+        "before_url": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=dcc9da77bd13",
+        "before_sha256": "dcc9da77bd13f41212bd9747ab7f2380d2d5c342c2c1f7d33100b134f96c0a17",
+        "after_sha256": "a521116a0a9f5f1f482f46ace1e4ad016cc2cec119b5434f6766b2b49166a36f",
         "size": [
           2120,
           2968
@@ -7057,35 +7262,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 84.71102609646125,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 56.67167645853257,
+        "visible_width": 629.6895261845387,
+        "visible_height": 57.55735660847881,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.984612216367564
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          429,
-          100,
-          1689,
-          216
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 35.55980877338909
       },
       "middle_typography": {
         "label": "DRILL",
@@ -7112,7 +7314,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "e9f088730bbe3f5ff3eb212cb03cb31e4937689d1c3fc4fe550059da91662e31",
+      "png_sha256": "89a9b9817b1768748d22fff43170ad5c0fb82985f24972226db939860e9a2572",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "1c5a514e95e838d6f7cdc667f95528be32bfefa06e5208b47756d36f0fc19257",
@@ -7144,6 +7346,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "0f919f0d1a9c74f77f115051a4951ae7cf128841106c19ce3562f7b0cef3e970",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "e9f088730bbe3f5ff3eb212cb03cb31e4937689d1c3fc4fe550059da91662e31"
     }
   },
   {
@@ -8753,7 +8964,7 @@
     "id": "saiyan-134-orange-off-balancing-drill",
     "name": "Orange Off-Balancing Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-134-orange-off-balancing-drill.svg",
-    "native_source_sha256": "407cc7966e165cc90a63d8f8515dc2bc4c8ea5be1e1bc9b7847033ff4e0752c0",
+    "native_source_sha256": "97e0dae5a6490b82d94bf91c32cb6ffd977cca7097c2638486dbe00a60df7a7b",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/515cd729b917e331102e7dce0a8a9a1537d0fa069fdba82753cbfbc13056af6c.png",
@@ -8806,10 +9017,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          51.6911,
-          620.0,
-          54.6178
+          155.499999999981,
+          46.05316344495701,
+          747.9999999956799,
+          65.89367311034
         ],
         "card-category": [
           448.339,
@@ -8885,15 +9096,15 @@
           "colon_and_text_unchanged": false
         }
       ],
-      "native_source_sha256": "407cc7966e165cc90a63d8f8515dc2bc4c8ea5be1e1bc9b7847033ff4e0752c0"
+      "native_source_sha256": "97e0dae5a6490b82d94bf91c32cb6ffd977cca7097c2638486dbe00a60df7a7b"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-134-orange-off-balancing-drill.webp",
-        "before_url": "/assets/cards/saiyan-134-orange-off-balancing-drill.webp?v=6c9c69027254",
-        "before_sha256": "6c9c69027254565e5bcfbaceb888bffd81da9de53164318cdf6757b7ef7b2186",
-        "after_sha256": "4f93da339354580c09f540521b25756319109a0d4fdc01daee83729ada0ee058",
+        "before_url": "/assets/cards/saiyan-134-orange-off-balancing-drill.webp?v=4f93da339354",
+        "before_sha256": "4f93da339354580c09f540521b25756319109a0d4fdc01daee83729ada0ee058",
+        "after_sha256": "cb6a264d069bab0b11bc83e30c7b6bf13ecd1514c37f7441707dce41cd2643dd",
         "size": [
           1060,
           1484
@@ -8903,9 +9114,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp?v=700708cd6635",
-        "before_sha256": "700708cd66351198526e65c0af43c39c677b700185ad0a755f3a38e6d09888f5",
-        "after_sha256": "f3fa8adb56eceae4f48f9dbef9d4e781cdc3660a83981cb80add0f6423b66a1b",
+        "before_url": "/assets/cards/downloads/saiyan-134-orange-off-balancing-drill.webp?v=f3fa8adb56ec",
+        "before_sha256": "f3fa8adb56eceae4f48f9dbef9d4e781cdc3660a83981cb80add0f6423b66a1b",
+        "after_sha256": "3599bce201d5070180f7d833a097bec5da0a4187fd5be27fe0c36f6c1c88f766",
         "size": [
           2120,
           2968
@@ -8924,35 +9135,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 68.1019332161687,
+        "font_size": 82.16168717047451,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999998,
-        "visible_height": 54.61775043936729,
+        "visible_width": 747.9999999999999,
+        "visible_height": 65.89367311072056,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.7915616005705405
+        "max_width": 748.0,
+        "scale_factor": 0.9549807697205877
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          155.5,
+          903.5
         ],
-        "max_width": 620,
+        "max_width": 748.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          96,
-          1759,
-          220
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.4142135623730951
       },
       "middle_typography": {
         "label": "DRILL",
@@ -8979,7 +9187,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "cb16eb6de2ef1ef5c821455ec46662f5091ad09629c1da8770a418a612982646",
+      "png_sha256": "a93206c6584f52158f4bba69fddb9ebb118ffbd590f8d879b2c65f5b19d63c19",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "0b323635c30baa7f4e2041989e698b30fedbd43f1c45138c4ee5c83656851069",
@@ -9011,6 +9219,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "407cc7966e165cc90a63d8f8515dc2bc4c8ea5be1e1bc9b7847033ff4e0752c0",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "cb16eb6de2ef1ef5c821455ec46662f5091ad09629c1da8770a418a612982646"
     }
   },
   {
@@ -9303,7 +9520,7 @@
     "id": "saiyan-136-black-free-style-drill",
     "name": "Black Free-Style Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-136-black-free-style-drill.svg",
-    "native_source_sha256": "b4df1b158a1b57ef3cac99c97c992cbd97b2a1d4cee5a5aed89ff449843b4991",
+    "native_source_sha256": "34ddc2731005affd0e8e051650a747497c29adbfc8c148a6189ca433b1646b63",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/51f2ce9698b9a24d6316d137cce04414aa51d1c7cb5e0a002f84c5f454ba41e8.png",
@@ -9368,10 +9585,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          45.2659,
-          620.0,
-          67.4681
+          212.461346633407,
+          44.500000000137,
+          634.07730673166,
+          68.999999999836
         ],
         "card-category": [
           448.339,
@@ -9459,15 +9676,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "b4df1b158a1b57ef3cac99c97c992cbd97b2a1d4cee5a5aed89ff449843b4991"
+      "native_source_sha256": "34ddc2731005affd0e8e051650a747497c29adbfc8c148a6189ca433b1646b63"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-136-black-free-style-drill.webp",
-        "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=00298f081fe0",
-        "before_sha256": "00298f081fe04b6cf50a8fe2756417ac7cffb1daa582da04562828158151af43",
-        "after_sha256": "44756886614a091fd4102cc25e565dbd32337266e584209740150a35253b6b98",
+        "before_url": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=44756886614a",
+        "before_sha256": "44756886614a091fd4102cc25e565dbd32337266e584209740150a35253b6b98",
+        "after_sha256": "1cb8154e3f525a251193857a89f97be3a375662016c69ec9f6d9848f2442c922",
         "size": [
           1060,
           1484
@@ -9477,9 +9694,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-136-black-free-style-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=ec7d66e60d86",
-        "before_sha256": "ec7d66e60d86a420ea1959a18bc03d7130c6c4e0c6eac3e164af385bf3b077a6",
-        "after_sha256": "6498fabf32bb392f157b18e6953db80042ac61143d8bee7e1e890d386f63c1a7",
+        "before_url": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=6498fabf32bb",
+        "before_sha256": "6498fabf32bb392f157b18e6953db80042ac61143d8bee7e1e890d386f63c1a7",
+        "after_sha256": "dade45629241ec48744a0b753f75e2ba91d35f0f7ed8ac7715c90cc167409a85",
         "size": [
           2120,
           2968
@@ -9512,35 +9729,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 84.12483039348712,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 67.46811397557667,
+        "visible_width": 634.0773067331671,
+        "visible_height": 69.00000000000001,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.9777987532692269
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          424,
-          89,
-          1694,
-          227
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 29.5296461204668
       },
       "middle_typography": {
         "label": "DRILL",
@@ -9567,7 +9781,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "75666c6c4ee6ddd2de955ace62aef5208089c5db566fee40c29238c5c4cdd3d4",
+      "png_sha256": "d73fef8aae5583fd6c48f9a88c8c4085b116d2ce5e3146480af25aecaef55917",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "fff4980896c92802c754a7e6e5b195784f725ef45624bef5c0f817c8c1e5bc76",
@@ -9599,6 +9813,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "b4df1b158a1b57ef3cac99c97c992cbd97b2a1d4cee5a5aed89ff449843b4991",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "75666c6c4ee6ddd2de955ace62aef5208089c5db566fee40c29238c5c4cdd3d4"
     }
   },
   {
@@ -9606,7 +9829,7 @@
     "id": "saiyan-137-orange-spontaneous-drill",
     "name": "Orange Spontaneous Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-137-orange-spontaneous-drill.svg",
-    "native_source_sha256": "35b29e32050de4b24f802caf91b370ad90feafd182a3a492dedd40ca712b4ae3",
+    "native_source_sha256": "02876d458639fb9c407bec707739ab32bda138309d3dd588be0ced64b32e5891",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -9665,10 +9888,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          50.8628,
-          620.0,
-          56.2743
+          156.5,
+          45.144635581711,
+          746.000000000004,
+          67.710728836578
         ],
         "card-category": [
           448.339,
@@ -9750,15 +9973,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "35b29e32050de4b24f802caf91b370ad90feafd182a3a492dedd40ca712b4ae3"
+      "native_source_sha256": "02876d458639fb9c407bec707739ab32bda138309d3dd588be0ced64b32e5891"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-137-orange-spontaneous-drill.webp",
-        "before_url": "/assets/cards/saiyan-137-orange-spontaneous-drill.webp?v=5b6ad83e0fe2",
-        "before_sha256": "5b6ad83e0fe2c1700bc4d68030e6f4d53202b1b9789052665f1bf6f02e0391d0",
-        "after_sha256": "f482a4300715de010272d8022daa6e9828f9945a21b10c250a97b046162f07f3",
+        "before_url": "/assets/cards/saiyan-137-orange-spontaneous-drill.webp?v=f482a4300715",
+        "before_sha256": "f482a4300715de010272d8022daa6e9828f9945a21b10c250a97b046162f07f3",
+        "after_sha256": "95ca021041f90ecb5fca20347c82719a5c4d99442d714aa641c464f19404e90a",
         "size": [
           1060,
           1484
@@ -9768,9 +9991,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-137-orange-spontaneous-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-137-orange-spontaneous-drill.webp?v=581d96db3571",
-        "before_sha256": "581d96db3571d9464b6d5144b174fb9ff2c14efe0f4ffbd13cf60c441802af04",
-        "after_sha256": "98f6ef742a7eb55d7811e1321ec23eb4716bf55ff61f8cba03791f2bc94ef57e",
+        "before_url": "/assets/cards/downloads/saiyan-137-orange-spontaneous-drill.webp?v=98f6ef742a7e",
+        "before_sha256": "98f6ef742a7eb55d7811e1321ec23eb4716bf55ff61f8cba03791f2bc94ef57e",
+        "after_sha256": "9b1ac0f56803749400048ac26ccb7f671258d487c695c61697508bf5eae954a3",
         "size": [
           2120,
           2968
@@ -9790,35 +10013,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 70.16749660479854,
+        "font_size": 84.42734268899954,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 56.27433227704843,
+        "visible_width": 745.9999999999999,
+        "visible_height": 67.71072883657763,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.8155700330007019
+        "max_width": 746.0,
+        "scale_factor": 0.9813149106750381
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          156.5,
+          902.5
         ],
-        "max_width": 620,
+        "max_width": 746.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          94,
-          1759,
-          222
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.8027756377319946
       },
       "middle_typography": {
         "label": "DRILL",
@@ -9845,7 +10065,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "f55294a4a68377f3f54dff8db396fdfb93306bb132659f8b0572b49ce7b0a097",
+      "png_sha256": "db0037ce778b57aa59c34ecb6de405e389f0f243abea27e89cf91ac96c623087",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "ea3f238386786e8d0afcd37caff77e67580f35db63eb30808705d88fdfb38018",
@@ -9877,6 +10097,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "35b29e32050de4b24f802caf91b370ad90feafd182a3a492dedd40ca712b4ae3",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "f55294a4a68377f3f54dff8db396fdfb93306bb132659f8b0572b49ce7b0a097"
     }
   },
   {
@@ -10157,7 +10386,7 @@
     "id": "saiyan-139-red-wrist-control-drill",
     "name": "Red Wrist Control Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-139-red-wrist-control-drill.svg",
-    "native_source_sha256": "9b49fcef8070983e6055b6e5e56a40ac8f5942141ad590aec46fb1e6e6e62db2",
+    "native_source_sha256": "4772cecf7a89e6e4f6f006e35eb9c68d3f6e2fd06660144414cc106e0579f74b",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/3dfcf35f91b85220586550e9a35163754f99fdedc8a119b6819aafb68086a057.png",
@@ -10216,10 +10445,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          52.195,
-          620.0,
-          53.6099
+          196.673940149617,
+          50.221321695897,
+          665.6521196991661,
+          57.557356608342
         ],
         "card-category": [
           448.339,
@@ -10301,15 +10530,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "9b49fcef8070983e6055b6e5e56a40ac8f5942141ad590aec46fb1e6e6e62db2"
+      "native_source_sha256": "4772cecf7a89e6e4f6f006e35eb9c68d3f6e2fd06660144414cc106e0579f74b"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-139-red-wrist-control-drill.webp",
-        "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=7e7d80a9d1df",
-        "before_sha256": "7e7d80a9d1df67db27444f0afd7268383bb3fb2a2683358079a40d1c303a4ece",
-        "after_sha256": "7506024b579a0f5474ebfb1ff4a4abcd47c204d2cdbe19d3782323a0e84c20cf",
+        "before_url": "/assets/cards/saiyan-139-red-wrist-control-drill.webp?v=7506024b579a",
+        "before_sha256": "7506024b579a0f5474ebfb1ff4a4abcd47c204d2cdbe19d3782323a0e84c20cf",
+        "after_sha256": "890b43b6108237ec9015f26e77671b35a6425d22a4e22c1822f76653d578507a",
         "size": [
           1060,
           1484
@@ -10319,9 +10548,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=9914f695bad3",
-        "before_sha256": "9914f695bad3a47789fc1f09e5c3360905cb14227eb4ff339e59918e869c567b",
-        "after_sha256": "5099a650f42aa1fe476c9550533f61f0b8bd9859b236b598c016108e1651383e",
+        "before_url": "/assets/cards/downloads/saiyan-139-red-wrist-control-drill.webp?v=5099a650f42a",
+        "before_sha256": "5099a650f42aa1fe476c9550533f61f0b8bd9859b236b598c016108e1651383e",
+        "after_sha256": "b8e68530acdc4987d640eea45f5a807594d4aad12dbfc7b117273741b9a6c90b",
         "size": [
           2120,
           2968
@@ -10341,35 +10570,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 80.13441902546205,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 53.609926328034106,
+        "visible_width": 665.6521197007482,
+        "visible_height": 57.55735660847881,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.9314174501220371
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          393,
-          100,
-          1725,
-          216
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 31.5
       },
       "middle_typography": {
         "label": "DRILL",
@@ -10396,7 +10622,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "36f7f089d669e08974022e2b3c44ce1b3950c586724c8dde030b2ae941e2f8a6",
+      "png_sha256": "35f95dead66ae27c6f31d6316f6e92ab06b81dfeb3fd1e13f321d743508c8f7d",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "a5938c4f40fc7d44b1aaa5ec97a125318507505432b737700b68a72599bc47ad",
@@ -10428,6 +10654,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "9b49fcef8070983e6055b6e5e56a40ac8f5942141ad590aec46fb1e6e6e62db2",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "36f7f089d669e08974022e2b3c44ce1b3950c586724c8dde030b2ae941e2f8a6"
     }
   },
   {
@@ -11540,7 +11775,7 @@
     "id": "saiyan-144-red-coordination-drill",
     "name": "Red Coordination Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-144-red-coordination-drill.svg",
-    "native_source_sha256": "c473833c2f637155762d80b25d08479533026e95cd67d2670da634c38cd27ac9",
+    "native_source_sha256": "7cca1f9184f2b0d96eac8c8e14ec12eaed75f8cde0208a2cb4da0f06c54232d0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
@@ -11593,10 +11828,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          51.6543,
-          620.0,
-          54.6915
+          203.25561097256,
+          50.221321695897,
+          652.4887780533119,
+          57.557356608342
         ],
         "card-category": [
           448.339,
@@ -11672,15 +11907,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "c473833c2f637155762d80b25d08479533026e95cd67d2670da634c38cd27ac9"
+      "native_source_sha256": "7cca1f9184f2b0d96eac8c8e14ec12eaed75f8cde0208a2cb4da0f06c54232d0"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-144-red-coordination-drill.webp",
-        "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=b67d28f57f7c",
-        "before_sha256": "b67d28f57f7cf308eaeddf1d67a21bb93046184ce5d4b8e89f35be9fc85492bd",
-        "after_sha256": "d3edc27399dc56d1aa906c5a4f4cdca63d8bc9ec592584d13cb67120cfef7076",
+        "before_url": "/assets/cards/saiyan-144-red-coordination-drill.webp?v=d3edc27399dc",
+        "before_sha256": "d3edc27399dc56d1aa906c5a4f4cdca63d8bc9ec592584d13cb67120cfef7076",
+        "after_sha256": "d471b09b7f9dc90ef6a6beed88d6c599db3140b27734b61ba455b3f306d1bed2",
         "size": [
           1060,
           1484
@@ -11690,9 +11925,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-144-red-coordination-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=fac7bab615d1",
-        "before_sha256": "fac7bab615d1241504f95363db7521b5d4cc2980111402a2fe4fdb31a75eb332",
-        "after_sha256": "9767f9a2a813fca54e1294d7a53de15ee10203cf065716a1221983006613e794",
+        "before_url": "/assets/cards/downloads/saiyan-144-red-coordination-drill.webp?v=9767f9a2a813",
+        "before_sha256": "9767f9a2a813fca54e1294d7a53de15ee10203cf065716a1221983006613e794",
+        "after_sha256": "73ea80da2f870db08f42207166bb83b24fd7f50e52020ed92b69d104742d2900",
         "size": [
           2120,
           2968
@@ -11712,35 +11947,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 81.75105485232068,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 54.69145569620253,
+        "visible_width": 652.4887780548629,
+        "visible_height": 57.55735660847881,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.9502079129211765
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          406,
-          100,
-          1712,
-          216
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 31.894356867634123
       },
       "middle_typography": {
         "label": "DRILL",
@@ -11767,7 +11999,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "6fa600022e0c689f3eb74937efa4082108aadcfd81229c1b98a14bf1bb2ba175",
+      "png_sha256": "5359d867b2a1723571428efc0842ace07884c6b7316b6b927e33e71c8e6c8495",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "486f9150c27222102cc3ad9038a7bb6efe1327b852160700434605aba2a8d43d",
@@ -11799,6 +12031,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "c473833c2f637155762d80b25d08479533026e95cd67d2670da634c38cd27ac9",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "6fa600022e0c689f3eb74937efa4082108aadcfd81229c1b98a14bf1bb2ba175"
     }
   },
   {
@@ -12067,7 +12308,7 @@
     "id": "saiyan-146-orange-body-shifting-drill",
     "name": "Orange Body Shifting Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-146-orange-body-shifting-drill.svg",
-    "native_source_sha256": "8ac03d33c7374498ab282edc6dc599dac0c4dbe9b37c2b1fde0793470530ed59",
+    "native_source_sha256": "dc245e94766786f1a989670885378fab5a0fb065c3786e7810a6f38f87fc9cb3",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/234ec38a008abefe79ab275899c65982a4b1dbc7f9b19efdbec3794d968dc216.png",
@@ -12120,10 +12361,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          51.1465,
-          620.0,
-          55.7069
+          155.500000000012,
+          45.396146089886,
+          748.0000000025141,
+          67.207707820078
         ],
         "card-category": [
           448.339,
@@ -12199,15 +12440,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "8ac03d33c7374498ab282edc6dc599dac0c4dbe9b37c2b1fde0793470530ed59"
+      "native_source_sha256": "dc245e94766786f1a989670885378fab5a0fb065c3786e7810a6f38f87fc9cb3"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-146-orange-body-shifting-drill.webp",
-        "before_url": "/assets/cards/saiyan-146-orange-body-shifting-drill.webp?v=daf63ef86288",
-        "before_sha256": "daf63ef862884615fc4df893856af630e7f64beb8eadf6c52bf9d10b7315d59c",
-        "after_sha256": "5ad12c6282d5fc68990aff037c99b5793556e95557375bf69234d3fcbfcf2bfa",
+        "before_url": "/assets/cards/saiyan-146-orange-body-shifting-drill.webp?v=5ad12c6282d5",
+        "before_sha256": "5ad12c6282d5fc68990aff037c99b5793556e95557375bf69234d3fcbfcf2bfa",
+        "after_sha256": "6ede3f9489276aba637d829bb98af967c90b00a86ad9ecbdd51d556beae237d6",
         "size": [
           1060,
           1484
@@ -12217,9 +12458,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp?v=6f6a709f48d6",
-        "before_sha256": "6f6a709f48d6a85c7ff524d3567adbebe795053ca421364410c62ccca874af26",
-        "after_sha256": "b1832ce900d56bdbe0ec1b9cd1bfc311aaa457a7798658eb2d4f7fedda9fccdf",
+        "before_url": "/assets/cards/downloads/saiyan-146-orange-body-shifting-drill.webp?v=b1832ce900d5",
+        "before_sha256": "b1832ce900d56bdbe0ec1b9cd1bfc311aaa457a7798658eb2d4f7fedda9fccdf",
+        "after_sha256": "1cebf450bb026b9be77ba12bc3d009f638a3874d20ee3e60bf1592c7d9cce780",
         "size": [
           2120,
           2968
@@ -12239,35 +12480,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 69.4600044812906,
+        "font_size": 83.80013443871835,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 55.70692359399506,
+        "visible_width": 748.0,
+        "visible_height": 67.20770781985212,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.8073467187535515
+        "max_width": 748.0,
+        "scale_factor": 0.9740247510123494
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          155.5,
+          903.5
         ],
-        "max_width": 620,
+        "max_width": 748.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          95,
-          1759,
-          221
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 1.118033988749895
       },
       "middle_typography": {
         "label": "DRILL",
@@ -12294,7 +12532,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "56101489a97f3b8c7c843e54665f14e319038e8345a1ad7a136694f9bc0f3705",
+      "png_sha256": "131a471e602ebcf06bcef69860b229cc88f2d98b3c19184a86815ec85845fd80",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "c26db1afc405ec17e29e5a30077f5002d2bf2a95ed021f4cb70bba33fa3e0993",
@@ -12326,6 +12564,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "8ac03d33c7374498ab282edc6dc599dac0c4dbe9b37c2b1fde0793470530ed59",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "56101489a97f3b8c7c843e54665f14e319038e8345a1ad7a136694f9bc0f3705"
     }
   },
   {
@@ -12607,7 +12854,7 @@
     "id": "saiyan-148-red-pressure-point-drill",
     "name": "Red Pressure Point Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-148-red-pressure-point-drill.svg",
-    "native_source_sha256": "18a0e5ae8535dcef9fcc190845c1f7bfdac2a5d92841ed6671177f9f11f11f2d",
+    "native_source_sha256": "01d90c35571d5464138705775ea55762451b17fde85d3a55f71c6597760845a7",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/5508782781fb8711ca3e1ddc25814fdbfe92e18ed9bcfa874f6793982ba67d19.png",
@@ -12666,10 +12913,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          53.7516,
-          620.0,
-          50.4967
+          176.154613466325,
+          50.221321695897,
+          706.690773065652,
+          57.557356608342
         ],
         "card-category": [
           448.339,
@@ -12751,15 +12998,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "18a0e5ae8535dcef9fcc190845c1f7bfdac2a5d92841ed6671177f9f11f11f2d"
+      "native_source_sha256": "01d90c35571d5464138705775ea55762451b17fde85d3a55f71c6597760845a7"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-148-red-pressure-point-drill.webp",
-        "before_url": "/assets/cards/saiyan-148-red-pressure-point-drill.webp?v=5bcb07b79540",
-        "before_sha256": "5bcb07b79540a3a3b581e32c26ba7f38c71ec23b6b33af2a3760353aa8256ecc",
-        "after_sha256": "eaea898deb183f168d59b7a1f703c9b33d2ffcd0e97f584dce679d8ace1a36dc",
+        "before_url": "/assets/cards/saiyan-148-red-pressure-point-drill.webp?v=eaea898deb18",
+        "before_sha256": "eaea898deb183f168d59b7a1f703c9b33d2ffcd0e97f584dce679d8ace1a36dc",
+        "after_sha256": "7544163b81b2b973719c5ce03988e4bea7698d13092a7b302b4338a12913ab15",
         "size": [
           1060,
           1484
@@ -12769,9 +13016,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp?v=5554c1c2df26",
-        "before_sha256": "5554c1c2df266b3113ae266458978993bb5649506f593ea48120020f1ebd4ec0",
-        "after_sha256": "abf26bba61e79fb7987a6beb042f16bf151e2004831dd75816acb620d5ee6a6e",
+        "before_url": "/assets/cards/downloads/saiyan-148-red-pressure-point-drill.webp?v=abf26bba61e7",
+        "before_sha256": "abf26bba61e79fb7987a6beb042f16bf151e2004831dd75816acb620d5ee6a6e",
+        "after_sha256": "180ce7a5607565530f89db7d0245befd88158b166c12525389a9e2a0a2122cd4",
         "size": [
           2120,
           2968
@@ -12791,35 +13038,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 75.4808862916971,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 620.0,
-        "visible_height": 50.49671292914537,
+        "visible_width": 706.6907730673317,
+        "visible_height": 57.55735660847881,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.8773285624049431
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          100,
-          1759,
-          216
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 19.6596032513375
       },
       "middle_typography": {
         "label": "DRILL",
@@ -12846,7 +13090,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "ca7c207e1645d6f980b60a9b263ed8262d950cfb3f050debf6b833d60cdaba28",
+      "png_sha256": "0d1fc75c9203c80afe61e818efe065f9975df8ad56fd373575f7db4c315a6b2a",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "7f3972762f3d97815aa9d11a7b838397c5a6910a257a1b20ea6c6f79b849f592",
@@ -12878,6 +13122,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "18a0e5ae8535dcef9fcc190845c1f7bfdac2a5d92841ed6671177f9f11f11f2d",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "ca7c207e1645d6f980b60a9b263ed8262d950cfb3f050debf6b833d60cdaba28"
     }
   },
   {
@@ -13178,7 +13431,7 @@
     "id": "saiyan-150-blue-neck-restraint-drill",
     "name": "Blue Neck Restraint Drill",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-150-blue-neck-restraint-drill.svg",
-    "native_source_sha256": "789aef84e3b86cd7c219defed9295bae8fff1c61ee5d69c183d35f30355123d4",
+    "native_source_sha256": "b3d65f261a15ccdc0e5b742367f6718c0d7cfa15cb059d162c37914185a819a9",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/40f374a45e739c62bf089c16f09850dab5c53f73f4b4aa4203b5c5463250ee8e.png",
@@ -13237,10 +13490,10 @@
       "native_outlined_text": true,
       "bounds": {
         "card-title": [
-          219.5,
-          54.4945,
-          620.0,
-          49.011
+          165.443266832909,
+          50.221321695897,
+          728.113466332434,
+          57.557356608342
         ],
         "card-category": [
           448.339,
@@ -13322,15 +13575,15 @@
           "colon_and_text_unchanged": true
         }
       ],
-      "native_source_sha256": "789aef84e3b86cd7c219defed9295bae8fff1c61ee5d69c183d35f30355123d4"
+      "native_source_sha256": "b3d65f261a15ccdc0e5b742367f6718c0d7cfa15cb059d162c37914185a819a9"
     },
     "exports": [
       {
         "field": "image",
         "path": "public/assets/cards/saiyan-150-blue-neck-restraint-drill.webp",
-        "before_url": "/assets/cards/saiyan-150-blue-neck-restraint-drill.webp?v=9ddf374facfb",
-        "before_sha256": "9ddf374facfbc37c5db404a985a39188b4169498373d2e8a9b69e0d3837e9f05",
-        "after_sha256": "1781830d3d54b78e7e3217df3062c55d96db4b2c3c7535e41194fe67461c6509",
+        "before_url": "/assets/cards/saiyan-150-blue-neck-restraint-drill.webp?v=1781830d3d54",
+        "before_sha256": "1781830d3d54b78e7e3217df3062c55d96db4b2c3c7535e41194fe67461c6509",
+        "after_sha256": "c35b4e5ed7d506a5e1af1d88ef9963526651f4ecd5d346b77f57f44d84e34162",
         "size": [
           1060,
           1484
@@ -13340,9 +13593,9 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/saiyan-150-blue-neck-restraint-drill.webp",
-        "before_url": "/assets/cards/downloads/saiyan-150-blue-neck-restraint-drill.webp?v=afc01723c49c",
-        "before_sha256": "afc01723c49c5c24d8b27c06a70d28124a648202a84f24ad7b06a34b68d5f257",
-        "after_sha256": "91c8ff663cd885ca2945e663b00ff5a208c80d2a71be1e7febddbea48b423533",
+        "before_url": "/assets/cards/downloads/saiyan-150-blue-neck-restraint-drill.webp?v=91c8ff663cd8",
+        "before_sha256": "91c8ff663cd885ca2945e663b00ff5a208c80d2a71be1e7febddbea48b423533",
+        "after_sha256": "9c0b6b5b97cd052de9c177dda94618198fcf65fab0e294d565924e67da65b7bd",
         "size": [
           2120,
           2968
@@ -13362,35 +13615,32 @@
       "background_gain_srgb": 1.2,
       "gain_scope": "continuous frame only",
       "title_fit": {
-        "font_size": 73.26007326007326,
+        "font_size": 86.0349127182045,
         "nominal_font_size": 86.0349127182045,
-        "visible_width": 619.9999999999999,
-        "visible_height": 49.01098901098901,
+        "visible_width": 728.1134663341647,
+        "visible_height": 57.55735660847881,
         "visible_center": [
           529.5,
           79.0
         ],
-        "max_width": 620.0,
-        "scale_factor": 0.8515156341243296
+        "max_width": 760.0,
+        "scale_factor": 1.0
       },
       "title_edge_clearance": {
         "safe_region": [
-          219.5,
-          839.5
+          149.5,
+          909.5
         ],
-        "max_width": 620,
+        "max_width": 760.0,
         "center": [
           529.5,
           79
         ],
         "proportional_font_reduction": true,
-        "changes_confined_to_previous_title_ink_bounds": true,
-        "changed_pixel_bounds": [
-          359,
-          102,
-          1759,
-          214
-        ]
+        "vertical_alignment": "complete visible ink including descenders",
+        "changes_confined_to_old_and_new_title_ink": true,
+        "new_title_pixels_outside_brush_contour": 0,
+        "minimum_brush_clearance_native_units": 9.340770846134703
       },
       "middle_typography": {
         "label": "DRILL",
@@ -13417,7 +13667,7 @@
       ],
       "artwork_group_unchanged": true,
       "retained_illustration_bytes_unchanged": true,
-      "png_sha256": "52b8a434245e38c7c836e01c10843d4b2a77a486843e1c28ff9e2fc6cf8c0b8d",
+      "png_sha256": "75e693d7e7fb433a6749a36bdf055a9fdd0cf7411ffc7a45fbe972a3e333b527",
       "source_preview_review": "tools/card-corrections/v3-saiyan-121-170-brighter/artwork-review.json",
       "previous_revision": {
         "native_source_sha256": "0ad7c4ede3f0b582169f3d306504ce704ecfc913132b106061b4e1497338e30e",
@@ -13449,6 +13699,15 @@
         ],
         "source_status": "previous published V3"
       }
+    },
+    "title_only_revision": {
+      "date": "2026-11-01",
+      "evidence": "tools/card-corrections/v3-saiyan-001-170-titles/pixel-checks.json",
+      "previous_native_source_sha256": "789aef84e3b86cd7c219defed9295bae8fff1c61ee5d69c183d35f30355123d4",
+      "unrelated_native_elements_unchanged": true,
+      "pixels_changed_outside_title_footprint": 0,
+      "display_and_download_verified": true,
+      "previous_png_sha256": "52b8a434245e38c7c836e01c10843d4b2a77a486843e1c28ff9e2fc6cf8c0b8d"
     }
   }
 ]

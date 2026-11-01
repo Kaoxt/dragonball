@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "local_card_tests": {
+    "command": "node --test tests/card-v3.test.js",
+    "passed": 8,
+    "failed": 0
+  },
+  "javascript_syntax_check": "passed",
+  "python_helper_compile": "passed",
+  "native_cards_checked": 170,
+  "changed_sources_with_only_title_group_changes": 53,
+  "unchanged_sources_and_both_exports": 117,
+  "display_and_download_pixel_checks": 106,
+  "changed_pixels_outside_old_and_new_title_footprints": 0,
+  "visual_review": {
+    "changed_title_headers_checked": 53,
+    "comparison": "published baseline beside patched export",
+    "result": "All titles are centered, readable and inside the brush contour. Card 125 keeps the reviewed 760-unit width. Normal-size titles and full-card 125 reviewed."
+  },
+  "publication_scope": "Saiyan 001\u2013170 title lettering only; no changes to artwork, rules, backgrounds, icons, middle bars, footer, stages or card data."
+}
