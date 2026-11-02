@@ -22,7 +22,7 @@
     "name": "Captain Ginyu",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-106-captain-ginyu.svg",
-    "native_source_sha256": "37d6036d9252ea2f40023614fa833b8deb1f5d35512e35164bf616b2d89e5d11",
+    "native_source_sha256": "87da3c90a5c71bcf324596408a9297ea4b98837893bbcceaf120d1dda03a1616",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -247,7 +247,7 @@
         "path": "public/assets/cards/trunks-106-captain-ginyu.webp",
         "before_url": "/assets/cards/trunks-106-captain-ginyu.webp?v=36b593c9f749",
         "before_sha256": "36b593c9f7493e407ef84f3a0bbe0e836ff1f9e79d0a6f8a1e5d7ea71573caa4",
-        "after_sha256": "ca13c27a0cde4dad51c56840d5e2fbcf00bb012397855868245dc2ed7df0051a",
+        "after_sha256": "80adefa366f239f0aee8902ed4d523453c9afe69059076d73c8643f8b0749b8c",
         "size": [
           1060,
           1484
@@ -259,7 +259,7 @@
         "path": "public/assets/cards/downloads/trunks-106-captain-ginyu.webp",
         "before_url": "/assets/cards/downloads/trunks-106-captain-ginyu.webp?v=62740e793089",
         "before_sha256": "62740e7930896b02cba7f130b50168201c9d3dbd42f5842c297309748667b9e8",
-        "after_sha256": "30cb56ec3b0edc2a5e8eaeb55329f161483b9c0040b9bd869da1e101fe262445",
+        "after_sha256": "2b1287acc337afd1c499ad67a8fae6bf9404871edc4ab53c26fee2bf8f1fd55b",
         "size": [
           2120,
           2968
@@ -389,6 +389,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-106-captain-ginyu",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-106-captain-ginyu.svg",
+      "before_native_sha256": "37d6036d9252ea2f40023614fa833b8deb1f5d35512e35164bf616b2d89e5d11",
+      "after_native_sha256": "87da3c90a5c71bcf324596408a9297ea4b98837893bbcceaf120d1dda03a1616",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        324.823,
+        44.5,
+        409.354,
+        69.0
+      ],
+      "title_bounds_after": [
+        324.823,
+        44.5,
+        409.354,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-106-captain-ginyu.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ca13c27a0cde4dad51c56840d5e2fbcf00bb012397855868245dc2ed7df0051a",
+          "after_sha256": "80adefa366f239f0aee8902ed4d523453c9afe69059076d73c8643f8b0749b8c",
+          "changed_pixels": 92143,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-106-captain-ginyu.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "30cb56ec3b0edc2a5e8eaeb55329f161483b9c0040b9bd869da1e101fe262445",
+          "after_sha256": "2b1287acc337afd1c499ad67a8fae6bf9404871edc4ab53c26fee2bf8f1fd55b",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -414,7 +493,7 @@
     "name": "Captain Ginyu the Leader",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-107-captain-ginyu-the-leader.svg",
-    "native_source_sha256": "e78f82a361f00f8aa62093460dfa0d0481ad2e17cf1f319214fafc11cc2ca8f0",
+    "native_source_sha256": "cbff103b2a3f882bfb624361d409ef8311255f9275618b3eb9014e0a3dcd3b8a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -547,10 +626,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          46.6873,
-          700.0,
-          64.6253
+          209.5,
+          49.457,
+          640.0,
+          59.086
         ],
         "v3-level-number": [
           60.8258,
@@ -651,7 +730,7 @@
         "path": "public/assets/cards/trunks-107-captain-ginyu-the-leader.webp",
         "before_url": "/assets/cards/trunks-107-captain-ginyu-the-leader.webp?v=9fa74cf42e96",
         "before_sha256": "9fa74cf42e96011020b89559216335ef4e722d1d1982fcbacfcd9a23dfeb5aa5",
-        "after_sha256": "96a4aa523b7735b4ccdb997db064180e9877916dea48fddf2309f8813372ebd8",
+        "after_sha256": "78a014e94b498e1ee92d9fdacc7db6eebb60ec18d8a94b329fc81f0accff3e65",
         "size": [
           1060,
           1484
@@ -663,7 +742,7 @@
         "path": "public/assets/cards/downloads/trunks-107-captain-ginyu-the-leader.webp",
         "before_url": "/assets/cards/downloads/trunks-107-captain-ginyu-the-leader.webp?v=29ea9dade765",
         "before_sha256": "29ea9dade765cbd4f38506ae007c1c535de803be741ad2f93cd86d9a8e1e4eda",
-        "after_sha256": "2d9d6b411df2469845d59d5db74ddc72c633e2b866002c982d41c8ee0e635f6b",
+        "after_sha256": "054caa114530d332a6bf61ebeea1459d3983fed9f70eb0d6d3305d784e28e7de",
         "size": [
           2120,
           2968
@@ -793,6 +872,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-107-captain-ginyu-the-leader",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-107-captain-ginyu-the-leader.svg",
+      "before_native_sha256": "e78f82a361f00f8aa62093460dfa0d0481ad2e17cf1f319214fafc11cc2ca8f0",
+      "after_native_sha256": "cbff103b2a3f882bfb624361d409ef8311255f9275618b3eb9014e0a3dcd3b8a",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 73.67330493841372,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 59.0859905606078,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.8563187037769247
+      },
+      "title_bounds_before": [
+        179.5,
+        46.6873,
+        700.0,
+        64.6253
+      ],
+      "title_bounds_after": [
+        209.5,
+        49.457,
+        640.0,
+        59.086
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-107-captain-ginyu-the-leader.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "96a4aa523b7735b4ccdb997db064180e9877916dea48fddf2309f8813372ebd8",
+          "after_sha256": "78a014e94b498e1ee92d9fdacc7db6eebb60ec18d8a94b329fc81f0accff3e65",
+          "changed_pixels": 120684,
+          "changed_pixel_bounds": [
+            40,
+            44,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-107-captain-ginyu-the-leader.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2d9d6b411df2469845d59d5db74ddc72c633e2b866002c982d41c8ee0e635f6b",
+          "after_sha256": "054caa114530d332a6bf61ebeea1459d3983fed9f70eb0d6d3305d784e28e7de",
+          "changed_pixels": 421031,
+          "changed_pixel_bounds": [
+            67,
+            93,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -818,7 +995,7 @@
     "name": "Captain Ginyu Changes",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-108-captain-ginyu-changes.svg",
-    "native_source_sha256": "7804566486f3901870d5cb187eb43558985e70aa75869fd3c405d76efcf80049",
+    "native_source_sha256": "0578b94d483f22f4249bdcf525d4d73711655cb6e935614535bc1c4d37d0738e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -951,10 +1128,10 @@
           31.164
         ],
         "card-title": [
-          186.35,
-          44.5,
-          686.3,
-          69.0
+          209.5,
+          46.8275,
+          640.0,
+          64.345
         ],
         "v3-level-number": [
           58.9918,
@@ -1055,7 +1232,7 @@
         "path": "public/assets/cards/trunks-108-captain-ginyu-changes.webp",
         "before_url": "/assets/cards/trunks-108-captain-ginyu-changes.webp?v=511310e2ffde",
         "before_sha256": "511310e2ffdec056ae6a74b2aa6228312bc8db6ec466ec7c448077b867f500e4",
-        "after_sha256": "4a5673ee9199b584fe8015f295f2c966620727a6363852b758772d93eba5c613",
+        "after_sha256": "051b889744f6fc0b1b265fb2375f69336b2c48d94f5b2548f839cbcf724b1978",
         "size": [
           1060,
           1484
@@ -1067,7 +1244,7 @@
         "path": "public/assets/cards/downloads/trunks-108-captain-ginyu-changes.webp",
         "before_url": "/assets/cards/downloads/trunks-108-captain-ginyu-changes.webp?v=4bf377a45ca2",
         "before_sha256": "4bf377a45ca2b0e203871422539438b629e58a763140c0445bdb890fded91a62",
-        "after_sha256": "4ed0f961ec6e1363943c729d1466a7981621dfe9c7a7d90d64c071335fb3110c",
+        "after_sha256": "4764b038417da995da3b7f95ef0fc71278c845b2f6a89ac1a1666cb6d476b170",
         "size": [
           2120,
           2968
@@ -1197,6 +1374,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-108-captain-ginyu-changes",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-108-captain-ginyu-changes.svg",
+      "before_native_sha256": "7804566486f3901870d5cb187eb43558985e70aa75869fd3c405d76efcf80049",
+      "after_native_sha256": "0578b94d483f22f4249bdcf525d4d73711655cb6e935614535bc1c4d37d0738e",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 80.23066315657516,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0000000000001,
+        "visible_height": 64.34499185157328,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.932536113790917
+      },
+      "title_bounds_before": [
+        186.35,
+        44.5,
+        686.3,
+        69.0
+      ],
+      "title_bounds_after": [
+        209.5,
+        46.8275,
+        640.0,
+        64.345
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-108-captain-ginyu-changes.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "4a5673ee9199b584fe8015f295f2c966620727a6363852b758772d93eba5c613",
+          "after_sha256": "051b889744f6fc0b1b265fb2375f69336b2c48d94f5b2548f839cbcf724b1978",
+          "changed_pixels": 120317,
+          "changed_pixel_bounds": [
+            40,
+            42,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-108-captain-ginyu-changes.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "4ed0f961ec6e1363943c729d1466a7981621dfe9c7a7d90d64c071335fb3110c",
+          "after_sha256": "4764b038417da995da3b7f95ef0fc71278c845b2f6a89ac1a1666cb6d476b170",
+          "changed_pixels": 416723,
+          "changed_pixel_bounds": [
+            67,
+            89,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1222,7 +1497,7 @@
     "name": "Dodoria",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-109-dodoria.svg",
-    "native_source_sha256": "8e05201b99c9e045bb3a6f3429cfcc1d1a1082c69965f774784eb1fb8402ebfd",
+    "native_source_sha256": "9f1853cbe4d9f8ca7d47f0ecb5437f8b0656dd1bd578c4b350689ee6e32b2ffe",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1459,7 +1734,7 @@
         "path": "public/assets/cards/trunks-109-dodoria.webp",
         "before_url": "/assets/cards/trunks-109-dodoria.webp?v=21265cc78fe0",
         "before_sha256": "21265cc78fe02e0131dcb2f84c2f4edffbc67494d5fefbcf2e13b9b0aaa28b49",
-        "after_sha256": "e0dcbb95fe79928324a12d4e65390421c09ed8fd45631827e8eeda8cd748f876",
+        "after_sha256": "633c7a00f5f42823ec398916e609317918f2dfe7f98017b72fea0bfdd411c522",
         "size": [
           1060,
           1484
@@ -1471,7 +1746,7 @@
         "path": "public/assets/cards/downloads/trunks-109-dodoria.webp",
         "before_url": "/assets/cards/downloads/trunks-109-dodoria.webp?v=da8af8eb0919",
         "before_sha256": "da8af8eb09196bcfee03e4ac264a81039ca5ad32cb97f8f5aa75e01766561738",
-        "after_sha256": "81ceeabb5206513c2121e42341dba34a3914934f7e32fa2d67cdc7829cec24f9",
+        "after_sha256": "9fb3464e3d3c91bd2cd4cdcac53953635da77776bdc6011e9ff8787f212c10cb",
         "size": [
           2120,
           2968
@@ -1601,6 +1876,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-109-dodoria",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-109-dodoria.svg",
+      "before_native_sha256": "8e05201b99c9e045bb3a6f3429cfcc1d1a1082c69965f774784eb1fb8402ebfd",
+      "after_native_sha256": "9f1853cbe4d9f8ca7d47f0ecb5437f8b0656dd1bd578c4b350689ee6e32b2ffe",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        415.117,
+        50.2213,
+        228.767,
+        57.5574
+      ],
+      "title_bounds_after": [
+        415.117,
+        50.2213,
+        228.767,
+        57.5574
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-109-dodoria.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "e0dcbb95fe79928324a12d4e65390421c09ed8fd45631827e8eeda8cd748f876",
+          "after_sha256": "633c7a00f5f42823ec398916e609317918f2dfe7f98017b72fea0bfdd411c522",
+          "changed_pixels": 91953,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-109-dodoria.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "81ceeabb5206513c2121e42341dba34a3914934f7e32fa2d67cdc7829cec24f9",
+          "after_sha256": "9fb3464e3d3c91bd2cd4cdcac53953635da77776bdc6011e9ff8787f212c10cb",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1626,7 +1980,7 @@
     "name": "Dodoria In Flight",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-110-dodoria-in-flight.svg",
-    "native_source_sha256": "e7f7e67f9e82a1d4764a21b2ccf9f1c83449b03e42a3ef3d9b17634e0d470644",
+    "native_source_sha256": "bf0df1eba88a2f88922eb7fffbbc1dcbab8b7e5c258c883136713a045277a98e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1863,7 +2217,7 @@
         "path": "public/assets/cards/trunks-110-dodoria-in-flight.webp",
         "before_url": "/assets/cards/trunks-110-dodoria-in-flight.webp?v=ecf26d1b1e2d",
         "before_sha256": "ecf26d1b1e2dacd9eab5973ae1ce795c701f592fe11b988d7161b8ccd969e58c",
-        "after_sha256": "b02a976e0bd7c949e7865e6f3b28c5261e986f196c0cbe0636dba9b0e4239644",
+        "after_sha256": "5ada9f27d89ceaadfa9d06aa074489e07122a7f51876eb878b865fd6ea5ef390",
         "size": [
           1060,
           1484
@@ -1875,7 +2229,7 @@
         "path": "public/assets/cards/downloads/trunks-110-dodoria-in-flight.webp",
         "before_url": "/assets/cards/downloads/trunks-110-dodoria-in-flight.webp?v=94499277a7bb",
         "before_sha256": "94499277a7bb92aea976d76a2e5df8ddeb1506dd80c45eb601733b6aa8a49a2c",
-        "after_sha256": "17217d0603c2b01a7fca73a919df7cb546fd0533754bc098bb14ef3e092ed361",
+        "after_sha256": "3875b239861738c7dc47757082d7e390a8a871a30d221a53d6e9f7e35e152769",
         "size": [
           2120,
           2968
@@ -2005,6 +2359,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-110-dodoria-in-flight",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-110-dodoria-in-flight.svg",
+      "before_native_sha256": "e7f7e67f9e82a1d4764a21b2ccf9f1c83449b03e42a3ef3d9b17634e0d470644",
+      "after_native_sha256": "bf0df1eba88a2f88922eb7fffbbc1dcbab8b7e5c258c883136713a045277a98e",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        283.655,
+        44.5,
+        491.69,
+        69.0
+      ],
+      "title_bounds_after": [
+        283.655,
+        44.5,
+        491.69,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-110-dodoria-in-flight.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "b02a976e0bd7c949e7865e6f3b28c5261e986f196c0cbe0636dba9b0e4239644",
+          "after_sha256": "5ada9f27d89ceaadfa9d06aa074489e07122a7f51876eb878b865fd6ea5ef390",
+          "changed_pixels": 92076,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-110-dodoria-in-flight.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "17217d0603c2b01a7fca73a919df7cb546fd0533754bc098bb14ef3e092ed361",
+          "after_sha256": "3875b239861738c7dc47757082d7e390a8a871a30d221a53d6e9f7e35e152769",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2030,7 +2463,7 @@
     "name": "Dodoria the Mocking",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-111-dodoria-the-mocking.svg",
-    "native_source_sha256": "d62babff2ec6920c057905d66f3728b0c1d287948f9ee510067fa6beb57e2ffc",
+    "native_source_sha256": "f30818b6813f456ac8056e2299a00b243d0b16a10dadbae46e7967e95864ac21",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2255,7 +2688,7 @@
         "path": "public/assets/cards/trunks-111-dodoria-the-mocking.webp",
         "before_url": "/assets/cards/trunks-111-dodoria-the-mocking.webp?v=930ff3ba83fb",
         "before_sha256": "930ff3ba83fb7a30c05d916be3436b7f20b733e9da86f89baa7393a5d494767e",
-        "after_sha256": "3b9c8d8c247be65960b95ca9b8407220ac8edf51f2ab476e15da06a5f8f2fa5d",
+        "after_sha256": "b532970b7d48d10de5e13dfabf7115a4a8b5326048c647c0db532f40afb80a0b",
         "size": [
           1060,
           1484
@@ -2267,7 +2700,7 @@
         "path": "public/assets/cards/downloads/trunks-111-dodoria-the-mocking.webp",
         "before_url": "/assets/cards/downloads/trunks-111-dodoria-the-mocking.webp?v=7d42abf36a60",
         "before_sha256": "7d42abf36a606c13811a61ef54b8813c7530699a6c38f3c3e432e01c24f10557",
-        "after_sha256": "0eef58d122781e055efb18c55ff0b4dd78b66d261416e85edec5b7e11ff71bd0",
+        "after_sha256": "7f2f4959bd5a4dd27ab86ef59bf84dd149e6182f5dceab700db4e6d24d8ac13f",
         "size": [
           2120,
           2968
@@ -2397,6 +2830,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-111-dodoria-the-mocking",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-111-dodoria-the-mocking.svg",
+      "before_native_sha256": "d62babff2ec6920c057905d66f3728b0c1d287948f9ee510067fa6beb57e2ffc",
+      "after_native_sha256": "f30818b6813f456ac8056e2299a00b243d0b16a10dadbae46e7967e95864ac21",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        222.097,
+        44.5,
+        614.805,
+        69.0
+      ],
+      "title_bounds_after": [
+        222.097,
+        44.5,
+        614.805,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-111-dodoria-the-mocking.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3b9c8d8c247be65960b95ca9b8407220ac8edf51f2ab476e15da06a5f8f2fa5d",
+          "after_sha256": "b532970b7d48d10de5e13dfabf7115a4a8b5326048c647c0db532f40afb80a0b",
+          "changed_pixels": 91955,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 4
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-111-dodoria-the-mocking.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "0eef58d122781e055efb18c55ff0b4dd78b66d261416e85edec5b7e11ff71bd0",
+          "after_sha256": "7f2f4959bd5a4dd27ab86ef59bf84dd149e6182f5dceab700db4e6d24d8ac13f",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -10888,7 +11400,7 @@
     "name": "Vegeta, Saiyan Prince",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-151-vegeta-saiyan-prince.svg",
-    "native_source_sha256": "6a2a2d4d77ab5650c4910337c76faaf33e940f67a9ba2aaad813f1014bf89edb",
+    "native_source_sha256": "05da06521d0bb14e5bb505a6f0a344fdb2c1fe1a0219dc520284cc65445e07f7",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11021,10 +11533,10 @@
           31.164
         ],
         "card-title": [
-          200.115,
-          43.9838,
-          658.769,
-          70.0324
+          209.5,
+          44.9815,
+          640.0,
+          68.0371
         ],
         "v3-level-number": [
           59.3182,
@@ -11125,7 +11637,7 @@
         "path": "public/assets/cards/trunks-151-vegeta-saiyan-prince.webp",
         "before_url": "/assets/cards/trunks-151-vegeta-saiyan-prince.webp?v=4b251b0bc6c7",
         "before_sha256": "4b251b0bc6c70b2b78dd5950ad7a96469485133b1418833f66eb4c63c27bb300",
-        "after_sha256": "cc11a91a14b0d947d1e25ccd7a9b9f5e4a78e4b1fd8c70157d49efe758567022",
+        "after_sha256": "eb68a559a100451dae3475a83e03b1dddac2adf7e47762af8a53cebc256cc2dc",
         "size": [
           1060,
           1484
@@ -11137,7 +11649,7 @@
         "path": "public/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp",
         "before_url": "/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp?v=a78308169c81",
         "before_sha256": "a78308169c8135cf41d597937ab077e4e130a057a95f4651f14fbdb136d246e3",
-        "after_sha256": "34031ca2d98d19a9f9040d364b3967e2cb95fd37548d90eea6f462b7ef803797",
+        "after_sha256": "2cb7681b8d9624edf13d608add20250a41794d5f71c6e867bbaf9e99fd154fc8",
         "size": [
           2120,
           2968
@@ -11267,6 +11779,96 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-151-vegeta-saiyan-prince",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-151-vegeta-saiyan-prince.svg",
+      "before_native_sha256": "6a2a2d4d77ab5650c4910337c76faaf33e940f67a9ba2aaad813f1014bf89edb",
+      "after_native_sha256": "05da06521d0bb14e5bb505a6f0a344fdb2c1fe1a0219dc520284cc65445e07f7",
+      "villain_color_changed": false,
+      "villain_color": null,
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 83.58364894867441,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 68.03709024422098,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9715084993744474
+      },
+      "title_bounds_before": [
+        200.115,
+        43.9838,
+        658.769,
+        70.0324
+      ],
+      "title_bounds_after": [
+        209.5,
+        44.9815,
+        640.0,
+        68.0371
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-151-vegeta-saiyan-prince.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "cc11a91a14b0d947d1e25ccd7a9b9f5e4a78e4b1fd8c70157d49efe758567022",
+          "after_sha256": "eb68a559a100451dae3475a83e03b1dddac2adf7e47762af8a53cebc256cc2dc",
+          "changed_pixels": 24388,
+          "changed_pixel_bounds": [
+            197,
+            41,
+            862,
+            117
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "34031ca2d98d19a9f9040d364b3967e2cb95fd37548d90eea6f462b7ef803797",
+          "after_sha256": "2cb7681b8d9624edf13d608add20250a41794d5f71c6e867bbaf9e99fd154fc8",
+          "changed_pixels": 51569,
+          "changed_pixel_bounds": [
+            400,
+            87,
+            1718,
+            228
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        }
+      ]
     }
   },
   {

@@ -2026,7 +2026,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-110-nail-the-namekian-hero.svg",
-    "native_source_sha256": "6727299c50da4694575891b95c27ebc9df36269c30d8411c14d0247c9a42ea04",
+    "native_source_sha256": "511c579bdefc31c9972f64f0393620494b07d8fcca8aba6ab19e079c0411f42e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2153,10 +2153,10 @@
           38.269
         ],
         "card-title": [
-          179.5,
-          50.3016,
-          700.0,
-          57.3967
+          209.5,
+          52.7615,
+          640.0,
+          52.477
         ],
         "v3-level-number": [
           58.9918,
@@ -2251,7 +2251,7 @@
         "path": "public/assets/cards/frieza-110-nail-the-namekian-hero.webp",
         "before_url": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=b0f93794aba6",
         "before_sha256": "b0f93794aba6cfaeef38cb31d6c286bbac10fbad4b704b7e2a0e6d15830eb21a",
-        "after_sha256": "50956d00879534cc93081f9fe708f337121ced98f2540800527521943e6ba3d0",
+        "after_sha256": "d06d6914c3d8ab1b2d6ef5dde9a195b6b747cef600848c470818ef93e7a107da",
         "size": [
           1060,
           1484
@@ -2263,7 +2263,7 @@
         "path": "public/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp",
         "before_url": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=4b232f1e6884",
         "before_sha256": "4b232f1e6884416f68111a732d58f5fb46d73cbde8d614d90ba5fb4606c4d3f6",
-        "after_sha256": "97b801e6f357830cd77c46b70fd6b7a3db7090da62540841779fc004b7fffcb7",
+        "after_sha256": "280c95ac2029be450b2c3ce9e8fef9dff88101571446ca8012f46b78fb3061a0",
         "size": [
           2120,
           2968
@@ -2400,6 +2400,96 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "frieza-110-nail-the-namekian-hero",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-110-nail-the-namekian-hero.svg",
+      "before_native_sha256": "6727299c50da4694575891b95c27ebc9df36269c30d8411c14d0247c9a42ea04",
+      "after_native_sha256": "511c579bdefc31c9972f64f0393620494b07d8fcca8aba6ab19e079c0411f42e",
+      "villain_color_changed": false,
+      "villain_color": null,
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 78.44098541487926,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 52.47701924255423,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9117343522135242
+      },
+      "title_bounds_before": [
+        179.5,
+        50.3016,
+        700.0,
+        57.3967
+      ],
+      "title_bounds_after": [
+        209.5,
+        52.7615,
+        640.0,
+        52.477
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-110-nail-the-namekian-hero.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "50956d00879534cc93081f9fe708f337121ced98f2540800527521943e6ba3d0",
+          "after_sha256": "d06d6914c3d8ab1b2d6ef5dde9a195b6b747cef600848c470818ef93e7a107da",
+          "changed_pixels": 30159,
+          "changed_pixel_bounds": [
+            177,
+            47,
+            882,
+            111
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "97b801e6f357830cd77c46b70fd6b7a3db7090da62540841779fc004b7fffcb7",
+          "after_sha256": "280c95ac2029be450b2c3ce9e8fef9dff88101571446ca8012f46b78fb3061a0",
+          "changed_pixels": 76290,
+          "changed_pixel_bounds": [
+            359,
+            100,
+            1759,
+            216
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -5436,7 +5526,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-124-frieza-the-master.svg",
-    "native_source_sha256": "dca8fd14a5325fb79b5d8a9029811a81a956a5e7b3be64050e48ac404c240113",
+    "native_source_sha256": "82b78f9e79490451c73965e4628d0fd2daf8038150818c2398dbb3407d81bab0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -5661,7 +5751,7 @@
         "path": "public/assets/cards/frieza-124-frieza-the-master.webp",
         "before_url": "/assets/cards/frieza-124-frieza-the-master.webp?v=37aa74e8ffc1",
         "before_sha256": "37aa74e8ffc101f06e4571710367912b1a53603e0659ceb4d41cfae2c39a225b",
-        "after_sha256": "27c817fb725494e8fcb107a8384ce681f2281cd7eb2feebaadbbc48cd6232ef2",
+        "after_sha256": "bb275818870eb8053749aef5c60f6ce4a973e2145d5f0ad75efe92cd824e372e",
         "size": [
           1060,
           1484
@@ -5673,7 +5763,7 @@
         "path": "public/assets/cards/downloads/frieza-124-frieza-the-master.webp",
         "before_url": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=5c57311bc9ac",
         "before_sha256": "5c57311bc9ac0b06b2349a969277df2aeb95886aaee25ea2c0c3a88ce1b50fdb",
-        "after_sha256": "b0a5a97853ea1096bfe703aabd2a886e3baa6dbb6d4d7b80325af3486f510bd1",
+        "after_sha256": "f21a383b74d08c941a24d4cf53860e0044f16fff6e582a48c5ae597b8cd5af53",
         "size": [
           2120,
           2968
@@ -5810,6 +5900,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "frieza-124-frieza-the-master",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-124-frieza-the-master.svg",
+      "before_native_sha256": "dca8fd14a5325fb79b5d8a9029811a81a956a5e7b3be64050e48ac404c240113",
+      "after_native_sha256": "82b78f9e79490451c73965e4628d0fd2daf8038150818c2398dbb3407d81bab0",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        270.105,
+        50.2213,
+        518.791,
+        57.5574
+      ],
+      "title_bounds_after": [
+        270.105,
+        50.2213,
+        518.791,
+        57.5574
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-124-frieza-the-master.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "27c817fb725494e8fcb107a8384ce681f2281cd7eb2feebaadbbc48cd6232ef2",
+          "after_sha256": "bb275818870eb8053749aef5c60f6ce4a973e2145d5f0ad75efe92cd824e372e",
+          "changed_pixels": 92085,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-124-frieza-the-master.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b0a5a97853ea1096bfe703aabd2a886e3baa6dbb6d4d7b80325af3486f510bd1",
+          "after_sha256": "f21a383b74d08c941a24d4cf53860e0044f16fff6e582a48c5ae597b8cd5af53",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {

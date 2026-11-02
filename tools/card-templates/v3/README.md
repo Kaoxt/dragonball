@@ -1,3 +1,7 @@
+## Personality title clearance and dark Villain bar — November 2, 2026
+
+Read `tools/card-templates/v3/references/personality-title-and-color.md`. Personality titles (including Hi-Tech) use a maximum 640-unit visible width at x209.5–849.5, reduce font size uniformly as needed, and remain visibly centered at (529.5,79). Preserve at least 40 units of LEVEL-number clearance and inspect staggered brush notches. Shorter fitting titles stay unchanged. Villain middle paint is now dark crimson `#a61122`, sampled to match the darker V2 Cell reference, with existing grain/contours and white VILLAIN lettering retained. This supersedes scarlet `#cc2119`. The current repair covers 61 Villain bars and 15 oversized titles across 66 cards; preserve the historical category revision and follow `personality_finish_revision` for current hashes.
+
 ## Personality middle labels — November 2, 2026
 
 All 134 current V3 Personalities (49 Saiyan, 24 Frieza, 61 Trunks, including Hi-Tech) use only `HERO` or `VILLAIN` in the middle bar. Preserve Michroma 38.4, four-unit tracking, weight, and visible center (529.5,908.5). Use the fixed `hero.svg` / `villain.svg` components. `middle_label_v3.py` maps former long labels to these components; gameplay category data remains unchanged.

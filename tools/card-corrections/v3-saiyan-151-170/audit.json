@@ -8706,7 +8706,7 @@
     "id": "saiyan-170-raditz",
     "name": "Raditz",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
-    "native_source_sha256": "1d078fea0883832cef33314c174c29185f663c424536ed7ae6406cd533137519",
+    "native_source_sha256": "1e206803c6f9f591ab6266eae22542ccf1f3ef2d681844dc8ba5cd2f2fc65ad6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -8896,7 +8896,7 @@
         "path": "public/assets/cards/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/saiyan-170-raditz.webp?v=d31de309fea4",
         "before_sha256": "d31de309fea4535d92df6551ca0caaedc2e819ba45e4d1ebd3becc7c9cfa670c",
-        "after_sha256": "6962f9d53388d0c5143d7e31a8647ee989d80c392713fc5cedebf0fb11693bae",
+        "after_sha256": "bc42ff9a0b5afd7035bc77bc75569612823c5783d43a3b20499b885bc40d3d8e",
         "size": [
           1060,
           1484
@@ -8908,7 +8908,7 @@
         "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
         "before_url": "/assets/cards/downloads/saiyan-170-raditz.webp?v=3c8ed062cc83",
         "before_sha256": "3c8ed062cc83a707a78eb9b8dcfb3b4f66780e7b63f7978de925e0eecf6b9b61",
-        "after_sha256": "915b8b3471277fa57ec5217a4e7cc54de8e2608344370dfea63ba80f6aff2120",
+        "after_sha256": "4aae79f5ed2e04694960c74e76252e28f0d5f9ef2b85a822c2dd53a2628629dd",
         "size": [
           2120,
           2968
@@ -9285,6 +9285,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "saiyan-170-raditz",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-170-raditz.svg",
+      "before_native_sha256": "1d078fea0883832cef33314c174c29185f663c424536ed7ae6406cd533137519",
+      "after_native_sha256": "1e206803c6f9f591ab6266eae22542ccf1f3ef2d681844dc8ba5cd2f2fc65ad6",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        437.916,
+        50.2213,
+        183.168,
+        57.5574
+      ],
+      "title_bounds_after": [
+        437.916,
+        50.2213,
+        183.168,
+        57.5574
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-170-raditz.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "6962f9d53388d0c5143d7e31a8647ee989d80c392713fc5cedebf0fb11693bae",
+          "after_sha256": "bc42ff9a0b5afd7035bc77bc75569612823c5783d43a3b20499b885bc40d3d8e",
+          "changed_pixels": 92078,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-170-raditz.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "915b8b3471277fa57ec5217a4e7cc54de8e2608344370dfea63ba80f6aff2120",
+          "after_sha256": "4aae79f5ed2e04694960c74e76252e28f0d5f9ef2b85a822c2dd53a2628629dd",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   }
 ]

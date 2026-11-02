@@ -135,7 +135,7 @@ test('scarlet Villain paint and all seven Hi-Tech bars preserve unrelated publis
  let villains=0,highTech=0;
  for(const row of audit){
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
-  if(svg.includes('aria-label="VILLAIN"')){villains++;assert.match(svg,/fill="#cc2119"/);}
+  if(svg.includes('aria-label="VILLAIN"')){villains++;assert.match(svg,/fill="#a61122"/);}
   if(row.high_tech){highTech++;assert.match(svg,/id="middle-foil-isolation"/);}
  }
  assert.equal(villains,19);assert.equal(highTech,7);

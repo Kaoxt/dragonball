@@ -1,3 +1,7 @@
+## November 2 superseding Personality rule
+
+Read `personality-title-and-color.md`: retain 640-unit title clearance and visible center (529.5,79); Villain middle bars now use dark crimson `#a61122` with the existing texture. Earlier scarlet guidance below is historical.
+
 ## Fixed native text and Villain accents — November 1, 2026
 
 Use `assets/text/categories/manifest.json` and its retained native SVG components for category labels. `scripts/middle_label_v3.py` now reuses those exact outlined paths at (529.5,908.5); do not retype or independently offset Hero/Villain labels. The same components cover Combat, Setup, Event, Drill, Dragon Ball and other named families. A text component alone does not approve a new family layout.
