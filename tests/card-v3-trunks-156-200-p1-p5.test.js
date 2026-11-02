@@ -63,5 +63,5 @@ test('Trunks final numbered cards and P1–P5 preserve original game values, CRD
  for(const d of data){const expected=d.number<=160?6:d.number<=200?4:2;assert.equal(d.rarity_stars,expected);const svg=read(rows.find(r=>r.id===d.id).native_source_path);assert.match(svg,new RegExp('id="footer-rarity"[^>]*data-star-count="'+expected+'"'));assert.match(svg,new RegExp('data-card-number="'+d.printed_number+'"'));}
  const repairs=json(base+'artwork-repair-verification.json');assert.equal(repairs.length,14);for(const r of repairs)for(const e of r.exports)assert.equal(e.pixels_changed_outside_native_mask_and_antialias_footprint,0);
  const baseline=json(base+'retained-art-baseline-check.json').filter(r=>r.checked_pixels);assert.equal(baseline.length,40);assert.ok(baseline.every(r=>r.max_channel_difference<=2));
- assert.equal(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3).length,205);
+ assert.equal(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3).length,210);
 });

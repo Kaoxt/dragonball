@@ -1,0 +1,185 @@
+{
+  "personality_values": null,
+  "number": 207,
+  "printed_number": "P7",
+  "high_tech": false,
+  "id": "trunks-p07-garlic-jrs-revenge",
+  "name": "Garlic Jr's Revenge",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p07-garlic-jrs-revenge.svg",
+  "native_source_sha256": "17a8e97609c28d4455c67027450e5d68e6bbec998376cca4a036d5ca1bf98ec9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/69d1564b984df378c1ffe2f625b2e7cb2eca234c8bfae2830239439c0329d08c.png",
+      "sha256": "69d1564b984df378c1ffe2f625b2e7cb2eca234c8bfae2830239439c0329d08c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "7564640c442eab9177eecd97e272e92fa4928ff71b3dfcfc7007f467815443fe",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Discard an opponent's Ally",
+      "baseline": 1049.3,
+      "width": 615.734,
+      "icon_inline": false
+    },
+    {
+      "text": "of your choice.",
+      "baseline": 1108.3,
+      "width": 265.139,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        241.584,
+        44.5,
+        575.832,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.707,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.506,
+        1392.65,
+        41.287,
+        33.708
+      ],
+      "rules-line-1": [
+        223.017,
+        1013.53,
+        612.967,
+        45.521
+      ],
+      "rules-line-2": [
+        398.474,
+        1072.53,
+        262.052,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-p07-garlic-jrs-revenge.webp",
+      "before_url": "/assets/cards/trunks-p07-garlic-jrs-revenge.webp?v=2c86148f558a",
+      "before_sha256": "2c86148f558a36626e3143bbedd166abeeaf10591957262b7d6fb38586818fc6",
+      "after_sha256": "048054bfab438e185adc2fa81d3409f43c99321f300c7ddae4d627538b25cbde",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp",
+      "before_url": "/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp?v=2abcc958efda",
+      "before_sha256": "2abcc958efda2332a9e4e8420c68705aa1083644f178916e21814d7b82809f88",
+      "after_sha256": "d00958589beea7871d8d25f1bb25b528f2f05d07240dc71f24cd9c6c4b79229e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 575.8316708229427,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

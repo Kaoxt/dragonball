@@ -1,3 +1,7 @@
+## Trunks Saga complete — November 2, 2026
+
+All 210 Trunks cards (1–200 and P1–P10) now use V3. Final promo sources and evidence are in `tools/card-templates/v3/trunks-p6-p10/` and `tools/card-corrections/v3-trunks-p6-p10/`. Preserve their two-star promo balls, fixed Freestyle/Setup/Physical Combat components, mirrored footer centers, and lossless exports. P6 and P10 have sky-only corrections; P8 restores Trunks's long-sleeved jacket and Goku's Yardrat outfit with protected original face/hand cores; P9 restores the small sweat drop and pale backdrop. Retain Showdown's broad prohibition on all Ally uses, including takeover, costs, powers, and redirected damage, as recorded in the supplied CRD. Fine details obscured in the original scans remain explicitly unresolved in the per-card artwork review.
+
 ## Hero middle-bar blue — November 2, 2026
 
 All 73 current V3 Hero personalities, including Hi-Tech, use the approved reference-blue gradient: `#258bc9` at the top to `#15639d` at the bottom. Read `tools/card-templates/v3/references/hero-middle-blue.md`; preserve grain, transparent brush ends, current title spacing, HERO paths, PUR, artwork and all unrelated components. The color-only release is recorded in `tools/card-corrections/v3-hero-reference-blue/`. Follow each row’s `hero_blue_revision` for current source and export hashes; historical label and title audits remain immutable.

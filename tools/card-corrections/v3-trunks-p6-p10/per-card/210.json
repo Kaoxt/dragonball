@@ -1,0 +1,217 @@
+{
+  "personality_values": null,
+  "number": 210,
+  "printed_number": "P10",
+  "high_tech": false,
+  "id": "trunks-p10-showdown",
+  "name": "Showdown",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p10-showdown.svg",
+  "native_source_sha256": "8b3864be0619bb1b05489e9d795c2639801a5213ebe2d6e8d8607ce5440d000f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ecf2ca5d5844dd5f1fa9fbd6b45e6ab324f99592fa170dd1793d2587ac966831.png",
+      "sha256": "ecf2ca5d5844dd5f1fa9fbd6b45e6ab324f99592fa170dd1793d2587ac966831"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5aa5bca03bfcb0120082b22207193b94bb0ffdca76e4126baf6fc999e8f99f16.png",
+      "sha256": "5aa5bca03bfcb0120082b22207193b94bb0ffdca76e4126baf6fc999e8f99f16"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/48dc457c9ee3fd4f1475087ae9ad55005917a5902108928180ee860877aef3dd.png",
+      "sha256": "48dc457c9ee3fd4f1475087ae9ad55005917a5902108928180ee860877aef3dd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "c1d1bed37f40f8432f02309400cac42ef1488b058b5d3062ec443f6d0025f9e5",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false,
+    "localized_correction": {
+      "file": "artwork-corrections/210-mask.png",
+      "source_dimensions": [
+        1505,
+        1045
+      ],
+      "selected_pixels": 594783,
+      "scope": "sky only",
+      "generated_source": "tools/card-corrections/v3-trunks-p6-p10/artwork-corrections/210-generated.png",
+      "native_mask": "original-fidelity-mask-210",
+      "retained_source_beneath": true
+    }
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when entering Combat.",
+      "baseline": 1049.3,
+      "width": 632.4920000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Neither player may use Drills, Allies,",
+      "baseline": 1108.3,
+      "width": 638.47,
+      "icon_inline": false
+    },
+    {
+      "text": "or Personality powers for this Combat.",
+      "baseline": 1167.3,
+      "width": 684.726,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        365.302,
+        50.2213,
+        328.395,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        215.091,
+        1013.53,
+        628.817,
+        45.913
+      ],
+      "rules-line-2": [
+        212.163,
+        1072.53,
+        634.674,
+        45.521
+      ],
+      "rules-line-3": [
+        188.68,
+        1131.53,
+        681.639,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-p10-showdown.webp",
+      "before_url": "/assets/cards/trunks-p10-showdown.webp?v=82b251e1514d",
+      "before_sha256": "82b251e1514dcadd8d9f5a27d2b554adba87cfff96c1bf765ef5ca111abbc090",
+      "after_sha256": "839be4f729c9d8afad87917fd09459f0cd75eae5ba37dc6eca201eb94c519732",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-p10-showdown.webp",
+      "before_url": "/assets/cards/downloads/trunks-p10-showdown.webp?v=834b74c9c457",
+      "before_sha256": "834b74c9c457bb38c23acfb4b7ef3ca426ae31fc689d08ce56f1da6a6606ff97",
+      "after_sha256": "19d114968336109c947a8b65dd2a48aea987c179ca1d4a9fec13ae570f19da89",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 328.3952618453866,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

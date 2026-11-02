@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "prompts": [
+    {
+      "n": 208,
+      "prompt": "Use case: precise-object-edit. Edit image 1, the standalone modern illustration, using image 2 (original P8 card scan) only as reference for the clothing. Output standalone artwork only with the SAME 1505x1045 composition, camera, character positions, anatomy, sword, hairstyles and expressive faces. Correct ONLY costumes: upper-left rear-facing airborne Super Saiyan Trunks must wear the original cropped lavender-purple jacket WITH LONG SLEEVES, sleeves to his wrists, over his black tank top, with black baggy trousers and yellow boots; remove the invented black sleeveless cloak. Keep his bent knee, sword hand and rear view. Lower-right Goku must wear his original Yardrat outfit, matching the scan: light gray/white long sleeves and trousers, dark charcoal sleeveless torso tunic/vest with a segmented light front, violet/pink scarf and sash, dark cuffs. Absolutely no orange gi, exposed muscular arms or blue undershirt. Preserve each original pose and all sword/finger contact geometry. Retain the current crisp modern cel-shaded style and richer colors. Replace excess scattered white sky cloudlets with the original simple cyan/teal blue sky behind the yellow flame-shaped auras. Keep auras and rocky ground at their current positions. Do not zoom, add props, text, logos, card border or watermark.",
+      "referenced_image_paths": [
+        "/workspace/scratch/919568e11f5a/trunks-retained/source/source/artwork/trunks-208.png",
+        "/workspace/scratch/919568e11f5a/trunks-retained/source/originals/208.png"
+      ]
+    },
+    {
+      "n": 209,
+      "prompt": "Use case: precise-object-edit. Image 1 is the standalone modern Trunks illustration to edit. Image 2 is the original P9 card scan, used only for small reference details, never its text or frame. Preserve the entire modern character drawing, hair, face, open mouth, eyes, clothing, head angle and composition exactly. Make just TWO corrections: add the original tiny pale sweat teardrop on Trunks's viewer-left temple beside the golden hair lock above his visible left ear (do not add tears, lightning or a large drop); replace only the visible blue cloudy background with a pale neutral light gray/off-white backdrop with restrained soft cool gray depth, as in the original. No clouds or sky blue. Keep all character contours, shadows, cel shading, width-relative scale and edge crops unchanged. Output only the same full standalone 1505x1045 illustration, no card frame, lettering or watermark.",
+      "referenced_image_paths": [
+        "/workspace/scratch/919568e11f5a/trunks-retained/source/source/artwork/trunks-209.png",
+        "/workspace/scratch/919568e11f5a/trunks-retained/source/originals/209.png"
+      ]
+    },
+    {
+      "n": 206,
+      "prompt": "Use case: lighting-weather. Edit ONLY the sky behind King Cold in image 1, using the original card in image 2 for sky composition. Retain exact modern character, horns, facial expression, hand, sword, armor, cape, shading, scale, cropping, and every foreground pixel. Replace excessive scattered white cloudlets with the original simpler cyan/teal blue sky: open clear cyan sky on the left, ONE broad soft connected pale cloud formation low on the viewer-right behind the horn/sword/shoulder. Preserve the original dominant cyan hue, with subtle smooth depth. No scattered cloudlets or new effects. Output full 1505x1045 standalone illustration only, identical framing; no card text, logos, frame or watermark."
+    },
+    {
+      "n": 210,
+      "prompt": "Create an independent background-only sky plate for a modern 2D cel-shaded anime illustration, 1505x1045 landscape. A serene deep cyan/teal sky at top blending gradually into pale warm gray-blue near the bottom half. Exactly two small soft connected horizontal white clouds: one small cloud centered at x190,y170 and a longer modest cloud centered at x1070,y125. Lower half pale softly graded open sky. Sky only; no characters, silhouettes, terrain, mountains, text, objects, rays, sparkles or borders. Mask behind retained characters and terrain.",
+      "final_file": "210-generated.png"
+    }
+  ]
+}

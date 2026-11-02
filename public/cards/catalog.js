@@ -11018,13 +11018,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p06-king-colds-sword-trick.webp?v=caeb6b8d5374",
+    "image": "/assets/cards/trunks-p06-king-colds-sword-trick.webp?v=e212d7d235cb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p6",
-    "downloadImage": "/assets/cards/downloads/trunks-p06-king-colds-sword-trick.webp?v=25db2b05e6d6",
+    "downloadImage": "/assets/cards/downloads/trunks-p06-king-colds-sword-trick.webp?v=2e61de5f2966",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Banish a Drill in play.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p07-garlic-jrs-revenge",
@@ -11034,13 +11035,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p07-garlic-jrs-revenge.webp?v=2c86148f558a",
+    "image": "/assets/cards/trunks-p07-garlic-jrs-revenge.webp?v=048054bfab43",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p7",
-    "downloadImage": "/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp?v=2abcc958efda",
+    "downloadImage": "/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp?v=d00958589bee",
     "rules": "POWER: Discard an opponent's Ally of your choice.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p08-trunks-power-strike",
@@ -11050,13 +11052,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p08-trunks-power-strike.webp?v=a222e7c79084",
+    "image": "/assets/cards/trunks-p08-trunks-power-strike.webp?v=b277cf4334c8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p8",
-    "downloadImage": "/assets/cards/downloads/trunks-p08-trunks-power-strike.webp?v=e22212e512f7",
+    "downloadImage": "/assets/cards/downloads/trunks-p08-trunks-power-strike.webp?v=15ef6a125b71",
     "rules": "Physical attack. DAMAGE: 4 life cards. If this attack is stopped, your opponent discards 2 life cards.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p09-surprise",
@@ -11066,13 +11069,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p09-surprise.webp?v=e5a8c3aeb2d1",
+    "image": "/assets/cards/trunks-p09-surprise.webp?v=ea4cf83e2ffd",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p9",
-    "downloadImage": "/assets/cards/downloads/trunks-p09-surprise.webp?v=67efecd13b51",
+    "downloadImage": "/assets/cards/downloads/trunks-p09-surprise.webp?v=edb71c200b75",
     "rules": "Villains only. POWER: Look at the top 5 cards of your opponent's Life Deck and put them back in any order.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p10-showdown",
@@ -11082,13 +11086,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p10-showdown.webp?v=82b251e1514d",
+    "image": "/assets/cards/trunks-p10-showdown.webp?v=839be4f729c9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p10",
-    "downloadImage": "/assets/cards/downloads/trunks-p10-showdown.webp?v=834b74c9c457",
+    "downloadImage": "/assets/cards/downloads/trunks-p10-showdown.webp?v=19d114968336",
     "rules": "POWER: Use when entering Combat. Neither player may use Drills, Allies, or Personality powers for this Combat.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-001-android-17s-neck-hold",

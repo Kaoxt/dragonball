@@ -1,0 +1,1108 @@
+[
+  {
+    "personality_values": null,
+    "number": 206,
+    "printed_number": "P6",
+    "high_tech": false,
+    "id": "trunks-p06-king-colds-sword-trick",
+    "name": "King Cold's Sword Trick",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p06-king-colds-sword-trick.svg",
+    "native_source_sha256": "5b4b1e4a6558bb1618d2600afb7d5f513f66812bd80e11a6db7817415935018c",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/e1de0d4c7cae29e8ebb8adae8e9e7ab34f6c54f78d110010489a31194f563360.png",
+        "sha256": "e1de0d4c7cae29e8ebb8adae8e9e7ab34f6c54f78d110010489a31194f563360"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/09b3785a3bff7a2d8d2d0b170f9907797bb2c1815eeb483959609b4e3cbf966a.png",
+        "sha256": "09b3785a3bff7a2d8d2d0b170f9907797bb2c1815eeb483959609b4e3cbf966a"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/966d7ad72aacb727760298114dea6e5d6fdc987914ba941856431debe0898863.png",
+        "sha256": "966d7ad72aacb727760298114dea6e5d6fdc987914ba941856431debe0898863"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "source_native_sha256": "af0aad81841e6350aa1b6098b36742fb6d05002f5ee5d87d95de22cf3b564c2e",
+      "additional_zoom": false,
+      "artwork_bytes_retained": true,
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "retained_approved_reframing": false,
+      "localized_correction": {
+        "file": "artwork-corrections/206-mask.png",
+        "source_dimensions": [
+          1505,
+          1045
+        ],
+        "selected_pixels": 400547,
+        "scope": "sky only",
+        "generated_source": "tools/card-corrections/v3-trunks-p6-p10/artwork-corrections/206-generated.png",
+        "native_mask": "original-fidelity-mask-206",
+        "retained_source_beneath": true
+      }
+    },
+    "rules": [
+      {
+        "text": "Physical attack. DAMAGE: AT stages.",
+        "baseline": 1049.3,
+        "width": 699.9251555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "HIT: Banish a Drill in play.",
+        "baseline": 1108.3,
+        "width": 450.408,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          176.069,
+          44.5,
+          706.863,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.864,
+          1382.5,
+          53.7722,
+          54.0
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.182,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          234.868,
+          1013.53,
+          643.811,
+          45.913
+        ],
+        "rules-line-2": [
+          306.158,
+          1072.53,
+          446.684,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            180.321,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            234.868,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            180.321,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-p06-king-colds-sword-trick.webp",
+        "before_url": "/assets/cards/trunks-p06-king-colds-sword-trick.webp?v=caeb6b8d5374",
+        "before_sha256": "caeb6b8d5374004642219c02db7abf686d5e916463827cd605c169583c6780cb",
+        "after_sha256": "e212d7d235cb2ae557f99824fc1febe20e9653ecf5b4ac74217baadab7ae7356",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-p06-king-colds-sword-trick.webp",
+        "before_url": "/assets/cards/downloads/trunks-p06-king-colds-sword-trick.webp?v=25db2b05e6d6",
+        "before_sha256": "25db2b05e6d69208b1a4f60bf528abf86e9d2a989629eaa742c2135216114853",
+        "after_sha256": "2e61de5f29664b184a433ba40ad20fdd9a24243f5080f01fa50d762e343bb210",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 706.8628428927682,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "native_vector": true,
+      "retained_shape_and_size": true,
+      "target_center": [
+        211.75,
+        1409.5
+      ]
+    }
+  },
+  {
+    "personality_values": null,
+    "number": 207,
+    "printed_number": "P7",
+    "high_tech": false,
+    "id": "trunks-p07-garlic-jrs-revenge",
+    "name": "Garlic Jr's Revenge",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p07-garlic-jrs-revenge.svg",
+    "native_source_sha256": "17a8e97609c28d4455c67027450e5d68e6bbec998376cca4a036d5ca1bf98ec9",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/69d1564b984df378c1ffe2f625b2e7cb2eca234c8bfae2830239439c0329d08c.png",
+        "sha256": "69d1564b984df378c1ffe2f625b2e7cb2eca234c8bfae2830239439c0329d08c"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "source_native_sha256": "7564640c442eab9177eecd97e272e92fa4928ff71b3dfcfc7007f467815443fe",
+      "additional_zoom": false,
+      "artwork_bytes_retained": true,
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "retained_approved_reframing": false
+    },
+    "rules": [
+      {
+        "text": "POWER: Discard an opponent's Ally",
+        "baseline": 1049.3,
+        "width": 615.734,
+        "icon_inline": false
+      },
+      {
+        "text": "of your choice.",
+        "baseline": 1108.3,
+        "width": 265.139,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          241.584,
+          44.5,
+          575.832,
+          69.0
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.864,
+          1382.5,
+          53.7722,
+          54.0
+        ],
+        "footer-rarity": [
+          796.707,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          856.506,
+          1392.65,
+          41.287,
+          33.708
+        ],
+        "rules-line-1": [
+          223.017,
+          1013.53,
+          612.967,
+          45.521
+        ],
+        "rules-line-2": [
+          398.474,
+          1072.53,
+          262.052,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-p07-garlic-jrs-revenge.webp",
+        "before_url": "/assets/cards/trunks-p07-garlic-jrs-revenge.webp?v=2c86148f558a",
+        "before_sha256": "2c86148f558a36626e3143bbedd166abeeaf10591957262b7d6fb38586818fc6",
+        "after_sha256": "048054bfab438e185adc2fa81d3409f43c99321f300c7ddae4d627538b25cbde",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp",
+        "before_url": "/assets/cards/downloads/trunks-p07-garlic-jrs-revenge.webp?v=2abcc958efda",
+        "before_sha256": "2abcc958efda2332a9e4e8420c68705aa1083644f178916e21814d7b82809f88",
+        "after_sha256": "d00958589beea7871d8d25f1bb25b528f2f05d07240dc71f24cd9c6c4b79229e",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 575.8316708229427,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "set_emblem": {
+      "native_vector": true,
+      "retained_shape_and_size": true,
+      "target_center": [
+        211.75,
+        1409.5
+      ]
+    }
+  },
+  {
+    "personality_values": null,
+    "number": 208,
+    "printed_number": "P8",
+    "high_tech": false,
+    "id": "trunks-p08-trunks-power-strike",
+    "name": "Trunks Power Strike",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p08-trunks-power-strike.svg",
+    "native_source_sha256": "12430b08fb92b9918bd01d219face19f2ba7503890f28ee93ab9bee508117fbf",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/8bce15b137a9c99d73fa74949c79f04c9214eb00cb91acf267f60eea74724a7f.png",
+        "sha256": "8bce15b137a9c99d73fa74949c79f04c9214eb00cb91acf267f60eea74724a7f"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4da155b911be03eba4e02f4ba67ccbdebc050e1e4fb5412f74b28ec20f4f942f.png",
+        "sha256": "4da155b911be03eba4e02f4ba67ccbdebc050e1e4fb5412f74b28ec20f4f942f"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ddf9429819f854dd89393d2c5bf45c5d2be7a7038fa7c875d5131704342ac425.png",
+        "sha256": "ddf9429819f854dd89393d2c5bf45c5d2be7a7038fa7c875d5131704342ac425"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "source_native_sha256": "5091808510d02a21968a39a5601c1f1c954743c253dbe4c92d12c0854dc0e848",
+      "additional_zoom": false,
+      "artwork_bytes_retained": true,
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "retained_approved_reframing": false,
+      "localized_correction": {
+        "file": "artwork-corrections/208-mask.png",
+        "source_dimensions": [
+          1505,
+          1045
+        ],
+        "selected_pixels": 1555248,
+        "scope": "combined isolated illustration correction for both costumes and sky; retained exact face and hand cores; no card UI changes",
+        "protected_original_regions": [
+          "Goku face",
+          "Trunks sword grip",
+          "Goku raised hand and index finger"
+        ],
+        "generated_source": "tools/card-corrections/v3-trunks-p6-p10/artwork-corrections/208-generated.png",
+        "native_mask": "original-fidelity-mask-208",
+        "retained_source_beneath": true
+      }
+    },
+    "rules": [
+      {
+        "text": "Physical attack. DAMAGE: 4 life cards.",
+        "baseline": 1049.3,
+        "width": 725.3561555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "If this attack is stopped,",
+        "baseline": 1108.3,
+        "width": 432.08200000000005,
+        "icon_inline": false
+      },
+      {
+        "text": "your opponent discards 2 life cards.",
+        "baseline": 1167.3,
+        "width": 639.8420000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          225.754,
+          50.2213,
+          607.493,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.864,
+          1382.5,
+          53.7722,
+          54.0
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.182,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          222.152,
+          1013.53,
+          669.242,
+          45.521
+        ],
+        "rules-line-2": [
+          315.357,
+          1072.53,
+          428.286,
+          44.884
+        ],
+        "rules-line-3": [
+          210.681,
+          1131.53,
+          637.637,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            167.606,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            222.152,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            167.606,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-p08-trunks-power-strike.webp",
+        "before_url": "/assets/cards/trunks-p08-trunks-power-strike.webp?v=a222e7c79084",
+        "before_sha256": "a222e7c79084d3b78c787044792fdfe296b1cca2efed2eda27ee0c41f4d5879b",
+        "after_sha256": "b277cf4334c83afb94ac2af18c79da9fa4594931965840cdb05e2c82e5e1a6f1",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-p08-trunks-power-strike.webp",
+        "before_url": "/assets/cards/downloads/trunks-p08-trunks-power-strike.webp?v=e22212e512f7",
+        "before_sha256": "e22212e512f78a5b91f527f7a2852dbd1fae1e04f4cbae8dab487e257260271a",
+        "after_sha256": "15ef6a125b71c7b1a6f174500231c8e19698658993646712b97f804cd36ab092",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 607.492518703242,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "set_emblem": {
+      "native_vector": true,
+      "retained_shape_and_size": true,
+      "target_center": [
+        211.75,
+        1409.5
+      ]
+    }
+  },
+  {
+    "personality_values": null,
+    "number": 209,
+    "printed_number": "P9",
+    "high_tech": false,
+    "id": "trunks-p09-surprise",
+    "name": "Surprise!",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p09-surprise.svg",
+    "native_source_sha256": "3444ab1fa34a578e8ac5d6325d43b811a3bee3e2937a3d6e51449948e2bb924a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7f777ed92e2ac9ba3c65ebc27fa6c235e7a28d9ec514d96aaa41d4c98eb6cccf.png",
+        "sha256": "7f777ed92e2ac9ba3c65ebc27fa6c235e7a28d9ec514d96aaa41d4c98eb6cccf"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/510e0d2c541062bddd89ceccae298f1a3b90cd5410c36eb397bb98d48faab4ec.png",
+        "sha256": "510e0d2c541062bddd89ceccae298f1a3b90cd5410c36eb397bb98d48faab4ec"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b6c267dcebb13b5bcdea4b530fd5d4508e2a7e03871cedadc797065924d455f2.png",
+        "sha256": "b6c267dcebb13b5bcdea4b530fd5d4508e2a7e03871cedadc797065924d455f2"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "source_native_sha256": "c34132201770c43fae5b8b17eed9b0d780d331dffabaf64c75aa6befc60520e8",
+      "additional_zoom": false,
+      "artwork_bytes_retained": true,
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "retained_approved_reframing": false,
+      "localized_correction": {
+        "file": "artwork-corrections/209-mask.png",
+        "source_dimensions": [
+          1505,
+          1045
+        ],
+        "selected_pixels": 193142,
+        "scope": "background and tiny temple sweat mark",
+        "generated_source": "tools/card-corrections/v3-trunks-p6-p10/artwork-corrections/209-generated.png",
+        "native_mask": "original-fidelity-mask-209",
+        "retained_source_beneath": true
+      }
+    },
+    "rules": [
+      {
+        "text": "Villains only. POWER: Look at the top 5 cards",
+        "baseline": 1049.3,
+        "width": 791.5949999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "of your opponent's Life Deck",
+        "baseline": 1108.3,
+        "width": 506.3170000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "and put them back in any order.",
+        "baseline": 1167.3,
+        "width": 564.6270000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          394.21,
+          44.5,
+          270.58,
+          69.0
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.864,
+          1382.5,
+          53.7722,
+          54.0
+        ],
+        "footer-rarity": [
+          795.594,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.394,
+          1392.65,
+          43.513,
+          33.708
+        ],
+        "rules-line-1": [
+          134.658,
+          1013.53,
+          789.684,
+          45.521
+        ],
+        "rules-line-2": [
+          277.591,
+          1072.53,
+          503.818,
+          45.521
+        ],
+        "rules-line-3": [
+          248.534,
+          1131.53,
+          561.932,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-p09-surprise.webp",
+        "before_url": "/assets/cards/trunks-p09-surprise.webp?v=e5a8c3aeb2d1",
+        "before_sha256": "e5a8c3aeb2d109b4320e169f0fc6fec5ddde67748292c2cbc5ed6fa30160aecf",
+        "after_sha256": "ea4cf83e2ffd03c019e6fd8e10a36d041388786c734bf17d0e2071b202042f62",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-p09-surprise.webp",
+        "before_url": "/assets/cards/downloads/trunks-p09-surprise.webp?v=67efecd13b51",
+        "before_sha256": "67efecd13b51ef28722a23a518a0aec7b79cab103089883914629cc9b011b633",
+        "after_sha256": "edb71c200b759480e12c24f2e962e0160e6c1cf8196c822c68c1c66fe1508f3d",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 270.5798004987532,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "set_emblem": {
+      "native_vector": true,
+      "retained_shape_and_size": true,
+      "target_center": [
+        211.75,
+        1409.5
+      ]
+    }
+  },
+  {
+    "personality_values": null,
+    "number": 210,
+    "printed_number": "P10",
+    "high_tech": false,
+    "id": "trunks-p10-showdown",
+    "name": "Showdown",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/trunks-p6-p10/trunks-p10-showdown.svg",
+    "native_source_sha256": "8b3864be0619bb1b05489e9d795c2639801a5213ebe2d6e8d8607ce5440d000f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ecf2ca5d5844dd5f1fa9fbd6b45e6ab324f99592fa170dd1793d2587ac966831.png",
+        "sha256": "ecf2ca5d5844dd5f1fa9fbd6b45e6ab324f99592fa170dd1793d2587ac966831"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/5aa5bca03bfcb0120082b22207193b94bb0ffdca76e4126baf6fc999e8f99f16.png",
+        "sha256": "5aa5bca03bfcb0120082b22207193b94bb0ffdca76e4126baf6fc999e8f99f16"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/48dc457c9ee3fd4f1475087ae9ad55005917a5902108928180ee860877aef3dd.png",
+        "sha256": "48dc457c9ee3fd4f1475087ae9ad55005917a5902108928180ee860877aef3dd"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      }
+    ],
+    "artwork": {
+      "source_native_sha256": "c1d1bed37f40f8432f02309400cac42ef1488b058b5d3062ec443f6d0025f9e5",
+      "additional_zoom": false,
+      "artwork_bytes_retained": true,
+      "mode": "retained approved illustration",
+      "horizontal_source_crop": 0,
+      "mapping_matrix": [
+        1.005842259006816,
+        0,
+        0,
+        1.005842259006816,
+        -2.0934761441090544,
+        -5.3483381141608675
+      ],
+      "retained_approved_reframing": false,
+      "localized_correction": {
+        "file": "artwork-corrections/210-mask.png",
+        "source_dimensions": [
+          1505,
+          1045
+        ],
+        "selected_pixels": 594783,
+        "scope": "sky only",
+        "generated_source": "tools/card-corrections/v3-trunks-p6-p10/artwork-corrections/210-generated.png",
+        "native_mask": "original-fidelity-mask-210",
+        "retained_source_beneath": true
+      }
+    },
+    "rules": [
+      {
+        "text": "POWER: Use when entering Combat.",
+        "baseline": 1049.3,
+        "width": 632.4920000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Neither player may use Drills, Allies,",
+        "baseline": 1108.3,
+        "width": 638.47,
+        "icon_inline": false
+      },
+      {
+        "text": "or Personality powers for this Combat.",
+        "baseline": 1167.3,
+        "width": 684.726,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          365.302,
+          50.2213,
+          328.395,
+          57.5574
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          184.864,
+          1382.5,
+          53.7722,
+          54.0
+        ],
+        "footer-rarity": [
+          787.67,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.47,
+          1392.65,
+          59.36,
+          33.708
+        ],
+        "rules-line-1": [
+          215.091,
+          1013.53,
+          628.817,
+          45.913
+        ],
+        "rules-line-2": [
+          212.163,
+          1072.53,
+          634.674,
+          45.521
+        ],
+        "rules-line-3": [
+          188.68,
+          1131.53,
+          681.639,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/trunks-p10-showdown.webp",
+        "before_url": "/assets/cards/trunks-p10-showdown.webp?v=82b251e1514d",
+        "before_sha256": "82b251e1514dcadd8d9f5a27d2b554adba87cfff96c1bf765ef5ca111abbc090",
+        "after_sha256": "839be4f729c9d8afad87917fd09459f0cd75eae5ba37dc6eca201eb94c519732",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/trunks-p10-showdown.webp",
+        "before_url": "/assets/cards/downloads/trunks-p10-showdown.webp?v=834b74c9c457",
+        "before_sha256": "834b74c9c457bb38c23acfb4b7ef3ca426ae31fc689d08ce56f1da6a6606ff97",
+        "after_sha256": "19d114968336109c947a8b65dd2a48aea987c179ca1d4a9fec13ae570f19da89",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": {
+      "applies": true,
+      "all_styles": true,
+      "report": true
+    },
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 328.3952618453866,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "background_gain": 1.2,
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "set_emblem": {
+      "native_vector": true,
+      "retained_shape_and_size": true,
+      "target_center": [
+        211.75,
+        1409.5
+      ]
+    }
+  }
+]
