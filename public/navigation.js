@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261031-clearer-inner-dividers';
+import './navigation-design.js?v=20261102-red-navigation';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){

@@ -9,12 +9,12 @@ let selected = valid(requested) ? requested : valid(saved) ? saved : 'v2';
 
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
-stylesheet.href = '/navigation-design.css?v=20261030-account-inset-grey-hover';
+stylesheet.href = '/navigation-design.css?v=20261102-red-navigation';
 document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261031-clearer-inner-dividers';
+surfaces.href = '/surfaces-design.css?v=20261102-red-navigation';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

@@ -307,12 +307,12 @@
  html[data-site-design=v2] body.database-page .cards-pagination :is(a,span) {
   background:#1b2126;border-color:#39434b;color:#dce2e7;
  }
- html[data-site-design=v2] body.database-page .cards-pagination a:hover {background:#303940;border-color:#65717a;color:#fff}
+ html[data-site-design=v2] body.database-page .cards-pagination a:hover {background:transparent;border-color:var(--site-nav-red);color:#fff}
  html[data-site-design=v2] body.database-page .cards-pagination a[aria-current=page] {
-  background:#303940;border-color:#7c8992;color:#fff;box-shadow:inset 0 -2px #7c8992;
+  background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#fff;box-shadow:inset 0 -2px var(--site-nav-red);
  }
  html[data-site-design=v2] body.database-page .cards-pagination .pagination-gap {background:transparent;border:0}
- html[data-site-design=v2] body.database-page .catalog-card:hover img {outline-color:#7c8992}
+ html[data-site-design=v2] body.database-page .catalog-card:hover img {outline-color:var(--site-nav-red)}
  html[data-site-design=v2] body.database-page .catalog-card .preview-tag {background:#252c31;border-color:#465058;color:#c2c8cd}
  html[data-site-design=v2] body.database-page :is(#no-results,#card-link-error) {border-color:#465058}
  html[data-site-design=v2] body.database-page .collection-progress {background:#1e2428;border-color:#39434b;border-left-color:#7c8992}
@@ -359,8 +359,8 @@
  html[data-site-design=v2] body.rulebook-page .manual input::placeholder {color:#929da6}
  html[data-site-design=v2] body.rulebook-page .manual select option {background:#151a1e;color:#f5f6fa}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover,
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {background:#303940;border-color:#65717a;color:#f5f6fa}
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {box-shadow:inset 2px 0 #c2c8cd}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {box-shadow:inset 2px 0 var(--site-nav-red)}
  html[data-site-design=v2] body.rulebook-page .manual :is(.table-note,.rule-callout,.card-example,.format-grid article,.pat-calculator) {background:#151a1e;border-color:#39434b}
  html[data-site-design=v2] body.rulebook-page .manual .pat-calculator {box-shadow:inset 3px 0 #65717a}
  html[data-site-design=v2] body.rulebook-page .manual .pat-special.is-active {background:#303940;border-color:#bfc6cb}
@@ -409,4 +409,30 @@
  @media(prefers-reduced-motion:reduce) {
   html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {transition:none}
  }
+}
+
+/* One shared red for navigation feedback across News, Forums, Cards and Rules. */
+@media screen{
+ html[data-site-design=v2] body :is(main,footer) a[href]:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell a[href]:any-link:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.database-page .cards-breadcrumbs a:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-running a:is(:hover,:focus-visible){
+  color:var(--site-nav-red);text-decoration-color:var(--site-nav-red);
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:is(:hover,:focus-visible){--hub-fill:#1b2126}
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell .forum-page-links a:is(:hover,:focus-visible,[aria-current=page]),
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,.card-type-tabs a):is(:hover,:focus-visible,[aria-selected=true]),
+ html[data-site-design=v2] body .account-tabs button:is(:hover,:focus-visible,[aria-pressed=true]){
+  background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#fff;
+  box-shadow:inset 0 0 0 1px var(--site-nav-red);
+ }
+ html[data-site-design=v2] body:is(.arena-page,.community-page,.database-page,.rulebook-page) :is(main,footer) a[href]:focus-visible,
+ html[data-site-design=v2] body.rulebook-page .manual a:focus-visible,
+ html[data-site-design=v2] body .account-tabs button:focus-visible{
+  outline:2px solid var(--site-nav-red);outline-offset:3px;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell .forum-page-select:focus-within{outline-color:var(--site-nav-red)}
 }
