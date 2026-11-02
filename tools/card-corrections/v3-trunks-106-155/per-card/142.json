@@ -1,0 +1,225 @@
+{
+  "personality_values": null,
+  "number": 142,
+  "id": "trunks-142-red-evasion-drill",
+  "name": "Red Evasion Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-142-red-evasion-drill.svg",
+  "native_source_sha256": "dad4444f6039f5c36341e39f930913100e92924ba042212901fb281ab900d36a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0434c172c1e45645746973f40309db880791178f71baea88561e0fc458536029.png",
+      "sha256": "0434c172c1e45645746973f40309db880791178f71baea88561e0fc458536029"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "0434c172c1e45645746973f40309db880791178f71baea88561e0fc458536029",
+    "source_native_sha256": "2a1bad19646511632b5d3dcd8169345b9d873d9d4872fbbf4511efaaf691fde1",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "When this Drill enters play, choose",
+      "baseline": 1049.3,
+      "width": 679.1227500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "an opponent. Their energy attacks cost",
+      "baseline": 1108.3,
+      "width": 699.034,
+      "icon_inline": false
+    },
+    {
+      "text": "+1 stage to perform while this Drill is in play.",
+      "baseline": 1167.3,
+      "width": 784.196,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        279.741,
+        50.2213,
+        499.519,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.882,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.682,
+        1392.65,
+        58.936,
+        33.708
+      ],
+      "rules-line-1": [
+        257.174,
+        1013.53,
+        611.226,
+        45.521
+      ],
+      "rules-line-2": [
+        181.012,
+        1072.53,
+        696.976,
+        45.913
+      ],
+      "rules-line-3": [
+        138.774,
+        1131.53,
+        781.452,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          190.6,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          257.174,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          190.6,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-142-red-evasion-drill.webp",
+      "before_url": "/assets/cards/trunks-142-red-evasion-drill.webp?v=37298278a087",
+      "before_sha256": "37298278a0874ec63317345fffbea7b44d447ef76163a877db11212da0d4d436",
+      "after_sha256": "a5251cc23e51a8ac8fd8d800297bd944d2178a02e6cd49fb3ad05520dc4ca6ce",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-142-red-evasion-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-142-red-evasion-drill.webp?v=333a1ac61536",
+      "before_sha256": "333a1ac61536b7bb6460f1730c804adc21da61f24f23b4e4631ef2303087f518",
+      "after_sha256": "d54adf98e1cf53b325d015bd550101c4d198d9283d23f54dfcfe8885a8079a07",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 499.5187032418953,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "personality_values": null,
+  "number": 121,
+  "id": "trunks-121-a-heros-heart-is-strong",
+  "name": "A Hero's Heart Is Strong",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-121-a-heros-heart-is-strong.svg",
+  "native_source_sha256": "266370c0c535a72759846a160a2ad83948b71990b55457d1dc0d0e6332c1c157",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/690bb1e7612d6c535a7cf71c82d2c1d863de89cecd0f43fca2619034a31a6fb9.png",
+      "sha256": "690bb1e7612d6c535a7cf71c82d2c1d863de89cecd0f43fca2619034a31a6fb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "690bb1e7612d6c535a7cf71c82d2c1d863de89cecd0f43fca2619034a31a6fb9",
+    "source_native_sha256": "e5ae6b219b7ef23888a75524624097d3d3121d28d533e06e6c86f4b139cf7d53",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: All players banish their entire",
+      "baseline": 1049.3,
+      "width": 671.0550000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard piles. Banish after use.",
+      "baseline": 1108.3,
+      "width": 550.0740000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        171.337,
+        45.9196,
+        716.327,
+        66.1608
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        792.679,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.478,
+        1392.65,
+        49.343,
+        33.708
+      ],
+      "rules-line-1": [
+        195.688,
+        1013.53,
+        667.625,
+        45.521
+      ],
+      "rules-line-2": [
+        256.006,
+        1072.53,
+        546.987,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-121-a-heros-heart-is-strong.webp",
+      "before_url": "/assets/cards/trunks-121-a-heros-heart-is-strong.webp?v=8b8234fcb741",
+      "before_sha256": "8b8234fcb741d0a2b9ef8d8f3bb4e8706eb3e603fd48408cbc916e1ab417118e",
+      "after_sha256": "4ed024ce12de66098f8a08df8f439246c173ddd5e6b6df721857656456d067cb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-121-a-heros-heart-is-strong.webp",
+      "before_url": "/assets/cards/downloads/trunks-121-a-heros-heart-is-strong.webp?v=c591f81675ce",
+      "before_sha256": "c591f81675ce5fa053834e6f4b09d71df130ad3dec78e48a0ee23f4aff648eb0",
+      "after_sha256": "a070628436b893b93fb567c29179f10982ddb33f961f4ad2bfddbe560c1bc33b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 716.3266832917707,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

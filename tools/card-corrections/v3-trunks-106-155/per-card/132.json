@@ -1,0 +1,207 @@
+{
+  "personality_values": null,
+  "number": 132,
+  "id": "trunks-132-nail-takes-extra-effort",
+  "name": "Nail Takes Extra Effort",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-132-nail-takes-extra-effort.svg",
+  "native_source_sha256": "6576aecea25bad7c595adbd3897ebc026a62d65ef40b7d744e14086917c33374",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2415a4aed0d477c684e9310c3422538d876116ee0c710bdaeb10d65c38ccfe19.png",
+      "sha256": "2415a4aed0d477c684e9310c3422538d876116ee0c710bdaeb10d65c38ccfe19"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "2415a4aed0d477c684e9310c3422538d876116ee0c710bdaeb10d65c38ccfe19",
+    "source_native_sha256": "0d82b13c6ea7265fd27757c2d91362829623157afbba336d3f324b66d29bb5ec",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use at the beginning of your Combat",
+      "baseline": 1049.3,
+      "width": 790.3699999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Step. For this Combat, your physical attacks deal",
+      "baseline": 1108.3,
+      "width": 869.7990000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "+1 stage for each Namek Dragon Ball in play.",
+      "baseline": 1167.3,
+      "width": 784.98,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        197.276,
+        50.2213,
+        664.448,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.465,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.265,
+        1392.65,
+        57.77,
+        33.708
+      ],
+      "rules-line-1": [
+        135.834,
+        1013.53,
+        787.332,
+        45.913
+      ],
+      "rules-line-2": [
+        96.095,
+        1072.53,
+        866.81,
+        45.521
+      ],
+      "rules-line-3": [
+        138.382,
+        1131.53,
+        782.236,
+        45.913
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-132-nail-takes-extra-effort.webp",
+      "before_url": "/assets/cards/trunks-132-nail-takes-extra-effort.webp?v=a053764ff5e5",
+      "before_sha256": "a053764ff5e5d1d84aca1d8e2372b01f357e2b1c920b97e0d0d5ff1727565bb1",
+      "after_sha256": "17848bba18aa0ecc5df9101ab1582d0c5087520c2a3d35800499529f2d6b6ff5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-132-nail-takes-extra-effort.webp",
+      "before_url": "/assets/cards/downloads/trunks-132-nail-takes-extra-effort.webp?v=de8e0ed717ed",
+      "before_sha256": "de8e0ed717ed63bd8d1ad8a116135bdbbe86855838759b84f7dbf6d55597eb87",
+      "after_sha256": "709f8f82fa2c422486334e1c4472a9dbc59e59ccc4fa9bc2157e1d677561365e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 664.4476309226934,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

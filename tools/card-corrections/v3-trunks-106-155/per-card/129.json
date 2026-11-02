@@ -1,0 +1,195 @@
+{
+  "personality_values": null,
+  "number": 129,
+  "id": "trunks-129-piccolo-and-heroes-gather",
+  "name": "Piccolo And Heroes Gather",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-129-piccolo-and-heroes-gather.svg",
+  "native_source_sha256": "f21b0b848def092b8f16cad3110b06919ae99e0ca806fb6f722dfa3affc50b3e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d3851184117c02024dd12994a05de5f31d1340ec0a6405eb86d8ea6d7aa45ebd.png",
+      "sha256": "d3851184117c02024dd12994a05de5f31d1340ec0a6405eb86d8ea6d7aa45ebd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "d3851184117c02024dd12994a05de5f31d1340ec0a6405eb86d8ea6d7aa45ebd",
+    "source_native_sha256": "5e38e4b571df4ccc6fb832d9064401e7ef9726904a22a715edbcda8c956540dd",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Discard 2 cards from your hand.",
+      "baseline": 1049.3,
+      "width": 717.8009999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Search your Life Deck for 2 Events, reveal them",
+      "baseline": 1108.3,
+      "width": 845.25,
+      "icon_inline": false
+    },
+    {
+      "text": "to your opponent, and put them in your hand.",
+      "baseline": 1167.3,
+      "width": 796.9359999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        51.5849,
+        760.0,
+        54.8302
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.333,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.132,
+        1392.65,
+        58.035,
+        33.708
+      ],
+      "rules-line-1": [
+        172.437,
+        1013.53,
+        714.126,
+        45.521
+      ],
+      "rules-line-2": [
+        108.369,
+        1072.53,
+        842.261,
+        45.521
+      ],
+      "rules-line-3": [
+        132.135,
+        1131.53,
+        794.731,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-129-piccolo-and-heroes-gather.webp",
+      "before_url": "/assets/cards/trunks-129-piccolo-and-heroes-gather.webp?v=2133289c9603",
+      "before_sha256": "2133289c9603767c7b050cd87c22190f6bc8b4ee1bed052ae37d2707f06dd95c",
+      "after_sha256": "b2c76218bdecd9422acc077e532853db6fbb6e21f51533b89666ae56d58f9792",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-129-piccolo-and-heroes-gather.webp",
+      "before_url": "/assets/cards/downloads/trunks-129-piccolo-and-heroes-gather.webp?v=60417f7a8735",
+      "before_sha256": "60417f7a8735e71ee89e3ece8e869b6007ac0de04f89e25273cc354b3bef7361",
+      "after_sha256": "f8f76f422bd5758e9442e16c250c705406d47ddd6fedeefd93ad713e1c464e17",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 81.95837377332039,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 54.830152054351345,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9526176198000427
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

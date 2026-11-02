@@ -1,0 +1,213 @@
+{
+  "personality_values": null,
+  "number": 128,
+  "id": "trunks-128-gohan-spots-the-imposter-drill",
+  "name": "Gohan Spots The Imposter Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-128-gohan-spots-the-imposter-drill.svg",
+  "native_source_sha256": "4b9b475bc6f2db3b18c3dd843b00702238ac55e5a8361d8acadc0ba2b5544e91",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9ee763b63261a87b9edb46d56649ae8c7666c7ed4575021ab4baa9f00cf72557.png",
+      "sha256": "9ee763b63261a87b9edb46d56649ae8c7666c7ed4575021ab4baa9f00cf72557"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "9ee763b63261a87b9edb46d56649ae8c7666c7ed4575021ab4baa9f00cf72557",
+    "source_native_sha256": "073b1ea9ffb449b673463a5924da1a5a02638007ff5b713e4cb5ea28084f92a5",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Choose an opponent.",
+      "baseline": 1049.3,
+      "width": 737.57475,
+      "icon_inline": true
+    },
+    {
+      "text": "They cannot play Allies while this Drill is in play.",
+      "baseline": 1108.3,
+      "width": 850.1499999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        50.5231,
+        760.0,
+        56.9538
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.121,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.92,
+        1392.65,
+        58.459,
+        33.708
+      ],
+      "rules-line-1": [
+        162.575,
+        1013.53,
+        733.851,
+        44.884
+      ],
+      "rules-line-2": [
+        105.797,
+        1072.53,
+        847.406,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "C",
+        "capital_glyph_index": 14,
+        "previous_visible_bounds": [
+          461.96,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          529.219,
+          1014.61,
+          19.551,
+          35.084
+        ],
+        "new_visible_bounds": [
+          461.96,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-128-gohan-spots-the-imposter-drill.webp",
+      "before_url": "/assets/cards/trunks-128-gohan-spots-the-imposter-drill.webp?v=a84036972872",
+      "before_sha256": "a84036972872d1d4cf7432a703a0fd0b094a3d35e46f37c41af9a747645f6ac5",
+      "after_sha256": "f7f3a6d3a5c5334f1561ba031337e8ddf08c275cb28fc333e4ba7c6f7e5b0d3f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-128-gohan-spots-the-imposter-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-128-gohan-spots-the-imposter-drill.webp?v=8e2a23cc5054",
+      "before_sha256": "8e2a23cc5054c55c62e020883948328dbb5ec5459bb082edc5b4cd557cc78f50",
+      "after_sha256": "7d490301f672eaf3459565e55df673b61b1134d952fd6f801a9ff6aac1ec989a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 71.0147635955896,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 56.95384040366286,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.825417976864679
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

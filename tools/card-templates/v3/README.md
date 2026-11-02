@@ -133,3 +133,9 @@ Run `build_trunks_006_055.py --retained <retained-source-directory>` and `verify
 Preserve the earlier artwork corrections to #58 (victim behind impact) and #89 (Goku hand). The common art mapping adds no crop or zoom; Dragon Ball full-art colors and scale remain unchanged. Title ink clearance is measured before rendering. Footer centers remain (211.75,1409.5) and (847.25,1409.5), with a 12.2-unit ball/number gap.
 
 Run `build_trunks_056_105.py --retained <retained-source-directory>` and `verify_trunks_056_105.py`. The 031–080 archive remains in the preceding batch directory; 081–130 is the new retained input. Source archives are converted to portable content-addressed assets. No Masteries occur in this batch; the approved future Mastery source remains in `references/mastery-v3.md`.
+
+### Trunks 106–155
+
+The 50-card migration includes 12 Personalities, six Masteries and three approved full-art Porunga Dragon Balls. Native sources are in `trunks-106-155/`; original/CRD, geometry, artwork and export evidence is in `../../card-corrections/v3-trunks-106-155/`. `masters/mastery-v3-source/` retains the exact approved source in gzip parts, with its original hash from `references/mastery-v3.md`. Use `scripts/mastery_source_v3.py <output.svg>` to recover the original SVG byte for byte. Style variants preserve its pointed artwork and inset continuous surround. The unused legacy pattern with a dangling reference is removed only in working card copies. Blue Mastery retains the previously published mouth correction as a local image layer.
+
+Use `build_trunks_106_155.py` with the retained 081–130 and 131–180 archive paths recorded in the card inputs, followed by `verify_trunks_106_155.py`. Retain corrected original PUR values (109=2, 110=1), #133 bottom-of-Life-Deck placement, #129 without an unsupported deck limit, and native bold 4/5 outlines. Native 2x exports are lossless and display images derive from those renders.

@@ -1,0 +1,315 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 2,
+    "stages": [
+      250000,
+      225000,
+      200000,
+      175000,
+      150000,
+      125000,
+      100000,
+      75000,
+      50000,
+      25000,
+      0
+    ]
+  },
+  "number": 111,
+  "id": "trunks-111-dodoria-the-mocking",
+  "name": "Dodoria the Mocking",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-111-dodoria-the-mocking.svg",
+  "native_source_sha256": "9801c6091043d8825b673b1abfa11e1aa7739355a5fd740bcc7c8845905a097a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/952242a0c80c52a4146c02e313d6bb758b777b3b71601f65f4d44e40779eceed.png",
+      "sha256": "952242a0c80c52a4146c02e313d6bb758b777b3b71601f65f4d44e40779eceed"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "952242a0c80c52a4146c02e313d6bb758b777b3b71601f65f4d44e40779eceed",
+    "source_native_sha256": "0d048891f8d8dc9197774be1d21cd71b6e5f61f6782f8e692c5c88ca9d28fce0",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Your successful attacks deal +1 stage",
+      "baseline": 1049.3,
+      "width": 735.96275,
+      "icon_inline": true
+    },
+    {
+      "text": "and +2 life cards of damage.",
+      "baseline": 1108.3,
+      "width": 504.16100000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        891.35,
+        160.009,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-1": [
+        893.506,
+        224.691,
+        137.494,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.664,
+        289.373,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-3": [
+        901.493,
+        354.054,
+        129.507,
+        38.269
+      ],
+      "power-stage-value-4": [
+        897.23,
+        418.736,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-5": [
+        899.386,
+        483.418,
+        131.614,
+        38.269
+      ],
+      "power-stage-value-6": [
+        896.544,
+        548.1,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-7": [
+        915.213,
+        612.782,
+        115.787,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.469,
+        677.463,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-9": [
+        913.841,
+        742.145,
+        117.159,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        222.097,
+        44.5,
+        614.805,
+        69.0
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        228.95,
+        1014.85,
+        667.87,
+        44.5954
+      ],
+      "rules-line-2": [
+        278.767,
+        1072.53,
+        501.466,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          162.18,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          228.95,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          162.18,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-111-dodoria-the-mocking.webp",
+      "before_url": "/assets/cards/trunks-111-dodoria-the-mocking.webp?v=930ff3ba83fb",
+      "before_sha256": "930ff3ba83fb7a30c05d916be3436b7f20b733e9da86f89baa7393a5d494767e",
+      "after_sha256": "89ecadb439484e9eb3ba34cecd40750568dc94ff69aeec6d302466bbe822d5e4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-111-dodoria-the-mocking.webp",
+      "before_url": "/assets/cards/downloads/trunks-111-dodoria-the-mocking.webp?v=7d42abf36a60",
+      "before_sha256": "7d42abf36a606c13811a61ef54b8813c7530699a6c38f3c3e432e01c24f10557",
+      "after_sha256": "aebd626750d2c905a72d0b074f6f73c1f8171c067ad5b3cf7243ff7b6e0c441b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 614.8054862842894,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

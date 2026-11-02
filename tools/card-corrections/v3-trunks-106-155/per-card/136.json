@@ -1,0 +1,213 @@
+{
+  "personality_values": null,
+  "number": 136,
+  "id": "trunks-136-namek-dragon-ball-5",
+  "name": "Namek Dragon Ball 5",
+  "family": "DRAGON BALL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-136-namek-dragon-ball-5.svg",
+  "native_source_sha256": "070553c6aee7c44e774131c3b4e35367e1da5e0bab97f414012ea2d2668b04d5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5.png",
+      "sha256": "88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    }
+  ],
+  "artwork": {
+    "mode": "approved current front-facing Porunga full art",
+    "source_native_sha256": "c6d0d31c28dff37fcb2a24169365244d935dc56229975f647403e4165f9b71a8",
+    "artwork_bytes_retained": true,
+    "approved_artwork_exception": true,
+    "additional_zoom": false,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "background_gain": 1
+  },
+  "rules": [
+    {
+      "text": "POWER: Raise your Main Personality to its",
+      "baseline": 1049.3,
+      "width": 737.94,
+      "icon_inline": false
+    },
+    {
+      "text": "highest stage. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 690.361,
+      "icon_inline": false
+    },
+    {
+      "text": "Place the top 2 cards of your discard pile",
+      "baseline": 1167.3,
+      "width": 727.993,
+      "icon_inline": false
+    },
+    {
+      "text": "on the bottom of your Life Deck.",
+      "baseline": 1226.3,
+      "width": 569.4780000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        218.613,
+        44.5,
+        621.774,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "dragon-ball-left-emblem": [
+        12.0,
+        769.0,
+        236.0,
+        236.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        162.0,
+        1013.53,
+        735.0,
+        45.521
+      ],
+      "rules-line-2": [
+        186.035,
+        1072.53,
+        686.931,
+        45.913
+      ],
+      "rules-line-3": [
+        167.218,
+        1131.53,
+        724.563,
+        45.521
+      ],
+      "rules-line-4": [
+        246.304,
+        1190.53,
+        566.391,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-136-namek-dragon-ball-5.webp",
+      "before_url": "/assets/cards/trunks-136-namek-dragon-ball-5.webp?v=8cf6ec91e258",
+      "before_sha256": "8cf6ec91e258fa19ab191a348dbc311dda87160245cc7d71b93cbbcfa2b1f2d7",
+      "after_sha256": "034c39e5938b4329c0897e38b07fec6648dfc45628201e827b6b5f136e47393b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-136-namek-dragon-ball-5.webp",
+      "before_url": "/assets/cards/downloads/trunks-136-namek-dragon-ball-5.webp?v=ec2860564cf6",
+      "before_sha256": "ec2860564cf6b08be3d9177b93e602d984d7dc33ca7ee19b4fe40eebe17c3f52",
+      "after_sha256": "44c354c3eabc2f11f1eee55d51a567b2f977535853f066a0cd62c876a4ad5148",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 621.774314214464,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

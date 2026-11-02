@@ -1,0 +1,225 @@
+{
+  "personality_values": null,
+  "number": 141,
+  "id": "trunks-141-black-physical-focus",
+  "name": "Black Physical Focus",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-141-black-physical-focus.svg",
+  "native_source_sha256": "2bb78ce981d6f00190022ed045417c0b9d848ebd5e3c6553504e5c382ec658ad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3c0d5bc730dd548ddac95742e5279905b8fc2313f88aca83eed898ccab77462e.png",
+      "sha256": "3c0d5bc730dd548ddac95742e5279905b8fc2313f88aca83eed898ccab77462e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "3c0d5bc730dd548ddac95742e5279905b8fc2313f88aca83eed898ccab77462e",
+    "source_native_sha256": "5d04b1d16b364ef00ecd47bac50060119b6d0ed14c695f31324c14fde88b1b6a",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing any number of stages",
+      "baseline": 1049.3,
+      "width": 864.1731555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "from your Main Personality. DAMAGE: AT stages",
+      "baseline": 1108.3,
+      "width": 839.2719999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "+1 stage for each stage paid.",
+      "baseline": 1167.3,
+      "width": 508.7180000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.892,
+        44.5,
+        633.217,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        791.672,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.471,
+        1392.65,
+        51.357,
+        33.708
+      ],
+      "rules-line-1": [
+        152.376,
+        1013.53,
+        808.794,
+        45.913
+      ],
+      "rules-line-2": [
+        110.722,
+        1072.53,
+        837.557,
+        45.913
+      ],
+      "rules-line-3": [
+        276.513,
+        1131.53,
+        505.974,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          97.8299,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          152.376,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          97.8299,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-141-black-physical-focus.webp",
+      "before_url": "/assets/cards/trunks-141-black-physical-focus.webp?v=fbc8359c5240",
+      "before_sha256": "fbc8359c5240c3a404f9f34e366f94da70ceae695926c3457e94d6e55f8c9183",
+      "after_sha256": "9cfd40c1a311cf9c9d9e2c6bcf590bedf88de349b4e95f50f2064951b13be72f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-141-black-physical-focus.webp",
+      "before_url": "/assets/cards/downloads/trunks-141-black-physical-focus.webp?v=7cdc4fe08fbe",
+      "before_sha256": "7cdc4fe08fbe5f4c3a1562045184edc517a10789fe48d480e7bc5f179046e722",
+      "after_sha256": "abc8eb924e13ddc5c29cfc43f711b3a863720d2a27adee01b662dc210ee2952c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 633.2169576059852,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

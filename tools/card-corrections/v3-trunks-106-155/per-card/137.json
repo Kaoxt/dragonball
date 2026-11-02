@@ -1,0 +1,237 @@
+{
+  "personality_values": null,
+  "number": 137,
+  "id": "trunks-137-nail-combat-drill",
+  "name": "Nail Combat Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-137-nail-combat-drill.svg",
+  "native_source_sha256": "ca7a98d06071cdeb8df18acfd2a665f14e903c47735b4420d6a1b399a9ada7f4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dfed0ccfa7b056120f1c0d7e7d5496c58b33707fa1e01592dfc1c1ad0241dc46.png",
+      "sha256": "dfed0ccfa7b056120f1c0d7e7d5496c58b33707fa1e01592dfc1c1ad0241dc46"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "dfed0ccfa7b056120f1c0d7e7d5496c58b33707fa1e01592dfc1c1ad0241dc46",
+    "source_native_sha256": "c09388f04cdea1a8953b237ada09ffdfe211cf344fd823aebd396b502586f681",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Piccolo and Nail only. After a successful",
+      "baseline": 1049.3,
+      "width": 779.9107500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "attack against you deals damage, your Main",
+      "baseline": 1108.3,
+      "width": 779.835,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality gains 1 stage for each life card",
+      "baseline": 1167.3,
+      "width": 755.9230000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage you received.",
+      "baseline": 1226.3,
+      "width": 437.57000000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        281.074,
+        50.2213,
+        496.852,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        789.022,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.821,
+        1392.65,
+        56.657,
+        33.708
+      ],
+      "rules-line-1": [
+        141.431,
+        1013.53,
+        776.138,
+        45.521
+      ],
+      "rules-line-2": [
+        140.979,
+        1072.53,
+        777.042,
+        45.913
+      ],
+      "rules-line-3": [
+        153.523,
+        1131.53,
+        751.954,
+        45.913
+      ],
+      "rules-line-4": [
+        312.258,
+        1190.53,
+        434.483,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          529.359,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          595.611,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          529.359,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-137-nail-combat-drill.webp",
+      "before_url": "/assets/cards/trunks-137-nail-combat-drill.webp?v=a3d48bbd4020",
+      "before_sha256": "a3d48bbd402010110017197b3b5dc5f4a1b74c969323d225b19e981f8508cf02",
+      "after_sha256": "e2aec3e129a36fad1ad6fc6b279e3209454d3a31fae2bc222a88050876e3253d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-137-nail-combat-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-137-nail-combat-drill.webp?v=526618b6b755",
+      "before_sha256": "526618b6b75565d861a45ae59029d911493bbf4f5fdd6bf5d30469a363660044",
+      "after_sha256": "ad3d909e4c77652672a82a4b052ff986c3026ad6ae99a1467d34406665ed4c39",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 496.851620947631,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

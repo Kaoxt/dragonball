@@ -1,0 +1,213 @@
+{
+  "personality_values": null,
+  "number": 140,
+  "id": "trunks-140-black-smoothness-drill",
+  "name": "Black Smoothness Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-140-black-smoothness-drill.svg",
+  "native_source_sha256": "a3acef5095d309731c6dce5880fa0c63aec73b4958c3337f209e026befae77dc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0130702287957986696474532b1b1a5bc2a94a2778e8a852791bee22ba6492bf.png",
+      "sha256": "0130702287957986696474532b1b1a5bc2a94a2778e8a852791bee22ba6492bf"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "0130702287957986696474532b1b1a5bc2a94a2778e8a852791bee22ba6492bf",
+    "source_native_sha256": "0bdaab3967ea646aeea8c7e66e2e1f592b1ecc0988b931841e902b8722166989",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "You may keep an additional card",
+      "baseline": 1049.3,
+      "width": 645.11675,
+      "icon_inline": true
+    },
+    {
+      "text": "during the Rejuvenation Step.",
+      "baseline": 1108.3,
+      "width": 523.0260000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        182.908,
+        50.2213,
+        693.183,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.087,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.887,
+        1392.65,
+        60.526,
+        33.708
+      ],
+      "rules-line-1": [
+        274.642,
+        1013.53,
+        576.485,
+        45.521
+      ],
+      "rules-line-2": [
+        269.53,
+        1072.53,
+        519.939,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          207.873,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          274.642,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          207.873,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-140-black-smoothness-drill.webp",
+      "before_url": "/assets/cards/trunks-140-black-smoothness-drill.webp?v=60bf3f0c4517",
+      "before_sha256": "60bf3f0c4517760832ad237de5f97c0081eb570a3c96e08e60aa4f2891988c2f",
+      "after_sha256": "acdfa5b3490c5bdd0090bd58a3eea2b4dbfeb76e0fb726cfdfab395b93bec1cb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-140-black-smoothness-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-140-black-smoothness-drill.webp?v=fc194441fa3a",
+      "before_sha256": "fc194441fa3a9949d83d659ed33f66fd07690bc9630ced9d916d3b735391bcf0",
+      "after_sha256": "f89651adfa575435b87bcd96ec0e9d3e1605badbce76b58bf788bd4d9a7148cd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 693.1832917705736,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

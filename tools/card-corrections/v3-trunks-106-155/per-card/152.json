@@ -1,0 +1,285 @@
+{
+  "personality_values": {
+    "level": 4,
+    "pur": 5,
+    "stages": [
+      550000,
+      525000,
+      500000,
+      475000,
+      450000,
+      425000,
+      400000,
+      375000,
+      350000,
+      325000,
+      0
+    ]
+  },
+  "number": 152,
+  "id": "trunks-152-gohan-empowered",
+  "name": "Gohan Empowered",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-152-gohan-empowered.svg",
+  "native_source_sha256": "7b7d34f4ed3703b1a5d3529b586e774ff094cb3e6ef05a23b213bfb93f41974a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c2d2b80bcdbce10770e295a747d1b2a14c84fabde0cde23caca9a942eabff7ef.png",
+      "sha256": "c2d2b80bcdbce10770e295a747d1b2a14c84fabde0cde23caca9a942eabff7ef"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "c2d2b80bcdbce10770e295a747d1b2a14c84fabde0cde23caca9a942eabff7ef",
+    "source_native_sha256": "4f5cecf127dddb734cb937191756f7a672496c8ed9c09f1ee83f3e145261c9e7",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: When defending in Combat, you may",
+      "baseline": 1049.3,
+      "width": 790.8599999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "draw the bottom card of your discard pile.",
+      "baseline": 1108.3,
+      "width": 748.377,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.664,
+        160.009,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-1": [
+        892.82,
+        224.691,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.978,
+        289.373,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-3": [
+        893.016,
+        354.054,
+        137.984,
+        38.269
+      ],
+      "power-stage-value-4": [
+        888.753,
+        418.736,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.909,
+        483.418,
+        140.091,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.067,
+        548.1,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-7": [
+        894.927,
+        612.782,
+        136.073,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.664,
+        677.463,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        251.521,
+        44.5,
+        555.958,
+        69.0
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        79.8716,
+        876.0,
+        60.2568,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.094,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.894,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        135.454,
+        1013.53,
+        788.093,
+        45.913
+      ],
+      "rules-line-2": [
+        156.855,
+        1072.53,
+        745.29,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-152-gohan-empowered.webp",
+      "before_url": "/assets/cards/trunks-152-gohan-empowered.webp?v=dadb2558650f",
+      "before_sha256": "dadb2558650f937cc4c3edbcf349e79af753d22aa4d705e61ff540ba8f833b88",
+      "after_sha256": "1a06cc05379f093e8168adc8ccc24ccb1d9f37c16aa0b4b33cfdc7e07c9438f1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-152-gohan-empowered.webp",
+      "before_url": "/assets/cards/downloads/trunks-152-gohan-empowered.webp?v=da1da1711e7f",
+      "before_sha256": "da1da1711e7fc3b11a0c32a2cd9bf5c78631ccec1ea673d1f138266acb88bc2f",
+      "after_sha256": "68b7dd903a7766db89869ce38e2c0e2ca93bd3690a5aa09ca6987eb44b0a8a17",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 555.9576059850375,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

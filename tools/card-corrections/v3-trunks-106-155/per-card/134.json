@@ -1,0 +1,195 @@
+{
+  "personality_values": null,
+  "number": 134,
+  "id": "trunks-134-king-kais-thoughts",
+  "name": "King Kai's Thoughts",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-134-king-kais-thoughts.svg",
+  "native_source_sha256": "a0e0f427b9f331f3c41b41b49a6be97ffc9ebb9f92e5103fa93b917206c2d1c4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5b6c22b171add3d4b83a79cb189b04ab2d5cb337aba01cb7441a52ec151d3967.png",
+      "sha256": "5b6c22b171add3d4b83a79cb189b04ab2d5cb337aba01cb7441a52ec151d3967"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "5b6c22b171add3d4b83a79cb189b04ab2d5cb337aba01cb7441a52ec151d3967",
+    "source_native_sha256": "de8f278c15b806691578ed42ec1c9cd41b8e7f4ffe2de3597c6a082542dd562f",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. POWER: For this Combat,",
+      "baseline": 1049.3,
+      "width": 667.1350000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your Main Personality's physical attacks",
+      "baseline": 1108.3,
+      "width": 715.3510000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +3 stages. Banish after use.",
+      "baseline": 1167.3,
+      "width": 579.4250000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        234.83,
+        44.5,
+        589.339,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        786.743,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.542,
+        1392.65,
+        61.215,
+        33.708
+      ],
+      "rules-line-1": [
+        197.831,
+        1013.53,
+        663.339,
+        45.521
+      ],
+      "rules-line-2": [
+        172.56,
+        1072.53,
+        713.881,
+        45.521
+      ],
+      "rules-line-3": [
+        241.331,
+        1131.53,
+        576.338,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-134-king-kais-thoughts.webp",
+      "before_url": "/assets/cards/trunks-134-king-kais-thoughts.webp?v=26fa82243511",
+      "before_sha256": "26fa82243511e12a0768c2fe465ccf8d63c197c1209af4f106e62ca479c8f112",
+      "after_sha256": "a912de96f82e060ce6fde0fa1fa7b2b7fa65fb1addeef357ae3bec86f05088cd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-134-king-kais-thoughts.webp",
+      "before_url": "/assets/cards/downloads/trunks-134-king-kais-thoughts.webp?v=c361724c05ed",
+      "before_sha256": "c361724c05ed6bbec60a5dc90f508cd6422f10d11d27f198d89f2e50c8e44bde",
+      "after_sha256": "bed6445a1b24d2fba423acf5722af0474e65966dcc3d2e2076aad97e6706bb4e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 589.3391521197009,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

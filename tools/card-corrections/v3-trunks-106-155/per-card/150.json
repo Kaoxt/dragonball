@@ -1,0 +1,327 @@
+{
+  "personality_values": {
+    "level": 4,
+    "pur": 4,
+    "stages": [
+      1550000,
+      1450000,
+      1350000,
+      1250000,
+      1150000,
+      1050000,
+      950000,
+      850000,
+      750000,
+      650000,
+      0
+    ]
+  },
+  "number": 150,
+  "id": "trunks-150-trunks-the-hero",
+  "name": "Trunks, the Hero",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-150-trunks-the-hero.svg",
+  "native_source_sha256": "7d5acc0c6ad161d1a06a7ab06a33409afc6cd782c0ff976290238ee212bdd98f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f2e18ef65c8f0d99ff71caa683010f3796afd8a65e84ba05a31bf277b6c99d0d.png",
+      "sha256": "f2e18ef65c8f0d99ff71caa683010f3796afd8a65e84ba05a31bf277b6c99d0d"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "f2e18ef65c8f0d99ff71caa683010f3796afd8a65e84ba05a31bf277b6c99d0d",
+    "source_native_sha256": "8c3c4bbc8726dc3a9f05381bf8604152797365d8a9559f19db8b60ecd620d329",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "During your opponent's turn,",
+      "baseline": 1049.3,
+      "width": 569.9507500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "all damage from physical attacks",
+      "baseline": 1108.3,
+      "width": 592.8510000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "against you is reduced to 1 stage.",
+      "baseline": 1167.3,
+      "width": 591.822,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.694,
+        160.009,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-1": [
+        864.302,
+        224.691,
+        166.698,
+        38.269
+      ],
+      "power-stage-value-2": [
+        865.38,
+        289.373,
+        165.62,
+        38.269
+      ],
+      "power-stage-value-3": [
+        866.164,
+        354.054,
+        164.836,
+        38.269
+      ],
+      "power-stage-value-4": [
+        872.289,
+        418.736,
+        158.711,
+        38.269
+      ],
+      "power-stage-value-5": [
+        864.008,
+        483.418,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.076,
+        548.1,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.027,
+        612.782,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.722,
+        677.463,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.37,
+        742.145,
+        140.63,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        282.881,
+        43.9838,
+        493.238,
+        70.0324
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.299,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.099,
+        1392.65,
+        60.102,
+        33.708
+      ],
+      "rules-line-1": [
+        313.094,
+        1013.53,
+        500.561,
+        45.913
+      ],
+      "rules-line-2": [
+        234.055,
+        1072.53,
+        590.891,
+        45.913
+      ],
+      "rules-line-3": [
+        234.937,
+        1131.53,
+        589.127,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          245.345,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          313.094,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          245.345,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-150-trunks-the-hero.webp",
+      "before_url": "/assets/cards/trunks-150-trunks-the-hero.webp?v=2414a073d389",
+      "before_sha256": "2414a073d389c77e26b53fe4e1a621a243c20cbdccba2a4b216ae1df58f6dc10",
+      "after_sha256": "bd5786960aeb7901be0897063c300233124c5692b054e37175347077c3b2547c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-150-trunks-the-hero.webp",
+      "before_url": "/assets/cards/downloads/trunks-150-trunks-the-hero.webp?v=da1a80e0cb62",
+      "before_sha256": "da1a80e0cb629342dc6cb03583471e4aa4efc2f659eb046fcc32342db4c6093c",
+      "after_sha256": "abcc31612c77c4117acc6c16963fb07ed2d1b0c41721c83430f95de151f565cb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 493.2381546134664,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

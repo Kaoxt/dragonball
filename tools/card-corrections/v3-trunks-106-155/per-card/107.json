@@ -1,0 +1,327 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 1,
+    "stages": [
+      150000,
+      143000,
+      136000,
+      129000,
+      122000,
+      115000,
+      108000,
+      101000,
+      94000,
+      87000,
+      0
+    ]
+  },
+  "number": 107,
+  "id": "trunks-107-captain-ginyu-the-leader",
+  "name": "Captain Ginyu the Leader",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-107-captain-ginyu-the-leader.svg",
+  "native_source_sha256": "3d162e03d9315d450ee9b0e4480526f2618e2d4d3618fab05a3d4769c258a4e0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7a94ca6532e51ab612ee32aa572cfb04a3cfa3086e9c48a2792c5db39303d734.png",
+      "sha256": "7a94ca6532e51ab612ee32aa572cfb04a3cfa3086e9c48a2792c5db39303d734"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "7a94ca6532e51ab612ee32aa572cfb04a3cfa3086e9c48a2792c5db39303d734",
+    "source_native_sha256": "43d0ebf4c45a86a23d7f1a17d556d2760a8a5a2bc284ff738d891d0a1b698b30",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "When defending against a physical attack,",
+      "baseline": 1049.3,
+      "width": 819.5567500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "choose any Personality in play and use its",
+      "baseline": 1108.3,
+      "width": 744.3100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "current power level to determine damage.",
+      "baseline": 1167.3,
+      "width": 747.0540000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        897.23,
+        160.009,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-1": [
+        898.21,
+        224.691,
+        132.79,
+        38.269
+      ],
+      "power-stage-value-2": [
+        898.259,
+        289.373,
+        132.741,
+        38.269
+      ],
+      "power-stage-value-3": [
+        899.141,
+        354.054,
+        131.859,
+        38.269
+      ],
+      "power-stage-value-4": [
+        900.856,
+        418.736,
+        130.144,
+        38.269
+      ],
+      "power-stage-value-5": [
+        905.511,
+        483.418,
+        125.489,
+        38.269
+      ],
+      "power-stage-value-6": [
+        896.642,
+        548.1,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-7": [
+        904.825,
+        612.782,
+        126.175,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.175,
+        677.463,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-9": [
+        916.095,
+        742.145,
+        114.905,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        179.5,
+        46.6873,
+        700.0,
+        64.6253
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.28,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.079,
+        1392.65,
+        58.141,
+        33.708
+      ],
+      "rules-line-1": [
+        187.115,
+        1013.53,
+        751.343,
+        45.913
+      ],
+      "rules-line-2": [
+        158.521,
+        1072.53,
+        741.958,
+        45.521
+      ],
+      "rules-line-3": [
+        157.516,
+        1131.53,
+        743.967,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          120.542,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          187.115,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          120.542,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-107-captain-ginyu-the-leader.webp",
+      "before_url": "/assets/cards/trunks-107-captain-ginyu-the-leader.webp?v=9fa74cf42e96",
+      "before_sha256": "9fa74cf42e96011020b89559216335ef4e722d1d1982fcbacfcd9a23dfeb5aa5",
+      "after_sha256": "69dbc97a6ed8125e729bfd6a6c06b58d6e9e469c2ea14f832d8fd29f6b55920b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-107-captain-ginyu-the-leader.webp",
+      "before_url": "/assets/cards/downloads/trunks-107-captain-ginyu-the-leader.webp?v=29ea9dade765",
+      "before_sha256": "29ea9dade765cbd4f38506ae007c1c535de803be741ad2f93cd86d9a8e1e4eda",
+      "after_sha256": "163982cee2e89699b6386f3f780a33441db98276a60ce422193bd2d6551b0ea1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.58017727639,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 64.62530217566477,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9365985822560112
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

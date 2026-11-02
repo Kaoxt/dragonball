@@ -1,0 +1,233 @@
+{
+  "personality_values": null,
+  "number": 145,
+  "id": "trunks-145-black-style-mastery",
+  "name": "Black Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-145-black-style-mastery.svg",
+  "native_source_sha256": "ee20bb4bf8f1bab35b19813bb26710687d7733a0784f406a2402b169230eb959",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6712a690eba793c8f3092d25bcecb1b2c39f59ef11782555de1bd82d3f7622b1.png",
+      "sha256": "6712a690eba793c8f3092d25bcecb1b2c39f59ef11782555de1bd82d3f7622b1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "mode": "approved Mastery illustration, original image placement",
+    "source_native_sha256": "148030bb3422905f4160cf13d24184e679036e35e5116619746fe61dbdd50e47",
+    "artwork_bytes_retained": true,
+    "additional_zoom": false,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "mastery_approved_source_sha256": "10948151b2cb82fa190ec88cdf52e8ab8db469acf4c3c7baaf13096f1a17a78c"
+  },
+  "rules": [
+    {
+      "text": "Your successful attacks deal +1 life card",
+      "baseline": 1049.3,
+      "width": 784.22775,
+      "icon_inline": true
+    },
+    {
+      "text": "and +1 stage. Your successful Black Style attacks",
+      "baseline": 1108.3,
+      "width": 877.933,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +2 life cards and +2 stages instead.",
+      "baseline": 1167.3,
+      "width": 715.694,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        231.26,
+        44.5,
+        596.48,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.22,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.019,
+        1392.65,
+        60.261,
+        33.708
+      ],
+      "rules-line-1": [
+        205.087,
+        1013.53,
+        715.596,
+        36.162
+      ],
+      "rules-line-2": [
+        91.5135,
+        1073.61,
+        875.973,
+        44.835
+      ],
+      "rules-line-3": [
+        173.197,
+        1131.53,
+        712.607,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.317,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          205.087,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          138.317,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-145-black-style-mastery.webp",
+      "before_url": "/assets/cards/trunks-145-black-style-mastery.webp?v=49cbacb71962",
+      "before_sha256": "49cbacb7196267f4d3b3713735e34cb1003d5356df00f6d33264f28f33a0d38a",
+      "after_sha256": "1e6eea52aadf18fa9252715ff68716a2595d18fec7601216fc74fb22cd602313",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-145-black-style-mastery.webp",
+      "before_url": "/assets/cards/downloads/trunks-145-black-style-mastery.webp?v=9cca48ecf6f2",
+      "before_sha256": "9cca48ecf6f2d34944aaf558e12d490eacc533ead70d252fbd198d1bd1c71bcf",
+      "after_sha256": "02a7308f7de5f6f542bca0802efdc6766323c4fa5b3eb792a0da056917cc717d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 596.4800498753118,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

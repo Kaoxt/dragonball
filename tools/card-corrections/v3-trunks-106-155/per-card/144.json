@@ -1,0 +1,245 @@
+{
+  "personality_values": null,
+  "number": 144,
+  "id": "trunks-144-red-style-mastery",
+  "name": "Red Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-144-red-style-mastery.svg",
+  "native_source_sha256": "3117dbd6fabb9863673019763f968de68b2a6e8954ed97b6c4b95a619b0b4175",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ec4a6b2638e2d23cf40943c0a782355e04cc57bd59481805e7e639ce366779e8.png",
+      "sha256": "ec4a6b2638e2d23cf40943c0a782355e04cc57bd59481805e7e639ce366779e8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "mode": "approved Mastery illustration, original image placement",
+    "source_native_sha256": "6a2a88bc18dcb0a434c29eed3db92bcd5e0815abed7fe25cc13d22431bf42e07",
+    "artwork_bytes_retained": true,
+    "additional_zoom": false,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "mastery_approved_source_sha256": "10948151b2cb82fa190ec88cdf52e8ab8db469acf4c3c7baaf13096f1a17a78c"
+  },
+  "rules": [
+    {
+      "text": "Once per Combat, in place of an attack,",
+      "baseline": 1049.3,
+      "width": 761.98175,
+      "icon_inline": true
+    },
+    {
+      "text": "you may banish the top card of your discard pile",
+      "baseline": 1108.3,
+      "width": 856.9609999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "to raise your anger 1 level, or 2 levels instead",
+      "baseline": 1167.3,
+      "width": 801.5910000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "if it is a Red Style card.",
+      "baseline": 1226.3,
+      "width": 408.21900000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        258.963,
+        44.5,
+        541.074,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        786.16,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.959,
+        1392.65,
+        62.381,
+        33.708
+      ],
+      "rules-line-1": [
+        216.589,
+        1013.53,
+        693.082,
+        44.884
+      ],
+      "rules-line-2": [
+        102.0,
+        1072.53,
+        855.001,
+        45.521
+      ],
+      "rules-line-3": [
+        129.954,
+        1131.53,
+        799.092,
+        45.913
+      ],
+      "rules-line-4": [
+        326.909,
+        1190.53,
+        405.181,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "O",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          149.329,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          216.589,
+          1014.61,
+          19.845,
+          35.084
+        ],
+        "new_visible_bounds": [
+          149.329,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-144-red-style-mastery.webp",
+      "before_url": "/assets/cards/trunks-144-red-style-mastery.webp?v=feb26d584c12",
+      "before_sha256": "feb26d584c12437a845a937854daf341d2ee4f23d85528462e3ccc44d5ba68e9",
+      "after_sha256": "9ce4a11761743e29a858c8e378294b9e75292c68deca9a451056e4c161e13993",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-144-red-style-mastery.webp",
+      "before_url": "/assets/cards/downloads/trunks-144-red-style-mastery.webp?v=0a9c9c51db23",
+      "before_sha256": "0a9c9c51db238774e89621091e4121a30f6aaa9f66bf8e10f32eb30bf9c5aa7e",
+      "after_sha256": "3c72b35474509dc51ecba9348460160846cf28f52b49c31af077365e3254c074",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 541.0735660847881,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

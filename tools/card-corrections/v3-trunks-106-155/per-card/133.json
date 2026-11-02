@@ -1,0 +1,207 @@
+{
+  "personality_values": null,
+  "number": 133,
+  "id": "trunks-133-roshis-thoughts",
+  "name": "Roshi's Thoughts",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-133-roshis-thoughts.svg",
+  "native_source_sha256": "a947a6688cfab227e5e11cb68054ebb35ebc4530455a43d2ff4b33f208963d30",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5692a6b5c6500abdc3dce31b0d567b871aad0a198297b6421d21e5e8666984c4.png",
+      "sha256": "5692a6b5c6500abdc3dce31b0d567b871aad0a198297b6421d21e5e8666984c4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "5692a6b5c6500abdc3dce31b0d567b871aad0a198297b6421d21e5e8666984c4",
+    "source_native_sha256": "f23c4aa64e5e998414650309876eec14c95fcc5ff05d6c1c845144eb15dca619",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Place the top 2 cards of your discard",
+      "baseline": 1049.3,
+      "width": 801.444,
+      "icon_inline": false
+    },
+    {
+      "text": "pile on the bottom of your Life Deck.",
+      "baseline": 1108.3,
+      "width": 643.566,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish the top 2 cards of your opponent's",
+      "baseline": 1167.3,
+      "width": 737.6460000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile.",
+      "baseline": 1226.3,
+      "width": 218.54000000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        274.019,
+        44.5,
+        510.961,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.386,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.185,
+        1392.65,
+        57.929,
+        33.708
+      ],
+      "rules-line-1": [
+        130.763,
+        1013.53,
+        797.475,
+        45.521
+      ],
+      "rules-line-2": [
+        209.505,
+        1072.53,
+        639.989,
+        45.521
+      ],
+      "rules-line-3": [
+        162.171,
+        1131.53,
+        734.657,
+        45.521
+      ],
+      "rules-line-4": [
+        421.774,
+        1190.53,
+        215.453,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-133-roshis-thoughts.webp",
+      "before_url": "/assets/cards/trunks-133-roshis-thoughts.webp?v=ce5e26c9af95",
+      "before_sha256": "ce5e26c9af955399418b90959ca5c02df6c655c34b4cd3af1c58b1f6a5697956",
+      "after_sha256": "eb1fb5258f8deec4d2ca52bdd0c48decadd9b8412a820c05e004e23c226b154d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-133-roshis-thoughts.webp",
+      "before_url": "/assets/cards/downloads/trunks-133-roshis-thoughts.webp?v=de97f962fd01",
+      "before_sha256": "de97f962fd019c8d2b6cc604e97f9263265d23d4200137f96a0ae5f2f46b9437",
+      "after_sha256": "18a1ceaae36e3f91312f53caccf9621e6ca20a9f15ca57354c577e3c86afc8f0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 510.96134663341655,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

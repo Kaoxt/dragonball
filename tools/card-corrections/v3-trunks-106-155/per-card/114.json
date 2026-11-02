@@ -1,0 +1,177 @@
+{
+  "personality_values": null,
+  "number": 114,
+  "id": "trunks-114-namek-dragon-ball-7",
+  "name": "Namek Dragon Ball 7",
+  "family": "DRAGON BALL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-114-namek-dragon-ball-7.svg",
+  "native_source_sha256": "3f5ae4d6053fc50daafe8fe894c2a42c1fd5a9f9167651592f2e63c5802d6cba",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5.png",
+      "sha256": "88807481197c253dfc95aa56a9f699fd8162ba7490911018cc78276361191be5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    }
+  ],
+  "artwork": {
+    "mode": "approved current front-facing Porunga full art",
+    "source_native_sha256": "3735ef21bf380390f050f4959bed59b8e16f29eefa465e25ee3db3c1b27b65b6",
+    "artwork_bytes_retained": true,
+    "approved_artwork_exception": true,
+    "additional_zoom": false,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "background_gain": 1
+  },
+  "rules": [
+    {
+      "text": "POWER: Capture any other Dragon Ball.",
+      "baseline": 1049.3,
+      "width": 688.744,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        220.592,
+        44.5,
+        617.817,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "dragon-ball-left-emblem": [
+        12.0,
+        769.0,
+        236.0,
+        236.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        790.479,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        850.279,
+        1392.65,
+        53.742,
+        33.708
+      ],
+      "rules-line-1": [
+        186.965,
+        1014.61,
+        685.069,
+        44.835
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-114-namek-dragon-ball-7.webp",
+      "before_url": "/assets/cards/trunks-114-namek-dragon-ball-7.webp?v=c189c74bdaac",
+      "before_sha256": "c189c74bdaac25d49c96f5c50a664fa42ab5a4925cf6ffc00825e261db6d679d",
+      "after_sha256": "11a6424aa82fe82cf263f3a9447bef39c49d6cea8bea98b334e87e186c244eef",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-114-namek-dragon-ball-7.webp",
+      "before_url": "/assets/cards/downloads/trunks-114-namek-dragon-ball-7.webp?v=2727a7b683cf",
+      "before_sha256": "2727a7b683cffdfb9981c551f64baf3e71b4114ae0e96f4bc36d3e572ead3bcb",
+      "after_sha256": "be8d623a25b181d45a47d7edbd3a64c8aa665ba8ff28605eb5b4e667f74c0560",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 617.8167082294265,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

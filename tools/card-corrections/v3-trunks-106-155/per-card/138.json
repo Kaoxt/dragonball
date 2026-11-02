@@ -1,0 +1,225 @@
+{
+  "personality_values": null,
+  "number": 138,
+  "id": "trunks-138-orange-energy-dan-drill",
+  "name": "Orange Energy Dan Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-138-orange-energy-dan-drill.svg",
+  "native_source_sha256": "5b8a6da2278e23c4d89c419d1c211973ec7168272df27040646d609fc7c763b8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/af7ba6a37e137aadcf755ac0b4b244640b1b627e78c248d5efcea1adba7df99d.png",
+      "sha256": "af7ba6a37e137aadcf755ac0b4b244640b1b627e78c248d5efcea1adba7df99d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "af7ba6a37e137aadcf755ac0b4b244640b1b627e78c248d5efcea1adba7df99d",
+    "source_native_sha256": "a50c0e6ee1dc12e4830b7079bbf3c09406135f84a918ffc879496a3888918517",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Once per Combat, after your energy",
+      "baseline": 1049.3,
+      "width": 698.1837500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "attack is successful, search the defender's",
+      "baseline": 1108.3,
+      "width": 767.4380000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a card and discard it.",
+      "baseline": 1167.3,
+      "width": 613.921,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        177.015,
+        44.5,
+        704.97,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        247.998,
+        1014.61,
+        630.264,
+        44.835
+      ],
+      "rules-line-2": [
+        146.761,
+        1072.53,
+        765.478,
+        40.572
+      ],
+      "rules-line-3": [
+        224.401,
+        1131.53,
+        610.197,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "O",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.738,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          247.998,
+          1014.61,
+          19.845,
+          35.084
+        ],
+        "new_visible_bounds": [
+          180.738,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-138-orange-energy-dan-drill.webp",
+      "before_url": "/assets/cards/trunks-138-orange-energy-dan-drill.webp?v=ae2e79b85f01",
+      "before_sha256": "ae2e79b85f0174388bcc4aaa3b954b77de9faa583da83d6111819953eaf02ea2",
+      "after_sha256": "92a9b0c659747f12d0e4aa24df6de2b2b7614c807a7107cf88b311dcec508192",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-138-orange-energy-dan-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-138-orange-energy-dan-drill.webp?v=b3ff24c89da2",
+      "before_sha256": "b3ff24c89da29b38d15b12a323fed6e8910d00e6306c14498a4f693f050a9d2a",
+      "after_sha256": "9682ba779bf7afb8ad8e6237c7b4c7e96ac17980b910b221ad1b609b77958292",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 704.9700748129677,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

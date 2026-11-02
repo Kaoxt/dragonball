@@ -1,0 +1,219 @@
+{
+  "personality_values": null,
+  "number": 118,
+  "id": "trunks-118-what-was-i-thinking",
+  "name": "What Was I Thinking",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-118-what-was-i-thinking.svg",
+  "native_source_sha256": "c64ca20b70663a155d2dabf1e7ac7391c9bec02e80bf57baf432b64d7e7b9fa3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fe0aeb9a8b5918add7b525d818a7629d225ce6462ee6264988b3aeb70c413e45.png",
+      "sha256": "fe0aeb9a8b5918add7b525d818a7629d225ce6462ee6264988b3aeb70c413e45"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "fe0aeb9a8b5918add7b525d818a7629d225ce6462ee6264988b3aeb70c413e45",
+    "source_native_sha256": "523d1509ed52238e0c89bc8120cb0e36c2b7356a0778279398b3a9204d26eb48",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: When entering Combat as",
+      "baseline": 1049.3,
+      "width": 602.3080000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the defender, search your Life Deck for",
+      "baseline": 1108.3,
+      "width": 697.025,
+      "icon_inline": false
+    },
+    {
+      "text": "an Ally and put it in play at its highest stage.",
+      "baseline": 1167.3,
+      "width": 786.1070000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "It immediately takes control of Combat",
+      "baseline": 1226.3,
+      "width": 691.9290000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and may use its When entering Combat powers.",
+      "baseline": 1285.3,
+      "width": 843.78,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        219.129,
+        44.5,
+        620.742,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        229.816,
+        1013.53,
+        599.368,
+        45.913
+      ],
+      "rules-line-2": [
+        181.492,
+        1072.53,
+        696.016,
+        45.521
+      ],
+      "rules-line-3": [
+        137.794,
+        1131.53,
+        783.412,
+        45.913
+      ],
+      "rules-line-4": [
+        185.079,
+        1190.53,
+        688.842,
+        45.521
+      ],
+      "rules-line-5": [
+        108.958,
+        1249.53,
+        841.085,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-118-what-was-i-thinking.webp",
+      "before_url": "/assets/cards/trunks-118-what-was-i-thinking.webp?v=119dc5a88e4b",
+      "before_sha256": "119dc5a88e4b73e13e776fae08d420055fb4e753dcce24bbd19c9d6fdc163e03",
+      "after_sha256": "7e80f9294300acdb34ffe0148cba4f6809104503814fa0421e672845d9b49e4e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-118-what-was-i-thinking.webp",
+      "before_url": "/assets/cards/downloads/trunks-118-what-was-i-thinking.webp?v=eee8cc939cf9",
+      "before_sha256": "eee8cc939cf95f1dc82a6d55c30fb01c9cafe06f42f1fd3d61a7c9658a85e544",
+      "after_sha256": "1d64b963be6cc923f3dfde0d4072030f0419a98b00f38fd52f9ef470537fc7b5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 620.7418952618455,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

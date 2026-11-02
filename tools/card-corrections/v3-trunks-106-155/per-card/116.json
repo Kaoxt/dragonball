@@ -1,0 +1,183 @@
+{
+  "personality_values": null,
+  "number": 116,
+  "id": "trunks-116-guru-fades",
+  "name": "Guru Fades",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-116-guru-fades.svg",
+  "native_source_sha256": "efc4626a8d0bb55014e934d9345d77100287afb5a2834e9878d274892ea6d35d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7436d4e3b2a8eea40b09bf89e5ef940e0d4912f275c3c40ce378818677b7e796.png",
+      "sha256": "7436d4e3b2a8eea40b09bf89e5ef940e0d4912f275c3c40ce378818677b7e796"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "7436d4e3b2a8eea40b09bf89e5ef940e0d4912f275c3c40ce378818677b7e796",
+    "source_native_sha256": "f4700928392da2a07d643d708af3cfd880e9c365e4716d91b589c5e6a444aa2e",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Banish all Namek Dragon Balls",
+      "baseline": 1049.3,
+      "width": 683.942,
+      "icon_inline": false
+    },
+    {
+      "text": "in play and in all players' Life Decks.",
+      "baseline": 1108.3,
+      "width": 643.7130000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        364.27,
+        50.2213,
+        330.46,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        188.999,
+        1013.53,
+        681.002,
+        45.913
+      ],
+      "rules-line-2": [
+        209.162,
+        1072.53,
+        640.675,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-116-guru-fades.webp",
+      "before_url": "/assets/cards/trunks-116-guru-fades.webp?v=11002ddb672d",
+      "before_sha256": "11002ddb672da34e9bcf585beb720c558668e66109e71d1c1c1e31a2f7678583",
+      "after_sha256": "0a6db035635a4c6a31281ba94da8088a37a83e6e4ad1ab94f16dea8c146e3ecd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-116-guru-fades.webp",
+      "before_url": "/assets/cards/downloads/trunks-116-guru-fades.webp?v=f883b1f66a05",
+      "before_sha256": "f883b1f66a0548fb1f2a79aa2d6ea4ac134004cf1624b94a5a7045d83ecc6623",
+      "after_sha256": "9b0e650b427b6dc7575cfd7bbd6eca050093e99056c5f57ee7818928b4d60cc7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 330.4600997506235,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

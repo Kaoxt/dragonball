@@ -1,0 +1,219 @@
+{
+  "personality_values": null,
+  "number": 126,
+  "id": "trunks-126-vegeta-scans-the-city",
+  "name": "Vegeta Scans The City",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-126-vegeta-scans-the-city.svg",
+  "native_source_sha256": "c2d59ad068cefd2adca51e57bbc49a83fa65281e56d146e25c43b6224fa2fc02",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/878b5aebc5e7f8411b85afd40204fa1dd9b4bffabccec9500784281df788da84.png",
+      "sha256": "878b5aebc5e7f8411b85afd40204fa1dd9b4bffabccec9500784281df788da84"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "878b5aebc5e7f8411b85afd40204fa1dd9b4bffabccec9500784281df788da84",
+    "source_native_sha256": "c4cd34dda927f779572299400b813a2031b4e31c412c035f9eb6b98f160a90a4",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: Lower an opponent's",
+      "baseline": 1049.3,
+      "width": 815.2130000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Level 2 or higher Main Personality 1 level.",
+      "baseline": 1108.3,
+      "width": 728.532,
+      "icon_inline": false
+    },
+    {
+      "text": "You may also use this when they would",
+      "baseline": 1167.3,
+      "width": 694.624,
+      "icon_inline": false
+    },
+    {
+      "text": "win by Most Powerful Personality Victory",
+      "baseline": 1226.3,
+      "width": 725.641,
+      "icon_inline": false
+    },
+    {
+      "text": "to prevent that win. Banish after use.",
+      "baseline": 1285.3,
+      "width": 660.6179999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        196.588,
+        44.5,
+        665.824,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.121,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.92,
+        1392.65,
+        58.459,
+        33.708
+      ],
+      "rules-line-1": [
+        123.388,
+        1013.53,
+        812.224,
+        44.884
+      ],
+      "rules-line-2": [
+        167.096,
+        1072.53,
+        724.808,
+        45.913
+      ],
+      "rules-line-3": [
+        183.707,
+        1131.53,
+        691.586,
+        45.521
+      ],
+      "rules-line-4": [
+        167.402,
+        1190.53,
+        724.197,
+        45.521
+      ],
+      "rules-line-5": [
+        200.294,
+        1249.53,
+        658.413,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-126-vegeta-scans-the-city.webp",
+      "before_url": "/assets/cards/trunks-126-vegeta-scans-the-city.webp?v=af7e0891f27d",
+      "before_sha256": "af7e0891f27d8ff7800bdbf0420998582713abdd6abacfeb3afb6eeac33116e2",
+      "after_sha256": "99c6efd01d52f575e18c16d20e2aa1ce55288310b964a83f069be7a5a90fe070",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-126-vegeta-scans-the-city.webp",
+      "before_url": "/assets/cards/downloads/trunks-126-vegeta-scans-the-city.webp?v=f6162ef267d6",
+      "before_sha256": "f6162ef267d6b1abaf4936646fbe5b39677a80a2256c4469f21d533f43453ca7",
+      "after_sha256": "438e29eab15126029191fc6e3ff48cc9d4a90658184cfa9986327110433393f0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 665.8241895261847,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

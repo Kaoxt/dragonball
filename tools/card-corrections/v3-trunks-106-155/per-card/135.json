@@ -1,0 +1,195 @@
+{
+  "personality_values": null,
+  "number": 135,
+  "id": "trunks-135-namek-dragon-ball-wish",
+  "name": "Namek Dragon Ball Wish",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-135-namek-dragon-ball-wish.svg",
+  "native_source_sha256": "e9c31ac4bc557a6322ecc2fd32a6c81e42450abb10208bc02a0391ba293d53ea",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0af83b0efeddeb2a47986f22070e887394db425a231b42b00c24413be758d705.png",
+      "sha256": "0af83b0efeddeb2a47986f22070e887394db425a231b42b00c24413be758d705"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "0af83b0efeddeb2a47986f22070e887394db425a231b42b00c24413be758d705",
+    "source_native_sha256": "4498326ed79e3b7a5236ae5c7376208589faa997df3e0f6a1b592e574cca2945",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: End Combat.",
+      "baseline": 1049.3,
+      "width": 668.164,
+      "icon_inline": false
+    },
+    {
+      "text": "Shuffle 3 cards from your discard pile",
+      "baseline": 1108.3,
+      "width": 670.7120000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "into your Life Deck. Banish after use.",
+      "baseline": 1167.3,
+      "width": 655.914,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        160.023,
+        44.5,
+        738.954,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.803,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.602,
+        1392.65,
+        59.095,
+        33.708
+      ],
+      "rules-line-1": [
+        197.28,
+        1013.53,
+        664.44,
+        44.884
+      ],
+      "rules-line-2": [
+        195.467,
+        1072.53,
+        668.066,
+        45.521
+      ],
+      "rules-line-3": [
+        203.062,
+        1131.53,
+        652.876,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-135-namek-dragon-ball-wish.webp",
+      "before_url": "/assets/cards/trunks-135-namek-dragon-ball-wish.webp?v=28eadf552348",
+      "before_sha256": "28eadf552348edb509a47af0ead95a33818788137e559a5896a3b0334e5e149b",
+      "after_sha256": "feca5435637f6af6a0baaae32462ffdbfea35503b87e3c23d3e5b5bb83012acb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-135-namek-dragon-ball-wish.webp",
+      "before_url": "/assets/cards/downloads/trunks-135-namek-dragon-ball-wish.webp?v=489b6c09f791",
+      "before_sha256": "489b6c09f791c0ca817952a78187dfc382a6f87ab3ab5ff6cf46665c68f4caf6",
+      "after_sha256": "11c1c902c971a51834fb2f495c528c6d335899feb9dc5dc6cef42e629852d31e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 738.9538653366585,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

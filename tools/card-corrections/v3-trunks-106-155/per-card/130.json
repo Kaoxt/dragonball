@@ -1,0 +1,225 @@
+{
+  "personality_values": null,
+  "number": 130,
+  "id": "trunks-130-krillins-heat-seeking-blast",
+  "name": "Krillin's Heat Seeking Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-130-krillins-heat-seeking-blast.svg",
+  "native_source_sha256": "f6963e05a95f4a22ba0e03b803d2ae59a243956a67e47879b2855bb68845fa57",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/85dcd84c51baa0c86d99ca8a2d0f99936501f89b36127d80d735b79a6e4f23a2.png",
+      "sha256": "85dcd84c51baa0c86d99ca8a2d0f99936501f89b36127d80d735b79a6e4f23a2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "source_sha256": "85dcd84c51baa0c86d99ca8a2d0f99936501f89b36127d80d735b79a6e4f23a2",
+    "source_native_sha256": "e4c5b0f5ee70aa5174b8d8e06ea82fa4da66fe18519f749f00006e258832f5b3",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. This attack cannot be",
+      "baseline": 1108.3,
+      "width": 773.6610000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "stopped or prevented. Banish after use.",
+      "baseline": 1167.3,
+      "width": 703.836,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.6487,
+        740.0,
+        62.7026
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        144.409,
+        1072.53,
+        770.182,
+        36.162
+      ],
+      "rules-line-3": [
+        178.954,
+        1131.53,
+        701.092,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-130-krillins-heat-seeking-blast.webp",
+      "before_url": "/assets/cards/trunks-130-krillins-heat-seeking-blast.webp?v=62d0c13785d2",
+      "before_sha256": "62d0c13785d2947597ebacb18ca85a41680eb2071c67af6b3f13b1c35a0521d7",
+      "after_sha256": "09d5fd4d39d95014fc9f10123bb5dbed9411b54545839cc9d4f2518236da1c66",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-130-krillins-heat-seeking-blast.webp",
+      "before_url": "/assets/cards/downloads/trunks-130-krillins-heat-seeking-blast.webp?v=0dd77585d57d",
+      "before_sha256": "0dd77585d57d0a65811e2416f25fa8318e7dad255378c28f7121ff5eef913db8",
+      "after_sha256": "3cb2965823fd27f0caccaab6dd57b06f5f25616ba6270849dfa35c0ae361c1f2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 78.18277865821447,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 62.70258848388801,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9087331664331595
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
