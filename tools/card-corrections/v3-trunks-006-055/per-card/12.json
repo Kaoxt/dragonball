@@ -1,0 +1,238 @@
+{
+  "number": 12,
+  "id": "trunks-012-blue-stomach-eruption",
+  "name": "Blue Stomach Eruption",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-012-blue-stomach-eruption.svg",
+  "native_source_sha256": "b39f6fefeb524addfe0579afe5a45f068f7672182762e9419182ef926765d28b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/44a7c6fcabe6e4b4d45be3dc1ce121c08529fb3b9ac15a2f86b1ed9d3d1d77c4.png",
+      "sha256": "44a7c6fcabe6e4b4d45be3dc1ce121c08529fb3b9ac15a2f86b1ed9d3d1d77c4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "44a7c6fcabe6e4b4d45be3dc1ce121c08529fb3b9ac15a2f86b1ed9d3d1d77c4",
+    "source_native_sha256": "45f68bc0ffa5e50504546cc84e5a895b5016350467fbc7bf3d2a24a5ea6ea531",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Lower your opponent's anger 1 level.",
+      "baseline": 1108.3,
+      "width": 646.163,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Stop all your opponent's physical attacks",
+      "baseline": 1167.3,
+      "width": 811.8320000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "this Combat. Banish after use.",
+      "baseline": 1226.3,
+      "width": 534.541,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        190.092,
+        44.5,
+        678.815,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        799.887,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.686,
+        1392.65,
+        34.927,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "rules-line-2": [
+        208.281,
+        1074.0,
+        642.439,
+        44.443
+      ],
+      "rules-line-3": [
+        125.079,
+        1131.53,
+        808.843,
+        45.521
+      ],
+      "rules-line-4": [
+        263.332,
+        1190.53,
+        532.336,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-012-blue-stomach-eruption.webp",
+      "before_url": "/assets/cards/trunks-012-blue-stomach-eruption.webp?v=3f557fd33183",
+      "before_sha256": "3f557fd33183a2cdc8eab82dfad3d90080824895219dced9db0a6502126ffd27",
+      "after_sha256": "9a1b48e3a4bca648c18f9265a3cf0eee208088c3c04d43522fa29ee0a4304848",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp",
+      "before_url": "/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp?v=eafef8dfe1c8",
+      "before_sha256": "eafef8dfe1c821e2db79ed85e9cc7ebf82f05c18580889e517798acd9ef385fc",
+      "after_sha256": "d9fab1385d7fa71b581e6c4a116519b098d3278faf3709c7fb9c87b68ad5c995",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 678.8154613466335,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

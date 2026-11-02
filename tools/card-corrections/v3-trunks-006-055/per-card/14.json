@@ -1,0 +1,226 @@
+{
+  "number": 14,
+  "id": "trunks-014-orange-surprise-blast",
+  "name": "Orange Surprise Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-014-orange-surprise-blast.svg",
+  "native_source_sha256": "b5b2b2850ac1145c89e8402183c9ebed1f5de9de7ce4b32cef38873fa2751b06",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f16317e522365af0a46208b6103173dd51cfa56e45a03d85530da460b861800c.png",
+      "sha256": "f16317e522365af0a46208b6103173dd51cfa56e45a03d85530da460b861800c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "f16317e522365af0a46208b6103173dd51cfa56e45a03d85530da460b861800c",
+    "source_native_sha256": "b761cc79148472910c1535b5dc9b92ed89e2766427ef81431ab7644cd2ff87fe",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: You may banish",
+      "baseline": 1108.3,
+      "width": 748.4260000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "1 of the defender's Drills. Banish after use.",
+      "baseline": 1167.3,
+      "width": 748.3770000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        203.471,
+        44.5,
+        652.059,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        798.164,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.964,
+        1392.65,
+        38.372,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        157.198,
+        1072.53,
+        744.604,
+        45.521
+      ],
+      "rules-line-3": [
+        156.316,
+        1131.53,
+        746.368,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-014-orange-surprise-blast.webp",
+      "before_url": "/assets/cards/trunks-014-orange-surprise-blast.webp?v=91e4c44108e9",
+      "before_sha256": "91e4c44108e9da1dcd4f47c9f47c2ea27817ea1817d132440e4dace4788cad6e",
+      "after_sha256": "f304b5ead5a0e4220eb83c1ea788ca452b4c6fe530962766df2fa25f61549919",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-014-orange-surprise-blast.webp",
+      "before_url": "/assets/cards/downloads/trunks-014-orange-surprise-blast.webp?v=969545b4346c",
+      "before_sha256": "969545b4346c1882da85d1cb8f8caad96581109cc1315081ccad2ea290a806a4",
+      "after_sha256": "46d72b0c7080c2865e43f7001f95db32ea0c6424d810c4ec851ac9863bb0a229",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 652.0586034912719,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

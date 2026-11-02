@@ -1,0 +1,196 @@
+{
+  "number": 44,
+  "id": "trunks-044-chiaotzu-s-psychic-halt",
+  "name": "Chiaotzu's Psychic Halt",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-044-chiaotzu-s-psychic-halt.svg",
+  "native_source_sha256": "7c2956c2e2f2e5618d4b53ecb2f1666acc419f587913cd5a267b37af120af4ea",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/20ab90fcb114b12e7d3b31e476774d52653b3cbbd0d2ccb2151646377c09031e.png",
+      "sha256": "20ab90fcb114b12e7d3b31e476774d52653b3cbbd0d2ccb2151646377c09031e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "20ab90fcb114b12e7d3b31e476774d52653b3cbbd0d2ccb2151646377c09031e",
+    "source_native_sha256": "219604d0e9b199f248023d37fc74ce430678aede2a076617da2036754159abc6",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Your opponent may",
+      "baseline": 1049.3,
+      "width": 821.9259999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "only defend for the rest of this Combat.",
+      "baseline": 1108.3,
+      "width": 696.976,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        178.392,
+        44.5,
+        702.217,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        793.58,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        853.38,
+        1392.65,
+        47.541,
+        33.708
+      ],
+      "rules-line-1": [
+        118.892,
+        1012.11,
+        821.217,
+        46.942
+      ],
+      "rules-line-2": [
+        182.555,
+        1072.53,
+        693.889,
+        45.521
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-044-chiaotzu-s-psychic-halt.webp",
+      "before_url": "/assets/cards/trunks-044-chiaotzu-s-psychic-halt.webp?v=b46eb34da474",
+      "before_sha256": "b46eb34da474af0f65d338b5e2e749ea64c9c4dcd0693375d0bc739f609fd793",
+      "after_sha256": "aba2e498d5df35033982531ff412cabdf3c70e0ac26d0cb062a2f0ced33edc4d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-044-chiaotzu-s-psychic-halt.webp",
+      "before_url": "/assets/cards/downloads/trunks-044-chiaotzu-s-psychic-halt.webp?v=90204ac2d24f",
+      "before_sha256": "90204ac2d24fb80598af36bc30f79b21e1a44f3281256c4771edd1aaebbdbc55",
+      "after_sha256": "85fb38848f72bae57eeb31fe5659ae16219126399b6eee52cae5c0cca41e66a4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 702.2169576059852,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

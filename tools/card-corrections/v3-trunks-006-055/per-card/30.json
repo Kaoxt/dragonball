@@ -1,0 +1,214 @@
+{
+  "number": 30,
+  "id": "trunks-030-black-water-confusion-drill",
+  "name": "Black Water Confusion Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-030-black-water-confusion-drill.svg",
+  "native_source_sha256": "5fbe66c5463fe83de37fca502bc8c19c2009397b49aa461cddb61cb599252adb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/989466be41b67a91177ce3ebc1762aa4c4b900cbd00702d5e391ed88381a5192.png",
+      "sha256": "989466be41b67a91177ce3ebc1762aa4c4b900cbd00702d5e391ed88381a5192"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "989466be41b67a91177ce3ebc1762aa4c4b900cbd00702d5e391ed88381a5192",
+    "source_native_sha256": "fcad01ee18aae63aa11d8e3200bd071f6df65194226edf60cf03272eae99c576",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) No player may play",
+      "baseline": 1049.3,
+      "width": 736.30075,
+      "icon_inline": true
+    },
+    {
+      "text": "Dragon Balls. This is not a Black Style card.",
+      "baseline": 1108.3,
+      "width": 765.9190000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.5436,
+        760.0,
+        52.9129
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.541,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.341,
+        1392.65,
+        43.619,
+        33.708
+      ],
+      "rules-line-1": [
+        161.704,
+        1012.11,
+        735.592,
+        46.942
+      ],
+      "rules-line-2": [
+        148.402,
+        1072.53,
+        762.195,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "N",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          493.674,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          561.424,
+          1015.0,
+          20.874,
+          34.3
+        ],
+        "new_visible_bounds": [
+          493.674,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-030-black-water-confusion-drill.webp",
+      "before_url": "/assets/cards/trunks-030-black-water-confusion-drill.webp?v=9f682a8f492b",
+      "before_sha256": "9f682a8f492bb6a7e496ec8928f683aecf4f61492e6e87f58e17209d85c40507",
+      "after_sha256": "c2de66185c1b1490ded23d2254c625c7d0f8fc6e8b57afbe27d6b0dfcc71ec38",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-030-black-water-confusion-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-030-black-water-confusion-drill.webp?v=91b4cb71633b",
+      "before_sha256": "91b4cb71633b34be0f57d20cb2cd204af690e665c47555521a521f9a6765f342",
+      "after_sha256": "9136ee39a660df94a0411d038f0f2ce7f7ac3f97c43ac5945e87be8f664f1b4b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 79.09251743157456,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 52.912894161723386,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9193072315959825
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

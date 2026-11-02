@@ -1,0 +1,226 @@
+{
+  "number": 49,
+  "id": "trunks-049-frieza-s-aura-shot",
+  "name": "Frieza's Aura Shot",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-049-frieza-s-aura-shot.svg",
+  "native_source_sha256": "dae0991ecc8ba5b65dcd58ea704ae35b619b67b07f4c25f3344330cde826589a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5923eef2b24334de3bca68369b4d0c8442d65c24e8e163920199dbbde959ff29.png",
+      "sha256": "5923eef2b24334de3bca68369b4d0c8442d65c24e8e163920199dbbde959ff29"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "5923eef2b24334de3bca68369b4d0c8442d65c24e8e163920199dbbde959ff29",
+    "source_native_sha256": "b760de4c06804611c2e3c82f72f8b8830bf5dff74b532293aa9c8e2fc0efeb9c",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards, or 7 life cards instead",
+      "baseline": 1108.3,
+      "width": 770.9660000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "if Vegeta's Quickness Drill is anywhere in play.",
+      "baseline": 1167.3,
+      "width": 823.641,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        258.533,
+        50.2213,
+        541.934,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        794.746,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.545,
+        1392.65,
+        45.209,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        146.026,
+        1072.53,
+        766.948,
+        40.572
+      ],
+      "rules-line-3": [
+        119.198,
+        1131.53,
+        820.603,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-049-frieza-s-aura-shot.webp",
+      "before_url": "/assets/cards/trunks-049-frieza-s-aura-shot.webp?v=9d641648c578",
+      "before_sha256": "9d641648c57882d1516df78a27362c7cf012a0821eeea5c3b90116aefd794237",
+      "after_sha256": "e1179838822f7292a54d5125c2f48f1bb7d0d3793a3fd8a88c488de9c6be87fc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-049-frieza-s-aura-shot.webp",
+      "before_url": "/assets/cards/downloads/trunks-049-frieza-s-aura-shot.webp?v=5cf7b5282d19",
+      "before_sha256": "5cf7b5282d1936945eac1142e9d889407b4be05e90f7c834130bac0321a440d0",
+      "after_sha256": "acfd403f38e4d0252ab0d3bcefe6cd885bb1dd5368006c3ba6ca9581d6c4221a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 541.9339152119702,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

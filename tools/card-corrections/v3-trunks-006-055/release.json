@@ -1,0 +1,70 @@
+{
+  "scope": "Trunks Saga 006\u2013055",
+  "cards": 50,
+  "exports": 100,
+  "native_template_version": 3,
+  "base_commit": "0eb96e48ccf87a29239eade9f16adeff6b5fbb70",
+  "validation": {
+    "node_tests": 202,
+    "python_tests": 6,
+    "worker_build_dry_run": "passed",
+    "exports_match_render": 100,
+    "minimum_title_brush_clearance": 2.0,
+    "card_type_reference_issues": 0
+  },
+  "footer": {
+    "saga_center": [
+      211.75,
+      1409.5
+    ],
+    "rarity_number_center": [
+      847.25,
+      1409.5
+    ],
+    "ball_number_gap": 12.2,
+    "trunks_mark_height": 54
+  },
+  "approved_artwork_exception": "Namek Dragon Ball 1 retains current frontal Porunga at unchanged scale/colors.",
+  "artwork_corrections_retained": [
+    {
+      "number": 40,
+      "detail": "Existing tighter Tien crop retained."
+    },
+    {
+      "number": 52,
+      "detail": "Existing open-mouth patch retained, with zero unrelated pixel changes in both export sizes."
+    }
+  ],
+  "rules_correction": {
+    "number": 25,
+    "before": "top 3 cards of your discard pile",
+    "after": "top 2 cards of your discard pile",
+    "authority": "Identity-checked original scan; no attached CRD override."
+  },
+  "grammar_only_updates": [
+    10,
+    19,
+    24
+  ],
+  "fine_reference_limits": [
+    7,
+    10,
+    11,
+    12,
+    14,
+    15,
+    22,
+    24,
+    26,
+    27,
+    28,
+    29,
+    43,
+    44,
+    48,
+    50
+  ],
+  "new_style": "Namekian retains established teal-green hue and native \u7121 glyph with current V3 common geometry.",
+  "other_cards_changed": false,
+  "publication": "Local release verified; live deployment checked separately after commit."
+}

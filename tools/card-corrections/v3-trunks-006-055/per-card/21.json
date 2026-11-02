@@ -1,0 +1,226 @@
+{
+  "number": 21,
+  "id": "trunks-021-black-overpowering-attack",
+  "name": "Black Overpowering Attack",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-021-black-overpowering-attack.svg",
+  "native_source_sha256": "c8c75d25a6f5c41517de90bd61c0ea608bdfcea39db9efb3fec259a613589cd4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/22102b83ccb953bfa509b29fa1ce9c2d9b2de01881b4e697585092247f6f5b42.png",
+      "sha256": "22102b83ccb953bfa509b29fa1ce9c2d9b2de01881b4e697585092247f6f5b42"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "22102b83ccb953bfa509b29fa1ce9c2d9b2de01881b4e697585092247f6f5b42",
+    "source_native_sha256": "399b53351e8c6c54414510cea7e0bd459447bfc6e6c761a1fe0da2c9ef7fd18e",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +6 stages.",
+      "baseline": 1049.3,
+      "width": 752.7471555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "You cannot perform physical attacks",
+      "baseline": 1108.3,
+      "width": 657.7760000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of this Combat.",
+      "baseline": 1167.3,
+      "width": 480.00400000000013,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.8266,
+        740.0,
+        62.3469
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        800.496,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        860.296,
+        1392.65,
+        33.708,
+        33.708
+      ],
+      "rules-line-1": [
+        208.457,
+        1013.53,
+        696.633,
+        45.913
+      ],
+      "rules-line-2": [
+        201.616,
+        1072.53,
+        655.767,
+        45.521
+      ],
+      "rules-line-3": [
+        290.723,
+        1131.53,
+        477.554,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          153.91,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.457,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          153.91,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-021-black-overpowering-attack.webp",
+      "before_url": "/assets/cards/trunks-021-black-overpowering-attack.webp?v=34cc21204ef6",
+      "before_sha256": "34cc21204ef62cdc5a5518857eeda0dec248d54887ee15f926b066a3e808cd24",
+      "after_sha256": "0b948132a31f51fb52646a717a27c074c1de470e17fc7105fff44afac302f1de",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-021-black-overpowering-attack.webp",
+      "before_url": "/assets/cards/downloads/trunks-021-black-overpowering-attack.webp?v=eb9359a8d55f",
+      "before_sha256": "eb9359a8d55f209cecdfa32833de4c816d96be4ed3dbb17b867f41679951a171",
+      "after_sha256": "e26a56f10a668e15ca9ba53df850cbc566b001afa69ab4264d2a8b6e7899bf45",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 77.73925832545436,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0000000000001,
+      "visible_height": 62.3468851770144,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9035780460436869
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

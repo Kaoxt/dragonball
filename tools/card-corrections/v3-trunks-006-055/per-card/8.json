@@ -1,0 +1,226 @@
+{
+  "number": 8,
+  "id": "trunks-008-namekian-braced-attack",
+  "name": "Namekian Braced Attack",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-008-namekian-braced-attack.svg",
+  "native_source_sha256": "c1525da12d93ed6a6ad38067a128d4e8aef15da4dd3322756a03b3612a159027",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/47564a9e73199ffa1e760623b2b69606f507af8b285df3910c296cff19e9091e.png",
+      "sha256": "47564a9e73199ffa1e760623b2b69606f507af8b285df3910c296cff19e9091e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "47564a9e73199ffa1e760623b2b69606f507af8b285df3910c296cff19e9091e",
+    "source_native_sha256": "47cf9ab296c0fee342d36a5ef1a36815980b5dfc850b8d02c13c12cae84154ee",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 6 per deck.) Piccolo and Nail only.",
+      "baseline": 1049.3,
+      "width": 715.4979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1108.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Gain 4 stages.",
+      "baseline": 1167.3,
+      "width": 332.07300000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        158.087,
+        50.2213,
+        742.825,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        807.333,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.133,
+        1392.65,
+        20.034,
+        33.708
+      ],
+      "rules-line-1": [
+        172.56,
+        1012.11,
+        713.881,
+        46.942
+      ],
+      "rules-line-2": [
+        234.868,
+        1072.53,
+        643.811,
+        45.913
+      ],
+      "rules-line-3": [
+        365.325,
+        1131.53,
+        328.349,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-008-namekian-braced-attack.webp",
+      "before_url": "/assets/cards/trunks-008-namekian-braced-attack.webp?v=0b6a9a18984c",
+      "before_sha256": "0b6a9a18984c27e3eb0fc0b0c2d3e653293775c5a846e2e03950f3d405be11ac",
+      "after_sha256": "aa72bd947612829f0f8ead47d5a5d3ab645e1d6801cec92ce0b6d2530d94669f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-008-namekian-braced-attack.webp",
+      "before_url": "/assets/cards/downloads/trunks-008-namekian-braced-attack.webp?v=72a56cf4fd3f",
+      "before_sha256": "72a56cf4fd3f01b2f7e359a76ca1e279d8ae0aa3cf0a4ec6c3cdbdda39bd88aa",
+      "after_sha256": "475672cab66058f83c5eb67bac448e8cd7d71abd5af7b394a7cd245a15fe76a1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 742.8254364089777,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

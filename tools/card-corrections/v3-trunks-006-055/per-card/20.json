@@ -1,0 +1,226 @@
+{
+  "number": 20,
+  "id": "trunks-020-black-defensive-burst",
+  "name": "Black Defensive Burst",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-020-black-defensive-burst.svg",
+  "native_source_sha256": "af62a51e4400a382814943b544e3196a1afe2ac5c058068f427623128722d167",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cccda56a6d15f06a04beb664ffda3f1403f6cf9a0eb678f75ae01d13990a4bbd.png",
+      "sha256": "cccda56a6d15f06a04beb664ffda3f1403f6cf9a0eb678f75ae01d13990a4bbd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "cccda56a6d15f06a04beb664ffda3f1403f6cf9a0eb678f75ae01d13990a4bbd",
+    "source_native_sha256": "417dafb37820f77c60dbc0049d4bd964e5ceb276e9029a266db864d04f0024c9",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 3 life cards.",
+      "baseline": 1049.3,
+      "width": 723.0041555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Your opponent cannot perform physical",
+      "baseline": 1108.3,
+      "width": 785.6170000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks for the rest of this Combat.",
+      "baseline": 1167.3,
+      "width": 625.4850000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        198.954,
+        50.2213,
+        661.092,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.912,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.712,
+        1392.65,
+        42.877,
+        33.708
+      ],
+      "rules-line-1": [
+        223.328,
+        1013.53,
+        666.89,
+        45.521
+      ],
+      "rules-line-2": [
+        138.602,
+        1072.53,
+        781.795,
+        45.521
+      ],
+      "rules-line-3": [
+        218.105,
+        1131.53,
+        622.79,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          168.782,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          223.328,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          168.782,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-020-black-defensive-burst.webp",
+      "before_url": "/assets/cards/trunks-020-black-defensive-burst.webp?v=27fda9d72da3",
+      "before_sha256": "27fda9d72da352e10cfc03b6b74aadc766eb5673563b01276985a80776ecc3ba",
+      "after_sha256": "868d7b1a5a85c48fe390e12e308cf6de08eb9c47b0935d850a2f7d14a87a5243",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-020-black-defensive-burst.webp",
+      "before_url": "/assets/cards/downloads/trunks-020-black-defensive-burst.webp?v=8f9b10c20ee7",
+      "before_sha256": "8f9b10c20ee7b7658f4214c5464e37ad2cc2c13e5b5843483fb6dce3360540a3",
+      "after_sha256": "625b9e0a96e94629031b8724c5cc7f070a094eb45dd49e35c17373c8e6109845",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 661.0922693266834,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

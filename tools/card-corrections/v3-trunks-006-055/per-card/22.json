@@ -1,0 +1,208 @@
+{
+  "number": 22,
+  "id": "trunks-022-red-blazing-aura",
+  "name": "Red Blazing Aura",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-022-red-blazing-aura.svg",
+  "native_source_sha256": "40d61b7117f09f20c220988478d34c6310a8543ffb2a455a1bfb95f4f957ec05",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bda979b8a2d6788db8a0ba1e88c02ccd90229ec4c95111ad0f7838b123d3a824.png",
+      "sha256": "bda979b8a2d6788db8a0ba1e88c02ccd90229ec4c95111ad0f7838b123d3a824"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "bda979b8a2d6788db8a0ba1e88c02ccd90229ec4c95111ad0f7838b123d3a824",
+    "source_native_sha256": "e51186349f35c865d82eae8531c6ff6315d8c3803dc680bc92e839ed07c19527",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use as a defense. Choose stages or",
+      "baseline": 1049.3,
+      "width": 775.2779999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "life cards. Attacks against you deal 2 less",
+      "baseline": 1108.3,
+      "width": 740.292,
+      "icon_inline": false
+    },
+    {
+      "text": "damage of that type this Combat.",
+      "baseline": 1167.3,
+      "width": 590.7930000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        278.235,
+        44.5,
+        502.53,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.707,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.507,
+        1392.65,
+        41.287,
+        33.708
+      ],
+      "rules-line-1": [
+        143.101,
+        1014.61,
+        772.799,
+        44.835
+      ],
+      "rules-line-2": [
+        160.603,
+        1072.53,
+        737.793,
+        45.913
+      ],
+      "rules-line-3": [
+        235.647,
+        1131.53,
+        587.706,
+        45.913
+      ],
+      "rules-line-4": [
+        317.06,
+        1190.53,
+        424.879,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-022-red-blazing-aura.webp",
+      "before_url": "/assets/cards/trunks-022-red-blazing-aura.webp?v=fcecfcf48b2b",
+      "before_sha256": "fcecfcf48b2ba044e9d8ae14795138d6f49a0eb9284d103d2f33cbfaa3bacfc4",
+      "after_sha256": "8e74a58bdce7e8b45004721b31e4b0d53be9212daffb3d28281e94a67f6dfdab",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-022-red-blazing-aura.webp",
+      "before_url": "/assets/cards/downloads/trunks-022-red-blazing-aura.webp?v=2955d548b541",
+      "before_sha256": "2955d548b541e0628a24e93d817764e0ba25b81ae1b8525722d6f1a688f7fc24",
+      "after_sha256": "9a62376db869c99b65fb3b54802f4288998a9d5178b731bed256d9792671aff1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 502.5299251870325,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

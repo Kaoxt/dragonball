@@ -1,0 +1,184 @@
+{
+  "number": 33,
+  "id": "trunks-033-garlic-jr-s-black-water-mist",
+  "name": "Garlic Jr's Black Water Mist",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-033-garlic-jr-s-black-water-mist.svg",
+  "native_source_sha256": "e5f472ee48aee3af1f6c01ff9c084e213354a176856c566c8fb1428cf417049f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e7a15cedbed266cdf9594365e8cb920bd49e3406d88339326953b3235205a7d4.png",
+      "sha256": "e7a15cedbed266cdf9594365e8cb920bd49e3406d88339326953b3235205a7d4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "e7a15cedbed266cdf9594365e8cb920bd49e3406d88339326953b3235205a7d4",
+    "source_native_sha256": "646b36227dc854563877bf0bdedaebe693317c482ff17bbb2abe03c7f7b221da",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Banish 1 of your opponent's Allies.",
+      "baseline": 1049.3,
+      "width": 748.9649999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "If it is banished, raise your anger 2 levels.",
+      "baseline": 1108.3,
+      "width": 742.007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.7918,
+        760.0,
+        52.4165
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.256,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.056,
+        1392.65,
+        42.188,
+        33.708
+      ],
+      "rules-line-1": [
+        156.855,
+        1013.53,
+        745.29,
+        45.521
+      ],
+      "rules-line-2": [
+        160.359,
+        1072.53,
+        738.283,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-033-garlic-jr-s-black-water-mist.webp",
+      "before_url": "/assets/cards/trunks-033-garlic-jr-s-black-water-mist.webp?v=444cac057bc4",
+      "before_sha256": "444cac057bc44fae1ff12bcce4572e9c7c3e77650ab63ea167e9c5aa93e442d4",
+      "after_sha256": "2d1dd46c74e45c06a37bc630099926b21960f95d4ceeb3dca157b59de6965553",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-033-garlic-jr-s-black-water-mist.webp",
+      "before_url": "/assets/cards/downloads/trunks-033-garlic-jr-s-black-water-mist.webp?v=3f958fb56a94",
+      "before_sha256": "3f958fb56a945c28b23427e0f3864d16d3fcb74a1408705a5946821fc8918555",
+      "after_sha256": "1141b7bd08021a94ee8aabebf1d0dd5c97d9a769c23c67fa5d195b335a9dc5b6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 78.35051546391753,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 52.41649484536082,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9106828029284327
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -16,7 +16,7 @@ const rows=json(base+'audit.json'),data=json(base+'cards.json');
 test('Trunks 1–5 retain game data and artwork with current V3 text, footer and exports',()=>{
  const checks=json(base+'render-verification.json');
  assert.deepEqual(rows.map(r=>r.number),[1,2,3,4,5]);assert.equal(checks.length,5);
- assert.deepEqual(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3).map(c=>Number(c.number)),[1,2,3,4,5]);
+ assert.deepEqual(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3&&Number(c.number)<=5).map(c=>Number(c.number)),[1,2,3,4,5]);
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));

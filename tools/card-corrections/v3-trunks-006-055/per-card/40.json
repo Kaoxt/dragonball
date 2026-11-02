@@ -1,0 +1,184 @@
+{
+  "number": 40,
+  "id": "trunks-040-tien-s-ready",
+  "name": "Tien's Ready",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-040-tien-s-ready.svg",
+  "native_source_sha256": "157595b4c22f705dfd523cc5e0fd7367b55490fad37acdff737f26a79db04333",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/78fa866b3bf672be63123eddf272a6a5d70ecaaadb98fa1f24843b3406a02757.png",
+      "sha256": "78fa866b3bf672be63123eddf272a6a5d70ecaaadb98fa1f24843b3406a02757"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": true,
+    "mode": "retained approved illustration",
+    "source_sha256": "78fa866b3bf672be63123eddf272a6a5d70ecaaadb98fa1f24843b3406a02757",
+    "source_native_sha256": "9c69d74cdaa88adf4fbe1f628f5a81ab4217a96d6bd3b414050d41475fffd48b",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Raise any Ally to its highest power stage.",
+      "baseline": 1049.3,
+      "width": 876.806,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1108.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        338.287,
+        44.5,
+        382.425,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        794.507,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.307,
+        1392.65,
+        45.686,
+        33.708
+      ],
+      "rules-line-1": [
+        92.9345,
+        1013.53,
+        873.131,
+        45.913
+      ],
+      "rules-line-2": [
+        380.589,
+        1072.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-040-tien-s-ready.webp",
+      "before_url": "/assets/cards/trunks-040-tien-s-ready.webp?v=ff716c84b824",
+      "before_sha256": "ff716c84b824d84ca04587f3c9fbb90c647436bbf0a5021ec47e712f49b95fcb",
+      "after_sha256": "fc000aca2ea90e7bcf6d81051b4eef2368412187a0af3d1105a4d25ec087e2dc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-040-tien-s-ready.webp",
+      "before_url": "/assets/cards/downloads/trunks-040-tien-s-ready.webp?v=3ec6dbeb4ccf",
+      "before_sha256": "3ec6dbeb4ccf5f34cdfe20145a6350d2ce533c8c502d1e9d7902713e0f4485fc",
+      "after_sha256": "7c5b1a67b1155e347e1a47a41899378569e9043c357d1804162778f8ed94c990",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 382.425187032419,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "number": 7,
+  "id": "trunks-007-namekian-glare-attack",
+  "name": "Namekian Glare Attack",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-007-namekian-glare-attack.svg",
+  "native_source_sha256": "c6ef7b9c24c97123ae683519f90c857f75354054c2d7153e55fe58be2e708dcb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a4c580ff01b71c0d8dfb302aae3781c294f429f327297c8156dd00bf38ef4c4.png",
+      "sha256": "1a4c580ff01b71c0d8dfb302aae3781c294f429f327297c8156dd00bf38ef4c4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "1a4c580ff01b71c0d8dfb302aae3781c294f429f327297c8156dd00bf38ef4c4",
+    "source_native_sha256": "3e0252ea960dccb65a3cb02602b2b0517d63679c40795ad3887772572485d741",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 844.7641555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        185.791,
+        50.2213,
+        687.419,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        807.863,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.663,
+        1392.65,
+        18.974,
+        33.708
+      ],
+      "rules-line-1": [
+        108.98,
+        1013.53,
+        841.04,
+        45.913
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-3": [
+        194.414,
+        1132.61,
+        670.173,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          338.05,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          392.645,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          338.05,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-007-namekian-glare-attack.webp",
+      "before_url": "/assets/cards/trunks-007-namekian-glare-attack.webp?v=130771785800",
+      "before_sha256": "13077178580031cfe99c60e7c14da7021b341e3a44e7fa2e89eddaeb2397b179",
+      "after_sha256": "0c5f733fe935361fa274e9a4dc469fb6567966cce207f76ce264758ff9389430",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-007-namekian-glare-attack.webp",
+      "before_url": "/assets/cards/downloads/trunks-007-namekian-glare-attack.webp?v=49855db2ae0e",
+      "before_sha256": "49855db2ae0e17239730c833cb1b5c796b1058b83de4bdfc2c21eff40099f8a8",
+      "after_sha256": "f306e5b97bf2acb6165f4064f9bf0eea7222a1a7d41f28725cf91ea652109f01",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 687.418952618454,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

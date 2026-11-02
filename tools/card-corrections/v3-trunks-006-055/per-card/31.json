@@ -1,0 +1,226 @@
+{
+  "number": 31,
+  "id": "trunks-031-garlic-jr-s-kyokaika-technique",
+  "name": "Garlic Jr's Kyokaika Technique",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-031-garlic-jr-s-kyokaika-technique.svg",
+  "native_source_sha256": "fd9c00ff7eb5005896775a2904237e0be2a3da7222f91b3ee18186a0d071e76e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8b552a648ae3c7e439945753f829b7d10b1a072e674d51fd42b141b8d1d4c66d.png",
+      "sha256": "8b552a648ae3c7e439945753f829b7d10b1a072e674d51fd42b141b8d1d4c66d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "8b552a648ae3c7e439945753f829b7d10b1a072e674d51fd42b141b8d1d4c66d",
+    "source_native_sha256": "18f861817bec42293d862c69161cb63a4434fc8648dba57a44cada184bb2865c",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck unless your Main Personality",
+      "baseline": 1049.3,
+      "width": 811.9300000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "is Garlic Jr.) Physical attack.",
+      "baseline": 1108.3,
+      "width": 567.9141555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 7 stages. Banish after use.",
+      "baseline": 1167.3,
+      "width": 636.51,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        50.6555,
+        760.0,
+        56.689
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        123.89,
+        1012.11,
+        811.221,
+        46.942
+      ],
+      "rules-line-2": [
+        247.062,
+        1071.11,
+        564.876,
+        46.942
+      ],
+      "rules-line-3": [
+        213.107,
+        1131.53,
+        632.786,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 12,
+        "previous_visible_bounds": [
+          475.152,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          529.698,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          475.152,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-031-garlic-jr-s-kyokaika-technique.webp",
+      "before_url": "/assets/cards/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=db0b9befcb60",
+      "before_sha256": "db0b9befcb6071fcf90b47d1ae7a4b67ac4f269c3ce681295393f55fae3c98a7",
+      "after_sha256": "a455eb5a4f7814247021a7b3aa2001e1ed7edbcc03d36db4c851ca94298522c8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-031-garlic-jr-s-kyokaika-technique.webp",
+      "before_url": "/assets/cards/downloads/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=88eef42e1d56",
+      "before_sha256": "88eef42e1d5695f6e4774584beeb837e0686df1d9709d5a01aeb4515b4d71e9f",
+      "after_sha256": "e8278a85d6a624eecdfd536d746660f33ba2e51183bf7122b64e226ef6df7719",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 70.68452380952381,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 56.688988095238095,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8215795376121463
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

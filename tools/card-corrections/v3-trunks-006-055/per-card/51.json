@@ -1,0 +1,184 @@
+{
+  "number": 51,
+  "id": "trunks-051-frieza-s-powering-rage",
+  "name": "Frieza's Powering Rage",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-051-frieza-s-powering-rage.svg",
+  "native_source_sha256": "2a2eb904ecf700d9eb07959389720c97104fe8f4c52db1d901e1429b326caf6f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3dd5bbdb512f687d4f06c51889ba3fbbd4eeb7d643f329537dd810913d6efca6.png",
+      "sha256": "3dd5bbdb512f687d4f06c51889ba3fbbd4eeb7d643f329537dd810913d6efca6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "3dd5bbdb512f687d4f06c51889ba3fbbd4eeb7d643f329537dd810913d6efca6",
+    "source_native_sha256": "09321532d35b8fca2745291e784dfb43f535c517a0aa88e707cd595fd8b25be5",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Villains only. POWER: Any Villain Personality",
+      "baseline": 1049.3,
+      "width": 779.443,
+      "icon_inline": false
+    },
+    {
+      "text": "gains 5 stages.",
+      "baseline": 1108.3,
+      "width": 267.785,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        178.994,
+        44.5,
+        701.012,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        140.648,
+        1013.53,
+        777.705,
+        45.521
+      ],
+      "rules-line-2": [
+        397.151,
+        1072.53,
+        264.698,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-051-frieza-s-powering-rage.webp",
+      "before_url": "/assets/cards/trunks-051-frieza-s-powering-rage.webp?v=d62dcc5e4537",
+      "before_sha256": "d62dcc5e453706521c90c13cc2f27ee42a8771aaa4f3461f717c9f1ab9f815c3",
+      "after_sha256": "e833bab42f194fa6079046e7ef8dbfee5e7654a917538e9db41897f5eede0c16",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-051-frieza-s-powering-rage.webp",
+      "before_url": "/assets/cards/downloads/trunks-051-frieza-s-powering-rage.webp?v=5993020edbc5",
+      "before_sha256": "5993020edbc5b8df0772160dc8a3a9e304b62fbcdace72ce4c7f5c7f0f9307af",
+      "after_sha256": "13e3581c0bdecbea8cd610f23ee93f77f4dc3bddd50d8b079ea788bdfcd176f3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 701.0124688279303,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

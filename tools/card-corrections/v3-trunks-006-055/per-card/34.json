@@ -1,0 +1,196 @@
+{
+  "number": 34,
+  "id": "trunks-034-krillin-lashes-out",
+  "name": "Krillin Lashes Out",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-034-krillin-lashes-out.svg",
+  "native_source_sha256": "a42d363e4cae2c55a9c3917c7448965db801990764a546c641e1889def67bdeb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7600154bb19d23fc49f9bbfee5983844cb174493dd9f17cc502f7cc923cb40cd.png",
+      "sha256": "7600154bb19d23fc49f9bbfee5983844cb174493dd9f17cc502f7cc923cb40cd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "7600154bb19d23fc49f9bbfee5983844cb174493dd9f17cc502f7cc923cb40cd",
+    "source_native_sha256": "46ab48ffd3e9bbda28a2f44a30e1d6399249eff6c116a0086dc4877f9d7a984e",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Put 1 of your opponent's Allies in play",
+      "baseline": 1049.3,
+      "width": 804.3840000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "on the bottom of their Life Deck",
+      "baseline": 1108.3,
+      "width": 562.5200000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "to lower their anger 3 levels.",
+      "baseline": 1167.3,
+      "width": 507.8850000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        268.728,
+        50.2213,
+        521.544,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        794.613,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.413,
+        1392.65,
+        45.474,
+        33.708
+      ],
+      "rules-line-1": [
+        128.692,
+        1013.53,
+        801.617,
+        45.521
+      ],
+      "rules-line-2": [
+        249.489,
+        1072.53,
+        560.021,
+        36.162
+      ],
+      "rules-line-3": [
+        276.66,
+        1131.53,
+        505.68,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-034-krillin-lashes-out.webp",
+      "before_url": "/assets/cards/trunks-034-krillin-lashes-out.webp?v=4d37950a77c4",
+      "before_sha256": "4d37950a77c4b5ff88ed5f6b46dfbeee9988bf41631e16513cefde33b7d56bb4",
+      "after_sha256": "1dffd491dfb1916e3d197cc43df946d2bafe6448fa8d622e6dcd79f50a48b5a1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-034-krillin-lashes-out.webp",
+      "before_url": "/assets/cards/downloads/trunks-034-krillin-lashes-out.webp?v=13740f13cc78",
+      "before_sha256": "13740f13cc78efe8f650f6d3ac92cdfc8e3abfbf7332dda03876a6f2a05e4454",
+      "after_sha256": "1b6794e59b7040f99ba3de648d51e076ddb0ef59946f43d065a8168048b52e43",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 521.5436408977557,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

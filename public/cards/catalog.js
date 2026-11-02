@@ -6642,13 +6642,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-006-straining-outburst-move.webp?v=61c6f32ac1fe",
+    "image": "/assets/cards/trunks-006-straining-outburst-move.webp?v=a30b032012fe",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-6",
-    "downloadImage": "/assets/cards/downloads/trunks-006-straining-outburst-move.webp?v=c32b5e1dce63",
+    "downloadImage": "/assets/cards/downloads/trunks-006-straining-outburst-move.webp?v=d5c0dda84c9f",
     "rules": "Physical attack costing 2 stages. DAMAGE: 5 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-007-namekian-glare-attack",
@@ -6658,13 +6659,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-007-namekian-glare-attack.webp?v=130771785800",
+    "image": "/assets/cards/trunks-007-namekian-glare-attack.webp?v=0c5f733fe935",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-7",
-    "downloadImage": "/assets/cards/downloads/trunks-007-namekian-glare-attack.webp?v=49855db2ae0e",
+    "downloadImage": "/assets/cards/downloads/trunks-007-namekian-glare-attack.webp?v=f306e5b97bf2",
     "rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-008-namekian-braced-attack",
@@ -6674,13 +6676,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-008-namekian-braced-attack.webp?v=0b6a9a18984c",
+    "image": "/assets/cards/trunks-008-namekian-braced-attack.webp?v=aa72bd947612",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-8",
-    "downloadImage": "/assets/cards/downloads/trunks-008-namekian-braced-attack.webp?v=72a56cf4fd3f",
+    "downloadImage": "/assets/cards/downloads/trunks-008-namekian-braced-attack.webp?v=475672cab660",
     "rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT stages. HIT: Gain 4 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-009-namekian-thrust",
@@ -6690,13 +6693,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-009-namekian-thrust.webp?v=1c64e85257f2",
+    "image": "/assets/cards/trunks-009-namekian-thrust.webp?v=c0249c6d47a9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-9",
-    "downloadImage": "/assets/cards/downloads/trunks-009-namekian-thrust.webp?v=fc0c3b013e3f",
+    "downloadImage": "/assets/cards/downloads/trunks-009-namekian-thrust.webp?v=0fa89e38f452",
     "rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT +2 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-010-namekian-blocking-defense",
@@ -6706,13 +6710,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-010-namekian-blocking-defense.webp?v=ab738a8ac1f5",
+    "image": "/assets/cards/trunks-010-namekian-blocking-defense.webp?v=30db9a1a2f67",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-10",
-    "downloadImage": "/assets/cards/downloads/trunks-010-namekian-blocking-defense.webp?v=a3838b115ad8",
-    "rules": "(Limit 6 per deck.) Piccolo and Nail only. Stop a physical attack.",
-    "rarity": "Common"
+    "downloadImage": "/assets/cards/downloads/trunks-010-namekian-blocking-defense.webp?v=27998d3bc20d",
+    "rules": "(Limit 6 per deck.) Piccolo and Nail only. Stops a physical attack.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-011-red-implosion-lunge",
@@ -6722,13 +6727,14 @@ export const catalog = [
     "style": "Red",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-011-red-implosion-lunge.webp?v=ede0107bda9b",
+    "image": "/assets/cards/trunks-011-red-implosion-lunge.webp?v=4073babca17a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-11",
-    "downloadImage": "/assets/cards/downloads/trunks-011-red-implosion-lunge.webp?v=8609b1f9f501",
+    "downloadImage": "/assets/cards/downloads/trunks-011-red-implosion-lunge.webp?v=aa371dfb64ad",
     "rules": "Physical attack. DAMAGE: AT stages and 3 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-012-blue-stomach-eruption",
@@ -6738,13 +6744,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-012-blue-stomach-eruption.webp?v=3f557fd33183",
+    "image": "/assets/cards/trunks-012-blue-stomach-eruption.webp?v=9a1b48e3a4bc",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-12",
-    "downloadImage": "/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp?v=eafef8dfe1c8",
+    "downloadImage": "/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp?v=d9fab1385d7f",
     "rules": "Physical attack. DAMAGE: AT stages. Lower your opponent's anger 1 level. HIT: Stop all your opponent's physical attacks this Combat. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-013-orange-power-shifting-drill",
@@ -6754,13 +6761,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-013-orange-power-shifting-drill.webp?v=643115eb935c",
+    "image": "/assets/cards/trunks-013-orange-power-shifting-drill.webp?v=29bccd92984a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-13",
-    "downloadImage": "/assets/cards/downloads/trunks-013-orange-power-shifting-drill.webp?v=0ace34dffaf6",
+    "downloadImage": "/assets/cards/downloads/trunks-013-orange-power-shifting-drill.webp?v=54548a4d28db",
     "rules": "You may convert an energy attack's life-card damage to stages dealt to any personality. Choose when performing the attack; apply after all damage modifiers.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-014-orange-surprise-blast",
@@ -6770,13 +6778,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-014-orange-surprise-blast.webp?v=91e4c44108e9",
+    "image": "/assets/cards/trunks-014-orange-surprise-blast.webp?v=f304b5ead5a0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-14",
-    "downloadImage": "/assets/cards/downloads/trunks-014-orange-surprise-blast.webp?v=969545b4346c",
+    "downloadImage": "/assets/cards/downloads/trunks-014-orange-surprise-blast.webp?v=46d72b0c7080",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: You may banish 1 of the defender's Drills. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-015-orange-dashing-gut-punch",
@@ -6786,13 +6795,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-015-orange-dashing-gut-punch.webp?v=a2b6b3dfe04d",
+    "image": "/assets/cards/trunks-015-orange-dashing-gut-punch.webp?v=751498b22764",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-15",
-    "downloadImage": "/assets/cards/downloads/trunks-015-orange-dashing-gut-punch.webp?v=0412d2e64572",
+    "downloadImage": "/assets/cards/downloads/trunks-015-orange-dashing-gut-punch.webp?v=c7df2e44c2a1",
     "rules": "Physical attack. DAMAGE: AT stages. Your Main Personality gains 3 stages. Banish the top card of your opponent's discard pile.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-016-orange-straight-jab",
@@ -6802,13 +6812,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-016-orange-straight-jab.webp?v=c1291b05bd94",
+    "image": "/assets/cards/trunks-016-orange-straight-jab.webp?v=60587ae47935",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-16",
-    "downloadImage": "/assets/cards/downloads/trunks-016-orange-straight-jab.webp?v=b4a1e88b51ff",
+    "downloadImage": "/assets/cards/downloads/trunks-016-orange-straight-jab.webp?v=478bcec1b75f",
     "rules": "Physical attack costing 1 stage. DAMAGE: AT +4 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-017-black-defensive-aura",
@@ -6818,13 +6829,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-017-black-defensive-aura.webp?v=b360f11818c3",
+    "image": "/assets/cards/trunks-017-black-defensive-aura.webp?v=d8604c2e7734",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-17",
-    "downloadImage": "/assets/cards/downloads/trunks-017-black-defensive-aura.webp?v=565496ae716a",
+    "downloadImage": "/assets/cards/downloads/trunks-017-black-defensive-aura.webp?v=56b1ce812534",
     "rules": "Pay 1 stage to stop a physical or energy attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-018-black-flying-kick",
@@ -6834,13 +6846,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-018-black-flying-kick.webp?v=6eebd7f0455f",
+    "image": "/assets/cards/trunks-018-black-flying-kick.webp?v=2fc4626e3e6a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-18",
-    "downloadImage": "/assets/cards/downloads/trunks-018-black-flying-kick.webp?v=26ff91881eac",
+    "downloadImage": "/assets/cards/downloads/trunks-018-black-flying-kick.webp?v=1d21fa0cbdb5",
     "rules": "Physical attack. DAMAGE: AT +2 stages. Banish the top 3 cards of your opponent's discard pile.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-019-black-finger-block",
@@ -6850,13 +6863,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-019-black-finger-block.webp?v=b3835eff69dd",
+    "image": "/assets/cards/trunks-019-black-finger-block.webp?v=17cde15e1b2f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-19",
-    "downloadImage": "/assets/cards/downloads/trunks-019-black-finger-block.webp?v=d7e01c4b9770",
-    "rules": "Stop a physical attack. Your Main Personality gains 3 stages.",
-    "rarity": "Common"
+    "downloadImage": "/assets/cards/downloads/trunks-019-black-finger-block.webp?v=0e210f7bb64b",
+    "rules": "Stops a physical attack. Your Main Personality gains 3 stages.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-020-black-defensive-burst",
@@ -6866,13 +6880,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-020-black-defensive-burst.webp?v=27fda9d72da3",
+    "image": "/assets/cards/trunks-020-black-defensive-burst.webp?v=868d7b1a5a85",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-20",
-    "downloadImage": "/assets/cards/downloads/trunks-020-black-defensive-burst.webp?v=8f9b10c20ee7",
+    "downloadImage": "/assets/cards/downloads/trunks-020-black-defensive-burst.webp?v=625b9e0a96e9",
     "rules": "Physical attack. DAMAGE: 3 life cards. HIT: Your opponent cannot perform physical attacks for the rest of this Combat.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-021-black-overpowering-attack",
@@ -6882,13 +6897,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-021-black-overpowering-attack.webp?v=34cc21204ef6",
+    "image": "/assets/cards/trunks-021-black-overpowering-attack.webp?v=0b948132a31f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-21",
-    "downloadImage": "/assets/cards/downloads/trunks-021-black-overpowering-attack.webp?v=eb9359a8d55f",
+    "downloadImage": "/assets/cards/downloads/trunks-021-black-overpowering-attack.webp?v=e26a56f10a66",
     "rules": "Physical attack. DAMAGE: AT +6 stages. You cannot perform physical attacks for the rest of this Combat.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-022-red-blazing-aura",
@@ -6898,13 +6914,14 @@ export const catalog = [
     "style": "Red",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-022-red-blazing-aura.webp?v=fcecfcf48b2b",
+    "image": "/assets/cards/trunks-022-red-blazing-aura.webp?v=8e74a58bdce7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-22",
-    "downloadImage": "/assets/cards/downloads/trunks-022-red-blazing-aura.webp?v=2955d548b541",
+    "downloadImage": "/assets/cards/downloads/trunks-022-red-blazing-aura.webp?v=9a62376db869",
     "rules": "POWER: Use as a defense. Choose stages or life cards. Attacks against you deal 2 less damage of that type this Combat. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-023-red-gravity-drill",
@@ -6914,13 +6931,14 @@ export const catalog = [
     "style": "Red",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-023-red-gravity-drill.webp?v=727961d28208",
+    "image": "/assets/cards/trunks-023-red-gravity-drill.webp?v=cc431a64a32d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-23",
-    "downloadImage": "/assets/cards/downloads/trunks-023-red-gravity-drill.webp?v=72ff31603041",
+    "downloadImage": "/assets/cards/downloads/trunks-023-red-gravity-drill.webp?v=811a55325ea3",
     "rules": "Discard your hand of at least 1 card to stop a physical or energy attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-024-red-energy-shield",
@@ -6930,13 +6948,14 @@ export const catalog = [
     "style": "Red",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-024-red-energy-shield.webp?v=4cdc1d359c80",
+    "image": "/assets/cards/trunks-024-red-energy-shield.webp?v=ce7f88b56989",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-24",
-    "downloadImage": "/assets/cards/downloads/trunks-024-red-energy-shield.webp?v=6c5069dccfb6",
-    "rules": "Stop an energy attack. Raise any personality to their highest stage. Banish after use.",
-    "rarity": "Common"
+    "downloadImage": "/assets/cards/downloads/trunks-024-red-energy-shield.webp?v=4d83d68ae806",
+    "rules": "Stops an energy attack. Raise any personality to their highest stage. Banish after use.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-025-namek-dragon-ball-1",
@@ -6946,13 +6965,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-025-namek-dragon-ball-1.webp?v=d06ea5e99460",
+    "image": "/assets/cards/trunks-025-namek-dragon-ball-1.webp?v=915514df2e51",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-25",
-    "downloadImage": "/assets/cards/downloads/trunks-025-namek-dragon-ball-1.webp?v=e785ae9bf685",
-    "rules": "Draw until you have 3 cards in your hand. Put the top 3 cards of your discard pile on the bottom of your Life Deck.",
-    "rarity": "Common"
+    "downloadImage": "/assets/cards/downloads/trunks-025-namek-dragon-ball-1.webp?v=27c462be473d",
+    "rules": "Draw until you have 3 cards in your hand. Put the top 2 cards of your discard pile on the bottom of your Life Deck.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-026-spice-and-his-friends",
@@ -6962,13 +6982,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-026-spice-and-his-friends.webp?v=1453652a455d",
+    "image": "/assets/cards/trunks-026-spice-and-his-friends.webp?v=a9db1d0c405e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-26",
-    "downloadImage": "/assets/cards/downloads/trunks-026-spice-and-his-friends.webp?v=6f076c5df490",
+    "downloadImage": "/assets/cards/downloads/trunks-026-spice-and-his-friends.webp?v=9c09df9de83f",
     "rules": "POWER: Play an Ally from your discard pile at 2 stages above 0.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-027-spice-prepares-an-energy-blast",
@@ -6978,13 +6999,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-027-spice-prepares-an-energy-blast.webp?v=425785d1e1d6",
+    "image": "/assets/cards/trunks-027-spice-prepares-an-energy-blast.webp?v=8412616da024",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-27",
-    "downloadImage": "/assets/cards/downloads/trunks-027-spice-prepares-an-energy-blast.webp?v=963474247405",
+    "downloadImage": "/assets/cards/downloads/trunks-027-spice-prepares-an-energy-blast.webp?v=2cd8f3217b5e",
     "rules": "Energy attack costing 2 stages. DAMAGE: 7 life cards. HIT: Raise your anger 1 level; you cannot perform energy attacks for the rest of this Combat.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-028-vinegar-has-plans",
@@ -6994,13 +7016,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-028-vinegar-has-plans.webp?v=07c6616f3949",
+    "image": "/assets/cards/trunks-028-vinegar-has-plans.webp?v=88be53699b90",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-28",
-    "downloadImage": "/assets/cards/downloads/trunks-028-vinegar-has-plans.webp?v=869ead4a4dc4",
+    "downloadImage": "/assets/cards/downloads/trunks-028-vinegar-has-plans.webp?v=8ad44c549941",
     "rules": "POWER: Put an opponent's Ally on the bottom of their Life Deck. If Earth Dragon Ball 4 is in play, you may put 2 Allies there instead.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-029-vinegars-revenge",
@@ -7010,13 +7033,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-029-vinegars-revenge.webp?v=7362aec36d34",
+    "image": "/assets/cards/trunks-029-vinegars-revenge.webp?v=4aea362fd104",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-29",
-    "downloadImage": "/assets/cards/downloads/trunks-029-vinegars-revenge.webp?v=72f653be3ef5",
+    "downloadImage": "/assets/cards/downloads/trunks-029-vinegars-revenge.webp?v=089c9c9882a5",
     "rules": "POWER: Choose an opponent. They cannot gain stages until the start of your next turn. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-030-black-water-confusion-drill",
@@ -7026,13 +7050,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-030-black-water-confusion-drill.webp?v=9f682a8f492b",
+    "image": "/assets/cards/trunks-030-black-water-confusion-drill.webp?v=c2de66185c1b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-30",
-    "downloadImage": "/assets/cards/downloads/trunks-030-black-water-confusion-drill.webp?v=91b4cb71633b",
+    "downloadImage": "/assets/cards/downloads/trunks-030-black-water-confusion-drill.webp?v=9136ee39a660",
     "rules": "(Limit 1 per deck.) No player may play Dragon Balls. This is not a Black Style card.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-031-garlic-jr-s-kyokaika-technique",
@@ -7042,13 +7067,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=db0b9befcb60",
+    "image": "/assets/cards/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=a455eb5a4f78",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-31",
-    "downloadImage": "/assets/cards/downloads/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=88eef42e1d56",
+    "downloadImage": "/assets/cards/downloads/trunks-031-garlic-jr-s-kyokaika-technique.webp?v=e8278a85d6a6",
     "rules": "(Limit 1 per deck unless your Main Personality is Garlic Jr.) Physical attack. DAMAGE: 7 stages. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-032-garlic-jr-s-energy-blast",
@@ -7058,13 +7084,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-032-garlic-jr-s-energy-blast.webp?v=7deb92a0cea5",
+    "image": "/assets/cards/trunks-032-garlic-jr-s-energy-blast.webp?v=73c8cb41377a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-32",
-    "downloadImage": "/assets/cards/downloads/trunks-032-garlic-jr-s-energy-blast.webp?v=de6df9b27a7f",
+    "downloadImage": "/assets/cards/downloads/trunks-032-garlic-jr-s-energy-blast.webp?v=bfc260ddf5b4",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If Earth Dragon Ball 5 is in play, this attack cannot be stopped. HIT: Lower an opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-033-garlic-jr-s-black-water-mist",
@@ -7074,13 +7101,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-033-garlic-jr-s-black-water-mist.webp?v=444cac057bc4",
+    "image": "/assets/cards/trunks-033-garlic-jr-s-black-water-mist.webp?v=2d1dd46c74e4",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-33",
-    "downloadImage": "/assets/cards/downloads/trunks-033-garlic-jr-s-black-water-mist.webp?v=3f958fb56a94",
+    "downloadImage": "/assets/cards/downloads/trunks-033-garlic-jr-s-black-water-mist.webp?v=1141b7bd0802",
     "rules": "POWER: Banish 1 of your opponent's Allies. If it is banished, raise your anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-034-krillin-lashes-out",
@@ -7090,13 +7118,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-034-krillin-lashes-out.webp?v=4d37950a77c4",
+    "image": "/assets/cards/trunks-034-krillin-lashes-out.webp?v=1dffd491dfb1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-34",
-    "downloadImage": "/assets/cards/downloads/trunks-034-krillin-lashes-out.webp?v=13740f13cc78",
+    "downloadImage": "/assets/cards/downloads/trunks-034-krillin-lashes-out.webp?v=1b6794e59b70",
     "rules": "POWER: Put 1 of your opponent's Allies in play on the bottom of their Life Deck to lower their anger 3 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-035-krillin-takes-a-shot",
@@ -7106,13 +7135,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-035-krillin-takes-a-shot.webp?v=64fb68324c3a",
+    "image": "/assets/cards/trunks-035-krillin-takes-a-shot.webp?v=1ed99126a5e0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-35",
-    "downloadImage": "/assets/cards/downloads/trunks-035-krillin-takes-a-shot.webp?v=76cc77971191",
+    "downloadImage": "/assets/cards/downloads/trunks-035-krillin-takes-a-shot.webp?v=1e9174845ee2",
     "rules": "Physical attack. DAMAGE: 5 stages, or 6 stages instead if Gohan is anywhere in play.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-036-frieza-s-finger-tip-energy-blast",
@@ -7122,13 +7152,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-036-frieza-s-finger-tip-energy-blast.webp?v=693e66c5fd81",
+    "image": "/assets/cards/trunks-036-frieza-s-finger-tip-energy-blast.webp?v=ad945adfcfdd",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-36",
-    "downloadImage": "/assets/cards/downloads/trunks-036-frieza-s-finger-tip-energy-blast.webp?v=c9f845f0e1a9",
+    "downloadImage": "/assets/cards/downloads/trunks-036-frieza-s-finger-tip-energy-blast.webp?v=405bc75c9ff1",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Set your opponent's anger to 0. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-037-king-cold-smiles",
@@ -7138,13 +7169,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-037-king-cold-smiles.webp?v=b98e5cf06e0b",
+    "image": "/assets/cards/trunks-037-king-cold-smiles.webp?v=051855c1a635",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-37",
-    "downloadImage": "/assets/cards/downloads/trunks-037-king-cold-smiles.webp?v=8cdcb585c4fa",
+    "downloadImage": "/assets/cards/downloads/trunks-037-king-cold-smiles.webp?v=1574a9fd0eed",
     "rules": "POWER: Use when your opponent's anger would reach 5 or more. Set their anger to 3 instead of them gaining a Personality level. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-038-king-cold-s-end",
@@ -7154,13 +7186,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-038-king-cold-s-end.webp?v=1c8b1f17080b",
+    "image": "/assets/cards/trunks-038-king-cold-s-end.webp?v=1daac8fc6514",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-38",
-    "downloadImage": "/assets/cards/downloads/trunks-038-king-cold-s-end.webp?v=8db2495c4cc2",
+    "downloadImage": "/assets/cards/downloads/trunks-038-king-cold-s-end.webp?v=40901fb41b40",
     "rules": "(Limit 1 per deck.) Villains only. POWER: If your Life Deck has 10 or fewer cards, shuffle up to the top 7 cards of your discard pile into your Life Deck. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-039-goku-s-ready",
@@ -7170,13 +7203,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-039-goku-s-ready.webp?v=7041ff8ccc19",
+    "image": "/assets/cards/trunks-039-goku-s-ready.webp?v=0c29970bb22c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-39",
-    "downloadImage": "/assets/cards/downloads/trunks-039-goku-s-ready.webp?v=6af73ffd8efb",
+    "downloadImage": "/assets/cards/downloads/trunks-039-goku-s-ready.webp?v=210a3f8746e9",
     "rules": "(Limit 1 per deck.) POWER: Search your Life Deck for 1 card and set it aside face down. Put it in your hand at the beginning of your opponent's next turn.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-040-tien-s-ready",
@@ -7186,13 +7220,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-040-tien-s-ready.webp?v=ff716c84b824",
+    "image": "/assets/cards/trunks-040-tien-s-ready.webp?v=fc000aca2ea9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-40",
-    "downloadImage": "/assets/cards/downloads/trunks-040-tien-s-ready.webp?v=3ec6dbeb4ccf",
+    "downloadImage": "/assets/cards/downloads/trunks-040-tien-s-ready.webp?v=7c5b1a67b115",
     "rules": "POWER: Raise any Ally to its highest power stage. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "trunks-041-blue-driving-face-off",
@@ -7202,13 +7237,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-041-blue-driving-face-off.webp?v=c7581a6ea610",
+    "image": "/assets/cards/trunks-041-blue-driving-face-off.webp?v=433f2cc8ee27",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-41",
-    "downloadImage": "/assets/cards/downloads/trunks-041-blue-driving-face-off.webp?v=24ca7672116d",
+    "downloadImage": "/assets/cards/downloads/trunks-041-blue-driving-face-off.webp?v=4a9915404cef",
     "rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent's anger 1 level.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-042-breakthrough-drill",
@@ -7218,13 +7254,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-042-breakthrough-drill.webp?v=87296bed5b52",
+    "image": "/assets/cards/trunks-042-breakthrough-drill.webp?v=0a87bd4b1949",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-42",
-    "downloadImage": "/assets/cards/downloads/trunks-042-breakthrough-drill.webp?v=4215e587bf46",
+    "downloadImage": "/assets/cards/downloads/trunks-042-breakthrough-drill.webp?v=28c915af6ad6",
     "rules": "While this Drill is in play, no player may play or use cards that end Combat.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-043-blue-thrusting-fist-strike",
@@ -7234,13 +7271,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-043-blue-thrusting-fist-strike.webp?v=f4583f44da74",
+    "image": "/assets/cards/trunks-043-blue-thrusting-fist-strike.webp?v=93abeebb5538",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-43",
-    "downloadImage": "/assets/cards/downloads/trunks-043-blue-thrusting-fist-strike.webp?v=6b09f2d06b77",
+    "downloadImage": "/assets/cards/downloads/trunks-043-blue-thrusting-fist-strike.webp?v=151f9eb1fe48",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: End Combat after damage is dealt. Banish after use; if Saibaimen is anywhere in play, discard this card instead.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-044-chiaotzu-s-psychic-halt",
@@ -7250,13 +7288,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-044-chiaotzu-s-psychic-halt.webp?v=b46eb34da474",
+    "image": "/assets/cards/trunks-044-chiaotzu-s-psychic-halt.webp?v=aba2e498d5df",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-44",
-    "downloadImage": "/assets/cards/downloads/trunks-044-chiaotzu-s-psychic-halt.webp?v=90204ac2d24f",
+    "downloadImage": "/assets/cards/downloads/trunks-044-chiaotzu-s-psychic-halt.webp?v=85fb38848f72",
     "rules": "(Limit 1 per deck.) POWER: Your opponent may only defend for the rest of this Combat. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-045-black-head-strike",
@@ -7266,13 +7305,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-045-black-head-strike.webp?v=7b597d3d6163",
+    "image": "/assets/cards/trunks-045-black-head-strike.webp?v=d6738a6ec32d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-45",
-    "downloadImage": "/assets/cards/downloads/trunks-045-black-head-strike.webp?v=101f20794f62",
+    "downloadImage": "/assets/cards/downloads/trunks-045-black-head-strike.webp?v=17bbb5d0f2a3",
     "rules": "Physical attack. DAMAGE: AT stages and 2 life cards, or AT stages and 3 life cards instead if Chiaotzu is anywhere in play.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-046-black-hug-maneuver",
@@ -7282,13 +7322,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-046-black-hug-maneuver.webp?v=202ea8175153",
+    "image": "/assets/cards/trunks-046-black-hug-maneuver.webp?v=3a94ab712d38",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-46",
-    "downloadImage": "/assets/cards/downloads/trunks-046-black-hug-maneuver.webp?v=288b168c4b70",
+    "downloadImage": "/assets/cards/downloads/trunks-046-black-hug-maneuver.webp?v=61c7a72b9f29",
     "rules": "Physical attack. DAMAGE: AT stages. Raise your anger 2 levels, or 3 levels instead if Earth Dragon Ball 6 is in play.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-047-black-driving-palm-strike",
@@ -7298,13 +7339,14 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-047-black-driving-palm-strike.webp?v=b2401713aeee",
+    "image": "/assets/cards/trunks-047-black-driving-palm-strike.webp?v=a6234a9781bb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-47",
-    "downloadImage": "/assets/cards/downloads/trunks-047-black-driving-palm-strike.webp?v=d11041562d08",
+    "downloadImage": "/assets/cards/downloads/trunks-047-black-driving-palm-strike.webp?v=1760722315ca",
     "rules": "Physical attack. DAMAGE: 2 stages. Raise your anger 1 level. Lower your opponent's anger 1 level.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-048-dodoria-s-waiting-game",
@@ -7314,13 +7356,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-048-dodoria-s-waiting-game.webp?v=898390ee70a5",
+    "image": "/assets/cards/trunks-048-dodoria-s-waiting-game.webp?v=bb20a87efe8f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-48",
-    "downloadImage": "/assets/cards/downloads/trunks-048-dodoria-s-waiting-game.webp?v=fd0daeec40e5",
+    "downloadImage": "/assets/cards/downloads/trunks-048-dodoria-s-waiting-game.webp?v=d30f5db09401",
     "rules": "Physical attack. DAMAGE: AT stages and 2 life cards, or AT stages and 4 life cards instead if Earth Dragon Ball 7 is in play.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-049-frieza-s-aura-shot",
@@ -7330,13 +7373,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-049-frieza-s-aura-shot.webp?v=9d641648c578",
+    "image": "/assets/cards/trunks-049-frieza-s-aura-shot.webp?v=e1179838822f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-49",
-    "downloadImage": "/assets/cards/downloads/trunks-049-frieza-s-aura-shot.webp?v=5cf7b5282d19",
+    "downloadImage": "/assets/cards/downloads/trunks-049-frieza-s-aura-shot.webp?v=acfd403f38e4",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards, or 7 life cards instead if Vegeta's Quickness Drill is anywhere in play.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-050-saiyan-knee-strike",
@@ -7346,13 +7390,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-050-saiyan-knee-strike.webp?v=fc5277e9d65d",
+    "image": "/assets/cards/trunks-050-saiyan-knee-strike.webp?v=005e5a37caf2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-50",
-    "downloadImage": "/assets/cards/downloads/trunks-050-saiyan-knee-strike.webp?v=b66045f04a71",
+    "downloadImage": "/assets/cards/downloads/trunks-050-saiyan-knee-strike.webp?v=935b5d48d527",
     "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT stages. HIT: Your opponent discards 1 random card from their hand.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-051-frieza-s-powering-rage",
@@ -7362,13 +7407,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-051-frieza-s-powering-rage.webp?v=d62dcc5e4537",
+    "image": "/assets/cards/trunks-051-frieza-s-powering-rage.webp?v=e833bab42f19",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-51",
-    "downloadImage": "/assets/cards/downloads/trunks-051-frieza-s-powering-rage.webp?v=5993020edbc5",
+    "downloadImage": "/assets/cards/downloads/trunks-051-frieza-s-powering-rage.webp?v=13e3581c0bde",
     "rules": "Villains only. POWER: Any Villain Personality gains 5 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-052-namekian-fighting",
@@ -7378,13 +7424,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=31ae2898b5b7",
+    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=8c852c937ae7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-52",
-    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=40de3725aab4",
+    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=d4ed0113b397",
     "rules": "Piccolo and Nail only. POWER: Banish 1 of your Allies to raise your anger 2 levels. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-053-captain-ginyu-moves-to-attack",
@@ -7394,13 +7441,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-053-captain-ginyu-moves-to-attack.webp?v=3d0a3d270ccb",
+    "image": "/assets/cards/trunks-053-captain-ginyu-moves-to-attack.webp?v=fcbe144ecb2e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-53",
-    "downloadImage": "/assets/cards/downloads/trunks-053-captain-ginyu-moves-to-attack.webp?v=2c8f89f17667",
+    "downloadImage": "/assets/cards/downloads/trunks-053-captain-ginyu-moves-to-attack.webp?v=e7aae6b29f2b",
     "rules": "Physical attack. DAMAGE: AT stages and 3 life cards. Raise your anger 1 level. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-054-captain-ginyu-s-energy-attack",
@@ -7410,13 +7458,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-054-captain-ginyu-s-energy-attack.webp?v=4e344b0bdd5f",
+    "image": "/assets/cards/trunks-054-captain-ginyu-s-energy-attack.webp?v=e06c663f25e8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-54",
-    "downloadImage": "/assets/cards/downloads/trunks-054-captain-ginyu-s-energy-attack.webp?v=4770d2a34a93",
+    "downloadImage": "/assets/cards/downloads/trunks-054-captain-ginyu-s-energy-attack.webp?v=2d2863b3f0da",
     "rules": "Energy attack costing 3 stages. DAMAGE: 4 life cards. Raise your anger 2 levels. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-055-namekian-attack-drill",
@@ -7426,13 +7475,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-055-namekian-attack-drill.webp?v=ced29f759a6b",
+    "image": "/assets/cards/trunks-055-namekian-attack-drill.webp?v=8cbbfa57d02e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-55",
-    "downloadImage": "/assets/cards/downloads/trunks-055-namekian-attack-drill.webp?v=ffb05dea28a0",
+    "downloadImage": "/assets/cards/downloads/trunks-055-namekian-attack-drill.webp?v=54bbfc86e589",
     "rules": "Piccolo and Nail only. You may have all your physical attacks deal +2 stages of damage.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "trunks-056-frieza-s-tail-hold",

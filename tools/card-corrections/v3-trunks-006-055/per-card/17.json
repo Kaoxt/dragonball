@@ -1,0 +1,202 @@
+{
+  "number": 17,
+  "id": "trunks-017-black-defensive-aura",
+  "name": "Black Defensive Aura",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-017-black-defensive-aura.svg",
+  "native_source_sha256": "88965e740fc13837e484c17de4c5fa4855b31bc061ed3334f68458faadf89599",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/901170a0387ed7aeb116dad1f912435cb8f78a87b31cf56229fe130dd7716819.png",
+      "sha256": "901170a0387ed7aeb116dad1f912435cb8f78a87b31cf56229fe130dd7716819"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "901170a0387ed7aeb116dad1f912435cb8f78a87b31cf56229fe130dd7716819",
+    "source_native_sha256": "05a8a6d7afff05e4a4ed5a610b7f72179798ea02f03decdab32ee2ae835a383e",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Pay 1 stage to stop a physical or energy attack.",
+      "baseline": 1049.3,
+      "width": 887.6119473684209,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        210.267,
+        50.2213,
+        638.465,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        800.443,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        860.243,
+        1392.65,
+        33.814,
+        33.708
+      ],
+      "rules-line-1": [
+        137.954,
+        1013.53,
+        834.568,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          86.478,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          137.954,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          86.478,
+          1014.97,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-017-black-defensive-aura.webp",
+      "before_url": "/assets/cards/trunks-017-black-defensive-aura.webp?v=b360f11818c3",
+      "before_sha256": "b360f11818c39fe54db92d45cc4c703a612ed8f55bffdb654ee12c3df1b61d19",
+      "after_sha256": "d8604c2e7734a7c0adacb2786896aba69ed7f5232c385dbbdbbbc352138a9a85",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-017-black-defensive-aura.webp",
+      "before_url": "/assets/cards/downloads/trunks-017-black-defensive-aura.webp?v=565496ae716a",
+      "before_sha256": "565496ae716a548ac1a5b6ff2781a5320d79bee420e540b0402beb28479f8e08",
+      "after_sha256": "56b1ce8125347e791e4200f52e190fe1e71f47e0cabb1dafdae1b1f56efd1c27",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 638.4650872817956,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

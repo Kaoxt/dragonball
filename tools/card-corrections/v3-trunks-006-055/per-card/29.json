@@ -1,0 +1,196 @@
+{
+  "number": 29,
+  "id": "trunks-029-vinegars-revenge",
+  "name": "Vinegar's Revenge",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-029-vinegars-revenge.svg",
+  "native_source_sha256": "6506aedcec5b10e396dfc1ae41ef0b7f1b1e26025b95d180e4723ef3acf5821d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/69688f12661e8401e78afb648bfdd0ebaf8b73f7b951cbbfdf50319757077c18.png",
+      "sha256": "69688f12661e8401e78afb648bfdd0ebaf8b73f7b951cbbfdf50319757077c18"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "69688f12661e8401e78afb648bfdd0ebaf8b73f7b951cbbfdf50319757077c18",
+    "source_native_sha256": "d97a65d26ca211685f3c0182b9374221b6300774a8f988cc2effb0d2ab03688d",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Choose an opponent. They cannot gain",
+      "baseline": 1049.3,
+      "width": 833.2449999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "stages until the start of your next turn.",
+      "baseline": 1108.3,
+      "width": 691.39,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        249.112,
+        44.5,
+        560.776,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        114.764,
+        1013.53,
+        829.472,
+        45.913
+      ],
+      "rules-line-2": [
+        185.177,
+        1072.53,
+        688.646,
+        45.913
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-029-vinegars-revenge.webp",
+      "before_url": "/assets/cards/trunks-029-vinegars-revenge.webp?v=7362aec36d34",
+      "before_sha256": "7362aec36d344d1d3224e34227bf845d8d0dfb5097f33e85ea2eb4c54ee752d8",
+      "after_sha256": "4aea362fd1049812d40abda382ae79c169ced72a26ef93add49e6c9397f5b931",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-029-vinegars-revenge.webp",
+      "before_url": "/assets/cards/downloads/trunks-029-vinegars-revenge.webp?v=72f653be3ef5",
+      "before_sha256": "72f653be3ef5b7fbc8ceb61b79257d2352e31e8965d2644406583b622a7b4fe4",
+      "after_sha256": "089c9c9882a571c21af3307fa8bc4183ef9fabce3dac68954c6685b5b15068fa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 560.775561097257,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

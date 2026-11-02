@@ -1,0 +1,208 @@
+{
+  "number": 39,
+  "id": "trunks-039-goku-s-ready",
+  "name": "Goku's Ready",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-039-goku-s-ready.svg",
+  "native_source_sha256": "c2e09084c243076270715b6f81b763295a0c7f71069e4d02ae745a9262a02d48",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bd601adc5c13638fd142a6e9e6ac55492132fe23cdf04916ed8b7dab2b20044a.png",
+      "sha256": "bd601adc5c13638fd142a6e9e6ac55492132fe23cdf04916ed8b7dab2b20044a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "bd601adc5c13638fd142a6e9e6ac55492132fe23cdf04916ed8b7dab2b20044a",
+    "source_native_sha256": "2e077ec7c684988089c81bf0bf6a8bc33863cb94844394a4f5856f72159064d9",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Search your Life Deck",
+      "baseline": 1049.3,
+      "width": 866.467,
+      "icon_inline": false
+    },
+    {
+      "text": "for 1 card and set it aside face down.",
+      "baseline": 1108.3,
+      "width": 652.974,
+      "icon_inline": false
+    },
+    {
+      "text": "Put it in your hand at the beginning",
+      "baseline": 1167.3,
+      "width": 619.9970000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponent's next turn.",
+      "baseline": 1226.3,
+      "width": 514.696,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        327.404,
+        44.5,
+        404.192,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.779,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.579,
+        1392.65,
+        43.142,
+        33.708
+      ],
+      "rules-line-1": [
+        96.781,
+        1012.11,
+        865.438,
+        46.942
+      ],
+      "rules-line-2": [
+        204.238,
+        1072.53,
+        650.524,
+        36.162
+      ],
+      "rules-line-3": [
+        221.363,
+        1131.53,
+        616.273,
+        45.913
+      ],
+      "rules-line-4": [
+        273.695,
+        1191.85,
+        511.609,
+        44.2034
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-039-goku-s-ready.webp",
+      "before_url": "/assets/cards/trunks-039-goku-s-ready.webp?v=7041ff8ccc19",
+      "before_sha256": "7041ff8ccc198d34bdda1bff85d89855dbf043fdb46e2e05cca5a4f43a24daf4",
+      "after_sha256": "0c29970bb22c9cfa51f0808c04364633989fa7886bf2a22fb8a4ce3d2894ab90",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-039-goku-s-ready.webp",
+      "before_url": "/assets/cards/downloads/trunks-039-goku-s-ready.webp?v=6af73ffd8efb",
+      "before_sha256": "6af73ffd8efb78d496ef97332586fa22807342dd09a00f8911b3b597eb8d6cd9",
+      "after_sha256": "210a3f8746e928e02401a25779cd745cd2573e6ea93222a3b05a14ff78b99af9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 404.19201995012475,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

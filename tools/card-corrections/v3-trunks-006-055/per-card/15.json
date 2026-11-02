@@ -1,0 +1,238 @@
+{
+  "number": 15,
+  "id": "trunks-015-orange-dashing-gut-punch",
+  "name": "Orange Dashing Gut Punch",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-015-orange-dashing-gut-punch.svg",
+  "native_source_sha256": "0eb45d70a828e1f6fb4e55aca20b3816ea20ef631ad59e37a12039c1ac857b1d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9cfaf3c2eef1a1c184700d154ea96cb607fa07526f4264db38b91db1ed04c587.png",
+      "sha256": "9cfaf3c2eef1a1c184700d154ea96cb607fa07526f4264db38b91db1ed04c587"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "9cfaf3c2eef1a1c184700d154ea96cb607fa07526f4264db38b91db1ed04c587",
+    "source_native_sha256": "c5e96c1a8975f688a1a15a0a4c0c96d2d0cce2f8605cb7a0b32ee4e55a1ef13b",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Your Main Personality gains 3 stages.",
+      "baseline": 1108.3,
+      "width": 662.6270000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish the top card of your opponent's",
+      "baseline": 1167.3,
+      "width": 686.1960000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile.",
+      "baseline": 1226.3,
+      "width": 218.54000000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.6331,
+        740.0,
+        64.7339
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        799.224,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.024,
+        1392.65,
+        36.252,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "rules-line-2": [
+        199.558,
+        1072.53,
+        659.883,
+        45.913
+      ],
+      "rules-line-3": [
+        187.897,
+        1131.53,
+        683.207,
+        45.521
+      ],
+      "rules-line-4": [
+        421.774,
+        1190.53,
+        215.453,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-015-orange-dashing-gut-punch.webp",
+      "before_url": "/assets/cards/trunks-015-orange-dashing-gut-punch.webp?v=a2b6b3dfe04d",
+      "before_sha256": "a2b6b3dfe04ded61462ff379717d3dd2df7f2c172173f4d2b567526629ac4746",
+      "after_sha256": "751498b22764fe3e5557138a1020958d7b524d0e1909c37e514f49dec69ebde5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-015-orange-dashing-gut-punch.webp",
+      "before_url": "/assets/cards/downloads/trunks-015-orange-dashing-gut-punch.webp?v=0412d2e64572",
+      "before_sha256": "0412d2e64572fadde6e1c4f6dad82624c8b38f1fd97b604c57c93427c7927b90",
+      "after_sha256": "c7df2e44c2a192186969dc44af1f97ee5f284f49ed589a02f93efcb135470b4d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.7155322862129,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 64.73385689354275,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9381718390368514
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

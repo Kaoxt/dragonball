@@ -1,0 +1,214 @@
+{
+  "number": 55,
+  "id": "trunks-055-namekian-attack-drill",
+  "name": "Namekian Attack Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-006-055/trunks-055-namekian-attack-drill.svg",
+  "native_source_sha256": "947c3e4f5852fe346b2c5398c25c99a275ebfea0f9787c9622184aa9fc769ecd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b2b5d6d4f797cfe4519c9cac0858ad08e4bb51f7ee4ae0dd254091dd95cc298.png",
+      "sha256": "1b2b5d6d4f797cfe4519c9cac0858ad08e4bb51f7ee4ae0dd254091dd95cc298"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "expression_patch_retained": false,
+    "tien_crop_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "1b2b5d6d4f797cfe4519c9cac0858ad08e4bb51f7ee4ae0dd254091dd95cc298",
+    "source_native_sha256": "a0a0488970499d7bc86201f5940f809441c3a32201512f2d3415d2cd4dd102d1",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Piccolo and Nail only. You may have all your",
+      "baseline": 1049.3,
+      "width": 846.2567499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "physical attacks deal +2 stages of damage.",
+      "baseline": 1108.3,
+      "width": 769.741,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        204.374,
+        50.2213,
+        650.252,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.673,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.473,
+        1392.65,
+        43.354,
+        33.708
+      ],
+      "rules-line-1": [
+        107.611,
+        1013.53,
+        843.777,
+        45.521
+      ],
+      "rules-line-2": [
+        146.418,
+        1072.53,
+        766.164,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          495.539,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          562.309,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          495.539,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-055-namekian-attack-drill.webp",
+      "before_url": "/assets/cards/trunks-055-namekian-attack-drill.webp?v=ced29f759a6b",
+      "before_sha256": "ced29f759a6b05607bf667d9bd9775694b263eb6490a622321151a8f8824e4b4",
+      "after_sha256": "8cbbfa57d02e5d5c904812dd835822c1d560e27e7403f60c0a924d1ca24e5c82",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-055-namekian-attack-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-055-namekian-attack-drill.webp?v=ffb05dea28a0",
+      "before_sha256": "ffb05dea28a0e80d7daf7856164d4fae8cc3455bfbfd02d56341589df58c016a",
+      "after_sha256": "54bbfc86e5899c904d14709c1ec9fca7fcb52157cd9a8cb3fd216ff4cfc3d17b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 650.2518703241897,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
