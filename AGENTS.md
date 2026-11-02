@@ -8,7 +8,9 @@ Read `tools/card-templates/v3/references/personality-title-and-color.md`. Person
 
 # Secondary banner text
 
-The November 2 forum-specific weight update supersedes the original-weight rule for **Gameplay Discussion** only. Use `tools/banner-corrections/gameplay-discussion-bold/` for the current bolder Flipside caption matching the News Arena banner. Preserve its original font size/placement, interior distress, solid lower strokes and phrase-fitted shadow. The default reusable secondary-text preset remains regular weight unless requested otherwise.
+The November 2 bolder **Gameplay Discussion** treatment was rejected as too heavy. The forum now uses the original regular Flipside masks and exports in `tools/banner-corrections/gameplay-discussion-fitted-shadow/`, compared directly with the live News / Enter the Arena caption at matched letter height. Do not restore the synthetic bold revision. Preserve original placement, interior distress, solid lower strokes and phrase-fitted shadow; see `tools/banner-corrections/gameplay-discussion-regular-match/README.md` for the comparison.
+
+The shared navigation is part of normal document flow on desktop and mobile: preserve `position:relative;top:auto`. It must scroll away with the page, with no sticky/fixed replacement. Page anchor and sticky sidebar offsets use a 12px inset rather than reserving the header height.
 
 For future banner captions, taglines and secondary headings, read `tools/banner-templates/secondary-text/README.md` and use its reusable renderer and `style.json`. The approved standard is actual Flipside at its original weight, with solid lower letter strokes and a soft shadow generated from the exact current words. Never add synthetic bold, fade the letter bottoms, or reuse an old phrase's shadow. Preserve unrelated artwork, logos, layout and pixels. The approved reference is the Gameplay Discussion fitted-shadow revision; primary logo typography remains separate.
 

@@ -58,16 +58,16 @@ body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
  body .site-header .nav-wordmark,body .page-wordmark img{filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
 }
 
-/* Stay with the page using Nuvio's exact top inset and frosted charcoal shell. */
+/* Keep the existing top inset and shell; navigation scrolls with document content. */
 @media screen{
  html:root{
   --site-header-top:14px;
   --site-header-height:78px;
   --site-header-clearance:calc(var(--site-header-top) + var(--site-header-height) + 12px);
-  scroll-padding-top:var(--site-header-clearance);
+  scroll-padding-top:12px;
  }
  body .site-header{
-  position:sticky;top:var(--site-header-top);z-index:40;
+  position:relative;top:auto;z-index:40;
   margin-top:var(--site-header-top);
   background:rgba(25,25,25,.9);border-color:rgba(255,255,255,.12);
   -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
@@ -75,18 +75,18 @@ body .site-header .nav-wordmark{width:auto;height:25px;filter:none}
  }
  @media(max-width:1200px){html:root{--site-header-height:68px}}
  @media(max-width:899px){html:root{--site-header-top:12px}}
- /* Keep existing sticky page controls below the shared navigation. */
+ /* Sticky page controls no longer need clearance for a pinned navigation bar. */
  @media(min-width:801px){
   body .chapter-nav{
-   top:var(--site-header-clearance);
-   max-height:calc(100dvh - var(--site-header-clearance) - 20px);
+   top:12px;
+   max-height:calc(100dvh - 32px);
   }
  }
  @media(orientation:landscape) and (min-width:800px){
   body.arena-page .workspace>aside{
-   top:var(--site-header-clearance);
-   max-height:calc(100vh - var(--site-header-clearance) - 12px);
-   max-height:calc(100dvh - var(--site-header-clearance) - 12px);
+   top:12px;
+   max-height:calc(100vh - 24px);
+   max-height:calc(100dvh - 24px);
   }
  }
 }
