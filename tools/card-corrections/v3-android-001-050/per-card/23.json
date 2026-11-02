@@ -1,0 +1,194 @@
+{
+  "number": 23,
+  "id": "android-023-namekian-determination",
+  "name": "Namekian Determination",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-023-namekian-determination.svg",
+  "native_source_sha256": "d24690849a31928cdb9d3b408606e9e9ec25d1e2078ea31d3d996cc1522aba69",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9531b997e804facc8ef6ce6f7df33306222f1ec40c4ca49e342a06c054ca38ce.png",
+      "sha256": "9531b997e804facc8ef6ce6f7df33306222f1ec40c4ca49e342a06c054ca38ce"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "db71f5c95d81b9bcc2e6b3612eccbf3551be1f70a04e36b87fca10fc3cf2c472"
+  },
+  "rules": [
+    {
+      "text": "(Limit 8 per deck.) Piccolo and Nail only.",
+      "baseline": 1049.3,
+      "width": 715.4979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: Choose 1 Namekian Style card in your",
+      "baseline": 1108.3,
+      "width": 809.676,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile and shuffle it into your Life Deck.",
+      "baseline": 1167.3,
+      "width": 806.7360000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        156.711,
+        50.2213,
+        745.579,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.627,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.427,
+        1392.65,
+        41.446,
+        33.708
+      ],
+      "rules-line-1": [
+        172.56,
+        1012.11,
+        713.881,
+        46.942
+      ],
+      "rules-line-2": [
+        125.902,
+        1072.53,
+        807.197,
+        45.521
+      ],
+      "rules-line-3": [
+        127.675,
+        1131.53,
+        803.649,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-023-namekian-determination.webp",
+      "before_url": "/assets/cards/android-023-namekian-determination.webp?v=ecd4f61454d8",
+      "before_sha256": "ecd4f61454d8acfec4376aea2e8b6f9ad527df6deeaa6a5312ac9c6e838100d6",
+      "after_sha256": "0ee1a6c89da4f51325ca20270250c4e49d400f253d4fb814c729ce8ca1e09583",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-023-namekian-determination.webp",
+      "before_url": "/assets/cards/downloads/android-023-namekian-determination.webp?v=dcfd77d14390",
+      "before_sha256": "dcfd77d143901a9f45ef245bea9433e91e11db424755663ed8be08833c139f5f",
+      "after_sha256": "8998c0e5e6f9d26d4c7075a2d935d37d26c059f1144604389d695b07c450a4c9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 745.5785536159602,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "number": 30,
+  "id": "android-030-red-burning-stance",
+  "name": "Red Burning Stance",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-030-red-burning-stance.svg",
+  "native_source_sha256": "4cdf06279699362b6f1136e0d168e8f82edd7cdefac49e3dcb66ffd70d37adbd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ec2a54b2f96ba1a20335d06fa44e065203d235ba9d8320ff26b5b412a578c5fe.png",
+      "sha256": "ec2a54b2f96ba1a20335d06fa44e065203d235ba9d8320ff26b5b412a578c5fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "82c0a9e81b48f85e2b2513487b5133210a80f57d5032eb6108b0bbd995e538c6"
+  },
+  "rules": [
+    {
+      "text": "POWER: For the rest of Combat,",
+      "baseline": 1049.3,
+      "width": 556.1010000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "each successful physical attack",
+      "baseline": 1108.3,
+      "width": 573.2510000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "against you raises your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 657.8740000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        237.239,
+        44.5,
+        584.521,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.541,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.34,
+        1392.65,
+        43.619,
+        33.708
+      ],
+      "rules-line-1": [
+        253.323,
+        1014.61,
+        552.354,
+        39.494
+      ],
+      "rules-line-2": [
+        244.124,
+        1072.53,
+        570.752,
+        45.521
+      ],
+      "rules-line-3": [
+        201.91,
+        1131.53,
+        655.179,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-030-red-burning-stance.webp",
+      "before_url": "/assets/cards/android-030-red-burning-stance.webp?v=e2a6d6bd24f1",
+      "before_sha256": "e2a6d6bd24f1f59705e0d7228db91da36dca052deac81c9b2313e46f788205a7",
+      "after_sha256": "7394e1096ce177513accef22e1ed7e1ecdc27a154e5de53ca59ca7fdd1f0378a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-030-red-burning-stance.webp",
+      "before_url": "/assets/cards/downloads/android-030-red-burning-stance.webp?v=04c1af10742d",
+      "before_sha256": "04c1af10742dce8eb4949c47390122815e0e9bb82ebff7c84792f08919b699db",
+      "after_sha256": "03b28bdb6c1cfc545b81edca285735c374518faf42b199da9901de96cf83ef85",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 584.5211970074814,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

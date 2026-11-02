@@ -1,0 +1,254 @@
+{
+  "number": 46,
+  "id": "android-046-black-energy-assault",
+  "name": "Black Energy Assault",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-046-black-energy-assault.svg",
+  "native_source_sha256": "b55330eb8f6c014b30db136c7ddf7d6d2516c8708a616a2cb12a2fc7507287b7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a095d9a4ef1420d81add3a60e3393690586b6255ea0233ddf58833c8adf418b8.png",
+      "sha256": "a095d9a4ef1420d81add3a60e3393690586b6255ea0233ddf58833c8adf418b8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "f94160f986ab8eb30a885a47d6d078ec23e83b8abaffe7a9a0cd77f5fce6053b"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: You may discard a card",
+      "baseline": 1108.3,
+      "width": 885.8220000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from your hand. If you do, your opponent chooses",
+      "baseline": 1167.3,
+      "width": 881.167,
+      "icon_inline": false
+    },
+    {
+      "text": "to either discard 1 random card from their hand",
+      "baseline": 1226.3,
+      "width": 841.036,
+      "icon_inline": false
+    },
+    {
+      "text": "or lose 4 stages.",
+      "baseline": 1285.3,
+      "width": 294.49,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.935,
+        44.5,
+        633.131,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.534,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.334,
+        1392.65,
+        45.633,
+        33.708
+      ],
+      "rules-line-1": [
+        278.159,
+        1013.53,
+        557.277,
+        45.913
+      ],
+      "power-icon": [
+        223.564,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        88.598,
+        1072.53,
+        881.804,
+        45.521
+      ],
+      "rules-line-3": [
+        89.774,
+        1132.85,
+        879.452,
+        44.2034
+      ],
+      "rules-line-4": [
+        110.232,
+        1190.53,
+        838.537,
+        36.162
+      ],
+      "rules-line-5": [
+        383.798,
+        1251.0,
+        291.403,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.159,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-046-black-energy-assault.webp",
+      "before_url": "/assets/cards/android-046-black-energy-assault.webp?v=bcfb006ed481",
+      "before_sha256": "bcfb006ed4819892f4fe47cb85b9f4fc989606c66f74eb02ec9d72940f971f6b",
+      "after_sha256": "c31145718398c002c116e6062717d2c814966e70d659052549383cd0cc62e74b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-046-black-energy-assault.webp",
+      "before_url": "/assets/cards/downloads/android-046-black-energy-assault.webp?v=c7918d4306c1",
+      "before_sha256": "c7918d4306c1ff59aaf1e281e1e51491e7178ca4ca70778da7ee57258838b44d",
+      "after_sha256": "bb46e680c898d9d1b4e4a9f3b2c32f7602e5a6ea8c491dd5d433bf7ac9805670",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 633.1309226932669,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

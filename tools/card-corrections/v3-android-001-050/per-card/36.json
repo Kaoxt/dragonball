@@ -1,0 +1,218 @@
+{
+  "number": 36,
+  "id": "android-036-saiyan-inspection",
+  "name": "Saiyan Inspection",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-036-saiyan-inspection.svg",
+  "native_source_sha256": "8a73203665ec7e1331f225718e6531cd7bb32a1b0266356720d10eb26638ebb7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/65a0a628153926e87d9ecdc9192bfb8769fbcd634d28e677cf0354f890a8ddcb.png",
+      "sha256": "65a0a628153926e87d9ecdc9192bfb8769fbcd634d28e677cf0354f890a8ddcb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "96e39f0a76b78b29f23f8a0566bd8fd7fc34e3d47d7e8b3c24196d6407e69228"
+  },
+  "rules": [
+    {
+      "text": "POWER: Attach to your opponent's MP.",
+      "baseline": 1049.3,
+      "width": 675.7100000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent cannot use that MP's personality",
+      "baseline": 1108.3,
+      "width": 845.5930000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "power while this card is attached.",
+      "baseline": 1167.3,
+      "width": 602.455,
+      "icon_inline": false
+    },
+    {
+      "text": "Discard this card when your opponent puts",
+      "baseline": 1226.3,
+      "width": 762.0480000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a Dragon Ball in play.",
+      "baseline": 1285.3,
+      "width": 370.97900000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        261.759,
+        44.5,
+        535.481,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        193.482,
+        1014.61,
+        672.035,
+        44.443
+      ],
+      "rules-line-2": [
+        107.622,
+        1072.53,
+        843.757,
+        45.521
+      ],
+      "rules-line-3": [
+        230.061,
+        1131.53,
+        598.878,
+        44.884
+      ],
+      "rules-line-4": [
+        149.97,
+        1190.53,
+        759.059,
+        45.521
+      ],
+      "rules-line-5": [
+        345.358,
+        1249.53,
+        368.284,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-036-saiyan-inspection.webp",
+      "before_url": "/assets/cards/android-036-saiyan-inspection.webp?v=5dd7cbe12958",
+      "before_sha256": "5dd7cbe12958e315f1a09cbd72a43b2b3fc3dc0a25ca2e99f926d235428cb95e",
+      "after_sha256": "83f0d4867590eedbc7a6f0389832018313fb6e2d00281ce09de580837caa38d7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-036-saiyan-inspection.webp",
+      "before_url": "/assets/cards/downloads/android-036-saiyan-inspection.webp?v=ea84ab2ba004",
+      "before_sha256": "ea84ab2ba004a4795bf5bbcfca4a9d8f150e32ba89d69f242d84c2cec00dd8ec",
+      "after_sha256": "07660444664f762c83769c032cf8249e09bf70b879e5fbbdae311d46c36607b4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 535.4812967581048,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "number": 9,
+  "id": "android-009-black-confusion-drill",
+  "name": "Black Confusion Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-009-black-confusion-drill.svg",
+  "native_source_sha256": "45fcab4c122d7cd2dad305291dfe187fa8414614e6db49eda321cc766cc921b6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/66ca7c057d10cb23659f59698ee20436dd3a72f7a725d0827ef63706ae5c620c.png",
+      "sha256": "66ca7c057d10cb23659f59698ee20436dd3a72f7a725d0827ef63706ae5c620c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "5c292d2ca385dfd7f501f1e486da11b16703032a2f520ec657e2f1773a2f94c2"
+  },
+  "rules": [
+    {
+      "text": "After each successful attack you perform,",
+      "baseline": 1049.3,
+      "width": 818.33175,
+      "icon_inline": true
+    },
+    {
+      "text": "choose 1 random card from your opponent's hand.",
+      "baseline": 1108.3,
+      "width": 886.4590000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "They shuffle it into their Life Deck,",
+      "baseline": 1167.3,
+      "width": 614.0680000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "then draw a card.",
+      "baseline": 1226.3,
+      "width": 311.98300000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        217.709,
+        50.2213,
+        623.581,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        807.386,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.186,
+        1392.65,
+        19.928,
+        33.708
+      ],
+      "rules-line-1": [
+        187.406,
+        1014.85,
+        750.44,
+        44.2034
+      ],
+      "power-icon": [
+        121.154,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        87.814,
+        1073.85,
+        883.372,
+        44.2034
+      ],
+      "rules-line-3": [
+        223.874,
+        1131.53,
+        611.252,
+        45.521
+      ],
+      "rules-line-4": [
+        374.611,
+        1192.0,
+        309.778,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          121.154,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          187.406,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          121.154,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-009-black-confusion-drill.webp",
+      "before_url": "/assets/cards/android-009-black-confusion-drill.webp?v=2a08a66a8b9e",
+      "before_sha256": "2a08a66a8b9ed551d9ec04c2d85134ebe21259cedcfde56df41716cd124564d3",
+      "after_sha256": "028a790a15634220a8ec6eab29c1f541b62bbc38cdf2aacab3542060e2117827",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-009-black-confusion-drill.webp",
+      "before_url": "/assets/cards/downloads/android-009-black-confusion-drill.webp?v=1c666ac944c8",
+      "before_sha256": "1c666ac944c8d6defe3c584c930f5469c3df3b0e90d008076127799294b113fc",
+      "after_sha256": "f83da0322b578089f38d959213b82a3f054133858fd6fba3d751352b1481176a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 623.5810473815462,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,3 +1,7 @@
+## Android Saga 001–050
+
+`android-001-050/` contains fifty native sources with portable raster dependencies. Review and export evidence is in `../../card-corrections/v3-android-001-050/`. Use the approved horizontal master for Location/Battleground cards 7/8/43/44, following `references/landscape-v3.md`. Preserve one-star rarity for 1–36, three stars for 37–50, the retained RR set emblem, current fixed text, and mirrored footer groups. Local artwork repairs on 20/34/37/39 and the approved #38 correction remain separate layers. `build_android_001_050.py` composes the sources; `verify_android_001_050.py` independently renders and compares both lossless export sizes, title clearance and correction masks.
+
 ## Hero middle-bar blue — November 2, 2026
 
 All 73 current V3 Hero personalities, including Hi-Tech, use the approved reference-blue gradient: `#258bc9` at the top to `#15639d` at the bottom. Read `tools/card-templates/v3/references/hero-middle-blue.md`; preserve grain, transparent brush ends, current title spacing, HERO paths, PUR, artwork and all unrelated components. The color-only release is recorded in `tools/card-corrections/v3-hero-reference-blue/`. Follow each row’s `hero_blue_revision` for current source and export hashes; historical label and title audits remain immutable.

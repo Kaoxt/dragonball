@@ -1,0 +1,182 @@
+{
+  "number": 5,
+  "id": "android-005-android-20-is-caught-off-guard",
+  "name": "Android 20 Is Caught Off Guard",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-005-android-20-is-caught-off-guard.svg",
+  "native_source_sha256": "13f26ac9aee81935b65923b7c582d0bf51b0cab33f1cfb1f8c594a64faf47ef4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5d677d081f434e5e8ec6a67c736d0f35d1020c7ff20d0c6a6a687ed69c266418.png",
+      "sha256": "5d677d081f434e5e8ec6a67c736d0f35d1020c7ff20d0c6a6a687ed69c266418"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "6bf155112f457a23d8d55abd6fc21bfae9b42315dcb55d8b9a1261657812004b"
+  },
+  "rules": [
+    {
+      "text": "Villains only. POWER: Put the bottom 4 cards of",
+      "baseline": 1049.3,
+      "width": 835.5479999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile on the bottom of your Life Deck.",
+      "baseline": 1108.3,
+      "width": 876.855,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        50.4296,
+        760.0,
+        57.1407
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        807.466,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.266,
+        1392.65,
+        19.769,
+        33.708
+      ],
+      "rules-line-1": [
+        112.78,
+        1013.53,
+        833.441,
+        45.521
+      ],
+      "rules-line-2": [
+        92.175,
+        1072.53,
+        874.65,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-005-android-20-is-caught-off-guard.webp",
+      "before_url": "/assets/cards/android-005-android-20-is-caught-off-guard.webp?v=2d58df92c3de",
+      "before_sha256": "2d58df92c3de9a837e301e0849ac74d77df3f7e117432d250ea6afc929e4b36d",
+      "after_sha256": "47269732076e628966b79da4900b9ee556ef6c8925d2d66585298c27af191c0a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-005-android-20-is-caught-off-guard.webp",
+      "before_url": "/assets/cards/downloads/android-005-android-20-is-caught-off-guard.webp?v=206e77e41848",
+      "before_sha256": "206e77e41848649b0d7a3178169055bf0b38f4b0eaec9e53425135c9bf66f4bc",
+      "after_sha256": "88a89f9f8a3d27e68848619e2e49d294c53af547f1eebcd2d31e1b24020d8238",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 71.24777350707791,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 57.14071435267648,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8281262949663257
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

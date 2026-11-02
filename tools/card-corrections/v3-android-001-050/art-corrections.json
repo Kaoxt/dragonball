@@ -1,0 +1,36 @@
+{
+  "20": {
+    "source_dimensions": [
+      1503,
+      1046
+    ],
+    "native_vector_repair": "Restore RR lettering in the existing hat badge; no character repaint."
+  },
+  "34": {
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "patch": "localized-corrections/034.png",
+    "clip": "M 90 850 L 160 650 L 185 470 L 285 345 L 420 245 L 485 245 L 523 365 L 520 525 L 455 630 L 410 850 Z",
+    "reason": "Restore compact bent temple fingers and warm original hand shading; preserve face core."
+  },
+  "37": {
+    "source_dimensions": [
+      1503,
+      1046
+    ],
+    "patch": "localized-corrections/037.png",
+    "clip": "M 906 378 L 1119 366 L 1162 490 L 1114 600 L 900 615 L 884 467 Z",
+    "reason": "Restore original open near hand, retaining wrist and sleeve position."
+  },
+  "39": {
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "patch": "localized-corrections/039.png",
+    "clip": "M 518 157 L 738 154 L 767 291 L 742 344 L 697 321 L 637 344 L 585 374 L 521 324 Z",
+    "reason": "Remove invented black hat and restore visible teal cranial dome."
+  }
+}

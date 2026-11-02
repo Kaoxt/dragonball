@@ -1,0 +1,182 @@
+{
+  "number": 32,
+  "id": "android-032-red-power-drain",
+  "name": "Red Power Drain",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-032-red-power-drain.svg",
+  "native_source_sha256": "2f66c5dc36c104d5fdca959309aedc198bd4ba466cb29d96e6d6b8e2192c9a59",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e4c926a616b7f00dc3ed65f2bd029544213ebf52b8450db2e19bf551d8642c26.png",
+      "sha256": "e4c926a616b7f00dc3ed65f2bd029544213ebf52b8450db2e19bf551d8642c26"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "22b6ff964da4595c3dca6090eaffd4bc2a25d4ee2744490454ecad3248be97af"
+  },
+  "rules": [
+    {
+      "text": "POWER: For the rest of Combat, all physical",
+      "baseline": 1049.3,
+      "width": 766.8990000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks against you cost +2 stages to perform.",
+      "baseline": 1108.3,
+      "width": 831.971,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        282.709,
+        50.2213,
+        493.582,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.336,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.135,
+        1392.65,
+        42.029,
+        33.708
+      ],
+      "rules-line-1": [
+        147.937,
+        1013.53,
+        763.126,
+        45.521
+      ],
+      "rules-line-2": [
+        114.862,
+        1072.53,
+        829.276,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-032-red-power-drain.webp",
+      "before_url": "/assets/cards/android-032-red-power-drain.webp?v=4280cc9026f4",
+      "before_sha256": "4280cc9026f4ef93c2576197d3b42e58865fc5ae2e5dd3bec91530e56edb10a7",
+      "after_sha256": "3c99a330a17b230eaee01f8bb90a2592c005713532be0e3e69619a481dc72d22",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-032-red-power-drain.webp",
+      "before_url": "/assets/cards/downloads/android-032-red-power-drain.webp?v=638c62912386",
+      "before_sha256": "638c629123864ed707a94817798eed8fd2ea46fd62938962218812507cdca0f5",
+      "after_sha256": "0abf910fe74ed18db60805bcf35a9a9a0047bdf400d904f8e6c96c73e9a6c633",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 493.5822942643392,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

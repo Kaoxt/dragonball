@@ -1,0 +1,218 @@
+{
+  "number": 10,
+  "id": "android-010-black-draining-aura",
+  "name": "Black Draining Aura",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-010-black-draining-aura.svg",
+  "native_source_sha256": "00697c11904bfe932b27bfd385ea76aef3cba2e52b3e095f51bffccefefc7c88",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/14f7a321a2556a9b758ca2a50b21e605dede1a31c083870c4db8bcc931388513.png",
+      "sha256": "14f7a321a2556a9b758ca2a50b21e605dede1a31c083870c4db8bcc931388513"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "8594a3985de5edd85adca40bed960e710a84f214120a9977aea05d8a080bc714"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 3 stages. If you",
+      "baseline": 1049.3,
+      "width": 784.4991555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "declared Tokui-Waza, your MP gains 5 stages.",
+      "baseline": 1108.3,
+      "width": 813.8899999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        233.669,
+        44.5,
+        591.662,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.092,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        858.892,
+        1392.65,
+        36.517,
+        33.708
+      ],
+      "rules-line-1": [
+        192.728,
+        1013.53,
+        728.091,
+        45.913
+      ],
+      "power-icon": [
+        138.181,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        124.099,
+        1072.53,
+        810.803,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.181,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          192.728,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          138.181,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-010-black-draining-aura.webp",
+      "before_url": "/assets/cards/android-010-black-draining-aura.webp?v=0d43909eb84c",
+      "before_sha256": "0d43909eb84c4b3df7ff3da96d1d3fafdfc6262572961537e166d178412a5790",
+      "after_sha256": "6dfe9ffe281373e0d36edbde5e7d9d597309ae8e0e13ea5f1ba5c9de36cb5378",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-010-black-draining-aura.webp",
+      "before_url": "/assets/cards/downloads/android-010-black-draining-aura.webp?v=f42a0cbf5472",
+      "before_sha256": "f42a0cbf5472ab2276c454d5757b2794f58818184e73791198a193a7071b2987",
+      "after_sha256": "940aa415ed4eebeee58415e987783a1ac4447560f4515d962a1d017ff32da07c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 591.6620947630923,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

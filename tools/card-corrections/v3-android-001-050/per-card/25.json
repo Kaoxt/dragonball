@@ -1,0 +1,206 @@
+{
+  "number": 25,
+  "id": "android-025-namekian-energy-absorption",
+  "name": "Namekian Energy Absorption",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-025-namekian-energy-absorption.svg",
+  "native_source_sha256": "e1da2b42b4367ce67b5573469c291a50cc8e841c4f5ad70a447e4db15b3724d6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a0f52cf3e2d565d377af5c009f5302e0f652ba0f7227ed27f1f21f2628bcfafc.png",
+      "sha256": "a0f52cf3e2d565d377af5c009f5302e0f652ba0f7227ed27f1f21f2628bcfafc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "22d4f98ae97720764d5b6aa357a65c7948318350532c47880fe5845cdcc14ee5"
+  },
+  "rules": [
+    {
+      "text": "Piccolo and Nail only. POWER:",
+      "baseline": 1049.3,
+      "width": 525.5740000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Prevent all but 2 life cards of damage from an",
+      "baseline": 1108.3,
+      "width": 813.596,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack. Your MP gains 1 stage for each",
+      "baseline": 1167.3,
+      "width": 807.961,
+      "icon_inline": false
+    },
+    {
+      "text": "life card of base damage that attack would deal.",
+      "baseline": 1226.3,
+      "width": 858.7740000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        48.8138,
+        760.0,
+        60.3724
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.044,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.844,
+        1392.65,
+        42.612,
+        33.708
+      ],
+      "rules-line-1": [
+        269.163,
+        1013.53,
+        520.674,
+        45.521
+      ],
+      "rules-line-2": [
+        124.588,
+        1072.53,
+        809.823,
+        45.913
+      ],
+      "rules-line-3": [
+        127.112,
+        1131.53,
+        804.776,
+        45.913
+      ],
+      "rules-line-4": [
+        101.73,
+        1190.53,
+        855.54,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-025-namekian-energy-absorption.webp",
+      "before_url": "/assets/cards/android-025-namekian-energy-absorption.webp?v=1954e007d857",
+      "before_sha256": "1954e007d857459cb00646cb4069163ff4d561861e94b8e232311b791e863b2d",
+      "after_sha256": "16739c448a9911f54627dec6df49806f1ccc07f924f7aa40ea7fcdc957c0fcfa",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-025-namekian-energy-absorption.webp",
+      "before_url": "/assets/cards/downloads/android-025-namekian-energy-absorption.webp?v=adc75eda35b0",
+      "before_sha256": "adc75eda35b0c9908a3700bff1e480ae3e6940832c110866fe36d18745cbe95e",
+      "after_sha256": "25554e7dd8ca75eed11e2cd8b7438c267f1f9b3537287dd3c54fd40f8c5c163e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 75.27733755942947,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 60.37242472266244,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8749626771400352
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "number": 31,
+  "id": "android-031-red-energy-charge",
+  "name": "Red Energy Charge",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-031-red-energy-charge.svg",
+  "native_source_sha256": "4f0da163350f9717370c562bb24bd413e9f77571259ad351e44b44f73091b457",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2e5b8d92529361ecc93a23d3424c1d237f45536ba61469a8ba00227ff38e4fb2.png",
+      "sha256": "2e5b8d92529361ecc93a23d3424c1d237f45536ba61469a8ba00227ff38e4fb2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "48c04071bec7c57d97dfdc7d46ecc2454576f8c3507a38500f95cfbd4e0a8c9b"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage.",
+      "baseline": 1049.3,
+      "width": 585.8041555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 life cards. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 813.2529999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        248.639,
+        44.5,
+        561.722,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        291.977,
+        1013.53,
+        529.641,
+        45.913
+      ],
+      "power-icon": [
+        237.382,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        124.736,
+        1072.53,
+        809.529,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          237.382,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          291.977,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          237.382,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-031-red-energy-charge.webp",
+      "before_url": "/assets/cards/android-031-red-energy-charge.webp?v=56deed3d4ceb",
+      "before_sha256": "56deed3d4ceb4cdd988aa1fd3b3d199785d5803832e7f4c77b033eb07d7bc5b4",
+      "after_sha256": "c4a9d2f64c7e43ae1d21a5d4f2821f521d1bcd58389f9332edde15c9aec3dc4d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-031-red-energy-charge.webp",
+      "before_url": "/assets/cards/downloads/android-031-red-energy-charge.webp?v=909399f7b649",
+      "before_sha256": "909399f7b649ec77a8439e22e86a39ab15968a5947a2c35ac86c29afbe4bf25f",
+      "after_sha256": "05183c65539dee403fe7e5aef371a2ee183cd22033042948736f37c1975184de",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 561.7219451371571,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "number": 44,
+  "id": "android-044-master-roshis-island",
+  "name": "Master Roshi's Island",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-044-master-roshis-island.svg",
+  "native_source_sha256": "5f3c5567e3a7a63ec00fb6bcf031735234414ac1d168d616c3986b6ac8761255",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b314aed18870a9583b9447d6de3ba4414f87853bdb8087cdbecdd1dc20bb9e38.png",
+      "sha256": "b314aed18870a9583b9447d6de3ba4414f87853bdb8087cdbecdd1dc20bb9e38"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "56e4fd88801c210945de24b3a03d6c97b0bc26731521fa441fec4aa72d8c3154"
+  },
+  "rules": [
+    {
+      "text": "All Named cards, including Dende Dragon Balls,",
+      "baseline": 815.983333333333,
+      "width": 897.07475,
+      "icon_inline": true
+    },
+    {
+      "text": "cost +2 life cards to play.",
+      "baseline": 874.983333333333,
+      "width": 448.84000000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        420.16,
+        50.2213,
+        642.681,
+        57.5574
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        252.282,
+        946.669,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        1132.78,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1192.58,
+        968.646,
+        47.541,
+        33.708
+      ],
+      "rules-line-1": [
+        360.035,
+        780.213,
+        829.183,
+        45.913
+      ],
+      "power-icon": [
+        293.783,
+        787.043,
+        53.5938,
+        23.5812
+      ],
+      "rules-line-2": [
+        518.623,
+        839.213,
+        445.753,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          293.783,
+          789.186,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          360.035,
+          781.683,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          293.783,
+          789.186,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-044-master-roshis-island.webp",
+      "before_url": "/assets/cards/android-044-master-roshis-island.webp?v=9c24fae914a5",
+      "before_sha256": "9c24fae914a5e349e52c08d38e173f667b6af4cb7ba1760df8947f20619a93f4",
+      "after_sha256": "4ecfb49f8336dfe8247ae8f5b7ee0467aa56abc6b301ccfac2402466d783d3fc",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-044-master-roshis-island.webp",
+      "before_url": "/assets/cards/downloads/android-044-master-roshis-island.webp?v=395a4306f51a",
+      "before_sha256": "395a4306f51a1356d7ca253e19267a4742ff71a595fa8716d27cf12162dfef09",
+      "after_sha256": "b3eaae862d7ba64f7bea9dc98e3153c26609e72e0f91b318c6c3f09c6274183f",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      296.55,
+      985.5
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "number": 38,
+  "id": "android-038-android-17s-haymaker",
+  "name": "Android 17's Haymaker",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-038-android-17s-haymaker.svg",
+  "native_source_sha256": "966b9e900d5a247ad3df907387a0f558fd659055e0c28d8e078e3d33b4444bd6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4907376a638d47c11b275ce7acbae771a32d452bb7df6580c8fd1e1007be3917.png",
+      "sha256": "4907376a638d47c11b275ce7acbae771a32d452bb7df6580c8fd1e1007be3917"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": true,
+    "localized_correction": null,
+    "source_native_sha256": "3d76400595c2f151327aa56bcabcf79071e732460308db9c3a49b394c60823c7"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 5 stages, or 7 stages",
+      "baseline": 1049.3,
+      "width": 880.6371555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "if performed by Android 17. Banish after use.",
+      "baseline": 1108.3,
+      "width": 788.165,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        186.479,
+        44.5,
+        686.042,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        144.144,
+        1013.53,
+        825.258,
+        45.913
+      ],
+      "power-icon": [
+        89.5979,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        136.936,
+        1072.53,
+        785.127,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          89.5979,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          144.144,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          89.5979,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-038-android-17s-haymaker.webp",
+      "before_url": "/assets/cards/android-038-android-17s-haymaker.webp?v=e0fa86403141",
+      "before_sha256": "e0fa864031419cd73700decd1495874267f7f1fa169e165d46f34a379d519545",
+      "after_sha256": "5f7cfe4dc019b67a5a2723059412785bdf9c3215b441e3a8db9bfb9a7bf96b03",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-038-android-17s-haymaker.webp",
+      "before_url": "/assets/cards/downloads/android-038-android-17s-haymaker.webp?v=060758ba3334",
+      "before_sha256": "060758ba33349b16e08ded4812a2d9dc62462921f848dd321827571f85bd54d2",
+      "after_sha256": "c6ba4560e95ce16a848629529b642888b7cde29ab5224a47a6a6735e24407ac5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 686.0423940149627,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

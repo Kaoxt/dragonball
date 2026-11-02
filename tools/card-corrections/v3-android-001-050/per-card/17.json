@@ -1,0 +1,230 @@
+{
+  "number": 17,
+  "id": "android-017-blue-sidestep",
+  "name": "Blue Sidestep",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-017-blue-sidestep.svg",
+  "native_source_sha256": "cc12d1973e8d8ef4ac0a27921e4622ff08e42b1314006d9534f0af556108cc38",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/033bc74efbe5e8266afa6bd0e6ea9c8f45f121c08acf8e60cd4fd1f725ec74c8.png",
+      "sha256": "033bc74efbe5e8266afa6bd0e6ea9c8f45f121c08acf8e60cd4fd1f725ec74c8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "4b1d986a62b0f90f2e546a5278384ed72c4cd7282ea3d88d301ade58d4e35a2c"
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 471.6019473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "If you declared Tokui-Waza,",
+      "baseline": 1108.3,
+      "width": 496.66400000000004,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 663.264,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        325.941,
+        44.5,
+        407.117,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        800.443,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        860.243,
+        1392.65,
+        33.814,
+        33.708
+      ],
+      "rules-line-1": [
+        345.175,
+        1014.61,
+        419.342,
+        44.835
+      ],
+      "power-icon": [
+        294.483,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        283.066,
+        1072.53,
+        492.868,
+        45.521
+      ],
+      "rules-line-3": [
+        199.485,
+        1132.61,
+        660.03,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          345.175,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-017-blue-sidestep.webp",
+      "before_url": "/assets/cards/android-017-blue-sidestep.webp?v=e5a2a9306646",
+      "before_sha256": "e5a2a930664662558af78d9619d7d8980ce4a3943bd1ba2c0c55404b74461879",
+      "after_sha256": "d2b2250f6b9bcd2af6658e44db9118f4874a6f9083d9ef122b70ac936b054abc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-017-blue-sidestep.webp",
+      "before_url": "/assets/cards/downloads/android-017-blue-sidestep.webp?v=cff64ef4ad32",
+      "before_sha256": "cff64ef4ad3289f8f2cbd06cc1006c3c837b8b5c6498aa33be03a20063337068",
+      "after_sha256": "4b290f488cb261016d4df075fff07ff4646c9ea5a8d7d0af5eca058390c58523",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 407.1172069825437,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

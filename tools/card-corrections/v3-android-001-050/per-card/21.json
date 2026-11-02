@@ -1,0 +1,206 @@
+{
+  "number": 21,
+  "id": "android-021-namekian-blocking-stance",
+  "name": "Namekian Blocking Stance",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-021-namekian-blocking-stance.svg",
+  "native_source_sha256": "33e173034038184c094c536c66fe10bdc076e9ba6516eec2f34c51fde6260f44",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dd4890e84a7bf08210ae9a560694c359f21b8ccf13fadb2d4dac09631c2601f3.png",
+      "sha256": "dd4890e84a7bf08210ae9a560694c359f21b8ccf13fadb2d4dac09631c2601f3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "b48c0235a22b43becd371fa8d36a0c0ee3d961cba5f26e6f2a38578947fffb26"
+  },
+  "rules": [
+    {
+      "text": "(Limit 8 per deck.) Piccolo and Nail only.",
+      "baseline": 1049.3,
+      "width": 715.4979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: Choose an opponent's Drill in play.",
+      "baseline": 1108.3,
+      "width": 753.7180000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent cannot use that Drill's power",
+      "baseline": 1167.3,
+      "width": 776.5030000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of the game. Banish after use.",
+      "baseline": 1226.3,
+      "width": 744.3100000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.1712,
+        740.0,
+        63.6576
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        800.496,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        860.296,
+        1392.65,
+        33.708,
+        33.708
+      ],
+      "rules-line-1": [
+        172.56,
+        1012.11,
+        713.881,
+        46.942
+      ],
+      "rules-line-2": [
+        154.478,
+        1072.53,
+        750.043,
+        45.521
+      ],
+      "rules-line-3": [
+        142.023,
+        1131.53,
+        774.955,
+        44.884
+      ],
+      "rules-line-4": [
+        158.57,
+        1190.53,
+        741.86,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-021-namekian-blocking-stance.webp",
+      "before_url": "/assets/cards/android-021-namekian-blocking-stance.webp?v=000268eea3d7",
+      "before_sha256": "000268eea3d7182f845407f1f078d27273dfd47882d3ca02f11b745a85737a84",
+      "after_sha256": "671a13b79e5cf30db9196de292b964d9403557fc8468ecd73295deb2c8f527f3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-021-namekian-blocking-stance.webp",
+      "before_url": "/assets/cards/downloads/android-021-namekian-blocking-stance.webp?v=292895882fe0",
+      "before_sha256": "292895882fe0cf203c221c484f790a0d65807bb6d29e019cae57e0a517e549b5",
+      "after_sha256": "89bd5b3ae4f63e8dfeb29dd4037d97cdafbe0b33a91bab55be84f58d368eb4ac",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 79.37359219135472,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 63.65762093746648,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9225742164850215
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

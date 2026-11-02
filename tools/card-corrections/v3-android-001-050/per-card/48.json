@@ -1,0 +1,230 @@
+{
+  "number": 48,
+  "id": "android-048-black-off-balancing-punch",
+  "name": "Black Off-Balancing Punch",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-048-black-off-balancing-punch.svg",
+  "native_source_sha256": "3eb2f46dda1c903c5408dafb3944909110bc6abb294a7e656993401ce65e7269",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dcf34831fc4e4ec1a6cff0902c4ab3eebb67e8cd235ccd72958a275f0e70cc4c.png",
+      "sha256": "dcf34831fc4e4ec1a6cff0902c4ab3eebb67e8cd235ccd72958a275f0e70cc4c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "3a45f87d140147ccefe59c9a75e88ee18aa66815e06dbd7b50568c5379e5ae34"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Stops the next attack your opponent",
+      "baseline": 1108.3,
+      "width": 728.6790000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "performs against you this Combat.",
+      "baseline": 1167.3,
+      "width": 613.8720000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.1336,
+        740.0,
+        63.7328
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.534,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.333,
+        1392.65,
+        45.633,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "power-icon": [
+        180.321,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        166.704,
+        1073.61,
+        725.592,
+        44.443
+      ],
+      "rules-line-3": [
+        224.352,
+        1131.53,
+        610.295,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-048-black-off-balancing-punch.webp",
+      "before_url": "/assets/cards/android-048-black-off-balancing-punch.webp?v=03740119e4b0",
+      "before_sha256": "03740119e4b0a8d1397d061decc3b2ec21cae6582b0aa0f6fe4977ef1df80ce6",
+      "after_sha256": "9ca7732d5e551e6ab64351a0130d59e03b94ba049fd68ed64f2c534be1b1b0b3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-048-black-off-balancing-punch.webp",
+      "before_url": "/assets/cards/downloads/android-048-black-off-balancing-punch.webp?v=08bc6c3a7384",
+      "before_sha256": "08bc6c3a73843c862a92c94dad617e7fc30bef1566b062c857b8bb29a051b557",
+      "after_sha256": "e39fe52691d6fcb4aba55320db386d17a406ba84dfc4f2982970e08f9da9cabf",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 79.46735395189003,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 63.732817869415804,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9236640270929827
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

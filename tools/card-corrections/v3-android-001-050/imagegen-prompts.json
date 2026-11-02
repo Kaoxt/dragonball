@@ -1,0 +1,17 @@
+[
+  {
+    "n": "034",
+    "path": "/workspace/scratch/0198c67cbbf5/generated_images/exec-c6144242-42c6-4fa7-92d7-bb900507023c.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the modern artwork edit target. Image 2 is the original printed card, used ONLY to verify the hand at Vegeta's left temple. Correct only that hand and its immediate wrist: match the compact bent fingers pressed against the temple and warm tan/golden shading of the original, instead of the current broad white flat salute. Preserve Vegeta's face, eyes, mouth, hair, expression, all armor, aura, composition and all surrounding pixels. Return the full illustration at exactly the same framing and aspect ratio as image 1, without card frame or text. The correction will be isolated as a small native mask, so everything outside the hand must remain registered."
+  },
+  {
+    "n": "037",
+    "path": "/workspace/scratch/0198c67cbbf5/generated_images/exec-d0890595-bc4f-4a97-8268-6b33ac5ba6ff.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the modern artwork target; image 2 is the original card for exact pose reference. Correct ONLY Android 17's near hand at center-right from a tight closed fist to the original relaxed open hand, fingers slightly bent/spread and palm angled down toward Trunks. Preserve the white sleeve and wrist position, 17's face/eyes/hair/scarf, Trunks, all props, colors and camera. Do not move or redraw any other anatomy. Return the clean full illustration in image 1's original aspect ratio and identical registration. No card frame, lettering or watermark."
+  },
+  {
+    "n": "039",
+    "path": "/workspace/scratch/0198c67cbbf5/generated_images/exec-052a715a-b2d5-4b12-89e1-183514c82196.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the modern illustration edit target; image 2 is the original card. Android 20 has NO black hat in the original scene. Remove only the added tall black RR hat, restore his exposed rounded glass teal cranial dome at its natural compact size with white side hair, faithfully matching the original card. Fill the space where the tall hat was with continuous existing blue sky. Preserve his existing face/eyes/moustache, body, outstretched fingers, other fist, costume, white flowing hair, placement, crop and all other pixels. Keep the same aspect ratio and registration as image 1; clean art only without card border or text. Only a small head-area patch will be used."
+  }
+]

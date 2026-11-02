@@ -1,0 +1,230 @@
+{
+  "number": 2,
+  "id": "android-002-android-18s-low-blow",
+  "name": "Android 18's Low Blow",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-002-android-18s-low-blow.svg",
+  "native_source_sha256": "746722c3fcaa662363ecdc14ec62bfff17c51dc72332215ba150d98abcfcae0e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7786d076a3781676c06013daac658793155ea6b79e69e7382b93368efdbeeea1.png",
+      "sha256": "7786d076a3781676c06013daac658793155ea6b79e69e7382b93368efdbeeea1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "74923693a43c9dc668844ac0ee2903327c66cb454c5481e95a090a0785162323"
+  },
+  "rules": [
+    {
+      "text": "Villains only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 575.4111555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages. If stopped, your opponent's",
+      "baseline": 1108.3,
+      "width": 845.691,
+      "icon_inline": false
+    },
+    {
+      "text": "MP loses 2 stages, to a minimum of 0.",
+      "baseline": 1167.3,
+      "width": 664.587,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        192.157,
+        50.2213,
+        674.686,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        807.704,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.504,
+        1392.65,
+        19.292,
+        33.708
+      ],
+      "rules-line-1": [
+        243.117,
+        1013.53,
+        572.765,
+        45.521
+      ],
+      "power-icon": [
+        479.096,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        108.149,
+        1073.61,
+        842.702,
+        44.835
+      ],
+      "rules-line-3": [
+        198.995,
+        1131.53,
+        661.01,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 13,
+        "previous_visible_bounds": [
+          479.096,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          533.643,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          479.096,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-002-android-18s-low-blow.webp",
+      "before_url": "/assets/cards/android-002-android-18s-low-blow.webp?v=bb4ec73039c4",
+      "before_sha256": "bb4ec73039c461eafc548f3cc4b2e266083316ebc66f2b86a69aa55912369f1a",
+      "after_sha256": "f86deec3412723d09579e24b261137d7c349957c93aa03db5bb9b21aae5f29f0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-002-android-18s-low-blow.webp",
+      "before_url": "/assets/cards/downloads/android-002-android-18s-low-blow.webp?v=2e2a7568e895",
+      "before_sha256": "2e2a7568e895e2e891d3a6c345f049d300ede1fef14da6b0dfbf265ec494f373",
+      "after_sha256": "3170bd206ad10e8ad917b95a80971c4f23fafc05571f71b8e827bf67e363219d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 674.6857855361596,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "number": 39,
+  "id": "android-039-android-20s-energy-dive",
+  "name": "Android 20's Energy Dive",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-039-android-20s-energy-dive.svg",
+  "native_source_sha256": "f2d555d2f535969cae5b2f6c7cdd1fff84c3a9ba5a6152189c50dcbf0be5fe42",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d0111667c82b639cff8346ce8123fb3732fde222bbce77614228f282dff3d12c.png",
+      "sha256": "d0111667c82b639cff8346ce8123fb3732fde222bbce77614228f282dff3d12c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0be9caee4231e2f2deaaae68ca171ce18e9d91dbe0f3c053a918d3eb6bc0df71.png",
+      "sha256": "0be9caee4231e2f2deaaae68ca171ce18e9d91dbe0f3c053a918d3eb6bc0df71"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": {
+      "source_dimensions": [
+        1504,
+        1046
+      ],
+      "patch": "localized-corrections/039.png",
+      "clip": "M 518 157 L 738 154 L 767 291 L 742 344 L 697 321 L 637 344 L 585 374 L 521 324 Z",
+      "reason": "Remove invented black hat and restore visible teal cranial dome."
+    },
+    "source_native_sha256": "91c6053c8a8a9bbd02344ec15c208815fac8718172385f181b9f69e71051d53c"
+  },
+  "rules": [
+    {
+      "text": "Villains only. Energy attack costing 1 stage.",
+      "baseline": 1049.3,
+      "width": 822.8611555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards and 3 stages.",
+      "baseline": 1108.3,
+      "width": 612.9900000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        154.775,
+        44.5,
+        749.45,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.779,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.579,
+        1392.65,
+        43.142,
+        33.708
+      ],
+      "rules-line-1": [
+        119.392,
+        1013.53,
+        820.215,
+        45.913
+      ],
+      "power-icon": [
+        355.371,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        224.867,
+        1072.53,
+        609.266,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 13,
+        "previous_visible_bounds": [
+          355.371,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          409.967,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          355.371,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-039-android-20s-energy-dive.webp",
+      "before_url": "/assets/cards/android-039-android-20s-energy-dive.webp?v=c37a6d30a8ff",
+      "before_sha256": "c37a6d30a8ffe5c62b9f6affcdd83dd3b0c6401fec135e6b2d0af2bfd8518fdd",
+      "after_sha256": "c176e2df103611777762d182ebbaa1f952a2bd7d62b38002744acfd10a175dee",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-039-android-20s-energy-dive.webp",
+      "before_url": "/assets/cards/downloads/android-039-android-20s-energy-dive.webp?v=c6c88f9c3ff9",
+      "before_sha256": "c6c88f9c3ff90216dc36131f1be2417e9d3eccca012be5f5836f135f3467bf28",
+      "after_sha256": "8416a1ddc16f4b57fd582e8091d0651c587fe2a394631bc622153ed2ca25da1d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 749.4501246882794,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

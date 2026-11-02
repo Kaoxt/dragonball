@@ -1,0 +1,242 @@
+{
+  "number": 13,
+  "id": "android-013-blue-defensive-flight",
+  "name": "Blue Defensive Flight",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-013-blue-defensive-flight.svg",
+  "native_source_sha256": "bb11791244fb1cad52fc3269fa7212d5007e4d092884f3a5321a3557666d11dc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/aaaae4fdefc2d73eaba7660d684009bf7931632cfacb9de46483c61c99d02f3f.png",
+      "sha256": "aaaae4fdefc2d73eaba7660d684009bf7931632cfacb9de46483c61c99d02f3f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "21ddf0069eecc593eb4b4ad08f5ce0f5d40c4a403727e23d6fb77abee182be01"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "You may lower your MP any number of stages,",
+      "baseline": 1108.3,
+      "width": 816.291,
+      "icon_inline": false
+    },
+    {
+      "text": "to a minimum of 0. For every 2 stages lost,",
+      "baseline": 1167.3,
+      "width": 756.3149999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger 1 level.",
+      "baseline": 1226.3,
+      "width": 635.5300000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.074,
+        44.5,
+        634.852,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.807,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.607,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        122.763,
+        1073.85,
+        813.475,
+        44.5954
+      ],
+      "rules-line-3": [
+        152.481,
+        1131.53,
+        754.038,
+        45.913
+      ],
+      "rules-line-4": [
+        213.352,
+        1192.0,
+        632.296,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-013-blue-defensive-flight.webp",
+      "before_url": "/assets/cards/android-013-blue-defensive-flight.webp?v=7b54e631bae3",
+      "before_sha256": "7b54e631bae384f903e808fa919de0ba8fbf201849ebccc933abcb1985054337",
+      "after_sha256": "ee23cc98a72342f06d574bd3231c25bf7e6a0fabfd7b7383e42ce673d72bc731",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-013-blue-defensive-flight.webp",
+      "before_url": "/assets/cards/downloads/android-013-blue-defensive-flight.webp?v=56a86d1b1b1e",
+      "before_sha256": "56a86d1b1b1e52fc168cd7441f2f24f21d6f705b47ffd2b2895769d679e56aa7",
+      "after_sha256": "ac968b49f4ec503098f33971705be0ce466b8c51276fa64727501f3579ae9ebb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 634.851620947631,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

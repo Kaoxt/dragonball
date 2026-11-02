@@ -1,0 +1,194 @@
+{
+  "number": 50,
+  "id": "android-050-black-power-up",
+  "name": "Black Power Up",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-050-black-power-up.svg",
+  "native_source_sha256": "f5f7cc8831d77737da144f2bc3afef9a4b929ede5182f1ed396014c7ef16b37d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c07cae647b06c5e966146b53141bd95f3c998cd13d21fa2159aa9647a87ce237.png",
+      "sha256": "c07cae647b06c5e966146b53141bd95f3c998cd13d21fa2159aa9647a87ce237"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "6b6bcda41244aa3f5b204399a6455b421277752505e0739076d9d3b78882f642"
+  },
+  "rules": [
+    {
+      "text": "POWER: Raise any personality to its",
+      "baseline": 1049.3,
+      "width": 630.287,
+      "icon_inline": false
+    },
+    {
+      "text": "highest stage. If you declared Tokui-Waza,",
+      "baseline": 1108.3,
+      "width": 758.422,
+      "icon_inline": false
+    },
+    {
+      "text": "you may also end Combat.",
+      "baseline": 1167.3,
+      "width": 464.4710000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        296.517,
+        44.5,
+        465.965,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.541,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.34,
+        1392.65,
+        43.619,
+        33.708
+      ],
+      "rules-line-1": [
+        215.826,
+        1013.53,
+        627.347,
+        45.521
+      ],
+      "rules-line-2": [
+        152.04,
+        1072.53,
+        754.92,
+        45.913
+      ],
+      "rules-line-3": [
+        298.367,
+        1132.61,
+        462.266,
+        44.443
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-050-black-power-up.webp",
+      "before_url": "/assets/cards/android-050-black-power-up.webp?v=9d44be92183d",
+      "before_sha256": "9d44be92183dbd9c14e79e1616e6f2b538c674200ef7637b740bc25a8f729a9d",
+      "after_sha256": "252b5c8049df1ef2744ba605f0050c7edd29874450b1128a25bddec2fb17a5a0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-050-black-power-up.webp",
+      "before_url": "/assets/cards/downloads/android-050-black-power-up.webp?v=ceb3b639ede6",
+      "before_sha256": "ceb3b639ede6222b9968e29e3051dc4beef6263b1b4c0ce80128d1ce407b0866",
+      "after_sha256": "744c821ae5231e4a3138e04a0c6cbf71c25413626563310d559e68ef0491af6c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 465.9650872817956,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

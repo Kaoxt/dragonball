@@ -1,0 +1,170 @@
+{
+  "number": 16,
+  "id": "android-016-blue-idea",
+  "name": "Blue Idea",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-016-blue-idea.svg",
+  "native_source_sha256": "bb3ae2a69d7e44759e77594acc875480f2315364e8cf668e2aea5179275fda71",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6ac1f8cbadbf3a046cf3f3f60a0de34327cfbe031a25dead6781ff7b54757ae1.png",
+      "sha256": "6ac1f8cbadbf3a046cf3f3f60a0de34327cfbe031a25dead6781ff7b54757ae1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "fef9e7fdbb63c434588a89ecc7fda34d89ebadafb9efd359afec25de18efefca"
+  },
+  "rules": [
+    {
+      "text": "POWER: Discard 1 of your opponent's Drills in play.",
+      "baseline": 1049.3,
+      "width": 885.6260000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        392.059,
+        50.2213,
+        274.882,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.118,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        858.918,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        88.5245,
+        1013.53,
+        881.951,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-016-blue-idea.webp",
+      "before_url": "/assets/cards/android-016-blue-idea.webp?v=77f410ec6728",
+      "before_sha256": "77f410ec6728698130d3d95d94e27fdd707a35e8fe2995043144766666dfe547",
+      "after_sha256": "1d5ae51f89e0b0943c0c7d474271a873fddd8feedd9f0814d5f86c4b2d0e832d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-016-blue-idea.webp",
+      "before_url": "/assets/cards/downloads/android-016-blue-idea.webp?v=dd561963895d",
+      "before_sha256": "dd561963895d2f03fd9979dd53a10873edfa1b21fd3f068515335b1c736e010c",
+      "after_sha256": "81b5d2f46387b7e53874917bc616ad3938be6f1ad8f53010647ddabf40a52507",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 274.8815461346634,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

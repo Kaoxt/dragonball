@@ -1,0 +1,205 @@
+{
+  "number": 7,
+  "id": "android-007-blasted-land",
+  "name": "Blasted Land",
+  "family": "BATTLEGROUND",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-007-blasted-land.svg",
+  "native_source_sha256": "97aac32cb9078099df5c3a0b8717e99aa2a4a535f4b9eb20d75aec963f83a99c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/804a3fdfa06bf2010c0883f06330c9a1ce821cac5d0d601e4f486cca6106ab82.png",
+      "sha256": "804a3fdfa06bf2010c0883f06330c9a1ce821cac5d0d601e4f486cca6106ab82"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "65efe355ce7ede48dd899832930ab25e78db62326774b4f8bcdb836ac9445099"
+  },
+  "rules": [
+    {
+      "text": "At the beginning of each player's turn,",
+      "baseline": 815.983333333333,
+      "width": 740.81375,
+      "icon_inline": true
+    },
+    {
+      "text": "that player discards the top card of their Life Deck.",
+      "baseline": 874.983333333333,
+      "width": 909.2439999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        550.546,
+        50.2213,
+        381.909,
+        57.5574
+      ],
+      "card-category": [
+        499.578,
+        668.057,
+        483.844,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        252.282,
+        946.669,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        1147.06,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1206.87,
+        968.646,
+        18.974,
+        33.708
+      ],
+      "rules-line-1": [
+        438.165,
+        780.213,
+        672.922,
+        45.913
+      ],
+      "power-icon": [
+        371.913,
+        787.043,
+        53.5938,
+        23.5812
+      ],
+      "rules-line-2": [
+        287.981,
+        839.213,
+        907.039,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          371.913,
+          789.186,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          438.165,
+          781.683,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          371.913,
+          789.186,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-007-blasted-land.webp",
+      "before_url": "/assets/cards/android-007-blasted-land.webp?v=3521eb73ec06",
+      "before_sha256": "3521eb73ec06a91bb8c6cc429fd74169c8bbf89c90bfac51098e7b14cb899e7d",
+      "after_sha256": "eddba950385e8b6b3c9e748e16ffebf82e37c8a598932db0521248d02a35c91b",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-007-blasted-land.webp",
+      "before_url": "/assets/cards/downloads/android-007-blasted-land.webp?v=a63489fba8f2",
+      "before_sha256": "a63489fba8f2c9819faae88a88d18708b4b4fe834aadf6e745f89ee7df992370",
+      "after_sha256": "0af22612e4005dec7c462a76df3ab1c4794b45c688ee005c55802ac3f679d3e1",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      296.55,
+      985.5
+    ]
+  }
+}

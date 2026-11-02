@@ -1,0 +1,230 @@
+{
+  "number": 42,
+  "id": "android-042-android-attack-drill",
+  "name": "Android Attack Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-042-android-attack-drill.svg",
+  "native_source_sha256": "3e27e4200fa56d3a76bd07d6ef24db64d0c3b72e036dc8bf684a53d83da327ba",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/74ec3d7872cd1725fe1302e3c24841d0b9e0ec3596966c099068a89a32d7d17f.png",
+      "sha256": "74ec3d7872cd1725fe1302e3c24841d0b9e0ec3596966c099068a89a32d7d17f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "dc3bda4f9bfc7b84de606f6644feb5a29271b2a30553e5b59d8b29b369ef2693"
+  },
+  "rules": [
+    {
+      "text": "Your attacks deal +1 life card.",
+      "baseline": 1049.3,
+      "width": 592.24575,
+      "icon_inline": true
+    },
+    {
+      "text": "If the attacking personality has \"Android\"",
+      "baseline": 1108.3,
+      "width": 738.136,
+      "icon_inline": false
+    },
+    {
+      "text": "in its title, that attack deals +2 life cards instead.",
+      "baseline": 1167.3,
+      "width": 874.307,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        236.293,
+        50.2213,
+        586.414,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.302,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.102,
+        1392.65,
+        44.096,
+        33.708
+      ],
+      "rules-line-1": [
+        300.931,
+        1013.53,
+        523.908,
+        36.162
+      ],
+      "power-icon": [
+        234.161,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        161.895,
+        1072.53,
+        735.209,
+        45.913
+      ],
+      "rules-line-3": [
+        93.8655,
+        1131.53,
+        871.269,
+        40.572
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          234.161,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          300.931,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          234.161,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-042-android-attack-drill.webp",
+      "before_url": "/assets/cards/android-042-android-attack-drill.webp?v=4e0be68f1b2a",
+      "before_sha256": "4e0be68f1b2a59d0a2827b26627227b26ef02bf4b6db67b2136e8c9b30c0722b",
+      "after_sha256": "40d57dee3bbfb8ebf447627ddd095607bd57b15129c2c3ef5324220b16ad74d0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-042-android-attack-drill.webp",
+      "before_url": "/assets/cards/downloads/android-042-android-attack-drill.webp?v=20b1a329042f",
+      "before_sha256": "20b1a329042f1de63246e24080f862ba28efd57039fd9f72662ab1348947209f",
+      "after_sha256": "a1a2684a18a0efdd5d6101d8863b9a9975d87215ab1cc709e3351390c82f852e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 586.4139650872819,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

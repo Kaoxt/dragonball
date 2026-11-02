@@ -1,0 +1,206 @@
+{
+  "number": 24,
+  "id": "android-024-namekian-dodging-technique",
+  "name": "Namekian Dodging Technique",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-024-namekian-dodging-technique.svg",
+  "native_source_sha256": "fa3bd596f1d29bdad19021a7a8e9a0047db4c1768e82462d495aeba65da3284b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2176a90dfe158f9e0cee1d7d8017fe3acce5b47024d1e3db795dc180d6b8cca8.png",
+      "sha256": "2176a90dfe158f9e0cee1d7d8017fe3acce5b47024d1e3db795dc180d6b8cca8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "3e9e069132640af244f0e668abb4fd8ce2fd6a72562383d610aef1bd508bd4ab"
+  },
+  "rules": [
+    {
+      "text": "(Limit 8 per deck.) Piccolo and Nail only.",
+      "baseline": 1049.3,
+      "width": 715.4979999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: For this Combat,",
+      "baseline": 1108.3,
+      "width": 438.1090000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's MP cannot use its personality",
+      "baseline": 1167.3,
+      "width": 815.9970000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "power until it performs an energy attack.",
+      "baseline": 1226.3,
+      "width": 731.325,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        49.5176,
+        760.0,
+        58.9649
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.984,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.784,
+        1392.65,
+        44.732,
+        33.708
+      ],
+      "rules-line-1": [
+        172.56,
+        1012.11,
+        713.881,
+        46.942
+      ],
+      "rules-line-2": [
+        312.319,
+        1072.53,
+        434.362,
+        40.572
+      ],
+      "rules-line-3": [
+        122.15,
+        1131.53,
+        814.7,
+        45.521
+      ],
+      "rules-line-4": [
+        165.626,
+        1190.53,
+        727.748,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-024-namekian-dodging-technique.webp",
+      "before_url": "/assets/cards/android-024-namekian-dodging-technique.webp?v=c0eb9ed8ca78",
+      "before_sha256": "c0eb9ed8ca784c774c2513d733fd782741ee845146b57fe98d5d1bb834826d63",
+      "after_sha256": "542bb0de2e4c996fdd48c557121e44f1fd61f1d951834280308158e4cefd7248",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-024-namekian-dodging-technique.webp",
+      "before_url": "/assets/cards/downloads/android-024-namekian-dodging-technique.webp?v=691f5c3ef489",
+      "before_sha256": "691f5c3ef48981e883e8234b70921643879f84389cdc0db9571f087810bcb5a8",
+      "after_sha256": "99960674e3a7f2a9cbed3d81b98cfe2708bed73e828a5b99e29c10d0faccadc1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 73.52229853922802,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0000000000001,
+      "visible_height": 58.96488342846087,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8545635279487082
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

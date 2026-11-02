@@ -1,0 +1,206 @@
+{
+  "number": 29,
+  "id": "android-029-piccolos-stance",
+  "name": "Piccolo's Stance",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-029-piccolos-stance.svg",
+  "native_source_sha256": "8c9fe539d6149b668738a4a80b2fe87c8d558cdd234a66daea102cc7f0dfe00c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ac092ccfd8dafbacb6847b6e0c72fb4495e8a3cec31534e1fa1600a6e2aca7da.png",
+      "sha256": "ac092ccfd8dafbacb6847b6e0c72fb4495e8a3cec31534e1fa1600a6e2aca7da"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "24b8d2c388d0711b6b979cd3c8f6ad844950d8ecde05dc14f5a0a4e6bee7ae09"
+  },
+  "rules": [
+    {
+      "text": "POWER: Search your opponent's Life Deck",
+      "baseline": 1049.3,
+      "width": 741.615,
+      "icon_inline": false
+    },
+    {
+      "text": "for 1 non-Dragon Ball card and banish it.",
+      "baseline": 1108.3,
+      "width": 708.589,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent searches your Life Deck",
+      "baseline": 1167.3,
+      "width": 698.0050000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "for 1 non-Dragon Ball card and banishes it.",
+      "baseline": 1226.3,
+      "width": 750.141,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        281.978,
+        50.2213,
+        495.045,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        160.236,
+        1013.53,
+        738.528,
+        45.521
+      ],
+      "rules-line-2": [
+        176.43,
+        1072.53,
+        706.139,
+        45.913
+      ],
+      "rules-line-3": [
+        181.575,
+        1131.53,
+        695.849,
+        45.521
+      ],
+      "rules-line-4": [
+        155.655,
+        1190.53,
+        747.691,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-029-piccolos-stance.webp",
+      "before_url": "/assets/cards/android-029-piccolos-stance.webp?v=45083ee11011",
+      "before_sha256": "45083ee1101198d37ec9bd177caa541ee515ad606a3615f976acdb67ac5a9040",
+      "after_sha256": "950c57c01d62109adca3df09291b1a3fc752f90ef2d9ea29a816d75fe0cb623a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-029-piccolos-stance.webp",
+      "before_url": "/assets/cards/downloads/android-029-piccolos-stance.webp?v=b3f2e0fb6499",
+      "before_sha256": "b3f2e0fb64993ab855d8769c0b33010ef8e17be7f6ae8dbe8c56deeb8ff0fef2",
+      "after_sha256": "3eed57a8f8f8f4c0dc9db60f38ee81dc182c963bb7685f58e31728da0cc299d2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 495.0448877805487,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

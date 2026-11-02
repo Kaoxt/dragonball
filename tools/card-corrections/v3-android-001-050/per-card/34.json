@@ -1,0 +1,230 @@
+{
+  "number": 34,
+  "id": "android-034-blue-battle-readiness",
+  "name": "Blue Battle Readiness",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-034-blue-battle-readiness.svg",
+  "native_source_sha256": "99fa84e85a024267ed6cfa5e9c80d8f25173eaf556010d1c138da98e8f113c2d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3a9971978b0bbdd0b162ce5e4e46ac37b94d35c819b73bd58cde9a0f2ab4eb99.png",
+      "sha256": "3a9971978b0bbdd0b162ce5e4e46ac37b94d35c819b73bd58cde9a0f2ab4eb99"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1ce5fddddfcd27986486420496e8018f3fb5c1949a032cacb32a44e210fe77fc.png",
+      "sha256": "1ce5fddddfcd27986486420496e8018f3fb5c1949a032cacb32a44e210fe77fc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": {
+      "source_dimensions": [
+        1504,
+        1046
+      ],
+      "patch": "localized-corrections/034.png",
+      "clip": "M 90 850 L 160 650 L 185 470 L 285 345 L 420 245 L 485 245 L 523 365 L 520 525 L 455 630 L 410 850 Z",
+      "reason": "Restore compact bent temple fingers and warm original hand shading; preserve face core."
+    },
+    "source_native_sha256": "6cf2a08f7e39d1b74cf0396fc1292cf1eecb886eb53a6ad013753c47a38e068e"
+  },
+  "rules": [
+    {
+      "text": "POWER: Search your Life Deck for 1 Ally and put it",
+      "baseline": 1049.3,
+      "width": 874.9929999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "in play at 3 stages above 0. If you declared",
+      "baseline": 1108.3,
+      "width": 759.451,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui-Waza, search your discard pile for 1 Ally",
+      "baseline": 1167.3,
+      "width": 821.4359999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "and put it in play at 3 stages above 0.",
+      "baseline": 1226.3,
+      "width": 662.3820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1285.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        201.879,
+        50.2213,
+        655.242,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.613,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.413,
+        1392.65,
+        45.474,
+        33.708
+      ],
+      "rules-line-1": [
+        93.5225,
+        1013.53,
+        871.955,
+        45.521
+      ],
+      "rules-line-2": [
+        151.441,
+        1072.53,
+        756.119,
+        45.913
+      ],
+      "rules-line-3": [
+        119.7,
+        1131.53,
+        819.6,
+        45.521
+      ],
+      "rules-line-4": [
+        199.656,
+        1190.53,
+        659.687,
+        45.913
+      ],
+      "rules-line-5": [
+        380.589,
+        1249.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-034-blue-battle-readiness.webp",
+      "before_url": "/assets/cards/android-034-blue-battle-readiness.webp?v=11daaaa3d266",
+      "before_sha256": "11daaaa3d2660f53b715ef4637b63f74e96b7f6d5d44a3e8bd0b72a8ccd46818",
+      "after_sha256": "f6dce24a258b1bbbdd042da16cc7a9f36ad79836709b76facee1ff8322e86845",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-034-blue-battle-readiness.webp",
+      "before_url": "/assets/cards/downloads/android-034-blue-battle-readiness.webp?v=0ee556bea116",
+      "before_sha256": "0ee556bea116e92b554364b72cedc5f90553c596966d799b1640ba9e5276db92",
+      "after_sha256": "3408ca7aa2d254d5b00bcd640828512dbce6b3aab3dd674eba2d06a7cae93d1f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 655.2418952618455,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

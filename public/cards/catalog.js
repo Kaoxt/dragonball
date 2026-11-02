@@ -11103,13 +11103,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-001-android-17s-neck-hold.webp?v=d35bee04be09",
-    "downloadImage": "/assets/cards/downloads/android-001-android-17s-neck-hold.webp?v=d0219d5c0f3e",
+    "image": "/assets/cards/android-001-android-17s-neck-hold.webp?v=e49752e5d07e",
+    "downloadImage": "/assets/cards/downloads/android-001-android-17s-neck-hold.webp?v=02cf74259fa8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-1",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Lower your opponent's anger 3 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-002-android-18s-low-blow",
@@ -11119,13 +11120,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-002-android-18s-low-blow.webp?v=bb4ec73039c4",
-    "downloadImage": "/assets/cards/downloads/android-002-android-18s-low-blow.webp?v=2e2a7568e895",
+    "image": "/assets/cards/android-002-android-18s-low-blow.webp?v=f86deec34127",
+    "downloadImage": "/assets/cards/downloads/android-002-android-18s-low-blow.webp?v=3170bd206ad1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-2",
     "rules": "Villains only. Physical attack. DAMAGE: AT stages. If stopped, your opponent's MP loses 2 stages, to a minimum of 0.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-003-android-19s-body-slam",
@@ -11135,13 +11137,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-003-android-19s-body-slam.webp?v=a71c0410450b",
-    "downloadImage": "/assets/cards/downloads/android-003-android-19s-body-slam.webp?v=c85369965715",
+    "image": "/assets/cards/android-003-android-19s-body-slam.webp?v=3cab2ee2c9a0",
+    "downloadImage": "/assets/cards/downloads/android-003-android-19s-body-slam.webp?v=8e772bc30cf8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-3",
     "rules": "Physical attack. DAMAGE: AT +4 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-004-android-19s-energy-burst",
@@ -11151,13 +11154,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-004-android-19s-energy-burst.webp?v=e4645f442904",
-    "downloadImage": "/assets/cards/downloads/android-004-android-19s-energy-burst.webp?v=709468c0da7f",
+    "image": "/assets/cards/android-004-android-19s-energy-burst.webp?v=4103346d35d9",
+    "downloadImage": "/assets/cards/downloads/android-004-android-19s-energy-burst.webp?v=21068c29592d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-4",
     "rules": "Villains only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Banish an opponent's Drill in play.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-005-android-20-is-caught-off-guard",
@@ -11167,13 +11171,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-005-android-20-is-caught-off-guard.webp?v=2d58df92c3de",
-    "downloadImage": "/assets/cards/downloads/android-005-android-20-is-caught-off-guard.webp?v=206e77e41848",
+    "image": "/assets/cards/android-005-android-20-is-caught-off-guard.webp?v=47269732076e",
+    "downloadImage": "/assets/cards/downloads/android-005-android-20-is-caught-off-guard.webp?v=88a89f9f8a3d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-5",
     "rules": "Villains only. POWER: Put the bottom 4 cards of your discard pile on the bottom of your Life Deck.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-006-android-20s-energy-burst",
@@ -11183,13 +11188,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-006-android-20s-energy-burst.webp?v=d85cc772b64a",
-    "downloadImage": "/assets/cards/downloads/android-006-android-20s-energy-burst.webp?v=677d4d516a09",
+    "image": "/assets/cards/android-006-android-20s-energy-burst.webp?v=11c88c97d756",
+    "downloadImage": "/assets/cards/downloads/android-006-android-20s-energy-burst.webp?v=6ed3e2e867bd",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-6",
-    "rules": "Villains only. Energy attack costing 2 stages. DAMAGE: 4 life cards and 3 stages. If your opponent's MP is a Hero, deal 5 stages instead.",
-    "rarity": "Common"
+    "rules": "Villains only. Energy attack costing 2 stages. DAMAGE: 4 life cards and 3 stages, or 4 life cards and 5 stages if your opponent's MP is a Hero.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-007-blasted-land",
@@ -11199,13 +11205,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-007-blasted-land.webp?v=3521eb73ec06",
-    "downloadImage": "/assets/cards/downloads/android-007-blasted-land.webp?v=a63489fba8f2",
+    "image": "/assets/cards/android-007-blasted-land.webp?v=eddba950385e",
+    "downloadImage": "/assets/cards/downloads/android-007-blasted-land.webp?v=0af22612e400",
     "width": 1484,
     "height": 1060,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-7",
     "rules": "At the beginning of each player's turn, that player discards the top card of their Life Deck.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-008-gravity-chamber",
@@ -11215,13 +11222,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-008-gravity-chamber.webp?v=f9d1f556e6ba",
-    "downloadImage": "/assets/cards/downloads/android-008-gravity-chamber.webp?v=667487f8a4c8",
+    "image": "/assets/cards/android-008-gravity-chamber.webp?v=06feec1037ad",
+    "downloadImage": "/assets/cards/downloads/android-008-gravity-chamber.webp?v=a9853fb62c0b",
     "width": 1484,
     "height": 1060,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-8",
     "rules": "All physical attacks cost +2 stages to perform.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-009-black-confusion-drill",
@@ -11231,13 +11239,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-009-black-confusion-drill.webp?v=2a08a66a8b9e",
-    "downloadImage": "/assets/cards/downloads/android-009-black-confusion-drill.webp?v=1c666ac944c8",
+    "image": "/assets/cards/android-009-black-confusion-drill.webp?v=028a790a1563",
+    "downloadImage": "/assets/cards/downloads/android-009-black-confusion-drill.webp?v=f83da0322b57",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-9",
     "rules": "After each successful attack you perform, choose 1 random card from your opponent's hand. They shuffle it into their Life Deck, then draw a card.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-010-black-draining-aura",
@@ -11247,13 +11256,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-010-black-draining-aura.webp?v=0d43909eb84c",
-    "downloadImage": "/assets/cards/downloads/android-010-black-draining-aura.webp?v=f42a0cbf5472",
+    "image": "/assets/cards/android-010-black-draining-aura.webp?v=6dfe9ffe2813",
+    "downloadImage": "/assets/cards/downloads/android-010-black-draining-aura.webp?v=940aa415ed4e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-10",
     "rules": "Physical attack. DAMAGE: 3 stages. If you declared Tokui-Waza, your MP gains 5 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-011-black-jump-kick",
@@ -11263,13 +11273,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-011-black-jump-kick.webp?v=e363295a5b33",
-    "downloadImage": "/assets/cards/downloads/android-011-black-jump-kick.webp?v=49954e1b7b5e",
+    "image": "/assets/cards/android-011-black-jump-kick.webp?v=f9bc5d89a2fc",
+    "downloadImage": "/assets/cards/downloads/android-011-black-jump-kick.webp?v=4d5c2652842d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-11",
     "rules": "Physical attack. DAMAGE: 1 life card and 1 stage. HIT: If you declared Tokui-Waza, banish the bottom 6 cards of your opponent's discard pile.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-012-black-taunting-attack",
@@ -11279,13 +11290,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-012-black-taunting-attack.webp?v=f3f36a9fd1e3",
-    "downloadImage": "/assets/cards/downloads/android-012-black-taunting-attack.webp?v=5ff7c77c3cc4",
+    "image": "/assets/cards/android-012-black-taunting-attack.webp?v=afe6ec2e58c0",
+    "downloadImage": "/assets/cards/downloads/android-012-black-taunting-attack.webp?v=3c1ac186c0e2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-12",
     "rules": "POWER: Your opponent discards 2 life cards per anger level above 0. If you declared Tokui-Waza, you may have them shuffle their hand into their Life Deck and draw the same number of cards. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-013-blue-defensive-flight",
@@ -11295,13 +11307,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-013-blue-defensive-flight.webp?v=7b54e631bae3",
-    "downloadImage": "/assets/cards/downloads/android-013-blue-defensive-flight.webp?v=56a86d1b1b1e",
+    "image": "/assets/cards/android-013-blue-defensive-flight.webp?v=ee23cc98a723",
+    "downloadImage": "/assets/cards/downloads/android-013-blue-defensive-flight.webp?v=ac968b49f4ec",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-13",
-    "rules": "Stop a physical attack. You may lower your MP any number of stages, to a minimum of 0. For every 2 stages lost, lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rules": "Stops a physical attack. You may lower your MP any number of stages, to a minimum of 0. For every 2 stages lost, lower your opponent's anger 1 level.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-014-blue-foot-smash",
@@ -11311,13 +11324,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-014-blue-foot-smash.webp?v=92092e033afc",
-    "downloadImage": "/assets/cards/downloads/android-014-blue-foot-smash.webp?v=cf84e48f3846",
+    "image": "/assets/cards/android-014-blue-foot-smash.webp?v=c876a6f3db3a",
+    "downloadImage": "/assets/cards/downloads/android-014-blue-foot-smash.webp?v=881887ad33c1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-14",
     "rules": "Physical attack. DAMAGE: AT +2 stages. If you declared Tokui-Waza, lower your opponent's anger to 0.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-015-blue-glare-attack",
@@ -11327,13 +11341,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-015-blue-glare-attack.webp?v=77c3eb408987",
-    "downloadImage": "/assets/cards/downloads/android-015-blue-glare-attack.webp?v=4589417debaa",
+    "image": "/assets/cards/android-015-blue-glare-attack.webp?v=4b240f6ddd92",
+    "downloadImage": "/assets/cards/downloads/android-015-blue-glare-attack.webp?v=fde6307aed10",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-15",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared Tokui-Waza, lower your opponent's anger 3 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-016-blue-idea",
@@ -11343,13 +11358,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-016-blue-idea.webp?v=77f410ec6728",
-    "downloadImage": "/assets/cards/downloads/android-016-blue-idea.webp?v=dd561963895d",
+    "image": "/assets/cards/android-016-blue-idea.webp?v=1d5ae51f89e0",
+    "downloadImage": "/assets/cards/downloads/android-016-blue-idea.webp?v=81b5d2f46387",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-16",
     "rules": "POWER: Discard 1 of your opponent's Drills in play.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-017-blue-sidestep",
@@ -11359,13 +11375,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-017-blue-sidestep.webp?v=e5a2a9306646",
-    "downloadImage": "/assets/cards/downloads/android-017-blue-sidestep.webp?v=cff64ef4ad32",
+    "image": "/assets/cards/android-017-blue-sidestep.webp?v=d2b2250f6b9b",
+    "downloadImage": "/assets/cards/downloads/android-017-blue-sidestep.webp?v=4b290f488cb2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-17",
-    "rules": "Stop an energy attack. If you declared Tokui-Waza, lower your opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rules": "Stops an energy attack. If you declared Tokui-Waza, lower your opponent's anger 2 levels.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-018-gohans-ready",
@@ -11375,13 +11392,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-018-gohans-ready.webp?v=0aeb49a146d0",
-    "downloadImage": "/assets/cards/downloads/android-018-gohans-ready.webp?v=9bdcba1cf148",
+    "image": "/assets/cards/android-018-gohans-ready.webp?v=06762ad37daa",
+    "downloadImage": "/assets/cards/downloads/android-018-gohans-ready.webp?v=250387ed77a2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-18",
     "rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level. Lower your opponent's anger 3 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-019-gokus-conquering-stance",
@@ -11391,13 +11409,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-019-gokus-conquering-stance.webp?v=bcb87673b935",
-    "downloadImage": "/assets/cards/downloads/android-019-gokus-conquering-stance.webp?v=6e1be5c51759",
+    "image": "/assets/cards/android-019-gokus-conquering-stance.webp?v=4c361c1dca0e",
+    "downloadImage": "/assets/cards/downloads/android-019-gokus-conquering-stance.webp?v=446b6322a13d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-19",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Lower all players' anger to 0.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-020-gokus-right-knee-smash",
@@ -11407,13 +11426,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-020-gokus-right-knee-smash.webp?v=a8056673e33c",
-    "downloadImage": "/assets/cards/downloads/android-020-gokus-right-knee-smash.webp?v=725debc8d466",
+    "image": "/assets/cards/android-020-gokus-right-knee-smash.webp?v=3da9d5275a7e",
+    "downloadImage": "/assets/cards/downloads/android-020-gokus-right-knee-smash.webp?v=36928efa0155",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-20",
     "rules": "Physical attack. DAMAGE: AT stages and 2 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-021-namekian-blocking-stance",
@@ -11423,13 +11443,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-021-namekian-blocking-stance.webp?v=000268eea3d7",
-    "downloadImage": "/assets/cards/downloads/android-021-namekian-blocking-stance.webp?v=292895882fe0",
+    "image": "/assets/cards/android-021-namekian-blocking-stance.webp?v=671a13b79e5c",
+    "downloadImage": "/assets/cards/downloads/android-021-namekian-blocking-stance.webp?v=89bd5b3ae4f6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-21",
     "rules": "(Limit 8 per deck.) Piccolo and Nail only. POWER: Choose an opponent's Drill in play. Your opponent cannot use that Drill's power for the rest of the game. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-022-namekian-defensive-stance",
@@ -11439,13 +11460,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-022-namekian-defensive-stance.webp?v=d263bcd9dc17",
-    "downloadImage": "/assets/cards/downloads/android-022-namekian-defensive-stance.webp?v=602cac8951df",
+    "image": "/assets/cards/android-022-namekian-defensive-stance.webp?v=c455a7489ebf",
+    "downloadImage": "/assets/cards/downloads/android-022-namekian-defensive-stance.webp?v=7c871b9883ed",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-22",
-    "rules": "(Limit 8 per deck.) Piccolo and Nail only. Stop an energy attack.",
-    "rarity": "Common"
+    "rules": "(Limit 8 per deck.) Piccolo and Nail only. Stops an energy attack.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-023-namekian-determination",
@@ -11455,13 +11477,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-023-namekian-determination.webp?v=ecd4f61454d8",
-    "downloadImage": "/assets/cards/downloads/android-023-namekian-determination.webp?v=dcfd77d14390",
+    "image": "/assets/cards/android-023-namekian-determination.webp?v=0ee1a6c89da4",
+    "downloadImage": "/assets/cards/downloads/android-023-namekian-determination.webp?v=8998c0e5e6f9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-23",
     "rules": "(Limit 8 per deck.) Piccolo and Nail only. POWER: Choose 1 Namekian Style card in your discard pile and shuffle it into your Life Deck.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-024-namekian-dodging-technique",
@@ -11471,13 +11494,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-024-namekian-dodging-technique.webp?v=c0eb9ed8ca78",
-    "downloadImage": "/assets/cards/downloads/android-024-namekian-dodging-technique.webp?v=691f5c3ef489",
+    "image": "/assets/cards/android-024-namekian-dodging-technique.webp?v=542bb0de2e4c",
+    "downloadImage": "/assets/cards/downloads/android-024-namekian-dodging-technique.webp?v=99960674e3a7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-24",
     "rules": "(Limit 8 per deck.) Piccolo and Nail only. POWER: For this Combat, your opponent's MP cannot use its personality power until it performs an energy attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-025-namekian-energy-absorption",
@@ -11487,13 +11511,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-025-namekian-energy-absorption.webp?v=1954e007d857",
-    "downloadImage": "/assets/cards/downloads/android-025-namekian-energy-absorption.webp?v=adc75eda35b0",
+    "image": "/assets/cards/android-025-namekian-energy-absorption.webp?v=16739c448a99",
+    "downloadImage": "/assets/cards/downloads/android-025-namekian-energy-absorption.webp?v=25554e7dd8ca",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-25",
     "rules": "Piccolo and Nail only. POWER: Prevent all but 2 life cards of damage from an energy attack. Your MP gains 1 stage for each life card of base damage that attack would deal.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-026-namekian-wrist-grab",
@@ -11503,13 +11528,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-026-namekian-wrist-grab.webp?v=e65ef610d982",
-    "downloadImage": "/assets/cards/downloads/android-026-namekian-wrist-grab.webp?v=8e4b13e60bb5",
+    "image": "/assets/cards/android-026-namekian-wrist-grab.webp?v=15e943b6f953",
+    "downloadImage": "/assets/cards/downloads/android-026-namekian-wrist-grab.webp?v=5eb60cfffe70",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-26",
     "rules": "Piccolo and Nail only. Physical attack costing 2 stages. DAMAGE: 6 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-027-orange-fist-catch",
@@ -11519,13 +11545,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-027-orange-fist-catch.webp?v=4f447af51007",
-    "downloadImage": "/assets/cards/downloads/android-027-orange-fist-catch.webp?v=0e63792a4968",
+    "image": "/assets/cards/android-027-orange-fist-catch.webp?v=7d0d0602f5ea",
+    "downloadImage": "/assets/cards/downloads/android-027-orange-fist-catch.webp?v=71feea364883",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-27",
-    "rules": "Stop a physical attack. If you declared Tokui-Waza, this card remains in play for 1 more use this Combat. Banish after use.",
-    "rarity": "Common"
+    "rules": "Stops a physical attack. If you declared Tokui-Waza, this card remains in play for 1 more use this Combat. Banish after use.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-028-orange-palm-blast",
@@ -11535,13 +11562,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-028-orange-palm-blast.webp?v=79842d8a3848",
-    "downloadImage": "/assets/cards/downloads/android-028-orange-palm-blast.webp?v=ef862dd47ea1",
+    "image": "/assets/cards/android-028-orange-palm-blast.webp?v=aaed0326fdef",
+    "downloadImage": "/assets/cards/downloads/android-028-orange-palm-blast.webp?v=88b446f1f149",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-28",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-029-piccolos-stance",
@@ -11551,13 +11579,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-029-piccolos-stance.webp?v=45083ee11011",
-    "downloadImage": "/assets/cards/downloads/android-029-piccolos-stance.webp?v=b3f2e0fb6499",
+    "image": "/assets/cards/android-029-piccolos-stance.webp?v=950c57c01d62",
+    "downloadImage": "/assets/cards/downloads/android-029-piccolos-stance.webp?v=3eed57a8f8f8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-29",
     "rules": "POWER: Search your opponent's Life Deck for 1 non-Dragon Ball card and banish it. Your opponent searches your Life Deck for 1 non-Dragon Ball card and banishes it.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-030-red-burning-stance",
@@ -11567,13 +11596,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-030-red-burning-stance.webp?v=e2a6d6bd24f1",
-    "downloadImage": "/assets/cards/downloads/android-030-red-burning-stance.webp?v=04c1af10742d",
+    "image": "/assets/cards/android-030-red-burning-stance.webp?v=7394e1096ce1",
+    "downloadImage": "/assets/cards/downloads/android-030-red-burning-stance.webp?v=03b28bdb6c1c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-30",
     "rules": "POWER: For the rest of Combat, each successful physical attack against you raises your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-031-red-energy-charge",
@@ -11583,13 +11613,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-031-red-energy-charge.webp?v=56deed3d4ceb",
-    "downloadImage": "/assets/cards/downloads/android-031-red-energy-charge.webp?v=909399f7b649",
+    "image": "/assets/cards/android-031-red-energy-charge.webp?v=c4a9d2f64c7e",
+    "downloadImage": "/assets/cards/downloads/android-031-red-energy-charge.webp?v=05183c65539d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-31",
     "rules": "Energy attack costing 1 stage. DAMAGE: 3 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-032-red-power-drain",
@@ -11599,13 +11630,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-032-red-power-drain.webp?v=4280cc9026f4",
-    "downloadImage": "/assets/cards/downloads/android-032-red-power-drain.webp?v=638c62912386",
+    "image": "/assets/cards/android-032-red-power-drain.webp?v=3c99a330a17b",
+    "downloadImage": "/assets/cards/downloads/android-032-red-power-drain.webp?v=0abf910fe74e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-32",
     "rules": "POWER: For the rest of Combat, all physical attacks against you cost +2 stages to perform.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-033-red-power-lift",
@@ -11615,13 +11647,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-033-red-power-lift.webp?v=133ef4720e50",
-    "downloadImage": "/assets/cards/downloads/android-033-red-power-lift.webp?v=2dba81e7dd98",
+    "image": "/assets/cards/android-033-red-power-lift.webp?v=49fbbb589730",
+    "downloadImage": "/assets/cards/downloads/android-033-red-power-lift.webp?v=6bdde1b70682",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-33",
-    "rules": "Physical attack. DAMAGE: AT +3 stages. Stop the next physical attack against you this Combat.",
-    "rarity": "Common"
+    "rules": "Physical attack. DAMAGE: AT +3 stages. Stops the next physical attack against you this Combat.",
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-034-blue-battle-readiness",
@@ -11631,13 +11664,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-034-blue-battle-readiness.webp?v=11daaaa3d266",
-    "downloadImage": "/assets/cards/downloads/android-034-blue-battle-readiness.webp?v=0ee556bea116",
+    "image": "/assets/cards/android-034-blue-battle-readiness.webp?v=f6dce24a258b",
+    "downloadImage": "/assets/cards/downloads/android-034-blue-battle-readiness.webp?v=3408ca7aa2d2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-34",
     "rules": "POWER: Search your Life Deck for 1 Ally and put it in play at 3 stages above 0. If you declared Tokui-Waza, search your discard pile for 1 Ally and put it in play at 3 stages above 0. Banish after use.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-035-saiyan-glare",
@@ -11647,13 +11681,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-035-saiyan-glare.webp?v=6de3a91334c7",
-    "downloadImage": "/assets/cards/downloads/android-035-saiyan-glare.webp?v=3382f7bb0cc9",
+    "image": "/assets/cards/android-035-saiyan-glare.webp?v=4ab91431e255",
+    "downloadImage": "/assets/cards/downloads/android-035-saiyan-glare.webp?v=a3a96955f3ea",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-35",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared Tokui-Waza, lower your opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-036-saiyan-inspection",
@@ -11663,13 +11698,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-036-saiyan-inspection.webp?v=5dd7cbe12958",
-    "downloadImage": "/assets/cards/downloads/android-036-saiyan-inspection.webp?v=ea84ab2ba004",
+    "image": "/assets/cards/android-036-saiyan-inspection.webp?v=83f0d4867590",
+    "downloadImage": "/assets/cards/downloads/android-036-saiyan-inspection.webp?v=07660444664f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-36",
     "rules": "POWER: Attach to your opponent's MP. Your opponent cannot use that MP's personality power while this card is attached. Discard this card when your opponent puts a Dragon Ball in play.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "android-037-android-17s-back-bash",
@@ -11679,13 +11715,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-037-android-17s-back-bash.webp?v=e4c5eefde378",
-    "downloadImage": "/assets/cards/downloads/android-037-android-17s-back-bash.webp?v=4f8b6b358e6d",
+    "image": "/assets/cards/android-037-android-17s-back-bash.webp?v=a61c8e0cfb4c",
+    "downloadImage": "/assets/cards/downloads/android-037-android-17s-back-bash.webp?v=5493291c1f60",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-37",
     "rules": "Physical attack. DAMAGE: 5 stages. If performed by Android 17, your opponent must skip their next Attack Phase.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-038-android-17s-haymaker",
@@ -11695,13 +11732,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-038-android-17s-haymaker.webp?v=e0fa86403141",
-    "downloadImage": "/assets/cards/downloads/android-038-android-17s-haymaker.webp?v=060758ba3334",
+    "image": "/assets/cards/android-038-android-17s-haymaker.webp?v=5f7cfe4dc019",
+    "downloadImage": "/assets/cards/downloads/android-038-android-17s-haymaker.webp?v=c6ba4560e95c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-38",
     "rules": "Physical attack. DAMAGE: 5 stages, or 7 stages if performed by Android 17. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-039-android-20s-energy-dive",
@@ -11711,13 +11749,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-039-android-20s-energy-dive.webp?v=c37a6d30a8ff",
-    "downloadImage": "/assets/cards/downloads/android-039-android-20s-energy-dive.webp?v=c6c88f9c3ff9",
+    "image": "/assets/cards/android-039-android-20s-energy-dive.webp?v=c176e2df1036",
+    "downloadImage": "/assets/cards/downloads/android-039-android-20s-energy-dive.webp?v=8416a1ddc16f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-39",
     "rules": "Villains only. Energy attack costing 1 stage. DAMAGE: 4 life cards and 3 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-040-android-20s-enraged",
@@ -11727,13 +11766,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-040-android-20s-enraged.webp?v=44932cfcaa5e",
-    "downloadImage": "/assets/cards/downloads/android-040-android-20s-enraged.webp?v=591cd40faef3",
+    "image": "/assets/cards/android-040-android-20s-enraged.webp?v=3965eca5495e",
+    "downloadImage": "/assets/cards/downloads/android-040-android-20s-enraged.webp?v=d20f7d467189",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-40",
     "rules": "Villains only. Energy attack costing 3 stages. DAMAGE: 7 life cards.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-041-android-20s-search-pattern",
@@ -11743,13 +11783,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-041-android-20s-search-pattern.webp?v=b6e760e39220",
-    "downloadImage": "/assets/cards/downloads/android-041-android-20s-search-pattern.webp?v=fdc40d34b758",
+    "image": "/assets/cards/android-041-android-20s-search-pattern.webp?v=c6e5de9ad96f",
+    "downloadImage": "/assets/cards/downloads/android-041-android-20s-search-pattern.webp?v=1052e2bdc8b2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-41",
     "rules": "POWER: Put a card from your discard pile on top of your Life Deck. Name a non-Dragon Ball card, search your opponent's Life Deck for 1 copy, and banish it. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-042-android-attack-drill",
@@ -11759,13 +11800,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-042-android-attack-drill.webp?v=4e0be68f1b2a",
-    "downloadImage": "/assets/cards/downloads/android-042-android-attack-drill.webp?v=20b1a329042f",
+    "image": "/assets/cards/android-042-android-attack-drill.webp?v=40d57dee3bbf",
+    "downloadImage": "/assets/cards/downloads/android-042-android-attack-drill.webp?v=a1a2684a18a0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-42",
     "rules": "Your attacks deal +1 life card. If the attacking personality has \"Android\" in its title, that attack deals +2 life cards instead.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-043-hyperbolic-time-chamber",
@@ -11775,13 +11817,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-043-hyperbolic-time-chamber.webp?v=05b6afef8ab7",
-    "downloadImage": "/assets/cards/downloads/android-043-hyperbolic-time-chamber.webp?v=e68617afb78d",
+    "image": "/assets/cards/android-043-hyperbolic-time-chamber.webp?v=15ff9ab6d97c",
+    "downloadImage": "/assets/cards/downloads/android-043-hyperbolic-time-chamber.webp?v=5a7e4be6cc01",
     "width": 1484,
     "height": 1060,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-43",
     "rules": "All physical attacks deal +1 stage. All energy attacks deal +1 life card.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-044-master-roshis-island",
@@ -11791,13 +11834,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-044-master-roshis-island.webp?v=9c24fae914a5",
-    "downloadImage": "/assets/cards/downloads/android-044-master-roshis-island.webp?v=395a4306f51a",
+    "image": "/assets/cards/android-044-master-roshis-island.webp?v=4ecfb49f8336",
+    "downloadImage": "/assets/cards/downloads/android-044-master-roshis-island.webp?v=b3eaae862d7b",
     "width": 1484,
     "height": 1060,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-44",
-    "rules": "All Named cards cost +2 life cards to play.",
-    "rarity": "Uncommon"
+    "rules": "All Named cards, including Dende Dragon Balls, cost +2 life cards to play.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-045-black-anger-stance",
@@ -11807,13 +11851,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-045-black-anger-stance.webp?v=79d26f88d28a",
-    "downloadImage": "/assets/cards/downloads/android-045-black-anger-stance.webp?v=5f2e3032bf98",
+    "image": "/assets/cards/android-045-black-anger-stance.webp?v=262a5ee6aacd",
+    "downloadImage": "/assets/cards/downloads/android-045-black-anger-stance.webp?v=fdb3e1cf8329",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-45",
     "rules": "Physical attack. DAMAGE: X stages. X is the total anger of all players.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-046-black-energy-assault",
@@ -11823,13 +11868,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-046-black-energy-assault.webp?v=bcfb006ed481",
-    "downloadImage": "/assets/cards/downloads/android-046-black-energy-assault.webp?v=c7918d4306c1",
+    "image": "/assets/cards/android-046-black-energy-assault.webp?v=c31145718398",
+    "downloadImage": "/assets/cards/downloads/android-046-black-energy-assault.webp?v=bb46e680c898",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-46",
     "rules": "Energy attack costing 3 stages. DAMAGE: 4 life cards. HIT: You may discard a card from your hand. If you do, your opponent chooses to either discard 1 random card from their hand or lose 4 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-047-black-gut-wrench",
@@ -11839,13 +11885,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-047-black-gut-wrench.webp?v=593c4c28247b",
-    "downloadImage": "/assets/cards/downloads/android-047-black-gut-wrench.webp?v=ed46a5e6b517",
+    "image": "/assets/cards/android-047-black-gut-wrench.webp?v=cb838b5896af",
+    "downloadImage": "/assets/cards/downloads/android-047-black-gut-wrench.webp?v=249dd9d955a9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-47",
     "rules": "Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, choose 1 random card from your opponent's hand. They shuffle it into their Life Deck, then draw a card.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-048-black-off-balancing-punch",
@@ -11855,13 +11902,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-048-black-off-balancing-punch.webp?v=03740119e4b0",
-    "downloadImage": "/assets/cards/downloads/android-048-black-off-balancing-punch.webp?v=08bc6c3a7384",
+    "image": "/assets/cards/android-048-black-off-balancing-punch.webp?v=9ca7732d5e55",
+    "downloadImage": "/assets/cards/downloads/android-048-black-off-balancing-punch.webp?v=e39fe52691d6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-48",
-    "rules": "Physical attack. DAMAGE: AT stages. HIT: Stop the next attack your opponent performs against you this Combat.",
-    "rarity": "Uncommon"
+    "rules": "Physical attack. DAMAGE: AT stages. HIT: Stops the next attack your opponent performs against you this Combat.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-049-gohans-peaceful-stance",
@@ -11871,13 +11919,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-049-gohans-peaceful-stance.webp?v=9fd4befa6ca4",
-    "downloadImage": "/assets/cards/downloads/android-049-gohans-peaceful-stance.webp?v=4aac3a8c9835",
+    "image": "/assets/cards/android-049-gohans-peaceful-stance.webp?v=2f918f027321",
+    "downloadImage": "/assets/cards/downloads/android-049-gohans-peaceful-stance.webp?v=204f55d8522c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-49",
     "rules": "POWER: Raise all personalities in play to their highest stage. Choose 2 cards from your discard pile and put them on the bottom of your Life Deck. Banish after use.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-050-black-power-up",
@@ -11887,13 +11936,14 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-050-black-power-up.webp?v=9d44be92183d",
-    "downloadImage": "/assets/cards/downloads/android-050-black-power-up.webp?v=ceb3b639ede6",
+    "image": "/assets/cards/android-050-black-power-up.webp?v=252b5c8049df",
+    "downloadImage": "/assets/cards/downloads/android-050-black-power-up.webp?v=744c821ae523",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-50",
     "rules": "POWER: Raise any personality to its highest stage. If you declared Tokui-Waza, you may also end Combat.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "android-051-black-searching-technique",

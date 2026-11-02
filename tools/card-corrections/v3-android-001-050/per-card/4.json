@@ -1,0 +1,230 @@
+{
+  "number": 4,
+  "id": "android-004-android-19s-energy-burst",
+  "name": "Android 19's Energy Burst",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-001-050/android-004-android-19s-energy-burst.svg",
+  "native_source_sha256": "f16d66be9dbc121912abbf1ec9a9f13fa06fb8ff4f248855c63ab0125e5c3ac2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6510be4a8daaa1d25de4115a2c43e936f9b1664645ba938e44b99522772098a7.png",
+      "sha256": "6510be4a8daaa1d25de4115a2c43e936f9b1664645ba938e44b99522772098a7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_38_approved_correction_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c051331c8d8b66036b8efd55c312054e902b3f110d754cae3f9202183647bcd7"
+  },
+  "rules": [
+    {
+      "text": "Villains only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 850.5951555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish an opponent's Drill in play.",
+      "baseline": 1167.3,
+      "width": 596.2810000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        44.9029,
+        760.0,
+        68.1942
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.483,
+        1370.67,
+        88.5352,
+        77.6625
+      ],
+      "footer-rarity": [
+        805.584,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        865.384,
+        1392.65,
+        23.532,
+        33.708
+      ],
+      "rules-line-1": [
+        105.525,
+        1013.53,
+        847.949,
+        45.913
+      ],
+      "power-icon": [
+        341.504,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-3": [
+        233.221,
+        1131.53,
+        592.557,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 13,
+        "previous_visible_bounds": [
+          341.504,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          396.1,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          341.504,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-004-android-19s-energy-burst.webp",
+      "before_url": "/assets/cards/android-004-android-19s-energy-burst.webp?v=e4645f442904",
+      "before_sha256": "e4645f44290455a588c01820acda6774bacf617f50f2bfac5ad3f0e5ae36b67c",
+      "after_sha256": "4103346d35d965013fa3d902d20cf61349cd02f8400a61be10598f76727daa30",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-004-android-19s-energy-burst.webp",
+      "before_url": "/assets/cards/downloads/android-004-android-19s-energy-burst.webp?v=709468c0da7f",
+      "before_sha256": "709468c0da7f2dcb8b1e88af542e5e3e75bdec4187a2b8097fa3bb93a5ab436b",
+      "after_sha256": "21068c29592dea71581446748e0e36c10aa18f13663ff51b31f839d2435f0f88",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 85.03020810024614,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 68.19422689639741,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9883221289332956
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
