@@ -1,0 +1,341 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 2,
+    "stages": [
+      900000,
+      850000,
+      800000,
+      750000,
+      700000,
+      650000,
+      600000,
+      550000,
+      500000,
+      450000,
+      0
+    ]
+  },
+  "number": 191,
+  "printed_number": "191",
+  "high_tech": true,
+  "id": "trunks-191-frieza-the-master",
+  "name": "Frieza, the Master",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-191-frieza-the-master.svg",
+  "native_source_sha256": "3fd4314f5066935529f64a036f0a418d87ca94d383181019dc89058017fb3a4d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fc46eb4450c2d16c6d5d97c03d80983dc4736ce30899e658853711c6d3f0f5cb.png",
+      "sha256": "fc46eb4450c2d16c6d5d97c03d80983dc4736ce30899e658853711c6d3f0f5cb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd710d761cb7e1450a4211fd47c2b0d30e15828cef215ce90b7233ac59901b10.png",
+      "sha256": "fd710d761cb7e1450a4211fd47c2b0d30e15828cef215ce90b7233ac59901b10"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "03045d1a4a0192eb554622d8244853a7b62c55c00251156e99c5ae9680f908bd",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "generated_illustration_only": true,
+      "patch": "tools/card-corrections/v3-trunks-156-200-p1-p5/artwork-corrections/191-generated.png",
+      "placement": [
+        0,
+        0,
+        1060,
+        1484
+      ],
+      "native_mask_shapes": [
+        [
+          "path",
+          {
+            "d": "M 230,100 L 550,100 L 600,350 L 740,520 L 810,900 L 1060,960 L 1060,1484 L 0,1484 L 0,520 L 210,430 Z"
+          }
+        ]
+      ],
+      "retained_source_beneath": true
+    },
+    "mode": "approved full-art Hi-Tech composition with original-scene fidelity repair where recorded",
+    "background_gain": 1,
+    "approved_full_art_exception": true,
+    "later_portrait_correction_retained": false
+  },
+  "rules": [
+    {
+      "text": "After each successful physical attack",
+      "baseline": 1049.3,
+      "width": 738.3637500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "you perform, your opponent banishes",
+      "baseline": 1108.3,
+      "width": 664.979,
+      "icon_inline": false
+    },
+    {
+      "text": "the top card of their discard pile.",
+      "baseline": 1167.3,
+      "width": 584.1290000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.39,
+        160.009,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.027,
+        224.691,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.341,
+        289.373,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-3": [
+        892.722,
+        354.054,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.036,
+        418.736,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.37,
+        483.418,
+        140.63,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.684,
+        548.1,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.664,
+        612.782,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.978,
+        677.463,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-9": [
+        888.753,
+        742.145,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        260.684,
+        43.9838,
+        537.632,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        791.751,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.551,
+        1392.65,
+        51.198,
+        33.708
+      ],
+      "rules-line-1": [
+        227.06,
+        1013.53,
+        671.132,
+        45.521
+      ],
+      "rules-line-2": [
+        197.745,
+        1072.53,
+        663.509,
+        45.521
+      ],
+      "rules-line-3": [
+        238.538,
+        1131.53,
+        581.924,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          160.808,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          227.06,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          160.808,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-191-frieza-the-master.webp",
+      "before_url": "/assets/cards/trunks-191-frieza-the-master.webp?v=d7f650633e1b",
+      "before_sha256": "d7f650633e1b4df7e2ac6fbb570b744796bff376afb879f5e46d38954ef233b1",
+      "after_sha256": "e3d865658698bacd4b2310d1e12bddb06e724b2aa4309474537725984e9169ff",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-191-frieza-the-master.webp",
+      "before_url": "/assets/cards/downloads/trunks-191-frieza-the-master.webp?v=26e849175fbc",
+      "before_sha256": "26e849175fbc98c7f85673ae092c31cde1db19c809b3511e773096d8f5713460",
+      "after_sha256": "de914ae4d7e392b401b3026636a70bcc202d873c49a7bd9dee5d41848ef6d503",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 537.6321695760599,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

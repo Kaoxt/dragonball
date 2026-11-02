@@ -9480,13 +9480,13 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-156-krillin-the-warrior.webp?v=a12d73666d6f",
+    "image": "/assets/cards/trunks-156-krillin-the-warrior.webp?v=7e991b341b7b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-156",
-    "downloadImage": "/assets/cards/downloads/trunks-156-krillin-the-warrior.webp?v=78297e79f773",
+    "downloadImage": "/assets/cards/downloads/trunks-156-krillin-the-warrior.webp?v=17381474aa78",
     "rules": "Physical attack. DAMAGE: AT stages. Calculate this attack's damage as if Krillin's power level were 350,000.",
-    "rarity": "Rare",
+    "rarity": "Ultra Rare",
     "level": 3,
     "pur": 5,
     "alignment": "Hero",
@@ -9502,7 +9502,8 @@ export const catalog = [
       150000,
       125000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-157-where-theres-life-theres-hope",
@@ -9512,13 +9513,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-157-where-theres-life-theres-hope.webp?v=fad7a07d5437",
+    "image": "/assets/cards/trunks-157-where-theres-life-theres-hope.webp?v=861e33a688fb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-foil-157",
-    "downloadImage": "/assets/cards/downloads/trunks-157-where-theres-life-theres-hope.webp?v=b93eb6f7ed67",
+    "downloadImage": "/assets/cards/downloads/trunks-157-where-theres-life-theres-hope.webp?v=b095eeec4f6b",
     "rules": "Limit 1 per deck. POWER: Use when an opponent wins. Postpone their victory until the start of their next turn, then check victory conditions again. Cannot prevent an effect that makes you lose. Banish after use.",
-    "rarity": "Ultra Rare"
+    "rarity": "Ultra Rare",
+    "templateVersion": 3
   },
   {
     "id": "trunks-158-villains-true-power",
@@ -9528,13 +9530,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-158-villains-true-power.webp?v=5b17031b6f62",
+    "image": "/assets/cards/trunks-158-villains-true-power.webp?v=bc6fa2ee08b1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-foil-158",
-    "downloadImage": "/assets/cards/downloads/trunks-158-villains-true-power.webp?v=54a2a9a43b2c",
-    "rules": "Villains only. Play as your first attack card in Combat. Energy attack. COST: 2 stages. DAMAGE: 10 life cards.",
-    "rarity": "Ultra Rare"
+    "downloadImage": "/assets/cards/downloads/trunks-158-villains-true-power.webp?v=05a0837b666a",
+    "rules": "Villains only. Play as your first attack card in Combat. Energy attack costing 2 stages. DAMAGE: 10 life cards.",
+    "rarity": "Ultra Rare",
+    "templateVersion": 3
   },
   {
     "id": "trunks-159-goku-the-unbeatable",
@@ -9544,11 +9547,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-159-goku-the-unbeatable.webp?v=dae6ab5e507c",
+    "image": "/assets/cards/trunks-159-goku-the-unbeatable.webp?v=4cc1c6848184",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-foil-159",
-    "downloadImage": "/assets/cards/downloads/trunks-159-goku-the-unbeatable.webp?v=d28e62977531",
+    "downloadImage": "/assets/cards/downloads/trunks-159-goku-the-unbeatable.webp?v=4696cbb9d037",
     "rules": "Your energy attacks deal 2 life cards of damage when stopped.",
     "rarity": "Ultra Rare",
     "level": 4,
@@ -9566,7 +9569,8 @@ export const catalog = [
       800000,
       700000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-160-king-cold-the-all-powerful",
@@ -9576,12 +9580,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-160-king-cold-the-all-powerful.webp?v=4362d847e258",
+    "image": "/assets/cards/trunks-160-king-cold-the-all-powerful.webp?v=fbbde1ca872c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-foil-160",
-    "downloadImage": "/assets/cards/downloads/trunks-160-king-cold-the-all-powerful.webp?v=cea288ec8817",
-    "rules": "Energy attack. COST: 2 stages. DAMAGE: 4 life cards. HIT: Lower your opponent's anger 2 levels and raise your anger 1 level.",
+    "downloadImage": "/assets/cards/downloads/trunks-160-king-cold-the-all-powerful.webp?v=61891c8e9a53",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Lower your opponent's anger 2 levels and raise your anger 1 level.",
     "rarity": "Ultra Rare",
     "level": 4,
     "pur": 3,
@@ -9598,7 +9602,8 @@ export const catalog = [
       200000,
       50000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-161-frieza-the-monster",
@@ -9608,11 +9613,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-161-frieza-the-monster.webp?v=36a86dd7cc9f",
+    "image": "/assets/cards/trunks-161-frieza-the-monster.webp?v=a19db338d02a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-161",
-    "downloadImage": "/assets/cards/downloads/trunks-161-frieza-the-monster.webp?v=7f7a3276516a",
+    "downloadImage": "/assets/cards/downloads/trunks-161-frieza-the-monster.webp?v=5e862db862e2",
     "rules": "Frieza's energy attacks deal +1 stage and +1 life card.",
     "rarity": "Starter",
     "level": 1,
@@ -9630,7 +9635,8 @@ export const catalog = [
       150000,
       125000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-162-frieza-the-conqueror",
@@ -9640,11 +9646,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-162-frieza-the-conqueror.webp?v=27e37a46ab0d",
+    "image": "/assets/cards/trunks-162-frieza-the-conqueror.webp?v=a318e283242b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-162",
-    "downloadImage": "/assets/cards/downloads/trunks-162-frieza-the-conqueror.webp?v=53c95b12e806",
+    "downloadImage": "/assets/cards/downloads/trunks-162-frieza-the-conqueror.webp?v=fe04e8afc7df",
     "rules": "Frieza's physical attacks deal +2 stages. His energy attacks deal +2 life cards.",
     "rarity": "Starter",
     "level": 2,
@@ -9662,7 +9668,8 @@ export const catalog = [
       500000,
       450000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-163-frieza-the-cyborg",
@@ -9672,11 +9679,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-163-frieza-the-cyborg.webp?v=393d15ce094b",
+    "image": "/assets/cards/trunks-163-frieza-the-cyborg.webp?v=0dfebd2174da",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-163",
-    "downloadImage": "/assets/cards/downloads/trunks-163-frieza-the-cyborg.webp?v=cad778a5e599",
+    "downloadImage": "/assets/cards/downloads/trunks-163-frieza-the-cyborg.webp?v=14049e112de5",
     "rules": "Frieza's attacks deal +2 stages and +2 life cards.",
     "rarity": "Starter",
     "level": 3,
@@ -9694,7 +9701,8 @@ export const catalog = [
       400000,
       300000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-164-goku-the-leader",
@@ -9704,12 +9712,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-164-goku-the-leader.webp?v=0255591e9e94",
+    "image": "/assets/cards/trunks-164-goku-the-leader.webp?v=0baef075ce61",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-164",
-    "downloadImage": "/assets/cards/downloads/trunks-164-goku-the-leader.webp?v=ebf5cf1c42d0",
-    "rules": "POWER: Activate during your Attack Phase. At the end of this Combat, if you defended and your opponent dealt you no damage, search your Life Deck for an Ally and play it at 3 stages above 0.",
+    "downloadImage": "/assets/cards/downloads/trunks-164-goku-the-leader.webp?v=b43df3a83e27",
+    "rules": "POWER: Use during your Attack Phase. At Combat's end, if you defended and took no damage from your opponent, you may search your Life Deck for an Ally and play it at 3 stages above 0.",
     "rarity": "Starter",
     "level": 1,
     "pur": 1,
@@ -9726,7 +9734,8 @@ export const catalog = [
       600000,
       550000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-165-goku-the-defender",
@@ -9736,12 +9745,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-165-goku-the-defender.webp?v=d74944a42dc0",
+    "image": "/assets/cards/trunks-165-goku-the-defender.webp?v=0c223b03b72b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-165",
-    "downloadImage": "/assets/cards/downloads/trunks-165-goku-the-defender.webp?v=dc17d245e158",
-    "rules": "POWER: At the end of a Combat in which Goku received at least 5 life cards of damage, raise your anger 2 levels.",
+    "downloadImage": "/assets/cards/downloads/trunks-165-goku-the-defender.webp?v=2cd12aa54a5e",
+    "rules": "POWER: Use during your Attack Phase. At Combat's end, raise your anger 2 levels if Goku took at least 5 life cards of damage while at this level during this Combat.",
     "rarity": "Starter",
     "level": 2,
     "pur": 2,
@@ -9758,7 +9767,8 @@ export const catalog = [
       400000,
       300000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-166-goku-the-protector",
@@ -9768,12 +9778,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-166-goku-the-protector.webp?v=87e0c65391b8",
+    "image": "/assets/cards/trunks-166-goku-the-protector.webp?v=4b8c151dc5c1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-166",
-    "downloadImage": "/assets/cards/downloads/trunks-166-goku-the-protector.webp?v=499abb3871ff",
-    "rules": "Defense Shield: Stop the first unstopped energy attack against you each Combat. Your anger cannot be lowered more than 1 level by any card.",
+    "downloadImage": "/assets/cards/downloads/trunks-166-goku-the-protector.webp?v=7f88810eae40",
+    "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat. Your anger cannot be lowered more than 1 level by any card.",
     "rarity": "Starter",
     "level": 3,
     "pur": 3,
@@ -9790,7 +9800,8 @@ export const catalog = [
       700000,
       600000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-167-piccolo-the-avenger",
@@ -9800,12 +9811,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-167-piccolo-the-avenger.webp?v=d0217960f680",
+    "image": "/assets/cards/trunks-167-piccolo-the-avenger.webp?v=e007d17394ba",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-167",
-    "downloadImage": "/assets/cards/downloads/trunks-167-piccolo-the-avenger.webp?v=50f447b06345",
-    "rules": "Energy attack. COST: 2 stages. DAMAGE: 6 life cards.",
+    "downloadImage": "/assets/cards/downloads/trunks-167-piccolo-the-avenger.webp?v=9ebbb6c8c0bb",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards.",
     "rarity": "Starter",
     "level": 1,
     "pur": 2,
@@ -9822,7 +9833,8 @@ export const catalog = [
       140000,
       120000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-168-piccolo-revived",
@@ -9832,11 +9844,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-168-piccolo-revived.webp?v=007f03c57900",
+    "image": "/assets/cards/trunks-168-piccolo-revived.webp?v=8ad6538cf788",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-168",
-    "downloadImage": "/assets/cards/downloads/trunks-168-piccolo-revived.webp?v=f4be61fc505e",
+    "downloadImage": "/assets/cards/downloads/trunks-168-piccolo-revived.webp?v=fa25c04efe52",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Capture a Dragon Ball.",
     "rarity": "Starter",
     "level": 2,
@@ -9854,7 +9866,8 @@ export const catalog = [
       200000,
       175000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-169-piccolo-the-hero",
@@ -9864,11 +9877,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-169-piccolo-the-hero.webp?v=1fd7a1d4a060",
+    "image": "/assets/cards/trunks-169-piccolo-the-hero.webp?v=47733eb32866",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-169",
-    "downloadImage": "/assets/cards/downloads/trunks-169-piccolo-the-hero.webp?v=3cada81fc460",
+    "downloadImage": "/assets/cards/downloads/trunks-169-piccolo-the-hero.webp?v=d6993e23038d",
     "rules": "Your opponent loses 2 stages whenever they stop a physical attack you perform.",
     "rarity": "Starter",
     "level": 3,
@@ -9886,7 +9899,8 @@ export const catalog = [
       200000,
       150000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-170-gohan-the-furious",
@@ -9896,11 +9910,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-170-gohan-the-furious.webp?v=6eb25dec4b3f",
+    "image": "/assets/cards/trunks-170-gohan-the-furious.webp?v=e76d6a96b5e9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-170",
-    "downloadImage": "/assets/cards/downloads/trunks-170-gohan-the-furious.webp?v=75d219145bc4",
+    "downloadImage": "/assets/cards/downloads/trunks-170-gohan-the-furious.webp?v=87f34d96221f",
     "rules": "Physical attack. DAMAGE: AT +4 stages.",
     "rarity": "Starter",
     "level": 1,
@@ -9918,7 +9932,8 @@ export const catalog = [
       40000,
       20000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-171-gohan-the-fighter",
@@ -9928,12 +9943,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-171-gohan-the-fighter.webp?v=645331e6a17e",
+    "image": "/assets/cards/trunks-171-gohan-the-fighter.webp?v=836f4b42df55",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-171",
-    "downloadImage": "/assets/cards/downloads/trunks-171-gohan-the-fighter.webp?v=619629d21920",
-    "rules": "Defense Shield: When defending in Combat, stop the first unstopped attack against you.",
+    "downloadImage": "/assets/cards/downloads/trunks-171-gohan-the-fighter.webp?v=77e24a0c0b3b",
+    "rules": "Defense Shield: When defending in Combat, stops the first unstopped attack against you.",
     "rarity": "Starter",
     "level": 2,
     "pur": 3,
@@ -9950,7 +9965,8 @@ export const catalog = [
       140000,
       120000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-172-gohan-the-warrior",
@@ -9960,11 +9976,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-172-gohan-the-warrior.webp?v=cc613e558faf",
+    "image": "/assets/cards/trunks-172-gohan-the-warrior.webp?v=c99dac878dda",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-172",
-    "downloadImage": "/assets/cards/downloads/trunks-172-gohan-the-warrior.webp?v=a133c2db08eb",
+    "downloadImage": "/assets/cards/downloads/trunks-172-gohan-the-warrior.webp?v=088276d6a783",
     "rules": "When defending in Combat, raise your anger 1 level after Gohan receives damage from an energy attack against him.",
     "rarity": "Starter",
     "level": 3,
@@ -9982,7 +9998,8 @@ export const catalog = [
       100000,
       50000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-173-vegeta-the-determined",
@@ -9992,11 +10009,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-173-vegeta-the-determined.webp?v=a1d0c5fe0c32",
+    "image": "/assets/cards/trunks-173-vegeta-the-determined.webp?v=0aa97eb1dce2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-173",
-    "downloadImage": "/assets/cards/downloads/trunks-173-vegeta-the-determined.webp?v=f658ada44404",
+    "downloadImage": "/assets/cards/downloads/trunks-173-vegeta-the-determined.webp?v=15963c728ae5",
     "rules": "When defending in Combat, raise your anger 1 level after Vegeta receives damage from a physical attack against him.",
     "rarity": "Starter",
     "level": 1,
@@ -10014,7 +10031,8 @@ export const catalog = [
       300000,
       275000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-174-vegeta-the-powerful",
@@ -10024,11 +10042,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-174-vegeta-the-powerful.webp?v=58ab5aa539c5",
+    "image": "/assets/cards/trunks-174-vegeta-the-powerful.webp?v=e543952af6fb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-174",
-    "downloadImage": "/assets/cards/downloads/trunks-174-vegeta-the-powerful.webp?v=4fcff9f1a2dc",
+    "downloadImage": "/assets/cards/downloads/trunks-174-vegeta-the-powerful.webp?v=a5a4c03219cb",
     "rules": "Physical attack. DAMAGE: 8 stages.",
     "rarity": "Starter",
     "level": 2,
@@ -10046,7 +10064,8 @@ export const catalog = [
       400000,
       350000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-175-vegeta-in-training",
@@ -10056,12 +10075,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-175-vegeta-in-training.webp?v=5db8892ba1ad",
+    "image": "/assets/cards/trunks-175-vegeta-in-training.webp?v=43e4b0921795",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-175",
-    "downloadImage": "/assets/cards/downloads/trunks-175-vegeta-in-training.webp?v=30aade886398",
-    "rules": "Energy attack. COST: 0 stages. DAMAGE: 7 life cards.",
+    "downloadImage": "/assets/cards/downloads/trunks-175-vegeta-in-training.webp?v=6377fb585a0f",
+    "rules": "Energy attack costing 0 stages. DAMAGE: 7 life cards.",
     "rarity": "Starter",
     "level": 3,
     "pur": 3,
@@ -10078,7 +10097,8 @@ export const catalog = [
       775000,
       750000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-176-garlic-jr",
@@ -10088,11 +10108,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-176-garlic-jr.webp?v=e90313b47c01",
+    "image": "/assets/cards/trunks-176-garlic-jr.webp?v=6c3cf527018b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-176",
-    "downloadImage": "/assets/cards/downloads/trunks-176-garlic-jr.webp?v=9c6a07d51823",
+    "downloadImage": "/assets/cards/downloads/trunks-176-garlic-jr.webp?v=f270a5ba44dc",
     "rules": "All damage from energy attacks against Garlic Jr. is reduced by 2 life cards.",
     "rarity": "Starter",
     "level": 1,
@@ -10110,7 +10130,8 @@ export const catalog = [
       140000,
       120000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-177-garlic-jr-the-master",
@@ -10120,11 +10141,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-177-garlic-jr-the-master.webp?v=330dd4565117",
+    "image": "/assets/cards/trunks-177-garlic-jr-the-master.webp?v=f3a0408f84aa",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-177",
-    "downloadImage": "/assets/cards/downloads/trunks-177-garlic-jr-the-master.webp?v=ccfb7b00e717",
+    "downloadImage": "/assets/cards/downloads/trunks-177-garlic-jr-the-master.webp?v=a1d07a6847b0",
     "rules": "All damage from energy attacks against Garlic Jr. is reduced by 3 life cards.",
     "rarity": "Starter",
     "level": 2,
@@ -10142,7 +10163,8 @@ export const catalog = [
       240000,
       220000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-178-garlic-jr-the-monster",
@@ -10152,11 +10174,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-178-garlic-jr-the-monster.webp?v=19789d465edc",
+    "image": "/assets/cards/trunks-178-garlic-jr-the-monster.webp?v=c23a083d9295",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-178",
-    "downloadImage": "/assets/cards/downloads/trunks-178-garlic-jr-the-monster.webp?v=441814963584",
+    "downloadImage": "/assets/cards/downloads/trunks-178-garlic-jr-the-monster.webp?v=c28e642ae68d",
     "rules": "All damage from energy attacks against Garlic Jr. is reduced to 1 life card.",
     "rarity": "Starter",
     "level": 3,
@@ -10174,7 +10196,8 @@ export const catalog = [
       300000,
       275000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-179-spice",
@@ -10184,11 +10207,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-179-spice.webp?v=498dafc5d48a",
+    "image": "/assets/cards/trunks-179-spice.webp?v=0ef193a5858a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-179",
-    "downloadImage": "/assets/cards/downloads/trunks-179-spice.webp?v=fc774fc1c8a9",
+    "downloadImage": "/assets/cards/downloads/trunks-179-spice.webp?v=49c54d5eae95",
     "rules": "When defending in Combat, your opponent must play with their hand face-up.",
     "rarity": "Starter",
     "level": 1,
@@ -10206,7 +10229,8 @@ export const catalog = [
       40000,
       20000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-180-spice-the-leader",
@@ -10216,12 +10240,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-180-spice-the-leader.webp?v=b4382976dcd4",
+    "image": "/assets/cards/trunks-180-spice-the-leader.webp?v=b2662a506a00",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-180",
-    "downloadImage": "/assets/cards/downloads/trunks-180-spice-the-leader.webp?v=f38a2680dfc4",
-    "rules": "Kamino Bashi Waza. Physical attack. DAMAGE: AT stages. HIT: Stop all of your opponent's physical attacks for the rest of Combat.",
+    "downloadImage": "/assets/cards/downloads/trunks-180-spice-the-leader.webp?v=6f5c96ec2e06",
+    "rules": "Physical attack. DAMAGE: AT stages. HIT: Stop all of your opponent's physical attacks for the rest of Combat.",
     "rarity": "Starter",
     "level": 2,
     "pur": 3,
@@ -10238,7 +10262,8 @@ export const catalog = [
       220000,
       210000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-181-spice-the-warrior",
@@ -10248,12 +10273,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-181-spice-the-warrior.webp?v=eb680879ae99",
+    "image": "/assets/cards/trunks-181-spice-the-warrior.webp?v=c757eec10a60",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-181",
-    "downloadImage": "/assets/cards/downloads/trunks-181-spice-the-warrior.webp?v=42600c1090fe",
-    "rules": "Energy attack. COST: 2 stages. DAMAGE: 8 life cards.",
+    "downloadImage": "/assets/cards/downloads/trunks-181-spice-the-warrior.webp?v=71a1b36eb4c5",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 8 life cards.",
     "rarity": "Starter",
     "level": 3,
     "pur": 4,
@@ -10270,7 +10295,8 @@ export const catalog = [
       240000,
       220000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-182-vinegar",
@@ -10280,12 +10306,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-182-vinegar.webp?v=e2d7fbd5600c",
+    "image": "/assets/cards/trunks-182-vinegar.webp?v=534013bf398e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-182",
-    "downloadImage": "/assets/cards/downloads/trunks-182-vinegar.webp?v=cab8f9c5c8fc",
-    "rules": "Stop a physical attack.",
+    "downloadImage": "/assets/cards/downloads/trunks-182-vinegar.webp?v=ee2158b001ba",
+    "rules": "Stops a physical attack.",
     "rarity": "Starter",
     "level": 1,
     "pur": 2,
@@ -10302,7 +10328,8 @@ export const catalog = [
       70000,
       60000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-183-vinegar-the-fighter",
@@ -10312,11 +10339,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-183-vinegar-the-fighter.webp?v=27f31da4c1ae",
+    "image": "/assets/cards/trunks-183-vinegar-the-fighter.webp?v=7a4db1ff8d75",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-183",
-    "downloadImage": "/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp?v=60713cf6d300",
+    "downloadImage": "/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp?v=3da965a2c061",
     "rules": "After receiving damage from a successful energy attack, gain 2 stages.",
     "rarity": "Starter",
     "level": 2,
@@ -10334,7 +10361,8 @@ export const catalog = [
       160000,
       155000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-184-vinegar-the-henchman",
@@ -10344,11 +10372,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-184-vinegar-the-henchman.webp?v=1f277e2578c7",
+    "image": "/assets/cards/trunks-184-vinegar-the-henchman.webp?v=c9f4a6d33724",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-184",
-    "downloadImage": "/assets/cards/downloads/trunks-184-vinegar-the-henchman.webp?v=1012d196e667",
+    "downloadImage": "/assets/cards/downloads/trunks-184-vinegar-the-henchman.webp?v=6483c705625d",
     "rules": "After each successful physical attack you perform, gain 1 stage.",
     "rarity": "Starter",
     "level": 3,
@@ -10366,7 +10394,8 @@ export const catalog = [
       220000,
       210000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-185-trunks",
@@ -10376,11 +10405,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-185-trunks.webp?v=2eaf5d2c87b4",
+    "image": "/assets/cards/trunks-185-trunks.webp?v=d16ee292b2ed",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-185",
-    "downloadImage": "/assets/cards/downloads/trunks-185-trunks.webp?v=cf6e58a4bf16",
+    "downloadImage": "/assets/cards/downloads/trunks-185-trunks.webp?v=9bdaf6c516e2",
     "rules": "Physical attack. DAMAGE: AT stages. Must be your first attack in Combat. Your opponent must play or use 2 cards or effects that stop physical attacks to stop this attack.",
     "rarity": "Starter",
     "level": 1,
@@ -10398,7 +10427,8 @@ export const catalog = [
       600000,
       575000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-186-trunks-the-swordsman",
@@ -10408,11 +10438,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-186-trunks-the-swordsman.webp?v=2e2727661117",
+    "image": "/assets/cards/trunks-186-trunks-the-swordsman.webp?v=fafd1430108a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-186",
-    "downloadImage": "/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp?v=5da40bf98bca",
+    "downloadImage": "/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp?v=62cf5e50bc40",
     "rules": "Your physical attacks deal +2 stages.",
     "rarity": "Starter",
     "level": 2,
@@ -10430,7 +10460,8 @@ export const catalog = [
       750000,
       700000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-187-super-saiyan-trunks",
@@ -10440,11 +10471,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-187-super-saiyan-trunks.webp?v=01ba2ebc58c0",
+    "image": "/assets/cards/trunks-187-super-saiyan-trunks.webp?v=11ec7af45e71",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-187",
-    "downloadImage": "/assets/cards/downloads/trunks-187-super-saiyan-trunks.webp?v=aad29ba076ca",
+    "downloadImage": "/assets/cards/downloads/trunks-187-super-saiyan-trunks.webp?v=ab0f562bbde1",
     "rules": "POWER: When entering Combat as the defender, discard 1 random card from your opponent's hand.",
     "rarity": "Starter",
     "level": 3,
@@ -10462,7 +10493,8 @@ export const catalog = [
       600000,
       500000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-188-king-cold",
@@ -10472,11 +10504,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-188-king-cold.webp?v=4ba2b985c4a1",
+    "image": "/assets/cards/trunks-188-king-cold.webp?v=04a64d986658",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-188",
-    "downloadImage": "/assets/cards/downloads/trunks-188-king-cold.webp?v=e430e39f390d",
+    "downloadImage": "/assets/cards/downloads/trunks-188-king-cold.webp?v=e83946163329",
     "rules": "POWER: When entering Combat as the defender, place 1 random card from your opponent's hand on top of their Life Deck.",
     "rarity": "Starter",
     "level": 1,
@@ -10494,7 +10526,8 @@ export const catalog = [
       300000,
       225000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-189-king-cold-the-destroyer",
@@ -10504,11 +10537,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-189-king-cold-the-destroyer.webp?v=53fe0f36fd36",
+    "image": "/assets/cards/trunks-189-king-cold-the-destroyer.webp?v=3776f6fc2a37",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-189",
-    "downloadImage": "/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp?v=b5403a6175c6",
+    "downloadImage": "/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp?v=b9237703d378",
     "rules": "Choose any personality in play. You may use that personality's power level when determining damage from a physical attack.",
     "rarity": "Starter",
     "level": 2,
@@ -10526,7 +10559,8 @@ export const catalog = [
       200000,
       100000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-190-king-cold-the-ruler",
@@ -10536,11 +10570,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-190-king-cold-the-ruler.webp?v=ed465a924a0d",
+    "image": "/assets/cards/trunks-190-king-cold-the-ruler.webp?v=94f5b30be26b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-190",
-    "downloadImage": "/assets/cards/downloads/trunks-190-king-cold-the-ruler.webp?v=849ea644bf80",
+    "downloadImage": "/assets/cards/downloads/trunks-190-king-cold-the-ruler.webp?v=d90d58011d7d",
     "rules": "POWER: After receiving damage from an energy attack, you may draw the bottom card of your discard pile.",
     "rarity": "Starter",
     "level": 3,
@@ -10558,7 +10592,8 @@ export const catalog = [
       400000,
       275000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-191-frieza-the-master",
@@ -10568,11 +10603,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-191-frieza-the-master.webp?v=d7f650633e1b",
+    "image": "/assets/cards/trunks-191-frieza-the-master.webp?v=e3d865658698",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-191",
-    "downloadImage": "/assets/cards/downloads/trunks-191-frieza-the-master.webp?v=26e849175fbc",
+    "downloadImage": "/assets/cards/downloads/trunks-191-frieza-the-master.webp?v=de914ae4d7e3",
     "rules": "After each successful physical attack you perform, your opponent banishes the top card of their discard pile.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10590,7 +10625,8 @@ export const catalog = [
       500000,
       450000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-192-goku",
@@ -10600,11 +10636,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-192-goku.webp?v=9ce0a7d887ad",
+    "image": "/assets/cards/trunks-192-goku.webp?v=3c46122e6601",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-192",
-    "downloadImage": "/assets/cards/downloads/trunks-192-goku.webp?v=9b287039988f",
+    "downloadImage": "/assets/cards/downloads/trunks-192-goku.webp?v=3775a9c9867c",
     "rules": "POWER: If Goku takes no damage while defending in Combat, you may raise him to his highest stage at the end of Combat.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10622,7 +10658,8 @@ export const catalog = [
       400000,
       300000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-193-piccolo",
@@ -10632,11 +10669,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-193-piccolo.webp?v=3192cbb5b8ed",
+    "image": "/assets/cards/trunks-193-piccolo.webp?v=a911a66a5f9b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-193",
-    "downloadImage": "/assets/cards/downloads/trunks-193-piccolo.webp?v=1e07b09c01f3",
+    "downloadImage": "/assets/cards/downloads/trunks-193-piccolo.webp?v=b98c5d9d9b2e",
     "rules": "Physical attack. DAMAGE: 6 life cards.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10654,7 +10691,8 @@ export const catalog = [
       200000,
       175000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-194-gohan",
@@ -10664,11 +10702,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-194-gohan.webp?v=09bb50aaa1c2",
+    "image": "/assets/cards/trunks-194-gohan.webp?v=9048045bde6b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-194",
-    "downloadImage": "/assets/cards/downloads/trunks-194-gohan.webp?v=972960c08b4b",
+    "downloadImage": "/assets/cards/downloads/trunks-194-gohan.webp?v=3290eb1f943e",
     "rules": "Your energy attacks deal +2 life cards.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10686,7 +10724,8 @@ export const catalog = [
       140000,
       120000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-195-vegeta",
@@ -10696,11 +10735,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-195-vegeta.webp?v=3c80dfaba272",
+    "image": "/assets/cards/trunks-195-vegeta.webp?v=4136f25b4728",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-195",
-    "downloadImage": "/assets/cards/downloads/trunks-195-vegeta.webp?v=24e2cd9963ce",
+    "downloadImage": "/assets/cards/downloads/trunks-195-vegeta.webp?v=6085e1a1e587",
     "rules": "After each successful physical attack you perform, you may place the top card of your discard pile on the bottom of your Life Deck.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10718,7 +10757,8 @@ export const catalog = [
       400000,
       350000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-196-garlic-jr-the-merciless",
@@ -10728,11 +10768,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-196-garlic-jr-the-merciless.webp?v=664312fb14e0",
+    "image": "/assets/cards/trunks-196-garlic-jr-the-merciless.webp?v=4c197d8f351c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-196",
-    "downloadImage": "/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp?v=cdd7da1622ba",
+    "downloadImage": "/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp?v=577404ef6274",
     "rules": "POWER: When entering Combat as the defender, you may draw the bottom card of your discard pile.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10750,7 +10790,8 @@ export const catalog = [
       240000,
       220000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-197-spice-the-enchanter",
@@ -10760,12 +10801,12 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-197-spice-the-enchanter.webp?v=c5965eb9c387",
+    "image": "/assets/cards/trunks-197-spice-the-enchanter.webp?v=f9c41e1db72e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-197",
-    "downloadImage": "/assets/cards/downloads/trunks-197-spice-the-enchanter.webp?v=b5294ea62632",
-    "rules": "Energy attack. COST: 0 stages. DAMAGE: 6 life cards.",
+    "downloadImage": "/assets/cards/downloads/trunks-197-spice-the-enchanter.webp?v=96cb9919e333",
+    "rules": "Energy attack costing 0 stages. DAMAGE: 6 life cards.",
     "rarity": "Hi-Tech",
     "level": 2,
     "pur": 3,
@@ -10782,7 +10823,8 @@ export const catalog = [
       220000,
       210000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-198-vinegar-the-battler",
@@ -10792,11 +10834,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-198-vinegar-the-battler.webp?v=d5afc12ae409",
+    "image": "/assets/cards/trunks-198-vinegar-the-battler.webp?v=67c9611d8944",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-198",
-    "downloadImage": "/assets/cards/downloads/trunks-198-vinegar-the-battler.webp?v=349a47bdc4b2",
+    "downloadImage": "/assets/cards/downloads/trunks-198-vinegar-the-battler.webp?v=1c30b7140581",
     "rules": "Your energy attacks deal +1 stage.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10814,7 +10856,8 @@ export const catalog = [
       160000,
       155000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-199-trunks-the-saiyan",
@@ -10824,11 +10867,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-199-trunks-the-saiyan.webp?v=a410d4221f57",
+    "image": "/assets/cards/trunks-199-trunks-the-saiyan.webp?v=a27ee65a082e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-199",
-    "downloadImage": "/assets/cards/downloads/trunks-199-trunks-the-saiyan.webp?v=e3305b414e9d",
+    "downloadImage": "/assets/cards/downloads/trunks-199-trunks-the-saiyan.webp?v=4b245d53b4c6",
     "rules": "Lower your opponent's anger 1 level each time they perform a successful energy attack against you.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10846,7 +10889,8 @@ export const catalog = [
       750000,
       700000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-200-king-cold-galactic-ruler",
@@ -10856,11 +10900,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-200-king-cold-galactic-ruler.webp?v=05dfa3f5ae8d",
+    "image": "/assets/cards/trunks-200-king-cold-galactic-ruler.webp?v=49fb79cf5ca7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-200",
-    "downloadImage": "/assets/cards/downloads/trunks-200-king-cold-galactic-ruler.webp?v=0a78523819e5",
+    "downloadImage": "/assets/cards/downloads/trunks-200-king-cold-galactic-ruler.webp?v=e33de88a4d06",
     "rules": "Your anger cannot be lowered.",
     "rarity": "Hi-Tech",
     "level": 2,
@@ -10878,7 +10922,8 @@ export const catalog = [
       200000,
       100000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "trunks-p01-trunks-defensive-crouch",
@@ -10888,13 +10933,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p01-trunks-defensive-crouch.webp?v=dbbadc65b2aa",
+    "image": "/assets/cards/trunks-p01-trunks-defensive-crouch.webp?v=10ff807e4dda",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p1",
-    "downloadImage": "/assets/cards/downloads/trunks-p01-trunks-defensive-crouch.webp?v=73d0a66e3676",
+    "downloadImage": "/assets/cards/downloads/trunks-p01-trunks-defensive-crouch.webp?v=3f8f79317955",
     "rules": "POWER: Prevent the first 3 stages or life cards of damage from a physical attack.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p02-confrontation",
@@ -10904,13 +10950,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p02-confrontation.webp?v=9123cc0aaecf",
+    "image": "/assets/cards/trunks-p02-confrontation.webp?v=c85ee7fdbb5e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p2",
-    "downloadImage": "/assets/cards/downloads/trunks-p02-confrontation.webp?v=b39f3cb3dbfb",
+    "downloadImage": "/assets/cards/downloads/trunks-p02-confrontation.webp?v=9d4a812dd962",
     "rules": "Heroes only. POWER: Look at your opponent's hand. Choose 1 card and shuffle it into their Life Deck.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p03-concentration-drill",
@@ -10920,13 +10967,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p03-concentration-drill.webp?v=3be31a0eef7e",
+    "image": "/assets/cards/trunks-p03-concentration-drill.webp?v=ac01f71cc5ec",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p3",
-    "downloadImage": "/assets/cards/downloads/trunks-p03-concentration-drill.webp?v=b99edfeab5dc",
+    "downloadImage": "/assets/cards/downloads/trunks-p03-concentration-drill.webp?v=e94164e1b8f1",
     "rules": "Whenever you put cards on the bottom of your Life Deck, you may shuffle them into your Life Deck instead.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p04-blue-battle-drill",
@@ -10936,13 +10984,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p04-blue-battle-drill.webp?v=e357dba1a474",
+    "image": "/assets/cards/trunks-p04-blue-battle-drill.webp?v=07fa2a5223a5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p4",
-    "downloadImage": "/assets/cards/downloads/trunks-p04-blue-battle-drill.webp?v=eaf81147a8d6",
+    "downloadImage": "/assets/cards/downloads/trunks-p04-blue-battle-drill.webp?v=691164b93d8f",
     "rules": "Neither player may play or use cards that end Combat while this Drill is in play.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p05-tien-stands-ready",
@@ -10952,13 +11001,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p05-tien-stands-ready.webp?v=7bca30d990ad",
+    "image": "/assets/cards/trunks-p05-tien-stands-ready.webp?v=5d3c8b0c973c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p5",
-    "downloadImage": "/assets/cards/downloads/trunks-p05-tien-stands-ready.webp?v=f32fb85e8fd8",
+    "downloadImage": "/assets/cards/downloads/trunks-p05-tien-stands-ready.webp?v=9e020607a396",
     "rules": "Physical attack. DAMAGE: AT +5 stages. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "trunks-p06-king-colds-sword-trick",

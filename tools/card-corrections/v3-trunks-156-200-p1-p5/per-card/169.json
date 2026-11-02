@@ -1,0 +1,317 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 4,
+    "stages": [
+      600000,
+      550000,
+      500000,
+      450000,
+      400000,
+      350000,
+      300000,
+      250000,
+      200000,
+      150000,
+      0
+    ]
+  },
+  "number": 169,
+  "printed_number": "169",
+  "high_tech": false,
+  "id": "trunks-169-piccolo-the-hero",
+  "name": "Piccolo, the Hero",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-169-piccolo-the-hero.svg",
+  "native_source_sha256": "eb0aafd2fe1f710b40b90603ec9ee7b76f02f3f0969a9a6f9ae4b190aca38b5b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d16c883e94847de553a028f894ab03567ea2506f5616aeae03bcdc502905dc11.png",
+      "sha256": "d16c883e94847de553a028f894ab03567ea2506f5616aeae03bcdc502905dc11"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "4647fcaeb9b76abc879fc62744e281d8a0ae2cb2367ab245826114ea33ec9dfe",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Your opponent loses 2 stages whenever",
+      "baseline": 1049.3,
+      "width": 773.64375,
+      "icon_inline": true
+    },
+    {
+      "text": "they stop a physical attack you perform.",
+      "baseline": 1108.3,
+      "width": 720.937,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.684,
+        160.009,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.664,
+        224.691,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.978,
+        289.373,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-3": [
+        888.753,
+        354.054,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-4": [
+        888.067,
+        418.736,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.664,
+        483.418,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.978,
+        548.1,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-7": [
+        891.35,
+        612.782,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.664,
+        677.463,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-9": [
+        897.23,
+        742.145,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        275.396,
+        43.9838,
+        508.208,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.352,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.152,
+        1392.65,
+        59.996,
+        33.708
+      ],
+      "rules-line-1": [
+        209.634,
+        1014.61,
+        706.502,
+        44.835
+      ],
+      "rules-line-2": [
+        170.134,
+        1072.53,
+        718.732,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          142.864,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          209.634,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          142.864,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-169-piccolo-the-hero.webp",
+      "before_url": "/assets/cards/trunks-169-piccolo-the-hero.webp?v=1fd7a1d4a060",
+      "before_sha256": "1fd7a1d4a06038eeb1410f5f938bbf66373aa0e42fd16604babeb5a97eea699a",
+      "after_sha256": "47733eb32866a25c9eef13e86b31a1e7bfabaa167662207037f38d81e22a1e93",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-169-piccolo-the-hero.webp",
+      "before_url": "/assets/cards/downloads/trunks-169-piccolo-the-hero.webp?v=3cada81fc460",
+      "before_sha256": "3cada81fc460befa135032c5db226c6cd0600de153e7217f85e0b11e42a4fe6c",
+      "after_sha256": "d6993e23038ddf61be742e6ff8276ea3e21213337e3b568ec1e745bff07fa849",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 508.208229426434,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

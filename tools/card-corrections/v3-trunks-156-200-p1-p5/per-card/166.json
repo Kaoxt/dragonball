@@ -1,0 +1,341 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 3,
+    "stages": [
+      1500000,
+      1400000,
+      1300000,
+      1200000,
+      1100000,
+      1000000,
+      900000,
+      800000,
+      700000,
+      600000,
+      0
+    ]
+  },
+  "number": 166,
+  "printed_number": "166",
+  "high_tech": false,
+  "id": "trunks-166-goku-the-protector",
+  "name": "Goku, the Protector",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-166-goku-the-protector.svg",
+  "native_source_sha256": "f2eafcadd738d1b47bfec501ab03b8dca8bb0830e69f48d6eafa8501db946543",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/31ebe89e0df0a576328fbbaa5b7a896c1fe4571ef05bdcdb664eb58bf69a7771.png",
+      "sha256": "31ebe89e0df0a576328fbbaa5b7a896c1fe4571ef05bdcdb664eb58bf69a7771"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "6b78ce02f607823eb01f710bdfa59fe99505a0116d7b4a402b0836e008b415d2",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": true
+  },
+  "rules": [
+    {
+      "text": "Defense Shield: Stops the first unstopped",
+      "baseline": 1049.3,
+      "width": 783.7319473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "energy attack against you each Combat.",
+      "baseline": 1108.3,
+      "width": 716.7230000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Your anger cannot be lowered",
+      "baseline": 1167.3,
+      "width": 532.826,
+      "icon_inline": false
+    },
+    {
+      "text": "more than 1 level by any card.",
+      "baseline": 1226.3,
+      "width": 527.926,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.008,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        863.616,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.694,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        865.478,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        871.603,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.39,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.036,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.684,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        239.132,
+        43.9838,
+        580.736,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.14,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.94,
+        1392.65,
+        60.42,
+        33.708
+      ],
+      "rules-line-1": [
+        190.09,
+        1013.53,
+        730.345,
+        44.884
+      ],
+      "rules-line-2": [
+        172.682,
+        1072.53,
+        713.636,
+        45.913
+      ],
+      "rules-line-3": [
+        264.606,
+        1133.0,
+        529.788,
+        44.443
+      ],
+      "rules-line-4": [
+        267.227,
+        1192.0,
+        524.545,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.565,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          190.09,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          138.565,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-166-goku-the-protector.webp",
+      "before_url": "/assets/cards/trunks-166-goku-the-protector.webp?v=87e0c65391b8",
+      "before_sha256": "87e0c65391b88f5e892ccbebc352add3d2cee5ccc0b42e68a0b7394bbb8ce263",
+      "after_sha256": "4b8c151dc5c1193992863fb461ea324cb32156862f0a5d1afa0b20de2a4d4ba4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-166-goku-the-protector.webp",
+      "before_url": "/assets/cards/downloads/trunks-166-goku-the-protector.webp?v=499abb3871ff",
+      "before_sha256": "499abb3871fff6579e4973aa02372eeb46cbaf6965ca2188dfe78bc68c7b319b",
+      "after_sha256": "7f88810eae408a0c1c55508abfd6a4cf269aab457943de8a42a5b9d5cb021167",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 580.7356608478804,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "personality_values": null,
+  "number": 202,
+  "printed_number": "P2",
+  "high_tech": false,
+  "id": "trunks-p02-confrontation",
+  "name": "Confrontation",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-p02-confrontation.svg",
+  "native_source_sha256": "f71491e86d7c93db6d187dcc144b30805ed96ca3ca804eb7477cd47a213a5bc8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f0f8835311d88a5270ebf3768305e437a0823ebb8ace23643cf8c223dbdea5b9.png",
+      "sha256": "f0f8835311d88a5270ebf3768305e437a0823ebb8ace23643cf8c223dbdea5b9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6cc32233e1c790b2509ab0d24789ca04919cea70d555d8811474d248dce0a7c0.png",
+      "sha256": "6cc32233e1c790b2509ab0d24789ca04919cea70d555d8811474d248dce0a7c0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2d54e458d01adc0b2ec4a0276726be841e2bed1346cd5970ce4c828dd2b0ac05.png",
+      "sha256": "2d54e458d01adc0b2ec4a0276726be841e2bed1346cd5970ce4c828dd2b0ac05"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "61ea0a0529d9cfc9de468fe956524b86a77160f20ea87f56bb8525efca769590",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "sky_only_correction": {
+      "native_mask": "original-sky-mask-202",
+      "illustration_source_retained": true,
+      "mask_file": "artwork-corrections/202-sky-mask.png"
+    },
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Heroes only. POWER: Look at",
+      "baseline": 1049.3,
+      "width": 508.6690000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's hand. Choose 1 card",
+      "baseline": 1108.3,
+      "width": 646.9470000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and shuffle it into their Life Deck.",
+      "baseline": 1167.3,
+      "width": 593.2920000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        323.748,
+        50.2213,
+        411.505,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        276.709,
+        1014.61,
+        505.582,
+        44.443
+      ],
+      "rules-line-2": [
+        207.276,
+        1073.61,
+        644.448,
+        44.443
+      ],
+      "rules-line-3": [
+        234.201,
+        1131.53,
+        590.597,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-p02-confrontation.webp",
+      "before_url": "/assets/cards/trunks-p02-confrontation.webp?v=9123cc0aaecf",
+      "before_sha256": "9123cc0aaecf7195085e628a12d2c62f859503695797216f90d0b311d698dafe",
+      "after_sha256": "c85ee7fdbb5e203ed3f9926b4c600a5bb3a79becf2554aa0b8b34da9ac316ac9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-p02-confrontation.webp",
+      "before_url": "/assets/cards/downloads/trunks-p02-confrontation.webp?v=b39f3cb3dbfb",
+      "before_sha256": "b39f3cb3dbfb78345380c3a09188503332c6e11571394f6095e11d9db48b2598",
+      "after_sha256": "9d4a812dd9624241ddfa1df1420fbdac3e28dcda8509930d115c316d7252220e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 411.5049875311721,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

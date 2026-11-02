@@ -1,0 +1,353 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 2,
+    "stages": [
+      1150000,
+      1100000,
+      1050000,
+      1000000,
+      950000,
+      900000,
+      850000,
+      800000,
+      750000,
+      700000,
+      0
+    ]
+  },
+  "number": 199,
+  "printed_number": "199",
+  "high_tech": true,
+  "id": "trunks-199-trunks-the-saiyan",
+  "name": "Trunks, the Saiyan",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-199-trunks-the-saiyan.svg",
+  "native_source_sha256": "0958a84ef8c742f267865288cea9214ee297d6d06f706531d8cedbe20e6efb89",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/02fb07b690afdc282891ef69d270960431f274fbab9fc6e1688634ec9cceb127.png",
+      "sha256": "02fb07b690afdc282891ef69d270960431f274fbab9fc6e1688634ec9cceb127"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/186e69e484627605f5b3c9604e42defeb1f7e7fc203a7c79b124958d0bff9c55.png",
+      "sha256": "186e69e484627605f5b3c9604e42defeb1f7e7fc203a7c79b124958d0bff9c55"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7116be64eefd46dacd4d355ade3e23ac633ffd73bc76e9c6470647b7151e26e5.png",
+      "sha256": "7116be64eefd46dacd4d355ade3e23ac633ffd73bc76e9c6470647b7151e26e5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ba8a40acb87d17bd8bea17ba6ee68754865b16a1ef5eccddf165187fdc8f3711.png",
+      "sha256": "ba8a40acb87d17bd8bea17ba6ee68754865b16a1ef5eccddf165187fdc8f3711"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b2b9af355c30223d0c79f10ec397d3e74b627cfa487de80ff293605e847d8b44.png",
+      "sha256": "b2b9af355c30223d0c79f10ec397d3e74b627cfa487de80ff293605e847d8b44"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "c2148c8a5b8493b59bae16ef717ae209b1b55e7f217de02407e4e3233ade0908",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "generated_illustration_only": true,
+      "patch": "tools/card-corrections/v3-trunks-156-200-p1-p5/artwork-corrections/199-generated.png",
+      "placement": [
+        0,
+        0,
+        1060,
+        1484
+      ],
+      "native_mask_shapes": [
+        [
+          "path",
+          {
+            "d": "M 30,135 L 570,110 L 680,320 L 670,480 L 990,550 L 1030,1000 L 800,1484 L 0,1484 L 0,600 Z"
+          }
+        ]
+      ],
+      "retained_source_beneath": true
+    },
+    "mode": "approved full-art Hi-Tech composition with original-scene fidelity repair where recorded",
+    "background_gain": 1,
+    "approved_full_art_exception": true,
+    "later_portrait_correction_retained": true
+  },
+  "rules": [
+    {
+      "text": "Lower your opponent's anger",
+      "baseline": 1049.3,
+      "width": 582.7397500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "1 level each time they perform",
+      "baseline": 1108.3,
+      "width": 535.962,
+      "icon_inline": false
+    },
+    {
+      "text": "a successful energy attack against you.",
+      "baseline": 1167.3,
+      "width": 709.9120000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        872.289,
+        160.009,
+        158.711,
+        38.269
+      ],
+      "power-stage-value-1": [
+        871.603,
+        224.691,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.008,
+        289.373,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-3": [
+        863.322,
+        354.054,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.076,
+        418.736,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.39,
+        483.418,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.027,
+        548.1,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.722,
+        677.463,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.036,
+        742.145,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        251.779,
+        43.9838,
+        555.441,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.405,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.205,
+        1392.65,
+        59.89,
+        33.708
+      ],
+      "rules-line-1": [
+        306.066,
+        1015.0,
+        514.618,
+        44.443
+      ],
+      "rules-line-2": [
+        262.572,
+        1072.53,
+        533.855,
+        45.521
+      ],
+      "rules-line-3": [
+        175.891,
+        1131.53,
+        707.217,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "L",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          238.316,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          306.066,
+          1015.0,
+          18.032,
+          34.3
+        ],
+        "new_visible_bounds": [
+          238.316,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-199-trunks-the-saiyan.webp",
+      "before_url": "/assets/cards/trunks-199-trunks-the-saiyan.webp?v=a410d4221f57",
+      "before_sha256": "a410d4221f57b0954a6aae8c0f6495ba3e52eecb30d3d3917feba358803b3cba",
+      "after_sha256": "a27ee65a082e956db509e2d5788db6630c3118bc4bb32127eecbed86b8290ebf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-199-trunks-the-saiyan.webp",
+      "before_url": "/assets/cards/downloads/trunks-199-trunks-the-saiyan.webp?v=e3305b414e9d",
+      "before_sha256": "e3305b414e9d99b8d4806cbf27e1112315fd018163e2407c88eaa0ced0a38507",
+      "after_sha256": "4b245d53b4c63ff6b1715a4316800a1ed2dd75559e8863e070df3bb8059a5fe4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 555.4413965087283,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

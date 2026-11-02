@@ -1,0 +1,299 @@
+{
+  "personality_values": {
+    "level": 1,
+    "pur": 1,
+    "stages": [
+      900000,
+      825000,
+      750000,
+      675000,
+      600000,
+      525000,
+      450000,
+      375000,
+      300000,
+      225000,
+      0
+    ]
+  },
+  "number": 188,
+  "printed_number": "188",
+  "high_tech": false,
+  "id": "trunks-188-king-cold",
+  "name": "King Cold",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-188-king-cold.svg",
+  "native_source_sha256": "52e3d33f26959597e8e6f2f8ff08b84ec6e3ce452660c5273e12e4f43527d500",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/23972dd6d0d0af3a11d4952378947bf935092f4c7bc33d6ad173c05cb44652c7.png",
+      "sha256": "23972dd6d0d0af3a11d4952378947bf935092f4c7bc33d6ad173c05cb44652c7"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "8aa1e3a6e81c7cddb432c0cf5d9b59451a7e62ec2c657acd366b1b96b8a75289",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "POWER: When entering Combat as",
+      "baseline": 1049.3,
+      "width": 602.3080000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the defender, place 1 random card from",
+      "baseline": 1108.3,
+      "width": 699.5240000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's hand on top of their Life Deck.",
+      "baseline": 1167.3,
+      "width": 829.472,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.39,
+        160.009,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-1": [
+        892.183,
+        224.691,
+        138.817,
+        38.269
+      ],
+      "power-stage-value-2": [
+        892.722,
+        289.373,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-3": [
+        894.633,
+        354.054,
+        136.367,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.684,
+        418.736,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.82,
+        483.418,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.753,
+        548.1,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-7": [
+        894.927,
+        612.782,
+        136.073,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.978,
+        677.463,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-9": [
+        893.506,
+        742.145,
+        137.494,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        391.414,
+        44.5,
+        276.172,
+        69.0
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.008,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.808,
+        1392.65,
+        60.685,
+        33.708
+      ],
+      "rules-line-1": [
+        229.816,
+        1013.53,
+        599.368,
+        45.913
+      ],
+      "rules-line-2": [
+        180.889,
+        1073.85,
+        697.221,
+        43.5664
+      ],
+      "rules-line-3": [
+        115.867,
+        1131.53,
+        827.267,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-188-king-cold.webp",
+      "before_url": "/assets/cards/trunks-188-king-cold.webp?v=4ba2b985c4a1",
+      "before_sha256": "4ba2b985c4a1c2805f0dc8a2e0e15af8caab8963a16657199cf66821e24e4617",
+      "after_sha256": "04a64d986658809a83c26722cd8ddf304376eae0f3731ef3692e5a3675a548c7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-188-king-cold.webp",
+      "before_url": "/assets/cards/downloads/trunks-188-king-cold.webp?v=e430e39f390d",
+      "before_sha256": "e430e39f390d4f153b20c0d31a247f6765ebbbd1eadac58d60b3c8df2cf434b2",
+      "after_sha256": "e839461633299c9f6895f2c0bcfdebe8a93fa4ae2baa7ee4930d255f622f1d49",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 276.17206982543644,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

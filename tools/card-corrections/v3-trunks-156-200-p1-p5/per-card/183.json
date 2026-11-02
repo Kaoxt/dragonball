@@ -1,0 +1,317 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 3,
+    "stages": [
+      200000,
+      195000,
+      190000,
+      185000,
+      180000,
+      175000,
+      170000,
+      165000,
+      160000,
+      155000,
+      0
+    ]
+  },
+  "number": 183,
+  "printed_number": "183",
+  "high_tech": false,
+  "id": "trunks-183-vinegar-the-fighter",
+  "name": "Vinegar, the Fighter",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-183-vinegar-the-fighter.svg",
+  "native_source_sha256": "94e75d4a0673f076ab28187bcd4b5fdf145448f4e2ea6b27646ee44c90a14c2f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cf7374de208dae231ad6712ae222817330a9ca2f4f96035271accb9392d8a96e.png",
+      "sha256": "cf7374de208dae231ad6712ae222817330a9ca2f4f96035271accb9392d8a96e"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "aaa9e5eb584005d6625465ba3bf4c30104436f14b5a8b3276d3e0db7d1039b71",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "After receiving damage from",
+      "baseline": 1049.3,
+      "width": 577.6927499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "a successful energy attack, gain 2 stages.",
+      "baseline": 1108.3,
+      "width": 750.386,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.664,
+        160.009,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-1": [
+        897.671,
+        224.691,
+        133.329,
+        38.269
+      ],
+      "power-stage-value-2": [
+        896.985,
+        289.373,
+        134.015,
+        38.269
+      ],
+      "power-stage-value-3": [
+        897.328,
+        354.054,
+        133.672,
+        38.269
+      ],
+      "power-stage-value-4": [
+        896.642,
+        418.736,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-5": [
+        901.493,
+        483.418,
+        129.507,
+        38.269
+      ],
+      "power-stage-value-6": [
+        900.807,
+        548.1,
+        130.193,
+        38.269
+      ],
+      "power-stage-value-7": [
+        897.573,
+        612.782,
+        133.427,
+        38.269
+      ],
+      "power-stage-value-8": [
+        896.887,
+        677.463,
+        134.113,
+        38.269
+      ],
+      "power-stage-value-9": [
+        897.916,
+        742.145,
+        133.084,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        231.647,
+        43.9838,
+        595.706,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        307.739,
+        1013.53,
+        509.775,
+        45.913
+      ],
+      "rules-line-2": [
+        155.655,
+        1072.53,
+        747.691,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          241.487,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          307.739,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          241.487,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-183-vinegar-the-fighter.webp",
+      "before_url": "/assets/cards/trunks-183-vinegar-the-fighter.webp?v=27f31da4c1ae",
+      "before_sha256": "27f31da4c1ae439263d7afc72c70e96979302ae2762ec37d48750efad3560c94",
+      "after_sha256": "7a4db1ff8d751a7aa1a025e6a7debd533131320a33f3cd5a3fa6dcf2a9b35e4e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp",
+      "before_url": "/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp?v=60713cf6d300",
+      "before_sha256": "60713cf6d300baff4974bacb1c7ed2bb15c3ea106427448e43844919a0992ae0",
+      "after_sha256": "3da965a2c061a49048df526ccd02afcbbbccadd0b813d8272ceda1c498886dc3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 595.705735660848,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

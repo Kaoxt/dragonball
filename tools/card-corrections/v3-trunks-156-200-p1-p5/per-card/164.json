@@ -1,0 +1,323 @@
+{
+  "personality_values": {
+    "level": 1,
+    "pur": 1,
+    "stages": [
+      1000000,
+      950000,
+      900000,
+      850000,
+      800000,
+      750000,
+      700000,
+      650000,
+      600000,
+      550000,
+      0
+    ]
+  },
+  "number": 164,
+  "printed_number": "164",
+  "high_tech": false,
+  "id": "trunks-164-goku-the-leader",
+  "name": "Goku, the Leader",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-164-goku-the-leader.svg",
+  "native_source_sha256": "8b2ccdcdd8cb9ad82ffe5cfa5f6ccea228ce4471e6720a9f5140f19f3b048709",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d85df9ae7a2ba45e026081fc265f0481654ca4782528ad1be1c377b7844ab121.png",
+      "sha256": "d85df9ae7a2ba45e026081fc265f0481654ca4782528ad1be1c377b7844ab121"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "22d6e296c539374ab9938a7d76875313fb8f1cf8bc08d6e4981d500d35bcbb49",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use during your Attack Phase.",
+      "baseline": 1049.3,
+      "width": 682.031,
+      "icon_inline": false
+    },
+    {
+      "text": "At Combat's end, if you defended",
+      "baseline": 1108.3,
+      "width": 581.8260000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and took no damage from your opponent,",
+      "baseline": 1167.3,
+      "width": 731.423,
+      "icon_inline": false
+    },
+    {
+      "text": "you may search your Life Deck for",
+      "baseline": 1226.3,
+      "width": 609.0210000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "an Ally and play it at 3 stages above 0.",
+      "baseline": 1285.3,
+      "width": 680.2180000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        863.322,
+        160.009,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.076,
+        224.691,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.39,
+        289.373,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.027,
+        354.054,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.341,
+        418.736,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.722,
+        483.418,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-6": [
+        892.036,
+        548.1,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.37,
+        612.782,
+        140.63,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.684,
+        677.463,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.664,
+        742.145,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        278.665,
+        43.9838,
+        501.67,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        786.186,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.986,
+        1392.65,
+        62.328,
+        33.708
+      ],
+      "rules-line-1": [
+        190.322,
+        1013.53,
+        678.356,
+        45.913
+      ],
+      "rules-line-2": [
+        239.847,
+        1072.53,
+        579.306,
+        45.521
+      ],
+      "rules-line-3": [
+        165.172,
+        1132.85,
+        728.656,
+        44.5954
+      ],
+      "rules-line-4": [
+        225.494,
+        1190.53,
+        608.012,
+        45.521
+      ],
+      "rules-line-5": [
+        190.738,
+        1249.53,
+        677.523,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-164-goku-the-leader.webp",
+      "before_url": "/assets/cards/trunks-164-goku-the-leader.webp?v=0255591e9e94",
+      "before_sha256": "0255591e9e9455db93aad1c1b38c7130c2a3344b691be0f93e75f1b406a3547c",
+      "after_sha256": "0baef075ce612a311bbc1cddb3fdb5ca3c28bd00a2f3cdf8c063232a02358ce5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-164-goku-the-leader.webp",
+      "before_url": "/assets/cards/downloads/trunks-164-goku-the-leader.webp?v=ebf5cf1c42d0",
+      "before_sha256": "ebf5cf1c42d0e3d1abda0483c340c345d121a80ee9a19583595b1030d043b582",
+      "after_sha256": "b43df3a83e27e694ea29914b433ddd3547f31088100954ddd05deb5dae4741e3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 501.66957605985044,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

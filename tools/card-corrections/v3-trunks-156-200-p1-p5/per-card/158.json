@@ -1,0 +1,227 @@
+{
+  "personality_values": null,
+  "number": 158,
+  "printed_number": "158",
+  "high_tech": false,
+  "id": "trunks-158-villains-true-power",
+  "name": "Villain's True Power",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-158-villains-true-power.svg",
+  "native_source_sha256": "dcfb21c94b6d3513e9b1707b6a6429ea641c8b25bf2cd8d448b039013b117620",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/30a7e9f4672c9950e38f8295d7567d159b48239fea26714a93211c27cd832e7d.png",
+      "sha256": "30a7e9f4672c9950e38f8295d7567d159b48239fea26714a93211c27cd832e7d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "356f4885b57f538cdee339311b24bf08db5ca8ef0a0eceb204fd89d48bd21f4f",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Villains only. Play as your first",
+      "baseline": 1049.3,
+      "width": 590.1651555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "attack card in Combat. Energy attack",
+      "baseline": 1108.3,
+      "width": 662.676,
+      "icon_inline": false
+    },
+    {
+      "text": "costing 2 stages. DAMAGE: 10 life cards.",
+      "baseline": 1167.3,
+      "width": 702.464,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        228.55,
+        50.2213,
+        601.9,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        288.4,
+        1013.53,
+        535.717,
+        45.521
+      ],
+      "rules-line-2": [
+        199.216,
+        1072.53,
+        660.569,
+        45.913
+      ],
+      "rules-line-3": [
+        179.811,
+        1131.53,
+        699.377,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "V",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          234.883,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          288.4,
+          1015.0,
+          21.7346,
+          34.3
+        ],
+        "new_visible_bounds": [
+          234.883,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-158-villains-true-power.webp",
+      "before_url": "/assets/cards/trunks-158-villains-true-power.webp?v=5b17031b6f62",
+      "before_sha256": "5b17031b6f628f9a81fa6ab121bdeb652bd8b407dbfb6a2ba8413ba00c2329c3",
+      "after_sha256": "bc6fa2ee08b1b894d72b25fa8fe5f0cd48629cb8069885a7bb5438e603909479",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-158-villains-true-power.webp",
+      "before_url": "/assets/cards/downloads/trunks-158-villains-true-power.webp?v=54a2a9a43b2c",
+      "before_sha256": "54a2a9a43b2cea32d613df2b6d9a30ea700548ed40c8176c323b57e21b97aa50",
+      "after_sha256": "05a0837b666a4171a36a2b3d3802d6ac40c7aa87b81f204b76a90e7c876070cc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 601.9002493765587,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

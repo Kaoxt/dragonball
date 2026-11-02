@@ -1,0 +1,221 @@
+{
+  "personality_values": null,
+  "number": 157,
+  "printed_number": "157",
+  "high_tech": false,
+  "id": "trunks-157-where-theres-life-theres-hope",
+  "name": "Where There's Life There's Hope",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-157-where-theres-life-theres-hope.svg",
+  "native_source_sha256": "76d05db3ca72965103020bbec227ae190ff141bbe4f32622f9dff4a87a689ba2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a34de2ccc23df903480e99f872c5dfec118695aeca84a14516c04e01833f8445.png",
+      "sha256": "a34de2ccc23df903480e99f872c5dfec118695aeca84a14516c04e01833f8445"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "0e4c4bec1e0c38c2a1edcf71a0f2b33bc73812414cce6555696165b390ef49ca",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: Use when",
+      "baseline": 1049.3,
+      "width": 616.9100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "an opponent wins. Postpone their victory",
+      "baseline": 1108.3,
+      "width": 728.973,
+      "icon_inline": false
+    },
+    {
+      "text": "until the start of their next turn, then check",
+      "baseline": 1167.3,
+      "width": 772.338,
+      "icon_inline": false
+    },
+    {
+      "text": "victory conditions again. Cannot prevent",
+      "baseline": 1226.3,
+      "width": 722.456,
+      "icon_inline": false
+    },
+    {
+      "text": "an effect that makes you lose. Banish after use.",
+      "baseline": 1285.3,
+      "width": 850.983,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.0658,
+        760.0,
+        53.8683
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        788.651,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.45,
+        1392.65,
+        57.399,
+        33.708
+      ],
+      "rules-line-1": [
+        222.956,
+        1013.53,
+        613.088,
+        44.884
+      ],
+      "rules-line-2": [
+        165.907,
+        1072.53,
+        727.186,
+        45.521
+      ],
+      "rules-line-3": [
+        144.654,
+        1131.53,
+        769.692,
+        40.572
+      ],
+      "rules-line-4": [
+        169.129,
+        1190.53,
+        720.741,
+        45.913
+      ],
+      "rules-line-5": [
+        105.356,
+        1249.53,
+        848.288,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-157-where-theres-life-theres-hope.webp",
+      "before_url": "/assets/cards/trunks-157-where-theres-life-theres-hope.webp?v=fad7a07d5437",
+      "before_sha256": "fad7a07d543761ac49ffae705e9b2ecc3cb55b55155ca1650fc15ccb57eebe4d",
+      "after_sha256": "861e33a688fbaae1c3a4e5930b522d21a2a8d84cb2cee367f76c0378f37265e2",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-157-where-theres-life-theres-hope.webp",
+      "before_url": "/assets/cards/downloads/trunks-157-where-theres-life-theres-hope.webp?v=b93eb6f7ed67",
+      "before_sha256": "b93eb6f7ed67e05b47fa1ee7f610b9f66cbeca7fc13da9717b6e05b8f249d3e5",
+      "after_sha256": "b095eeec4f6b168f1a22872c4fe402a4b08d92c0189dcf7f7520fbb77e78d11a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 67.16747680070702,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 53.86831639416703,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.7807002375966235
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -64,5 +64,5 @@ test('Trunks 106–155 preserve original values, reviewed rules, three Porunga c
  const blue=rows.find(r=>r.number===149);assert.ok(blue.artwork.expression_patch_retained);assert.match(read(blue.native_source_path),/id="retained-149-approved-mouth"/);const mouth=json(base+'artwork-preservation.json').find(x=>x.number===149);assert.equal(mouth.changed_artwork_pixels,0);
  for(const d of data){assert.equal(d.rarity_stars,d.number<=111?2:3);assert.match(read(rows.find(r=>r.number===d.number).native_source_path),new RegExp('id="footer-rarity"[^>]*data-star-count="'+d.rarity_stars+'"'));}
  const baseline=json(base+'retained-art-baseline-check.json').filter(r=>r.checked_pixels);assert.equal(baseline.length,47);assert.ok(baseline.every(r=>r.pixels_with_difference_above_2===0));
- assert.equal(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3).length,155);
+ assert.equal(catalog.filter(c=>c.set==='Trunks Saga'&&c.templateVersion===3&&Number(c.number)<=155).length,155);
 });

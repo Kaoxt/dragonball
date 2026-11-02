@@ -1,0 +1,318 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 2,
+    "stages": [
+      1150000,
+      1100000,
+      1050000,
+      1000000,
+      950000,
+      900000,
+      850000,
+      800000,
+      750000,
+      700000,
+      0
+    ]
+  },
+  "number": 186,
+  "printed_number": "186",
+  "high_tech": false,
+  "id": "trunks-186-trunks-the-swordsman",
+  "name": "Trunks, the Swordsman",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-186-trunks-the-swordsman.svg",
+  "native_source_sha256": "bc5ede69bfc33e976ee316b2e37b5293810d4be31fb86b4fcc43845030eca73d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6fa3ee08e9fb1cfeaa5e7193ba3feb16d1f8cabb72d6ba574e20578cc992123e.png",
+      "sha256": "6fa3ee08e9fb1cfeaa5e7193ba3feb16d1f8cabb72d6ba574e20578cc992123e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3d2268611ac5c9f0cc936de96dd81549bd02be65f27b10a959f83b3f16e45aab.png",
+      "sha256": "3d2268611ac5c9f0cc936de96dd81549bd02be65f27b10a959f83b3f16e45aab"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/04984a79f2083524bd7e0627e71e4912148a3dfeb7c6a375bb6fba75f07d6073.png",
+      "sha256": "04984a79f2083524bd7e0627e71e4912148a3dfeb7c6a375bb6fba75f07d6073"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "5037bbb9f444e279e7d685c948188919b19ac438c95a79f0843cc676b370855d",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "sky_only_correction": {
+      "native_mask": "original-sky-mask-186",
+      "illustration_source_retained": true,
+      "mask_file": "artwork-corrections/186-sky-mask.png"
+    },
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Your physical attacks deal +2 stages.",
+      "baseline": 1049.3,
+      "width": 730.3767499999999,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        872.289,
+        160.009,
+        158.711,
+        38.269
+      ],
+      "power-stage-value-1": [
+        871.603,
+        224.691,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.008,
+        289.373,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-3": [
+        863.322,
+        354.054,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.076,
+        418.736,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.39,
+        483.418,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.027,
+        548.1,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.722,
+        677.463,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.036,
+        742.145,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        179.5,
+        44.4164,
+        700.0,
+        69.1673
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.008,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.808,
+        1392.65,
+        60.685,
+        33.708
+      ],
+      "rules-line-1": [
+        231.865,
+        1013.53,
+        662.039,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          165.096,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          231.865,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          165.096,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-186-trunks-the-swordsman.webp",
+      "before_url": "/assets/cards/trunks-186-trunks-the-swordsman.webp?v=2e2727661117",
+      "before_sha256": "2e27276611175b6955f89fea36ed3c5002860791c7cf51c5f3fa8a75b1eeaed3",
+      "after_sha256": "fafd1430108a421f2339d76a06e9c49503842ad54639f7507edb1d7e232f5495",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp",
+      "before_url": "/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp?v=5da40bf98bca",
+      "before_sha256": "5da40bf98bca86847641448f57b7dd04a027b34482d223aa58d1aea5c2b2f884",
+      "after_sha256": "62cf5e50bc40deaff3eae5c09dc3d199abe6fa1ca929704bd15b5f2bded06faa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 84.97208060208787,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 69.16727361009953,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9876465020706444
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

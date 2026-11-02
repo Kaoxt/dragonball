@@ -1,0 +1,185 @@
+{
+  "personality_values": null,
+  "number": 201,
+  "printed_number": "P1",
+  "high_tech": false,
+  "id": "trunks-p01-trunks-defensive-crouch",
+  "name": "Trunks Defensive Crouch",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-p01-trunks-defensive-crouch.svg",
+  "native_source_sha256": "5fb14dec92d4b407e03f4db6ff4170b28649a1871658d243a4a11d9e8e68e4de",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/277e6de2ccc99f140d2eb367fbc78910de27591d97ab77718520ecd682549f8e.png",
+      "sha256": "277e6de2ccc99f140d2eb367fbc78910de27591d97ab77718520ecd682549f8e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "c26c152febe30b6bb73237eeed64174686e96b915e0213ca7bf10286c3b4188a",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Prevent the first 3 stages or life",
+      "baseline": 1049.3,
+      "width": 713.734,
+      "icon_inline": false
+    },
+    {
+      "text": "cards of damage from a physical attack.",
+      "baseline": 1108.3,
+      "width": 719.9570000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        155.033,
+        50.2213,
+        748.934,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        799.94,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.74,
+        1392.65,
+        34.821,
+        33.708
+      ],
+      "rules-line-1": [
+        174.348,
+        1013.53,
+        710.304,
+        45.913
+      ],
+      "rules-line-2": [
+        171.065,
+        1072.53,
+        716.87,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-p01-trunks-defensive-crouch.webp",
+      "before_url": "/assets/cards/trunks-p01-trunks-defensive-crouch.webp?v=dbbadc65b2aa",
+      "before_sha256": "dbbadc65b2aabfe6e2fc80b2927053b8929bb5178833305dc8e1824e6fb90af6",
+      "after_sha256": "10ff807e4ddafcf93f58c6ad41a75c2e468d7b2dcedab7b840d4c72134a53f00",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-p01-trunks-defensive-crouch.webp",
+      "before_url": "/assets/cards/downloads/trunks-p01-trunks-defensive-crouch.webp?v=73d0a66e3676",
+      "before_sha256": "73d0a66e3676735c5db5126a621669f18dc7b6ee6d962c825454c7d913c8d4ad",
+      "after_sha256": "3f8f79317955ed7c9a07c75b9776f6768819489eaef14aa5dd1f9558905513b6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 748.9339152119702,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 4,
+    "stages": [
+      400000,
+      380000,
+      360000,
+      340000,
+      320000,
+      300000,
+      280000,
+      260000,
+      240000,
+      220000,
+      0
+    ]
+  },
+  "number": 181,
+  "printed_number": "181",
+  "high_tech": false,
+  "id": "trunks-181-spice-the-warrior",
+  "name": "Spice, the Warrior",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-181-spice-the-warrior.svg",
+  "native_source_sha256": "115b1b58fb188fe647370f1d69d10d79ad2559d131419728352955a743c5e4a1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d3ac7424b64fbc1e84fe6949bd6114dffdf1e3e8a160bd829732fbf78502c9de.png",
+      "sha256": "d3ac7424b64fbc1e84fe6949bd6114dffdf1e3e8a160bd829732fbf78502c9de"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "fce68384af3e1b89782a2bab128b8af04dac1e11f49134494d908f91bd5ccdef",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 8 life cards.",
+      "baseline": 1108.3,
+      "width": 375.04600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        888.067,
+        160.009,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.076,
+        224.691,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.321,
+        289.373,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.272,
+        354.054,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.134,
+        418.736,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.762,
+        548.1,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-7": [
+        891.007,
+        612.782,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.958,
+        677.463,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        255.952,
+        43.9838,
+        547.096,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        791.566,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.365,
+        1392.65,
+        51.569,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        343.839,
+        1072.53,
+        371.322,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-181-spice-the-warrior.webp",
+      "before_url": "/assets/cards/trunks-181-spice-the-warrior.webp?v=eb680879ae99",
+      "before_sha256": "eb680879ae99b7fec1068539736eb82b8ae4eac390ca94978ef27e913ce190ef",
+      "after_sha256": "c757eec10a601a6b2d31761ed95d04d0545d596fe540a9fc059eb2a198891cbc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-181-spice-the-warrior.webp",
+      "before_url": "/assets/cards/downloads/trunks-181-spice-the-warrior.webp?v=42600c1090fe",
+      "before_sha256": "42600c1090fe1fdb03b82ec4e0d4c937a25197fe0ee10a7ade5ef3f4ee6cdc2b",
+      "after_sha256": "71a1b36eb4c510c3335467403ee20bfb784b178520d8941e9c4a072c68c797ec",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 547.0960099750624,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

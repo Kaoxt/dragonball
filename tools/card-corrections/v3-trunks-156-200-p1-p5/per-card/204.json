@@ -1,0 +1,228 @@
+{
+  "personality_values": null,
+  "number": 204,
+  "printed_number": "P4",
+  "high_tech": false,
+  "id": "trunks-p04-blue-battle-drill",
+  "name": "Blue Battle Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-p04-blue-battle-drill.svg",
+  "native_source_sha256": "58a837299984b2ffe3c8d039b1fdd01c0ba3e4d3a698fa2ed72b59697b63c1bd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c7d013e865b8aeef6435dc8a9b46c4eaa4088814875ccbb5dc1d9b9193df3a6d.png",
+      "sha256": "c7d013e865b8aeef6435dc8a9b46c4eaa4088814875ccbb5dc1d9b9193df3a6d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fb4aa605321e4ff6bcdd080b934a91ecabe04f73397b36b842c033bfc8fbb920.png",
+      "sha256": "fb4aa605321e4ff6bcdd080b934a91ecabe04f73397b36b842c033bfc8fbb920"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/88531165d961a3b3c85a65a858027ad7b5681d884abc7d22c007e47279427f96.png",
+      "sha256": "88531165d961a3b3c85a65a858027ad7b5681d884abc7d22c007e47279427f96"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "81650a5483037dc51f3ea0f40b16fb9359668410fb7546364138a09e1a28d833",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "sky_only_correction": {
+      "native_mask": "original-sky-mask-204",
+      "illustration_source_retained": true,
+      "mask_file": "artwork-corrections/204-sky-mask.png"
+    },
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Neither player may play or use cards",
+      "baseline": 1049.3,
+      "width": 719.4987500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "that end Combat while this Drill is in play.",
+      "baseline": 1108.3,
+      "width": 732.158,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        297.421,
+        50.2213,
+        464.158,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        794.428,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.227,
+        1392.65,
+        45.845,
+        33.708
+      ],
+      "rules-line-1": [
+        237.917,
+        1013.53,
+        650.916,
+        45.521
+      ],
+      "rules-line-2": [
+        164.524,
+        1072.53,
+        729.953,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "N",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          170.167,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          237.917,
+          1015.0,
+          20.874,
+          34.3
+        ],
+        "new_visible_bounds": [
+          170.167,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-p04-blue-battle-drill.webp",
+      "before_url": "/assets/cards/trunks-p04-blue-battle-drill.webp?v=e357dba1a474",
+      "before_sha256": "e357dba1a47418028eda5a4511343a49477978188b2c233d3a7b11638a373415",
+      "after_sha256": "07fa2a5223a53e85e31af0644d9353d12b9b6d937cf03fa1f942dd8aa36291c0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-p04-blue-battle-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-p04-blue-battle-drill.webp?v=eaf81147a8d6",
+      "before_sha256": "eaf81147a8d6ceca3c2799252842be2bee319644e7a749427bb821d7f6bd86de",
+      "after_sha256": "691164b93d8f3486eb1b7243583b4456da53d0b9dfdc75d809099f04d23aa39c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 464.1583541147133,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

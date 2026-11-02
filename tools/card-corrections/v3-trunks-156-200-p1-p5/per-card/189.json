@@ -1,0 +1,342 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 2,
+    "stages": [
+      1000000,
+      900000,
+      800000,
+      700000,
+      600000,
+      500000,
+      400000,
+      300000,
+      200000,
+      100000,
+      0
+    ]
+  },
+  "number": 189,
+  "printed_number": "189",
+  "high_tech": false,
+  "id": "trunks-189-king-cold-the-destroyer",
+  "name": "King Cold, the Destroyer",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-189-king-cold-the-destroyer.svg",
+  "native_source_sha256": "cb903fc5e98f39be30a0bdd9d31aeea8c038ab4a8b1e203dc562605ebb550511",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d8daea757b9852ca73fc62404391ec60753d0c54dc95f7a21fbdcc6ca38928a4.png",
+      "sha256": "d8daea757b9852ca73fc62404391ec60753d0c54dc95f7a21fbdcc6ca38928a4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/74dd3b12aa9fe7fdc4b30f105c684c7087196d1a35b68c4c5c876ecd3f34d577.png",
+      "sha256": "74dd3b12aa9fe7fdc4b30f105c684c7087196d1a35b68c4c5c876ecd3f34d577"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2b2984c54a933f0b68b730bcaeec2d6a00c32a5409b275c98de4fe7ab77f129a.png",
+      "sha256": "2b2984c54a933f0b68b730bcaeec2d6a00c32a5409b275c98de4fe7ab77f129a"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "93af00150013aa439dfe5a7ab07c1e83714f68d8f927566c6d366ab6fa17cc6d",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "sky_only_correction": {
+      "native_mask": "original-sky-mask-189",
+      "illustration_source_retained": true,
+      "mask_file": "artwork-corrections/189-sky-mask.png"
+    },
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Choose any personality in play. You may",
+      "baseline": 1049.3,
+      "width": 779.9157499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "use that personality's power level when",
+      "baseline": 1108.3,
+      "width": 704.669,
+      "icon_inline": false
+    },
+    {
+      "text": "determining damage from a physical attack.",
+      "baseline": 1167.3,
+      "width": 787.528,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        863.322,
+        160.009,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-1": [
+        889.39,
+        224.691,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.341,
+        289.373,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-3": [
+        892.036,
+        354.054,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.684,
+        418.736,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.067,
+        548.1,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.978,
+        612.782,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.664,
+        677.463,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-9": [
+        896.544,
+        742.145,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        179.5,
+        45.208,
+        700.0,
+        67.5839
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.22,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.019,
+        1392.65,
+        60.261,
+        33.708
+      ],
+      "rules-line-1": [
+        207.132,
+        1013.53,
+        711.996,
+        45.521
+      ],
+      "rules-line-2": [
+        178.832,
+        1072.53,
+        701.337,
+        45.521
+      ],
+      "rules-line-3": [
+        137.28,
+        1131.53,
+        784.441,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "C",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          139.872,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          207.132,
+          1014.61,
+          19.551,
+          35.084
+        ],
+        "new_visible_bounds": [
+          139.872,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-189-king-cold-the-destroyer.webp",
+      "before_url": "/assets/cards/trunks-189-king-cold-the-destroyer.webp?v=53fe0f36fd36",
+      "before_sha256": "53fe0f36fd36da84750992eb69d2c21e35e4fdfa51a65308ecf55ae1d7203a2a",
+      "after_sha256": "3776f6fc2a372fc7bcc3367bcacc006043b09c7cb337b36fbb877e87bc7b1744",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp",
+      "before_url": "/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp?v=b5403a6175c6",
+      "before_sha256": "b5403a6175c6160fe059b81109e1cded34721e2c01a2f604751ddb468c45b3b4",
+      "after_sha256": "b9237703d378a2925bb30bfa16936aac376eddf6a79de7ceeb70dbd72004d54b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.02692444549874,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 699.9999999999999,
+      "visible_height": 67.58391649863597,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9650375855839127
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

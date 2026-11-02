@@ -1,0 +1,364 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 5,
+    "stages": [
+      350000,
+      325000,
+      300000,
+      275000,
+      250000,
+      225000,
+      200000,
+      175000,
+      150000,
+      125000,
+      0
+    ]
+  },
+  "number": 156,
+  "printed_number": "156",
+  "high_tech": false,
+  "id": "trunks-156-krillin-the-warrior",
+  "name": "Krillin, the Warrior",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-156-krillin-the-warrior.svg",
+  "native_source_sha256": "5c490ddb7fc4eccb78ce600850dedf81501094a56477d2b5aad09bb9babfaed4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/289a14e08722a743494e05291cf3875c4670a7b1b950e783782f1f07d7bd8c82.png",
+      "sha256": "289a14e08722a743494e05291cf3875c4670a7b1b950e783782f1f07d7bd8c82"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8691b7f07ef022aa83cf0665aaec40e2bb6567c939bb7c23bb343e6167d4b274.png",
+      "sha256": "8691b7f07ef022aa83cf0665aaec40e2bb6567c939bb7c23bb343e6167d4b274"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "8c84d3fb5466c4def481a9412e618ea1f8ee4948543851c95467aafb16f8b1d0",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "generated_illustration_only": true,
+      "patch": "tools/card-corrections/v3-trunks-156-200-p1-p5/artwork-corrections/156-generated.png",
+      "placement": [
+        0,
+        0,
+        1505,
+        1045
+      ],
+      "native_mask_shapes": [
+        [
+          "ellipse",
+          {
+            "cx": 464,
+            "cy": 185,
+            "rx": 45,
+            "ry": 52
+          }
+        ],
+        [
+          "ellipse",
+          {
+            "cx": 566,
+            "cy": 170,
+            "rx": 45,
+            "ry": 50
+          }
+        ]
+      ],
+      "retained_source_beneath": true
+    },
+    "mode": "retained approved illustration",
+    "horizontal_source_crop": 0,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "retained_approved_reframing": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Calculate this attack's damage as if",
+      "baseline": 1108.3,
+      "width": 634.746,
+      "icon_inline": false
+    },
+    {
+      "text": "Krillin's power level were 350,000.",
+      "baseline": 1167.3,
+      "width": 608.5310000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.664,
+        160.009,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-1": [
+        892.82,
+        224.691,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.978,
+        289.373,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-3": [
+        895.613,
+        354.054,
+        135.387,
+        38.269
+      ],
+      "power-stage-value-4": [
+        891.35,
+        418.736,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-5": [
+        893.506,
+        483.418,
+        137.494,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.664,
+        548.1,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-7": [
+        901.493,
+        612.782,
+        129.507,
+        38.269
+      ],
+      "power-stage-value-8": [
+        897.23,
+        677.463,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-9": [
+        899.386,
+        742.145,
+        131.614,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        249.413,
+        43.9838,
+        560.173,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        233.52,
+        891.391,
+        591.96,
+        34.2188
+      ],
+      "concept-pur-number": [
+        79.8716,
+        876.0,
+        60.2568,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "rules-line-2": [
+        213.474,
+        1072.53,
+        632.051,
+        45.913
+      ],
+      "rules-line-3": [
+        227.096,
+        1131.53,
+        604.807,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-156-krillin-the-warrior.webp",
+      "before_url": "/assets/cards/trunks-156-krillin-the-warrior.webp?v=a12d73666d6f",
+      "before_sha256": "a12d73666d6fc49f89d4286454d4b67e809114cd705d1deb8791c6bb19f63001",
+      "after_sha256": "7e991b341b7b25c7ac1ff8fd305f5e1128c5c3c9423c42f2dbfb02399d3f0d0d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-156-krillin-the-warrior.webp",
+      "before_url": "/assets/cards/downloads/trunks-156-krillin-the-warrior.webp?v=78297e79f773",
+      "before_sha256": "78297e79f773e9aed4674fda1826650e28f078018cd8e7add471f8ffe68033b7",
+      "after_sha256": "17381474aa78671403b25f8c4d51e043675f613e9d50d1c350423078ce67736e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 560.1733167082295,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        591.960225,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

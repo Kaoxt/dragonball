@@ -1,0 +1,323 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 2,
+    "stages": [
+      400000,
+      380000,
+      360000,
+      340000,
+      320000,
+      300000,
+      280000,
+      260000,
+      240000,
+      220000,
+      0
+    ]
+  },
+  "number": 196,
+  "printed_number": "196",
+  "high_tech": true,
+  "id": "trunks-196-garlic-jr-the-merciless",
+  "name": "Garlic Jr., the Merciless",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-196-garlic-jr-the-merciless.svg",
+  "native_source_sha256": "c2fab3be4ea936fe5d28f0334717fe6f8723129f7cb686fbef1c4360a415f5b8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3d027c428b9d3a7044382db6696adfcc8d7bdf9ec520cb642ff7d26b933f6130.png",
+      "sha256": "3d027c428b9d3a7044382db6696adfcc8d7bdf9ec520cb642ff7d26b933f6130"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a5cdd59cab27d225034d79f83de87767e5aeb0bb1a559908b13dab1087f34ef8.png",
+      "sha256": "a5cdd59cab27d225034d79f83de87767e5aeb0bb1a559908b13dab1087f34ef8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c1d4aa70e7af821049567fe050145ba321f3d0e96497f6a21cb92c50c62b9108.png",
+      "sha256": "c1d4aa70e7af821049567fe050145ba321f3d0e96497f6a21cb92c50c62b9108"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7688bb3fcdceda49450aaa1dd73493f99b27f864633c51c37c60cb7e55da886c.png",
+      "sha256": "7688bb3fcdceda49450aaa1dd73493f99b27f864633c51c37c60cb7e55da886c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8a76020f89451d04e07c13383a83d6646da3fdfbf992f9376fdf57625116352d.png",
+      "sha256": "8a76020f89451d04e07c13383a83d6646da3fdfbf992f9376fdf57625116352d"
+    }
+  ],
+  "artwork": {
+    "source_native_sha256": "eb47d6c68e067b9212de0d555ca41aade95493cf86bd9d89d96b1204e35e46ee",
+    "additional_zoom": false,
+    "artwork_bytes_retained": true,
+    "localized_correction": {
+      "generated_illustration_only": true,
+      "patch": "tools/card-corrections/v3-trunks-156-200-p1-p5/artwork-corrections/196-generated.png",
+      "placement": [
+        0,
+        0,
+        1060,
+        1484
+      ],
+      "native_mask_shapes": [
+        [
+          "path",
+          {
+            "d": "M 70,120 L 480,100 L 640,310 L 860,370 L 980,750 L 1060,1484 L 0,1484 L 0,500 Z"
+          }
+        ]
+      ],
+      "retained_source_beneath": true
+    },
+    "mode": "approved full-art Hi-Tech composition with original-scene fidelity repair where recorded",
+    "background_gain": 1,
+    "approved_full_art_exception": true,
+    "later_portrait_correction_retained": true
+  },
+  "rules": [
+    {
+      "text": "POWER: When entering Combat",
+      "baseline": 1049.3,
+      "width": 550.4660000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "as the defender, you may draw",
+      "baseline": 1108.3,
+      "width": 548.5060000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the bottom card of your discard pile.",
+      "baseline": 1167.3,
+      "width": 649.0050000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        888.067,
+        160.009,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.076,
+        224.691,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.321,
+        289.373,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.272,
+        354.054,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.134,
+        418.736,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.762,
+        548.1,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-7": [
+        891.007,
+        612.782,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.958,
+        677.463,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        179.5,
+        44.387,
+        700.0,
+        69.2261
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.193,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.993,
+        1392.65,
+        60.314,
+        33.708
+      ],
+      "rules-line-1": [
+        255.786,
+        1013.53,
+        547.428,
+        45.913
+      ],
+      "rules-line-2": [
+        256.189,
+        1073.85,
+        546.623,
+        44.2034
+      ],
+      "rules-line-3": [
+        206.1,
+        1131.53,
+        646.8,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-196-garlic-jr-the-merciless.webp",
+      "before_url": "/assets/cards/trunks-196-garlic-jr-the-merciless.webp?v=664312fb14e0",
+      "before_sha256": "664312fb14e08998955a1594e7792f374017020defae25559a5a8e831cfa5964",
+      "after_sha256": "4c197d8f351c5c40e76bf62d5dfd90b749acd4b6a9ef5ca483771be1fed08562",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp",
+      "before_url": "/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp?v=cdd7da1622ba",
+      "before_sha256": "cdd7da1622ba63b368b23ea63685deb16f14ea965a47adb7149528c2cf908a71",
+      "after_sha256": "577404ef62745c9f00c54ab8df6fac774ac6f20774825e30ccec09aacdece5aa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 85.04434455108735,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 700.0,
+      "visible_height": 69.2260964645851,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 0.9884864395648123
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
