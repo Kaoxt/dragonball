@@ -10,6 +10,8 @@ export async function forumDb(env) {
   if (!schemas.has(db)) schemas.set(db, Promise.resolve(db.batch([
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_members (id TEXT PRIMARY KEY, user_id TEXT UNIQUE NOT NULL, author TEXT NOT NULL, avatar_url TEXT NOT NULL DEFAULT '', avatar_color TEXT NOT NULL DEFAULT '#6568e8', about TEXT NOT NULL DEFAULT '', banned INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL)`),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_categories (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL COLLATE NOCASE UNIQUE, description TEXT NOT NULL DEFAULT '', position INTEGER NOT NULL DEFAULT 0, archived INTEGER NOT NULL DEFAULT 0, read_only INTEGER NOT NULL DEFAULT 0)`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS forum_sections (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL COLLATE NOCASE UNIQUE, description TEXT NOT NULL DEFAULT '', position INTEGER NOT NULL DEFAULT 0)`),
+    db.prepare("INSERT OR IGNORE INTO forum_sections(id,name,position) VALUES(1,'Dragon Ball OCG',0)"),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_topics (id INTEGER PRIMARY KEY AUTOINCREMENT, member_id TEXT NOT NULL REFERENCES forum_members(id), category_id INTEGER NOT NULL REFERENCES forum_categories(id), title TEXT NOT NULL, body TEXT NOT NULL, github_release_url TEXT NOT NULL DEFAULT '', pinned INTEGER NOT NULL DEFAULT 0, locked INTEGER NOT NULL DEFAULT 0, hidden INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL, updated_at TEXT NOT NULL)`),
     db.prepare(`CREATE TABLE IF NOT EXISTS forum_replies (id INTEGER PRIMARY KEY AUTOINCREMENT, topic_id INTEGER NOT NULL REFERENCES forum_topics(id), member_id TEXT NOT NULL REFERENCES forum_members(id), body TEXT NOT NULL, hidden INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL)`),
     db.prepare("CREATE TABLE IF NOT EXISTS forum_follows (topic_id INTEGER NOT NULL REFERENCES forum_topics(id),member_id TEXT NOT NULL REFERENCES forum_members(id),last_read_reply INTEGER NOT NULL DEFAULT 0,PRIMARY KEY(topic_id,member_id))"),
@@ -38,6 +40,12 @@ export async function forumDb(env) {
     db.prepare("UPDATE forum_categories SET name='Decks & Strategies' WHERE id=2 AND name COLLATE BINARY='Decks & strategies'"),
     db.prepare("UPDATE forum_categories SET name='Rules & Rulings' WHERE id=3 AND name COLLATE BINARY='Rules & rulings'"),
   ])).then(async()=>{
+    // Existing forums retain their IDs, discussions and order in the original section.
+    if(!(await db.prepare('PRAGMA table_info(forum_categories)').all()).results.some(c=>c.name==='section_id')){
+      try{await db.prepare('ALTER TABLE forum_categories ADD COLUMN section_id INTEGER NOT NULL DEFAULT 1').run();}
+      catch(e){if(!(await db.prepare('PRAGMA table_info(forum_categories)').all()).results.some(c=>c.name==='section_id'))throw e;}
+    }
+    await db.prepare('CREATE INDEX IF NOT EXISTS forum_categories_section ON forum_categories(section_id,position,id)').run();
     const columns=await db.prepare('PRAGMA table_info(forum_topics)').all();
     if(!columns.results.some(c=>c.name==='view_count'))await db.prepare('ALTER TABLE forum_topics ADD COLUMN view_count INTEGER NOT NULL DEFAULT 0').run();
     if(!columns.results.some(c=>c.name==='github_release_url')){

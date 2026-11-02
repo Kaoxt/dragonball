@@ -6,6 +6,7 @@ import { limitForumWrites, forumHandle, forumInput, releaseUrl, IssueError, text
 const canEdit=(post,member,admin)=>admin||!!member&&!member.banned&&!post.hidden&&member.id===post.member_id&&Date.now()-Date.parse(post.created_at)<86400000;
 const protectCategory=c=>({...c,read_only:c.id===ANNOUNCEMENTS_ID?1:c.read_only});
 const categories = async db => (await db.prepare('SELECT * FROM forum_categories ORDER BY position,id').all()).results.map(protectCategory);
+const sections = async db => (await db.prepare('SELECT * FROM forum_sections ORDER BY position,id').all()).results;
 const categoryOverview = async db => (await db.prepare(`SELECT c.*,
  (SELECT COUNT(*) FROM forum_topics t WHERE t.category_id=c.id AND t.hidden=0) AS topic_count,
  (SELECT COUNT(*) FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id WHERE t.category_id=c.id AND t.hidden=0 AND r.hidden=0) AS reply_count,
@@ -42,12 +43,17 @@ export const onRequestGet = context => forumHandle(context,false,async({db,sessi
     if(q.get('summary')==='1')return reply({unreadCount:await unreadNotifications(db,me)});
     return reply(await notifications(db,me,q.has('cursor')?id(q.get('cursor')):null));
   }
-  const common={authenticated:!!session,isAdmin:admin,myMemberId:me?.id||null,canPost:!!session&&(!me?.banned||admin),announcementsCategoryId:ANNOUNCEMENTS_ID,postingOpen:!!(await db.prepare('SELECT posting_open FROM forum_settings WHERE id=1').first()).posting_open};
+  const common={authenticated:!!session,isAdmin:admin,myMemberId:me?.id||null,canPost:!!session&&(!me?.banned||admin),announcementsCategoryId:ANNOUNCEMENTS_ID,postingOpen:!!(await db.prepare('SELECT posting_open FROM forum_settings WHERE id=1').first()).posting_open,sections:await sections(db)};
   if(view==='news'||view==='latestNews'){
     const newsPageSize=5,limit=view==='latestNews'?1:newsPageSize+1;
     const articles=(await db.prepare(`${topicSelect} WHERE t.category_id=? AND t.hidden=0 ORDER BY t.created_at DESC,t.id DESC LIMIT ? OFFSET ?`).bind(ANNOUNCEMENTS_ID,limit,view==='latestNews'?0:(current-1)*newsPageSize).all()).results;
     if(view==='latestNews')return reply({article:articles[0]?{id:articles[0].id,title:articles[0].title,created_at:articles[0].created_at}:null});
     return reply({...common,categories:await categories(db),articles:articles.slice(0,newsPageSize),hasMore:articles.length>newsPageSize,page:current});
+  }
+  if(view==='section'){
+    const section=common.sections.find(s=>s.id===id(q.get('id')));
+    if(!section)throw new IssueError('Section not found.',404);
+    return reply({...common,section,categories:(await categoryOverview(db)).filter(c=>c.section_id===section.id)});
   }
   if(view==='categories'){
     const stats=await db.prepare(`SELECT (SELECT COUNT(*) FROM forum_members) AS members,(SELECT COUNT(*) FROM forum_topics WHERE hidden=0) AS topics,((SELECT COUNT(*) FROM forum_topics WHERE hidden=0)+(SELECT COUNT(*) FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id WHERE r.hidden=0 AND t.hidden=0)) AS posts`).first();
@@ -210,20 +216,34 @@ export const onRequestPost = context => forumHandle(context,true,async({db,sessi
     }
     return reply({ok:true});
   }
-  if(['category','topicModerate','replyModerate','memberModerate','settings'].includes(action)){
+  if(['section','category','topicModerate','replyModerate','memberModerate','settings'].includes(action)){
     requireAdmin(admin);
     if(action==='settings'){
       if(typeof data.postingOpen!=='boolean')throw new IssueError('Choose a valid posting setting.');
       await db.prepare('UPDATE forum_settings SET posting_open=? WHERE id=1').bind(+data.postingOpen).run();
+    } else if(action==='section'){
+      const name=textField(data.name,'Section name',1,60),description=textField(data.description??'','Description',0,240);
+      if(!Number.isInteger(data.position)||Math.abs(data.position)>9999)throw new IssueError('Invalid section order.');
+      const existing=data.id?id(data.id):null;
+      if(existing&&!await db.prepare('SELECT id FROM forum_sections WHERE id=?').bind(existing).first())throw new IssueError('Section not found.',404);
+      if(await db.prepare('SELECT id FROM forum_sections WHERE name=? AND id!=?').bind(name,existing||0).first())throw new IssueError('A section with this name already exists.');
+      if(existing)await db.prepare('UPDATE forum_sections SET name=?,description=?,position=? WHERE id=?').bind(name,description,data.position,existing).run();
+      else{
+        const result=await db.prepare('INSERT INTO forum_sections(name,description,position) SELECT ?,?,? WHERE (SELECT COUNT(*) FROM forum_sections)<100').bind(name,description,data.position).run();
+        if(!result.meta.changes)throw new IssueError('You can create up to 100 sections.');
+      }
     } else if(action==='category'){
       const name=textField(data.name,'Category name',1,60),description=textField(data.description??'','Description',0,240);
       if(!Number.isInteger(data.position)||Math.abs(data.position)>9999||typeof data.archived!=='boolean'||typeof data.readOnly!=='boolean')throw new IssueError('Invalid category settings.');
       const existing=data.id?id(data.id):null;
-      if(existing&&!await db.prepare('SELECT id FROM forum_categories WHERE id=?').bind(existing).first())throw new IssueError('Category not found.',404);
+      const previous=existing?await db.prepare('SELECT id,section_id FROM forum_categories WHERE id=?').bind(existing).first():null;
+      if(existing&&!previous)throw new IssueError('Forum not found.',404);
+      const sectionId=data.sectionId===undefined?(previous?.section_id||1):id(data.sectionId);
+      if(!await db.prepare('SELECT id FROM forum_sections WHERE id=?').bind(sectionId).first())throw new IssueError('Choose an existing section.');
       if(await db.prepare('SELECT id FROM forum_categories WHERE name=? AND id!=?').bind(name,existing||0).first())throw new IssueError('A category with this name already exists.');
-      if(existing)await db.prepare('UPDATE forum_categories SET name=?,description=?,position=?,archived=?,read_only=? WHERE id=?').bind(name,description,data.position,+data.archived,existing===ANNOUNCEMENTS_ID?1:+data.readOnly,existing).run();
+      if(existing)await db.prepare('UPDATE forum_categories SET name=?,description=?,position=?,archived=?,read_only=?,section_id=? WHERE id=?').bind(name,description,data.position,+data.archived,existing===ANNOUNCEMENTS_ID?1:+data.readOnly,sectionId,existing).run();
       else {
-        const result=await db.prepare('INSERT INTO forum_categories(name,description,position,archived,read_only) SELECT ?,?,?,?,? WHERE (SELECT COUNT(*) FROM forum_categories)<100').bind(name,description,data.position,+data.archived,+data.readOnly).run();
+        const result=await db.prepare('INSERT INTO forum_categories(name,description,position,archived,read_only,section_id) SELECT ?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM forum_categories)<100').bind(name,description,data.position,+data.archived,+data.readOnly,sectionId).run();
         if(!result.meta.changes)throw new IssueError('You can create up to 100 categories.');
       }
     } else if(action==='topicModerate'){

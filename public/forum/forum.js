@@ -73,13 +73,19 @@
       panel.querySelector('[data-edited-note]').innerHTML=editedNote(post,kind);
       if(kind==='topic'&&d.isAdmin&&post.category_id===4){post.github_release_url=post.releaseUrl;panel.querySelector('[data-release-link]').innerHTML=releaseLink(post);}
       body.innerHTML=rich(post.body);body.hidden=false;form.remove();button.hidden=false;
-      if(kind==='topic'){root.querySelector('.forum-topic-name').textContent=post.title;document.title=post.title+(newsPage?' | News':' | Forums')+' | Dragon Ball OCG';}
+      if(kind==='topic'){root.querySelector('.forum-topic-name').textContent=post.title;if(!newsPage)root.querySelector('.forum-breadcrumbs [aria-current=page]').textContent=post.title;document.title=post.title+(newsPage?' | News':' | Forums')+' | Dragon Ball OCG';}
       const saved=document.createElement('p');saved.className='issue-note';saved.setAttribute('role','status');saved.textContent='Changes saved.';panel.querySelector('[data-edit-saved]')?.remove();saved.dataset.editSaved='1';body.after(saved);focusPostActions(button);
     });
   });}
   const searchIcon='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>';
-  function forumNavigation(d,category=null,title=''){
-    return `<div class="forum-navigation-row"><nav class="forum-breadcrumbs" aria-label="Forum breadcrumb"><a href="/forums/" ${!category&&!title?'aria-current="page"':''}>Home</a>${category?`<span aria-hidden="true">/</span><a href="#list?category=${category.id}" ${!title?'aria-current="page"':''}>${esc(category.name)}</a>`:''}${title?`<span aria-hidden="true">/</span><span aria-current="page">${esc(title)}</span>`:''}</nav><button type="button" class="forum-search-toggle" aria-label="Search forums" aria-haspopup="dialog">${searchIcon}</button></div>`;
+  function forumNavigation(d,category=null,title='',section=d.section){
+    const forum=category&&(d.categories||[]).find(c=>c.id===category.id)||category;
+    section=section||(d.sections||[]).find(s=>s.id===forum?.section_id);
+    const crumbs=[{name:'Forums',href:'/forums/'}];
+    if(section)crumbs.push({name:section.name,href:'#section/'+section.id});
+    if(forum)crumbs.push({name:forum.name,href:'#list?category='+forum.id});
+    if(title)crumbs.push({name:title});
+    return `<div class="forum-navigation-row"><nav class="forum-breadcrumbs" aria-label="Forum breadcrumb">${crumbs.map((c,i)=>`${i?'<span aria-hidden="true">/</span>':''}${i===crumbs.length-1?`<span aria-current="page">${esc(c.name)}</span>`:`<a href="${c.href}">${esc(c.name)}</a>`}`).join('')}</nav><button type="button" class="forum-search-toggle" aria-label="Search forums" aria-haspopup="dialog">${searchIcon}</button></div>`;
   }
   function bindForumSearch(d,categoryId=''){
     root.querySelector('.forum-search-toggle')?.addEventListener('click',()=>{
@@ -101,8 +107,14 @@
     return `<header class="issue-card forum-list-heading"><div class="forum-list-title-row">${title==='Forums'?'<h1 class="forum-accessible-title">Forums</h1><span aria-hidden="true"></span>':'<h1>'+esc(title)+'</h1>'}${category?followCategory:newTopic}</div>${description?`<p>${esc(description)}</p>`:''}${category?`<div class="forum-category-follow-row">${newTopic}</div>`:''}</header>`;
   }
   const memberStatistics=d=>`<section class="issue-results forum-member-statistics" aria-labelledby="member-statistics-heading"><div class="forum-section-title"><h2 id="member-statistics-heading">Member Statistics</h2></div><div class="forum-member-statistics-body"><dl class="forum-community-totals">${[['members','Total Members'],['topics','Topics'],['posts','Posts']].map(([key,label])=>`<div><dt>${label}</dt><dd>${(Number(d.stats?.[key])||0).toLocaleString()}</dd></div>`).join('')}</dl><div class="forum-newest-member">${d.newestMember?`<a class="forum-newest-avatar" href="#member/${encodeURIComponent(d.newestMember.member_id)}" aria-label="${esc(d.newestMember.author)}">${window.DragonIssueMedia.avatar(d.newestMember.author,d.newestMember.avatar_url,d.newestMember.avatar_color)}</a><div><p class="forum-newest-label">Newest Member</p><a class="forum-newest-name" href="#member/${encodeURIComponent(d.newestMember.member_id)}">${esc(d.newestMember.author)}</a><p class="issue-note">Joined <time datetime="${esc(d.newestMember.created_at)}">${date(d.newestMember.created_at)}</time></p></div>`:'<p class="issue-note">No members yet.</p>'}</div></div></section>`;
+  const categoryRow=c=>`<article class="forum-category"><div class="forum-category-icon" aria-hidden="true"><img src="/favicon.svg?v=20261029-optical-star" width="36" height="36" alt=""></div><div class="forum-category-main"><h3><a href="#list?category=${c.id}">${esc(c.name)}</a>${c.archived?' <span class="issue-badge">Archived</span>':''}</h3><p>${esc(c.description)}</p></div><div class="forum-category-count"><strong>${c.topic_count+c.reply_count}</strong><span>posts</span></div>${c.latest_id?`<div class="forum-latest forum-category-activity"><a href="#topic/${c.latest_id}" title="${esc(c.latest_title)}">${esc(c.latest_title)}</a><span>${date(c.latest_at)}</span></div>`:'<span class="issue-note forum-category-activity">No discussions yet</span>'}</article>`;
   function categoriesView(d){
-    root.innerHTML=`${forumNavigation(d)}${forumHeader(d)}${note(d)?`<p class="issue-note">${note(d)}</p>`:''}<section id="forum-list" class="issue-results"><div class="forum-section-title"><h2>Dragon Ball OCG</h2></div>${d.categories.map(c=>`<article class="forum-category"><div class="forum-category-icon" aria-hidden="true"><img src="/favicon.svg?v=20261029-optical-star" width="36" height="36" alt=""></div><div class="forum-category-main"><h3><a href="#list?category=${c.id}">${esc(c.name)}</a>${c.archived?' <span class="issue-badge">Archived</span>':''}</h3><p>${esc(c.description)}</p></div><div class="forum-category-count"><strong>${c.topic_count+c.reply_count}</strong><span>posts</span></div>${c.latest_id?`<div class="forum-latest forum-category-activity"><a href="#topic/${c.latest_id}" title="${esc(c.latest_title)}">${esc(c.latest_title)}</a><span>${date(c.latest_at)}</span></div>`:'<span class="issue-note forum-category-activity">No discussions yet</span>'}</article>`).join('')}</section>${memberStatistics(d)}`;
+    const groups=d.section?[d.section]:(d.sections||[{id:1,name:'Dragon Ball OCG'}]);
+    if(d.section)document.title=d.section.name+' | Forums | Dragon Ball OCG';
+    root.innerHTML=`${forumNavigation(d)}${forumHeader(d,null,d.section?.name||'Forums',d.section?.description||'')}${note(d)?`<p class="issue-note">${note(d)}</p>`:''}<div id="forum-list" class="forum-sections">${groups.map(section=>{
+      const forums=d.categories.filter(c=>(c.section_id||1)===section.id);
+      return `<section class="issue-results forum-group" aria-label="${esc(section.name)}">${d.section?'':`<div class="forum-section-title"><h2><a class="forum-section-link" href="#section/${section.id}">${esc(section.name)}</a></h2>${section.description?`<p class="forum-section-description">${esc(section.description)}</p>`:''}</div>`}${forums.map(categoryRow).join('')||'<p class="forum-section-empty issue-note">No forums in this section yet.</p>'}</section>`;
+    }).join('')}</div>${d.section?'':memberStatistics(d)}`;
     $('new-topic').onclick=()=>newTopic(d);bindForumSearch(d);
   }
   const options=(cats,value,filter=false,admin=false)=>cats.filter(c=>!filter||(!c.archived&&(c.id!==4&&!c.read_only||admin))).map(c=>`<option value="${c.id}" ${Number(value)===c.id?'selected':''}>${esc(c.name)}${c.archived?' (archived)':''}</option>`).join('');
@@ -217,14 +229,14 @@
       if(!newsPage&&['messages','notifications'].includes(view)){
         applyLayout();await window.DragonInbox.render(root,view,params,()=>current===version);return;
       }
-      const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'?view:!view?'categories':'list'),...(key?{id:key}:{})},undefined,{reuse:true});
+      const data=await api({...Object.fromEntries(params),view:newsPage?(view==='topic'?'newsTopic':view==='archive'?'newsLegacy':'news'):(view==='topic'||view==='member'||view==='followed'||view==='section'?view:!view?'categories':'list'),...(key?{id:key}:{})},undefined,{reuse:true});
       if(current!==version)return;
       // Keep the old layout stable until the new route is ready to paint.
       applyLayout();document.title=(newsPage?'News':'Forums')+' | Dragon Ball OCG';
       if(newsPage){if(view==='topic'||view==='archive')topicView(data);else newsView(data);}
       else if(view==='topic')topicView(data);
       else if(view==='member')memberView(data,params);
-      else if(!view)categoriesView(data);
+      else if(!view||view==='section')categoriesView(data);
       else listView(data,params);
     }catch(e){
       if(current!==version)return;

@@ -184,3 +184,7 @@ checksums, retries, quota enforcement, share/revoke, byte ranges, cleanup, and
 completion recovery. `node tests/uploads-runtime.mjs` runs a 388 MiB transfer
 (49 parts) against isolated local Workers, SQLite and R2, then verifies download,
 revocation and deletion without touching production data.
+
+### Forum sections
+
+Use `/forums/admin/#sections` to add, rename, describe and order section headings. Use the **Forums** tab to assign existing or new forums to a section and set their order within that section. Existing forums migrate into the original **Dragon Ball OCG** section without changing forum IDs, topics, permissions or links. The forum index renders separate section panels, and `/forums/#section/<id>` lists one section. Breadcrumbs follow **Forums → Section → Forum → Topic**, resolving current names and parent assignments after moves. Section and forum changes require administrator access.
