@@ -2,7 +2,7 @@
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   // Short-lived, page-local reuse makes Back immediate without persisting account data.
   const readCache=new Map(),pendingReads=new Map();
-  const reusableViews=new Set(['news','newsTopic','newsLegacy','categories','list','topic','member','followed']);
+  const reusableViews=new Set(['news','newsTopic','newsLegacy','categories','section','list','topic','member','followed']);
   let readEpoch=0;
   function clearReadCache(){readEpoch++;readCache.clear();pendingReads.clear();}
   window.addEventListener('dragon:auth-signed-out',clearReadCache);

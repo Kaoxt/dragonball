@@ -445,3 +445,60 @@ test('failed object storage writes remove image records and repeated uploads are
  f.env.DB.prepare("UPDATE forum_rate_limits SET count=20 WHERE user_id=? AND scope='image-upload'").bind(owner).run();
  assert.equal((await f.upload('alice')).status,429);
 });
+
+test('forum sections migrate existing forums without changing IDs or later assignments',async()=>{
+ const backing=storage(),db=database(backing);
+ authSchema(db);
+ db.prepare("CREATE TABLE forum_categories (id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT NOT NULL COLLATE NOCASE UNIQUE,description TEXT NOT NULL DEFAULT '',position INTEGER NOT NULL DEFAULT 0,archived INTEGER NOT NULL DEFAULT 0,read_only INTEGER NOT NULL DEFAULT 0)").run();
+ db.prepare("INSERT INTO forum_categories(id,name,position,archived) VALUES(25,'Existing custom forum',37,1)").run();
+ await forumDb({DB:db});
+ assert.equal(db.prepare('SELECT section_id FROM forum_categories WHERE id=25').first().section_id,1);
+ db.prepare("UPDATE forum_sections SET name='Community' WHERE id=1").run();
+ db.prepare("INSERT INTO forum_sections(id,name,position) VALUES(2,'Card Games',-10)").run();
+ db.prepare('UPDATE forum_categories SET section_id=2 WHERE id=25').run();
+ await forumDb({DB:database(backing)});
+ assert.deepEqual({...db.prepare('SELECT id,name,position,archived,section_id FROM forum_categories WHERE id=25').first()},{id:25,name:'Existing custom forum',position:37,archived:1,section_id:2});
+ assert.equal(db.prepare('SELECT name FROM forum_sections WHERE id=1').first().name,'Community');
+});
+
+test('only admins can manage sections; forum moves keep topics and hierarchy intact',async()=>{
+ const f=await fixture();await f.register('owner');await f.register('reader');
+ await f.auth('owner','claim-owner',{code:'test-owner-code'});
+ const section={action:'section',name:'Dragon Ball Z TCG',description:'Card game discussions',position:-5};
+ assert.equal((await f.forum(null,section)).status,401);
+ assert.equal((await f.forum('reader',section)).status,403);
+ assert.equal((await f.forum('owner',section,{},'https://evil.test')).status,403);
+ assert.equal((await f.forum('owner',section)).status,200);
+ let admin=(await f.forum('owner',null,{view:'admin'})).data;
+ const id=admin.sections.find(s=>s.name===section.name).id;
+ assert.equal(admin.sections[0].id,id);
+ assert.equal((await f.forum('owner',{...section,name:section.name.toLowerCase()})).status,400);
+ assert.equal((await f.forum('owner',{...section,name:'',position:1})).status,400);
+ assert.equal((await f.forum('owner',{...section,name:'Test',position:0.5})).status,400);
+ assert.equal((await f.forum('owner',{...section,id:99999})).status,404);
+ const topicId=(await f.forum('reader',topic)).data.id;
+ const category={action:'category',id:1,name:'Gameplay',description:'Discuss gameplay',position:15,archived:false,readOnly:false,sectionId:id};
+ assert.equal((await f.forum('reader',category)).status,403);
+ assert.equal((await f.forum('owner',{...category,sectionId:99999})).status,400);
+ assert.equal((await f.forum('owner',category)).status,200);
+ let detail=(await f.forum(null,null,{view:'topic',id:topicId})).data;
+ assert.equal(detail.topic.category_id,1);assert.equal(detail.topic.body,topic.body);
+ assert.equal(detail.categories.find(c=>c.id===1).section_id,id);
+ let grouped=(await f.forum(null,null,{view:'section',id})).data;
+ assert.equal(grouped.section.name,section.name);assert.deepEqual(grouped.categories.map(c=>c.id),[1]);
+ assert.equal(grouped.categories[0].topic_count,1);
+ assert.equal((await f.forum(null,null,{view:'section',id:99999})).status,404);
+ assert.equal((await f.forum(null,null,{view:'section',id:'invalid'})).status,404);
+ assert.equal((await f.forum('owner',{...section,id,name:'Renamed section',position:10})).status,200);
+ assert.equal((await f.forum(null,null,{view:'topic',id:topicId})).data.sections.find(s=>s.id===id).name,'Renamed section');
+ // An older open admin tab must not silently move a forum back to the default group.
+ const {sectionId,...legacyCategory}=category;
+ assert.equal((await f.forum('owner',legacyCategory)).status,200);
+ assert.equal((await f.forum(null,null,{view:'list',category:1})).data.categories.find(c=>c.id===1).section_id,id);
+ assert.equal((await f.forum('owner',{...category,id:null,name:'New forum'})).status,200);
+ assert.equal((await f.forum('owner',{...category,id:4,name:'Announcements',readOnly:false})).status,200);
+ assert.equal((await f.forum('reader',{...topic,categoryId:4})).status,403);
+ assert.equal((await f.forum('owner',{...category,archived:true})).status,200);
+ assert.equal((await f.forum('reader',topic)).status,400);
+ assert.equal((await f.forum(null,null,{view:'topic',id:topicId})).status,200);
+});

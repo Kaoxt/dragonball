@@ -297,3 +297,13 @@ html[data-theme=light] .forum-shell .forum-page-links a[aria-current=page]{backg
 .forum-shell .forum-editor-upload-status:empty{display:none}
 .forum-shell .forum-rich .forum-post-image{display:block;width:fit-content;max-width:100%;margin:12px 0}
 .forum-shell .forum-post-image img{display:block;max-width:100%;width:auto;height:auto;max-height:640px;object-fit:contain;border:0;border-radius:8px}
+
+/* Separate administrator-defined groups retain the established forum theme. */
+.forum-sections{display:grid;gap:24px;min-width:0}
+.forum-sections>.forum-group{margin:0;min-width:0}
+.forum-shell .forum-section-title .forum-section-link{color:inherit;text-decoration:none;overflow-wrap:anywhere}
+.forum-shell .forum-section-title .forum-section-link:hover{text-decoration:underline}
+.forum-section-description{margin:6px 0 0;font-size:14px;overflow-wrap:anywhere}
+.forum-section-empty{padding:20px 24px;margin:0}
+.forum-admin-nav{flex-wrap:wrap}
+.forum-breadcrumbs>a,.forum-breadcrumbs>[aria-current=page]{min-width:0;overflow-wrap:anywhere}
