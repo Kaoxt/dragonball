@@ -1,3 +1,7 @@
+## Personality title clearance and dark Villain bar — November 2, 2026
+
+Read `tools/card-templates/v3/references/personality-title-and-color.md`. Personality titles (including Hi-Tech) use a maximum 640-unit visible width at x209.5–849.5, reduce font size uniformly as needed, and remain visibly centered at (529.5,79). Preserve at least 40 units of LEVEL-number clearance and inspect staggered brush notches. Shorter fitting titles stay unchanged. Villain middle paint is now dark crimson `#a61122`, sampled to match the darker V2 Cell reference, with existing grain/contours and white VILLAIN lettering retained. This supersedes scarlet `#cc2119`. The current repair covers 61 Villain bars and 15 oversized titles across 66 cards; preserve the historical category revision and follow `personality_finish_revision` for current hashes.
+
 # Secondary banner text
 
 For future banner captions, taglines and secondary headings, read `tools/banner-templates/secondary-text/README.md` and use its reusable renderer and `style.json`. The approved standard is actual Flipside at its original weight, with solid lower letter strokes and a soft shadow generated from the exact current words. Never add synthetic bold, fade the letter bottoms, or reuse an old phrase's shadow. Preserve unrelated artwork, logos, layout and pixels. The approved reference is the Gameplay Discussion fitted-shadow revision; primary logo typography remains separate.

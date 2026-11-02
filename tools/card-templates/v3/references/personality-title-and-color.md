@@ -1,0 +1,11 @@
+# Personality title clearance and Villain paint — November 2, 2026
+
+Apply this rule to Hero, Villain and Hi-Tech V3 personalities. Keep Teko SemiBold and natural letter proportions. Limit the complete visible title ink to x209.5–849.5 (640 native units); preserve any stricter card-specific clearance. Reduce font size uniformly only when needed. Never horizontally compress lettering or enlarge an already fitting title.
+
+After any size change, center the complete visible ink at (529.5,79), including ascenders and descenders. Measure actual visible bounds, not the font box or baseline. Keep at least 40 native units between the title and the rightmost visible LEVEL-number ink, and clear space above/below the title inside the solid brush body. Inspect the staggered brush notches at normal card size; narrow the safe width further if a particular letter approaches a notch. Do not move the LEVEL number, title bar, artwork or stage boxes to make text fit.
+
+Use `scripts/title_fit_v3.py`: Personality `apply()` enforces the 640-unit maximum even when an older build script supplies a wider region. Keep shorter titles unchanged. The Captain Ginyu the Leader #107 example reduces its 700-unit title to 640 units (about 8.6%), retaining the same visible center. Fifteen current V3 titles require this repair.
+
+For Villains, use dark crimson `#a61122` in the existing `shared-category-material` rectangle. This replaces the scarlet `#cc2119`, matching the darker red family of the user's V2 Cell, the Destroyer #137 reference. Retain the existing neutral grain, genuine distressed alpha contour, clip, Hi-Tech backing and white VILLAIN paths. Hero blue and all corner decals remain unchanged. The bar's grain makes its visible color vary; do not flatten or repaint the surrounding artwork to match a single sampled pixel.
+
+Patch the existing display and full-resolution export independently. Compare each against its own baseline and allow changes only in the native paint delta and old/new title ink. Require zero changes elsewhere, unchanged category paths and values, lossless WebP round trips, and an idempotent helper. Preserve previous audits; record this change in each row's `personality_finish_revision` and `tools/card-corrections/v3-personality-finish/`.

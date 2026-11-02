@@ -1,4 +1,4 @@
-"""Apply the current scarlet Villain paint and isolate Hi-Tech middle bars.
+"""Apply the V2-reference dark crimson Villain paint and isolate Hi-Tech bars.
 
 Only the category material and its native contour backing may change. All
 lettering, PUR, artwork, and the shared middle clip remain untouched.
@@ -8,13 +8,13 @@ from lxml import etree as E
 from personality_corners_v3 import apply as apply_corners
 
 S = '{http://www.w3.org/2000/svg}'
-RED = '#cc2119'
+RED = '#a61122'
 NEUTRAL_GRAIN = '0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -.46772 -1.57344 -.15884 0 2.08'
 
 
 def apply(root, high_tech=False):
     category = root.xpath('//*[@id="card-category"]')[0].get('aria-label', '')
-    if 'PERSONALITY' not in category:
+    if category not in ('HERO', 'VILLAIN') and 'PERSONALITY' not in category:
         return {'applies': False}
     villain = category.startswith('VILLAIN')
     apply_corners(root)

@@ -1,3 +1,7 @@
+## November 2 superseding Personality rule
+
+Read `personality-title-and-color.md`: retain 640-unit title clearance and visible center (529.5,79); Villain middle bars now use dark crimson `#a61122` with the existing texture. Earlier scarlet guidance below is historical.
+
 # Dragon Ball OCG Version 3 — shared production standard
 
 Approved scope: Personality and Combat brush-theme masters, October 30, 2026, including the wider footer brush. Apply the quality rules below to every card family: Main/Hi-Tech Personality, Combat, Dragon Ball, Mastery, Sensei, Location, Battleground, Setup, Event, Drill, Allies, Freestyle and future types. Dragon Ball V3 has now been approved with an orange middle bar, the retained seven-ball style emblem and full artwork. Setup cards 001–050 inherit the Combat V3 frame and their existing category/style marks. Mastery V3 remains pending. A shared quality rule is not approval of an uncreated family layout or of unverified game data.

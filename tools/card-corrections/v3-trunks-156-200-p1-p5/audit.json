@@ -1312,7 +1312,7 @@
     "name": "King Cold, the All Powerful",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-160-king-cold-the-all-powerful.svg",
-    "native_source_sha256": "d396895058d979348e8710a219a3caddd019192c4470efecb2e24523688d5341",
+    "native_source_sha256": "34128c3a535e58cd066649bc3d1cfa57ed20513de83a8abc1f4d087ef9aafe65",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1451,10 +1451,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          48.1165,
-          700.0,
-          61.7669
+          209.5,
+          50.7637,
+          640.0,
+          56.4726
         ],
         "v3-level-number": [
           59.3182,
@@ -1561,7 +1561,7 @@
         "path": "public/assets/cards/trunks-160-king-cold-the-all-powerful.webp",
         "before_url": "/assets/cards/trunks-160-king-cold-the-all-powerful.webp?v=4362d847e258",
         "before_sha256": "4362d847e258042b0a675c3d3186454d814c0b6172b99bd891f8b50a504f9ad0",
-        "after_sha256": "9855fea91b41c8ebe636bfd42c2774037b924c80004392fa090ed12ddcecfc5e",
+        "after_sha256": "1c0d7ba83f3e2fdf841a469896f5d7f9ba4498935808fa8ac9dae319664412d3",
         "size": [
           1060,
           1484
@@ -1573,7 +1573,7 @@
         "path": "public/assets/cards/downloads/trunks-160-king-cold-the-all-powerful.webp",
         "before_url": "/assets/cards/downloads/trunks-160-king-cold-the-all-powerful.webp?v=cea288ec8817",
         "before_sha256": "cea288ec8817031ac6ca532ae3ddf08bb45aec2400e0dbeec843806503e559c3",
-        "after_sha256": "65bb1dde8a9733fc424edba565bddbdba28c36056cc98a20c03273f3c9cc7651",
+        "after_sha256": "84be13f91c9d37c5f68a0f5c86e73ee5a8760cd9395b116be74c86a94f9f59be",
         "size": [
           2120,
           2968
@@ -1703,6 +1703,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-160-king-cold-the-all-powerful",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-160-king-cold-the-all-powerful.svg",
+      "before_native_sha256": "d396895058d979348e8710a219a3caddd019192c4470efecb2e24523688d5341",
+      "after_native_sha256": "34128c3a535e58cd066649bc3d1cfa57ed20513de83a8abc1f4d087ef9aafe65",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 69.37669376693766,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 56.47262872628726,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.8063783826244059
+      },
+      "title_bounds_before": [
+        179.5,
+        48.1165,
+        700.0,
+        61.7669
+      ],
+      "title_bounds_after": [
+        209.5,
+        50.7637,
+        640.0,
+        56.4726
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-160-king-cold-the-all-powerful.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "9855fea91b41c8ebe636bfd42c2774037b924c80004392fa090ed12ddcecfc5e",
+          "after_sha256": "1c0d7ba83f3e2fdf841a469896f5d7f9ba4498935808fa8ac9dae319664412d3",
+          "changed_pixels": 120591,
+          "changed_pixel_bounds": [
+            40,
+            45,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-160-king-cold-the-all-powerful.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "65bb1dde8a9733fc424edba565bddbdba28c36056cc98a20c03273f3c9cc7651",
+          "after_sha256": "84be13f91c9d37c5f68a0f5c86e73ee5a8760cd9395b116be74c86a94f9f59be",
+          "changed_pixels": 421690,
+          "changed_pixel_bounds": [
+            67,
+            96,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1730,7 +1828,7 @@
     "name": "Frieza the Monster",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-161-frieza-the-monster.svg",
-    "native_source_sha256": "e599603157f49f18f5b8dd5c2e2939da7c05ddef9b478a51d079e051d4845052",
+    "native_source_sha256": "9589c2e241ba9311587ec8c6acdfa282d41926b7397cede5d54b3a52f207b228",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -1955,7 +2053,7 @@
         "path": "public/assets/cards/trunks-161-frieza-the-monster.webp",
         "before_url": "/assets/cards/trunks-161-frieza-the-monster.webp?v=36a86dd7cc9f",
         "before_sha256": "36a86dd7cc9fe0054b248bd8d19a3a004a3de6d97f3400aa45e8494f40cab37c",
-        "after_sha256": "1eb2534c6eb3b8d21e0cf5c3fb049aa918f0221c034ebdcb948f2bd4f31bed7a",
+        "after_sha256": "ff7eaf3f54cbd1fd8b322243a431432b79fc474f56b2cbc8d076caddb86b029f",
         "size": [
           1060,
           1484
@@ -1967,7 +2065,7 @@
         "path": "public/assets/cards/downloads/trunks-161-frieza-the-monster.webp",
         "before_url": "/assets/cards/downloads/trunks-161-frieza-the-monster.webp?v=7f7a3276516a",
         "before_sha256": "7f7a3276516a935e22ef0c37ddc1903c1ff641e9c8222507496e3b762acb3f86",
-        "after_sha256": "1a98d96b807f21aa3d3189f7b365fca0bb5ce5791dd3f990a05b7c797d658a2f",
+        "after_sha256": "27ae57f91cae6e163de819064d2369afb66ec259897031dd4a6d8f748b70ba4a",
         "size": [
           2120,
           2968
@@ -2097,6 +2195,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-161-frieza-the-monster",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-161-frieza-the-monster.svg",
+      "before_native_sha256": "e599603157f49f18f5b8dd5c2e2939da7c05ddef9b478a51d079e051d4845052",
+      "after_native_sha256": "9589c2e241ba9311587ec8c6acdfa282d41926b7397cede5d54b3a52f207b228",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        251.005,
+        50.2213,
+        556.99,
+        57.5574
+      ],
+      "title_bounds_after": [
+        251.005,
+        50.2213,
+        556.99,
+        57.5574
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-161-frieza-the-monster.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1eb2534c6eb3b8d21e0cf5c3fb049aa918f0221c034ebdcb948f2bd4f31bed7a",
+          "after_sha256": "ff7eaf3f54cbd1fd8b322243a431432b79fc474f56b2cbc8d076caddb86b029f",
+          "changed_pixels": 92099,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-161-frieza-the-monster.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1a98d96b807f21aa3d3189f7b365fca0bb5ce5791dd3f990a05b7c797d658a2f",
+          "after_sha256": "27ae57f91cae6e163de819064d2369afb66ec259897031dd4a6d8f748b70ba4a",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2124,7 +2301,7 @@
     "name": "Frieza the Conqueror",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-162-frieza-the-conqueror.svg",
-    "native_source_sha256": "e0f86067f47df619b31270fb2ba8e83679468ddf5ff22d0ed60be2deaff50a53",
+    "native_source_sha256": "9ccd67f66c6fac288e52ae53f117e8f71c05cc8c6c758dc39db6f6b478e4c218",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2349,7 +2526,7 @@
         "path": "public/assets/cards/trunks-162-frieza-the-conqueror.webp",
         "before_url": "/assets/cards/trunks-162-frieza-the-conqueror.webp?v=27e37a46ab0d",
         "before_sha256": "27e37a46ab0dadb25d34810cd068f73b664dabd30ee6df1aa9a1428f76bc6e48",
-        "after_sha256": "8aabb3f4eb634ac26feec66375b1312033a4d91cb8656392f180b3b16fc0252a",
+        "after_sha256": "febe7e87fa4006e3c54daa2c6e79392eb23f30bc6b1138f76442775eef88ccee",
         "size": [
           1060,
           1484
@@ -2361,7 +2538,7 @@
         "path": "public/assets/cards/downloads/trunks-162-frieza-the-conqueror.webp",
         "before_url": "/assets/cards/downloads/trunks-162-frieza-the-conqueror.webp?v=53c95b12e806",
         "before_sha256": "53c95b12e80625b045bce7dcbff8ad00d35328d29b6481b2af608e59f512a0f7",
-        "after_sha256": "512c15f8587234c817ec549fa470e8babd89434390b671910f95431a6515ae20",
+        "after_sha256": "adfe26f033aba8297a74bc2dbf7bfd3e10eb131c85c05b67b0aa657f0c74f535",
         "size": [
           2120,
           2968
@@ -2491,6 +2668,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-162-frieza-the-conqueror",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-162-frieza-the-conqueror.svg",
+      "before_native_sha256": "e0f86067f47df619b31270fb2ba8e83679468ddf5ff22d0ed60be2deaff50a53",
+      "after_native_sha256": "9ccd67f66c6fac288e52ae53f117e8f71c05cc8c6c758dc39db6f6b478e4c218",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        217.623,
+        44.5,
+        623.753,
+        69.0
+      ],
+      "title_bounds_after": [
+        217.623,
+        44.5,
+        623.753,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-162-frieza-the-conqueror.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "8aabb3f4eb634ac26feec66375b1312033a4d91cb8656392f180b3b16fc0252a",
+          "after_sha256": "febe7e87fa4006e3c54daa2c6e79392eb23f30bc6b1138f76442775eef88ccee",
+          "changed_pixels": 91988,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 4
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-162-frieza-the-conqueror.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "512c15f8587234c817ec549fa470e8babd89434390b671910f95431a6515ae20",
+          "after_sha256": "adfe26f033aba8297a74bc2dbf7bfd3e10eb131c85c05b67b0aa657f0c74f535",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2518,7 +2774,7 @@
     "name": "Frieza the Cyborg",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-163-frieza-the-cyborg.svg",
-    "native_source_sha256": "14dd1995fa8e95fe30feaeaeb64e2936f61deb08f3bc754f1c4b859db6d14c9e",
+    "native_source_sha256": "c864dc62057bffe36a41f32906d341f858aa2a6d0dd226ee17f93fc6db1a0273",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2743,7 +2999,7 @@
         "path": "public/assets/cards/trunks-163-frieza-the-cyborg.webp",
         "before_url": "/assets/cards/trunks-163-frieza-the-cyborg.webp?v=393d15ce094b",
         "before_sha256": "393d15ce094bb1d662a4115c2da8339893aead55b3e4545ec7dd348c543bc1a6",
-        "after_sha256": "3dbdad0cd7c2ab813b4d5a44e424721a93e5970ad522a44e10f2ddde228c4a76",
+        "after_sha256": "c9bc37a048f69144ba0db9555a3b514ca1f52c4fec5067a58db705a952194459",
         "size": [
           1060,
           1484
@@ -2755,7 +3011,7 @@
         "path": "public/assets/cards/downloads/trunks-163-frieza-the-cyborg.webp",
         "before_url": "/assets/cards/downloads/trunks-163-frieza-the-cyborg.webp?v=cad778a5e599",
         "before_sha256": "cad778a5e599c3d3bb69b00900e51157348e6716d4ac125fbcad0c2374d3aa2a",
-        "after_sha256": "2706cb84e25ba36bbca3dbf454b5e96b953bfb1abdeb2ab08128eb8e7333df28",
+        "after_sha256": "e3eacbef34ab9a9cf7dea48905dcef7607001dc66e12f973d4d13a2b25963686",
         "size": [
           2120,
           2968
@@ -2885,6 +3141,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-163-frieza-the-cyborg",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-163-frieza-the-cyborg.svg",
+      "before_native_sha256": "14dd1995fa8e95fe30feaeaeb64e2936f61deb08f3bc754f1c4b859db6d14c9e",
+      "after_native_sha256": "c864dc62057bffe36a41f32906d341f858aa2a6d0dd226ee17f93fc6db1a0273",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        270.492,
+        44.5,
+        518.016,
+        69.0
+      ],
+      "title_bounds_after": [
+        270.492,
+        44.5,
+        518.016,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-163-frieza-the-cyborg.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3dbdad0cd7c2ab813b4d5a44e424721a93e5970ad522a44e10f2ddde228c4a76",
+          "after_sha256": "c9bc37a048f69144ba0db9555a3b514ca1f52c4fec5067a58db705a952194459",
+          "changed_pixels": 91882,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-163-frieza-the-cyborg.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2706cb84e25ba36bbca3dbf454b5e96b953bfb1abdeb2ab08128eb8e7333df28",
+          "after_sha256": "e3eacbef34ab9a9cf7dea48905dcef7607001dc66e12f973d4d13a2b25963686",
+          "changed_pixels": 349797,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -6552,7 +6887,7 @@
     "name": "Vegeta, the Determined",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-173-vegeta-the-determined.svg",
-    "native_source_sha256": "784aab7a31f1fc0c369902f4c314b3e9dc215b868cd4aa742bb7f9f3ecd2117e",
+    "native_source_sha256": "5b42b919d55cb2f9234cf15c74a063c204b02efc65b05692dc1cbfe8492d012a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -6685,10 +7020,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          44.3743,
-          700.0,
-          69.2513
+          209.5,
+          47.3422,
+          640.0,
+          63.3155
         ],
         "v3-level-number": [
           76.863,
@@ -6789,7 +7124,7 @@
         "path": "public/assets/cards/trunks-173-vegeta-the-determined.webp",
         "before_url": "/assets/cards/trunks-173-vegeta-the-determined.webp?v=a1d0c5fe0c32",
         "before_sha256": "a1d0c5fe0c3206770367ef9f8a98154fd8aac5226bacc2e6d69f1f07d9109068",
-        "after_sha256": "1fa8d86754c35067d7382bb52c6a6a63719b2c831ebab6d87660fa374adc383a",
+        "after_sha256": "5b9ee59a18af77aa022c9ea25208c7c858db20999ebb1e2054b7abe257dd4445",
         "size": [
           1060,
           1484
@@ -6801,7 +7136,7 @@
         "path": "public/assets/cards/downloads/trunks-173-vegeta-the-determined.webp",
         "before_url": "/assets/cards/downloads/trunks-173-vegeta-the-determined.webp?v=f658ada44404",
         "before_sha256": "f658ada444048981a05f20b7212b441f0a70cfc9ffa67a2539898087be469f29",
-        "after_sha256": "6c97fb05781ce81c819c9c7f9c5a263af588a1f76767958791e66fdbae3e316b",
+        "after_sha256": "9b4be6254413cb01e3e2cbffa838ba1eb21f513c076953cee146683f2f547c82",
         "size": [
           2120,
           2968
@@ -6931,6 +7266,96 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-173-vegeta-the-determined",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-173-vegeta-the-determined.svg",
+      "before_native_sha256": "784aab7a31f1fc0c369902f4c314b3e9dc215b868cd4aa742bb7f9f3ecd2117e",
+      "after_native_sha256": "5b42b919d55cb2f9234cf15c74a063c204b02efc65b05692dc1cbfe8492d012a",
+      "villain_color_changed": false,
+      "villain_color": null,
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 77.78317938745747,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 63.31550802139037,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9040885488223316
+      },
+      "title_bounds_before": [
+        179.5,
+        44.3743,
+        700.0,
+        69.2513
+      ],
+      "title_bounds_after": [
+        209.5,
+        47.3422,
+        640.0,
+        63.3155
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-173-vegeta-the-determined.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1fa8d86754c35067d7382bb52c6a6a63719b2c831ebab6d87660fa374adc383a",
+          "after_sha256": "5b9ee59a18af77aa022c9ea25208c7c858db20999ebb1e2054b7abe257dd4445",
+          "changed_pixels": 28546,
+          "changed_pixel_bounds": [
+            177,
+            41,
+            882,
+            116
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-173-vegeta-the-determined.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "6c97fb05781ce81c819c9c7f9c5a263af588a1f76767958791e66fdbae3e316b",
+          "after_sha256": "9b4be6254413cb01e3e2cbffa838ba1eb21f513c076953cee146683f2f547c82",
+          "changed_pixels": 70001,
+          "changed_pixel_bounds": [
+            359,
+            88,
+            1759,
+            228
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -7734,7 +8159,7 @@
     "name": "Garlic Jr.",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-176-garlic-jr.svg",
-    "native_source_sha256": "6387b4a0dcdc5fa1aef8c648835c5cf026c29d971c9e6703ebf64f6223c67c63",
+    "native_source_sha256": "fa79cee5fdfd9ccb3f88b5f626078d7edd88af91baaf1aa1835f3d6da4328ce9",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -7959,7 +8384,7 @@
         "path": "public/assets/cards/trunks-176-garlic-jr.webp",
         "before_url": "/assets/cards/trunks-176-garlic-jr.webp?v=e90313b47c01",
         "before_sha256": "e90313b47c01e1e977a4b68d6561e347061df44952c23b9126e0c85909ff5614",
-        "after_sha256": "d9f5fba44f9b215cfd1a5353c32ad5aa3b6e896d6b8bbe61db8ab85590e5d15a",
+        "after_sha256": "f898ab1644b8a4f5fde5e2a77d4af7c5f30c913dae59933cf720491741e7d9cb",
         "size": [
           1060,
           1484
@@ -7971,7 +8396,7 @@
         "path": "public/assets/cards/downloads/trunks-176-garlic-jr.webp",
         "before_url": "/assets/cards/downloads/trunks-176-garlic-jr.webp?v=9c6a07d51823",
         "before_sha256": "9c6a07d51823e57251de64b623a107c652c432321902cee68536f2be20ff5b70",
-        "after_sha256": "8191c3badd8b1f9c4b37042c7bd4c159b26d35737e4901056bd77fbaa0d425e5",
+        "after_sha256": "166bb8e79692c9de6afd7491b76b3e2343f8f40adf4c1edcb48a063877df1bc6",
         "size": [
           2120,
           2968
@@ -8101,6 +8526,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-176-garlic-jr",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-176-garlic-jr.svg",
+      "before_native_sha256": "6387b4a0dcdc5fa1aef8c648835c5cf026c29d971c9e6703ebf64f6223c67c63",
+      "after_native_sha256": "fa79cee5fdfd9ccb3f88b5f626078d7edd88af91baaf1aa1835f3d6da4328ce9",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        397.135,
+        50.2213,
+        264.729,
+        57.5574
+      ],
+      "title_bounds_after": [
+        397.135,
+        50.2213,
+        264.729,
+        57.5574
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-176-garlic-jr.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d9f5fba44f9b215cfd1a5353c32ad5aa3b6e896d6b8bbe61db8ab85590e5d15a",
+          "after_sha256": "f898ab1644b8a4f5fde5e2a77d4af7c5f30c913dae59933cf720491741e7d9cb",
+          "changed_pixels": 92012,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-176-garlic-jr.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "8191c3badd8b1f9c4b37042c7bd4c159b26d35737e4901056bd77fbaa0d425e5",
+          "after_sha256": "166bb8e79692c9de6afd7491b76b3e2343f8f40adf4c1edcb48a063877df1bc6",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -8128,7 +8632,7 @@
     "name": "Garlic Jr., the Master",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-177-garlic-jr-the-master.svg",
-    "native_source_sha256": "637defe125a811628f049ad46dda0f5a5e349caae4a9169a386c700b3418e173",
+    "native_source_sha256": "d6ab612f16edb4bde8cff7f16fae46b15637055a56ca49156e4acafdf0904f01",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -8353,7 +8857,7 @@
         "path": "public/assets/cards/trunks-177-garlic-jr-the-master.webp",
         "before_url": "/assets/cards/trunks-177-garlic-jr-the-master.webp?v=330dd4565117",
         "before_sha256": "330dd456511750a71fa1637ebb5e96e678c4c428fc4ac28f36332b497b4c2f3a",
-        "after_sha256": "e408ecaa0f2b4d757053adabd17287029c95e75b9920c54fc9f047bbcf43cf9f",
+        "after_sha256": "fb9ff3f5d9775baa6450e212ec940ff15a2394944dee7585d44dda3f7c5bcf20",
         "size": [
           1060,
           1484
@@ -8365,7 +8869,7 @@
         "path": "public/assets/cards/downloads/trunks-177-garlic-jr-the-master.webp",
         "before_url": "/assets/cards/downloads/trunks-177-garlic-jr-the-master.webp?v=ccfb7b00e717",
         "before_sha256": "ccfb7b00e717a422c2d16b29accae85db9feadcf17cae9516d86e8260e700859",
-        "after_sha256": "abc5fc9a9c92e39e5e774563a20a98aa5bcfd44133ea9399fd3c7418423a31de",
+        "after_sha256": "41303460f9d4109ae30e11af7b7cb7fdc3c6eb9ff7e82d19316974a27de47e8e",
         "size": [
           2120,
           2968
@@ -8495,6 +8999,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-177-garlic-jr-the-master",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-177-garlic-jr-the-master.svg",
+      "before_native_sha256": "637defe125a811628f049ad46dda0f5a5e349caae4a9169a386c700b3418e173",
+      "after_native_sha256": "d6ab612f16edb4bde8cff7f16fae46b15637055a56ca49156e4acafdf0904f01",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        216.763,
+        43.9838,
+        625.474,
+        70.0324
+      ],
+      "title_bounds_after": [
+        216.763,
+        43.9838,
+        625.474,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-177-garlic-jr-the-master.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "e408ecaa0f2b4d757053adabd17287029c95e75b9920c54fc9f047bbcf43cf9f",
+          "after_sha256": "fb9ff3f5d9775baa6450e212ec940ff15a2394944dee7585d44dda3f7c5bcf20",
+          "changed_pixels": 91938,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-177-garlic-jr-the-master.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "abc5fc9a9c92e39e5e774563a20a98aa5bcfd44133ea9399fd3c7418423a31de",
+          "after_sha256": "41303460f9d4109ae30e11af7b7cb7fdc3c6eb9ff7e82d19316974a27de47e8e",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -8522,7 +9105,7 @@
     "name": "Garlic Jr., the Monster",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-178-garlic-jr-the-monster.svg",
-    "native_source_sha256": "130b0ea0f6bac7ad9c2733a19df8326722c8fc10b1b48e12dfc4ba17db6bb4cd",
+    "native_source_sha256": "8ea073f4b0047eea65688f66ebeec821a0c668c510d61fd105dd3664a44530c5",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -8649,10 +9232,10 @@
           31.164
         ],
         "card-title": [
-          197.663,
-          43.9838,
-          663.673,
-          70.0324
+          209.5,
+          45.2328,
+          640.0,
+          67.5344
         ],
         "v3-level-number": [
           58.9918,
@@ -8747,7 +9330,7 @@
         "path": "public/assets/cards/trunks-178-garlic-jr-the-monster.webp",
         "before_url": "/assets/cards/trunks-178-garlic-jr-the-monster.webp?v=19789d465edc",
         "before_sha256": "19789d465edc99039a6f74997db01e863659ef261b75fba860daf9c5ad3cbbb7",
-        "after_sha256": "f9f133747de8f7630c3fe9999b134be19270b405ec1b820f302cb0f267e2db84",
+        "after_sha256": "64d3913ed7be623c5a1e4dc703adcc261a2de1732c2e56c7ce8fec8e8e27b116",
         "size": [
           1060,
           1484
@@ -8759,7 +9342,7 @@
         "path": "public/assets/cards/downloads/trunks-178-garlic-jr-the-monster.webp",
         "before_url": "/assets/cards/downloads/trunks-178-garlic-jr-the-monster.webp?v=441814963584",
         "before_sha256": "4418149635844e229324a6a68e377f2cefeb98d773b8510e66ad27b8d65b986a",
-        "after_sha256": "6f3f4f9d5ede86ab85533bd23c268ad4b092038a2d81caa881c563e94aceb980",
+        "after_sha256": "6535744b2ff4380e110654fb47d2b6bcd9b6269ba24cd1476c620e01b90a113f",
         "size": [
           2120,
           2968
@@ -8889,6 +9472,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-178-garlic-jr-the-monster",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-178-garlic-jr-the-monster.svg",
+      "before_native_sha256": "130b0ea0f6bac7ad9c2733a19df8326722c8fc10b1b48e12dfc4ba17db6bb4cd",
+      "after_native_sha256": "8ea073f4b0047eea65688f66ebeec821a0c668c510d61fd105dd3664a44530c5",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 82.96603577910292,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 67.53435312418978,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9643298651426165
+      },
+      "title_bounds_before": [
+        197.663,
+        43.9838,
+        663.673,
+        70.0324
+      ],
+      "title_bounds_after": [
+        209.5,
+        45.2328,
+        640.0,
+        67.5344
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-178-garlic-jr-the-monster.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f9f133747de8f7630c3fe9999b134be19270b405ec1b820f302cb0f267e2db84",
+          "after_sha256": "64d3913ed7be623c5a1e4dc703adcc261a2de1732c2e56c7ce8fec8e8e27b116",
+          "changed_pixels": 116691,
+          "changed_pixel_bounds": [
+            40,
+            41,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-178-garlic-jr-the-monster.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "6f3f4f9d5ede86ab85533bd23c268ad4b092038a2d81caa881c563e94aceb980",
+          "after_sha256": "6535744b2ff4380e110654fb47d2b6bcd9b6269ba24cd1476c620e01b90a113f",
+          "changed_pixels": 408619,
+          "changed_pixel_bounds": [
+            67,
+            87,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -8916,7 +9597,7 @@
     "name": "Spice",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-179-spice.svg",
-    "native_source_sha256": "a82bee8b159f22ebbb38740db89808a4d8c238d978a8a11aa1401015db394093",
+    "native_source_sha256": "3aa2a39448f1cdb950cdcf5843d54850c5bb0e53ebc0e950ba5a557fc22b7699",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9141,7 +9822,7 @@
         "path": "public/assets/cards/trunks-179-spice.webp",
         "before_url": "/assets/cards/trunks-179-spice.webp?v=498dafc5d48a",
         "before_sha256": "498dafc5d48a96bfdacc14027e9a62582e6ddeccdd4bef6c96e60083f843a56e",
-        "after_sha256": "31f23d39816eb36fdaa2018f484cabe8d94e16bfb98493177b0dadff717cfdb0",
+        "after_sha256": "1b190c68ab03167e7bf75a6d3f543332cca2e30df6214e26df69938020f93007",
         "size": [
           1060,
           1484
@@ -9153,7 +9834,7 @@
         "path": "public/assets/cards/downloads/trunks-179-spice.webp",
         "before_url": "/assets/cards/downloads/trunks-179-spice.webp?v=fc774fc1c8a9",
         "before_sha256": "fc774fc1c8a98c64f28944456ce3a08a37768dc86e15910891403f3eebda7caf",
-        "after_sha256": "cd96b7362301b6aabbcaa756c246c274ed64e522abf2c21fbb46d8c11d0a2973",
+        "after_sha256": "2501834d7603024d63003a03820ca33e4bccfa6085f6eded512b34d6cc3f6d19",
         "size": [
           2120,
           2968
@@ -9283,6 +9964,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-179-spice",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-179-spice.svg",
+      "before_native_sha256": "a82bee8b159f22ebbb38740db89808a4d8c238d978a8a11aa1401015db394093",
+      "after_native_sha256": "3aa2a39448f1cdb950cdcf5843d54850c5bb0e53ebc0e950ba5a557fc22b7699",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        448.627,
+        44.5,
+        161.746,
+        69.0
+      ],
+      "title_bounds_after": [
+        448.627,
+        44.5,
+        161.746,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-179-spice.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "31f23d39816eb36fdaa2018f484cabe8d94e16bfb98493177b0dadff717cfdb0",
+          "after_sha256": "1b190c68ab03167e7bf75a6d3f543332cca2e30df6214e26df69938020f93007",
+          "changed_pixels": 91951,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-179-spice.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "cd96b7362301b6aabbcaa756c246c274ed64e522abf2c21fbb46d8c11d0a2973",
+          "after_sha256": "2501834d7603024d63003a03820ca33e4bccfa6085f6eded512b34d6cc3f6d19",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -9310,7 +10070,7 @@
     "name": "Spice, the Leader",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-180-spice-the-leader.svg",
-    "native_source_sha256": "d669f067591285cf2e2489af7fb5a0c81cba735cc18579fc4bece7cff883ad7b",
+    "native_source_sha256": "4270c900a5fdf2b09a8a12586a1859cad914f547dc9be03ddb18342b3c6e355b",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9547,7 +10307,7 @@
         "path": "public/assets/cards/trunks-180-spice-the-leader.webp",
         "before_url": "/assets/cards/trunks-180-spice-the-leader.webp?v=b4382976dcd4",
         "before_sha256": "b4382976dcd4b90be17a35dbde90b819867514367e54d1e305ae84dd14f145b9",
-        "after_sha256": "0243a837b1f292bb521ef06a02308f1f7b558b86f4b26f148607c20f98fe7efd",
+        "after_sha256": "5d6702c93b08dd1490d7a5ee7aaede09be4d0b70827bb5e5461cb516bfd9d0aa",
         "size": [
           1060,
           1484
@@ -9559,7 +10319,7 @@
         "path": "public/assets/cards/downloads/trunks-180-spice-the-leader.webp",
         "before_url": "/assets/cards/downloads/trunks-180-spice-the-leader.webp?v=f38a2680dfc4",
         "before_sha256": "f38a2680dfc45b7d460835bc3bb90db40e7ba6d466dcbf510b3f5e148aa7b897",
-        "after_sha256": "091d161e0159dba25aa3b7a4c0f995b6d3a358775ce05bc34908a7ec8e597708",
+        "after_sha256": "a9b881d0bd52d84cb672797dfc2e59782d661639151e6b8cd7bc979211ecf0d3",
         "size": [
           2120,
           2968
@@ -9689,6 +10449,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-180-spice-the-leader",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-180-spice-the-leader.svg",
+      "before_native_sha256": "d669f067591285cf2e2489af7fb5a0c81cba735cc18579fc4bece7cff883ad7b",
+      "after_native_sha256": "4270c900a5fdf2b09a8a12586a1859cad914f547dc9be03ddb18342b3c6e355b",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        270.793,
+        43.9838,
+        517.414,
+        70.0324
+      ],
+      "title_bounds_after": [
+        270.793,
+        43.9838,
+        517.414,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-180-spice-the-leader.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "0243a837b1f292bb521ef06a02308f1f7b558b86f4b26f148607c20f98fe7efd",
+          "after_sha256": "5d6702c93b08dd1490d7a5ee7aaede09be4d0b70827bb5e5461cb516bfd9d0aa",
+          "changed_pixels": 91961,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-180-spice-the-leader.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "091d161e0159dba25aa3b7a4c0f995b6d3a358775ce05bc34908a7ec8e597708",
+          "after_sha256": "a9b881d0bd52d84cb672797dfc2e59782d661639151e6b8cd7bc979211ecf0d3",
+          "changed_pixels": 349797,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -9716,7 +10555,7 @@
     "name": "Spice, the Warrior",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-181-spice-the-warrior.svg",
-    "native_source_sha256": "bb2046a3259d76b9da83072143cf625c3c2d1ec1575ee99735e5435d767c9b54",
+    "native_source_sha256": "5f7d7566b5d65c76eee0324fdd65b6585495eaab21833c02d3bf58a17b713edc",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9941,7 +10780,7 @@
         "path": "public/assets/cards/trunks-181-spice-the-warrior.webp",
         "before_url": "/assets/cards/trunks-181-spice-the-warrior.webp?v=eb680879ae99",
         "before_sha256": "eb680879ae99b7fec1068539736eb82b8ae4eac390ca94978ef27e913ce190ef",
-        "after_sha256": "5c60ecee4f1fec4d10af07cd85c9f1bab1487d0050c4b324e4ab36c3e79fda81",
+        "after_sha256": "007d207195d75d11a160d912ebbad2ab43e712b7e0a8f91c0021f2e745a77cc5",
         "size": [
           1060,
           1484
@@ -9953,7 +10792,7 @@
         "path": "public/assets/cards/downloads/trunks-181-spice-the-warrior.webp",
         "before_url": "/assets/cards/downloads/trunks-181-spice-the-warrior.webp?v=42600c1090fe",
         "before_sha256": "42600c1090fe1fdb03b82ec4e0d4c937a25197fe0ee10a7ade5ef3f4ee6cdc2b",
-        "after_sha256": "9a73b98bc76725dd2976cc05ff5eb87e3c74ca65567c8ada97cfa6f047a77273",
+        "after_sha256": "8eecf530263ae798e3ac42f3de51e2b5606ca49106dfee3f67caf265d396d002",
         "size": [
           2120,
           2968
@@ -10083,6 +10922,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-181-spice-the-warrior",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-181-spice-the-warrior.svg",
+      "before_native_sha256": "bb2046a3259d76b9da83072143cf625c3c2d1ec1575ee99735e5435d767c9b54",
+      "after_native_sha256": "5f7d7566b5d65c76eee0324fdd65b6585495eaab21833c02d3bf58a17b713edc",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        255.952,
+        43.9838,
+        547.096,
+        70.0324
+      ],
+      "title_bounds_after": [
+        255.952,
+        43.9838,
+        547.096,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-181-spice-the-warrior.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "5c60ecee4f1fec4d10af07cd85c9f1bab1487d0050c4b324e4ab36c3e79fda81",
+          "after_sha256": "007d207195d75d11a160d912ebbad2ab43e712b7e0a8f91c0021f2e745a77cc5",
+          "changed_pixels": 91974,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-181-spice-the-warrior.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "9a73b98bc76725dd2976cc05ff5eb87e3c74ca65567c8ada97cfa6f047a77273",
+          "after_sha256": "8eecf530263ae798e3ac42f3de51e2b5606ca49106dfee3f67caf265d396d002",
+          "changed_pixels": 349899,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -10110,7 +11028,7 @@
     "name": "Vinegar",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-182-vinegar.svg",
-    "native_source_sha256": "0fd765b1d3633bb5648e522abf769f6c6a6a227bad6de438639a06629678652c",
+    "native_source_sha256": "223ab2420560ae8d6e84d18ae1da5221d5e566eeaff9d17947fe5e5bec905df7",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10323,7 +11241,7 @@
         "path": "public/assets/cards/trunks-182-vinegar.webp",
         "before_url": "/assets/cards/trunks-182-vinegar.webp?v=e2d7fbd5600c",
         "before_sha256": "e2d7fbd5600c94215acb5b989c7293c8ca5da9f33670845051ee5bf47238f16e",
-        "after_sha256": "8817977ff20909c3083f3ceac202ab02527665bfa7a0d99e69daef8fb88042ee",
+        "after_sha256": "aa2ca96a4ae6de8c72df8eb29f7877a1ea07495e65b162cdce52acac59754091",
         "size": [
           1060,
           1484
@@ -10335,7 +11253,7 @@
         "path": "public/assets/cards/downloads/trunks-182-vinegar.webp",
         "before_url": "/assets/cards/downloads/trunks-182-vinegar.webp?v=cab8f9c5c8fc",
         "before_sha256": "cab8f9c5c8fca59d8ef7e5c2863ccd2a46d4aaac2416a2d383323575433e793c",
-        "after_sha256": "5e4715910548d88ac4e44d5cbb26e8c680d74a204eee7ad731444768e56010b2",
+        "after_sha256": "9a5512cffa8e3b611ee11bb48c131b5c6b0805a796c6c16ed840a86f7f982e9b",
         "size": [
           2120,
           2968
@@ -10465,6 +11383,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-182-vinegar",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-182-vinegar.svg",
+      "before_native_sha256": "0fd765b1d3633bb5648e522abf769f6c6a6a227bad6de438639a06629678652c",
+      "after_native_sha256": "223ab2420560ae8d6e84d18ae1da5221d5e566eeaff9d17947fe5e5bec905df7",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        412.708,
+        44.5,
+        233.585,
+        69.0
+      ],
+      "title_bounds_after": [
+        412.708,
+        44.5,
+        233.585,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-182-vinegar.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "8817977ff20909c3083f3ceac202ab02527665bfa7a0d99e69daef8fb88042ee",
+          "after_sha256": "aa2ca96a4ae6de8c72df8eb29f7877a1ea07495e65b162cdce52acac59754091",
+          "changed_pixels": 91974,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 1
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-182-vinegar.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "5e4715910548d88ac4e44d5cbb26e8c680d74a204eee7ad731444768e56010b2",
+          "after_sha256": "9a5512cffa8e3b611ee11bb48c131b5c6b0805a796c6c16ed840a86f7f982e9b",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -10492,7 +11489,7 @@
     "name": "Vinegar, the Fighter",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-183-vinegar-the-fighter.svg",
-    "native_source_sha256": "1ae1e00c06154e96adcf25f876fa75fef3436972c0a7e96ab7940de38c3654ff",
+    "native_source_sha256": "7b3c495cac1285c3da7696942dcf932261ae5ce0a04b5183b4e0146d9525b18a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10717,7 +11714,7 @@
         "path": "public/assets/cards/trunks-183-vinegar-the-fighter.webp",
         "before_url": "/assets/cards/trunks-183-vinegar-the-fighter.webp?v=27f31da4c1ae",
         "before_sha256": "27f31da4c1ae439263d7afc72c70e96979302ae2762ec37d48750efad3560c94",
-        "after_sha256": "aad0bf2b69a7a47ae54a7772163b66e3ac470194b808524808202e825c9a35b3",
+        "after_sha256": "d6e5986b9a309e629bbdfb9d7e09b90f3c08b4f8ad8ef4c322aa83f4b9b5615b",
         "size": [
           1060,
           1484
@@ -10729,7 +11726,7 @@
         "path": "public/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp",
         "before_url": "/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp?v=60713cf6d300",
         "before_sha256": "60713cf6d300baff4974bacb1c7ed2bb15c3ea106427448e43844919a0992ae0",
-        "after_sha256": "5974054aa1b2448bdb08c7edb0a655c3d2520dc9b557b23e518099310c8e425a",
+        "after_sha256": "949501876d82708d8e29ed70a7beab5d23a96d84a7cfbd20a09002e8e6694731",
         "size": [
           2120,
           2968
@@ -10859,6 +11856,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-183-vinegar-the-fighter",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-183-vinegar-the-fighter.svg",
+      "before_native_sha256": "1ae1e00c06154e96adcf25f876fa75fef3436972c0a7e96ab7940de38c3654ff",
+      "after_native_sha256": "7b3c495cac1285c3da7696942dcf932261ae5ce0a04b5183b4e0146d9525b18a",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        231.647,
+        43.9838,
+        595.706,
+        70.0324
+      ],
+      "title_bounds_after": [
+        231.647,
+        43.9838,
+        595.706,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-183-vinegar-the-fighter.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "aad0bf2b69a7a47ae54a7772163b66e3ac470194b808524808202e825c9a35b3",
+          "after_sha256": "d6e5986b9a309e629bbdfb9d7e09b90f3c08b4f8ad8ef4c322aa83f4b9b5615b",
+          "changed_pixels": 91950,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-183-vinegar-the-fighter.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "5974054aa1b2448bdb08c7edb0a655c3d2520dc9b557b23e518099310c8e425a",
+          "after_sha256": "949501876d82708d8e29ed70a7beab5d23a96d84a7cfbd20a09002e8e6694731",
+          "changed_pixels": 349797,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -10886,7 +11962,7 @@
     "name": "Vinegar, the Henchman",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-184-vinegar-the-henchman.svg",
-    "native_source_sha256": "cc1eba93183fd972b867c806ee718c8f4bba87ea5e5d5cc99b322f1271819904",
+    "native_source_sha256": "bad2c12385e24390405b5ff1f9d2c449f5ad3ee6d4a32da58bf0f90a9ca49b26",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11013,10 +12089,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          44.0344,
-          700.0,
-          69.9313
+          209.5,
+          47.0314,
+          640.0,
+          63.9372
         ],
         "v3-level-number": [
           58.9918,
@@ -11111,7 +12187,7 @@
         "path": "public/assets/cards/trunks-184-vinegar-the-henchman.webp",
         "before_url": "/assets/cards/trunks-184-vinegar-the-henchman.webp?v=1f277e2578c7",
         "before_sha256": "1f277e2578c7b17160827f1ea5a640cf671b2a08cb4ae040dabc2dfa7ad12af1",
-        "after_sha256": "0fa623bfaf779b74d698ae6fb847f03f5bf418b254fdf095a3e9457edce8d85c",
+        "after_sha256": "324c779526f7b876aefc9ba236b433c64195a50f6c549d461b6b5ff65dc0246d",
         "size": [
           1060,
           1484
@@ -11123,7 +12199,7 @@
         "path": "public/assets/cards/downloads/trunks-184-vinegar-the-henchman.webp",
         "before_url": "/assets/cards/downloads/trunks-184-vinegar-the-henchman.webp?v=1012d196e667",
         "before_sha256": "1012d196e667bf15f7cc5bf2825f43b9b3ce754a55a4ddfbd690fa30463862fc",
-        "after_sha256": "69eb793c28bc9c7d0091593e02fd02b1cdbfc3392043d0b31089575a5c8d4445",
+        "after_sha256": "cf0420aaaed7188a4fb547cb49cce3992f35e2fa61b90c153eba13be06dc2946",
         "size": [
           2120,
           2968
@@ -11253,6 +12329,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-184-vinegar-the-henchman",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-184-vinegar-the-henchman.svg",
+      "before_native_sha256": "cc1eba93183fd972b867c806ee718c8f4bba87ea5e5d5cc99b322f1271819904",
+      "after_native_sha256": "bad2c12385e24390405b5ff1f9d2c449f5ad3ee6d4a32da58bf0f90a9ca49b26",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 78.546882670594,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 63.93716249386351,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9129652159683534
+      },
+      "title_bounds_before": [
+        179.5,
+        44.0344,
+        700.0,
+        69.9313
+      ],
+      "title_bounds_after": [
+        209.5,
+        47.0314,
+        640.0,
+        63.9372
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-184-vinegar-the-henchman.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "0fa623bfaf779b74d698ae6fb847f03f5bf418b254fdf095a3e9457edce8d85c",
+          "after_sha256": "324c779526f7b876aefc9ba236b433c64195a50f6c549d461b6b5ff65dc0246d",
+          "changed_pixels": 120169,
+          "changed_pixel_bounds": [
+            40,
+            41,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-184-vinegar-the-henchman.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "69eb793c28bc9c7d0091593e02fd02b1cdbfc3392043d0b31089575a5c8d4445",
+          "after_sha256": "cf0420aaaed7188a4fb547cb49cce3992f35e2fa61b90c153eba13be06dc2946",
+          "changed_pixels": 418021,
+          "changed_pixel_bounds": [
+            67,
+            88,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -11711,7 +12885,7 @@
     "name": "Trunks, the Swordsman",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-186-trunks-the-swordsman.svg",
-    "native_source_sha256": "38013b9d9d09e6edbe108270fdcd4086aa24a87259aaa5bf75bded6b2c27e616",
+    "native_source_sha256": "a8698da411f05b4a2d5bd244eb41a2af4974dd8169dc4188ea5414ef1035216b",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11845,10 +13019,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          44.4164,
-          700.0,
-          69.1673
+          209.5,
+          47.3807,
+          640.0,
+          63.2387
         ],
         "v3-level-number": [
           60.8258,
@@ -11937,7 +13111,7 @@
         "path": "public/assets/cards/trunks-186-trunks-the-swordsman.webp",
         "before_url": "/assets/cards/trunks-186-trunks-the-swordsman.webp?v=2e2727661117",
         "before_sha256": "2e27276611175b6955f89fea36ed3c5002860791c7cf51c5f3fa8a75b1eeaed3",
-        "after_sha256": "31a5b6f7b38057b3b790d736e3698abd7fae1b18f79dd55b29c2f273c57e113a",
+        "after_sha256": "7b8a119e092d05ff0d7f925f67dac1d77fb0482c5bbbf11d0ba8c6975b07df0e",
         "size": [
           1060,
           1484
@@ -11949,7 +13123,7 @@
         "path": "public/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp",
         "before_url": "/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp?v=5da40bf98bca",
         "before_sha256": "5da40bf98bca86847641448f57b7dd04a027b34482d223aa58d1aea5c2b2f884",
-        "after_sha256": "f20f032f45b7887ba76a154312e61aa083bb14c1045362e23b781d0e577a21e7",
+        "after_sha256": "73e88a31cf6cf88c96af1c3c687bc5c2aa8ebde522b24126d03b5a286669f948",
         "size": [
           2120,
           2968
@@ -12079,6 +13253,96 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-186-trunks-the-swordsman",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-186-trunks-the-swordsman.svg",
+      "before_native_sha256": "38013b9d9d09e6edbe108270fdcd4086aa24a87259aaa5bf75bded6b2c27e616",
+      "after_native_sha256": "a8698da411f05b4a2d5bd244eb41a2af4974dd8169dc4188ea5414ef1035216b",
+      "villain_color_changed": false,
+      "villain_color": null,
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 77.68875940762321,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 63.238650157805296,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9029910876074465
+      },
+      "title_bounds_before": [
+        179.5,
+        44.4164,
+        700.0,
+        69.1673
+      ],
+      "title_bounds_after": [
+        209.5,
+        47.3807,
+        640.0,
+        63.2387
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-186-trunks-the-swordsman.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "31a5b6f7b38057b3b790d736e3698abd7fae1b18f79dd55b29c2f273c57e113a",
+          "after_sha256": "7b8a119e092d05ff0d7f925f67dac1d77fb0482c5bbbf11d0ba8c6975b07df0e",
+          "changed_pixels": 27079,
+          "changed_pixel_bounds": [
+            177,
+            42,
+            882,
+            116
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-186-trunks-the-swordsman.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "f20f032f45b7887ba76a154312e61aa083bb14c1045362e23b781d0e577a21e7",
+          "after_sha256": "73e88a31cf6cf88c96af1c3c687bc5c2aa8ebde522b24126d03b5a286669f948",
+          "changed_pixels": 67486,
+          "changed_pixel_bounds": [
+            359,
+            88,
+            1759,
+            228
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -12482,7 +13746,7 @@
     "name": "King Cold",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-188-king-cold.svg",
-    "native_source_sha256": "3308ba9c328540389c7c48686dae13e6227b3602c2fa854133306b864bcd91cc",
+    "native_source_sha256": "312a5057c3271247171117fe2225b40dc495f252f0c42efbe36186dc95fa4d07",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12689,7 +13953,7 @@
         "path": "public/assets/cards/trunks-188-king-cold.webp",
         "before_url": "/assets/cards/trunks-188-king-cold.webp?v=4ba2b985c4a1",
         "before_sha256": "4ba2b985c4a1c2805f0dc8a2e0e15af8caab8963a16657199cf66821e24e4617",
-        "after_sha256": "e55809c171690b04af9e7be539b54e8567077e1aa4d96ef2c216a12a5277d1f8",
+        "after_sha256": "d106983bc65c45f331186515988477cbcaf41bd214dec4bb29f9a8195c59a547",
         "size": [
           1060,
           1484
@@ -12701,7 +13965,7 @@
         "path": "public/assets/cards/downloads/trunks-188-king-cold.webp",
         "before_url": "/assets/cards/downloads/trunks-188-king-cold.webp?v=e430e39f390d",
         "before_sha256": "e430e39f390d4f153b20c0d31a247f6765ebbbd1eadac58d60b3c8df2cf434b2",
-        "after_sha256": "a910caf5b7c9aff405273b197a0e139fc74c0a5a000ffa7a1a3e20cd1eea05c2",
+        "after_sha256": "80a3536307a25c3adb632681a52bf04040b5990ce4ca2194a322be335e20d941",
         "size": [
           2120,
           2968
@@ -12831,6 +14095,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-188-king-cold",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-188-king-cold.svg",
+      "before_native_sha256": "3308ba9c328540389c7c48686dae13e6227b3602c2fa854133306b864bcd91cc",
+      "after_native_sha256": "312a5057c3271247171117fe2225b40dc495f252f0c42efbe36186dc95fa4d07",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        391.414,
+        44.5,
+        276.172,
+        69.0
+      ],
+      "title_bounds_after": [
+        391.414,
+        44.5,
+        276.172,
+        69.0
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-188-king-cold.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "e55809c171690b04af9e7be539b54e8567077e1aa4d96ef2c216a12a5277d1f8",
+          "after_sha256": "d106983bc65c45f331186515988477cbcaf41bd214dec4bb29f9a8195c59a547",
+          "changed_pixels": 92144,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-188-king-cold.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a910caf5b7c9aff405273b197a0e139fc74c0a5a000ffa7a1a3e20cd1eea05c2",
+          "after_sha256": "80a3536307a25c3adb632681a52bf04040b5990ce4ca2194a322be335e20d941",
+          "changed_pixels": 350378,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -12858,7 +14201,7 @@
     "name": "King Cold, the Destroyer",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-189-king-cold-the-destroyer.svg",
-    "native_source_sha256": "dffe92b382cdda77e68065c5fc457fe307dce24e66e1070773d03e51c9b4b77c",
+    "native_source_sha256": "11c777ac09cc274d39d6de87bc135a84a3817f17d4f97a0f101e1e2584f2d2fa",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -13004,10 +14347,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          45.208,
-          700.0,
-          67.5839
+          209.5,
+          48.1045,
+          640.0,
+          61.791
         ],
         "v3-level-number": [
           60.8258,
@@ -13108,7 +14451,7 @@
         "path": "public/assets/cards/trunks-189-king-cold-the-destroyer.webp",
         "before_url": "/assets/cards/trunks-189-king-cold-the-destroyer.webp?v=53fe0f36fd36",
         "before_sha256": "53fe0f36fd36da84750992eb69d2c21e35e4fdfa51a65308ecf55ae1d7203a2a",
-        "after_sha256": "96bedbc700c98a437dccb57c15135af2dfb86a894f9ff69628c80b60bfcc00c0",
+        "after_sha256": "243a038ffcccfe85e60f8bbb2fba36233be27765a4d56a9e1fb9604e990f6457",
         "size": [
           1060,
           1484
@@ -13120,7 +14463,7 @@
         "path": "public/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp",
         "before_url": "/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp?v=b5403a6175c6",
         "before_sha256": "b5403a6175c6160fe059b81109e1cded34721e2c01a2f604751ddb468c45b3b4",
-        "after_sha256": "56b856fc04bac88ad2dd72cb087a74bcdecf1e7dc053b2ab21ab03a1328bf7d9",
+        "after_sha256": "659295115c850973d48a31ad41bfe78be293cd820a81d03f350fe9d97aa6b34d",
         "size": [
           2120,
           2968
@@ -13250,6 +14593,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-189-king-cold-the-destroyer",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-189-king-cold-the-destroyer.svg",
+      "before_native_sha256": "dffe92b382cdda77e68065c5fc457fe307dce24e66e1070773d03e51c9b4b77c",
+      "after_native_sha256": "11c777ac09cc274d39d6de87bc135a84a3817f17d4f97a0f101e1e2584f2d2fa",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 75.91033092159886,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 61.79100937018146,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.882320078248149
+      },
+      "title_bounds_before": [
+        179.5,
+        45.208,
+        700.0,
+        67.5839
+      ],
+      "title_bounds_after": [
+        209.5,
+        48.1045,
+        640.0,
+        61.791
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-189-king-cold-the-destroyer.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "96bedbc700c98a437dccb57c15135af2dfb86a894f9ff69628c80b60bfcc00c0",
+          "after_sha256": "243a038ffcccfe85e60f8bbb2fba36233be27765a4d56a9e1fb9604e990f6457",
+          "changed_pixels": 121520,
+          "changed_pixel_bounds": [
+            40,
+            42,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 3
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-189-king-cold-the-destroyer.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "56b856fc04bac88ad2dd72cb087a74bcdecf1e7dc053b2ab21ab03a1328bf7d9",
+          "after_sha256": "659295115c850973d48a31ad41bfe78be293cd820a81d03f350fe9d97aa6b34d",
+          "changed_pixels": 424751,
+          "changed_pixel_bounds": [
+            67,
+            90,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -13277,7 +14718,7 @@
     "name": "King Cold, the Ruler",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-190-king-cold-the-ruler.svg",
-    "native_source_sha256": "9ecd679de25217f2c5da8f5aa61b8e236dbe3288869dabac5627b98b6cd6e4ba",
+    "native_source_sha256": "49de7de023273660abbcad08e903a22ef1f1b48a7c368598492561cf9e7e724f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -13484,7 +14925,7 @@
         "path": "public/assets/cards/trunks-190-king-cold-the-ruler.webp",
         "before_url": "/assets/cards/trunks-190-king-cold-the-ruler.webp?v=ed465a924a0d",
         "before_sha256": "ed465a924a0d226e87eed0c3f02e9f59c6e7e53653dc2fe1409f42a6d11e6049",
-        "after_sha256": "000bc0d461ae979cae80a6217430ef2dc717ddde11db510f31d07508adce0aba",
+        "after_sha256": "0bec873195c21807f885be1e82110c8a74ffccfee917245573d60e0fd3992577",
         "size": [
           1060,
           1484
@@ -13496,7 +14937,7 @@
         "path": "public/assets/cards/downloads/trunks-190-king-cold-the-ruler.webp",
         "before_url": "/assets/cards/downloads/trunks-190-king-cold-the-ruler.webp?v=849ea644bf80",
         "before_sha256": "849ea644bf808d51ec31656a5c5eb16640291ba09fdcf9fa54a083797ae05697",
-        "after_sha256": "b0b2f2265cda72af3a94d7eab323015e5aa147d07665209f2d6b8b963e034162",
+        "after_sha256": "c7bb779100e39a9c8c9e308a79b2454a42e8173a798fd767748b096506215853",
         "size": [
           2120,
           2968
@@ -13626,6 +15067,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-190-king-cold-the-ruler",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-190-king-cold-the-ruler.svg",
+      "before_native_sha256": "9ecd679de25217f2c5da8f5aa61b8e236dbe3288869dabac5627b98b6cd6e4ba",
+      "after_native_sha256": "49de7de023273660abbcad08e903a22ef1f1b48a7c368598492561cf9e7e724f",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        236.078,
+        43.9838,
+        586.844,
+        70.0324
+      ],
+      "title_bounds_after": [
+        236.078,
+        43.9838,
+        586.844,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-190-king-cold-the-ruler.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "000bc0d461ae979cae80a6217430ef2dc717ddde11db510f31d07508adce0aba",
+          "after_sha256": "0bec873195c21807f885be1e82110c8a74ffccfee917245573d60e0fd3992577",
+          "changed_pixels": 91976,
+          "changed_pixel_bounds": [
+            40,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-190-king-cold-the-ruler.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b0b2f2265cda72af3a94d7eab323015e5aa147d07665209f2d6b8b963e034162",
+          "after_sha256": "c7bb779100e39a9c8c9e308a79b2454a42e8173a798fd767748b096506215853",
+          "changed_pixels": 349837,
+          "changed_pixel_bounds": [
+            67,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -13653,7 +15173,7 @@
     "name": "Frieza, the Master",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-191-frieza-the-master.svg",
-    "native_source_sha256": "ba66608f48ca2a250abc0f7bb41ca07e39936944df472340edcfc25fc510e7fc",
+    "native_source_sha256": "7bafc8a3def2a5314118a290084e420129f54adc8fff2f885c8c6dac705d4292",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -13902,7 +15422,7 @@
         "path": "public/assets/cards/trunks-191-frieza-the-master.webp",
         "before_url": "/assets/cards/trunks-191-frieza-the-master.webp?v=d7f650633e1b",
         "before_sha256": "d7f650633e1b4df7e2ac6fbb570b744796bff376afb879f5e46d38954ef233b1",
-        "after_sha256": "42eaf4d9306f97f788396343898c7b768c1fe3326affb6f186d97eac60ab6d1a",
+        "after_sha256": "7421ec121f87f3531f6bdae263123d4a6eef0adb8afa64a79a83e4de2fc0ef00",
         "size": [
           1060,
           1484
@@ -13914,7 +15434,7 @@
         "path": "public/assets/cards/downloads/trunks-191-frieza-the-master.webp",
         "before_url": "/assets/cards/downloads/trunks-191-frieza-the-master.webp?v=26e849175fbc",
         "before_sha256": "26e849175fbc98c7f85673ae092c31cde1db19c809b3511e773096d8f5713460",
-        "after_sha256": "f63c423dd5f131d7f21ee86ab727a4868eeabdb95b44134db24112da217cc076",
+        "after_sha256": "a6cbe01189527bc4184a7b364de87dd9cce65621112c4b6a44c27013504a2ab6",
         "size": [
           2120,
           2968
@@ -14044,6 +15564,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-191-frieza-the-master",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-191-frieza-the-master.svg",
+      "before_native_sha256": "ba66608f48ca2a250abc0f7bb41ca07e39936944df472340edcfc25fc510e7fc",
+      "after_native_sha256": "7bafc8a3def2a5314118a290084e420129f54adc8fff2f885c8c6dac705d4292",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        260.684,
+        43.9838,
+        537.632,
+        70.0324
+      ],
+      "title_bounds_after": [
+        260.684,
+        43.9838,
+        537.632,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-191-frieza-the-master.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "42eaf4d9306f97f788396343898c7b768c1fe3326affb6f186d97eac60ab6d1a",
+          "after_sha256": "7421ec121f87f3531f6bdae263123d4a6eef0adb8afa64a79a83e4de2fc0ef00",
+          "changed_pixels": 91962,
+          "changed_pixel_bounds": [
+            35,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-191-frieza-the-master.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "f63c423dd5f131d7f21ee86ab727a4868eeabdb95b44134db24112da217cc076",
+          "after_sha256": "a6cbe01189527bc4184a7b364de87dd9cce65621112c4b6a44c27013504a2ab6",
+          "changed_pixels": 350011,
+          "changed_pixel_bounds": [
+            65,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -15602,7 +17201,7 @@
     "name": "Garlic Jr., the Merciless",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-196-garlic-jr-the-merciless.svg",
-    "native_source_sha256": "eb58af954903cc03911191de6408d2127f07123e08ca0881eb315c32dadd4ae1",
+    "native_source_sha256": "0cc37c908c7f6b9ce6d4c61973faf6f31d72a21874645b14b12704940041e5b8",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -15759,10 +17358,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          44.387,
-          700.0,
-          69.2261
+          209.5,
+          47.3538,
+          640.0,
+          63.2924
         ],
         "v3-level-number": [
           60.8258,
@@ -15833,7 +17432,7 @@
         "path": "public/assets/cards/trunks-196-garlic-jr-the-merciless.webp",
         "before_url": "/assets/cards/trunks-196-garlic-jr-the-merciless.webp?v=664312fb14e0",
         "before_sha256": "664312fb14e08998955a1594e7792f374017020defae25559a5a8e831cfa5964",
-        "after_sha256": "c73c7afef6a8a70b1a01f282da3fac293df947929ae895e494760f6f03616942",
+        "after_sha256": "452defe1d12ae6988e905c95f09f769338fa67125335fcac43637538d6c82d00",
         "size": [
           1060,
           1484
@@ -15845,7 +17444,7 @@
         "path": "public/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp",
         "before_url": "/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp?v=cdd7da1622ba",
         "before_sha256": "cdd7da1622ba63b368b23ea63685deb16f14ea965a47adb7149528c2cf908a71",
-        "after_sha256": "3ebfa43b0d004da929b8a28ea0d4b529e972ce7c3c3454a6dc9ed8dc04bb0fa8",
+        "after_sha256": "fb40e436a0a9cc32133323eacc28a27b81180d18e44213c2eab8fabb47bc0e4f",
         "size": [
           2120,
           2968
@@ -15975,6 +17574,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-196-garlic-jr-the-merciless",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-196-garlic-jr-the-merciless.svg",
+      "before_native_sha256": "eb58af954903cc03911191de6408d2127f07123e08ca0881eb315c32dadd4ae1",
+      "after_native_sha256": "0cc37c908c7f6b9ce6d4c61973faf6f31d72a21874645b14b12704940041e5b8",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 77.7548293038513,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 640.0,
+        "visible_height": 63.29243105333495,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.903759030459257
+      },
+      "title_bounds_before": [
+        179.5,
+        44.387,
+        700.0,
+        69.2261
+      ],
+      "title_bounds_after": [
+        209.5,
+        47.3538,
+        640.0,
+        63.2924
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-196-garlic-jr-the-merciless.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "c73c7afef6a8a70b1a01f282da3fac293df947929ae895e494760f6f03616942",
+          "after_sha256": "452defe1d12ae6988e905c95f09f769338fa67125335fcac43637538d6c82d00",
+          "changed_pixels": 119965,
+          "changed_pixel_bounds": [
+            35,
+            41,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-196-garlic-jr-the-merciless.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "3ebfa43b0d004da929b8a28ea0d4b529e972ce7c3c3454a6dc9ed8dc04bb0fa8",
+          "after_sha256": "fb40e436a0a9cc32133323eacc28a27b81180d18e44213c2eab8fabb47bc0e4f",
+          "changed_pixels": 417324,
+          "changed_pixel_bounds": [
+            65,
+            88,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -16002,7 +17699,7 @@
     "name": "Spice, the Enchanter",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-197-spice-the-enchanter.svg",
-    "native_source_sha256": "0cc74da34c4233c87a94d2314ed175146d4aeb2bfd96fe972b29a765dde534b8",
+    "native_source_sha256": "a15146edaac3ac5fada23a4a79893302be751ed96e2502ab7b867370b8afd205",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -16254,7 +17951,7 @@
         "path": "public/assets/cards/trunks-197-spice-the-enchanter.webp",
         "before_url": "/assets/cards/trunks-197-spice-the-enchanter.webp?v=c5965eb9c387",
         "before_sha256": "c5965eb9c3871db4eb046fd728a0987c256b71fca6d58cf1878c44a45ab23f92",
-        "after_sha256": "f1939a4858a1644e4939e690eaabe0e2d8faf843b0e2fa3544f610439d24699f",
+        "after_sha256": "4a5760629607cb9a9eb11679d5139eebe645af60fda2aac858d6fef7172b7351",
         "size": [
           1060,
           1484
@@ -16266,7 +17963,7 @@
         "path": "public/assets/cards/downloads/trunks-197-spice-the-enchanter.webp",
         "before_url": "/assets/cards/downloads/trunks-197-spice-the-enchanter.webp?v=b5294ea62632",
         "before_sha256": "b5294ea62632e300deade2c7b501eb6a65083227dc4c3f1b7a09932fe5945ed4",
-        "after_sha256": "a7378d2309d9c584f2decb343e4c5aae706826d3ebf91c06a12ead77256fac9e",
+        "after_sha256": "6b7e9220922ac6fe9d81f677a73a1d605d5871f4623024e9517caeacfeb2b90e",
         "size": [
           2120,
           2968
@@ -16396,6 +18093,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-197-spice-the-enchanter",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-197-spice-the-enchanter.svg",
+      "before_native_sha256": "0cc74da34c4233c87a94d2314ed175146d4aeb2bfd96fe972b29a765dde534b8",
+      "after_native_sha256": "a15146edaac3ac5fada23a4a79893302be751ed96e2502ab7b867370b8afd205",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        220.204,
+        43.9838,
+        618.591,
+        70.0324
+      ],
+      "title_bounds_after": [
+        220.204,
+        43.9838,
+        618.591,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-197-spice-the-enchanter.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f1939a4858a1644e4939e690eaabe0e2d8faf843b0e2fa3544f610439d24699f",
+          "after_sha256": "4a5760629607cb9a9eb11679d5139eebe645af60fda2aac858d6fef7172b7351",
+          "changed_pixels": 91996,
+          "changed_pixel_bounds": [
+            35,
+            849,
+            1032,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-197-spice-the-enchanter.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "a7378d2309d9c584f2decb343e4c5aae706826d3ebf91c06a12ead77256fac9e",
+          "after_sha256": "6b7e9220922ac6fe9d81f677a73a1d605d5871f4623024e9517caeacfeb2b90e",
+          "changed_pixels": 349980,
+          "changed_pixel_bounds": [
+            65,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -16423,7 +18199,7 @@
     "name": "Vinegar, the Battler",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-198-vinegar-the-battler.svg",
-    "native_source_sha256": "0475c4cefaef7892dfc5239c42746c044de6162d72172a5296975a4cb8e20ad8",
+    "native_source_sha256": "2c40c910b0beeabd0c0e0b8f130b2b87332e8f2982dc568b6740ea82965849cd",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -16637,7 +18413,7 @@
         "path": "public/assets/cards/trunks-198-vinegar-the-battler.webp",
         "before_url": "/assets/cards/trunks-198-vinegar-the-battler.webp?v=d5afc12ae409",
         "before_sha256": "d5afc12ae40996a058d5282ac224789ba1927c1e2f6e24c53afe21950d83a454",
-        "after_sha256": "98c0bc9992d1a98610e4edeef2a39f68f720df21b8d636f511fb786689cd1d71",
+        "after_sha256": "36e8d6fb6e576beddd2bb6428ef27bfd0def068a05f94483011d78e36101994e",
         "size": [
           1060,
           1484
@@ -16649,7 +18425,7 @@
         "path": "public/assets/cards/downloads/trunks-198-vinegar-the-battler.webp",
         "before_url": "/assets/cards/downloads/trunks-198-vinegar-the-battler.webp?v=349a47bdc4b2",
         "before_sha256": "349a47bdc4b2862888581bd141ccc768e131a995eb63d6fad54d5ece615a831d",
-        "after_sha256": "e5dc0982212185dc4dff60ee4f02bf5054a2cb942c3be15e35c4c45514a37865",
+        "after_sha256": "2de32e2186145d8f7f8977bc4dc85c94beb357d652447dc62766f2016c98be79",
         "size": [
           2120,
           2968
@@ -16779,6 +18555,85 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-198-vinegar-the-battler",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-198-vinegar-the-battler.svg",
+      "before_native_sha256": "0475c4cefaef7892dfc5239c42746c044de6162d72172a5296975a4cb8e20ad8",
+      "after_native_sha256": "2c40c910b0beeabd0c0e0b8f130b2b87332e8f2982dc568b6740ea82965849cd",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": false,
+      "title_fit": null,
+      "title_bounds_before": [
+        235.562,
+        43.9838,
+        587.877,
+        70.0324
+      ],
+      "title_bounds_after": [
+        235.562,
+        43.9838,
+        587.877,
+        70.0324
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-198-vinegar-the-battler.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "98c0bc9992d1a98610e4edeef2a39f68f720df21b8d636f511fb786689cd1d71",
+          "after_sha256": "36e8d6fb6e576beddd2bb6428ef27bfd0def068a05f94483011d78e36101994e",
+          "changed_pixels": 91952,
+          "changed_pixel_bounds": [
+            35,
+            849,
+            1032,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 4
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-198-vinegar-the-battler.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "e5dc0982212185dc4dff60ee4f02bf5054a2cb942c3be15e35c4c45514a37865",
+          "after_sha256": "2de32e2186145d8f7f8977bc4dc85c94beb357d652447dc62766f2016c98be79",
+          "changed_pixels": 349982,
+          "changed_pixel_bounds": [
+            65,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -17236,7 +19091,7 @@
     "name": "King Cold, Galactic Ruler",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-200-king-cold-galactic-ruler.svg",
-    "native_source_sha256": "13e6a8b069c3cf768d2353ab28b8ea538187f442dd04b7f021b199f64b25d8f7",
+    "native_source_sha256": "675d4f96783bbc622b6430b3a9d648bfed18442f651bbf21d1fd993f092b652a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -17384,10 +19239,10 @@
           31.164
         ],
         "card-title": [
-          179.5,
-          45.6745,
-          700.0,
-          66.6511
+          209.5,
+          48.5309,
+          640.0,
+          60.9381
         ],
         "v3-level-number": [
           60.8258,
@@ -17476,7 +19331,7 @@
         "path": "public/assets/cards/trunks-200-king-cold-galactic-ruler.webp",
         "before_url": "/assets/cards/trunks-200-king-cold-galactic-ruler.webp?v=05dfa3f5ae8d",
         "before_sha256": "05dfa3f5ae8d34408c55f00d7e498175990faad63a4f18459e00b4cb1c2054ae",
-        "after_sha256": "495c8054ab7175464eb3a1f7664eb1d583130897486041382a6561c5fde943df",
+        "after_sha256": "4b4c6a006d49db3597d6328650ad141a4084f95090d488acae90c0215fa3fe2c",
         "size": [
           1060,
           1484
@@ -17488,7 +19343,7 @@
         "path": "public/assets/cards/downloads/trunks-200-king-cold-galactic-ruler.webp",
         "before_url": "/assets/cards/downloads/trunks-200-king-cold-galactic-ruler.webp?v=0a78523819e5",
         "before_sha256": "0a78523819e51a1bc5bb34ef9ea1a367f2537a97fcd39b3c32ee92f8abee131d",
-        "after_sha256": "4f97c1e6314452d4c3aa60a81613fbb7385f30fcef9c394d0023c669c0b1bc5a",
+        "after_sha256": "08b95e479d863514d704749ed1bc36849382d9ef86481f38ed95620948280cd6",
         "size": [
           2120,
           2968
@@ -17618,6 +19473,104 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json"
+    },
+    "personality_finish_revision": {
+      "id": "trunks-200-king-cold-galactic-ruler",
+      "revision": "2026-11-02-personality-dark-crimson-title-clearance",
+      "audit_path": "tools/card-corrections/v3-trunks-156-200-p1-p5/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-156-200-p1-p5/trunks-200-king-cold-galactic-ruler.svg",
+      "before_native_sha256": "13e6a8b069c3cf768d2353ab28b8ea538187f442dd04b7f021b199f64b25d8f7",
+      "after_native_sha256": "675d4f96783bbc622b6430b3a9d648bfed18442f651bbf21d1fd993f092b652a",
+      "villain_color_changed": true,
+      "villain_color": "#a61122",
+      "title_changed": true,
+      "title_fit": {
+        "font_size": 74.86255702421334,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 60.93812141770967,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.8701416048321609
+      },
+      "title_bounds_before": [
+        179.5,
+        45.6745,
+        700.0,
+        66.6511
+      ],
+      "title_bounds_after": [
+        209.5,
+        48.5309,
+        640.0,
+        60.9381
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "category_paths_unchanged": true,
+      "helper_idempotent": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-200-king-cold-galactic-ruler.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "495c8054ab7175464eb3a1f7664eb1d583130897486041382a6561c5fde943df",
+          "after_sha256": "4b4c6a006d49db3597d6328650ad141a4084f95090d488acae90c0215fa3fe2c",
+          "changed_pixels": 122336,
+          "changed_pixel_bounds": [
+            35,
+            43,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-200-king-cold-galactic-ruler.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "4f97c1e6314452d4c3aa60a81613fbb7385f30fcef9c394d0023c669c0b1bc5a",
+          "after_sha256": "08b95e479d863514d704749ed1bc36849382d9ef86481f38ed95620948280cd6",
+          "changed_pixels": 428227,
+          "changed_pixel_bounds": [
+            67,
+            91,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_edited_native_ink": 0,
+          "lossless_round_trip": true,
+          "regions": [
+            {
+              "region": "title",
+              "old_render_max_channel_difference": 0
+            },
+            {
+              "region": "middle",
+              "old_render_max_channel_difference": 2
+            }
+          ]
+        }
+      ]
     }
   },
   {
