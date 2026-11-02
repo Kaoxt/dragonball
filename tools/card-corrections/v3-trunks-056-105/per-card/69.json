@@ -1,0 +1,226 @@
+{
+  "personality_values": null,
+  "number": 69,
+  "id": "trunks-069-orange-special-beam-cannon",
+  "name": "Orange Special Beam Cannon",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-069-orange-special-beam-cannon.svg",
+  "native_source_sha256": "1c42bd4cec67ee009b644bed07564c383e24b44f223a0958b0b316821a159e77",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/89a043852a04e3eda171aee568aadbdff08085545e614463a926b395ad70f7d0.png",
+      "sha256": "89a043852a04e3eda171aee568aadbdff08085545e614463a926b395ad70f7d0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "89a043852a04e3eda171aee568aadbdff08085545e614463a926b395ad70f7d0",
+    "source_native_sha256": "8916bb828c5b0015e59566a8f60af2bcfdd64cf2b999bb620e94ceb84c52df66",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 1 life card for each stage",
+      "baseline": 1108.3,
+      "width": 603.4840000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "the attacking Personality is above 0.",
+      "baseline": 1167.3,
+      "width": 649.9360000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        154.5,
+        49.5002,
+        750.0,
+        58.9995
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.62,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.42,
+        1392.65,
+        43.46,
+        33.708
+      ],
+      "rules-line-1": [
+        278.159,
+        1013.53,
+        557.277,
+        45.913
+      ],
+      "rules-line-2": [
+        229.498,
+        1072.53,
+        600.005,
+        45.913
+      ],
+      "rules-line-3": [
+        205.634,
+        1131.53,
+        647.731,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.159,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-069-orange-special-beam-cannon.webp",
+      "before_url": "/assets/cards/trunks-069-orange-special-beam-cannon.webp?v=686cf242acb7",
+      "before_sha256": "686cf242acb7e38e1b7a769656f32a3d2fc5d373b3138f362af4ad304ad6ba3e",
+      "after_sha256": "edb7865936453c2eae81fe4b0aebba3f7192cc488f440cdeeae0f4863cced6a9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-069-orange-special-beam-cannon.webp",
+      "before_url": "/assets/cards/downloads/trunks-069-orange-special-beam-cannon.webp?v=3333bc056758",
+      "before_sha256": "3333bc0567584dc0edc40375c7f8fb5f9b4c0e09e6fd5c0deb2e714db1598d9c",
+      "after_sha256": "467f837a38b64ec8359bec74f043bc9fbf06e0552b625efe970d2ed1a01d02cc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 73.56547327121137,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 750.0,
+      "visible_height": 58.99950956351152,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 750.0,
+      "scale_factor": 0.8550653559929206
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "personality_values": null,
+  "number": 68,
+  "id": "trunks-068-red-face-upheaval",
+  "name": "Red Face Upheaval",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-068-red-face-upheaval.svg",
+  "native_source_sha256": "7d3788554ae269ed0c8fc53f82073d6f638f48afdf681355e2c0220f5cd009a1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6a600993dbf405b5c07364399532d68cdd65008d26d7be2adccfe12e2b4c877a.png",
+      "sha256": "6a600993dbf405b5c07364399532d68cdd65008d26d7be2adccfe12e2b4c877a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "6a600993dbf405b5c07364399532d68cdd65008d26d7be2adccfe12e2b4c877a",
+    "source_native_sha256": "398863636072c90f5f26cb2e99f4490adfd7ad1e2cbd63e664b8430e2c492b43",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Banish 1 Setup or Drill in play.",
+      "baseline": 1167.3,
+      "width": 600.8380000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        247.65,
+        44.5,
+        563.701,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.408,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.208,
+        1392.65,
+        43.884,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "rules-line-2": [
+        317.06,
+        1072.53,
+        424.879,
+        45.913
+      ],
+      "rules-line-3": [
+        230.943,
+        1131.53,
+        597.114,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-068-red-face-upheaval.webp",
+      "before_url": "/assets/cards/trunks-068-red-face-upheaval.webp?v=af35f243a587",
+      "before_sha256": "af35f243a5878c492ed70828d89dba832cbc1663252c812ba8fdf1da3b18f32a",
+      "after_sha256": "cd2c9c2b6fedf86cd760b9484abdafbf9c896013bcabb157b7a034422f717fe5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-068-red-face-upheaval.webp",
+      "before_url": "/assets/cards/downloads/trunks-068-red-face-upheaval.webp?v=0c7a77cf858b",
+      "before_sha256": "0c7a77cf858bdd328c867bb84509e9fac0b3e7066b6595089c00ad57c84015c7",
+      "after_sha256": "846e6894140d60a6a6b298ccc9c330f0e1e740660fe1a6233349579bbf05f077",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 563.7007481296758,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

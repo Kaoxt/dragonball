@@ -1,0 +1,196 @@
+{
+  "personality_values": null,
+  "number": 84,
+  "id": "trunks-084-trunks-energy-sphere",
+  "name": "Trunks' Energy Sphere",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-084-trunks-energy-sphere.svg",
+  "native_source_sha256": "7d4b4016186daf2a50b8b68ffc00c181b7cb137754b03d03b8a694c2ba65593d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a33241b82c63c1b5a1e13a805d981e940ca4a56e2c78cdcd60bbf696c8c42fa.png",
+      "sha256": "1a33241b82c63c1b5a1e13a805d981e940ca4a56e2c78cdcd60bbf696c8c42fa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "1a33241b82c63c1b5a1e13a805d981e940ca4a56e2c78cdcd60bbf696c8c42fa",
+    "source_native_sha256": "4b63366b45fe2fbb1efde284fa315a06d67c33e92ce52c9059423b9435f7b759",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when your opponent plays an Event,",
+      "baseline": 1049.3,
+      "width": 862.7919999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "before its costs or effects.",
+      "baseline": 1108.3,
+      "width": 474.71200000000005,
+      "icon_inline": false
+    },
+    {
+      "text": "Negate that Event and discard it.",
+      "baseline": 1167.3,
+      "width": 582.267,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        192.759,
+        44.5,
+        673.481,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        794.269,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.068,
+        1392.65,
+        46.163,
+        33.708
+      ],
+      "rules-line-1": [
+        99.9775,
+        1014.61,
+        859.045,
+        44.443
+      ],
+      "rules-line-2": [
+        293.859,
+        1072.53,
+        471.282,
+        36.162
+      ],
+      "rules-line-3": [
+        240.228,
+        1131.53,
+        578.543,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-084-trunks-energy-sphere.webp",
+      "before_url": "/assets/cards/trunks-084-trunks-energy-sphere.webp?v=4d4c04c71673",
+      "before_sha256": "4d4c04c716732679db935e8aa63945ab7cfd12b92392eb371b5cab9d71c4ef02",
+      "after_sha256": "41000ff289b7f894c69f384212fbe5cc5228846f2eb8d22d1ada644e038cb79c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-084-trunks-energy-sphere.webp",
+      "before_url": "/assets/cards/downloads/trunks-084-trunks-energy-sphere.webp?v=84e0250ed52d",
+      "before_sha256": "84e0250ed52da6a270552bb9b79050bf3e73bb5873b6981ddb4c7ecbd8f45999",
+      "after_sha256": "715cf3c775833bffb26bea1281a98f9ebf510c070cb6b1024b19667c4dd7e9e4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 673.4812967581048,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "personality_values": null,
+  "number": 74,
+  "id": "trunks-074-black-energy-deflection-drill",
+  "name": "Black Energy Deflection Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-074-black-energy-deflection-drill.svg",
+  "native_source_sha256": "994d43f741b984a4d7d9efafca89bb300e6d62fb7ca31e1fc8614438f457a987",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/585f7a307017e9a1ba7de004241b2a3bd42c32ca85cf712942f12fc025b46a6a.png",
+      "sha256": "585f7a307017e9a1ba7de004241b2a3bd42c32ca85cf712942f12fc025b46a6a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "585f7a307017e9a1ba7de004241b2a3bd42c32ca85cf712942f12fc025b46a6a",
+    "source_native_sha256": "76ff027c38dfd15265bcf2e5512d8a84cf59b342ccd0d38c639d511be8e429fc",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "You may play an energy attack from your",
+      "baseline": 1049.3,
+      "width": 798.87875,
+      "icon_inline": true
+    },
+    {
+      "text": "hand and pay its costs to stop an energy attack.",
+      "baseline": 1108.3,
+      "width": 855.491,
+      "icon_inline": false
+    },
+    {
+      "text": "Then your opponent discards 1 life card.",
+      "baseline": 1167.3,
+      "width": 710.01,
+      "icon_inline": false
+    },
+    {
+      "text": "Resolve its secondary effects,",
+      "baseline": 1226.3,
+      "width": 538.461,
+      "icon_inline": false
+    },
+    {
+      "text": "but no HIT effects or attack damage.",
+      "baseline": 1285.3,
+      "width": 651.21,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        49.1349,
+        740.0,
+        59.7303
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.726,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.526,
+        1392.65,
+        43.248,
+        33.708
+      ],
+      "rules-line-1": [
+        197.017,
+        1014.85,
+        731.737,
+        44.5954
+      ],
+      "rules-line-2": [
+        103.47,
+        1072.53,
+        852.061,
+        45.913
+      ],
+      "rules-line-3": [
+        175.867,
+        1131.53,
+        707.266,
+        45.521
+      ],
+      "rules-line-4": [
+        262.168,
+        1190.53,
+        534.665,
+        45.521
+      ],
+      "rules-line-5": [
+        205.61,
+        1250.85,
+        647.78,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          130.247,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          197.017,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          130.247,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-074-black-energy-deflection-drill.webp",
+      "before_url": "/assets/cards/trunks-074-black-energy-deflection-drill.webp?v=c83aced15c65",
+      "before_sha256": "c83aced15c65c9bdb1ad68402fe2d34102a1b931b4d371dfb6cc69f9606d2781",
+      "after_sha256": "3b5504824066219bbb1997585bd988fa88a51dbcfcb76f6c2e1fe1889ef867de",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-074-black-energy-deflection-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-074-black-energy-deflection-drill.webp?v=e3eefd6873c4",
+      "before_sha256": "e3eefd6873c4d6ce7ea557a283778f16f8f3deeef60c69332b5677f67eb26069",
+      "after_sha256": "cd2dcf03cae0202c7dfc48aaba839f7154b0231c999856ad46b47277acb5499e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 74.47665056360708,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 59.73027375201288,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.8656561413335199
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

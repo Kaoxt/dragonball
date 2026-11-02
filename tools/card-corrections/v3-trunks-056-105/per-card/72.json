@@ -1,0 +1,226 @@
+{
+  "personality_values": null,
+  "number": 72,
+  "id": "trunks-072-black-energy-web",
+  "name": "Black Energy Web",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-072-black-energy-web.svg",
+  "native_source_sha256": "5cfcedf9220634d46f4d2aefd9254ec718ef343c0d3dc7c6ebfc4ce9bf9e9ad3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9391f59659497783c8a3aeea8b45dc1141d77045e637d3af52b3fe65f67ba1ab.png",
+      "sha256": "9391f59659497783c8a3aeea8b45dc1141d77045e637d3af52b3fe65f67ba1ab"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "9391f59659497783c8a3aeea8b45dc1141d77045e637d3af52b3fe65f67ba1ab",
+    "source_native_sha256": "d475e0f60eaeb501cd0fb6de9649a7f001e712eb1c9d70bd49ad56fd8e48fa34",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards. HIT: Your opponent cannot",
+      "baseline": 1108.3,
+      "width": 857.598,
+      "icon_inline": false
+    },
+    {
+      "text": "perform energy attacks this Combat.",
+      "baseline": 1167.3,
+      "width": 655.522,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        258.619,
+        44.5,
+        541.762,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        797.449,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.248,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        102.245,
+        1072.53,
+        854.511,
+        44.884
+      ],
+      "rules-line-3": [
+        203.527,
+        1131.53,
+        651.945,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-072-black-energy-web.webp",
+      "before_url": "/assets/cards/trunks-072-black-energy-web.webp?v=31a496f119b4",
+      "before_sha256": "31a496f119b45de6d9f5506039289a6da736ab97fc66a932cae697847dd5a314",
+      "after_sha256": "6560c0ed69e41f65082b11c071bae2342796b903d23756634be318e2dea88eb4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-072-black-energy-web.webp",
+      "before_url": "/assets/cards/downloads/trunks-072-black-energy-web.webp?v=a95f927c3cb9",
+      "before_sha256": "a95f927c3cb9129b8facae563c93665af134c99a4c7fecae691a484b0aa920f4",
+      "after_sha256": "389a7c96a80a2bfa2b171ba12e9216f567b37faf65b778494e310e44f590fbf6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 541.7618453865338,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

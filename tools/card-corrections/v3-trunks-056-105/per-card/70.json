@@ -1,0 +1,238 @@
+{
+  "personality_values": null,
+  "number": 70,
+  "id": "trunks-070-orange-resistance",
+  "name": "Orange Resistance",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-070-orange-resistance.svg",
+  "native_source_sha256": "bba592c6f475140254bbddc4cb7f1b0e768998558b60c37281d6c4d64b75a586",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/04211e4191bd113e4b68f62bcbe2c8b489ab08c127048faff4348d3c90934718.png",
+      "sha256": "04211e4191bd113e4b68f62bcbe2c8b489ab08c127048faff4348d3c90934718"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "04211e4191bd113e4b68f62bcbe2c8b489ab08c127048faff4348d3c90934718",
+    "source_native_sha256": "96429af593a239d4768e3a079a359e3b3d12319eacb673fdd382edc3ba687bd6",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. In your next Attack",
+      "baseline": 1049.3,
+      "width": 771.0640000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Phase, either pass or have your Main Personality",
+      "baseline": 1108.3,
+      "width": 863.821,
+      "icon_inline": false
+    },
+    {
+      "text": "use this card's attack: Energy attack",
+      "baseline": 1167.3,
+      "width": 710.8961555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "costing 2 stages. DAMAGE: 4 life cards.",
+      "baseline": 1226.3,
+      "width": 690.0670000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        248.94,
+        44.5,
+        561.12,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        796.654,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.453,
+        1392.65,
+        41.393,
+        33.708
+      ],
+      "rules-line-1": [
+        145.119,
+        1014.61,
+        768.761,
+        44.835
+      ],
+      "rules-line-2": [
+        98.973,
+        1072.53,
+        861.054,
+        45.521
+      ],
+      "rules-line-3": [
+        175.375,
+        1131.53,
+        708.25,
+        45.913
+      ],
+      "rules-line-4": [
+        186.01,
+        1190.53,
+        686.98,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-3",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 20,
+        "previous_visible_bounds": [
+          583.932,
+          1133.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          638.527,
+          1133.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          583.932,
+          1133.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-070-orange-resistance.webp",
+      "before_url": "/assets/cards/trunks-070-orange-resistance.webp?v=2d475d165062",
+      "before_sha256": "2d475d16506242c4bef1e9fce573149ee2b9ed4c409975fa194c4ac1fac1e489",
+      "after_sha256": "ac94bd051e5b9bbe0ddff72a135eb2609487cdd03676b7712d389564eb647b46",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-070-orange-resistance.webp",
+      "before_url": "/assets/cards/downloads/trunks-070-orange-resistance.webp?v=2c702ce14c7b",
+      "before_sha256": "2c702ce14c7be864fbda34a399e326fa5a3eba9fd3042da0a950866eea1431ae",
+      "after_sha256": "00c2d3fb1e3acc2ad346dc6557e4ec1664f02c310c8fe2740d6dc0f8d9ac9752",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 561.1197007481297,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

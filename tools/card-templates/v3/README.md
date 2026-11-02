@@ -124,3 +124,12 @@ The next 50 cards use current V3 in `trunks-006-055/`, with per-card rules, orig
 All cards retain fixed native text, one effect icon maximum and the saga/rarity-number footer centers (211.75,1409.5)/(847.25,1409.5), with a 12.2-unit inner gap. #25 retains approved frontal Porunga at unchanged scale and color, with a single one-star category orb; its rules now correctly return the top **2** discard-pile cards, as printed. #40 retains its corrected crop; #52 retains its isolated open-mouth patch. #41 starts two-star Uncommon rarity. No Mastery cards occur here; use the approved source in `references/mastery-v3.md` when reaching them.
 
 Run `build_trunks_006_055.py --retained <retained-source-directory>` and `verify_trunks_006_055.py` for this batch. The original source range 001–010 and current Porunga inputs remain in the preceding Trunks source directory; editable masters point only to portable content-addressed assets after composition. Historical releases remain immutable.
+
+
+## Trunks Saga 056–105
+
+`trunks-056-105/` contains the next 50 native V3 masters. Evidence in `../../card-corrections/v3-trunks-056-105/` retains originals, the current attached CRD, individual artwork observations, native geometry and export hashes. All 50 retain two-star Uncommon rarity. Namek Dragon Balls #79/#80 keep frontal Porunga and separate three/four-star category orbs. The six Villains #100–105 retain independently checked Level/PUR/stages, red corners, scarlet middle bars and fixed native labels.
+
+Preserve the earlier artwork corrections to #58 (victim behind impact) and #89 (Goku hand). The common art mapping adds no crop or zoom; Dragon Ball full-art colors and scale remain unchanged. Title ink clearance is measured before rendering. Footer centers remain (211.75,1409.5) and (847.25,1409.5), with a 12.2-unit ball/number gap.
+
+Run `build_trunks_056_105.py --retained <retained-source-directory>` and `verify_trunks_056_105.py`. The 031–080 archive remains in the preceding batch directory; 081–130 is the new retained input. Source archives are converted to portable content-addressed assets. No Masteries occur in this batch; the approved future Mastery source remains in `references/mastery-v3.md`.

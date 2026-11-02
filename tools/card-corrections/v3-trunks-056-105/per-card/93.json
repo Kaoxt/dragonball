@@ -1,0 +1,184 @@
+{
+  "personality_values": null,
+  "number": 93,
+  "id": "trunks-093-trunks-stands-ready",
+  "name": "Trunks' Stands Ready",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-093-trunks-stands-ready.svg",
+  "native_source_sha256": "81664cef35495dcb20f205fd2b9022c3c3814f66c45f9bbc56310526a8bb463f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a73769d567a34d399f4641ece7e249ca3f4e001806b80a9764bb4b9dcf7aa632.png",
+      "sha256": "a73769d567a34d399f4641ece7e249ca3f4e001806b80a9764bb4b9dcf7aa632"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "a73769d567a34d399f4641ece7e249ca3f4e001806b80a9764bb4b9dcf7aa632",
+    "source_native_sha256": "25cfdc0254dc2ea5bc386bb06385a153daa5f483794b7e1263c0e7a4948a1bae",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: All Constant Combat Powers stop working",
+      "baseline": 1049.3,
+      "width": 888.566,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of this Combat. Banish after use.",
+      "baseline": 1108.3,
+      "width": 791.3500000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        204.288,
+        44.5,
+        650.424,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        87.079,
+        1013.53,
+        884.842,
+        45.913
+      ],
+      "rules-line-2": [
+        135.05,
+        1072.53,
+        788.9,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-093-trunks-stands-ready.webp",
+      "before_url": "/assets/cards/trunks-093-trunks-stands-ready.webp?v=caffb57d53e7",
+      "before_sha256": "caffb57d53e7e165761f2f36a569f3b526b500c3794fbca9344ab9a6ab5e8ce9",
+      "after_sha256": "eea256161d73575056e46bf133be831980175e77f04891b3291850c014ac42d0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-093-trunks-stands-ready.webp",
+      "before_url": "/assets/cards/downloads/trunks-093-trunks-stands-ready.webp?v=b58353c85c5a",
+      "before_sha256": "b58353c85c5a218ed9e227c493a967dcdb620d624195549be5979111057d1fcf",
+      "after_sha256": "92f5838617bfe2d8edf0a114a9c71b8e1d173ac65aafa5714055591be8068a05",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 650.423940149626,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "personality_values": null,
+  "number": 61,
+  "id": "trunks-061-namekian-energy-drill",
+  "name": "Namekian Energy Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-061-namekian-energy-drill.svg",
+  "native_source_sha256": "6f08d9b6c4d7f1275dcf56941e153705039b9d355501ecc544684322f94c1713",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ee607bd0d866fca5531a7c55e6140184ab78912ee658a155ab5675005780ae39.png",
+      "sha256": "ee607bd0d866fca5531a7c55e6140184ab78912ee658a155ab5675005780ae39"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "ee607bd0d866fca5531a7c55e6140184ab78912ee658a155ab5675005780ae39",
+    "source_native_sha256": "99e1a2be302a9c287fd8c89b0e3bc257c3a5e6253d612b332c0d1ca106e6d464",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "After each of your successful energy attacks,",
+      "baseline": 1049.3,
+      "width": 878.8957500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "you may discard 1 card from your hand and",
+      "baseline": 1108.3,
+      "width": 764.988,
+      "icon_inline": false
+    },
+    {
+      "text": "shuffle it into your Life Deck, then draw 1 card.",
+      "baseline": 1167.3,
+      "width": 827.2180000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        198.997,
+        44.5,
+        661.006,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        799.966,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.766,
+        1392.65,
+        34.768,
+        33.708
+      ],
+      "rules-line-1": [
+        157.124,
+        1014.85,
+        811.004,
+        44.5954
+      ],
+      "rules-line-2": [
+        148.255,
+        1072.53,
+        762.489,
+        45.521
+      ],
+      "rules-line-3": [
+        117.263,
+        1131.53,
+        824.474,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.8722,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          157.124,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.8722,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-061-namekian-energy-drill.webp",
+      "before_url": "/assets/cards/trunks-061-namekian-energy-drill.webp?v=250c4d24f6d3",
+      "before_sha256": "250c4d24f6d3b4b6a5040aafaa34a0ed01c9e17b1b2beb6be5dd602d2bf22179",
+      "after_sha256": "92dff1f3e466b0f0614de0141f0c28d351f4d968675a29172a8133a35944a7dc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-061-namekian-energy-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-061-namekian-energy-drill.webp?v=e52b051292f3",
+      "before_sha256": "e52b051292f38212371c944287e5dbdbd6ef4b437d402f597bfa52f43bce25c3",
+      "after_sha256": "08be8c0f4d1676617c7557e40251d2c40e1b72fdbb243396ad602ad68f88c463",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 661.0062344139652,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

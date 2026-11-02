@@ -1,0 +1,238 @@
+{
+  "personality_values": null,
+  "number": 89,
+  "id": "trunks-089-trunks-sword-position-3",
+  "name": "Trunks' Sword Position 3",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-089-trunks-sword-position-3.svg",
+  "native_source_sha256": "8a838b235b56920f4eee110e2e9b2f2446efe6d088537aad667802bfea23378b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/885c0972a5aebcf3fa9c4badfc63f200a46ee091ea8a7d66ee1a842e3b43372c.png",
+      "sha256": "885c0972a5aebcf3fa9c4badfc63f200a46ee091ea8a7d66ee1a842e3b43372c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": true,
+    "mode": "retained approved illustration",
+    "source_sha256": "885c0972a5aebcf3fa9c4badfc63f200a46ee091ea8a7d66ee1a842e3b43372c",
+    "source_native_sha256": "3eaf8b832f572cfde98ebdc602eec6162c25f53c1bb3b53e9dd7c2bc2b96196b",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: Place a card from your",
+      "baseline": 1108.3,
+      "width": 872.739,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile on top of your Life Deck.",
+      "baseline": 1167.3,
+      "width": 650.72,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        156.969,
+        50.2213,
+        745.062,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        795.435,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.235,
+        1392.65,
+        43.831,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "rules-line-2": [
+        94.3947,
+        1072.53,
+        870.211,
+        45.521
+      ],
+      "rules-line-3": [
+        205.683,
+        1131.53,
+        647.633,
+        45.521
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-089-trunks-sword-position-3.webp",
+      "before_url": "/assets/cards/trunks-089-trunks-sword-position-3.webp?v=01c2af3305ff",
+      "before_sha256": "01c2af3305ff7a3e0971d48a90a397feb7650b49802a4c4639e59b06a8bcec05",
+      "after_sha256": "7d5af25997e1db09b76f49a66c4792c89a83a5a77fefaa7adfcabf3ae574a10f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-089-trunks-sword-position-3.webp",
+      "before_url": "/assets/cards/downloads/trunks-089-trunks-sword-position-3.webp?v=4dc9ada9902d",
+      "before_sha256": "4dc9ada9902dbdbcdf54e0f561f11c18446640991494a9b87c84de37f50d0c6e",
+      "after_sha256": "d0359062563f54da1cffe87ae0c16db21b94c1b5a6764431aa1b9ef73c47d874",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 745.062344139651,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

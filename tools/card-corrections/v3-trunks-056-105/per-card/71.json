@@ -1,0 +1,226 @@
+{
+  "personality_values": null,
+  "number": 71,
+  "id": "trunks-071-orange-special-beam-cannon-drill",
+  "name": "Orange Special Beam Cannon Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-071-orange-special-beam-cannon-drill.svg",
+  "native_source_sha256": "10c8045ccaa55358579f8d7d5c7d392e446c3c7d27fb8d981ef7eb74ea3ff700",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f6505c28ebe0b99e8fd0a6dcc949aacd00542912d678b8719848789099ef20dc.png",
+      "sha256": "f6505c28ebe0b99e8fd0a6dcc949aacd00542912d678b8719848789099ef20dc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "f6505c28ebe0b99e8fd0a6dcc949aacd00542912d678b8719848789099ef20dc",
+    "source_native_sha256": "d98f7578130648de2cd9df9434260b3c8b18c38e9f19b67edbbb520f09ab060d",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Once per Combat.) When an energy attack",
+      "baseline": 1049.3,
+      "width": 831.31175,
+      "icon_inline": true
+    },
+    {
+      "text": "hits you, you may perform the same",
+      "baseline": 1108.3,
+      "width": 638.8620000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack in your next Attack Phase.",
+      "baseline": 1167.3,
+      "width": 725.249,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        53.2209,
+        760.0,
+        51.5581
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        801.238,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        861.038,
+        1392.65,
+        32.224,
+        33.708
+      ],
+      "rules-line-1": [
+        114.359,
+        1012.11,
+        830.283,
+        47.334
+      ],
+      "rules-line-2": [
+        211.661,
+        1072.53,
+        635.677,
+        45.521
+      ],
+      "rules-line-3": [
+        168.419,
+        1131.53,
+        722.162,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          469.604,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          536.177,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          469.604,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-071-orange-special-beam-cannon-drill.webp",
+      "before_url": "/assets/cards/trunks-071-orange-special-beam-cannon-drill.webp?v=4b552288adbb",
+      "before_sha256": "4b552288adbb02cd2a4fae36e9d19d3f7bbb37f255c8f2e67270b64a959b3f11",
+      "after_sha256": "b6c7cfc8237f12014e832599c243bdf60ffcbcee79fddca24ef3cccbb955e7fd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-071-orange-special-beam-cannon-drill.webp",
+      "before_url": "/assets/cards/downloads/trunks-071-orange-special-beam-cannon-drill.webp?v=1e233e85c22f",
+      "before_sha256": "1e233e85c22f88ed376557a4a97bfcdc9b177b341ecb4523ad079fd202b734ac",
+      "after_sha256": "181584143b96c4ab6247652b9e1f85c46c8617bd0131a16ce16ce2f01ead4161",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 64.28692268651666,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 51.55811199458636,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.7472190144142951
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

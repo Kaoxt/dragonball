@@ -10,7 +10,7 @@ const base='tools/card-templates/v3/';
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
 const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
-const rows=['saiyan-001-050','saiyan-051-100','saiyan-101-150','saiyan-151-170','saiyan-171-220','saiyan-221-250-promos','frieza-001-010','frieza-011-060','frieza-051-100','frieza-101-125-promos','trunks-001-005','trunks-006-055'].flatMap(b=>json(`tools/card-corrections/v3-${b}/audit.json`));
+const rows=['saiyan-001-050','saiyan-051-100','saiyan-101-150','saiyan-151-170','saiyan-171-220','saiyan-221-250-promos','frieza-001-010','frieza-011-060','frieza-051-100','frieza-101-125-promos','trunks-001-005','trunks-006-055','trunks-056-105'].flatMap(b=>json(`tools/card-corrections/v3-${b}/audit.json`));
 const attrs=tag=>Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map(m=>[m[1],m[2]]).filter(([k])=>!k.startsWith('data-')&&!k.startsWith('xmlns')));
 function category(svg){
  const match=svg.match(/<((?:\w+:)?g)\b[^>]*\bid="card-category"[^>]*>[\s\S]*?<\/\1>/);
@@ -18,9 +18,9 @@ function category(svg){
  return {group:attrs(match[0].slice(0,match[0].indexOf('>')+1)),paths:[...match[0].matchAll(/<(?:\w+:)?path\b[^>]*>/g)].map(m=>attrs(m[0]))};
 }
 
-test('all 448 V3 category labels use the retained fixed native text SVGs',()=>{
+test('all 498 V3 category labels use the retained fixed native text SVGs',()=>{
  const components=json(base+'assets/text/categories/manifest.json');
- assert.equal(rows.length,448);
+ assert.equal(rows.length,498);
  for(const row of rows){
   const actual=category(read(row.native_source_path));
   const spec=components[actual.group['aria-label']];assert.ok(spec,row.id);

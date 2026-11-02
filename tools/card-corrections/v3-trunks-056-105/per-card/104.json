@@ -1,0 +1,310 @@
+{
+  "personality_values": {
+    "level": 2,
+    "pur": 1,
+    "stages": [
+      125000,
+      120000,
+      115000,
+      110000,
+      105000,
+      100000,
+      95000,
+      90000,
+      85000,
+      80000,
+      0
+    ]
+  },
+  "number": 104,
+  "id": "trunks-104-jeice-with-style",
+  "name": "Jeice with Style",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-104-jeice-with-style.svg",
+  "native_source_sha256": "21daa3298bb862377d6eba5149c888fc2777b0d69dad6008b16494d252568520",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/50fec88144b99c6266c92b2f2129eb42c22bc4fd6b377498ec2ac35ef48e47b3.png",
+      "sha256": "50fec88144b99c6266c92b2f2129eb42c22bc4fd6b377498ec2ac35ef48e47b3"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "50fec88144b99c6266c92b2f2129eb42c22bc4fd6b377498ec2ac35ef48e47b3",
+    "source_native_sha256": "d124445d811b94591764c51d2d6d32a2434c74979fb170cebdc90ba6741b7845",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "POWER: If Jeice performs 2 successful energy",
+      "baseline": 1049.3,
+      "width": 821.289,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks in one Combat, at the end of that Combat",
+      "baseline": 1108.3,
+      "width": 869.7989999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "you may search your Life Deck for an Ally",
+      "baseline": 1167.3,
+      "width": 737.2049999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "and put it in play at 3 stages above 0.",
+      "baseline": 1226.3,
+      "width": 662.3820000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        899.386,
+        160.009,
+        131.614,
+        38.269
+      ],
+      "power-stage-value-1": [
+        898.7,
+        224.691,
+        132.3,
+        38.269
+      ],
+      "power-stage-value-2": [
+        905.511,
+        289.373,
+        125.489,
+        38.269
+      ],
+      "power-stage-value-3": [
+        904.825,
+        354.054,
+        126.175,
+        38.269
+      ],
+      "power-stage-value-4": [
+        897.23,
+        418.736,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-5": [
+        896.544,
+        483.418,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-6": [
+        912.567,
+        548.1,
+        118.433,
+        38.269
+      ],
+      "power-stage-value-7": [
+        911.881,
+        612.782,
+        119.119,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.518,
+        677.463,
+        118.482,
+        38.269
+      ],
+      "power-stage-value-9": [
+        911.832,
+        742.145,
+        119.168,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        290.022,
+        44.5,
+        478.956,
+        69.0
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        786.001,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.8,
+        1392.65,
+        62.699,
+        33.708
+      ],
+      "rules-line-1": [
+        120.239,
+        1013.53,
+        818.522,
+        45.913
+      ],
+      "rules-line-2": [
+        95.6295,
+        1072.53,
+        867.741,
+        40.572
+      ],
+      "rules-line-3": [
+        161.546,
+        1131.53,
+        735.908,
+        45.521
+      ],
+      "rules-line-4": [
+        199.656,
+        1190.53,
+        659.687,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-104-jeice-with-style.webp",
+      "before_url": "/assets/cards/trunks-104-jeice-with-style.webp?v=cf734a39f025",
+      "before_sha256": "cf734a39f02523afcb8ccf0020827afe2af588df75dabe58521d9dce7369dff0",
+      "after_sha256": "383799d71affece7f40f0782db401402dc67499fafe0b2c2f60cf008812945fa",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-104-jeice-with-style.webp",
+      "before_url": "/assets/cards/downloads/trunks-104-jeice-with-style.webp?v=2208f5cc3b14",
+      "before_sha256": "2208f5cc3b14b73a3f6c4f6d3b9520a16df4fcf8baf104933118f850b4f1f2de",
+      "after_sha256": "3824d24580634c60aa79a27220d072c823045e7610b6c5ff281abc93a824fbba",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 478.95635910224445,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

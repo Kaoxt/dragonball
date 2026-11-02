@@ -1,0 +1,328 @@
+{
+  "personality_values": {
+    "level": 3,
+    "pur": 2,
+    "stages": [
+      150000,
+      143000,
+      136000,
+      129000,
+      122000,
+      115000,
+      108000,
+      101000,
+      94000,
+      87000,
+      0
+    ]
+  },
+  "number": 105,
+  "id": "trunks-105-jeice-attacks",
+  "name": "Jeice Attacks",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-105-jeice-attacks.svg",
+  "native_source_sha256": "82d760c1673069c4afa5a0c0d1c28e7e75d2d404a0c71571f98af3ecfbd6db81",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/928bf2093b5dca3bf73e16dad8de8848e1ac520858f5e8cbdf7d1e861992fb76.png",
+      "sha256": "928bf2093b5dca3bf73e16dad8de8848e1ac520858f5e8cbdf7d1e861992fb76"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "928bf2093b5dca3bf73e16dad8de8848e1ac520858f5e8cbdf7d1e861992fb76",
+    "source_native_sha256": "afd09d567d968937a86671ed2cfa1d8fdb237c24bccd2d4467b1b2431eaad195",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "After Jeice performs a successful physical",
+      "baseline": 1049.3,
+      "width": 829.60175,
+      "icon_inline": true
+    },
+    {
+      "text": "attack, he need not be at 0 or 1 stage above 0",
+      "baseline": 1108.3,
+      "width": 803.6,
+      "icon_inline": false
+    },
+    {
+      "text": "for an Ally to use its power.",
+      "baseline": 1167.3,
+      "width": 485.88400000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        897.23,
+        160.009,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-1": [
+        898.21,
+        224.691,
+        132.79,
+        38.269
+      ],
+      "power-stage-value-2": [
+        898.259,
+        289.373,
+        132.741,
+        38.269
+      ],
+      "power-stage-value-3": [
+        899.141,
+        354.054,
+        131.859,
+        38.269
+      ],
+      "power-stage-value-4": [
+        900.856,
+        418.736,
+        130.144,
+        38.269
+      ],
+      "power-stage-value-5": [
+        905.511,
+        483.418,
+        125.489,
+        38.269
+      ],
+      "power-stage-value-6": [
+        896.642,
+        548.1,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-7": [
+        904.825,
+        612.782,
+        126.175,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.175,
+        677.463,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-9": [
+        916.095,
+        742.145,
+        114.905,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        325.296,
+        50.2213,
+        408.408,
+        57.5574
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        201.125,
+        891.391,
+        656.749,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        787.061,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.861,
+        1392.65,
+        60.579,
+        33.708
+      ],
+      "rules-line-1": [
+        181.784,
+        1013.53,
+        761.684,
+        45.521
+      ],
+      "rules-line-2": [
+        128.999,
+        1073.46,
+        801.003,
+        44.982
+      ],
+      "rules-line-3": [
+        287.783,
+        1131.53,
+        483.434,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          115.532,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          181.784,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          115.532,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-105-jeice-attacks.webp",
+      "before_url": "/assets/cards/trunks-105-jeice-attacks.webp?v=1656acc7ebe9",
+      "before_sha256": "1656acc7ebe9bf5379b55f3e51fa09809d37ff2ce8a0c911b1d6e704ba9a49e0",
+      "after_sha256": "3665013df54d1b0ad46b03e3aa0d32a349ec4d8f49dae722e61decf3a32de806",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-105-jeice-attacks.webp",
+      "before_url": "/assets/cards/downloads/trunks-105-jeice-attacks.webp?v=8794e5f3fe82",
+      "before_sha256": "8794e5f3fe82dec51299fe3e84fbb3941a09520f24038d546610a393ee2ae717",
+      "after_sha256": "e4ca421ed46ae24384960676a7bf49f3b6bc744ccdf8f259acd2157740d2f093",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "all_styles": false,
+    "report": false
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 408.4077306733168,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 700.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN PERSONALITY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        656.74935,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

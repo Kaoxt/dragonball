@@ -1,0 +1,208 @@
+{
+  "personality_values": null,
+  "number": 91,
+  "id": "trunks-091-expectant-trunks",
+  "name": "Expectant Trunks",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-091-expectant-trunks.svg",
+  "native_source_sha256": "781050205386f6552aca7f11aa58024977c92fad429db2b8071cf5d2e86b4319",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0830a21850dddd22992a57c3e2e5f1280cfa6407c3e98627e7e20788c68a19c8.png",
+      "sha256": "0830a21850dddd22992a57c3e2e5f1280cfa6407c3e98627e7e20788c68a19c8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "earlier_correction_retained": false,
+    "mode": "retained approved illustration",
+    "source_sha256": "0830a21850dddd22992a57c3e2e5f1280cfa6407c3e98627e7e20788c68a19c8",
+    "source_native_sha256": "79926944e61a09362a9e18e5dc57a3de4465f47e7ac9800fe16ae2983c41cd2f",
+    "horizontal_source_crop": 0,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: When entering",
+      "baseline": 1049.3,
+      "width": 735.098,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat, search your discard pile for an Event,",
+      "baseline": 1108.3,
+      "width": 821.338,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical Combat, or Energy Combat card.",
+      "baseline": 1167.3,
+      "width": 732.011,
+      "icon_inline": false
+    },
+    {
+      "text": "Reveal it to your opponent and put it in your hand.",
+      "baseline": 1226.3,
+      "width": 884.8419999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        271.094,
+        44.5,
+        516.812,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        184.864,
+        1382.5,
+        53.7722,
+        54.0
+      ],
+      "footer-rarity": [
+        799.807,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.607,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        162.784,
+        1012.11,
+        733.432,
+        47.334
+      ],
+      "rules-line-2": [
+        120.484,
+        1072.53,
+        818.032,
+        45.521
+      ],
+      "rules-line-3": [
+        165.332,
+        1131.53,
+        728.336,
+        45.913
+      ],
+      "rules-line-4": [
+        88.941,
+        1190.53,
+        881.118,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/trunks-091-expectant-trunks.webp",
+      "before_url": "/assets/cards/trunks-091-expectant-trunks.webp?v=2ee0aa2d0513",
+      "before_sha256": "2ee0aa2d0513276df34faf5fcad4971124a625ece6c12614c3629a13e8a1d36f",
+      "after_sha256": "17495fabaf9674f1bd45ee36a6d0803f201dd7c1334844fc9d7e32a080764d10",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/trunks-091-expectant-trunks.webp",
+      "before_url": "/assets/cards/downloads/trunks-091-expectant-trunks.webp?v=778caf05d6c3",
+      "before_sha256": "778caf05d6c3afdcf1aeb950405a747be9c74c45ad9b18238e7b9335d574edce",
+      "after_sha256": "1352bea7e304f0dae20efafecb57e3a071036252bd132177c3ee64f45377bd86",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "all_styles": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 516.8117206982545,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "background_gain": 1.2,
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
