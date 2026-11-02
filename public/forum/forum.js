@@ -81,11 +81,11 @@
   function forumNavigation(d,category=null,title='',section=d.section){
     const forum=category&&(d.categories||[]).find(c=>c.id===category.id)||category;
     section=section||(d.sections||[]).find(s=>s.id===forum?.section_id);
-    const crumbs=[{name:'Forums',href:'/forums/'}];
+    const crumbs=[{name:'Home',href:'/forums/'}];
     if(section)crumbs.push({name:section.name,href:'#section/'+section.id});
     if(forum)crumbs.push({name:forum.name,href:'#list?category='+forum.id});
     if(title)crumbs.push({name:title});
-    return `<div class="forum-navigation-row"><nav class="forum-breadcrumbs" aria-label="Forum breadcrumb">${crumbs.map((c,i)=>`${i?'<span aria-hidden="true">/</span>':''}${i===crumbs.length-1?`<span aria-current="page">${esc(c.name)}</span>`:`<a href="${c.href}">${esc(c.name)}</a>`}`).join('')}</nav><button type="button" class="forum-search-toggle" aria-label="Search forums" aria-haspopup="dialog">${searchIcon}</button></div>`;
+    return `<div class="forum-navigation-row"><nav class="forum-breadcrumbs" aria-label="Forum breadcrumb">${crumbs.map((c,i)=>`${i?'<span aria-hidden="true">&gt;</span>':''}${i===crumbs.length-1?`<span aria-current="page">${esc(c.name)}</span>`:`<a href="${c.href}">${esc(c.name)}</a>`}`).join('')}</nav><button type="button" class="forum-search-toggle" aria-label="Search forums" aria-haspopup="dialog">${searchIcon}</button></div>`;
   }
   function bindForumSearch(d,categoryId=''){
     root.querySelector('.forum-search-toggle')?.addEventListener('click',()=>{

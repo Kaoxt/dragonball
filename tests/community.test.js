@@ -495,7 +495,14 @@ test('only admins can manage sections; forum moves keep topics and hierarchy int
  const {sectionId,...legacyCategory}=category;
  assert.equal((await f.forum('owner',legacyCategory)).status,200);
  assert.equal((await f.forum(null,null,{view:'list',category:1})).data.categories.find(c=>c.id===1).section_id,id);
- assert.equal((await f.forum('owner',{...category,id:null,name:'New forum'})).status,200);
+ assert.equal((await f.forum('owner',{...category,id:null,name:'New forum',position:30})).status,200);
+ assert.equal((await f.forum('owner',{...category,id:2,name:'Decks',position:-20})).status,200);
+ let ordered=(await f.forum(null,null,{view:'section',id})).data.categories;
+ assert.deepEqual(ordered.map(c=>c.name),['Decks','Gameplay','New forum']);
+ assert.equal((await f.forum('owner',{...category,position:-30})).status,200);
+ ordered=(await f.forum(null,null,{view:'section',id})).data.categories;
+ assert.deepEqual(ordered.map(c=>c.name),['Gameplay','Decks','New forum']);
+ assert.deepEqual((await f.forum('owner',null,{view:'admin'})).data.sections.map(s=>s.id),[1,id]);
  assert.equal((await f.forum('owner',{...category,id:4,name:'Announcements',readOnly:false})).status,200);
  assert.equal((await f.forum('reader',{...topic,categoryId:4})).status,403);
  assert.equal((await f.forum('owner',{...category,archived:true})).status,200);

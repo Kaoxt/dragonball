@@ -31,12 +31,13 @@ test('forum index groups forums by section order and escapes heading content',as
 test('section, forum and topic breadcrumbs resolve current parent names and stable links',async()=>{
  const section=await render('#section/2',{section:sections[0],categories:[categories[0]]});
  assert.equal(section.requests[0].view,'section');assert.equal(section.requests[0].id,'2');
- assert.match(breadcrumb(section.html),/href="\/forums\/".*Forums.*aria-current="page">TCG &amp; Games/);
+ assert.match(breadcrumb(section.html),/href="\/forums\/".*Home.*aria-current="page">TCG &amp; Games/);
  const forum=await render('#list?category=1');
  assert.match(breadcrumb(forum.html),/href="#section\/2">TCG &amp; Games.*aria-current="page">Gameplay/);
  const topic={id:8,title:'A topic <title>',category_id:1,category_name:'Gameplay',member_id:'member',body:'A post',created_at:'2026-11-02',reply_count:0};
  const detail=await render('#topic/8',{topic,replies:[]});
- assert.match(breadcrumb(detail.html),/Forums.*href="#section\/2">TCG &amp; Games.*href="#list\?category=1">Gameplay.*aria-current="page">A topic &lt;title&gt;/);
+ assert.match(breadcrumb(detail.html),/Home.*href="#section\/2">TCG &amp; Games.*href="#list\?category=1">Gameplay.*aria-current="page">A topic &lt;title&gt;/);
+ assert.equal((breadcrumb(detail.html).match(/aria-hidden="true">&gt;<\/span>/g)||[]).length,3);
  const moved=await render('#topic/8',{topic,replies:[],categories:[{...categories[0],section_id:1},categories[1]]});
  assert.match(breadcrumb(moved.html),/href="#section\/1">Community/);
  assert.doesNotMatch(breadcrumb(moved.html),/TCG/);
