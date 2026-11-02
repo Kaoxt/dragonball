@@ -2,6 +2,12 @@
 
 For future banner captions, taglines and secondary headings, read `tools/banner-templates/secondary-text/README.md` and use its reusable renderer and `style.json`. The approved standard is actual Flipside at its original weight, with solid lower letter strokes and a soft shadow generated from the exact current words. Never add synthetic bold, fade the letter bottoms, or reuse an old phrase's shadow. Preserve unrelated artwork, logos, layout and pixels. The approved reference is the Gameplay Discussion fitted-shadow revision; primary logo typography remains separate.
 
+## Personality middle labels — November 2, 2026
+
+All 134 current V3 Personalities (49 Saiyan, 24 Frieza, 61 Trunks, including Hi-Tech) use only `HERO` or `VILLAIN` in the middle bar. Preserve Michroma 38.4, four-unit tracking, weight, and visible center (529.5,908.5). Use the fixed `hero.svg` / `villain.svg` components. `middle_label_v3.py` maps former long labels to these components; gameplay category data remains unchanged.
+
+The label-only revision is recorded in `tools/card-corrections/v3-personality-short-labels/`. Both existing export sizes are independently patched losslessly, with zero changed pixels outside the old/new label ink and antialias footprint. Artwork, titles, stages, rules, colors, PUR and footers remain unchanged. Preserve historical artwork/footer audits and follow the current audit row's `category_label_revision` before/after hashes. Do not rerender whole published cards for this repair. Verify idempotence with `python3 tools/card-templates/v3/patch_personality_labels.py <work> --apply`; current files remain byte-identical.
+
 # Card production
 
 Trunks Saga 156–200 and P1–P5 now use current V3; evidence is in `tools/card-corrections/v3-trunks-156-200-p1-p5/`. Preserve the separate approved #159 hand/wrist/cuff layer, #166 close framing, #192 reaching pose and corrected top stages 1,200,000/1,100,000, and #195 white armor/blue sleeves. New native masks retain expression repairs on #156/#165/#200, distant onlookers on #172, sky repairs on #185/#186/#189/P2/P3/P4, and Hi-Tech foreground/costume repairs on #191/#196/#197/#199. Keep all 43 original Personality value sets, the bold 4/5 numeral outlines, six-star rarity on #156–160, four stars on #161–200, and two stars on P1–P5. The CRD timing for Goku #164/#165 and separate shield/constant text on #166 are recorded. Both lossless exports and all repair masks are independently verified; original-scan limitations remain per card.

@@ -1,3 +1,4 @@
+import {beforeCategoryNative, beforeCategoryExport, currentCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -24,14 +25,15 @@ for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-2
   const row=audit.find(r=>r.id===c.id),card=catalog.find(r=>r.id===c.id);
   assert.deepEqual(row.footer_spacing_revision,c);assert.ok(c.helper_idempotent&&c.unrelated_native_elements_unchanged);
   near(c.saga_center_x,211.75,.002);near(c.right_group_center_x,847.25,.002);
-  assert.equal(hash(path.join(root,c.native_source_path)),c.after_native_sha256);
-  assert.equal(row.native_source_sha256,c.after_native_sha256);
+  assert.equal(hash(path.join(root,c.native_source_path)),row.native_source_sha256);
+  assert.equal(beforeCategoryNative(row),c.after_native_sha256);
   for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256);
   const svg=fs.readFileSync(path.join(root,c.native_source_path),'utf8');
   assert.match(svg,/data-footer-layout="mirrored-side-group-centers-v1"/);
   for(const e of c.exports){
-   assert.equal(hash(path.join(root,e.path)),e.after_sha256);
-   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.equal(beforeCategoryExport(row,e),e.after_sha256);
+   const current=currentCategoryExport(row,e);assert.equal(hash(path.join(root,e.path)),current.after_sha256);
+   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+current.after_sha256.slice(0,12));
    assert.ok(e.changed_pixels>0&&e.lossless_round_trip);
    assert.equal(e.pixels_changed_outside_footer_ink_footprint,0);assert.equal(e.pixels_changed_above_footer,0);
    assert.ok(e.old_render_max_channel_difference<=3);
@@ -51,7 +53,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
  for(const c of selected){
   const row=rows.find(r=>r.id===c.id),check=checks.find(r=>r.number===Number(c.number));
   const source=path.join(root,row.native_source_path),svg=fs.readFileSync(source,'utf8');
-  assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));assert.ok(svg.includes('data-set="Frieza Saga"'));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,cards.find(r=>r.id===c.id).modern_rules);
   assert.ok(row.rules.length<=5);assert.equal(row.power_icon,'attack');assert.equal(row.native_geometry.icons.length,1);
@@ -65,7 +67,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
    assert.equal(hash(path.join(root,e.path)),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
    const original=check.exports.find(x=>x.path===e.path);assert.ok(original.decoded_pixels_match_render);
-   assert.equal(original.sha256,row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? e.after_sha256);
+   assert.equal(original.sha256,row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? beforeCategoryExport(row,e));
   }
  }
  assert.ok(rows.find(r=>r.number===4).artwork.current_approved_background_retained);
@@ -108,9 +110,9 @@ test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs
  const four=pathData(donor,'concept-pur-number');
  for(const row of rows){
   const c=cards.find(c=>c.id===row.id),check=checks.find(c=>c.number===row.number);
-  assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
-  for(const e of check.exports){assert.equal(row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? hash(path.join(root,e.path)),e.sha256);assert.ok(e.decoded_pixels_match_render);}
+  for(const e of check.exports){assert.equal(row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? beforeCategoryExport(row,e),e.sha256);assert.ok(e.decoded_pixels_match_render);}
   const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);assert.equal(hash(path.join(root,a.original_scan)),a.original_scan_sha256);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes(`data-star-count="${c.rarity_stars}"`));
@@ -133,14 +135,14 @@ test('scarlet Villain paint and all seven Hi-Tech bars preserve unrelated publis
  let villains=0,highTech=0;
  for(const row of audit){
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
-  if(svg.includes('aria-label="VILLAIN PERSONALITY"')){villains++;assert.match(svg,/fill="#cc2119"/);}
+  if(svg.includes('aria-label="VILLAIN"')){villains++;assert.match(svg,/fill="#cc2119"/);}
   if(row.high_tech){highTech++;assert.match(svg,/id="middle-foil-isolation"/);}
  }
  assert.equal(villains,19);assert.equal(highTech,7);
  for(const c of checks){
-  const row=audit.find(r=>r.id===c.id);assert.equal(c.after_native_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? hash(path.join(root,row.native_source_path)));
+  const row=audit.find(r=>r.id===c.id);assert.equal(c.after_native_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   assert.deepEqual(row.middle_bar_revision,c);assert.ok(c.native_components_outside_middle_unchanged);assert.ok(c.helper_idempotent);
-  for(const e of c.exports){assert.equal(e.after_sha256,row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? hash(path.join(root,e.path)));assert.equal(e.pixels_changed_outside_middle_band,0);assert.ok(e.pixels_changed>0);assert.ok(e.lossless_round_trip);assert.ok(e.old_render_max_channel_difference<=3);}
+  for(const e of c.exports){assert.equal(e.after_sha256,row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? beforeCategoryExport(row,e));assert.equal(e.pixels_changed_outside_middle_band,0);assert.ok(e.pixels_changed>0);assert.ok(e.lossless_round_trip);assert.ok(e.old_render_max_channel_difference<=3);}
  }
 });
 test('V3 titles, category labels, footer content and icons share the approved geometry',()=>{
@@ -247,11 +249,11 @@ test('all 170 V3 titles use complete visible-ink centering and preserve unrelate
   const f=c.fit;assert.ok(f.visible_width<=f.max_width+.00001&&f.max_width<=760);
   near(c.after_center[0],529.5,.00001);near(c.after_center[1],79,.00001);
   assert.equal(c.helper_idempotent,true);assert.equal(c.unrelated_native_elements_unchanged,true);
-  assert.equal(c.after_native_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(c.after_native_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   near(f.font_size,row.current_preview_revision.title_fit.font_size,.00001);
   if(!c.needs_smaller_font)near(f.font_size,f.nominal_font_size,.00001);
   else {assert.ok(f.font_size<f.nominal_font_size);near(f.visible_width,f.max_width,.00001);}
-  for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.villain_corner_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? hash(path.join(root,e.path)),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
+  for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.villain_corner_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? beforeCategoryExport(row,e),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
   if(!c.visual_change){assert.equal(c.before_native_sha256,c.after_native_sha256);continue;}
   const p=pixels.find(p=>p.id===c.id);assert.ok(p);assert.equal(p.new_title_pixels_outside_brush_contour,0);assert.ok(p.minimum_brush_clearance_native_units>=1);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));
@@ -276,10 +278,10 @@ test('Saiyan 171–220 keeps original artwork, effect types, current restriction
  assert.equal(checks.length,50);assert.equal(artwork.length,50);
  for(const row of rows){
   const check=checks.find(c=>c.number===row.number);assert.ok(check);
-  assert.equal(check.native_source_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? row.native_source_sha256);
+  assert.equal(check.native_source_sha256,row.middle_bar_revision?.before_native_sha256 ?? row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
   assert.equal(check.title_helper_idempotent,true);
-  for(const e of check.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? hash(path.join(root,e.path)),e.sha256);assert.equal(e.decoded_pixels_match_render,true);}
+  for(const e of check.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? beforeCategoryExport(row,e),e.sha256);assert.equal(e.decoded_pixels_match_render,true);}
   const f=row.current_preview_revision.title_fit;assert.ok(f.visible_width<=f.max_width+.00001);
   assert.ok(f.max_width<=760);assert.ok(f.font_size<=f.nominal_font_size);
   const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);

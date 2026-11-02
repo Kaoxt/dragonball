@@ -46,6 +46,7 @@ def _outline_label(value):
 def label(value):
     """Reuse the retained native text component at its fixed V3 coordinates."""
     value = value.upper()
+    value = {'HERO PERSONALITY': 'HERO', 'VILLAIN PERSONALITY': 'VILLAIN'}.get(value, value)
     folder = Path(__file__).resolve().parent.parent / 'assets/text/categories'
     manifest = json.loads((folder / 'manifest.json').read_text())
     if value not in manifest:

@@ -1,3 +1,9 @@
+## Personality middle labels — November 2, 2026
+
+All 134 current V3 Personalities (49 Saiyan, 24 Frieza, 61 Trunks, including Hi-Tech) use only `HERO` or `VILLAIN` in the middle bar. Preserve Michroma 38.4, four-unit tracking, weight, and visible center (529.5,908.5). Use the fixed `hero.svg` / `villain.svg` components. `middle_label_v3.py` maps former long labels to these components; gameplay category data remains unchanged.
+
+The label-only revision is recorded in `tools/card-corrections/v3-personality-short-labels/`. Both existing export sizes are independently patched losslessly, with zero changed pixels outside the old/new label ink and antialias footprint. Artwork, titles, stages, rules, colors, PUR and footers remain unchanged. Preserve historical artwork/footer audits and follow the current audit row's `category_label_revision` before/after hashes. Do not rerender whole published cards for this repair. Verify idempotence with `python3 tools/card-templates/v3/patch_personality_labels.py <work> --apply`; current files remain byte-identical.
+
 # Dragon Ball OCG Master Templates V3
 
 ## Trunks Saga 001–005 and upcoming Mastery cards

@@ -1,3 +1,4 @@
+import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -40,7 +41,7 @@ test('the 24 previously repaired V3 Villains have four red power corners with un
  assert.deepEqual(checks.map(c=>c.id).sort(),villains.map(r=>r.id).sort());
  for(const check of checks){
   const row=rows.find(r=>r.id===check.id),card=catalog.find(c=>c.id===row.id);
-  assert.deepEqual(row.villain_corner_revision,check);assert.equal(row.footer_spacing_revision?.before_native_sha256 ?? hash(row.native_source_path),check.after_native_sha256);
+  assert.deepEqual(row.villain_corner_revision,check);assert.equal(row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row),check.after_native_sha256);
   assert.equal(hash(row.native_source_path),row.native_source_sha256);
   assert.ok(check.helper_idempotent&&check.unrelated_native_elements_unchanged&&check.all_text_and_artwork_unchanged);
   const svg=read(row.native_source_path);
@@ -51,11 +52,11 @@ test('the 24 previously repaired V3 Villains have four red power corners with un
   for(const e of check.exports){
    const current=row.exports.find(x=>x.field===e.field);
    assert.equal(hash(e.path),current.after_sha256);assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+current.after_sha256.slice(0,12));
-   assert.equal(row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? current.after_sha256,e.after_sha256);
+   assert.equal(row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? beforeCategoryExport(row,e),e.after_sha256);
    assert.ok(e.changed_pixels>0&&e.lossless_round_trip&&e.old_render_max_channel_difference<=3);
    assert.equal(e.pixels_changed_outside_corner_footprint,0);
   }
  }
- const hero=rows.find(r=>category(read(r.native_source_path)).group['aria-label']==='HERO PERSONALITY');
+ const hero=rows.find(r=>category(read(r.native_source_path)).group['aria-label']==='HERO');
  assert.match(read(hero.native_source_path),/fill="#0a4a96"/);
 });

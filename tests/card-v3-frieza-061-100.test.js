@@ -1,3 +1,4 @@
+import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -20,7 +21,7 @@ test('Frieza 61–100 preserve reviewed rules and use verified V3 sources and ex
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.templateVersion,3);assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
-  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
+  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,beforeCategoryNative(r));
   assert.doesNotMatch(read(r.native_source_path),/<(?:\w+:)?text[\s>]/);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
   assert.ok(r.rules.length<=5);assert.equal(r.native_geometry.icons.length,r.power_icon?1:0);
@@ -37,7 +38,7 @@ test('Frieza 61–100 preserve reviewed rules and use verified V3 sources and ex
   for(const e of r.exports){
    assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
-   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,e.after_sha256);assert.ok(verified.decoded_pixels_match_render);
+   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,beforeCategoryExport(r,e));assert.ok(verified.decoded_pixels_match_render);
   }
  }
 });
@@ -78,7 +79,10 @@ test('all 50 final cards have original-based visual reviews and localized correc
  const reviews=json(base+'artwork-review.json'),checks=json(base+'render-verification.json');assert.equal(reviews.length,50);
  for(const r of reviews){
   assert.ok(r.display_reviewed&&r.download_reviewed);assert.equal(hash(r.original_scan),r.original_scan_sha256);assert.ok(r.observations.length>40);
-  for(const e of r.exports)assert.equal(hash(e.path),e.sha256);
+  for(const e of r.exports){
+   const row=rows.find(x=>x.exports.some(current=>current.path===e.path));
+   assert.equal(row?.category_label_revision?beforeCategoryExport(row,e):hash(e.path),e.sha256);
+  }
  }
  for(const n of [85,87,96,97,100]){
   const p=checks.find(c=>c.number===n).localized_patch;assert.ok(p.pixels_changed>0&&p.original_raster_bytes_retained);

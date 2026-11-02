@@ -1,3 +1,4 @@
+import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -21,7 +22,7 @@ test('Trunks 106–155 use reviewed game data and retained artwork with current 
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
-  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
+  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,beforeCategoryNative(r));
   const svg=read(r.native_source_path);assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);assert.match(svg,/data-set="Trunks Saga"/);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
   assert.ok(r.rules.length<=5);assert.equal(r.native_geometry.icons.length,r.power_icon?1:0);
@@ -38,14 +39,20 @@ test('Trunks 106–155 use reviewed game data and retained artwork with current 
   for(const e of r.exports){
    assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
-   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,e.after_sha256);assert.ok(verified.decoded_pixels_match_render);
+   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,beforeCategoryExport(r,e));assert.ok(verified.decoded_pixels_match_render);
   }
  }
 });
 
 test('Trunks 106–155 preserve original values, reviewed rules, three Porunga cards and the approved Mastery family',()=>{
  const reviews=json(base+'artwork-review.json'),rules=json(base+'rules-review.json');assert.equal(reviews.length,50);assert.equal(rules.length,50);
- for(const r of reviews){assert.ok(r.display_reviewed&&r.download_reviewed);assert.equal(hash(r.original_scan),r.original_scan_sha256);assert.ok(r.observations.length>40);for(const e of r.exports)assert.equal(hash(e.path),e.sha256);}
+ for(const r of reviews){
+  assert.ok(r.display_reviewed&&r.download_reviewed);assert.equal(hash(r.original_scan),r.original_scan_sha256);assert.ok(r.observations.length>40);
+  for(const e of r.exports){
+   const row=rows.find(x=>x.exports.some(current=>current.path===e.path));assert.ok(row);
+   assert.equal(row.category_label_revision?beforeCategoryExport(row,e):hash(e.path),e.sha256);
+  }
+ }
  const value=n=>data.find(c=>c.number===n);assert.equal(value(109).pur,2);assert.equal(value(110).pur,1);
  assert.match(value(133).modern_rules,/bottom of your Life Deck/);assert.doesNotMatch(value(129).modern_rules,/Limit/);
  assert.match(value(118).modern_rules,/When entering Combat powers/);assert.match(value(140).modern_rules,/additional card during the Rejuvenation Step/);
