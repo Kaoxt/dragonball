@@ -3,6 +3,11 @@ import { API_SECURITY_HEADERS } from './security.js';
 
 export const FORUM_IMAGE_LIMIT = 500 * 1024;
 const imagePath = /^\/api\/forum\/images\/([0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})$/;
+// Owner-approved V3 artwork for the existing Build Your Next Deck news image.
+// Keep its post URL and visibility checks; retaining the upload permits rollback.
+const publishedReplacements = new Map([
+  ['58cafd4e-c156-48fc-a53d-96b3ce890d89', '/assets/news/build-your-next-deck-v3.webp'],
+]);
 
 export function forumImageRequest(request, env) {
   const path = new URL(request.url).pathname;
@@ -19,6 +24,19 @@ export function forumImageRequest(request, env) {
           UNION ALL SELECT 1 FROM forum_replies r JOIN forum_topics t ON t.id=r.topic_id
           WHERE r.hidden=0 AND t.hidden=0 AND instr(r.body,?)>0 LIMIT 1`).bind(reference, reference).first();
         if (!visible) throw new IssueError('Image not found.', 404);
+      }
+      const replacement = publishedReplacements.get(row.id);
+      if (replacement && env.ASSETS) {
+        const image = await env.ASSETS.fetch(new Request(new URL(replacement, request.url)));
+        if (image.ok) {
+          const headers = new Headers({ ...API_SECURITY_HEADERS,
+            'Content-Type': 'image/webp', 'Cache-Control': 'private, no-store',
+            'Content-Security-Policy': "default-src 'none'; sandbox",
+          });
+          const length = image.headers.get('Content-Length');
+          if (length) headers.set('Content-Length', length);
+          return new Response(image.body, { headers });
+        }
       }
       const object = await env.UPLOADS?.get('forum-images/' + row.id);
       if (!object) throw new IssueError('Image not found.', 404);

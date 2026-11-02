@@ -446,6 +446,34 @@ test('failed object storage writes remove image records and repeated uploads are
  assert.equal((await f.upload('alice')).status,429);
 });
 
+test('the approved news image serves the V3 asset only after normal visibility checks',async()=>{
+ const f=await imageFixture();await f.register('alice');
+ const imageId='58cafd4e-c156-48fc-a53d-96b3ce890d89',url='/api/forum/images/'+imageId;
+ const owner=f.env.DB.prepare('SELECT user_id FROM forum_members').first().user_id;
+ const original=Buffer.from([255,216,255,224,0,2,255,217]);
+ await f.env.UPLOADS.put('forum-images/'+imageId,original);
+ f.env.DB.prepare('INSERT INTO forum_images(id,user_id,size,created_at) VALUES(?,?,?,?)').bind(imageId,owner,original.length,new Date().toISOString()).run();
+ let assetReads=0,available=true;
+ f.env.ASSETS={async fetch(request){
+  assetReads++;assert.equal(new URL(request.url).pathname,'/assets/news/build-your-next-deck-v3.webp');
+  return available?new Response('approved-v3',{headers:{'Content-Length':'11'}}):new Response(null,{status:404});
+ }};
+ assert.equal((await f.image(url)).status,404);assert.equal(assetReads,0);
+ const id=(await f.forum('alice',{...topic,body:'![Deck]('+url+')'})).data.id;
+ const body=f.env.DB.prepare('SELECT body FROM forum_topics WHERE id=?').bind(id).first().body;
+ const response=await f.image(url);
+ assert.equal(response.status,200);assert.equal(await response.text(),'approved-v3');
+ assert.equal(response.headers.get('Content-Type'),'image/webp');
+ assert.equal(response.headers.get('Content-Length'),'11');
+ assert.equal(response.headers.get('Cache-Control'),'private, no-store');
+ assert.equal(f.env.DB.prepare('SELECT body FROM forum_topics WHERE id=?').bind(id).first().body,body);
+ available=false;
+ const fallback=await f.image(url);assert.equal(fallback.headers.get('Content-Type'),'image/jpeg');
+ assert.deepEqual(Buffer.from(await fallback.arrayBuffer()),original);
+ f.env.DB.prepare('UPDATE forum_topics SET hidden=1 WHERE id=?').bind(id).run();
+ const before=assetReads;assert.equal((await f.image(url)).status,404);assert.equal(assetReads,before);
+});
+
 test('forum sections migrate existing forums without changing IDs or later assignments',async()=>{
  const backing=storage(),db=database(backing);
  authSchema(db);
