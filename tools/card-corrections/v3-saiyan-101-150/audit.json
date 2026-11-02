@@ -979,7 +979,7 @@
     "id": "saiyan-104-chiaotzu",
     "name": "Chiaotzu",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-104-chiaotzu.svg",
-    "native_source_sha256": "db5f544ed3fde3d7718c2865a2e2fe94f35bb31b15c6d02d69f503d9083f13fe",
+    "native_source_sha256": "5eda8a3bfa2c58addb7eafd361b80fe8d6df2f0e5179843f18d332a04c8b411c",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -1225,7 +1225,7 @@
         "path": "public/assets/cards/saiyan-104-chiaotzu.webp",
         "before_url": "/assets/cards/saiyan-104-chiaotzu.webp?v=2688ace0652a",
         "before_sha256": "38dfb6bc2785d7ab13158a7e60a515905525f2dfa6ea51e011d3a713ab83b4fc",
-        "after_sha256": "9b5131b163a1267ad9bb7573c9c11c746d8fda6da58ba0b7923681d6ecd8a800",
+        "after_sha256": "6f8b5bb00407148261f17073bc5be3ae431d74e441543b27b505031698d6894c",
         "size": [
           1060,
           1484
@@ -1237,7 +1237,7 @@
         "path": "public/assets/cards/downloads/saiyan-104-chiaotzu.webp",
         "before_url": "/assets/cards/downloads/saiyan-104-chiaotzu.webp?v=6eadffab9689",
         "before_sha256": "345a80c48965f12d67dc5902dd9128a5c10b35098d3c82cd682fc4df48d20712",
-        "after_sha256": "2c86e27838dc207d538972bf5bee207b64155f256e1d90c8afd9b97de43a1618",
+        "after_sha256": "d72b018492a23315527c6949bb58544705a5005e2efb13ab911338276f1ee4cb",
         "size": [
           2120,
           2968
@@ -1484,6 +1484,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-104-chiaotzu",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-104-chiaotzu.svg",
+      "before_native_sha256": "db5f544ed3fde3d7718c2865a2e2fe94f35bb31b15c6d02d69f503d9083f13fe",
+      "after_native_sha256": "5eda8a3bfa2c58addb7eafd361b80fe8d6df2f0e5179843f18d332a04c8b411c",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-104-chiaotzu.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "9b5131b163a1267ad9bb7573c9c11c746d8fda6da58ba0b7923681d6ecd8a800",
+          "after_sha256": "6f8b5bb00407148261f17073bc5be3ae431d74e441543b27b505031698d6894c",
+          "changed_pixels": 96258,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-104-chiaotzu.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2c86e27838dc207d538972bf5bee207b64155f256e1d90c8afd9b97de43a1618",
+          "after_sha256": "d72b018492a23315527c6949bb58544705a5005e2efb13ab911338276f1ee4cb",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -1491,7 +1548,7 @@
     "id": "saiyan-105-chiaotzu",
     "name": "Chiaotzu",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-105-chiaotzu.svg",
-    "native_source_sha256": "fa6901c307c52f563d2bfbfa3589f07803824c38bc0711d2039e66cda2e1a5ee",
+    "native_source_sha256": "d095c95514a0faa67c4b495b01f67455823bb097f30aaee0b0f80f83fc4eb7aa",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -1749,7 +1806,7 @@
         "path": "public/assets/cards/saiyan-105-chiaotzu.webp",
         "before_url": "/assets/cards/saiyan-105-chiaotzu.webp?v=32ad51352377",
         "before_sha256": "02bdcb7248c3fa04e326501b1460c095966a6990dc2824905b751a33ee2fca05",
-        "after_sha256": "8e306788e879f3a38e01d29a6c968789181c8ff57c9fc4c072e5fd0a39f8cd28",
+        "after_sha256": "b60d20fcb9766fdc13f14df8b54a130e858bd5b8350a31db04672c42dc2a1ba8",
         "size": [
           1060,
           1484
@@ -1761,7 +1818,7 @@
         "path": "public/assets/cards/downloads/saiyan-105-chiaotzu.webp",
         "before_url": "/assets/cards/downloads/saiyan-105-chiaotzu.webp?v=fefabc114742",
         "before_sha256": "f743cd3395302541638b16e4dd4932fd1c7414dc26cb0a77500068ee4a3149db",
-        "after_sha256": "7ebc28646b1dc119651cc640b8eeac8b16587b10da976f939e99542bdaff06b8",
+        "after_sha256": "73e56ed17f62829f62e7d6c0c6381faac33b5e5a91d845ecce58525c73a71978",
         "size": [
           2120,
           2968
@@ -2008,6 +2065,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-105-chiaotzu",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-105-chiaotzu.svg",
+      "before_native_sha256": "fa6901c307c52f563d2bfbfa3589f07803824c38bc0711d2039e66cda2e1a5ee",
+      "after_native_sha256": "d095c95514a0faa67c4b495b01f67455823bb097f30aaee0b0f80f83fc4eb7aa",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-105-chiaotzu.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "8e306788e879f3a38e01d29a6c968789181c8ff57c9fc4c072e5fd0a39f8cd28",
+          "after_sha256": "b60d20fcb9766fdc13f14df8b54a130e858bd5b8350a31db04672c42dc2a1ba8",
+          "changed_pixels": 95769,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-105-chiaotzu.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "7ebc28646b1dc119651cc640b8eeac8b16587b10da976f939e99542bdaff06b8",
+          "after_sha256": "73e56ed17f62829f62e7d6c0c6381faac33b5e5a91d845ecce58525c73a71978",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -2015,7 +2129,7 @@
     "id": "saiyan-106-yajirobe",
     "name": "Yajirobe",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-106-yajirobe.svg",
-    "native_source_sha256": "0dac1c64c160badfad8bdbc1948126ad0ad5cc4ab68ff6096a27c2b1371073f7",
+    "native_source_sha256": "f9017470f1b462fea7cbf39ff34c2e3f6999626e651a77ca5c4a2a455ef3ff90",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -2249,7 +2363,7 @@
         "path": "public/assets/cards/saiyan-106-yajirobe.webp",
         "before_url": "/assets/cards/saiyan-106-yajirobe.webp?v=e750fa289ced",
         "before_sha256": "4de919f901e7fc464bc05757652d3e82e9f1eca52c658eba8301cb456c3a7f64",
-        "after_sha256": "1d79a51daebf02af03fceca61b8f7a0db445a0f97631357518d12f20cb9d3a6e",
+        "after_sha256": "0d32f658aff7287373c2dc82e0b09ae61393d79f23a6c571cb3908d67dfb61cc",
         "size": [
           1060,
           1484
@@ -2261,7 +2375,7 @@
         "path": "public/assets/cards/downloads/saiyan-106-yajirobe.webp",
         "before_url": "/assets/cards/downloads/saiyan-106-yajirobe.webp?v=c010cbe0397e",
         "before_sha256": "5e0a715024fda6b36f8e6a6deae55df6a94440326ccd0e645ff132a37ced38a3",
-        "after_sha256": "f3d20e3c1fad224512e60edad4ffdc7ccbe33ddd2e4447cddb2e4f1bf8003e21",
+        "after_sha256": "34ba39bf663722a105bcae3dfb0dd31efb34c2896931d89d560ee7c218cb6a59",
         "size": [
           2120,
           2968
@@ -2508,6 +2622,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-106-yajirobe",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-106-yajirobe.svg",
+      "before_native_sha256": "0dac1c64c160badfad8bdbc1948126ad0ad5cc4ab68ff6096a27c2b1371073f7",
+      "after_native_sha256": "f9017470f1b462fea7cbf39ff34c2e3f6999626e651a77ca5c4a2a455ef3ff90",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-106-yajirobe.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1d79a51daebf02af03fceca61b8f7a0db445a0f97631357518d12f20cb9d3a6e",
+          "after_sha256": "0d32f658aff7287373c2dc82e0b09ae61393d79f23a6c571cb3908d67dfb61cc",
+          "changed_pixels": 96248,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-106-yajirobe.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "f3d20e3c1fad224512e60edad4ffdc7ccbe33ddd2e4447cddb2e4f1bf8003e21",
+          "after_sha256": "34ba39bf663722a105bcae3dfb0dd31efb34c2896931d89d560ee7c218cb6a59",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -2515,7 +2686,7 @@
     "id": "saiyan-107-yajirobe",
     "name": "Yajirobe",
     "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-107-yajirobe.svg",
-    "native_source_sha256": "ec5689de7e7e26e6f5ee8b5b89760d694ab44f73e24775f5f5453f8a6914105b",
+    "native_source_sha256": "04ab67a2ba00af78897d5ac4369126c9c01ece1519f4e09f0bafe324e0195236",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -2761,7 +2932,7 @@
         "path": "public/assets/cards/saiyan-107-yajirobe.webp",
         "before_url": "/assets/cards/saiyan-107-yajirobe.webp?v=cfc5f49d35a0",
         "before_sha256": "030629a4d547256091fd2067078e978f99eb1f2ca0d422436b9e7798d14762f5",
-        "after_sha256": "3a1c0df43536feb4fa10f3e0ca3b9e60f5cad4edb736571df544947af3c4aa88",
+        "after_sha256": "9dddb0522df4e8a6870297e20f56b770d9cc334ddfba49002dab160b83e6569e",
         "size": [
           1060,
           1484
@@ -2773,7 +2944,7 @@
         "path": "public/assets/cards/downloads/saiyan-107-yajirobe.webp",
         "before_url": "/assets/cards/downloads/saiyan-107-yajirobe.webp?v=4563a370b81e",
         "before_sha256": "f9d738fa34d72aa67412ad821f7737ec1da6c813a10d7563701f63ffd035acf9",
-        "after_sha256": "cf6a866713aff2149d1c88b20831b9b43492be5ff1a894b87cab032dca7b1e89",
+        "after_sha256": "9150d10c0ac39cec664e79dd9a5f6fb891714e887194751cb4ed7a99099dcab6",
         "size": [
           2120,
           2968
@@ -3020,6 +3191,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-107-yajirobe",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-101-150/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-101-150/saiyan-107-yajirobe.svg",
+      "before_native_sha256": "ec5689de7e7e26e6f5ee8b5b89760d694ab44f73e24775f5f5453f8a6914105b",
+      "after_native_sha256": "04ab67a2ba00af78897d5ac4369126c9c01ece1519f4e09f0bafe324e0195236",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-107-yajirobe.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3a1c0df43536feb4fa10f3e0ca3b9e60f5cad4edb736571df544947af3c4aa88",
+          "after_sha256": "9dddb0522df4e8a6870297e20f56b770d9cc334ddfba49002dab160b83e6569e",
+          "changed_pixels": 95819,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-107-yajirobe.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "cf6a866713aff2149d1c88b20831b9b43492be5ff1a894b87cab032dca7b1e89",
+          "after_sha256": "9150d10c0ac39cec664e79dd9a5f6fb891714e887194751cb4ed7a99099dcab6",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {

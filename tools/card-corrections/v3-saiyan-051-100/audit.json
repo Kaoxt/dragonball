@@ -10618,7 +10618,7 @@
     "id": "saiyan-082-tien",
     "name": "Tien",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-082-tien.svg",
-    "native_source_sha256": "57b859974e784d45b13cdd5ba3d7a90d0f39a892ca007672ed0c56afde866ee7",
+    "native_source_sha256": "3c0e3c1dfe581258ea0f6c351bc143f4f0a4ee83c8e9a3b0b5ddf7152adcd989",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -10878,7 +10878,7 @@
         "path": "public/assets/cards/saiyan-082-tien.webp",
         "before_url": "/assets/cards/saiyan-082-tien.webp?v=ef91501d3ed0",
         "before_sha256": "8a4d64e4c74387af4a84b3a29889c681a129db309075f268a015c75775cad3b6",
-        "after_sha256": "424d11a8bd566a7750d59a1f02eb9aa221d6a181058eb3a1d85a2212c46ad37e",
+        "after_sha256": "f23363ae942cb42996baf4e6870b3aad827174c18924fa9b8253d3c955c9eafb",
         "size": [
           1060,
           1484
@@ -10890,7 +10890,7 @@
         "path": "public/assets/cards/downloads/saiyan-082-tien.webp",
         "before_url": "/assets/cards/downloads/saiyan-082-tien.webp?v=f2aef160096a",
         "before_sha256": "f42d7923a027a0e820e26aaab5247d566b14f4db70c35da57eca52636edbb380",
-        "after_sha256": "cb06a799f2f8bfe2786f91b9582c1874a83ff800dc9ed360d4c59fbc57eadad5",
+        "after_sha256": "a528974e87c0709f43c28453bc3191ac44b3012f64a8a969fc749868075a6cda",
         "size": [
           2120,
           2968
@@ -11137,6 +11137,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-082-tien",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-082-tien.svg",
+      "before_native_sha256": "57b859974e784d45b13cdd5ba3d7a90d0f39a892ca007672ed0c56afde866ee7",
+      "after_native_sha256": "3c0e3c1dfe581258ea0f6c351bc143f4f0a4ee83c8e9a3b0b5ddf7152adcd989",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-082-tien.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "424d11a8bd566a7750d59a1f02eb9aa221d6a181058eb3a1d85a2212c46ad37e",
+          "after_sha256": "f23363ae942cb42996baf4e6870b3aad827174c18924fa9b8253d3c955c9eafb",
+          "changed_pixels": 96276,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-082-tien.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "cb06a799f2f8bfe2786f91b9582c1874a83ff800dc9ed360d4c59fbc57eadad5",
+          "after_sha256": "a528974e87c0709f43c28453bc3191ac44b3012f64a8a969fc749868075a6cda",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -11144,7 +11201,7 @@
     "id": "saiyan-083-tien",
     "name": "Tien",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-083-tien.svg",
-    "native_source_sha256": "1ed7f8b7cf6becc3f5b338533e710295bd5d974d4efb26843c100112b80b976e",
+    "native_source_sha256": "fd49efc210b679dbf8295e97bfe0ddd6896e156d53355090dd5f39c322bc48f3",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/186e1a3f818e2e27c003a9ca2c1ac0423e36404d317351f838b5d946b18df6a3.png",
@@ -11373,7 +11430,7 @@
         "path": "public/assets/cards/saiyan-083-tien.webp",
         "before_url": "/assets/cards/saiyan-083-tien.webp?v=6cb6246b3d68",
         "before_sha256": "21de2d2533cce0eb63c81249935692c41e62e1d68aae9c4d0e903a8fba02de81",
-        "after_sha256": "f35c636b6ee3d3405d81337ccaacdb1d0a1e23c4b0453320bbe4b3d72df5b8e8",
+        "after_sha256": "19d730d856fbcda864f8513682ad9195865df6767bf2216228b607319f33af1d",
         "size": [
           1060,
           1484
@@ -11385,7 +11442,7 @@
         "path": "public/assets/cards/downloads/saiyan-083-tien.webp",
         "before_url": "/assets/cards/downloads/saiyan-083-tien.webp?v=2d464842cd67",
         "before_sha256": "1c0df1c8ee98ca3b0fb465eef9ce0c37a6bf05ea43c0e878b9102bd8f8a81dae",
-        "after_sha256": "12d5804fbad93cea43f0b9d6ab1a3971152553311564ad04d00ce0ab0a1d7478",
+        "after_sha256": "5cd62ce91b85b5638d8446982fe3336088de70314b76ac3e968c679b6e947561",
         "size": [
           2120,
           2968
@@ -11632,6 +11689,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-083-tien",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-083-tien.svg",
+      "before_native_sha256": "1ed7f8b7cf6becc3f5b338533e710295bd5d974d4efb26843c100112b80b976e",
+      "after_native_sha256": "fd49efc210b679dbf8295e97bfe0ddd6896e156d53355090dd5f39c322bc48f3",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-083-tien.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f35c636b6ee3d3405d81337ccaacdb1d0a1e23c4b0453320bbe4b3d72df5b8e8",
+          "after_sha256": "19d730d856fbcda864f8513682ad9195865df6767bf2216228b607319f33af1d",
+          "changed_pixels": 95776,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-083-tien.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "12d5804fbad93cea43f0b9d6ab1a3971152553311564ad04d00ce0ab0a1d7478",
+          "after_sha256": "5cd62ce91b85b5638d8446982fe3336088de70314b76ac3e968c679b6e947561",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -11639,7 +11753,7 @@
     "id": "saiyan-084-yamcha",
     "name": "Yamcha",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-084-yamcha.svg",
-    "native_source_sha256": "f27275a214509a989e4721f4f41e2fce896472dd66fb10c68f8e9bb90a77d7e9",
+    "native_source_sha256": "169b6aad360d8018e4a69fd9d246c7b933a49eece5405569255f6c545618b98e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -11879,7 +11993,7 @@
         "path": "public/assets/cards/saiyan-084-yamcha.webp",
         "before_url": "/assets/cards/saiyan-084-yamcha.webp?v=fdeea5d2b4e5",
         "before_sha256": "241f92540ba662859f40f2abb21b86aae38ee6424bca49853c0b6561bb283337",
-        "after_sha256": "a7e87f8e935e3079c3b46e7b284fdd9833dc348612370f7090b620165e0e81d3",
+        "after_sha256": "d11f93f2f5a3aac05fa13d477ccc56110cb40f28357c306e65db683619b9ef03",
         "size": [
           1060,
           1484
@@ -11891,7 +12005,7 @@
         "path": "public/assets/cards/downloads/saiyan-084-yamcha.webp",
         "before_url": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=57765ecc9033",
         "before_sha256": "88f93e856106d04160c6c0c59322cbbe96842e9a83e8241da726d3b95884fe81",
-        "after_sha256": "e864c5512fc1aaeef35c0d6188bbb461d15f61c3e57094dc80a5e2cf2c4c49d4",
+        "after_sha256": "0e12fc25f7270ae21e4636ad346fd78b8531022e9ab643c77757a84f1f0fe5d3",
         "size": [
           2120,
           2968
@@ -12138,6 +12252,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-084-yamcha",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-084-yamcha.svg",
+      "before_native_sha256": "f27275a214509a989e4721f4f41e2fce896472dd66fb10c68f8e9bb90a77d7e9",
+      "after_native_sha256": "169b6aad360d8018e4a69fd9d246c7b933a49eece5405569255f6c545618b98e",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-084-yamcha.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "a7e87f8e935e3079c3b46e7b284fdd9833dc348612370f7090b620165e0e81d3",
+          "after_sha256": "d11f93f2f5a3aac05fa13d477ccc56110cb40f28357c306e65db683619b9ef03",
+          "changed_pixels": 96272,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 4
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-084-yamcha.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "e864c5512fc1aaeef35c0d6188bbb461d15f61c3e57094dc80a5e2cf2c4c49d4",
+          "after_sha256": "0e12fc25f7270ae21e4636ad346fd78b8531022e9ab643c77757a84f1f0fe5d3",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12145,7 +12316,7 @@
     "id": "saiyan-085-yamcha",
     "name": "Yamcha",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-085-yamcha.svg",
-    "native_source_sha256": "3933302ddd54ed79a3b0f7dc0389c650868e559933192136d77ea0d14395e529",
+    "native_source_sha256": "25436dd2778caf9e0b8a2d67f56fb5d5c1255b925a660631e927fa90a755a3c8",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -12379,7 +12550,7 @@
         "path": "public/assets/cards/saiyan-085-yamcha.webp",
         "before_url": "/assets/cards/saiyan-085-yamcha.webp?v=ea0b909e111c",
         "before_sha256": "d308415bb9639b9ea30d07806260f33c36e8c052fab2240e03840947954a218b",
-        "after_sha256": "6f0a0642b6f620dded02270da639cfeb3f71a329594d7bffcee356784ac24ec5",
+        "after_sha256": "b3ce2e5b0006762b53217ecb4df8cb666e136b371de6f6254f8a840d46c30baf",
         "size": [
           1060,
           1484
@@ -12391,7 +12562,7 @@
         "path": "public/assets/cards/downloads/saiyan-085-yamcha.webp",
         "before_url": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=d69c00f5bc83",
         "before_sha256": "77ef67739b94a14a9cbb9fb126145ae7e91a9e9016aeb06f2465b4dda6a05a62",
-        "after_sha256": "1f0a55b534d43037bbf2dd5f1874f91858fb0dc8c962c049c3e9503fec5c860f",
+        "after_sha256": "5b3f26e51834c1a4fcaf2c7c40f703fcd83a479c99f7fd10ba5d3757cb5c1e92",
         "size": [
           2120,
           2968
@@ -12638,6 +12809,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-085-yamcha",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-085-yamcha.svg",
+      "before_native_sha256": "3933302ddd54ed79a3b0f7dc0389c650868e559933192136d77ea0d14395e529",
+      "after_native_sha256": "25436dd2778caf9e0b8a2d67f56fb5d5c1255b925a660631e927fa90a755a3c8",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-085-yamcha.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "6f0a0642b6f620dded02270da639cfeb3f71a329594d7bffcee356784ac24ec5",
+          "after_sha256": "b3ce2e5b0006762b53217ecb4df8cb666e136b371de6f6254f8a840d46c30baf",
+          "changed_pixels": 95862,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-085-yamcha.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1f0a55b534d43037bbf2dd5f1874f91858fb0dc8c962c049c3e9503fec5c860f",
+          "after_sha256": "5b3f26e51834c1a4fcaf2c7c40f703fcd83a479c99f7fd10ba5d3757cb5c1e92",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12645,7 +12873,7 @@
     "id": "saiyan-086-chi-chi",
     "name": "Chi-Chi",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-086-chi-chi.svg",
-    "native_source_sha256": "0d9651b59b9b9edeafbef85874c9ccce6d745e447b118d36e63eb843c4bdac46",
+    "native_source_sha256": "5de90b5f39a9554308f7496f52e0b092a58bd8e30331fae978d8facd91624959",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -12870,7 +13098,7 @@
         "path": "public/assets/cards/saiyan-086-chi-chi.webp",
         "before_url": "/assets/cards/saiyan-086-chi-chi.webp?v=262a7b36be82",
         "before_sha256": "af2eb4d7bd32e2e57bb7c918ae1a9db431a49cd08697d890405b7192f93c9fe7",
-        "after_sha256": "2349e5078359c09358dc7335572496ba88dc482a2089c9de5768e577d43c894d",
+        "after_sha256": "6fe022ed54d74f9494a24e27af8dda95ad30da6b9babda395b0dae595cf931af",
         "size": [
           1060,
           1484
@@ -12882,7 +13110,7 @@
         "path": "public/assets/cards/downloads/saiyan-086-chi-chi.webp",
         "before_url": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=97d6451bf2bc",
         "before_sha256": "0ec3177af46f2d68cfb66091d8b7454a5f7e3e2364cf46dc04721b76fe7b5d56",
-        "after_sha256": "1adc73b43301fb0832f5eb26b9ade19613c2e5569b95a2c9be3584c275c28088",
+        "after_sha256": "685080fd69f82979a896590a2f869f127041bd7fd75d64e0af45b11c58e72bcf",
         "size": [
           2120,
           2968
@@ -13129,6 +13357,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-086-chi-chi",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-086-chi-chi.svg",
+      "before_native_sha256": "0d9651b59b9b9edeafbef85874c9ccce6d745e447b118d36e63eb843c4bdac46",
+      "after_native_sha256": "5de90b5f39a9554308f7496f52e0b092a58bd8e30331fae978d8facd91624959",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-086-chi-chi.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "2349e5078359c09358dc7335572496ba88dc482a2089c9de5768e577d43c894d",
+          "after_sha256": "6fe022ed54d74f9494a24e27af8dda95ad30da6b9babda395b0dae595cf931af",
+          "changed_pixels": 96329,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 4
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-086-chi-chi.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1adc73b43301fb0832f5eb26b9ade19613c2e5569b95a2c9be3584c275c28088",
+          "after_sha256": "685080fd69f82979a896590a2f869f127041bd7fd75d64e0af45b11c58e72bcf",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -13136,7 +13421,7 @@
     "id": "saiyan-087-bulma",
     "name": "Bulma",
     "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-087-bulma.svg",
-    "native_source_sha256": "df200f4fae0af70ee95493ad7b201740de33bbb8f7fee14040ba77923a8bdecf",
+    "native_source_sha256": "46cbf6e6f2f29661d0132bb103891bbb690b7332dfd0f8976261078bc896eeac",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -13319,7 +13604,7 @@
         "path": "public/assets/cards/saiyan-087-bulma.webp",
         "before_url": "/assets/cards/saiyan-087-bulma.webp?v=2baf4b416941",
         "before_sha256": "364538c91735bd46387f7fe23f8d97fcbbaea3ac7ff277b625fa2a0d69b3b456",
-        "after_sha256": "b36ebd9a9a067be7be28cc3bf206b50f59799748090c486fc7a46bb974f2a30f",
+        "after_sha256": "68a3707daefa1e977568c5a8fd72d7f2acd110e32fdd471bff5d9d4f68386263",
         "size": [
           1060,
           1484
@@ -13331,7 +13616,7 @@
         "path": "public/assets/cards/downloads/saiyan-087-bulma.webp",
         "before_url": "/assets/cards/downloads/saiyan-087-bulma.webp?v=f8e03262cba7",
         "before_sha256": "a2ac2a6357bf2bd1b34eaf703ddb88e55eb82ede1b46b16c320ce0b355409700",
-        "after_sha256": "679c389cdb1ce5a44aea5e26ff909cc2deca1377a26c8827d942e7f8686f2025",
+        "after_sha256": "4a9f7cfb3c4cbff46e86b31caec9dfaac001159a65954f286b5b7ad31693be66",
         "size": [
           2120,
           2968
@@ -13578,6 +13863,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-087-bulma",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-051-100/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-051-100/saiyan-087-bulma.svg",
+      "before_native_sha256": "df200f4fae0af70ee95493ad7b201740de33bbb8f7fee14040ba77923a8bdecf",
+      "after_native_sha256": "46cbf6e6f2f29661d0132bb103891bbb690b7332dfd0f8976261078bc896eeac",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-087-bulma.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "b36ebd9a9a067be7be28cc3bf206b50f59799748090c486fc7a46bb974f2a30f",
+          "after_sha256": "68a3707daefa1e977568c5a8fd72d7f2acd110e32fdd471bff5d9d4f68386263",
+          "changed_pixels": 96226,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 4
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-087-bulma.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "679c389cdb1ce5a44aea5e26ff909cc2deca1377a26c8827d942e7f8686f2025",
+          "after_sha256": "4a9f7cfb3c4cbff46e86b31caec9dfaac001159a65954f286b5b7ad31693be66",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {

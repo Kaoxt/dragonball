@@ -2512,7 +2512,7 @@
     "id": "saiyan-158-goku",
     "name": "Goku",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-158-goku.svg",
-    "native_source_sha256": "65e17d107130c9fc1e9ed2a2dc1a700d87761084be813d20116a5357365da9d2",
+    "native_source_sha256": "57c0de484c9e915dd534523c19fb440f7e3b7637f7d13c107e8e94828e6bf8dd",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/1ef9e1682a05c52723204d8cf5216c7d446178afabcf669898f5f17bdf4507b6.png",
@@ -2732,7 +2732,7 @@
         "path": "public/assets/cards/saiyan-158-goku.webp",
         "before_url": "/assets/cards/saiyan-158-goku.webp?v=b25aca4f2d16",
         "before_sha256": "b25aca4f2d16f8d4a94598f3223e883a83ceed48090439d705ba8efc48717ece",
-        "after_sha256": "dc6d3fc74d0e6b411e60a7ab441d16da0c7d2f3867514ebaa033ec5f5f0667f4",
+        "after_sha256": "63667896aa3ef29d241ae7c8b6829a325655cdfbd05bafa192b1e3d205124c85",
         "size": [
           1060,
           1484
@@ -2744,7 +2744,7 @@
         "path": "public/assets/cards/downloads/saiyan-158-goku.webp",
         "before_url": "/assets/cards/downloads/saiyan-158-goku.webp?v=916370c27be9",
         "before_sha256": "916370c27be928bd000d5e9f504ad76d77eb2dfd7cafd317e63ae9cb86714bdb",
-        "after_sha256": "edfdb6d9e103603480ad1496c3f2420b13e946d7ee0e291f54bd281fd744d9e1",
+        "after_sha256": "14ed73261609cdbcf406d0acccbdb9a49ad50901e38678de88f8b5ff43f1a5c6",
         "size": [
           2120,
           2968
@@ -3006,6 +3006,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-158-goku",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-158-goku.svg",
+      "before_native_sha256": "65e17d107130c9fc1e9ed2a2dc1a700d87761084be813d20116a5357365da9d2",
+      "after_native_sha256": "57c0de484c9e915dd534523c19fb440f7e3b7637f7d13c107e8e94828e6bf8dd",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-158-goku.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "dc6d3fc74d0e6b411e60a7ab441d16da0c7d2f3867514ebaa033ec5f5f0667f4",
+          "after_sha256": "63667896aa3ef29d241ae7c8b6829a325655cdfbd05bafa192b1e3d205124c85",
+          "changed_pixels": 96299,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-158-goku.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "edfdb6d9e103603480ad1496c3f2420b13e946d7ee0e291f54bd281fd744d9e1",
+          "after_sha256": "14ed73261609cdbcf406d0acccbdb9a49ad50901e38678de88f8b5ff43f1a5c6",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -3013,7 +3070,7 @@
     "id": "saiyan-159-goku",
     "name": "Goku",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-159-goku.svg",
-    "native_source_sha256": "0a1c6f1e9b933132f831c1c5b477a478989e095550fc732500c9a650fdbf7cca",
+    "native_source_sha256": "93ba2e115ee3d349ae71ad3948b090e13f423f591b604a290485c37dcefa5458",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -3221,7 +3278,7 @@
         "path": "public/assets/cards/saiyan-159-goku.webp",
         "before_url": "/assets/cards/saiyan-159-goku.webp?v=b28693ecb0b9",
         "before_sha256": "b28693ecb0b9bae5e53bb1409ba828412b4e31b6fc28a70e22171e9f4810e70f",
-        "after_sha256": "485a12c28374b33b7122e3b1a9cb5ebd1add0af8497b6d8ea12e14b5938a928a",
+        "after_sha256": "90bab783422e84d14898ea5a0375eccae1fc8b72f6735f00b54a2e54fc293fac",
         "size": [
           1060,
           1484
@@ -3233,7 +3290,7 @@
         "path": "public/assets/cards/downloads/saiyan-159-goku.webp",
         "before_url": "/assets/cards/downloads/saiyan-159-goku.webp?v=537cb6a2a009",
         "before_sha256": "537cb6a2a009e2ad75cb45d801d0b4f1ed4d9d73b671e5d1b30cc2be42ff60c7",
-        "after_sha256": "aec5782ccad8facb0193124adb0524cef43cbf0806387fec9086cb32242e7dbe",
+        "after_sha256": "69725c3f15e0a08e1b2c2d3149d134a31a35dc7abf78102ab14f3012cf73fc45",
         "size": [
           2120,
           2968
@@ -3495,6 +3552,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-159-goku",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-159-goku.svg",
+      "before_native_sha256": "0a1c6f1e9b933132f831c1c5b477a478989e095550fc732500c9a650fdbf7cca",
+      "after_native_sha256": "93ba2e115ee3d349ae71ad3948b090e13f423f591b604a290485c37dcefa5458",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-159-goku.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "485a12c28374b33b7122e3b1a9cb5ebd1add0af8497b6d8ea12e14b5938a928a",
+          "after_sha256": "90bab783422e84d14898ea5a0375eccae1fc8b72f6735f00b54a2e54fc293fac",
+          "changed_pixels": 95819,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-159-goku.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "aec5782ccad8facb0193124adb0524cef43cbf0806387fec9086cb32242e7dbe",
+          "after_sha256": "69725c3f15e0a08e1b2c2d3149d134a31a35dc7abf78102ab14f3012cf73fc45",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -3502,7 +3616,7 @@
     "id": "saiyan-160-goku",
     "name": "Goku",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-160-goku.svg",
-    "native_source_sha256": "316b7653ad63ab5df09c494006b58fc5753c9ab6f334c8eb4da50cdede797203",
+    "native_source_sha256": "c7921fd4ca8be4b8d62816d364b3c434af5cfa35a0b9143c0a54691a5840949d",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -3692,7 +3806,7 @@
         "path": "public/assets/cards/saiyan-160-goku.webp",
         "before_url": "/assets/cards/saiyan-160-goku.webp?v=03812614b234",
         "before_sha256": "03812614b2345a34a35fa737f7195b8be271d63e12a54e5714ee7adcbb580e57",
-        "after_sha256": "fa200285ae76d107c094c6427be3d1624b798b3209c3086e3434f53735e9549c",
+        "after_sha256": "c448cc5ec4ca63784821265628505eb80a62c5530eb7270489aa084ca96ed483",
         "size": [
           1060,
           1484
@@ -3704,7 +3818,7 @@
         "path": "public/assets/cards/downloads/saiyan-160-goku.webp",
         "before_url": "/assets/cards/downloads/saiyan-160-goku.webp?v=749f8279e260",
         "before_sha256": "749f8279e260f2f9593e26859f95acd101435597bbfb7841f3f78d72a6b5065f",
-        "after_sha256": "f3c90eff4c94c4450d27ffae8afb21be48400f4ba5d49679117970c9c55707b9",
+        "after_sha256": "00c7819e554cc4a3e81a0f0e2f080446758c09b648e6dfbddaca228cb93804ba",
         "size": [
           2120,
           2968
@@ -3966,6 +4080,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-160-goku",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-160-goku.svg",
+      "before_native_sha256": "316b7653ad63ab5df09c494006b58fc5753c9ab6f334c8eb4da50cdede797203",
+      "after_native_sha256": "c7921fd4ca8be4b8d62816d364b3c434af5cfa35a0b9143c0a54691a5840949d",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-160-goku.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "fa200285ae76d107c094c6427be3d1624b798b3209c3086e3434f53735e9549c",
+          "after_sha256": "c448cc5ec4ca63784821265628505eb80a62c5530eb7270489aa084ca96ed483",
+          "changed_pixels": 95702,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-160-goku.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "f3c90eff4c94c4450d27ffae8afb21be48400f4ba5d49679117970c9c55707b9",
+          "after_sha256": "00c7819e554cc4a3e81a0f0e2f080446758c09b648e6dfbddaca228cb93804ba",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -3973,7 +4144,7 @@
     "id": "saiyan-161-piccolo",
     "name": "Piccolo",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-161-piccolo.svg",
-    "native_source_sha256": "8fe99fe31d5c83ca7e94b703d720deb00fc775601dfceb70a30e4fc175caddac",
+    "native_source_sha256": "f9f3de2042ab82aeb35261bd13f85891acefc32f5b8cec494e72e0d334bd32ac",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -4193,7 +4364,7 @@
         "path": "public/assets/cards/saiyan-161-piccolo.webp",
         "before_url": "/assets/cards/saiyan-161-piccolo.webp?v=4a8242614ad9",
         "before_sha256": "4a8242614ad9eca586f4d382b6626b37905657b99445b83465d0ff9d8deea748",
-        "after_sha256": "75af9558e527a65116b10a39617af644f1d8f1b78b9298e7b259207994a48d30",
+        "after_sha256": "8d9b451823314b823fb09dc5bf895cfbb906f37f5a5c77dbf25dea16cdff341a",
         "size": [
           1060,
           1484
@@ -4205,7 +4376,7 @@
         "path": "public/assets/cards/downloads/saiyan-161-piccolo.webp",
         "before_url": "/assets/cards/downloads/saiyan-161-piccolo.webp?v=e7fde61285dc",
         "before_sha256": "e7fde61285dc43e387841e2453cb7a85b98aca3c26f414a0d7e42e739904aca0",
-        "after_sha256": "d3ec9b2eeaf4a1504709934d27752299e07478d9ef80914071fd0e5f800830e6",
+        "after_sha256": "e70e03d27c7d855d8bd663ebffc74ff009cb6cce590881f5d14db45a0cfb99f3",
         "size": [
           2120,
           2968
@@ -4467,6 +4638,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-161-piccolo",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-161-piccolo.svg",
+      "before_native_sha256": "8fe99fe31d5c83ca7e94b703d720deb00fc775601dfceb70a30e4fc175caddac",
+      "after_native_sha256": "f9f3de2042ab82aeb35261bd13f85891acefc32f5b8cec494e72e0d334bd32ac",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-161-piccolo.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "75af9558e527a65116b10a39617af644f1d8f1b78b9298e7b259207994a48d30",
+          "after_sha256": "8d9b451823314b823fb09dc5bf895cfbb906f37f5a5c77dbf25dea16cdff341a",
+          "changed_pixels": 96228,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-161-piccolo.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "d3ec9b2eeaf4a1504709934d27752299e07478d9ef80914071fd0e5f800830e6",
+          "after_sha256": "e70e03d27c7d855d8bd663ebffc74ff009cb6cce590881f5d14db45a0cfb99f3",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -4474,7 +4702,7 @@
     "id": "saiyan-162-piccolo",
     "name": "Piccolo",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-162-piccolo.svg",
-    "native_source_sha256": "e02a507d921982906d1057977a5305374d0691953ad5ad477e832887547fa950",
+    "native_source_sha256": "825f37eb46637528003ee7be4d1dfa0175dc96a111dd046da464406dd1d7eff4",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -4732,7 +4960,7 @@
         "path": "public/assets/cards/saiyan-162-piccolo.webp",
         "before_url": "/assets/cards/saiyan-162-piccolo.webp?v=f23fd1a4b8f6",
         "before_sha256": "f23fd1a4b8f6e2b0d509bebff8aebaee3db99dedf126399fc9654a68b6077aa3",
-        "after_sha256": "735f30d1ec5b091ce09672d2584279daaef85c826dd047fa4802eca6c7946efb",
+        "after_sha256": "c5dbb6577ae4d911b7f932131ef4cedf45a7792acd555105ab94d3a22900f3a8",
         "size": [
           1060,
           1484
@@ -4744,7 +4972,7 @@
         "path": "public/assets/cards/downloads/saiyan-162-piccolo.webp",
         "before_url": "/assets/cards/downloads/saiyan-162-piccolo.webp?v=813ee2b5518b",
         "before_sha256": "813ee2b5518b5652b007e19228807f197a760a8987f923bc31753d4d2f436baf",
-        "after_sha256": "240964a9bbcaff377d92be6538c383a468786c97356437db2631bf9a8fc04c7a",
+        "after_sha256": "4fc3e61f2360930ecb10096d2313aefd47a5b9c3767cc87ba2c898f18e4a1782",
         "size": [
           2120,
           2968
@@ -5006,6 +5234,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-162-piccolo",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-162-piccolo.svg",
+      "before_native_sha256": "e02a507d921982906d1057977a5305374d0691953ad5ad477e832887547fa950",
+      "after_native_sha256": "825f37eb46637528003ee7be4d1dfa0175dc96a111dd046da464406dd1d7eff4",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-162-piccolo.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "735f30d1ec5b091ce09672d2584279daaef85c826dd047fa4802eca6c7946efb",
+          "after_sha256": "c5dbb6577ae4d911b7f932131ef4cedf45a7792acd555105ab94d3a22900f3a8",
+          "changed_pixels": 95982,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-162-piccolo.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "240964a9bbcaff377d92be6538c383a468786c97356437db2631bf9a8fc04c7a",
+          "after_sha256": "4fc3e61f2360930ecb10096d2313aefd47a5b9c3767cc87ba2c898f18e4a1782",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -5013,7 +5298,7 @@
     "id": "saiyan-163-piccolo",
     "name": "Piccolo",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-163-piccolo.svg",
-    "native_source_sha256": "331f60273230378450807a84aadda31a0cad4ab9c9cd0bb3455562a94807ebcf",
+    "native_source_sha256": "35d7f1a24a1dc476bf4087b215686e9e8d9492f24431c12c3a73d92ca94e3116",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -5257,7 +5542,7 @@
         "path": "public/assets/cards/saiyan-163-piccolo.webp",
         "before_url": "/assets/cards/saiyan-163-piccolo.webp?v=c53c1be73fee",
         "before_sha256": "c53c1be73fee3809f5203a84c525c8314aa79c115da106bf0ced08f8ca3ce996",
-        "after_sha256": "593dd10da127fe7e439bc923811193f36fe80052c8e3de95b5a3bb98fb6d5ac4",
+        "after_sha256": "afe4cb45361ca2620fc6eabd182abfd3edae539e1d24515f7d688d8edce994e0",
         "size": [
           1060,
           1484
@@ -5269,7 +5554,7 @@
         "path": "public/assets/cards/downloads/saiyan-163-piccolo.webp",
         "before_url": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=5a9df8f445db",
         "before_sha256": "5a9df8f445dbfd9013466bdad114620743d71f2164eecc1eacd090ab8e730b92",
-        "after_sha256": "e722a06c441a247648b1a1a1c871f1dcb54101a0f3f3f70ab6504dfaeea63314",
+        "after_sha256": "868355e3b350c3903f2564b15954963acbd9f026a18f452f7b6ade4f20e58e4b",
         "size": [
           2120,
           2968
@@ -5531,6 +5816,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-163-piccolo",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-163-piccolo.svg",
+      "before_native_sha256": "331f60273230378450807a84aadda31a0cad4ab9c9cd0bb3455562a94807ebcf",
+      "after_native_sha256": "35d7f1a24a1dc476bf4087b215686e9e8d9492f24431c12c3a73d92ca94e3116",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-163-piccolo.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "593dd10da127fe7e439bc923811193f36fe80052c8e3de95b5a3bb98fb6d5ac4",
+          "after_sha256": "afe4cb45361ca2620fc6eabd182abfd3edae539e1d24515f7d688d8edce994e0",
+          "changed_pixels": 95793,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-163-piccolo.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "e722a06c441a247648b1a1a1c871f1dcb54101a0f3f3f70ab6504dfaeea63314",
+          "after_sha256": "868355e3b350c3903f2564b15954963acbd9f026a18f452f7b6ade4f20e58e4b",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -5538,7 +5880,7 @@
     "id": "saiyan-164-gohan",
     "name": "Gohan",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-164-gohan.svg",
-    "native_source_sha256": "d714022cc3073d2780f1fdab3093229ef658f53b835f49cea9c5b25cd7cac43f",
+    "native_source_sha256": "42fe133ae92eea587f57bcc1075c27dd299971a336072cc1147b27eb7f8d6bae",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -5764,7 +6106,7 @@
         "path": "public/assets/cards/saiyan-164-gohan.webp",
         "before_url": "/assets/cards/saiyan-164-gohan.webp?v=06e845005227",
         "before_sha256": "06e845005227589d93b62778dce072039b4955905b29a48c086a4f699e4b43ef",
-        "after_sha256": "d7ff4007810a2768ee01a4f5f5f3e748c4ac37fdfbf14b5a3f41043933f5148d",
+        "after_sha256": "d285a82c1ff69e7ef62147d281c3e31f6f30f96421acb32d8e8c53a5b4530dd3",
         "size": [
           1060,
           1484
@@ -5776,7 +6118,7 @@
         "path": "public/assets/cards/downloads/saiyan-164-gohan.webp",
         "before_url": "/assets/cards/downloads/saiyan-164-gohan.webp?v=29acd828460f",
         "before_sha256": "29acd828460f526cce1d101759afb32edada5b7fa83e578ea1d5a0d7f28cb737",
-        "after_sha256": "531ec149ada2561c99acea8d8752882208040a487b57e840835d84a4b399fcf7",
+        "after_sha256": "6be8435e0ced5b3ffdd134cd03306e3e6a2b0320abae77b099cff34f7779a43d",
         "size": [
           2120,
           2968
@@ -6038,6 +6380,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-164-gohan",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-164-gohan.svg",
+      "before_native_sha256": "d714022cc3073d2780f1fdab3093229ef658f53b835f49cea9c5b25cd7cac43f",
+      "after_native_sha256": "42fe133ae92eea587f57bcc1075c27dd299971a336072cc1147b27eb7f8d6bae",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-164-gohan.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d7ff4007810a2768ee01a4f5f5f3e748c4ac37fdfbf14b5a3f41043933f5148d",
+          "after_sha256": "d285a82c1ff69e7ef62147d281c3e31f6f30f96421acb32d8e8c53a5b4530dd3",
+          "changed_pixels": 96312,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-164-gohan.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "531ec149ada2561c99acea8d8752882208040a487b57e840835d84a4b399fcf7",
+          "after_sha256": "6be8435e0ced5b3ffdd134cd03306e3e6a2b0320abae77b099cff34f7779a43d",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -6045,7 +6444,7 @@
     "id": "saiyan-165-gohan",
     "name": "Gohan",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-165-gohan.svg",
-    "native_source_sha256": "ba82211a4966257afd15b553540d29174f6752d5761cc6c6e9bc1247c3d9f242",
+    "native_source_sha256": "b7f16aca2364c1fe2802c527e6badc70d83fcb762d8390e5c000657c3f5fc631",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -6330,7 +6729,7 @@
         "path": "public/assets/cards/saiyan-165-gohan.webp",
         "before_url": "/assets/cards/saiyan-165-gohan.webp?v=a76de9aec623",
         "before_sha256": "a76de9aec6238c7de6ef2a861a8120e5cb06eca2c9fa768e3ca160459424850e",
-        "after_sha256": "cb15b8543f0a9cbfc7ac8d7c1da45723736d653ffcafa24d51595d78d5d73bd1",
+        "after_sha256": "245f8a8c3eb4d8179fdafe67ae873e8ba71e53d8616ecf34c71930c5799f9e3d",
         "size": [
           1060,
           1484
@@ -6342,7 +6741,7 @@
         "path": "public/assets/cards/downloads/saiyan-165-gohan.webp",
         "before_url": "/assets/cards/downloads/saiyan-165-gohan.webp?v=80bb48867650",
         "before_sha256": "80bb48867650e3000ea3e8dee29a8cc5f1aaf83fe1270348ef51f643129c5662",
-        "after_sha256": "d25aac011ca7d1f83152b03a64a588116a1128b19d1a5a469b17ed98cd6ee3f4",
+        "after_sha256": "eea70eacf807afecb031ab5d734a7d73930f5fe4ea30a116b91236ae56ad46e6",
         "size": [
           2120,
           2968
@@ -6604,6 +7003,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-165-gohan",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-165-gohan.svg",
+      "before_native_sha256": "ba82211a4966257afd15b553540d29174f6752d5761cc6c6e9bc1247c3d9f242",
+      "after_native_sha256": "b7f16aca2364c1fe2802c527e6badc70d83fcb762d8390e5c000657c3f5fc631",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-165-gohan.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "cb15b8543f0a9cbfc7ac8d7c1da45723736d653ffcafa24d51595d78d5d73bd1",
+          "after_sha256": "245f8a8c3eb4d8179fdafe67ae873e8ba71e53d8616ecf34c71930c5799f9e3d",
+          "changed_pixels": 95841,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-165-gohan.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "d25aac011ca7d1f83152b03a64a588116a1128b19d1a5a469b17ed98cd6ee3f4",
+          "after_sha256": "eea70eacf807afecb031ab5d734a7d73930f5fe4ea30a116b91236ae56ad46e6",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -6611,7 +7067,7 @@
     "id": "saiyan-166-gohan",
     "name": "Gohan",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-166-gohan.svg",
-    "native_source_sha256": "aed5991c16fb4310257ff7c31a10f673bf732e0412f6f1a06fb210be75e1fc56",
+    "native_source_sha256": "e4d5100136a9018d619f4d2b351fdfbffa7580d72addaaa38a326378311e5660",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/1c994b0d16a4d856c51a2baf7fbe8215c35d64685b4325dd8a43fabb1fc97be9.png",
@@ -6887,7 +7343,7 @@
         "path": "public/assets/cards/saiyan-166-gohan.webp",
         "before_url": "/assets/cards/saiyan-166-gohan.webp?v=4a55f9cb29e7",
         "before_sha256": "4a55f9cb29e7e19688310b22f46b1686e30fb606f9dd70d18293a0c958450fd7",
-        "after_sha256": "cc862bddf74f4a64f1e699e0ea33d840037860e2b95af24d4f4f61ebb36dd1d1",
+        "after_sha256": "c163a1b1a0737b3531adff244c167394dd79636e0028c22efcf5fa9c7a16dd5f",
         "size": [
           1060,
           1484
@@ -6899,7 +7355,7 @@
         "path": "public/assets/cards/downloads/saiyan-166-gohan.webp",
         "before_url": "/assets/cards/downloads/saiyan-166-gohan.webp?v=299d08537ed1",
         "before_sha256": "299d08537ed19c92397d854bb7a517d9a9fb9d8674b92dc1b76ca1fbda72b292",
-        "after_sha256": "91e435427e28c0386459bde752dc6374d06476ea0bd6928be9fc29c93937ffb4",
+        "after_sha256": "0b9977a69348d32e7dbb72f3ca7a96cb371248191e58b5ee3dc0abc5d2a2cb9a",
         "size": [
           2120,
           2968
@@ -7161,6 +7617,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-166-gohan",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-166-gohan.svg",
+      "before_native_sha256": "aed5991c16fb4310257ff7c31a10f673bf732e0412f6f1a06fb210be75e1fc56",
+      "after_native_sha256": "e4d5100136a9018d619f4d2b351fdfbffa7580d72addaaa38a326378311e5660",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-166-gohan.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "cc862bddf74f4a64f1e699e0ea33d840037860e2b95af24d4f4f61ebb36dd1d1",
+          "after_sha256": "c163a1b1a0737b3531adff244c167394dd79636e0028c22efcf5fa9c7a16dd5f",
+          "changed_pixels": 95779,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-166-gohan.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "91e435427e28c0386459bde752dc6374d06476ea0bd6928be9fc29c93937ffb4",
+          "after_sha256": "0b9977a69348d32e7dbb72f3ca7a96cb371248191e58b5ee3dc0abc5d2a2cb9a",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -7168,7 +7681,7 @@
     "id": "saiyan-167-krillin",
     "name": "Krillin",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-167-krillin.svg",
-    "native_source_sha256": "eaee2dc61c24387617465540afd6d028ce7d6299a911af72c684631d07ba5816",
+    "native_source_sha256": "4544b7b2b7a9a0701221a3165bbfba9bddc5954bfe473d6a9f3f4642ec5b9999",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -7404,7 +7917,7 @@
         "path": "public/assets/cards/saiyan-167-krillin.webp",
         "before_url": "/assets/cards/saiyan-167-krillin.webp?v=23d233dfa703",
         "before_sha256": "23d233dfa703c4802eeab8565017f7659e93d80d4933fb86e52b72678c9cf50b",
-        "after_sha256": "5ef3a9b9579e782f8bd81086a29e6ad4be15b80f516460c4129d9c508d26e742",
+        "after_sha256": "53d3f99d231085c76c88ed2ca44dc66579793590d0632ec7c010deea4473206b",
         "size": [
           1060,
           1484
@@ -7416,7 +7929,7 @@
         "path": "public/assets/cards/downloads/saiyan-167-krillin.webp",
         "before_url": "/assets/cards/downloads/saiyan-167-krillin.webp?v=eafd29f80005",
         "before_sha256": "eafd29f80005c983242ec4a12f88328b246b9e3e2e53a4472637b53a14c3df5a",
-        "after_sha256": "9b9c1d845dff3a442bb493675e7f89d45367144f2719aa35a8bafe1354d6af56",
+        "after_sha256": "71ec11c9cdf347fb3c82ec69c99e2889e80623b6d44595dd216535efebcf02a3",
         "size": [
           2120,
           2968
@@ -7678,6 +8191,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-167-krillin",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-167-krillin.svg",
+      "before_native_sha256": "eaee2dc61c24387617465540afd6d028ce7d6299a911af72c684631d07ba5816",
+      "after_native_sha256": "4544b7b2b7a9a0701221a3165bbfba9bddc5954bfe473d6a9f3f4642ec5b9999",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-167-krillin.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "5ef3a9b9579e782f8bd81086a29e6ad4be15b80f516460c4129d9c508d26e742",
+          "after_sha256": "53d3f99d231085c76c88ed2ca44dc66579793590d0632ec7c010deea4473206b",
+          "changed_pixels": 96279,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 3
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-167-krillin.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "9b9c1d845dff3a442bb493675e7f89d45367144f2719aa35a8bafe1354d6af56",
+          "after_sha256": "71ec11c9cdf347fb3c82ec69c99e2889e80623b6d44595dd216535efebcf02a3",
+          "changed_pixels": 364236,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -7685,7 +8255,7 @@
     "id": "saiyan-168-krillin",
     "name": "Krillin",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-168-krillin.svg",
-    "native_source_sha256": "579287a8e50ffaa12e5a105653de06e69319fd549b34f16b530aff2909e95761",
+    "native_source_sha256": "5e8816c33123f2f4f7fa7eeffa2e8a1ac9639a1859bb4b8f8f0dba5222cffc11",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -7938,7 +8508,7 @@
         "path": "public/assets/cards/saiyan-168-krillin.webp",
         "before_url": "/assets/cards/saiyan-168-krillin.webp?v=c741979fe70c",
         "before_sha256": "c741979fe70ce151a1f520c37a0027d287a7218746abc2dab9a18b0a52b60cdb",
-        "after_sha256": "3744965a34cfce35a6575b8f39c97eefc65814e9f3043106fb9b59471d2aee98",
+        "after_sha256": "db5a5bf5b545d3b6758be0e98942aa99db910989c852e450940d86a1c374b240",
         "size": [
           1060,
           1484
@@ -7950,7 +8520,7 @@
         "path": "public/assets/cards/downloads/saiyan-168-krillin.webp",
         "before_url": "/assets/cards/downloads/saiyan-168-krillin.webp?v=034f81eb0633",
         "before_sha256": "034f81eb06338c21b0caddd3b76fce1b93093f3760eee88bdbd4274413d2d025",
-        "after_sha256": "d1ed48e0188858c487009f3f0cbae5e3c82077692effe6a436b9a30e4806add1",
+        "after_sha256": "09ace82c1ad9b04ba1e38e9b9d98332f5955a82965b12f957748af27a0f048d2",
         "size": [
           2120,
           2968
@@ -8212,6 +8782,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-168-krillin",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-168-krillin.svg",
+      "before_native_sha256": "579287a8e50ffaa12e5a105653de06e69319fd549b34f16b530aff2909e95761",
+      "after_native_sha256": "5e8816c33123f2f4f7fa7eeffa2e8a1ac9639a1859bb4b8f8f0dba5222cffc11",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-168-krillin.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "3744965a34cfce35a6575b8f39c97eefc65814e9f3043106fb9b59471d2aee98",
+          "after_sha256": "db5a5bf5b545d3b6758be0e98942aa99db910989c852e450940d86a1c374b240",
+          "changed_pixels": 95856,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-168-krillin.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "d1ed48e0188858c487009f3f0cbae5e3c82077692effe6a436b9a30e4806add1",
+          "after_sha256": "09ace82c1ad9b04ba1e38e9b9d98332f5955a82965b12f957748af27a0f048d2",
+          "changed_pixels": 362397,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -8219,7 +8846,7 @@
     "id": "saiyan-169-krillin",
     "name": "Krillin",
     "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-169-krillin.svg",
-    "native_source_sha256": "01d93a3729cc5ad52c529583361fcf5214f66d26d9d0db9ccd162f437697b59a",
+    "native_source_sha256": "4b8976f85441de40bdeb8ac75f0d12109edd565a2008fdcbc6aa2478c7a155f2",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
@@ -8425,7 +9052,7 @@
         "path": "public/assets/cards/saiyan-169-krillin.webp",
         "before_url": "/assets/cards/saiyan-169-krillin.webp?v=e9747f689bf2",
         "before_sha256": "e9747f689bf2be2b224ef0cb634588090706a9417b24822b363daa55dcf6f0a6",
-        "after_sha256": "17a83af107a0b55dceabf807d0eda811a6502f11c2cda565e60a1154728f9585",
+        "after_sha256": "95362c8228fa5afb942fa039405e95b4b413d9385b82e87927c34a624bf222c4",
         "size": [
           1060,
           1484
@@ -8437,7 +9064,7 @@
         "path": "public/assets/cards/downloads/saiyan-169-krillin.webp",
         "before_url": "/assets/cards/downloads/saiyan-169-krillin.webp?v=b1ae623b02d9",
         "before_sha256": "b1ae623b02d9d9ce32a81d61ff0fd9a111120aa00fe3334bea60299ff6a3576e",
-        "after_sha256": "bd6491bbafd9497b340a8075a7e7d966f0926509424709422719e7d22a1d69f2",
+        "after_sha256": "64ae0f7c69da82ff38122e0138b88eed347a7e0ab131c400c2708a461f57f5c0",
         "size": [
           2120,
           2968
@@ -8699,6 +9326,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-169-krillin",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-151-170/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-151-170/saiyan-169-krillin.svg",
+      "before_native_sha256": "01d93a3729cc5ad52c529583361fcf5214f66d26d9d0db9ccd162f437697b59a",
+      "after_native_sha256": "4b8976f85441de40bdeb8ac75f0d12109edd565a2008fdcbc6aa2478c7a155f2",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-169-krillin.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "17a83af107a0b55dceabf807d0eda811a6502f11c2cda565e60a1154728f9585",
+          "after_sha256": "95362c8228fa5afb942fa039405e95b4b413d9385b82e87927c34a624bf222c4",
+          "changed_pixels": 95757,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-169-krillin.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "bd6491bbafd9497b340a8075a7e7d966f0926509424709422719e7d22a1d69f2",
+          "after_sha256": "64ae0f7c69da82ff38122e0138b88eed347a7e0ab131c400c2708a461f57f5c0",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {

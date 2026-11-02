@@ -1,3 +1,7 @@
+## Hero middle-bar blue — November 2, 2026
+
+All 73 current V3 Hero personalities, including Hi-Tech, use the approved reference-blue gradient: `#258bc9` at the top to `#15639d` at the bottom. Read `tools/card-templates/v3/references/hero-middle-blue.md`; preserve grain, transparent brush ends, current title spacing, HERO paths, PUR, artwork and all unrelated components. The color-only release is recorded in `tools/card-corrections/v3-hero-reference-blue/`. Follow each row’s `hero_blue_revision` for current source and export hashes; historical label and title audits remain immutable.
+
 ## Personality title clearance and dark Villain bar — November 2, 2026
 
 Read `tools/card-templates/v3/references/personality-title-and-color.md`. Personality titles (including Hi-Tech) use a maximum 640-unit visible width at x209.5–849.5, reduce font size uniformly as needed, and remain visibly centered at (529.5,79). Preserve at least 40 units of LEVEL-number clearance and inspect staggered brush notches. Shorter fitting titles stay unchanged. Villain middle paint is now dark crimson `#a61122`, sampled to match the darker V2 Cell reference, with existing grain/contours and white VILLAIN lettering retained. This supersedes scarlet `#cc2119`. The current repair covers 61 Villain bars and 15 oversized titles across 66 cards; preserve the historical category revision and follow `personality_finish_revision` for current hashes.

@@ -2026,7 +2026,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-110-nail-the-namekian-hero.svg",
-    "native_source_sha256": "511c579bdefc31c9972f64f0393620494b07d8fcca8aba6ab19e079c0411f42e",
+    "native_source_sha256": "0650635c9ad843516afa698e52665b9a5cc8eef8d61e1214625bdf0539f6f977",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2251,7 +2251,7 @@
         "path": "public/assets/cards/frieza-110-nail-the-namekian-hero.webp",
         "before_url": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=b0f93794aba6",
         "before_sha256": "b0f93794aba6cfaeef38cb31d6c286bbac10fbad4b704b7e2a0e6d15830eb21a",
-        "after_sha256": "d06d6914c3d8ab1b2d6ef5dde9a195b6b747cef600848c470818ef93e7a107da",
+        "after_sha256": "32caf0d83e21ad0c664874bb938343d7b80d214d62640fb3a3cab68bcb7c7393",
         "size": [
           1060,
           1484
@@ -2263,7 +2263,7 @@
         "path": "public/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp",
         "before_url": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=4b232f1e6884",
         "before_sha256": "4b232f1e6884416f68111a732d58f5fb46d73cbde8d614d90ba5fb4606c4d3f6",
-        "after_sha256": "280c95ac2029be450b2c3ce9e8fef9dff88101571446ca8012f46b78fb3061a0",
+        "after_sha256": "47b3c0e77e12fed5516f5652d37d56e5d6ad26a915d674fd99dfe5045f9e6d8a",
         "size": [
           2120,
           2968
@@ -2488,6 +2488,63 @@
               "old_render_max_channel_difference": 0
             }
           ]
+        }
+      ]
+    },
+    "hero_blue_revision": {
+      "id": "frieza-110-nail-the-namekian-hero",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-110-nail-the-namekian-hero.svg",
+      "before_native_sha256": "511c579bdefc31c9972f64f0393620494b07d8fcca8aba6ab19e079c0411f42e",
+      "after_native_sha256": "0650635c9ad843516afa698e52665b9a5cc8eef8d61e1214625bdf0539f6f977",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-110-nail-the-namekian-hero.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d06d6914c3d8ab1b2d6ef5dde9a195b6b747cef600848c470818ef93e7a107da",
+          "after_sha256": "32caf0d83e21ad0c664874bb938343d7b80d214d62640fb3a3cab68bcb7c7393",
+          "changed_pixels": 96110,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 4
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "280c95ac2029be450b2c3ce9e8fef9dff88101571446ca8012f46b78fb3061a0",
+          "after_sha256": "47b3c0e77e12fed5516f5652d37d56e5d6ad26a915d674fd99dfe5045f9e6d8a",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
         }
       ]
     }
@@ -3890,7 +3947,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-117-nail-inspired.svg",
-    "native_source_sha256": "7e3e6f3a2312df5d89317d89131f10dfbf40eae21d8699651cd2e3e0112776ec",
+    "native_source_sha256": "9024a733d8f8ad6b3421260acf583bdbff0666942350f15fdca27879a9739481",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -4085,7 +4142,7 @@
         "path": "public/assets/cards/frieza-117-nail-inspired.webp",
         "before_url": "/assets/cards/frieza-117-nail-inspired.webp?v=9dacd836fd73",
         "before_sha256": "9dacd836fd7355afcb370df1c2ff27a4c183c1d51e0af6a1f0db0783d399c6b6",
-        "after_sha256": "bb852abaa48ce7e8dce8acbc8b69fa681128c57d53d12120640c5a3d57091dd1",
+        "after_sha256": "7e8368083592289ffe5f9a9cf908f88762f68838ca678764479571e34ae2335d",
         "size": [
           1060,
           1484
@@ -4097,7 +4154,7 @@
         "path": "public/assets/cards/downloads/frieza-117-nail-inspired.webp",
         "before_url": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=611afa7b71bf",
         "before_sha256": "611afa7b71bf9317c46e70a19a1b2937df2e68e62fd3acdfd3fba83b811a723b",
-        "after_sha256": "1aee6f8d98a7aa122d92a86a192f7d2e6a4df23d5932115d9f045a3b221f7580",
+        "after_sha256": "e3036b96f3ed2f7f65a9f3d670779ec7233ea9c0e021ae40a69f569584e7d635",
         "size": [
           2120,
           2968
@@ -4234,6 +4291,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "frieza-117-nail-inspired",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-117-nail-inspired.svg",
+      "before_native_sha256": "7e3e6f3a2312df5d89317d89131f10dfbf40eae21d8699651cd2e3e0112776ec",
+      "after_native_sha256": "9024a733d8f8ad6b3421260acf583bdbff0666942350f15fdca27879a9739481",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-117-nail-inspired.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "bb852abaa48ce7e8dce8acbc8b69fa681128c57d53d12120640c5a3d57091dd1",
+          "after_sha256": "7e8368083592289ffe5f9a9cf908f88762f68838ca678764479571e34ae2335d",
+          "changed_pixels": 95762,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-117-nail-inspired.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1aee6f8d98a7aa122d92a86a192f7d2e6a4df23d5932115d9f045a3b221f7580",
+          "after_sha256": "e3036b96f3ed2f7f65a9f3d670779ec7233ea9c0e021ae40a69f569584e7d635",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -6005,7 +6119,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-125-super-saiyan-goku.svg",
-    "native_source_sha256": "c8da449276b46c69112b31367c3a554cbe1c128daccaf531bc88793600dc2272",
+    "native_source_sha256": "0151e8ec10179831f864333252ad4121ad4a29ba3e160c34a8e1021eabcb8fe9",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -6237,7 +6351,7 @@
         "path": "public/assets/cards/frieza-125-super-saiyan-goku.webp",
         "before_url": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=fbec398b0bec",
         "before_sha256": "fbec398b0becbf7dc327215047d3fae59591d90586b0c3233e9aea0efad30ee0",
-        "after_sha256": "f4bc58dc05663c312402f9861eb37baf41240e5c85b344fd5cc9dd001da7bee4",
+        "after_sha256": "2cff195408420430be3baf882b2de2feb5969df1217eb7cef989053266496327",
         "size": [
           1060,
           1484
@@ -6249,7 +6363,7 @@
         "path": "public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp",
         "before_url": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=60c163968e83",
         "before_sha256": "60c163968e83e01f8d9fd2401900297370e86e62dce3231319189d0e920d5382",
-        "after_sha256": "38471bbe5915e32fae6daf8a1af3c08dd8ca4a3794ab5677b75847bedbab1856",
+        "after_sha256": "4273a7eeffc44bb2264b4336768d59215a36734c2b4f8a2e2d909addf8f9f25d",
         "size": [
           2120,
           2968
@@ -6386,6 +6500,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "frieza-125-super-saiyan-goku",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-frieza-101-125-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-125-super-saiyan-goku.svg",
+      "before_native_sha256": "c8da449276b46c69112b31367c3a554cbe1c128daccaf531bc88793600dc2272",
+      "after_native_sha256": "0151e8ec10179831f864333252ad4121ad4a29ba3e160c34a8e1021eabcb8fe9",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-125-super-saiyan-goku.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f4bc58dc05663c312402f9861eb37baf41240e5c85b344fd5cc9dd001da7bee4",
+          "after_sha256": "2cff195408420430be3baf882b2de2feb5969df1217eb7cef989053266496327",
+          "changed_pixels": 96225,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 3
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "38471bbe5915e32fae6daf8a1af3c08dd8ca4a3794ab5677b75847bedbab1856",
+          "after_sha256": "4273a7eeffc44bb2264b4336768d59215a36734c2b4f8a2e2d909addf8f9f25d",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {

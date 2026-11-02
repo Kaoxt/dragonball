@@ -23,7 +23,20 @@
     "font": "Michroma Regular",
     "size": 38.4,
     "stroke": 4.21875,
-    "hero_material": "Existing blue brush material retained",
+    "hero_material": {
+      "gradient": "hero-reference-blue",
+      "stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "coordinates": [
+        0,
+        0,
+        0,
+        100
+      ],
+      "preserve_grain_and_transparency": true
+    },
     "combat_material": "shared-brushed-charcoal-panel (same definition as title and footer)",
     "brush_ends": "True brush alpha reveals a single recovered full-card background image."
   },

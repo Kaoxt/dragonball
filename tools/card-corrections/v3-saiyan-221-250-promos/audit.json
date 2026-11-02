@@ -10030,7 +10030,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P1-goku-silver-variant.svg",
-    "native_source_sha256": "2652cf5dcf9ef1d2703305dde8b1a1d4daa04a182cdab7134333b6def8be3df4",
+    "native_source_sha256": "4fba0421215fe1ff59b84cfbade57c18518e9708165f40b55ebcded2de291939",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10259,7 +10259,7 @@
         "path": "public/assets/cards/saiyan-0P1-goku-silver-variant.webp",
         "before_url": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=ff4b130ab0a1",
         "before_sha256": "ff4b130ab0a17afe16c6610429782f2b32c79baf89562a1f359942496f2ef809",
-        "after_sha256": "ae6ce504f8252f2ce1d597493a836e0ad749da982a713a135c8535c66c27678b",
+        "after_sha256": "9b188010de06e46848d0af4b6d0ead09a54c9661d9ed46ba709a7fb150f05e97",
         "size": [
           1060,
           1484
@@ -10271,7 +10271,7 @@
         "path": "public/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp",
         "before_url": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=c67dd6c23687",
         "before_sha256": "c67dd6c23687aa35821bfe6709950d8b985ddf922fd602571d4a6d2eb9af6e8d",
-        "after_sha256": "0e9cd0b36ed0136f8754bf3df7cc04ecef73d6f18c0c66246208245aad4d3e5b",
+        "after_sha256": "057326fd0cf392a8bc858aa019dbf8bc3374cd6202cf98aa16abd03c0b74aa44",
         "size": [
           2120,
           2968
@@ -10503,6 +10503,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-0P1-goku-silver-variant",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P1-goku-silver-variant.svg",
+      "before_native_sha256": "2652cf5dcf9ef1d2703305dde8b1a1d4daa04a182cdab7134333b6def8be3df4",
+      "after_native_sha256": "4fba0421215fe1ff59b84cfbade57c18518e9708165f40b55ebcded2de291939",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-0P1-goku-silver-variant.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ae6ce504f8252f2ce1d597493a836e0ad749da982a713a135c8535c66c27678b",
+          "after_sha256": "9b188010de06e46848d0af4b6d0ead09a54c9661d9ed46ba709a7fb150f05e97",
+          "changed_pixels": 96222,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "0e9cd0b36ed0136f8754bf3df7cc04ecef73d6f18c0c66246208245aad4d3e5b",
+          "after_sha256": "057326fd0cf392a8bc858aa019dbf8bc3374cd6202cf98aa16abd03c0b74aa44",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -10512,7 +10569,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P2-piccolo-silver-variant.svg",
-    "native_source_sha256": "70ec1f60868255148519f08744d4f6c4f03e04fe92a9c946bfc9ea4d76ea7a73",
+    "native_source_sha256": "0e45c0c13fc862c6c9e6b75edabce34f6814d778bba38d90a90039623265bedb",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10777,7 +10834,7 @@
         "path": "public/assets/cards/saiyan-0P2-piccolo-silver-variant.webp",
         "before_url": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=f9814f239698",
         "before_sha256": "f9814f239698e9df37c50e7ef683248a70ea8117128858975c4dde849eb4e061",
-        "after_sha256": "69aecc198d6372135203dc32828f2d02450468da91227f2c1e7d04582eea5446",
+        "after_sha256": "b39e51fe6070430e9603a5fe5319c97c6d39dc907e95b6e0402dd70ac8ccafc0",
         "size": [
           1060,
           1484
@@ -10789,7 +10846,7 @@
         "path": "public/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp",
         "before_url": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=9e2e4a9b30db",
         "before_sha256": "9e2e4a9b30dbd2b91a1e8cd7f28c3bb04291c3d066fa14cfbc7191530decce7d",
-        "after_sha256": "cd0da750f6e8bb77f0dcd6ca43fbce7ea434f8c66c568efccd3011c3b1920b70",
+        "after_sha256": "74211d4bc07280249e707d21037f71cad21b2a895b89786e89923934fd26de2f",
         "size": [
           2120,
           2968
@@ -11021,6 +11078,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-0P2-piccolo-silver-variant",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P2-piccolo-silver-variant.svg",
+      "before_native_sha256": "70ec1f60868255148519f08744d4f6c4f03e04fe92a9c946bfc9ea4d76ea7a73",
+      "after_native_sha256": "0e45c0c13fc862c6c9e6b75edabce34f6814d778bba38d90a90039623265bedb",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-0P2-piccolo-silver-variant.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "69aecc198d6372135203dc32828f2d02450468da91227f2c1e7d04582eea5446",
+          "after_sha256": "b39e51fe6070430e9603a5fe5319c97c6d39dc907e95b6e0402dd70ac8ccafc0",
+          "changed_pixels": 96238,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "cd0da750f6e8bb77f0dcd6ca43fbce7ea434f8c66c568efccd3011c3b1920b70",
+          "after_sha256": "74211d4bc07280249e707d21037f71cad21b2a895b89786e89923934fd26de2f",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12236,7 +12350,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P5-gohan-silver-variant.svg",
-    "native_source_sha256": "2eb8eb6fc50446273dc27f787fa49118faf0b150c8a8e2b598376b9dfd728083",
+    "native_source_sha256": "b89a366b38f2d09d966ac276f6ff314a504b1ddd13d330d8db88f9ed79228971",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12423,7 +12537,7 @@
         "path": "public/assets/cards/saiyan-0P5-gohan-silver-variant.webp",
         "before_url": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=196c81f72d6e",
         "before_sha256": "196c81f72d6ef1f5934ebc650184addb15e2194fa1b12936f50fe3d3621c6d89",
-        "after_sha256": "f6accfca4916aed9ebb2880ac9e4d8b674ed91ad780c51eb7387bb5ed7dff642",
+        "after_sha256": "c3097e79033c5c69ac189654eb7a7cc901759a11cbb7ae7b97dc9d0699dbb8b3",
         "size": [
           1060,
           1484
@@ -12435,7 +12549,7 @@
         "path": "public/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp",
         "before_url": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=ad1c0b2d1696",
         "before_sha256": "ad1c0b2d1696dedb65a66b18b1bd84df2bed816a8283c1cac5ddd5e61395ba94",
-        "after_sha256": "d604c51b12cdec5009710d5ab4bdf212c27b11b4268189ed8ce353dfb0399a2f",
+        "after_sha256": "c85cb80af8582269120a3600c9134e72337ddeae7a4cd2e9b91f9e8e965bd469",
         "size": [
           2120,
           2968
@@ -12667,6 +12781,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-0P5-gohan-silver-variant",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P5-gohan-silver-variant.svg",
+      "before_native_sha256": "2eb8eb6fc50446273dc27f787fa49118faf0b150c8a8e2b598376b9dfd728083",
+      "after_native_sha256": "b89a366b38f2d09d966ac276f6ff314a504b1ddd13d330d8db88f9ed79228971",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-0P5-gohan-silver-variant.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "f6accfca4916aed9ebb2880ac9e4d8b674ed91ad780c51eb7387bb5ed7dff642",
+          "after_sha256": "c3097e79033c5c69ac189654eb7a7cc901759a11cbb7ae7b97dc9d0699dbb8b3",
+          "changed_pixels": 96204,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "d604c51b12cdec5009710d5ab4bdf212c27b11b4268189ed8ce353dfb0399a2f",
+          "after_sha256": "c85cb80af8582269120a3600c9134e72337ddeae7a4cd2e9b91f9e8e965bd469",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12676,7 +12847,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P6-krillin-silver-variant.svg",
-    "native_source_sha256": "ce9af7736945e2d0f19094c62b08f37683a6e34b671507d0983062150a5640ea",
+    "native_source_sha256": "914414b0a5267461c139ba9ffd5d47d6624d944feb8378fb39075d494d1a4d5c",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12863,7 +13034,7 @@
         "path": "public/assets/cards/saiyan-0P6-krillin-silver-variant.webp",
         "before_url": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=cfa3dcf447a6",
         "before_sha256": "cfa3dcf447a68e4b13cc491207decb840935a8b0fcecf1f334d2569c4fc08458",
-        "after_sha256": "94bec12fa5c65d71e3552e3dc9106773996b1f1e6a6aac9def3f1358e830cbb2",
+        "after_sha256": "d724ec303602a42135e20f04127c31411ae03f66c3bc691df337687beacf25e6",
         "size": [
           1060,
           1484
@@ -12875,7 +13046,7 @@
         "path": "public/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp",
         "before_url": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=bdebb8fe605d",
         "before_sha256": "bdebb8fe605d6b79f6f2031dee352399eea4c788ac34a95ea36244abbf54f06e",
-        "after_sha256": "2c11cdc0d4a80af2346d9f011b3fb3d0a7332e445714dd65b193ab8cc855ec15",
+        "after_sha256": "2a8130c9f9f4c975bd3fa5a129da89fedeaf990dab638eeb7672dffc6f3fa7dd",
         "size": [
           2120,
           2968
@@ -13107,6 +13278,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "saiyan-0P6-krillin-silver-variant",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-saiyan-221-250-promos/audit.json",
+      "native_source_path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-0P6-krillin-silver-variant.svg",
+      "before_native_sha256": "ce9af7736945e2d0f19094c62b08f37683a6e34b671507d0983062150a5640ea",
+      "after_native_sha256": "914414b0a5267461c139ba9ffd5d47d6624d944feb8378fb39075d494d1a4d5c",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-0P6-krillin-silver-variant.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "94bec12fa5c65d71e3552e3dc9106773996b1f1e6a6aac9def3f1358e830cbb2",
+          "after_sha256": "d724ec303602a42135e20f04127c31411ae03f66c3bc691df337687beacf25e6",
+          "changed_pixels": 96179,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2c11cdc0d4a80af2346d9f011b3fb3d0a7332e445714dd65b193ab8cc855ec15",
+          "after_sha256": "2a8130c9f9f4c975bd3fa5a129da89fedeaf990dab638eeb7672dffc6f3fa7dd",
+          "changed_pixels": 363787,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {

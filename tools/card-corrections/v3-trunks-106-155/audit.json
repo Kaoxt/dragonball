@@ -10996,7 +10996,7 @@
     "name": "Trunks, the Hero",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-150-trunks-the-hero.svg",
-    "native_source_sha256": "719a6f101ea9b286ee89645e3ae765caabd5d7d7b4ee541374bcbfac61f617d7",
+    "native_source_sha256": "795ffb7bad86d219a6b44d1d90fab45e6349dec362b512e4442a584b35f93c5f",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11233,7 +11233,7 @@
         "path": "public/assets/cards/trunks-150-trunks-the-hero.webp",
         "before_url": "/assets/cards/trunks-150-trunks-the-hero.webp?v=2414a073d389",
         "before_sha256": "2414a073d389c77e26b53fe4e1a621a243c20cbdccba2a4b216ae1df58f6dc10",
-        "after_sha256": "d01f6849d27618a062bd1195380b4a620fe4884a51239dca74f26272fc028bb3",
+        "after_sha256": "ccc0d363477ea44337040e914a3f22484357131f488aaf46440c3c45427bd038",
         "size": [
           1060,
           1484
@@ -11245,7 +11245,7 @@
         "path": "public/assets/cards/downloads/trunks-150-trunks-the-hero.webp",
         "before_url": "/assets/cards/downloads/trunks-150-trunks-the-hero.webp?v=da1a80e0cb62",
         "before_sha256": "da1a80e0cb629342dc6cb03583471e4aa4efc2f659eb046fcc32342db4c6093c",
-        "after_sha256": "846bf6003a91bdf0c6a79035e41edd8cd2978fc70829b464382f32a714b30077",
+        "after_sha256": "1b53d607740955c18b05bae183592a31dc55305520281241f87efe8e37e02600",
         "size": [
           2120,
           2968
@@ -11375,6 +11375,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "trunks-150-trunks-the-hero",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-150-trunks-the-hero.svg",
+      "before_native_sha256": "719a6f101ea9b286ee89645e3ae765caabd5d7d7b4ee541374bcbfac61f617d7",
+      "after_native_sha256": "795ffb7bad86d219a6b44d1d90fab45e6349dec362b512e4442a584b35f93c5f",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-150-trunks-the-hero.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "d01f6849d27618a062bd1195380b4a620fe4884a51239dca74f26272fc028bb3",
+          "after_sha256": "ccc0d363477ea44337040e914a3f22484357131f488aaf46440c3c45427bd038",
+          "changed_pixels": 95910,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 3
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-150-trunks-the-hero.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "846bf6003a91bdf0c6a79035e41edd8cd2978fc70829b464382f32a714b30077",
+          "after_sha256": "1b53d607740955c18b05bae183592a31dc55305520281241f87efe8e37e02600",
+          "changed_pixels": 362661,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -11400,7 +11457,7 @@
     "name": "Vegeta, Saiyan Prince",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-151-vegeta-saiyan-prince.svg",
-    "native_source_sha256": "05da06521d0bb14e5bb505a6f0a344fdb2c1fe1a0219dc520284cc65445e07f7",
+    "native_source_sha256": "572a2f341aa7c8f06a4b785ea942e9c7ab998dfeef1e397cc730911f7b807674",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11637,7 +11694,7 @@
         "path": "public/assets/cards/trunks-151-vegeta-saiyan-prince.webp",
         "before_url": "/assets/cards/trunks-151-vegeta-saiyan-prince.webp?v=4b251b0bc6c7",
         "before_sha256": "4b251b0bc6c70b2b78dd5950ad7a96469485133b1418833f66eb4c63c27bb300",
-        "after_sha256": "eb68a559a100451dae3475a83e03b1dddac2adf7e47762af8a53cebc256cc2dc",
+        "after_sha256": "bace97fe2edfb62bc524b344a507bd2d0c7bf2defce59523fd6207e2e9502a48",
         "size": [
           1060,
           1484
@@ -11649,7 +11706,7 @@
         "path": "public/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp",
         "before_url": "/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp?v=a78308169c81",
         "before_sha256": "a78308169c8135cf41d597937ab077e4e130a057a95f4651f14fbdb136d246e3",
-        "after_sha256": "2cb7681b8d9624edf13d608add20250a41794d5f71c6e867bbaf9e99fd154fc8",
+        "after_sha256": "9ce2d29a35a1f2334760583e54dc1b7e55864b54abe9291944fbbeff07813619",
         "size": [
           2120,
           2968
@@ -11869,6 +11926,63 @@
           ]
         }
       ]
+    },
+    "hero_blue_revision": {
+      "id": "trunks-151-vegeta-saiyan-prince",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-151-vegeta-saiyan-prince.svg",
+      "before_native_sha256": "05da06521d0bb14e5bb505a6f0a344fdb2c1fe1a0219dc520284cc65445e07f7",
+      "after_native_sha256": "572a2f341aa7c8f06a4b785ea942e9c7ab998dfeef1e397cc730911f7b807674",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-151-vegeta-saiyan-prince.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "eb68a559a100451dae3475a83e03b1dddac2adf7e47762af8a53cebc256cc2dc",
+          "after_sha256": "bace97fe2edfb62bc524b344a507bd2d0c7bf2defce59523fd6207e2e9502a48",
+          "changed_pixels": 95859,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-151-vegeta-saiyan-prince.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2cb7681b8d9624edf13d608add20250a41794d5f71c6e867bbaf9e99fd154fc8",
+          "after_sha256": "9ce2d29a35a1f2334760583e54dc1b7e55864b54abe9291944fbbeff07813619",
+          "changed_pixels": 362661,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -11894,7 +12008,7 @@
     "name": "Gohan Empowered",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-152-gohan-empowered.svg",
-    "native_source_sha256": "e5dd70edb5a4771c159e15829fffbe70d0993da6b56347d2742ae7488b71be69",
+    "native_source_sha256": "2abe692b01fa5dc0a0791b02578d72b2423027ede3b4f4bf33880292f8eecaa0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12089,7 +12203,7 @@
         "path": "public/assets/cards/trunks-152-gohan-empowered.webp",
         "before_url": "/assets/cards/trunks-152-gohan-empowered.webp?v=dadb2558650f",
         "before_sha256": "dadb2558650f937cc4c3edbcf349e79af753d22aa4d705e61ff540ba8f833b88",
-        "after_sha256": "114743b70c1d15d171fb0ea490330a90e7ec5fe7c8cc8e6c78305ac92027a710",
+        "after_sha256": "433c0cc34a34afb243ec3c4db0b24cc14a6c373254651d50cd77e7daa5714acd",
         "size": [
           1060,
           1484
@@ -12101,7 +12215,7 @@
         "path": "public/assets/cards/downloads/trunks-152-gohan-empowered.webp",
         "before_url": "/assets/cards/downloads/trunks-152-gohan-empowered.webp?v=da1da1711e7f",
         "before_sha256": "da1da1711e7fc3b11a0c32a2cd9bf5c78631ccec1ea673d1f138266acb88bc2f",
-        "after_sha256": "12cfb37eb49fe080d9a54cfae8f4c130295e7bf38192839ea2522279cd042b08",
+        "after_sha256": "c5f13d0f43d44a524fa17aff3a87de4e7bdc0806f8ccc88122e687f242e2cdcb",
         "size": [
           2120,
           2968
@@ -12231,6 +12345,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "trunks-152-gohan-empowered",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-152-gohan-empowered.svg",
+      "before_native_sha256": "e5dd70edb5a4771c159e15829fffbe70d0993da6b56347d2742ae7488b71be69",
+      "after_native_sha256": "2abe692b01fa5dc0a0791b02578d72b2423027ede3b4f4bf33880292f8eecaa0",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-152-gohan-empowered.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "114743b70c1d15d171fb0ea490330a90e7ec5fe7c8cc8e6c78305ac92027a710",
+          "after_sha256": "433c0cc34a34afb243ec3c4db0b24cc14a6c373254651d50cd77e7daa5714acd",
+          "changed_pixels": 95822,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 3
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-152-gohan-empowered.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "12cfb37eb49fe080d9a54cfae8f4c130295e7bf38192839ea2522279cd042b08",
+          "after_sha256": "c5f13d0f43d44a524fa17aff3a87de4e7bdc0806f8ccc88122e687f242e2cdcb",
+          "changed_pixels": 362171,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12256,7 +12427,7 @@
     "name": "Piccolo Enraged",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-153-piccolo-enraged.svg",
-    "native_source_sha256": "ee498e27c0175b95763f6f7e0419edadd3bf9351f1c6a53577fa79eab4ef0bee",
+    "native_source_sha256": "027c54ccc1f6ca06f184a6a346ef6b68e5b350c1f48f0a225e72551c2804dfb6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12481,7 +12652,7 @@
         "path": "public/assets/cards/trunks-153-piccolo-enraged.webp",
         "before_url": "/assets/cards/trunks-153-piccolo-enraged.webp?v=425e51e14a49",
         "before_sha256": "425e51e14a49accb3a7649f5e821ee9302e21b9b35dd9035e82cb42bdfb900ec",
-        "after_sha256": "ba6f49c6a246695156612bcf9d9f51ae61d54e8152e774c4428cb5d7bbc7aa96",
+        "after_sha256": "b6fcf5357847791b55e62a327d0f72e86987fab82097f46c11e994c567af0da6",
         "size": [
           1060,
           1484
@@ -12493,7 +12664,7 @@
         "path": "public/assets/cards/downloads/trunks-153-piccolo-enraged.webp",
         "before_url": "/assets/cards/downloads/trunks-153-piccolo-enraged.webp?v=c6f296954c0c",
         "before_sha256": "c6f296954c0c0385b01c81be2b8be493bd193d77016d996005085e6705bdc439",
-        "after_sha256": "1c7d32c90602d6f5acd88583f341ab7452bb523e108cbb67897551157d483c99",
+        "after_sha256": "f4d250d30d33720a9cafa2d9ce7d387d02fcebb653650e6fe4270130b0f38286",
         "size": [
           2120,
           2968
@@ -12623,6 +12794,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "trunks-153-piccolo-enraged",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-153-piccolo-enraged.svg",
+      "before_native_sha256": "ee498e27c0175b95763f6f7e0419edadd3bf9351f1c6a53577fa79eab4ef0bee",
+      "after_native_sha256": "027c54ccc1f6ca06f184a6a346ef6b68e5b350c1f48f0a225e72551c2804dfb6",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-153-piccolo-enraged.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ba6f49c6a246695156612bcf9d9f51ae61d54e8152e774c4428cb5d7bbc7aa96",
+          "after_sha256": "b6fcf5357847791b55e62a327d0f72e86987fab82097f46c11e994c567af0da6",
+          "changed_pixels": 95753,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-153-piccolo-enraged.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1c7d32c90602d6f5acd88583f341ab7452bb523e108cbb67897551157d483c99",
+          "after_sha256": "f4d250d30d33720a9cafa2d9ce7d387d02fcebb653650e6fe4270130b0f38286",
+          "changed_pixels": 362171,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -12648,7 +12876,7 @@
     "name": "Krillin",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-154-krillin.svg",
-    "native_source_sha256": "efa19856e1a0fd0845eaf67c90e784a72dac25a320e9144973ef0834445ed077",
+    "native_source_sha256": "442ef1488bdfad75b0dcb120f16a72e0736e15c9e6750d2934c440ad84f29c65",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -12885,7 +13113,7 @@
         "path": "public/assets/cards/trunks-154-krillin.webp",
         "before_url": "/assets/cards/trunks-154-krillin.webp?v=a1c100f4f145",
         "before_sha256": "a1c100f4f1451c6379be5f4b1d9090fb34adedb0f19425188bc2554396e53cea",
-        "after_sha256": "61a5a2e3ca209b1d0f50cbe1d9a884fae0f3bb631ae118a40b4771d650869a97",
+        "after_sha256": "515694f311993023dd098935af16b2d1d8d7558306c6198fe5f3a0a6f8a693f9",
         "size": [
           1060,
           1484
@@ -12897,7 +13125,7 @@
         "path": "public/assets/cards/downloads/trunks-154-krillin.webp",
         "before_url": "/assets/cards/downloads/trunks-154-krillin.webp?v=226cec09c91d",
         "before_sha256": "226cec09c91d68fa00bdc24c70f006babb68dbe3c73a4363a2ef770e3a4b9f6c",
-        "after_sha256": "372551cfe5ee69fa0e61d8cf8ced00d0a72ef93f8e697a8ead2aeeb988289ab1",
+        "after_sha256": "efdd748933c61c361f779947c6c0e035f124479dd82fab6571afb759e4b26d04",
         "size": [
           2120,
           2968
@@ -13027,6 +13255,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "trunks-154-krillin",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-154-krillin.svg",
+      "before_native_sha256": "efa19856e1a0fd0845eaf67c90e784a72dac25a320e9144973ef0834445ed077",
+      "after_native_sha256": "442ef1488bdfad75b0dcb120f16a72e0736e15c9e6750d2934c440ad84f29c65",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-154-krillin.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "61a5a2e3ca209b1d0f50cbe1d9a884fae0f3bb631ae118a40b4771d650869a97",
+          "after_sha256": "515694f311993023dd098935af16b2d1d8d7558306c6198fe5f3a0a6f8a693f9",
+          "changed_pixels": 95806,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-154-krillin.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "372551cfe5ee69fa0e61d8cf8ced00d0a72ef93f8e697a8ead2aeeb988289ab1",
+          "after_sha256": "efdd748933c61c361f779947c6c0e035f124479dd82fab6571afb759e4b26d04",
+          "changed_pixels": 362097,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   },
   {
@@ -13052,7 +13337,7 @@
     "name": "Krillin Enraged",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-155-krillin-enraged.svg",
-    "native_source_sha256": "130234e55cc8088a327f7993e62ff646ef297ba5ba53ab2872c2cfb123c3cc32",
+    "native_source_sha256": "c9827612a3fd0d0f909c86ec7a28c2879853c928fd6235935f1b74e05f3f65c0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -13277,7 +13562,7 @@
         "path": "public/assets/cards/trunks-155-krillin-enraged.webp",
         "before_url": "/assets/cards/trunks-155-krillin-enraged.webp?v=8f1fca10be6e",
         "before_sha256": "8f1fca10be6e956b6aa69e75d0ab00844e679181893bdb70872fae4fd9439f03",
-        "after_sha256": "4d72afae9c9a839eb7d29f9912973232e3f03f8ebcd5720dc7f4c4c0750de256",
+        "after_sha256": "d7c13f8e3f665f68e34991ada7d64ef3ffc6c9b45b1aff5ddb1f9ac4dfe2ea67",
         "size": [
           1060,
           1484
@@ -13289,7 +13574,7 @@
         "path": "public/assets/cards/downloads/trunks-155-krillin-enraged.webp",
         "before_url": "/assets/cards/downloads/trunks-155-krillin-enraged.webp?v=8739272317ee",
         "before_sha256": "8739272317ee0e5d934fc1e16932fc39496970180e149ca01411b71b0fcac0bb",
-        "after_sha256": "3d7c6ba31ed0d1e706d0fbe3fd5ba4d4522243755e7a40e29c9357aef55f5161",
+        "after_sha256": "2878b5b0b85f3c3774c6a31de59b7e70c3d8787ce6daf04ef06acf6cc20f949e",
         "size": [
           2120,
           2968
@@ -13419,6 +13704,63 @@
         }
       ],
       "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json"
+    },
+    "hero_blue_revision": {
+      "id": "trunks-155-krillin-enraged",
+      "revision": "2026-11-02-hero-reference-blue",
+      "audit_path": "tools/card-corrections/v3-trunks-106-155/audit.json",
+      "native_source_path": "tools/card-templates/v3/trunks-106-155/trunks-155-krillin-enraged.svg",
+      "before_native_sha256": "130234e55cc8088a327f7993e62ff646ef297ba5ba53ab2872c2cfb123c3cc32",
+      "after_native_sha256": "c9827612a3fd0d0f909c86ec7a28c2879853c928fd6235935f1b74e05f3f65c0",
+      "hero_blue_stops": [
+        "#258bc9",
+        "#15639d"
+      ],
+      "unrelated_native_elements_unchanged": true,
+      "helper_idempotent": true,
+      "assets_unchanged": true,
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-155-krillin-enraged.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "4d72afae9c9a839eb7d29f9912973232e3f03f8ebcd5720dc7f4c4c0750de256",
+          "after_sha256": "d7c13f8e3f665f68e34991ada7d64ef3ffc6c9b45b1aff5ddb1f9ac4dfe2ea67",
+          "changed_pixels": 95876,
+          "changed_pixel_bounds": [
+            32,
+            849,
+            1033,
+            968
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-155-krillin-enraged.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "3d7c6ba31ed0d1e706d0fbe3fd5ba4d4522243755e7a40e29c9357aef55f5161",
+          "after_sha256": "2878b5b0b85f3c3774c6a31de59b7e70c3d8787ce6daf04ef06acf6cc20f949e",
+          "changed_pixels": 362661,
+          "changed_pixel_bounds": [
+            64,
+            1704,
+            2062,
+            1930
+          ],
+          "pixels_changed_outside_middle_paint": 0,
+          "lossless_round_trip": true,
+          "old_render_max_channel_difference": 2
+        }
+      ]
     }
   }
 ]
