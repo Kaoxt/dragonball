@@ -1,0 +1,31 @@
+{
+  "name": "Flipside secondary banner text",
+  "approved_reference": "tools/banner-corrections/gameplay-discussion-fitted-shadow",
+  "font": {
+    "family": "Flipside",
+    "source_page": "https://resourceboy.com/fonts/flipside-font/",
+    "download_url": "https://fonts.resourceboy.com/file/rb-fonts/2024/08/58988/Flipside-Font.zip",
+    "sha256": "d91729663a0bbb9013c6922030a2c7c0db9168fd59ccfa522d4903c46281e8f6",
+    "synthetic_bold": false,
+    "case": "uppercase"
+  },
+  "text_color": "#f9f9f9",
+  "shadow_color": "#060505",
+  "lower_stroke_repair": {
+    "padding": 12,
+    "closing_kernel_yx": [5, 5],
+    "start_height_fraction": 0.66,
+    "ramp_height_fraction": 0.18,
+    "opacity_threshold": 25,
+    "opacity_gain": 2.2
+  },
+  "shadow": {
+    "maximum_filter_yx": [15, 25],
+    "gaussian_sigma": 6,
+    "opacity": 0.9
+  },
+  "presets": {
+    "desktop": {"width": 2179, "height": 330, "font_size": 78, "x": 65, "y": 258},
+    "mobile": {"width": 1920, "height": 384, "font_size": 69, "x": 58, "y": 320}
+  }
+}

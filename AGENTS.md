@@ -1,3 +1,7 @@
+# Secondary banner text
+
+For future banner captions, taglines and secondary headings, read `tools/banner-templates/secondary-text/README.md` and use its reusable renderer and `style.json`. The approved standard is actual Flipside at its original weight, with solid lower letter strokes and a soft shadow generated from the exact current words. Never add synthetic bold, fade the letter bottoms, or reuse an old phrase's shadow. Preserve unrelated artwork, logos, layout and pixels. The approved reference is the Gameplay Discussion fitted-shadow revision; primary logo typography remains separate.
+
 # Card production
 
 Trunks Saga 156–200 and P1–P5 now use current V3; evidence is in `tools/card-corrections/v3-trunks-156-200-p1-p5/`. Preserve the separate approved #159 hand/wrist/cuff layer, #166 close framing, #192 reaching pose and corrected top stages 1,200,000/1,100,000, and #195 white armor/blue sleeves. New native masks retain expression repairs on #156/#165/#200, distant onlookers on #172, sky repairs on #185/#186/#189/P2/P3/P4, and Hi-Tech foreground/costume repairs on #191/#196/#197/#199. Keep all 43 original Personality value sets, the bold 4/5 numeral outlines, six-star rarity on #156–160, four stars on #161–200, and two stars on P1–P5. The CRD timing for Goku #164/#165 and separate shield/constant text on #166 are recorded. Both lossless exports and all repair masks are independently verified; original-scan limitations remain per card.
