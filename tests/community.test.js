@@ -14,6 +14,28 @@ import { recordTopicView } from '../src/community/topic-views.js';
 function storage(){const db=new DatabaseSync(':memory:');return {sql:{exec(query,...args){const p=db.prepare(query);let values;try{values=p.all(...args);}catch(e){throw e;}return {toArray:()=>values};}},transactionSync(fn){db.exec('SAVEPOINT tx');try{const r=fn();db.exec('RELEASE tx');return r;}catch(e){db.exec('ROLLBACK TO tx; RELEASE tx');throw e;}}};}
 async function fixture(){const env={DB:database(storage()),OWNER_SETUP_HASH:hash('test-owner-code')};authSchema(env.DB);await forumDb(env);const cookies={};return {env,cookies,async auth(who,action,data,origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/auth/'+action,{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':who,Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await authRequest(request,env);const cookie=r.headers.get('set-cookie');if(cookie)cookies[who]=cookie.split(';')[0];return {status:r.status,data:await r.json(),cookie};},async forum(who,data,params={},origin='https://dragonball.test'){const request=new Request('https://dragonball.test/api/forum?'+new URLSearchParams(params),{method:data?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies[who]||''},...(data?{body:JSON.stringify(data)}:{})});const r=await(data?onRequestPost:onRequestGet)({env,request});return {status:r.status,data:await r.json()};},async register(who){const r=await this.auth(who,'register',{username:who,password:'My private password 123!'});assert.equal(r.status,201,JSON.stringify(r));return r;}};}
 const topic={action:'topic',categoryId:1,title:'My first Dragon Ball deck',body:'What do you think of this deck?'};
+test('card finish belongs to the account, survives a new session, and rejects foreign writes', async () => {
+ const f=await fixture();await f.register('alice');await f.register('bob');
+ const initial=await f.auth('alice','card-finish');
+ assert.equal(initial.data.finish,'foil');
+ const userId=initial.data.userId;
+ assert.equal((await f.auth('alice','card-finish',{userId,finish:'regular'})).status,200);
+ assert.equal((await f.auth('alice','card-finish')).data.finish,'regular');
+ assert.equal((await f.auth('bob','card-finish')).data.finish,'foil');
+ assert.equal((await f.auth('bob','card-finish',{userId,finish:'regular'})).status,409);
+ assert.equal((await f.auth('guest','card-finish',{userId,finish:'regular'})).status,401);
+ assert.equal((await f.auth('alice','card-finish',{userId,finish:'invalid'})).status,400);
+ assert.equal((await f.auth('alice','card-finish',{userId,finish:'foil'},'https://evil.test')).status,403);
+ await f.auth('new-device','login',{username:'alice',password:'My private password 123!'});
+ assert.equal((await f.auth('new-device','card-finish')).data.finish,'regular');
+ await f.auth('alice','profile',{displayName:'Alice updated'});
+ assert.equal((await f.auth('alice','card-finish')).data.finish,'regular');
+ authSchema(f.env.DB);
+ assert.equal((await f.auth('alice','card-finish')).data.finish,'regular','schema is safe to repeat');
+ await f.auth('new-device','card-finish',{userId,finish:'foil'});
+ assert.equal((await f.auth('alice','card-finish')).data.finish,'foil');
+ assert.deepEqual((await f.auth('guest','card-finish')).data,{userId:null,finish:'foil'});
+});
 test('Turnstile protects login and recovery before session or password changes',async t=>{
  const f=await fixture(),created=await f.register('alice');
  const oldCookie=f.cookies.alice;

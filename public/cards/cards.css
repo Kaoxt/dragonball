@@ -27,3 +27,14 @@
 .cards-pagination a:hover{background:#302029;border-color:#c3243a}.cards-pagination a[aria-current="page"]{background:#a91e32;border-color:#cf344c;color:#fff}.cards-pagination a:focus-visible{outline:2px solid #ff949d;outline-offset:3px}.cards-pagination [aria-disabled]{opacity:.45}.cards-pagination .pagination-gap{min-width:12px;padding:0;border:0;background:transparent}
 #card-browser{scroll-margin-top:20px}#results-count:focus{outline:none}#pagination-bottom{margin:36px 0 12px}
 @media(max-width:650px){.cards-pagination{gap:5px}.cards-pagination a,.cards-pagination span{min-width:36px;min-height:44px;padding:8px;font-size:12px}}
+
+/* Same segmented control as the Rulebook's card-type chooser. */
+#card-finish-controls{width:min(100%,300px);margin:12px auto 0}
+#card-detail .card-finish-switcher{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;padding:6px;border:1px solid var(--surface-border,#ffffff1f);border-radius:18px;background:var(--surface-panel,#191919);box-shadow:0 5px 12px #0003}
+#card-detail .card-finish-switcher button{display:flex;align-items:center;justify-content:center;min-width:0;min-height:44px;margin:0;padding:10px 13px;border:1px solid transparent;border-radius:12px;background:transparent;color:#bdb8bd;font:600 13px/1.4 var(--font-ui);text-transform:none;letter-spacing:normal;box-shadow:none;transform:none}
+#card-detail .card-finish-switcher button:hover{background:#353137;border-color:#65515b;color:#f5f5f5}
+#card-detail .card-finish-switcher button[aria-pressed=true]{background:#87253f;border-color:#ac3654;color:#f5f5f5}
+#card-detail .card-finish-switcher button[aria-pressed=true]:hover{background:#a52c4b;border-color:#c14965}
+#card-detail .card-finish-switcher button:focus-visible{outline:2px solid #ffabbf;outline-offset:-3px}
+#card-detail .card-finish-switcher button:disabled{cursor:wait;opacity:.65}
+#card-finish-status{margin:10px 0 0;text-align:center}

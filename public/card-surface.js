@@ -46,7 +46,7 @@ export function setupCardSurface(image) {
     effects.children[1].append(reflection);
   }
   face.append(effects);
-  let lastX, lastY, ultraFoil, ultraRare = false;
+  let lastX, lastY, ultraFoil, ultraRare = false, selectedFinish = 'foil';
   function reflect(x = 0, y = 0) {
     if (ultraRare) {ultraFoil?.reflect(x, y);return;}
     if (effects.hidden || (x === lastX && y === lastY)) return;
@@ -66,10 +66,11 @@ export function setupCardSurface(image) {
   function refresh() {
     const source = image.getAttribute('src');
     const card = finishForImage(source, globalThis.location?.origin || 'https://dragonballocg.com');
-    ultraRare = isUltraRare(card);
-    element.dataset.finish = ultraRare ? 'ultra-rare' : card ? 'hi-tech' : 'standard';
+    const foiled = Boolean(card) && selectedFinish === 'foil';
+    ultraRare = foiled && isUltraRare(card);
+    element.dataset.finish = ultraRare ? 'ultra-rare' : foiled ? 'hi-tech' : 'standard';
     element.dataset.foilMask = card?.id === 'trunks-195-vegeta' ? 'vegeta' : 'personality';
-    effects.hidden = !card;
+    effects.hidden = !foiled;
     if (ultraRare) {
       element.style.setProperty('--ultra-mask', `url("${ultraRareMask(card)}")`);
       ultraFoil ||= createUltraRareFoil(image, effects);
@@ -87,5 +88,10 @@ export function setupCardSurface(image) {
   refresh();
   image.addEventListener('load', refresh);
   image.addEventListener('error', () => {element.hidden = true;ultraFoil?.clear();});
-  return {element, effects, reflect, refresh};
+  function setFinish(value) {
+    if (!['foil', 'regular'].includes(value) || value === selectedFinish) return;
+    selectedFinish = value;
+    refresh();
+  }
+  return {element, effects, reflect, refresh, setFinish};
 }

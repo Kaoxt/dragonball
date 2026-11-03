@@ -1,7 +1,10 @@
-import {setupCardSurface} from './card-surface.js?v=20261103-ultra-rare';
+import {setupCardSurface} from './card-surface.js?v=20261103-finish-choice';
+
+const controllers = new WeakMap();
 
 // Shared physical-card interaction for enlarged previews only.
 export function setupCardMotion(stage) {
+  if (controllers.has(stage)) return controllers.get(stage);
   const image = stage.querySelector('img');
   if (!image || stage.dataset.motionReady) return;
   stage.dataset.motionReady = 'true';
@@ -103,7 +106,9 @@ export function setupCardMotion(stage) {
   const observer = new MutationObserver(() => {surface.refresh();reset();});
   observer.observe(image, {attributes: true, attributeFilter: ['src']});
   if (dialog) observer.observe(dialog, {attributes: true, attributeFilter: ['open']});
-  return {reset, surface};
+  const controller = {reset, surface};
+  controllers.set(stage, controller);
+  return controller;
 }
 
 if (typeof document !== 'undefined') document.querySelectorAll('[data-card-motion]').forEach(setupCardMotion);

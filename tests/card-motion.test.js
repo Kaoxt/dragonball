@@ -209,3 +209,24 @@ test('ordinary cards skip foil work while Chromium retains the full Hi-Tech fini
   p.stage.fire('pointermove', {clientX:480});p.flush();
   assert.equal(writes, 0, 'stationary input does not repaint unchanged foil');
 });
+
+test('Regular suppresses both finishes across card changes while keeping tilt; Foil restores them', t => {
+  const p = preview(t);
+  assert.equal(setupCardMotion(p.stage), p.controller, 'one controller per stage');
+  p.controller.surface.setFinish('regular');
+  for (const source of ['/assets/cards/trunks-195-vegeta.webp', '/assets/cards/frieza-125-super-saiyan-goku.webp']) {
+    p.image.setAttribute('src', source);
+    p.observations.find(o => o.target === p.image).callback();
+    assert.equal(p.effects.hidden, true);
+    assert.equal(p.surface.dataset.finish, 'standard');
+    p.stage.fire('pointermove', {clientX:480});p.flush();
+    assert.match(p.surface.style.transform, /rotateY\(30deg\)/);
+    p.controller.surface.setFinish('foil');
+    assert.equal(p.effects.hidden, false);
+    p.controller.surface.setFinish('regular');
+    assert.equal(p.effects.hidden, true);
+  }
+  p.image.setAttribute('src', '/assets/cards/saiyan-155-goku.webp');
+  p.controller.surface.setFinish('foil');
+  assert.equal(p.effects.hidden, true, 'ordinary cards never gain a finish');
+});

@@ -28,6 +28,7 @@ export function authSchema(db){
   db.prepare('CREATE INDEX IF NOT EXISTS auth_limits_age ON auth_limits(window_start)'),
   db.prepare(`CREATE TABLE IF NOT EXISTS auth_settings(key TEXT PRIMARY KEY,value TEXT NOT NULL)`),
   db.prepare(`CREATE TABLE IF NOT EXISTS account_preferences(user_id TEXT PRIMARY KEY,display_name TEXT NOT NULL,updated_at TEXT NOT NULL)`),
+  db.prepare(`CREATE TABLE IF NOT EXISTS account_card_preferences(user_id TEXT PRIMARY KEY REFERENCES auth_accounts(id),finish TEXT NOT NULL CHECK(finish IN ('foil','regular')),updated_at TEXT NOT NULL)`),
   db.prepare(`CREATE TABLE IF NOT EXISTS account_avatars(user_id TEXT PRIMARY KEY,id TEXT,url TEXT NOT NULL DEFAULT '',image TEXT NOT NULL DEFAULT '',updated_at TEXT NOT NULL)`)
  ]);
 }
@@ -48,6 +49,11 @@ export async function authRequest(request,env){
  try{
   if(request.method==='GET'){
    if(action==='config'){const {required,ready,siteKey}=turnstileConfig(env);return reply({turnstile:{required,ready,siteKey:ready?siteKey:''}});}
+   if(action==='card-finish'){
+    const user=await readSession(request,env);
+    const preference=user?db.prepare('SELECT finish FROM account_card_preferences WHERE user_id=?').bind(user.id).first():null;
+    return reply({userId:user?.id||null,finish:preference?.finish||'foil'});
+   }
    if(action!=='session')throw new IssueError('Not found.',404);
    const user=await readSession(request,env),member=await selfMember(db,user);
    return reply({user:user?{id:user.id,username:user.username,displayName:user.display_name||user.username,avatarUrl:user.avatar_url||'',isAdmin:user.role==='admin',memberId:member?.id||null,about:member?.about||''}:null});
@@ -97,6 +103,14 @@ export async function authRequest(request,env){
    return reply({ok:true},200,cookie(request,'',0));
   }
   if(!user)throw new IssueError('Sign in to continue.',401);
+  if(action==='card-finish'){
+   // Bind the write to both the authenticated account and the account that
+   // loaded this viewer. A login change in another tab cannot save to a stranger.
+   if(body.userId!==user.id)throw new IssueError('Your account changed. Reload the page and try again.',409);
+   if(!['foil','regular'].includes(body.finish))throw new IssueError('Choose Foil or Regular.');
+   db.prepare('INSERT INTO account_card_preferences(user_id,finish,updated_at) VALUES(?,?,?) ON CONFLICT(user_id) DO UPDATE SET finish=excluded.finish,updated_at=excluded.updated_at').bind(user.id,body.finish,new Date().toISOString()).run();
+   return reply({userId:user.id,finish:body.finish});
+  }
   if(action==='profile'){
    const displayName=textField(body.displayName,'Display name',3,40),about=textField(body.about??'','About me',0,1000),avatar=textField(body.avatarUrl??'','Avatar URL',0,2048);
    if(avatar){let u;try{u=new URL(avatar);}catch{throw new IssueError('Enter an HTTPS image URL.');}if(u.protocol!=='https:'||u.username||u.password)throw new IssueError('Enter an HTTPS image URL.');}
