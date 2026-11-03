@@ -1,0 +1,246 @@
+{
+  "number": 102,
+  "id": "cell-102-straining-hand-blast-move",
+  "name": "Straining Hand Blast Move",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-102-straining-hand-blast-move.svg",
+  "native_source_sha256": "098ac707039ab410cab1973bdd5310b88aba2879b163de5cfe6cf5c340a0dbf7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9aab47f739b73256056204b624d1a8fc9e38876852c3b087071b8b7b3f8f3756.png",
+      "sha256": "9aab47f739b73256056204b624d1a8fc9e38876852c3b087071b8b7b3f8f3756"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "f0334c3e4f770e1d3271cc1decd0f6b45f34a4144e3275cebc369802117738da"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 7 life",
+      "baseline": 1049.3,
+      "width": 875.0511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Discard a card from your hand. HIT: Banish",
+      "baseline": 1108.3,
+      "width": 882.588,
+      "icon_inline": false
+    },
+    {
+      "text": "all Setups, Drills, Battlegrounds, and Allies. Your",
+      "baseline": 1167.3,
+      "width": 849.6600000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent may draw up to 3 cards.",
+      "baseline": 1226.3,
+      "width": 603.729,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.6613,
+        740.0,
+        64.6774
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.723,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.523,
+        1392.65,
+        59.254,
+        33.708
+      ],
+      "rules-line-1": [
+        147.231,
+        1013.53,
+        819.133,
+        45.913
+      ],
+      "power-icon": [
+        92.6359,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        89.7985,
+        1072.53,
+        879.403,
+        45.521
+      ],
+      "rules-line-3": [
+        105.42,
+        1131.53,
+        848.161,
+        45.913
+      ],
+      "rules-line-4": [
+        229.179,
+        1192.0,
+        600.642,
+        44.051
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          92.6359,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          147.231,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          92.6359,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-102-straining-hand-blast-move.webp",
+      "before_url": "/assets/cards/cell-102-straining-hand-blast-move.webp?v=73b177295f35",
+      "before_git_blob_sha": "0d4c17fbd6cac35405d74e1d184d8ae5ce2c972c",
+      "after_sha256": "36a40a6c016e617dddc60c114e5a7299e1a6c2832cf156867bbb8279e74294e6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-102-straining-hand-blast-move.webp",
+      "before_url": "/assets/cards/downloads/cell-102-straining-hand-blast-move.webp?v=bda79247a0f4",
+      "before_git_blob_sha": "5b8268072b4079b42a74732200368a67634dc03d",
+      "after_sha256": "c9d34924573e9b8c48aab8fed99adddec9b0be19712e62450d965684f003e988",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.64516129032258,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 64.6774193548387,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9373539036933145
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

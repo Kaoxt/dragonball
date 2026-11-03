@@ -1,0 +1,198 @@
+{
+  "number": 110,
+  "id": "cell-110-krillin-asks-for-help",
+  "name": "Krillin Asks For Help",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-110-krillin-asks-for-help.svg",
+  "native_source_sha256": "ea3d516e72f46cea0a88b986afab287e3d68594db24629d34aa6b324ed54106b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/008c5f8c0c63a997cfdad06248f8f112daa77d97e84bbf9ca8f0d77291680cc7.png",
+      "sha256": "008c5f8c0c63a997cfdad06248f8f112daa77d97e84bbf9ca8f0d77291680cc7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "349c635cd43a780da80ba60c00101c223e9cf072aac131a8edd8cf0b35f5d282"
+  },
+  "rules": [
+    {
+      "text": "Krillin only. POWER: Choose up to 2 Allies from",
+      "baseline": 1049.3,
+      "width": 817.7119999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck and place them in play at their",
+      "baseline": 1108.3,
+      "width": 804.384,
+      "icon_inline": false
+    },
+    {
+      "text": "highest stage. Banish after use.",
+      "baseline": 1167.3,
+      "width": 563.304,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        228.335,
+        44.5,
+        602.33,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.407,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.206,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        122.555,
+        1013.53,
+        813.89,
+        45.521
+      ],
+      "rules-line-2": [
+        127.813,
+        1072.53,
+        803.375,
+        45.521
+      ],
+      "rules-line-3": [
+        249.563,
+        1131.53,
+        559.874,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-110-krillin-asks-for-help.webp",
+      "before_url": "/assets/cards/cell-110-krillin-asks-for-help.webp?v=e50338ca8c11",
+      "before_git_blob_sha": "8f85f6f88e361544d049816072a706df936b6ea6",
+      "after_sha256": "5f6a0bec2d3466c926c267a514c6e6148da3c0568b4156f8cb851d617ac6ec06",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-110-krillin-asks-for-help.webp",
+      "before_url": "/assets/cards/downloads/cell-110-krillin-asks-for-help.webp?v=6ff8e401881b",
+      "before_git_blob_sha": "c20b60f39b358aa8bed66c111156484ee6b19b9b",
+      "after_sha256": "7ba959139e27391c2d9a49c33cefc9e26a9dd50d6b6efaf2ba865196dbe0b9d7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 602.3304239401497,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

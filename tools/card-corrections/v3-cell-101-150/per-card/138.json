@@ -1,0 +1,320 @@
+{
+  "number": 138,
+  "id": "cell-138-gohan-ascendant",
+  "name": "Gohan, Ascendant",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-138-gohan-ascendant.svg",
+  "native_source_sha256": "f5ab6152ebefc185a9dc10e1554a35c9b93063a8ce2d3267e421be420ef4f048",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1f978cf2e20345298a6ee0f7b84e8034b788fa279d5f492838a39633e1d6d213.png",
+      "sha256": "1f978cf2e20345298a6ee0f7b84e8034b788fa279d5f492838a39633e1d6d213"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "22f32d042b082110f2931f38dbd3e0408d45c0ece4e157ab27f5a449cc74e185"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages.",
+      "baseline": 1049.3,
+      "width": 614.2731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards and 4 stages.",
+      "baseline": 1108.3,
+      "width": 615.3420000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        881.858,
+        157.656,
+        149.142,
+        32.802
+      ],
+      "power-stage-value-1": [
+        880.01,
+        212.387,
+        150.99,
+        32.802
+      ],
+      "power-stage-value-2": [
+        881.732,
+        267.118,
+        149.268,
+        32.802
+      ],
+      "power-stage-value-3": [
+        881.942,
+        321.849,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-4": [
+        881.9,
+        376.579,
+        149.1,
+        32.802
+      ],
+      "power-stage-value-5": [
+        883.496,
+        431.31,
+        147.504,
+        32.802
+      ],
+      "power-stage-value-6": [
+        881.648,
+        486.041,
+        149.352,
+        32.802
+      ],
+      "power-stage-value-7": [
+        882.32,
+        540.772,
+        148.68,
+        32.802
+      ],
+      "power-stage-value-8": [
+        882.53,
+        595.503,
+        148.47,
+        32.802
+      ],
+      "power-stage-value-9": [
+        882.488,
+        650.233,
+        148.512,
+        32.802
+      ],
+      "power-stage-value-10": [
+        884.084,
+        704.964,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-11": [
+        882.236,
+        759.695,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        258.533,
+        43.9838,
+        541.934,
+        70.0324
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        277.743,
+        1013.53,
+        558.11,
+        45.913
+      ],
+      "power-icon": [
+        223.147,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        223.691,
+        1072.53,
+        611.618,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          277.743,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-138-gohan-ascendant.webp",
+      "before_url": "/assets/cards/cell-138-gohan-ascendant.webp?v=0068f87da350",
+      "before_git_blob_sha": "34f20aae4f9f489cb57ed89f6cd1cb1e6f964ff1",
+      "after_sha256": "43e98f917929647a56ecab71c040cf863661e981fd07d6ab4af9fe136616cbcf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-138-gohan-ascendant.webp",
+      "before_url": "/assets/cards/downloads/cell-138-gohan-ascendant.webp?v=e64f121c1817",
+      "before_git_blob_sha": "26f1529b8190cac3e7fd36bb36ea1175cc5604c8",
+      "after_sha256": "b4fe6e7a1fa3fcdabe56dcf698d490e4e7ffcc31e656c4065f1d52c5c27fdba5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 541.9339152119702,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

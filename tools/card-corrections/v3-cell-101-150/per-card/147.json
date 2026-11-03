@@ -1,0 +1,222 @@
+{
+  "number": 147,
+  "id": "cell-147-orange-haulting-drill",
+  "name": "Orange Haulting Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-147-orange-haulting-drill.svg",
+  "native_source_sha256": "e1c60608a954b3459fc93baccc3760e2dbb9688568aa1ae31e8960e18fa53a7e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cce171abc2edf80dd622455a6a83e1eb0b65d37f9820da7341018ae0bc65e6ad.png",
+      "sha256": "cce171abc2edf80dd622455a6a83e1eb0b65d37f9820da7341018ae0bc65e6ad"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2e13c7a70b5340e5835580dcab9d1fc847050f3ed35b6f38dfedc126f240c3d6"
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Physical attacks against you",
+      "baseline": 1049.3,
+      "width": 876.39675,
+      "icon_inline": true
+    },
+    {
+      "text": "deal a maximum of 3 stages of damage.",
+      "baseline": 1108.3,
+      "width": 706.7760000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        220.075,
+        44.5,
+        618.849,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.439,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.238,
+        1392.65,
+        57.823,
+        33.708
+      ],
+      "rules-line-1": [
+        159.982,
+        1013.53,
+        806.785,
+        45.913
+      ],
+      "power-icon": [
+        92.2326,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        177.655,
+        1072.53,
+        703.689,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "L",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          92.2326,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          159.982,
+          1015.0,
+          18.032,
+          34.3
+        ],
+        "new_visible_bounds": [
+          92.2326,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-147-orange-haulting-drill.webp",
+      "before_url": "/assets/cards/cell-147-orange-haulting-drill.webp?v=e80ef8cf9a60",
+      "before_git_blob_sha": "6e3b51e9c7692fcfb73e327bdfbd2a50830a1fc6",
+      "after_sha256": "356527b30c89618655e952019af3bee5dd7ce1bf273f9161065d0e8abf18ef1a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-147-orange-haulting-drill.webp",
+      "before_url": "/assets/cards/downloads/cell-147-orange-haulting-drill.webp?v=57ed1a36ae74",
+      "before_git_blob_sha": "ac8b05215bba9fe509527cbe05175c17ae4c7a31",
+      "after_sha256": "a5477bf51829de305392ebe28e2e70564b87bf0a0f470f8cf64b8de55415a923",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 618.849127182045,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

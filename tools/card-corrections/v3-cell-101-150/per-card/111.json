@@ -1,0 +1,198 @@
+{
+  "number": 111,
+  "id": "cell-111-namekian-regeneration",
+  "name": "Namekian Regeneration",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-111-namekian-regeneration.svg",
+  "native_source_sha256": "90ef9fd0e133865786f3e9e171ecdc105c0a872cbc85b3ea197e1cdaf77d3a8d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7ac08c44f2a89fe9291d2453caf9809c5bb5d50b16de58310d0a27275a329a21.png",
+      "sha256": "7ac08c44f2a89fe9291d2453caf9809c5bb5d50b16de58310d0a27275a329a21"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "7a0d5095fbdba9691deeea54048a672983d707f40b771246bb2fe9ee68edd734"
+  },
+  "rules": [
+    {
+      "text": "Namekian Heritage only. POWER: Shuffle the top",
+      "baseline": 1049.3,
+      "width": 852.3059999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "or bottom 3 cards of your discard pile into your",
+      "baseline": 1108.3,
+      "width": 837.753,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck.",
+      "baseline": 1167.3,
+      "width": 176.25300000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        169.788,
+        44.5,
+        719.424,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        105.16,
+        1013.53,
+        848.68,
+        45.913
+      ],
+      "rules-line-2": [
+        111.569,
+        1072.53,
+        835.862,
+        45.521
+      ],
+      "rules-line-3": [
+        443.236,
+        1131.53,
+        172.529,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-111-namekian-regeneration.webp",
+      "before_url": "/assets/cards/cell-111-namekian-regeneration.webp?v=da5510e916eb",
+      "before_git_blob_sha": "2864eaf964b52268a50636f70d50497729e88f49",
+      "after_sha256": "3a6ee14db7604b3d3ceb4881449de2456cb159916533ffa632f5ddcbc976f173",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-111-namekian-regeneration.webp",
+      "before_url": "/assets/cards/downloads/cell-111-namekian-regeneration.webp?v=39d8dd3b1114",
+      "before_git_blob_sha": "31b8d73abf1864f75649128dc1f89ef5dcd64a80",
+      "after_sha256": "a15dfbe1d75cc173cd13a984077a920557615bf6de43e989d3e89bb603e5def9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 719.423940149626,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

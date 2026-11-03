@@ -1,0 +1,320 @@
+{
+  "number": 136,
+  "id": "cell-136-cell-the-master",
+  "name": "Cell, the Master",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-136-cell-the-master.svg",
+  "native_source_sha256": "a9dd35e74809b4e8a676eb2a496b63ebcca09ea3bbe95bc7761396ab9b1ef615",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7926fd7f164fcc82a4d9e64c31e7526fb8c1e466eb62ce33d9489b156e5fba88.png",
+      "sha256": "7926fd7f164fcc82a4d9e64c31e7526fb8c1e466eb62ce33d9489b156e5fba88"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "5d73ba05fe146242730b34162922e827279af133733ab6ca16a22b0c85e634d6"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages.",
+      "baseline": 1049.3,
+      "width": 614.2731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 12 life cards.",
+      "baseline": 1108.3,
+      "width": 388.86400000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        881.186,
+        157.656,
+        149.814,
+        32.802
+      ],
+      "power-stage-value-1": [
+        881.858,
+        212.387,
+        149.142,
+        32.802
+      ],
+      "power-stage-value-2": [
+        887.108,
+        267.118,
+        143.892,
+        32.802
+      ],
+      "power-stage-value-3": [
+        880.01,
+        321.849,
+        150.99,
+        32.802
+      ],
+      "power-stage-value-4": [
+        882.026,
+        376.579,
+        148.974,
+        32.802
+      ],
+      "power-stage-value-5": [
+        881.732,
+        431.31,
+        149.268,
+        32.802
+      ],
+      "power-stage-value-6": [
+        885.302,
+        486.041,
+        145.698,
+        32.802
+      ],
+      "power-stage-value-7": [
+        881.942,
+        540.772,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-8": [
+        882.236,
+        595.503,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-9": [
+        881.9,
+        650.233,
+        149.1,
+        32.802
+      ],
+      "power-stage-value-10": [
+        882.824,
+        704.964,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-11": [
+        883.496,
+        759.695,
+        147.504,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        295.399,
+        43.9838,
+        468.202,
+        70.0324
+      ],
+      "v3-level-number": [
+        57.928,
+        25.15,
+        90.1441,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        277.743,
+        1013.53,
+        558.11,
+        45.913
+      ],
+      "power-icon": [
+        223.147,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        336.93,
+        1072.53,
+        385.14,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          277.743,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-136-cell-the-master.webp",
+      "before_url": "/assets/cards/cell-136-cell-the-master.webp?v=605323f05640",
+      "before_git_blob_sha": "ba867a849a63b31c1a50f2f3e81a68143f06d5ae",
+      "after_sha256": "f6b6a1826cc900951d2572dcc8ba8f1d88d4b47ac982b7e1a260989a8bc5c9f7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-136-cell-the-master.webp",
+      "before_url": "/assets/cards/downloads/cell-136-cell-the-master.webp?v=ee08a3d52315",
+      "before_git_blob_sha": "4f593e7682c67b063dd7759b12d3ec629fe6640d",
+      "after_sha256": "cee6bbfd555c81b8765ae2f6dd493c97718067e2e236aed0d96e77da3ca16ba4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 468.2019950124689,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

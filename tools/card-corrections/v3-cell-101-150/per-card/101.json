@@ -1,0 +1,222 @@
+{
+  "number": 101,
+  "id": "cell-101-orange-goku-s-kamehameha",
+  "name": "Orange Goku's Kamehameha",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-101-orange-goku-s-kamehameha.svg",
+  "native_source_sha256": "00215d1aa820389b46ca8ccf618d7711f3a799c58f577e1fe51c885f7990b2cc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b60a9ce30f4a8739a429baa0617789c25edf519df342e3a763ca20baa2156ab.png",
+      "sha256": "7b60a9ce30f4a8739a429baa0617789c25edf519df342e3a763ca20baa2156ab"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "385be0b126aa93e256a6d68d870e85be40caa5905a0f82004952c256eda584ef"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 6 life",
+      "baseline": 1049.3,
+      "width": 876.6681555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 550.3190000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        49.2725,
+        740.0,
+        59.455
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.513,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.312,
+        1392.65,
+        51.675,
+        33.708
+      ],
+      "rules-line-1": [
+        146.423,
+        1013.53,
+        820.75,
+        45.913
+      ],
+      "power-icon": [
+        91.8274,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        255.884,
+        1072.53,
+        547.232,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8274,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.423,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8274,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-101-orange-goku-s-kamehameha.webp",
+      "before_url": "/assets/cards/cell-101-orange-goku-s-kamehameha.webp?v=c11c29a62051",
+      "before_git_blob_sha": "57314f0016142282e4521dd94aa8574a2e8230da",
+      "after_sha256": "40e4748420c0b98b3cd6861899d8602236c82fad2684bf11e4bb877b411ca841",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-101-orange-goku-s-kamehameha.webp",
+      "before_url": "/assets/cards/downloads/cell-101-orange-goku-s-kamehameha.webp?v=4820b837c51c",
+      "before_git_blob_sha": "ce35a4aa22c9f4a646e671c15e2d6fcc1b276fe9",
+      "after_sha256": "37b2ec260161830ac7641d8bb5877890d0d2c155d562ab77ac5b4ee2563da9d7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 74.13344019234621,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 59.45501903426167,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.8616669425255313
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

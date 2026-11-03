@@ -1,0 +1,234 @@
+{
+  "number": 124,
+  "id": "cell-124-saiyan-power-blast",
+  "name": "Saiyan Power Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-124-saiyan-power-blast.svg",
+  "native_source_sha256": "8ce7ba9e49482976f67f7df15d024dc694b2bc5f0e4d2c0a5665e59c5be62f22",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e451d5402e3307baa7b3687a2ca76e7d25d9f205cfaa4c39bfac485d66a6f304.png",
+      "sha256": "e451d5402e3307baa7b3687a2ca76e7d25d9f205cfaa4c39bfac485d66a6f304"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "06200834a888bd4a8a30a0ce672558e3b03a9070b83357fe816c9c550684f79b"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 5 life",
+      "baseline": 1049.3,
+      "width": 876.6191555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. You may have 1 of your Allies lose 3 stages",
+      "baseline": 1108.3,
+      "width": 879.844,
+      "icon_inline": false
+    },
+    {
+      "text": "to deal +5 stages of damage.",
+      "baseline": 1167.3,
+      "width": 511.36400000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        238.702,
+        44.5,
+        581.596,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        146.447,
+        1013.53,
+        820.701,
+        45.913
+      ],
+      "power-icon": [
+        91.8519,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        90.754,
+        1072.53,
+        877.492,
+        45.913
+      ],
+      "rules-line-3": [
+        274.921,
+        1132.85,
+        509.159,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          146.447,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          91.8519,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-124-saiyan-power-blast.webp",
+      "before_url": "/assets/cards/cell-124-saiyan-power-blast.webp?v=0db097fa43a5",
+      "before_git_blob_sha": "7a58bb62e184b8f1f8657f6ae291bc93cfa05ea5",
+      "after_sha256": "5e8d4e1c1ab57d8c52ffed8bfc0fa502a717573362c3d29485ed6506817faf84",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-124-saiyan-power-blast.webp",
+      "before_url": "/assets/cards/downloads/cell-124-saiyan-power-blast.webp?v=72d423c5b01d",
+      "before_git_blob_sha": "7202172b7c043c8e2141c26c6ccc664f26359fa3",
+      "after_sha256": "1c4db216546fa20790d677e5a3468dc2585edc3df333cc5f44e33666df34cb7d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 581.5960099750624,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "number": 141,
+  "id": "cell-141-namekian-style-mastery",
+  "name": "Namekian Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-141-namekian-style-mastery.svg",
+  "native_source_sha256": "123dd53552ad64b6a8dc5698a22bcd9a36773916964c98be2fd8669e4354f056",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/06dbaf0b13be242b504ac0da127aa924fab9d60841f1b603ecb4dab75a9bdc85.png",
+      "sha256": "06dbaf0b13be242b504ac0da127aa924fab9d60841f1b603ecb4dab75a9bdc85"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained Mastery illustration and approved native V3 surround",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "localized_correction": null,
+    "source_native_sha256": "29ede675f9ebcde337ddda83948ad9f716365234c46fff8b8a82206b8f2e0a37"
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, shuffle the top card of",
+      "baseline": 1049.3,
+      "width": 885.1187499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "your discard pile into your Life Deck. If it is",
+      "baseline": 1108.3,
+      "width": 763.1259999999997,
+      "icon_inline": false
+    },
+    {
+      "text": "Namekian Style, draw a card.",
+      "baseline": 1167.3,
+      "width": 519.008,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        164.325,
+        44.5,
+        730.35,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.672,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.471,
+        1392.65,
+        51.357,
+        33.708
+      ],
+      "rules-line-1": [
+        154.029,
+        1013.53,
+        817.516,
+        45.913
+      ],
+      "power-icon": [
+        87.4551,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        148.672,
+        1072.53,
+        761.656,
+        45.521
+      ],
+      "rules-line-3": [
+        271.858,
+        1131.53,
+        515.284,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          87.4551,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          154.029,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          87.4551,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-141-namekian-style-mastery.webp",
+      "before_url": "/assets/cards/cell-141-namekian-style-mastery.webp?v=09dcf5d03e21",
+      "before_git_blob_sha": "7c6930a60882fe10c9a6ec9396d012817ee9bfaf",
+      "after_sha256": "abe9a5925263008b6708678aaee1ac48ea5802ce387219b75a2c5a772aa38c15",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-141-namekian-style-mastery.webp",
+      "before_url": "/assets/cards/downloads/cell-141-namekian-style-mastery.webp?v=5f02c0ea1e9d",
+      "before_git_blob_sha": "5481b6db8707b00e066d23f245020026b68fd85b",
+      "after_sha256": "f508448bd1fbb09873a8fc5dd86f987b74a775a0846f5d4316bdece168a50dc5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 730.350374064838,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

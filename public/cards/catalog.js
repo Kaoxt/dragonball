@@ -15466,8 +15466,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-101",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-101-orange-goku-s-kamehameha.webp?v=c11c29a62051",
-    "downloadImage": "/assets/cards/downloads/cell-101-orange-goku-s-kamehameha.webp?v=4820b837c51c"
+    "image": "/assets/cards/cell-101-orange-goku-s-kamehameha.webp?v=40e4748420c0",
+    "downloadImage": "/assets/cards/downloads/cell-101-orange-goku-s-kamehameha.webp?v=37b2ec260161",
+    "templateVersion": 3
   },
   {
     "id": "cell-102-straining-hand-blast-move",
@@ -15482,8 +15483,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-102",
     "rules": "Energy attack costing 2 stages. DAMAGE: 7 life cards. Discard a card from your hand. HIT: Banish all Setups, Drills, Battlegrounds, and Allies. Your opponent may draw up to 3 cards.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-102-straining-hand-blast-move.webp?v=73b177295f35",
-    "downloadImage": "/assets/cards/downloads/cell-102-straining-hand-blast-move.webp?v=bda79247a0f4"
+    "image": "/assets/cards/cell-102-straining-hand-blast-move.webp?v=36a40a6c016e",
+    "downloadImage": "/assets/cards/downloads/cell-102-straining-hand-blast-move.webp?v=c9d34924573e",
+    "templateVersion": 3
   },
   {
     "id": "cell-103-tien-the-quick",
@@ -15498,8 +15500,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-103",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Banish an opponent's Drill in play.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-103-tien-the-quick.webp?v=0a4ce021d717",
-    "downloadImage": "/assets/cards/downloads/cell-103-tien-the-quick.webp?v=74978f148516",
+    "image": "/assets/cards/cell-103-tien-the-quick.webp?v=447cea22400c",
+    "downloadImage": "/assets/cards/downloads/cell-103-tien-the-quick.webp?v=9acb91bd7138",
     "alignment": "Hero",
     "level": 2,
     "pur": 3,
@@ -15515,7 +15517,8 @@ export const catalog = [
       130000,
       90000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-104-blue-straight-jab",
@@ -15530,8 +15533,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-104",
     "rules": "Physical attack. DAMAGE: AT +5 stages. HIT: Lower your opponent's anger 2 levels.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-104-blue-straight-jab.webp?v=09e60d7d8594",
-    "downloadImage": "/assets/cards/downloads/cell-104-blue-straight-jab.webp?v=64fe21fee294"
+    "image": "/assets/cards/cell-104-blue-straight-jab.webp?v=689487dbee90",
+    "downloadImage": "/assets/cards/downloads/cell-104-blue-straight-jab.webp?v=b086e183bdfd",
+    "templateVersion": 3
   },
   {
     "id": "cell-105-namekian-power-up",
@@ -15546,8 +15550,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-105",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Raise your Main Personality to its highest stage. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-105-namekian-power-up.webp?v=0cd1a4119e65",
-    "downloadImage": "/assets/cards/downloads/cell-105-namekian-power-up.webp?v=87ab1d45f91e"
+    "image": "/assets/cards/cell-105-namekian-power-up.webp?v=dd2bcff5707b",
+    "downloadImage": "/assets/cards/downloads/cell-105-namekian-power-up.webp?v=6902537b168a",
+    "templateVersion": 3
   },
   {
     "id": "cell-106-android-16-detects",
@@ -15562,8 +15567,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-106",
     "rules": "Physical attack. DAMAGE: AT stages. Or banish all Combat cards in your opponent's discard pile.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-106-android-16-detects.webp?v=c38bacdaf6af",
-    "downloadImage": "/assets/cards/downloads/cell-106-android-16-detects.webp?v=0cb992021f0b"
+    "image": "/assets/cards/cell-106-android-16-detects.webp?v=41ff3d537de8",
+    "downloadImage": "/assets/cards/downloads/cell-106-android-16-detects.webp?v=b5e53f955c89",
+    "templateVersion": 3
   },
   {
     "id": "cell-107-orange-gaze",
@@ -15578,8 +15584,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-107",
     "rules": "Stops a physical attack. Place this card on the bottom of your Life Deck after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-107-orange-gaze.webp?v=4b61a4b8df95",
-    "downloadImage": "/assets/cards/downloads/cell-107-orange-gaze.webp?v=db40af4cfdd9"
+    "image": "/assets/cards/cell-107-orange-gaze.webp?v=41713471d5ea",
+    "downloadImage": "/assets/cards/downloads/cell-107-orange-gaze.webp?v=115aac061f51",
+    "templateVersion": 3
   },
   {
     "id": "cell-108-namekian-energy-beam",
@@ -15594,8 +15601,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-108",
     "rules": "Energy attack costing 4 stages. DAMAGE: 10 life cards. HIT: Banish the top 3 cards of your Life Deck. If this attack is stopped, discard your hand. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-108-namekian-energy-beam.webp?v=f674215c00c2",
-    "downloadImage": "/assets/cards/downloads/cell-108-namekian-energy-beam.webp?v=67863bcf8951"
+    "image": "/assets/cards/cell-108-namekian-energy-beam.webp?v=efc71336a673",
+    "downloadImage": "/assets/cards/downloads/cell-108-namekian-energy-beam.webp?v=1786c441e191",
+    "templateVersion": 3
   },
   {
     "id": "cell-109-bulma-the-expert",
@@ -15610,8 +15618,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-109",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. At the end of Combat, search your Life Deck for an Ally and place it in play at 6 stages above 0.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-109-bulma-the-expert.webp?v=75c63d8dcb60",
-    "downloadImage": "/assets/cards/downloads/cell-109-bulma-the-expert.webp?v=3d8d48e14666",
+    "image": "/assets/cards/cell-109-bulma-the-expert.webp?v=7ef95842a5b3",
+    "downloadImage": "/assets/cards/downloads/cell-109-bulma-the-expert.webp?v=413a55fcad9f",
     "alignment": "Hero",
     "level": 3,
     "pur": 1,
@@ -15627,7 +15635,8 @@ export const catalog = [
       3200,
       2100,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-110-krillin-asks-for-help",
@@ -15640,10 +15649,11 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-110",
-    "rules": "Krillin only. Choose up to 2 Allies from your Life Deck and place them in play at their highest stage. Banish after use.",
+    "rules": "Krillin only. POWER: Choose up to 2 Allies from your Life Deck and place them in play at their highest stage. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-110-krillin-asks-for-help.webp?v=e50338ca8c11",
-    "downloadImage": "/assets/cards/downloads/cell-110-krillin-asks-for-help.webp?v=6ff8e401881b"
+    "image": "/assets/cards/cell-110-krillin-asks-for-help.webp?v=5f6a0bec2d34",
+    "downloadImage": "/assets/cards/downloads/cell-110-krillin-asks-for-help.webp?v=7ba959139e27",
+    "templateVersion": 3
   },
   {
     "id": "cell-111-namekian-regeneration",
@@ -15658,8 +15668,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-111",
     "rules": "Namekian Heritage only. POWER: Shuffle the top or bottom 3 cards of your discard pile into your Life Deck.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-111-namekian-regeneration.webp?v=da5510e916eb",
-    "downloadImage": "/assets/cards/downloads/cell-111-namekian-regeneration.webp?v=39d8dd3b1114"
+    "image": "/assets/cards/cell-111-namekian-regeneration.webp?v=3a6ee14db760",
+    "downloadImage": "/assets/cards/downloads/cell-111-namekian-regeneration.webp?v=a15dfbe1d75c",
+    "templateVersion": 3
   },
   {
     "id": "cell-112-namekian-dash-attack",
@@ -15674,8 +15685,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-112",
     "rules": "Physical attack. DAMAGE: 3 life cards, or 8 life cards if Piccolo and Nail are in play. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-112-namekian-dash-attack.webp?v=d144fc9635c6",
-    "downloadImage": "/assets/cards/downloads/cell-112-namekian-dash-attack.webp?v=6346812aab61"
+    "image": "/assets/cards/cell-112-namekian-dash-attack.webp?v=ce8486b6a0b1",
+    "downloadImage": "/assets/cards/downloads/cell-112-namekian-dash-attack.webp?v=647f38f6dae0",
+    "templateVersion": 3
   },
   {
     "id": "cell-113-madness",
@@ -15690,8 +15702,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-113",
     "rules": "POWER: For the rest of Combat, Allies cannot attack, stop attacks, or use their powers. Damage cannot be redirected to Allies.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-113-madness.webp?v=941ed36411ff",
-    "downloadImage": "/assets/cards/downloads/cell-113-madness.webp?v=c360d9bb4e3a"
+    "image": "/assets/cards/cell-113-madness.webp?v=603418715036",
+    "downloadImage": "/assets/cards/downloads/cell-113-madness.webp?v=3d5603bfba7a",
+    "templateVersion": 3
   },
   {
     "id": "cell-114-chi-chi-the-wife",
@@ -15706,8 +15719,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-114",
     "rules": "POWER: When entering Combat, banish all of your opponent's Setups and Drills in play.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-114-chi-chi-the-wife.webp?v=07a67165d811",
-    "downloadImage": "/assets/cards/downloads/cell-114-chi-chi-the-wife.webp?v=d8079b0d427c",
+    "image": "/assets/cards/cell-114-chi-chi-the-wife.webp?v=56328d8dc763",
+    "downloadImage": "/assets/cards/downloads/cell-114-chi-chi-the-wife.webp?v=3ae27fd9e04c",
     "alignment": "Hero",
     "level": 3,
     "pur": 1,
@@ -15723,7 +15736,8 @@ export const catalog = [
       3000,
       2500,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-115-focusing",
@@ -15738,8 +15752,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-115",
     "rules": "POWER: Raise any personality in play to its highest stage. Its next energy attack this Combat costs 0 stages.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-115-focusing.webp?v=06f4fc720a17",
-    "downloadImage": "/assets/cards/downloads/cell-115-focusing.webp?v=619ea8a6aa2b"
+    "image": "/assets/cards/cell-115-focusing.webp?v=4884da788f65",
+    "downloadImage": "/assets/cards/downloads/cell-115-focusing.webp?v=81e6e88e76e2",
+    "templateVersion": 3
   },
   {
     "id": "cell-116-stunned",
@@ -15754,8 +15769,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-116",
     "rules": "POWER: For the rest of Combat, Krillin, Piccolo, and Trunks cannot perform physical or energy attacks, stop attacks against them, or use their personality powers. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-116-stunned.webp?v=828f53c32439",
-    "downloadImage": "/assets/cards/downloads/cell-116-stunned.webp?v=990acbc971be"
+    "image": "/assets/cards/cell-116-stunned.webp?v=6865a22d5205",
+    "downloadImage": "/assets/cards/downloads/cell-116-stunned.webp?v=f789055afe52",
+    "templateVersion": 3
   },
   {
     "id": "cell-117-blue-assistance-drill",
@@ -15770,8 +15786,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-117",
     "rules": "Attacks performed by your Allies deal +2 stages of damage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-117-blue-assistance-drill.webp?v=ed04537a4770",
-    "downloadImage": "/assets/cards/downloads/cell-117-blue-assistance-drill.webp?v=5530b1a6aa60"
+    "image": "/assets/cards/cell-117-blue-assistance-drill.webp?v=45f47cf63414",
+    "downloadImage": "/assets/cards/downloads/cell-117-blue-assistance-drill.webp?v=c31f33e4d56a",
+    "templateVersion": 3
   },
   {
     "id": "cell-118-mr-popo-s-calming",
@@ -15786,8 +15803,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-118",
     "rules": "Limit 1 per deck. POWER: Use at the end of a turn. If your opponent's Main Personality is at level 4, lower it 1 personality level.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-118-mr-popo-s-calming.webp?v=8f61dccbe196",
-    "downloadImage": "/assets/cards/downloads/cell-118-mr-popo-s-calming.webp?v=8114f1a373de"
+    "image": "/assets/cards/cell-118-mr-popo-s-calming.webp?v=4b9ae9b5f2a2",
+    "downloadImage": "/assets/cards/downloads/cell-118-mr-popo-s-calming.webp?v=8bea994e15ca",
+    "templateVersion": 3
   },
   {
     "id": "cell-119-namekian-preparation-drill",
@@ -15802,8 +15820,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-119",
     "rules": "When entering Combat as the defender, look at the top 5 cards of your Life Deck and return them to the top in any order.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-119-namekian-preparation-drill.webp?v=42a724ed5f03",
-    "downloadImage": "/assets/cards/downloads/cell-119-namekian-preparation-drill.webp?v=3d95e20229eb"
+    "image": "/assets/cards/cell-119-namekian-preparation-drill.webp?v=46a846011046",
+    "downloadImage": "/assets/cards/downloads/cell-119-namekian-preparation-drill.webp?v=3d13fdf71b37",
+    "templateVersion": 3
   },
   {
     "id": "cell-120-krillin-unleashed",
@@ -15818,8 +15837,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-120",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Draw a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-120-krillin-unleashed.webp?v=3a8c5d75c9ce",
-    "downloadImage": "/assets/cards/downloads/cell-120-krillin-unleashed.webp?v=821bd1bb449a"
+    "image": "/assets/cards/cell-120-krillin-unleashed.webp?v=02d10e9273c3",
+    "downloadImage": "/assets/cards/downloads/cell-120-krillin-unleashed.webp?v=6cd4376d4a85",
+    "templateVersion": 3
   },
   {
     "id": "cell-121-dende-dragon-ball-6",
@@ -15834,8 +15854,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-121",
     "rules": "POWER: Raise your Main Personality to its highest stage. Set all of your opponent's personalities to 4 stages above 0.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-121-dende-dragon-ball-6.webp?v=3376f4485775",
-    "downloadImage": "/assets/cards/downloads/cell-121-dende-dragon-ball-6.webp?v=b14d214fd88e"
+    "image": "/assets/cards/cell-121-dende-dragon-ball-6.webp?v=e6e4637fb127",
+    "downloadImage": "/assets/cards/downloads/cell-121-dende-dragon-ball-6.webp?v=65e84dfe96cd",
+    "templateVersion": 3
   },
   {
     "id": "cell-122-dende-dragon-ball-7",
@@ -15850,8 +15871,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-122",
     "rules": "POWER: Raise your Main Personality to its highest stage. Choose 3 cards from your discard pile and place them on top of your Life Deck.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-122-dende-dragon-ball-7.webp?v=bda766dabca6",
-    "downloadImage": "/assets/cards/downloads/cell-122-dende-dragon-ball-7.webp?v=c294a7583638"
+    "image": "/assets/cards/cell-122-dende-dragon-ball-7.webp?v=75165c0918ee",
+    "downloadImage": "/assets/cards/downloads/cell-122-dende-dragon-ball-7.webp?v=c971b8dd589c",
+    "templateVersion": 3
   },
   {
     "id": "cell-123-cell-s-power-drain",
@@ -15866,8 +15888,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-123",
     "rules": "Cell only. POWER: Raise your Main Personality to its highest stage. Lower all of your opponent's Allies to 0 stages.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-123-cell-s-power-drain.webp?v=3b5e5c4316c5",
-    "downloadImage": "/assets/cards/downloads/cell-123-cell-s-power-drain.webp?v=6709f21a2d66"
+    "image": "/assets/cards/cell-123-cell-s-power-drain.webp?v=9ebced6b6a36",
+    "downloadImage": "/assets/cards/downloads/cell-123-cell-s-power-drain.webp?v=e78fa3d8d71b",
+    "templateVersion": 3
   },
   {
     "id": "cell-124-saiyan-power-blast",
@@ -15882,8 +15905,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-124",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. You may have 1 of your Allies lose 3 stages to deal +5 stages of damage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-124-saiyan-power-blast.webp?v=0db097fa43a5",
-    "downloadImage": "/assets/cards/downloads/cell-124-saiyan-power-blast.webp?v=72d423c5b01d"
+    "image": "/assets/cards/cell-124-saiyan-power-blast.webp?v=5e8d4e1c1ab5",
+    "downloadImage": "/assets/cards/downloads/cell-124-saiyan-power-blast.webp?v=1c4db216546f",
+    "templateVersion": 3
   },
   {
     "id": "cell-125-run-away",
@@ -15898,8 +15922,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-125",
     "rules": "POWER: Banish a Battleground in play. You may search your Life Deck for a Battleground and place it in play to replace it.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-125-run-away.webp?v=c13094c73d11",
-    "downloadImage": "/assets/cards/downloads/cell-125-run-away.webp?v=67fdd3d1237b"
+    "image": "/assets/cards/cell-125-run-away.webp?v=6a053df8a48a",
+    "downloadImage": "/assets/cards/downloads/cell-125-run-away.webp?v=c03bb9e3a3d0",
+    "templateVersion": 3
   },
   {
     "id": "cell-126-blue-style-mastery",
@@ -15914,8 +15939,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-126",
     "rules": "Once per Combat, you may discard a card from your hand to stop a physical or energy attack. If it is Blue Style, lower your opponent's anger 2 levels.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-126-blue-style-mastery.webp?v=44bae4c89334",
-    "downloadImage": "/assets/cards/downloads/cell-126-blue-style-mastery.webp?v=54de11da398c"
+    "image": "/assets/cards/cell-126-blue-style-mastery.webp?v=6899947ac1e5",
+    "downloadImage": "/assets/cards/downloads/cell-126-blue-style-mastery.webp?v=0a38f0500bb4",
+    "templateVersion": 3
   },
   {
     "id": "cell-127-trunks-the-powerful",
@@ -15930,8 +15956,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-127",
     "rules": "Your opponents cannot perform energy attacks.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-127-trunks-the-powerful.webp?v=5050b5707688",
-    "downloadImage": "/assets/cards/downloads/cell-127-trunks-the-powerful.webp?v=e839505bcd5f",
+    "image": "/assets/cards/cell-127-trunks-the-powerful.webp?v=c8b0ef2586a1",
+    "downloadImage": "/assets/cards/downloads/cell-127-trunks-the-powerful.webp?v=4ef9d7210e99",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -15949,7 +15975,8 @@ export const catalog = [
       1700000,
       1400000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-128-blueprints",
@@ -15964,8 +15991,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-128",
     "rules": "POWER: Set all personalities with \"Android\" in their title to 0 stages. They cannot gain stages until the beginning of your next turn.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-128-blueprints.webp?v=579874d59f22",
-    "downloadImage": "/assets/cards/downloads/cell-128-blueprints.webp?v=2377006bf582"
+    "image": "/assets/cards/cell-128-blueprints.webp?v=b9d21ab592cf",
+    "downloadImage": "/assets/cards/downloads/cell-128-blueprints.webp?v=ce363e42b2d5",
+    "templateVersion": 3
   },
   {
     "id": "cell-129-black-style-mastery",
@@ -15980,8 +16008,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-129",
     "rules": "POWER: Once per Combat, instead of attacking, you may discard a card from your hand. If it is Black Style, your opponent discards a random card; otherwise, they choose and discard a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-129-black-style-mastery.webp?v=de0e3b29f75e",
-    "downloadImage": "/assets/cards/downloads/cell-129-black-style-mastery.webp?v=94234ce20287"
+    "image": "/assets/cards/cell-129-black-style-mastery.webp?v=9d106845d07c",
+    "downloadImage": "/assets/cards/downloads/cell-129-black-style-mastery.webp?v=9246affd127d",
+    "templateVersion": 3
   },
   {
     "id": "cell-130-saiyan-style-mastery",
@@ -15996,8 +16025,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-130",
     "rules": "When entering Combat, discard the top card of your Life Deck. Draw 2 cards if it is Saiyan Style; otherwise, draw 1 card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-130-saiyan-style-mastery.webp?v=c6a3662f477a",
-    "downloadImage": "/assets/cards/downloads/cell-130-saiyan-style-mastery.webp?v=d360c7b4d41b"
+    "image": "/assets/cards/cell-130-saiyan-style-mastery.webp?v=80c8d1678fcd",
+    "downloadImage": "/assets/cards/downloads/cell-130-saiyan-style-mastery.webp?v=352ef77e1885",
+    "templateVersion": 3
   },
   {
     "id": "cell-131-red-style-mastery",
@@ -16012,8 +16042,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-131",
     "rules": "When entering Combat, you may banish the top card of your discard pile to make your physical attacks deal +1 stage of damage this Combat, or +3 stages if that card is Red Style.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-131-red-style-mastery.webp?v=a5e8a1b37655",
-    "downloadImage": "/assets/cards/downloads/cell-131-red-style-mastery.webp?v=5db3aad77404"
+    "image": "/assets/cards/cell-131-red-style-mastery.webp?v=513d984d4745",
+    "downloadImage": "/assets/cards/downloads/cell-131-red-style-mastery.webp?v=d433e529961e",
+    "templateVersion": 3
   },
   {
     "id": "cell-132-piccolo-the-namek",
@@ -16028,8 +16059,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-132",
     "rules": "Physical attack. DAMAGE: AT stages. Place the bottom 3 cards of your discard pile on the bottom of your Life Deck.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-132-piccolo-the-namek.webp?v=0e18a0c0f468",
-    "downloadImage": "/assets/cards/downloads/cell-132-piccolo-the-namek.webp?v=b023b9033ffd",
+    "image": "/assets/cards/cell-132-piccolo-the-namek.webp?v=79ed1d3f49c4",
+    "downloadImage": "/assets/cards/downloads/cell-132-piccolo-the-namek.webp?v=433f4952e10f",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16047,7 +16078,8 @@ export const catalog = [
       750000,
       500000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-133-android-18",
@@ -16062,8 +16094,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-133",
     "rules": "Physical attack. DAMAGE: AT +6 stages. Lower your opponent's anger 3 levels. If \"The Car\" is in play, this attack also deals 5 life cards of damage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-133-android-18.webp?v=c62d15f9ee58",
-    "downloadImage": "/assets/cards/downloads/cell-133-android-18.webp?v=e3ba14c77712",
+    "image": "/assets/cards/cell-133-android-18.webp?v=d6706668066c",
+    "downloadImage": "/assets/cards/downloads/cell-133-android-18.webp?v=f0f9016081e5",
     "alignment": "Villain",
     "level": 4,
     "pur": 3,
@@ -16079,7 +16111,8 @@ export const catalog = [
       200000,
       150000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-134-gohan-the-winner",
@@ -16094,8 +16127,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-134",
     "rules": "Physical attack. DAMAGE: 5 life cards. You may use this power twice per Combat.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-134-gohan-the-winner.webp?v=a6f274650a14",
-    "downloadImage": "/assets/cards/downloads/cell-134-gohan-the-winner.webp?v=e3c92cf2a720",
+    "image": "/assets/cards/cell-134-gohan-the-winner.webp?v=5b707e56e995",
+    "downloadImage": "/assets/cards/downloads/cell-134-gohan-the-winner.webp?v=cd4a05acc6b9",
     "alignment": "Hero",
     "level": 5,
     "pur": 5,
@@ -16113,7 +16146,8 @@ export const catalog = [
       3000000,
       2800000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-135-goku",
@@ -16128,8 +16162,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-135",
     "rules": "Physical attack. DAMAGE: 5 stages and 3 life cards.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-135-goku.webp?v=f57011893753",
-    "downloadImage": "/assets/cards/downloads/cell-135-goku.webp?v=6e03ac6920b6",
+    "image": "/assets/cards/cell-135-goku.webp?v=77627d92400d",
+    "downloadImage": "/assets/cards/downloads/cell-135-goku.webp?v=19c137844036",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16147,7 +16181,8 @@ export const catalog = [
       2300000,
       2150000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-136-cell-the-master",
@@ -16162,8 +16197,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-136",
     "rules": "Energy attack costing 0 stages. DAMAGE: 12 life cards.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-136-cell-the-master.webp?v=605323f05640",
-    "downloadImage": "/assets/cards/downloads/cell-136-cell-the-master.webp?v=ee08a3d52315",
+    "image": "/assets/cards/cell-136-cell-the-master.webp?v=f6b6a1826cc9",
+    "downloadImage": "/assets/cards/downloads/cell-136-cell-the-master.webp?v=cee6bbfd555c",
     "alignment": "Villain",
     "level": 5,
     "pur": 4,
@@ -16181,7 +16216,8 @@ export const catalog = [
       3300000,
       3200000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-137-cell-the-destroyer",
@@ -16196,8 +16232,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-137",
     "rules": "Energy attack costing 2 stages. DAMAGE: 9 life cards.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-137-cell-the-destroyer.webp?v=96b987ea7349",
-    "downloadImage": "/assets/cards/downloads/cell-137-cell-the-destroyer.webp?v=38d6ea1a47a6",
+    "image": "/assets/cards/cell-137-cell-the-destroyer.webp?v=0b4c9eeb5501",
+    "downloadImage": "/assets/cards/downloads/cell-137-cell-the-destroyer.webp?v=0e9c99f486c8",
     "alignment": "Villain",
     "level": 4,
     "pur": 4,
@@ -16215,7 +16251,8 @@ export const catalog = [
       2000000,
       1800000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-138-gohan-ascendant",
@@ -16230,8 +16267,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-138",
     "rules": "Energy attack costing 0 stages. DAMAGE: 4 life cards and 4 stages.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-138-gohan-ascendant.webp?v=0068f87da350",
-    "downloadImage": "/assets/cards/downloads/cell-138-gohan-ascendant.webp?v=e64f121c1817",
+    "image": "/assets/cards/cell-138-gohan-ascendant.webp?v=43e98f917929",
+    "downloadImage": "/assets/cards/downloads/cell-138-gohan-ascendant.webp?v=b4fe6e7a1fa3",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16249,7 +16286,8 @@ export const catalog = [
       2200000,
       2000000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-139-krillin-the-mighty",
@@ -16264,8 +16302,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-139",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. If you declared a Blue Toku-Waza, lower your opponent's anger to 0. HIT: Raise Krillin to his highest stage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-139-krillin-the-mighty.webp?v=b6d1b9389025",
-    "downloadImage": "/assets/cards/downloads/cell-139-krillin-the-mighty.webp?v=c8b05d61d101",
+    "image": "/assets/cards/cell-139-krillin-the-mighty.webp?v=566198d0028b",
+    "downloadImage": "/assets/cards/downloads/cell-139-krillin-the-mighty.webp?v=a97fdad64244",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16281,7 +16319,8 @@ export const catalog = [
       400000,
       350000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-140-orange-style-mastery",
@@ -16296,8 +16335,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-140",
     "rules": "Your energy attacks deal +1 life card of damage. Whenever your Orange Style energy attack hits, your opponent cannot play a Physical Combat card during their next attack phase.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-140-orange-style-mastery.webp?v=ad0a54eda7ce",
-    "downloadImage": "/assets/cards/downloads/cell-140-orange-style-mastery.webp?v=47d66eba0408"
+    "image": "/assets/cards/cell-140-orange-style-mastery.webp?v=eb98ca938192",
+    "downloadImage": "/assets/cards/downloads/cell-140-orange-style-mastery.webp?v=4c4b60fe6a21",
+    "templateVersion": 3
   },
   {
     "id": "cell-141-namekian-style-mastery",
@@ -16312,8 +16352,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-141",
     "rules": "When entering Combat, shuffle the top card of your discard pile into your Life Deck. If it is Namekian Style, draw a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-141-namekian-style-mastery.webp?v=09dcf5d03e21",
-    "downloadImage": "/assets/cards/downloads/cell-141-namekian-style-mastery.webp?v=5f02c0ea1e9d"
+    "image": "/assets/cards/cell-141-namekian-style-mastery.webp?v=abe9a5925263",
+    "downloadImage": "/assets/cards/downloads/cell-141-namekian-style-mastery.webp?v=f508448bd1fb",
+    "templateVersion": 3
   },
   {
     "id": "cell-142-red-feint",
@@ -16328,8 +16369,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-142",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: If you declared a Toku-Waza, banish your opponent's discard pile.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-142-red-feint.webp?v=8974db1ce476",
-    "downloadImage": "/assets/cards/downloads/cell-142-red-feint.webp?v=e1baf907a189"
+    "image": "/assets/cards/cell-142-red-feint.webp?v=8a986131969b",
+    "downloadImage": "/assets/cards/downloads/cell-142-red-feint.webp?v=29b21a504ffa",
+    "templateVersion": 3
   },
   {
     "id": "cell-143-blue-elbow-drop",
@@ -16344,8 +16386,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-143",
     "rules": "Physical attack. DAMAGE: 1 life card. HIT: If the top card of your opponent's discard pile is not a physical attack, they discard the top 5 cards of their Life Deck.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-143-blue-elbow-drop.webp?v=76b0174d2ca9",
-    "downloadImage": "/assets/cards/downloads/cell-143-blue-elbow-drop.webp?v=dd51f9f0fcda"
+    "image": "/assets/cards/cell-143-blue-elbow-drop.webp?v=1cb94955091a",
+    "downloadImage": "/assets/cards/downloads/cell-143-blue-elbow-drop.webp?v=363f9eab0423",
+    "templateVersion": 3
   },
   {
     "id": "cell-144-blue-diving-punch-drill",
@@ -16360,8 +16403,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-144",
     "rules": "Physical attack. DAMAGE: AT stages. Your opponent cannot take life cards or stages of damage from this attack. You may use this Drill twice per Combat.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-144-blue-diving-punch-drill.webp?v=024b60c66ac9",
-    "downloadImage": "/assets/cards/downloads/cell-144-blue-diving-punch-drill.webp?v=a9b10dfe44d1"
+    "image": "/assets/cards/cell-144-blue-diving-punch-drill.webp?v=81bf1cc5b4f9",
+    "downloadImage": "/assets/cards/downloads/cell-144-blue-diving-punch-drill.webp?v=8b8f4369d110",
+    "templateVersion": 3
   },
   {
     "id": "cell-145-blue-left-cross-punch",
@@ -16376,8 +16420,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-145",
     "rules": "Physical attack costing 2 stages. DAMAGE: AT +2 stages. HIT: Your opponent discards X life cards. X = 5 minus their anger level.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-145-blue-left-cross-punch.webp?v=dbf69a4a9638",
-    "downloadImage": "/assets/cards/downloads/cell-145-blue-left-cross-punch.webp?v=a410fb43c9ba"
+    "image": "/assets/cards/cell-145-blue-left-cross-punch.webp?v=a6774f178105",
+    "downloadImage": "/assets/cards/downloads/cell-145-blue-left-cross-punch.webp?v=4aa186f3dee2",
+    "templateVersion": 3
   },
   {
     "id": "cell-146-orange-city-destruction",
@@ -16392,8 +16437,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-146",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: If you declared a Toku-Waza, banish up to 2 of your opponent's Setups or Drills. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-146-orange-city-destruction.webp?v=a0f21bc4cef3",
-    "downloadImage": "/assets/cards/downloads/cell-146-orange-city-destruction.webp?v=ddb1e7cb7cd5"
+    "image": "/assets/cards/cell-146-orange-city-destruction.webp?v=8da15db4f65b",
+    "downloadImage": "/assets/cards/downloads/cell-146-orange-city-destruction.webp?v=ab7cb70008e6",
+    "templateVersion": 3
   },
   {
     "id": "cell-147-orange-haulting-drill",
@@ -16408,8 +16454,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-147",
     "rules": "Limit 1 per deck. Physical attacks against you deal a maximum of 3 stages of damage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-147-orange-haulting-drill.webp?v=e80ef8cf9a60",
-    "downloadImage": "/assets/cards/downloads/cell-147-orange-haulting-drill.webp?v=57ed1a36ae74"
+    "image": "/assets/cards/cell-147-orange-haulting-drill.webp?v=356527b30c89",
+    "downloadImage": "/assets/cards/downloads/cell-147-orange-haulting-drill.webp?v=a5477bf51829",
+    "templateVersion": 3
   },
   {
     "id": "cell-148-saiyan-offensive-rush",
@@ -16424,8 +16471,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-148",
     "rules": "POWER: Your Main Personality loses 4 stages. Your attacks deal +3 life cards of damage for the rest of Combat.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-148-saiyan-offensive-rush.webp?v=b215d325ad9d",
-    "downloadImage": "/assets/cards/downloads/cell-148-saiyan-offensive-rush.webp?v=78f811c11e65"
+    "image": "/assets/cards/cell-148-saiyan-offensive-rush.webp?v=77125caa51c2",
+    "downloadImage": "/assets/cards/downloads/cell-148-saiyan-offensive-rush.webp?v=ab47d0beb497",
+    "templateVersion": 3
   },
   {
     "id": "cell-149-namekian-fusion",
@@ -16440,8 +16488,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-149",
     "rules": "POWER: Raise your Main Personality to its highest stage. Draw and reveal a card. If it is Namekian Style, place 2 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-149-namekian-fusion.webp?v=c8a35ad7972d",
-    "downloadImage": "/assets/cards/downloads/cell-149-namekian-fusion.webp?v=4724477acce9"
+    "image": "/assets/cards/cell-149-namekian-fusion.webp?v=9ab7aa753987",
+    "downloadImage": "/assets/cards/downloads/cell-149-namekian-fusion.webp?v=1cd85420c96e",
+    "templateVersion": 3
   },
   {
     "id": "cell-150-android-16-s-battle-charge",
@@ -16456,8 +16505,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-150",
     "rules": "Physical attack. DAMAGE: AT +X stages. X = the number of Allies you have in play.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-150-android-16-s-battle-charge.webp?v=e83065bf4623",
-    "downloadImage": "/assets/cards/downloads/cell-150-android-16-s-battle-charge.webp?v=bc034e52c64e"
+    "image": "/assets/cards/cell-150-android-16-s-battle-charge.webp?v=4669828eeb20",
+    "downloadImage": "/assets/cards/downloads/cell-150-android-16-s-battle-charge.webp?v=c18117073d12",
+    "templateVersion": 3
   },
   {
     "id": "cell-151-namekian-fist-smash",

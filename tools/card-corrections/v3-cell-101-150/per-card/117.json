@@ -1,0 +1,222 @@
+{
+  "number": 117,
+  "id": "cell-117-blue-assistance-drill",
+  "name": "Blue Assistance Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-117-blue-assistance-drill.svg",
+  "native_source_sha256": "fa30df7fbae5824548ad0759ea6f45fa110f2f095cb2473550bcfa3b860e654b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/509168eb40e6c057a581950cf4aa6e9af87bcbaf2a6127933d5fb96a8e761321.png",
+      "sha256": "509168eb40e6c057a581950cf4aa6e9af87bcbaf2a6127933d5fb96a8e761321"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "715cb55f0cc4777a2447b879dd1b1476a6ab5bbcac33756e99ba581abd65f0e8"
+  },
+  "rules": [
+    {
+      "text": "Attacks performed by your Allies deal +2",
+      "baseline": 1049.3,
+      "width": 786.67775,
+      "icon_inline": true
+    },
+    {
+      "text": "stages of damage.",
+      "baseline": 1108.3,
+      "width": 327.81,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        220.377,
+        50.2213,
+        618.247,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        792.758,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.558,
+        1392.65,
+        49.184,
+        33.708
+      ],
+      "rules-line-1": [
+        202.83,
+        1013.53,
+        719.593,
+        45.521
+      ],
+      "power-icon": [
+        136.578,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        366.967,
+        1073.85,
+        325.066,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          136.578,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          202.83,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          136.578,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-117-blue-assistance-drill.webp",
+      "before_url": "/assets/cards/cell-117-blue-assistance-drill.webp?v=ed04537a4770",
+      "before_git_blob_sha": "d2631946435d2f6697845a8e2087bb9baf2b5e21",
+      "after_sha256": "45f47cf63414463278ea1b3c6647cc69b08bcd25d8adac170cc5deba568e29ab",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-117-blue-assistance-drill.webp",
+      "before_url": "/assets/cards/downloads/cell-117-blue-assistance-drill.webp?v=5530b1a6aa60",
+      "before_git_blob_sha": "2c120e27b4dbd5ec803e3dcf1d4941829cf6ab28",
+      "after_sha256": "c31f33e4d56af926c3ae6455bcf511e0cd7d8d09bd29cedaa665956f14d14ca5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 618.2468827930176,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

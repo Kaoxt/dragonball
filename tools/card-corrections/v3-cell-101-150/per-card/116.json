@@ -1,0 +1,210 @@
+{
+  "number": 116,
+  "id": "cell-116-stunned",
+  "name": "Stunned",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-116-stunned.svg",
+  "native_source_sha256": "64460497a55a77c8722c3e820b9cac9f2c9435b8fecfb228e35423dc950f5ef4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e7f6a7256f7483ca5f65b7b13c22d696f0ba5edb3942a1cb334f288f5ae829b3.png",
+      "sha256": "e7f6a7256f7483ca5f65b7b13c22d696f0ba5edb3942a1cb334f288f5ae829b3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "56a1d42b63a1c01d199f96a31aef4a34081825178f1183f5cb6af68948ea3fe4"
+  },
+  "rules": [
+    {
+      "text": "POWER: For the rest of Combat, Krillin, Piccolo,",
+      "baseline": 1049.3,
+      "width": 829.7660000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and Trunks cannot perform physical or energy",
+      "baseline": 1108.3,
+      "width": 825.6500000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attacks, stop attacks against them, or use their",
+      "baseline": 1167.3,
+      "width": 846.818,
+      "icon_inline": false
+    },
+    {
+      "text": "personality powers. Banish after use.",
+      "baseline": 1226.3,
+      "width": 663.9010000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        408.277,
+        50.2213,
+        242.446,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        116.491,
+        1013.53,
+        826.019,
+        40.572
+      ],
+      "rules-line-2": [
+        117.569,
+        1072.53,
+        823.863,
+        45.913
+      ],
+      "rules-line-3": [
+        106.841,
+        1131.53,
+        845.319,
+        45.913
+      ],
+      "rules-line-4": [
+        199.338,
+        1190.53,
+        660.324,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-116-stunned.webp",
+      "before_url": "/assets/cards/cell-116-stunned.webp?v=828f53c32439",
+      "before_git_blob_sha": "970886f20faeeb4918f9125964a7436b1a69a6c8",
+      "after_sha256": "6865a22d5205b8fb679fc6f9e3237932f198b18a5e59c7d07c1bae8e3dd8b37d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-116-stunned.webp",
+      "before_url": "/assets/cards/downloads/cell-116-stunned.webp?v=990acbc971be",
+      "before_git_blob_sha": "9435ec0aa4cf7ff8ed69b83a5ba841729fb7e13b",
+      "after_sha256": "f789055afe52515b7ff2d98cdcf9f154a79879619197b0f9909b66336842edd5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 242.4463840399003,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

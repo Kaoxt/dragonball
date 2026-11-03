@@ -1,0 +1,198 @@
+{
+  "number": 128,
+  "id": "cell-128-blueprints",
+  "name": "Blueprints",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-128-blueprints.svg",
+  "native_source_sha256": "91f52da6c4ddccc4ffc347b487990f460042a71072494ab04b4308306cbf8453",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/65c86b40a9e3603ab5d9a4da676e25d24894bcb3f9046092f182351705c96f27.png",
+      "sha256": "65c86b40a9e3603ab5d9a4da676e25d24894bcb3f9046092f182351705c96f27"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "fa2c83443f10398f8290342a1c329bc8108958c66127c9041956fdc6c688cc96"
+  },
+  "rules": [
+    {
+      "text": "POWER: Set all personalities with \"Android\" in",
+      "baseline": 1049.3,
+      "width": 809.431,
+      "icon_inline": false
+    },
+    {
+      "text": "their title to 0 stages. They cannot gain stages",
+      "baseline": 1108.3,
+      "width": 827.218,
+      "icon_inline": false
+    },
+    {
+      "text": "until the beginning of your next turn.",
+      "baseline": 1167.3,
+      "width": 649.25,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        376.315,
+        44.5,
+        306.37,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.121,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.92,
+        1392.65,
+        58.459,
+        33.708
+      ],
+      "rules-line-1": [
+        126.671,
+        1013.53,
+        805.658,
+        44.884
+      ],
+      "rules-line-2": [
+        116.626,
+        1072.53,
+        825.748,
+        45.913
+      ],
+      "rules-line-3": [
+        206.492,
+        1131.53,
+        646.016,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-128-blueprints.webp",
+      "before_url": "/assets/cards/cell-128-blueprints.webp?v=579874d59f22",
+      "before_git_blob_sha": "dfee01b60244ecf2d5c830a5912fbc6fa33d5719",
+      "after_sha256": "b9d21ab592cfdbe6d4976a255ce02a348dc02b07bdaaf3bfda1aea4c2e217bc0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-128-blueprints.webp",
+      "before_url": "/assets/cards/downloads/cell-128-blueprints.webp?v=2377006bf582",
+      "before_git_blob_sha": "cf55bb78f4f737b659ba419f47ee24b307ca6b1a",
+      "after_sha256": "ce363e42b2d52b1a3969c720a7f9707e8c86ca8397fbc84b62ab7ab6eff94b83",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 306.37032418952623,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

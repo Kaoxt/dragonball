@@ -1,0 +1,222 @@
+{
+  "number": 150,
+  "id": "cell-150-android-16-s-battle-charge",
+  "name": "Android 16's Battle Charge",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-150-android-16-s-battle-charge.svg",
+  "native_source_sha256": "927d28f9261baaec885dc3e57ca8f0d781f8d9ebd3d7d5056ad6eeaa67108e15",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/60cacc79746dd837147aa18fc0315e288a19d3615f6c895dd47f37911f5a865c.png",
+      "sha256": "60cacc79746dd837147aa18fc0315e288a19d3615f6c895dd47f37911f5a865c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "0da124d9c4f652e8a5671cf27b6bbf18151fce4f17445c40bb1c37c99e9315b7"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +X stages. X = the",
+      "baseline": 1049.3,
+      "width": 886.1251555438589,
+      "icon_inline": true
+    },
+    {
+      "text": "number of Allies you have in play.",
+      "baseline": 1108.3,
+      "width": 596.4770000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.7386,
+        740.0,
+        64.5227
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.299,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.099,
+        1392.65,
+        60.102,
+        33.708
+      ],
+      "rules-line-1": [
+        141.645,
+        1013.53,
+        830.256,
+        45.913
+      ],
+      "power-icon": [
+        87.0989,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        232.976,
+        1072.53,
+        593.047,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          87.0989,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          141.645,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          87.0989,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-150-android-16-s-battle-charge.webp",
+      "before_url": "/assets/cards/cell-150-android-16-s-battle-charge.webp?v=e83065bf4623",
+      "before_git_blob_sha": "d23443c6ef82f5f5b7bfd80276aa18f000ececfd",
+      "after_sha256": "4669828eeb20581c2f6c338197ef5685966fc2dbe46dc46b32ddb9b86ee370c2",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-150-android-16-s-battle-charge.webp",
+      "before_url": "/assets/cards/downloads/cell-150-android-16-s-battle-charge.webp?v=bc034e52c64e",
+      "before_git_blob_sha": "34920692a0144e400af1421e8bd389b2d333e241",
+      "after_sha256": "c18117073d126510757bf9764b6f831c5ea7ab6ee4c2d6ad5ff00e71119ce3ac",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.45227223309415,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 64.5227223309415,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9351119178397319
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

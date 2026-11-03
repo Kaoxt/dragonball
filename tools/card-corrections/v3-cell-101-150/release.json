@@ -1,0 +1,26 @@
+{
+  "range": [
+    101,
+    150
+  ],
+  "set": "Cell Saga",
+  "template_version": 3,
+  "cards": 50,
+  "personalities": 12,
+  "masteries": 6,
+  "dragon_balls": 2,
+  "independently_verified_exports": 100,
+  "title_pixels_outside_brush": 0,
+  "minimum_title_brush_clearance": 3.0,
+  "retained_illustrations_verified": 50,
+  "new_artwork_edits": 0,
+  "local_validation": {
+    "node_tests": 189,
+    "node_test_files": 22,
+    "card_type_tests": 6,
+    "deployment_dry_run": "passed",
+    "full_historical_suite": "Not available locally because historical source/audit fixtures are excluded from this checkout; full CI remains required."
+  },
+  "baseline_commit": "27bdfc3d6d1b20659bff9ade6867f4888f614375",
+  "catalog_scope": "Only Cell 101\u2013150: templateVersion, content-versioned image/download URLs, and the missing POWER prefix on #110."
+}

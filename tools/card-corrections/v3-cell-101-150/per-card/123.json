@@ -1,0 +1,198 @@
+{
+  "number": 123,
+  "id": "cell-123-cell-s-power-drain",
+  "name": "Cell's Power Drain",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-123-cell-s-power-drain.svg",
+  "native_source_sha256": "2d258e312695c0660357d074bd3bb6747531a902674b66a68e78a7cdbf810371",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a99bc15fdcbc1dc09178d94786531913af901b9105e94b71d14d7f6c67b29513.png",
+      "sha256": "a99bc15fdcbc1dc09178d94786531913af901b9105e94b71d14d7f6c67b29513"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "c5cb29ac6ff1abcd50553367fa13fb514e84f53f2f4abbf46da8eae89aee929e"
+  },
+  "rules": [
+    {
+      "text": "Cell only. POWER: Raise your Main Personality to",
+      "baseline": 1049.3,
+      "width": 852.6,
+      "icon_inline": false
+    },
+    {
+      "text": "its highest stage. Lower all of your opponent's",
+      "baseline": 1108.3,
+      "width": 819.672,
+      "icon_inline": false
+    },
+    {
+      "text": "Allies to 0 stages.",
+      "baseline": 1167.3,
+      "width": 314.28600000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        256.425,
+        50.2213,
+        546.15,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.81,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.609,
+        1392.65,
+        57.081,
+        33.708
+      ],
+      "rules-line-1": [
+        104.768,
+        1013.53,
+        849.464,
+        45.521
+      ],
+      "rules-line-2": [
+        120.816,
+        1072.53,
+        817.369,
+        45.913
+      ],
+      "rules-line-3": [
+        373.47,
+        1131.53,
+        312.06,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-123-cell-s-power-drain.webp",
+      "before_url": "/assets/cards/cell-123-cell-s-power-drain.webp?v=3b5e5c4316c5",
+      "before_git_blob_sha": "c86e647d4064c0b3a3cf4ba65c3bfde95a5aaf79",
+      "after_sha256": "9ebced6b6a368a729482c90803dda60cc80a84b82bda5852cb96f9361e3561b8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-123-cell-s-power-drain.webp",
+      "before_url": "/assets/cards/downloads/cell-123-cell-s-power-drain.webp?v=6709f21a2d66",
+      "before_git_blob_sha": "616a21e47ba03b8f8fd075f4da9130e7dc037bbf",
+      "after_sha256": "e78fa3d8d71ba5eb3ba17dcadc42e2f4b09d47b9f907631c3e45680ecc6f806b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 546.1496259351621,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

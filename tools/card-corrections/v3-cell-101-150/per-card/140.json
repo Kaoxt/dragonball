@@ -1,0 +1,252 @@
+{
+  "number": 140,
+  "id": "cell-140-orange-style-mastery",
+  "name": "Orange Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-140-orange-style-mastery.svg",
+  "native_source_sha256": "6bc896830fc79a30b1554663c49bafd73aee061b5c2b2d32daebb5182533646a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c3a72a756936957c3118d9c79c7d5b1257f61fd9e1afe66224c5a45f98391def.png",
+      "sha256": "c3a72a756936957c3118d9c79c7d5b1257f61fd9e1afe66224c5a45f98391def"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained Mastery illustration and approved native V3 surround",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "localized_correction": null,
+    "source_native_sha256": "e0ff24118f5d20ea964ad7b275314e424262ba841ecb6ffa16894e27c3f32784"
+  },
+  "rules": [
+    {
+      "text": "Your energy attacks deal +1 life card of",
+      "baseline": 1049.3,
+      "width": 760.02175,
+      "icon_inline": true
+    },
+    {
+      "text": "damage. Whenever your Orange Style energy",
+      "baseline": 1108.3,
+      "width": 797.5240000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attack hits, your opponent cannot play a Physical",
+      "baseline": 1167.3,
+      "width": 877.492,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat card during their next attack phase.",
+      "baseline": 1226.3,
+      "width": 785.6659999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        208.461,
+        44.5,
+        642.079,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.087,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.887,
+        1392.65,
+        60.526,
+        33.708
+      ],
+      "rules-line-1": [
+        216.773,
+        1013.53,
+        692.223,
+        45.913
+      ],
+      "power-icon": [
+        150.004,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        131.828,
+        1073.61,
+        795.345,
+        44.835
+      ],
+      "rules-line-3": [
+        92.1505,
+        1131.53,
+        874.699,
+        45.521
+      ],
+      "rules-line-4": [
+        138.284,
+        1190.53,
+        782.432,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          150.004,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          216.773,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          150.004,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-140-orange-style-mastery.webp",
+      "before_url": "/assets/cards/cell-140-orange-style-mastery.webp?v=ad0a54eda7ce",
+      "before_git_blob_sha": "1d2b41f395ae9efcddccd3cff53aee5d70ec6b0a",
+      "after_sha256": "eb98ca9381920d804907fe8f819e5f7a95180dd7b5e7fec38c6968bbff56c856",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-140-orange-style-mastery.webp",
+      "before_url": "/assets/cards/downloads/cell-140-orange-style-mastery.webp?v=47d66eba0408",
+      "before_git_blob_sha": "9593a271a5db82228438d4116e53f23b7be19a25",
+      "after_sha256": "4c4b60fe6a2158ed5de2dc5c3f8036eba0603083d09e731681e1cd7830cda2fb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 642.0785536159602,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

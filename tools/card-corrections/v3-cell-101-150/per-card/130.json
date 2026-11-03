@@ -1,0 +1,240 @@
+{
+  "number": 130,
+  "id": "cell-130-saiyan-style-mastery",
+  "name": "Saiyan Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-130-saiyan-style-mastery.svg",
+  "native_source_sha256": "1f02f4d2ed90a3fcc05fd3d77480b9dedf1edb8d6c2d2c3926b0c27135c9bebe",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b077186e4d99227c120894f878be98143c774b6a76518e941ea35376d862c7a9.png",
+      "sha256": "b077186e4d99227c120894f878be98143c774b6a76518e941ea35376d862c7a9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained Mastery illustration and approved native V3 surround",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "localized_correction": null,
+    "source_native_sha256": "dac69bd526917356e3d40c75bd1a7dc3fa2352128cf56c87e34ce5bd85a19a08"
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, discard the top card",
+      "baseline": 1049.3,
+      "width": 847.7807499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "of your Life Deck. Draw 2 cards if it is Saiyan",
+      "baseline": 1108.3,
+      "width": 794.4859999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Style; otherwise, draw 1 card.",
+      "baseline": 1167.3,
+      "width": 521.8500000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.978,
+        44.5,
+        633.045,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        173.114,
+        1013.53,
+        779.345,
+        45.913
+      ],
+      "power-icon": [
+        106.541,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        133.85,
+        1072.53,
+        791.301,
+        45.521
+      ],
+      "rules-line-3": [
+        270.02,
+        1131.53,
+        518.959,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          106.541,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          173.114,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          106.541,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-130-saiyan-style-mastery.webp",
+      "before_url": "/assets/cards/cell-130-saiyan-style-mastery.webp?v=c6a3662f477a",
+      "before_git_blob_sha": "51e403d48c2f321af959e13e309df56ed0cc508e",
+      "after_sha256": "80c8d1678fcdde89e0591098066c179f315245bd1e48c8101f7a67d14765782a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-130-saiyan-style-mastery.webp",
+      "before_url": "/assets/cards/downloads/cell-130-saiyan-style-mastery.webp?v=d360c7b4d41b",
+      "before_git_blob_sha": "973ff17a22225e9a7145ad273c37a64e897aedc0",
+      "after_sha256": "352ef77e18859b1c16fb1d8a8910bda4bd273b2ed3722690330398b5b146bc56",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 633.0448877805487,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

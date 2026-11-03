@@ -1,0 +1,332 @@
+{
+  "number": 109,
+  "id": "cell-109-bulma-the-expert",
+  "name": "Bulma, the Expert",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-109-bulma-the-expert.svg",
+  "native_source_sha256": "395ad3cbd199c63726c97bf396cf80ec0d02964505d9a2d35fcb1550bf78c4fa",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/92f7322a81af00b9a7d733900d1da412f216345fddff499d11b3f2da138dcc7b.png",
+      "sha256": "92f7322a81af00b9a7d733900d1da412f216345fddff499d11b3f2da138dcc7b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "a8fff754bb2543708f1d1cbf0b89226acf9305d4acab6b872ee6a0b73d448d9e"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. At the end of Combat, search your Life",
+      "baseline": 1108.3,
+      "width": 802.963,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck for an Ally and place it in play at 6 stages",
+      "baseline": 1167.3,
+      "width": 828.2469999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "above 0.",
+      "baseline": 1226.3,
+      "width": 150.969,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        933.049,
+        160.009,
+        97.951,
+        38.269
+      ],
+      "power-stage-value-1": [
+        935.401,
+        224.691,
+        95.599,
+        38.269
+      ],
+      "power-stage-value-2": [
+        935.058,
+        289.373,
+        95.942,
+        38.269
+      ],
+      "power-stage-value-3": [
+        939.223,
+        354.054,
+        91.777,
+        38.269
+      ],
+      "power-stage-value-4": [
+        935.303,
+        418.736,
+        95.697,
+        38.269
+      ],
+      "power-stage-value-5": [
+        935.646,
+        483.418,
+        95.354,
+        38.269
+      ],
+      "power-stage-value-6": [
+        935.254,
+        548.1,
+        95.746,
+        38.269
+      ],
+      "power-stage-value-7": [
+        936.332,
+        612.782,
+        94.668,
+        38.269
+      ],
+      "power-stage-value-8": [
+        937.116,
+        677.463,
+        93.884,
+        38.269
+      ],
+      "power-stage-value-9": [
+        943.927,
+        742.145,
+        87.073,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        265.416,
+        43.9838,
+        528.168,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "power-icon": [
+        90.7494,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        129.44,
+        1072.53,
+        800.121,
+        45.521
+      ],
+      "rules-line-3": [
+        116.871,
+        1131.53,
+        825.258,
+        45.913
+      ],
+      "rules-line-4": [
+        455.363,
+        1191.46,
+        148.274,
+        35.378
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-109-bulma-the-expert.webp",
+      "before_url": "/assets/cards/cell-109-bulma-the-expert.webp?v=75c63d8dcb60",
+      "before_git_blob_sha": "7783cf70c66c0aacee6c6df870be3b428c33d612",
+      "after_sha256": "7ef95842a5b3ce63deed773e77604375e07d74e2b409f2ee07277ecf1d051590",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-109-bulma-the-expert.webp",
+      "before_url": "/assets/cards/downloads/cell-109-bulma-the-expert.webp?v=3d8d48e14666",
+      "before_git_blob_sha": "e1b840066e1d5927517b2b95b23d525fc4fd8ff8",
+      "after_sha256": "413a55fcad9f79b32f2175a3881b7e3ba9c63ff5ce774cdf46c94d8da5ed72e9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 528.1683291770574,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

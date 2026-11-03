@@ -1,0 +1,246 @@
+{
+  "number": 146,
+  "id": "cell-146-orange-city-destruction",
+  "name": "Orange City Destruction",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-146-orange-city-destruction.svg",
+  "native_source_sha256": "f0d88c82531377116e9af8d8fb2bea427916b660554d7a0713af8b96e866921e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f6d8c120dd2531685772d09e29cc13448351ee9f67003c29009c5944aae78bcf.png",
+      "sha256": "f6d8c120dd2531685772d09e29cc13448351ee9f67003c29009c5944aae78bcf"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "70a4730f54d8f18ae65d8084df55bdffe9190fca4bbe70cbc866ff516051b789"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. HIT: If you declared a Toku-Waza, banish",
+      "baseline": 1108.3,
+      "width": 848.4840000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "up to 2 of your opponent's Setups or Drills. Banish",
+      "baseline": 1167.3,
+      "width": 881.118,
+      "icon_inline": false
+    },
+    {
+      "text": "after use.",
+      "baseline": 1226.3,
+      "width": 172.137,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        174.52,
+        44.5,
+        709.96,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.114,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.913,
+        1392.65,
+        60.473,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "power-icon": [
+        90.7494,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        106.85,
+        1072.53,
+        845.299,
+        45.521
+      ],
+      "rules-line-3": [
+        90.607,
+        1131.53,
+        877.786,
+        45.521
+      ],
+      "rules-line-4": [
+        444.779,
+        1191.85,
+        169.442,
+        34.8444
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-146-orange-city-destruction.webp",
+      "before_url": "/assets/cards/cell-146-orange-city-destruction.webp?v=a0f21bc4cef3",
+      "before_git_blob_sha": "488cbfa1d6e70a3db239b13eacbbddee011097e8",
+      "after_sha256": "8da15db4f65bc128628a43c7b3df1f613c3da1023a023099edbf3392895f269d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-146-orange-city-destruction.webp",
+      "before_url": "/assets/cards/downloads/cell-146-orange-city-destruction.webp?v=ddb1e7cb7cd5",
+      "before_git_blob_sha": "31a04524437607f0994fb201ccd8277f95328555",
+      "after_sha256": "ab7cb70008e6d81575ffefd78af7f342ffacdab4eb46f397bc37059078fb4f58",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 709.9600997506235,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "number": 125,
+  "id": "cell-125-run-away",
+  "name": "Run Away",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-125-run-away.svg",
+  "native_source_sha256": "42dd663adcaee455c261ec8735bd9897f5a6f52bc6670aa6003c96078a92cb12",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a904a81171407b1e3c5c34e9ecb826c2778b46b5b0b236d83a731d340bb1b83e.png",
+      "sha256": "a904a81171407b1e3c5c34e9ecb826c2778b46b5b0b236d83a731d340bb1b83e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "a8699e3bff78d550ddffac1d05db222070c914d42316c445d81fe496df56eb4d"
+  },
+  "rules": [
+    {
+      "text": "POWER: Banish a Battleground in play. You may",
+      "baseline": 1049.3,
+      "width": 838.3409999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "search your Life Deck for a Battleground and",
+      "baseline": 1108.3,
+      "width": 796.0540000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "place it in play to replace it.",
+      "baseline": 1167.3,
+      "width": 493.626,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        381.434,
+        45.9196,
+        296.132,
+        66.1608
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.227,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.026,
+        1392.65,
+        58.247,
+        33.708
+      ],
+      "rules-line-1": [
+        111.713,
+        1013.53,
+        835.574,
+        45.913
+      ],
+      "rules-line-2": [
+        132.992,
+        1072.53,
+        793.016,
+        45.913
+      ],
+      "rules-line-3": [
+        284.476,
+        1131.53,
+        490.049,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-125-run-away.webp",
+      "before_url": "/assets/cards/cell-125-run-away.webp?v=c13094c73d11",
+      "before_git_blob_sha": "c8a20c796548bd024266f8b42518ae1e49fc1417",
+      "after_sha256": "6a053df8a48aba84bdc27fadcff66a07f4785194256d1bac19661c5293d3c75a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-125-run-away.webp",
+      "before_url": "/assets/cards/downloads/cell-125-run-away.webp?v=67fdd3d1237b",
+      "before_git_blob_sha": "2426a21a73b76362d222f69f1b08e6badef30129",
+      "after_sha256": "c03bb9e3a3d0e70ba820d23094a3ca4eb4bbe84eeae6f248b63a28244cc455d3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 296.1321695760599,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

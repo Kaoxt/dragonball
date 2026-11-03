@@ -1,0 +1,222 @@
+{
+  "number": 120,
+  "id": "cell-120-krillin-unleashed",
+  "name": "Krillin Unleashed",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-101-150/cell-120-krillin-unleashed.svg",
+  "native_source_sha256": "e0f3fbe17a6b5f2e037e8e52bbabd48975714ac8471c7e5d3ac0462ede309754",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a43dc73ec7fd34b6692408a35748061e1e1c49087b3ad706f2ea024c2f84ff19.png",
+      "sha256": "a43dc73ec7fd34b6692408a35748061e1e1c49087b3ad706f2ea024c2f84ff19"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "b6ae287ce952a5b15f07428ee89e3434915b29d5fdbbd8a34ac69583c7d02794"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages. DAMAGE: 4 life",
+      "baseline": 1049.3,
+      "width": 878.8241555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "cards. HIT: Draw a card.",
+      "baseline": 1108.3,
+      "width": 426.98600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        275.697,
+        50.2213,
+        507.606,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.094,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.894,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        145.345,
+        1013.53,
+        822.906,
+        45.913
+      ],
+      "power-icon": [
+        90.7494,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        317.55,
+        1074.0,
+        423.899,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          145.345,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          90.7494,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-120-krillin-unleashed.webp",
+      "before_url": "/assets/cards/cell-120-krillin-unleashed.webp?v=3a8c5d75c9ce",
+      "before_git_blob_sha": "904c05b8e67e759ef2534a73d1721094ac3226d7",
+      "after_sha256": "02d10e9273c35454cf3812a73ccf4f43d8afd968d94d6a365f6257671bd57900",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-120-krillin-unleashed.webp",
+      "before_url": "/assets/cards/downloads/cell-120-krillin-unleashed.webp?v=821bd1bb449a",
+      "before_git_blob_sha": "878cb9dde34df87731c1a2b44bd8ca5043df7e19",
+      "after_sha256": "6cd4376d4a8522e8dbbdea9bb3b9fc230ea60c5137079fa20fd8bbce76a2a30b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 507.6059850374066,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
