@@ -1,0 +1,527 @@
+{
+  "number": 47,
+  "id": "cell-047-blue-evasion",
+  "name": "Blue Evasion",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-047-blue-evasion.svg",
+  "native_source_sha256": "6108b2c518eaa9d6c97d764754071847262d1eb9bf6724cd9bfedf64bbebdee8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7014d171fbf863703a9883e988298092af4afbfa1f96d6561677c25afce48c3b.png",
+      "sha256": "7014d171fbf863703a9883e988298092af4afbfa1f96d6561677c25afce48c3b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1d5f18a580af660894cee66522dd51514caf64689f0117d2834193ad0da1c4fe.png",
+      "sha256": "1d5f18a580af660894cee66522dd51514caf64689f0117d2834193ad0da1c4fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with bounded repair",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": {
+      "source_dimensions": [
+        1475,
+        1067
+      ],
+      "file": "artwork-corrections/047-lower-fist.png",
+      "placement": [
+        1010,
+        515,
+        84,
+        88
+      ],
+      "generated_viewbox": [
+        516,
+        387,
+        351,
+        366
+      ],
+      "generated_dimensions": [
+        1474,
+        1067
+      ],
+      "tail_boundary_points": [
+        [
+          980,
+          562
+        ],
+        [
+          982,
+          561
+        ],
+        [
+          984,
+          560
+        ],
+        [
+          986,
+          558
+        ],
+        [
+          988,
+          557
+        ],
+        [
+          990,
+          556
+        ],
+        [
+          992,
+          555
+        ],
+        [
+          994,
+          554
+        ],
+        [
+          996,
+          552
+        ],
+        [
+          998,
+          551
+        ],
+        [
+          1000,
+          550
+        ],
+        [
+          1002,
+          550
+        ],
+        [
+          1004,
+          550
+        ],
+        [
+          1006,
+          546
+        ],
+        [
+          1008,
+          545
+        ],
+        [
+          1010,
+          545
+        ],
+        [
+          1012,
+          542
+        ],
+        [
+          1014,
+          542
+        ],
+        [
+          1016,
+          540
+        ],
+        [
+          1018,
+          539
+        ],
+        [
+          1020,
+          539
+        ],
+        [
+          1022,
+          537
+        ],
+        [
+          1024,
+          536
+        ],
+        [
+          1026,
+          534
+        ],
+        [
+          1028,
+          533
+        ],
+        [
+          1030,
+          532
+        ],
+        [
+          1032,
+          531
+        ],
+        [
+          1034,
+          530
+        ],
+        [
+          1036,
+          528
+        ],
+        [
+          1038,
+          527
+        ],
+        [
+          1040,
+          526
+        ],
+        [
+          1042,
+          525
+        ],
+        [
+          1044,
+          524
+        ],
+        [
+          1046,
+          523
+        ],
+        [
+          1048,
+          522
+        ],
+        [
+          1050,
+          520
+        ],
+        [
+          1052,
+          519
+        ],
+        [
+          1054,
+          518
+        ],
+        [
+          1056,
+          517
+        ],
+        [
+          1058,
+          516
+        ],
+        [
+          1060,
+          515
+        ],
+        [
+          1062,
+          514
+        ],
+        [
+          1064,
+          513
+        ],
+        [
+          1066,
+          511
+        ],
+        [
+          1068,
+          511
+        ],
+        [
+          1070,
+          511
+        ],
+        [
+          1072,
+          508
+        ],
+        [
+          1074,
+          507
+        ],
+        [
+          1076,
+          506
+        ],
+        [
+          1078,
+          505
+        ],
+        [
+          1080,
+          504
+        ],
+        [
+          1082,
+          503
+        ],
+        [
+          1084,
+          502
+        ],
+        [
+          1086,
+          501
+        ],
+        [
+          1088,
+          500
+        ],
+        [
+          1090,
+          498
+        ],
+        [
+          1092,
+          497
+        ],
+        [
+          1094,
+          496
+        ],
+        [
+          1096,
+          495
+        ],
+        [
+          1098,
+          494
+        ],
+        [
+          1100,
+          493
+        ],
+        [
+          1102,
+          492
+        ],
+        [
+          1104,
+          491
+        ],
+        [
+          1106,
+          491
+        ],
+        [
+          1108,
+          491
+        ],
+        [
+          1110,
+          491
+        ]
+      ],
+      "purpose": "Restore missing lower clenched fist below unchanged foreground tail"
+    },
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "7f53c9fd608099441e0158afba1ae175df589b6ad0fe855ca31edd17c5a19b8b"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Lower your opponent's anger 1 level.",
+      "baseline": 1108.3,
+      "width": 646.163,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        339.621,
+        50.2213,
+        379.758,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.859,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.659,
+        1392.65,
+        42.983,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        208.281,
+        1074.0,
+        642.439,
+        44.443
+      ],
+      "rules-line-3": [
+        317.06,
+        1131.53,
+        424.879,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-047-blue-evasion.webp",
+      "before_url": "/assets/cards/cell-047-blue-evasion.webp?v=849b49dd420a",
+      "before_sha256": "849b49dd420addbe5e9ddb18cf3e0208b7eebe4c78197b56f045726895bf3b38",
+      "after_sha256": "1c1e4a0551b45b56cb4f4f84c1ceee5be0032e5a12b1f7aca68e34b018ef8b44",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-047-blue-evasion.webp",
+      "before_url": "/assets/cards/downloads/cell-047-blue-evasion.webp?v=871519600586",
+      "before_sha256": "87151960058698d812b50af7f007213d0989e61d75bdf855dfecfe34b8bdf971",
+      "after_sha256": "127c9acfd47a127ab83e674f6dc3807bc82a0328a5977c96c101ea5af69d9b2f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 379.75810473815466,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "number": 22,
+  "id": "cell-022-namekian-headbutt",
+  "name": "Namekian Headbutt",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-022-namekian-headbutt.svg",
+  "native_source_sha256": "8a2476f8fbf7aebc14f1322c28d751652506002595d9a6abd0a3102fd682b2aa",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f5a5a00cdde7e98daf9f03b1f61f1f3850f4a908899f38aa0c8b01a21435d587.png",
+      "sha256": "f5a5a00cdde7e98daf9f03b1f61f1f3850f4a908899f38aa0c8b01a21435d587"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "ff386394adca196feb0edc64d0cd141535ac83c0605a5fb4a4e4efeab72d4178"
+  },
+  "rules": [
+    {
+      "text": "(Limit 8 per deck.) Namekian Heritage only.",
+      "baseline": 1049.3,
+      "width": 771.064,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: 3 life cards.",
+      "baseline": 1108.3,
+      "width": 723.0041555438593,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        234.013,
+        50.2213,
+        590.974,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.707,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.507,
+        1392.65,
+        41.287,
+        33.708
+      ],
+      "rules-line-1": [
+        144.777,
+        1012.11,
+        769.447,
+        47.334
+      ],
+      "rules-line-2": [
+        223.328,
+        1072.53,
+        666.89,
+        45.521
+      ],
+      "power-icon": [
+        168.782,
+        1073.97,
+        40.4392,
+        34.3
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          168.782,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          223.328,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          168.782,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-022-namekian-headbutt.webp",
+      "before_url": "/assets/cards/cell-022-namekian-headbutt.webp?v=631dc6ce2eea",
+      "before_sha256": "631dc6ce2eeac589ffb0f7e4ff91d590111a8532d061c5a4d35f3f3eb1dfd5fd",
+      "after_sha256": "aaeff3b3c706160a1a0d4514eebdd57b301dd37268fbef3728e6bb6b37d576de",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-022-namekian-headbutt.webp",
+      "before_url": "/assets/cards/downloads/cell-022-namekian-headbutt.webp?v=0de762c7cc57",
+      "before_sha256": "0de762c7cc571e5cedf14c0caba057ea36e917f4c3555b1f12cabe8d0f280d2a",
+      "after_sha256": "63bc81bef3a11ade1517ed328042063c88b9d450c4ce1f8cd53f5f98ca865ac9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 590.9738154613467,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

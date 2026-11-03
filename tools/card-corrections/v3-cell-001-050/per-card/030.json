@@ -1,0 +1,222 @@
+{
+  "number": 30,
+  "id": "cell-030-black-strike",
+  "name": "Black Strike",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-030-black-strike.svg",
+  "native_source_sha256": "c6a0dfb965cd43a6ea00beaf206560391925270fb4602cdeadcbfd80b0fc4dd6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/09ac563ab66f451ab8009a4c2e940badee30c888bb2165ca918d19cb7b4db78d.png",
+      "sha256": "09ac563ab66f451ab8009a4c2e940badee30c888bb2165ca918d19cb7b4db78d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2b306bf90646845489fe9efd9af8751884f29e353a138a1ebed7b72f53339bcb"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 2 life cards and 2 stages.",
+      "baseline": 1108.3,
+      "width": 610.8340000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        349.859,
+        50.2213,
+        359.282,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.541,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.341,
+        1392.65,
+        43.619,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        225.945,
+        1072.53,
+        607.11,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-030-black-strike.webp",
+      "before_url": "/assets/cards/cell-030-black-strike.webp?v=0e8f32658ce6",
+      "before_sha256": "0e8f32658ce6d18d53bc826711eeb6464e0e7fd52a402a9a92f760da8b37031c",
+      "after_sha256": "42057cf5b57ff981396e55599259c4349b1d486eac693f87d1143b7bc2c3fcd3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-030-black-strike.webp",
+      "before_url": "/assets/cards/downloads/cell-030-black-strike.webp?v=d0368f860f7b",
+      "before_sha256": "d0368f860f7bf8586d43f5d714e749082486ca9ad3f0fc29d1825fbf693fba2e",
+      "after_sha256": "be89b2ac20ed16821410b1d3b1daa171b554021fef3852dbe536cb147f4b2fe7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 359.281795511222,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

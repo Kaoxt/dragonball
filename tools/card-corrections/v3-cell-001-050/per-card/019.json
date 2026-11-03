@@ -1,0 +1,210 @@
+{
+  "number": 19,
+  "id": "cell-019-black-power-punch",
+  "name": "Black Power Punch",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-019-black-power-punch.svg",
+  "native_source_sha256": "84575016f9170446423403349b6b846907a83c4764416026ac1f191e0ac6bcc1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/716dee02b6346855618a9f6bd9e6496f3dba3ce8ff64895471b968040410254a.png",
+      "sha256": "716dee02b6346855618a9f6bd9e6496f3dba3ce8ff64895471b968040410254a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2ec03791f160a9b835b6b7a65f0bb7a6e3839e4aaa692820506ccdd4a6096896"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 4 stages.",
+      "baseline": 1049.3,
+      "width": 677.0911555438593,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        241.799,
+        50.2213,
+        575.401,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.33,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.13,
+        1392.65,
+        36.04,
+        33.708
+      ],
+      "rules-line-1": [
+        246.285,
+        1013.53,
+        620.977,
+        45.913
+      ],
+      "power-icon": [
+        191.738,
+        1014.97,
+        40.4392,
+        34.3
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          191.738,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          246.285,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          191.738,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-019-black-power-punch.webp",
+      "before_url": "/assets/cards/cell-019-black-power-punch.webp?v=f01eb1641dd2",
+      "before_sha256": "f01eb1641dd277d4f879eed90e2e98642f205936552d4ea4829dd65ef8d154f3",
+      "after_sha256": "997558e7d83c03cde8acf9a64e29437bfec78d4522e916d50c6fd02e6f1ce1b5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-019-black-power-punch.webp",
+      "before_url": "/assets/cards/downloads/cell-019-black-power-punch.webp?v=723ce1f3c27f",
+      "before_sha256": "723ce1f3c27f835281f39bc72baf1b1448c1d98e262bb6688455eaa48adbdd53",
+      "after_sha256": "b0d2a2f011dd3821f90c8bda1e9c803e5638881d87c3b60f2eecee135b743fe7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 575.4014962593517,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

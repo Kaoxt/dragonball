@@ -1,0 +1,222 @@
+{
+  "number": 11,
+  "id": "cell-011-namekian-backflip",
+  "name": "Namekian Backflip",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-011-namekian-backflip.svg",
+  "native_source_sha256": "2e29cfab49bc4b0e5f9108cd91d9da06360966d58c1afde6343c355bcfcc797d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0337fecff2ff5781c1dcb99f3cd338c55852c7da1e46612cdb9326a933a0fddb.png",
+      "sha256": "0337fecff2ff5781c1dcb99f3cd338c55852c7da1e46612cdb9326a933a0fddb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "7995bf8abddf70cee5e7d8283a211bda7c49c05a5f2400afe76098f4a88c7df9"
+  },
+  "rules": [
+    {
+      "text": "(Limit 8 per deck.) Namekian Heritage only.",
+      "baseline": 1049.3,
+      "width": 771.064,
+      "icon_inline": false
+    },
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1108.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        247.908,
+        44.5,
+        563.185,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        803.676,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        863.476,
+        1392.65,
+        27.348,
+        33.708
+      ],
+      "rules-line-1": [
+        144.777,
+        1012.11,
+        769.447,
+        47.334
+      ],
+      "rules-line-2": [
+        343.117,
+        1072.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1074.0,
+        37.3689,
+        34.3
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1074.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1073.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1074.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999997253326,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-011-namekian-backflip.webp",
+      "before_url": "/assets/cards/cell-011-namekian-backflip.webp?v=328567888965",
+      "before_sha256": "32856788896501c68af6c38afe6080ef4c01fbbfba2b2233f70907b9a6de0f42",
+      "after_sha256": "d06059ba693dbfd4dfb6ba8892087409303979a8f6547ab67d1f3e7bb4d1998c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-011-namekian-backflip.webp",
+      "before_url": "/assets/cards/downloads/cell-011-namekian-backflip.webp?v=a070d82460f3",
+      "before_sha256": "a070d82460f39d5629a9e992fa02d6f843c8bb026797ad9ac22a9c98dce480f7",
+      "after_sha256": "a4730f476379428fc4cbac23be8443a179ae2393bd798973f0dd358ba0b7c9f7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 563.1845386533666,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

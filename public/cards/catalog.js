@@ -13575,13 +13575,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-001-blue-sliding-dodge.webp?v=92df8e805a88",
-    "downloadImage": "/assets/cards/downloads/cell-001-blue-sliding-dodge.webp?v=6c99cc9962c3",
+    "image": "/assets/cards/cell-001-blue-sliding-dodge.webp?v=abcbe53d4942",
+    "downloadImage": "/assets/cards/downloads/cell-001-blue-sliding-dodge.webp?v=07ddf09b797e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-1",
     "rules": "Stops an energy attack. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-002-red-side-step",
@@ -13591,13 +13592,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-002-red-side-step.webp?v=c80cd334ff7c",
-    "downloadImage": "/assets/cards/downloads/cell-002-red-side-step.webp?v=a45605f5d0de",
+    "image": "/assets/cards/cell-002-red-side-step.webp?v=a1021b243ad1",
+    "downloadImage": "/assets/cards/downloads/cell-002-red-side-step.webp?v=989f64e92198",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-2",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-003-blue-fist-strike",
@@ -13607,13 +13609,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-003-blue-fist-strike.webp?v=26253e4db798",
-    "downloadImage": "/assets/cards/downloads/cell-003-blue-fist-strike.webp?v=7151bfc3460d",
+    "image": "/assets/cards/cell-003-blue-fist-strike.webp?v=461cb34042a9",
+    "downloadImage": "/assets/cards/downloads/cell-003-blue-fist-strike.webp?v=fa69573515c1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-3",
     "rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent's anger 2 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-004-orange-focused-blast",
@@ -13623,13 +13626,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-004-orange-focused-blast.webp?v=e39aa22c6523",
-    "downloadImage": "/assets/cards/downloads/cell-004-orange-focused-blast.webp?v=bfdb30039e87",
+    "image": "/assets/cards/cell-004-orange-focused-blast.webp?v=a342d3bc7188",
+    "downloadImage": "/assets/cards/downloads/cell-004-orange-focused-blast.webp?v=32442ca3d831",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-4",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-005-orange-blast",
@@ -13639,13 +13643,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-005-orange-blast.webp?v=28ef2c7bcde5",
-    "downloadImage": "/assets/cards/downloads/cell-005-orange-blast.webp?v=3bb84edc2b3f",
+    "image": "/assets/cards/cell-005-orange-blast.webp?v=c2b54c38c1f2",
+    "downloadImage": "/assets/cards/downloads/cell-005-orange-blast.webp?v=aa0e134be323",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-5",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-006-saiyan-right-cross",
@@ -13655,13 +13660,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-006-saiyan-right-cross.webp?v=4f06b317e743",
-    "downloadImage": "/assets/cards/downloads/cell-006-saiyan-right-cross.webp?v=4dd1883f8bf8",
+    "image": "/assets/cards/cell-006-saiyan-right-cross.webp?v=4dd7af56963d",
+    "downloadImage": "/assets/cards/downloads/cell-006-saiyan-right-cross.webp?v=664e99de1697",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-6",
     "rules": "Physical attack. DAMAGE: AT +3 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-007-namekian-energy-ray",
@@ -13671,13 +13677,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-007-namekian-energy-ray.webp?v=ad46507bc58b",
-    "downloadImage": "/assets/cards/downloads/cell-007-namekian-energy-ray.webp?v=d3cc978241b5",
+    "image": "/assets/cards/cell-007-namekian-energy-ray.webp?v=f7a46575947e",
+    "downloadImage": "/assets/cards/downloads/cell-007-namekian-energy-ray.webp?v=07bbdfc20697",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-7",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-008-black-fatality",
@@ -13687,13 +13694,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-008-black-fatality.webp?v=81a1c46b411d",
-    "downloadImage": "/assets/cards/downloads/cell-008-black-fatality.webp?v=919b158dd6fc",
+    "image": "/assets/cards/cell-008-black-fatality.webp?v=027f76498ef9",
+    "downloadImage": "/assets/cards/downloads/cell-008-black-fatality.webp?v=10684ff27457",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-8",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-009-blue-flight",
@@ -13703,13 +13711,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-009-blue-flight.webp?v=343346e82df1",
-    "downloadImage": "/assets/cards/downloads/cell-009-blue-flight.webp?v=3e4cafd2aa9e",
+    "image": "/assets/cards/cell-009-blue-flight.webp?v=d3fbea727a7e",
+    "downloadImage": "/assets/cards/downloads/cell-009-blue-flight.webp?v=85387d7f980d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-9",
     "rules": "Physical attack. DAMAGE: AT +4 stages. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-010-saiyan-defensive-stance",
@@ -13719,13 +13728,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-010-saiyan-defensive-stance.webp?v=b05673ac8507",
-    "downloadImage": "/assets/cards/downloads/cell-010-saiyan-defensive-stance.webp?v=9d68889055e0",
+    "image": "/assets/cards/cell-010-saiyan-defensive-stance.webp?v=c064a7426c8a",
+    "downloadImage": "/assets/cards/downloads/cell-010-saiyan-defensive-stance.webp?v=5d4b8166e6e4",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-10",
     "rules": "Stops an energy attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-011-namekian-backflip",
@@ -13735,13 +13745,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-011-namekian-backflip.webp?v=328567888965",
-    "downloadImage": "/assets/cards/downloads/cell-011-namekian-backflip.webp?v=a070d82460f3",
+    "image": "/assets/cards/cell-011-namekian-backflip.webp?v=d06059ba693d",
+    "downloadImage": "/assets/cards/downloads/cell-011-namekian-backflip.webp?v=a4730f476379",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-11",
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Stops a physical attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-012-namekian-physical-stance",
@@ -13751,13 +13762,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-012-namekian-physical-stance.webp?v=b8fc363e35f2",
-    "downloadImage": "/assets/cards/downloads/cell-012-namekian-physical-stance.webp?v=8eb293abeade",
+    "image": "/assets/cards/cell-012-namekian-physical-stance.webp?v=505142e53485",
+    "downloadImage": "/assets/cards/downloads/cell-012-namekian-physical-stance.webp?v=be04ef13eb62",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-12",
     "rules": "Stops a physical attack. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-013-namekian-destruction-blast",
@@ -13767,13 +13779,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-013-namekian-destruction-blast.webp?v=12575ceb5974",
-    "downloadImage": "/assets/cards/downloads/cell-013-namekian-destruction-blast.webp?v=0f77f10e456f",
+    "image": "/assets/cards/cell-013-namekian-destruction-blast.webp?v=e16a05ce73c1",
+    "downloadImage": "/assets/cards/downloads/cell-013-namekian-destruction-blast.webp?v=5d17954c5d0e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-13",
     "rules": "Energy attack costing 4 stages. DAMAGE: 7 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-014-saiyan-energy-orb",
@@ -13783,13 +13796,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-014-saiyan-energy-orb.webp?v=6b25cb42c915",
-    "downloadImage": "/assets/cards/downloads/cell-014-saiyan-energy-orb.webp?v=adbc54115252",
+    "image": "/assets/cards/cell-014-saiyan-energy-orb.webp?v=cb2b989e2584",
+    "downloadImage": "/assets/cards/downloads/cell-014-saiyan-energy-orb.webp?v=27a934e44561",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-14",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-015-saiyan-counterstrike",
@@ -13799,13 +13813,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-015-saiyan-counterstrike.webp?v=065df0eab593",
-    "downloadImage": "/assets/cards/downloads/cell-015-saiyan-counterstrike.webp?v=cc82fbadbdc4",
+    "image": "/assets/cards/cell-015-saiyan-counterstrike.webp?v=52d72153ab61",
+    "downloadImage": "/assets/cards/downloads/cell-015-saiyan-counterstrike.webp?v=1821a2eeb9e8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-15",
     "rules": "Stops a physical attack.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-016-saiyan-energy-attack",
@@ -13815,13 +13830,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-016-saiyan-energy-attack.webp?v=4936773d0d43",
-    "downloadImage": "/assets/cards/downloads/cell-016-saiyan-energy-attack.webp?v=0518d39a5f2f",
+    "image": "/assets/cards/cell-016-saiyan-energy-attack.webp?v=f465666bd7af",
+    "downloadImage": "/assets/cards/downloads/cell-016-saiyan-energy-attack.webp?v=63ac9e31c837",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-16",
     "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 6 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-017-blue-backflip",
@@ -13831,13 +13847,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-017-blue-backflip.webp?v=760df5ec76a6",
-    "downloadImage": "/assets/cards/downloads/cell-017-blue-backflip.webp?v=d5a42a231e15",
+    "image": "/assets/cards/cell-017-blue-backflip.webp?v=90cfc4385832",
+    "downloadImage": "/assets/cards/downloads/cell-017-blue-backflip.webp?v=7130a49196d6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-17",
     "rules": "Stops a physical attack. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-018-saiyan-left-hook",
@@ -13847,13 +13864,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-018-saiyan-left-hook.webp?v=7a5760e1e458",
-    "downloadImage": "/assets/cards/downloads/cell-018-saiyan-left-hook.webp?v=db14d52def5e",
+    "image": "/assets/cards/cell-018-saiyan-left-hook.webp?v=0951bdeaabf1",
+    "downloadImage": "/assets/cards/downloads/cell-018-saiyan-left-hook.webp?v=2c577498be96",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-18",
     "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT stages +3 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-019-black-power-punch",
@@ -13863,13 +13881,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-019-black-power-punch.webp?v=f01eb1641dd2",
-    "downloadImage": "/assets/cards/downloads/cell-019-black-power-punch.webp?v=723ce1f3c27f",
+    "image": "/assets/cards/cell-019-black-power-punch.webp?v=997558e7d83c",
+    "downloadImage": "/assets/cards/downloads/cell-019-black-power-punch.webp?v=b0d2a2f011dd",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-19",
     "rules": "Physical attack. DAMAGE: 4 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-020-black-quick-blast",
@@ -13879,13 +13898,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-020-black-quick-blast.webp?v=c5939a27a6fa",
-    "downloadImage": "/assets/cards/downloads/cell-020-black-quick-blast.webp?v=a6074c7dc987",
+    "image": "/assets/cards/cell-020-black-quick-blast.webp?v=e09630782842",
+    "downloadImage": "/assets/cards/downloads/cell-020-black-quick-blast.webp?v=d023766d08eb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-20",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-021-orange-sidestep",
@@ -13895,13 +13915,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-021-orange-sidestep.webp?v=6eb7869c332b",
-    "downloadImage": "/assets/cards/downloads/cell-021-orange-sidestep.webp?v=a66b97e7d5b3",
+    "image": "/assets/cards/cell-021-orange-sidestep.webp?v=489a0df49d76",
+    "downloadImage": "/assets/cards/downloads/cell-021-orange-sidestep.webp?v=51c8f5ee2fcb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-21",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-022-namekian-headbutt",
@@ -13911,13 +13932,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-022-namekian-headbutt.webp?v=631dc6ce2eea",
-    "downloadImage": "/assets/cards/downloads/cell-022-namekian-headbutt.webp?v=0de762c7cc57",
+    "image": "/assets/cards/cell-022-namekian-headbutt.webp?v=aaeff3b3c706",
+    "downloadImage": "/assets/cards/downloads/cell-022-namekian-headbutt.webp?v=63bc81bef3a1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-22",
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Physical attack. DAMAGE: 3 life cards.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-023-black-twin-blast",
@@ -13927,13 +13949,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-023-black-twin-blast.webp?v=021ae0a9ed0a",
-    "downloadImage": "/assets/cards/downloads/cell-023-black-twin-blast.webp?v=b0c35b1ac50e",
+    "image": "/assets/cards/cell-023-black-twin-blast.webp?v=8ddc1ff3a6d6",
+    "downloadImage": "/assets/cards/downloads/cell-023-black-twin-blast.webp?v=978bb4faa822",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-23",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-024-saiyan-palm-blast",
@@ -13943,13 +13966,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-024-saiyan-palm-blast.webp?v=3d1fb848af85",
-    "downloadImage": "/assets/cards/downloads/cell-024-saiyan-palm-blast.webp?v=14e370c71e02",
+    "image": "/assets/cards/cell-024-saiyan-palm-blast.webp?v=6860082c4efa",
+    "downloadImage": "/assets/cards/downloads/cell-024-saiyan-palm-blast.webp?v=99277a4fed01",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-24",
     "rules": "Saiyan Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-025-blue-swift-dodge",
@@ -13959,13 +13983,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-025-blue-swift-dodge.webp?v=33f041372a4f",
-    "downloadImage": "/assets/cards/downloads/cell-025-blue-swift-dodge.webp?v=79927e52a32f",
+    "image": "/assets/cards/cell-025-blue-swift-dodge.webp?v=700b18e3fff6",
+    "downloadImage": "/assets/cards/downloads/cell-025-blue-swift-dodge.webp?v=e801b8bb8472",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-25",
     "rules": "Stops a physical attack. Lower your opponent's anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-026-black-forearm-block",
@@ -13975,13 +14000,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-026-black-forearm-block.webp?v=60b31d2f1af1",
-    "downloadImage": "/assets/cards/downloads/cell-026-black-forearm-block.webp?v=50cdebd64916",
+    "image": "/assets/cards/cell-026-black-forearm-block.webp?v=7736eef7899f",
+    "downloadImage": "/assets/cards/downloads/cell-026-black-forearm-block.webp?v=b0299d8decc5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-26",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-027-red-flight",
@@ -13991,13 +14017,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-027-red-flight.webp?v=0c2df91b6d93",
-    "downloadImage": "/assets/cards/downloads/cell-027-red-flight.webp?v=981974d87546",
+    "image": "/assets/cards/cell-027-red-flight.webp?v=abba8922ef14",
+    "downloadImage": "/assets/cards/downloads/cell-027-red-flight.webp?v=90040d2262b5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-27",
     "rules": "Physical attack. DAMAGE: AT +3 stages. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-028-red-defensive-jump",
@@ -14007,13 +14034,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-028-red-defensive-jump.webp?v=ef5b68ae7e29",
-    "downloadImage": "/assets/cards/downloads/cell-028-red-defensive-jump.webp?v=bfb4b75ca521",
+    "image": "/assets/cards/cell-028-red-defensive-jump.webp?v=ca4b4b97c09d",
+    "downloadImage": "/assets/cards/downloads/cell-028-red-defensive-jump.webp?v=84cf6a40573f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-28",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-029-orange-strike",
@@ -14023,13 +14051,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-029-orange-strike.webp?v=6402d3c2a48a",
-    "downloadImage": "/assets/cards/downloads/cell-029-orange-strike.webp?v=5a92759c585f",
+    "image": "/assets/cards/cell-029-orange-strike.webp?v=0fd923c02579",
+    "downloadImage": "/assets/cards/downloads/cell-029-orange-strike.webp?v=388dd52b50d5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-29",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-030-black-strike",
@@ -14039,13 +14068,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-030-black-strike.webp?v=0e8f32658ce6",
-    "downloadImage": "/assets/cards/downloads/cell-030-black-strike.webp?v=d0368f860f7b",
+    "image": "/assets/cards/cell-030-black-strike.webp?v=42057cf5b57f",
+    "downloadImage": "/assets/cards/downloads/cell-030-black-strike.webp?v=be89b2ac20ed",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-30",
     "rules": "Energy attack costing 2 stages. DAMAGE: 2 life cards and 2 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-031-orange-energy-deflection",
@@ -14055,13 +14085,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-031-orange-energy-deflection.webp?v=4a5d5f5a9433",
-    "downloadImage": "/assets/cards/downloads/cell-031-orange-energy-deflection.webp?v=986e94dfe7a6",
+    "image": "/assets/cards/cell-031-orange-energy-deflection.webp?v=655071dd253e",
+    "downloadImage": "/assets/cards/downloads/cell-031-orange-energy-deflection.webp?v=e7bb1988d8b8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-31",
     "rules": "Stops an energy attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-032-red-power-strike",
@@ -14071,13 +14102,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-032-red-power-strike.webp?v=bfd8bacf3662",
-    "downloadImage": "/assets/cards/downloads/cell-032-red-power-strike.webp?v=fdb0cbf71c2f",
+    "image": "/assets/cards/cell-032-red-power-strike.webp?v=81bde18d0d60",
+    "downloadImage": "/assets/cards/downloads/cell-032-red-power-strike.webp?v=20c2923e8e65",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-32",
     "rules": "Physical attack. DAMAGE: AT +3 stages. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-033-red-face-strike",
@@ -14087,13 +14119,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-033-red-face-strike.webp?v=43f0fe04a642",
-    "downloadImage": "/assets/cards/downloads/cell-033-red-face-strike.webp?v=00e5d2f76365",
+    "image": "/assets/cards/cell-033-red-face-strike.webp?v=4aa0fc7c0cc6",
+    "downloadImage": "/assets/cards/downloads/cell-033-red-face-strike.webp?v=0de92a66d08c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-33",
     "rules": "Physical attack. DAMAGE: AT +2 stages. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-034-namekian-power-kick",
@@ -14103,13 +14136,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-034-namekian-power-kick.webp?v=72e66e596773",
-    "downloadImage": "/assets/cards/downloads/cell-034-namekian-power-kick.webp?v=b8e303a416a8",
+    "image": "/assets/cards/cell-034-namekian-power-kick.webp?v=07e9a8be7b70",
+    "downloadImage": "/assets/cards/downloads/cell-034-namekian-power-kick.webp?v=4f88e26643a6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-34",
     "rules": "Physical attack. DAMAGE: AT +3 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-035-orange-left-kick",
@@ -14119,13 +14153,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-035-orange-left-kick.webp?v=343d9ebd9bdc",
-    "downloadImage": "/assets/cards/downloads/cell-035-orange-left-kick.webp?v=35f6bccb3fe3",
+    "image": "/assets/cards/cell-035-orange-left-kick.webp?v=5130e7be7429",
+    "downloadImage": "/assets/cards/downloads/cell-035-orange-left-kick.webp?v=f3f345fad3e5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-35",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-036-red-driving-jab",
@@ -14135,13 +14170,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-036-red-driving-jab.webp?v=b5c8219efb4a",
-    "downloadImage": "/assets/cards/downloads/cell-036-red-driving-jab.webp?v=83cf8eecc5a0",
+    "image": "/assets/cards/cell-036-red-driving-jab.webp?v=3e101275232f",
+    "downloadImage": "/assets/cards/downloads/cell-036-red-driving-jab.webp?v=fd62fcb8f969",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-36",
     "rules": "Physical attack. DAMAGE: AT +4 stages.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-037-red-crush",
@@ -14151,13 +14187,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-037-red-crush.webp?v=838975a1d962",
-    "downloadImage": "/assets/cards/downloads/cell-037-red-crush.webp?v=db739e3b48b9",
+    "image": "/assets/cards/cell-037-red-crush.webp?v=90450f76b882",
+    "downloadImage": "/assets/cards/downloads/cell-037-red-crush.webp?v=806cbd3a308f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-37",
     "rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-038-black-neck-break",
@@ -14167,13 +14204,14 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-038-black-neck-break.webp?v=3ecac871b5a1",
-    "downloadImage": "/assets/cards/downloads/cell-038-black-neck-break.webp?v=151fd729a7b5",
+    "image": "/assets/cards/cell-038-black-neck-break.webp?v=db839c1a3647",
+    "downloadImage": "/assets/cards/downloads/cell-038-black-neck-break.webp?v=ce3d1204a80d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-38",
     "rules": "Physical attack. DAMAGE: 3 life cards. Raise your anger 1 level.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-039-dende-dragon-ball-1",
@@ -14183,13 +14221,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-039-dende-dragon-ball-1.webp?v=8285e9426d0d",
-    "downloadImage": "/assets/cards/downloads/cell-039-dende-dragon-ball-1.webp?v=0b248cf1eae6",
+    "image": "/assets/cards/cell-039-dende-dragon-ball-1.webp?v=0fc554948288",
+    "downloadImage": "/assets/cards/downloads/cell-039-dende-dragon-ball-1.webp?v=7cd377a28826",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-39",
     "rules": "Raise your Main Personality to its highest stage. Lower your opponent's anger 3 levels.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-040-dende-dragon-ball-2",
@@ -14199,13 +14238,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-040-dende-dragon-ball-2.webp?v=b111db29e2f6",
-    "downloadImage": "/assets/cards/downloads/cell-040-dende-dragon-ball-2.webp?v=f8f82a247aa6",
+    "image": "/assets/cards/cell-040-dende-dragon-ball-2.webp?v=0b6ae3ae1c45",
+    "downloadImage": "/assets/cards/downloads/cell-040-dende-dragon-ball-2.webp?v=bf6afb04d94e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-40",
     "rules": "Raise your Main Personality to its highest stage. You may shuffle a Dragon Ball in play into its owner's Life Deck.",
-    "rarity": "Common"
+    "rarity": "Common",
+    "templateVersion": 3
   },
   {
     "id": "cell-041-saiyan-triple-kick",
@@ -14215,13 +14255,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-041-saiyan-triple-kick.webp?v=2105def764ac",
-    "downloadImage": "/assets/cards/downloads/cell-041-saiyan-triple-kick.webp?v=8d24e7e8330c",
+    "image": "/assets/cards/cell-041-saiyan-triple-kick.webp?v=e9ddab771a03",
+    "downloadImage": "/assets/cards/downloads/cell-041-saiyan-triple-kick.webp?v=be78aa1ac430",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-41",
     "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT +5 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-042-namekian-fist-block",
@@ -14231,13 +14272,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-042-namekian-fist-block.webp?v=b4841186ddbb",
-    "downloadImage": "/assets/cards/downloads/cell-042-namekian-fist-block.webp?v=ded15c44d8e0",
+    "image": "/assets/cards/cell-042-namekian-fist-block.webp?v=85ddc437a931",
+    "downloadImage": "/assets/cards/downloads/cell-042-namekian-fist-block.webp?v=da56961e220a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-42",
     "rules": "Stops a physical attack. Gain 3 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-043-namekian-special-beam-cannon",
@@ -14247,13 +14289,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-043-namekian-special-beam-cannon.webp?v=d297ff9c18b9",
-    "downloadImage": "/assets/cards/downloads/cell-043-namekian-special-beam-cannon.webp?v=964ae126c7da",
+    "image": "/assets/cards/cell-043-namekian-special-beam-cannon.webp?v=c999fcfa88f3",
+    "downloadImage": "/assets/cards/downloads/cell-043-namekian-special-beam-cannon.webp?v=b83b21c7df62",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-43",
     "rules": "Energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Gain 2 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-044-namekian-bash",
@@ -14263,13 +14306,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-044-namekian-bash.webp?v=978c5d884566",
-    "downloadImage": "/assets/cards/downloads/cell-044-namekian-bash.webp?v=8e303fb954a9",
+    "image": "/assets/cards/cell-044-namekian-bash.webp?v=d54e20661ba9",
+    "downloadImage": "/assets/cards/downloads/cell-044-namekian-bash.webp?v=032d53ff5e3a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-44",
     "rules": "Physical attack. DAMAGE: AT +4 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-045-namekian-energy-catch",
@@ -14279,13 +14323,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-045-namekian-energy-catch.webp?v=3259b967c87c",
-    "downloadImage": "/assets/cards/downloads/cell-045-namekian-energy-catch.webp?v=24ac60bfbad7",
+    "image": "/assets/cards/cell-045-namekian-energy-catch.webp?v=a2674893e5c5",
+    "downloadImage": "/assets/cards/downloads/cell-045-namekian-energy-catch.webp?v=e1fa5485909b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-45",
     "rules": "Stops an energy attack. Gain 3 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-046-red-offensive-stance",
@@ -14295,13 +14340,14 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-046-red-offensive-stance.webp?v=1f855fe12d0e",
-    "downloadImage": "/assets/cards/downloads/cell-046-red-offensive-stance.webp?v=e71b0b27d05f",
+    "image": "/assets/cards/cell-046-red-offensive-stance.webp?v=c9e8a6e2362c",
+    "downloadImage": "/assets/cards/downloads/cell-046-red-offensive-stance.webp?v=e48a287d3075",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-46",
     "rules": "Stops a physical attack. Gain 5 stages. Raise your anger 1 level.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-047-blue-evasion",
@@ -14311,13 +14357,14 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-047-blue-evasion.webp?v=849b49dd420a",
-    "downloadImage": "/assets/cards/downloads/cell-047-blue-evasion.webp?v=871519600586",
+    "image": "/assets/cards/cell-047-blue-evasion.webp?v=1c1e4a0551b4",
+    "downloadImage": "/assets/cards/downloads/cell-047-blue-evasion.webp?v=127c9acfd47a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-47",
     "rules": "Stops a physical attack. Lower your opponent's anger 1 level. Raise your anger 1 level.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-048-orange-energy-focus",
@@ -14327,13 +14374,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-048-orange-energy-focus.webp?v=11ed37936b35",
-    "downloadImage": "/assets/cards/downloads/cell-048-orange-energy-focus.webp?v=c6c12bf8524b",
+    "image": "/assets/cards/cell-048-orange-energy-focus.webp?v=4c50880bbca0",
+    "downloadImage": "/assets/cards/downloads/cell-048-orange-energy-focus.webp?v=3bbb386b8c87",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-48",
     "rules": "Energy attack costing 1 stage. DAMAGE: 5 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-049-namekian-upward-dash",
@@ -14343,13 +14391,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-049-namekian-upward-dash.webp?v=5021cade2f6a",
-    "downloadImage": "/assets/cards/downloads/cell-049-namekian-upward-dash.webp?v=e83c1ecb9cc5",
+    "image": "/assets/cards/cell-049-namekian-upward-dash.webp?v=2b8943b15ec7",
+    "downloadImage": "/assets/cards/downloads/cell-049-namekian-upward-dash.webp?v=09adef768f67",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-49",
     "rules": "Physical attack. DAMAGE: AT stages. Place the bottom 2 cards of your discard pile on the bottom of your Life Deck.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-050-saiyan-left-punch",
@@ -14359,13 +14408,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-050-saiyan-left-punch.webp?v=1ac757dc3042",
-    "downloadImage": "/assets/cards/downloads/cell-050-saiyan-left-punch.webp?v=d32c2dd164a9",
+    "image": "/assets/cards/cell-050-saiyan-left-punch.webp?v=e59a69f9686c",
+    "downloadImage": "/assets/cards/downloads/cell-050-saiyan-left-punch.webp?v=36b77629629a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-50",
     "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT +4 stages.",
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-051-black-dodge",

@@ -1,0 +1,234 @@
+{
+  "number": 20,
+  "id": "cell-020-black-quick-blast",
+  "name": "Black Quick Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-020-black-quick-blast.svg",
+  "native_source_sha256": "d51be21de2d10ee9b574b23b4af4bf6c7de8e8746bfa2dd0e7ce590abc796308",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/183863898603da3d616e71da4d8bad2d26f115d580145fb756e7f974c9e5c582.png",
+      "sha256": "183863898603da3d616e71da4d8bad2d26f115d580145fb756e7f974c9e5c582"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": true,
+    "source_native_sha256": "1593271e07a50a2044c3e7990d898e87a254de2d1c99af7391d40af2bdaa8546"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        268.857,
+        46.909,
+        521.286,
+        64.182
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.912,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.712,
+        1392.65,
+        42.877,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-3": [
+        317.06,
+        1131.53,
+        424.879,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-020-black-quick-blast.webp",
+      "before_url": "/assets/cards/cell-020-black-quick-blast.webp?v=c5939a27a6fa",
+      "before_sha256": "c5939a27a6fa4f6e10a8ba39bc8bd433e045619e2f7f0e662200e1aecd96edfe",
+      "after_sha256": "e09630782842f67fc3f2aab58de12496f244586662b695250e036b24e6529f9e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-020-black-quick-blast.webp",
+      "before_url": "/assets/cards/downloads/cell-020-black-quick-blast.webp?v=a6074c7dc987",
+      "before_sha256": "a6074c7dc987506fd86f1606f571243ca7bdad0a6dcd43ecf828e56071cd0cf4",
+      "after_sha256": "d023766d08eba1396f29052de2b1109fabfc0090576903bab374796dbb3f6eed",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 521.2855361596011,
+      "visible_height": 64.18204488778056,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

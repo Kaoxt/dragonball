@@ -1,0 +1,234 @@
+{
+  "number": 18,
+  "id": "cell-018-saiyan-left-hook",
+  "name": "Saiyan Left Hook",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-018-saiyan-left-hook.svg",
+  "native_source_sha256": "c49cd9421beefe82244d568271c1071ca0f7978099331a78bc73e7d65c9bb454",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/932c7b406d394daaeda10e12dc84c2387f9595c64313d7f011ffea35510892b3.png",
+      "sha256": "932c7b406d394daaeda10e12dc84c2387f9595c64313d7f011ffea35510892b3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "631c8d60e0572bc77576d99f839f74387dac53646d02b90bcc7f1dc371fd8e01"
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only.",
+      "baseline": 1049.3,
+      "width": 374.458,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack.",
+      "baseline": 1108.3,
+      "width": 338.35415554385935,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +3 life cards.",
+      "baseline": 1167.3,
+      "width": 581.9240000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        276.772,
+        44.5,
+        505.455,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.118,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        858.918,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        343.716,
+        1013.53,
+        371.567,
+        45.913
+      ],
+      "rules-line-2": [
+        415.653,
+        1072.53,
+        282.24,
+        45.521
+      ],
+      "power-icon": [
+        361.107,
+        1073.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-3": [
+        240.4,
+        1131.53,
+        578.2,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          361.107,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          415.653,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          361.107,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-018-saiyan-left-hook.webp",
+      "before_url": "/assets/cards/cell-018-saiyan-left-hook.webp?v=7a5760e1e458",
+      "before_sha256": "7a5760e1e45898577c2b65e39bfbd9e37df6a9fd4fa34c60043a8a2e6ce4ec36",
+      "after_sha256": "0951bdeaabf1e4f8291da526b3949f79333987f9a854c006d4f064a5cd6c69b4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-018-saiyan-left-hook.webp",
+      "before_url": "/assets/cards/downloads/cell-018-saiyan-left-hook.webp?v=db14d52def5e",
+      "before_sha256": "db14d52def5e624666aac713d0e7d6e9e2952b9e8b8949c90e2367aacff0a186",
+      "after_sha256": "2c577498be96415710fb35e7b0648f41bf755d63a662ee955788fa5d434959e9",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 505.45511221945145,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

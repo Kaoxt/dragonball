@@ -1,0 +1,246 @@
+{
+  "number": 24,
+  "id": "cell-024-saiyan-palm-blast",
+  "name": "Saiyan Palm Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-024-saiyan-palm-blast.svg",
+  "native_source_sha256": "bb922dc9e225687174906088a61f58f64ba337b95d0a4fff15d9e0c2ea42f100",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dd0d2d099903a1af12d7728d21b49b5c51e9a117f573d4d721aa6f140209f82b.png",
+      "sha256": "dd0d2d099903a1af12d7728d21b49b5c51e9a117f573d4d721aa6f140209f82b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "3a685b225d3fa0d9475c5c6ad140241a3bf99118edd5ab64227264fe70292432"
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only.",
+      "baseline": 1049.3,
+      "width": 374.458,
+      "icon_inline": false
+    },
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1108.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1167.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Raise your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 509.60000000000014,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        259.35,
+        44.5,
+        540.299,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.984,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.784,
+        1392.65,
+        44.732,
+        33.708
+      ],
+      "rules-line-1": [
+        343.716,
+        1013.53,
+        371.567,
+        45.913
+      ],
+      "rules-line-2": [
+        278.11,
+        1072.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1074.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-3": [
+        342.761,
+        1131.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-4": [
+        276.562,
+        1190.53,
+        505.876,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1074.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-024-saiyan-palm-blast.webp",
+      "before_url": "/assets/cards/cell-024-saiyan-palm-blast.webp?v=3d1fb848af85",
+      "before_sha256": "3d1fb848af85095945fbfeabdf28aab3f8a74d95d00981365eeebe527fc98d84",
+      "after_sha256": "6860082c4efa797e63072ef85c4138436986bd311bfa76ed288b9b36cadf3338",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-024-saiyan-palm-blast.webp",
+      "before_url": "/assets/cards/downloads/cell-024-saiyan-palm-blast.webp?v=14e370c71e02",
+      "before_sha256": "14e370c71e0298880cf0af2b7103e3e7f8c6be487e6c3c5371d1596f1bd6595a",
+      "after_sha256": "99277a4fed01f26f761210693b69557bd54f16ae4b5a3ff3c72fc52f203921c7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 540.2992518703243,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

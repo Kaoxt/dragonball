@@ -1,0 +1,222 @@
+{
+  "number": 28,
+  "id": "cell-028-red-defensive-jump",
+  "name": "Red Defensive Jump",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-028-red-defensive-jump.svg",
+  "native_source_sha256": "e28fb30c3f574a9c907d48795f22b3ab769ab83a66836bf9a4eb5c9841d97d80",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/de78edd158053f28edd55f1008079388c38fb0ec60a95b0a7fcc519e016777d1.png",
+      "sha256": "de78edd158053f28edd55f1008079388c38fb0ec60a95b0a7fcc519e016777d1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "0bee857fe43f8e9b3db05a9507574f659c92086465623b044d2655b24d4a46fb"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        225.281,
+        44.5,
+        608.439,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        317.06,
+        1072.53,
+        424.879,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-028-red-defensive-jump.webp",
+      "before_url": "/assets/cards/cell-028-red-defensive-jump.webp?v=ef5b68ae7e29",
+      "before_sha256": "ef5b68ae7e29e09f8df20b339614c87b0926410385af76ae780bd5676214a2ed",
+      "after_sha256": "ca4b4b97c09d847d47cf1f353a833cada520ad480711f985c483e20a3a3536dd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-028-red-defensive-jump.webp",
+      "before_url": "/assets/cards/downloads/cell-028-red-defensive-jump.webp?v=bfb4b75ca521",
+      "before_sha256": "bfb4b75ca521ba261ead84e0a896653b5213bf64d2fac0f3747d0273d96a3bd3",
+      "after_sha256": "84cf6a40573fa3e1a9f69c44645d9ab4def9b1eb3c44e7201914f4bf16ef0cc5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 608.4389027431422,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

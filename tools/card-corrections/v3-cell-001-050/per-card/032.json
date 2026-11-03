@@ -1,0 +1,222 @@
+{
+  "number": 32,
+  "id": "cell-032-red-power-strike",
+  "name": "Red Power Strike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-032-red-power-strike.svg",
+  "native_source_sha256": "09b21ea975af5c733846953aa5bee3b39c166582f3df8a17ef9a170f4b5d2a65",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e4bfe84b2d67a1849f3925da0f150196775a3964806e3d8fb59508269e8708f3.png",
+      "sha256": "e4bfe84b2d67a1849f3925da0f150196775a3964806e3d8fb59508269e8708f3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "44e13d78625b0fdeaa71496e11a4bae9e4426316547b5104a64045a7be7b8ed5"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        273.073,
+        50.2213,
+        512.854,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.336,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.136,
+        1392.65,
+        42.029,
+        33.708
+      ],
+      "rules-line-1": [
+        208.555,
+        1013.53,
+        696.437,
+        45.913
+      ],
+      "power-icon": [
+        154.008,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        317.06,
+        1072.53,
+        424.879,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          154.008,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.555,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          154.008,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-032-red-power-strike.webp",
+      "before_url": "/assets/cards/cell-032-red-power-strike.webp?v=bfd8bacf3662",
+      "before_sha256": "bfd8bacf36629d0fd70cb87aadd2a1592e8ffb749e052d018d08e8614bcb4e3a",
+      "after_sha256": "81bde18d0d60bc99314d7aca74738758480ba4ebc8262aae29a9680c6d278cd5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-032-red-power-strike.webp",
+      "before_url": "/assets/cards/downloads/cell-032-red-power-strike.webp?v=fdb0cbf71c2f",
+      "before_sha256": "fdb0cbf71c2f9d8a39465c5f1fc00ed013c2733de9657724b5de5d0986ecc489",
+      "after_sha256": "20c2923e8e652ea89e7ea36090bcb5875e4b29cc1391775394b6b73aaf2e424e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 512.8541147132171,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

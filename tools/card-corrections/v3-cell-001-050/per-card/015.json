@@ -1,0 +1,210 @@
+{
+  "number": 15,
+  "id": "cell-015-saiyan-counterstrike",
+  "name": "Saiyan Counterstrike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-015-saiyan-counterstrike.svg",
+  "native_source_sha256": "e39a190d012c7e392b869cb03bf5b3518775e17c57da3ede291cb5a7de61e185",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5a0dc5ed15e9956026489caa0f18c08e2e4ae070067705efa471b4f01e9f2e48.png",
+      "sha256": "5a0dc5ed15e9956026489caa0f18c08e2e4ae070067705efa471b4f01e9f2e48"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "cb2a3dc8463fa5ceb9e8a3d1bc852ca46f75a2dc155e5d59a656cd840e040fca"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        214.397,
+        44.5,
+        630.206,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.224,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.024,
+        1392.65,
+        36.252,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-015-saiyan-counterstrike.webp",
+      "before_url": "/assets/cards/cell-015-saiyan-counterstrike.webp?v=065df0eab593",
+      "before_sha256": "065df0eab5938e2d0b66073858ecdceda51e381ba6c67d276e5ef59f7ff9efc1",
+      "after_sha256": "52d72153ab6179668785f5c9964c26bbe893f2a4bc011447eabd3a37da32724d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-015-saiyan-counterstrike.webp",
+      "before_url": "/assets/cards/downloads/cell-015-saiyan-counterstrike.webp?v=cc82fbadbdc4",
+      "before_sha256": "cc82fbadbdc42e212542c6144f17554cd3953a5f8e71002b29d86c980fc93c68",
+      "after_sha256": "1821a2eeb9e8d132698e9350dbac31f61b685fc5188d01ecba5d4a9d912f8f1e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 630.205735660848,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

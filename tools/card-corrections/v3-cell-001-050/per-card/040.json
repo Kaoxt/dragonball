@@ -1,0 +1,204 @@
+{
+  "number": 40,
+  "id": "cell-040-dende-dragon-ball-2",
+  "name": "Dende Dragon Ball 2",
+  "family": "DRAGON BALL",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-040-dende-dragon-ball-2.svg",
+  "native_source_sha256": "1939ef88d487eb458d0482a4f3392a9d9767d0312ca5fb21e0ca3e3409505ef2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e.png",
+      "sha256": "679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "approved Dende full-art exception",
+    "approved_artwork_exception": true,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "localized_correction": null,
+    "background_gain": 1,
+    "source_native_sha256": "de489e036a5fb1a774708e2f197142dee311f1624b6cf79358be67fec61740b1"
+  },
+  "rules": [
+    {
+      "text": "Raise your Main Personality to its highest stage.",
+      "baseline": 1049.3,
+      "width": 852.159,
+      "icon_inline": false
+    },
+    {
+      "text": "You may shuffle a Dragon Ball in play",
+      "baseline": 1108.3,
+      "width": 656.698,
+      "icon_inline": false
+    },
+    {
+      "text": "into its owner's Life Deck.",
+      "baseline": 1167.3,
+      "width": 458.7380000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        229.453,
+        44.5,
+        600.094,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "dragon-ball-left-emblem": [
+        12.0,
+        769.0,
+        236.0,
+        236.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.507,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.307,
+        1392.65,
+        45.686,
+        33.708
+      ],
+      "rules-line-1": [
+        105.283,
+        1013.53,
+        848.435,
+        45.913
+      ],
+      "rules-line-2": [
+        202.069,
+        1072.53,
+        654.862,
+        45.913
+      ],
+      "rules-line-3": [
+        301.65,
+        1131.53,
+        455.7,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-040-dende-dragon-ball-2.webp",
+      "before_url": "/assets/cards/cell-040-dende-dragon-ball-2.webp?v=b111db29e2f6",
+      "before_sha256": "b111db29e2f62f32a92f5f7157dbec7425d9179c09375a7dd6ff32edaada3c8b",
+      "after_sha256": "0b6ae3ae1c45967391d84d1d01b9eb69024d6b21c4cfcd2da12a00b3917aefe3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-040-dende-dragon-ball-2.webp",
+      "before_url": "/assets/cards/downloads/cell-040-dende-dragon-ball-2.webp?v=f8f82a247aa6",
+      "before_sha256": "f8f82a247aa659c0ecc72c2a816e815f95343c037b67933e6556d4e43a0a8b08",
+      "after_sha256": "bf6afb04d94ec09efefc8d2fa1c3c1be3856966efcee149d07539926649eb0fe",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 600.0935162094764,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

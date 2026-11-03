@@ -1,0 +1,17 @@
+{
+  "mode": "built-in image generation",
+  "artwork": "artwork/dende-summoning-full-art.png",
+  "pose_reference": "assets/dende-pose-reference.jpg",
+  "prompt_summary": "Edit summoning background into authentic hand-drawn 2D Dragon Ball anime with broad simple clouds, two or three flat tones, dark slate sky, restrained amber light, clean Shenron line-art, no photographic cloud detail, no particles or radial rays. Composite retained Dende in front.",
+  "direction_for_remaining_dende_dragon_balls": "Reuse this retained Dende pose/expression and current anime Shenron summoning background as full-bleed art. Keep native orb/stars/frame/text as separate layers.",
+  "review": {
+    "pose": "Both arms extended, open palms and expressive mouth; corresponding reference costume and antennae.",
+    "hands": "Five visible fingers on each hand, wrists and sleeves connected, hands fully within canvas.",
+    "full_art": "Anime summoning backdrop continues to every edge and behind title, rules and shaped footer.",
+    "frame": "All native elements other than the full-art background image are canonically identical to the previous Dende cards.",
+    "exceptions": "User-requested replacement of the earlier Shenron illustration; original Score illustration is no longer the pose authority."
+  },
+  "background": "artwork/dende-summoning-background.png",
+  "background_direction": "Dende is summoning Shenron. Dark slate sky, dragon behind Dende, broad simple hand-drawn anime clouds with flat cel shading, no photorealistic texture or multicolored speed-line burst.",
+  "compositing": "background-revision/compose.py retains original Dende face, hands, expression and upper costume pixels through the verified mask; restores lower robe to remove old energy streak overlays."
+}

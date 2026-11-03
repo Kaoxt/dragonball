@@ -1,0 +1,234 @@
+{
+  "number": 49,
+  "id": "cell-049-namekian-upward-dash",
+  "name": "Namekian Upward Dash",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-001-050/cell-049-namekian-upward-dash.svg",
+  "native_source_sha256": "469fe5f806d0234c3521e0e329a5ad0d10e42097c3c66087f4faca7c2dd05131",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2ba18167f82f0161bf71513aac696a5e2dde3c1ca21208f27cea173c08f34633.png",
+      "sha256": "2ba18167f82f0161bf71513aac696a5e2dde3c1ca21208f27cea173c08f34633"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "ee2c90e3fd89b28788364256edca57fcf0dbac8bc0933c583690cc983ae65a6f"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Place the bottom 2 cards of your discard pile on",
+      "baseline": 1108.3,
+      "width": 850.199,
+      "icon_inline": false
+    },
+    {
+      "text": "the bottom of your Life Deck.",
+      "baseline": 1167.3,
+      "width": 516.1170000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        173.746,
+        44.5,
+        711.509,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.746,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.545,
+        1392.65,
+        45.209,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "power-icon": [
+        180.321,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        106.287,
+        1072.53,
+        846.426,
+        45.521
+      ],
+      "rules-line-3": [
+        272.544,
+        1131.53,
+        513.912,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-049-namekian-upward-dash.webp",
+      "before_url": "/assets/cards/cell-049-namekian-upward-dash.webp?v=5021cade2f6a",
+      "before_sha256": "5021cade2f6a7e87689744d8002f571c719c133c53a5f0fb191267846a712a7c",
+      "after_sha256": "2b8943b15ec7eb7149de611c7dc32a4ec8f9fdd016192a8aa82ecfd45e08d9de",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-049-namekian-upward-dash.webp",
+      "before_url": "/assets/cards/downloads/cell-049-namekian-upward-dash.webp?v=e83c1ecb9cc5",
+      "before_sha256": "e83c1ecb9cc5cbed13e96b4704160e53d8d83677de341ad73754e392d8a2ed03",
+      "after_sha256": "09adef768f677887822bbe388ae46ea86ba083d81875d1cf2a9ca6b126457d7a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 711.5087281795512,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
