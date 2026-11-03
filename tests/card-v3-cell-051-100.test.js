@@ -64,6 +64,7 @@ test('Cell 051–100 preserve original values, art, categories and CRD timing',(
   assert.deepEqual([d.level,d.pur,d.stages],[v.level,v.pur,v.stages]);assert.equal(v.stages.length,[90,95,98].includes(v.number)?13:11);
   assert.equal(v.stages.at(-1),0);for(const r of v.rows){near(r.right_ink_edge,1031);near(r.digit_center_error,0);}
   const stages=[...svg.matchAll(/id="power-stage-\d+"[^>]*data-stage-value="(\d+)"/g)].map(m=>Number(m[1]));assert.deepEqual(stages,v.stages);
+  assert.match(svg,new RegExp('id="card-category"[^>]*aria-label="'+(d.category.startsWith('VILLAIN')?'VILLAIN':'HERO')+'"'));
   const title=row.native_geometry.bounds['card-title'],level=row.native_geometry.bounds['v3-level-number'];assert.ok(title[2]<=640.021);assert.ok(title[0]-level[0]-level[2]>=40);
   if([90,95,98].includes(v.number)){assert.match(svg,/#a61122/);assert.match(svg,/#8e1722/);}else{assert.match(svg,/#258bc9/);assert.match(svg,/#15639d/);}
  }
