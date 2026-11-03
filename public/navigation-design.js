@@ -14,7 +14,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261102-red-navigation';
+surfaces.href = '/surfaces-design.css?v=20261103-burgundy-news-toggle';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');

@@ -104,6 +104,11 @@
  html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
   background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
  }
+ /* Match the Rules selection's burgundy, with one thin border and no inset ring. */
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
+  background:var(--site-nav-red-fill,#52212b);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
+ }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
   outline:2px solid #c2c8cd;outline-offset:3px;
