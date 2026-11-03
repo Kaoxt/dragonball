@@ -1,0 +1,194 @@
+{
+  "number": "P3",
+  "id": "android-p03-a-burst-of-energy",
+  "name": "A Burst of Energy",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p03-a-burst-of-energy.svg",
+  "native_source_sha256": "73d9dad2351c7648d7320d36db0500b14dd4256d8b0d4723cc6c7374a6ff1415",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4c53dff83b4242a8ce11cbadd5663a01937e83edb727ac101564b21c0e1f3126.png",
+      "sha256": "4c53dff83b4242a8ce11cbadd5663a01937e83edb727ac101564b21c0e1f3126"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c13cec1b1862c1d733f7dbd0be19eec8d9f5a0ccb1a89233c7ac16e3265c8296"
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when needed. Raise all of your",
+      "baseline": 1049.3,
+      "width": 763.077,
+      "icon_inline": false
+    },
+    {
+      "text": "personalities to their highest stage.",
+      "baseline": 1108.3,
+      "width": 633.7170000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        269.546,
+        44.5,
+        519.909,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.071,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.87,
+        1392.65,
+        42.559,
+        33.708
+      ],
+      "rules-line-1": [
+        149.201,
+        1013.53,
+        760.598,
+        45.521
+      ],
+      "rules-line-2": [
+        214.43,
+        1072.53,
+        630.14,
+        45.913
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p03-a-burst-of-energy.webp",
+      "before_url": "/assets/cards/android-p03-a-burst-of-energy.webp?v=7822ae06dd8a",
+      "before_sha256": "7822ae06dd8ab8a4c1ccb64607ef06761918b883cc0838c4aee5a95db1fb55ca",
+      "after_sha256": "01c452666c02b564fca80ded099379953fbee12182181e06103ae0e7a666891b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p03-a-burst-of-energy.webp",
+      "before_url": "/assets/cards/downloads/android-p03-a-burst-of-energy.webp?v=5e348f8d2296",
+      "before_sha256": "5e348f8d229665d9bf6178cc02e99b49e2eb81397bb80981b4527426f0319626",
+      "after_sha256": "8961e12f608a4d66cef8a4474f93fcb24af3c6abf1263dbee34c6a23a66e0acd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 519.9089775561098,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

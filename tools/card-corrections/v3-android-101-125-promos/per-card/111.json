@@ -1,0 +1,239 @@
+{
+  "number": 111,
+  "id": "android-111-saiyan-lightning-dodge",
+  "name": "Saiyan Lightning Dodge",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-111-saiyan-lightning-dodge.svg",
+  "native_source_sha256": "b21bdab6bfbe2bc17b840df20041baef2ad3f7ef4512c489c7fb69da32bafa2c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/814571d54f3ef7a2a5ad62cc519504f3fa46e8471b339ac3ea2efb5fc859b66a.png",
+      "sha256": "814571d54f3ef7a2a5ad62cc519504f3fa46e8471b339ac3ea2efb5fc859b66a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ce6513759d91264f430ad517dfee459c82fdfd2ec0b8070749391ec1c57de173.png",
+      "sha256": "ce6513759d91264f430ad517dfee459c82fdfd2ec0b8070749391ec1c57de173"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1.png",
+      "sha256": "7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration with localized background repair",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": {
+      "width": 1501,
+      "height": 1047,
+      "mask_file": "artwork-corrections/111-sky-mask.png",
+      "background_file": "artwork-corrections/blue-gradient-background.png",
+      "source_pixels_protected": true,
+      "mask_nonzero_pixels": 532315,
+      "reviewed_component_ids": [
+        1,
+        4,
+        793,
+        1686
+      ]
+    },
+    "source_native_sha256": "66a5040a927d1b17e19ec5a660368a0bcdbcae93aed1511b20d6cdd6c87cc6c5"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Your opponent's",
+      "baseline": 1049.3,
+      "width": 773.1479473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "personality loses 4 stages, to a minimum of 0.",
+      "baseline": 1108.3,
+      "width": 817.9569999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        177.574,
+        44.5,
+        703.852,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        194.034,
+        1013.53,
+        721.623,
+        45.521
+      ],
+      "power-icon": [
+        143.343,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        122.31,
+        1072.53,
+        814.38,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          143.343,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          194.034,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          143.343,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-111-saiyan-lightning-dodge.webp",
+      "before_url": "/assets/cards/android-111-saiyan-lightning-dodge.webp?v=beb148e09beb",
+      "before_sha256": "beb148e09beb61c7388da9044fd39d3d4cbcc481cc5352c82379b325398748a7",
+      "after_sha256": "6863a295c5654fa907db4aa8915f9834734e431397c7e72fb5a6ac6da9a7fd3d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-111-saiyan-lightning-dodge.webp",
+      "before_url": "/assets/cards/downloads/android-111-saiyan-lightning-dodge.webp?v=94b53759f766",
+      "before_sha256": "94b53759f766416dc2fcf657f45284d377506e2efacd749ade0248d221b86b9c",
+      "after_sha256": "45d3c4d20bdf63ebd86fb0c9983f9e5214b4cb9e563243fcd044f0470909a616",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 703.851620947631,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "number": 106,
+  "id": "android-106-orange-searching-maneuver",
+  "name": "Orange Searching Maneuver",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-106-orange-searching-maneuver.svg",
+  "native_source_sha256": "0046cf48f57098de02f74887084b4301629fa410ea1225e13da16557c4a9cabc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3a40573a24159a6fee50ccc602a95fca2d03bc06b2888656a611247b0a43478f.png",
+      "sha256": "3a40573a24159a6fee50ccc602a95fca2d03bc06b2888656a611247b0a43478f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3e2d9c4f497a5b5f31e6bf54d39b6dd951135acea64b218d9ca4f4c21d812cc1.png",
+      "sha256": "3e2d9c4f497a5b5f31e6bf54d39b6dd951135acea64b218d9ca4f4c21d812cc1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1.png",
+      "sha256": "7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration with localized background repair",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": {
+      "width": 1501,
+      "height": 1048,
+      "mask_file": "artwork-corrections/106-sky-mask.png",
+      "background_file": "artwork-corrections/blue-gradient-background.png",
+      "source_pixels_protected": true,
+      "mask_nonzero_pixels": 388611,
+      "reviewed_component_ids": [
+        3
+      ],
+      "rock_protection": "Retained connected exterior sky with blue/pale cloud colors; excluded shaded rock colors."
+    },
+    "source_native_sha256": "53f3e615d509c51d3940ef9e063f860b6d77a5015e662e856b9d3afd4fd25f38"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "You may search your Life Deck for a Freestyle",
+      "baseline": 1108.3,
+      "width": 818.9860000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Drill to put in play at the end of Combat.",
+      "baseline": 1167.3,
+      "width": 701.337,
+      "icon_inline": false
+    },
+    {
+      "text": "If you declared Tokui-Waza, you may also",
+      "baseline": 1226.3,
+      "width": 739.9490000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "do this for an Orange Drill.",
+      "baseline": 1285.3,
+      "width": 462.56000000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        48.8772,
+        740.0,
+        60.2457
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        786.955,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.754,
+        1392.65,
+        60.791,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "power-icon": [
+        180.321,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        121.256,
+        1072.53,
+        816.487,
+        45.521
+      ],
+      "rules-line-3": [
+        180.694,
+        1131.53,
+        697.613,
+        45.521
+      ],
+      "rules-line-4": [
+        161.339,
+        1190.53,
+        736.323,
+        45.521
+      ],
+      "rules-line-5": [
+        299.763,
+        1249.53,
+        459.473,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-106-orange-searching-maneuver.webp",
+      "before_url": "/assets/cards/android-106-orange-searching-maneuver.webp?v=c4b8710a3221",
+      "before_sha256": "c4b8710a322110511a36fb7820d83ddafc6b3310c009da6185b4f483ac1dc497",
+      "after_sha256": "33c2ecf02bc2d4565d68d9502a7f4eb0eedae7e7d9047cecc086fb7a97caabda",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-106-orange-searching-maneuver.webp",
+      "before_url": "/assets/cards/downloads/android-106-orange-searching-maneuver.webp?v=3c1592fa5bb8",
+      "before_sha256": "3c1592fa5bb8bf2d8264800c59f5c813ca18384fbe268f8e4d60effdfaae26f1",
+      "after_sha256": "b123b70edebcab39e568c157db126eecfc4d1fc27e9fe67063fe442be78a15f4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 75.11927723073799,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 60.245660339051874,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.873125512160172
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

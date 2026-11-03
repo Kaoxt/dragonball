@@ -1,0 +1,307 @@
+{
+  "number": 115,
+  "id": "android-115-android-17",
+  "name": "Android 17",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-115-android-17.svg",
+  "native_source_sha256": "00e20a286c62196d981b614a71c91a8bda008c8fb967a8801f28007f340fe1fc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f323a425a3ab41d4d0d8d9c289d8fb9b118d3012d602341a2307cea91a35c0bd.png",
+      "sha256": "f323a425a3ab41d4d0d8d9c289d8fb9b118d3012d602341a2307cea91a35c0bd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/869a058f60dc6829b01afdb769876cdaa34722440667aff2c2222efd78b0c00f.png",
+      "sha256": "869a058f60dc6829b01afdb769876cdaa34722440667aff2c2222efd78b0c00f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1.png",
+      "sha256": "7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration with localized background repair",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": {
+      "width": 1501,
+      "height": 1048,
+      "mask_file": "artwork-corrections/115-sky-mask.png",
+      "background_file": "artwork-corrections/blue-gradient-background.png",
+      "source_pixels_protected": true,
+      "mask_nonzero_pixels": 929556
+    },
+    "source_native_sha256": "4bb6f4512ba8a46f6a1197e6b6e8c7c85250bfb5dc97d535eabf45fb40d0becb"
+  },
+  "rules": [
+    {
+      "text": "Your anger cannot be lowered.",
+      "baseline": 1049.3,
+      "width": 609.3467500000002,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        891.546,
+        224.691,
+        139.454,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.86,
+        289.373,
+        140.14,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.566,
+        354.054,
+        140.434,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.223,
+        418.736,
+        140.777,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        865.478,
+        548.1,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-7": [
+        870.427,
+        612.782,
+        160.573,
+        38.269
+      ],
+      "power-stage-value-8": [
+        865.38,
+        677.463,
+        165.62,
+        38.269
+      ],
+      "power-stage-value-9": [
+        866.458,
+        742.145,
+        164.542,
+        38.269
+      ],
+      "power-stage-value-10": [
+        864.008,
+        806.827,
+        166.992,
+        38.269
+      ],
+      "card-title": [
+        375.411,
+        50.2213,
+        308.177,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.539,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.339,
+        1392.65,
+        51.622,
+        33.708
+      ],
+      "rules-line-1": [
+        292.38,
+        1015.0,
+        541.009,
+        44.443
+      ],
+      "power-icon": [
+        225.611,
+        1020.36,
+        53.5937,
+        23.5813
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          225.611,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          292.38,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          225.611,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-115-android-17.webp",
+      "before_url": "/assets/cards/android-115-android-17.webp?v=17a54d91d315",
+      "before_sha256": "17a54d91d3151eec3428450697070e33d715ca98f893e328fadb76a1df840046",
+      "after_sha256": "cb8642a4eb75b690e3572da0163eb8dcc22b53e9b35f7d1e8de761df5428894b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-115-android-17.webp",
+      "before_url": "/assets/cards/downloads/android-115-android-17.webp?v=8a05f043e1a9",
+      "before_sha256": "8a05f043e1a91b3d0edf6b388b4c30dcb89741cdcf8cd7fca4b41fe42d6a7b44",
+      "after_sha256": "395b63340c4e11c9a0523b64d36921247161f7b9d368fa748937973103e11744",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 308.17705735660854,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

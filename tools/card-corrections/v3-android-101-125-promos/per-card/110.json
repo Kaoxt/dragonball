@@ -1,0 +1,242 @@
+{
+  "number": 110,
+  "id": "android-110-saiyan-face-stomp",
+  "name": "Saiyan Face Stomp",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-110-saiyan-face-stomp.svg",
+  "native_source_sha256": "497153edaaa1bafdf5235460c28c9a1206fd2496af09ef60a1187550f6fc6716",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b77ca21bb4ce9d43bff9d31af34a2ed09a93392218c588c922bd4a3b8b5fcb45.png",
+      "sha256": "b77ca21bb4ce9d43bff9d31af34a2ed09a93392218c588c922bd4a3b8b5fcb45"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "a47dedc8c9755a19eb48675ec10ca0375e929fda03ffaecf28810bd45c88b2dd"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +4 stages. If you",
+      "baseline": 1049.3,
+      "width": 864.663155543859,
+      "icon_inline": true
+    },
+    {
+      "text": "declared Tokui-Waza, you may discard the top",
+      "baseline": 1108.3,
+      "width": 824.7679999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "card of your Life Deck for this attack to deal",
+      "baseline": 1167.3,
+      "width": 786.8420000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "+3 life cards of damage.",
+      "baseline": 1226.3,
+      "width": 428.701,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        245.585,
+        44.5,
+        567.83,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.407,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.206,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        152.646,
+        1013.53,
+        808.255,
+        45.913
+      ],
+      "power-icon": [
+        98.0994,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        118.611,
+        1072.53,
+        821.779,
+        45.521
+      ],
+      "rules-line-3": [
+        137.671,
+        1131.53,
+        783.657,
+        45.521
+      ],
+      "rules-line-4": [
+        316.522,
+        1190.53,
+        425.957,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          98.0994,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          152.646,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          98.0994,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-110-saiyan-face-stomp.webp",
+      "before_url": "/assets/cards/android-110-saiyan-face-stomp.webp?v=935fb6250576",
+      "before_sha256": "935fb6250576bac7a00179413b1498d0c105f129e00919242e32b62931eccd5f",
+      "after_sha256": "a8504024b46b5bdc6f3060dc1eafbba5050c8ae037d349616211bd9695568e07",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-110-saiyan-face-stomp.webp",
+      "before_url": "/assets/cards/downloads/android-110-saiyan-face-stomp.webp?v=e7efb5d35a08",
+      "before_sha256": "e7efb5d35a08827592381b6b1291366a1a003bb14c22a654a48e837e1c767cba",
+      "after_sha256": "802c38970154825322b2b309e307b6e16075bae0dabbc3658061d4d6c56d3f76",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 567.8304239401497,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

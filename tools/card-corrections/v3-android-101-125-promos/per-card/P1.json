@@ -1,0 +1,206 @@
+{
+  "number": "P1",
+  "id": "android-p01-the-eyes-have-it",
+  "name": "The Eyes Have It",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p01-the-eyes-have-it.svg",
+  "native_source_sha256": "6567242af9a1342d7caca30a4750b639a5ac4c3809f8463590988511512526a3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/82ee6710b594e8eb5a56e9a2def72de6d92bf49708cc8c855382d3ef33583f75.png",
+      "sha256": "82ee6710b594e8eb5a56e9a2def72de6d92bf49708cc8c855382d3ef33583f75"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "ab0c31859542ccb7bc1f2045ef12191dec1c19ffe9ed95586e11cd6524786755"
+  },
+  "rules": [
+    {
+      "text": "POWER: Search any opponent's Life Deck for all",
+      "baseline": 1049.3,
+      "width": 840.0070000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "copies of all Dragon Balls and set them aside.",
+      "baseline": 1108.3,
+      "width": 804.776,
+      "icon_inline": false
+    },
+    {
+      "text": "Shuffle that Life Deck, then put those",
+      "baseline": 1167.3,
+      "width": 660.2260000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Dragon Balls on the bottom in any order.",
+      "baseline": 1226.3,
+      "width": 712.803,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        283.87,
+        44.5,
+        491.259,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.94,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.74,
+        1392.65,
+        34.821,
+        33.708
+      ],
+      "rules-line-1": [
+        111.383,
+        1013.53,
+        836.234,
+        45.521
+      ],
+      "rules-line-2": [
+        128.656,
+        1072.53,
+        801.689,
+        45.913
+      ],
+      "rules-line-3": [
+        200.71,
+        1131.53,
+        657.58,
+        44.884
+      ],
+      "rules-line-4": [
+        174.961,
+        1190.53,
+        709.079,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p01-the-eyes-have-it.webp",
+      "before_url": "/assets/cards/android-p01-the-eyes-have-it.webp?v=537db5fc24ca",
+      "before_sha256": "537db5fc24ca5ad4451758ac4e913f8cfcf9852336195c1e1e10b6ee7d1c9c41",
+      "after_sha256": "66079c170dd2a5492d9e9b150f4fef6953a6e3e715e78827eec07e233490bbce",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p01-the-eyes-have-it.webp",
+      "before_url": "/assets/cards/downloads/android-p01-the-eyes-have-it.webp?v=0dd4c1b2a693",
+      "before_sha256": "0dd4c1b2a6931fbc019a242101176e9756a1376f86bde70dd2c012eb25660295",
+      "after_sha256": "2fd310ace58af307fa2f0ee944c46a6a081d67bd8e9f2637f10436b9cd540a95",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 491.2593516209477,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

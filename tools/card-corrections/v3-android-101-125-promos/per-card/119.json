@@ -1,0 +1,280 @@
+{
+  "number": 119,
+  "id": "android-119-piccolo-the-trained",
+  "name": "Piccolo the Trained",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-119-piccolo-the-trained.svg",
+  "native_source_sha256": "325d5c067717190254ef50c2691b02a32e58092a2972f9decb0abc38c0bc9211",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8b81590ea4bdf9005732b26dd2f14e6e39f6cc85d85444f81bb216fa8f0ed3f0.png",
+      "sha256": "8b81590ea4bdf9005732b26dd2f14e6e39f6cc85d85444f81bb216fa8f0ed3f0"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "5924096241c3761eb01a0e4b979e58ee6a649d9a84ba0c5a168ea711d1a6a259"
+  },
+  "rules": [
+    {
+      "text": "POWER: Choose an opponent's personality in play.",
+      "baseline": 1049.3,
+      "width": 884.0580000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "For the rest of this turn, it cannot use its powers",
+      "baseline": 1108.3,
+      "width": 860.5380000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "or constant powers on its current level.",
+      "baseline": 1167.3,
+      "width": 701.386,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        891.007,
+        224.691,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.762,
+        289.373,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-3": [
+        889.978,
+        354.054,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.134,
+        418.736,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.272,
+        483.418,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.321,
+        548.1,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.076,
+        612.782,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-8": [
+        896.348,
+        677.463,
+        134.652,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.439,
+        742.145,
+        141.561,
+        38.269
+      ],
+      "power-stage-value-10": [
+        888.753,
+        806.827,
+        142.247,
+        38.269
+      ],
+      "card-title": [
+        243.004,
+        50.2213,
+        572.993,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.645,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.445,
+        1392.65,
+        51.41,
+        33.708
+      ],
+      "rules-line-1": [
+        89.3085,
+        1013.53,
+        880.383,
+        45.521
+      ],
+      "rules-line-2": [
+        100.725,
+        1072.53,
+        857.549,
+        44.884
+      ],
+      "rules-line-3": [
+        180.351,
+        1131.53,
+        698.299,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-119-piccolo-the-trained.webp",
+      "before_url": "/assets/cards/android-119-piccolo-the-trained.webp?v=039361104d80",
+      "before_sha256": "039361104d80c795bb6913dd4998b4728ae7d134c5f524af0adbbfed82521f3e",
+      "after_sha256": "a6922f13057c460f377a8516401da60acb2ec64f97a62bb6896ec15c79123466",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-119-piccolo-the-trained.webp",
+      "before_url": "/assets/cards/downloads/android-119-piccolo-the-trained.webp?v=beb0edf1f078",
+      "before_sha256": "beb0edf1f078cacdcb6f8e5df797d1505f127965f91b2efb5037ac088f87ca45",
+      "after_sha256": "17385ff598904ecc4527684bce340bcb1d410fd291eec5d7a6d47c0d5588c95a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 572.992518703242,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

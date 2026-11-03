@@ -1,0 +1,226 @@
+{
+  "number": 102,
+  "id": "android-102-namekian-friendship",
+  "name": "Namekian Friendship",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-102-namekian-friendship.svg",
+  "native_source_sha256": "239872efd155ea428a315704bed5c0516a4ce2f73fac091935a45fa49e3e6c95",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8a9a51d06d1a4b5168d285d97e7efdaa0da613486364efdc5d9de512d7473232.png",
+      "sha256": "8a9a51d06d1a4b5168d285d97e7efdaa0da613486364efdc5d9de512d7473232"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/83d2b4e2fa2a9433115b79d857a90252a31434154acd07a1e7eeb1ea3c3d4e68.png",
+      "sha256": "83d2b4e2fa2a9433115b79d857a90252a31434154acd07a1e7eeb1ea3c3d4e68"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1.png",
+      "sha256": "7b1bc2b87dd42e9085139c673d43c5dc3b3ee0296d540a7fe75b28db10e5e3a1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration with localized background repair",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": {
+      "width": 1501,
+      "height": 1048,
+      "mask_file": "artwork-corrections/102-sky-mask.png",
+      "background_file": "artwork-corrections/blue-gradient-background.png",
+      "source_pixels_protected": true,
+      "mask_nonzero_pixels": 469401,
+      "reviewed_component_ids": [
+        1,
+        244,
+        332
+      ]
+    },
+    "source_native_sha256": "561c8a29c20004941410804efe97358fe22c2ee99a2e75e6e145e64f5489acfd"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: You must have an Ally",
+      "baseline": 1049.3,
+      "width": 867.8389999999997,
+      "icon_inline": false
+    },
+    {
+      "text": "in play to use this card. Discard all of",
+      "baseline": 1108.3,
+      "width": 657.629,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's Setups and Drills in play.",
+      "baseline": 1167.3,
+      "width": 730.051,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        213.193,
+        44.5,
+        632.615,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.723,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.523,
+        1392.65,
+        59.254,
+        33.708
+      ],
+      "rules-line-1": [
+        95.935,
+        1012.11,
+        867.13,
+        46.942
+      ],
+      "rules-line-2": [
+        201.935,
+        1072.53,
+        655.13,
+        45.521
+      ],
+      "rules-line-3": [
+        165.577,
+        1131.53,
+        727.846,
+        45.521
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-102-namekian-friendship.webp",
+      "before_url": "/assets/cards/android-102-namekian-friendship.webp?v=ef4292e87abc",
+      "before_sha256": "ef4292e87abcd352b9ad6227d35e20a8be4068409acb7cca094c139f77313530",
+      "after_sha256": "12b044e655e0322b8785d62d6d1b0e464fa3cc965f55cc8a0ea96592c4c0dfcd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-102-namekian-friendship.webp",
+      "before_url": "/assets/cards/downloads/android-102-namekian-friendship.webp?v=7824c7941714",
+      "before_sha256": "7824c7941714402668979457f99e5508fc692d0593a4407cc8746a3df879d4d2",
+      "after_sha256": "e894bf78c06606603493181e1e2cb05895079bbec52b8b5e056309d70adba415",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 632.6147132169577,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

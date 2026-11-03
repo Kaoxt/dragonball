@@ -1,0 +1,57 @@
+{
+  "102": {
+    "width": 1501,
+    "height": 1048,
+    "mask_file": "artwork-corrections/102-sky-mask.png",
+    "background_file": "artwork-corrections/blue-gradient-background.png",
+    "source_pixels_protected": true,
+    "mask_nonzero_pixels": 469401,
+    "reviewed_component_ids": [
+      1,
+      244,
+      332
+    ]
+  },
+  "106": {
+    "width": 1501,
+    "height": 1048,
+    "mask_file": "artwork-corrections/106-sky-mask.png",
+    "background_file": "artwork-corrections/blue-gradient-background.png",
+    "source_pixels_protected": true,
+    "mask_nonzero_pixels": 388611,
+    "reviewed_component_ids": [
+      3
+    ],
+    "rock_protection": "Retained connected exterior sky with blue/pale cloud colors; excluded shaded rock colors."
+  },
+  "111": {
+    "width": 1501,
+    "height": 1047,
+    "mask_file": "artwork-corrections/111-sky-mask.png",
+    "background_file": "artwork-corrections/blue-gradient-background.png",
+    "source_pixels_protected": true,
+    "mask_nonzero_pixels": 532315,
+    "reviewed_component_ids": [
+      1,
+      4,
+      793,
+      1686
+    ]
+  },
+  "114": {
+    "width": 1501,
+    "height": 1047,
+    "mask_file": "artwork-corrections/114-sky-mask.png",
+    "background_file": "artwork-corrections/blue-gradient-background.png",
+    "source_pixels_protected": true,
+    "mask_nonzero_pixels": 821915
+  },
+  "115": {
+    "width": 1501,
+    "height": 1048,
+    "mask_file": "artwork-corrections/115-sky-mask.png",
+    "background_file": "artwork-corrections/blue-gradient-background.png",
+    "source_pixels_protected": true,
+    "mask_nonzero_pixels": 929556
+  }
+}

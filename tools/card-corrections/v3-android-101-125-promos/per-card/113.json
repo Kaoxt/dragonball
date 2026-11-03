@@ -1,0 +1,230 @@
+{
+  "number": 113,
+  "id": "android-113-tiens-flight",
+  "name": "Tien's Flight",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-113-tiens-flight.svg",
+  "native_source_sha256": "6a335029b63358b3ac9421d233424718e3a6bbec1747563871e9e29db498118b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fcc2b950de2f744f589c96a9cff7bf2c26a6ebbf102b7598d10cb00c48150846.png",
+      "sha256": "fcc2b950de2f744f589c96a9cff7bf2c26a6ebbf102b7598d10cb00c48150846"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "249650940763c8cbe1b11547993591de6ed571a236c5bb836a85b345d56c15f8"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 1 life card,",
+      "baseline": 1049.3,
+      "width": 694.7801555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "+1 life card for each card in your discard pile",
+      "baseline": 1108.3,
+      "width": 791.252,
+      "icon_inline": false
+    },
+    {
+      "text": "with 'Tien' in its title. Banish after use.",
+      "baseline": 1167.3,
+      "width": 680.6590000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        346.977,
+        44.5,
+        365.046,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        792.122,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.922,
+        1392.65,
+        50.456,
+        33.708
+      ],
+      "rules-line-1": [
+        237.476,
+        1013.53,
+        638.594,
+        45.521
+      ],
+      "power-icon": [
+        182.93,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        135.123,
+        1072.53,
+        788.753,
+        45.521
+      ],
+      "rules-line-3": [
+        190.346,
+        1131.53,
+        678.307,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          182.93,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          237.476,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          182.93,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-113-tiens-flight.webp",
+      "before_url": "/assets/cards/android-113-tiens-flight.webp?v=0a2bfe7b2d00",
+      "before_sha256": "0a2bfe7b2d00fdb7cc18c613d4b85f7be4ec61f40ec3540fa5fc8ac9ac92122d",
+      "after_sha256": "2e63fbeca656b07a39b7d8a7788029984dcacc3a94f9f9ed77886972c7663088",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-113-tiens-flight.webp",
+      "before_url": "/assets/cards/downloads/android-113-tiens-flight.webp?v=ba87580b371e",
+      "before_sha256": "ba87580b371e18acf21ae7deeb31829e87305929a4bdd2137fa90c059c459038",
+      "after_sha256": "60a8ee96bd71f43863c5418fc46389a56df2be9e0d06b614d9c0250d9bcff7cc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 365.0461346633417,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

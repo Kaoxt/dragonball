@@ -12803,13 +12803,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-101-knockout-drill.webp?v=74764d20b152",
-    "downloadImage": "/assets/cards/downloads/android-101-knockout-drill.webp?v=3dc30116e7e8",
+    "image": "/assets/cards/android-101-knockout-drill.webp?v=f12084a9fa99",
+    "downloadImage": "/assets/cards/downloads/android-101-knockout-drill.webp?v=07119eeae66e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-101",
     "rules": "During Combat, players cannot use Setups unless they have performed an attack from their hand this Combat.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-102-namekian-friendship",
@@ -12819,13 +12820,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-102-namekian-friendship.webp?v=ef4292e87abc",
-    "downloadImage": "/assets/cards/downloads/android-102-namekian-friendship.webp?v=7824c7941714",
+    "image": "/assets/cards/android-102-namekian-friendship.webp?v=12b044e655e0",
+    "downloadImage": "/assets/cards/downloads/android-102-namekian-friendship.webp?v=e894bf78c066",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-102",
     "rules": "(Limit 1 per deck.) POWER: You must have an Ally in play to use this card. Discard all of your opponent's Setups and Drills in play. Banish after use.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-103-namekian-teamwork",
@@ -12835,13 +12837,14 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-103-namekian-teamwork.webp?v=c8c9544e77fb",
-    "downloadImage": "/assets/cards/downloads/android-103-namekian-teamwork.webp?v=d11ea19f1818",
+    "image": "/assets/cards/android-103-namekian-teamwork.webp?v=e3c2b5fc1556",
+    "downloadImage": "/assets/cards/downloads/android-103-namekian-teamwork.webp?v=dd5942cfae0d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-103",
     "rules": "POWER: Raise your Allies to their highest stage. This Combat, those Allies may use their powers regardless of your MP's stages. Discard the top card of your Life Deck for each of your Allies.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-104-orange-eye-beam",
@@ -12851,13 +12854,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-104-orange-eye-beam.webp?v=95e1e741c669",
-    "downloadImage": "/assets/cards/downloads/android-104-orange-eye-beam.webp?v=8d22b411d781",
+    "image": "/assets/cards/android-104-orange-eye-beam.webp?v=f5ca2f512047",
+    "downloadImage": "/assets/cards/downloads/android-104-orange-eye-beam.webp?v=471226d3090e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-104",
     "rules": "Energy attack costing 3 stages. DAMAGE: 5 life cards, or 7 life cards if you declared Tokui-Waza.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-105-orange-rage",
@@ -12867,13 +12871,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-105-orange-rage.webp?v=39cd251d1d70",
-    "downloadImage": "/assets/cards/downloads/android-105-orange-rage.webp?v=31b6a98f4b41",
+    "image": "/assets/cards/android-105-orange-rage.webp?v=95aeb82b3363",
+    "downloadImage": "/assets/cards/downloads/android-105-orange-rage.webp?v=558ffb923857",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-105",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. If you declared Tokui-Waza, raise your anger 2 levels.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-106-orange-searching-maneuver",
@@ -12883,13 +12888,14 @@ export const catalog = [
     "style": "Orange",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-106-orange-searching-maneuver.webp?v=c4b8710a3221",
-    "downloadImage": "/assets/cards/downloads/android-106-orange-searching-maneuver.webp?v=3c1592fa5bb8",
+    "image": "/assets/cards/android-106-orange-searching-maneuver.webp?v=33c2ecf02bc2",
+    "downloadImage": "/assets/cards/downloads/android-106-orange-searching-maneuver.webp?v=b123b70edebc",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-106",
     "rules": "Physical attack. DAMAGE: AT stages. You may search your Life Deck for a Freestyle Drill to put in play at the end of Combat. If you declared Tokui-Waza, you may also do this for an Orange Drill.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-107-rebellion",
@@ -12899,13 +12905,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-107-rebellion.webp?v=dbafb15d879b",
-    "downloadImage": "/assets/cards/downloads/android-107-rebellion.webp?v=ff133a729c11",
+    "image": "/assets/cards/android-107-rebellion.webp?v=80d77348de3c",
+    "downloadImage": "/assets/cards/downloads/android-107-rebellion.webp?v=325dd027c3ff",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-107",
     "rules": "Villains only. Play as your first card in Combat. Physical attack. DAMAGE: AT +8 stages. Banish after use.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-108-red-counterstrike",
@@ -12915,13 +12922,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-108-red-counterstrike.webp?v=317cfef0a46d",
-    "downloadImage": "/assets/cards/downloads/android-108-red-counterstrike.webp?v=a4350d67b379",
+    "image": "/assets/cards/android-108-red-counterstrike.webp?v=7ac8ce713e51",
+    "downloadImage": "/assets/cards/downloads/android-108-red-counterstrike.webp?v=9028c4ea60cd",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-108",
     "rules": "Stops a physical attack. Your opponent discards the top 3 cards of their Life Deck. Banish after use.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-109-red-tactical-drill",
@@ -12931,13 +12939,14 @@ export const catalog = [
     "style": "Red",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-109-red-tactical-drill.webp?v=092b05c9bbf0",
-    "downloadImage": "/assets/cards/downloads/android-109-red-tactical-drill.webp?v=2fda61c3be47",
+    "image": "/assets/cards/android-109-red-tactical-drill.webp?v=c35f004a0948",
+    "downloadImage": "/assets/cards/downloads/android-109-red-tactical-drill.webp?v=c65be78b83e7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-109",
     "rules": "Your anger cannot be lowered.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-110-saiyan-face-stomp",
@@ -12947,13 +12956,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-110-saiyan-face-stomp.webp?v=935fb6250576",
-    "downloadImage": "/assets/cards/downloads/android-110-saiyan-face-stomp.webp?v=e7efb5d35a08",
+    "image": "/assets/cards/android-110-saiyan-face-stomp.webp?v=a8504024b46b",
+    "downloadImage": "/assets/cards/downloads/android-110-saiyan-face-stomp.webp?v=802c38970154",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-110",
     "rules": "Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, you may discard the top card of your Life Deck for this attack to deal +3 life cards of damage.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-111-saiyan-lightning-dodge",
@@ -12963,13 +12973,14 @@ export const catalog = [
     "style": "Saiyan",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-111-saiyan-lightning-dodge.webp?v=beb148e09beb",
-    "downloadImage": "/assets/cards/downloads/android-111-saiyan-lightning-dodge.webp?v=94b53759f766",
+    "image": "/assets/cards/android-111-saiyan-lightning-dodge.webp?v=6863a295c565",
+    "downloadImage": "/assets/cards/downloads/android-111-saiyan-lightning-dodge.webp?v=45d3c4d20bdf",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-111",
     "rules": "Stops a physical attack. Your opponent's personality loses 4 stages, to a minimum of 0.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-112-severe-bruises",
@@ -12979,13 +12990,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-112-severe-bruises.webp?v=d91e6bf94247",
-    "downloadImage": "/assets/cards/downloads/android-112-severe-bruises.webp?v=3722ffd66c24",
+    "image": "/assets/cards/android-112-severe-bruises.webp?v=b58712f6a59c",
+    "downloadImage": "/assets/cards/downloads/android-112-severe-bruises.webp?v=f2b1b43bcdbb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-112",
     "rules": "(Limit 1 per deck.) POWER: Attach to your opponent's MP. Lower their anger to 0. They cannot raise their anger until they put a Drill in play. Discard this card when they put a Drill in play.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-113-tiens-flight",
@@ -12995,13 +13007,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-113-tiens-flight.webp?v=0a2bfe7b2d00",
-    "downloadImage": "/assets/cards/downloads/android-113-tiens-flight.webp?v=ba87580b371e",
+    "image": "/assets/cards/android-113-tiens-flight.webp?v=2e63fbeca656",
+    "downloadImage": "/assets/cards/downloads/android-113-tiens-flight.webp?v=60a8ee96bd71",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-113",
     "rules": "Physical attack. DAMAGE: 1 life card, +1 life card for each card in your discard pile with 'Tien' in its title. Banish after use.",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-114-android-16",
@@ -13011,8 +13024,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-114-android-16.webp?v=8a9075247bff",
-    "downloadImage": "/assets/cards/downloads/android-114-android-16.webp?v=6906ba9f58af",
+    "image": "/assets/cards/android-114-android-16.webp?v=33e175d95916",
+    "downloadImage": "/assets/cards/downloads/android-114-android-16.webp?v=b7720fc6fdcf",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-114",
@@ -13033,7 +13046,8 @@ export const catalog = [
       399000,
       299000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-115-android-17",
@@ -13043,8 +13057,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-115-android-17.webp?v=17a54d91d315",
-    "downloadImage": "/assets/cards/downloads/android-115-android-17.webp?v=8a05f043e1a9",
+    "image": "/assets/cards/android-115-android-17.webp?v=cb8642a4eb75",
+    "downloadImage": "/assets/cards/downloads/android-115-android-17.webp?v=395b63340c4e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-115",
@@ -13065,7 +13079,8 @@ export const catalog = [
       399000,
       299000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-116-android-18",
@@ -13075,8 +13090,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-116-android-18.webp?v=97e907a8d86f",
-    "downloadImage": "/assets/cards/downloads/android-116-android-18.webp?v=129b5ff528f5",
+    "image": "/assets/cards/android-116-android-18.webp?v=293d46dcf6c2",
+    "downloadImage": "/assets/cards/downloads/android-116-android-18.webp?v=7572e274c17e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-116",
@@ -13097,7 +13112,8 @@ export const catalog = [
       499000,
       299000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-117-android-19",
@@ -13107,8 +13123,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-117-android-19.webp?v=47da2e790208",
-    "downloadImage": "/assets/cards/downloads/android-117-android-19.webp?v=d47318d68ed0",
+    "image": "/assets/cards/android-117-android-19.webp?v=86f91bc727af",
+    "downloadImage": "/assets/cards/downloads/android-117-android-19.webp?v=4378afb70e53",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-117",
@@ -13129,7 +13145,8 @@ export const catalog = [
       399000,
       299000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-118-android-20",
@@ -13139,8 +13156,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-118-android-20.webp?v=76a5dde96e44",
-    "downloadImage": "/assets/cards/downloads/android-118-android-20.webp?v=153b9d396830",
+    "image": "/assets/cards/android-118-android-20.webp?v=096091596a2a",
+    "downloadImage": "/assets/cards/downloads/android-118-android-20.webp?v=87f671aa9d89",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-118",
@@ -13161,7 +13178,8 @@ export const catalog = [
       299000,
       199000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-119-piccolo-the-trained",
@@ -13171,8 +13189,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-119-piccolo-the-trained.webp?v=039361104d80",
-    "downloadImage": "/assets/cards/downloads/android-119-piccolo-the-trained.webp?v=beb0edf1f078",
+    "image": "/assets/cards/android-119-piccolo-the-trained.webp?v=a6922f13057c",
+    "downloadImage": "/assets/cards/downloads/android-119-piccolo-the-trained.webp?v=17385ff59890",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-119",
@@ -13193,7 +13211,8 @@ export const catalog = [
       280000,
       260000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-120-tien-the-watcher",
@@ -13203,8 +13222,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=c16505b4374f",
-    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=6115078caf91",
+    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=9f1e3458b9e1",
+    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=ee6661f27bad",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-120",
@@ -13225,7 +13244,8 @@ export const catalog = [
       100000,
       50000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-121-vegeta-the-ready",
@@ -13235,8 +13255,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-121-vegeta-the-ready.webp?v=fe2671d1e508",
-    "downloadImage": "/assets/cards/downloads/android-121-vegeta-the-ready.webp?v=e33d8c37068e",
+    "image": "/assets/cards/android-121-vegeta-the-ready.webp?v=11ceac9f480f",
+    "downloadImage": "/assets/cards/downloads/android-121-vegeta-the-ready.webp?v=928d048f1918",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-121",
@@ -13257,7 +13277,8 @@ export const catalog = [
       690000,
       670000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-122-yajirobe",
@@ -13267,8 +13288,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-122-yajirobe.webp?v=169733782cae",
-    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=490997b6d1f2",
+    "image": "/assets/cards/android-122-yajirobe.webp?v=c187424ed593",
+    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=47e359cf6a4c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-122",
@@ -13289,7 +13310,8 @@ export const catalog = [
       20000,
       10000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-123-yamcha",
@@ -13299,8 +13321,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-123-yamcha.webp?v=adc5c20fa9e3",
-    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=cc4cac7c4ec6",
+    "image": "/assets/cards/android-123-yamcha.webp?v=ee6db5c2a0e6",
+    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=afc082879563",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-123",
@@ -13321,7 +13343,8 @@ export const catalog = [
       100000,
       50000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "android-124-the-hero-is-down",
@@ -13331,13 +13354,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-124-the-hero-is-down.webp?v=59ae890f7afd",
-    "downloadImage": "/assets/cards/downloads/android-124-the-hero-is-down.webp?v=bc9707cc2de2",
+    "image": "/assets/cards/android-124-the-hero-is-down.webp?v=a3807740c805",
+    "downloadImage": "/assets/cards/downloads/android-124-the-hero-is-down.webp?v=3166f4d7fc66",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-foil-124",
     "rules": "(Limit 1 per deck.) Villains only. POWER: Use at the end of Combat. Lower all of your opponent's personalities to 0 stages. Banish after use.",
-    "rarity": "Ultra Rare"
+    "rarity": "Ultra Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-125-trunks-guardian-drill",
@@ -13347,13 +13371,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-125-trunks-guardian-drill.webp?v=6abe38b4ae0c",
-    "downloadImage": "/assets/cards/downloads/android-125-trunks-guardian-drill.webp?v=49717912d973",
+    "image": "/assets/cards/android-125-trunks-guardian-drill.webp?v=2319856dfd51",
+    "downloadImage": "/assets/cards/downloads/android-125-trunks-guardian-drill.webp?v=6e104ef802ea",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-foil-125",
     "rules": "Heroes only. Once per Combat, in place of an attack, you may put a Setup or Drill from your hand into play.",
-    "rarity": "Ultra Rare"
+    "rarity": "Ultra Rare",
+    "templateVersion": 3
   },
   {
     "id": "android-p01-the-eyes-have-it",
@@ -13363,13 +13388,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p01-the-eyes-have-it.webp?v=537db5fc24ca",
-    "downloadImage": "/assets/cards/downloads/android-p01-the-eyes-have-it.webp?v=0dd4c1b2a693",
+    "image": "/assets/cards/android-p01-the-eyes-have-it.webp?v=66079c170dd2",
+    "downloadImage": "/assets/cards/downloads/android-p01-the-eyes-have-it.webp?v=2fd310ace58a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p1",
     "rules": "POWER: Search any opponent's Life Deck for all copies of all Dragon Balls and set them aside. Shuffle that Life Deck, then put those Dragon Balls on the bottom in any order.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p02-foreboding-evidence",
@@ -13379,13 +13405,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p02-foreboding-evidence.webp?v=cf9da9b43170",
-    "downloadImage": "/assets/cards/downloads/android-p02-foreboding-evidence.webp?v=da8f08342a3d",
+    "image": "/assets/cards/android-p02-foreboding-evidence.webp?v=927854c8804f",
+    "downloadImage": "/assets/cards/downloads/android-p02-foreboding-evidence.webp?v=bbea09183ee2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p2",
     "rules": "(Limit 1 per deck.) POWER: If your MP is a Hero, place up to 3 Setups or Drills from your discard pile on top of your Life Deck. If it is a Villain, shuffle all Events from your discard pile into your Life Deck. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p03-a-burst-of-energy",
@@ -13395,13 +13422,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p03-a-burst-of-energy.webp?v=7822ae06dd8a",
-    "downloadImage": "/assets/cards/downloads/android-p03-a-burst-of-energy.webp?v=5e348f8d2296",
+    "image": "/assets/cards/android-p03-a-burst-of-energy.webp?v=01c452666c02",
+    "downloadImage": "/assets/cards/downloads/android-p03-a-burst-of-energy.webp?v=8961e12f608a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p3",
     "rules": "POWER: Use when needed. Raise all of your personalities to their highest stage. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p04-krillins-search",
@@ -13411,13 +13439,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p04-krillins-search.webp?v=f169b9c819e4",
-    "downloadImage": "/assets/cards/downloads/android-p04-krillins-search.webp?v=c08ca76edf05",
+    "image": "/assets/cards/android-p04-krillins-search.webp?v=73efcd0d644b",
+    "downloadImage": "/assets/cards/downloads/android-p04-krillins-search.webp?v=c1e01b9e8123",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p4",
-    "rules": "POWER: Draw a card. If it is a Named card, show it to your opponent and draw another card. Banish after use.",
-    "rarity": "Promo"
+    "rules": "(Limit 1 per deck.) POWER: Draw a card. If it is a Named card, show it to your opponent and draw another card. Banish after use.",
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p05-android-19-is-stoic",
@@ -13427,13 +13456,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p05-android-19-is-stoic.webp?v=e01f674f1770",
-    "downloadImage": "/assets/cards/downloads/android-p05-android-19-is-stoic.webp?v=02345e534c6c",
+    "image": "/assets/cards/android-p05-android-19-is-stoic.webp?v=801a57942431",
+    "downloadImage": "/assets/cards/downloads/android-p05-android-19-is-stoic.webp?v=86f1930dbf34",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p5",
     "rules": "Stops a physical or energy attack. You may discard a card from your hand. If you do, your opponent's MP loses 2 stages. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p06-krillin-is-ready",
@@ -13443,13 +13473,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p06-krillin-is-ready.webp?v=bc77a2353262",
-    "downloadImage": "/assets/cards/downloads/android-p06-krillin-is-ready.webp?v=889a8f2ff01c",
+    "image": "/assets/cards/android-p06-krillin-is-ready.webp?v=bb553747727b",
+    "downloadImage": "/assets/cards/downloads/android-p06-krillin-is-ready.webp?v=3d9d0019dd32",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p6",
     "rules": "Stops an energy attack. Your opponent discards the top 3 cards of their Life Deck. You may only defend for the rest of this Combat.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p07-android-16-smiles",
@@ -13459,13 +13490,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p07-android-16-smiles.webp?v=5161698297de",
-    "downloadImage": "/assets/cards/downloads/android-p07-android-16-smiles.webp?v=283ae4abf9ea",
+    "image": "/assets/cards/android-p07-android-16-smiles.webp?v=2630b4f46228",
+    "downloadImage": "/assets/cards/downloads/android-p07-android-16-smiles.webp?v=7fc4c9e6c5fa",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p7",
     "rules": "Stops a physical attack. If the defending personality has 'Android' in its title, search your discard pile for 1 card with 'Android' in its title and put it in your hand. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p08-yamchas-right-cross",
@@ -13475,13 +13507,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p08-yamchas-right-cross.webp?v=cd3d554e3f34",
-    "downloadImage": "/assets/cards/downloads/android-p08-yamchas-right-cross.webp?v=d737c51418ee",
+    "image": "/assets/cards/android-p08-yamchas-right-cross.webp?v=a2f996a4dcf0",
+    "downloadImage": "/assets/cards/downloads/android-p08-yamchas-right-cross.webp?v=a9c9edf5f5f3",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p8",
     "rules": "Physical attack. DAMAGE: AT stages. Lower your opponent's anger to 0 at the end of this Combat. Banish after use.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p09-gokus-hesitation",
@@ -13491,13 +13524,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p09-gokus-hesitation.webp?v=1d56c7905d08",
-    "downloadImage": "/assets/cards/downloads/android-p09-gokus-hesitation.webp?v=f52d24a9223a",
+    "image": "/assets/cards/android-p09-gokus-hesitation.webp?v=ea04a5f8c41a",
+    "downloadImage": "/assets/cards/downloads/android-p09-gokus-hesitation.webp?v=3505f72a20d5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p9",
     "rules": "POWER: Lower your opponent's anger to 0. You must pass in your next attack phase.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p10-planet-vegeta",
@@ -13507,13 +13541,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p10-planet-vegeta.webp?v=8ed7926c9037",
-    "downloadImage": "/assets/cards/downloads/android-p10-planet-vegeta.webp?v=baf0aede2bb9",
+    "image": "/assets/cards/android-p10-planet-vegeta.webp?v=7b0363c7bb06",
+    "downloadImage": "/assets/cards/downloads/android-p10-planet-vegeta.webp?v=bb18487bcb20",
     "width": 1484,
     "height": 1060,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p10",
     "rules": "Each player's MP has +1 PUR.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "android-p11-gokus-dashing-punch",
@@ -13523,13 +13558,14 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-p11-gokus-dashing-punch.webp?v=a4ee3fe37e96",
-    "downloadImage": "/assets/cards/downloads/android-p11-gokus-dashing-punch.webp?v=2cc06ab9414d",
+    "image": "/assets/cards/android-p11-gokus-dashing-punch.webp?v=6a8044a66971",
+    "downloadImage": "/assets/cards/downloads/android-p11-gokus-dashing-punch.webp?v=747dfbf2fa2f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-promo-p11",
     "rules": "(Limit 1 per deck.) Physical attack. DAMAGE: 8 stages. Lower your opponent's anger to 0.",
-    "rarity": "Promo"
+    "rarity": "Promo",
+    "templateVersion": 3
   },
   {
     "id": "cell-001-blue-sliding-dodge",

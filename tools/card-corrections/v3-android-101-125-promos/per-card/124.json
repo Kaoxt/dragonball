@@ -1,0 +1,194 @@
+{
+  "number": 124,
+  "id": "android-124-the-hero-is-down",
+  "name": "The Hero is Down",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-124-the-hero-is-down.svg",
+  "native_source_sha256": "7f1cfae8b6404dbf83db07eaeb8cd7369b6cafffed6dd833b54fff06e5d2db44",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f7a3c25975a6078d82bf3bc5b62f8b3c8334bf05db8616a4304a09a5ea1af615.png",
+      "sha256": "f7a3c25975a6078d82bf3bc5b62f8b3c8334bf05db8616a4304a09a5ea1af615"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "57009c6ac958c85fb19c06fa0d537686bbb255402bdd46b6fce6b8e4c47e0913"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Villains only. POWER: Use at",
+      "baseline": 1049.3,
+      "width": 823.1509999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "the end of Combat. Lower all of your opponent's",
+      "baseline": 1108.3,
+      "width": 847.308,
+      "icon_inline": false
+    },
+    {
+      "text": "personalities to 0 stages. Banish after use.",
+      "baseline": 1167.3,
+      "width": 761.558,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        270.148,
+        50.2213,
+        518.704,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        118.415,
+        1012.11,
+        822.171,
+        46.942
+      ],
+      "rules-line-2": [
+        106.581,
+        1073.61,
+        845.838,
+        44.443
+      ],
+      "rules-line-3": [
+        150.509,
+        1131.53,
+        757.981,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-124-the-hero-is-down.webp",
+      "before_url": "/assets/cards/android-124-the-hero-is-down.webp?v=59ae890f7afd",
+      "before_sha256": "59ae890f7afd9ff85238341d71186c51feb4bcd4b94d9cd190ff36db5721f0c9",
+      "after_sha256": "a3807740c80536026a8b9e2a8c6b1fe1718346d2c3276c1a6da6a70747801868",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-124-the-hero-is-down.webp",
+      "before_url": "/assets/cards/downloads/android-124-the-hero-is-down.webp?v=bc9707cc2de2",
+      "before_sha256": "bc9707cc2de2bde1335e36018009c62fb788d3b9d33983b7865f40d8a52fbb97",
+      "after_sha256": "3166f4d7fc669a17349abca534357c16a84d8e17183e0b80b83fb1dbc7278048",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 518.704488778055,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 6,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

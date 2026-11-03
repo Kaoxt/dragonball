@@ -1,0 +1,194 @@
+{
+  "number": "P4",
+  "id": "android-p04-krillins-search",
+  "name": "Krillin's Search",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p04-krillins-search.svg",
+  "native_source_sha256": "e3b162da5e4e868daf82fc7ff28ac974801d196e243660a76106c8929432ad83",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f994f277251969ca3dbe2be8ecc947bb36f7d564d2975144a9f85ab3911c56d2.png",
+      "sha256": "f994f277251969ca3dbe2be8ecc947bb36f7d564d2975144a9f85ab3911c56d2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "50bf35b4cc365b7732e5505629d1a56a683a3c1cd76371cb3aadf69128444e16"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Draw a card. If it is a",
+      "baseline": 1049.3,
+      "width": 844.4659999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Named card, show it to your opponent and draw",
+      "baseline": 1108.3,
+      "width": 849.4640000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "another card. Banish after use.",
+      "baseline": 1167.3,
+      "width": 551.691,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        302.841,
+        50.2213,
+        453.318,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.428,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.227,
+        1392.65,
+        45.845,
+        33.708
+      ],
+      "rules-line-1": [
+        108.051,
+        1012.11,
+        842.898,
+        46.305
+      ],
+      "rules-line-2": [
+        106.224,
+        1072.53,
+        846.552,
+        45.521
+      ],
+      "rules-line-3": [
+        255.002,
+        1131.53,
+        548.996,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p04-krillins-search.webp",
+      "before_url": "/assets/cards/android-p04-krillins-search.webp?v=f169b9c819e4",
+      "before_sha256": "f169b9c819e4cd3f784056d4cfd07e6f54e1812ce50b6bb7a51952dca610c48a",
+      "after_sha256": "73efcd0d644bc049e2bbb5693ce7baeb251f6e75ef757dfee33a4ce67b269a06",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p04-krillins-search.webp",
+      "before_url": "/assets/cards/downloads/android-p04-krillins-search.webp?v=c08ca76edf05",
+      "before_sha256": "c08ca76edf05d2ff00a5f4512ec5d407a5446569b1ad0af0a62a01e6805fcf9a",
+      "after_sha256": "c1e01b9e8123b23253bc6c9d94aa059cf989c3c4e070bff7cee2708bb1813cc0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 453.3179551122195,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

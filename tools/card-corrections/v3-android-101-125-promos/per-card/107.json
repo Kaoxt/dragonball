@@ -1,0 +1,230 @@
+{
+  "number": 107,
+  "id": "android-107-rebellion",
+  "name": "Rebellion",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-107-rebellion.svg",
+  "native_source_sha256": "c44d319dd21ba1617ca451e564bc03d9d3dd10a5e7387847c4bdc35011275fc6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81ec80b4a2fe610d7be8e264f1f6ab92d147823910982cc14097e67477949348.png",
+      "sha256": "81ec80b4a2fe610d7be8e264f1f6ab92d147823910982cc14097e67477949348"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "a5bb70798172d0257be272cd6982f13f1030fa04e0ff2bb3e4fe3ff5b86597db"
+  },
+  "rules": [
+    {
+      "text": "Villains only. Play as your first card in Combat.",
+      "baseline": 1049.3,
+      "width": 826.875,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: AT +8 stages.",
+      "baseline": 1108.3,
+      "width": 752.7471555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        390.726,
+        50.2213,
+        277.549,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.28,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.079,
+        1392.65,
+        58.141,
+        33.708
+      ],
+      "rules-line-1": [
+        117.386,
+        1013.53,
+        824.229,
+        45.521
+      ],
+      "rules-line-2": [
+        208.457,
+        1072.53,
+        696.633,
+        45.913
+      ],
+      "power-icon": [
+        153.91,
+        1073.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          153.91,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.457,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          153.91,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-107-rebellion.webp",
+      "before_url": "/assets/cards/android-107-rebellion.webp?v=dbafb15d879b",
+      "before_sha256": "dbafb15d879b2292eb57fc86605534fa43f6b6947b13a37a1f86a754e002911a",
+      "after_sha256": "80d77348de3c1ae2ba71e57d356fddafda5805a919c52b17a5fdd2e14752d42a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-107-rebellion.webp",
+      "before_url": "/assets/cards/downloads/android-107-rebellion.webp?v=ff133a729c11",
+      "before_sha256": "ff133a729c11f17c2adfaf3fab76793f3e3b777147e7d6ba4518e64156d06e84",
+      "after_sha256": "325dd027c3ffae9e40cf862652b956ad7ab1e4957a59426443613f1fc2bde7d4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 277.5486284289277,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

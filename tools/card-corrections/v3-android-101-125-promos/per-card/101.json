@@ -1,0 +1,230 @@
+{
+  "number": 101,
+  "id": "android-101-knockout-drill",
+  "name": "Knockout Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-101-knockout-drill.svg",
+  "native_source_sha256": "9d99e5799fdbaca673af01a5929e9c03d78c3cb9c9f8dd2f8c707a2f07a0f37f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b7810341861424a2fe619094c584a44166be659147420b720edfb30bf8973294.png",
+      "sha256": "b7810341861424a2fe619094c584a44166be659147420b720edfb30bf8973294"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "5e4988a5ca1b2df35f311dd408b959c1057651887e45d79452b581ba1fe037f3"
+  },
+  "rules": [
+    {
+      "text": "During Combat, players cannot use Setups",
+      "baseline": 1049.3,
+      "width": 815.58775,
+      "icon_inline": true
+    },
+    {
+      "text": "unless they have performed an attack",
+      "baseline": 1108.3,
+      "width": 676.3470000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from their hand this Combat.",
+      "baseline": 1167.3,
+      "width": 509.404,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        319.145,
+        50.2213,
+        420.711,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.513,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.312,
+        1392.65,
+        51.675,
+        33.708
+      ],
+      "rules-line-1": [
+        189.872,
+        1013.53,
+        747.005,
+        45.913
+      ],
+      "power-icon": [
+        122.123,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        192.649,
+        1073.85,
+        673.701,
+        44.2034
+      ],
+      "rules-line-3": [
+        276.023,
+        1131.53,
+        506.954,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          122.123,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          189.872,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          122.123,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-101-knockout-drill.webp",
+      "before_url": "/assets/cards/android-101-knockout-drill.webp?v=74764d20b152",
+      "before_sha256": "74764d20b1524b4a3e12d086c35098adb6958a915a4e310887018029911fab37",
+      "after_sha256": "f12084a9fa9978641bb6f4e9c4bfe11d95f2aaab0bd649c083182ff7e1cbe525",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-101-knockout-drill.webp",
+      "before_url": "/assets/cards/downloads/android-101-knockout-drill.webp?v=3dc30116e7e8",
+      "before_sha256": "3dc30116e7e8365613ce1a034282a49bae203ac91831be7592c6dfe8de00fcbb",
+      "after_sha256": "07119eeae66ea36488bca5a14c973869f68f7b29b834fdbf1dcdea1396a18609",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 420.71072319202,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

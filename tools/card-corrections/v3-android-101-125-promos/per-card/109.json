@@ -1,0 +1,206 @@
+{
+  "number": 109,
+  "id": "android-109-red-tactical-drill",
+  "name": "Red Tactical Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-109-red-tactical-drill.svg",
+  "native_source_sha256": "d9d15fa7b0cf6e2bbad134206ec6339b07be64d97e16ed6773f649b9c7a29c66",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/895d2a34ca2b166e333df14c00953fd18c7977e030a7447b5368b9c03aee83c2.png",
+      "sha256": "895d2a34ca2b166e333df14c00953fd18c7977e030a7447b5368b9c03aee83c2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "82f492f7780107884c4e9e0d960c60245bac0df90eed49d399aa49d314c57a6f"
+  },
+  "rules": [
+    {
+      "text": "Your anger cannot be lowered.",
+      "baseline": 1049.3,
+      "width": 609.3467500000002,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        277.719,
+        50.2213,
+        503.562,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        292.38,
+        1015.0,
+        541.009,
+        44.443
+      ],
+      "power-icon": [
+        225.611,
+        1020.36,
+        53.5937,
+        23.5813
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          225.611,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          292.38,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          225.611,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-109-red-tactical-drill.webp",
+      "before_url": "/assets/cards/android-109-red-tactical-drill.webp?v=092b05c9bbf0",
+      "before_sha256": "092b05c9bbf0c795be56a30b1476118300366ab22408d73b52eb896ccbfc3ea0",
+      "after_sha256": "c35f004a0948b4a33977fb1b7ed8c7a3100a727367d2b2954d1b62c0b192abfb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-109-red-tactical-drill.webp",
+      "before_url": "/assets/cards/downloads/android-109-red-tactical-drill.webp?v=2fda61c3be47",
+      "before_sha256": "2fda61c3be472b862b1194b1fef5f3ae9bfce7085d7ba72a910988b424d51027",
+      "after_sha256": "c65be78b83e73060611192479eaac21a8a61f0beb1ac01277fa8565c81c1c97e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 503.5623441396509,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

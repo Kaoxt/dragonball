@@ -1,0 +1,304 @@
+{
+  "number": 122,
+  "id": "android-122-yajirobe",
+  "name": "Yajirobe",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-122-yajirobe.svg",
+  "native_source_sha256": "e09f1c159802fc0280a46c60f4bff9268e0336ee02937ca68332fd5fd8308967",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7d3bd60a8a37f66615f3d09b59a737872c17b38f12c37cd9e0f5c974a2ff1d95.png",
+      "sha256": "7d3bd60a8a37f66615f3d09b59a737872c17b38f12c37cd9e0f5c974a2ff1d95"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "4f6c752b75120b9d9470d0e7f337562f5f3a0a1763ca5d13afd548a7bfe4e524"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages.",
+      "baseline": 1049.3,
+      "width": 614.2731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        919.035,
+        224.691,
+        111.965,
+        38.269
+      ],
+      "power-stage-value-2": [
+        913.155,
+        289.373,
+        117.845,
+        38.269
+      ],
+      "power-stage-value-3": [
+        912.469,
+        354.054,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-4": [
+        910.558,
+        418.736,
+        120.442,
+        38.269
+      ],
+      "power-stage-value-5": [
+        912.469,
+        483.418,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-6": [
+        912.175,
+        548.1,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-7": [
+        914.527,
+        612.782,
+        116.473,
+        38.269
+      ],
+      "power-stage-value-8": [
+        911.832,
+        677.463,
+        119.168,
+        38.269
+      ],
+      "power-stage-value-9": [
+        911.881,
+        742.145,
+        119.119,
+        38.269
+      ],
+      "power-stage-value-10": [
+        896.544,
+        806.827,
+        134.456,
+        38.269
+      ],
+      "card-title": [
+        404.319,
+        44.5,
+        250.362,
+        69.0
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.889,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.689,
+        1392.65,
+        56.922,
+        33.708
+      ],
+      "rules-line-1": [
+        277.743,
+        1013.53,
+        558.11,
+        45.913
+      ],
+      "power-icon": [
+        223.147,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          277.743,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-122-yajirobe.webp",
+      "before_url": "/assets/cards/android-122-yajirobe.webp?v=169733782cae",
+      "before_sha256": "169733782cae220a3c174696e1e5e800b13203256c0cd3d476e7be771520d15a",
+      "after_sha256": "c187424ed5934c67c84be7e53ed984e1e409742a89a9510982d4c51008aa1244",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-122-yajirobe.webp",
+      "before_url": "/assets/cards/downloads/android-122-yajirobe.webp?v=490997b6d1f2",
+      "before_sha256": "490997b6d1f23decb38b0ebc87cdf655dde524a861e2630606c10b813a558da9",
+      "after_sha256": "47e359cf6a4cedbfb397d2fb32adee5d9e6195cbd6d5391e3927d3bfce2ef9c6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 250.3615960099751,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

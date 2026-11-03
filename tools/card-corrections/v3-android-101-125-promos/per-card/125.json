@@ -1,0 +1,230 @@
+{
+  "number": 125,
+  "id": "android-125-trunks-guardian-drill",
+  "name": "Trunks' Guardian Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-125-trunks-guardian-drill.svg",
+  "native_source_sha256": "45e51e13d1181010c09a96bcb9588e74ec1bf52a8031b89a4abd2baef45b8e96",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0833c7177a02669087c5cde04bc4e6cbcca6d2f487aedc8c786648309e3246af.png",
+      "sha256": "0833c7177a02669087c5cde04bc4e6cbcca6d2f487aedc8c786648309e3246af"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "f5762e6c2560104c0b39c8103e5a7656c1b337e5f0612d1717583cd9cf6d830b"
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Once per Combat, in place of an",
+      "baseline": 1049.3,
+      "width": 857.57575,
+      "icon_inline": true
+    },
+    {
+      "text": "attack, you may put a Setup or Drill from your",
+      "baseline": 1108.3,
+      "width": 808.5,
+      "icon_inline": false
+    },
+    {
+      "text": "hand into play.",
+      "baseline": 1167.3,
+      "width": 261.317,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        205.794,
+        50.2213,
+        647.413,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.227,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.026,
+        1392.65,
+        58.247,
+        33.708
+      ],
+      "rules-line-1": [
+        102.623,
+        1013.53,
+        853.754,
+        45.521
+      ],
+      "power-icon": [
+        331.693,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        126.0,
+        1072.53,
+        807.001,
+        45.521
+      ],
+      "rules-line-3": [
+        400.556,
+        1131.53,
+        257.887,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "O",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          331.693,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          398.953,
+          1014.61,
+          19.845,
+          35.084
+        ],
+        "new_visible_bounds": [
+          331.693,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-125-trunks-guardian-drill.webp",
+      "before_url": "/assets/cards/android-125-trunks-guardian-drill.webp?v=6abe38b4ae0c",
+      "before_sha256": "6abe38b4ae0c172bf09d517f58538aaea0daa6efc87b40bd82f001d73785d0c1",
+      "after_sha256": "2319856dfd51b4d796dc3868cd67b310e93877e557ec5d1d8d34396c13904c28",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-125-trunks-guardian-drill.webp",
+      "before_url": "/assets/cards/downloads/android-125-trunks-guardian-drill.webp?v=49717912d973",
+      "before_sha256": "49717912d9734864b4ca166437d4dfe3560c9ac12436cf9e98b687b0a9c43470",
+      "after_sha256": "6e104ef802ead8e3cc6851b287596405c87fd7defa3b967a87b17417cd28c27d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 647.4127182044889,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 6,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "number": "P10",
+  "id": "android-p10-planet-vegeta",
+  "name": "Planet Vegeta",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p10-planet-vegeta.svg",
+  "native_source_sha256": "fbd4fd7071ca3edbc32cf71a72bbc8982e650fa83f6903232099896cdc30d291",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/11f7b29247c9c0d920571365487e34fa0fe2f767c1496a42d631b0493a524ef1.png",
+      "sha256": "11f7b29247c9c0d920571365487e34fa0fe2f767c1496a42d631b0493a524ef1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "b6b2697f07dd5c82ae191de90e82c6700531a167ecade26e761ce25061f595e2"
+  },
+  "rules": [
+    {
+      "text": "Each player's MP has +1 PUR.",
+      "baseline": 845.483333333333,
+      "width": 570.83275,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        534.543,
+        44.5,
+        413.914,
+        69.0
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        252.282,
+        946.669,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        1126.87,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1186.67,
+        968.646,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        524.617,
+        811.134,
+        501.515,
+        44.1
+      ],
+      "power-icon": [
+        456.868,
+        816.543,
+        53.5938,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          456.868,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          524.617,
+          811.183,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          456.868,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p10-planet-vegeta.webp",
+      "before_url": "/assets/cards/android-p10-planet-vegeta.webp?v=8ed7926c9037",
+      "before_sha256": "8ed7926c9037f5cdfe0205abb7a2597ced14e24cea6f86fc1f856c5ceac77ee2",
+      "after_sha256": "7b0363c7bb060b817278f1c2ebaa9484e172a2ca57a472a7116822a7b7d42cf7",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p10-planet-vegeta.webp",
+      "before_url": "/assets/cards/downloads/android-p10-planet-vegeta.webp?v=baf0aede2bb9",
+      "before_sha256": "baf0aede2bb926dbcb71473ab4f7b0e0e5655132720929c562a6789d141bacec",
+      "after_sha256": "bb18487bcb20cd66c131566958e9fb25a45340e31ff52796baedeafb3d970a7c",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      296.55,
+      985.5
+    ]
+  }
+}

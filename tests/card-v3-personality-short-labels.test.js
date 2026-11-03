@@ -11,8 +11,8 @@ const json=p=>JSON.parse(read(p));
 const hash=p=>createHash('sha256').update(read(p)).digest('hex');
 const base='tools/card-corrections/v3-personality-short-labels/';
 
-test('all current V3 Personalities have short native labels and independently verified lossless exports',()=>{
- const cards=catalog.filter(c=>c.templateVersion===3&&c.type.includes('Personality'));
+test('the original 134 V3 Personalities retain short native labels and independently verified lossless exports',()=>{
+ const cards=catalog.filter(c=>c.templateVersion===3&&c.type.includes('Personality')&&c.set!=='Android Saga');
  const checks=json(base+'pixel-checks.json'),release=json(base+'release.json');
  assert.equal(cards.length,134);assert.equal(checks.length,134);
  assert.equal(release.cards,134);assert.equal(release.independently_verified_exports,268);

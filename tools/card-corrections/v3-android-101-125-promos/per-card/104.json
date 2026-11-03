@@ -1,0 +1,230 @@
+{
+  "number": 104,
+  "id": "android-104-orange-eye-beam",
+  "name": "Orange Eye Beam",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-104-orange-eye-beam.svg",
+  "native_source_sha256": "c839e3302762bc5e23f6347d99e749e4b34a782d6028d15b76089dafab22c65d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cdca8e8080221191a471699d35acf9708532d053b1d75ae232d2d9c348739bb4.png",
+      "sha256": "cdca8e8080221191a471699d35acf9708532d053b1d75ae232d2d9c348739bb4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "b2f26b29102cf33c39991f0ce9f211c84f1b3465f8b8729941d3d98fca82be94"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards, or 7 life cards",
+      "baseline": 1108.3,
+      "width": 629.013,
+      "icon_inline": false
+    },
+    {
+      "text": "if you declared Tokui-Waza.",
+      "baseline": 1167.3,
+      "width": 496.7130000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        269.89,
+        45.9196,
+        519.221,
+        66.1608
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        786.001,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.8,
+        1392.65,
+        62.699,
+        33.708
+      ],
+      "rules-line-1": [
+        278.159,
+        1013.53,
+        557.277,
+        45.913
+      ],
+      "power-icon": [
+        223.564,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        216.488,
+        1072.53,
+        626.024,
+        40.572
+      ],
+      "rules-line-3": [
+        282.662,
+        1131.53,
+        493.675,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.159,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-104-orange-eye-beam.webp",
+      "before_url": "/assets/cards/android-104-orange-eye-beam.webp?v=95e1e741c669",
+      "before_sha256": "95e1e741c66953818181ddcc4bb44b25f0390ded7901fce1905ee0a84baf5fcb",
+      "after_sha256": "f5ca2f512047587a20b871e898e60a989f5f122b4caa2a2011ed53bde6a1c66d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-104-orange-eye-beam.webp",
+      "before_url": "/assets/cards/downloads/android-104-orange-eye-beam.webp?v=8d22b411d781",
+      "before_sha256": "8d22b411d7813431ab57131bdb80a1e4f8d1ea442027c1b60536566c12f44cf1",
+      "after_sha256": "471226d3090e4f2610a6f413a65eb7c60720b277a09ec51672c3a3f87efb79aa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 519.2206982543642,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

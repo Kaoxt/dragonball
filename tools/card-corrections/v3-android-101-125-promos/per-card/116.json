@@ -1,0 +1,304 @@
+{
+  "number": 116,
+  "id": "android-116-android-18",
+  "name": "Android 18",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-116-android-18.svg",
+  "native_source_sha256": "6d648792ae2581d3974baa0c7dc2bad278a7f79a65fc61712257961303b59a6a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fc5c49b9b0f007df5f885af03f5d884f04ed71499ad10179ef220e9ba5b2f8b6.png",
+      "sha256": "fc5c49b9b0f007df5f885af03f5d884f04ed71499ad10179ef220e9ba5b2f8b6"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "de758f1a4697c485b631ad40e6e1bfc4e56b4ce7ecda56678d16a70c1b1ffdac"
+  },
+  "rules": [
+    {
+      "text": "Stops the first unstopped attack performed",
+      "baseline": 1049.3,
+      "width": 821.4129473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "against you this Combat.",
+      "baseline": 1108.3,
+      "width": 439.4810000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        891.546,
+        224.691,
+        139.454,
+        38.269
+      ],
+      "power-stage-value-2": [
+        888.949,
+        289.373,
+        142.051,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.566,
+        354.054,
+        140.434,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.918,
+        418.736,
+        138.082,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.223,
+        483.418,
+        140.777,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.272,
+        548.1,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-7": [
+        872.485,
+        612.782,
+        158.515,
+        38.269
+      ],
+      "power-stage-value-8": [
+        866.36,
+        677.463,
+        164.64,
+        38.269
+      ],
+      "power-stage-value-9": [
+        865.576,
+        742.145,
+        165.424,
+        38.269
+      ],
+      "power-stage-value-10": [
+        864.498,
+        806.827,
+        166.502,
+        38.269
+      ],
+      "card-title": [
+        373.261,
+        50.2213,
+        312.479,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        170.416,
+        1013.53,
+        768.859,
+        44.884
+      ],
+      "power-icon": [
+        119.725,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        311.107,
+        1072.53,
+        436.786,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          119.725,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          170.416,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          119.725,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-116-android-18.webp",
+      "before_url": "/assets/cards/android-116-android-18.webp?v=97e907a8d86f",
+      "before_sha256": "97e907a8d86f8cac3a69d07d17c5728af97758942d89ddacda404105a8144f40",
+      "after_sha256": "293d46dcf6c28f6a4a92a26f785812ab8d2c5bf096c224be71f96d9617548277",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-116-android-18.webp",
+      "before_url": "/assets/cards/downloads/android-116-android-18.webp?v=129b5ff528f5",
+      "before_sha256": "129b5ff528f5fe03f2d18281a65e3312282f2a9b934b3c52ed2c1921a5a2e83e",
+      "after_sha256": "7572e274c17eb98a8fd39388ec82b9b4243b08c496eeec4598d60047b2bd51a4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 312.47880299251875,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

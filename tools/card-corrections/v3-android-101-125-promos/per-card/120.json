@@ -1,0 +1,268 @@
+{
+  "number": 120,
+  "id": "android-120-tien-the-watcher",
+  "name": "Tien the Watcher",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-120-tien-the-watcher.svg",
+  "native_source_sha256": "c7d7ff8eb516ccf59b34efbf7309dc02c4f2d55d5c1bd0f4fa66881db611848f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0a900cc9bf1934d6f87444d09982f0ca9ad624a04d905fc7c087687bb1315f47.png",
+      "sha256": "0a900cc9bf1934d6f87444d09982f0ca9ad624a04d905fc7c087687bb1315f47"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "0f4481cb52af4ae263e889bb6f38016cabcd30f7ae4d29888b1aa4d305a62ca6"
+  },
+  "rules": [
+    {
+      "text": "POWER: When entering Combat, you may use 1 of",
+      "baseline": 1049.3,
+      "width": 863.3799999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Setups or Drills already in play.",
+      "baseline": 1108.3,
+      "width": 640.577,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        912.469,
+        224.691,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-2": [
+        896.544,
+        289.373,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-3": [
+        897.23,
+        354.054,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.664,
+        418.736,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-5": [
+        891.35,
+        483.418,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.978,
+        548.1,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.664,
+        612.782,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-8": [
+        888.067,
+        677.463,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-9": [
+        888.753,
+        742.145,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-10": [
+        889.978,
+        806.827,
+        141.022,
+        38.269
+      ],
+      "card-title": [
+        271.481,
+        50.2213,
+        516.037,
+        57.5574
+      ],
+      "v3-level-number": [
+        59.8561,
+        25.15,
+        86.2879,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        788.094,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.894,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        99.378,
+        1013.53,
+        860.244,
+        45.913
+      ],
+      "rules-line-2": [
+        210.314,
+        1072.53,
+        638.372,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-120-tien-the-watcher.webp",
+      "before_url": "/assets/cards/android-120-tien-the-watcher.webp?v=c16505b4374f",
+      "before_sha256": "c16505b4374f7955f2fab0083fe36d880e29f9e342e74e903acbf0bfa255660e",
+      "after_sha256": "9f1e3458b9e13e46209ba3983da32303529a683a6f726e08fd165ac8093b00f5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-120-tien-the-watcher.webp",
+      "before_url": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=6115078caf91",
+      "before_sha256": "6115078caf9101343bd171c6c134760125f782489cdd075370eb1850a3eaddc6",
+      "after_sha256": "ee6661f27bad0b1596ecaecc1475cef9ceddc6f75294ac2ad778cbf17fa4ac65",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 516.0374064837906,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

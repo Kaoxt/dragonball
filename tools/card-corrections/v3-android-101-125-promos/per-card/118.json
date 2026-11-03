@@ -1,0 +1,296 @@
+{
+  "number": 118,
+  "id": "android-118-android-20",
+  "name": "Android 20",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-118-android-20.svg",
+  "native_source_sha256": "08ea23be3e73e47c55ff0438b8b68df0221956211265523c3ad996305b93656a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e210831a73329a8b386652da3c2cc175963118ecff7e20b659d0e42f1a6d9f71.png",
+      "sha256": "e210831a73329a8b386652da3c2cc175963118ecff7e20b659d0e42f1a6d9f71"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4a56ae6f3ad0104f26bba2af0e1513a6c2da6e6c3c68cb0a681df2c29a66b26f.png",
+      "sha256": "4a56ae6f3ad0104f26bba2af0e1513a6c2da6e6c3c68cb0a681df2c29a66b26f"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": true,
+    "localized_correction": null,
+    "source_native_sha256": "51c785ae174989bd9b61d39decb2b56cf8b659d05ef63543e91abfeb36c4e511"
+  },
+  "rules": [
+    {
+      "text": "POWER: Lower Android 20 by 5 stages to search",
+      "baseline": 1049.3,
+      "width": 848.8759999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck or discard pile for 1 personality",
+      "baseline": 1108.3,
+      "width": 816.242,
+      "icon_inline": false
+    },
+    {
+      "text": "with 'Android' in its title. Put it in play",
+      "baseline": 1167.3,
+      "width": 660.324,
+      "icon_inline": false
+    },
+    {
+      "text": "at 5 stages above 0.",
+      "baseline": 1226.3,
+      "width": 357.45500000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        1012.53,
+        160.009,
+        18.473,
+        31.164
+      ],
+      "power-stage-value-1": [
+        897.426,
+        224.691,
+        133.574,
+        38.269
+      ],
+      "power-stage-value-2": [
+        891.546,
+        289.373,
+        139.454,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.86,
+        354.054,
+        140.14,
+        38.269
+      ],
+      "power-stage-value-4": [
+        888.949,
+        418.736,
+        142.051,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.86,
+        483.418,
+        140.14,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.566,
+        548.1,
+        140.434,
+        38.269
+      ],
+      "power-stage-value-7": [
+        892.918,
+        612.782,
+        138.082,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.223,
+        677.463,
+        140.777,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.272,
+        742.145,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-10": [
+        864.204,
+        806.827,
+        166.796,
+        38.269
+      ],
+      "card-title": [
+        367.84,
+        50.2213,
+        323.319,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        106.949,
+        1013.53,
+        845.103,
+        45.913
+      ],
+      "rules-line-2": [
+        122.028,
+        1072.53,
+        814.945,
+        45.521
+      ],
+      "rules-line-3": [
+        200.06,
+        1131.53,
+        658.88,
+        45.521
+      ],
+      "rules-line-4": [
+        352.12,
+        1191.46,
+        354.76,
+        44.982
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-118-android-20.webp",
+      "before_url": "/assets/cards/android-118-android-20.webp?v=76a5dde96e44",
+      "before_sha256": "76a5dde96e4421f2edbd1168ba4d79d62d919a59f7e70b0ba341fb470eeb2fd6",
+      "after_sha256": "096091596a2af9341a64629b805fbecf9be1013254e206b710fe13b0e245163f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-118-android-20.webp",
+      "before_url": "/assets/cards/downloads/android-118-android-20.webp?v=153b9d396830",
+      "before_sha256": "153b9d396830d07c4825f78dca07b17b0d6379cef84cd654401e3113ccbdce01",
+      "after_sha256": "87f671aa9d890d1df01d9912622b66304b1165d8393c6eaf7268d5078f5c4d6c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 323.3192019950125,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

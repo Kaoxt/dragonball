@@ -1,0 +1,230 @@
+{
+  "number": 108,
+  "id": "android-108-red-counterstrike",
+  "name": "Red Counterstrike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-108-red-counterstrike.svg",
+  "native_source_sha256": "1a48deb56e67f12b90d73516418a31f42ba2b94e5436c8f8b7f08df6891b60d0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0895c2ea3a1a5b228b1ae6f48757fc89c36ae900bb6be117df2d5736d25ab58b.png",
+      "sha256": "0895c2ea3a1a5b228b1ae6f48757fc89c36ae900bb6be117df2d5736d25ab58b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "1c2a588cf6f56a4c3e71ff9e88b00a7a1b4198a22180fb8135a22323c128cf5a"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Your opponent discards the top 3 cards",
+      "baseline": 1108.3,
+      "width": 699.5730000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of their Life Deck. Banish after use.",
+      "baseline": 1167.3,
+      "width": 627.5920000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        260.383,
+        50.2213,
+        538.234,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        786.955,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.754,
+        1392.65,
+        60.791,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        180.718,
+        1072.53,
+        697.564,
+        44.884
+      ],
+      "rules-line-3": [
+        217.247,
+        1131.53,
+        624.505,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-108-red-counterstrike.webp",
+      "before_url": "/assets/cards/android-108-red-counterstrike.webp?v=317cfef0a46d",
+      "before_sha256": "317cfef0a46d297bb633cce85367d66437d85d2f15a25690fdb7e2a28704c0c7",
+      "after_sha256": "7ac8ce713e510d9d1593ca4fb40fc3c1debd9b7f5e3dd9d5b9fe22da97cf85f4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-108-red-counterstrike.webp",
+      "before_url": "/assets/cards/downloads/android-108-red-counterstrike.webp?v=a4350d67b379",
+      "before_sha256": "a4350d67b379f56760c48b167b273998c1ad39921eb52f537ed15344d75cfc9e",
+      "after_sha256": "9028c4ea60cdc3b4ae918b093318a8d3f00d668b6b464ed78a6b5dcd0752527b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 538.2344139650874,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

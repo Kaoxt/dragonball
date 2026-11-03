@@ -1,0 +1,218 @@
+{
+  "number": "P2",
+  "id": "android-p02-foreboding-evidence",
+  "name": "Foreboding Evidence",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p02-foreboding-evidence.svg",
+  "native_source_sha256": "4070c0ec939a6eb4aa29717cb98684c2d6007a8704e55fb41c27df70556b10f6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c8b27ec4005d8395c0100f537486ca8dd15c41de31e6c4c34a263ada100b5a58.png",
+      "sha256": "c8b27ec4005d8395c0100f537486ca8dd15c41de31e6c4c34a263ada100b5a58"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c05ecc8062ef134c53dd0c761e02538c0004d2a6763590cff80a113a19199df1"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: If your MP is a Hero,",
+      "baseline": 1049.3,
+      "width": 827.5609999999997,
+      "icon_inline": false
+    },
+    {
+      "text": "place up to 3 Setups or Drills from your discard",
+      "baseline": 1108.3,
+      "width": 834.4699999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "pile on top of your Life Deck. If it is a Villain,",
+      "baseline": 1167.3,
+      "width": 779.9819999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "shuffle all Events from your discard pile into your",
+      "baseline": 1226.3,
+      "width": 877.9820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck. Banish after use.",
+      "baseline": 1285.3,
+      "width": 487.59900000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        217.365,
+        44.5,
+        624.269,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        116.564,
+        1012.11,
+        825.872,
+        46.942
+      ],
+      "rules-line-2": [
+        114.201,
+        1072.53,
+        830.599,
+        45.521
+      ],
+      "rules-line-3": [
+        141.334,
+        1131.53,
+        776.333,
+        45.521
+      ],
+      "rules-line-4": [
+        91.2832,
+        1190.53,
+        876.434,
+        45.521
+      ],
+      "rules-line-5": [
+        287.562,
+        1249.53,
+        483.875,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p02-foreboding-evidence.webp",
+      "before_url": "/assets/cards/android-p02-foreboding-evidence.webp?v=cf9da9b43170",
+      "before_sha256": "cf9da9b43170b581e9f6d56e2eb00aa4911fbf5d283c37fd41897179a62fbf3b",
+      "after_sha256": "927854c8804f704c95536a69f99e17c0396c882d6eeecaeea1502807cf2b01b6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p02-foreboding-evidence.webp",
+      "before_url": "/assets/cards/downloads/android-p02-foreboding-evidence.webp?v=da8f08342a3d",
+      "before_sha256": "da8f08342a3d81a29149a2c24ac3a7da2a2d3e0118104317550a45af460c32b8",
+      "after_sha256": "bbea09183ee20257aaff0772f6780ad089eaf49b4916377972571eedcb137bff",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 624.2693266832919,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

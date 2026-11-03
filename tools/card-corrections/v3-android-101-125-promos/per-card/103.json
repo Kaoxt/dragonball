@@ -1,0 +1,206 @@
+{
+  "number": 103,
+  "id": "android-103-namekian-teamwork",
+  "name": "Namekian Teamwork",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-103-namekian-teamwork.svg",
+  "native_source_sha256": "e2fd82d22501c1a2401c37c58afd9de743667ccdd3581be90b329069284b9ab8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f6d009a853f193ae60a600da4e978ab297ddf6cddd554ec5f8a677fb86dd0006.png",
+      "sha256": "f6d009a853f193ae60a600da4e978ab297ddf6cddd554ec5f8a677fb86dd0006"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "54b467ddbdc1942bd2152a8bc1827029e56a0e96a6c1967060595f97f294f1ee"
+  },
+  "rules": [
+    {
+      "text": "POWER: Raise your Allies to their highest stage.",
+      "baseline": 1049.3,
+      "width": 842.31,
+      "icon_inline": false
+    },
+    {
+      "text": "This Combat, those Allies may use their powers",
+      "baseline": 1108.3,
+      "width": 840.1540000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "regardless of your MP's stages. Discard the top",
+      "baseline": 1167.3,
+      "width": 834.372,
+      "icon_inline": false
+    },
+    {
+      "text": "card of your Life Deck for each of your Allies.",
+      "baseline": 1226.3,
+      "width": 803.2080000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.461,
+        50.2213,
+        634.077,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.644,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.443,
+        1392.65,
+        59.413,
+        33.708
+      ],
+      "rules-line-1": [
+        110.183,
+        1013.53,
+        838.635,
+        45.913
+      ],
+      "rules-line-2": [
+        110.427,
+        1072.53,
+        838.145,
+        45.521
+      ],
+      "rules-line-3": [
+        113.98,
+        1131.53,
+        831.04,
+        45.913
+      ],
+      "rules-line-4": [
+        129.439,
+        1190.53,
+        800.121,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-103-namekian-teamwork.webp",
+      "before_url": "/assets/cards/android-103-namekian-teamwork.webp?v=c8c9544e77fb",
+      "before_sha256": "c8c9544e77fb1329b2b1cea9d9f58d99444bc661e496533fe52cfc4a7d6da470",
+      "after_sha256": "e3c2b5fc1556fe56714770e6326416a96923c4f9491922b446a27655ad518ba0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-103-namekian-teamwork.webp",
+      "before_url": "/assets/cards/downloads/android-103-namekian-teamwork.webp?v=d11ea19f1818",
+      "before_sha256": "d11ea19f181818280547f78f79e2785f823c6f7043c39ee27dd62e28afe71430",
+      "after_sha256": "dd5942cfae0d2c4fc0631d068d14c2221ca52189358cfdc26dd6432e3501852a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 634.0773067331671,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

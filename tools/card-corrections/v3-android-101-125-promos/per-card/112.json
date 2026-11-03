@@ -1,0 +1,218 @@
+{
+  "number": 112,
+  "id": "android-112-severe-bruises",
+  "name": "Severe Bruises",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-112-severe-bruises.svg",
+  "native_source_sha256": "d9b966316f8086a71e3abc0c033ad2d42f6165af51cd352723a3ee673e41f91d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6c8bdb9d0a9b88b0ea9b7ed3ca4f72ba3f4bf37f69c24529f7fb2be1c5eeac17.png",
+      "sha256": "6c8bdb9d0a9b88b0ea9b7ed3ca4f72ba3f4bf37f69c24529f7fb2be1c5eeac17"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "8ddab35d5c2dd236fb9bc89c4e0f9ccb6a0cca028133798831ffa3e32d774d21"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Attach to your",
+      "baseline": 1049.3,
+      "width": 730.198,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's MP. Lower their anger to 0. They",
+      "baseline": 1108.3,
+      "width": 776.8460000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot raise their anger until they put a Drill",
+      "baseline": 1167.3,
+      "width": 785.666,
+      "icon_inline": false
+    },
+    {
+      "text": "in play. Discard this card when they put",
+      "baseline": 1226.3,
+      "width": 701.4350000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "a Drill in play.",
+      "baseline": 1285.3,
+      "width": 240.002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        305.078,
+        50.2213,
+        448.844,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        792.202,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.001,
+        1392.65,
+        50.297,
+        33.708
+      ],
+      "rules-line-1": [
+        164.612,
+        1012.11,
+        729.777,
+        46.942
+      ],
+      "rules-line-2": [
+        142.167,
+        1072.53,
+        774.667,
+        45.913
+      ],
+      "rules-line-3": [
+        138.26,
+        1131.53,
+        782.481,
+        45.913
+      ],
+      "rules-line-4": [
+        179.983,
+        1190.53,
+        699.034,
+        45.521
+      ],
+      "rules-line-5": [
+        410.846,
+        1249.53,
+        237.307,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-112-severe-bruises.webp",
+      "before_url": "/assets/cards/android-112-severe-bruises.webp?v=d91e6bf94247",
+      "before_sha256": "d91e6bf942477418904fac38483ce97e7a80784afe1158f7e41f8fa8e9fe0497",
+      "after_sha256": "b58712f6a59cea753e82e91b8dfd592c50454a2125943a17fe03aab9cb910d24",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-112-severe-bruises.webp",
+      "before_url": "/assets/cards/downloads/android-112-severe-bruises.webp?v=3722ffd66c24",
+      "before_sha256": "3722ffd66c24a55f7f311aef7213e9cc31e925f33d4461e466660b558bf374f1",
+      "after_sha256": "f2b1b43bcdbbe9202a2c3030b65c7102cfeca98d86758ca7c19e9f97340dd4ab",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 448.8441396508729,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

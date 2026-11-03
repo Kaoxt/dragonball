@@ -1,0 +1,182 @@
+{
+  "number": "P9",
+  "id": "android-p09-gokus-hesitation",
+  "name": "Goku's Hesitation",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-p09-gokus-hesitation.svg",
+  "native_source_sha256": "76dbd47baa8b0abf5f4f766b6f70e8a3994b9b7d3e3a6dc09752ac40df7c61d4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e89e8a816000144b596b777af3589a90a5c80d10e3d5f65b7382f7c7a3bc53ab.png",
+      "sha256": "e89e8a816000144b596b777af3589a90a5c80d10e3d5f65b7382f7c7a3bc53ab"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "approved_118_mouth_patch_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "0e7ce75504b836c7680bd8e2ef16b818fdafdb6d3da67c5c67b40e2cd20f70aa"
+  },
+  "rules": [
+    {
+      "text": "POWER: Lower your opponent's anger to 0. You",
+      "baseline": 1049.3,
+      "width": 829.9129999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "must pass in your next attack phase.",
+      "baseline": 1108.3,
+      "width": 657.923,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        266.706,
+        50.2213,
+        525.587,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.594,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.394,
+        1392.65,
+        43.513,
+        33.708
+      ],
+      "rules-line-1": [
+        116.528,
+        1014.46,
+        825.944,
+        44.982
+      ],
+      "rules-line-2": [
+        202.229,
+        1072.53,
+        654.542,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-p09-gokus-hesitation.webp",
+      "before_url": "/assets/cards/android-p09-gokus-hesitation.webp?v=1d56c7905d08",
+      "before_sha256": "1d56c7905d08e94883c4cfa62dab435d27f1e3e8b869c6cb686eef0fa96b5f8c",
+      "after_sha256": "ea04a5f8c41a0ec5332e4c0f12f91fb4372e4792852344c75040b113e49f3e75",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-p09-gokus-hesitation.webp",
+      "before_url": "/assets/cards/downloads/android-p09-gokus-hesitation.webp?v=f52d24a9223a",
+      "before_sha256": "f52d24a9223a71ea9f602dc8b4e7d561ca61369203e7251178ac555132617777",
+      "after_sha256": "3505f72a20d521388dc0042004b764f88dd23c8f4137e23289b557e7b6483e75",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 525.5872817955113,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 2,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

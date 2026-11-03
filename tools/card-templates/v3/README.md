@@ -165,3 +165,8 @@ Use `build_trunks_106_155.py` with the retained 081–130 and 131–180 archive 
 ## Trunks Saga 156–200 and P1–P5
 
 `trunks-156-200-p1-p5/` contains the fifty native V3 sources: 43 Personalities (including ten Hi-Tech), one Setup, three Combat cards, one Event and two Drills. Each source retains its own original Level/PUR/stages and printed number; Hi-Tech Goku retains the separately approved top-stage correction. Use the masked repairs and retained correction layers listed in the repository card-production instructions. The original scans, current CRD, per-card visual observations, rules review, title/geometry measurements and both lossless export checks are in `../../card-corrections/v3-trunks-156-200-p1-p5/`. Hi-Tech backgrounds retain their approved full-art exception and original brightness; all Villains retain red corners and the scarlet isolated middle brush. Rarity follows the original scans, including six stars for Krillin #156 and two stars for the five promos.
+
+
+## Android Saga completion: 101–125 and P1–P11
+
+`android-101-125-promos/` holds the remaining 36 native sources, completing all 136 Android cards. Evidence is in `../../card-corrections/v3-android-101-125-promos/`. Preserve Android 20’s approved mouth layer, the five recorded sky-only masks, original Personality values including Android 17’s 399,000 stage, and five/six/two-star rarity. P4 Krillin’s Search now prints its Restricted List one-copy limit. P10 Planet Vegeta retains the landscape Location master. Use `build_android_101_125_promos.py` and `verify_android_101_125_promos.py` with the retained archives recorded in the evidence.
