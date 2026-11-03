@@ -188,10 +188,10 @@ body.home-page main .news-post .post-actions a:not(.news-comment-link){
  transition:background-color .18s ease,border-color .18s ease,color .18s ease;
 }
 body.home-page main .news-post .post-actions button.read-more{
- background:var(--site-nav-red-fill,#52212b);color:#fff;border:1px solid var(--site-nav-red,#c14954);box-shadow:none;
+ background:#a52c4b;color:#fff;border:1px solid #c14965;box-shadow:none;
 }
 body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled){
- background:var(--site-nav-red-fill,#52212b);color:#fff;border-color:var(--site-nav-red,#c14954);box-shadow:none;
+ background:#a52c4b;color:#fff;border-color:#c14965;box-shadow:none;
 }
 body.home-page main .news-post .post-actions a:not(.news-comment-link){
  background:#252326;color:#f5f5f5;border-color:#444046;

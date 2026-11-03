@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261103-restored-burgundy-news-toggle';
+import './navigation-design.js?v=20261103-bright-red-news-restored';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
