@@ -1,0 +1,375 @@
+{
+  "source_name": "01-Expanded-CRD.odt.txt",
+  "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "card_specific_entries": {
+    "55": "Placement is limited to one Non-Combat card from hand during the opponent\u2019s turn; placement by other effects does not count.",
+    "57": "If successful, Combat ends after damage, if any, is dealt. Tokui-Waza replaces attack damage with 5 stages.",
+    "62": "Attack damage permits immediate placement from hand; the discard effect is used during the Attacker Attacks phase.",
+    "67": "Declare the reduction when the energy attack becomes successful; remove the Non-Combat card during If Successful effects.",
+    "73": "Opponents\u2019 Allies cannot take control, pay costs, use powers or receive redirected damage during Combat.",
+    "74": "Once per Combat after a successful physical attack, optionally shuffle one non-Red Style card from the discard pile into the Life Deck.",
+    "90": "This card can affect Dragon Balls.",
+    "93": "Each card may raise anger by at most 1 level per turn, even with repeated uses; the restriction resets at end of turn.",
+    "100": "Remove from the game after use is removed by CRD."
+  },
+  "restricted_list": {
+    "72": "Limit 1 per deck.",
+    "99": "Limit 1 per deck."
+  },
+  "shared_deck_limit": {
+    "90": "Combined maximum 3 with Meanacing Evil, or 4 if the MP is Android 18; retained as CRD metadata, not an invented standalone Limit 1."
+  },
+  "defaults": "Ordinary energy attacks cost 2 stages and deal 4 life cards unless specified; physical AT modifiers and original card types retained.",
+  "cards": [
+    {
+      "number": 51,
+      "original_ocr": "Black Searc!\n\nq Technique\n\namt\n\ne:\n\nge\n\na\n\nia\n\nA\n\nNon-Combat\n\n\u2014\n\n\\/\n\nIf you declared Toku-Waza, search Wy\n\nour opponent's Life Deck for 2\n\non-Dragon Bal\u201d carcs and remove\n\nthem fram the game. Remove\n\nfrom the game after use.\n\nSe\n\nROR\n\nje cant |e\n\nthe Android\n\nerie\n\nget away.\n\nas\n\nai\n\ned com\n\nom\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "POWER: If you declared Tokui-Waza, search your opponent's Life Deck for 2 non-Dragon Ball cards and banish them. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 52,
+      "original_ocr": "\u2018Black Side Thrust\n\nth a es\n\nill\n\nsia\n\n\u201c\n\n\u2014\n\ni\n\nNS\n\nA\n\nbs\n\nSS\n\niS\n\nw=\n\nee\n\na\n\n\u201d\n\n)\n\nEx\n\n\u2014\n\nSS\n\n\u2014_\n\n\u2014\u2014\n\nCombat\n\n1\n\n) Physica\n\naan eree\n\nDER\n\nea\n\nPhysica! attack doing +3 power\n\nstages of damage. If you declared\n\nTokui-Waza, name a non-Dragan\n\nBall\n\ncard, Search your oppone\n\nLife Deck for 1 copy of that carct\n\nand discard it.\n\nYour senseless attacks\n\n7 of 9\n\nees\n\nmust end.\n\nesrermecimeod\n\nD8zcaria\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +3 stages. If you declared Tokui-Waza, name a non-Dragon Ball card. Search your opponent's Life Deck for 1 copy and discard it.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 53,
+      "original_ocr": "Black Studying Drill\n\n6.\n\ny\n\n|\n\n9 <8\n\nAIS\n\n00\n\n= *\n\nte\n\nZa\n\n3)\n\n\u2014\n\n>)\n\nFs me\n\nSs\n\nOLE\n\nn-Combat\n\n=\n\n&\n\ndit\n\nPr\n\nSA\n\nWher\n\ntering Combat, draw a\n\ncard. T\n\nchoose a card from\n\nyour hand\n\nnd pla\n\ne it on top of\n\nyour Life Deck.\n\n| Mh\n\nRoR\n\nYou are staying put until\n\nWot 2\n\nyour homework is done.\n\nTecrtias\n\nfe\n\nsin Rh Bead Ca Fone\n\nos\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "When entering Combat, draw a card. Then choose a card from your hand and put it on top of your Life Deck.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 54,
+      "original_ocr": "5a\n\n\u2014\n\n\u2014\n\nZe\n\nam\n\nWS\n\nsia\n\nyo\n\n{i\n\nSi\n\nANY\n\nDf |\n\n7\n\n\u2014\u2014 ae\n\ny) Physica Combat\n\nPO\n\nER\n\nPhysica! attack. IF you cect\n\nTokul-Waza. remove an\n\nopponent's Non-Combat carci\n\noF Ally in play from the game.\n\n7 of\n\nYou will do as | tell you\n\naa\n\nto dal\n\nSIT\n\nrc\n\neee\n\nos\n\nCeeerreirten!\n\nDazearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. If you declared Tokui-Waza, banish an opponent's Setup, Drill, or Ally in play.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 55,
+      "original_ocr": "Blue Hol\n\nig Drill\n\ne-\n\nth\n\n\u2014\u2014e-\n\n\u00ab\n\n. ee\n\ni\n\n=\n\nAis\n\niy\n\nA\n\na\n\n)) No\n\nn-Combat\n\nas\n\nEK\n\n\u2018Your\n\nents May only plaice\n\nNon-Combat card in play during\n\ntheir turn.\n\n\u2014\n\nL Lh\n\nRoR\n\nthat | have you. tl\n\nAner\n\n7 of 1d,\n\nnever let go of you.\n\ncoum\n\nios\n\nsd os\n",
+      "crd_note": "Expanded CRD: only placement from hand during their turn; other card effects do not count.",
+      "final_rules": "Each opponent may put only 1 Setup or Drill in play from their hand during their turn. Cards put in play by other card effects do not count toward this limit.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 56,
+      "original_ocr": "Blue\n\nht Cross\n\npeibahmam ce\n\n+\n\nos\n\nRA\n\n(\u00a2\n\nZY\n\nys\n\nG\n\nz)\n\nx >\n\n2)\n\n6) Physical Combat\n\nP WER\n\nSy\n\ni\n\nPhisical attack doing +1 pawer\n\nstage of \u00a2\n\nmage. IF you declared\n\nTokui-Waza. you may do 6 life cards\n\nof damage instead, Lower your\n\nOpponent\n\nanger 1 level.\n\nROA\n\n1 will destroy you now!\n\nAndroid #43\n\nOriaes\n\nosreereaes\n\nLl\n\nezerigme com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +1 stages. If you declared Tokui-Waza, you may deal 6 life cards instead. Lower your opponent's anger 1 level.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 57,
+      "original_ocr": "Blue Rush\n\nibs\n\n|\n\nDO ia\n\nRok\n\nWr\n\ni\n\n>\n\nNw N\n\ni \u00a9 LLL | Combat _\n\niP WE\n\na\n\nPrue i attack. Combat ends\n\nafter damage. if any, is dealt. If\n\n\u00bb)\n\nyou declared Tokui-Waza, this\n\nattack does 5 power stages of\n\ndamage instead.\n\nROR\n\nrae\n\nJ You will not be allowed\n\nmeas\n\nAndroid fet\n\nto surrender\n\necineereeesons\n\n6zerigame com\n",
+      "crd_note": "Expanded CRD: ending Combat is an If Successful effect, after damage (if any).",
+      "final_rules": "Physical attack. DAMAGE: AT stages, or 5 stages if you declared Tokui-Waza. HIT: After damage, if any, end Combat.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 58,
+      "original_ocr": "Blue Smirk\n\n@+\n\n\\\n\n|\n\nIK\n\n))\n\nv6\\y\n\ni |\n\nPOWER\n\nA\n\nPhysical attack claing +4 power\n\nstages of damage. IF you\n\ndeclared Tokui-Waza. lower your\n\nOpponent\u2019s anger 2 levels.\n\nROR\n\nMy father. We can't forget\n\nLor\n\nTks\n\nabout hin.\n\nhalls\n\naka ain el rer fo\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, lower your opponent's anger 2 levels.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 59,
+      "original_ocr": "Bulma\u2019s\u2019 Looking Good\n\ne:\n\nSas\n\n\u2014\n\n\\/\n\nl.\n\n&)\n\nSS\n\nps )\n\niN\n\nWoe\n\n\u2014\u2014\u2014\u2014\n\n\\ @) ee ombat\n\ny\n\n=f 3\n\nUse when entering Combat\n\nYour oppi\n\nIt discards a card\n\nat random from his hance\n\nYou mean | wil keep my\n\n2 of 2\n\ngrish looks for anather\n\nar\n\nten years?\n\nRall\n\nPareles Ash\n\nponent?\n\n8zearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "POWER: Use when entering Combat. Your opponent discards 1 random card from their hand.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 60,
+      "original_ocr": "Goku's\u00ae Training\n\nthat\n\nill\n\nC4\n\nyi\n\n\"i\n\nnS\n\ne\n\nZz\n\nye\n\n\\ 6) Physical Combat\n\nPOV/ER\n\nBoy\n\nPhysic\n\nattack doing +2 power\n\nstages of darnage. If successful.\n\ndraw the bottom card from your\n\ndiscard pal\n\nRemove from the\n\ngame after use.\n\nRoR\n\n4\n\nWeill get there on time.\n\nGof 9\n\nmark my words.\n\nr\n\noy aE\n\nNia sa\n\npeers\n\nDazerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +2 stages. HIT: Draw the bottom card of your discard pile. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 61,
+      "original_ocr": "ane in Elbow Smash @+)\n\n_\u2014\n\nDi\n\nil\n\ni\n\n3\n\naa)\n\n3\n\nio\n\ng\n\n>)\n\nge\n\nPF\n\nWSS\n\ny\n\n\u2018wy\n\nSs\n\nw\n\n6\u2019) Physical Combat\n\ni\n\nOW EIR\n\nPhysical attack daing +4 power\n\nstages of damage. IF you\n\ndeclared Tokui-Waza, raise your\n\nMain Personality to his highest\n\npower stage.\n\nRA\n\ne hurt my friends\n\nfor tt\n\nIst\n\nesses\n\n1\n\nSate\n\nDezerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, raise your MP to its highest stage.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 62,
+      "original_ocr": "|Namekian Finish ag Effort O=|\n\nSas\n\n\u00a2\n\nBe\n\nne\n\nwy\n\n@\n\nAd\n\n{\n\niN\n\nMS\n\nPOWER\n\nPlay th\n\ncard immediately after\n\ntaking damnage from an\n\ntack.\n\nYour opponent discards the top\n\n3 cards from his Life Deck.\n\nRoR\n\nThere's a goad cha\n\nB yOu\n\n10\n\n=\n\ncould I\n\nput this hand toll\n\ngood use.\n\nare ereer\n\nremy\n\nde i nis ad mers\n\nba|\n\nD8zearigame com\n",
+      "crd_note": "Expanded CRD: taking attack damage permits placement from hand; use remains an action in the Attacker Attacks phase.",
+      "final_rules": "After taking damage from an opponent's attack, you may put this card in play from your hand. POWER: During your Attack Phase, your opponent discards the top 3 cards of their Life Deck.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 63,
+      "original_ocr": "ee\n\nNamekian Focusing Effort e+\n\nhI,\n\ni\n\nVY ON\n\nNG\n\nSS\n\nES\n\nASG\n\n+)\n\nXS\n\nzB\n\neS\n\nee\n\n*\n\n\\ @) Non-Combat\n\nPOWER\n\nPiccoia\u2122 and Nail\u2122 only. Raise\n\nyour Mairi Personality to its highest\n\npower stage. Choose up to 3 cards\n\nin your discard pile and shuffle\n\nthem into your Life Deck.\n\nRoRE\n\n12-0\n\nBie Sty out of this Vegeta\u2019\n\nFcc\n\nLowe him one.\n\nPop fends canst Avec ug\n\nPcie\n\nD6zcarigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Piccolo and Nail only. POWER: Raise your MP to its highest stage. Choose up to 3 cards in your discard pile and shuffle them into your Life Deck.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 64,
+      "original_ocr": "Namekian Forearm Smash Ce\n\nyore\n\net meaaate\n\na\n\nCZ.\n\n7\n\n&\n\nELS Wi\n\n[|\n\ngv\n\nPOW\n\nER\n\na\n\nPhysice! atta\n\n\u2018k doing 6 life cards of\n\ndamage, Custs 3 power stages to\n\nperform. If you declared Tokul-Waza.\n\nplace the top card from your discard\n\npile at the bottom of your Life Dec\n\nRA\n\n1 of\n\n| will totally defeat you! \u00a7\n\nedt deg ea a and Oe\n\nD8zearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack costing 3 stages. DAMAGE: 6 life cards. If you declared Tokui-Waza, put the top card of your discard pile on the bottom of your Life Deck.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 65,
+      "original_ocr": "y cs\n\nnge Aura Drill\n\n\u2014\u2014\u2014\n\n() |\n\n=\n\neS,\n\nENN\n\nee\n\ni\n\niS\n\nmbat\n\na\n\nPA\n\n)) Non-C:\n\n\u2014\u2014\n\nge\n\nbas\n\nPOW\n\nAll of your energy attacks da +\n\nlife\n\n\u2018cd of dam\n\n2. IF YoU\n\ndeclared Takui-Waza. all of your\n\nenergy attacks do 2 life cards\n\nOf damage instead!\n\n\u2014\n\nRoR\n\nAi\n\n7 of 19,\n\n| will be leqendaryl\n\nine\n\nBist Mieco cote\n\nezine com\n",
+      "crd_note": "Printed +1 modifier becomes +2 with Tokui-Waza; ordinary energy attack base damage retained.",
+      "final_rules": "Your energy attacks deal +1 life card. If you declared Tokui-Waza, they deal +2 life cards instead.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 66,
+      "original_ocr": ") Orange Energy Glare\n\ne+\n\nZe\n\neen\n\npy)\n\n\\ Ade\n\noa\n\n\u00e9') Energy Combat\n\nPOWER\n\nhs\n\nEnet\n\nWY attack. If you declared\n\nTokui-Waza, this attack does\n\n+X life cards of clamage. X is\n\nequal to the number of Dragon\n\nBalls\u00ae in play\n\nRoR\n\nfais\n\nBot |\n\nYou are not strong\n\nFee\n\nAndeaid 20%\n\nenough to hurt me.\n\nal\n\nbicker A\n\nasd ca toon\n\nDezearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared Tokui-Waza, deal +X life cards. X is the number of Dragon Balls in play.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 67,
+      "original_ocr": "\u2018Orange Ener\n\nPhasing D\n\n57\n\nSr\n\n\u2014\u2014\u2014\n\n|\n\n<a,\n\nSy\n\nA\n\nay\n\nLies\n\n\u00bb\\\n\nFr\n\nQ\n\n$\n\nNC\n\notek\n\nLV,\n\nNow a\n\nC ombat\n\ncia\n\n\u2014\u2014\n\nJa\n\ndi]\n\n?\n\nWhenever you perform a successtl\n\nenergy\n\ntack, you may do -2 life\n\ncards of damage to remove | of\n\nYour oppanent\u2019s Nc\n\nCombat carcis\n\nplay from th\n\ngame,\n\n\u2014\n\nThey don't stand a chance\n\nq\n\nBor 1a\n\nbece\n\nise [mm a Super\n\noa\n\nSaiyan now!\n\naT\n\ncuneate\n\nit\n\nic Coo tan\n\ncrane com\n",
+      "crd_note": "Expanded CRD: declare reduction when attack becomes successful; banish during If Successful effects.",
+      "final_rules": "When your energy attack becomes successful, you may have it deal -2 life cards. If you do, banish 1 of your opponent's Setups or Drills in play during HIT effects.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 68,
+      "original_ocr": "\u2014\n\niY Orange Power Ball\n\nOx\n\nLyx\n\nA\n\nVy\n\nA\n\nPa\n\nme\u2019\n\nFNC)\n\n@ Energy Combat\n\nPOY/ER\n\ngay attack. IF you declared Tokui-\n\nWaza, this attack does +X life cards\n\nof damage. X is equal to the current\n\npersonality level of the per\n\nnality\n\nthat performed this attack.\n\nRoR\n\n17-0\n\nBM Stop asking questions! Fes\n\nPicco\n\nouaeamne\n\noa\n\ni tel a\n\nPeet?\n\nazerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared Tokui-Waza, deal +X life cards. X is the level of the personality performing this attack.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 69,
+      "original_ocr": "} Orange Power Beam\n\nleet\n\n\u2014\n\nif\n\nA Wy ~\n\nRW\n\n~\n\nva,\n\nD\n\n}\n\nZA\n\nte\n\nOX\n\n)) Energy Combat\n\ni\n\nA,\n\nBi\n\nMergy attack. IF successful and\n\n(\n\nyou cle\n\ned Toku-Waza, your\n\nOpponent must pass in his next\n\nattack phase. Remove from the\n\ngame after use,\n\n_ =.\n\nWot 4,\n\na \u201cMy attack will finish\n\nFoconed\n\nAnatroie i\n\nthis battle.\n\nee\n\nAe\n\ni i eco\n\nD8zerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: If you declared Tokui-Waza, your opponent must pass in their next Attack Phase. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 70,
+      "original_ocr": "a\n\nOrange Stare Down i\n\n_\n\n\u2018i\n\n~\n\n\u00a9\n\n)) Energy Combat\n\nI\n\nhy\n\nEnergy attack, IF you declared\n\nTokui-Waz\n\nremove an opponent's\n\nNon-Combat card or Ally in play\n\nfram the game.\n\nYau aren't going to try and\n\nna of 9\n\nstop 18 from her battle,\n\nEcono\n\nAngioid,\n\nare you?\n\nBal\n\net\n\nAPEER EE\n\ndat ni Rando soo\n\nDezerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared Tokui-Waza, banish an opponent's Setup, Drill, or Ally in play.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 71,
+      "original_ocr": "Orange Sword Slash\n\napie\n\nill\n\na\n\nSY\n\n\\\n\n\\ Yi\n\n\u2018G\n\n\\|\n\n&\n\nwe)\n\nsical Combat\n\n@ben\n\nlai\n\nDS ER\n\nan\n\nattack, If Successful and\n\nPhysic\n\nyou deciared Tokui-Waza, your\n\nOppanent rust discard all of his\n\nDrills in play.\n\n\u2014\n\nYou will not hurt my\n\nar\n\n\"2 of 5\n\nfathert\n\nrr\n\n\u20188zzorgamecon\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: If you declared Tokui-Waza, your opponent discards all their Drills in play.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 72,
+      "original_ocr": "eance Uppercut\n\n|\n\nti emmettle\n\n@\n\nEG\n\na\n\n|\n\nA\n\nKay\n\n\\y\n\ny\n\nces\n\nwo\n\nMQ\n\nG') Physical Combat\n\n=\n\nPOWER\n\na\n\nPhysical attack doing 4 pawer stages oF\n\ndamare. IF\n\ndeclared Tokui-Waza, you may\n\npay @ power stages to search your Life Deck\n\nfor an Energy Con\n\njat car\n\nw it to your\n\nopponent. and place it in yo\n\nid, Remave\n\nfi\n\nfrom the game after\n\nRoR\n\nTve met your type before.\n\n7 of\n\nhey always lose in the end.\n\nesate\n\nSn Lael densi Rite Ata Raed en Sos\n\nDezearigame com\n",
+      "crd_note": "Expanded CRD Restricted List adds Limit 1 per deck. Printed +4 modifies physical AT damage.",
+      "final_rules": "(Limit 1 per deck.) Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, you may pay 2 stages to search your Life Deck for an Energy Combat card, reveal it, and put it in your hand. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 73,
+      "original_ocr": "k\n\nRed Dueling Drill\n\neo\u201d\n\noo\n\nShi\n\nSS\n\nmy\n\nip\n\nof\n\n/\n\nv\n\nDS)\n\nJ\n\nad\n\nAf\n\nNe\n\nz\n\nAS\n\nea\n\nRe\n\nft\n\n\\\n\nNon-Combat\n\nWER\n\nYour opponents may not use\n\ntheir\n\ns during Combat while\n\nthis Drill is in play.\n\n\u2014\n\nYou aren't much of a\n\nTrunks\n\nchallenge.\n\noperas sie\n\ni niga Seen\n\nco\n\ncom\n",
+      "crd_note": "Expanded CRD specifies prohibited Ally uses. Original opponents-only scope and during-Combat timing retained.",
+      "final_rules": "During Combat, your opponents' Allies cannot take control, pay costs, use powers, or have damage redirected to them.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 74,
+      "original_ocr": "Red Hunting Drill\n\na\n\no-|\n\n<9\n\nwe AN\n\na2 ns\n\ncae\n\n(\n\nNon-Combat\n\nam\n\n\u2014\u2014\n\nP\n\n||\n\nOnc\n\ner Combat, after performing\n\na succe:\n\nsful physical attack, you\n\nmay choose | card in your discard\n\n| pile and shuffle it into your\n\nLife Deck.\n\nwy\n\nSZ\n\nNe\n\n% Weill find! Andiroict 20\".\n\naor\n\nWe have to.\n\nEcon\n\nul\n\n\"in\n\nI\n\nknees Ae eT\n\nii\n\nfee\n\nDBzergame\n",
+      "crd_note": "Expanded CRD replaces any card with 1 non-Red Style card.",
+      "final_rules": "Once per Combat, after your successful physical attack, you may choose 1 non-Red Style card in your discard pile and shuffle it into your Life Deck.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 75,
+      "original_ocr": "\u2014=\u2014e\u00ab\u2014\u20ac.\n\n\u2014\u2014_\u2014 \u2014\n\nDv\n\n>|\n\npl ae\n\nMi\n\nPEG\n\n\\ Da\n\nws\n\nie\n\nKQ@)) Phy\n\nal Combat\n\n~ve\n\niP\n\nPhysical attack doing +4 power\n\nstages of damage. IF you\n\ndeclared Tokui-Waza, raise your\n\nanger 1 level.\n\nWhen did you get so\n\na of\n\nun\n\ntoug)\n\n=i\n\n\u2018azearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +4 stages. If you declared Tokui-Waza, raise your anger 1 level.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 76,
+      "original_ocr": "Saiyan Flying Tackle\n\nill\n\nas\n\nTH\n\n7\n\nIN\n\nWe\n\nin\n\nDN\n\nWW\n\n=,\n\nSs\n\nae a\n\n>\n\nEK\n\n=a BT aetach dong 2 kar Hered\n\nof damage. if you declared Toku-Waza\n\nyou may ci\n\nard the top card from your\n\nLife Deck when this card is played ta do\n\n6 power stages of damage instead.\n\nROR\n\ni\n\nWeil tackle them one at\n\ncrise\n\na time.\n\ni\n\n== OG\n\nial sins asad er toe\n\nemecom\n",
+      "crd_note": "Printed +3 and +6 modify physical AT damage, not fixed damage.",
+      "final_rules": "Physical attack. DAMAGE: AT +3 stages. If you declared Tokui-Waza, when you play this card you may discard the top card of your Life Deck to deal AT +6 stages instead.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 77,
+      "original_ocr": "Somroa\n\nSZEY\n\nA Ss\n\nPZ\n\n77\n\nVA\n\n=\n\nras\n\na\n\n@) Energy Combat\n\nSeip\n\nStops an energy attack. IF the\n\nbottom cerd of your discard pale\n\niS a Saiyan Style card, your\n\nQgponent's Main Personality lases 4\n\npower stages. to a minimum of O.\n\nYour bor\n\njad mast\n\n120\n\nFir\n\n\u2018er to omit\n\nFro\n\njour mem\n\nbank\n\ncence\n\nne\n\not\n\npeerreiren\n\narigame son\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Stops an energy attack. If the bottom card of your discard pile is Saiyan Style, your opponent's MP loses 4 stages, to a minimum of 0.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 78,
+      "original_ocr": "=m,\n\ns\n\n=\n\n&\n\naT\n\n~\n\nLf)\n\nBp\n\nGh\n\nAC\n\nV;\n\n\u2014_\u2014\n\nica\n\nCombat\n\n5 Phys\n\nOE\n\nY/\n\nER\n\nPhysical attack. If successful and\n\nyou deci\n\n@d Tokui-Waza. discard\n\nup to 2 oF your o\n\nnent\u2019s\n\nNon-Combat cards or Allies\n\nin play.\n\n\u2014\n\n\u2014\u2014\n\nImagine loosing its head a\n\nacer:\n\n14 of 19\n\naver me.\n\n=\n\nreef hacia Scns Rie et Abyss Racand cme Seen\n\nD8zearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: If you declared Tokui-Waza, discard up to 2 of your opponent's Setups, Drills, or Allies in play.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 79,
+      "original_ocr": "ounce oe\n\n%\n\nwe\n\n.)\n\nry\n\nWl\n\n\u2018y\n\ne\n\n4\n\nae)\n\nyy i hy sic: aI Combat\n\nCaine\n\nPhysical attack. If successful\n\nand you declared Tokui-Waza.\n\nthis attack does +4 life cards\n\nof darnage and raises your\n\nanger | level\n\n16 of\n\n19\n\nToo bad for youl\n\n=\n\nre beet ees\n\na i\n\nSerres\n\n8zerigame com\n",
+      "crd_note": "Printed +4 life cards is added to ordinary physical AT damage; Tokui-Waza and successful-attack condition retained.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. HIT: If you declared Tokui-Waza, deal +4 life cards and raise your anger 1 level.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 80,
+      "original_ocr": "\u2018Saiyan Wrist Block\n\nSil\n\nser\n\n\u2014\n\npa\n\nLZ)\n\n4\n\n<Sisy\n\nEy\n\nNS\n\nLe\n\n\\/\n\nNY\n\nNK\n\nTy\n\nq\n\n})\n\n) aay\n\nPhysical Combat\n\nPOWER 4\n\nStops a physi\n\nHattack. If you\n\ndeclarer\n\nkul-Waza, your\n\nopponent's Main Personality\n\nlases 3 power stages.\n\nThis is a block | know\n\n1d of 13\n\nYou aren't going ta like.\n\nITE\n\nans iN\n\nined oe\n\n\u2018Dezcarigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Stops a physical attack. If you declared Tokui-Waza, your opponent's MP loses 3 stages.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 81,
+      "original_ocr": "Saiyan Destiny\n\ncat\n\n-\n\nill\n\nQe:\n\nAs\n\nyy\n\ncy \u2014\n\n=\n\n\\ @ Physical Combat\n\nr\n\n2\n\nW/E\n\nny\n\ntack. If you declared\n\nPhy\n\nTokui-Waza this attack does \u00ab3 power\n\nstages of d\n\nmage and remains in play\n\nto be used | more time this Combat\n\nRemove from the game after use.\n\na)\n\nww\n\nNobody kil Kat\n\n\u2018ot\n\nhie Tm\n\n1\n\n19\n\naround. Destiny has reserved\n\nthat ples\n\nsure fox me.\n\n=.\n\nten ty\n\nns Ai Bland ee Se\n\nezine com\n",
+      "crd_note": "One additional use is conditional on Tokui-Waza; banishment follows original remain-in-play timing.",
+      "final_rules": "Physical attack. DAMAGE: AT stages. If you declared Tokui-Waza, deal +3 stages and this card remains in play for 1 more use this Combat. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 82,
+      "original_ocr": "Senzu Effect\n\neras\n\ne+\n\nie\n\n1d\n\nwa\n\nit\n\n\u00e9\n\ncy\n\nCa\n\nY\n\n-&\n\naod i |\n\nyA\n\n| )\n\niP WER\n\nFees con ven Percent eee\n\nall of your Allies to their highest\n\npower stage. Use when needed.\n\nLimit 1 per deck. Remove from\n\nthe game after use.\n\nRoa \u00ae\n\na looks Ik\n\nmn\n\n7 of a\n\npr\n\nty\n\n\u2018shape\n\nlave\n\n\u2018ksi\n\nof these sm.\n\nbeans,\n\nos\n\nni\n\noe\n\ntf\n\ncrane com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "(Limit 1 per deck.) POWER: Use when needed. Raise your MP and all your Allies to their highest stage. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 83,
+      "original_ocr": "4 Straining Energy Blast Move (=) oh |\n\nsae\n\nTae\n\n\u2014\u2014\n\nat\n\n|\n\npe\n\nG\n\n2)\n\nzg\n\n\u2018mi\n\nMd\n\nraat\n\n| @ ET\n\nCombat\n\nme WER\n\nhay\n\nEnergy attack doing 5 life cards\n\nof darr\n\ne. Your opponent ciraws\n\na card.\n\nAOR\n\nae\n\nTwill clear the area of\n\nAnceoid,\n\nTot tt\n\ninhabitants.\n\nporter\n\nLtn tai Alin Ain Neel eee\n\nDezerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Your opponent draws a card.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 84,
+      "original_ocr": "noe\n\nE Straining Jump Kick Move\n\ncame\n\nmeas\n\n@=\n\nWV\n\nae\n\n@ Physical Combat\n\nPOWER\n\nAy\n\nPhysicat\n\ntack daing 7 life cards\n\nof dames\n\nye. Costs 2 power\n\nstages to perform. IF successful,\n\nraise your opponent's\n\nanger 6 levels\n\n\u2018ait\n\nROR\n\na\n\nAll right, let's stop\n\nOf AL\n\nAnco it\n\nplaying games.\n\nparted\n\nRee inset\n\niat\n\nigs lanl ot too\n\nezine com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack costing 2 stages. DAMAGE: 7 life cards. HIT: Raise your opponent's anger 6 levels.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 85,
+      "original_ocr": "eee\n\nYY,\n\nGO;\n\nHAN\n\n\\\n\nSS\n\nNY\n\nid\n\nMS\n\nWW\n\n6) LeLTT ED Le TE Combat\n\nWir\n\nPhysi\n\nfactaste doing +6 power\n\nstages of damage. Lower your\n\nanger 1 level.\n\nRA\n\nYou're going to get a\n\nsof 19\n\na\n\nkick out of this.\n\nsn aed er\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Physical attack. DAMAGE: AT +6 stages. Lower your anger 1 level.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 86,
+      "original_ocr": "Tien\u2019s\u2019 Mental Con\n\nieee re\n\nning 1)\n\n77\n\nCBS |\n\ni\n\n_\n\n6) Misa Eds\n\nPow!\n\nUse when entering Combat, Raise your\n\nanger | lev:\n\nRaise your Main Personality\n\nto his highest pawer stage. Draw the\n\nbottom card from your discard pile\n\nRemove from the game after use.\n\nRA\n\nW\n\n2 ber\n\n7 training For\n\nut\n\nrs, IF we aren't ready\n\nThen\n\ni\n\nwe ever will be.\n\nRST ln cela Uni\n\nil mor seee\n\nezine com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "POWER: Use when entering Combat. Raise your anger 1 level. Raise your MP to its highest stage. Draw the bottom card of your discard pile. Banish after use.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 87,
+      "original_ocr": "p lien\u2019s\u2019 Solar Flare\n\niam\n\ne\n\nOre\n\nA\n\nA\n\nyi\n\n\\\n\n)) Eneroy Combat\n\n\u00bb\n\nv\n\naw\n\n\"Energy attack.\n\nIf successful. end Combat.\n\naor\n\n% I'm using muy solar flare,\n\nTie\n\nits our only chancel\n\ninl\n\nBem Lindley ent a\n\nerecta\n\nezine com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: End Combat.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 88,
+      "original_ocr": "fb Unexpected Company\n\nCail\n\ni\n\nls\n\nse\n\neo\n\n{\n\nrear\n\nF ip en\n\nae\n\n@ Non-Com\n\n-Combat\n\nPOWER\n\nSearch your Life Deck for 2 Allies\n\nand place them in play at 5 power\n\nstages above 0.\n\nROA\n\ndof\n\nWe must find Android\n\n20. wherever he's hiding. lel\n\nParris:\n\nA\n\nit\n\nBat ai\n\n\u2018azerigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "POWER: Search your Life Deck for 2 Allies and put them in play at 5 stages above 0.",
+      "rarity_stars": 3
+    },
+    {
+      "number": 89,
+      "original_ocr": "oa\n\nve\n\n\\\\\n\nAi\n\nN\u00b0\n\ni:\n\n4.\n\n\\\n\n\u20183\n\nae\n\nyA.\n\n\u2014\u2014$\u2014$<$\u2014$\u2014\u2014$\u2014\u2014\u2014\n\n) Com\n\nMint meae\n\nWER\n\nViliains any. Choose | oppo-\n\nnent anc remove all of his Drills\n\nin play from the game. Limit 1 per\n\ndeck. Remave fram the game\n\nafter use.\n\nmM\n\n9.\n\nNone of you are really\n\nae\n\nAnaroid 122\n\nstrong \u20ac\n\nough to fight Us.\n\n=\n\nheen\n\nBienes iy\n\nPenerreniteen\n\n8zearigame com\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "(Limit 1 per deck.) Villains only. POWER: Choose 1 opponent and banish all their Drills in play. Banish after use.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 90,
+      "original_ocr": "Android 18\u2019s Stare Down\n\nscrssaemesinan\n\nSais\n\n@+)\n\nwy\n\nA\n\n~,\n\n@\n\nas\n\nG\n\nRy\n\nip\n\n4.\n\n\\\n\nft\n\nts\n\n\\ |\n\nWi\n\n@ Combat\n\nPOWER\n\nty\n\nViliains only. Look at your\n\nopponent's hancl and choose a\n\nard. Your opponent discards\n\nthat carcl.\n\nRea\n\n> il\n\nae\n\nVegeta, iF you want to fight.\n\nAnes i\n\ndof 1\n\nthen it's fine with me.\n\ncess\n\nSebamed Rasa\n\nised atone\n\n8zcarigame com\n",
+      "crd_note": "Expanded CRD: can affect Dragon Balls. Shared deck limit with Menacing Evil retained in metadata.",
+      "final_rules": "Villains only. POWER: Look at your opponent's hand and choose a card. Your opponent discards that card.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 91,
+      "original_ocr": "Distress\n\nAndroid 19's\"\n\nape ae\n\nill\n\n(I\n\nKes\n\nys\n\nnN\n\nyy.\n\n\\i\n\n\\\n\ne\n\nNY,\n\n\u201cfy\n\nw\n\n=\n\n\\ G') Non-Combat\n\nPOWER\n\nVili\n\n1s |nly. Raise your Main\n\nPersonal\n\ny to its highest power\n\nstage. Place the bottom 4 cards\n\nfrom your ciscard pile at the bottom\n\nof your Life Deck. Remove from\n\nthe game after use.\n\ni)\n\naot 14,\n\nOh not Haw can this be?\n\nZs\n\nAnarond,\n\nSLE\n\nies lis\n\nial ign\n\nore\n\nseme\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Villains only. POWER: Raise your MP to its highest stage. Put the bottom 4 cards of your discard pile on the bottom of your Life Deck. Banish after use.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 92,
+      "original_ocr": "=\n\nXY\n\nes\n\nmay\n\n-\n\n\u2018se\n\nBat\n\nground\n\n(E\n\nAveo )\n\nON7E!\n\nlon-Combat cards may not be used.\n\nSd Sn Ys loan es\n\nsy FUEMATON Ai Rip eed Ee\n\nez\n",
+      "crd_note": "Broad Non-Combat restriction becomes Setups and Drills.",
+      "final_rules": "Setups and Drills cannot be used.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 93,
+      "original_ocr": "E Wi inter, Country side\n\nBerry\n\n@=\n\n== |\n\nwe\n\n\u2014\u2014\u2014\n\naR\n\noa\n\nLocation\n\nPF tsa as)\n\nPONER Any cards or effects that raise a Main\n\nPersonality\u2019s anger more than | anger level aniy raises his\n\nfnger Level\n\nact\n\net\n\ndahon To oan Uc FONMATEN Ai Riga ered Ct Fw\n\n\u2018azzorgamecon\n",
+      "crd_note": "Expanded CRD: gain capped at 1 per card per turn, including repeated uses; resets at end of turn.",
+      "final_rules": "Cards and effects can raise a player's anger by only 1 level. Each card can raise that player's anger only once per turn.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 94,
+      "original_ocr": "Kar\n\n= Floating\n\nIsland\n\nQu\n\nThey\n\nTe)\n\nWi\n\nTa ay\n\na\n\nLocation\n\nae\n\n\u2014\n\nPow) EK When entering Combat, draw a card.\n\nhs\n\nFi To he\n\n{ATION Hi tis eed EF\n\nscore\n\ncon\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "When entering Combat, draw a card.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 95,
+      "original_ocr": "a F Defenseless Beach\n\neth Mersenicaek\n\nex\n\n\u2014\n\n\\\n\n|.\n\n\u2122~\n\naya\n\nq\n\nae\n\n1\n\nE\n\n\\\n\neS\n\naR\n\nBAe\n\noe\n\nOe\n\n4\n\n2a, on\n\nt~ \u00a2\n\n~\n\n|\n\n+\n\n\u201ca\n\n=\u00a2\n\n=\n\nst\n\nvo\n\n2:\n\nBattleground\n\na\n\nPOWER Each piayer has his Main Personalty's PUR\n\nFeduced by 1\n\nPies\n\nCARA fo oon Uc FONATN Ki Rigas ured EY\n\nzen\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Each player's MP has its PUR reduced by 1.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 96,
+      "original_ocr": "Qs\n\nry\n\nS\n\nSe\n\nBattleground\n\n9 a\n\nONVER Wires\n\ner a non-Draqon Bal card qoes to its\n\nowner's discard pile, it is removed from the game instead.\n\ni\n\nional soar Vomad by FONMATN Alia Raed Ch Set\n\nze\n",
+      "crd_note": "Original printed mechanics retained; no card-specific entry in supplied Expanded CRD.",
+      "final_rules": "Whenever a non-Dragon Ball card would go to its owner's discard pile, banish it instead.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 97,
+      "original_ocr": ") Black Mischievous\u2019 Drill\n\nB\n\n@\u00ab\n\npl\n\nSs,\n\ni\n\nCS\n\n\u2014\n\nyr\n\nnt\n\n(\u00a2\n\nY),.)\n\n\u2018AN\n\nfr\n\n~\n\nSe\n\n@ Non-Combat\n\n\u2014\u2014\u2014 \u2014\n\nar\n\ni\n\nPOW\n\n2\n\n(ees\n\nfered a kul Waza, whenever your oppor\n\nplaces 1 pk\n\n@ Non-Corrbet card ypu rmey disor thes\n\ntoremove thet Nor\n\ntop Scar fron your\n\nmike\n\ncard fr\n\nP CATE.\n\nYour opponent may not Use\n\np that Nov\n\nabet\n\nLint | per eck\n\n\u201c|\n\nIi\n\nYou can walt as long as you!\n\n7 of 19\n\nWe\n\nwant. BL\n\nremember the\n\nPicco.\n\nclock is\n\nicking,\n\nfa\n\ndese\n\ni Nis cosa\n\ncarkgame com\n",
+      "crd_note": "Broad Non-Combat references become Setups and Drills; opponent cannot use affected card before banishment.",
+      "final_rules": "(Limit 1 per deck.) If you declared Tokui-Waza, whenever your opponent puts a Setup or Drill in play, you may discard the top 5 cards of your Life Deck to banish it. Your opponent cannot use that card.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 98,
+      "original_ocr": "Black\n\nScout Maneuver\n\nSrovaien tere\n\n\u00a9\n\nail]\n\n\u2014?\n\nRZ\n\n_\n\n@) Combat\n\n=\n\nr OW ER\n\n5\n\ni\n\nName ar\n\nCombat, Physical Combat, or\n\nEnergy Cor\n\nCard. All of your opponents:\n\nmust search their Life Decks for al\n\nies of\n\nthat card and remave them from the game\n\nRemave from the game after use.\n\nAL\n\n18. chi\n\nout, Laoks Ike\n\n6 of 9\n\nwe\n\nfound\n\naT\n\nwheel\n\nAndroid 12\n\naero\n\neae\n\nss\n\nren\n\nbcc\n",
+      "crd_note": "Legacy standalone Combat type becomes Event. Physical Combat and Energy Combat remain separate types.",
+      "final_rules": "POWER: Name an Event, Physical Combat, or Energy Combat card. All opponents search their Life Decks for every copy of that card and banish them. Banish after use.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 99,
+      "original_ocr": "} Blue Terror\n\n\u201c\u2014\n\nil\n\n\u2014\u2014\u2014\n\n\\w,\n\n\u2014W\n\nVLG,\n\n\u2018G\n\nVe\n\n[ee\n\n\u00a9 Enero Combat\n\n? DYER\n\na\n\nEnergy attack tong 3 Ife cards of\n\ndamage. if you declared Toku-Waza.\n\nsearch your Life Deck for any 1 card\n\nand place it in your hand. Remove\n\nfrom the game after use.\n\nRA\n\nThose\n\nwo could hen\n\na\n\na\n\nsquashed all of us like\n\nTie\n\nbugs!\n\nSoom\n\nst\n\npeer ieeen\n\nazerigame com\n",
+      "crd_note": "Expanded CRD Restricted List adds Limit 1 per deck.",
+      "final_rules": "(Limit 1 per deck.) Energy attack costing 2 stages. DAMAGE: 3 life cards. If you declared Tokui-Waza, search your Life Deck for any 1 card and put it in your hand. Banish after use.",
+      "rarity_stars": 5
+    },
+    {
+      "number": 100,
+      "original_ocr": "Goku's* Heart Disease\n\ne+\n\nEy\n\nyes\n\na\n\nse\n\n\u2014<\n\n=?\n\n\u2014\n\n\u2014\n\n@)) Won-Combat\n\ney,\n\nPT\n\nER\n\nPace this cord on dur opponent's Man\n\nPersonality, Vi\n\n\u2018Opponent lowers his anger to 0\n\nand he may not raise his anger level unti he\n\nplaces an Ally\n\n1 Osc\n\nthis card when your\n\nopponent place\n\nn Aly in\n\n3y. Lint I\n\ndeck,\n\nA Remave from th\n\nyarre after use\n\n\u2014\n\nie\n\nore\n\nOh, Goku. please get better\n\nrice\n\nWe all need you so much,\n\nGaronne eee\n\nree\n\nite\n\nDBzcargame\n",
+      "crd_note": "Expanded CRD removes Remove from the game after use; attachment, anger lock, Ally release and Limit 1 retained.",
+      "final_rules": "(Limit 1 per deck.) POWER: Attach to your opponent's MP. Lower their anger to 0. They cannot raise their anger until they put an Ally in play. Discard this card when they put an Ally in play.",
+      "rarity_stars": 5
+    }
+  ]
+}

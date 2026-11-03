@@ -1,0 +1,193 @@
+{
+  "number": 92,
+  "id": "android-092-city-in-turmoil",
+  "name": "City in Turmoil",
+  "family": "BATTLEGROUND",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-092-city-in-turmoil.svg",
+  "native_source_sha256": "11abc1d375bdf1327c9c0caf71b33fcb2fee647dd5e3ac190d200ee8050ad7ab",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e04e6ebb4874fbac64ca30d095412f391d87eae7d62cea0b580ff276dd2a80e9.png",
+      "sha256": "e04e6ebb4874fbac64ca30d095412f391d87eae7d62cea0b580ff276dd2a80e9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "8f09491b762c17d5e85c1bdb4655b77de3c07ae2cf4bd9dd3361a91cc3dc7126"
+  },
+  "rules": [
+    {
+      "text": "Setups and Drills cannot be used.",
+      "baseline": 845.483333333333,
+      "width": 654.3777500000001,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        527.875,
+        44.5,
+        427.249,
+        69.0
+      ],
+      "card-category": [
+        499.578,
+        668.057,
+        483.844,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        252.282,
+        946.669,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        1135.22,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1195.02,
+        968.646,
+        42.665,
+        33.708
+      ],
+      "rules-line-1": [
+        482.012,
+        809.713,
+        585.893,
+        44.884
+      ],
+      "power-icon": [
+        415.095,
+        816.543,
+        53.5938,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          415.095,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          482.012,
+          810.791,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          415.095,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.00010000000008858478,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-092-city-in-turmoil.webp",
+      "before_url": "/assets/cards/android-092-city-in-turmoil.webp?v=012fce129e6f",
+      "before_sha256": "012fce129e6f19834393f359e0af31d1c9114b08cc96331f09cffae599174270",
+      "after_sha256": "52f0e1deab36dc236593141864d10938bf22a733d5352e6126e2bce8f8a198fc",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-092-city-in-turmoil.webp",
+      "before_url": "/assets/cards/downloads/android-092-city-in-turmoil.webp?v=738356eefd09",
+      "before_sha256": "738356eefd0941a001d99afa7c032ffe28667498c8c1463a60920ec372dfd8ac",
+      "after_sha256": "3a4e2ecd3a07134dc901ef0fdbf9e12ea066a380940313b34da35e0328f6c6bd",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      296.55,
+      985.5
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "number": 64,
+  "id": "android-064-namekian-forearm-smash",
+  "name": "Namekian Forearm Smash",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-064-namekian-forearm-smash.svg",
+  "native_source_sha256": "d03f23e7a8138c87ea219798f572841888613a8089feb7a4343e90f9bbd67a27",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7a2f08249de59b2bf96044a9a7d226818b2e5235f300df6565f1b394e6902e31.png",
+      "sha256": "7a2f08249de59b2bf96044a9a7d226818b2e5235f300df6565f1b394e6902e31"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c916d04f6c3b58331a44fdf65ee607f53b6311d2c788e1d06d4c2a63c8800688"
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 640.1941555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards. If you declared Tokui-Waza,",
+      "baseline": 1108.3,
+      "width": 881.5100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "put the top card of your discard pile",
+      "baseline": 1167.3,
+      "width": 637.147,
+      "icon_inline": false
+    },
+    {
+      "text": "on the bottom of your Life Deck.",
+      "baseline": 1226.3,
+      "width": 569.4780000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        51.1708,
+        760.0,
+        55.6585
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.454,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.254,
+        1392.65,
+        45.792,
+        33.708
+      ],
+      "rules-line-1": [
+        264.733,
+        1013.53,
+        584.08,
+        45.913
+      ],
+      "power-icon": [
+        210.187,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        90.643,
+        1072.53,
+        877.714,
+        45.521
+      ],
+      "rules-line-3": [
+        212.592,
+        1131.53,
+        633.815,
+        45.521
+      ],
+      "rules-line-4": [
+        246.304,
+        1190.53,
+        566.391,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          210.187,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          264.733,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          210.187,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-064-namekian-forearm-smash.webp",
+      "before_url": "/assets/cards/android-064-namekian-forearm-smash.webp?v=99ad81723c2f",
+      "before_sha256": "99ad81723c2fa09b7b2de315ec715d5b9df453a97a1de10b251ad3c1900b18a3",
+      "after_sha256": "1354b78e1c4a5222c8c968301e7e1dc5974fe7a8a6feb185444204b3925fedbc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-064-namekian-forearm-smash.webp",
+      "before_url": "/assets/cards/downloads/android-064-namekian-forearm-smash.webp?v=872c429fe26c",
+      "before_sha256": "872c429fe26c08051e82a48871813a9ec3f1baedcb9a7756a227e48f9e22e779",
+      "after_sha256": "01bcdbd3011fbc8a7dfed54e66bc1f7d39aeb742e64eba0eed16b1e5e2a51f13",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.19649698960043,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 760.0,
+      "visible_height": 55.658456486042695,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9670085592124571
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "number": 89,
+  "id": "android-089-android-17-smirks",
+  "name": "Android 17 Smirks",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-089-android-17-smirks.svg",
+  "native_source_sha256": "f1c8b2e16ec3cd5139ccabe39fc1cf1765846b7b092b33426d01b5fed1d9da53",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a40eecc668ca8bbc63f94b717d3bdec9a660369c6dfc70227eb5581864f3a0d6.png",
+      "sha256": "a40eecc668ca8bbc63f94b717d3bdec9a660369c6dfc70227eb5581864f3a0d6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "88ba34775f2cabf10690cf9cdbe91d748b563dd4f63a7419fe81c27465c6041f"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Villains only.",
+      "baseline": 1049.3,
+      "width": 554.876,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: Choose 1 opponent and banish",
+      "baseline": 1108.3,
+      "width": 680.7570000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "all their Drills in play. Banish after use.",
+      "baseline": 1167.3,
+      "width": 685.951,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        263.265,
+        50.2213,
+        532.47,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.435,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.235,
+        1392.65,
+        43.831,
+        33.708
+      ],
+      "rules-line-1": [
+        252.871,
+        1012.11,
+        553.259,
+        46.942
+      ],
+      "rules-line-2": [
+        191.008,
+        1072.53,
+        676.984,
+        44.884
+      ],
+      "rules-line-3": [
+        187.872,
+        1131.53,
+        683.256,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-089-android-17-smirks.webp",
+      "before_url": "/assets/cards/android-089-android-17-smirks.webp?v=37af7241d1b7",
+      "before_sha256": "37af7241d1b74fab5fd9a0d454a3a21c66820615bec389b7238b120689ed21a8",
+      "after_sha256": "805d295d317a5dd1c1886f8ca1a6ed015f86fb135b9dd88056e7d79a0363861f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-089-android-17-smirks.webp",
+      "before_url": "/assets/cards/downloads/android-089-android-17-smirks.webp?v=3b4afa8b3c2c",
+      "before_sha256": "3b4afa8b3c2c53465777595bbfb5e1a8d8a583bee824b068f9a795129e7fb13f",
+      "after_sha256": "05c719c410fa8fe13f5f9d1ffaaf25926f5d1658728d987c1edb0aaf54cb283a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 532.4700748129677,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

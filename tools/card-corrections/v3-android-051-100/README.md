@@ -1,0 +1,9 @@
+# Android Saga 051–100 in V3
+
+Fifty native cards use the current V3 components. Cards 92–96 retain the approved landscape geometry; the other 45 use portrait geometry. The original scans establish three-star rarity for 51–88 and five stars for 89–100. Titles use uniform fitting, categories use the fixed native outlines, and mirrored footer groups retain the RR emblem and 12.2-unit rarity/number gap.
+
+`cards.json` preserves original OCR, CRD notes, final wording and explicit line breaks. `crd-review.json` records nine card-specific rulings, the restricted-list limits on 72/99, and Android 18’s shared deck limit. Blue Right Cross uses AT +1 stages; Saiyan Focus and Saiyan Wrist Block use Stops. Goku’s Heart Disease has no after-use banishment. Android 19’s Distress has no invented deck limit.
+
+`artwork-review.json` records individual comparisons and unresolved details in the small overprinted scans. Orange Aura Drill has a clipped clenched-teeth correction. Saiyan Flying Tackle retains the approved replacement, recovered from its full-resolution lossless card because the older archive still embeds the scan. The original artwork-only upload was unavailable. A tiny native ground continuation covers only the old badge overlap, and every character pixel remains protected. The extraction, limits and hashes are explicit in `source-provenance.json`.
+
+Sources: `../../card-templates/v3/android-051-100/`, with portable content-addressed raster assets. `build_android_051_100.py` accepts the retained editable archive and complete landscape-master directory. `verify_android_051_100.py` independently renders every source, compares both lossless exports pixel-for-pixel, measures title clearance and verifies that local changes stay inside their masks. `render-verification.json` is the resulting evidence; tests additionally check mechanics, anchors, stars, asset hashes and catalog URLs.

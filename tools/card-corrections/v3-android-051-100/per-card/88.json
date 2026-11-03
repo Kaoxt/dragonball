@@ -1,0 +1,182 @@
+{
+  "number": 88,
+  "id": "android-088-unexpected-company",
+  "name": "Unexpected Company",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-088-unexpected-company.svg",
+  "native_source_sha256": "9adf8f0cf8cf64a7d75635d51fbd93888f84ec3ac36d518110216c5945bd1aa5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4452272eef5727cb53a9b66af310aaab49ac864e77dd10dbd289c53278d28464.png",
+      "sha256": "4452272eef5727cb53a9b66af310aaab49ac864e77dd10dbd289c53278d28464"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "ef3a79294e92979d7166f21c0f79648df8108989e8e9e6acd145568a069e24a8"
+  },
+  "rules": [
+    {
+      "text": "POWER: Search your Life Deck for 2 Allies",
+      "baseline": 1049.3,
+      "width": 736.029,
+      "icon_inline": false
+    },
+    {
+      "text": "and put them in play at 5 stages above 0.",
+      "baseline": 1108.3,
+      "width": 728.1400000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        204.159,
+        44.5,
+        650.682,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        162.956,
+        1013.53,
+        733.089,
+        45.521
+      ],
+      "rules-line-2": [
+        166.777,
+        1072.53,
+        725.445,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-088-unexpected-company.webp",
+      "before_url": "/assets/cards/android-088-unexpected-company.webp?v=dccd3377a619",
+      "before_sha256": "dccd3377a619ff7e11b7d352240ae006ef4b8c3a45780355f507b11ffa165e3a",
+      "after_sha256": "b33814374f988f5dee418bee1e10d2b3ef42631a7f97093123d7e48a0da63aec",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-088-unexpected-company.webp",
+      "before_url": "/assets/cards/downloads/android-088-unexpected-company.webp?v=f628f1d13b65",
+      "before_sha256": "f628f1d13b65916280786527a9afa7e5e598556e3f5313a2a17a5fe3bcd69627",
+      "after_sha256": "5bebedac2294faafdddffdc62ca5c4e5b15bb51d6542e6a5b021046954244d66",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 650.6820448877806,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

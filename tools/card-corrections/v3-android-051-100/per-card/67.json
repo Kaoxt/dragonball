@@ -1,0 +1,242 @@
+{
+  "number": 67,
+  "id": "android-067-orange-energy-phasing-drill",
+  "name": "Orange Energy Phasing Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-067-orange-energy-phasing-drill.svg",
+  "native_source_sha256": "3d474bbbb954c182827c910130f3b18a9ce99dd9a170d5fa7d41ccaef63c21a9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/919e2c66d1d5a82335656c2f91445fe58f08cf329cc80de14284acd4827f96e2.png",
+      "sha256": "919e2c66d1d5a82335656c2f91445fe58f08cf329cc80de14284acd4827f96e2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "7b62d7e7e0dbb22ccf3cd8e45e3d4f6429dd1f7149fc860b58136eb9c88ba7e8"
+  },
+  "rules": [
+    {
+      "text": "When your energy attack becomes",
+      "baseline": 1049.3,
+      "width": 682.9447500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "successful, you may have it deal -2 life cards.",
+      "baseline": 1108.3,
+      "width": 815.066,
+      "icon_inline": false
+    },
+    {
+      "text": "If you do, banish 1 of your opponent's",
+      "baseline": 1167.3,
+      "width": 656.4530000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Setups or Drills in play during HIT effects.",
+      "baseline": 1226.3,
+      "width": 735.686,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        48.2879,
+        740.0,
+        61.4241
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.733,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.533,
+        1392.65,
+        41.234,
+        33.708
+      ],
+      "rules-line-1": [
+        255.018,
+        1015.0,
+        615.538,
+        44.443
+      ],
+      "power-icon": [
+        188.444,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        123.339,
+        1072.53,
+        812.322,
+        45.521
+      ],
+      "rules-line-3": [
+        202.768,
+        1131.53,
+        653.464,
+        45.521
+      ],
+      "rules-line-4": [
+        163.102,
+        1190.53,
+        732.795,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          188.444,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          255.018,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          188.444,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-067-orange-energy-phasing-drill.webp",
+      "before_url": "/assets/cards/android-067-orange-energy-phasing-drill.webp?v=4fd47327be90",
+      "before_sha256": "4fd47327be901c5677d05e03fee7a72c81fed062cecdf8383eedbd45609bf534",
+      "after_sha256": "daad2915ac217660d0e04bc1eeab13be132949493dda115348073bb704131e74",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-067-orange-energy-phasing-drill.webp",
+      "before_url": "/assets/cards/downloads/android-067-orange-energy-phasing-drill.webp?v=d318fba37043",
+      "before_sha256": "d318fba370436a24001b15a76a017ceca2cf325b2f6325cf9c8a148390fcc3d2",
+      "after_sha256": "3ef693fa2b6fe641c76e0a687b5005188f8d54d52a2b8c4add9f0430cfc16a6b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 76.58869799213413,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 61.424135789691576,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.890204866517269
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

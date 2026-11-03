@@ -16,7 +16,7 @@ const rows=json(base+'audit.json'),data=json(base+'cards.json');
 test('Android 1–50 use verified V3 sources and lossless exports in their original orientation',()=>{
  const checks=json(base+'render-verification.json');
  assert.deepEqual(rows.map(r=>r.number),Array.from({length:50},(_,i)=>i+1));assert.equal(checks.length,50);
- assert.deepEqual(catalog.filter(c=>c.set==='Android Saga'&&c.templateVersion===3).map(c=>Number(c.number)),Array.from({length:50},(_,i)=>i+1));
+ assert.deepEqual(catalog.filter(c=>c.set==='Android Saga'&&c.templateVersion===3&&Number(c.number)<=50).map(c=>Number(c.number)),Array.from({length:50},(_,i)=>i+1));
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   const land=[7,8,43,44].includes(r.number),cx=land?741.5:529.5,cy=land?985.5:1409.5;

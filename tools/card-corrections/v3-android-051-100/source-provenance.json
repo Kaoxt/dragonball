@@ -1,0 +1,29 @@
+{
+  "base_commit": "c57a1a67ece3400a2e5f871f676de8cf0b37fbeb",
+  "archives": [
+    {
+      "name": "Android-Saga-051-100-Editable-Sources.zip",
+      "sha256": "825d759da2dda8df85511c7ed63b4e0430894f9007114375cd0f1b324a33d343",
+      "library_file_id": "libfile_412e869b85e48191ab521164362459ce",
+      "version_id": "2"
+    }
+  ],
+  "landscape_master": "libfile_030ff70253888191af1adeee6dbb41d0",
+  "scan_provenance": "original-sources.json",
+  "current_crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "approved_android_76": {
+    "library_file_id": "libfile_1443815065448191be5cb490b591c85e",
+    "name": "Android-Saga-076-Saiyan-Flying-Tackle.png",
+    "sha256": "e110d6d2a52e44d68d6ddd43179bce13cd05ecce02a9572dd6bc5574f212ccdd",
+    "extraction_box": [
+      32,
+      290,
+      2086,
+      1716
+    ],
+    "extracted_path": "approved-artwork/076.png",
+    "extracted_sha256": "bdd105858debe668748032f9d071831f55539805c82d43e1b1cab2f51716cc24",
+    "source_archive_excluded": "The old #76 archive embeds the original scan, not the approved replacement.",
+    "limitation": "Original artwork-only upload could not be recovered. The visible illustration is extracted from the approved lossless full-card PNG; the old badge overlap is a small native ground continuation. No character is regenerated."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "number": 51,
+  "id": "android-051-black-searching-technique",
+  "name": "Black Searching Technique",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-051-black-searching-technique.svg",
+  "native_source_sha256": "ea185d6bd6958e6f948887eb02da34fab58dcfde02d89513e0a715385d7b00ed",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dd18cfd07a208bbfcb23326f4b947d9c4814f3686cbf4b6aed088c74c6bcb28b.png",
+      "sha256": "dd18cfd07a208bbfcb23326f4b947d9c4814f3686cbf4b6aed088c74c6bcb28b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "ba87274865392639f269dd4733c2aba13d39a268ccf6ecbeb32d35a7e333341f"
+  },
+  "rules": [
+    {
+      "text": "POWER: If you declared Tokui-Waza,",
+      "baseline": 1049.3,
+      "width": 644.203,
+      "icon_inline": false
+    },
+    {
+      "text": "search your opponent's Life Deck for 2",
+      "baseline": 1108.3,
+      "width": 685.706,
+      "icon_inline": false
+    },
+    {
+      "text": "non-Dragon Ball cards and banish them.",
+      "baseline": 1167.3,
+      "width": 708.7360000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1226.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        47.579,
+        740.0,
+        62.842
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        209.272,
+        1013.53,
+        640.456,
+        45.521
+      ],
+      "rules-line-2": [
+        187.651,
+        1072.53,
+        683.697,
+        45.521
+      ],
+      "rules-line-3": [
+        176.847,
+        1131.53,
+        705.306,
+        45.913
+      ],
+      "rules-line-4": [
+        380.589,
+        1190.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-051-black-searching-technique.webp",
+      "before_url": "/assets/cards/android-051-black-searching-technique.webp?v=a3faaa50b50f",
+      "before_sha256": "a3faaa50b50f4032ff095485a467f3ec26343ed87a4a6bfe652acdde749823d7",
+      "after_sha256": "4e2802298b4a58a479b38e2f9b7b2db854ba075a2ab0a4132a80f31171af28b8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-051-black-searching-technique.webp",
+      "before_url": "/assets/cards/downloads/android-051-black-searching-technique.webp?v=db229e8c78ae",
+      "before_sha256": "db229e8c78ae9ef886669ce7ffb7ca7c6dbbc745b47bd6e567b8185e13032af6",
+      "after_sha256": "bdd3fb0a993be9a8767f8eca9da9f42755635276fdb16f93bc33e60a2419c151",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 78.35662854722575,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 62.84201609487505,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9107538564474645
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

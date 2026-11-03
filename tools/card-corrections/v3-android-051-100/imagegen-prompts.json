@@ -1,0 +1,12 @@
+{
+  "65": {
+    "prompt": "Precise local artwork edit. Image 1 is the edit target: retain its entire 1504x1046 composition, camera, colors, hair, eye, nose, jaw, clothing and background exactly. Image 2 is the original expression reference only. Correct ONLY Vegeta's small mouth: in the original there is a narrow white sliver of clenched teeth at the diagonal lip edge, not sealed skin-colored lips. Restore that small teeth sliver and its dark outline in the existing target mouth position around x520–580, y550–640. Keep the stern expression, do not add a grin or open shouting mouth. No other changes, no lettering, no card frame. Output the target with only this small local correction.",
+    "selected": "localized-corrections/065.png",
+    "scope": "Native clip confines output to the clenched-teeth sliver."
+  },
+  "76": {
+    "prompt": "Precise local background repair. This is approved illustration artwork. Remove ONLY the small black curved card-badge fragment intruding from the bottom-left edge, approximately x45–300 in the lowest 50 pixels of this 2054x1426 image. Continue the adjacent golden rocky canyon ground naturally into that tiny area. Preserve Goku's entire body, all hands, face, hair, shoes, pose, framing, scale, coloring, and every other part of this image exactly. Do not regenerate the character or change the scene. Output the same image with only that bottom-left UI fragment replaced by continuous rocky terrain. No text, no symbols, no new objects.",
+    "result": "Generation rejected; no output used. Final tiny ground continuation is explicitly native vector geometry and preserves all character pixels."
+  },
+  "method": "built-in image generation"
+}

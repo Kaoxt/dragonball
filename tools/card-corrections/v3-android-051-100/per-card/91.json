@@ -1,0 +1,206 @@
+{
+  "number": 91,
+  "id": "android-091-android-19s-distress",
+  "name": "Android 19's Distress",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-091-android-19s-distress.svg",
+  "native_source_sha256": "b52c5901024b806ea4c74bf3c266f4e7893c6c554466db55294d9dda5a674310",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/56a97170dfddff068f5211e1e7257e06b0702c06f0f902fdc7fa25ee6c5c85b6.png",
+      "sha256": "56a97170dfddff068f5211e1e7257e06b0702c06f0f902fdc7fa25ee6c5c85b6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c6ad00d924a8db422ec785304c4d3e47f384a0c8e1d10e90bc8bb4be40449289"
+  },
+  "rules": [
+    {
+      "text": "Villains only. POWER: Raise your MP",
+      "baseline": 1049.3,
+      "width": 629.0129999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "to its highest stage. Put the bottom 4 cards",
+      "baseline": 1108.3,
+      "width": 769.545,
+      "icon_inline": false
+    },
+    {
+      "text": "of your discard pile on the bottom",
+      "baseline": 1167.3,
+      "width": 600.8380000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your Life Deck. Banish after use.",
+      "baseline": 1226.3,
+      "width": 623.623,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        213.838,
+        50.2213,
+        631.324,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.807,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.607,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        216.023,
+        1013.53,
+        626.955,
+        45.521
+      ],
+      "rules-line-2": [
+        145.463,
+        1072.53,
+        768.075,
+        45.913
+      ],
+      "rules-line-3": [
+        230.673,
+        1131.53,
+        597.653,
+        45.521
+      ],
+      "rules-line-4": [
+        219.232,
+        1190.53,
+        620.536,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-091-android-19s-distress.webp",
+      "before_url": "/assets/cards/android-091-android-19s-distress.webp?v=409874113cee",
+      "before_sha256": "409874113cee085c2e1ca1fffed4756f2655db0039a375cd01c2fcca5128b633",
+      "after_sha256": "209c790d0d10c6562dc892b2cafa04f2ec5d05bb1f16ab439d9d924b0f9aec54",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-091-android-19s-distress.webp",
+      "before_url": "/assets/cards/downloads/android-091-android-19s-distress.webp?v=5b947a88e6f5",
+      "before_sha256": "5b947a88e6f5ade20f305cb3003c67ec2f426f5cc100d7b9c061184e38e4e292",
+      "after_sha256": "975ffb2e6983ff458f365abf67783d4d3fc91b7d65cbe3c38cd027417d9c64fe",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 631.3241895261847,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

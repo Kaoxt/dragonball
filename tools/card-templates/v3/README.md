@@ -1,3 +1,7 @@
+## Android Saga 051–100 — November 3, 2026
+
+Android cards 51–100 now use current V3. Native sources are in `android-051-100/`, with evidence in `../../card-corrections/v3-android-051-100/`. Preserve three-star rarity for 51–88 and five stars for 89–100, the RR emblem, fixed native text and mirrored footer groups. Cards 92–96 use the approved landscape master. Preserve #65’s clipped clenched-teeth correction and #76’s approved replacement illustration, including its documented tiny native ground continuation where the old badge covered the recovered image. The old archive’s #76 scan is obsolete. Current CRD rulings and all unresolved original-scan details are retained per card. Later Android cards keep their existing versions.
+
 ## Android Saga 001–050
 
 `android-001-050/` contains fifty native sources with portable raster dependencies. Review and export evidence is in `../../card-corrections/v3-android-001-050/`. Use the approved horizontal master for Location/Battleground cards 7/8/43/44, following `references/landscape-v3.md`. Preserve one-star rarity for 1–36, three stars for 37–50, the retained RR set emblem, current fixed text, and mirrored footer groups. Local artwork repairs on 20/34/37/39 and the approved #38 correction remain separate layers. `build_android_001_050.py` composes the sources; `verify_android_001_050.py` independently renders and compares both lossless export sizes, title clearance and correction masks.

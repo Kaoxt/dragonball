@@ -1,0 +1,194 @@
+{
+  "number": 90,
+  "id": "android-090-android-18s-stare-down",
+  "name": "Android 18's Stare Down",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-090-android-18s-stare-down.svg",
+  "native_source_sha256": "5a29904cd7d85397d58e0962cacf4700e969e0f6f0095c48e4b8e43db176ede5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/aa7f3da21685f2038de28544728215adb346f3f62a8d95cee49203830aea9c6b.png",
+      "sha256": "aa7f3da21685f2038de28544728215adb346f3f62a8d95cee49203830aea9c6b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "990fd6b150b40ca73670fb9ef7379f2beeabf4917a4dfac4d1d332b40909df55"
+  },
+  "rules": [
+    {
+      "text": "Villains only. POWER: Look at",
+      "baseline": 1049.3,
+      "width": 514.5,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's hand and choose a card.",
+      "baseline": 1108.3,
+      "width": 728.777,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent discards that card.",
+      "baseline": 1167.3,
+      "width": 606.2280000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        165.142,
+        50.2213,
+        728.716,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        273.255,
+        1013.53,
+        512.491,
+        45.521
+      ],
+      "rules-line-2": [
+        166.214,
+        1074.0,
+        726.572,
+        44.051
+      ],
+      "rules-line-3": [
+        227.758,
+        1131.53,
+        603.484,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-090-android-18s-stare-down.webp",
+      "before_url": "/assets/cards/android-090-android-18s-stare-down.webp?v=8538726b0740",
+      "before_sha256": "8538726b0740b60e5a787154a2e66459edf727eb5f5cfdd938522c3a96786598",
+      "after_sha256": "552f99ab5ffa76643f1e88e2168a2117c3ca3a9463e70752e12b8252d3a5687d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-090-android-18s-stare-down.webp",
+      "before_url": "/assets/cards/downloads/android-090-android-18s-stare-down.webp?v=4057504dfd1d",
+      "before_sha256": "4057504dfd1d47c89a9cbe21a62f2f38edba0055778df3f8c8ce27abc78a24e2",
+      "after_sha256": "672fbc45bf39bc2f815b850fdb2c3b2c98357c06a9b52c29d4dd0d32af5895f5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 728.7157107231922,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

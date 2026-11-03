@@ -1,0 +1,230 @@
+{
+  "number": 73,
+  "id": "android-073-red-dueling-drill",
+  "name": "Red Dueling Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-073-red-dueling-drill.svg",
+  "native_source_sha256": "d39975d2a34a50cbce189f5db9016927a137f51bb1cb0ea6c7a315337ed00f74",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c6aca3b3b9076748155565618466b697564e7a8a87a39db6fbca20a2ce3b0815.png",
+      "sha256": "c6aca3b3b9076748155565618466b697564e7a8a87a39db6fbca20a2ce3b0815"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "1421c2972694fbd6ea86fd5da6033e973365d902f08c6de1d0409ba82303fbb0"
+  },
+  "rules": [
+    {
+      "text": "During Combat, your opponents' Allies",
+      "baseline": 1049.3,
+      "width": 737.57975,
+      "icon_inline": true
+    },
+    {
+      "text": "cannot take control, pay costs, use powers,",
+      "baseline": 1108.3,
+      "width": 775.6210000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "or have damage redirected to them.",
+      "baseline": 1167.3,
+      "width": 637.735,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        283.096,
+        44.5,
+        492.808,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        797.369,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.169,
+        1392.65,
+        39.962,
+        33.708
+      ],
+      "rules-line-1": [
+        228.876,
+        1013.53,
+        668.997,
+        45.913
+      ],
+      "power-icon": [
+        161.127,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        143.269,
+        1074.0,
+        772.462,
+        44.051
+      ],
+      "rules-line-3": [
+        212.176,
+        1131.53,
+        634.648,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          161.127,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          228.876,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          161.127,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-073-red-dueling-drill.webp",
+      "before_url": "/assets/cards/android-073-red-dueling-drill.webp?v=3f7cb9b6194f",
+      "before_sha256": "3f7cb9b6194fd914a2c4b6696f9399874e8440da009866c10979b9034a31272c",
+      "after_sha256": "8c2c77e74f1557cd8e425e18ad1d5b603957f5b1f2cd16ce656f63d418b860a3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-073-red-dueling-drill.webp",
+      "before_url": "/assets/cards/downloads/android-073-red-dueling-drill.webp?v=00ed1ec37189",
+      "before_sha256": "00ed1ec371898a887a6d4aca794c8eaf83766fda1756edddc0bd901f82e04376",
+      "after_sha256": "c819e5a505e55a4d14df54b96e1d68beae64d26362e3ad6eebef286ca93d71aa",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 492.80798004987537,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

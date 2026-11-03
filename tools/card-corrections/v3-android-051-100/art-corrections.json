@@ -1,0 +1,53 @@
+{
+  "65": {
+    "source_dimensions": [
+      1504,
+      1046
+    ],
+    "patch": "localized-corrections/065.png",
+    "clip": "M 512 603 L 509 592 L 546 535 Q 564 529 582 544 L 577 554 L 533 613 Z",
+    "reason": "Restore the narrow clenched-teeth sliver visible in the original; only the mouth edge is replaced."
+  },
+  "76": {
+    "source_dimensions": [
+      2054,
+      1426
+    ],
+    "clip": "M 50 1426 Q 165 1325 288 1426 Z",
+    "reason": "Native ground continuation confined to the old badge overlap at the bottom-left of the approved artwork extract; no character pixel is changed.",
+    "native_paths": [
+      {
+        "d": "M 40 1360 H300 V1430 H40 Z",
+        "fill": "#edb763"
+      },
+      {
+        "d": "M 40 1360 L135 1360 L147 1384 L130 1408 L103 1418 L82 1430 H40 Z",
+        "fill": "#b08150"
+      },
+      {
+        "d": "M 43 1391 L80 1382 L97 1400 L79 1419 L48 1429 Z",
+        "fill": "#785e4a"
+      },
+      {
+        "d": "M 139 1380 L147 1384 L138 1395 L134 1409 L119 1415 L130 1401 Z",
+        "fill": "#9f774c"
+      },
+      {
+        "d": "M 148 1384 L168 1390 L185 1388 L188 1393 L175 1398 L153 1395 L142 1399 Z",
+        "fill": "#e7ac5b"
+      },
+      {
+        "d": "M 91 1426 L117 1412 L131 1410 L129 1417 L144 1421 L140 1426 Z",
+        "fill": "#d99f53"
+      },
+      {
+        "d": "M 172 1426 L187 1414 L205 1411 L221 1415 L239 1418 L232 1423 L209 1421 L196 1426 Z",
+        "fill": "#dda458"
+      },
+      {
+        "d": "M 240 1396 L255 1405 L278 1417 L284 1426 L271 1426 L258 1418 L237 1411 L219 1408 Z",
+        "fill": "#efba64"
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "number": 97,
+  "id": "android-097-black-mischievous-drill",
+  "name": "Black Mischievous Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-097-black-mischievous-drill.svg",
+  "native_source_sha256": "8a0d29b6ab06522468bc616a8fc55762d7cc780b71be0393dd89085d736206f3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81ccc319136cdead87de5649abd587d8a5b4747e089c20ecf7a7091cfc09abf3.png",
+      "sha256": "81ccc319136cdead87de5649abd587d8a5b4747e089c20ecf7a7091cfc09abf3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "66977ea74f2a04b968114f13fb9507dc2841bdbd48873358261c34b480e23635"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) If you declared",
+      "baseline": 1049.3,
+      "width": 662.94775,
+      "icon_inline": true
+    },
+    {
+      "text": "Tokui-Waza, whenever your opponent puts",
+      "baseline": 1108.3,
+      "width": 761.0190000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a Setup or Drill in play, you may discard",
+      "baseline": 1167.3,
+      "width": 700.6510000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the top 5 cards of your Life Deck to banish it.",
+      "baseline": 1226.3,
+      "width": 798.0630000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent cannot use that card.",
+      "baseline": 1285.3,
+      "width": 648.613,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        180.026,
+        50.2213,
+        698.948,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.574,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.374,
+        1392.65,
+        41.552,
+        33.708
+      ],
+      "rules-line-1": [
+        198.982,
+        1012.11,
+        661.037,
+        46.942
+      ],
+      "power-icon": [
+        530.952,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        149.995,
+        1072.53,
+        759.01,
+        45.521
+      ],
+      "rules-line-3": [
+        180.669,
+        1131.53,
+        697.662,
+        45.521
+      ],
+      "rules-line-4": [
+        131.571,
+        1190.53,
+        795.858,
+        45.521
+      ],
+      "rules-line-5": [
+        206.565,
+        1251.0,
+        645.869,
+        43.414
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "I",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          530.952,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          598.701,
+          1015.0,
+          6.909,
+          34.3
+        ],
+        "new_visible_bounds": [
+          530.952,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-097-black-mischievous-drill.webp",
+      "before_url": "/assets/cards/android-097-black-mischievous-drill.webp?v=b5f84f365478",
+      "before_sha256": "b5f84f365478c45c025734f3a07db0096090c593321ec88daae0063b8ddbe9ab",
+      "after_sha256": "5295fc20af92dcd172cba710a5e051547b1b34f4ff73fa88459ac2e7ea7918b6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-097-black-mischievous-drill.webp",
+      "before_url": "/assets/cards/downloads/android-097-black-mischievous-drill.webp?v=ce352a7ad54d",
+      "before_sha256": "ce352a7ad54d15922614661657143a5530f75a394858a7206b6a5136650cdc67",
+      "after_sha256": "a53c275fb3917090480f973065be396210897f67b9427448f6cb1ac6b896c9ef",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 698.9476309226934,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "number": 53,
+  "id": "android-053-black-studying-drill",
+  "name": "Black Studying Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-053-black-studying-drill.svg",
+  "native_source_sha256": "372d1ee37c75ceae353dd61920a42e250ea14c11f2454e992d53e04f2ca14a5f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/474668fa7e076ecd282ec2f60232a9c1f9e0042da52ba1956fdd042726fc4b6f.png",
+      "sha256": "474668fa7e076ecd282ec2f60232a9c1f9e0042da52ba1956fdd042726fc4b6f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "e83ea2afde1746b390625955f033528939fd1a47db617484c1c7a903815031b4"
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, draw a card.",
+      "baseline": 1049.3,
+      "width": 711.4137499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "Then choose a card from your hand",
+      "baseline": 1108.3,
+      "width": 630.4340000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and put it on top of your Life Deck.",
+      "baseline": 1167.3,
+      "width": 611.373,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        236.981,
+        44.5,
+        585.037,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.256,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.056,
+        1392.65,
+        42.188,
+        33.708
+      ],
+      "rules-line-1": [
+        241.151,
+        1013.53,
+        643.272,
+        45.913
+      ],
+      "power-icon": [
+        174.577,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        215.802,
+        1073.85,
+        627.396,
+        44.2034
+      ],
+      "rules-line-3": [
+        225.161,
+        1131.53,
+        608.678,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          174.577,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          241.151,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          174.577,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-053-black-studying-drill.webp",
+      "before_url": "/assets/cards/android-053-black-studying-drill.webp?v=eaddb1b5b2be",
+      "before_sha256": "eaddb1b5b2be73adad59addf484b0f5a0ca1426bd4dfc2c0461e9c3f51faff6c",
+      "after_sha256": "39b1155829bc2347a0f95b7afdc46e9c8b690fa734afc414c7b556f1d8bd4b66",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-053-black-studying-drill.webp",
+      "before_url": "/assets/cards/downloads/android-053-black-studying-drill.webp?v=5e5d6c779e3f",
+      "before_sha256": "5e5d6c779e3f2b1aa48a4158fa6c25304b189c647fd8a8a19f685a0f83ad498b",
+      "after_sha256": "c413b2a3cdd54c7ee0a1dea370ea83044c9b8dda3b8ca4bb3414757c73bf680b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 585.0374064837906,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

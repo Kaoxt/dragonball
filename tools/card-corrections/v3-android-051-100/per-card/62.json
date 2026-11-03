@@ -1,0 +1,206 @@
+{
+  "number": 62,
+  "id": "android-062-namekian-finishing-effort",
+  "name": "Namekian Finishing Effort",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-062-namekian-finishing-effort.svg",
+  "native_source_sha256": "75ad0ae9ce346dd397bf35aeff4a34a86af24c030199dd75390669c5e12f8bd8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bd5e89a6742622b57a4fb3cc5964685ff64a888ad25968cb5572c085ef8f4bf1.png",
+      "sha256": "bd5e89a6742622b57a4fb3cc5964685ff64a888ad25968cb5572c085ef8f4bf1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "f6b98471ed17960deba6328054a35804d5bf887ba8968cf0e20008ef409543f9"
+  },
+  "rules": [
+    {
+      "text": "After taking damage from an opponent's attack,",
+      "baseline": 1049.3,
+      "width": 852.404,
+      "icon_inline": false
+    },
+    {
+      "text": "you may put this card in play from your hand.",
+      "baseline": 1108.3,
+      "width": 805.315,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: During your Attack Phase, your opponent",
+      "baseline": 1167.3,
+      "width": 874.552,
+      "icon_inline": false
+    },
+    {
+      "text": "discards the top 3 cards of their Life Deck.",
+      "baseline": 1226.3,
+      "width": 756.7070000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.1421,
+        740.0,
+        65.7159
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.177,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.976,
+        1392.65,
+        42.347,
+        33.708
+      ],
+      "rules-line-1": [
+        104.447,
+        1013.53,
+        850.106,
+        45.913
+      ],
+      "rules-line-2": [
+        127.945,
+        1072.53,
+        803.11,
+        45.521
+      ],
+      "rules-line-3": [
+        93.743,
+        1131.53,
+        871.514,
+        45.913
+      ],
+      "rules-line-4": [
+        152.69,
+        1190.53,
+        753.62,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-062-namekian-finishing-effort.webp",
+      "before_url": "/assets/cards/android-062-namekian-finishing-effort.webp?v=20a3df986292",
+      "before_sha256": "20a3df986292eeaca51f49e058467bd285a19cc8556e4f793a8fca3b0b22ba66",
+      "after_sha256": "c513d7e7e3fe63a83c5b912387e99655cc076fd77d66f494b4af22cb7b2417c3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-062-namekian-finishing-effort.webp",
+      "before_url": "/assets/cards/downloads/android-062-namekian-finishing-effort.webp?v=4cef551da58e",
+      "before_sha256": "4cef551da58ef0ed2a2e8a33c7b5871296b23662599ff1f385a983e19b532457",
+      "after_sha256": "cf4b7b2cb13324dbb8de888b15eff1e440c666e84265417238ed6d8061cfbe7a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 81.93998449784077,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 65.71586756726829,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9524038777864969
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

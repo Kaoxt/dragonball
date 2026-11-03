@@ -1,0 +1,218 @@
+{
+  "number": 80,
+  "id": "android-080-saiyan-wrist-block",
+  "name": "Saiyan Wrist Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-080-saiyan-wrist-block.svg",
+  "native_source_sha256": "b260187d6d23c45f16d067a039880bfecd388a23107091f9c58ccf9e5d46c05d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e691b310fb44b25e592b308c7d1f2bc6de69da0051b0a17d130f8abb1e299415.png",
+      "sha256": "e691b310fb44b25e592b308c7d1f2bc6de69da0051b0a17d130f8abb1e299415"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "9cd95754c4a75a6fca7fa5d560af015ba65136782f3bae3b9a0bc9c78cb300f9"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared",
+      "baseline": 1049.3,
+      "width": 750.8529473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Tokui-Waza, your opponent's MP loses 3 stages.",
+      "baseline": 1108.3,
+      "width": 850.6889999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        243.821,
+        44.5,
+        571.358,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.196,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.996,
+        1392.65,
+        44.308,
+        33.708
+      ],
+      "rules-line-1": [
+        205.696,
+        1013.53,
+        698.299,
+        45.521
+      ],
+      "power-icon": [
+        155.005,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        105.528,
+        1072.53,
+        847.945,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          205.696,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-080-saiyan-wrist-block.webp",
+      "before_url": "/assets/cards/android-080-saiyan-wrist-block.webp?v=e873976c7971",
+      "before_sha256": "e873976c7971303fb363a09ebb0b27238ca65a4396d1f16b1b2cea5249678c9d",
+      "after_sha256": "4385913496b1c4d96d132e7d932613792de58782e90d5d6aa9f53e7fab640c2e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-080-saiyan-wrist-block.webp",
+      "before_url": "/assets/cards/downloads/android-080-saiyan-wrist-block.webp?v=444c79456003",
+      "before_sha256": "444c7945600371db8e7ab7e084ab630e446c128e531e5d73992aafbef6286a00",
+      "after_sha256": "0d92a6c73483380acd694427ffa444f83265eeadca4325d24d39da8d51362705",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 571.3578553615961,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

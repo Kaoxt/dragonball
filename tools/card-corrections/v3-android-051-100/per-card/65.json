@@ -1,0 +1,242 @@
+{
+  "number": 65,
+  "id": "android-065-orange-aura-drill",
+  "name": "Orange Aura Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-065-orange-aura-drill.svg",
+  "native_source_sha256": "037d931176ff4e6dad7b9380d1406a3ebd11292e0999db5a3e4db22e260aeb9b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b7c4774af7a2ea4a597bda5ee43de30fe814c62e1ab0a5debede82c1ec564dc4.png",
+      "sha256": "b7c4774af7a2ea4a597bda5ee43de30fe814c62e1ab0a5debede82c1ec564dc4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1f65b14bc0ccbb201ced178b01a9bb7add55779bf31881076e03e42c0e3fcaa6.png",
+      "sha256": "1f65b14bc0ccbb201ced178b01a9bb7add55779bf31881076e03e42c0e3fcaa6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": {
+      "source_dimensions": [
+        1504,
+        1046
+      ],
+      "patch": "localized-corrections/065.png",
+      "clip": "M 512 603 L 509 592 L 546 535 Q 564 529 582 544 L 577 554 L 533 613 Z",
+      "reason": "Restore the narrow clenched-teeth sliver visible in the original; only the mouth edge is replaced."
+    },
+    "source_native_sha256": "07d5255931ce810248ec885c04c3c3df1851b0a3baf839f3da0600e525d0bdae"
+  },
+  "rules": [
+    {
+      "text": "Your energy attacks deal +1 life card.",
+      "baseline": 1049.3,
+      "width": 724.8887500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "If you declared Tokui-Waza,",
+      "baseline": 1108.3,
+      "width": 496.66400000000004,
+      "icon_inline": false
+    },
+    {
+      "text": "they deal +2 life cards instead.",
+      "baseline": 1167.3,
+      "width": 546.3990000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        276.385,
+        44.5,
+        506.229,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.514,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.314,
+        1392.65,
+        43.672,
+        33.708
+      ],
+      "rules-line-1": [
+        234.609,
+        1013.53,
+        656.551,
+        45.913
+      ],
+      "power-icon": [
+        167.84,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        283.066,
+        1072.53,
+        492.868,
+        45.521
+      ],
+      "rules-line-3": [
+        257.403,
+        1131.53,
+        544.194,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          167.84,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          234.609,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          167.84,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-065-orange-aura-drill.webp",
+      "before_url": "/assets/cards/android-065-orange-aura-drill.webp?v=d7e5598fc666",
+      "before_sha256": "d7e5598fc6665e9c328fbf0f207b7d785c6c4a2a45e952878087f6e2ce7bb1ad",
+      "after_sha256": "beb801c1c033a691e1b1f19303095575a51c2ddbd55da7c24ec95ef850908404",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-065-orange-aura-drill.webp",
+      "before_url": "/assets/cards/downloads/android-065-orange-aura-drill.webp?v=51a8a98a1bf5",
+      "before_sha256": "51a8a98a1bf5a8d3c9570235f8ca2d6f8c2a430987c19c38bb885f6becce2d85",
+      "after_sha256": "7e9374b4d93c271c985900eede0aa8f86dbe9422e2279331ec58f3e52c5ded42",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 506.2294264339153,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "number": 98,
+  "id": "android-098-black-scout-maneuver",
+  "name": "Black Scout Maneuver",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-098-black-scout-maneuver.svg",
+  "native_source_sha256": "d259d48ecb8e3ae019644fa545b6a4e0649900ebae6ff1dee8d50ee0a67091b0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d227724b5498063698ad351dc788efc88cd42ac343795fdb0d0420c51bd27045.png",
+      "sha256": "d227724b5498063698ad351dc788efc88cd42ac343795fdb0d0420c51bd27045"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "853b4ae3a54da64ca6c7ce808186bba739e315b2ada71d8877b8ef6b34b93f11"
+  },
+  "rules": [
+    {
+      "text": "POWER: Name an Event, Physical Combat,",
+      "baseline": 1049.3,
+      "width": 738.087,
+      "icon_inline": false
+    },
+    {
+      "text": "or Energy Combat card. All opponents search",
+      "baseline": 1108.3,
+      "width": 799.778,
+      "icon_inline": false
+    },
+    {
+      "text": "their Life Decks for every copy of that",
+      "baseline": 1167.3,
+      "width": 675.416,
+      "icon_inline": false
+    },
+    {
+      "text": "card and banish them. Banish after use.",
+      "baseline": 1226.3,
+      "width": 707.021,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        195.082,
+        50.2213,
+        668.835,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.249,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.049,
+        1392.65,
+        44.202,
+        33.708
+      ],
+      "rules-line-1": [
+        162.33,
+        1013.53,
+        734.34,
+        45.521
+      ],
+      "rules-line-2": [
+        131.203,
+        1073.61,
+        796.593,
+        44.835
+      ],
+      "rules-line-3": [
+        192.576,
+        1131.53,
+        673.848,
+        45.521
+      ],
+      "rules-line-4": [
+        177.533,
+        1190.53,
+        703.934,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-098-black-scout-maneuver.webp",
+      "before_url": "/assets/cards/android-098-black-scout-maneuver.webp?v=f84b2f2965b3",
+      "before_sha256": "f84b2f2965b317676fbfaee134d6045aa316abb2ffa93a03ec3db054f0430730",
+      "after_sha256": "daeee01cc137fde4f8c741483d731e41b3f3ccdcdb8410ddf183b49f547d06fc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-098-black-scout-maneuver.webp",
+      "before_url": "/assets/cards/downloads/android-098-black-scout-maneuver.webp?v=0f7e8d4fcea5",
+      "before_sha256": "0f7e8d4fcea50a8e5942eb2877ccda7086d0362cf4cc09a84ef5203594a7df78",
+      "after_sha256": "783bd7c3d0fa2ee361ff3cdc439b216824d380fc1bb822f4a370d18d081bada3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 668.8354114713218,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

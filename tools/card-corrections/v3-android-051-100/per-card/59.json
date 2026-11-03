@@ -1,0 +1,194 @@
+{
+  "number": 59,
+  "id": "android-059-bulmas-looking-good",
+  "name": "Bulma's Looking Good",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-059-bulmas-looking-good.svg",
+  "native_source_sha256": "7e6f102e74742fd99a4078eb69cd645e7e6e5867b0c7a9c9a5e6bf8e55b1f89d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cd440bc968c75d23757f7351ec1b3f57df933161c2fd58d3c094122eff6e9767.png",
+      "sha256": "cd440bc968c75d23757f7351ec1b3f57df933161c2fd58d3c094122eff6e9767"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "7deb06e22c4b7a39c42b3d78487b796c70d4e046dd2b766c2ab4a66868178a91"
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when entering Combat.",
+      "baseline": 1049.3,
+      "width": 632.4920000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent discards 1 random card",
+      "baseline": 1108.3,
+      "width": 682.9130000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from their hand.",
+      "baseline": 1167.3,
+      "width": 287.336,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        200.115,
+        44.5,
+        658.769,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.779,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.579,
+        1392.65,
+        43.142,
+        33.708
+      ],
+      "rules-line-1": [
+        215.091,
+        1013.53,
+        628.817,
+        45.913
+      ],
+      "rules-line-2": [
+        189.562,
+        1072.53,
+        679.875,
+        44.884
+      ],
+      "rules-line-3": [
+        387.057,
+        1131.53,
+        284.886,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-059-bulmas-looking-good.webp",
+      "before_url": "/assets/cards/android-059-bulmas-looking-good.webp?v=f5d317e15bf4",
+      "before_sha256": "f5d317e15bf4c8033ee9f6ec9358bd3bc58c0196ea9204816c94f73b215a01b8",
+      "after_sha256": "4330473005251cbc99e8baafb8798e4f102ac190d8bec4fceb1f2ac6bee78be1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-059-bulmas-looking-good.webp",
+      "before_url": "/assets/cards/downloads/android-059-bulmas-looking-good.webp?v=8e7c26eb2a27",
+      "before_sha256": "8e7c26eb2a27cf8e0188f12989688c9bdbe8620c5ecc24c732f6d26e1585df96",
+      "after_sha256": "589fa4c75e2048c2fb9ff652f753039f86d75b4316dd9e668185d7690d7acfaf",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 658.7693266832919,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

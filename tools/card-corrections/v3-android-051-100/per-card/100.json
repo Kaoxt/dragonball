@@ -1,0 +1,218 @@
+{
+  "number": 100,
+  "id": "android-100-gokus-heart-disease",
+  "name": "Goku's Heart Disease",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-100-gokus-heart-disease.svg",
+  "native_source_sha256": "9ec5ccffa72a5d20f9a3eabb44294100260c44363bab108fef6ea89847aac75a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7c559a219e1c98b40dad9270725808f6531daa60dff727f0c0a34844023859b6.png",
+      "sha256": "7c559a219e1c98b40dad9270725808f6531daa60dff727f0c0a34844023859b6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "ee0c40dac5e730926eb3288aaafa48fbe11356080f56cb71ac69db508ed4a5be"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.)",
+      "baseline": 1049.3,
+      "width": 320.019,
+      "icon_inline": false
+    },
+    {
+      "text": "POWER: Attach to your opponent's MP.",
+      "baseline": 1108.3,
+      "width": 675.7100000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower their anger to 0. They cannot raise",
+      "baseline": 1167.3,
+      "width": 733.971,
+      "icon_inline": false
+    },
+    {
+      "text": "their anger until they put an Ally in play.",
+      "baseline": 1226.3,
+      "width": 707.462,
+      "icon_inline": false
+    },
+    {
+      "text": "Discard this card when they put an Ally in play.",
+      "baseline": 1285.3,
+      "width": 829.6189999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        211.085,
+        50.2213,
+        636.83,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        786.928,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.728,
+        1392.65,
+        60.844,
+        33.708
+      ],
+      "rules-line-1": [
+        369.539,
+        1012.11,
+        319.921,
+        46.305
+      ],
+      "rules-line-2": [
+        193.482,
+        1073.61,
+        672.035,
+        44.443
+      ],
+      "rules-line-3": [
+        164.254,
+        1131.53,
+        730.492,
+        45.913
+      ],
+      "rules-line-4": [
+        176.872,
+        1190.53,
+        705.257,
+        45.913
+      ],
+      "rules-line-5": [
+        116.553,
+        1249.53,
+        825.895,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-100-gokus-heart-disease.webp",
+      "before_url": "/assets/cards/android-100-gokus-heart-disease.webp?v=0598a7c45849",
+      "before_sha256": "0598a7c458499bfdb856867ca5edaf432c119d45901880b7d37d23cb1621edde",
+      "after_sha256": "1c3b3ead0de5a8acb512e0b8dbe8abc854800d32980471939b3d1e6af28f83c1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-100-gokus-heart-disease.webp",
+      "before_url": "/assets/cards/downloads/android-100-gokus-heart-disease.webp?v=1fe86286619b",
+      "before_sha256": "1fe86286619b16ebf3c96c8f0c32af1ab5baaf7b3850809ebc4134ed544c661e",
+      "after_sha256": "506be6f3191e1c9e029ff13b0915d59bffce3224c136f82f3acc18e4399e4b48",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 636.8304239401497,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

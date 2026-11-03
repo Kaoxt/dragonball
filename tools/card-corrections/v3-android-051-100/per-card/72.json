@@ -1,0 +1,254 @@
+{
+  "number": 72,
+  "id": "android-072-orange-uppercut",
+  "name": "Orange Uppercut",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-072-orange-uppercut.svg",
+  "native_source_sha256": "0acb731438480a1e83e59993391c46fead741381ba618f3cd733921471aa881f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b4fcd9a04104893923d4d80514962125f01c2533ee1f41aca41cd0c3b1127ee7.png",
+      "sha256": "b4fcd9a04104893923d4d80514962125f01c2533ee1f41aca41cd0c3b1127ee7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "4b38a792cfdebf0bb41f5bb3d09b31607df9191fb254c153d8e1b5f7211f8f09"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Physical attack.",
+      "baseline": 1049.3,
+      "width": 670.3731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +4 stages. If you declared",
+      "baseline": 1108.3,
+      "width": 681.8840000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui-Waza, you may pay 2 stages to search",
+      "baseline": 1167.3,
+      "width": 793.898,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck for an Energy Combat card,",
+      "baseline": 1226.3,
+      "width": 749.651,
+      "icon_inline": false
+    },
+    {
+      "text": "reveal it, and put it in your hand. Banish after use.",
+      "baseline": 1285.3,
+      "width": 887.1940000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        278.966,
+        45.9196,
+        501.067,
+        66.1608
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        797.449,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.248,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        195.122,
+        1012.11,
+        668.756,
+        46.942
+      ],
+      "power-icon": [
+        527.092,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        190.567,
+        1073.61,
+        677.866,
+        44.835
+      ],
+      "rules-line-3": [
+        133.972,
+        1131.53,
+        791.056,
+        45.913
+      ],
+      "rules-line-4": [
+        155.813,
+        1190.53,
+        747.374,
+        45.913
+      ],
+      "rules-line-5": [
+        87.618,
+        1249.53,
+        883.764,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          527.092,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          581.638,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          527.092,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-072-orange-uppercut.webp",
+      "before_url": "/assets/cards/android-072-orange-uppercut.webp?v=1c278047d61c",
+      "before_sha256": "1c278047d61ce189c394e46784a1296d45cf0f4372e7f06d57ab3686332c8c5a",
+      "after_sha256": "50d5140601251a7b900ec6a9fce1978c696a71074ca426c51f96e7dea503e109",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-072-orange-uppercut.webp",
+      "before_url": "/assets/cards/downloads/android-072-orange-uppercut.webp?v=1a96b68a28cb",
+      "before_sha256": "1a96b68a28cb1b11f3fd6a38e8a887a652d1f26b25feba8a8045e0df8b1c78c1",
+      "after_sha256": "a2e3aa18934a6961cccc95a4e071f996ede7def987a2fe6fb68d0a273aa166a5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 501.067331670823,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

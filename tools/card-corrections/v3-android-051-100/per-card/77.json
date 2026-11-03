@@ -1,0 +1,242 @@
+{
+  "number": 77,
+  "id": "android-077-saiyan-focus",
+  "name": "Saiyan Focus",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-077-saiyan-focus.svg",
+  "native_source_sha256": "12bb7e1f92ca4b557f9d193dfe89df8f95fd0051daf75a3fc68ca8b9a913dc3c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/be0c51fce8e9332bf03a239627bfb9d39e6ac4982be726820231f15f3a64a828.png",
+      "sha256": "be0c51fce8e9332bf03a239627bfb9d39e6ac4982be726820231f15f3a64a828"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "79421f08200d70faf63b704da7a0e3e7c9dea08bac9b7579ed41d0fc4ce8f67a"
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 471.6019473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "If the bottom card of your discard pile is",
+      "baseline": 1108.3,
+      "width": 714.4689999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Saiyan Style, your opponent's MP loses",
+      "baseline": 1167.3,
+      "width": 685.118,
+      "icon_inline": false
+    },
+    {
+      "text": "4 stages, to a minimum of 0.",
+      "baseline": 1226.3,
+      "width": 503.96500000000003,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        331.663,
+        44.5,
+        395.675,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        798.005,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.805,
+        1392.65,
+        38.69,
+        33.708
+      ],
+      "rules-line-1": [
+        345.175,
+        1014.61,
+        419.342,
+        44.835
+      ],
+      "power-icon": [
+        294.483,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        173.76,
+        1072.53,
+        711.48,
+        45.521
+      ],
+      "rules-line-3": [
+        188.019,
+        1131.53,
+        682.962,
+        45.521
+      ],
+      "rules-line-4": [
+        278.644,
+        1190.53,
+        501.711,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          345.175,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          294.483,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-077-saiyan-focus.webp",
+      "before_url": "/assets/cards/android-077-saiyan-focus.webp?v=89670a1396e0",
+      "before_sha256": "89670a1396e0281417742332f59bcc4cb2d3111e8cc42edfafd21eefa6f32e5d",
+      "after_sha256": "d15e46ddb96ffb1891e652cd3cb13d1785fdc17f07f57508530a2bd6e92d1d4b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-077-saiyan-focus.webp",
+      "before_url": "/assets/cards/downloads/android-077-saiyan-focus.webp?v=f75e231c8cae",
+      "before_sha256": "f75e231c8caed091c9dc703fbddf2cf86e73e7c658ae05beb893d85158b4aeae",
+      "after_sha256": "0da743763d82f2fa336a78aa79c0d928f435a2d092fa2eadee624adb8c267790",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 395.6745635910225,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "number": 69,
+  "id": "android-069-orange-power-beam",
+  "name": "Orange Power Beam",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-069-orange-power-beam.svg",
+  "native_source_sha256": "068a7ca72fc8cfdceae62c6d463e395a0d5532fa8c400f8bf69fdc9ff0cba9ad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d9cd2034ecaf7b10af3e1ce2096e14782f540fedd3d2e4d349b2a14a367148db.png",
+      "sha256": "d9cd2034ecaf7b10af3e1ce2096e14782f540fedd3d2e4d349b2a14a367148db"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "c8d96f06d4fe5012dfeb938a84231ff9f1cf59591ffde30d20c3da6b5ce006a8"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: If you declared",
+      "baseline": 1108.3,
+      "width": 733.3340000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui-Waza, your opponent must pass",
+      "baseline": 1167.3,
+      "width": 681.1490000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "in their next Attack Phase. Banish after use.",
+      "baseline": 1226.3,
+      "width": 782.6280000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        227.13,
+        45.9196,
+        604.739,
+        66.1608
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.62,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.42,
+        1392.65,
+        43.46,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        164.842,
+        1072.53,
+        729.316,
+        45.521
+      ],
+      "rules-line-3": [
+        189.93,
+        1131.53,
+        679.14,
+        45.521
+      ],
+      "rules-line-4": [
+        139.705,
+        1190.53,
+        779.59,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-069-orange-power-beam.webp",
+      "before_url": "/assets/cards/android-069-orange-power-beam.webp?v=03bfa2b74bf5",
+      "before_sha256": "03bfa2b74bf53769c3bc160f5822b524ad9c57e50fd7c8e1f045d4e3c77cf3d0",
+      "after_sha256": "38ea1cb6487ac1b3a86389c69591bbad65e4ad503cab3b591e3199f8d063d1dc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-069-orange-power-beam.webp",
+      "before_url": "/assets/cards/downloads/android-069-orange-power-beam.webp?v=1043d76b7da1",
+      "before_sha256": "1043d76b7da185ceae931c9611723a9e52d89935a8c21ed302533ad4a12df6fc",
+      "after_sha256": "9a4ca3b3cea2a3a4839f505d18360dded7ce488b446b12ad179c9356b4380676",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 604.7394014962595,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

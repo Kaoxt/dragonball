@@ -1,0 +1,194 @@
+{
+  "number": 82,
+  "id": "android-082-senzu-effect",
+  "name": "Senzu Effect",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-082-senzu-effect.svg",
+  "native_source_sha256": "6b4b7fd567fe527b6a650f2482a7d5e127f5ee285ec4c7d7524dc1a9a278f08a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ba7fad80b802b1b2bbc095ca4b39c55fb4b219771673bce5c6138f3e910589fd.png",
+      "sha256": "ba7fad80b802b1b2bbc095ca4b39c55fb4b219771673bce5c6138f3e910589fd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "6af448b4c1f3dae31850198486c773156494332be3a4143c56d74fb2e8c8f15b"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Use when needed.",
+      "baseline": 1049.3,
+      "width": 797.7199999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your MP and all your Allies",
+      "baseline": 1108.3,
+      "width": 570.2620000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "to their highest stage. Banish after use.",
+      "baseline": 1167.3,
+      "width": 702.954,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        343.708,
+        50.2213,
+        371.585,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        131.449,
+        1012.11,
+        796.103,
+        46.305
+      ],
+      "rules-line-2": [
+        245.863,
+        1072.53,
+        567.273,
+        45.521
+      ],
+      "rules-line-3": [
+        179.126,
+        1131.53,
+        700.749,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-082-senzu-effect.webp",
+      "before_url": "/assets/cards/android-082-senzu-effect.webp?v=41c32cc406ea",
+      "before_sha256": "41c32cc406ea2833a44e762721945f88a52938976e57705017f431d2b05653aa",
+      "after_sha256": "60cc75b58304c96bd6da6b26ddc28f09372327f2577a10408245cd77aaaad45b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-082-senzu-effect.webp",
+      "before_url": "/assets/cards/downloads/android-082-senzu-effect.webp?v=35e69d7b68b1",
+      "before_sha256": "35e69d7b68b129c192e44a482b2e78009f5f552bae3019c000a8b7980ba2d9a2",
+      "after_sha256": "72a0736fa799b5542ccc476881da79d4890f3aecaec3e030be2fe1f819ab1749",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 371.5847880299252,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

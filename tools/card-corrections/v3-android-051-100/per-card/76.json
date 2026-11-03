@@ -1,0 +1,283 @@
+{
+  "number": 76,
+  "id": "android-076-saiyan-flying-tackle",
+  "name": "Saiyan Flying Tackle",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-076-saiyan-flying-tackle.svg",
+  "native_source_sha256": "e8609ce3ca3fe91af9cfea5c02edbf31b09e59aab7634e989cab82de31c20055",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bdd105858debe668748032f9d071831f55539805c82d43e1b1cab2f51716cc24.png",
+      "sha256": "bdd105858debe668748032f9d071831f55539805c82d43e1b1cab2f51716cc24"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "approved replacement recovered from full-resolution card",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": true,
+    "localized_correction": {
+      "source_dimensions": [
+        2054,
+        1426
+      ],
+      "clip": "M 50 1426 Q 165 1325 288 1426 Z",
+      "reason": "Native ground continuation confined to the old badge overlap at the bottom-left of the approved artwork extract; no character pixel is changed.",
+      "native_paths": [
+        {
+          "d": "M 40 1360 H300 V1430 H40 Z",
+          "fill": "#edb763"
+        },
+        {
+          "d": "M 40 1360 L135 1360 L147 1384 L130 1408 L103 1418 L82 1430 H40 Z",
+          "fill": "#b08150"
+        },
+        {
+          "d": "M 43 1391 L80 1382 L97 1400 L79 1419 L48 1429 Z",
+          "fill": "#785e4a"
+        },
+        {
+          "d": "M 139 1380 L147 1384 L138 1395 L134 1409 L119 1415 L130 1401 Z",
+          "fill": "#9f774c"
+        },
+        {
+          "d": "M 148 1384 L168 1390 L185 1388 L188 1393 L175 1398 L153 1395 L142 1399 Z",
+          "fill": "#e7ac5b"
+        },
+        {
+          "d": "M 91 1426 L117 1412 L131 1410 L129 1417 L144 1421 L140 1426 Z",
+          "fill": "#d99f53"
+        },
+        {
+          "d": "M 172 1426 L187 1414 L205 1411 L221 1415 L239 1418 L232 1423 L209 1421 L196 1426 Z",
+          "fill": "#dda458"
+        },
+        {
+          "d": "M 240 1396 L255 1405 L278 1417 L284 1426 L271 1426 L258 1418 L237 1411 L219 1408 Z",
+          "fill": "#efba64"
+        }
+      ]
+    },
+    "source_native_sha256": "0db39e053ce55dcd8c89fa12cd035c89b3e655f0351b41e88489e80a2fb629f6"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "If you declared Tokui-Waza, when you play",
+      "baseline": 1108.3,
+      "width": 760.333,
+      "icon_inline": false
+    },
+    {
+      "text": "this card you may discard the top card",
+      "baseline": 1167.3,
+      "width": 686.147,
+      "icon_inline": false
+    },
+    {
+      "text": "of your Life Deck to deal AT +6 stages instead.",
+      "baseline": 1226.3,
+      "width": 823.396,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        222.441,
+        44.5,
+        614.117,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.68,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.48,
+        1392.65,
+        41.34,
+        33.708
+      ],
+      "rules-line-1": [
+        208.555,
+        1013.53,
+        696.437,
+        45.913
+      ],
+      "power-icon": [
+        154.008,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        150.742,
+        1072.53,
+        757.517,
+        45.521
+      ],
+      "rules-line-3": [
+        187.676,
+        1131.53,
+        683.648,
+        45.521
+      ],
+      "rules-line-4": [
+        119.346,
+        1190.53,
+        820.309,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          154.008,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.555,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          154.008,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-076-saiyan-flying-tackle.webp",
+      "before_url": "/assets/cards/android-076-saiyan-flying-tackle.webp?v=48964ebf1a9d",
+      "before_sha256": "48964ebf1a9de15f14d68c7bcc6f25ddc22aa2caa757c3eba65d40eae7d7d8fd",
+      "after_sha256": "d78cdcf3c42b5df0ba4ac4b038695a4cee70a13bffd1c01e998c5cf896831a90",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-076-saiyan-flying-tackle.webp",
+      "before_url": "/assets/cards/downloads/android-076-saiyan-flying-tackle.webp?v=8a4956a06e3f",
+      "before_sha256": "8a4956a06e3f6f3b7572dcc4c98a8c726b3a84416a561c07a81b1cea79d5e2d6",
+      "after_sha256": "47fc0402483023ad4ed5f3c2672cf94102ef5be71714cca68020f38b6dac64b6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 614.1172069825437,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

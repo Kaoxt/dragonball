@@ -1,0 +1,206 @@
+{
+  "number": 86,
+  "id": "android-086-tiens-mental-conditioning",
+  "name": "Tien's Mental Conditioning",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/android-051-100/android-086-tiens-mental-conditioning.svg",
+  "native_source_sha256": "1dea7780f3e4758da44708cc50446dd22ca173f3e709ffe748411552cfa0eefe",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a98c2cc366b906d3489239fa6505690eb7a4c81bc89318b1849530966be8427.png",
+      "sha256": "1a98c2cc366b906d3489239fa6505690eb7a4c81bc89318b1849530966be8427"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "retained illustration with documented localized corrections",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "android_76_approved_replacement_retained": false,
+    "localized_correction": null,
+    "source_native_sha256": "54ef3099a61a779ff177e2ac61da77c24866efe16fdb8c4debe123226728d103"
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when entering Combat.",
+      "baseline": 1049.3,
+      "width": 632.4920000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 1 level. Raise your MP",
+      "baseline": 1108.3,
+      "width": 685.02,
+      "icon_inline": false
+    },
+    {
+      "text": "to its highest stage. Draw the bottom card",
+      "baseline": 1167.3,
+      "width": 747.985,
+      "icon_inline": false
+    },
+    {
+      "text": "of your discard pile. Banish after use.",
+      "baseline": 1226.3,
+      "width": 665.9100000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        46.9616,
+        740.0,
+        64.0769
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        167.482,
+        1370.67,
+        88.5353,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        215.091,
+        1013.53,
+        628.817,
+        45.913
+      ],
+      "rules-line-2": [
+        188.558,
+        1072.53,
+        681.884,
+        45.913
+      ],
+      "rules-line-3": [
+        156.757,
+        1131.53,
+        745.486,
+        45.913
+      ],
+      "rules-line-4": [
+        198.088,
+        1190.53,
+        662.823,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/android-086-tiens-mental-conditioning.webp",
+      "before_url": "/assets/cards/android-086-tiens-mental-conditioning.webp?v=2e34f56efd47",
+      "before_sha256": "2e34f56efd47a2a4054477393a48602ad6d47eb91f62b1c89c9984d5be3d887e",
+      "after_sha256": "3ead15e3f166800d69ae3404c77fb0d61e5db0135c6726f341116de20d3e6b02",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/android-086-tiens-mental-conditioning.webp",
+      "before_url": "/assets/cards/downloads/android-086-tiens-mental-conditioning.webp?v=76c33207f6b7",
+      "before_sha256": "76c33207f6b7746bab513fc6f722e291405f31ddc20d1b902d87298dd211abb4",
+      "after_sha256": "fc31fccb626fec201ff3ccce9739c128a7977a2c6142749922de42e01869cfd6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 79.89635068019865,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 64.07687324551932,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9286503368915843
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "native_vector": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
