@@ -1,0 +1,320 @@
+{
+  "number": 87,
+  "id": "cell-087-tien-the-leader",
+  "name": "Tien, the Leader",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-087-tien-the-leader.svg",
+  "native_source_sha256": "fdd8abbc3e8a4ed58119ba9b876d9be7f905878d7b4983f662a2f1c037c68790",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d0411746769505a3c1e5a8968aa5e732c2ce1a530a21aa65104e9d42739f4953.png",
+      "sha256": "d0411746769505a3c1e5a8968aa5e732c2ce1a530a21aa65104e9d42739f4953"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "688d8d38cfd63b5ced62df1c00f9860c7b9bb52d3171f1227fe851bdcf61c595"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Raise or lower your opponent's anger",
+      "baseline": 1108.3,
+      "width": 741.8600000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "3 levels.",
+      "baseline": 1167.3,
+      "width": 146.853,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.978,
+        160.009,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-1": [
+        888.41,
+        224.691,
+        142.59,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.223,
+        289.373,
+        140.777,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.076,
+        354.054,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.272,
+        418.736,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        891.007,
+        548.1,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-7": [
+        892.82,
+        612.782,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-8": [
+        896.642,
+        677.463,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-9": [
+        896.838,
+        742.145,
+        134.162,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        289.549,
+        43.9838,
+        479.903,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.548,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.347,
+        1392.65,
+        41.605,
+        33.708
+      ],
+      "rules-line-1": [
+        234.868,
+        1013.53,
+        643.811,
+        45.913
+      ],
+      "power-icon": [
+        180.321,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        159.834,
+        1072.53,
+        739.332,
+        45.913
+      ],
+      "rules-line-3": [
+        457.421,
+        1133.0,
+        144.158,
+        34.692
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-087-tien-the-leader.webp",
+      "before_url": "/assets/cards/cell-087-tien-the-leader.webp?v=f4036f4b77ba",
+      "before_git_blob_sha": "d810022fbaad734634949d32f727d073edb71e30",
+      "after_sha256": "d721ea4f46e043ffa9f1ff40f4992e9908dcb5c6a8392699bf50f3364e2c2852",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-087-tien-the-leader.webp",
+      "before_url": "/assets/cards/downloads/cell-087-tien-the-leader.webp?v=87dd22874b55",
+      "before_git_blob_sha": "de2aa4fa92763fbcb042f02fc0b192b1599dd1db",
+      "after_sha256": "8481fbd8fd49ef80c389c7b25d0ff33889d8e996628d2a8f9c2a4aa436bd516b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 479.9027431421447,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

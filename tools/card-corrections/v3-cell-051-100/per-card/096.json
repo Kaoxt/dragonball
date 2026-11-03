@@ -1,0 +1,246 @@
+{
+  "number": 96,
+  "id": "cell-096-namekian-energy-deflection",
+  "name": "Namekian Energy Deflection",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-096-namekian-energy-deflection.svg",
+  "native_source_sha256": "9b738efab59b7fa774efd65b235d295f7e0e10499f176e7a6ffab92010a7979f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2ea497fc2ea9c868b9f69fbe4d716388093cb382a174964b649156589c352e56.png",
+      "sha256": "2ea497fc2ea9c868b9f69fbe4d716388093cb382a174964b649156589c352e56"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2a60befaf52354eca20d42bf4b201b548d978a9dd233cfc30b9fe3b4e6aea32e"
+  },
+  "rules": [
+    {
+      "text": "Namekian Heritage only.",
+      "baseline": 1049.3,
+      "width": 433.60100000000006,
+      "icon_inline": false
+    },
+    {
+      "text": "Stops an energy attack.",
+      "baseline": 1108.3,
+      "width": 471.6019473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Shuffle the top and bottom cards of your",
+      "baseline": 1167.3,
+      "width": 720.055,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile into your Life Deck.",
+      "baseline": 1226.3,
+      "width": 561.981,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        48.9199,
+        740.0,
+        60.1602
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.249,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.049,
+        1392.65,
+        44.202,
+        33.708
+      ],
+      "rules-line-1": [
+        314.561,
+        1013.53,
+        429.877,
+        45.913
+      ],
+      "rules-line-2": [
+        345.175,
+        1073.61,
+        419.342,
+        44.835
+      ],
+      "power-icon": [
+        294.483,
+        1074.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-3": [
+        170.32,
+        1132.61,
+        718.36,
+        44.443
+      ],
+      "rules-line-4": [
+        250.053,
+        1190.53,
+        558.894,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          294.483,
+          1074.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          345.175,
+          1073.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          294.483,
+          1074.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999997253326,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-096-namekian-energy-deflection.webp",
+      "before_url": "/assets/cards/cell-096-namekian-energy-deflection.webp?v=4d1780bd164c",
+      "before_git_blob_sha": "23690b98f3010f66ff6ce9049fe406419d18e8f0",
+      "after_sha256": "a554a453b5cc66ffe3f304c25836e1c9119065a14431fcd0ad529d845b4104cb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-096-namekian-energy-deflection.webp",
+      "before_url": "/assets/cards/downloads/cell-096-namekian-energy-deflection.webp?v=337c0d73b676",
+      "before_git_blob_sha": "7f01d3b44b1cd794c111eb29904b353ed859739a",
+      "after_sha256": "50cf5a675c9ae3c8787e95bf73b7e518af0889e3715300a927367d6b284dfaac",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 75.01267105930056,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 60.160162189559045,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.871886408544334
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

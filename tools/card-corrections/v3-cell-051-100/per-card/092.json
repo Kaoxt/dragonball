@@ -1,0 +1,234 @@
+{
+  "number": 92,
+  "id": "cell-092-orange-deflection",
+  "name": "Orange Deflection",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-092-orange-deflection.svg",
+  "native_source_sha256": "94ec5252504a0d7b9a601ac563c2f71d0d7f285f7aa7f8243453ce0928921db9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f3b3312d52be4e1b3d138489c2ae8461315eef1ab389a896065da9a59c90bf47.png",
+      "sha256": "f3b3312d52be4e1b3d138489c2ae8461315eef1ab389a896065da9a59c90bf47"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "15e9629cc8daac8a109bc35a6340db9f8f721d2aa0ad0123c5521e492086754f"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared",
+      "baseline": 1049.3,
+      "width": 750.8529473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Tokui-Waza, stop your opponent's next physical",
+      "baseline": 1108.3,
+      "width": 851.816,
+      "icon_inline": false
+    },
+    {
+      "text": "attack in their next Attacker Attacks phase.",
+      "baseline": 1167.3,
+      "width": 780.227,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        261.372,
+        44.5,
+        536.256,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.018,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.817,
+        1392.65,
+        42.665,
+        33.708
+      ],
+      "rules-line-1": [
+        205.696,
+        1013.53,
+        698.299,
+        45.521
+      ],
+      "power-icon": [
+        155.005,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        105.013,
+        1072.53,
+        848.974,
+        45.521
+      ],
+      "rules-line-3": [
+        140.734,
+        1131.53,
+        777.532,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          205.696,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-092-orange-deflection.webp",
+      "before_url": "/assets/cards/cell-092-orange-deflection.webp?v=2346b2fba221",
+      "before_git_blob_sha": "0280cb22bb692811cc1fb81ce91b5ad1ed37b177",
+      "after_sha256": "9c3a453323818cd9ef960a5ac65857681a6d00f41112de362eb7289a3f34889e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-092-orange-deflection.webp",
+      "before_url": "/assets/cards/downloads/cell-092-orange-deflection.webp?v=2a8ee1afb5ad",
+      "before_git_blob_sha": "b0476569406b7b85e85fbb1c6749bff5181871c3",
+      "after_sha256": "3e1c26be999122619c2ca33189e43353a5ccf96ad2872c72c78ecf6057cf8bef",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 536.2556109725687,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

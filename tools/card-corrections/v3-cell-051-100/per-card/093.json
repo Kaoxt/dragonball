@@ -1,0 +1,246 @@
+{
+  "number": 93,
+  "id": "cell-093-krillin-s-solar-flare",
+  "name": "Krillin's Solar Flare",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-093-krillin-s-solar-flare.svg",
+  "native_source_sha256": "cc910a555fc7b36f7cb52c41d1c66f39f576de7e116cfa6c75c99d4528c68f4a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b6fe842be3d6850f89a551c13735ee99a8d3b28b8b8083786fbe358bc1b298b0.png",
+      "sha256": "b6fe842be3d6850f89a551c13735ee99a8d3b28b8b8083786fbe358bc1b298b0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2bcb9a1f4bc35fda5621b1f906e41c61ac12e98b19d04cddff19775a82bb97c8"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: Your opponent",
+      "baseline": 1108.3,
+      "width": 727.1110000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot play Physical Combat cards",
+      "baseline": 1167.3,
+      "width": 622.888,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of Combat.",
+      "baseline": 1226.3,
+      "width": 403.12300000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        244.638,
+        50.2213,
+        569.723,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        167.488,
+        1072.53,
+        724.024,
+        44.884
+      ],
+      "rules-line-3": [
+        219.232,
+        1131.53,
+        620.536,
+        45.521
+      ],
+      "rules-line-4": [
+        329.163,
+        1191.61,
+        400.673,
+        35.084
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-093-krillin-s-solar-flare.webp",
+      "before_url": "/assets/cards/cell-093-krillin-s-solar-flare.webp?v=2c76313009fe",
+      "before_git_blob_sha": "ee7629fc24e938509a8b9fecbe146c1d82573bd5",
+      "after_sha256": "9fe70a7c76fc40b647222ee33a6b6c35a0321fdea73f73ea8a17820c6fc3ba2e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-093-krillin-s-solar-flare.webp",
+      "before_url": "/assets/cards/downloads/cell-093-krillin-s-solar-flare.webp?v=98ff2b5e7a93",
+      "before_git_blob_sha": "3aed663441bc4197debd11f3bffc381c7fbf23f0",
+      "after_sha256": "04b93c7c34b97c31c658851fb65ff16e9ce5c37a134156371fb2a2761fe0b722",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 569.7231920199503,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

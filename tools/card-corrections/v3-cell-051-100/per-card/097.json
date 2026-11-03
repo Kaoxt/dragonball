@@ -1,0 +1,296 @@
+{
+  "number": 97,
+  "id": "cell-097-krillin-the-champion",
+  "name": "Krillin, the Champion",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-097-krillin-the-champion.svg",
+  "native_source_sha256": "a41825d214cc6fbccb2407d702df915424d0aa7296302b6c6c6e224ebc7f0121",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a6e26a88a3b1e2628c2845722b290b0325c35e155611eba2c93d03319e565c00.png",
+      "sha256": "a6e26a88a3b1e2628c2845722b290b0325c35e155611eba2c93d03319e565c00"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2785d7f481a8561e17167f9c7fecc68de10731cb0fd0c885c1b776113b151f8c"
+  },
+  "rules": [
+    {
+      "text": "At the end of Combat, you may search your Life",
+      "baseline": 1049.3,
+      "width": 840.791,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck for a Setup or Drill and place it in play. If you",
+      "baseline": 1108.3,
+      "width": 884.4499999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "declared a Blue Tokui-Waza, lower your",
+      "baseline": 1167.3,
+      "width": 703.836,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 464.32400000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        892.036,
+        160.009,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.37,
+        224.691,
+        140.63,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.684,
+        289.373,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.664,
+        354.054,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.978,
+        418.736,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-5": [
+        888.753,
+        483.418,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.067,
+        548.1,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.664,
+        612.782,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.978,
+        677.463,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-9": [
+        891.35,
+        742.145,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        217.494,
+        43.9838,
+        624.011,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.574,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.374,
+        1392.65,
+        41.552,
+        33.708
+      ],
+      "rules-line-1": [
+        110.095,
+        1013.53,
+        838.81,
+        45.521
+      ],
+      "rules-line-2": [
+        89.284,
+        1072.53,
+        880.432,
+        45.521
+      ],
+      "rules-line-3": [
+        178.528,
+        1131.53,
+        701.945,
+        45.521
+      ],
+      "rules-line-4": [
+        298.881,
+        1191.61,
+        461.237,
+        44.835
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-097-krillin-the-champion.webp",
+      "before_url": "/assets/cards/cell-097-krillin-the-champion.webp?v=e9d1f231a315",
+      "before_git_blob_sha": "24b3877b40da2e030ec1e15d75013166e4d63f1a",
+      "after_sha256": "5b3d60099a83578f1b81d8cad4c41575059fdcb3ffc51d17263b7f15469aecfd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-097-krillin-the-champion.webp",
+      "before_url": "/assets/cards/downloads/cell-097-krillin-the-champion.webp?v=6f374bf3054f",
+      "before_git_blob_sha": "c2649bf44feda9cfc577ca6a9019323a6787fa48",
+      "after_sha256": "5b2e55cb28baec6a2af16cee67ec78a815f24c7bdfabf7f43db07d1d0cabdc4e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 624.0112219451372,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -16,7 +16,7 @@ const rows=json(base+'audit.json'),data=json(base+'cards.json');
 test('Cell 001–050 exports retain every rule line, fixed V3 geometry and correct rarity',()=>{
  const checks=json(base+'render-verification.json');
  assert.deepEqual(rows.map(r=>r.number),Array.from({length:50},(_,i)=>i+1));assert.equal(checks.length,50);
- assert.equal(catalog.filter(c=>c.set==='Cell Saga'&&c.templateVersion===3).length,50);
+ assert.equal(catalog.filter(c=>c.set==='Cell Saga'&&c.templateVersion===3&&Number(c.number)<=50).length,50);
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));

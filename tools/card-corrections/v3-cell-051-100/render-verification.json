@@ -1,0 +1,2117 @@
+[
+  {
+    "number": 51,
+    "native_source_sha256": "c68900beedfba0f016ffa05f1fdf2e2d0ae6d028eb5f1f4e80b7b2933e6eb0c6",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-051-black-dodge.webp",
+        "sha256": "c3b11f48f857b0db4ea6448babdf60f4c0da3efe36c412e4cebf4784a5c8865e",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-051-black-dodge.webp",
+        "sha256": "362bbd18f4863ce85c8e0c3df69634d242d019f07490be99a662035b9ed24877",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 25958,
+        "text": "Stops an energy attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 25953,
+        "text": "Raise your anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 52,
+    "native_source_sha256": "c0bac22c378e11ee4ba052c5147988a03dcbaaedbc51716c2af77cde9187400b",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 4.272001872658765,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-052-orange-energy-discharge.webp",
+        "sha256": "ad98d7461b34efeff974b959e6c0e6074778bcf1c19724d88862cd9ffc7e50e8",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-052-orange-energy-discharge.webp",
+        "sha256": "3177e5a3c39c4f34f223e8c2e696c4c4639f8cf9e329f07b962beb8b04f7afa6",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34991,
+        "text": "Energy attack costing 2 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23724,
+        "text": "DAMAGE: 6 life cards."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 52408,
+        "text": "Your opponent cannot use Energy Combat cards"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 19920,
+        "text": "to stop this attack."
+      }
+    ]
+  },
+  {
+    "number": 53,
+    "native_source_sha256": "63ceef4f3740f9b3fb46bc143b2cb8e1f22e9d6cc2a4f26bca126ba6aad5216b",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-053-saiyan-power-kick.webp",
+        "sha256": "e5e6c8ae935284018ca7e7ec13b20fe477d553a7c8f778eaf10454bb08abadfd",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-053-saiyan-power-kick.webp",
+        "sha256": "4d9a5753fc58b24d0dfb058ac6e5d269f75a3d075de4cc68b9a0e1659189693b",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 42500,
+        "text": "Physical attack. DAMAGE: AT +4 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 52698,
+        "text": "When performing this attack, you may discard a"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 52536,
+        "text": "card from your hand to deal AT +8 stages instead."
+      }
+    ]
+  },
+  {
+    "number": 54,
+    "native_source_sha256": "7ab81a13be24da4025f3f86b32c508484abd79d596c74ffb8eb7bdedf35b301d",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-054-saiyan-strike.webp",
+        "sha256": "f0fc9c56bca29b4019a31fd21d844817341c3e1467d048c1200de356a030a1fb",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-054-saiyan-strike.webp",
+        "sha256": "0fb0ec95a5472c518e6625a1baf7d6bad0bc71475718be9ba60a70c7d01392a1",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 39191,
+        "text": "Physical attack. DAMAGE: 5 stages."
+      }
+    ]
+  },
+  {
+    "number": 55,
+    "native_source_sha256": "bcfbbca75127f45912b4b64105e283b645ca1507dcc9558e4a6bb967137cbc5e",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-055-orange-power-blast.webp",
+        "sha256": "088e0c8614b3340b325683e601374d02190086ba2aae893d62e6e44d2a355350",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-055-orange-power-blast.webp",
+        "sha256": "d383af824c5284f705bb3ebb76c0af5ee60e8576aa10e0d607d480786ea2cc0c",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 35073,
+        "text": "Energy attack costing 0 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23393,
+        "text": "DAMAGE: 3 life cards."
+      }
+    ]
+  },
+  {
+    "number": 56,
+    "native_source_sha256": "8a3b0819861a7d17e6427f44a5f54a97ba2faaf96cbd7be9e5055677d467c85d",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-056-blue-palm-shot.webp",
+        "sha256": "5b59aa5ffaa2f1e45898f2ab78f4a2acb65e480e9d9d77b77328f6e976d968ea",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-056-blue-palm-shot.webp",
+        "sha256": "2f0d4cd2af1cd4477da88b6fdaa95274c83e0284de803c296f9a50220c9d8607",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 26595,
+        "text": "Stops a physical attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 40296,
+        "text": "Lower your opponent's anger 2 levels."
+      }
+    ]
+  },
+  {
+    "number": 57,
+    "native_source_sha256": "1d386324c3cf7e13736301de652fff043c9d073d5199061daa8f46c2a39a9650",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-057-red-jump.webp",
+        "sha256": "500b949c2458fdf7602516960f3f170d97dd12ce18af201d8d95453a4ca5fb8b",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-057-red-jump.webp",
+        "sha256": "ae3bf49133921c4b04aba45066ab471eff8e48396070a5640114f20016caa621",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 26595,
+        "text": "Stops a physical attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 38378,
+        "text": "Lower your opponent's anger 1 level."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 25953,
+        "text": "Raise your anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 58,
+    "native_source_sha256": "e95e37fbcabf8c7000c9a2138e60d636c4b46abf3fd57fb32b0c57611f29d255",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 36.43144246389374,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-058-namekian-rock-crush.webp",
+        "sha256": "0723662ca1999574e84a47d884a5e3241003250a4b3006a5f1cba3594fd5aae1",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-058-namekian-rock-crush.webp",
+        "sha256": "2068d875211d83ecba5d345a5784cdd8243aacc4b21caa526956b3e0c5c2208d",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 36464,
+        "text": "Physical attack costing 3 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23724,
+        "text": "DAMAGE: 6 life cards."
+      }
+    ]
+  },
+  {
+    "number": 59,
+    "native_source_sha256": "4a06e4ce9473f7b32d4cb1e2011c6237795ec817b081e9bbcc8b63fe2f8ade42",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 27.681221071332818,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-059-saiyan-high-jump-kick.webp",
+        "sha256": "7e53dcdc6fa01bc8ee79008e5f6821671e92d8d2dd7ac82517ebc770ed1e4d64",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-059-saiyan-high-jump-kick.webp",
+        "sha256": "23011ffdea447832d2acaad2fd2497ca48c6fe2e413c86a1a2f741e4095f8e48",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 41562,
+        "text": "Physical attack. DAMAGE: 3 life cards."
+      }
+    ]
+  },
+  {
+    "number": 60,
+    "native_source_sha256": "736b224cfd1779bb98f6131cb5afb820dff93b056d5b8bca33ade4352f09265b",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-060-saiyan-flying-kick.webp",
+        "sha256": "c6a4dfabbaf6c3552a1f9218f0df2636bb79d9751fbbfe47dc967a3b286b5fe8",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-060-saiyan-flying-kick.webp",
+        "sha256": "3babecfe71cb5eca5b33b508cf21d0c36e562da7ff9ef6dc185137732719d649",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 23994,
+        "text": "Saiyan Heritage only."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 42989,
+        "text": "Physical attack. DAMAGE: AT +5 stages."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 49365,
+        "text": "HIT: Your opponent discards the top 2 cards of"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 16507,
+        "text": "their Life Deck."
+      }
+    ]
+  },
+  {
+    "number": 61,
+    "native_source_sha256": "9f28d1387db29cfedbcffe218ec19dced11d11316d56dfe6b5821c9c61121ca5",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-061-orange-solar-flare.webp",
+        "sha256": "d698834e58393b2646967e052f10884090df2a1d1ea71363f938206c6428290c",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-061-orange-solar-flare.webp",
+        "sha256": "0d05e165dc8bbd0c208dc5c1b3442804837c15d7b73ab31c182add6314c0aba1",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34937,
+        "text": "Energy attack costing 3 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 33674,
+        "text": "DAMAGE: 4 life cards +3 stages."
+      }
+    ]
+  },
+  {
+    "number": 62,
+    "native_source_sha256": "e872d3b147a225d506bc830ee25ec6c57d29c81c000808f2b7e45cbf7abd4ede",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-062-red-dodge.webp",
+        "sha256": "9745e9b5f074744ddc6b8d256e2a4aabf825a28644899eabc07c216207f00e4d",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-062-red-dodge.webp",
+        "sha256": "81a40e4020a4fa8d803b7bae0746c82309d0e34ae6fb42f0ed927f6bcef01f8c",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 45994,
+        "text": "Stops a physical attack. Banish the top 10"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 52508,
+        "text": "cards of your opponent's discard pile. Raise your"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 13995,
+        "text": "anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 63,
+    "native_source_sha256": "73a2e7dd1c395eafd3b38e5da0bcd108edec72fb5f50bc7346acbc4e14e6f97a",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-063-orange-side-shot.webp",
+        "sha256": "60f9516eacd7139059cecf709c1e10edad10aa9d0c86e3acf549ea59b700d520",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-063-orange-side-shot.webp",
+        "sha256": "7edbeaa45c31460e104f1693baf0bc406d9a777302cdba844370f11305738c5f",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34991,
+        "text": "Energy attack costing 2 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 33708,
+        "text": "DAMAGE: 4 life cards +2 stages."
+      }
+    ]
+  },
+  {
+    "number": 64,
+    "native_source_sha256": "567f726f26669dbab0de7ffcd6fdd41361401bf4680587120ba1f0ce4c1e1ec4",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-064-black-side-block.webp",
+        "sha256": "0ca1e4d73dc17751b5ddec592798d4a90aac720d80c15f47789bfa7a24a91fc1",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-064-black-side-block.webp",
+        "sha256": "a3ef1eee814450a4a0b5a438142164e02392b812d87601de6e6f5c89ed215dc1",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 26595,
+        "text": "Stops a physical attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 25953,
+        "text": "Raise your anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 65,
+    "native_source_sha256": "98e15841b08c0b1b68f5640863bc6b208626e2eed841010041a15f1e98c85b13",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-065-blue-flip.webp",
+        "sha256": "db4daff8573ead0f1ff4f12c307b4a61cd0c0cddc270e06dddedc06e4683e557",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-065-blue-flip.webp",
+        "sha256": "6e26f2851f3a8b5d66052ba651c81c64c5a2e1687eb63a2ea2db13a2ccadbeba",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 50764,
+        "text": "Stops a physical attack. Place the bottom card"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 48806,
+        "text": "of your discard pile on the bottom of your Life"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 44687,
+        "text": "Deck. Lower your opponent's anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 66,
+    "native_source_sha256": "41dc743fd3bfeb276628b099f3d9148f919442677e22007397897d480c1ae943",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-066-blue-wrist-block.webp",
+        "sha256": "403bd741599577bdc83f0bba42a56776baa1277fdb3313933d15722640cfb564",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-066-blue-wrist-block.webp",
+        "sha256": "14b37acfcb63c3d3ae1902420d2d45ad0b85ef329b586637819ed18d229d065d",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 44197,
+        "text": "Stops a physical attack. Discard 1 of your"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 30119,
+        "text": "opponent's Setups or Drills."
+      }
+    ]
+  },
+  {
+    "number": 67,
+    "native_source_sha256": "d602de9f8c7b2d6612b6f2d2e745a87be4c7a38085c652bc042f5e7d931d69ed",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-067-orange-ally-drill.webp",
+        "sha256": "77528940d22aff743c90a5491112e52cc85a73035b4912f04b24cb951458edc7",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-067-orange-ally-drill.webp",
+        "sha256": "bedbc49a46f3a52a16a9d271340dc8d1244cc5543333432f7577236f58f5572d",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 44570,
+        "text": "After you take damage from a successful"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 50494,
+        "text": "energy attack, search your Life Deck for an Ally"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 41990,
+        "text": "and place it in play at 4 stages above 0."
+      }
+    ]
+  },
+  {
+    "number": 68,
+    "native_source_sha256": "c54500a22cc31e5b5960eb43867107fd50207f024e43ad18eb1814b4c77669ce",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-068-heroes-discovery.webp",
+        "sha256": "4a7ce28e321fdf0691c259da83a92b925c528a6320423ae889c4ff87461f73c6",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-068-heroes-discovery.webp",
+        "sha256": "781b6faa4408797a8989aa0c73b615eef0da277691f6b388715e18e8621b84b2",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 45521,
+        "text": "Look at your opponent's hand. If their Main"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 51905,
+        "text": "Personality has \"Android\" in its title, choose and"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 33038,
+        "text": "discard a card from their hand."
+      }
+    ]
+  },
+  {
+    "number": 69,
+    "native_source_sha256": "a3234d5207dcbf4c46540b678c989b10dc82834981b62c5b699fb0042b53ccaa",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 13.729530217745982,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-069-piccolo-s-determination.webp",
+        "sha256": "3e1c74f438a5a63e0c21274a8048c0ba12eca49ef3d8a9de6640fa04317a8823",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-069-piccolo-s-determination.webp",
+        "sha256": "e12a1b6512ea1ad80cff31a2a5c997dfea1185b16c8fb725e3cb2eaeacb7e0ad",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 38925,
+        "text": "Draw a card. Raise your anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 70,
+    "native_source_sha256": "030fdf76c62beb9bd9b879cbec9a53224bf13c3af9e50eb1e42f30cf94bd254a",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-070-the-car.webp",
+        "sha256": "d29a480242c34f6495536807836edafc847c7ffc824452f654efc5b2652028d6",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-070-the-car.webp",
+        "sha256": "529fd019cdce5b18496d2098c6906b0c48c464e4fb0680fdcb4738fa67ab1771",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 52614,
+        "text": "Banish an Ally in play. If your Main Personality is"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 51376,
+        "text": "Android 17 or Android 18, banish 2 Allies in play"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 9152,
+        "text": "instead."
+      }
+    ]
+  },
+  {
+    "number": 71,
+    "native_source_sha256": "189c16465371e31bad29a18f74d139c5d50810162fb4dec50bb4ec4d78fab0de",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-071-krillin-s-thoughts.webp",
+        "sha256": "df73d8723fbe5ae2d75bc60d75b171b0e87f1db83af79d72f090e8d116eaa18f",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-071-krillin-s-thoughts.webp",
+        "sha256": "db170536480da1f0f216eb6d20bdec2a6d1c5a1ac5c6b7de886e06de1dfb7929",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 49249,
+        "text": "Look at the top 6 cards of your opponent's Life"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 46469,
+        "text": "Deck and put them back on top in any order."
+      }
+    ]
+  },
+  {
+    "number": 72,
+    "native_source_sha256": "a067170df7146b00da7e745c62e4968d0f2c7a5959c2a28c6e3552a50ad91ba8",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-072-capsule-corp-ship.webp",
+        "sha256": "ca788e3c77bbef58ecd84972a2b23d96b2b4263c1d7d6d01bba78d1c0aac7458",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-072-capsule-corp-ship.webp",
+        "sha256": "8a3a494f283173731d59bde8428d23ecf8a66fdaad10fdd2011790a3e0d1ed3b",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 51045,
+        "text": "Heroes only. Raise any personality in play to its"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 16668,
+        "text": "highest stage."
+      }
+    ]
+  },
+  {
+    "number": 73,
+    "native_source_sha256": "0f869caf48fa49d25c7a2d4e824ac0cbf2d8fae4d8e31d816115bf425207bb52",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-073-dende-dragon-ball-3.webp",
+        "sha256": "a4853b08dc7e44a0e188121225cdfc913756b83c34c19bc20868378946bdd9ff",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-073-dende-dragon-ball-3.webp",
+        "sha256": "247120bd60a2b681759f6e8ca69d64cf9cb83fe1ba91068f822ad987016de391",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 53134,
+        "text": "Raise your Main Personality to its highest stage."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 43849,
+        "text": "Draw the top 3 cards of your discard pile."
+      }
+    ]
+  },
+  {
+    "number": 74,
+    "native_source_sha256": "c5291f129cbd35c0c552f445bc057cbeee494a3b75d466bbf6fc2a0a99d33470",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-074-dende-dragon-ball-4.webp",
+        "sha256": "9093deb32c1069d52a0b65cb7b54517c7bb7fc6a6af1d2d21f26302a778c3f16",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-074-dende-dragon-ball-4.webp",
+        "sha256": "e36dc157799658fecf30655a7a270e0f863d1a2155954b860bd52dba52ccccb0",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 53134,
+        "text": "Raise your Main Personality to its highest stage."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 31091,
+        "text": "Discard up to 3 Allies in play."
+      }
+    ]
+  },
+  {
+    "number": 75,
+    "native_source_sha256": "997ba2f3269275a5f2aaf24751319307232d58a60b705862a3f92bad98ca9fbf",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-075-dende-dragon-ball-5.webp",
+        "sha256": "e9e3fe2249ea14051c6802532d4719860ef4ebca0aecf88a7e1007ca47aa4694",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-075-dende-dragon-ball-5.webp",
+        "sha256": "6f9ef61b28c8c9c2c6bbc049480f454219fb4567d4a0288ab10c72250ce07ad6",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 53134,
+        "text": "Raise your Main Personality to its highest stage."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 47912,
+        "text": "Choose up to 5 cards in your discard pile and"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 35106,
+        "text": "shuffle them into your Life Deck."
+      }
+    ]
+  },
+  {
+    "number": 76,
+    "native_source_sha256": "96a852407b139f454d253c1d323b928ba2e990f10cb6286e7bbe717f82c9e962",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-076-exhaustion.webp",
+        "sha256": "80dcb378f2c32bb536969c0410c1cb383bcd6cdc0aa686dc8f0a9ae52af3a350",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-076-exhaustion.webp",
+        "sha256": "f8791671d5736652a5cf1075718fb59d1140d79a5b95e98d26a2ccc959b605fa",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 51610,
+        "text": "Your opponent loses 4 stages, to a minimum of 0."
+      }
+    ]
+  },
+  {
+    "number": 77,
+    "native_source_sha256": "99e9f713a82a978eb5fbb1d95d6d36a3e28d450459e8a121ed0d779476c147e9",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-077-trunks-prepares.webp",
+        "sha256": "fdfa3cb46bce9d434d2a5d95119be836cec1819f12051cc3e50c74191897a481",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-077-trunks-prepares.webp",
+        "sha256": "1d89361981a3d89c37a704141c27ace81e3165bfc6a81c4a85df162eb51fbd4e",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 53464,
+        "text": "When entering Combat as the defender, you may"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 47827,
+        "text": "draw the bottom 3 cards of your discard pile"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 50363,
+        "text": "instead of drawing 3 cards from your Life Deck."
+      }
+    ]
+  },
+  {
+    "number": 78,
+    "native_source_sha256": "7891efd3139c5bccb3642b0935bda4db9d41832f073a2f46141cb5ff4ecaea7d",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-078-smokescreen.webp",
+        "sha256": "8f4fc87d3c0cf32015ce1c573aaf2aadea4a3a3439923844d601f29e40f28d41",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-078-smokescreen.webp",
+        "sha256": "c8f3d8f1ceec54c05a154a4e0d33624c3a005f1a8a2e5a908cebc1b8cc7ca217",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 37200,
+        "text": "Stops a physical or energy attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 18385,
+        "text": "Banish after use."
+      }
+    ]
+  },
+  {
+    "number": 79,
+    "native_source_sha256": "5ade1143bfb0766f4f7d6262e88a9bbe95a0322be7c2ec511621d684c725d1f7",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 24.166091947189145,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-079-time-chamber-training.webp",
+        "sha256": "b97be00ef9cd72d6405b72b0fd2368ad1f1825dc78a2b23ec8225cb87115dd01",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-079-time-chamber-training.webp",
+        "sha256": "e7feba2d17a467943548fa4f8d2716d89433f9426cbffbf0bb51f7869a13967a",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 48429,
+        "text": "For the rest of the game, all of your successful"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 35482,
+        "text": "attacks deal +1 stage of damage."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 18386,
+        "text": "Banish after use."
+      }
+    ]
+  },
+  {
+    "number": 80,
+    "native_source_sha256": "75485fe3c15193e30685d231e55c306af546ab61eeb265c4183580479af77ea3",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-080-gohan-s-stance.webp",
+        "sha256": "c4ab37d6b37910854157a44e35fcfc7410a32661dfd7a70032806e7ea1bba827",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-080-gohan-s-stance.webp",
+        "sha256": "d5ea15793b7a9daba1fd14e41f3ef6830ab56f265c3587c2070c6555773b3c0e",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 55010,
+        "text": "The next physical attack you perform this Combat"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 31852,
+        "text": "deals +4 life cards of damage."
+      }
+    ]
+  },
+  {
+    "number": 81,
+    "native_source_sha256": "6075401aea6ea4c988c62a404e3dcc143b6ffa3541aca48e5178d3ccf7f18bea",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-081-grappling-stance.webp",
+        "sha256": "836aaab3a597decbbf3d42fce2b0d849d7f803d56281e78bfeb46055f6cf8108",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-081-grappling-stance.webp",
+        "sha256": "02bd8be54eba870f21f47496829077ea077eb862df905ce529d2eef66860a6f4",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 48382,
+        "text": "All of your physical attacks deal +2 stages of"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 33237,
+        "text": "damage for the rest of Combat."
+      }
+    ]
+  },
+  {
+    "number": 82,
+    "native_source_sha256": "daa1c65c9aebb3bd915a3f583c91bfe9dd56e9f38f2c541086da412994ec3cc7",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 4.272001872658765,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-082-cell-s-android-absorption.webp",
+        "sha256": "2abc10c9dc7fa834b4a2ce2efe158314797aabcd9293d7221cdfed21606b194b",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-082-cell-s-android-absorption.webp",
+        "sha256": "140142f75a0263f3563942ed41e4482f52bb1c33cbe8e2e728bb8794aa029298",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 48342,
+        "text": "Cell only. If Android 17 or Android 18 is in play"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 28642,
+        "text": "as an Ally, banish 1 of them."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 34000,
+        "text": "Raise Cell to his highest stage."
+      }
+    ]
+  },
+  {
+    "number": 83,
+    "native_source_sha256": "b61aec66bc0aea4d95457d2d81bbed08674e35515c75718d0f493cc7cc9c882e",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-083-ally-rescue.webp",
+        "sha256": "bc59ef1ee2597fdf1ae3a25f66a2e1027c12a236b32712849656e3e21e1f0888",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-083-ally-rescue.webp",
+        "sha256": "0a81d2d6d166ae9fe830abb7fcb2fb8549b6ff19375f4dc48fb2afff288c0cff",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 53292,
+        "text": "Search your discard pile for an Ally and place it in"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 26753,
+        "text": "play at 2 stages above 0."
+      }
+    ]
+  },
+  {
+    "number": 84,
+    "native_source_sha256": "4a995a04e0913ad79b76fe69bf03a4f4857d884e97212840d25fd347315ea825",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-084-yamcha-the-friend.webp",
+        "sha256": "523f828ff9a2a8c493f884b3ff1ca8c382be98ab17902c2e2645f1cbcff98af1",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-084-yamcha-the-friend.webp",
+        "sha256": "77aa375601809e3a8486958d9f6414c24aff48ec325e98292da753530343d8aa",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34991,
+        "text": "Energy attack costing 2 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23478,
+        "text": "DAMAGE: 4 life cards."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 42797,
+        "text": "HIT: Lower your opponent's anger 1 level."
+      }
+    ]
+  },
+  {
+    "number": 85,
+    "native_source_sha256": "9bb2cf6724238ada483367755399e62f5cb162f12e8b77f6cfe8b52f267223e2",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-085-yamcha-the-battler.webp",
+        "sha256": "21599a551105206a5930c195b7f933d4affd9e195b695516f797b16d736e8779",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-085-yamcha-the-battler.webp",
+        "sha256": "c282e0befb707b4b0bddd519ec3eb1ce4cdd9ad7c61e6c74a1a81a568e174372",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 50950,
+        "text": "All energy attacks performed by Yamcha deal"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23017,
+        "text": "+2 stages of damage."
+      }
+    ]
+  },
+  {
+    "number": 86,
+    "native_source_sha256": "2694634d5112c74615bde1e53736ed22ddef4eb0e5c6aa3b17d517a37473d6ca",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-086-tien-the-swift.webp",
+        "sha256": "9d7de77601110d61df22e6379982ad9387ca408a9ab7891a53f0e32a157ada64",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-086-tien-the-swift.webp",
+        "sha256": "c2632f7f5b04c3dffd310884ab6f80c8a8cfbcce6a78f9957530af302ed037d4",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 33052,
+        "text": "Energy attack costing 1 stage."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23478,
+        "text": "DAMAGE: 4 life cards."
+      }
+    ]
+  },
+  {
+    "number": 87,
+    "native_source_sha256": "fdd8abbc3e8a4ed58119ba9b876d9be7f905878d7b4983f662a2f1c037c68790",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-087-tien-the-leader.webp",
+        "sha256": "d721ea4f46e043ffa9f1ff40f4992e9908dcb5c6a8392699bf50f3364e2c2852",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-087-tien-the-leader.webp",
+        "sha256": "8481fbd8fd49ef80c389c7b25d0ff33889d8e996628d2a8f9c2a4aa436bd516b",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 40424,
+        "text": "Physical attack. DAMAGE: AT stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 44823,
+        "text": "HIT: Raise or lower your opponent's anger"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 8688,
+        "text": "3 levels."
+      }
+    ]
+  },
+  {
+    "number": 88,
+    "native_source_sha256": "173e1c85f516846d97f7906ba541c897be36fe72b5b4dec8e3143628091aeae3",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 28.692333470807146,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-088-yamcha-the-powerful.webp",
+        "sha256": "319e6472d22280335842839de83ee02fe63a1bbc6a413e5bf738422b52d638e7",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-088-yamcha-the-powerful.webp",
+        "sha256": "5d41882758e4f051bc3e111cd334d5fac056dfd059a7123c9337efa13656f23c",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 40424,
+        "text": "Physical attack. DAMAGE: AT stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 40504,
+        "text": "HIT: Lower your opponent's anger to 0."
+      }
+    ]
+  },
+  {
+    "number": 89,
+    "native_source_sha256": "df0c7df6486583fe6541b5d1a0d6d45cc320463de07dd6374326b7103f79f22e",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-089-krillin-the-friend.webp",
+        "sha256": "f52e8a7e0a648c2caeb8d721a977ab6d24103da32fb024d1ceb577724cc40d4a",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-089-krillin-the-friend.webp",
+        "sha256": "5a1355ef4debf51ce8f2150a5dee8f30834519e19090ae8180c09c7ea5687e80",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 35073,
+        "text": "Energy attack costing 0 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 23478,
+        "text": "DAMAGE: 4 life cards."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 44084,
+        "text": "If you declared a Blue Tokui-Waza, lower"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 33658,
+        "text": "your opponent's anger 2 levels."
+      }
+    ]
+  },
+  {
+    "number": 90,
+    "native_source_sha256": "e64a828515ddf0acec53d99128d29b5529c79ac7685ae0370a0eb6dd7280cb96",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-090-android-19.webp",
+        "sha256": "4cdd0a43eaccf49702402114f9c2e6f8fbf54684da1b1e0e6b1260e2ec39e724",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-090-android-19.webp",
+        "sha256": "abc0567930a0792b74690e28667c52b53170feca2f4434729bfaac5d31410dc7",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 45375,
+        "text": "Stops an energy attack. If you declared an"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 38014,
+        "text": "Orange Tokui-Waza, gain 3 stages."
+      }
+    ]
+  },
+  {
+    "number": 91,
+    "native_source_sha256": "b37b1d194ea5727e9db43fda71d824d7e83c91b1d80e21670ab4bc06bdcfb9e1",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-091-tien-s-tri-beam.webp",
+        "sha256": "d563f93baff08cda19639e5fbc5fbdc4d45ddc5266ce897cff44dc1a1ad05c0a",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-091-tien-s-tri-beam.webp",
+        "sha256": "522cd0519e3dec6f37ff41ee5d0e5d661ebbbc182f0cab32c2c00a2a172d02f4",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34991,
+        "text": "Energy attack costing 2 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 52954,
+        "text": "DAMAGE: 2 life cards. Remains in play to be used"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 46278,
+        "text": "2 more times this Combat. Banish after use."
+      }
+    ]
+  },
+  {
+    "number": 92,
+    "native_source_sha256": "94ec5252504a0d7b9a601ac563c2f71d0d7f285f7aa7f8243453ce0928921db9",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 33.0,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-092-orange-deflection.webp",
+        "sha256": "9c3a453323818cd9ef960a5ac65857681a6d00f41112de362eb7289a3f34889e",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-092-orange-deflection.webp",
+        "sha256": "3e1c26be999122619c2ca33189e43353a5ccf96ad2872c72c78ecf6057cf8bef",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 43215,
+        "text": "Stops a physical attack. If you declared"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 52728,
+        "text": "Tokui-Waza, stop your opponent's next physical"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 47176,
+        "text": "attack in their next Attacker Attacks phase."
+      }
+    ]
+  },
+  {
+    "number": 93,
+    "native_source_sha256": "cc910a555fc7b36f7cb52c41d1c66f39f576de7e116cfa6c75c99d4528c68f4a",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-093-krillin-s-solar-flare.webp",
+        "sha256": "9fe70a7c76fc40b647222ee33a6b6c35a0321fdea73f73ea8a17820c6fc3ba2e",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-093-krillin-s-solar-flare.webp",
+        "sha256": "04b93c7c34b97c31c658851fb65ff16e9ce5c37a134156371fb2a2761fe0b722",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 34991,
+        "text": "Energy attack costing 2 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 44511,
+        "text": "DAMAGE: 4 life cards. HIT: Your opponent"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 39286,
+        "text": "cannot play Physical Combat cards"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 23415,
+        "text": "for the rest of Combat."
+      }
+    ]
+  },
+  {
+    "number": 94,
+    "native_source_sha256": "9a364404da6037054541ddfd0d38c4ee5c7e99d075985a5517005b3b28a8b3ee",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 38.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-094-namekian-side-kick.webp",
+        "sha256": "c4e278470b94779f56b1550dbe367a60a216a49f4531f73d7539414d86117f1b",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-094-namekian-side-kick.webp",
+        "sha256": "da857f1c7ae858148ef5d410d3aff0acb7f281625fd593aa1ce08e0160bfbce4",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 18011,
+        "text": "Physical attack."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 35031,
+        "text": "DAMAGE: AT stages +2 life cards."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 45166,
+        "text": "HIT: Draw the top card of your discard pile."
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 40334,
+        "text": "Lower your opponent's anger 2 levels."
+      },
+      {
+        "id": "rules-line-5",
+        "visible_dark_pixels": 18400,
+        "text": "Banish after use."
+      }
+    ]
+  },
+  {
+    "number": 95,
+    "native_source_sha256": "8f47d122b594216f2a8eb701804743274f85d2140709d7c063bee5ff83895720",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-095-android-19-recalled.webp",
+        "sha256": "4515018568b7325bb03cd5793e7debb2ea7f61fce4c0af1f2482115b598594e5",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-095-android-19-recalled.webp",
+        "sha256": "4c3abd2599e79899e95697dce1cc76b5b125d333a3a3220bf49d168ca5affdf7",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 47137,
+        "text": "Defense Shield: Stops the first unstopped"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 48796,
+        "text": "physical attack against you. When entering"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 51643,
+        "text": "Combat, if you declared an Orange Tokui-Waza,"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 15427,
+        "text": "gain 5 stages."
+      }
+    ]
+  },
+  {
+    "number": 96,
+    "native_source_sha256": "9b738efab59b7fa774efd65b235d295f7e0e10499f176e7a6ffab92010a7979f",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 3.1622776601683795,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-096-namekian-energy-deflection.webp",
+        "sha256": "a554a453b5cc66ffe3f304c25836e1c9119065a14431fcd0ad529d845b4104cb",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-096-namekian-energy-deflection.webp",
+        "sha256": "50cf5a675c9ae3c8787e95bf73b7e518af0889e3715300a927367d6b284dfaac",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 28465,
+        "text": "Namekian Heritage only."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 25957,
+        "text": "Stops an energy attack."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 44276,
+        "text": "Shuffle the top and bottom cards of your"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 34238,
+        "text": "discard pile into your Life Deck."
+      }
+    ]
+  },
+  {
+    "number": 97,
+    "native_source_sha256": "a41825d214cc6fbccb2407d702df915424d0aa7296302b6c6c6e224ebc7f0121",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-097-krillin-the-champion.webp",
+        "sha256": "5b3d60099a83578f1b81d8cad4c41575059fdcb3ffc51d17263b7f15469aecfd",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-097-krillin-the-champion.webp",
+        "sha256": "5b2e55cb28baec6a2af16cee67ec78a815f24c7bdfabf7f43db07d1d0cabdc4e",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 49319,
+        "text": "At the end of Combat, you may search your Life"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 52894,
+        "text": "Deck for a Setup or Drill and place it in play. If you"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 42946,
+        "text": "declared a Blue Tokui-Waza, lower your"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 28706,
+        "text": "opponent's anger 2 levels."
+      }
+    ]
+  },
+  {
+    "number": 98,
+    "native_source_sha256": "5712487c9f83ba73d549f002cf10673c9f7c626885b46f7df21dc22e48358b9b",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 29.154759474226502,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-098-android-19-recharged.webp",
+        "sha256": "5c765ad0cc97d3cf42f40af39bceafab76cb299668f92a4ee580449613091309",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-098-android-19-recharged.webp",
+        "sha256": "35014ac6a76fe1c53f8121fc4c1c1c0c08fb12647a1364b08f19aa85ff3ae126",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 35073,
+        "text": "Energy attack costing 0 stages."
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 36257,
+        "text": "DAMAGE: 4 life cards. Draw a card."
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 42368,
+        "text": "If you declared an Orange Tokui-Waza,"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 20243,
+        "text": "draw another card."
+      }
+    ]
+  },
+  {
+    "number": 99,
+    "native_source_sha256": "9900d975425247aaddb8e64ade907bd0109eb53fc6889348d24c2588d4fdedc4",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 32.5,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-099-krillin-the-hero.webp",
+        "sha256": "bb264fd4a6f7a32627838e0d9da95195fe9f029408ebed8f458019acd4c384b5",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-099-krillin-the-hero.webp",
+        "sha256": "1d868715213efd7ec5efc36dba6cd7dd2e11e47b1bfacafab7059c04d859aa06",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 48047,
+        "text": "Physical attack. DAMAGE: 3 life cards. If you"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 47938,
+        "text": "declared a Blue Tokui-Waza, deal +1 stage of"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 53408,
+        "text": "damage for each of your opponent's anger levels"
+      },
+      {
+        "id": "rules-line-4",
+        "visible_dark_pixels": 9331,
+        "text": "below 5."
+      }
+    ]
+  },
+  {
+    "number": 100,
+    "native_source_sha256": "f90c829a59ad72036c0c68739da948b45f1ce3ff7af11290e57e04ad986bef2e",
+    "title_pixels_outside_brush": 0,
+    "minimum_brush_clearance": 5.315072906367325,
+    "title_helper_idempotent": true,
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-100-speaking-with-the-king-drill.webp",
+        "sha256": "4eb234e5fb96b67305162ab61950b22ca06f77c458b67cbbbfd554e8ce5ef69b",
+        "size": [
+          1060,
+          1484
+        ],
+        "decoded_pixels_match_render": true
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-100-speaking-with-the-king-drill.webp",
+        "sha256": "8c6e12648d9487c80fac22fb7e81d2343c9f357c2e2bbaf37f445ab676092b94",
+        "size": [
+          2120,
+          2968
+        ],
+        "decoded_pixels_match_render": true
+      }
+    ],
+    "visible_rules": [
+      {
+        "id": "rules-line-1",
+        "visible_dark_pixels": 48521,
+        "text": "Once per turn, in place of an attack, look at the"
+      },
+      {
+        "id": "rules-line-2",
+        "visible_dark_pixels": 48818,
+        "text": "top 3 cards of your Life Deck. Put 1 in your hand"
+      },
+      {
+        "id": "rules-line-3",
+        "visible_dark_pixels": 24804,
+        "text": "and banish the other 2."
+      }
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "number": 67,
+  "id": "cell-067-orange-ally-drill",
+  "name": "Orange Ally Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-067-orange-ally-drill.svg",
+  "native_source_sha256": "d602de9f8c7b2d6612b6f2d2e745a87be4c7a38085c652bc042f5e7d931d69ed",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8293d7e49db8bb3006ba78050c84145bc956c11f827aff0e1c063cdf77549f74.png",
+      "sha256": "8293d7e49db8bb3006ba78050c84145bc956c11f827aff0e1c063cdf77549f74"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": true,
+    "source_native_sha256": "8619f02babbd397750aecde8b8d58bca89b3a8dd681b259460a160e358947035"
+  },
+  "rules": [
+    {
+      "text": "After you take damage from a successful",
+      "baseline": 1049.3,
+      "width": 799.6137500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "energy attack, search your Life Deck for an Ally",
+      "baseline": 1108.3,
+      "width": 845.9359999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "and place it in play at 4 stages above 0.",
+      "baseline": 1167.3,
+      "width": 703.297,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        289.592,
+        44.5,
+        479.817,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.733,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.533,
+        1392.65,
+        41.234,
+        33.708
+      ],
+      "rules-line-1": [
+        196.778,
+        1014.85,
+        731.696,
+        44.5954
+      ],
+      "power-icon": [
+        130.526,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        107.622,
+        1072.53,
+        843.757,
+        45.913
+      ],
+      "rules-line-3": [
+        179.199,
+        1131.53,
+        700.602,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          130.526,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          196.778,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          130.526,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-067-orange-ally-drill.webp",
+      "before_url": "/assets/cards/cell-067-orange-ally-drill.webp?v=a5383a33c077",
+      "before_git_blob_sha": "6701cdacce8fd273b5ca94fa64b4908c2ba5333f",
+      "after_sha256": "77528940d22aff743c90a5491112e52cc85a73035b4912f04b24cb951458edc7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-067-orange-ally-drill.webp",
+      "before_url": "/assets/cards/downloads/cell-067-orange-ally-drill.webp?v=18273fbeb834",
+      "before_git_blob_sha": "902360294d6e6b9d2d1a607cbf254194985b5367",
+      "after_sha256": "bedbc49a46f3a52a16a9d271340dc8d1244cc5543333432f7577236f58f5572d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 479.8167082294265,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

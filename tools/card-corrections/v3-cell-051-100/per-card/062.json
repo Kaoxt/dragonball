@@ -1,0 +1,234 @@
+{
+  "number": 62,
+  "id": "cell-062-red-dodge",
+  "name": "Red Dodge",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-062-red-dodge.svg",
+  "native_source_sha256": "e872d3b147a225d506bc830ee25ec6c57d29c81c000808f2b7e45cbf7abd4ede",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0e76099cd4c2d37a8e8c4c62fe459bc24546787281dc8b98539ea611914bda58.png",
+      "sha256": "0e76099cd4c2d37a8e8c4c62fe459bc24546787281dc8b98539ea611914bda58"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "9badf4250edf75c386b2c51b937b032832950094bffa46893b66b9c3ec16dbfb"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Banish the top 10",
+      "baseline": 1049.3,
+      "width": 786.034947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "cards of your opponent's discard pile. Raise your",
+      "baseline": 1108.3,
+      "width": 867.3000000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "anger 1 level.",
+      "baseline": 1167.3,
+      "width": 231.62300000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        372.056,
+        44.5,
+        314.888,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.177,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.976,
+        1392.65,
+        42.347,
+        33.708
+      ],
+      "rules-line-1": [
+        187.909,
+        1013.53,
+        733.873,
+        45.521
+      ],
+      "power-icon": [
+        137.218,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        96.7957,
+        1072.53,
+        865.409,
+        45.521
+      ],
+      "rules-line-3": [
+        415.036,
+        1133.0,
+        228.928,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          137.218,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          187.909,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          137.218,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-062-red-dodge.webp",
+      "before_url": "/assets/cards/cell-062-red-dodge.webp?v=8529b32a0257",
+      "before_git_blob_sha": "80e355240fc3e5cb1dd2a44407ff48eb8891aa46",
+      "after_sha256": "9745e9b5f074744ddc6b8d256e2a4aabf825a28644899eabc07c216207f00e4d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-062-red-dodge.webp",
+      "before_url": "/assets/cards/downloads/cell-062-red-dodge.webp?v=37f548d0f1cd",
+      "before_git_blob_sha": "0b7d0f3ac21238f83ddad86e6df362b0364ffa2d",
+      "after_sha256": "81a40e4020a4fa8d803b7bae0746c82309d0e34ae6fb42f0ed927f6bcef01f8c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 314.8877805486285,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

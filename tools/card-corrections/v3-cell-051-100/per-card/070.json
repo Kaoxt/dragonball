@@ -1,0 +1,198 @@
+{
+  "number": 70,
+  "id": "cell-070-the-car",
+  "name": "The Car",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-070-the-car.svg",
+  "native_source_sha256": "030fdf76c62beb9bd9b879cbec9a53224bf13c3af9e50eb1e42f30cf94bd254a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/93aae2b4de65014dedd866ed28de1bf00f7d957d41fa2df356a5eef43c2e5255.png",
+      "sha256": "93aae2b4de65014dedd866ed28de1bf00f7d957d41fa2df356a5eef43c2e5255"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "4de6b6d738ace70bbfcb215a0006669337ce7891739b9ba16324dc1265bddf90"
+  },
+  "rules": [
+    {
+      "text": "Banish an Ally in play. If your Main Personality is",
+      "baseline": 1049.3,
+      "width": 854.609,
+      "icon_inline": false
+    },
+    {
+      "text": "Android 17 or Android 18, banish 2 Allies in play",
+      "baseline": 1108.3,
+      "width": 823.8369999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "instead.",
+      "baseline": 1167.3,
+      "width": 143.031,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        417.44,
+        50.2213,
+        224.121,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.654,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.453,
+        1392.65,
+        41.393,
+        33.708
+      ],
+      "rules-line-1": [
+        103.69,
+        1013.53,
+        851.62,
+        45.521
+      ],
+      "rules-line-2": [
+        118.241,
+        1072.53,
+        822.519,
+        45.521
+      ],
+      "rules-line-3": [
+        459.504,
+        1131.53,
+        139.993,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-070-the-car.webp",
+      "before_url": "/assets/cards/cell-070-the-car.webp?v=1092c7022811",
+      "before_git_blob_sha": "d7512b1b81d9d5323f3ec90ba4574b59a24cdc7d",
+      "after_sha256": "d29a480242c34f6495536807836edafc847c7ffc824452f654efc5b2652028d6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-070-the-car.webp",
+      "before_url": "/assets/cards/downloads/cell-070-the-car.webp?v=784ca33da253",
+      "before_git_blob_sha": "e59672d591e15b924e6fa13964d8a4c1605fa4b6",
+      "after_sha256": "529fd019cdce5b18496d2098c6906b0c48c464e4fb0680fdcb4738fa67ab1771",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 224.12094763092273,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

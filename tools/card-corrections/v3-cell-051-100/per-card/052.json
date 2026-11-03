@@ -1,0 +1,246 @@
+{
+  "number": 52,
+  "id": "cell-052-orange-energy-discharge",
+  "name": "Orange Energy Discharge",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-052-orange-energy-discharge.svg",
+  "native_source_sha256": "c0bac22c378e11ee4ba052c5147988a03dcbaaedbc51716c2af77cde9187400b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fe0557448478546a004d654d3a4bf1c09be7fb7ea1fd3c5f37b6d54364425945.png",
+      "sha256": "fe0557448478546a004d654d3a4bf1c09be7fb7ea1fd3c5f37b6d54364425945"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "7b14ceec9d938f870a87d20e61c5498806068655e44bc086bde0f0b4bd50ef4b"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards.",
+      "baseline": 1108.3,
+      "width": 375.04600000000005,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent cannot use Energy Combat cards",
+      "baseline": 1167.3,
+      "width": 853.7270000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "to stop this attack.",
+      "baseline": 1226.3,
+      "width": 336.87500000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        45.1835,
+        740.0,
+        67.633
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.336,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.135,
+        1392.65,
+        42.029,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        343.839,
+        1072.53,
+        371.322,
+        36.162
+      ],
+      "rules-line-3": [
+        103.641,
+        1132.61,
+        851.718,
+        44.835
+      ],
+      "rules-line-4": [
+        362.165,
+        1190.53,
+        334.67,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-052-orange-energy-discharge.webp",
+      "before_url": "/assets/cards/cell-052-orange-energy-discharge.webp?v=9d826ce96c3a",
+      "before_git_blob_sha": "a606d20e1b801b1c90f522e64b538cb9e78cce77",
+      "after_sha256": "ad98d7461b34efeff974b959e6c0e6074778bcf1c19724d88862cd9ffc7e50e8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-052-orange-energy-discharge.webp",
+      "before_url": "/assets/cards/downloads/cell-052-orange-energy-discharge.webp?v=3050df225602",
+      "before_git_blob_sha": "2a2e43a0fb60d88437deea8e17443f619b9f9d26",
+      "after_sha256": "3177e5a3c39c4f34f223e8c2e696c4c4639f8cf9e329f07b962beb8b04f7afa6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 84.33048433048432,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.9999999999999,
+      "visible_height": 67.63304843304843,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9801891077253395
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

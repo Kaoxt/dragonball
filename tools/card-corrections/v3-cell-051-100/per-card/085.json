@@ -1,0 +1,308 @@
+{
+  "number": 85,
+  "id": "cell-085-yamcha-the-battler",
+  "name": "Yamcha, the Battler",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-085-yamcha-the-battler.svg",
+  "native_source_sha256": "9bb2cf6724238ada483367755399e62f5cb162f12e8b77f6cfe8b52f267223e2",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a88a410be227fe0b0e59e7854932f4fcc786ed2ca231ee12db46d582913a4459.png",
+      "sha256": "a88a410be227fe0b0e59e7854932f4fcc786ed2ca231ee12db46d582913a4459"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "16e0a53574093dd3f2428014e35ab2d1259f9223d7279132d8101b9380de583b"
+  },
+  "rules": [
+    {
+      "text": "All energy attacks performed by Yamcha deal",
+      "baseline": 1049.3,
+      "width": 875.56375,
+      "icon_inline": true
+    },
+    {
+      "text": "+2 stages of damage.",
+      "baseline": 1108.3,
+      "width": 380.53400000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        892.82,
+        160.009,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-1": [
+        889.978,
+        224.691,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-2": [
+        895.613,
+        289.373,
+        135.387,
+        38.269
+      ],
+      "power-stage-value-3": [
+        891.35,
+        354.054,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-4": [
+        893.506,
+        418.736,
+        137.494,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.664,
+        483.418,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-6": [
+        901.493,
+        548.1,
+        129.507,
+        38.269
+      ],
+      "power-stage-value-7": [
+        897.23,
+        612.782,
+        133.77,
+        38.269
+      ],
+      "power-stage-value-8": [
+        899.386,
+        677.463,
+        131.614,
+        38.269
+      ],
+      "power-stage-value-9": [
+        896.544,
+        742.145,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        230.615,
+        43.9838,
+        597.771,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.329,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.129,
+        1392.65,
+        44.043,
+        33.708
+      ],
+      "rules-line-1": [
+        158.803,
+        1014.85,
+        807.646,
+        44.5954
+      ],
+      "power-icon": [
+        92.5511,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        340.605,
+        1073.61,
+        377.79,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          92.5511,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          158.803,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          92.5511,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-085-yamcha-the-battler.webp",
+      "before_url": "/assets/cards/cell-085-yamcha-the-battler.webp?v=0a53957fd110",
+      "before_git_blob_sha": "a0ad5972ab62d72cdf6d55298249f03b60664af0",
+      "after_sha256": "21599a551105206a5930c195b7f933d4affd9e195b695516f797b16d736e8779",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-085-yamcha-the-battler.webp",
+      "before_url": "/assets/cards/downloads/cell-085-yamcha-the-battler.webp?v=f053e44b4cef",
+      "before_git_blob_sha": "1c620cb056d4424b3599781bafb46e693736504b",
+      "after_sha256": "c282e0befb707b4b0bddd519ec3eb1ce4cdd9ad7c61e6c74a1a81a568e174372",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 597.7705735660849,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

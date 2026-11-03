@@ -1,0 +1,192 @@
+{
+  "number": 73,
+  "id": "cell-073-dende-dragon-ball-3",
+  "name": "Dende Dragon Ball 3",
+  "family": "DRAGON BALL",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-073-dende-dragon-ball-3.svg",
+  "native_source_sha256": "0f869caf48fa49d25c7a2d4e824ac0cbf2d8fae4d8e31d816115bf425207bb52",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e.png",
+      "sha256": "679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "approved Dende full-art exception",
+    "approved_artwork_exception": true,
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "additional_zoom": false,
+    "localized_correction": null,
+    "background_gain": 1,
+    "source_native_sha256": "c12336aa413eb2c4d6ad954daa529d6369b7eea343b431cc264b7bc52fbf0ad7"
+  },
+  "rules": [
+    {
+      "text": "Raise your Main Personality to its highest stage.",
+      "baseline": 1049.3,
+      "width": 852.159,
+      "icon_inline": false
+    },
+    {
+      "text": "Draw the top 3 cards of your discard pile.",
+      "baseline": 1108.3,
+      "width": 732.403,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        229.324,
+        44.5,
+        600.352,
+        69.0
+      ],
+      "card-category": [
+        318.814,
+        891.391,
+        421.372,
+        34.2188
+      ],
+      "dragon-ball-left-emblem": [
+        12.0,
+        769.0,
+        236.0,
+        236.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        797.369,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.169,
+        1392.65,
+        39.962,
+        33.708
+      ],
+      "rules-line-1": [
+        105.283,
+        1013.53,
+        848.435,
+        45.913
+      ],
+      "rules-line-2": [
+        165.161,
+        1072.53,
+        728.679,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-073-dende-dragon-ball-3.webp",
+      "before_url": "/assets/cards/cell-073-dende-dragon-ball-3.webp?v=925722ceb604",
+      "before_git_blob_sha": "58c97658bded02fa61fd0526351d8f916acc3c86",
+      "after_sha256": "a4853b08dc7e44a0e188121225cdfc913756b83c34c19bc20868378946bdd9ff",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-073-dende-dragon-ball-3.webp",
+      "before_url": "/assets/cards/downloads/cell-073-dende-dragon-ball-3.webp?v=18c9caec3eb5",
+      "before_git_blob_sha": "6e35070d55f88143c467de28bdf1951544592e46",
+      "after_sha256": "247120bd60a2b681759f6e8ca69d64cf9cb83fe1ba91068f822ad987016de391",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 600.351620947631,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRAGON BALL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        421.3723,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

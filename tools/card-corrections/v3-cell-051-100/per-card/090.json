@@ -1,0 +1,320 @@
+{
+  "number": 90,
+  "id": "cell-090-android-19",
+  "name": "Android 19",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-090-android-19.svg",
+  "native_source_sha256": "e64a828515ddf0acec53d99128d29b5529c79ac7685ae0370a0eb6dd7280cb96",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e59af5aa9669f1d96b8a3e0d8470265fc09b95d27e5bd68f2aaf78292a45041c.png",
+      "sha256": "e59af5aa9669f1d96b8a3e0d8470265fc09b95d27e5bd68f2aaf78292a45041c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "fe81df77fcbab77dedc7c0cd31d4d0a15befbb66962a33690d0e0c157a89ed39"
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. If you declared an",
+      "baseline": 1049.3,
+      "width": 800.2939473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Orange Tokui-Waza, gain 3 stages.",
+      "baseline": 1108.3,
+      "width": 614.3620000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.124,
+        157.656,
+        141.876,
+        32.802
+      ],
+      "power-stage-value-1": [
+        894.374,
+        212.387,
+        136.626,
+        32.802
+      ],
+      "power-stage-value-2": [
+        887.276,
+        267.118,
+        143.724,
+        32.802
+      ],
+      "power-stage-value-3": [
+        909.62,
+        321.849,
+        121.38,
+        32.802
+      ],
+      "power-stage-value-4": [
+        909.578,
+        376.579,
+        121.422,
+        32.802
+      ],
+      "power-stage-value-5": [
+        911.888,
+        431.31,
+        119.112,
+        32.802
+      ],
+      "power-stage-value-6": [
+        909.872,
+        486.041,
+        121.128,
+        32.802
+      ],
+      "power-stage-value-7": [
+        910.124,
+        540.772,
+        120.876,
+        32.802
+      ],
+      "power-stage-value-8": [
+        908.486,
+        595.503,
+        122.514,
+        32.802
+      ],
+      "power-stage-value-9": [
+        910.124,
+        650.233,
+        120.876,
+        32.802
+      ],
+      "power-stage-value-10": [
+        910.712,
+        704.964,
+        120.288,
+        32.802
+      ],
+      "power-stage-value-11": [
+        915.752,
+        759.695,
+        115.248,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        373.605,
+        50.2213,
+        311.791,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        180.878,
+        1014.61,
+        747.936,
+        44.835
+      ],
+      "power-icon": [
+        130.186,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        223.936,
+        1072.53,
+        611.128,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          130.186,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          180.878,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          130.186,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-090-android-19.webp",
+      "before_url": "/assets/cards/cell-090-android-19.webp?v=6cd3ec0c2858",
+      "before_git_blob_sha": "aba367e89c33027cbe458576c7b6daffce38f69a",
+      "after_sha256": "4cdd0a43eaccf49702402114f9c2e6f8fbf54684da1b1e0e6b1260e2ec39e724",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-090-android-19.webp",
+      "before_url": "/assets/cards/downloads/cell-090-android-19.webp?v=ad57124593f6",
+      "before_git_blob_sha": "21a35c4034cb9a96395922f84630f7fa0504e5bd",
+      "after_sha256": "abc0567930a0792b74690e28667c52b53170feca2f4434729bfaac5d31410dc7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 311.7905236907731,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

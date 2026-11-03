@@ -1,0 +1,222 @@
+{
+  "number": 66,
+  "id": "cell-066-blue-wrist-block",
+  "name": "Blue Wrist Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-066-blue-wrist-block.svg",
+  "native_source_sha256": "41dc743fd3bfeb276628b099f3d9148f919442677e22007397897d480c1ae943",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8e71ee1e54cb570ebd6d3ffe85c4fe8bcc8189fa594d320edf6eefa2429ba3f2.png",
+      "sha256": "8e71ee1e54cb570ebd6d3ffe85c4fe8bcc8189fa594d320edf6eefa2429ba3f2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "c011fc18a1f6c3bbbdd27d418a117c5242aa3711a93f58e04e218203198d0dc9"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Discard 1 of your",
+      "baseline": 1049.3,
+      "width": 780.301947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "opponent's Setups or Drills.",
+      "baseline": 1108.3,
+      "width": 485.0510000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        279.698,
+        50.2213,
+        499.605,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.408,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.208,
+        1392.65,
+        43.884,
+        33.708
+      ],
+      "rules-line-1": [
+        190.227,
+        1013.53,
+        729.238,
+        45.521
+      ],
+      "power-icon": [
+        139.535,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        288.518,
+        1072.53,
+        481.964,
+        44.884
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          139.535,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          190.227,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          139.535,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-066-blue-wrist-block.webp",
+      "before_url": "/assets/cards/cell-066-blue-wrist-block.webp?v=48c75ac069df",
+      "before_git_blob_sha": "3c29090d74033b7d47cb4c09849bd62cd1fbe0b4",
+      "after_sha256": "403bd741599577bdc83f0bba42a56776baa1277fdb3313933d15722640cfb564",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-066-blue-wrist-block.webp",
+      "before_url": "/assets/cards/downloads/cell-066-blue-wrist-block.webp?v=83a49437ae9a",
+      "before_git_blob_sha": "50edf6288d0f05d652b44672d8699164afe23e5d",
+      "after_sha256": "14b37acfcb63c3d3ae1902420d2d45ad0b85ef329b586637819ed18d229d065d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 499.60473815461353,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

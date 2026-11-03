@@ -1,0 +1,186 @@
+{
+  "number": 80,
+  "id": "cell-080-gohan-s-stance",
+  "name": "Gohan's Stance",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-080-gohan-s-stance.svg",
+  "native_source_sha256": "75485fe3c15193e30685d231e55c306af546ab61eeb265c4183580479af77ea3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/49b98df0a9dc5df3b56e7314cd5f5b31ed58eae732e440560af77b4859896e60.png",
+      "sha256": "49b98df0a9dc5df3b56e7314cd5f5b31ed58eae732e440560af77b4859896e60"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "6dfafa5fb1fd1ec6af7fd0be821328f924ee011594005277d08920d59c8a082b"
+  },
+  "rules": [
+    {
+      "text": "The next physical attack you perform this Combat",
+      "baseline": 1049.3,
+      "width": 889.3499999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "deals +4 life cards of damage.",
+      "baseline": 1108.3,
+      "width": 536.3050000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        298.926,
+        50.2213,
+        461.147,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.196,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.996,
+        1392.65,
+        44.308,
+        33.708
+      ],
+      "rules-line-1": [
+        85.8785,
+        1013.53,
+        887.243,
+        45.521
+      ],
+      "rules-line-2": [
+        262.891,
+        1072.53,
+        533.218,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-080-gohan-s-stance.webp",
+      "before_url": "/assets/cards/cell-080-gohan-s-stance.webp?v=b733b0b33858",
+      "before_git_blob_sha": "a2d5c338f98ee025bcdc6fd0b2f8aa0a804f5c15",
+      "after_sha256": "c4ab37d6b37910854157a44e35fcfc7410a32661dfd7a70032806e7ea1bba827",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-080-gohan-s-stance.webp",
+      "before_url": "/assets/cards/downloads/cell-080-gohan-s-stance.webp?v=240e480ff852",
+      "before_git_blob_sha": "effa9358279737f0cb792bc500e931087696a735",
+      "after_sha256": "d5ea15793b7a9daba1fd14e41f3ef6830ab56f265c3587c2070c6555773b3c0e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 461.14713216957614,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

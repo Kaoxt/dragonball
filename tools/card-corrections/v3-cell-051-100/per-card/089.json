@@ -1,0 +1,332 @@
+{
+  "number": 89,
+  "id": "cell-089-krillin-the-friend",
+  "name": "Krillin, the Friend",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-089-krillin-the-friend.svg",
+  "native_source_sha256": "df0c7df6486583fe6541b5d1a0d6d45cc320463de07dd6374326b7103f79f22e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/18f242f22c6a55246ffa17954495abc0746723f0e1d19c64cd473adae50dd23a.png",
+      "sha256": "18f242f22c6a55246ffa17954495abc0746723f0e1d19c64cd473adae50dd23a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "eccf5e58a072b163f6290d637686f815d07f9c19ea6e2d96ed6dad0463788fb5"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages.",
+      "baseline": 1049.3,
+      "width": 614.2731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If you declared a Blue Tokui-Waza, lower",
+      "baseline": 1167.3,
+      "width": 723.6320000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 554.288,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.978,
+        160.009,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-1": [
+        893.016,
+        224.691,
+        137.984,
+        38.269
+      ],
+      "power-stage-value-2": [
+        888.753,
+        289.373,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.909,
+        354.054,
+        140.091,
+        38.269
+      ],
+      "power-stage-value-4": [
+        888.067,
+        418.736,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-5": [
+        894.927,
+        483.418,
+        136.073,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.664,
+        548.1,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-7": [
+        892.82,
+        612.782,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.978,
+        677.463,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-9": [
+        895.613,
+        742.145,
+        135.387,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        273.288,
+        43.9838,
+        512.424,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.435,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.235,
+        1392.65,
+        43.831,
+        33.708
+      ],
+      "rules-line-1": [
+        277.743,
+        1013.53,
+        558.11,
+        45.913
+      ],
+      "power-icon": [
+        223.147,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-3": [
+        168.948,
+        1131.53,
+        721.104,
+        45.521
+      ],
+      "rules-line-4": [
+        253.459,
+        1191.61,
+        552.083,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          277.743,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.147,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-089-krillin-the-friend.webp",
+      "before_url": "/assets/cards/cell-089-krillin-the-friend.webp?v=db6d276ee7e9",
+      "before_git_blob_sha": "2490b255c3464cec4760bdb2c3d66054bd5df13d",
+      "after_sha256": "f52e8a7e0a648c2caeb8d721a977ab6d24103da32fb024d1ceb577724cc40d4a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-089-krillin-the-friend.webp",
+      "before_url": "/assets/cards/downloads/cell-089-krillin-the-friend.webp?v=a9c55e6a4ad2",
+      "before_git_blob_sha": "e955e2597dfdf5452b414b4390c4691d0b63a6e8",
+      "after_sha256": "5a1355ef4debf51ce8f2150a5dee8f30834519e19090ae8180c09c7ea5687e80",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 512.423940149626,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "number": 61,
+  "id": "cell-061-orange-solar-flare",
+  "name": "Orange Solar Flare",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-061-orange-solar-flare.svg",
+  "native_source_sha256": "9f28d1387db29cfedbcffe218ec19dced11d11316d56dfe6b5821c9c61121ca5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c201661f75fe1030da6504033d97fb7d44114fcbfaa6dba9f6fd27180e376631.png",
+      "sha256": "c201661f75fe1030da6504033d97fb7d44114fcbfaa6dba9f6fd27180e376631"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "0ff773c25c6840be44485aca286975f65e5fe517f11a3b63684a571b4714cfe2"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards +3 stages.",
+      "baseline": 1108.3,
+      "width": 559.0900000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        253.715,
+        44.5,
+        551.57,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        799.966,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.766,
+        1392.65,
+        34.768,
+        33.708
+      ],
+      "rules-line-1": [
+        278.159,
+        1013.53,
+        557.277,
+        45.913
+      ],
+      "power-icon": [
+        223.564,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        251.817,
+        1072.53,
+        555.366,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.159,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-061-orange-solar-flare.webp",
+      "before_url": "/assets/cards/cell-061-orange-solar-flare.webp?v=1bf4ea2aefd3",
+      "before_git_blob_sha": "d16349553f48429f4788bf882f7732235c3f805f",
+      "after_sha256": "d698834e58393b2646967e052f10884090df2a1d1ea71363f938206c6428290c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-061-orange-solar-flare.webp",
+      "before_url": "/assets/cards/downloads/cell-061-orange-solar-flare.webp?v=bdae64abf82d",
+      "before_git_blob_sha": "933a496217f49422e1045c0f39d2755907e5e4c5",
+      "after_sha256": "0d05e165dc8bbd0c208dc5c1b3442804837c15d7b73ab31c182add6314c0aba1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 551.569825436409,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

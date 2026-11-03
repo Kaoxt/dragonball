@@ -1,3 +1,7 @@
+## Cell Saga 051–100 — November 3, 2026
+
+Cell cards 51–100 use current V3. Native sources are in `tools/card-templates/v3/cell-051-100/`, with original scans, CRD, artwork and independent export evidence in `tools/card-corrections/v3-cell-051-100/`. All fifty retain three-star Uncommon rarity and the Cell emblem. Preserve the corrected printed categories: Black Dodge #51 is Physical Combat; Ally Rescue #83 is Setup. The eleven Personalities retain original Level/PUR/stages; Android 19 #90/#95/#98 have thirteen rows including zero, within the same column footprint. Dende Dragon Balls #73–75 keep the approved full-art illustration and identity mapping, with three/four/five-star left orbs. Earlier artwork corrections on #67/#98 remain byte-identical. Both lossless resolutions match independent native renders. Fine original-scan details remain explicitly unresolved per card. Cell cards 101 onward retain their existing versions.
+
 ## Ultra Rare live foil — November 3, 2026
 
 All 17 Ultra Rares use the approved brushed reflective finish in the shared Cards, Decks and Arena enlarged viewer. Read `docs/ultra-rare-foil.md` before changing the effect. Preserve 1.8× brush strength, original colours, reflective black bars, clear rules/white text, natural aura edges without an embossed rim, and the existing Hi-Tech path. Select by catalog rarity; Saiyan 247–250 have their confirmed missing labels restored. Artwork and download rasters remain unchanged. Subject masks are pinned to exact artwork revisions and must be reviewed when art changes.

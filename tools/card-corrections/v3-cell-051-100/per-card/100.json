@@ -1,0 +1,198 @@
+{
+  "number": 100,
+  "id": "cell-100-speaking-with-the-king-drill",
+  "name": "Speaking with the King Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-100-speaking-with-the-king-drill.svg",
+  "native_source_sha256": "f90c829a59ad72036c0c68739da948b45f1ce3ff7af11290e57e04ad986bef2e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd6974d992656b34d0d5b37fb3e2ad8d570ee0d9ffe1be56614a8c53ba73c916.png",
+      "sha256": "fd6974d992656b34d0d5b37fb3e2ad8d570ee0d9ffe1be56614a8c53ba73c916"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "4d3a7a89d352cbf50c443fe563819a698df26f844034f14b2d5a56ab6e8a7e53"
+  },
+  "rules": [
+    {
+      "text": "Once per turn, in place of an attack, look at the",
+      "baseline": 1049.3,
+      "width": 833.539,
+      "icon_inline": false
+    },
+    {
+      "text": "top 3 cards of your Life Deck. Put 1 in your hand",
+      "baseline": 1108.3,
+      "width": 844.025,
+      "icon_inline": false
+    },
+    {
+      "text": "and banish the other 2.",
+      "baseline": 1167.3,
+      "width": 408.12100000000004,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        48.1827,
+        740.0,
+        61.6346
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        786.928,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.728,
+        1392.65,
+        60.844,
+        33.708
+      ],
+      "rules-line-1": [
+        114.225,
+        1013.53,
+        830.55,
+        44.884
+      ],
+      "rules-line-2": [
+        108.737,
+        1072.53,
+        841.526,
+        45.521
+      ],
+      "rules-line-3": [
+        326.787,
+        1131.53,
+        405.426,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-100-speaking-with-the-king-drill.webp",
+      "before_url": "/assets/cards/cell-100-speaking-with-the-king-drill.webp?v=8f2c89995919",
+      "before_git_blob_sha": "3e340fedc78d9f3f01b3f3999a478767739f4a9b",
+      "after_sha256": "4eb234e5fb96b67305162ab61950b22ca06f77c458b67cbbbfd554e8ce5ef69b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-100-speaking-with-the-king-drill.webp",
+      "before_url": "/assets/cards/downloads/cell-100-speaking-with-the-king-drill.webp?v=4aee64530599",
+      "before_git_blob_sha": "b59bec63f644d7911aad68afec2854ff570137ed",
+      "after_sha256": "8c6e12648d9487c80fac22fb7e81d2343c9f357c2e2bbaf37f445ab676092b94",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 76.85117873091703,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0000000000001,
+      "visible_height": 61.634645342195455,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.8932557295970355
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

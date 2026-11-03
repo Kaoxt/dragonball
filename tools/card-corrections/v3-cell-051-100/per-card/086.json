@@ -1,0 +1,308 @@
+{
+  "number": 86,
+  "id": "cell-086-tien-the-swift",
+  "name": "Tien, the Swift",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-086-tien-the-swift.svg",
+  "native_source_sha256": "2694634d5112c74615bde1e53736ed22ddef4eb0e5c6aa3b17d517a37473d6ca",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ea3703bb65115ca06c5913843e2cd9f25ec88f3f65e60c32c3196cd582c5d0cf.png",
+      "sha256": "ea3703bb65115ca06c5913843e2cd9f25ec88f3f65e60c32c3196cd582c5d0cf"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "60a25c34d24ec77db245fe25d7c3bd37df66df3d59f2a954baf9db4957747abc"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 1 stage.",
+      "baseline": 1049.3,
+      "width": 585.8041555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        888.067,
+        160.009,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.321,
+        224.691,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-2": [
+        892.134,
+        289.373,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.762,
+        354.054,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.958,
+        418.736,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.664,
+        483.418,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-6": [
+        896.887,
+        548.1,
+        134.113,
+        38.269
+      ],
+      "power-stage-value-7": [
+        898.7,
+        612.782,
+        132.3,
+        38.269
+      ],
+      "power-stage-value-8": [
+        911.832,
+        677.463,
+        119.168,
+        38.269
+      ],
+      "power-stage-value-9": [
+        910.558,
+        742.145,
+        120.442,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        313.509,
+        43.9838,
+        431.981,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        291.977,
+        1013.53,
+        529.641,
+        45.913
+      ],
+      "power-icon": [
+        237.382,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          237.382,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          291.977,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          237.382,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-086-tien-the-swift.webp",
+      "before_url": "/assets/cards/cell-086-tien-the-swift.webp?v=bec30870ee54",
+      "before_git_blob_sha": "f8d375e4e97e695446e9cdff6f363bef1629be88",
+      "after_sha256": "9d7de77601110d61df22e6379982ad9387ca408a9ab7891a53f0e32a157ada64",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-086-tien-the-swift.webp",
+      "before_url": "/assets/cards/downloads/cell-086-tien-the-swift.webp?v=5313b4ef17cc",
+      "before_git_blob_sha": "5ce362608d8be5c325d936e8ef5dca6bbc9d7a15",
+      "after_sha256": "c2632f7f5b04c3dffd310884ab6f80c8a8cfbcce6a78f9957530af302ed037d4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": false,
+    "report": null
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 431.9812967581048,
+      "visible_height": 70.03241895261846,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

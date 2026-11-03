@@ -1,0 +1,198 @@
+{
+  "number": 82,
+  "id": "cell-082-cell-s-android-absorption",
+  "name": "Cell's Android Absorption",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-082-cell-s-android-absorption.svg",
+  "native_source_sha256": "daa1c65c9aebb3bd915a3f583c91bfe9dd56e9f38f2c541086da412994ec3cc7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6d2155dda891ecc61349aa2c3a3619b04129a8f9cc876381506c34ad0832f65c.png",
+      "sha256": "6d2155dda891ecc61349aa2c3a3619b04129a8f9cc876381506c34ad0832f65c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "2c6b394443df4b566efc1899a6f3e2f8c3e538ed90b4d765031d28f5297053b5"
+  },
+  "rules": [
+    {
+      "text": "Cell only. If Android 17 or Android 18 is in play",
+      "baseline": 1049.3,
+      "width": 793.8979999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "as an Ally, banish 1 of them.",
+      "baseline": 1108.3,
+      "width": 489.85300000000007,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise Cell to his highest stage.",
+      "baseline": 1167.3,
+      "width": 541.695,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.5,
+        45.3941,
+        740.0,
+        67.2118
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        133.714,
+        1013.53,
+        791.572,
+        45.521
+      ],
+      "rules-line-2": [
+        285.921,
+        1072.53,
+        487.158,
+        45.521
+      ],
+      "rules-line-3": [
+        260.514,
+        1131.53,
+        537.971,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-082-cell-s-android-absorption.webp",
+      "before_url": "/assets/cards/cell-082-cell-s-android-absorption.webp?v=69d49006ac16",
+      "before_git_blob_sha": "15c9c6b6962dfc8f32bd107a324eb46d402e6df0",
+      "after_sha256": "2abc10c9dc7fa834b4a2ce2efe158314797aabcd9293d7221cdfed21606b194b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-082-cell-s-android-absorption.webp",
+      "before_url": "/assets/cards/downloads/cell-082-cell-s-android-absorption.webp?v=9f203f6f74a4",
+      "before_git_blob_sha": "ae810ffce5399a5562016c023cf014ac54f66334",
+      "after_sha256": "140142f75a0263f3563942ed41e4482f52bb1c33cbe8e2e728bb8794aa029298",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.80520951302378,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 740.0,
+      "visible_height": 67.21177802944507,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 0.9740837395571749
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "number": 72,
+  "id": "cell-072-capsule-corp-ship",
+  "name": "Capsule Corp. Ship",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-072-capsule-corp-ship.svg",
+  "native_source_sha256": "a067170df7146b00da7e745c62e4968d0f2c7a5959c2a28c6e3552a50ad91ba8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/77886525a0ee714c5c97b7a4137c7af72e58c44e71ea81d4c0e3b6839450e417.png",
+      "sha256": "77886525a0ee714c5c97b7a4137c7af72e58c44e71ea81d4c0e3b6839450e417"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "d9e45db86900a44797d541bf28f9188a10d0b40181b30442b5bfc2daf9776f78"
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Raise any personality in play to its",
+      "baseline": 1049.3,
+      "width": 838.7819999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "highest stage.",
+      "baseline": 1108.3,
+      "width": 251.958,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        251.005,
+        44.5,
+        556.99,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        797.449,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.248,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        111.604,
+        1013.53,
+        835.793,
+        45.521
+      ],
+      "rules-line-2": [
+        405.236,
+        1072.53,
+        248.528,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-072-capsule-corp-ship.webp",
+      "before_url": "/assets/cards/cell-072-capsule-corp-ship.webp?v=ce00c267855a",
+      "before_git_blob_sha": "d5f904a5f765f582915739fdd76cec461ca5a7a2",
+      "after_sha256": "ca788e3c77bbef58ecd84972a2b23d96b2b4263c1d7d6d01bba78d1c0aac7458",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-072-capsule-corp-ship.webp",
+      "before_url": "/assets/cards/downloads/cell-072-capsule-corp-ship.webp?v=248fd9028542",
+      "before_git_blob_sha": "9c0a24ad656ea9cd51ebb93c2a8c2ed7ceb65a33",
+      "after_sha256": "8a3a494f283173731d59bde8428d23ecf8a66fdaad10fdd2011790a3e0d1ed3b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 556.9900249376559,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

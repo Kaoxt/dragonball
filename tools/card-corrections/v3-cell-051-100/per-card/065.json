@@ -1,0 +1,234 @@
+{
+  "number": 65,
+  "id": "cell-065-blue-flip",
+  "name": "Blue Flip",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-065-blue-flip.svg",
+  "native_source_sha256": "98e15841b08c0b1b68f5640863bc6b208626e2eed841010041a15f1e98c85b13",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3cd477dc0d0acedd15c88e2615e2b0cc43952b496bcee71a743ea3b88e63ae96.png",
+      "sha256": "3cd477dc0d0acedd15c88e2615e2b0cc43952b496bcee71a743ea3b88e63ae96"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "5fdc060d6ab95aa9691a39fb2276d42e9c0a706e85c71a0338da5d246eb46fad"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. Place the bottom card",
+      "baseline": 1049.3,
+      "width": 877.468947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "of your discard pile on the bottom of your Life",
+      "baseline": 1108.3,
+      "width": 814.233,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck. Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 754.8449999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        402.685,
+        44.5,
+        253.631,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.514,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.314,
+        1392.65,
+        43.672,
+        33.708
+      ],
+      "rules-line-1": [
+        142.388,
+        1013.53,
+        824.915,
+        45.521
+      ],
+      "power-icon": [
+        91.6965,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        123.805,
+        1072.53,
+        811.391,
+        45.521
+      ],
+      "rules-line-3": [
+        153.94,
+        1133.0,
+        751.121,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          91.6965,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          142.388,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          91.6965,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-065-blue-flip.webp",
+      "before_url": "/assets/cards/cell-065-blue-flip.webp?v=b2091a653e75",
+      "before_git_blob_sha": "583e73a32d55d814e37360324de157f00b894dde",
+      "after_sha256": "db4daff8573ead0f1ff4f12c307b4a61cd0c0cddc270e06dddedc06e4683e557",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-065-blue-flip.webp",
+      "before_url": "/assets/cards/downloads/cell-065-blue-flip.webp?v=24795e4d9318",
+      "before_git_blob_sha": "37d1530d09dba78aa021a431971244b19a34edf4",
+      "after_sha256": "6e26f2851f3a8b5d66052ba651c81c64c5a2e1687eb63a2ea2db13a2ccadbeba",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 253.63092269326688,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

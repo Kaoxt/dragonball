@@ -1,0 +1,222 @@
+{
+  "number": 58,
+  "id": "cell-058-namekian-rock-crush",
+  "name": "Namekian Rock Crush",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-051-100/cell-058-namekian-rock-crush.svg",
+  "native_source_sha256": "e95e37fbcabf8c7000c9a2138e60d636c4b46abf3fd57fb32b0c57611f29d255",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fa2ca0837aa12b4523d24bb1ba29f0788aa65ebf340f7cb81b6e71d3b27ba5f1.png",
+      "sha256": "fa2ca0837aa12b4523d24bb1ba29f0788aa65ebf340f7cb81b6e71d3b27ba5f1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "931bd0acca38d7423a0318dbd5f4dbed001f3760017d7aa338f3e3d2fc143c09"
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 640.1941555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards.",
+      "baseline": 1108.3,
+      "width": 375.04600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        203.17,
+        50.2213,
+        652.661,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        264.733,
+        1013.53,
+        584.08,
+        45.913
+      ],
+      "power-icon": [
+        210.187,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        343.839,
+        1072.53,
+        371.322,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          210.187,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          264.733,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          210.187,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-058-namekian-rock-crush.webp",
+      "before_url": "/assets/cards/cell-058-namekian-rock-crush.webp?v=ce77fce21b30",
+      "before_git_blob_sha": "6f70b81293c30401ceb14f0d25788ddfe86ca9b6",
+      "after_sha256": "0723662ca1999574e84a47d884a5e3241003250a4b3006a5f1cba3594fd5aae1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-058-namekian-rock-crush.webp",
+      "before_url": "/assets/cards/downloads/cell-058-namekian-rock-crush.webp?v=f0b7a3e6817b",
+      "before_git_blob_sha": "9fc9593e73c9c54a381112f53d6f98f9ce498792",
+      "after_sha256": "2068d875211d83ecba5d345a5784cdd8243aacc4b21caa526956b3e0c5c2208d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 652.6608478802993,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}
