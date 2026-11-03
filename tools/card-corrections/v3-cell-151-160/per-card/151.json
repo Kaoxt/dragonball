@@ -1,0 +1,258 @@
+{
+  "number": 151,
+  "id": "cell-151-namekian-fist-smash",
+  "name": "Namekian Fist Smash",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-151-160/cell-151-namekian-fist-smash.svg",
+  "native_source_sha256": "7e1b702d6738879be28a75d64749583213e6fd1249029f86f153084067dc04c8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9e20b3038aac5ba99c8b361bebd8e5386690531827c0334942745ee27b4149da.png",
+      "sha256": "9e20b3038aac5ba99c8b361bebd8e5386690531827c0334942745ee27b4149da"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "1bb607a38f901230daf0d945064ea62b9ae205b4ae872b976dc7ff0a1aa91225"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages. If you",
+      "baseline": 1049.3,
+      "width": 862.3111555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "declared a Toku-Waza, for each life card of",
+      "baseline": 1108.3,
+      "width": 769.349,
+      "icon_inline": false
+    },
+    {
+      "text": "damage dealt, place a card from your discard",
+      "baseline": 1167.3,
+      "width": 808.255,
+      "icon_inline": false
+    },
+    {
+      "text": "pile on the bottom of your Life Deck.",
+      "baseline": 1226.3,
+      "width": 643.566,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1285.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        207.945,
+        50.2213,
+        643.111,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        791.884,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.683,
+        1392.65,
+        50.933,
+        33.708
+      ],
+      "rules-line-1": [
+        153.822,
+        1013.53,
+        805.903,
+        45.913
+      ],
+      "power-icon": [
+        99.2754,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        146.099,
+        1072.53,
+        766.801,
+        40.572
+      ],
+      "rules-line-3": [
+        127.063,
+        1131.53,
+        804.874,
+        45.913
+      ],
+      "rules-line-4": [
+        209.505,
+        1190.53,
+        639.989,
+        45.521
+      ],
+      "rules-line-5": [
+        380.589,
+        1249.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          99.2754,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          153.822,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          99.2754,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-151-namekian-fist-smash.webp",
+      "before_url": "/assets/cards/cell-151-namekian-fist-smash.webp?v=a592f9271a7b",
+      "before_git_blob_sha": "2719ce07845d0cb6d873fb1c035bd5a89790a704",
+      "after_sha256": "f373c9d5fe068572e5e3b8a3c4661839dfd765d407108a48ac32f39700115c6c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-151-namekian-fist-smash.webp",
+      "before_url": "/assets/cards/downloads/cell-151-namekian-fist-smash.webp?v=08df60bf4598",
+      "before_git_blob_sha": "150a20190b74e7866384374e75ad45ee2ed928ae",
+      "after_sha256": "ab4b81428dc79d4761c393e3fc0657113ee79c8ad6cb8093921e9a613c76ee03",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 643.1109725685786,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

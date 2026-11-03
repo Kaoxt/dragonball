@@ -1,0 +1,186 @@
+{
+  "number": 158,
+  "id": "cell-158-cell-s-presence",
+  "name": "Cell's Presence",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-151-160/cell-158-cell-s-presence.svg",
+  "native_source_sha256": "60073351ecdd5b7e3c2b1fa102155c67aa529d96ee52d1e88d710aabe0349076",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/87413825881443961a143c94d438ef2c257c380525ac0d951e6365cd6e4a3d2e.png",
+      "sha256": "87413825881443961a143c94d438ef2c257c380525ac0d951e6365cd6e4a3d2e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved illustration",
+    "artwork_bytes_retained": true,
+    "mapping_matrix": [
+      1.005842259006816,
+      0,
+      0,
+      1.005842259006816,
+      -2.0934761441090544,
+      -5.3483381141608675
+    ],
+    "additional_zoom": false,
+    "horizontal_source_crop": 0,
+    "localized_correction": null,
+    "preserved_earlier_artwork_correction": false,
+    "source_native_sha256": "a25c990f4bae1b52cee7a65abfbea88da08aa772b5a51aba8c1aeefff6d3a071"
+  },
+  "rules": [
+    {
+      "text": "Limit 2 per deck. POWER: Banish all Allies in play.",
+      "baseline": 1049.3,
+      "width": 870.2889999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1108.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        299.615,
+        50.2213,
+        459.771,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        96.2175,
+        1013.53,
+        866.565,
+        45.521
+      ],
+      "rules-line-2": [
+        380.589,
+        1072.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-158-cell-s-presence.webp",
+      "before_url": "/assets/cards/cell-158-cell-s-presence.webp?v=da0540f4f20d",
+      "before_git_blob_sha": "c9955aefe3ee864e1dae099e5241ce7f1dc7da1e",
+      "after_sha256": "0e0e79de3fa93a6d2b48e402bd4dee2ad88b299fcd55a6c3767269992eed9658",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-158-cell-s-presence.webp",
+      "before_url": "/assets/cards/downloads/cell-158-cell-s-presence.webp?v=20f35990465b",
+      "before_git_blob_sha": "13b3c961c9d7111ac05a21e97ced1aa6755ce37b",
+      "after_sha256": "fe7c81f3ca9ad8bd1be4d8eabacaa490e8cf669d35e3e38c78675e817ee6091f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": {
+    "applies": true,
+    "report": true
+  },
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 459.77057356608486,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 740.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 6,
+  "set_emblem": {
+    "retained_raster": true,
+    "retained_shape_and_size": true,
+    "target_center": [
+      211.75,
+      1409.5
+    ]
+  }
+}

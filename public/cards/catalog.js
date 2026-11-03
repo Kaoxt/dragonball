@@ -16522,8 +16522,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-151",
     "rules": "Physical attack. DAMAGE: AT +3 stages. If you declared a Toku-Waza, for each life card of damage dealt, place a card from your discard pile on the bottom of your Life Deck. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-151-namekian-fist-smash.webp?v=a592f9271a7b",
-    "downloadImage": "/assets/cards/downloads/cell-151-namekian-fist-smash.webp?v=08df60bf4598"
+    "image": "/assets/cards/cell-151-namekian-fist-smash.webp?v=f373c9d5fe06",
+    "downloadImage": "/assets/cards/downloads/cell-151-namekian-fist-smash.webp?v=ab4b81428dc7",
+    "templateVersion": 3
   },
   {
     "id": "cell-152-android-16-s-rage",
@@ -16538,8 +16539,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-152",
     "rules": "Physical attack. DAMAGE: 7 stages. Discard the top 2 cards of your Life Deck.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-152-android-16-s-rage.webp?v=3fe627433d45",
-    "downloadImage": "/assets/cards/downloads/cell-152-android-16-s-rage.webp?v=d34ed07bd7e3"
+    "image": "/assets/cards/cell-152-android-16-s-rage.webp?v=eb29cf425d93",
+    "downloadImage": "/assets/cards/downloads/cell-152-android-16-s-rage.webp?v=ade66134341c",
+    "templateVersion": 3
   },
   {
     "id": "cell-153-namekian-energy-focus",
@@ -16554,8 +16556,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-153",
     "rules": "POWER: Put the bottom card of your discard pile into your hand. If it is Namekian Style, you may search your Life Deck for an Energy Combat card and put it into your hand. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-153-namekian-energy-focus.webp?v=3f2c800da9de",
-    "downloadImage": "/assets/cards/downloads/cell-153-namekian-energy-focus.webp?v=e4d696d9b18c"
+    "image": "/assets/cards/cell-153-namekian-energy-focus.webp?v=ebb59d09d179",
+    "downloadImage": "/assets/cards/downloads/cell-153-namekian-energy-focus.webp?v=e86ab5f6e1d0",
+    "templateVersion": 3
   },
   {
     "id": "cell-154-vegeta-ascendant",
@@ -16570,8 +16573,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-154",
     "rules": "Defense Shield: When defending in Combat, stop the first unstopped attack against you. When entering Combat, draw a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-154-vegeta-ascendant.webp?v=0ec0bec5932b",
-    "downloadImage": "/assets/cards/downloads/cell-154-vegeta-ascendant.webp?v=aeede1531bd3",
+    "image": "/assets/cards/cell-154-vegeta-ascendant.webp?v=a8287a85ad58",
+    "downloadImage": "/assets/cards/downloads/cell-154-vegeta-ascendant.webp?v=afba9feee44a",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16589,7 +16592,8 @@ export const catalog = [
       2350000,
       2225000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-155-saiyan-rapid-fire",
@@ -16604,8 +16608,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-155",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Each Ally your opponent has in play loses 4 stages.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-155-saiyan-rapid-fire.webp?v=b7be748b89e1",
-    "downloadImage": "/assets/cards/downloads/cell-155-saiyan-rapid-fire.webp?v=d3fd110b3ff2"
+    "image": "/assets/cards/cell-155-saiyan-rapid-fire.webp?v=7c73983544ba",
+    "downloadImage": "/assets/cards/downloads/cell-155-saiyan-rapid-fire.webp?v=005cba689043",
+    "templateVersion": 3
   },
   {
     "id": "cell-156-blue-head-charge",
@@ -16620,8 +16625,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-156",
     "rules": "Physical attack. DAMAGE: AT +2 stages. Lower your opponent's anger to 0. They cannot gain anger until the beginning of their next turn.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-156-blue-head-charge.webp?v=349eeb3f15ca",
-    "downloadImage": "/assets/cards/downloads/cell-156-blue-head-charge.webp?v=c2ea44348fde"
+    "image": "/assets/cards/cell-156-blue-head-charge.webp?v=3c502427836b",
+    "downloadImage": "/assets/cards/downloads/cell-156-blue-head-charge.webp?v=b01255fe0899",
+    "templateVersion": 3
   },
   {
     "id": "cell-157-z-warriors-gather",
@@ -16636,8 +16642,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-157",
     "rules": "POWER: Search your Life Deck for up to 7 Allies and place them in play at 3 stages above 0. Banish after use.",
     "rarity": "Ultra Rare",
-    "image": "/assets/cards/cell-157-z-warriors-gather.webp?v=7c924f616943",
-    "downloadImage": "/assets/cards/downloads/cell-157-z-warriors-gather.webp?v=e645a9c49d33"
+    "image": "/assets/cards/cell-157-z-warriors-gather.webp?v=b3dcb6c0a47a",
+    "downloadImage": "/assets/cards/downloads/cell-157-z-warriors-gather.webp?v=97f0dcb9c298",
+    "templateVersion": 3
   },
   {
     "id": "cell-158-cell-s-presence",
@@ -16652,8 +16659,9 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-158",
     "rules": "Limit 2 per deck. POWER: Banish all Allies in play. Banish after use.",
     "rarity": "Ultra Rare",
-    "image": "/assets/cards/cell-158-cell-s-presence.webp?v=da0540f4f20d",
-    "downloadImage": "/assets/cards/downloads/cell-158-cell-s-presence.webp?v=20f35990465b"
+    "image": "/assets/cards/cell-158-cell-s-presence.webp?v=0e0e79de3fa9",
+    "downloadImage": "/assets/cards/downloads/cell-158-cell-s-presence.webp?v=fe7c81f3ca9a",
+    "templateVersion": 3
   },
   {
     "id": "cell-159-vegeta-the-revitalized",
@@ -16668,8 +16676,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-159",
     "rules": "Physical attack. DAMAGE: AT +9 stages.",
     "rarity": "Ultra Rare",
-    "image": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=8158e1c120be",
-    "downloadImage": "/assets/cards/downloads/cell-159-vegeta-the-revitalized.webp?v=cc1dcbe9286d",
+    "image": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=9fa589abeed0",
+    "downloadImage": "/assets/cards/downloads/cell-159-vegeta-the-revitalized.webp?v=7bf18ca30c8e",
     "alignment": "Hero",
     "level": 5,
     "pur": 5,
@@ -16687,7 +16695,8 @@ export const catalog = [
       3000000,
       2900000,
       0
-    ]
+    ],
+    "templateVersion": 3
   },
   {
     "id": "cell-160-goku-the-all-powerful",
@@ -16702,8 +16711,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-160",
     "rules": "Physical attack. DAMAGE: AT +5 stages and 5 life cards.",
     "rarity": "Ultra Rare",
-    "image": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=773ddc5e97cd",
-    "downloadImage": "/assets/cards/downloads/cell-160-goku-the-all-powerful.webp?v=672107857c1d",
+    "image": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=c4321cdc84b4",
+    "downloadImage": "/assets/cards/downloads/cell-160-goku-the-all-powerful.webp?v=584e188f0108",
     "alignment": "Hero",
     "level": 5,
     "pur": 5,
@@ -16721,6 +16730,7 @@ export const catalog = [
       3500000,
       3400000,
       0
-    ]
+    ],
+    "templateVersion": 3
   }
 ];

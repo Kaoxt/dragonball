@@ -12,10 +12,10 @@ const artworkRevisions = {
   "trunks-160-king-cold-the-all-powerful": "/assets/cards/trunks-160-king-cold-the-all-powerful.webp?v=1c0d7ba83f3e",
   "android-124-the-hero-is-down": "/assets/cards/android-124-the-hero-is-down.webp?v=a3807740c805",
   "android-125-trunks-guardian-drill": "/assets/cards/android-125-trunks-guardian-drill.webp?v=2319856dfd51",
-  "cell-157-z-warriors-gather": "/assets/cards/cell-157-z-warriors-gather.webp?v=7c924f616943",
-  "cell-158-cell-s-presence": "/assets/cards/cell-158-cell-s-presence.webp?v=da0540f4f20d",
-  "cell-159-vegeta-the-revitalized": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=8158e1c120be",
-  "cell-160-goku-the-all-powerful": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=773ddc5e97cd"
+  "cell-157-z-warriors-gather": "/assets/cards/cell-157-z-warriors-gather.webp?v=b3dcb6c0a47a",
+  "cell-158-cell-s-presence": "/assets/cards/cell-158-cell-s-presence.webp?v=0e0e79de3fa9",
+  "cell-159-vegeta-the-revitalized": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=9fa589abeed0",
+  "cell-160-goku-the-all-powerful": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=c4321cdc84b4"
 };
 
 export function ultraRareMask(card) {
