@@ -87,7 +87,6 @@
    mask:var(--nav-toggle-shape) center/contain no-repeat;
   }
   html[data-site-design=v2] body .site-header #nav-toggle[aria-expanded=true]::before{--nav-toggle-shape:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(45%2016%2016)%22%20d%3D%22M3%2014.7%208%2014.1%207.4%2013.7%2016.3%2014.1%2015.8%2013.5%2026.2%2014.4%2024.3%2015.1%2029%2015.7%2026.7%2016.4%2028.6%2017.4%2021.8%2017.8%2022.4%2018.3%2014.3%2017.8%2011.1%2018.4%2011.4%2017.8%203.7%2018.1%205.4%2017.3%202%2016.8%204.3%2016.1%202.6%2015.7Z%20M6.8%2015.6%2010.2%2015.2%209%2015.9%206.6%2016.2Z%20M22.5%2016.5%2026%2016%2024.7%2016.8%2022.4%2017Z%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(-45%2016%2016)%22%20d%3D%22M3%2014.7%208%2014.1%207.4%2013.7%2016.3%2014.1%2015.8%2013.5%2026.2%2014.4%2024.3%2015.1%2029%2015.7%2026.7%2016.4%2028.6%2017.4%2021.8%2017.8%2022.4%2018.3%2014.3%2017.8%2011.1%2018.4%2011.4%2017.8%203.7%2018.1%205.4%2017.3%202%2016.8%204.3%2016.1%202.6%2015.7Z%20M6.8%2015.6%2010.2%2015.2%209%2015.9%206.6%2016.2Z%20M22.5%2016.5%2026%2016%2024.7%2016.8%2022.4%2017Z%22%2F%3E%3C%2Fsvg%3E")}
-  html[data-site-design=v2] body .site-header #nav-toggle:is(:hover,:focus-visible,[aria-expanded=true]){color:var(--site-nav-red)}
   html[data-site-design=v2] body .site-header nav{
    display:none;position:absolute;top:calc(100% + 8px);right:12px;left:12px;
    flex-direction:column;align-items:stretch;gap:4px;padding:12px;
@@ -114,5 +113,15 @@
  }
  html:root body .site-header nav .account-dropdown-panel a:is(:hover,:focus-visible) :is(strong,small){color:inherit}
  html:root body .site-header :is(a,button,summary):focus-visible{outline-color:var(--site-nav-red)}
+}
+/* Menu controls keep neutral ink without hover or pressed decoration in either design. */
+@media screen{
+ html:root body .site-header #nav-toggle,
+ html:root body .site-header #nav-toggle:is(:hover,:focus,:active,[aria-expanded=true]){
+  color:#d8dee2;background:transparent;border:0;box-shadow:none;
+  filter:none;transform:none;opacity:1;transition:none;
+ }
+ html:root body .site-header #nav-toggle:focus:not(:focus-visible){outline:none}
+ html:root body .site-header #nav-toggle:focus-visible{outline:2px solid #d8dee2;outline-offset:3px}
 }
 @media print{.site-design-switch,.site-header-brush{display:none}}
