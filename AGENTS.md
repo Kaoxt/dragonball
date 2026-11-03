@@ -1,3 +1,7 @@
+## Ultra Rare live foil — November 3, 2026
+
+All 17 Ultra Rares use the approved brushed reflective finish in the shared Cards, Decks and Arena enlarged viewer. Read `docs/ultra-rare-foil.md` before changing the effect. Preserve 1.8× brush strength, original colours, reflective black bars, clear rules/white text, natural aura edges without an embossed rim, and the existing Hi-Tech path. Select by catalog rarity; Saiyan 247–250 have their confirmed missing labels restored. Artwork and download rasters remain unchanged. Subject masks are pinned to exact artwork revisions and must be reviewed when art changes.
+
 ## Cell Saga 001–050 — November 3, 2026
 
 Cell cards 1–50 now use current V3. Native sources are in `tools/card-templates/v3/cell-001-050/`, with source, artwork, CRD and independent export evidence in `tools/card-corrections/v3-cell-001-050/`. Preserve one-star rarity for 1–40 and three stars for 41–50, the retained Cell emblem, fixed native text and mirrored footer centers. Keep #1’s clipped backdrop-fleck cleanup and #47’s isolated lower-fist insert beneath the unchanged tail. Earlier approved corrections on #20/#36/#42 remain byte-identical. #39/#40 retain the approved full-art Dende summoning pose with identity mapping and single left one-/two-star orbs. Both lossless resolutions match independent native renders, every rules line is visible, and no pixels outside either repair footprint changed. Fine original-scan details remain explicitly unresolved per card. Cell cards 51 onward retain their existing versions.

@@ -1,4 +1,4 @@
-import {setupCardSurface} from './card-surface.js?v=20261028-firefox-performance';
+import {setupCardSurface} from './card-surface.js?v=20261103-ultra-rare';
 
 // Shared physical-card interaction for enlarged previews only.
 export function setupCardMotion(stage) {

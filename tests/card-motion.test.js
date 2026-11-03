@@ -146,6 +146,7 @@ test('switching between Hi-Tech, standard, and face-down previews resets foil wi
   const changed = () => p.observations.find(o => o.target === p.image).callback();
   for (const [source, finish] of [
     ['/assets/cards/trunks-195-vegeta.webp?v=old', 'hi-tech'],
+    ['/assets/cards/frieza-125-super-saiyan-goku.webp', 'ultra-rare'],
     ['/assets/cards/dragonball-01-test.webp', 'standard'],
     ['/assets/cards/saiyan-179-goku-lvl-1-ht.jpg', 'hi-tech'],
     ['/assets/dragon-ball-online-card-back.webp?v=burnt-red-1', 'standard']
@@ -153,7 +154,7 @@ test('switching between Hi-Tech, standard, and face-down previews resets foil wi
     p.stage.fire('pointerdown', {clientX:450});p.flush();
     p.image.setAttribute('src', source);changed();
     assert.equal(p.surface.dataset.finish, finish);
-    assert.equal(p.effects.hidden, finish !== 'hi-tech');
+    assert.equal(p.effects.hidden, finish === 'standard');
     assert.equal(p.surface.style.transform, undefined);
     if (finish === 'hi-tech') assert.equal(p.surface.style['--light-x'], '50%');
     assert.equal(p.captures.size, 0);

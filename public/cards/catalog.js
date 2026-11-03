@@ -3690,6 +3690,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-247-gokus-truce",
+    "rarity": "Ultra Rare",
     "name": "Goku's Truce",
     "number": "247",
     "type": "Event",
@@ -3705,6 +3706,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-248-gokus-plan",
+    "rarity": "Ultra Rare",
     "name": "Goku's Plan",
     "number": "248",
     "type": "Energy Combat",
@@ -3720,6 +3722,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-249-medic-kit",
+    "rarity": "Ultra Rare",
     "name": "Medic Kit",
     "number": "249",
     "type": "Setup",
@@ -3735,6 +3738,7 @@ export const catalog = [
   },
   {
     "id": "saiyan-250-chiaotzus-physical-defense",
+    "rarity": "Ultra Rare",
     "name": "Chiaotzu's Physical Defense",
     "number": "250",
     "type": "Event",

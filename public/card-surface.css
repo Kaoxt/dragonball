@@ -31,3 +31,10 @@
 .is-interacting .card-reflection-light{will-change:transform}
 @media(prefers-reduced-motion:reduce){.card-object{transition:none!important}}
 
+/* Ultra Rare: the approved brushed material, including the dark frame bars.
+   One bounded canvas follows the same tilt in every browser. */
+[data-finish="ultra-rare"] .card-finish>span{display:none}
+.card-finish-ultra-rare{position:absolute;inset:0;width:100%;height:100%;border-radius:inherit;pointer-events:none;mask:var(--ultra-mask) center/100% 100% no-repeat;-webkit-mask:var(--ultra-mask) center/100% 100% no-repeat}
+.card-finish-ultra-rare[hidden]{display:none}
+[data-finish]:not([data-finish="ultra-rare"]) .card-finish-ultra-rare{display:none}
+

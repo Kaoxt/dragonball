@@ -1,17 +1,22 @@
 import {catalog} from './cards/catalog.js';
+import {createUltraRareFoil} from './ultra-rare-foil.js?v=20261103';
+import {ultraRareMask} from './ultra-rare-profiles.js?v=20261103';
 
 // Resolve the actual catalog image, including legacy saved-deck URLs. Never
 // infer a finish from an opponent's hidden card, a name, or an external image.
 export function isHiTech(card) {
   return /hi[\s-]?tech/i.test(card?.rarity || '') || /(?:^|-)ht(?:-|$)/i.test(card?.id || '');
 }
-const hiTechImages = new Map(catalog.filter(isHiTech).flatMap(card => [card.image, card.downloadImage].filter(Boolean).map(source => [source.split('?')[0], card])));
+export function isUltraRare(card) {
+  return /^ultra[\s-]+rare$/i.test(card?.rarity?.trim() || '');
+}
+const finishImages = new Map(catalog.filter(card => isHiTech(card) || isUltraRare(card)).flatMap(card => [card.image, card.downloadImage].filter(Boolean).map(source => [source.split('?')[0], card])));
 export function finishForImage(source, origin = 'https://dragonballocg.com') {
   if (!source) return null;
   try {
     const url = new URL(source, origin);
     if (url.origin !== new URL(origin).origin) return null;
-    return hiTechImages.get(url.pathname.replace(/\.jpg$/, '.webp')) || null;
+    return finishImages.get(url.pathname.replace(/\.jpg$/, '.webp')) || null;
   } catch { return null; }
 }
 
@@ -41,8 +46,9 @@ export function setupCardSurface(image) {
     effects.children[1].append(reflection);
   }
   face.append(effects);
-  let lastX, lastY;
+  let lastX, lastY, ultraFoil, ultraRare = false;
   function reflect(x = 0, y = 0) {
+    if (ultraRare) {ultraFoil?.reflect(x, y);return;}
     if (effects.hidden || (x === lastX && y === lastY)) return;
     lastX = x; lastY = y;
     if (lightweight) {
@@ -60,9 +66,18 @@ export function setupCardSurface(image) {
   function refresh() {
     const source = image.getAttribute('src');
     const card = finishForImage(source, globalThis.location?.origin || 'https://dragonballocg.com');
-    element.dataset.finish = card ? 'hi-tech' : 'standard';
+    ultraRare = isUltraRare(card);
+    element.dataset.finish = ultraRare ? 'ultra-rare' : card ? 'hi-tech' : 'standard';
     element.dataset.foilMask = card?.id === 'trunks-195-vegeta' ? 'vegeta' : 'personality';
     effects.hidden = !card;
+    if (ultraRare) {
+      element.style.setProperty('--ultra-mask', `url("${ultraRareMask(card)}")`);
+      ultraFoil ||= createUltraRareFoil(image, effects);
+      ultraFoil.refresh(card);
+    } else {
+      ultraFoil?.clear();
+      element.style.removeProperty('--ultra-mask');
+    }
     element.hidden = !source;
     const width = image.naturalWidth || card?.width || 1060, height = image.naturalHeight || card?.height || 1484;
     element.style.setProperty('--card-ratio', String(width / height));
@@ -71,6 +86,6 @@ export function setupCardSurface(image) {
   }
   refresh();
   image.addEventListener('load', refresh);
-  image.addEventListener('error', () => {element.hidden = true;});
+  image.addEventListener('error', () => {element.hidden = true;ultraFoil?.clear();});
   return {element, effects, reflect, refresh};
 }
