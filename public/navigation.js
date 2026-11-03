@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261103-burgundy-news-toggle';
+import './navigation-design.js?v=20261103-foil-red-news-toggle';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
