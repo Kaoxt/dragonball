@@ -1,3 +1,6 @@
+import {isPersonality} from '../cards/card-types.js';
+import {blocksHiTechAlly, HI_TECH_ALLY_ERROR} from './eligibility.js';
+
 export const STORAGE_KEY = 'score-builder-v1';
 export function createDeck() {
   return {id: crypto.randomUUID(), name: 'Untitled deck', visibility: 'private', tokui: '', personalities: [null,null,null,null,null], mastery: null, sensei: null, cards: [], senseiDeck: []};
@@ -29,15 +32,16 @@ export function removalTarget(deck,card,destination='auto'){
  return null;
 }
 export function addCard(deck, card, destination = 'auto') {
-  if (destination === 'auto') destination = card.type === 'Main Personality' ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
+  if (destination === 'auto') destination = isPersonality(card) ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
+  if (blocksHiTechAlly(card, destination)) throw new Error(HI_TECH_ALLY_ERROR);
   const c = snapshot(card);
   const character=name=>String(name||'').trim().toLowerCase();
   if(destination==='personalities'){
-    if(c.type!=='Main Personality')throw new Error('Only Main Personality cards can go in the starting stack.');
+    if(!isPersonality(c))throw new Error('Only Personality cards can go in the starting stack.');
     if(deck.personalities.some(p=>p?.id===c.id))throw new Error('That Main Personality card is already in your starting stack.');
     if(deck.personalities.some(p=>p&&character(p.name)!==character(c.name)))throw new Error('Use one character for all Main Personality levels. Remove the other character first.');
-    if([...deck.cards,...deck.senseiDeck].some(p=>p.type==='Main Personality'&&character(p.name)===character(c.name)))throw new Error('Your Main Personality cannot also be an Ally. Remove its cards from the Life or Sensei Deck first.');
-  }else if(c.type==='Main Personality'&&deck.personalities.some(p=>p&&character(p.name)===character(c.name))){
+    if([...deck.cards,...deck.senseiDeck].some(p=>isPersonality(p)&&character(p.name)===character(c.name)))throw new Error('Your Main Personality cannot also be an Ally. Remove its cards from the Life or Sensei Deck first.');
+  }else if(isPersonality(c)&&deck.personalities.some(p=>p&&character(p.name)===character(c.name))){
     throw new Error('Your Main Personality cannot also be added to the Life or Sensei Deck.');
   }
   const addsStarting=destination==='personalities'?!deck.personalities[c.level?c.level-1:deck.personalities.findIndex(x=>!x)]:['mastery','sensei'].includes(destination)&&!deck[destination];

@@ -1,3 +1,4 @@
+import {cardTypeLabel} from '../public/cards/card-types.js';
 import {catalog} from '../public/cards/catalog.js';
 import {catalogRoute, catalogSets} from '../public/cards/card-links.js';
 
@@ -29,7 +30,7 @@ export async function cardPage(request, assets) {
   }
   if (route.kind !== 'missing') {
     const canonical = new URL(route.path, url).href;
-    const description = card ? `${card.name}, card #${card.number} from ${card.set}. ${card.type} · ${card.style}. View and download this Dragon Ball OCG card.`
+    const description = card ? `${card.name}, card #${card.number} from ${card.set}. ${cardTypeLabel(card.type)} · ${card.style}. View and download this Dragon Ball OCG card.`
       : set ? `Browse ${set.count} ${set.name} cards in the Dragon Ball OCG card database.` : 'Browse Dragon Ball OCG sets and cards, view artwork, and download cards.';
     const image = new URL(card?.image || set?.image || '/assets/dragon-ball-online-logo.webp', url).href;
     html = html.replace('</head>', `<link rel="canonical" href="${escapeHTML(canonical)}"><meta name="description" content="${escapeHTML(description)}"><meta property="og:type" content="website"><meta property="og:title" content="${escapeHTML(title)}"><meta property="og:description" content="${escapeHTML(description)}"><meta property="og:url" content="${escapeHTML(canonical)}"><meta property="og:image" content="${escapeHTML(image)}"><meta property="og:image:alt" content="${escapeHTML(card?.name || route.set || 'Dragon Ball OCG')}"><meta name="twitter:card" content="summary_large_image"></head>`);

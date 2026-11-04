@@ -1,7 +1,10 @@
+import {cardTypeLabel} from '../cards/card-types.js';
+import {blocksHiTechAlly, hiTechAllies, assertNoHiTechAllies, HI_TECH_ALLY_ERROR} from './eligibility.js';
 import {setupDeckImages} from './deck-image.js';
 import {catalog} from '../cards/catalog.js';
 import {parseDeck} from '../game.js';
 import {STORAGE_KEY, createDeck, readDecks, snapshot, count, exportDeck, addCard, removalTarget, deckSize, deckLimit} from './store.js';
+const catalogById = new Map(catalog.map(card => [card.id, card]));
 const $ = id => document.getElementById(id);
 const node = (tag, text, className) => { const el=document.createElement(tag); if(text!==undefined)el.textContent=text;if(className)el.className=className;return el; };
 const button = (text, label, action, className='') => {const b=node('button',text,className);b.type='button';b.setAttribute('aria-label',label);b.onclick=action;return b;};
@@ -49,10 +52,11 @@ function save(){
 function library(){ $('saved-decks').replaceChildren(...data.decks.map(d=>new Option(d.name||'Untitled deck',d.id)));$('saved-decks').value=deck.id; }
 function changed(){save();renderDeck();renderCounts();}
 function add(c){try{addCard(deck,c,$('destination').value);changed();message(`Added ${c.name}`);$('preview-status').textContent=`Added ${c.name}`;}catch(e){message(e.message);$('preview-status').textContent=e.message;}}
-function openPreview(c){previewCard=c;$('preview-image').src=c.image;$('preview-image').alt=c.name;$('preview-name').textContent=c.name;$('preview-meta').textContent=[c.set,c.number&&`#${c.number}`].filter(Boolean).join(' · ');$('preview-type').textContent=[c.type,c.style,c.level&&`Level ${c.level}`].filter(Boolean).join(' · ');$('preview-rules').textContent=c.rules||'';$('preview-status').textContent='';$('card-preview').showModal();}
+function openPreview(c){previewCard=c;$('preview-image').src=c.image;$('preview-image').alt=c.name;$('preview-name').textContent=c.name;$('preview-meta').textContent=[c.set,c.number&&`#${c.number}`].filter(Boolean).join(' · ');$('preview-type').textContent=[cardTypeLabel(c.type),c.style,c.level&&`Level ${c.level}`].filter(Boolean).join(' · ');$('preview-rules').textContent=c.rules||'';updatePreviewEligibility();$('card-preview').showModal();}
+function updatePreviewEligibility(){const blocked=blocksHiTechAlly(previewCard,$('destination').value);$('preview-add').disabled=blocked;$('preview-status').textContent=blocked?HI_TECH_ALLY_ERROR:'';}
 function totalFor(id){return [...deck.cards,...deck.senseiDeck,...deck.personalities.filter(Boolean),deck.mastery,deck.sensei].filter(c=>c?.id===id).reduce((n,c)=>n+(c.qty||1),0);}
 function removeFromBrowser(c){const target=removalTarget(deck,c,$('destination').value);if(!target)return;remove(target.zone,target.card,target.index);message(`Removed one ${c.name}`);}
-function renderCounts(){document.querySelectorAll('.remove-card').forEach(b=>{b.disabled=!removalTarget(deck,{id:b.dataset.id},$('destination').value);});document.querySelectorAll('.add-card').forEach(b=>{const n=totalFor(b.dataset.id);b.textContent=n?`+ Add · ${n} in deck`:'+ Add';});}
+function renderCounts(){document.querySelectorAll('.remove-card').forEach(b=>{b.disabled=!removalTarget(deck,{id:b.dataset.id},$('destination').value);});document.querySelectorAll('.add-card').forEach(b=>{const n=totalFor(b.dataset.id),blocked=blocksHiTechAlly(catalogById.get(b.dataset.id),$('destination').value);b.disabled=blocked;b.title=blocked?HI_TECH_ALLY_ERROR:'';b.textContent=blocked?'Starting stack only':n?`+ Add · ${n} in deck`:'+ Add';});}
 function browse(){
  const q=normalize($('query').value.trim());
  const cards=catalog.filter(c=>normalize(`${c.name} ${c.number} ${c.rules||''}`).includes(q)&&['set','style','type'].every(k=>!$(k).value||$(k).value===c[k])).sort((a,b)=>a.name.localeCompare(b.name)||String(a.number).localeCompare(String(b.number),undefined,{numeric:true}));
@@ -63,7 +67,7 @@ function browse(){
   const addButton=button('+ Add',`Add ${c.name}, ${c.set} #${c.number}`,()=>add(c),'add-card');addButton.dataset.id=c.id;
   const removeButton=button('− Remove',`Remove one ${c.name}, ${c.set} #${c.number}`,()=>removeFromBrowser(c),'remove-card');removeButton.dataset.id=c.id;
   const actions=node('div',undefined,'browse-card-actions');actions.append(removeButton,addButton);
-  article.append(art,node('h2',c.name),node('p',`#${c.number} · ${c.type}${c.level?' · L'+c.level:''}`),actions);return article;
+  article.append(art,node('h2',c.name),node('p',`#${c.number} · ${cardTypeLabel(c.type)}${c.level?' · L'+c.level:''}`),actions);return article;
  }));renderCounts();
 }
 function remove(zone,c,index){if(zone==='personalities')deck.personalities[index]=null;else if(['mastery','sensei'].includes(zone))deck[zone]=null;else{c.qty--;if(c.qty<=0)deck[zone]=deck[zone].filter(x=>x.id!==c.id);}changed();}
@@ -89,7 +93,7 @@ function renderDeck(){
  for(const [key,id,empty]of[['cards','life-list','Add cards from the collection to start your Life Deck.'],['senseiDeck','sensei-list','Choose “Sensei Deck” above the collection to add cards here.']]){
  const cards=[...deck[key]].sort((a,b)=>a.name.localeCompare(b.name));$(id).replaceChildren(...(cards.length?cards.map(c=>row(c,key)):[node('p',empty,'list-empty')]));
  }
- const checks=[];
+ const checks=hiTechAllies(deck).map(({card,zone})=>`${card.name}: remove this Hi-Tech Personality from the ${zone==='cards'?'Life Deck':'Sensei Deck'}; it cannot be an Ally.`);
  const stack=deck.personalities.filter(Boolean);
  if(new Set(stack.map(c=>c.id)).size!==stack.length)checks.push('Remove duplicate Main Personality cards: use each card only once.');
  if(new Set(stack.map(c=>c.name.trim().toLowerCase())).size>1)checks.push('All Main Personality levels must belong to the same character.');
@@ -101,15 +105,15 @@ if(deckSize(deck)<50||deckSize(deck)>deckLimit(deck))checks.push(`Deck size: ${d
  $('checks-summary').textContent=`Deck checks${checks.length?' · '+checks.length+' to review':''}`;
  $('checks').replaceChildren(...(checks.length?checks:['Basic tabletop checks passed. Review card-specific restrictions.']).map(t=>node('li',t)));
 }
-for(const key of ['set','style','type']){for(const value of [...new Set(catalog.map(c=>c[key]).filter(Boolean))].sort())$(key).add(new Option(value,value));$(key).onchange=()=>{visible=48;browse();};}
-$('destination').onchange=renderCounts;
+for(const key of ['set','style','type']){for(const value of [...new Set(catalog.map(c=>c[key]).filter(Boolean))].sort())$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));$(key).onchange=()=>{visible=48;browse();};}
+$('destination').onchange=()=>{renderCounts();if(previewCard)updatePreviewEligibility();};
 $('filters').onsubmit=e=>e.preventDefault();$('query').oninput=()=>{visible=48;browse();};$('reset-filters').onclick=()=>{$('filters').reset();visible=48;browse();};$('more-cards').onclick=()=>{visible+=48;browse();};
 $('deck-name').oninput=()=>{deck.name=$('deck-name').value.slice(0,70);save();library();};$('deck-name').onblur=()=>{if(!deck.name.trim()){deck.name='Untitled deck';save();library();renderDeck();}};
 $('deck-visibility').onchange=()=>{deck.visibility=$('deck-visibility').value;changed();};
 $('share-deck').onclick=async()=>{if(!shares[deck.id])return;const url=location.origin+'/decks/shared.html?id='+encodeURIComponent(shares[deck.id]);try{await navigator.clipboard.writeText(url);message('Share link copied');}catch{window.prompt('Copy your public deck link',url);}};
 $('tokui').onchange=()=>{deck.tokui=$('tokui').value;changed();};$('saved-decks').onchange=()=>{deck=data.decks.find(d=>d.id===$('saved-decks').value);changed();};
 $('new-deck').onclick=()=>{deck=createDeck();data.decks.push(deck);changed();library();message('New deck created');};
-$('duplicate-deck').onclick=()=>{deck=structuredClone(deck);deck.id=crypto.randomUUID();deck.visibility='private';deck.name=(deck.name+' copy').slice(0,70);data.decks.push(deck);changed();library();message('Deck duplicated');};
+$('duplicate-deck').onclick=()=>{try{assertNoHiTechAllies(deck);}catch(e){message(e.message);return;}deck=structuredClone(deck);deck.id=crypto.randomUUID();deck.visibility='private';deck.name=(deck.name+' copy').slice(0,70);data.decks.push(deck);changed();library();message('Deck duplicated');};
 $('delete-deck').onclick=()=>{$('delete-name').textContent=`“${deck.name||'Untitled deck'}” will be removed from ${syncUser?'your account':'this browser'}.`;$('delete-dialog').showModal();};$('cancel-delete').onclick=()=>$('delete-dialog').close();
 $('confirm-delete').onclick=()=>{data.decks=data.decks.filter(d=>d.id!==deck.id);deck=data.decks[0]||createDeck();if(!data.decks.length)data.decks.push(deck);changed();library();$('delete-dialog').close();message('Deck deleted');};
 $('close-preview').onclick=()=>$('card-preview').close();$('preview-add').onclick=()=>add(previewCard);
@@ -118,7 +122,7 @@ window.addEventListener('storage',e=>{if(!syncUser&&e.key===STORAGE_KEY){storage
 const syncNote=document.querySelector('.storage-note');
 syncNote.textContent='Autosaved to your account across devices. Export a deck image to download a backup.';
 if(syncUser&&browserData.decks.some(d=>d.cards.length||d.personalities.some(Boolean)||d.mastery||d.sensei)){
- const importButton=button('Import browser decks','Import decks saved in this browser',()=>{let added=0;for(const d of browserData.decks){if(!data.decks.some(x=>x.id===d.id)){data.decks.push({...structuredClone(d),visibility:'private'});added++;}}if(added){deck=data.decks.at(-1);changed();library();}message(added?`Imported ${added} browser decks`:'These browser decks are already in your account.');});
+ const importButton=button('Import browser decks','Import decks saved in this browser',()=>{try{for(const d of browserData.decks.filter(d=>!data.decks.some(x=>x.id===d.id)))assertNoHiTechAllies(d);}catch(e){message(e.message);return;}let added=0;for(const d of browserData.decks){if(!data.decks.some(x=>x.id===d.id)){data.decks.push({...structuredClone(d),visibility:'private'});added++;}}if(added){deck=data.decks.at(-1);changed();library();}message(added?`Imported ${added} browser decks`:'These browser decks are already in your account.');});
  syncNote.after(importButton);
 }
 window.addEventListener('beforeunload',event=>{if(syncUser&&(syncDirty||syncBusy)){event.preventDefault();event.returnValue='';}});
@@ -126,7 +130,7 @@ workspace.hidden=false;workspace.inert=false;gate.hidden=true;
 library();browse();renderDeck();save();
 
 
-setupDeckImages({catalog,getDeck:()=>deck,onImport:imported=>{if(syncBlocked)throw Error('Account sync is paused. Export your changes and reload before importing.');if(data.decks.length>=100)throw Error('You have reached 100 decks. Remove a deck before importing another.');data.decks.push(imported);deck=imported;changed();library();$('deck-tab').click();message('Imported as a new private deck');}});
+setupDeckImages({catalog,getDeck:()=>deck,onImport:imported=>{if(syncBlocked)throw Error('Account sync is paused. Export your changes and reload before importing.');if(data.decks.length>=100)throw Error('You have reached 100 decks. Remove a deck before importing another.');assertNoHiTechAllies(imported);data.decks.push(imported);deck=imported;changed();library();$('deck-tab').click();message('Imported as a new private deck');}});
 
 }
 await initialize().catch(()=>showAccess('Unable to load your account decks. Please try again.'));

@@ -1,8 +1,9 @@
+import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
 import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261028-cell-banner';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
-for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(value,value));
+for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
 const PAGE_SIZE=60;
@@ -84,7 +85,7 @@ function render(){
   const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
   const art=document.createElement('span');art.className='catalog-card-art'+(['Battleground','Location'].includes(c.type)?' catalog-card-art-sideways':'');art.append(img);
   const title=document.createElement('h2');title.textContent=c.name;
-  const meta=document.createElement('p');meta.textContent=`#${c.number} · ${c.type}`;
+  const meta=document.createElement('p');meta.textContent=`#${c.number} · ${cardTypeLabel(c.type)}`;
   button.append(art,title,meta);
   if(c.status==='Preview'){const badge=document.createElement('span');badge.className='preview-tag';badge.textContent='SAIYAN SAGA PREVIEW';button.append(badge);}
   button.onclick=e=>{
@@ -96,7 +97,7 @@ function render(){
 function openCard(c){
  document.title=`${c.name} · ${c.set} #${c.number} | Dragon Ball OCG`;
  $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
- $('detail-meta').replaceChildren(...[['Number',c.number],['Type',c.type],['Style',c.style],['Set',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
+ $('detail-meta').replaceChildren(...[['Number',c.number],['Type',cardTypeLabel(c.type)],['Style',c.style],['Set',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
  $('share-url').value=new URL(cardPath(c),location.origin).href;$('share-status').textContent='';
  $('preview-note').hidden=c.status!=='Preview';if(!$('card-detail').open)$('card-detail').showModal();
