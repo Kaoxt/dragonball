@@ -452,8 +452,10 @@ body.rulebook-page .manual .pat-calculator select option{background:#222a30;colo
  body.rulebook-page .manual .attack-reference .pat-table .pat-defender{text-align:left;padding-left:10px;font-size:12px;letter-spacing:.06em}
 }
 
-/* Responsive YouTube tutorial; preserve the written guide below. */
-body.rulebook-page .manual .manual-video{max-width:800px;margin:0 auto 48px;padding:24px;border:1px solid var(--surface-border,#414141);border-radius:16px;background:var(--surface-panel,#191919);scroll-margin-top:24px}
+/* Keep the tutorial beside the contents, with the written guide below. */
+@media screen{body.rulebook-page .manual .manual-hero{border-bottom:0}}
+.manual-content{min-width:0}
+body.rulebook-page .manual .manual-video{width:100%;max-width:800px;margin:0 0 24px auto;padding:24px;border:1px solid var(--surface-border,#414141);border-radius:16px;background:var(--surface-panel,#191919);scroll-margin-top:24px}
 .manual .manual-video-heading{margin-bottom:20px}
 body.rulebook-page .manual .manual-video h2{margin:0 0 8px;color:var(--content-copy,#f2f2f2);font-size:clamp(24px,3vw,32px);line-height:1.2}
 .manual .manual-video-heading p{max-width:660px;margin:0;color:var(--rules-muted,#c3c3c3);font-size:15px;line-height:1.6}
