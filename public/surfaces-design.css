@@ -73,13 +73,13 @@
   border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
- /* Match the News sidebar rails and corner contours with a plain charcoal fill.
-    Painting the fill over the frame's inner strokes leaves the same clean edge
-    as the sidebar rows. Split halves reuse its exact top and bottom contours. */
+ /* Keep the News sidebar corner contours with an even, untextured rail.
+    The dedicated border asset removes distressed strokes and uses equal rail
+    widths. Split fill halves preserve the existing decal contours. */
  html[data-site-design=v2] body.database-page .filters {
   position:relative;isolation:isolate;background:transparent;
   border:6px solid transparent;border-radius:16px;
-  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
+  border-image:url('/assets/power-panel-clean-v2.svg?v=20261104-even-rails') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
  html[data-site-design=v2] body.database-page .filters::before,
