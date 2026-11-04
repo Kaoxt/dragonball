@@ -1,0 +1,66 @@
+name: Disable duplicate Cloudflare previews
+
+on:
+  push:
+    branches: [cloudflare-build-diagnostics]
+    paths: [.github/workflows/cloudflare-disable-preview-builds.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fix:
+    if: github.repository == 'Kaoxt/dragonball' && github.ref == 'refs/heads/cloudflare-build-diagnostics'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Disable preview builds and verify production settings
+        env:
+          CLOUDFLARE_BUILD_API_TOKEN: ${{ secrets.CLOUDFLARE_BUILD_API_TOKEN }}
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          
+          const token = process.env.CLOUDFLARE_BUILD_API_TOKEN;
+          if (!token) throw Error('Missing CLOUDFLARE_BUILD_API_TOKEN repository secret');
+          const url = 'https://api.cloudflare.com/client/v4/accounts/c258dd1982f4b993816f209b2b7b57b5/builds/workers/6ef3b50e32684ec2b96df7158701edba';
+          async function request(method, body) {
+            const response = await fetch(url, {
+              method, redirect: 'error', signal: AbortSignal.timeout(30000),
+              headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+              ...(body ? { body: JSON.stringify(body) } : {}),
+            });
+            if (!response.ok) throw Error(`Cloudflare build configuration request failed: HTTP ${response.status}`);
+            const data = await response.json();
+            if (!data.success) throw Error('Cloudflare rejected the build configuration request');
+            return data.result;
+          }
+          
+          try {
+            const before = await request('GET');
+            assert.equal(before.script_tag, '6ef3b50e32684ec2b96df7158701edba');
+            assert.equal(before.git_repository.provider_account_name, 'Kaoxt');
+            assert.equal(before.git_repository.repo_name, 'dragonball');
+            assert.equal(before.git_repository.branch, 'cloudflare-production');
+            assert.equal(before.auto_build_enabled, true);
+            assert.equal(before.production_settings.build_command, 'npm ci --include=optional && npm test && npm run check');
+            assert.equal(before.production_settings.deploy_command, 'npm run deploy');
+            if (before.previews_enabled !== false) await request('PATCH', { previews_enabled: false });
+            const after = await request('GET');
+            assert.equal(after.previews_enabled, false);
+            assert.equal(after.auto_build_enabled, true);
+            assert.deepEqual(after.git_repository, before.git_repository);
+            assert.deepEqual(after.production_settings, before.production_settings);
+            assert.deepEqual(after.previews_base_config, before.previews_base_config);
+            console.log('Verified: preview builds disabled; production auto-build enabled on cloudflare-production.');
+            console.log('Production commands, deployment credential, variables and caching configuration are unchanged.');
+          } catch (error) {
+            // Assertion payloads can contain secrets from a configuration response. Never log them.
+            console.error(error?.code === 'ERR_ASSERTION' ? 'Build configuration did not match the expected guarded state; inspect privately before retrying.' : 'Cloudflare configuration request could not be completed; no response contents were logged.');
+            process.exitCode = 1;
+          }
+          NODE
