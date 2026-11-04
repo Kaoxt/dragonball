@@ -1,0 +1,99 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "send_metrics": false,
+  "name": "dragonball",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-07",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*",
+      "/cards/*",
+      "/admin/mail*",
+      "/assets/cards/*"
+    ]
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "ROOMS",
+        "class_name": "GameRoom"
+      },
+      {
+        "name": "COMMUNITY",
+        "class_name": "Community"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "GameRoom"
+      ]
+    },
+    {
+      "tag": "v2-community",
+      "new_sqlite_classes": [
+        "Community"
+      ]
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "ROOM_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 10,
+        "period": 60
+      }
+    },
+    {
+      "name": "AUTH_LIMITER",
+      "namespace_id": "1002",
+      "simple": {
+        "limit": 30,
+        "period": 60
+      }
+    },
+    {
+      "name": "COMMUNITY_LIMITER",
+      "namespace_id": "1003",
+      "simple": {
+        "limit": 120,
+        "period": 60
+      }
+    }
+  ],
+  "observability": {
+    "enabled": false
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "limits": {
+    "cpu_ms": 30000
+  },
+  "r2_buckets": [
+    {
+      "binding": "UPLOADS"
+    },
+    {
+      "binding": "MAIL_STORAGE",
+      "bucket_name": "dragonball-ocg-mail-storage"
+    },
+    {
+      "binding": "CARD_ASSETS",
+      "bucket_name": "dragonball-card-assets"
+    }
+  ],
+  "send_email": [
+    {
+      "name": "MAIL_OUTBOUND"
+    }
+  ],
+  "vars": {
+    "MAIL_SEND_ENABLED": "true"
+  }
+}

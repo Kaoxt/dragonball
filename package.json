@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "wrangler": "^4.148.0"
+  },
+  "name": "score-dbz-tabletop",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "node tools/deployment/verify-release.mjs && node --test tests/card-assets.test.js tests/deployment-assets.test.mjs tests/game.test.js tests/deck-code.test.js tests/card-pages.test.js",
+    "check": "wrangler deploy --dry-run",
+    "deploy": "node tools/deployment/sync-card-assets.mjs && wrangler deploy"
+  },
+  "overrides": {
+    "undici": "7.30.1"
+  },
+  "dependencies": {
+    "postal-mime": "4.1.4"
+  }
+}

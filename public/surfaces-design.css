@@ -1,0 +1,447 @@
+/* Version 2 companion to the card-title navigation. Version 1 and print stay intact. */
+@media screen {
+ html[data-site-design=v2] body {
+  --surface-panel:#1e2428;
+  --surface-inset:#151a1e;
+  --surface-raised:#2b3238;
+  --surface-border:#ffffff1f;
+  --v2-frame-divider:#2d363d; /* Slightly lighter charcoal keeps panel divisions visible. */
+  /* Follow the decal contours at 36/48 scale, minus the 6px panel inset.
+     A .25px overlap inside each black stroke closes antialiased seams. */
+  --v2-frame-top-clip:polygon(17.3px 0,calc(100% - 17.3px) 0,calc(100% - 6.53px) 13.76px,calc(100% - 5.01px) 19.82px,100% 23.92px,100% 100%,0 100%,0 23.92px,5.01px 19.82px,6.53px 13.76px);
+  --v2-frame-bottom-clip:polygon(0 0,100% 0,100% calc(100% - 20.31px),calc(100% - 4.95px) calc(100% - 13.11px),calc(100% - 11.53px) calc(100% - 5.8px),calc(100% - 18.99px) calc(100% - 5.05px),calc(100% - 24.96px) 100%,20.76px 100%,14.59px calc(100% - 3.47px),6.53px calc(100% - 10.8px),5.03px calc(100% - 18.3px),0 calc(100% - 22.87px));
+  --v2-frame-bottom-left-clip:polygon(0 0,100% 0,100% 100%,20.76px 100%,14.59px calc(100% - 3.47px),6.53px calc(100% - 10.8px),5.03px calc(100% - 18.3px),0 calc(100% - 22.87px));
+  --v2-panel-fill:url('/assets/panel-worn-v2.webp');
+ }
+
+ /* Arena inherits the shared site background instead of its legacy near-black palette. */
+ html[data-site-design=v2] body.arena-table-page {--bg:inherit;--page-overlay:inherit}
+
+ /* Paint the playmat once on a viewport-sized layer, independent of article
+    expansion and route height. The artwork no longer scales with the document. */
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page,.arena-table-page) {
+  isolation:isolate;background-image:none;
+ }
+ html[data-site-design=v2] body.arena-page:is(.home-page,.community-page,.arena-table-page)::before {
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-color:var(--bg);background-image:var(--page-overlay),url('/assets/burnt-orange-playmat.webp');
+  background-size:cover;background-position:center top;background-blend-mode:normal,luminosity;
+  transform:translateZ(0);
+ }
+
+ /* Consistent content surfaces, with the playmat still visible between panels. */
+ html[data-site-design=v2] body.arena-page :is(
+  .next-move,.community-links,.filters,.lobby-panel,.account-card,
+  .chapter-nav,.pat-calculator,.table-scroll
+ ),
+ html[data-site-design=v2] body.arena-page .manual .chapter,
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .issue-results,.issue-card:not(.forum-list-heading),.forum-topic-heading,.forum-post,.forum-navigation-row
+ ),
+ html[data-site-design=v2] body.arena-page #deck-panel {
+  background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
+  border:1px solid var(--surface-border);border-radius:7px;
+  box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
+ }
+
+ /* Navigation panels use the same charcoal fill without the worn texture. */
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav,
+ html:root[data-site-design=v2] body.arena-page .forum-shell .forum-navigation-row {background-image:none}
+
+ /* Card power-box framing belongs to the main panels, not every nested control.
+    The original card frame supplies an almost-black band, irregular inner strokes,
+    dark grey corner decals and one thin dark grey outer outline, with no inner
+    outline. A vector nine-slice
+    preserves those details without live filters.
+    The full-panel texture has worn edges and a quiet center without clipping menus,
+    focus rings, or the existing heading brush. Six pixels protect the rails
+    from full-width rows; existing content padding is otherwise preserved. */
+ html[data-site-design=v2] body.arena-page :is(
+  .next-move,.community-links,.lobby-panel,.account-card
+ ),
+ html[data-site-design=v2] body.arena-page .manual .chapter,
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .issue-results,.forum-topic-heading,.forum-post
+ ):not(.forum-list-heading),
+ html[data-site-design=v2] body.arena-page #deck-panel {
+  background:var(--v2-panel-fill) center/100% 100% no-repeat;background-color:#1e2428;
+  background-clip:padding-box;border:6px solid transparent;border-radius:16px;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
+  box-shadow:none;
+ }
+ /* Data tables use a smaller version of the same frame. Keep the scroll
+    container intact so wide tables still pan horizontally on phones. */
+ html[data-site-design=v2] body.arena-page .manual .table-scroll {
+  background-clip:padding-box;border:6px solid transparent;border-radius:12px;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 24px / 0 stretch;
+  box-shadow:none;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
+  --forum-post-inner-radius:2px;
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links) {--sidebar-pad:18px;padding:0 var(--sidebar-pad) var(--sidebar-pad)}
+ /* News reads directly on the page; only its title keeps the brush artwork. */
+ html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;background:none;border:0;border-image:none;border-radius:0;box-shadow:none}
+ html[data-site-design=v2] body.home-page .news-post .release-tag {display:none}
+ html[data-site-design=v2] body.home-page .news-image-slot {display:block}
+ html[data-site-design=v2] body.home-page :is(.release-meta,.hub-copy small) {color:#b8c0c6}
+
+ /* Compact charcoal actions echo the navigation and neutral forum controls. */
+ html[data-site-design=v2] body.home-page main .news-post .post-actions {
+  align-items:center;gap:10px 12px;margin-top:22px;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link),
+ html[data-site-design=v2] body.home-page main button.news-load-more {
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;max-width:100%;box-sizing:border-box;padding:10px 16px;
+  border:1px solid #39434b;border-radius:8px;background:#1b2126;color:#dce2e7;
+  font-size:14px;font-weight:600;line-height:1.3;text-align:center;
+  box-shadow:none;text-decoration:none;transform:none;
+  transition:background-color .15s ease,border-color .15s ease,color .15s ease;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link) {
+  background:#252c31;border-color:#465058;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled),
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):hover,
+ html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
+  background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
+ }
+ /* Match the bright red Foil selection, with one thin border and no inset ring. */
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+ html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
+  background:#a52c4b;border:1px solid #c14965;color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
+ html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
+  outline:2px solid #c2c8cd;outline-offset:3px;
+ }
+
+ /* The new-topic controls sit directly on the page, without a panel behind them. */
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-list-heading {
+  background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;
+ }
+ /* Neutral secondary copy replaces the legacy pink tint in category descriptions,
+    dates and post counts. Reading copy keeps its existing off-white contrast. */
+ html[data-site-design=v2] body.community-page .forum-shell {
+  --issue-muted:#b8c0c6;
+  --forum-title-fill:var(--v2-brush-fill);
+ }
+ html[data-site-design=v2] body.community-page .forum-shell .issue-note {color:#b8c0c6}
+ /* Neutral forum actions match the charcoal navigation instead of the old plum palette. */
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a {
+  background:#252c31;color:#f5f6fa;border-color:#ffffff26;box-shadow:none;
+  min-height:44px;transition:background-color .15s ease,border-color .15s ease;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:hover {
+  background:#33383d;color:#fff;border-color:#ffffff40;
+ }
+ /* Start and reply actions share a compact brush without shrinking the touch target.
+    The silhouette is only on the paint, leaving the focus outline unobstructed. */
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut) {
+  position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;
+  flex:0 0 auto;min-height:44px;padding:10px 26px;
+  font-family:var(--font-ui);font-size:14px;font-weight:600;line-height:1.2;
+  letter-spacing:0;text-shadow:none;
+  background:transparent;border:1px solid transparent;border-radius:5px;
+  color:#f5f6fa;box-shadow:none;white-space:nowrap;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut)::before {
+  content:"";position:absolute;inset:3px 0;z-index:-1;pointer-events:none;
+  background:var(--forum-title-fill);
+  -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):hover:not(:disabled) {
+  background:transparent;border-color:transparent;color:#fff;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):hover:not(:disabled)::before {
+  background:var(--v2-brush-fill-base);
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:focus-visible,
+ html[data-site-design=v2] body.community-page main .forum-shell :is(#new-topic,.forum-reply-shortcut):focus-visible {
+  outline:2px solid #c2c8cd;outline-offset:3px;
+ }
+
+ /* Reuse the approved silhouette only behind headings, keeping text and rows crisp. */
+ html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2),
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {
+  position:relative;isolation:isolate;
+  background:transparent;border:0;border-radius:0;box-shadow:none;
+  padding:14px calc(26px + 6.5%) 14px 26px;overflow:visible;
+ }
+ html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2)::before,
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
+  /* The silhouette's leading fringe occupies roughly 6.5% of its width.
+     Move the artwork left by that amount, keeping type inside the solid center. */
+  content:"";position:absolute;inset:0 calc(6.5% - 5px) 0 calc(-6.5% - 5px);z-index:-1;pointer-events:none;
+  background:var(--v2-brush-fill);
+  -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  filter:drop-shadow(0 2px 1px #0008);
+  /* Keep the left-shifted artwork inside the graphite frame. Only the
+     decorative paint is clipped; heading text and controls remain untouched. */
+  clip-path:inset(0 0 0 max(0px,calc(6.5% - 3px)));
+ }
+ html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -24px;line-height:1.18;padding:14px max(24px,7.5%);text-transform:none}
+ html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2::before {
+  inset:0 calc(-1 * clamp(12px,2vw,28px)) 0 calc(-1 * clamp(12px,3.5vw,44px));clip-path:none;
+ }
+ /* Sidebar headings meet the inner top rail. The paint fills the strip, so
+    only its texture is visible; chamfers protect the decorative corner caps. */
+ html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2 {
+  display:block;min-height:0;margin:0 calc(-1 * var(--sidebar-pad)) 16px;
+  padding:16px var(--sidebar-pad);font-family:var(--font-ui);font-size:22px;
+  font-weight:600;line-height:1.25;letter-spacing:-.02em;text-align:center;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .next-move>h2 {border-bottom:1px solid var(--v2-frame-divider)}
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links>h2 {margin-bottom:0}
+ html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links)>h2::before {
+  inset:0;-webkit-mask:none;mask:none;filter:none;
+  clip-path:var(--v2-frame-top-clip);
+ }
+ html[data-site-design=v2] body.home-page .next-move>h2 img {display:none}
+ html[data-site-design=v2] body.home-page .next-move-label {display:inline}
+ /* Link rows meet the panel rails; only horizontal dividers remain. */
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-links {
+  gap:0;margin:0 calc(-1 * var(--sidebar-pad)) calc(-1 * var(--sidebar-pad));
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links {gap:0;padding-bottom:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .community-links>.hub-link {margin-inline:calc(-1 * var(--sidebar-pad))}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link {
+  --hub-fill:#1b2126;position:relative;isolation:isolate;
+  padding:14px var(--sidebar-pad);background:transparent;border-color:var(--v2-frame-divider);
+  border-width:1px 0;border-radius:0;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--hub-fill);
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link+.hub-link {border-top:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child {border-bottom:0}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:last-child::before {
+  clip-path:var(--v2-frame-bottom-clip);
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link small {color:#b8c0c6}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:hover {--hub-fill:#303940;background:transparent;border-color:var(--v2-frame-divider);color:#fff}
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:focus-visible {outline:2px solid #c2c8cd;outline-offset:3px}
+ /* Rules use an inset header strip joined to the top frame, like the News sidebar. */
+ html[data-site-design=v2] body.rulebook-page .manual .chapter {
+  --chapter-pad-x:34px;--chapter-pad-bottom:32px;
+  padding:0 var(--chapter-pad-x) var(--chapter-pad-bottom);
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {
+  margin:0 calc(-1 * var(--chapter-pad-x)) 24px;
+  padding:18px var(--chapter-pad-x);border-bottom:1px solid var(--v2-frame-divider);
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading::before {
+  inset:0;-webkit-mask:none;mask:none;filter:none;
+  clip-path:var(--v2-frame-top-clip);
+ }
+ @media(max-width:1000px) {
+  html[data-site-design=v2] body.rulebook-page .manual .chapter {--chapter-pad-x:23px;--chapter-pad-bottom:23px}
+ }
+ @media(max-width:520px) {
+  html[data-site-design=v2] body.rulebook-page .manual .chapter {--chapter-pad-x:16px}
+  html[data-site-design=v2] body.rulebook-page .manual .chapter>.chapter-heading {padding:16px var(--chapter-pad-x);margin-bottom:20px}
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-heading>span {color:#c2c8cd}
+ /* Full-width card-title texture with clean edges and a bottom divider.
+    Clip only the background at the top corners to expose the metal frame. */
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {
+  position:relative;isolation:isolate;margin:0;padding:18px 24px;background:transparent;
+  border:0;border-bottom:1px solid var(--v2-frame-divider);border-radius:0;box-shadow:none;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:var(--forum-title-fill,var(--v2-brush-fill));-webkit-mask:none;mask:none;filter:none;
+  clip-path:var(--v2-frame-top-clip);
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title h2 {margin:0;color:#f6f7f9;font-size:16px;line-height:1.5}
+
+ /* Dividers that meet the frame use its dark inner-band color. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(
+  .forum-post-bar,.forum-post-author,.forum-post-meta,.forum-post-footer,.forum-newest-member
+ ) {border-color:var(--v2-frame-divider)}
+
+ /* Forum rows keep the same continuous texture on hover and keyboard focus. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {
+  padding:22px 24px;border-color:var(--v2-frame-divider);
+  background:transparent;transition:none;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):nth-child(n) {background:transparent}
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row):is(:hover,:focus-within) {background:transparent}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-category-count {font-variant-numeric:tabular-nums}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-main {background:transparent}
+ /* The background follows each decal's inner edge without exposing the panel
+    texture. Clip paint only; menus and focus rings stay free. */
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author) {
+  position:relative;isolation:isolate;background:transparent;border-radius:0;
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-post-bar,.forum-post-author)::before {
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--surface-inset);
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar {z-index:1}
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-bar::before {
+  clip-path:var(--v2-frame-top-clip);
+ }
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {
+  clip-path:var(--v2-frame-bottom-left-clip);
+ }
+
+
+ /* Cards and Arena controls share the current charcoal palette. Card artwork and
+    the playmat retain their own colors; these rules only style the interface. */
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) {
+  --accent:#c2c8cd;--muted:#b8c0c6;--line:#39434b;
+ }
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(main,dialog) :is(input,select,textarea) {
+  background:#151a1e;border-color:#39434b;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(main,dialog) select option {background:#151a1e;color:#f5f6fa}
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(main,dialog) :is(input,textarea)::placeholder {color:#929da6}
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(main,dialog) button:not(.site-close):not(.text-button):not(.card):not(.pile-open):not(.mp-stack-card):not(.catalog-card),
+ html[data-site-design=v2] body.database-page dialog a.primary-link {
+  background:#252c31;border-color:#465058;color:#f5f6fa;box-shadow:none;
+ }
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(main,dialog) button:not(.site-close):not(.text-button):not(.card):not(.pile-open):not(.mp-stack-card):not(.catalog-card):hover:not(:disabled),
+ html[data-site-design=v2] body.database-page dialog a.primary-link:hover {
+  background:#303940;border-color:#65717a;color:#fff;
+ }
+ html[data-site-design=v2] body:is(.database-page,.arena-table-page) :is(a,button,input,select,textarea):focus-visible {
+  outline-color:#c2c8cd;
+ }
+ html[data-site-design=v2] body.database-page :is(.results-bar p,.catalog-card p,.detail-info dt,.cards-breadcrumbs,.fine) {color:#b8c0c6}
+ html[data-site-design=v2] body.database-page .cards-breadcrumbs a {color:#e2e7eb}
+ html[data-site-design=v2] body.database-page .cards-pagination :is(a,span) {
+  background:#1b2126;border-color:#39434b;color:#dce2e7;
+ }
+ html[data-site-design=v2] body.database-page .cards-pagination a:hover {background:transparent;border-color:var(--site-nav-red);color:#fff}
+ html[data-site-design=v2] body.database-page .cards-pagination a[aria-current=page] {
+  background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#fff;box-shadow:inset 0 -2px var(--site-nav-red);
+ }
+ html[data-site-design=v2] body.database-page .cards-pagination .pagination-gap {background:transparent;border:0}
+ html[data-site-design=v2] body.database-page .catalog-card:hover img {outline-color:var(--site-nav-red)}
+ html[data-site-design=v2] body.database-page .catalog-card .preview-tag {background:#252c31;border-color:#465058;color:#c2c8cd}
+ html[data-site-design=v2] body.database-page :is(#no-results,#card-link-error) {border-color:#465058}
+ html[data-site-design=v2] body.database-page .collection-progress {background:#1e2428;border-color:#39434b;border-left-color:#7c8992}
+ html[data-site-design=v2] body.database-page .progress-mark {background:#c2c8cd}
+ html[data-site-design=v2] body.arena-table-page main :is(#create,#join-form button,#start-draw-test,#turn-bar button,#setup-bar [data-action],#controls [data-action="draw3"]),
+ html[data-site-design=v2] body.arena-table-page dialog :is(#move-selected,#deck-form button[type=submit]) {
+  background:#303940;border-color:#65717a;color:#f5f6fa;box-shadow:none;
+ }
+ html[data-site-design=v2] body.arena-table-page main :is(#create,#join-form button,#start-draw-test,#turn-bar button,#setup-bar [data-action],#controls [data-action="draw3"]):hover:not(:disabled),
+ html[data-site-design=v2] body.arena-table-page dialog :is(#move-selected,#deck-form button[type=submit]):hover:not(:disabled) {
+  background:#3b454d;border-color:#7c8992;color:#fff;
+ }
+ html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button {background:transparent;color:#c2c8cd}
+ html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button:hover {background:#ffffff08;color:#fff}
+ html[data-site-design=v2] body.arena-table-page .power-readout small {color:#b8c0c6}
+
+ /* Rules controls: burnt-red card-back accents, charcoal secondary surfaces. */
+ html[data-site-design=v2] body.rulebook-page {
+  --rules-panel:#1e2428;--rules-ink:var(--content-copy);--rules-muted:#b8c0c6;
+  --rules-line:#39434b;--manual-red:#76130a;--manual-red-hover:#93180e;
+  --manual-red-border:#a53325;--accent:#c2c8cd;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual :is(.manual-hero,.guide-actions,.chapter-nav>.eyebrow,.card-guide-group,.turn-track li,.table-scroll) {border-color:#39434b}
+ html[data-site-design=v2] body.rulebook-page .manual .turn-track li:last-child {border-color:transparent}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.chapter-running,.chapter-running a,.chapter-nav>.eyebrow,.card-tip) {color:#b8c0c6}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a:not(.primary-link),.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook) {
+  background:#252c31;border-color:#465058;color:#f5f6fa;box-shadow:none;border-radius:8px;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a:not(.primary-link),.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook):hover {
+  background:#303940;border-color:#65717a;color:#fff;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .hero-links .primary-link,
+ html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a[aria-selected=true] {
+  background:var(--manual-red);border-color:var(--manual-red-border);color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .hero-links .primary-link:hover,
+ html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a[aria-selected=true]:hover {
+  background:var(--manual-red-hover);border-color:#b54837;color:#fff;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs {background:#1e2428;border-color:#39434b;box-shadow:none}
+ html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a {color:#b8c0c6}
+ html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a:not([aria-selected=true]):hover {background:#303940;border-color:#65717a;color:#fff}
+ html[data-site-design=v2] body.rulebook-page .manual :is(input,select) {background:#151a1e;border-color:#39434b;color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual input::placeholder {color:#929da6}
+ html[data-site-design=v2] body.rulebook-page .manual select option {background:#151a1e;color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover,
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {box-shadow:inset 2px 0 var(--site-nav-red)}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.table-note,.rule-callout,.card-example,.format-grid article,.pat-calculator) {background:#151a1e;border-color:#39434b}
+ html[data-site-design=v2] body.rulebook-page .manual .pat-calculator {box-shadow:inset 3px 0 #65717a}
+ html[data-site-design=v2] body.rulebook-page .manual .pat-special.is-active {background:#303940;border-color:#bfc6cb}
+ html[data-site-design=v2] body.rulebook-page .manual .hero-card::before {background:radial-gradient(ellipse,#65717a26,transparent 70%)}
+ html[data-site-design=v2] body.rulebook-page .manual .hero-card::after {border-color:#65717a40}
+ html[data-site-design=v2] body.rulebook-page .manual .hero-card img {border-color:#465058}
+ html[data-site-design=v2] body.rulebook-page .manual :is(a,button,summary,select,input,.table-scroll):focus-visible {outline-color:#c2c8cd}
+
+ /* Rule tables keep their semantic columns and existing horizontal scrolling. */
+ html[data-site-design=v2] body.rulebook-page .manual .table-scroll {scrollbar-color:#59636c var(--surface-inset)}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) {
+  background:transparent;color:#f1f3f5;font-variant-numeric:tabular-nums;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) :is(th,td) {border-color:var(--v2-frame-divider)}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:16px 18px;line-height:1.65}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table caption {padding:16px 18px;background:var(--v2-brush-fill);color:#f1f3f5;font-size:14px}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table thead th {background:var(--surface-inset);color:#d5dce1;font-size:13px}
+ html[data-site-design=v2] body.rulebook-page .manual .format-table tbody th {background:transparent;color:#e2e7eb}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) tbody tr:nth-child(even) {background:#ffffff04}
+ html[data-site-design=v2] body.rulebook-page .manual :is(.format-table,.pat-table) tbody tr:hover {background:#ffffff08}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table :is(.pat-corner,.pat-defender,.pat-attacker) {
+  background:var(--v2-brush-fill);color:#e2e7eb;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference {background:var(--surface-inset);border-color:var(--surface-border);box-shadow:0 4px 12px #0003}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference-title {background:var(--v2-brush-fill);border-color:var(--v2-frame-divider)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-scroll {border-color:var(--v2-frame-divider);scrollbar-color:#59636c var(--surface-inset)}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table td:not(.selected-damage) {background:#252d33}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:nth-child(even) td:not(.selected-damage) {background:#2c353c}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table tr:hover td:not(.selected-damage) {background:#35414a}
+ /* Preserve strong calculator selection contrast over striped or hovered rows. */
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table :is(.selected-attacker .pat-rating,.selected-defender) {background:#414d56;box-shadow:inset 0 0 0 1px #cdd4d9}
+ html[data-site-design=v2] body.rulebook-page .manual .attack-reference .pat-table .selected-damage {background:#f0f1f2;color:#14191d;box-shadow:inset 0 0 0 3px #b8c1c8;font-weight:700}
+
+ @media(max-width:700px) {
+  html[data-site-design=v2] body.arena-page .forum-shell .forum-post-author::before {clip-path:none}
+  html[data-site-design=v2] body.home-page .news-post {padding:0 18px 20px;margin-bottom:18px}
+  html[data-site-design=v2] body.home-page main .news-post .post-actions {gap:10px}
+  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
+  html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link) {padding:10px 12px}
+  html[data-site-design=v2] body.home-page :is(.news-post .news-entry-content>h2,.next-move>h2,.community-links>h2) {padding:12px calc(22px + 6.5%) 12px 22px}
+  html[data-site-design=v2] body.home-page .news-post .news-entry-content>h2 {margin:0 -18px;padding:12px max(24px,7.5%)}
+  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {padding:18px 14px;gap:12px}
+  html[data-site-design=v2] body.arena-page .forum-shell .forum-section-title {margin:0;padding:16px 14px}
+  html[data-site-design=v2] body.rulebook-page .manual .format-table :is(th,td) {padding:12px 14px}
+ }
+ @media(prefers-reduced-motion:reduce) {
+  html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-category,.issue-row) {transition:none}
+ }
+}
+
+/* One shared red for navigation feedback across News, Forums, Cards and Rules. */
+@media screen{
+ html[data-site-design=v2] body :is(main,footer) a[href]:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell a[href]:any-link:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.database-page .cards-breadcrumbs a:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-running a:is(:hover,:focus-visible){
+  color:var(--site-nav-red);text-decoration-color:var(--site-nav-red);
+ }
+ html[data-site-design=v2] body.home-page .home-sidebar .hub-link:is(:hover,:focus-visible){--hub-fill:#1b2126}
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:is(:hover,:focus-visible),
+ html[data-site-design=v2] body.community-page main .forum-shell .forum-page-links a:is(:hover,:focus-visible,[aria-current=page]),
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,.card-type-tabs a):is(:hover,:focus-visible,[aria-selected=true]),
+ html[data-site-design=v2] body .account-tabs button:is(:hover,:focus-visible,[aria-pressed=true]){
+  background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#fff;
+  box-shadow:inset 0 0 0 1px var(--site-nav-red);
+ }
+ html[data-site-design=v2] body:is(.arena-page,.community-page,.database-page,.rulebook-page) :is(main,footer) a[href]:focus-visible,
+ html[data-site-design=v2] body.rulebook-page .manual a:focus-visible,
+ html[data-site-design=v2] body .account-tabs button:focus-visible{
+  outline:2px solid var(--site-nav-red);outline-offset:3px;
+ }
+ html[data-site-design=v2] body.community-page main .forum-shell .forum-page-select:focus-within{outline-color:var(--site-nav-red)}
+}

@@ -1,0 +1,506 @@
+(() => {
+  'use strict';
+
+  const { esc } = window.DragonForum;
+  const MEMBER_ID = '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}';
+  const memberIdPattern = new RegExp('^' + MEMBER_ID + '$', 'i');
+  const IMAGE_PATH = '/api/forum/images/[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}';
+  const icons = {
+    Bold: '<path d="M6 4h7a4 4 0 0 1 0 8H6zm0 8h8a4 4 0 0 1 0 8H6z"/>',
+    Italic: '<path d="M10 4h10M4 20h10M15 4 9 20"/>',
+    Underline: '<path d="M6 3v7a6 6 0 0 0 12 0V3M4 21h16"/>',
+    Link: '<path d="m10 13 4-4m-7 5-2 2a4 4 0 0 0 6 6l4-4a4 4 0 0 0 0-6M9 12a4 4 0 0 1 0-6l4-4a4 4 0 0 1 6 6l-2 2" transform="translate(0 -1)"/>',
+    Image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m21 15-5-5L5 21"/>',
+    Quote: '<rect x="3" y="4" width="7" height="7" rx="1"/><rect x="14" y="4" width="7" height="7" rx="1"/><path d="M10 10v4a5 5 0 0 1-5 5m16-9v4a5 5 0 0 1-5 5"/>',
+    'Bulleted list': '<path d="M9 6h12M9 12h12M9 18h12"/><circle cx="3" cy="6" r=".7"/><circle cx="3" cy="12" r=".7"/><circle cx="3" cy="18" r=".7"/>',
+    'Numbered list': '<path d="M10 6h11M10 12h11M10 18h11M3 3h1v6M2 9h4M2 14a2 2 0 0 1 4 0c0 2-4 3-4 6h4"/>',
+    Code: '<path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 4l-4 16"/>',
+    Preview: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+  };
+  const icon = name => '<svg class="forum-editor-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + icons[name] + '</svg>';
+  // A selected display name may contain brackets or backslashes. Its member ID,
+  // rather than the editable display label, identifies the tagged account.
+  const MENTION = '@\\[((?:\\\\[^\\r\\n]|[^\\]\\\\\\r\\n]){1,160})\\]\\(member:(' + MEMBER_ID + ')\\)';
+  const mentionLabel = label => label.replace(/\\([^\r\n])/g, '$1');
+  const escapedAt = (value, index) => {
+    let slashes = 0;
+    while (index > 0 && value[--index] === '\\') slashes++;
+    return slashes % 2 === 1;
+  };
+  const plainMentions = value => String(value ?? '').replace(new RegExp(MENTION, 'gi'), (token, label, id, index, text) => escapedAt(text, index) || label.length > 160 ? token : '@' + mentionLabel(label));
+
+  // Protect whole code spans, selected mentions and links before formatting.
+  // The scan can cross lines and requires matching backtick-run lengths.
+  function tokenizeInline(value) {
+    const original = String(value).replace(/\u0000/g, '');
+    const tokens = [];
+    const keep = html => '\u0000' + (tokens.push(html) - 1) + '\u0000';
+    const pattern = new RegExp('(`+)|!\\[([^\\]\\n]{0,160})\\]\\((' + IMAGE_PATH + ')\\)|' + MENTION + '|\\[([^\\]\\n]+)\\]\\((https?:\\/\\/[^\\s<>]+)\\)', 'gi');
+    let text = '', cursor = 0, match;
+    while ((match = pattern.exec(original))) {
+      text += original.slice(cursor, match.index);
+      const [token, ticks, imageLabel, imageUrl, label, memberId, linkLabel, url] = match;
+      let replacement = token;
+      if (ticks && !escapedAt(original, match.index)) {
+        const runs = /`+/g;
+        runs.lastIndex = pattern.lastIndex;
+        let closing;
+        while ((closing = runs.exec(original)) && closing[0].length !== ticks.length) {}
+        if (closing) {
+          replacement = keep('<code>' + esc(original.slice(pattern.lastIndex, closing.index)) + '</code>');
+          pattern.lastIndex = closing.index + closing[0].length;
+        }
+      } else if (imageUrl) {
+        replacement = escapedAt(original, match.index) ? keep(esc(token))
+          : keep('<a class="forum-post-image" href="' + esc(imageUrl) + '" target="_blank" rel="noopener"><img src="' + esc(imageUrl) + '" alt="' + esc(imageLabel || 'Post image') + '" loading="lazy" decoding="async"></a>');
+      } else if (memberId) {
+        replacement = label.length <= 160 && !escapedAt(original, match.index)
+          ? keep('<a class="forum-mention" href="/forums/#member/' + memberId.toLowerCase() + '">@' + esc(mentionLabel(label)) + '</a>')
+          : keep(esc(token));
+      } else if (url) {
+        try {
+          const parsed = new URL(url);
+          replacement = keep('<a href="' + esc(parsed.href) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(linkLabel) + '</a>');
+        } catch { replacement = linkLabel; }
+      }
+      text += replacement;
+      cursor = pattern.lastIndex;
+    }
+    return { text: text + original.slice(cursor), tokens };
+  }
+
+  const formatInline = (text, tokens) => esc(text)
+    .replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*\n]+)\*/g, '<em>$1</em>')
+    .replace(/\+\+([^+\n]+)\+\+/g, '<u>$1</u>')
+    .replace(/\u0000(\d+)\u0000/g, (_, n) => tokens[Number(n)] || '');
+
+  function renderText(lines) {
+    let html = '', group = [], quote = false;
+    const flush = () => {
+      if (!group.length) return;
+      const { text, tokens } = tokenizeInline(group.join('\n'));
+      // Consecutive quoted lines form one quotation, including its attribution.
+      if (quote) {
+        html += '<blockquote>' + text.split('\n').map(line => formatInline(line, tokens)).join('<br>') + '</blockquote>';
+        group = [];
+        return;
+      }
+      let list = '';
+      const close = () => { if (list) { html += '</' + list + '>'; list = ''; } };
+      for (const line of text.split('\n')) {
+        const bullet = line.match(/^\s*[-*] (.*)$/), number = line.match(/^\s*\d+\. (.*)$/), kind = bullet ? 'ul' : number ? 'ol' : '';
+        if (kind) {
+          if (list !== kind) { close(); list = kind; html += '<' + kind + '>'; }
+          html += '<li>' + formatInline((bullet || number)[1], tokens) + '</li>';
+        } else {
+          close();
+          html += line ? '<div>' + formatInline(line, tokens) + '</div>' : '<br>';
+        }
+      }
+      close();
+      group = [];
+    };
+    for (const line of lines) {
+      const quoted = /^\s*>/.test(line);
+      if (quoted !== quote) { flush(); quote = quoted; }
+      group.push(quoted ? line.replace(/^\s*> ?/, '') : line);
+    }
+    flush();
+    return html;
+  }
+
+  function render(value) {
+    const lines = String(value ?? '').replace(/\r\n?/g, '\n').split('\n');
+    let html = '', pending = [], code = null, fence = '', fenceLength = 0;
+    for (const line of lines) {
+      const marker = line.match(/^\s*(`{3,}|~{3,})(.*)$/);
+      if (code !== null) {
+        if (marker && marker[1][0] === fence && marker[1].length >= fenceLength && !marker[2].trim()) {
+          html += '<pre><code>' + esc(code.join('\n')) + '</code></pre>';
+          code = null;
+        } else code.push(line);
+      } else if (marker) {
+        html += renderText(pending);
+        pending = [];
+        code = [];
+        fence = marker[1][0];
+        fenceLength = marker[1].length;
+      } else pending.push(line);
+    }
+    if (code !== null) html += '<pre><code>' + esc(code.join('\n')) + '</code></pre>';
+    return html + renderText(pending);
+  }
+
+  function canMentionAt(value, caret) {
+    // Ignore backticks inside an already selected display name.
+    const before = value.slice(0, caret).replace(new RegExp(MENTION, 'gi'), token => ' '.repeat(token.length));
+    const lines = before.split('\n');
+    let fence = '', fenceLength = 0, inlineLength = 0;
+    for (let index = 0; index < lines.length; index++) {
+      const line = lines[index], last = index === lines.length - 1;
+      if (/^\s*>/.test(line)) { if (last) return false; continue; }
+      const marker = line.match(/^\s*(`{3,}|~{3,})(.*)$/);
+      if (marker) {
+        if (!fence) { fence = marker[1][0]; fenceLength = marker[1].length; }
+        else if (marker[1][0] === fence && marker[1].length >= fenceLength && !marker[2].trim()) fence = '';
+        if (last) return false;
+        continue;
+      }
+      if (fence) { if (last) return false; continue; }
+      for (const run of line.matchAll(/`+/g)) {
+        if (!inlineLength && !escapedAt(line, run.index)) inlineLength = run[0].length;
+        else if (inlineLength === run[0].length) inlineLength = 0;
+      }
+    }
+    return !fence && !inlineLength;
+  }
+
+  const insideMention = (value, caret) => [...value.matchAll(new RegExp(MENTION, 'gi'))].some(match =>
+    match[1].length <= 160 && caret > match.index && caret < match.index + match[0].length);
+
+  function mentionQuery(input) {
+    const start = input.selectionStart, end = input.selectionEnd, value = input.value;
+    if (start !== end || input.disabled || input.readOnly || input.form?.dataset.busy || insideMention(value, end) || !canMentionAt(value, end)) return null;
+    const at = value.lastIndexOf('@', end - 1);
+    if (at < 0 || at >= end || escapedAt(value, at) || (at && !/[\s([{,:;!?]/.test(value[at - 1]))) return null;
+    const query = value.slice(at + 1, end);
+    if (query.length > 50 || /[\r\n@\[\]<>`\\]/.test(query)) return null;
+    return { start: at, end, query: query.trim(), value };
+  }
+
+  const fits = (input, start, end, replacement) => input.maxLength < 0 || input.value.length - (end - start) + replacement.length <= input.maxLength;
+  const memberToken = member => '@[' + member.author.replace(/[\\[\]]/g, '\\$&') + '](member:' + member.member_id + ')';
+
+  function attachImages(input, editor, bar) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.innerHTML = icon('Image');
+    button.title = 'Insert image';
+    button.setAttribute('aria-label', 'Insert image');
+    button.onmousedown = event => event.preventDefault();
+    bar.append(button);
+    const picker = document.createElement('input');
+    picker.type = 'file'; picker.accept = 'image/jpeg,image/png,image/webp'; picker.hidden = true;
+    picker.setAttribute('aria-label', 'Choose an image');
+    const status = document.createElement('p');
+    status.className = 'forum-editor-upload-status';
+    status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
+    editor.append(picker, status);
+    let pending = false;
+    button.onclick = () => picker.click();
+    input.form?.addEventListener('submit', event => {
+      if (pending) { event.preventDefault(); event.stopImmediatePropagation(); status.textContent = 'Please wait for your image to finish uploading.'; }
+    }, true);
+    picker.addEventListener('change', async () => {
+      const file = picker.files[0]; picker.value = '';
+      if (!file || pending || input.form?.dataset.busy) return;
+      const start = input.selectionStart, end = input.selectionEnd;
+      const label = file.name.replace(/\.[^.]+$/, '').replace(/[\[\]\\\r\n]/g, ' ').trim().slice(0, 80) || 'Image';
+      const template = '\n![' + label + '](/api/forum/images/' + '0'.repeat(36) + ')\n';
+      if (!fits(input, start, end, template)) { status.textContent = 'There is not enough room for an image. Shorten your message first.'; return; }
+      pending = true; editor.setAttribute('aria-busy', 'true'); status.textContent = 'Uploading image…';
+      const readOnly = input.readOnly, buttons = [...bar.querySelectorAll('button')].map(control => [control, control.disabled]);
+      input.readOnly = true; buttons.forEach(([control]) => { control.disabled = true; });
+      try {
+        const encoded = await window.DragonIssueMedia.compress(file);
+        const bytes = Uint8Array.from(atob(encoded.split(',')[1]), c => c.charCodeAt(0));
+        const response = await fetch('/api/forum/images', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'image/jpeg' }, body: bytes, signal: AbortSignal.timeout(60000) });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || 'Unable to upload this image. Please try again.');
+        if (!new RegExp('^' + IMAGE_PATH + '$').test(result.url || '')) throw new Error('The image could not be inserted. Please try again.');
+        if (!input.isConnected) return;
+        input.setRangeText('\n![' + label + '](' + result.url + ')\n', start, end, 'end');
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        status.textContent = 'Image added. Use Preview to see it before posting.';
+      } catch (error) {
+        status.textContent = ['AbortError', 'TimeoutError'].includes(error.name) ? 'The upload timed out. Please try again.' : error.message;
+      } finally {
+        pending = false; editor.removeAttribute('aria-busy'); input.readOnly = readOnly;
+        buttons.forEach(([control, disabled]) => { control.disabled = disabled; });
+        if (input.isConnected) input.focus();
+      }
+    });
+  }
+
+  function attachMentions(input, editor, bar) {
+    const picker = document.createElement('div');
+    picker.className = 'forum-mention-picker';
+    picker.hidden = true;
+    const status = document.createElement('p');
+    status.className = 'forum-mention-status';
+    status.setAttribute('role', 'status');
+    status.setAttribute('aria-live', 'polite');
+    const list = document.createElement('div');
+    list.id = input.id + '-mentions';
+    list.className = 'forum-mention-list';
+    list.setAttribute('role', 'listbox');
+    list.setAttribute('aria-label', 'Members to tag');
+    picker.append(status, list);
+    input.after(picker);
+    input.setAttribute('aria-autocomplete', 'list');
+    input.setAttribute('aria-haspopup', 'listbox');
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = '@';
+    button.title = 'Tag a member';
+    button.setAttribute('aria-label', 'Tag a member');
+    button.setAttribute('aria-controls', list.id);
+    button.setAttribute('aria-expanded', 'false');
+    button.onmousedown = event => event.preventDefault();
+    bar.append(button);
+
+    let current = null, generation = 0, timer = null, members = [], active = -1, composing = false;
+    const clear = () => {
+      clearTimeout(timer);
+      timer = null;
+      generation++;
+      current = null;
+      members = [];
+      active = -1;
+      picker.hidden = true;
+      list.replaceChildren();
+      status.textContent = '';
+      input.removeAttribute('aria-controls');
+      input.removeAttribute('aria-activedescendant');
+      button.setAttribute('aria-expanded', 'false');
+    };
+    const showStatus = message => {
+      picker.hidden = false;
+      status.textContent = message;
+      input.setAttribute('aria-controls', list.id);
+      button.setAttribute('aria-expanded', 'true');
+    };
+    const unchanged = (snapshot, version) => generation === version && current === snapshot && input.isConnected !== false &&
+      !input.disabled && !input.readOnly && !input.form?.dataset.busy && input.value === snapshot.value &&
+      input.selectionStart === snapshot.end && input.selectionEnd === snapshot.end;
+    const setActive = index => {
+      active = index;
+      [...list.children].forEach((option, i) => option.setAttribute('aria-selected', String(i === active)));
+      const option = list.children[active];
+      if (option) {
+        input.setAttribute('aria-activedescendant', option.id);
+        const top = option.offsetTop, bottom = top + option.offsetHeight;
+        if (top < list.scrollTop) list.scrollTop = top;
+        else if (bottom > list.scrollTop + list.clientHeight) list.scrollTop = bottom - list.clientHeight;
+      } else input.removeAttribute('aria-activedescendant');
+    };
+    const choose = (index, snapshot = current, version = generation) => {
+      const member = members[index];
+      if (!snapshot || !member || !unchanged(snapshot, version)) {
+        if (snapshot === current && version === generation) clear();
+        return;
+      }
+      const following = input.value.slice(snapshot.end);
+      const token = memberToken(member);
+      let replacement = token + (/^[\s.,!?;:)\]}]/.test(following) ? '' : ' ');
+      if (!fits(input, snapshot.start, snapshot.end, replacement) && fits(input, snapshot.start, snapshot.end, token)) replacement = token;
+      if (!fits(input, snapshot.start, snapshot.end, replacement)) {
+        showStatus('This tag does not fit in your post. Shorten your message first.');
+        return;
+      }
+      clear();
+      input.setRangeText(replacement, snapshot.start, snapshot.end, 'end');
+      input.focus();
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    };
+    const showMembers = rows => {
+      const seen = new Set();
+      members = (Array.isArray(rows) ? rows : []).filter(member => {
+        const id = String(member?.member_id || '').toLowerCase();
+        const name = String(member?.author || '').replace(/[\u0000\r\n\t]/g, ' ').trim();
+        if (!memberIdPattern.test(id) || !name || name.length > 80 || seen.has(id)) return false;
+        seen.add(id);
+        return true;
+      }).slice(0, 8).map(member => ({
+        ...member,
+        member_id: String(member.member_id).toLowerCase(),
+        author: String(member.author).replace(/[\u0000\r\n\t]/g, ' ').trim(),
+      }));
+      list.replaceChildren();
+      const snapshot = current, version = generation;
+      members.forEach((member, index) => {
+        const option = document.createElement('button');
+        option.type = 'button';
+        option.className = 'forum-mention-option';
+        option.id = list.id + '-' + index;
+        option.tabIndex = -1;
+        option.setAttribute('role', 'option');
+        option.setAttribute('aria-selected', 'false');
+        const avatar = document.createElement('span');
+        avatar.className = 'forum-mention-avatar';
+        avatar.setAttribute('aria-hidden', 'true');
+        if (window.DragonIssueMedia?.avatar) avatar.innerHTML = window.DragonIssueMedia.avatar(member.author, member.avatar_url, member.avatar_color);
+        else avatar.textContent = member.author[0].toUpperCase();
+        const label = document.createElement('span');
+        label.textContent = member.author;
+        option.append(avatar, label);
+        // Prevent the compatibility mouse event from moving the text caret.
+        // Touch scrolling remains native because no touch/pointer start is cancelled.
+        option.onmousedown = event => event.preventDefault();
+        option.onclick = () => choose(index, snapshot, version);
+        list.append(option);
+      });
+      showStatus(members.length ? 'Choose a member to tag. Use ↑ and ↓, then Enter, or tap a name.' : 'No matching members. Try another name.');
+      setActive(members.length ? 0 : -1);
+    };
+    const update = () => {
+      if (composing || input.isConnected === false || document.activeElement !== input) { clear(); return; }
+      const next = mentionQuery(input);
+      if (!next) { clear(); return; }
+      if (current && current.value === next.value && current.start === next.start && current.end === next.end) return;
+      clear();
+      current = next;
+      const version = generation;
+      // Coalesce typing and discard in-flight results after caret, query or page changes.
+      timer = setTimeout(async () => {
+        timer = null;
+        if (!unchanged(next, version) || document.activeElement !== input) return;
+        showStatus('Searching members…');
+        try {
+          const result = await window.DragonForum.api({ view: 'mentionMembers', q: next.query });
+          if (!unchanged(next, version) || document.activeElement !== input) return;
+          showMembers(result.members);
+        } catch (error) {
+          if (unchanged(next, version) && document.activeElement === input) showStatus(error?.message || 'Could not load members. Try typing again.');
+        }
+      }, 180);
+    };
+    button.onclick = () => {
+      input.focus();
+      const start = input.selectionStart, end = input.selectionEnd;
+      if (insideMention(input.value, start) || insideMention(input.value, end)) {
+        clear();
+        showStatus('Move outside the existing tag to add another member.');
+        return;
+      }
+      if (!canMentionAt(input.value, start)) {
+        clear();
+        showStatus('Move outside quoted text or code to tag a member.');
+        return;
+      }
+      const prefix = start && !/[\s([{,:;!?]/.test(input.value[start - 1]) ? ' ' : '';
+      const replacement = prefix + '@';
+      if (!fits(input, start, end, replacement)) {
+        clear();
+        showStatus('Your post is at its character limit. Shorten it before adding a tag.');
+        return;
+      }
+      input.setRangeText(replacement, start, end, 'end');
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    };
+    input.addEventListener('input', update);
+    input.addEventListener('focus', update);
+    input.addEventListener('click', update);
+    input.addEventListener('select', update);
+    input.addEventListener('compositionstart', () => { composing = true; clear(); });
+    input.addEventListener('compositionend', () => { composing = false; update(); });
+    input.addEventListener('blur', event => {
+      if (!picker.contains(event.relatedTarget)) clear();
+    });
+    picker.addEventListener('focusout', event => {
+      if (event.relatedTarget !== input && !picker.contains(event.relatedTarget)) clear();
+    });
+    input.addEventListener('keydown', event => {
+      if (event.isComposing || composing) return;
+      if (event.key === 'Escape' && (current || !picker.hidden)) { event.preventDefault(); clear(); return; }
+      if (event.key === 'Tab') { clear(); return; }
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !current || !members.length) return;
+      if (!unchanged(current, generation)) { clear(); return; }
+      if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        event.preventDefault();
+        setActive((active + (event.key === 'ArrowDown' ? 1 : -1) + members.length) % members.length);
+      } else if (event.key === 'Enter') {
+        event.preventDefault();
+        choose(active);
+      }
+    });
+    input.addEventListener('keyup', event => {
+      if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) update();
+    });
+    input.form?.addEventListener('reset', clear);
+    input.form?.addEventListener('submit', clear);
+  }
+
+  function attach(scope) {
+    scope.querySelectorAll('textarea[name="body"]').forEach(input => {
+      if (input.dataset.editor) return;
+      input.dataset.editor = '1';
+      input.id ||= 'message-' + Math.random().toString(36).slice(2);
+      // Keep the real textarea for native validation, mobile selection and FormData.
+      const label = input.closest('label');
+      if (label) {
+        const caption = document.createElement('span');
+        caption.textContent = label.firstChild.textContent;
+        const name = document.createElement('label');
+        name.htmlFor = input.id;
+        name.append(caption);
+        label.before(name);
+        label.replaceWith(input);
+      }
+      const editor = document.createElement('div');
+      editor.className = 'forum-editor';
+      input.before(editor);
+      editor.append(input);
+      const bar = document.createElement('div');
+      bar.className = 'forum-editor-tools';
+      bar.setAttribute('role', 'group');
+      bar.setAttribute('aria-label', 'Message formatting');
+      editor.prepend(bar);
+      const preview = document.createElement('div');
+      preview.className = 'forum-rich forum-editor-preview';
+      preview.hidden = true;
+      editor.append(preview);
+      const items = [['Bold', '**', '**'], ['Italic', '*', '*'], ['Underline', '++', '++'], ['Link', '[', '](https://example.com)'], ['Quote', '> ', ''], ['Bulleted list', '- ', ''], ['Numbered list', '1. ', ''], ['Code', '`', '`']];
+      items.forEach(([name, before, after]) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.innerHTML = icon(name);
+        button.title = name;
+        button.setAttribute('aria-label', name);
+        bar.append(button);
+        button.onmousedown = event => event.preventDefault();
+        button.onclick = () => {
+          const start = input.selectionStart, end = input.selectionEnd, selected = input.value.slice(start, end) || 'text';
+          let replacement = before + selected + after;
+          if (['Quote', 'Bulleted list', 'Numbered list'].includes(name)) {
+            replacement = (start && input.value[start - 1] !== '\n' ? '\n' : '') + selected.split('\n').map((line, i) => (name === 'Numbered list' ? (i + 1) + '. ' : before) + line).join('\n');
+          }
+          if (!fits(input, start, end, replacement)) return;
+          input.setRangeText(replacement, start, end, 'select');
+          input.focus();
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+        };
+        if (name === 'Link') attachImages(input, editor, bar);
+      });
+      attachMentions(input, editor, bar);
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.innerHTML = icon('Preview');
+      toggle.title = 'Preview';
+      toggle.setAttribute('aria-label', 'Preview');
+      toggle.setAttribute('aria-pressed', 'false');
+      bar.append(toggle);
+      toggle.onclick = () => {
+        const show = preview.hidden;
+        preview.hidden = !show;
+        preview.innerHTML = render(input.value) || '<p>Nothing to preview yet.</p>';
+        toggle.innerHTML = icon('Preview');
+        toggle.title = show ? 'Close preview' : 'Preview';
+        toggle.setAttribute('aria-label', show ? 'Close preview' : 'Preview');
+        toggle.setAttribute('aria-pressed', String(show));
+      };
+      input.addEventListener('input', () => { if (!preview.hidden) preview.innerHTML = render(input.value); });
+      const hint = document.createElement('p');
+      hint.id = input.id + '-hint';
+      hint.className = 'issue-note forum-editor-hint';
+      hint.textContent = 'Select text to format it. Type @ and choose a member to tag them (up to 10 per post). Preview shows how your post will look.';
+      editor.append(hint);
+      input.setAttribute('aria-describedby', [input.getAttribute('aria-describedby'), hint.id].filter(Boolean).join(' '));
+    });
+  }
+
+  window.DragonForumEditor = { render, attach, plainMentions };
+})();
+

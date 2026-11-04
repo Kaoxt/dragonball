@@ -1,0 +1,127 @@
+/* Switchable Version 2. The original navigation.css remains the Version 1 backup. */
+.site-header-brush{display:none}
+.site-design-switch{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px 12px;margin:12px auto 24px;padding:0 16px;font:400 12px/1.4 var(--font-ui,Arial,sans-serif);color:#bdc1c7}
+.site-design-switch a{display:inline-flex;align-items:center;min-height:44px;padding:6px 10px;color:#d8dce1;text-decoration:none;border-radius:6px}
+.site-design-switch a[aria-current=true]{color:#fff;background:transparent;box-shadow:inset 0 0 0 1px var(--site-nav-red)}
+.site-design-switch a:hover{color:#fff;background:transparent;box-shadow:inset 0 0 0 1px var(--site-nav-red)}
+.site-design-switch a:focus-visible{outline:2px solid var(--site-nav-red);outline-offset:2px}
+
+@media screen{
+ html[data-site-design=v2]{
+  --bg:#2b2f33;
+  /* Keep the site's real playmat artwork and luminosity blend underneath. */
+  --page-overlay:linear-gradient(90deg,#2b2f33e6,#2b2f33c7 55%,#2b2f33e0);
+  --site-header-height:56px;
+  /* One shared fill keeps every Version 2 title brush matched to navigation. */
+  --v2-brush-fill-base:repeating-linear-gradient(178deg,transparent 0 5px,#ffffff03 5px 6px,transparent 6px 13px),repeating-linear-gradient(2deg,transparent 0 8px,#00000016 8px 9px,transparent 9px 18px),linear-gradient(100deg,#25282b,#171c20 30%,#151a1e 69%,#25282b);
+  --v2-brush-fill:linear-gradient(#0005,#0005),var(--v2-brush-fill-base);
+  background-color:var(--bg);
+ }
+ html[data-site-design=v2] body{background-color:var(--bg)}
+ html[data-site-design=v2] body .site-header{
+  max-width:1491px;width:calc(100% - 16px);
+  min-height:56px;height:56px;padding:6px clamp(44px,9vw,128px);gap:12px;
+  background:transparent;border:0;border-radius:0;box-shadow:none;
+  -webkit-backdrop-filter:none;backdrop-filter:none;isolation:isolate;
+ }
+ html[data-site-design=v2] body .site-header .brand-logo{width:108.5px;height:40.6px;object-fit:contain}
+ html[data-site-design=v2] body .site-header nav{gap:6px}
+ html[data-site-design=v2] body .site-header nav>a,
+ html[data-site-design=v2] body .site-header nav>a[aria-current=page]{padding:6px 3.75px;min-height:33px}
+ html[data-site-design=v2] body .site-header nav>a:is(:hover,:focus-visible){background:transparent;box-shadow:none;color:#fff}
+ html[data-site-design=v2] body .site-header nav>a[aria-current=page]{background:transparent;box-shadow:none;color:#fff}
+ html[data-site-design=v2] body .site-header :is(a,button):focus-visible{outline-color:var(--site-nav-red)}
+ html[data-site-design=v2] body .site-header .nav-wordmark{height:15px;width:auto}
+ html[data-site-design=v2] body .site-header nav>a[aria-label="Rules"]{display:none}
+ html[data-site-design=v2] .site-header-brush{
+  display:block;position:absolute;inset:0;height:56px;z-index:-1;pointer-events:none;isolation:isolate;
+  filter:drop-shadow(0 1px 1px #0009) drop-shadow(0 3px 4px #0005);
+ }
+ html[data-site-design=v2] .site-header-brush::before,
+ html[data-site-design=v2] .site-header-brush::after{
+  content:"";position:absolute;
+  -webkit-mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+  mask:url('/assets/navigation-title-v2-mask.svg') center/100% 100% no-repeat;
+ }
+ html[data-site-design=v2] .site-header-brush::before{
+  inset:0;z-index:1;
+  background:var(--v2-brush-fill);
+ }
+ html[data-site-design=v2] .site-header-brush::after{
+  inset:1px -6px -1px;z-index:0;
+  background:linear-gradient(90deg,#040506e6 0%,#040506dc 11%,#04050630 25%,#04050618 50%,#04050630 75%,#040506dc 89%,#040506e6 100%);
+ }
+ @media(min-width:1201px),(min-width:900px) and (orientation:landscape){
+  html[data-site-design=v2] body .site-header{padding-right:calc(clamp(44px,6vw,88px) + 12px)}
+  html[data-site-design=v2] body .site-header nav .account-nav-actions{border-left-color:#ffffff1a}
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview{
+   min-height:44px;padding:7px 12px 7px 7px;gap:8px;border-radius:8px;
+   background:transparent;color:#f5f6fa;transition:color .15s;
+  }
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary:hover,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:hover{background:transparent;color:var(--site-nav-red);box-shadow:none}
+  html[data-site-design=v2] body .site-header nav .account-dropdown[open]>summary:not(:hover){background:transparent;color:#f5f6fa}
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary:focus-visible,
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview:focus-visible{border-radius:8px;outline-color:var(--site-nav-red)}
+ }
+ @media(min-width:900px) and (max-width:1200px) and (orientation:landscape){
+  html[data-site-design=v2] body .site-header{gap:8px}
+  html[data-site-design=v2] body .site-header .brand-logo{width:112px;height:39.2px}
+  html[data-site-design=v2] body .site-header .nav-wordmark{height:13.5px}
+  html[data-site-design=v2] body .site-header nav{gap:3px}
+  html[data-site-design=v2] body .site-header nav>a,
+  html[data-site-design=v2] body .site-header nav>a[aria-current=page]{padding:6px 3px}
+ }
+ @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
+  html[data-site-design=v2] body .site-header{gap:10px}
+  html[data-site-design=v2] body .site-header .brand-logo{width:112px;height:39.2px}
+  html[data-site-design=v2] body .site-header #nav-toggle{display:grid;place-items:center;width:44px;height:44px;padding:8px;margin-right:24px;flex-shrink:0;color:#d8dee2}
+  /* Two brush-cut strokes and a matching X. Native SVG masks have no filters,
+     animation or image requests; the original SVG remains the Version 1 fallback. */
+  html[data-site-design=v2] body .site-header #nav-toggle svg{display:none}
+  html[data-site-design=v2] body .site-header #nav-toggle::before{
+   content:"";display:block;width:28px;height:28px;background:currentColor;
+   --nav-toggle-shape:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M3%207.6%208%207.1%207.4%206.7%2016.3%207.1%2015.8%206.5%2026.2%207.4%2024.3%208.1%2029%208.7%2026.7%209.4%2028.6%2010.4%2021.8%2010.8%2022.4%2011.3%2014.3%2010.8%2011.1%2011.4%2011.4%2010.8%203.7%2011.1%205.4%2010.3%202%209.8%204.3%209.1%202.6%208.7Z%20M8.2%208.5%2012.2%208.2%2010.5%208.8%208%209Z%20M4.2%2020.7%2010.2%2020.1%209.5%2019.6%2018%2020.2%2023.8%2019.7%2023.2%2020.4%2029.2%2020.7%2027.2%2021.5%2029.8%2022.1%2026.5%2022.7%2027.2%2023.3%2020.8%2023.4%2021.4%2024%2013.8%2023.6%2014.2%2024.1%205%2023.7%206.4%2023%202.2%2022.5%204.2%2021.8%202.7%2021.5Z%20M20.4%2021.4%2025.3%2021.2%2023.8%2021.7%2020.2%2021.9Z%22%2F%3E%3C%2Fsvg%3E");
+   -webkit-mask:var(--nav-toggle-shape) center/contain no-repeat;
+   mask:var(--nav-toggle-shape) center/contain no-repeat;
+  }
+  html[data-site-design=v2] body .site-header #nav-toggle[aria-expanded=true]::before{--nav-toggle-shape:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(45%2016%2016)%22%20d%3D%22M3%2014.7%208%2014.1%207.4%2013.7%2016.3%2014.1%2015.8%2013.5%2026.2%2014.4%2024.3%2015.1%2029%2015.7%2026.7%2016.4%2028.6%2017.4%2021.8%2017.8%2022.4%2018.3%2014.3%2017.8%2011.1%2018.4%2011.4%2017.8%203.7%2018.1%205.4%2017.3%202%2016.8%204.3%2016.1%202.6%2015.7Z%20M6.8%2015.6%2010.2%2015.2%209%2015.9%206.6%2016.2Z%20M22.5%2016.5%2026%2016%2024.7%2016.8%2022.4%2017Z%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(-45%2016%2016)%22%20d%3D%22M3%2014.7%208%2014.1%207.4%2013.7%2016.3%2014.1%2015.8%2013.5%2026.2%2014.4%2024.3%2015.1%2029%2015.7%2026.7%2016.4%2028.6%2017.4%2021.8%2017.8%2022.4%2018.3%2014.3%2017.8%2011.1%2018.4%2011.4%2017.8%203.7%2018.1%205.4%2017.3%202%2016.8%204.3%2016.1%202.6%2015.7Z%20M6.8%2015.6%2010.2%2015.2%209%2015.9%206.6%2016.2Z%20M22.5%2016.5%2026%2016%2024.7%2016.8%2022.4%2017Z%22%2F%3E%3C%2Fsvg%3E")}
+  html[data-site-design=v2] body .site-header nav{
+   display:none;position:absolute;top:calc(100% + 8px);right:12px;left:12px;
+   flex-direction:column;align-items:stretch;gap:4px;padding:12px;
+   background:#191e22;border:1px solid #383d43;border-radius:10px;
+   max-height:calc(100dvh - var(--site-header-clearance) - 24px);overflow-y:auto;
+   box-shadow:0 16px 30px #0009;
+  }
+  html[data-site-design=v2] body .site-header nav.is-open{display:flex}
+  html[data-site-design=v2] body .site-header nav>a,
+  html[data-site-design=v2] body .site-header nav>a[aria-current=page]{justify-content:flex-start;padding:7.5px 13.5px;min-height:48px}
+  html[data-site-design=v2] body .site-header .nav-wordmark{height:17.25px}
+  html[data-site-design=v2] body .site-header nav .account-nav-actions{display:grid;grid-template-columns:1fr;margin:8px 0 0;padding:12px 4px 4px;border-left:0;border-top:1px solid #383d43}
+  html[data-site-design=v2] body .site-header nav .account-dropdown>summary{display:none}
+  html[data-site-design=v2] body .site-header .account-dropdown-panel{position:static;display:block;width:100%;max-width:none;max-height:none;margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;overflow:visible}
+  html[data-site-design=v2] body .site-header nav .account-nav-actions a.account-loading-preview{width:100%;max-width:none;padding:8px 10px}
+  html[data-site-design=v2] body .site-header nav:not(:has(.account-nav-actions))::after{display:none}
+ }
+}
+/* Account navigation uses the same red in both site versions. */
+@media screen{
+ html:root body .site-header nav .account-nav-actions a[href]:is(:hover,:focus-visible),
+ html:root body .site-header nav .account-dropdown>summary:is(:hover,:focus-visible){
+  color:var(--site-nav-red);background:transparent;border-color:var(--site-nav-red);box-shadow:none;
+ }
+ html:root body .site-header nav .account-dropdown-panel a:is(:hover,:focus-visible) :is(strong,small){color:inherit}
+ html:root body .site-header :is(a,button,summary):focus-visible{outline-color:var(--site-nav-red)}
+}
+/* Menu controls keep neutral ink without hover or pressed decoration in either design. */
+@media screen{
+ html:root body .site-header #nav-toggle,
+ html:root body .site-header #nav-toggle:is(:hover,:focus,:active,[aria-expanded=true]){
+  color:#d8dee2;background:transparent;border:0;box-shadow:none;
+  filter:none;transform:none;opacity:1;transition:none;
+ }
+ html:root body .site-header #nav-toggle:focus:not(:focus-visible){outline:none}
+ html:root body .site-header #nav-toggle:focus-visible{outline:2px solid #d8dee2;outline-offset:3px}
+}
+@media print{.site-design-switch,.site-header-brush{display:none}}

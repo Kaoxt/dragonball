@@ -1,0 +1,173 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {newGame, addPlayer, act, view, parseDeck, shuffle, cardImage} from '../public/game.js';
+const deck = prefix => ({personalities:[1,2,3].map(n=>({id:`${prefix}-MP-${n}`,pur:2})), cards:Array.from({length:17},(_,i)=>({id:`${prefix}-${i}`,qty:i===16?2:3}))});
+function setup(){const g=newGame();addPlayer(g,'secret-a','Alice');addPlayer(g,'secret-b','Bob');act(g,0,{type:'load',deck:deck('A')});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});return g;}
+function playing(){const g=setup();act(g,0,{type:'ready'});act(g,1,{type:'ready'});return g;}
+test('updated catalog cards retain lossless artwork in Arena imports and older saved snapshots', async () => {
+  const {catalog} = await import('../public/cards/catalog.js');
+  const updated = catalog.filter(c => c.set === 'Saiyan Saga' && Number(c.number) >= 41 && Number(c.number) <= 80);
+  assert.equal(updated.length, 40);
+  for (const source of updated) {
+    const legacy = {...source, image: `/assets/cards/${source.id}.webp?v=old`};
+    const saved = structuredClone(legacy);
+    for (const entry of [source, legacy, {...source, image: ''}]) {
+      const input = deck('A'); input.cards = [entry];
+      assert.equal(parseDeck(input).cards[0].image, source.image);
+      assert.equal(cardImage(entry), source.image);
+    }
+    assert.deepEqual(legacy, saved);
+  }
+});
+test('Arena image resolution preserves custom images and rejects unsafe relative paths', () => {
+  const id = 'saiyan-078-roshis-training';
+  const external = 'https://example.com/custom-card.webp';
+  assert.equal(cardImage({id, image: external}), external);
+  assert.equal(cardImage({id, image: '/assets/cards/custom-art.webp'}), '/assets/cards/custom-art.webp');
+  assert.equal(cardImage({id: 'custom', image: '/assets/cards/downloads/custom.webp?v=123'}), '/assets/cards/downloads/custom.webp?v=123');
+  for (const image of ['javascript:alert(1)', 'http://example.com/card.webp', '/assets/cards/downloads/../private.webp', '/api/admin/uploads', '//example.com/card.webp']) assert.equal(cardImage({id, image}), '');
+  assert.equal(cardImage({uid: 'hidden', faceDown: true}), '');
+});
+test('Score setup has no opening hand, life pile, energy marker or mulligan',()=>{const g=setup();for(const p of g.players){assert.equal(p.zones.hand.length,0);assert.equal(p.zones.deck.length,50);assert.equal(p.stages,5);assert.equal(p.anger,0);assert.equal(p.level,1);assert.equal(p.zones.life,undefined);assert.equal(p.marker,undefined);}assert.throws(()=>act(g,0,{type:'mulligan'}));act(g,0,{type:'first',seat:1});act(g,0,{type:'ready'});act(g,1,{type:'ready'});assert.equal(g.turn,1);assert.equal(g.phase,'Draw');});
+test('Draw three and damage use the Life Deck; opponent sees only hand counts',()=>{const g=playing();act(g,0,{type:'draw',count:3});act(g,0,{type:'damage'});assert.equal(g.players[0].zones.deck.length,46);assert.equal(g.players[0].zones.discard.length,1);const v=view(g,1);assert.deepEqual(v.players[0].zones.hand,{count:3});assert.ok(!JSON.stringify(v).includes('secret-a'));for(const c of g.players[0].zones.hand)assert.ok(!JSON.stringify(v).includes(c.uid));});
+test('private Sensei choices swap together against original top cards exactly once',()=>{const g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');const d=deck('A');d.sensei={id:'SENSEI'};d.senseiDeck=[{id:'SIDE-A'},{id:'SIDE-B'}];act(g,0,{type:'load',deck:d});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});const top=g.players[0].zones.deck.slice(0,2).map(c=>c.id),ids=g.players[0].zones.senseiDeck.map(c=>c.uid);assert.deepEqual(view(g,1).players[0].zones.senseiDeck,{count:2});act(g,0,{type:'senseiSwap',uids:ids});assert.deepEqual(g.players[0].zones.senseiDeck.map(c=>c.id),top);assert.equal(g.players[0].zones.deck.length,50);assert.ok(g.log.at(-1).text.includes('SIDE-A'));assert.throws(()=>act(g,0,{type:'senseiSwap',uids:g.players[0].zones.senseiDeck.map(c=>c.uid)}));});
+test('phase branch skips Combat and permits one normal rejuvenation',()=>{const g=playing();act(g,0,{type:'damage'});for(let i=0;i<3;i++)act(g,0,{type:'phase'});assert.equal(g.phase,'Declare');assert.throws(()=>act(g,0,{type:'phase'}));act(g,0,{type:'phase',combat:false});assert.equal(g.phase,'Discard');act(g,0,{type:'phase'});act(g,0,{type:'rejuvenate'});assert.equal(g.players[0].zones.deck.length,50);assert.throws(()=>act(g,0,{type:'rejuvenate'}));act(g,0,{type:'phase'});assert.equal(g.turn,1);assert.equal(g.phase,'Draw');});
+test('declared Combat blocks ordinary rejuvenation and opponent cannot advance steps',()=>{const g=playing();for(let i=0;i<3;i++)act(g,0,{type:'phase'});act(g,0,{type:'phase',combat:true});assert.equal(g.phase,'Combat');assert.throws(()=>act(g,1,{type:'phase'}));act(g,0,{type:'phase'});act(g,0,{type:'phase'});assert.throws(()=>act(g,0,{type:'rejuvenate'}));});
+test('ownership prevents opponent card movement, Dragon Ball transfers are controller-only',()=>{const g=playing();act(g,0,{type:'draw'});const uid=g.players[0].zones.hand[0].uid;assert.throws(()=>act(g,1,{type:'move',from:'hand',to:'combat',uid}));act(g,0,{type:'move',from:'hand',to:'dragonballs',uid});assert.throws(()=>act(g,1,{type:'giveDragonBall',uid}));act(g,0,{type:'giveDragonBall',uid});assert.equal(g.players[1].zones.dragonballs.length,1);});
+test('search and face-down cards are filtered; shuffle replaces tracking IDs',()=>{const g=playing();act(g,0,{type:'search'});assert.equal(view(g,1).players[0].searchCards,null);const uid=g.players[0].zones.deck[0].uid;act(g,0,{type:'move',from:'deck',to:'combat',uid});act(g,0,{type:'flip',from:'combat',uid});assert.deepEqual(Object.keys(view(g,1).players[0].zones.combat[0]).sort(),['faceDown','rested','uid']);const old=g.players[0].zones.deck.map(c=>c.uid);act(g,0,{type:'shuffle'});assert.equal(view(g,0).players[0].searchCards,null);assert.ok(g.players[0].zones.deck.every(c=>!old.includes(c.uid)));});
+test('anger and MP level are manual, stage power-up uses PUR and Tokui-Waza',()=>{const g=playing();for(let i=0;i<6;i++)act(g,0,{type:'counter',counter:'anger',delta:1});assert.equal(g.players[0].anger,5);assert.equal(g.players[0].level,1);g.players[0].tokui='Red';act(g,0,{type:'powerUp'});assert.equal(g.players[0].stages,8);act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(g.players[0].level,2);assert.equal(g.players[0].anger,5);});
+test('Score import permits format exceptions with warnings; rejects old schema and invalid quantities',()=>{assert.throws(()=>parseDeck({leader:{id:'L'},cards:[]}));const d=deck('A');d.cards[0].qty=40;assert.equal(parseDeck(d).warnings.length>0,true);d.cards[0].qty=100;assert.throws(()=>parseDeck(d));const valid=deck('A');valid.personalities[0].image='javascript:alert(1)';assert.equal(parseDeck(valid).personalities[0].image,'');});
+test('shuffle preserves card multiset and concession locks gameplay',()=>{const g=playing(),cards=g.players[0].zones.deck,ids=cards.map(c=>c.id).sort();shuffle(cards);assert.deepEqual(cards.map(c=>c.id).sort(),ids);act(g,0,{type:'concede'});assert.equal(g.winner,1);assert.throws(()=>act(g,1,{type:'draw'}));});
+
+test('table positions validate ownership, survive hidden views, and clear on private moves',()=>{const g=playing();act(g,0,{type:'draw'});const uid=g.players[0].zones.hand[0].uid;act(g,0,{type:'move',from:'hand',to:'combat',uid});const a={type:'position',from:'combat',uid,position:{x:.6,y:.4}};act(g,0,a);assert.throws(()=>act(g,1,a));assert.throws(()=>act(g,0,{...a,position:{x:Infinity,y:0}}));act(g,0,{type:'flip',from:'combat',uid});const c=view(g,1).players[0].zones.combat[0];assert.deepEqual(c.position,a.position);assert.equal(c.id,undefined);act(g,0,{type:'move',from:'combat',to:'hand',uid});assert.equal(g.players[0].zones.hand[0].position,undefined);const mp=g.players[0].personalities[0];act(g,0,{type:'position',from:'mp',uid:mp.uid,position:{x:.2,y:.3}});act(g,0,{type:'position',from:'mp',uid:mp.uid,position:null});assert.equal(mp.position,null);});
+
+test('practice card images use WebP and legacy JPG deck imports migrate', async () => {
+  const {practiceDeck, sampleCards} = await import('../public/practice-deck.js');
+  const {existsSync, readFileSync} = await import('node:fs');
+  const releaseManifest = new URL('../deployment/card-assets.json', import.meta.url);
+  const storedImages = existsSync(releaseManifest) ? JSON.parse(readFileSync(releaseManifest, 'utf8')).assets : null;
+  for (const card of sampleCards) {
+    assert.ok(card.image.endsWith('.webp'));
+    if (storedImages) assert.ok(Object.hasOwn(storedImages, card.image), `Missing stored practice image: ${card.image}`);
+    else assert.ok(existsSync(new URL(`../public${card.image}`, import.meta.url)));
+  }
+  const input = practiceDeck();
+  input.personalities[0].image = '/assets/cards/goku-super-saiyan-3.jpg';
+  const parsed = parseDeck(input);
+  assert.equal(parsed.personalities[0].image, '/assets/cards/goku-super-saiyan-3.webp');
+  const g = newGame();
+  addPlayer(g, 'a', 'Goku'); addPlayer(g, 'b', 'Buu');
+  for (let seat = 0; seat < 2; seat++) act(g, seat, {type:'load', deck:practiceDeck(Boolean(seat))});
+  act(g, 0, {type:'start'});
+  for (let seat = 0; seat < 2; seat++) act(g, seat, {type:'ready'});
+  act(g, 0, {type:'draw', count:3});
+  assert.equal(g.players[0].zones.hand.length, 3);
+  assert.ok(g.players[0].zones.hand.every(card => card.image.endsWith('.webp')));
+});
+
+test('manual power is shared, validated, and cleared when MP stages or level change',()=>{
+ const g=setup();act(g,0,{type:'power',value:900000});assert.equal(view(g,1).players[0].power,900000);assert.equal(view(g,1).players[1].power,null);
+ for(const value of [-1,1.5,Infinity,'900000',1000000000])assert.throws(()=>act(g,0,{type:'power',value}));
+ act(g,0,{type:'counter',counter:'stages',delta:-1});assert.equal(view(g,0).players[0].power,null);
+ act(g,0,{type:'power',value:42});act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,null);
+ act(g,0,{type:'power',value:0});assert.equal(view(g,1).players[0].power,0);
+});
+
+test('printed personality chart follows stage and active level for both players',async()=>{
+ const {powerChart}=await import('../public/personality-power.js');
+ const {catalog}=await import('../public/cards/catalog.js');
+ for(const c of catalog.filter(c=>c.type==='Main Personality')) {assert.equal(powerChart(c)?.length,c.powerStages?.length??11,c.id);assert.equal(powerChart(c)[0],0);if(c.powerStages)assert.deepEqual(powerChart(c),[...c.powerStages].reverse(),c.id);}
+ const g=setup();
+ g.players[0].personalities[0].id='saiyan-158-goku';g.players[0].personalities[1].id='saiyan-159-goku';g.players[0].stages=1;
+ assert.equal(view(g,0).players[0].power,500);assert.equal(view(g,1).players[0].power,500);
+ act(g,0,{type:'counter',counter:'stages',delta:1});assert.equal(view(g,1).players[0].power,600);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,1).players[0].power,3700);
+ g.players[0].stages=0;assert.equal(view(g,1).players[0].power,0);
+ assert.equal(powerChart({image:'/assets/cards/goku-super-saiyan-3.webp'})[1],6025000);
+ const d=deck('custom');d.personalities[0].powerLevels=[0,100,500];assert.deepEqual(parseDeck(d).personalities[0].powerLevels,[0,100,500]);assert.equal(parseDeck(d).personalities[0].maxStages,2);
+ d.personalities[0].powerLevels=[0,-1];assert.equal(parseDeck(d).personalities[0].powerLevels,undefined);
+});
+
+test('Cell Android 19 preserves all twelve nonzero stages in Arena',async()=>{
+ const {catalog}=await import('../public/cards/catalog.js');
+ const input=deck('cell');input.personalities=['cell-090-android-19','cell-095-android-19-recalled','cell-098-android-19-recharged'].map(id=>catalog.find(c=>c.id===id));
+ const parsed=parseDeck(input);assert.equal(parsed.personalities[0].maxStages,12);
+ const g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');act(g,0,{type:'load',deck:input});act(g,1,{type:'load',deck:deck('B')});act(g,0,{type:'start'});
+ for(let i=0;i<20;i++)act(g,0,{type:'counter',counter:'stages',delta:1});
+ assert.equal(g.players[0].stages,12);assert.equal(view(g,0).players[0].power,1200000);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,1250000);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.equal(view(g,0).players[0].power,1300000);
+});
+
+test('played cards are named in the shared log without revealing private movements',()=>{
+ const g=playing();act(g,0,{type:'draw'});
+ let c=g.players[0].zones.hand[0];c.name='Krillin’s Heat Seeking Blast';
+ act(g,0,{type:'move',from:'hand',to:'combat',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice played Krillin’s Heat Seeking Blast from hand to combat.');
+ act(g,0,{type:'move',from:'combat',to:'discard',uid:c.uid});
+ assert.equal(g.log.at(-1).text,'Alice moved Krillin’s Heat Seeking Blast from combat to discard pile.');
+ act(g,0,{type:'draw'});c=g.players[0].zones.hand[0];c.name='Private card identity';
+ act(g,0,{type:'move',from:'hand',to:'deck',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice moved a card from hand to Life Deck (top).');
+ act(g,0,{type:'draw'});c=g.players[0].zones.hand[0];
+ act(g,0,{type:'move',from:'hand',to:'combat',uid:c.uid});act(g,0,{type:'flip',from:'combat',uid:c.uid});
+ act(g,0,{type:'move',from:'combat',to:'hand',uid:c.uid});
+ assert.equal(view(g,1).log.at(-1).text,'Alice moved a card from combat to hand.');
+});
+
+test('undo restores counters and cards, stays private, and stops at another action',()=>{
+ const g=playing();const stages=g.players[0].stages;
+ act(g,0,{type:'counter',counter:'stages',delta:-1});
+ assert.equal(view(g,0).canUndo,true);assert.equal(view(g,1).canUndo,false);assert.equal(view(g,0).undo,undefined);
+ act(g,0,{type:'chat',text:'One moment'});act(g,0,{type:'undo'});
+ assert.equal(g.players[0].stages,stages);assert.ok(g.log.some(x=>x.text.includes('One moment')));assert.equal(view(g,0).canUndo,false);
+ act(g,0,{type:'counter',counter:'anger',delta:1});act(g,0,{type:'undo'});assert.equal(g.players[0].anger,0);
+ const count=g.players[0].zones.deck.length;act(g,0,{type:'draw'});act(g,0,{type:'undo'});assert.equal(g.players[0].zones.deck.length,count);assert.equal(g.players[0].zones.hand.length,0);
+ act(g,0,{type:'counter',counter:'level',delta:1});act(g,1,{type:'counter',counter:'anger',delta:1});
+ assert.throws(()=>act(g,0,{type:'undo'}));act(g,1,{type:'undo'});assert.equal(g.players[0].level,2);
+});
+
+test('practice level changes select distinct matching MP artwork and power charts',async()=>{
+ const {practiceDeck}=await import('../public/practice-deck.js');
+ for(const opponent of [false,true]){
+  const d=practiceDeck(opponent),g=newGame();addPlayer(g,'a','A');addPlayer(g,'b','B');
+  act(g,0,{type:'load',deck:d});act(g,1,{type:'load',deck:practiceDeck(!opponent)});act(g,0,{type:'start'});
+  const seen=new Set();
+  for(let level=1;level<=d.personalities.length;level++){
+   const p=view(g,0).players[0];const active=p.personalities[p.level-1];
+   assert.equal(p.level,level);assert.equal(active.id,d.personalities[level-1].id);assert.ok(active.image.startsWith('/assets/cards/'));
+   seen.add(active.image);assert.equal(p.power,active.powerLevels[p.stages]);
+   if(level<d.personalities.length)act(g,0,{type:'counter',counter:'level',delta:1});
+  }
+  assert.equal(seen.size,d.personalities.length);act(g,0,{type:'undo'});assert.equal(g.players[0].level,d.personalities.length-1);
+ }
+});
+
+test('stage, level, power-up and undo logs include the matching printed power',async()=>{
+ const {practiceDeck}=await import('../public/practice-deck.js');
+ const g=newGame();addPlayer(g,'a','Alice');addPlayer(g,'b','Bob');act(g,0,{type:'load',deck:practiceDeck()});act(g,1,{type:'load',deck:practiceDeck(true)});act(g,0,{type:'start'});
+ act(g,0,{type:'counter',counter:'stages',delta:1});assert.match(g.log.at(-1).text,/6 stages above 0, power 1,000/);
+ act(g,0,{type:'counter',counter:'level',delta:1});assert.match(g.log.at(-1).text,/MP level 2, 6 stages above 0, power 5,700/);
+ act(g,0,{type:'undo'});assert.match(g.log.at(-1).text,/MP level 1, 6 stages above 0, power 1,000/);
+ act(g,0,{type:'ready'});act(g,1,{type:'ready'});act(g,0,{type:'powerUp'});assert.match(g.log.at(-1).text,/7 stages above 0, power 1,100/);
+ g.players[0].stages=1;act(g,0,{type:'counter',counter:'stages',delta:-1});assert.match(g.log.at(-1).text,/0 stages above 0, power 0/);
+});
+
+
+test('Planning follows Draw and legacy Non-Combat saves advance to Power Up',()=>{
+ const g=playing();
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Planning');
+ assert.equal(view(g,1).phase,'Planning');
+ assert.match(g.log.at(-1).text,/Planning Step/);
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Power Up');
+ g.phase='Non-Combat';
+ assert.equal(view(g,0).phase,'Planning');
+ assert.equal(g.phase,'Non-Combat');
+ assert.throws(()=>act(g,1,{type:'phase'}));
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Power Up');
+ act(g,0,{type:'phase'});
+ assert.equal(g.phase,'Declare');
+});

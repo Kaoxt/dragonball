@@ -1,0 +1,191 @@
+/* Shared visual direction: crimson print, black angular panels, white lettering and crimson accents. */
+:root{--bg:#0a0b0f;--page-overlay:linear-gradient(90deg,#0a0b0fdf,#0a0b0fb3 55%,#0a0b0fd9);--panel:#21191b;--line:#503338;--muted:#b9aeb0;--ink:#f5f5f7;--accent:#ff858c;--blue:#c7d5df}body{background-color:var(--bg);background-image:linear-gradient(114deg,transparent 72%,#a8222020 72%,#a8222020 79%,transparent 79%),repeating-linear-gradient(145deg,#b71f180b 0,#b71f180b 2px,transparent 2px,transparent 7px),radial-gradient(ellipse at 50% 0,#6b191b 0,transparent 65%);background-attachment:fixed}header{background:#0e0d0ef2;border-bottom:3px solid #b92924;box-shadow:0 5px 0 #0005}.brand-mark{background:#d93127;color:#f2f3f5;border:1px solid #ff6351;box-shadow:3px 3px 0 #000}.brand b{color:#f2f3f5}.brand small{color:#d7b9b4}.brand{letter-spacing:1.3px}h1,h2,h3{font-family:var(--font-ui);letter-spacing:.4px}button{background:#332629;border-color:#674147;border-radius:5px}button:hover{background:#513137}input,textarea,select{background:#140f11;border-color:#5d3b42}select option{background:#201618}.primary,.primary-link{background:#c3243a;color:#ffffff;border-color:#c3243a;box-shadow:3px 3px 0 #0007}.primary:hover,.primary-link:hover{background:#e13248;color:#ffffff}.pill{color:#d8c0bb;border-color:#674147}.lobby{gap:6%;position:relative}.intro{position:relative;padding-right:140px;min-height:515px}.intro h1{font-size:clamp(42px,4.3vw,62px);line-height:1.08;letter-spacing:-1px;text-transform:uppercase;text-shadow:3px 4px 0 #0008}.intro>p{font-size:15px;position:relative;z-index:1}.intro .feature-row{position:relative;z-index:1;gap:18px}.lobby-panel{background:linear-gradient(145deg,#651e22,#25171c 60%);border:1px solid #a64c40;border-top:5px solid #db3c2a;border-radius:5px;box-shadow:10px 10px 0 #0003}.lobby-goku{position:absolute;right:-10px;bottom:25px;width:180px;transform:rotate(7deg);z-index:0}.lobby-goku img{width:100%;border-radius:8px;border:3px solid #0b0c0d;box-shadow:0 0 0 1px #8e414b,0 14px 35px #000b}.lobby-goku span{display:block;background:#121014;padding:9px 5px;color:#f2f3f5;font-size:8px;letter-spacing:1px;text-align:center}.table-art{display:none}.table-heading{border-left:5px solid #e54330;padding:12px 16px;background:linear-gradient(110deg,#631d20,#1c141780);box-shadow:4px 4px 0 #0004}.table-heading h1{text-transform:uppercase}.turn-bar{background:linear-gradient(105deg,#991f22,#401a22);border-color:#bc4b40;border-radius:6px 6px 0 0}.turn-bar p{color:#ebc8bc}.setup-bar{background:#422622;color:#dddde3}.player-field,.player-field.opponent{background:#1d1518ed;border-color:#58383c}.player-meta{border-bottom:1px solid #59383b;padding-bottom:10px}.player-meta strong{color:#f2f3f5}.counter{background:#34252a!important}.zone{background:#130f12c9;border-color:#72504a}.zone-label{color:#c5c6ce}.starting-slot{border-color:#b04c36;background:linear-gradient(160deg,#472020,#151117);box-shadow:inset 0 0 0 3px #0002}.starting-slot .zone-label{color:#f2f3f5}.free-table,.opponent .free-table{background:linear-gradient(#100d0b38,#100d0b38),url("/assets/burnt-orange-playmat.webp") center/cover no-repeat #141110;border:1px solid #78412b;box-shadow:inset 0 0 55px #0006;border-radius:5px}.table-hint{color:#d0bfb5;text-shadow:0 1px 3px #000}.hand-panel{background:linear-gradient(115deg,#3e1b21,#20171e);border-color:#814137}.side-panel{background:#21191bf5;border-color:#593b3e;border-top:3px solid #ac3029;border-radius:5px}.side-panel .section-label{color:#f2f3f5}.side-panel p,.fine{color:#c4b8b6}.card{border-radius:5px;box-shadow:0 3px 8px #0009}.card.has-image{background:#080b0d;border:2px solid #090b0d;outline:1px solid #b8bac350;aspect-ratio:5/7;min-height:0!important;padding:0;display:block}.card.has-image img,.free-table .card.has-image img{display:block;width:100%;height:100%;object-fit:contain;border-radius:3px;filter:contrast(1.035) saturate(1.035)}.card.has-image strong,.card.has-image small{display:none}.card-state{position:absolute;bottom:0;left:0;right:0;background:#190e11e8;color:#f2f3f5;font-size:8px;text-align:center;padding:3px}.card.selected{outline:2px solid #c3243a}.inspector .preview-image{background:#090b0d;border:3px solid #090b0d;border-radius:7px;max-height:390px;filter:contrast(1.035) saturate(1.035)}#enlarge-card{font-size:11px;margin-top:9px}#card-zoom{width:min(650px,96vw);padding:12px;background:#120f12}#card-zoom-image{display:block;max-width:100%;max-height:80vh;object-fit:contain;margin:10px auto 0;border:4px solid #07090b;border-radius:8px}#close-card-zoom{display:block;margin-left:auto}.practice-notice{font-size:11px;margin:0;background:#211719;color:#bbbcc5;padding:9px 15px;border:1px solid #593b3e}dialog{background:#23171c;border-color:#865045}#toast{background:#c3243a}.manual-hero{background:linear-gradient(90deg,#100d0bd9 0%,#100d0ba6 55%,#100d0b59 100%),url("/assets/burnt-orange-playmat.webp") center/cover no-repeat #141110;border-bottom:4px solid #cf392b;margin-top:24px;padding:45px 30px}.manual-hero h1{text-transform:uppercase;letter-spacing:-1px;text-shadow:4px 4px 0 #1a0c14}.manual-hero h1 em{color:#f2f3f5}.manual-hero p{color:#e2ccc5}.hero-card{width:230px;transform:rotate(5deg)}.hero-card img{border:4px solid #080b0d;border-radius:8px;box-shadow:0 0 0 1px #8e414b,12px 14px 0 #180b1570,0 0 50px #e1324822}.hero-card figcaption{background:#1b1018;color:#f2f3f5;padding:10px 5px}.edition{color:#d8aaa0}.chapter{border-bottom-color:#633237}.chapter-heading{padding:10px 14px;background:linear-gradient(100deg,#8a2427,#29181e);border-left:4px solid #e23849;box-shadow:4px 4px 0 #0003}.chapter-heading>span{color:#f2f3f5;border-color:#9f4651;background:#311820;border-radius:4px}.chapter h2{color:white;letter-spacing:.5px;text-shadow:2px 2px #230b12}.chapter h3{color:#f2f3f5;letter-spacing:.3px}.chapter p{color:#d3c4c4}.victory-grid article{background:linear-gradient(155deg,#632023,#23181d);border-color:#995040;border-radius:5px}.slot-diagram>div{background:linear-gradient(140deg,#4c2023,#20151b);border-color:#9f4651}.slot-diagram strong{color:#f2f3f5}.slot-diagram span{color:#b7b9c1}.table-note{background:#bb352012;border-color:#c3243a}.turn-track li{border-color:#813733}.turn-track li:before{background:#641e26;border-color:#b34935;color:#f2f3f5}.chapter-nav>a{border-color:#69372f80}.chapter-nav>a:hover{color:#f2f3f5}.chapter details{background:#29191e;border-color:#6e3538}.chapter details[open] summary{color:#f2f3f5}.reference .credits{color:#b49b99}footer{color:#b08f8d}
+@media(max-width:1100px){.intro{padding-right:65px}.lobby-goku{width:145px;right:-10px;bottom:0;opacity:.8}.intro .feature-row{max-width:260px}}@media(max-width:650px){.intro{padding-right:95px;min-height:330px}.intro h1{font-size:37px;letter-spacing:-1px}.intro>p{font-size:13px}.lobby-goku{right:0;bottom:25px;width:110px;opacity:1}.intro .feature-row{gap:12px;font-size:9px}.lobby-panel{padding:23px}.manual-hero{margin-top:15px;padding:28px 18px;min-height:360px}.manual-hero h1{font-size:38px}.manual-hero .hero-card{position:absolute;width:125px;right:8px;bottom:20px;top:auto;opacity:1;z-index:0}.manual-hero>div{padding-right:65px;z-index:1}.manual-hero p{font-size:14px;max-width:220px}.manual-hero .hero-links{flex-wrap:wrap;max-width:190px}.hero-card figcaption{font-size:6px;padding:6px}.chapter-heading{padding:10px}.chapter h2{font-size:20px}.table-heading{padding:10px}.inspector .preview-image{max-height:270px}.practice-notice{font-size:10px}}@media print{body{background:white}.manual-hero,.chapter-heading,.victory-grid article,.slot-diagram>div{background:white;box-shadow:none}.chapter h2,.chapter h3,.chapter p,.manual-hero p{color:black;text-shadow:none}.manual-hero h1{text-shadow:none}}
+@media(max-width:650px){.intro{padding-right:0;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 110px;column-gap:20px}.intro>.eyebrow,.intro>h1,.intro>.feature-row{grid-column:1/-1}.intro>p{grid-column:1;grid-row:3;margin:0}.intro>.lobby-goku{position:static;grid-column:2;grid-row:3;align-self:center;width:100%;transform:rotate(4deg);margin:0}.intro .feature-row{max-width:none;margin:24px 0 10px}.manual-hero>div{padding-right:0}.manual-hero{display:block}.manual-hero .hero-card{position:relative;right:auto;bottom:auto;width:150px;margin:28px 12px 10px auto;opacity:1}.manual-hero p{max-width:none}.manual-hero .hero-links{max-width:none}}
+
+.card-controls{position:fixed;right:18px;bottom:18px;z-index:25;width:285px;max-height:85vh;overflow:auto;padding:16px;background:#21171bf7;border:1px solid #9c493b;border-top:3px solid #d53b2c;border-radius:8px;box-shadow:0 12px 60px #000b}.card-controls #close-card-controls{display:block;margin:0 0 12px auto;font-size:11px;padding:7px 10px}.card-controls .preview-image{display:block;max-height:250px;margin:auto}.card-controls p{font-size:12px}.workspace aside{display:block}.workspace .log-panel{margin:0}.card-controls h3{margin:12px 0 5px}@media(max-width:650px){.card-controls{width:calc(100% - 24px);right:12px;bottom:12px;max-height:75vh}.card-controls .preview-image{max-height:210px}}
+
+/* Neutral type stays readable against the red-and-black panels. */
+.eyebrow,.section-label,.feature-row{color:#e5e6eb}.intro h1 em{color:#f5f5f7}.text-button,.source-link{color:#ff949d}.primary:focus-visible,.primary-link:focus-visible{outline-color:#fff}.card.selected{outline-color:#f2f3f5}#toast{color:#fff}.ball{background:radial-gradient(circle at 30% 25%,#ffabb0,#cc2940 65%,#74152a);color:#fff;box-shadow:0 3px 18px #c3243a30}.setup-bar{background:#302025}.slot-diagram small{color:#b9bbc4}.chapter-heading>span{color:#fff}.brand b{color:#d5d6dc}
+
+/* A single SVG icon style for actions, navigation, and native selects. */
+.ui-icon{display:inline-block;width:16px;height:16px;min-width:16px;vertical-align:-3px;pointer-events:none;flex-shrink:0}a>.ui-icon,button>.ui-icon{margin-left:5px}.back-link>.ui-icon{margin:0 5px 0 0}.header-right>a{display:inline-flex;align-items:center;gap:6px}.header-right>a>.ui-icon{width:14px;height:14px;min-width:14px;margin:0}.wide{gap:9px}.wide>span{display:inline-flex;align-items:center}#chat-form button,#close-deck{display:inline-flex;align-items:center;justify-content:center}#chat-form button>.ui-icon,#close-deck>.ui-icon{margin:0}select{appearance:none;-webkit-appearance:none;background-image:url('/assets/icons/chevron-down.svg');background-repeat:no-repeat;background-position:right 12px center;background-size:18px 18px;padding-right:42px;cursor:pointer}select:disabled{opacity:.55;cursor:not-allowed}summary{list-style:none;position:relative;padding-right:28px}summary::-webkit-details-marker{display:none}summary::marker{content:''}summary::after{content:'';position:absolute;right:0;top:.1em;width:18px;height:18px;background:url('/assets/icons/chevron-down.svg') center/contain no-repeat}details[open]>summary::after{transform:rotate(180deg)}@media(forced-colors:active){select{appearance:auto;background-image:none}summary{list-style:revert}summary::after{display:none}}
+
+/* Shared Dragon Ball Arena header. */
+header .brand{gap:18px;min-width:0;text-decoration:none}
+.brand-logo{display:block;width:190px;height:auto;flex-shrink:0}
+.brand-arena{border-left:1px solid #724036;padding-left:18px;font-size:24px;font-weight:600;letter-spacing:3px;line-height:1.1}
+.brand-arena small{font-size:7px;letter-spacing:1.6px;margin-top:6px;white-space:nowrap}
+header .back-link{white-space:nowrap}
+@media(max-width:650px){header .brand{gap:10px}.brand-logo{width:140px}.brand-arena{padding-left:10px;font-size:17px;letter-spacing:1.5px}.brand-arena small{font-size:6px;letter-spacing:.7px}header .back-link{font-size:10px}}
+@media(max-width:360px){header{padding-left:4%;padding-right:4%}.brand-logo{width:115px}.brand-arena{font-size:15px}}
+
+/* Crimson arena theme with the card-back texture and three-card fan. */
+body.arena-page{background:var(--bg);background-image:var(--page-overlay),url('/assets/burnt-orange-playmat.webp');background-size:cover;background-position:center top;background-attachment:fixed;background-blend-mode:normal,luminosity}
+.arena-page header{border-bottom-color:#b92924}
+.arena-page .intro{display:block;padding-right:0;min-height:0}
+.arena-page .intro h1{max-width:560px}
+.arena-page .intro>p{max-width:470px}
+.arena-page .intro .feature-row{max-width:none;margin-top:26px}
+.lobby-card-fan{position:relative;width:min(360px,90%);height:330px;margin:35px auto 0;isolation:isolate;pointer-events:none}
+.lobby-card-fan img{position:absolute;top:12px;left:50%;width:185px;height:auto;border-radius:12px;box-shadow:0 12px 25px #0009;transform-origin:50% 85%}
+.lobby-card-fan img:nth-child(1){transform:translateX(-75%) rotate(-21deg);z-index:1}
+.lobby-card-fan img:nth-child(2){transform:translateX(-50%) rotate(-2deg);z-index:2;top:0}
+.lobby-card-fan img:nth-child(3){transform:translateX(-25%) rotate(19deg);z-index:3}
+.arena-page .lobby-panel{background:linear-gradient(145deg,#651e22f5,#25171cf5 65%);border-color:#a64c40;border-top-color:#db3c2a;box-shadow:10px 10px 30px #0005}
+.arena-page .lobby-panel input{background:#140f11e8;border-color:#5d3b42}
+.arena-page .lobby-panel button{background:#332629;border-color:#674147}
+.arena-page .lobby-panel button:hover{background:#513137}
+.arena-page .lobby-panel .primary{background:#c3243a;border-color:#c3243a;color:white}
+.arena-page .lobby-panel .primary:hover{background:#e13248}
+.arena-page .lobby-panel .text-button{color:#ff949d;background:none;border-color:transparent}
+.arena-page .lobby-panel .text-button:hover{color:#ffd3d7;background:#ffffff08}
+.arena-page footer{color:#b9aeb0}
+@media(max-width:650px){.arena-page .intro>p{font-size:14px}.lobby-card-fan{width:290px;max-width:90%;height:280px;margin-top:24px}.lobby-card-fan img{width:155px;border-radius:10px}.arena-page .intro .feature-row{margin-bottom:0}.arena-page .lobby{gap:20px}}
+@media print{body.arena-page{background:white}}
+@media(max-width:360px){.lobby-card-fan{height:245px}.lobby-card-fan img{width:130px}}
+
+/* Piles stay compact regardless of card count; contents open on demand. */
+.compact-pile{min-width:0}.pile-open{display:flex;flex-direction:column;align-items:center;gap:9px;width:100%;padding:4px 0;border:0;background:transparent!important;box-shadow:none;cursor:pointer}.pile-cover{position:relative;display:block;width:70px;height:98px;border:1px solid #73545b;border-radius:5px;background:#171216}.pile-cover img{display:block;width:100%;height:100%;object-fit:contain;border-radius:4px}.pile-cover>span{display:flex;align-items:center;justify-content:center;height:100%;padding:5px;font-size:10px;overflow-wrap:anywhere}.pile-cover.stacked{box-shadow:3px 3px 0 #30252a,4px 4px 0 #73545b,6px 6px 0 #30252a,7px 7px 0 #73545b}.empty-cover{border-style:dashed;color:#a398a2}.pile-open:hover .pile-caption{color:#fff}.pile-open:focus-visible{outline:2px solid #ff949d;outline-offset:2px}#pile-dialog{width:min(820px,94vw)}#pile-dialog .dialog-heading{gap:15px;align-items:flex-start}#pile-title{font-size:22px;overflow-wrap:anywhere}#pile-cards{gap:14px;padding:8px 3px;max-height:62vh;overflow:auto}#pile-cards .card{width:120px;touch-action:pan-y}#pile-cards .empty{padding:24px}.pile-row{align-items:start}@media(max-width:650px){.pile-cover{width:56px;height:79px}.pile-open{gap:8px}#pile-cards .card{width:calc((100% - 14px)/2)}#pile-title{font-size:18px}}
+@media(max-width:650px){header{height:auto;min-height:78px;flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}header .header-right{gap:16px;flex-wrap:wrap;margin-left:auto}}
+
+/* Compact two-player tabletop: fixed cards live within each player's mat. */
+.arena-page .player-field{padding:10px 12px}
+.arena-page .player-meta{margin-bottom:7px;padding-bottom:6px}
+.arena-page .counter-row{margin:5px 0 8px}
+.arena-page .free-table{height:315px;min-height:315px}
+.arena-page .mat-starting-slots{position:absolute;bottom:10px;left:10px;right:10px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:end;gap:8px;z-index:2;pointer-events:none}
+.arena-page .mat-starting-slots .starting-slot[data-zone="mp"]{grid-column:3}
+.arena-page .mat-starting-slots .starting-slot[data-zone="mastery"]{grid-column:4}
+.arena-page .mat-starting-slots .starting-slot[data-zone="sensei"]{grid-column:5}
+.arena-page .mat-starting-slots .starting-slot{pointer-events:auto;justify-self:center;display:flex;flex-direction:column;align-items:center;width:100%;max-width:70px;min-width:0;min-height:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+.arena-page .mat-starting-slots .zone-label{justify-content:center;text-align:center;font-size:8px;line-height:1.2;min-height:20px;margin-bottom:4px;letter-spacing:0;text-shadow:0 1px 3px #000}
+.arena-page .mat-starting-slots .card{position:relative;left:auto!important;top:auto!important;width:100%;height:auto;aspect-ratio:5/7;min-height:0}
+.arena-page .mat-starting-slots .empty{font-size:9px}
+.arena-page .free-table .table-hint{bottom:8px}
+.arena-page .pile-row{margin-top:7px;gap:6px}
+@media(max-width:650px){.arena-page .player-field{padding:7px}.arena-page .player-meta{flex-wrap:wrap;gap:3px}.arena-page .free-table{height:275px;min-height:275px}.arena-page .mat-starting-slots{bottom:6px;left:6px;right:6px;gap:5px}.arena-page .mat-starting-slots .starting-slot{max-width:65px}.arena-page .mat-starting-slots .card{width:min(100%,65px);height:auto;aspect-ratio:5/7}.arena-page .mat-starting-slots .zone-label{font-size:7px;letter-spacing:0;min-height:19px}.arena-page .pile-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.arena-page .pile-row .zone{padding:5px;min-width:0}.arena-page .pile-row .zone-label{font-size:7px;letter-spacing:0;overflow-wrap:anywhere}}
+
+/* Readable rulebook headings and copy; branded page wordmarks remain separate. */
+.manual .chapter h2,.manual .chapter h3{font-family:var(--font-ui);font-weight:600;font-style:normal;letter-spacing:0;line-height:1.35;text-shadow:none}
+.manual .chapter h2{font-size:clamp(21px,2.4vw,28px)}
+.manual .chapter h3{font-size:18px}
+.manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){font-size:16px;line-height:1.75}
+.manual .chapter summary{font-size:16px;line-height:1.5}
+.manual .chapter .rule-source{font-size:12px;line-height:1.6;letter-spacing:0}
+.manual .chapter-links>a{font-size:13px;line-height:1.5}
+@media print{.manual .chapter p,.manual .chapter ul,.manual .chapter ol:not(.turn-track){font-size:11pt}.manual .chapter h2{font-size:18pt}.manual .chapter h3{font-size:13pt}}
+
+/* Shared action buttons: charcoal surfaces and light labels. */
+body main button:not(.text-button):not(.account-text-button):not([aria-label]):not([data-command]),
+body dialog button:not([aria-label]):not([data-command]){
+ background:#252326;color:#f5f5f5;border-color:#444046;border-radius:999px;box-shadow:none;
+}
+body main button:not(.text-button):not(.account-text-button):not([aria-label]):not([data-command]):hover:not(:disabled),
+body dialog button:not([aria-label]):not([data-command]):hover:not(:disabled){
+ background:#353137;border-color:#5a545d;
+}
+body main button:is([type=submit],.primary,.issue-primary,.forum-management-save),
+body.community-page .forum-shell button:is(.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save),
+body .arena-page .lobby-panel button[type=submit],
+body main .account-tabs button[aria-pressed=true],
+body main .mobile-tabs button[aria-pressed=true],
+body main a.primary-link,body dialog button.primary,body dialog a:is(.primary-link,.deck-image-download){
+ background:#252326;color:#f5f5f5;border:1px solid #444046;border-radius:999px;box-shadow:none;
+}
+body main button:is([type=submit],.primary,.issue-primary,.forum-management-save):hover:not(:disabled),
+body.community-page .forum-shell button:is(.issue-primary,.forum-start-topic,.forum-reply-shortcut,.forum-management-save):hover:not(:disabled),
+body main .account-tabs button[aria-pressed=true]:hover,
+body main .mobile-tabs button[aria-pressed=true]:hover,
+body main a.primary-link:hover,body dialog button.primary:hover:not(:disabled),body dialog a:is(.primary-link,.deck-image-download):hover{
+ background:#353137;color:#f5f5f5;border-color:#5a545d;
+}
+body main button:disabled,body dialog button:disabled{opacity:.42;cursor:not-allowed}
+
+/* Centered seven-slot arena dock and shared MP readout. */
+/* Dark charcoal playmats retain the reference's brush-and-halftone texture. */
+.arena-page .arena-mat{
+ background-color:#1b1d20;
+ background-image:linear-gradient(115deg,#1b1d20e6,#17191cd1 48%,#1b1d20e6),url('/assets/crimson-shatter-playmat.webp');
+ background-position:center;background-size:cover;background-repeat:no-repeat;
+ background-blend-mode:normal,luminosity;
+ border:1px solid #44474c;border-radius:5px;padding:8px;
+}
+.arena-page .arena-mat .arena-dock .zone-label{color:#f0f1f2;font-weight:600;text-shadow:0 1px 2px #0008}
+.arena-page .arena-mat .table-hint{color:#bec1c5;text-shadow:none}
+.arena-page .arena-mat .arena-dock .empty{color:#bec1c5}
+.arena-page .arena-mat .pile-caption{color:#bec1c5}
+.arena-page .arena-mat .empty-cover{background:#1e2023;border-color:#60646a;color:#e8e9eb}
+.arena-page .arena-mat .free-table{height:150px;min-height:150px;background:none;border:0;box-shadow:none;overflow:hidden}
+.arena-page .arena-dock{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:start;max-width:660px;margin:auto}
+.arena-page .arena-dock .zone{display:flex;flex-direction:column;align-items:center;min-width:0;min-height:0;padding:0;background:none;border:0;box-shadow:none}
+.arena-page .arena-dock .zone-label{display:block;text-align:center;font-size:9px;letter-spacing:0;line-height:1.25;min-height:26px;margin:0 0 5px;color:#eee}
+.arena-page .arena-dock .zone-label span{display:block}
+.arena-page .arena-dock .card,.arena-page .arena-dock .pile-cover{position:relative;display:block;width:100%;max-width:70px;height:auto;aspect-ratio:5/7;margin:0;min-height:0}
+.arena-page .arena-dock .pile{display:flex;flex-direction:column;gap:4px;width:100%;align-items:center;font-size:12px}
+.arena-page .arena-dock .pile-open{gap:5px;padding:0}
+.arena-page .arena-dock .pile-caption{font-size:9px;text-align:center;margin-top:4px}
+.arena-page .arena-dock .empty{font-size:9px;text-align:center;display:grid;place-content:center}
+.arena-page .mp-readout{margin:10px auto 0;text-align:center;color:#eee}
+.arena-page .mp-readout .counter-row{justify-content:center;flex-wrap:wrap;gap:5px;margin:5px 0 0}
+.arena-page .mp-readout .counter{font-size:10px;padding:5px;gap:5px}
+.arena-page .mp-readout .counter strong{font-size:15px}
+.arena-page .power-readout{display:flex;justify-content:center;align-items:center;gap:7px;font-size:12px}
+.arena-page .power-readout small{color:#bdaeb2;font-size:9px}
+.arena-page .power-readout button{padding:3px 8px;background:#30252a;border:1px solid #674147;color:#eee}
+.arena-page .arena-extras{display:flex;gap:12px;margin-top:7px}
+.arena-page .arena-extras .zone{display:flex;align-items:center;gap:10px;min-height:0;padding:5px 9px}
+.arena-page .arena-extras .zone-label{font-size:9px;letter-spacing:0;margin:0;max-width:100px}
+.arena-page .arena-extras .pile-open{width:auto;flex-direction:row;font-size:10px}
+.arena-page .arena-extras .pile-cover,.arena-page .arena-extras .card{width:28px;height:39px;min-height:0}
+.arena-page .arena-extras .pile-caption{font-size:9px}
+.arena-page .arena-extras .pile{font-size:12px}
+.arena-page .sensei-choices{margin-top:8px;font-size:12px}
+@media(max-width:650px){.arena-page .arena-mat{padding:5px}.arena-page .arena-dock{gap:4px}.arena-page .arena-dock .zone-label{font-size:7px;min-height:26px}.arena-page .arena-dock .pile-caption{font-size:7px}.arena-page .arena-mat .free-table{height:130px;min-height:130px}}
+
+/* MP status shares the player header; the centered dock anchors the mat bottom. */
+.arena-page .player-meta{align-items:center;gap:10px;flex-wrap:wrap}
+.arena-page .player-meta>strong{flex:1 0 auto;font-size:12px}
+.arena-page .player-meta .mp-readout{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px 12px;margin:0;text-align:right}
+.arena-page .player-meta .mp-readout .counter-row{margin:0;gap:4px}
+.arena-page .player-meta .mp-readout .counter{padding:4px 5px;font-size:9px}
+.arena-page .player-meta .mp-readout .counter button{width:22px;height:22px;padding:0}
+.arena-page .player-meta .power-readout{font-size:10px;white-space:nowrap}
+.arena-page .arena-mat{display:flex;flex-direction:column;min-height:310px}
+.arena-page .arena-mat .free-table{flex:1;min-height:150px}
+.arena-page .arena-dock{width:100%;margin:0 auto}
+.mp-stack-card{display:flex;flex-direction:column;align-items:center;gap:8px;padding:9px;border:1px solid #574047;border-radius:8px;font-size:12px}
+.mp-stack-card.active-level{border-color:#ff949d;background:#40242e}
+#pile-cards .mp-stack-card .card{width:120px;height:168px}
+@media(max-width:650px){.arena-page .player-meta .mp-readout{gap:5px;justify-content:flex-start}.arena-page .arena-mat{min-height:265px}.arena-page .player-meta>strong{font-size:11px}.arena-page .player-meta .mp-readout .counter{font-size:8px}.arena-page .player-meta .mp-readout .counter strong{font-size:13px}#pile-cards .mp-stack-card{width:calc((100% - 14px)/2)}#pile-cards .mp-stack-card .card{width:100%;height:auto;aspect-ratio:5/7}}
+
+/* Table management follows chat, away from the playing area. */
+.arena-page .table-management{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin:14px 0 0;padding:14px;}
+.arena-page .table-management h1{font-size:20px;line-height:1.25;letter-spacing:0;}
+.arena-page .table-management .eyebrow{font-size:9px;letter-spacing:1px;}
+.arena-page .table-management .toolbar{flex-wrap:wrap;gap:6px;}
+
+/* Keep chat alongside the arena when landscape has room for two columns. */
+@media (orientation:landscape) and (min-width:800px){
+ .arena-page .workspace{grid-template-columns:minmax(0,1fr) 270px;align-items:start}
+ .arena-page .workspace>aside{display:block;position:sticky;top:12px;align-self:start;min-width:0;max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow-y:auto;scrollbar-width:thin}
+ .arena-page .workspace>aside .log-panel{margin:0}
+ .arena-page .workspace>aside #log{max-height:min(40vh,320px);max-height:min(40dvh,320px);overflow-y:auto;overscroll-behavior:contain}
+ .arena-page .workspace>aside #chat-form{flex-shrink:0}
+}
+
+/* Tidy played-card grid with room to rotate cards sideways. */
+.arena-page .arena-mat .free-table{flex:none;min-height:150px;touch-action:manipulation}
+.arena-page .free-table .card.rested,.arena-page .free-table .card.rested:hover{transform:rotate(90deg);opacity:1}
+.arena-page .arena-dock{margin-top:auto}
+.arena-page .arena-dock .pile{gap:0}
+
+/* Arena interface copy is lighter; setup uses the navigation's vector lettering. */
+.arena-page .lobby-panel>h2,.arena-page .table-management h1,.arena-page .turn-bar h2{font-family:var(--font-ui);font-weight:600;letter-spacing:0;text-transform:none;text-shadow:none}
+.arena-page .table-management h1{overflow-wrap:anywhere}
+.arena-page #table button,.arena-page .setup-bar label{font-weight:600}
+.arena-page .turn-bar>div{min-width:0}
+.arena-page .arena-setup-wordmark{display:block;width:560px;max-width:100%;height:auto}
+
+
+

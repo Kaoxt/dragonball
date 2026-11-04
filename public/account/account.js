@@ -1,0 +1,75 @@
+(() => {
+ const root=document.getElementById('account-content');
+ const defaultAvatar='/assets/default-avatar-dragonball.webp?v=20261103-card-back';
+ root.addEventListener('error',event=>{const image=event.target;if(image.matches?.('.account-avatar-preview')&&image.getAttribute('src')!==defaultAvatar)image.setAttribute('src',defaultAvatar);},true);
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ let mode=new URLSearchParams(location.search).get('mode')==='register'?'register':'login',ownerCode=new URLSearchParams(location.hash.slice(1)).get('setup')||'',user=null;
+ const next=(()=>{try{const u=new URL(new URLSearchParams(location.search).get('next')||'/forums/',location.origin);return u.origin===location.origin?u.pathname+u.search+u.hash:'/forums/';}catch{return '/forums/';}})();
+ async function api(action,data){const r=await (window.DragonNetwork?.fetch || fetch)('/api/auth/'+action,{credentials:'same-origin',cache:'no-store',...(data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{})});const result=await r.json();if(!r.ok)throw Error(result.error||'Please try again.');return result;}
+ const status='<p class="account-status" role="status" tabindex="-1"></p>';
+ function bind(id,action,after){const form=document.getElementById(id);form.onsubmit=async e=>{e.preventDefault();const button=form.querySelector('button[type=submit]'),out=form.querySelector('.account-status');button.disabled=true;out.textContent='';try{const data=Object.fromEntries(new FormData(form));if(data.confirmPassword!==undefined&&data.confirmPassword!==data.password)throw Error('Passwords do not match.');if(['register','login','recover'].includes(action))window.DragonSecurity.validate();const r=await api(action,data);await after(r,out);}catch(e){out.textContent=e.message;out.focus();if(['register','login','recover'].includes(action))window.DragonSecurity.reset();}finally{button.disabled=['register','login','recover'].includes(action)&&!window.DragonSecurity.canSubmit();}};}
+ function credentials(){
+  window.DragonSecurity.remove();
+  root.innerHTML=`<section class="account-card"><span class="eyebrow">DRAGON BALL ONLINE</span><h1>${mode==='register'?'Join the community':mode==='recover'?'Recover your account':'Welcome back'}</h1><p>${ownerCode?'Create your account or log in to finish setting up your administrator access.':mode==='register'?'One account for your profile and the forums.':mode==='recover'?'Use the recovery code you saved when you registered.':'Log in to share decks and join the conversation.'}</p>${mode!=='recover'?`<div class="account-tabs" role="group" aria-label="Account action"><button type="button" data-mode="login" aria-pressed="${mode==='login'}">Log in</button><button type="button" data-mode="register" aria-pressed="${mode==='register'}">Register</button></div>`:''}<form id="credentials-form"><label>Username<input name="username" autocomplete="username" pattern="[A-Za-z0-9_]{3,24}" minlength="3" maxlength="24" required autocapitalize="none" spellcheck="false"></label>${mode==='register'?'<small>3–24 letters, numbers, or underscores.</small>':''}${mode==='recover'?'<label>Recovery code<input name="recoveryCode" autocomplete="off" required maxlength="64" spellcheck="false"></label>':''}<label>${mode==='recover'?'New password':'Password'}<input name="password" type="password" autocomplete="${mode==='login'?'current-password':'new-password'}" minlength="${mode==='login'?1:8}" maxlength="128" required></label>${mode!=='login'?'<small>At least 8 characters. A few memorable words work well.</small><label>Confirm password<input name="confirmPassword" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label>':''}<div id="registration-security"></div>${status}<button class="primary" type="submit">${mode==='register'?'Create account':mode==='recover'?'Reset password':'Log in'}</button></form><button type="button" class="account-text-button" data-mode="${mode==='recover'?'login':'recover'}">${mode==='recover'?'Back to login':'Forgot your password?'}</button></section>`;
+  root.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;credentials();});
+  window.DragonSecurity.mount(document.getElementById('credentials-form'),mode);
+  bind('credentials-form',mode,async result=>{
+   if(mode==='recover'){await recovery(result.recoveryCode,()=>{mode='login';credentials();});return;}
+   const finish=async()=>{const settingUp=!!ownerCode;try{await claimOwner();window.dispatchEvent(new Event('dragon:auth-signed-in'));location.assign(settingUp?'/account/':next);}catch(e){root.innerHTML=`<section class="account-card"><h1>Account created</h1><p role="alert">${esc(e.message)}</p><a href="/account/">Continue to your account</a></section>`;}};
+   if(result.recoveryCode)await recovery(result.recoveryCode,finish);else await finish();
+  });
+ }
+ async function claimOwner(){if(!ownerCode)return;await api('claim-owner',{code:ownerCode});ownerCode='';history.replaceState(null,'','/account/');}
+ async function recovery(code,done){
+  window.DragonSecurity.remove();
+  root.innerHTML=`<section class="account-card"><span class="eyebrow">KEEP THIS SOMEWHERE SAFE</span><h1>Save your recovery code</h1><p>This code lets you reset your password. It replaces any previous recovery code. We do not send password-reset emails.</p><code class="recovery-code">${esc(code)}</code><button id="download-recovery" type="button">Download recovery code</button><label class="account-check"><input id="saved-recovery" type="checkbox"> I saved my recovery code.</label><button id="continue-account" class="primary" type="button" disabled>Continue</button></section>`;
+  document.getElementById('download-recovery').onclick=()=>{const url=URL.createObjectURL(new Blob(['Dragon Ball Online — recovery code\n'+code+'\nKeep this private.\n'],{type:'text/plain'}));const a=document.createElement('a');a.href=url;a.download='dragonball-recovery-code.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+  const b=document.getElementById('continue-account');document.getElementById('saved-recovery').onchange=e=>b.disabled=!e.target.checked;b.onclick=done;
+ }
+ async function account(){
+  if(ownerCode){try{await claimOwner();user=(await api('session')).user;}catch(e){root.innerHTML=`<section class="account-card"><h1>Owner setup</h1><p role="alert">${esc(e.message)}</p><a href="/account/">Continue to account</a></section>`;return;}}
+  root.innerHTML=`<div class="account-heading"><div><span class="eyebrow">YOUR COMMUNITY ACCOUNT</span><h1>${esc(user.displayName)}</h1><p>@${esc(user.username)}${user.isAdmin?' · Administrator':''}</p></div><button id="logout" type="button">Log out</button></div><div class="account-links"><a href="/forums/">Forums</a><a href="/forums/#messages">Messages</a><a href="/forums/#followed">Followed topics</a><a href="/forums/#member/${encodeURIComponent(user.memberId)}">Public profile</a>${user.isAdmin?'<a href="/forums/admin/">Manage forums</a>':''}</div><section class="account-card" id="my-decks"><h2>My Decks</h2><p><a href="/decks/">Open deck builder</a></p><div id="account-decks"><p>Loading decks…</p></div></section><div class="account-grid"><section class="account-card" id="community-profile"><h2>Your profile</h2><form id="avatar-form" class="account-avatar-form"><img class="account-avatar-preview" src="${esc(user.avatarUrl||defaultAvatar)}" alt="Your avatar" width="72" height="72"><div class="account-avatar-fields"><label>Avatar image<input id="avatar-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif" required aria-describedby="avatar-help"></label><small id="avatar-help">PNG, JPG, or WebP up to 20 MB; resized automatically. GIF up to 500 KB.</small>${status}<div class="account-form-actions"><button type="submit">Upload avatar</button>${user.avatarUrl?'<button id="remove-avatar" type="button">Remove avatar</button>':''}</div></div></form><hr><form id="profile-form"><label>Display name<input name="displayName" value="${esc(user.displayName)}" minlength="3" maxlength="40" required></label><label>Avatar image URL (optional)<input name="avatarUrl" type="url" placeholder="https://…" value="${esc(user.avatarUrl?.startsWith('/api/avatars/')?'':user.avatarUrl)}" maxlength="2048"></label><label>About me<textarea name="about" rows="3" maxlength="1000">${esc(user.about)}</textarea></label>${status}<button type="submit" class="primary">Save profile</button></form></section><section class="account-card"><h2>Change password</h2><form id="password-form"><label>Current password<input name="currentPassword" type="password" autocomplete="current-password" required></label><label>New password<input name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label><label>Confirm new password<input name="confirmPassword" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label><small>This signs out your other sessions and gives you a new recovery code.</small>${status}<button type="submit">Change password</button></form></section></div><section class="account-card"><h2>Notifications</h2><div id="account-notifications"><p>Loading…</p></div></section>`;
+  document.getElementById('logout').onclick=async()=>{try{await api('logout',{});user=null;window.dispatchEvent(new Event('dragon:auth-signed-out'));credentials();}catch(e){alert(e.message);}};
+  const avatarForm=document.getElementById('avatar-form'),fileInput=document.getElementById('avatar-file');
+  fileInput.onchange=()=>{
+   const out=avatarForm.querySelector('.account-status');out.textContent='';
+   if(!fileInput.files[0])return;
+   try{window.DragonAvatar.validate(fileInput.files[0]);out.textContent=fileInput.files[0].size>500*1024?'Ready to upload. Your image will be resized automatically.':'Ready to upload.';}
+   catch(error){out.textContent=error.message;}
+  };
+  avatarForm.onsubmit=async event=>{
+   event.preventDefault();
+   const file=fileInput.files[0],out=avatarForm.querySelector('.account-status'),button=avatarForm.querySelector('[type=submit]');
+   if(!file||button.disabled)return;
+   button.disabled=true;fileInput.disabled=true;out.textContent='Preparing image…';
+   try{
+    const image=await window.DragonAvatar.prepare(file);out.textContent='Uploading…';
+    const response=await (window.DragonNetwork?.fetch || fetch)('/api/auth/avatar',{method:'POST',credentials:'same-origin',headers:{'Content-Type':image.type},body:image});
+    const result=await response.json().catch(()=>({}));
+    if(!response.ok)throw Error(result.error||'Upload failed. Please try again.');
+    if(!result.avatarUrl)throw Error('The upload could not be confirmed. Please try again.');
+    user.avatarUrl=result.avatarUrl;window.dispatchEvent(new Event('dragon:auth-signed-in'));await account();
+    document.querySelector('#avatar-form .account-status').textContent='Avatar uploaded.';
+   }catch(error){out.textContent=error.message;out.focus();}
+   finally{button.disabled=false;fileInput.disabled=false;}
+  };
+  document.getElementById('remove-avatar')?.addEventListener('click',async event=>{event.currentTarget.disabled=true;try{await api('avatar-remove',{});user.avatarUrl='';window.dispatchEvent(new Event('dragon:auth-signed-in'));await account();}catch(e){avatarForm.querySelector('.account-status').textContent=e.message;event.target.disabled=false;}});
+  bind('profile-form','profile',async(_,out)=>{out.textContent='Profile saved.';window.dispatchEvent(new Event('dragon:auth-signed-in'));});
+  bind('password-form','password',r=>recovery(r.recoveryCode,load));
+  notifications();
+  myDecks();
+ }
+ async function myDecks(){
+  const box=document.getElementById('account-decks');
+  try{const r=await (window.DragonNetwork?.fetch || fetch)('/api/decks',{credentials:'same-origin',cache:'no-store'});const result=await r.json();if(!r.ok)throw Error(result.error||'Unable to load decks.');
+   box.innerHTML=result.data.decks.length?'<ul class="account-notification-list">'+result.data.decks.map(d=>'<li><a href="/decks/?deck='+encodeURIComponent(d.id)+'"><strong>'+esc(d.name||'Untitled deck')+'</strong></a><span>'+ (d.visibility==='public'?'Public':'Private')+'</span>'+(result.shares?.[d.id]?'<a href="/decks/shared.html?id='+encodeURIComponent(result.shares[d.id])+'">View / share</a>':'')+'</li>').join('')+'</ul>':'<p>No saved decks yet. Build a deck while logged in and it will appear here.</p>';
+  }catch(e){box.textContent=e.message;}
+ }
+ async function notifications(){
+  const box=document.getElementById('account-notifications');
+  try{const r=await (window.DragonNetwork?.fetch || fetch)('/api/forum?view=notifications',{cache:'no-store'});const d=await r.json();if(!r.ok)throw Error(d.error);box.innerHTML=d.notifications.length?`<ul class="account-notification-list">${d.notifications.map(n=>`<li><a href="${esc(n.url)}">${esc(n.actor.author)} mentioned or quoted you in <strong>${esc(n.topicTitle)}</strong></a>${n.readAt?'':'<span class="account-badge">New</span>'}</li>`).join('')}</ul><button id="mark-notifications" type="button">Mark all as read</button>`:'<p>No notifications yet. Mentions and quotes will appear here.</p>';document.getElementById('mark-notifications')?.addEventListener('click',async()=>{await (window.DragonNetwork?.fetch || fetch)('/api/forum',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'notificationsRead',all:true})});notifications();window.dispatchEvent(new Event('dragon:auth-signed-in'));});}catch(e){box.textContent=e.message;}
+ }
+ async function load(){try{user=(await api('session')).user;if(user)await account();else credentials();}catch(e){root.innerHTML=`<section class="account-card"><h1>Account</h1><p role="alert">${esc(e.message)}</p><button id="retry-account" type="button">Try again</button></section>`;document.getElementById('retry-account').onclick=load;}}
+ load();
+})();
+
