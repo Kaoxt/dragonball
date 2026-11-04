@@ -44,7 +44,7 @@ jobs:
       - name: Materialize the complete source for all checks
         shell: bash
         run: |
-          git sparse-checkout disable
+          git -c checkout.workers=4 sparse-checkout disable
           git diff --exit-code HEAD
           git count-objects -vH
           df -h .
