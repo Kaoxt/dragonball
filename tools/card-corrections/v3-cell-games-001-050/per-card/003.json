@@ -1,0 +1,211 @@
+{
+  "number": 3,
+  "id": "cell-games-003-black-preparation",
+  "name": "Black Preparation",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-003-black-preparation.svg",
+  "native_source_sha256": "92bd2acb306480ebbd9b6a2ca67c9f228a1cb3962cb64227cd7f95393414b71a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b899f936117aea2fce08d08347a27f0b91cd5d9d3c60f3f50e433eeae1eb16b0.png",
+      "sha256": "b899f936117aea2fce08d08347a27f0b91cd5d9d3c60f3f50e433eeae1eb16b0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/003.png",
+    "source_sha256": "b899f936117aea2fce08d08347a27f0b91cd5d9d3c60f3f50e433eeae1eb16b0",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 772.0531555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 509.60000000000014,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        261.587,
+        44.5,
+        535.825,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        807.678,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.478,
+        1392.65,
+        19.345,
+        33.708
+      ],
+      "rules-line-1": [
+        198.853,
+        1013.53,
+        715.89,
+        45.913
+      ],
+      "power-icon": [
+        144.257,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ],
+      "rules-line-3": [
+        276.562,
+        1131.53,
+        505.876,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          198.853,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-003-black-preparation.webp",
+      "after_sha256": "e9f1fdc17e0b6cfd23c01b7d5af372aa5d4abde922317d289c20354ddbc786fb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-003-black-preparation.webp",
+      "after_sha256": "371aca12959b5041de493a6d85f91de1b0d1801948218ec865c1f8dec9b923eb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 535.8254364089777,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

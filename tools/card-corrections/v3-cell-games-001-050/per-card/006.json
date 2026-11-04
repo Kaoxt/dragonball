@@ -1,0 +1,223 @@
+{
+  "number": 6,
+  "id": "cell-games-006-deadly-attack",
+  "name": "Deadly Attack",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-006-deadly-attack.svg",
+  "native_source_sha256": "8abf69f8597d64f9dea0adad88c4ad0d4543dc975437026d90e5c2be73d86b6c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b1b246e1d4b93c29a66a39475b5fa72c447c6e3d112e41c69746a87171a118b9.png",
+      "sha256": "b1b246e1d4b93c29a66a39475b5fa72c447c6e3d112e41c69746a87171a118b9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/006.png",
+    "source_sha256": "b1b246e1d4b93c29a66a39475b5fa72c447c6e3d112e41c69746a87171a118b9",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Stop a physical attack.",
+      "baseline": 1049.3,
+      "width": 866.781947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "For the rest of Combat, your opponent",
+      "baseline": 1108.3,
+      "width": 674.9750000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot use Ally powers, redirect damage",
+      "baseline": 1167.3,
+      "width": 725.6410000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "to Allies, or have Allies take over Combat.",
+      "baseline": 1226.3,
+      "width": 737.695,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        320.65,
+        44.5,
+        417.7,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        807.386,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.186,
+        1392.65,
+        19.928,
+        33.708
+      ],
+      "rules-line-1": [
+        97.971,
+        1013.53,
+        863.058,
+        45.521
+      ],
+      "power-icon": [
+        359.528,
+        1014.97,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        193.556,
+        1073.61,
+        671.888,
+        44.443
+      ],
+      "rules-line-3": [
+        168.101,
+        1131.53,
+        722.799,
+        45.913
+      ],
+      "rules-line-4": [
+        161.755,
+        1190.53,
+        735.49,
+        40.572
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          359.528,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          411.004,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          359.528,
+          1014.97,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-006-deadly-attack.webp",
+      "after_sha256": "0cc1cda807e53480ea872f99f3bae59d0ec0024f2a7af4478f17b7b64456efea",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-006-deadly-attack.webp",
+      "after_sha256": "10db2d3ad84a26642f55df2abefdfa99a46423451904746457590bc7825d7f0e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 417.69950124688285,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1
+}

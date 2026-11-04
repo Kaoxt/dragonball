@@ -1,0 +1,502 @@
+[
+  [
+    1,
+    "Black Explosion",
+    "ENERGY COMBAT",
+    "Black",
+    2,
+    "Endurance 2. Energy attack. If successful, discard one of your opponent's Allies in play.",
+    "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Discard 1 of your opponent's Allies in play.",
+    "attack"
+  ],
+  [
+    2,
+    "Black Fist Lock",
+    "PHYSICAL COMBAT",
+    "Black",
+    3,
+    "Endurance 3. Physical attack doing +4 power stages of damage.",
+    "ENDURANCE 3. Physical attack. DAMAGE: AT +4 stages.",
+    "attack"
+  ],
+  [
+    3,
+    "Black Preparation",
+    "ENERGY COMBAT",
+    "Black",
+    null,
+    "Focused energy attack. If successful, raise your anger 1 level.",
+    "Focused energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Raise your anger 1 level.",
+    "attack"
+  ],
+  [
+    4,
+    "Blue Forced Punch",
+    "PHYSICAL COMBAT",
+    "Blue",
+    3,
+    "Endurance 3. Physical attack doing +3 power stages of damage. If successful, lower your opponent's anger 2 levels.",
+    "ENDURANCE 3. Physical attack. DAMAGE: AT +3 stages. HIT: Lower your opponent's anger 2 levels.",
+    "attack"
+  ],
+  [
+    5,
+    "Blue Thrusted Blast",
+    "ENERGY COMBAT",
+    "Blue",
+    3,
+    "Endurance 3. Energy attack doing 5 life cards of damage. If successful, your Main Personality's PUR is considered to be +2 until the end of your next turn.",
+    "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Your Main Personality's PUR is +2 until the end of your next turn.",
+    "attack"
+  ],
+  [
+    6,
+    "Deadly Attack",
+    "EVENT",
+    "Freestyle",
+    2,
+    "Endurance 2. Stops a physical attack. For the remainder of Combat your opponent cannot use Ally card powers, redirect damage to Allies, or have Allies take over Combat.",
+    "ENDURANCE 2. POWER: Stop a physical attack. For the rest of Combat, your opponent cannot use Ally powers, redirect damage to Allies, or have Allies take over Combat.",
+    "block"
+  ],
+  [
+    7,
+    "Flashback",
+    "EVENT",
+    "Freestyle",
+    3,
+    "Endurance 3. Choose 4 cards in your opponent's discard pile and shuffle them into his Life Deck. Your opponent chooses 4 cards in your discard pile and shuffles them back into your Life Deck.",
+    "ENDURANCE 3. POWER: Choose 4 cards in your opponent's discard pile and shuffle them into their Life Deck. Your opponent chooses 4 cards in your discard pile and shuffles them into your Life Deck.",
+    null
+  ],
+  [
+    8,
+    "Gohan's Kick",
+    "PHYSICAL COMBAT",
+    "Freestyle",
+    null,
+    "Physical attack doing +3 power stages of damage. Cards that end Combat, or cards that stop all physical attacks or all energy attacks, cannot be used for the remainder of Combat.",
+    "Physical attack. DAMAGE: AT +3 stages. For the rest of Combat, neither player may use cards that end Combat, stop all physical attacks, or stop all energy attacks.",
+    "attack"
+  ],
+  [
+    9,
+    "Gohan's Strike",
+    "PHYSICAL COMBAT",
+    "Freestyle",
+    2,
+    "Endurance 2. Focused physical attack doing +2 power stages of damage. Raise your anger 1 level.",
+    "ENDURANCE 2. Focused physical attack. DAMAGE: AT +2 stages. Raise your anger 1 level.",
+    "attack"
+  ],
+  [
+    10,
+    "Namekian Crushing Hold",
+    "PHYSICAL COMBAT",
+    "Namekian",
+    2,
+    "Endurance 2. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza, shuffle the top 2 cards of your discard pile into your Life Deck. Remove from the game after use.",
+    "ENDURANCE 2. Physical attack. DAMAGE: AT +3 stages. If you declared a Tokui-Waza, shuffle the top 2 cards of your discard pile into your Life Deck. Banish after use.",
+    "attack"
+  ],
+  [
+    11,
+    "Namekian Fist Dodge",
+    "PHYSICAL COMBAT",
+    "Namekian",
+    3,
+    "Endurance 3. Namekian Heritage only. Physical attack, or stops a physical attack.",
+    "ENDURANCE 3. Namekian Heritage only. Physical attack. DAMAGE: AT stages. Or, stop a physical attack.",
+    "attack"
+  ],
+  [
+    12,
+    "Namekian Flying Kick",
+    "PHYSICAL COMBAT",
+    "Namekian",
+    null,
+    "Focused physical attack doing +3 power stages of damage. If successful, choose any cards in your discard pile and remove them from the game.",
+    "Focused physical attack. DAMAGE: AT +3 stages. HIT: Choose any cards in your discard pile and banish them.",
+    "attack"
+  ],
+  [
+    13,
+    "Namekian Foot Lunge",
+    "PHYSICAL COMBAT",
+    "Namekian",
+    4,
+    "Endurance 4. Physical attack doing +2 power stages of damage. If successful, choose a card in your discard pile and shuffle it back into your Life Deck.",
+    "ENDURANCE 4. Physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 card in your discard pile and shuffle it into your Life Deck.",
+    "attack"
+  ],
+  [
+    14,
+    "Orange Dragon Aid",
+    "EVENT",
+    "Orange",
+    3,
+    "Endurance 3. Take 1 or 2 of your opponent's Dragon Balls and place them at the bottom of his Life Deck.",
+    "ENDURANCE 3. POWER: Place 1 or 2 of your opponent's Dragon Balls on the bottom of their Life Deck.",
+    null
+  ],
+  [
+    15,
+    "Orange Uniting Strike",
+    "ENERGY COMBAT",
+    "Orange",
+    3,
+    "Endurance 3. Energy attack. If Goku and Gohan are in play, this attack does 8 life cards of damage instead.",
+    "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 4 life cards, or 8 life cards if Goku and Gohan are in play.",
+    "attack"
+  ],
+  [
+    16,
+    "Power Boost",
+    "ENERGY COMBAT",
+    "Freestyle",
+    3,
+    "Endurance 3. Use immediately before you perform an energy attack. You do not pay any costs for the energy attack and it does +2 life cards of damage.",
+    "ENDURANCE 3. POWER: Use immediately before an energy attack. Pay none of its costs; it deals +2 life cards of damage. This does not use your Attacker Attacks action.",
+    null
+  ],
+  [
+    17,
+    "Red Anger Rising",
+    "PHYSICAL COMBAT",
+    "Red",
+    null,
+    "Physical attack. For the remainder of Combat all physical attacks do +1 power stages of damage for each Dragon Ball in play. Raise your anger 1 level.",
+    "Physical attack. DAMAGE: AT stages. For the rest of Combat, all physical attacks deal +1 stage for each Dragon Ball in play. Raise your anger 1 level.",
+    "attack"
+  ],
+  [
+    18,
+    "Red Drop Kick",
+    "PHYSICAL COMBAT",
+    "Red",
+    3,
+    "Endurance 3. Physical attack doing +3 power stages of damage. You may choose up to 5 cards in your discard pile and remove them from the game.",
+    "ENDURANCE 3. Physical attack. DAMAGE: AT +3 stages. You may banish up to 5 cards from your discard pile.",
+    "attack"
+  ],
+  [
+    19,
+    "Red Duck",
+    "PHYSICAL COMBAT",
+    "Red",
+    null,
+    "Stops a physical attack. Shuffle the top X cards in your discard pile back into your Life Deck. X = your current anger level.",
+    "POWER: Stop a physical attack. Shuffle the top X cards of your discard pile into your Life Deck. X is your current anger level.",
+    "block"
+  ],
+  [
+    20,
+    "Red Fist Lunge",
+    "PHYSICAL COMBAT",
+    "Red",
+    2,
+    "Endurance 2. Physical attack. If successful, raise your anger 1 level and lower your opponent's anger 2 levels.",
+    "ENDURANCE 2. Physical attack. DAMAGE: AT stages. HIT: Raise your anger 1 level and lower your opponent's anger 2 levels.",
+    "attack"
+  ],
+  [
+    21,
+    "Red Flying Attack",
+    "PHYSICAL COMBAT",
+    "Red",
+    null,
+    "Physical attack. If you declared a Tokui-Waza, this attack does +5 power stages of damage.",
+    "Physical attack. DAMAGE: AT stages, or AT +5 stages if you declared a Tokui-Waza.",
+    "attack"
+  ],
+  [
+    22,
+    "Red Shifty Maneuver",
+    "PHYSICAL COMBAT",
+    "Red",
+    null,
+    "Stops a physical attack. If you declared a Tokui-Waza, raise your anger 1 level and discard a Drill in play.",
+    "POWER: Stop a physical attack. If you declared a Tokui-Waza, raise your anger 1 level and discard a Drill in play.",
+    "block"
+  ],
+  [
+    23,
+    "Saiyan Ally Strike",
+    "PHYSICAL COMBAT",
+    "Saiyan",
+    3,
+    "Endurance 3. Physical attack. If successful, search your Life Deck for any Ally whose personality level is the same as your Main Personality's, and place it in play at its highest power stage.",
+    "ENDURANCE 3. Physical attack. DAMAGE: AT stages. HIT: Search your Life Deck for an Ally matching your Main Personality's level. Put it in play at its highest stage.",
+    "attack"
+  ],
+  [
+    24,
+    "Saiyan Blocking Technique",
+    "PHYSICAL COMBAT",
+    "Saiyan",
+    null,
+    "Stops a physical attack. All physical attacks you perform for the remainder of Combat do +2 power stages of damage.",
+    "POWER: Stop a physical attack. Your physical attacks deal +2 stages of damage for the rest of Combat.",
+    "block"
+  ],
+  [
+    25,
+    "Saiyan Energy Surprise",
+    "ENERGY COMBAT",
+    "Saiyan",
+    1,
+    "Endurance 1. Energy attack. If you declared a Tokui-Waza, this attack does 7 life cards of damage. Remove from the game after use.",
+    "ENDURANCE 1. Energy attack costing 2 stages. DAMAGE: 4 life cards, or 7 life cards if you declared a Tokui-Waza. Banish after use.",
+    "attack"
+  ],
+  [
+    26,
+    "Saiyan Fist Attack",
+    "PHYSICAL COMBAT",
+    "Saiyan",
+    3,
+    "Endurance 3. Physical attack doing +4 power stages of damage.",
+    "ENDURANCE 3. Physical attack. DAMAGE: AT +4 stages.",
+    "attack"
+  ],
+  [
+    27,
+    "Saiyan Knee Block",
+    "PHYSICAL COMBAT",
+    "Saiyan",
+    2,
+    "Endurance 2. Prevent 4 power stages of damage from a physical attack. Your opponent discards the top 2 life cards from his Life Deck.",
+    "ENDURANCE 2. POWER: Prevent 4 stages of damage from a physical attack. Your opponent discards the top 2 cards of their Life Deck.",
+    null
+  ],
+  [
+    28,
+    "Saiyan Power Rush",
+    "PHYSICAL COMBAT",
+    "Saiyan",
+    null,
+    "Focused physical attack doing +2 power stages of damage. If successful, discard one of your opponent's Drills in play.",
+    "Focused physical attack. DAMAGE: AT +2 stages. HIT: Discard 1 of your opponent's Drills in play.",
+    "attack"
+  ],
+  [
+    29,
+    "Saiyan Triple Blast",
+    "ENERGY COMBAT",
+    "Saiyan",
+    null,
+    "Focused energy attack doing 3 life cards of damage. If successful, draw a card.",
+    "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Draw a card.",
+    "attack"
+  ],
+  [
+    30,
+    "Strength Training",
+    "EVENT",
+    "Freestyle",
+    null,
+    "If your Main Personality's power rating is greater than your opponent's, your opponent discards the top 3 cards of his Life Deck. Otherwise, raise your Main Personality to its highest power stage. Remove from the game after use.",
+    "POWER: If your Main Personality's power rating exceeds your opponent's, they discard their Life Deck's top 3 cards. Otherwise, raise your Main Personality to its highest stage. Banish after use.",
+    null
+  ],
+  [
+    31,
+    "Time to Party!",
+    "SETUP",
+    "Freestyle",
+    2,
+    "Endurance 2. All Main Personalities are raised to their highest power stage. Every player raises his anger 1 level. Every player may search his Life Deck for a Freestyle Drill and place it in play.",
+    "ENDURANCE 2. POWER: Raise all Main Personalities to their highest stage. Each player raises their anger 1 level and may search their Life Deck for a Freestyle Drill to put in play.",
+    null
+  ],
+  [
+    32,
+    "Black Anticipation Drill",
+    "DRILL",
+    "Black",
+    null,
+    "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
+    "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
+    "block"
+  ],
+  [
+    33,
+    "Black Blasting Beam",
+    "ENERGY COMBAT",
+    "Black",
+    3,
+    "Endurance 3. Energy attack. If you declared a Tokui-Waza and the personality that performed this attack is at 0 power stages, this attack does +2 life cards and +2 power stages of damage.",
+    "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza and the attacking personality is at 0 stages, deal +2 life cards and +2 stages of damage.",
+    "attack"
+  ],
+  [
+    34,
+    "Black Double Attack Drill",
+    "DRILL",
+    "Black",
+    2,
+    "Endurance 2. All of your physical attacks do +2 power stages of damage and cannot be redirected to Allies.",
+    "ENDURANCE 2. Your physical attacks deal +2 stages of damage and cannot be redirected to Allies.",
+    "constant"
+  ],
+  [
+    35,
+    "Black Hand Energy Blast",
+    "ENERGY COMBAT",
+    "Black",
+    1,
+    "Endurance 1. Energy attack doing 3 life cards of damage. If you declared a Tokui-Waza, the attack also does +2 power stages of damage.",
+    "ENDURANCE 1. Energy attack costing 2 stages. DAMAGE: 3 life cards. If you declared a Tokui-Waza, this attack also deals +2 stages of damage.",
+    "attack"
+  ],
+  [
+    36,
+    "Black Face Slap",
+    "PHYSICAL COMBAT",
+    "Black",
+    null,
+    "Focused physical attack doing +2 power stages of damage. If successful, choose 1 card at random from your opponent's hand and have him discard it.",
+    "Focused physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 random card from your opponent's hand; they discard it.",
+    "attack"
+  ],
+  [
+    37,
+    "Black Recovery",
+    "ENERGY COMBAT",
+    "Black",
+    null,
+    "Stops an energy attack. If you declared a Tokui-Waza, you may discard a card from your hand. If you do, choose 1 card at random from your opponent's hand and have him discard it.",
+    "POWER: Stop an energy attack. If you declared a Tokui-Waza, you may discard a card from your hand. If you do, choose 1 random card from your opponent's hand; they discard it.",
+    "block"
+  ],
+  [
+    38,
+    "Black Saving Drill",
+    "DRILL",
+    "Black",
+    2,
+    "Endurance 2. Stops the first physical or energy attack your opponent performs in Combat if your anger level is 3 or higher. Remove from the game after use.",
+    "ENDURANCE 2. Stop your opponent's first physical or energy attack in Combat if your anger is 3 or higher.",
+    "block"
+  ],
+  [
+    39,
+    "Black Shifting Drill",
+    "DRILL",
+    "Black",
+    null,
+    "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
+    "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
+    "block"
+  ],
+  [
+    40,
+    "Black Wrist Block",
+    "PHYSICAL COMBAT",
+    "Black",
+    null,
+    "Stops a physical attack. If you declared a Tokui-Waza, this card stops a physical or energy attack instead.",
+    "POWER: Stop a physical attack. If you declared a Tokui-Waza, stop a physical or energy attack instead.",
+    "block"
+  ],
+  [
+    41,
+    "Blue Arm Blast",
+    "ENERGY COMBAT",
+    "Blue",
+    null,
+    "Energy attack doing 5 life cards of damage, or stops a physical attack.",
+    "Energy attack costing 2 stages. DAMAGE: 5 life cards. Or, stop a physical attack.",
+    "attack"
+  ],
+  [
+    42,
+    "Blue Defensive Effect",
+    "EVENT",
+    "Blue",
+    2,
+    "Endurance 2. Lower an opponent's anger 1 level. All effects that raise a player's anger are ignored for the remainder of Combat. Remove from the game after use.",
+    "ENDURANCE 2. POWER: Lower an opponent's anger 1 level. Ignore all effects that raise any player's anger for the rest of Combat. Banish after use.",
+    null
+  ],
+  [
+    43,
+    "Blue Energy Arrow",
+    "ENERGY COMBAT",
+    "Blue",
+    null,
+    "Focused energy attack doing 3 life cards of damage. If successful, remove the top 10 cards of your opponent's discard pile from the game.",
+    "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Banish the top 10 cards of your opponent's discard pile.",
+    "attack"
+  ],
+  [
+    44,
+    "Blue Energy Blast",
+    "ENERGY COMBAT",
+    "Blue",
+    null,
+    "Energy attack doing 6 life cards of damage. If successful, discard any cards attached to your Main Personality. Remove from the game after use.",
+    "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Discard any cards attached to your Main Personality. Banish after use.",
+    "attack"
+  ],
+  [
+    45,
+    "Blue Prepared Drill",
+    "DRILL",
+    "Blue",
+    null,
+    "Defense Shield: Stops the first unstopped energy attack performed against you during Combat.",
+    "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
+    "block"
+  ],
+  [
+    46,
+    "Blue Recovery Drill",
+    "DRILL",
+    "Blue",
+    2,
+    "Endurance 2. Once per Combat, after dealing 5 or more life cards of damage, discard 1 card from your hand to raise your Main Personality to his highest power rating.",
+    "ENDURANCE 2. POWER: Once per Combat, after dealing 5 or more life cards of damage, discard 1 card from your hand to raise your Main Personality to their highest stage.",
+    null
+  ],
+  [
+    47,
+    "Blue Pivot Kick",
+    "PHYSICAL COMBAT",
+    "Blue",
+    null,
+    "Focused physical attack. If successful, capture an opponent's Dragon Ball.",
+    "Focused physical attack. DAMAGE: AT stages. HIT: Capture an opponent's Dragon Ball.",
+    "attack"
+  ],
+  [
+    48,
+    "Blue Stamina Drill",
+    "DRILL",
+    "Blue",
+    null,
+    "Defense Shield: Stops the first unstopped physical attack performed against you during Combat.",
+    "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
+    "block"
+  ],
+  [
+    49,
+    "Blue Total Resistance",
+    "EVENT",
+    "Blue",
+    1,
+    "Endurance 1. Choose a Drill in play and remove it from the game. Your Main Personality and your Allies gain 2 power stages. Raise your anger 1 level. Remove from the game after use.",
+    "ENDURANCE 1. POWER: Banish a Drill in play. Your Main Personality and Allies gain 2 stages. Raise your anger 1 level. Banish after use.",
+    null
+  ],
+  [
+    50,
+    "Bracing for Impact",
+    "EVENT",
+    "Freestyle",
+    3,
+    "Endurance 3. Energy attacks do a maximum of 2 life cards and 0 power stages of damage for the remainder of Combat.",
+    "ENDURANCE 3. POWER: Energy attacks deal at most 2 life cards and 0 stages of damage for the rest of Combat.",
+    null
+  ]
+]

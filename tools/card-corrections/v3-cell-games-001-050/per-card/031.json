@@ -1,0 +1,187 @@
+{
+  "number": 31,
+  "id": "cell-games-031-time-to-party",
+  "name": "Time to Party!",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-031-time-to-party.svg",
+  "native_source_sha256": "e24b69f0c5c672f1d674cacefc20aa9695435f9d2bdfe54fe3744ea8903df744",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b6d23ac34b54cd399d46003a95b160a33bfc57f2e1b25d6cde0f5fd52ce6b6cd.png",
+      "sha256": "b6d23ac34b54cd399d46003a95b160a33bfc57f2e1b25d6cde0f5fd52ce6b6cd"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/031.png",
+    "source_sha256": "b6d23ac34b54cd399d46003a95b160a33bfc57f2e1b25d6cde0f5fd52ce6b6cd",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Raise all Main",
+      "baseline": 1049.3,
+      "width": 649.544,
+      "icon_inline": false
+    },
+    {
+      "text": "Personalities to their highest stage. Each player",
+      "baseline": 1108.3,
+      "width": 852.6489999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "raises their anger 1 level and may search their",
+      "baseline": 1167.3,
+      "width": 821.6320000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a Freestyle Drill to put in play.",
+      "baseline": 1226.3,
+      "width": 766.507,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        320.908,
+        44.5,
+        417.183,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        206.639,
+        1013.53,
+        645.722,
+        36.162
+      ],
+      "rules-line-2": [
+        104.415,
+        1072.53,
+        850.17,
+        45.913
+      ],
+      "rules-line-3": [
+        119.801,
+        1131.53,
+        819.398,
+        45.913
+      ],
+      "rules-line-4": [
+        148.109,
+        1190.53,
+        762.783,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-031-time-to-party.webp",
+      "after_sha256": "f0231820b92467cd6568d1d3e31436051849d234fdabe1c2c4cce97d8e59de45",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-031-time-to-party.webp",
+      "after_sha256": "14fec93354e270f2f1f2138c179980f59a1b9fe60753f55374bad0a318ab0a43",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 417.18329177057365,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

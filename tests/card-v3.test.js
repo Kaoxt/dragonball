@@ -75,7 +75,7 @@ test('Frieza 1–10 retain their rules and artwork fixes with a centered native 
  assert.ok(rows.find(r=>r.number===7).artwork.expression_patch_retained);
  assert.match(cards.find(r=>r.number===5).modern_rules,/costing 3 stages/);
  assert.match(cards.find(r=>r.number===8).modern_rules,/^Saiyan Heritage only\./);
- assert.equal(catalog.filter(c=>c.templateVersion===3).length,899);
+ assert.equal(catalog.filter(c=>c.templateVersion===3).length,949);
 });
 test('all 257 Saiyan Saga cards have complete verified V3 native sources and both exports',()=>{
  const selected=catalog.filter(c=>c.templateVersion===3&&c.set==='Saiyan Saga');

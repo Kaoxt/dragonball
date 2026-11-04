@@ -17,7 +17,9 @@ const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 test('V2 catalog cards retain verified smaller, visibly centered title exports',()=>{
   assert.equal(hash(path.join(root,'tools/card-templates/shared/Teko-SemiBold.ttf')),'c6e312589232623060ab3d55b86d2b2978c5f5af958e96781acaf0f7043bc9b3');
   const records=new Map(audit.map(r=>[r.id,r]));
-  assert.equal(records.size,audit.length);assert.equal(records.size,catalog.length);
+  assert.equal(records.size,audit.length);
+  // Historical V2 audits cover their original release; new V3 cards have separate evidence.
+  for(const card of catalog.filter(c=>c.templateVersion!==3)) assert.ok(records.has(card.id));
   for(const card of catalog){
     // V3 is a complete frame migration with its own measured geometry/export audit.
     // The historical V2 pixel-preservation contract does not describe that change.
@@ -49,8 +51,9 @@ test('V2 catalog cards retain verified smaller, visibly centered title exports',
 
 test('all power text retains the approved font and reviewed final export evidence',()=>{
   const nativeMap=new Map(native.map(r=>[r.id,r]));const exportMap=new Map(power.cards.map(r=>[r.id,r]));
-  const alignmentMap=new Map(alignment.map(r=>[r.id,r]));assert.equal(alignmentMap.size,catalog.length);
-  assert.equal(nativeMap.size,catalog.length);assert.equal(exportMap.size,catalog.length);
+  const alignmentMap=new Map(alignment.map(r=>[r.id,r]));
+  const historicalIds=audit.map(r=>r.id).sort();
+  for(const map of [alignmentMap,nativeMap,exportMap]) assert.deepEqual([...map.keys()].sort(),historicalIds);
   assert.equal(power.unresolved_text_components,0);
   for(const card of catalog){
     if(card.templateVersion===3)continue;

@@ -1,0 +1,175 @@
+{
+  "number": 27,
+  "id": "cell-games-027-saiyan-knee-block",
+  "name": "Saiyan Knee Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-027-saiyan-knee-block.svg",
+  "native_source_sha256": "7edf04e5f6c58a8e353df69a0e9222fe2d8d7b03563c209952ebbf7e1e0606ff",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/53027240f6460aecc8e1d9ec06711c000f91ae76c02a6523e70df5d955c3daee.png",
+      "sha256": "53027240f6460aecc8e1d9ec06711c000f91ae76c02a6523e70df5d955c3daee"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/027.png",
+    "source_sha256": "53027240f6460aecc8e1d9ec06711c000f91ae76c02a6523e70df5d955c3daee",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Prevent 4 stages of",
+      "baseline": 1049.3,
+      "width": 756.8049999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "damage from a physical attack. Your opponent",
+      "baseline": 1108.3,
+      "width": 832.0200000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discards the top 2 cards of their Life Deck.",
+      "baseline": 1167.3,
+      "width": 756.8050000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        251.177,
+        44.5,
+        556.646,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        797.263,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.063,
+        1392.65,
+        40.174,
+        33.708
+      ],
+      "rules-line-1": [
+        152.69,
+        1014.61,
+        753.62,
+        44.835
+      ],
+      "rules-line-2": [
+        114.715,
+        1072.53,
+        829.57,
+        45.913
+      ],
+      "rules-line-3": [
+        152.641,
+        1131.53,
+        753.718,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-027-saiyan-knee-block.webp",
+      "after_sha256": "827379d2a7fdc932ed5cd1367515c5cf13634d6deaa9e9df3f7f209d3c494287",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-027-saiyan-knee-block.webp",
+      "after_sha256": "bf96c554b0d44ff1c1bbe3ad02ec0374ec382f5db6e3dba8f093f32a8284facd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 556.6458852867831,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

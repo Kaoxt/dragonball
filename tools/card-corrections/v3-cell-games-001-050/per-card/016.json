@@ -1,0 +1,187 @@
+{
+  "number": 16,
+  "id": "cell-games-016-power-boost",
+  "name": "Power Boost",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-016-power-boost.svg",
+  "native_source_sha256": "d66fa04f56c8b5b5b5c317b78bc7bd1ce01332ac1fc387d8b82054c0aa21c4cc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/50ea629de69f0f3e735e32cfd468feb32c897f9154539b42036b57d10748679f.png",
+      "sha256": "50ea629de69f0f3e735e32cfd468feb32c897f9154539b42036b57d10748679f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/016.png",
+    "source_sha256": "50ea629de69f0f3e735e32cfd468feb32c897f9154539b42036b57d10748679f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. POWER: Use immediately",
+      "baseline": 1049.3,
+      "width": 703.003,
+      "icon_inline": false
+    },
+    {
+      "text": "before an energy attack. Pay none of its",
+      "baseline": 1108.3,
+      "width": 711.9209999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "costs; it deals +2 life cards of damage.",
+      "baseline": 1167.3,
+      "width": 687.568,
+      "icon_inline": false
+    },
+    {
+      "text": "This does not use your Attacker Attacks action.",
+      "baseline": 1226.3,
+      "width": 845.3480000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        340.18,
+        51.6409,
+        378.64,
+        54.7182
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        799.118,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        858.918,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        179.407,
+        1013.53,
+        700.187,
+        45.521
+      ],
+      "rules-line-2": [
+        174.887,
+        1072.53,
+        709.226,
+        45.913
+      ],
+      "rules-line-3": [
+        187.26,
+        1131.53,
+        684.481,
+        45.913
+      ],
+      "rules-line-4": [
+        108.198,
+        1190.53,
+        842.604,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-016-power-boost.webp",
+      "after_sha256": "f0449d883dda0a2d64268001b8a10b5f4ab0481dd33598112829a7cb7df0f685",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-016-power-boost.webp",
+      "after_sha256": "4b548cf568a6400a9563605b71808f4191c9a88f743c8a19f03814f77730a742",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 378.639650872818,
+      "visible_height": 54.71820448877806,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

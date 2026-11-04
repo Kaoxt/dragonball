@@ -1,0 +1,187 @@
+{
+  "number": 46,
+  "id": "cell-games-046-blue-recovery-drill",
+  "name": "Blue Recovery Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-046-blue-recovery-drill.svg",
+  "native_source_sha256": "57916474742f55a27d4546025f931fa4d72791f033205a807df1129caa4c755a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b5195a0667ffc641db465ef9b04f9388325a6feb202ea05bdc18d089de418cc.png",
+      "sha256": "1b5195a0667ffc641db465ef9b04f9388325a6feb202ea05bdc18d089de418cc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/046.png",
+    "source_sha256": "1b5195a0667ffc641db465ef9b04f9388325a6feb202ea05bdc18d089de418cc",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Once per Combat,",
+      "baseline": 1049.3,
+      "width": 721.2799999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "after dealing 5 or more life cards of damage,",
+      "baseline": 1108.3,
+      "width": 792.967,
+      "icon_inline": false
+    },
+    {
+      "text": "discard 1 card from your hand to raise your",
+      "baseline": 1167.3,
+      "width": 765.576,
+      "icon_inline": false
+    },
+    {
+      "text": "Main Personality to their highest stage.",
+      "baseline": 1226.3,
+      "width": 694.134,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        245.972,
+        44.5,
+        567.056,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.534,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.333,
+        1392.65,
+        45.633,
+        33.708
+      ],
+      "rules-line-1": [
+        170.758,
+        1014.61,
+        717.484,
+        43.806
+      ],
+      "rules-line-2": [
+        134.4,
+        1072.53,
+        790.2,
+        45.913
+      ],
+      "rules-line-3": [
+        147.658,
+        1131.53,
+        763.685,
+        45.521
+      ],
+      "rules-line-4": [
+        184.221,
+        1190.53,
+        690.557,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-046-blue-recovery-drill.webp",
+      "after_sha256": "e83cafb4aba489e1a50476c608ab96c1245e71df97da38cf0f50e23f7767b475",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-046-blue-recovery-drill.webp",
+      "after_sha256": "be3e0eba65193091e211916079e8ce8b56c9de06ea85445fe11d46ec7b0498f4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 567.0561097256858,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

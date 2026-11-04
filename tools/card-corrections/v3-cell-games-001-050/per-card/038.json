@@ -1,0 +1,211 @@
+{
+  "number": 38,
+  "id": "cell-games-038-black-saving-drill",
+  "name": "Black Saving Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-038-black-saving-drill.svg",
+  "native_source_sha256": "b38fe7e4f7fd9869e41985eff9bc12ca2336cfac3fc4320e59867937d396ab3c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2885950adbb3dbbd9853c504deb398cef0a9eb93191d10bcca1dca1cbce9716d.png",
+      "sha256": "2885950adbb3dbbd9853c504deb398cef0a9eb93191d10bcca1dca1cbce9716d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/038.png",
+    "source_sha256": "2885950adbb3dbbd9853c504deb398cef0a9eb93191d10bcca1dca1cbce9716d",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. Stop your opponent's",
+      "baseline": 1049.3,
+      "width": 687.637947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "first physical or energy attack in",
+      "baseline": 1108.3,
+      "width": 582.022,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat if your anger is 3 or higher.",
+      "baseline": 1167.3,
+      "width": 626.2200000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        268.083,
+        44.5,
+        522.834,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        187.176,
+        1014.61,
+        684.649,
+        44.443
+      ],
+      "power-icon": [
+        448.733,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        239.763,
+        1072.53,
+        579.474,
+        45.913
+      ],
+      "rules-line-3": [
+        218.007,
+        1131.53,
+        622.986,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          448.733,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          499.424,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          448.733,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-038-black-saving-drill.webp",
+      "after_sha256": "76b659f3244e7e52d80a3659e37777b70437e4c269226c95f73937368b5b6035",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-038-black-saving-drill.webp",
+      "after_sha256": "3a9f23db6f668b758befcd0e2e72875796b42c8485d0b751b23dfbcc5b0aaf5c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 522.8341645885288,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3
+}

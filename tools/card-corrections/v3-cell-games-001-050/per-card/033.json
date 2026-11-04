@@ -1,0 +1,235 @@
+{
+  "number": 33,
+  "id": "cell-games-033-black-blasting-beam",
+  "name": "Black Blasting Beam",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-033-black-blasting-beam.svg",
+  "native_source_sha256": "94ea0c5dba36fac5dbd2bdd6cc0153994900cd3ed35ad6bed3ca9bfb7d417c52",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3d34bd9518ee61b245bcd0b54e4b4c56c53c6f8d9f92914dcf7eccc31c9ccd29.png",
+      "sha256": "3d34bd9518ee61b245bcd0b54e4b4c56c53c6f8d9f92914dcf7eccc31c9ccd29"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/033.png",
+    "source_sha256": "3d34bd9518ee61b245bcd0b54e4b4c56c53c6f8d9f92914dcf7eccc31c9ccd29",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 877.1531555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If you declared",
+      "baseline": 1108.3,
+      "width": 652.3370000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "a Tokui-Waza and the attacking",
+      "baseline": 1167.3,
+      "width": 565.0680000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "personality is at 0 stages, deal +2 life",
+      "baseline": 1226.3,
+      "width": 663.5089999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "cards and +2 stages of damage.",
+      "baseline": 1285.3,
+      "width": 566.6850000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        221.925,
+        44.5,
+        615.15,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        796.256,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.056,
+        1392.65,
+        42.188,
+        33.708
+      ],
+      "rules-line-1": [
+        92.7854,
+        1013.53,
+        873.429,
+        45.913
+      ],
+      "power-icon": [
+        354.244,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        205.34,
+        1072.53,
+        648.319,
+        45.521
+      ],
+      "rules-line-3": [
+        248.338,
+        1131.53,
+        562.324,
+        45.913
+      ],
+      "rules-line-4": [
+        199.412,
+        1190.53,
+        660.177,
+        45.913
+      ],
+      "rules-line-5": [
+        247.701,
+        1250.61,
+        563.598,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          354.244,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          408.84,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          354.244,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-033-black-blasting-beam.webp",
+      "after_sha256": "77da9d8b46133f29e778cf188f6ce4947f4277b8766d9e90d3a646eadba88f19",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-033-black-blasting-beam.webp",
+      "after_sha256": "aa91dc1f00ad4fc16f6c6a2ff8288adaaaad267b8a4cf979c83c9984a5f7ea5e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 615.1496259351621,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

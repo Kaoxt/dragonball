@@ -1,0 +1,211 @@
+{
+  "number": 25,
+  "id": "cell-games-025-saiyan-energy-surprise",
+  "name": "Saiyan Energy Surprise",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-025-saiyan-energy-surprise.svg",
+  "native_source_sha256": "051988fe499c1ff578a777dd43448f01ed6937239a8472edad33ea6721313813",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5ac4b56e4d603b40e970de0020cfd7d55fb0ddd26c75c1bef62837deb2429f2b.png",
+      "sha256": "5ac4b56e4d603b40e970de0020cfd7d55fb0ddd26c75c1bef62837deb2429f2b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/025.png",
+    "source_sha256": "5ac4b56e4d603b40e970de0020cfd7d55fb0ddd26c75c1bef62837deb2429f2b",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 1. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 869.7051555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards, or 7 life cards if you",
+      "baseline": 1108.3,
+      "width": 740.439,
+      "icon_inline": false
+    },
+    {
+      "text": "declared a Tokui-Waza. Banish after use.",
+      "baseline": 1167.3,
+      "width": 730.492,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        182.005,
+        44.5,
+        694.99,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        796.044,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.844,
+        1392.65,
+        42.612,
+        33.708
+      ],
+      "rules-line-1": [
+        96.5094,
+        1013.53,
+        865.981,
+        45.913
+      ],
+      "power-icon": [
+        350.52,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        161.29,
+        1072.53,
+        736.421,
+        45.521
+      ],
+      "rules-line-3": [
+        165.798,
+        1131.53,
+        727.405,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          350.52,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          405.116,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          350.52,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-025-saiyan-energy-surprise.webp",
+      "after_sha256": "039d8642d4cebc6721cd1f74e6b6970140d6f36b4cd14457aa4289e6696a6909",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-025-saiyan-energy-surprise.webp",
+      "after_sha256": "ef1c926701d426524bd9e5229b8df7086cb718467988a8cd614dc4984f5e1b88",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 694.9900249376559,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

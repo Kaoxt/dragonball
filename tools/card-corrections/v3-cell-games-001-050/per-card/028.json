@@ -1,0 +1,211 @@
+{
+  "number": 28,
+  "id": "cell-games-028-saiyan-power-rush",
+  "name": "Saiyan Power Rush",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-028-saiyan-power-rush.svg",
+  "native_source_sha256": "463756f93eff251717db06cc81d609b895e715d958bde741c9f882c2a23216f4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0218fd1c9868fead0808daecef9e0bc04abedd5deaff9dedb256607c957aaad4.png",
+      "sha256": "0218fd1c9868fead0808daecef9e0bc04abedd5deaff9dedb256607c957aaad4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/028.png",
+    "source_sha256": "0218fd1c9868fead0808daecef9e0bc04abedd5deaff9dedb256607c957aaad4",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. HIT: Discard",
+      "baseline": 1108.3,
+      "width": 630.3360000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "1 of your opponent's Drills in play.",
+      "baseline": 1167.3,
+      "width": 593.243,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        242.358,
+        44.5,
+        574.283,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        336.812,
+        1013.53,
+        439.971,
+        45.521
+      ],
+      "power-icon": [
+        282.217,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        216.341,
+        1072.53,
+        626.318,
+        45.913
+      ],
+      "rules-line-3": [
+        233.883,
+        1131.53,
+        591.234,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          336.812,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-028-saiyan-power-rush.webp",
+      "after_sha256": "cfcd080153ffdaee0d6b081a4f769d4afb7222a37a5f5144d9a8f4dd666cdd62",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-028-saiyan-power-rush.webp",
+      "after_sha256": "0248f7fe5f5532bd0c8e554d857de98caa2e96c2d9f1e64f1fb8336123708505",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 574.2830423940151,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

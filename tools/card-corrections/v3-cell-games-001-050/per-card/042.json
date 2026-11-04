@@ -1,0 +1,175 @@
+{
+  "number": 42,
+  "id": "cell-games-042-blue-defensive-effect",
+  "name": "Blue Defensive Effect",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-042-blue-defensive-effect.svg",
+  "native_source_sha256": "08e1f35021931a49c4a26b3534e8855fcaa5ae9fc717fcd03e73701493288551",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fe797ffb3a252ee809d61a7a2f867f416b3376cf673a883f676d410a25b9c121.png",
+      "sha256": "fe797ffb3a252ee809d61a7a2f867f416b3376cf673a883f676d410a25b9c121"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/042.png",
+    "source_sha256": "fe797ffb3a252ee809d61a7a2f867f416b3376cf673a883f676d410a25b9c121",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Lower an opponent's anger",
+      "baseline": 1049.3,
+      "width": 889.7909999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "1 level. Ignore all effects that raise any player's",
+      "baseline": 1108.3,
+      "width": 838.7820000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "anger for the rest of Combat. Banish after use.",
+      "baseline": 1167.3,
+      "width": 826.875,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        208.16,
+        50.2213,
+        642.681,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.302,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.102,
+        1392.65,
+        44.096,
+        33.708
+      ],
+      "rules-line-1": [
+        85.8687,
+        1014.61,
+        887.263,
+        44.835
+      ],
+      "rules-line-2": [
+        110.746,
+        1072.53,
+        837.508,
+        45.913
+      ],
+      "rules-line-3": [
+        117.41,
+        1131.53,
+        824.18,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-042-blue-defensive-effect.webp",
+      "after_sha256": "921f83311310d3ae4c7d2d2434167b0296ef8c8b481d50406eeec689b944f9e6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-042-blue-defensive-effect.webp",
+      "after_sha256": "53d5a31104923f55baf900f2d99667873292159e1053e0294c79248c7d2721b1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 642.6807980049877,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

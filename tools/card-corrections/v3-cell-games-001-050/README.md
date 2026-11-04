@@ -1,0 +1,13 @@
+# Cell Games Saga 001–050
+
+Adds the first fifty numbered Cell Games Saga cards to the V3 catalog. All are new catalog entries; no Sensei occur in this range. There are 31 Commons (one-star rarity) and 19 Uncommons (three-star rarity). The native green wreath/C set emblem follows the numbered printed references.
+
+The retained 429×600 original scans and their source URLs/hashes are in `source-provenance.json`. `cards.json` preserves original wording alongside corrected effects and modern card text. `crd-review.json` records the supplied Expanded CRD, general attack defaults, and the specific rulings for Gohan's Kick #8, Power Boost #16 and Black Saving Drill #38. In particular, #38 loses its printed remove-after-use sentence; #16 does not consume an Attacker Attacks action. Titles follow the printed cards where third-party listings differ (#5, #13, #31, #34 and #36).
+
+Each illustration was newly generated from its own original reference and individually compared for character identity, pose, expression, clothing and scene. `artwork-review.json` records observations and unresolved fine details from the small source scans. The file does not claim exact reconstruction of details the scans cannot resolve. `generation-prompts.json` distinguishes retained requests from production-direction summaries when the exact request was not retained. Preserve the final background-figure correction on #11, aspect-ratio correction on #15 and Goku hand-color correction on #36.
+
+Native SVGs are under `tools/card-templates/v3/cell-games-001-050/`; their image dependencies are content-addressed assets. Typography, borders, symbols, rules and footers remain native outlined vectors. The builder uses the fixed V3 text anchors, current middle-label components, maximum five rules lines and mirrored footer centers. #24 has a measured 730-unit title safe width to clear the staggered brush contour. Original illustrations are placed uniformly, without extra zoom or stretching.
+
+`audit.json` and per-card records retain hashes, geometry, rule lines and both lossless WebP exports: 1060×1484 display and 2120×2968 download. `render-verification.json` independently compares decoded export pixels with final native renders, checks title-brush clearance, visible category/rules text, and SVG references. Artwork fidelity is assessed by the separate visual review, not inferred from those hashes.
+
+Rebuild selected cards from the repository root with `python3 tools/card-templates/v3/build_cell_games_001_050.py 24`; omit numbers for all fifty. Run `python3 tools/card-templates/v3/verify_cell_games_001_050.py`, then the Cell Games test and full `npm test`. After rebuilding, synchronize changed hashes in the catalog, artwork review and audit before publishing.

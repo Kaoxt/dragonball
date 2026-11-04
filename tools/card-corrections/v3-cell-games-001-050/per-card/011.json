@@ -1,0 +1,211 @@
+{
+  "number": 11,
+  "id": "cell-games-011-namekian-fist-dodge",
+  "name": "Namekian Fist Dodge",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-011-namekian-fist-dodge.svg",
+  "native_source_sha256": "2200b3993e0af75cbbb88edc65cb1f59375737765d6d41a0a01abab731b51ac1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c8fb4af87cbd777db290c9b59bc5103f5b976370868db27dcec723929c1bfd9c.png",
+      "sha256": "c8fb4af87cbd777db290c9b59bc5103f5b976370868db27dcec723929c1bfd9c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/011.png",
+    "source_sha256": "c8fb4af87cbd777db290c9b59bc5103f5b976370868db27dcec723929c1bfd9c",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. Namekian Heritage only.",
+      "baseline": 1049.3,
+      "width": 695.016,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1108.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Or, stop a physical attack.",
+      "baseline": 1167.3,
+      "width": 463.7850000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        214.053,
+        44.5,
+        630.894,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        803.676,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        863.476,
+        1392.65,
+        27.348,
+        33.708
+      ],
+      "rules-line-1": [
+        183.854,
+        1013.53,
+        691.292,
+        45.913
+      ],
+      "rules-line-2": [
+        234.868,
+        1072.53,
+        643.811,
+        45.913
+      ],
+      "power-icon": [
+        180.321,
+        1073.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-3": [
+        299.224,
+        1131.53,
+        460.551,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          180.321,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          234.868,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          180.321,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-011-namekian-fist-dodge.webp",
+      "after_sha256": "fd7400c3320422632ca3fca1720bb370b0bc2c17271145d2c2577aa9516e49f1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp",
+      "after_sha256": "80bb670b1dda7a137b8faeb9735e5dbd3e4bc4fe793854d1235600a206519e57",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 630.8940149625936,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

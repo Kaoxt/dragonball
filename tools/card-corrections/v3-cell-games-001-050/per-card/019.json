@@ -1,0 +1,211 @@
+{
+  "number": 19,
+  "id": "cell-games-019-red-duck",
+  "name": "Red Duck",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-019-red-duck.svg",
+  "native_source_sha256": "009b72fb5281c99f8e480d92d2daccade2372265a3823b5c3b5386b6474ea3ad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/79b3cc8ef213ecd7f3dc800b6bd30ce82aff720c265f86992bed6eb9b2c64c55.png",
+      "sha256": "79b3cc8ef213ecd7f3dc800b6bd30ce82aff720c265f86992bed6eb9b2c64c55"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/019.png",
+    "source_sha256": "79b3cc8ef213ecd7f3dc800b6bd30ce82aff720c265f86992bed6eb9b2c64c55",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Stop a physical attack.",
+      "baseline": 1049.3,
+      "width": 603.068947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "Shuffle the top X cards of your discard pile into",
+      "baseline": 1108.3,
+      "width": 837.018,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck. X is your current anger level.",
+      "baseline": 1167.3,
+      "width": 789.9289999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        390.296,
+        50.2213,
+        278.409,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        799.33,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.13,
+        1392.65,
+        36.04,
+        33.708
+      ],
+      "rules-line-1": [
+        280.225,
+        1013.53,
+        550.025,
+        45.521
+      ],
+      "power-icon": [
+        228.75,
+        1014.97,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        112.388,
+        1072.53,
+        834.225,
+        45.521
+      ],
+      "rules-line-3": [
+        135.638,
+        1131.53,
+        787.724,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          228.75,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          280.225,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          228.75,
+          1014.97,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-019-red-duck.webp",
+      "after_sha256": "77ba32b08875226345529f4fc066c0be2a813bedef8cfbce306b5f49bd118933",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-019-red-duck.webp",
+      "after_sha256": "620979f23713bd7168f260693483a3ddc267caeb502e696ecae57993b3d8b9a6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 278.4089775561098,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1
+}

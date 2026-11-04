@@ -45,6 +45,21 @@ function browser(path='/cards/') {
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
 
+test('Cell Games Saga exposes its first 50 cards and resolves every detail and download',()=>{
+ const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
+ assert.equal(cards.length,50);assert.equal(grid(b).length,50);
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–50 of 50 cards in Cell Games Saga');
+ assert.equal(b.elements['collection-name'].hidden,false);
+ assert.equal(b.elements['collection-name'].textContent,'Cell Games Saga');
+ assert.equal(b.elements['pagination-top'].hidden,true);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
+ for(const card of cards){
+  const direct=browser(cardPath(card));assert.equal(direct.elements['card-detail'].open,true);
+  assert.equal(direct.elements['download'].href,card.downloadImage);
+  assert.equal(catalogRoute(cardPath(card),catalog).card.id,card.id);
+ }
+});
+
 test('complete Android Saga includes 125 numbered cards, P1–P11, and a reachable third page',()=>{
  const android=catalog.filter(c=>c.set==='Android Saga');
  assert.equal(android.length,136);

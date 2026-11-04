@@ -1,0 +1,211 @@
+{
+  "number": 45,
+  "id": "cell-games-045-blue-prepared-drill",
+  "name": "Blue Prepared Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-045-blue-prepared-drill.svg",
+  "native_source_sha256": "e2e48c13c940017955fce183b40699e9ece20886c5a944fd05564c290e6b90bd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bafa0fde45a85be75db8d461f63194b5523effbb9bd152435e0f88177e355e42.png",
+      "sha256": "bafa0fde45a85be75db8d461f63194b5523effbb9bd152435e0f88177e355e42"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/045.png",
+    "source_sha256": "bafa0fde45a85be75db8d461f63194b5523effbb9bd152435e0f88177e355e42",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Defense Shield: Stop the first",
+      "baseline": 1049.3,
+      "width": 566.7599473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "unstopped energy attack performed",
+      "baseline": 1108.3,
+      "width": 642.2920000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "against you during Combat.",
+      "baseline": 1167.3,
+      "width": 486.2270000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        249.757,
+        44.5,
+        559.485,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.64,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.439,
+        1392.65,
+        45.421,
+        33.708
+      ],
+      "rules-line-1": [
+        298.11,
+        1013.53,
+        514.304,
+        44.884
+      ],
+      "power-icon": [
+        246.586,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        210.118,
+        1073.85,
+        638.764,
+        44.5954
+      ],
+      "rules-line-3": [
+        287.734,
+        1131.53,
+        483.532,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          246.586,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          298.11,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          246.586,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-045-blue-prepared-drill.webp",
+      "after_sha256": "3c4cc26b1faf3d72ffd893bc0b8b0137391a22c13c6b7798e395d3041921327f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-045-blue-prepared-drill.webp",
+      "after_sha256": "f5ebad353c0a6f39b525804be92327b907caf784c22336bb13a95d1aea79b34d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 559.4850374064839,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3
+}

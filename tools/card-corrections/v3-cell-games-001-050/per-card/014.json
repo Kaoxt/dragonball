@@ -1,0 +1,175 @@
+{
+  "number": 14,
+  "id": "cell-games-014-orange-dragon-aid",
+  "name": "Orange Dragon Aid",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-014-orange-dragon-aid.svg",
+  "native_source_sha256": "83660faa164545ddce8a1056a34816d459fc37132bd88241c35ff966de143311",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7ff43af78b3f3c405926482dee73b692efaab78822b03fae79f1057292789d48.png",
+      "sha256": "7ff43af78b3f3c405926482dee73b692efaab78822b03fae79f1057292789d48"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/014.png",
+    "source_sha256": "7ff43af78b3f3c405926482dee73b692efaab78822b03fae79f1057292789d48",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. POWER: Place 1 or",
+      "baseline": 1049.3,
+      "width": 577.514,
+      "icon_inline": false
+    },
+    {
+      "text": "2 of your opponent's Dragon Balls",
+      "baseline": 1108.3,
+      "width": 593.8310000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "on the bottom of their Life Deck.",
+      "baseline": 1167.3,
+      "width": 573.4470000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        252.166,
+        44.5,
+        554.667,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        798.164,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.964,
+        1392.65,
+        38.372,
+        33.708
+      ],
+      "rules-line-1": [
+        242.007,
+        1014.61,
+        574.986,
+        35.084
+      ],
+      "rules-line-2": [
+        233.589,
+        1073.61,
+        591.822,
+        44.835
+      ],
+      "rules-line-3": [
+        244.32,
+        1131.53,
+        570.36,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-014-orange-dragon-aid.webp",
+      "after_sha256": "15cfabdabdeef3a8eafe18655298c9ea7e440759b0e1cd8ae38962d674aebde8",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-014-orange-dragon-aid.webp",
+      "after_sha256": "657d2a4cb77221b09566626f685c9298555f43ec6314528694c6a9205d3a9e5b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 554.6670822942644,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

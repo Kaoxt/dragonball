@@ -1,0 +1,199 @@
+{
+  "number": 9,
+  "id": "cell-games-009-gohans-strike",
+  "name": "Gohan's Strike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-009-gohans-strike.svg",
+  "native_source_sha256": "7aca18781854daa1b8bfac5a3b06c79c8cc48ea4033a5905ccfec50344ac5aee",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/80133e6b9a3a7b721868aec9a1566e1d90257c59339bb5d53243be328b27a45b.png",
+      "sha256": "80133e6b9a3a7b721868aec9a1566e1d90257c59339bb5d53243be328b27a45b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/009.png",
+    "source_sha256": "80133e6b9a3a7b721868aec9a1566e1d90257c59339bb5d53243be328b27a45b",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 759.8471555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 842.8979999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        313.337,
+        50.2213,
+        432.325,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        807.386,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.186,
+        1392.65,
+        19.928,
+        33.708
+      ],
+      "rules-line-1": [
+        151.438,
+        1013.53,
+        756.123,
+        45.521
+      ],
+      "power-icon": [
+        412.995,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        109.913,
+        1072.53,
+        839.174,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          412.995,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          467.591,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          412.995,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-009-gohans-strike.webp",
+      "after_sha256": "7364652c09c6df105d1d4b5c73bea5be312b5b46edcde50c3d1b308c2dce041a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-009-gohans-strike.webp",
+      "after_sha256": "d83df722375f7ea0d4828742eae773210e8fb4dbaedffc0f6eb73095fa7c0e2e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 432.3254364089776,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

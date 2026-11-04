@@ -1,0 +1,199 @@
+{
+  "number": 7,
+  "id": "cell-games-007-flashback",
+  "name": "Flashback",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-007-flashback.svg",
+  "native_source_sha256": "ea52c359b8dc90c712c18cc84ccaffc5cd39f1000455abbbb0bf2d5ef3895316",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/45f22c39ec56d14e89ae26a3026130c2960fd83010b74b4f47686f4bd9adcbe5.png",
+      "sha256": "45f22c39ec56d14e89ae26a3026130c2960fd83010b74b4f47686f4bd9adcbe5"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/007.png",
+    "source_sha256": "45f22c39ec56d14e89ae26a3026130c2960fd83010b74b4f47686f4bd9adcbe5",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. POWER: Choose 4 cards in",
+      "baseline": 1049.3,
+      "width": 725.1999999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's discard pile and shuffle",
+      "baseline": 1108.3,
+      "width": 712.509,
+      "icon_inline": false
+    },
+    {
+      "text": "them into their Life Deck. Your opponent",
+      "baseline": 1167.3,
+      "width": 717.85,
+      "icon_inline": false
+    },
+    {
+      "text": "chooses 4 cards in your discard pile",
+      "baseline": 1226.3,
+      "width": 642.3410000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and shuffles them into your Life Deck.",
+      "baseline": 1285.3,
+      "width": 675.1220000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        376.143,
+        50.2213,
+        306.714,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        807.863,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.663,
+        1392.65,
+        18.974,
+        33.708
+      ],
+      "rules-line-1": [
+        168.811,
+        1013.53,
+        721.378,
+        36.162
+      ],
+      "rules-line-2": [
+        174.226,
+        1072.53,
+        710.549,
+        45.521
+      ],
+      "rules-line-3": [
+        171.359,
+        1131.53,
+        716.282,
+        44.884
+      ],
+      "rules-line-4": [
+        209.75,
+        1190.53,
+        639.499,
+        45.521
+      ],
+      "rules-line-5": [
+        193.286,
+        1249.53,
+        672.427,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-007-flashback.webp",
+      "after_sha256": "ab21f0c9073c7d7dafaadbd12609a340602186a49bc0d39a2df91315e29c629c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-007-flashback.webp",
+      "after_sha256": "c688855738b3ede2bbd6e1a5056edbeb042cfd5f7708d8aeaab40465983b80fd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 306.71446384039905,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

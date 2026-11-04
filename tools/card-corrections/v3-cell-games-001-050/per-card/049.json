@@ -1,0 +1,175 @@
+{
+  "number": 49,
+  "id": "cell-games-049-blue-total-resistance",
+  "name": "Blue Total Resistance",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-001-050/cell-games-049-blue-total-resistance.svg",
+  "native_source_sha256": "ed4b41779a4309355675d18c17ab59247436e35e3d6987c0123acfebbb887539",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9f0e34a2587508db90d974b91b2e5316471defc6eff1d1d334e881b8f964e317.png",
+      "sha256": "9f0e34a2587508db90d974b91b2e5316471defc6eff1d1d334e881b8f964e317"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-001-050/artwork/049.png",
+    "source_sha256": "9f0e34a2587508db90d974b91b2e5316471defc6eff1d1d334e881b8f964e317",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 1. POWER: Banish a Drill in play.",
+      "baseline": 1049.3,
+      "width": 770.9169999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Your Main Personality and Allies gain 2 stages.",
+      "baseline": 1108.3,
+      "width": 824.082,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your anger 1 level. Banish after use.",
+      "baseline": 1167.3,
+      "width": 739.9490000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        206.224,
+        50.2213,
+        646.552,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.746,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.545,
+        1392.65,
+        45.209,
+        33.708
+      ],
+      "rules-line-1": [
+        145.904,
+        1013.53,
+        767.193,
+        45.521
+      ],
+      "rules-line-2": [
+        118.831,
+        1072.53,
+        821.338,
+        45.913
+      ],
+      "rules-line-3": [
+        161.387,
+        1131.53,
+        736.225,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-049-blue-total-resistance.webp",
+      "after_sha256": "eb2e7190836b73d8b17259cbe0c3955bb4ae49e2e37e2dd8cb912119cbb90ace",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-049-blue-total-resistance.webp",
+      "after_sha256": "0edce818844776cacb015f15fa4777e880c8f1580c2cdda76acca37919da4cd8",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 646.5523690773068,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}
