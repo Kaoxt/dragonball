@@ -18,9 +18,9 @@ body .site-header nav .account-nav-actions a[hidden]{display:none}
  body .site-header nav .account-nav-actions.is-signed-in{grid-template-columns:1fr}
 }
 
-/* The signed-out action shares the site's burgundy button treatment. */
-html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link{background:var(--site-nav-red-fill,#52212b);color:#fff;border:1px solid var(--site-nav-red,#c14954);border-radius:8px;min-height:44px;padding:10px 16px;font-size:14px;box-shadow:none;text-decoration:none}
-html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link:is(:hover,:focus-visible){background:#672c37;color:#fff;border-color:var(--site-nav-red,#c14954);box-shadow:none;text-decoration:none}
+/* The signed-out account link uses white text and the shared red hover. */
+html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link{background:transparent;color:#fff;border:0;border-radius:0;min-height:44px;padding:10px 12px;font-size:14px;box-shadow:none;text-decoration:none;transition:color .18s ease}
+html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link:is(:hover,:focus-visible){background:transparent;color:var(--site-nav-red,#c14954);border:0;box-shadow:none;text-decoration:none}
 html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link:focus-visible{outline:2px solid var(--site-nav-red,#c14954);outline-offset:3px}
 #community-nav-alerts{display:flex;gap:6px;flex-wrap:wrap}
 #forum-alerts{display:flex;justify-content:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:16px}
