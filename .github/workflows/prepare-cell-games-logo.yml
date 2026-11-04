@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +44,7 @@ jobs:
       - run: npm ci
       - name: Apply and independently verify all 190 exports
         run: |
-          /usr/bin/python3 tools/card-templates/v3/patch_cell_games_logo.py --workers 3
+          /usr/bin/python3 tools/card-templates/v3/patch_cell_games_logo.py --workers 1
           /usr/bin/python3 tools/card-templates/v3/patch_cell_games_logo.py
           npm test
       - name: Save reviewed output on preparation branch
