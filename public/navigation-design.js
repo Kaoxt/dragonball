@@ -15,7 +15,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261104-news-decks-theme';
+surfaces.href = '/surfaces-design.css?v=20261104-plain-panels-dark-selectors';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
@@ -27,3 +27,4 @@ if (header && !header.querySelector('.site-header-brush')) {
 }
 
 window.dispatchEvent(new Event('dragon:design-change'));
+
