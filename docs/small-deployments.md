@@ -8,7 +8,15 @@ The source checkout currently contains about 8.4 GB, including native card sourc
 
 `cloudflare-production` is generated from a verified source commit. It contains the site code, non-card public files, runtime tests and two matching image manifests. It excludes `public/assets/cards/` and production/editing archives. Its initial parent is the repository's original README-only commit, not `main`; subsequent releases append only small production commits. Never merge `main` into this branch.
 
-The full source tests and CodeQL remain required. After a successful push to `main`, Security checks saves a production artifact. The separate Publish Cloudflare package workflow consumes only artifacts from a successful push of this repository's `main`, checks that the source is still current, and updates the production branch without force. It uses GitHub's built-in workflow token; no Cloudflare secret is stored in GitHub. Old runs cannot overwrite a newer source release.
+The full source tests and CodeQL remain required. After a successful push to `main`, Security checks saves a production artifact. The separate Publish Cloudflare package workflow consumes only artifacts from a successful push of this repository's `main`, checks that the source is still current, and updates the production branch without force. The publisher uses GitHub's built-in workflow token and does not require a Cloudflare deployment secret. Old runs cannot overwrite a newer source release.
+
+## Source checkout cache
+
+Security checks first checks out only the workflow and deployment instructions with a shallow, blobless checkout. It then restores Git objects from the Actions cache and materializes the **complete current commit** before running the unchanged dependency audit, source tests, and Wrangler checks. No source files or tests are omitted.
+
+Only `.git/objects` is cached; Git configuration, credentials, refs, and the index are freshly initialized on each runner. The cache key follows the Git tree revisions of the card exports, native templates, and correction evidence. Ordinary code changes reuse the cache; changed assets are fetched by Git using their current object IDs. A previous asset revision may supply unchanged objects, but it cannot select the checked-out commit. `git diff --exit-code HEAD` checks the materialized working tree before tests.
+
+Only successful push jobs save this cache. GitHub's branch scoping keeps pull-request caches out of `main`. CodeQL keeps its existing independent sparse checkout. A missing or evicted cache falls back to a complete source download, so the first run or a cold cache remains slower. Cache entries are an acceleration only; the full source repository remains authoritative.
 
 ## Image storage
 
