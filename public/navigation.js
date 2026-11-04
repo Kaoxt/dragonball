@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261104-red-news-refresh';
+import './navigation-design.js?v=20261104-navigation-layout';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){

@@ -305,3 +305,7 @@ html[data-theme=light] .forum-shell .forum-page-links a[aria-current=page]{backg
 .forum-section-empty{padding:20px 24px;margin:0}
 .forum-admin-nav{flex-wrap:wrap}
 .forum-breadcrumbs>a,.forum-breadcrumbs>[aria-current=page]{min-width:0;overflow-wrap:anywhere}
+
+/* The guest invitation sits above the breadcrumbs as an unboxed line. */
+.forum-shell .forum-sign-in-note{margin:0 0 16px;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;font-size:13px;line-height:1.5}
+.forum-shell .forum-sign-in-note a{font-weight:600}

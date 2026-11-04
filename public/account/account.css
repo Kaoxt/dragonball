@@ -139,3 +139,8 @@ body .account-page .account-heading h1{font-size:27px;margin:4px 0}
 body .account-page .account-heading p{margin:4px 0}
 body .account-page .account-links{gap:10px 18px;margin:16px 0 22px;font-size:13px}
 @media(max-width:700px){body .account-page{padding:24px 16px}body .account-page .account-card{padding:16px}}
+
+/* Keep the divider fixed while giving Log In more space from the brush edge. */
+@media(min-width:1201px),(min-width:900px) and (orientation:landscape){
+ html:root body .site-header nav .account-nav-actions:not(.is-signed-in) a.account-nav-link{padding:10px 24px 10px 0}
+}

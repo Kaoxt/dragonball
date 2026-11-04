@@ -6,14 +6,14 @@
   for (const name of files) {
     const preload = document.createElement('link');
     preload.rel = 'preload'; preload.as = 'script';
-    preload.href = '/forum/' + name + '.js?v=20261102-forum-sections';
+    preload.href = '/forum/' + name + '.js?v=20261104-navigation-layout';
     document.head.append(preload);
   }
   let next = 0, busy = false;
   function script(name) {
     return new Promise((resolve, reject) => {
       const node = document.createElement('script');
-      node.src = '/forum/' + name + '.js?v=20261102-forum-sections';
+      node.src = '/forum/' + name + '.js?v=20261104-navigation-layout';
       node.onload = () => resolve();
       node.onerror = () => { node.remove(); reject(new Error('Unable to load this page. Check your connection and try again.')); };
       document.head.append(node);

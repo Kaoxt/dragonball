@@ -44,6 +44,10 @@
   box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
  }
 
+ /* Navigation panels use the same charcoal fill without the worn texture. */
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav,
+ html[data-site-design=v2] body.arena-page .forum-shell .forum-navigation-row {background-image:none}
+
  /* Card power-box framing belongs to the main panels, not every nested control.
     The original card frame supplies an almost-black band, irregular inner strokes,
     dark grey corner decals and one thin dark grey outer outline, with no inner
