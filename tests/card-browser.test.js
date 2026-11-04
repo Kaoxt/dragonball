@@ -60,7 +60,10 @@ test('Cell Games Saga exposes 95 reviewed cards across two pages and resolves ev
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
  assert.equal(cards.length,95);assert.equal(grid(b).length,60);
  assert.equal(b.elements['results-count'].textContent,'Showing 1–60 of 95 cards in Cell Games Saga');
- assert.equal(b.elements['collection-name'].hidden,false);
+ assert.equal(b.elements['collection-name'].hidden,true);
+ assert.equal(b.elements['collection-logo-cell-games'].hidden,false);
+ assert.equal(b.elements['collection-logo-cell-games'].alt,'Cell Games Saga');
+ assert.match(b.elements['collection-logo-cell-games'].src,/cell-games-saga-logo-brushed-green\.webp/);
  assert.equal(b.elements['collection-name'].textContent,'Cell Games Saga');
  assert.equal(b.elements['pagination-top'].hidden,false);
  assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:60},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
@@ -233,3 +236,4 @@ test('Android set shows its banner through refresh and hides it outside that set
  assert.equal(browser('/cards/').elements['collection-logo-android'].hidden,true);
  assert.equal(browser('/cards/trunks-saga/').elements['collection-logo-android'].hidden,true);
 });
+

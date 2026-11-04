@@ -1,6 +1,6 @@
 import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261028-cell-banner';
+import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261104-cell-games-banner';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
@@ -53,7 +53,8 @@ const collectionBranding = {
  'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners', name:'Frieza Saga', element:'collection-logo-frieza'},
  'trunks saga': {image:'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners', name:'Trunks Saga', element:'collection-logo-trunks'},
  'android saga': {image:'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners', name:'Android Saga', element:'collection-logo-android'},
- 'cell saga': {image:'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner', name:'Cell Saga', element:'collection-logo-cell'}
+ 'cell saga': {image:'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner', name:'Cell Saga', element:'collection-logo-cell'},
+ 'cell games saga': {image:'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner', name:'Cell Games Saga', element:'collection-logo-cell-games'}
 };
 function renderCollectionBrand(){
  const selected=$('set').value;
@@ -152,3 +153,4 @@ $('card-detail').addEventListener('click',e=>{if(e.target===$('card-detail')){co
 window.addEventListener('popstate',()=>syncRoute());
 window.addEventListener('pageshow',()=>syncRoute());
 syncRoute();
+
