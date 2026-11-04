@@ -15,7 +15,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261104-account-forum-plain-panels';
+surfaces.href = '/surfaces-design.css?v=20261104-cards-filter-corner-decals';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
