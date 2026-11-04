@@ -338,11 +338,11 @@
  html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button:hover {background:#ffffff08;color:#fff}
  html[data-site-design=v2] body.arena-table-page .power-readout small {color:#b8c0c6}
 
- /* Rules controls: burnt-red card-back accents, charcoal secondary surfaces. */
+ /* Rules actions and selected controls match the News Show more button. */
  html[data-site-design=v2] body.rulebook-page {
   --rules-panel:#1e2428;--rules-ink:var(--content-copy);--rules-muted:#b8c0c6;
-  --rules-line:#39434b;--manual-red:#76130a;--manual-red-hover:#93180e;
-  --manual-red-border:#a53325;--accent:#c2c8cd;
+  --rules-line:#39434b;--manual-red:#a52c4b;--manual-red-hover:#a52c4b;
+  --manual-red-border:#c14965;--accent:#c2c8cd;
  }
  html[data-site-design=v2] body.rulebook-page .manual :is(.manual-hero,.guide-actions,.chapter-nav>.eyebrow,.card-guide-group,.turn-track li,.table-scroll) {border-color:#39434b}
  html[data-site-design=v2] body.rulebook-page .manual .turn-track li:last-child {border-color:transparent}
@@ -355,11 +355,11 @@
  }
  html[data-site-design=v2] body.rulebook-page .manual .hero-links .primary-link,
  html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a[aria-selected=true] {
-  background:var(--manual-red);border-color:var(--manual-red-border);color:#fff;box-shadow:none;
+  background:var(--manual-red);border:1px solid var(--manual-red-border);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.rulebook-page .manual .hero-links .primary-link:hover,
  html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a[aria-selected=true]:hover {
-  background:var(--manual-red-hover);border-color:#b54837;color:#fff;
+  background:var(--manual-red-hover);border-color:var(--manual-red-border);color:#fff;
  }
  html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs {background:#1e2428;border-color:#39434b;box-shadow:none}
  html[data-site-design=v2] body.rulebook-page .manual .card-type-tabs a {color:#b8c0c6}
@@ -367,9 +367,11 @@
  html[data-site-design=v2] body.rulebook-page .manual :is(input,select) {background:#151a1e;border-color:#39434b;color:#f5f6fa}
  html[data-site-design=v2] body.rulebook-page .manual input::placeholder {color:#929da6}
  html[data-site-design=v2] body.rulebook-page .manual select option {background:#151a1e;color:#f5f6fa}
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover,
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#f5f6fa}
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {box-shadow:inset 2px 0 var(--site-nav-red)}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a {border:1px solid transparent}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover {background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {
+  background:var(--manual-red);border:1px solid var(--manual-red-border);color:#fff;box-shadow:none;
+ }
  html[data-site-design=v2] body.rulebook-page .manual :is(.table-note,.rule-callout,.card-example,.format-grid article,.pat-calculator) {background:#151a1e;border-color:#39434b}
  html[data-site-design=v2] body.rulebook-page .manual .pat-calculator {box-shadow:inset 3px 0 #65717a}
  html[data-site-design=v2] body.rulebook-page .manual .pat-special.is-active {background:#303940;border-color:#bfc6cb}
@@ -433,7 +435,7 @@
  html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible),
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:is(:hover,:focus-visible),
  html[data-site-design=v2] body.community-page main .forum-shell .forum-page-links a:is(:hover,:focus-visible,[aria-current=page]),
- html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,.card-type-tabs a):is(:hover,:focus-visible,[aria-selected=true]),
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a:not(.primary-link),.chapter-top-link):is(:hover,:focus-visible),
  html[data-site-design=v2] body .account-tabs button:is(:hover,:focus-visible,[aria-pressed=true]){
   background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#fff;
   box-shadow:inset 0 0 0 1px var(--site-nav-red);
