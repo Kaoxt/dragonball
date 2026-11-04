@@ -15,7 +15,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261104-cards-filter-corner-decals';
+surfaces.href = '/surfaces-design.css?v=20261104-cards-news-border';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
