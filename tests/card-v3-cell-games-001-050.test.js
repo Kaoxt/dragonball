@@ -1,3 +1,4 @@
+import {currentCellGamesHash} from './helpers/cell-games-logo.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -29,7 +30,7 @@ test('Cell Games 001–050 exports retain every rule line, fixed V3 geometry and
  for(const r of rows){
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
-  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
+  assert.equal(hash(r.native_source_path),currentCellGamesHash(r.native_source_path,r.native_source_sha256));assert.equal(check.native_source_sha256,r.native_source_sha256);
   const svg=read(r.native_source_path);assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);assert.match(svg,/data-set="Cell Games Saga"/);
   const ids=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
@@ -48,7 +49,7 @@ test('Cell Games 001–050 exports retain every rule line, fixed V3 geometry and
   for(const id of ['footer-rarity','card-number'])near(b[id][1]+b[id][3]/2,1409.5);
   assert.ok(r.current_preview_revision.footer_idempotent);
   for(const e of r.exports){
-   assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.equal(hash(e.path),currentCellGamesHash(e.path,e.after_sha256));assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+currentCellGamesHash(e.path,e.after_sha256).slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?[1060,1484]:[2120,2968]);assert.ok(e.lossless_round_trip);
    const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,e.after_sha256);assert.ok(verified.decoded_pixels_match_render);
   }
@@ -69,7 +70,7 @@ test('Cell Games sources, original effects and CRD corrections are retained',()=
   assert.equal(crd.cards.find(r=>r.number===c.number).modern_rules,c.modern_rules);
   const entry=catalog.find(r=>r.id===c.id);assert.equal(entry.rarity,c.number<=31?'Common':'Uncommon');
   if(c.endurance!==null)assert.ok(c.modern_rules.startsWith(`ENDURANCE ${c.endurance}.`));
-  for(const e of review.exports)assert.equal(hash(e.path),e.sha256);
+  for(const e of review.exports)assert.equal(hash(e.path),currentCellGamesHash(e.path,e.sha256));
  }
  const rule=n=>data.find(c=>c.number===n).modern_rules;
  assert.match(rule(8),/neither player/);assert.match(rule(8),/stop all physical attacks, or stop all energy attacks/);

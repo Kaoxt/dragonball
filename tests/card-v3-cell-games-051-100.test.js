@@ -1,3 +1,4 @@
+import {currentCellGamesHash} from './helpers/cell-games-logo.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -24,7 +25,7 @@ test('Cell Games second batch publishes only reviewed artwork and preserves comp
  for(const r of artwork){
   assert.ok(r.full_size_export_individually_viewed);assert.ok(r.source_and_generated_artwork_individually_viewed);
   assert.equal(hash(r.artwork_source),r.artwork_sha256);assert.equal(hash(r.printed_reference),r.printed_reference_sha256);
-  for(const e of r.exports)assert.equal(hash(e.path),e.sha256);
+  for(const e of r.exports)assert.equal(hash(e.path),currentCellGamesHash(e.path,e.sha256));
  }
  const crd=json(base+'crd-review.json');assert.equal(crd.reviewed_cards,50);assert.equal(hash(crd.crd_path),crd.crd_sha256);
  for(const c of data)assert.equal(crd.cards.find(r=>r.number===c.number).modern_rules,c.modern_rules);
@@ -35,7 +36,7 @@ test('Cell Games native source, readable exports and catalog agree',()=>{
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   const land=r.family==='LOCATION',cx=land?741.5:529.5,fy=land?985.5:1409.5;
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
-  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
+  assert.equal(hash(r.native_source_path),currentCellGamesHash(r.native_source_path,r.native_source_sha256));assert.equal(check.native_source_sha256,r.native_source_sha256);
   const svg=fs.readFileSync(r.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);
   const ids=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
@@ -52,7 +53,7 @@ test('Cell Games native source, readable exports and catalog agree',()=>{
   const ball=b['footer-rarity'],num=b['card-number'];near((Math.min(ball[0],num[0])+Math.max(ball[0]+ball[2],num[0]+num[2]))/2,land?1186.45:847.25);near(num[0]-ball[0]-ball[2],12.2);
   for(const id of ['footer-rarity','card-number'])near(b[id][1]+b[id][3]/2,fy);
   for(const e of r.exports){
-   assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.equal(hash(e.path),currentCellGamesHash(e.path,e.after_sha256));assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+currentCellGamesHash(e.path,e.after_sha256).slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?(land?[1484,1060]:[1060,1484]):(land?[2968,2120]:[2120,2968]));
    assert.ok(e.lossless_round_trip);assert.ok(check.exports.find(x=>x.path===e.path).decoded_pixels_match_render);
   }

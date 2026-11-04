@@ -1,0 +1,56 @@
+name: Prepare approved Cell Games logo
+on:
+  push:
+    branches: [cell-games-logo-satin-20261104]
+permissions:
+  contents: write
+concurrency:
+  group: cell-games-logo-satin-release
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            tools/deployment
+      - uses: actions/cache/restore@v4
+        id: source-cache
+        with:
+          path: .git/objects
+          key: cell-games-logo-source-20261104
+          restore-keys: source-git-v1-Linux-
+      - name: Materialize source
+        shell: bash
+        run: |
+          if [ -z '${{ steps.source-cache.outputs.cache-matched-key }}' ]; then
+            git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
+          fi
+          git -c checkout.workers=4 sparse-checkout disable
+          git diff --exit-code HEAD
+      - name: Install native renderer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml
+          inkscape --version
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Apply and independently verify all 190 exports
+        run: |
+          /usr/bin/python3 tools/card-templates/v3/patch_cell_games_logo.py --workers 3
+          /usr/bin/python3 tools/card-templates/v3/patch_cell_games_logo.py
+          npm test
+      - name: Save reviewed output on preparation branch
+        run: |
+          git config user.name 'Cell Games asset build'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/assets/cards/cell-games-*.webp public/assets/cards/downloads/cell-games-*.webp public/cards/catalog.js tools/card-templates/v3/cell-games-001-050 tools/card-templates/v3/cell-games-051-100 tools/card-corrections/v3-cell-games-logo/release.json
+          git commit -m 'Apply approved satin Cell Games emblem to all 95 published cards'
+          git push origin HEAD:cell-games-logo-satin-20261104
