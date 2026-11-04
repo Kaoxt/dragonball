@@ -45,14 +45,18 @@ function browser(path='/cards/') {
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
 
-test('Cell Games Saga exposes its first 50 cards and resolves every detail and download',()=>{
+test('Cell Games Saga exposes 95 reviewed cards across two pages and resolves every detail and download',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
- assert.equal(cards.length,50);assert.equal(grid(b).length,50);
- assert.equal(b.elements['results-count'].textContent,'Showing 1–50 of 50 cards in Cell Games Saga');
+ assert.equal(cards.length,95);assert.equal(grid(b).length,60);
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–60 of 95 cards in Cell Games Saga');
  assert.equal(b.elements['collection-name'].hidden,false);
  assert.equal(b.elements['collection-name'].textContent,'Cell Games Saga');
- assert.equal(b.elements['pagination-top'].hidden,true);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
+ assert.equal(b.elements['pagination-top'].hidden,false);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:60},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
+ const second=browser('/cards/cell-games-saga/?sort=number&page=2');
+ const remaining=Array.from({length:40},(_,i)=>i+61).filter(n=>![70,72,73,81,83].includes(n));
+ assert.equal(second.elements['results-count'].textContent,'Showing 61–95 of 95 cards in Cell Games Saga');
+ assert.deepEqual(grid(second).map(c=>c.href),remaining.map(n=>`/cards/cell-games-saga/${String(n).padStart(3,'0')}`));
  for(const card of cards){
   const direct=browser(cardPath(card));assert.equal(direct.elements['card-detail'].open,true);
   assert.equal(direct.elements['download'].href,card.downloadImage);

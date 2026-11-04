@@ -1,0 +1,273 @@
+{
+  "number": 94,
+  "id": "cell-games-094-cell-jr-1",
+  "name": "Cell Jr. 1",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-094-cell-jr-1.svg",
+  "native_source_sha256": "baa4f263093cf965431b4188b8581cd27e0972c7ca328e65eb57995daa5d67c5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/54b95a8fb70a6bc37186d62684d63e70a85654ee01f26a0ae4d670f7ed0b91ea.png",
+      "sha256": "54b95a8fb70a6bc37186d62684d63e70a85654ee01f26a0ae4d670f7ed0b91ea"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/094.png",
+    "source_sha256": "54b95a8fb70a6bc37186d62684d63e70a85654ee01f26a0ae4d670f7ed0b91ea",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Search your Life Deck or discard",
+      "baseline": 1049.3,
+      "width": 727.307,
+      "icon_inline": false
+    },
+    {
+      "text": "pile for Cell Jr. 1 or Cell Jr. 2 and play it",
+      "baseline": 1108.3,
+      "width": 689.528,
+      "icon_inline": false
+    },
+    {
+      "text": "at 3 stages above 0. You may overlay an",
+      "baseline": 1167.3,
+      "width": 715.7919999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Ally above your Main Personality's level.",
+      "baseline": 1226.3,
+      "width": 708.981,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        856.756,
+        160.009,
+        174.244,
+        38.269
+      ],
+      "power-stage-value-1": [
+        857.883,
+        224.691,
+        173.117,
+        38.269
+      ],
+      "power-stage-value-2": [
+        857.54,
+        289.373,
+        173.46,
+        38.269
+      ],
+      "power-stage-value-3": [
+        861.705,
+        354.054,
+        169.295,
+        38.269
+      ],
+      "power-stage-value-4": [
+        857.785,
+        418.736,
+        173.215,
+        38.269
+      ],
+      "power-stage-value-5": [
+        858.128,
+        483.418,
+        172.872,
+        38.269
+      ],
+      "power-stage-value-6": [
+        857.736,
+        548.1,
+        173.264,
+        38.269
+      ],
+      "power-stage-value-7": [
+        858.814,
+        612.782,
+        172.186,
+        38.269
+      ],
+      "power-stage-value-8": [
+        859.598,
+        677.463,
+        171.402,
+        38.269
+      ],
+      "power-stage-value-9": [
+        865.723,
+        742.145,
+        165.277,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        408.363,
+        50.2213,
+        242.274,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.295,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.095,
+        1392.65,
+        46.11,
+        33.708
+      ],
+      "rules-line-1": [
+        167.831,
+        1013.53,
+        723.338,
+        45.521
+      ],
+      "rules-line-2": [
+        186.206,
+        1072.53,
+        686.588,
+        45.521
+      ],
+      "rules-line-3": [
+        173.001,
+        1132.46,
+        712.999,
+        44.982
+      ],
+      "rules-line-4": [
+        176.123,
+        1190.53,
+        706.755,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-094-cell-jr-1.webp",
+      "after_sha256": "2a4291ed8264add637a2f481022418b38eec96fdbede0aaa7f133ee26b4ff2f9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-094-cell-jr-1.webp",
+      "after_sha256": "4f3c3266ba6da8cf9a54941d9ee98624a39bb5b6a43b268287fa63570cf75ef5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 242.27431421446389,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

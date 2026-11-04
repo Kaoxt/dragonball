@@ -1,0 +1,223 @@
+{
+  "number": 63,
+  "id": "cell-games-063-namekian-piercing-beam",
+  "name": "Namekian Piercing Beam",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-063-namekian-piercing-beam.svg",
+  "native_source_sha256": "bc853b619931d7b730ebe3837fd66b56683bd05944887d84f964cdb13c497ce8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f31b83d958843dc6bb03561337babc8c76a43f089460a42290206e32670a289f.png",
+      "sha256": "f31b83d958843dc6bb03561337babc8c76a43f089460a42290206e32670a289f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/063.png",
+    "source_sha256": "f31b83d958843dc6bb03561337babc8c76a43f089460a42290206e32670a289f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 877.2511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. Lower your",
+      "baseline": 1108.3,
+      "width": 586.7750000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger 1 level. HIT: Discard",
+      "baseline": 1167.3,
+      "width": 662.4310000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "1 of your opponent's Allies in play.",
+      "baseline": 1226.3,
+      "width": 599.0250000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        164.5,
+        45.43,
+        730.0,
+        67.1399
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        796.097,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.897,
+        1392.65,
+        42.506,
+        33.708
+      ],
+      "rules-line-1": [
+        92.7364,
+        1013.53,
+        873.527,
+        45.913
+      ],
+      "power-icon": [
+        354.293,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        237.377,
+        1072.53,
+        584.247,
+        45.521
+      ],
+      "rules-line-3": [
+        199.975,
+        1131.53,
+        659.05,
+        45.913
+      ],
+      "rules-line-4": [
+        230.992,
+        1190.53,
+        597.016,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          354.293,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          408.889,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          354.293,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-063-namekian-piercing-beam.webp",
+      "after_sha256": "19b8a2925b8aef6f7c2f28f1de76885d6e0e91743db4217c6cbc6a401d823cac",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp",
+      "after_sha256": "0b8f7aa16664a4f262cabe60bf543a8e3a92526a7b6178f97a53b61c569fa43e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.71559633027522,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 729.9999999999999,
+      "visible_height": 67.13990825688072,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 730.0,
+      "scale_factor": 0.9730421486504452
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

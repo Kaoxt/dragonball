@@ -1,0 +1,223 @@
+{
+  "number": 65,
+  "id": "cell-games-065-namekian-quick-blast",
+  "name": "Namekian Quick Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-065-namekian-quick-blast.svg",
+  "native_source_sha256": "78ce812bae5086ab1c68b04599f09addeadf761fbb1544e71b9682c19ff0abb7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ae0c31ee1a617a89a67db88f3f7025858c077691dd3e3e65f8baa2938a09f439.png",
+      "sha256": "ae0c31ee1a617a89a67db88f3f7025858c077691dd3e3e65f8baa2938a09f439"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/065.png",
+    "source_sha256": "ae0c31ee1a617a89a67db88f3f7025858c077691dd3e3e65f8baa2938a09f439",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 772.0531555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. HIT: Choose up to 4",
+      "baseline": 1108.3,
+      "width": 728.1890000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cards in your discard pile. Banish 2 of them.",
+      "baseline": 1167.3,
+      "width": 779.786,
+      "icon_inline": false
+    },
+    {
+      "text": "Shuffle the rest into your Life Deck.",
+      "baseline": 1226.3,
+      "width": 629.5520000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        201.922,
+        46.909,
+        655.156,
+        64.182
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.514,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.314,
+        1392.65,
+        43.672,
+        33.708
+      ],
+      "rules-line-1": [
+        198.853,
+        1013.53,
+        715.89,
+        45.913
+      ],
+      "power-icon": [
+        144.257,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        166.827,
+        1072.53,
+        725.347,
+        44.884
+      ],
+      "rules-line-3": [
+        141.151,
+        1131.53,
+        776.699,
+        45.521
+      ],
+      "rules-line-4": [
+        216.169,
+        1190.53,
+        626.661,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          198.853,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-065-namekian-quick-blast.webp",
+      "after_sha256": "b9783e900ccc2185cfcb6eb9ffd59e746c951aef1c780dc8ddc4ed377228aedb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp",
+      "after_sha256": "2e3274b892853b0403ccc929d0847b471df6aa7897d2ecff21198db9f55b0746",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 655.1558603491272,
+      "visible_height": 64.18204488778056,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

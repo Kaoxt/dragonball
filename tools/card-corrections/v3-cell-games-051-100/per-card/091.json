@@ -1,0 +1,175 @@
+{
+  "number": 91,
+  "id": "cell-games-091-something-dangerous-is-coming",
+  "name": "Something Dangerous Is Coming!",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-091-something-dangerous-is-coming.svg",
+  "native_source_sha256": "f56ce71b3f1ad78bc8847564b0b7c4ed5e9ef08b785c7579422b19707c74831d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6c3772e744060567ada83da1d417e4347b547a48916291d6ab7ea061c33735fe.png",
+      "sha256": "6c3772e744060567ada83da1d417e4347b547a48916291d6ab7ea061c33735fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/091.png",
+    "source_sha256": "6c3772e744060567ada83da1d417e4347b547a48916291d6ab7ea061c33735fe",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Discard 1 of your opponent's",
+      "baseline": 1049.3,
+      "width": 647.2900000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Allies in play. Search your Life Deck for",
+      "baseline": 1108.3,
+      "width": 695.163,
+      "icon_inline": false
+    },
+    {
+      "text": "an Ally and play it at 3 stages above 0.",
+      "baseline": 1167.3,
+      "width": 680.2180000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.6595,
+        760.0,
+        52.6811
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        799.807,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.607,
+        1392.65,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        207.325,
+        1013.53,
+        644.35,
+        45.521
+      ],
+      "rules-line-2": [
+        182.434,
+        1072.53,
+        694.132,
+        45.521
+      ],
+      "rules-line-3": [
+        190.738,
+        1131.53,
+        677.523,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-091-something-dangerous-is-coming.webp",
+      "after_sha256": "495195d53baa0b345ceb3485c425e3301d8805802dac1d533f18f131bc2370a5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-091-something-dangerous-is-coming.webp",
+      "after_sha256": "d15aa6fa35c4424cd90d4f818cd259d8c89e04bb90b8571a36581bff76f748e0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 65.68712186689714,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 52.68107173725151,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.7634937932935001
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

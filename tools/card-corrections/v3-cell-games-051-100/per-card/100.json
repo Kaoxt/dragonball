@@ -1,0 +1,150 @@
+{
+  "number": 100,
+  "id": "cell-games-100-korins-tower",
+  "name": "Korin's Tower",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-100-korins-tower.svg",
+  "native_source_sha256": "77ab0ae459e9cebaf27ef64c8b5c0d15421aa84e0e3a45835d428ede81d3ac4c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/519ad3d648eceb6d110243e4154f5cd7ca505163797d94fc00872e22abf9fc51.png",
+      "sha256": "519ad3d648eceb6d110243e4154f5cd7ca505163797d94fc00872e22abf9fc51"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/100.png",
+    "source_sha256": "519ad3d648eceb6d110243e4154f5cd7ca505163797d94fc00872e22abf9fc51",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      16,
+      145.0,
+      1451,
+      483.6666666666667
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: In place of an attack, you may play",
+      "baseline": 815.983333333333,
+      "width": 766.5559999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "an Ally from your hand at 3 stages above 0.",
+      "baseline": 874.983333333333,
+      "width": 767.732,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        535.145,
+        50.2213,
+        412.709,
+        57.5574
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        259.568,
+        953.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        1126.13,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1185.93,
+        968.646,
+        60.844,
+        33.708
+      ],
+      "rules-line-1": [
+        359.606,
+        781.291,
+        763.789,
+        44.443
+      ],
+      "rules-line-2": [
+        358.982,
+        840.144,
+        765.037,
+        44.982
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-100-korins-tower.webp",
+      "after_sha256": "ec4c7296ff4c7959710ee4c26ddf74d6046733ccfcef66b4a4faddfc3e6909ce",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-100-korins-tower.webp",
+      "after_sha256": "edd1ae34659cd9bb300abedbda112bcb274c35ccfdb6a16cc89e26f68c9c04de",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

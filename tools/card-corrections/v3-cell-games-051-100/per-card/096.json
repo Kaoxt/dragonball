@@ -1,0 +1,223 @@
+{
+  "number": 96,
+  "id": "cell-games-096-saiyan-face-smash",
+  "name": "Saiyan Face Smash",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-096-saiyan-face-smash.svg",
+  "native_source_sha256": "042cc06e29a35b88e6fd7191f6a87520222d295614d6d6ac22341af7f23d32cb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8b9ee45254eb83f9be77a83574c7a7ff4b0b1cd30ec4c6075237867955ec0a2b.png",
+      "sha256": "8b9ee45254eb83f9be77a83574c7a7ff4b0b1cd30ec4c6075237867955ec0a2b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/096.png",
+    "source_sha256": "8b9ee45254eb83f9be77a83574c7a7ff4b0b1cd30ec4c6075237867955ec0a2b",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 724.8121555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. For this Combat, whenever",
+      "baseline": 1108.3,
+      "width": 889.742,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent uses a Physical Combat card,",
+      "baseline": 1167.3,
+      "width": 787.332,
+      "icon_inline": false
+    },
+    {
+      "text": "they discard the top card of their Life Deck.",
+      "baseline": 1226.3,
+      "width": 773.22,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        240.208,
+        44.5,
+        578.585,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.249,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.049,
+        1392.65,
+        44.202,
+        33.708
+      ],
+      "rules-line-1": [
+        168.539,
+        1013.53,
+        721.921,
+        45.913
+      ],
+      "power-icon": [
+        553.674,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        85.8932,
+        1072.53,
+        887.214,
+        45.913
+      ],
+      "rules-line-3": [
+        136.973,
+        1131.53,
+        785.055,
+        45.521
+      ],
+      "rules-line-4": [
+        143.993,
+        1190.53,
+        771.015,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          553.674,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          608.221,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          553.674,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-096-saiyan-face-smash.webp",
+      "after_sha256": "b1da4e577ccb28e64979d92c585128ba55cd1e37da23a7d26c3ed4c37665293b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-096-saiyan-face-smash.webp",
+      "after_sha256": "b413640404f56ef953b8c941628e8b0e37e4f44f4c174e70964b15bb11f1d2fb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 578.5847880299252,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

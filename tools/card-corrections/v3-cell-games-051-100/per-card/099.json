@@ -1,0 +1,199 @@
+{
+  "number": 99,
+  "id": "cell-games-099-gokus-farewell",
+  "name": "Goku's Farewell",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-099-gokus-farewell.svg",
+  "native_source_sha256": "2c229e7ba0c94ec492068bedbc60d72ac64cb0fd7bb7770982af2d377b344b6a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0b28e5c0fbe2f41e427b16dc9e8a1aaeea8f5a21af53fd350a78bf4ad5279948.png",
+      "sha256": "0b28e5c0fbe2f41e427b16dc9e8a1aaeea8f5a21af53fd350a78bf4ad5279948"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/099.png",
+    "source_sha256": "0b28e5c0fbe2f41e427b16dc9e8a1aaeea8f5a21af53fd350a78bf4ad5279948",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: For this game:",
+      "baseline": 1049.3,
+      "width": 733.579,
+      "icon_inline": false
+    },
+    {
+      "text": "no MPPV; your anger gain cannot be",
+      "baseline": 1108.3,
+      "width": 634.942,
+      "icon_inline": false
+    },
+    {
+      "text": "stopped or your anger lowered/set; gain 1",
+      "baseline": 1167.3,
+      "width": 742.1540000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "anger as your turns start; lose at 5+ anger.",
+      "baseline": 1226.3,
+      "width": 761.215,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your MP to its highest level and stage.",
+      "baseline": 1285.3,
+      "width": 778.806,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        291.269,
+        50.2213,
+        476.461,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.461,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.261,
+        1392.65,
+        43.778,
+        33.708
+      ],
+      "rules-line-1": [
+        164.132,
+        1012.11,
+        730.737,
+        47.334
+      ],
+      "rules-line-2": [
+        213.621,
+        1072.53,
+        631.757,
+        45.913
+      ],
+      "rules-line-3": [
+        159.893,
+        1131.53,
+        739.214,
+        45.913
+      ],
+      "rules-line-4": [
+        150.24,
+        1192.0,
+        758.52,
+        44.443
+      ],
+      "rules-line-5": [
+        141.959,
+        1249.53,
+        775.082,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-099-gokus-farewell.webp",
+      "after_sha256": "2d3c3d348ba3bcb494834de033c1c9977b0526c361887b51408fa8668feee1a9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-099-gokus-farewell.webp",
+      "after_sha256": "162dd597c8f05b7f1ef44356945a1a77dfa69b942df374cf946a41c905a810d5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 476.46134663341655,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

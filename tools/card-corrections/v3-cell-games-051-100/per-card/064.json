@@ -1,0 +1,199 @@
+{
+  "number": 64,
+  "id": "cell-games-064-namekian-power-stance-drill",
+  "name": "Namekian Power Stance Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-064-namekian-power-stance-drill.svg",
+  "native_source_sha256": "5321817b59ebc592829e52badcaa47a11d9d9dfda44257a3ac82b231e4c59ea0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4bb4d79f2762458b211112a478d84fbdf5f107177ccb13a7a1f32232041339c2.png",
+      "sha256": "4bb4d79f2762458b211112a478d84fbdf5f107177ccb13a7a1f32232041339c2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/064.png",
+    "source_sha256": "4bb4d79f2762458b211112a478d84fbdf5f107177ccb13a7a1f32232041339c2",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Defense Shield: Stops the first unstopped",
+      "baseline": 1049.3,
+      "width": 783.7319473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "physical attack against you each Combat.",
+      "baseline": 1108.3,
+      "width": 742.7420000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        53.8621,
+        760.0,
+        50.2759
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.454,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.254,
+        1392.65,
+        45.792,
+        33.708
+      ],
+      "rules-line-1": [
+        190.09,
+        1013.53,
+        730.345,
+        44.884
+      ],
+      "power-icon": [
+        138.565,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        159.917,
+        1072.53,
+        739.165,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "D",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          138.565,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          190.09,
+          1015.0,
+          19.306,
+          34.3
+        ],
+        "new_visible_bounds": [
+          138.565,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-064-namekian-power-stance-drill.webp",
+      "after_sha256": "90e42d4dc319ad7bec919f281428c7cd9b81a4d07faf9b0b149e0f26d7427690",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp",
+      "after_sha256": "b935ffda9866a6c2a9c357d93a6ef928766dd216ed44a210b37326b1d4ba2b98",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 75.15079600514188,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999998,
+      "visible_height": 50.27588252743992,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8734918608133883
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3
+}

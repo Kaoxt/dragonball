@@ -1,0 +1,223 @@
+{
+  "number": 80,
+  "id": "cell-games-080-quick-combat-drill",
+  "name": "Quick Combat Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-080-quick-combat-drill.svg",
+  "native_source_sha256": "7c9e957b2cc0d58f82fb33d4bf4eca072ba78afd86ca68b2df788e989d2fda18",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d3f652059f5b0946bad2ebd694162e37175aece750320a11da5d44a212e914c1.png",
+      "sha256": "d3f652059f5b0946bad2ebd694162e37175aece750320a11da5d44a212e914c1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/080.png",
+    "source_sha256": "d3f652059f5b0946bad2ebd694162e37175aece750320a11da5d44a212e914c1",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat as the defender,",
+      "baseline": 1049.3,
+      "width": 767.91075,
+      "icon_inline": true
+    },
+    {
+      "text": "you may put the bottom card of your discard",
+      "baseline": 1108.3,
+      "width": 791.4479999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "pile into your hand. If you do, draw 1 fewer",
+      "baseline": 1167.3,
+      "width": 750.2880000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "card in your Defender Draws 3 Cards phase.",
+      "baseline": 1226.3,
+      "width": 777.0910000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        254.791,
+        46.909,
+        549.419,
+        64.182
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.196,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.996,
+        1392.65,
+        44.308,
+        33.708
+      ],
+      "rules-line-1": [
+        212.938,
+        1013.53,
+        699.697,
+        45.913
+      ],
+      "power-icon": [
+        146.365,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        135.026,
+        1072.53,
+        788.949,
+        45.521
+      ],
+      "rules-line-3": [
+        155.547,
+        1131.53,
+        747.907,
+        45.521
+      ],
+      "rules-line-4": [
+        142.498,
+        1190.53,
+        774.004,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          146.365,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          212.938,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          146.365,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-080-quick-combat-drill.webp",
+      "after_sha256": "25a6fe318f3ab3ac837a5edf5b4e72fbbaed4952bf2bc9b0552f57800b528cb0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-080-quick-combat-drill.webp",
+      "after_sha256": "04ce5204afb3aa3376424a1947fbe5c2edbd3b1f2a5d1552ec369c07cf2df79e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 549.4189526184539,
+      "visible_height": 64.18204488778056,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3
+}

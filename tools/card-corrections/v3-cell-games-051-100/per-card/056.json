@@ -1,0 +1,163 @@
+{
+  "number": 56,
+  "id": "cell-games-056-everyone-is-attacked",
+  "name": "Everyone Is Attacked!",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-056-everyone-is-attacked.svg",
+  "native_source_sha256": "b3d2dc7c088de554e1885f9e8d08f395f4204bdccf7d6c8af294e30a869948c8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/35181da33ec03664e3bcb6f86eb8c20335e49a9502351af8cfcddc0428bbc118.png",
+      "sha256": "35181da33ec03664e3bcb6f86eb8c20335e49a9502351af8cfcddc0428bbc118"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/056.png",
+    "source_sha256": "35181da33ec03664e3bcb6f86eb8c20335e49a9502351af8cfcddc0428bbc118",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 1. Villains only. POWER: Every",
+      "baseline": 1049.3,
+      "width": 737.156,
+      "icon_inline": false
+    },
+    {
+      "text": "Hero loses 3 stages. Banish after use.",
+      "baseline": 1108.3,
+      "width": 668.556,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        202.653,
+        44.5,
+        653.693,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        162.33,
+        1013.53,
+        734.34,
+        45.521
+      ],
+      "rules-line-2": [
+        197.084,
+        1072.53,
+        664.832,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-056-everyone-is-attacked.webp",
+      "after_sha256": "cc6ea49344380aca0f824aad63415831280c89e4aca3b9c6503b90c1652cec90",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-056-everyone-is-attacked.webp",
+      "after_sha256": "8c021be4f03286cfefefe1ef418db1c54719d34c26405010b18c5012df4edcb1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 653.6932668329177,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

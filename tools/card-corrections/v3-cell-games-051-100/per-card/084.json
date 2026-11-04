@@ -1,0 +1,199 @@
+{
+  "number": 84,
+  "id": "cell-games-084-red-overhand-slash",
+  "name": "Red Overhand Slash",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-084-red-overhand-slash.svg",
+  "native_source_sha256": "9d67a192e73ab0a15f50fc6512924e43f89c88c270ce4993fe7446b46dbf5629",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d81b9727fca976ff23a09bc9930660c70e1f1de8dfb838fa8cbaddb4ec734d9f.png",
+      "sha256": "d81b9727fca976ff23a09bc9930660c70e1f1de8dfb838fa8cbaddb4ec734d9f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/084.png",
+    "source_sha256": "d81b9727fca976ff23a09bc9930660c70e1f1de8dfb838fa8cbaddb4ec734d9f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack. DAMAGE: AT +1 stage.",
+      "baseline": 1049.3,
+      "width": 882.6951555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Raise your anger 2 levels.",
+      "baseline": 1108.3,
+      "width": 537.3340000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        232.938,
+        50.2213,
+        593.125,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        794.269,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.068,
+        1392.65,
+        46.163,
+        33.708
+      ],
+      "rules-line-1": [
+        143.532,
+        1013.53,
+        826.532,
+        45.913
+      ],
+      "power-icon": [
+        88.9364,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        262.695,
+        1072.53,
+        533.61,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          88.9364,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          143.532,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          88.9364,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-084-red-overhand-slash.webp",
+      "after_sha256": "6b8732edf2726868f4f43d2119b985f9831ee8f3e24aa648f0f140b664a0b540",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-084-red-overhand-slash.webp",
+      "after_sha256": "1155cd09fa83df82fc35d7537e2c02c994d6222fbf90ff16a64e304fce368d31",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 593.1246882793018,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

@@ -22,7 +22,10 @@ test('retained V2 Personalities have verified display and download lettering',()
   const personalities=catalog.filter(c=>c.type==='Main Personality');
   const records=new Map(audit.map(r=>[r.id,r]));
   assert.equal(records.size,audit.length,'duplicate audit entries');
-  assert.equal(records.size,personalities.length,'audit must cover the current complete Personality catalog');
+  // The October 28 audit is immutable historical evidence. New V3 cards have
+  // independent V3 export audits and must not be added to the old V2 report.
+  assert.equal(records.size,170,'preserve the original V2 audit membership');
+  for(const id of records.keys())assert.ok(personalities.some(c=>c.id===id),`missing audited Personality ${id}`);
   for(const card of personalities){
     // V3 is a whole-frame migration, validated by card-v3.test.js.
     // Preserve historical V2 audit evidence without imposing V2 geometry on V3.

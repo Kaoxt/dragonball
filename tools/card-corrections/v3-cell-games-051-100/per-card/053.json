@@ -1,0 +1,187 @@
+{
+  "number": 53,
+  "id": "cell-games-053-cells-instant-transmission",
+  "name": "Cell's Instant Transmission",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-053-cells-instant-transmission.svg",
+  "native_source_sha256": "9b2b3c6f421c1e595cb3f1e88e05668af26cbe793835d87cb469b78345e1209a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d697baea093635b3794c897342271d0235f9bbbbcedc049b4e2e6085e64c794d.png",
+      "sha256": "d697baea093635b3794c897342271d0235f9bbbbcedc049b4e2e6085e64c794d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/053.png",
+    "source_sha256": "d697baea093635b3794c897342271d0235f9bbbbcedc049b4e2e6085e64c794d",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Cell only. POWER: You may also use this",
+      "baseline": 1049.3,
+      "width": 703.297,
+      "icon_inline": false
+    },
+    {
+      "text": "during your Planning Step. Search your",
+      "baseline": 1108.3,
+      "width": 690.361,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a Battleground or Location",
+      "baseline": 1167.3,
+      "width": 709.8140000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and play it. You do not have to skip Combat.",
+      "baseline": 1226.3,
+      "width": 776.111,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        52.107,
+        760.0,
+        53.7861
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        796.256,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.056,
+        1392.65,
+        42.188,
+        33.708
+      ],
+      "rules-line-1": [
+        179.101,
+        1013.53,
+        700.798,
+        45.521
+      ],
+      "rules-line-2": [
+        185.265,
+        1072.53,
+        688.47,
+        45.913
+      ],
+      "rules-line-3": [
+        176.504,
+        1131.53,
+        705.992,
+        45.913
+      ],
+      "rules-line-4": [
+        142.792,
+        1190.53,
+        773.416,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-053-cells-instant-transmission.webp",
+      "after_sha256": "43e63fa4f8511bb534114192ed1eb23c8aaf719e2717f0befc8aa6ec32f9bf20",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-053-cells-instant-transmission.webp",
+      "after_sha256": "0655a384b2c21735233b378585514576b4360e93fa2a7c1f387e76c7f8ad024e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 80.3977573257167,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 53.78609965090447,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.9344782808003592
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

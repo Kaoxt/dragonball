@@ -1,0 +1,223 @@
+{
+  "number": 75,
+  "id": "cell-games-075-orange-aggressive-technique",
+  "name": "Orange Aggressive Technique",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-051-100/cell-games-075-orange-aggressive-technique.svg",
+  "native_source_sha256": "694e3e68348f06989374692e48d9dabdbe439bd154cdd753a919fa4aca28c9c5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/828057e505849ba97ffdfefec5e49ae41ebbe8888349c48d5a17feb05dade889.png",
+      "sha256": "828057e505849ba97ffdfefec5e49ae41ebbe8888349c48d5a17feb05dade889"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-cell-games-051-100/artwork/075.png",
+    "source_sha256": "828057e505849ba97ffdfefec5e49ae41ebbe8888349c48d5a17feb05dade889",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. HIT: This personality's",
+      "baseline": 1108.3,
+      "width": 810.117,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attacks deal +2 life cards",
+      "baseline": 1167.3,
+      "width": 583.6390000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage for the rest of Combat.",
+      "baseline": 1226.3,
+      "width": 600.5440000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        49.583,
+        760.0,
+        58.834
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.7,
+        73.9635,
+        63.6
+      ],
+      "footer-rarity": [
+        796.786,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.586,
+        1392.65,
+        41.128,
+        33.708
+      ],
+      "rules-line-1": [
+        336.812,
+        1013.53,
+        439.971,
+        45.521
+      ],
+      "power-icon": [
+        282.217,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        125.936,
+        1072.53,
+        807.128,
+        45.913
+      ],
+      "rules-line-3": [
+        238.856,
+        1131.53,
+        581.287,
+        45.913
+      ],
+      "rules-line-4": [
+        230.771,
+        1191.61,
+        597.457,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          336.812,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-075-orange-aggressive-technique.webp",
+      "after_sha256": "67ade23c8788d39d67e33abd885a96fb01c0e6f0bf8d668331559c9a1beb0bb4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-075-orange-aggressive-technique.webp",
+      "after_sha256": "0ae455c3bce0b05b42c85843fb288c1d21e7ad2fc45da88499262952095b871e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 73.35907335907335,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 58.83397683397683,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8526663309272003
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}
