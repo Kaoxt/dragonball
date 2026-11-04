@@ -12,6 +12,13 @@ const assets = {fetch: async request => {
   return new Response(html, {headers:{'Content-Type':'text/html', 'X-Content-Type-Options':'nosniff', etag:'old-index'}});
 }};
 
+test('Personality card sharing metadata uses the renamed type',async()=>{
+ const card=catalog.find(c=>c.type==='Main Personality');
+ const body=await(await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets)).text();
+ assert.ok(body.includes('Personality · Freestyle. View'));
+ assert.ok(!body.includes('Main Personality · Freestyle. View'));
+});
+
 test('every catalog card has a unique share link that resolves across sets and promo numbers', () => {
   assert.equal(new Set(catalog.map(cardPath)).size, catalog.length);
   for (const card of catalog) assert.equal(cardFromPath(cardPath(card), catalog), card);

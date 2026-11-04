@@ -1,3 +1,4 @@
+import { assertNoHiTechAllies } from './decks/eligibility.js';
 import { powerChart, personalityPower } from './personality-power.js';
 import { catalog } from './cards/catalog.js';
 const catalogById = new Map(catalog.map(c => [c.id, c]));
@@ -22,6 +23,7 @@ function expand(items, max = 90) { check(Array.isArray(items) && items.length <=
 export function parseDeck(input) {
   check(input && Array.isArray(input.personalities), 'Supply 3–5 Main Personality cards in level order.');
   check(input.personalities.length >= 3 && input.personalities.length <= 5, 'Main Personality stacks need consecutive levels 1 through 3, 4, or 5.');
+  assertNoHiTechAllies(input);
   const personalities = input.personalities.map(card), cards = expand(input.cards), mastery = input.mastery ? card(input.mastery) : null, sensei = input.sensei ? card(input.sensei) : null, senseiDeck = expand(input.senseiDeck || []);
   check(cards.length > 0, 'The Life Deck cannot be empty.'); check(!senseiDeck.length || sensei, 'A Sensei Deck requires a Sensei card.');
   const tokui = clean(input.tokui, 20), total = personalities.length + cards.length + (mastery ? 1 : 0) + (sensei ? 1 : 0), max = tokui.toLowerCase() === 'namekian' ? 90 : 85;

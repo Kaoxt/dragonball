@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
+import {cardTypeLabel} from '../public/cards/card-types.js';
 import {catalog} from '../public/cards/catalog.js';
 import {cardPath,setPath,catalogRoute,catalogSets} from '../public/cards/card-links.js';
 
@@ -34,7 +35,7 @@ function browser(path='/cards/') {
     replaceState(state,unused,path){entries[position]={path,state};setLocation(path);},
     back(){if(position){position--;move();}},forward(){if(position<entries.length-1){position++;move();}}};
   const document={getElementById:id=>elements[id],createElement:tag=>new Element(tag),title:''};
-  const context=vm.createContext({catalog,cardPath,setPath,catalogRoute,catalogSets,document,window,location,history,URL,
+  const context=vm.createContext({cardTypeLabel,catalog,cardPath,setPath,catalogRoute,catalogSets,document,window,location,history,URL,
     Option:class{constructor(text,value){this.text=text;this.value=value;}},
     localStorage:{removeItem(){removed++;}},navigator:{clipboard:{writeText:async value=>{copied=value;}}}});
   vm.runInContext(source,context);
@@ -44,6 +45,16 @@ function browser(path='/cards/') {
 
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
+
+test('Personality labels appear in filters, result cards and details while legacy filter URLs work',()=>{
+ const b=browser('/cards/?type=Main+Personality');
+ assert.equal(b.elements.type.options.find(o=>o.value==='Main Personality').text,'Personality');
+ assert.ok(grid(b).length>0);
+ assert.ok(grid(b).every(c=>c.children[2].textContent.endsWith(' · Personality')));
+ b.click(grid(b)[0]);
+ const fields=b.elements['detail-meta'].children;
+ assert.equal(fields[fields.findIndex(c=>c.textContent==='Type')+1].textContent,'Personality');
+});
 
 test('Cell Games Saga exposes 95 reviewed cards across two pages and resolves every detail and download',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');

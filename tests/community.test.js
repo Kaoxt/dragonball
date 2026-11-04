@@ -559,3 +559,32 @@ test('only admins can manage sections; forum moves keep topics and hierarchy int
  assert.equal((await f.forum('reader',topic)).status,400);
  assert.equal((await f.forum(null,null,{view:'topic',id:topicId})).status,200);
 });
+
+
+
+test('account saves reject new Hi-Tech Allies while existing invalid decks remain repairable',async()=>{
+ const {catalog}=await import('../public/cards/catalog.js');
+ const {createDeck,snapshot}=await import('../public/decks/store.js');
+ const f=await fixture();await f.register('alice');
+ const call=async data=>{const r=await decksRequest(new Request('https://dragonball.test/api/decks',{method:data?'POST':'GET',headers:{Cookie:f.cookies.alice,Origin:'https://dragonball.test','Content-Type':'application/json'},...(data?{body:JSON.stringify(data)}:{})}),f.env);return {status:r.status,data:await r.json()};};
+ const owner=(await call()).data;
+ const ht=catalog.find(c=>c.rarity==='Hi-Tech'),deck=createDeck();
+ let version=0;
+ const save=async decks=>{const r=await call({userId:owner.userId,version,data:{decks,active:decks[0]?.id||null}});if(r.status===200)version=r.data.version;return r;};
+ for(const zone of ['cards','senseiDeck']){
+  deck[zone]=[{id:ht.id,name:ht.name,type:'Setup',qty:1}];
+  const rejected=await save([deck]);assert.equal(rejected.status,400);assert.match(rejected.data.error,/Hi-Tech.*cannot be used as Allies/);
+  deck[zone]=[];
+ }
+ deck.personalities[1]=snapshot(ht);assert.equal((await save([deck])).status,200);
+ // Simulate a deck saved before this restriction, without silently deleting cards.
+ deck.cards=[{id:ht.id,name:ht.name,qty:2}];
+ f.env.DB.prepare('UPDATE account_decks SET data=? WHERE user_id=?').bind(JSON.stringify({decks:[deck],active:deck.id}),owner.userId).run();
+ const other=createDeck();assert.equal((await save([deck,other])).status,200);
+ deck.cards.push({id:ht.id,name:ht.name,qty:1});assert.equal((await save([deck,other])).status,400);deck.cards.pop();
+ deck.cards[0].qty=1;assert.equal((await save([deck,other])).status,200);
+ deck.cards[0].qty=2;assert.equal((await save([deck,other])).status,400);deck.cards[0].qty=1;
+ const duplicate={...structuredClone(deck),id:'copied-invalid-deck'};assert.equal((await save([deck,other,duplicate])).status,400);
+ deck.cards=[];assert.equal((await save([deck,other])).status,200);
+ assert.equal((await call()).data.data.decks[0].cards.length,0);
+});
