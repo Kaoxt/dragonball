@@ -1,0 +1,112 @@
+name: Cloudflare build diagnostics
+
+on:
+  push:
+    branches: [cloudflare-build-diagnostics]
+    paths: [.github/workflows/cloudflare-build-diagnostics.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    if: github.repository == 'Kaoxt/dragonball' && github.ref == 'refs/heads/cloudflare-build-diagnostics'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read Cloudflare build diagnostics
+        env:
+          CLOUDFLARE_BUILD_API_TOKEN: ${{ secrets.CLOUDFLARE_BUILD_API_TOKEN }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { createCipheriv, publicEncrypt, randomBytes } from 'node:crypto';
+          import { mkdir, writeFile } from 'node:fs/promises';
+          
+          const token = process.env.CLOUDFLARE_BUILD_API_TOKEN;
+          if (!token) {
+            console.error('Add the repository Actions secret CLOUDFLARE_BUILD_API_TOKEN, then rerun this job.');
+            process.exit(2);
+          }
+          
+          const publicKey = "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA46nBUPXSJ6AHGD/CJ4pA\nBMqqh3Kd+wNdyWByVeYslOVnomRC67TN1VxDtcATsG9RzwguiLcFE7iybDtxNpYj\nX4WgL3Jo2iE8z3Zn10BUJ5pMIf9KeUUCErnczxDoO0cDYHrH3v1LVmEAhC4tgyOM\nyTWeQD2tAL4NL+ZfPei6In3iNKrhVnynzbV0M0396H6L1bobH1v/Cgig6BLME6Mb\nx1FmnAkYbJbInF05i94xTBpURCltBJASQqP8e+7mpjcu4Ox2wESu9ZPqPmByjurB\n2XLWu0zdJX2KUpnyXC7LruFOoc+lutrbyD60s9tbOeb0E3i15odlJ8YhF1m3yeoO\nfOh4PTTTRTV3dQlfQi5x2eQrlZfIFiD8cu9CHoL1KE4Eg0OXLufvthByDL7+M3jI\nVB80KtbPy4hE+O5013YAXPdj+qwrid5HOYkBjMH4ETCl3dYtISbL97Ojp+ptvgsu\nQj3m/bPhrJBMD7DCPo2qPAzXReblWcfE6AX30WQVnzfzAgMBAAE=\n-----END PUBLIC KEY-----\n";
+          const base = 'https://api.cloudflare.com/client/v4/accounts/c258dd1982f4b993816f209b2b7b57b5';
+          const report = { schema: 1, collectedAt: new Date().toISOString(), worker: 'dragonball', responses: [] };
+          let failures = 0;
+          async function get(path) {
+            try {
+              const response = await fetch(base + path, {
+                method: 'GET', redirect: 'error', signal: AbortSignal.timeout(20000),
+                headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
+              });
+              const raw = (await response.text()).replaceAll(token, '[REDACTED]');
+              let body;
+              try { body = JSON.parse(raw); } catch { body = { nonJsonResponse: raw.slice(0,4000) }; }
+              report.responses.push({ path, status: response.status, body });
+              if (!response.ok || body.success === false) failures++;
+              return response.ok && body.success !== false ? body.result : null;
+            } catch {
+              failures++;
+              report.responses.push({ path, error: 'Request failed or timed out' });
+              return null;
+            }
+          }
+          
+          // Fixed account and Worker. GET requests only; no deployment or setting changes.
+          await get('/builds/account/limits');
+          const scripts = await get('/workers/scripts');
+          const worker = Array.isArray(scripts) ? scripts.find(s => s.id === 'dragonball') : null;
+          const knownBuilds = new Set([
+            '5d30aed1-f5bc-4635-a06a-f9f9f2cb9307',
+            '78459073-1216-4b4e-b25a-d899ddba5a50',
+          ]);
+          const uuid = /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/;
+          if (worker?.tag && /^[a-f0-9]{32}$/.test(worker.tag)) {
+            await get(`/builds/workers/${worker.tag}`);
+            const latest = await get(`/builds/workers/${worker.tag}/builds?per_page=5`);
+            const builds = Array.isArray(latest) ? latest : latest?.builds;
+            for (const b of (Array.isArray(builds) ? builds : []).slice(0,3)) {
+              if (uuid.test(b.build_uuid)) knownBuilds.add(b.build_uuid);
+            }
+          }
+          for (const id of knownBuilds) {
+            await get(`/builds/builds/${id}`);
+            let cursor = '';
+            const seen = new Set();
+            for (let page = 0; page < 20; page++) {
+              const result = await get(`/builds/builds/${id}/logs${cursor ? '?cursor=' + encodeURIComponent(cursor) : ''}`);
+              if (!result || !result.lines?.length || !result.cursor || seen.has(result.cursor)) break;
+              seen.add(result.cursor);
+              cursor = result.cursor;
+              if (page === 19) report.paginationLimitReached = true;
+            }
+          }
+          
+          // The repository is public: detailed Cloudflare responses never enter public logs.
+          // Only encrypted output is uploaded; the private key remains outside GitHub.
+          const key = randomBytes(32), iv = randomBytes(12);
+          const cipher = createCipheriv('aes-256-gcm', key, iv);
+          const ciphertext = Buffer.concat([cipher.update(JSON.stringify(report), 'utf8'), cipher.final()]);
+          const envelope = {
+            schema: 1, algorithm: 'RSA-OAEP-SHA256+A256GCM',
+            wrappedKey: publicEncrypt({ key: publicKey, oaepHash: 'sha256' }, key).toString('base64'),
+            iv: iv.toString('base64'), tag: cipher.getAuthTag().toString('base64'),
+            ciphertext: ciphertext.toString('base64'),
+          };
+          key.fill(0);
+          await mkdir('diagnostics-output', { recursive: true });
+          await writeFile('diagnostics-output/report.encrypted.json', JSON.stringify(envelope));
+          console.log(`Encrypted diagnostic report saved (${report.responses.length} requests; ${failures} failed requests).`);
+          if (failures) process.exitCode = 1;
+          NODE
+      - name: Save encrypted diagnostic report
+        if: always() && hashFiles('diagnostics-output/report.encrypted.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-build-diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
+          path: diagnostics-output/report.encrypted.json
+          retention-days: 7
+          if-no-files-found: error
