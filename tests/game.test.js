@@ -43,10 +43,13 @@ test('table positions validate ownership, survive hidden views, and clear on pri
 
 test('practice card images use WebP and legacy JPG deck imports migrate', async () => {
   const {practiceDeck, sampleCards} = await import('../public/practice-deck.js');
-  const {existsSync} = await import('node:fs');
+  const {existsSync, readFileSync} = await import('node:fs');
+  const releaseManifest = new URL('../deployment/card-assets.json', import.meta.url);
+  const storedImages = existsSync(releaseManifest) ? JSON.parse(readFileSync(releaseManifest, 'utf8')).assets : null;
   for (const card of sampleCards) {
     assert.ok(card.image.endsWith('.webp'));
-    assert.ok(existsSync(new URL(`../public${card.image}`, import.meta.url)));
+    if (storedImages) assert.ok(Object.hasOwn(storedImages, card.image), `Missing stored practice image: ${card.image}`);
+    else assert.ok(existsSync(new URL(`../public${card.image}`, import.meta.url)));
   }
   const input = practiceDeck();
   input.personalities[0].image = '/assets/cards/goku-super-saiyan-3.jpg';
