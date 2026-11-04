@@ -12,11 +12,11 @@ The full source tests and CodeQL remain required. After a successful push to `ma
 
 ## Source checkout cache
 
-Security checks first checks out only the workflow and deployment instructions with a shallow, blobless checkout. It then restores Git objects from the Actions cache and materializes the **complete current commit** before running the unchanged dependency audit, source tests, and Wrangler checks. No source files or tests are omitted.
+Security checks first checks out only the workflow and deployment instructions with a shallow, blobless checkout. It then restores Git objects from the Actions cache and materializes the **complete current commit** with four checkout workers before running the unchanged dependency audit, source tests, and Wrangler checks. No source files or tests are omitted.
 
 Only `.git/objects` is cached; Git configuration, credentials, refs, and the index are freshly initialized on each runner. The cache key follows the Git tree revisions of the card exports, native templates, and correction evidence. Ordinary code changes reuse the cache; changed assets are fetched by Git using their current object IDs. A previous asset revision may supply unchanged objects, but it cannot select the checked-out commit. `git diff --exit-code HEAD` checks the materialized working tree before tests.
 
-Only successful push jobs save this cache. GitHub's branch scoping keeps pull-request caches out of `main`. CodeQL keeps its existing independent sparse checkout. A missing or evicted cache falls back to a complete source download, so the first run or a cold cache remains slower. Cache entries are an acceleration only; the full source repository remains authoritative.
+Only successful push jobs save this cache. GitHub's branch scoping keeps pull-request caches out of `main`. Newer pushes cancel superseded checks on the same branch; scheduled and pull-request checks have separate concurrency groups. CodeQL keeps its existing independent sparse checkout. A missing or evicted cache uses an unfiltered, shallow fetch of the exact source commit before materialization, so the first run or a cold cache still requires a complete source download. Cache entries are an acceleration only; the full source repository remains authoritative.
 
 ## Image storage
 
