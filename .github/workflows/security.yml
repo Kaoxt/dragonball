@@ -25,6 +25,17 @@ jobs:
       - run: npm audit --audit-level=high
       - run: npm test
       - run: npm run check
+      - name: Prepare the small production package
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: node tools/deployment/package-release.mjs "$RUNNER_TEMP/cloudflare-production"
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          name: cloudflare-production
+          path: ${{ runner.temp }}/cloudflare-production
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: error
 
   codeql:
     name: CodeQL
@@ -35,6 +46,13 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/tools/
+            !/public/assets/
+          sparse-checkout-cone-mode: false
       - uses: github/codeql-action/init@v3
         with:
           languages: javascript-typescript

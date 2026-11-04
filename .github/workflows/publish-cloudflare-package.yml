@@ -1,0 +1,47 @@
+name: Publish Cloudflare package
+
+on:
+  workflow_run:
+    workflows: [Security checks]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-production-package
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.event == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          filter: blob:none
+          sparse-checkout: tools/deployment
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-production
+          path: ${{ runner.temp }}/cloudflare-production
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+      - name: Publish verified package to the production branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCE_COMMIT: ${{ github.event.workflow_run.head_sha }}
+        run: node tools/deployment/publish-package.mjs "$RUNNER_TEMP/cloudflare-production"
