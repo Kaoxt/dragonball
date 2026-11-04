@@ -83,6 +83,16 @@
  html[data-site-design=v2] body.arena-page .forum-shell .forum-post {
   --forum-post-inner-radius:2px;
  }
+
+ /* Account settings, topic headings and reply composers match the plain
+    navigation panels. Published post content keeps its textured card frame. */
+ html[data-site-design=v2] body.arena-page .account-page .account-card,
+ html[data-site-design=v2] body.arena-page .forum-shell :is(.forum-topic-heading,.forum-reply-form>.issue-card) {
+  background:var(--surface-panel);border:1px solid var(--surface-border);
+  border-image:none;border-radius:7px;
+  box-shadow:0 2px 3px #0003,0 10px 24px -12px #0009;
+ }
+
  html[data-site-design=v2] body.home-page .home-sidebar :is(.next-move,.community-links) {--sidebar-pad:18px;padding:0 var(--sidebar-pad) var(--sidebar-pad)}
  /* News reads directly on the page; only its title keeps the brush artwork. */
  html[data-site-design=v2] body.home-page .news-post {padding:0 24px 24px;margin-bottom:24px;background:none;border:0;border-image:none;border-radius:0;box-shadow:none}
