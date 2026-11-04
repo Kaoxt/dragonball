@@ -1,3 +1,7 @@
+## Cell Games emblem — November 4, 2026
+
+All 95 published Cell Games cards use the approved green wreath/gray hexagon/black C with the Android emblem’s satin finish. Read `tools/card-corrections/v3-cell-games-logo/README.md`; reuse its retained asset and clipped native group for future cards. Keep portrait/landscape visible centers and width unchanged. Historical production audits remain immutable; current source/export hashes follow `release.json`. Five artwork-held cards remain unpublished.
+
 ## Cell Games Saga 051–100 — November 4, 2026
 
 This batch adds 45 V3 cards, with native sources in `tools/card-templates/v3/cell-games-051-100/` and complete 50-card source/CRD records in `tools/card-corrections/v3-cell-games-051-100/`. **70, 72, 73, 81 and 83 remain unpublished awaiting artwork**, because the image generator blocked both attempts; the reviewed original scans are unsuitable as clean replacements. Preserve that explicit gap; do not call the batch complete. No Sensei occur in this range. Both Cell Jr. personalities retain Level 1, PUR 2 and eleven printed stages. Locations 79/100 are landscape. Rarity changes from three to five stars at 93. Preserve 52's corrected side kick, 56's corrected distant figure count, 63's 730-unit title width, 58/99's one-copy restrictions, 61's 4 life cards plus 2 stages, 65's removed banishment, 94's overlay permission and 97's broad Setup-or-Drill scope. The 45 reviewed display/download pairs have independent native-render checks. Five held cards retain their transcriptions and CRD work for continuation.
