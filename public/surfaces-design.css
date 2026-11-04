@@ -1,4 +1,4 @@
-/* Version 2 companion to the card-title navigation. Version 1 and print stay intact. */
+/* Current card-title theme; print keeps its dedicated base styles. */
 @media screen {
  html[data-site-design=v2] body {
   --surface-panel:#1e2428;
@@ -108,10 +108,10 @@
  html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
   background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
  }
- /* Match the bright red Foil selection, with one thin border and no inset ring. */
+ /* Restore the darker burgundy News action with a single thin red border. */
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
-  background:#a52c4b;border:1px solid #c14965;color:#fff;box-shadow:none;
+  background:var(--site-nav-red-fill,#52212b);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
@@ -338,7 +338,7 @@
  html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button:hover {background:#ffffff08;color:#fff}
  html[data-site-design=v2] body.arena-table-page .power-readout small {color:#b8c0c6}
 
- /* Rules actions and selected controls match the News Show more button. */
+ /* Rules actions and selected controls retain their approved red treatment. */
  html[data-site-design=v2] body.rulebook-page {
   --rules-panel:#1e2428;--rules-ink:var(--content-copy);--rules-muted:#b8c0c6;
   --rules-line:#39434b;--manual-red:#a52c4b;--manual-red-hover:#a52c4b;
@@ -432,7 +432,6 @@
   color:var(--site-nav-red);text-decoration-color:var(--site-nav-red);
  }
  html[data-site-design=v2] body.home-page .home-sidebar .hub-link:is(:hover,:focus-visible){--hub-fill:#1b2126}
- html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible),
  html[data-site-design=v2] body.community-page main .forum-shell #forum-alerts a:is(:hover,:focus-visible),
  html[data-site-design=v2] body.community-page main .forum-shell .forum-page-links a:is(:hover,:focus-visible,[aria-current=page]),
  html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a:not(.primary-link),.chapter-top-link):is(:hover,:focus-visible),
@@ -446,4 +445,11 @@
   outline:2px solid var(--site-nav-red);outline-offset:3px;
  }
  html[data-site-design=v2] body.community-page main .forum-shell .forum-page-select:focus-within{outline-color:var(--site-nav-red)}
+}
+
+
+@media screen{
+ html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible){
+  background:#303940;border-color:#65717a;color:#fff;box-shadow:none;
+ }
 }
