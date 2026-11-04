@@ -8,7 +8,8 @@ const logos = {
   'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners',
   'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners',
   'android-saga':'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners',
-  'cell-saga':'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner'
+  'cell-saga':'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner',
+  'cell-games-saga':'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner'
 };
 export function catalogSets(catalog) {
   const sets = new Map();
@@ -43,3 +44,4 @@ export function catalogRoute(pathname, catalog) {
   if (/^\/cards\/[^/]+\/[^/]+\/?$/.test(pathname)) return {kind:'missing'};
   return null;
 }
+
