@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261104-navigation-layout';
+import './navigation-design.js?v=20261104-plain-navigation';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
