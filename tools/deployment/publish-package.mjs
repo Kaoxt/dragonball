@@ -44,7 +44,14 @@ const current = await api('git/ref/heads/cloudflare-production');
 // The initial repository commit contains only a 6 KB README. Never parent the
 // deployment branch to main: doing so would reintroduce the artwork history.
 const parent = current?.object.sha || 'abee5ce913cc0e811b8ff36f48967648c80341b9';
-const tree = await api('git/trees', 'POST', { tree: entries });
+// GitHub can time out resolving hundreds of existing blobs in one tree request.
+// Construct an initially empty tree in small batches, preserving no source history.
+let tree;
+for (let offset = 0; offset < entries.length; offset += 48) {
+  tree = await api('git/trees', 'POST', {
+    ...(tree ? { base_tree: tree.sha } : {}), tree: entries.slice(offset, offset + 48),
+  });
+}
 if (current && (await api(`git/commits/${parent}`)).tree.sha === tree.sha) {
   console.log('This production package is already published.'); process.exit(0);
 }
