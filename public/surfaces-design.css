@@ -73,12 +73,22 @@
   border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
- /* Cards filters keep their plain charcoal fill inside the shared corner decals. */
+ /* Match the News sidebar rails and corner contours with a plain charcoal fill.
+    Painting the fill over the frame's inner strokes leaves the same clean edge
+    as the sidebar rows. Split halves reuse its exact top and bottom contours. */
  html[data-site-design=v2] body.database-page .filters {
-  background:var(--surface-panel);background-clip:padding-box;
+  position:relative;isolation:isolate;background:transparent;
   border:6px solid transparent;border-radius:16px;
   border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
   box-shadow:none;
+ }
+ html[data-site-design=v2] body.database-page .filters::before,
+ html[data-site-design=v2] body.database-page .filters::after {
+  content:"";position:absolute;inset:0 0 50%;z-index:-1;pointer-events:none;
+  background:var(--surface-panel);clip-path:var(--v2-frame-top-clip);
+ }
+ html[data-site-design=v2] body.database-page .filters::after {
+  inset:50% 0 0;clip-path:var(--v2-frame-bottom-clip);
  }
 
  /* Data tables use a smaller version of the same frame. Keep the scroll
