@@ -73,6 +73,14 @@
   border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
   box-shadow:none;
  }
+ /* Cards filters keep their plain charcoal fill inside the shared corner decals. */
+ html[data-site-design=v2] body.database-page .filters {
+  background:var(--surface-panel);background-clip:padding-box;
+  border:6px solid transparent;border-radius:16px;
+  border-image:url('/assets/power-panel-graphite-v2.svg?v=20261031-joined-dark-corners') 48 / 36px / 0 stretch;
+  box-shadow:none;
+ }
+
  /* Data tables use a smaller version of the same frame. Keep the scroll
     container intact so wide tables still pan horizontally on phones. */
  html[data-site-design=v2] body.arena-page .manual .table-scroll {
