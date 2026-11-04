@@ -36,6 +36,11 @@ jobs:
           path: .git/objects
           key: ${{ steps.source-assets.outputs.key }}
           restore-keys: source-git-v1-${{ runner.os }}-
+      - name: Fetch the complete snapshot when no source cache exists
+        if: steps.source-cache.outputs.cache-matched-key == ''
+        shell: bash
+        run: |
+          git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
       - name: Materialize the complete source for all checks
         shell: bash
         run: |
