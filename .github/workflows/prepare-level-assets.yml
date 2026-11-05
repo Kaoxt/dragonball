@@ -1,0 +1,72 @@
+name: Prepare Personality card sources
+on:
+  push:
+    branches: ['work/personality-level-font-20261104']
+    paths: ['.github/workflows/prepare-level-assets.yml']
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /
+            /public/assets/cards/saiyan-246-saibaimen.webp
+            /public/assets/cards/downloads/saiyan-246-saibaimen.webp
+            /public/assets/cards/saiyan-0P1-goku-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp
+            /public/assets/cards/saiyan-0P2-piccolo-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp
+            /public/assets/cards/saiyan-0P3-vegeta-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp
+            /public/assets/cards/saiyan-0P4-raditz-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp
+            /public/assets/cards/saiyan-0P5-gohan-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp
+            /public/assets/cards/saiyan-0P6-krillin-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp
+            /public/assets/cards/saiyan-0P7-nappa-silver-variant.webp
+            /public/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp
+            /public/assets/cards/frieza-089-vegeta-on-namek.webp
+            /public/assets/cards/downloads/frieza-089-vegeta-on-namek.webp
+            /public/assets/cards/frieza-090-krillin-on-namek.webp
+            /public/assets/cards/downloads/frieza-090-krillin-on-namek.webp
+            /public/assets/cards/frieza-091-nappa-restored.webp
+            /public/assets/cards/downloads/frieza-091-nappa-restored.webp
+            /public/assets/cards/frieza-092-raditz-restored.webp
+            /public/assets/cards/downloads/frieza-092-raditz-restored.webp
+            /public/assets/cards/frieza-093-goku-on-namek.webp
+            /public/assets/cards/downloads/frieza-093-goku-on-namek.webp
+            /public/assets/cards/frieza-094-piccolo.webp
+            /public/assets/cards/downloads/frieza-094-piccolo.webp
+            /public/assets/cards/frieza-095-gohan.webp
+            /public/assets/cards/downloads/frieza-095-gohan.webp
+            /public/assets/cards/frieza-125-super-saiyan-goku.webp
+            /public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp
+            /public/assets/cards/trunks-100-frieza-the-revived.webp
+            /public/assets/cards/downloads/trunks-100-frieza-the-revived.webp
+            /public/assets/cards/trunks-101-garlic-jr-the-void-master.webp
+            /public/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp
+            /public/assets/cards/trunks-102-spice-the-punisher.webp
+            /public/assets/cards/downloads/trunks-102-spice-the-punisher.webp
+            /public/assets/cards/trunks-103-vinegar-the-attacker.webp
+            /public/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp
+            /public/assets/cards/android-120-tien-the-watcher.webp
+            /public/assets/cards/downloads/android-120-tien-the-watcher.webp
+            /public/assets/cards/android-122-yajirobe.webp
+            /public/assets/cards/downloads/android-122-yajirobe.webp
+            /public/assets/cards/android-123-yamcha.webp
+            /public/assets/cards/downloads/android-123-yamcha.webp
+      - uses: actions/upload-artifact@v4
+        with:
+          name: personality-level-source-images
+          retention-days: 1
+          compression-level: 0
+          path: |
+            public/assets/cards/
+            tools/card-templates/v3/assets/
