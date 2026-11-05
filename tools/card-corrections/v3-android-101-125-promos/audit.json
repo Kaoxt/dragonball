@@ -4793,7 +4793,7 @@
     "name": "Tien the Watcher",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-120-tien-the-watcher.svg",
-    "native_source_sha256": "c7d7ff8eb516ccf59b34efbf7309dc02c4f2d55d5c1bd0f4fa66881db611848f",
+    "native_source_sha256": "177d82d38e51c3af0a274e82c63e9b00126e6303a506dee54e584cdaa01670d6",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -4927,9 +4927,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -4989,7 +4989,7 @@
         "path": "public/assets/cards/android-120-tien-the-watcher.webp",
         "before_url": "/assets/cards/android-120-tien-the-watcher.webp?v=c16505b4374f",
         "before_sha256": "c16505b4374f7955f2fab0083fe36d880e29f9e342e74e903acbf0bfa255660e",
-        "after_sha256": "9f1e3458b9e13e46209ba3983da32303529a683a6f726e08fd165ac8093b00f5",
+        "after_sha256": "24d22893de7cb3199943a61d5eea73e9ad7897c9539a6f797f4db20ea08d9ee1",
         "size": [
           1060,
           1484
@@ -5001,7 +5001,7 @@
         "path": "public/assets/cards/downloads/android-120-tien-the-watcher.webp",
         "before_url": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=6115078caf91",
         "before_sha256": "6115078caf9101343bd171c6c134760125f782489cdd075370eb1850a3eaddc6",
-        "after_sha256": "ee6661f27bad0b1596ecaecc1475cef9ceddc6f75294ac2ad778cbf17fa4ac65",
+        "after_sha256": "94053ed6e311b0357b1a32319b5fb126502b8970dad453763fccd65825ab1752",
         "size": [
           2120,
           2968
@@ -5052,6 +5052,52 @@
       "target_center": [
         211.75,
         1409.5
+      ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "c7d7ff8eb516ccf59b34efbf7309dc02c4f2d55d5c1bd0f4fa66881db611848f",
+      "after_native_sha256": "177d82d38e51c3af0a274e82c63e9b00126e6303a506dee54e584cdaa01670d6",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-120-tien-the-watcher.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "9f1e3458b9e13e46209ba3983da32303529a683a6f726e08fd165ac8093b00f5",
+          "after_sha256": "24d22893de7cb3199943a61d5eea73e9ad7897c9539a6f797f4db20ea08d9ee1",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-120-tien-the-watcher.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "ee6661f27bad0b1596ecaecc1475cef9ceddc6f75294ac2ad778cbf17fa4ac65",
+          "after_sha256": "94053ed6e311b0357b1a32319b5fb126502b8970dad453763fccd65825ab1752",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
       ]
     }
   },
@@ -5377,7 +5423,7 @@
     "name": "Yajirobe",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-122-yajirobe.svg",
-    "native_source_sha256": "e09f1c159802fc0280a46c60f4bff9268e0336ee02937ca68332fd5fd8308967",
+    "native_source_sha256": "8bd6dacc6698f694717b6cc88353729b604b95960d37eda99a46de1243de90a0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -5511,9 +5557,9 @@
           69.0
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -5609,7 +5655,7 @@
         "path": "public/assets/cards/android-122-yajirobe.webp",
         "before_url": "/assets/cards/android-122-yajirobe.webp?v=169733782cae",
         "before_sha256": "169733782cae220a3c174696e1e5e800b13203256c0cd3d476e7be771520d15a",
-        "after_sha256": "c187424ed5934c67c84be7e53ed984e1e409742a89a9510982d4c51008aa1244",
+        "after_sha256": "146e720baea0db1db44ecef9adfde8485a998f0b173c3563b944764f660b08d3",
         "size": [
           1060,
           1484
@@ -5621,7 +5667,7 @@
         "path": "public/assets/cards/downloads/android-122-yajirobe.webp",
         "before_url": "/assets/cards/downloads/android-122-yajirobe.webp?v=490997b6d1f2",
         "before_sha256": "490997b6d1f23decb38b0ebc87cdf655dde524a861e2630606c10b813a558da9",
-        "after_sha256": "47e359cf6a4cedbfb397d2fb32adee5d9e6195cbd6d5391e3927d3bfce2ef9c6",
+        "after_sha256": "8995d6a7bed84029aab158fee09b1d42b226e55792ab9e80f92812523c558e04",
         "size": [
           2120,
           2968
@@ -5673,6 +5719,52 @@
         211.75,
         1409.5
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "e09f1c159802fc0280a46c60f4bff9268e0336ee02937ca68332fd5fd8308967",
+      "after_native_sha256": "8bd6dacc6698f694717b6cc88353729b604b95960d37eda99a46de1243de90a0",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-122-yajirobe.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "c187424ed5934c67c84be7e53ed984e1e409742a89a9510982d4c51008aa1244",
+          "after_sha256": "146e720baea0db1db44ecef9adfde8485a998f0b173c3563b944764f660b08d3",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-122-yajirobe.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "47e359cf6a4cedbfb397d2fb32adee5d9e6195cbd6d5391e3927d3bfce2ef9c6",
+          "after_sha256": "8995d6a7bed84029aab158fee09b1d42b226e55792ab9e80f92812523c558e04",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -5681,7 +5773,7 @@
     "name": "Yamcha",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/android-101-125-promos/android-123-yamcha.svg",
-    "native_source_sha256": "b1243e49b292301d86a34b68365db540bdcdf21f755f3f51588bc5bfd8ddf8cd",
+    "native_source_sha256": "852b4242c12f95379319d74c3218d56fc5d766e390b4afabf4207298fe638790",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -5815,9 +5907,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -5913,7 +6005,7 @@
         "path": "public/assets/cards/android-123-yamcha.webp",
         "before_url": "/assets/cards/android-123-yamcha.webp?v=adc5c20fa9e3",
         "before_sha256": "adc5c20fa9e36e231bd892e2382ec2ca24bfb5c450ba913e0418788ad8e51e99",
-        "after_sha256": "ee6db5c2a0e6161adddfb0c51c8c365b0ed6a7294d6e19cf76066b09a9f8392a",
+        "after_sha256": "e3a84dec1fe4386e04c2ee8e0366a74a469fbc5662c86be6248a93c237ac4d87",
         "size": [
           1060,
           1484
@@ -5925,7 +6017,7 @@
         "path": "public/assets/cards/downloads/android-123-yamcha.webp",
         "before_url": "/assets/cards/downloads/android-123-yamcha.webp?v=cc4cac7c4ec6",
         "before_sha256": "cc4cac7c4ec6c0988309643c0bb95f89013e3add69cc67621d7371273071714b",
-        "after_sha256": "afc082879563a51550c6008f46a2e48e62ca576909cfc580c1420597426ebd6d",
+        "after_sha256": "a7e91a3bfab99c1588bd5a1e9aa53ef3b1a33de2ff8bea2191e7f7d1c1b530c3",
         "size": [
           2120,
           2968
@@ -5976,6 +6068,52 @@
       "target_center": [
         211.75,
         1409.5
+      ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "b1243e49b292301d86a34b68365db540bdcdf21f755f3f51588bc5bfd8ddf8cd",
+      "after_native_sha256": "852b4242c12f95379319d74c3218d56fc5d766e390b4afabf4207298fe638790",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-123-yamcha.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "ee6db5c2a0e6161adddfb0c51c8c365b0ed6a7294d6e19cf76066b09a9f8392a",
+          "after_sha256": "e3a84dec1fe4386e04c2ee8e0366a74a469fbc5662c86be6248a93c237ac4d87",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-123-yamcha.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "afc082879563a51550c6008f46a2e48e62ca576909cfc580c1420597426ebd6d",
+          "after_sha256": "a7e91a3bfab99c1588bd5a1e9aa53ef3b1a33de2ff8bea2191e7f7d1c1b530c3",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
       ]
     }
   },

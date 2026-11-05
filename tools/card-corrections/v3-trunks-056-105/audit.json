@@ -9624,7 +9624,7 @@
     "name": "Frieza, the Revived",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-100-frieza-the-revived.svg",
-    "native_source_sha256": "c602e3b6bf7ce056b123d5209190f787e08539bf9f3a4b3eaf57e0d697bee05d",
+    "native_source_sha256": "7ceb70d381e7a64bd355c7ad85e4e43544e2550a218fb9a0f497c996fcd3ce26",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9770,9 +9770,9 @@
           70.0324
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -9874,7 +9874,7 @@
         "path": "public/assets/cards/trunks-100-frieza-the-revived.webp",
         "before_url": "/assets/cards/trunks-100-frieza-the-revived.webp?v=efc366e5fd92",
         "before_sha256": "efc366e5fd927c5f049f2a3c32e123b65620681577da17e6a6ff44675ea6588b",
-        "after_sha256": "1b8b0b73502f3e0c51f8c22603e3999f79debb5077d314df1f0dd92886be7f9a",
+        "after_sha256": "f6412062875c4b39ae510059134cab1e1ea8cf2e8de93b22f87d4bee375f5d74",
         "size": [
           1060,
           1484
@@ -9886,7 +9886,7 @@
         "path": "public/assets/cards/downloads/trunks-100-frieza-the-revived.webp",
         "before_url": "/assets/cards/downloads/trunks-100-frieza-the-revived.webp?v=5bdf677aa0d3",
         "before_sha256": "5bdf677aa0d32b631631848b344be52bd1e9c08d6afe76843b78110f094b42f1",
-        "after_sha256": "f1c51df46f2ad83885639f63efd37bc83eee3b16cbc7c343ab4175126ca7fe98",
+        "after_sha256": "66455f60287b0d7b72adaef4dff3f08e375d0fe9032e67cd72bbc50de3136377",
         "size": [
           2120,
           2968
@@ -10095,6 +10095,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "c602e3b6bf7ce056b123d5209190f787e08539bf9f3a4b3eaf57e0d697bee05d",
+      "after_native_sha256": "7ceb70d381e7a64bd355c7ad85e4e43544e2550a218fb9a0f497c996fcd3ce26",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-100-frieza-the-revived.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1b8b0b73502f3e0c51f8c22603e3999f79debb5077d314df1f0dd92886be7f9a",
+          "after_sha256": "f6412062875c4b39ae510059134cab1e1ea8cf2e8de93b22f87d4bee375f5d74",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-100-frieza-the-revived.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "f1c51df46f2ad83885639f63efd37bc83eee3b16cbc7c343ab4175126ca7fe98",
+          "after_sha256": "66455f60287b0d7b72adaef4dff3f08e375d0fe9032e67cd72bbc50de3136377",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -10120,7 +10166,7 @@
     "name": "Garlic Jr., the Void Master",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-101-garlic-jr-the-void-master.svg",
-    "native_source_sha256": "52995aeff0129dfd4416fdb06d6be2eacc2f1bcb7ba0dbbafb3c447315f3a507",
+    "native_source_sha256": "b55a823c8f6f1b82694b59b3c77caf5027a89f832b4ab5a47c1a2e52a4f88f7a",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10254,9 +10300,9 @@
           57.7945
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -10346,7 +10392,7 @@
         "path": "public/assets/cards/trunks-101-garlic-jr-the-void-master.webp",
         "before_url": "/assets/cards/trunks-101-garlic-jr-the-void-master.webp?v=3cba5635420c",
         "before_sha256": "3cba5635420c307189099945101fc740f17be45310e85d61f26fed0dfbac1bd8",
-        "after_sha256": "1c6add84f73375409966c4d2c4fe8f3e640948296177231028a74c341bab86d4",
+        "after_sha256": "10b44f39021392b81fd00bb3e8885b634505dcc7d1b1e8493ddf17e47929dccc",
         "size": [
           1060,
           1484
@@ -10358,7 +10404,7 @@
         "path": "public/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp",
         "before_url": "/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp?v=4ba1185764ff",
         "before_sha256": "4ba1185764ffae3224a6ed3011158ccc627ccd96197958513865b0608bcbb8c4",
-        "after_sha256": "22b4531a5fba28075b2d10aa9621b3c77baa6ebdc885c69c853ba1343741e462",
+        "after_sha256": "8a32bba0579be57a8f249709eee5cd435868df764d1f63d2f60f1218ed40d619",
         "size": [
           2120,
           2968
@@ -10586,6 +10632,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "52995aeff0129dfd4416fdb06d6be2eacc2f1bcb7ba0dbbafb3c447315f3a507",
+      "after_native_sha256": "b55a823c8f6f1b82694b59b3c77caf5027a89f832b4ab5a47c1a2e52a4f88f7a",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-101-garlic-jr-the-void-master.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "1c6add84f73375409966c4d2c4fe8f3e640948296177231028a74c341bab86d4",
+          "after_sha256": "10b44f39021392b81fd00bb3e8885b634505dcc7d1b1e8493ddf17e47929dccc",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "22b4531a5fba28075b2d10aa9621b3c77baa6ebdc885c69c853ba1343741e462",
+          "after_sha256": "8a32bba0579be57a8f249709eee5cd435868df764d1f63d2f60f1218ed40d619",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -10611,7 +10703,7 @@
     "name": "Spice, the Punisher",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-102-spice-the-punisher.svg",
-    "native_source_sha256": "c465a78b868d990ec9b0c61c1b07ffe1ef607134b4c495064364a90b148d6744",
+    "native_source_sha256": "beb48ae90936f3b961914d6feec99aedfb7228635d05ed096bc11c08907789b5",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -10745,9 +10837,9 @@
           70.0324
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -10837,7 +10929,7 @@
         "path": "public/assets/cards/trunks-102-spice-the-punisher.webp",
         "before_url": "/assets/cards/trunks-102-spice-the-punisher.webp?v=f8665c70957d",
         "before_sha256": "f8665c70957d15b0c5b5c74722bfcb65fbbdda7f6bbff1e6f7809168778c299b",
-        "after_sha256": "7ad73cec0ffd6c4158f296ab9b7fe5b565595dcd554c4aa6684404bdc1a8c2dd",
+        "after_sha256": "90f259d115df622d67514edf494320edb3b0057ae61ce31befd64d89583bf4d4",
         "size": [
           1060,
           1484
@@ -10849,7 +10941,7 @@
         "path": "public/assets/cards/downloads/trunks-102-spice-the-punisher.webp",
         "before_url": "/assets/cards/downloads/trunks-102-spice-the-punisher.webp?v=713f78ff2b90",
         "before_sha256": "713f78ff2b90254a661c282602293440621a8f7cd385108554c770134cc28e94",
-        "after_sha256": "1a28421b46e78be9c63061301c394193b1bbb9a5c3f710c895fee44ad001614b",
+        "after_sha256": "9a30957927218fd1771d481a36f30c975e6fb5fb6c6548de344c26e2922c3441",
         "size": [
           2120,
           2968
@@ -11058,6 +11150,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "c465a78b868d990ec9b0c61c1b07ffe1ef607134b4c495064364a90b148d6744",
+      "after_native_sha256": "beb48ae90936f3b961914d6feec99aedfb7228635d05ed096bc11c08907789b5",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-102-spice-the-punisher.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7ad73cec0ffd6c4158f296ab9b7fe5b565595dcd554c4aa6684404bdc1a8c2dd",
+          "after_sha256": "90f259d115df622d67514edf494320edb3b0057ae61ce31befd64d89583bf4d4",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-102-spice-the-punisher.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "1a28421b46e78be9c63061301c394193b1bbb9a5c3f710c895fee44ad001614b",
+          "after_sha256": "9a30957927218fd1771d481a36f30c975e6fb5fb6c6548de344c26e2922c3441",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -11083,7 +11221,7 @@
     "name": "Vinegar, the Attacker",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/trunks-056-105/trunks-103-vinegar-the-attacker.svg",
-    "native_source_sha256": "ddf56301d2353629debfde62bccaa68d44e47d0992d705d59fdec6228862450d",
+    "native_source_sha256": "3a1348c7d2b4b54a7aea23edd2b422f1ae4206c08cdbc3425db53dbcfe0ed25e",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -11223,9 +11361,9 @@
           69.8338
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -11321,7 +11459,7 @@
         "path": "public/assets/cards/trunks-103-vinegar-the-attacker.webp",
         "before_url": "/assets/cards/trunks-103-vinegar-the-attacker.webp?v=bbd946d2ef06",
         "before_sha256": "bbd946d2ef0673629e3d58fdfad7f1cc5af71ef29459650685799017ec6fffd9",
-        "after_sha256": "e5f0d4fa8af014a88c252fc4febc047a751a9b5057fecbacc04938006abf8d62",
+        "after_sha256": "69eeb4001614a43d323b2481b24b3e5460b70821e53bdbbbbd24c102c8e2cc5f",
         "size": [
           1060,
           1484
@@ -11333,7 +11471,7 @@
         "path": "public/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp",
         "before_url": "/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp?v=0e09b7d463b4",
         "before_sha256": "0e09b7d463b49b82a9e05b27de9aee7473d61a2b5a3704d7342a09a71e66f6b1",
-        "after_sha256": "8633c9af44d08702dbac7969264b54c5b0e02ebef9d3fc3908bde0052b1e9001",
+        "after_sha256": "c8fad0bab0e228a826120e30fe390d97511904e493520d0700027945d0c84848",
         "size": [
           2120,
           2968
@@ -11559,6 +11697,52 @@
               "old_render_max_channel_difference": 2
             }
           ]
+        }
+      ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "ddf56301d2353629debfde62bccaa68d44e47d0992d705d59fdec6228862450d",
+      "after_native_sha256": "3a1348c7d2b4b54a7aea23edd2b422f1ae4206c08cdbc3425db53dbcfe0ed25e",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-103-vinegar-the-attacker.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "e5f0d4fa8af014a88c252fc4febc047a751a9b5057fecbacc04938006abf8d62",
+          "after_sha256": "69eeb4001614a43d323b2481b24b3e5460b70821e53bdbbbbd24c102c8e2cc5f",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "8633c9af44d08702dbac7969264b54c5b0e02ebef9d3fc3908bde0052b1e9001",
+          "after_sha256": "c8fad0bab0e228a826120e30fe390d97511904e493520d0700027945d0c84848",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
         }
       ]
     }

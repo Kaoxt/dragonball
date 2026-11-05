@@ -6119,7 +6119,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-101-125-promos/frieza-125-super-saiyan-goku.svg",
-    "native_source_sha256": "0151e8ec10179831f864333252ad4121ad4a29ba3e160c34a8e1021eabcb8fe9",
+    "native_source_sha256": "e21d639f088ce5f29c179516d40e169913b136a1cddd49921dc8bf0a65f3bfd3",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -6259,9 +6259,9 @@
           69.0
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -6351,7 +6351,7 @@
         "path": "public/assets/cards/frieza-125-super-saiyan-goku.webp",
         "before_url": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=fbec398b0bec",
         "before_sha256": "fbec398b0becbf7dc327215047d3fae59591d90586b0c3233e9aea0efad30ee0",
-        "after_sha256": "2cff195408420430be3baf882b2de2feb5969df1217eb7cef989053266496327",
+        "after_sha256": "3869fe888aff79131ecf4d2aa1c191653382d61fc1e6cc975ffd60a62176ce89",
         "size": [
           1060,
           1484
@@ -6363,7 +6363,7 @@
         "path": "public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp",
         "before_url": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=60c163968e83",
         "before_sha256": "60c163968e83e01f8d9fd2401900297370e86e62dce3231319189d0e920d5382",
-        "after_sha256": "4273a7eeffc44bb2264b4336768d59215a36734c2b4f8a2e2d909addf8f9f25d",
+        "after_sha256": "48ded9594e3c9506452869f733092aca82c3002318d0cd31148e73be954d5c4d",
         "size": [
           2120,
           2968
@@ -6555,6 +6555,52 @@
           "pixels_changed_outside_middle_paint": 0,
           "lossless_round_trip": true,
           "old_render_max_channel_difference": 2
+        }
+      ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "0151e8ec10179831f864333252ad4121ad4a29ba3e160c34a8e1021eabcb8fe9",
+      "after_native_sha256": "e21d639f088ce5f29c179516d40e169913b136a1cddd49921dc8bf0a65f3bfd3",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-125-super-saiyan-goku.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "2cff195408420430be3baf882b2de2feb5969df1217eb7cef989053266496327",
+          "after_sha256": "3869fe888aff79131ecf4d2aa1c191653382d61fc1e6cc975ffd60a62176ce89",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-125-super-saiyan-goku.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "4273a7eeffc44bb2264b4336768d59215a36734c2b4f8a2e2d909addf8f9f25d",
+          "after_sha256": "48ded9594e3c9506452869f733092aca82c3002318d0cd31148e73be954d5c4d",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
         }
       ]
     }
