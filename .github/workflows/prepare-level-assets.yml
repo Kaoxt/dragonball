@@ -1,55 +1,56 @@
-name: Prepare Personality card sources
+name: Verify Personality Level repair
 on:
   push:
     branches: ['work/personality-level-font-20261104']
-    paths: ['.github/workflows/prepare-level-assets.yml']
+    paths: ['.github/workflows/prepare-level-assets.yml', 'tools/card-templates/v3/patch_personality_levels.py']
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: verify-personality-level-font
+  cancel-in-progress: false
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
           filter: blob:none
-          persist-credentials: false
-          sparse-checkout-cone-mode: false
           sparse-checkout: |
-            /tools/card-templates/v3/assets/0592912337ac2ae047d4a687017c7151a38f04e1a7f04b32a166408a180cd62f.png
-            /tools/card-templates/v3/assets/0a900cc9bf1934d6f87444d09982f0ca9ad624a04d905fc7c087687bb1315f47.png
-            /tools/card-templates/v3/assets/0b518fae2b0ec5ec65de4b74ad0d96f44beb9f16a9f13a95cc7e4268e9561870.png
-            /tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png
-            /tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png
-            /tools/card-templates/v3/assets/3458fb3ef67b21354deb76267a4d9134c28e3342001bc57587b66c941f135c07.png
-            /tools/card-templates/v3/assets/361c29f581c7c923088839679610aefe3e5e2598aceda9665784eac860ab9714.png
-            /tools/card-templates/v3/assets/36ece86ef9e3c29ed68972e6950e7d7ee5596d923a9afbbd4fb2e92765bd99bb.png
-            /tools/card-templates/v3/assets/3b85ee85b2cae3d306650491c492e76db049bccc8f0220bc88459d2f7d2e2b86.png
-            /tools/card-templates/v3/assets/4ea7a7c49027058cb00afc8a3f321e0cdb473175871e5e270e5b5b146546b0b1.png
-            /tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png
-            /tools/card-templates/v3/assets/6162228f3cb280eacbb8d6e337f2a98c055ab809b9656671f4d2be9ca4937068.png
-            /tools/card-templates/v3/assets/6edcb52918230dfc3f10e254c062f6597a3c071362557733f86f8c477d6f1b11.png
-            /tools/card-templates/v3/assets/762c5aa842212b6a23078f92f3738b6cdd39ce883b01c8e7eece6e899f773048.png
-            /tools/card-templates/v3/assets/7bccbcf69bd4ba7b7746dd2d612ec02b7c614e7d087a3aba35080997279127d6.png
-            /tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png
-            /tools/card-templates/v3/assets/7d3bd60a8a37f66615f3d09b59a737872c17b38f12c37cd9e0f5c974a2ff1d95.png
-            /tools/card-templates/v3/assets/8ff0c764ab6c597981e10007c2419dac92e599ffad19c8cfa5aa11aa0e5ea730.png
-            /tools/card-templates/v3/assets/99c2b227aaf4944134d921b15972df1dd86daea06d4b5061d82650c902506c0e.png
-            /tools/card-templates/v3/assets/9ae3222556566aa207c83d5ab9b29fd380592aae0f63f99826c4a570b3bf4efb.png
-            /tools/card-templates/v3/assets/a2d65da2c8157913e85129ae26be9aad4fb026caefc9a564511b12b73a513b4c.png
-            /tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png
-            /tools/card-templates/v3/assets/a6ebacd65c7d83e220d014f93837b7ac6ca951cf22e278eb61855154fe658bf8.png
-            /tools/card-templates/v3/assets/ac2fb6c2659aa6a358808cc454e19908a3e6e1ef64d3fc8ecafea168ed79d852.png
-            /tools/card-templates/v3/assets/ba041d2ad3d92fc6f55471ac65087a8e3b7930846b2a3cba240563556e1d469e.png
-            /tools/card-templates/v3/assets/ba7fbdbcf36ed837c8b5edc668d3ac86556c9498b32f9ed3b6a1287ab41c403e.png
-            /tools/card-templates/v3/assets/bc076eeaeb6ebbe7590c68e4b63abe3c123a7fa958b092a46fe98d084b8b4ccc.png
-            /tools/card-templates/v3/assets/c438322ba642301ad4997bf0122ca7f9e1fa28205e2a37419c69ec3290d23f7c.png
-            /tools/card-templates/v3/assets/c53819a1baf0c6446f8b18801493095450f1b85c52d65a2a5a85a725a1e60433.png
-            /tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png
-            /tools/card-templates/v3/assets/e5556cff3be5b2fc9ee12a9268aed4397145efa0ddf16e31f6da5fda6cc7b29b.png
-            /tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png
-      - uses: actions/upload-artifact@v4
+            .github
+            tools/deployment
+      - uses: actions/cache/restore@v4
+        id: source-cache
         with:
-          name: personality-native-layers
-          retention-days: 1
-          compression-level: 0
-          path: tools/card-templates/v3/assets/
+          path: .git/objects
+          key: personality-level-source-20261105
+          restore-keys: source-git-v1-Linux-
+      - name: Materialize source
+        run: |
+          if [ -z '${{ steps.source-cache.outputs.cache-matched-key }}' ]; then
+            git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
+          fi
+          git -c checkout.workers=4 sparse-checkout disable
+          git diff --exit-code HEAD
+      - name: Install native renderer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Repair and verify source, then confirm an unchanged second pass
+        env:
+          OMP_NUM_THREADS: 1
+        run: |
+          /usr/bin/python3 tools/card-templates/v3/patch_personality_levels.py
+          git add public/assets/cards public/cards/catalog.js public/ultra-rare-profiles.js docs/card-type-audit-2026-10-25.json tools/card-templates/v3 tools/card-corrections
+          /usr/bin/python3 tools/card-templates/v3/patch_personality_levels.py
+          git diff --exit-code
+          if ! git diff --cached --quiet; then
+            git -c user.name='Card production' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Match Personality Level numerals and verify all printed numbers'
+            git push origin HEAD:work/personality-level-font-20261104
+          fi
+      - run: npm test

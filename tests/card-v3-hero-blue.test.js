@@ -22,8 +22,10 @@ test('all 73 V3 Heroes use the approved blue with unchanged native layout and lo
   const alpha=transparency.find(a=>a.id===c.id);assert.ok(alpha.alpha_identical);
   assert.deepEqual(row.hero_blue_revision,c);
   assert.equal(c.before_native_sha256,previous.after_native_sha256);
-  assert.equal(hash(c.native_source_path),c.after_native_sha256);
-  assert.equal(row.native_source_sha256,c.after_native_sha256);
+  const level=row.level_numeral_revision;
+  assert.equal(level?.before_native_sha256 ?? hash(c.native_source_path),c.after_native_sha256);
+  assert.equal(hash(c.native_source_path),row.native_source_sha256);
+  assert.equal(row.native_source_sha256,level?.after_native_sha256 ?? c.after_native_sha256);
   assert.ok(c.unrelated_native_elements_unchanged&&c.helper_idempotent&&c.assets_unchanged);
   const svg=fs.readFileSync(c.native_source_path,'utf8');
   assert.match(svg,/id="shared-category-material"[^]*?<[^>]*rect[^>]*fill="url\(#hero-reference-blue\)"/);
@@ -33,9 +35,12 @@ test('all 73 V3 Heroes use the approved blue with unchanged native layout and lo
    const clear=alpha.exports.find(a=>a.path===e.path);
    assert.equal(clear.sha256,e.after_sha256);assert.equal(clear.changed_clear_pixels,0);assert.ok(clear.fully_clear_pixels>0);
    assert.equal(e.before_sha256,previous.exports.find(p=>p.path===e.path).after_sha256);
-   assert.equal(hash(e.path),e.after_sha256);
-   assert.equal(row.exports.find(p=>p.path===e.path).after_sha256,e.after_sha256);
-   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   const levelExport=level?.exports.find(p=>p.path===e.path);
+   assert.equal(levelExport?.before_sha256 ?? hash(e.path),e.after_sha256);
+   const currentHash=levelExport?.after_sha256 ?? e.after_sha256;
+   assert.equal(hash(e.path),currentHash);
+   assert.equal(row.exports.find(p=>p.path===e.path).after_sha256,currentHash);
+   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+currentHash.slice(0,12));
    assert.equal(e.pixels_changed_outside_middle_paint,0);
    assert.ok(e.lossless_round_trip&&e.changed_pixels>0&&e.old_render_max_channel_difference<=4);
    const scale=e.size[0]/1060;

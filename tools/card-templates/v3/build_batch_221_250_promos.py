@@ -21,6 +21,7 @@ sys.path.insert(0,str(P/'scripts'))
 from title_fit_v3 import apply as title_fit
 from middle_label_v3 import apply as middle_label
 from personality_middle_v3 import apply as personality_middle
+from personality_levels import apply_level
 from tokui_backing import apply as tokui_backing
 from align_power_icon import align_power_icon
 from footer_spacing import change as footer_spacing
@@ -52,19 +53,19 @@ def rarity(r,count):
 def personality(r,c,retained):
  # Populate all eleven stage rows using the existing V3 right-edge/digit baseline.
  shared.personality(r,None,c)
- for ident in ['v3-level-number','v3-level-number-soft-shadow','concept-pur-number']:
-  value=c['level'] if 'level' in ident else c['pur']
-  if value<=3:
-   source=get(parse(current({1:158,2:159,3:160}[value])), 'v3-level-number' if 'level' in ident else 'concept-pur-number')
-   d=source.get('d')
-  else:
-   donor=parse(current(175))
-   d=get(donor,'concept-pur-number').get('d')
-  target=get(r,ident);target.set('d',d)
-  b=BoundsPen(None);parse_path(d,b);x0,y0,x1,y1=b.bounds
-  h,cx,cy=(106,100,71) if 'level' in ident else (65,110,908.5);sc=h/(y1-y0)
-  target.set('transform',f'translate({cx-(x0+x1)*sc/2} {cy-(y0+y1)*sc/2}) scale({sc})')
-  target.set('aria-label',str(value))
+ apply_level(r,c['level'])
+ value=c['pur']
+ if value<=3:
+  source=get(parse(current({1:158,2:159,3:160}[value])), 'concept-pur-number')
+  d=source.get('d')
+ else:
+  donor=parse(current(175))
+  d=get(donor,'concept-pur-number').get('d')
+ target=get(r,'concept-pur-number');target.set('d',d)
+ b=BoundsPen(None);parse_path(d,b);x0,y0,x1,y1=b.bounds
+ h,cx,cy=(65,110,908.5);sc=h/(y1-y0)
+ target.set('transform',f'translate({cx-(x0+x1)*sc/2} {cy-(y0+y1)*sc/2}) scale({sc})')
+ target.set('aria-label',str(value))
 
 def localized_patch(r,parent,n,placement,shape):
  # Native masks limit the generated repair to the confirmed small mismatch.

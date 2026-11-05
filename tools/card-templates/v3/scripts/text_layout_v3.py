@@ -3,6 +3,7 @@ from pathlib import Path
 from lxml import etree as E
 import hashlib, json
 from middle_label_v3 import label
+from personality_levels import validate_level
 
 REVISION = '2026-11-01-fixed-native-text-components'
 ANCHORS = {'card-title': (529.5, 79), 'card-category': (529.5, 908.5),
@@ -17,6 +18,7 @@ def geometry(element):
 
 
 def validate(root, bounds):
+    validate_level(root)
     if root.xpath('//*[local-name()="text"]'):
         raise ValueError('V3 type must use retained native outlined paths')
     category = root.xpath('//*[@id="card-category"]')[0]

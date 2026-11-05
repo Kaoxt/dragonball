@@ -21,10 +21,10 @@ test('the original 134 V3 Personalities retain short native labels and independe
  for(const check of checks){
   const card=cards.find(c=>c.id===check.id),row=json(check.audit_path).find(r=>r.id===check.id);
   assert.deepEqual(row.category_label_revision,check);
-  const finish=row.personality_finish_revision,blue=row.hero_blue_revision;
-  assert.equal(finish?.before_native_sha256 ?? blue?.before_native_sha256 ?? hash(check.native_source_path),check.after_native_sha256);
+  const finish=row.personality_finish_revision,blue=row.hero_blue_revision,level=row.level_numeral_revision;
+  assert.equal(finish?.before_native_sha256 ?? blue?.before_native_sha256 ?? level?.before_native_sha256 ?? hash(check.native_source_path),check.after_native_sha256);
   assert.equal(hash(check.native_source_path),row.native_source_sha256);
-  assert.equal(row.native_source_sha256,blue?.after_native_sha256 ?? finish?.after_native_sha256 ?? check.after_native_sha256);
+  assert.equal(row.native_source_sha256,level?.after_native_sha256 ?? blue?.after_native_sha256 ?? finish?.after_native_sha256 ?? check.after_native_sha256);
   assert.ok(check.unrelated_native_elements_unchanged&&check.helper_idempotent);
   assert.ok(['HERO','VILLAIN'].includes(check.label));
   assert.equal(check.before_label,check.label+' PERSONALITY');
@@ -35,11 +35,12 @@ test('the original 134 V3 Personalities retain short native labels and independe
   for(const a of row.assets)assert.equal(hash(a.path),a.sha256);
   assert.equal(check.exports.length,2);
   for(const e of check.exports){
+   const levelExport=level?.exports.find(r=>r.path===e.path);
    const blueExport=blue?.exports.find(r=>r.path===e.path);
    const later=finish?.exports.find(r=>r.path===e.path) ?? blueExport,current=row.exports.find(r=>r.path===e.path);
-   assert.equal(later?.before_sha256 ?? hash(e.path),e.after_sha256);
+   assert.equal(later?.before_sha256 ?? levelExport?.before_sha256 ?? hash(e.path),e.after_sha256);
    assert.equal(hash(e.path),current.after_sha256);
-   assert.equal(current.after_sha256,blueExport?.after_sha256 ?? later?.after_sha256 ?? e.after_sha256);
+   assert.equal(current.after_sha256,levelExport?.after_sha256 ?? blueExport?.after_sha256 ?? later?.after_sha256 ?? e.after_sha256);
    assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+current.after_sha256.slice(0,12));
    assert.ok(e.lossless_round_trip&&e.changed_pixels>0);
    assert.equal(e.pixels_changed_outside_category_ink_footprint,0);

@@ -21,7 +21,7 @@ test('Android 101–125 and all promos use verified V3 sources and lossless expo
   const c=catalog.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   const land=r.number==='P10',cx=land?741.5:529.5,cy=land?985.5:1409.5;
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
-  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
+  assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.level_numeral_revision?.before_native_sha256 ?? r.native_source_sha256);
   const svg=read(r.native_source_path);assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);assert.match(svg,/data-set="Android Saga"/);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
   assert.ok(r.rules.length<=(land?2:5));assert.equal(r.native_geometry.icons.length,r.power_icon?1:0);
@@ -39,7 +39,7 @@ test('Android 101–125 and all promos use verified V3 sources and lossless expo
   for(const e of r.exports){
    assert.equal(hash(e.path),e.after_sha256);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,e.field==='image'?(land?[1484,1060]:[1060,1484]):(land?[2968,2120]:[2120,2968]));assert.ok(e.lossless_round_trip);
-   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,e.after_sha256);assert.ok(verified.decoded_pixels_match_render);
+   const verified=check.exports.find(x=>x.path===e.path);assert.equal(verified.sha256,r.level_numeral_revision?.exports.find(record=>record.path===e.path)?.before_sha256 ?? e.after_sha256);assert.ok(verified.decoded_pixels_match_render);
   }
  }
 });
@@ -48,7 +48,8 @@ test('Android completion preserves original values, CRD mechanics and isolated a
  const reviews=json(base+'artwork-review.json'),checks=json(base+'render-verification.json'),crd=json(base+'crd-review.json');
  const retained=json(base+'retained-art-verification.json');assert.equal(retained.length,36);
  for(const r of retained){
-  assert.equal(r.final_native_sha256,rows.find(c=>c.number===r.number).native_source_sha256);
+  const row=rows.find(c=>c.number===r.number);
+  assert.equal(r.final_native_sha256,row.level_numeral_revision?.before_native_sha256 ?? row.native_source_sha256);
   assert.ok(r.retained_elements['card-illustration'].unchanged);
  }
  for(const id of ['mouth-expression-correction','mouth-correction-clip'])assert.ok(retained.find(c=>c.number===118).retained_elements[id].unchanged);
@@ -56,7 +57,8 @@ test('Android completion preserves original values, CRD mechanics and isolated a
  for(const r of reviews){
   assert.ok(r.source_reviewed&&r.display_reviewed&&r.download_reviewed);
   assert.equal(hash(r.original_scan),r.original_scan_sha256);assert.ok(r.observations.length>50);assert.ok(r.unresolved);
-  for(const e of r.exports)assert.equal(hash(e.path),e.sha256);
+  const level=rows.find(c=>c.id===r.id).level_numeral_revision;
+  for(const e of r.exports)assert.equal(level?.exports.find(record=>record.path===e.path)?.before_sha256 ?? hash(e.path),e.sha256);
  }
  for(const n of [102,106,111,114,115]){
   const p=checks.find(r=>r.number===n).localized_patch;
