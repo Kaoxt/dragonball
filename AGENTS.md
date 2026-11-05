@@ -1,3 +1,7 @@
+## Personality Level numerals
+
+Use the retained Level paths and placement in `tools/card-templates/v3/assets/text/personality-levels.json` for both the visible numeral and its shadow. Cell Saga Goku #135 is the Level 4 reference. Verify the Level and printed card number against the card's own source record. For the 23 revised cards, follow `level_numeral_revision` in their batch audits for the image and source hashes.
+
 ## Cell Games emblem — November 4, 2026
 
 All 95 published Cell Games cards use the approved green wreath/gray hexagon/black C with the Android emblem’s satin finish. Read `tools/card-corrections/v3-cell-games-logo/README.md`; reuse its retained asset and clipped native group for future cards. Keep portrait/landscape visible centers and width unchanged. Historical production audits remain immutable; current source/export hashes follow `release.json`. Five artwork-held cards remain unpublished.

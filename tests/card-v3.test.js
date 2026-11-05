@@ -107,7 +107,9 @@ test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs
  assert.equal(checks.length,37);assert.equal(artwork.length,37);
  const donor=fs.readFileSync(path.join(root,audit.find(r=>r.number===175).native_source_path),'utf8');
  const pathData=(svg,id)=>svg.match(new RegExp(`<[^>]*id="${id}"[^>]*>`))[0].match(/\sd="([^"]+)"/)[1];
- const four=pathData(donor,'concept-pur-number');
+ const purFour=pathData(donor,'concept-pur-number');
+ const reference=fs.readFileSync(path.join(root,'tools/card-templates/v3/cell-101-150/cell-135-goku.svg'),'utf8');
+ const levelFour=pathData(reference,'v3-level-number');
  for(const row of rows){
   const c=cards.find(c=>c.id===row.id),check=checks.find(c=>c.number===row.number);
   assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
@@ -116,7 +118,11 @@ test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs
   const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);assert.equal(hash(path.join(root,a.original_scan)),a.original_scan_sha256);
   const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes(`data-star-count="${c.rarity_stars}"`));
-  if(c.level===4){assert.equal(pathData(svg,'v3-level-number'),four);assert.equal(pathData(svg,'v3-level-number-soft-shadow'),four);assert.equal(pathData(svg,'concept-pur-number'),four);}
+  if(c.level===4){
+   assert.equal(pathData(svg,'v3-level-number'),levelFour);
+   assert.equal(pathData(svg,'v3-level-number-soft-shadow'),levelFour);
+   assert.equal(pathData(svg,'concept-pur-number'),purFour);
+  }
  }
  const rules=n=>rows.find(r=>r.number===n).rules.map(x=>x.text).join(' ');
  assert.match(rules(228),/^\(Limit 1 per deck\.\)/);

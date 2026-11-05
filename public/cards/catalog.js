@@ -3681,11 +3681,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=47e2ec8af883",
+    "image": "/assets/cards/saiyan-246-saibaimen.webp?v=ed2d532e737c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-246-saibaimen.webp?v=ab7511a86488",
+    "downloadImage": "/assets/cards/downloads/saiyan-246-saibaimen.webp?v=ce814e0704e1",
     "templateVersion": 3
   },
   {
@@ -3760,11 +3760,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=9b188010de06",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=66062b30e213",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=057326fd0cf3",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=ff5b9b1a7455",
     "templateVersion": 3
   },
   {
@@ -3775,11 +3775,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=b39e51fe6070",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=4e8f4edd5b43",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=74211d4bc072",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=8926d3c0bb23",
     "templateVersion": 3
   },
   {
@@ -3790,11 +3790,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=4784187d7155",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=ae94ea7e6589",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=e6ad86971f63",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=58fec4413146",
     "templateVersion": 3
   },
   {
@@ -3805,11 +3805,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=80c0108517a6",
+    "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=04d6f766bb85",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp?v=3e3f372eba5f",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P4-raditz-silver-variant.webp?v=3810626f185a",
     "templateVersion": 3
   },
   {
@@ -3820,11 +3820,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=c3097e79033c",
+    "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=b1ef8cba521d",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=c85cb80af858",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P5-gohan-silver-variant.webp?v=21932ff41ed7",
     "templateVersion": 3
   },
   {
@@ -3835,11 +3835,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=d724ec303602",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=64dd0a9863e6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=2a8130c9f9f4",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=91121db37cef",
     "templateVersion": 3
   },
   {
@@ -3850,11 +3850,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=e555f2f92b83",
+    "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=894456232d38",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp?v=1d47b7685a02",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P7-nappa-silver-variant.webp?v=22ce5612b57e",
     "templateVersion": 3
   },
   {
@@ -5574,8 +5574,8 @@ export const catalog = [
       125000,
       0
     ],
-    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=19410344bb2e",
-    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=5ab6a8ee1d9d",
+    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=bb061ddd018f",
+    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=c180a78c0020",
     "templateVersion": 3
   },
   {
@@ -5607,8 +5607,8 @@ export const catalog = [
       95000,
       0
     ],
-    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=a798a07ebe7c",
-    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=2525a81eee29",
+    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=d4af694e52f7",
+    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=5656590877cd",
     "templateVersion": 3
   },
   {
@@ -5640,8 +5640,8 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=7f20359e0c1d",
-    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=c5b0c101624c",
+    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=8cd6c6a3dcf4",
+    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=2665a4b92068",
     "templateVersion": 3
   },
   {
@@ -5673,8 +5673,8 @@ export const catalog = [
       20000,
       0
     ],
-    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=0b09f84f1010",
-    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=4aeadda04cb6",
+    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=a9a71d39f33f",
+    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=3beea1b0a223",
     "templateVersion": 3
   },
   {
@@ -5706,8 +5706,8 @@ export const catalog = [
       480000,
       0
     ],
-    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=c74a77d25079",
-    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=335167a062cc",
+    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=c0e19ca4db57",
+    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=14ab53fc7369",
     "templateVersion": 3
   },
   {
@@ -5739,8 +5739,8 @@ export const catalog = [
       120000,
       0
     ],
-    "image": "/assets/cards/frieza-094-piccolo.webp?v=13dcbf182a67",
-    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=b4024815ea98",
+    "image": "/assets/cards/frieza-094-piccolo.webp?v=fb4f970054a4",
+    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=73feb8455790",
     "templateVersion": 3
   },
   {
@@ -5772,8 +5772,8 @@ export const catalog = [
       110000,
       0
     ],
-    "image": "/assets/cards/frieza-095-gohan.webp?v=7e4d99366e6d",
-    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=eb8c48c3fdcb",
+    "image": "/assets/cards/frieza-095-gohan.webp?v=8021785a62fc",
+    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=6dbd77742338",
     "templateVersion": 3
   },
   {
@@ -6362,8 +6362,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=2cff19540842",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=4273a7eeffc4",
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=3869fe888aff",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=48ded9594e3c",
     "templateVersion": 3
   },
   {
@@ -8244,11 +8244,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-100-frieza-the-revived.webp?v=1b8b0b73502f",
+    "image": "/assets/cards/trunks-100-frieza-the-revived.webp?v=f6412062875c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-100",
-    "downloadImage": "/assets/cards/downloads/trunks-100-frieza-the-revived.webp?v=f1c51df46f2a",
+    "downloadImage": "/assets/cards/downloads/trunks-100-frieza-the-revived.webp?v=66455f60287b",
     "rules": "When defending in Combat, after taking life-card damage from an energy attack, place the top card of your discard pile at the bottom of your Life Deck.",
     "rarity": "Uncommon",
     "level": 4,
@@ -8277,11 +8277,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-101-garlic-jr-the-void-master.webp?v=1c6add84f733",
+    "image": "/assets/cards/trunks-101-garlic-jr-the-void-master.webp?v=10b44f390213",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-101",
-    "downloadImage": "/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp?v=22b4531a5fba",
+    "downloadImage": "/assets/cards/downloads/trunks-101-garlic-jr-the-void-master.webp?v=8a32bba0579b",
     "rules": "Allies' physical attacks and Personality powers have no effect on Garlic Jr. in Combat.",
     "rarity": "Uncommon",
     "level": 4,
@@ -8310,11 +8310,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-102-spice-the-punisher.webp?v=7ad73cec0ffd",
+    "image": "/assets/cards/trunks-102-spice-the-punisher.webp?v=90f259d115df",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-102",
-    "downloadImage": "/assets/cards/downloads/trunks-102-spice-the-punisher.webp?v=1a28421b46e7",
+    "downloadImage": "/assets/cards/downloads/trunks-102-spice-the-punisher.webp?v=9a3095792721",
     "rules": "Your successful physical attacks deal +1 life card of damage.",
     "rarity": "Uncommon",
     "level": 4,
@@ -8343,11 +8343,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-103-vinegar-the-attacker.webp?v=e5f0d4fa8af0",
+    "image": "/assets/cards/trunks-103-vinegar-the-attacker.webp?v=69eeb4001614",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-103",
-    "downloadImage": "/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp?v=8633c9af44d0",
+    "downloadImage": "/assets/cards/downloads/trunks-103-vinegar-the-attacker.webp?v=c8fad0bab0e2",
     "rules": "After each successful energy attack you perform, place the bottom card of your discard pile at the bottom of your Life Deck.",
     "rarity": "Uncommon",
     "level": 4,
@@ -13226,8 +13226,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=9f1e3458b9e1",
-    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=ee6661f27bad",
+    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=24d22893de7c",
+    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=94053ed6e311",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-120",
@@ -13292,8 +13292,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-122-yajirobe.webp?v=c187424ed593",
-    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=47e359cf6a4c",
+    "image": "/assets/cards/android-122-yajirobe.webp?v=146e720baea0",
+    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=8995d6a7bed8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-122",
@@ -13325,8 +13325,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-123-yamcha.webp?v=ee6db5c2a0e6",
-    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=afc082879563",
+    "image": "/assets/cards/android-123-yamcha.webp?v=e3a84dec1fe4",
+    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=a7e91a3bfab9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-123",

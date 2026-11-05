@@ -6517,7 +6517,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-089-vegeta-on-namek.svg",
-    "native_source_sha256": "bc83d0c4ccb6f531062bfeae37ad8bd1d99d643c9b65151491ee0a6cfd0203ca",
+    "native_source_sha256": "2234a56d55b6d4dfe0cc38f08f38c7621e7cd5f08c83606962bfad9a64d860ba",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -6645,9 +6645,9 @@
           69.0
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -6731,7 +6731,7 @@
         "path": "public/assets/cards/frieza-089-vegeta-on-namek.webp",
         "before_url": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=182a7f39dfd4",
         "before_sha256": "182a7f39dfd4a7f7e19113a2fc410814e6ae2760f441c29b2163b2a7d55d3632",
-        "after_sha256": "19410344bb2e28a4929210e59410f9c28e0148763c5b20545a17f3963902793f",
+        "after_sha256": "bb061ddd018f228f0b5785ed123d7b42ec918dc0fc35e617d3b9e53e92f4402a",
         "size": [
           1060,
           1484
@@ -6743,7 +6743,7 @@
         "path": "public/assets/cards/downloads/frieza-089-vegeta-on-namek.webp",
         "before_url": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=1adb33975e05",
         "before_sha256": "1adb33975e05ba3f48c04d5d88763e81c236c0054fbd34297fa8b9e9349d7392",
-        "after_sha256": "5ab6a8ee1d9d48918014cd2276f2969689bdddb1592031590d55aaf0259a717c",
+        "after_sha256": "c180a78c00203b638ac0affc80f3a58ef179096b3c9e3072a916573f87cb5ed1",
         "size": [
           2120,
           2968
@@ -6959,6 +6959,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "bc83d0c4ccb6f531062bfeae37ad8bd1d99d643c9b65151491ee0a6cfd0203ca",
+      "after_native_sha256": "2234a56d55b6d4dfe0cc38f08f38c7621e7cd5f08c83606962bfad9a64d860ba",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-089-vegeta-on-namek.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "19410344bb2e28a4929210e59410f9c28e0148763c5b20545a17f3963902793f",
+          "after_sha256": "bb061ddd018f228f0b5785ed123d7b42ec918dc0fc35e617d3b9e53e92f4402a",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-089-vegeta-on-namek.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "5ab6a8ee1d9d48918014cd2276f2969689bdddb1592031590d55aaf0259a717c",
+          "after_sha256": "c180a78c00203b638ac0affc80f3a58ef179096b3c9e3072a916573f87cb5ed1",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -6985,7 +7031,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-090-krillin-on-namek.svg",
-    "native_source_sha256": "75f9ba10085e854bd21e41180aea7e297a91d4fd1aab6ff8522774c2ecd647b2",
+    "native_source_sha256": "4a1784cb808281927088cd54212b63b9d1ad16b48e118edd820c9d30a12d5143",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -7118,9 +7164,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -7210,7 +7256,7 @@
         "path": "public/assets/cards/frieza-090-krillin-on-namek.webp",
         "before_url": "/assets/cards/frieza-090-krillin-on-namek.webp?v=020855a3f561",
         "before_sha256": "020855a3f56145a85281d493d91679203517ada4c2c620a071a13b9f58131a1b",
-        "after_sha256": "a798a07ebe7cc392068b3e1c4baebe0fe1693b43f7062625dbc03442de30bcee",
+        "after_sha256": "d4af694e52f73d1dacee2a1375aeb1ca55b85ba9f2e68ce6562f8aebbf5b9b76",
         "size": [
           1060,
           1484
@@ -7222,7 +7268,7 @@
         "path": "public/assets/cards/downloads/frieza-090-krillin-on-namek.webp",
         "before_url": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=300125284ebf",
         "before_sha256": "300125284ebf2098d48a0deddec14d076188a64c8b58926edf7c9042bc65d3f9",
-        "after_sha256": "2525a81eee2933d571c3c9e96cd9736c528fd028dd79ae1de16e576739255ee8",
+        "after_sha256": "5656590877cdaae2435b164f1933032716e8cd0cea9c75535743ba8a0be02a85",
         "size": [
           2120,
           2968
@@ -7416,6 +7462,52 @@
           "old_render_max_channel_difference": 2
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "75f9ba10085e854bd21e41180aea7e297a91d4fd1aab6ff8522774c2ecd647b2",
+      "after_native_sha256": "4a1784cb808281927088cd54212b63b9d1ad16b48e118edd820c9d30a12d5143",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-090-krillin-on-namek.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "a798a07ebe7cc392068b3e1c4baebe0fe1693b43f7062625dbc03442de30bcee",
+          "after_sha256": "d4af694e52f73d1dacee2a1375aeb1ca55b85ba9f2e68ce6562f8aebbf5b9b76",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-090-krillin-on-namek.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "2525a81eee2933d571c3c9e96cd9736c528fd028dd79ae1de16e576739255ee8",
+          "after_sha256": "5656590877cdaae2435b164f1933032716e8cd0cea9c75535743ba8a0be02a85",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -7442,7 +7534,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-091-nappa-restored.svg",
-    "native_source_sha256": "8fa4553757bc81843f3ae523070611030d1166e50b02cc51751b006ecc1a2539",
+    "native_source_sha256": "4c8cd7170025baa1b32b46f3711f331a5c472b790ba9df5fa9d6560445aab4f8",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -7581,9 +7673,9 @@
           69.0
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -7679,7 +7771,7 @@
         "path": "public/assets/cards/frieza-091-nappa-restored.webp",
         "before_url": "/assets/cards/frieza-091-nappa-restored.webp?v=6676f986585c",
         "before_sha256": "6676f986585ccdcc29dea16b013f5bbe994e3a86f1090f31c57abfe96c9379fc",
-        "after_sha256": "7f20359e0c1dd5ae41243a801df4cfdf621051f0dedb640f79e6b67bac5b1ab5",
+        "after_sha256": "8cd6c6a3dcf46c87f9b60518ee1e9b7f283fc360872372e2be7f4ae899fd9689",
         "size": [
           1060,
           1484
@@ -7691,7 +7783,7 @@
         "path": "public/assets/cards/downloads/frieza-091-nappa-restored.webp",
         "before_url": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=e90a71c6f475",
         "before_sha256": "e90a71c6f4759c9401a5daa8687c4f8a02123443a3b9410ede510cdfff1a9512",
-        "after_sha256": "c5b0c101624cf8dbb28ddd4edb9e80f5cd16c0f52db32b60ea987e66cb9662f8",
+        "after_sha256": "2665a4b92068b06f24bfe60b589319866f1467d095863a4c06ed5869212cb5b9",
         "size": [
           2120,
           2968
@@ -7907,6 +7999,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "8fa4553757bc81843f3ae523070611030d1166e50b02cc51751b006ecc1a2539",
+      "after_native_sha256": "4c8cd7170025baa1b32b46f3711f331a5c472b790ba9df5fa9d6560445aab4f8",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-091-nappa-restored.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7f20359e0c1dd5ae41243a801df4cfdf621051f0dedb640f79e6b67bac5b1ab5",
+          "after_sha256": "8cd6c6a3dcf46c87f9b60518ee1e9b7f283fc360872372e2be7f4ae899fd9689",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-091-nappa-restored.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "c5b0c101624cf8dbb28ddd4edb9e80f5cd16c0f52db32b60ea987e66cb9662f8",
+          "after_sha256": "2665a4b92068b06f24bfe60b589319866f1467d095863a4c06ed5869212cb5b9",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -7933,7 +8071,7 @@
     "family": "VILLAIN PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-092-raditz-restored.svg",
-    "native_source_sha256": "d72fe05659ea045e8dcd53dea27b63d0bdbaa1394b7c49ff56dd46eea04eb5aa",
+    "native_source_sha256": "19584221f3db7639362ff5988f680cdd60b9f4f564b32bbed0439f8e087363bc",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -8066,9 +8204,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -8158,7 +8296,7 @@
         "path": "public/assets/cards/frieza-092-raditz-restored.webp",
         "before_url": "/assets/cards/frieza-092-raditz-restored.webp?v=f6b6c42567c7",
         "before_sha256": "f6b6c42567c78c6c301067b2efbea674f4fc9e10e4a17aac0af3a47e8248964b",
-        "after_sha256": "0b09f84f10106a24802b8581a3a9fd29e8abfbc9e90458ddecb4deae37f4efb4",
+        "after_sha256": "a9a71d39f33f5305e96fa5dfc2775945deaa1858ad6806a2322b92f9a42e5508",
         "size": [
           1060,
           1484
@@ -8170,7 +8308,7 @@
         "path": "public/assets/cards/downloads/frieza-092-raditz-restored.webp",
         "before_url": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=7d76c7d87841",
         "before_sha256": "7d76c7d87841f996909e4e83375e58cd3350924779568173036bf9eee8cba18e",
-        "after_sha256": "4aeadda04cb66bd836edfd1cf7877fa3d71ebc96fd7557b82c3e72806d5c0368",
+        "after_sha256": "3beea1b0a223b065b2f412f7a46d3f4eb6fe1a7f7a2d719483a64d99d11e6849",
         "size": [
           2120,
           2968
@@ -8386,6 +8524,52 @@
           ]
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "d72fe05659ea045e8dcd53dea27b63d0bdbaa1394b7c49ff56dd46eea04eb5aa",
+      "after_native_sha256": "19584221f3db7639362ff5988f680cdd60b9f4f564b32bbed0439f8e087363bc",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-092-raditz-restored.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "0b09f84f10106a24802b8581a3a9fd29e8abfbc9e90458ddecb4deae37f4efb4",
+          "after_sha256": "a9a71d39f33f5305e96fa5dfc2775945deaa1858ad6806a2322b92f9a42e5508",
+          "changed_pixels": 3531,
+          "changed_pixel_bounds": [
+            56,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-092-raditz-restored.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "4aeadda04cb66bd836edfd1cf7877fa3d71ebc96fd7557b82c3e72806d5c0368",
+          "after_sha256": "3beea1b0a223b065b2f412f7a46d3f4eb6fe1a7f7a2d719483a64d99d11e6849",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -8412,7 +8596,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-093-goku-on-namek.svg",
-    "native_source_sha256": "37cc6d4bec1470237d032d7cdcda5ae1f99572dbedbbb8dc865294a69669565c",
+    "native_source_sha256": "72e1a15f6bb4232cbdf691fd0af6b9ae51628660241448f1bfb32b5ddea57276",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -8545,9 +8729,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -8637,7 +8821,7 @@
         "path": "public/assets/cards/frieza-093-goku-on-namek.webp",
         "before_url": "/assets/cards/frieza-093-goku-on-namek.webp?v=0771d2d1ef79",
         "before_sha256": "0771d2d1ef7965f3d37c62c4614d4c5170523af49a603f541f59168c6f2fb36f",
-        "after_sha256": "c74a77d2507977ee9919d638c497a08c4a481560566b64cea0184f295c305abb",
+        "after_sha256": "c0e19ca4db57a7615990b62ec8241e3cc898ed59c35f22b2f676551221309d43",
         "size": [
           1060,
           1484
@@ -8649,7 +8833,7 @@
         "path": "public/assets/cards/downloads/frieza-093-goku-on-namek.webp",
         "before_url": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=ca2ddea521dd",
         "before_sha256": "ca2ddea521dd938d6a073b0c321685767e19125526b0dac1a6b770b3de7ec64b",
-        "after_sha256": "335167a062cc6d87bde552152140f782f54a86197a91cfe7b3909cc7b28f1290",
+        "after_sha256": "14ab53fc7369821378d38d8b7cbbcbc4c8b3d84613ef27c7772fef10ee746392",
         "size": [
           2120,
           2968
@@ -8843,6 +9027,52 @@
           "old_render_max_channel_difference": 2
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "37cc6d4bec1470237d032d7cdcda5ae1f99572dbedbbb8dc865294a69669565c",
+      "after_native_sha256": "72e1a15f6bb4232cbdf691fd0af6b9ae51628660241448f1bfb32b5ddea57276",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-093-goku-on-namek.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "c74a77d2507977ee9919d638c497a08c4a481560566b64cea0184f295c305abb",
+          "after_sha256": "c0e19ca4db57a7615990b62ec8241e3cc898ed59c35f22b2f676551221309d43",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-093-goku-on-namek.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "335167a062cc6d87bde552152140f782f54a86197a91cfe7b3909cc7b28f1290",
+          "after_sha256": "14ab53fc7369821378d38d8b7cbbcbc4c8b3d84613ef27c7772fef10ee746392",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -8869,7 +9099,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-094-piccolo.svg",
-    "native_source_sha256": "024c0f87834315b2b18720e88cef2ef84066f3ea63688c222d250600cf4926b8",
+    "native_source_sha256": "201b6d01eaddd10b85f8736f4bc0d42b0dfdcf219538f0115308479d3dab87d1",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9002,9 +9232,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -9094,7 +9324,7 @@
         "path": "public/assets/cards/frieza-094-piccolo.webp",
         "before_url": "/assets/cards/frieza-094-piccolo.webp?v=6842ebc5f60d",
         "before_sha256": "6842ebc5f60d2b03aa33618695d554fc9391be195c95ac96a2df6794acddc0f5",
-        "after_sha256": "13dcbf182a677cac29372e4adf1639f277ad7c8876dc2b54c1544905c43804c9",
+        "after_sha256": "fb4f970054a4db4a1f644c8c5a19369781029abb64e1cca19808a60385d3ac51",
         "size": [
           1060,
           1484
@@ -9106,7 +9336,7 @@
         "path": "public/assets/cards/downloads/frieza-094-piccolo.webp",
         "before_url": "/assets/cards/downloads/frieza-094-piccolo.webp?v=bcac1ed390ac",
         "before_sha256": "bcac1ed390ac70e57ab565dbe145a77b53e63920f0f34ed3ea9fef7f26f6ef75",
-        "after_sha256": "b4024815ea98b07b8acec4747660edfed62c344330ca71670e76a9c82cd50641",
+        "after_sha256": "73feb84557904b920e9c3da10e28c76ec4f37b849bd67c940be18bb26e5003ab",
         "size": [
           2120,
           2968
@@ -9300,6 +9530,52 @@
           "old_render_max_channel_difference": 2
         }
       ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "024c0f87834315b2b18720e88cef2ef84066f3ea63688c222d250600cf4926b8",
+      "after_native_sha256": "201b6d01eaddd10b85f8736f4bc0d42b0dfdcf219538f0115308479d3dab87d1",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-094-piccolo.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "13dcbf182a677cac29372e4adf1639f277ad7c8876dc2b54c1544905c43804c9",
+          "after_sha256": "fb4f970054a4db4a1f644c8c5a19369781029abb64e1cca19808a60385d3ac51",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-094-piccolo.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "b4024815ea98b07b8acec4747660edfed62c344330ca71670e76a9c82cd50641",
+          "after_sha256": "73feb84557904b920e9c3da10e28c76ec4f37b849bd67c940be18bb26e5003ab",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        }
+      ]
     }
   },
   {
@@ -9326,7 +9602,7 @@
     "family": "HERO PERSONALITY",
     "high_tech": false,
     "native_source_path": "tools/card-templates/v3/frieza-061-100/frieza-095-gohan.svg",
-    "native_source_sha256": "6b6b9e29b99be1935c1568a6e6463c7438d26c78f4c42d6bee4d9919084dbb94",
+    "native_source_sha256": "a934685bc3f0ecc5b7df42d11da781f7f39ef36eff0ef3445df410453e384ad0",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -9453,9 +9729,9 @@
           57.5574
         ],
         "v3-level-number": [
-          59.8561,
+          59.3182,
           25.15,
-          86.2879,
+          87.3636,
           95.4
         ],
         "card-category": [
@@ -9539,7 +9815,7 @@
         "path": "public/assets/cards/frieza-095-gohan.webp",
         "before_url": "/assets/cards/frieza-095-gohan.webp?v=dda913823971",
         "before_sha256": "dda913823971bb077ca6745cce7835d2d3fec34cfdf9164faa3557438672a88b",
-        "after_sha256": "7e4d99366e6df4c771b71d2b95cd772de8fb94b54dfe80b35fb84b5180018b60",
+        "after_sha256": "8021785a62fc43a3f3401f219e299134d1bcbe093ca87f2851c7e6d3512c6127",
         "size": [
           1060,
           1484
@@ -9551,7 +9827,7 @@
         "path": "public/assets/cards/downloads/frieza-095-gohan.webp",
         "before_url": "/assets/cards/downloads/frieza-095-gohan.webp?v=3631c12269ef",
         "before_sha256": "3631c12269ef920f195c2a62546d4996ea5c5cb878b672479039f49f3f28a7a3",
-        "after_sha256": "eb8c48c3fdcb4add5fa438678e152b3c56b0e014aeaa6cd52b298388f7298f7a",
+        "after_sha256": "6dbd777423384fa069b917afb883996a41a926bb504266eb61e572f82ac54d19",
         "size": [
           2120,
           2968
@@ -9743,6 +10019,52 @@
           "pixels_changed_outside_middle_paint": 0,
           "lossless_round_trip": true,
           "old_render_max_channel_difference": 2
+        }
+      ]
+    },
+    "level_numeral_revision": {
+      "before_native_sha256": "6b6b9e29b99be1935c1568a6e6463c7438d26c78f4c42d6bee4d9919084dbb94",
+      "after_native_sha256": "a934685bc3f0ecc5b7df42d11da781f7f39ef36eff0ef3445df410453e384ad0",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-095-gohan.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "before_sha256": "7e4d99366e6df4c771b71d2b95cd772de8fb94b54dfe80b35fb84b5180018b60",
+          "after_sha256": "8021785a62fc43a3f3401f219e299134d1bcbe093ca87f2851c7e6d3512c6127",
+          "changed_pixels": 3529,
+          "changed_pixel_bounds": [
+            57,
+            22,
+            150,
+            124
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-095-gohan.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "before_sha256": "eb8c48c3fdcb4add5fa438678e152b3c56b0e014aeaa6cd52b298388f7298f7a",
+          "after_sha256": "6dbd777423384fa069b917afb883996a41a926bb504266eb61e572f82ac54d19",
+          "changed_pixels": 7584,
+          "changed_pixel_bounds": [
+            118,
+            50,
+            294,
+            242
+          ],
+          "old_render_max_channel_difference": 0,
+          "pixels_changed_outside_level_ink": 0,
+          "lossless_round_trip": true
         }
       ]
     }

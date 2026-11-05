@@ -3354,7 +3354,7 @@
     },
     {
       "id": "saiyan-246-saibaimen",
-      "image": "/assets/cards/saiyan-246-saibaimen.webp?v=47e2ec8af883",
+      "image": "/assets/cards/saiyan-246-saibaimen.webp?v=ed2d532e737c",
       "localized_frame_revision": {
         "before_image": "/assets/cards/saiyan-246-saibaimen.webp?v=9ee8005543af",
         "after_image": "/assets/cards/saiyan-246-saibaimen.webp?v=d5c651cb833d",
@@ -3420,7 +3420,7 @@
     },
     {
       "id": "saiyan-0P1-goku-silver-variant",
-      "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=9b188010de06",
+      "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=66062b30e213",
       "footer_spacing_revision": {
         "before_image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=d0d90e293838",
         "after_image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=7bb42c4d5b3d",
@@ -3440,7 +3440,7 @@
     },
     {
       "id": "saiyan-0P2-piccolo-silver-variant",
-      "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=b39e51fe6070",
+      "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=4e8f4edd5b43",
       "footer_spacing_revision": {
         "before_image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=d54514a91842",
         "after_image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=d8daeef4dc48",
@@ -3460,7 +3460,7 @@
     },
     {
       "id": "saiyan-0P3-vegeta-silver-variant",
-      "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=4784187d7155",
+      "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=ae94ea7e6589",
       "localized_frame_revision": {
         "before_image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=ba210a19052b",
         "after_image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=a9a7b7208963",
@@ -3486,7 +3486,7 @@
     },
     {
       "id": "saiyan-0P4-raditz-silver-variant",
-      "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=80c0108517a6",
+      "image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=04d6f766bb85",
       "localized_frame_revision": {
         "before_image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=8ae7c17aa8f8",
         "after_image": "/assets/cards/saiyan-0P4-raditz-silver-variant.webp?v=bc4af6a24c52",
@@ -3512,7 +3512,7 @@
     },
     {
       "id": "saiyan-0P5-gohan-silver-variant",
-      "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=c3097e79033c",
+      "image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=b1ef8cba521d",
       "footer_spacing_revision": {
         "before_image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=89103d46b02d",
         "after_image": "/assets/cards/saiyan-0P5-gohan-silver-variant.webp?v=414f2a7c4f07",
@@ -3532,7 +3532,7 @@
     },
     {
       "id": "saiyan-0P6-krillin-silver-variant",
-      "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=d724ec303602",
+      "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=64dd0a9863e6",
       "footer_spacing_revision": {
         "before_image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=d4b4cf2e7ff5",
         "after_image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=91829f9f38d3",
@@ -3552,7 +3552,7 @@
     },
     {
       "id": "saiyan-0P7-nappa-silver-variant",
-      "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=e555f2f92b83",
+      "image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=894456232d38",
       "localized_frame_revision": {
         "before_image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=1e04d729bac0",
         "after_image": "/assets/cards/saiyan-0P7-nappa-silver-variant.webp?v=f60f61f43ea6",
@@ -3600,9 +3600,9 @@
     "OCR is a search aid; ambiguous matches were reviewed against originals and supplied CRD.",
     "2026-10-27: Refreshed the 257 Saiyan image URLs after the footer-emblem alignment. The prior wording reviews remain valid: decoded image pixels outside the emblem footprint are unchanged for every card. See docs/set-footer-alignment-verification.json and docs/set-footer-logo-alignment.md.",
     "2026-10-28: Refreshed 26 Saiyan Personality image revisions after category typography normalization. Existing wording reviews remain valid: all decoded pixels outside the old/new category lettering footprints, including every rules pixel, are unchanged. See tools/card-corrections/personality-category-2026-10-28/audit.json.",
-    "2026-10-30: Refreshed the 50 Saiyan 001\u2013050 image review URLs for the approved V3 release. Final outlined rules were reviewed for current terminology; native wording, measured typography, exact export hashes and card-by-card visual review evidence are retained in tools/card-corrections/v3-saiyan-001-050/. This is a complete template migration, not a claim that the old rules pixels were unchanged. Existing unresolved semantic references remain unchanged.",
-    "2026-10-30: Refreshed Saiyan 051\u2013100 image review URLs after native V3 migration. Original scans, Expanded CRD, corrected #91 energy attack, approved Stops wording, final art corrections and measured native/export evidence are retained in tools/card-corrections/v3-saiyan-051-100/. Existing unresolved semantic rulings remain unchanged.",
-    "2026-10-31: Refreshed Saiyan 101\u2013150 image-review URLs after native V3 migration. All 50 actual original scans, current Expanded CRD, individual visual findings, localized edge corrections and native/export measurements are retained in tools/card-corrections/v3-saiyan-101-150/. #105 keeps banishment as an attack cost; continuous drill modifiers and actual blocks retain distinct icons. Existing unresolved semantic rulings remain unchanged."
+    "2026-10-30: Refreshed the 50 Saiyan 001–050 image review URLs for the approved V3 release. Final outlined rules were reviewed for current terminology; native wording, measured typography, exact export hashes and card-by-card visual review evidence are retained in tools/card-corrections/v3-saiyan-001-050/. This is a complete template migration, not a claim that the old rules pixels were unchanged. Existing unresolved semantic references remain unchanged.",
+    "2026-10-30: Refreshed Saiyan 051–100 image review URLs after native V3 migration. Original scans, Expanded CRD, corrected #91 energy attack, approved Stops wording, final art corrections and measured native/export evidence are retained in tools/card-corrections/v3-saiyan-051-100/. Existing unresolved semantic rulings remain unchanged.",
+    "2026-10-31: Refreshed Saiyan 101–150 image-review URLs after native V3 migration. All 50 actual original scans, current Expanded CRD, individual visual findings, localized edge corrections and native/export measurements are retained in tools/card-corrections/v3-saiyan-101-150/. #105 keeps banishment as an attack cost; continuous drill modifiers and actual blocks retain distinct icons. Existing unresolved semantic rulings remain unchanged."
   ],
   "title_only_revision": "2026-10-28: image references refreshed after verified title-only updates; all power-text pixels and wording unchanged.",
   "brighter_frame_revision_2026_10_31": {
