@@ -49,7 +49,7 @@ test('physical card corners stay circular in both orientations and depth scales 
     const short = Math.min(displayedWidth,displayedHeight);
     assert.ok(Math.abs(displayedWidth * radiusX / 100 - short * .05) < 1e-9);
     assert.ok(Math.abs(displayedHeight * radiusY / 100 - short * .05) < 1e-9);
-    assert.ok(Math.abs(depth - short * .011) < 1e-9);
+    assert.ok(Math.abs(depth - short * .0125) < 1e-9);
     assert.ok(depth < short * .015, 'thinner than the approved initial preview');
   }
 });

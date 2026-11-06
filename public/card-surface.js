@@ -21,11 +21,11 @@ export function finishForImage(source, origin = 'https://dragonballocg.com') {
 }
 
 // The approved reference has circular corners at 5% of the short edge.
-// The 1.1% stock depth is slightly thinner than the 1.5% preview.
+// The 1.25% stock depth adds a little body while staying below the 1.5% preview.
 export function cardGeometry(width, height, displayedWidth) {
   const short = Math.min(width, height);
   return {radiusX: 5 * short / width, radiusY: 5 * short / height,
-    depth: Math.max(0, displayedWidth) * short / width * .011};
+    depth: Math.max(0, displayedWidth) * short / width * .0125};
 }
 
 export function setupCardSurface(image) {
