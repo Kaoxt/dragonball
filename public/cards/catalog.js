@@ -17240,8 +17240,8 @@ export const catalog = [
     "rules": "POWER: If your Main Personality's power rating exceeds your opponent's, they discard their Life Deck's top 3 cards. Otherwise, raise your Main Personality to its highest stage. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-030-strength-training.webp?v=ababa9961ccb",
-    "downloadImage": "/assets/cards/downloads/cell-games-030-strength-training.webp?v=48d84c911476"
+    "image": "/assets/cards/cell-games-030-strength-training.webp?v=cee22c4b47da",
+    "downloadImage": "/assets/cards/downloads/cell-games-030-strength-training.webp?v=7496972bf291"
   },
   {
     "id": "cell-games-031-time-to-party",

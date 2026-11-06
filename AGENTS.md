@@ -1,3 +1,7 @@
+## Cell Games #30 Goku correction — November 5, 2026
+
+Strength Training shows Super Saiyan Goku and Gohan wearing Saiyan armor, not Vegeta and Trunks. The original production review misidentified the characters. Preserve the isolated native Goku head/neck insert and original artwork beneath it. Current source/export hashes and protected-pixel checks are in `tools/card-corrections/cell-games-030-goku/release.json`. Historical batch and emblem audits stay immutable; follow the subsequent artwork revision chain. The card layout, Gohan, stance, armor, rules, rarity and emblem are unchanged.
+
 ## Cell Games final five publication — November 5, 2026
 
 Cards 70, 72, 73, 81 and 83 are now included using the exact approved display/download exports. Cell Games 001–100 has no gaps. Read `tools/card-corrections/v3-cell-games-final-five/README.md` and `release.json` for immutable hashes and recovery provenance. Preserve #72’s rocky-background Goku and #81’s Red Energy Gathering Drill title. The earlier 95-card production/logo audits below are historical. The interrupted upload did not retain these five native SVGs or final native-render audits; expected native Git blob IDs are recorded for future recovery. Do not claim those sources were recovered or rerender/alter the approved exports without recovering or reconstructing verified native sources.

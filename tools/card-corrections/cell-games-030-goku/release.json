@@ -1,0 +1,68 @@
+{
+  "id": "cell-games-030-strength-training",
+  "number": 30,
+  "name": "Strength Training",
+  "base_commit": "59b09acc653daf0f0474c2ce196a002010b178ed",
+  "source": {
+    "path": "tools/card-templates/v3/cell-games-001-050/cell-games-030-strength-training.svg",
+    "before_sha256": "f91b94be8f04dfd399818f4ca13e815ba728669cbf639eb15ff04b4ce9d86d54",
+    "after_sha256": "651ba151cee8d390b1dffc2f12d0da032089c0f8dbeb378e48e2de2b6fc08f2c"
+  },
+  "native_insert_path": "tools/card-corrections/cell-games-030-goku/native-insert.svg.txt",
+  "asset": {
+    "path": "tools/card-templates/v3/assets/b0087b683cca3b4568474046e4e235157550c611efd8d41187dc6049f2cb7ebf.png",
+    "sha256": "b0087b683cca3b4568474046e4e235157550c611efd8d41187dc6049f2cb7ebf"
+  },
+  "printed_reference": "tools/card-corrections/v3-cell-games-001-050/originals/030.jpg",
+  "correction": "The adult is Super Saiyan Goku training with Gohan in Saiyan armor. The original production review incorrectly identified Vegeta and Trunks. Correct only the adult head and neck transition using the retained masked imagegen insert.",
+  "review": {
+    "identity": "Goku front bangs, hair silhouette and face replace the Vegeta widow peak and face.",
+    "expression": "Head remains tilted down-left, looking at Gohan with clenched teeth.",
+    "preserved": "Gohan, pushing hands, full-body stance, blue undersuits, white/gold armor, boots, framing, rules, title, rarity, set emblem and numbering.",
+    "unresolved": "The 429 by 600 original limits exact small facial-detail and color comparisons.",
+    "display_reviewed": true,
+    "download_reviewed": true
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-030-strength-training.webp",
+      "before_sha256": "ababa9961ccbb263dd28afc7df94d38f1993c7f52b32506256d4257769909848",
+      "after_sha256": "cee22c4b47da856b2e3db28d43743a8d9480999d6e29dff16bbfe5cd0d3d2515",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless": true,
+      "changed_pixels": 58360,
+      "changed_bounds": [
+        460,
+        144,
+        740,
+        397
+      ],
+      "outside_patch_changed_pixels": 0,
+      "native_max_channel_error": 2
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-030-strength-training.webp",
+      "before_sha256": "48d84c9114769afee21cbb26eda10c981894e62729fc6b24bd7833273bb782f6",
+      "after_sha256": "7496972bf291bbc2eca6cc85f74543e08cbf38c0b460aa64773b1f51ed0f0583",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless": true,
+      "changed_pixels": 232377,
+      "changed_bounds": [
+        922,
+        293,
+        1476,
+        790
+      ],
+      "outside_patch_changed_pixels": 0,
+      "native_max_channel_error": 1
+    }
+  ]
+}
