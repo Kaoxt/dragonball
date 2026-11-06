@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
@@ -67,11 +68,22 @@ class CardTypeReferences(unittest.TestCase):
         audit = json.loads((ROOT / 'docs/card-type-audit-2026-10-25.json').read_text())
         exceptions = {item['id']: item for item in audit['unresolved_references']}
         image_reviews = {item['id']: item['image'] for item in audit['missing_rules_image_reviewed']}
+        title_release = ROOT / 'tools/card-corrections/v3-title-footer-width/release.json'
+        title_revisions = {row['id']: row for row in json.loads(title_release.read_text())['cards']} if title_release.exists() else {}
         for card in cards:
             with self.subTest(card=card['id']):
                 self.assertFalse(inspect_json({'type': card['type']}))
                 if not card.get('rules'):
-                    self.assertEqual(card['image'], image_reviews.get(card['id']),
+                    reviewed_image = card['image']
+                    if card['id'] in title_revisions:
+                        revision = title_revisions[card['id']]
+                        export = next(e for e in revision['exports'] if e['field'] == 'image')
+                        self.assertEqual(export['pixels_changed_below_header'], 0, 'Title revision must preserve the reviewed rules pixels.')
+                        self.assertEqual(export['pixels_changed_outside_native_header_delta'], 0)
+                        self.assertEqual(hashlib.sha256((ROOT / export['path']).read_bytes()).hexdigest(), export['after_sha256'])
+                        self.assertEqual(card['image'], export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
+                        reviewed_image = export['path'].removeprefix('public') + '?v=' + export['before_sha256'][:12]
+                    self.assertEqual(reviewed_image, image_reviews.get(card['id']),
                         'Add current rules to the catalog or record an image wording review.')
                 findings = inspect_json(card)
                 if findings:

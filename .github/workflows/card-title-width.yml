@@ -7,6 +7,7 @@ on:
       - tools/card-templates/v3/patch_title_width.py
       - tools/card-templates/v3/scripts/title_width_v3.py
       - tests/**
+      - tools/test_card_type_references.py
 permissions:
   contents: read
 concurrency:
