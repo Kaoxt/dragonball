@@ -4,3 +4,7 @@ node_modules/
 .env*
 test-results/
 playwright-report/
+
+# Native card renderer caches
+__pycache__/
+*.pyc

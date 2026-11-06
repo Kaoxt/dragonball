@@ -1,0 +1,11 @@
+# Title paint width and punctuation-safe centering
+
+This revision widens each title paint layer using the exact horizontal mapping of that card’s own footer. Its vertical placement and height remain unchanged; the middle bar is unchanged. Existing title outlines, scale, and Personality LEVEL clearance are retained. Full title ink is centered horizontally, while only letters and digits determine the vertical center at y79. Commas and periods do not lift the letter band. Personality titles remain centered at x529.5 with their existing 640-unit maximum and stricter per-title limits.
+
+`release.json` records each source and both independently patched lossless exports. The renderer verifies the old native header against the corresponding published resolution before applying the native old/new delta. It requires zero changed pixels outside that delta and below the header, plus lossless WebP round trips. Native edits are reversible byte-for-byte, and the second application leaves all files unchanged. Historical audits are immutable; the explicit before/after chain is checked by the historical test helper and separate current-release tests.
+
+Cell Games 70, 72, 73, 81, and 83 have verified reconstructed **headers only** in `reconstructed-headers/`. These are not recovered complete native card sources. Their backgrounds and exact title outlines were verified against both original exports, including the retained 730-unit title limits on 70 and 81. Small retained image strips below y146 supply unchanged artwork pixels to the display downsampling kernel; they do not recreate or replace artwork. Complete native sources for these five cards are still unavailable.
+
+The shared 3D viewer clips circular corners at 5% of the card’s shorter side. Gray stock depth is 1.1% of that side, reduced from the 1.5% preview. Exported raster corners remain unchanged. Ultra Rare artwork masks retain their existing geometry and are pinned to the new title-only image revisions.
+
+Run `python3 tools/card-templates/v3/patch_title_width.py WORK --apply` to verify an already applied release without modifying it. The one-time preparation workflow stages sets independently and assembles only verified outputs before running the complete test suite.
