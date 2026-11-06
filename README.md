@@ -1,6 +1,6 @@
 # Dragon Ball production package
 
-Generated from [e163c0155e1d3b41404c9e54d816120ab482a22b](https://github.com/Kaoxt/dragonball/commit/e163c0155e1d3b41404c9e54d816120ab482a22b).
+Generated from [33ccd727dfcd45a400e1ef5a00be948c426c294e](https://github.com/Kaoxt/dragonball/commit/33ccd727dfcd45a400e1ef5a00be948c426c294e).
 
 Do not edit this branch directly. Full-resolution images, native SVGs and production evidence remain in the source repository. See `docs/small-deployments.md` on the source branch. The private R2 bucket serves original image bytes at unchanged URLs.
 

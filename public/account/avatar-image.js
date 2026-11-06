@@ -22,14 +22,27 @@
   }catch{throw Error('This image could not be opened. Try saving it as a PNG or JPG and select it again.');}
  }
  const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
+ function minimumZoom(width,height){return Math.min(.25,Math.min(width,height)/Math.hypot(width,height)*.8);}
+ function fitCrop(width,height){
+  // The rectangle's diagonal fits inside the circular avatar, with a little margin.
+  return {x:width/2,y:height/2,zoom:Math.min(width,height)/Math.hypot(width,height)*.94};
+ }
  function constrainCrop(width,height,crop={}){
-  const zoom=clamp(Number.isFinite(crop.zoom)?crop.zoom:1,1,3);
-  const side=Math.min(width,height)/zoom,half=side/2;
-  return {x:clamp(Number.isFinite(crop.x)?crop.x:width/2,half,width-half),y:clamp(Number.isFinite(crop.y)?crop.y:height/2,half,height-half),zoom};
+  const zoom=clamp(Number.isFinite(crop.zoom)?crop.zoom:1,minimumZoom(width,height),3);
+  // Allow padding on every edge so square and portrait images can move at 100% too.
+  return {x:clamp(Number.isFinite(crop.x)?crop.x:width/2,0,width),y:clamp(Number.isFinite(crop.y)?crop.y:height/2,0,height),zoom};
  }
  function cropRect(width,height,crop){
   const position=constrainCrop(width,height,crop),side=Math.min(width,height)/position.zoom;
   return {x:position.x-side/2,y:position.y-side/2,side};
+ }
+ function drawCrop(context,image,crop,width,height){
+  const area=cropRect(image.width,image.height,crop);
+  const x=Math.max(0,area.x),y=Math.max(0,area.y);
+  const sourceWidth=Math.max(0,Math.min(image.width,area.x+area.side)-x);
+  const sourceHeight=Math.max(0,Math.min(image.height,area.y+area.side)-y);
+  context.fillStyle='#121316';context.fillRect(0,0,width,height);
+  if(sourceWidth&&sourceHeight)context.drawImage(image,x,y,sourceWidth,sourceHeight,(x-area.x)*width/area.side,(y-area.y)*height/area.side,sourceWidth*width/area.side,sourceHeight*height/area.side);
  }
  async function prepare(file,crop=null,decodedImage=null){
   const type=validate(file);
@@ -48,7 +61,8 @@
     if(outputWidth===previousWidth)continue;
     previousWidth=outputWidth;canvas.width=outputWidth;canvas.height=Math.max(1,Math.floor(height*scale));
     context.imageSmoothingEnabled=true;context.imageSmoothingQuality='high';
-    context.drawImage(image,region.x,region.y,width,height,0,0,canvas.width,canvas.height);
+    if(crop)drawCrop(context,image,crop,canvas.width,canvas.height);
+    else context.drawImage(image,region.x,region.y,width,height,0,0,canvas.width,canvas.height);
     // Prefer lossless line art, then reduce compression quality before resolution.
     for(const [format,quality] of [['image/png',undefined],['image/webp',.96],['image/webp',.92],['image/webp',.86]]){
      const blob=await new Promise(resolve=>canvas.toBlob(resolve,format,quality));
@@ -58,5 +72,5 @@
    throw Error('This image could not be made small enough. Please try a smaller PNG or JPG.');
   }finally{if(!decodedImage)image.close?.();}
  }
- window.DragonAvatar={validate,decode,constrainCrop,cropRect,prepare};
+ window.DragonAvatar={validate,decode,minimumZoom,fitCrop,constrainCrop,cropRect,drawCrop,prepare};
 })();
