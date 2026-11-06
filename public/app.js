@@ -1,7 +1,7 @@
 import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js';
-import { newGame, addPlayer, act, view, cardImage } from './game.js';
+import { newGame, addPlayer, act, view, cardImage } from './game.js?v=20261106-banished';
 import { saveArenaSession, readArenaSession, clearArenaSession, sessionToRestore } from './arena-session.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -118,7 +118,7 @@ function practice() {
   act(practiceGame, 0, { type: 'load', deck: demo() }); act(practiceGame, 1, { type: 'load', deck: practiceDeck(true) }); act(practiceGame, 0, { type: 'start' });
   game = view(practiceGame, seat); selected = null; status('Solo practice · both seats'); render();
 }
-const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Removed', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
+const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Banished', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
 function startDrawTest() {
   if (!practiceGame || practiceGame.status !== 'setup') return;
   const next = structuredClone(practiceGame);
