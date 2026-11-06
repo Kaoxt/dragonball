@@ -16747,8 +16747,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Discard 1 of your opponent's Allies in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-001-black-explosion.webp?v=76bebbe644ce",
-    "downloadImage": "/assets/cards/downloads/cell-games-001-black-explosion.webp?v=209502418b58"
+    "image": "/assets/cards/cell-games-001-black-explosion.webp?v=b3ed24b98247",
+    "downloadImage": "/assets/cards/downloads/cell-games-001-black-explosion.webp?v=f9d5cc7c0cdd"
   },
   {
     "id": "cell-games-002-black-fist-lock",
@@ -16764,8 +16764,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +4 stages.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-002-black-fist-lock.webp?v=35397bc8f910",
-    "downloadImage": "/assets/cards/downloads/cell-games-002-black-fist-lock.webp?v=37d212390768"
+    "image": "/assets/cards/cell-games-002-black-fist-lock.webp?v=4bb5f06f9466",
+    "downloadImage": "/assets/cards/downloads/cell-games-002-black-fist-lock.webp?v=02d025a84f24"
   },
   {
     "id": "cell-games-003-black-preparation",
@@ -16781,8 +16781,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-003-black-preparation.webp?v=82ae0210bb90",
-    "downloadImage": "/assets/cards/downloads/cell-games-003-black-preparation.webp?v=17a28b68e8f2"
+    "image": "/assets/cards/cell-games-003-black-preparation.webp?v=5373fdad3d8c",
+    "downloadImage": "/assets/cards/downloads/cell-games-003-black-preparation.webp?v=78cf731a1bb0"
   },
   {
     "id": "cell-games-004-blue-forced-punch",
@@ -16798,8 +16798,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +3 stages. HIT: Lower your opponent's anger 2 levels.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-004-blue-forced-punch.webp?v=9d36244c8240",
-    "downloadImage": "/assets/cards/downloads/cell-games-004-blue-forced-punch.webp?v=a8e083dbab9a"
+    "image": "/assets/cards/cell-games-004-blue-forced-punch.webp?v=48a3011923ae",
+    "downloadImage": "/assets/cards/downloads/cell-games-004-blue-forced-punch.webp?v=c71f712de998"
   },
   {
     "id": "cell-games-005-blue-thrusted-blast",
@@ -16815,8 +16815,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Your Main Personality's PUR is +2 until the end of your next turn.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-005-blue-thrusted-blast.webp?v=7873062d8f16",
-    "downloadImage": "/assets/cards/downloads/cell-games-005-blue-thrusted-blast.webp?v=5fcf185dacc1"
+    "image": "/assets/cards/cell-games-005-blue-thrusted-blast.webp?v=c7f7e48ff96d",
+    "downloadImage": "/assets/cards/downloads/cell-games-005-blue-thrusted-blast.webp?v=5df06ee9602e"
   },
   {
     "id": "cell-games-006-deadly-attack",
@@ -16832,8 +16832,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Stop a physical attack. For the rest of Combat, your opponent cannot use Ally powers, redirect damage to Allies, or have Allies take over Combat.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-006-deadly-attack.webp?v=c62e5202be7c",
-    "downloadImage": "/assets/cards/downloads/cell-games-006-deadly-attack.webp?v=b451765c5bda"
+    "image": "/assets/cards/cell-games-006-deadly-attack.webp?v=ccdbf32272d3",
+    "downloadImage": "/assets/cards/downloads/cell-games-006-deadly-attack.webp?v=a45a22337b9c"
   },
   {
     "id": "cell-games-007-flashback",
@@ -16849,8 +16849,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. POWER: Choose 4 cards in your opponent's discard pile and shuffle them into their Life Deck. Your opponent chooses 4 cards in your discard pile and shuffles them into your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-007-flashback.webp?v=97a58f8411b8",
-    "downloadImage": "/assets/cards/downloads/cell-games-007-flashback.webp?v=c23ea8d89994"
+    "image": "/assets/cards/cell-games-007-flashback.webp?v=ac29db98c06b",
+    "downloadImage": "/assets/cards/downloads/cell-games-007-flashback.webp?v=d248e0452e96"
   },
   {
     "id": "cell-games-008-gohans-kick",
@@ -16866,8 +16866,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. For the rest of Combat, neither player may use cards that end Combat, stop all physical attacks, or stop all energy attacks.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-008-gohans-kick.webp?v=dfb2e8f74d9d",
-    "downloadImage": "/assets/cards/downloads/cell-games-008-gohans-kick.webp?v=871c0a13fafc"
+    "image": "/assets/cards/cell-games-008-gohans-kick.webp?v=7b522b5a856b",
+    "downloadImage": "/assets/cards/downloads/cell-games-008-gohans-kick.webp?v=d2bddfb543a0"
   },
   {
     "id": "cell-games-009-gohans-strike",
@@ -16883,8 +16883,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Focused physical attack. DAMAGE: AT +2 stages. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-009-gohans-strike.webp?v=91774a32e3a8",
-    "downloadImage": "/assets/cards/downloads/cell-games-009-gohans-strike.webp?v=aeb64326367f"
+    "image": "/assets/cards/cell-games-009-gohans-strike.webp?v=02daa8ea0bad",
+    "downloadImage": "/assets/cards/downloads/cell-games-009-gohans-strike.webp?v=390ef262ae76"
   },
   {
     "id": "cell-games-010-namekian-crushing-hold",
@@ -16900,8 +16900,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT +3 stages. If you declared a Tokui-Waza, shuffle the top 2 cards of your discard pile into your Life Deck. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-010-namekian-crushing-hold.webp?v=c0298da435b1",
-    "downloadImage": "/assets/cards/downloads/cell-games-010-namekian-crushing-hold.webp?v=1b7ec74130d6"
+    "image": "/assets/cards/cell-games-010-namekian-crushing-hold.webp?v=d26dcc160b6e",
+    "downloadImage": "/assets/cards/downloads/cell-games-010-namekian-crushing-hold.webp?v=f9f2c3b363fd"
   },
   {
     "id": "cell-games-011-namekian-fist-dodge",
@@ -16917,8 +16917,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Namekian Heritage only. Physical attack. DAMAGE: AT stages. Or, stop a physical attack.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-011-namekian-fist-dodge.webp?v=edea8e484b98",
-    "downloadImage": "/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp?v=65831b481550"
+    "image": "/assets/cards/cell-games-011-namekian-fist-dodge.webp?v=df04e7057d15",
+    "downloadImage": "/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp?v=2b9c23547b3f"
   },
   {
     "id": "cell-games-012-namekian-flying-kick",
@@ -16934,8 +16934,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +3 stages. HIT: Choose any cards in your discard pile and banish them.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-012-namekian-flying-kick.webp?v=5c9b4371458f",
-    "downloadImage": "/assets/cards/downloads/cell-games-012-namekian-flying-kick.webp?v=d638b3675965"
+    "image": "/assets/cards/cell-games-012-namekian-flying-kick.webp?v=7a13c6ebb0a6",
+    "downloadImage": "/assets/cards/downloads/cell-games-012-namekian-flying-kick.webp?v=1d8928d070aa"
   },
   {
     "id": "cell-games-013-namekian-foot-lunge",
@@ -16951,8 +16951,8 @@ export const catalog = [
     "rules": "ENDURANCE 4. Physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 card in your discard pile and shuffle it into your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-013-namekian-foot-lunge.webp?v=780f5ead580f",
-    "downloadImage": "/assets/cards/downloads/cell-games-013-namekian-foot-lunge.webp?v=2b1724730a2a"
+    "image": "/assets/cards/cell-games-013-namekian-foot-lunge.webp?v=e4401b0291ce",
+    "downloadImage": "/assets/cards/downloads/cell-games-013-namekian-foot-lunge.webp?v=61b7a0073d8c"
   },
   {
     "id": "cell-games-014-orange-dragon-aid",
@@ -16968,8 +16968,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. POWER: Place 1 or 2 of your opponent's Dragon Balls on the bottom of their Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-014-orange-dragon-aid.webp?v=9fc08b43fc44",
-    "downloadImage": "/assets/cards/downloads/cell-games-014-orange-dragon-aid.webp?v=b1d47358ee5e"
+    "image": "/assets/cards/cell-games-014-orange-dragon-aid.webp?v=b668b590d79b",
+    "downloadImage": "/assets/cards/downloads/cell-games-014-orange-dragon-aid.webp?v=ddc6c3130989"
   },
   {
     "id": "cell-games-015-orange-uniting-strike",
@@ -16985,8 +16985,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 4 life cards, or 8 life cards if Goku and Gohan are in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-015-orange-uniting-strike.webp?v=3ca601e8263b",
-    "downloadImage": "/assets/cards/downloads/cell-games-015-orange-uniting-strike.webp?v=968660c14696"
+    "image": "/assets/cards/cell-games-015-orange-uniting-strike.webp?v=7a59342603b6",
+    "downloadImage": "/assets/cards/downloads/cell-games-015-orange-uniting-strike.webp?v=8a9005e91901"
   },
   {
     "id": "cell-games-016-power-boost",
@@ -17002,8 +17002,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. POWER: Use immediately before an energy attack. Pay none of its costs; it deals +2 life cards of damage. This does not use your Attacker Attacks action.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-016-power-boost.webp?v=769f183951af",
-    "downloadImage": "/assets/cards/downloads/cell-games-016-power-boost.webp?v=b850cec719b2"
+    "image": "/assets/cards/cell-games-016-power-boost.webp?v=523551c51168",
+    "downloadImage": "/assets/cards/downloads/cell-games-016-power-boost.webp?v=7de4d5d9851e"
   },
   {
     "id": "cell-games-017-red-anger-rising",
@@ -17019,8 +17019,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT stages. For the rest of Combat, all physical attacks deal +1 stage for each Dragon Ball in play. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-017-red-anger-rising.webp?v=877491a5ed20",
-    "downloadImage": "/assets/cards/downloads/cell-games-017-red-anger-rising.webp?v=0e5eba3a29cd"
+    "image": "/assets/cards/cell-games-017-red-anger-rising.webp?v=fc91eed387c9",
+    "downloadImage": "/assets/cards/downloads/cell-games-017-red-anger-rising.webp?v=41054bf075e2"
   },
   {
     "id": "cell-games-018-red-drop-kick",
@@ -17036,8 +17036,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +3 stages. You may banish up to 5 cards from your discard pile.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-018-red-drop-kick.webp?v=106f9f93940c",
-    "downloadImage": "/assets/cards/downloads/cell-games-018-red-drop-kick.webp?v=3a9037eba174"
+    "image": "/assets/cards/cell-games-018-red-drop-kick.webp?v=827a3db6adbc",
+    "downloadImage": "/assets/cards/downloads/cell-games-018-red-drop-kick.webp?v=6338ce019940"
   },
   {
     "id": "cell-games-019-red-duck",
@@ -17053,8 +17053,8 @@ export const catalog = [
     "rules": "POWER: Stop a physical attack. Shuffle the top X cards of your discard pile into your Life Deck. X is your current anger level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-019-red-duck.webp?v=2ab1efda1a96",
-    "downloadImage": "/assets/cards/downloads/cell-games-019-red-duck.webp?v=d01626725b1c"
+    "image": "/assets/cards/cell-games-019-red-duck.webp?v=7a65744cc129",
+    "downloadImage": "/assets/cards/downloads/cell-games-019-red-duck.webp?v=1e0f66c48f45"
   },
   {
     "id": "cell-games-020-red-fist-lunge",
@@ -17070,8 +17070,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT stages. HIT: Raise your anger 1 level and lower your opponent's anger 2 levels.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-020-red-fist-lunge.webp?v=1f21e6829681",
-    "downloadImage": "/assets/cards/downloads/cell-games-020-red-fist-lunge.webp?v=a1931d984b89"
+    "image": "/assets/cards/cell-games-020-red-fist-lunge.webp?v=d59aadfeceb0",
+    "downloadImage": "/assets/cards/downloads/cell-games-020-red-fist-lunge.webp?v=915cdf18d386"
   },
   {
     "id": "cell-games-021-red-flying-attack",
@@ -17087,8 +17087,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT stages, or AT +5 stages if you declared a Tokui-Waza.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-021-red-flying-attack.webp?v=1b8741e011bd",
-    "downloadImage": "/assets/cards/downloads/cell-games-021-red-flying-attack.webp?v=b6f1014b70be"
+    "image": "/assets/cards/cell-games-021-red-flying-attack.webp?v=6a5480408b0c",
+    "downloadImage": "/assets/cards/downloads/cell-games-021-red-flying-attack.webp?v=1293e66150fd"
   },
   {
     "id": "cell-games-022-red-shifty-maneuver",
@@ -17104,8 +17104,8 @@ export const catalog = [
     "rules": "POWER: Stop a physical attack. If you declared a Tokui-Waza, raise your anger 1 level and discard a Drill in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-022-red-shifty-maneuver.webp?v=63a5fb7e20d5",
-    "downloadImage": "/assets/cards/downloads/cell-games-022-red-shifty-maneuver.webp?v=ec4e819e0baf"
+    "image": "/assets/cards/cell-games-022-red-shifty-maneuver.webp?v=d0f123805837",
+    "downloadImage": "/assets/cards/downloads/cell-games-022-red-shifty-maneuver.webp?v=e7509f8ef3c1"
   },
   {
     "id": "cell-games-023-saiyan-ally-strike",
@@ -17121,8 +17121,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT stages. HIT: Search your Life Deck for an Ally matching your Main Personality's level. Put it in play at its highest stage.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-023-saiyan-ally-strike.webp?v=6c7ffad6c7db",
-    "downloadImage": "/assets/cards/downloads/cell-games-023-saiyan-ally-strike.webp?v=54071ab0c022"
+    "image": "/assets/cards/cell-games-023-saiyan-ally-strike.webp?v=9cc2325929fd",
+    "downloadImage": "/assets/cards/downloads/cell-games-023-saiyan-ally-strike.webp?v=2fcc6219e781"
   },
   {
     "id": "cell-games-024-saiyan-blocking-technique",
@@ -17138,8 +17138,8 @@ export const catalog = [
     "rules": "POWER: Stop a physical attack. Your physical attacks deal +2 stages of damage for the rest of Combat.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-024-saiyan-blocking-technique.webp?v=5683e935731d",
-    "downloadImage": "/assets/cards/downloads/cell-games-024-saiyan-blocking-technique.webp?v=c0883213761e"
+    "image": "/assets/cards/cell-games-024-saiyan-blocking-technique.webp?v=657f47fec47c",
+    "downloadImage": "/assets/cards/downloads/cell-games-024-saiyan-blocking-technique.webp?v=717162ed73b1"
   },
   {
     "id": "cell-games-025-saiyan-energy-surprise",
@@ -17155,8 +17155,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. Energy attack costing 2 stages. DAMAGE: 4 life cards, or 7 life cards if you declared a Tokui-Waza. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-025-saiyan-energy-surprise.webp?v=e03f3c374372",
-    "downloadImage": "/assets/cards/downloads/cell-games-025-saiyan-energy-surprise.webp?v=ec578fb97dbf"
+    "image": "/assets/cards/cell-games-025-saiyan-energy-surprise.webp?v=8bf28eae8ca6",
+    "downloadImage": "/assets/cards/downloads/cell-games-025-saiyan-energy-surprise.webp?v=0d8a10b10b8a"
   },
   {
     "id": "cell-games-026-saiyan-fist-attack",
@@ -17172,8 +17172,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +4 stages.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-026-saiyan-fist-attack.webp?v=22d912907c5b",
-    "downloadImage": "/assets/cards/downloads/cell-games-026-saiyan-fist-attack.webp?v=f495d5c6f03e"
+    "image": "/assets/cards/cell-games-026-saiyan-fist-attack.webp?v=adb9a12f2c9b",
+    "downloadImage": "/assets/cards/downloads/cell-games-026-saiyan-fist-attack.webp?v=434122270386"
   },
   {
     "id": "cell-games-027-saiyan-knee-block",
@@ -17189,8 +17189,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Prevent 4 stages of damage from a physical attack. Your opponent discards the top 2 cards of their Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-027-saiyan-knee-block.webp?v=a5586921ed64",
-    "downloadImage": "/assets/cards/downloads/cell-games-027-saiyan-knee-block.webp?v=1c69dcd95f7f"
+    "image": "/assets/cards/cell-games-027-saiyan-knee-block.webp?v=26860ad4f58f",
+    "downloadImage": "/assets/cards/downloads/cell-games-027-saiyan-knee-block.webp?v=84762696945b"
   },
   {
     "id": "cell-games-028-saiyan-power-rush",
@@ -17206,8 +17206,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +2 stages. HIT: Discard 1 of your opponent's Drills in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-028-saiyan-power-rush.webp?v=f0b3f1551814",
-    "downloadImage": "/assets/cards/downloads/cell-games-028-saiyan-power-rush.webp?v=7599e687e713"
+    "image": "/assets/cards/cell-games-028-saiyan-power-rush.webp?v=0a46f5e85101",
+    "downloadImage": "/assets/cards/downloads/cell-games-028-saiyan-power-rush.webp?v=6e5e440065e5"
   },
   {
     "id": "cell-games-029-saiyan-triple-blast",
@@ -17223,8 +17223,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Draw a card.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-029-saiyan-triple-blast.webp?v=908619c8980f",
-    "downloadImage": "/assets/cards/downloads/cell-games-029-saiyan-triple-blast.webp?v=6a4d1397c12c"
+    "image": "/assets/cards/cell-games-029-saiyan-triple-blast.webp?v=5c85b9183f85",
+    "downloadImage": "/assets/cards/downloads/cell-games-029-saiyan-triple-blast.webp?v=c467b93ea5e5"
   },
   {
     "id": "cell-games-030-strength-training",
@@ -17240,8 +17240,8 @@ export const catalog = [
     "rules": "POWER: If your Main Personality's power rating exceeds your opponent's, they discard their Life Deck's top 3 cards. Otherwise, raise your Main Personality to its highest stage. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-030-strength-training.webp?v=a63460f79ea6",
-    "downloadImage": "/assets/cards/downloads/cell-games-030-strength-training.webp?v=dea3177faed6"
+    "image": "/assets/cards/cell-games-030-strength-training.webp?v=1371f585629f",
+    "downloadImage": "/assets/cards/downloads/cell-games-030-strength-training.webp?v=43f684712071"
   },
   {
     "id": "cell-games-031-time-to-party",
@@ -17257,8 +17257,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Raise all Main Personalities to their highest stage. Each player raises their anger 1 level and may search their Life Deck for a Freestyle Drill to put in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-031-time-to-party.webp?v=d6d892794a2c",
-    "downloadImage": "/assets/cards/downloads/cell-games-031-time-to-party.webp?v=e4a5578bf763"
+    "image": "/assets/cards/cell-games-031-time-to-party.webp?v=6b6a17ff3a01",
+    "downloadImage": "/assets/cards/downloads/cell-games-031-time-to-party.webp?v=c57c56e134ba"
   },
   {
     "id": "cell-games-032-black-anticipation-drill",
@@ -17274,8 +17274,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-032-black-anticipation-drill.webp?v=f5231cbf6373",
-    "downloadImage": "/assets/cards/downloads/cell-games-032-black-anticipation-drill.webp?v=83d821d5d8af"
+    "image": "/assets/cards/cell-games-032-black-anticipation-drill.webp?v=ed4da415b668",
+    "downloadImage": "/assets/cards/downloads/cell-games-032-black-anticipation-drill.webp?v=f106aa02c237"
   },
   {
     "id": "cell-games-033-black-blasting-beam",
@@ -17291,8 +17291,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza and the attacking personality is at 0 stages, deal +2 life cards and +2 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-033-black-blasting-beam.webp?v=730f9cd20c8d",
-    "downloadImage": "/assets/cards/downloads/cell-games-033-black-blasting-beam.webp?v=5f76cbc60a43"
+    "image": "/assets/cards/cell-games-033-black-blasting-beam.webp?v=96aa91d6a355",
+    "downloadImage": "/assets/cards/downloads/cell-games-033-black-blasting-beam.webp?v=c0be162e4cd0"
   },
   {
     "id": "cell-games-034-black-double-attack-drill",
@@ -17308,8 +17308,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Your physical attacks deal +2 stages of damage and cannot be redirected to Allies.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-034-black-double-attack-drill.webp?v=d43f5527d4ed",
-    "downloadImage": "/assets/cards/downloads/cell-games-034-black-double-attack-drill.webp?v=063c49d331c6"
+    "image": "/assets/cards/cell-games-034-black-double-attack-drill.webp?v=0f28a45ed859",
+    "downloadImage": "/assets/cards/downloads/cell-games-034-black-double-attack-drill.webp?v=5c5abb9f920b"
   },
   {
     "id": "cell-games-035-black-hand-energy-blast",
@@ -17325,8 +17325,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. Energy attack costing 2 stages. DAMAGE: 3 life cards. If you declared a Tokui-Waza, this attack also deals +2 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-035-black-hand-energy-blast.webp?v=9e6f3268bead",
-    "downloadImage": "/assets/cards/downloads/cell-games-035-black-hand-energy-blast.webp?v=ad34672ed6ba"
+    "image": "/assets/cards/cell-games-035-black-hand-energy-blast.webp?v=aff2253e4f93",
+    "downloadImage": "/assets/cards/downloads/cell-games-035-black-hand-energy-blast.webp?v=f469da5402bd"
   },
   {
     "id": "cell-games-036-black-face-slap",
@@ -17342,8 +17342,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 random card from your opponent's hand; they discard it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-036-black-face-slap.webp?v=b791c7c1a56b",
-    "downloadImage": "/assets/cards/downloads/cell-games-036-black-face-slap.webp?v=7a4709c0f5bb"
+    "image": "/assets/cards/cell-games-036-black-face-slap.webp?v=d7e5a420ff40",
+    "downloadImage": "/assets/cards/downloads/cell-games-036-black-face-slap.webp?v=5f4f768693bd"
   },
   {
     "id": "cell-games-037-black-recovery",
@@ -17359,8 +17359,8 @@ export const catalog = [
     "rules": "POWER: Stop an energy attack. If you declared a Tokui-Waza, you may discard a card from your hand. If you do, choose 1 random card from your opponent's hand; they discard it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-037-black-recovery.webp?v=0c8c726ef2fa",
-    "downloadImage": "/assets/cards/downloads/cell-games-037-black-recovery.webp?v=2a7084b7a1ae"
+    "image": "/assets/cards/cell-games-037-black-recovery.webp?v=7a097fae1e76",
+    "downloadImage": "/assets/cards/downloads/cell-games-037-black-recovery.webp?v=15591f10a223"
   },
   {
     "id": "cell-games-038-black-saving-drill",
@@ -17376,8 +17376,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Stop your opponent's first physical or energy attack in Combat if your anger is 3 or higher.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-038-black-saving-drill.webp?v=b72cebb4a82d",
-    "downloadImage": "/assets/cards/downloads/cell-games-038-black-saving-drill.webp?v=0b2c28df7893"
+    "image": "/assets/cards/cell-games-038-black-saving-drill.webp?v=a5513d5cdaf9",
+    "downloadImage": "/assets/cards/downloads/cell-games-038-black-saving-drill.webp?v=44e29b0b04d3"
   },
   {
     "id": "cell-games-039-black-shifting-drill",
@@ -17393,8 +17393,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-039-black-shifting-drill.webp?v=b51ac1ec2aab",
-    "downloadImage": "/assets/cards/downloads/cell-games-039-black-shifting-drill.webp?v=d3f76acad2f4"
+    "image": "/assets/cards/cell-games-039-black-shifting-drill.webp?v=573a0cb5f256",
+    "downloadImage": "/assets/cards/downloads/cell-games-039-black-shifting-drill.webp?v=11b66930e898"
   },
   {
     "id": "cell-games-040-black-wrist-block",
@@ -17410,8 +17410,8 @@ export const catalog = [
     "rules": "POWER: Stop a physical attack. If you declared a Tokui-Waza, stop a physical or energy attack instead.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-040-black-wrist-block.webp?v=0e7cada633a1",
-    "downloadImage": "/assets/cards/downloads/cell-games-040-black-wrist-block.webp?v=5c40a48f2d25"
+    "image": "/assets/cards/cell-games-040-black-wrist-block.webp?v=12cc5e894185",
+    "downloadImage": "/assets/cards/downloads/cell-games-040-black-wrist-block.webp?v=f4446438125d"
   },
   {
     "id": "cell-games-041-blue-arm-blast",
@@ -17427,8 +17427,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Or, stop a physical attack.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-041-blue-arm-blast.webp?v=265b45e99de0",
-    "downloadImage": "/assets/cards/downloads/cell-games-041-blue-arm-blast.webp?v=fc5f92cce1f7"
+    "image": "/assets/cards/cell-games-041-blue-arm-blast.webp?v=2adb9dec899d",
+    "downloadImage": "/assets/cards/downloads/cell-games-041-blue-arm-blast.webp?v=f2cd2d4ce13f"
   },
   {
     "id": "cell-games-042-blue-defensive-effect",
@@ -17444,8 +17444,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Lower an opponent's anger 1 level. Ignore all effects that raise any player's anger for the rest of Combat. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-042-blue-defensive-effect.webp?v=29a42a9356a6",
-    "downloadImage": "/assets/cards/downloads/cell-games-042-blue-defensive-effect.webp?v=bb5f8c1fd80f"
+    "image": "/assets/cards/cell-games-042-blue-defensive-effect.webp?v=79a65ee6cd84",
+    "downloadImage": "/assets/cards/downloads/cell-games-042-blue-defensive-effect.webp?v=6a0e436c2394"
   },
   {
     "id": "cell-games-043-blue-energy-arrow",
@@ -17461,8 +17461,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Banish the top 10 cards of your opponent's discard pile.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-043-blue-energy-arrow.webp?v=afbc87884250",
-    "downloadImage": "/assets/cards/downloads/cell-games-043-blue-energy-arrow.webp?v=b057604c4228"
+    "image": "/assets/cards/cell-games-043-blue-energy-arrow.webp?v=f7ab042870f0",
+    "downloadImage": "/assets/cards/downloads/cell-games-043-blue-energy-arrow.webp?v=eb20e89a4597"
   },
   {
     "id": "cell-games-044-blue-energy-blast",
@@ -17478,8 +17478,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Discard any cards attached to your Main Personality. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-044-blue-energy-blast.webp?v=84e73ac1909c",
-    "downloadImage": "/assets/cards/downloads/cell-games-044-blue-energy-blast.webp?v=14b176e1a768"
+    "image": "/assets/cards/cell-games-044-blue-energy-blast.webp?v=9cdaa4d30a5d",
+    "downloadImage": "/assets/cards/downloads/cell-games-044-blue-energy-blast.webp?v=517dad7ce719"
   },
   {
     "id": "cell-games-045-blue-prepared-drill",
@@ -17495,8 +17495,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-045-blue-prepared-drill.webp?v=f10382bfe462",
-    "downloadImage": "/assets/cards/downloads/cell-games-045-blue-prepared-drill.webp?v=934f2d6f450d"
+    "image": "/assets/cards/cell-games-045-blue-prepared-drill.webp?v=47bd3c31fd86",
+    "downloadImage": "/assets/cards/downloads/cell-games-045-blue-prepared-drill.webp?v=eef878cab410"
   },
   {
     "id": "cell-games-046-blue-recovery-drill",
@@ -17512,8 +17512,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Once per Combat, after dealing 5 or more life cards of damage, discard 1 card from your hand to raise your Main Personality to their highest stage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-046-blue-recovery-drill.webp?v=3eeef94fec59",
-    "downloadImage": "/assets/cards/downloads/cell-games-046-blue-recovery-drill.webp?v=da8cf5e2ab3d"
+    "image": "/assets/cards/cell-games-046-blue-recovery-drill.webp?v=141acd310a24",
+    "downloadImage": "/assets/cards/downloads/cell-games-046-blue-recovery-drill.webp?v=085382781dd2"
   },
   {
     "id": "cell-games-047-blue-pivot-kick",
@@ -17529,8 +17529,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT stages. HIT: Capture an opponent's Dragon Ball.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-047-blue-pivot-kick.webp?v=a8af6abe3c18",
-    "downloadImage": "/assets/cards/downloads/cell-games-047-blue-pivot-kick.webp?v=ab044b71f8cc"
+    "image": "/assets/cards/cell-games-047-blue-pivot-kick.webp?v=01a1c1756941",
+    "downloadImage": "/assets/cards/downloads/cell-games-047-blue-pivot-kick.webp?v=0b39206e2b99"
   },
   {
     "id": "cell-games-048-blue-stamina-drill",
@@ -17546,8 +17546,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-048-blue-stamina-drill.webp?v=5d58a19094fb",
-    "downloadImage": "/assets/cards/downloads/cell-games-048-blue-stamina-drill.webp?v=92abaae0387b"
+    "image": "/assets/cards/cell-games-048-blue-stamina-drill.webp?v=7262be056f17",
+    "downloadImage": "/assets/cards/downloads/cell-games-048-blue-stamina-drill.webp?v=5c035a3fda2f"
   },
   {
     "id": "cell-games-049-blue-total-resistance",
@@ -17563,8 +17563,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. POWER: Banish a Drill in play. Your Main Personality and Allies gain 2 stages. Raise your anger 1 level. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-049-blue-total-resistance.webp?v=f9e78638e101",
-    "downloadImage": "/assets/cards/downloads/cell-games-049-blue-total-resistance.webp?v=49fd751bc8b6"
+    "image": "/assets/cards/cell-games-049-blue-total-resistance.webp?v=78103e4c0f88",
+    "downloadImage": "/assets/cards/downloads/cell-games-049-blue-total-resistance.webp?v=f8c4852d7f48"
   },
   {
     "id": "cell-games-050-bracing-for-impact",
@@ -17580,8 +17580,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. POWER: Energy attacks deal at most 2 life cards and 0 stages of damage for the rest of Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-050-bracing-for-impact.webp?v=1a66102baa8e",
-    "downloadImage": "/assets/cards/downloads/cell-games-050-bracing-for-impact.webp?v=943e9bd4c4ff"
+    "image": "/assets/cards/cell-games-050-bracing-for-impact.webp?v=97470f6e8c6e",
+    "downloadImage": "/assets/cards/downloads/cell-games-050-bracing-for-impact.webp?v=081c86bcfec4"
   },
   {
     "id": "cell-games-051-caught-in-the-act",
@@ -17597,8 +17597,8 @@ export const catalog = [
     "rules": "POWER: Use when an Ally attacks or uses a power. Stops that attack or power. Discard that Ally.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-051-caught-in-the-act.webp?v=51b485cd8560",
-    "downloadImage": "/assets/cards/downloads/cell-games-051-caught-in-the-act.webp?v=61b4c09864a3"
+    "image": "/assets/cards/cell-games-051-caught-in-the-act.webp?v=16d24ab9d7b5",
+    "downloadImage": "/assets/cards/downloads/cell-games-051-caught-in-the-act.webp?v=40b508159902"
   },
   {
     "id": "cell-games-052-cells-power-burst",
@@ -17614,8 +17614,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Discard 2 of your opponent's Allies in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-052-cells-power-burst.webp?v=d9cde0034f80",
-    "downloadImage": "/assets/cards/downloads/cell-games-052-cells-power-burst.webp?v=aa3831c8d4b0"
+    "image": "/assets/cards/cell-games-052-cells-power-burst.webp?v=326744ea7ffb",
+    "downloadImage": "/assets/cards/downloads/cell-games-052-cells-power-burst.webp?v=442b4b36b43c"
   },
   {
     "id": "cell-games-053-cells-instant-transmission",
@@ -17631,8 +17631,8 @@ export const catalog = [
     "rules": "Cell only. POWER: You may also use this during your Planning Step. Search your Life Deck for a Battleground or Location and play it. You do not have to skip Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-053-cells-instant-transmission.webp?v=f8da974b1d23",
-    "downloadImage": "/assets/cards/downloads/cell-games-053-cells-instant-transmission.webp?v=5d3a58b00b90"
+    "image": "/assets/cards/cell-games-053-cells-instant-transmission.webp?v=26afaf50339b",
+    "downloadImage": "/assets/cards/downloads/cell-games-053-cells-instant-transmission.webp?v=67c1530f4103"
   },
   {
     "id": "cell-games-054-cells-swift-strike",
@@ -17648,8 +17648,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT stages. Lower your opponent's anger 2 levels. Place the top 2 cards of your discard pile on the bottom of your Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-054-cells-swift-strike.webp?v=c164e63004ab",
-    "downloadImage": "/assets/cards/downloads/cell-games-054-cells-swift-strike.webp?v=8d2e7b0310f4"
+    "image": "/assets/cards/cell-games-054-cells-swift-strike.webp?v=3f0f81ed0b3b",
+    "downloadImage": "/assets/cards/downloads/cell-games-054-cells-swift-strike.webp?v=ba6a2ff7467a"
   },
   {
     "id": "cell-games-055-energy-rush",
@@ -17665,8 +17665,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: You may discard up to 4 cards from your Life Deck. Your opponent discards that many cards from their Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-055-energy-rush.webp?v=73fad7d40c74",
-    "downloadImage": "/assets/cards/downloads/cell-games-055-energy-rush.webp?v=0fc5ba761394"
+    "image": "/assets/cards/cell-games-055-energy-rush.webp?v=03e5bed8b4e7",
+    "downloadImage": "/assets/cards/downloads/cell-games-055-energy-rush.webp?v=7ab5feefd92f"
   },
   {
     "id": "cell-games-056-everyone-is-attacked",
@@ -17682,8 +17682,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. Villains only. POWER: Every Hero loses 3 stages. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-056-everyone-is-attacked.webp?v=78250eb7b653",
-    "downloadImage": "/assets/cards/downloads/cell-games-056-everyone-is-attacked.webp?v=e758990e1619"
+    "image": "/assets/cards/cell-games-056-everyone-is-attacked.webp?v=a64cae73a2b1",
+    "downloadImage": "/assets/cards/downloads/cell-games-056-everyone-is-attacked.webp?v=747b026acf5e"
   },
   {
     "id": "cell-games-057-fighting-in-cover",
@@ -17699,8 +17699,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Choose a personality in play. For this Combat, their physical attacks deal -2 stages and their energy attacks deal -2 life cards of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-057-fighting-in-cover.webp?v=f3a4ba25296f",
-    "downloadImage": "/assets/cards/downloads/cell-games-057-fighting-in-cover.webp?v=7854a7df4f2f"
+    "image": "/assets/cards/cell-games-057-fighting-in-cover.webp?v=590b7b850026",
+    "downloadImage": "/assets/cards/downloads/cell-games-057-fighting-in-cover.webp?v=a1c366155944"
   },
   {
     "id": "cell-games-058-cells-backslap",
@@ -17716,8 +17716,8 @@ export const catalog = [
     "rules": "(Limit 1 per deck.) Physical attack. DAMAGE: AT stages. Put the bottom card of your discard pile into your hand. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-058-cells-backslap.webp?v=dcbfb054eac5",
-    "downloadImage": "/assets/cards/downloads/cell-games-058-cells-backslap.webp?v=1f30cc0cceda"
+    "image": "/assets/cards/cell-games-058-cells-backslap.webp?v=0c05e09bc257",
+    "downloadImage": "/assets/cards/downloads/cell-games-058-cells-backslap.webp?v=00eaed016002"
   },
   {
     "id": "cell-games-059-namekian-restoration",
@@ -17733,8 +17733,8 @@ export const catalog = [
     "rules": "ENDURANCE 10. POWER: Shuffle the top card of your discard pile into your Life Deck. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-059-namekian-restoration.webp?v=35cd34f6c674",
-    "downloadImage": "/assets/cards/downloads/cell-games-059-namekian-restoration.webp?v=98683036017b"
+    "image": "/assets/cards/cell-games-059-namekian-restoration.webp?v=79f3d8750665",
+    "downloadImage": "/assets/cards/downloads/cell-games-059-namekian-restoration.webp?v=35e0794f045b"
   },
   {
     "id": "cell-games-060-namekian-dragon-blast",
@@ -17750,8 +17750,8 @@ export const catalog = [
     "rules": "Namekian Heritage only. Energy attack costing 2 stages. DAMAGE: 4+X life cards. Place X cards from your discard pile on the bottom of your Life Deck. X is the number of Namek Dragon Balls in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-060-namekian-dragon-blast.webp?v=fc843705b6d9",
-    "downloadImage": "/assets/cards/downloads/cell-games-060-namekian-dragon-blast.webp?v=065e3b312d5a"
+    "image": "/assets/cards/cell-games-060-namekian-dragon-blast.webp?v=98708af39644",
+    "downloadImage": "/assets/cards/downloads/cell-games-060-namekian-dragon-blast.webp?v=a1feb4ffc77e"
   },
   {
     "id": "cell-games-061-namekian-energy-spike",
@@ -17767,8 +17767,8 @@ export const catalog = [
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards and 2 stages. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-061-namekian-energy-spike.webp?v=17ec1c8c5517",
-    "downloadImage": "/assets/cards/downloads/cell-games-061-namekian-energy-spike.webp?v=e8e7219ab571"
+    "image": "/assets/cards/cell-games-061-namekian-energy-spike.webp?v=d552e98986cf",
+    "downloadImage": "/assets/cards/downloads/cell-games-061-namekian-energy-spike.webp?v=8ea4e319a16e"
   },
   {
     "id": "cell-games-062-namekian-face-smack",
@@ -17784,8 +17784,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +4 stages. If you declared a Tokui-Waza, you may rearrange the top 10 or bottom 10 cards of your discard pile.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-062-namekian-face-smack.webp?v=b4da2b5bfc40",
-    "downloadImage": "/assets/cards/downloads/cell-games-062-namekian-face-smack.webp?v=daf3044c737b"
+    "image": "/assets/cards/cell-games-062-namekian-face-smack.webp?v=1b6c0eb43549",
+    "downloadImage": "/assets/cards/downloads/cell-games-062-namekian-face-smack.webp?v=eb957b434754"
   },
   {
     "id": "cell-games-063-namekian-piercing-beam",
@@ -17801,8 +17801,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 1 level. HIT: Discard 1 of your opponent's Allies in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-063-namekian-piercing-beam.webp?v=cf67ca2568fe",
-    "downloadImage": "/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp?v=f60bedd59570"
+    "image": "/assets/cards/cell-games-063-namekian-piercing-beam.webp?v=a7d917556e0d",
+    "downloadImage": "/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp?v=3ba828a3b410"
   },
   {
     "id": "cell-games-064-namekian-power-stance-drill",
@@ -17818,8 +17818,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-064-namekian-power-stance-drill.webp?v=e4a66e9d19e3",
-    "downloadImage": "/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp?v=d4cf7d5b1c28"
+    "image": "/assets/cards/cell-games-064-namekian-power-stance-drill.webp?v=040109c3da54",
+    "downloadImage": "/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp?v=cabe07b33e64"
   },
   {
     "id": "cell-games-065-namekian-quick-blast",
@@ -17835,8 +17835,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Choose up to 4 cards in your discard pile. Banish 2 of them. Shuffle the rest into your Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-065-namekian-quick-blast.webp?v=b6090d5244c5",
-    "downloadImage": "/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp?v=1d30413010e3"
+    "image": "/assets/cards/cell-games-065-namekian-quick-blast.webp?v=70e5647c5983",
+    "downloadImage": "/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp?v=a324e7761ada"
   },
   {
     "id": "cell-games-066-namekian-ready-drill",
@@ -17852,8 +17852,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-066-namekian-ready-drill.webp?v=05e3d3e97e3a",
-    "downloadImage": "/assets/cards/downloads/cell-games-066-namekian-ready-drill.webp?v=9bdc2558da3f"
+    "image": "/assets/cards/cell-games-066-namekian-ready-drill.webp?v=9c1cc0bde283",
+    "downloadImage": "/assets/cards/downloads/cell-games-066-namekian-ready-drill.webp?v=7e5a8bde4dde"
   },
   {
     "id": "cell-games-067-namekian-right-cross",
@@ -17869,8 +17869,8 @@ export const catalog = [
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Physical attack. DAMAGE: AT +2 stages. If you declared a Tokui-Waza, you may discard any cards attached to your Main Personality.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-067-namekian-right-cross.webp?v=223e50955d33",
-    "downloadImage": "/assets/cards/downloads/cell-games-067-namekian-right-cross.webp?v=a666bf37a783"
+    "image": "/assets/cards/cell-games-067-namekian-right-cross.webp?v=bcd510a60cf4",
+    "downloadImage": "/assets/cards/downloads/cell-games-067-namekian-right-cross.webp?v=169e3d79ea20"
   },
   {
     "id": "cell-games-068-namekian-scouting",
@@ -17886,8 +17886,8 @@ export const catalog = [
     "rules": "ENDURANCE 4. POWER: Look at the top 4 cards of your opponent's Life Deck. Banish 1 non-Dragon Ball card. Return the rest to the top in any order.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-068-namekian-scouting.webp?v=24d9931bd471",
-    "downloadImage": "/assets/cards/downloads/cell-games-068-namekian-scouting.webp?v=c448befe4381"
+    "image": "/assets/cards/cell-games-068-namekian-scouting.webp?v=f248f2092ca9",
+    "downloadImage": "/assets/cards/downloads/cell-games-068-namekian-scouting.webp?v=a3c9fb295fef"
   },
   {
     "id": "cell-games-069-orange-beatdown",
@@ -17903,8 +17903,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT stages. HIT: Look at your opponent's hand. Choose a Physical Combat card, if any, and discard it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-069-orange-beatdown.webp?v=c658cd19150d",
-    "downloadImage": "/assets/cards/downloads/cell-games-069-orange-beatdown.webp?v=f7e6983d52fe"
+    "image": "/assets/cards/cell-games-069-orange-beatdown.webp?v=c6ab0bfebe4b",
+    "downloadImage": "/assets/cards/downloads/cell-games-069-orange-beatdown.webp?v=c82926e499a4"
   },
   {
     "id": "cell-games-070-orange-burning-aura-drill",
@@ -17914,11 +17914,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Games Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-games-070-orange-burning-aura-drill.webp?v=92f2ab1cdc12",
+    "image": "/assets/cards/cell-games-070-orange-burning-aura-drill.webp?v=a474ecbdc1c0",
     "width": 1060,
     "height": 1484,
     "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252877",
-    "downloadImage": "/assets/cards/downloads/cell-games-070-orange-burning-aura-drill.webp?v=232df356e7a2",
+    "downloadImage": "/assets/cards/downloads/cell-games-070-orange-burning-aura-drill.webp?v=9d6bb0ae18b8",
     "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -17937,8 +17937,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 3 stages. DAMAGE: 4 life cards. HIT: If you declared a Tokui-Waza, your opponent discards a card from their hand.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-071-orange-energy-concentration.webp?v=29fbab4042e0",
-    "downloadImage": "/assets/cards/downloads/cell-games-071-orange-energy-concentration.webp?v=7eeaf6b66ae5"
+    "image": "/assets/cards/cell-games-071-orange-energy-concentration.webp?v=8b2631dcb3ea",
+    "downloadImage": "/assets/cards/downloads/cell-games-071-orange-energy-concentration.webp?v=70439d8f8252"
   },
   {
     "id": "cell-games-072-orange-energy-setup",
@@ -17948,11 +17948,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Games Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-games-072-orange-energy-setup.webp?v=71fa61ce55c4",
+    "image": "/assets/cards/cell-games-072-orange-energy-setup.webp?v=adfefa31cd4b",
     "width": 1060,
     "height": 1484,
     "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252879",
-    "downloadImage": "/assets/cards/downloads/cell-games-072-orange-energy-setup.webp?v=06bd81a5af9a",
+    "downloadImage": "/assets/cards/downloads/cell-games-072-orange-energy-setup.webp?v=ec4cfbf52e27",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza, you may instead use this to stop a physical attack. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -17965,11 +17965,11 @@ export const catalog = [
     "style": "Orange",
     "set": "Cell Games Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-games-073-orange-energy-shot.webp?v=9a1efc8da232",
+    "image": "/assets/cards/cell-games-073-orange-energy-shot.webp?v=69c7e93de9fe",
     "width": 1060,
     "height": 1484,
     "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252880",
-    "downloadImage": "/assets/cards/downloads/cell-games-073-orange-energy-shot.webp?v=1c99757ca9b7",
+    "downloadImage": "/assets/cards/downloads/cell-games-073-orange-energy-shot.webp?v=65aa757e3efa",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. If stopped, your opponent discards the top 2 cards of their Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -17988,8 +17988,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Search your Life Deck for a Dende Dragon Ball and play it without using its power.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-074-orange-fateful-attack.webp?v=b1d73ebc2f4f",
-    "downloadImage": "/assets/cards/downloads/cell-games-074-orange-fateful-attack.webp?v=c587b4913986"
+    "image": "/assets/cards/cell-games-074-orange-fateful-attack.webp?v=5cf577898a73",
+    "downloadImage": "/assets/cards/downloads/cell-games-074-orange-fateful-attack.webp?v=e01efdb1cdd9"
   },
   {
     "id": "cell-games-075-orange-aggressive-technique",
@@ -18005,8 +18005,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +2 stages. HIT: This personality's energy attacks deal +2 life cards of damage for the rest of Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-075-orange-aggressive-technique.webp?v=56e6596e0244",
-    "downloadImage": "/assets/cards/downloads/cell-games-075-orange-aggressive-technique.webp?v=990d3a2bfe9d"
+    "image": "/assets/cards/cell-games-075-orange-aggressive-technique.webp?v=1c5d3eb17d44",
+    "downloadImage": "/assets/cards/downloads/cell-games-075-orange-aggressive-technique.webp?v=21ddf6a06724"
   },
   {
     "id": "cell-games-076-orange-steady-drill",
@@ -18022,8 +18022,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-076-orange-steady-drill.webp?v=5938df8172fe",
-    "downloadImage": "/assets/cards/downloads/cell-games-076-orange-steady-drill.webp?v=2a907675b26a"
+    "image": "/assets/cards/cell-games-076-orange-steady-drill.webp?v=5e800676d661",
+    "downloadImage": "/assets/cards/downloads/cell-games-076-orange-steady-drill.webp?v=46e5736c38b6"
   },
   {
     "id": "cell-games-077-piccolos-fury",
@@ -18039,8 +18039,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Skip the next Fight Back phase. Take your Attacker Attacks phase instead; you must play an energy attack or pass.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-077-piccolos-fury.webp?v=ac1daf4c454b",
-    "downloadImage": "/assets/cards/downloads/cell-games-077-piccolos-fury.webp?v=5a04ce0707f1"
+    "image": "/assets/cards/cell-games-077-piccolos-fury.webp?v=0e29e97be4c5",
+    "downloadImage": "/assets/cards/downloads/cell-games-077-piccolos-fury.webp?v=a6cffd41bfff"
   },
   {
     "id": "cell-games-078-prepared-dodge",
@@ -18056,8 +18056,8 @@ export const catalog = [
     "rules": "Stops a physical or energy attack. Lower your opponent's anger 1 level. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-078-prepared-dodge.webp?v=444c7e22099b",
-    "downloadImage": "/assets/cards/downloads/cell-games-078-prepared-dodge.webp?v=72e92087468d"
+    "image": "/assets/cards/cell-games-078-prepared-dodge.webp?v=dd4298147e85",
+    "downloadImage": "/assets/cards/downloads/cell-games-078-prepared-dodge.webp?v=fe30c80c55c3"
   },
   {
     "id": "cell-games-079-protective-shelter",
@@ -18073,8 +18073,8 @@ export const catalog = [
     "rules": "When entering Combat, put the bottom card of your discard pile into your hand.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-079-protective-shelter.webp?v=fa1dec7d5e4e",
-    "downloadImage": "/assets/cards/downloads/cell-games-079-protective-shelter.webp?v=408d5ce61562"
+    "image": "/assets/cards/cell-games-079-protective-shelter.webp?v=1e6c01c91913",
+    "downloadImage": "/assets/cards/downloads/cell-games-079-protective-shelter.webp?v=3b19c4f15796"
   },
   {
     "id": "cell-games-080-quick-combat-drill",
@@ -18090,8 +18090,8 @@ export const catalog = [
     "rules": "When entering Combat as the defender, you may put the bottom card of your discard pile into your hand. If you do, draw 1 fewer card in your Defender Draws 3 Cards phase.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-080-quick-combat-drill.webp?v=f88a4aad6c80",
-    "downloadImage": "/assets/cards/downloads/cell-games-080-quick-combat-drill.webp?v=6fe3e7fab838"
+    "image": "/assets/cards/cell-games-080-quick-combat-drill.webp?v=e27c45eeb628",
+    "downloadImage": "/assets/cards/downloads/cell-games-080-quick-combat-drill.webp?v=255fe910bf0a"
   },
   {
     "id": "cell-games-081-red-energy-gathering-drill",
@@ -18101,11 +18101,11 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Games Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-games-081-red-energy-gathering-drill.webp?v=656ac0369fad",
+    "image": "/assets/cards/cell-games-081-red-energy-gathering-drill.webp?v=9a3f676ddea1",
     "width": 1060,
     "height": 1484,
     "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252888",
-    "downloadImage": "/assets/cards/downloads/cell-games-081-red-energy-gathering-drill.webp?v=4f4b28fe21fa",
+    "downloadImage": "/assets/cards/downloads/cell-games-081-red-energy-gathering-drill.webp?v=e477da2e19c9",
     "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -18124,8 +18124,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Raise your anger 2 levels.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-082-red-energy-surprise.webp?v=1aabd98c725b",
-    "downloadImage": "/assets/cards/downloads/cell-games-082-red-energy-surprise.webp?v=bfce84e36b67"
+    "image": "/assets/cards/cell-games-082-red-energy-surprise.webp?v=419ddcfc0df7",
+    "downloadImage": "/assets/cards/downloads/cell-games-082-red-energy-surprise.webp?v=aab50620bac6"
   },
   {
     "id": "cell-games-083-red-forward-stance-drill",
@@ -18135,11 +18135,11 @@ export const catalog = [
     "style": "Red",
     "set": "Cell Games Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-games-083-red-forward-stance-drill.webp?v=deb6274c7ffd",
+    "image": "/assets/cards/cell-games-083-red-forward-stance-drill.webp?v=1b09030a22b2",
     "width": 1060,
     "height": 1484,
     "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252890",
-    "downloadImage": "/assets/cards/downloads/cell-games-083-red-forward-stance-drill.webp?v=c8ee134a9539",
+    "downloadImage": "/assets/cards/downloads/cell-games-083-red-forward-stance-drill.webp?v=46dc429253ce",
     "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -18158,8 +18158,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +1 stage. HIT: Raise your anger 2 levels.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-084-red-overhand-slash.webp?v=9278c39efc64",
-    "downloadImage": "/assets/cards/downloads/cell-games-084-red-overhand-slash.webp?v=deac3351c09e"
+    "image": "/assets/cards/cell-games-084-red-overhand-slash.webp?v=5979f6ae5a45",
+    "downloadImage": "/assets/cards/downloads/cell-games-084-red-overhand-slash.webp?v=b5231b683e9e"
   },
   {
     "id": "cell-games-085-red-power-punch",
@@ -18175,8 +18175,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT +3 stages. HIT: Search your Life Deck for a Red Drill and play it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-085-red-power-punch.webp?v=599de3f8b134",
-    "downloadImage": "/assets/cards/downloads/cell-games-085-red-power-punch.webp?v=f3d8016f6331"
+    "image": "/assets/cards/cell-games-085-red-power-punch.webp?v=0c624ecc85d0",
+    "downloadImage": "/assets/cards/downloads/cell-games-085-red-power-punch.webp?v=7cacb76ad067"
   },
   {
     "id": "cell-games-086-red-shielded-strike",
@@ -18192,8 +18192,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT stages. HIT: Your opponent cannot play Energy Combat cards for the rest of Combat. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-086-red-shielded-strike.webp?v=6513abdd8eee",
-    "downloadImage": "/assets/cards/downloads/cell-games-086-red-shielded-strike.webp?v=2e5105b7a47f"
+    "image": "/assets/cards/cell-games-086-red-shielded-strike.webp?v=4d02d563442f",
+    "downloadImage": "/assets/cards/downloads/cell-games-086-red-shielded-strike.webp?v=5249787cee2d"
   },
   {
     "id": "cell-games-087-saiyan-energy-drill",
@@ -18209,8 +18209,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-087-saiyan-energy-drill.webp?v=a4d57bae1e1c",
-    "downloadImage": "/assets/cards/downloads/cell-games-087-saiyan-energy-drill.webp?v=c992de0e871f"
+    "image": "/assets/cards/cell-games-087-saiyan-energy-drill.webp?v=be1bf7a64156",
+    "downloadImage": "/assets/cards/downloads/cell-games-087-saiyan-energy-drill.webp?v=285bbe86486d"
   },
   {
     "id": "cell-games-088-saiyan-protection-drill",
@@ -18226,8 +18226,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-088-saiyan-protection-drill.webp?v=5660d1085bd2",
-    "downloadImage": "/assets/cards/downloads/cell-games-088-saiyan-protection-drill.webp?v=b7b6e38d0f11"
+    "image": "/assets/cards/cell-games-088-saiyan-protection-drill.webp?v=43cccb0ebef9",
+    "downloadImage": "/assets/cards/downloads/cell-games-088-saiyan-protection-drill.webp?v=dfdb035fa1aa"
   },
   {
     "id": "cell-games-089-saiyan-pride",
@@ -18243,8 +18243,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT stages. If stopped, banish a Drill in play. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-089-saiyan-pride.webp?v=ec57f1f50a7f",
-    "downloadImage": "/assets/cards/downloads/cell-games-089-saiyan-pride.webp?v=7cbdfc1ef54f"
+    "image": "/assets/cards/cell-games-089-saiyan-pride.webp?v=0d2c33a2daec",
+    "downloadImage": "/assets/cards/downloads/cell-games-089-saiyan-pride.webp?v=217877986d1e"
   },
   {
     "id": "cell-games-090-senzu-drill",
@@ -18260,8 +18260,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Heroes only. POWER: Once per turn, in place of an attack or in your Planning Step, you may search your Life Deck for a card with \"Senzu\" in its title and put it into your hand.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-090-senzu-drill.webp?v=bce75fe299cb",
-    "downloadImage": "/assets/cards/downloads/cell-games-090-senzu-drill.webp?v=c8f5771fd3c2"
+    "image": "/assets/cards/cell-games-090-senzu-drill.webp?v=7982c8df42dc",
+    "downloadImage": "/assets/cards/downloads/cell-games-090-senzu-drill.webp?v=223caaa3f34d"
   },
   {
     "id": "cell-games-091-something-dangerous-is-coming",
@@ -18277,8 +18277,8 @@ export const catalog = [
     "rules": "POWER: Discard 1 of your opponent's Allies in play. Search your Life Deck for an Ally and play it at 3 stages above 0.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-091-something-dangerous-is-coming.webp?v=a45fa0a8cc74",
-    "downloadImage": "/assets/cards/downloads/cell-games-091-something-dangerous-is-coming.webp?v=7ea2e65a6844"
+    "image": "/assets/cards/cell-games-091-something-dangerous-is-coming.webp?v=420c83d21919",
+    "downloadImage": "/assets/cards/downloads/cell-games-091-something-dangerous-is-coming.webp?v=d0c1e6ad05a1"
   },
   {
     "id": "cell-games-092-tiens-block",
@@ -18294,8 +18294,8 @@ export const catalog = [
     "rules": "Stops a physical attack. Raise your anger 1 level. Search your discard pile for a Drill and play it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-092-tiens-block.webp?v=4dd1d3e56546",
-    "downloadImage": "/assets/cards/downloads/cell-games-092-tiens-block.webp?v=1afd88425b52"
+    "image": "/assets/cards/cell-games-092-tiens-block.webp?v=4e5b83e75b50",
+    "downloadImage": "/assets/cards/downloads/cell-games-092-tiens-block.webp?v=3a76dec98058"
   },
   {
     "id": "cell-games-093-blue-windup-blast",
@@ -18311,8 +18311,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 1 life card per Uncommon card in your discard pile, to a maximum of 10 life cards.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-093-blue-windup-blast.webp?v=42d94a983768",
-    "downloadImage": "/assets/cards/downloads/cell-games-093-blue-windup-blast.webp?v=89a450029715"
+    "image": "/assets/cards/cell-games-093-blue-windup-blast.webp?v=64c691f41569",
+    "downloadImage": "/assets/cards/downloads/cell-games-093-blue-windup-blast.webp?v=1f1a2f5fbc0b"
   },
   {
     "id": "cell-games-094-cell-jr-1",
@@ -18344,8 +18344,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/cell-games-094-cell-jr-1.webp?v=02044e449f79",
-    "downloadImage": "/assets/cards/downloads/cell-games-094-cell-jr-1.webp?v=aaa51d0b28e5"
+    "image": "/assets/cards/cell-games-094-cell-jr-1.webp?v=37b6f63a7242",
+    "downloadImage": "/assets/cards/downloads/cell-games-094-cell-jr-1.webp?v=58aa742902d9"
   },
   {
     "id": "cell-games-095-injured",
@@ -18361,8 +18361,8 @@ export const catalog = [
     "rules": "POWER: After your physical attack hits, attach this to a personality. Their attacks deal -2 stages and -2 life cards of damage. Discard this when they are at their highest power stage.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-095-injured.webp?v=1bfcc00e95d6",
-    "downloadImage": "/assets/cards/downloads/cell-games-095-injured.webp?v=95b26e81822f"
+    "image": "/assets/cards/cell-games-095-injured.webp?v=7f74fbc86440",
+    "downloadImage": "/assets/cards/downloads/cell-games-095-injured.webp?v=2ea08c634e27"
   },
   {
     "id": "cell-games-096-saiyan-face-smash",
@@ -18378,8 +18378,8 @@ export const catalog = [
     "rules": "Saiyan Heritage only. Physical attack. DAMAGE: AT +3 stages. For this Combat, whenever your opponent uses a Physical Combat card, they discard the top card of their Life Deck.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-096-saiyan-face-smash.webp?v=a9efb4aabb97",
-    "downloadImage": "/assets/cards/downloads/cell-games-096-saiyan-face-smash.webp?v=4870740ad5d7"
+    "image": "/assets/cards/cell-games-096-saiyan-face-smash.webp?v=7551e7b3c662",
+    "downloadImage": "/assets/cards/downloads/cell-games-096-saiyan-face-smash.webp?v=002bc1879164"
   },
   {
     "id": "cell-games-097-surprise-hit",
@@ -18395,8 +18395,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +1 stage for each Setup or Drill in your discard pile.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-097-surprise-hit.webp?v=2edb09588629",
-    "downloadImage": "/assets/cards/downloads/cell-games-097-surprise-hit.webp?v=57fc549aaaa4"
+    "image": "/assets/cards/cell-games-097-surprise-hit.webp?v=16b34525d06b",
+    "downloadImage": "/assets/cards/downloads/cell-games-097-surprise-hit.webp?v=846391644d74"
   },
   {
     "id": "cell-games-098-cell-jr-2",
@@ -18428,8 +18428,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/cell-games-098-cell-jr-2.webp?v=456ed94fe8a4",
-    "downloadImage": "/assets/cards/downloads/cell-games-098-cell-jr-2.webp?v=5eb4f7922c2c"
+    "image": "/assets/cards/cell-games-098-cell-jr-2.webp?v=da5173c19ed0",
+    "downloadImage": "/assets/cards/downloads/cell-games-098-cell-jr-2.webp?v=bd615b2e0152"
   },
   {
     "id": "cell-games-099-gokus-farewell",
@@ -18445,8 +18445,8 @@ export const catalog = [
     "rules": "(Limit 1 per deck.) POWER: For this game: no MPPV; your anger gain cannot be stopped or your anger lowered/set; gain 1 anger as your turns start; lose at 5+ anger. Raise your MP to its highest level and stage.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-099-gokus-farewell.webp?v=dd88336dc043",
-    "downloadImage": "/assets/cards/downloads/cell-games-099-gokus-farewell.webp?v=5ed04f35710f"
+    "image": "/assets/cards/cell-games-099-gokus-farewell.webp?v=460ef6c5afc1",
+    "downloadImage": "/assets/cards/downloads/cell-games-099-gokus-farewell.webp?v=6aa356391d51"
   },
   {
     "id": "cell-games-100-korins-tower",
@@ -18462,7 +18462,7 @@ export const catalog = [
     "rules": "POWER: In place of an attack, you may play an Ally from your hand at 3 stages above 0.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-100-korins-tower.webp?v=659b10e5c723",
-    "downloadImage": "/assets/cards/downloads/cell-games-100-korins-tower.webp?v=0eb99a44d27b"
+    "image": "/assets/cards/cell-games-100-korins-tower.webp?v=4688e0a9f2a9",
+    "downloadImage": "/assets/cards/downloads/cell-games-100-korins-tower.webp?v=51bd316b0587"
   }
 ];
