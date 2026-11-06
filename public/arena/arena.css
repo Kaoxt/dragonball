@@ -52,8 +52,15 @@ body.arena-table-page .player-field {padding: 14px; margin: 0 0 16px; border-rad
 .arena-table-page .counter button:hover {background: #404046}
 .arena-table-page .power-readout button {background: #252528; border-color: #44444b}
 /* Keep the bright texture beneath the dark overlay and out of the border. */
-.arena-table-page .arena-mat {border-color: #303135; border-radius: 10px; padding: 10px; background-clip: padding-box}
-.arena-table-page .arena-dock {gap: 10px; padding: 8px 0 2px}
+.arena-table-page .arena-mat {min-height: 0; border-color: #303135; border-radius: 10px; padding: 10px; background-clip: padding-box}
+.arena-table-page .arena-mat .free-table {height: 114px; min-height: 0}
+.arena-table-page .arena-dock {grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; padding: 8px 0 2px}
+.arena-table-page .arena-dock .zone {width: 100%; max-width: 100%; min-width: 0}
+.arena-table-page .arena-dock .zone-label {width: 100%; overflow-wrap: anywhere}
+.arena-table-page .arena-dock .card, .arena-table-page .arena-dock .pile-cover {max-width: min(70px, 100%)}
+.sensei-stack-card {display: flex; flex-direction: column; align-items: center; gap: 8px; width: 120px}
+.sensei-stack-card > strong {font-size: 12px}
+#pile-cards .sensei-stack-card .card {width: 100%}
 .arena-table-page .arena-mat .empty-cover {background: #191a1c; border-color: #4e5055; color: #babcc3}
 .arena-table-page .pile-cover {background: #191a1c; border-color: #54565d}
 .arena-table-page .pile-cover.stacked {box-shadow: 3px 3px 0 #252528, 4px 4px 0 #54565d, 6px 6px 0 #252528, 7px 7px 0 #54565d}
@@ -130,6 +137,7 @@ body.arena-table-page #card-zoom {
   .arena-table-page .player-meta .mp-readout {width: 100%; justify-content: space-between}
   .arena-table-page .arena-mat {padding: 6px}
   .arena-table-page .arena-dock {gap: 4px}
+  .sensei-stack-card {width: calc((100% - 14px) / 2)}
   .arena-table-page #controls {gap: 7px}
   .arena-table-page #controls button {padding: 8px 12px}
   .arena-table-page #card-zoom {padding: 12px 14px 20px}

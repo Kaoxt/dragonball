@@ -137,6 +137,11 @@ function cardHTML(c, owner, zone) {
 }
 function zoneHTML(p, owner, zone) {
   const data = p.zones[zone], hidden = !Array.isArray(data), count = hidden ? data.count : data.length;
+  if (zone === 'senseiDeck') {
+    const top = p.sensei || (!hidden ? data.at(-1) : null), image = top && cardImage(top);
+    const cover = top ? image ? `<img src="${esc(image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : `<span>${esc(top.name)}</span>` : count ? '<img src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="">' : '<span>Empty</span>';
+    return `<div class="zone compact-pile sensei-pile" data-zone="senseiDeck" data-owner="${owner}"><div class="zone-label">Sensei Deck <span>${count}</span></div><button class="pile-open" data-pile="${owner}:senseiDeck" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} Sensei Deck, ${count} deck cards${p.sensei ? ' and Sensei' : ''}"><span class="pile-cover ${(p.sensei && count || count > 1) ? 'stacked' : ''} ${!top && !count ? 'empty-cover' : ''}">${cover}</span></button></div>`;
+  }
   if (!hidden && ['discard', 'removed', 'senseiDeck', 'location'].includes(zone)) {
     const last = data.at(-1), top = last ? {...last, image: cardImage(last)} : null, concealed = top?.faceDown && owner !== seat;
     return `<div class="zone compact-pile" data-zone="${zone}" data-owner="${owner}"><div class="zone-label">${labels[zone]} <span>${count}</span></div><button class="pile-open" data-pile="${owner}:${zone}" aria-haspopup="dialog" aria-label="View ${owner === seat ? 'your' : 'opponent’s'} ${labels[zone]} pile, ${count} cards"><span class="pile-cover ${count > 1 ? 'stacked' : ''} ${!top ? 'empty-cover' : ''}">${top ? top.image && !concealed ? `<img src="${esc(top.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : concealed ? '<img src="/assets/dragon-ball-online-card-back.webp?v=burnt-red-1" alt="">' : `<span>${esc(top.name)}</span>` : '<span>Empty</span>'}</span></button></div>`;
@@ -146,6 +151,15 @@ function zoneHTML(p, owner, zone) {
 function renderPile() {
   if (!openPile) return;
   const { owner, zone } = openPile, player=game.players[owner], cards = zone==='mp'?player?.personalities.map(c=>({...c,image:cardImage(c)})):player?.zones[zone];
+  if (zone === 'senseiDeck' && player) {
+    const visible = owner === seat && Array.isArray(cards), count = Array.isArray(cards) ? cards.length : cards?.count || 0;
+    const inspectCard = (c, z) => cardHTML(c, owner, z).replace('data-movable="true"', '');
+    $('pile-title').textContent = `${owner === seat ? 'Your' : player.name + '’s'} Sensei Deck · ${count}`;
+    const help = $('pile-dialog').querySelector('p.fine');
+    if (help) help.textContent = visible ? 'Your Sensei is shown first, followed by your entire Sensei Deck. Select a card to inspect it.' : `Only the Sensei is public. ${count} Sensei Deck card${count === 1 ? ' is' : 's are'} hidden.`;
+    $('pile-cards').innerHTML = (player.sensei ? `<div class="sensei-stack-card"><strong>Sensei</strong>${inspectCard(player.sensei, 'sensei')}</div>` : '') + (visible && count ? [...cards].reverse().map(c => inspectCard(c, 'senseiDeck')).join('') : `<p class="empty">${count ? 'Sensei Deck cards are private.' : 'No cards in this Sensei Deck.'}</p>`);
+    return;
+  }
   if (!Array.isArray(cards)) { $('pile-dialog').close(); openPile = null; return; }
   $('pile-title').textContent = `${owner === seat ? 'Your' : game.players[owner].name + '’s'} ${labels[zone]} · ${cards.length}`;
   const help=$('pile-dialog').querySelector('p.fine'); if(help)help.textContent=zone==='mp'?'All Main Personality levels in this stack. Select a card to enlarge it.':'Top card first. Select a card to inspect it or move your card.';
@@ -158,18 +172,21 @@ function tableHTML(p,owner){
   let n=0;
   const placed=(c,z)=>{const q=c.position||{x:(n%6)/6,y:Math.min(.9,Math.floor(n/6)*.22)};n++;return cardHTML(c,owner,z).replace('<button ',`<button data-x="${q.x}" data-y="${q.y}" `);};
   const slot=z=>`<div class="zone starting-slot" data-zone="${z}" data-owner="${owner}"><div class="zone-label">${z==='mp'?`Main Personality · L${p.level}`:labels[z]}</div>${fixed(z)&&!fixed(z).position?cardHTML(fixed(z),owner,z):'<span class="empty pile-cover">'+(fixed(z)?'Drop here to return':'No card')+'</span>'}</div>`;
-  return `<div class="arena-mat"><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat">${['mp','mastery','sensei'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div><div class="arena-dock">${['removed','discard','deck'].map(z=>zoneHTML(p,owner,z)).join('')}${['mp','mastery','sensei'].map(slot).join('')}${zoneHTML(p,owner,'senseiDeck')}</div></div>`;
+  return `<div class="arena-mat"><div class="free-table" data-table="${owner}" data-owner="${owner}" data-zone="combat">${['mp','mastery'].map(z=>fixed(z)?.position?placed(fixed(z),z):'').join('')}${playZones.map(z=>`<div class="free-zone" data-zone="${z}" data-owner="${owner}">${p.zones[z].map(c=>placed(c,z)).join('')}</div>`).join('')}</div><div class="arena-dock">${['removed','discard','deck'].map(z=>zoneHTML(p,owner,z)).join('')}${['mp','mastery'].map(slot).join('')}${zoneHTML(p,owner,'senseiDeck')}</div></div>`;
 }
 function layoutPlayedCards(){
  document.querySelectorAll('.free-table').forEach(table=>{
-  const cards=[...table.querySelectorAll('[data-card]')], columns=Math.max(1,Math.floor(table.clientWidth/120));
+  const cards=[...table.querySelectorAll('[data-card]')];
+  const cardWidth=Math.min(70,table.parentElement.querySelector('.arena-dock .pile-cover')?.getBoundingClientRect().width || 70), cardHeight=cardWidth*1.4, rowHeight=cardHeight+16;
+  const columns=Math.max(1,Math.floor(table.clientWidth/(cardHeight+12)));
   const rows=Math.max(1,Math.ceil(cards.length/columns)), used=new Set(), cell=table.clientWidth/columns;
-  table.style.height=Math.max(150,rows*134)+'px';
+  table.style.height=rows*rowHeight+'px';
+  table.dataset.cardWidth=cardWidth;table.dataset.cardHeight=cardHeight;
   cards.forEach((card,index)=>{
    const parts=card.dataset.card.split(':'),p=game.players[+parts[0]],source=parts[1]==='mp'?p.personalities[p.level-1]:['mastery','sensei'].includes(parts[1])?p[parts[1]]:p.zones[parts[1]].find(c=>c.uid===parts[2]);
    let slot=source?.position?Math.round(source.position.x*(columns-1))+Math.round(source.position.y*(rows-1))*columns:index;
    while(used.has(slot))slot=(slot+1)%(rows*columns);
-   used.add(slot);card.style.left=(slot%columns*cell+(cell-80)/2)+'px';card.style.top=(Math.floor(slot/columns)*134+10)+'px';
+   used.add(slot);card.style.width=cardWidth+'px';card.style.height=cardHeight+'px';card.style.left=(slot%columns*cell+(cell-cardWidth)/2)+'px';card.style.top=(Math.floor(slot/columns)*rowHeight+8)+'px';
   });
  });
 }
@@ -298,7 +315,7 @@ document.addEventListener('pointerup',e=>{
  const target=document.elementFromPoint(e.clientX,e.clientY),table=target?.closest('[data-table]'),z=target?.closest('[data-zone]');
  const [owner,from,uid]=d.key.split(':');if(+owner!==seat||!z||+z.dataset.owner!==seat)return;
  const fixed=['mp','mastery','sensei'].includes(from);
- if(table){const r=table.getBoundingClientRect(),position={x:Math.max(0,Math.min(1,(e.clientX-r.left-40)/Math.max(1,r.width-80))),y:Math.max(0,Math.min(1,(e.clientY-r.top-57)/Math.max(1,r.height-114)))};
+ if(table){const r=table.getBoundingClientRect(),width=Number(table.dataset.cardWidth)||80,height=Number(table.dataset.cardHeight)||114,position={x:Math.max(0,Math.min(1,(e.clientX-r.left-width/2)/Math.max(1,r.width-width))),y:Math.max(0,Math.min(1,(e.clientY-r.top-height/2)/Math.max(1,r.height-height)))};
  if(fixed||playZones.includes(from))send({type:'position',from,uid,position});
  else send({type:'move',from,uid,to:'combat',position});
  }else if(fixed){if(z.dataset.zone===from)send({type:'position',from,uid,position:null});}
