@@ -11,25 +11,52 @@
   if(type==='image/gif'&&file.size>uploadLimit)throw Error('Animated GIFs must be 500 KB or smaller. Use a PNG, JPG, or WebP for automatic resizing.');
   return type;
  }
- async function prepare(file){
+ async function decode(file){
+  try{
+   if(typeof createImageBitmap==='function')return await createImageBitmap(file);
+   const url=URL.createObjectURL(file),image=new Image();
+   try{await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=reject;image.src=url;});}
+   catch(error){URL.revokeObjectURL(url);throw error;}
+   image.close=()=>URL.revokeObjectURL(url);
+   return image;
+  }catch{throw Error('This image could not be opened. Try saving it as a PNG or JPG and select it again.');}
+ }
+ const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
+ function constrainCrop(width,height,crop={}){
+  const zoom=clamp(Number.isFinite(crop.zoom)?crop.zoom:1,1,3);
+  const side=Math.min(width,height)/zoom,half=side/2;
+  return {x:clamp(Number.isFinite(crop.x)?crop.x:width/2,half,width-half),y:clamp(Number.isFinite(crop.y)?crop.y:height/2,half,height-half),zoom};
+ }
+ function cropRect(width,height,crop){
+  const position=constrainCrop(width,height,crop),side=Math.min(width,height)/position.zoom;
+  return {x:position.x-side/2,y:position.y-side/2,side};
+ }
+ async function prepare(file,crop=null,decodedImage=null){
   const type=validate(file);
-  if(file.size<=uploadLimit)return file.type?file:file.slice(0,file.size,type);
-  let image;
-  try{image=await createImageBitmap(file);}catch{throw Error('This image could not be opened. Try saving it as a PNG or JPG and select it again.');}
+  // Keep animated GIFs intact. Static uploads use the editor's square crop.
+  if(type==='image/gif'||(!crop&&file.size<=uploadLimit))return file.type?file:file.slice(0,file.size,type);
+  const image=decodedImage||await decode(file);
   try{
    const canvas=document.createElement('canvas'),context=canvas.getContext('2d');
-   if(!context)throw Error('This browser could not resize the image. Please choose an image under 500 KB.');
-   for(const edge of [512,384,256]){
-    const scale=Math.min(1,edge/Math.max(image.width,image.height));
-    canvas.width=Math.max(1,Math.round(image.width*scale));
-    canvas.height=Math.max(1,Math.round(image.height*scale));
+   if(!context)throw Error('This browser could not resize the image. Please try another browser.');
+   const region=crop?cropRect(image.width,image.height,crop):{x:0,y:0,width:image.width,height:image.height};
+   const width=region.side??region.width,height=region.side??region.height;
+   let previousWidth=0;
+   for(const edge of [1024,768,512]){
+    const scale=Math.min(1,edge/Math.max(width,height));
+    const outputWidth=Math.max(1,Math.floor(width*scale));
+    if(outputWidth===previousWidth)continue;
+    previousWidth=outputWidth;canvas.width=outputWidth;canvas.height=Math.max(1,Math.floor(height*scale));
     context.imageSmoothingEnabled=true;context.imageSmoothingQuality='high';
-    context.drawImage(image,0,0,canvas.width,canvas.height);
-    const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/webp',.9));
-    if(blob?.size&&blob.size<=uploadLimit)return blob;
+    context.drawImage(image,region.x,region.y,width,height,0,0,canvas.width,canvas.height);
+    // Prefer lossless line art, then reduce compression quality before resolution.
+    for(const [format,quality] of [['image/png',undefined],['image/webp',.96],['image/webp',.92],['image/webp',.86]]){
+     const blob=await new Promise(resolve=>canvas.toBlob(resolve,format,quality));
+     if(blob?.size&&blob.size<=uploadLimit)return blob;
+    }
    }
    throw Error('This image could not be made small enough. Please try a smaller PNG or JPG.');
-  }finally{image.close();}
+  }finally{if(!decodedImage)image.close?.();}
  }
- window.DragonAvatar={validate,prepare};
+ window.DragonAvatar={validate,decode,constrainCrop,cropRect,prepare};
 })();
