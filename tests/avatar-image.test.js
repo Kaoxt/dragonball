@@ -6,12 +6,12 @@ import {readFileSync} from 'node:fs';
 const source=readFileSync(new URL('../public/account/avatar-image.js',import.meta.url),'utf8');
 const limit=500*1024;
 function fixture({sizes=[40000],decodeError=false,contextMissing=false,width=2048,height=1024}={}){
- const draws=[],encodes=[];let closed=0,decoded=0;
+ const draws=[],encodes=[],fills=[];let closed=0,decoded=0;
  const image={width,height,close(){closed++;}};
- const canvas={getContext(){return contextMissing?null:{drawImage(...args){draws.push(args.slice(1));}};},toBlob(callback,type,quality){encodes.push({type,quality});callback(new Blob([new Uint8Array(sizes.shift()??40000)],{type}));}};
+ const canvas={getContext(){return contextMissing?null:{fillRect(...args){fills.push({color:this.fillStyle,args});},drawImage(...args){draws.push(args.slice(1));}};},toBlob(callback,type,quality){encodes.push({type,quality});callback(new Blob([new Uint8Array(sizes.shift()??40000)],{type}));}};
  const scope={window:{},document:{createElement:()=>canvas},createImageBitmap:async()=>{decoded++;if(decodeError)throw Error('bad image');return image;}};
  vm.runInNewContext(source,scope);
- return {...scope.window.DragonAvatar,draws,encodes,get closed(){return closed;},get decoded(){return decoded;}};
+ return {...scope.window.DragonAvatar,draws,encodes,fills,get closed(){return closed;},get decoded(){return decoded;}};
 }
 const file=(size=limit+1,type='image/png',name='avatar.png')=>new File([new Uint8Array(size)],name,{type});
 
@@ -66,17 +66,24 @@ test('crop output uses the chosen original pixels at up to 1024 square',async()=
  await f.prepare(file(100),{x:2000,y:1000,zoom:1});
  assert.deepEqual(f.draws,[[1000,0,2000,2000,0,0,1024,1024]]);
 });
-test('portrait, landscape and square crops stay inside the source at every zoom',()=>{
+test('free positioning supports padding while keeping the image reachable',()=>{
  const f=fixture();
  for(const [width,height] of [[4000,1000],[1000,4000],[1000,1000]]){
-  for(const zoom of [1,1.5,3])for(const x of [-100,width/2,width+100])for(const y of [-100,height/2,height+100]){
-   const area=f.cropRect(width,height,{x,y,zoom});
-   assert.ok(area.x>=0&&area.y>=0);
-   assert.ok(area.x+area.side<=width+1e-8&&area.y+area.side<=height+1e-8);
+  for(const zoom of [.25,1,1.5,3])for(const x of [-100,width/2,width+100])for(const y of [-100,height/2,height+100]){
+   const crop=f.constrainCrop(width,height,{x,y,zoom}),area=f.cropRect(width,height,crop);
+   assert.ok(crop.x>=0&&crop.x<=width&&crop.y>=0&&crop.y<=height);
    assert.equal(area.side,Math.min(width,height)/zoom);
   }
  }
  assert.deepEqual(JSON.parse(JSON.stringify(f.cropRect(2000,1000,{x:NaN,y:Infinity,zoom:NaN}))),{x:500,y:0,side:1000});
+});
+test('Fit whole image places every source corner inside the circular border',()=>{
+ const f=fixture();
+ for(const [width,height] of [[4000,1000],[1000,4000],[1000,1000],[10000,100]]){
+  const crop=f.constrainCrop(width,height,f.fitCrop(width,height)),area=f.cropRect(width,height,crop);
+  assert.ok(crop.zoom<1);
+  for(const x of [0,width])for(const y of [0,height])assert.ok(Math.hypot(x-crop.x,y-crop.y)<area.side/2);
+ }
 });
 test('zoomed and small-source crops never upscale invented detail',async()=>{
  const f=fixture({width:600,height:400});
@@ -99,16 +106,16 @@ const cropSource=readFileSync(new URL('../public/account/avatar-crop.js',import.
 function editorFixture(){
  const f=fixture(),pending=[],preview=[];
  const element=()=>({disabled:false,hidden:true,value:'',textContent:'',focus(){},setAttribute(){}});
- const input={...element(),files:[]},out=element(),submit=element(),zoom=element(),output=element(),reset=element(),cancel=element(),help=element();
- const canvas={...element(),width:640,height:640,getContext:()=>({clearRect(){},drawImage(...args){preview.push(args.slice(1));}}),getBoundingClientRect:()=>({width:320}),setPointerCapture(){}};
- const selectors={'canvas':canvas,'[data-crop-zoom]':zoom,'output':output,'[data-crop-reset]':reset,'[data-crop-cancel]':cancel,'[data-crop-quality]':help};
+ const input={...element(),files:[]},out=element(),submit=element(),zoom=element(),output=element(),reset=element(),cancel=element(),fit=element(),help=element();
+ const canvas={...element(),width:640,height:640,getContext:()=>({clearRect(){},fillRect(){},drawImage(...args){preview.push(args.slice(1));}}),getBoundingClientRect:()=>({width:320}),setPointerCapture(){}};
+ const selectors={'canvas':canvas,'[data-crop-zoom]':zoom,'output':output,'[data-crop-reset]':reset,'[data-crop-fit]':fit,'[data-crop-cancel]':cancel,'[data-crop-quality]':help};
  const panel={...element(),querySelector:s=>selectors[s]};
  const form={querySelector:s=>({'#avatar-file':input,'.account-status':out,'[type=submit]':submit,'.avatar-crop-editor':panel}[s])};
  const scope={window:{DragonAvatar:{...f,decode:()=>new Promise(resolve=>pending.push(resolve))}}};
  vm.runInNewContext(cropSource,scope);
  const editor=scope.window.DragonAvatarCrop.mount(form);
  const select=()=>{input.files=[file(100)];return input.onchange();};
- return {editor,input,out,submit,zoom,reset,cancel,canvas,panel,preview,pending,select,f};
+ return {editor,input,out,submit,zoom,reset,cancel,fit,canvas,panel,preview,pending,select,f};
 }
 test('editor pans and zooms the same source rectangle used by the upload',async()=>{
  const e=editorFixture(),selection=e.select();
@@ -135,4 +142,28 @@ test('late decodes cannot replace a newer selection or a disposed editor',async(
  assert.equal(closed,1);assert.deepEqual(e.preview.at(-1),[0,400,800,800,0,0,640,640]);
  const third=e.select();e.editor.dispose();e.pending[2]({width:900,height:900,close(){closed++;}});await third;
  assert.equal(closed,3);assert.equal(e.editor.ready,false);
+});
+
+test('square images move freely on both axes without zooming in',async()=>{
+ const e=editorFixture(),selection=e.select();
+ e.pending.shift()({width:1000,height:1000,close(){}});await selection;
+ e.canvas.onpointerdown({pointerType:'touch',pointerId:1,clientX:100,clientY:100,preventDefault(){}});
+ e.canvas.onpointermove({pointerId:1,clientX:140,clientY:160});
+ await e.editor.prepare();
+ assert.deepEqual(e.f.draws,[[0,0,875,812.5,125,187.5,875,812.5]]);
+ assert.deepEqual(e.preview.at(-1),[0,0,875,812.5,80,120,560,520]);
+ assert.deepEqual(e.f.fills,[{color:'#121316',args:[0,0,1000,1000]}]);
+});
+test('fit and center preserve zoom and save all image edges with matching padding',async()=>{
+ const e=editorFixture(),selection=e.select();
+ e.pending.shift()({width:1200,height:1600,close(){}});await selection;
+ e.fit.onclick();const zoom=e.zoom.value;
+ assert.ok(Number(zoom)<1);
+ e.canvas.onkeydown({key:'ArrowRight',preventDefault(){}});
+ e.reset.onclick();assert.equal(e.zoom.value,zoom);
+ await e.editor.prepare();
+ const draw=e.f.draws[0];
+ assert.deepEqual(draw.slice(0,4),[0,0,1200,1600]);
+ for(let i=4;i<8;i++)assert.ok(Math.abs(e.preview.at(-1)[i]/640-draw[i]/1024)<1e-8);
+ e.editor.setBusy(true);assert.equal(e.fit.disabled,true);
 });
