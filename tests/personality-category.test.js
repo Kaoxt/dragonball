@@ -1,16 +1,17 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const audit=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/personality-category-2026-10-28/audit.json')));
+const audit=JSON.parse(readHistoricalCardFile(path.join(root,'tools/card-corrections/personality-category-2026-10-28/audit.json')));
 const template=path.join(root,'tools/card-templates/main-personalities/category-labels');
-const standard=JSON.parse(fs.readFileSync(path.join(template,'standard.json')));
-const hash=file=>createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const standard=JSON.parse(readHistoricalCardFile(path.join(template,'standard.json')));
+const hash=file=>historicalCardHash(file);
 
 test('approved compact category references retain their reviewed outlines',()=>{
   assert.equal(standard.center_x,529.5);

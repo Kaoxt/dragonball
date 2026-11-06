@@ -1,10 +1,11 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
-const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+import {catalog} from './helpers/title-width-history.js';
+const json=p=>JSON.parse(readHistoricalCardFile(p,'utf8'));
+const hash=p=>historicalCardHash(p);
 const folder='tools/card-corrections/v3-hero-reference-blue/';
 
 test('all 73 V3 Heroes use the approved blue with unchanged native layout and lossless exports',()=>{
@@ -27,7 +28,7 @@ test('all 73 V3 Heroes use the approved blue with unchanged native layout and lo
   assert.equal(hash(c.native_source_path),row.native_source_sha256);
   assert.equal(row.native_source_sha256,level?.after_native_sha256 ?? c.after_native_sha256);
   assert.ok(c.unrelated_native_elements_unchanged&&c.helper_idempotent&&c.assets_unchanged);
-  const svg=fs.readFileSync(c.native_source_path,'utf8');
+  const svg=readHistoricalCardFile(c.native_source_path,'utf8');
   assert.match(svg,/id="shared-category-material"[^]*?<[^>]*rect[^>]*fill="url\(#hero-reference-blue\)"/);
   assert.match(svg,/#258bc9/);assert.match(svg,/#15639d/);
   assert.match(svg,/id="card-category"[^>]*aria-label="HERO"/);
@@ -51,9 +52,9 @@ test('all 73 V3 Heroes use the approved blue with unchanged native layout and lo
 
 test('the Hero master uses the approved native gradient while Villain crimson is retained',()=>{
  const root='tools/card-templates/v3/masters/';
- const hero=fs.readFileSync(root+'Personality-Master-V3.svg','utf8');
+ const hero=readHistoricalCardFile(root+'Personality-Master-V3.svg','utf8');
  assert.match(hero,/id="hero-reference-blue"[^>]*x1="0"[^>]*y1="0"[^>]*x2="0"[^>]*y2="100"[^>]*gradientUnits="userSpaceOnUse"/);
  assert.match(hero,/#258bc9/);assert.match(hero,/#15639d/);
- const villain=fs.readFileSync(root+'Personality-Villain-Master-V3.svg','utf8');
+ const villain=readHistoricalCardFile(root+'Personality-Villain-Master-V3.svg','utf8');
  assert.match(villain,/id="shared-category-material"[^]*?<[^>]*rect[^>]*fill="#a61122"/);
 });

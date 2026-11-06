@@ -1,3 +1,4 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,12 +6,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='tools/card-templates/v3/';
-const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const read=p=>readHistoricalCardFile(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
-const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const hash=p=>historicalCardHash(path.join(root,p));
 const rows=['saiyan-001-050','saiyan-051-100','saiyan-101-150','saiyan-151-170','saiyan-171-220','saiyan-221-250-promos','frieza-001-010','frieza-011-060','frieza-051-100','frieza-101-125-promos','trunks-001-005','trunks-006-055','trunks-056-105'].flatMap(b=>json(`tools/card-corrections/v3-${b}/audit.json`));
 const attrs=tag=>Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map(m=>[m[1],m[2]]).filter(([k])=>!k.startsWith('data-')&&!k.startsWith('xmlns')));
 function category(svg){

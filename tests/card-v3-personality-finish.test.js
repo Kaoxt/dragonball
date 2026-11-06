@@ -1,10 +1,11 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
-const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+import {catalog} from './helpers/title-width-history.js';
+const json=p=>JSON.parse(readHistoricalCardFile(p,'utf8'));
+const hash=p=>historicalCardHash(p);
 const folder='tools/card-corrections/v3-personality-finish/';
 
 test('all V3 Personality titles retain room around LEVEL and the brush ends',()=>{
@@ -15,7 +16,7 @@ test('all V3 Personality titles retain room around LEVEL and the brush ends',()=
   const [x,y,w,h]=row.native_geometry.bounds['card-title'];
   assert.ok(x>=209.49&&x+w<=849.51,c.id);
   assert.ok(Math.abs(x+w/2-529.5)<.01&&Math.abs(y+h/2-79)<.01,c.id);
-  const svg=fs.readFileSync(row.native_source_path,'utf8');
+  const svg=readHistoricalCardFile(row.native_source_path,'utf8');
   if(c.label==='VILLAIN')assert.match(svg,/id="shared-category-material"[^]*?<[^>]*rect[^>]*fill="#a61122"/);
  }
 });

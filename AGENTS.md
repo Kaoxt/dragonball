@@ -1,3 +1,9 @@
+## Title width, centering and physical card silhouette — November 6, 2026
+
+The approved title paint uses the same horizontal mapping as its own footer, retaining the title’s y12–146 height. Keep the middle bar unchanged. Use `tools/card-templates/v3/scripts/title_width_v3.py`; center complete title ink horizontally at (canvas width−1)/2, and the visible letters/digits vertically at y79, excluding punctuation. Personality titles remain centered on the full bar at x529.5, never on the remaining space beside LEVEL. Retain current font sizes, uniform proportions, 640-unit maximum, stricter existing per-title limits and at least 40-unit LEVEL clearance. Do not move LEVEL.
+
+The isolated revision and reversible native edits are recorded in `tools/card-corrections/v3-title-footer-width/release.json` when applied. Keep earlier audits immutable and follow the explicit title before/after chain. All changes to both existing lossless exports must remain within the native title paint/text delta. The five Cell Games source gaps are reconstructed and verified as **headers only**, not recovered complete native cards. The shared 3D viewer clips circular corners at 5% of the short side, with stock depth 1.1% of the short side (thinner than the 1.5% preview). Corner clipping does not alter exported artwork pixels.
+
 ## Cell Games #30 Goku correction — November 5, 2026
 
 Strength Training shows Super Saiyan Goku and Gohan wearing Saiyan armor, not Vegeta and Trunks. The original production review misidentified the characters. Preserve the isolated native Goku head/neck insert and original artwork beneath it. Current source/export hashes and protected-pixel checks are in `tools/card-corrections/cell-games-030-goku/release.json`. Historical batch and emblem audits stay immutable; follow the subsequent artwork revision chain. The card layout, Gohan, stance, armor, rules, rarity and emblem are unchanged.

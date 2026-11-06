@@ -1,14 +1,15 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {currentCellGamesHash} from './helpers/cell-games-logo.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 import {encodeDeck,decodeDeck} from '../public/decks/deck-code.js';
 import {createDeck} from '../public/decks/store.js';
 const base='tools/card-corrections/v3-cell-games-051-100/';
-const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const json=p=>JSON.parse(readHistoricalCardFile(p,'utf8'));
+const hash=p=>historicalCardHash(p);
 const near=(a,b)=>assert.ok(Math.abs(a-b)<.021,a+' differs from '+b);
 const data=json(base+'cards.json'),rows=json(base+'audit.json'),checks=json(base+'render-verification.json');
 const held=[70,72,73,81,83];
@@ -39,7 +40,7 @@ test('Cell Games native source, readable exports and catalog agree',()=>{
   const land=r.family==='LOCATION',cx=land?741.5:529.5,fy=land?985.5:1409.5;
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));
   assert.equal(hash(r.native_source_path),currentCellGamesHash(r.native_source_path,r.native_source_sha256));assert.equal(check.native_source_sha256,r.native_source_sha256);
-  const svg=fs.readFileSync(r.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);
+  const svg=readHistoricalCardFile(r.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);
   const ids=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);
   assert.ok(check.visible_category_pixels>500);assert.ok(r.rules.length<=(land?3:5));

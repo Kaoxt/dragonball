@@ -1,3 +1,4 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {beforeCategoryNative, beforeCategoryExport, currentCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,16 +6,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos'].map(range=>JSON.parse(fs.readFileSync(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
+const batches=['001-050','051-100','101-150','151-170','171-220','221-250-promos'].map(range=>JSON.parse(readHistoricalCardFile(path.join(root,`tools/card-corrections/v3-saiyan-${range}/audit.json`))));
 const audit=batches.flat();
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const hash=p=>historicalCardHash(p);
 const near=(a,b,t=.25)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
 for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-200',151],['201-250-promos',201]])test(`Saiyan ${range} footer centering retains every unrelated pixel in both exports`,()=>{
  const dir=path.join(root,`tools/card-corrections/v3-saiyan-${range}-footer-centering`);
- const release=JSON.parse(fs.readFileSync(path.join(dir,'release.json')));
- const checks=JSON.parse(fs.readFileSync(path.join(dir,'pixel-checks.json')));
+ const release=JSON.parse(readHistoricalCardFile(path.join(dir,'release.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(dir,'pixel-checks.json')));
  const numbers=Array.from({length:50},(_,i)=>i+start);
  if(range.endsWith('-promos'))numbers.push(...Array.from({length:7},(_,i)=>`P${i+1}`));
  assert.equal(release.cards,numbers.length);assert.equal(release.independently_verified_exports,2*numbers.length);
@@ -28,7 +29,7 @@ for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-2
   assert.equal(hash(path.join(root,c.native_source_path)),row.native_source_sha256);
   assert.equal(beforeCategoryNative(row),c.after_native_sha256);
   for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256);
-  const svg=fs.readFileSync(path.join(root,c.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,c.native_source_path),'utf8');
   assert.match(svg,/data-footer-layout="mirrored-side-group-centers-v1"/);
   for(const e of c.exports){
    assert.equal(beforeCategoryExport(row,e),e.after_sha256);
@@ -44,15 +45,15 @@ for(const [range,start] of [['001-050',1],['051-100',51],['101-150',101],['151-2
 });
 test('Frieza 1–10 retain their rules and artwork fixes with a centered native footer emblem',()=>{
  const dir=path.join(root,'tools/card-corrections/v3-frieza-001-010');
- const rows=JSON.parse(fs.readFileSync(path.join(dir,'audit.json')));
- const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
- const cards=JSON.parse(fs.readFileSync(path.join(dir,'cards.json')));
+ const rows=JSON.parse(readHistoricalCardFile(path.join(dir,'audit.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(dir,'render-verification.json')));
+ const cards=JSON.parse(readHistoricalCardFile(path.join(dir,'cards.json')));
  const selected=catalog.filter(c=>c.set==='Frieza Saga'&&c.templateVersion===3&&Number(c.number)<=10);
  assert.deepEqual(selected.map(c=>Number(c.number)),Array.from({length:10},(_,i)=>i+1));
  assert.equal(rows.length,10);assert.equal(checks.length,10);
  for(const c of selected){
   const row=rows.find(r=>r.id===c.id),check=checks.find(r=>r.number===Number(c.number));
-  const source=path.join(root,row.native_source_path),svg=fs.readFileSync(source,'utf8');
+  const source=path.join(root,row.native_source_path),svg=readHistoricalCardFile(source,'utf8');
   assert.equal(hash(source),row.native_source_sha256);assert.equal(check.native_source_sha256,row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
   assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));assert.ok(svg.includes('data-set="Frieza Saga"'));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,cards.find(r=>r.id===c.id).modern_rules);
@@ -87,7 +88,7 @@ test('all 257 Saiyan Saga cards have complete verified V3 native sources and bot
  for(const c of selected){
   const row=audit.find(r=>r.id===c.id);assert.ok(row,c.id);
   const source=path.join(root,row.native_source_path);assert.equal(hash(source),row.native_source_sha256);
-  const svg=fs.readFileSync(source,'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
+  const svg=readHistoricalCardFile(source,'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
   assert.ok(svg.includes('data-template-version="3"'));
   for(const a of row.assets)assert.equal(hash(path.join(root,a.path)),a.sha256,`${c.id}: missing or stale raster layer`);
   assert.ok(row.assets.length>=3,`${c.id}: illustration/texture layers missing`);
@@ -101,14 +102,14 @@ test('all 257 Saiyan Saga cards have complete verified V3 native sources and bot
 
 test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs and verified exports',()=>{
  const rows=batches.at(-1),dir=path.join(root,'tools/card-corrections/v3-saiyan-221-250-promos');
- const cards=JSON.parse(fs.readFileSync(path.join(dir,'cards.json')));
- const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
- const artwork=JSON.parse(fs.readFileSync(path.join(dir,'artwork-review.json')));
+ const cards=JSON.parse(readHistoricalCardFile(path.join(dir,'cards.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(dir,'render-verification.json')));
+ const artwork=JSON.parse(readHistoricalCardFile(path.join(dir,'artwork-review.json')));
  assert.equal(checks.length,37);assert.equal(artwork.length,37);
- const donor=fs.readFileSync(path.join(root,audit.find(r=>r.number===175).native_source_path),'utf8');
+ const donor=readHistoricalCardFile(path.join(root,audit.find(r=>r.number===175).native_source_path),'utf8');
  const pathData=(svg,id)=>svg.match(new RegExp(`<[^>]*id="${id}"[^>]*>`))[0].match(/\sd="([^"]+)"/)[1];
  const purFour=pathData(donor,'concept-pur-number');
- const reference=fs.readFileSync(path.join(root,'tools/card-templates/v3/cell-101-150/cell-135-goku.svg'),'utf8');
+ const reference=readHistoricalCardFile(path.join(root,'tools/card-templates/v3/cell-101-150/cell-135-goku.svg'),'utf8');
  const levelFour=pathData(reference,'v3-level-number');
  for(const row of rows){
   const c=cards.find(c=>c.id===row.id),check=checks.find(c=>c.number===row.number);
@@ -116,7 +117,7 @@ test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
   for(const e of check.exports){assert.equal(row.villain_corner_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.path===e.path).before_sha256 ?? beforeCategoryExport(row,e),e.sha256);assert.ok(e.decoded_pixels_match_render);}
   const a=artwork.find(a=>a.id===row.id);assert.ok(a.display_reviewed);assert.ok(a.observations.length>30);assert.equal(hash(path.join(root,a.original_scan)),a.original_scan_sha256);
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes(`data-star-count="${c.rarity_stars}"`));
   if(c.level===4){
    assert.equal(pathData(svg,'v3-level-number'),levelFour);
@@ -136,11 +137,11 @@ test('the final Saiyan cards and promos retain reviewed rules, level-four glyphs
 });
 
 test('scarlet Villain paint and all seven Hi-Tech bars preserve unrelated published pixels',()=>{
- const checks=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-personality-middle-bars/pixel-checks.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(root,'tools/card-corrections/v3-personality-middle-bars/pixel-checks.json')));
  assert.equal(checks.length,16);assert.equal(checks.filter(c=>c.treatment.hi_tech_isolated).length,7);
  let villains=0,highTech=0;
  for(const row of audit){
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   if(svg.includes('aria-label="VILLAIN"')){villains++;assert.match(svg,/fill="#a61122"/);}
   if(row.high_tech){highTech++;assert.match(svg,/id="middle-foil-isolation"/);}
  }
@@ -173,7 +174,7 @@ test('V3 Personality numerals and stage digits keep their approved positions',()
  const personalities=audit.filter(r=>(r.number>=82&&r.number<=87)||(r.number>=104&&r.number<=107)||(r.number>=158&&r.number<=185)||(r.number>=243&&r.number<=246)||/^P[1-7]$/.test(r.number));
  assert.equal(personalities.length,49);
  for(const row of personalities){
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes('id="v3-level-number"'));assert.ok(svg.includes('id="concept-pur-number"'));
   assert.ok(svg.includes('data-digit-center-y="27"'));
   assert.ok(svg.includes('data-treatment="Native translucent tint over current card artwork"'));
@@ -212,7 +213,7 @@ test('Saiyan 71–120 preserves family exceptions and the reviewed Dragon Ball m
  }
  for(const n of [81,88]){
   const row=rows.find(r=>r.number===n);assert.equal(row.power_icon_revision,'approved-bold-infinity-colon-v16');
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes('id="constant-infinity-symbol"'));assert.ok(svg.includes('approved-bold-infinity-colon-v16'));
  }
  const three=rows.find(r=>r.number===75).rules.map(r=>r.text).join(' ');
@@ -237,7 +238,7 @@ test('Saiyan 121–170 keeps long titles inside the brush and uses reviewed fami
  assert.match(rules(170),/Reduce damage from an energy attack against you to 2 life cards/);
  for(const n of [160,164,169,170])assert.equal(rows.find(r=>r.number===n).native_geometry.icons.length,0);
  for(const n of [165,166]){
-  const row=rows.find(r=>r.number===n);const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const row=rows.find(r=>r.number===n);const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   assert.ok(svg.includes(`id="gohan-${n}-demon-badge-patch"`));
   const correction=row.artwork.current_costume_correction;assert.equal(hash(path.join(root,correction.patch_asset)),correction.patch_sha256);
  }
@@ -245,9 +246,9 @@ test('Saiyan 121–170 keeps long titles inside the brush and uses reviewed fami
 
 test('all 170 V3 titles use complete visible-ink centering and preserve unrelated pixels',()=>{
  const dir=path.join(root,'tools/card-corrections/v3-saiyan-001-170-titles');
- const release=JSON.parse(fs.readFileSync(path.join(dir,'release.json')));
- const checks=JSON.parse(fs.readFileSync(path.join(dir,'title-checks.json')));
- const pixels=JSON.parse(fs.readFileSync(path.join(dir,'pixel-checks.json')));
+ const release=JSON.parse(readHistoricalCardFile(path.join(dir,'release.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(dir,'title-checks.json')));
+ const pixels=JSON.parse(readHistoricalCardFile(path.join(dir,'pixel-checks.json')));
  assert.equal(checks.length,170);assert.equal(pixels.length,53);
  assert.equal(release.cards_byte_identical,117);assert.equal(release.pixel_preservation.pixels_changed_outside_title_footprint,0);
  for(const c of checks){
@@ -262,7 +263,7 @@ test('all 170 V3 titles use complete visible-ink centering and preserve unrelate
   for(const e of c.exports){assert.equal(row.middle_bar_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.villain_corner_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? row.footer_spacing_revision?.exports.find(x=>x.field===e.field).before_sha256 ?? beforeCategoryExport(row,e),e.after_sha256);assert.equal(e.byte_identical,!c.visual_change);}
   if(!c.visual_change){assert.equal(c.before_native_sha256,c.after_native_sha256);continue;}
   const p=pixels.find(p=>p.id===c.id);assert.ok(p);assert.equal(p.new_title_pixels_outside_brush_contour,0);assert.ok(p.minimum_brush_clearance_native_units>=1);
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');assert.ok(svg.includes('data-title-vertical-alignment="complete-visible-ink-bounds"'));
   assert.equal(p.before_native_sha256,c.before_native_sha256);assert.equal(p.after_native_sha256,c.after_native_sha256);
   for(const e of p.exports){
    assert.equal(e.old_render_matches_published_title_pixels,true);assert.equal(e.lossless_round_trip,true);
@@ -279,8 +280,8 @@ test('Saiyan 171–220 keeps original artwork, effect types, current restriction
  assert.equal(rows.length,50);assert.equal(rows.filter(r=>r.high_tech).length,7);
  assert.equal(rows.filter(r=>r.tokui_waza_backing?.all_styles).length,33);
  const dir=path.join(root,'tools/card-corrections/v3-saiyan-171-220');
- const checks=JSON.parse(fs.readFileSync(path.join(dir,'render-verification.json')));
- const artwork=JSON.parse(fs.readFileSync(path.join(dir,'artwork-review.json')));
+ const checks=JSON.parse(readHistoricalCardFile(path.join(dir,'render-verification.json')));
+ const artwork=JSON.parse(readHistoricalCardFile(path.join(dir,'artwork-review.json')));
  assert.equal(checks.length,50);assert.equal(artwork.length,50);
  for(const row of rows){
   const check=checks.find(c=>c.number===row.number);assert.ok(check);

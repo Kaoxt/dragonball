@@ -1,11 +1,12 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 import {cellGamesLogoRelease as release,currentCellGamesHash,afterCellGamesLogoHash,sourceBeforeCellGamesArtwork} from './helpers/cell-games-logo.js';
 const hashBytes=b=>createHash('sha256').update(b).digest('hex');
-const hash=p=>hashBytes(fs.readFileSync(p));
+const hash=p=>historicalCardHash(p);
 function withoutLogo(raw){
  const at=raw.indexOf('id="saga-emblem"'),start=raw.lastIndexOf('<',at),tag=raw.slice(start).match(/^<([\w:]+)/)[1];
  const tokens=new RegExp('</?'+tag+'(?=[\\s>])[^>]*>','g');let depth=0;
@@ -23,7 +24,7 @@ test('The original 95-card Cell Games satin-emblem migration retains its verifie
  assert.deepEqual(release.held_numbers,[70,72,73,81,83]);
  assert.ok(release.historical_audits_preserved);assert.equal(hash(release.asset.path),release.asset.sha256);
  for(const r of release.cards){
-  const c=cards.find(c=>c.id===r.id),source=sourceBeforeCellGamesArtwork(r.source.path,fs.readFileSync(r.source.path,'utf8'));
+  const c=cards.find(c=>c.id===r.id),source=sourceBeforeCellGamesArtwork(r.source.path,readHistoricalCardFile(r.source.path,'utf8'));
   assert.equal(hash(r.source.path),afterCellGamesLogoHash(r.source.path,r.source.after_sha256));
   assert.equal(hashBytes(withoutLogo(source)),r.source.unchanged_outside_emblem_sha256);
   assert.match(source,/data-emblem-finish="android-satin-v1"/);assert.ok(source.includes(release.asset.sha256+'.png'));

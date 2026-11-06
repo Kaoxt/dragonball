@@ -12,15 +12,15 @@ def title(label, safe_left=SAFE_LEFT, safe_right=SAFE_RIGHT):
     if max_width <= 0:
         raise ValueError('The title center must lie inside the safe region')
     group, bounds = text(label, 'Teko-SemiBold.ttf', NOMINAL_SIZE,
-                         CX, CY, 'card-title')
+                         CX, CY, 'card-title', vertical_ignore_punctuation=True)
     size = NOMINAL_SIZE * min(1.0, max_width / bounds[0])
     if size < NOMINAL_SIZE:
         group, bounds = text(label, 'Teko-SemiBold.ttf', size,
-                             CX, CY, 'card-title')
+                             CX, CY, 'card-title', vertical_ignore_punctuation=True)
     group.set('data-font-family', 'Teko SemiBold')
     group.set('data-font-size', str(size))
     group.set('data-title-fit', 'uniform-font-size')
-    group.set('data-title-vertical-alignment', 'complete-visible-ink-bounds')
+    group.set('data-title-vertical-alignment', 'letters-and-digits-visible-ink-bounds')
     group.set('data-safe-region', f'{safe_left} {safe_right}')
     return group, {'font_size': size, 'nominal_font_size': NOMINAL_SIZE,
                    'visible_width': bounds[0], 'visible_height': bounds[1],

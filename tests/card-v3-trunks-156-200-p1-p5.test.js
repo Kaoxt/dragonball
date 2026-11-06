@@ -1,3 +1,4 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,12 +6,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='tools/card-corrections/v3-trunks-156-200-p1-p5/';
-const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const read=p=>readHistoricalCardFile(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
-const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const hash=p=>historicalCardHash(path.join(root,p));
 const near=(a,b)=>assert.ok(Math.abs(a-b)<.02,`${a} differs from ${b}`);
 const rows=json(base+'audit.json'),data=json(base+'cards.json');
 

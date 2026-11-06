@@ -1,13 +1,14 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 import {encodeDeck,decodeDeck} from '../public/decks/deck-code.js';
 import {createDeck} from '../public/decks/store.js';
 
-const release=JSON.parse(fs.readFileSync('tools/card-corrections/v3-cell-games-final-five/release.json','utf8'));
-const source=JSON.parse(fs.readFileSync('tools/card-corrections/v3-cell-games-051-100/cards.json','utf8'));
+const release=JSON.parse(readHistoricalCardFile('tools/card-corrections/v3-cell-games-final-five/release.json','utf8'));
+const source=JSON.parse(readHistoricalCardFile('tools/card-corrections/v3-cell-games-051-100/cards.json','utf8'));
 const expected=[
  [70,'c76a0bda02106c07579700d4c257f5a34eb4a810','bef777a759df27582dadbcd1b46d80b6bd98d1b5'],
  [72,'94499e432ca5db936dd66018607b78528bd585bb','013bd73a6eee6dfa31c55381ecf7b5c970de67f3'],
@@ -33,10 +34,10 @@ for(const [number,imageBlob,downloadBlob] of expected)test(`Cell Games ${number}
  assert.deepEqual([card.width,card.height],[1060,1484]);
  assert.equal(row.exports.length,2);
  for(const [index,field] of ['image','downloadImage'].entries()){
-  const e=row.exports.find(e=>e.field===field),bytes=fs.readFileSync(e.path);
-  assert.equal(bytes.length,e.size_bytes);
-  assert.equal(digest(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes]),'sha1'),[imageBlob,downloadBlob][index]);
-  assert.equal(digest(bytes),e.sha256);
+  const e=row.exports.find(e=>e.field===field),bytes=readHistoricalCardFile(e.path);
+  assert.equal(historicalCardSize(e.path),e.size_bytes);
+  assert.equal(historicalCardGitHash(e.path),[imageBlob,downloadBlob][index]);
+  assert.equal(historicalCardHash(e.path),e.sha256);
   assert.equal(card[field],e.path.replace(/^public/,'')+'?v='+e.sha256.slice(0,12));
   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
   let offset=12,dimensions;

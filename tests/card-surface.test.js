@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {catalog} from '../public/cards/catalog.js';
-import {isHiTech,isUltraRare,finishForImage} from '../public/card-surface.js';
+import {isHiTech,isUltraRare,finishForImage,cardGeometry} from '../public/card-surface.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {existsSync, readFileSync} from 'node:fs';
 
@@ -39,4 +39,17 @@ test('all 17 Ultra Rares use their catalog identity, including four confirmed Sa
     assert.match(ultraRareMask({...card,image:card.image+'new'}), /generic-v[23]\.svg$/, 'revised art never gets an old silhouette');
   }
   assert.equal(isUltraRare({name:'Ultra Rare Goku',rarity:'Rare'}),false);
+});
+
+
+test('physical card corners stay circular in both orientations and depth scales with short edge', () => {
+  for (const [width,height,displayedWidth] of [[1060,1484,360],[1484,1060,504],[1060,1484,180]]) {
+    const {radiusX,radiusY,depth} = cardGeometry(width,height,displayedWidth);
+    const displayedHeight = displayedWidth * height / width;
+    const short = Math.min(displayedWidth,displayedHeight);
+    assert.ok(Math.abs(displayedWidth * radiusX / 100 - short * .05) < 1e-9);
+    assert.ok(Math.abs(displayedHeight * radiusY / 100 - short * .05) < 1e-9);
+    assert.ok(Math.abs(depth - short * .011) < 1e-9);
+    assert.ok(depth < short * .015, 'thinner than the approved initial preview');
+  }
 });

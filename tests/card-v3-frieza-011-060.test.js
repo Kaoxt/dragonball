@@ -1,3 +1,4 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {beforeCategoryNative, beforeCategoryExport, currentCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,11 +6,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dir=path.join(root,'tools/card-corrections/v3-frieza-011-060');
-const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name)));
-const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const read=name=>JSON.parse(readHistoricalCardFile(path.join(dir,name)));
+const hash=p=>historicalCardHash(path.join(root,p));
 const near=(a,b,t=.01)=>assert.ok(Math.abs(a-b)<t,`${a} differs from ${b}`);
 
 test('Frieza 11–60 have current native sources, unchanged reviewed rules and both lossless exports',()=>{
@@ -20,7 +21,7 @@ test('Frieza 11–60 have current native sources, unchanged reviewed rules and b
  for(const c of selected){
   assert.equal(c.templateVersion,3);const row=rows.find(r=>r.id===c.id),data=cards.find(r=>r.id===c.id),check=checks.find(r=>r.number===row.number);
   assert.equal(hash(row.native_source_path),row.native_source_sha256);assert.equal(check.native_source_sha256,row.villain_corner_revision?.before_native_sha256 ?? row.footer_spacing_revision?.before_native_sha256 ?? beforeCategoryNative(row));
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');assert.ok(!/<(?:\w+:)?text[\s>]/.test(svg));
   assert.equal(c.rules,row.rules.map(r=>r.text).join(' '));assert.equal(c.rules,data.modern_rules);assert.ok(row.rules.length<=5);
   assert.ok(row.current_preview_revision.title_fit.max_width<=(row.personality_values?700:760));
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
@@ -46,9 +47,9 @@ test('Frieza 11–60 have current native sources, unchanged reviewed rules and b
 
 test('Frieza 1–50 use the current mirrored footer without changing unrelated pixels',()=>{
  const folder=path.join(root,'tools/card-corrections/v3-frieza-001-050-footer-centering');
- const checks=JSON.parse(fs.readFileSync(path.join(folder,'pixel-checks.json')));
- const release=JSON.parse(fs.readFileSync(path.join(folder,'release.json')));
- const rows=[...JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-frieza-001-010/audit.json'))),...read('audit.json')];
+ const checks=JSON.parse(readHistoricalCardFile(path.join(folder,'pixel-checks.json')));
+ const release=JSON.parse(readHistoricalCardFile(path.join(folder,'release.json')));
+ const rows=[...JSON.parse(readHistoricalCardFile(path.join(root,'tools/card-corrections/v3-frieza-001-010/audit.json'))),...read('audit.json')];
  assert.equal(release.cards,50);assert.equal(release.independently_verified_exports,100);
  assert.equal(release.pixels_changed_outside_footer_ink_footprint,0);
  assert.deepEqual(checks.map(c=>c.number),Array.from({length:50},(_,i)=>i+1));
@@ -76,7 +77,7 @@ test('Frieza Personalities preserve LEVEL, PUR, stage values and Guldo eye corre
  const rows=read('audit.json'),cards=read('cards.json');
  for(const row of rows.filter(r=>r.personality_values)){
   const c=cards.find(c=>c.id===row.id);assert.deepEqual(row.personality_values,{level:c.level,pur:c.pur,stages:c.stages});
-  const svg=fs.readFileSync(path.join(root,row.native_source_path),'utf8');
+  const svg=readHistoricalCardFile(path.join(root,row.native_source_path),'utf8');
   assert.match(svg,new RegExp(`id="v3-level-number"[^>]*aria-label="${c.level}"`));
   assert.match(svg,new RegExp(`id="concept-pur-number"[^>]*aria-label="${c.pur}"`));
   for(const [i,n] of [...c.stages].reverse().entries()){

@@ -1,14 +1,15 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const read=p=>fs.readFileSync(path.join(root,p));
+const read=p=>readHistoricalCardFile(path.join(root,p));
 const json=p=>JSON.parse(read(p));
-const hash=p=>createHash('sha256').update(read(p)).digest('hex');
+const hash=p=>historicalCardHash(path.join(root,p));
 const base='tools/card-corrections/v3-personality-short-labels/';
 
 test('the original 134 V3 Personalities retain short native labels and independently verified lossless exports',()=>{

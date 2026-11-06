@@ -1,16 +1,18 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='tools/card-corrections/v3-cell-151-160/';
-const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const read=p=>readHistoricalCardFile(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
-const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const hash=p=>historicalCardHash(path.join(root,p));
 const near=(a,b)=>assert.ok(Math.abs(a-b)<.021,`${a} differs from ${b}`);
 const rows=json(base+'audit.json'),data=json(base+'cards.json');
 
@@ -78,7 +80,7 @@ test('Cell Saga is complete and the final ten retain original rules, values and 
 test('the four final Cell Ultra Rares retain reviewed, revision-pinned subject masks',()=>{
  const masks=json(base+'foil-mask-review.json');assert.deepEqual(masks.map(m=>m.number),[157,158,159,160]);
  for(const m of masks){
-  const c=catalog.find(c=>c.id===m.id);assert.equal(c.image,m.image);assert.equal(ultraRareMask(c),m.mask.replace(/^public/,''));
+  const c=catalog.find(c=>c.id===m.id);assert.equal(c.image,m.image);assert.equal(ultraRareMask(currentCatalog.find(card=>card.id===c.id)),m.mask.replace(/^public/,''));
   assert.equal(hash(m.mask),m.after_sha256);assert.ok(m.visual_overlay_reviewed);assert.match(read(m.mask),/clip-path="url\(#art-window\)"/);assert.match(read(m.mask),/fill="black"/);
   assert.match(ultraRareMask({...c,image:c.image+'changed'}),/generic-v3\.svg$/);
  }

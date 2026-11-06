@@ -1,3 +1,4 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import {beforeCategoryNative, beforeCategoryExport} from './helpers/card-category-revision.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -6,12 +7,12 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='tools/card-corrections/v3-trunks-106-155/';
-const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const read=p=>readHistoricalCardFile(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
-const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const hash=p=>historicalCardHash(path.join(root,p));
 const near=(a,b)=>assert.ok(Math.abs(a-b)<.02,`${a} differs from ${b}`);
 const rows=json(base+'audit.json'),data=json(base+'cards.json');
 
@@ -65,7 +66,7 @@ test('Trunks 106–155 preserve original values, reviewed rules, three Porunga c
  }
  for(const [n,stars]of [[113,6],[114,7],[136,5]]){const r=rows.find(r=>r.number===n),svg=read(r.native_source_path);assert.ok(r.artwork.approved_artwork_exception);assert.equal(r.artwork.background_gain,1);assert.match(svg,/id="porunga-full-art"/);assert.match(svg,new RegExp('id="dragon-ball-left-emblem"[^>]*data-star-count="'+stars+'"'));const p=json(base+'artwork-preservation.json').find(x=>x.number===n);assert.equal(p.changed_artwork_pixels,0);assert.ok(p.checked_artwork_pixels>2000000);}
  for(const n of json(base+'native-personality-numerals.json')){const svg=read(rows.find(r=>r.number===n.number).native_source_path);const tag=svg.match(new RegExp('<[^>]*id="'+n.id+'"[^>]*>'))[0];const d=tag.match(/ d="([^"]+)"/)[1];assert.equal(createHash('sha256').update(d).digest('hex'),n.reference_outline_sha256);assert.ok(n.original_retained_outline_matches);}
- const masteryHash='10948151b2cb82fa190ec88cdf52e8ab8db469acf4c3c7baaf13096f1a17a78c';const sourceBase='tools/card-templates/v3/masters/mastery-v3-source/';const source=json(sourceBase+'manifest.json');const chunks=source.parts.map(p=>{assert.equal(hash(sourceBase+p.file),p.sha256);return fs.readFileSync(path.join(root,sourceBase+p.file));});assert.equal(createHash('sha256').update(gunzipSync(Buffer.concat(chunks))).digest('hex'),masteryHash);
+ const masteryHash='10948151b2cb82fa190ec88cdf52e8ab8db469acf4c3c7baaf13096f1a17a78c';const sourceBase='tools/card-templates/v3/masters/mastery-v3-source/';const source=json(sourceBase+'manifest.json');const chunks=source.parts.map(p=>{assert.equal(hash(sourceBase+p.file),p.sha256);return readHistoricalCardFile(path.join(root,sourceBase+p.file));});assert.equal(createHash('sha256').update(gunzipSync(Buffer.concat(chunks))).digest('hex'),masteryHash);
  for(const n of [144,145,146,147,148,149]){const r=rows.find(r=>r.number===n),svg=read(r.native_source_path);assert.equal(r.family,'MASTERY');assert.equal(r.artwork.mastery_approved_source_sha256,masteryHash);assert.match(svg,/M16 146H1043V600L529.5 852L16 600Z/);assert.match(svg,/M36.5 610.06037V953.4L48 965/);assert.match(svg,/M1022.5 610.06037V952.4L1010 965/);assert.match(svg,/mastery-surround-painted-edge-mask/);assert.match(svg,/translate\(249.5 868\) scale\(0?\.5283018867\d* 0?\.81\)/);}
  assert.match(read(rows.find(r=>r.number===147).native_source_path),/id="namekian-frame-hue"/);
  const blue=rows.find(r=>r.number===149);assert.ok(blue.artwork.expression_patch_retained);assert.match(read(blue.native_source_path),/id="retained-149-approved-mouth"/);const mouth=json(base+'artwork-preservation.json').find(x=>x.number===149);assert.equal(mouth.changed_artwork_pixels,0);

@@ -1,18 +1,19 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const folder=path.join(root,'tools/card-corrections/typography-2026-10-28');
-const audit=JSON.parse(fs.readFileSync(path.join(folder,'title-export-audit.json')));
-const native=JSON.parse(fs.readFileSync(path.join(folder,'power-native-audit.json')));
-const power=JSON.parse(fs.readFileSync(path.join(folder,'power-export-audit.json')));
-const alignment=JSON.parse(fs.readFileSync(path.join(folder,'power-alignment-audit.json')));
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const audit=JSON.parse(readHistoricalCardFile(path.join(folder,'title-export-audit.json')));
+const native=JSON.parse(readHistoricalCardFile(path.join(folder,'power-native-audit.json')));
+const power=JSON.parse(readHistoricalCardFile(path.join(folder,'power-export-audit.json')));
+const alignment=JSON.parse(readHistoricalCardFile(path.join(folder,'power-alignment-audit.json')));
+const hash=p=>historicalCardHash(p);
 
 test('V2 catalog cards retain verified smaller, visibly centered title exports',()=>{
   assert.equal(hash(path.join(root,'tools/card-templates/shared/Teko-SemiBold.ttf')),'c6e312589232623060ab3d55b86d2b2978c5f5af958e96781acaf0f7043bc9b3');

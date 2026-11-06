@@ -1,12 +1,13 @@
+import {historicalCardHash, historicalCardSize, historicalCardGitHash, readHistoricalCardFile} from './helpers/title-width-history.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/title-width-history.js';
 
 const base='tools/card-corrections/v3-trunks-p6-p10/';
-const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const json=p=>JSON.parse(readHistoricalCardFile(p,'utf8'));
+const hash=p=>historicalCardHash(p);
 const rows=json(base+'audit.json'),data=json(base+'cards.json');
 const near=(a,b)=>assert.ok(Math.abs(a-b)<.02,`${a} differs from ${b}`);
 
@@ -20,7 +21,7 @@ test('Trunks is complete: all 200 numbered cards and P1–P10 use V3',()=>{
   const c=cards.find(c=>c.id===r.id),d=data.find(c=>c.id===r.id),check=checks.find(c=>c.number===r.number);
   assert.equal(c.rules,d.modern_rules);assert.equal(c.rules,r.rules.map(x=>x.text).join(' '));assert.equal(d.rarity_stars,2);
   assert.equal(hash(r.native_source_path),r.native_source_sha256);assert.equal(check.native_source_sha256,r.native_source_sha256);
-  const svg=fs.readFileSync(r.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);
+  const svg=readHistoricalCardFile(r.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text[\s>]/);
   assert.match(svg,/data-set="Trunks Saga"/);assert.match(svg,/id="footer-rarity"[^>]*data-star-count="2"/);
   assert.equal(check.title_pixels_outside_brush,0);assert.ok(check.minimum_brush_clearance>=1);assert.ok(check.title_helper_idempotent);
   assert.ok(r.rules.length<=5);assert.equal(r.native_geometry.icons.length,r.power_icon?1:0);

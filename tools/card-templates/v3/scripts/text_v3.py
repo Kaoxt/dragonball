@@ -11,17 +11,18 @@ def elem(tag,parent=None,**kw):
     return e
 
 fontcache={}
-def text(text,font,size,cx,cy,id,fill='#ffffff',stroke=0,maxwidth=None):
+def text(text,font,size,cx,cy,id,fill='#ffffff',stroke=0,maxwidth=None,vertical_ignore_punctuation=False):
     key=str(FONTS/font)
     if key not in fontcache: fontcache[key]=TTFont(key)
     f=fontcache[key]; gs=f.getGlyphSet(); cmap=f.getBestCmap(); upm=f['head'].unitsPerEm
-    paths=[];bounds=[];advance=0
+    paths=[];bounds=[];vertical_bounds=[];advance=0
     for c in text:
         name=cmap[ord(c)];g=gs[name];p=SVGPathPen(gs);g.draw(p);b=BoundsPen(gs);g.draw(b)
         if b.bounds:
             x0,y0,x1,y1=b.bounds;bounds.append((advance+x0,y0,advance+x1,y1));paths.append((advance,p.getCommands()))
+        if b.bounds and (not vertical_ignore_punctuation or c.isalnum()): vertical_bounds.append(b.bounds)
         advance+=g.width
-    x0=min(b[0] for b in bounds);x1=max(b[2] for b in bounds);y0=min(b[1] for b in bounds);y1=max(b[3] for b in bounds)
+    x0=min(b[0] for b in bounds);x1=max(b[2] for b in bounds);y0=min(b[1] for b in vertical_bounds);y1=max(b[3] for b in vertical_bounds)
     sy=size/upm;sx=sy
     if maxwidth: sx=min(sx,(maxwidth-2*stroke)/(x1-x0))
     g=elem('g',id=id,fill=fill,transform=f'translate({cx-(x0+x1)*sx/2:.12f} {cy+(y0+y1)*sy/2:.12f}) scale({sx:.12f} {-sy:.12f})',aria_label=text)
