@@ -7,7 +7,7 @@ from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor,as_completed
 from lxml import etree as E
 from PIL import Image
-import argparse,copy,hashlib,json,subprocess,sys,re,os
+import argparse,copy,hashlib,json,subprocess,sys,re,os,shutil
 import numpy as np
 ROOT=Path(__file__).resolve().parents[3]
 HERE=Path(__file__).resolve().parent
@@ -101,11 +101,16 @@ def process(args):
         ys,xs=np.where(diff);checks.append({'field':field,'path':str(target.relative_to(ROOT)),'before_sha256':sha(target),'before_size_bytes':target.stat().st_size,'before_git_blob_sha':hashlib.sha1(f'blob {target.stat().st_size}\0'.encode()+target.read_bytes()).hexdigest(),'after_sha256':sha(staged),'dimensions':list(baseline.size),'changed_pixels':int(diff.sum()),'changed_bounds':[int(xs.min()),int(ys.min()),int(xs.max()+1),int(ys.max()+1)],'pixels_changed_outside_native_header_delta':0,'pixels_changed_below_header':0,'old_render_max_channel_difference':maximum,'old_render_p99_channel_difference':p99,'lossless_round_trip':True})
     (work/'before-source.svg').write_bytes(before);(work/'after-source.svg').write_bytes(after)
     result={'id':card['id'],'source':{'path':str(source.relative_to(ROOT)) if source else f'tools/card-corrections/v3-title-footer-width/reconstructed-headers/{card["id"]}.svg','before_sha256':digest(before),'after_sha256':digest(after),'scope':'complete-native-source' if source else 'verified-header-only','reversible_edits':title_width.revert_segments(before,after)},'alignment':alignment,'helper_idempotent':True,'exports':checks}
+    if not source:
+        asset=OUT/'reconstructed-headers'/'assets'/(card['id']+'-below-header.png')
+        shutil.copy2(asset,work/'below-header.png')
+        result['source']['assets']=[{'path':str(asset.relative_to(ROOT)),'sha256':sha(asset),'staged_file':'below-header.png'}]
     (work/'verification.json').write_text(json.dumps(result,indent=2)+'\n');return result
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('work',type=Path);parser.add_argument('--ids',nargs='*');parser.add_argument('--workers',type=int,default=4);parser.add_argument('--apply',action='store_true');args=parser.parse_args();work=args.work.resolve();work.mkdir(parents=True,exist_ok=True)
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('work',type=Path);parser.add_argument('--ids',nargs='*');parser.add_argument('--workers',type=int,default=4);parser.add_argument('--apply',action='store_true');parser.add_argument('--set');parser.add_argument('--assemble',action='store_true');args=parser.parse_args();work=args.work.resolve();work.mkdir(parents=True,exist_ok=True)
     cards=catalog();mapping=sources()
+    if args.set:cards=[c for c in cards if c['set']==args.set]
     if args.ids:cards=[c for c in cards if c['id'] in args.ids];assert len(cards)==len(args.ids)
     if (OUT/'release.json').exists():
         release=json.loads((OUT/'release.json').read_text())
@@ -113,10 +118,26 @@ def main():
             for f in [r['source'],*r['exports']]:assert sha(ROOT/f['path'])==f['after_sha256']
         print('Revision already applied; all source and export bytes unchanged.');return
     results=[]
-    with ProcessPoolExecutor(max_workers=args.workers) as pool:
-        futures={pool.submit(process,(c,str(mapping[c['id']]) if c['id'] in mapping else None,str(work))):c['id'] for c in cards}
-        for f in as_completed(futures):
-            r=f.result();results.append(r);print(f'Verified {len(results)}/{len(cards)} {r["id"]}',flush=True)
+    if args.assemble:
+        assert args.apply and not args.ids and not args.set
+        for card in cards:
+            r=json.loads((work/card['id']/'verification.json').read_text())
+            assert r['id']==card['id']
+            for e in r['exports']:
+                assert sha(ROOT/e['path'])==e['before_sha256']
+                assert sha(work/card['id']/(e['field']+'.webp'))==e['after_sha256']
+            assert sha(work/card['id']/'after-source.svg')==r['source']['after_sha256']
+            if r['source']['scope']=='complete-native-source':assert sha(ROOT/r['source']['path'])==r['source']['before_sha256']
+            results.append(r)
+    else:
+        with ProcessPoolExecutor(max_workers=args.workers) as pool:
+            futures={pool.submit(process,(c,str(mapping[c['id']]) if c['id'] in mapping else None,str(work))):c['id'] for c in cards}
+            for f in as_completed(futures):
+                try:r=f.result()
+                except BaseException:
+                    for pending in futures:pending.cancel()
+                    raise
+                results.append(r);print(f'Verified {len(results)}/{len(cards)} {r["id"]}',flush=True)
     results.sort(key=lambda r:next(i for i,c in enumerate(cards) if c['id']==r['id']))
     release={'revision':REV,'baseline_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'cards':results,'card_count':len(results),'export_count':sum(len(r['exports']) for r in results),'historical_audits_preserved':True,'middle_bars_and_footers_unchanged':True}
     (work/'release.json').write_text(json.dumps(release,indent=2)+'\n')
@@ -124,6 +145,8 @@ def main():
     assert not args.ids and len(results)==len(catalog())
     text=(ROOT/'public/cards/catalog.js').read_text();profiles=(ROOT/'public/ultra-rare-profiles.js').read_text()
     for r in results:
+        for asset in r['source'].get('assets',[]):
+            staged=work/r['id']/asset['staged_file'];assert sha(staged)==asset['sha256'];dest=ROOT/asset['path'];dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(staged,dest)
         target=ROOT/r['source']['path'];target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes((work/r['id']/'after-source.svg').read_bytes())
         for e in r['exports']:
             target=ROOT/e['path'];assert sha(target)==e['before_sha256'];target.write_bytes((work/r['id']/(e['field']+'.webp')).read_bytes())

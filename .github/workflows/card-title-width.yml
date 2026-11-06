@@ -13,9 +13,102 @@ concurrency:
   group: card-title-width-roundness
   cancel-in-progress: true
 jobs:
-  prepare:
+  preflight:
     runs-on: ubuntu-24.04
-    timeout-minutes: 180
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            tools/deployment
+      - uses: actions/cache/restore@v4
+        id: source-cache
+        with:
+          path: .git/objects
+          key: title-source-${{ github.sha }}
+          restore-keys: source-git-v1-Linux-
+      - name: Fetch source snapshot
+        if: steps.source-cache.outputs.cache-matched-key == ''
+        run: git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
+      - name: Materialize source
+        run: git -c checkout.workers=4 sparse-checkout disable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install renderer and verification dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml python3-fonttools
+      - name: Verify representative headers and reconstructed headers
+        run: >-
+          /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-preflight"
+          --workers 2 --ids cell-135-goku trunks-166-goku-the-protector trunks-144-red-style-mastery android-007-blasted-land
+          cell-games-070-orange-burning-aura-drill cell-games-072-orange-energy-setup cell-games-073-orange-energy-shot
+          cell-games-081-red-energy-gathering-drill cell-games-083-red-forward-stance-drill
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: title-width-review
+          path: |
+            ${{ runner.temp }}/title-preflight/**/before.png
+            ${{ runner.temp }}/title-preflight/**/after.png
+            ${{ runner.temp }}/title-preflight/**/verification.json
+            ${{ runner.temp }}/title-preflight/release.json
+          retention-days: 7
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        set: [Saiyan Saga, Frieza Saga, Trunks Saga, Android Saga, Cell Saga, Cell Games Saga]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            tools/deployment
+      - uses: actions/cache/restore@v4
+        id: source-cache
+        with:
+          path: .git/objects
+          key: title-source-${{ github.sha }}
+          restore-keys: source-git-v1-Linux-
+      - name: Fetch source snapshot
+        if: steps.source-cache.outputs.cache-matched-key == ''
+        run: git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
+      - name: Materialize source
+        run: git -c checkout.workers=4 sparse-checkout disable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install renderer and verification dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml python3-fonttools
+      - name: Verify every export in this set
+        env:
+          CARD_SET: ${{ matrix.set }}
+        run: /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-batch" --workers 4 --set "$CARD_SET"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: title-batch-${{ matrix.set }}
+          path: |
+            ${{ runner.temp }}/title-batch/**/after-source.svg
+            ${{ runner.temp }}/title-batch/**/image.webp
+            ${{ runner.temp }}/title-batch/**/downloadImage.webp
+            ${{ runner.temp }}/title-batch/**/below-header.png
+            ${{ runner.temp }}/title-batch/**/verification.json
+          retention-days: 3
+          compression-level: 0
+          if-no-files-found: error
+  assemble:
+    needs: [preflight, render]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -39,38 +132,30 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
       - name: Install renderer and verification dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml python3-fonttools
-          npm ci
-      - name: Verify representative headers and the five reconstructed headers
-        run: >-
-          /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-preflight"
-          --workers 2 --ids cell-135-goku trunks-166-goku-the-protector trunks-144-red-style-mastery android-007-blasted-land
-          cell-games-070-orange-burning-aura-drill cell-games-072-orange-energy-setup cell-games-073-orange-energy-shot
-          cell-games-081-red-energy-gathering-drill cell-games-083-red-forward-stance-drill
-      - name: Verify and apply every published card
-        run: /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-batch" --workers 4 --apply
-      - name: Check repeatability and all application tests
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: title-batch-*
+          merge-multiple: true
+          path: ${{ runner.temp }}/title-batch
+      - name: Apply only verified outputs and check repeatability
         run: |
+          /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-batch" --assemble --apply
           /usr/bin/python3 tools/card-templates/v3/patch_title_width.py "$RUNNER_TEMP/title-batch" --apply
+      - name: Validate application
+        run: |
+          npm ci
           npm test
           npm run check
-      - name: Save review evidence
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: title-width-review
-          path: |
-            ${{ runner.temp }}/title-preflight/**/before.png
-            ${{ runner.temp }}/title-preflight/**/after.png
-            ${{ runner.temp }}/title-preflight/**/verification.json
-            ${{ runner.temp }}/title-preflight/release.json
-            ${{ runner.temp }}/title-batch/release.json
+          name: title-width-release
+          path: tools/card-corrections/v3-title-footer-width/release.json
           retention-days: 7
-          if-no-files-found: warn
       - name: Commit verified images and native sources to the working branch
         run: |
           git config user.name "github-actions[bot]"
