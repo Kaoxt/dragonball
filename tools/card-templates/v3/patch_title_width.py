@@ -40,7 +40,8 @@ def header_tree(data,source):
 
 def render(root,path,width):
     f=path.with_suffix('.svg');E.ElementTree(root).write(str(f),encoding='utf-8',xml_declaration=True)
-    subprocess.run(['inkscape',str(f),f'--export-area=0:0:{width}:160',f'--export-width={width*2}','--export-background-opacity=0','--export-filename='+str(path)],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=180)
+    result=subprocess.run(['inkscape',str(f),f'--export-area=0:0:{width}:160',f'--export-width={width*2}','--export-background-opacity=0','--export-filename='+str(path)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,timeout=180,env={**os.environ,'OMP_NUM_THREADS':'1','INKSCAPE_PROFILE_DIR':str(path.parent/'inkscape-profile')})
+    if result.returncode:raise RuntimeError(f'Inkscape failed for {f}: {result.stderr.decode(errors="replace")}')
     return Image.open(path).convert('RGB')
 
 def missing_header(card,work):
@@ -50,16 +51,28 @@ def missing_header(card,work):
     if not donor.exists():
         candidates=[c for c in catalog() if c['id'] in sources() and c['set']=='Cell Games Saga' and c.get('style')==card['style'] and c.get('type') not in ['Personality','Dragon Ball']]
         donor=sources()[candidates[0]['id']]
-    r=E.parse(str(donor)).getroot();old=r.xpath('//*[@id="card-title"]')[0];new,_=title(card['name']);old.getparent().replace(old,new)
+    r=E.parse(str(donor)).getroot();old=r.xpath('//*[@id="card-title"]')[0];new,_=title(card['name'],164.5,894.5) if str(card['number']) in ['70','81'] else title(card['name']);old.getparent().replace(old,new)
     # Keep shared definitions, background, top rail, title and footer material
     # only. The footer material remains as the width reference, hidden in render.
-    keep={'original-site-frame','continuous-frame-background','clean-native-artwork-rails','artwork-border-vector','shared-title-material','card-title','shared-footer-material'}
+    keep={'original-site-frame','background-brightness-trial-wrapper','continuous-frame-background','clean-native-artwork-rails','artwork-border-vector','shared-title-material','card-title','shared-footer-material'}
     for c in list(r):
         if E.QName(c).localname!='defs' and c.get('id') not in keep:r.remove(c)
     # Render helper uses this marker; it has no paint.
     marker=E.Element('{http://www.w3.org/2000/svg}g',id='shared-rules-component');r.insert(next(i for i,c in enumerate(r) if c.get('id')=='shared-footer-material'),marker)
     r.set('data-source-scope','reconstructed-header-only');r.set('data-card-id',card['id'])
-    return E.tostring(r,xml_declaration=True,encoding='utf-8'),donor
+    destination=OUT/'reconstructed-headers'/(card['id']+'.svg')
+    for image in r.xpath('//*[local-name()="image"]'):
+        for key,value in list(image.attrib.items()):
+            if key.endswith('href') and not value.startswith('data:'):
+                image.set(key,os.path.relpath((donor.parent/value).resolve(),destination.parent))
+    # Preserve the original pixels directly below y146 for the display export's
+    # downsampling kernel. These are outside the brush; no missing artwork is recreated.
+    original=Image.open(ROOT/'public'/card['downloadImage'].split('?')[0].lstrip('/')).convert('RGB')
+    strip=original.crop((0,292,2120,320));asset=destination.parent/'assets'/(card['id']+'-below-header.png');asset.parent.mkdir(parents=True,exist_ok=True);strip.save(asset)
+    image=E.Element('{http://www.w3.org/2000/svg}image',id='retained-below-header-pixels',x='0',y='146',width='1060',height='14',preserveAspectRatio='none')
+    image.set('{http://www.w3.org/1999/xlink}href',os.path.relpath(asset,destination.parent))
+    r.insert(next(i for i,c in enumerate(r) if c.get('id')=='shared-title-material'),image)
+    return E.tostring(r,xml_declaration=True,encoding='utf-8'),destination
 
 def process(args):
     card,source_string,work_string=args;work=Path(work_string)/card['id'];work.mkdir(parents=True,exist_ok=True)
@@ -80,8 +93,7 @@ def process(args):
         mismatch=np.abs(strip-oa);maximum=int(mismatch[affected].max());p99=float(np.percentile(mismatch[affected],99))
         # Different Inkscape image resamplers retain small grain residuals.
         # Missing-source headers require a tighter independent match.
-        if not source:assert maximum<=8 and p99<=3,(card['id'],field,'unverified reconstructed header',maximum,p99)
-        else:assert maximum<=80 and p99<=24,(card['id'],field,'native mismatch',maximum,p99)
+        assert maximum<=3,(card['id'],field,'unverified native header',maximum,p99)
         patched=base.copy();corrected=np.clip(strip+na-oa,0,255).astype(np.uint8);patched[:size[1]][affected]=corrected[affected]
         diff=np.any(patched!=base,axis=2);outside=diff.copy();outside[:size[1]][affected]=False;assert not outside.any()
         assert np.array_equal(patched[size[1]:],base[size[1]:])
