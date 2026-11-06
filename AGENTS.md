@@ -1,3 +1,7 @@
+## Cell Games final five publication — November 5, 2026
+
+Cards 70, 72, 73, 81 and 83 are now included using the exact approved display/download exports. Cell Games 001–100 has no gaps. Read `tools/card-corrections/v3-cell-games-final-five/README.md` and `release.json` for immutable hashes and recovery provenance. Preserve #72’s rocky-background Goku and #81’s Red Energy Gathering Drill title. The earlier 95-card production/logo audits below are historical. The interrupted upload did not retain these five native SVGs or final native-render audits; expected native Git blob IDs are recorded for future recovery. Do not claim those sources were recovered or rerender/alter the approved exports without recovering or reconstructing verified native sources.
+
 ## Personality Level numerals
 
 Use the retained Level paths and placement in `tools/card-templates/v3/assets/text/personality-levels.json` for both the visible numeral and its shadow. Cell Saga Goku #135 is the Level 4 reference. Verify the Level and printed card number against the card's own source record. For the 23 revised cards, follow `level_numeral_revision` in their batch audits for the image and source hashes.

@@ -18,7 +18,9 @@ test('Cell Games second batch publishes only reviewed artwork and preserves comp
  assert.deepEqual(data.map(c=>c.number),Array.from({length:50},(_,i)=>i+51));
  assert.deepEqual(rows.map(c=>c.number),released);
  assert.deepEqual(checks.map(c=>c.number),released);
- const live=catalog.filter(c=>c.set==='Cell Games Saga'&&Number(c.number)>50);
+ // The original 45-card production audit is historical; the final five have a separate release.
+ const live=catalog.filter(c=>c.set==='Cell Games Saga'&&released.includes(Number(c.number)));
+ assert.deepEqual(catalog.filter(c=>c.set==='Cell Games Saga'&&Number(c.number)>50).map(c=>Number(c.number)),Array.from({length:50},(_,i)=>i+51));
  assert.deepEqual(live.map(c=>Number(c.number)),released);
  for(const n of held)assert.equal(data.find(c=>c.number===n).release_status,'awaiting artwork');
  const artwork=json(base+'artwork-review.json');assert.deepEqual(artwork.map(c=>c.number),released);

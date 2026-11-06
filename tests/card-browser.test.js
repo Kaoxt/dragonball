@@ -56,10 +56,10 @@ test('Personality labels appear in filters, result cards and details while legac
  assert.equal(fields[fields.findIndex(c=>c.textContent==='Type')+1].textContent,'Personality');
 });
 
-test('Cell Games Saga exposes 95 reviewed cards across two pages and resolves every detail and download',()=>{
+test('Cell Games Saga exposes 100 reviewed cards across two pages and resolves every detail and download',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
- assert.equal(cards.length,95);assert.equal(grid(b).length,60);
- assert.equal(b.elements['results-count'].textContent,'Showing 1–60 of 95 cards in Cell Games Saga');
+ assert.equal(cards.length,100);assert.equal(grid(b).length,60);
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–60 of 100 cards in Cell Games Saga');
  assert.equal(b.elements['collection-name'].hidden,true);
  assert.equal(b.elements['collection-logo-cell-games'].hidden,false);
  assert.equal(b.elements['collection-logo-cell-games'].alt,'Cell Games Saga');
@@ -68,8 +68,8 @@ test('Cell Games Saga exposes 95 reviewed cards across two pages and resolves ev
  assert.equal(b.elements['pagination-top'].hidden,false);
  assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:60},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
  const second=browser('/cards/cell-games-saga/?sort=number&page=2');
- const remaining=Array.from({length:40},(_,i)=>i+61).filter(n=>![70,72,73,81,83].includes(n));
- assert.equal(second.elements['results-count'].textContent,'Showing 61–95 of 95 cards in Cell Games Saga');
+ const remaining=Array.from({length:40},(_,i)=>i+61);
+ assert.equal(second.elements['results-count'].textContent,'Showing 61–100 of 100 cards in Cell Games Saga');
  assert.deepEqual(grid(second).map(c=>c.href),remaining.map(n=>`/cards/cell-games-saga/${String(n).padStart(3,'0')}`));
  for(const card of cards){
   const direct=browser(cardPath(card));assert.equal(direct.elements['card-detail'].open,true);

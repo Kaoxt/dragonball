@@ -15,10 +15,11 @@ function withoutLogo(raw){
  }
  throw new Error('Unclosed emblem');
 }
-test('Every published Cell Games card uses the approved satin emblem in both lossless sizes',()=>{
+test('The original 95-card Cell Games satin-emblem migration remains byte-identical',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga');
  assert.equal(release.published_card_count,95);assert.equal(release.cards.length,95);
- assert.deepEqual(release.cards.map(c=>c.id),cards.map(c=>c.id));
+ assert.equal(cards.length,100);
+ assert.deepEqual(release.cards.map(c=>c.id),cards.filter(c=>!release.held_numbers.includes(Number(c.number))).map(c=>c.id));
  assert.deepEqual(release.held_numbers,[70,72,73,81,83]);
  assert.ok(release.historical_audits_preserved);assert.equal(hash(release.asset.path),release.asset.sha256);
  for(const r of release.cards){

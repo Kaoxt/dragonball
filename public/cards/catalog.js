@@ -17907,6 +17907,23 @@ export const catalog = [
     "downloadImage": "/assets/cards/downloads/cell-games-069-orange-beatdown.webp?v=0df0c72f9cf5"
   },
   {
+    "id": "cell-games-070-orange-burning-aura-drill",
+    "name": "Orange Burning Aura Drill",
+    "number": "70",
+    "type": "Drill",
+    "style": "Orange",
+    "set": "Cell Games Saga",
+    "status": "Ready",
+    "image": "/assets/cards/cell-games-070-orange-burning-aura-drill.webp?v=ab33c39d5805",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252877",
+    "downloadImage": "/assets/cards/downloads/cell-games-070-orange-burning-aura-drill.webp?v=9c56d8c47037",
+    "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
+  },
+  {
     "id": "cell-games-071-orange-energy-concentration",
     "name": "Orange Energy Concentration",
     "number": "71",
@@ -17922,6 +17939,40 @@ export const catalog = [
     "templateVersion": 3,
     "image": "/assets/cards/cell-games-071-orange-energy-concentration.webp?v=bd473d3fb80c",
     "downloadImage": "/assets/cards/downloads/cell-games-071-orange-energy-concentration.webp?v=46e4af4680e3"
+  },
+  {
+    "id": "cell-games-072-orange-energy-setup",
+    "name": "Orange Energy Setup",
+    "number": "72",
+    "type": "Energy Combat",
+    "style": "Orange",
+    "set": "Cell Games Saga",
+    "status": "Ready",
+    "image": "/assets/cards/cell-games-072-orange-energy-setup.webp?v=ab6b1c005e98",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252879",
+    "downloadImage": "/assets/cards/downloads/cell-games-072-orange-energy-setup.webp?v=2ac6893a8a41",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza, you may instead use this to stop a physical attack. Banish after use.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
+  },
+  {
+    "id": "cell-games-073-orange-energy-shot",
+    "name": "Orange Energy Shot",
+    "number": "73",
+    "type": "Energy Combat",
+    "style": "Orange",
+    "set": "Cell Games Saga",
+    "status": "Ready",
+    "image": "/assets/cards/cell-games-073-orange-energy-shot.webp?v=a0d528ab9e7b",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252880",
+    "downloadImage": "/assets/cards/downloads/cell-games-073-orange-energy-shot.webp?v=84c8da7cec01",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. If stopped, your opponent discards the top 2 cards of their Life Deck.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-games-074-orange-fateful-attack",
@@ -18043,6 +18094,23 @@ export const catalog = [
     "downloadImage": "/assets/cards/downloads/cell-games-080-quick-combat-drill.webp?v=6c5f723f139b"
   },
   {
+    "id": "cell-games-081-red-energy-gathering-drill",
+    "name": "Red Energy Gathering Drill",
+    "number": "81",
+    "type": "Drill",
+    "style": "Red",
+    "set": "Cell Games Saga",
+    "status": "Ready",
+    "image": "/assets/cards/cell-games-081-red-energy-gathering-drill.webp?v=fc9958f50a79",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252888",
+    "downloadImage": "/assets/cards/downloads/cell-games-081-red-energy-gathering-drill.webp?v=e887b871a64e",
+    "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
+  },
+  {
     "id": "cell-games-082-red-energy-surprise",
     "name": "Red Energy Surprise",
     "number": "82",
@@ -18058,6 +18126,23 @@ export const catalog = [
     "templateVersion": 3,
     "image": "/assets/cards/cell-games-082-red-energy-surprise.webp?v=b427d58f6d72",
     "downloadImage": "/assets/cards/downloads/cell-games-082-red-energy-surprise.webp?v=593e6b0172b7"
+  },
+  {
+    "id": "cell-games-083-red-forward-stance-drill",
+    "name": "Red Forward Stance Drill",
+    "number": "83",
+    "type": "Drill",
+    "style": "Red",
+    "set": "Cell Games Saga",
+    "status": "Ready",
+    "image": "/assets/cards/cell-games-083-red-forward-stance-drill.webp?v=d3d0f19e7788",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://retrotcg.net/games/dragon-ball-z-ccg-tcg/cell-games-saga/252890",
+    "downloadImage": "/assets/cards/downloads/cell-games-083-red-forward-stance-drill.webp?v=d77f06b46b19",
+    "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
+    "rarity": "Uncommon",
+    "templateVersion": 3
   },
   {
     "id": "cell-games-084-red-overhand-slash",

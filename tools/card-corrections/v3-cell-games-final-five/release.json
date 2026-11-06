@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "release": "Cell Games final five approved exports",
+  "numbers": [
+    70,
+    72,
+    73,
+    81,
+    83
+  ],
+  "approved_archive_sha256": "42a32a11db4c5ab4c0652732cbdbcb65b6ef3a308e29a326f3145ead1e48c149",
+  "provenance": "Existing approved display blobs recovered from the interrupted GitHub upload; downloads recovered byte-for-byte from Cell-Games-Final-Five.zip. No artwork or card renders were changed.",
+  "native_source_recovery": "Interrupted upload did not preserve the five native SVGs or final production audits remotely. Original expected native blob IDs are retained below; this publication verifies the approved exports, not a new native render.",
+  "cards": [
+    {
+      "id": "cell-games-070-orange-burning-aura-drill",
+      "number": 70,
+      "name": "Orange Burning Aura Drill",
+      "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
+      "style": "Orange",
+      "type": "Drill",
+      "rarity": "Uncommon",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-070-orange-burning-aura-drill.webp",
+          "sha256": "ab33c39d58056cab9d420c518c6cd4074a51a52d1ad018038a90b0040a48b5af",
+          "git_blob_sha": "c76a0bda02106c07579700d4c257f5a34eb4a810",
+          "size_bytes": 1564756,
+          "dimensions": [
+            1060,
+            1484
+          ],
+          "lossless": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-070-orange-burning-aura-drill.webp",
+          "sha256": "9c56d8c47037ed00c23f35fd44ec4736612a860db1695dfe7ff6280b6a6d54eb",
+          "git_blob_sha": "bef777a759df27582dadbcd1b46d80b6bd98d1b5",
+          "size_bytes": 4520340,
+          "dimensions": [
+            2120,
+            2968
+          ],
+          "lossless": true
+        }
+      ],
+      "display_matches_download_downsample": true,
+      "expected_native_path": "tools/card-templates/v3/cell-games-final-five/cell-games-070-orange-burning-aura-drill.svg",
+      "expected_native_git_blob_sha": "20fe72a7906268daa3b0f281d8f135f010413910",
+      "native_source_available": false
+    },
+    {
+      "id": "cell-games-072-orange-energy-setup",
+      "number": 72,
+      "name": "Orange Energy Setup",
+      "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza, you may instead use this to stop a physical attack. Banish after use.",
+      "style": "Orange",
+      "type": "Energy Combat",
+      "rarity": "Uncommon",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-072-orange-energy-setup.webp",
+          "sha256": "ab6b1c005e98193e1be7d6ec0111deb77b409fee41760f78333ea6697ab9f9bd",
+          "git_blob_sha": "94499e432ca5db936dd66018607b78528bd585bb",
+          "size_bytes": 1544388,
+          "dimensions": [
+            1060,
+            1484
+          ],
+          "lossless": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-072-orange-energy-setup.webp",
+          "sha256": "2ac6893a8a4181b679f2180406a3e67f18944224479a2c9eb5d2967e01f1932d",
+          "git_blob_sha": "013bd73a6eee6dfa31c55381ecf7b5c970de67f3",
+          "size_bytes": 4290018,
+          "dimensions": [
+            2120,
+            2968
+          ],
+          "lossless": true
+        }
+      ],
+      "display_matches_download_downsample": true,
+      "expected_native_path": "tools/card-templates/v3/cell-games-final-five/cell-games-072-orange-energy-setup.svg",
+      "expected_native_git_blob_sha": "a993111e9f41e83bd5bcc1e149c339ae93139cf2",
+      "native_source_available": false
+    },
+    {
+      "id": "cell-games-073-orange-energy-shot",
+      "number": 73,
+      "name": "Orange Energy Shot",
+      "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. If stopped, your opponent discards the top 2 cards of their Life Deck.",
+      "style": "Orange",
+      "type": "Energy Combat",
+      "rarity": "Uncommon",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-073-orange-energy-shot.webp",
+          "sha256": "a0d528ab9e7b17eb782db8198dfb06f88e7eb56f33091508c8f9dc2b9e30adbe",
+          "git_blob_sha": "83d263e5dbe31855d0e4211c9cb79eff32bb71c7",
+          "size_bytes": 1515064,
+          "dimensions": [
+            1060,
+            1484
+          ],
+          "lossless": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-073-orange-energy-shot.webp",
+          "sha256": "84c8da7cec01ea40861efdae9167b5b00a75f77245049536f0ee270cfbf07f10",
+          "git_blob_sha": "a9f30903356bf4cc630d22f7e3a97d5a3b9fec01",
+          "size_bytes": 4718348,
+          "dimensions": [
+            2120,
+            2968
+          ],
+          "lossless": true
+        }
+      ],
+      "display_matches_download_downsample": true,
+      "expected_native_path": "tools/card-templates/v3/cell-games-final-five/cell-games-073-orange-energy-shot.svg",
+      "expected_native_git_blob_sha": "46f472959840246ee81ecc1bc461ef2bb904a0e5",
+      "native_source_available": false
+    },
+    {
+      "id": "cell-games-081-red-energy-gathering-drill",
+      "number": 81,
+      "name": "Red Energy Gathering Drill",
+      "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
+      "style": "Red",
+      "type": "Drill",
+      "rarity": "Uncommon",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-081-red-energy-gathering-drill.webp",
+          "sha256": "fc9958f50a79540d913153d4399d46cd5a6b06774e304504811fd55fca773f8e",
+          "git_blob_sha": "23e3de44c5ce669034a5186083cdda86e8c72af7",
+          "size_bytes": 1572170,
+          "dimensions": [
+            1060,
+            1484
+          ],
+          "lossless": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-081-red-energy-gathering-drill.webp",
+          "sha256": "e887b871a64ee593cda78e4a7507ae10674d56d8ae3be1da0b762fe2795459b2",
+          "git_blob_sha": "c45f8d2dec53b395338227b36f8f9152c50ae759",
+          "size_bytes": 4622124,
+          "dimensions": [
+            2120,
+            2968
+          ],
+          "lossless": true
+        }
+      ],
+      "display_matches_download_downsample": true,
+      "expected_native_path": "tools/card-templates/v3/cell-games-final-five/cell-games-081-red-energy-gathering-drill.svg",
+      "expected_native_git_blob_sha": "669f78be41429c18c31f81ebb7e162a94b2fd8d4",
+      "native_source_available": false
+    },
+    {
+      "id": "cell-games-083-red-forward-stance-drill",
+      "number": 83,
+      "name": "Red Forward Stance Drill",
+      "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
+      "style": "Red",
+      "type": "Drill",
+      "rarity": "Uncommon",
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-083-red-forward-stance-drill.webp",
+          "sha256": "d3d0f19e7788f667e393d28b8a4b1dff03d03ff473a45c50e2f83a6b4e93f8b4",
+          "git_blob_sha": "3ce1b7b0fea6505fe54a2bc171b031e59c471a9c",
+          "size_bytes": 1775940,
+          "dimensions": [
+            1060,
+            1484
+          ],
+          "lossless": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-083-red-forward-stance-drill.webp",
+          "sha256": "d77f06b46b1945883f3601d551d279ee450e9055aae2445793c0d7a1e652ebe9",
+          "git_blob_sha": "648b92685eeffebf2a654528c3629946b5cee065",
+          "size_bytes": 5438984,
+          "dimensions": [
+            2120,
+            2968
+          ],
+          "lossless": true
+        }
+      ],
+      "display_matches_download_downsample": true,
+      "expected_native_path": "tools/card-templates/v3/cell-games-final-five/cell-games-083-red-forward-stance-drill.svg",
+      "expected_native_git_blob_sha": "e78b521aa7183c0b3c61f35ea721cea606170fc1",
+      "native_source_available": false
+    }
+  ]
+}
