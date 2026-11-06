@@ -9,7 +9,7 @@ const source = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8'
 // Exercise the production selection, click and drag handlers with real game rules.
 const handlers = source.slice(source.indexOf('function getSelected()'), source.indexOf("$('room-form').onsubmit"));
 const closeHandler = source.slice(source.indexOf("$('card-zoom').addEventListener('close'"), source.lastIndexOf('restoreTable();'));
-const labels = {deck:'Life Deck',hand:'Hand',combat:'Combat cards',noncombat:'Non-Combat',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'Discard',removed:'Removed',senseiDeck:'Sensei Deck',mp:'Main Personality',mastery:'Mastery',sensei:'Sensei'};
+const labels = {deck:'Life Deck',hand:'Hand',combat:'Combat cards',noncombat:'Non-Combat',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'Discard',removed:'Banished',senseiDeck:'Sensei Deck',mp:'Main Personality',mastery:'Mastery',sensei:'Sensei'};
 function arena() {
   const game = newGame();
   addPlayer(game, 'a', 'You'); addPlayer(game, 'b', 'Opponent');
