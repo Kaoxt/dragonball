@@ -6,7 +6,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeBannerFile,beforeBannerHash} from './banner-logo-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const releasePath=path.join(root,'tools/card-corrections/v3-title-footer-width/release.json');
 const release=fs.existsSync(releasePath)?JSON.parse(fs.readFileSync(releasePath,'utf8')):null;
@@ -14,7 +14,7 @@ const rows=release?[...release.cards.flatMap(r=>[r.source,...r.exports]),...(rel
 const revisions=new Map(rows.map(r=>[r.path,r]));
 const name=p=>path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
 const hash=b=>createHash('sha256').update(b).digest('hex');
-function current(p){const bytes=fs.readFileSync(p),revision=revisions.get(name(p));if(revision)assert.equal(hash(bytes),revision.after_sha256,`Current title revision changed: ${p}`);return{bytes,revision};}
+function current(p){const bytes=beforeBannerFile(p),revision=revisions.get(name(p));if(revision)assert.equal(beforeBannerHash(p),revision.after_sha256,`Current title revision changed: ${p}`);return{bytes,revision};}
 export function historicalCardHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
 export function historicalCardSize(p){const{bytes,revision}=current(p);return revision?.before_size_bytes??bytes.length;}
 export function historicalCardGitHash(p){const{bytes,revision}=current(p);return revision?.before_git_blob_sha??createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex');}

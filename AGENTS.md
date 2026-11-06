@@ -1,3 +1,7 @@
+## Cell Games banner emblem — November 6, 2026
+
+All 100 Cell Games cards use the approved banner emblem in both display and download images. Read `tools/card-corrections/v3-cell-games-banner-logo/README.md` and `release.json`. This revision follows the title-width update; preserve the existing titles and all pixels outside the emblem footprint. Keep the visible centers and width recorded in the release. The five final cards retain their missing complete native-source status; their footer delta was validated against a matching native donor. Earlier satin-emblem, artwork and title audits remain immutable.
+
 ## Title width, centering and physical card silhouette — November 6, 2026
 
 The approved title paint uses the same horizontal mapping as its own footer, retaining the title’s y12–146 height. Keep the middle bar unchanged. Use `tools/card-templates/v3/scripts/title_width_v3.py`; center complete title ink horizontally at (canvas width−1)/2, and the visible letters/digits vertically at y79, excluding punctuation. Personality titles remain centered on the full bar at x529.5, never on the remaining space beside LEVEL. Retain current font sizes, uniform proportions, 640-unit maximum, stricter existing per-title limits and at least 40-unit LEVEL clearance. Do not move LEVEL.
