@@ -1,4 +1,4 @@
-import {setupCardSurface} from './card-surface.js?v=20261103-finish-choice';
+import {setupCardSurface} from './card-surface.js?v=20261106-rounded-stock';
 
 const controllers = new WeakMap();
 

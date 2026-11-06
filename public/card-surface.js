@@ -1,6 +1,6 @@
 import {catalog} from './cards/catalog.js';
 import {createUltraRareFoil} from './ultra-rare-foil.js?v=20261103';
-import {ultraRareMask} from './ultra-rare-profiles.js?v=20261103';
+import {ultraRareMask} from './ultra-rare-profiles.js?v=20261106-title-width';
 
 // Resolve the actual catalog image, including legacy saved-deck URLs. Never
 // infer a finish from an opponent's hidden card, a name, or an external image.
@@ -20,6 +20,14 @@ export function finishForImage(source, origin = 'https://dragonballocg.com') {
   } catch { return null; }
 }
 
+// The approved reference has circular corners at 5% of the short edge.
+// The 1.1% stock depth is slightly thinner than the 1.5% preview.
+export function cardGeometry(width, height, displayedWidth) {
+  const short = Math.min(width, height);
+  return {radiusX: 5 * short / width, radiusY: 5 * short / height,
+    depth: Math.max(0, displayedWidth) * short / width * .011};
+}
+
 export function setupCardSurface(image) {
   const doc = image.ownerDocument || document;
   const element = doc.createElement('div'); element.className = 'card-object';
@@ -31,8 +39,9 @@ export function setupCardSurface(image) {
   const face = doc.createElement('div'); face.className = 'card-face';
   image.replaceWith(element);
   // Closely spaced planes form a thin gray card stock edge under the face.
-  for (let i = 3; i >= 1; i--) {
+  for (let i = 12; i >= 1; i--) {
     const edge = doc.createElement('span'); edge.className = `card-stock card-stock-${i}`;
+    edge.style.setProperty('--stock-step', String(i / 12));
     edge.setAttribute('aria-hidden', 'true'); element.append(edge);
   }
   element.append(face); face.append(image);
@@ -63,6 +72,19 @@ export function setupCardSurface(image) {
       'spectrum-y':85-v*70, 'etch-x':110-u*120, 'etch-y':20+v*60
     })) element.style.setProperty(`--${key}`, `${value}%`);
   }
+  let naturalWidth = 1060, naturalHeight = 1484;
+  function resize(width = element.offsetWidth) {
+    const geometry = cardGeometry(naturalWidth, naturalHeight, width);
+    element.style.setProperty('--card-radius-x', `${geometry.radiusX}%`);
+    element.style.setProperty('--card-radius-y', `${geometry.radiusY}%`);
+    element.style.setProperty('--card-depth', `${geometry.depth}px`);
+  }
+  // Resize only when layout changes; dragging keeps the existing transform-only path.
+  const observer = globalThis.ResizeObserver && new ResizeObserver(entries => {
+    const entry = entries.find(entry => entry.target === element);
+    if (entry) resize(entry.contentRect.width);
+  });
+  observer?.observe(element);
   function refresh() {
     const source = image.getAttribute('src');
     const card = finishForImage(source, globalThis.location?.origin || 'https://dragonballocg.com');
@@ -82,6 +104,7 @@ export function setupCardSurface(image) {
     element.hidden = !source;
     const width = image.naturalWidth || card?.width || 1060, height = image.naturalHeight || card?.height || 1484;
     element.style.setProperty('--card-ratio', String(width / height));
+    naturalWidth = width; naturalHeight = height; resize();
     lastX = lastY = undefined;
     reflect();
   }

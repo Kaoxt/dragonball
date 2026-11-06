@@ -1,4 +1,4 @@
-import {setupCardSurface} from '/card-surface.js?v=20261028-firefox-performance';
+import {setupCardSurface} from '/card-surface.js?v=20261106-rounded-stock';
 const $ = id => document.getElementById(id);
 const stage=$('stage'),strength=$('strength'),value=$('value'),tilt=$('tilt'),foil=$('foil'),status=$('status'),animate=$('animate'),motion=$('motion');
 const surface=setupCardSurface(stage.querySelector('img')),card=surface.element;card.id='card';
