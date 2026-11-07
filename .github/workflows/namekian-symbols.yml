@@ -50,6 +50,13 @@ jobs:
         run: |
           /usr/bin/python3 tools/card-templates/v3/patch_namekian_symbols.py "$RUNNER_TEMP/namekian-symbols" --workers 4 --apply
           /usr/bin/python3 tools/card-templates/v3/patch_namekian_symbols.py "$RUNNER_TEMP/namekian-symbols" --apply
+      - name: Save pixel-verified output to the repair branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/cards public/cards/catalog.js tools/card-templates/v3 tools/card-corrections/v3-namekian-symbols/release.json
+          git diff --cached --quiet || git commit -m "Correct the dragon style symbol on all 59 Namekian cards"
+          git -c pack.window=0 push origin HEAD:refs/heads/fix-namekian-style-symbol
       - name: Validate application and historical audits
         run: |
           npm ci
@@ -62,10 +69,3 @@ jobs:
           name: namekian-symbol-release
           path: tools/card-corrections/v3-namekian-symbols/release.json
           retention-days: 7
-      - name: Save verified output to the repair branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/assets/cards public/cards/catalog.js tools/card-templates/v3 tools/card-corrections/v3-namekian-symbols/release.json
-          git diff --cached --quiet || git commit -m "Correct the dragon style symbol on all 59 Namekian cards"
-          git -c pack.window=0 push origin HEAD:refs/heads/fix-namekian-style-symbol

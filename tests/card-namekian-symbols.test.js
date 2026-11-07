@@ -16,7 +16,7 @@ test('every Namekian card uses the dragon style mark, including both Masteries',
  for(const r of release.cards){
   const c=catalog.find(c=>c.id===r.id),raw=fs.readFileSync(r.source.path,'utf8');
   assert.equal(hash(Buffer.from(raw)),r.source.after_sha256);
-  assert.match(raw,/aria-label="Namekian 龍"/);assert.match(raw,/data-symbol-revision="namekian-dragon-v1"/);
+  assert.match(raw,/aria-label="Namekian (?:龍|&#x9[Ff]8[Dd];|&#40845;)"/);assert.match(raw,/data-symbol-revision="namekian-dragon-v1"/);
   assert.ok(raw.includes(glyph));assert.ok(r.helper_idempotent);
   assert.equal(hash(beforeNamekianFile(r.source.path)),r.source.before_sha256);
   for(const e of r.source.reversible_edits){
