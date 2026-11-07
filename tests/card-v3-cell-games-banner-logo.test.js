@@ -2,9 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog,beforeNamekianHash} from './helpers/namekian-symbol-history.js';
 import {bannerRelease as release,beforeBannerFile,beforeBannerHash} from './helpers/banner-logo-history.js';
-const hash=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const hash=p=>beforeNamekianHash(p);
 test('all 100 Cell Games cards retain the approved centered banner logo and exact protected pixels',()=>{
  assert.ok(release);assert.equal(release.published_card_count,100);assert.equal(release.export_count,200);
  assert.equal(hash(release.asset.path),release.asset.sha256);

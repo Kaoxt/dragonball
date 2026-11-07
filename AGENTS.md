@@ -1,3 +1,16 @@
+## Namekian style symbol — November 7, 2026
+
+Namekian cards use **龍**, the style mark printed at the bottom-right of the
+original Score cards. The rules-area diamond marked 無 was copied in error.
+Use `tools/card-templates/v3/assets/style-symbols/namekian-dragon.svg` and
+`scripts/namekian_symbol.py`; retain the same Noto Sans CJK JP Bold outline
+weight, teal color, native symbol height and center. Both Masteries retain
+their enlarged placement. The 59-card repair and all 118 lossless exports
+are recorded in `tools/card-corrections/v3-namekian-symbols/release.json`.
+Only symbol/backing pixels may change; keep prior audits immutable and
+follow the reversible source history. The shared Trunks #7 donor and builder
+use this corrected mark for future cards.
+
 ## Personality stage order — November 7, 2026
 
 Every Personality stage column prints the highest value at the top and zero
@@ -106,7 +119,7 @@ Trunks Saga 106–155 now use current V3. Evidence is in `tools/card-corrections
 
 Trunks Saga 056–105 now use V3; evidence is in `tools/card-corrections/v3-trunks-056-105/`. Preserve #58’s restored victim, #89’s corrected Goku hand, and #79/#80’s approved frontal Porunga with both completed hands and unchanged full-art scale/colors. All fifty retain two-star Uncommon rarity. The six Villain Personalities #100–105 use their original Level/PUR/stages, red power-box corners and fixed native text. All use the mirrored footer anchors. Masteries occur later; use `references/mastery-v3.md` when reached.
 
-Trunks Saga 006–055 now use current V3, with evidence in `tools/card-corrections/v3-trunks-006-055/`. The native Namekian V3 donor is #7: retain the established teal-green background hue, native 無 glyph without a circle, and matching rules-box corner accents; all common V3 coordinates remain unchanged. Preserve #25’s approved frontal Porunga at its existing full-art scale/colors and #52’s recorded open-mouth patch. #40 retains its earlier corrected tight portrait crop. The original scan for #25 reads “top 2 cards” from the discard pile; earlier source/catalog text saying 3 was a transcription error, now corrected. Commons #6–40 retain one-star rarity; #41–55 retain two stars. All 50 use the mirrored footer anchors. Later Masteries must use `references/mastery-v3.md`; there are none in this batch.
+Trunks Saga 006–055 now use current V3, with evidence in `tools/card-corrections/v3-trunks-006-055/`. The native Namekian V3 donor is #7: retain the established teal-green background hue, native 龍 glyph without a circle, and matching rules-box corner accents; all common V3 coordinates remain unchanged. Preserve #25’s approved frontal Porunga at its existing full-art scale/colors and #52’s recorded open-mouth patch. #40 retains its earlier corrected tight portrait crop. The original scan for #25 reads “top 2 cards” from the discard pile; earlier source/catalog text saying 3 was a transcription error, now corrected. Commons #6–40 retain one-star rarity; #41–55 retain two stars. All 50 use the mirrored footer anchors. Later Masteries must use `references/mastery-v3.md`; there are none in this batch.
 
 Trunks Saga 001–005 use current V3; evidence is in `tools/card-corrections/v3-trunks-001-005/`. Preserve the native Trunks double-C emblem at its existing 54-unit height, centered by visible ink at (211.75,1409.5), and the complete rarity/number group at (847.25,1409.5) with a 12.2-unit gap. Namek Dragon Ball 2 retains the approved current front-facing Porunga, both completed hands, unchanged full-art scale/colors, and the V3 single-left two-star orb; do not restore the older overhead Porunga. The five original scans are identity-checked; the retained archive's unrelated Frieza provenance manifest is explicitly excluded. For later Trunks Mastery cards, read `tools/card-templates/v3/references/mastery-v3.md` and resolve the approved November 1 native Mastery source, never an older layout. No Mastery cards occur in 001–005.
 
