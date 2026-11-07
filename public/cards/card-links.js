@@ -9,7 +9,8 @@ const logos = {
   'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners',
   'android-saga':'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners',
   'cell-saga':'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner',
-  'cell-games-saga':'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner'
+  'cell-games-saga':'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner',
+  'world-games-saga':'/assets/sets/world-games-saga-logo-brushed-blue.webp?v=20261107-world-games-banner'
 };
 export function catalogSets(catalog) {
   const sets = new Map();
