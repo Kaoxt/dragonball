@@ -5574,8 +5574,8 @@ export const catalog = [
       125000,
       0
     ],
-    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=4ea03a693ac4",
-    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=52d766b2f92f",
+    "image": "/assets/cards/frieza-089-vegeta-on-namek.webp?v=454d8697b2f7",
+    "downloadImage": "/assets/cards/downloads/frieza-089-vegeta-on-namek.webp?v=48b11f53223a",
     "templateVersion": 3
   },
   {
@@ -5607,8 +5607,8 @@ export const catalog = [
       95000,
       0
     ],
-    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=37d1b7ed7614",
-    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=bd62e22a7bb8",
+    "image": "/assets/cards/frieza-090-krillin-on-namek.webp?v=27d4c3c3dc54",
+    "downloadImage": "/assets/cards/downloads/frieza-090-krillin-on-namek.webp?v=cf2525420bda",
     "templateVersion": 3
   },
   {
@@ -5640,8 +5640,8 @@ export const catalog = [
       32000,
       0
     ],
-    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=108ae87c620b",
-    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=a5c2b656300d",
+    "image": "/assets/cards/frieza-091-nappa-restored.webp?v=d9b356fdd49c",
+    "downloadImage": "/assets/cards/downloads/frieza-091-nappa-restored.webp?v=24117d8f7edc",
     "templateVersion": 3
   },
   {
@@ -5673,8 +5673,8 @@ export const catalog = [
       20000,
       0
     ],
-    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=be8cc93fb076",
-    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=1416d7987b34",
+    "image": "/assets/cards/frieza-092-raditz-restored.webp?v=36129a810692",
+    "downloadImage": "/assets/cards/downloads/frieza-092-raditz-restored.webp?v=3f84d118712f",
     "templateVersion": 3
   },
   {
@@ -5706,8 +5706,8 @@ export const catalog = [
       480000,
       0
     ],
-    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=4e54acdbd472",
-    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=09139696dd00",
+    "image": "/assets/cards/frieza-093-goku-on-namek.webp?v=fec13b910361",
+    "downloadImage": "/assets/cards/downloads/frieza-093-goku-on-namek.webp?v=2331b904e0fa",
     "templateVersion": 3
   },
   {
@@ -5739,8 +5739,8 @@ export const catalog = [
       120000,
       0
     ],
-    "image": "/assets/cards/frieza-094-piccolo.webp?v=fcd0101f8743",
-    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=d3dc6a0de89b",
+    "image": "/assets/cards/frieza-094-piccolo.webp?v=9dcb40bcbf88",
+    "downloadImage": "/assets/cards/downloads/frieza-094-piccolo.webp?v=401a2ece092b",
     "templateVersion": 3
   },
   {
@@ -5772,8 +5772,8 @@ export const catalog = [
       110000,
       0
     ],
-    "image": "/assets/cards/frieza-095-gohan.webp?v=757e33cef573",
-    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=db00e759c1b3",
+    "image": "/assets/cards/frieza-095-gohan.webp?v=cdc7bc3024c7",
+    "downloadImage": "/assets/cards/downloads/frieza-095-gohan.webp?v=fb3b8ac3dfb3",
     "templateVersion": 3
   },
   {
@@ -5805,8 +5805,8 @@ export const catalog = [
       48000,
       0
     ],
-    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=23bb69c4c11d",
-    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=f7c0c08e17a0",
+    "image": "/assets/cards/frieza-096-nail-the-namekian.webp?v=e707c3fbfdac",
+    "downloadImage": "/assets/cards/downloads/frieza-096-nail-the-namekian.webp?v=a7c706f5aa04",
     "templateVersion": 3
   },
   {
@@ -6059,8 +6059,8 @@ export const catalog = [
       60000,
       0
     ],
-    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=f5077f5ad38c",
-    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=ed2c13cd3160",
+    "image": "/assets/cards/frieza-110-nail-the-namekian-hero.webp?v=d3ad2128336b",
+    "downloadImage": "/assets/cards/downloads/frieza-110-nail-the-namekian-hero.webp?v=ca64f7c06ee9",
     "templateVersion": 3
   },
   {
@@ -6194,8 +6194,8 @@ export const catalog = [
       55000,
       0
     ],
-    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=29f0c067363c",
-    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=cad60550394f",
+    "image": "/assets/cards/frieza-117-nail-inspired.webp?v=75d463872709",
+    "downloadImage": "/assets/cards/downloads/frieza-117-nail-inspired.webp?v=5c674bdb39cc",
     "templateVersion": 3
   },
   {
@@ -6329,8 +6329,8 @@ export const catalog = [
       149991,
       0
     ],
-    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=3d30b31a89b5",
-    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=c2257a2882e1",
+    "image": "/assets/cards/frieza-124-frieza-the-master.webp?v=740400df5f05",
+    "downloadImage": "/assets/cards/downloads/frieza-124-frieza-the-master.webp?v=7da6cee45ba0",
     "templateVersion": 3
   },
   {
@@ -6362,8 +6362,8 @@ export const catalog = [
       450000,
       0
     ],
-    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=0103a3867928",
-    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=749f996a6066",
+    "image": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=17a855048a48",
+    "downloadImage": "/assets/cards/downloads/frieza-125-super-saiyan-goku.webp?v=bb32bcb5b44d",
     "templateVersion": 3
   },
   {
@@ -13028,8 +13028,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-114-android-16.webp?v=ecdac6290aa5",
-    "downloadImage": "/assets/cards/downloads/android-114-android-16.webp?v=b6b8c528a948",
+    "image": "/assets/cards/android-114-android-16.webp?v=aff31c58344c",
+    "downloadImage": "/assets/cards/downloads/android-114-android-16.webp?v=8d89606c3701",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-114",
@@ -13061,8 +13061,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-115-android-17.webp?v=6e69e86e64b1",
-    "downloadImage": "/assets/cards/downloads/android-115-android-17.webp?v=45ef2f06d8c3",
+    "image": "/assets/cards/android-115-android-17.webp?v=8de6b111f06a",
+    "downloadImage": "/assets/cards/downloads/android-115-android-17.webp?v=a66459d88463",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-115",
@@ -13094,8 +13094,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-116-android-18.webp?v=dccdbd3f81b9",
-    "downloadImage": "/assets/cards/downloads/android-116-android-18.webp?v=b0984eb4a3c1",
+    "image": "/assets/cards/android-116-android-18.webp?v=eab5467eef15",
+    "downloadImage": "/assets/cards/downloads/android-116-android-18.webp?v=cc4c02fb5f1f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-116",
@@ -13113,7 +13113,7 @@ export const catalog = [
       899000,
       799000,
       699000,
-      499000,
+      399000,
       299000,
       0
     ],
@@ -13127,8 +13127,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-117-android-19.webp?v=2f3bf5191848",
-    "downloadImage": "/assets/cards/downloads/android-117-android-19.webp?v=93ac7ca49a82",
+    "image": "/assets/cards/android-117-android-19.webp?v=2af3e74bcb0f",
+    "downloadImage": "/assets/cards/downloads/android-117-android-19.webp?v=b83da87c8217",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-117",
@@ -13160,8 +13160,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-118-android-20.webp?v=2508e2b3e152",
-    "downloadImage": "/assets/cards/downloads/android-118-android-20.webp?v=451479100f30",
+    "image": "/assets/cards/android-118-android-20.webp?v=61039bcda90f",
+    "downloadImage": "/assets/cards/downloads/android-118-android-20.webp?v=d2378ef7aad2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-118",
@@ -13193,8 +13193,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-119-piccolo-the-trained.webp?v=9cb258654ab2",
-    "downloadImage": "/assets/cards/downloads/android-119-piccolo-the-trained.webp?v=ff82c0869f21",
+    "image": "/assets/cards/android-119-piccolo-the-trained.webp?v=26b279421209",
+    "downloadImage": "/assets/cards/downloads/android-119-piccolo-the-trained.webp?v=8a9ba20b99b1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-119",
@@ -13226,8 +13226,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=dad7615d154e",
-    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=ca0ed9e535a0",
+    "image": "/assets/cards/android-120-tien-the-watcher.webp?v=e19afef66a7b",
+    "downloadImage": "/assets/cards/downloads/android-120-tien-the-watcher.webp?v=73319f910d0b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-120",
@@ -13259,8 +13259,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-121-vegeta-the-ready.webp?v=bd3cdb522410",
-    "downloadImage": "/assets/cards/downloads/android-121-vegeta-the-ready.webp?v=e211f24c2eff",
+    "image": "/assets/cards/android-121-vegeta-the-ready.webp?v=62cfdb9b0e26",
+    "downloadImage": "/assets/cards/downloads/android-121-vegeta-the-ready.webp?v=65653f123082",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-121",
@@ -13292,8 +13292,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-122-yajirobe.webp?v=b7cb2dcb29ca",
-    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=c73c4f4b5726",
+    "image": "/assets/cards/android-122-yajirobe.webp?v=f7ab60f14c47",
+    "downloadImage": "/assets/cards/downloads/android-122-yajirobe.webp?v=746215e3e367",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-122",
@@ -13325,8 +13325,8 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-123-yamcha.webp?v=f21548f5616c",
-    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=3caa5016e8bd",
+    "image": "/assets/cards/android-123-yamcha.webp?v=f3377bee2fa5",
+    "downloadImage": "/assets/cards/downloads/android-123-yamcha.webp?v=d24ecf26ce44",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-123",

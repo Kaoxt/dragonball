@@ -154,7 +154,8 @@ def personality(r,old,c):
   p=BoundsPen(None);from fontTools.svgLib.path import parse_path;parse_path(path.get('d'),p);x0,y0,x1,y1=p.bounds
   height=106 if 'level' in ident else 65;cx=100 if 'level' in ident else 110;cy=71 if 'level' in ident else 908.5;sc=height/(y1-y0)
   target.set('transform',f'translate({cx-(x0+x1)*sc/2} {cy-(y0+y1)*sc/2}) scale({sc})');target.set('aria-label',str(c['level'] if 'level' in ident else c['pur']))
- stages=get(r,'power-stages-v3');values=list(reversed(c['stages']));assert len(values)==len(stages)
+ from scripts.personality_stages import printed_stages
+ stages=get(r,'power-stages-v3');values=printed_stages(c['stages']);assert len(values)==len(stages)
  for i,(row,val) in enumerate(zip(stages,values)):
   g,b=text(f'{val:,}','Teko-SemiBold.ttf',49,0,0,f'power-stage-value-{i}');g.set('transform',f'translate({244-16-b[0]} 42.582) scale(.049 -.049)')
   # Font bounds use x-min as well as advance; explicit right edge is 1031 globally.
