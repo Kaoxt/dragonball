@@ -5,6 +5,7 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {catalog} from '../public/cards/catalog.js';
 import {powerChart} from '../public/personality-power.js';
+import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {stageRelease,beforeStageFile,beforeStageHash} from './helpers/personality-stage-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const group=/<(?:\w+:)?g\b[^>]*\bid="power-stage-value-(\d+)"[^>]*>.*?<\/(?:\w+:)?g>/gs;
@@ -52,6 +53,15 @@ test('Android 18 uses the original 399,000 value in the image, catalog and Arena
  assert.deepEqual(record.stages,c.powerStages);
  const correction=stageRelease.value_correction;
  assert.equal(hash(fs.readFileSync(correction.original_scan)),correction.original_scan_sha256);
+});
+test('the two repaired Ultra Rares retain their exact character masks',()=>{
+ assert.equal(stageRelease.foil_mask_revisions.length,2);
+ for(const r of stageRelease.foil_mask_revisions){
+  const c=catalog.find(c=>c.id===r.id);
+  assert.equal(c.image,r.after_image);
+  assert.equal('public'+ultraRareMask(c),r.mask_path);
+  assert.equal(hash(fs.readFileSync(r.mask_path)),r.unchanged_mask_sha256);
+ }
 });
 test('the shared builder accepts either ordered input and rejects ambiguous charts',()=>{
  execFileSync('python3',['-c',`

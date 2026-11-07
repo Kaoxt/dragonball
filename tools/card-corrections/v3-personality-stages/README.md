@@ -13,6 +13,9 @@ Android Saga #116's original scan prints 399,000, not 499,000. This correction
 is synchronized in the image, catalog, Arena chart and editable source data.
 The original scan and its digest are recorded in `release.json`.
 
+The two repaired Ultra Rares retain their exact reviewed character masks.
+Only their image revision pins are advanced; mask bytes remain unchanged.
+
 The shared builder now accepts ascending or descending source arrays and
 always prints descending stages. It rejects ambiguous or zero-less charts.
 

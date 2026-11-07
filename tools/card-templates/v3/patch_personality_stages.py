@@ -106,6 +106,10 @@ def patch_export(path, field, old, new, context):
 def verify_release(release):
     for row in release['cards']:
         for e in [row['source'],*row['exports']]: assert digest(ROOT/e['path'])==e['after_sha256'],e['path']
+    profiles=(ROOT/'public/ultra-rare-profiles.js').read_text()
+    for r in release['foil_mask_revisions']:
+        assert digest(ROOT/r['mask_path'])==r['unchanged_mask_sha256']
+        assert profiles.count('"'+r['after_image']+'"')==1
     cards={c['id']:c for c in catalog() if 'Personality' in c['type']}
     charts=json.loads(subprocess.check_output(['node','--input-type=module','-e',
         "import {catalog} from './public/cards/catalog.js'; import {powerChart} from './public/personality-power.js'; console.log(JSON.stringify(Object.fromEntries(catalog.filter(c=>c.type.includes('Personality')).map(c=>[c.id,powerChart(c)]))))"],cwd=ROOT,text=True))
@@ -144,11 +148,20 @@ def main():
         save(checkpoint,row);rows.append(row);print('Verified both exports: '+ident,flush=True)
     assert len(audit)==172 and len(rows)==22
     cat=ROOT/'public/cards/catalog.js';raw=backup(cat).read_text()
+    profiles_path=ROOT/'public/ultra-rare-profiles.js';profiles=backup(profiles_path).read_text();foil=[]
     for row in rows:
         for e in row['exports']:
             before=e['path'].removeprefix('public')+'?v='+e['before_sha256'][:12]
             after=e['path'].removeprefix('public')+'?v='+e['after_sha256'][:12]
             assert raw.count(before)==1;raw=raw.replace(before,after)
+            if e['field']=='image' and '"'+before+'"' in profiles:
+                assert profiles.count('"'+before+'"')==1
+                profiles=profiles.replace('"'+before+'"','"'+after+'"')
+                mask='public/card-effects/ultra-rare/'+row['id']+'.svg'
+                foil.append({'id':row['id'],'before_image':before,'after_image':after,
+                    'mask_path':mask,'unchanged_mask_sha256':digest(ROOT/mask)})
+    assert len(foil)==2
+    profiles_path.write_text(profiles)
     # Keep the corrected scan value synchronized in the catalog, game chart and builder input.
     pos=raw.index('"id": "'+CORRECTED_ID+'"');end=raw.index('\n  }',pos)
     block=raw[pos:end];assert len(re.findall(r'\b499000\b',block))==1
@@ -167,7 +180,7 @@ def main():
         'value_correction':{'id':CORRECTED_ID,'before':499000,'after':399000,
             'original_scan':'tools/card-corrections/v3-android-101-125-promos/originals/116.png',
             'original_scan_sha256':digest(ROOT/'tools/card-corrections/v3-android-101-125-promos/originals/116.png')},
-        'data_revisions':[data_revision],'audit':audit,'cards':rows}
+        'data_revisions':[data_revision],'foil_mask_revisions':foil,'audit':audit,'cards':rows}
     save(OUT/'release.json',release);verify_release(release)
 
 if __name__=='__main__':
