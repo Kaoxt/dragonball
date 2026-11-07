@@ -1,0 +1,71 @@
+name: Verify Namekian style symbol repair
+on:
+  push:
+    branches: [fix-namekian-style-symbol]
+    paths:
+      - .github/workflows/namekian-symbols.yml
+      - tools/card-templates/v3/patch_namekian_symbols.py
+      - tools/card-templates/v3/scripts/namekian_symbol.py
+      - tools/card-templates/v3/assets/style-symbols/**
+      - tools/card-templates/v3/build_trunks_006_055.py
+      - tests/**
+      - package.json
+permissions:
+  contents: read
+concurrency:
+  group: namekian-style-symbol-repair
+  cancel-in-progress: true
+jobs:
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            tools/deployment
+      - uses: actions/cache/restore@v4
+        id: source-cache
+        with:
+          path: .git/objects
+          key: namekian-source-${{ github.sha }}
+          restore-keys: source-git-v1-Linux-
+      - name: Fetch source snapshot
+        if: steps.source-cache.outputs.cache-matched-key == ''
+        run: git -c protocol.version=2 fetch --refetch --no-filter --no-tags --no-recurse-submodules --no-auto-maintenance --depth=1 origin "$(git rev-parse HEAD)"
+      - name: Materialize source
+        run: git -c checkout.workers=4 sparse-checkout disable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install native renderer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends inkscape python3-pil python3-numpy python3-lxml python3-fonttools
+      - name: Correct and verify both exports for all Namekian cards
+        run: |
+          /usr/bin/python3 tools/card-templates/v3/patch_namekian_symbols.py "$RUNNER_TEMP/namekian-symbols" --workers 4 --apply
+          /usr/bin/python3 tools/card-templates/v3/patch_namekian_symbols.py "$RUNNER_TEMP/namekian-symbols" --apply
+      - name: Validate application and historical audits
+        run: |
+          npm ci
+          npm audit --audit-level=high
+          npm test
+          npm run check
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: namekian-symbol-release
+          path: tools/card-corrections/v3-namekian-symbols/release.json
+          retention-days: 7
+      - name: Save verified output to the repair branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/cards public/cards/catalog.js tools/card-templates/v3 tools/card-corrections/v3-namekian-symbols/release.json
+          git diff --cached --quiet || git commit -m "Correct the dragon style symbol on all 59 Namekian cards"
+          git -c pack.window=0 push origin HEAD:refs/heads/fix-namekian-style-symbol
