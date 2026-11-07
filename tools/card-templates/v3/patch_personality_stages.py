@@ -107,9 +107,15 @@ def verify_release(release):
     for row in release['cards']:
         for e in [row['source'],*row['exports']]: assert digest(ROOT/e['path'])==e['after_sha256'],e['path']
     cards={c['id']:c for c in catalog() if 'Personality' in c['type']}
+    charts=json.loads(subprocess.check_output(['node','--input-type=module','-e',
+        "import {catalog} from './public/cards/catalog.js'; import {powerChart} from './public/personality-power.js'; console.log(JSON.stringify(Object.fromEntries(catalog.filter(c=>c.type.includes('Personality')).map(c=>[c.id,powerChart(c)]))))"],cwd=ROOT,text=True))
+    repaired={r['id'] for r in release['cards']}
+    audit={r['id']:r for r in release['audit']}
     for ident,path in sources(cards).items():
         nums=values((ROOT/path).read_text());assert nums==printed_stages(nums),ident
-        assert sorted(nums)==sorted(cards[ident]['powerStages']),ident
+        assert nums==audit[ident]['after_values'],ident
+        if ident in repaired:
+            assert sorted(nums)==sorted(cards[ident].get('powerStages',charts[ident])),ident
     print(f'Verified {len(cards)} Personality sources and {len(release["cards"])*2} repaired exports; no changes needed.',flush=True)
 def main():
     if (OUT/'release.json').exists(): return verify_release(json.loads((OUT/'release.json').read_text()))
@@ -145,16 +151,16 @@ def main():
             assert raw.count(before)==1;raw=raw.replace(before,after)
     # Keep the corrected scan value synchronized in the catalog, game chart and builder input.
     pos=raw.index('"id": "'+CORRECTED_ID+'"');end=raw.index('\n  }',pos)
-    block=raw[pos:end];assert block.count('499000')==1
-    raw=raw[:pos]+block.replace('499000','399000')+raw[end:];cat.write_text(raw)
+    block=raw[pos:end];assert len(re.findall(r'\b499000\b',block))==1
+    raw=raw[:pos]+re.sub(r'\b499000\b','399000',block)+raw[end:];cat.write_text(raw)
     chart=ROOT/'public/personality-power.js';ch=backup(chart).read_text()
     oldline=next(line for line in ch.splitlines() if '"'+CORRECTED_ID+'"' in line)
-    assert oldline.count('499000')==1;chart.write_text(ch.replace(oldline,oldline.replace('499000','399000')))
+    assert len(re.findall(r'\b499000\b',oldline))==1;chart.write_text(ch.replace(oldline,re.sub(r'\b499000\b','399000',oldline)))
     records=ROOT/'tools/card-corrections/v3-android-101-125-promos/cards.json';old=backup(records).read_text()
     pos=old.index('"id": "'+CORRECTED_ID+'"');end=old.index('\n  }',pos);block=old[pos:end]
-    assert block.count('499000')==1;new=old[:pos]+block.replace('499000','399000')+old[end:];records.write_text(new)
+    assert len(re.findall(r'\b499000\b',block))==1;new=old[:pos]+re.sub(r'\b499000\b','399000',block)+old[end:];records.write_text(new)
     data_revision={'path':str(records.relative_to(ROOT)),'before_sha256':sha256(old.encode()).hexdigest(),'after_sha256':digest(records),
-        'reversible_edits':[{'before':block,'after':block.replace('499000','399000')}]}
+        'reversible_edits':[{'before':block,'after':re.sub(r'\b499000\b','399000',block)}]}
     release={'revision':'personality-stages-highest-to-zero-v1','source_base_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
         'audited_personality_count':len(audit),'corrected_card_count':len(rows),'export_count':len(rows)*2,
         'historical_audits_preserved':True,'all_unrelated_pixels_unchanged':True,

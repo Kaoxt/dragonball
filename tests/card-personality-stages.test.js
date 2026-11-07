@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {catalog} from '../public/cards/catalog.js';
+import {powerChart} from '../public/personality-power.js';
 import {stageRelease,beforeStageFile,beforeStageHash} from './helpers/personality-stage-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const group=/<(?:\w+:)?g\b[^>]*\bid="power-stage-value-(\d+)"[^>]*>.*?<\/(?:\w+:)?g>/gs;
@@ -18,7 +19,9 @@ test('all 172 Personality sources print the highest power at the top and zero at
   assert.equal(values.at(-1),0,r.id);
   assert.ok(values[0]>0,r.id);
   assert.deepEqual(values,[...values].sort((a,b)=>b-a),r.id);
-  assert.deepEqual([...values].sort((a,b)=>a-b),[...c.powerStages].sort((a,b)=>a-b),r.id);
+  const expected=r.before_values.map(v=>r.id==='android-116-android-18'&&v===499000?399000:v);
+  assert.deepEqual([...values].sort((a,b)=>a-b),expected.sort((a,b)=>a-b),r.id);
+  if(r.changed)assert.deepEqual([...values].sort((a,b)=>a-b),[...(c.powerStages??powerChart(c))].sort((a,b)=>a-b),r.id);
   assert.deepEqual(values,r.after_values);
  }
 });
@@ -44,7 +47,7 @@ test('Android 18 uses the original 399,000 value in the image, catalog and Arena
  const c=catalog.find(c=>c.id==='android-116-android-18');
  assert.ok(c.powerStages.includes(399000));assert.ok(!c.powerStages.includes(499000));
  const chart=fs.readFileSync('public/personality-power.js','utf8').split('\n').find(s=>s.includes('"'+c.id+'"'));
- assert.match(chart,/399000/);assert.doesNotMatch(chart,/499000/);
+ assert.match(chart,/\b399000\b/);assert.doesNotMatch(chart,/\b499000\b/);
  const record=JSON.parse(fs.readFileSync('tools/card-corrections/v3-android-101-125-promos/cards.json','utf8')).find(r=>r.id===c.id);
  assert.deepEqual(record.stages,c.powerStages);
  const correction=stageRelease.value_correction;

@@ -13,7 +13,7 @@ permissions:
   contents: read
 concurrency:
   group: personality-stages-zero-bottom
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   repair:
     runs-on: ubuntu-24.04
