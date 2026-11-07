@@ -1,3 +1,15 @@
+## Personality stage order — November 7, 2026
+
+Every Personality stage column prints the highest value at the top and zero
+at the bottom. Use `tools/card-templates/v3/scripts/personality_stages.py`
+to normalize either source-array orientation; reject unordered input. The
+22-card correction and all-172 audit are recorded in
+`tools/card-corrections/v3-personality-stages/release.json`. Preserve all
+non-stage pixels in both export sizes and the reversible native edit chain.
+Android Saga #116's original scan confirms 399,000 instead of 499,000; keep
+its catalog, Arena chart and source input synchronized. Historical audits
+remain immutable and are checked through the explicit stage revision.
+
 ## Cell Games banner emblem — November 6, 2026
 
 All 100 Cell Games cards use the approved banner emblem in both display and download images. Read `tools/card-corrections/v3-cell-games-banner-logo/README.md` and `release.json`. This revision follows the title-width update; preserve the existing titles and all pixels outside the emblem footprint. Keep the visible centers and width recorded in the release. The five final cards retain their missing complete native-source status; their footer delta was validated against a matching native donor. Earlier satin-emblem, artwork and title audits remain immutable.
