@@ -1,17 +1,20 @@
-## Namekian style symbol — corrected November 7, 2026
+## Tokui Waza identity and consistent weight — November 7, 2026
 
-Namekian cards use **瑪**, matching the large teal-backed icon on original
-Namekian Masteries and the Namekian Style icon in Score rulebook page 29
-(PDF page index 5): https://www.lackeyccg.com/dbzccg/dbzccg_rules.pdf.
-The earlier 龍 replacement and original 無 outline were both incorrect.
-Use `tools/card-templates/v3/assets/style-symbols/namekian-score.svg` and
-`scripts/namekian_symbol.py`. Preserve the Noto Sans CJK JP Bold weight,
-teal color, 130-unit outlined height and center (100,908.5). Both Masteries
-retain their enlarged placement. Only symbol/backing pixels may change.
-The final repair is in `tools/card-corrections/v3-namekian-reference-symbols/`.
-Keep the superseded release and earlier audits as historical evidence;
-follow both reversible symbol revisions when validating prior sources.
-The shared Trunks #7 donor and builder use this reference-confirmed mark.
+Reference symbols are Red 赤, Blue 青, Orange 橙, Saiyan 緑, Black 黒 and
+Namekian 瑪. The 366 other styled cards were checked against their original
+Mastery references and live previews; see `tools/card-corrections/v3-namekian-stroke-match/other-styles-audit.json`.
+
+Namekian uses `tools/card-templates/v3/assets/style-symbols/namekian-strokes.svg`
+and `scripts/namekian_symbol.py`: the same rounded KanjiVG stroke family as
+Blue, Orange, Saiyan and Black, with colored stroke width 7.69230769 and
+outline width 13 before normalization to 130-unit outlined height. Keep teal
+#21aaa5, center (100,908.5) and the enlarged Mastery placements unchanged.
+The previous Noto Bold 瑪 outline had the correct identity but the wrong visual
+weight and square terminals. Do not restore it. The earlier 龍 and 無 marks
+also remain superseded. Preserve all pixels outside the symbol/backing delta.
+Keep all previous audits immutable and follow the reversible revision chain.
+Future cards must use the corrected shared Trunks #7 donor and builder.
+KanjiVG assets carry their source attribution and CC BY-SA 3.0 license.
 
 ## Personality stage order — November 7, 2026
 

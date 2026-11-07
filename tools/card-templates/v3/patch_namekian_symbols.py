@@ -9,7 +9,7 @@ import numpy as np
 from scripts.namekian_symbol import change, REVISION, ASSET
 
 ROOT = Path(__file__).resolve().parents[3]
-OUT = ROOT/'tools/card-corrections/v3-namekian-reference-symbols'
+OUT = ROOT/'tools/card-corrections/v3-namekian-stroke-match'
 ROI = (0, 650, 360, 1050)
 
 def digest(p): return sha256(Path(p).read_bytes()).hexdigest()
@@ -135,7 +135,7 @@ def main():
         for e in row['exports']:shutil.copyfile(work/row['id']/(e['field']+'.webp'),ROOT/e['path'])
     (ROOT/'public/cards/catalog.js').write_text(raw)
     release={'revision':REVISION,'source_base_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
-        'corrected_card_count':len(rows),'export_count':len(rows)*2,'glyph_before':'龍','glyph_after':'瑪',
+        'corrected_card_count':len(rows),'export_count':len(rows)*2,'glyph_before':'瑪','glyph_after':'瑪',
         'symbol_asset':str(ASSET.relative_to(ROOT)),'symbol_asset_sha256':digest(ASSET),
         'historical_audits_preserved':True,'all_unrelated_pixels_unchanged':True,'cards':rows}
     save(OUT/'release.json',release);verify(release)

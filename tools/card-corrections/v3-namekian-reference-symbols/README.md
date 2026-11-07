@@ -1,3 +1,7 @@
+# Correct identity; superseded drawing weight
+
+This release established the correct 瑪 identity. Its Noto Bold outline was too heavy and square compared with the other styles. The current rounded-stroke treatment is in `../v3-namekian-stroke-match/`. This release remains immutable historical evidence.
+
 # Reference-confirmed Namekian style symbol
 
 The large teal-backed icon on the user-provided Namekian Masteries is 瑪.
