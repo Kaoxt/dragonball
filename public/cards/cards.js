@@ -1,6 +1,6 @@
 import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261107-world-games-banner';
+import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261107-world-games-spaced';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
@@ -55,7 +55,7 @@ const collectionBranding = {
  'android saga': {image:'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners', name:'Android Saga', element:'collection-logo-android'},
  'cell saga': {image:'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner', name:'Cell Saga', element:'collection-logo-cell'},
  'cell games saga': {image:'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner', name:'Cell Games Saga', element:'collection-logo-cell-games'},
- 'world games saga': {image:'/assets/sets/world-games-saga-logo-brushed-blue.webp?v=20261107-world-games-banner', name:'World Games Saga', element:'collection-logo-world-games'}
+ 'world games saga': {image:'/assets/sets/world-games-saga-logo-brushed-blue-spaced.svg?v=20261107-world-games-spaced', name:'World Games Saga', element:'collection-logo-world-games'}
 };
 function renderCollectionBrand(){
  const selected=$('set').value;
