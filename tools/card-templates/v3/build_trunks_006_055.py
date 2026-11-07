@@ -41,7 +41,7 @@ def source_dir(retained,n):
  return ROOT.parent/'trunks-001-005-retained/original' if n<=10 else retained/('011-030' if n<=30 else '031-080')
 
 def namekian_style(r,old):
- # Preserve the Namekian hue; use the actual bottom-right 龍 style mark.
+ # Preserve the Namekian hue; use the 瑪 style icon confirmed by original Namekian Masteries.
  defs=r.find('{'+S+'}defs');defs.append(deepcopy(get(old,'namekian-frame-hue')))
  background=get(r,'background-brightness-trial-wrapper');children=list(background)
  for child in children:background.remove(child)
@@ -52,7 +52,7 @@ def namekian_style(r,old):
  for path in paths:parse_path(path.get('d'),b)
  x0,y0,x1,y1=b.bounds;sc=130/(y1-y0+6)
  symbol=elem('g',id='tokui-waza-symbol',data_style='Namekian',transform=f'translate(100 908.5) scale({sc}) translate({-(x0+x1)/2} {-(y0+y1)/2})')
- symbol.set('aria-label','Namekian 龍');symbol.set('data-symbol-revision',NAMEKIAN_REVISION)
+ symbol.set('aria-label','Namekian 瑪');symbol.set('data-symbol-revision',NAMEKIAN_REVISION)
  outline=elem('g',symbol,fill='#080b0d',stroke='#080b0d',stroke_width=6,stroke_linejoin='round')
  color=elem('g',symbol,fill='#21aaa5')
  for path in paths:

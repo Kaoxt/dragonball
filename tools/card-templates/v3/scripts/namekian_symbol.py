@@ -1,4 +1,4 @@
-"""Use the original Namekian style mark 龍, not the rules-area 無 diamond."""
+"""Match the original teal Namekian style icon 瑪 in Score rulebook page 29."""
 from copy import deepcopy
 from pathlib import Path
 import re
@@ -6,10 +6,11 @@ from lxml import etree as E
 from .tokui_backing import apply as apply_backing
 
 S = 'http://www.w3.org/2000/svg'
-ASSET = Path(__file__).resolve().parents[1] / 'assets/style-symbols/namekian-dragon.svg'
-OLD_TRANSFORM = 'translate(100 908.5) scale(1.2987012987012987) translate(-49.95 37.95)'
-NEW_TRANSFORM = 'translate(100 908.5) scale(1.3026052104208417) translate(-50.5 38.1)'
-REVISION = 'namekian-dragon-v1'
+ASSET = Path(__file__).resolve().parents[1] / 'assets/style-symbols/namekian-score.svg'
+OLD_TRANSFORMS = {'translate(100 908.5) scale(1.2987012987012987) translate(-49.95 37.95)',
+                  'translate(100 908.5) scale(1.3026052104208417) translate(-50.5 38.1)'}
+NEW_TRANSFORM = 'translate(100 908.5) scale(1.3488044711951495) translate(-49.300000000000004 36.10917517095362)'
+REVISION = 'namekian-score-v2'
 
 def segment(raw, ident):
     start = re.search(r'<(?:\w+:)?g\b[^>]*\bid="'+re.escape(ident)+r'"[^>]*>', raw)
@@ -32,13 +33,13 @@ def apply(root):
     if symbol.get('data-symbol-revision') == REVISION:
         return False
     shape = E.parse(str(ASSET)).getroot()[0].get('d')
-    targets = [x for x in symbol.iter() if x.get('transform') == OLD_TRANSFORM]
+    targets = [x for x in symbol.iter() if x.get('transform') in OLD_TRANSFORMS]
     assert len(targets) == 1
     targets[0].set('transform', NEW_TRANSFORM)
     paths = symbol.xpath('.//*[local-name()="path"]')
     assert len(paths) == 2 and paths[0].get('d') == paths[1].get('d')
     for path in paths: path.set('d', shape)
-    symbol.set('aria-label', 'Namekian 龍')
+    symbol.set('aria-label', 'Namekian 瑪')
     symbol.set('data-symbol-revision', REVISION)
     if root.xpath('//*[@id="tokui-waza-smoky-backing"]'):
         apply_backing(root)
