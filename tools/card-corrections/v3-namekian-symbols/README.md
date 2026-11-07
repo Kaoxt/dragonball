@@ -1,3 +1,7 @@
+# Superseded Namekian symbol revision
+
+This release incorrectly substituted 龍 for the original 無 outline. It is retained only as historical evidence. The current reference-confirmed 瑪 symbol and repair are documented in `../v3-namekian-reference-symbols/`.
+
 # Namekian style symbol correction
 
 All 59 Namekian cards use the 龍 style mark, including the two Masteries.
