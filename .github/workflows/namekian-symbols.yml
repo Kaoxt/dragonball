@@ -1,7 +1,7 @@
-name: Verify reference-confirmed Namekian style symbol
+name: Verify matching Namekian stroke weight
 on:
   push:
-    branches: [fix-namekian-reference-symbol]
+    branches: [fix-namekian-stroke-match]
     paths:
       - .github/workflows/namekian-symbols.yml
       - tools/card-templates/v3/patch_namekian_symbols.py
@@ -54,9 +54,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/assets/cards public/cards/catalog.js tools/card-templates/v3 tools/card-corrections/v3-namekian-reference-symbols/release.json
-          git diff --cached --quiet || git commit -m "Match the original style symbol on all 59 Namekian cards"
-          git -c pack.window=0 push origin HEAD:refs/heads/fix-namekian-reference-symbol
+          git add public/assets/cards public/cards/catalog.js tools/card-templates/v3 tools/card-corrections/v3-namekian-stroke-match/release.json
+          git diff --cached --quiet || git commit -m "Match Namekian symbol strokes to the other styles"
+          git -c pack.window=0 push origin HEAD:refs/heads/fix-namekian-stroke-match
       - name: Validate application and historical audits
         run: |
           npm ci
@@ -66,6 +66,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: namekian-reference-symbol-release
-          path: tools/card-corrections/v3-namekian-reference-symbols/release.json
+          name: namekian-stroke-match-release
+          path: tools/card-corrections/v3-namekian-stroke-match/release.json
           retention-days: 7

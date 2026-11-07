@@ -17,7 +17,7 @@ sys.path.insert(0,str(P/'scripts'))
 from title_fit_v3 import apply as title_fit
 from middle_label_v3 import apply as middle_label
 from tokui_backing import apply as tokui_backing
-from scripts.namekian_symbol import ASSET as NAMEKIAN_SYMBOL, REVISION as NAMEKIAN_REVISION
+from scripts.namekian_symbol import make_symbol as make_namekian_symbol
 from align_power_icon import align_power_icon
 from footer_spacing import change as footer_spacing
 from text_layout_v3 import validate as validate_text_layout
@@ -47,16 +47,7 @@ def namekian_style(r,old):
  for child in children:background.remove(child)
  hue=elem('g',background,id='namekian-background-hue',filter='url(#namekian-frame-hue)')
  for child in children:hue.append(child)
- glyph=E.parse(str(NAMEKIAN_SYMBOL)).getroot()
- paths=list(glyph);b=BoundsPen(None)
- for path in paths:parse_path(path.get('d'),b)
- x0,y0,x1,y1=b.bounds;sc=130/(y1-y0+6)
- symbol=elem('g',id='tokui-waza-symbol',data_style='Namekian',transform=f'translate(100 908.5) scale({sc}) translate({-(x0+x1)/2} {-(y0+y1)/2})')
- symbol.set('aria-label','Namekian 瑪');symbol.set('data-symbol-revision',NAMEKIAN_REVISION)
- outline=elem('g',symbol,fill='#080b0d',stroke='#080b0d',stroke_width=6,stroke_linejoin='round')
- color=elem('g',symbol,fill='#21aaa5')
- for path in paths:
-  outline.append(deepcopy(path));color.append(deepcopy(path))
+ symbol=make_namekian_symbol()
  replace(r,'tokui-waza-symbol',symbol)
  # Hue only the blue accent ink, leaving the common paper and charcoal intact.
  for node in get(r,'shared-rules-component').iter():
