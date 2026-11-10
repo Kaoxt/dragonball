@@ -6663,11 +6663,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-007-namekian-glare-attack.webp?v=84672fbb03e4",
+    "image": "/assets/cards/trunks-007-namekian-glare-attack.webp?v=0abeca261428",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-7",
-    "downloadImage": "/assets/cards/downloads/trunks-007-namekian-glare-attack.webp?v=e3298eb86a72",
+    "downloadImage": "/assets/cards/downloads/trunks-007-namekian-glare-attack.webp?v=83e113da8218",
     "rules": "Heroes only. Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 2 levels.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6680,11 +6680,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-008-namekian-braced-attack.webp?v=f4a1d7c24e27",
+    "image": "/assets/cards/trunks-008-namekian-braced-attack.webp?v=2d283fa4b42e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-8",
-    "downloadImage": "/assets/cards/downloads/trunks-008-namekian-braced-attack.webp?v=35e22c569379",
+    "downloadImage": "/assets/cards/downloads/trunks-008-namekian-braced-attack.webp?v=90c017974617",
     "rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT stages. HIT: Gain 4 stages.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6697,11 +6697,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-009-namekian-thrust.webp?v=17a7fdf05b70",
+    "image": "/assets/cards/trunks-009-namekian-thrust.webp?v=ec816b7b2c15",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-9",
-    "downloadImage": "/assets/cards/downloads/trunks-009-namekian-thrust.webp?v=bfe0955d40f0",
+    "downloadImage": "/assets/cards/downloads/trunks-009-namekian-thrust.webp?v=d36c1242cd7a",
     "rules": "(Limit 6 per deck.) Piccolo and Nail only. Physical attack. DAMAGE: AT +2 stages.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6714,11 +6714,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-010-namekian-blocking-defense.webp?v=68875a6222de",
+    "image": "/assets/cards/trunks-010-namekian-blocking-defense.webp?v=df50dc1975ad",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-limited-10",
-    "downloadImage": "/assets/cards/downloads/trunks-010-namekian-blocking-defense.webp?v=57e01b02830e",
+    "downloadImage": "/assets/cards/downloads/trunks-010-namekian-blocking-defense.webp?v=87602258bfe0",
     "rules": "(Limit 6 per deck.) Piccolo and Nail only. Stops a physical attack.",
     "rarity": "Common",
     "templateVersion": 3
@@ -7428,11 +7428,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=b2ac3ef05e8c",
+    "image": "/assets/cards/trunks-052-namekian-fighting.webp?v=80f9f28cf063",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-52",
-    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=d7c7af6be7d6",
+    "downloadImage": "/assets/cards/downloads/trunks-052-namekian-fighting.webp?v=0bcc3eb9eb63",
     "rules": "Piccolo and Nail only. POWER: Banish 1 of your Allies to raise your anger 2 levels. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7479,11 +7479,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-055-namekian-attack-drill.webp?v=6170a78afd8e",
+    "image": "/assets/cards/trunks-055-namekian-attack-drill.webp?v=838bd0eb6987",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-55",
-    "downloadImage": "/assets/cards/downloads/trunks-055-namekian-attack-drill.webp?v=37d278d30316",
+    "downloadImage": "/assets/cards/downloads/trunks-055-namekian-attack-drill.webp?v=015206b6b401",
     "rules": "Piccolo and Nail only. You may have all your physical attacks deal +2 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7564,11 +7564,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-060-namekian-physical-drill.webp?v=9f5d15b837c0",
+    "image": "/assets/cards/trunks-060-namekian-physical-drill.webp?v=09bc9f4b6909",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-60",
-    "downloadImage": "/assets/cards/downloads/trunks-060-namekian-physical-drill.webp?v=c4bf892118b8",
+    "downloadImage": "/assets/cards/downloads/trunks-060-namekian-physical-drill.webp?v=75c0d3c726ce",
     "rules": "Your Main Personality gains +1 PUR. Your physical attacks deal +1 stage of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7581,11 +7581,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-061-namekian-energy-drill.webp?v=d89e0333509c",
+    "image": "/assets/cards/trunks-061-namekian-energy-drill.webp?v=83d079a8accb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-61",
-    "downloadImage": "/assets/cards/downloads/trunks-061-namekian-energy-drill.webp?v=16edf2e855ea",
+    "downloadImage": "/assets/cards/downloads/trunks-061-namekian-energy-drill.webp?v=948a9591c7e3",
     "rules": "After each of your successful energy attacks, you may discard 1 card from your hand and shuffle it into your Life Deck, then draw 1 card.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7666,11 +7666,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-066-namekian-head-strike.webp?v=0cbd7e49163f",
+    "image": "/assets/cards/trunks-066-namekian-head-strike.webp?v=9ad738b1657b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-66",
-    "downloadImage": "/assets/cards/downloads/trunks-066-namekian-head-strike.webp?v=75605cabf5f2",
+    "downloadImage": "/assets/cards/downloads/trunks-066-namekian-head-strike.webp?v=b975a10ee961",
     "rules": "Heroes only. Physical attack. DAMAGE: AT stages. Lower your opponent's anger 2 levels. HIT: Capture an opponent's Dragon Ball. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -9235,11 +9235,11 @@ export const catalog = [
     "style": "Namekian",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-147-namekian-style-mastery.webp?v=637745b96347",
+    "image": "/assets/cards/trunks-147-namekian-style-mastery.webp?v=5fc6fa9f6fda",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-147",
-    "downloadImage": "/assets/cards/downloads/trunks-147-namekian-style-mastery.webp?v=a0ed4dd53cd3",
+    "downloadImage": "/assets/cards/downloads/trunks-147-namekian-style-mastery.webp?v=b02710c688bd",
     "rules": "When entering Combat, you may draw the bottom card of your discard pile. If it is a Namekian Style card, raise your Main Personality to its highest stage.",
     "rarity": "Rare",
     "templateVersion": 3
@@ -11447,8 +11447,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-021-namekian-blocking-stance.webp?v=b9e8285927bb",
-    "downloadImage": "/assets/cards/downloads/android-021-namekian-blocking-stance.webp?v=66bc0721d494",
+    "image": "/assets/cards/android-021-namekian-blocking-stance.webp?v=a8bcf5c9bb5b",
+    "downloadImage": "/assets/cards/downloads/android-021-namekian-blocking-stance.webp?v=32978c9ad515",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-21",
@@ -11464,8 +11464,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-022-namekian-defensive-stance.webp?v=7b95e8412b27",
-    "downloadImage": "/assets/cards/downloads/android-022-namekian-defensive-stance.webp?v=6e547c9c411d",
+    "image": "/assets/cards/android-022-namekian-defensive-stance.webp?v=82375a5a4350",
+    "downloadImage": "/assets/cards/downloads/android-022-namekian-defensive-stance.webp?v=bd68fd953378",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-22",
@@ -11481,8 +11481,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-023-namekian-determination.webp?v=d8b72e9cbb6d",
-    "downloadImage": "/assets/cards/downloads/android-023-namekian-determination.webp?v=dce48afdebd6",
+    "image": "/assets/cards/android-023-namekian-determination.webp?v=05eb8c64c592",
+    "downloadImage": "/assets/cards/downloads/android-023-namekian-determination.webp?v=dbaf2e0b4dfa",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-23",
@@ -11498,8 +11498,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-024-namekian-dodging-technique.webp?v=3b2349ea55a7",
-    "downloadImage": "/assets/cards/downloads/android-024-namekian-dodging-technique.webp?v=10636ae2bb69",
+    "image": "/assets/cards/android-024-namekian-dodging-technique.webp?v=15c0715ee690",
+    "downloadImage": "/assets/cards/downloads/android-024-namekian-dodging-technique.webp?v=59d0fb511f96",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-24",
@@ -11515,8 +11515,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-025-namekian-energy-absorption.webp?v=9efbc878200c",
-    "downloadImage": "/assets/cards/downloads/android-025-namekian-energy-absorption.webp?v=67575ae4aae6",
+    "image": "/assets/cards/android-025-namekian-energy-absorption.webp?v=af7732c5224e",
+    "downloadImage": "/assets/cards/downloads/android-025-namekian-energy-absorption.webp?v=7a87614c3eb7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-25",
@@ -11532,8 +11532,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-026-namekian-wrist-grab.webp?v=62eddcddd8ca",
-    "downloadImage": "/assets/cards/downloads/android-026-namekian-wrist-grab.webp?v=f6d067f2dd9d",
+    "image": "/assets/cards/android-026-namekian-wrist-grab.webp?v=544fc69f71a7",
+    "downloadImage": "/assets/cards/downloads/android-026-namekian-wrist-grab.webp?v=7746b4957ff2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-26",
@@ -12127,8 +12127,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-061-namekian-elbow-smash.webp?v=06d717b12edf",
-    "downloadImage": "/assets/cards/downloads/android-061-namekian-elbow-smash.webp?v=3ab14833cf54",
+    "image": "/assets/cards/android-061-namekian-elbow-smash.webp?v=c39a5af6307e",
+    "downloadImage": "/assets/cards/downloads/android-061-namekian-elbow-smash.webp?v=6b80e94302f4",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-61",
@@ -12144,8 +12144,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-062-namekian-finishing-effort.webp?v=836ba5737578",
-    "downloadImage": "/assets/cards/downloads/android-062-namekian-finishing-effort.webp?v=b8cc4b3dd3f6",
+    "image": "/assets/cards/android-062-namekian-finishing-effort.webp?v=4fbd75f9050c",
+    "downloadImage": "/assets/cards/downloads/android-062-namekian-finishing-effort.webp?v=42c968731a8f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-62",
@@ -12161,8 +12161,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-063-namekian-focusing-effort.webp?v=571651e37cbf",
-    "downloadImage": "/assets/cards/downloads/android-063-namekian-focusing-effort.webp?v=38ffb8888da4",
+    "image": "/assets/cards/android-063-namekian-focusing-effort.webp?v=1f84b434e9f2",
+    "downloadImage": "/assets/cards/downloads/android-063-namekian-focusing-effort.webp?v=575fb388352f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-63",
@@ -12178,8 +12178,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-064-namekian-forearm-smash.webp?v=176162e0f59e",
-    "downloadImage": "/assets/cards/downloads/android-064-namekian-forearm-smash.webp?v=13d38e11df46",
+    "image": "/assets/cards/android-064-namekian-forearm-smash.webp?v=ded7c9432ab8",
+    "downloadImage": "/assets/cards/downloads/android-064-namekian-forearm-smash.webp?v=8af3cf967cfe",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-64",
@@ -12824,8 +12824,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-102-namekian-friendship.webp?v=c13980cbb0ff",
-    "downloadImage": "/assets/cards/downloads/android-102-namekian-friendship.webp?v=43db07cf9ce0",
+    "image": "/assets/cards/android-102-namekian-friendship.webp?v=9c7784307230",
+    "downloadImage": "/assets/cards/downloads/android-102-namekian-friendship.webp?v=679b929c9820",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-102",
@@ -12841,8 +12841,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-103-namekian-teamwork.webp?v=c48ba2bbc0b5",
-    "downloadImage": "/assets/cards/downloads/android-103-namekian-teamwork.webp?v=e23196292330",
+    "image": "/assets/cards/android-103-namekian-teamwork.webp?v=2cef34721196",
+    "downloadImage": "/assets/cards/downloads/android-103-namekian-teamwork.webp?v=9df32677bf8c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-103",
@@ -13681,8 +13681,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-007-namekian-energy-ray.webp?v=08212a507cb6",
-    "downloadImage": "/assets/cards/downloads/cell-007-namekian-energy-ray.webp?v=84306f118144",
+    "image": "/assets/cards/cell-007-namekian-energy-ray.webp?v=06a2b3724fc4",
+    "downloadImage": "/assets/cards/downloads/cell-007-namekian-energy-ray.webp?v=8c2150c76296",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-7",
@@ -13749,8 +13749,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-011-namekian-backflip.webp?v=e16521a44cb6",
-    "downloadImage": "/assets/cards/downloads/cell-011-namekian-backflip.webp?v=7ba768940a4d",
+    "image": "/assets/cards/cell-011-namekian-backflip.webp?v=8c91c2e0ba22",
+    "downloadImage": "/assets/cards/downloads/cell-011-namekian-backflip.webp?v=16ba4e7e48ed",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-11",
@@ -13766,8 +13766,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-012-namekian-physical-stance.webp?v=d79d478422a4",
-    "downloadImage": "/assets/cards/downloads/cell-012-namekian-physical-stance.webp?v=37adee91d08c",
+    "image": "/assets/cards/cell-012-namekian-physical-stance.webp?v=aa8618e594f9",
+    "downloadImage": "/assets/cards/downloads/cell-012-namekian-physical-stance.webp?v=8a555c1945c1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-12",
@@ -13783,8 +13783,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-013-namekian-destruction-blast.webp?v=aa9baaddabc1",
-    "downloadImage": "/assets/cards/downloads/cell-013-namekian-destruction-blast.webp?v=aa4ad617dd59",
+    "image": "/assets/cards/cell-013-namekian-destruction-blast.webp?v=3ec46038eb83",
+    "downloadImage": "/assets/cards/downloads/cell-013-namekian-destruction-blast.webp?v=cf8d6a2dbae7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-13",
@@ -13936,8 +13936,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-022-namekian-headbutt.webp?v=0f229ef87d1c",
-    "downloadImage": "/assets/cards/downloads/cell-022-namekian-headbutt.webp?v=783ae51a8d0a",
+    "image": "/assets/cards/cell-022-namekian-headbutt.webp?v=b2bc5cc5657b",
+    "downloadImage": "/assets/cards/downloads/cell-022-namekian-headbutt.webp?v=39cdedc56488",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-22",
@@ -14140,8 +14140,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-034-namekian-power-kick.webp?v=d0b998d7cbe8",
-    "downloadImage": "/assets/cards/downloads/cell-034-namekian-power-kick.webp?v=34907b41307c",
+    "image": "/assets/cards/cell-034-namekian-power-kick.webp?v=636baf620e86",
+    "downloadImage": "/assets/cards/downloads/cell-034-namekian-power-kick.webp?v=09da7da7c3bf",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-34",
@@ -14276,8 +14276,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-042-namekian-fist-block.webp?v=dd871122a7fe",
-    "downloadImage": "/assets/cards/downloads/cell-042-namekian-fist-block.webp?v=76c9d2d800fa",
+    "image": "/assets/cards/cell-042-namekian-fist-block.webp?v=0b3923902081",
+    "downloadImage": "/assets/cards/downloads/cell-042-namekian-fist-block.webp?v=e389191fe391",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-42",
@@ -14293,8 +14293,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-043-namekian-special-beam-cannon.webp?v=44f62ab8ee65",
-    "downloadImage": "/assets/cards/downloads/cell-043-namekian-special-beam-cannon.webp?v=8da49880289c",
+    "image": "/assets/cards/cell-043-namekian-special-beam-cannon.webp?v=006bdf748534",
+    "downloadImage": "/assets/cards/downloads/cell-043-namekian-special-beam-cannon.webp?v=f7471403657a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-43",
@@ -14310,8 +14310,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-044-namekian-bash.webp?v=45cb3c14bae5",
-    "downloadImage": "/assets/cards/downloads/cell-044-namekian-bash.webp?v=ad267a7920bc",
+    "image": "/assets/cards/cell-044-namekian-bash.webp?v=1f3fc1205cc5",
+    "downloadImage": "/assets/cards/downloads/cell-044-namekian-bash.webp?v=5a08e0ee4ab2",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-44",
@@ -14327,8 +14327,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-045-namekian-energy-catch.webp?v=9362a37bdff2",
-    "downloadImage": "/assets/cards/downloads/cell-045-namekian-energy-catch.webp?v=d8c98aeb9d33",
+    "image": "/assets/cards/cell-045-namekian-energy-catch.webp?v=bebc55b3bc63",
+    "downloadImage": "/assets/cards/downloads/cell-045-namekian-energy-catch.webp?v=4c9a37eb8f3c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-45",
@@ -14395,8 +14395,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-049-namekian-upward-dash.webp?v=68cee195ffd6",
-    "downloadImage": "/assets/cards/downloads/cell-049-namekian-upward-dash.webp?v=3aeeb8ab8c2e",
+    "image": "/assets/cards/cell-049-namekian-upward-dash.webp?v=4bc7a8aa1cfb",
+    "downloadImage": "/assets/cards/downloads/cell-049-namekian-upward-dash.webp?v=725cc017fb91",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-49",
@@ -14548,8 +14548,8 @@ export const catalog = [
     "style": "Namekian",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-058-namekian-rock-crush.webp?v=26d38a1295fe",
-    "downloadImage": "/assets/cards/downloads/cell-058-namekian-rock-crush.webp?v=20a3fb4a437b",
+    "image": "/assets/cards/cell-058-namekian-rock-crush.webp?v=e99bdffe38d8",
+    "downloadImage": "/assets/cards/downloads/cell-058-namekian-rock-crush.webp?v=a06bb1521897",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-58",
@@ -15279,8 +15279,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-94",
     "rules": "Physical attack. DAMAGE: AT stages +2 life cards. HIT: Draw the top card of your discard pile. Lower your opponent's anger 2 levels. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-094-namekian-side-kick.webp?v=ced1d8848285",
-    "downloadImage": "/assets/cards/downloads/cell-094-namekian-side-kick.webp?v=f71a0695911a",
+    "image": "/assets/cards/cell-094-namekian-side-kick.webp?v=15cb169c3465",
+    "downloadImage": "/assets/cards/downloads/cell-094-namekian-side-kick.webp?v=6a1b224b6f7f",
     "templateVersion": 3
   },
   {
@@ -15331,8 +15331,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-96",
     "rules": "Namekian Heritage only. Stops an energy attack. Shuffle the top and bottom cards of your discard pile into your Life Deck.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-096-namekian-energy-deflection.webp?v=f5b9dbd437d5",
-    "downloadImage": "/assets/cards/downloads/cell-096-namekian-energy-deflection.webp?v=1d3eefc6f57a",
+    "image": "/assets/cards/cell-096-namekian-energy-deflection.webp?v=4e64b59448bf",
+    "downloadImage": "/assets/cards/downloads/cell-096-namekian-energy-deflection.webp?v=6ac050c82dcc",
     "templateVersion": 3
   },
   {
@@ -15550,8 +15550,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-105",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Raise your Main Personality to its highest stage. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-105-namekian-power-up.webp?v=de89d82e69d7",
-    "downloadImage": "/assets/cards/downloads/cell-105-namekian-power-up.webp?v=8faf837aa1f2",
+    "image": "/assets/cards/cell-105-namekian-power-up.webp?v=fb2eff1b4e12",
+    "downloadImage": "/assets/cards/downloads/cell-105-namekian-power-up.webp?v=3edee2279cb0",
     "templateVersion": 3
   },
   {
@@ -15601,8 +15601,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-108",
     "rules": "Energy attack costing 4 stages. DAMAGE: 10 life cards. HIT: Banish the top 3 cards of your Life Deck. If this attack is stopped, discard your hand. Banish after use.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-108-namekian-energy-beam.webp?v=f0abf613b7fb",
-    "downloadImage": "/assets/cards/downloads/cell-108-namekian-energy-beam.webp?v=39377c55a058",
+    "image": "/assets/cards/cell-108-namekian-energy-beam.webp?v=e001a4a30a30",
+    "downloadImage": "/assets/cards/downloads/cell-108-namekian-energy-beam.webp?v=8a1c70f44291",
     "templateVersion": 3
   },
   {
@@ -15668,8 +15668,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-111",
     "rules": "Namekian Heritage only. POWER: Shuffle the top or bottom 3 cards of your discard pile into your Life Deck.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-111-namekian-regeneration.webp?v=7fbf95737dd3",
-    "downloadImage": "/assets/cards/downloads/cell-111-namekian-regeneration.webp?v=0cd2234f6364",
+    "image": "/assets/cards/cell-111-namekian-regeneration.webp?v=c84d7af04474",
+    "downloadImage": "/assets/cards/downloads/cell-111-namekian-regeneration.webp?v=b430ef59d68d",
     "templateVersion": 3
   },
   {
@@ -15685,8 +15685,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-112",
     "rules": "Physical attack. DAMAGE: 3 life cards, or 8 life cards if Piccolo and Nail are in play. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-112-namekian-dash-attack.webp?v=615af2e3cad4",
-    "downloadImage": "/assets/cards/downloads/cell-112-namekian-dash-attack.webp?v=206d8be25fd1",
+    "image": "/assets/cards/cell-112-namekian-dash-attack.webp?v=b02690e7c9be",
+    "downloadImage": "/assets/cards/downloads/cell-112-namekian-dash-attack.webp?v=c12d15521144",
     "templateVersion": 3
   },
   {
@@ -15820,8 +15820,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-119",
     "rules": "When entering Combat as the defender, look at the top 5 cards of your Life Deck and return them to the top in any order.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-119-namekian-preparation-drill.webp?v=fb60667ef8de",
-    "downloadImage": "/assets/cards/downloads/cell-119-namekian-preparation-drill.webp?v=53ae0f838557",
+    "image": "/assets/cards/cell-119-namekian-preparation-drill.webp?v=711e47613e53",
+    "downloadImage": "/assets/cards/downloads/cell-119-namekian-preparation-drill.webp?v=54300283e202",
     "templateVersion": 3
   },
   {
@@ -16352,8 +16352,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-141",
     "rules": "When entering Combat, shuffle the top card of your discard pile into your Life Deck. If it is Namekian Style, draw a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-141-namekian-style-mastery.webp?v=3741d929a682",
-    "downloadImage": "/assets/cards/downloads/cell-141-namekian-style-mastery.webp?v=2fd0b72be5df",
+    "image": "/assets/cards/cell-141-namekian-style-mastery.webp?v=175cd25b009a",
+    "downloadImage": "/assets/cards/downloads/cell-141-namekian-style-mastery.webp?v=16314832ae1b",
     "templateVersion": 3
   },
   {
@@ -16488,8 +16488,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-149",
     "rules": "POWER: Raise your Main Personality to its highest stage. Draw and reveal a card. If it is Namekian Style, place 2 cards from your discard pile on the bottom of your Life Deck. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-149-namekian-fusion.webp?v=9ff77f04a01d",
-    "downloadImage": "/assets/cards/downloads/cell-149-namekian-fusion.webp?v=52a740e41e9c",
+    "image": "/assets/cards/cell-149-namekian-fusion.webp?v=5d1d01031ce2",
+    "downloadImage": "/assets/cards/downloads/cell-149-namekian-fusion.webp?v=04e9dbab9cb2",
     "templateVersion": 3
   },
   {
@@ -16522,8 +16522,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-151",
     "rules": "Physical attack. DAMAGE: AT +3 stages. If you declared a Toku-Waza, for each life card of damage dealt, place a card from your discard pile on the bottom of your Life Deck. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-151-namekian-fist-smash.webp?v=f501a70d28f8",
-    "downloadImage": "/assets/cards/downloads/cell-151-namekian-fist-smash.webp?v=c10bd00b43b2",
+    "image": "/assets/cards/cell-151-namekian-fist-smash.webp?v=2bfebe7262d4",
+    "downloadImage": "/assets/cards/downloads/cell-151-namekian-fist-smash.webp?v=50a9c4d3109f",
     "templateVersion": 3
   },
   {
@@ -16556,8 +16556,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-153",
     "rules": "POWER: Put the bottom card of your discard pile into your hand. If it is Namekian Style, you may search your Life Deck for an Energy Combat card and put it into your hand. Banish after use.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-153-namekian-energy-focus.webp?v=a214ed4bea2d",
-    "downloadImage": "/assets/cards/downloads/cell-153-namekian-energy-focus.webp?v=0c64c9b45229",
+    "image": "/assets/cards/cell-153-namekian-energy-focus.webp?v=ecec42bb672f",
+    "downloadImage": "/assets/cards/downloads/cell-153-namekian-energy-focus.webp?v=dd4b7b2fc41d",
     "templateVersion": 3
   },
   {
@@ -16900,8 +16900,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Physical attack. DAMAGE: AT +3 stages. If you declared a Tokui-Waza, shuffle the top 2 cards of your discard pile into your Life Deck. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-010-namekian-crushing-hold.webp?v=50ddc68ca0d6",
-    "downloadImage": "/assets/cards/downloads/cell-games-010-namekian-crushing-hold.webp?v=ca0a6e83dfdb"
+    "image": "/assets/cards/cell-games-010-namekian-crushing-hold.webp?v=86c0fc884464",
+    "downloadImage": "/assets/cards/downloads/cell-games-010-namekian-crushing-hold.webp?v=aa941badd83d"
   },
   {
     "id": "cell-games-011-namekian-fist-dodge",
@@ -16917,8 +16917,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Namekian Heritage only. Physical attack. DAMAGE: AT stages. Or, stop a physical attack.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-011-namekian-fist-dodge.webp?v=e4e46c882912",
-    "downloadImage": "/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp?v=4e91b43ede22"
+    "image": "/assets/cards/cell-games-011-namekian-fist-dodge.webp?v=35237e8c00af",
+    "downloadImage": "/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp?v=dcf6731bb2d6"
   },
   {
     "id": "cell-games-012-namekian-flying-kick",
@@ -16934,8 +16934,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +3 stages. HIT: Choose any cards in your discard pile and banish them.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-012-namekian-flying-kick.webp?v=9213449bb50d",
-    "downloadImage": "/assets/cards/downloads/cell-games-012-namekian-flying-kick.webp?v=6c6e9e6f70c5"
+    "image": "/assets/cards/cell-games-012-namekian-flying-kick.webp?v=7d710170ae27",
+    "downloadImage": "/assets/cards/downloads/cell-games-012-namekian-flying-kick.webp?v=db9553eef348"
   },
   {
     "id": "cell-games-013-namekian-foot-lunge",
@@ -16951,8 +16951,8 @@ export const catalog = [
     "rules": "ENDURANCE 4. Physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 card in your discard pile and shuffle it into your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-013-namekian-foot-lunge.webp?v=a82b76e64954",
-    "downloadImage": "/assets/cards/downloads/cell-games-013-namekian-foot-lunge.webp?v=3aea07276a11"
+    "image": "/assets/cards/cell-games-013-namekian-foot-lunge.webp?v=c2a8f579ff65",
+    "downloadImage": "/assets/cards/downloads/cell-games-013-namekian-foot-lunge.webp?v=48a7ffcf4be7"
   },
   {
     "id": "cell-games-014-orange-dragon-aid",
@@ -17733,8 +17733,8 @@ export const catalog = [
     "rules": "ENDURANCE 10. POWER: Shuffle the top card of your discard pile into your Life Deck. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-059-namekian-restoration.webp?v=dccb5eecadca",
-    "downloadImage": "/assets/cards/downloads/cell-games-059-namekian-restoration.webp?v=24cfaf4cd9a9"
+    "image": "/assets/cards/cell-games-059-namekian-restoration.webp?v=7a4e03a1bf83",
+    "downloadImage": "/assets/cards/downloads/cell-games-059-namekian-restoration.webp?v=6034e65905a2"
   },
   {
     "id": "cell-games-060-namekian-dragon-blast",
@@ -17750,8 +17750,8 @@ export const catalog = [
     "rules": "Namekian Heritage only. Energy attack costing 2 stages. DAMAGE: 4+X life cards. Place X cards from your discard pile on the bottom of your Life Deck. X is the number of Namek Dragon Balls in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-060-namekian-dragon-blast.webp?v=6019d937abf3",
-    "downloadImage": "/assets/cards/downloads/cell-games-060-namekian-dragon-blast.webp?v=280aa0451a89"
+    "image": "/assets/cards/cell-games-060-namekian-dragon-blast.webp?v=e26c987b6a95",
+    "downloadImage": "/assets/cards/downloads/cell-games-060-namekian-dragon-blast.webp?v=ceb76c2f7dee"
   },
   {
     "id": "cell-games-061-namekian-energy-spike",
@@ -17767,8 +17767,8 @@ export const catalog = [
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Energy attack costing 2 stages. DAMAGE: 4 life cards and 2 stages. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-061-namekian-energy-spike.webp?v=48b35d6579d3",
-    "downloadImage": "/assets/cards/downloads/cell-games-061-namekian-energy-spike.webp?v=44ead461e255"
+    "image": "/assets/cards/cell-games-061-namekian-energy-spike.webp?v=fb3cae648e59",
+    "downloadImage": "/assets/cards/downloads/cell-games-061-namekian-energy-spike.webp?v=1773dcb27d96"
   },
   {
     "id": "cell-games-062-namekian-face-smack",
@@ -17784,8 +17784,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +4 stages. If you declared a Tokui-Waza, you may rearrange the top 10 or bottom 10 cards of your discard pile.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-062-namekian-face-smack.webp?v=763ac40bab7a",
-    "downloadImage": "/assets/cards/downloads/cell-games-062-namekian-face-smack.webp?v=6a28ed9962a5"
+    "image": "/assets/cards/cell-games-062-namekian-face-smack.webp?v=d1b8858303eb",
+    "downloadImage": "/assets/cards/downloads/cell-games-062-namekian-face-smack.webp?v=6307545894be"
   },
   {
     "id": "cell-games-063-namekian-piercing-beam",
@@ -17801,8 +17801,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. Lower your opponent's anger 1 level. HIT: Discard 1 of your opponent's Allies in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-063-namekian-piercing-beam.webp?v=4b33ea21fc53",
-    "downloadImage": "/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp?v=e7eb49d32385"
+    "image": "/assets/cards/cell-games-063-namekian-piercing-beam.webp?v=b1f59f2b26ef",
+    "downloadImage": "/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp?v=633c090817bf"
   },
   {
     "id": "cell-games-064-namekian-power-stance-drill",
@@ -17818,8 +17818,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped physical attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-064-namekian-power-stance-drill.webp?v=988d98ac89b9",
-    "downloadImage": "/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp?v=0a4aed04fc0f"
+    "image": "/assets/cards/cell-games-064-namekian-power-stance-drill.webp?v=e14e30e81f96",
+    "downloadImage": "/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp?v=f10b1e682c14"
   },
   {
     "id": "cell-games-065-namekian-quick-blast",
@@ -17835,8 +17835,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Choose up to 4 cards in your discard pile. Banish 2 of them. Shuffle the rest into your Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-065-namekian-quick-blast.webp?v=e115dc6a8438",
-    "downloadImage": "/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp?v=eca7e120c51e"
+    "image": "/assets/cards/cell-games-065-namekian-quick-blast.webp?v=d28679d3c7de",
+    "downloadImage": "/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp?v=6c6c3296a0aa"
   },
   {
     "id": "cell-games-066-namekian-ready-drill",
@@ -17852,8 +17852,8 @@ export const catalog = [
     "rules": "Defense Shield: Stops the first unstopped energy attack against you each Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-066-namekian-ready-drill.webp?v=f88c7da9d811",
-    "downloadImage": "/assets/cards/downloads/cell-games-066-namekian-ready-drill.webp?v=b4f470b48684"
+    "image": "/assets/cards/cell-games-066-namekian-ready-drill.webp?v=0b5189eec174",
+    "downloadImage": "/assets/cards/downloads/cell-games-066-namekian-ready-drill.webp?v=624727ad14f1"
   },
   {
     "id": "cell-games-067-namekian-right-cross",
@@ -17869,8 +17869,8 @@ export const catalog = [
     "rules": "(Limit 8 per deck.) Namekian Heritage only. Physical attack. DAMAGE: AT +2 stages. If you declared a Tokui-Waza, you may discard any cards attached to your Main Personality.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-067-namekian-right-cross.webp?v=9192ce13d939",
-    "downloadImage": "/assets/cards/downloads/cell-games-067-namekian-right-cross.webp?v=d1e7ef5a37f7"
+    "image": "/assets/cards/cell-games-067-namekian-right-cross.webp?v=b911c3e1bb67",
+    "downloadImage": "/assets/cards/downloads/cell-games-067-namekian-right-cross.webp?v=429377128320"
   },
   {
     "id": "cell-games-068-namekian-scouting",
@@ -17886,8 +17886,8 @@ export const catalog = [
     "rules": "ENDURANCE 4. POWER: Look at the top 4 cards of your opponent's Life Deck. Banish 1 non-Dragon Ball card. Return the rest to the top in any order.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-068-namekian-scouting.webp?v=d3846c469179",
-    "downloadImage": "/assets/cards/downloads/cell-games-068-namekian-scouting.webp?v=1677fd8f19eb"
+    "image": "/assets/cards/cell-games-068-namekian-scouting.webp?v=a32f75180113",
+    "downloadImage": "/assets/cards/downloads/cell-games-068-namekian-scouting.webp?v=aebc84a11dc4"
   },
   {
     "id": "cell-games-069-orange-beatdown",
@@ -18734,8 +18734,8 @@ export const catalog = [
     "rules": "Sensei Deck. Stops a physical attack. If you declared a Tokui Waza and your opponent declared a Saiyan Tokui Waza, draw the bottom card of your discard pile. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-016-namekian-battle-stance.webp?v=68195543a5cb",
-    "downloadImage": "/assets/cards/downloads/world-games-016-namekian-battle-stance.webp?v=399b653f6b71"
+    "image": "/assets/cards/world-games-016-namekian-battle-stance.webp?v=5bb561bf6c4c",
+    "downloadImage": "/assets/cards/downloads/world-games-016-namekian-battle-stance.webp?v=fb51a1ea788d"
   },
   {
     "id": "world-games-017-namekian-elbow-strike",
@@ -18751,8 +18751,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. If stopped, place the top card of your discard pile at the bottom of your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-017-namekian-elbow-strike.webp?v=c8b4aecf0851",
-    "downloadImage": "/assets/cards/downloads/world-games-017-namekian-elbow-strike.webp?v=0f707da942ad"
+    "image": "/assets/cards/world-games-017-namekian-elbow-strike.webp?v=e281e08410a5",
+    "downloadImage": "/assets/cards/downloads/world-games-017-namekian-elbow-strike.webp?v=d7557cde7bbd"
   },
   {
     "id": "world-games-018-namekian-halting-stance",
@@ -18768,8 +18768,8 @@ export const catalog = [
     "rules": "Stops a physical attack. If you declared a Tokui Waza, shuffle this card into your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-018-namekian-halting-stance.webp?v=d9a4248fcf76",
-    "downloadImage": "/assets/cards/downloads/world-games-018-namekian-halting-stance.webp?v=03fe242f3acc"
+    "image": "/assets/cards/world-games-018-namekian-halting-stance.webp?v=c1e6525fdf0f",
+    "downloadImage": "/assets/cards/downloads/world-games-018-namekian-halting-stance.webp?v=357c33f36400"
   },
   {
     "id": "world-games-019-namekian-light-jab",
@@ -18785,8 +18785,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +4 stages. HIT: If you declared a Tokui Waza, draw the bottom card of your discard pile. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-019-namekian-light-jab.webp?v=954b2051a811",
-    "downloadImage": "/assets/cards/downloads/world-games-019-namekian-light-jab.webp?v=7b5081e6bf52"
+    "image": "/assets/cards/world-games-019-namekian-light-jab.webp?v=63ea5a8307cd",
+    "downloadImage": "/assets/cards/downloads/world-games-019-namekian-light-jab.webp?v=be0329c3b2f1"
   },
   {
     "id": "world-games-020-namekian-surprise-attack",
@@ -18802,8 +18802,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. HIT: If you declared a Tokui Waza, banish a Setup or Drill in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-020-namekian-surprise-attack.webp?v=7981b131bc25",
-    "downloadImage": "/assets/cards/downloads/world-games-020-namekian-surprise-attack.webp?v=93f9b4e3e065"
+    "image": "/assets/cards/world-games-020-namekian-surprise-attack.webp?v=46170d231344",
+    "downloadImage": "/assets/cards/downloads/world-games-020-namekian-surprise-attack.webp?v=e7ccd10b3cc1"
   },
   {
     "id": "world-games-021-namekian-throw",
@@ -18819,8 +18819,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT stages. You may discard any number of cards from your hand. For every 2 discarded, look at your opponent's hand and choose a card. Discard the chosen cards.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-021-namekian-throw.webp?v=a9057b8f7e2a",
-    "downloadImage": "/assets/cards/downloads/world-games-021-namekian-throw.webp?v=5a72ef951605"
+    "image": "/assets/cards/world-games-021-namekian-throw.webp?v=ac7fabd1c648",
+    "downloadImage": "/assets/cards/downloads/world-games-021-namekian-throw.webp?v=0dfe3827ede7"
   },
   {
     "id": "world-games-022-orange-flying-drop-kick",

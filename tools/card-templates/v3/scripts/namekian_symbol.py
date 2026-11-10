@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 from lxml import etree as E
 from .tokui_backing import apply as apply_backing
+from .namekian_symbol_weight import apply as apply_weight, NEW_WIDTH
 
 S = 'http://www.w3.org/2000/svg'
 ASSET = Path(__file__).resolve().parents[1] / 'assets/style-symbols/namekian-strokes.svg'
@@ -18,7 +19,7 @@ def make_symbol():
     symbol.set('data-symbol-revision', REVISION)
     paths = E.parse(str(ASSET)).getroot().findall('{'+S+'}path')
     assert len(paths) == 14
-    for color, width in [('#080b0d', '13'), ('#21aaa5', '7.69230769')]:
+    for color, width in [('#080b0d', '13'), ('#21aaa5', NEW_WIDTH)]:
         group = E.SubElement(symbol, '{'+S+'}g', fill='none', stroke=color)
         group.set('stroke-width', width)
         group.set('stroke-linecap', 'round')
@@ -45,7 +46,7 @@ def apply(root):
         raise ValueError('Expected one Namekian symbol')
     symbol = symbols[0]
     if symbol.get('data-symbol-revision') == REVISION:
-        return False
+        return apply_weight(root)
     targets = [x for x in symbol.iter() if x.get('transform') in OLD_TRANSFORMS]
     assert len(targets) == 1
     target = targets[0]

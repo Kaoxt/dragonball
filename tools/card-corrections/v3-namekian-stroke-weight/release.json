@@ -1,0 +1,4046 @@
+{
+  "revision": "namekian-stroke-weight-v1",
+  "source_base_commit": "8b5653e43ef4901cd404ad0c229d9d89f811a40a",
+  "corrected_card_count": 65,
+  "export_count": 130,
+  "glyph_before": "瑪",
+  "glyph_after": "瑪",
+  "colored_stroke_before": "7.69230769",
+  "colored_stroke_after": "7.3076923055",
+  "colored_stroke_ratio": 0.95,
+  "outline_paths_transforms_backing_unchanged": true,
+  "historical_audits_preserved": true,
+  "all_unrelated_pixels_unchanged": true,
+  "cards": [
+    {
+      "id": "android-021-namekian-blocking-stance",
+      "set": "Android Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-021-namekian-blocking-stance.svg",
+        "before_sha256": "78947357114bf3350b1f2276664dd8d9f5f99858981007b0fb7b6fe0fb2babe5",
+        "after_sha256": "432b88d98d10b678585d3eefd96a7ea8204b5f5b074b65ea7d92ed81dc114508",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-021-namekian-blocking-stance.webp",
+          "before_sha256": "b9e8285927bb852bb73e8d0caddaf147f2ba114bc3b53e16b442bf46c9a134f4",
+          "after_sha256": "a8bcf5c9bb5b78b5e69355f19371046f30a7cc49dd1aa0f83d9fd904903dbdc3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6644,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-021-namekian-blocking-stance.webp",
+          "before_sha256": "66bc0721d494ee2e6bdb2f04721d5679a6421e7aa8b17f1ec9fa25cee4e4e79c",
+          "after_sha256": "32978c9ad515c439cccb8a826ecc122cef78a8bfbe7e85fc298bf93fe04d2bc2",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-022-namekian-defensive-stance",
+      "set": "Android Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-022-namekian-defensive-stance.svg",
+        "before_sha256": "3e9dcc4c9816ebb622c13360c9796a4b22077220af88b0abe6c02b47bdb1d137",
+        "after_sha256": "3cca39b5a16324e0ab0a19ccc46c8cf3e1f75dc5455922d453f022a3f5441cfd",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-022-namekian-defensive-stance.webp",
+          "before_sha256": "7b95e8412b27919a56fb539da0afbb0374c066bfb99618a31488058b334c0744",
+          "after_sha256": "82375a5a4350fb75c28c01a6b61054e2f7cdabceab9eda5f59bedd34cb8e6f92",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6651,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-022-namekian-defensive-stance.webp",
+          "before_sha256": "6e547c9c411d47e101f934e68ef831e70c93bb38e5d4d64da29c96b6ecc01558",
+          "after_sha256": "bd68fd953378187876acdde2b178aba637281af6e3049c27c4d5552c9188d14e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-023-namekian-determination",
+      "set": "Android Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-023-namekian-determination.svg",
+        "before_sha256": "72171ef7d37e8b7b568b44d232f33a016fe7996e48bc4fcfeeaddb40b2842fcc",
+        "after_sha256": "17eeede4c0477aea5ad6697c562c901609264549add2b195d0fdca0a8db64ec8",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-023-namekian-determination.webp",
+          "before_sha256": "d8b72e9cbb6dbadf53bc2f2064ac9cd5aa72fb7d2390ff58dee462338cf23376",
+          "after_sha256": "05eb8c64c5923798f70a3e1a8c6733a02c52524fb364c868d1647fb0ae23a690",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6641,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-023-namekian-determination.webp",
+          "before_sha256": "dce48afdebd6739d92f959f671f0cdeee8822c13e81845c554a8219c6ed643b2",
+          "after_sha256": "dbaf2e0b4dfacd40e26ca58201423677a193658fd95b97c423c2187315216a99",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-024-namekian-dodging-technique",
+      "set": "Android Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-024-namekian-dodging-technique.svg",
+        "before_sha256": "bc29b1e5b25b2d8fa1ace4ec98197b0a8498f746efe658fe80a81d51e849f7e6",
+        "after_sha256": "14fab26d406848c9360ef0756b6807572165b11c3ab1398fb2f3c492a714cb79",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-024-namekian-dodging-technique.webp",
+          "before_sha256": "3b2349ea55a7772b507d27c38c55fc71c25fae577f5a2eb87d0fc6cd151ec215",
+          "after_sha256": "15c0715ee6903d2c784bd381fb1e1e0534a116ceb9683afda93554e214d529ac",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-024-namekian-dodging-technique.webp",
+          "before_sha256": "10636ae2bb69a58105092e2f6e18b9b3ac80fac7db3122056fced99586bd08c0",
+          "after_sha256": "59d0fb511f964ba3d6fcf7462da45a717555ee808da060e954272ced39ec370c",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-025-namekian-energy-absorption",
+      "set": "Android Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-025-namekian-energy-absorption.svg",
+        "before_sha256": "4358482245972fcee701606fc8fc4b50ab5b17cbdf4a30ad9ebf016c81024a58",
+        "after_sha256": "b7f2e63bed0a43335ee1eb5c7e70ad8049cdab423ae5e1410a3e1c39bc2a1ab8",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-025-namekian-energy-absorption.webp",
+          "before_sha256": "9efbc878200cc75f412327a3783099a5516fec8e185c31dc7b82ce4f1408b5c4",
+          "after_sha256": "af7732c5224e1085cee54d272adb7b058331a97e67839d553665c6cb7e34430f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-025-namekian-energy-absorption.webp",
+          "before_sha256": "67575ae4aae6b2aedf0504b6801a8748506dc75a8ff7f994c6f18b5d4c53f924",
+          "after_sha256": "7a87614c3eb75114581fdbfe2a06450ccdc68ae56df2179771c93a41286b4363",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-026-namekian-wrist-grab",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-026-namekian-wrist-grab.svg",
+        "before_sha256": "9c358b47450e93cb760b378249257cff4148765b30eaf6e924c81b05cf2b876e",
+        "after_sha256": "5f9b295a44471ba92d055b5340c8d75e8de07f1e41ecd7de699f4518fbedc646",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-026-namekian-wrist-grab.webp",
+          "before_sha256": "62eddcddd8cab3938b8e6028036717df3b1b7eb56a991b529c84abe0cf9352b7",
+          "after_sha256": "544fc69f71a70304ce4c91e86e6a418008b1f46291ca85d92c2eb0ee92eb3791",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6636,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-026-namekian-wrist-grab.webp",
+          "before_sha256": "f6d067f2dd9d82bb51adb907ea12707204f472f1fbd610f07827f779f65ed4d9",
+          "after_sha256": "7746b4957ff29a5d3a191d12498e24747e768ea00f1a04ab031b4ffa112bcd5f",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-061-namekian-elbow-smash",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-061-namekian-elbow-smash.svg",
+        "before_sha256": "b69cf427668aa49144731bdcf9f5c86d2a83e4c697149ffc11a120acd53c0b4d",
+        "after_sha256": "2cb5c32da453bb7ff2b2aa913c5b97ce596fa78526357665d4ac3c877bf3f757",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-061-namekian-elbow-smash.webp",
+          "before_sha256": "06d717b12edfc19cb96bc638518d1434896fdd908d2d07e76bcf197f7f81e584",
+          "after_sha256": "c39a5af6307e69626ab37d63a5cf64443299e51f3ab259df71f9a29fe37d42d8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6651,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-061-namekian-elbow-smash.webp",
+          "before_sha256": "3ab14833cf544c1a3e9b81ca21927b375d201cb0bbc5555c2c76af3705412be7",
+          "after_sha256": "6b80e94302f4efea0eaa29264d6fee348ca905dd89fb448703006de8caf24902",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-062-namekian-finishing-effort",
+      "set": "Android Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-062-namekian-finishing-effort.svg",
+        "before_sha256": "b03085adcea9e0048ee7c9999c404803a4401b6b198e526308d3581f48bb3a47",
+        "after_sha256": "442c6ed4202106007913502306abacf780aedc67b5280f92021a8464f86666d4",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-062-namekian-finishing-effort.webp",
+          "before_sha256": "836ba57375787b0223bb36825ccafab48995fcfae4a6d47c8a63cf3fcbcea49d",
+          "after_sha256": "4fbd75f9050caaaad3c63490a0ec987c3a73180f47a2761d43b17d2918bb159b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6636,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-062-namekian-finishing-effort.webp",
+          "before_sha256": "b8cc4b3dd3f66f6ee3e17eda4bd9f67aceb29c45ca90357c4050efa08f0ad5cf",
+          "after_sha256": "42c968731a8f253a406fa0a304735d3b2f06c02d19d41cec92c953506b239ea6",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-063-namekian-focusing-effort",
+      "set": "Android Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-063-namekian-focusing-effort.svg",
+        "before_sha256": "47f96bceb44e325ee4bef2dd4578999faf958986d1695a387faac700e3968f83",
+        "after_sha256": "d1cd5b70b214a3c92de95f5bcddc6b69a30b55bd94b46e3a165a0b59e8faac06",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-063-namekian-focusing-effort.webp",
+          "before_sha256": "571651e37cbf8ed19b9923af139aafcecddf7ac12c7d771bf185790f9bbbb10d",
+          "after_sha256": "1f84b434e9f2cdcfe9271e477aef4bfc6cefc490e049c9d878377475f4bb3267",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6646,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 2,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-063-namekian-focusing-effort.webp",
+          "before_sha256": "38ffb8888da49a6be82e89f8da51aaa6fef8110f85e81136f8ff6c600a3089e8",
+          "after_sha256": "575fb388352f82cc64b46c2a1620f710a63ec2527c99ed0d11beea35805bfec3",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-064-namekian-forearm-smash",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-064-namekian-forearm-smash.svg",
+        "before_sha256": "8b30ff2f5a5567e8480eb3c6399cfa2c82c12a545362de141a0f82e93b05c122",
+        "after_sha256": "65440311890e98ddcdc291308776aaae53dcb91e3033618cd3bd8f16292e554b",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-064-namekian-forearm-smash.webp",
+          "before_sha256": "176162e0f59e7286c4be0b6d2edbf5434aa2927cd7ed5d912081d2b1c7edc9dc",
+          "after_sha256": "ded7c9432ab86bda315222c74055097e359d359291ac8e46e0903d2981c284d0",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6643,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-064-namekian-forearm-smash.webp",
+          "before_sha256": "13d38e11df46c9016ba59115c51b8f6992d396bcbd69c883f6c076b09bd84261",
+          "after_sha256": "8af3cf967cfe6936f3c935a716edf98a519901bdaad1fb07c6d0059c2ad2c539",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-102-namekian-friendship",
+      "set": "Android Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/android-101-125-promos/android-102-namekian-friendship.svg",
+        "before_sha256": "5f6ffab5e5b20a333011ca43758bf84d04e97535632a47cc4b9ba602ff14a048",
+        "after_sha256": "22e1523a0def43439f84d3c67cdd05256ccec7e01716e8c0f056c9df437feae6",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-102-namekian-friendship.webp",
+          "before_sha256": "c13980cbb0ffd6e42d64079d2962f876c853c1aa6a8c341036e6da751cc5738f",
+          "after_sha256": "9c7784307230fa6fe32e03e3a67151aadf5454a1d940b22dad27a695cbd3c07b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6641,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-102-namekian-friendship.webp",
+          "before_sha256": "43db07cf9ce03d141a3de402417640346dd0074ef83c3890664dac33ffc96328",
+          "after_sha256": "679b929c982068d721c9d0f38b43a872fa8b96bd858f903aa194de3a9bdbbfe0",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-103-namekian-teamwork",
+      "set": "Android Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/android-101-125-promos/android-103-namekian-teamwork.svg",
+        "before_sha256": "06561307ad2c3f27e0a71d094e95d742992e5afe472d1919f73d80fde759536d",
+        "after_sha256": "9fbe4d5222a2d4eea7bcfb40fe155f73a389dac38c88f58a009969be1aca568a",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-103-namekian-teamwork.webp",
+          "before_sha256": "c48ba2bbc0b5c1793f6324fd98f148c0d1deeda2cbce429abc6af31643160c30",
+          "after_sha256": "2cef3472119652005ce7467f5da4f95b1a7b3fd4504b5973a8c8ceec863f30b8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6643,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-103-namekian-teamwork.webp",
+          "before_sha256": "e231962923305ea2aba68be024f669bdc1a2250181ddc3d16d72afe3a9527b48",
+          "after_sha256": "9df32677bf8c1a99d495f30e31f7926f4ccdfd86fe9e6d89d5ef3ea09d324511",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-007-namekian-energy-ray",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-007-namekian-energy-ray.svg",
+        "before_sha256": "2dc2af93ada87799ac8c56d0589b52c1c798ba02113ad2f73cbc21dd832c00b1",
+        "after_sha256": "fd938e3ddcd2c31d88fc5ca5717459bae64dffa02f964a72684325fd5bc131e0",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-007-namekian-energy-ray.webp",
+          "before_sha256": "08212a507cb60018d42350a9701dbbb3f223d323da1177ac3d4fd587ee36df67",
+          "after_sha256": "06a2b3724fc4ea006e290b57a9945ec45667f28a9782b7f3368f1fabe6e4283a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6629,
+          "changed_bounds": [
+            35,
+            845,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-007-namekian-energy-ray.webp",
+          "before_sha256": "84306f118144ab168224d9b2a1c440cf7795f4723ab04f6c8e73fe5611e076a3",
+          "after_sha256": "8c2150c76296d9d090249da1dcb3e05c21a88bd24ee64df58f0f39101711722c",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-011-namekian-backflip",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-011-namekian-backflip.svg",
+        "before_sha256": "46e6837693910389070d9338454fd5401c3badc332691bd9559d85131d3fe8d4",
+        "after_sha256": "362f2353ab082e3cd339acdc60ac0c178e114c86f0a0b9c829a9c0e8f1001879",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-011-namekian-backflip.webp",
+          "before_sha256": "e16521a44cb6eb32b74dfd5ccb21b86daca739d35c3dc1cb02ad4af49d80fb9f",
+          "after_sha256": "8c91c2e0ba22b7cef32a148be6273db32125b5397369c67af3ab60411fa7d0a3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6644,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-011-namekian-backflip.webp",
+          "before_sha256": "7ba768940a4d16a1982d01ed56b39c00ededbf4418520c34e3ba150577f301e4",
+          "after_sha256": "16ba4e7e48ed82848b5654360147498ba24323e831c80392bb5b15ba2514a07c",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-012-namekian-physical-stance",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-012-namekian-physical-stance.svg",
+        "before_sha256": "1db7ed1b1bc39bbded7c73c8164f4290bb0ebe427cc56fc5ca27983fd5f565fa",
+        "after_sha256": "8c8df570dc479605f2ebc81c492aedc6b91dc866463b368e09aa6263f346666f",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-012-namekian-physical-stance.webp",
+          "before_sha256": "d79d478422a48055a6c8249b4b3d576c66bb1a0b7a315d5792b361e734b69706",
+          "after_sha256": "aa8618e594f9e42e2b069ab876e09826433735baa5200113e3ae24d064ba6553",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6633,
+          "changed_bounds": [
+            35,
+            845,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-012-namekian-physical-stance.webp",
+          "before_sha256": "37adee91d08c04737a9d6e008aed80bc7ac89877e3d20b0be2714ae9bd4ac76b",
+          "after_sha256": "8a555c1945c1bcea3fb8bcffb3437249997b0d6e3d2eacee1539bf4234caa47a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-013-namekian-destruction-blast",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-013-namekian-destruction-blast.svg",
+        "before_sha256": "3764172152244d605cf2cc136fc209f905aed94d94a24b709b03bf61c6681d60",
+        "after_sha256": "ccbc55c84cc11c02cbb64ecb323da9823e568d8c56f6d4b7242489e7790c5fff",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-013-namekian-destruction-blast.webp",
+          "before_sha256": "aa9baaddabc19a6756974d815b72776a21ac195716131f5c4619bbd3dc6ce7b9",
+          "after_sha256": "3ec46038eb83a06c186760b61805dcbf885e91c18fb8c5ef8320d98c708a7201",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6632,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-013-namekian-destruction-blast.webp",
+          "before_sha256": "aa4ad617dd59e84bd239d14827a14aebad9bb547f07eb8ce273e953605e50a27",
+          "after_sha256": "cf8d6a2dbae72b4a8356302c13d85779836ed8f0854c37a283309b02b250180e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-022-namekian-headbutt",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-022-namekian-headbutt.svg",
+        "before_sha256": "8a91aa27cff8a956515587cd0123137aec95b958e24d69ed37562b028af0dce9",
+        "after_sha256": "4e1f1a1747706f4a58f2231936b6fa62450b7f7cbe17b19901e998be367381d7",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-022-namekian-headbutt.webp",
+          "before_sha256": "0f229ef87d1cc318be5ac089882275a399be0817e232e8948125e1ad6442499e",
+          "after_sha256": "b2bc5cc5657baa75072e5e0a2b721c197e0f6d51ee5cb5bd7ba94b4e4d671938",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6636,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-022-namekian-headbutt.webp",
+          "before_sha256": "783ae51a8d0a93b2f81700b55c2c3f464baf574b6e4c41a2f9034e4b6163fcd9",
+          "after_sha256": "39cdedc5648891170215a84b5d3f47799da43de93c0834fc89738d84c5387a24",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-034-namekian-power-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-034-namekian-power-kick.svg",
+        "before_sha256": "d48c4553aee93aeba3ee61a69d4547bf2ebfd8d29fcf0422aabd4890e4cd324c",
+        "after_sha256": "4c30dd00659e409f684a0543d10c89b51d591e2d12b7a91bd0ff97bb6c0c6f5c",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-034-namekian-power-kick.webp",
+          "before_sha256": "d0b998d7cbe8e515cb16afa7acd26239c58a28416f75d536cde9d5cf56bfa562",
+          "after_sha256": "636baf620e86ee060ec4667ce28b7aad29a10bf47bbac0a24354870f16f5e732",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6647,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-034-namekian-power-kick.webp",
+          "before_sha256": "34907b41307cbb999aa32f0bfca2ca18640a9e2f542a7f3be895fcb2640d8199",
+          "after_sha256": "09da7da7c3bf1345fda5500023665ef03067f86ddd3f4ede7ce492e31bf71e00",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-042-namekian-fist-block",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-042-namekian-fist-block.svg",
+        "before_sha256": "7a3e88e885d0c4bfd200abc9a9a7011a0e4948a6eecdc39980b195f291962608",
+        "after_sha256": "0e45e73340c0136120b33625c304987af0f58485833f5af6b26034f89ac0637d",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-042-namekian-fist-block.webp",
+          "before_sha256": "dd871122a7fe16c63dda9398e28d001e90def7bcfe30b1c071143b94d3b55e43",
+          "after_sha256": "0b392390208106897d720fe730e78007095be4ccc148afc24664d3aa5aaf982a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6640,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-042-namekian-fist-block.webp",
+          "before_sha256": "76c9d2d800fa4061c704f304b4277c22dd2387be3d6612785e9f184cbc6f6a54",
+          "after_sha256": "e389191fe3919d17c8a899b2a54020d9a0d94a6dedbf44af08c5b041f91c8797",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-043-namekian-special-beam-cannon",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-043-namekian-special-beam-cannon.svg",
+        "before_sha256": "ebfab313da8f700a5bdedd37f4cf24e8a39cc6a8a82b1cb0d14b7056749b20b5",
+        "after_sha256": "c51d54c08ff70e901f86886f9bb479a203375bcf8556dc742638772bd44deef9",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-043-namekian-special-beam-cannon.webp",
+          "before_sha256": "44f62ab8ee651f599da160ebaafb5b5d13a7c4b306f4f2296814d5999d9349ed",
+          "after_sha256": "006bdf748534b57595bbc0f3654e22cce23bccf23021835236cf07f7c73af068",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6649,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-043-namekian-special-beam-cannon.webp",
+          "before_sha256": "8da49880289cedc0f25310f9816316853070dc34c749b78fbeeb6104134607d9",
+          "after_sha256": "f7471403657a8e44a8ac100a616a011cc5a28a8c81c9a8602b921e962af60e18",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-044-namekian-bash",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-044-namekian-bash.svg",
+        "before_sha256": "b6f6ffe3cafbe3dd3a7c39e12d967c321844208b08a5e93796e3c61977e6c12d",
+        "after_sha256": "ba18bdbd80c78d1b027d5d273771ad1d4bccefa93aaa27795b013503cddb6f56",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-044-namekian-bash.webp",
+          "before_sha256": "45cb3c14bae5e4aa0aca637848f91f39145b0b60837927ecc26bf9cb86e66ead",
+          "after_sha256": "1f3fc1205cc5c47350478d42076d134006371b657587c1b27fc67324a87708db",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6635,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-044-namekian-bash.webp",
+          "before_sha256": "ad267a7920bc43074123ee9711c7945f2c23cfd3159f56ab3fa75c6467adde80",
+          "after_sha256": "5a08e0ee4ab27e1711cbdf48f6ba396e8550920659585c6fd13a52122f23b89b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-045-namekian-energy-catch",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-045-namekian-energy-catch.svg",
+        "before_sha256": "4e7c7ca5d9f318e9f5d526c87fff3776d67e64797d22c533e09fa831049146b5",
+        "after_sha256": "47e30e2b226d4b38d66ecd4da293fa226eb8ec4c4b5dbbe1b991d43427e1fda2",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-045-namekian-energy-catch.webp",
+          "before_sha256": "9362a37bdff2b663433593f9ac62b11520d22ab9c99270496494e8c9e1d675f8",
+          "after_sha256": "bebc55b3bc63715979a92558729bde9e0154d0abd3a6d64fc2c5d7f804ea0896",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6646,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-045-namekian-energy-catch.webp",
+          "before_sha256": "d8c98aeb9d334f56d1edd9236dbec0542499ede61c37ede5ebf65216a3b30bbc",
+          "after_sha256": "4c9a37eb8f3ccf8dc40cdf6599b2c5d5ae254cfb82830c668c61d146d0d43ab9",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-049-namekian-upward-dash",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-049-namekian-upward-dash.svg",
+        "before_sha256": "42b6eeda87ecd46548b1a39758b348c7754e942676e91b673bc35ffed3c02261",
+        "after_sha256": "6c25d7afbc3aa58d575987244a41f487cd0fea52436094b29fd6c9acf96815e0",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-049-namekian-upward-dash.webp",
+          "before_sha256": "68cee195ffd6ae36410114d7bbddf5ea94dca71153180514a11b455ede0dac73",
+          "after_sha256": "4bc7a8aa1cfb8e870a0e837301b1376081843656837d64bc6bb1e8b5fdcb393e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6645,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-049-namekian-upward-dash.webp",
+          "before_sha256": "3aeeb8ab8c2eac4946834ee64eb207cd220c21a92685fb72259f1fccb26668ff",
+          "after_sha256": "725cc017fb9131a2848a7162f345cd0f8597ffb76bbcbd76ffe8de4fb7660af9",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-058-namekian-rock-crush",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-058-namekian-rock-crush.svg",
+        "before_sha256": "07f3e6067da52d2b7387ad4616b547584068c8a2d03fee9e47be6873ce43ae9c",
+        "after_sha256": "acbee77716e8a96220073d2576ff8a2fed4a75a33620fbe0f39bc163cbd18f5f",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-058-namekian-rock-crush.webp",
+          "before_sha256": "26d38a1295fe17f18d8d20564fe3864a8a816795f3edf4117b5e570f651dfe26",
+          "after_sha256": "e99bdffe38d82f9544b70771c04ea4164c40f1005891b8055b171cae34945e07",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6631,
+          "changed_bounds": [
+            35,
+            845,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-058-namekian-rock-crush.webp",
+          "before_sha256": "20a3fb4a437b5e37372e9b98feacb5699820e1e1ad07d5dac6a64c49963d4bac",
+          "after_sha256": "a06bb1521897ad0c7bd366704f9a431137f8df8114614a88ba4bb258170b842b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-094-namekian-side-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-094-namekian-side-kick.svg",
+        "before_sha256": "3cad9beab10fd331bf799c01ae18190b3223d88c537961336e40b3eccbd449b3",
+        "after_sha256": "c415f77e419c7edaa06775e92df51e2b0c6f082d8691fd9eb614267322fc6273",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-094-namekian-side-kick.webp",
+          "before_sha256": "ced1d88482857b9d2c1b4ee852577640bce29368e5bf0d9793d570f139a1fee0",
+          "after_sha256": "15cb169c346567c998ed0ebfd64f11350b33a75e32492ec7175a6bccd027dc99",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6647,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-094-namekian-side-kick.webp",
+          "before_sha256": "f71a0695911a2d6817dda9f15a97dda2b53697a01fc007ff6b6a24af9536632b",
+          "after_sha256": "6a1b224b6f7f860e6fa184a90eb277d6035bbebf897683aaad84c8559fbc1855",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-096-namekian-energy-deflection",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-096-namekian-energy-deflection.svg",
+        "before_sha256": "9ea2d1d416a479b83f2b052bb3c0286d3db087492290ec5c95988f4ba3853920",
+        "after_sha256": "d60c6d68818b2dae7743f16cea4f5a434475717a6ee47c80f428e77ff0dfdf0f",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-096-namekian-energy-deflection.webp",
+          "before_sha256": "f5b9dbd437d5c17a8440c382a53f3353de22fa9a65ae6501504eb4fc9f5ceb29",
+          "after_sha256": "4e64b59448bf05ac85a351ef658844715f3888da217800333f41fde64f7a826a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6636,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-096-namekian-energy-deflection.webp",
+          "before_sha256": "1d3eefc6f57a4ef6a01f02a2674ab725028d61003561e41612b531cea8f88739",
+          "after_sha256": "6ac050c82dcc75b50219055d900a422b47d2a7de0b4749d040cc3636d179ab7b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-105-namekian-power-up",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-105-namekian-power-up.svg",
+        "before_sha256": "539164e24d22861ce16e0fa3a812d391ac3e0774b83b33613f07847dc6250912",
+        "after_sha256": "8d49ed6d55766cd0b6d40a519ec377815a9880ad2857cc2ae50310efddd9958b",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-105-namekian-power-up.webp",
+          "before_sha256": "de89d82e69d72c447295235236c55a2e92885e6d733f38ef819ab04f987ba017",
+          "after_sha256": "fb2eff1b4e124b7a2051f10a46192bc0f7fcedb8bbdb1aafc39f8c07bbfa5206",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6640,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-105-namekian-power-up.webp",
+          "before_sha256": "8faf837aa1f22f02c44a0ecd56008803301bcc38d631d31d1f1600080562110a",
+          "after_sha256": "3edee2279cb0ad7ff20002ffc17fc0c7154156d6752d83c38865290e9239463a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-108-namekian-energy-beam",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-108-namekian-energy-beam.svg",
+        "before_sha256": "8e83d6afedfa7c14d9ee75d459db53bb3d2f5e6280b66075985cb62dce02ee31",
+        "after_sha256": "0b7139c515e2e4cca5adc9ddabb598af0b4369f6632c614335396b4b638ea1bc",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-108-namekian-energy-beam.webp",
+          "before_sha256": "f0abf613b7fb9e845033f45c99b29ef6a32e9ed897478179b7f7997c5575f609",
+          "after_sha256": "e001a4a30a30b1faa22df9039fc4bdc6c9e4b49ed794753380330270f475e663",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-108-namekian-energy-beam.webp",
+          "before_sha256": "39377c55a0583e9e1b6018a32da925f126c8cc6e15b54570909eb90c4e49039b",
+          "after_sha256": "8a1c70f44291d591a487e19dd785397d7b13eefb6c1a44dc32669f7ec7e2cb77",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-111-namekian-regeneration",
+      "set": "Cell Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-111-namekian-regeneration.svg",
+        "before_sha256": "7ad353764903d43d65684d30e1569c681436b33f9b52e14bfc8ab806c94f23e8",
+        "after_sha256": "2fe1ee01ba457e9100374945fb10edc244538b1c37df3570030ec64aeb255d71",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-111-namekian-regeneration.webp",
+          "before_sha256": "7fbf95737dd309b0145287cf44736f5afc159c9755011fd956f49d5806b625e8",
+          "after_sha256": "c84d7af044740579c05c9a09c243e4445d3a0f1a807fa8c7a762921efabb33e5",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6645,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-111-namekian-regeneration.webp",
+          "before_sha256": "0cd2234f63647c20f93d77d5eab389dee885d2321fb1a57d7088bd9c0c317634",
+          "after_sha256": "b430ef59d68deb463156405638507059e4644716474bca8c18671a9c0ffcb9ad",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-112-namekian-dash-attack",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-112-namekian-dash-attack.svg",
+        "before_sha256": "7fc06b3e2749fd415ed2a168a428971d8a3d87da7c58cc9a3ca8ae3cac2654cd",
+        "after_sha256": "72eee87b8b267b8af01f26d440dd110acbec4a9b0466c447169eb1382be06271",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-112-namekian-dash-attack.webp",
+          "before_sha256": "615af2e3cad4b6c444414cd70855d120a70344dad9380a365e842f194c2f2bec",
+          "after_sha256": "b02690e7c9bec37dd6889e7395af15e4ac133b750fba6916ffecfa07f7dc84a7",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6641,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-112-namekian-dash-attack.webp",
+          "before_sha256": "206d8be25fd1adc2445d780cc28539316c254d234cc4e5c72d0bbb64d2ca178c",
+          "after_sha256": "c12d15521144df9581c623203c0d21ac650fed37d0cacf3acb75d2ed19d1c25f",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-119-namekian-preparation-drill",
+      "set": "Cell Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-119-namekian-preparation-drill.svg",
+        "before_sha256": "a2765391c07bba031938695746ecbd916ac64b07b7b6d17bfaf3576a2a607158",
+        "after_sha256": "3ea7e539573baffe0381749ff7c19ed8e8ea7e56bf8fd6c3fbd9b5e2510b7ccc",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-119-namekian-preparation-drill.webp",
+          "before_sha256": "fb60667ef8dea8ce0408187305a9e28c59795003b46965a1326d45777637c217",
+          "after_sha256": "711e47613e534756d6462d00b4b8a71bad2d3eb3da07421ff35f513d12fc388e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6639,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-119-namekian-preparation-drill.webp",
+          "before_sha256": "53ae0f8385577a802606b3d2868609e160beaa8efefa9e073d0ffd33de5b9b5e",
+          "after_sha256": "54300283e202a359c22cd0b2dccf05070b12e235a1193bc1c88b1c046a5417d7",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 2,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-141-namekian-style-mastery",
+      "set": "Cell Saga",
+      "type": "Mastery",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-141-namekian-style-mastery.svg",
+        "before_sha256": "1d5b5abdc70638acb31d9656843efc92db6b7b9cd3660d2fc366fbd201c0bb1b",
+        "after_sha256": "8cb4badbef0b767211799ea78c8b8fb149535e787ad4b820b4d4e83d043c3fa0",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-141-namekian-style-mastery.webp",
+          "before_sha256": "3741d929a68246028fc9b45db816993c67d57180992ecf7654a31a23c9f09235",
+          "after_sha256": "175cd25b009af51df5e960a399c79795aae574684ef49eae3f2fedff454ac065",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 11005,
+          "changed_bounds": [
+            54,
+            742,
+            250,
+            937
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-141-namekian-style-mastery.webp",
+          "before_sha256": "2fd0b72be5df2dcf049f2ce61e1890eb64038eff4ce5c9eb2cf7d7350e86d0f4",
+          "after_sha256": "16314832ae1b6bad0bfe88185db978529ab1c5458ac6384ebb1c28ab5c56d832",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 8194,
+          "changed_bounds": [
+            113,
+            1490,
+            496,
+            1870
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-149-namekian-fusion",
+      "set": "Cell Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-149-namekian-fusion.svg",
+        "before_sha256": "135aa5495e044a657a7421c8819b6d2108d76658a0552aebf6274944d328bc1d",
+        "after_sha256": "35a1741e819dec7bc8bb95f4a1950dc9096d5975b0aa2bf84ec1528a8ed1fb85",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-149-namekian-fusion.webp",
+          "before_sha256": "9ff77f04a01d6076c62a8aec603a79dd2d89744878b06ef908f4ef53e848aeef",
+          "after_sha256": "5d1d01031ce20687e893b653887460f7692fde9a187c933adfbc29efb577885d",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6640,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-149-namekian-fusion.webp",
+          "before_sha256": "52a740e41e9c024295e9e50ae4b56f62b32a8f12620d94cacd7ce85453bc8e5c",
+          "after_sha256": "04e9dbab9cb21c348327461507850e5320513325a642c254cf0e96ea3bb5d937",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-151-namekian-fist-smash",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-151-160/cell-151-namekian-fist-smash.svg",
+        "before_sha256": "ee2c444dbee4877d64ff42e80dba1a6442f7fc30294b9b86ac97a7cba4e4278b",
+        "after_sha256": "a49e2f55b73679176fc0c56a8f727a512b1ba491f0197dae3e8c2f5f385c5f17",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-151-namekian-fist-smash.webp",
+          "before_sha256": "f501a70d28f86de05ccb7efecd20d9db181561d4617192631dcdbbcdc8c25dbf",
+          "after_sha256": "2bfebe7262d4eb27244866e74a619d604e2a2d72277307939a5319a785c97e9a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6647,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 2,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-151-namekian-fist-smash.webp",
+          "before_sha256": "c10bd00b43b243ff753184d3257a0e08b24aa868f5c428fcdf4d9749545c0e59",
+          "after_sha256": "50a9c4d3109fcf91ae694f94b71f7eda35c2bdcf076467dce84f9d8218e6b1f2",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 2,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-153-namekian-energy-focus",
+      "set": "Cell Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/cell-151-160/cell-153-namekian-energy-focus.svg",
+        "before_sha256": "903ae94bf090641c4527df835196b5004b1f359a8b42d291de1e3f5953f1681c",
+        "after_sha256": "7e0a96530cf61f046fad9565dc3419d9354ad9f11af1329e15e9f0456844fc2e",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-153-namekian-energy-focus.webp",
+          "before_sha256": "a214ed4bea2d11a6fed838e3737940f592c183edeac12aec9f2b00633c03bf0e",
+          "after_sha256": "ecec42bb672f0b3262abe3a87949e39dd2b3242a7f5cdd8cacef1d959e107c03",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6639,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-153-namekian-energy-focus.webp",
+          "before_sha256": "0c64c9b45229f7a8b6513add53a3f207c913b82badb1d93d88ddf5f68e80f06e",
+          "after_sha256": "dd4b7b2fc41df9fb8124b06e9e573ffa87805085f386f926e7b933df2c92a6f9",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-010-namekian-crushing-hold",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-010-namekian-crushing-hold.svg",
+        "before_sha256": "4c4900e73732fe3a2e349bf766cb2f9be1e193c17e8fec0dea21811b90ce395f",
+        "after_sha256": "4623c8b564316ad66903fb45fc588acca5177a04b4e452db21a667aa1114f718",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-010-namekian-crushing-hold.webp",
+          "before_sha256": "50ddc68ca0d6c07770f9df27c837f858e2f158659328b05b4217e15d6b12aec1",
+          "after_sha256": "86c0fc8844643135fcf7346ad92e3729c93efa068aef0acd5e779c056a98e3d7",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6645,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-010-namekian-crushing-hold.webp",
+          "before_sha256": "ca0a6e83dfdb408d91a04d464763f792261badf82db086a7f297fbde320320f0",
+          "after_sha256": "aa941badd83d1ac22971bce3840e0c3e60eb125c1d17f9646e9ad85e19969e25",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-011-namekian-fist-dodge",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-011-namekian-fist-dodge.svg",
+        "before_sha256": "0304f25dc6e20b077470499a1440d15a508a1ca352f138ce3856c7da6007a15c",
+        "after_sha256": "391520978f039a9470d4be3a22f1dff22d99759dbb31b63f2aa9fb7e8bee418c",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-011-namekian-fist-dodge.webp",
+          "before_sha256": "e4e46c882912aeb048a2e212562563072e11088b06fe33f470a9006373068eba",
+          "after_sha256": "35237e8c00affe5af88a88511fb7d1692cee7f9ec91db15ec6626b20413110e8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6649,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-011-namekian-fist-dodge.webp",
+          "before_sha256": "4e91b43ede22fd23de449653f029c30752d56dccd4b4600b7b5f805173ad1ed6",
+          "after_sha256": "dcf6731bb2d66808fba56402676cf72eb202dc105c418c2e1afb462df45ce5a7",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-012-namekian-flying-kick",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-012-namekian-flying-kick.svg",
+        "before_sha256": "6b74fd186cb70a62375c34b7d92ba3aa9016f19cd238bb47af9617ce9d7420fd",
+        "after_sha256": "547840814065fab976f8d07f5ee3aaab37045641b5c3c785c41646f29f91e816",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-012-namekian-flying-kick.webp",
+          "before_sha256": "9213449bb50daae8ef9d0e893e84ff300d18b8ab999ad0973b94201de812a7dd",
+          "after_sha256": "7d710170ae27266b1819fcd65096e933479aa0a7b28b0f018f65b65cc7ba4091",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6636,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-012-namekian-flying-kick.webp",
+          "before_sha256": "6c6e9e6f70c5b8c7e7bc31742def331ce9e4d444095ed510188c4658eaa1e876",
+          "after_sha256": "db9553eef34852bcb1bec58ae1aa029f2f999e443fe21c193b0d5b076c11994c",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-013-namekian-foot-lunge",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-013-namekian-foot-lunge.svg",
+        "before_sha256": "42f47f058526f385212968aeece7443462cd0d6e3ba26086ef17c9b19f3614e3",
+        "after_sha256": "077aeca7cec2ff03dac5501ad52d60faa85aae630d93b4fc344ff1ef45b4e48a",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-013-namekian-foot-lunge.webp",
+          "before_sha256": "a82b76e6495465d0654cb1379fd9face392c8bc5a85d82ba5f9a06cb36ac3c8c",
+          "after_sha256": "c2a8f579ff65430447a8108f43cb0e4a19a3d380b20c9333c089952aac76d59b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-013-namekian-foot-lunge.webp",
+          "before_sha256": "3aea07276a11e19d24881a65bff08e42cc08584b860287b86b2d74896ca3b51b",
+          "after_sha256": "48a7ffcf4be74bcd1a087516f28521c83af75f5f4f55997fe0d561045a57a802",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-059-namekian-restoration",
+      "set": "Cell Games Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-059-namekian-restoration.svg",
+        "before_sha256": "627459d0dae78a766a6f41c32bd50bdfde36ac522644e03ed54f9a6f1de10fe2",
+        "after_sha256": "f80043244bdef2b32e4bd3dab01d42ec4ce37518e2c1f738b22bf0979511b875",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-059-namekian-restoration.webp",
+          "before_sha256": "dccb5eecadcad91e0219f4dc724d8a9906e655d1aee0a2431ecf4f1076aed2ce",
+          "after_sha256": "7a4e03a1bf83eeec9687db4855796290f6ac0e484583cc69f4a89df9fd90947a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6646,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-059-namekian-restoration.webp",
+          "before_sha256": "24cfaf4cd9a9c75a116a510fe0de8ec4cb89c567ea31ef4e03d3d020ff0c35ae",
+          "after_sha256": "6034e65905a2844fb8917550f5ca801ec1e9b080a1093678324859b0685dffa3",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-060-namekian-dragon-blast",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-060-namekian-dragon-blast.svg",
+        "before_sha256": "28fdfc47db0556fc41bd0e903e481037d2df015deab93db8187d4825c8657f2d",
+        "after_sha256": "5f6b10189cda7b108ee8237d42b3abd1494ff30625eda0a419ce6abc6025cc7c",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-060-namekian-dragon-blast.webp",
+          "before_sha256": "6019d937abf3dfb792d18310d55dce42d3bf675c27cf322470bfd5e75f87ffa9",
+          "after_sha256": "e26c987b6a953a36706073580c47dc50e05afb16dd2c4b5da6f45879b3abf5c5",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6637,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-060-namekian-dragon-blast.webp",
+          "before_sha256": "280aa0451a89edab413afe54498548dda5c71230d078551443719f0d02308012",
+          "after_sha256": "ceb76c2f7dee51ce8633f384a23dfa275ed8da58577d64f94ea6c1f48c790ad5",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-061-namekian-energy-spike",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-061-namekian-energy-spike.svg",
+        "before_sha256": "270eb8f1a371b6f4e16d728a7322a728b350bd9310f972abdbbdeb943f86ab97",
+        "after_sha256": "678482192b77986f0b57ccb713c1c9d90deff4348629bb2fe3e99ce836578025",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-061-namekian-energy-spike.webp",
+          "before_sha256": "48b35d6579d3977e2d4101c140bb6f6670523b635f4634327dc6e700494dccda",
+          "after_sha256": "fb3cae648e594a541ce263a7dd5fa7be4fd4760ff6577cd6c8af78591ec5f11f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6643,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-061-namekian-energy-spike.webp",
+          "before_sha256": "44ead461e255329180b01ac716efd1622bad7020bf4060a05d6076f18b1c05e8",
+          "after_sha256": "1773dcb27d96195b0814ebb0d9cd9a002342823de0fab59bccc0ba8cddddcf28",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-062-namekian-face-smack",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-062-namekian-face-smack.svg",
+        "before_sha256": "f50a983297c96746b65d50da57537a0eabc3154d3929133d282181d728ea074b",
+        "after_sha256": "0c700d0b804fdff85492fb6ddcad1db10268887fcc29ea0eeb2cb9eaf54428ac",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-062-namekian-face-smack.webp",
+          "before_sha256": "763ac40bab7a6c6a90f42a8c03b642f47086813bade8af9900024f4abd035be4",
+          "after_sha256": "d1b8858303eb8e19284fc0d460d610e94f159614cff7250ab2f6a00d6f7dc994",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6640,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-062-namekian-face-smack.webp",
+          "before_sha256": "6a28ed9962a5746234896fe652732b0bc67e2367c9dcf4b6c24fe5825a7dbe12",
+          "after_sha256": "6307545894bee3387dceebcb54aa7644d4be1661dca2b6851d3a02e2f21c663e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-063-namekian-piercing-beam",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-063-namekian-piercing-beam.svg",
+        "before_sha256": "4ac35847a49a1020206291287b5d86ba7906b106e1343a821157bf3271d38216",
+        "after_sha256": "0d7713cafe6a567005f43a3e5c3f265a78cbdff825b8831d6df1cf84b43667fa",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-063-namekian-piercing-beam.webp",
+          "before_sha256": "4b33ea21fc53273f2013a23bba5fd919975c58f7de4623ac684897ce74947197",
+          "after_sha256": "b1f59f2b26ef79ce57605f0cc1749987bcb5aa780a047b231a553785660abda7",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6647,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-063-namekian-piercing-beam.webp",
+          "before_sha256": "e7eb49d32385e7ce97a8716e52a030631ad83e7925e60d3b9bc02999645a7e61",
+          "after_sha256": "633c090817bf2a79d8aaaa0f3aa5ba7d4547ea2bcc3737223b7991773da9ebfe",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-064-namekian-power-stance-drill",
+      "set": "Cell Games Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-064-namekian-power-stance-drill.svg",
+        "before_sha256": "d9970e8d7e20c9c4b91a75e43b8b6506286638b9f30ab7cd7753260b9496268f",
+        "after_sha256": "0e8511abd22a3e700493b73f1eb4fc15702ff30ed562ed428bfec7153766428d",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-064-namekian-power-stance-drill.webp",
+          "before_sha256": "988d98ac89b93a33309fa09f5546415b60e05f36b14243a93f15c11db146d38b",
+          "after_sha256": "e14e30e81f96096724ea8df2b64b6d98bd83ab8e36c5088daa34c44ced60314b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6635,
+          "changed_bounds": [
+            35,
+            845,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-064-namekian-power-stance-drill.webp",
+          "before_sha256": "0a4aed04fc0f0ba2ccb393d78db3742cf124e233215f4f82a3a0c695730b69d7",
+          "after_sha256": "f10b1e682c141de632f02553f3e36a6e00fd91f73869afab71fe686b2296b2b3",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-065-namekian-quick-blast",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-065-namekian-quick-blast.svg",
+        "before_sha256": "5c2623a5bbefd14dc9b75af2817fab8830458faf6a3c249ec906f3ad5ac90136",
+        "after_sha256": "ca34c06a13bbf7d7979db16e6df2d923c6029e1d94ed2a0852bd40c69f3d7344",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-065-namekian-quick-blast.webp",
+          "before_sha256": "e115dc6a843837063aa58036c622bfcde95633cfc7acf3bda08d583cb34797ae",
+          "after_sha256": "d28679d3c7de5891eed22558f15564ede79f98a2a9193dd7da85201ed4f193c8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6645,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-065-namekian-quick-blast.webp",
+          "before_sha256": "eca7e120c51ed9428947b6b999cebc854fd8372f0a3d2ad02779e889536e5cf3",
+          "after_sha256": "6c6c3296a0aafe0f0895d021fec4993693357c3db429d08d0ccd44d59397e298",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-066-namekian-ready-drill",
+      "set": "Cell Games Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-066-namekian-ready-drill.svg",
+        "before_sha256": "2acec403829f833d11ee7b18a8f73eb86ea6cf490ed8e6e60c247152091aa1cf",
+        "after_sha256": "4602fa410ef18187485aa4fbeea630d1bef592ee1663953164c9a3edcce00729",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-066-namekian-ready-drill.webp",
+          "before_sha256": "f88c7da9d8111a145a61768d47fc14c389b6c6493f5298cc1eab976dacb7be5c",
+          "after_sha256": "0b5189eec1743095d3298d2fcb27871b3e1ff6eb510f72cb443788ccf8ad458f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6640,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-066-namekian-ready-drill.webp",
+          "before_sha256": "b4f470b486848a97ddd867290b5cb4cf96b5ed775c2c8e14360829d44246b94f",
+          "after_sha256": "624727ad14f1a9f09b86e706d5e0ce9f85046d1524d6184c3c362f0d7823c2be",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-067-namekian-right-cross",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-067-namekian-right-cross.svg",
+        "before_sha256": "96992e86e6c67760123c9d997fad5ea55d4c9763113b43f0fa6978b1eaa44311",
+        "after_sha256": "b90d9098734e65396bfd2414d740a07a2c23e0be448966a60954a0f30dc317f0",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-067-namekian-right-cross.webp",
+          "before_sha256": "9192ce13d93963e602a7bf9098760f4fd7dbe4bcb9fc0fb76751f7dee123741e",
+          "after_sha256": "b911c3e1bb670151f0398cf9ea9402171381a9dd1d98fb1117be54bfdc27a57b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6650,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-067-namekian-right-cross.webp",
+          "before_sha256": "d1e7ef5a37f7aa4f4e0e917a3816e8bfa3a14fba9016488f494ad0df9c15cd5e",
+          "after_sha256": "429377128320f8ce6844c54cf1f03314e566586c6cfe5847dff99ec6435a162b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-068-namekian-scouting",
+      "set": "Cell Games Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-068-namekian-scouting.svg",
+        "before_sha256": "7fc4c16b62be9ae3bfbe37ac41c76ffa655d3de2b0f0c9d7bde6fc4d215caa2e",
+        "after_sha256": "e34928275ae37275ae680c3d59128cb31daeaebd703df4a696524e3e31a9b324",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-068-namekian-scouting.webp",
+          "before_sha256": "d3846c469179b249a0a7d96eac567acfacce923a331e6db95f96c08f9ddceb65",
+          "after_sha256": "a32f75180113cc9b5c14dfdcc80573a98e3ae662d89d497f991f5d423a331b52",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6639,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-068-namekian-scouting.webp",
+          "before_sha256": "1677fd8f19eb4debd665a42a2cb97dd70b8a04626c3e1e747488660f97e815b6",
+          "after_sha256": "aebc84a11dc400d158da069d66fd083e84f2e166bbaa35532d439b8f8061089d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-007-namekian-glare-attack",
+      "set": "Trunks Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-007-namekian-glare-attack.svg",
+        "before_sha256": "b0d911fb654c26ecb595b2ecc11a2feaced6d1235f1ba80482dd734091ddfbb7",
+        "after_sha256": "d40c5abf73b242bfcb3b89467004e3bddd3af06b7d295e52f1c325743c781d14",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-007-namekian-glare-attack.webp",
+          "before_sha256": "84672fbb03e4619b4be874911ca2c2ecc39e3b7ab858c89946002406e0b2bcf3",
+          "after_sha256": "0abeca26142842e4a8bc01de7bd5e8b85763594a8b3f44668e4d059e8d3e8eea",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6635,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-007-namekian-glare-attack.webp",
+          "before_sha256": "e3298eb86a7271756d5bba6f5bbf050171c694a68f625ad8ce79994c99f025d5",
+          "after_sha256": "83e113da821803f24b8c8ca19889eeabe55fb37eb7c05423b564d3bbed81454e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-008-namekian-braced-attack",
+      "set": "Trunks Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-008-namekian-braced-attack.svg",
+        "before_sha256": "a15532b2dcfbc80dbd80c23e66d518491ca383a0812b99f61786e8846500458c",
+        "after_sha256": "1bd35dfdd2425c9287efb0d2dc8a62bca401485d4f0bbc46e8a65682f95d1204",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-008-namekian-braced-attack.webp",
+          "before_sha256": "f4a1d7c24e277d99d333e08ce9330e3f32ef9d68f264459c30b68935cb42e3dc",
+          "after_sha256": "2d283fa4b42ed819517099ecccef2a8fe7cf4205f84b3ca2a62d34ac9c87565f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6649,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-008-namekian-braced-attack.webp",
+          "before_sha256": "35e22c569379eb5cc81c3d9ccf3cebbfdf7c2c47ca15faea994b016b73c06ebb",
+          "after_sha256": "90c01797461707d51350b34e9fd24c0531c78a54511c3f6b95229e19968045d7",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-009-namekian-thrust",
+      "set": "Trunks Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-009-namekian-thrust.svg",
+        "before_sha256": "11027089edac1c595f1f23bb8db5edf20a68dcee5e72cdb0399008fe6d70ba01",
+        "after_sha256": "ea2bdc8f9c3cd554713bd30a85a6171263f24579c2bf039e6f4657d0490aadb4",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-009-namekian-thrust.webp",
+          "before_sha256": "17a7fdf05b701bafa9310debef8167cec62e47f7559c41173a320571a5370351",
+          "after_sha256": "ec816b7b2c153aeea85bb48b16b116797e98b3c999d068bd1ab50090c7a2e6fd",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6648,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-009-namekian-thrust.webp",
+          "before_sha256": "bfe0955d40f02655b94a585b1f7219c0720ccb12cd424c5c8c4b4cd02db63553",
+          "after_sha256": "d36c1242cd7ab8bfe76b739e7b61418054170e2ae229061ebbf86e060bd89090",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-010-namekian-blocking-defense",
+      "set": "Trunks Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-010-namekian-blocking-defense.svg",
+        "before_sha256": "9553942734ee991d49b4ebfe119132bfff5c0423e0c345e36d695994115f54f0",
+        "after_sha256": "97ee7c4d2cf19fd0b6980a5f5095a42fee0bf60b1d654adfc2e8245e2ed7f51a",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-010-namekian-blocking-defense.webp",
+          "before_sha256": "68875a6222de9aa76775368659200a1d34a245974bffd680e23228e8dc571252",
+          "after_sha256": "df50dc1975ad5e76a42c97839f095507728225ac60759acc8a3192ca742d2e71",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6646,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-010-namekian-blocking-defense.webp",
+          "before_sha256": "57e01b02830e9f7c0f46c1cd3041f3352b3b507ed9127a758baa73f77dc7b55b",
+          "after_sha256": "87602258bfe043582281a8f86c18d66fb9aa1edf0bd587a8ad07a2e2a133c20e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-052-namekian-fighting",
+      "set": "Trunks Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-052-namekian-fighting.svg",
+        "before_sha256": "60870f58f00d5bfcae22fe2a32bc72a85c710af94561e4bc7766d98c932f4754",
+        "after_sha256": "4e52ad99b6de9ba683e979e248b0cb685807a393d43009dfb94ed58ab8d1eb7f",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-052-namekian-fighting.webp",
+          "before_sha256": "b2ac3ef05e8c6a830593ef3a5d55cee10a0d3df6db28053b0d21cc5ea8e62001",
+          "after_sha256": "80f9f28cf063832423b8674b528999ac6118f62feb1256f41909b559413f659a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6644,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-052-namekian-fighting.webp",
+          "before_sha256": "d7c7af6be7d61571b1e7e658699bae06a4d550217416e028afc94997819a7d1d",
+          "after_sha256": "0bcc3eb9eb6398dc9df50a43723d59d72c50f6217d877bb9427666ccaff05086",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 2,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-055-namekian-attack-drill",
+      "set": "Trunks Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-055-namekian-attack-drill.svg",
+        "before_sha256": "6832bbabfd929e3b27467e48693910910bdb2229e646a71f46a1002b4473592b",
+        "after_sha256": "c9aecea7c55bee7f592725178c64e2b9c6ec406fd44eb08bc7e32bef11137715",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-055-namekian-attack-drill.webp",
+          "before_sha256": "6170a78afd8e7faa56e87893515aa521288c656e545afaed2856fa8eab72cfef",
+          "after_sha256": "838bd0eb6987da8777b00756c099a187f6f98c7249117dde3c5e7d120fa3194e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6648,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-055-namekian-attack-drill.webp",
+          "before_sha256": "37d278d303162dfa5706f6705f064649190f8bac540d81eb6edd7044a351c039",
+          "after_sha256": "015206b6b401699b775a2708066c9f06afa1ce0719091698e66e8dd35af27e34",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-060-namekian-physical-drill",
+      "set": "Trunks Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-056-105/trunks-060-namekian-physical-drill.svg",
+        "before_sha256": "5d908a1b0527b5780778578212fe8c16e3602507d8db59c3efe44ef609809992",
+        "after_sha256": "64a9b1cd5cbccaa2ccc61bd7a87638c8c67eb8c802b5d638116c605269dbc9a4",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-060-namekian-physical-drill.webp",
+          "before_sha256": "9f5d15b837c0a3e594739e53b58b062db14c98013bdf6ec8f9a5dcafdafae3e1",
+          "after_sha256": "09bc9f4b6909f1d52a750cb90ffe2256b481620578b92da4a4a16141307b88c2",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6643,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-060-namekian-physical-drill.webp",
+          "before_sha256": "c4bf892118b8232d9fa6daf8d378948162f8682f575265904547351e73c3c28c",
+          "after_sha256": "75c0d3c726ced0803c549863830beb44ade801c0630fc7f0a4b514b8bebee582",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-061-namekian-energy-drill",
+      "set": "Trunks Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-056-105/trunks-061-namekian-energy-drill.svg",
+        "before_sha256": "57a4f32d5c7ba0824ec047bffbfb35a62fb0c31ac01ec9be9ad1cfc43ce1a470",
+        "after_sha256": "5f7354e413cb6ef59ce4b01ba168388bbef0931bd08b13884b4c98c33d3ab7b6",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-061-namekian-energy-drill.webp",
+          "before_sha256": "d89e0333509c27ff568db323b834662eb8605e5ba30370f13383ac2403b6ac17",
+          "after_sha256": "83d079a8accb3141d34db0413f5faa25600d452495d210eb402f55c139fa1f82",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-061-namekian-energy-drill.webp",
+          "before_sha256": "16edf2e855ea309f6ef118dcce616b32b207cf116ea7338066bb0b119d51d4bd",
+          "after_sha256": "948a9591c7e38fee21b61b2be739a01973def8e18e155a22783bfc126cdd38db",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-066-namekian-head-strike",
+      "set": "Trunks Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-056-105/trunks-066-namekian-head-strike.svg",
+        "before_sha256": "a2eab5cbb6b90c239b784f0cbae511ef3e51a0898e7d37bd7f5a13a2191b2ea7",
+        "after_sha256": "0b66810c4f6d6b8bf67977d572c9ec304855f116361815d8569ffbbd33126471",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-066-namekian-head-strike.webp",
+          "before_sha256": "0cbd7e49163f641f9bf7fa56d131d8fc095aea0443da95f67b46af1f7acbf5a9",
+          "after_sha256": "9ad738b1657b356208e3b3055b62a32ae5b1cb649812c5dbac5b1b40fbd8ad9d",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6647,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-066-namekian-head-strike.webp",
+          "before_sha256": "75605cabf5f2e22fa688e9475d7821897724a45f6eff802207098542d3e080bc",
+          "after_sha256": "b975a10ee9617c05a4220234199d774c10d288ed651fcc21841c7ed12521564e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-147-namekian-style-mastery",
+      "set": "Trunks Saga",
+      "type": "Mastery",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-106-155/trunks-147-namekian-style-mastery.svg",
+        "before_sha256": "486f9c89a53bee8aec9fe0b7b1443897ba59997d9784f2e205ca63cb07af5f33",
+        "after_sha256": "f3f86d6ccb98fc5d0096dfac754104b726d452f8feb43d3fcd8633527fe73b58",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-147-namekian-style-mastery.webp",
+          "before_sha256": "637745b963477a8999519046a179d670e7663e867eabf33f3b99358b48420236",
+          "after_sha256": "5fc6fa9f6fda9b7010fcc1d794e92d5d501e867c3e0e4e2473779262b0d7baf8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 11005,
+          "changed_bounds": [
+            54,
+            742,
+            250,
+            937
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-147-namekian-style-mastery.webp",
+          "before_sha256": "a0ed4dd53cd357364fdcd5bbb82ba66883037bd5dd604cd5e424e1cb62070bcd",
+          "after_sha256": "b02710c688bd9f1798f2522900f082555e52bb5ee9c20151ea85050f29ad9bca",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 8194,
+          "changed_bounds": [
+            113,
+            1490,
+            496,
+            1870
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-016-namekian-battle-stance",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-016-namekian-battle-stance.svg",
+        "before_sha256": "998d07f2e648a7ef80d3a0ec45c6ea6ed652ea9de66026e43b6ff73d0d669443",
+        "after_sha256": "c764601876356e694a739813bc79918db5c4da821c8505514738ab01b1bacfca",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-016-namekian-battle-stance.webp",
+          "before_sha256": "68195543a5cbf93987c7f561b7a4ee7ebf684e6e7d557e721ce665058ab52679",
+          "after_sha256": "5bb561bf6c4c74dbf6ad4233fedd0c427f4109adc8e240ef1126b083603c5125",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6645,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-016-namekian-battle-stance.webp",
+          "before_sha256": "399b653f6b71a7f6b14121685f404d7a3d174188aeb3ef0095ce54c2d9f5eda7",
+          "after_sha256": "fb51a1ea788d6531b75998b6db5f6a93a338ecbfacd7ffe12123e5092a3af99d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-017-namekian-elbow-strike",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-017-namekian-elbow-strike.svg",
+        "before_sha256": "3fa738d8c7e7bf1f86fa058de8afc05263dd672bfb34ec5f26afb16fe92b091f",
+        "after_sha256": "67ba4f08c377b0bde3ab8e762605dc0bfac78ba3e4ad8951303199ef6478b1c6",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-017-namekian-elbow-strike.webp",
+          "before_sha256": "c8b4aecf0851a138f694b76d7f82f1508600945d4534e8ebc7019dda5629e5bf",
+          "after_sha256": "e281e08410a5db9ec170c2101eb903684a8eb9c43981bfb54529f4172c1137c3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-017-namekian-elbow-strike.webp",
+          "before_sha256": "0f707da942ad8546e3a7b2efe0b5340609db73e942a878112288ea1f67a6ffc0",
+          "after_sha256": "d7557cde7bbd0bc90a7ef687aee2a0c280948721d0b4c5742a1dbce7efeb2a53",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-018-namekian-halting-stance",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-018-namekian-halting-stance.svg",
+        "before_sha256": "ba423939d3fb051bcc6cfef5f0c09a41e6143ac2996826690b3b91370d77e08f",
+        "after_sha256": "0df3c4a1fb5f4977f2ed37272bee18f489bda1449379dc4b17660800843c75ec",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-018-namekian-halting-stance.webp",
+          "before_sha256": "d9a4248fcf7639ff65350d093211a96e848ea250246ba76f435cec8376178f00",
+          "after_sha256": "c1e6525fdf0fc47025de3fbda1508611260a9db90247af511e3815047f46c712",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6630,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-018-namekian-halting-stance.webp",
+          "before_sha256": "03fe242f3acc672a50a236ddac36463447342fa0510c439bb84f060efa7995bd",
+          "after_sha256": "357c33f36400f240eaf78b65b7bb0ffa6eb3fdb5a27b2c6cdb349031315fb429",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-019-namekian-light-jab",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-019-namekian-light-jab.svg",
+        "before_sha256": "743a65dd58f7e127298601b7e99f5db5b3ca16415626a620f66237f15d7ae3b5",
+        "after_sha256": "201838d838fd75bbda5dc88989077dfba9fd7690158263ded85bbda22d47a85c",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-019-namekian-light-jab.webp",
+          "before_sha256": "954b2051a811c9864b240152878c3f8a7d71da23c52b3f0511edb2d0d083559c",
+          "after_sha256": "63ea5a8307cd65f57baf2b05af78657c83529057fc88a8ce7441235a8191eab2",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6638,
+          "changed_bounds": [
+            35,
+            845,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-019-namekian-light-jab.webp",
+          "before_sha256": "7b5081e6bf529d3444a3b7529834fb864575d8ef4bc62051441c6ce64c2039de",
+          "after_sha256": "be0329c3b2f1fd0a9c4bb632d93d3d7975229951625c6157d7268fed7e2f1c32",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-020-namekian-surprise-attack",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-020-namekian-surprise-attack.svg",
+        "before_sha256": "ca4904124cbb85e23e67d683c06aeb8a0abd4c7ed5c725cab0911adfc66c3223",
+        "after_sha256": "080456db85fd2a2f5c5c0f7379453a27a26158569f9d40ae13c4c961a5eec317",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-020-namekian-surprise-attack.webp",
+          "before_sha256": "7981b131bc2539d91e590e574a069524d7426d09ba424d1f02d132c4b50df098",
+          "after_sha256": "46170d2313447f249f2e195ce4344f6f339bdf80b5a5ffefe0a90fd571656a71",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6627,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-020-namekian-surprise-attack.webp",
+          "before_sha256": "93f9b4e3e0653a2ef1e0ac3954e665d88d13f4b684af34e881c4eebf868155d2",
+          "after_sha256": "e7ccd10b3cc1b718938fddec29fa9217106ca5333b20043466209f9d0390e506",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-021-namekian-throw",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-021-namekian-throw.svg",
+        "before_sha256": "03506be7e042b25e4736f63d2206be84e8c94beb3e82573c0f40b687ea75cc81",
+        "after_sha256": "a5fa1abbff2176dd7c73dca4798c3f424f9f56052844e104daf47afe5fa25e44",
+        "reversible_edits": [
+          {
+            "id": "namekian-colored-strokes",
+            "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-021-namekian-throw.webp",
+          "before_sha256": "a9057b8f7e2adb8c50f7b6613c7d8d8c615b659fe010984b4ef2dd9e631b088a",
+          "after_sha256": "ac7fabd1c64815f670b6c599385be505d91d9aac2a31131565ae1bc996fb9649",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 6642,
+          "changed_bounds": [
+            35,
+            844,
+            165,
+            973
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-021-namekian-throw.webp",
+          "before_sha256": "5a72ef951605873046496bb866d6691f63b1530f397fee4148ba5dcd052a6d14",
+          "after_sha256": "0dfe3827ede7d7ee0496afba9d48be15fadbb69bcd360db7824d0bbd0862301d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 4511,
+          "changed_bounds": [
+            76,
+            1694,
+            324,
+            1940
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    }
+  ]
+}

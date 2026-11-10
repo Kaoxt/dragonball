@@ -1,3 +1,16 @@
+## Namekian Tokui Waza stroke weight — November 10, 2026
+
+All 65 current Namekian cards retain the same 瑪 paths, teal #21aaa5, rounded
+caps, outline, transforms, backing and total symbol size. Only the teal stroke
+is reduced 5%, from 7.69230769 to 7.3076923055 (about 10.32 to 9.80 native
+pixels at the standard placement). Keep both enlarged Masteries unchanged in
+scale. The six World Games Namekian cards are included. Use the corrected
+Trunks #7 donor or scripts/namekian_symbol_weight.py after style selection.
+The Namekian symbol builder now uses the thinner stroke too. Preserve all other
+card pixels and historical audits; follow the reversible revision in
+tools/card-corrections/v3-namekian-stroke-weight/. The older width documented
+below is historical and must not be restored.
+
 ## Saiyan Tokui Waza stroke weight — November 10, 2026
 
 All 70 current Saiyan-style cards use the same retained 緑 paths with only the

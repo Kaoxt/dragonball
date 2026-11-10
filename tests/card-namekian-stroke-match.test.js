@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from './helpers/pre-world-games-catalog.js';
+import {beforeNamekianWeightStrokeFile,beforeNamekianWeightStrokeHash} from './helpers/namekian-weight-history.js';
 import {namekianStrokeRelease as release,beforeNamekianStrokeFile,beforeNamekianStrokeHash} from './helpers/namekian-stroke-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 
@@ -14,7 +15,7 @@ test('Namekian uses the matching rounded stroke family with unrelated pixels pre
  const glyphs=[...asset.matchAll(/ d="([^"]+)"/g)].map(m=>m[1]);assert.equal(glyphs.length,14);
  assert.equal(release.cards.filter(r=>r.type==='Mastery').length,2);
  for(const r of release.cards){
-  const c=catalog.find(c=>c.id===r.id),raw=fs.readFileSync(r.source.path,'utf8');
+  const c=catalog.find(c=>c.id===r.id),raw=beforeNamekianWeightStrokeFile(r.source.path).toString('utf8');
   assert.equal(hash(Buffer.from(raw)),r.source.after_sha256);
   assert.match(raw,/aria-label="Namekian (?:瑪|&#x746[Aa];|&#29802;)"/);assert.match(raw,/data-symbol-revision="namekian-strokes-v3"/);
   for(const glyph of glyphs)assert.ok(raw.includes(glyph));assert.ok(r.helper_idempotent);
@@ -25,7 +26,7 @@ test('Namekian uses the matching rounded stroke family with unrelated pixels pre
    assert.notEqual(e.before,e.after);
   }
   for(const e of r.exports){
-   assert.equal(hash(fs.readFileSync(e.path)),e.after_sha256);
+   assert.equal(beforeNamekianWeightStrokeHash(e.path),e.after_sha256);
    assert.equal(beforeNamekianStrokeHash(e.path),e.before_sha256);
    assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.equal(e.pixels_changed_outside_symbol_delta,0);assert.ok(e.lossless_round_trip);

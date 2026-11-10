@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeNamekianWeightStrokeFile,beforeNamekianWeightStrokeHash} from './namekian-weight-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const file=path.join(root,'tools/card-corrections/v3-saiyan-stroke-weight/release.json');
 export const saiyanStrokeRelease=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;
@@ -12,11 +12,11 @@ const revisions=new Map((saiyanStrokeRelease?.cards??[]).flatMap(r=>[r.source,..
 const name=p=>path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 function current(p){
- const bytes=fs.readFileSync(p),revision=revisions.get(name(p));
- if(revision)assert.equal(hash(bytes),revision.after_sha256,`Current Saiyan stroke revision changed: ${p}`);
+ const bytes=beforeNamekianWeightStrokeFile(p),revision=revisions.get(name(p));
+ if(revision)assert.equal(beforeNamekianWeightStrokeHash(p),revision.after_sha256,`Current Saiyan stroke revision changed: ${p}`);
  return{bytes,revision};
 }
-export function beforeSaiyanStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
+export function beforeSaiyanStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??beforeNamekianWeightStrokeHash(p);}
 export function beforeSaiyanStrokeFile(p){
  const{bytes,revision}=current(p);
  if(!revision?.reversible_edits)return bytes;
