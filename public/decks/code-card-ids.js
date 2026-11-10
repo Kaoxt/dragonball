@@ -315,5 +315,6 @@ export const codeCardIds = [
   "world-games-047-black-triple-team",
   "world-games-048-black-videl-s-power-kick",
   "world-games-049-blue-back-kick",
-  "world-games-050-blue-energy-transformation"
+  "world-games-050-blue-energy-transformation",
+  "world-games-034-saiyan-readied-attack"
 ];
