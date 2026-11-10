@@ -1,0 +1,4356 @@
+{
+  "revision": "saiyan-stroke-weight-v1",
+  "source_base_commit": "fcba9de3fddedd697606c86dac57a16b7f4f3d43",
+  "corrected_card_count": 70,
+  "export_count": 140,
+  "glyph_before": "緑",
+  "glyph_after": "緑",
+  "colored_stroke_before": "7.69230769",
+  "colored_stroke_after": "6.73076922875",
+  "colored_stroke_ratio": 0.875,
+  "outline_paths_transforms_backing_unchanged": true,
+  "historical_audits_preserved": true,
+  "all_unrelated_pixels_unchanged": true,
+  "cards": [
+    {
+      "id": "android-035-saiyan-glare",
+      "set": "Android Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-035-saiyan-glare.svg",
+        "before_sha256": "e3b830d877b145e10308a0dfb0d9d811de66ded15c8809c87497ea66d53085c1",
+        "after_sha256": "2c47c64c4323c8b950210882d214b390a77a1f4001b3ecde6fc9a3f4f16bb0b7",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-035-saiyan-glare.webp",
+          "before_sha256": "e7c9a00c3512e16696953a0a2766268d2b239e28c562421fbfec281ec50c0e50",
+          "after_sha256": "b676bcad2bf00ff88daeff3e85971c6f9d4d973ab64387223f663569e5ce54c1",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-035-saiyan-glare.webp",
+          "before_sha256": "28d29626089f520eb9a0b5070765b4e1804cfd4c1279a5fba42e3210d7cb36b3",
+          "after_sha256": "4180fef439d7e40ec083d71235e7fde1a250292a2f596f3a1f9f81237bfd48aa",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-036-saiyan-inspection",
+      "set": "Android Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/android-001-050/android-036-saiyan-inspection.svg",
+        "before_sha256": "03717b6b2cf1401e08efbe44081c59067332dcdc48ef7312ca074dc9ef2f0966",
+        "after_sha256": "09ca64c79a83037fa9ddc9e5c32e0c9429560d81e1b1b5f9e68622b044a3c338",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-036-saiyan-inspection.webp",
+          "before_sha256": "520f2031ca990a67aba075d09de437f0b51672ece40a1afb2c2115ee72e0df5b",
+          "after_sha256": "31062be7e1b298404dae64b6f00918adc61b5de6fbd6dbd1505bfab1f9b7de0a",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8236,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-036-saiyan-inspection.webp",
+          "before_sha256": "12beb346776d23f92956c482e995aa9ee29f863d85efb393d715e04095be279a",
+          "after_sha256": "b1c1a1797339068a96a65a23e24c4ce1d0a305dafe2d39251f6a00e9a25b97e2",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-076-saiyan-flying-tackle",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-076-saiyan-flying-tackle.svg",
+        "before_sha256": "69106a618b73cc90c63c8ea0b76067356a0b9868d803225a7926cacd3d9d0956",
+        "after_sha256": "70a48facc5a220ae443f80ffa6ee426fe95e4d95fc52079915ff1599d4a27126",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-076-saiyan-flying-tackle.webp",
+          "before_sha256": "9216afd9a5532c0fd1ec691ee8293619aa2daf46cacc2df0d444be1ef349c49d",
+          "after_sha256": "41f4505b878d93bbf8971185ae7e97b0db3dbe97280490ae62b0b6f900e2a2ac",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8234,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-076-saiyan-flying-tackle.webp",
+          "before_sha256": "452ce764677d584c1a3fc670931b7b63f7ffd6911fa80a36ede5161043ee3732",
+          "after_sha256": "23b6c6635d7ebb00171ccd5a4c2d884b4f74d955c5d58f21827091efed038023",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-077-saiyan-focus",
+      "set": "Android Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-077-saiyan-focus.svg",
+        "before_sha256": "e78e3cba88c411dc8302f0db6ebb97018de35240b2fde54b562419280013acc5",
+        "after_sha256": "1969aa0fb2f35361e78300e4959c7a452e560cd926e60f24f4809abcb1f9523a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-077-saiyan-focus.webp",
+          "before_sha256": "069cc20aa6304bdc47547ba77849a404d192827a0894f723c4388cefe2be6f43",
+          "after_sha256": "c542e0734269fc2436476d7314130db6a08eab3419225353996256f87f183e76",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8240,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-077-saiyan-focus.webp",
+          "before_sha256": "380cb7eea945f813ab830b61b5c7f1823ce3bbc1bea09c4900f692c72205881c",
+          "after_sha256": "6adbd1122434fbb6355c6a8d3395e5977682321ce5b4e344776a926af57de600",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-078-saiyan-heads-up",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-078-saiyan-heads-up.svg",
+        "before_sha256": "784057064652f865b99178dc823982354b90dae9b4c949895704bb236750f440",
+        "after_sha256": "3ef1a8f3cb42ac81491ad214570cb1c8c1911bca4f25ddd48c8ff8612d12a839",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-078-saiyan-heads-up.webp",
+          "before_sha256": "e02d2ebc08889c3d29aa5338a83099d003e9f67414c90d6b3d5a235bd81c4118",
+          "after_sha256": "99443a9aae61e1633b4593b136f7b99f9a710805ced393a45f34468be7778cd9",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-078-saiyan-heads-up.webp",
+          "before_sha256": "a8190b34a0083e36642ed0eada40bccd0037ca30c3664951b97d840ee1dea97c",
+          "after_sha256": "f724823b62d2e145e1253c8556d88ab6f14727029e2f2343bfaebbf9ef7cc4e4",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-079-saiyan-left-kick",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-079-saiyan-left-kick.svg",
+        "before_sha256": "86bfe7264793fd37c93489955d7bdb58c07ba6c811f501ac17dd717d2180bc8b",
+        "after_sha256": "b6ff73b6207abda1bf80add80a134d1c8b2833b7ebee6da45c6fb2b6ab7e9aa1",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-079-saiyan-left-kick.webp",
+          "before_sha256": "734897363c42802f5ad033810b2a0964657e563a9cfbe3dd007bf240766aee8d",
+          "after_sha256": "ee4ac5ba557f54c13f53e4597ebe1e64048fe632342322d0d7a8991e3d39dcf0",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8238,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-079-saiyan-left-kick.webp",
+          "before_sha256": "718b973da10b52ef44bc54d9fdecca298d159cdb026ba9a1f2be7355692206ce",
+          "after_sha256": "137b1e496948304b67349e1d956ba4b20fdb6bcc5a024c4274c1b460e9eeb2ef",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-080-saiyan-wrist-block",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-080-saiyan-wrist-block.svg",
+        "before_sha256": "8b7d543bf1df90f8ead01759232135fb9c83aabfcfa367cd7b1a7c95cf7db163",
+        "after_sha256": "08f3396eeb5794aac7ffb174fdd0263af4875b12828ba43661597863c690d1bc",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-080-saiyan-wrist-block.webp",
+          "before_sha256": "8254c49377239a28feba5ca6fc6e70531afb0274c56fc76fd77017ad7d03033b",
+          "after_sha256": "7d459e530beb57117c03c605617956b5c4705e4729c656a30838e8c46f1f73d7",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8243,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-080-saiyan-wrist-block.webp",
+          "before_sha256": "7e8c60d91b2740b38caea41354a69b24d3dd1e4a0733a10a80b5b429f7296c3a",
+          "after_sha256": "443fdb34b3b7ec9269f6f748ee305a815ad23dd9f5f2b9f7cca0e4734672ad32",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-081-saiyan-destiny",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-051-100/android-081-saiyan-destiny.svg",
+        "before_sha256": "46fe136148fa25084e97b7f9511aa8dd97d040fc9a7b374c43cc3885d21fba87",
+        "after_sha256": "e1d697ac88be4264533b6a2bb21b38e3918d68e5b4a2558c69b0ff782f13719e",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-081-saiyan-destiny.webp",
+          "before_sha256": "4245828be0e294f0e3fa5bbc5fac1b1b59d119b0c9818d340f05aadfccc3488d",
+          "after_sha256": "279c9d704998f705a153990eccf478b02174041b656f2ef8c2398c0b2cacfba2",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-081-saiyan-destiny.webp",
+          "before_sha256": "1f14f328f037fb348e656f5551cd1d2b6f181958036e14a0fc897e692712558d",
+          "after_sha256": "359cd87ddff823152bf8bc23a02c8d9e8a6a449d2afa590afc7c229118137000",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-110-saiyan-face-stomp",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-101-125-promos/android-110-saiyan-face-stomp.svg",
+        "before_sha256": "859c8a58d6928a6901231e15886eab6ae92ef03872ddef84aa0ffd0be5722dfe",
+        "after_sha256": "5bc54e150a487fba0fa6c95a067d3eba14126fbdc6c8d90092dfdc7b2c556f2c",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-110-saiyan-face-stomp.webp",
+          "before_sha256": "fcf5d1f0e44f6b8f6811308ffaf17896eb0b7070b476da096a37ce3b2c876189",
+          "after_sha256": "84a3e8f8b0590a88196e752022417dfe6921cd488abe2d152a8ce44a32006035",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8234,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-110-saiyan-face-stomp.webp",
+          "before_sha256": "4fa4e0f10decb3286843fccb1d46fd1f33fc4be8e6547fa41ce4cd8b36735634",
+          "after_sha256": "0537503073afd8841687745e745dd1aacc834ccc4268e5fa2587630bf30b3a6a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "android-111-saiyan-lightning-dodge",
+      "set": "Android Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/android-101-125-promos/android-111-saiyan-lightning-dodge.svg",
+        "before_sha256": "6475299137c982bbc28deca2660b954729ede63a2d6ca4502c19bd75043bd518",
+        "after_sha256": "50b36a7e0e5e3b8753fa8363481e95bea0dfce82b5fde2147e70ae7d6dea2085",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/android-111-saiyan-lightning-dodge.webp",
+          "before_sha256": "82a66602804b0ff5911409cd4ecc363f05c8b10f3e9655f27c0bc78dea8c015d",
+          "after_sha256": "6d2b18b89984cb6f5baf208950d9b971dd6afa3468eb6d84b545259d33f718cf",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8233,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/android-111-saiyan-lightning-dodge.webp",
+          "before_sha256": "29972c4730e5f7b8671008a8457c1a5d6f7d353b00e4b35c575e836b80655a0b",
+          "after_sha256": "a54ffaf5c291c443cbdeef45f2c80bc5314b441e1bc9b65efaeb9e5863bdf540",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-006-saiyan-right-cross",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-006-saiyan-right-cross.svg",
+        "before_sha256": "21426f9484c23bb59e4a470263c7f3fc5b5f7f1d86251078b22e2e9dd3e0cca0",
+        "after_sha256": "0d0f0922a396cc83619c16d9fe45267b78160384772e95fc10abe1903951ae3a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-006-saiyan-right-cross.webp",
+          "before_sha256": "6428cb3156b1420783b25386bddc8aefdc445e584218f9f526fdb9289e707ad1",
+          "after_sha256": "88a027a34375d65fc6c8a87a27af70042a8d063e33b2de3ebe0d4e23f776cc8d",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8236,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-006-saiyan-right-cross.webp",
+          "before_sha256": "71a0bf2937622460868d64d652aa966c34fce0cf60afb9a7eb05b607db061425",
+          "after_sha256": "5161070bd7ef59c6435657e3b17895ebbd763dbc6c50a263669f955e0b6612af",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-010-saiyan-defensive-stance",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-010-saiyan-defensive-stance.svg",
+        "before_sha256": "b6b7f29155d1b0d3c8ef1a67438adca94fd91d7e1f31eab598b8a0299008bf9a",
+        "after_sha256": "a047b5a53a4e49c38f3107cfde113b284f0d6dea6774e99f377498452d267034",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-010-saiyan-defensive-stance.webp",
+          "before_sha256": "8ffdc7fac0e13ca09910bc78e09006bc0be705caf683b664e602c1f40e701618",
+          "after_sha256": "f6d301a692b91e73c7c0634f71ec12b729ef420d01e6f8c6a3df7957f65de79e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8234,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-010-saiyan-defensive-stance.webp",
+          "before_sha256": "5e6e9c3b978ea03c46669e9e085aa9c667f1ba6363d9b35af52bfed97258aaef",
+          "after_sha256": "2f549d06415a044d5969cfbeae7bb5bcd48f14af7314a12c235040eb7a831ebb",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-014-saiyan-energy-orb",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-014-saiyan-energy-orb.svg",
+        "before_sha256": "f59f6247a2646ed39c61d77f0465216999674ed91c3ffc84b828cca039299d4e",
+        "after_sha256": "e20e03441b10caf1157b5258552465a9af517166bd37f552fba106d31e49b0c7",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-014-saiyan-energy-orb.webp",
+          "before_sha256": "e30f722cc6862ee21919fc4d27a7481b2828d4c340d6b318aa399f0269d64f6b",
+          "after_sha256": "a10651bf697975a5459f68e651185201b9dfe2545d0f060903309ee0da851b39",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8238,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-014-saiyan-energy-orb.webp",
+          "before_sha256": "0074445d25fe2afe29b3490806126023ddfc1e20ea937f9cb7016dfabfdf10fa",
+          "after_sha256": "c3acaeb3706a2774b79dfa60898d0bc875ae81a83c00f718c6bf127902dd5f26",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-015-saiyan-counterstrike",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-015-saiyan-counterstrike.svg",
+        "before_sha256": "6d91fa3f8053d876b09b12ffbef57eaa73bd0c329f2e60d420f5cbbdccd83d18",
+        "after_sha256": "a0f92281fd61095c4d4936d61c34274ee9b677f637ac045736a14dd0ba18196a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-015-saiyan-counterstrike.webp",
+          "before_sha256": "385363f2a9c4e30f7e3dabce7cd5644030a16f3865accf32a9b94f76a75c2b25",
+          "after_sha256": "e1624a2e137703448f5a48fc47e6b77409884ffed06aff637af04a5d3948c4f9",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8227,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-015-saiyan-counterstrike.webp",
+          "before_sha256": "a0e67e1d605c4963bba72c73287bd70b803e4f5f1ce0ab7414443527a2b3f1e4",
+          "after_sha256": "66b5281c60f0ac1fb7a6776538c319c32c0104ce9d699705c2d4bcf07eb82a43",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-016-saiyan-energy-attack",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-016-saiyan-energy-attack.svg",
+        "before_sha256": "b5fab09ab33bf2e5751fbf63b03551c4d37b8cc02f0cd0afc5f152ff86ec8c00",
+        "after_sha256": "8cb7bc8343c5bf09422fd00105fd17f22168d9687e6e0a2c5a2716d6f00c40b2",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-016-saiyan-energy-attack.webp",
+          "before_sha256": "f9107b06a4ca6497807a7c710797db5d7207652af5fb357004b0277811faf872",
+          "after_sha256": "30e38f16f6a7140d3aca089139d30af8ea9001274875ca9286d2d1bec10d8172",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-016-saiyan-energy-attack.webp",
+          "before_sha256": "f4010f5ffd7341780f24f646981e3148636dea27b1a43edc38c6e2130ff174e7",
+          "after_sha256": "cd50468fe4c5ea70da51d47c6cb605c7f5014fc2151f9ca76cf2bba03298ea4d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-018-saiyan-left-hook",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-018-saiyan-left-hook.svg",
+        "before_sha256": "f74d42077459e87c4965320c31edb901ac6f43e349d35e5ed504fab36fe0505c",
+        "after_sha256": "75e1c67ccc784833ef1ba697deb0ce2b27f128f8fb35184e96d36fbf6aa03171",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-018-saiyan-left-hook.webp",
+          "before_sha256": "5a1c084930d80822f4cd01d530607fb7ab087d67813206fe1d7798b6af767be7",
+          "after_sha256": "470346f73aeaa0875d31c502f2d76e3f2c007321ffef665d63f867b93f7c2536",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8227,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-018-saiyan-left-hook.webp",
+          "before_sha256": "f50bdcf23204cbb5b76ba062333e8a9aba1e87d51b4329eecb402e7b2370098b",
+          "after_sha256": "2ace7e678c85ab8adf32d90315695fbfdd579c0803857a3e75a080b93397e472",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-024-saiyan-palm-blast",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-024-saiyan-palm-blast.svg",
+        "before_sha256": "45f93f6a615bba2eea903b27e646efbae344ff1d2ec0a17b51134275088a8e00",
+        "after_sha256": "8a17081261e7217ddd77d98d89d4f9b8bca43f089a41850b8745d7d2ac8af86e",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-024-saiyan-palm-blast.webp",
+          "before_sha256": "61ac02293ee3ebf97a1010b096cb81993b7d486b1b784dbb08fb8812c6610890",
+          "after_sha256": "7028d985cb3065bd8638babc54f3b2b4d377e9790217c161f8c25fa689b2ad22",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-024-saiyan-palm-blast.webp",
+          "before_sha256": "b5dfd1375e1fd311870c7cfa7e5de083a3aa8b0cea1ff5b3b264023591e5b745",
+          "after_sha256": "5c09eff6ed7b181bd4291028f43903189080ff6bc03cac0bc5d286325de4424a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-041-saiyan-triple-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-041-saiyan-triple-kick.svg",
+        "before_sha256": "95079e5401af1ada5de2fd3c1e3970fd7f1ac555e00d2a57bf2e2de3aa69c189",
+        "after_sha256": "f17cb1aa5f84c408356c305be994174e50637a3abc8fc85b6e5da0248e2c1107",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-041-saiyan-triple-kick.webp",
+          "before_sha256": "970bead24fa1f7840a7dbb4bdd847e8476f7f0dc997f384f183c8dab55562d20",
+          "after_sha256": "e835b5cb48ef51ee9bdeacf5d4feb907a20957c0539e266fae851d01ea47ee19",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8243,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-041-saiyan-triple-kick.webp",
+          "before_sha256": "6489186162576c7c4963e8e0da62d4dd413a69d4de3a9b79791086b47adb4aa4",
+          "after_sha256": "cfb2c8c21644853957e21b0ec71948ac77580ae24161202720e1b16d799b1d5f",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-050-saiyan-left-punch",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-001-050/cell-050-saiyan-left-punch.svg",
+        "before_sha256": "d98caa42fb8dbbeada004e167158f2cf0a162ec339d97f09c52a5d97209e0f5d",
+        "after_sha256": "5fc0b837e146bc953e3456706948e6ca177f511d7c9d8bb80003a9a6c82b9018",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-050-saiyan-left-punch.webp",
+          "before_sha256": "f786ed9fcf82be6cf97d6dcf41f1e397a36bfd4614c1047dfb6cc009393b91ab",
+          "after_sha256": "c6308248b7ca7859e3693e449bd698662c71e7a2066ae71d758ba28448ad38f5",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8227,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-050-saiyan-left-punch.webp",
+          "before_sha256": "9fab6e32234ed5bf20e6769539fb73f84c7db4fa2a1af92a416cd77df3fb6600",
+          "after_sha256": "23687fa2bcf350fc676c9c9028ec22941700600c9416d72e82573c8383ced2bc",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-053-saiyan-power-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-053-saiyan-power-kick.svg",
+        "before_sha256": "7d876d483c758df8b1b589c500d0c2227309881c6fa63f5f6284685fcbb4b08d",
+        "after_sha256": "55abd80025608a37a6933324c7595161c94b341256d7492dd938e53f8c402df4",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-053-saiyan-power-kick.webp",
+          "before_sha256": "50175126a6beaf7dcb3e7cd6065d8c1e40d9a21bdbdecd4f7c495551eeef08d5",
+          "after_sha256": "ed76dbfe2e21839022d74a88796d92bd76610219a043734dece92e1ba9f16484",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-053-saiyan-power-kick.webp",
+          "before_sha256": "c2041cf22a4d982083aae1892766524a43e3e263d3b1a4fc78b81482dff8794a",
+          "after_sha256": "52e985d8c9c3d06cf79dc65ae0e19807c4b9a26fce5e464c553b5be6ca1a54d3",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-054-saiyan-strike",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-054-saiyan-strike.svg",
+        "before_sha256": "5a7db0f08957657802406af70adf2bda3f5e50cfffa5459a562c7c98b53df088",
+        "after_sha256": "ccb064daf172b4a9fec7b368344edb148395889e12b06d02cfc5d91c697d83a7",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-054-saiyan-strike.webp",
+          "before_sha256": "0c58cf204286d6727a2cd5d1c50e1fdff01a832682ccde63f3edc7ae8e459fd7",
+          "after_sha256": "42e349034da5bd1c226d426c898e001c2d77dfcd580df155579508844dead5b8",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-054-saiyan-strike.webp",
+          "before_sha256": "f18a4db3514d1ed4a6f0bc0e3f68ec4d72214ecbbd6071741ca0f47e470160e1",
+          "after_sha256": "9bc76165e53fb27f9315b8d04b7985f00f55d40d91b73260a217832165d561cb",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-059-saiyan-high-jump-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-059-saiyan-high-jump-kick.svg",
+        "before_sha256": "23286117fb93affac24c0eeee23aa55ee9275ea5fdce22d4a73c2c38140b35e0",
+        "after_sha256": "2d37a032279938839dad188ca45bd8d31a2584f149045fa7bb3dac29c9ed404a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-059-saiyan-high-jump-kick.webp",
+          "before_sha256": "c1ac33bf7d11a051fd9cbdac429a38001b4a6523e89290643d005cb3c437de8b",
+          "after_sha256": "bd2f339de06bb1156f608433b28d86ed12176d74b8fd5dab581a3a096278d3c2",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8240,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-059-saiyan-high-jump-kick.webp",
+          "before_sha256": "e6ee6793f278d2150fe0ff2d255eb912b67bd4d4a5d1026c32a425aea6e97fb2",
+          "after_sha256": "868b98001df0ef4893f69b5b881c9b45c112eb919f842fe2f8031e0cd9febcf5",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-060-saiyan-flying-kick",
+      "set": "Cell Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-051-100/cell-060-saiyan-flying-kick.svg",
+        "before_sha256": "d9d80b2ecefd70fec7abab6545eb5138fef3f0ee39f4a94e7775ef84ec85b34e",
+        "after_sha256": "84eb1d7e3f9e1523162db6ec9a10a262d654b2aeae8612560daddb0d6db08d35",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-060-saiyan-flying-kick.webp",
+          "before_sha256": "a4798a50805d6cf5a723f29f1ec082ecb731c0a6a8e3e808bf1ab87063526f8a",
+          "after_sha256": "24ebdb5d313a474a685f09089faba2f0adacbe1601fe2883dce4b4ee31a974c4",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-060-saiyan-flying-kick.webp",
+          "before_sha256": "53e2a0482b7e8c6a82f1511975b4b9225d0a14d1d5454d78eb675fea91ab6c7e",
+          "after_sha256": "dfce8eb6456e6ab656b929258c2edef7600728983eb8c867d121dd520788da3d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-124-saiyan-power-blast",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-124-saiyan-power-blast.svg",
+        "before_sha256": "9143d29b657a78f5036ce27e176cebe05867d6ab39e3d61355f6b152f52c1143",
+        "after_sha256": "783e8fd8a0126011141ab011a02cf51baa1a023c47dd5ad6e07f8034eda878c4",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-124-saiyan-power-blast.webp",
+          "before_sha256": "a8e14f63648c422bedba43bfa88ace3e8ca26a1e91b75d3a99dbedf68f07439a",
+          "after_sha256": "eee4d1cc541f286f92811e7635ccb40748be3c17aa2b5221fdc175ac552cef41",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-124-saiyan-power-blast.webp",
+          "before_sha256": "d6b059100ddd8ab32822e0acdc79c457b5f3e314eb25741d210f8612b9fe2981",
+          "after_sha256": "7e4761a5a474216080d9ddf7c27546914e2e85ec86b6cb9ce2677376f2e21c85",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-130-saiyan-style-mastery",
+      "set": "Cell Saga",
+      "type": "Mastery",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-130-saiyan-style-mastery.svg",
+        "before_sha256": "703b94b62171aec29c7bd39a7991caa4babfc857643778547fae7a6a39510481",
+        "after_sha256": "eb1c133223960d69dd6459b2b354faca1387a8af9830f26c8637459f60a8cfae",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-130-saiyan-style-mastery.webp",
+          "before_sha256": "7a6e5fa97cc4f2bec21146e1c47d4242e2bcc9e60ed789af318559ed4cb0cf25",
+          "after_sha256": "2a022f2e04c865600bf782275e28f85110ac6ba7161c405d268c0dac8db86ac6",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 12516,
+          "changed_bounds": [
+            50,
+            742,
+            254,
+            937
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-130-saiyan-style-mastery.webp",
+          "before_sha256": "a5ccfa913da1769af9691c5f98ff3874912304f0de00b7c15103c35db1d990da",
+          "after_sha256": "0bc8221a9afe1f015f7087730abed3a32d7b2b28e23d1b26a97776a0a12a892e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 14365,
+          "changed_bounds": [
+            104,
+            1490,
+            504,
+            1870
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-148-saiyan-offensive-rush",
+      "set": "Cell Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/cell-101-150/cell-148-saiyan-offensive-rush.svg",
+        "before_sha256": "5bd6e5c3adc5f2aa5c9ac16e9ae0f0552cf922e09abc4ae1d139b598b0e6d489",
+        "after_sha256": "23098ad2f566c4d66cb03b233bd1025c2b9eb93d8659d13de7a381f6c55e8f10",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-148-saiyan-offensive-rush.webp",
+          "before_sha256": "a553b6c50e8c17adde2a1a18cdd36f9e271ce44ecff932eb468df5a8695db92a",
+          "after_sha256": "8489b9e8dfa6a2d9457c9f56ce396ace6ec1225604ec9d933ba9779a99ae254b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-148-saiyan-offensive-rush.webp",
+          "before_sha256": "69ecaae934f09a9d4b054ec2599e1a08674e94feeb7d5bcab4b8f621e55a9076",
+          "after_sha256": "3dd4fb7109c561bcce28ce32a5194519ea2b9f5ec40ce7174633d8e17bc3773a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-155-saiyan-rapid-fire",
+      "set": "Cell Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-151-160/cell-155-saiyan-rapid-fire.svg",
+        "before_sha256": "10424bd76fb90a37e0f80eddbf0ffb3d921d5f2f5592091b7f320f48057ce50b",
+        "after_sha256": "30b0d7695ad30d61ee9657e713ec7db430a02fb03ef8e1ad7ce3b78309a104c6",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-155-saiyan-rapid-fire.webp",
+          "before_sha256": "13aafdf177b65b805f869706ab92f8a443dc947356b3a1bda72b2b4fe1d28204",
+          "after_sha256": "4f3a39d95d5417207a99681e319c32257a018f930005d99c2101ff78a812ca40",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-155-saiyan-rapid-fire.webp",
+          "before_sha256": "7e60a367d5b4896c8ba2c7f1a4da4c0fa53b6b9ee8e73373471dd9761c362b4f",
+          "after_sha256": "3914fc536e7d059e8f4b2ddb81da4c4e29a2479655f3dfb347d220b4d95ac051",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-023-saiyan-ally-strike",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-023-saiyan-ally-strike.svg",
+        "before_sha256": "43a4b4ba6a094bfd197f3890c934e2b2a31af9f3bfd6b75543c7c2c4acf4b8bc",
+        "after_sha256": "bb058d3d4fb8180a9f95c5529e94f5bfab8d09d207c282207540ecd87b2e8be5",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-023-saiyan-ally-strike.webp",
+          "before_sha256": "9cc2325929fd1c29b67d2f41736fd4bfea635eff298ec07e1b56f81694e1ee35",
+          "after_sha256": "359ec8de98430f74cf58f4aa28eb5f27e77cc75bd68112f4176adcafea17a917",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8240,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-023-saiyan-ally-strike.webp",
+          "before_sha256": "2fcc6219e78100d4f55c1b1c0f5b2d15627847f53e813ee7124d50f4b6f71f2a",
+          "after_sha256": "1e4174fb8de943609b40693261a1f1a4d44dae3cfbe889d40e791161b1a89731",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-024-saiyan-blocking-technique",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-024-saiyan-blocking-technique.svg",
+        "before_sha256": "e7765daf158535f1e6a6f99a4322f7b7d6c6c57c941a030971e3784ff97fbf9f",
+        "after_sha256": "17ebf48c6ad2c35cf11a20d23558c294ff92212ecb2dd75badc269aadc405e59",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-024-saiyan-blocking-technique.webp",
+          "before_sha256": "657f47fec47c8000c3e3f19dc6049bd69f2ae7c19dd510641f0fb55c9fe7d174",
+          "after_sha256": "0f6fd826e047bbbb99d74c3380fa05ac09d0790d6240593c5ffd1841d727620b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-024-saiyan-blocking-technique.webp",
+          "before_sha256": "717162ed73b162ff88d9525b03d6fc2c9a478cf87439a3001a46add66dbbc9a5",
+          "after_sha256": "674e615aa600641734ae5bc18db3fe83f45fbca363a3c29e6ab7978b6811effb",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-025-saiyan-energy-surprise",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-025-saiyan-energy-surprise.svg",
+        "before_sha256": "eef121427f0941a90c3dce35e0358dcb9487b69e1ce60f7ab7d1318d55b6770f",
+        "after_sha256": "601fbbc193d3bcde06933c41cf3f1abf6eaa6bf4967997798b3b8988f8977b2c",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-025-saiyan-energy-surprise.webp",
+          "before_sha256": "8bf28eae8ca65a0f94458696e34e51e03b1af844fb774e70449e6775cf295a33",
+          "after_sha256": "70778e40df1a6713275f7ef1ed16079d42c7eef13c6583a2fb2f91452b1b2e30",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8248,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-025-saiyan-energy-surprise.webp",
+          "before_sha256": "0d8a10b10b8a3373cebefe74b6fab2b708f20ba4d7349f635d8b0772bec3bdf0",
+          "after_sha256": "1b7c11842c0ab1aa8a768c650008e85652d31a74d2d98caa973e046bec44ee9a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-026-saiyan-fist-attack",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-026-saiyan-fist-attack.svg",
+        "before_sha256": "8223241faeab65a04e220bb20e0acf31604aa2cea7d2d0f24ad1c7d96c4d08df",
+        "after_sha256": "ae8de6fd13da7b9596a524977b6dd47db25316226fdc20812a42cae350b060c0",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-026-saiyan-fist-attack.webp",
+          "before_sha256": "adb9a12f2c9b549ce5c805cdb756f407be44ce890ea428a9e6bfd075a4b6825a",
+          "after_sha256": "d231bb5bbe2857bf6ce5d16ba3683f2fce1071bd3d660856f8d5fceec0ae0808",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-026-saiyan-fist-attack.webp",
+          "before_sha256": "4341222703860f4791288133c5b80f18f9c1636653cc60d113be556e66a6404a",
+          "after_sha256": "bcdd1e19e74368cca70a5b466b8b40600ca582a932d1870582fe2cf7af02ea10",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-027-saiyan-knee-block",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-027-saiyan-knee-block.svg",
+        "before_sha256": "7243691e8bb26ab486b0ba9c7fbde3e4d73f6ef7a37c67704c3ed8961cb18a05",
+        "after_sha256": "6d19a57433176bc35377fb2f452ea73e90f94354f5a3f2e681315f0bb8cfac24",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-027-saiyan-knee-block.webp",
+          "before_sha256": "26860ad4f58fb536491063b8dd88a3035f4d0a2a49ead4f4d8f01d259425bee1",
+          "after_sha256": "c54f7eddf0d8e30c2e5be8985f104e0e6facb0ec152ecc8bdac5ebaa18e5a44c",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8241,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-027-saiyan-knee-block.webp",
+          "before_sha256": "84762696945b7c459dc5c6c49f65fcd7972962cb5b86b81997f35bd39fb68ecb",
+          "after_sha256": "9230054d3b792a792ffd025b0a80f24b40d57ce1558736834f6a6bd89c87be59",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-028-saiyan-power-rush",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-028-saiyan-power-rush.svg",
+        "before_sha256": "b5e8ce1efa06cf9089a7b032c8df975107bd6dd7838035656f7e606a79751a18",
+        "after_sha256": "1198c930cb672877369b72976bed58d6635412b1a88543b8466af3b4989ebdc8",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-028-saiyan-power-rush.webp",
+          "before_sha256": "0a46f5e8510195a32516aa848dc5698468c81e77c1e6ddd73081e8736e3f2663",
+          "after_sha256": "7dfdd5b19db10b89eaabce96d2fcf4430069d197204c254983e806398415cc8e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8243,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-028-saiyan-power-rush.webp",
+          "before_sha256": "6e5e440065e526077235e8e4b8b6ffff5752214758ae10d2c59f717f7f1729ce",
+          "after_sha256": "74ca292ed1c2de9663518015f61fb4864cc4a8e2b9957145e0f2e36f3747e430",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-029-saiyan-triple-blast",
+      "set": "Cell Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-001-050/cell-games-029-saiyan-triple-blast.svg",
+        "before_sha256": "9c43fa71292ca5b9aee8aea186c6e27ec8439046a38ed4bb3573292481c7c70b",
+        "after_sha256": "d7b91ca55e133cc80a483df272a4316124010acafd8dedfc1e91798ecacf71a5",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-029-saiyan-triple-blast.webp",
+          "before_sha256": "5c85b9183f85e2a66cd133b0407c6f1cc47b9245cd741b3dcba78d6fd726d6a9",
+          "after_sha256": "e1faf783ef466d89b3fa87fcaa8b600be9bfb56172b1f57d8278f5dc5a083d6c",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-029-saiyan-triple-blast.webp",
+          "before_sha256": "c467b93ea5e5ebc8d6a1b01b1f378bb19d4def8053901d85d3fdeb0f687797eb",
+          "after_sha256": "2338c1ca08bfca6d18b3ec1830d535950b7e04272bc14fddecf8ebabcef6b98b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-087-saiyan-energy-drill",
+      "set": "Cell Games Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-087-saiyan-energy-drill.svg",
+        "before_sha256": "0d27e74211bd882288ad6ecf85649546aee4d86bd65c4652d5eac57c5e9a26e1",
+        "after_sha256": "1ab8d1cb43d5785244c18be75ad892a3a934947c61171a274f9c00ed49ddcce1",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-087-saiyan-energy-drill.webp",
+          "before_sha256": "be1bf7a641564e8ffa3f5c9d919eb05a9dd954e4b831cd0d135f305d6a9f8500",
+          "after_sha256": "61d849ec634f7f0a44d836babf67cd6339f90c84c8b35a66339e59ebd6579db9",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-087-saiyan-energy-drill.webp",
+          "before_sha256": "285bbe86486d90a490eb6e841965f646775f5b9600f71639cccbb7452f2211ff",
+          "after_sha256": "5e59b7f480fb8da203cd1cced12037bbd72b73c47f57b2f40d49178be7e7c61b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-088-saiyan-protection-drill",
+      "set": "Cell Games Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-088-saiyan-protection-drill.svg",
+        "before_sha256": "ee8615256062a5f1ef031c7e2be9d8a7fc8c397241abab9e752c754a9c0b3afc",
+        "after_sha256": "8f7728d6f1739365d7d469d92424d3c210d91967dec3c37828238f20b74939e8",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-088-saiyan-protection-drill.webp",
+          "before_sha256": "43cccb0ebef947eb0eabd24b4d9c6736976b6655c75ec5487e64582f49128f15",
+          "after_sha256": "029c92cb775be0eddd23c5de3920db76dc955d10940067a15da84b3fe0de8a22",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-088-saiyan-protection-drill.webp",
+          "before_sha256": "dfdb035fa1aa0498243e1ea38d87a8c291b611a09b04ddeb04b4564aa6caac0e",
+          "after_sha256": "48e0a9e846a018478213e54f1825423e7184eb9084f8eb59701fb7d11bea0e27",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-089-saiyan-pride",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-089-saiyan-pride.svg",
+        "before_sha256": "80103f9161a932e2c9954e056d591e56b8423355d06b56bd97d920c615366081",
+        "after_sha256": "30aedc0e4f1ce81f339a18b8555ab9d7a49dacf829b85db6a50553ef57b96f5f",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-089-saiyan-pride.webp",
+          "before_sha256": "0d2c33a2daece166400d46653c765e5855d7e2b5980abc45c9071a581f54a945",
+          "after_sha256": "38f25ebc6359e216aa0049c7deee9a6a78a4d6c4e3e4934699a086d7b01ea1c9",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-089-saiyan-pride.webp",
+          "before_sha256": "217877986d1e60523df350def53de1917ee0af746268b9226836e5a2ecb2999f",
+          "after_sha256": "8bda2502a73072ee1325fb4cbc78ba7acace47d310e7adde88291108e0007b9b",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "cell-games-096-saiyan-face-smash",
+      "set": "Cell Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/cell-games-051-100/cell-games-096-saiyan-face-smash.svg",
+        "before_sha256": "d0419b121ff335b063caba34c111a7e6e25698bb1dcee1c5ab5264cd107758e7",
+        "after_sha256": "cb21ade374f256aeae2a86dff4f1455b49652059f13071dfacfea0c415b22f7c",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/cell-games-096-saiyan-face-smash.webp",
+          "before_sha256": "7551e7b3c6622d4a8b120b3b48aa72d39bfb716cd0ed01dd5ebab04416c996bf",
+          "after_sha256": "fd154c5195c3d045db547da20a57951d7df4bb5df8a62418d891fcd1d67fb919",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8247,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/cell-games-096-saiyan-face-smash.webp",
+          "before_sha256": "002bc18791642e40ebf1843922a5abf45ca67af884309d3c999bc72bc8c39bf5",
+          "after_sha256": "97102faafbd5d3aecd710ca5f889012d9a65dea2b9804c6b7bff79ffadba3a64",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-008-recoome-boom",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-001-010/frieza-008-recoome-boom.svg",
+        "before_sha256": "26280b8f516051e2a25e75fc4e04fed3ca58774b3da4a09a971bec1b88f04381",
+        "after_sha256": "64106ec8a34dad394c34b7ba232c33f4af232b8917fbc68577aef4be3d03775a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-008-recoome-boom.webp",
+          "before_sha256": "ae05f2cff16a5f94d5173bc24e4d22e258d34857fe4b9e0c4a25a27a305e9526",
+          "after_sha256": "74cac887ab88e4272d955aa677ea18c1906345da1db7b1f35c4d61b781060f7b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-008-recoome-boom.webp",
+          "before_sha256": "72fbcfff2166eadef5c2303507823a3b728ec01045c471283fb6aac437acec12",
+          "after_sha256": "d0a86f86d4c523846fff021078cc66ef8fe20df0b86132591b40a370cd70430f",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-009-saiyan-rapture",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-001-010/frieza-009-saiyan-rapture.svg",
+        "before_sha256": "4cb45c09abdb025a30446ddf9fe5380d1d7e01d6a2e7f75d1291aae18a49fa30",
+        "after_sha256": "78b2074ec5b60a361a56fc234ff8ee57c5d7df68506cf6bc2afda255836269f1",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-009-saiyan-rapture.webp",
+          "before_sha256": "388181d6f01364c8c1ae35b8430e0d2cab45f555a4c33caab24abe673c106748",
+          "after_sha256": "ab62958dcad63607440d90477bf6dfec974ec7c323f96eb0379150e92a2a9d0d",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-009-saiyan-rapture.webp",
+          "before_sha256": "d28d811246a1d85724f3a08e382b2123576b40fc0e66813950c51cd591e54200",
+          "after_sha256": "d2c71fd88ab31ead1ab5c1ce64783f6c556b47ed1a5e7e1d5dcea0d116d8b3ab",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-010-saiyan-concussion-punch",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-001-010/frieza-010-saiyan-concussion-punch.svg",
+        "before_sha256": "ee5c812d89c0c7ea4b1e7c7b8574378f80e4844a313b226b380f505c63254b0f",
+        "after_sha256": "f88c0130da92f8c9022d10f326b38273f39549bb8c9069651732c9f0a56e1e25",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-010-saiyan-concussion-punch.webp",
+          "before_sha256": "4591f3598abd036ec42a4f65153fdf31c86bd5a019ee8590156fa2fcab7eb8cb",
+          "after_sha256": "8e2ccac6bbdbf8c1ba275111a4e0a214e7bb4f1892e26b2c21f73381294baeb6",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8238,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-010-saiyan-concussion-punch.webp",
+          "before_sha256": "d6367c3ffe15187e4d93a3a93e684b77139d89b52f9710d9e84cbf24df1d1d12",
+          "after_sha256": "ac7fb0fd0ab74e0297a9627971dea0802fe766282515efcc31eceb827dfdcfa6",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-011-saiyan-rapid-deflection",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-011-060/frieza-011-saiyan-rapid-deflection.svg",
+        "before_sha256": "205b284652084c68074930d0dd98039a2373e0f4acea3412b1c5bd75857b2366",
+        "after_sha256": "d5379a64e8146284dc7ed39cbf62f67dc03baeb3ff0476673cb432283c89ec12",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-011-saiyan-rapid-deflection.webp",
+          "before_sha256": "ebd2808df915dec185524f8662e221cd86e2ea3c2b3bc6adc4d731dd0db33f63",
+          "after_sha256": "4e5bb9b198a83187a01e38cfe41124267ba3766f5cc13fba600c94380bcb920d",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8234,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-011-saiyan-rapid-deflection.webp",
+          "before_sha256": "7d18e44719f7b72638091adbf99785db0342144c4eb5e738304020a5804125b1",
+          "after_sha256": "222da531695156eed630bad798de474e1176a5db40543a59734a084166ea1be5",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-012-saiyan-energy-focus",
+      "set": "Frieza Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-011-060/frieza-012-saiyan-energy-focus.svg",
+        "before_sha256": "795949b16fd2efae071e8cf17dda20737e61f9f8e746207591e6046f4bf53b65",
+        "after_sha256": "92685c147157919c58a060b3542e805a3f2d57c8ce4fb0cdbce99f6a2e90a93b",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-012-saiyan-energy-focus.webp",
+          "before_sha256": "9ae5bcf5fbd1dbd0bf786c81f87d45755b8981af25f5aac0c137ea3577e94a8a",
+          "after_sha256": "a73b5a1081365ba5fce1dd7917c302ef2f2103e8d4ec4b988cf41159035815f3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-012-saiyan-energy-focus.webp",
+          "before_sha256": "b5787a70db897be7143457c037d575e0696931af2cf6f6e866fe0bcc6d0868a8",
+          "after_sha256": "0cf5e55dc2502dd434110f67d60204334ad57aef8522a1a944ebd4222d88281a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-018-saiyan-concentration",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-011-060/frieza-018-saiyan-concentration.svg",
+        "before_sha256": "5842f9fa598e28672bedde0fa78809dc92c55317988ac49be406d867ceb30d8f",
+        "after_sha256": "547bd40a197e6c9cdefd968dfd8186863d08b84bbfe9cea9c3c77200b0dfc9d2",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-018-saiyan-concentration.webp",
+          "before_sha256": "09b01dc7a8e6777e44a9a9d4423ab4d121ec8d14c3378cc6155220ff354e0639",
+          "after_sha256": "5d4ed0e8e024c8df33e9d12d2e80734cbbaaf835982904dd3a8cf10910331bd6",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8244,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-018-saiyan-concentration.webp",
+          "before_sha256": "9b6633258aa3a4b6e5283f12dd1a7287d312b9ef1ee5a1306de14e2cc912b031",
+          "after_sha256": "ed5b1ce8d88adee55e33bc648b875743ec5f45085ec899440792b0e151547baa",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-034-saiyan-planet-explosion",
+      "set": "Frieza Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-011-060/frieza-034-saiyan-planet-explosion.svg",
+        "before_sha256": "52a6b20d43b35000e8d7a2c3b9cf64106e9208d217b06442d3fcb9a637acfc50",
+        "after_sha256": "13478865c402db29bd2d58b9ca9f0993ec79edde7c835c3c31032f2e8c36bc8e",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-034-saiyan-planet-explosion.webp",
+          "before_sha256": "2e4e1d0fb1f178c898658713cd56490c8871138daea0ae11b5be3b9dabd5dee6",
+          "after_sha256": "956eacb6276ab48a7a0c12fa7bb796ba56614faef88b41f3b986358b471b0aad",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8236,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-034-saiyan-planet-explosion.webp",
+          "before_sha256": "4a8966b9943f456c94602084af0bcce37b428697c31db898975e3a9b88307105",
+          "after_sha256": "9bf862df8e4bda7ebb9746d4f21c6dabefadee16ca3368bbfba51cdb5c3e38ea",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "frieza-035-saiyan-focusing-power",
+      "set": "Frieza Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/frieza-011-060/frieza-035-saiyan-focusing-power.svg",
+        "before_sha256": "37f582a0aa8f9694e0e511c9d576246d33865c782f9f613651b10ac09ef0a3c0",
+        "after_sha256": "ec85c19f86167b524de9b4da91e6cfe8c077e76733219f53d492d6859875c9a3",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/frieza-035-saiyan-focusing-power.webp",
+          "before_sha256": "d61d33404cf680c7f3b528a8be0a4c590189c1e5da3abf939beb204ccb57376c",
+          "after_sha256": "ecf23fc17575eb83c9cfe22ef1a1517f5a02260661035d01e2512ed71b3b8954",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8247,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/frieza-035-saiyan-focusing-power.webp",
+          "before_sha256": "6fb9210b3f14a5dd9398bebd82e4d29f3b214ffd029d4970c133d7c171712138",
+          "after_sha256": "9f09a36cf391ba7b39c0308111ea7f278a421a1c5546434fc5add4320282d893",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-018-saiyan-arm-throw",
+      "set": "Saiyan Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-001-050/saiyan-018-saiyan-arm-throw.svg",
+        "before_sha256": "c75ba7451d6217af9c9573b00f33fc354ce1cf46ac1aa24fb3b3c141ced277ce",
+        "after_sha256": "63905aa260241009f93af9e0d62c8c1bb848d49e6c752c8ea8266bffd97cd038",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-018-saiyan-arm-throw.webp",
+          "before_sha256": "cc19bb12e9e873dd08d6ad8507faaff3518f7648698ac1ff80e3eff75d2a57f0",
+          "after_sha256": "0dcf32ceee7a05b79fd35de3a6c35169b38ab21b0808651ffbc2b987e2b26d27",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8234,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-018-saiyan-arm-throw.webp",
+          "before_sha256": "0746c244faeb798641ea7c866b874d24a1433a6693a4a4c0a3ca443e515b1260",
+          "after_sha256": "b8d8e212d96cb9b39e481def16cce9d8be663aa5e73c23273ed89e35e5b68b70",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-019-saiyan-full-spin-kick",
+      "set": "Saiyan Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-001-050/saiyan-019-saiyan-full-spin-kick.svg",
+        "before_sha256": "1f115919b7919b84aa513f2afb30cd8431c8e204d5b72089533422d63322323b",
+        "after_sha256": "8af48f8fc81b032bc497574c161649dda3643ce83cba402cd00bbc0e355ef8c9",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-019-saiyan-full-spin-kick.webp",
+          "before_sha256": "9de81c87486611245e82521c6306032c3541c297e2d3d0509ff7bf3e18aae14f",
+          "after_sha256": "32897c6f8ee4394e685ae92006191da5209c7b3276c8d61e512aadba52eac41e",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-019-saiyan-full-spin-kick.webp",
+          "before_sha256": "d262fad2f33864a3b1fa390d85808c2beb21fab9d1a3f2fd8d1633db653fb335",
+          "after_sha256": "7eef526c1a04371246a340fb70845133ea805cbcdd4cf092beaae804d4189243",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-020-saiyan-pressure-punch",
+      "set": "Saiyan Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-001-050/saiyan-020-saiyan-pressure-punch.svg",
+        "before_sha256": "17682f2725064660ece667f1f501170f4730aeeef17901e524eb5086d051cac2",
+        "after_sha256": "ac1bfbee762e9c8a86d00812aa64732b6295d837eee4f469dc4aa3020f71e43c",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-020-saiyan-pressure-punch.webp",
+          "before_sha256": "053fc3e9510d59b190f9000cb6ddd3051571ddebbfda8182d709e5b9ee0127ad",
+          "after_sha256": "f389d7aeb07cfaa4fd41182c8ee93f0b816c821a3ccfc2fb9b9ea6899091fc64",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8241,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-020-saiyan-pressure-punch.webp",
+          "before_sha256": "7522c572f822be397d9ec1cd05c54e55681e2549ae57083a6bdac4d58048e03f",
+          "after_sha256": "d6ae94a350fa558c77806cd1723d43fe5cf2cc8dc82a8a22b51979ab2afefb6c",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-021-saiyan-neck-hold",
+      "set": "Saiyan Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-001-050/saiyan-021-saiyan-neck-hold.svg",
+        "before_sha256": "fcd51c6a844af22b389f54d118fa53e8b35b9bbc9857304775a2ffca45c49654",
+        "after_sha256": "8a26b2b4955ab3f481564e616ccfd6ba72fbd540fd46e5a4e81ee2ffc2e1d24d",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-021-saiyan-neck-hold.webp",
+          "before_sha256": "f35b7ed6a98dea16c7cf5c2f70d716db3554dcb00ed81964a4fad19b0ba11bf0",
+          "after_sha256": "062440c1600dbd3d74548a77c48cc35d45e3dc2d28a5dd18454251e79b91b426",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-021-saiyan-neck-hold.webp",
+          "before_sha256": "921a4c047755ee50a344014a01f0b42ec4f65c90ed412e94fa8267884b508ac9",
+          "after_sha256": "e4bfc8b0b109255f53b1818b924544df8c7aecd865d2db304683be1c33347d1d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-045-saiyan-city-destruction",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-001-050/saiyan-045-saiyan-city-destruction.svg",
+        "before_sha256": "3c70678a82a2f2e59a8f2189c441e69c24f618d8afc40fa67f8f387424262d13",
+        "after_sha256": "bd42a10ca3492bf13715311516cee508725384d6738aece57364f664388da90a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-045-saiyan-city-destruction.webp",
+          "before_sha256": "682653b7ffae8d0b6647287534a7f3b06c7df99c49aec1c1ee5462f98e2ecf9b",
+          "after_sha256": "a9eb99a9ef73b4a1c4230a2dc9417333e82e804a09528d9eb3d415505e51e4ba",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8233,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-045-saiyan-city-destruction.webp",
+          "before_sha256": "1ccb0ee444e59f387dafee816ac49c3e75443832f3196c13eea2c35b0c692bb3",
+          "after_sha256": "24962bfbd8db868586a29e6f313c1e723596eed95b19343eae5808461a0c7433",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-080-saiyan-training",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-080-saiyan-training.svg",
+        "before_sha256": "6b070f40e21e3baecf5242f30a63b51a4f0d1b1c6ae46c67d90c88daff31f6e5",
+        "after_sha256": "b01db716e52ca841300b5f0560b329e4e325b625027eb05e1c1700f2c9638c63",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-080-saiyan-training.webp",
+          "before_sha256": "6d0258a957c1dd8b4ac530286b827d6bceb8a96ab27a4262eb30e9923ffc235d",
+          "after_sha256": "f46d53a2309d2ea821b61c4dbe4e785f25557ef2c6339d112fee956ddbce7d9b",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-080-saiyan-training.webp",
+          "before_sha256": "f38e21596bf30b39caf5a771a6195c3c42534f60d7b6d0f06bc7b7b8918821ec",
+          "after_sha256": "b8345df0ad582513e91339a61a6f86ff4484979672fb4108627ddf7e28d69cf7",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-081-saiyan-armor",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-081-saiyan-armor.svg",
+        "before_sha256": "e4973571f2745ceafe28c39f0cb5333aaf9c10658e65df25b9770eee17476ba7",
+        "after_sha256": "105c94b46e2c29afd4d1d3e88ea71dad9eae3c3f7dea5cd66d6770898c8fd491",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-081-saiyan-armor.webp",
+          "before_sha256": "e4bb0249456484e5ef3c4e77b3cf7fb6e81928f3c1e652cc43542c11d2e8b4d8",
+          "after_sha256": "c3950f5a6f39149f28f94accfb5db46bc321f4d1939f4302a885837c0e0e14a3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8246,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-081-saiyan-armor.webp",
+          "before_sha256": "389a0bf5c9fea06aacd39feb7f26dcc540ebd2e6a270accfafa6d31922d34773",
+          "after_sha256": "707c32cbe617c214705cb334b4c50d485ec463569c11d2b05b16818facf996de",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-091-saiyan-energy-throw",
+      "set": "Saiyan Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-091-saiyan-energy-throw.svg",
+        "before_sha256": "cbe347727b8557eca35217c0e80808298b34cb4545643e7307338d1a3fe8e041",
+        "after_sha256": "a77d5df9478005b18e80001931364afec5b848c51cf9264afa028909443bd62e",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-091-saiyan-energy-throw.webp",
+          "before_sha256": "379b4d7155752f89593e17e684d07453c9c60a1bdc504d2c812f171a2c5ed294",
+          "after_sha256": "6cad700461f8ab616a650f2ca70ac5c5b396cad196b85004a5202c91e2e37b79",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8232,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-091-saiyan-energy-throw.webp",
+          "before_sha256": "892f1153bc86062f4bf2e35d2810c7c7db37a4da72244225e4e661a6e2221c1c",
+          "after_sha256": "0b98e6487848a005216da81414875a43e3d281dd6be2cf716f4bf5e981405581",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-092-saiyan-energy-defense",
+      "set": "Saiyan Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-092-saiyan-energy-defense.svg",
+        "before_sha256": "02ec4b62f167650f0ab197751179807ba3712884d80e34a3aca1c14013e700da",
+        "after_sha256": "118edeb6702b48eec92448186753711dd99de75cf28ec831b16f854a294b8208",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-092-saiyan-energy-defense.webp",
+          "before_sha256": "529558a850d9e9715ce6b8785e5876a82c7dae2a180d9358d8835b7d894fa7ae",
+          "after_sha256": "b1875448fb19d2082362e02eaa4d489f99402eff35af19aa3d486f4959bb5cdd",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8239,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-092-saiyan-energy-defense.webp",
+          "before_sha256": "cefe62c5a611035efb9bcfa895c826c5ce9d1c22e12601d50ea72714c58959e1",
+          "after_sha256": "478ef130b2f1d0cc4db9c958e8c532a7a132505eddd82fae166569313d548d0a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-093-saiyan-mental-energy-attack",
+      "set": "Saiyan Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-093-saiyan-mental-energy-attack.svg",
+        "before_sha256": "9f48277d7e881c2b96111198d84d414de53cd11f8f3e0890d4f9e07cd2965a65",
+        "after_sha256": "d1c0c46d7c0d2ceff4f94c4ee664d1200a4e5b40fd27648ef2e6e345c997b5da",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-093-saiyan-mental-energy-attack.webp",
+          "before_sha256": "375d184c0dab2a485b72f0dbb9a0e0243fe6a61e2a3acbfbc9d1a48b759284b3",
+          "after_sha256": "de81f981396e1b991e18cc64ef686e4f0d891f743bc93d3f191177fa68a79064",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 1,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-093-saiyan-mental-energy-attack.webp",
+          "before_sha256": "269a91955283d4cd6c8a8d8482123063f313ab735e9ec1c9342be4c0fe507bf7",
+          "after_sha256": "5e85b350c6fcd648178da13ca6bac33ace87ba1bb09add1361c2d3a6e6e8462a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-094-saiyan-energy-blast",
+      "set": "Saiyan Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-094-saiyan-energy-blast.svg",
+        "before_sha256": "f1069d405d899fef249deff8b8d754a1fa0cf574611cca62ff0b9111e22f9bdc",
+        "after_sha256": "def6f9f27558a17f760fa04608f623efbbf03efcd6382aa123fd92757f5a159a",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-094-saiyan-energy-blast.webp",
+          "before_sha256": "753f37e2600ceaa9b44a4e9da2bfed3db45ee1434ddad23b2e51e38f1ec50512",
+          "after_sha256": "7a4b0ba3368c9cb8d69a42460b26555d8c2e39c17adc7f1bece8f9cea810a7b2",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8238,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-094-saiyan-energy-blast.webp",
+          "before_sha256": "ed73b5efe431350b0689d19f4c0f73102fec845f5fbe64a2464234ff863c0f3a",
+          "after_sha256": "7e9c6494d10c9e8df363ae3bc2392afe97a2c3e82f96402b14e5ec4b811cfb06",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-095-saiyan-energy-aura",
+      "set": "Saiyan Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-095-saiyan-energy-aura.svg",
+        "before_sha256": "14ed523b5be80f7b51b4b1d18cdedc0c1deb07d7c3c1a2592e1fd04f9380f852",
+        "after_sha256": "717ab0c5da82c0e8a6e4ac18f6276e3e2f016063907ae58b8a736a38383e5982",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-095-saiyan-energy-aura.webp",
+          "before_sha256": "ca4ee2d5619794a539ef6c7ec070463f02c79b6630dd65385c65790c62b857f0",
+          "after_sha256": "9db27539904d662e48f18be47381386a1fc4e1930d7395e0e9450ce7dd2754b3",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-095-saiyan-energy-aura.webp",
+          "before_sha256": "f4a55ab4efa491e7500cfe5c8d27d55c0933062d2d2e62a1ef49ec6f2c4fdecb",
+          "after_sha256": "ffc9e040316fe4a1041847cc5f776903ea9450c8bbe83b0ee1c2253217484ae6",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-096-saiyan-sweeping-defense",
+      "set": "Saiyan Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-051-100/saiyan-096-saiyan-sweeping-defense.svg",
+        "before_sha256": "3e33fbbcf82cb78c376bbd844891a2906ae5c1c0e2283ac27eaafae8a2384ad3",
+        "after_sha256": "5a40e90dd440d555f31c34a1c9a54a5d278d11c1e25dfc75676de04e773658fc",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-096-saiyan-sweeping-defense.webp",
+          "before_sha256": "925eaf2166fc8fc2129b51cac7539902d385cc5d4a9b91eae5a09a263949a7e7",
+          "after_sha256": "ba6e47c6f4200ffde9779290ea4c00b5f2f3f715874eb132e6c1ddfe27664a94",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-096-saiyan-sweeping-defense.webp",
+          "before_sha256": "8de4e2d841ec193bbb300c79003b41bce1d345f41cdb264c4a512206c2fe7544",
+          "after_sha256": "86ee8f4435d2a0fabcce2b29c34893eb07a9b00fbea725df95a1c4ea927ce7e8",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-196-saiyan-honor-quest",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-171-220/saiyan-196-saiyan-honor-quest.svg",
+        "before_sha256": "b9f49743e4dd0a1f9447f5bcfc116ccd1a4bd45ea8e47ad0efea0a86cb71f99c",
+        "after_sha256": "6b85c75c540d30a9a270659f9cf5cc9348934e8f38bb29759729ddc1a6991461",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-196-saiyan-honor-quest.webp",
+          "before_sha256": "c8d3225d0f1444f1d60ed931573b7401b2b9d7f416a3ee35eb66b28890e34fd5",
+          "after_sha256": "5d3289da48eede7c325f8587dad20d1d7115888532e84c053c798f9a2d6db181",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-196-saiyan-honor-quest.webp",
+          "before_sha256": "0bcc799f52d60372572b8e33be6e5482f8052bea85e29230b01bd36bcbf73bf5",
+          "after_sha256": "c77a6afd3201ac13134f1abab3125fd602173eb2c93b31be6486c5d1f17b6a02",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-197-saiyan-battle-terms",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-171-220/saiyan-197-saiyan-battle-terms.svg",
+        "before_sha256": "16760de74508663b5586cd868021674cca814390d664b012de28e14001a8566e",
+        "after_sha256": "bdb47f7f8b0b0c29602d24b1edcfeec2267f87f5c95ac50d1ae3a25230f2712b",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-197-saiyan-battle-terms.webp",
+          "before_sha256": "aeb40aa11439a98fa4ed1261ecfbb561d9890d2d70aaa6e2263d3b17c7c26f7e",
+          "after_sha256": "ddf323f260e3015edeef9b004c34efa38d2a591854f021a92321bd7628954d23",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8231,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-197-saiyan-battle-terms.webp",
+          "before_sha256": "bdf635612bf1f133157dffacf594b531d510acbda310967f75d8ef9501799be1",
+          "after_sha256": "d5047d209880fc0f657b733b7cc15b13be03613b9841c9fb0426643de1e4b31e",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-198-saiyan-appraisal-manuever",
+      "set": "Saiyan Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-171-220/saiyan-198-saiyan-appraisal-manuever.svg",
+        "before_sha256": "5656332e28c0f8e955c107e597a7a7a3a4cf8f62bf193806d9d7441143073f3b",
+        "after_sha256": "5f939a1d2bd19bb105d7de417c398b90b6c3bca33b7a756a04e68f0a5adea267",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-198-saiyan-appraisal-manuever.webp",
+          "before_sha256": "60b43bf27954cc9f3faac03a11a60c4493cf7f2f017a2d8f4958f3f8aadf2115",
+          "after_sha256": "7d1f70415dba834276fc3c0fb2a7c3df1d150dcb8d60763df3cc60672c82b38f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8240,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-198-saiyan-appraisal-manuever.webp",
+          "before_sha256": "e193521b61959a96de8ff909f52eb6ce599b663133743686993b2375bf7460ad",
+          "after_sha256": "1ce059bf39f2a7463d9c4595506502e150e63ec939a172e008cfe882cdd73d4d",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-203-saiyan-truce-card",
+      "set": "Saiyan Saga",
+      "type": "Event",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-171-220/saiyan-203-saiyan-truce-card.svg",
+        "before_sha256": "15efc82d499376cf84e1703917809724aa3cf22d1b2f102f0b056eb0d0330821",
+        "after_sha256": "ee6a77366ea8507e14f1d5e054722edb3d7430f998572cf1e0ce31f4002992bf",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-203-saiyan-truce-card.webp",
+          "before_sha256": "ab64abca4f309557955ebb85860e3af2fdd2275dc7647f73d7861672cbdef908",
+          "after_sha256": "1149ce3b642241328d2906c76052dda942b74fe052aec61a89dcd8509c93d068",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8240,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-203-saiyan-truce-card.webp",
+          "before_sha256": "1007914f14391cf57707a7bfa0ed5c57d7922d604708949dad4ec860a7cf82a4",
+          "after_sha256": "2e322d5082b868ab64d85dc38fb49b5f582fd5e6246921274e4d90c08cfa88ff",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "saiyan-236-saiyan-power-drill",
+      "set": "Saiyan Saga",
+      "type": "Drill",
+      "source": {
+        "path": "tools/card-templates/v3/saiyan-221-250-promos/saiyan-236-saiyan-power-drill.svg",
+        "before_sha256": "fc708e27b84800bba5ddb17d7e73f1833f54e2c20e41933fd85d509006ec5740",
+        "after_sha256": "840a2171a9d7093098b84029358df410bf57f9ab4b3527f66e25787a09ef9a69",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/saiyan-236-saiyan-power-drill.webp",
+          "before_sha256": "f27b0548b6d64b283bd24317f2adf3f50b04f77bbf753e2fb4a3118206f246d5",
+          "after_sha256": "48cef462514b4145c9f21d758989cb51be49ceade6ccfb941a54fd6ac4c1f03c",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8236,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/saiyan-236-saiyan-power-drill.webp",
+          "before_sha256": "1460829b70eaf68ef842a0179e1d9d071c3268c701abb46ef26f79e623bf9805",
+          "after_sha256": "248acf8c904710e7757d7139d9e99d426644ee6f642e6ee201f10c31e2983f42",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-050-saiyan-knee-strike",
+      "set": "Trunks Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-006-055/trunks-050-saiyan-knee-strike.svg",
+        "before_sha256": "b65913a4b2778d6f8a4f9fcaf23da81bf3c2d2ad0219e9cf2b70da66a64f0ebe",
+        "after_sha256": "9b7ae2839c1b85489e8da078c870f3a377d36d5250802da89673df903bc3c56d",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-050-saiyan-knee-strike.webp",
+          "before_sha256": "706470366cdfa90cd5c7887607f5a852930742a5ddafb3dda343dfcc4a4f3940",
+          "after_sha256": "32964b86569f8815428582b9ca98c80ec04d04ae29d9b6c496d916eb9c19bac4",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8246,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-050-saiyan-knee-strike.webp",
+          "before_sha256": "9b7ac98af3603a2fc8d07d5737b224b8ee07a132cd3cd2527a39d2bac8ab8d34",
+          "after_sha256": "524d2a6412fa1ba808a83329c4745ae4de8126ab77c36b9affd74d9c242196ca",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "trunks-148-saiyan-style-mastery",
+      "set": "Trunks Saga",
+      "type": "Mastery",
+      "source": {
+        "path": "tools/card-templates/v3/trunks-106-155/trunks-148-saiyan-style-mastery.svg",
+        "before_sha256": "4fb4c17d8fa8f9a3ac1d2c09dd3e0eb2706002ccc2c8449cbb42f2b3f665205f",
+        "after_sha256": "e4a32b2f68e0f2f5c522d053ac193a04f285abffbaa10782579a9fec5d697c53",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/trunks-148-saiyan-style-mastery.webp",
+          "before_sha256": "dd154bd82808eea7e243466139962fb4a6727b2426185bbb236b77bc1ae449ae",
+          "after_sha256": "88329e23aa4a8bd4e47a70ae1cf67dc66e658b294c3a0f7a7c093f4b5d94450f",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 12516,
+          "changed_bounds": [
+            50,
+            742,
+            254,
+            937
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/trunks-148-saiyan-style-mastery.webp",
+          "before_sha256": "d0b037abfce6b1bd5a50cd31d4d8feb1709653fa11f43534278dac902bbbe3d3",
+          "after_sha256": "cda3c71f17879ba97eea7d8c63fe6480376f2a63264c9c4bdb8db06aa95384bd",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 14365,
+          "changed_bounds": [
+            104,
+            1490,
+            504,
+            1870
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-031-saiyan-abduction",
+      "set": "World Games Saga",
+      "type": "Setup",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-031-saiyan-abduction.svg",
+        "before_sha256": "ac1eff261ec5c05ef4f4ab9a6667e6497795e15f7c265cde08c5054eac8c95a0",
+        "after_sha256": "9f73bd35923f3048788a88ce8c9f8797abe0413e0379eadd1c002836a059a3c4",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-031-saiyan-abduction.webp",
+          "before_sha256": "61b5c9c72204c655ed09b4f6b43528d1f24212499bcee271432c15625a05573a",
+          "after_sha256": "a7091aac45fb775ebe70ec70314cc869812a5b771c8b77ff3e6d399c4fe3aa80",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8242,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-031-saiyan-abduction.webp",
+          "before_sha256": "e07ffb1555a4442a726e9c3c53880e9248703445691103f68a83766441dbd6ab",
+          "after_sha256": "6218b4ae474fcfb645b74e19b4b7046ab960b3391d8a53b47080ad7c58f7a331",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-032-saiyan-defensive-sphere",
+      "set": "World Games Saga",
+      "type": "Physical Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-032-saiyan-defensive-sphere.svg",
+        "before_sha256": "8ca51d8a7901159e40f1a3acfc698c0a0730fc53e556984f53019bf36cfc3fd5",
+        "after_sha256": "b872296d15aa4b4c19cec8f0c1328691e62aa7d0c1f200c717b20e51f3cad313",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-032-saiyan-defensive-sphere.webp",
+          "before_sha256": "b0d00da69a29218f6aabde21e432cfc8fca6fb75888112f095c141cbc480f3c6",
+          "after_sha256": "2566cf2242752db80f3017fd5b570d399460cf0fe14c5c16d45e6830f4c185e1",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8237,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-032-saiyan-defensive-sphere.webp",
+          "before_sha256": "dc74a2837351944e9b7cc45fcbc3065fd39d0591338a9c29909d6046756580c5",
+          "after_sha256": "637d2e5223629a7377b719bfa157f46c52e0746853018c41451879e7a342b269",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-033-saiyan-energy-ball",
+      "set": "World Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-033-saiyan-energy-ball.svg",
+        "before_sha256": "381ea33bb9f1fe4ade7439ca5231cf6cfdbf6dc6b0178998c22602eee80fc580",
+        "after_sha256": "754ca95ff7cfd267c6512c25e1d149c1b055d2fcb346510d2de942798a9e1180",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-033-saiyan-energy-ball.webp",
+          "before_sha256": "3495460ca36a954c8577fbf0b5ec90d5bc67578a74a1e722a11e242f787e9e84",
+          "after_sha256": "d285d89d3ff1ba446d67b22f91a6a7080a09470f6e0920b12b7316720e8f5282",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-033-saiyan-energy-ball.webp",
+          "before_sha256": "7219831e041b75b64988d0646cadb31059c25cca696bd5c8186b824f70f23616",
+          "after_sha256": "93c894654eecb73717d4a2432bf974a983959ba600a7e703ac4b6a984f1b112a",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    },
+    {
+      "id": "world-games-034-saiyan-readied-attack",
+      "set": "World Games Saga",
+      "type": "Energy Combat",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-034-saiyan-readied-attack.svg",
+        "before_sha256": "e47e37859f1c028e02098daa7a3bd813d53383ef988608e8ce61e558e5b1ca52",
+        "after_sha256": "37b7ed80e4c6d3e660c5cef9f96b4706d181cfed705a42edbe0e9ca2f11d1e06",
+        "reversible_edits": [
+          {
+            "id": "saiyan-style-symbol",
+            "before": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+            "after": "<ns0:g id=\"saiyan-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#30b477\" stroke-width=\"6.73076922875\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-034-saiyan-readied-attack.webp",
+          "before_sha256": "edf0bc31f06af044b1fe73cabb1fffcde14fabde88e4f5cc1c95d4e200151492",
+          "after_sha256": "32fc708382eb809a510de898f2768ac1880a52a38c2297006e679c3b102cd0f9",
+          "size": [
+            1060,
+            1484
+          ],
+          "changed_pixels": 8235,
+          "changed_bounds": [
+            29,
+            841,
+            171,
+            976
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-034-saiyan-readied-attack.webp",
+          "before_sha256": "286b6679ed73b3fd3e88415359ab5af61a2849a7715a32970461670857b70c0f",
+          "after_sha256": "638a404cb2a126a2887d1df7bb109e857a83f25cad219d0ce3a7f9097a1e7be2",
+          "size": [
+            2120,
+            2968
+          ],
+          "changed_pixels": 7733,
+          "changed_bounds": [
+            63,
+            1687,
+            337,
+            1947
+          ],
+          "pixels_changed_outside_symbol_delta": 0,
+          "old_native_max_channel_error": 0,
+          "old_native_p99_channel_error": 0.0,
+          "lossless_round_trip": true
+        }
+      ],
+      "helper_idempotent": true
+    }
+  ]
+}

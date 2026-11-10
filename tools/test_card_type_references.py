@@ -70,18 +70,33 @@ class CardTypeReferences(unittest.TestCase):
         image_reviews = {item['id']: item['image'] for item in audit['missing_rules_image_reviewed']}
         title_release = ROOT / 'tools/card-corrections/v3-title-footer-width/release.json'
         title_revisions = {row['id']: row for row in json.loads(title_release.read_text())['cards']} if title_release.exists() else {}
+        stroke_release = ROOT / 'tools/card-corrections/v3-saiyan-stroke-weight/release.json'
+        stroke_revisions = {row['id']: row for row in json.loads(stroke_release.read_text())['cards']} if stroke_release.exists() else {}
         for card in cards:
             with self.subTest(card=card['id']):
                 self.assertFalse(inspect_json({'type': card['type']}))
                 if not card.get('rules'):
                     reviewed_image = card['image']
+                    image_path = reviewed_image.split('?', 1)[0].removeprefix('/')
+                    current_hash = hashlib.sha256((ROOT / 'public' / image_path).read_bytes()).hexdigest()
+                    if card['id'] in stroke_revisions:
+                        revision = stroke_revisions[card['id']]
+                        export = next(e for e in revision['exports'] if e['field'] == 'image')
+                        self.assertEqual(card['style'], 'Saiyan')
+                        self.assertEqual(export['pixels_changed_outside_symbol_delta'], 0)
+                        self.assertLessEqual(export['changed_bounds'][3], 985,
+                            'Symbol revision must not reach the reviewed rules lettering.')
+                        self.assertEqual(current_hash, export['after_sha256'])
+                        self.assertEqual(reviewed_image, export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
+                        current_hash = export['before_sha256']
+                        reviewed_image = export['path'].removeprefix('public') + '?v=' + export['before_sha256'][:12]
                     if card['id'] in title_revisions:
                         revision = title_revisions[card['id']]
                         export = next(e for e in revision['exports'] if e['field'] == 'image')
                         self.assertEqual(export['pixels_changed_below_header'], 0, 'Title revision must preserve the reviewed rules pixels.')
                         self.assertEqual(export['pixels_changed_outside_native_header_delta'], 0)
-                        self.assertEqual(hashlib.sha256((ROOT / export['path']).read_bytes()).hexdigest(), export['after_sha256'])
-                        self.assertEqual(card['image'], export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
+                        self.assertEqual(current_hash, export['after_sha256'])
+                        self.assertEqual(reviewed_image, export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
                         reviewed_image = export['path'].removeprefix('public') + '?v=' + export['before_sha256'][:12]
                     self.assertEqual(reviewed_image, image_reviews.get(card['id']),
                         'Add current rules to the catalog or record an image wording review.')

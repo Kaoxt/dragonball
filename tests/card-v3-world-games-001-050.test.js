@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
+import {catalog as beforeStrokeCatalog,beforeSaiyanStrokeHash} from './helpers/saiyan-stroke-history.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -24,9 +25,9 @@ test('World Games publishes cards 1–50 and preserves the initial 49-card relea
  assert.deepEqual(release.pending.map(c=>c.number),[34]);
  assert.deepEqual(completion.numbers,[34]);assert.deepEqual(completion.pending,[]);
  assert.equal(completion.completed_card_count,50);
- const beforeCompletion=catalog.filter(c=>c.id!==completedCard.id);
+ const beforeCompletion=beforeStrokeCatalog.filter(c=>c.id!==completedCard.id);
  assert.equal(digest(Buffer.from('export const catalog = '+JSON.stringify(beforeCompletion,null,2)+';\n')),completion.baseline_catalog_sha256);
- const prior=catalog.filter(c=>c.set!=='World Games Saga');
+ const prior=beforeStrokeCatalog.filter(c=>c.set!=='World Games Saga');
  assert.deepEqual(prior.map(c=>c.id),read('baseline-card-ids.json'));
  assert.equal(digest(Buffer.from('export const catalog = '+JSON.stringify(prior,null,2)+';\n')),release.baseline_catalog_sha256);
  assert.equal(cardFromPath('/cards/world-games-saga/034',catalog)?.id,completedCard.id);
@@ -43,11 +44,11 @@ test('card 34 uses the approved native source and both reviewed lossless exports
  const card=cards.find(c=>c.id===completedCard.id);assert.ok(card);
  assert.equal(card.number,'34');assert.equal(card.name,'Saiyan Readied Attack');
  const entries=[{path:completedCard.native_source_path,sha256:completedCard.native_source_sha256},...completedCard.assets];
- for(const entry of entries) assert.equal(digest(fs.readFileSync(entry.path)),entry.sha256,entry.path);
+ for(const entry of entries) assert.equal(beforeSaiyanStrokeHash(entry.path),entry.sha256,entry.path);
  assert.equal(digest(fs.readFileSync(completedCard.artwork.source)),completedCard.artwork.source_sha256);
  for(const e of completedCard.exports){
-  const bytes=fs.readFileSync(e.path);assert.equal(digest(bytes),e.after_sha256,e.path);
-  assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+  const bytes=fs.readFileSync(e.path);assert.equal(beforeSaiyanStrokeHash(e.path),e.after_sha256,e.path);
+  assert.equal(beforeStrokeCatalog.find(c=>c.id===card.id)[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
   const scale=e.field==='image'?1:2;assert.deepEqual(e.size,[1060*scale,1484*scale]);
  }
@@ -59,14 +60,14 @@ test('every World Games native source, dependency and both exports match the sav
   const card=cards.find(c=>c.id===row.id);assert.ok(card);
   const entries=[{path:row.native_source_path,sha256:row.native_source_sha256},...row.assets];
   for(const entry of entries){
-   assert.equal(digest(fs.readFileSync(entry.path)),entry.sha256,entry.path);
+   assert.equal(beforeSaiyanStrokeHash(entry.path),entry.sha256,entry.path);
    assert.equal(manifest[entry.path].sha256,entry.sha256);
   }
   for(const e of row.exports){
    const bytes=fs.readFileSync(e.path);
-   assert.equal(digest(bytes),e.after_sha256,e.path);
+   assert.equal(beforeSaiyanStrokeHash(e.path),e.after_sha256,e.path);
    assert.equal(manifest[e.path].sha256,e.after_sha256);
-   assert.equal(card[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
+   assert.equal(beforeStrokeCatalog.find(c=>c.id===card.id)[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
    const scale=e.field==='image'?1:2;
    assert.deepEqual(e.size,[card.width*scale,card.height*scale]);
