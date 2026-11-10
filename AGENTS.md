@@ -1,3 +1,18 @@
+## Freestyle Tokui Waza stroke weight — November 10, 2026
+
+All 374 published white 白 symbols retain their native paths, transforms,
+placement, outer black silhouette and smoky backing. Only `freestyle-glyph`
+adds `stroke="#080b0d" stroke-width="0.8" stroke-linejoin="round"`, insetting
+white edges by 0.4 glyph units. Typical white weight is now about 9.78 native
+pixels, matching Red's approximate 9.8. Use corrected Saiyan #24 as the donor,
+or apply `tools/card-templates/v3/scripts/freestyle_symbol_weight.py` after
+style selection. Do not restore the heavier historical donor. Personalities,
+Dragon Balls and landscape cards do not use this symbol and stay unchanged.
+Evidence and reversible edits are in `tools/card-corrections/v3-freestyle-stroke-weight/`.
+Retain earlier audits unchanged and follow the revision chain. Preserve all
+non-symbol pixels in both lossless exports and keep Ultra Rare custom masks
+pinned to the current image revision after verified symbol-only changes.
+
 ## Namekian Tokui Waza stroke weight — November 10, 2026
 
 All 65 current Namekian cards retain the same 瑪 paths, teal #21aaa5, rounded

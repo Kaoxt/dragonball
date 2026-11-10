@@ -72,6 +72,8 @@ class CardTypeReferences(unittest.TestCase):
         title_revisions = {row['id']: row for row in json.loads(title_release.read_text())['cards']} if title_release.exists() else {}
         stroke_release = ROOT / 'tools/card-corrections/v3-saiyan-stroke-weight/release.json'
         stroke_revisions = {row['id']: row for row in json.loads(stroke_release.read_text())['cards']} if stroke_release.exists() else {}
+        freestyle_release = ROOT / 'tools/card-corrections/v3-freestyle-stroke-weight/release.json'
+        freestyle_revisions = {row['id']: row for row in json.loads(freestyle_release.read_text())['cards']} if freestyle_release.exists() else {}
         for card in cards:
             with self.subTest(card=card['id']):
                 self.assertFalse(inspect_json({'type': card['type']}))
@@ -79,6 +81,16 @@ class CardTypeReferences(unittest.TestCase):
                     reviewed_image = card['image']
                     image_path = reviewed_image.split('?', 1)[0].removeprefix('/')
                     current_hash = hashlib.sha256((ROOT / 'public' / image_path).read_bytes()).hexdigest()
+                    if card['id'] in freestyle_revisions:
+                        revision = freestyle_revisions[card['id']]
+                        export = next(e for e in revision['exports'] if e['field'] == 'image')
+                        self.assertEqual(card['style'], 'Freestyle')
+                        self.assertEqual(export['pixels_changed_outside_symbol_delta'], 0)
+                        self.assertLessEqual(export['changed_bounds'][3], 985)
+                        self.assertEqual(current_hash, export['after_sha256'])
+                        self.assertEqual(reviewed_image, export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
+                        current_hash = export['before_sha256']
+                        reviewed_image = export['path'].removeprefix('public') + '?v=' + export['before_sha256'][:12]
                     if card['id'] in stroke_revisions:
                         revision = stroke_revisions[card['id']]
                         export = next(e for e in revision['exports'] if e['field'] == 'image')
