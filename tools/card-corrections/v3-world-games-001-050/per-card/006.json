@@ -1,0 +1,215 @@
+{
+  "number": 6,
+  "id": "world-games-006-black-reversal-strike",
+  "name": "Black Reversal Strike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-006-black-reversal-strike.svg",
+  "native_source_sha256": "b96b74c76055c8d22e7dbd70e1691d1a99392b15cd198ea9d4966f856dee9995",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1ed6d08b017beeeccd34918a7becd8f33d9fd7292bbbc94b5680dd8e15d38d99.png",
+      "sha256": "1ed6d08b017beeeccd34918a7becd8f33d9fd7292bbbc94b5680dd8e15d38d99"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/1ed6d08b017beeeccd34918a7becd8f33d9fd7292bbbc94b5680dd8e15d38d99.png",
+    "source_sha256": "1ed6d08b017beeeccd34918a7becd8f33d9fd7292bbbc94b5680dd8e15d38d99",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 1. Physical attack.",
+      "baseline": 1049.3,
+      "width": 594.5211555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +5 stages.",
+      "baseline": 1108.3,
+      "width": 404.54400000000004,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 646.163,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        209.321,
+        50.2213,
+        640.358,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        807.386,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.186,
+        1392.65,
+        19.928,
+        33.708
+      ],
+      "rules-line-1": [
+        234.101,
+        1013.53,
+        590.797,
+        45.521
+      ],
+      "power-icon": [
+        488.112,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        329.09,
+        1073.61,
+        400.82,
+        44.835
+      ],
+      "rules-line-3": [
+        208.281,
+        1133.0,
+        642.439,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          488.112,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          542.659,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          488.112,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-006-black-reversal-strike.webp",
+      "after_sha256": "e7c21f45ecc1209f480f64b2cff0af386377b789db67a1e1484a55fea0be66b0",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-006-black-reversal-strike.webp",
+      "after_sha256": "feabe9857050202b5f0f30e98cf08f15d6afe27a68d6b816827b3aed095de542",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.3578553615961,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

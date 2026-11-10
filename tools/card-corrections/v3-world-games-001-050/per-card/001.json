@@ -1,0 +1,235 @@
+{
+  "number": 1,
+  "id": "world-games-001-black-back-power-hit",
+  "name": "Black Back Power Hit",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-001-black-back-power-hit.svg",
+  "native_source_sha256": "692dc45baa2024f3de69c1d7ccf7d8ac3ab39c23bb6f04d023fe3c1d39592ab3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/813af01c48b1b111b0c1b38688c2f8cceeb09afd86526415881b8426544a5775.png",
+      "sha256": "813af01c48b1b111b0c1b38688c2f8cceeb09afd86526415881b8426544a5775"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/813af01c48b1b111b0c1b38688c2f8cceeb09afd86526415881b8426544a5775.png",
+    "source_sha256": "813af01c48b1b111b0c1b38688c2f8cceeb09afd86526415881b8426544a5775",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Or stops a focused energy attack.",
+      "baseline": 1108.3,
+      "width": 600.2010000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Banish after use.",
+      "baseline": 1167.3,
+      "width": 301.54600000000005,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        208.762,
+        50.2213,
+        641.476,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        811.361,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        871.161,
+        1392.65,
+        11.978,
+        33.708
+      ],
+      "rules-line-1": [
+        208.555,
+        1013.53,
+        696.437,
+        45.913
+      ],
+      "power-icon": [
+        154.008,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        231.016,
+        1073.61,
+        596.967,
+        44.835
+      ],
+      "rules-line-3": [
+        380.589,
+        1131.53,
+        297.822,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          154.008,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.555,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          154.008,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-001-black-back-power-hit.webp",
+      "after_sha256": "21c1ec93421bdbec9020ed7e2d336ad80ce725c2794298183e56207c3cec5f79",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-001-black-back-power-hit.webp",
+      "after_sha256": "035c58f469eeff7f8a9aa7d0d904497e62e6db0452d7d3deb40be22654cce8c2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 641.4763092269328,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1,
+  "reference_review": {
+    "original_scan": "tools/card-corrections/v3-world-games-001-050/originals/001.jpg",
+    "sha256": "7afd30271efeb664167348333c96a3d397179ef416bc0d880f997fb1fb764483",
+    "url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/pwmsqt96168s0os4?size=full",
+    "printed_name_number_rarity_and_rules_reviewed": true,
+    "card_specific_crd_entry_found": false,
+    "artwork_visual_review": "Original and final inspected for character count, costume, major pose, expression and scene. New illustration, not a pixel-identical trace.",
+    "reviewed_at": "2026-11-08"
+  },
+  "validation": {
+    "native_text_and_fixed_component_checks": "passed",
+    "visible_emblem_center_xy": [
+      211.75,
+      1409.5
+    ],
+    "wider_title_bar_idempotent": true,
+    "lossless_preview_and_download_pixel_comparison": "passed",
+    "visual_review_at_card_size": "passed",
+    "publication": "not published"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "number": 31,
+  "id": "world-games-031-saiyan-abduction",
+  "name": "Saiyan Abduction",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-031-saiyan-abduction.svg",
+  "native_source_sha256": "ac1eff261ec5c05ef4f4ab9a6667e6497795e15f7c265cde08c5054eac8c95a0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ca9316a5405674a33d32ed296193b84f561dd83918114194f86fcb4b19e31b32.png",
+      "sha256": "ca9316a5405674a33d32ed296193b84f561dd83918114194f86fcb4b19e31b32"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/031.png",
+    "source_sha256": "ca9316a5405674a33d32ed296193b84f561dd83918114194f86fcb4b19e31b32",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 2. POWER: Discard an",
+      "baseline": 1049.3,
+      "width": 597.653,
+      "icon_inline": false
+    },
+    {
+      "text": "Ally in play. If Goten or Kid Trunks",
+      "baseline": 1108.3,
+      "width": 598.6330000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "is in play, discard 2 Allies instead.",
+      "baseline": 1167.3,
+      "width": 601.8670000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        268.255,
+        44.5,
+        522.49,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        800.125,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.925,
+        1392.65,
+        34.45,
+        33.708
+      ],
+      "rules-line-1": [
+        232.585,
+        1013.53,
+        593.831,
+        36.162
+      ],
+      "rules-line-2": [
+        230.929,
+        1072.53,
+        597.142,
+        45.521
+      ],
+      "rules-line-3": [
+        230.085,
+        1131.53,
+        598.829,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-031-saiyan-abduction.webp",
+      "after_sha256": "61b5c9c72204c655ed09b4f6b43528d1f24212499bcee271432c15625a05573a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-031-saiyan-abduction.webp",
+      "after_sha256": "e07ffb1555a4442a726e9c3c53880e9248703445691103f68a83766441dbd6ab",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 522.4900249376559,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

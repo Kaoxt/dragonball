@@ -1,0 +1,179 @@
+{
+  "number": 7,
+  "id": "world-games-007-blue-defensive-stance",
+  "name": "Blue Defensive Stance",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-007-blue-defensive-stance.svg",
+  "native_source_sha256": "b8f41d5eda486fd0595348dda8232a2cfa7e789cf2f250efe20a4acf6cc352f8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/33860cb92500eb1734d8af8dff34cc8c2d63cf29ec2b7bd10cf256037b424eb2.png",
+      "sha256": "33860cb92500eb1734d8af8dff34cc8c2d63cf29ec2b7bd10cf256037b424eb2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/33860cb92500eb1734d8af8dff34cc8c2d63cf29ec2b7bd10cf256037b424eb2.png",
+    "source_sha256": "33860cb92500eb1734d8af8dff34cc8c2d63cf29ec2b7bd10cf256037b424eb2",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Prevent 5 stages of damage",
+      "baseline": 1049.3,
+      "width": 644.4480000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from a physical attack. Discard an",
+      "baseline": 1108.3,
+      "width": 610.1480000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Ally in play. Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 641.1650000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        193.964,
+        50.2213,
+        671.072,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        807.863,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.663,
+        1392.65,
+        18.974,
+        33.708
+      ],
+      "rules-line-1": [
+        208.991,
+        1014.61,
+        641.018,
+        44.835
+      ],
+      "rules-line-2": [
+        225.7,
+        1072.53,
+        607.6,
+        45.521
+      ],
+      "rules-line-3": [
+        210.031,
+        1131.53,
+        638.939,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-007-blue-defensive-stance.webp",
+      "after_sha256": "fe5a21c379e482ae1e0756ad0f905c647018ea14cf34b42b49cfc9777d88100a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-007-blue-defensive-stance.webp",
+      "after_sha256": "b8fc2d491b0406bdffc2ff4807f0fdac79fcfdf1e6986947c1f90fa0cc084a46",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 671.0723192019951,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 1
+}

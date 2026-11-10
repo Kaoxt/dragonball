@@ -1,0 +1,235 @@
+{
+  "number": 2,
+  "id": "world-games-002-black-defensive-stance",
+  "name": "Black Defensive Stance",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-002-black-defensive-stance.svg",
+  "native_source_sha256": "fb0c8d071f253907c0345ad74c2d968a6720ab92b42290028e5ed5ffe4190157",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dc48bf2f821aece6d689c7dce68b5e401e6b76c035a0621d1c3d0a8594cb4673.png",
+      "sha256": "dc48bf2f821aece6d689c7dce68b5e401e6b76c035a0621d1c3d0a8594cb4673"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/dc48bf2f821aece6d689c7dce68b5e401e6b76c035a0621d1c3d0a8594cb4673.png",
+    "source_sha256": "dc48bf2f821aece6d689c7dce68b5e401e6b76c035a0621d1c3d0a8594cb4673",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops a physical or energy attack.",
+      "baseline": 1049.3,
+      "width": 655.694947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "If you did not declare a Tokui Waza, your next",
+      "baseline": 1108.3,
+      "width": 810.656,
+      "icon_inline": false
+    },
+    {
+      "text": "attack this Combat deals +2 stages of damage.",
+      "baseline": 1167.3,
+      "width": 833.1469999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        176.37,
+        50.2213,
+        706.261,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        807.704,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.504,
+        1392.65,
+        19.292,
+        33.708
+      ],
+      "rules-line-1": [
+        253.128,
+        1013.53,
+        603.435,
+        45.913
+      ],
+      "power-icon": [
+        202.437,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        125.716,
+        1072.53,
+        807.569,
+        45.521
+      ],
+      "rules-line-3": [
+        114.274,
+        1131.53,
+        830.452,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          202.437,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          253.128,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          202.437,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-002-black-defensive-stance.webp",
+      "after_sha256": "c38f7c0a1913d071b6346f0c17bc151129486e5af05367c18261718cb67cfe6d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-002-black-defensive-stance.webp",
+      "after_sha256": "aa1fa973d413f5b366eddd2216f75fac2436d066fc6210fd484d70011b0fd1dd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 706.2605985037408,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1,
+  "reference_review": {
+    "original_scan": "tools/card-corrections/v3-world-games-001-050/originals/002.jpg",
+    "sha256": "6fc02f8e8ef6ad475892ee1974b66e214eacd4c95f972721696139fa5b39d98d",
+    "url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/iglbze8gzk0004gk?size=full",
+    "printed_name_number_rarity_and_rules_reviewed": true,
+    "card_specific_crd_entry_found": false,
+    "artwork_visual_review": "Original and final inspected for character count, costume, major pose, expression and scene. New illustration, not a pixel-identical trace.",
+    "reviewed_at": "2026-11-08"
+  },
+  "validation": {
+    "native_text_and_fixed_component_checks": "passed",
+    "visible_emblem_center_xy": [
+      211.75,
+      1409.5
+    ],
+    "wider_title_bar_idempotent": true,
+    "lossless_preview_and_download_pixel_comparison": "passed",
+    "visual_review_at_card_size": "passed",
+    "publication": "not published"
+  }
+}

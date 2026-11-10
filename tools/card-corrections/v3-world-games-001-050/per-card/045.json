@@ -1,0 +1,239 @@
+{
+  "number": 45,
+  "id": "world-games-045-black-point-blank-kamehameha",
+  "name": "Black Point Blank Kamehameha",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-045-black-point-blank-kamehameha.svg",
+  "native_source_sha256": "6861d13ff2c0168320169bc4647ed109a4a65e517c8c0d65ae3d0c460ced640d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/916d291c59b61d4f2b4bc367dc7ae6cfd98f35819bfe4e3a253a94b4a9016793.png",
+      "sha256": "916d291c59b61d4f2b4bc367dc7ae6cfd98f35819bfe4e3a253a94b4a9016793"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/045.png",
+    "source_sha256": "916d291c59b61d4f2b4bc367dc7ae6cfd98f35819bfe4e3a253a94b4a9016793",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 851.5261555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. If you declared",
+      "baseline": 1108.3,
+      "width": 650.1320000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "a Tokui Waza and your opponent",
+      "baseline": 1167.3,
+      "width": 578.2,
+      "icon_inline": false
+    },
+    {
+      "text": "declared an Orange Tokui Waza, this",
+      "baseline": 1226.3,
+      "width": 646.5060000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attack also deals 3 stages of damage.",
+      "baseline": 1285.3,
+      "width": 673.26,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        56.0642,
+        760.0,
+        45.8715
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        794.64,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.439,
+        1392.65,
+        45.421,
+        33.708
+      ],
+      "rules-line-1": [
+        105.182,
+        1013.53,
+        848.635,
+        45.913
+      ],
+      "power-icon": [
+        341.847,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        206.443,
+        1072.53,
+        646.114,
+        45.521
+      ],
+      "rules-line-3": [
+        241.429,
+        1131.53,
+        576.142,
+        45.521
+      ],
+      "rules-line-4": [
+        207.423,
+        1190.53,
+        644.154,
+        45.913
+      ],
+      "rules-line-5": [
+        194.218,
+        1250.85,
+        670.565,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          341.847,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          396.443,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          341.847,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-045-black-point-blank-kamehameha.webp",
+      "after_sha256": "f780b96675db92913615d87050a2aa148a5cb512c7e260bff88a81d5c88622ac",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-045-black-point-blank-kamehameha.webp",
+      "after_sha256": "dd4a3b6715e68376c2c95aafb2b9c1dc816c797acd51d127b137c9aad788a292",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 68.56730422230241,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 45.87152652472031,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.7969706954534279
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

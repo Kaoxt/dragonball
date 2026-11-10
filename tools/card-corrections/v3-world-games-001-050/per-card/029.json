@@ -1,0 +1,215 @@
+{
+  "number": 29,
+  "id": "world-games-029-red-goku-s-energy-blast",
+  "name": "Red Goku's Energy Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-029-red-goku-s-energy-blast.svg",
+  "native_source_sha256": "c55aee67fcc36d2c10a0446790c4be4eb8431afdf20e4380bf67795ed81f7a6c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/395bd63aaf836794d00fcd5cd4b3213f80f1812947d402b6183c48e4871bf546.png",
+      "sha256": "395bd63aaf836794d00fcd5cd4b3213f80f1812947d402b6183c48e4871bf546"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/029.png",
+    "source_sha256": "395bd63aaf836794d00fcd5cd4b3213f80f1812947d402b6183c48e4871bf546",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 1. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 869.7051555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. Lower your opponent's",
+      "baseline": 1108.3,
+      "width": 791.7420000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "anger 1 level. If used by Goku, gain 2 stages.",
+      "baseline": 1167.3,
+      "width": 780.6189999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        167.121,
+        44.5,
+        724.758,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        96.5094,
+        1013.53,
+        865.981,
+        45.913
+      ],
+      "power-icon": [
+        350.52,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        135.123,
+        1072.53,
+        788.753,
+        45.521
+      ],
+      "rules-line-3": [
+        140.538,
+        1131.53,
+        777.924,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          350.52,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          405.116,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          350.52,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-029-red-goku-s-energy-blast.webp",
+      "after_sha256": "0730e6bfd6c24d4b4a344327dc046d932dca88320445623e802876eab2f2aa7e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-029-red-goku-s-energy-blast.webp",
+      "after_sha256": "bcd596da7819a9c6ce8d4e55dc061f1021c17c4db94528c2ff0ff84ce3bef665",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 724.7581047381548,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

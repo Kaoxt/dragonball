@@ -1,0 +1,215 @@
+{
+  "number": 26,
+  "id": "world-games-026-red-creative-block",
+  "name": "Red Creative Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-026-red-creative-block.svg",
+  "native_source_sha256": "87c6b8039366037331e69d66e0f12986360b161189b7add0a180d11e0079586a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e2fdc34a073b02b4652e9e49c7e3be5d840045a3e1939d2bea6d8b7b6b245927.png",
+      "sha256": "e2fdc34a073b02b4652e9e49c7e3be5d840045a3e1939d2bea6d8b7b6b245927"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/026.png",
+    "source_sha256": "e2fdc34a073b02b4652e9e49c7e3be5d840045a3e1939d2bea6d8b7b6b245927",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared",
+      "baseline": 1049.3,
+      "width": 750.8529473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "a Tokui Waza, your next energy attack this",
+      "baseline": 1108.3,
+      "width": 760.3820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat costs 2 fewer stages, to a minimum of 0.",
+      "baseline": 1167.3,
+      "width": 867.3,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        246.961,
+        50.2213,
+        565.077,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        205.696,
+        1013.53,
+        698.299,
+        45.521
+      ],
+      "power-icon": [
+        155.005,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        150.289,
+        1072.53,
+        758.422,
+        45.913
+      ],
+      "rules-line-3": [
+        97.467,
+        1131.53,
+        864.066,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          205.696,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-026-red-creative-block.webp",
+      "after_sha256": "109e13db0e10a39698c74861238df864bdfe2cd2cb3c710fec1a9fe9e16ecbce",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-026-red-creative-block.webp",
+      "after_sha256": "7bc49ea80322ac205d8fd792e2b33fb99acc59ef6a1fe2d45ca9a50985b6706b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 565.0773067331671,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1
+}

@@ -1,0 +1,178 @@
+{
+  "number": 38,
+  "id": "world-games-038-the-middle-of-nowhere",
+  "name": "The Middle of Nowhere",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-038-the-middle-of-nowhere.svg",
+  "native_source_sha256": "2500f110f66cc3df320fd8ada8951f1724f769762cbf903a6c9123579f23df22",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0439a8dafa32e4b0e1b8716f6e9c719e654dc82de914a4bb41f0345d8651e2e.png",
+      "sha256": "c0439a8dafa32e4b0e1b8716f6e9c719e654dc82de914a4bb41f0345d8651e2e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/038.png",
+    "source_sha256": "c0439a8dafa32e4b0e1b8716f6e9c719e654dc82de914a4bb41f0345d8651e2e",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      16,
+      145.0,
+      1451,
+      483.6666666666667
+    ]
+  },
+  "rules": [
+    {
+      "text": "All attacks with 'Majin' in the title deal +3 stages of damage.",
+      "baseline": 845.483333333333,
+      "width": 1126.0517499999999,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        398.264,
+        50.2213,
+        686.473,
+        57.5574
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        250.12,
+        954.354,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        1134.77,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1194.57,
+        968.646,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        245.51,
+        809.713,
+        1058.23,
+        45.913
+      ],
+      "power-icon": [
+        179.258,
+        816.543,
+        53.5938,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          179.258,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          245.51,
+          811.183,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          179.258,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-038-the-middle-of-nowhere.webp",
+      "after_sha256": "47017d2cd93a105bffda45d3da7cd2d96132c5b694eca960179be4ac6770139f",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-038-the-middle-of-nowhere.webp",
+      "after_sha256": "71b082825fc845174133fe927c4c7d625fcc8e5e7b1b35c92c92604b79f3f035",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 1
+}

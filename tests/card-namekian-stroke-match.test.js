@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/pre-world-games-catalog.js';
 import {namekianStrokeRelease as release,beforeNamekianStrokeFile,beforeNamekianStrokeHash} from './helpers/namekian-stroke-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 

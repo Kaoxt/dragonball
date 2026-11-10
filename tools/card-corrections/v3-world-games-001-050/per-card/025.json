@@ -1,0 +1,215 @@
+{
+  "number": 25,
+  "id": "world-games-025-orange-palm-block",
+  "name": "Orange Palm Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-025-orange-palm-block.svg",
+  "native_source_sha256": "a8e6d1ea1dd89d205d07f4726a8e2fd6108f474e003eda317944601093b96e21",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cfdc241af1fc8c89292f45c753c7cfdb1bd879fceacfa252f3cd8e09b0c9db78.png",
+      "sha256": "cfdc241af1fc8c89292f45c753c7cfdb1bd879fceacfa252f3cd8e09b0c9db78"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/025.png",
+    "source_sha256": "cfdc241af1fc8c89292f45c753c7cfdb1bd879fceacfa252f3cd8e09b0c9db78",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 475.7179473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Your next physical attack this",
+      "baseline": 1108.3,
+      "width": 532.336,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat deals +1 stage of damage.",
+      "baseline": 1167.3,
+      "width": 603.239,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        246.746,
+        44.5,
+        565.507,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.044,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.844,
+        1392.65,
+        42.612,
+        33.708
+      ],
+      "rules-line-1": [
+        343.117,
+        1013.53,
+        423.458,
+        45.521
+      ],
+      "power-icon": [
+        292.425,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        264.336,
+        1072.53,
+        530.327,
+        45.521
+      ],
+      "rules-line-3": [
+        229.497,
+        1132.61,
+        600.005,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          343.117,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          292.425,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-025-orange-palm-block.webp",
+      "after_sha256": "2c5d9f0601558ce46364f2b1f19b6b7467ca7b6e239bb25e58836f88705e2eb4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-025-orange-palm-block.webp",
+      "after_sha256": "4d66a7ed04024c4b36beb45ec31ee18e94bcace21c3620c07bf77a2e8e2930e4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 565.5074812967582,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1
+}

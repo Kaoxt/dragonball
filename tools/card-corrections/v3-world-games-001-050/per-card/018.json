@@ -1,0 +1,203 @@
+{
+  "number": 18,
+  "id": "world-games-018-namekian-halting-stance",
+  "name": "Namekian Halting Stance",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-018-namekian-halting-stance.svg",
+  "native_source_sha256": "ba423939d3fb051bcc6cfef5f0c09a41e6143ac2996826690b3b91370d77e08f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/011f34965dccd03f15ebf6cd440f91507fc0e78d76c0be18fa5055999c4e0a91.png",
+      "sha256": "011f34965dccd03f15ebf6cd440f91507fc0e78d76c0be18fa5055999c4e0a91"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-001-050/artwork/018.png",
+    "source_sha256": "011f34965dccd03f15ebf6cd440f91507fc0e78d76c0be18fa5055999c4e0a91",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared a",
+      "baseline": 1049.3,
+      "width": 782.5069473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Tokui Waza, shuffle this card into your Life Deck.",
+      "baseline": 1108.3,
+      "width": 871.5630000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        152.237,
+        44.5,
+        754.526,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        799.118,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        858.918,
+        1392.65,
+        36.464,
+        33.708
+      ],
+      "rules-line-1": [
+        189.698,
+        1013.53,
+        730.296,
+        45.521
+      ],
+      "power-icon": [
+        139.006,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        95.0905,
+        1072.53,
+        868.819,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          139.006,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          189.698,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          139.006,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-018-namekian-halting-stance.webp",
+      "after_sha256": "d9a4248fcf7639ff65350d093211a96e848ea250246ba76f435cec8376178f00",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-018-namekian-halting-stance.webp",
+      "after_sha256": "03fe242f3acc672a50a236ddac36463447342fa0510c439bb84f060efa7995bd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 754.5261845386535,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 1
+}

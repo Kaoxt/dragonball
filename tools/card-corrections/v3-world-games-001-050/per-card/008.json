@@ -1,0 +1,227 @@
+{
+  "number": 8,
+  "id": "world-games-008-blue-fire-kick",
+  "name": "Blue Fire Kick",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-001-050/world-games-008-blue-fire-kick.svg",
+  "native_source_sha256": "1ebc4ebfc40ad549ec3510b0d734b68943325518e63e690c0b87df81ccebe7b8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f09787f044d5e01fc698d760c55b9739f6e104214b694bb2fab63cca86efab38.png",
+      "sha256": "f09787f044d5e01fc698d760c55b9739f6e104214b694bb2fab63cca86efab38"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/f09787f044d5e01fc698d760c55b9739f6e104214b694bb2fab63cca86efab38.png",
+    "source_sha256": "f09787f044d5e01fc698d760c55b9739f6e104214b694bb2fab63cca86efab38",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +5 stages.",
+      "baseline": 1049.3,
+      "width": 752.6981555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "If you declared a Tokui Waza and your Main",
+      "baseline": 1108.3,
+      "width": 768.026,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality is Pikkon, you may instead stop",
+      "baseline": 1167.3,
+      "width": 772.8280000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a physical attack. Raise your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 755.139,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        324.178,
+        50.2213,
+        410.645,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        807.333,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        867.133,
+        1392.65,
+        20.034,
+        33.708
+      ],
+      "rules-line-1": [
+        208.481,
+        1013.53,
+        696.584,
+        45.913
+      ],
+      "power-icon": [
+        153.935,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        147.398,
+        1072.53,
+        764.204,
+        45.521
+      ],
+      "rules-line-3": [
+        144.874,
+        1131.53,
+        769.251,
+        45.521
+      ],
+      "rules-line-4": [
+        153.278,
+        1190.53,
+        752.444,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          153.935,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.481,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          153.935,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-008-blue-fire-kick.webp",
+      "after_sha256": "cc9b31242b2fcd8f1f88642998c9c5e8bddc93fd423cbff1769653d5fa5fef76",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-008-blue-fire-kick.webp",
+      "after_sha256": "9fb1b19999c095d390632d56207664100ccf2eb59b2f1faa13623eb9383b986f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 410.6446384039901,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 1
+}

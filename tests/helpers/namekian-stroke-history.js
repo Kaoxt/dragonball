@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog} from './pre-world-games-catalog.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const file=path.join(root,'tools/card-corrections/v3-namekian-stroke-match/release.json');
 export const namekianStrokeRelease=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;
