@@ -1,3 +1,17 @@
+## Saiyan Tokui Waza stroke weight — November 10, 2026
+
+All 70 current Saiyan-style cards use the same retained 緑 paths with only the
+green `#30b477` stroke reduced by 12.5%, from `7.69230769` to `6.73076922875`.
+This matches Red's approximate typical weight at the standard card placement.
+Preserve the dark width-13 outline, transforms, total size, backing and all
+other pixels. The two Mastery placements keep their existing enlargement.
+Use the corrected current Saiyan #18 donor, or apply
+`tools/card-templates/v3/scripts/saiyan_symbol_weight.py` after style selection.
+Do not restore the old Saiyan colored width from the historical shared-style
+instructions below. Other styles remain unchanged. Evidence and reversible
+native edits are in `tools/card-corrections/v3-saiyan-stroke-weight/`; retain
+earlier audits unchanged and follow the explicit revision chain.
+
 ## World Games Saga #34 completion — November 9, 2026
 
 Saiyan Readied Attack now completes cards 001–050 using the user-approved 2060.png artwork and the reviewed display/download exports. See `tools/card-corrections/v3-world-games-034/`. Preserve the earlier 49-card release and archive audits as immutable history; their missing-034 entry is superseded by this separate completion record. The compact deck ID is appended without reordering existing IDs.
