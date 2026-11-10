@@ -140,10 +140,10 @@
  html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
   background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
  }
- /* Match Show more / Show less to the admin upload progress red. */
+ /* Match Show more / Show less to the sidebar link hover red. */
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
-  background:#d74a61;border:1px solid #d74a61;color:#fff;box-shadow:none;
+  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
