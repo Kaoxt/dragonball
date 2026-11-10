@@ -375,10 +375,10 @@
  html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button:hover {background:#ffffff08;color:#fff}
  html[data-site-design=v2] body.arena-table-page .power-readout small {color:#b8c0c6}
 
- /* Rules actions and selected controls retain their approved red treatment. */
+ /* Rules actions, selected card types and chapter navigation match News red. */
  html[data-site-design=v2] body.rulebook-page {
   --rules-panel:#1e2428;--rules-ink:var(--content-copy);--rules-muted:#b8c0c6;
-  --rules-line:#39434b;--manual-red:var(--site-nav-red-fill);--manual-red-hover:var(--site-nav-red-fill);
+  --rules-line:#39434b;--manual-red:var(--site-nav-red,#c14954);--manual-red-hover:var(--site-nav-red,#c14954);
   --manual-red-border:var(--site-nav-red);--accent:#c2c8cd;
  }
  html[data-site-design=v2] body.rulebook-page .manual :is(.manual-hero,.guide-actions,.chapter-nav>.eyebrow,.card-guide-group,.turn-track li,.table-scroll) {border-color:#39434b}
@@ -405,7 +405,7 @@
  html[data-site-design=v2] body.rulebook-page .manual input::placeholder {color:#929da6}
  html[data-site-design=v2] body.rulebook-page .manual select option {background:#151a1e;color:#f5f6fa}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a {border:1px solid transparent}
- html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover {background:var(--site-nav-red-fill);border-color:var(--site-nav-red);color:#f5f6fa}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a:hover {background:var(--manual-red-hover);border-color:var(--manual-red-border);color:#fff}
  html[data-site-design=v2] body.rulebook-page .manual .chapter-links>a[aria-current=location] {
   background:var(--manual-red);border:1px solid var(--manual-red-border);color:#fff;box-shadow:none;
  }
