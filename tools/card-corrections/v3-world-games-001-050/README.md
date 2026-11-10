@@ -1,3 +1,5 @@
+> Completion: card 034 is now included through `../v3-world-games-034/`. The original release below is retained as history; all 49 earlier cards remain unchanged.
+
 # World Games Saga 001–050 publication
 
 Publish the 49 completed cards from the user-supplied World-Games-001-050-Progress.zip. Card 034, Saiyan Readied Attack, remains pending: its original scan is reference only and is not in the catalog or public assets.

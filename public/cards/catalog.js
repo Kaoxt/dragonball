@@ -19027,6 +19027,23 @@ export const catalog = [
     "downloadImage": "/assets/cards/downloads/world-games-033-saiyan-energy-ball.webp?v=7219831e041b"
   },
   {
+    "id": "world-games-034-saiyan-readied-attack",
+    "name": "Saiyan Readied Attack",
+    "number": "34",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "set": "World Games Saga",
+    "status": "Ready",
+    "width": 1060,
+    "height": 1484,
+    "source": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/boo7hb9uahw0w8gg?size=full",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Prevent 3 life cards of damage from the next attack performed against you this Combat.",
+    "rarity": "Common",
+    "templateVersion": 3,
+    "image": "/assets/cards/world-games-034-saiyan-readied-attack.webp?v=edf0bc31f06a",
+    "downloadImage": "/assets/cards/downloads/world-games-034-saiyan-readied-attack.webp?v=286b6679ed73"
+  },
+  {
     "id": "world-games-035-straining-cry-baby-move",
     "name": "Straining Cry Baby Move",
     "number": "35",

@@ -1,3 +1,7 @@
+## World Games Saga #34 completion — November 9, 2026
+
+Saiyan Readied Attack now completes cards 001–050 using the user-approved 2060.png artwork and the reviewed display/download exports. See `tools/card-corrections/v3-world-games-034/`. Preserve the earlier 49-card release and archive audits as immutable history; their missing-034 entry is superseded by this separate completion record. The compact deck ID is appended without reordering existing IDs.
+
 ## World Games Saga 001–050 publication — November 9, 2026
 
 49 completed cards are published from the retained progress archive, with native sources in `tools/card-templates/v3/world-games-001-050/` and evidence in `tools/card-corrections/v3-world-games-001-050/`. Card 034 (Saiyan Readied Attack) remains unpublished because only its original reference scan is available. Preserve all 98 completed export bytes, native sources, prior audits and the explicit gap. Card 038 is landscape. See `release.json` and `README.md`; differing archive-only shared dependencies are retained separately and must not overwrite existing templates.
