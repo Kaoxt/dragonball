@@ -1,0 +1,313 @@
+{
+  "number": 130,
+  "id": "world-games-130-gohan-the-energized",
+  "name": "Gohan, the Energized",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-130-gohan-the-energized.svg",
+  "native_source_sha256": "af3e7cf62dcb3cd1aa640ec0547db0d59bcca3cfa04dd01971185a465f630918",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/85146dd8ea27e3983be26658fb5009304bd10b7c771a36cf65490bdfac68c80f.png",
+      "sha256": "85146dd8ea27e3983be26658fb5009304bd10b7c771a36cf65490bdfac68c80f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/130.png",
+    "source_sha256": "85146dd8ea27e3983be26658fb5009304bd10b7c771a36cf65490bdfac68c80f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.12079207920794,
+      1033,
+      707.7584158415841
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing X stages.",
+      "baseline": 1049.3,
+      "width": 642.1051555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +X stages. Choose",
+      "baseline": 1108.3,
+      "width": 545.615,
+      "icon_inline": false
+    },
+    {
+      "text": "X when you perform this attack.",
+      "baseline": 1167.3,
+      "width": 569.6740000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        882.026,
+        157.656,
+        148.974,
+        32.802
+      ],
+      "power-stage-value-1": [
+        884.168,
+        212.387,
+        146.832,
+        32.802
+      ],
+      "power-stage-value-2": [
+        885.89,
+        267.118,
+        145.11,
+        32.802
+      ],
+      "power-stage-value-3": [
+        886.184,
+        321.849,
+        144.816,
+        32.802
+      ],
+      "power-stage-value-4": [
+        881.942,
+        376.579,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-5": [
+        884.672,
+        431.31,
+        146.328,
+        32.802
+      ],
+      "power-stage-value-6": [
+        882.488,
+        486.041,
+        148.512,
+        32.802
+      ],
+      "power-stage-value-7": [
+        887.066,
+        540.772,
+        143.934,
+        32.802
+      ],
+      "power-stage-value-8": [
+        882.824,
+        595.503,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-9": [
+        884.084,
+        650.233,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-10": [
+        892.988,
+        704.964,
+        138.012,
+        32.802
+      ],
+      "power-stage-value-11": [
+        888.746,
+        759.695,
+        142.254,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        215.86,
+        44.5,
+        627.281,
+        70.0324
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        263.778,
+        1013.53,
+        585.991,
+        45.913
+      ],
+      "power-icon": [
+        209.231,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        258.432,
+        1073.61,
+        542.136,
+        44.835
+      ],
+      "rules-line-3": [
+        246.059,
+        1131.53,
+        566.881,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          209.231,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          263.778,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          209.231,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-130-gohan-the-energized.webp",
+      "after_sha256": "aa031b6ac6516a9127c002c09e921c30fa74d96c9a19c5b766ad6b59120c7e41",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-130-gohan-the-energized.webp",
+      "after_sha256": "5dd014582a401d2e1e396316a7864a8fe907de515c68fc9af8d745ef3b426be7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 627.280548628429,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

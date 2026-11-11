@@ -1,0 +1,215 @@
+{
+  "number": 108,
+  "id": "world-games-108-saiyan-focused-block",
+  "name": "Saiyan Focused Block",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-108-saiyan-focused-block.svg",
+  "native_source_sha256": "eef7b11ad0a740bd9cbca16b61aa31b30eb520065e46175ea3874d74930e6cca",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a22e9c94b9ecbf6f25c8380f6a468c318b079818787a72831d4cdc8aee7558bc.png",
+      "sha256": "a22e9c94b9ecbf6f25c8380f6a468c318b079818787a72831d4cdc8aee7558bc"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/108.png",
+    "source_sha256": "a22e9c94b9ecbf6f25c8380f6a468c318b079818787a72831d4cdc8aee7558bc",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Saiyan Heritage only. Stops",
+      "baseline": 1049.3,
+      "width": 535.6399473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "a focused physical or focused energy attack.",
+      "baseline": 1108.3,
+      "width": 801.8850000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 646.163,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        200.33,
+        44.5,
+        658.339,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.955,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.754,
+        1392.65,
+        60.791,
+        33.708
+      ],
+      "rules-line-1": [
+        262.758,
+        1013.53,
+        533.484,
+        45.913
+      ],
+      "power-icon": [
+        647.893,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        129.905,
+        1072.53,
+        799.19,
+        45.913
+      ],
+      "rules-line-3": [
+        208.281,
+        1133.0,
+        642.439,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 19,
+        "previous_visible_bounds": [
+          647.893,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          698.585,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          647.893,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-108-saiyan-focused-block.webp",
+      "after_sha256": "d8b6a75fc6f813371d811fad94a8c5440be46dab57b8987791fae8ede49e1c1c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-108-saiyan-focused-block.webp",
+      "after_sha256": "e563214e3d0343eedc69836dd8b4ed7c6a18aa4b31698054635bba71c49aaa19",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 658.3391521197009,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3
+}

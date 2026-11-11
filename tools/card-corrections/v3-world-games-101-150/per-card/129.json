@@ -1,0 +1,313 @@
+{
+  "number": 129,
+  "id": "world-games-129-froug-the-huge",
+  "name": "Froug, the Huge",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-129-froug-the-huge.svg",
+  "native_source_sha256": "b6ac108063b7adbd65c4318e613a30c9f06a7c8777af15b7dcecc348a7cb9886",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bb572b16b327fbd25461a566cf7d6862adaec31e4b08b68f51191f171a40e33.png",
+      "sha256": "7bb572b16b327fbd25461a566cf7d6862adaec31e4b08b68f51191f171a40e33"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/129.png",
+    "source_sha256": "7bb572b16b327fbd25461a566cf7d6862adaec31e4b08b68f51191f171a40e33",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "The first physical attack Froug performs",
+      "baseline": 1049.3,
+      "width": 787.06975,
+      "icon_inline": true
+    },
+    {
+      "text": "each Combat does +6 stages of damage.",
+      "baseline": 1108.3,
+      "width": 716.8209999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Successful physical attacks against",
+      "baseline": 1167.3,
+      "width": 641.018,
+      "icon_inline": false
+    },
+    {
+      "text": "Froug do -3 stages of damage.",
+      "baseline": 1226.3,
+      "width": 539.931,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        857.442,
+        160.009,
+        173.558,
+        38.269
+      ],
+      "power-stage-value-1": [
+        864.449,
+        224.691,
+        166.551,
+        38.269
+      ],
+      "power-stage-value-2": [
+        863.763,
+        289.373,
+        167.237,
+        38.269
+      ],
+      "power-stage-value-3": [
+        864.106,
+        354.054,
+        166.894,
+        38.269
+      ],
+      "power-stage-value-4": [
+        863.42,
+        418.736,
+        167.58,
+        38.269
+      ],
+      "power-stage-value-5": [
+        868.271,
+        483.418,
+        162.729,
+        38.269
+      ],
+      "power-stage-value-6": [
+        867.585,
+        548.1,
+        163.415,
+        38.269
+      ],
+      "power-stage-value-7": [
+        864.351,
+        612.782,
+        166.649,
+        38.269
+      ],
+      "power-stage-value-8": [
+        863.665,
+        677.463,
+        167.335,
+        38.269
+      ],
+      "power-stage-value-9": [
+        864.694,
+        742.145,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        294.84,
+        44.5,
+        469.32,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.333,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.132,
+        1392.65,
+        58.035,
+        33.708
+      ],
+      "rules-line-1": [
+        203.151,
+        1013.53,
+        719.467,
+        45.913
+      ],
+      "power-icon": [
+        136.382,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        172.633,
+        1073.61,
+        713.734,
+        44.835
+      ],
+      "rules-line-3": [
+        210.118,
+        1131.53,
+        638.764,
+        45.913
+      ],
+      "rules-line-4": [
+        261.397,
+        1191.85,
+        536.207,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "T",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          136.382,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          203.151,
+          1015.0,
+          20.58,
+          34.3
+        ],
+        "new_visible_bounds": [
+          136.382,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-129-froug-the-huge.webp",
+      "after_sha256": "02b0f7ee18086dbc6b6520ba7569d3d0fed5afd2401a762007e1088ce0d3a6f1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-129-froug-the-huge.webp",
+      "after_sha256": "5bc15d0e0be303aed1f47115a8f42bd237223d993d412453a43198cb48899bb6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 469.3204488778056,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

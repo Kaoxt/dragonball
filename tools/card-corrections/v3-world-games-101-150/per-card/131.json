@@ -1,0 +1,277 @@
+{
+  "number": 131,
+  "id": "world-games-131-goku-the-kings-pupil",
+  "name": "Goku, the King's Pupil",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-131-goku-the-kings-pupil.svg",
+  "native_source_sha256": "fa037126148de63f0f98e50128c6d1a6f1cb25d8c2b3508def8a7db9ebcef93b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c089594b952cdc1ce7dc4a8f038c2cb8d156f1b785510693f68a3052068b3430.png",
+      "sha256": "c089594b952cdc1ce7dc4a8f038c2cb8d156f1b785510693f68a3052068b3430"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "user-supplied illustration retained without raster repainting",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/131.png",
+    "source_sha256": "c089594b952cdc1ce7dc4a8f038c2cb8d156f1b785510693f68a3052068b3430",
+    "additional_zoom": false,
+    "localized_correction": "Replaced open-palm image with the supplied closed-fist stadium image. Proportional native crop only.",
+    "native_placement": [
+      -10,
+      146,
+      1059,
+      706
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Once per game, you may search",
+      "baseline": 1049.3,
+      "width": 714.077,
+      "icon_inline": false
+    },
+    {
+      "text": "either your Life Deck or your discard pile",
+      "baseline": 1108.3,
+      "width": 725.298,
+      "icon_inline": false
+    },
+    {
+      "text": "for up to 5 Drills and place them into play.",
+      "baseline": 1167.3,
+      "width": 739.3120000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        880.01,
+        157.656,
+        150.99,
+        32.802
+      ],
+      "power-stage-value-1": [
+        882.026,
+        212.387,
+        148.974,
+        32.802
+      ],
+      "power-stage-value-2": [
+        881.732,
+        267.118,
+        149.268,
+        32.802
+      ],
+      "power-stage-value-3": [
+        885.302,
+        321.849,
+        145.698,
+        32.802
+      ],
+      "power-stage-value-4": [
+        881.942,
+        376.579,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-5": [
+        882.236,
+        431.31,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-6": [
+        881.9,
+        486.041,
+        149.1,
+        32.802
+      ],
+      "power-stage-value-7": [
+        882.824,
+        540.772,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-8": [
+        883.496,
+        595.503,
+        147.504,
+        32.802
+      ],
+      "power-stage-value-9": [
+        888.746,
+        650.233,
+        142.254,
+        32.802
+      ],
+      "power-stage-value-10": [
+        881.648,
+        704.964,
+        149.352,
+        32.802
+      ],
+      "power-stage-value-11": [
+        882.614,
+        759.695,
+        148.386,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        209.5,
+        44.9493,
+        640.0,
+        69.1203
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        792.255,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.054,
+        1392.65,
+        50.191,
+        33.708
+      ],
+      "rules-line-1": [
+        174.348,
+        1014.61,
+        710.304,
+        44.835
+      ],
+      "rules-line-2": [
+        168.272,
+        1072.53,
+        722.456,
+        45.521
+      ],
+      "rules-line-3": [
+        161.069,
+        1131.53,
+        736.862,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-131-goku-the-kings-pupil.webp",
+      "after_sha256": "8deef2070b173ac5290315fa876cf2e8f75b13c4a0d464e7d9ce956c4d7feebf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-131-goku-the-kings-pupil.webp",
+      "after_sha256": "a08f61b0ce19c64e5c471dccae7a88038f3de4a7451fe2bc8f3b177af64856fb",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 84.9144221838928,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0,
+      "visible_height": 68.10136659148202,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.9869763274127829
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

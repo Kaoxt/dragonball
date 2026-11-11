@@ -1,0 +1,203 @@
+{
+  "number": 109,
+  "id": "world-games-109-saiyan-heritage-drill",
+  "name": "Saiyan Heritage Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-109-saiyan-heritage-drill.svg",
+  "native_source_sha256": "fc1918307d570e7ad4f41954d7be4a35e15c00a1fbc839c11996a95dcad533c3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f1eb7759dbdfa96024ff76167665aebc2a0fb92a0287e60b3a5d2e380df4268.png",
+      "sha256": "6f1eb7759dbdfa96024ff76167665aebc2a0fb92a0287e60b3a5d2e380df4268"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/109.png",
+    "source_sha256": "6f1eb7759dbdfa96024ff76167665aebc2a0fb92a0287e60b3a5d2e380df4268",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "All attacks performed by cards with",
+      "baseline": 1049.3,
+      "width": 702.3977500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "'Saiyan Heritage only' do +2 stages of damage.",
+      "baseline": 1108.3,
+      "width": 823.788,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        222.226,
+        44.5,
+        614.547,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        245.386,
+        1013.53,
+        634.48,
+        45.521
+      ],
+      "power-icon": [
+        179.134,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        118.757,
+        1072.53,
+        821.485,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          179.134,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          245.386,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          179.134,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-109-saiyan-heritage-drill.webp",
+      "after_sha256": "59358f03093fb09e03b6821803755f13040641ec93d4380eddd4cee45f97d3e5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-109-saiyan-heritage-drill.webp",
+      "after_sha256": "8df13bb022c0b144f0b96355935f1b6d17c2067041d88263f8cada7bc1539641",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 614.5473815461347,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3
+}

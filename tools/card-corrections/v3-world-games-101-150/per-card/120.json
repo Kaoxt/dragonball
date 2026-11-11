@@ -1,0 +1,223 @@
+{
+  "number": 120,
+  "id": "world-games-120-blue-style-mastery",
+  "name": "Blue Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-120-blue-style-mastery.svg",
+  "native_source_sha256": "9db2a1948a7b58e26758cd4255b677d8ce00c5c11f457e8cebbc923896c571bc",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f0ac0be80e81cf8088ca7a9d3740d979cb04d580c32db6d269894cf5380a28c6.png",
+      "sha256": "f0ac0be80e81cf8088ca7a9d3740d979cb04d580c32db6d269894cf5380a28c6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/120.png",
+    "source_sha256": "f0ac0be80e81cf8088ca7a9d3740d979cb04d580c32db6d269894cf5380a28c6",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your energy attacks do +1 life card",
+      "baseline": 1049.3,
+      "width": 682.16075,
+      "icon_inline": true
+    },
+    {
+      "text": "of damage. Your Blue Style energy attacks",
+      "baseline": 1108.3,
+      "width": 753.6200000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "gain \"HIT: Raise your anger 1 level.\"",
+      "baseline": 1167.3,
+      "width": 629.4050000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        248.854,
+        44.5,
+        561.292,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.094,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.894,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        256.12,
+        1013.53,
+        613.529,
+        45.913
+      ],
+      "power-icon": [
+        189.351,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        153.866,
+        1073.61,
+        751.268,
+        44.835
+      ],
+      "rules-line-3": [
+        215.942,
+        1131.53,
+        627.115,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          189.351,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          256.12,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          189.351,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-120-blue-style-mastery.webp",
+      "after_sha256": "c36f6a3ed8a89984bf63020aae964043ec6ccc2bb36043f961577d46bc58e00e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-120-blue-style-mastery.webp",
+      "after_sha256": "a5b574f5a5d06b538c320509c0ff5808f67b48ec57e14ddefe928e8edfe59649",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 561.2917705735662,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

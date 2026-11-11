@@ -1,0 +1,235 @@
+{
+  "number": 139,
+  "id": "world-games-139-namekian-style-mastery",
+  "name": "Namekian Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-139-namekian-style-mastery.svg",
+  "native_source_sha256": "cb1b4d3c6adce0d0f91f6bf62567b25db904b17b962340e4cfe0f2a432b3450d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d5e6b4466973d8889209c63de8a4a4d4c0f428c9d39d2728c3c98fc9ba484c95.png",
+      "sha256": "d5e6b4466973d8889209c63de8a4a4d4c0f428c9d39d2728c3c98fc9ba484c95"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/139.png",
+    "source_sha256": "d5e6b4466973d8889209c63de8a4a4d4c0f428c9d39d2728c3c98fc9ba484c95",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, draw the bottom",
+      "baseline": 1049.3,
+      "width": 782.0717499999998,
+      "icon_inline": true
+    },
+    {
+      "text": "card of your Life Deck. If it is Namekian Style,",
+      "baseline": 1108.3,
+      "width": 810.3130000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "you may show it to your opponent and draw",
+      "baseline": 1167.3,
+      "width": 774.9840000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "another card from the bottom of your Life Deck.",
+      "baseline": 1226.3,
+      "width": 850.346,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        164.325,
+        44.5,
+        730.35,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.909,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.708,
+        1392.65,
+        58.883,
+        33.708
+      ],
+      "rules-line-1": [
+        205.871,
+        1013.53,
+        713.832,
+        45.913
+      ],
+      "power-icon": [
+        139.297,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        125.923,
+        1072.53,
+        807.154,
+        45.521
+      ],
+      "rules-line-3": [
+        142.705,
+        1131.53,
+        773.591,
+        45.521
+      ],
+      "rules-line-4": [
+        105.675,
+        1190.53,
+        847.651,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          139.297,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          205.871,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          139.297,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-139-namekian-style-mastery.webp",
+      "after_sha256": "65ebdf6762f33ac5a9e966f9807a755319bf2308f3e2019dbfd03211285e047d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-139-namekian-style-mastery.webp",
+      "after_sha256": "f388ff729f6dbbe80d967b70937e9908417cbe2b871c352f14b9a98265ed2a66",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 730.350374064838,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

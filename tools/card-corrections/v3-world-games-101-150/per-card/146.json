@@ -1,0 +1,301 @@
+{
+  "number": 146,
+  "id": "world-games-146-pikkon-the-hero",
+  "name": "Pikkon, the Hero",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-146-pikkon-the-hero.svg",
+  "native_source_sha256": "5504c44154a7200fdd6c1c09d9c9ef0a5c358f48f9464bc16b01c974eb2c3334",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/91ebc8951779bc3553354e7af2441bdc2b51a365abce32e38165859e1c12b1a7.png",
+      "sha256": "91ebc8951779bc3553354e7af2441bdc2b51a365abce32e38165859e1c12b1a7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/146.png",
+    "source_sha256": "91ebc8951779bc3553354e7af2441bdc2b51a365abce32e38165859e1c12b1a7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attacks performed by Pikkon",
+      "baseline": 1049.3,
+      "width": 714.5987500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "gain \"HIT: Banish a Setup or Drill in play.\"",
+      "baseline": 1108.3,
+      "width": 728.5809999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        880.01,
+        157.656,
+        150.99,
+        32.802
+      ],
+      "power-stage-value-1": [
+        882.026,
+        212.387,
+        148.974,
+        32.802
+      ],
+      "power-stage-value-2": [
+        881.732,
+        267.118,
+        149.268,
+        32.802
+      ],
+      "power-stage-value-3": [
+        885.302,
+        321.849,
+        145.698,
+        32.802
+      ],
+      "power-stage-value-4": [
+        881.942,
+        376.579,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-5": [
+        882.236,
+        431.31,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-6": [
+        881.9,
+        486.041,
+        149.1,
+        32.802
+      ],
+      "power-stage-value-7": [
+        882.824,
+        540.772,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-8": [
+        883.496,
+        595.503,
+        147.504,
+        32.802
+      ],
+      "power-stage-value-9": [
+        888.746,
+        650.233,
+        142.254,
+        32.802
+      ],
+      "power-stage-value-10": [
+        881.648,
+        704.964,
+        149.352,
+        32.802
+      ],
+      "power-stage-value-11": [
+        882.614,
+        759.695,
+        148.386,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        283.526,
+        50.2213,
+        491.948,
+        70.0324
+      ],
+      "v3-level-number": [
+        59.3182,
+        25.15,
+        87.3636,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.114,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.913,
+        1392.65,
+        60.473,
+        33.708
+      ],
+      "rules-line-1": [
+        240.783,
+        1013.53,
+        645.183,
+        45.913
+      ],
+      "power-icon": [
+        173.034,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        166.354,
+        1072.53,
+        726.291,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          173.034,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          240.783,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          173.034,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-146-pikkon-the-hero.webp",
+      "after_sha256": "dbbef77bde518b3f085f7d842f3b6e831c1d7d4bd4776c9ac0ac31bddbe054be",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-146-pikkon-the-hero.webp",
+      "after_sha256": "4fd9751ffc9f26182e60ab1b18325426dceac58a7dbdeed8357bd70fe473daa7",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 491.94763092269335,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

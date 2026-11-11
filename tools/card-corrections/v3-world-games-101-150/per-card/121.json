@@ -1,0 +1,178 @@
+{
+  "number": 121,
+  "id": "world-games-121-capsule-corp",
+  "name": "Capsule Corp.",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-121-capsule-corp.svg",
+  "native_source_sha256": "063f243a6edf40d93284741ca39a475a4b7ea72e76276c36ed07d736dc3b47b5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fb484635722005a9bcb39f7a413942208d9db8b5a682a2d2383cee2f809ecb80.png",
+      "sha256": "fb484635722005a9bcb39f7a413942208d9db8b5a682a2d2383cee2f809ecb80"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/121.png",
+    "source_sha256": "fb484635722005a9bcb39f7a413942208d9db8b5a682a2d2383cee2f809ecb80",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      16,
+      145.0,
+      1451,
+      483.6666666666667
+    ]
+  },
+  "rules": [
+    {
+      "text": "All focused attacks cost +3 stages to perform.",
+      "baseline": 845.483333333333,
+      "width": 887.66675,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        537.038,
+        44.5,
+        408.924,
+        69.0
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        250.12,
+        954.354,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        1131.88,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1191.68,
+        968.646,
+        49.343,
+        33.708
+      ],
+      "rules-line-1": [
+        364.703,
+        811.031,
+        819.847,
+        44.5954
+      ],
+      "power-icon": [
+        298.451,
+        816.543,
+        53.5938,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          298.451,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          364.703,
+          811.183,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          298.451,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-121-capsule-corp.webp",
+      "after_sha256": "f4dabba2c3d652b325a67ced48399de46ce0d7d2b7d7fe5e738ff25e799fbeb4",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-121-capsule-corp.webp",
+      "after_sha256": "49909eb2112283f35e247ea2b1d545564c9004456064685d955bd3b4502f09fc",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

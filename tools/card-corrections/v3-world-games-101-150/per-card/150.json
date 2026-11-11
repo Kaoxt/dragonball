@@ -1,0 +1,325 @@
+{
+  "number": 150,
+  "id": "world-games-150-tapkar",
+  "name": "Tapkar",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-150-tapkar.svg",
+  "native_source_sha256": "b88a68e7f4783e11be1a7acbb4e7b668a9e9cc7a0622ab425332fdbe4f64536f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dd023f64658aeb6998b9275d4c667fee43087aa1e8475f91c42cf1009bf8f34d.png",
+      "sha256": "dd023f64658aeb6998b9275d4c667fee43087aa1e8475f91c42cf1009bf8f34d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/150.png",
+    "source_sha256": "dd023f64658aeb6998b9275d4c667fee43087aa1e8475f91c42cf1009bf8f34d",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat as the defender,",
+      "baseline": 1049.3,
+      "width": 767.91075,
+      "icon_inline": true
+    },
+    {
+      "text": "if Tapkar has not used another",
+      "baseline": 1108.3,
+      "width": 546.644,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality power this turn, banish",
+      "baseline": 1167.3,
+      "width": 621.4180000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the top 4 cards of your Life Deck, draw",
+      "baseline": 1226.3,
+      "width": 690.3610000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "2 cards, and raise your anger 3 levels.",
+      "baseline": 1285.3,
+      "width": 676.7880000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        888.067,
+        160.009,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.076,
+        224.691,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.321,
+        289.373,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.272,
+        354.054,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.134,
+        418.736,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.762,
+        548.1,
+        140.238,
+        38.269
+      ],
+      "power-stage-value-7": [
+        891.007,
+        612.782,
+        139.993,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.958,
+        677.463,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        426.0,
+        44.5,
+        207.0,
+        69.0
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.299,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.099,
+        1392.65,
+        60.102,
+        33.708
+      ],
+      "rules-line-1": [
+        212.938,
+        1013.53,
+        699.697,
+        45.913
+      ],
+      "power-icon": [
+        146.365,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        257.099,
+        1072.53,
+        544.802,
+        44.884
+      ],
+      "rules-line-3": [
+        220.677,
+        1131.53,
+        617.645,
+        45.521
+      ],
+      "rules-line-4": [
+        185.016,
+        1190.53,
+        688.968,
+        45.521
+      ],
+      "rules-line-5": [
+        192.478,
+        1249.53,
+        674.044,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          146.365,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          212.938,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          146.365,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-150-tapkar.webp",
+      "after_sha256": "5a0f459db55149a2c66e6515d67c70ba918583448f67667fdc37caa6ad265881",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-150-tapkar.webp",
+      "after_sha256": "778c8467a3eb8b851f255dbfeb77e4f184948e9331cca9e72984fe04ee1908c4",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 207.00000000000003,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

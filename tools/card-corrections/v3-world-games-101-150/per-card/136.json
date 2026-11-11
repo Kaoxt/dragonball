@@ -1,0 +1,301 @@
+{
+  "number": 136,
+  "id": "world-games-136-majin-spopovich",
+  "name": "Majin Spopovich",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-136-majin-spopovich.svg",
+  "native_source_sha256": "6985650e8eb913f92c99b2ef8a4cc7be7ef81e92872ab1903bb23edb78bd7554",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0a202dcc41f436d2ce8fca9fba3c100c22ad91a20afcc6aafce3e19e6be16fd4.png",
+      "sha256": "0a202dcc41f436d2ce8fca9fba3c100c22ad91a20afcc6aafce3e19e6be16fd4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/136.png",
+    "source_sha256": "0a202dcc41f436d2ce8fca9fba3c100c22ad91a20afcc6aafce3e19e6be16fd4",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your physical attacks do +2 stages",
+      "baseline": 1049.3,
+      "width": 687.64875,
+      "icon_inline": true
+    },
+    {
+      "text": "of damage, or +3 stages instead against Videl.",
+      "baseline": 1108.3,
+      "width": 820.0640000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        929.402,
+        157.656,
+        101.598,
+        32.802
+      ],
+      "power-stage-value-1": [
+        930.368,
+        212.387,
+        100.632,
+        32.802
+      ],
+      "power-stage-value-2": [
+        930.074,
+        267.118,
+        100.926,
+        32.802
+      ],
+      "power-stage-value-3": [
+        933.644,
+        321.849,
+        97.356,
+        32.802
+      ],
+      "power-stage-value-4": [
+        930.284,
+        376.579,
+        100.716,
+        32.802
+      ],
+      "power-stage-value-5": [
+        930.578,
+        431.31,
+        100.422,
+        32.802
+      ],
+      "power-stage-value-6": [
+        930.242,
+        486.041,
+        100.758,
+        32.802
+      ],
+      "power-stage-value-7": [
+        931.166,
+        540.772,
+        99.834,
+        32.802
+      ],
+      "power-stage-value-8": [
+        931.838,
+        595.503,
+        99.162,
+        32.802
+      ],
+      "power-stage-value-9": [
+        937.088,
+        650.233,
+        93.912,
+        32.802
+      ],
+      "power-stage-value-10": [
+        929.99,
+        704.964,
+        101.01,
+        32.802
+      ],
+      "power-stage-value-11": [
+        935.408,
+        759.695,
+        95.592,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        284.473,
+        44.5,
+        490.055,
+        69.0
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        252.862,
+        1013.53,
+        620.046,
+        45.913
+      ],
+      "power-icon": [
+        186.092,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        121.011,
+        1072.53,
+        816.977,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          186.092,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          252.862,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          186.092,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-136-majin-spopovich.webp",
+      "after_sha256": "f8982b139f2a5a259ddace717723c7ce1d9c47de21f773b788731324d87ac444",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-136-majin-spopovich.webp",
+      "after_sha256": "b96f7514733905cf0a79f25b1528167d54aead79c0c829fa473d36766550e08f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 490.0548628428928,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

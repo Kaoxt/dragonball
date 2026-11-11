@@ -18,7 +18,7 @@ const expected=Array.from({length:50},(_,i)=>i+51);
 test('all 50 ready cards are added without changing the existing catalog entries',()=>{
  assert.deepEqual(cards.map(c=>Number(c.number)),expected);assert.deepEqual(release.numbers,expected);
  assert.equal(audit.length,50);assert.equal(release.export_count,100);assert.deepEqual(release.pending,[]);
- const ids=new Set(cards.map(c=>c.id)),prior=catalog.filter(c=>!ids.has(c.id));
+ const ids=new Set(cards.map(c=>c.id)),prior=catalog.filter(c=>!ids.has(c.id)&&!(c.set==='World Games Saga'&&Number(c.number)>100));
  assert.equal(hash(Buffer.from('export const catalog = '+JSON.stringify(prior,null,2)+';\n')),release.baseline_catalog_sha256);
  assert.deepEqual(prior.map(c=>c.id),read('baseline-card-ids.json'));
  for(const c of cards){const d=data.find(d=>d.id===c.id);assert.equal(c.rules,d.modern_rules);assert.equal(c.style,d.style);assert.equal(c.rarity,d.rarity);assert.equal(c.templateVersion,3);}
@@ -50,9 +50,9 @@ test('new style symbols use the approved thinner strokes and special cards retai
 
 test('100-card set and all 50 new public card routes work',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
- assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,100);
+ assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,150);
  for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(card.image));}
- assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/101'),assets)).status,404);
+ assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/151'),assets)).status,404);
 });
 
 test('all new cards round-trip through portable deck codes',async()=>{

@@ -1,0 +1,223 @@
+{
+  "number": 119,
+  "id": "world-games-119-black-style-mastery",
+  "name": "Black Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-119-black-style-mastery.svg",
+  "native_source_sha256": "53b3e3bcf86e6b08ff7ffd6f092578faf10326ddf3202416f23b6cff9374c137",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/68e0837ed4ca6a0960e7a126e56b82ae1789cbbad9cf5236d03fcea0495cd974.png",
+      "sha256": "68e0837ed4ca6a0960e7a126e56b82ae1789cbbad9cf5236d03fcea0495cd974"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/119.png",
+    "source_sha256": "68e0837ed4ca6a0960e7a126e56b82ae1789cbbad9cf5236d03fcea0495cd974",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "All your attacks gain \"HIT: Discard a Drill",
+      "baseline": 1049.3,
+      "width": 785.69775,
+      "icon_inline": true
+    },
+    {
+      "text": "in play.\" Your Black Style physical attacks",
+      "baseline": 1108.3,
+      "width": 748.0340000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "may discard a Setup or Drill instead.",
+      "baseline": 1167.3,
+      "width": 642.047,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        231.26,
+        44.5,
+        596.48,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        791.645,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.445,
+        1392.65,
+        51.41,
+        33.708
+      ],
+      "rules-line-1": [
+        203.736,
+        1013.53,
+        717.78,
+        45.913
+      ],
+      "power-icon": [
+        137.484,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        156.634,
+        1072.53,
+        745.731,
+        45.521
+      ],
+      "rules-line-3": [
+        210.167,
+        1131.53,
+        638.666,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          137.484,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          203.736,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          137.484,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-119-black-style-mastery.webp",
+      "after_sha256": "f58745426f3baf7bc8fccc6fcd216a9df8d0b5024ec75cfc06e4544ccccf1e5d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-119-black-style-mastery.webp",
+      "after_sha256": "fce89edc0dbd3cb52dd83d8648879e1dc7636c1763d4fd30244ec4ca461eda1e",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 596.4800498753118,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

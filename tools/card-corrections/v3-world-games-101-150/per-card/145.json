@@ -1,0 +1,313 @@
+{
+  "number": 145,
+  "id": "world-games-145-torbie-unleashed",
+  "name": "Torbie, Unleashed",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-145-torbie-unleashed.svg",
+  "native_source_sha256": "b1dfe188f083a9fc738cdff80bf7543cd005d0a4bdc098045007852047fe563e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9307b5af7dd82a54ea9d3b70ffbfd22fd514a350d92eb089cec85acea515c027.png",
+      "sha256": "9307b5af7dd82a54ea9d3b70ffbfd22fd514a350d92eb089cec85acea515c027"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/145.png",
+    "source_sha256": "9307b5af7dd82a54ea9d3b70ffbfd22fd514a350d92eb089cec85acea515c027",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 15 life cards minus 1 per card in",
+      "baseline": 1108.3,
+      "width": 721.3290000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent's discard pile, to a minimum of 0.",
+      "baseline": 1167.3,
+      "width": 853.531,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        887.864,
+        157.656,
+        143.136,
+        32.802
+      ],
+      "power-stage-value-1": [
+        889.964,
+        212.387,
+        141.036,
+        32.802
+      ],
+      "power-stage-value-2": [
+        889.04,
+        267.118,
+        141.96,
+        32.802
+      ],
+      "power-stage-value-3": [
+        893.366,
+        321.849,
+        137.634,
+        32.802
+      ],
+      "power-stage-value-4": [
+        889.124,
+        376.579,
+        141.876,
+        32.802
+      ],
+      "power-stage-value-5": [
+        896.81,
+        431.31,
+        134.19,
+        32.802
+      ],
+      "power-stage-value-6": [
+        887.864,
+        486.041,
+        143.136,
+        32.802
+      ],
+      "power-stage-value-7": [
+        913.862,
+        540.772,
+        117.138,
+        32.802
+      ],
+      "power-stage-value-8": [
+        909.62,
+        595.503,
+        121.38,
+        32.802
+      ],
+      "power-stage-value-9": [
+        912.014,
+        650.233,
+        118.986,
+        32.802
+      ],
+      "power-stage-value-10": [
+        912.476,
+        704.964,
+        118.524,
+        32.802
+      ],
+      "power-stage-value-11": [
+        914.114,
+        759.695,
+        116.886,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        260.082,
+        50.2213,
+        538.837,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.22,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.019,
+        1392.65,
+        60.261,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        170.747,
+        1072.53,
+        717.507,
+        44.884
+      ],
+      "rules-line-3": [
+        103.837,
+        1131.53,
+        851.326,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-145-torbie-unleashed.webp",
+      "after_sha256": "4dc5d40461413ce882662a95b317528de65fbe6d52418072de7ab21fde2776fe",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-145-torbie-unleashed.webp",
+      "after_sha256": "a4bcf337c25ce95de6c64ddcec6b433e06715ef933fb5f31ed9f9d4d63ddb3ae",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 538.8366583541148,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

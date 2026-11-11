@@ -1,0 +1,205 @@
+{
+  "number": 149,
+  "id": "world-games-149-south-kai-sensei",
+  "name": "South Kai Sensei",
+  "family": "SENSEI",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-149-south-kai-sensei.svg",
+  "native_source_sha256": "1c3732cd484d863d98f042018ea4a0eb4601b705d0767923121e3e951511deed",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f0309263a3a68b42e195d6dead32383aa3bfe20c6b3ae0dac477a1d1746622c7.png",
+      "sha256": "f0309263a3a68b42e195d6dead32383aa3bfe20c6b3ae0dac477a1d1746622c7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8.png",
+      "sha256": "1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac.jpg",
+      "sha256": "1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/149.png",
+    "source_sha256": "f0309263a3a68b42e195d6dead32383aa3bfe20c6b3ae0dac477a1d1746622c7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      0,
+      137.032740057147,
+      1060,
+      724.601186552406
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Once per game during",
+      "width": 535.57,
+      "baseline": 1049.3,
+      "icon_inline": false
+    },
+    {
+      "text": "your Planning Step, you may",
+      "width": 501.90700000000004,
+      "baseline": 1108.3,
+      "icon_inline": false
+    },
+    {
+      "text": "search your Life Deck for",
+      "width": 449.47700000000003,
+      "baseline": 1167.3,
+      "icon_inline": false
+    },
+    {
+      "text": "a Level 1 Ally and place it in",
+      "width": 484.26700000000005,
+      "baseline": 1226.3,
+      "icon_inline": false
+    },
+    {
+      "text": "play at 3 stages above 0.",
+      "width": 441.882,
+      "baseline": 1285.3,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        279.526,
+        50.2213,
+        499.949,
+        57.5574
+      ],
+      "card-category": [
+        329.076,
+        891.391,
+        211.17,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        75.107,
+        1013.53,
+        531.846,
+        45.913
+      ],
+      "rules-line-2": [
+        73.637,
+        1072.53,
+        500.61,
+        45.913
+      ],
+      "rules-line-3": [
+        74.176,
+        1131.53,
+        447.929,
+        45.521
+      ],
+      "rules-line-4": [
+        74.127,
+        1190.53,
+        481.474,
+        45.521
+      ],
+      "rules-line-5": [
+        75.009,
+        1250.46,
+        438.305,
+        44.982
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-149-south-kai-sensei.webp",
+      "after_sha256": "73a4b993fbe10dc60b65acccc0f6806eeb6a7f08e5a1e56d488ef6d087144815",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-149-south-kai-sensei.webp",
+      "after_sha256": "0761d67460b46ef83ed8dc17bdcc4c11bd0cfc37daf1114c74267b04f41b8374",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 499.94887780548635,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "approved_sensei_anchor": [
+        434.661310104786,
+        908.5
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

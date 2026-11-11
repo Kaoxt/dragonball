@@ -1,0 +1,301 @@
+{
+  "number": 127,
+  "id": "world-games-127-froug",
+  "name": "Froug",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-127-froug.svg",
+  "native_source_sha256": "565f34993ba7cdbc676a3e65e65a999d87837a563653249eb8974cedeb83687e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9577afd685b8c2f4f072de4eb08d613eb24b5ced6ce07f752ff7b96a13f21bee.png",
+      "sha256": "9577afd685b8c2f4f072de4eb08d613eb24b5ced6ce07f752ff7b96a13f21bee"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/127.png",
+    "source_sha256": "9577afd685b8c2f4f072de4eb08d613eb24b5ced6ce07f752ff7b96a13f21bee",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you",
+      "baseline": 1049.3,
+      "width": 585.4779473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "declared a Tokui Waza, Events cannot",
+      "baseline": 1108.3,
+      "width": 675.1220000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "be played for the rest of this Combat.",
+      "baseline": 1167.3,
+      "width": 660.716,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        863.322,
+        160.009,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-1": [
+        889.39,
+        224.691,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.341,
+        289.373,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-3": [
+        892.036,
+        354.054,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.684,
+        418.736,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.067,
+        548.1,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.978,
+        612.782,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.664,
+        677.463,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-9": [
+        896.544,
+        742.145,
+        134.456,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        446.777,
+        45.9196,
+        165.445,
+        66.1608
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        789.446,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        849.245,
+        1392.65,
+        55.809,
+        33.708
+      ],
+      "rules-line-1": [
+        288.384,
+        1013.53,
+        532.924,
+        45.521
+      ],
+      "power-icon": [
+        237.692,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        193.164,
+        1072.53,
+        672.672,
+        40.572
+      ],
+      "rules-line-3": [
+        200.857,
+        1131.53,
+        657.286,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          237.692,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          288.384,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          237.692,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-127-froug.webp",
+      "after_sha256": "ef7bc2c9ec4877988e6ef0ff79813e1869b39be96741ba17963305cd2f037371",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-127-froug.webp",
+      "after_sha256": "72571d72ff0822f683f4f90ff83046bae5b2ef0538821a715b8433ceaf7f2cb3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 165.44513715710727,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 5
+}
