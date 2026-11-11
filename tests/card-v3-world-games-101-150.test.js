@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
+import {catalog as beforeShenronCatalog} from './helpers/world-games-shenron-history.js';
 import {codeCardIds} from '../public/decks/code-card-ids.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
@@ -27,7 +28,7 @@ test('publishes all 50 finished cards with no pending artwork',()=>{
 });
 
 test('earlier catalog records and all permanent deck-code positions are unchanged',()=>{
- const prior=catalog.filter(c=>!(c.set==='World Games Saga'&&Number(c.number)>=101));
+ const prior=beforeShenronCatalog.filter(c=>!(c.set==='World Games Saga'&&Number(c.number)>=101));
  assert.equal(hash(Buffer.from('export const catalog = '+JSON.stringify(prior,null,2)+';\n')),release.baseline_catalog_sha256);
  assert.deepEqual(prior.map(c=>c.id),read('baseline-card-ids.json'));
  const ids=read('baseline-code-card-ids.json');assert.deepEqual(codeCardIds.slice(0,ids.length),ids);

@@ -48,7 +48,7 @@ test('all 748 Freestyle exports preserve pixels outside the measured symbol delt
 test('Freestyle personalities, Dragon Balls and location emblems stay byte-identical',()=>{
  for(const r of release.excluded_cards){
   assert.ok(['Main Personality','Dragon Ball','Location','Battleground'].includes(r.type));
-  for(const f of r.files)assert.equal(hash(fs.readFileSync(f.path)),f.sha256);
+  for(const f of r.files)assert.equal(beforeFreestyleStrokeHash(f.path),f.sha256,f.path);
  }
 });
 

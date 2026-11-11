@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
+import {catalog as beforeShenronCatalog} from './helpers/world-games-shenron-history.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -18,7 +19,7 @@ const expected=Array.from({length:50},(_,i)=>i+51);
 test('all 50 ready cards are added without changing the existing catalog entries',()=>{
  assert.deepEqual(cards.map(c=>Number(c.number)),expected);assert.deepEqual(release.numbers,expected);
  assert.equal(audit.length,50);assert.equal(release.export_count,100);assert.deepEqual(release.pending,[]);
- const ids=new Set(cards.map(c=>c.id)),prior=catalog.filter(c=>!ids.has(c.id)&&!(c.set==='World Games Saga'&&Number(c.number)>100));
+ const ids=new Set(cards.map(c=>c.id)),prior=beforeShenronCatalog.filter(c=>!ids.has(c.id)&&!(c.set==='World Games Saga'&&Number(c.number)>100));
  assert.equal(hash(Buffer.from('export const catalog = '+JSON.stringify(prior,null,2)+';\n')),release.baseline_catalog_sha256);
  assert.deepEqual(prior.map(c=>c.id),read('baseline-card-ids.json'));
  for(const c of cards){const d=data.find(d=>d.id===c.id);assert.equal(c.rules,d.modern_rules);assert.equal(c.style,d.style);assert.equal(c.rarity,d.rarity);assert.equal(c.templateVersion,3);}

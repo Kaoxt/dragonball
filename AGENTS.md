@@ -1,3 +1,17 @@
+## World Games Earth Dragon Ball artwork — November 11, 2026
+
+Use the user-approved downward right-facing Shenron with an upper-left arched
+neck and slightly open mouth for every World Games Earth Dragon Ball. The
+set-specific source and native mapping are recorded in
+`tools/card-corrections/v3-world-games-shenron/release.json` and
+`tools/card-templates/v3/references/world-games-dragon-ball.md`.
+Both World Games builders use `scripts/world_games_dragon_ball.py` before
+assetizing the illustration. Preserve the full 1060×1484 mapping, existing
+single brightness gain, native UI, rules and numbered left orb. Other sets
+retain their artwork. The current 001–150 catalog contains only #15 Earth
+Dragon Ball 3; later World Games Dragon Balls inherit this default.
+Earlier audits stay immutable and use the reversible Shenron history helper.
+
 ## World Games Saga 051–100 complete handoff — November 11, 2026
 
 All 50 additional cards are prepared in current V3 with the November 10 symbol
