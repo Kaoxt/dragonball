@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "set": "World Games Saga",
+  "scope": "All currently prepared World Games Dragon Balls; this set-specific artwork is the default for future Earth Dragon Balls.",
+  "artwork": {
+    "path": "tools/card-templates/v3/assets/f06231c99579ee5261833446e2d1be95aef43e65e357d0f8543be36d4c8c4ad0.png",
+    "sha256": "f06231c99579ee5261833446e2d1be95aef43e65e357d0f8543be36d4c8c4ad0",
+    "size": [
+      1060,
+      1484
+    ],
+    "approved_reference": "User-approved downward right-facing Shenron with arched neck and slightly open mouth, November 11, 2026",
+    "native_mapping": [
+      0,
+      0,
+      1060,
+      1484
+    ],
+    "additional_crop_or_zoom": false,
+    "brightness": "Existing single 1.20 native background gain retained."
+  },
+  "baseline_catalog_sha256": "ed05095bde83ec29edb0d876d0cd795ce2b66b29fc9104bc197105b727cb4464",
+  "catalog_sha256": "852f4206e35ed764619346f17ac046aefc50326c26cf197f6c878fe43daa1d69",
+  "cards": [
+    {
+      "id": "world-games-015-earth-dragon-ball-3",
+      "number": 15,
+      "name": "Earth Dragon Ball 3",
+      "source": {
+        "path": "tools/card-templates/v3/world-games-001-050/world-games-015-earth-dragon-ball-3.svg",
+        "before_sha256": "b739ac2bc8f2a73084a205da2dde59fb3d9eea6d3c5f5701c764851c6e290ad7",
+        "after_sha256": "aa65fb8c9d2d52d26425e7ba86d3fa68f255eeec17a2d74c0fb04775b4eddebd",
+        "reversible_edits": [
+          {
+            "before": "../assets/928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4.png",
+            "after": "../assets/f06231c99579ee5261833446e2d1be95aef43e65e357d0f8543be36d4c8c4ad0.png"
+          }
+        ]
+      },
+      "exports": [
+        {
+          "field": "image",
+          "path": "public/assets/cards/world-games-015-earth-dragon-ball-3.webp",
+          "before_sha256": "575dbda7e8ff8696be3586a722f9db58e16ca3bca1748ed1a84d9e9d05600ed4",
+          "after_sha256": "7e0dba49f923029885a517740a426798e438f065d425715fdc8442709ea97cfb",
+          "size": [
+            1060,
+            1484
+          ],
+          "lossless_round_trip": true,
+          "baseline_render_mismatched_pixels": 43684,
+          "changed_pixels": 888777,
+          "opaque_ui_rounding_pixels_retained": 9933,
+          "pixels_changed_outside_artwork_delta": 0,
+          "opaque_ui_pixels_checked": 679572,
+          "pixels_changed_in_opaque_ui": 0
+        },
+        {
+          "field": "downloadImage",
+          "path": "public/assets/cards/downloads/world-games-015-earth-dragon-ball-3.webp",
+          "before_sha256": "db099994dc19dd9abe2d320c91abad40186eb3f1cd5bf2458e61eff0d5620cc5",
+          "after_sha256": "58ed59e135a74caa6afecb8264fa9c7efc317d9c36c17d4bbe147e96d2e74621",
+          "size": [
+            2120,
+            2968
+          ],
+          "lossless_round_trip": true,
+          "baseline_render_mismatched_pixels": 157701,
+          "changed_pixels": 3520098,
+          "opaque_ui_rounding_pixels_retained": 404,
+          "pixels_changed_outside_artwork_delta": 0,
+          "opaque_ui_pixels_checked": 2764526,
+          "pixels_changed_in_opaque_ui": 0
+        }
+      ],
+      "native_change": "Only the Shenron image href; all other native bytes unchanged."
+    }
+  ]
+}

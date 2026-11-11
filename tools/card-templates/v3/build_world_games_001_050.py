@@ -15,6 +15,7 @@ sys.path.insert(0,str(P/'scripts'))
 from title_fit_v3 import apply as title_fit
 from middle_label_v3 import apply as middle_label
 from tokui_backing import apply as tokui_backing
+from world_games_dragon_ball import apply as world_games_dragon_ball
 from align_power_icon import align_power_icon
 import footer_spacing as footer
 from text_layout_v3 import validate as validate_text_layout
@@ -82,7 +83,7 @@ def compose(c):
     shared.rarity(r,c['rarity_stars'])
     get(r,'footer-rarity').set('transform',f'translate({847.25-(12.2+b[0])/2-882} -6.5)')
     replace(r,'saga-emblem',emblem())
-    art=donor if db else ROOT/c['artwork_asset'] if c.get('artwork_asset') else EVID/'artwork'/f'{n:03}.png'
+    art=world_games_dragon_ball(r) if db else ROOT/c['artwork_asset'] if c.get('artwork_asset') else EVID/'artwork'/f'{n:03}.png'
     art_height=706
     if not db:
         aw,ah=Image.open(art).size
@@ -128,7 +129,7 @@ def compose(c):
         x,y,w,h=bounds[ident];assert abs(x+w/2-xy[0])<.02 and abs(y+h/2-xy[1])<.02,(n,ident,bounds[ident])
     row={'number':n,'id':c['id'],'name':c['name'],'family':c['category'],'native_source_path':str(svg.relative_to(ROOT)),'native_source_sha256':digest(svg),'assets':assets,'artwork':{'mode':'new modern illustration from printed reference','source':str(art.relative_to(ROOT)),'source_sha256':digest(art),'additional_zoom':False,'localized_correction':None,'native_placement':[14,146+(706-art_height)/2,1033,art_height]},'rules':reports,'native_geometry':{'native_outlined_text':True,'bounds':bounds,'icons':icons},'exports':exports,'tokui_waza_backing':tok,'current_preview_revision':{'title_fit':fit,'middle_label':mid,'footer_idempotent':True},'power_icon':c.get('power_icon'),'rarity_stars':c['rarity_stars']}
     if db:
-        row['artwork']={'mode':'retained approved full-art Shenron and three-star left orb','source':str(donor.relative_to(ROOT)),'source_sha256':digest(donor),'additional_zoom':False,'approved_full_art_redesign':True}
+        row['artwork']={'mode':'approved World Games angled Shenron; retained numbered left orb','source':str(art.relative_to(ROOT)),'source_sha256':digest(art),'additional_zoom':False,'approved_full_art_redesign':True}
     (EVID/'per-card'/f'{n:03}.json').write_text(json.dumps(row,indent=2)+'\n');print(f'Completed {n}: {c["name"]}',flush=True);return row
 
 if __name__=='__main__':
