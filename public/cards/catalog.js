@@ -157,11 +157,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp?v=34b21940d96c",
+    "image": "/assets/cards/saiyan-011-blue-forward-foot-sweep.webp?v=d8931fa372f7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-011-blue-forward-foot-sweep.webp?v=bf79c882ba51",
+    "downloadImage": "/assets/cards/downloads/saiyan-011-blue-forward-foot-sweep.webp?v=5ad39414941d",
     "templateVersion": 3
   },
   {
@@ -172,11 +172,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp?v=c443a5b94f1a",
+    "image": "/assets/cards/saiyan-012-blue-hip-spring-throw.webp?v=1af94971499c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-012-blue-hip-spring-throw.webp?v=420b1c92a8f8",
+    "downloadImage": "/assets/cards/downloads/saiyan-012-blue-hip-spring-throw.webp?v=b01635704fe7",
     "templateVersion": 3
   },
   {
@@ -187,11 +187,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-013-blue-round-throw.webp?v=1befdacb8541",
+    "image": "/assets/cards/saiyan-013-blue-round-throw.webp?v=a37018e2223a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-013-blue-round-throw.webp?v=f779be0d5a9d",
+    "downloadImage": "/assets/cards/downloads/saiyan-013-blue-round-throw.webp?v=e37ca4ffa8ea",
     "templateVersion": 3
   },
   {
@@ -202,11 +202,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp?v=3830ee5b0804",
+    "image": "/assets/cards/saiyan-014-blue-shoulder-wheel.webp?v=b5ddd64cc1bf",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-014-blue-shoulder-wheel.webp?v=4a8b80baf863",
+    "downloadImage": "/assets/cards/downloads/saiyan-014-blue-shoulder-wheel.webp?v=8eaa74066f99",
     "templateVersion": 3
   },
   {
@@ -877,11 +877,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-059-blue-big-outside-drop.webp?v=68e7d6ec8ad5",
+    "image": "/assets/cards/saiyan-059-blue-big-outside-drop.webp?v=a21e4af847f5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=69e4adc27f28",
+    "downloadImage": "/assets/cards/downloads/saiyan-059-blue-big-outside-drop.webp?v=79f7b59d5b61",
     "templateVersion": 3
   },
   {
@@ -892,11 +892,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp?v=c64b68856677",
+    "image": "/assets/cards/saiyan-060-blue-one-arm-shoulder-throw.webp?v=b5b3ef1f61cd",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-commons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=1ee17a24ed83",
+    "downloadImage": "/assets/cards/downloads/saiyan-060-blue-one-arm-shoulder-throw.webp?v=95f9592d23f4",
     "templateVersion": 3
   },
   {
@@ -907,11 +907,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-061-blue-body-drop-throw.webp?v=3b31145255ca",
+    "image": "/assets/cards/saiyan-061-blue-body-drop-throw.webp?v=f543bac99327",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-061-blue-body-drop-throw.webp?v=f93787dda4a2",
+    "downloadImage": "/assets/cards/downloads/saiyan-061-blue-body-drop-throw.webp?v=adcaa817db6a",
     "templateVersion": 3
   },
   {
@@ -922,11 +922,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-062-blue-inner-leg-throw.webp?v=d09ae5fb276d",
+    "image": "/assets/cards/saiyan-062-blue-inner-leg-throw.webp?v=769dd8b4a248",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-062-blue-inner-leg-throw.webp?v=4aef0b90c3ed",
+    "downloadImage": "/assets/cards/downloads/saiyan-062-blue-inner-leg-throw.webp?v=4db07acb676f",
     "templateVersion": 3
   },
   {
@@ -937,11 +937,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=c0a17437de7c",
+    "image": "/assets/cards/saiyan-063-blue-big-whirl-throw.webp?v=a15ab4c55c7e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp?v=25d1c1124e7f",
+    "downloadImage": "/assets/cards/downloads/saiyan-063-blue-big-whirl-throw.webp?v=afa4838f549e",
     "templateVersion": 3
   },
   {
@@ -952,11 +952,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=3a2fec3dbcbd",
+    "image": "/assets/cards/saiyan-064-blue-ground-holding.webp?v=219be32a3156",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-064-blue-ground-holding.webp?v=7311e83f3534",
+    "downloadImage": "/assets/cards/downloads/saiyan-064-blue-ground-holding.webp?v=bf0a9a2657ff",
     "templateVersion": 3
   },
   {
@@ -1867,11 +1867,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=dd14cf820ad6",
+    "image": "/assets/cards/saiyan-125-blue-off-balancing-opponent-drill.webp?v=88b5e4f00c02",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-125-blue-off-balancing-opponent-drill.webp?v=db22bcc022cd",
+    "downloadImage": "/assets/cards/downloads/saiyan-125-blue-off-balancing-opponent-drill.webp?v=c98352c1f2e7",
     "templateVersion": 3
   },
   {
@@ -1927,11 +1927,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-129-blue-deceiving-drill.webp?v=6ed095d0bb6c",
+    "image": "/assets/cards/saiyan-129-blue-deceiving-drill.webp?v=3ad6e2987d9a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-129-blue-deceiving-drill.webp?v=338655324e41",
+    "downloadImage": "/assets/cards/downloads/saiyan-129-blue-deceiving-drill.webp?v=6dc186596157",
     "templateVersion": 3
   },
   {
@@ -1987,11 +1987,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-133-blue-reversal-drill.webp?v=205a3de3d2a4",
+    "image": "/assets/cards/saiyan-133-blue-reversal-drill.webp?v=546426cb88a8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-133-blue-reversal-drill.webp?v=cc456b6dfc40",
+    "downloadImage": "/assets/cards/downloads/saiyan-133-blue-reversal-drill.webp?v=3ba79e008f0c",
     "templateVersion": 3
   },
   {
@@ -2062,11 +2062,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-138-blue-cradle-drill.webp?v=ffd4c1d60994",
+    "image": "/assets/cards/saiyan-138-blue-cradle-drill.webp?v=e1d471a3ea1a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-138-blue-cradle-drill.webp?v=f346ea468cd6",
+    "downloadImage": "/assets/cards/downloads/saiyan-138-blue-cradle-drill.webp?v=600c1c828cc7",
     "templateVersion": 3
   },
   {
@@ -2107,11 +2107,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-141-blue-enemies-drill.webp?v=95c017db2299",
+    "image": "/assets/cards/saiyan-141-blue-enemies-drill.webp?v=aab6e6102be8",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-141-blue-enemies-drill.webp?v=e6e404c04520",
+    "downloadImage": "/assets/cards/downloads/saiyan-141-blue-enemies-drill.webp?v=b6d3031ccb74",
     "templateVersion": 3
   },
   {
@@ -2167,11 +2167,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-145-blue-breakfall-drill.webp?v=9161bbf62a84",
+    "image": "/assets/cards/saiyan-145-blue-breakfall-drill.webp?v=6938c937cef5",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-145-blue-breakfall-drill.webp?v=739de920a9dc",
+    "downloadImage": "/assets/cards/downloads/saiyan-145-blue-breakfall-drill.webp?v=b0876f4a8970",
     "templateVersion": 3
   },
   {
@@ -2242,11 +2242,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-150-blue-neck-restraint-drill.webp?v=3d82f47dd744",
+    "image": "/assets/cards/saiyan-150-blue-neck-restraint-drill.webp?v=3b89b6a97d95",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-150-blue-neck-restraint-drill.webp?v=84661a205382",
+    "downloadImage": "/assets/cards/downloads/saiyan-150-blue-neck-restraint-drill.webp?v=709f702cdb94",
     "templateVersion": 3
   },
   {
@@ -3486,9 +3486,9 @@ export const catalog = [
     "style": "Blue",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=45b36337066f",
+    "image": "/assets/cards/saiyan-233-blue-life-defense-drill.webp?v=2a885c0b8e69",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-233-blue-life-defense-drill.webp?v=65291279af96",
+    "downloadImage": "/assets/cards/downloads/saiyan-233-blue-life-defense-drill.webp?v=209cfdb86af3",
     "width": 1060,
     "height": 1484,
     "templateVersion": 3
@@ -3967,11 +3967,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Frieza Saga",
     "status": "Ready",
-    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=f90c298a70c2",
+    "image": "/assets/cards/frieza-007-blue-energy-flight.webp?v=d50fc842c0f8",
     "width": 1060,
     "height": 1484,
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/7_a6851f5c-0958-4fd3-96e5-a64b03e59e21.png?v=1584310485",
-    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=a46eb7f37d7c",
+    "downloadImage": "/assets/cards/downloads/frieza-007-blue-energy-flight.webp?v=b7733193bd15",
     "rarity": "Common",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. Raise your anger 1 level.",
     "templateVersion": 3
@@ -5167,8 +5167,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/66_0ccd43e1-0c76-4922-b04c-6f80d8fb0155.png?v=1584310588",
     "rarity": "Uncommon",
     "rules": "Your opponents play with their hands revealed.",
-    "image": "/assets/cards/frieza-066-blue-mental-drill.webp?v=c3a80177ef74",
-    "downloadImage": "/assets/cards/downloads/frieza-066-blue-mental-drill.webp?v=0e6847a7b4ff",
+    "image": "/assets/cards/frieza-066-blue-mental-drill.webp?v=ea6755822fbb",
+    "downloadImage": "/assets/cards/downloads/frieza-066-blue-mental-drill.webp?v=f28eee536c5b",
     "templateVersion": 3
   },
   {
@@ -5235,8 +5235,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/70_2f8e3b1e-187c-4230-ab7e-9108477efd91.png?v=1584310594",
     "rarity": "Uncommon",
     "rules": "Once per turn, after your physical attack hits an opponent, search your Life Deck for a level 1 Ally and put it into your hand.",
-    "image": "/assets/cards/frieza-070-blue-allies-drill.webp?v=f008988d9c5a",
-    "downloadImage": "/assets/cards/downloads/frieza-070-blue-allies-drill.webp?v=faec7451614b",
+    "image": "/assets/cards/frieza-070-blue-allies-drill.webp?v=134a89e19da7",
+    "downloadImage": "/assets/cards/downloads/frieza-070-blue-allies-drill.webp?v=155af8097816",
     "templateVersion": 3
   },
   {
@@ -5839,8 +5839,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/98_2751d42b-59b8-42c9-90c0-cf4af355db70.png?v=1584310640",
     "rarity": "Rare",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 2 levels. Lower your opponent's anger 1 level.",
-    "image": "/assets/cards/frieza-098-blue-stance.webp?v=7f2c290d575b",
-    "downloadImage": "/assets/cards/downloads/frieza-098-blue-stance.webp?v=dc9b0fbf4142",
+    "image": "/assets/cards/frieza-098-blue-stance.webp?v=9ea4b51beacc",
+    "downloadImage": "/assets/cards/downloads/frieza-098-blue-stance.webp?v=2c68914a8a42",
     "templateVersion": 3
   },
   {
@@ -5856,8 +5856,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/99_0fae5046-d941-44e0-96e5-8391c8b396ae.png?v=1584310641",
     "rarity": "Rare",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level. Lower your opponent's anger 2 levels.",
-    "image": "/assets/cards/frieza-099-blue-energy-outburst.webp?v=520f08b93bd9",
-    "downloadImage": "/assets/cards/downloads/frieza-099-blue-energy-outburst.webp?v=7edee658f955",
+    "image": "/assets/cards/frieza-099-blue-energy-outburst.webp?v=db3d1a2ffbae",
+    "downloadImage": "/assets/cards/downloads/frieza-099-blue-energy-outburst.webp?v=b4551c3d505a",
     "templateVersion": 3
   },
   {
@@ -6748,11 +6748,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-012-blue-stomach-eruption.webp?v=43544c289366",
+    "image": "/assets/cards/trunks-012-blue-stomach-eruption.webp?v=c021429d75d8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-12",
-    "downloadImage": "/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp?v=93fc30abfb36",
+    "downloadImage": "/assets/cards/downloads/trunks-012-blue-stomach-eruption.webp?v=932070c8c6f2",
     "rules": "Physical attack. DAMAGE: AT stages. Lower your opponent's anger 1 level. HIT: Stop all your opponent's physical attacks this Combat. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3
@@ -7241,11 +7241,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-041-blue-driving-face-off.webp?v=5bb0257a03da",
+    "image": "/assets/cards/trunks-041-blue-driving-face-off.webp?v=18cd01416140",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-41",
-    "downloadImage": "/assets/cards/downloads/trunks-041-blue-driving-face-off.webp?v=5417d03e763b",
+    "downloadImage": "/assets/cards/downloads/trunks-041-blue-driving-face-off.webp?v=bfd1c33f157d",
     "rules": "Physical attack. DAMAGE: AT +3 stages. Lower your opponent's anger 1 level.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7258,11 +7258,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-042-breakthrough-drill.webp?v=efeedef30bf5",
+    "image": "/assets/cards/trunks-042-breakthrough-drill.webp?v=367c0e4aa1d1",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-42",
-    "downloadImage": "/assets/cards/downloads/trunks-042-breakthrough-drill.webp?v=5430de1f104a",
+    "downloadImage": "/assets/cards/downloads/trunks-042-breakthrough-drill.webp?v=0f25e720cbde",
     "rules": "While this Drill is in play, no player may play or use cards that end Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7275,11 +7275,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-043-blue-thrusting-fist-strike.webp?v=e10211b520da",
+    "image": "/assets/cards/trunks-043-blue-thrusting-fist-strike.webp?v=eb778d1a7aad",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-43",
-    "downloadImage": "/assets/cards/downloads/trunks-043-blue-thrusting-fist-strike.webp?v=d4cdef5564ce",
+    "downloadImage": "/assets/cards/downloads/trunks-043-blue-thrusting-fist-strike.webp?v=082832312dfe",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: End Combat after damage is dealt. Banish after use; if Saibaimen is anywhere in play, discard this card instead.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -8159,11 +8159,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-095-blue-softening-stance.webp?v=757c840efa67",
+    "image": "/assets/cards/trunks-095-blue-softening-stance.webp?v=1193ba9c6668",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-95",
-    "downloadImage": "/assets/cards/downloads/trunks-095-blue-softening-stance.webp?v=02a2cbb00875",
+    "downloadImage": "/assets/cards/downloads/trunks-095-blue-softening-stance.webp?v=e760054bd86b",
     "rules": "POWER: Lower an opponent's anger 2 levels and their Main Personality 2 stages.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -8176,11 +8176,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-096-blue-awakening.webp?v=92d508bd2fc4",
+    "image": "/assets/cards/trunks-096-blue-awakening.webp?v=00b034aef280",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-96",
-    "downloadImage": "/assets/cards/downloads/trunks-096-blue-awakening.webp?v=bca4f609544b",
+    "downloadImage": "/assets/cards/downloads/trunks-096-blue-awakening.webp?v=d60afafb31ad",
     "rules": "POWER: Lower an opponent's anger 2 levels. Place the top 3 cards of your discard pile at the bottom of your Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -8193,11 +8193,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-097-blue-leaving.webp?v=ae9284905db8",
+    "image": "/assets/cards/trunks-097-blue-leaving.webp?v=fa4e553ce929",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-97",
-    "downloadImage": "/assets/cards/downloads/trunks-097-blue-leaving.webp?v=092da6839d02",
+    "downloadImage": "/assets/cards/downloads/trunks-097-blue-leaving.webp?v=d807f2c93fbe",
     "rules": "POWER: End Combat. Neither player discards cards during the Rejuvenation Step of this turn. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -9269,11 +9269,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-149-blue-style-mastery.webp?v=077f0541b834",
+    "image": "/assets/cards/trunks-149-blue-style-mastery.webp?v=aa75bfda5362",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-149",
-    "downloadImage": "/assets/cards/downloads/trunks-149-blue-style-mastery.webp?v=48dc366271ff",
+    "downloadImage": "/assets/cards/downloads/trunks-149-blue-style-mastery.webp?v=1251f14d7447",
     "rules": "Your opponent needs 6 anger to advance a Personality level. Your successful Blue Style attacks lower your opponent's anger 1 level.",
     "rarity": "Rare",
     "templateVersion": 3
@@ -10988,11 +10988,11 @@ export const catalog = [
     "style": "Blue",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-p04-blue-battle-drill.webp?v=d6bc1dd0a789",
+    "image": "/assets/cards/trunks-p04-blue-battle-drill.webp?v=5a51e414c38c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-promo-p4",
-    "downloadImage": "/assets/cards/downloads/trunks-p04-blue-battle-drill.webp?v=1f2cba29133f",
+    "downloadImage": "/assets/cards/downloads/trunks-p04-blue-battle-drill.webp?v=60fcde8c86e6",
     "rules": "Neither player may play or use cards that end Combat while this Drill is in play.",
     "rarity": "Promo",
     "templateVersion": 3
@@ -11311,8 +11311,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-013-blue-defensive-flight.webp?v=0aad8932bb21",
-    "downloadImage": "/assets/cards/downloads/android-013-blue-defensive-flight.webp?v=a6618f81c020",
+    "image": "/assets/cards/android-013-blue-defensive-flight.webp?v=daa46b7dcff0",
+    "downloadImage": "/assets/cards/downloads/android-013-blue-defensive-flight.webp?v=a506df2a2418",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-13",
@@ -11328,8 +11328,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-014-blue-foot-smash.webp?v=15ec875b5f1f",
-    "downloadImage": "/assets/cards/downloads/android-014-blue-foot-smash.webp?v=5bc1fc7c38dc",
+    "image": "/assets/cards/android-014-blue-foot-smash.webp?v=f3486201195d",
+    "downloadImage": "/assets/cards/downloads/android-014-blue-foot-smash.webp?v=4ba90e9fa486",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-14",
@@ -11345,8 +11345,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-015-blue-glare-attack.webp?v=37245b15bd32",
-    "downloadImage": "/assets/cards/downloads/android-015-blue-glare-attack.webp?v=72dc7d1a7b44",
+    "image": "/assets/cards/android-015-blue-glare-attack.webp?v=eefb92587d92",
+    "downloadImage": "/assets/cards/downloads/android-015-blue-glare-attack.webp?v=f6789b38c895",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-15",
@@ -11362,8 +11362,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-016-blue-idea.webp?v=ab6720fadaa3",
-    "downloadImage": "/assets/cards/downloads/android-016-blue-idea.webp?v=f7caaaad8e50",
+    "image": "/assets/cards/android-016-blue-idea.webp?v=2ccb108447cf",
+    "downloadImage": "/assets/cards/downloads/android-016-blue-idea.webp?v=0c6c7d03f430",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-16",
@@ -11379,8 +11379,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-017-blue-sidestep.webp?v=82d904417aa7",
-    "downloadImage": "/assets/cards/downloads/android-017-blue-sidestep.webp?v=cd485f3883a6",
+    "image": "/assets/cards/android-017-blue-sidestep.webp?v=c683ffcae307",
+    "downloadImage": "/assets/cards/downloads/android-017-blue-sidestep.webp?v=68d52c301a9f",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-17",
@@ -11668,8 +11668,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-034-blue-battle-readiness.webp?v=610a358cbca6",
-    "downloadImage": "/assets/cards/downloads/android-034-blue-battle-readiness.webp?v=1276687cdac5",
+    "image": "/assets/cards/android-034-blue-battle-readiness.webp?v=ab7111780b67",
+    "downloadImage": "/assets/cards/downloads/android-034-blue-battle-readiness.webp?v=51edd27f0f3e",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-34",
@@ -12008,8 +12008,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-054-blue-betrayal.webp?v=d5cd66774785",
-    "downloadImage": "/assets/cards/downloads/android-054-blue-betrayal.webp?v=7af31ba11d5b",
+    "image": "/assets/cards/android-054-blue-betrayal.webp?v=1c6e864e613e",
+    "downloadImage": "/assets/cards/downloads/android-054-blue-betrayal.webp?v=1e4d8ed8930b",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-54",
@@ -12025,8 +12025,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-055-blue-holding-drill.webp?v=f9abcae7fc7d",
-    "downloadImage": "/assets/cards/downloads/android-055-blue-holding-drill.webp?v=5c1514901a4d",
+    "image": "/assets/cards/android-055-blue-holding-drill.webp?v=dcdd81ca17a3",
+    "downloadImage": "/assets/cards/downloads/android-055-blue-holding-drill.webp?v=c96229a84bda",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-55",
@@ -12042,8 +12042,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-056-blue-right-cross.webp?v=a49aeda445ca",
-    "downloadImage": "/assets/cards/downloads/android-056-blue-right-cross.webp?v=da69cf0345f0",
+    "image": "/assets/cards/android-056-blue-right-cross.webp?v=6989b2e126f5",
+    "downloadImage": "/assets/cards/downloads/android-056-blue-right-cross.webp?v=7feffebce338",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-56",
@@ -12059,8 +12059,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-057-blue-rush.webp?v=01e89c3555c8",
-    "downloadImage": "/assets/cards/downloads/android-057-blue-rush.webp?v=48b500cd1653",
+    "image": "/assets/cards/android-057-blue-rush.webp?v=2e97c5f72fb6",
+    "downloadImage": "/assets/cards/downloads/android-057-blue-rush.webp?v=84e190d255f7",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-57",
@@ -12076,8 +12076,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-058-blue-smirk.webp?v=5f3e2a489b36",
-    "downloadImage": "/assets/cards/downloads/android-058-blue-smirk.webp?v=8c2322566f5b",
+    "image": "/assets/cards/android-058-blue-smirk.webp?v=181670377c1e",
+    "downloadImage": "/assets/cards/downloads/android-058-blue-smirk.webp?v=13cbb89873e5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-58",
@@ -12773,8 +12773,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-099-blue-terror.webp?v=8a220b96b553",
-    "downloadImage": "/assets/cards/downloads/android-099-blue-terror.webp?v=b42c6a898639",
+    "image": "/assets/cards/android-099-blue-terror.webp?v=0bbf095cf7bc",
+    "downloadImage": "/assets/cards/downloads/android-099-blue-terror.webp?v=a1f39a74c9f3",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-99",
@@ -13579,8 +13579,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-001-blue-sliding-dodge.webp?v=efa6fa925e92",
-    "downloadImage": "/assets/cards/downloads/cell-001-blue-sliding-dodge.webp?v=223a0b36f8ae",
+    "image": "/assets/cards/cell-001-blue-sliding-dodge.webp?v=d0ecf1c05127",
+    "downloadImage": "/assets/cards/downloads/cell-001-blue-sliding-dodge.webp?v=59d16f3765a9",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-1",
@@ -13613,8 +13613,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-003-blue-fist-strike.webp?v=a6c9060a82f0",
-    "downloadImage": "/assets/cards/downloads/cell-003-blue-fist-strike.webp?v=492d4b904103",
+    "image": "/assets/cards/cell-003-blue-fist-strike.webp?v=f223dbfe47a7",
+    "downloadImage": "/assets/cards/downloads/cell-003-blue-fist-strike.webp?v=c3ea30351b02",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-3",
@@ -13715,8 +13715,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-009-blue-flight.webp?v=b4f48ad40b4d",
-    "downloadImage": "/assets/cards/downloads/cell-009-blue-flight.webp?v=5f3871079664",
+    "image": "/assets/cards/cell-009-blue-flight.webp?v=689f27bcd995",
+    "downloadImage": "/assets/cards/downloads/cell-009-blue-flight.webp?v=e815f6bf209d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-9",
@@ -13851,8 +13851,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-017-blue-backflip.webp?v=d06dc57f8836",
-    "downloadImage": "/assets/cards/downloads/cell-017-blue-backflip.webp?v=b17fd865301d",
+    "image": "/assets/cards/cell-017-blue-backflip.webp?v=3212f999c2cc",
+    "downloadImage": "/assets/cards/downloads/cell-017-blue-backflip.webp?v=bd953f75564a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-17",
@@ -13987,8 +13987,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-025-blue-swift-dodge.webp?v=8c31be0c26f4",
-    "downloadImage": "/assets/cards/downloads/cell-025-blue-swift-dodge.webp?v=1bfb478e60b5",
+    "image": "/assets/cards/cell-025-blue-swift-dodge.webp?v=38d12bfdbe89",
+    "downloadImage": "/assets/cards/downloads/cell-025-blue-swift-dodge.webp?v=e9786b02e3de",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-25",
@@ -14361,8 +14361,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-047-blue-evasion.webp?v=dc32f720ed1e",
-    "downloadImage": "/assets/cards/downloads/cell-047-blue-evasion.webp?v=a4dbc67ae929",
+    "image": "/assets/cards/cell-047-blue-evasion.webp?v=9ea5b919aace",
+    "downloadImage": "/assets/cards/downloads/cell-047-blue-evasion.webp?v=3a9ae87357df",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-47",
@@ -14514,8 +14514,8 @@ export const catalog = [
     "style": "Blue",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-056-blue-palm-shot.webp?v=bfef8faddef2",
-    "downloadImage": "/assets/cards/downloads/cell-056-blue-palm-shot.webp?v=a96341e1accf",
+    "image": "/assets/cards/cell-056-blue-palm-shot.webp?v=d21e684cc501",
+    "downloadImage": "/assets/cards/downloads/cell-056-blue-palm-shot.webp?v=a69b6a4e2895",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-56",
@@ -14672,8 +14672,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-65",
     "rules": "Stops a physical attack. Place the bottom card of your discard pile on the bottom of your Life Deck. Lower your opponent's anger 1 level.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-065-blue-flip.webp?v=fc9983f7edb2",
-    "downloadImage": "/assets/cards/downloads/cell-065-blue-flip.webp?v=2072d4183c01",
+    "image": "/assets/cards/cell-065-blue-flip.webp?v=d96700d0e720",
+    "downloadImage": "/assets/cards/downloads/cell-065-blue-flip.webp?v=e7315394a4bd",
     "templateVersion": 3
   },
   {
@@ -14689,8 +14689,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-66",
     "rules": "Stops a physical attack. Discard 1 of your opponent's Setups or Drills.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-066-blue-wrist-block.webp?v=fdf496c3f0cb",
-    "downloadImage": "/assets/cards/downloads/cell-066-blue-wrist-block.webp?v=c9c2827157aa",
+    "image": "/assets/cards/cell-066-blue-wrist-block.webp?v=32b4077d9dd6",
+    "downloadImage": "/assets/cards/downloads/cell-066-blue-wrist-block.webp?v=d834e86c0f75",
     "templateVersion": 3
   },
   {
@@ -15533,8 +15533,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-104",
     "rules": "Physical attack. DAMAGE: AT +5 stages. HIT: Lower your opponent's anger 2 levels.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-104-blue-straight-jab.webp?v=ba3aec0c9318",
-    "downloadImage": "/assets/cards/downloads/cell-104-blue-straight-jab.webp?v=522a2483fee3",
+    "image": "/assets/cards/cell-104-blue-straight-jab.webp?v=8a7f32aa1a73",
+    "downloadImage": "/assets/cards/downloads/cell-104-blue-straight-jab.webp?v=21fbaa29a210",
     "templateVersion": 3
   },
   {
@@ -15786,8 +15786,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-117",
     "rules": "Attacks performed by your Allies deal +2 stages of damage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-117-blue-assistance-drill.webp?v=4c51ddd20092",
-    "downloadImage": "/assets/cards/downloads/cell-117-blue-assistance-drill.webp?v=f6b2d99fc592",
+    "image": "/assets/cards/cell-117-blue-assistance-drill.webp?v=d18380dc591b",
+    "downloadImage": "/assets/cards/downloads/cell-117-blue-assistance-drill.webp?v=648974da70e6",
     "templateVersion": 3
   },
   {
@@ -15939,8 +15939,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-126",
     "rules": "Once per Combat, you may discard a card from your hand to stop a physical or energy attack. If it is Blue Style, lower your opponent's anger 2 levels.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-126-blue-style-mastery.webp?v=f01dd42c4d86",
-    "downloadImage": "/assets/cards/downloads/cell-126-blue-style-mastery.webp?v=105c1dde5314",
+    "image": "/assets/cards/cell-126-blue-style-mastery.webp?v=8034631c93a3",
+    "downloadImage": "/assets/cards/downloads/cell-126-blue-style-mastery.webp?v=920ef1b2cd9e",
     "templateVersion": 3
   },
   {
@@ -16386,8 +16386,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-143",
     "rules": "Physical attack. DAMAGE: 1 life card. HIT: If the top card of your opponent's discard pile is not a physical attack, they discard the top 5 cards of their Life Deck.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-143-blue-elbow-drop.webp?v=1b10f76cb439",
-    "downloadImage": "/assets/cards/downloads/cell-143-blue-elbow-drop.webp?v=329a9eea195e",
+    "image": "/assets/cards/cell-143-blue-elbow-drop.webp?v=de6aec647a35",
+    "downloadImage": "/assets/cards/downloads/cell-143-blue-elbow-drop.webp?v=174703f3d69e",
     "templateVersion": 3
   },
   {
@@ -16403,8 +16403,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-144",
     "rules": "Physical attack. DAMAGE: AT stages. Your opponent cannot take life cards or stages of damage from this attack. You may use this Drill twice per Combat.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-144-blue-diving-punch-drill.webp?v=ac7585863d01",
-    "downloadImage": "/assets/cards/downloads/cell-144-blue-diving-punch-drill.webp?v=c58b6971fc5a",
+    "image": "/assets/cards/cell-144-blue-diving-punch-drill.webp?v=07d19d2e105d",
+    "downloadImage": "/assets/cards/downloads/cell-144-blue-diving-punch-drill.webp?v=c96249c3e9fc",
     "templateVersion": 3
   },
   {
@@ -16420,8 +16420,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-145",
     "rules": "Physical attack costing 2 stages. DAMAGE: AT +2 stages. HIT: Your opponent discards X life cards. X = 5 minus their anger level.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-145-blue-left-cross-punch.webp?v=36e027d7777c",
-    "downloadImage": "/assets/cards/downloads/cell-145-blue-left-cross-punch.webp?v=6f92dd451dea",
+    "image": "/assets/cards/cell-145-blue-left-cross-punch.webp?v=abf7768833e3",
+    "downloadImage": "/assets/cards/downloads/cell-145-blue-left-cross-punch.webp?v=972edf0892fe",
     "templateVersion": 3
   },
   {
@@ -16625,8 +16625,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-156",
     "rules": "Physical attack. DAMAGE: AT +2 stages. Lower your opponent's anger to 0. They cannot gain anger until the beginning of their next turn.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-156-blue-head-charge.webp?v=afbad18d01be",
-    "downloadImage": "/assets/cards/downloads/cell-156-blue-head-charge.webp?v=8b50d968b7c2",
+    "image": "/assets/cards/cell-156-blue-head-charge.webp?v=d3793956513b",
+    "downloadImage": "/assets/cards/downloads/cell-156-blue-head-charge.webp?v=19c277280f42",
     "templateVersion": 3
   },
   {
@@ -16798,8 +16798,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +3 stages. HIT: Lower your opponent's anger 2 levels.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-004-blue-forced-punch.webp?v=48a3011923ae",
-    "downloadImage": "/assets/cards/downloads/cell-games-004-blue-forced-punch.webp?v=c71f712de998"
+    "image": "/assets/cards/cell-games-004-blue-forced-punch.webp?v=a9d08f8d1b26",
+    "downloadImage": "/assets/cards/downloads/cell-games-004-blue-forced-punch.webp?v=ec63c0358c8c"
   },
   {
     "id": "cell-games-005-blue-thrusted-blast",
@@ -16815,8 +16815,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Your Main Personality's PUR is +2 until the end of your next turn.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-005-blue-thrusted-blast.webp?v=c7f7e48ff96d",
-    "downloadImage": "/assets/cards/downloads/cell-games-005-blue-thrusted-blast.webp?v=5df06ee9602e"
+    "image": "/assets/cards/cell-games-005-blue-thrusted-blast.webp?v=e8cd6519b0ef",
+    "downloadImage": "/assets/cards/downloads/cell-games-005-blue-thrusted-blast.webp?v=0fdb26b6f5a8"
   },
   {
     "id": "cell-games-006-deadly-attack",
@@ -17427,8 +17427,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Or, stop a physical attack.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-041-blue-arm-blast.webp?v=2adb9dec899d",
-    "downloadImage": "/assets/cards/downloads/cell-games-041-blue-arm-blast.webp?v=f2cd2d4ce13f"
+    "image": "/assets/cards/cell-games-041-blue-arm-blast.webp?v=68a1a41ecac1",
+    "downloadImage": "/assets/cards/downloads/cell-games-041-blue-arm-blast.webp?v=314372f71c87"
   },
   {
     "id": "cell-games-042-blue-defensive-effect",
@@ -17444,8 +17444,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Lower an opponent's anger 1 level. Ignore all effects that raise any player's anger for the rest of Combat. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-042-blue-defensive-effect.webp?v=79a65ee6cd84",
-    "downloadImage": "/assets/cards/downloads/cell-games-042-blue-defensive-effect.webp?v=6a0e436c2394"
+    "image": "/assets/cards/cell-games-042-blue-defensive-effect.webp?v=1726cb191f1b",
+    "downloadImage": "/assets/cards/downloads/cell-games-042-blue-defensive-effect.webp?v=fdf2285d98a4"
   },
   {
     "id": "cell-games-043-blue-energy-arrow",
@@ -17461,8 +17461,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 3 life cards. HIT: Banish the top 10 cards of your opponent's discard pile.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-043-blue-energy-arrow.webp?v=f7ab042870f0",
-    "downloadImage": "/assets/cards/downloads/cell-games-043-blue-energy-arrow.webp?v=eb20e89a4597"
+    "image": "/assets/cards/cell-games-043-blue-energy-arrow.webp?v=03b438d0f890",
+    "downloadImage": "/assets/cards/downloads/cell-games-043-blue-energy-arrow.webp?v=7c4c41675e23"
   },
   {
     "id": "cell-games-044-blue-energy-blast",
@@ -17478,8 +17478,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Discard any cards attached to your Main Personality. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-044-blue-energy-blast.webp?v=9cdaa4d30a5d",
-    "downloadImage": "/assets/cards/downloads/cell-games-044-blue-energy-blast.webp?v=517dad7ce719"
+    "image": "/assets/cards/cell-games-044-blue-energy-blast.webp?v=8e2969ecbd90",
+    "downloadImage": "/assets/cards/downloads/cell-games-044-blue-energy-blast.webp?v=6f8182a57a1e"
   },
   {
     "id": "cell-games-045-blue-prepared-drill",
@@ -17495,8 +17495,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-045-blue-prepared-drill.webp?v=47bd3c31fd86",
-    "downloadImage": "/assets/cards/downloads/cell-games-045-blue-prepared-drill.webp?v=eef878cab410"
+    "image": "/assets/cards/cell-games-045-blue-prepared-drill.webp?v=296fc1405155",
+    "downloadImage": "/assets/cards/downloads/cell-games-045-blue-prepared-drill.webp?v=3c155030bf70"
   },
   {
     "id": "cell-games-046-blue-recovery-drill",
@@ -17512,8 +17512,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. POWER: Once per Combat, after dealing 5 or more life cards of damage, discard 1 card from your hand to raise your Main Personality to their highest stage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-046-blue-recovery-drill.webp?v=141acd310a24",
-    "downloadImage": "/assets/cards/downloads/cell-games-046-blue-recovery-drill.webp?v=085382781dd2"
+    "image": "/assets/cards/cell-games-046-blue-recovery-drill.webp?v=4a480346d03a",
+    "downloadImage": "/assets/cards/downloads/cell-games-046-blue-recovery-drill.webp?v=5efc71a502f0"
   },
   {
     "id": "cell-games-047-blue-pivot-kick",
@@ -17529,8 +17529,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT stages. HIT: Capture an opponent's Dragon Ball.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-047-blue-pivot-kick.webp?v=01a1c1756941",
-    "downloadImage": "/assets/cards/downloads/cell-games-047-blue-pivot-kick.webp?v=0b39206e2b99"
+    "image": "/assets/cards/cell-games-047-blue-pivot-kick.webp?v=ea9f4bfab9fc",
+    "downloadImage": "/assets/cards/downloads/cell-games-047-blue-pivot-kick.webp?v=389771637fd9"
   },
   {
     "id": "cell-games-048-blue-stamina-drill",
@@ -17546,8 +17546,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-048-blue-stamina-drill.webp?v=7262be056f17",
-    "downloadImage": "/assets/cards/downloads/cell-games-048-blue-stamina-drill.webp?v=5c035a3fda2f"
+    "image": "/assets/cards/cell-games-048-blue-stamina-drill.webp?v=253d462821e1",
+    "downloadImage": "/assets/cards/downloads/cell-games-048-blue-stamina-drill.webp?v=eadb88ac98c7"
   },
   {
     "id": "cell-games-049-blue-total-resistance",
@@ -17563,8 +17563,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. POWER: Banish a Drill in play. Your Main Personality and Allies gain 2 stages. Raise your anger 1 level. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-049-blue-total-resistance.webp?v=78103e4c0f88",
-    "downloadImage": "/assets/cards/downloads/cell-games-049-blue-total-resistance.webp?v=f8c4852d7f48"
+    "image": "/assets/cards/cell-games-049-blue-total-resistance.webp?v=0fe83f0bc991",
+    "downloadImage": "/assets/cards/downloads/cell-games-049-blue-total-resistance.webp?v=d6cdd1e9c2d6"
   },
   {
     "id": "cell-games-050-bracing-for-impact",
@@ -18311,8 +18311,8 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 1 life card per Uncommon card in your discard pile, to a maximum of 10 life cards.",
     "rarity": "Rare",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-093-blue-windup-blast.webp?v=64c691f41569",
-    "downloadImage": "/assets/cards/downloads/cell-games-093-blue-windup-blast.webp?v=1f1a2f5fbc0b"
+    "image": "/assets/cards/cell-games-093-blue-windup-blast.webp?v=59ac6535cb3f",
+    "downloadImage": "/assets/cards/downloads/cell-games-093-blue-windup-blast.webp?v=6e3a085feaa0"
   },
   {
     "id": "cell-games-094-cell-jr-1",
@@ -18581,8 +18581,8 @@ export const catalog = [
     "rules": "POWER: Prevent 5 stages of damage from a physical attack. Discard an Ally in play. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-007-blue-defensive-stance.webp?v=fe5a21c379e4",
-    "downloadImage": "/assets/cards/downloads/world-games-007-blue-defensive-stance.webp?v=b8fc2d491b04"
+    "image": "/assets/cards/world-games-007-blue-defensive-stance.webp?v=1021d05ca83f",
+    "downloadImage": "/assets/cards/downloads/world-games-007-blue-defensive-stance.webp?v=47fabb337c29"
   },
   {
     "id": "world-games-008-blue-fire-kick",
@@ -18598,8 +18598,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +5 stages. If you declared a Tokui Waza and your Main Personality is Pikkon, you may instead stop a physical attack. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-008-blue-fire-kick.webp?v=cc9b31242b2f",
-    "downloadImage": "/assets/cards/downloads/world-games-008-blue-fire-kick.webp?v=9fb1b19999c0"
+    "image": "/assets/cards/world-games-008-blue-fire-kick.webp?v=687c0fd51c01",
+    "downloadImage": "/assets/cards/downloads/world-games-008-blue-fire-kick.webp?v=9ebbb9b6523e"
   },
   {
     "id": "world-games-009-blue-flying-kick",
@@ -18615,8 +18615,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. If Red Flying Kick is in your discard pile, gain 5 stages. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-009-blue-flying-kick.webp?v=bdcdd3d4f90a",
-    "downloadImage": "/assets/cards/downloads/world-games-009-blue-flying-kick.webp?v=b16ae31d535e"
+    "image": "/assets/cards/world-games-009-blue-flying-kick.webp?v=6a8cf768d53e",
+    "downloadImage": "/assets/cards/downloads/world-games-009-blue-flying-kick.webp?v=2cba1aadb865"
   },
   {
     "id": "world-games-010-blue-forearm-block",
@@ -18632,8 +18632,8 @@ export const catalog = [
     "rules": "Stops a physical attack. Also stops a physical attack your opponent performs during their next 'Attacker Attacks' phase. Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-010-blue-forearm-block.webp?v=68b371dde76d",
-    "downloadImage": "/assets/cards/downloads/world-games-010-blue-forearm-block.webp?v=3f8776a443ed"
+    "image": "/assets/cards/world-games-010-blue-forearm-block.webp?v=0d3aea580e5c",
+    "downloadImage": "/assets/cards/downloads/world-games-010-blue-forearm-block.webp?v=c9af84fca651"
   },
   {
     "id": "world-games-011-blue-right-power-strike",
@@ -18649,8 +18649,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. Your next energy attack this Combat costs 0 stages. HIT: If you declared a Tokui Waza, raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-011-blue-right-power-strike.webp?v=3a41a12c509f",
-    "downloadImage": "/assets/cards/downloads/world-games-011-blue-right-power-strike.webp?v=d3ab2b125007"
+    "image": "/assets/cards/world-games-011-blue-right-power-strike.webp?v=d6fc1ee4e07d",
+    "downloadImage": "/assets/cards/downloads/world-games-011-blue-right-power-strike.webp?v=1cea0c3a0f2a"
   },
   {
     "id": "world-games-012-blue-sneak-attack",
@@ -18666,8 +18666,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +5 stages. HIT: If Red Trap is in play, discard all Setups and Drills in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-012-blue-sneak-attack.webp?v=300c8747a8c1",
-    "downloadImage": "/assets/cards/downloads/world-games-012-blue-sneak-attack.webp?v=e93ef7c98ab1"
+    "image": "/assets/cards/world-games-012-blue-sneak-attack.webp?v=986d2fb406bd",
+    "downloadImage": "/assets/cards/downloads/world-games-012-blue-sneak-attack.webp?v=fe14957bcbf2"
   },
   {
     "id": "world-games-013-blue-thunder-flash",
@@ -18683,8 +18683,8 @@ export const catalog = [
     "rules": "Sensei Deck. Energy attack costing 2 stages. DAMAGE: 5 life cards. If you declared a Tokui Waza and your opponent declared a Red Tokui Waza, raise your anger 2 levels.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-013-blue-thunder-flash.webp?v=beaa0aefe0a2",
-    "downloadImage": "/assets/cards/downloads/world-games-013-blue-thunder-flash.webp?v=b99315d69974"
+    "image": "/assets/cards/world-games-013-blue-thunder-flash.webp?v=1157ae49841c",
+    "downloadImage": "/assets/cards/downloads/world-games-013-blue-thunder-flash.webp?v=14ea32dc4da8"
   },
   {
     "id": "world-games-014-goten-s-focused-blast",
@@ -19295,8 +19295,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. Raise your anger 1 level. HIT: Stops all energy attacks for the rest of Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-049-blue-back-kick.webp?v=4b90444d2415",
-    "downloadImage": "/assets/cards/downloads/world-games-049-blue-back-kick.webp?v=23b783934a87"
+    "image": "/assets/cards/world-games-049-blue-back-kick.webp?v=de46118b43de",
+    "downloadImage": "/assets/cards/downloads/world-games-049-blue-back-kick.webp?v=88f1b543fc6a"
   },
   {
     "id": "world-games-050-blue-energy-transformation",
@@ -19312,7 +19312,7 @@ export const catalog = [
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. Raise your anger 1 level. HIT: You may search your Life Deck for a Battleground and place it into play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-050-blue-energy-transformation.webp?v=5945f022b8ff",
-    "downloadImage": "/assets/cards/downloads/world-games-050-blue-energy-transformation.webp?v=161f2ffb2e9e"
+    "image": "/assets/cards/world-games-050-blue-energy-transformation.webp?v=8f1317968af0",
+    "downloadImage": "/assets/cards/downloads/world-games-050-blue-energy-transformation.webp?v=c7e01574ab71"
   }
 ];
