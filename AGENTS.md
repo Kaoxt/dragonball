@@ -1,3 +1,17 @@
+## Black Tokui Waza stroke weight — November 10, 2026
+
+All 90 current Black cards retain the same 黒 paths, gray #777d85, rounded
+caps, dark width-13 outline, transforms, backing and total symbol footprint.
+Only the gray stroke is reduced 10%, from 7.69230769 to 6.923076921 (about
+10.90 to 9.81 native pixels at standard placement). Preserve both enlarged
+Mastery placements. All 15 World Games Black cards are included. Reuse the
+corrected Saiyan #65 donor or apply scripts/black_symbol_weight.py after style
+selection. The two older Black symbol builders also apply this helper.
+Evidence and reversible edits: tools/card-corrections/v3-black-stroke-weight/.
+Keep every non-symbol pixel unchanged in both lossless export sizes; retain
+historical audits and follow the explicit revision chain in both the Node
+helpers and the Python card-type reference checks.
+
 ## Freestyle Tokui Waza stroke weight — November 10, 2026
 
 All 374 published white 白 symbols retain their native paths, transforms,

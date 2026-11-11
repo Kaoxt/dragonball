@@ -967,11 +967,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-065-black-fore-fist-punch.webp?v=975f35924b91",
+    "image": "/assets/cards/saiyan-065-black-fore-fist-punch.webp?v=8904829eb665",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-065-black-fore-fist-punch.webp?v=f8b6edaeff26",
+    "downloadImage": "/assets/cards/downloads/saiyan-065-black-fore-fist-punch.webp?v=cfe5289994dc",
     "templateVersion": 3
   },
   {
@@ -982,11 +982,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=dd5025d4c035",
+    "image": "/assets/cards/saiyan-066-black-knife-hand-strike.webp?v=8e80cf9c0851",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=83c64edeebf8",
+    "downloadImage": "/assets/cards/downloads/saiyan-066-black-knife-hand-strike.webp?v=67061f51e3bd",
     "templateVersion": 3
   },
   {
@@ -997,11 +997,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=9b4a9b4e1ec7",
+    "image": "/assets/cards/saiyan-067-black-elbow-strike.webp?v=f81b6cef7d52",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-067-black-elbow-strike.webp?v=012b8f44b856",
+    "downloadImage": "/assets/cards/downloads/saiyan-067-black-elbow-strike.webp?v=66be256b8359",
     "templateVersion": 3
   },
   {
@@ -1012,11 +1012,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-068-black-front-kick.webp?v=ecd73eb25fd4",
+    "image": "/assets/cards/saiyan-068-black-front-kick.webp?v=c4cb0ce85c26",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-068-black-front-kick.webp?v=b5b8a2e84510",
+    "downloadImage": "/assets/cards/downloads/saiyan-068-black-front-kick.webp?v=f5769fb5d93a",
     "templateVersion": 3
   },
   {
@@ -1027,11 +1027,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-069-black-side-kick.webp?v=b75ae4ef221b",
+    "image": "/assets/cards/saiyan-069-black-side-kick.webp?v=05eaa582f636",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-069-black-side-kick.webp?v=0441f2db9aa0",
+    "downloadImage": "/assets/cards/downloads/saiyan-069-black-side-kick.webp?v=e21c94de69f7",
     "templateVersion": 3
   },
   {
@@ -1042,11 +1042,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=48735e9f7067",
+    "image": "/assets/cards/saiyan-070-black-turning-kick.webp?v=eee49979b5fc",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-070-black-turning-kick.webp?v=2c8c07165b23",
+    "downloadImage": "/assets/cards/downloads/saiyan-070-black-turning-kick.webp?v=9c09240422c7",
     "templateVersion": 3
   },
   {
@@ -1057,11 +1057,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=341aee690f66",
+    "image": "/assets/cards/saiyan-071-black-back-kick.webp?v=3c130d747b5e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=472e4be586f0",
+    "downloadImage": "/assets/cards/downloads/saiyan-071-black-back-kick.webp?v=f8b433f62fd5",
     "templateVersion": 3
   },
   {
@@ -1072,11 +1072,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=ec1dedb65773",
+    "image": "/assets/cards/saiyan-072-black-axe-heel-kick.webp?v=c96d35b654aa",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp?v=08e4a35131db",
+    "downloadImage": "/assets/cards/downloads/saiyan-072-black-axe-heel-kick.webp?v=6df84c7d802a",
     "templateVersion": 3
   },
   {
@@ -1087,11 +1087,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=baabb22fd3cf",
+    "image": "/assets/cards/saiyan-073-black-rear-spin-kick.webp?v=741c1bccdb8e",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-073-black-rear-spin-kick.webp?v=2141fb18f1f0",
+    "downloadImage": "/assets/cards/downloads/saiyan-073-black-rear-spin-kick.webp?v=7fb28e0c4693",
     "templateVersion": 3
   },
   {
@@ -1102,11 +1102,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=b0ec8a0ad406",
+    "image": "/assets/cards/saiyan-074-black-jump-turn-kick.webp?v=ceff39e691e6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-074-black-jump-turn-kick.webp?v=38e797a8074e",
+    "downloadImage": "/assets/cards/downloads/saiyan-074-black-jump-turn-kick.webp?v=2be36b26c606",
     "templateVersion": 3
   },
   {
@@ -1897,11 +1897,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=390328e3e455",
+    "image": "/assets/cards/saiyan-127-black-takedown-drill.webp?v=c6093b3e27b4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=7cad7c1c1cbd",
+    "downloadImage": "/assets/cards/downloads/saiyan-127-black-takedown-drill.webp?v=0393ed0ea358",
     "templateVersion": 3
   },
   {
@@ -1957,11 +1957,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=cce2ec53a88f",
+    "image": "/assets/cards/saiyan-131-black-bear-hug-drill.webp?v=c5c9eef0b761",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp?v=386a57953091",
+    "downloadImage": "/assets/cards/downloads/saiyan-131-black-bear-hug-drill.webp?v=30d5ca74c6b4",
     "templateVersion": 3
   },
   {
@@ -2017,11 +2017,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-135-black-arm-bar-drill.webp?v=093ae631e217",
+    "image": "/assets/cards/saiyan-135-black-arm-bar-drill.webp?v=d960ab5e2069",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-135-black-arm-bar-drill.webp?v=9c536e0a38f5",
+    "downloadImage": "/assets/cards/downloads/saiyan-135-black-arm-bar-drill.webp?v=a1a7018dba5a",
     "templateVersion": 3
   },
   {
@@ -2032,11 +2032,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=7ff9d3045062",
+    "image": "/assets/cards/saiyan-136-black-free-style-drill.webp?v=2cbba81957c0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=8df934a5d668",
+    "downloadImage": "/assets/cards/downloads/saiyan-136-black-free-style-drill.webp?v=6d7abbf6b07b",
     "templateVersion": 3
   },
   {
@@ -2137,11 +2137,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-143-black-physical-drill.webp?v=a6d4e356c116",
+    "image": "/assets/cards/saiyan-143-black-physical-drill.webp?v=309ed0eb49d9",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-143-black-physical-drill.webp?v=2d4fbbf068b9",
+    "downloadImage": "/assets/cards/downloads/saiyan-143-black-physical-drill.webp?v=bebf56cff7c3",
     "templateVersion": 3
   },
   {
@@ -2197,11 +2197,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-147-black-striking-drill.webp?v=3dc7dcc42fe6",
+    "image": "/assets/cards/saiyan-147-black-striking-drill.webp?v=cc5e8f36f3be",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-147-black-striking-drill.webp?v=2f92d4d3aff9",
+    "downloadImage": "/assets/cards/downloads/saiyan-147-black-striking-drill.webp?v=eff704f78307",
     "templateVersion": 3
   },
   {
@@ -2272,11 +2272,11 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=59dded19a501",
+    "image": "/assets/cards/saiyan-152-black-defender-drill.webp?v=4bd364681d76",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=fa2dc608ca64",
+    "downloadImage": "/assets/cards/downloads/saiyan-152-black-defender-drill.webp?v=481062f62bfe",
     "templateVersion": 3
   },
   {
@@ -3516,9 +3516,9 @@ export const catalog = [
     "style": "Black",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=3dac87daeed2",
+    "image": "/assets/cards/saiyan-235-black-shadow-drill.webp?v=e4ca5341f8c1",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
-    "downloadImage": "/assets/cards/downloads/saiyan-235-black-shadow-drill.webp?v=924a7df82c8e",
+    "downloadImage": "/assets/cards/downloads/saiyan-235-black-shadow-drill.webp?v=f10708776dd1",
     "width": 1060,
     "height": 1484,
     "templateVersion": 3
@@ -5201,8 +5201,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/68_c7b177a5-1918-43cd-8a79-b50e442dcefc.png?v=1584310591",
     "rarity": "Uncommon",
     "rules": "Your PUR is +1.",
-    "image": "/assets/cards/frieza-068-black-zarbon-transformation-drill.webp?v=504826ebe06b",
-    "downloadImage": "/assets/cards/downloads/frieza-068-black-zarbon-transformation-drill.webp?v=386be8c6dfe9",
+    "image": "/assets/cards/frieza-068-black-zarbon-transformation-drill.webp?v=e0ed40c9177a",
+    "downloadImage": "/assets/cards/downloads/frieza-068-black-zarbon-transformation-drill.webp?v=9e70c5e83483",
     "templateVersion": 3
   },
   {
@@ -5269,8 +5269,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/72_75b6a972-6e1e-4003-93e5-a00ed2cade75.png?v=1584310597",
     "rarity": "Uncommon",
     "rules": "Your energy attacks cost 1 stage after all other card and effect modifiers.",
-    "image": "/assets/cards/frieza-072-black-energy-stamina-drill.webp?v=db4c6c811119",
-    "downloadImage": "/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp?v=543ca3dd3254",
+    "image": "/assets/cards/frieza-072-black-energy-stamina-drill.webp?v=a9acf59a2b12",
+    "downloadImage": "/assets/cards/downloads/frieza-072-black-energy-stamina-drill.webp?v=c5d963f42de9",
     "templateVersion": 3
   },
   {
@@ -5405,8 +5405,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/80_e1e1a5fa-f222-4410-bcba-e85b746e3da1.png?v=1584310609",
     "rarity": "Uncommon",
     "rules": "(Limit 1 per deck.) After your energy attack hits, banish 1 of your opponents' Setups or Drills in play.",
-    "image": "/assets/cards/frieza-080-black-erasing-drill.webp?v=529da860ac0f",
-    "downloadImage": "/assets/cards/downloads/frieza-080-black-erasing-drill.webp?v=cc9afeaa7d1a",
+    "image": "/assets/cards/frieza-080-black-erasing-drill.webp?v=f51cd74f81f7",
+    "downloadImage": "/assets/cards/downloads/frieza-080-black-erasing-drill.webp?v=5b7039b4a6ce",
     "templateVersion": 3
   },
   {
@@ -5439,8 +5439,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/82_c8e2c780-af6d-4f62-9ec8-71da6ab6ee37.png?v=1584310613",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: No other Physical Combat cards can be played for the rest of this Combat.",
-    "image": "/assets/cards/frieza-082-black-standing-position.webp?v=4674eadb280c",
-    "downloadImage": "/assets/cards/downloads/frieza-082-black-standing-position.webp?v=f0a1d115ca12",
+    "image": "/assets/cards/frieza-082-black-standing-position.webp?v=e1c9c58cfad7",
+    "downloadImage": "/assets/cards/downloads/frieza-082-black-standing-position.webp?v=9963de25c672",
     "templateVersion": 3
   },
   {
@@ -5456,8 +5456,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/83_e749b1f4-7faf-4d05-9993-41b04f606ae8.png?v=1584310615",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: 3 stages. Do not use the AT.",
-    "image": "/assets/cards/frieza-083-black-right-cross.webp?v=ff89bec3ba90",
-    "downloadImage": "/assets/cards/downloads/frieza-083-black-right-cross.webp?v=2da7b7011875",
+    "image": "/assets/cards/frieza-083-black-right-cross.webp?v=d36d55e8117a",
+    "downloadImage": "/assets/cards/downloads/frieza-083-black-right-cross.webp?v=baec11f9bf0a",
     "templateVersion": 3
   },
   {
@@ -5473,8 +5473,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/84_a6f436ea-5d20-45d3-b762-0687d26ba0ee.png?v=1584310616",
     "rarity": "Uncommon",
     "rules": "Physical attack. DAMAGE: 4 stages. Do not use the AT.",
-    "image": "/assets/cards/frieza-084-black-driving-leg-thrust.webp?v=2c8512ad3688",
-    "downloadImage": "/assets/cards/downloads/frieza-084-black-driving-leg-thrust.webp?v=2e378c772e1f",
+    "image": "/assets/cards/frieza-084-black-driving-leg-thrust.webp?v=c263d0ceabb5",
+    "downloadImage": "/assets/cards/downloads/frieza-084-black-driving-leg-thrust.webp?v=3a560667254d",
     "templateVersion": 3
   },
   {
@@ -6093,8 +6093,8 @@ export const catalog = [
     "source": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/112_cd85b803-57a1-4ea8-871e-fdd4fbf47c71.png?v=1584310670",
     "rarity": "Rare",
     "rules": "Physical attack. DAMAGE: AT stages. HIT: Stop all energy attacks for the rest of this Combat.",
-    "image": "/assets/cards/frieza-112-black-swift-elbow-strike.webp?v=e97fa56f78d6",
-    "downloadImage": "/assets/cards/downloads/frieza-112-black-swift-elbow-strike.webp?v=fd6350b397e8",
+    "image": "/assets/cards/frieza-112-black-swift-elbow-strike.webp?v=c2f9bc0a4563",
+    "downloadImage": "/assets/cards/downloads/frieza-112-black-swift-elbow-strike.webp?v=1614b1062c88",
     "templateVersion": 3
   },
   {
@@ -6833,11 +6833,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-017-black-defensive-aura.webp?v=1b57b66caf2d",
+    "image": "/assets/cards/trunks-017-black-defensive-aura.webp?v=d7427988090d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-17",
-    "downloadImage": "/assets/cards/downloads/trunks-017-black-defensive-aura.webp?v=df8ef9083493",
+    "downloadImage": "/assets/cards/downloads/trunks-017-black-defensive-aura.webp?v=a611daf74dd7",
     "rules": "Pay 1 stage to stop a physical or energy attack.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6850,11 +6850,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-018-black-flying-kick.webp?v=11d37ed589f1",
+    "image": "/assets/cards/trunks-018-black-flying-kick.webp?v=617d0754fe1d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-18",
-    "downloadImage": "/assets/cards/downloads/trunks-018-black-flying-kick.webp?v=86e59edbefb8",
+    "downloadImage": "/assets/cards/downloads/trunks-018-black-flying-kick.webp?v=e9bb798168db",
     "rules": "Physical attack. DAMAGE: AT +2 stages. Banish the top 3 cards of your opponent's discard pile.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6867,11 +6867,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-019-black-finger-block.webp?v=343390e8348c",
+    "image": "/assets/cards/trunks-019-black-finger-block.webp?v=0f43d41d8549",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-19",
-    "downloadImage": "/assets/cards/downloads/trunks-019-black-finger-block.webp?v=fbdcfa887564",
+    "downloadImage": "/assets/cards/downloads/trunks-019-black-finger-block.webp?v=ded65baf59ea",
     "rules": "Stops a physical attack. Your Main Personality gains 3 stages.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6884,11 +6884,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-020-black-defensive-burst.webp?v=f5e0efe7884d",
+    "image": "/assets/cards/trunks-020-black-defensive-burst.webp?v=0322e9257aa3",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-20",
-    "downloadImage": "/assets/cards/downloads/trunks-020-black-defensive-burst.webp?v=0ce0f903f2f8",
+    "downloadImage": "/assets/cards/downloads/trunks-020-black-defensive-burst.webp?v=2d25c1dc8999",
     "rules": "Physical attack. DAMAGE: 3 life cards. HIT: Your opponent cannot perform physical attacks for the rest of this Combat.",
     "rarity": "Common",
     "templateVersion": 3
@@ -6901,11 +6901,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-021-black-overpowering-attack.webp?v=25b7be66c949",
+    "image": "/assets/cards/trunks-021-black-overpowering-attack.webp?v=b2d402a24b51",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-21",
-    "downloadImage": "/assets/cards/downloads/trunks-021-black-overpowering-attack.webp?v=1903afc0c80f",
+    "downloadImage": "/assets/cards/downloads/trunks-021-black-overpowering-attack.webp?v=685b6f2e4fd8",
     "rules": "Physical attack. DAMAGE: AT +6 stages. You cannot perform physical attacks for the rest of this Combat.",
     "rarity": "Common",
     "templateVersion": 3
@@ -7309,11 +7309,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-045-black-head-strike.webp?v=15635f1a606d",
+    "image": "/assets/cards/trunks-045-black-head-strike.webp?v=179bdd93f2b0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-45",
-    "downloadImage": "/assets/cards/downloads/trunks-045-black-head-strike.webp?v=356e09469958",
+    "downloadImage": "/assets/cards/downloads/trunks-045-black-head-strike.webp?v=b190b2efd511",
     "rules": "Physical attack. DAMAGE: AT stages and 2 life cards, or AT stages and 3 life cards instead if Chiaotzu is anywhere in play.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7326,11 +7326,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-046-black-hug-maneuver.webp?v=f446d25bd472",
+    "image": "/assets/cards/trunks-046-black-hug-maneuver.webp?v=85022f4ff7a6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-46",
-    "downloadImage": "/assets/cards/downloads/trunks-046-black-hug-maneuver.webp?v=89c18d6e5873",
+    "downloadImage": "/assets/cards/downloads/trunks-046-black-hug-maneuver.webp?v=5adb136173b6",
     "rules": "Physical attack. DAMAGE: AT stages. Raise your anger 2 levels, or 3 levels instead if Earth Dragon Ball 6 is in play.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7343,11 +7343,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-047-black-driving-palm-strike.webp?v=13dc20acd790",
+    "image": "/assets/cards/trunks-047-black-driving-palm-strike.webp?v=57d276349f6a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-47",
-    "downloadImage": "/assets/cards/downloads/trunks-047-black-driving-palm-strike.webp?v=3ac9d9481169",
+    "downloadImage": "/assets/cards/downloads/trunks-047-black-driving-palm-strike.webp?v=dcd874d0a7de",
     "rules": "Physical attack. DAMAGE: 2 stages. Raise your anger 1 level. Lower your opponent's anger 1 level.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7768,11 +7768,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-072-black-energy-web.webp?v=eb54f745cc5f",
+    "image": "/assets/cards/trunks-072-black-energy-web.webp?v=040607bab504",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-72",
-    "downloadImage": "/assets/cards/downloads/trunks-072-black-energy-web.webp?v=8eb9421ad8a8",
+    "downloadImage": "/assets/cards/downloads/trunks-072-black-energy-web.webp?v=ca6e6c1ba0fb",
     "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Your opponent cannot perform energy attacks this Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7785,11 +7785,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-073-black-energy-blasts.webp?v=13cf463e61a4",
+    "image": "/assets/cards/trunks-073-black-energy-blasts.webp?v=0172a0ef0ed6",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-73",
-    "downloadImage": "/assets/cards/downloads/trunks-073-black-energy-blasts.webp?v=f5b62ca3cc8a",
+    "downloadImage": "/assets/cards/downloads/trunks-073-black-energy-blasts.webp?v=350f89b0d37c",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 stages. HIT: Gain 4 stages.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -7802,11 +7802,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-074-black-energy-deflection-drill.webp?v=362d24d2fb5c",
+    "image": "/assets/cards/trunks-074-black-energy-deflection-drill.webp?v=5f1a86ee3375",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-74",
-    "downloadImage": "/assets/cards/downloads/trunks-074-black-energy-deflection-drill.webp?v=39758aa310ec",
+    "downloadImage": "/assets/cards/downloads/trunks-074-black-energy-deflection-drill.webp?v=0fa596199f9c",
     "rules": "You may play an energy attack from your hand and pay its costs to stop an energy attack. Then your opponent discards 1 life card. Resolve its secondary effects, but no HIT effects or attack damage.",
     "rarity": "Uncommon",
     "templateVersion": 3
@@ -9116,11 +9116,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-140-black-smoothness-drill.webp?v=4e6040629e98",
+    "image": "/assets/cards/trunks-140-black-smoothness-drill.webp?v=e3ef78fb18be",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-140",
-    "downloadImage": "/assets/cards/downloads/trunks-140-black-smoothness-drill.webp?v=7432fa95b08e",
+    "downloadImage": "/assets/cards/downloads/trunks-140-black-smoothness-drill.webp?v=df040957e611",
     "rules": "You may keep an additional card during the Rejuvenation Step.",
     "rarity": "Rare",
     "templateVersion": 3
@@ -9133,11 +9133,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-141-black-physical-focus.webp?v=2829986d44e7",
+    "image": "/assets/cards/trunks-141-black-physical-focus.webp?v=61c9e943ce34",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-141",
-    "downloadImage": "/assets/cards/downloads/trunks-141-black-physical-focus.webp?v=a6e5af2e0a57",
+    "downloadImage": "/assets/cards/downloads/trunks-141-black-physical-focus.webp?v=041e935c1397",
     "rules": "Physical attack costing any number of stages from your Main Personality. DAMAGE: AT stages +1 stage for each stage paid.",
     "rarity": "Rare",
     "templateVersion": 3
@@ -9201,11 +9201,11 @@ export const catalog = [
     "style": "Black",
     "set": "Trunks Saga",
     "status": "Ready",
-    "image": "/assets/cards/trunks-145-black-style-mastery.webp?v=f81eb1a929d9",
+    "image": "/assets/cards/trunks-145-black-style-mastery.webp?v=8a2ebd6f24ea",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/trunks-saga-unlimited-145",
-    "downloadImage": "/assets/cards/downloads/trunks-145-black-style-mastery.webp?v=331d5b6aae35",
+    "downloadImage": "/assets/cards/downloads/trunks-145-black-style-mastery.webp?v=164f96d852c2",
     "rules": "Your successful attacks deal +1 life card and +1 stage. Your successful Black Style attacks deal +2 life cards and +2 stages instead.",
     "rarity": "Rare",
     "templateVersion": 3
@@ -11243,8 +11243,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-009-black-confusion-drill.webp?v=30f9359e95f3",
-    "downloadImage": "/assets/cards/downloads/android-009-black-confusion-drill.webp?v=9d9785eb2bfd",
+    "image": "/assets/cards/android-009-black-confusion-drill.webp?v=e4cad91ba225",
+    "downloadImage": "/assets/cards/downloads/android-009-black-confusion-drill.webp?v=a7ba7de993fc",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-9",
@@ -11260,8 +11260,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-010-black-draining-aura.webp?v=fb35a916a904",
-    "downloadImage": "/assets/cards/downloads/android-010-black-draining-aura.webp?v=5f90390b969c",
+    "image": "/assets/cards/android-010-black-draining-aura.webp?v=14801182238a",
+    "downloadImage": "/assets/cards/downloads/android-010-black-draining-aura.webp?v=9cc41be60add",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-10",
@@ -11277,8 +11277,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-011-black-jump-kick.webp?v=862a4bac54f9",
-    "downloadImage": "/assets/cards/downloads/android-011-black-jump-kick.webp?v=49ec231813a7",
+    "image": "/assets/cards/android-011-black-jump-kick.webp?v=d3771d4cc25d",
+    "downloadImage": "/assets/cards/downloads/android-011-black-jump-kick.webp?v=2bdf265ce662",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-11",
@@ -11294,8 +11294,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-012-black-taunting-attack.webp?v=56c799c55380",
-    "downloadImage": "/assets/cards/downloads/android-012-black-taunting-attack.webp?v=19e8bffe20de",
+    "image": "/assets/cards/android-012-black-taunting-attack.webp?v=245107cb1d45",
+    "downloadImage": "/assets/cards/downloads/android-012-black-taunting-attack.webp?v=303068219ee0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-12",
@@ -11855,8 +11855,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-045-black-anger-stance.webp?v=c4e48f4cd78a",
-    "downloadImage": "/assets/cards/downloads/android-045-black-anger-stance.webp?v=6550353f6436",
+    "image": "/assets/cards/android-045-black-anger-stance.webp?v=e4c744a7ceae",
+    "downloadImage": "/assets/cards/downloads/android-045-black-anger-stance.webp?v=177463d75f94",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-45",
@@ -11872,8 +11872,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-046-black-energy-assault.webp?v=5cd6aaa1716b",
-    "downloadImage": "/assets/cards/downloads/android-046-black-energy-assault.webp?v=dd546d548add",
+    "image": "/assets/cards/android-046-black-energy-assault.webp?v=7031bacd8493",
+    "downloadImage": "/assets/cards/downloads/android-046-black-energy-assault.webp?v=b1754f774292",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-46",
@@ -11889,8 +11889,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-047-black-gut-wrench.webp?v=74435a4886ad",
-    "downloadImage": "/assets/cards/downloads/android-047-black-gut-wrench.webp?v=73e296b92b64",
+    "image": "/assets/cards/android-047-black-gut-wrench.webp?v=849baaacceab",
+    "downloadImage": "/assets/cards/downloads/android-047-black-gut-wrench.webp?v=11aedd218beb",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-47",
@@ -11906,8 +11906,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-048-black-off-balancing-punch.webp?v=0c67cef864f9",
-    "downloadImage": "/assets/cards/downloads/android-048-black-off-balancing-punch.webp?v=bac54e176c2f",
+    "image": "/assets/cards/android-048-black-off-balancing-punch.webp?v=44fbe113aea7",
+    "downloadImage": "/assets/cards/downloads/android-048-black-off-balancing-punch.webp?v=42d612b1b8dc",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-48",
@@ -11940,8 +11940,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-050-black-power-up.webp?v=b7eb8b0dd162",
-    "downloadImage": "/assets/cards/downloads/android-050-black-power-up.webp?v=d480e7e775d0",
+    "image": "/assets/cards/android-050-black-power-up.webp?v=a0433068efd1",
+    "downloadImage": "/assets/cards/downloads/android-050-black-power-up.webp?v=c7e1c8267684",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-50",
@@ -11957,8 +11957,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-051-black-searching-technique.webp?v=bbf3b4dfcf6f",
-    "downloadImage": "/assets/cards/downloads/android-051-black-searching-technique.webp?v=94cba4dc9dd0",
+    "image": "/assets/cards/android-051-black-searching-technique.webp?v=5fab67136668",
+    "downloadImage": "/assets/cards/downloads/android-051-black-searching-technique.webp?v=9f4754679774",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-51",
@@ -11974,8 +11974,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-052-black-side-thrust.webp?v=f95af13e1f3d",
-    "downloadImage": "/assets/cards/downloads/android-052-black-side-thrust.webp?v=3a5c30a031e3",
+    "image": "/assets/cards/android-052-black-side-thrust.webp?v=0a9402f3b94a",
+    "downloadImage": "/assets/cards/downloads/android-052-black-side-thrust.webp?v=154fb81f19d8",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-52",
@@ -11991,8 +11991,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-053-black-studying-drill.webp?v=d469b2600fa1",
-    "downloadImage": "/assets/cards/downloads/android-053-black-studying-drill.webp?v=9a5db3aa39be",
+    "image": "/assets/cards/android-053-black-studying-drill.webp?v=e76d82965855",
+    "downloadImage": "/assets/cards/downloads/android-053-black-studying-drill.webp?v=5a46a83e9c9a",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-53",
@@ -12739,8 +12739,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-097-black-mischievous-drill.webp?v=01c602566c14",
-    "downloadImage": "/assets/cards/downloads/android-097-black-mischievous-drill.webp?v=8230e0b09517",
+    "image": "/assets/cards/android-097-black-mischievous-drill.webp?v=8584ec7c0a36",
+    "downloadImage": "/assets/cards/downloads/android-097-black-mischievous-drill.webp?v=32b901970eae",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-97",
@@ -12756,8 +12756,8 @@ export const catalog = [
     "style": "Black",
     "set": "Android Saga",
     "status": "Ready",
-    "image": "/assets/cards/android-098-black-scout-maneuver.webp?v=802ba78fa79d",
-    "downloadImage": "/assets/cards/downloads/android-098-black-scout-maneuver.webp?v=0708de658051",
+    "image": "/assets/cards/android-098-black-scout-maneuver.webp?v=a02e07f7fc15",
+    "downloadImage": "/assets/cards/downloads/android-098-black-scout-maneuver.webp?v=a7cd1f544dd5",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/androids-saga-unlimited-98",
@@ -13698,8 +13698,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-008-black-fatality.webp?v=30a333547ad1",
-    "downloadImage": "/assets/cards/downloads/cell-008-black-fatality.webp?v=12fc48685f16",
+    "image": "/assets/cards/cell-008-black-fatality.webp?v=115f073c6dcb",
+    "downloadImage": "/assets/cards/downloads/cell-008-black-fatality.webp?v=18dfdde9f946",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-8",
@@ -13885,8 +13885,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-019-black-power-punch.webp?v=2566720b12f1",
-    "downloadImage": "/assets/cards/downloads/cell-019-black-power-punch.webp?v=9e04b810aa11",
+    "image": "/assets/cards/cell-019-black-power-punch.webp?v=7a66a1c3b6cf",
+    "downloadImage": "/assets/cards/downloads/cell-019-black-power-punch.webp?v=e63ced2a0817",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-19",
@@ -13902,8 +13902,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-020-black-quick-blast.webp?v=1c6249833a0f",
-    "downloadImage": "/assets/cards/downloads/cell-020-black-quick-blast.webp?v=758a011bc02b",
+    "image": "/assets/cards/cell-020-black-quick-blast.webp?v=1e755e55f297",
+    "downloadImage": "/assets/cards/downloads/cell-020-black-quick-blast.webp?v=8f2b3ed9c445",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-20",
@@ -13953,8 +13953,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-023-black-twin-blast.webp?v=f5c966efa11c",
-    "downloadImage": "/assets/cards/downloads/cell-023-black-twin-blast.webp?v=e6eea45d177a",
+    "image": "/assets/cards/cell-023-black-twin-blast.webp?v=5e0b925646e6",
+    "downloadImage": "/assets/cards/downloads/cell-023-black-twin-blast.webp?v=b7303d2ac4f0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-23",
@@ -14004,8 +14004,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-026-black-forearm-block.webp?v=6c3bea54f157",
-    "downloadImage": "/assets/cards/downloads/cell-026-black-forearm-block.webp?v=f50cd0040eee",
+    "image": "/assets/cards/cell-026-black-forearm-block.webp?v=1a8751109494",
+    "downloadImage": "/assets/cards/downloads/cell-026-black-forearm-block.webp?v=5a5ee9642a1d",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-26",
@@ -14072,8 +14072,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-030-black-strike.webp?v=e76400a27327",
-    "downloadImage": "/assets/cards/downloads/cell-030-black-strike.webp?v=c105ffa45ac5",
+    "image": "/assets/cards/cell-030-black-strike.webp?v=451719bcb709",
+    "downloadImage": "/assets/cards/downloads/cell-030-black-strike.webp?v=22bd444a8ba0",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-30",
@@ -14208,8 +14208,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-038-black-neck-break.webp?v=105eed3d4ec5",
-    "downloadImage": "/assets/cards/downloads/cell-038-black-neck-break.webp?v=e02ab4fecf17",
+    "image": "/assets/cards/cell-038-black-neck-break.webp?v=590e5bb010b0",
+    "downloadImage": "/assets/cards/downloads/cell-038-black-neck-break.webp?v=b9a64eb6895c",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-38",
@@ -14429,8 +14429,8 @@ export const catalog = [
     "style": "Black",
     "set": "Cell Saga",
     "status": "Ready",
-    "image": "/assets/cards/cell-051-black-dodge.webp?v=41fc972b581e",
-    "downloadImage": "/assets/cards/downloads/cell-051-black-dodge.webp?v=5a222e95a7dd",
+    "image": "/assets/cards/cell-051-black-dodge.webp?v=48307e23f33b",
+    "downloadImage": "/assets/cards/downloads/cell-051-black-dodge.webp?v=7368da7c4533",
     "width": 1060,
     "height": 1484,
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-51",
@@ -14655,8 +14655,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-64",
     "rules": "Stops a physical attack. Raise your anger 1 level.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-064-black-side-block.webp?v=0c0a601112a4",
-    "downloadImage": "/assets/cards/downloads/cell-064-black-side-block.webp?v=d871337e4d33",
+    "image": "/assets/cards/cell-064-black-side-block.webp?v=6fc139273900",
+    "downloadImage": "/assets/cards/downloads/cell-064-black-side-block.webp?v=259aa5c7e0fb",
     "templateVersion": 3
   },
   {
@@ -16008,8 +16008,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-129",
     "rules": "POWER: Once per Combat, instead of attacking, you may discard a card from your hand. If it is Black Style, your opponent discards a random card; otherwise, they choose and discard a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-129-black-style-mastery.webp?v=e07766e282ac",
-    "downloadImage": "/assets/cards/downloads/cell-129-black-style-mastery.webp?v=5266aa96c6ca",
+    "image": "/assets/cards/cell-129-black-style-mastery.webp?v=582265f71e66",
+    "downloadImage": "/assets/cards/downloads/cell-129-black-style-mastery.webp?v=4f9e5cff6167",
     "templateVersion": 3
   },
   {
@@ -16747,8 +16747,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Discard 1 of your opponent's Allies in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-001-black-explosion.webp?v=b3ed24b98247",
-    "downloadImage": "/assets/cards/downloads/cell-games-001-black-explosion.webp?v=f9d5cc7c0cdd"
+    "image": "/assets/cards/cell-games-001-black-explosion.webp?v=92c0116ca85d",
+    "downloadImage": "/assets/cards/downloads/cell-games-001-black-explosion.webp?v=516e566217b7"
   },
   {
     "id": "cell-games-002-black-fist-lock",
@@ -16764,8 +16764,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Physical attack. DAMAGE: AT +4 stages.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-002-black-fist-lock.webp?v=4bb5f06f9466",
-    "downloadImage": "/assets/cards/downloads/cell-games-002-black-fist-lock.webp?v=02d025a84f24"
+    "image": "/assets/cards/cell-games-002-black-fist-lock.webp?v=6cee36351287",
+    "downloadImage": "/assets/cards/downloads/cell-games-002-black-fist-lock.webp?v=e7daf1902954"
   },
   {
     "id": "cell-games-003-black-preparation",
@@ -16781,8 +16781,8 @@ export const catalog = [
     "rules": "Focused energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: Raise your anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-003-black-preparation.webp?v=5373fdad3d8c",
-    "downloadImage": "/assets/cards/downloads/cell-games-003-black-preparation.webp?v=78cf731a1bb0"
+    "image": "/assets/cards/cell-games-003-black-preparation.webp?v=df7fb7984c31",
+    "downloadImage": "/assets/cards/downloads/cell-games-003-black-preparation.webp?v=84e7f14cd7c7"
   },
   {
     "id": "cell-games-004-blue-forced-punch",
@@ -17274,8 +17274,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped energy attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-032-black-anticipation-drill.webp?v=ed4da415b668",
-    "downloadImage": "/assets/cards/downloads/cell-games-032-black-anticipation-drill.webp?v=f106aa02c237"
+    "image": "/assets/cards/cell-games-032-black-anticipation-drill.webp?v=51174c85fa48",
+    "downloadImage": "/assets/cards/downloads/cell-games-032-black-anticipation-drill.webp?v=87ed79ab2d94"
   },
   {
     "id": "cell-games-033-black-blasting-beam",
@@ -17291,8 +17291,8 @@ export const catalog = [
     "rules": "ENDURANCE 3. Energy attack costing 2 stages. DAMAGE: 4 life cards. If you declared a Tokui-Waza and the attacking personality is at 0 stages, deal +2 life cards and +2 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-033-black-blasting-beam.webp?v=96aa91d6a355",
-    "downloadImage": "/assets/cards/downloads/cell-games-033-black-blasting-beam.webp?v=c0be162e4cd0"
+    "image": "/assets/cards/cell-games-033-black-blasting-beam.webp?v=4330d82d6303",
+    "downloadImage": "/assets/cards/downloads/cell-games-033-black-blasting-beam.webp?v=600c90dfda0d"
   },
   {
     "id": "cell-games-034-black-double-attack-drill",
@@ -17308,8 +17308,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Your physical attacks deal +2 stages of damage and cannot be redirected to Allies.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-034-black-double-attack-drill.webp?v=0f28a45ed859",
-    "downloadImage": "/assets/cards/downloads/cell-games-034-black-double-attack-drill.webp?v=5c5abb9f920b"
+    "image": "/assets/cards/cell-games-034-black-double-attack-drill.webp?v=0203494d8516",
+    "downloadImage": "/assets/cards/downloads/cell-games-034-black-double-attack-drill.webp?v=df72883b2a44"
   },
   {
     "id": "cell-games-035-black-hand-energy-blast",
@@ -17325,8 +17325,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. Energy attack costing 2 stages. DAMAGE: 3 life cards. If you declared a Tokui-Waza, this attack also deals +2 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-035-black-hand-energy-blast.webp?v=aff2253e4f93",
-    "downloadImage": "/assets/cards/downloads/cell-games-035-black-hand-energy-blast.webp?v=f469da5402bd"
+    "image": "/assets/cards/cell-games-035-black-hand-energy-blast.webp?v=2fcf64b2f022",
+    "downloadImage": "/assets/cards/downloads/cell-games-035-black-hand-energy-blast.webp?v=5d2db793dc5a"
   },
   {
     "id": "cell-games-036-black-face-slap",
@@ -17342,8 +17342,8 @@ export const catalog = [
     "rules": "Focused physical attack. DAMAGE: AT +2 stages. HIT: Choose 1 random card from your opponent's hand; they discard it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-036-black-face-slap.webp?v=d7e5a420ff40",
-    "downloadImage": "/assets/cards/downloads/cell-games-036-black-face-slap.webp?v=5f4f768693bd"
+    "image": "/assets/cards/cell-games-036-black-face-slap.webp?v=0cf1f512fe85",
+    "downloadImage": "/assets/cards/downloads/cell-games-036-black-face-slap.webp?v=fed3c221c901"
   },
   {
     "id": "cell-games-037-black-recovery",
@@ -17359,8 +17359,8 @@ export const catalog = [
     "rules": "POWER: Stop an energy attack. If you declared a Tokui-Waza, you may discard a card from your hand. If you do, choose 1 random card from your opponent's hand; they discard it.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-037-black-recovery.webp?v=7a097fae1e76",
-    "downloadImage": "/assets/cards/downloads/cell-games-037-black-recovery.webp?v=15591f10a223"
+    "image": "/assets/cards/cell-games-037-black-recovery.webp?v=dff4fea831ca",
+    "downloadImage": "/assets/cards/downloads/cell-games-037-black-recovery.webp?v=2526c3b0bd92"
   },
   {
     "id": "cell-games-038-black-saving-drill",
@@ -17376,8 +17376,8 @@ export const catalog = [
     "rules": "ENDURANCE 2. Stop your opponent's first physical or energy attack in Combat if your anger is 3 or higher.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-038-black-saving-drill.webp?v=a5513d5cdaf9",
-    "downloadImage": "/assets/cards/downloads/cell-games-038-black-saving-drill.webp?v=44e29b0b04d3"
+    "image": "/assets/cards/cell-games-038-black-saving-drill.webp?v=85086664599e",
+    "downloadImage": "/assets/cards/downloads/cell-games-038-black-saving-drill.webp?v=6881335e51e5"
   },
   {
     "id": "cell-games-039-black-shifting-drill",
@@ -17393,8 +17393,8 @@ export const catalog = [
     "rules": "Defense Shield: Stop the first unstopped physical attack performed against you during Combat.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-039-black-shifting-drill.webp?v=573a0cb5f256",
-    "downloadImage": "/assets/cards/downloads/cell-games-039-black-shifting-drill.webp?v=11b66930e898"
+    "image": "/assets/cards/cell-games-039-black-shifting-drill.webp?v=78d94541b9da",
+    "downloadImage": "/assets/cards/downloads/cell-games-039-black-shifting-drill.webp?v=0b68bb9ce4e4"
   },
   {
     "id": "cell-games-040-black-wrist-block",
@@ -17410,8 +17410,8 @@ export const catalog = [
     "rules": "POWER: Stop a physical attack. If you declared a Tokui-Waza, stop a physical or energy attack instead.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/cell-games-040-black-wrist-block.webp?v=12cc5e894185",
-    "downloadImage": "/assets/cards/downloads/cell-games-040-black-wrist-block.webp?v=f4446438125d"
+    "image": "/assets/cards/cell-games-040-black-wrist-block.webp?v=810188b5286c",
+    "downloadImage": "/assets/cards/downloads/cell-games-040-black-wrist-block.webp?v=5803fc71cf7e"
   },
   {
     "id": "cell-games-041-blue-arm-blast",
@@ -18479,8 +18479,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +3 stages. Or stops a focused energy attack. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-001-black-back-power-hit.webp?v=21c1ec93421b",
-    "downloadImage": "/assets/cards/downloads/world-games-001-black-back-power-hit.webp?v=035c58f469ee"
+    "image": "/assets/cards/world-games-001-black-back-power-hit.webp?v=d8fbe5e7ea92",
+    "downloadImage": "/assets/cards/downloads/world-games-001-black-back-power-hit.webp?v=9a683e93441e"
   },
   {
     "id": "world-games-002-black-defensive-stance",
@@ -18496,8 +18496,8 @@ export const catalog = [
     "rules": "Stops a physical or energy attack. If you did not declare a Tokui Waza, your next attack this Combat deals +2 stages of damage.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-002-black-defensive-stance.webp?v=c38f7c0a1913",
-    "downloadImage": "/assets/cards/downloads/world-games-002-black-defensive-stance.webp?v=aa1fa973d413"
+    "image": "/assets/cards/world-games-002-black-defensive-stance.webp?v=3221fb585258",
+    "downloadImage": "/assets/cards/downloads/world-games-002-black-defensive-stance.webp?v=e1be84a72c24"
   },
   {
     "id": "world-games-003-black-elbow-counter",
@@ -18513,8 +18513,8 @@ export const catalog = [
     "rules": "Stops a physical attack. Your opponent's Main Personality loses 1 stage. Lower your opponent's anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-003-black-elbow-counter.webp?v=a8bd75e99d19",
-    "downloadImage": "/assets/cards/downloads/world-games-003-black-elbow-counter.webp?v=af224c50af60"
+    "image": "/assets/cards/world-games-003-black-elbow-counter.webp?v=4b30902047b2",
+    "downloadImage": "/assets/cards/downloads/world-games-003-black-elbow-counter.webp?v=fe7e5f62d4e4"
   },
   {
     "id": "world-games-004-black-light-jab",
@@ -18530,8 +18530,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +4 stages. HIT: If you declared a Tokui Waza, discard a Setup or Drill in play.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-004-black-light-jab.webp?v=f4b1af9b943c",
-    "downloadImage": "/assets/cards/downloads/world-games-004-black-light-jab.webp?v=d9536ed01458"
+    "image": "/assets/cards/world-games-004-black-light-jab.webp?v=6b1c67b9e036",
+    "downloadImage": "/assets/cards/downloads/world-games-004-black-light-jab.webp?v=3e0cda1e9d3a"
   },
   {
     "id": "world-games-005-black-quick-strike",
@@ -18547,8 +18547,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: 3 stages and 2 life cards. If used by Hercule, this attack stays in play to be used 1 more time this Combat. Banish after use.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-005-black-quick-strike.webp?v=83a9739aa10d",
-    "downloadImage": "/assets/cards/downloads/world-games-005-black-quick-strike.webp?v=9f9537bc0b54"
+    "image": "/assets/cards/world-games-005-black-quick-strike.webp?v=298f054cd959",
+    "downloadImage": "/assets/cards/downloads/world-games-005-black-quick-strike.webp?v=79df1e3766df"
   },
   {
     "id": "world-games-006-black-reversal-strike",
@@ -18564,8 +18564,8 @@ export const catalog = [
     "rules": "ENDURANCE 1. Physical attack. DAMAGE: AT +5 stages. Lower your opponent's anger 1 level.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-006-black-reversal-strike.webp?v=e7c21f45ecc1",
-    "downloadImage": "/assets/cards/downloads/world-games-006-black-reversal-strike.webp?v=feabe9857050"
+    "image": "/assets/cards/world-games-006-black-reversal-strike.webp?v=ae49bb7609c0",
+    "downloadImage": "/assets/cards/downloads/world-games-006-black-reversal-strike.webp?v=e98ef7cf8bbe"
   },
   {
     "id": "world-games-007-blue-defensive-stance",
@@ -19142,8 +19142,8 @@ export const catalog = [
     "rules": "Sensei Deck. Physical attack. DAMAGE: AT +2 stages for each Setup and Drill your opponent has in play. Lower your opponent's anger 1 level.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-040-black-back-breaker.webp?v=f9d7f62346f6",
-    "downloadImage": "/assets/cards/downloads/world-games-040-black-back-breaker.webp?v=f84309999502"
+    "image": "/assets/cards/world-games-040-black-back-breaker.webp?v=3ce5b00de809",
+    "downloadImage": "/assets/cards/downloads/world-games-040-black-back-breaker.webp?v=b75127664734"
   },
   {
     "id": "world-games-041-black-diving-elbow-strike",
@@ -19159,8 +19159,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: 3 life cards. HIT: If you declared a Tokui Waza, discard all Setups and Drills in play. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-041-black-diving-elbow-strike.webp?v=8d0f6ed9d5a8",
-    "downloadImage": "/assets/cards/downloads/world-games-041-black-diving-elbow-strike.webp?v=2a555c841f4b"
+    "image": "/assets/cards/world-games-041-black-diving-elbow-strike.webp?v=02ad730007c1",
+    "downloadImage": "/assets/cards/downloads/world-games-041-black-diving-elbow-strike.webp?v=36dc2e8026c8"
   },
   {
     "id": "world-games-042-black-duck",
@@ -19176,8 +19176,8 @@ export const catalog = [
     "rules": "Sensei Deck. Stops a physical attack. Gain 10 stages. If you declared a Tokui Waza and your opponent declared an Orange Tokui Waza, you may use this card 1 more time this Combat. Banish after use.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-042-black-duck.webp?v=6f9a3e041e21",
-    "downloadImage": "/assets/cards/downloads/world-games-042-black-duck.webp?v=4a2a582378ac"
+    "image": "/assets/cards/world-games-042-black-duck.webp?v=92abefbad6c7",
+    "downloadImage": "/assets/cards/downloads/world-games-042-black-duck.webp?v=6d8954520f19"
   },
   {
     "id": "world-games-043-black-fist-catch",
@@ -19193,8 +19193,8 @@ export const catalog = [
     "rules": "Sensei Deck. Stops a physical attack. If you declared a Tokui Waza and your opponent declared an Orange Tokui Waza, discard 2 Setups and/or Drills in play.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-043-black-fist-catch.webp?v=000ea8c5f68b",
-    "downloadImage": "/assets/cards/downloads/world-games-043-black-fist-catch.webp?v=b8528af2cbd0"
+    "image": "/assets/cards/world-games-043-black-fist-catch.webp?v=6eaff7d2db0d",
+    "downloadImage": "/assets/cards/downloads/world-games-043-black-fist-catch.webp?v=d8eab0c6f1e0"
   },
   {
     "id": "world-games-044-black-majin-blast",
@@ -19210,8 +19210,8 @@ export const catalog = [
     "rules": "Majin only. Energy attack costing 2 stages. DAMAGE: 5 life cards. If Videl is in play, banish the top 5 cards of your opponent's discard pile.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-044-black-majin-blast.webp?v=caacdb56ca35",
-    "downloadImage": "/assets/cards/downloads/world-games-044-black-majin-blast.webp?v=ac170299b067"
+    "image": "/assets/cards/world-games-044-black-majin-blast.webp?v=7f0a6cb25893",
+    "downloadImage": "/assets/cards/downloads/world-games-044-black-majin-blast.webp?v=662c612a11f8"
   },
   {
     "id": "world-games-045-black-point-blank-kamehameha",
@@ -19227,8 +19227,8 @@ export const catalog = [
     "rules": "Sensei Deck. Energy attack costing 2 stages. DAMAGE: 5 life cards. If you declared a Tokui Waza and your opponent declared an Orange Tokui Waza, this attack also deals 3 stages of damage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-045-black-point-blank-kamehameha.webp?v=f780b96675db",
-    "downloadImage": "/assets/cards/downloads/world-games-045-black-point-blank-kamehameha.webp?v=dd4a3b6715e6"
+    "image": "/assets/cards/world-games-045-black-point-blank-kamehameha.webp?v=5fed4be7ca7e",
+    "downloadImage": "/assets/cards/downloads/world-games-045-black-point-blank-kamehameha.webp?v=11a8293e0b72"
   },
   {
     "id": "world-games-046-black-super-kick",
@@ -19244,8 +19244,8 @@ export const catalog = [
     "rules": "Physical attack. DAMAGE: AT +10 stages. This must be the first card you use this Combat. HIT: You cannot perform physical attacks for the rest of Combat. If stopped, discard the top 5 cards of your Life Deck.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-046-black-super-kick.webp?v=7944c9575c18",
-    "downloadImage": "/assets/cards/downloads/world-games-046-black-super-kick.webp?v=9c3ded3edc3f"
+    "image": "/assets/cards/world-games-046-black-super-kick.webp?v=f5c4474e483b",
+    "downloadImage": "/assets/cards/downloads/world-games-046-black-super-kick.webp?v=a8f910dab073"
   },
   {
     "id": "world-games-047-black-triple-team",
@@ -19261,8 +19261,8 @@ export const catalog = [
     "rules": "Physical attack costing 1 stage. DAMAGE: 2 stages. If you did not declare a Tokui Waza, you may use this attack 2 more times this Combat. If stopped, raise your Main Personality to its highest stage.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-047-black-triple-team.webp?v=85009da976a2",
-    "downloadImage": "/assets/cards/downloads/world-games-047-black-triple-team.webp?v=1b485c64e688"
+    "image": "/assets/cards/world-games-047-black-triple-team.webp?v=2e17822ba091",
+    "downloadImage": "/assets/cards/downloads/world-games-047-black-triple-team.webp?v=1a3c8af3abc4"
   },
   {
     "id": "world-games-048-black-videl-s-power-kick",
@@ -19278,8 +19278,8 @@ export const catalog = [
     "rules": "Sensei Deck. Physical attack. DAMAGE: AT +4 stages. If performed against a Majin, discard 1 of your opponent's Drills in play and raise your anger 1 level.",
     "rarity": "Uncommon",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-048-black-videl-s-power-kick.webp?v=d29339443429",
-    "downloadImage": "/assets/cards/downloads/world-games-048-black-videl-s-power-kick.webp?v=67d7e69b60a4"
+    "image": "/assets/cards/world-games-048-black-videl-s-power-kick.webp?v=991ea1f94e58",
+    "downloadImage": "/assets/cards/downloads/world-games-048-black-videl-s-power-kick.webp?v=0f05186fe9dc"
   },
   {
     "id": "world-games-049-blue-back-kick",

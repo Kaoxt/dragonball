@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeBlackStrokeFile,beforeBlackStrokeHash} from './black-stroke-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const file=path.join(root,'tools/card-corrections/v3-freestyle-stroke-weight/release.json');
 export const freestyleStrokeRelease=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;
@@ -12,11 +12,11 @@ const revisions=new Map((freestyleStrokeRelease?.cards??[]).flatMap(r=>[r.source
 const name=p=>path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 function current(p){
- const bytes=fs.readFileSync(p),revision=revisions.get(name(p));
- if(revision)assert.equal(hash(bytes),revision.after_sha256,`Current Freestyle stroke revision changed: ${p}`);
+ const bytes=beforeBlackStrokeFile(p),revision=revisions.get(name(p));
+ if(revision)assert.equal(beforeBlackStrokeHash(p),revision.after_sha256,`Current Freestyle stroke revision changed: ${p}`);
  return{bytes,revision};
 }
-export function beforeFreestyleStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
+export function beforeFreestyleStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??beforeBlackStrokeHash(p);}
 export function beforeFreestyleStrokeFile(p){
  const{bytes,revision}=current(p);
  if(!revision?.reversible_edits)return bytes;

@@ -1,0 +1,37 @@
+✔ original image and download URLs return byte-identical files with security and cache headers (5.390267ms)
+✔ HEAD and conditional requests preserve ordinary image HTTP behavior (1.589116ms)
+✔ ranges and If-Range return exact requested bytes or the complete current file (1.854246ms)
+✔ unknown paths and unsupported methods never expose arbitrary R2 keys (1.409125ms)
+✔ missing or corrupted objects fail without caching a broken card (0.406022ms)
+✔ the edge cache is keyed by content and never mixes full and range responses (2.645698ms)
+✔ all Black cards use thinner gray strokes with every other source byte preserved (135.650113ms)
+✔ both lossless exports have verified logo-only deltas and refreshed cache keys (1101.679234ms)
+✔ all 17 current Hi-Tech cards are recognized from metadata or the legacy HT identifier (2.602523ms)
+✔ standard art, private backs, and external custom art never acquire a rarity finish (3.06437ms)
+✔ all 17 Ultra Rares use their catalog identity, including four confirmed Saiyan cards (2.69253ms)
+✔ physical card corners stay circular in both orientations and depth scales with short edge (0.382346ms)
+✔ portable image code preserves all zones, Unicode and quantities as a new private deck (19.994104ms)
+✔ QR decoder reads a rendered exported code with quiet zone and surrounding dark theme (95.065616ms)
+✔ unrecognized, corrupt and oversized codes are rejected (0.763962ms)
+✔ unknown card IDs and unsafe quantities fail without partial import (8.08487ms)
+✔ duplicate rows are rejected and incomplete decks still round trip (3.261827ms)
+✔ every catalog Hi-Tech is blocked as an Ally but allowed in the starting stack (2.992762ms)
+✔ deck-image imports reject Hi-Tech Allies in either deck, including rarity-only Hi-Tech (6.591598ms)
+✔ arena imports reject stripped Hi-Tech Ally snapshots and preserve regular Allies and Hi-Tech MPs (0.777482ms)
+✔ migration preserves exact bytes and subsequent releases skip unchanged objects (3.821201ms)
+✔ source checksum failures cannot mark an image or release as verified (1.092447ms)
+✔ an interrupted batch checkpoints successful objects and retry uploads only the remainder (0.886587ms)
+✔ read-back verification detects damaged storage when no valid ETag is returned (0.752615ms)
+✔ invalid manifests cannot redirect uploads, fetch unpinned sources, or escape image paths (0.663701ms)
+✔ a migration time limit stops before publication and leaves a clear retry instruction (3.555751ms)
+✔ late image loads cannot paint a previous card or reveal a hidden back (108.23161ms)
+✔ latest movement is eventually drawn, unchanged input is idle, and reset cancels pending work (85.021326ms)
+✔ failed images and hidden pages stop rendering safely (58.860043ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1352.593193

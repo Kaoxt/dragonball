@@ -22,6 +22,7 @@ from text_v3 import text,elem
 from power_icons import icon,width_at_height
 from align_power_icon import align_power_icon
 from tokui_backing import apply as apply_tokui_backing
+from black_symbol_weight import apply as apply_black_symbol_weight
 from title_fit_v3 import apply as apply_title_fit
 from footer_spacing import change as footer_spacing
 from text_layout_v3 import validate as validate_text_layout
@@ -195,7 +196,7 @@ def compose(c,retained):
      if v=='#a66417':el.set(k,'#4b525c')
      if v=='#56300e':el.set(k,'#262d37')
    original=deepcopy(get(old,'black-style-symbol'));original.set('id','black-tokui-waza-outline');outline=deepcopy(original);outline.set('stroke','#080b0d');outline.set('stroke-width','13');original.set('id','black-tokui-waza-paint')
-   group=elem('g',id='tokui-waza-symbol',data_style='Black',transform='translate(100 908.5) scale(1.35) translate(-100 -1006)');group.append(outline);group.append(original);replace(r,'tokui-waza-symbol',group)
+   group=elem('g',id='tokui-waza-symbol',data_style='Black',transform='translate(100 908.5) scale(1.35) translate(-100 -1006)');group.append(outline);group.append(original);replace(r,'tokui-waza-symbol',group);apply_black_symbol_weight(r)
  apply_tokui_backing(r)
  fixed_middle_label(r);personality_corners(r)
  reports,iconline=rules(r,c);assets=assetize(r);OUT.mkdir(exist_ok=True)
