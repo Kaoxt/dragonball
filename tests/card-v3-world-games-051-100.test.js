@@ -7,6 +7,7 @@ import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
 import {encodeDeck,decodeDeck} from '../public/decks/deck-code.js';
+import {powerChart} from '../public/personality-power.js';
 const base='tools/card-corrections/v3-world-games-051-100/';
 const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
 const release=read('release.json'),audit=read('audit.json'),data=read('cards.json');
@@ -43,6 +44,7 @@ test('new style symbols use the approved thinner strokes and special cards retai
   const [id,width]=weights[c.style];if(c.style==='Namekian'){assert.match(svg,/stroke="#21aaa5" stroke-width="7\.3076923055"/);continue;}const tag=svg.match(new RegExp('<(?:\\w+:)?g\\b[^>]*\\bid="'+id+'"[^>]*>'))?.[0];assert.ok(tag);assert.ok(tag.includes('stroke-width="'+width+'"'));
  }
  const k=cards.find(c=>c.number==='99');assert.equal(k.level,1);assert.equal(k.pur,2);assert.equal(k.powerStages.at(-1),0);assert.equal(k.powerStages[0],550000);
+ assert.deepEqual(powerChart(k),[...k.powerStages].reverse());
  assert.deepEqual([cards.find(c=>c.number==='91').width,cards.find(c=>c.number==='91').height],[1484,1060]);
 });
 
