@@ -2,6 +2,7 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "world-games-099-krillin-the-father": [0, 325000, 350000, 375000, 400000, 425000, 450000, 475000, 500000, 525000, 550000],
   "cell-games-094-cell-jr-1": [0, 2100000, 2200000, 2300000, 2400000, 2500000, 2600000, 2700000, 2800000, 2900000, 3000000],
   "cell-games-098-cell-jr-2": [0, 2100000, 2200000, 2300000, 2400000, 2500000, 2600000, 2700000, 2800000, 2900000, 3000000],
   "cell-114-chi-chi-the-wife": [0, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000],
