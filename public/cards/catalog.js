@@ -18717,8 +18717,8 @@ export const catalog = [
     "rules": "POWER: Draw 3 cards. Place the top card of your discard pile at the bottom of your Life Deck.",
     "rarity": "Common",
     "templateVersion": 3,
-    "image": "/assets/cards/world-games-015-earth-dragon-ball-3.webp?v=575dbda7e8ff",
-    "downloadImage": "/assets/cards/downloads/world-games-015-earth-dragon-ball-3.webp?v=db099994dc19"
+    "image": "/assets/cards/world-games-015-earth-dragon-ball-3.webp?v=7e0dba49f923",
+    "downloadImage": "/assets/cards/downloads/world-games-015-earth-dragon-ball-3.webp?v=58ed59e135a7"
   },
   {
     "id": "world-games-016-namekian-battle-stance",
