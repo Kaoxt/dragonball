@@ -1,0 +1,307 @@
+{
+  "number": 144,
+  "id": "world-games-144-torbie-the-prepared",
+  "name": "Torbie, the Prepared",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-144-torbie-the-prepared.svg",
+  "native_source_sha256": "c10a481387338aa8235b8e44414ee10cb357fa33bac2b85170f6a42ab4de7437",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9656cb284da168fe582257da7b709513461c9e39e54f2fc1ee000ea4ceffabca.png",
+      "sha256": "9656cb284da168fe582257da7b709513461c9e39e54f2fc1ee000ea4ceffabca"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/144.png",
+    "source_sha256": "9656cb284da168fe582257da7b709513461c9e39e54f2fc1ee000ea4ceffabca",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. HIT: Banish the top",
+      "baseline": 1108.3,
+      "width": 749.7980000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "or bottom 3 cards of your opponent's discard pile.",
+      "baseline": 1167.3,
+      "width": 885.3320000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        888.452,
+        159.755,
+        142.548,
+        32.802
+      ],
+      "power-stage-value-1": [
+        891.56,
+        219.047,
+        139.44,
+        32.802
+      ],
+      "power-stage-value-2": [
+        894.962,
+        278.338,
+        136.038,
+        32.802
+      ],
+      "power-stage-value-3": [
+        891.518,
+        337.63,
+        139.482,
+        32.802
+      ],
+      "power-stage-value-4": [
+        887.276,
+        396.922,
+        143.724,
+        32.802
+      ],
+      "power-stage-value-5": [
+        912.056,
+        456.213,
+        118.944,
+        32.802
+      ],
+      "power-stage-value-6": [
+        910.166,
+        515.505,
+        120.834,
+        32.802
+      ],
+      "power-stage-value-7": [
+        916.13,
+        574.797,
+        114.87,
+        32.802
+      ],
+      "power-stage-value-8": [
+        911.888,
+        634.088,
+        119.112,
+        32.802
+      ],
+      "power-stage-value-9": [
+        912.308,
+        693.38,
+        118.692,
+        32.802
+      ],
+      "power-stage-value-10": [
+        910.712,
+        752.672,
+        120.288,
+        32.802
+      ],
+      "power-stage-value-11": [
+        1015.17,
+        811.963,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        224.506,
+        44.5,
+        609.988,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.16,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.959,
+        1392.65,
+        62.381,
+        33.708
+      ],
+      "rules-line-1": [
+        336.812,
+        1013.53,
+        439.971,
+        45.521
+      ],
+      "power-icon": [
+        282.217,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        156.414,
+        1072.53,
+        746.172,
+        45.913
+      ],
+      "rules-line-3": [
+        88.3775,
+        1131.53,
+        882.245,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          336.812,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-144-torbie-the-prepared.webp",
+      "after_sha256": "8cf50cd8eec852edeba712cdea29483d528608281bad5701aa525a7c6c77bca9",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-144-torbie-the-prepared.webp",
+      "after_sha256": "185e97b308b337c3f2dfb590dc8ab2b4f57f88db7aed78f95b32a1615106b2b8",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 609.9875311720699,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

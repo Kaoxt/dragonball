@@ -1,0 +1,301 @@
+{
+  "number": 138,
+  "id": "world-games-138-majin-spopovich-the-revitalized",
+  "name": "Majin Spopovich, the Revitalized",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-138-majin-spopovich-the-revitalized.svg",
+  "native_source_sha256": "f58b1ff01e75a9409b61d29440cb8069f1cf7f3050091469859b2290b177d08a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/176ecf3d2de24c062dcb3fad958b3dde820619d4b13d40e3040454926a59ed14.png",
+      "sha256": "176ecf3d2de24c062dcb3fad958b3dde820619d4b13d40e3040454926a59ed14"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/138.png",
+    "source_sha256": "176ecf3d2de24c062dcb3fad958b3dde820619d4b13d40e3040454926a59ed14",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Place the bottom 3 cards",
+      "baseline": 1049.3,
+      "width": 590.8420000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your discard pile at the bottom",
+      "baseline": 1108.3,
+      "width": 593.3900000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your Life Deck. If you declared",
+      "baseline": 1167.3,
+      "width": 587.4120000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a Tokui Waza, your opponent banishes",
+      "baseline": 1226.3,
+      "width": 682.913,
+      "icon_inline": false
+    },
+    {
+      "text": "the top 3 cards of their discard pile.",
+      "baseline": 1285.3,
+      "width": 635.4810000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        931.166,
+        157.656,
+        99.834,
+        32.802
+      ],
+      "power-stage-value-1": [
+        932.804,
+        212.387,
+        98.196,
+        32.802
+      ],
+      "power-stage-value-2": [
+        929.402,
+        267.118,
+        101.598,
+        32.802
+      ],
+      "power-stage-value-3": [
+        936.248,
+        321.849,
+        94.752,
+        32.802
+      ],
+      "power-stage-value-4": [
+        929.486,
+        376.579,
+        101.514,
+        32.802
+      ],
+      "power-stage-value-5": [
+        929.99,
+        431.31,
+        101.01,
+        32.802
+      ],
+      "power-stage-value-6": [
+        931.25,
+        486.041,
+        99.75,
+        32.802
+      ],
+      "power-stage-value-7": [
+        928.142,
+        540.772,
+        102.858,
+        32.802
+      ],
+      "power-stage-value-8": [
+        928.058,
+        595.503,
+        102.942,
+        32.802
+      ],
+      "power-stage-value-9": [
+        928.94,
+        650.233,
+        102.06,
+        32.802
+      ],
+      "power-stage-value-10": [
+        927.764,
+        704.964,
+        103.236,
+        32.802
+      ],
+      "power-stage-value-11": [
+        933.056,
+        759.695,
+        97.944,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        209.5,
+        56.2925,
+        640.0,
+        46.0945
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.697,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.496,
+        1392.65,
+        59.307,
+        33.708
+      ],
+      "rules-line-1": [
+        235.549,
+        1014.61,
+        587.902,
+        35.084
+      ],
+      "rules-line-2": [
+        234.397,
+        1072.53,
+        590.205,
+        45.521
+      ],
+      "rules-line-3": [
+        237.484,
+        1131.53,
+        584.031,
+        45.521
+      ],
+      "rules-line-4": [
+        189.024,
+        1190.53,
+        680.953,
+        45.521
+      ],
+      "rules-line-5": [
+        212.862,
+        1249.53,
+        633.276,
+        44.884
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-138-majin-spopovich-the-revitalized.webp",
+      "after_sha256": "f0b871a94cc1325df122118db32317dadd6c774a573f14aaf931d165ecb8b07b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-138-majin-spopovich-the-revitalized.webp",
+      "after_sha256": "137f57aa9465ce6e5e730ebddc493cbe824c5b04ecfd0b8f8516ba912fc8366a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 56.62714563794018,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0,
+      "visible_height": 45.41497080162803,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.6581879826322902
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

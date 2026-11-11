@@ -1,0 +1,325 @@
+{
+  "number": 135,
+  "id": "world-games-135-krillin-the-great",
+  "name": "Krillin, the Great",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-135-krillin-the-great.svg",
+  "native_source_sha256": "537f7cb4e47b6ca8c1dee74b4127c0917d67d9a5e237dd3628f8aa799299667b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/28fb258ee7a44093a14693f77ebfe76c807fc0dcbbd4f4e5c2373baa267605f3.png",
+      "sha256": "28fb258ee7a44093a14693f77ebfe76c807fc0dcbbd4f4e5c2373baa267605f3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/135.png",
+    "source_sha256": "28fb258ee7a44093a14693f77ebfe76c807fc0dcbbd4f4e5c2373baa267605f3",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your energy attacks do +1 stage of damage",
+      "baseline": 1049.3,
+      "width": 831.31675,
+      "icon_inline": true
+    },
+    {
+      "text": "per Named card in your discard pile.",
+      "baseline": 1108.3,
+      "width": 643.6150000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "At the beginning of your turn, banish 2",
+      "baseline": 1167.3,
+      "width": 678.111,
+      "icon_inline": false
+    },
+    {
+      "text": "Named cards from your discard pile.",
+      "baseline": 1226.3,
+      "width": 647.3880000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        916.13,
+        157.656,
+        114.87,
+        32.802
+      ],
+      "power-stage-value-1": [
+        914.324,
+        212.387,
+        116.676,
+        32.802
+      ],
+      "power-stage-value-2": [
+        914.114,
+        267.118,
+        116.886,
+        32.802
+      ],
+      "power-stage-value-3": [
+        912.308,
+        321.849,
+        118.692,
+        32.802
+      ],
+      "power-stage-value-4": [
+        914.366,
+        376.579,
+        116.634,
+        32.802
+      ],
+      "power-stage-value-5": [
+        912.56,
+        431.31,
+        118.44,
+        32.802
+      ],
+      "power-stage-value-6": [
+        912.728,
+        486.041,
+        118.272,
+        32.802
+      ],
+      "power-stage-value-7": [
+        910.922,
+        540.772,
+        120.078,
+        32.802
+      ],
+      "power-stage-value-8": [
+        914.366,
+        595.503,
+        116.634,
+        32.802
+      ],
+      "power-stage-value-9": [
+        912.56,
+        650.233,
+        118.44,
+        32.802
+      ],
+      "power-stage-value-10": [
+        914.954,
+        704.964,
+        116.046,
+        32.802
+      ],
+      "power-stage-value-11": [
+        913.148,
+        759.695,
+        117.852,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        286.279,
+        50.2213,
+        486.441,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.2378,
+        876.0,
+        59.5245,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.803,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.602,
+        1392.65,
+        59.095,
+        33.708
+      ],
+      "rules-line-1": [
+        181.273,
+        1014.85,
+        763.224,
+        44.5954
+      ],
+      "power-icon": [
+        114.503,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        209.481,
+        1072.53,
+        640.038,
+        45.521
+      ],
+      "rules-line-3": [
+        191.19,
+        1131.53,
+        676.62,
+        45.913
+      ],
+      "rules-line-4": [
+        207.668,
+        1190.53,
+        643.664,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          114.503,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          181.273,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          114.503,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-135-krillin-the-great.webp",
+      "after_sha256": "95dca9c3437d00091c9adf0094ed6f6f8abf367bd7f4610e10d8590686a44393",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-135-krillin-the-great.webp",
+      "after_sha256": "71454091026859f5222cefe2b7df580da8b0f58d4ab0c8d1020d8737383d0288",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 486.44139650872825,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

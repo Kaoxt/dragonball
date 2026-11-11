@@ -1,0 +1,227 @@
+{
+  "number": 117,
+  "id": "world-games-117-straining-focused-move",
+  "name": "Straining Focused Move",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-117-straining-focused-move.svg",
+  "native_source_sha256": "cd33f2139120bfee0069b0bb65504f2d4ff52db944515c7076f6caf372148f5d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/bdb19e2106127aa5e73943e2190b60a3b1863167eee8c72afc43002eed6985ac.png",
+      "sha256": "bdb19e2106127aa5e73943e2190b60a3b1863167eee8c72afc43002eed6985ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/117.png",
+    "source_sha256": "bdb19e2106127aa5e73943e2190b60a3b1863167eee8c72afc43002eed6985ac",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +7 stages. HIT: You cannot",
+      "baseline": 1108.3,
+      "width": 693.203,
+      "icon_inline": false
+    },
+    {
+      "text": "use a card during your next Defender",
+      "baseline": 1167.3,
+      "width": 659.5400000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Defends phase. Lower your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 723.5340000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        170.777,
+        44.5,
+        717.445,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        792.758,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        852.558,
+        1392.65,
+        49.184,
+        33.708
+      ],
+      "rules-line-1": [
+        336.812,
+        1013.53,
+        439.971,
+        45.521
+      ],
+      "power-icon": [
+        282.217,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        184.442,
+        1073.61,
+        690.116,
+        44.835
+      ],
+      "rules-line-3": [
+        200.749,
+        1131.53,
+        657.502,
+        45.913
+      ],
+      "rules-line-4": [
+        169.595,
+        1191.85,
+        719.81,
+        44.5954
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          336.812,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-117-straining-focused-move.webp",
+      "after_sha256": "68de1299855d5b675962e24ab3f22af7f35dfbdd9050b526af422bcbe9772ec6",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-117-straining-focused-move.webp",
+      "after_sha256": "1ef5ccac16b731f3a013b767612a9ea11dc5dafa3fb88ee4ce4ae7d06ddfc52f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 717.4451371571073,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

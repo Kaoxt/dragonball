@@ -1,0 +1,193 @@
+{
+  "number": 125,
+  "id": "world-games-125-east-kai-sensei",
+  "name": "East Kai Sensei",
+  "family": "SENSEI",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-125-east-kai-sensei.svg",
+  "native_source_sha256": "c49afa2e76f994eed0678d93bd6e5aee8df077244cb1fa5ef8226edbbac1c527",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6eeb5be0729cc0784b728d8295e710e43fb3f39e87c1fcb8272ab4b6f9c8fc0c.png",
+      "sha256": "6eeb5be0729cc0784b728d8295e710e43fb3f39e87c1fcb8272ab4b6f9c8fc0c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8.png",
+      "sha256": "1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac.jpg",
+      "sha256": "1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/125.png",
+    "source_sha256": "6eeb5be0729cc0784b728d8295e710e43fb3f39e87c1fcb8272ab4b6f9c8fc0c",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      0,
+      137.62055335970047,
+      1060,
+      723.4255599472991
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Once per game",
+      "width": 411.943,
+      "baseline": 1049.3,
+      "icon_inline": false
+    },
+    {
+      "text": "during any Planning Step,",
+      "width": 450.31,
+      "baseline": 1108.3,
+      "icon_inline": false
+    },
+    {
+      "text": "raise your Main Personality",
+      "width": 482.50300000000004,
+      "baseline": 1167.3,
+      "icon_inline": false
+    },
+    {
+      "text": "to its highest power stage.",
+      "width": 473.34,
+      "baseline": 1226.3,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        302.153,
+        50.2213,
+        454.695,
+        57.5574
+      ],
+      "card-category": [
+        329.076,
+        891.391,
+        211.17,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.227,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.026,
+        1392.65,
+        58.247,
+        33.708
+      ],
+      "rules-line-1": [
+        75.107,
+        1014.61,
+        408.513,
+        44.835
+      ],
+      "rules-line-2": [
+        74.519,
+        1072.53,
+        447.151,
+        45.913
+      ],
+      "rules-line-3": [
+        74.862,
+        1131.53,
+        479.981,
+        45.521
+      ],
+      "rules-line-4": [
+        73.637,
+        1190.53,
+        471.135,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-125-east-kai-sensei.webp",
+      "after_sha256": "e7e7526d64f9c34d339a4bb673179c7e74dcbfb3c4c0533050c2c014c2470584",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-125-east-kai-sensei.webp",
+      "after_sha256": "4e8cbe42b7131331ad679cfe806c234d2abb243ca7cbf63c2e8b4f42a94b3da5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 454.6945137157108,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "approved_sensei_anchor": [
+        434.661310104786,
+        908.5
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

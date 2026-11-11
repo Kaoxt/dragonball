@@ -18,7 +18,7 @@ Dragon Ball SVG before assetization. Both existing World Games builders do
 this. New batches must use the same helper instead of inheriting another
 set's Shenron artwork from a donor.
 
-The current 001–100 catalog has one Dragon Ball: #15 Earth Dragon Ball 3.
+The current 001–150 catalog has one Dragon Ball: #15 Earth Dragon Ball 3.
 Its native illustration href is the only changed SVG content. Preserve its
 rules, title, category, frame, stars, emblem, rarity and footer. Other sets
 retain their independently approved illustrations. This is an approved

@@ -1,0 +1,179 @@
+{
+  "number": 118,
+  "id": "world-games-118-the-truck",
+  "name": "The Truck",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-118-the-truck.svg",
+  "native_source_sha256": "5982a9d83469227a7a04c0326f9acbe12bae3e1c468dea08f8f03cd71875079a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/35b06450faaf34d5dc74bed512b6d3c243cc0bbb5964d44de712f801f570f5e2.png",
+      "sha256": "35b06450faaf34d5dc74bed512b6d3c243cc0bbb5964d44de712f801f570f5e2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/118.png",
+    "source_sha256": "35b06450faaf34d5dc74bed512b6d3c243cc0bbb5964d44de712f801f570f5e2",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) POWER: Discard 2",
+      "baseline": 1049.3,
+      "width": 643.664,
+      "icon_inline": false
+    },
+    {
+      "text": "Setups or Drills in play. If Gohan or Videl",
+      "baseline": 1108.3,
+      "width": 707.952,
+      "icon_inline": false
+    },
+    {
+      "text": "is in play, discard 1 Setup or Drill instead.",
+      "baseline": 1167.3,
+      "width": 726.719,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        383.413,
+        50.2213,
+        292.175,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        208.109,
+        1012.11,
+        642.782,
+        46.305
+      ],
+      "rules-line-2": [
+        177.018,
+        1072.53,
+        704.963,
+        45.521
+      ],
+      "rules-line-3": [
+        167.659,
+        1131.53,
+        723.681,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-118-the-truck.webp",
+      "after_sha256": "53821548d5ceff52fcefed3dbfff681483b666c3e7d027d3b4054c90ed0d3190",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-118-the-truck.webp",
+      "after_sha256": "882c01bb5ccac665f74c031d39d369e400a1cbba592e30552cf3b5d56fe1a49a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 292.1745635910225,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

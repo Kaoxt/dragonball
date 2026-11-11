@@ -1,0 +1,239 @@
+{
+  "number": 110,
+  "id": "world-games-110-saiyan-jump-shot",
+  "name": "Saiyan Jump Shot",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-110-saiyan-jump-shot.svg",
+  "native_source_sha256": "1f81eb58711f167786d8fdb7f338107e403f2bd73d2ccb5e52ba215832bb66ad",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/124230dac5b662507e7da5194522ee95219c89a69ebd003dc0d5009fcd08607c.png",
+      "sha256": "124230dac5b662507e7da5194522ee95219c89a69ebd003dc0d5009fcd08607c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/110.png",
+    "source_sha256": "124230dac5b662507e7da5194522ee95219c89a69ebd003dc0d5009fcd08607c",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: Shuffle",
+      "baseline": 1108.3,
+      "width": 594.3700000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "this into your Life Deck after use.",
+      "baseline": 1167.3,
+      "width": 592.4590000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If you declared a Tokui Waza, your next",
+      "baseline": 1226.3,
+      "width": 700.7,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack this Combat costs 0 stages.",
+      "baseline": 1285.3,
+      "width": 749.749,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        261.243,
+        44.5,
+        536.514,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        791.407,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.206,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        234.054,
+        1072.53,
+        590.891,
+        36.162
+      ],
+      "rules-line-3": [
+        234.373,
+        1131.53,
+        590.254,
+        45.521
+      ],
+      "rules-line-4": [
+        180.694,
+        1190.53,
+        697.613,
+        45.521
+      ],
+      "rules-line-5": [
+        156.169,
+        1249.53,
+        746.662,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-110-saiyan-jump-shot.webp",
+      "after_sha256": "b8f0623d09d570fcd8996fc69f98ef9f7b51ff3c505b7d66fcf488ac8bc9e235",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-110-saiyan-jump-shot.webp",
+      "after_sha256": "ff0285470dac92607f482b6eaeae2e43c6c67b318e200eca56e279f83d05e5a1",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 536.5137157107233,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

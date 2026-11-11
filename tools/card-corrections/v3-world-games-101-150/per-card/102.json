@@ -1,0 +1,239 @@
+{
+  "number": 102,
+  "id": "world-games-102-red-solar-flare",
+  "name": "Red Solar Flare",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-102-red-solar-flare.svg",
+  "native_source_sha256": "2836e8c0afdc3a6f691d6cbe94b706e988147b93cfb1a259e97f0220b34df3e7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/00de3faf82ab34b06af6ee4de1262b2c9a443eb5581abebdaab9af420eca437b.png",
+      "sha256": "00de3faf82ab34b06af6ee4de1262b2c9a443eb5581abebdaab9af420eca437b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/102.png",
+    "source_sha256": "00de3faf82ab34b06af6ee4de1262b2c9a443eb5581abebdaab9af420eca437b",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck only. Energy attack",
+      "baseline": 1049.3,
+      "width": 622.9901555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "costing 2 stages. DAMAGE: 6 life cards.",
+      "baseline": 1108.3,
+      "width": 687.9110000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "If your opponent declared a Blue Tokui Waza,",
+      "baseline": 1167.3,
+      "width": 800.562,
+      "icon_inline": false
+    },
+    {
+      "text": "this attack is focused and lowers",
+      "baseline": 1226.3,
+      "width": 590.2050000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "their anger 2 levels. Banish after use.",
+      "baseline": 1285.3,
+      "width": 664.636,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        304.218,
+        50.2213,
+        450.565,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.723,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.523,
+        1392.65,
+        59.254,
+        33.708
+      ],
+      "rules-line-1": [
+        219.156,
+        1013.53,
+        620.687,
+        45.913
+      ],
+      "power-icon": [
+        540.15,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        187.088,
+        1072.53,
+        684.824,
+        45.913
+      ],
+      "rules-line-3": [
+        131.117,
+        1131.53,
+        796.766,
+        45.521
+      ],
+      "rules-line-4": [
+        235.132,
+        1190.53,
+        588.735,
+        36.162
+      ],
+      "rules-line-5": [
+        198.285,
+        1249.53,
+        662.431,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 15,
+        "previous_visible_bounds": [
+          540.15,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          594.746,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          540.15,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-102-red-solar-flare.webp",
+      "after_sha256": "edd43d8cb9c632cb18bf984eee9c0aed1f29a6a1cdcefcdc522bc3b58876885e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-102-red-solar-flare.webp",
+      "after_sha256": "57e5e6f20f390a8a58131ed491a7acc716de63e187f26aa784c6da36d2447b39",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 450.56483790523697,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

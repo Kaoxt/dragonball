@@ -11,8 +11,13 @@ const json=cards=>'export const catalog = '+JSON.stringify(cards,null,2)+';\n';
 test('every current World Games Dragon Ball uses the approved artwork and only its image URLs change',()=>{
  const affected=catalog.filter(c=>c.set==='World Games Saga'&&c.type==='Dragon Ball');
  assert.deepEqual(affected.map(c=>c.id),shenronRelease.cards.map(c=>c.id));
- assert.equal(hash(Buffer.from(json(beforeCatalog))),shenronRelease.baseline_catalog_sha256);
- assert.equal(hash(fs.readFileSync('public/cards/catalog.js')),shenronRelease.catalog_sha256);
+ // The artwork release reviewed World Games 001–100, before the next batch.
+ const reviewedIds=JSON.parse(fs.readFileSync('tools/card-corrections/v3-world-games-101-150/baseline-card-ids.json','utf8'));
+ const reviewed=new Set(reviewedIds);
+ const prior=beforeCatalog.filter(c=>reviewed.has(c.id)),current=catalog.filter(c=>reviewed.has(c.id));
+ assert.deepEqual(prior.map(c=>c.id),reviewedIds);
+ assert.equal(hash(Buffer.from(json(prior))),shenronRelease.baseline_catalog_sha256);
+ assert.equal(hash(Buffer.from(json(current))),shenronRelease.catalog_sha256);
  assert.equal(hash(fs.readFileSync(shenronRelease.artwork.path)),shenronRelease.artwork.sha256);
  assert.deepEqual(shenronRelease.artwork.native_mapping,[0,0,1060,1484]);
  for(const row of shenronRelease.cards){

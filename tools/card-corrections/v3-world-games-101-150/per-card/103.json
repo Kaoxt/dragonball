@@ -1,0 +1,203 @@
+{
+  "number": 103,
+  "id": "world-games-103-red-trap",
+  "name": "Red Trap",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-103-red-trap.svg",
+  "native_source_sha256": "e85ec022b09fa49ae6f2e23d27fc0fef4c2336fef76c7e7bb9a88c0d343fd9cd",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1dfa2ba128f79ee0aeb66461e0057d52fef82e24d4c708800182c2ab99a4d5a7.png",
+      "sha256": "1dfa2ba128f79ee0aeb66461e0057d52fef82e24d4c708800182c2ab99a4d5a7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/103.png",
+    "source_sha256": "1dfa2ba128f79ee0aeb66461e0057d52fef82e24d4c708800182c2ab99a4d5a7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck only. POWER: After your successful",
+      "baseline": 1049.3,
+      "width": 850.248,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack, attach this to your opponent's",
+      "baseline": 1108.3,
+      "width": 801.1990000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Main Personality. They cannot use Setups",
+      "baseline": 1167.3,
+      "width": 737.499,
+      "icon_inline": false
+    },
+    {
+      "text": "or Drills while attached. Banish this",
+      "baseline": 1226.3,
+      "width": 627.592,
+      "icon_inline": false
+    },
+    {
+      "text": "when they perform a successful attack.",
+      "baseline": 1285.3,
+      "width": 708.2460000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        401.05,
+        44.5,
+        256.9,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.644,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.443,
+        1392.65,
+        59.413,
+        33.708
+      ],
+      "rules-line-1": [
+        105.871,
+        1013.53,
+        847.259,
+        45.521
+      ],
+      "rules-line-2": [
+        130.077,
+        1072.53,
+        798.847,
+        45.913
+      ],
+      "rules-line-3": [
+        162.171,
+        1131.53,
+        734.657,
+        45.521
+      ],
+      "rules-line-4": [
+        216.88,
+        1190.53,
+        625.24,
+        36.162
+      ],
+      "rules-line-5": [
+        176.553,
+        1250.85,
+        705.894,
+        44.2034
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-103-red-trap.webp",
+      "after_sha256": "b023a7201a486fadb515e2066b8a909ac5e6da8c31cc85e8605133b354b05393",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-103-red-trap.webp",
+      "after_sha256": "736f4a058d4051267f9b8b6c4fba046c258a6a73b34e97c862b9ec29dcb63f31",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 256.90024937655863,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3
+}

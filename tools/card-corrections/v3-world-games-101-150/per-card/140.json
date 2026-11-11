@@ -1,0 +1,205 @@
+{
+  "number": 140,
+  "id": "world-games-140-north-kai-sensei",
+  "name": "North Kai Sensei",
+  "family": "SENSEI",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-140-north-kai-sensei.svg",
+  "native_source_sha256": "c084fdf72d8e73fcb32e656437e01e7f4bfd43cfe1727415c4f7fe0966f24e00",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0b8ea61b727ddcd07508a5382265238d5ac6cf20a229ce849dd2809df50876e0.png",
+      "sha256": "0b8ea61b727ddcd07508a5382265238d5ac6cf20a229ce849dd2809df50876e0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8.png",
+      "sha256": "1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac.jpg",
+      "sha256": "1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved North Kai Sensei V3 illustration",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/140.png",
+    "source_sha256": "0b8ea61b727ddcd07508a5382265238d5ac6cf20a229ce849dd2809df50876e0",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      0,
+      146.0000000000167,
+      1060,
+      706.6666666666666
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Twice per game during",
+      "width": 554.19,
+      "baseline": 1049.3,
+      "icon_inline": false
+    },
+    {
+      "text": "your Planning Step, you may",
+      "width": 501.90700000000004,
+      "baseline": 1108.3,
+      "icon_inline": false
+    },
+    {
+      "text": "choose an opponent. They",
+      "width": 465.696,
+      "baseline": 1167.3,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot use their Mastery",
+      "width": 440.951,
+      "baseline": 1226.3,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of the turn.",
+      "width": 409.00300000000004,
+      "baseline": 1285.3,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        284.171,
+        50.2213,
+        490.657,
+        57.5574
+      ],
+      "card-category": [
+        329.076,
+        891.391,
+        211.17,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.087,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.887,
+        1392.65,
+        60.526,
+        33.708
+      ],
+      "rules-line-1": [
+        75.107,
+        1013.53,
+        550.466,
+        45.913
+      ],
+      "rules-line-2": [
+        73.637,
+        1072.53,
+        500.61,
+        45.913
+      ],
+      "rules-line-3": [
+        74.519,
+        1133.0,
+        463.517,
+        44.051
+      ],
+      "rules-line-4": [
+        74.519,
+        1190.53,
+        438.772,
+        45.521
+      ],
+      "rules-line-5": [
+        73.882,
+        1250.85,
+        406.553,
+        34.8444
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-140-north-kai-sensei.webp",
+      "after_sha256": "3db705d531fdb4fb6dc9640c56b9fc3cfddb9f21f49dcb5c0ab6e29c4240fb92",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-140-north-kai-sensei.webp",
+      "after_sha256": "3618723e959b098c0697212582f24ff31d66a8200c6f78248f2acc627314d289",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 490.6571072319203,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "approved_sensei_anchor": [
+        434.661310104786,
+        908.5
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

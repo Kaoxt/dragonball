@@ -29,3 +29,8 @@ node --test tests/card-world-games-shenron.test.js
 ```
 
 Live publication is verified separately from these source/export checks.
+
+The later 101–150 release remains intact. Catalog checks project the reviewed
+001–100 membership before comparing the original artwork-release hashes.
+Freestyle exclusions also follow the verified artwork history, preserving
+their original hashes while accepting this separately reviewed revision.

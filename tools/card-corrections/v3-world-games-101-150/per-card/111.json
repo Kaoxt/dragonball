@@ -1,0 +1,239 @@
+{
+  "number": 111,
+  "id": "world-games-111-saiyan-kamehameha",
+  "name": "Saiyan Kamehameha",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-111-saiyan-kamehameha.svg",
+  "native_source_sha256": "12af7b928f6968a8e2f8a0b02a180fd0771f9b775660feb84b1ed380f93c4fa7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/958b87abbd709368c5d85928b3932265315ac4a74cb2a276bb77153fc3959e37.png",
+      "sha256": "958b87abbd709368c5d85928b3932265315ac4a74cb2a276bb77153fc3959e37"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/111.png",
+    "source_sha256": "958b87abbd709368c5d85928b3932265315ac4a74cb2a276bb77153fc3959e37",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck only. Energy attack",
+      "baseline": 1049.3,
+      "width": 622.9901555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "costing 2 stages. DAMAGE: 5 life cards.",
+      "baseline": 1108.3,
+      "width": 687.8620000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "If both players declared a Tokui Waza, prevent",
+      "baseline": 1167.3,
+      "width": 827.1199999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "5 life cards of damage from the next attack",
+      "baseline": 1226.3,
+      "width": 772.926,
+      "icon_inline": false
+    },
+    {
+      "text": "against you this Combat. Raise your anger 1 level.",
+      "baseline": 1285.3,
+      "width": 877.8839999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        214.569,
+        44.5,
+        629.862,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        219.156,
+        1013.53,
+        620.687,
+        45.913
+      ],
+      "power-icon": [
+        540.15,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        187.112,
+        1072.53,
+        684.775,
+        45.913
+      ],
+      "rules-line-3": [
+        117.484,
+        1131.53,
+        824.033,
+        45.521
+      ],
+      "rules-line-4": [
+        144.286,
+        1190.53,
+        770.427,
+        45.913
+      ],
+      "rules-line-5": [
+        91.9055,
+        1249.53,
+        875.189,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 15,
+        "previous_visible_bounds": [
+          540.15,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          594.746,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          540.15,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-111-saiyan-kamehameha.webp",
+      "after_sha256": "875513a12b8bd735e3cbfe27c209274246ff46de8478e9c6ac5515c6e22103fd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-111-saiyan-kamehameha.webp",
+      "after_sha256": "7366c66fbfcc1207a0324e352384ab2fbd7a7df8480779a4eb9f178daee51b57",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 629.8615960099752,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

@@ -1,0 +1,247 @@
+{
+  "number": 148,
+  "id": "world-games-148-saiyan-style-mastery",
+  "name": "Saiyan Style Mastery",
+  "family": "MASTERY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-148-saiyan-style-mastery.svg",
+  "native_source_sha256": "1582ccd1231b791fd5662aad1c998535369f488ac32e9a61bcd2b5589dc4c092",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699.png",
+      "sha256": "fd8b6569ff99cb15268811cd224369281568b0f3717c6771b2834e02737c7699"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/adb5f38e5ca32c5b26e00940e02419e9557fb6486c94baac52882ed9c6a75c9a.png",
+      "sha256": "adb5f38e5ca32c5b26e00940e02419e9557fb6486c94baac52882ed9c6a75c9a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/148.png",
+    "source_sha256": "adb5f38e5ca32c5b26e00940e02419e9557fb6486c94baac52882ed9c6a75c9a",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, draw a card.",
+      "baseline": 1049.3,
+      "width": 711.4137499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "Prevent 4 stages of damage from the first",
+      "baseline": 1108.3,
+      "width": 746.9069999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "attack against you this Combat. If the card is",
+      "baseline": 1167.3,
+      "width": 799.0919999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Saiyan Style, you may reveal it to also prevent",
+      "baseline": 1226.3,
+      "width": 820.848,
+      "icon_inline": false
+    },
+    {
+      "text": "4 life cards of damage from that attack.",
+      "baseline": 1285.3,
+      "width": 711.97,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        212.978,
+        44.5,
+        633.045,
+        69.0
+      ],
+      "card-category": [
+        383.08,
+        891.391,
+        292.839,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.114,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.913,
+        1392.65,
+        60.473,
+        33.708
+      ],
+      "rules-line-1": [
+        241.151,
+        1013.53,
+        643.272,
+        45.913
+      ],
+      "power-icon": [
+        174.577,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        157.566,
+        1072.53,
+        743.869,
+        45.913
+      ],
+      "rules-line-3": [
+        130.934,
+        1131.53,
+        797.132,
+        45.913
+      ],
+      "rules-line-4": [
+        120.203,
+        1190.53,
+        818.594,
+        45.521
+      ],
+      "rules-line-5": [
+        174.642,
+        1249.53,
+        709.716,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          174.577,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          241.151,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          174.577,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-148-saiyan-style-mastery.webp",
+      "after_sha256": "fa4e1838d2ceb6d9d6d09576b3de619c9fd476f8678cef6d769fbb2f6d282199",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-148-saiyan-style-mastery.webp",
+      "after_sha256": "f646fc91da7770c52fe985e4dc2c1a70108a19e13ac2b33002445a4eed413268",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 633.0448877805487,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "MASTERY",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        292.83914999999996,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

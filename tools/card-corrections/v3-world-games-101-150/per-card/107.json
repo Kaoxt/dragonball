@@ -1,0 +1,227 @@
+{
+  "number": 107,
+  "id": "world-games-107-saiyan-flight",
+  "name": "Saiyan Flight",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-107-saiyan-flight.svg",
+  "native_source_sha256": "d6b8cc59a5c81904caf13f9d5c1aef96d8dd69d5334aa1825f58d2ea8a258236",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1ea7edf785b8c44baf8148c0f3442cc4e8ec17f286f423e009b71ed5ea9e5d5f.png",
+      "sha256": "1ea7edf785b8c44baf8148c0f3442cc4e8ec17f286f423e009b71ed5ea9e5d5f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/107.png",
+    "source_sha256": "1ea7edf785b8c44baf8148c0f3442cc4e8ec17f286f423e009b71ed5ea9e5d5f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 660.6711555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 stages. If your opponent",
+      "baseline": 1108.3,
+      "width": 628.6700000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "declared a Namekian Tokui Waza, lower",
+      "baseline": 1167.3,
+      "width": 708.8830000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "their Main Personality to 0 stages.",
+      "baseline": 1226.3,
+      "width": 604.5620000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        335.276,
+        44.5,
+        388.448,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.28,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.079,
+        1392.65,
+        58.141,
+        33.708
+      ],
+      "rules-line-1": [
+        200.61,
+        1013.53,
+        657.78,
+        45.521
+      ],
+      "power-icon": [
+        521.604,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        216.708,
+        1073.61,
+        625.583,
+        44.835
+      ],
+      "rules-line-3": [
+        176.004,
+        1131.53,
+        706.992,
+        40.572
+      ],
+      "rules-line-4": [
+        228.321,
+        1190.53,
+        602.357,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 15,
+        "previous_visible_bounds": [
+          521.604,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          576.15,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          521.604,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-107-saiyan-flight.webp",
+      "after_sha256": "6a5e09c0b27c4897c55833d0b3ff6b8f903156539303f8f15221476ec580a96a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-107-saiyan-flight.webp",
+      "after_sha256": "4b5393416a91d2751edf442d7f236ce05ab381c41416e77df7be23aa39406748",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 388.44763092269335,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

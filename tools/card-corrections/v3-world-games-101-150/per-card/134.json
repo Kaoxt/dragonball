@@ -1,0 +1,331 @@
+{
+  "number": 134,
+  "id": "world-games-134-krillin-the-husband",
+  "name": "Krillin, the Husband",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-134-krillin-the-husband.svg",
+  "native_source_sha256": "d7308745885747b7b3556dfb3611059fe35d74bb199ee35ebf4b67bc16611587",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/19ac86da51e682c242ab772b80d26164ff41c4d205ba689d52ecdf2efb062f88.png",
+      "sha256": "19ac86da51e682c242ab772b80d26164ff41c4d205ba689d52ecdf2efb062f88"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/134.png",
+    "source_sha256": "19ac86da51e682c242ab772b80d26164ff41c4d205ba689d52ecdf2efb062f88",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. If your discard pile",
+      "baseline": 1108.3,
+      "width": 718.0460000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "has more cards than your opponent's",
+      "baseline": 1167.3,
+      "width": 661.1570000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "when you first perform this attack,",
+      "baseline": 1226.3,
+      "width": 621.4670000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "you may perform it twice per Combat.",
+      "baseline": 1285.3,
+      "width": 671.3000000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        910.46,
+        159.755,
+        120.54,
+        32.802
+      ],
+      "power-stage-value-1": [
+        909.872,
+        219.047,
+        121.128,
+        32.802
+      ],
+      "power-stage-value-2": [
+        910.712,
+        278.338,
+        120.288,
+        32.802
+      ],
+      "power-stage-value-3": [
+        910.124,
+        337.63,
+        120.876,
+        32.802
+      ],
+      "power-stage-value-4": [
+        909.074,
+        396.922,
+        121.926,
+        32.802
+      ],
+      "power-stage-value-5": [
+        908.486,
+        456.213,
+        122.514,
+        32.802
+      ],
+      "power-stage-value-6": [
+        910.712,
+        515.505,
+        120.288,
+        32.802
+      ],
+      "power-stage-value-7": [
+        910.124,
+        574.797,
+        120.876,
+        32.802
+      ],
+      "power-stage-value-8": [
+        911.3,
+        634.088,
+        119.7,
+        32.802
+      ],
+      "power-stage-value-9": [
+        910.712,
+        693.38,
+        120.288,
+        32.802
+      ],
+      "power-stage-value-10": [
+        916.34,
+        752.672,
+        114.66,
+        32.802
+      ],
+      "power-stage-value-11": [
+        1015.17,
+        811.963,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        236.336,
+        50.2213,
+        586.328,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.743,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.542,
+        1392.65,
+        61.215,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        172.216,
+        1072.53,
+        714.567,
+        45.521
+      ],
+      "rules-line-3": [
+        200.269,
+        1133.0,
+        658.462,
+        44.051
+      ],
+      "rules-line-4": [
+        219.979,
+        1190.53,
+        619.043,
+        45.521
+      ],
+      "rules-line-5": [
+        194.952,
+        1249.53,
+        669.095,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-134-krillin-the-husband.webp",
+      "after_sha256": "164bfe3bc6f529b01427622495621ddae54b9de6931923f3ffdc6d09e53005f4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-134-krillin-the-husband.webp",
+      "after_sha256": "57485e09a8307564c44c991a8a52872b30e1d296ecdd39a13231b0d7313f3941",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 586.3279301745637,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

@@ -1,0 +1,227 @@
+{
+  "number": 114,
+  "id": "world-games-114-saiyan-swift-kick",
+  "name": "Saiyan Swift Kick",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-101-150/world-games-114-saiyan-swift-kick.svg",
+  "native_source_sha256": "e3cd524186214744eec8323b2fe773b87e548abfbea087bf6683df160b3e23c0",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c2e6a7d0d1906ffc0ecd7f337bc4ac9e8937764e7dd4f49c67f46ec2dc8a61b3.png",
+      "sha256": "c2e6a7d0d1906ffc0ecd7f337bc4ac9e8937764e7dd4f49c67f46ec2dc8a61b3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-101-150/artwork/114.png",
+    "source_sha256": "c2e6a7d0d1906ffc0ecd7f337bc4ac9e8937764e7dd4f49c67f46ec2dc8a61b3",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "If the bottom card of your discard pile is Saiyan",
+      "baseline": 1108.3,
+      "width": 843.0939999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Style, prevent 4 stages of damage from the next",
+      "baseline": 1167.3,
+      "width": 857.941,
+      "icon_inline": false
+    },
+    {
+      "text": "attack performed against you this Combat.",
+      "baseline": 1226.3,
+      "width": 762.146,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        267.05,
+        44.5,
+        524.899,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        790.479,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        850.279,
+        1392.65,
+        53.742,
+        33.708
+      ],
+      "rules-line-1": [
+        208.555,
+        1013.53,
+        696.437,
+        45.913
+      ],
+      "power-icon": [
+        154.008,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        109.864,
+        1072.53,
+        839.272,
+        45.521
+      ],
+      "rules-line-3": [
+        101.657,
+        1132.61,
+        855.687,
+        44.835
+      ],
+      "rules-line-4": [
+        149.775,
+        1190.53,
+        759.451,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          154.008,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.555,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          154.008,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-114-saiyan-swift-kick.webp",
+      "after_sha256": "6fd7c65aed6a7d88c64e322514bea7da86875dc15739ded1f2cda8684b8373ad",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-114-saiyan-swift-kick.webp",
+      "after_sha256": "ee84d879e43ebfabc3c47b253fbc99ef208d17b9f26566df7b72785883aafc8d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 524.8990024937657,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

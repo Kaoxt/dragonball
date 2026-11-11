@@ -8,7 +8,7 @@ set-specific source and native mapping are recorded in
 Both World Games builders use `scripts/world_games_dragon_ball.py` before
 assetizing the illustration. Preserve the full 1060×1484 mapping, existing
 single brightness gain, native UI, rules and numbered left orb. Other sets
-retain their artwork. The current 001–100 catalog contains only #15 Earth
+retain their artwork. The current 001–150 catalog contains only #15 Earth
 Dragon Ball 3; later World Games Dragon Balls inherit this default.
 Earlier audits stay immutable and use the reversible Shenron history helper.
 
