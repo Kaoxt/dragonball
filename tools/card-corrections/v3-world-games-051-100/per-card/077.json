@@ -1,0 +1,227 @@
+{
+  "number": 77,
+  "id": "world-games-077-namekian-offense",
+  "name": "Namekian Offense",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-077-namekian-offense.svg",
+  "native_source_sha256": "3c608310a897a69eab31deac25a901fafdf694bc3b97ef492eba138753533082",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/15c4d9445c57bb71119069fa2f3dacc8b5e8ac8ec049f57cf1c8ea7443cf96f7.png",
+      "sha256": "15c4d9445c57bb71119069fa2f3dacc8b5e8ac8ec049f57cf1c8ea7443cf96f7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/15c4d9445c57bb71119069fa2f3dacc8b5e8ac8ec049f57cf1c8ea7443cf96f7.png",
+    "source_sha256": "15c4d9445c57bb71119069fa2f3dacc8b5e8ac8ec049f57cf1c8ea7443cf96f7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/077.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. POWER: Your physical attacks",
+      "baseline": 1049.3,
+      "width": 770.133,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +2 stages of damage for the rest of Combat.",
+      "baseline": 1108.3,
+      "width": 867.5939999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "Place a Dragon Ball your opponent controls",
+      "baseline": 1167.3,
+      "width": 763.616,
+      "icon_inline": false
+    },
+    {
+      "text": "at the bottom of its owner's Life Deck.",
+      "baseline": 1226.3,
+      "width": 676.2,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        255.737,
+        50.2213,
+        547.526,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        798.005,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.805,
+        1392.65,
+        38.69,
+        33.708
+      ],
+      "rules-line-1": [
+        145.512,
+        1013.53,
+        767.977,
+        45.521
+      ],
+      "rules-line-2": [
+        97.2465,
+        1073.61,
+        864.507,
+        44.835
+      ],
+      "rules-line-3": [
+        149.162,
+        1132.95,
+        760.676,
+        44.492
+      ],
+      "rules-line-4": [
+        192.748,
+        1190.53,
+        673.505,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-077-namekian-offense.webp",
+      "after_sha256": "12460a16c50c464f20df028dda640432c21feffae61f80233131d0081d30cf82",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "b7a30afd7268922daf00d9595b7a04f883d9acb12b80c15bae0292d9c7f1f7e7"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-077-namekian-offense.webp",
+      "after_sha256": "32b4c2dd7f797a79a70d719783829c4fcd087037fb45664f89e4c593c10d6d8b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "e010d8ecedbc6003b43b67f2521bf3f57e3c9acb2a92c5c3f7e4b1ce5933545c"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 547.5261845386534,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "1275d9f4f445c162310ced3d27052ac0f2eeac4855aefd52ed09193fec038293",
+    "reversible_edits": [
+      {
+        "id": "namekian-colored-strokes",
+        "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 4511,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      76,
+      1694,
+      324,
+      1940
+    ],
+    "before_download_sha256": "e010d8ecedbc6003b43b67f2521bf3f57e3c9acb2a92c5c3f7e4b1ce5933545c"
+  }
+}

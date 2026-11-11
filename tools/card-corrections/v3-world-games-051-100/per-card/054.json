@@ -1,0 +1,238 @@
+{
+  "number": 54,
+  "id": "world-games-054-blue-rebound",
+  "name": "Blue Rebound",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-054-blue-rebound.svg",
+  "native_source_sha256": "dc3b65e1d3a40e6d90b7655ad4dfdf0ec552ffc740a8376162ffde7f2ae242cf",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/359654588db5e5f8cc6b455f9280a4cac06d433cf48fcc9961d7d371dd9af220.png",
+      "sha256": "359654588db5e5f8cc6b455f9280a4cac06d433cf48fcc9961d7d371dd9af220"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/359654588db5e5f8cc6b455f9280a4cac06d433cf48fcc9961d7d371dd9af220.png",
+    "source_sha256": "359654588db5e5f8cc6b455f9280a4cac06d433cf48fcc9961d7d371dd9af220",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/054.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. POWER: For the rest",
+      "baseline": 1049.3,
+      "width": 590.3030000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of Combat, your energy attacks cost",
+      "baseline": 1108.3,
+      "width": 647.045,
+      "icon_inline": false
+    },
+    {
+      "text": "-1 stage (minimum 0) and deal +1 stage",
+      "baseline": 1167.3,
+      "width": 690.655,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage for each Ally your opponent",
+      "baseline": 1226.3,
+      "width": 686.784,
+      "icon_inline": false
+    },
+    {
+      "text": "has in play. Raise your anger 1 level.",
+      "baseline": 1285.3,
+      "width": 640.283,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        325.468,
+        50.2213,
+        408.064,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        794.613,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.413,
+        1392.65,
+        45.474,
+        33.708
+      ],
+      "rules-line-1": [
+        235.475,
+        1013.53,
+        588.049,
+        36.162
+      ],
+      "rules-line-2": [
+        207.202,
+        1073.61,
+        644.595,
+        44.835
+      ],
+      "rules-line-3": [
+        185.422,
+        1130.11,
+        688.156,
+        47.334
+      ],
+      "rules-line-4": [
+        187.333,
+        1191.85,
+        684.334,
+        44.5954
+      ],
+      "rules-line-5": [
+        211.073,
+        1249.53,
+        636.853,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-054-blue-rebound.webp",
+      "after_sha256": "07c9c7e595ccabb1ed5f0b5e8211256ee2b0aff49562717ea6935887f31b219b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "b999039ddd2dde54ef82ebc9898de1574a4ab61479cc657d132c61b876f921e2"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-054-blue-rebound.webp",
+      "after_sha256": "bb853a79e692d37abf92fbcce848e9389a42a0646a067f49aecd0a47bbfeb882",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "2b7097dcaa486a72be9babe094d103434d8aa0c71153d48eb6bc5a4220aa6509"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 408.063591022444,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "352b886de838e46447b4d7612662e491d7edaf9416df36f05d68c9c4c4b9def8",
+    "reversible_edits": [
+      {
+        "id": "blue-style-symbol",
+        "before": "<ns0:g id=\"blue-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#3b9cde\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"blue-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#3b9cde\" stroke-width=\"7.403846151625\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 2794,
+    "pixels_changed_outside_symbol_area": 0,
+    "changed_bounds": [
+      78,
+      1687,
+      322,
+      1947
+    ],
+    "before_download_sha256": "2b7097dcaa486a72be9babe094d103434d8aa0c71153d48eb6bc5a4220aa6509"
+  }
+}

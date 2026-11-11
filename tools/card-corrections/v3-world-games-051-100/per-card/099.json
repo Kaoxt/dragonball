@@ -1,0 +1,336 @@
+{
+  "number": 99,
+  "id": "world-games-099-krillin-the-father",
+  "name": "Krillin, the Father",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-099-krillin-the-father.svg",
+  "native_source_sha256": "1caabccb59226d6fcb3bf2363df6d3e5cef87cbdffaa1ae8cf8b07574c03dbf7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/023dcb93487146bb31f5e7746e2833b45028cd7cae6f9d2f9e047b249914f897.png",
+      "sha256": "023dcb93487146bb31f5e7746e2833b45028cd7cae6f9d2f9e047b249914f897"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/023dcb93487146bb31f5e7746e2833b45028cd7cae6f9d2f9e047b249914f897.png",
+    "source_sha256": "023dcb93487146bb31f5e7746e2833b45028cd7cae6f9d2f9e047b249914f897",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/099.png"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: You may search",
+      "baseline": 1108.3,
+      "width": 752.4930000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck for any card and discard it.",
+      "baseline": 1167.3,
+      "width": 746.5150000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.664,
+        160.009,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-1": [
+        892.82,
+        224.691,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.978,
+        289.373,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-3": [
+        893.016,
+        354.054,
+        137.984,
+        38.269
+      ],
+      "power-stage-value-4": [
+        888.753,
+        418.736,
+        142.247,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.909,
+        483.418,
+        140.091,
+        38.269
+      ],
+      "power-stage-value-6": [
+        888.067,
+        548.1,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-7": [
+        894.927,
+        612.782,
+        136.073,
+        38.269
+      ],
+      "power-stage-value-8": [
+        890.664,
+        677.463,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        269.632,
+        50.2213,
+        519.737,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.461,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.261,
+        1392.65,
+        43.778,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        155.164,
+        1072.53,
+        748.671,
+        45.521
+      ],
+      "rules-line-3": [
+        157.345,
+        1131.53,
+        744.31,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-099-krillin-the-father.webp",
+      "after_sha256": "7f9c1f7efdb54d695b3ea8f3489c13cb7e1808bbc9dd1742fa12c1a1b5f84907",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "84fc3c65162dc778e954b76dd129f9386c1286c186579c8f322aa6e0cc7cfe3c"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-099-krillin-the-father.webp",
+      "after_sha256": "3329a5f9b545daf59db539d2baca8a7cb81c8a64852da76a04ce77139504b338",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "d79a8e47237bfb717a9cecc6064c308a583e77c741c742eff1698d74b2e57117"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 519.7369077306734,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "1caabccb59226d6fcb3bf2363df6d3e5cef87cbdffaa1ae8cf8b07574c03dbf7",
+    "reversible_edits": [],
+    "helper_idempotent": true,
+    "download_changed_pixels": 169741,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      91,
+      785,
+      2092,
+      1930
+    ],
+    "before_download_sha256": "d79a8e47237bfb717a9cecc6064c308a583e77c741c742eff1698d74b2e57117"
+  },
+  "native_export_rounding": {
+    "changed_pixels": 169741,
+    "max_channel_difference": 1,
+    "reason": "Fresh render differs from archived export by at most one channel level; native source, artwork, geometry and game data are unchanged."
+  }
+}

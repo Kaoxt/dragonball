@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog} from './pre-world-games-051-100-catalog.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const file=path.join(root,'tools/card-corrections/v3-orange-stroke-weight/release.json');
 export const orangeStrokeRelease=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;

@@ -1,0 +1,249 @@
+{
+  "number": 100,
+  "id": "world-games-100-red-light-jab",
+  "name": "Red Light Jab",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-100-red-light-jab.svg",
+  "native_source_sha256": "748942516b3f4652b9c3325afb3048ccd37aab22a357503da7dabe0f93107411",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/87f4216c9c3a64298b28458eb6208a921182b602d430919a44f1c2d1b7b232e2.png",
+      "sha256": "87f4216c9c3a64298b28458eb6208a921182b602d430919a44f1c2d1b7b232e2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/87f4216c9c3a64298b28458eb6208a921182b602d430919a44f1c2d1b7b232e2.png",
+    "source_sha256": "87f4216c9c3a64298b28458eb6208a921182b602d430919a44f1c2d1b7b232e2",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/100.png"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +4 stages.",
+      "baseline": 1049.3,
+      "width": 754.9031555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: If you declared a Tokui Waza,",
+      "baseline": 1108.3,
+      "width": 602.8960000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger to 0.",
+      "baseline": 1167.3,
+      "width": 595.1540000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        330.372,
+        44.5,
+        398.256,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.928,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.728,
+        1392.65,
+        60.844,
+        33.708
+      ],
+      "rules-line-1": [
+        207.379,
+        1013.53,
+        698.789,
+        45.913
+      ],
+      "power-icon": [
+        152.832,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        229.95,
+        1072.53,
+        599.1,
+        45.521
+      ],
+      "rules-line-3": [
+        233.54,
+        1132.46,
+        591.92,
+        44.982
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          152.832,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          207.379,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          152.832,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-100-red-light-jab.webp",
+      "after_sha256": "c1410662a5b222f43045f260c56eac8cfbfbc5a694ff826dd5e6e3943e28f629",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "6c0a41aeea58d88068d3093e9314eeaf8d6098ffd8f24eaebb665201bdba4ed7"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-100-red-light-jab.webp",
+      "after_sha256": "fba1a1827afb848a998e477fa254edf27fe9d2d611e980f2a0bfbff1bad3059b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "06ba989c7f72e96b5694cd41bc7322c87f3a39f1bd4045d850fe467b8f4ef2f1"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 398.25561097256866,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "748942516b3f4652b9c3325afb3048ccd37aab22a357503da7dabe0f93107411",
+    "reversible_edits": [],
+    "helper_idempotent": true,
+    "download_changed_pixels": 3252,
+    "pixels_changed_outside_symbol_area": 3252,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      330,
+      2759,
+      517,
+      2882
+    ],
+    "before_download_sha256": "06ba989c7f72e96b5694cd41bc7322c87f3a39f1bd4045d850fe467b8f4ef2f1"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 3252,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "number": 91,
+  "id": "world-games-091-arqua-s-arena",
+  "name": "Arqua's Arena",
+  "family": "BATTLEGROUND",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-091-arqua-s-arena.svg",
+  "native_source_sha256": "9e865e3d4be764fd24ca5301011bf7a14489afc033885ece0bdde9d8ddcfe320",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/14c9457a4d398feb581dd70eb45396e94b632810a286ea5de7acbbf53e421a24.png",
+      "sha256": "14c9457a4d398feb581dd70eb45396e94b632810a286ea5de7acbbf53e421a24"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/14c9457a4d398feb581dd70eb45396e94b632810a286ea5de7acbbf53e421a24.png",
+    "source_sha256": "14c9457a4d398feb581dd70eb45396e94b632810a286ea5de7acbbf53e421a24",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      16,
+      145.0,
+      1451,
+      483.6666666666667
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/091.png"
+  },
+  "rules": [
+    {
+      "text": "Whenever you play a Named card, gain 3 stages.",
+      "baseline": 845.483333333333,
+      "width": 926.0827499999999,
+      "icon_inline": true
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        529.983,
+        45.9196,
+        423.034,
+        66.1608
+      ],
+      "card-category": [
+        499.578,
+        668.057,
+        483.844,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        250.12,
+        954.354,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        1139.01,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1198.81,
+        968.646,
+        35.086,
+        33.708
+      ],
+      "rules-line-1": [
+        345.816,
+        809.713,
+        857.941,
+        45.913
+      ],
+      "power-icon": [
+        279.243,
+        816.543,
+        53.5938,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          279.243,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          345.816,
+          811.183,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          279.243,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-091-arqua-s-arena.webp",
+      "after_sha256": "afe365406669cb6f606904ba59db0ba3995eb508889b30c1a41f265246a52b45",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "afe365406669cb6f606904ba59db0ba3995eb508889b30c1a41f265246a52b45"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-091-arqua-s-arena.webp",
+      "after_sha256": "80eb8bc2fce1d73b2c9d712c3e3ba2a4ec6323f41ae2de72efd73b4fc15556ff",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "80eb8bc2fce1d73b2c9d712c3e3ba2a4ec6323f41ae2de72efd73b4fc15556ff"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "9e865e3d4be764fd24ca5301011bf7a14489afc033885ece0bdde9d8ddcfe320",
+    "reversible_edits": [],
+    "helper_idempotent": true,
+    "download_changed_pixels": 0,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": null,
+    "before_download_sha256": "80eb8bc2fce1d73b2c9d712c3e3ba2a4ec6323f41ae2de72efd73b4fc15556ff"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "number": 61,
+  "id": "world-games-061-like-father-like-son",
+  "name": "Like Father, Like Son",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-061-like-father-like-son.svg",
+  "native_source_sha256": "46b4dd30317c36f43723f7bf1e4fcb33aa0f7677feb2fc8f941b0c0755ff94b6",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d7116076006fa3924632a136647196c1799267c72d0d0296313c25fc6298b69c.png",
+      "sha256": "d7116076006fa3924632a136647196c1799267c72d0d0296313c25fc6298b69c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/d7116076006fa3924632a136647196c1799267c72d0d0296313c25fc6298b69c.png",
+    "source_sha256": "d7116076006fa3924632a136647196c1799267c72d0d0296313c25fc6298b69c",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/061.png"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Goten only. Attach to",
+      "baseline": 1049.3,
+      "width": 767.61175,
+      "icon_inline": true
+    },
+    {
+      "text": "your Main Personality. Its physical attacks",
+      "baseline": 1108.3,
+      "width": 753.277,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +1 stage of damage and, if successful,",
+      "baseline": 1167.3,
+      "width": 761.019,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger 1 level.",
+      "baseline": 1226.3,
+      "width": 635.5300000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        221.065,
+        50.2213,
+        616.87,
+        70.0324
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        799.966,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.766,
+        1392.65,
+        34.768,
+        33.708
+      ],
+      "rules-line-1": [
+        146.454,
+        1012.11,
+        766.093,
+        46.942
+      ],
+      "power-icon": [
+        685.547,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        153.597,
+        1072.53,
+        751.807,
+        45.521
+      ],
+      "rules-line-3": [
+        150.57,
+        1131.53,
+        757.86,
+        45.913
+      ],
+      "rules-line-4": [
+        213.352,
+        1192.0,
+        632.296,
+        44.443
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 26,
+        "previous_visible_bounds": [
+          685.547,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          751.799,
+          1015.0,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          685.547,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-061-like-father-like-son.webp",
+      "after_sha256": "423a390ee8da177edc83056739353fdda90c881c9bbb5468451239d55dd0d0de",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "4e96f9876aa06fc31eefd4be0830ac10e2edcf9402fae8cffb9cd636b48caa13"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-061-like-father-like-son.webp",
+      "after_sha256": "ab1ee2f9d92fb858ee21b48d4e57bbcac146cc83cfb4ba8931d60dfc13d562e8",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "48762bc2068fdf39802f3a312879b21b05069ad2dfdfc714748512ff4be762ae"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 616.8703241895263,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "3ebbf25db4660c3c61a560a101718115695b06e609e46a103ae36b738aa9f016",
+    "reversible_edits": [
+      {
+        "id": "freestyle-glyph",
+        "before": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\">",
+        "after": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\" stroke=\"#080b0d\" stroke-width=\"0.8\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 7132,
+    "pixels_changed_outside_symbol_area": 3252,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      91,
+      1686,
+      517,
+      2882
+    ],
+    "before_download_sha256": "48762bc2068fdf39802f3a312879b21b05069ad2dfdfc714748512ff4be762ae"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 3252,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "number": 63,
+  "id": "world-games-063-majin-display-of-power",
+  "name": "Majin Display of Power",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-063-majin-display-of-power.svg",
+  "native_source_sha256": "6baddbafbd35b782b7b5828131ac35b8b74a6ae21ec5191a41720aa1b86a0628",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7959256710a7ec70d4fe88f784fc909a56b84f3b73e459ef17165910b7f7f2fa.png",
+      "sha256": "7959256710a7ec70d4fe88f784fc909a56b84f3b73e459ef17165910b7f7f2fa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/7959256710a7ec70d4fe88f784fc909a56b84f3b73e459ef17165910b7f7f2fa.png",
+    "source_sha256": "7959256710a7ec70d4fe88f784fc909a56b84f3b73e459ef17165910b7f7f2fa",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/063.png"
+  },
+  "rules": [
+    {
+      "text": "Majin only. POWER: Choose one",
+      "baseline": 1049.3,
+      "width": 548.8000000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponent's Personalities in play.",
+      "baseline": 1108.3,
+      "width": 712.068,
+      "icon_inline": false
+    },
+    {
+      "text": "That Personality loses 5 stages. Banish after use.",
+      "baseline": 1167.3,
+      "width": 878.6190000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        185.145,
+        44.5,
+        688.709,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.097,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.897,
+        1392.65,
+        42.506,
+        33.708
+      ],
+      "rules-line-1": [
+        256.766,
+        1013.53,
+        545.468,
+        45.768
+      ],
+      "rules-line-2": [
+        175.01,
+        1072.53,
+        708.981,
+        45.521
+      ],
+      "rules-line-3": [
+        91.5625,
+        1131.53,
+        875.875,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-063-majin-display-of-power.webp",
+      "after_sha256": "ab649bdc726c7bd46406e946b9477407de8463839870ab34c1f25cac591e0f16",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "1bf3506fd53d1913b2142a522b6647391058837de9157f3fc26e9c016075c163"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-063-majin-display-of-power.webp",
+      "after_sha256": "e8fe33d3b41203db1f9c9bfea7d01d604883ece4879363a41cb10d11e17971b6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "6bd1b4f666f3ac5cf47c98a77b04aa86781fd3ffa0831dade0d649fa652ff6b6"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 688.7094763092271,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "2bbaa4fab6bd6d4a295f4ff7f19811bcd0779b8fa02b61bf10d9f5a41a861d9f",
+    "reversible_edits": [
+      {
+        "id": "freestyle-glyph",
+        "before": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\">",
+        "after": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\" stroke=\"#080b0d\" stroke-width=\"0.8\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 3880,
+    "pixels_changed_outside_symbol_area": 0,
+    "changed_bounds": [
+      91,
+      1686,
+      308,
+      1947
+    ],
+    "before_download_sha256": "6bd1b4f666f3ac5cf47c98a77b04aa86781fd3ffa0831dade0d649fa652ff6b6"
+  }
+}

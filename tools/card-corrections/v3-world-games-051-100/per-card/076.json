@@ -1,0 +1,263 @@
+{
+  "number": 76,
+  "id": "world-games-076-namekian-knee-strike",
+  "name": "Namekian Knee Strike",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-076-namekian-knee-strike.svg",
+  "native_source_sha256": "1bebdacce6f2b14ff3e89e92d665e3f38fa37eaa19e5af564389d4deca6f1988",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/0947a19805e70a27a462d1b8031fc0f9efe4c9de464f960321cbca1a3cffcfc1.png",
+      "sha256": "0947a19805e70a27a462d1b8031fc0f9efe4c9de464f960321cbca1a3cffcfc1"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/0947a19805e70a27a462d1b8031fc0f9efe4c9de464f960321cbca1a3cffcfc1.png",
+    "source_sha256": "0947a19805e70a27a462d1b8031fc0f9efe4c9de464f960321cbca1a3cffcfc1",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/076.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Physical attack.",
+      "baseline": 1049.3,
+      "width": 576.3421555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 1 life card. HIT: If you",
+      "baseline": 1108.3,
+      "width": 537.9710000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "declared a Tokui Waza, discard all",
+      "baseline": 1167.3,
+      "width": 607.6,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponent's Allies in play.",
+      "baseline": 1226.3,
+      "width": 575.3090000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        198.997,
+        50.2213,
+        661.006,
+        57.5574
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.68,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.48,
+        1392.65,
+        41.34,
+        33.708
+      ],
+      "rules-line-1": [
+        242.774,
+        1013.53,
+        573.451,
+        45.521
+      ],
+      "power-icon": [
+        479.439,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        262.523,
+        1072.53,
+        533.953,
+        45.521
+      ],
+      "rules-line-3": [
+        227.293,
+        1131.53,
+        604.415,
+        40.572
+      ],
+      "rules-line-4": [
+        243.389,
+        1190.53,
+        572.222,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          479.439,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          533.986,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          479.439,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-076-namekian-knee-strike.webp",
+      "after_sha256": "d867e0e88352f25e44ac678089bb2538b46812adb68a8234b8cf426fd6b202af",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "73129b57f2afffae533d76c4e5f02ef736b4a76194f32ce55085b322b148d60d"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-076-namekian-knee-strike.webp",
+      "after_sha256": "94c8f1afee829b611782ea31bd0b90c12bb54a5b4fd03fae33d9842d78e1471c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "4cc8190eac278f771bf5d9c07081528db937572acef46363268b7775ce5ad92f"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 661.0062344139652,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "e2694766c14b9dd9e16af5166adceb811b797c3a4e70ed0351696f29ab5c786e",
+    "reversible_edits": [
+      {
+        "id": "namekian-colored-strokes",
+        "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 4511,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      76,
+      1694,
+      324,
+      1940
+    ],
+    "before_download_sha256": "4cc8190eac278f771bf5d9c07081528db937572acef46363268b7775ce5ad92f"
+  }
+}

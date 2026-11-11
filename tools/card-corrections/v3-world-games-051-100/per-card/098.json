@@ -1,0 +1,264 @@
+{
+  "number": 98,
+  "id": "world-games-098-red-heat-seeking-blast",
+  "name": "Red Heat Seeking Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-098-red-heat-seeking-blast.svg",
+  "native_source_sha256": "668daeda13a6817667600387c410af7f15764c4127ce6912eccc00257516e032",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/dcfcb4c58684285ed0ccf4b2b1a4ab0a0fba1409a1376673a54858b3471f34a7.png",
+      "sha256": "dcfcb4c58684285ed0ccf4b2b1a4ab0a0fba1409a1376673a54858b3471f34a7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/dcfcb4c58684285ed0ccf4b2b1a4ab0a0fba1409a1376673a54858b3471f34a7.png",
+    "source_sha256": "dcfcb4c58684285ed0ccf4b2b1a4ab0a0fba1409a1376673a54858b3471f34a7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/098.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 851.5261555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 life cards for each",
+      "baseline": 1108.3,
+      "width": 522.0460000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Dragon Ball your opponent controls.",
+      "baseline": 1167.3,
+      "width": 635.5790000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If your opponent declared a Blue",
+      "baseline": 1226.3,
+      "width": 575.652,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui Waza, this is a focused energy attack.",
+      "baseline": 1285.3,
+      "width": 785.8130000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        181.919,
+        44.5,
+        695.162,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.249,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.049,
+        1392.65,
+        44.202,
+        33.708
+      ],
+      "rules-line-1": [
+        105.182,
+        1013.53,
+        848.635,
+        45.913
+      ],
+      "power-icon": [
+        341.847,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        270.388,
+        1072.53,
+        518.224,
+        36.162
+      ],
+      "rules-line-3": [
+        213.572,
+        1133.0,
+        631.855,
+        44.443
+      ],
+      "rules-line-4": [
+        243.413,
+        1191.85,
+        572.173,
+        44.2034
+      ],
+      "rules-line-5": [
+        137.965,
+        1249.53,
+        783.069,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          341.847,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          396.443,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          341.847,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-098-red-heat-seeking-blast.webp",
+      "after_sha256": "385c4bb7f474a2d1dc156945b2b2ac02838ab437dadeb85348d8c8b1feeb935f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "385c4bb7f474a2d1dc156945b2b2ac02838ab437dadeb85348d8c8b1feeb935f"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-098-red-heat-seeking-blast.webp",
+      "after_sha256": "f1d5e927fa87c84b28791deb01e8c05bb8c6b3baef2e7310807deb4c4bf1dafd",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "f1d5e927fa87c84b28791deb01e8c05bb8c6b3baef2e7310807deb4c4bf1dafd"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 695.1620947630923,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "668daeda13a6817667600387c410af7f15764c4127ce6912eccc00257516e032",
+    "reversible_edits": [],
+    "helper_idempotent": true,
+    "download_changed_pixels": 0,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": null,
+    "before_download_sha256": "f1d5e927fa87c84b28791deb01e8c05bb8c6b3baef2e7310807deb4c4bf1dafd"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "number": 87,
+  "id": "world-games-087-orange-power-grip",
+  "name": "Orange Power Grip",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-087-orange-power-grip.svg",
+  "native_source_sha256": "91d33d6f45f97c4552042949c40f1104bd8ac1900957e5838e3a8c8b9d324651",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d2a87fb28c86b91ebe0a66492323f9009060a096da740f36b7ec40648497f68e.png",
+      "sha256": "d2a87fb28c86b91ebe0a66492323f9009060a096da740f36b7ec40648497f68e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/d2a87fb28c86b91ebe0a66492323f9009060a096da740f36b7ec40648497f68e.png",
+    "source_sha256": "d2a87fb28c86b91ebe0a66492323f9009060a096da740f36b7ec40648497f68e",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/087.png"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +8 stages.",
+      "baseline": 1049.3,
+      "width": 752.7471555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Your opponent takes no life-card damage",
+      "baseline": 1108.3,
+      "width": 737.0580000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from this attack. If stopped, banish",
+      "baseline": 1167.3,
+      "width": 625.4850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "the top 2 cards of your discard pile.",
+      "baseline": 1226.3,
+      "width": 631.6100000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        252.123,
+        44.5,
+        554.753,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.548,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.347,
+        1392.65,
+        41.605,
+        33.708
+      ],
+      "rules-line-1": [
+        208.457,
+        1013.53,
+        696.633,
+        45.913
+      ],
+      "power-icon": [
+        153.91,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        162.22,
+        1072.53,
+        734.559,
+        45.913
+      ],
+      "rules-line-3": [
+        218.031,
+        1131.53,
+        622.937,
+        44.884
+      ],
+      "rules-line-4": [
+        214.797,
+        1190.53,
+        629.405,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          153.91,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          208.457,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          153.91,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-087-orange-power-grip.webp",
+      "after_sha256": "90b47f5d7156639e79dbf5422feec03eb14e4bae69a27575a65f259985866f2b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "a8942801d8b223c5103a4fa538176cdcf13f471553d39800f53e35540823da28"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-087-orange-power-grip.webp",
+      "after_sha256": "c713f1a2f39d34fc449c3d0e7a95b3d534d2dd1808e821c19a2ef19f05f6c730",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "cb902e2147f823b2c0e7f87435d511bd7151733b61ae4743f50a4c116dd0376c"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 554.7531172069827,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "160fbcc0a75deb587785dbf59a08d31ab23bbd848c13655cd9f2717f590932a3",
+    "reversible_edits": [
+      {
+        "id": "orange-style-symbol",
+        "before": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"7.6923\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"6.92307\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 9627,
+    "pixels_changed_outside_symbol_area": 3252,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      63,
+      1687,
+      517,
+      2882
+    ],
+    "before_download_sha256": "cb902e2147f823b2c0e7f87435d511bd7151733b61ae4743f50a4c116dd0376c"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 3252,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

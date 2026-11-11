@@ -1,0 +1,262 @@
+{
+  "number": 57,
+  "id": "world-games-057-goku-s-quickness-drill",
+  "name": "Goku's Quickness Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-057-goku-s-quickness-drill.svg",
+  "native_source_sha256": "4bf8f048bff554305adbc4f34079768019ff56557f16b5c0ba11969b0a907f4d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5cad5af2f1b4fcdd36fe24b74efa925ae6d3947b8d5af7f5285b0f49c966bad7.png",
+      "sha256": "5cad5af2f1b4fcdd36fe24b74efa925ae6d3947b8d5af7f5285b0f49c966bad7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/5cad5af2f1b4fcdd36fe24b74efa925ae6d3947b8d5af7f5285b0f49c966bad7.png",
+    "source_sha256": "5cad5af2f1b4fcdd36fe24b74efa925ae6d3947b8d5af7f5285b0f49c966bad7",
+    "additional_zoom": false,
+    "localized_correction": "Changed open shout to clenched-teeth expression to match original reference.",
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/057.png"
+  },
+  "rules": [
+    {
+      "text": "If this Drill is discarded from your hand,",
+      "baseline": 1049.3,
+      "width": 768.3517499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "place it into play instead. Whenever",
+      "baseline": 1108.3,
+      "width": 635.9220000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "an opponent's card makes you discard a card",
+      "baseline": 1167.3,
+      "width": 807.2750000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "from your hand, draw a card afterward.",
+      "baseline": 1226.3,
+      "width": 702.6600000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        196.115,
+        46.909,
+        666.771,
+        64.182
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.892,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.692,
+        1392.65,
+        40.916,
+        33.708
+      ],
+      "rules-line-1": [
+        213.894,
+        1013.53,
+        698.962,
+        45.521
+      ],
+      "power-icon": [
+        146.144,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        212.73,
+        1072.53,
+        633.541,
+        45.521
+      ],
+      "rules-line-3": [
+        127.357,
+        1131.53,
+        804.286,
+        45.521
+      ],
+      "rules-line-4": [
+        179.395,
+        1191.85,
+        700.21,
+        44.2034
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "I",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          146.144,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          213.894,
+          1015.0,
+          6.909,
+          34.3
+        ],
+        "new_visible_bounds": [
+          146.144,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-057-goku-s-quickness-drill.webp",
+      "after_sha256": "7a7b59548b2af24ea65af6b4ddf43e9117788a2e8690099cdce89b4f6451e11d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "77c6c4f86c48855f239c46d8c10f5b280e34506b3f50a0a25a6cff0828093588"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-057-goku-s-quickness-drill.webp",
+      "after_sha256": "c74eb4d1619996f9195bae66cc2fe86687f6ccac17a18f4e37ec36d207edad67",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "eee5c3133f2d675081741c0f6c2c684cdb85fb7efaeedef00cb52b89db7ad504"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 666.7705735660849,
+      "visible_height": 64.18204488778056,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "83c66b2e8fcf437b5d83d68951081deaa628657e4b0c613c8bf20fed5bc1d7f3",
+    "reversible_edits": [
+      {
+        "id": "freestyle-glyph",
+        "before": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\">",
+        "after": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\" stroke=\"#080b0d\" stroke-width=\"0.8\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 3880,
+    "pixels_changed_outside_symbol_area": 0,
+    "changed_bounds": [
+      91,
+      1686,
+      308,
+      1947
+    ],
+    "before_download_sha256": "eee5c3133f2d675081741c0f6c2c684cdb85fb7efaeedef00cb52b89db7ad504"
+  }
+}

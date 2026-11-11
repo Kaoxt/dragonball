@@ -1,0 +1,262 @@
+{
+  "number": 56,
+  "id": "world-games-056-chapuchai-s-multiform",
+  "name": "Chapuchai's Multiform",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-056-chapuchai-s-multiform.svg",
+  "native_source_sha256": "20fe39d7e5104e5109fb74cc3f7fa8523b2a92de1fa2363dc8f5d0a53195ede9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7e5eb7a77753cf6ef431fb8299e4ef08e9f5002ee8e806c2931b50e5f28d9f68.png",
+      "sha256": "7e5eb7a77753cf6ef431fb8299e4ef08e9f5002ee8e806c2931b50e5f28d9f68"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/7e5eb7a77753cf6ef431fb8299e4ef08e9f5002ee8e806c2931b50e5f28d9f68.png",
+    "source_sha256": "7e5eb7a77753cf6ef431fb8299e4ef08e9f5002ee8e806c2931b50e5f28d9f68",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/056.png"
+  },
+  "rules": [
+    {
+      "text": "Chapuchai only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 631.7121555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 1 life card. This attack stays in",
+      "baseline": 1108.3,
+      "width": 707.5110000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "play to be used 4 more times this Combat.",
+      "baseline": 1167.3,
+      "width": 746.2209999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Its damage cannot be modified. Banish after use.",
+      "baseline": 1226.3,
+      "width": 870.5339999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        191.297,
+        44.5,
+        676.406,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        215.261,
+        1013.53,
+        628.478,
+        45.521
+      ],
+      "power-icon": [
+        506.953,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        177.656,
+        1072.53,
+        703.689,
+        45.521
+      ],
+      "rules-line-3": [
+        158.178,
+        1131.53,
+        742.644,
+        45.521
+      ],
+      "rules-line-4": [
+        96.095,
+        1190.53,
+        866.81,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 14,
+        "previous_visible_bounds": [
+          506.953,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          561.499,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          506.953,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-056-chapuchai-s-multiform.webp",
+      "after_sha256": "d2aeef9de8a554ed9d733d262e436600a4e183274f7b8957c5dc498f9635c33c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "0d2934bfc79d088509574a1be589a34581925044c257c836213659d382a4795a"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-056-chapuchai-s-multiform.webp",
+      "after_sha256": "da87cf4e32f1fd35689132f7133218b4c05d3859d1a48da886a2fff67f7422bf",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "15d6f0872c6e9e5dbd0ddfb42d7a025b11e00260e2171979e5a32713041a55be"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 676.4064837905238,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "7d9eb99ba7d05bb5dfafb19054ee39238ab6cf879aef3b794d86b47b317a72be",
+    "reversible_edits": [
+      {
+        "id": "blue-style-symbol",
+        "before": "<ns0:g id=\"blue-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#3b9cde\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"blue-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#3b9cde\" stroke-width=\"7.403846151625\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 2794,
+    "pixels_changed_outside_symbol_area": 0,
+    "changed_bounds": [
+      78,
+      1687,
+      322,
+      1947
+    ],
+    "before_download_sha256": "15d6f0872c6e9e5dbd0ddfb42d7a025b11e00260e2171979e5a32713041a55be"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "number": 93,
+  "id": "world-games-093-pikkon-s-truce",
+  "name": "Pikkon's Truce",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-093-pikkon-s-truce.svg",
+  "native_source_sha256": "8c91108c7ebdf6e4ecce5ab8b52968e4a68dabfd2e149d33622060f46fe2c356",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b949e0a87df38a2aa4784830ec1c932406368f289ed9aee46d42d79e1ee7f721.png",
+      "sha256": "b949e0a87df38a2aa4784830ec1c932406368f289ed9aee46d42d79e1ee7f721"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/b949e0a87df38a2aa4784830ec1c932406368f289ed9aee46d42d79e1ee7f721.png",
+    "source_sha256": "b949e0a87df38a2aa4784830ec1c932406368f289ed9aee46d42d79e1ee7f721",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/093.png"
+  },
+  "rules": [
+    {
+      "text": "Stops a focused physical attack",
+      "baseline": 1049.3,
+      "width": 617.3769473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "or a focused energy attack. Banish after use.",
+      "baseline": 1108.3,
+      "width": 801.983,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        310.025,
+        50.2213,
+        438.95,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.938,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.738,
+        1392.65,
+        42.824,
+        33.708
+      ],
+      "rules-line-1": [
+        271.993,
+        1013.53,
+        565.705,
+        45.521
+      ],
+      "power-icon": [
+        221.302,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        130.052,
+        1072.53,
+        798.896,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          221.302,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          271.993,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          221.302,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-093-pikkon-s-truce.webp",
+      "after_sha256": "2600b56742cd230d09d42dc197b218da7771e3abedf6a8d80063a8712421e1bf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "2600b56742cd230d09d42dc197b218da7771e3abedf6a8d80063a8712421e1bf"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-093-pikkon-s-truce.webp",
+      "after_sha256": "eed522e8242896113c31cda7637316141fe53d8d36430d942cd335a919f87f25",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "eed522e8242896113c31cda7637316141fe53d8d36430d942cd335a919f87f25"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 438.95012468827935,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "8c91108c7ebdf6e4ecce5ab8b52968e4a68dabfd2e149d33622060f46fe2c356",
+    "reversible_edits": [],
+    "helper_idempotent": true,
+    "download_changed_pixels": 0,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": null,
+    "before_download_sha256": "eed522e8242896113c31cda7637316141fe53d8d36430d942cd335a919f87f25"
+  }
+}

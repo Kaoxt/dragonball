@@ -1,3 +1,20 @@
+## World Games Saga 051–100 complete handoff — November 11, 2026
+
+All 50 additional cards are prepared in current V3 with the November 10 symbol
+weights. Cards 053 Blue Quick Blast and 066 Namekian Combo now use the user-supplied
+replacement artwork, completing the prepared World Games catalog through 100.
+No deployment is claimed. Evidence is in
+`tools/card-corrections/v3-world-games-051-100/`.
+
+Preserve all 50 native sources and 100 lossless display/download exports. The
+previously delivered 48 sources and 96 exports are byte-identical. Retain the
+approved #53 illustration and #66 cleanup, with source limitations documented
+per card. #91 is landscape; #99 Krillin is Level 1/PUR 2 with stages highest to 0.
+Blue, Namekian, Orange and Freestyle use the thinner approved weights; Red retains
+its reference weight. Historical symbol audits keep their original membership
+through `tests/helpers/pre-world-games-051-100-catalog.js`. New batch tests cover
+symbols, sources, images, routes and deck codes independently.
+
 ## Orange Tokui Waza stroke weight — November 10, 2026
 
 The current Orange correction includes all 82 catalog cards across seven sets,

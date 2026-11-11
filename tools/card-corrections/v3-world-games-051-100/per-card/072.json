@@ -1,0 +1,251 @@
+{
+  "number": 72,
+  "id": "world-games-072-namekian-focused-blast",
+  "name": "Namekian Focused Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-072-namekian-focused-blast.svg",
+  "native_source_sha256": "05e10cc7256aaf54e7cf9da7c20a44b73a6eb5c51d6df0518b881725ec1bc383",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/003231fca5449ce52090a9435c19ccae87105f2a06cc696679505c3e5d2b3ed0.png",
+      "sha256": "003231fca5449ce52090a9435c19ccae87105f2a06cc696679505c3e5d2b3ed0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/003231fca5449ce52090a9435c19ccae87105f2a06cc696679505c3e5d2b3ed0.png",
+    "source_sha256": "003231fca5449ce52090a9435c19ccae87105f2a06cc696679505c3e5d2b3ed0",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/072.png"
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack",
+      "baseline": 1049.3,
+      "width": 459.1881555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "costing 2 stages. DAMAGE: 5 life cards.",
+      "baseline": 1108.3,
+      "width": 687.8620000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        159.765,
+        50.2213,
+        739.47,
+        57.5574
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        797.449,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        857.248,
+        1392.65,
+        39.803,
+        33.708
+      ],
+      "rules-line-1": [
+        354.991,
+        1015.0,
+        403.613,
+        44.443
+      ],
+      "power-icon": [
+        300.396,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        187.112,
+        1072.53,
+        684.775,
+        45.913
+      ],
+      "rules-line-3": [
+        194.414,
+        1132.61,
+        670.173,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          300.396,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          354.991,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          300.396,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-072-namekian-focused-blast.webp",
+      "after_sha256": "3996510074fd28c4e618aa6353e7e682e55b24ff0b708e5328fd434911751dfb",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "a1aea481960d92facedee80ff7ec3b1e7fb3c460e764ce5672d477d5d63f5ebd"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-072-namekian-focused-blast.webp",
+      "after_sha256": "5a5a1a8f37d168f33a9e0bc3cda7da351f67125e259fc92b943ceffbb49ade07",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "576d42b7f14b6a55459e1819e10368427c9c4e26c2c691cf6bfe5b339152c53b"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 739.4700748129677,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "305bcf759d202c0305fa38375368b282d7e68e4138193357a2d69bb11618b67f",
+    "reversible_edits": [
+      {
+        "id": "namekian-colored-strokes",
+        "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 4511,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      76,
+      1694,
+      324,
+      1940
+    ],
+    "before_download_sha256": "576d42b7f14b6a55459e1819e10368427c9c4e26c2c691cf6bfe5b339152c53b"
+  }
+}

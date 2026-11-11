@@ -1,0 +1,251 @@
+{
+  "number": 83,
+  "id": "world-games-083-orange-diving-attack",
+  "name": "Orange Diving Attack",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-083-orange-diving-attack.svg",
+  "native_source_sha256": "a67437254e10bb5e5a86e37fe88d669f295f0efc842f20903761b5ac0b4ce27a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a670dc58160c3771aa9d493f50ce5c5a11a17041a1f4d35ffcb25138e0dd2979.png",
+      "sha256": "a670dc58160c3771aa9d493f50ce5c5a11a17041a1f4d35ffcb25138e0dd2979"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/a670dc58160c3771aa9d493f50ce5c5a11a17041a1f4d35ffcb25138e0dd2979.png",
+    "source_sha256": "a670dc58160c3771aa9d493f50ce5c5a11a17041a1f4d35ffcb25138e0dd2979",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146.5006587615283,
+      1033,
+      704.9986824769434
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/083.png"
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 1 stage",
+      "baseline": 1049.3,
+      "width": 636.1761555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "for each Blue Style card in",
+      "baseline": 1108.3,
+      "width": 465.84300000000013,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile. Banish after use.",
+      "baseline": 1167.3,
+      "width": 619.8499999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        214.053,
+        44.5,
+        630.894,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.912,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.712,
+        1392.65,
+        42.877,
+        33.708
+      ],
+      "rules-line-1": [
+        266.62,
+        1013.53,
+        580.307,
+        45.913
+      ],
+      "power-icon": [
+        212.073,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        297.852,
+        1072.53,
+        463.295,
+        45.521
+      ],
+      "rules-line-3": [
+        220.678,
+        1131.53,
+        617.645,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          212.073,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          266.62,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          212.073,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-083-orange-diving-attack.webp",
+      "after_sha256": "f4df43f095162d5fc8007f4113a06fa139956955238fbb739783d3d26edb10cc",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "9c88b06320863ec6bde1d4ff9da9cdfb4a293d3e5127111f7d86e3c5cc1d24d2"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-083-orange-diving-attack.webp",
+      "after_sha256": "d6077c83c14a9b9e5417e1cbffc6b7af0228b268819c04ffcd509108c820c5e0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "8fa8d909d1ac0f9f546779a24fc6f42fb7ca2c7daf17cb08a408ad950f1b52eb"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 630.8940149625936,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "38ba5d4a410ef62785d6b11bbf94439b11c3d9bcce0ce9e38883c337b52e3c8f",
+    "reversible_edits": [
+      {
+        "id": "orange-style-symbol",
+        "before": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"7.6923\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"6.92307\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 6375,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      63,
+      1687,
+      337,
+      1947
+    ],
+    "before_download_sha256": "8fa8d909d1ac0f9f546779a24fc6f42fb7ca2c7daf17cb08a408ad950f1b52eb"
+  }
+}

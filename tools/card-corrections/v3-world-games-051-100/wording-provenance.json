@@ -1,0 +1,466 @@
+{
+  "crd_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "cards": [
+    {
+      "number": 51,
+      "name": "Blue Heat Seeking Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/051.jpg",
+      "original_sha256": "9acc8df9702139602ad8b74d7ba586b24b89d9c52e960c31829f643f3b349fd8",
+      "modern_rules": "Sensei Deck only. Energy attack costing 2 stages. DAMAGE: 6 life cards. If stopped, banish the top 2 cards of your opponent's Life Deck.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 52,
+      "name": "Blue Lightning Block",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/052.jpg",
+      "original_sha256": "02101a3f5cbdf665db4541eeb1cd8829811cbd8e82afe5133444fc6f4f451b55",
+      "modern_rules": "Sensei Deck. Stops a physical attack. If you declared a Tokui Waza and your opponent declared a Red Tokui Waza, raise your anger 2 levels. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 53,
+      "name": "Blue Quick Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/053.jpg",
+      "original_sha256": "6e96d415e9c99eedf58854d0833d259642ca21374f314ca74c007acaebc0f800",
+      "modern_rules": "Sensei Deck. Energy attack costing 2 stages. DAMAGE: 4 life cards. Raise your anger 1 level for each Dragon Ball your opponent controls.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 54,
+      "name": "Blue Rebound",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/054.jpg",
+      "original_sha256": "fb6b784f5e196d87acd854972a4504afc2febc784e464b3a4091058beb01d7a0",
+      "modern_rules": "Sensei Deck. POWER: For the rest of Combat, your energy attacks cost -1 stage (minimum 0) and deal +1 stage of damage for each Ally your opponent has in play. Raise your anger 1 level.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 55,
+      "name": "Blue Videl's Knee Bash",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/055.jpg",
+      "original_sha256": "069ad7268cb9d8fbd9809f2726bde7fde35a0e37e5525e5f710314d79d5cf197",
+      "modern_rules": "Sensei Deck. Physical attack. DAMAGE: AT +4 stages, or 7 life cards instead against a Majin. Raise your anger 1 level.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 56,
+      "name": "Chapuchai's Multiform",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/056.jpg",
+      "original_sha256": "f850e93ab9aa19fb63bbd2f6eab657170c58473ca4a9ae8c2d3d189bc0918c44",
+      "modern_rules": "Chapuchai only. Physical attack. DAMAGE: 1 life card. This attack stays in play to be used 4 more times this Combat. Its damage cannot be modified. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 57,
+      "name": "Goku's Quickness Drill",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/057.jpg",
+      "original_sha256": "89158dd2c7b732e360d332586a5ff2c9d2f2e7caffcd97783e326f8963c33d1c",
+      "modern_rules": "If this Drill is discarded from your hand, place it into play instead. Whenever an opponent's card makes you discard a card from your hand, draw a card afterward.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 58,
+      "name": "Hercule's Drop Kick",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/058.jpg",
+      "original_sha256": "133c608fcd9882aed8450ce6626ab28d6d0587e69d2099e943786aea9a554ac5",
+      "modern_rules": "(Limit 1 per deck unless your Main Personality is Hercule.) Physical attack. DAMAGE: AT +6 stages. If stopped, gain 3 stages and place this card at the bottom of your Life Deck.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 59,
+      "name": "Hero's Drill",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/059.jpg",
+      "original_sha256": "10c97fd683f691ba3eced29ab54b1500dcb1d5e9d6f5ff00bdf92e46065b8365",
+      "modern_rules": "(Limit 1 per deck.) Sensei Deck only. Attacks against Majin deal +1 stage of damage. Your successful physical attacks banish the bottom card of your opponent's Life Deck before dealing damage.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 60,
+      "name": "Jackie Chun's Energy Attack",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/060.jpg",
+      "original_sha256": "51e53fbe80aceadf5618a89ea2621d7a3fccef76cc4d0a5476847cd0935caafc",
+      "modern_rules": "Master Roshi only. Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Your Allies' energy attacks deal +1 stage of damage for the rest of Combat.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 61,
+      "name": "Like Father, Like Son",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/061.jpg",
+      "original_sha256": "cc3278ccab80c63e113ef7983f304fc0988a6c550b58fb574122362493d00d22",
+      "modern_rules": "(Limit 1 per deck.) Goten only. Attach to your Main Personality. Its physical attacks deal +1 stage of damage and, if successful, lower your opponent's anger 1 level.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 62,
+      "name": "Majin Fist Block",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/062.jpg",
+      "original_sha256": "0c1e535ca86d06fc07469f36489fd361b708e9001bb56899126d2f9556275348",
+      "modern_rules": "Majin only. Physical attack. DAMAGE: AT +3 stages. Or stops a physical attack.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 63,
+      "name": "Majin Display of Power",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/063.jpg",
+      "original_sha256": "b346d6f22b3829f49b5752b001a2e50eec236de54789e0d2b777680e9814b11a",
+      "modern_rules": "Majin only. POWER: Choose one of your opponent's Personalities in play. That Personality loses 5 stages. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 64,
+      "name": "Majin Knee Strike",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/064.jpg",
+      "original_sha256": "a3a71f506d30c32cf7ea9ba0cc0335bc2e8a3d6d308b775bb5efa9b978d3320e",
+      "modern_rules": "Majin only. Physical attack. DAMAGE: AT +7 stages. HIT: Raise your anger 1 level. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 65,
+      "name": "Majin Overwhelming Attack",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/065.jpg",
+      "original_sha256": "f02cab4cdcf4a51b5b42c8089194aa1e02b20b5a1a7ab98deac0719e523aa576",
+      "modern_rules": "Majin only. Physical attack. DAMAGE: 0 stages. If performed against Videl, this is a focused physical attack. Raise your anger 1 level. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 66,
+      "name": "Namekian Combo",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/066.jpg",
+      "original_sha256": "d0253333231d6c1259b96afa9e2388ae5bdf2916a5376d562650fe41ae60b69b",
+      "modern_rules": "Physical attack. DAMAGE: 3 stages. If you declared a Tokui Waza, this attack stays in play to be used 2 more times this Combat. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 67,
+      "name": "Namekian Double Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/067.jpg",
+      "original_sha256": "8aa874da711455afc26d6ff4f3f54fffaf09a49dccf910d6dedc19d5e0170318",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. HIT: Discard a Setup or Drill in play. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 68,
+      "name": "Namekian Ducking Technique",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/068.jpg",
+      "original_sha256": "d74db57f611aad1be7f9c9884868a0781839511f2985a2d49a056da471b00f22",
+      "modern_rules": "Stops a physical attack. If you declared a Tokui Waza, raise your Main Personality to its highest stage and place the bottom card of your discard pile at the bottom of your Life Deck.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 69,
+      "name": "Namekian Eye Beam",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/069.jpg",
+      "original_sha256": "abdaed6fef10b4cee4adf91c7d8f82b6f8d486c099a42881924ef9267a132d37",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. HIT: Place the bottom 3 cards of your discard pile at the bottom of your Life Deck. If stopped, banish the bottom 2 cards of your discard pile.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 70,
+      "name": "Namekian Final Flash",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/070.jpg",
+      "original_sha256": "910e89d0f619ca1f75c592fc6a986a6fd20fb47c56ec588d94275eb8ff5d4f06",
+      "modern_rules": "Energy attack costing 1 stage. DAMAGE: 5 life cards. HIT: Shuffle the top card of your discard pile into your Life Deck.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 71,
+      "name": "Namekian Flight",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/071.jpg",
+      "original_sha256": "99707defcca89b6a409f2be9a8d1d2371c2995a6bfcff9ba7491b529abc5c9fc",
+      "modern_rules": "Sensei Deck. Physical attack. DAMAGE: 3 stages, or 7 stages instead if your opponent declared a Saiyan Tokui Waza. If you declared a Tokui Waza, shuffle this card into your Life Deck after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 72,
+      "name": "Namekian Focused Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/072.jpg",
+      "original_sha256": "211384cbece14453c73f9f4f23d0e67b934c367f673d400100cc693ea4cef863",
+      "modern_rules": "Focused energy attack costing 2 stages. DAMAGE: 5 life cards. Lower your opponent's anger 2 levels.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 73,
+      "name": "Namekian Focused Jab",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/073.jpg",
+      "original_sha256": "ca722d2c32482a91abdea239dab8d104ca9ff912eb6a7ab0d2cc36fe2b3b78e8",
+      "modern_rules": "Physical attack. DAMAGE: AT +4 stages. If you declared a Tokui Waza, this is a focused physical attack. HIT: Gain 3 stages.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 74,
+      "name": "Namekian Focused Kick",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/074.jpg",
+      "original_sha256": "23b3acebfc47666c6c768c43edcd578cd6e43c275a507cbd0fdcf995c229d3a7",
+      "modern_rules": "Physical attack. DAMAGE: AT +5 stages. If performed against a Majin, this is a focused physical attack.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 75,
+      "name": "Namekian Heat Seeking Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/075.jpg",
+      "original_sha256": "e1e870b461efe1970aaf35481a65b3a6974bc08dab9edb94c9893426403b3b8a",
+      "modern_rules": "Energy attack costing 4 stages. DAMAGE: 4 life cards. If stopped, your opponent discards the top 4 cards of his Life Deck. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 76,
+      "name": "Namekian Knee Strike",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/076.jpg",
+      "original_sha256": "f9c51d39b9df48368a6a0f2c31b99b9197d9d7c8aa2a08127710d59950f12861",
+      "modern_rules": "Sensei Deck. Physical attack. DAMAGE: 1 life card. HIT: If you declared a Tokui Waza, discard all of your opponent's Allies in play.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 77,
+      "name": "Namekian Offense",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/077.jpg",
+      "original_sha256": "d1ba027d99782c917e838b889b9d0dca0194da0158adc092a1a6c54965a576ba",
+      "modern_rules": "Sensei Deck. POWER: Your physical attacks deal +2 stages of damage for the rest of Combat. Place a Dragon Ball your opponent controls at the bottom of its owner's Life Deck.",
+      "retained_crd_review": "Only a Dragon Ball controlled by an opponent can be returned; bottom-of-deck placement retained.",
+      "matching_crd_excerpts": [
+        "se like a regular Non-Combat card to make your\nopponent discard the top 3 cards of his Life Deck.\n\n\nNamekian Offense (World Games Saga - #77) \u2013 This card can only shuffle a Dragon Ball an\nopponent controls back into the owner\u2019s Life Deck.\n\n\nNamekian Pikkon\u2019s Defense (World Games Saga - #78) \u2013 Treat this card as if it read,\n\u201cStops a physical or energy attack. Remove from the game after use.\u201d\n\n\nNamekian Quick Blast (Cell Games Saga - #65) \u2013 This card gains loses the previous, \u201cIf\nsuccessful, remove from the game.\u201d There is now no change to the card\u2019s text.\n\n\nNamekian Teamwork (Android Saga - #103) - Allies may take over Combat ONLY to use\ntheir personality powers, and then the Main Personality resumes control of Combat. This card\nonly affects allies that were in play when this card was used. It does not affect allies brought\ninto play later that Combat.\n\n\nNamekian\u2019s Strike (Collectors Club - #CC1) - This is a Namekian Style card. This card gains\n\u201cRemove from the game after use.\u201d\n\n\nNappa "
+      ]
+    },
+    {
+      "number": 78,
+      "name": "Namekian Pikkon's Defense",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/078.jpg",
+      "original_sha256": "d4541e99b61e7aa77dc6611e9938ff89f5881dea5350f6592cb503526c87031a",
+      "modern_rules": "Stops a physical or energy attack. Banish after use.",
+      "retained_crd_review": "Replace printed power with: Stops a physical or energy attack. Remove from the game after use.",
+      "matching_crd_excerpts": [
+        " \u2013 This card can only shuffle a Dragon Ball an\nopponent controls back into the owner\u2019s Life Deck.\n\n\nNamekian Pikkon\u2019s Defense (World Games Saga - #78) \u2013 Treat this card as if it read,\n\u201cStops a physical or energy attack. Remove from the game after use.\u201d\n\n\nNamekian Quick Blast (Cell Games Saga - #65) \u2013 This card gains loses the previous, \u201cIf\nsuccessful, remove from the game.\u201d There is now no change to the card\u2019s text.\n\n\nNamekian Teamwork (Android Saga - #103) - Allies may take over Combat ONLY to use\ntheir personality powers, and then the Main Personality resumes control of Combat. This card\nonly affects allies that were in play when this card was used. It does not affect allies brought\ninto play later that Combat.\n\n\nNamekian\u2019s Strike (Collectors Club - #CC1) - This is a Namekian Style card. This card gains\n\u201cRemove from the game after use.\u201d\n\n\nNappa Lv.1 (Saiyan Saga - #176) - Power: Saiyan Energy Deflection - Treat this power as if it\nread, \u201cReduce the damage from an energy attack perfor"
+      ]
+    },
+    {
+      "number": 79,
+      "name": "Namekian Swift Strike",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/079.jpg",
+      "original_sha256": "9f4883a253f74b6203288440b83dc66b13d7f3b22ec09151f2a6524964ed9434",
+      "modern_rules": "Sensei Deck only. Physical attack. DAMAGE: AT +5 stages. HIT: Place the bottom 3 cards of your discard pile at the bottom of your Life Deck. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 80,
+      "name": "Namekian Tornado Attack",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/080.jpg",
+      "original_sha256": "bce69c3edb0a4d5177e04430b4491dc72482d5a713d6fcbad8bbce66c41776f0",
+      "modern_rules": "Physical attack. DAMAGE: AT stages. If you declared a Tokui Waza, this attack deals 6 stages instead and raises your anger 1 level. Unless your Main Personality is Pikkon, banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 81,
+      "name": "Orange Close Call",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/081.jpg",
+      "original_sha256": "b620a084b34d4d1423b319c2a37fa1b59fdb36579ac196d6f3081eb7f51495a3",
+      "modern_rules": "Sensei Deck. Stops a physical attack. If you declared a Tokui Waza and your opponent declared a Black Tokui Waza, this card may also perform a physical attack. DAMAGE: 3 stages. Use it during your next Attacker Attacks phase.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 82,
+      "name": "Orange Direct Strike",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/082.jpg",
+      "original_sha256": "00f5b020b3f9a5f6c944b8c06033c5283bb4b76b9470966406575d1daf486fd0",
+      "modern_rules": "Physical attack. DAMAGE: 3 life cards. HIT: If you declared a Tokui Waza, your energy attacks cost -2 stages for the rest of Combat.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 83,
+      "name": "Orange Diving Attack",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/083.jpg",
+      "original_sha256": "792ae15c4f604fc4946bdc6ca95ab3d35d2b5a2a14d21f2d5834d93394533b61",
+      "modern_rules": "Physical attack. DAMAGE: 1 stage for each Blue Style card in your discard pile. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 84,
+      "name": "Orange Friendship",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/084.jpg",
+      "original_sha256": "0c386b6df22ffebfda2a38d3b606e5ee33b65ca5b7863448cad6ac1baa6274cd",
+      "modern_rules": "Endurance 2. POWER: Use only after taking 5 or more life cards of damage from 1 attack this Combat. If you declared a Tokui Waza, search your discard pile for up to 3 Allies and place them in play at their highest stage.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 85,
+      "name": "Orange Light Jab",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/085.jpg",
+      "original_sha256": "877dc954d67e2335f5a35c953ae9b4b25625afc9e34d2b712358a4a054b965e3",
+      "modern_rules": "Physical attack. DAMAGE: AT +4 stages. HIT: If you declared a Tokui Waza, your next physical attack this Combat deals +2 stages of damage.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 86,
+      "name": "Orange Overpowering Attack",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/086.jpg",
+      "original_sha256": "00f8f4fd981e6188a694c644d8b98536acdaaf2d01df55c71046f273c6aca157",
+      "modern_rules": "Physical attack. DAMAGE: AT +6 stages. You must have at least 1 other card in your hand to perform this attack. HIT: Discard a random card from your hand.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 87,
+      "name": "Orange Power Grip",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/087.jpg",
+      "original_sha256": "3f6badc0a3336521668fb2a23dcb6365923f6ad28aa2dbe47436b3ad9a37c21a",
+      "modern_rules": "Physical attack. DAMAGE: AT +8 stages. Your opponent takes no life-card damage from this attack. If stopped, banish the top 2 cards of your discard pile.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 88,
+      "name": "Orange Power Kick",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/088.jpg",
+      "original_sha256": "db62ab1790ff43040c17009d4eac0e6cd223f4805d0450d7d134ed433a44748a",
+      "modern_rules": "Sensei Deck. Physical attack. DAMAGE: AT +4 stages. If your opponent declared a Black Tokui Waza, this attack stays in play to be used 1 more time this Combat. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 89,
+      "name": "Orange Power Stance",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/089.jpg",
+      "original_sha256": "558837f169abd52ef7c352f5fba6190c21661ac708bbdefe5597ea2c7662e0d6",
+      "modern_rules": "Sensei Deck. Endurance 1. POWER: Raise your Main Personality to its highest stage. Shuffle a Dragon Ball your opponent controls into its owner's Life Deck.",
+      "retained_crd_review": "Only a Dragon Ball controlled by an opponent can be shuffled back.",
+      "matching_crd_excerpts": [
+        "(after all other modifiers). This does not create an infinite loop\nwith Energy Empowerment Drill.\n\n\nOrange Power Stance (World Games Saga - #89) \u2013 This card can only shuffle a Dragon Ball\nan opponent controls back into the owner\u2019s Life Deck.\n\n\nOrange Power Transfer (Super 17 Saga - #31) - This card gains, \u201cRemove from the game\nafter use.\u201d\n\n\nOrange Rapid Attack (Babidi Saga - #115) \u2013 This card gains, \u201cRemove from the game after\nuse.\u201d\n\n\nOrange Spontaneous Drill (Saiyan Saga - #137) - Treat this card as if it read, \u201cAfter taking\ndamage from a physical attack, you may draw the bottom card of your discard pile.\u201d\n\n\nOrange Temple Strike (Babidi Saga - #78) \u2013 Your opponent discards one his Non-Combat\ncards at a time until he has the same amount of Non-Combat cards in play as you do. Your\nopponent cannot discard your Non-Combat cards with this effect if you used Orange Temple\nStrike.\n\n\nOrange Tripping Drill (Saiyan Saga - #130) - Treat this card as if it read, \u201cAll energy attacks\nperformed agai"
+      ]
+    },
+    {
+      "number": 90,
+      "name": "Orange Right Cross",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/090.jpg",
+      "original_sha256": "6104a1616cf0cfe8c7c2295c92e76214e9770a6aff088ac56f9be73b3720c581",
+      "modern_rules": "Physical attack. DAMAGE: 1 stage for each Setup and Drill you have in play. Lower your opponent's anger 1 level. HIT: Discard one of your Setups or Drills in play. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 91,
+      "name": "Arqua's Arena",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/091.jpg",
+      "original_sha256": "a6a28c979e4f2d5c34478004715c57bd2349898a19d2e036ecf57cc68f8c4f3c",
+      "modern_rules": "Whenever you play a Named card, gain 3 stages.",
+      "retained_crd_review": "An Ally entering play does not itself gain the stages granted by this Battleground.",
+      "matching_crd_excerpts": [
+        " by Most Powerful Personality Victory for the remainder of the game. All\nplayers gain 100 anger.\u201d\n\n\nArqua\u2019s Arena (World Games Saga - #91) \u2013 If you place an ally into play while this\nBattleground is in play, the ally that you are placing into play cannot gain the power stages\ngranted by Arqua\u2019s Arena.\n\n\nAura Clash (Cell Games Saga - #108) \u2013 Treat this card as if it read, \u201cYou cannot win by the\nMost Powerful Personality Victory for the remainder of the game. Raise your anger 6 levels.\nRaise your opponent\u2019s anger 6 levels.\u201d\n\n\nBaba\u2019s Energy Blast (Saiyan Saga - #225) - Treat this card as if it read, \u201cUse when needed.\nYour opponent discards 3 cards from his Life Deck. Remove from the game after use.\u201d\n\n\nBattle Pausing (Saiyan Saga - #204) - Treat this card as if it read, \"Draw the top 2 cards\nfrom your discard pile. Your opponent\u2019s Main Personality gains 5 power stages. Remove\nfrom game after use.\"\n\n\nBig Bang Kamehameha (Shadow Dragon Saga - #92) - Treat this card as if it read, \u201c7: If\nused",
+        "eground is in play, the ally that you are placing into play cannot gain the power stages\ngranted by Arqua\u2019s Arena.\n\n\nAura Clash (Cell Games Saga - #108) \u2013 Treat this card as if it read, \u201cYou cannot win by the\nMost Powerful Personality Victory for the remainder of the game. Raise your anger 6 levels.\nRaise your opponent\u2019s anger 6 levels.\u201d\n\n\nBaba\u2019s Energy Blast (Saiyan Saga - #225) - Treat this card as if it read, \u201cUse when needed.\nYour opponent discards 3 cards from his Life Deck. Remove from the game after use.\u201d\n\n\nBattle Pausing (Saiyan Saga - #204) - Treat this card as if it read, \"Draw the top 2 cards\nfrom your discard pile. Your opponent\u2019s Main Personality gains 5 power stages. Remove\nfrom game after use.\"\n\n\nBig Bang Kamehameha (Shadow Dragon Saga - #92) - Treat this card as if it read, \u201c7: If\nused by a Fusion Personality, this attack is unstoppable and does +5 life cards.\u201d\n\n\nBlack Bear Hug Drill (Saiyan Saga - #131) - Treat this card as if it read, \u201cAll of your physical\nattacks do "
+      ]
+    },
+    {
+      "number": 92,
+      "name": "Orange Videl's Jump Kick",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/092.jpg",
+      "original_sha256": "fc7404b69fc32f611095606b87cdb23c19793503045619464982b10d1baa4c46",
+      "modern_rules": "Sensei Deck. Physical attack. DAMAGE: AT +4 stages. If performed against a Majin, your physical attacks deal +1 life card of damage for the rest of Combat.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 93,
+      "name": "Pikkon's Truce",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/093.jpg",
+      "original_sha256": "5a0299f93e52522da3ece9e06b309e2509962c5353f52a5f22243456474fabb0",
+      "modern_rules": "Stops a focused physical attack or a focused energy attack. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 94,
+      "name": "Red Aggression",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/094.jpg",
+      "original_sha256": "d7b2889062d0007b66ef8eb0cfae30bbecd7a3b9c9f91273bb515496ac27053b",
+      "modern_rules": "Sensei Deck. Stops a physical attack. If you declared a Tokui Waza and your opponent declared a Blue Tokui Waza, your next energy attack this Combat is focused. Banish after use.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 95,
+      "name": "Red Double Strike",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/095.jpg",
+      "original_sha256": "4898a9957773a10f06085ce68f7666fd8127026756c38dc2a41c262c176a10ee",
+      "modern_rules": "Physical attack. DAMAGE: AT stages. Raise your anger 1 level. If you declared a Tokui Waza, this card stays in play to be used 1 more time this Combat.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 96,
+      "name": "Red Energy Drill",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/096.jpg",
+      "original_sha256": "d7da2adce63e1c936d9f8bb00edd7a00ed5ab8b40fc7987c5b5a1f53f252fec0",
+      "modern_rules": "Once per Combat, immediately after you deal life-card damage with a Red Style energy attack, place the bottom 2 cards of your discard pile at the bottom of your Life Deck.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": [
+        "ad, \u201cAll energy\nattacks performed against you, do 1 less life card of damage, to a minimum of 0.\u201d\n\n\nRed Energy Drill (Cell Games Saga - #96) \u2013 This card title is changed to \u201cRed Energy\nGathering Drill\u201d.\n\n\nRed Forearm Block (Babidi Saga - #21) - This card loses \u201cShuffle into your life deck after\nuse.\u201d\n\n\nRed Hunting Drill (Android Saga - #74) - Treat this card as if it read, \u201cOnce per Combat, after\nperforming a successful physical attack, you may choose 1 non-Red Style card in your\ndiscard pile and shuffle it into your Life Deck.\u201d\n\n\nRed Joker Drill (Majin Buu Saga - #96) - Treat this card as if it read, \u201cAt the beginning of\nevery Rejuvenation Step, your Main Personality may pay 1 power stage. If he does, you may\nkeep an additional card during that Rejuvenation Step.\n\n\nRed Knee Pick Drill (Saiyan Saga - #128) - Treat this card as if it read, \u201cWhen entering\nCombat as the attacker, you may draw a card.\u201d\n\n\nRed Mentor Mastery (Shadow Dragon Saga - #219) - You may only discard Red Style cards\n"
+      ]
+    },
+    {
+      "number": 97,
+      "name": "Red Energy Focus",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/097.jpg",
+      "original_sha256": "99a8c111ad318fc1cc2aa169a4554eab07cc75e8050c5b0a307fccc6e35f53bc",
+      "modern_rules": "POWER: For the rest of Combat, your energy attacks cost -1 stage (minimum 1) and deal +2 life cards of damage. Lower your opponent's anger 1 level.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 98,
+      "name": "Red Heat Seeking Blast",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/098.jpg",
+      "original_sha256": "f3d67798f5015786501851e0834db6d47d3dc0d35066b569ca45073a2ecd06f1",
+      "modern_rules": "Sensei Deck. Energy attack costing 2 stages. DAMAGE: 3 life cards for each Dragon Ball your opponent controls. If your opponent declared a Blue Tokui Waza, this is a focused energy attack.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 99,
+      "name": "Krillin, the Father",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/099.jpg",
+      "original_sha256": "c089683209148d8c5b44f7ebee92b5d20318dfebf0ac377d38276b874992a063",
+      "modern_rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. HIT: You may search your Life Deck for any card and discard it.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    },
+    {
+      "number": 100,
+      "name": "Red Light Jab",
+      "original_reference": "tools/card-corrections/v3-world-games-051-100/originals/100.jpg",
+      "original_sha256": "bf6bdb8ba153b5af3d83209126942f73afd802556e7acb1efc5cd97b1f74a81d",
+      "modern_rules": "Physical attack. DAMAGE: AT +4 stages. HIT: If you declared a Tokui Waza, lower your opponent's anger to 0.",
+      "retained_crd_review": "No matching card-specific entry or Restricted List addition in supplied Expanded CRD. Original mechanics retained.",
+      "matching_crd_excerpts": []
+    }
+  ]
+}

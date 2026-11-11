@@ -1,0 +1,243 @@
+{
+  "number": 84,
+  "id": "world-games-084-orange-friendship",
+  "name": "Orange Friendship",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-084-orange-friendship.svg",
+  "native_source_sha256": "0c57557ee654b7d19e24fa3fa233374f8cb4385fbbe3872f40c826840a72adee",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/832fef1b335f55d3db6ef06e2f75a7976f2472098c6d079e93002f98ac6b359e.png",
+      "sha256": "832fef1b335f55d3db6ef06e2f75a7976f2472098c6d079e93002f98ac6b359e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/832fef1b335f55d3db6ef06e2f75a7976f2472098c6d079e93002f98ac6b359e.png",
+    "source_sha256": "832fef1b335f55d3db6ef06e2f75a7976f2472098c6d079e93002f98ac6b359e",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/084.png"
+  },
+  "rules": [
+    {
+      "text": "Endurance 2. POWER: Use only after taking 5",
+      "baseline": 1049.3,
+      "width": 789.439,
+      "icon_inline": false
+    },
+    {
+      "text": "or more life cards of damage from 1 attack",
+      "baseline": 1108.3,
+      "width": 758.2750000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "this Combat. If you declared a Tokui Waza,",
+      "baseline": 1167.3,
+      "width": 754.894,
+      "icon_inline": false
+    },
+    {
+      "text": "search your discard pile for up to 3 Allies",
+      "baseline": 1226.3,
+      "width": 728.4830000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and place them in play at their highest stage.",
+      "baseline": 1285.3,
+      "width": 801.052,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        257.329,
+        44.5,
+        544.343,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        794.269,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.068,
+        1392.65,
+        46.163,
+        33.708
+      ],
+      "rules-line-1": [
+        136.422,
+        1013.53,
+        786.156,
+        45.913
+      ],
+      "rules-line-2": [
+        151.612,
+        1072.53,
+        755.776,
+        45.913
+      ],
+      "rules-line-3": [
+        153.192,
+        1131.53,
+        752.617,
+        45.521
+      ],
+      "rules-line-4": [
+        166.263,
+        1190.53,
+        726.474,
+        45.521
+      ],
+      "rules-line-5": [
+        130.322,
+        1249.53,
+        798.357,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-084-orange-friendship.webp",
+      "after_sha256": "3a6db7ad628d0530eaf52cfaae9385201d7e4df9cc1ad3c6a1e9746a178c2959",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "86887260b1afae615c9eeeac2210941f0fc0e5357419755baae8796ac6f2ce26"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-084-orange-friendship.webp",
+      "after_sha256": "3a3800470720fba2ae01be1c7eaf5be6bfeac24a64b0568bd13105b61779b493",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "13d19ec0e1a18f6e4d61657c5f340693dad51ea6c84186ca9a41f6a6e26910dd"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 544.3428927680799,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "b91886e313f58f8f79cd708741548ff95cca7369b0e66c9cdbb744e77d5a513c",
+    "reversible_edits": [
+      {
+        "id": "orange-style-symbol",
+        "before": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"7.6923\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"6.92307\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 10736,
+    "pixels_changed_outside_symbol_area": 4361,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      63,
+      1687,
+      517,
+      2882
+    ],
+    "before_download_sha256": "13d19ec0e1a18f6e4d61657c5f340693dad51ea6c84186ca9a41f6a6e26910dd"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 4361,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

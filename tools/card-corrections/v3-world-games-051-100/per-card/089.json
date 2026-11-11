@@ -1,0 +1,227 @@
+{
+  "number": 89,
+  "id": "world-games-089-orange-power-stance",
+  "name": "Orange Power Stance",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-089-orange-power-stance.svg",
+  "native_source_sha256": "fdd24e03648cf9455c6d5c792ede35c82e19bb67f6076fcb5e2d4c8f2f5043d9",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1f08ae34942f4018c76c0ed22bb31ec4208095b6775855e4f36c9e2b54ee3160.png",
+      "sha256": "1f08ae34942f4018c76c0ed22bb31ec4208095b6775855e4f36c9e2b54ee3160"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/1f08ae34942f4018c76c0ed22bb31ec4208095b6775855e4f36c9e2b54ee3160.png",
+    "source_sha256": "1f08ae34942f4018c76c0ed22bb31ec4208095b6775855e4f36c9e2b54ee3160",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/089.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Endurance 1. POWER: Raise",
+      "baseline": 1049.3,
+      "width": 714.322,
+      "icon_inline": false
+    },
+    {
+      "text": "your Main Personality to its highest stage.",
+      "baseline": 1108.3,
+      "width": 745.143,
+      "icon_inline": false
+    },
+    {
+      "text": "Shuffle a Dragon Ball your opponent",
+      "baseline": 1167.3,
+      "width": 635.6280000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "controls into its owner's Life Deck.",
+      "baseline": 1226.3,
+      "width": 615.5870000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        208.16,
+        45.9196,
+        642.681,
+        66.1608
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.435,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.235,
+        1392.65,
+        43.831,
+        33.708
+      ],
+      "rules-line-1": [
+        173.662,
+        1013.53,
+        711.676,
+        36.162
+      ],
+      "rules-line-2": [
+        158.031,
+        1072.53,
+        742.938,
+        45.913
+      ],
+      "rules-line-3": [
+        212.813,
+        1132.61,
+        633.374,
+        44.835
+      ],
+      "rules-line-4": [
+        223.25,
+        1190.53,
+        612.5,
+        36.162
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-089-orange-power-stance.webp",
+      "after_sha256": "98d0fcdc5b0c034a67c9f2e5eff328b94d62a5b6770a6563085ad1d924fdcd32",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "4141685268ea1603a7ee6f7caa8b11f21e39e371b3cff332817da16a6c52395d"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-089-orange-power-stance.webp",
+      "after_sha256": "4d050d04c1e389226729834096b71557c747a314d3629ee0d8268d98369a7e60",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "0c39cc0895c4c638afe8421a19c634fe5609de3402e45d1b265a8f7c28a20f49"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 642.6807980049877,
+      "visible_height": 66.16084788029926,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "bc8e00641a4eecb7b9a8a71527ffb590506f534bf1db1dda07e046a379c0e6c2",
+    "reversible_edits": [
+      {
+        "id": "orange-style-symbol",
+        "before": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"7.6923\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g id=\"orange-style-symbol\" transform=\"translate(100 1006) scale(1.05) translate(-53.5 -55.5)\" fill=\"none\" stroke=\"#f29216\" stroke-width=\"6.92307\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 6375,
+    "pixels_changed_outside_symbol_area": 0,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      63,
+      1687,
+      337,
+      1947
+    ],
+    "before_download_sha256": "0c39cc0895c4c638afe8421a19c634fe5609de3402e45d1b265a8f7c28a20f49"
+  }
+}

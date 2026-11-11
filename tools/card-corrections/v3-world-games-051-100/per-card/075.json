@@ -1,0 +1,267 @@
+{
+  "number": 75,
+  "id": "world-games-075-namekian-heat-seeking-blast",
+  "name": "Namekian Heat Seeking Blast",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-075-namekian-heat-seeking-blast.svg",
+  "native_source_sha256": "0dedda17be9e96de44ced29669298db35c8fcf847124b31ac6806beb30b9fa6f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c4c8e5ceae404ee74895291c87a0a66f1aa0b0db9acb6df2c055b19fc9592d4d.png",
+      "sha256": "c4c8e5ceae404ee74895291c87a0a66f1aa0b0db9acb6df2c055b19fc9592d4d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/c4c8e5ceae404ee74895291c87a0a66f1aa0b0db9acb6df2c055b19fc9592d4d.png",
+    "source_sha256": "c4c8e5ceae404ee74895291c87a0a66f1aa0b0db9acb6df2c055b19fc9592d4d",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/075.png"
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 4 stages.",
+      "baseline": 1049.3,
+      "width": 615.7921555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If stopped,",
+      "baseline": 1108.3,
+      "width": 576.1910000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your opponent discards the top 4 cards",
+      "baseline": 1167.3,
+      "width": 699.426,
+      "icon_inline": false
+    },
+    {
+      "text": "of his Life Deck. Banish after use.",
+      "baseline": 1226.3,
+      "width": 596.281,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        49.3541,
+        760.0,
+        59.2918
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        796.786,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.586,
+        1392.65,
+        41.128,
+        33.708
+      ],
+      "rules-line-1": [
+        276.983,
+        1013.53,
+        559.629,
+        45.913
+      ],
+      "power-icon": [
+        222.388,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        243.303,
+        1072.53,
+        572.395,
+        44.884
+      ],
+      "rules-line-3": [
+        180.522,
+        1131.53,
+        697.956,
+        45.521
+      ],
+      "rules-line-4": [
+        232.903,
+        1190.53,
+        593.194,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          222.388,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          276.983,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          222.388,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-075-namekian-heat-seeking-blast.webp",
+      "after_sha256": "e0c3c060cfb6431dfcbae903a1623a26990ad1cf0cf9f0f6e96828e52ffcad1d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "283a22cf4a4cd26410d9e3756cac59c36aaa16064e721bb723a817e646cf4b5c"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-075-namekian-heat-seeking-blast.webp",
+      "after_sha256": "4e1c04b4fba65f6779fcc8e85daf7282c30e5608fb8dded232664807f0e23d57",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "58c42b781caa3f73e115e8d4132be143a048f73a00e3cf6971e31b5137db7732"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 73.92996108949416,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 59.29182879377431,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8593018665764393
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "d3b5a995f9a3ceae2f87e54f62506bfc43b97226aa9f5c01ce977e2d6780b5b8",
+    "reversible_edits": [
+      {
+        "id": "namekian-colored-strokes",
+        "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 7763,
+    "pixels_changed_outside_symbol_area": 3252,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      76,
+      1694,
+      517,
+      2882
+    ],
+    "before_download_sha256": "58c42b781caa3f73e115e8d4132be143a048f73a00e3cf6971e31b5137db7732"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 3252,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

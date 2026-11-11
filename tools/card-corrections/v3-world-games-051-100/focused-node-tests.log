@@ -1,0 +1,41 @@
+✔ Personality labels appear in filters, result cards and details while legacy filter URLs work (38.941442ms)
+✔ Cell Games Saga exposes 100 reviewed cards across two pages and resolves every detail and download (731.458682ms)
+✔ complete Android Saga includes 125 numbered cards, P1–P11, and a reachable third page (10.364117ms)
+✔ Cards opens all sets directly with 60 cards and no set directory (15.317764ms)
+✔ every page contains its 60-card slice without omissions or duplicates (294.819619ms)
+✔ page and filter URLs survive refresh and invalid pages are corrected (117.990643ms)
+✔ search, type, style, sort and Reset return to page one; empty results hide pagination (240.024793ms)
+✔ set pages and Reset stay within their set; small sets hide pagination (14.986908ms)
+✔ card modal preserves page, set and filters through Close, Back and Forward (236.391182ms)
+✔ old all-cards links still open the grid and normalize to Cards (12.516334ms)
+✔ Trunks Saga shows all 210 cards across four pages, with its wordmark and working detail links (28.593583ms)
+✔ Android set shows its banner through refresh and hides it outside that set (29.501915ms)
+✔ Personality card sharing metadata uses the renamed type (24.30859ms)
+✔ every catalog card has a unique share link that resolves across sets and promo numbers (690.993233ms)
+✔ fresh card URLs serve the database with card-specific sharing metadata (8.660033ms)
+✔ card aliases redirect; missing cards return a useful 404; assets remain untouched (4.924534ms)
+✔ Cards serves the browser directly with set filters and pagination containers (0.979857ms)
+✔ fresh requests and refreshes retain the URL-selected set and show set breadcrumbs (10.147144ms)
+✔ actual Worker dispatch routes card links and still delegates database assets (5.990741ms)
+✔ Android set sharing metadata uses its matching crimson banner (1.122793ms)
+✔ all 50 ready cards are added without changing the existing catalog entries (23.615758ms)
+✔ all native sources, shared assets and 100 actual exports match reviewed hashes (2325.474027ms)
+✔ new style symbols use the approved thinner strokes and special cards retain their data (123.420661ms)
+✔ 100-card set and all 50 new public card routes work (248.2362ms)
+✔ all new cards round-trip through portable deck codes (66.493395ms)
+✔ portable image code preserves all zones, Unicode and quantities as a new private deck (55.994825ms)
+✔ QR decoder reads a rendered exported code with quiet zone and surrounding dark theme (317.122745ms)
+✔ unrecognized, corrupt and oversized codes are rejected (1.811566ms)
+✔ unknown card IDs and unsafe quantities fail without partial import (64.777454ms)
+✔ duplicate rows are rejected and incomplete decks still round trip (16.159534ms)
+✔ every catalog Hi-Tech is blocked as an Ally but allowed in the starting stack (12.599525ms)
+✔ deck-image imports reject Hi-Tech Allies in either deck, including rarity-only Hi-Tech (26.825123ms)
+✔ arena imports reject stripped Hi-Tech Ally snapshots and preserve regular Allies and Hi-Tech MPs (2.863278ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3173.818719

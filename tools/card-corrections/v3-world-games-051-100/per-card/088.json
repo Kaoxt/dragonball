@@ -1,0 +1,228 @@
+{
+  "number": 88,
+  "id": "world-games-088-orange-power-kick",
+  "name": "Orange Power Kick",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-088-orange-power-kick.svg",
+  "native_source_sha256": "4404202615edf3e2c050da22d7ffa22c16b6aa7f77c650bd5f22e454f91831a7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1793522ae765ed31e238890bb14f86772c49c292c16626e4ded2d80c7bf35f2d.png",
+      "sha256": "1793522ae765ed31e238890bb14f86772c49c292c16626e4ded2d80c7bf35f2d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/1793522ae765ed31e238890bb14f86772c49c292c16626e4ded2d80c7bf35f2d.png",
+    "source_sha256": "1793522ae765ed31e238890bb14f86772c49c292c16626e4ded2d80c7bf35f2d",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/088.png"
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Physical attack.",
+      "baseline": 1049.3,
+      "width": 576.3421555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +4 stages. If your opponent declared",
+      "baseline": 1108.3,
+      "width": 874.2090000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "a Black Tokui Waza, this attack stays in play to be",
+      "baseline": 1167.3,
+      "width": 889.8399999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "used 1 more time this Combat. Banish after use.",
+      "baseline": 1226.3,
+      "width": 844.319,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        245.026,
+        44.5,
+        568.949,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.36,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.223,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.023,
+        1392.65,
+        44.255,
+        33.708
+      ],
+      "rules-line-1": [
+        242.774,
+        1013.53,
+        573.451,
+        45.521
+      ],
+      "power-icon": [
+        479.439,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        94.4045,
+        1073.61,
+        870.191,
+        44.835
+      ],
+      "rules-line-3": [
+        85.805,
+        1131.53,
+        887.39,
+        45.521
+      ],
+      "rules-line-4": [
+        108.957,
+        1190.53,
+        841.085,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          479.439,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          533.986,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          479.439,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-088-orange-power-kick.webp",
+      "after_sha256": "f875563ec9f1609caa289a446115c38c1b4f10158d60537bfd7cd6aefb1f75a1",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-088-orange-power-kick.webp",
+      "after_sha256": "89d26ff3523d94a79d6f3d45cb046cbc9cfdbf8041b217e5860d4e089c029dcc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 568.9488778054864,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3
+}

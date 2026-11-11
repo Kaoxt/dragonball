@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/pre-world-games-051-100-catalog.js';
 import {blueStrokeRelease as release,beforeBlueStrokeFile,beforeBlueStrokeHash} from './helpers/blue-stroke-history.js';
 import {beforeFreestyleStrokeFile,beforeFreestyleStrokeHash,catalog as historicalCatalog} from './helpers/freestyle-stroke-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');

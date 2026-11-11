@@ -1,0 +1,279 @@
+{
+  "number": 68,
+  "id": "world-games-068-namekian-ducking-technique",
+  "name": "Namekian Ducking Technique",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-068-namekian-ducking-technique.svg",
+  "native_source_sha256": "3e4f9e84479eab0de4db8a7eae54b0a01db6f396822681d6892d76dc6ab39087",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/48aad21964226b0f1ad8d15588d016b3b3885b3d73ca498e1dad8ca6f809633f.png",
+      "sha256": "48aad21964226b0f1ad8d15588d016b3b3885b3d73ca498e1dad8ca6f809633f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/48aad21964226b0f1ad8d15588d016b3b3885b3d73ca498e1dad8ca6f809633f.png",
+    "source_sha256": "48aad21964226b0f1ad8d15588d016b3b3885b3d73ca498e1dad8ca6f809633f",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/068.png"
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared",
+      "baseline": 1049.3,
+      "width": 750.8529473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "a Tokui Waza, raise your Main Personality",
+      "baseline": 1108.3,
+      "width": 739.067,
+      "icon_inline": false
+    },
+    {
+      "text": "to its highest stage and place",
+      "baseline": 1167.3,
+      "width": 523.565,
+      "icon_inline": false
+    },
+    {
+      "text": "the bottom card of your discard pile",
+      "baseline": 1226.3,
+      "width": 638.0780000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "at the bottom of your Life Deck.",
+      "baseline": 1285.3,
+      "width": 562.0300000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        149.5,
+        49.4461,
+        760.0,
+        59.1078
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.408,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.208,
+        1392.65,
+        43.884,
+        33.708
+      ],
+      "rules-line-1": [
+        205.696,
+        1013.53,
+        698.299,
+        45.521
+      ],
+      "power-icon": [
+        155.005,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        160.86,
+        1072.53,
+        737.28,
+        45.521
+      ],
+      "rules-line-3": [
+        268.697,
+        1131.53,
+        521.605,
+        45.913
+      ],
+      "rules-line-4": [
+        211.441,
+        1190.53,
+        636.118,
+        45.521
+      ],
+      "rules-line-5": [
+        249.832,
+        1249.53,
+        559.335,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          205.696,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          155.005,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-068-namekian-ducking-technique.webp",
+      "after_sha256": "eccb131d59bbf1f318250fefaf58576596a0bd333ce1f98e26b939e136046c9b",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "abc6db355477d20ef369d21a5af4b6489332b9654574062f1995be160af6d3e3"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-068-namekian-ducking-technique.webp",
+      "after_sha256": "096cf1989ff5d8095a1a3eece3e5edb682b6b205c1a2ca25c6e50920f0c7c9e3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "48c713ea5b322aec0170d24673b6e0468729ea1c9fbc19f826ac7e60e8d7181c"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 73.70054305663304,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 759.9999999999999,
+      "visible_height": 59.107835531419695,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 0.8566352975568071
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "7b85c3b5968a7e883ec8d7d4374069753dfe4b419179dcd8aacbf9a6fc41af59",
+    "reversible_edits": [
+      {
+        "id": "namekian-colored-strokes",
+        "before": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.69230769\" stroke-linecap=\"round\" stroke-linejoin=\"round\">",
+        "after": "<ns0:g fill=\"none\" stroke=\"#21aaa5\" stroke-width=\"7.3076923055\" stroke-linecap=\"round\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 7763,
+    "pixels_changed_outside_symbol_area": 3252,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      76,
+      1694,
+      517,
+      2882
+    ],
+    "before_download_sha256": "48c713ea5b322aec0170d24673b6e0468729ea1c9fbc19f826ac7e60e8d7181c"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 3252,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "completed_numbers": [
+    53,
+    66
+  ],
+  "new_card_checks": [
+    {
+      "number": 53,
+      "native_png_matches_download_pixels": true,
+      "image_size": [
+        2120,
+        2968
+      ],
+      "artwork_asset_sha256": "723002eba172d3d36f54f3dfec898add8a35b407e28c75aef9d014017449906f"
+    },
+    {
+      "number": 66,
+      "native_png_matches_download_pixels": true,
+      "image_size": [
+        2120,
+        2968
+      ],
+      "artwork_asset_sha256": "2f184bd25286ec06b98749228be7d39d94f6e9c4fa0362812f6f4b11bb5357e1"
+    }
+  ],
+  "previous_native_cards_byte_identical": 48,
+  "previous_webp_exports_byte_identical": 96,
+  "all_50_rules_checked": true,
+  "full_repository_ci": "Not run in sparse handoff preparation; required before publication.",
+  "published": false
+}

@@ -1,0 +1,279 @@
+{
+  "number": 58,
+  "id": "world-games-058-hercule-s-drop-kick",
+  "name": "Hercule's Drop Kick",
+  "family": "PHYSICAL COMBAT",
+  "native_source_path": "tools/card-templates/v3/world-games-051-100/world-games-058-hercule-s-drop-kick.svg",
+  "native_source_sha256": "f8c96467f354ebe8f34828c71a4f636f811cd2b0c1c7be721ff02a8c41eb07c5",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/945c054ee342c79ac66e768456ce8872085067ffa89264f7b84d9821f4a86f08.png",
+      "sha256": "945c054ee342c79ac66e768456ce8872085067ffa89264f7b84d9821f4a86f08"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/945c054ee342c79ac66e768456ce8872085067ffa89264f7b84d9821f4a86f08.png",
+    "source_sha256": "945c054ee342c79ac66e768456ce8872085067ffa89264f7b84d9821f4a86f08",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ],
+    "archive_artwork_source": "tools/card-corrections/v3-world-games-051-100/artwork/058.png"
+  },
+  "rules": [
+    {
+      "text": "(Limit 1 per deck unless your Main Personality",
+      "baseline": 1049.3,
+      "width": 811.9300000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "is Hercule.) Physical attack.",
+      "baseline": 1108.3,
+      "width": 552.7731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +6 stages. If stopped,",
+      "baseline": 1167.3,
+      "width": 603.5820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "gain 3 stages and place this card",
+      "baseline": 1226.3,
+      "width": 585.8440000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "at the bottom of your Life Deck.",
+      "baseline": 1285.3,
+      "width": 562.0300000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        234.529,
+        44.5,
+        589.941,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        795.567,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.367,
+        1392.65,
+        43.566,
+        33.708
+      ],
+      "rules-line-1": [
+        123.89,
+        1012.11,
+        811.221,
+        46.942
+      ],
+      "rules-line-2": [
+        254.632,
+        1071.11,
+        549.735,
+        46.942
+      ],
+      "power-icon": [
+        467.581,
+        1073.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-3": [
+        229.607,
+        1132.61,
+        599.786,
+        44.835
+      ],
+      "rules-line-4": [
+        238.268,
+        1190.53,
+        582.463,
+        45.913
+      ],
+      "rules-line-5": [
+        249.832,
+        1249.53,
+        559.335,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 11,
+        "previous_visible_bounds": [
+          467.581,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          522.128,
+          1073.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          467.581,
+          1073.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-058-hercule-s-drop-kick.webp",
+      "after_sha256": "f39ebde898225a3064f596a4f17291345118d7ac4d2d234f7e42f9d9ef849c12",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "659cdca8bf674b15cee07f90dad0095f1f8d4909dc16d5ff2094d616dfff5cc2"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-058-hercule-s-drop-kick.webp",
+      "after_sha256": "6b40c30d7fd998342545a19e81cf1fff0c1ba55a26724877cc77e29de73fde66",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "previous_archive_sha256": "48f28d60c502506f536bf4c8c8c0e1e30125e3c59cb74b51d3fff1c27f9621b6"
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 589.9413965087283,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "PHYSICAL COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        573.548525,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 3,
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "illustration character and scene match",
+      "readable rules with no overflow",
+      "title and middle label placement",
+      "footer emblem and number",
+      "correct style symbol",
+      "power icon"
+    ],
+    "method": "Actual exported card viewed at readable preview size; native geometry and lossless pixel equality checked separately."
+  },
+  "symbol_weight_revision": {
+    "before_source_sha256": "42f25f4a78d4c453ecf181d4646599e0ebe62eea9e062b9e209b8058bd891b83",
+    "reversible_edits": [
+      {
+        "id": "freestyle-glyph",
+        "before": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\">",
+        "after": "<ns0:g id=\"freestyle-glyph\" fill=\"#ffffff\" aria-label=\"Freestyle: \u767d\" transform=\"scale(0.9074074074074074) translate(-9.872610334885783 -56.81179862497227)\" data-alignment-method=\"filled-path-area-centroid\" stroke=\"#080b0d\" stroke-width=\"0.8\" stroke-linejoin=\"round\">"
+      }
+    ],
+    "helper_idempotent": true,
+    "download_changed_pixels": 8241,
+    "pixels_changed_outside_symbol_area": 4361,
+    "pixels_changed_outside_symbol_and_recorded_footer": 0,
+    "changed_bounds": [
+      91,
+      1686,
+      517,
+      2882
+    ],
+    "before_download_sha256": "48f28d60c502506f536bf4c8c8c0e1e30125e3c59cb74b51d3fff1c27f9621b6"
+  },
+  "archive_export_footer_refresh": {
+    "changed_pixels": 4361,
+    "reason": "Re-export from retained native source at verified center (211.75,1409.5); archive raster differed slightly in the emblem footprint. No footer geometry edited."
+  }
+}

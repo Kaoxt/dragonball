@@ -14,7 +14,7 @@ const audit=read('audit.json'),data=read('cards.json'),release=read('release.jso
 const completionBase='tools/card-corrections/v3-world-games-034/';
 const completion=JSON.parse(fs.readFileSync(completionBase+'release.json','utf8'));
 const completedCard=JSON.parse(fs.readFileSync(completionBase+'audit.json','utf8'));
-const cards=catalog.filter(c=>c.set==='World Games Saga');
+const cards=catalog.filter(c=>c.set==='World Games Saga'&&Number(c.number)<=50);
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const expected=Array.from({length:50},(_,i)=>i+1);
 
@@ -80,7 +80,7 @@ test('World Games set and all 50 card pages work at their public URLs',async()=>
  const html=fs.readFileSync('public/cards/index.html','utf8');
  const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  const set=catalogSets(catalog).find(s=>s.name==='World Games Saga');
- assert.equal(set.count,50);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
+ assert.equal(set.count,100);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
  const page=await cardPage(new Request('https://dragonballocg.com'+set.path),assets);
  assert.equal(page.status,200);assert.match(await page.text(),/World Games Saga/);
  for(const card of cards){
@@ -88,7 +88,7 @@ test('World Games set and all 50 card pages work at their public URLs',async()=>
   assert.equal(page.status,200);
   const body=await page.text();assert.ok(body.includes(card.image));
  }
- assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/051'),assets)).status,404);
+ assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/101'),assets)).status,404);
 });
 
 test('all 50 World Games cards round-trip through portable deck codes',async()=>{

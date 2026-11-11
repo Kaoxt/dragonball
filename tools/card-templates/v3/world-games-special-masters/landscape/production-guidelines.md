@@ -1,0 +1,21 @@
+# V3 shared landscape Location and Battleground master
+
+Use the two native masters in `masters/`. This is the November 2, 2026 V3 extension of the approved shared landscape master, created at the user's request. Preserve the earlier landscape V2 source independently. Saving these templates does not publish website cards.
+
+Copy this entire folder, retaining `masters/../assets/`. Do not copy an external-asset SVG alone. Run `python3 source/build.py` to reproduce the two demonstration masters and lossless exports. Requires Inkscape, Pillow, fontTools and lxml. `geometry.json` defines this family's anchors; do not apply portrait coordinate helpers to it.
+
+Keep 1484 × 1060 native and 2968 × 2120 exports. Keep the retained illustration at x16, y145, 1451 × 483.6666667, the continuous charcoal surround, and the crimson arena emblem/circle. No zoom, stretching, crop-to-fill, repeated backgrounds, or Toku Waza substitution. Change illustrations only from a verified original or explicit user instruction. Review new real-card artwork against the original pose, camera, expression, clothing and background. This retained landscape art has not received a new fidelity audit.
+
+Use the exact native V3 charcoal paint and clean alpha contours for title, middle and footer. Only the center spans are widened continuously; original end contours remain intact. The fuller footer uses 145-unit ends. Transparent holes reveal the one background; never add square backing patches. Use the V3 paper texture, thin native silver/dark rails and four crimson corner decals. The landscape power panel is shorter than a portrait panel: use intentional line breaks with Barlow Condensed Bold 49 and pitch 59; do not silently shrink type or force the portrait five-row target.
+
+Center complete visible title ink at (741.5,79). Teko SemiBold nominal 86.0349127182045. Reduce font size uniformly when visible width exceeds 1184; the safe region is x149.5–1333.5. Preserve natural letter proportions and the brush geometry. Never horizontally squeeze titles. Short titles retain nominal size.
+
+Use retained fixed V3 category paths from `source/category-battleground.svg` and `source/category-location.svg`: Michroma 38.4, tracking 4, width factor .956, stroke 4.21875. Translate the original (529.5,908.5) anchor to (741.5,685.1666667), without rescaling glyphs. Match this horizontal illustration center for the title, category and rules group.
+
+Footer content center is y985.5. Center the visible brand/disclaimer block at x741.5; preserve the exact V3 outlines, sizes and nonbold disclaimer. Center the set mark at x296.55 and the entire rarity-ball-plus-number group at x1186.45. These centers are mirrored around x741.5. Preserve the 12.2-unit ball-to-number gap. Measure visible ink after replacing any set mark, rarity or number; move the ball and number together. The old Android wordmark in this demonstration is provisional, not the current production Android emblem. Replace it only with the verified current set mark during actual card production.
+
+Use one effect icon, with the approved native swords/shield/infinity rules. Keep the bold infinity and separate colon; align infinity alone against adjacent visible capital letters using `source/align_power_icon.py`, then require a zero-movement second run within .01 units. Center the complete rules line/group in the panel, preserving line spacing and costs/effect mechanics. When replacing demonstration text, lay out the colon with that text before aligning infinity.
+
+Read the current original and Expanded CRD before actual card production. Verify title, set, number, rarity, wording and category separately. `card-data.json` records demonstration provenance; the Location title, rules, set/number and rarity are placeholders. No demonstration values authorize real-card publication.
+
+Inspect normal-size and full-size exports. Require all image references to resolve, visible bounds at the locked anchors, no duplicate IDs, no live SVG text/font dependencies, PNG/WebP decoded-pixel equality, and unchanged artwork for frame-only changes. Retain the native SVGs, raster assets, fonts, builder, geometry and checks. Do not claim a newly created family or existing set was user-approved or published merely because it was saved.
