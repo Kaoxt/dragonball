@@ -76,8 +76,13 @@ class CardTypeReferences(unittest.TestCase):
         freestyle_revisions = {row['id']: row for row in json.loads(freestyle_release.read_text())['cards']} if freestyle_release.exists() else {}
         black_release = ROOT / 'tools/card-corrections/v3-black-stroke-weight/release.json'
         black_revisions = {row['id']: row for row in json.loads(black_release.read_text())['cards']} if black_release.exists() else {}
-        blue_release = ROOT / 'tools/card-corrections/v3-blue-stroke-weight/release.json'
-        blue_revisions = {row['id']: row for row in json.loads(blue_release.read_text())['cards']} if blue_release.exists() else {}
+        additional_symbol_revisions = {}
+        for style in ['Blue', 'Orange']:
+            release_path = ROOT / f'tools/card-corrections/v3-{style.lower()}-stroke-weight/release.json'
+            if release_path.exists():
+                for row in json.loads(release_path.read_text())['cards']:
+                    self.assertNotIn(row['id'], additional_symbol_revisions)
+                    additional_symbol_revisions[row['id']] = (style, row)
         for card in cards:
             with self.subTest(card=card['id']):
                 self.assertFalse(inspect_json({'type': card['type']}))
@@ -85,10 +90,10 @@ class CardTypeReferences(unittest.TestCase):
                     reviewed_image = card['image']
                     image_path = reviewed_image.split('?', 1)[0].removeprefix('/')
                     current_hash = hashlib.sha256((ROOT / 'public' / image_path).read_bytes()).hexdigest()
-                    if card['id'] in blue_revisions:
-                        revision = blue_revisions[card['id']]
+                    if card['id'] in additional_symbol_revisions:
+                        style, revision = additional_symbol_revisions[card['id']]
                         export = next(e for e in revision['exports'] if e['field'] == 'image')
-                        self.assertEqual(card['style'], 'Blue')
+                        self.assertEqual(card['style'], style)
                         self.assertEqual(export['pixels_changed_outside_symbol_delta'], 0)
                         self.assertLessEqual(export['changed_bounds'][3], 985,
                             'Symbol revision must not reach the reviewed rules lettering.')

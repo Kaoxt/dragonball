@@ -1,3 +1,21 @@
+## Orange Tokui Waza stroke weight — November 10, 2026
+
+The current Orange correction includes all 82 catalog cards across seven sets,
+both enlarged Masteries and the four World Games Orange cards. Keep the 橙 paths,
+#f29216 orange, round caps/joins, dark outline, transforms, placement, total
+symbol footprint and smoky backing. Only the colored stroke changes from
+7.6923 to 6.92307 (10% reduction), about 10.906 to 9.815 native pixels at the
+standard placement. Reuse corrected Saiyan #49, selected by the current
+builders, or scripts/orange_symbol_weight.py after choosing a retained older
+Orange source. Do not reduce the size or compound the thinning.
+Both lossless exports preserve every pixel outside the symbol delta.
+Cell Games #70/#72/#73 still lack complete native SVGs from their old release;
+their verified fully opaque shared-logo delta is patched without reconstructing
+or claiming recovery of their full cards. Preserve this provenance distinction.
+Use tools/card-corrections/v3-orange-stroke-weight/ and both Node/Python revision
+chains; retain historical audits. Keep the Orange → Blue → Black → Freestyle
+revision order so each earlier audit sees its original reviewed state.
+
 ## Blue Tokui Waza stroke weight — November 10, 2026
 
 The Blue correction covers all 81 catalog cards across seven sets,

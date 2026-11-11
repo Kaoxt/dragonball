@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeOrangeStrokeFile,beforeOrangeStrokeHash} from './orange-stroke-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const file=path.join(root,'tools/card-corrections/v3-blue-stroke-weight/release.json');
 export const blueStrokeRelease=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;
@@ -12,11 +12,11 @@ const revisions=new Map((blueStrokeRelease?.cards??[]).flatMap(r=>[r.source,...r
 const name=p=>path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 function current(p){
- const bytes=fs.readFileSync(p),revision=revisions.get(name(p));
- if(revision)assert.equal(hash(bytes),revision.after_sha256,`Current Blue stroke revision changed: ${p}`);
+ const bytes=beforeOrangeStrokeFile(p),revision=revisions.get(name(p));
+ if(revision)assert.equal(beforeOrangeStrokeHash(p),revision.after_sha256,`Current Blue stroke revision changed: ${p}`);
  return{bytes,revision};
 }
-export function beforeBlueStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
+export function beforeBlueStrokeHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??beforeOrangeStrokeHash(p);}
 export function beforeBlueStrokeFile(p){
  const{bytes,revision}=current(p);
  if(!revision?.reversible_edits)return bytes;
