@@ -1,3 +1,19 @@
+## Blue Tokui Waza stroke weight — November 10, 2026
+
+The Blue correction covers all 81 catalog cards across seven sets,
+including both enlarged Masteries and all nine World Games Blue cards.
+Retain the 青 paths, blue #3b9cde, rounded caps/joins, width-13 dark outline,
+transforms, position, total outer footprint and smoky backing. Only the blue
+paint stroke changes from 7.69230769 to 7.403846151625 (3.75% reduction),
+about 10.1762 to 9.7946 native pixels at standard placement, matching the
+approximate 9.8-pixel Red reference. Use the corrected Saiyan #13 donor or
+scripts/blue_symbol_weight.py after selecting a Blue symbol for a new card.
+Existing corrections use byte-preserving native edits and independently
+rendered per-card before/after crops. Keep all unrelated pixels unchanged in
+both lossless exports. Preserve earlier audit evidence through the reversible
+revision chain in tools/card-corrections/v3-blue-stroke-weight/. Both the Node
+and Python audit readers retain the published Black revision in that chain.
+
 ## Black Tokui Waza stroke weight — November 10, 2026
 
 All 90 current Black cards retain the same 黒 paths, gray #777d85, rounded

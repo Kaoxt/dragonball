@@ -76,6 +76,8 @@ class CardTypeReferences(unittest.TestCase):
         freestyle_revisions = {row['id']: row for row in json.loads(freestyle_release.read_text())['cards']} if freestyle_release.exists() else {}
         black_release = ROOT / 'tools/card-corrections/v3-black-stroke-weight/release.json'
         black_revisions = {row['id']: row for row in json.loads(black_release.read_text())['cards']} if black_release.exists() else {}
+        blue_release = ROOT / 'tools/card-corrections/v3-blue-stroke-weight/release.json'
+        blue_revisions = {row['id']: row for row in json.loads(blue_release.read_text())['cards']} if blue_release.exists() else {}
         for card in cards:
             with self.subTest(card=card['id']):
                 self.assertFalse(inspect_json({'type': card['type']}))
@@ -83,6 +85,17 @@ class CardTypeReferences(unittest.TestCase):
                     reviewed_image = card['image']
                     image_path = reviewed_image.split('?', 1)[0].removeprefix('/')
                     current_hash = hashlib.sha256((ROOT / 'public' / image_path).read_bytes()).hexdigest()
+                    if card['id'] in blue_revisions:
+                        revision = blue_revisions[card['id']]
+                        export = next(e for e in revision['exports'] if e['field'] == 'image')
+                        self.assertEqual(card['style'], 'Blue')
+                        self.assertEqual(export['pixels_changed_outside_symbol_delta'], 0)
+                        self.assertLessEqual(export['changed_bounds'][3], 985,
+                            'Symbol revision must not reach the reviewed rules lettering.')
+                        self.assertEqual(current_hash, export['after_sha256'])
+                        self.assertEqual(reviewed_image, export['path'].removeprefix('public') + '?v=' + export['after_sha256'][:12])
+                        current_hash = export['before_sha256']
+                        reviewed_image = export['path'].removeprefix('public') + '?v=' + export['before_sha256'][:12]
                     if card['id'] in black_revisions:
                         revision = black_revisions[card['id']]
                         export = next(e for e in revision['exports'] if e['field'] == 'image')
