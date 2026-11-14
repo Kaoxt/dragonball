@@ -1,0 +1,278 @@
+{
+  "number": 181,
+  "id": "world-games-181-kid-trunks",
+  "name": "Kid Trunks",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-181-kid-trunks.svg",
+  "native_source_sha256": "89bafa1f7ce70d642ce99e04a40b7ceec1b37ea6e7bea295bd2473c6fa49121b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-181-kid-trunks-background-portrait.png",
+      "sha256": "a61214de8a9cc6dd4c7186ee51926a8bd0c6760c49356f9fbb30b6ea8f57075b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+    "source_sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      50,
+      1060,
+      1484.0
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "cb802520a2bae0b24e0a508fcc18cf7e8ce75db1d879a692dd961c3e5522d08f",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 7 life cards. Discard the top 2",
+      "baseline": 1108.3,
+      "width": 684.5300000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cards of your Life Deck. HIT: Gain 2 stages.",
+      "baseline": 1167.3,
+      "width": 762.685,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.027,
+        160.009,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-1": [
+        891.497,
+        224.691,
+        139.503,
+        38.269
+      ],
+      "power-stage-value-2": [
+        892.477,
+        289.373,
+        138.523,
+        38.269
+      ],
+      "power-stage-value-3": [
+        892.379,
+        354.054,
+        138.621,
+        38.269
+      ],
+      "power-stage-value-4": [
+        893.408,
+        418.736,
+        137.592,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.036,
+        483.418,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-6": [
+        893.947,
+        548.1,
+        137.053,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.978,
+        612.782,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-8": [
+        897.965,
+        677.463,
+        133.035,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.076,
+        742.145,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        373.261,
+        50.2213,
+        312.479,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        791.566,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.365,
+        1392.65,
+        51.569,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        188.729,
+        1072.53,
+        681.541,
+        44.884
+      ],
+      "rules-line-3": [
+        149.701,
+        1131.53,
+        759.598,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-181-kid-trunks.webp",
+      "after_sha256": "642f98bcbde4020bef4711f0768c53ae38cd1ad250a8760afe9116e5e62487cf",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-181-kid-trunks.webp",
+      "after_sha256": "1dde158d1ec503d5f4750a3c3ddff337a11a14782718017b7b77065c7d114a93",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

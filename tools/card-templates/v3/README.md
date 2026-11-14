@@ -1,3 +1,12 @@
+## World Games Hi-Tech framing — November 14, 2026
+
+World Games #165, #169, #177, #181, #185, #189, #193 and #197 now use the supplied
+self-contained SVGs at their existing `world-games-151-200/` paths. Preserve
+the eight individual foreground transforms, eye backgrounds and #193 mouth
+patch. The updated batch records use the retained-native rebuild path; no
+generic framing is needed. Goku #173 remains unchanged. Revision evidence and
+historical snapshots are in `../../card-corrections/v3-world-games-hi-tech-refined/`.
+
 ## Cell Saga Hi-Tech 191–200 — November 14, 2026
 
 Ten additional Level 3 Hi-Tech cards retain the exact supplied sources in

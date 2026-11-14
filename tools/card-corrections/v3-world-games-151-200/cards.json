@@ -500,7 +500,7 @@
     "original_rules": "Printed rules retained in originals/165.jpg; modern wording below.",
     "modern_rules": "Your Vegeta Named cards with \"Banish after use\" instead have \"Discard after use\".",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/165.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-165-vegeta-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253116",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/jl5ooattjjsws8g8?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -525,16 +525,16 @@
       "Vegeta"
     ],
     "high_tech": true,
-    "artwork_native_placement": [
-      0,
-      50,
-      1060,
-      1535.0671785028792
-    ],
-    "artwork_layout_note": "Uniform full-width placement translated down 50 native units to clear title; repeated painted top band fills header background. No zoom or aspect distortion.",
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "artwork_native_placement": {
+      "scale": 0.52,
+      "x": 220,
+      "y": 94
+    },
+    "artwork_layout_note": "Scaled down and raised to show the crossed arms, waist and upper legs.",
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-165-vegeta.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-165-vegeta.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-165-vegeta-eye-crop.png"
   },
   {
     "number": 166,
@@ -670,7 +670,7 @@
     "original_rules": "Printed rules retained in originals/169.jpg; modern wording below.",
     "modern_rules": "Energy attack costing 2 stages. DAMAGE: 1 stage per Personality in play. Raise Gohan to his highest stage. If Videl is your Ally, place the top card of your discard pile at the bottom of your Life Deck.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/169.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-169-gohan-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253120",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/1j66aebe43wg4c44?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -695,16 +695,16 @@
       "Gohan"
     ],
     "high_tech": true,
-    "artwork_native_placement": [
-      0,
-      50,
-      1060,
-      1484.0
-    ],
-    "artwork_layout_note": "Uniform full-width placement translated down 50 native units to clear title; repeated painted top band fills header background. No zoom or aspect distortion.",
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "artwork_native_placement": {
+      "scale": 0.62,
+      "x": 145,
+      "y": -55
+    },
+    "artwork_layout_note": "Scaled down and raised to show both fists and the long red sash; hair intersects the title region as in the source.",
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-169-gohan.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-169-gohan.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-169-gohan-eye-crop.png"
   },
   {
     "number": 170,
@@ -1025,7 +1025,7 @@
     "original_rules": "Printed rules retained in originals/177.jpg; modern wording below.",
     "modern_rules": "Physical attack costing 2 cards banished from the top of your discard pile. DAMAGE: 7 stages.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/177.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253128",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/fqf5814ghtwgs80g?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1050,15 +1050,16 @@
       "Goten"
     ],
     "high_tech": true,
-    "artwork_review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
-    "artwork_native_placement": [
-      0,
-      -100,
-      1060,
-      1484
-    ],
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "artwork_native_placement": {
+      "scale": 0.8,
+      "x": 82,
+      "y": -86
+    },
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-177-goten.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-177-goten.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-eye-crop.png",
+    "artwork_layout_note": "Reduced scale and raised to show the sash and waist; retained open smiling mouth."
   },
   {
     "number": 178,
@@ -1193,7 +1194,7 @@
     "original_rules": "Printed rules retained in originals/181.jpg; modern wording below.",
     "modern_rules": "Energy attack costing 2 stages. DAMAGE: 7 life cards. Discard the top 2 cards of your Life Deck. HIT: Gain 2 stages.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/181.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253132",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/g4puitcjb688g444?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1219,16 +1220,16 @@
     ],
     "high_tech": true,
     "character_identity_note": "Kid Trunks is distinct from Trunks under the Expanded CRD.",
-    "artwork_native_placement": [
-      0,
-      50,
-      1060,
-      1484.0
-    ],
-    "artwork_layout_note": "Uniform full-width placement translated down 50 native units to clear title; repeated painted top band fills header background. No zoom or aspect distortion.",
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "artwork_native_placement": {
+      "scale": 0.6,
+      "x": 185,
+      "y": 65
+    },
+    "artwork_layout_note": "Reduced scale and fitted fists, sash and upper legs.",
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-181-kid-trunks.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-181-kid-trunks.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-eye-crop.png"
   },
   {
     "number": 182,
@@ -1363,7 +1364,7 @@
     "original_rules": "Printed rules retained in originals/185.jpg; modern wording below.",
     "modern_rules": "Physical attack. DAMAGE: 5 stages. If stopped, discard the top 2 cards of your Life Deck. If you declared a Tokui Waza, you may use this power twice per Combat.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/185.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/185.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253136",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/decdlmng6u8g4cw0?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1388,15 +1389,16 @@
       "Maraikoh"
     ],
     "high_tech": true,
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "artwork_native_placement": [
-      0,
-      1.198868991517429,
-      1060,
-      1481.6022620169651
-    ],
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "artwork_native_placement": {
+      "scale": 0.72,
+      "x": 0,
+      "y": -20
+    },
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-185-maraikoh.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-185-maraikoh.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-eye-crop.png",
+    "artwork_layout_note": "Reduced scale and aligned the retained bent-knee pose with the original left-edge crop."
   },
   {
     "number": 186,
@@ -1531,7 +1533,7 @@
     "original_rules": "Printed rules retained in originals/189.jpg; modern wording below.",
     "modern_rules": "Your Freestyle attacks do +2 life cards of damage.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/189.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253140",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/6boisnebetwc4kcc?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1556,16 +1558,16 @@
       "Olibu"
     ],
     "high_tech": true,
-    "artwork_native_placement": [
-      0,
-      0,
-      1060,
-      1536.084452975048
-    ],
-    "artwork_layout_note": "Full-width uniform placement preserves source proportions; excess painted lower background extends below the card canvas.",
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "artwork_native_placement": {
+      "scale": 0.66,
+      "x": 95,
+      "y": 5
+    },
+    "artwork_layout_note": "Reduced scale to show crossed arms and the belt.",
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-189-olibu.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-189-olibu.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-eye-crop.png"
   },
   {
     "number": 190,
@@ -1700,7 +1702,7 @@
     "original_rules": "Printed rules retained in originals/193.jpg; modern wording below.",
     "modern_rules": "Stops a physical attack. If you did not declare a Tokui Waza, search your discard pile for a Martial Arts Styled card and shuffle it into your Life Deck.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/193.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-193-pikkon-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253144",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/mxfor1mjws0o0ogw?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1725,15 +1727,16 @@
       "Pikkon"
     ],
     "high_tech": true,
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "artwork_native_placement": [
-      0,
-      0.0,
-      1060,
-      1484.0
-    ],
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "artwork_native_placement": {
+      "scale": 1.1,
+      "x": -20,
+      "y": -135
+    },
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-193-pikkon.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-193-pikkon.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-193-pikkon-eye-crop.png",
+    "artwork_layout_note": "Raised hat and face to follow the original title crop; restored the small open mouth with a localized patch."
   },
   {
     "number": 194,
@@ -1869,7 +1872,7 @@
     "original_rules": "Printed rules retained in originals/197.jpg; modern wording below.",
     "modern_rules": "Cards in your discard pile cannot be banished.",
     "original_reference": "tools/card-corrections/v3-world-games-151-200/originals/197.jpg",
-    "artwork_asset": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
+    "artwork_asset": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-retained-source.png",
     "reference_page": "https://www.retrotcg.net/games/dragon-ball-z-ccg-tcg/world-games-saga/253148",
     "reference_url": "https://www.retrotcg.net/api/card-image/dragon-ball-z-ccg-tcg/d73c7hscipwkogg0?size=full",
     "release_status": "ready; latest approved supplement integrated; not published",
@@ -1894,15 +1897,16 @@
       "Piccolo"
     ],
     "high_tech": true,
-    "artwork_review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "artwork_native_placement": [
-      0,
-      0.0,
-      1060,
-      1484.0
-    ],
+    "artwork_review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "artwork_native_placement": {
+      "scale": 0.73,
+      "x": 130,
+      "y": 15
+    },
     "artwork_source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-197-piccolo.svg"
+    "retained_native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-197-piccolo.svg",
+    "artwork_background": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-eye-crop.png",
+    "artwork_layout_note": "Reduced scale to show the crossed arms and more of the torso and legs."
   },
   {
     "number": 198,

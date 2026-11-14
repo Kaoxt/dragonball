@@ -1,0 +1,111 @@
+{
+  "number": 169,
+  "id": "world-games-169-gohan",
+  "placement": {
+    "scale": 0.62,
+    "x": 145,
+    "y": -55
+  },
+  "foreground_source_sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
+  "native_source_sha256": "4aaf31493d989471594588c8d260a8c088d20f8aa3f3cbad08a9f11563a159a7",
+  "exports": [
+    {
+      "kind": "image",
+      "path": "payload/public/assets/cards/world-games-169-gohan.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "sha256": "f2fda32dc2bbe3dedf4dee664f93c63eb7e4ba6a62080f789eeda2b4cfc37d3f",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    },
+    {
+      "kind": "downloadImage",
+      "path": "payload/public/assets/cards/downloads/world-games-169-gohan.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "sha256": "babc0fd0573ba91982e972e0f2f2c8acbe16417c239d59a370c10ca811025f1d",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    }
+  ],
+  "native_assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+      "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+      "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-169-gohan-eye-crop.png",
+      "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-169-gohan-eye-crop.png",
+      "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-169-gohan-eye-crop.png",
+      "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+      "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "review": "Scaled down and raised to show both fists and the long red sash; hair intersects the title region as in the source.",
+  "source_native_sha256": "9d8de65e577e89dfbccdcda1430c737aaf9a60cfbb901d4ed94729acdc2840c6",
+  "original_source_sha256": "441f3191ab9a329b9f2d33a843fc1851075772ef7697cfd6bbc6b82e7a18ae9d",
+  "unchanged_native_groups": [
+    "power-stage-gap-overlays",
+    "power-stages-v3",
+    "shared-title-material",
+    "card-title",
+    "level-badge-v3",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "card-category",
+    "pur-brushstroke-horizontal",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem",
+    "footer-rarity",
+    "card-number",
+    "rules-line-1",
+    "power-icon",
+    "rules-line-2",
+    "rules-line-3",
+    "rules-line-4",
+    "rules-line-5"
+  ],
+  "portable_svg": true
+}

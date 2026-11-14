@@ -1,3 +1,15 @@
+## World Games Hi-Tech framing — November 14, 2026
+
+Eight Hi-Tech cards (#165, #169, #177, #181, #185, #189, #193, #197) retain the
+exact supplied self-contained native sources and lossless exports from
+`World-Games-Hi-Tech-Refined-Cards.zip`. Preserve the individually fitted
+foregrounds, painted eye backgrounds and Pikkon's localized open mouth. All
+protected native groups and gameplay fields are unchanged. Goku #173 retains
+the previously published `cc3291d` choice, as required by the package handoff.
+Current metadata is in the 151–200 batch; revision evidence and exact earlier
+snapshots are in `tools/card-corrections/v3-world-games-hi-tech-refined/`.
+Use the retained-native rebuild path and the explicit historical revision helper.
+
 ## Cell Saga Hi-Tech 191–200 — November 14, 2026
 
 The ten user-supplied Level 3 Hi-Tech cards are retained in

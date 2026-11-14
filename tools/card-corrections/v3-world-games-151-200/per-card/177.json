@@ -4,52 +4,23 @@
   "name": "Goten",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-177-goten.svg",
-  "native_source_sha256": "11ca7ad7a3a0fb2ee538ba2606de07edf97335aace577723fd3004020319a99e",
-  "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
-      "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-177-goten-background-portrait.png",
-      "sha256": "ed3022b39db3aee5fdeebe71e4f34c0000a3076beacfda76adab2846928d6fe9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-    }
-  ],
+  "native_source_sha256": "893529992cab84dd8b446e346f0bf498bc06433f9133b00be03c7440e0a86276",
+  "assets": [],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
+    "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+    "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-retained-source.png",
     "source_sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "native_placement": [
-      0,
-      -100,
-      1060,
-      1484
-    ],
-    "review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
-    "supplement_native_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
-    "supplement_render_pixel_match": false,
-    "native_ui_repair": "Restore native footer ink missing from supplied raster; align attack icon by -0.0255 native units."
+    "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-eye-crop.png",
+    "background_sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+    "foreground_placement": {
+      "scale": 0.8,
+      "x": 82,
+      "y": -86
+    },
+    "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "layout_note": "Reduced scale and raised to show the sash and waist; retained open smiling mouth.",
+    "native_source_retained_exactly": true,
+    "native_render_pixel_match": true
   },
   "rules": [
     {
@@ -250,18 +221,18 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-177-goten.webp",
-      "after_sha256": "c75dcb21861691e9a6732208f6014e8d2102a6fd50e1b3286202eed9c5a18433",
+      "after_sha256": "939eceae52f9ac507524a21d86ba4a44ba1e0b697b1930688ba9fd15b488f906",
       "size": [
         1060,
         1484
       ],
       "lossless_round_trip": true,
-      "render_mode": "downsample-native"
+      "render_mode": "downsample-lanczos"
     },
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-177-goten.webp",
-      "after_sha256": "ad552acc46c7755732829eb370026773e1bae2048542c834f670e074047916bc",
+      "after_sha256": "6e9afbb1a3eb642722c8849a2b8ce53c1f9d33958a3853b36984734a5093794a",
       "size": [
         2120,
         2968
@@ -274,8 +245,75 @@
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
     "footer_idempotent": true,
-    "native_export_repairs_verified": true
+    "native_export_repairs_verified": true,
+    "hi_tech_framing": {
+      "protected_groups_unchanged": true,
+      "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+      "date": "2026-11-14"
+    }
   },
   "power_icon": "attack",
-  "rarity_stars": 4
+  "rarity_stars": 4,
+  "embedded_images": [
+    {
+      "id": "grunge-counter-texture",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+      "bytes": 2199819
+    },
+    {
+      "id": "reference-painted-stage-asset",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+      "bytes": 1227451
+    },
+    {
+      "id": "retained-worn-paper-material",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": "shared-charcoal-paint",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "id": "retained-goten-painted-backdrop",
+      "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+      "bytes": 2324014
+    },
+    {
+      "id": "retained-goten-illustration",
+      "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+      "bytes": 2324014
+    },
+    {
+      "id": "world-games-eye-crop-layer",
+      "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+      "bytes": 2465637
+    },
+    {
+      "id": "source-faithful-background-underlay",
+      "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+      "bytes": 2465637
+    },
+    {
+      "id": "source-faithful-background",
+      "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+      "bytes": 2465637
+    },
+    {
+      "id": "retained-character-artwork",
+      "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+      "bytes": 2324014
+    },
+    {
+      "id": null,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": null,
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+      "bytes": 1733649
+    }
+  ]
 }

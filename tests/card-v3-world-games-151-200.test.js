@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
+import {catalog,beforeHiTechHash,beforeHiTechFile} from './helpers/world-games-hi-tech-history.js';
 import {catalog as beforeShenronCatalog} from './helpers/world-games-shenron-history.js';
 import {codeCardIds} from './helpers/pre-cell-hi-tech-catalog.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
@@ -12,7 +12,7 @@ import {encodeDeck,decodeDeck} from '../public/decks/deck-code.js';
 import {powerChart,personalityPower} from '../public/personality-power.js';
 import {isHiTechPersonality,blocksHiTechAlly} from '../public/decks/eligibility.js';
 const base='tools/card-corrections/v3-world-games-151-200/';
-const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
+const read=p=>JSON.parse(beforeHiTechFile(base+p,'utf8'));
 const release=read('release.json'),audit=read('audit.json'),source=read('cards.json');
 const gokuRevision=read('goku-pair-revision.json');
 const gokuHiTechRevision=read('../v3-world-games-173-hi-tech/revision.json');
@@ -20,7 +20,6 @@ const beforeGokuAudit=audit.map(row=>row.number===173?gokuHiTechRevision.before_
 const pending=[];
 const expected=Array.from({length:50},(_,i)=>i+151).filter(n=>!pending.includes(n));
 const cards=catalog.filter(c=>c.set==='World Games Saga'&&Number(c.number)>=151&&Number(c.number)<=200);
-const hash=b=>createHash('sha256').update(b).digest('hex');
 
 test('includes all 50 ready cards with no artwork gaps',()=>{
  assert.deepEqual(cards.map(c=>Number(c.number)),expected);assert.deepEqual(release.numbers,expected);
@@ -37,19 +36,19 @@ test('preserves every earlier catalog field and permanent deck-code index',()=>{
 });
 test('native geometry, assets and both export sizes match their reviewed checksums',()=>{
  for(const row of audit){const c=cards.find(c=>c.id===row.id);assert.ok(c);
-  for(const a of [{path:row.native_source_path,sha256:row.native_source_sha256},...row.assets])assert.equal(hash(fs.readFileSync(a.path)),a.sha256,a.path);
-  assert.equal(hash(fs.readFileSync(row.artwork.source)),row.artwork.source_sha256);
-  const svg=fs.readFileSync(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);assert.ok(!svg.includes('PLACEHOLDER'));
+  for(const a of [{path:row.native_source_path,sha256:row.native_source_sha256},...row.assets])assert.equal(beforeHiTechHash(a.path),a.sha256,a.path);
+  assert.equal(beforeHiTechHash(row.artwork.source),row.artwork.source_sha256);
+  const svg=beforeHiTechFile(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);assert.ok(!svg.includes('PLACEHOLDER'));
   assert.ok(row.rules.length<=5);assert.ok(row.current_preview_revision.footer_idempotent);
   for(const icon of row.native_geometry.icons)assert.ok(Math.abs(icon.center_error)<0.02);
-  for(const e of row.exports){const bytes=fs.readFileSync(e.path);assert.equal(hash(bytes),e.after_sha256,e.path);assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.ok(e.lossless_round_trip);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));assert.deepEqual(e.size,[c.width*(e.field==='image'?1:2),c.height*(e.field==='image'?1:2)]);}
+  for(const e of row.exports){const bytes=fs.readFileSync(e.path);assert.equal(beforeHiTechHash(e.path),e.after_sha256,e.path);assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.ok(e.lossless_round_trip);assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));assert.deepEqual(e.size,[c.width*(e.field==='image'?1:2),c.height*(e.field==='image'?1:2)]);}
  }
 });
 test('all Personality charts run highest-to-zero on cards and zero-to-highest in Arena',()=>{
  for(const c of cards.filter(c=>c.type==='Main Personality')){
   const d=source.find(d=>d.id===c.id),row=audit.find(r=>r.id===c.id);assert.deepEqual(c.powerStages,d.stages);assert.equal(c.powerStages.at(-1),0);assert.ok(c.powerStages.every((v,i,a)=>i===0||a[i-1]>v));assert.deepEqual(powerChart(c),[...c.powerStages].reverse());
   assert.equal(personalityPower({personalities:[c],level:1,stages:0}),0);assert.equal(personalityPower({personalities:[c],level:1,stages:c.powerStages.length-1}),c.powerStages[0]);
-  const svg=fs.readFileSync(row.native_source_path,'utf8');assert.deepEqual([...svg.matchAll(/<(?:\w+:)?g\b[^>]*id="power-stage-\d+"[^>]*data-stage-value="([^"]+)"/g)].map(m=>m[1]),d.stages.map(String));
+  const svg=beforeHiTechFile(row.native_source_path,'utf8');assert.deepEqual([...svg.matchAll(/<(?:\w+:)?g\b[^>]*id="power-stage-\d+"[^>]*data-stage-value="([^"]+)"/g)].map(m=>m[1]),d.stages.map(String));
  }
  assert.equal(cards.find(c=>c.number==='156').senseiDeckSize,7);
  assert.deepEqual([cards.find(c=>c.number==='157').width,cards.find(c=>c.number==='157').height],[1484,1060]);
@@ -57,7 +56,7 @@ test('all Personality charts run highest-to-zero on cards and zero-to-highest in
 test('Hi-Tech cards use full artwork and cannot enter either Ally zone',()=>{
  for(const d of source.filter(c=>c.publish_ready&&c.high_tech)){
   const c=cards.find(c=>c.id===d.id);assert.equal(c.rarity,'Hi-Tech');assert.ok(isHiTechPersonality(c));assert.ok(blocksHiTechAlly(c,'cards'));assert.ok(blocksHiTechAlly(c,'senseiDeck'));assert.ok(!blocksHiTechAlly(c,'personalities'));
-  assert.match(fs.readFileSync(audit.find(r=>r.id===d.id).native_source_path,'utf8'),/data-artwork-treatment="full-bleed-high-tech"/);
+  assert.match(beforeHiTechFile(audit.find(r=>r.id===d.id).native_source_path,'utf8'),/data-artwork-treatment="full-bleed-high-tech"/);
  }
 });
 test('CRD replacements and fixed damage retain their original mechanics',()=>{
@@ -73,7 +72,7 @@ test('CRD replacements and fixed damage retain their original mechanics',()=>{
 test('all ready routes work and pending cards remain unavailable',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,200);
- for(const c of cards){assert.equal(cardFromPath(cardPath(c),catalog),c);const p=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);assert.equal(p.status,200);assert.ok((await p.text()).includes(c.image));}
+ for(const c of cards){assert.equal(cardFromPath(cardPath(c),catalog),c);const p=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);assert.equal(p.status,200);assert.ok((await p.text()).includes(currentCatalog.find(card=>card.id===c.id).image));}
  for(const n of [...pending,201])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
 });
 test('all cards round-trip through deck codes in their appropriate zones',async()=>{
@@ -107,7 +106,7 @@ test('approved standalone cards and Hi-Tech refinements retain their native sour
  for(const n of [...update.new_cards,...update.updated_cards]){
   const d=source.find(c=>c.number===n),row=audit.find(c=>c.number===n);
   assert.ok(d.publish_ready);assert.equal(d.retained_native_source_path,row.native_source_path);
-  assert.ok(row.artwork.supplement_render_pixel_match || row.current_preview_revision.native_export_repairs_verified);assert.equal(row.artwork.source_sha256,hash(fs.readFileSync(row.artwork.source)));
+  assert.ok(row.artwork.supplement_render_pixel_match || row.current_preview_revision.native_export_repairs_verified);assert.equal(row.artwork.source_sha256,beforeHiTechHash(row.artwork.source));
  }
  assert.equal(cards.find(c=>c.number==='177').rarity,'Hi-Tech');
  assert.equal(cards.find(c=>c.number==='160').rarity,'Ultra Rare');
@@ -126,7 +125,7 @@ test('Goku 173 retains the approved Hi-Tech revision and existing gameplay ident
  assert.equal(d.artwork_asset,row.artwork.source);
  assert.deepEqual(d.artwork_foreground_native_placement,[-51,142,1200,800]);
  assert.ok(gokuHiTechRevision.embedded_sources_match_retained_pngs);
- assert.equal(row.artwork.background_sha256,hash(fs.readFileSync(row.artwork.background_source)));
+ assert.equal(row.artwork.background_sha256,beforeHiTechHash(row.artwork.background_source));
  const checks=read('../v3-world-games-173-hi-tech/render-validation.json');
  assert.equal(checks.length,2);
  for(const check of checks){assert.ok(check.native_render_pixel_match);assert.ok(check.supplied_png_pixel_match);}

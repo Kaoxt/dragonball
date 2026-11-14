@@ -1,0 +1,142 @@
+{
+  "number": 193,
+  "id": "world-games-193-pikkon",
+  "placement": {
+    "scale": 1.1,
+    "x": -20,
+    "y": -135
+  },
+  "foreground_source_sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800",
+  "native_source_sha256": "fad5e1795777f7a6375c69da2a6661be6352f1e5b72f87237decb571a8c8151e",
+  "exports": [
+    {
+      "kind": "image",
+      "path": "payload/public/assets/cards/world-games-193-pikkon.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "sha256": "afa019eaf6d7cc1f42ddb76365e06e8ff98cae0cc3361e48d3aa15e4c98750e1",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    },
+    {
+      "kind": "downloadImage",
+      "path": "payload/public/assets/cards/downloads/world-games-193-pikkon.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "sha256": "deabd3f06962ed67d57f20cfeb86fcc62557d56eec6072799ea1be2b08615751",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    }
+  ],
+  "native_assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+      "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-193-pikkon-eye-crop.png",
+      "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-193-pikkon-eye-crop.png",
+      "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-193-pikkon-eye-crop.png",
+      "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+      "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/framing/193-mouth-expression.png",
+      "sha256": "ddddf647800f3b4c762c7327291492b375b23cefc38cb0e85ac49575b604f2d8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "review": "Raised hat and face to follow the original title crop; restored the small open mouth with a localized patch.",
+  "source_native_sha256": "796974811d768496c52c7262a19d4adc9ac0881fd67646f35efab8b8a6c90564",
+  "original_source_sha256": "dc504b629bf43233ca82d3cee479548d44268a8d0e64c8b06c0fbc448897208d",
+  "expression_patch": {
+    "number": 193,
+    "id": "world-games-193-pikkon",
+    "change": "Small open horizontal mouth restored to original reference; gaze, eyes, foreground placement and all other source pixels retained.",
+    "generated_patch": "tools/card-corrections/v3-world-games-151-200/artwork/framing/193-mouth-expression.png",
+    "generated_patch_sha256": "ddddf647800f3b4c762c7327291492b375b23cefc38cb0e85ac49575b604f2d8",
+    "native_source_sha256": "796974811d768496c52c7262a19d4adc9ac0881fd67646f35efab8b8a6c90564",
+    "exports": [
+      {
+        "kind": "image",
+        "file": "public/assets/cards/world-games-193-pikkon.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "afa019eaf6d7cc1f42ddb76365e06e8ff98cae0cc3361e48d3aa15e4c98750e1",
+        "outside_mouth_patch_changed_pixels": 0,
+        "lossless_pixel_equality": true
+      },
+      {
+        "kind": "downloadImage",
+        "file": "public/assets/cards/downloads/world-games-193-pikkon.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "deabd3f06962ed67d57f20cfeb86fcc62557d56eec6072799ea1be2b08615751",
+        "outside_mouth_patch_changed_pixels": 0,
+        "lossless_pixel_equality": true
+      }
+    ]
+  },
+  "unchanged_native_groups": [
+    "power-stage-gap-overlays",
+    "power-stages-v3",
+    "shared-title-material",
+    "card-title",
+    "level-badge-v3",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "card-category",
+    "pur-brushstroke-horizontal",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem",
+    "footer-rarity",
+    "card-number",
+    "rules-line-1",
+    "power-icon",
+    "rules-line-2",
+    "rules-line-3",
+    "rules-line-4"
+  ],
+  "portable_svg": true
+}

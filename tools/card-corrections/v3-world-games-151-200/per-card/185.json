@@ -4,51 +4,23 @@
   "name": "Maraikoh",
   "family": "VILLAIN PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-185-maraikoh.svg",
-  "native_source_sha256": "e3761fa2652d1a4f4d1db7d19d950b5916434d31d615664283ce114914de5526",
-  "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/185.png",
-      "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-185-maraikoh-background-portrait.png",
-      "sha256": "6c641ba94933e6ea4e40a228c20447f2edcff79605968009df683e73d10327f5"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-    }
-  ],
+  "native_source_sha256": "602115d2365703b4f70ebb1a094619d62334b293ff64db664e39c394c443fff9",
+  "assets": [],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/185.png",
+    "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+    "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-retained-source.png",
     "source_sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "native_placement": [
-      0,
-      1.198868991517429,
-      1060,
-      1481.6022620169651
-    ],
-    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "supplement_native_sha256": "5c679416a1735461d3a640f3b01b4a12b74db7fa9307d5c9ee7f3b30feeba341",
-    "supplement_render_pixel_match": true
+    "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-eye-crop.png",
+    "background_sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+    "foreground_placement": {
+      "scale": 0.72,
+      "x": 0,
+      "y": -20
+    },
+    "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "layout_note": "Reduced scale and aligned the retained bent-knee pose with the original left-edge crop.",
+    "native_source_retained_exactly": true,
+    "native_render_pixel_match": true
   },
   "rules": [
     {
@@ -260,18 +232,18 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-185-maraikoh.webp",
-      "after_sha256": "554810f6e33889becb7f4fd7dfb565d65cbc7a6abb1181b934c38d65b7683fb8",
+      "after_sha256": "dbc74597d5e3432ea6aa42d70af658ec3bbe13d187bf04f322cb7006503be33f",
       "size": [
         1060,
         1484
       ],
       "lossless_round_trip": true,
-      "render_mode": "downsample-native"
+      "render_mode": "downsample-lanczos"
     },
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-185-maraikoh.webp",
-      "after_sha256": "6d1243b58cd7c083ead091df9cc983ea22989bea0419a15afb05f6fe537eabf7",
+      "after_sha256": "2320c2c8dc16080ed9bcc5b1f522c7ccbad03fe5f31c75e381ebc70a62b8976f",
       "size": [
         2120,
         2968
@@ -283,8 +255,70 @@
   "tokui_waza_backing": null,
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "hi_tech_framing": {
+      "protected_groups_unchanged": true,
+      "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+      "date": "2026-11-14"
+    }
   },
   "power_icon": "attack",
-  "rarity_stars": 4
+  "rarity_stars": 4,
+  "embedded_images": [
+    {
+      "id": "grunge-counter-texture",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+      "bytes": 2199819
+    },
+    {
+      "id": "reference-painted-stage-asset",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+      "bytes": 1227451
+    },
+    {
+      "id": "retained-worn-paper-material",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": "shared-charcoal-paint",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "id": "card-illustration",
+      "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
+      "bytes": 2545472
+    },
+    {
+      "id": "world-games-eye-crop-layer",
+      "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+      "bytes": 2939523
+    },
+    {
+      "id": "source-faithful-background-underlay",
+      "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+      "bytes": 2939523
+    },
+    {
+      "id": "source-faithful-background",
+      "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+      "bytes": 2939523
+    },
+    {
+      "id": "retained-character-artwork",
+      "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
+      "bytes": 2545472
+    },
+    {
+      "id": null,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": null,
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+      "bytes": 1733649
+    }
+  ]
 }

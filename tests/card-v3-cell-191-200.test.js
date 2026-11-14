@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
+import {catalog as beforeWorldGamesRefinement} from './helpers/world-games-hi-tech-history.js';
 import {codeCardIds} from '../public/decks/code-card-ids.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
@@ -25,7 +26,7 @@ const stages=[descending(3200000,200000,12),descending(3800000,200000,11),
 test('adds exactly the ten Cell Hi-Tech cards while preserving every previous record and deck index',()=>{
  assert.deepEqual(cards,expected);
  assert.deepEqual(cards.map(c=>Number(c.number)),Array.from({length:10},(_,i)=>191+i));
- const old=catalog.filter(c=>!added.has(c.id));
+ const old=beforeWorldGamesRefinement.filter(c=>!added.has(c.id));
  assert.equal(old.length,release.baseline_catalog_count);
  assert.equal(hash(JSON.stringify(old)),release.baseline_catalog_canonical_sha256);
  const previous=read('baseline-code-card-ids.json');

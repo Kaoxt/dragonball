@@ -1,0 +1,28 @@
+{
+  "source_archive_version": 3,
+  "source_archive_sha256": "2c32c97354bf4651b789e137d2f77aa359071b90e154a3338b8634f937ab02dd",
+  "intervening_change": "Only Goku artwork, exports, metadata and related documentation changed from revision 2. Eight other cards were byte-identical.",
+  "resolution": "Applied the requested eight framing/background corrections; preserved current Goku as-is and retained the earlier selected Super Saiyan variation under alternates.",
+  "goku_current_files_preserved": [
+    {
+      "path": "payload/tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg",
+      "sha256": "67ff959bb003baabfb18fa3a025575a6c6dd58e8a28f4b60e8ec15e48478f916"
+    },
+    {
+      "path": "payload/public/assets/cards/world-games-173-goku.webp",
+      "sha256": "61b609df6a1c4fc74253d9c1dcd12d354baade32ad0e364ad8bfaf667f55e864"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-173-goku.webp",
+      "sha256": "379950dc1af3e2b6cd1626d20a18142305a3c911f71a75d096184cc98681bfcc"
+    },
+    {
+      "path": "png/world-games-173-goku.png",
+      "sha256": "2773d3fd6161d73fc986dcd0e759cb267eec67b03c7009ac8bbaf0fd441c8a58"
+    },
+    {
+      "path": "previews/world-games-173-goku.png",
+      "sha256": "0e956c2a18d1670c1681e18cbf807f0cb365dc7adfdadeb5ba1fed1d56c4c781"
+    }
+  ]
+}

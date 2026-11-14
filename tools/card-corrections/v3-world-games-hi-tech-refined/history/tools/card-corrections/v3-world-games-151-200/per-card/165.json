@@ -1,0 +1,266 @@
+{
+  "number": 165,
+  "id": "world-games-165-vegeta",
+  "name": "Vegeta",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-165-vegeta.svg",
+  "native_source_sha256": "4e2fbdc98d6a0b68433ffdd196c022622f084585ba7dc5b351f62c7ca9b63225",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+      "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-165-vegeta-background-portrait.png",
+      "sha256": "7b37beee88f1667ef4b9bf5f5b9af49d8fa383595ec0b2a66bf8b8ec2eb68bc0"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+    "source_sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      50,
+      1060,
+      1535.0671785028792
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "1db6ac6eb0a9f796c16db44359a400bb0baa0afb931ed6226812eb3842bcfab2",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Your Vegeta Named cards with \"Banish",
+      "baseline": 1049.3,
+      "width": 759.38475,
+      "icon_inline": true
+    },
+    {
+      "text": "after use\" instead have \"Discard after use\".",
+      "baseline": 1108.3,
+      "width": 777.0420000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        865.478,
+        160.009,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-1": [
+        874.445,
+        224.691,
+        156.555,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.008,
+        289.373,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-3": [
+        894.339,
+        354.054,
+        136.661,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.39,
+        418.736,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.183,
+        483.418,
+        138.817,
+        38.269
+      ],
+      "power-stage-value-6": [
+        892.722,
+        548.1,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-7": [
+        894.633,
+        612.782,
+        136.367,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.684,
+        677.463,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        425.484,
+        45.9196,
+        208.032,
+        66.1608
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.246,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.046,
+        1392.65,
+        60.208,
+        33.708
+      ],
+      "rules-line-1": [
+        217.41,
+        1013.53,
+        690.949,
+        45.913
+      ],
+      "power-icon": [
+        150.641,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        142.326,
+        1072.53,
+        774.347,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          150.641,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          217.41,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          150.641,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-165-vegeta.webp",
+      "after_sha256": "1334a76304986ae7c1731c34fa3863168af2ed412671e0be373a069ee8d894a2",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-165-vegeta.webp",
+      "after_sha256": "6e4952e1b74bb89573603e1493b0ad44e8f6c7f606b89808226844c5b9c1437d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

@@ -1,0 +1,109 @@
+{
+  "number": 181,
+  "id": "world-games-181-kid-trunks",
+  "placement": {
+    "scale": 0.6,
+    "x": 185,
+    "y": 65
+  },
+  "foreground_source_sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+  "native_source_sha256": "b971907317eab70eb8098768acbd7d8afcfe960b57729aeb5be43b146104bc6a",
+  "exports": [
+    {
+      "kind": "image",
+      "path": "payload/public/assets/cards/world-games-181-kid-trunks.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "sha256": "a1a496fb408853b218ccdd31c27b8fd64b47361d9677da266f1b046a08c3fd69",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    },
+    {
+      "kind": "downloadImage",
+      "path": "payload/public/assets/cards/downloads/world-games-181-kid-trunks.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "sha256": "56d98b8837626ed19a0ec0167ad33ff958104f5fbf7e2bc48f6bf55aa6956c31",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    }
+  ],
+  "native_assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-181-kid-trunks-eye-crop.png",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-181-kid-trunks-eye-crop.png",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-181-kid-trunks-eye-crop.png",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "review": "Reduced scale and fitted fists, sash and upper legs.",
+  "source_native_sha256": "04bbe80180259e398cf6ed881dc13b7f7f089901be50e690c0a012353a4c1cfd",
+  "original_source_sha256": "9f46de19c1e77d7ca5fa5eb76b87dcb763b9a67815ba99ce82ab25804939f2ee",
+  "unchanged_native_groups": [
+    "power-stage-gap-overlays",
+    "power-stages-v3",
+    "shared-title-material",
+    "card-title",
+    "level-badge-v3",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "card-category",
+    "pur-brushstroke-horizontal",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem",
+    "footer-rarity",
+    "card-number",
+    "rules-line-1",
+    "power-icon",
+    "rules-line-2",
+    "rules-line-3"
+  ],
+  "portable_svg": true
+}

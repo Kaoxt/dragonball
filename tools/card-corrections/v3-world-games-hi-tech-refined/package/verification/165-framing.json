@@ -1,0 +1,108 @@
+{
+  "number": 165,
+  "id": "world-games-165-vegeta",
+  "placement": {
+    "scale": 0.52,
+    "x": 220,
+    "y": 94
+  },
+  "foreground_source_sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
+  "native_source_sha256": "07021b200d3c7c889f9cb032fdea5f934f320b822f515f737a1f0f4aacc3a9bd",
+  "exports": [
+    {
+      "kind": "image",
+      "path": "payload/public/assets/cards/world-games-165-vegeta.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "sha256": "d2e4af9d573f8ac7334b62f78d42dd26de02656dd110bc145d41e5e059ba05e6",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    },
+    {
+      "kind": "downloadImage",
+      "path": "payload/public/assets/cards/downloads/world-games-165-vegeta.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "sha256": "e2b781d1b5c52b42fa77d2ace85dafca01985402a686b467c0255659817386a2",
+      "lossless_png_equality": true,
+      "outside_artwork_changed_pixels": 0
+    }
+  ],
+  "native_assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+      "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+      "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-165-vegeta-eye-crop.png",
+      "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-165-vegeta-eye-crop.png",
+      "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/eye-crop-backgrounds/world-games-165-vegeta-eye-crop.png",
+      "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+      "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "review": "Scaled down and raised to show the crossed arms, waist and upper legs.",
+  "source_native_sha256": "4a549c396254c7c185b18e638528dc45d66d466d79ebbb8881577bd978af9952",
+  "original_source_sha256": "ee4aee2dabaa03bf10658fc467644bfcc9a48fc93c1a50afa83ac6606b07b9e2",
+  "unchanged_native_groups": [
+    "power-stage-gap-overlays",
+    "power-stages-v3",
+    "shared-title-material",
+    "card-title",
+    "level-badge-v3",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "card-category",
+    "pur-brushstroke-horizontal",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem",
+    "footer-rarity",
+    "card-number",
+    "rules-line-1",
+    "power-icon",
+    "rules-line-2"
+  ],
+  "portable_svg": true
+}

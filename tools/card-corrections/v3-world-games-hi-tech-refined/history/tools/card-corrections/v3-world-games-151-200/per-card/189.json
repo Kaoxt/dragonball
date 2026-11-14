@@ -1,0 +1,270 @@
+{
+  "number": 189,
+  "id": "world-games-189-olibu",
+  "name": "Olibu",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-189-olibu.svg",
+  "native_source_sha256": "fdc75c531125c5a3c4ececcc856c9e8de1fef5613fe76326f6eb7cbc7c5c62a4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
+      "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d.png",
+      "sha256": "8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-189-olibu-background-portrait.png",
+      "sha256": "15c9f4f6480f62ea7a83f81210d7241edda9b1c097658ee876c7725953f82faa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
+    "source_sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      0,
+      1060,
+      1536.084452975048
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "2014dc62c38a0041216d8e699044341a39b03193e9808c7262c0bdf3295773b6",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Your Freestyle attacks",
+      "baseline": 1049.3,
+      "width": 469.54975,
+      "icon_inline": true
+    },
+    {
+      "text": "do +2 life cards of damage.",
+      "baseline": 1108.3,
+      "width": 482.06200000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.008,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        863.616,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.694,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        865.478,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        871.603,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.39,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.036,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.684,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        456.155,
+        50.2213,
+        146.69,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.22,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.019,
+        1392.65,
+        60.261,
+        33.708
+      ],
+      "rules-line-1": [
+        361.911,
+        1015.0,
+        401.947,
+        44.051
+      ],
+      "power-icon": [
+        295.142,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        290.012,
+        1072.53,
+        478.975,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          295.142,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          361.911,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          295.142,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-189-olibu.webp",
+      "after_sha256": "6213e9b99ff6df8f22d67b2bafba2811300181d4a6984b2879c818819aa5c782",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-189-olibu.webp",
+      "after_sha256": "44fc02c260cea681d096d6d93b31906dd0035c13b7d425da71b47203577c0021",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

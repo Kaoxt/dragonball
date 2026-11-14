@@ -1,0 +1,65 @@
+WORLD GAMES SAGA — CODEX HI-TECH FRAMING HANDOFF
+November 14, 2026. Prepared files only; NOT PUBLISHED.
+
+Integrate the eight framing corrections and retain the current Goku choice among these nine supplied Hi-Tech cards to the existing Dragon Ball OCG project:
+165 Vegeta, 169 Gohan, 173 Goku, 177 Goten, 181 Kid Trunks,
+185 Maraikoh, 189 Olibu, 193 Pikkon, 197 Piccolo.
+
+CURRENT RESULT
+Vegeta and Gohan have been reduced and repositioned against the original Score
+references so their arms, torsos and clothing fit the card. Six other foregrounds
+were individually fitted. The eight retain the latest World Games painted
+backgrounds with a large cropped eye portrait. The retained source illustrations
+were clipped and transformed uniformly, preserving their color and linework.
+Pikkon's small open mouth is a localized expression correction.
+Goku #173 is retained byte-for-byte from the newer saved archive revision 3:
+base-form Goku with halo and staff, cleaned up against the original source.
+That intervening Goku change is preserved. Your selected Super Saiyan crossed-arms
+version is also included in alternates/Goku-173-Selected-Super-Saiyan/.
+Goku was not part of this framing correction. Preserve any newer destination
+choice; do not switch Goku variants automatically. The current archive version
+and the selected alternate are both intact for an explicit later choice.
+
+CONTENTS
+payload/: nine native SVG sources and eighteen lossless WebP exports.
+SVGs embed their raster artwork, so no artwork links are missing.
+Native text/frame elements remain editable; character drawings are raster art.
+png/: nine 2120 x 2968 PNGs. previews/: nine 1060 x 1484 PNGs.
+artwork/: retained sources, current backgrounds and the localized mouth patch.
+references/: original Score scans and selected Goku reference.
+verification/: per-card source, placement, SHA and protected-layout checks.
+card-records.json: reference metadata for these nine cards, NOT a full catalog.
+integration-assets.json: new asset hashes and known earlier hashes.
+manifest.json and verify_manifest.py: integrity checks for this entire bundle.
+Two JPEG previews show the nine cards and Vegeta/Gohan before and after.
+
+CODEX INTEGRATION
+1. Read current repository AGENTS.md and existing storage/publishing workflow.
+2. Extract this ZIP and run: python3 verify_manifest.py
+3. Review the source comparison and nine-card preview. This is the current
+   supplement over earlier Hi-Tech files. Preserve newer unrelated changes.
+4. Copy the eight corrected matching files under payload/ into the same repository
+   paths. For Goku, preserve the destination choice and review the two supplied
+   variants; do not overwrite a newer version automatically.
+   Use the current project's asset storage workflow if binaries live externally.
+   Review destination differences against integration-assets.json before replacing.
+5. Update only the changed cards' catalog image/downloadImage asset versions.
+   Do not overwrite the entire catalog with card-records.json. Preserve IDs,
+   rules, power stages, deck-code order and all other cards. If Goten #177 is
+   missing, integrate deliberately without shifting existing deck-code positions.
+6. Retain these SVGs as authoritative sources for future rebuilds. Do not apply
+   generic crop-to-fill, stretching, background face changes or automatic zoom.
+   Preserve the destination's newer Goku choice. Keep Regular free of baked foil;
+   Foil uses the existing site's dynamic effect.
+7. Run the project's relevant asset/catalog/source tests and inspect all nine at
+   display and download size. Publishing/live verification was not done here.
+   When deployment is requested, follow the repo workflow and check live cards.
+
+VERIFICATION
+Both sizes are lossless and match their supplied PNGs. For the eight framing
+changes, there are zero changed pixels outside the artwork window (including a
+4-pixel antialias allowance) versus the latest background revision. Protected
+native layout groups are unchanged. Goku's SVG and both WebPs are byte-identical
+to current archive revision 3; the selected Super Saiyan variant is retained
+byte-identically under alternates/. Source pose and expression checks are visual;
+the modern illustrations are not claimed to be exact redraws of Score scans.

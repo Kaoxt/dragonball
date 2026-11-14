@@ -3906,51 +3906,23 @@
     "name": "Vegeta",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-165-vegeta.svg",
-    "native_source_sha256": "4e2fbdc98d6a0b68433ffdd196c022622f084585ba7dc5b351f62c7ca9b63225",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
-        "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-165-vegeta-background-portrait.png",
-        "sha256": "7b37beee88f1667ef4b9bf5f5b9af49d8fa383595ec0b2a66bf8b8ec2eb68bc0"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "07021b200d3c7c889f9cb032fdea5f934f320b822f515f737a1f0f4aacc3a9bd",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/165.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-165-vegeta-retained-source.png",
       "source_sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        50,
-        1060,
-        1535.0671785028792
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "1db6ac6eb0a9f796c16db44359a400bb0baa0afb931ed6226812eb3842bcfab2",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-165-vegeta-eye-crop.png",
+      "background_sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c",
+      "foreground_placement": {
+        "scale": 0.52,
+        "x": 220,
+        "y": 94
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Scaled down and raised to show the crossed arms, waist and upper legs.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -4138,18 +4110,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-165-vegeta.webp",
-        "after_sha256": "1334a76304986ae7c1731c34fa3863168af2ed412671e0be373a069ee8d894a2",
+        "after_sha256": "d2e4af9d573f8ac7334b62f78d42dd26de02656dd110bc145d41e5e059ba05e6",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-165-vegeta.webp",
-        "after_sha256": "6e4952e1b74bb89573603e1493b0ad44e8f6c7f606b89808226844c5b9c1437d",
+        "after_sha256": "e2b781d1b5c52b42fa77d2ace85dafca01985402a686b467c0255659817386a2",
         "size": [
           2120,
           2968
@@ -4161,10 +4133,77 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "constant",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "full-bleed-top-band",
+        "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
+        "bytes": 2166255
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
+        "bytes": 2166255
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c",
+        "bytes": 2537303
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c",
+        "bytes": 2537303
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "1df8fae7888ad43ea0fdac4198d55ddf0d49a69744a6b60d2f71fdf1bb94089c",
+        "bytes": 2537303
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "46e32d5b50e5e3c962fd73e6d4bf488d11d73ede59efe6c79aadcff900226959",
+        "bytes": 2166255
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 166,
@@ -5117,51 +5156,23 @@
     "name": "Gohan",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-169-gohan.svg",
-    "native_source_sha256": "c50b261f246181fc077887e54ae62a230292c88dfc84f82fb93e353c34612020",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
-        "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-169-gohan-background-portrait.png",
-        "sha256": "5351d182ced395b7800dcff8f320259498f4e4fec7d3716339da128749205de4"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "4aaf31493d989471594588c8d260a8c088d20f8aa3f3cbad08a9f11563a159a7",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-169-gohan-retained-source.png",
       "source_sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        50,
-        1060,
-        1484.0
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "7ed6d591c189f3db2dd63e9958ce6657eabbcba233c0232534f4d5208c148da4",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-169-gohan-eye-crop.png",
+      "background_sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724",
+      "foreground_placement": {
+        "scale": 0.62,
+        "x": 145,
+        "y": -55
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Scaled down and raised to show both fists and the long red sash; hair intersects the title region as in the source.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -5385,18 +5396,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-169-gohan.webp",
-        "after_sha256": "56d993076d62532931f165b488696557b4d4c57a4eb58feaede3f972f954ae2d",
+        "after_sha256": "f2fda32dc2bbe3dedf4dee664f93c63eb7e4ba6a62080f789eeda2b4cfc37d3f",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-169-gohan.webp",
-        "after_sha256": "fbb2cac713f1641a84efac7bab0dc4cc5b418a7ad6a85a694d2c949131e7fec3",
+        "after_sha256": "babc0fd0573ba91982e972e0f2f2c8acbe16417c239d59a370c10ca811025f1d",
         "size": [
           2120,
           2968
@@ -5408,10 +5419,77 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "attack",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "full-bleed-top-band",
+        "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
+        "bytes": 2326140
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
+        "bytes": 2326140
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724",
+        "bytes": 2693989
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724",
+        "bytes": 2693989
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "835db5e2f30dd52e34f52d183ce20cc6d1dd825169a78abbd4aceb54e6897724",
+        "bytes": 2693989
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
+        "bytes": 2326140
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 170,
@@ -7551,52 +7629,23 @@
     "name": "Goten",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-177-goten.svg",
-    "native_source_sha256": "11ca7ad7a3a0fb2ee538ba2606de07edf97335aace577723fd3004020319a99e",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
-        "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-177-goten-background-portrait.png",
-        "sha256": "ed3022b39db3aee5fdeebe71e4f34c0000a3076beacfda76adab2846928d6fe9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "893529992cab84dd8b446e346f0bf498bc06433f9133b00be03c7440e0a86276",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-retained-source.png",
       "source_sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        -100,
-        1060,
-        1484
-      ],
-      "review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
-      "supplement_native_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
-      "supplement_render_pixel_match": false,
-      "native_ui_repair": "Restore native footer ink missing from supplied raster; align attack icon by -0.0255 native units."
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-177-goten-eye-crop.png",
+      "background_sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+      "foreground_placement": {
+        "scale": 0.8,
+        "x": 82,
+        "y": -86
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Reduced scale and raised to show the sash and waist; retained open smiling mouth.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -7797,18 +7846,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-177-goten.webp",
-        "after_sha256": "c75dcb21861691e9a6732208f6014e8d2102a6fd50e1b3286202eed9c5a18433",
+        "after_sha256": "939eceae52f9ac507524a21d86ba4a44ba1e0b697b1930688ba9fd15b488f906",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-177-goten.webp",
-        "after_sha256": "ad552acc46c7755732829eb370026773e1bae2048542c834f670e074047916bc",
+        "after_sha256": "6e9afbb1a3eb642722c8849a2b8ce53c1f9d33958a3853b36984734a5093794a",
         "size": [
           2120,
           2968
@@ -7821,10 +7870,77 @@
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
       "footer_idempotent": true,
-      "native_export_repairs_verified": true
+      "native_export_repairs_verified": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "attack",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "retained-goten-painted-backdrop",
+        "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+        "bytes": 2324014
+      },
+      {
+        "id": "retained-goten-illustration",
+        "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+        "bytes": 2324014
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+        "bytes": 2465637
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+        "bytes": 2465637
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "5a45c39f0121b07822f8164ac1671c327dbd662ff1b12d4a86bea45b5cf509d0",
+        "bytes": 2465637
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+        "bytes": 2324014
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 178,
@@ -8747,51 +8863,23 @@
     "name": "Kid Trunks",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-181-kid-trunks.svg",
-    "native_source_sha256": "89bafa1f7ce70d642ce99e04a40b7ceec1b37ea6e7bea295bd2473c6fa49121b",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
-        "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-181-kid-trunks-background-portrait.png",
-        "sha256": "a61214de8a9cc6dd4c7186ee51926a8bd0c6760c49356f9fbb30b6ea8f57075b"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "b971907317eab70eb8098768acbd7d8afcfe960b57729aeb5be43b146104bc6a",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-retained-source.png",
       "source_sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        50,
-        1060,
-        1484.0
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "cb802520a2bae0b24e0a508fcc18cf7e8ce75db1d879a692dd961c3e5522d08f",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-eye-crop.png",
+      "background_sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+      "foreground_placement": {
+        "scale": 0.6,
+        "x": 185,
+        "y": 65
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Reduced scale and fitted fists, sash and upper legs.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -8991,18 +9079,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-181-kid-trunks.webp",
-        "after_sha256": "642f98bcbde4020bef4711f0768c53ae38cd1ad250a8760afe9116e5e62487cf",
+        "after_sha256": "a1a496fb408853b218ccdd31c27b8fd64b47361d9677da266f1b046a08c3fd69",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-181-kid-trunks.webp",
-        "after_sha256": "1dde158d1ec503d5f4750a3c3ddff337a11a14782718017b7b77065c7d114a93",
+        "after_sha256": "56d98b8837626ed19a0ec0167ad33ff958104f5fbf7e2bc48f6bf55aa6956c31",
         "size": [
           2120,
           2968
@@ -9014,10 +9102,77 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "attack",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "full-bleed-top-band",
+        "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+        "bytes": 2193547
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+        "bytes": 2193547
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+        "bytes": 2640594
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+        "bytes": 2640594
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+        "bytes": 2640594
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+        "bytes": 2193547
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 182,
@@ -9970,51 +10125,23 @@
     "name": "Maraikoh",
     "family": "VILLAIN PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-185-maraikoh.svg",
-    "native_source_sha256": "e3761fa2652d1a4f4d1db7d19d950b5916434d31d615664283ce114914de5526",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/185.png",
-        "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-185-maraikoh-background-portrait.png",
-        "sha256": "6c641ba94933e6ea4e40a228c20447f2edcff79605968009df683e73d10327f5"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "602115d2365703b4f70ebb1a094619d62334b293ff64db664e39c394c443fff9",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/185.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-retained-source.png",
       "source_sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        1.198868991517429,
-        1060,
-        1481.6022620169651
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "5c679416a1735461d3a640f3b01b4a12b74db7fa9307d5c9ee7f3b30feeba341",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-185-maraikoh-eye-crop.png",
+      "background_sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+      "foreground_placement": {
+        "scale": 0.72,
+        "x": 0,
+        "y": -20
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Reduced scale and aligned the retained bent-knee pose with the original left-edge crop.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -10226,18 +10353,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-185-maraikoh.webp",
-        "after_sha256": "554810f6e33889becb7f4fd7dfb565d65cbc7a6abb1181b934c38d65b7683fb8",
+        "after_sha256": "dbc74597d5e3432ea6aa42d70af658ec3bbe13d187bf04f322cb7006503be33f",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-185-maraikoh.webp",
-        "after_sha256": "6d1243b58cd7c083ead091df9cc983ea22989bea0419a15afb05f6fe537eabf7",
+        "after_sha256": "2320c2c8dc16080ed9bcc5b1f522c7ccbad03fe5f31c75e381ebc70a62b8976f",
         "size": [
           2120,
           2968
@@ -10249,10 +10376,72 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "attack",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
+        "bytes": 2545472
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+        "bytes": 2939523
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+        "bytes": 2939523
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "c1df6baa6615896925987ff3b0a85c8c0807e346ffdde4d86a5acbd2b86dc433",
+        "bytes": 2939523
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "3303bd6b4af4309ed1bac1d0e3f6c2bfa2acb3442fc87c547e63e7a038b93ead",
+        "bytes": 2545472
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 186,
@@ -11193,55 +11382,23 @@
     "name": "Olibu",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-189-olibu.svg",
-    "native_source_sha256": "fdc75c531125c5a3c4ececcc856c9e8de1fef5613fe76326f6eb7cbc7c5c62a4",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
-        "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d.png",
-        "sha256": "8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-189-olibu-background-portrait.png",
-        "sha256": "15c9f4f6480f62ea7a83f81210d7241edda9b1c097658ee876c7725953f82faa"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "4d76c154a05326af24d1212dd89c9c7dc183cd3755c75a01513dd6b8ed845313",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-retained-source.png",
       "source_sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        0,
-        1060,
-        1536.084452975048
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "2014dc62c38a0041216d8e699044341a39b03193e9808c7262c0bdf3295773b6",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-eye-crop.png",
+      "background_sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+      "foreground_placement": {
+        "scale": 0.66,
+        "x": 95,
+        "y": 5
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Reduced scale to show crossed arms and the belt.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -11429,18 +11586,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-189-olibu.webp",
-        "after_sha256": "6213e9b99ff6df8f22d67b2bafba2811300181d4a6984b2879c818819aa5c782",
+        "after_sha256": "4f9274760f33f6b71671ff4a9f7d16e3066e2eaf98e17c7371cd533b45293f61",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-189-olibu.webp",
-        "after_sha256": "44fc02c260cea681d096d6d93b31906dd0035c13b7d425da71b47203577c0021",
+        "after_sha256": "c994b907419ab2019aef7623c7e5dc60aa17d43bd84691308b4d7a15d76f497a",
         "size": [
           2120,
           2968
@@ -11452,10 +11609,77 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "constant",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
+        "bytes": 2606987
+      },
+      {
+        "id": "olibu-background-seam-repair",
+        "sha256": "8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d",
+        "bytes": 2466270
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+        "bytes": 2510499
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+        "bytes": 2510499
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+        "bytes": 2510499
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
+        "bytes": 2606987
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 190,
@@ -12384,51 +12608,28 @@
     "name": "Pikkon",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-193-pikkon.svg",
-    "native_source_sha256": "82a69eb46f4b72b9e1a27eb454bad32e9b6782d2eebc8b6d00605c954115c41d",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
-        "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-193-pikkon-background-portrait.png",
-        "sha256": "55872a80776a7bfa942d0f999861f26e8300f70bd2798c14d6bf6ebaf020c80a"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "fad5e1795777f7a6375c69da2a6661be6352f1e5b72f87237decb571a8c8151e",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-193-pikkon-retained-source.png",
       "source_sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        0.0,
-        1060,
-        1484.0
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "46981f5f380ada0857051940862a809ef4247c2b340a7c27705fe550d38ce97a",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-193-pikkon-eye-crop.png",
+      "background_sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883",
+      "foreground_placement": {
+        "scale": 1.1,
+        "x": -20,
+        "y": -135
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Raised hat and face to follow the original title crop; restored the small open mouth with a localized patch.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true,
+      "localized_correction": {
+        "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/193-mouth-expression.png",
+        "sha256": "ddddf647800f3b4c762c7327291492b375b23cefc38cb0e85ac49575b604f2d8",
+        "description": "Supplied small open-mouth expression correction"
+      }
     },
     "rules": [
       {
@@ -12640,18 +12841,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-193-pikkon.webp",
-        "after_sha256": "b21228fca7ca74a8fdfe7381ba068c4f7194be54fc65676645c2b65dbb16863e",
+        "after_sha256": "afa019eaf6d7cc1f42ddb76365e06e8ff98cae0cc3361e48d3aa15e4c98750e1",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-193-pikkon.webp",
-        "after_sha256": "bf47b59c304e700dedfb2d9d56cf39db63ec569c7deb0885cf857521254844c5",
+        "after_sha256": "deabd3f06962ed67d57f20cfeb86fcc62557d56eec6072799ea1be2b08615751",
         "size": [
           2120,
           2968
@@ -12663,10 +12864,77 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "block",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800",
+        "bytes": 2565808
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883",
+        "bytes": 2428999
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883",
+        "bytes": 2428999
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "16600a378cd57fec97abf4d330f8ed78c6eed4923337dcaddfd03c77f1aae883",
+        "bytes": 2428999
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800",
+        "bytes": 2565808
+      },
+      {
+        "id": "pikkon-original-open-mouth",
+        "sha256": "ddddf647800f3b4c762c7327291492b375b23cefc38cb0e85ac49575b604f2d8",
+        "bytes": 1671878
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 194,
@@ -13595,51 +13863,23 @@
     "name": "Piccolo",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-197-piccolo.svg",
-    "native_source_sha256": "4b0e64c3cf8ba8eb7539c1c30d6cc8452eb7e22da6a60c98f532a3564337681d",
-    "assets": [
-      {
-        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
-        "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7"
-      },
-      {
-        "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-197-piccolo-background-portrait.png",
-        "sha256": "9a5df81c91991963e4873016ede329fa927519d88075f301ab05c080b75d27b8"
-      },
-      {
-        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-      }
-    ],
+    "native_source_sha256": "bc9ab363c3d06660e444f642d19a5089ae338f62bab3615658e16cea5cafb46f",
+    "assets": [],
     "artwork": {
-      "mode": "retained approved standalone source and exports",
-      "source": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
+      "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+      "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-retained-source.png",
       "source_sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
-      "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-      "native_placement": [
-        0,
-        0.0,
-        1060,
-        1484.0
-      ],
-      "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-      "supplement_native_sha256": "18e0d019f95f4e7bfcb42b46a1e5cdb4c213317d412b3fea433f9189a353f502",
-      "supplement_render_pixel_match": true
+      "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-eye-crop.png",
+      "background_sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+      "foreground_placement": {
+        "scale": 0.73,
+        "x": 130,
+        "y": 15
+      },
+      "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+      "layout_note": "Reduced scale to show the crossed arms and more of the torso and legs.",
+      "native_source_retained_exactly": true,
+      "native_render_pixel_match": true
     },
     "rules": [
       {
@@ -13827,18 +14067,18 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-197-piccolo.webp",
-        "after_sha256": "a77f6682e3366f932a9f1e52d04f3de21460187a711508a5cc37f5ca5f3a8002",
+        "after_sha256": "5b4962c1fa771ce60c0dbb030f1b1ab0847160103c657984141f5eec53b9ca1d",
         "size": [
           1060,
           1484
         ],
         "lossless_round_trip": true,
-        "render_mode": "downsample-native"
+        "render_mode": "downsample-lanczos"
       },
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-197-piccolo.webp",
-        "after_sha256": "f6fbd0d941d1e1d91d2add645704314e31e113b2997d5aaf61f3eea5b930106c",
+        "after_sha256": "af59b03190d2eca1ea96074ba269ce67211c869518f28486d74467a18db7c281",
         "size": [
           2120,
           2968
@@ -13850,10 +14090,72 @@
     "tokui_waza_backing": null,
     "current_preview_revision": {
       "retained_supplement_native_ui": true,
-      "footer_idempotent": true
+      "footer_idempotent": true,
+      "hi_tech_framing": {
+        "protected_groups_unchanged": true,
+        "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+        "date": "2026-11-14"
+      }
     },
     "power_icon": "constant",
-    "rarity_stars": 4
+    "rarity_stars": 4,
+    "embedded_images": [
+      {
+        "id": "grunge-counter-texture",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+        "bytes": 2199819
+      },
+      {
+        "id": "reference-painted-stage-asset",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+        "bytes": 1227451
+      },
+      {
+        "id": "retained-worn-paper-material",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": "shared-charcoal-paint",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+        "bytes": 98108
+      },
+      {
+        "id": "card-illustration",
+        "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
+        "bytes": 2578738
+      },
+      {
+        "id": "world-games-eye-crop-layer",
+        "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+        "bytes": 2551066
+      },
+      {
+        "id": "source-faithful-background-underlay",
+        "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+        "bytes": 2551066
+      },
+      {
+        "id": "source-faithful-background",
+        "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+        "bytes": 2551066
+      },
+      {
+        "id": "retained-character-artwork",
+        "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
+        "bytes": 2578738
+      },
+      {
+        "id": null,
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+        "bytes": 2701711
+      },
+      {
+        "id": null,
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+        "bytes": 1733649
+      }
+    ]
   },
   {
     "number": 198,

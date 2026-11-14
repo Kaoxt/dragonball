@@ -4,51 +4,23 @@
   "name": "Kid Trunks",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-181-kid-trunks.svg",
-  "native_source_sha256": "89bafa1f7ce70d642ce99e04a40b7ceec1b37ea6e7bea295bd2473c6fa49121b",
-  "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
-      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-181-kid-trunks-background-portrait.png",
-      "sha256": "a61214de8a9cc6dd4c7186ee51926a8bd0c6760c49356f9fbb30b6ea8f57075b"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-    }
-  ],
+  "native_source_sha256": "b971907317eab70eb8098768acbd7d8afcfe960b57729aeb5be43b146104bc6a",
+  "assets": [],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/181.png",
+    "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+    "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-retained-source.png",
     "source_sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "native_placement": [
-      0,
-      50,
-      1060,
-      1484.0
-    ],
-    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "supplement_native_sha256": "cb802520a2bae0b24e0a508fcc18cf7e8ce75db1d879a692dd961c3e5522d08f",
-    "supplement_render_pixel_match": true
+    "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-181-kid-trunks-eye-crop.png",
+    "background_sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+    "foreground_placement": {
+      "scale": 0.6,
+      "x": 185,
+      "y": 65
+    },
+    "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "layout_note": "Reduced scale and fitted fists, sash and upper legs.",
+    "native_source_retained_exactly": true,
+    "native_render_pixel_match": true
   },
   "rules": [
     {
@@ -248,18 +220,18 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-181-kid-trunks.webp",
-      "after_sha256": "642f98bcbde4020bef4711f0768c53ae38cd1ad250a8760afe9116e5e62487cf",
+      "after_sha256": "a1a496fb408853b218ccdd31c27b8fd64b47361d9677da266f1b046a08c3fd69",
       "size": [
         1060,
         1484
       ],
       "lossless_round_trip": true,
-      "render_mode": "downsample-native"
+      "render_mode": "downsample-lanczos"
     },
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-181-kid-trunks.webp",
-      "after_sha256": "1dde158d1ec503d5f4750a3c3ddff337a11a14782718017b7b77065c7d114a93",
+      "after_sha256": "56d98b8837626ed19a0ec0167ad33ff958104f5fbf7e2bc48f6bf55aa6956c31",
       "size": [
         2120,
         2968
@@ -271,8 +243,75 @@
   "tokui_waza_backing": null,
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "hi_tech_framing": {
+      "protected_groups_unchanged": true,
+      "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+      "date": "2026-11-14"
+    }
   },
   "power_icon": "attack",
-  "rarity_stars": 4
+  "rarity_stars": 4,
+  "embedded_images": [
+    {
+      "id": "grunge-counter-texture",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+      "bytes": 2199819
+    },
+    {
+      "id": "reference-painted-stage-asset",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+      "bytes": 1227451
+    },
+    {
+      "id": "retained-worn-paper-material",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": "shared-charcoal-paint",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "id": "full-bleed-top-band",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+      "bytes": 2193547
+    },
+    {
+      "id": "card-illustration",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+      "bytes": 2193547
+    },
+    {
+      "id": "world-games-eye-crop-layer",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+      "bytes": 2640594
+    },
+    {
+      "id": "source-faithful-background-underlay",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+      "bytes": 2640594
+    },
+    {
+      "id": "source-faithful-background",
+      "sha256": "e1756c61cde553af221416cd7655bac831b1968291c47ff1a6f64cbb7fbaa4f1",
+      "bytes": 2640594
+    },
+    {
+      "id": "retained-character-artwork",
+      "sha256": "609c197230123a5a03e7319617052590367f4012de6eba18b1706d3d80f9265f",
+      "bytes": 2193547
+    },
+    {
+      "id": null,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": null,
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+      "bytes": 1733649
+    }
+  ]
 }

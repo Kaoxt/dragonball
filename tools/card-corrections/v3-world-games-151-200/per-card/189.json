@@ -4,55 +4,23 @@
   "name": "Olibu",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-189-olibu.svg",
-  "native_source_sha256": "fdc75c531125c5a3c4ececcc856c9e8de1fef5613fe76326f6eb7cbc7c5c62a4",
-  "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
-      "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d.png",
-      "sha256": "8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-189-olibu-background-portrait.png",
-      "sha256": "15c9f4f6480f62ea7a83f81210d7241edda9b1c097658ee876c7725953f82faa"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-    }
-  ],
+  "native_source_sha256": "4d76c154a05326af24d1212dd89c9c7dc183cd3755c75a01513dd6b8ed845313",
+  "assets": [],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/189.png",
+    "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+    "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-retained-source.png",
     "source_sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "native_placement": [
-      0,
-      0,
-      1060,
-      1536.084452975048
-    ],
-    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "supplement_native_sha256": "2014dc62c38a0041216d8e699044341a39b03193e9808c7262c0bdf3295773b6",
-    "supplement_render_pixel_match": true
+    "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-189-olibu-eye-crop.png",
+    "background_sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+    "foreground_placement": {
+      "scale": 0.66,
+      "x": 95,
+      "y": 5
+    },
+    "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "layout_note": "Reduced scale to show crossed arms and the belt.",
+    "native_source_retained_exactly": true,
+    "native_render_pixel_match": true
   },
   "rules": [
     {
@@ -240,18 +208,18 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-189-olibu.webp",
-      "after_sha256": "6213e9b99ff6df8f22d67b2bafba2811300181d4a6984b2879c818819aa5c782",
+      "after_sha256": "4f9274760f33f6b71671ff4a9f7d16e3066e2eaf98e17c7371cd533b45293f61",
       "size": [
         1060,
         1484
       ],
       "lossless_round_trip": true,
-      "render_mode": "downsample-native"
+      "render_mode": "downsample-lanczos"
     },
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-189-olibu.webp",
-      "after_sha256": "44fc02c260cea681d096d6d93b31906dd0035c13b7d425da71b47203577c0021",
+      "after_sha256": "c994b907419ab2019aef7623c7e5dc60aa17d43bd84691308b4d7a15d76f497a",
       "size": [
         2120,
         2968
@@ -263,8 +231,75 @@
   "tokui_waza_backing": null,
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "hi_tech_framing": {
+      "protected_groups_unchanged": true,
+      "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+      "date": "2026-11-14"
+    }
   },
   "power_icon": "constant",
-  "rarity_stars": 4
+  "rarity_stars": 4,
+  "embedded_images": [
+    {
+      "id": "grunge-counter-texture",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+      "bytes": 2199819
+    },
+    {
+      "id": "reference-painted-stage-asset",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+      "bytes": 1227451
+    },
+    {
+      "id": "retained-worn-paper-material",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": "shared-charcoal-paint",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "id": "card-illustration",
+      "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
+      "bytes": 2606987
+    },
+    {
+      "id": "olibu-background-seam-repair",
+      "sha256": "8339384f5d604a53ac60276d9a9aca9c7a4aa97064a04c0085910652f5d3256d",
+      "bytes": 2466270
+    },
+    {
+      "id": "world-games-eye-crop-layer",
+      "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+      "bytes": 2510499
+    },
+    {
+      "id": "source-faithful-background-underlay",
+      "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+      "bytes": 2510499
+    },
+    {
+      "id": "source-faithful-background",
+      "sha256": "e2c44245780de562784af1095f9e327d3d3a4a22cb624e472ba95f6ee7b9048f",
+      "bytes": 2510499
+    },
+    {
+      "id": "retained-character-artwork",
+      "sha256": "45bd32ace41ebbfd62c76e4690381c91895c96b662bc7018ebc7e78d247ee40c",
+      "bytes": 2606987
+    },
+    {
+      "id": null,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": null,
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+      "bytes": 1733649
+    }
+  ]
 }

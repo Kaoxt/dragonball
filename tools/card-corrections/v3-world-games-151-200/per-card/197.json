@@ -4,51 +4,23 @@
   "name": "Piccolo",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-197-piccolo.svg",
-  "native_source_sha256": "4b0e64c3cf8ba8eb7539c1c30d6cc8452eb7e22da6a60c98f532a3564337681d",
-  "assets": [
-    {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
-      "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-197-piccolo-background-portrait.png",
-      "sha256": "9a5df81c91991963e4873016ede329fa927519d88075f301ab05c080b75d27b8"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
-    }
-  ],
+  "native_source_sha256": "bc9ab363c3d06660e444f642d19a5089ae338f62bab3615658e16cea5cafb46f",
+  "assets": [],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
+    "mode": "approved source-faithful Hi-Tech framing and painted eye background",
+    "source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-retained-source.png",
     "source_sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
-    "native_placement": [
-      0,
-      0.0,
-      1060,
-      1484.0
-    ],
-    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
-    "supplement_native_sha256": "18e0d019f95f4e7bfcb42b46a1e5cdb4c213317d412b3fea433f9189a353f502",
-    "supplement_render_pixel_match": true
+    "background_source": "tools/card-corrections/v3-world-games-hi-tech-refined/package/artwork/world-games-197-piccolo-eye-crop.png",
+    "background_sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+    "foreground_placement": {
+      "scale": 0.73,
+      "x": 130,
+      "y": 15
+    },
+    "review": "Retained modern illustration fitted against the supplied original Score scan. Native layout, gameplay text and stage values preserved.",
+    "layout_note": "Reduced scale to show the crossed arms and more of the torso and legs.",
+    "native_source_retained_exactly": true,
+    "native_render_pixel_match": true
   },
   "rules": [
     {
@@ -236,18 +208,18 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-197-piccolo.webp",
-      "after_sha256": "a77f6682e3366f932a9f1e52d04f3de21460187a711508a5cc37f5ca5f3a8002",
+      "after_sha256": "5b4962c1fa771ce60c0dbb030f1b1ab0847160103c657984141f5eec53b9ca1d",
       "size": [
         1060,
         1484
       ],
       "lossless_round_trip": true,
-      "render_mode": "downsample-native"
+      "render_mode": "downsample-lanczos"
     },
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-197-piccolo.webp",
-      "after_sha256": "f6fbd0d941d1e1d91d2add645704314e31e113b2997d5aaf61f3eea5b930106c",
+      "after_sha256": "af59b03190d2eca1ea96074ba269ce67211c869518f28486d74467a18db7c281",
       "size": [
         2120,
         2968
@@ -259,8 +231,70 @@
   "tokui_waza_backing": null,
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "hi_tech_framing": {
+      "protected_groups_unchanged": true,
+      "source_package": "World-Games-Hi-Tech-Refined-Cards.zip",
+      "date": "2026-11-14"
+    }
   },
   "power_icon": "constant",
-  "rarity_stars": 4
+  "rarity_stars": 4,
+  "embedded_images": [
+    {
+      "id": "grunge-counter-texture",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245",
+      "bytes": 2199819
+    },
+    {
+      "id": "reference-painted-stage-asset",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9",
+      "bytes": 1227451
+    },
+    {
+      "id": "retained-worn-paper-material",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": "shared-charcoal-paint",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "id": "card-illustration",
+      "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
+      "bytes": 2578738
+    },
+    {
+      "id": "world-games-eye-crop-layer",
+      "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+      "bytes": 2551066
+    },
+    {
+      "id": "source-faithful-background-underlay",
+      "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+      "bytes": 2551066
+    },
+    {
+      "id": "source-faithful-background",
+      "sha256": "6742374039dbe727b2a299f57e97432d1ba3083fc1f5d920083d3072fe5bc103",
+      "bytes": 2551066
+    },
+    {
+      "id": "retained-character-artwork",
+      "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
+      "bytes": 2578738
+    },
+    {
+      "id": null,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "id": null,
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac",
+      "bytes": 1733649
+    }
+  ]
 }
