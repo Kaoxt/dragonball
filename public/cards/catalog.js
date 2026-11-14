@@ -22149,8 +22149,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-165-vegeta.webp?v=1334a7630498",
-    "downloadImage": "/assets/cards/downloads/world-games-165-vegeta.webp?v=6e4952e1b74b"
+    "image": "/assets/cards/world-games-165-vegeta.webp?v=d2e4af9d573f",
+    "downloadImage": "/assets/cards/downloads/world-games-165-vegeta.webp?v=e2b781d1b5c5"
   },
   {
     "id": "world-games-166-gohan-the-great-saiyaman",
@@ -22284,8 +22284,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-169-gohan.webp?v=56d993076d62",
-    "downloadImage": "/assets/cards/downloads/world-games-169-gohan.webp?v=fbb2cac713f1"
+    "image": "/assets/cards/world-games-169-gohan.webp?v=f2fda32dc2bb",
+    "downloadImage": "/assets/cards/downloads/world-games-169-gohan.webp?v=babc0fd0573b"
   },
   {
     "id": "world-games-170-goku-the-warrior",
@@ -22551,8 +22551,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-177-goten.webp?v=c75dcb218616",
-    "downloadImage": "/assets/cards/downloads/world-games-177-goten.webp?v=ad552acc46c7"
+    "image": "/assets/cards/world-games-177-goten.webp?v=939eceae52f9",
+    "downloadImage": "/assets/cards/downloads/world-games-177-goten.webp?v=6e9afbb1a3eb"
   },
   {
     "id": "world-games-178-kid-trunks-the-junior-champion",
@@ -22683,8 +22683,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-181-kid-trunks.webp?v=642f98bcbde4",
-    "downloadImage": "/assets/cards/downloads/world-games-181-kid-trunks.webp?v=1dde158d1ec5"
+    "image": "/assets/cards/world-games-181-kid-trunks.webp?v=a1a496fb4088",
+    "downloadImage": "/assets/cards/downloads/world-games-181-kid-trunks.webp?v=56d98b883762"
   },
   {
     "id": "world-games-182-maraikoh-the-vicious",
@@ -22818,8 +22818,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-185-maraikoh.webp?v=554810f6e338",
-    "downloadImage": "/assets/cards/downloads/world-games-185-maraikoh.webp?v=6d1243b58cd7"
+    "image": "/assets/cards/world-games-185-maraikoh.webp?v=dbc74597d5e3",
+    "downloadImage": "/assets/cards/downloads/world-games-185-maraikoh.webp?v=2320c2c8dc16"
   },
   {
     "id": "world-games-186-olibu-the-mythical-hero",
@@ -22953,8 +22953,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-189-olibu.webp?v=6213e9b99ff6",
-    "downloadImage": "/assets/cards/downloads/world-games-189-olibu.webp?v=44fc02c260ce"
+    "image": "/assets/cards/world-games-189-olibu.webp?v=4f9274760f33",
+    "downloadImage": "/assets/cards/downloads/world-games-189-olibu.webp?v=c994b907419a"
   },
   {
     "id": "world-games-190-pikkon-the-silent",
@@ -23088,8 +23088,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-193-pikkon.webp?v=b21228fca7ca",
-    "downloadImage": "/assets/cards/downloads/world-games-193-pikkon.webp?v=bf47b59c304e"
+    "image": "/assets/cards/world-games-193-pikkon.webp?v=afa019eaf6d7",
+    "downloadImage": "/assets/cards/downloads/world-games-193-pikkon.webp?v=deabd3f06962"
   },
   {
     "id": "world-games-194-piccolo-majunior",
@@ -23223,8 +23223,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-197-piccolo.webp?v=a77f6682e336",
-    "downloadImage": "/assets/cards/downloads/world-games-197-piccolo.webp?v=f6fbd0d941d1"
+    "image": "/assets/cards/world-games-197-piccolo.webp?v=5b4962c1fa77",
+    "downloadImage": "/assets/cards/downloads/world-games-197-piccolo.webp?v=af59b03190d2"
   },
   {
     "id": "world-games-198-videl-the-student",
