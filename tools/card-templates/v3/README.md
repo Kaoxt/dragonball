@@ -1,3 +1,12 @@
+## Goku #173 matching eye background — November 14, 2026
+
+The retained Goku #173 SVG now adds a localized oversized eye-background layer
+behind the unchanged foreground. Preserve its original clip, new gradient masks
+and native-size export method. All original SVG elements and foreground bytes
+remain intact. Evidence and exact earlier snapshots are in
+`../../card-corrections/v3-world-games-173-eye-background/`. This later user
+correction supersedes the preceding release's unchanged-background note.
+
 ## World Games Hi-Tech framing — November 14, 2026
 
 World Games #165, #169, #177, #181, #185, #189, #193 and #197 now use the supplied

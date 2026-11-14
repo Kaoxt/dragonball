@@ -4,7 +4,7 @@
   "name": "Goku",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg",
-  "native_source_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
+  "native_source_sha256": "c4df5be3ce58e36386cbe767be6f224ca7ce1fc0dcd880fc551d9af6f6a1b99b",
   "assets": [
     {
       "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
@@ -13,10 +13,14 @@
     {
       "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
       "sha256": "c26070cef8658af371fead5f0cb8cc2f9dc4f356548bf4ad66b88694c7316009"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-173-eye-background/Goku-173-Eye-Background.png",
+      "sha256": "372ec42ed5f48347d775cf0754369d0f4dba953b9dd772edf4ac5d15b0d6b583"
     }
   ],
   "artwork": {
-    "mode": "retained approved standalone source and exports, November 14 revision 6",
+    "mode": "retained Goku foreground with localized matching Hi-Tech eye-background overlay",
     "source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
     "source_sha256": "5ee10fe92dc3c688f349deb98aa6c0c8ddbca07884f74e64d895bd70f7f94268",
     "background_source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
@@ -33,10 +37,36 @@
       1200,
       800
     ],
-    "review": "Serious expression, asymmetric swept hair, halo and two hands on the straight Power Pole. Continuous set-matched background and tonal portrait; orange gi, peach skin and midnight-indigo clothing blues. Supplied native composition and export bytes retained exactly.",
+    "review": "Existing Goku halo, staff, pose, expression and foreground PNG/placement preserved. The background now matches the other World Games Hi-Tech oversized eye portraits; generated only the isolated background and blended it natively inside the existing art window.",
     "source_drive_file_id": "1xbd2uVqhJsmraX57Bn7dDbE0bKvv_T1B",
     "supplement_native_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
-    "supplement_render_pixel_match": true
+    "supplement_render_pixel_match": true,
+    "eye_background_overlay": {
+      "source": "tools/card-corrections/v3-world-games-173-eye-background/Goku-173-Eye-Background.png",
+      "sha256": "372ec42ed5f48347d775cf0754369d0f4dba953b9dd772edf4ac5d15b0d6b583",
+      "placement": [
+        0,
+        -160,
+        1060,
+        1484
+      ],
+      "clip": [
+        0,
+        146,
+        1060,
+        706
+      ],
+      "allowed_pixel_region": [
+        350,
+        146,
+        710,
+        706
+      ],
+      "mask": "goku-eye-background-mask",
+      "foreground_png_unchanged": true,
+      "foreground_node_unchanged": true,
+      "all_original_native_elements_unchanged": true
+    }
   },
   "rules": [
     {
@@ -236,7 +266,7 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-173-goku.webp",
-      "after_sha256": "330de0f047e8dfd3001c199d3564e473a6e0df15171edc77ea8276f59eb4bfc5",
+      "after_sha256": "727ddb886779b38baaf565fcc181ceee50eea4b72e555216fd190c8d2dd6f2ab",
       "size": [
         1060,
         1484
@@ -247,7 +277,7 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-173-goku.webp",
-      "after_sha256": "281b6b72e51d91d5e72c8533859ee7f94ed3d1bcf510680b56eebcbaa4bf4684",
+      "after_sha256": "bda9a1d0ed028c761c51813a235ec4f0c7974bb581b7534e4970f136ef132de4",
       "size": [
         2120,
         2968
@@ -259,7 +289,13 @@
   "tokui_waza_backing": null,
   "current_preview_revision": {
     "retained_supplement_native_ui": true,
-    "footer_idempotent": true
+    "footer_idempotent": true,
+    "goku_eye_background": {
+      "date": "2026-11-14",
+      "native_ui_unchanged": true,
+      "foreground_unchanged": true,
+      "pixels_outside_background_unchanged": true
+    }
   },
   "power_icon": "block",
   "rarity_stars": 4

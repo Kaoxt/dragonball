@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog,beforeEyeHash,beforeEyeFile} from './helpers/goku-eye-background-history.js';
 import {cardPath,cardFromPath} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -15,7 +15,7 @@ const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
 const release=read('release.json'),rendered=read('render-verification.json'),layout=read('layout-comparison.json');
 const manifest=read('package/manifest.json');
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const fileHash=p=>hash(fs.readFileSync(p));
+const fileHash=p=>beforeEyeHash(p);
 const ids=new Set(release.cards.map(r=>r.id));
 
 test('updates only eight approved Hi-Tech images and preserves every gameplay field and permanent deck index',()=>{
@@ -35,15 +35,15 @@ test('updates only eight approved Hi-Tech images and preserves every gameplay fi
  assert.equal(fileHash('public/personality-power.js'),release.baseline_power_charts_sha256);
 });
 
-test('Goku 173 retains the previously published choice exactly',()=>{
+test('the earlier Hi-Tech release retained its then-current Goku choice exactly',()=>{
  const goku=release.retained_goku;
  assert.ok(!ids.has(goku.catalog.id));assert.deepEqual(catalog.find(c=>c.id===goku.catalog.id),goku.catalog);
  for(const f of goku.files)assert.equal(fileHash(f.path),f.sha256,f.path);
 });
 
 test('native sources and all sixteen exports retain package bytes and independently verified rendering',()=>{
- const audit=JSON.parse(fs.readFileSync('tools/card-corrections/v3-world-games-151-200/audit.json','utf8'));
- const data=JSON.parse(fs.readFileSync('tools/card-corrections/v3-world-games-151-200/cards.json','utf8'));
+ const audit=JSON.parse(beforeEyeFile('tools/card-corrections/v3-world-games-151-200/audit.json','utf8'));
+ const data=JSON.parse(beforeEyeFile('tools/card-corrections/v3-world-games-151-200/cards.json','utf8'));
  for(const r of release.cards){
   const row=audit.find(a=>a.id===r.id),d=data.find(c=>c.id===r.id),check=rendered.find(v=>v.id===r.id);
   assert.deepEqual(row,r.after_audit);assert.equal(d.retained_native_source_path,row.native_source_path);

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-14",
+  "tool": "image_gen",
+  "prompt": "Edit the FIRST image only: this is the standalone blue painted background for Goku's World Games Hi-Tech card. Replace its complete head-and-shoulders Goku portrait with a huge tightly cropped Goku EYE/BROW/HAIR silhouette that matches the visual treatment of the SECOND (Vegeta) and THIRD (Gohan) reference backgrounds. Preserve Goku's own recognizable base-form angular swept hair and eye identity, not Vegeta's widow's peak or Gohan's hair. Use the same cobalt-blue/navy/cyan monochromatic portrait palette and rough blue brush textures with restrained red accents as the first and second images. The background portrait should be so large that only ONE giant eye, heavy brow, portions of swept black/navy hair and upper cheek are visible in the upper-right area; the head extends beyond the top and right edges. No full face, nose tip, mouth, chin, neck or shoulders. No halo, staff, foreground character, lettering, card frame, values, logos or panels. Put the giant eye center roughly at 74% canvas width and 24% canvas height, with the eye spanning approximately x45%-105%, y14%-34%; the portrait fades into continuous diagonal blue painted swirls below about y52%. Keep the left side and lower half as the same sweeping textured blue/cyan/navy painted background. The eye must be high and large enough to remain visible next to a separate foreground Goku on the left and beneath a title bar. This is isolated background artwork for later native SVG composition. Portrait aspect ratio, matching the first image. Opaque background.",
+  "references": [
+    "Goku-173-Continuous-Background.png",
+    "world-games-165-vegeta-eye-crop.png",
+    "world-games-169-gohan-eye-crop.png"
+  ],
+  "scope": "Isolated cropped-eye background artwork only; current Goku foreground and native UI retained."
+}

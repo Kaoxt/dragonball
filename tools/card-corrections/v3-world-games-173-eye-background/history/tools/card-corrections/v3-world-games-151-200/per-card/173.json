@@ -1,0 +1,266 @@
+{
+  "number": 173,
+  "id": "world-games-173-goku",
+  "name": "Goku",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg",
+  "native_source_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
+  "assets": [
+    {
+      "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
+      "sha256": "5ee10fe92dc3c688f349deb98aa6c0c8ddbca07884f74e64d895bd70f7f94268"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
+      "sha256": "c26070cef8658af371fead5f0cb8cc2f9dc4f356548bf4ad66b88694c7316009"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports, November 14 revision 6",
+    "source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
+    "source_sha256": "5ee10fe92dc3c688f349deb98aa6c0c8ddbca07884f74e64d895bd70f7f94268",
+    "background_source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
+    "background_sha256": "c26070cef8658af371fead5f0cb8cc2f9dc4f356548bf4ad66b88694c7316009",
+    "native_placement": [
+      0,
+      146,
+      1060,
+      706
+    ],
+    "foreground_native_placement": [
+      -51,
+      142,
+      1200,
+      800
+    ],
+    "review": "Serious expression, asymmetric swept hair, halo and two hands on the straight Power Pole. Continuous set-matched background and tonal portrait; orange gi, peach skin and midnight-indigo clothing blues. Supplied native composition and export bytes retained exactly.",
+    "source_drive_file_id": "1xbd2uVqhJsmraX57Bn7dDbE0bKvv_T1B",
+    "supplement_native_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared a Tokui",
+      "baseline": 1049.3,
+      "width": 839.272,
+      "icon_inline": true
+    },
+    {
+      "text": "Waza, search your Life Deck for a Freestyle Drill",
+      "baseline": 1108.3,
+      "width": 850.395,
+      "icon_inline": false
+    },
+    {
+      "text": "and place it in your hand.",
+      "baseline": 1167.3,
+      "width": 444.724,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.939,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        864.547,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        865.625,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        866.409,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        872.534,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        864.253,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.321,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.272,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.967,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.615,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1013.46,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        457.102,
+        50.2213,
+        144.797,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        789.949,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        849.749,
+        1392.65,
+        54.802,
+        33.708
+      ],
+      "rules-line-1": [
+        134.548,
+        1013.53,
+        839.272,
+        45.521
+      ],
+      "power-icon": [
+        85.1795,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        104.303,
+        1072.53,
+        850.395,
+        45.521
+      ],
+      "rules-line-3": [
+        307.138,
+        1131.53,
+        444.724,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          85.1795,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          134.548,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          85.1795,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-173-goku.webp",
+      "after_sha256": "330de0f047e8dfd3001c199d3564e473a6e0df15171edc77ea8276f59eb4bfc5",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-173-goku.webp",
+      "after_sha256": "281b6b72e51d91d5e72c8533859ee7f94ed3d1bcf510680b56eebcbaa4bf4684",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 4
+}

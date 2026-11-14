@@ -1,3 +1,15 @@
+## Goku #173 matching Hi-Tech eye background — November 14, 2026
+
+The user's later correction updates only Goku's background silhouette to the
+same oversized cropped-eye treatment as the other World Games Hi-Tech cards.
+Preserve the original foreground PNG, its placement, and all original native
+elements. The localized generated background layer uses the retained art-window
+clip and gradient masks; changes are confined to x350–1060, y146–852 at both
+export sizes. Evidence is in `tools/card-corrections/v3-world-games-173-eye-background/`.
+Follow `goku-eye-background-history.js` before the older framing history helper.
+This supersedes the earlier instruction to retain Goku's background unchanged;
+his halo-and-staff foreground choice remains unchanged.
+
 ## World Games Hi-Tech framing — November 14, 2026
 
 Eight Hi-Tech cards (#165, #169, #177, #181, #185, #189, #193, #197) retain the

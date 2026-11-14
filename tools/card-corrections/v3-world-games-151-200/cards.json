@@ -879,7 +879,7 @@
       "Goku"
     ],
     "high_tech": true,
-    "artwork_review": "Serious expression, asymmetric swept hair, halo and two hands on the straight Power Pole. Continuous set-matched background and tonal portrait; orange gi, peach skin and midnight-indigo clothing blues. Supplied native composition and export bytes retained exactly.",
+    "artwork_review": "Existing Goku halo, staff, pose, expression and foreground PNG/placement preserved. The background now matches the other World Games Hi-Tech oversized eye portraits; generated only the isolated background and blended it natively inside the existing art window.",
     "artwork_native_placement": [
       0,
       146,
@@ -893,7 +893,14 @@
       1200,
       800
     ],
-    "artwork_source_drive_file_id": "1xbd2uVqhJsmraX57Bn7dDbE0bKvv_T1B"
+    "artwork_source_drive_file_id": "1xbd2uVqhJsmraX57Bn7dDbE0bKvv_T1B",
+    "artwork_background_overlay": "tools/card-corrections/v3-world-games-173-eye-background/Goku-173-Eye-Background.png",
+    "artwork_background_overlay_native_placement": [
+      0,
+      -160,
+      1060,
+      1484
+    ]
   },
   {
     "number": 174,
