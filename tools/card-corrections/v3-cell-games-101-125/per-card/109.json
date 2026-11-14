@@ -1,0 +1,239 @@
+{
+  "number": 109,
+  "id": "cell-games-109-group-attack",
+  "name": "Group Attack",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-109-group-attack.svg",
+  "native_source_sha256": "0b190c052d6cc8319384c01f26063eef448ad4518e372d94409da8656c8d8b6b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe.png",
+      "sha256": "7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe.png",
+    "source_sha256": "7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. An Ally that has not",
+      "baseline": 1108.3,
+      "width": 728.3850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "used this attack this Combat must perform it.",
+      "baseline": 1167.3,
+      "width": 808.647,
+      "icon_inline": false
+    },
+    {
+      "text": "This card stays in play to be used 2 more",
+      "baseline": 1226.3,
+      "width": 727.1600000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "times this Combat. Banish after use.",
+      "baseline": 1285.3,
+      "width": 643.9580000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        335.491,
+        44.5,
+        388.017,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        787.167,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.966,
+        1392.65,
+        60.367,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        166.851,
+        1072.53,
+        725.298,
+        45.521
+      ],
+      "rules-line-3": [
+        126.793,
+        1131.53,
+        805.413,
+        44.884
+      ],
+      "rules-line-4": [
+        167.169,
+        1190.53,
+        724.661,
+        45.521
+      ],
+      "rules-line-5": [
+        208.623,
+        1249.53,
+        641.753,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-109-group-attack.webp",
+      "after_sha256": "b1b9fcddc77c71d4861e373c5703eae23140dae60c391b95a0b131f20a06cddd",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-109-group-attack.webp",
+      "after_sha256": "9a8c9a3d89a10b1b98790f68717c75a52731115d97dda80593f378b56db8d807",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 388.0174563591023,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

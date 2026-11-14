@@ -1,0 +1,893 @@
+{
+  "cards": 25,
+  "exports": 50,
+  "method": "Independent Inkscape render from final SVG, then exact RGB comparison at both output resolutions. Display downsample uses Lanczos.",
+  "results": [
+    {
+      "number": 101,
+      "id": "cell-games-101-the-power-of-the-dragon",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-101-the-power-of-the-dragon.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "9d2879343f07b90e5239f2bfdb9ae161a80988ae9ebaf8e889aa4f5f782c3314",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-101-the-power-of-the-dragon.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "7b9eee9f121cdfdd5682cdb39bc880685a75a3c740af87a6c4588001020ddf2c",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "id": "cell-games-102-megaton-bull-crusher",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/441f837566c03de9262de1df68e26948f54ce1b6299047b1afc17d014f0e4d24.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-102-megaton-bull-crusher.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "7b3ecfd171024184cdc5c97e9bf6f346f312c2489e3cd1a3c9c969b37f30af6b",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-102-megaton-bull-crusher.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "22f75f8f46e3c2491562477a1ae0f1313bff7b4aded880f8d050b342bb3fb747",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "id": "cell-games-103-orange-energy-smash",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/996b1c0b264833059b0c7d23908d09b29af0c9a961de00c1b2e5fb0c61a870cd.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-103-orange-energy-smash.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "39b5bb5f90aa442add5dcccfcc45663374d7808c74c562a3c4e03cbe3e54c147",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-103-orange-energy-smash.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "e20feaac49a87ea65c3229a26a24e8803355682f8d20d2c7ab49e0a73a95cc4b",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "id": "cell-games-104-blue-fist-smash",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/22fb825752ecfb4a5d901f0fa7290949a6a013efde4575524e477069eccf8099.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-104-blue-fist-smash.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "5cd63bcc135ce060faf5e6e04ce20d9c408fdd108145d07b7cf1f04bfdf260da",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-104-blue-fist-smash.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "db774f8e4833862d73b12391c2e4a204dd11c06696eb339293bb396043ff8cce",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "id": "cell-games-105-double-teaming",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/be63b335e1278a6ed0e5c0ef9290ba349fdf3d72efc774d2870c5cdd488f3f1e.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-105-double-teaming.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "bc396d496af5c9a446fc5bdd26313eb58641c853cf2ebcfae58b682f4feaba11",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-105-double-teaming.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "ae28353fe7e1b035d1d19e202174ef6318939fd61287f5ae56d67780c8c281c0",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "id": "cell-games-106-straining-rebirth-move",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/044f9a72ae5ffac887b33cc276ee598eb810b1bab0b0de1dd21146ef2a961b4d.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-106-straining-rebirth-move.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "800914f56e8a50d3111f181b0f6594c8290412b394a8b309872e3102c3ed3f78",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-106-straining-rebirth-move.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "c9a7a0fc0fd156ebdee5786e1e68d7be6647bbccd2db71c2a6fa4eac0b9fdd68",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "id": "cell-games-107-android-18s-effect",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/ecbea51b3d7b45d70d0e54fdd88bf135ddbc86054fcc218f21a9f3dde367ea80.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-107-android-18s-effect.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "162b5f2ea214a39b9dadc6260ab8cfe13474b9dcbb56435dec067922820c975b",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-107-android-18s-effect.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "a16fc08f19a0df63035f3c213b37bce4ee434496f21fb6c2fe6d87327ba3376a",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "id": "cell-games-108-aura-clash",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-108-aura-clash.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "40e4cde86cf6ae1f006fa8413216d77be23cad4fefd4cbf8e3b61c0fa9e7b8f4",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-108-aura-clash.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "d87232e76fb50a2c0ed011dc84d94685714d35d80ac15800392fd4e0b78a4b9d",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "id": "cell-games-109-group-attack",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-109-group-attack.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "b1b9fcddc77c71d4861e373c5703eae23140dae60c391b95a0b131f20a06cddd",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-109-group-attack.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "9a8c9a3d89a10b1b98790f68717c75a52731115d97dda80593f378b56db8d807",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "id": "cell-games-110-orange-focused-attack",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-110-orange-focused-attack.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "e160e1607ddf2428c8930dadda8e5a20c12b6f7f526f6f28065d254bd6f3d78d",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-110-orange-focused-attack.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "6a0e0f9d7182d04b5acaa8f94c933db218732b93a554de644816a404aa6e1d97",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "id": "cell-games-111-caught-off-guard-drill",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-111-caught-off-guard-drill.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "773052b1c36aec50c656bc7858c871263b916a3bf5c1ab4aaedda3ed80d994be",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-111-caught-off-guard-drill.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "108760f27078a52f2ec165e731513a9c964887e40d264ba70c2f3875ed34f55d",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "id": "cell-games-112-vegetas-anger-drill",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/e96065ab5d5d5f17bc3c615d6109513e8fef8e7f4d3d4839f6a2a218bb87f736.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-112-vegetas-anger-drill.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "86e57aabf56786770f01418d419fd1896bbd24c7f54fd6dc158106fedad72ad6",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-112-vegetas-anger-drill.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "bcdcdb8a3b112908d9d10b6afd349c953d3af1c4e0ae54da33cc45c58dcfaebf",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "id": "cell-games-113-whos-da-man",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-113-whos-da-man.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "5170b6c83d82b5af51218f59bd9b4001b707937d7defac813333a53c9e7d72be",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-113-whos-da-man.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "a3cf0ef0ef74d6d27679b37237b1570aae9218f8620236df29adf3c2cbd0ea0a",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "id": "cell-games-114-dende",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "tools/card-templates/v3/assets/50e92511a528a9042f668852bbb87f320440afd3712da6e7932a6a4adc45c7cb.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-114-dende.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "b1ff047491bf7e6711411a9be28e19e4eeca1050ba70e4b9e2d02a3656037082",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-114-dende.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "8d99944db1796e228df914771a3f311203182e2e881a24461aeaa329fda69491",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "id": "cell-games-115-cell-jr-1",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "tools/card-templates/v3/assets/f81f72d17e91661f1d5193b453c00af53cff0849d334fde6168e82221e6faa2c.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-115-cell-jr-1.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "227b04c5b2bdc4a92249f3502fb1652a28a4c73ab16837077bee812cafd86ffd",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-115-cell-jr-1.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "874ec543f18236f5654a3004753f43b3aa7799ebea062463769bd9931cec9d2f",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "id": "cell-games-116-gokus-dragon-ball-quest",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-116-gokus-dragon-ball-quest.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "cdbe85127071531dfaccdb5269442567f5b736961ea91798e560489cfef84eb7",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-116-gokus-dragon-ball-quest.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "d56e9c120c7a21b9276a3f1c20c478ea014ed215e7588a5b971924c52b43984a",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "id": "cell-games-117-chazke-village",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3.png",
+        "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-117-chazke-village.webp",
+          "size": [
+            1484,
+            1060
+          ],
+          "sha256": "a11c425bce01fe4cce33a258975db12666907db6f6ad85fc762fb6ac1e46acd2",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-117-chazke-village.webp",
+          "size": [
+            2968,
+            2120
+          ],
+          "sha256": "aec66bd09e4fb3bfd4a9b455b854c50285c4b72b5108f6188f6a63ef797de8cc",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "id": "cell-games-118-vegetas-surprised",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-118-vegetas-surprised.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "4da1f6b5287974f3e2fd3e7ecd1b6c1ffe693f89733f36c04ac4e70dd91bba32",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-118-vegetas-surprised.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "59aa5ed1ad94cd99c7cf7242add52a41db63fa76e16edc1dd0c87af33df0d9b6",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "id": "cell-games-119-gohans-elbow-block",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/bf16a265b7011c44991579edf0c124bb4e2b374fadbece7955ebb69a2011e68c.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-119-gohans-elbow-block.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "e2e76326bf251c2e5d32d33e22d29e3e8317bf8cfeca7aede9444f8e73336249",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-119-gohans-elbow-block.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "8724ca0039dd1491d4e4590669862347ca3763e13a1107fe4856b3041f1991e1",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "id": "cell-games-120-straining-destruction-move",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f2e1ac35fd41e72675bbcd3c11cf5291c1e4aa6e4e64f0a45507d88fc7b80d10.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-120-straining-destruction-move.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "204fdf5273370610f195f9904a438f7d1be7d86da7d2f3c4a855bb1c880f45b2",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-120-straining-destruction-move.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "1d79d70cab42d3d8ef8ac538be52301bae0b9c39c799d07a7fb13015f7a84382",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "id": "cell-games-121-cosmic-backlash",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/1324e2ab9529cd02c42c0d943a95ac8d7db93c0fa7bf12a02046663487d152d8.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-121-cosmic-backlash.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "ac4c1662e1d5f855347229acc7482bec24b6a256217bb851e827379a1bd81fc0",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-121-cosmic-backlash.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "da31f00844d5476e6740f76f6e9b64249466784c9e19996414ebffb3936f345d",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "id": "cell-games-122-chiaotzu",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "tools/card-templates/v3/assets/5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-122-chiaotzu.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "de32a0769e71e9fb9e991b97469ba35ed54ce83c10da87a47bc64f15cb064305",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-122-chiaotzu.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "3207c13490252a19d763c79e2c528fe03fcf7ac5cea975aa51e5f61d08fb8a0c",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "id": "cell-games-123-dragons-victory",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/7198174b36e0434e555cb5142f5bb3c184ef19b1d08dac4e5c457c7cd7529da4.png",
+        "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-123-dragons-victory.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "6599460b4482050f26aff622241f60128ac9b39a12796734769ec5aed870c604",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-123-dragons-victory.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "4738fdc0965f975e65431e8caec772f54187916c98f5931e56980153611af1a5",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 124,
+      "id": "cell-games-124-trunks-the-battler",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "tools/card-templates/v3/assets/2ed0c71f7e63f76021bf2d9360aaed817cfa6e1d56019ca944c8c8d6a2e63bba.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-124-trunks-the-battler.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "437b0f57aedf92070db943220899673d498f7f50e60ead15268f9a2a8d3a78c7",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-124-trunks-the-battler.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "40d523a51ccdb07c6c062b04fad940374b7a09b3f21ad56725bd27305e56bb54",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    },
+    {
+      "number": 125,
+      "id": "cell-games-125-piccolo-the-defender",
+      "unique_svg_ids": true,
+      "native_outlined_text": true,
+      "current_title_alignment": true,
+      "current_style_weight": true,
+      "linked_assets": [
+        "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "tools/card-templates/v3/assets/b018d8e9b5f40a1da9d462494075640cbd0d83449acb134a710e0c5613f74db8.png",
+        "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png"
+      ],
+      "exports": [
+        {
+          "path": "public/assets/cards/cell-games-125-piccolo-the-defender.webp",
+          "size": [
+            1060,
+            1484
+          ],
+          "sha256": "4b93a012df9fdd83e77097609a3d59ddb6b69095766031bf5182a6e36a38e5f9",
+          "independent_render_pixel_differences": 0
+        },
+        {
+          "path": "public/assets/cards/downloads/cell-games-125-piccolo-the-defender.webp",
+          "size": [
+            2120,
+            2968
+          ],
+          "sha256": "75ab1f42eee2c7f096daeea80ae2edaa956ccab6b8d0604c093e9d29b2eb1046",
+          "independent_render_pixel_differences": 0
+        }
+      ]
+    }
+  ]
+}

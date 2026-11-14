@@ -1,0 +1,191 @@
+{
+  "number": 113,
+  "id": "cell-games-113-whos-da-man",
+  "name": "Who's da Man!",
+  "family": "SETUP",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-113-whos-da-man.svg",
+  "native_source_sha256": "af10f220b8aea10b53ab54ad4347bb74961e10944ada63c989a6eba32ef465bb",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a.png",
+      "sha256": "331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a.png",
+    "source_sha256": "331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "ENDURANCE 3. POWER: For the remainder of",
+      "baseline": 1049.3,
+      "width": 774.1509999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat, play with your hand face up on the table.",
+      "baseline": 1108.3,
+      "width": 877.7369999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "All your physical attacks do +4 stages",
+      "baseline": 1167.3,
+      "width": 675.71,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage for the remainder of Combat.",
+      "baseline": 1226.3,
+      "width": 712.7049999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        307.702,
+        50.2213,
+        443.596,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        792.122,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.922,
+        1392.65,
+        50.456,
+        33.708
+      ],
+      "rules-line-1": [
+        144.017,
+        1013.53,
+        770.966,
+        36.162
+      ],
+      "rules-line-2": [
+        92.2485,
+        1072.53,
+        874.503,
+        45.521
+      ],
+      "rules-line-3": [
+        192.391,
+        1131.53,
+        674.219,
+        45.913
+      ],
+      "rules-line-4": [
+        174.691,
+        1190.53,
+        709.618,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-113-whos-da-man.webp",
+      "after_sha256": "5170b6c83d82b5af51218f59bd9b4001b707937d7defac813333a53c9e7d72be",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-113-whos-da-man.webp",
+      "after_sha256": "a3cf0ef0ef74d6d27679b37237b1570aae9218f8620236df29adf3c2cbd0ea0a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 443.59600997506243,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "SETUP",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        194.85565000000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

@@ -1,0 +1,191 @@
+{
+  "number": 101,
+  "id": "cell-games-101-the-power-of-the-dragon",
+  "name": "The Power of the Dragon",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-101-the-power-of-the-dragon.svg",
+  "native_source_sha256": "183655060fb076112315cde5dd39dd960add2b362db94c3fbef219116e8d46c1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83.png",
+      "sha256": "61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83.png",
+    "source_sha256": "61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: Choose an Ally from",
+      "baseline": 1049.3,
+      "width": 799.5819999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck or discard pile and place it in play",
+      "baseline": 1108.3,
+      "width": 863.6739999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "at 3 stages above 0. Shuffle all Dragon Balls in",
+      "baseline": 1167.3,
+      "width": 819.4269999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "play owned by your opponent into their Life Deck.",
+      "baseline": 1226.3,
+      "width": 878.423,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        161.142,
+        44.5,
+        736.717,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        791.513,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.312,
+        1392.65,
+        51.675,
+        33.708
+      ],
+      "rules-line-1": [
+        131.62,
+        1013.53,
+        795.76,
+        45.521
+      ],
+      "rules-line-2": [
+        98.3115,
+        1072.53,
+        862.377,
+        45.521
+      ],
+      "rules-line-3": [
+        121.183,
+        1131.53,
+        816.634,
+        45.913
+      ],
+      "rules-line-4": [
+        92.077,
+        1190.53,
+        874.846,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-101-the-power-of-the-dragon.webp",
+      "after_sha256": "9d2879343f07b90e5239f2bfdb9ae161a80988ae9ebaf8e889aa4f5f782c3314",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-101-the-power-of-the-dragon.webp",
+      "after_sha256": "7b9eee9f121cdfdd5682cdb39bc880685a75a3c740af87a6c4588001020ddf2c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 736.7169576059852,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

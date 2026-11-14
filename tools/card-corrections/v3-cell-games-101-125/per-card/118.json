@@ -1,0 +1,203 @@
+{
+  "number": 118,
+  "id": "cell-games-118-vegetas-surprised",
+  "name": "Vegeta's Surprised",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-118-vegetas-surprised.svg",
+  "native_source_sha256": "207785741b30210f90b3d015f9a73b75487c95e02bcbb3b6231db73c0ebb1017",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393.png",
+      "sha256": "578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393.png",
+    "source_sha256": "578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: Attach to a Main",
+      "baseline": 1049.3,
+      "width": 732.5500000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality. Banish this card when that",
+      "baseline": 1108.3,
+      "width": 696.486,
+      "icon_inline": false
+    },
+    {
+      "text": "personality performs an energy attack.",
+      "baseline": 1167.3,
+      "width": 697.5640000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "This personality deals a maximum of 5",
+      "baseline": 1226.3,
+      "width": 685.608,
+      "icon_inline": false
+    },
+    {
+      "text": "stages of damage with each physical attack.",
+      "baseline": 1285.3,
+      "width": 794.682,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        245.241,
+        44.5,
+        568.519,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        165.136,
+        1013.53,
+        728.728,
+        44.884
+      ],
+      "rules-line-2": [
+        182.776,
+        1072.53,
+        693.448,
+        45.521
+      ],
+      "rules-line-3": [
+        182.506,
+        1131.53,
+        693.987,
+        45.913
+      ],
+      "rules-line-4": [
+        187.847,
+        1190.53,
+        683.305,
+        45.521
+      ],
+      "rules-line-5": [
+        133.531,
+        1249.53,
+        791.938,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-118-vegetas-surprised.webp",
+      "after_sha256": "4da1f6b5287974f3e2fd3e7ecd1b6c1ffe693f89733f36c04ac4e70dd91bba32",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-118-vegetas-surprised.webp",
+      "after_sha256": "59aa5ed1ad94cd99c7cf7242add52a41db63fa76e16edc1dd0c87af33df0d9b6",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 568.5187032418953,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

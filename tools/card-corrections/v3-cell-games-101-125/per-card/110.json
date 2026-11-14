@@ -1,0 +1,227 @@
+{
+  "number": 110,
+  "id": "cell-games-110-orange-focused-attack",
+  "name": "Orange Focused Attack",
+  "family": "ENERGY COMBAT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-110-orange-focused-attack.svg",
+  "native_source_sha256": "862c376238f09156e2606c5e03a05f9435f3bf6f32776785c20308151578c31d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22.png",
+      "sha256": "2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22.png",
+    "source_sha256": "2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 772.0531555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. HIT: Prevent all",
+      "baseline": 1108.3,
+      "width": 656.845,
+      "icon_inline": false
+    },
+    {
+      "text": "damage from physical attacks during your",
+      "baseline": 1167.3,
+      "width": 754.3059999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's next Attacker Attacks phase.",
+      "baseline": 1226.3,
+      "width": 723.534,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        182.005,
+        44.5,
+        694.99,
+        69.0
+      ],
+      "card-category": [
+        270.969,
+        891.391,
+        517.061,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        791.407,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.206,
+        1392.65,
+        51.887,
+        33.708
+      ],
+      "rules-line-1": [
+        198.853,
+        1013.53,
+        715.89,
+        45.913
+      ],
+      "power-icon": [
+        144.257,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        202.989,
+        1072.53,
+        653.023,
+        36.162
+      ],
+      "rules-line-3": [
+        153.293,
+        1131.53,
+        752.415,
+        45.913
+      ],
+      "rules-line-4": [
+        169.276,
+        1192.0,
+        720.447,
+        43.414
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          198.853,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-110-orange-focused-attack.webp",
+      "after_sha256": "e160e1607ddf2428c8930dadda8e5a20c12b6f7f526f6f28065d254bd6f3d78d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-110-orange-focused-attack.webp",
+      "after_sha256": "6a0e0f9d7182d04b5acaa8f94c933db218732b93a554de644816a404aa6e1d97",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 694.9900249376559,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "ENERGY COMBAT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        517.0614,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

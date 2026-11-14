@@ -1,0 +1,191 @@
+{
+  "number": 108,
+  "id": "cell-games-108-aura-clash",
+  "name": "Aura Clash",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-108-aura-clash.svg",
+  "native_source_sha256": "1e230c4272cb1f157185782d2e9f77cf34a4b1a86847b78fda49a52455b88fa3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298.png",
+      "sha256": "49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298.png",
+    "source_sha256": "49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: You cannot win by Most Powerful",
+      "baseline": 1049.3,
+      "width": 732.7950000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality Victory for the remainder",
+      "baseline": 1108.3,
+      "width": 662.7250000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of the game. Raise your anger 6 levels.",
+      "baseline": 1167.3,
+      "width": 688.4499999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise your opponent's anger 6 levels.",
+      "baseline": 1226.3,
+      "width": 661.4019999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        368.701,
+        50.2213,
+        321.599,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        786.955,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.754,
+        1392.65,
+        60.791,
+        33.708
+      ],
+      "rules-line-1": [
+        164.989,
+        1013.53,
+        729.022,
+        45.521
+      ],
+      "rules-line-2": [
+        199.377,
+        1072.53,
+        660.246,
+        45.521
+      ],
+      "rules-line-3": [
+        186.819,
+        1131.53,
+        685.363,
+        45.913
+      ],
+      "rules-line-4": [
+        200.661,
+        1190.53,
+        657.678,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-108-aura-clash.webp",
+      "after_sha256": "40e4cde86cf6ae1f006fa8413216d77be23cad4fefd4cbf8e3b61c0fa9e7b8f4",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-108-aura-clash.webp",
+      "after_sha256": "d87232e76fb50a2c0ed011dc84d94685714d35d80ac15800392fd4e0b78a4b9d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 321.5985037406484,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

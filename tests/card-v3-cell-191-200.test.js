@@ -5,7 +5,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
 import {catalog as beforeWorldGamesRefinement} from './helpers/world-games-hi-tech-history.js';
-import {codeCardIds} from '../public/decks/code-card-ids.js';
+import {codeCardIds} from './helpers/pre-cell-games-101-125.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';

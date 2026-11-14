@@ -1,3 +1,13 @@
+## Cell Games Saga 101–125 — November 14, 2026
+
+The 25 supplied V3 cards complete the numbered Cell Games set through 125.
+Preserve their exact native SVGs, content-addressed assets and 50 lossless
+exports. #117 is landscape; #124/#125 use the existing Ultra Rare V3 fallback
+finish. Five explicit Arena charts support deck snapshots, with printed stages
+highest to zero. Source scans, CRD review and publication evidence are retained
+in `tools/card-corrections/v3-cell-games-101-125/`. Earlier audits use the
+`pre-cell-games-101-125.js` helper before the Goku background revision.
+
 ## Goku #173 matching eye background — November 14, 2026
 
 The retained Goku #173 SVG now adds a localized oversized eye-background layer

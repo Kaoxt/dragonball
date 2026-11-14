@@ -1,0 +1,227 @@
+{
+  "number": 111,
+  "id": "cell-games-111-caught-off-guard-drill",
+  "name": "Caught Off Guard Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-111-caught-off-guard-drill.svg",
+  "native_source_sha256": "7d4aa6ba45f19686b99365abc9814e463f8fde8285df2898b22515ee99818015",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839.png",
+      "sha256": "ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839.png",
+    "source_sha256": "ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 2 per deck. Heroes only. When played,",
+      "baseline": 1049.3,
+      "width": 840.7197500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "name a card other than a Personality, Dragon",
+      "baseline": 1108.3,
+      "width": 804.4330000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Ball, Sensei, or Mastery. Neither player can",
+      "baseline": 1167.3,
+      "width": 759.451,
+      "icon_inline": false
+    },
+    {
+      "text": "play or use that card while this Drill is in play.",
+      "baseline": 1226.3,
+      "width": 807.8629999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        208.461,
+        44.5,
+        642.079,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        795.991,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.791,
+        1392.65,
+        42.718,
+        33.708
+      ],
+      "rules-line-1": [
+        111.038,
+        1013.53,
+        836.924,
+        45.521
+      ],
+      "power-icon": [
+        646.995,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        129.047,
+        1072.53,
+        800.905,
+        45.913
+      ],
+      "rules-line-3": [
+        151.686,
+        1131.53,
+        755.629,
+        45.521
+      ],
+      "rules-line-4": [
+        127.357,
+        1190.53,
+        804.286,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 25,
+        "previous_visible_bounds": [
+          646.995,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          713.569,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          646.995,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-111-caught-off-guard-drill.webp",
+      "after_sha256": "773052b1c36aec50c656bc7858c871263b916a3bf5c1ab4aaedda3ed80d994be",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-111-caught-off-guard-drill.webp",
+      "after_sha256": "108760f27078a52f2ec165e731513a9c964887e40d264ba70c2f3875ed34f55d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 642.0785536159602,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

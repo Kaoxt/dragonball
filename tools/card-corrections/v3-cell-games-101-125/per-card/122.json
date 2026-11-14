@@ -1,0 +1,289 @@
+{
+  "number": 122,
+  "id": "cell-games-122-chiaotzu",
+  "name": "Chiaotzu",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-122-chiaotzu.svg",
+  "native_source_sha256": "a567149717c42ec8b2ef8c73c140823660ed3f24a5443f0461a8cc9f8c849466",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e.png",
+      "sha256": "5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e.png",
+    "source_sha256": "5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 772.0531555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards.",
+      "baseline": 1108.3,
+      "width": 377.2020000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        917.369,
+        160.009,
+        113.631,
+        38.269
+      ],
+      "power-stage-value-1": [
+        914.527,
+        224.691,
+        116.473,
+        38.269
+      ],
+      "power-stage-value-2": [
+        917.124,
+        289.373,
+        113.876,
+        38.269
+      ],
+      "power-stage-value-3": [
+        912.861,
+        354.054,
+        118.139,
+        38.269
+      ],
+      "power-stage-value-4": [
+        915.017,
+        418.736,
+        115.983,
+        38.269
+      ],
+      "power-stage-value-5": [
+        912.175,
+        483.418,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-6": [
+        917.418,
+        548.1,
+        113.582,
+        38.269
+      ],
+      "power-stage-value-7": [
+        913.155,
+        612.782,
+        117.845,
+        38.269
+      ],
+      "power-stage-value-8": [
+        915.311,
+        677.463,
+        115.689,
+        38.269
+      ],
+      "power-stage-value-9": [
+        912.469,
+        742.145,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        401.824,
+        50.2213,
+        255.352,
+        57.5574
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        788.889,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.689,
+        1392.65,
+        56.922,
+        33.708
+      ],
+      "rules-line-1": [
+        198.853,
+        1013.53,
+        715.89,
+        45.913
+      ],
+      "power-icon": [
+        144.257,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        342.761,
+        1072.53,
+        373.478,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "F",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          198.853,
+          1015.0,
+          17.934,
+          34.3
+        ],
+        "new_visible_bounds": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-122-chiaotzu.webp",
+      "after_sha256": "de32a0769e71e9fb9e991b97469ba35ed54ce83c10da87a47bc64f15cb064305",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-122-chiaotzu.webp",
+      "after_sha256": "3207c13490252a19d763c79e2c528fe03fcf7ac5cea975aa51e5f61d08fb8a0c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 255.35162094763095,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 5
+}

@@ -2,14 +2,14 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog,beforeCellGamesHash} from './helpers/pre-cell-games-101-125.js';
 import {cardPage} from '../src/card-pages.js';
 import {isHiTech,finishForImage} from '../public/card-surface.js';
 const base='tools/card-corrections/v3-world-games-173-eye-background/';
 const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
 const release=read('release.json'),pixels=read('pixel-verification.json'),renders=read('render-verification.json');
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const fileHash=p=>hash(fs.readFileSync(p));
+const fileHash=p=>beforeCellGamesHash(p);
 
 test('only Goku 173 image versions change; gameplay, the other eight Hi-Techs and every prior card remain intact',()=>{
  const current=catalog.find(c=>c.id===release.id);assert.deepEqual(current,release.after_catalog);

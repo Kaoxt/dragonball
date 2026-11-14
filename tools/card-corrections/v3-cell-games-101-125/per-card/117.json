@@ -1,0 +1,154 @@
+{
+  "number": 117,
+  "id": "cell-games-117-chazke-village",
+  "name": "Chazke Village",
+  "family": "LOCATION",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-117-chazke-village.svg",
+  "native_source_sha256": "91d7d01eb57a528a02df0932ec85084eeb257258a21a2bd97fb31e633d2823e8",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3.png",
+      "sha256": "63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3.png",
+    "source_sha256": "63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      16,
+      145.0,
+      1451,
+      483.6666666666667
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: When entering Combat, the attacker may search their",
+      "baseline": 815.983333333333,
+      "width": 1102.3039999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for an Ally and place it in play at 3 stages above 0.",
+      "baseline": 874.983333333333,
+      "width": 1066.1909999999998,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        522.842,
+        44.5,
+        437.315,
+        69.0
+      ],
+      "card-category": [
+        593.699,
+        668.057,
+        295.602,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        259.568,
+        953.186,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        1131.96,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1191.76,
+        968.646,
+        49.184,
+        33.708
+      ],
+      "rules-line-1": [
+        191.588,
+        780.213,
+        1099.82,
+        45.913
+      ],
+      "rules-line-2": [
+        210.267,
+        839.213,
+        1062.47,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-117-chazke-village.webp",
+      "after_sha256": "a11c425bce01fe4cce33a258975db12666907db6f6ad85fc762fb6ac1e46acd2",
+      "size": [
+        1484,
+        1060
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-117-chazke-village.webp",
+      "after_sha256": "aec66bd09e4fb3bfd4a9b455b854c50285c4b72b5108f6188f6a63ef797de8cc",
+      "size": [
+        2968,
+        2120
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "max_width": 1184,
+      "visible_center": [
+        741.5,
+        79
+      ]
+    },
+    "middle_label": {
+      "retained_fixed_landscape_component": true
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

@@ -1,0 +1,5602 @@
+[
+  {
+    "number": 101,
+    "id": "cell-games-101-the-power-of-the-dragon",
+    "name": "The Power of the Dragon",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-101-the-power-of-the-dragon.svg",
+    "native_source_sha256": "183655060fb076112315cde5dd39dd960add2b362db94c3fbef219116e8d46c1",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83.png",
+        "sha256": "61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83.png",
+      "source_sha256": "61552e099a5993f88975a1d978e4725e0085d8f22e84435517a7f4132b743c83",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Choose an Ally from",
+        "baseline": 1049.3,
+        "width": 799.5819999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "your Life Deck or discard pile and place it in play",
+        "baseline": 1108.3,
+        "width": 863.6739999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "at 3 stages above 0. Shuffle all Dragon Balls in",
+        "baseline": 1167.3,
+        "width": 819.4269999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "play owned by your opponent into their Life Deck.",
+        "baseline": 1226.3,
+        "width": 878.423,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          161.142,
+          44.5,
+          736.717,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.513,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.312,
+          1392.65,
+          51.675,
+          33.708
+        ],
+        "rules-line-1": [
+          131.62,
+          1013.53,
+          795.76,
+          45.521
+        ],
+        "rules-line-2": [
+          98.3115,
+          1072.53,
+          862.377,
+          45.521
+        ],
+        "rules-line-3": [
+          121.183,
+          1131.53,
+          816.634,
+          45.913
+        ],
+        "rules-line-4": [
+          92.077,
+          1190.53,
+          874.846,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-101-the-power-of-the-dragon.webp",
+        "after_sha256": "9d2879343f07b90e5239f2bfdb9ae161a80988ae9ebaf8e889aa4f5f782c3314",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-101-the-power-of-the-dragon.webp",
+        "after_sha256": "7b9eee9f121cdfdd5682cdb39bc880685a75a3c740af87a6c4588001020ddf2c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 736.7169576059852,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 102,
+    "id": "cell-games-102-megaton-bull-crusher",
+    "name": "Megaton Bull Crusher",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-102-megaton-bull-crusher.svg",
+    "native_source_sha256": "50f7ef9f72b22a33d2d7efd70f296b8b7dc351c41349f5c5a9728a3efba24fd7",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/441f837566c03de9262de1df68e26948f54ce1b6299047b1afc17d014f0e4d24.png",
+        "sha256": "441f837566c03de9262de1df68e26948f54ce1b6299047b1afc17d014f0e4d24"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/441f837566c03de9262de1df68e26948f54ce1b6299047b1afc17d014f0e4d24.png",
+      "source_sha256": "441f837566c03de9262de1df68e26948f54ce1b6299047b1afc17d014f0e4d24",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Physical attack. DAMAGE: AT +X stages.",
+        "baseline": 1049.3,
+        "width": 754.4621555438591,
+        "icon_inline": true
+      },
+      {
+        "text": "X is the number of Common cards in",
+        "baseline": 1108.3,
+        "width": 640.234,
+        "icon_inline": false
+      },
+      {
+        "text": "your discard pile, to a maximum of 10.",
+        "baseline": 1167.3,
+        "width": 673.2109999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          207.643,
+          44.5,
+          643.713,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          787.723,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.523,
+          1392.65,
+          59.254,
+          33.708
+        ],
+        "rules-line-1": [
+          207.599,
+          1013.53,
+          698.348,
+          45.913
+        ],
+        "power-icon": [
+          153.053,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          210.828,
+          1072.53,
+          637.343,
+          36.162
+        ],
+        "rules-line-3": [
+          193.997,
+          1131.53,
+          671.006,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            153.053,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            207.599,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            153.053,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-102-megaton-bull-crusher.webp",
+        "after_sha256": "7b3ecfd171024184cdc5c97e9bf6f346f312c2489e3cd1a3c9c969b37f30af6b",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-102-megaton-bull-crusher.webp",
+        "after_sha256": "22f75f8f46e3c2491562477a1ae0f1313bff7b4aded880f8d050b342bb3fb747",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 643.713216957606,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 103,
+    "id": "cell-games-103-orange-energy-smash",
+    "name": "Orange Energy Smash",
+    "family": "ENERGY COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-103-orange-energy-smash.svg",
+    "native_source_sha256": "e46de612637d41cfce387ec3fc0492d70e8a8902867b73308d3347115eb2c04a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/996b1c0b264833059b0c7d23908d09b29af0c9a961de00c1b2e5fb0c61a870cd.png",
+        "sha256": "996b1c0b264833059b0c7d23908d09b29af0c9a961de00c1b2e5fb0c61a870cd"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/996b1c0b264833059b0c7d23908d09b29af0c9a961de00c1b2e5fb0c61a870cd.png",
+      "source_sha256": "996b1c0b264833059b0c7d23908d09b29af0c9a961de00c1b2e5fb0c61a870cd",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 613.5381555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 4 life cards. If you declared",
+        "baseline": 1108.3,
+        "width": 652.3370000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "a Tokui-Waza, your opponent cannot",
+        "baseline": 1167.3,
+        "width": 652.239,
+        "icon_inline": false
+      },
+      {
+        "text": "perform an energy attack during",
+        "baseline": 1226.3,
+        "width": 579.5230000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "their next Attacker Attacks phase.",
+        "baseline": 1285.3,
+        "width": 612.5000000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          203.342,
+          44.5,
+          652.317,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          787.644,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.443,
+          1392.65,
+          59.413,
+          33.708
+        ],
+        "rules-line-1": [
+          278.11,
+          1013.53,
+          557.375,
+          45.913
+        ],
+        "power-icon": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          205.34,
+          1072.53,
+          648.319,
+          45.521
+        ],
+        "rules-line-3": [
+          204.41,
+          1131.53,
+          650.181,
+          45.521
+        ],
+        "rules-line-4": [
+          241.551,
+          1190.53,
+          575.897,
+          45.913
+        ],
+        "rules-line-5": [
+          224.352,
+          1249.53,
+          610.295,
+          44.884
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            278.11,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-103-orange-energy-smash.webp",
+        "after_sha256": "39b5bb5f90aa442add5dcccfcc45663374d7808c74c562a3c4e03cbe3e54c147",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-103-orange-energy-smash.webp",
+        "after_sha256": "e20feaac49a87ea65c3229a26a24e8803355682f8d20d2c7ab49e0a73a95cc4b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 652.3167082294266,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 104,
+    "id": "cell-games-104-blue-fist-smash",
+    "name": "Blue Fist Smash",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-104-blue-fist-smash.svg",
+    "native_source_sha256": "1776525703f9c83dc0ca59a992c4a606670fad07243373b0461239709b7a593f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/22fb825752ecfb4a5d901f0fa7290949a6a013efde4575524e477069eccf8099.png",
+        "sha256": "22fb825752ecfb4a5d901f0fa7290949a6a013efde4575524e477069eccf8099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/22fb825752ecfb4a5d901f0fa7290949a6a013efde4575524e477069eccf8099.png",
+      "source_sha256": "22fb825752ecfb4a5d901f0fa7290949a6a013efde4575524e477069eccf8099",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Focused physical attack.",
+        "baseline": 1049.3,
+        "width": 496.13415554385944,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: AT +2 stages. HIT: Prevent X",
+        "baseline": 1108.3,
+        "width": 667.282,
+        "icon_inline": false
+      },
+      {
+        "text": "stages or life cards of damage from the next",
+        "baseline": 1167.3,
+        "width": 792.9179999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "attack against this personality this Combat.",
+        "baseline": 1226.3,
+        "width": 778.12,
+        "icon_inline": false
+      },
+      {
+        "text": "X is the stages dealt by this attack.",
+        "baseline": 1285.3,
+        "width": 625.3380000000002,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          292.474,
+          50.2213,
+          474.052,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          786.001,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          845.8,
+          1392.65,
+          62.699,
+          33.708
+        ],
+        "rules-line-1": [
+          336.812,
+          1013.53,
+          439.971,
+          45.521
+        ],
+        "power-icon": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          197.55,
+          1073.61,
+          663.901,
+          44.835
+        ],
+        "rules-line-3": [
+          134.095,
+          1131.53,
+          790.811,
+          45.913
+        ],
+        "rules-line-4": [
+          141.788,
+          1190.53,
+          775.425,
+          45.913
+        ],
+        "rules-line-5": [
+          218.227,
+          1249.53,
+          622.545,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "F",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            336.812,
+            1015.0,
+            17.934,
+            34.3
+          ],
+          "new_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-104-blue-fist-smash.webp",
+        "after_sha256": "5cd63bcc135ce060faf5e6e04ce20d9c408fdd108145d07b7cf1f04bfdf260da",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-104-blue-fist-smash.webp",
+        "after_sha256": "db774f8e4833862d73b12391c2e4a204dd11c06696eb339293bb396043ff8cce",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 474.0523690773068,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 105,
+    "id": "cell-games-105-double-teaming",
+    "name": "Double Teaming",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-105-double-teaming.svg",
+    "native_source_sha256": "8bb6f85175f9effb02152eff704ff519c8b7a0252bcab9bcc4b7bfca41706dda",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/be63b335e1278a6ed0e5c0ef9290ba349fdf3d72efc774d2870c5cdd488f3f1e.png",
+        "sha256": "be63b335e1278a6ed0e5c0ef9290ba349fdf3d72efc774d2870c5cdd488f3f1e"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/be63b335e1278a6ed0e5c0ef9290ba349fdf3d72efc774d2870c5cdd488f3f1e.png",
+      "source_sha256": "be63b335e1278a6ed0e5c0ef9290ba349fdf3d72efc774d2870c5cdd488f3f1e",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "ENDURANCE 2. POWER: Your Main Personality",
+        "baseline": 1049.3,
+        "width": 794.241,
+        "icon_inline": false
+      },
+      {
+        "text": "must use this card. For the remainder of Combat,",
+        "baseline": 1108.3,
+        "width": 871.612,
+        "icon_inline": false
+      },
+      {
+        "text": "all attacks performed by this personality",
+        "baseline": 1167.3,
+        "width": 724.955,
+        "icon_inline": false
+      },
+      {
+        "text": "do +1 stage of damage for each Ally in play.",
+        "baseline": 1226.3,
+        "width": 765.821,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          291.312,
+          44.5,
+          476.375,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          787.061,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          846.861,
+          1392.65,
+          60.579,
+          33.708
+        ],
+        "rules-line-1": [
+          133.788,
+          1013.53,
+          791.425,
+          45.521
+        ],
+        "rules-line-2": [
+          95.4205,
+          1072.53,
+          868.159,
+          40.572
+        ],
+        "rules-line-3": [
+          167.916,
+          1131.53,
+          723.168,
+          45.521
+        ],
+        "rules-line-4": [
+          148.133,
+          1190.53,
+          762.734,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-105-double-teaming.webp",
+        "after_sha256": "bc396d496af5c9a446fc5bdd26313eb58641c853cf2ebcfae58b682f4feaba11",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-105-double-teaming.webp",
+        "after_sha256": "ae28353fe7e1b035d1d19e202174ef6318939fd61287f5ae56d67780c8c281c0",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 476.37531172069833,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 106,
+    "id": "cell-games-106-straining-rebirth-move",
+    "name": "Straining Rebirth Move",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-106-straining-rebirth-move.svg",
+    "native_source_sha256": "80ecf928e54dd6736834ed582ab973b54f40a120acd0a0657ee2b55f7587f287",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/044f9a72ae5ffac887b33cc276ee598eb810b1bab0b0de1dd21146ef2a961b4d.png",
+        "sha256": "044f9a72ae5ffac887b33cc276ee598eb810b1bab0b0de1dd21146ef2a961b4d"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/044f9a72ae5ffac887b33cc276ee598eb810b1bab0b0de1dd21146ef2a961b4d.png",
+      "source_sha256": "044f9a72ae5ffac887b33cc276ee598eb810b1bab0b0de1dd21146ef2a961b4d",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Choose 5, 3, or 1 card",
+        "baseline": 1049.3,
+        "width": 821.1909999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "from your discard pile and shuffle them into",
+        "baseline": 1108.3,
+        "width": 781.3050000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "your Life Deck. Your opponent shuffles twice as",
+        "baseline": 1167.3,
+        "width": 849.219,
+        "icon_inline": false
+      },
+      {
+        "text": "many cards into their Life Deck. Banish after use.",
+        "baseline": 1226.3,
+        "width": 878.0310000000002,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          187.597,
+          44.5,
+          683.805,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          786.955,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          846.754,
+          1392.65,
+          60.791,
+          33.708
+        ],
+        "rules-line-1": [
+          120.914,
+          1013.53,
+          817.173,
+          44.884
+        ],
+        "rules-line-2": [
+          140.024,
+          1072.53,
+          778.953,
+          45.521
+        ],
+        "rules-line-3": [
+          105.626,
+          1131.53,
+          847.749,
+          45.521
+        ],
+        "rules-line-4": [
+          92.175,
+          1190.53,
+          874.65,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-106-straining-rebirth-move.webp",
+        "after_sha256": "800914f56e8a50d3111f181b0f6594c8290412b394a8b309872e3102c3ed3f78",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-106-straining-rebirth-move.webp",
+        "after_sha256": "c9a7a0fc0fd156ebdee5786e1e68d7be6647bbccd2db71c2a6fa4eac0b9fdd68",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 683.8054862842894,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 107,
+    "id": "cell-games-107-android-18s-effect",
+    "name": "Android 18's Effect",
+    "family": "ENERGY COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-107-android-18s-effect.svg",
+    "native_source_sha256": "36f40870c33d67332801087bfc627485bccdc5247f4a8df387984ae3e13dd1f6",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ecbea51b3d7b45d70d0e54fdd88bf135ddbc86054fcc218f21a9f3dde367ea80.png",
+        "sha256": "ecbea51b3d7b45d70d0e54fdd88bf135ddbc86054fcc218f21a9f3dde367ea80"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/ecbea51b3d7b45d70d0e54fdd88bf135ddbc86054fcc218f21a9f3dde367ea80.png",
+      "source_sha256": "ecbea51b3d7b45d70d0e54fdd88bf135ddbc86054fcc218f21a9f3dde367ea80",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 613.5381555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 4 life cards. HIT: Capture",
+        "baseline": 1108.3,
+        "width": 607.9430000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "a Dragon Ball from your opponent.",
+        "baseline": 1167.3,
+        "width": 605.3950000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          248.424,
+          50.2213,
+          562.152,
+          57.5574
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          788.28,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.079,
+          1392.65,
+          58.141,
+          33.708
+        ],
+        "rules-line-1": [
+          278.11,
+          1013.53,
+          557.375,
+          45.913
+        ],
+        "power-icon": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          227.268,
+          1072.53,
+          604.464,
+          44.884
+        ],
+        "rules-line-3": [
+          228.15,
+          1132.85,
+          602.7,
+          44.5954
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            278.11,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-107-android-18s-effect.webp",
+        "after_sha256": "162b5f2ea214a39b9dadc6260ab8cfe13474b9dcbb56435dec067922820c975b",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-107-android-18s-effect.webp",
+        "after_sha256": "a16fc08f19a0df63035f3c213b37bce4ee434496f21fb6c2fe6d87327ba3376a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 562.1521197007482,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 108,
+    "id": "cell-games-108-aura-clash",
+    "name": "Aura Clash",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-108-aura-clash.svg",
+    "native_source_sha256": "1e230c4272cb1f157185782d2e9f77cf34a4b1a86847b78fda49a52455b88fa3",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298.png",
+        "sha256": "49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298.png",
+      "source_sha256": "49099dc13d0cd6333fba18e5029b8c0a00902f7ebba4a83438fd2bd12af26298",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "POWER: You cannot win by Most Powerful",
+        "baseline": 1049.3,
+        "width": 732.7950000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Personality Victory for the remainder",
+        "baseline": 1108.3,
+        "width": 662.7250000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "of the game. Raise your anger 6 levels.",
+        "baseline": 1167.3,
+        "width": 688.4499999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "Raise your opponent's anger 6 levels.",
+        "baseline": 1226.3,
+        "width": 661.4019999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          368.701,
+          50.2213,
+          321.599,
+          57.5574
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          786.955,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          846.754,
+          1392.65,
+          60.791,
+          33.708
+        ],
+        "rules-line-1": [
+          164.989,
+          1013.53,
+          729.022,
+          45.521
+        ],
+        "rules-line-2": [
+          199.377,
+          1072.53,
+          660.246,
+          45.521
+        ],
+        "rules-line-3": [
+          186.819,
+          1131.53,
+          685.363,
+          45.913
+        ],
+        "rules-line-4": [
+          200.661,
+          1190.53,
+          657.678,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-108-aura-clash.webp",
+        "after_sha256": "40e4cde86cf6ae1f006fa8413216d77be23cad4fefd4cbf8e3b61c0fa9e7b8f4",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-108-aura-clash.webp",
+        "after_sha256": "d87232e76fb50a2c0ed011dc84d94685714d35d80ac15800392fd4e0b78a4b9d",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 321.5985037406484,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 109,
+    "id": "cell-games-109-group-attack",
+    "name": "Group Attack",
+    "family": "ENERGY COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-109-group-attack.svg",
+    "native_source_sha256": "0b190c052d6cc8319384c01f26063eef448ad4518e372d94409da8656c8d8b6b",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe.png",
+        "sha256": "7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe.png",
+      "source_sha256": "7e9238515bb175d57650645423f6bcc26754584133929dfef7a2699102faa1fe",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 613.5381555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 5 life cards. An Ally that has not",
+        "baseline": 1108.3,
+        "width": 728.3850000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "used this attack this Combat must perform it.",
+        "baseline": 1167.3,
+        "width": 808.647,
+        "icon_inline": false
+      },
+      {
+        "text": "This card stays in play to be used 2 more",
+        "baseline": 1226.3,
+        "width": 727.1600000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "times this Combat. Banish after use.",
+        "baseline": 1285.3,
+        "width": 643.9580000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          335.491,
+          44.5,
+          388.017,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          787.167,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          846.966,
+          1392.65,
+          60.367,
+          33.708
+        ],
+        "rules-line-1": [
+          278.11,
+          1013.53,
+          557.375,
+          45.913
+        ],
+        "power-icon": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          166.851,
+          1072.53,
+          725.298,
+          45.521
+        ],
+        "rules-line-3": [
+          126.793,
+          1131.53,
+          805.413,
+          44.884
+        ],
+        "rules-line-4": [
+          167.169,
+          1190.53,
+          724.661,
+          45.521
+        ],
+        "rules-line-5": [
+          208.623,
+          1249.53,
+          641.753,
+          36.162
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            278.11,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-109-group-attack.webp",
+        "after_sha256": "b1b9fcddc77c71d4861e373c5703eae23140dae60c391b95a0b131f20a06cddd",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-109-group-attack.webp",
+        "after_sha256": "9a8c9a3d89a10b1b98790f68717c75a52731115d97dda80593f378b56db8d807",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 388.0174563591023,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 110,
+    "id": "cell-games-110-orange-focused-attack",
+    "name": "Orange Focused Attack",
+    "family": "ENERGY COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-110-orange-focused-attack.svg",
+    "native_source_sha256": "862c376238f09156e2606c5e03a05f9435f3bf6f32776785c20308151578c31d",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22.png",
+        "sha256": "2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22.png",
+      "source_sha256": "2943d7f983f614076d030d39d75771c5546ac28abeda90e44700d0c3499ddc22",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Focused energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 772.0531555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 5 life cards. HIT: Prevent all",
+        "baseline": 1108.3,
+        "width": 656.845,
+        "icon_inline": false
+      },
+      {
+        "text": "damage from physical attacks during your",
+        "baseline": 1167.3,
+        "width": 754.3059999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent's next Attacker Attacks phase.",
+        "baseline": 1226.3,
+        "width": 723.534,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          182.005,
+          44.5,
+          694.99,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.407,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.206,
+          1392.65,
+          51.887,
+          33.708
+        ],
+        "rules-line-1": [
+          198.853,
+          1013.53,
+          715.89,
+          45.913
+        ],
+        "power-icon": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          202.989,
+          1072.53,
+          653.023,
+          36.162
+        ],
+        "rules-line-3": [
+          153.293,
+          1131.53,
+          752.415,
+          45.913
+        ],
+        "rules-line-4": [
+          169.276,
+          1192.0,
+          720.447,
+          43.414
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "F",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            144.257,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            198.853,
+            1015.0,
+            17.934,
+            34.3
+          ],
+          "new_visible_bounds": [
+            144.257,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-110-orange-focused-attack.webp",
+        "after_sha256": "e160e1607ddf2428c8930dadda8e5a20c12b6f7f526f6f28065d254bd6f3d78d",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-110-orange-focused-attack.webp",
+        "after_sha256": "6a0e0f9d7182d04b5acaa8f94c933db218732b93a554de644816a404aa6e1d97",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 694.9900249376559,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 111,
+    "id": "cell-games-111-caught-off-guard-drill",
+    "name": "Caught Off Guard Drill",
+    "family": "DRILL",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-111-caught-off-guard-drill.svg",
+    "native_source_sha256": "7d4aa6ba45f19686b99365abc9814e463f8fde8285df2898b22515ee99818015",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839.png",
+        "sha256": "ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839.png",
+      "source_sha256": "ba7df17ab3d2be8f5ba1d04c59218bed96d9e7208342e094bd1c9dd4c36d8839",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 2 per deck. Heroes only. When played,",
+        "baseline": 1049.3,
+        "width": 840.7197500000001,
+        "icon_inline": true
+      },
+      {
+        "text": "name a card other than a Personality, Dragon",
+        "baseline": 1108.3,
+        "width": 804.4330000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Ball, Sensei, or Mastery. Neither player can",
+        "baseline": 1167.3,
+        "width": 759.451,
+        "icon_inline": false
+      },
+      {
+        "text": "play or use that card while this Drill is in play.",
+        "baseline": 1226.3,
+        "width": 807.8629999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          208.461,
+          44.5,
+          642.079,
+          69.0
+        ],
+        "card-category": [
+          448.339,
+          891.991,
+          162.322,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          795.991,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.791,
+          1392.65,
+          42.718,
+          33.708
+        ],
+        "rules-line-1": [
+          111.038,
+          1013.53,
+          836.924,
+          45.521
+        ],
+        "power-icon": [
+          646.995,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          129.047,
+          1072.53,
+          800.905,
+          45.913
+        ],
+        "rules-line-3": [
+          151.686,
+          1131.53,
+          755.629,
+          45.521
+        ],
+        "rules-line-4": [
+          127.357,
+          1190.53,
+          804.286,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "W",
+          "capital_glyph_index": 25,
+          "previous_visible_bounds": [
+            646.995,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            713.569,
+            1015.0,
+            31.7651,
+            34.3
+          ],
+          "new_visible_bounds": [
+            646.995,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-111-caught-off-guard-drill.webp",
+        "after_sha256": "773052b1c36aec50c656bc7858c871263b916a3bf5c1ab4aaedda3ed80d994be",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-111-caught-off-guard-drill.webp",
+        "after_sha256": "108760f27078a52f2ec165e731513a9c964887e40d264ba70c2f3875ed34f55d",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 642.0785536159602,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "DRILL",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          162.321775,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 5
+  },
+  {
+    "number": 112,
+    "id": "cell-games-112-vegetas-anger-drill",
+    "name": "Vegeta's Anger Drill",
+    "family": "DRILL",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-112-vegetas-anger-drill.svg",
+    "native_source_sha256": "f1910f1789736b86fae27d6387ac329239071cc19412712b839eebf5d753392b",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/e96065ab5d5d5f17bc3c615d6109513e8fef8e7f4d3d4839f6a2a218bb87f736.png",
+        "sha256": "e96065ab5d5d5f17bc3c615d6109513e8fef8e7f4d3d4839f6a2a218bb87f736"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/e96065ab5d5d5f17bc3c615d6109513e8fef8e7f4d3d4839f6a2a218bb87f736.png",
+      "source_sha256": "e96065ab5d5d5f17bc3c615d6109513e8fef8e7f4d3d4839f6a2a218bb87f736",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Your Setup and Drill cards in your",
+        "baseline": 1049.3,
+        "width": 658.05275,
+        "icon_inline": true
+      },
+      {
+        "text": "Life Deck without Endurance have",
+        "baseline": 1108.3,
+        "width": 605.297,
+        "icon_inline": false
+      },
+      {
+        "text": "ENDURANCE 1 while this Drill is in play.",
+        "baseline": 1167.3,
+        "width": 673.0640000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          231.647,
+          44.5,
+          595.706,
+          69.0
+        ],
+        "card-category": [
+          448.339,
+          891.991,
+          162.322,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          792.202,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          852.001,
+          1392.65,
+          50.297,
+          33.708
+        ],
+        "rules-line-1": [
+          267.43,
+          1013.53,
+          590.911,
+          45.521
+        ],
+        "power-icon": [
+          200.66,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          228.591,
+          1072.53,
+          601.818,
+          36.162
+        ],
+        "rules-line-3": [
+          194.83,
+          1131.53,
+          669.34,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "Y",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            200.66,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            267.43,
+            1015.0,
+            20.8642,
+            34.251
+          ],
+          "new_visible_bounds": [
+            200.66,
+            1022.48,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": -0.021399999999857755,
+          "center_error": 0.001399999999875945,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-112-vegetas-anger-drill.webp",
+        "after_sha256": "86e57aabf56786770f01418d419fd1896bbd24c7f54fd6dc158106fedad72ad6",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-112-vegetas-anger-drill.webp",
+        "after_sha256": "bcdcdb8a3b112908d9d10b6afd349c953d3af1c4e0ae54da33cc45c58dcfaebf",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 595.705735660848,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "DRILL",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          162.321775,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 5
+  },
+  {
+    "number": 113,
+    "id": "cell-games-113-whos-da-man",
+    "name": "Who's da Man!",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-113-whos-da-man.svg",
+    "native_source_sha256": "af10f220b8aea10b53ab54ad4347bb74961e10944ada63c989a6eba32ef465bb",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a.png",
+        "sha256": "331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a.png",
+      "source_sha256": "331055c9116b87b737c94e434fd276357285fdabce9f42c2731a1d63431b416a",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "ENDURANCE 3. POWER: For the remainder of",
+        "baseline": 1049.3,
+        "width": 774.1509999999998,
+        "icon_inline": false
+      },
+      {
+        "text": "Combat, play with your hand face up on the table.",
+        "baseline": 1108.3,
+        "width": 877.7369999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "All your physical attacks do +4 stages",
+        "baseline": 1167.3,
+        "width": 675.71,
+        "icon_inline": false
+      },
+      {
+        "text": "of damage for the remainder of Combat.",
+        "baseline": 1226.3,
+        "width": 712.7049999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          307.702,
+          50.2213,
+          443.596,
+          57.5574
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          792.122,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.922,
+          1392.65,
+          50.456,
+          33.708
+        ],
+        "rules-line-1": [
+          144.017,
+          1013.53,
+          770.966,
+          36.162
+        ],
+        "rules-line-2": [
+          92.2485,
+          1072.53,
+          874.503,
+          45.521
+        ],
+        "rules-line-3": [
+          192.391,
+          1131.53,
+          674.219,
+          45.913
+        ],
+        "rules-line-4": [
+          174.691,
+          1190.53,
+          709.618,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-113-whos-da-man.webp",
+        "after_sha256": "5170b6c83d82b5af51218f59bd9b4001b707937d7defac813333a53c9e7d72be",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-113-whos-da-man.webp",
+        "after_sha256": "a3cf0ef0ef74d6d27679b37237b1570aae9218f8620236df29adf3c2cbd0ea0a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 443.59600997506243,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 114,
+    "id": "cell-games-114-dende",
+    "name": "Dende",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-114-dende.svg",
+    "native_source_sha256": "7c62199c7d3465d16f8caebdcf4f3843bb6fc05d050829b4348718a95dded49f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/50e92511a528a9042f668852bbb87f320440afd3712da6e7932a6a4adc45c7cb.png",
+        "sha256": "50e92511a528a9042f668852bbb87f320440afd3712da6e7932a6a4adc45c7cb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/50e92511a528a9042f668852bbb87f320440afd3712da6e7932a6a4adc45c7cb.png",
+      "source_sha256": "50e92511a528a9042f668852bbb87f320440afd3712da6e7932a6a4adc45c7cb",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Whenever you redirect damage to one",
+        "baseline": 1049.3,
+        "width": 742.7247500000001,
+        "icon_inline": true
+      },
+      {
+        "text": "of your other Allies, prevent 3 stages of",
+        "baseline": 1108.3,
+        "width": 701.974,
+        "icon_inline": false
+      },
+      {
+        "text": "damage from that attack. Dende does not",
+        "baseline": 1167.3,
+        "width": 736.8620000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "have to take over Combat to use this power.",
+        "baseline": 1226.3,
+        "width": 784.1959999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          935.94,
+          160.009,
+          95.06,
+          38.269
+        ],
+        "power-stage-value-1": [
+          937.018,
+          224.691,
+          93.982,
+          38.269
+        ],
+        "power-stage-value-2": [
+          937.802,
+          289.373,
+          93.198,
+          38.269
+        ],
+        "power-stage-value-3": [
+          943.927,
+          354.054,
+          87.073,
+          38.269
+        ],
+        "power-stage-value-4": [
+          935.646,
+          418.736,
+          95.354,
+          38.269
+        ],
+        "power-stage-value-5": [
+          941.967,
+          483.418,
+          89.033,
+          38.269
+        ],
+        "power-stage-value-6": [
+          941.624,
+          548.1,
+          89.376,
+          38.269
+        ],
+        "power-stage-value-7": [
+          945.789,
+          612.782,
+          85.211,
+          38.269
+        ],
+        "power-stage-value-8": [
+          941.869,
+          677.463,
+          89.131,
+          38.269
+        ],
+        "power-stage-value-9": [
+          942.212,
+          742.145,
+          88.788,
+          38.269
+        ],
+        "power-stage-value-10": [
+          1012.53,
+          806.827,
+          18.473,
+          31.164
+        ],
+        "card-title": [
+          437.572,
+          50.2213,
+          183.857,
+          57.5574
+        ],
+        "v3-level-number": [
+          60.8258,
+          25.15,
+          84.3485,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          80.0154,
+          876.0,
+          59.9693,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          790.479,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          850.279,
+          1392.65,
+          53.742,
+          33.708
+        ],
+        "rules-line-1": [
+          225.373,
+          1013.53,
+          674.828,
+          45.913
+        ],
+        "power-icon": [
+          158.799,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          179.787,
+          1072.53,
+          699.426,
+          45.913
+        ],
+        "rules-line-3": [
+          162.294,
+          1132.85,
+          734.412,
+          44.5954
+        ],
+        "rules-line-4": [
+          139.117,
+          1190.53,
+          780.766,
+          44.884
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "W",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            158.799,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            225.373,
+            1015.0,
+            31.7651,
+            34.3
+          ],
+          "new_visible_bounds": [
+            158.799,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-114-dende.webp",
+        "after_sha256": "b1ff047491bf7e6711411a9be28e19e4eeca1050ba70e4b9e2d02a3656037082",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-114-dende.webp",
+        "after_sha256": "8d99944db1796e228df914771a3f311203182e2e881a24461aeaa329fda69491",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 183.85660847880303,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 5
+  },
+  {
+    "number": 115,
+    "id": "cell-games-115-cell-jr-1",
+    "name": "Cell Jr. 1",
+    "family": "VILLAIN PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-115-cell-jr-1.svg",
+    "native_source_sha256": "9246217cafd993be8783d35051cd39413b91ff4df4786d8a13e9da6f78df13cf",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/f81f72d17e91661f1d5193b453c00af53cff0849d334fde6168e82221e6faa2c.png",
+        "sha256": "f81f72d17e91661f1d5193b453c00af53cff0849d334fde6168e82221e6faa2c"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/f81f72d17e91661f1d5193b453c00af53cff0849d334fde6168e82221e6faa2c.png",
+      "source_sha256": "f81f72d17e91661f1d5193b453c00af53cff0849d334fde6168e82221e6faa2c",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 613.5381555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 4 life cards +1 life card",
+        "baseline": 1108.3,
+        "width": 568.7920000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "for each Cell Jr. you control.",
+        "baseline": 1167.3,
+        "width": 503.1320000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          856.756,
+          160.009,
+          174.244,
+          38.269
+        ],
+        "power-stage-value-1": [
+          857.883,
+          224.691,
+          173.117,
+          38.269
+        ],
+        "power-stage-value-2": [
+          857.54,
+          289.373,
+          173.46,
+          38.269
+        ],
+        "power-stage-value-3": [
+          861.705,
+          354.054,
+          169.295,
+          38.269
+        ],
+        "power-stage-value-4": [
+          857.785,
+          418.736,
+          173.215,
+          38.269
+        ],
+        "power-stage-value-5": [
+          858.128,
+          483.418,
+          172.872,
+          38.269
+        ],
+        "power-stage-value-6": [
+          857.736,
+          548.1,
+          173.264,
+          38.269
+        ],
+        "power-stage-value-7": [
+          858.814,
+          612.782,
+          172.186,
+          38.269
+        ],
+        "power-stage-value-8": [
+          859.598,
+          677.463,
+          171.402,
+          38.269
+        ],
+        "power-stage-value-9": [
+          865.723,
+          742.145,
+          165.277,
+          38.269
+        ],
+        "power-stage-value-10": [
+          1012.53,
+          806.827,
+          18.473,
+          31.164
+        ],
+        "card-title": [
+          408.363,
+          50.2213,
+          242.274,
+          57.5574
+        ],
+        "v3-level-number": [
+          60.8258,
+          25.15,
+          84.3485,
+          95.4
+        ],
+        "card-category": [
+          419.002,
+          891.991,
+          220.996,
+          33.0187
+        ],
+        "concept-pur-number": [
+          81.2649,
+          876.0,
+          57.4701,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.539,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.339,
+          1392.65,
+          51.622,
+          33.708
+        ],
+        "rules-line-1": [
+          278.11,
+          1013.53,
+          557.375,
+          45.913
+        ],
+        "power-icon": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          247.113,
+          1072.53,
+          564.774,
+          36.162
+        ],
+        "rules-line-3": [
+          279.159,
+          1132.61,
+          500.682,
+          44.443
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            278.11,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-115-cell-jr-1.webp",
+        "after_sha256": "227b04c5b2bdc4a92249f3502fb1652a28a4c73ab16837077bee812cafd86ffd",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-115-cell-jr-1.webp",
+        "after_sha256": "874ec543f18236f5654a3004753f43b3aa7799ebea062463769bd9931cec9d2f",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 242.27431421446389,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "VILLAIN",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          220.99575000000002,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 116,
+    "id": "cell-games-116-gokus-dragon-ball-quest",
+    "name": "Goku's Dragon Ball Quest",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-116-gokus-dragon-ball-quest.svg",
+    "native_source_sha256": "fc923b8e1a8f77dbefe24ff3db82a377c9b70db3202565f0fabc7f07369ed80a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa.png",
+        "sha256": "eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa.png",
+      "source_sha256": "eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Search your",
+        "baseline": 1049.3,
+        "width": 660.863,
+        "icon_inline": false
+      },
+      {
+        "text": "Life Deck for a Dende Dragon Ball that is",
+        "baseline": 1108.3,
+        "width": 712.4599999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "not currently in play and place it in play.",
+        "baseline": 1167.3,
+        "width": 712.607,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          152.71,
+          44.5,
+          753.58,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.433,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.233,
+          1392.65,
+          51.834,
+          33.708
+        ],
+        "rules-line-1": [
+          200.333,
+          1013.53,
+          658.335,
+          45.521
+        ],
+        "rules-line-2": [
+          174.765,
+          1072.53,
+          709.471,
+          45.913
+        ],
+        "rules-line-3": [
+          174.912,
+          1131.53,
+          709.177,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-116-gokus-dragon-ball-quest.webp",
+        "after_sha256": "cdbe85127071531dfaccdb5269442567f5b736961ea91798e560489cfef84eb7",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-116-gokus-dragon-ball-quest.webp",
+        "after_sha256": "d56e9c120c7a21b9276a3f1c20c478ea014ed215e7588a5b971924c52b43984a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 753.5798004987532,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 117,
+    "id": "cell-games-117-chazke-village",
+    "name": "Chazke Village",
+    "family": "LOCATION",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-117-chazke-village.svg",
+    "native_source_sha256": "91d7d01eb57a528a02df0932ec85084eeb257258a21a2bd97fb31e633d2823e8",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+        "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3.png",
+        "sha256": "63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+        "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3.png",
+      "source_sha256": "63780abd9a8d22fd10178d0700413c91df8e336883c9199017d55b632f9a01f3",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        16,
+        145.0,
+        1451,
+        483.6666666666667
+      ]
+    },
+    "rules": [
+      {
+        "text": "POWER: When entering Combat, the attacker may search their",
+        "baseline": 815.983333333333,
+        "width": 1102.3039999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "Life Deck for an Ally and place it in play at 3 stages above 0.",
+        "baseline": 874.983333333333,
+        "width": 1066.1909999999998,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          522.842,
+          44.5,
+          437.315,
+          69.0
+        ],
+        "card-category": [
+          593.699,
+          668.057,
+          295.602,
+          34.2188
+        ],
+        "footer-text-block": [
+          546.3,
+          958.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          259.568,
+          953.186,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          1131.96,
+          961.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          1191.76,
+          968.646,
+          49.184,
+          33.708
+        ],
+        "rules-line-1": [
+          191.588,
+          780.213,
+          1099.82,
+          45.913
+        ],
+        "rules-line-2": [
+          210.267,
+          839.213,
+          1062.47,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-117-chazke-village.webp",
+        "after_sha256": "a11c425bce01fe4cce33a258975db12666907db6f6ad85fc762fb6ac1e46acd2",
+        "size": [
+          1484,
+          1060
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-117-chazke-village.webp",
+        "after_sha256": "aec66bd09e4fb3bfd4a9b455b854c50285c4b72b5108f6188f6a63ef797de8cc",
+        "size": [
+          2968,
+          2120
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "max_width": 1184,
+        "visible_center": [
+          741.5,
+          79
+        ]
+      },
+      "middle_label": {
+        "retained_fixed_landscape_component": true
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 118,
+    "id": "cell-games-118-vegetas-surprised",
+    "name": "Vegeta's Surprised",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-118-vegetas-surprised.svg",
+    "native_source_sha256": "207785741b30210f90b3d015f9a73b75487c95e02bcbb3b6231db73c0ebb1017",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393.png",
+        "sha256": "578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393.png",
+      "source_sha256": "578e5bd5255368cb3a3d697a8e84b0359caad47943157737e24c859cfcdc3393",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Attach to a Main",
+        "baseline": 1049.3,
+        "width": 732.5500000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Personality. Banish this card when that",
+        "baseline": 1108.3,
+        "width": 696.486,
+        "icon_inline": false
+      },
+      {
+        "text": "personality performs an energy attack.",
+        "baseline": 1167.3,
+        "width": 697.5640000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "This personality deals a maximum of 5",
+        "baseline": 1226.3,
+        "width": 685.608,
+        "icon_inline": false
+      },
+      {
+        "text": "stages of damage with each physical attack.",
+        "baseline": 1285.3,
+        "width": 794.682,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          245.241,
+          44.5,
+          568.519,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.433,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.233,
+          1392.65,
+          51.834,
+          33.708
+        ],
+        "rules-line-1": [
+          165.136,
+          1013.53,
+          728.728,
+          44.884
+        ],
+        "rules-line-2": [
+          182.776,
+          1072.53,
+          693.448,
+          45.521
+        ],
+        "rules-line-3": [
+          182.506,
+          1131.53,
+          693.987,
+          45.913
+        ],
+        "rules-line-4": [
+          187.847,
+          1190.53,
+          683.305,
+          45.521
+        ],
+        "rules-line-5": [
+          133.531,
+          1249.53,
+          791.938,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-118-vegetas-surprised.webp",
+        "after_sha256": "4da1f6b5287974f3e2fd3e7ecd1b6c1ffe693f89733f36c04ac4e70dd91bba32",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-118-vegetas-surprised.webp",
+        "after_sha256": "59aa5ed1ad94cd99c7cf7242add52a41db63fa76e16edc1dd0c87af33df0d9b6",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 568.5187032418953,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 119,
+    "id": "cell-games-119-gohans-elbow-block",
+    "name": "Gohan's Elbow Block",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-119-gohans-elbow-block.svg",
+    "native_source_sha256": "b00d34d2e2b96f1c818b01b55e9a07df6c8109d6b1f9b58b50b173f266b22674",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/bf16a265b7011c44991579edf0c124bb4e2b374fadbece7955ebb69a2011e68c.png",
+        "sha256": "bf16a265b7011c44991579edf0c124bb4e2b374fadbece7955ebb69a2011e68c"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/bf16a265b7011c44991579edf0c124bb4e2b374fadbece7955ebb69a2011e68c.png",
+      "source_sha256": "bf16a265b7011c44991579edf0c124bb4e2b374fadbece7955ebb69a2011e68c",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Stops a physical attack. Search your",
+        "baseline": 1049.3,
+        "width": 699.5009473684211,
+        "icon_inline": true
+      },
+      {
+        "text": "discard pile for a Gohan named card and",
+        "baseline": 1108.3,
+        "width": 716.9680000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "place it in your hand. Banish after use.",
+        "baseline": 1167.3,
+        "width": 683.403,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          217.408,
+          50.2213,
+          624.183,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          791.645,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          851.445,
+          1392.65,
+          51.41,
+          33.708
+        ],
+        "rules-line-1": [
+          230.628,
+          1013.53,
+          648.437,
+          45.521
+        ],
+        "power-icon": [
+          179.936,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "rules-line-2": [
+          172.706,
+          1072.53,
+          713.587,
+          44.884
+        ],
+        "rules-line-3": [
+          189.587,
+          1131.53,
+          679.826,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "S",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            179.936,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            230.628,
+            1014.61,
+            19.257,
+            35.084
+          ],
+          "new_visible_bounds": [
+            179.936,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.0019999999999527063,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-119-gohans-elbow-block.webp",
+        "after_sha256": "e2e76326bf251c2e5d32d33e22d29e3e8317bf8cfeca7aede9444f8e73336249",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-119-gohans-elbow-block.webp",
+        "after_sha256": "8724ca0039dd1491d4e4590669862347ca3763e13a1107fe4856b3041f1991e1",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 624.1832917705736,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "block",
+    "rarity_stars": 5
+  },
+  {
+    "number": 120,
+    "id": "cell-games-120-straining-destruction-move",
+    "name": "Straining Destruction Move",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-120-straining-destruction-move.svg",
+    "native_source_sha256": "1372f71f273eb5e692202817948bc8043e84f3afab327a55027e74bc8c54c98a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/f2e1ac35fd41e72675bbcd3c11cf5291c1e4aa6e4e64f0a45507d88fc7b80d10.png",
+        "sha256": "f2e1ac35fd41e72675bbcd3c11cf5291c1e4aa6e4e64f0a45507d88fc7b80d10"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/f2e1ac35fd41e72675bbcd3c11cf5291c1e4aa6e4e64f0a45507d88fc7b80d10.png",
+      "source_sha256": "f2e1ac35fd41e72675bbcd3c11cf5291c1e4aa6e4e64f0a45507d88fc7b80d10",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Set your Main",
+        "baseline": 1049.3,
+        "width": 685.363,
+        "icon_inline": false
+      },
+      {
+        "text": "Personality to 0 stages and banish your",
+        "baseline": 1108.3,
+        "width": 702.072,
+        "icon_inline": false
+      },
+      {
+        "text": "discard pile. Your opponent discards the top",
+        "baseline": 1167.3,
+        "width": 785.9600000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "5 cards of their Life Deck. Banish after use.",
+        "baseline": 1226.3,
+        "width": 769.692,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          149.5,
+          46.8963,
+          760.0,
+          64.2073
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          788.094,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.894,
+          1392.65,
+          58.512,
+          33.708
+        ],
+        "rules-line-1": [
+          188.73,
+          1013.53,
+          681.541,
+          45.521
+        ],
+        "rules-line-2": [
+          179.704,
+          1072.53,
+          699.593,
+          45.913
+        ],
+        "rules-line-3": [
+          138.014,
+          1131.53,
+          782.971,
+          44.884
+        ],
+        "rules-line-4": [
+          146.197,
+          1190.53,
+          766.605,
+          36.162
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-120-straining-destruction-move.webp",
+        "after_sha256": "204fdf5273370610f195f9904a438f7d1be7d86da7d2f3c4a855bb1c880f45b2",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-120-straining-destruction-move.webp",
+        "after_sha256": "1d79d70cab42d3d8ef8ac538be52301bae0b9c39c799d07a7fb13015f7a84382",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 80.05899083535236,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 760.0,
+        "visible_height": 64.2073106499526,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 0.9305407340572839
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 121,
+    "id": "cell-games-121-cosmic-backlash",
+    "name": "Cosmic Backlash",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-121-cosmic-backlash.svg",
+    "native_source_sha256": "87b1008b8aae21b41ff2a67bb379a9ed1cf35eb38455bd7a2b33d9a008cef974",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/1324e2ab9529cd02c42c0d943a95ac8d7db93c0fa7bf12a02046663487d152d8.png",
+        "sha256": "1324e2ab9529cd02c42c0d943a95ac8d7db93c0fa7bf12a02046663487d152d8"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/1324e2ab9529cd02c42c0d943a95ac8d7db93c0fa7bf12a02046663487d152d8.png",
+      "source_sha256": "1324e2ab9529cd02c42c0d943a95ac8d7db93c0fa7bf12a02046663487d152d8",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Limit 0 per deck. Physical attack.",
+        "baseline": 1049.3,
+        "width": 648.1761555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: AT stages. Your opponent",
+        "baseline": 1108.3,
+        "width": 620.6830000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "draws 5 cards. HIT: If you did not declare",
+        "baseline": 1167.3,
+        "width": 728.875,
+        "icon_inline": false
+      },
+      {
+        "text": "a Tokui-Waza, you win the game.",
+        "baseline": 1226.3,
+        "width": 585.6970000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          274.191,
+          50.2213,
+          510.617,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          792.679,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          852.478,
+          1392.65,
+          49.343,
+          33.708
+        ],
+        "rules-line-1": [
+          207.274,
+          1013.53,
+          644.452,
+          45.521
+        ],
+        "power-icon": [
+          514.94,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          220.702,
+          1073.61,
+          617.596,
+          44.835
+        ],
+        "rules-line-3": [
+          166.483,
+          1131.53,
+          726.033,
+          45.521
+        ],
+        "rules-line-4": [
+          237.999,
+          1190.53,
+          583.002,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 14,
+          "previous_visible_bounds": [
+            514.94,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            569.486,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            514.94,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-121-cosmic-backlash.webp",
+        "after_sha256": "ac4c1662e1d5f855347229acc7482bec24b6a256217bb851e827379a1bd81fc0",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-121-cosmic-backlash.webp",
+        "after_sha256": "da31f00844d5476e6740f76f6e9b64249466784c9e19996414ebffb3936f345d",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 510.61720698254373,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 122,
+    "id": "cell-games-122-chiaotzu",
+    "name": "Chiaotzu",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-122-chiaotzu.svg",
+    "native_source_sha256": "a567149717c42ec8b2ef8c73c140823660ed3f24a5443f0461a8cc9f8c849466",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e.png",
+        "sha256": "5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e.png",
+      "source_sha256": "5c348025a1bca57032589a922778806fcfb406f0473b1993d9a1f775edc6de3e",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Focused energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 772.0531555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 4 life cards.",
+        "baseline": 1108.3,
+        "width": 377.2020000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          917.369,
+          160.009,
+          113.631,
+          38.269
+        ],
+        "power-stage-value-1": [
+          914.527,
+          224.691,
+          116.473,
+          38.269
+        ],
+        "power-stage-value-2": [
+          917.124,
+          289.373,
+          113.876,
+          38.269
+        ],
+        "power-stage-value-3": [
+          912.861,
+          354.054,
+          118.139,
+          38.269
+        ],
+        "power-stage-value-4": [
+          915.017,
+          418.736,
+          115.983,
+          38.269
+        ],
+        "power-stage-value-5": [
+          912.175,
+          483.418,
+          118.825,
+          38.269
+        ],
+        "power-stage-value-6": [
+          917.418,
+          548.1,
+          113.582,
+          38.269
+        ],
+        "power-stage-value-7": [
+          913.155,
+          612.782,
+          117.845,
+          38.269
+        ],
+        "power-stage-value-8": [
+          915.311,
+          677.463,
+          115.689,
+          38.269
+        ],
+        "power-stage-value-9": [
+          912.469,
+          742.145,
+          118.531,
+          38.269
+        ],
+        "power-stage-value-10": [
+          1012.53,
+          806.827,
+          18.473,
+          31.164
+        ],
+        "card-title": [
+          401.824,
+          50.2213,
+          255.352,
+          57.5574
+        ],
+        "v3-level-number": [
+          60.8258,
+          25.15,
+          84.3485,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          81.2649,
+          876.0,
+          57.4701,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          788.889,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.689,
+          1392.65,
+          56.922,
+          33.708
+        ],
+        "rules-line-1": [
+          198.853,
+          1013.53,
+          715.89,
+          45.913
+        ],
+        "power-icon": [
+          144.257,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          342.761,
+          1072.53,
+          373.478,
+          36.162
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "F",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            144.257,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            198.853,
+            1015.0,
+            17.934,
+            34.3
+          ],
+          "new_visible_bounds": [
+            144.257,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-122-chiaotzu.webp",
+        "after_sha256": "de32a0769e71e9fb9e991b97469ba35ed54ce83c10da87a47bc64f15cb064305",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-122-chiaotzu.webp",
+        "after_sha256": "3207c13490252a19d763c79e2c528fe03fcf7ac5cea975aa51e5f61d08fb8a0c",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 255.35162094763095,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": 123,
+    "id": "cell-games-123-dragons-victory",
+    "name": "Dragon's Victory",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-123-dragons-victory.svg",
+    "native_source_sha256": "329b716cf569b104ceda4c37428d9076948f1848afe6e773f995a44030de17cb",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7198174b36e0434e555cb5142f5bb3c184ef19b1d08dac4e5c457c7cd7529da4.png",
+        "sha256": "7198174b36e0434e555cb5142f5bb3c184ef19b1d08dac4e5c457c7cd7529da4"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/7198174b36e0434e555cb5142f5bb3c184ef19b1d08dac4e5c457c7cd7529da4.png",
+      "source_sha256": "7198174b36e0434e555cb5142f5bb3c184ef19b1d08dac4e5c457c7cd7529da4",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "You must have 4 anger to use this card.",
+        "baseline": 1049.3,
+        "width": 705.5999999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "POWER: You may raise your opponent's",
+        "baseline": 1108.3,
+        "width": 694.5260000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "anger 1 level. If your opponent",
+        "baseline": 1167.3,
+        "width": 533.7080000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "has 4 anger, you win the game.",
+        "baseline": 1226.3,
+        "width": 552.72,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          280.085,
+          44.5,
+          498.83,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          788.81,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.609,
+          1392.65,
+          57.081,
+          33.708
+        ],
+        "rules-line-1": [
+          178.072,
+          1013.53,
+          702.856,
+          45.913
+        ],
+        "rules-line-2": [
+          183.707,
+          1072.53,
+          691.586,
+          45.521
+        ],
+        "rules-line-3": [
+          263.675,
+          1132.85,
+          531.65,
+          44.5954
+        ],
+        "rules-line-4": [
+          254.855,
+          1190.53,
+          549.29,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-123-dragons-victory.webp",
+        "after_sha256": "6599460b4482050f26aff622241f60128ac9b39a12796734769ec5aed870c604",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-123-dragons-victory.webp",
+        "after_sha256": "4738fdc0965f975e65431e8caec772f54187916c98f5931e56980153611af1a5",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 498.8304239401497,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": 124,
+    "id": "cell-games-124-trunks-the-battler",
+    "name": "Trunks, the Battler",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-124-trunks-the-battler.svg",
+    "native_source_sha256": "ba6bf21c7d4fd603e123ba0a196eabb3f483dbd08e35dc10e7dcd092f363c84d",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2ed0c71f7e63f76021bf2d9360aaed817cfa6e1d56019ca944c8c8d6a2e63bba.png",
+        "sha256": "2ed0c71f7e63f76021bf2d9360aaed817cfa6e1d56019ca944c8c8d6a2e63bba"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/2ed0c71f7e63f76021bf2d9360aaed817cfa6e1d56019ca944c8c8d6a2e63bba.png",
+      "source_sha256": "2ed0c71f7e63f76021bf2d9360aaed817cfa6e1d56019ca944c8c8d6a2e63bba",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "POWER: When entering Combat as the",
+        "baseline": 1049.3,
+        "width": 669.634,
+        "icon_inline": false
+      },
+      {
+        "text": "attacker, you may draw up to 3 cards.",
+        "baseline": 1108.3,
+        "width": 674.2400000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          880.388,
+          157.656,
+          150.612,
+          32.802
+        ],
+        "power-stage-value-1": [
+          880.094,
+          212.387,
+          150.906,
+          32.802
+        ],
+        "power-stage-value-2": [
+          883.664,
+          267.118,
+          147.336,
+          32.802
+        ],
+        "power-stage-value-3": [
+          880.304,
+          321.849,
+          150.696,
+          32.802
+        ],
+        "power-stage-value-4": [
+          880.598,
+          376.579,
+          150.402,
+          32.802
+        ],
+        "power-stage-value-5": [
+          880.262,
+          431.31,
+          150.738,
+          32.802
+        ],
+        "power-stage-value-6": [
+          881.186,
+          486.041,
+          149.814,
+          32.802
+        ],
+        "power-stage-value-7": [
+          881.858,
+          540.772,
+          149.142,
+          32.802
+        ],
+        "power-stage-value-8": [
+          887.108,
+          595.503,
+          143.892,
+          32.802
+        ],
+        "power-stage-value-9": [
+          880.01,
+          650.233,
+          150.99,
+          32.802
+        ],
+        "power-stage-value-10": [
+          882.026,
+          704.964,
+          148.974,
+          32.802
+        ],
+        "power-stage-value-11": [
+          881.732,
+          759.695,
+          149.268,
+          32.802
+        ],
+        "power-stage-value-12": [
+          1015.17,
+          814.426,
+          15.834,
+          26.712
+        ],
+        "card-title": [
+          249.844,
+          50.2213,
+          559.313,
+          70.0324
+        ],
+        "v3-level-number": [
+          57.928,
+          25.15,
+          90.1441,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          79.2905,
+          876.0,
+          61.4189,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          787.167,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          846.966,
+          1392.65,
+          60.367,
+          33.708
+        ],
+        "rules-line-1": [
+          196.398,
+          1013.53,
+          666.204,
+          45.913
+        ],
+        "rules-line-2": [
+          193.727,
+          1074.0,
+          671.545,
+          44.051
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-124-trunks-the-battler.webp",
+        "after_sha256": "437b0f57aedf92070db943220899673d498f7f50e60ead15268f9a2a8d3a78c7",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-124-trunks-the-battler.webp",
+        "after_sha256": "40d523a51ccdb07c6c062b04fad940374b7a09b3f21ad56725bd27305e56bb54",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 559.3129675810475,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 6
+  },
+  {
+    "number": 125,
+    "id": "cell-games-125-piccolo-the-defender",
+    "name": "Piccolo, the Defender",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-125-piccolo-the-defender.svg",
+    "native_source_sha256": "70436d30802257eb019fd6b65e53c7a8ced90a539be68620dfcc1a4f1f727813",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b018d8e9b5f40a1da9d462494075640cbd0d83449acb134a710e0c5613f74db8.png",
+        "sha256": "b018d8e9b5f40a1da9d462494075640cbd0d83449acb134a710e0c5613f74db8"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+        "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-templates/v3/assets/b018d8e9b5f40a1da9d462494075640cbd0d83449acb134a710e0c5613f74db8.png",
+      "source_sha256": "b018d8e9b5f40a1da9d462494075640cbd0d83449acb134a710e0c5613f74db8",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "All your physical attacks",
+        "baseline": 1049.3,
+        "width": 503.8007500000001,
+        "icon_inline": true
+      },
+      {
+        "text": "do +5 stages of damage.",
+        "baseline": 1108.3,
+        "width": 433.846,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          880.01,
+          157.656,
+          150.99,
+          32.802
+        ],
+        "power-stage-value-1": [
+          882.026,
+          212.387,
+          148.974,
+          32.802
+        ],
+        "power-stage-value-2": [
+          881.732,
+          267.118,
+          149.268,
+          32.802
+        ],
+        "power-stage-value-3": [
+          885.302,
+          321.849,
+          145.698,
+          32.802
+        ],
+        "power-stage-value-4": [
+          881.942,
+          376.579,
+          149.058,
+          32.802
+        ],
+        "power-stage-value-5": [
+          882.236,
+          431.31,
+          148.764,
+          32.802
+        ],
+        "power-stage-value-6": [
+          881.9,
+          486.041,
+          149.1,
+          32.802
+        ],
+        "power-stage-value-7": [
+          882.824,
+          540.772,
+          148.176,
+          32.802
+        ],
+        "power-stage-value-8": [
+          883.496,
+          595.503,
+          147.504,
+          32.802
+        ],
+        "power-stage-value-9": [
+          888.746,
+          650.233,
+          142.254,
+          32.802
+        ],
+        "power-stage-value-10": [
+          881.648,
+          704.964,
+          149.352,
+          32.802
+        ],
+        "power-stage-value-11": [
+          882.614,
+          759.695,
+          148.386,
+          32.802
+        ],
+        "power-stage-value-12": [
+          1015.17,
+          814.426,
+          15.834,
+          26.712
+        ],
+        "card-title": [
+          209.5,
+          50.437,
+          640.0,
+          69.5077
+        ],
+        "v3-level-number": [
+          57.928,
+          25.15,
+          90.1441,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          79.2905,
+          876.0,
+          61.4189,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          174.768,
+          1377.19,
+          73.9635,
+          64.6283
+        ],
+        "footer-rarity": [
+          788.227,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.026,
+          1392.65,
+          58.247,
+          33.708
+        ],
+        "rules-line-1": [
+          344.268,
+          1013.53,
+          436.716,
+          45.521
+        ],
+        "power-icon": [
+          278.016,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          314.12,
+          1073.85,
+          430.759,
+          44.5954
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "A",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            278.016,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            344.268,
+            1015.0,
+            22.3226,
+            34.3
+          ],
+          "new_visible_bounds": [
+            278.016,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-games-125-piccolo-the-defender.webp",
+        "after_sha256": "4b93a012df9fdd83e77097609a3d59ddb6b69095766031bf5182a6e36a38e5f9",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-games-125-piccolo-the-defender.webp",
+        "after_sha256": "75ab1f42eee2c7f096daeea80ae2edaa956ccab6b8d0604c093e9d29b2eb1046",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 85.39026017344895,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 57.12608405603734,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.9925070820160298
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 6
+  }
+]

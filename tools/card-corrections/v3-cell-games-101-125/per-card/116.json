@@ -1,0 +1,179 @@
+{
+  "number": 116,
+  "id": "cell-games-116-gokus-dragon-ball-quest",
+  "name": "Goku's Dragon Ball Quest",
+  "family": "EVENT",
+  "native_source_path": "tools/card-templates/v3/cell-games-101-125/cell-games-116-gokus-dragon-ball-quest.svg",
+  "native_source_sha256": "fc923b8e1a8f77dbefe24ff3db82a377c9b70db3202565f0fabc7f07369ed80a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa.png",
+      "sha256": "eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-templates/v3/assets/eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa.png",
+    "source_sha256": "eaa462f33212190c3716eadaee9322a8217325995a6d9172b65fc076954965fa",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. POWER: Search your",
+      "baseline": 1049.3,
+      "width": 660.863,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a Dende Dragon Ball that is",
+      "baseline": 1108.3,
+      "width": 712.4599999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "not currently in play and place it in play.",
+      "baseline": 1167.3,
+      "width": 712.607,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        152.71,
+        44.5,
+        753.58,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        791.433,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        851.233,
+        1392.65,
+        51.834,
+        33.708
+      ],
+      "rules-line-1": [
+        200.333,
+        1013.53,
+        658.335,
+        45.521
+      ],
+      "rules-line-2": [
+        174.765,
+        1072.53,
+        709.471,
+        45.913
+      ],
+      "rules-line-3": [
+        174.912,
+        1131.53,
+        709.177,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-116-gokus-dragon-ball-quest.webp",
+      "after_sha256": "cdbe85127071531dfaccdb5269442567f5b736961ea91798e560489cfef84eb7",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-116-gokus-dragon-ball-quest.webp",
+      "after_sha256": "d56e9c120c7a21b9276a3f1c20c478ea014ed215e7588a5b971924c52b43984a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 753.5798004987532,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "EVENT",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        191.80840000000003,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}
