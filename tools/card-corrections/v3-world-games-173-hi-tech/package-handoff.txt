@@ -1,0 +1,98 @@
+WORLD GAMES SAGA #173 GOKU HI-TECH — CODEX PUBLISH HANDOFF
+Prepared November 14, 2026
+
+REQUEST
+Integrate and publish the included latest Goku Hi-Tech artwork for World Games
+Saga card #173 in https://github.com/Kaoxt/dragonball.
+Target card: https://dragonballocg.com/cards/world-games-saga/173
+Card identity: world-games-173-goku
+
+This package contains the November 14 revision of the standalone
+Goku-173-Hi-Tech-Source-and-Exports.zip (version 6), with its artwork and
+exports preserved byte-for-byte. That source package records that it was not
+integrated into the main 151–200 handoff or published. This handoff preparation
+also did not modify the repository or publish anything. Check current main and
+production before applying; retain any newer unrelated work.
+
+LATEST ARTWORK
+- Drawing and larger composition revised toward the clearer original Score
+  Goku #173 reference: serious face, asymmetric swept hair, halo and two hands
+  gripping the straight Power Pole.
+- One continuous World Games set-matched blue/indigo/cyan/red background and
+  tonal Goku portrait; the old mismatched left-side background strip is gone.
+- Orange gi, peach skin and muted midnight-indigo clothing blues adjusted
+  toward World Games #170. The final revision refines the clothing blues.
+- Existing native typography, rules, stages, borders, symbols, Level/PUR,
+  rarity, set emblem and footer retained. Use the supplied assets as delivered;
+  no further redraw, recolor, resizing of the character or template redesign.
+
+FILE MAPPING
+Package file:
+  source/world-games-173-goku.webp
+Repository destination:
+  public/assets/cards/world-games-173-goku.webp
+Dimensions: 1060 x 1484; lossless WebP.
+SHA-256: 330de0f047e8dfd3001c199d3564e473a6e0df15171edc77ea8276f59eb4bfc5
+
+Package file:
+  source/world-games-173-goku-download.webp
+Repository destination:
+  public/assets/cards/downloads/world-games-173-goku.webp
+Dimensions: 2120 x 2968; lossless WebP.
+SHA-256: 281b6b72e51d91d5e72c8533859ee7f94ed3d1bcf510680b56eebcbaa4bf4684
+
+Package file:
+  source/Goku-173-Hi-Tech.svg
+Repository destination:
+  tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg
+Portable native source with embedded artwork and outlined typography.
+
+INTEGRATION
+1. Read the repository's current AGENTS.md and card/deployment guidance.
+   Inspect the current #173 record, native source, render pipeline, asset
+   storage and image-version/cache conventions.
+2. Install the supplied display/download exports at the destinations above,
+   using the current image-storage workflow if assets are stored outside git.
+   Preserve the native SVG at the listed retained_native_source_path.
+   Keep the source foreground, background and supporting references in the
+   repository's established source archive location so the artwork is retained.
+3. Preserve the existing card ID, deck-code position, metadata, rules, stages,
+   rarity and card count. This is one artwork update, not a batch import.
+   source/card-173-record.json is reference metadata, not a replacement catalog.
+   Its artwork_asset/release_status fields describe an earlier pipeline state;
+   reconcile them with current code and the actual supplied files.
+   Its artwork_native_placement is the illustration window, not the foreground
+   transform. The authoritative foreground transform is already in the SVG:
+   x=-51, y=142, width=1200, height=800, inside the existing artwork clip.
+4. Refresh only the #173 source/export hashes and image-version URLs required
+   by the existing pipeline. Preserve retained_native_source_path so a later
+   batch build does not restore the older drawing.
+   Do not overwrite the full catalog, permanent deck-code list or other cards.
+   Preserve the separate recent #159 and #171 corrections.
+5. Keep the regular image free of a baked foil overlay; retain the site's
+   existing foil behavior for the Foil view. Do not paint glare into the source.
+6. Run the relevant current repository tests and validation. Review the diff
+   for scope, then publish using the established deployment and image-storage
+   workflow. If newer conflicting #173 edits exist, review and reconcile them
+   rather than blindly overwriting or bypassing hash guards.
+7. Verify the live card route, card browser and lossless download. Confirm the
+   correct image-version URLs and fetch both deployed asset sizes to compare
+   their decoded pixels with the supplied exports (exact file hashes if served
+   unchanged). Check the title, stages with 0 at the bottom, footer and both
+   Regular/Foil modes. Report commit/deployment, verified URLs and any blockers.
+
+PACKAGE VERIFICATION
+The original archive CRC passed. Both supplied WebPs have the recorded
+dimensions and SHA-256 values, and each matches its corresponding PNG pixels
+exactly. The preview was visually inspected. SHA256SUMS.txt covers every file
+in this handoff other than the checksum file itself.
+Earlier visual/pixel validation is retained in source/validation.json; those
+historical results are separate from the archive checks performed for this
+handoff. Repository CI and live deployment verification remain for Codex.
+
+PROMPT TO GIVE CODEX
+Apply and publish only World Games Saga Goku Hi-Tech #173 from this ZIP to
+Kaoxt/dragonball. Read START-HERE.txt, verify SHA256SUMS.txt, integrate the
+included native SVG and both lossless WebPs, refresh #173's image/source
+versions, preserve newer unrelated changes and all card/deck identities, run
+the relevant checks, and verify the live card and download after deployment.

@@ -4,58 +4,38 @@
   "name": "Goku",
   "family": "HERO PERSONALITY",
   "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg",
-  "native_source_sha256": "a5d3eed6807670041c30345ddeb4ef777099f91e5e3e038335c131dd2c61c9ac",
+  "native_source_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
   "assets": [
     {
-      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
-      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
+      "sha256": "5ee10fe92dc3c688f349deb98aa6c0c8ddbca07884f74e64d895bd70f7f94268"
     },
     {
-      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
-      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
-      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
-      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/082472c1ec9b1a1c6585f73072aa7c842cc8f1ef0ca05d54d9a5f8b395c7a72a.png",
-      "sha256": "082472c1ec9b1a1c6585f73072aa7c842cc8f1ef0ca05d54d9a5f8b395c7a72a"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/2600fd4ab27db4f71d5fac07a82a0cffe345eb74ac82deb3d2c72a6935420e7a.png",
-      "sha256": "2600fd4ab27db4f71d5fac07a82a0cffe345eb74ac82deb3d2c72a6935420e7a"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-173-goku-background-portrait.png",
-      "sha256": "b8cf6b212db1b29e17810b0781f76684a3c16bd23164dab99d90bfedf874aa36"
-    },
-    {
-      "path": "tools/card-corrections/v3-world-games-151-200/artwork/173.png",
-      "sha256": "d9db332aaab1c4576146d8b4db55889ff3ea4d9341a8e004d8b3d3ba039e70c7"
-    },
-    {
-      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
-      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      "path": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
+      "sha256": "c26070cef8658af371fead5f0cb8cc2f9dc4f356548bf4ad66b88694c7316009"
     }
   ],
   "artwork": {
-    "mode": "retained approved standalone source and exports",
-    "source": "tools/card-corrections/v3-world-games-151-200/artwork/173.png",
-    "source_sha256": "d9db332aaab1c4576146d8b4db55889ff3ea4d9341a8e004d8b3d3ba039e70c7",
-    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "mode": "retained approved standalone source and exports, November 14 revision 6",
+    "source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Clean-Foreground.png",
+    "source_sha256": "5ee10fe92dc3c688f349deb98aa6c0c8ddbca07884f74e64d895bd70f7f94268",
+    "background_source": "tools/card-corrections/v3-world-games-173-hi-tech/source/Goku-173-Continuous-Background.png",
+    "background_sha256": "c26070cef8658af371fead5f0cb8cc2f9dc4f356548bf4ad66b88694c7316009",
     "native_placement": [
       0,
       146,
       1060,
       706
     ],
-    "review": "Original scan, enlarged source detail, display card and full-resolution details compared. Closer modern interpretation; not a pixel trace.",
-    "supplement_native_sha256": "67ff959bb003baabfb18fa3a025575a6c6dd58e8a28f4b60e8ec15e48478f916",
+    "foreground_native_placement": [
+      -51,
+      142,
+      1200,
+      800
+    ],
+    "review": "Serious expression, asymmetric swept hair, halo and two hands on the straight Power Pole. Continuous set-matched background and tonal portrait; orange gi, peach skin and midnight-indigo clothing blues. Supplied native composition and export bytes retained exactly.",
+    "source_drive_file_id": "1xbd2uVqhJsmraX57Bn7dDbE0bKvv_T1B",
+    "supplement_native_sha256": "828b4fb6eeb78eafbb530acd84e2a00f162a9aa9c77d9982db3ce19efbb27fdf",
     "supplement_render_pixel_match": true
   },
   "rules": [
@@ -256,7 +236,7 @@
     {
       "field": "image",
       "path": "public/assets/cards/world-games-173-goku.webp",
-      "after_sha256": "61b609df6a1c4fc74253d9c1dcd12d354baade32ad0e364ad8bfaf667f55e864",
+      "after_sha256": "330de0f047e8dfd3001c199d3564e473a6e0df15171edc77ea8276f59eb4bfc5",
       "size": [
         1060,
         1484
@@ -267,7 +247,7 @@
     {
       "field": "downloadImage",
       "path": "public/assets/cards/downloads/world-games-173-goku.webp",
-      "after_sha256": "379950dc1af3e2b6cd1626d20a18142305a3c911f71a75d096184cc98681bfcc",
+      "after_sha256": "281b6b72e51d91d5e72c8533859ee7f94ed3d1bcf510680b56eebcbaa4bf4684",
       "size": [
         2120,
         2968

@@ -15,7 +15,8 @@ const base='tools/card-corrections/v3-world-games-151-200/';
 const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
 const release=read('release.json'),audit=read('audit.json'),source=read('cards.json');
 const gokuRevision=read('goku-pair-revision.json');
-const beforeGokuAudit=audit.map(row=>gokuRevision.cards.find(r=>r.number===row.number)?.before_audit??row);
+const gokuHiTechRevision=read('../v3-world-games-173-hi-tech/revision.json');
+const beforeGokuAudit=audit.map(row=>row.number===173?gokuHiTechRevision.before_audit:gokuRevision.cards.find(r=>r.number===row.number)?.before_audit??row);
 const pending=[];
 const expected=Array.from({length:50},(_,i)=>i+151).filter(n=>!pending.includes(n));
 const cards=catalog.filter(c=>c.set==='World Games Saga'&&Number(c.number)>=151&&Number(c.number)<=200);
@@ -112,4 +113,21 @@ test('approved standalone cards and Hi-Tech refinements retain their native sour
  assert.equal(cards.find(c=>c.number==='160').rarity,'Ultra Rare');
  const old=read('previous-47-catalog.json');
  for(const before of old){const after=catalog.find(c=>c.id===before.id);const {image:a,downloadImage:b,...oldFields}=before;const {image:c,downloadImage:d,...newFields}=after;assert.deepEqual(newFields,oldFields);}
+});
+
+test('Goku 173 retains the approved Hi-Tech revision and existing gameplay identity',()=>{
+ const row=audit.find(r=>r.number===173),d=source.find(c=>c.number===173);
+ assert.deepEqual(row,gokuHiTechRevision.after_audit);
+ assert.deepEqual(read('per-card/173.json'),row);
+ const {image:oldImage,downloadImage:oldDownload,...before}=gokuHiTechRevision.before_catalog;
+ const {image,downloadImage,...after}=cards.find(c=>c.id===before.id);
+ assert.deepEqual(after,before);assert.notEqual(image,oldImage);assert.notEqual(downloadImage,oldDownload);
+ assert.equal(d.retained_native_source_path,row.native_source_path);
+ assert.equal(d.artwork_asset,row.artwork.source);
+ assert.deepEqual(d.artwork_foreground_native_placement,[-51,142,1200,800]);
+ assert.ok(gokuHiTechRevision.embedded_sources_match_retained_pngs);
+ assert.equal(row.artwork.background_sha256,hash(fs.readFileSync(row.artwork.background_source)));
+ const checks=read('../v3-world-games-173-hi-tech/render-validation.json');
+ assert.equal(checks.length,2);
+ for(const check of checks){assert.ok(check.native_render_pixel_match);assert.ok(check.supplied_png_pixel_match);}
 });

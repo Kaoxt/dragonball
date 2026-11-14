@@ -1,0 +1,35 @@
+GOKU — WORLD GAMES #173 HI-TECH
+Revised November 14, 2026. Closer clothing-blue match; not published.
+
+The navy undershirt, sleeves, wristbands and sash were adjusted toward
+World Games #170 Goku, the Warrior: slightly lighter and less saturated,
+with the reference midnight-indigo hue. The prior version's brighter
+orange gi and peach skin were visually retained. Only the foreground
+raster asset was replaced; its placement and every native card element
+remain unchanged. AI performed this color edit, so pixel identity within
+the generated foreground is not claimed. Pose and linework were inspected.
+
+The #170 color reference is the retained artwork from the current
+World-Games-151-200-Codex-Handoff.zip version 9. It is included in
+style-references; the live reference page previously returned HTTP 403.
+
+The continuous set-matched background source is byte-for-byte unchanged.
+All native UI, typography, stages, rules, symbols, frame materials,
+Level/PUR, rarity, set emblem and footer are unchanged. Pixels outside
+the artwork window remain unchanged at both output resolutions.
+Foreground placement: x=-51,y=142,width=1200,height=800.
+
+Goku-173-Hi-Tech.svg is portable with embedded images and outlined type.
+Display export: world-games-173-goku.webp (1060x1484)
+Download export: world-games-173-goku-download.webp (2120x2968)
+Full PNG: Goku-173-Hi-Tech-Card.png
+Lossless WebP exports match their corresponding PNG pixels exactly.
+
+For later integration preserve existing catalog and deck-code identities:
+public/assets/cards/world-games-173-goku.webp
+public/assets/cards/downloads/world-games-173-goku.webp
+Use the -download.webp export for the second path.
+
+This updates the standalone Goku source/export package only. The main
+151-200 handoff and website have not been changed. Refresh relevant
+asset/source hashes and verify deployed bytes when publishing later.

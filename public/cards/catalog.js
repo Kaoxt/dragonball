@@ -22078,8 +22078,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-173-goku.webp?v=61b609df6a1c",
-    "downloadImage": "/assets/cards/downloads/world-games-173-goku.webp?v=379950dc1af3"
+    "image": "/assets/cards/world-games-173-goku.webp?v=330de0f047e8",
+    "downloadImage": "/assets/cards/downloads/world-games-173-goku.webp?v=281b6b72e51d"
   },
   {
     "id": "world-games-174-goten-the-playful",
