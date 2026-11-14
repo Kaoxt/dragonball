@@ -214,7 +214,8 @@ test('Regular suppresses both finishes across card changes while keeping tilt; F
   const p = preview(t);
   assert.equal(setupCardMotion(p.stage), p.controller, 'one controller per stage');
   p.controller.surface.setFinish('regular');
-  for (const source of ['/assets/cards/trunks-195-vegeta.webp', '/assets/cards/frieza-125-super-saiyan-goku.webp']) {
+  for (const source of ['/assets/cards/trunks-195-vegeta.webp', '/assets/cards/frieza-125-super-saiyan-goku.webp',
+    '/assets/cards/world-games-159-goku-the-galaxys-hero.webp']) {
     p.image.setAttribute('src', source);
     p.observations.find(o => o.target === p.image).callback();
     assert.equal(p.effects.hidden, true);

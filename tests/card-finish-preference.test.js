@@ -1,6 +1,22 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {createFinishPreference} from '../public/cards/finish-preference.js';
+
+test('the Cards page and finish controls share the same versioned viewer modules', () => {
+  const html = readFileSync(new URL('../public/cards/index.html', import.meta.url), 'utf8');
+  const finish = readFileSync(new URL('../public/cards/card-finish.js', import.meta.url), 'utf8');
+  const motion = readFileSync(new URL('../public/card-motion.js', import.meta.url), 'utf8');
+  const pageMotion = html.match(/src="([^\"]*\/card-motion\.js[^\"]*)"/)[1];
+  const finishMotion = finish.match(/from '([^']*\/card-motion\.js[^']*)'/)[1];
+  const finishSurface = finish.match(/from '([^']*\/card-surface\.js[^']*)'/)[1];
+  const motionSurface = motion.match(/from '([^']*\/card-surface\.js[^']*)'/)[1];
+  const origin = 'https://dragonballocg.com';
+  assert.equal(new URL(finishMotion, origin + '/cards/card-finish.js').href,
+    new URL(pageMotion, origin).href, 'different queries create separate motion controller registries');
+  assert.equal(new URL(finishSurface, origin + '/cards/card-finish.js').href,
+    new URL(motionSurface, origin + pageMotion).href, 'eligibility and rendering share one surface module');
+});
 
 function fixture(request, storage = new Map()) {
   let state;
