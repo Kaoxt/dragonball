@@ -1,0 +1,301 @@
+{
+  "number": 170,
+  "id": "world-games-170-goku-the-warrior",
+  "name": "Goku, the Warrior",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-170-goku-the-warrior.svg",
+  "native_source_sha256": "09cc4302ad319a5b97b7ef32bb129f7add1f69c3deb4d946d6af68e0a5ea5918",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/93035e5eb957cabd274618624b88929a4f443ed14863537da427343508d4af18.png",
+      "sha256": "93035e5eb957cabd274618624b88929a4f443ed14863537da427343508d4af18"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/170.png",
+    "source_sha256": "93035e5eb957cabd274618624b88929a4f443ed14863537da427343508d4af18",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, search",
+      "baseline": 1049.3,
+      "width": 611.11075,
+      "icon_inline": true
+    },
+    {
+      "text": "your discard pile for a Setup or Drill and place it",
+      "baseline": 1108.3,
+      "width": 846.377,
+      "icon_inline": false
+    },
+    {
+      "text": "in your hand. Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 886.753,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.008,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        863.616,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.694,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        865.478,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        871.603,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.39,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.036,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.684,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        263.824,
+        50.2213,
+        531.352,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        789.234,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        849.034,
+        1392.65,
+        56.233,
+        33.708
+      ],
+      "rules-line-1": [
+        291.351,
+        1013.53,
+        542.871,
+        45.913
+      ],
+      "power-icon": [
+        224.778,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        107.096,
+        1072.53,
+        844.809,
+        45.521
+      ],
+      "rules-line-3": [
+        87.6425,
+        1131.53,
+        883.715,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          224.778,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          291.351,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          224.778,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-170-goku-the-warrior.webp",
+      "after_sha256": "3cb8d27c24ff67e8973beb6b6894971e0ba5a739e9dd3718ef34f03ff205635a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-170-goku-the-warrior.webp",
+      "after_sha256": "1378f7f76a32f3de9273422222116a8d4e86b21166fde21de34b6a3ccdb681ce",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 531.351620947631,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

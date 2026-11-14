@@ -1,0 +1,281 @@
+{
+  "number": 177,
+  "id": "world-games-177-goten",
+  "name": "Goten",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-177-goten.svg",
+  "native_source_sha256": "11ca7ad7a3a0fb2ee538ba2606de07edf97335aace577723fd3004020319a99e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
+      "sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-177-goten-background-portrait.png",
+      "sha256": "ed3022b39db3aee5fdeebe71e4f34c0000a3076beacfda76adab2846928d6fe9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/177.png",
+    "source_sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      -100,
+      1060,
+      1484
+    ],
+    "review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
+    "supplement_native_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
+    "supplement_render_pixel_match": false,
+    "native_ui_repair": "Restore native footer ink missing from supplied raster; align attack icon by -0.0255 native units."
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing 2 cards banished",
+      "baseline": 1049.3,
+      "width": 778.2761555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "from the top of your discard pile.",
+      "baseline": 1108.3,
+      "width": 582.1200000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "DAMAGE: 7 stages.",
+      "baseline": 1167.3,
+      "width": 321.44,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        890.272,
+        160.009,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-1": [
+        893.31,
+        224.691,
+        138.621,
+        38.269
+      ],
+      "power-stage-value-2": [
+        895.123,
+        289.373,
+        136.808,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.713,
+        354.054,
+        141.218,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.909,
+        418.736,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-5": [
+        890.615,
+        483.418,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-6": [
+        891.252,
+        548.1,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-7": [
+        893.065,
+        612.782,
+        138.866,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.096,
+        677.463,
+        142.835,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.292,
+        742.145,
+        142.639,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1013.46,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        445.315,
+        51.6409,
+        168.37,
+        54.7182
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        790.585,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        850.385,
+        1392.65,
+        53.53,
+        33.708
+      ],
+      "rules-line-1": [
+        192.801,
+        1013.53,
+        725.837,
+        45.913
+      ],
+      "power-icon": [
+        140.362,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        238.44,
+        1072.53,
+        582.12,
+        45.521
+      ],
+      "rules-line-3": [
+        368.78,
+        1132.61,
+        321.44,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          140.362,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          192.801,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          140.362,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false,
+        "supplement_vertical_correction": -0.02549999999996544
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-177-goten.webp",
+      "after_sha256": "c75dcb21861691e9a6732208f6014e8d2102a6fd50e1b3286202eed9c5a18433",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-177-goten.webp",
+      "after_sha256": "ad552acc46c7755732829eb370026773e1bae2048542c834f670e074047916bc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true,
+    "native_export_repairs_verified": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

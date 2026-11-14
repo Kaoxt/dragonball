@@ -1,0 +1,301 @@
+{
+  "number": 182,
+  "id": "world-games-182-maraikoh-the-vicious",
+  "name": "Maraikoh, the Vicious",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-182-maraikoh-the-vicious.svg",
+  "native_source_sha256": "2218447bcfa263447baa19490be65cd0b910a9c6dbead9597ddd3b8738b9f0cf",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7b5f729a0c519f6bdb40ad699b863746c1891fe61b05963301a09995c37eca30.png",
+      "sha256": "7b5f729a0c519f6bdb40ad699b863746c1891fe61b05963301a09995c37eca30"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/182.png",
+    "source_sha256": "7b5f729a0c519f6bdb40ad699b863746c1891fe61b05963301a09995c37eca30",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 7 life cards. If stopped,",
+      "baseline": 1108.3,
+      "width": 572.4180000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard the top 3 cards of your Life Deck.",
+      "baseline": 1167.3,
+      "width": 732.55,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        865.135,
+        160.009,
+        165.865,
+        38.269
+      ],
+      "power-stage-value-1": [
+        864.694,
+        224.691,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-2": [
+        873.759,
+        289.373,
+        157.241,
+        38.269
+      ],
+      "power-stage-value-3": [
+        873.759,
+        354.054,
+        157.241,
+        38.269
+      ],
+      "power-stage-value-4": [
+        864.694,
+        418.736,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.684,
+        483.418,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.027,
+        548.1,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-7": [
+        892.379,
+        612.782,
+        138.621,
+        38.269
+      ],
+      "power-stage-value-8": [
+        893.947,
+        677.463,
+        137.053,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.076,
+        742.145,
+        140.924,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        209.5,
+        50.6825,
+        640.0,
+        68.9101
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.776,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.576,
+        1392.65,
+        59.148,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        245.189,
+        1072.53,
+        568.622,
+        44.884
+      ],
+      "rules-line-3": [
+        164.769,
+        1131.53,
+        729.463,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-182-maraikoh-the-vicious.webp",
+      "after_sha256": "ed73fb3c3a2a8c9e95eaa557fa701978ad5618aa16d60655d86bc6f886a3a52e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-182-maraikoh-the-vicious.webp",
+      "after_sha256": "3d9bf0b5b7e053edb08905998907edeed4b9906992af5a9fb1e797eb8a2ced13",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 84.65608465608466,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0000000000001,
+      "visible_height": 56.63492063492064,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.9839736216547811
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

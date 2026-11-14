@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-189-olibu",
+  "name": "Olibu",
+  "number": 189,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-3eb7db61-5c89-4e04-a8c2-40a7884d2dee.png",
+  "plate_placement": [
+    -90,
+    -90
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "skin",
+      "seed": [
+        510,
+        540
+      ],
+      "checked_pixels": 571207,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        260,
+        750
+      ],
+      "checked_pixels": 186628,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "15c9f4f6480f62ea7a83f81210d7241edda9b1c097658ee876c7725953f82faa",
+  "native_source_sha256": "2014dc62c38a0041216d8e699044341a39b03193e9808c7262c0bdf3295773b6",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-189-olibu.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "6213e9b99ff6df8f22d67b2bafba2811300181d4a6984b2879c818819aa5c782"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-189-olibu.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "44fc02c260cea681d096d6d93b31906dd0035c13b7d425da71b47203577c0021"
+    }
+  ]
+}

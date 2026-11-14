@@ -1,0 +1,251 @@
+{
+  "card_id": "world-games-177-goten",
+  "name": "Goten",
+  "number": 177,
+  "rarity": "Hi-Tech",
+  "level": 1,
+  "pur": 1,
+  "stages": [
+    800000,
+    760000,
+    720000,
+    680000,
+    640000,
+    600000,
+    560000,
+    520000,
+    480000,
+    440000,
+    0
+  ],
+  "artwork_source_sha256": "91ec37460d00295ef4b94f434550ab7796720754bf11b7478ebd91db90b8503a",
+  "native_source_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
+  "image_native_placement": [
+    0,
+    -100,
+    1060,
+    1484
+  ],
+  "background_blend": {
+    "begin_y": 1200,
+    "end_y": 1384,
+    "character_unaffected": true
+  },
+  "proportional_scale": true,
+  "title_geometry": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 168.3703241895262,
+    "visible_height": 54.71820448877806,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 640.0,
+    "scale_factor": 1.0
+  },
+  "rules": [
+    {
+      "text": "Physical attack costing 2 cards banished",
+      "baseline": 1049.3,
+      "width": 778.2761555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "from the top of your discard pile.",
+      "baseline": 1108.3,
+      "width": 582.1200000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "DAMAGE: 7 stages.",
+      "baseline": 1167.3,
+      "width": 321.44,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "file": "world-games-177-goten.webp",
+      "sha256": "6f375138b424b58c7abb29a265aa16469b3f4bcf909e33ad103713f238fa4258",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "file": "world-games-177-goten-download.webp",
+      "sha256": "d1c1f003153e42a2279fcc163c067de1a4286f65dfaf4add4a2865e3e515377d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "native_outlined_text": true,
+  "bounds": {
+    "power-stage-value-0": [
+      890.272,
+      160.009,
+      141.659,
+      38.269
+    ],
+    "power-stage-value-1": [
+      893.31,
+      224.691,
+      138.621,
+      38.269
+    ],
+    "power-stage-value-2": [
+      895.123,
+      289.373,
+      136.808,
+      38.269
+    ],
+    "power-stage-value-3": [
+      890.713,
+      354.054,
+      141.218,
+      38.269
+    ],
+    "power-stage-value-4": [
+      890.909,
+      418.736,
+      141.022,
+      38.269
+    ],
+    "power-stage-value-5": [
+      890.615,
+      483.418,
+      141.316,
+      38.269
+    ],
+    "power-stage-value-6": [
+      891.252,
+      548.1,
+      140.679,
+      38.269
+    ],
+    "power-stage-value-7": [
+      893.065,
+      612.782,
+      138.866,
+      38.269
+    ],
+    "power-stage-value-8": [
+      889.096,
+      677.463,
+      142.835,
+      38.269
+    ],
+    "power-stage-value-9": [
+      889.292,
+      742.145,
+      142.639,
+      38.269
+    ],
+    "power-stage-value-10": [
+      1013.46,
+      806.827,
+      18.473,
+      31.164
+    ],
+    "card-title": [
+      445.315,
+      51.6409,
+      168.37,
+      54.7182
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      165.321,
+      1378.35,
+      92.8585,
+      62.2932
+    ],
+    "footer-rarity": [
+      790.585,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      850.385,
+      1392.65,
+      53.53,
+      33.708
+    ],
+    "rules-line-1": [
+      192.801,
+      1013.53,
+      725.837,
+      45.913
+    ],
+    "power-icon": [
+      140.362,
+      1015.0,
+      40.4392,
+      34.3
+    ],
+    "rules-line-2": [
+      238.44,
+      1072.53,
+      582.12,
+      45.521
+    ],
+    "rules-line-3": [
+      368.78,
+      1132.61,
+      321.44,
+      44.835
+    ]
+  },
+  "published": false,
+  "batch_integration": "Standalone finished card for review; main batch archive not modified.",
+  "visual_review": "Normal-size card inspected against original #177: child Goten, black base-form hair, happy open-mouth expression, both fists closed, orange gi/navy long sleeves/black sash; full hair and hands clear of title/Hero bar and stages; subtle monochrome Goten portrait added behind him; original Level 1/PUR 1, stage values and printed mechanics retained.",
+  "background_portrait_revision": {
+    "card_id": "world-games-177-goten",
+    "revision": "Large opaque tonal background portrait matching approved World Games Hi-Tech cards",
+    "plate_sha256": "ed3022b39db3aee5fdeebe71e4f34c0000a3076beacfda76adab2846928d6fe9",
+    "svg_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
+    "native_ui_unchanged": true,
+    "change_outside_background_mask": 0,
+    "unrelated_full_card_regions_pixel_identical": true,
+    "display_and_download_lossless": true,
+    "pixel_diff_bbox": [
+      950,
+      292,
+      2120,
+      1704
+    ],
+    "changed_pixels": 776079,
+    "published": false,
+    "visual_review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
+    "protected_foreground_component_checks": {
+      "face": {
+        "verified_pixels": 67780,
+        "changed_pixels": 0
+      },
+      "right_fist": {
+        "verified_pixels": 20343,
+        "changed_pixels": 0
+      },
+      "left_fist": {
+        "verified_pixels": 22139,
+        "changed_pixels": 0
+      },
+      "gi": {
+        "verified_pixels": 113742,
+        "changed_pixels": 0
+      }
+    },
+    "style_reference": "User-supplied 1000033433.png, November 12, 2026"
+  }
+}

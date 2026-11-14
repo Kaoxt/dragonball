@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-165-vegeta",
+  "name": "Vegeta",
+  "number": 165,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-af7492ae-6751-4219-b905-e2a34e3f8723.png",
+  "plate_placement": [
+    -95,
+    -100
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "skin",
+      "seed": [
+        400,
+        660
+      ],
+      "checked_pixels": 162720,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        680,
+        820
+      ],
+      "checked_pixels": 32795,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "7b37beee88f1667ef4b9bf5f5b9af49d8fa383595ec0b2a66bf8b8ec2eb68bc0",
+  "native_source_sha256": "1db6ac6eb0a9f796c16db44359a400bb0baa0afb931ed6226812eb3842bcfab2",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-165-vegeta.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "1334a76304986ae7c1731c34fa3863168af2ed412671e0be373a069ee8d894a2"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-165-vegeta.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "6e4952e1b74bb89573603e1493b0ad44e8f6c7f606b89808226844c5b9c1437d"
+    }
+  ]
+}

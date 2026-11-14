@@ -1,0 +1,325 @@
+{
+  "number": 164,
+  "id": "world-games-164-vegeta-the-dark-hero",
+  "name": "Vegeta, the Dark Hero",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-164-vegeta-the-dark-hero.svg",
+  "native_source_sha256": "56afb6fc47eee5534b570541a1b0522a735a7dd6127e13c41a05477694f1749a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b60a656c81f1195b7435780c676b94aaf97b839642d1fa0f88d982d925ef10c7.png",
+      "sha256": "b60a656c81f1195b7435780c676b94aaf97b839642d1fa0f88d982d925ef10c7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/164.png",
+    "source_sha256": "b60a656c81f1195b7435780c676b94aaf97b839642d1fa0f88d982d925ef10c7",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, shuffle",
+      "baseline": 1049.3,
+      "width": 613.46275,
+      "icon_inline": true
+    },
+    {
+      "text": "3 Vegeta Named cards from",
+      "baseline": 1108.3,
+      "width": 494.4100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile into your Life Deck and",
+      "baseline": 1167.3,
+      "width": 716.38,
+      "icon_inline": false
+    },
+    {
+      "text": "lower your opponent's anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 663.264,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        883.496,
+        157.656,
+        147.504,
+        32.802
+      ],
+      "power-stage-value-1": [
+        882.236,
+        212.387,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-2": [
+        882.614,
+        267.118,
+        148.386,
+        32.802
+      ],
+      "power-stage-value-3": [
+        886.478,
+        321.849,
+        144.522,
+        32.802
+      ],
+      "power-stage-value-4": [
+        882.53,
+        376.579,
+        148.47,
+        32.802
+      ],
+      "power-stage-value-5": [
+        883.076,
+        431.31,
+        147.924,
+        32.802
+      ],
+      "power-stage-value-6": [
+        883.412,
+        486.041,
+        147.588,
+        32.802
+      ],
+      "power-stage-value-7": [
+        889.922,
+        540.772,
+        141.078,
+        32.802
+      ],
+      "power-stage-value-8": [
+        882.236,
+        595.503,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-9": [
+        887.948,
+        650.233,
+        143.052,
+        32.802
+      ],
+      "power-stage-value-10": [
+        890.93,
+        704.964,
+        140.07,
+        32.802
+      ],
+      "power-stage-value-11": [
+        888.452,
+        759.695,
+        142.548,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        209.5,
+        45.3688,
+        640.0,
+        68.2689
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.186,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.986,
+        1392.65,
+        62.328,
+        33.708
+      ],
+      "rules-line-1": [
+        290.004,
+        1013.53,
+        545.566,
+        45.913
+      ],
+      "power-icon": [
+        223.43,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        283.691,
+        1073.85,
+        491.617,
+        44.5954
+      ],
+      "rules-line-3": [
+        172.56,
+        1131.53,
+        713.881,
+        45.521
+      ],
+      "rules-line-4": [
+        199.485,
+        1191.61,
+        660.03,
+        44.835
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.43,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          290.004,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.43,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-164-vegeta-the-dark-hero.webp",
+      "after_sha256": "065e550db9edd0e73ee981390c50ea13ff94055f5bbf2ba461f39e3e525eb82e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-164-vegeta-the-dark-hero.webp",
+      "after_sha256": "910010e6f1e9cd60dab5d687a95a0c31f9f709c82a723d831e9de5b699eb68e0",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.86843139824401,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0000000000001,
+      "visible_height": 67.2624819813917,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.9748185794404594
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

@@ -1,0 +1,325 @@
+{
+  "number": 152,
+  "id": "world-games-152-tapkar-the-fastest",
+  "name": "Tapkar, the Fastest",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-152-tapkar-the-fastest.svg",
+  "native_source_sha256": "9ca875f44859e77b0b095c05109dcceb250f0bb9bc97a9884b472cdfc7d09734",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/97d97c5c42a9536d05109805ebdf574d9b44eedbd4e9051d1d38f550d1a94b85.png",
+      "sha256": "97d97c5c42a9536d05109805ebdf574d9b44eedbd4e9051d1d38f550d1a94b85"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/152.png",
+    "source_sha256": "97d97c5c42a9536d05109805ebdf574d9b44eedbd4e9051d1d38f550d1a94b85",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "(You cannot win by Most Powerful Personality",
+      "baseline": 1049.3,
+      "width": 811.8810000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Victory.) Entering Combat as defender,",
+      "baseline": 1108.3,
+      "width": 758.54675,
+      "icon_inline": true
+    },
+    {
+      "text": "if Tapkar used no other Personality power",
+      "baseline": 1167.3,
+      "width": 746.9560000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "this turn, banish your top 8 Life Deck cards,",
+      "baseline": 1226.3,
+      "width": 774.592,
+      "icon_inline": false
+    },
+    {
+      "text": "draw 3 cards, and raise your anger 5 levels.",
+      "baseline": 1285.3,
+      "width": 776.209,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.684,
+        160.009,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-1": [
+        890.272,
+        224.691,
+        140.728,
+        38.269
+      ],
+      "power-stage-value-2": [
+        888.165,
+        289.373,
+        142.835,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.223,
+        354.054,
+        140.777,
+        38.269
+      ],
+      "power-stage-value-4": [
+        890.321,
+        418.736,
+        140.679,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.978,
+        483.418,
+        141.022,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.958,
+        548.1,
+        140.042,
+        38.269
+      ],
+      "power-stage-value-7": [
+        896.642,
+        612.782,
+        134.358,
+        38.269
+      ],
+      "power-stage-value-8": [
+        898.7,
+        677.463,
+        132.3,
+        38.269
+      ],
+      "power-stage-value-9": [
+        912.175,
+        742.145,
+        118.825,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        240.294,
+        44.5,
+        578.413,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.094,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.894,
+        1392.65,
+        58.512,
+        33.708
+      ],
+      "rules-line-1": [
+        123.914,
+        1012.11,
+        811.172,
+        46.942
+      ],
+      "rules-line-2": [
+        151.586,
+        1071.11,
+        755.829,
+        47.334
+      ],
+      "power-icon": [
+        317.103,
+        1079.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-3": [
+        156.943,
+        1131.53,
+        745.114,
+        45.521
+      ],
+      "rules-line-4": [
+        143.343,
+        1190.53,
+        772.315,
+        45.521
+      ],
+      "rules-line-5": [
+        142.939,
+        1249.53,
+        773.122,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-2",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "E",
+        "capital_glyph_index": 9,
+        "previous_visible_bounds": [
+          317.103,
+          1081.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          384.852,
+          1074.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          317.103,
+          1081.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-152-tapkar-the-fastest.webp",
+      "after_sha256": "04455c0ff6ab877ff6994227647e063bec2156b9552be5f3286ca7c91cedc70e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-152-tapkar-the-fastest.webp",
+      "after_sha256": "c89d9336691477c42dceda557b37b42e3ac3ebb29481b5be0a314da0be3b1183",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 578.4127182044889,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 5
+}

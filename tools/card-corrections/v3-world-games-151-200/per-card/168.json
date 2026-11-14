@@ -1,0 +1,325 @@
+{
+  "number": 168,
+  "id": "world-games-168-gohan-the-righteous",
+  "name": "Gohan, the Righteous",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-168-gohan-the-righteous.svg",
+  "native_source_sha256": "4d42944d1fc3719a8d9f9ce6349fc78495a002dc0fb3669b1168b59052889cab",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6d194cc5f1889104b1df596fcdcfcaadd04aee7be19d0c43fcf0712b53e9aee2.png",
+      "sha256": "6d194cc5f1889104b1df596fcdcfcaadd04aee7be19d0c43fcf0712b53e9aee2"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/168.png",
+    "source_sha256": "6d194cc5f1889104b1df596fcdcfcaadd04aee7be19d0c43fcf0712b53e9aee2",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 8 life cards. If Videl is",
+      "baseline": 1108.3,
+      "width": 549.2900000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your Ally, shuffle any Allies from",
+      "baseline": 1167.3,
+      "width": 575.211,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile into your Life Deck.",
+      "baseline": 1226.3,
+      "width": 651.9449999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        881.942,
+        157.656,
+        149.058,
+        32.802
+      ],
+      "power-stage-value-1": [
+        884.336,
+        212.387,
+        146.664,
+        32.802
+      ],
+      "power-stage-value-2": [
+        884.084,
+        267.118,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-3": [
+        885.89,
+        321.849,
+        145.11,
+        32.802
+      ],
+      "power-stage-value-4": [
+        882.614,
+        376.579,
+        148.386,
+        32.802
+      ],
+      "power-stage-value-5": [
+        888.326,
+        431.31,
+        142.674,
+        32.802
+      ],
+      "power-stage-value-6": [
+        883.412,
+        486.041,
+        147.588,
+        32.802
+      ],
+      "power-stage-value-7": [
+        887.654,
+        540.772,
+        143.346,
+        32.802
+      ],
+      "power-stage-value-8": [
+        884.084,
+        595.503,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-9": [
+        884.672,
+        650.233,
+        146.328,
+        32.802
+      ],
+      "power-stage-value-10": [
+        887.948,
+        704.964,
+        143.052,
+        32.802
+      ],
+      "power-stage-value-11": [
+        891.812,
+        759.695,
+        139.188,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        211.171,
+        44.5,
+        636.658,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.14,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.94,
+        1392.65,
+        60.42,
+        33.708
+      ],
+      "rules-line-1": [
+        278.159,
+        1013.53,
+        557.277,
+        45.913
+      ],
+      "power-icon": [
+        223.564,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        256.349,
+        1072.53,
+        546.301,
+        36.162
+      ],
+      "rules-line-3": [
+        243.046,
+        1131.53,
+        572.908,
+        45.521
+      ],
+      "rules-line-4": [
+        204.63,
+        1190.53,
+        649.74,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.159,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.564,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-168-gohan-the-righteous.webp",
+      "after_sha256": "6899d021f3fa857d2d028c1caf39c7f376a6e29bc9ff5f4c091256b921790d2c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-168-gohan-the-righteous.webp",
+      "after_sha256": "35f5d0c00163b435db86e647df231734bf5fa2f414d29399c26b051aeb5c611a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 636.6583541147133,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

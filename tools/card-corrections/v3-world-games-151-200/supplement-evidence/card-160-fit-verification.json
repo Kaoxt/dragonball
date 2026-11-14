@@ -1,0 +1,200 @@
+{
+  "card_id": "world-games-160-gokus-blinding-strike",
+  "number": 160,
+  "artwork_approved_in_conversation": true,
+  "artwork_source_sha256": "ef731a528900192acd63b1ec5188218ba8141fcf8fd62d3c52b6a40c98571249",
+  "native_source_sha256": "34cf5d3af85dd67f7a49fb5c988eea942ae3f89697b2bfcae5d3db26478f081b",
+  "image_native_placement": [
+    1,
+    146,
+    1059,
+    706
+  ],
+  "artwork_window": [
+    14,
+    146,
+    1033,
+    706
+  ],
+  "source_pixels_retained": true,
+  "proportional_scale": true,
+  "side_crop_fraction_each": 0.012275731822474031,
+  "recolored": false,
+  "redrawn": false,
+  "category": {
+    "label": "ENERGY COMBAT",
+    "font": "Michroma",
+    "font_size": 38.4,
+    "tracking": 4.0,
+    "width_factor": 0.956,
+    "stroke": 4.21875,
+    "visible_center": [
+      529.5,
+      908.5
+    ],
+    "visible_size": [
+      517.0614,
+      34.21875
+    ]
+  },
+  "footer": {
+    "revision": "mirrored-side-group-centers-v1",
+    "logo_dx": 0,
+    "ball_and_number_dx": -0.2125,
+    "changed": true,
+    "saga_center_x": 211.75,
+    "right_group_center_x": 847.25,
+    "number_gap_dx": 0.213,
+    "ball_number_gap": 12.199999999999953
+  },
+  "rules": [
+    {
+      "text": "(Sensei Deck only.) Energy attack costing",
+      "baseline": 1049.3,
+      "width": 791.0111555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "2 stages. DAMAGE: 7 life cards. HIT: Name",
+      "baseline": 1108.3,
+      "width": 734.657,
+      "icon_inline": false
+    },
+    {
+      "text": "3 different cards. Search your opponent's",
+      "baseline": 1167.3,
+      "width": 736.176,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck and banish 1 copy of each.",
+      "baseline": 1226.3,
+      "width": 637.441,
+      "icon_inline": false
+    },
+    {
+      "text": "If stopped, banish your discard pile.",
+      "baseline": 1285.3,
+      "width": 631.9530000000001,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "file": "world-games-160-gokus-blinding-strike.webp",
+      "sha256": "9e2447d5dbf44921a1c7ccbf33223078cde888052a8e855e4e2de8d0b5ba490a",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "file": "world-games-160-gokus-blinding-strike-download.webp",
+      "sha256": "3a7ae26a92da60796962097e9364a1d27d34b7cf6c17dd71dacee50e4013a720",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "native_outlined_text": true,
+  "bounds": {
+    "card-title": [
+      200.33,
+      44.5,
+      658.339,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      165.321,
+      1378.35,
+      92.8585,
+      62.2932
+    ],
+    "footer-rarity": [
+      787.113,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      846.914,
+      1392.65,
+      60.473,
+      33.708
+    ],
+    "rules-line-1": [
+      133.994,
+      1012.11,
+      791.011,
+      47.334
+    ],
+    "power-icon": [
+      486.691,
+      1015.0,
+      40.4392,
+      34.3
+    ],
+    "rules-line-2": [
+      162.171,
+      1072.53,
+      734.657,
+      45.913
+    ],
+    "rules-line-3": [
+      161.412,
+      1131.53,
+      736.176,
+      45.521
+    ],
+    "rules-line-4": [
+      210.779,
+      1190.53,
+      637.441,
+      45.521
+    ],
+    "rules-line-5": [
+      213.523,
+      1249.53,
+      631.953,
+      45.521
+    ]
+  },
+  "published": false,
+  "batch_integration": "Standalone finished card supplement; original batch archive not modified.",
+  "name": "Goku's Blinding Strike",
+  "title_geometry": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 658.3391521197009,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "protected_native_template_groups_unchanged": [
+    "background-brightness-trial-wrapper",
+    "clean-native-artwork-rails",
+    "shared-title-material",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "tokui-waza-smoky-backing",
+    "tokui-waza-symbol",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem"
+  ],
+  "embedded_approved_artwork_bytes_identical": true,
+  "visual_review": "Normal-size export reviewed: full open hand and face remain visible, no stretching, approved warm ivory/brown-black/yellow palette retained, title and ENERGY COMBAT label centered, five rules lines clear, correct set emblem and six-star rarity."
+}

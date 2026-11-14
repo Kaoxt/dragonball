@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-193-pikkon",
+  "name": "Pikkon",
+  "number": 193,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-69ceed9f-e774-49b7-884d-0d5db6514d5f.png",
+  "plate_placement": [
+    -90,
+    -70
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "white",
+      "seed": [
+        550,
+        540
+      ],
+      "checked_pixels": 51966,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "green",
+      "seed": [
+        410,
+        425
+      ],
+      "checked_pixels": 19680,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "55872a80776a7bfa942d0f999861f26e8300f70bd2798c14d6bf6ebaf020c80a",
+  "native_source_sha256": "46981f5f380ada0857051940862a809ef4247c2b340a7c27705fe550d38ce97a",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-193-pikkon.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "b21228fca7ca74a8fdfe7381ba068c4f7194be54fc65676645c2b65dbb16863e"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-193-pikkon.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "bf47b59c304e700dedfb2d9d56cf39db63ec569c7deb0885cf857521254844c5"
+    }
+  ]
+}

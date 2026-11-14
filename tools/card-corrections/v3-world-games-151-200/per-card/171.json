@@ -1,0 +1,316 @@
+{
+  "number": 171,
+  "id": "world-games-171-goku-the-competitor",
+  "name": "Goku, the Competitor",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-171-goku-the-competitor.svg",
+  "native_source_sha256": "acae60d8f8df93d3e4c7e49f8cb84b669d004ca751293bcc3efa1d254dd43d76",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4.png",
+      "sha256": "696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "user-approved supplied artwork, retained without redraw",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/171.png",
+    "source_sha256": "696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      146,
+      1059,
+      706
+    ],
+    "original_upload": "tools/card-corrections/v3-world-games-151-200/user-supplied/171-approved.jpg",
+    "original_upload_sha256": "fbe966abbacf8eae8d41ef12aa32af8b0ca5ee1f543618839b92975169584f85",
+    "decoded_original_pixels_retained": true,
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "fit_note": "Uniform scale 706/1024. Native window trims 26 units of empty right background only; no vertical crop or distortion.",
+    "approved_reference_exception": "Use the supplied pose, expression and textured background as approved in the conversation on 2026-11-13."
+  },
+  "rules": [
+    {
+      "text": "Your first physical attack each",
+      "baseline": 1049.3,
+      "width": 613.8547500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "Combat does +1 stage of damage",
+      "baseline": 1108.3,
+      "width": 581.875,
+      "icon_inline": false
+    },
+    {
+      "text": "per Setup or Drill you have in play.",
+      "baseline": 1167.3,
+      "width": 606.0810000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        882.824,
+        159.755,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-1": [
+        882.488,
+        219.047,
+        148.512,
+        32.802
+      ],
+      "power-stage-value-2": [
+        883.412,
+        278.338,
+        147.588,
+        32.802
+      ],
+      "power-stage-value-3": [
+        884.084,
+        337.63,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-4": [
+        889.334,
+        396.922,
+        141.666,
+        32.802
+      ],
+      "power-stage-value-5": [
+        882.236,
+        456.213,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-6": [
+        887.654,
+        515.505,
+        143.346,
+        32.802
+      ],
+      "power-stage-value-7": [
+        887.36,
+        574.797,
+        143.64,
+        32.802
+      ],
+      "power-stage-value-8": [
+        890.93,
+        634.088,
+        140.07,
+        32.802
+      ],
+      "power-stage-value-9": [
+        887.57,
+        693.38,
+        143.43,
+        32.802
+      ],
+      "power-stage-value-10": [
+        887.864,
+        752.672,
+        143.136,
+        32.802
+      ],
+      "power-stage-value-11": [
+        1015.17,
+        811.963,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        213.451,
+        44.5,
+        632.099,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        793.818,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        853.618,
+        1392.65,
+        47.064,
+        33.708
+      ],
+      "rules-line-1": [
+        290.175,
+        1013.53,
+        545.419,
+        45.521
+      ],
+      "power-icon": [
+        223.406,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        240.057,
+        1073.61,
+        578.886,
+        44.835
+      ],
+      "rules-line-3": [
+        228.248,
+        1131.53,
+        602.504,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.406,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          290.175,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          223.406,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-171-goku-the-competitor.webp",
+      "after_sha256": "32fae5b95a560ba8961d6a8357979e9a99ccd7b928ed057a4d411098fa10b6e3",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-171-goku-the-competitor.webp",
+      "after_sha256": "c6040049b3827bae41101b916f55c588c6b1994938a63938dcdb3d2d4129afca",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 632.0985037406484,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

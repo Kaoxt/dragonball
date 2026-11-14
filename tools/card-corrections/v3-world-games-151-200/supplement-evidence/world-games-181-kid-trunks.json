@@ -1,0 +1,78 @@
+{
+  "card_id": "world-games-181-kid-trunks",
+  "name": "Kid Trunks",
+  "number": 181,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-36a68b1c-ece8-4712-a675-d2e9405dd4fd.png",
+  "plate_placement": [
+    0,
+    -145
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "skin",
+      "seed": [
+        350,
+        580
+      ],
+      "checked_pixels": 153858,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        660,
+        670
+      ],
+      "checked_pixels": 38296,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        90,
+        690
+      ],
+      "checked_pixels": 30027,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        550,
+        780
+      ],
+      "checked_pixels": 64405,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "a61214de8a9cc6dd4c7186ee51926a8bd0c6760c49356f9fbb30b6ea8f57075b",
+  "native_source_sha256": "cb802520a2bae0b24e0a508fcc18cf7e8ce75db1d879a692dd961c3e5522d08f",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-181-kid-trunks.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "642f98bcbde4020bef4711f0768c53ae38cd1ad250a8760afe9116e5e62487cf"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-181-kid-trunks.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "1dde158d1ec503d5f4750a3c3ddff337a11a14782718017b7b77065c7d114a93"
+    }
+  ]
+}

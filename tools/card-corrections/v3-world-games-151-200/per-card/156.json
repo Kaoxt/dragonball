@@ -1,0 +1,193 @@
+{
+  "number": 156,
+  "id": "world-games-156-west-kai-sensei",
+  "name": "West Kai Sensei",
+  "family": "SENSEI",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-156-west-kai-sensei.svg",
+  "native_source_sha256": "08545ff4312a0b3549b21baa3a319a69378ed86ee0e965d30c6d11298b0dfe84",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/af60d3e5ec68bc157de58210ab3e9d335b4fa1d66987feae7545df18c85d692e.png",
+      "sha256": "af60d3e5ec68bc157de58210ab3e9d335b4fa1d66987feae7545df18c85d692e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8.png",
+      "sha256": "1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac.jpg",
+      "sha256": "1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/156.png",
+    "source_sha256": "af60d3e5ec68bc157de58210ab3e9d335b4fa1d66987feae7545df18c85d692e",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      0,
+      141.60069899521108,
+      1060,
+      715.4652686762779
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Once per game during",
+      "width": 535.57,
+      "baseline": 1049.3,
+      "icon_inline": false
+    },
+    {
+      "text": "your Attacker Attacks phase,",
+      "width": 519.1060000000001,
+      "baseline": 1108.3,
+      "icon_inline": false
+    },
+    {
+      "text": "you may discard up to 2",
+      "width": 423.70300000000003,
+      "baseline": 1167.3,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponent's Drills in play.",
+      "width": 569.527,
+      "baseline": 1226.3,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        286.236,
+        50.2213,
+        486.527,
+        57.5574
+      ],
+      "card-category": [
+        329.076,
+        891.391,
+        211.17,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        75.107,
+        1013.53,
+        531.846,
+        45.913
+      ],
+      "rules-line-2": [
+        73.637,
+        1074.0,
+        516.829,
+        44.051
+      ],
+      "rules-line-3": [
+        73.637,
+        1131.53,
+        422.233,
+        45.521
+      ],
+      "rules-line-4": [
+        74.519,
+        1190.53,
+        566.44,
+        45.521
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-156-west-kai-sensei.webp",
+      "after_sha256": "15e0f2ed8f21ad6187b13bca3fa37580692722a197768a1b33ad976720bd0c66",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-156-west-kai-sensei.webp",
+      "after_sha256": "0d20d5c8068ed6adb650f59e0a6ab8a38ef99c95d2ff863dd50bd57f893813ae",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 486.52743142144647,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "approved_sensei_anchor": [
+        434.661310104786,
+        908.5
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 5
+}

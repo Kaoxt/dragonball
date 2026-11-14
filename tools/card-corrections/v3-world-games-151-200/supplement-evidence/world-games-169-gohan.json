@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-169-gohan",
+  "name": "Gohan",
+  "number": 169,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-3926647f-a721-46cd-b171-f510b3e62d8c.png",
+  "plate_placement": [
+    -60,
+    -165
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "skin",
+      "seed": [
+        430,
+        550
+      ],
+      "checked_pixels": 99208,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "skin",
+      "seed": [
+        720,
+        760
+      ],
+      "checked_pixels": 17617,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "5351d182ced395b7800dcff8f320259498f4e4fec7d3716339da128749205de4",
+  "native_source_sha256": "7ed6d591c189f3db2dd63e9958ce6657eabbcba233c0232534f4d5208c148da4",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-169-gohan.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "56d993076d62532931f165b488696557b4d4c57a4eb58feaede3f972f954ae2d"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-169-gohan.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "fbb2cac713f1641a84efac7bab0dc4cc5b418a7ad6a85a694d2c949131e7fec3"
+    }
+  ]
+}

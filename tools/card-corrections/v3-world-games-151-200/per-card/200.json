@@ -1,0 +1,313 @@
+{
+  "number": 200,
+  "id": "world-games-200-videl-the-determined",
+  "name": "Videl, the Determined",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-200-videl-the-determined.svg",
+  "native_source_sha256": "b0b6a7772c27e4aeb082ffac297b5c6e1f9c141e89aeac0059910ca04edf3516",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/3c17cfe5bc45ef321a2c2ea350f63024436e442139bd73170525fca78344ad04.png",
+      "sha256": "3c17cfe5bc45ef321a2c2ea350f63024436e442139bd73170525fca78344ad04"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/200.png",
+    "source_sha256": "3c17cfe5bc45ef321a2c2ea350f63024436e442139bd73170525fca78344ad04",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, banish the top",
+      "baseline": 1049.3,
+      "width": 742.03875,
+      "icon_inline": true
+    },
+    {
+      "text": "card of your opponent's Life Deck.",
+      "baseline": 1108.3,
+      "width": 607.8450000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If it is a Physical Combat card, their",
+      "baseline": 1167.3,
+      "width": 632.59,
+      "icon_inline": false
+    },
+    {
+      "text": "Main Personality loses 5 stages.",
+      "baseline": 1226.3,
+      "width": 567.6650000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        912.469,
+        160.009,
+        118.531,
+        38.269
+      ],
+      "power-stage-value-1": [
+        910.656,
+        224.691,
+        120.344,
+        38.269
+      ],
+      "power-stage-value-2": [
+        910.901,
+        289.373,
+        120.099,
+        38.269
+      ],
+      "power-stage-value-3": [
+        910.852,
+        354.054,
+        120.148,
+        38.269
+      ],
+      "power-stage-value-4": [
+        912.714,
+        418.736,
+        118.286,
+        38.269
+      ],
+      "power-stage-value-5": [
+        910.558,
+        483.418,
+        120.442,
+        38.269
+      ],
+      "power-stage-value-6": [
+        912.567,
+        548.1,
+        118.433,
+        38.269
+      ],
+      "power-stage-value-7": [
+        912.812,
+        612.782,
+        118.188,
+        38.269
+      ],
+      "power-stage-value-8": [
+        912.763,
+        677.463,
+        118.237,
+        38.269
+      ],
+      "power-stage-value-9": [
+        914.625,
+        742.145,
+        116.375,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        209.5,
+        50.6074,
+        640.0,
+        69.0928
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        783.748,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        843.548,
+        1392.65,
+        67.204,
+        33.708
+      ],
+      "rules-line-1": [
+        225.789,
+        1013.53,
+        673.995,
+        45.913
+      ],
+      "power-icon": [
+        159.216,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        227.121,
+        1072.53,
+        604.758,
+        45.521
+      ],
+      "rules-line-3": [
+        214.469,
+        1131.53,
+        630.062,
+        45.521
+      ],
+      "rules-line-4": [
+        247.456,
+        1190.53,
+        564.088,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          159.216,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          225.789,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          159.216,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-200-videl-the-determined.webp",
+      "after_sha256": "c9065e9573b67c9f4eae9e56c4d54086a7444edc48335dcb0d65f30a54cd062f",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-200-videl-the-determined.webp",
+      "after_sha256": "903ac7bdd1348077c1990ba2bd86986378212b765d47dd712f0c410d3f15960a",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 84.88063660477452,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 639.9999999999999,
+      "visible_height": 56.78514588859415,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.9865836312612922
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

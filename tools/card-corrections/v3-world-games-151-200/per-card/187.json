@@ -1,0 +1,319 @@
+{
+  "number": 187,
+  "id": "world-games-187-olibu-the-courageous",
+  "name": "Olibu, the Courageous",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-187-olibu-the-courageous.svg",
+  "native_source_sha256": "318878418bd4d854b61a8ef614ba45ddfae851d7313f63a229383cc364156e9a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/729df7c5ecfba6f2f116ad56177b554386c555b68d4d04154472c51f8fa32187.png",
+      "sha256": "729df7c5ecfba6f2f116ad56177b554386c555b68d4d04154472c51f8fa32187"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/187.png",
+    "source_sha256": "729df7c5ecfba6f2f116ad56177b554386c555b68d4d04154472c51f8fa32187",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.9278180619644,
+      1033,
+      706.1443638760712
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat as the attacker,",
+      "baseline": 1049.3,
+      "width": 760.56075,
+      "icon_inline": true
+    },
+    {
+      "text": "choose up to 2 cards in your discard pile.",
+      "baseline": 1108.3,
+      "width": 730.1980000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent chooses one to banish.",
+      "baseline": 1167.3,
+      "width": 676.69,
+      "icon_inline": false
+    },
+    {
+      "text": "Place the other in your hand.",
+      "baseline": 1226.3,
+      "width": 510.28600000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        883.412,
+        159.755,
+        147.588,
+        32.802
+      ],
+      "power-stage-value-1": [
+        884.084,
+        219.047,
+        146.916,
+        32.802
+      ],
+      "power-stage-value-2": [
+        889.922,
+        278.338,
+        141.078,
+        32.802
+      ],
+      "power-stage-value-3": [
+        882.824,
+        337.63,
+        148.176,
+        32.802
+      ],
+      "power-stage-value-4": [
+        882.236,
+        396.922,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-5": [
+        887.654,
+        456.213,
+        143.346,
+        32.802
+      ],
+      "power-stage-value-6": [
+        887.948,
+        515.505,
+        143.052,
+        32.802
+      ],
+      "power-stage-value-7": [
+        891.518,
+        574.797,
+        139.482,
+        32.802
+      ],
+      "power-stage-value-8": [
+        890.93,
+        634.088,
+        140.07,
+        32.802
+      ],
+      "power-stage-value-9": [
+        887.57,
+        693.38,
+        143.43,
+        32.802
+      ],
+      "power-stage-value-10": [
+        888.452,
+        752.672,
+        142.548,
+        32.802
+      ],
+      "power-stage-value-11": [
+        1015.17,
+        811.963,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        209.5,
+        45.3952,
+        640.0,
+        68.2153
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.333,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.132,
+        1392.65,
+        58.035,
+        33.708
+      ],
+      "rules-line-1": [
+        216.613,
+        1013.53,
+        692.347,
+        45.913
+      ],
+      "power-icon": [
+        150.04,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        165.944,
+        1072.53,
+        727.111,
+        45.521
+      ],
+      "rules-line-3": [
+        192.527,
+        1131.53,
+        673.946,
+        44.884
+      ],
+      "rules-line-4": [
+        276.195,
+        1190.53,
+        506.611,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          150.04,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          216.613,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          150.04,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-187-olibu-the-courageous.webp",
+      "after_sha256": "645df42a6a150e8bc5a714f7470e2009a39b7b4f8f54c0d9f8b2c52adab02699",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-187-olibu-the-courageous.webp",
+      "after_sha256": "6d4ef7ecbbca4c7d54340825a0da246051db8faff903bd6e6851020414b02fb3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 83.80254026450176,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0,
+      "visible_height": 67.20963729213041,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.9740527143787016
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

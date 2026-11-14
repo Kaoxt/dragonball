@@ -1,0 +1,71 @@
+{
+  "source_head": "80827b02fc949da9707023f6ee3a098336423fa5",
+  "handoff_base": "1ff97b7623fd665e57a92e69a3883603b4d5f193",
+  "installer": "Original unmodified installer preflight, apply and verify passed in isolated exact-baseline staging. No checksum guards modified.",
+  "reviewed_current_hashes": {
+    "public/cards/catalog.js": "996e044f41bfc87bf19d671e94b55991c4418355a2bc3702e6ddcd4668e574a4",
+    "tests/card-v3-world-games-051-100.test.js": "b5432b0c041b9d298a262cd0cf7833b18f7d0abd80571ccd63a9b0b39d4a8d4c",
+    "tests/card-v3-world-games-101-150.test.js": "cd0fd4a5f2788e22256eef65bf25aed1f1597045a11dd2d17a7d7cd608fa5c5c",
+    "package.json": "6de35eacf951abafff0f08bc255aa6f0c1b0802bc2ac03474bb22ae42888d902"
+  },
+  "merges": {
+    "package.json": "Keep all existing tests and add new batch.",
+    "public/cards/catalog.js": "Append only 50 new records, preserving all earlier fields including current Shenron image URLs.",
+    "tests/card-v3-world-games-051-100.test.js": "Preserve Shenron history helper; update total and unavailable route.",
+    "tests/card-v3-world-games-101-150.test.js": "Preserve Shenron history helper; update total, unavailable route, and append-safe permanent-ID assertion.",
+    "tests/card-v3-world-games-151-200.test.js": "Compare historical baseline through verified reversible Shenron helper.",
+    "public/decks/code-card-ids.js": "Retain original append-only warning comment; exact prepared ID order unchanged.",
+    "tests/card-v3-world-games-001-050.test.js": "Require current total of 200 and retain unavailable-route test.",
+    "tests/card-surface.test.js": "Require all 21 Ultra Rares, including four World Games cards using existing generic V3 fallback; preserve all custom-mask coverage."
+  },
+  "preserved_dependency": "Current build_world_games_051_100.py retains approved set-specific Shenron selection.",
+  "prior_cards_unchanged": 1149,
+  "added_cards": 50,
+  "handoff_manifest_sha256": "61b17f7fa0a794a3db16ea2e68bc5075204a1c8987b451a11eeaeebff742bcf6",
+  "final_payload_differences": {
+    "package.json": {
+      "handoff_sha256": "ef71c381923ba74395cdd4ecbe3cf6ac9a06ba634389a8e1cd310dffaf5c812b",
+      "merged_sha256": "eaf8a25f89d32f320195ed1424265dcdda098f033a78dc46480744c95a133e9c",
+      "reason": "Keep all existing tests and add new batch."
+    },
+    "public/cards/catalog.js": {
+      "handoff_sha256": "8f1da12139cd044bfd7cc25cb85c56015ad701b32f90dbdbb39a94b87904d272",
+      "merged_sha256": "b298ba2943a5dba8e42f6f0891855ac786b5ab47459174f64a4b13a284d8f379",
+      "reason": "Append only 50 new records, preserving all earlier fields including current Shenron image URLs."
+    },
+    "public/decks/code-card-ids.js": {
+      "handoff_sha256": "6bf81585ae630f7f0164152650995bdafa73a3afc2421b53de3afb6b0cbb240d",
+      "merged_sha256": "3e595187b9be1a5c48116557b9782248546a35d4bf91fad1f2a08885a0a36ef6",
+      "reason": "Retain original append-only warning comment; exact prepared ID order unchanged."
+    },
+    "tests/card-v3-world-games-001-050.test.js": {
+      "handoff_sha256": "a9e42d331c98c39023ffab899e5a9441ba2e5cf3b39436bbaa44d53d4f6f9e77",
+      "merged_sha256": "eae86d10882d5a9a7db6b1da08f5d9b1d0f3bb515aa8bf488c43d1b088ee335c",
+      "reason": "Require current total of 200 and retain unavailable-route test."
+    },
+    "tests/card-v3-world-games-051-100.test.js": {
+      "handoff_sha256": "0586ad2fffa7bc8f9917a9dee5ed2a74ad5b8a331d3b68fa918c9d2bc9a1693b",
+      "merged_sha256": "c89c6264e15d820ee4c1157743aed2bbeb5ac1ba4c1948a266ecf67d8751b042",
+      "reason": "Preserve Shenron history helper; update total and unavailable route."
+    },
+    "tests/card-v3-world-games-101-150.test.js": {
+      "handoff_sha256": "e8cea634583cb51a21520f3bf80497c571333967cd6a3e4c13d9e155e5eb0f86",
+      "merged_sha256": "2238367126523923ec49f3f4e120d8340132a658051420fe9d4383855f91ac35",
+      "reason": "Preserve Shenron history helper; update total, unavailable route, and append-safe permanent-ID assertion."
+    },
+    "tests/card-v3-world-games-151-200.test.js": {
+      "handoff_sha256": "73e0a398846e4fa93cb221645254c77aaa205637bbad6272f39a5aa56d9c8976",
+      "merged_sha256": "64d88f97faa2e10d247eca2920613957010acdb422c8892600d774f51a5e428a",
+      "reason": "Compare historical baseline through verified reversible Shenron helper."
+    }
+  },
+  "validation": {
+    "installer": "preflight, apply, verify passed on original baseline staging",
+    "native_sources_and_lossless_exports": "50 sources and 100 exports verified",
+    "wording_audit": "51 files; no findings",
+    "world_games_integration": "30 tests passed",
+    "python_reference_tests": "6 tests passed",
+    "deployment_dry_run": "passed",
+    "full_repository_tests": "65 of 67 test files passed in full run; the two failures (stale Ultra Rare count and sandbox Python spawn denial) both passed targeted reruns after correction/execution access. All six Python reference tests passed separately. Final full CI is required before production packaging."
+  }
+}

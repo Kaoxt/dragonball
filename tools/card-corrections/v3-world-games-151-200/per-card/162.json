@@ -1,0 +1,265 @@
+{
+  "number": 162,
+  "id": "world-games-162-vegeta-the-proud",
+  "name": "Vegeta, the Proud",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-162-vegeta-the-proud.svg",
+  "native_source_sha256": "38699eb5fe50d4405d5790f4b101b621fd21574d1a6f189eca20513ac3fbf32b",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/90a9db6002840f4fc8ef27406e42f3271dfcc8d26dda6e0cc397c8ac03ae46fb.png",
+      "sha256": "90a9db6002840f4fc8ef27406e42f3271dfcc8d26dda6e0cc397c8ac03ae46fb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/162.png",
+    "source_sha256": "90a9db6002840f4fc8ef27406e42f3271dfcc8d26dda6e0cc397c8ac03ae46fb",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: You may search your Life Deck",
+      "baseline": 1049.3,
+      "width": 697.123,
+      "icon_inline": false
+    },
+    {
+      "text": "for up to 3 Vegeta Named cards and",
+      "baseline": 1108.3,
+      "width": 636.0690000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard them. Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 683.2560000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        865.478,
+        160.009,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-1": [
+        874.445,
+        224.691,
+        156.555,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.008,
+        289.373,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-3": [
+        894.339,
+        354.054,
+        136.661,
+        38.269
+      ],
+      "power-stage-value-4": [
+        889.39,
+        418.736,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.183,
+        483.418,
+        138.817,
+        38.269
+      ],
+      "power-stage-value-6": [
+        892.722,
+        548.1,
+        138.278,
+        38.269
+      ],
+      "power-stage-value-7": [
+        894.633,
+        612.782,
+        136.367,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.684,
+        677.463,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        262.792,
+        44.5,
+        533.416,
+        70.0324
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.909,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.708,
+        1392.65,
+        58.883,
+        33.708
+      ],
+      "rules-line-1": [
+        182.482,
+        1013.53,
+        694.036,
+        45.521
+      ],
+      "rules-line-2": [
+        212.837,
+        1073.85,
+        633.325,
+        44.5954
+      ],
+      "rules-line-3": [
+        189.415,
+        1131.53,
+        680.169,
+        45.913
+      ]
+    },
+    "icons": []
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-162-vegeta-the-proud.webp",
+      "after_sha256": "d4105ffed53e7833fc588fb517e38d47eee08db31fc49096c9cedf767b1dc158",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-162-vegeta-the-proud.webp",
+      "after_sha256": "82bd9a014cc080a1440ba8c30dc18290d9b028ea35da4ffcc112ffeab0d64c0d",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 533.4164588528679,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": null,
+  "rarity_stars": 4
+}

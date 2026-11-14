@@ -1,0 +1,301 @@
+{
+  "number": 186,
+  "id": "world-games-186-olibu-the-mythical-hero",
+  "name": "Olibu, the Mythical Hero",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-186-olibu-the-mythical-hero.svg",
+  "native_source_sha256": "c2b87d5e2bc574ce1bff3cbd68acd3588da476f0845270b77b61748c98e1eb86",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/cc81c5a66966093016b876f3ca0d0533e65e693bc2ab69deadffced00826ec10.png",
+      "sha256": "cc81c5a66966093016b876f3ca0d0533e65e693bc2ab69deadffced00826ec10"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/186.png",
+    "source_sha256": "cc81c5a66966093016b876f3ca0d0533e65e693bc2ab69deadffced00826ec10",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, discard the top card",
+      "baseline": 1049.3,
+      "width": 847.7807499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "of your Life Deck. If it is a Physical Combat",
+      "baseline": 1108.3,
+      "width": 759.7940000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "card, you may place it in your hand.",
+      "baseline": 1167.3,
+      "width": 632.5410000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.008,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        863.616,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.694,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        865.478,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        871.603,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.39,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.036,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.684,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        209.5,
+        48.0944,
+        640.0,
+        62.736
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.008,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        846.808,
+        1392.65,
+        60.685,
+        33.708
+      ],
+      "rules-line-1": [
+        173.114,
+        1013.53,
+        779.345,
+        45.913
+      ],
+      "power-icon": [
+        106.541,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        150.828,
+        1072.53,
+        757.344,
+        45.521
+      ],
+      "rules-line-3": [
+        214.773,
+        1131.53,
+        629.454,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          106.541,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          173.114,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          106.541,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-186-olibu-the-mythical-hero.webp",
+      "after_sha256": "52736c7d79c5269c047fb538b5e1509d5e5b5a80ac64b176cd1c5546cddf9863",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-186-olibu-the-mythical-hero.webp",
+      "after_sha256": "c4e7ffd4194b45bde0a2c958b9f9a8882bf8849bf4640e63a5bc172258493652",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 77.0712909441233,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 640.0,
+      "visible_height": 61.811175337186896,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.8958141353215491
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

@@ -1,0 +1,38 @@
+{
+  "card_id": "world-games-177-goten",
+  "revision": "Large opaque tonal background portrait matching approved World Games Hi-Tech cards",
+  "plate_sha256": "ed3022b39db3aee5fdeebe71e4f34c0000a3076beacfda76adab2846928d6fe9",
+  "svg_sha256": "55df95f10bb8783dd9b6f8979d3da4f8bf14caa37cc5edf3680cb5cdc39c7302",
+  "native_ui_unchanged": true,
+  "change_outside_background_mask": 0,
+  "unrelated_full_card_regions_pixel_identical": true,
+  "display_and_download_lossless": true,
+  "pixel_diff_bbox": [
+    950,
+    292,
+    2120,
+    1704
+  ],
+  "changed_pixels": 776079,
+  "published": false,
+  "visual_review": "Normal-size and full-resolution reviewed: large inked tonal portrait, textured cel shading matching supplied earlier-set reference; foreground pose and native card UI retained.",
+  "protected_foreground_component_checks": {
+    "face": {
+      "verified_pixels": 67780,
+      "changed_pixels": 0
+    },
+    "right_fist": {
+      "verified_pixels": 20343,
+      "changed_pixels": 0
+    },
+    "left_fist": {
+      "verified_pixels": 22139,
+      "changed_pixels": 0
+    },
+    "gi": {
+      "verified_pixels": 113742,
+      "changed_pixels": 0
+    }
+  },
+  "style_reference": "User-supplied 1000033433.png, November 12, 2026"
+}

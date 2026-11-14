@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-197-piccolo",
+  "name": "Piccolo",
+  "number": 197,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-809405d8-9b7a-4f3a-9b59-0a0010d0eaf8.png",
+  "plate_placement": [
+    -100,
+    -70
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "white",
+      "seed": [
+        670,
+        405
+      ],
+      "checked_pixels": 49085,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "green",
+      "seed": [
+        430,
+        300
+      ],
+      "checked_pixels": 36613,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "9a5df81c91991963e4873016ede329fa927519d88075f301ab05c080b75d27b8",
+  "native_source_sha256": "18e0d019f95f4e7bfcb42b46a1e5cdb4c213317d412b3fea433f9189a353f502",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-197-piccolo.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "a77f6682e3366f932a9f1e52d04f3de21460187a711508a5cc37f5ca5f3a8002"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-197-piccolo.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "f6fbd0d941d1e1d91d2add645704314e31e113b2997d5aaf61f3eea5b930106c"
+    }
+  ]
+}

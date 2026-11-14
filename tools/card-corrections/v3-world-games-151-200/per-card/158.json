@@ -1,0 +1,227 @@
+{
+  "number": 158,
+  "id": "world-games-158-evil-presence-drill",
+  "name": "Evil Presence Drill",
+  "family": "DRILL",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-158-evil-presence-drill.svg",
+  "native_source_sha256": "3809de5d61289f3117a04fa1b49cce1ed5829fd73981aab91d84e1897f224327",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/ff5103f7e9d39d82b351f4a8eb36bf5013e193d8ba64bb382246e2603c1ea1f4.png",
+      "sha256": "ff5103f7e9d39d82b351f4a8eb36bf5013e193d8ba64bb382246e2603c1ea1f4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/158.png",
+    "source_sha256": "ff5103f7e9d39d82b351f4a8eb36bf5013e193d8ba64bb382246e2603c1ea1f4",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "(Sensei Deck only.) Your physical attacks",
+      "baseline": 1049.3,
+      "width": 805.1947500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "this Combat do +1 stage of damage per card",
+      "baseline": 1108.3,
+      "width": 776.797,
+      "icon_inline": false
+    },
+    {
+      "text": "in your Banished pile, to a maximum of +10.",
+      "baseline": 1167.3,
+      "width": 766.3599999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "You can have only 1 copy of this Drill in play.",
+      "baseline": 1226.3,
+      "width": 782.432,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "card-title": [
+        259.436,
+        50.2213,
+        540.127,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.326,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.125,
+        1392.65,
+        60.049,
+        33.708
+      ],
+      "rules-line-1": [
+        127.344,
+        1012.11,
+        804.313,
+        46.942
+      ],
+      "power-icon": [
+        480.09,
+        1020.36,
+        53.5937,
+        23.5813
+      ],
+      "rules-line-2": [
+        142.351,
+        1072.53,
+        774.298,
+        45.913
+      ],
+      "rules-line-3": [
+        147.839,
+        1131.53,
+        763.322,
+        45.521
+      ],
+      "rules-line-4": [
+        139.656,
+        1190.53,
+        779.688,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 17,
+        "previous_visible_bounds": [
+          480.09,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          546.859,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          480.09,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-158-evil-presence-drill.webp",
+      "after_sha256": "2d31e059f35ba5aea4e62f15370a8990a094ed6be497821f2a5c99edaa335b9c",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-158-evil-presence-drill.webp",
+      "after_sha256": "9a536e4acc2ba7dce6996df203f203e86c94467726e43330a30ce656a8f40bd2",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": true,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 540.1271820448878,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "DRILL",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        162.321775,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 6
+}

@@ -1,0 +1,307 @@
+{
+  "number": 167,
+  "id": "world-games-167-gohan-the-protector",
+  "name": "Gohan, the Protector",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-167-gohan-the-protector.svg",
+  "native_source_sha256": "ea420da939b9eba611142a366d838ae9d77d1c5065ef5a19ba443ce2a1ee1b7a",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fbaa3ef19a7b89ffed7cc69e513697edc62889f622dfd96a72813c84aa0cb178.png",
+      "sha256": "fbaa3ef19a7b89ffed7cc69e513697edc62889f622dfd96a72813c84aa0cb178"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/167.png",
+    "source_sha256": "fbaa3ef19a7b89ffed7cc69e513697edc62889f622dfd96a72813c84aa0cb178",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your Allies in play cannot be banished.",
+      "baseline": 1049.3,
+      "width": 749.33975,
+      "icon_inline": true
+    },
+    {
+      "text": "If Videl is your Ally, your Allies power up",
+      "baseline": 1108.3,
+      "width": 709.863,
+      "icon_inline": false
+    },
+    {
+      "text": "1 extra stage during the Power Up Step.",
+      "baseline": 1167.3,
+      "width": 695.408,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        882.236,
+        159.755,
+        148.764,
+        32.802
+      ],
+      "power-stage-value-1": [
+        887.948,
+        219.047,
+        143.052,
+        32.802
+      ],
+      "power-stage-value-2": [
+        890.93,
+        278.338,
+        140.07,
+        32.802
+      ],
+      "power-stage-value-3": [
+        888.452,
+        337.63,
+        142.548,
+        32.802
+      ],
+      "power-stage-value-4": [
+        887.528,
+        396.922,
+        143.472,
+        32.802
+      ],
+      "power-stage-value-5": [
+        889.712,
+        456.213,
+        141.288,
+        32.802
+      ],
+      "power-stage-value-6": [
+        894.374,
+        515.505,
+        136.626,
+        32.802
+      ],
+      "power-stage-value-7": [
+        910.208,
+        574.797,
+        120.792,
+        32.802
+      ],
+      "power-stage-value-8": [
+        909.578,
+        634.088,
+        121.422,
+        32.802
+      ],
+      "power-stage-value-9": [
+        910.46,
+        693.38,
+        120.54,
+        32.802
+      ],
+      "power-stage-value-10": [
+        910.124,
+        752.672,
+        120.876,
+        32.802
+      ],
+      "power-stage-value-11": [
+        1015.17,
+        811.963,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        220.075,
+        50.2213,
+        618.849,
+        70.0324
+      ],
+      "v3-level-number": [
+        60.8258,
+        25.15,
+        84.3485,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.465,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.265,
+        1392.65,
+        57.77,
+        33.708
+      ],
+      "rules-line-1": [
+        222.384,
+        1013.53,
+        681.002,
+        45.521
+      ],
+      "power-icon": [
+        155.614,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        176.382,
+        1072.53,
+        706.237,
+        45.521
+      ],
+      "rules-line-3": [
+        182.8,
+        1131.53,
+        693.399,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "Y",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          155.614,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          222.384,
+          1015.0,
+          20.8642,
+          34.251
+        ],
+        "new_visible_bounds": [
+          155.614,
+          1022.48,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": -0.021399999999857755,
+        "center_error": 0.001399999999875945,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-167-gohan-the-protector.webp",
+      "after_sha256": "62edef41efe3bbf4d6b169f008668ae9a814c06a07d4356ec5577ffa909c5a28",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-167-gohan-the-protector.webp",
+      "after_sha256": "7424658156e9e9e32158af37d6f06e4ef4e52c3a5df014c6893df0c513d26f8f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 618.849127182045,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

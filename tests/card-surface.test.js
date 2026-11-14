@@ -5,7 +5,7 @@ import {isHiTech,isUltraRare,finishForImage,cardGeometry} from '../public/card-s
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {existsSync, readFileSync} from 'node:fs';
 
-test('all 17 current Hi-Tech cards are recognized from metadata or the legacy HT identifier', () => {
+test('all current Hi-Tech cards are recognized from metadata or the legacy HT identifier', () => {
   const cards=catalog.filter(isHiTech);
   assert.equal(cards.filter(c=>c.set==='Saiyan Saga').length,7);
   assert.equal(cards.filter(c=>c.set==='Trunks Saga').length,10);
@@ -22,11 +22,11 @@ test('standard art, private backs, and external custom art never acquire a rarit
   assert.equal(finishForImage('https://dragonballocg.com/assets/cards/trunks-195-vegeta.webp')?.id,'trunks-195-vegeta');
 });
 
-test('all 17 Ultra Rares use their catalog identity, including four confirmed Saiyan cards', () => {
+test('all 21 Ultra Rares use their catalog identity and the appropriate masks', () => {
   const cards = catalog.filter(isUltraRare);
-  assert.equal(cards.length, 17);
-  assert.deepEqual(Object.fromEntries(['Saiyan Saga','Frieza Saga','Trunks Saga','Android Saga','Cell Saga'].map(set => [set,cards.filter(c=>c.set===set).length])),
-    {'Saiyan Saga':4,'Frieza Saga':2,'Trunks Saga':5,'Android Saga':2,'Cell Saga':4});
+  assert.equal(cards.length, 21);
+  assert.deepEqual(Object.fromEntries(['Saiyan Saga','Frieza Saga','Trunks Saga','Android Saga','Cell Saga','World Games Saga'].map(set => [set,cards.filter(c=>c.set===set).length])),
+    {'Saiyan Saga':4,'Frieza Saga':2,'Trunks Saga':5,'Android Saga':2,'Cell Saga':4,'World Games Saga':4});
   for (const card of cards) {
     for (const src of [card.image,card.downloadImage,card.image.split('?')[0]+'?v=old',card.image.replace('.webp','.jpg')]) {
       assert.equal(finishForImage(src)?.id,card.id);
@@ -34,7 +34,11 @@ test('all 17 Ultra Rares use their catalog identity, including four confirmed Sa
     const mask = new URL('../public'+ultraRareMask(card),import.meta.url);
     assert.ok(existsSync(mask), card.id);
     assert.match(readFileSync(mask,'utf8'), /fill="black"/, 'rules panel protected');
-    assert.match(readFileSync(mask,'utf8'), /fill="#0d0d0d"/, 'character protection');
+    if (card.set === 'World Games Saga') {
+      assert.equal(ultraRareMask(card), '/card-effects/ultra-rare/generic-v3.svg');
+    } else {
+      assert.match(readFileSync(mask,'utf8'), /fill="#0d0d0d"/, 'character protection');
+    }
     assert.equal(finishForImage('https://example.com'+card.image),null);
     assert.match(ultraRareMask({...card,image:card.image+'new'}), /generic-v[23]\.svg$/, 'revised art never gets an old silhouette');
   }

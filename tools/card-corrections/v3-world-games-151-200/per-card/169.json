@@ -1,0 +1,302 @@
+{
+  "number": 169,
+  "id": "world-games-169-gohan",
+  "name": "Gohan",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-169-gohan.svg",
+  "native_source_sha256": "c50b261f246181fc077887e54ae62a230292c88dfc84f82fb93e353c34612020",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+      "sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-169-gohan-background-portrait.png",
+      "sha256": "5351d182ced395b7800dcff8f320259498f4e4fec7d3716339da128749205de4"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/169.png",
+    "source_sha256": "9ad92b6a5cbcd4b16f0c7bebb7447bf7af19ff35df4a022f281cd8397eff42e7",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      50,
+      1060,
+      1484.0
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "7ed6d591c189f3db2dd63e9958ce6657eabbcba233c0232534f4d5208c148da4",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 1 stage per Personality in play.",
+      "baseline": 1108.3,
+      "width": 706.335,
+      "icon_inline": false
+    },
+    {
+      "text": "Raise Gohan to his highest stage. If Videl is",
+      "baseline": 1167.3,
+      "width": 761.5579999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Ally, place the top card of your discard pile",
+      "baseline": 1226.3,
+      "width": 850.64,
+      "icon_inline": false
+    },
+    {
+      "text": "at the bottom of your Life Deck.",
+      "baseline": 1285.3,
+      "width": 562.0300000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        863.322,
+        160.009,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-1": [
+        892.232,
+        224.691,
+        138.768,
+        38.269
+      ],
+      "power-stage-value-2": [
+        890.027,
+        289.373,
+        140.973,
+        38.269
+      ],
+      "power-stage-value-3": [
+        896.985,
+        354.054,
+        134.015,
+        38.269
+      ],
+      "power-stage-value-4": [
+        892.036,
+        418.736,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-5": [
+        892.526,
+        483.418,
+        138.474,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.664,
+        548.1,
+        140.336,
+        38.269
+      ],
+      "power-stage-value-7": [
+        893.016,
+        612.782,
+        137.984,
+        38.269
+      ],
+      "power-stage-value-8": [
+        888.067,
+        677.463,
+        142.933,
+        38.269
+      ],
+      "power-stage-value-9": [
+        892.82,
+        742.145,
+        138.18,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        437.873,
+        50.2213,
+        183.254,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.352,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.152,
+        1392.65,
+        59.996,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        178.195,
+        1072.53,
+        702.611,
+        45.913
+      ],
+      "rules-line-3": [
+        150.216,
+        1131.53,
+        758.569,
+        45.913
+      ],
+      "rules-line-4": [
+        105.16,
+        1190.53,
+        848.68,
+        45.521
+      ],
+      "rules-line-5": [
+        249.832,
+        1249.53,
+        559.335,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-169-gohan.webp",
+      "after_sha256": "56d993076d62532931f165b488696557b4d4c57a4eb58feaede3f972f954ae2d",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-169-gohan.webp",
+      "after_sha256": "fbb2cac713f1641a84efac7bab0dc4cc5b418a7ad6a85a694d2c949131e7fec3",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

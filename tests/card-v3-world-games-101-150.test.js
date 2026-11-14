@@ -32,7 +32,7 @@ test('earlier catalog records and all permanent deck-code positions are unchange
  assert.equal(hash(Buffer.from('export const catalog = '+JSON.stringify(prior,null,2)+';\n')),release.baseline_catalog_sha256);
  assert.deepEqual(prior.map(c=>c.id),read('baseline-card-ids.json'));
  const ids=read('baseline-code-card-ids.json');assert.deepEqual(codeCardIds.slice(0,ids.length),ids);
- const previous=read('previous-handoff-code-card-ids.json');assert.deepEqual(codeCardIds.slice(0,previous.length),previous);assert.deepEqual(codeCardIds.slice(previous.length),[cards.find(c=>c.number==='131').id]);assert.equal(new Set(codeCardIds).size,codeCardIds.length);
+ const previous=read('previous-handoff-code-card-ids.json');assert.deepEqual(codeCardIds.slice(0,previous.length),previous);assert.deepEqual(codeCardIds.slice(previous.length,previous.length+1),[cards.find(c=>c.number==='131').id]);assert.equal(new Set(codeCardIds).size,codeCardIds.length);
 });
 
 test('native sources, retained assets and 100 WebP exports match the reviewed hashes',()=>{
@@ -77,9 +77,9 @@ test('CRD changes and fixed physical damage remain explicit',()=>{
 
 test('all new public card routes work and the next unavailable card stays out',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
- assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,150);
+ assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,200);
  for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(card.image));}
- for(const n of [...pending,151])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
+ for(const n of [...pending,9999])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
 });
 
 test('all 50 new cards round-trip through portable deck codes',async()=>{

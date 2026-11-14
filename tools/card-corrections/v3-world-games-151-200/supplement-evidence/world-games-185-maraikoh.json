@@ -1,0 +1,60 @@
+{
+  "card_id": "world-games-185-maraikoh",
+  "name": "Maraikoh",
+  "number": 185,
+  "native_ui_unchanged": true,
+  "changed_pixels_outside_background_mask": 0,
+  "main_artwork_bytes_retained": true,
+  "main_placement_unchanged": true,
+  "background_plate": "exec-910e0a02-ec12-4743-830d-5fc3bb6c6dc0.png",
+  "plate_placement": [
+    -45,
+    -140
+  ],
+  "published": false,
+  "visual_review": "Reviewed at display and full size; bolder tonal portrait, layered cel shading, painted texture; retained foreground pose, scale and native UI.",
+  "foreground_component_checks": [
+    {
+      "kind": "skin",
+      "seed": [
+        450,
+        790
+      ],
+      "checked_pixels": 265275,
+      "changed_pixels": 0
+    },
+    {
+      "kind": "purple",
+      "seed": [
+        600,
+        460
+      ],
+      "checked_pixels": 116477,
+      "changed_pixels": 0
+    }
+  ],
+  "generated_with": "Built-in image generation, isolated background plate",
+  "foreground_component_changed_pixels": 0,
+  "plate_sha256": "6c641ba94933e6ea4e40a228c20447f2edcff79605968009df683e73d10327f5",
+  "native_source_sha256": "5c679416a1735461d3a640f3b01b4a12b74db7fa9307d5c9ee7f3b30feeba341",
+  "exports": [
+    {
+      "path": "payload/public/assets/cards/world-games-185-maraikoh.webp",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "lossless_verified": true,
+      "sha256": "554810f6e33889becb7f4fd7dfb565d65cbc7a6abb1181b934c38d65b7683fb8"
+    },
+    {
+      "path": "payload/public/assets/cards/downloads/world-games-185-maraikoh.webp",
+      "dimensions": [
+        2120,
+        2968
+      ],
+      "lossless_verified": true,
+      "sha256": "6d1243b58cd7c083ead091df9cc983ea22989bea0419a15afb05f6fe537eabf7"
+    }
+  ]
+}

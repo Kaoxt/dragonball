@@ -51,9 +51,9 @@ test('new style symbols use the approved thinner strokes and special cards retai
 
 test('100-card set and all 50 new public card routes work',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
- assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,150);
+ assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,200);
  for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(card.image));}
- assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/151'),assets)).status,404);
+ assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/9999'),assets)).status,404);
 });
 
 test('all new cards round-trip through portable deck codes',async()=>{

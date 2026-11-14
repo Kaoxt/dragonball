@@ -1,0 +1,290 @@
+{
+  "number": 193,
+  "id": "world-games-193-pikkon",
+  "name": "Pikkon",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-193-pikkon.svg",
+  "native_source_sha256": "82a69eb46f4b72b9e1a27eb454bad32e9b6782d2eebc8b6d00605c954115c41d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+      "sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-193-pikkon-background-portrait.png",
+      "sha256": "55872a80776a7bfa942d0f999861f26e8300f70bd2798c14d6bf6ebaf020c80a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/193.png",
+    "source_sha256": "3cdf1c3cf08a828d27420c6e9755db1e33998c5c0bb6ec93334eae2d9281a800",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      0.0,
+      1060,
+      1484.0
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "46981f5f380ada0857051940862a809ef4247c2b340a7c27705fe550d38ce97a",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you did",
+      "baseline": 1049.3,
+      "width": 649.6189473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "not declare a Tokui Waza, search",
+      "baseline": 1108.3,
+      "width": 590.2050000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile for a Martial Arts Styled",
+      "baseline": 1167.3,
+      "width": 726.3270000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "card and shuffle it into your Life Deck.",
+      "baseline": 1226.3,
+      "width": 679.924,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.008,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        863.616,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        864.694,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        865.478,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        871.603,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        863.322,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.39,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.341,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.036,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        889.684,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        429.054,
+        50.2213,
+        200.892,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        81.2649,
+        876.0,
+        57.4701,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        787.882,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.682,
+        1392.65,
+        58.936,
+        33.708
+      ],
+      "rules-line-1": [
+        256.313,
+        1013.53,
+        597.065,
+        45.521
+      ],
+      "power-icon": [
+        205.622,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        236.161,
+        1072.53,
+        586.677,
+        40.572
+      ],
+      "rules-line-3": [
+        167.586,
+        1131.53,
+        723.828,
+        45.521
+      ],
+      "rules-line-4": [
+        191.082,
+        1190.53,
+        676.837,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          205.622,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          256.313,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          205.622,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-193-pikkon.webp",
+      "after_sha256": "b21228fca7ca74a8fdfe7381ba068c4f7194be54fc65676645c2b65dbb16863e",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-193-pikkon.webp",
+      "after_sha256": "bf47b59c304e700dedfb2d9d56cf39db63ec569c7deb0885cf857521254844c5",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 4
+}

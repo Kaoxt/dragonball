@@ -1,0 +1,337 @@
+{
+  "number": 184,
+  "id": "world-games-184-maraikoh-the-mighty",
+  "name": "Maraikoh, the Mighty",
+  "family": "VILLAIN PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-184-maraikoh-the-mighty.svg",
+  "native_source_sha256": "8cb6c9ee47b977b1023005d50618b0eac63a388e5883c8f151eda26ec7372889",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/235fd3533851134ec2eb2f5c4797de8da07d6c60bbead6047d9d45cd8454db9a.png",
+      "sha256": "235fd3533851134ec2eb2f5c4797de8da07d6c60bbead6047d9d45cd8454db9a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/184.png",
+    "source_sha256": "235fd3533851134ec2eb2f5c4797de8da07d6c60bbead6047d9d45cd8454db9a",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 10 stages.",
+      "baseline": 1049.3,
+      "width": 689.4881555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Shuffle the bottom 3 cards",
+      "baseline": 1108.3,
+      "width": 553.1610000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of your discard pile into your Life Deck.",
+      "baseline": 1167.3,
+      "width": 698.0050000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If stopped, discard the top",
+      "baseline": 1226.3,
+      "width": 467.509,
+      "icon_inline": false
+    },
+    {
+      "text": "3 cards of your Life Deck.",
+      "baseline": 1285.3,
+      "width": 454.2300000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        881.648,
+        157.656,
+        149.352,
+        32.802
+      ],
+      "power-stage-value-1": [
+        889.712,
+        212.387,
+        141.288,
+        32.802
+      ],
+      "power-stage-value-2": [
+        884.168,
+        267.118,
+        146.832,
+        32.802
+      ],
+      "power-stage-value-3": [
+        887.066,
+        321.849,
+        143.934,
+        32.802
+      ],
+      "power-stage-value-4": [
+        882.782,
+        376.579,
+        148.218,
+        32.802
+      ],
+      "power-stage-value-5": [
+        883.412,
+        431.31,
+        147.588,
+        32.802
+      ],
+      "power-stage-value-6": [
+        882.782,
+        486.041,
+        148.218,
+        32.802
+      ],
+      "power-stage-value-7": [
+        887.066,
+        540.772,
+        143.934,
+        32.802
+      ],
+      "power-stage-value-8": [
+        884.168,
+        595.503,
+        146.832,
+        32.802
+      ],
+      "power-stage-value-9": [
+        889.712,
+        650.233,
+        141.288,
+        32.802
+      ],
+      "power-stage-value-10": [
+        889.334,
+        704.964,
+        141.666,
+        32.802
+      ],
+      "power-stage-value-11": [
+        889.334,
+        759.695,
+        141.666,
+        32.802
+      ],
+      "power-stage-value-12": [
+        1015.17,
+        814.426,
+        15.834,
+        26.712
+      ],
+      "card-title": [
+        212.246,
+        44.5,
+        634.507,
+        70.0324
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        419.002,
+        891.991,
+        220.996,
+        33.0187
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        786.054,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        845.853,
+        1392.65,
+        62.593,
+        33.708
+      ],
+      "rules-line-1": [
+        240.086,
+        1013.53,
+        633.374,
+        45.913
+      ],
+      "power-icon": [
+        185.54,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        254.414,
+        1073.61,
+        550.172,
+        35.084
+      ],
+      "rules-line-3": [
+        182.041,
+        1131.53,
+        694.918,
+        45.521
+      ],
+      "rules-line-4": [
+        297.558,
+        1190.53,
+        463.883,
+        44.884
+      ],
+      "rules-line-5": [
+        303.732,
+        1249.53,
+        451.535,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          185.54,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          240.086,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          185.54,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-184-maraikoh-the-mighty.webp",
+      "after_sha256": "33b4036fb3beb827af1fbb749de4014cf7620d29f74282e1ff417a96a9c72793",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-184-maraikoh-the-mighty.webp",
+      "after_sha256": "1ec3b70ddbfbe298fb8a6317c91952b934c1aa3d55f9ba6520161d284819024b",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 634.5074812967582,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 1.0
+    },
+    "middle_label": {
+      "label": "VILLAIN",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        220.99575000000002,
+        33.01875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

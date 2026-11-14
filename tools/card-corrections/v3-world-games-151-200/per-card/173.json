@@ -1,0 +1,286 @@
+{
+  "number": 173,
+  "id": "world-games-173-goku",
+  "name": "Goku",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-173-goku.svg",
+  "native_source_sha256": "a5d3eed6807670041c30345ddeb4ef777099f91e5e3e038335c131dd2c61c9ac",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/082472c1ec9b1a1c6585f73072aa7c842cc8f1ef0ca05d54d9a5f8b395c7a72a.png",
+      "sha256": "082472c1ec9b1a1c6585f73072aa7c842cc8f1ef0ca05d54d9a5f8b395c7a72a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2600fd4ab27db4f71d5fac07a82a0cffe345eb74ac82deb3d2c72a6935420e7a.png",
+      "sha256": "2600fd4ab27db4f71d5fac07a82a0cffe345eb74ac82deb3d2c72a6935420e7a"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-173-goku-background-portrait.png",
+      "sha256": "b8cf6b212db1b29e17810b0781f76684a3c16bd23164dab99d90bfedf874aa36"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/173.png",
+      "sha256": "d9db332aaab1c4576146d8b4db55889ff3ea4d9341a8e004d8b3d3ba039e70c7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/173.png",
+    "source_sha256": "d9db332aaab1c4576146d8b4db55889ff3ea4d9341a8e004d8b3d3ba039e70c7",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      146,
+      1060,
+      706
+    ],
+    "review": "Original scan, enlarged source detail, display card and full-resolution details compared. Closer modern interpretation; not a pixel trace.",
+    "supplement_native_sha256": "67ff959bb003baabfb18fa3a025575a6c6dd58e8a28f4b60e8ec15e48478f916",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Stops a physical attack. If you declared a Tokui",
+      "baseline": 1049.3,
+      "width": 839.272,
+      "icon_inline": true
+    },
+    {
+      "text": "Waza, search your Life Deck for a Freestyle Drill",
+      "baseline": 1108.3,
+      "width": 850.395,
+      "icon_inline": false
+    },
+    {
+      "text": "and place it in your hand.",
+      "baseline": 1167.3,
+      "width": 444.724,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        864.939,
+        160.009,
+        166.992,
+        38.269
+      ],
+      "power-stage-value-1": [
+        864.547,
+        224.691,
+        167.384,
+        38.269
+      ],
+      "power-stage-value-2": [
+        865.625,
+        289.373,
+        166.306,
+        38.269
+      ],
+      "power-stage-value-3": [
+        866.409,
+        354.054,
+        165.522,
+        38.269
+      ],
+      "power-stage-value-4": [
+        872.534,
+        418.736,
+        159.397,
+        38.269
+      ],
+      "power-stage-value-5": [
+        864.253,
+        483.418,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-6": [
+        890.321,
+        548.1,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-7": [
+        890.272,
+        612.782,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-8": [
+        892.967,
+        677.463,
+        138.964,
+        38.269
+      ],
+      "power-stage-value-9": [
+        890.615,
+        742.145,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1013.46,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        457.102,
+        50.2213,
+        144.797,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        789.949,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        849.749,
+        1392.65,
+        54.802,
+        33.708
+      ],
+      "rules-line-1": [
+        134.548,
+        1013.53,
+        839.272,
+        45.521
+      ],
+      "power-icon": [
+        85.1795,
+        1015.0,
+        37.3689,
+        34.3
+      ],
+      "rules-line-2": [
+        104.303,
+        1072.53,
+        850.395,
+        45.521
+      ],
+      "rules-line-3": [
+        307.138,
+        1131.53,
+        444.724,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "S",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          85.1795,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          134.548,
+          1014.61,
+          19.257,
+          35.084
+        ],
+        "new_visible_bounds": [
+          85.1795,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.0019999999999527063,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-173-goku.webp",
+      "after_sha256": "61b609df6a1c4fc74253d9c1dcd12d354baade32ad0e364ad8bfaf667f55e864",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-173-goku.webp",
+      "after_sha256": "379950dc1af3e2b6cd1626d20a18142305a3c911f71a75d096184cc98681bfcc",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "block",
+  "rarity_stars": 4
+}

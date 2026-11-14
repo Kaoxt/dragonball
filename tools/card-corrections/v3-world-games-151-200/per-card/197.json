@@ -1,0 +1,266 @@
+{
+  "number": 197,
+  "id": "world-games-197-piccolo",
+  "name": "Piccolo",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-197-piccolo.svg",
+  "native_source_sha256": "4b0e64c3cf8ba8eb7539c1c30d6cc8452eb7e22da6a60c98f532a3564337681d",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
+      "sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7"
+    },
+    {
+      "path": "tools/card-corrections/v3-world-games-151-200/artwork/refined-backgrounds/world-games-197-piccolo-background-portrait.png",
+      "sha256": "9a5df81c91991963e4873016ede329fa927519d88075f301ab05c080b75d27b8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "retained approved standalone source and exports",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/197.png",
+    "source_sha256": "5f5c839574fd0f806c703f04af885e112b4fcc4fcda49967f63898327db9dcc7",
+    "source_library_file_id": "libfile_530b9ffaf82081918152e09b3faa4ce6",
+    "native_placement": [
+      0,
+      0.0,
+      1060,
+      1484.0
+    ],
+    "review": "Refined Hi-Tech background portrait; native UI and foreground artwork retained.",
+    "supplement_native_sha256": "18e0d019f95f4e7bfcb42b46a1e5cdb4c213317d412b3fea433f9189a353f502",
+    "supplement_render_pixel_match": true
+  },
+  "rules": [
+    {
+      "text": "Cards in your discard pile",
+      "baseline": 1049.3,
+      "width": 517.8637500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "cannot be banished.",
+      "baseline": 1108.3,
+      "width": 358.092,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        889.341,
+        160.009,
+        141.659,
+        38.269
+      ],
+      "power-stage-value-1": [
+        893.408,
+        224.691,
+        137.592,
+        38.269
+      ],
+      "power-stage-value-2": [
+        900.317,
+        289.373,
+        130.683,
+        38.269
+      ],
+      "power-stage-value-3": [
+        890.713,
+        354.054,
+        140.287,
+        38.269
+      ],
+      "power-stage-value-4": [
+        891.84,
+        418.736,
+        139.16,
+        38.269
+      ],
+      "power-stage-value-5": [
+        894.927,
+        483.418,
+        136.073,
+        38.269
+      ],
+      "power-stage-value-6": [
+        891.35,
+        548.1,
+        139.65,
+        38.269
+      ],
+      "power-stage-value-7": [
+        888.851,
+        612.782,
+        142.149,
+        38.269
+      ],
+      "power-stage-value-8": [
+        888.361,
+        677.463,
+        142.639,
+        38.269
+      ],
+      "power-stage-value-9": [
+        891.105,
+        742.145,
+        139.895,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        420.881,
+        50.2213,
+        217.238,
+        57.5574
+      ],
+      "v3-level-number": [
+        76.863,
+        25.15,
+        52.274,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        92.1918,
+        876.0,
+        35.6164,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        788.518,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        848.318,
+        1392.65,
+        57.664,
+        33.708
+      ],
+      "rules-line-1": [
+        338.489,
+        1013.53,
+        449.281,
+        45.521
+      ],
+      "power-icon": [
+        271.23,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        351.998,
+        1072.53,
+        355.005,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "C",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          271.23,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          338.489,
+          1014.61,
+          19.551,
+          35.084
+        ],
+        "new_visible_bounds": [
+          271.23,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.005100000000084037,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-197-piccolo.webp",
+      "after_sha256": "a77f6682e3366f932a9f1e52d04f3de21460187a711508a5cc37f5ca5f3a8002",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "downsample-native"
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-197-piccolo.webp",
+      "after_sha256": "f6fbd0d941d1e1d91d2add645704314e31e113b2997d5aaf61f3eea5b930106c",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true,
+      "render_mode": "native-size"
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "retained_supplement_native_ui": true,
+    "footer_idempotent": true
+  },
+  "power_icon": "constant",
+  "rarity_stars": 4
+}

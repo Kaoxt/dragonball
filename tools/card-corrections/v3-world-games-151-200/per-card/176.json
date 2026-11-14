@@ -1,0 +1,313 @@
+{
+  "number": 176,
+  "id": "world-games-176-goten-the-young-saiyan",
+  "name": "Goten, the Young Saiyan",
+  "family": "HERO PERSONALITY",
+  "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-176-goten-the-young-saiyan.svg",
+  "native_source_sha256": "f486422df0ebefa060db88f8e0c8b0a280b653cc9dc46b71aa0c887ce70ef756",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/06f7b2567f976301866f7572844ecd01ec6a7058bc3249527615c246d2ce2b09.png",
+      "sha256": "06f7b2567f976301866f7572844ecd01ec6a7058bc3249527615c246d2ce2b09"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+      "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+    }
+  ],
+  "artwork": {
+    "mode": "new modern illustration from printed reference",
+    "source": "tools/card-corrections/v3-world-games-151-200/artwork/176.png",
+    "source_sha256": "06f7b2567f976301866f7572844ecd01ec6a7058bc3249527615c246d2ce2b09",
+    "additional_zoom": false,
+    "localized_correction": null,
+    "native_placement": [
+      14,
+      145.69492084432716,
+      1033,
+      706.6101583113457
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. Banish 2 cards",
+      "baseline": 1108.3,
+      "width": 646.457,
+      "icon_inline": false
+    },
+    {
+      "text": "from your discard pile. HIT: Draw",
+      "baseline": 1167.3,
+      "width": 585.403,
+      "icon_inline": false
+    },
+    {
+      "text": "the bottom 2 cards of your discard pile.",
+      "baseline": 1226.3,
+      "width": 700.4550000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_geometry": {
+    "native_outlined_text": true,
+    "bounds": {
+      "power-stage-value-0": [
+        863.322,
+        160.009,
+        167.678,
+        38.269
+      ],
+      "power-stage-value-1": [
+        889.488,
+        224.691,
+        141.512,
+        38.269
+      ],
+      "power-stage-value-2": [
+        889.733,
+        289.373,
+        141.267,
+        38.269
+      ],
+      "power-stage-value-3": [
+        889.684,
+        354.054,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-4": [
+        891.546,
+        418.736,
+        139.454,
+        38.269
+      ],
+      "power-stage-value-5": [
+        889.39,
+        483.418,
+        141.61,
+        38.269
+      ],
+      "power-stage-value-6": [
+        889.439,
+        548.1,
+        141.561,
+        38.269
+      ],
+      "power-stage-value-7": [
+        889.684,
+        612.782,
+        141.316,
+        38.269
+      ],
+      "power-stage-value-8": [
+        889.635,
+        677.463,
+        141.365,
+        38.269
+      ],
+      "power-stage-value-9": [
+        891.497,
+        742.145,
+        139.503,
+        38.269
+      ],
+      "power-stage-value-10": [
+        1012.53,
+        806.827,
+        18.473,
+        31.164
+      ],
+      "card-title": [
+        209.5,
+        48.6356,
+        640.0,
+        61.6375
+      ],
+      "v3-level-number": [
+        58.9918,
+        25.15,
+        88.0165,
+        95.4
+      ],
+      "card-category": [
+        450.823,
+        891.391,
+        157.354,
+        34.2188
+      ],
+      "concept-pur-number": [
+        80.0154,
+        876.0,
+        59.9693,
+        65.0
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        165.321,
+        1378.35,
+        92.8585,
+        62.2932
+      ],
+      "footer-rarity": [
+        789.26,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        849.06,
+        1392.65,
+        56.18,
+        33.708
+      ],
+      "rules-line-1": [
+        278.11,
+        1013.53,
+        557.375,
+        45.913
+      ],
+      "power-icon": [
+        223.515,
+        1015.0,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        207.766,
+        1072.53,
+        643.468,
+        36.162
+      ],
+      "rules-line-3": [
+        237.618,
+        1131.53,
+        583.765,
+        45.521
+      ],
+      "rules-line-4": [
+        180.375,
+        1190.53,
+        698.25,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "E",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          278.11,
+          1015.0,
+          17.983,
+          34.3
+        ],
+        "new_visible_bounds": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": 0,
+        "center_error": 0.0,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ]
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/world-games-176-goten-the-young-saiyan.webp",
+      "after_sha256": "3492b6731e4a796eee13ce536f76f4d2c73e90a1ab39e2f7390a990494b79355",
+      "size": [
+        1060,
+        1484
+      ],
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/world-games-176-goten-the-young-saiyan.webp",
+      "after_sha256": "240068bd227ad9f5d2c436e0e2b46068955800d589ae61b6914333299082c45f",
+      "size": [
+        2120,
+        2968
+      ],
+      "lossless_round_trip": true
+    }
+  ],
+  "tokui_waza_backing": null,
+  "current_preview_revision": {
+    "title_fit": {
+      "font_size": 75.72172266919071,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 639.9999999999999,
+      "visible_height": 60.72882158069095,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 640.0,
+      "scale_factor": 0.880127848995521
+    },
+    "middle_label": {
+      "label": "HERO",
+      "font": "Michroma",
+      "font_size": 38.4,
+      "tracking": 4.0,
+      "width_factor": 0.956,
+      "stroke": 4.21875,
+      "visible_center": [
+        529.5,
+        908.5
+      ],
+      "visible_size": [
+        157.35382500000003,
+        34.21875
+      ]
+    },
+    "footer_idempotent": true
+  },
+  "power_icon": "attack",
+  "rarity_stars": 4
+}

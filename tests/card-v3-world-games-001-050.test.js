@@ -80,7 +80,7 @@ test('World Games set and all 50 card pages work at their public URLs',async()=>
  const html=fs.readFileSync('public/cards/index.html','utf8');
  const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  const set=catalogSets(catalog).find(s=>s.name==='World Games Saga');
- assert.equal(set.count,150);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
+ assert.equal(set.count,200);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
  const page=await cardPage(new Request('https://dragonballocg.com'+set.path),assets);
  assert.equal(page.status,200);assert.match(await page.text(),/World Games Saga/);
  for(const card of cards){
@@ -88,7 +88,7 @@ test('World Games set and all 50 card pages work at their public URLs',async()=>
   assert.equal(page.status,200);
   const body=await page.text();assert.ok(body.includes(card.image));
  }
- assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/151'),assets)).status,404);
+ assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/9999'),assets)).status,404);
 });
 
 test('all 50 World Games cards round-trip through portable deck codes',async()=>{
