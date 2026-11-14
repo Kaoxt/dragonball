@@ -21622,8 +21622,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-159-goku-the-galaxys-hero.webp?v=037ef9208df5",
-    "downloadImage": "/assets/cards/downloads/world-games-159-goku-the-galaxys-hero.webp?v=9c99085beccf"
+    "image": "/assets/cards/world-games-159-goku-the-galaxys-hero.webp?v=12fdccf32b4f",
+    "downloadImage": "/assets/cards/downloads/world-games-159-goku-the-galaxys-hero.webp?v=8beb063947c9"
   },
   {
     "id": "world-games-160-gokus-blinding-strike",
@@ -22010,8 +22010,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-171-goku-the-competitor.webp?v=32fae5b95a56",
-    "downloadImage": "/assets/cards/downloads/world-games-171-goku-the-competitor.webp?v=c6040049b382"
+    "image": "/assets/cards/world-games-171-goku-the-competitor.webp?v=9b3d96626d72",
+    "downloadImage": "/assets/cards/downloads/world-games-171-goku-the-competitor.webp?v=85b20b8dd9ed"
   },
   {
     "id": "world-games-172-goku-the-proud",

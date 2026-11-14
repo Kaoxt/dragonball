@@ -1,0 +1,74 @@
+{
+  "card": 171,
+  "revision": "goku-171-larger-rightward-framing",
+  "date": "2026-11-14",
+  "native_ui_svg_identical": true,
+  "all_native_text_outlined": true,
+  "native_geometry_max_error": 0.0,
+  "stages": [
+    2500000,
+    2400000,
+    2300000,
+    2200000,
+    2100000,
+    2000000,
+    1900000,
+    1800000,
+    1700000,
+    1600000,
+    1500000,
+    0
+  ],
+  "export_checks": [
+    {
+      "size": [
+        2120,
+        2968
+      ],
+      "changed_bbox": [
+        29,
+        292,
+        2093,
+        1703
+      ],
+      "outside_artwork_changed_pixels": 0,
+      "stage_field_interior_changed_pixels": 0,
+      "lossless_round_trip": true
+    },
+    {
+      "size": [
+        1060,
+        1484
+      ],
+      "changed_bbox": [
+        12,
+        143,
+        1049,
+        854
+      ],
+      "outside_artwork_changed_pixels": 0,
+      "stage_field_interior_changed_pixels": 0,
+      "lossless_round_trip": true
+    }
+  ],
+  "native_placement": [
+    14,
+    64.5,
+    1217.85,
+    811.9
+  ],
+  "relative_enlargement": 1.15,
+  "face_horizontal_change_approx": 60,
+  "scale": 0.79287109375,
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "fit": "User-requested closer framing: Goku and his original aura uniformly enlarged 15 percent together. Face moves approximately 60 native units right, from x414 to x474. Same source drawing, no stretching or redraw; uppermost hair tip is cropped by the title, as in the earlier close reference. Both fists and lower forearm remain clear of the native frame and stage column.",
+  "source_fidelity": "Exact decoded RGB source asset unchanged. Open mouth, eyes, closed fists, pose, colors and aura preserved. Both final exports visually reviewed; the intentional upper hair crop matches the requested closer framing.",
+  "template_reference": "Existing approved native title, Level/PUR, HERO bar, stages, rules, borders and footer are unchanged.",
+  "other_49_native_cards_and_98_exports_byte_identical": true,
+  "previous_goku_159_color_and_aura_correction_preserved": true,
+  "visual_review": "The supplied open-mouth drawing is enlarged 15 percent, with face about 60 native units farther right at x474. Fists and yellow aura remain one composition. Upper hair-tip crop matches the requested closer reference framing. The native title, Level/PUR, HERO bar, stage stack, rule text, borders, logo and footer remain exactly aligned. No stretching or generative redraw.",
+  "published": false
+}

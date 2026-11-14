@@ -2156,7 +2156,7 @@
     "name": "Goku, the Galaxy's Hero",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-159-goku-the-galaxys-hero.svg",
-    "native_source_sha256": "ba99957a7e7820cf0ce3db45b0a5ad5e031fa93a4900e05853733d1e59c68603",
+    "native_source_sha256": "05118ffab28de9dd1c8243c7ae6879653e369bcc65e2329c1879a6e2e58bd589",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -2179,8 +2179,16 @@
         "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
       },
       {
-        "path": "tools/card-templates/v3/assets/872dd5a8a905b749486f7763152e649323aada0b8cd0d77eb087b71fbb51833c.png",
-        "sha256": "872dd5a8a905b749486f7763152e649323aada0b8cd0d77eb087b71fbb51833c"
+        "path": "tools/card-templates/v3/assets/0bdf8dcfd4a73ae90476a88b63177fe7998c27237fbbc8b40330b58c741b7f10.png",
+        "sha256": "0bdf8dcfd4a73ae90476a88b63177fe7998c27237fbbc8b40330b58c741b7f10"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b17c68629f9b87d735348cc9573396c5f1c0a55c5c2728b9a51be663ae3d2dcd.png",
+        "sha256": "b17c68629f9b87d735348cc9573396c5f1c0a55c5c2728b9a51be663ae3d2dcd"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/047c4738b04dde65c2064151b7df697ce57dc838276eb85cb25d8c3b57449003.png",
+        "sha256": "047c4738b04dde65c2064151b7df697ce57dc838276eb85cb25d8c3b57449003"
       },
       {
         "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
@@ -2188,17 +2196,31 @@
       }
     ],
     "artwork": {
-      "mode": "new modern illustration from printed reference",
+      "mode": "Color-corrected modern illustration from user-supplied printed reference",
       "source": "tools/card-corrections/v3-world-games-151-200/artwork/159.png",
-      "source_sha256": "872dd5a8a905b749486f7763152e649323aada0b8cd0d77eb087b71fbb51833c",
+      "source_sha256": "b17c68629f9b87d735348cc9573396c5f1c0a55c5c2728b9a51be663ae3d2dcd",
       "additional_zoom": false,
-      "localized_correction": null,
+      "localized_correction": {
+        "date": "2026-11-14",
+        "reference": "tools/card-corrections/v3-world-games-151-200/originals/159-user-color-reference.jpg",
+        "scope": "Clothing colors. Existing native SVG geometry, all text, stats and template assets retained."
+      },
       "native_placement": [
         14,
         145.69492084432716,
         1033,
         706.6101583113457
-      ]
+      ],
+      "position_correction": {
+        "native_translation": [
+          36,
+          0
+        ],
+        "scope": "Original Goku and aura together as one retained composition.",
+        "native_group": "retained-goku-and-aura",
+        "isolated_character_shift_removed": true,
+        "verification": "goku-159-aura-alignment-validation.json"
+      }
     },
     "rules": [
       {
@@ -2404,7 +2426,7 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-159-goku-the-galaxys-hero.webp",
-        "after_sha256": "037ef9208df53d9d2ffa15869f373ae5ba1932e34b1e74371a3beb43771cb7fd",
+        "after_sha256": "12fdccf32b4fcdf35a456213bdf1b52be2811da730bb085485b17d5d7981d821",
         "size": [
           1060,
           1484
@@ -2414,7 +2436,7 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-159-goku-the-galaxys-hero.webp",
-        "after_sha256": "9c99085beccf112bb982b482ef19f9bcd101699f9cb0686387b9b19f66151415",
+        "after_sha256": "8beb063947c9d81555db733b8ce365bdc7875c84f0f3ab61dc84bc8f8c98aba9",
         "size": [
           2120,
           2968
@@ -5698,7 +5720,7 @@
     "name": "Goku, the Competitor",
     "family": "HERO PERSONALITY",
     "native_source_path": "tools/card-templates/v3/world-games-151-200/world-games-171-goku-the-competitor.svg",
-    "native_source_sha256": "acae60d8f8df93d3e4c7e49f8cb84b669d004ca751293bcc3efa1d254dd43d76",
+    "native_source_sha256": "c353ff283d4ca0da3ff7b2416e3984b1b46e0b058796eb617763846064cb40bb",
     "assets": [
       {
         "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
@@ -5721,8 +5743,8 @@
         "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
       },
       {
-        "path": "tools/card-templates/v3/assets/696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4.png",
-        "sha256": "696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4"
+        "path": "tools/card-templates/v3/assets/a42161e951e4e462f1474b6232753d037719d584752a15e2a08d6bb078e1c111.png",
+        "sha256": "a42161e951e4e462f1474b6232753d037719d584752a15e2a08d6bb078e1c111"
       },
       {
         "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
@@ -5730,26 +5752,35 @@
       }
     ],
     "artwork": {
-      "mode": "user-approved supplied artwork, retained without redraw",
+      "mode": "User supplied open-mouth artwork retained without redraw",
       "source": "tools/card-corrections/v3-world-games-151-200/artwork/171.png",
-      "source_sha256": "696f4d9fa151f75d8d66b085e5b1064c438b4bea1434c915e1bc87a213bb3be4",
-      "additional_zoom": false,
+      "source_sha256": "a42161e951e4e462f1474b6232753d037719d584752a15e2a08d6bb078e1c111",
+      "additional_zoom": true,
+      "relative_enlargement": 1.15,
       "localized_correction": null,
       "native_placement": [
         14,
-        146,
-        1059,
-        706
+        64.5,
+        1217.85,
+        811.9
       ],
-      "original_upload": "tools/card-corrections/v3-world-games-151-200/user-supplied/171-approved.jpg",
-      "original_upload_sha256": "fbe966abbacf8eae8d41ef12aa32af8b0ca5ee1f543618839b92975169584f85",
-      "decoded_original_pixels_retained": true,
+      "original_upload": "tools/card-corrections/v3-world-games-151-200/user-supplied/171-open-mouth-approved-2026-11-14.jpg",
+      "original_upload_sha256": "e419664fc1f7a29d038602cd982c700e98564748f353d47679633beb08357f3a",
+      "original_upload_filename": "1000033517.png",
+      "original_upload_encoding": "JPEG (despite supplied PNG filename)",
       "source_dimensions": [
         1536,
         1024
       ],
-      "fit_note": "Uniform scale 706/1024. Native window trims 26 units of empty right background only; no vertical crop or distortion.",
-      "approved_reference_exception": "Use the supplied pose, expression and textured background as approved in the conversation on 2026-11-13."
+      "decoded_original_pixels_retained": true,
+      "character_redrawn": false,
+      "fit_note": "User-requested closer framing: Goku and his original aura uniformly enlarged 15 percent together. Face moves approximately 60 native units right, from x414 to x474. Same source drawing, no stretching or redraw; uppermost hair tip is cropped by the title, as in the earlier close reference. Both fists and lower forearm remain clear of the native frame and stage column.",
+      "face_center_native_approx": 474,
+      "face_horizontal_change_approx": 60,
+      "original_upload_library_file_id": "libfile_706298f77d148191916941dfb8f9c92f",
+      "usable_art_center_native": 413.875,
+      "aura_and_character_single_native_image": true,
+      "verification": "goku-171-artwork-alignment-validation.json"
     },
     "rules": [
       {
@@ -5955,7 +5986,7 @@
       {
         "field": "image",
         "path": "public/assets/cards/world-games-171-goku-the-competitor.webp",
-        "after_sha256": "32fae5b95a560ba8961d6a8357979e9a99ccd7b928ed057a4d411098fa10b6e3",
+        "after_sha256": "9b3d96626d721a600bee99fca357d1b387827d0592d08cc96797da6ff8922b10",
         "size": [
           1060,
           1484
@@ -5965,7 +5996,7 @@
       {
         "field": "downloadImage",
         "path": "public/assets/cards/downloads/world-games-171-goku-the-competitor.webp",
-        "after_sha256": "c6040049b3827bae41101b916f55c588c6b1994938a63938dcdb3d2d4129afca",
+        "after_sha256": "85b20b8dd9ed8e522fa5ce81f12f2caa2ba74c85ff6f5b1c5d4369fbad4fe5d6",
         "size": [
           2120,
           2968
