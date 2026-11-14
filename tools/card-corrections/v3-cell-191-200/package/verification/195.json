@@ -1,0 +1,52 @@
+{
+  "number": 195,
+  "card_id": "cell-195-trunks-time-s-hero",
+  "source": "cell-color-layout-work/native/cell-195-trunks-time-s-hero.svg",
+  "original_reference": "references/195.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "17a3b1f9d846e83fe5e3a72d19e7ca18cc09765d60e344bffad9f11b2745623f",
+  "native_sha256": "6aa1be09162a7aed34064bf069274bc57dc4a91b7222f8b87ee1e895e16a7b27",
+  "artwork_sha256": "210d55ac69bc297ded7f67b1b2948634726259ccb9d22a6b291f69f86024388a",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-195-trunks-time-s-hero.webp",
+      "sha256": "1486c209fc1e3988558e104965e1a26a25d0ccd8739cff513b3041da32d17ffc",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-195-trunks-time-s-hero.webp",
+      "sha256": "aa1e0c922db2b2fb016647cca72c07183993e11fb82da7f2318033ed30150800",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/195.jpg",
+    "original_sha256": "703596850c5658b9cf162860278797cc3f54423d6d7b46e94f188e8d6d6e2eca",
+    "final_artwork_sha256": "210d55ac69bc297ded7f67b1b2948634726259ccb9d22a6b291f69f86024388a",
+    "expression": "Corrected closed mouth to a small tense gritted-teeth opening; intense gaze and lowered forward-facing head retained.",
+    "line_cleanup": "Cleaned large spiky hair, face and armor edges.",
+    "framing": "Retained enlarged upper-body crop; face, shoulders and armor fill the available left artwork area.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

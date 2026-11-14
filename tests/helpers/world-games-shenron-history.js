@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog} from './pre-cell-hi-tech-catalog.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 export const shenronRelease=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-world-games-shenron/release.json'),'utf8'));
 const revisions=new Map(shenronRelease.cards.flatMap(r=>[r.source,...r.exports]).map(r=>[r.path,r]));

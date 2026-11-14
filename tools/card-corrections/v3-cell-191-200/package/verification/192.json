@@ -1,0 +1,85 @@
+{
+  "number": 192,
+  "card_id": "cell-192-gohan-super-saiyan",
+  "source": "cell-final-art-review/native/cell-192-gohan-super-saiyan.svg",
+  "original_reference": "references/192-user-source.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "22d13bb16fb43874426493d0ac7f940c3296005a8a5cb9d2b89be2feb336eb5a",
+  "native_sha256": "84258897640c5d641402608406665c5af2a6e167b95459828ecfea0485fc7970",
+  "artwork_sha256": "4b2d81ac3bcd786b745a43191107c77e400a32bdc59e1f3866b4eddee40d1bf0",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-192-gohan-super-saiyan.webp",
+      "sha256": "9233e7548927029df9fe1c549de1e22d2216da3d7ab27e94f6b27159b2bf3704",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-192-gohan-super-saiyan.webp",
+      "sha256": "721bdad0e549fc071d5befca03c916c01845afb1f016ce2045e81ca08bbe9785",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "latest palette/face correction reviewed in finished card; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/192-user-source.jpg",
+    "original_sha256": "f50fae861dec352ef9623fda1e969b00819102037d6c7400e18e0f01182f68e0",
+    "final_artwork_sha256": "4b2d81ac3bcd786b745a43191107c77e400a32bdc59e1f3866b4eddee40d1bf0",
+    "expression": "Corrected the droopy rectangular eye shapes to sharper sloping upper lids with pointed corners and a down-left gaze. Small open smile and visible pink tongue retained, following the printed Gohan reference.",
+    "line_cleanup": "Localized head-region correction with continuous eye, brow, nose and mouth outlines. Feathered native SVG mask retains all illustration pixels outside the allowed head rectangle exactly. Forehead blend inspected for seams.",
+    "framing": "Raised enlarged framing retained; both palms above the middle bar. Right hand remains partly behind stage track, consistent with the source composition.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Latest changes: Cell Saga Hi-Tech Goku #191 and Gohan #192 only. Other eight native cards and exports unchanged. Not published.",
+    "localized_face_verification": {
+      "illustration_allowed_rectangle": [
+        290,
+        145,
+        640,
+        490
+      ],
+      "finished_card_changed_bbox": [
+        579,
+        290,
+        1281,
+        981
+      ],
+      "outside_face_pixel_differences": 0,
+      "source": "artwork-sources/192-local-face-patch.svg"
+    }
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ],
+  "png_sha256": "383972c6b2fd53f5cc8e37a350905dd2a35ad7b046b199aa72b2ba3603230399",
+  "localized_face_verification": {
+    "illustration_allowed_rectangle": [
+      290,
+      145,
+      640,
+      490
+    ],
+    "finished_card_changed_bbox": [
+      579,
+      290,
+      1281,
+      981
+    ],
+    "outside_face_pixel_differences": 0,
+    "source": "artwork-sources/192-local-face-patch.svg"
+  }
+}

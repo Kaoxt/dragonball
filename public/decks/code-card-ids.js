@@ -416,5 +416,15 @@ export const codeCardIds = [
   "world-games-173-goku",
   "world-games-160-gokus-blinding-strike",
   "world-games-177-goten",
-  "world-games-171-goku-the-competitor"
+  "world-games-171-goku-the-competitor",
+  "cell-191-goku-earth-s-hero",
+  "cell-192-gohan-super-saiyan",
+  "cell-193-vegeta-the-last-prince",
+  "cell-194-piccolo-earth-s-protector",
+  "cell-195-trunks-time-s-hero",
+  "cell-196-android-16-the-fighter",
+  "cell-197-android-17-the-destroyer",
+  "cell-198-android-18-the-smart-one",
+  "cell-199-android-20-the-destructor",
+  "cell-200-cell-the-perfect-warrior"
 ];

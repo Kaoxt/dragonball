@@ -1,0 +1,62 @@
+{
+  "number": 191,
+  "card_id": "cell-191-goku-earth-s-hero",
+  "source": "native/cell-191-goku-earth-s-hero.svg",
+  "original_reference": "references/191-user-source.png",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "eafba2e685a630daa197e7e405def086499e20ae1a864cea9eeaadc1a8c63ad6",
+  "native_sha256": "b2a38662f00a6c9d6fb80397183f70d2fd2ccfc01614b2cefa1abe668b71d4dd",
+  "artwork_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-191-goku-earth-s-hero.webp",
+      "sha256": "84ada9dbcde3a704be4e7457872de4d3401f6f18b6d18edc311be402aa6ebed1",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-191-goku-earth-s-hero.webp",
+      "sha256": "13c388bf0b4e192374b6c73b76883496702fc6bc01dffd617d80f6d6b333c9e8",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "Selected original artwork installed and visually reviewed in correct Cell Saga #191 template; unpublished",
+  "review": {
+    "number": 191,
+    "date": "2026-11-14",
+    "original_reference": "references/191-user-source.png",
+    "original_sha256": "4bd0ee373162dbc764d1547a905eebb5d8df240c27c411a6987f6d082f04fe51",
+    "selected_artwork_reference": "references/191-selected-color-source.png",
+    "selected_artwork_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+    "final_artwork_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+    "expression": "User-selected narrow turquoise eyes, firm brows and closed neutral mouth retained exactly in source artwork; compared with the printed crossed-arm Goku reference.",
+    "line_cleanup": "No regeneration, retouching, recoloring, sharpening or contour changes. Exact selected source bytes reused.",
+    "framing": "Existing full-bleed illustration placement retained: x0, y0, width1060, height1484, xMidYMid meet. Large head/torso and resting hand remain left of stages. Top hair and lower forearms are cropped by the retained native bars, consistent with the preceding tight-crop draft.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "enlarged_export_hand_reviewed": true,
+    "line_review_result": "No obvious doubled contours or broken outlines observed in the reviewed face and visible hand. Selected raster detail is retained; no claim of zero possible AI artifacts.",
+    "native_ui_unchanged": true,
+    "scope": "Cell Saga Goku #191 only. All nine other native cards and display/download/PNG exports remain byte-identical to ZIP version 5. Not published.",
+    "palette": "Selected warm peach skin, salmon shadows, gold/orange gi and indigo-blue clothing retained without color grading.",
+    "artwork_identity_note": "This artwork belongs to Cell Saga #191, Goku, Earth's Hero. The supplied ZIP was mislabeled World Games #173; none of that card's game data or frame was imported."
+  },
+  "artwork_native_size": [
+    1097,
+    1536
+  ],
+  "png_sha256": "03b3a1c9b1cde36a8853e48413dc5a105d05acc14ac581ccd70abd6ffab5574a",
+  "color_reference": "references/191-selected-color-source.png",
+  "color_reference_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+  "artwork_asset": "assets/a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50.png"
+}

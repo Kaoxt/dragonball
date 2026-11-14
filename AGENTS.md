@@ -1,3 +1,15 @@
+## Cell Saga Hi-Tech 191–200 — November 14, 2026
+
+The ten user-supplied Level 3 Hi-Tech cards are retained in
+`tools/card-templates/v3/cell-191-200/`, with publication evidence in
+`tools/card-corrections/v3-cell-191-200/`. Preserve the exact approved native
+sources, linked artwork and both lossless exports, including Goku's selected
+palette and Gohan's face correction. The package's draft labels and old source
+paths are historical; use the normalized audit paths. These are Cell Saga
+cards, independent of World Games #173. The new deck IDs are appended, Arena
+charts preserve every printed stage, and earlier audits retain their original
+membership. Cell #161–190 are not part of this release.
+
 ## World Games Earth Dragon Ball artwork — November 11, 2026
 
 Use the user-approved downward right-facing Shenron with an upper-left arched

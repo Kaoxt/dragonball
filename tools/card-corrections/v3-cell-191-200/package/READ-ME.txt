@@ -1,0 +1,67 @@
+CELL SAGA HI-TECH #191–200 — SELECTED GOKU #191 ARTWORK
+Updated November 14, 2026. Ten cards. Not published.
+
+CORRECT CARD
+#191 Goku, Earth's Hero — Cell Saga, Level 3, PUR 3.
+The supplied selected-color artwork is now applied to this card. Its earlier
+World Games #173 label was a set/card mix-up. No World Games rules, stages,
+title, number, rarity or set logo have been transferred into this bundle.
+
+CURRENT CHANGE
+Only Goku #191 artwork changed from draft ZIP version 5. The selected original
+PNG is retained byte-for-byte in references/191-selected-color-source.png and
+assets/. The native illustration reference was replaced inside the EXISTING
+Cell Saga #191 SVG. The large full-card placement and aspect ratio are retained.
+The artwork has warm peach skin, salmon shadows, golden-orange clothing,
+indigo blues, and the selected blue honeycomb/giant-eye background.
+No image regeneration, recoloring, sharpening or line cleanup was performed
+on the selected source, so its approved drawing and palette remain intact.
+
+The complete native document outside full-bleed-artwork is unchanged.
+Title, Level 3, PUR 3, rules, all thirteen stage fields from 3,200,000 to 0,
+rarity, Cell Saga emblem and card number 191 remain as in the existing source.
+The other nine cards, including Gohan's corrected eyes and face, retain exact
+native SVG, PNG, display and download WebP bytes from version 5.
+
+REVIEW
+The final display card and enlarged face/visible-hand details were inspected.
+Focused eyes, closed mouth, crossed arms and the selected colors are retained.
+Large framing matches the preceding approved tight-crop draft. Hair tips and
+lower forearms extend behind the fixed title/middle bars; this revision does
+not change the native geometry or claim an identical printed-card layout.
+The original supplied illustration is the authority for this replacement.
+Prior per-card reviews for the other nine cards remain unchanged; they were
+not re-audited or regenerated during this single-card update.
+
+FILES
+native/: ten native SVG cards; keep assets/ alongside this directory.
+assets/: linked illustration and template dependencies.
+display/: ten 1060 x 1484 lossless WebPs.
+download/: ten 2120 x 2968 lossless WebPs.
+png/: ten 2120 x 2968 PNG cards.
+previews/: selected Goku display-size PNG.
+references/: original scans and selected artwork references.
+comparisons/: source-versus-card comparisons; #191 is current.
+verification/: per-card review/history and unchanged-other-nine checks.
+manifest.json: current per-card native/source/export hashes.
+SHA256SUMS.txt: checksum for every other file in this package.
+The three contact sheets all use the exact current display exports.
+
+HANDOFF
+Use this as an unpublished Cell Saga Hi-Tech source/export bundle. Read current
+repository card/storage instructions before integrating it. For this revision,
+only cell-191-goku-earth-s-hero needs replacement; preserve any newer unrelated
+work. Keep its existing catalog identity, permanent deck-code slot, game rules,
+stage chart, level, PUR, rarity and set. Retain the linked asset together with
+the SVG and refresh only #191 asset hashes/image-version references needed by
+the current pipeline. Do not copy World Games #173 metadata or its template.
+Keep Regular free of baked foil; use only the site's dynamic Foil treatment.
+Publication and live verification are separate and were not performed here.
+
+QUALITY
+Inkscape renders the native UI at 2120 x 2968; the display export is resized
+with Lanczos to match the existing bundle's export method. Both WebPs decode
+identically to the respective PNG/render raster. Native source, image links,
+protected panel interiors and the unchanged other-nine exports were checked.
+The selected source remains a 1097 x 1536 raster; larger card exports improve
+native text/frame resolution and do not create new illustration detail.

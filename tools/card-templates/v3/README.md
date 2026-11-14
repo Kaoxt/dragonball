@@ -1,3 +1,13 @@
+## Cell Saga Hi-Tech 191–200 — November 14, 2026
+
+Ten additional Level 3 Hi-Tech cards retain the exact supplied sources in
+`cell-191-200/` and linked shared assets. Evidence, original references and
+normalized source paths are in `../../card-corrections/v3-cell-191-200/`.
+`verify_cell_191_200.py --work <directory>` independently renders the sources
+and compares both approved export sizes without modifying them. Preserve the
+selected artwork, native UI and the existing dynamic Regular/Foil behavior.
+Earlier Cell release notes below describe their original membership.
+
 ## Cell Saga complete — November 3, 2026
 
 All 160 Cell Saga cards use current V3. Final native sources are in `tools/card-templates/v3/cell-151-160/`, with original scans, CRD, artwork, power-stage, foil-mask and independent render evidence in `tools/card-corrections/v3-cell-151-160/`. Preserve five-star rarity through #156 and six stars on #157–160. The three final Hero Personalities retain all thirteen printed stages, Level/PUR and current blue bars. #157 retains the approved October 28 eight-character user JPEG and uniform framing; do not substitute the unfinished old archive artwork. #153 is no longer Restricted; #155 causes Ally stage loss, not damage. The four Ultra Rare masks are reviewed and pinned to the new image revisions. Both lossless exports match native renders.

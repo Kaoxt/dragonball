@@ -1,0 +1,52 @@
+{
+  "number": 196,
+  "card_id": "cell-196-android-16-the-fighter",
+  "source": "cell-color-layout-work/native/cell-196-android-16-the-fighter.svg",
+  "original_reference": "references/196.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "24d23e645c5df74d78bb2959b47c36ee6d273fc259153fb0d7dd8aae1f46017d",
+  "native_sha256": "5a2a2fec8b48ca0966aed5ede9f734e30a71a4f488cfb7fba9bdb1f2b2bad62a",
+  "artwork_sha256": "5576a6744baff5fedd363c786db7ca7202ca61f6a5c78e67c65d0d7555d2e67e",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-196-android-16-the-fighter.webp",
+      "sha256": "39e92e806449c2ee6974150b9a0799ca215d7a2802e50bc3d4f9f088428cdc7a",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-196-android-16-the-fighter.webp",
+      "sha256": "b54ea47f444a0a52945492f4f75335f06a32394a97343bd885cff451cf023862",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/196.jpg",
+    "original_sha256": "dc32a1e7d4e027f9cdb415442c5308957094e3785df9c6e6cf8156d8eb662c8b",
+    "final_artwork_sha256": "5576a6744baff5fedd363c786db7ca7202ca61f6a5c78e67c65d0d7555d2e67e",
+    "expression": "Focused narrow eyes, lowered tilted head and closed stern mouth; face damage marks and chin studs retained.",
+    "line_cleanup": "Removed excessive armor hatching; cleaned collar perimeter, bent forearm and gripping-hand contours.",
+    "framing": "Broad armor and bent arm remain above middle bar. Gripping hand partly overlaps the stage area as in the source.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

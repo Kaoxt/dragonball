@@ -1,0 +1,52 @@
+{
+  "number": 197,
+  "card_id": "cell-197-android-17-the-destroyer",
+  "source": "cell-color-layout-work/native/cell-197-android-17-the-destroyer.svg",
+  "original_reference": "references/197.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "50de11f91ee8099407dd0f0dd14c7e26f8eddc0f1e1caa707af9b5fc79bfaacd",
+  "native_sha256": "089682c600f1a216b205f28578026a62ecea31c89f5a7dbae6f5f512c4ef25cb",
+  "artwork_sha256": "b48478a1d017ec048ff3f53e51736b5a5be891f8a48e8e823af1406245fa26f1",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-197-android-17-the-destroyer.webp",
+      "sha256": "38059807808171afeff67c816e8358155d434105dba6c85a90650a32ea52d59c",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-197-android-17-the-destroyer.webp",
+      "sha256": "392c9d73d4ac4f8d220d8d1237f920bb67c42c40f09f7e5df8b5c31452d74131",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/197.jpg",
+    "original_sha256": "7406910008e757253cde60fb5a340fbb351bf275a768d55d72b9f6db3005fe99",
+    "final_artwork_sha256": "b48478a1d017ec048ff3f53e51736b5a5be891f8a48e8e823af1406245fa26f1",
+    "expression": "Corrected small mouth to a subtle closed smirk; narrow eyes and tilted head retained.",
+    "line_cleanup": "Cleaned extended five-finger hand, scarf, bob outline, clothing and pouch contours.",
+    "framing": "Asymmetric pose retained; face sits left while reaching hand balances the usable area and remains clear of stages.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

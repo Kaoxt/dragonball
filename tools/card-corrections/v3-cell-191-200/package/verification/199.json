@@ -1,0 +1,52 @@
+{
+  "number": 199,
+  "card_id": "cell-199-android-20-the-destructor",
+  "source": "cell-color-layout-work/native/cell-199-android-20-the-destructor.svg",
+  "original_reference": "references/199-user-source.png",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "29b747212c22c9c2b3a59ca54296a93c19a5f135c3d85d5427d7579b56c27ab4",
+  "native_sha256": "2a8674901427ec25ad7c2dcfe46742829105a2e7c47aa413f037d857ae928096",
+  "artwork_sha256": "ae4d9736c8a798ebd3fd942f4f62505b45c0e824a01f128f18a542a19d872204",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-199-android-20-the-destructor.webp",
+      "sha256": "771029e0db53f8e4464f58a36db2b8c1e9237ac0fff1eaba1fc6dc1fcf69b353",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-199-android-20-the-destructor.webp",
+      "sha256": "ddf61450ed85a79c74bd729049e2f3ffffd1d6708df68860d2d5b451775523ee",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/199-user-source.png",
+    "original_sha256": "2470869561ac6fa518410e4ef84a40d0da52ba6f2c083028e95b5b9b37a0af6c",
+    "final_artwork_sha256": "ae4d9736c8a798ebd3fd942f4f62505b45c0e824a01f128f18a542a19d872204",
+    "expression": "Narrow hard eyes and downturned closed mouth beneath moustache retained/refined.",
+    "line_cleanup": "Simplified forehead/cheek wrinkles; cleaned hat, moustache, collar ribs and shoulder arcs.",
+    "framing": "Retained preceding higher portrait fit with gold collar and shoulders visible above middle bar; hat extends behind the title.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

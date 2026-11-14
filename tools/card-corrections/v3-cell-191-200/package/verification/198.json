@@ -1,0 +1,52 @@
+{
+  "number": 198,
+  "card_id": "cell-198-android-18-the-smart-one",
+  "source": "cell-color-layout-work/native/cell-198-android-18-the-smart-one.svg",
+  "original_reference": "references/198.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "b694c2144a2e3e37b2c6eb093499fcaf2d0492ea41fb3f631d8f07d4bbf4c58e",
+  "native_sha256": "fca36ce481bd1722cffe27b2d48b7db79de6a0dda82cb872bec31f3c7dd62ebe",
+  "artwork_sha256": "958dd546c8435b5a7c106de0da82408a6e2e4d489744c66d70f79f6278c95b60",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-198-android-18-the-smart-one.webp",
+      "sha256": "4b604971197c9b9eba6bc3ac476ba5e1a03496a0fe76cacac4314eb92f85eb81",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-198-android-18-the-smart-one.webp",
+      "sha256": "e4d2f5c5621e0e7aa11514f39301a39c60ec5ce003a7fa2c03cbf03dc3f49b8a",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/198.jpg",
+    "original_sha256": "440012899aa6581d66ab6e0b0989439de325a4a0ea30b2ad6171cc79a508b644",
+    "final_artwork_sha256": "958dd546c8435b5a7c106de0da82408a6e2e4d489744c66d70f79f6278c95b60",
+    "expression": "Cool lowered narrow eyes and small closed neutral mouth retained.",
+    "line_cleanup": "Cleaned bob edges, sleeve stripes, vest stitching and raised fingers.",
+    "framing": "Raised torso and face retained; outer raised fingers remain partly behind the stage track, following the original composition.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

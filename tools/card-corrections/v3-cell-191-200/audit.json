@@ -1,0 +1,1105 @@
+[
+  {
+    "number": 191,
+    "id": "cell-191-goku-earth-s-hero",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-191-goku-earth-s-hero.svg",
+    "native_source_sha256": "b2a38662f00a6c9d6fb80397183f70d2fd2ccfc01614b2cefa1abe668b71d4dd",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50.png",
+        "sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/191.jpg",
+      "sha256": "aeb1c04e31a0494e34621f72a71a7c4bca5162733a7333351fe1df6be5f5cd97"
+    },
+    "original_rules": "When entering Combat, draw a card and show it to your opponent. If it is a Physical or Energy Combat card, your opponent discards 3 cards from the top of his Life Deck.",
+    "catalog": {
+      "id": "cell-191-goku-earth-s-hero",
+      "name": "Goku, Earth's Hero",
+      "number": "191",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/191.jpg",
+      "rules": "When entering Combat, draw a card and reveal it. If it is a Physical Combat or Energy Combat card, your opponent discards the top 3 cards of their Life Deck.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3200000,
+        3000000,
+        2800000,
+        2600000,
+        2400000,
+        2200000,
+        2000000,
+        1800000,
+        1600000,
+        1400000,
+        1200000,
+        1000000,
+        0
+      ],
+      "alignment": "Hero",
+      "image": "/assets/cards/cell-191-goku-earth-s-hero.webp?v=84ada9dbcde3",
+      "downloadImage": "/assets/cards/downloads/cell-191-goku-earth-s-hero.webp?v=13c388bf0b4e"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-191-goku-earth-s-hero.webp",
+        "field": "image",
+        "sha256": "84ada9dbcde3a704be4e7457872de4d3401f6f18b6d18edc311be402aa6ebed1",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-191-goku-earth-s-hero.webp",
+        "field": "downloadImage",
+        "sha256": "13c388bf0b4e192374b6c73b76883496702fc6bc01dffd617d80f6d6b333c9e8",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "03b3a1c9b1cde36a8853e48413dc5a105d05acc14ac581ccd70abd6ffab5574a",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "number": 191,
+      "date": "2026-11-14",
+      "original_reference": "references/191-user-source.png",
+      "original_sha256": "4bd0ee373162dbc764d1547a905eebb5d8df240c27c411a6987f6d082f04fe51",
+      "selected_artwork_reference": "references/191-selected-color-source.png",
+      "selected_artwork_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+      "final_artwork_sha256": "a00edc3f1d0e33cbf5731fc66d5ca8f21496a4411ee0b718fcdbb60175076c50",
+      "expression": "User-selected narrow turquoise eyes, firm brows and closed neutral mouth retained exactly in source artwork; compared with the printed crossed-arm Goku reference.",
+      "line_cleanup": "No regeneration, retouching, recoloring, sharpening or contour changes. Exact selected source bytes reused.",
+      "framing": "Existing full-bleed illustration placement retained: x0, y0, width1060, height1484, xMidYMid meet. Large head/torso and resting hand remain left of stages. Top hair and lower forearms are cropped by the retained native bars, consistent with the preceding tight-crop draft.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "enlarged_export_hand_reviewed": true,
+      "line_review_result": "No obvious doubled contours or broken outlines observed in the reviewed face and visible hand. Selected raster detail is retained; no claim of zero possible AI artifacts.",
+      "native_ui_unchanged": true,
+      "scope": "Cell Saga Goku #191 only. All nine other native cards and display/download/PNG exports remain byte-identical to ZIP version 5. Not published.",
+      "palette": "Selected warm peach skin, salmon shadows, gold/orange gi and indigo-blue clothing retained without color grading.",
+      "artwork_identity_note": "This artwork belongs to Cell Saga #191, Goku, Earth's Hero. The supplied ZIP was mislabeled World Games #173; none of that card's game data or frame was imported."
+    }
+  },
+  {
+    "number": 192,
+    "id": "cell-192-gohan-super-saiyan",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-192-gohan-super-saiyan.svg",
+    "native_source_sha256": "84258897640c5d641402608406665c5af2a6e167b95459828ecfea0485fc7970",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4b2d81ac3bcd786b745a43191107c77e400a32bdc59e1f3866b4eddee40d1bf0.png",
+        "sha256": "4b2d81ac3bcd786b745a43191107c77e400a32bdc59e1f3866b4eddee40d1bf0"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/192.jpg",
+      "sha256": "b15e32176a235f6c5e493929153d9ee15fb73f826decd16fc457a54396d588e7"
+    },
+    "original_rules": "Physical attack doing +5 power stages of damage. You may remove a Non-Combat card in play from the game.",
+    "catalog": {
+      "id": "cell-192-gohan-super-saiyan",
+      "name": "Gohan, Super Saiyan",
+      "number": "192",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/192.jpg",
+      "rules": "Physical attack. DAMAGE: AT +5 stages. You may banish a Setup or Drill in play.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3800000,
+        3600000,
+        3400000,
+        3200000,
+        3000000,
+        2800000,
+        2600000,
+        2400000,
+        2200000,
+        2000000,
+        1800000,
+        0
+      ],
+      "alignment": "Hero",
+      "image": "/assets/cards/cell-192-gohan-super-saiyan.webp?v=9233e7548927",
+      "downloadImage": "/assets/cards/downloads/cell-192-gohan-super-saiyan.webp?v=721bdad0e549"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-192-gohan-super-saiyan.webp",
+        "field": "image",
+        "sha256": "9233e7548927029df9fe1c549de1e22d2216da3d7ab27e94f6b27159b2bf3704",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-192-gohan-super-saiyan.webp",
+        "field": "downloadImage",
+        "sha256": "721bdad0e549fc071d5befca03c916c01845afb1f016ce2045e81ca08bbe9785",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "383972c6b2fd53f5cc8e37a350905dd2a35ad7b046b199aa72b2ba3603230399",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/192-user-source.jpg",
+      "original_sha256": "f50fae861dec352ef9623fda1e969b00819102037d6c7400e18e0f01182f68e0",
+      "final_artwork_sha256": "4b2d81ac3bcd786b745a43191107c77e400a32bdc59e1f3866b4eddee40d1bf0",
+      "expression": "Corrected the droopy rectangular eye shapes to sharper sloping upper lids with pointed corners and a down-left gaze. Small open smile and visible pink tongue retained, following the printed Gohan reference.",
+      "line_cleanup": "Localized head-region correction with continuous eye, brow, nose and mouth outlines. Feathered native SVG mask retains all illustration pixels outside the allowed head rectangle exactly. Forehead blend inspected for seams.",
+      "framing": "Raised enlarged framing retained; both palms above the middle bar. Right hand remains partly behind stage track, consistent with the source composition.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Latest changes: Cell Saga Hi-Tech Goku #191 and Gohan #192 only. Other eight native cards and exports unchanged. Not published.",
+      "localized_face_verification": {
+        "illustration_allowed_rectangle": [
+          290,
+          145,
+          640,
+          490
+        ],
+        "finished_card_changed_bbox": [
+          579,
+          290,
+          1281,
+          981
+        ],
+        "outside_face_pixel_differences": 0,
+        "source": "artwork-sources/192-local-face-patch.svg"
+      }
+    }
+  },
+  {
+    "number": 193,
+    "id": "cell-193-vegeta-the-last-prince",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-193-vegeta-the-last-prince.svg",
+    "native_source_sha256": "bb82ac0a9076ef5f62ea88b9c59e5c74d558571a3d042eeafbce8f066851dce1",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/6d6a88ab0351bb64bd1630e46a30f6783d975dc7745331afbbbef9807e8ea4ba.png",
+        "sha256": "6d6a88ab0351bb64bd1630e46a30f6783d975dc7745331afbbbef9807e8ea4ba"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/193.jpg",
+      "sha256": "4efdd3011c570036054c1516be0f88cdcc8deed271acf5acbbcb87821fa99b04"
+    },
+    "original_rules": "When entering Combat, look at your opponent's hand, then choose and discard 1 Non-Dragon Ball card.",
+    "catalog": {
+      "id": "cell-193-vegeta-the-last-prince",
+      "name": "Vegeta, the Last Prince",
+      "number": "193",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/193.jpg",
+      "rules": "When entering Combat, look at your opponent's hand. Choose and discard 1 non-Dragon Ball card from it.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3000000,
+        2800000,
+        2600000,
+        2400000,
+        2200000,
+        2000000,
+        1800000,
+        1600000,
+        1400000,
+        1200000,
+        1000000,
+        800000,
+        0
+      ],
+      "alignment": "Hero",
+      "image": "/assets/cards/cell-193-vegeta-the-last-prince.webp?v=ff6c305e5fb4",
+      "downloadImage": "/assets/cards/downloads/cell-193-vegeta-the-last-prince.webp?v=a9b37d93b08d"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-193-vegeta-the-last-prince.webp",
+        "field": "image",
+        "sha256": "ff6c305e5fb48c6b377a9aa44d6848832a322e000e98bf7a0b4718f92bd6ac21",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-193-vegeta-the-last-prince.webp",
+        "field": "downloadImage",
+        "sha256": "a9b37d93b08dc8457c8d877025949ba3f884064c58c7ac2d8d0a5c39ab070d20",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "6381425a8f891fc9e3bc1a5008efe54c4ac918461e3d4bb9a96d541716525e0f",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/193.jpg",
+      "original_sha256": "4efdd3011c570036054c1516be0f88cdcc8deed271acf5acbbcb87821fa99b04",
+      "final_artwork_sha256": "6d6a88ab0351bb64bd1630e46a30f6783d975dc7745331afbbbef9807e8ea4ba",
+      "expression": "Narrow confident eyes and restrained closed-mouth smirk retained.",
+      "line_cleanup": "Cleaned hair edges, armor panel boundaries, shoulder ribs and suit contours.",
+      "framing": "Face remains centered left of stages, with chest armor visible above the middle bar.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 194,
+    "id": "cell-194-piccolo-earth-s-protector",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-194-piccolo-earth-s-protector.svg",
+    "native_source_sha256": "4a116cc52eb2829404d108be181521850020e21fa57c389204376a62b7e19b53",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/02687b7762e66cd65550bb56e56b269ca48e6b6ae0736a752f7c7fe033de6d68.png",
+        "sha256": "02687b7762e66cd65550bb56e56b269ca48e6b6ae0736a752f7c7fe033de6d68"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/194.jpg",
+      "sha256": "405bfc75cd42f7d9f0ca611e6a49286bbf945206ca8dfa5afa7aa0c13e228418"
+    },
+    "original_rules": "Place the top card from your discard pile at the bottom of your Life Deck. Draw a card.",
+    "catalog": {
+      "id": "cell-194-piccolo-earth-s-protector",
+      "name": "Piccolo, Earth's Protector",
+      "number": "194",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/194.jpg",
+      "rules": "POWER: Place the top card of your discard pile on the bottom of your Life Deck. Draw a card.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3000000,
+        2800000,
+        2600000,
+        2400000,
+        2200000,
+        2000000,
+        1800000,
+        1600000,
+        1400000,
+        1200000,
+        1000000,
+        800000,
+        0
+      ],
+      "alignment": "Hero",
+      "image": "/assets/cards/cell-194-piccolo-earth-s-protector.webp?v=50295b0cef43",
+      "downloadImage": "/assets/cards/downloads/cell-194-piccolo-earth-s-protector.webp?v=fcb4acb4993a"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-194-piccolo-earth-s-protector.webp",
+        "field": "image",
+        "sha256": "50295b0cef4398b3bb1016727ee47582e7e437319f83dd4a80f4e0732ca0059b",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-194-piccolo-earth-s-protector.webp",
+        "field": "downloadImage",
+        "sha256": "fcb4acb4993acde56529177617f791ae0b5a79f12898f1995bb6c560ac89fb86",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "71b0e09f299ef40686378e259ca4d0cdde2ec38b9d6b51b7dc8b38ade5f4bd6d",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/194.jpg",
+      "original_sha256": "405bfc75cd42f7d9f0ca611e6a49286bbf945206ca8dfa5afa7aa0c13e228418",
+      "final_artwork_sha256": "02687b7762e66cd65550bb56e56b269ca48e6b6ae0736a752f7c7fe033de6d68",
+      "expression": "Downward head tilt, lowered narrow eyelids and small closed firm mouth retained/refined.",
+      "line_cleanup": "Cleaned turban folds, cape lines, crossed arms and ribbed contours.",
+      "framing": "Crossed forearms and top of waist sash remain visible; outer cape and turban crops are preserved.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 195,
+    "id": "cell-195-trunks-time-s-hero",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-195-trunks-time-s-hero.svg",
+    "native_source_sha256": "6aa1be09162a7aed34064bf069274bc57dc4a91b7222f8b87ee1e895e16a7b27",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/210d55ac69bc297ded7f67b1b2948634726259ccb9d22a6b291f69f86024388a.png",
+        "sha256": "210d55ac69bc297ded7f67b1b2948634726259ccb9d22a6b291f69f86024388a"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/195.jpg",
+      "sha256": "703596850c5658b9cf162860278797cc3f54423d6d7b46e94f188e8d6d6e2eca"
+    },
+    "original_rules": "Stops an energy attack. This power may be used twice per Combat.",
+    "catalog": {
+      "id": "cell-195-trunks-time-s-hero",
+      "name": "Trunks, Time's Hero",
+      "number": "195",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/195.jpg",
+      "rules": "Stops an energy attack. You may use this power twice per Combat.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3500000,
+        3300000,
+        3100000,
+        2900000,
+        2700000,
+        2500000,
+        2300000,
+        2100000,
+        1900000,
+        1700000,
+        1500000,
+        1300000,
+        0
+      ],
+      "alignment": "Hero",
+      "image": "/assets/cards/cell-195-trunks-time-s-hero.webp?v=1486c209fc1e",
+      "downloadImage": "/assets/cards/downloads/cell-195-trunks-time-s-hero.webp?v=aa1e0c922db2"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-195-trunks-time-s-hero.webp",
+        "field": "image",
+        "sha256": "1486c209fc1e3988558e104965e1a26a25d0ccd8739cff513b3041da32d17ffc",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-195-trunks-time-s-hero.webp",
+        "field": "downloadImage",
+        "sha256": "aa1e0c922db2b2fb016647cca72c07183993e11fb82da7f2318033ed30150800",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "9a944fe5b0d1130fd28cb2cf101e398a23298d811d4b44360901c04a4f5e9c1a",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/195.jpg",
+      "original_sha256": "703596850c5658b9cf162860278797cc3f54423d6d7b46e94f188e8d6d6e2eca",
+      "final_artwork_sha256": "210d55ac69bc297ded7f67b1b2948634726259ccb9d22a6b291f69f86024388a",
+      "expression": "Corrected closed mouth to a small tense gritted-teeth opening; intense gaze and lowered forward-facing head retained.",
+      "line_cleanup": "Cleaned large spiky hair, face and armor edges.",
+      "framing": "Retained enlarged upper-body crop; face, shoulders and armor fill the available left artwork area.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 196,
+    "id": "cell-196-android-16-the-fighter",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-196-android-16-the-fighter.svg",
+    "native_source_sha256": "5a2a2fec8b48ca0966aed5ede9f734e30a71a4f488cfb7fba9bdb1f2b2bad62a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/5576a6744baff5fedd363c786db7ca7202ca61f6a5c78e67c65d0d7555d2e67e.png",
+        "sha256": "5576a6744baff5fedd363c786db7ca7202ca61f6a5c78e67c65d0d7555d2e67e"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/196.jpg",
+      "sha256": "dc32a1e7d4e027f9cdb415442c5308957094e3785df9c6e6cf8156d8eb662c8b"
+    },
+    "original_rules": "When entering Combat as the attacker, your opponent loses 3 power stages.",
+    "catalog": {
+      "id": "cell-196-android-16-the-fighter",
+      "name": "Android 16, the Fighter",
+      "number": "196",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/196.jpg",
+      "rules": "When entering Combat as the attacker, your opponent loses 3 stages.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3045000,
+        3040000,
+        3035000,
+        3030000,
+        3025000,
+        3020000,
+        3015000,
+        3010000,
+        3005000,
+        3000000,
+        0
+      ],
+      "alignment": "Villain",
+      "image": "/assets/cards/cell-196-android-16-the-fighter.webp?v=39e92e806449",
+      "downloadImage": "/assets/cards/downloads/cell-196-android-16-the-fighter.webp?v=b54ea47f444a"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-196-android-16-the-fighter.webp",
+        "field": "image",
+        "sha256": "39e92e806449c2ee6974150b9a0799ca215d7a2802e50bc3d4f9f088428cdc7a",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-196-android-16-the-fighter.webp",
+        "field": "downloadImage",
+        "sha256": "b54ea47f444a0a52945492f4f75335f06a32394a97343bd885cff451cf023862",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "850419f0e2b201765efe3d16fb46d631dc310eb1549136a1ca8790d9f50cca8e",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/196.jpg",
+      "original_sha256": "dc32a1e7d4e027f9cdb415442c5308957094e3785df9c6e6cf8156d8eb662c8b",
+      "final_artwork_sha256": "5576a6744baff5fedd363c786db7ca7202ca61f6a5c78e67c65d0d7555d2e67e",
+      "expression": "Focused narrow eyes, lowered tilted head and closed stern mouth; face damage marks and chin studs retained.",
+      "line_cleanup": "Removed excessive armor hatching; cleaned collar perimeter, bent forearm and gripping-hand contours.",
+      "framing": "Broad armor and bent arm remain above middle bar. Gripping hand partly overlaps the stage area as in the source.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 197,
+    "id": "cell-197-android-17-the-destroyer",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-197-android-17-the-destroyer.svg",
+    "native_source_sha256": "089682c600f1a216b205f28578026a62ecea31c89f5a7dbae6f5f512c4ef25cb",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b48478a1d017ec048ff3f53e51736b5a5be891f8a48e8e823af1406245fa26f1.png",
+        "sha256": "b48478a1d017ec048ff3f53e51736b5a5be891f8a48e8e823af1406245fa26f1"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/197.jpg",
+      "sha256": "7406910008e757253cde60fb5a340fbb351bf275a768d55d72b9f6db3005fe99"
+    },
+    "original_rules": "Draw a card. If \"The Car\" is in play, draw another card.",
+    "catalog": {
+      "id": "cell-197-android-17-the-destroyer",
+      "name": "Android 17, the Destroyer",
+      "number": "197",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/197.jpg",
+      "rules": "POWER: Draw a card. If The Car is in play, draw another card.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 2,
+      "powerStages": [
+        2045000,
+        2040000,
+        2035000,
+        2030000,
+        2025000,
+        2020000,
+        2015000,
+        2010000,
+        2005000,
+        2000000,
+        0
+      ],
+      "alignment": "Villain",
+      "image": "/assets/cards/cell-197-android-17-the-destroyer.webp?v=380598078081",
+      "downloadImage": "/assets/cards/downloads/cell-197-android-17-the-destroyer.webp?v=392c9d73d4ac"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-197-android-17-the-destroyer.webp",
+        "field": "image",
+        "sha256": "38059807808171afeff67c816e8358155d434105dba6c85a90650a32ea52d59c",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-197-android-17-the-destroyer.webp",
+        "field": "downloadImage",
+        "sha256": "392c9d73d4ac4f8d220d8d1237f920bb67c42c40f09f7e5df8b5c31452d74131",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "f3e24b45e765f8ab7b8e16e3ff9e42daaaa81c78f34187b6062331cd99f606f8",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/197.jpg",
+      "original_sha256": "7406910008e757253cde60fb5a340fbb351bf275a768d55d72b9f6db3005fe99",
+      "final_artwork_sha256": "b48478a1d017ec048ff3f53e51736b5a5be891f8a48e8e823af1406245fa26f1",
+      "expression": "Corrected small mouth to a subtle closed smirk; narrow eyes and tilted head retained.",
+      "line_cleanup": "Cleaned extended five-finger hand, scarf, bob outline, clothing and pouch contours.",
+      "framing": "Asymmetric pose retained; face sits left while reaching hand balances the usable area and remains clear of stages.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 198,
+    "id": "cell-198-android-18-the-smart-one",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-198-android-18-the-smart-one.svg",
+    "native_source_sha256": "fca36ce481bd1722cffe27b2d48b7db79de6a0dda82cb872bec31f3c7dd62ebe",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/958dd546c8435b5a7c106de0da82408a6e2e4d489744c66d70f79f6278c95b60.png",
+        "sha256": "958dd546c8435b5a7c106de0da82408a6e2e4d489744c66d70f79f6278c95b60"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/198.jpg",
+      "sha256": "440012899aa6581d66ab6e0b0989439de325a4a0ea30b2ad6171cc79a508b644"
+    },
+    "original_rules": "Energy attack doing 6 life cards of damage. If \"The Car\" is in play this attack also does +4 power stages of damage.",
+    "catalog": {
+      "id": "cell-198-android-18-the-smart-one",
+      "name": "Android 18, the Smart One",
+      "number": "198",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/198.jpg",
+      "rules": "Energy attack costing 2 stages. DAMAGE: 6 life cards. If The Car is in play, this attack also deals 4 stages of damage.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 2,
+      "powerStages": [
+        1500000,
+        1490000,
+        1480000,
+        1470000,
+        1460000,
+        1450000,
+        1440000,
+        1430000,
+        1420000,
+        1410000,
+        0
+      ],
+      "alignment": "Villain",
+      "image": "/assets/cards/cell-198-android-18-the-smart-one.webp?v=4b604971197c",
+      "downloadImage": "/assets/cards/downloads/cell-198-android-18-the-smart-one.webp?v=e4d2f5c5621e"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-198-android-18-the-smart-one.webp",
+        "field": "image",
+        "sha256": "4b604971197c9b9eba6bc3ac476ba5e1a03496a0fe76cacac4314eb92f85eb81",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-198-android-18-the-smart-one.webp",
+        "field": "downloadImage",
+        "sha256": "e4d2f5c5621e0e7aa11514f39301a39c60ec5ce003a7fa2c03cbf03dc3f49b8a",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "208a93dd0c9f001786b8b115be6f814a116973f0d04e5b451988ea3a3d7c8abb",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/198.jpg",
+      "original_sha256": "440012899aa6581d66ab6e0b0989439de325a4a0ea30b2ad6171cc79a508b644",
+      "final_artwork_sha256": "958dd546c8435b5a7c106de0da82408a6e2e4d489744c66d70f79f6278c95b60",
+      "expression": "Cool lowered narrow eyes and small closed neutral mouth retained.",
+      "line_cleanup": "Cleaned bob edges, sleeve stripes, vest stitching and raised fingers.",
+      "framing": "Raised torso and face retained; outer raised fingers remain partly behind the stage track, following the original composition.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 199,
+    "id": "cell-199-android-20-the-destructor",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-199-android-20-the-destructor.svg",
+    "native_source_sha256": "2a8674901427ec25ad7c2dcfe46742829105a2e7c47aa413f037d857ae928096",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/ae4d9736c8a798ebd3fd942f4f62505b45c0e824a01f128f18a542a19d872204.png",
+        "sha256": "ae4d9736c8a798ebd3fd942f4f62505b45c0e824a01f128f18a542a19d872204"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/199.jpg",
+      "sha256": "61fa8577fbf1aaea667d1474a2c0335a4fd5a877c49f990498c945a6987ed43b"
+    },
+    "original_rules": "Energy attack doing 8 life cards of damage. Costs 0 power stages to perform.",
+    "catalog": {
+      "id": "cell-199-android-20-the-destructor",
+      "name": "Android 20, the Destructor",
+      "number": "199",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/199.jpg",
+      "rules": "Energy attack costing 0 stages. DAMAGE: 8 life cards.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 2,
+      "powerStages": [
+        1400000,
+        1300000,
+        1200000,
+        1100000,
+        1000000,
+        900000,
+        800000,
+        700000,
+        600000,
+        500000,
+        0
+      ],
+      "alignment": "Villain",
+      "image": "/assets/cards/cell-199-android-20-the-destructor.webp?v=771029e0db53",
+      "downloadImage": "/assets/cards/downloads/cell-199-android-20-the-destructor.webp?v=ddf61450ed85"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-199-android-20-the-destructor.webp",
+        "field": "image",
+        "sha256": "771029e0db53f8e4464f58a36db2b8c1e9237ac0fff1eaba1fc6dc1fcf69b353",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-199-android-20-the-destructor.webp",
+        "field": "downloadImage",
+        "sha256": "ddf61450ed85a79c74bd729049e2f3ffffd1d6708df68860d2d5b451775523ee",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "6606c4d8b6c5f96e8341f1dcc89c544dad103183af2d6f7d47eba31cd342825b",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/199-user-source.png",
+      "original_sha256": "2470869561ac6fa518410e4ef84a40d0da52ba6f2c083028e95b5b9b37a0af6c",
+      "final_artwork_sha256": "ae4d9736c8a798ebd3fd942f4f62505b45c0e824a01f128f18a542a19d872204",
+      "expression": "Narrow hard eyes and downturned closed mouth beneath moustache retained/refined.",
+      "line_cleanup": "Simplified forehead/cheek wrinkles; cleaned hat, moustache, collar ribs and shoulder arcs.",
+      "framing": "Retained preceding higher portrait fit with gold collar and shoulders visible above middle bar; hat extends behind the title.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  },
+  {
+    "number": 200,
+    "id": "cell-200-cell-the-perfect-warrior",
+    "native_source_path": "tools/card-templates/v3/cell-191-200/cell-200-cell-the-perfect-warrior.svg",
+    "native_source_sha256": "ee3ce65083949e3326c3950426ddb2db3f29b60549353fee5a19b2d4f2c009b7",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/0202d252c66e1a1a62bc01495daf2edd0ceee2fb5369cfd29cc5eff8c338343e.png",
+        "sha256": "0202d252c66e1a1a62bc01495daf2edd0ceee2fb5369cfd29cc5eff8c338343e"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "original_reference": {
+      "path": "tools/card-corrections/v3-cell-191-200/package/references/200.jpg",
+      "sha256": "5241cfbdea6182d5e6dd16720bcfa37902fd2e2eba3625a6b564258b04bd9231"
+    },
+    "original_rules": "Physical attack doing +5 power stages of damage. If successful, raise your anger 1 level.",
+    "catalog": {
+      "id": "cell-200-cell-the-perfect-warrior",
+      "name": "Cell, the Perfect Warrior",
+      "number": "200",
+      "type": "Main Personality",
+      "style": "Freestyle",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "source": "https://github.com/Kaoxt/dragonball/blob/main/tools/card-corrections/v3-cell-191-200/package/references/200.jpg",
+      "rules": "Physical attack. DAMAGE: AT +5 stages. HIT: Raise your anger 1 level.",
+      "rarity": "Hi-Tech",
+      "templateVersion": 3,
+      "level": 3,
+      "pur": 3,
+      "powerStages": [
+        3500000,
+        3300000,
+        3100000,
+        2900000,
+        2700000,
+        2500000,
+        2300000,
+        2100000,
+        1900000,
+        1700000,
+        1500000,
+        1300000,
+        0
+      ],
+      "alignment": "Villain",
+      "image": "/assets/cards/cell-200-cell-the-perfect-warrior.webp?v=cb24fd0e834c",
+      "downloadImage": "/assets/cards/downloads/cell-200-cell-the-perfect-warrior.webp?v=7907102b881a"
+    },
+    "exports": [
+      {
+        "path": "public/assets/cards/cell-200-cell-the-perfect-warrior.webp",
+        "field": "image",
+        "sha256": "cb24fd0e834cd32600fda7a531d7e3ed180d0e004f492bc364d6c419e56da34e",
+        "size": [
+          1060,
+          1484
+        ]
+      },
+      {
+        "path": "public/assets/cards/downloads/cell-200-cell-the-perfect-warrior.webp",
+        "field": "downloadImage",
+        "sha256": "7907102b881ae5780ec5ec5b831ae45f615cda9ce9acde85ae6fa40564c8e0ee",
+        "size": [
+          2120,
+          2968
+        ]
+      }
+    ],
+    "package_png_sha256": "dd9744d70a9f47d592cb1d07d982b3dfc436b7b39a9eca524378d9515f8bf504",
+    "original_values_reviewed": true,
+    "display_reviewed": true,
+    "notes": {
+      "date": "2026-11-14",
+      "original_reference": "references/200.jpg",
+      "original_sha256": "5241cfbdea6182d5e6dd16720bcfa37902fd2e2eba3625a6b564258b04bd9231",
+      "final_artwork_sha256": "0202d252c66e1a1a62bc01495daf2edd0ceee2fb5369cfd29cc5eff8c338343e",
+      "expression": "Corrected upturned grin to closed downturned heavy lavender-gray lips; narrow eyes and second-form face retained.",
+      "line_cleanup": "Cleaned shell perimeter, spotted plates, chest and abdomen lines.",
+      "framing": "Retained large upper-body fit with crown behind title and broad chest/abdomen above middle bar.",
+      "finished_display_reviewed": true,
+      "enlarged_export_face_reviewed": true,
+      "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+      "native_ui_unchanged": true,
+      "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+    }
+  }
+]

@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from '../public/cards/catalog.js';
 import {catalog as beforeShenronCatalog} from './helpers/world-games-shenron-history.js';
-import {codeCardIds} from '../public/decks/code-card-ids.js';
+import {codeCardIds} from './helpers/pre-cell-hi-tech-catalog.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';

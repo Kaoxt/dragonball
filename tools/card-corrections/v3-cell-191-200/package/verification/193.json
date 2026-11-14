@@ -1,0 +1,52 @@
+{
+  "number": 193,
+  "card_id": "cell-193-vegeta-the-last-prince",
+  "source": "cell-color-layout-work/native/cell-193-vegeta-the-last-prince.svg",
+  "original_reference": "references/193.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "c8a6b49585a381f81b1aaa8c4cd9527c27e6a95a7980332bf8429d5deefcc116",
+  "native_sha256": "bb82ac0a9076ef5f62ea88b9c59e5c74d558571a3d042eeafbce8f066851dce1",
+  "artwork_sha256": "6d6a88ab0351bb64bd1630e46a30f6783d975dc7745331afbbbef9807e8ea4ba",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-193-vegeta-the-last-prince.webp",
+      "sha256": "ff6c305e5fb48c6b377a9aa44d6848832a322e000e98bf7a0b4718f92bd6ac21",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-193-vegeta-the-last-prince.webp",
+      "sha256": "a9b37d93b08dc8457c8d877025949ba3f884064c58c7ac2d8d0a5c39ab070d20",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/193.jpg",
+    "original_sha256": "4efdd3011c570036054c1516be0f88cdcc8deed271acf5acbbcb87821fa99b04",
+    "final_artwork_sha256": "6d6a88ab0351bb64bd1630e46a30f6783d975dc7745331afbbbef9807e8ea4ba",
+    "expression": "Narrow confident eyes and restrained closed-mouth smirk retained.",
+    "line_cleanup": "Cleaned hair edges, armor panel boundaries, shoulder ribs and suit contours.",
+    "framing": "Face remains centered left of stages, with chest armor visible above the middle bar.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}

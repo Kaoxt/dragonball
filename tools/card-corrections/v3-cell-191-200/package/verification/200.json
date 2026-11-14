@@ -1,0 +1,52 @@
+{
+  "number": 200,
+  "card_id": "cell-200-cell-the-perfect-warrior",
+  "source": "cell-color-layout-work/native/cell-200-cell-the-perfect-warrior.svg",
+  "original_reference": "references/200.jpg",
+  "native_ui_unchanged": true,
+  "native_ui_sha256": "f6e7ebb6301158e9cb3fffb0269b240cbe7bb29f0eac60a63da7931a11feaddd",
+  "native_sha256": "ee3ce65083949e3326c3950426ddb2db3f29b60549353fee5a19b2d4f2c009b7",
+  "artwork_sha256": "0202d252c66e1a1a62bc01495daf2edd0ceee2fb5369cfd29cc5eff8c338343e",
+  "native_art_transform": null,
+  "exports": [
+    {
+      "kind": "display",
+      "size": [
+        1060,
+        1484
+      ],
+      "file": "display/cell-200-cell-the-perfect-warrior.webp",
+      "sha256": "cb24fd0e834cd32600fda7a531d7e3ed180d0e004f492bc364d6c419e56da34e",
+      "lossless_pixel_equality": true
+    },
+    {
+      "kind": "download",
+      "size": [
+        2120,
+        2968
+      ],
+      "file": "download/cell-200-cell-the-perfect-warrior.webp",
+      "sha256": "7907102b881ae5780ec5ec5b831ae45f615cda9ce9acde85ae6fa40564c8e0ee",
+      "lossless_pixel_equality": true
+    }
+  ],
+  "status": "line cleanup and original-reference expression/framing review completed; unpublished",
+  "review": {
+    "date": "2026-11-14",
+    "original_reference": "references/200.jpg",
+    "original_sha256": "5241cfbdea6182d5e6dd16720bcfa37902fd2e2eba3625a6b564258b04bd9231",
+    "final_artwork_sha256": "0202d252c66e1a1a62bc01495daf2edd0ceee2fb5369cfd29cc5eff8c338343e",
+    "expression": "Corrected upturned grin to closed downturned heavy lavender-gray lips; narrow eyes and second-form face retained.",
+    "line_cleanup": "Cleaned shell perimeter, spotted plates, chest and abdomen lines.",
+    "framing": "Retained large upper-body fit with crown behind title and broad chest/abdomen above middle bar.",
+    "finished_display_reviewed": true,
+    "enlarged_export_face_reviewed": true,
+    "line_review_result": "No obvious doubled, disconnected or wavy structural outlines found in reviewed features. Natural folds, wrinkles, ribbing and decorative brush texture are intentional.",
+    "native_ui_unchanged": true,
+    "scope": "Current ten Cell Saga Hi-Tech draft cards only; no fresh gameplay-rules audit; not published."
+  },
+  "artwork_native_size": [
+    1060,
+    1484
+  ]
+}
