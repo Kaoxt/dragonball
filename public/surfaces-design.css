@@ -350,7 +350,7 @@
  }
  html[data-site-design=v2] body.database-page .cards-pagination a:hover {background:transparent;border-color:var(--site-nav-red);color:#fff}
  html[data-site-design=v2] body.database-page .cards-pagination a[aria-current=page] {
-  background:var(--site-nav-red-fill);border:1px solid var(--site-nav-red);color:#fff;box-shadow:none;
+  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
  }
  /* The selected card finish uses the News Show more / less treatment. */
  html[data-site-design=v2] body.database-page #card-detail .card-finish-switcher button[aria-pressed=true],
@@ -489,6 +489,81 @@
 @media screen{
  html[data-site-design=v2] body.home-page main .news-post .post-actions a:not(.news-comment-link):is(:hover,:focus-visible){
   background:#303940;border-color:#65717a;color:#fff;box-shadow:none;
+ }
+}
+
+/* Signed-out account forms use the same clean frame and red actions as Cards
+   and News. Keep these rules scoped away from signed-in account settings. */
+@media screen{
+ html[data-site-design=v2] body .account-page:has(.account-auth-card){
+  width:100%;max-width:620px;padding:40px 24px 56px;
+ }
+ html[data-site-design=v2] body .account-page .account-auth-heading{margin:0 0 24px}
+ html[data-site-design=v2] body .account-page .account-auth-heading h1{
+  margin:0 0 12px;color:#fff;font-family:'DB OCG Navigation',var(--font-ui);
+  font-size:clamp(36px,6vw,54px);font-weight:400;line-height:1.2;
+  letter-spacing:0;text-transform:uppercase;text-wrap:balance;
+  -webkit-text-stroke:1px #080b0d;paint-order:stroke fill;
+  text-shadow:2px 3px 0 #080b0d;
+ }
+ html[data-site-design=v2] body .account-page .account-auth-heading p{
+  margin:0;color:#b8c0c6;font-size:15px;line-height:1.65;
+ }
+ html[data-site-design=v2] body.arena-page .account-page .account-card.account-auth-card{
+  position:relative;isolation:isolate;min-width:0;margin:0;padding:26px;
+  background:transparent;border:6px solid transparent;border-radius:16px;
+  border-image:url('/assets/power-panel-clean-v2.svg?v=20261104-even-rails') 48 / 36px / 0 stretch;
+  box-shadow:none;
+ }
+ html[data-site-design=v2] body .account-auth-card::before,
+ html[data-site-design=v2] body .account-auth-card::after{
+  content:"";position:absolute;inset:0 0 50%;z-index:-1;pointer-events:none;
+  background:var(--surface-panel);clip-path:var(--v2-frame-top-clip);
+ }
+ html[data-site-design=v2] body .account-auth-card::after{
+  inset:50% 0 0;clip-path:var(--v2-frame-bottom-clip);
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs{
+  display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 24px;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card form{gap:18px}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card label{gap:8px;font-size:14px;color:#dce2e7}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card input{
+  min-width:0;min-height:48px;padding:12px 14px;font-size:16px;
+  background:#151a1e;border:1px solid #39434b;border-radius:8px;color:#f5f6fa;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card small,
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .security-message{color:#b8c0c6}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card button{
+  min-height:46px;border-radius:8px;font-size:14px;line-height:1.4;
+  background:#252c31;border:1px solid #465058;color:#f5f6fa;box-shadow:none;transform:none;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card button:hover:not(:disabled){
+  background:#303940;border-color:#65717a;color:#fff;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs button{width:100%}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs button[aria-pressed=true],
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit],
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit]:hover:not(:disabled){
+  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit]{width:100%;min-height:48px;justify-self:stretch}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card #registration-security{margin:2px 0;min-width:0}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .security-label{margin-bottom:6px;font-size:14px;color:#dce2e7}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .security-widget{overflow-x:auto}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-text-button{
+  display:block;width:100%;margin:16px 0 0;padding:10px 0;
+  background:transparent;border:0;color:#c2c8cd;text-align:center;
+ }
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-text-button:hover{background:transparent;color:var(--site-nav-red,#c14954)}
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card :is(button,input):focus-visible{outline:2px solid #c2c8cd;outline-offset:3px}
+ @media(max-width:600px){
+  html[data-site-design=v2] body .account-page:has(.account-auth-card){padding:28px 16px 40px}
+  html[data-site-design=v2] body.arena-page .account-page .account-card.account-auth-card{padding:20px}
+ }
+ @media(max-width:400px){
+  html[data-site-design=v2] body .account-page:has(.account-auth-card){padding-inline:12px}
+  html[data-site-design=v2] body.arena-page .account-page .account-card.account-auth-card{padding:18px 12px}
  }
 }
 
