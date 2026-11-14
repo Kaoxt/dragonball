@@ -14,6 +14,8 @@ import {isHiTechPersonality,blocksHiTechAlly} from '../public/decks/eligibility.
 const base='tools/card-corrections/v3-world-games-151-200/';
 const read=p=>JSON.parse(fs.readFileSync(base+p,'utf8'));
 const release=read('release.json'),audit=read('audit.json'),source=read('cards.json');
+const gokuRevision=read('goku-pair-revision.json');
+const beforeGokuAudit=audit.map(row=>gokuRevision.cards.find(r=>r.number===row.number)?.before_audit??row);
 const pending=[];
 const expected=Array.from({length:50},(_,i)=>i+151).filter(n=>!pending.includes(n));
 const cards=catalog.filter(c=>c.set==='World Games Saga'&&Number(c.number)>=151&&Number(c.number)<=200);
@@ -78,12 +80,26 @@ test('all cards round-trip through deck codes in their appropriate zones',async(
  for(const c of cards.filter(isHiTechPersonality)){const d=createDeck();d.personalities[0]=snapshot(c);assert.deepEqual((await decodeDeck(await encodeDeck(d),catalog)).personalities,d.personalities);}
 });
 
-test('the 39 cards outside approved Hi-Tech refinements remain unchanged',()=>{
- const previous49=read('previous-49-ready-audit.json');assert.equal(previous49.length,49);for(const row of previous49)assert.deepEqual(audit.find(current=>current.id===row.id),row);
+test('the 39 cards outside approved Hi-Tech refinements retain their historical audits',()=>{
+ const previous49=read('previous-49-ready-audit.json');assert.equal(previous49.length,49);for(const row of previous49)assert.deepEqual(beforeGokuAudit.find(current=>current.id===row.id),row);
  const previous=read('previous-47-ready-audit.json');assert.equal(previous.length,47);
  const revised=new Set(read('supplement-integration.json').updated_cards);
  const retained=previous.filter(row=>!revised.has(row.number));assert.equal(retained.length,39);
- for(const row of retained)assert.deepEqual(audit.find(current=>current.id===row.id),row);
+ for(const row of retained)assert.deepEqual(beforeGokuAudit.find(current=>current.id===row.id),row);
+});
+test('the approved Goku pair changes artwork while preserving gameplay and retained rebuilds',()=>{
+ assert.deepEqual(gokuRevision.cards.map(r=>r.number),[159,171]);
+ for(const revision of gokuRevision.cards){
+  const row=audit.find(r=>r.number===revision.number),d=source.find(c=>c.number===revision.number);
+  assert.deepEqual(row,revision.after_audit);
+  assert.deepEqual(read(`per-card/${revision.number}.json`),row);
+  const {image:oldImage,downloadImage:oldDownload,...before}=revision.before_catalog;
+  const {image,downloadImage,...after}=cards.find(c=>c.id===before.id);
+  assert.deepEqual(after,before);assert.notEqual(image,oldImage);assert.notEqual(downloadImage,oldDownload);
+  assert.equal(d.retained_native_source_path,row.native_source_path);
+ }
+ const builder=fs.readFileSync('tools/card-templates/v3/build_world_games_151_200.py','utf8');
+ assert.match(builder,/def compose\(c\):\s+if c.get\('retained_native_source_path'\):/);
 });
 test('approved standalone cards and Hi-Tech refinements retain their native sources',()=>{
  const update=read('supplement-integration.json');assert.deepEqual(update.new_cards,[160,177]);assert.deepEqual(update.pending,[171]);
