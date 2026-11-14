@@ -1,5 +1,6 @@
-import {setupCardMotion} from '../card-motion.js?v=20261103-finish-choice';
-import {finishForImage} from '../card-surface.js?v=20261103-finish-choice';
+// Match the page's module URLs so initialization reuses its motion controller.
+import {setupCardMotion} from '../card-motion.js?v=20261106-stock-depth';
+import {finishForImage} from '../card-surface.js?v=20261106-stock-depth';
 import {createFinishPreference} from './finish-preference.js?v=20261103';
 
 const controls = document.getElementById('card-finish-controls');
