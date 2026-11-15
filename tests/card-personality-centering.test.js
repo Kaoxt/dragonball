@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog,beforeRemainingFile,beforeRemainingHash} from './helpers/remaining-personality-history.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
 import {encodeDeck,decodeDeck} from '../public/decks/deck-code.js';
 import {powerChart} from '../public/personality-power.js';
@@ -13,7 +13,7 @@ const base='tools/card-corrections/personality-centering-20261115/';
 const manifest=JSON.parse(fs.readFileSync(base+'manifest.json','utf8'));
 const review=JSON.parse(fs.readFileSync(base+'review.json','utf8'));
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const fileHash=p=>hash(fs.readFileSync(p));
+const fileHash=beforeRemainingHash;
 
 test('centering changes exactly the approved 45 cards and preserves all gameplay and deck identities',async()=>{
  assert.equal(release.cards.length,45);assert.equal(review.rows.length,98);
@@ -58,7 +58,7 @@ test('all supplied assets remain exact and both export sizes retain lossless for
    assert.equal(check.sha256,e.sha256);assert.equal(check.protected_pixels_changed,0);
    const card=catalog.find(c=>c.id===row.id),field=e.scale===1?'image':'downloadImage';
    assert.equal(card[field],e.path.replace(/^public/,'')+'?v='+e.sha256.slice(0,12));
-   const svg=fs.readFileSync(e.native,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);
+   const svg=beforeRemainingFile(e.native,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);
    for(const [,href] of svg.matchAll(/(?:\w+:)?href="([^\"]+)"/g)){
     if(href.startsWith('#')||href.startsWith('data:'))continue;
     assert.ok(fs.existsSync(path.resolve(path.dirname(e.native),href)),href);

@@ -1222,11 +1222,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-082-tien.webp?v=6c11c2ac2eec",
+    "image": "/assets/cards/saiyan-082-tien.webp?v=bec1000aedd6",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-082-tien.webp?v=aba8a6cd0258",
+    "downloadImage": "/assets/cards/downloads/saiyan-082-tien.webp?v=502de2d7d0db",
     "templateVersion": 3
   },
   {
@@ -1252,11 +1252,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-084-yamcha.webp?v=d860db53b9f6",
+    "image": "/assets/cards/saiyan-084-yamcha.webp?v=19594e3ba922",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=d02a5421fb05",
+    "downloadImage": "/assets/cards/downloads/saiyan-084-yamcha.webp?v=97028411bbc5",
     "templateVersion": 3
   },
   {
@@ -1267,11 +1267,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-085-yamcha.webp?v=65d51ffb1445",
+    "image": "/assets/cards/saiyan-085-yamcha.webp?v=64aa1f30e378",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=d228ff576a2c",
+    "downloadImage": "/assets/cards/downloads/saiyan-085-yamcha.webp?v=c75f39288c98",
     "templateVersion": 3
   },
   {
@@ -1282,11 +1282,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=4bac645f4a9e",
+    "image": "/assets/cards/saiyan-086-chi-chi.webp?v=052cf5038584",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-uncommons/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=9824e09a17f1",
+    "downloadImage": "/assets/cards/downloads/saiyan-086-chi-chi.webp?v=30181ac3fedf",
     "templateVersion": 3
   },
   {
@@ -2437,11 +2437,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-163-piccolo.webp?v=df57d6774948",
+    "image": "/assets/cards/saiyan-163-piccolo.webp?v=ac58b6723c3c",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=f11e45237de8",
+    "downloadImage": "/assets/cards/downloads/saiyan-163-piccolo.webp?v=08ec15ceff2a",
     "templateVersion": 3
   },
   {
@@ -2482,11 +2482,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-166-gohan.webp?v=817be797637b",
+    "image": "/assets/cards/saiyan-166-gohan.webp?v=e43125ad6e04",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-166-gohan.webp?v=88dc7e5e22f8",
+    "downloadImage": "/assets/cards/downloads/saiyan-166-gohan.webp?v=91b30181ae44",
     "templateVersion": 3
   },
   {
@@ -2617,11 +2617,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-175-vegeta.webp?v=4784c2a3cf12",
+    "image": "/assets/cards/saiyan-175-vegeta.webp?v=4a2497c74280",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-175-vegeta.webp?v=ce3d343cc395",
+    "downloadImage": "/assets/cards/downloads/saiyan-175-vegeta.webp?v=47cd9d04b758",
     "templateVersion": 3
   },
   {
@@ -2677,10 +2677,10 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=60110cf9802a",
+    "image": "/assets/cards/saiyan-179-goku-lvl-1-ht.webp?v=086703c19a07",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=2b58cf1c5289",
+    "downloadImage": "/assets/cards/downloads/saiyan-179-goku-lvl-1-ht.webp?v=ffd98113c3bb",
     "templateVersion": 3
   },
   {
@@ -2691,11 +2691,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=7177acefedbf",
+    "image": "/assets/cards/saiyan-180-piccolo-lvl-1-ht.webp?v=505ebe996050",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-180-piccolo-lvl-1-ht.webp?v=c21e869ca90d",
+    "downloadImage": "/assets/cards/downloads/saiyan-180-piccolo-lvl-1-ht.webp?v=736376318716",
     "templateVersion": 3
   },
   {
@@ -2721,11 +2721,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=f5c25a158910",
+    "image": "/assets/cards/saiyan-182-krillin-lvl-1-ht.webp?v=47b6274bc497",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp?v=7511f53d44f5",
+    "downloadImage": "/assets/cards/downloads/saiyan-182-krillin-lvl-1-ht.webp?v=4b3172524858",
     "templateVersion": 3
   },
   {
@@ -2736,11 +2736,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=9563730ce779",
+    "image": "/assets/cards/saiyan-183-raditz-lvl-1-ht.webp?v=d81be07ebe39",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp?v=67946b176c0a",
+    "downloadImage": "/assets/cards/downloads/saiyan-183-raditz-lvl-1-ht.webp?v=fb32d10d6932",
     "templateVersion": 3
   },
   {
@@ -2751,11 +2751,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=76d4f87f43af",
+    "image": "/assets/cards/saiyan-184-vegeta-lvl-1-ht.webp?v=4e00341dd01a",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-starter/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp?v=26bb655ea781",
+    "downloadImage": "/assets/cards/downloads/saiyan-184-vegeta-lvl-1-ht.webp?v=ba75f2af3670",
     "templateVersion": 3
   },
   {
@@ -3636,11 +3636,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=57cd692b111e",
+    "image": "/assets/cards/saiyan-243-saibaimen.webp?v=1ca576f1c5b0",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-rares/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-243-saibaimen.webp?v=1eea2b41279c",
+    "downloadImage": "/assets/cards/downloads/saiyan-243-saibaimen.webp?v=a33a50df33fb",
     "templateVersion": 3
   },
   {
@@ -3760,11 +3760,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=7d1642f68504",
+    "image": "/assets/cards/saiyan-0P1-goku-silver-variant.webp?v=a7095b1f09e7",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=8311fea5eb67",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P1-goku-silver-variant.webp?v=f90441e31c34",
     "templateVersion": 3
   },
   {
@@ -3775,11 +3775,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=0377b0bab68a",
+    "image": "/assets/cards/saiyan-0P2-piccolo-silver-variant.webp?v=f4f7b36fedce",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=ec114cc956ba",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P2-piccolo-silver-variant.webp?v=6e0979607487",
     "templateVersion": 3
   },
   {
@@ -3790,11 +3790,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=baba8da48aa0",
+    "image": "/assets/cards/saiyan-0P3-vegeta-silver-variant.webp?v=c2a6885bfce4",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=ab656641ad3c",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P3-vegeta-silver-variant.webp?v=0c5bcc29300a",
     "templateVersion": 3
   },
   {
@@ -3835,11 +3835,11 @@ export const catalog = [
     "style": "Freestyle",
     "set": "Saiyan Saga",
     "status": "Ready",
-    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=99019b1cf79e",
+    "image": "/assets/cards/saiyan-0P6-krillin-silver-variant.webp?v=730174f026ff",
     "source": "https://retrodbzccg.com/card-images/saiyan-saga-promos/",
     "width": 1060,
     "height": 1484,
-    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=8d35b0213ea1",
+    "downloadImage": "/assets/cards/downloads/saiyan-0P6-krillin-silver-variant.webp?v=64f371521b26",
     "templateVersion": 3
   },
   {
@@ -15618,8 +15618,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-109",
     "rules": "Energy attack costing 2 stages. DAMAGE: 4 life cards. At the end of Combat, search your Life Deck for an Ally and place it in play at 6 stages above 0.",
     "rarity": "Uncommon",
-    "image": "/assets/cards/cell-109-bulma-the-expert.webp?v=73c63a24c39b",
-    "downloadImage": "/assets/cards/downloads/cell-109-bulma-the-expert.webp?v=9abb00cf91a2",
+    "image": "/assets/cards/cell-109-bulma-the-expert.webp?v=3feec2d4bebb",
+    "downloadImage": "/assets/cards/downloads/cell-109-bulma-the-expert.webp?v=1ca7121fabf0",
     "alignment": "Hero",
     "level": 3,
     "pur": 1,
@@ -15956,8 +15956,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-127",
     "rules": "Your opponents cannot perform energy attacks.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-127-trunks-the-powerful.webp?v=4359702bf610",
-    "downloadImage": "/assets/cards/downloads/cell-127-trunks-the-powerful.webp?v=4cfb40e8c565",
+    "image": "/assets/cards/cell-127-trunks-the-powerful.webp?v=3330c4c1091a",
+    "downloadImage": "/assets/cards/downloads/cell-127-trunks-the-powerful.webp?v=862e270dcd7b",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16197,8 +16197,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-136",
     "rules": "Energy attack costing 0 stages. DAMAGE: 12 life cards.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-136-cell-the-master.webp?v=240d161692c8",
-    "downloadImage": "/assets/cards/downloads/cell-136-cell-the-master.webp?v=a22b5683d2e4",
+    "image": "/assets/cards/cell-136-cell-the-master.webp?v=848129e91340",
+    "downloadImage": "/assets/cards/downloads/cell-136-cell-the-master.webp?v=fdb263d1a084",
     "alignment": "Villain",
     "level": 5,
     "pur": 4,
@@ -16302,8 +16302,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-139",
     "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. If you declared a Blue Toku-Waza, lower your opponent's anger to 0. HIT: Raise Krillin to his highest stage.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-139-krillin-the-mighty.webp?v=44041574cb54",
-    "downloadImage": "/assets/cards/downloads/cell-139-krillin-the-mighty.webp?v=b192c546388f",
+    "image": "/assets/cards/cell-139-krillin-the-mighty.webp?v=99457e22dd3a",
+    "downloadImage": "/assets/cards/downloads/cell-139-krillin-the-mighty.webp?v=9cfc343d8b56",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16573,8 +16573,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-unlimited-154",
     "rules": "Defense Shield: When defending in Combat, stop the first unstopped attack against you. When entering Combat, draw a card.",
     "rarity": "Rare",
-    "image": "/assets/cards/cell-154-vegeta-ascendant.webp?v=34cba5ad25f7",
-    "downloadImage": "/assets/cards/downloads/cell-154-vegeta-ascendant.webp?v=6c3e97e801a8",
+    "image": "/assets/cards/cell-154-vegeta-ascendant.webp?v=1e324c596e01",
+    "downloadImage": "/assets/cards/downloads/cell-154-vegeta-ascendant.webp?v=718915173539",
     "alignment": "Hero",
     "level": 4,
     "pur": 4,
@@ -16676,8 +16676,8 @@ export const catalog = [
     "source": "https://dbzoutpost.com/products/cell-saga-limited-foil-159",
     "rules": "Physical attack. DAMAGE: AT +9 stages.",
     "rarity": "Ultra Rare",
-    "image": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=92827b4574ae",
-    "downloadImage": "/assets/cards/downloads/cell-159-vegeta-the-revitalized.webp?v=6336b365c830",
+    "image": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=6fd3fb970702",
+    "downloadImage": "/assets/cards/downloads/cell-159-vegeta-the-revitalized.webp?v=8ed70048b33d",
     "alignment": "Hero",
     "level": 5,
     "pur": 5,
@@ -21076,8 +21076,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-128-froug-the-underdog.webp?v=e1f2c3b170de",
-    "downloadImage": "/assets/cards/downloads/world-games-128-froug-the-underdog.webp?v=a2f41d9d2210"
+    "image": "/assets/cards/world-games-128-froug-the-underdog.webp?v=add31275c743",
+    "downloadImage": "/assets/cards/downloads/world-games-128-froug-the-underdog.webp?v=57f3df3dda29"
   },
   {
     "id": "world-games-129-froug-the-huge",
@@ -21109,8 +21109,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-129-froug-the-huge.webp?v=02b0f7ee1808",
-    "downloadImage": "/assets/cards/downloads/world-games-129-froug-the-huge.webp?v=5bc15d0e0be3"
+    "image": "/assets/cards/world-games-129-froug-the-huge.webp?v=509f482d57cc",
+    "downloadImage": "/assets/cards/downloads/world-games-129-froug-the-huge.webp?v=960fe79d58f0"
   },
   {
     "id": "world-games-130-gohan-the-energized",
@@ -21179,8 +21179,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-131-goku-the-kings-pupil.webp?v=8deef2070b17",
-    "downloadImage": "/assets/cards/downloads/world-games-131-goku-the-kings-pupil.webp?v=a08f61b0ce19"
+    "image": "/assets/cards/world-games-131-goku-the-kings-pupil.webp?v=d0826bf4744d",
+    "downloadImage": "/assets/cards/downloads/world-games-131-goku-the-kings-pupil.webp?v=9d0318867496"
   },
   {
     "id": "world-games-132-grand-kai",
@@ -21263,8 +21263,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-134-krillin-the-husband.webp?v=164bfe3bc6f5",
-    "downloadImage": "/assets/cards/downloads/world-games-134-krillin-the-husband.webp?v=57485e09a830"
+    "image": "/assets/cards/world-games-134-krillin-the-husband.webp?v=265db3ab0ed6",
+    "downloadImage": "/assets/cards/downloads/world-games-134-krillin-the-husband.webp?v=1f61f34cbaa9"
   },
   {
     "id": "world-games-135-krillin-the-great",
@@ -21403,8 +21403,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-138-majin-spopovich-the-revitalized.webp?v=f0b871a94cc1",
-    "downloadImage": "/assets/cards/downloads/world-games-138-majin-spopovich-the-revitalized.webp?v=137f57aa9465"
+    "image": "/assets/cards/world-games-138-majin-spopovich-the-revitalized.webp?v=cbce877a326f",
+    "downloadImage": "/assets/cards/downloads/world-games-138-majin-spopovich-the-revitalized.webp?v=42f7f22a6dff"
   },
   {
     "id": "world-games-139-namekian-style-mastery",
@@ -21627,8 +21627,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-146-pikkon-the-hero.webp?v=dbbef77bde51",
-    "downloadImage": "/assets/cards/downloads/world-games-146-pikkon-the-hero.webp?v=4fd9751ffc9f"
+    "image": "/assets/cards/world-games-146-pikkon-the-hero.webp?v=97cb893a366c",
+    "downloadImage": "/assets/cards/downloads/world-games-146-pikkon-the-hero.webp?v=cc78684af7b3"
   },
   {
     "id": "world-games-147-red-style-mastery",
@@ -21811,8 +21811,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-153-arqua-the-water-champion.webp?v=7f18f6058e14",
-    "downloadImage": "/assets/cards/downloads/world-games-153-arqua-the-water-champion.webp?v=60a7f3973646"
+    "image": "/assets/cards/world-games-153-arqua-the-water-champion.webp?v=ab5e96035a82",
+    "downloadImage": "/assets/cards/downloads/world-games-153-arqua-the-water-champion.webp?v=f3939cd05821"
   },
   {
     "id": "world-games-154-arqua-the-agile",
@@ -22081,8 +22081,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-163-vegeta-the-mighty.webp?v=b6b9bca18bf7",
-    "downloadImage": "/assets/cards/downloads/world-games-163-vegeta-the-mighty.webp?v=2a48d5598eb9"
+    "image": "/assets/cards/world-games-163-vegeta-the-mighty.webp?v=682ba9540a18",
+    "downloadImage": "/assets/cards/downloads/world-games-163-vegeta-the-mighty.webp?v=c9f877a02e97"
   },
   {
     "id": "world-games-164-vegeta-the-dark-hero",
@@ -22116,8 +22116,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-164-vegeta-the-dark-hero.webp?v=065e550db9ed",
-    "downloadImage": "/assets/cards/downloads/world-games-164-vegeta-the-dark-hero.webp?v=910010e6f1e9"
+    "image": "/assets/cards/world-games-164-vegeta-the-dark-hero.webp?v=7f57ff18f140",
+    "downloadImage": "/assets/cards/downloads/world-games-164-vegeta-the-dark-hero.webp?v=ed218680fbac"
   },
   {
     "id": "world-games-165-vegeta",
@@ -22386,8 +22386,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-172-goku-the-proud.webp?v=bbb989055c5d",
-    "downloadImage": "/assets/cards/downloads/world-games-172-goku-the-proud.webp?v=427e3d27a65c"
+    "image": "/assets/cards/world-games-172-goku-the-proud.webp?v=2160c54ec2ea",
+    "downloadImage": "/assets/cards/downloads/world-games-172-goku-the-proud.webp?v=f450f561e4c5"
   },
   {
     "id": "world-games-173-goku",
@@ -22485,8 +22485,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-175-goten-the-brother.webp?v=e9c380a94970",
-    "downloadImage": "/assets/cards/downloads/world-games-175-goten-the-brother.webp?v=2fcbee1eea33"
+    "image": "/assets/cards/world-games-175-goten-the-brother.webp?v=23a743f5bc48",
+    "downloadImage": "/assets/cards/downloads/world-games-175-goten-the-brother.webp?v=573c17971ba8"
   },
   {
     "id": "world-games-176-goten-the-young-saiyan",
@@ -22518,8 +22518,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-176-goten-the-young-saiyan.webp?v=3492b6731e4a",
-    "downloadImage": "/assets/cards/downloads/world-games-176-goten-the-young-saiyan.webp?v=240068bd227a"
+    "image": "/assets/cards/world-games-176-goten-the-young-saiyan.webp?v=14200e86dbbc",
+    "downloadImage": "/assets/cards/downloads/world-games-176-goten-the-young-saiyan.webp?v=ad60eacd8211"
   },
   {
     "id": "world-games-177-goten",
@@ -22617,8 +22617,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-179-kid-trunks-the-boastful.webp?v=097bbebb6107",
-    "downloadImage": "/assets/cards/downloads/world-games-179-kid-trunks-the-boastful.webp?v=ee9c3c58ea17"
+    "image": "/assets/cards/world-games-179-kid-trunks-the-boastful.webp?v=9be1e5829590",
+    "downloadImage": "/assets/cards/downloads/world-games-179-kid-trunks-the-boastful.webp?v=9f7a59b5433b"
   },
   {
     "id": "world-games-180-kid-trunks-the-young-saiyan",
@@ -22650,8 +22650,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-180-kid-trunks-the-young-saiyan.webp?v=3a3e24e645c8",
-    "downloadImage": "/assets/cards/downloads/world-games-180-kid-trunks-the-young-saiyan.webp?v=4d2a851c4e7f"
+    "image": "/assets/cards/world-games-180-kid-trunks-the-young-saiyan.webp?v=d5d25de81bfc",
+    "downloadImage": "/assets/cards/downloads/world-games-180-kid-trunks-the-young-saiyan.webp?v=ad32332c67ed"
   },
   {
     "id": "world-games-181-kid-trunks",
@@ -22716,8 +22716,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-182-maraikoh-the-vicious.webp?v=ed73fb3c3a2a",
-    "downloadImage": "/assets/cards/downloads/world-games-182-maraikoh-the-vicious.webp?v=3d9bf0b5b7e0"
+    "image": "/assets/cards/world-games-182-maraikoh-the-vicious.webp?v=8e114deb7ff4",
+    "downloadImage": "/assets/cards/downloads/world-games-182-maraikoh-the-vicious.webp?v=3e1b3c94fe05"
   },
   {
     "id": "world-games-183-maraikoh-the-strong",
@@ -22750,8 +22750,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-183-maraikoh-the-strong.webp?v=021238455e40",
-    "downloadImage": "/assets/cards/downloads/world-games-183-maraikoh-the-strong.webp?v=97eb8fec4fa2"
+    "image": "/assets/cards/world-games-183-maraikoh-the-strong.webp?v=71f3aaacc293",
+    "downloadImage": "/assets/cards/downloads/world-games-183-maraikoh-the-strong.webp?v=b814413d8fe7"
   },
   {
     "id": "world-games-184-maraikoh-the-mighty",
@@ -22785,8 +22785,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-184-maraikoh-the-mighty.webp?v=33b4036fb3be",
-    "downloadImage": "/assets/cards/downloads/world-games-184-maraikoh-the-mighty.webp?v=1ec3b70ddbfb"
+    "image": "/assets/cards/world-games-184-maraikoh-the-mighty.webp?v=d4774d6931a3",
+    "downloadImage": "/assets/cards/downloads/world-games-184-maraikoh-the-mighty.webp?v=c7670c94b288"
   },
   {
     "id": "world-games-185-maraikoh",
@@ -22818,8 +22818,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/world-games-185-maraikoh.webp?v=dbc74597d5e3",
-    "downloadImage": "/assets/cards/downloads/world-games-185-maraikoh.webp?v=2320c2c8dc16"
+    "image": "/assets/cards/world-games-185-maraikoh.webp?v=d43c15390b2e",
+    "downloadImage": "/assets/cards/downloads/world-games-185-maraikoh.webp?v=087db3dda1be"
   },
   {
     "id": "world-games-186-olibu-the-mythical-hero",
@@ -22851,8 +22851,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-186-olibu-the-mythical-hero.webp?v=52736c7d79c5",
-    "downloadImage": "/assets/cards/downloads/world-games-186-olibu-the-mythical-hero.webp?v=c4e7ffd4194b"
+    "image": "/assets/cards/world-games-186-olibu-the-mythical-hero.webp?v=ad9b17fb1d02",
+    "downloadImage": "/assets/cards/downloads/world-games-186-olibu-the-mythical-hero.webp?v=045cb2063a50"
   },
   {
     "id": "world-games-187-olibu-the-courageous",
@@ -22920,8 +22920,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-188-olibu-the-powerful.webp?v=18f753a3335e",
-    "downloadImage": "/assets/cards/downloads/world-games-188-olibu-the-powerful.webp?v=5a398fabf616"
+    "image": "/assets/cards/world-games-188-olibu-the-powerful.webp?v=ece2b4aa9f40",
+    "downloadImage": "/assets/cards/downloads/world-games-188-olibu-the-powerful.webp?v=0aec8903ba0d"
   },
   {
     "id": "world-games-189-olibu",
@@ -23055,8 +23055,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-192-pikkon-the-powerful.webp?v=1075c4391296",
-    "downloadImage": "/assets/cards/downloads/world-games-192-pikkon-the-powerful.webp?v=8f53cecfbe42"
+    "image": "/assets/cards/world-games-192-pikkon-the-powerful.webp?v=7a06d0b74ac1",
+    "downloadImage": "/assets/cards/downloads/world-games-192-pikkon-the-powerful.webp?v=3e4ec9318e47"
   },
   {
     "id": "world-games-193-pikkon",
@@ -23121,8 +23121,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-194-piccolo-majunior.webp?v=20c64cc1cb73",
-    "downloadImage": "/assets/cards/downloads/world-games-194-piccolo-majunior.webp?v=27ebfa11d93a"
+    "image": "/assets/cards/world-games-194-piccolo-majunior.webp?v=3f8d79f4dd82",
+    "downloadImage": "/assets/cards/downloads/world-games-194-piccolo-majunior.webp?v=a5548cdd4e96"
   },
   {
     "id": "world-games-195-piccolo-the-mentor",
@@ -23155,8 +23155,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-195-piccolo-the-mentor.webp?v=f8e408a10ad8",
-    "downloadImage": "/assets/cards/downloads/world-games-195-piccolo-the-mentor.webp?v=9721486825b2"
+    "image": "/assets/cards/world-games-195-piccolo-the-mentor.webp?v=9a383171cb7d",
+    "downloadImage": "/assets/cards/downloads/world-games-195-piccolo-the-mentor.webp?v=ac4fca6402ca"
   },
   {
     "id": "world-games-196-piccolo-the-former-guardian",
@@ -23190,8 +23190,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-196-piccolo-the-former-guardian.webp?v=e944a920315d",
-    "downloadImage": "/assets/cards/downloads/world-games-196-piccolo-the-former-guardian.webp?v=4f4c95c42137"
+    "image": "/assets/cards/world-games-196-piccolo-the-former-guardian.webp?v=d277b6a6a461",
+    "downloadImage": "/assets/cards/downloads/world-games-196-piccolo-the-former-guardian.webp?v=d2a7c6127d95"
   },
   {
     "id": "world-games-197-piccolo",
@@ -23256,8 +23256,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-198-videl-the-student.webp?v=54db8aff9893",
-    "downloadImage": "/assets/cards/downloads/world-games-198-videl-the-student.webp?v=538715857116"
+    "image": "/assets/cards/world-games-198-videl-the-student.webp?v=e740c6678dcb",
+    "downloadImage": "/assets/cards/downloads/world-games-198-videl-the-student.webp?v=c07730d88e5c"
   },
   {
     "id": "world-games-199-videl-the-protector",
@@ -23289,8 +23289,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-199-videl-the-protector.webp?v=35111edb9c26",
-    "downloadImage": "/assets/cards/downloads/world-games-199-videl-the-protector.webp?v=6f921f87db89"
+    "image": "/assets/cards/world-games-199-videl-the-protector.webp?v=ca5da44e447e",
+    "downloadImage": "/assets/cards/downloads/world-games-199-videl-the-protector.webp?v=3062d255db8a"
   },
   {
     "id": "world-games-200-videl-the-determined",
@@ -23322,8 +23322,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/world-games-200-videl-the-determined.webp?v=c9065e9573b6",
-    "downloadImage": "/assets/cards/downloads/world-games-200-videl-the-determined.webp?v=903ac7bdd134"
+    "image": "/assets/cards/world-games-200-videl-the-determined.webp?v=63804a0f720e",
+    "downloadImage": "/assets/cards/downloads/world-games-200-videl-the-determined.webp?v=492bbda86822"
   },
   {
     "id": "cell-games-101-the-power-of-the-dragon",
@@ -23635,8 +23635,8 @@ export const catalog = [
       3000000
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/cell-games-115-cell-jr-1.webp?v=227b04c5b2bd",
-    "downloadImage": "/assets/cards/downloads/cell-games-115-cell-jr-1.webp?v=874ec543f182"
+    "image": "/assets/cards/cell-games-115-cell-jr-1.webp?v=332b433dd30b",
+    "downloadImage": "/assets/cards/downloads/cell-games-115-cell-jr-1.webp?v=b49753694379"
   },
   {
     "id": "cell-games-116-gokus-dragon-ball-quest",
@@ -23783,8 +23783,8 @@ export const catalog = [
       72500
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/cell-games-122-chiaotzu.webp?v=de32a0769e71",
-    "downloadImage": "/assets/cards/downloads/cell-games-122-chiaotzu.webp?v=3207c1349025"
+    "image": "/assets/cards/cell-games-122-chiaotzu.webp?v=da7a7ef34f6d",
+    "downloadImage": "/assets/cards/downloads/cell-games-122-chiaotzu.webp?v=7d5ca5de5813"
   },
   {
     "id": "cell-games-123-dragons-victory",
@@ -24035,8 +24035,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/cell-164-gohan-the-champion.webp?v=c27c91a4ee2b",
-    "downloadImage": "/assets/cards/downloads/cell-164-gohan-the-champion.webp?v=cc7d35257161"
+    "image": "/assets/cards/cell-164-gohan-the-champion.webp?v=e11b1c5703f1",
+    "downloadImage": "/assets/cards/downloads/cell-164-gohan-the-champion.webp?v=3e860242a689"
   },
   {
     "id": "cell-165-gohan-the-swift",
@@ -24069,8 +24069,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/cell-165-gohan-the-swift.webp?v=56e4cd87b47e",
-    "downloadImage": "/assets/cards/downloads/cell-165-gohan-the-swift.webp?v=98ab0ee71e9b"
+    "image": "/assets/cards/cell-165-gohan-the-swift.webp?v=75c200f6836e",
+    "downloadImage": "/assets/cards/downloads/cell-165-gohan-the-swift.webp?v=55e91a50eb72"
   },
   {
     "id": "cell-166-gohan-the-mighty",
@@ -24340,8 +24340,8 @@ export const catalog = [
       0
     ],
     "alignment": "Hero",
-    "image": "/assets/cards/cell-173-trunks-the-swift.webp?v=bfb3e65958f0",
-    "downloadImage": "/assets/cards/downloads/cell-173-trunks-the-swift.webp?v=288c9d5ba519"
+    "image": "/assets/cards/cell-173-trunks-the-swift.webp?v=8ce08787d358",
+    "downloadImage": "/assets/cards/downloads/cell-173-trunks-the-swift.webp?v=78ffd43c0a00"
   },
   {
     "id": "cell-174-trunks-the-quick",
@@ -24442,8 +24442,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/cell-176-android-16.webp?v=dcdfddf0f98b",
-    "downloadImage": "/assets/cards/downloads/cell-176-android-16.webp?v=9f78b905f8b9"
+    "image": "/assets/cards/cell-176-android-16.webp?v=19c92c41ec20",
+    "downloadImage": "/assets/cards/downloads/cell-176-android-16.webp?v=f28884ebb7e1"
   },
   {
     "id": "cell-177-android-16-the-machine",
@@ -24640,8 +24640,8 @@ export const catalog = [
       0
     ],
     "alignment": "Villain",
-    "image": "/assets/cards/cell-182-android-18.webp?v=b2a195a5ada5",
-    "downloadImage": "/assets/cards/downloads/cell-182-android-18.webp?v=3c94866d8eef"
+    "image": "/assets/cards/cell-182-android-18.webp?v=01cad5db1268",
+    "downloadImage": "/assets/cards/downloads/cell-182-android-18.webp?v=b8ccdb8724dc"
   },
   {
     "id": "cell-183-android-18-the-model",
