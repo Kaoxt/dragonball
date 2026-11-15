@@ -91,6 +91,21 @@ test('Rules fallback styles are authorized by the deployed content security poli
  assert.ok(styles.some(([tag])=>tag.includes('id="rulebook-critical"')));
  for(const [,css] of styles){const hash=createHash('sha256').update(css).digest('base64');assert.ok(headers.includes(`'sha256-${hash}'`),'Inline fallback must work under the production CSP');}
 });
+test('every page renders the permanent theme before JavaScript runs',()=>{
+ const directory=new URL('../public/',import.meta.url);
+ for(const entry of fs.readdirSync(directory,{recursive:true}).filter(x=>x.endsWith('.html'))){
+  const html=fs.readFileSync(new URL(entry,directory),'utf8');
+  const head=html.slice(0,html.indexOf('</head>'));
+  assert.match(html,/<html\b[^>]*data-site-design="v2"/,entry);
+  for(const stylesheet of ['navigation-design.css','surfaces-design.css']){
+   const links=[...head.matchAll(/<link\b[^>]*>/g)].map(([link])=>link).filter(link=>link.includes('/'+stylesheet+'?'));
+   assert.equal(links.length,1,`${entry}: ${stylesheet} must load in the initial head`);
+   assert.match(links[0],/rel="stylesheet"/,entry);
+   assert.doesNotMatch(links[0],/\b(?:disabled|onload|media)=/,`${entry}: theme CSS must block first paint`);
+  }
+  assert.match(html,/<header class="site-header"><span class="site-header-brush" aria-hidden="true"><\/span>/,entry);
+ }
+});
 test('navigation images stay small with every stylesheet unavailable',()=>{
  const directory=new URL('../public/',import.meta.url);
  for(const entry of fs.readdirSync(directory,{recursive:true}).filter(x=>x.endsWith('.html'))){

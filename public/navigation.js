@@ -1,4 +1,4 @@
-import './navigation-design.js?v=20261104-permanent-theme';
+import './navigation-design.js?v=20261115-initial-theme';
 
 const toggle=document.getElementById('nav-toggle'),nav=document.getElementById('site-navigation');
 if(toggle&&nav){
