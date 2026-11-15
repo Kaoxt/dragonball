@@ -580,3 +580,20 @@
  }
  html[data-site-design=v2] body.database-page #card-detail #download{--download-ring:var(--action-red)}
 }
+
+/* The Rules contents panel uses neutral controls and chapter highlights. */
+@media screen{
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav{
+  --manual-red:#303940;--manual-red-hover:#303940;--manual-red-border:#65717a;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav :is(#browse-chapters,#expand-rules,#print-rulebook){
+  background:#252c31;border:1px solid #465058;color:#f5f6fa;box-shadow:none;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav :is(#browse-chapters,#expand-rules,#print-rulebook):is(:hover,:focus-visible){
+  background:#303940;border-color:#65717a;color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav a:focus-visible{color:#fff}
+ html[data-site-design=v2] body.rulebook-page .manual .chapter-nav :is(a,button,input):focus-visible{
+  outline-color:#c2c8cd;
+ }
+}
