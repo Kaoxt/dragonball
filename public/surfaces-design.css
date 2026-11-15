@@ -1,6 +1,7 @@
 /* Current card-title theme; print keeps its dedicated base styles. */
 @media screen {
  html[data-site-design=v2] body {
+  --action-red:#b50d1b;
   --surface-panel:#1e2428;
   --surface-inset:#151a1e;
   --surface-raised:#2b3238;
@@ -143,7 +144,7 @@
  /* Match the main red sampled from the supplied Villain card banner. */
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
-  background:#b50d1b;border:1px solid #b50d1b;color:#fff;box-shadow:none;
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
@@ -350,12 +351,12 @@
  }
  html[data-site-design=v2] body.database-page .cards-pagination a:hover {background:transparent;border-color:var(--site-nav-red);color:#fff}
  html[data-site-design=v2] body.database-page .cards-pagination a[aria-current=page] {
-  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
  /* The selected card finish uses the News Show more / less treatment. */
  html[data-site-design=v2] body.database-page #card-detail .card-finish-switcher button[aria-pressed=true],
  html[data-site-design=v2] body.database-page #card-detail .card-finish-switcher button[aria-pressed=true]:hover {
-  background:var(--site-nav-red-fill);border:1px solid var(--site-nav-red);color:#fff;box-shadow:none;
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.database-page .cards-pagination .pagination-gap {background:transparent;border:0}
  html[data-site-design=v2] body.database-page .catalog-card:hover img {outline-color:var(--site-nav-red)}
@@ -365,11 +366,11 @@
  html[data-site-design=v2] body.database-page .progress-mark {background:#c2c8cd}
  html[data-site-design=v2] body.arena-table-page main :is(#create,#join-form button,#start-draw-test,#turn-bar button,#setup-bar [data-action],#controls [data-action="draw3"]),
  html[data-site-design=v2] body.arena-table-page dialog :is(#move-selected,#deck-form button[type=submit]) {
-  background:#303940;border-color:#65717a;color:#f5f6fa;box-shadow:none;
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.arena-table-page main :is(#create,#join-form button,#start-draw-test,#turn-bar button,#setup-bar [data-action],#controls [data-action="draw3"]):hover:not(:disabled),
  html[data-site-design=v2] body.arena-table-page dialog :is(#move-selected,#deck-form button[type=submit]):hover:not(:disabled) {
-  background:#3b454d;border-color:#7c8992;color:#fff;
+  background:var(--action-red);border-color:var(--action-red);color:#fff;
  }
  html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button {background:transparent;color:#c2c8cd}
  html[data-site-design=v2] body.arena-table-page .lobby-panel .text-button:hover {background:#ffffff08;color:#fff}
@@ -378,8 +379,8 @@
  /* Rules actions, selected card types and chapter navigation match News red. */
  html[data-site-design=v2] body.rulebook-page {
   --rules-panel:#1e2428;--rules-ink:var(--content-copy);--rules-muted:#b8c0c6;
-  --rules-line:#39434b;--manual-red:var(--site-nav-red,#c14954);--manual-red-hover:var(--site-nav-red,#c14954);
-  --manual-red-border:var(--site-nav-red);--accent:#c2c8cd;
+  --rules-line:#39434b;--manual-red:var(--action-red);--manual-red-hover:var(--action-red);
+  --manual-red-border:var(--action-red);--accent:#c2c8cd;
  }
  html[data-site-design=v2] body.rulebook-page .manual :is(.manual-hero,.guide-actions,.chapter-nav>.eyebrow,.card-guide-group,.turn-track li,.table-scroll) {border-color:#39434b}
  html[data-site-design=v2] body.rulebook-page .manual .turn-track li:last-child {border-color:transparent}
@@ -545,7 +546,7 @@
  html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs button[aria-pressed=true],
  html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit],
  html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit]:hover:not(:disabled){
-  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body .account-page .account-card.account-auth-card button[type=submit]{width:100%;min-height:48px;justify-self:stretch}
  html[data-site-design=v2] body .account-page .account-card.account-auth-card #registration-security{margin:2px 0;min-width:0}
@@ -567,3 +568,15 @@
  }
 }
 
+
+/* Content actions share the News red in resting, hover and focus states. */
+@media screen{
+ html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#copy-link,a#download.primary-link),
+ html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#copy-link,a#download.primary-link):is(:hover,:focus-visible),
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook),
+ html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook):is(:hover,:focus-visible),
+ html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs button[aria-pressed=true]:is(:hover,:focus-visible){
+  background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body.database-page #card-detail #download{--download-ring:var(--action-red)}
+}
