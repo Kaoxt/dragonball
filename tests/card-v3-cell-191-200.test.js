@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/pre-cell-starters-catalog.js';
 import {catalog as beforeWorldGamesRefinement} from './helpers/world-games-hi-tech-history.js';
 import {codeCardIds} from './helpers/pre-cell-games-101-125.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
@@ -98,7 +98,7 @@ test('Hi-Tech cards round-trip in their Level 3 deck slots and cannot be Allies'
  }
 });
 
-test('new Cell routes display their exact images and the unprovided range remains absent',async()=>{
+test('Cell Hi-Tech routes retain their images and out-of-set numbers remain absent',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');
  const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  for(const c of cards){
@@ -106,5 +106,5 @@ test('new Cell routes display their exact images and the unprovided range remain
   const response=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);
   assert.equal(response.status,200);assert.ok((await response.text()).includes(c.image));
  }
- for(const n of [161,175,190,201])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/cell-saga/'+n),assets)).status,404);
+ for(const n of [201])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/cell-saga/'+n),assets)).status,404);
 });

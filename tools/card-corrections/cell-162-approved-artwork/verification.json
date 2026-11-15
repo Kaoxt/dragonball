@@ -1,0 +1,88 @@
+{
+  "font_size": 86.0349127182045,
+  "nominal_font_size": 86.0349127182045,
+  "visible_width": 498.4002493765587,
+  "visible_height": 70.03241895261846,
+  "visible_center": [
+    529.5,
+    79.0
+  ],
+  "max_width": 640.0,
+  "scale_factor": 1.0,
+  "footer_first": {
+    "revision": "mirrored-side-group-centers-v1",
+    "logo_dx": 0,
+    "ball_and_number_dx": 0.6625,
+    "changed": true,
+    "saga_center_x": 211.75,
+    "right_group_center_x": 847.25,
+    "number_gap_dx": -0.662,
+    "ball_number_gap": 12.199999999999953
+  },
+  "footer_second": {
+    "revision": "mirrored-side-group-centers-v1",
+    "logo_dx": 0,
+    "ball_and_number_dx": 0,
+    "changed": false,
+    "saga_center_x": 211.75,
+    "right_group_center_x": 847.25,
+    "number_gap_dx": 0,
+    "ball_number_gap": 12.199999999999953
+  },
+  "source_artwork_sha256": "151fe29e27e5fa24985d4db817250912dfd446fc08cea32ce138d8537d25cc09",
+  "source_artwork_bytes_preserved": true,
+  "export_sizes": {
+    "display": [
+      1060,
+      1484
+    ],
+    "download": [
+      2120,
+      2968
+    ]
+  },
+  "lossless_webp_pixels_equal_png": true,
+  "source_resolution_limitation": "1536x1050 JPEG artwork is rendered into the larger lossless export; no native-detail increase is claimed.",
+  "protected_native_components_unchanged": 13,
+  "text_layout_validation": "passed",
+  "visual_review": "Revised normal-size card inspected against the supplied original: closer subject width/face/hand scale, top hair crop like the reference, complete face and both hands visible; stage column clear. High-resolution pixels change only inside the artwork window. Downsampled preview differences remain inside the artwork plus a three-pixel Lanczos antialias footprint.",
+  "publication_status": "Not integrated or published",
+  "artwork_enlargement": 1.35,
+  "all_non_artwork_svg_elements_identical": true,
+  "framing_revision": "2026-11-14-original-reference-size-135-percent",
+  "pixel_comparison": [
+    {
+      "size": "Preview",
+      "changed_bbox": [
+        12,
+        143,
+        1049,
+        854
+      ],
+      "outside_artwork_with_margin": {
+        "0": 4144,
+        "1": 1950,
+        "2": 294,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "size": "Lossless",
+      "changed_bbox": [
+        29,
+        292,
+        2093,
+        1703
+      ],
+      "outside_artwork_with_margin": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    }
+  ],
+  "native_source_sha256": "583749d9c852fc5acd3dc9fe68f3fc757f3154220b98130cc5972d006b563dac"
+}

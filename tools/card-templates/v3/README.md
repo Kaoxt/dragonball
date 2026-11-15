@@ -1,3 +1,14 @@
+## Cell Saga 161–190 completion — November 15, 2026
+
+The thirty supplied regular Starter Personalities complete Cell Saga 1–200.
+Preserve all exact native sources in `tools/card-templates/v3/cell-161-200/`,
+linked artwork, sixty lossless exports and printed Level/PUR/stages. Goku #162
+retains the user-selected illustration and uniform 35% enlargement. Android 17
+#180 uses AT +6 stages when The Car is in play. Cell Hi-Tech #191–200 remain
+unchanged. Evidence is in `tools/card-corrections/v3-cell-starters-161-190/`.
+The permanent deck IDs preserve the supplied order with Goku #162 appended
+last. Earlier audits use `pre-cell-starters-catalog.js` before Cell Games history.
+
 ## Cell Games Saga 101–125 — November 14, 2026
 
 The 25 supplied V3 cards complete the numbered Cell Games set through 125.

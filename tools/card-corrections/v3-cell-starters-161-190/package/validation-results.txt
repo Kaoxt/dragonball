@@ -1,0 +1,28 @@
+COMBINED PACKAGE VALIDATION — 2026-11-14
+
+Passed 21 tests: the 30-card release, all card-page routing, and deck-code tests.
+Passed 3 existing Cell Hi-Tech catalog, deck-slot and route regression tests.
+Passed 1 recent Cell Games catalog/deck-index preservation regression test.
+Total: 25 executed tests, 25 passed, zero failures.
+
+Passed syntax checks for catalog.js, code-card-ids.js and personality-power.js.
+Passed git apply --check --whitespace=error against the exact current baseline.
+Validated all seven retained historical integration snapshots and their hashes.
+The existing 1234 catalog records, 452 permanent deck IDs and all ten Cell
+Hi-Tech records remain unchanged. The result contains Cell Saga #1–200 once each.
+
+The package integrity check validates 30 native SVGs and all referenced assets,
+60 lossless VP8L WebP files, actual export dimensions, versioned catalog hashes,
+unique IDs and native stage values. Both Goku WebPs decode identically to their
+included PNG render. The other 29 cards retain their prior native-source,
+reference, linked-asset and export hashes byte-for-byte.
+
+The 30-card contact sheet was inspected; Goku #162 uses the approved enlarged
+revision. Earlier individual review/render notes remain in audit.json and
+source-cards.json. This packaging pass did not re-render or repeat individual
+visual audits of the other 29 cards.
+
+The complete repository test suite and Cloudflare deployment were not run.
+The local review checkout contains the source and assets needed for these
+targeted checks. Run all project-required checks in the full publishing checkout.
+No remote commit or live publication was made.
