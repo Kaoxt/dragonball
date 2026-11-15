@@ -143,7 +143,7 @@
  /* Deepen the logo-star red for the larger solid News button surface. */
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
-  background:#d0000a;border:1px solid #d0000a;color:#fff;box-shadow:none;
+  background:#a80008;border:1px solid #a80008;color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
