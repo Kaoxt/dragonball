@@ -3,18 +3,18 @@ import {catalog} from '../public/cards/catalog.js';
 
 const storageKey='dbocg:cards:filters:v1';
 
-test('Cards opens 60 cards and pagination, filters and refresh keep the URL state',async({page})=>{
+test('Cards opens 50 cards and pagination, filters and refresh keep the URL state',async({page})=>{
  await page.addInitScript(key=>localStorage.setItem(key,JSON.stringify({set:'Saiyan Saga',query:'goku',sort:'name'})),storageKey);
  await page.goto('/cards/');
  await expect(page.locator('#card-browser')).toBeVisible();
- await expect(page.locator('.catalog-card')).toHaveCount(60);
+ await expect(page.locator('.catalog-card')).toHaveCount(50);
  await expect(page.locator('#set')).toHaveValue('');
  expect(await page.evaluate(key=>localStorage.getItem(key),storageKey)).toBeNull();
  await page.locator('#pagination-top').getByRole('link',{name:'Page 2',exact:true}).click();
  await expect(page).toHaveURL(/\/cards\/\?page=2$/);
  const href=await page.locator('.catalog-card').first().getAttribute('href');
  await page.reload();
- await expect(page.locator('.catalog-card')).toHaveCount(60);
+ await expect(page.locator('.catalog-card')).toHaveCount(50);
  await expect(page.locator('.catalog-card').first()).toHaveAttribute('href',href);
  await page.locator('.catalog-card').first().click();
  await page.locator('#close-detail').click();
@@ -29,7 +29,7 @@ test('Cards opens 60 cards and pagination, filters and refresh keep the URL stat
  await page.locator('#clear').click();
  await expect(page.locator('#set')).toHaveValue('Frieza Saga');
  await page.getByRole('link',{name:'All cards',exact:true}).click();
- await expect(page.locator('.catalog-card')).toHaveCount(60);
+ await expect(page.locator('.catalog-card')).toHaveCount(50);
 });
 
 test('card links open directly, survive refresh and support Back, Forward and closing',async({page})=>{
@@ -52,7 +52,7 @@ test('card links open directly, survive refresh and support Back, Forward and cl
  await expect(page.locator('#card-detail')).toBeVisible();
  await page.locator('#close-detail').click();
  await expect(page).toHaveURL(/\/cards\/saiyan-saga\/$/);
- await expect(page.locator('.catalog-card')).toHaveCount(Math.min(60,catalog.filter(c=>c.set==='Saiyan Saga').length));
+ await expect(page.locator('.catalog-card')).toHaveCount(Math.min(50,catalog.filter(c=>c.set==='Saiyan Saga').length));
 });
 
 test('filters, Reset and sharing fallback work with restricted browser storage and clipboard',async({page})=>{
@@ -72,6 +72,6 @@ test('filters, Reset and sharing fallback work with restricted browser storage a
  await expect(page.locator('#card-detail')).not.toBeVisible();
  await page.locator('#clear').click();
  await expect(page.locator('#set')).toHaveValue('Frieza Saga');
- await expect(page.locator('.catalog-card')).toHaveCount(Math.min(60,catalog.filter(c=>c.set==='Frieza Saga').length));
+ await expect(page.locator('.catalog-card')).toHaveCount(Math.min(50,catalog.filter(c=>c.set==='Frieza Saga').length));
  expect(errors).toEqual([]);
 });

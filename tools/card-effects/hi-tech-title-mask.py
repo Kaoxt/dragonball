@@ -28,7 +28,7 @@ def signature(node):
             tuple(signature(child) for child in node))
 
 
-def components():
+def native_roots():
     cards = json.loads(subprocess.check_output([
         'node', '--input-type=module', '-e',
         "import {catalog} from './public/cards/catalog.js';"
@@ -43,6 +43,11 @@ def components():
         assert card['templateVersion'] == 3, card['id']
         roots.append(ET.parse(matches[0]).getroot())
     assert roots, 'No Hi-Tech native sources'
+    return cards, roots
+
+
+def components():
+    cards, roots = native_roots()
     ref = roots[0]
     # Check every card, not merely a representative from each set.
     for root in roots:
