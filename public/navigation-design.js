@@ -15,7 +15,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261114-news-link-hover-red';
+surfaces.href = '/surfaces-design.css?v=20261114-news-villain-red';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
