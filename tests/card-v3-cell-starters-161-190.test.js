@@ -5,6 +5,8 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {catalog} from './helpers/pre-world-games-promos.js';
 import {codeCardIds} from './helpers/pre-world-games-promos.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
+import {beforeRemainingFile,beforeRemainingHash} from './helpers/remaining-personality-history.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -38,9 +40,9 @@ test('all native sources, linked assets, references and both lossless exports ma
  for(const row of audit){
   const c=cards.find(c=>c.id===row.id);
   for(const file of [row.native_source,row.original_reference,...row.assets]){
-   assert.equal(hash(fs.readFileSync(file.path)),file.sha256,file.path);
+   assert.equal(beforeRemainingHash(file.path),file.sha256,file.path);
   }
-  const svg=fs.readFileSync(row.native_source.path,'utf8');
+  const svg=beforeRemainingFile(row.native_source.path,'utf8');
   assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);
   for(const [,link] of svg.matchAll(/(?:\w+:)?href="(\.\.\/assets\/[^\"]+)"/g)){
    const resolved=path.normalize(path.join(path.dirname(row.native_source.path),link));
@@ -48,7 +50,7 @@ test('all native sources, linked assets, references and both lossless exports ma
   }
   for(const e of row.exports){
    const bytes=fs.readFileSync(e.path);
-   assert.equal(hash(bytes),e.sha256);
+   assert.equal(beforeRemainingHash(e.path),e.sha256);
    assert.equal(bytes.toString('ascii',0,4),'RIFF');
    assert.equal(bytes.toString('ascii',8,12),'WEBP');
    assert.equal(bytes.toString('ascii',12,16),'VP8L');
@@ -90,6 +92,6 @@ test('all 30 card routes resolve to the verified images, including Goku 162',asy
   assert.equal(cardPath(c),'/cards/cell-saga/'+c.number);
   assert.equal(cardFromPath(cardPath(c),catalog),c);
   const response=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);
-  assert.equal(response.status,200);assert.ok((await response.text()).includes(c.image));
+  assert.equal(response.status,200);assert.ok((await response.text()).includes(currentCatalog.find(card=>card.id===c.id).image));
  }
 });

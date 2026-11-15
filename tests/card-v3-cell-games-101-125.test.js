@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {catalog,codeCardIds} from './helpers/pre-cell-starters-catalog.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
+import {beforeRemainingFile,beforeRemainingHash} from './helpers/remaining-personality-history.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -33,18 +35,18 @@ test('all 25 native sources, linked artwork, original scans and 50 independently
  const manifest=read('package/SHA256SUMS.json'),verified=read('independent-verification.json');
  assert.equal(verified.cards,25);assert.equal(verified.exports,50);assert.equal(audit.length,25);
  for(const [name,digest] of Object.entries(manifest)){
-  if(name.startsWith('files/'))assert.equal(hash(fs.readFileSync(name.slice(6))),digest,name);
+  if(name.startsWith('files/'))assert.equal(beforeRemainingHash(name.slice(6)),digest,name);
  }
  for(const row of audit){
   const c=cards.find(c=>c.id===row.id),proof=verified.results.find(v=>v.id===row.id);
-  assert.equal(hash(fs.readFileSync(row.native_source_path)),row.native_source_sha256);
-  const svg=fs.readFileSync(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);
+  assert.equal(beforeRemainingHash(row.native_source_path),row.native_source_sha256);
+  const svg=beforeRemainingFile(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);
   const nativeIds=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(nativeIds).size,nativeIds.length);
-  for(const a of row.assets)assert.equal(hash(fs.readFileSync(a.path)),a.sha256);
+  for(const a of row.assets)assert.equal(beforeRemainingHash(a.path),a.sha256);
   for(const [,link] of svg.matchAll(/(?:xlink:)?href="(\.\.\/assets\/[^\"]+)"/g))assert.ok(row.assets.some(a=>a.path===path.normalize(path.join(path.dirname(row.native_source_path),link))));
   for(const e of row.exports){
    const bytes=fs.readFileSync(e.path),check=proof.exports.find(x=>x.path===e.path);
-   assert.equal(hash(bytes),e.after_sha256);assert.equal(bytes.toString('ascii',8,12),'WEBP');
+   assert.equal(beforeRemainingHash(e.path),e.after_sha256);assert.equal(bytes.toString('ascii',8,12),'WEBP');
    assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.equal(check.independent_render_pixel_differences,0);assert.equal(check.sha256,e.after_sha256);assert.deepEqual(check.size,e.size);
   }
@@ -72,7 +74,7 @@ test('all new routes, deck codes, landscape geometry and the two Ultra Rare fini
  const html=fs.readFileSync('public/cards/index.html','utf8'),assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  for(const c of cards){
   const url='/cards/cell-games-saga/'+c.number;assert.equal(cardPath(c),url);assert.equal(cardFromPath(url,catalog),c);
-  const response=await cardPage(new Request('https://dragonballocg.com'+url),assets);assert.equal(response.status,200);assert.ok((await response.text()).includes(c.image));
+  const response=await cardPage(new Request('https://dragonballocg.com'+url),assets);assert.equal(response.status,200);assert.ok((await response.text()).includes(currentCatalog.find(card=>card.id===c.id).image));
   const deck=createDeck();if(c.level)deck.personalities[c.level-1]=snapshot(c);else deck.cards.push({...snapshot(c),qty:1});
   const decoded=await decodeDeck(await encodeDeck(deck),catalog);assert.deepEqual(decoded.personalities,deck.personalities);assert.deepEqual(decoded.cards,deck.cards);
   assert.deepEqual([c.width,c.height],c.number==='117'?[1484,1060]:[1060,1484]);

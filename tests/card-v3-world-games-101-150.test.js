@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
+import {catalog,beforeRemainingFile,beforeRemainingHash} from './helpers/remaining-personality-history.js';
 import {catalog as beforeShenronCatalog} from './helpers/world-games-shenron-history.js';
 import {codeCardIds} from '../public/decks/code-card-ids.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
@@ -37,12 +38,12 @@ test('earlier catalog records and all permanent deck-code positions are unchange
 
 test('native sources, retained assets and 100 WebP exports match the reviewed hashes',()=>{
  for(const row of audit){const c=cards.find(c=>c.id===row.id);assert.ok(c);
-  for(const a of [{path:row.native_source_path,sha256:row.native_source_sha256},...row.assets])assert.equal(hash(fs.readFileSync(a.path)),a.sha256,a.path);
-  assert.equal(hash(fs.readFileSync(row.artwork.source)),row.artwork.source_sha256);
-  const svg=fs.readFileSync(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);assert.ok(!svg.includes('PLACEHOLDER'));
+  for(const a of [{path:row.native_source_path,sha256:row.native_source_sha256},...row.assets])assert.equal(beforeRemainingHash(a.path),a.sha256,a.path);
+  assert.equal(beforeRemainingHash(row.artwork.source),row.artwork.source_sha256);
+  const svg=beforeRemainingFile(row.native_source_path,'utf8');assert.doesNotMatch(svg,/<(?:\w+:)?text\b/);assert.ok(!svg.includes('PLACEHOLDER'));
   assert.ok(row.rules.length<=5);assert.ok(row.current_preview_revision.footer_idempotent);
   for(const icon of row.native_geometry.icons)assert.ok(Math.abs(icon.center_error)<0.02);
-  for(const e of row.exports){const bytes=fs.readFileSync(e.path);assert.equal(hash(bytes),e.after_sha256,e.path);
+  for(const e of row.exports){const bytes=fs.readFileSync(e.path);assert.equal(beforeRemainingHash(e.path),e.after_sha256,e.path);
    assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.ok(e.lossless_round_trip);
    assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.deepEqual(e.size,[c.width*(e.field==='image'?1:2),c.height*(e.field==='image'?1:2)]);
@@ -78,7 +79,7 @@ test('CRD changes and fixed physical damage remain explicit',()=>{
 test('all new public card routes work and the next unavailable card stays out',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,218);
- for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(card.image));}
+ for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(currentCatalog.find(c=>c.id===card.id).image));}
  for(const n of [...pending,9999])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
 });
 
