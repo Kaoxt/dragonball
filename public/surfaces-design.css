@@ -140,10 +140,10 @@
  html[data-site-design=v2] body.home-page main button.news-load-more:hover:not(:disabled) {
   background:#33383d;border-color:#65717a;color:#fff;box-shadow:none;transform:none;
  }
- /* News expand controls share the site's red link-hover color. */
+ /* Match the main red sampled from the supplied Villain card banner. */
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more,
  html[data-site-design=v2] body.home-page main .news-post .post-actions button.read-more:hover:not(:disabled) {
-  background:var(--site-nav-red,#c14954);border:1px solid var(--site-nav-red,#c14954);color:#fff;box-shadow:none;
+  background:#b50d1b;border:1px solid #b50d1b;color:#fff;box-shadow:none;
  }
  html[data-site-design=v2] body.home-page main .news-post .post-actions :is(button.read-more,a):focus-visible,
  html[data-site-design=v2] body.home-page main button.news-load-more:focus-visible {
