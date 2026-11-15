@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-15",
+  "kind": "new-cards",
+  "set": "World Games Saga",
+  "numbers": [
+    "201",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10",
+    "PR1",
+    "PR2",
+    "PR3",
+    "PR4",
+    "PR5",
+    "PR6",
+    "PR7"
+  ],
+  "card_ids": [
+    "world-games-201-videl",
+    "world-games-p1-celestial-battleground",
+    "world-games-p2-chi-chi",
+    "world-games-p3-heroic-block",
+    "world-games-p4-huh",
+    "world-games-p5-majins-perfect-defense",
+    "world-games-p6-quick-recovery-drill",
+    "world-games-p7-red-pressured-attack",
+    "world-games-p8-saiyan-crush",
+    "world-games-p9-tapkar-on-the-move",
+    "world-games-p10-videls-battle-ready",
+    "world-games-pr1-face-off",
+    "world-games-pr2-righteous-strike",
+    "world-games-pr3-evils-true-face",
+    "world-games-pr4-energy-drain",
+    "world-games-pr5-supreme-kais-power-hold",
+    "world-games-pr6-supreme-kai",
+    "world-games-pr7-majin-vegeta-the-dark-prince"
+  ],
+  "export_count": 36,
+  "baseline_commit": "9220138b1e3d6d5a346044da08a253b06d6cc822",
+  "baseline_catalog_count": 1264,
+  "baseline_catalog_canonical_sha256": "8ccd29a41dbccf5501a54f627c695290852505078291b65703844f2c7b4f9213",
+  "baseline_code_id_count": 482,
+  "resulting_world_games_count": 218,
+  "integration_files": [
+    {
+      "path": "public/cards/catalog.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/public/cards/catalog.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "60274ae4b919db58fd21dc4bf46d8f730cd8556568f343b416755ad73bf7eb62",
+      "after_sha256": "77bac48801572faa90001fca9e5229655d1793a0f4ab899a3f687a82711bf188"
+    },
+    {
+      "path": "public/decks/code-card-ids.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/public/decks/code-card-ids.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "cf96372e5d96f013a60646a6b2a744c973ceff4405c5c1ea42fd638a701d38ed",
+      "after_sha256": "a4e2c8fb1339be2e43dd38c6f0aff982d6f815315c7d27ff2cc6c2d4f58c0a93"
+    },
+    {
+      "path": "public/personality-power.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/public/personality-power.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "e000f5876c5b732120cae105d3c24d630729c5de6e39216db65b7c2847cec211",
+      "after_sha256": "5bee209a3527e1442ed9d76d1049566927086e8e0210316d04b17de62e1b5965"
+    },
+    {
+      "path": "package.json",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/package.json.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "7a440bd332c5184ac0b524634ebb1b0cd6426db593150e12730c7b7e4aac974e",
+      "after_sha256": "3ce962a704ef88634e400e4aef2541345e8d61c66aaaca2dfcf469a3f8d9e1f1"
+    },
+    {
+      "path": "tests/helpers/pre-cell-starters-catalog.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/helpers/pre-cell-starters-catalog.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "30eceaade599c954a4d002bcd6b23ea0ddc94bed181ee660c5e14bc22b7337aa",
+      "after_sha256": "9fb3246d92ee6b8d193db7981161ae6b0d91549d67352e1048f9acbf6c77ab90"
+    },
+    {
+      "path": "tests/card-v3-cell-starters-161-190.test.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/card-v3-cell-starters-161-190.test.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "a04b0b7ce225e3f3d28339fdb1dcc4db160889f481025d114f87f4e6590c652b",
+      "after_sha256": "625eabc0b8493441664b256ce37457fbb7fd50c5c96a46e26cbe72614599a243"
+    },
+    {
+      "path": "tests/card-v3-world-games-151-200.test.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/card-v3-world-games-151-200.test.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "afdab19342ae346b6795064d709e3aec5b4cefa647c69aa737390735634dfc81",
+      "after_sha256": "97d942a303d5e2532d2010512f1148800c30cbd1a1c8f0d45b10ff0a4c7145a6"
+    }
+  ],
+  "source_package": {
+    "url": "https://drive.google.com/file/d/1ok4_F5R0QjjR_lKV3fksrYtrc3ms4ZWp/view",
+    "filename": "World-Games-Promos-and-Videl-201-Codex-Handoff.zip",
+    "sha256": "5b57964d65c7ee85d9db348b5963555ab808233f23883f7efebccb7576da6e07"
+  },
+  "preservation": "All supplied native SVGs, linked artwork, audits and 36 lossless exports remain byte-identical. Previous 1264 catalog records and 482 permanent deck-code positions remain unchanged. Preview PR numbering and source provenance are retained. Four explicit charts include Supreme Kai zero followed by eleven Z stages. Shared Hi-Tech masks remain unchanged."
+}

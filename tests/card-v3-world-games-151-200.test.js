@@ -73,7 +73,7 @@ test('all ready routes work and pending cards remain unavailable',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,200);
  for(const c of cards){assert.equal(cardFromPath(cardPath(c),catalog),c);const p=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);assert.equal(p.status,200);assert.ok((await p.text()).includes(currentCatalog.find(card=>card.id===c.id).image));}
- for(const n of [...pending,201])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
+ for(const n of [...pending,202])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
 });
 test('all cards round-trip through deck codes in their appropriate zones',async()=>{
  const deck=createDeck();deck.name='World Games 151–200';deck.cards=cards.filter(c=>!isHiTechPersonality(c)).map(c=>({...snapshot(c),qty:1}));assert.deepEqual((await decodeDeck(await encodeDeck(deck),catalog)).cards,deck.cards);

@@ -1,3 +1,13 @@
+## World Games Videl 201, promos and previews — November 15, 2026
+
+Preserve the 18 exact supplied native sources and 36 lossless exports in
+`world-games-201-promos`, including landscape P1 and Hi-Tech Videl 201.
+P1–P10 and PR1–PR7 are distinct World Games numbers; retain sourceNumber and
+subset provenance. Supreme Kai PR6 has zero followed by eleven string Z stages
+in Arena. Videl uses the existing corrected Hi-Tech title mask. Historical
+audits start with `pre-world-games-promos.js` before the Cell starter history.
+Publication evidence is in `tools/card-corrections/v3-world-games-201-promos/`.
+
 ## Cell Saga 161–190 completion — November 15, 2026
 
 The thirty supplied regular Starter Personalities complete Cell Saga 1–200.

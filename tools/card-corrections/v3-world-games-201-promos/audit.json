@@ -1,0 +1,4131 @@
+[
+  {
+    "number": "201",
+    "id": "world-games-201-videl",
+    "name": "Videl",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-201-videl.svg",
+    "native_source_sha256": "7b2219e3429a245d720ba31723ee9641499cca73ea8e145d038eb8edc717df4b",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/021d25d0942d2936b023cd3b1ee93e2b9855d2e9e1c386848a574d8dadf220b7.png",
+        "sha256": "021d25d0942d2936b023cd3b1ee93e2b9855d2e9e1c386848a574d8dadf220b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d979ff730eca0eb409610235e53976a4a4f385ca9c06246ce3ace23b0a4266ca.png",
+        "sha256": "d979ff730eca0eb409610235e53976a4a4f385ca9c06246ce3ace23b0a4266ca"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/201-background.png",
+      "source_sha256": "021d25d0942d2936b023cd3b1ee93e2b9855d2e9e1c386848a574d8dadf220b7",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        0,
+        0.0,
+        1060,
+        1484.0
+      ]
+    },
+    "rules": [
+      {
+        "text": "Focused physical attack.",
+        "baseline": 1049.3,
+        "width": 496.13415554385944,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 3 stages. Raise your anger",
+        "baseline": 1108.3,
+        "width": 635.971,
+        "icon_inline": false
+      },
+      {
+        "text": "1 level. HIT: Raise your anger 1 level.",
+        "baseline": 1167.3,
+        "width": 638.6170000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          941.526,
+          160.009,
+          89.474,
+          38.269
+        ],
+        "power-stage-value-1": [
+          967.594,
+          224.691,
+          63.406,
+          31.164
+        ],
+        "power-stage-value-2": [
+          967.545,
+          289.373,
+          63.455,
+          31.164
+        ],
+        "power-stage-value-3": [
+          970.24,
+          354.054,
+          60.76,
+          31.164
+        ],
+        "power-stage-value-4": [
+          967.888,
+          418.736,
+          63.112,
+          31.164
+        ],
+        "power-stage-value-5": [
+          968.182,
+          483.418,
+          62.818,
+          31.164
+        ],
+        "power-stage-value-6": [
+          966.271,
+          548.1,
+          64.729,
+          31.164
+        ],
+        "power-stage-value-7": [
+          968.182,
+          612.782,
+          62.818,
+          31.164
+        ],
+        "power-stage-value-8": [
+          968.868,
+          677.463,
+          62.132,
+          31.164
+        ],
+        "power-stage-value-9": [
+          974.748,
+          742.145,
+          56.252,
+          31.164
+        ],
+        "power-stage-value-10": [
+          1012.53,
+          806.827,
+          18.473,
+          31.164
+        ],
+        "card-title": [
+          455.08,
+          50.2213,
+          148.84,
+          57.5574
+        ],
+        "v3-level-number": [
+          76.863,
+          25.15,
+          52.274,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          92.1918,
+          876.0,
+          35.6164,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          788.333,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          848.133,
+          1392.65,
+          58.035,
+          33.708
+        ],
+        "rules-line-1": [
+          336.812,
+          1013.53,
+          439.971,
+          45.521
+        ],
+        "power-icon": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          212.779,
+          1072.53,
+          633.443,
+          45.913
+        ],
+        "rules-line-3": [
+          211.196,
+          1131.53,
+          636.608,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "F",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            336.812,
+            1015.0,
+            17.934,
+            34.3
+          ],
+          "new_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-201-videl.webp",
+        "after_sha256": "a0b058a3f00bfee76db98c90c6c6eb46e7663966d56754bb365a48af6598845f",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-201-videl.webp",
+        "after_sha256": "3d83f093ce07ee35867b8949f565ba7a0dd1a2dc32d5ae00d27e476a56a1f34a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 148.8403990024938,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 4
+  },
+  {
+    "number": "P1",
+    "id": "world-games-p1-celestial-battleground",
+    "name": "Celestial Battleground",
+    "family": "BATTLEGROUND",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p1-celestial-battleground.svg",
+    "native_source_sha256": "5816cc64ff748175cab6bc0c0348219d3c11dfb102a5631eb914a05d9a159b29",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+        "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/eb3f7b623142a652051028303c77bd633e7eaebfe73503b00ad3fff5b1d74675.png",
+        "sha256": "eb3f7b623142a652051028303c77bd633e7eaebfe73503b00ad3fff5b1d74675"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+        "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P1.png",
+      "source_sha256": "eb3f7b623142a652051028303c77bd633e7eaebfe73503b00ad3fff5b1d74675",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        16,
+        145.0,
+        1451,
+        483.6666666666667
+      ]
+    },
+    "rules": [
+      {
+        "text": "All focused attacks do +1 stage and +1 life card of damage.",
+        "baseline": 845.483333333333,
+        "width": 1101.5027499999999,
+        "icon_inline": true
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          407.34,
+          44.5,
+          668.319,
+          69.0
+        ],
+        "card-category": [
+          499.578,
+          668.057,
+          483.844,
+          34.2188
+        ],
+        "footer-text-block": [
+          546.3,
+          958.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          250.12,
+          954.354,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          1139.14,
+          961.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          1198.94,
+          968.646,
+          34.821,
+          33.708
+        ],
+        "rules-line-1": [
+          257.785,
+          809.713,
+          1033.68,
+          45.913
+        ],
+        "power-icon": [
+          191.533,
+          816.543,
+          53.5938,
+          23.5812
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "A",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            191.533,
+            818.686,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            257.785,
+            811.183,
+            22.3226,
+            34.3
+          ],
+          "new_visible_bounds": [
+            191.533,
+            818.686,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -9.999999997489795e-05,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p1-celestial-battleground.webp",
+        "after_sha256": "ec4694386176dd5965dd1f1ed63691716bd00985d9c197f1f770bd67224f3da3",
+        "size": [
+          1484,
+          1060
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p1-celestial-battleground.webp",
+        "after_sha256": "63c8c1c663af9f9bc9fe5e5505fbbcaf76c2c1e2a11222f7bed4cad2295b2ce3",
+        "size": [
+          2968,
+          2120
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "max_width": 1184,
+        "visible_center": [
+          741.5,
+          79
+        ]
+      },
+      "middle_label": {
+        "retained_fixed_landscape_component": true
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P2",
+    "id": "world-games-p2-chi-chi",
+    "name": "Chi-Chi",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p2-chi-chi.svg",
+    "native_source_sha256": "8be5140a86bcb6a2bef67714bdea5cdf72e290cca97523fce3c9f66861108ac5",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2f0280acb915c7f37e4e7300c1313e97f03ff263c199fb048d56092ee5bce560.png",
+        "sha256": "2f0280acb915c7f37e4e7300c1313e97f03ff263c199fb048d56092ee5bce560"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P2.png",
+      "source_sha256": "2f0280acb915c7f37e4e7300c1313e97f03ff263c199fb048d56092ee5bce560",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Focused physical attack.",
+        "baseline": 1049.3,
+        "width": 496.13415554385944,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 3 stages. If Goten is in play, you",
+        "baseline": 1108.3,
+        "width": 726.278,
+        "icon_inline": false
+      },
+      {
+        "text": "may use this power twice per Combat.",
+        "baseline": 1167.3,
+        "width": 679.042,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          934.666,
+          160.009,
+          96.334,
+          38.269
+        ],
+        "power-stage-value-1": [
+          935.646,
+          224.691,
+          95.354,
+          38.269
+        ],
+        "power-stage-value-2": [
+          934.96,
+          289.373,
+          96.04,
+          38.269
+        ],
+        "power-stage-value-3": [
+          933.735,
+          354.054,
+          97.265,
+          38.269
+        ],
+        "power-stage-value-4": [
+          933.049,
+          418.736,
+          97.951,
+          38.269
+        ],
+        "power-stage-value-5": [
+          935.646,
+          483.418,
+          95.354,
+          38.269
+        ],
+        "power-stage-value-6": [
+          934.96,
+          548.1,
+          96.04,
+          38.269
+        ],
+        "power-stage-value-7": [
+          936.332,
+          612.782,
+          94.668,
+          38.269
+        ],
+        "power-stage-value-8": [
+          935.646,
+          677.463,
+          95.354,
+          38.269
+        ],
+        "power-stage-value-9": [
+          942.212,
+          742.145,
+          88.788,
+          38.269
+        ],
+        "power-stage-value-10": [
+          1012.53,
+          806.827,
+          18.473,
+          31.164
+        ],
+        "card-title": [
+          422.903,
+          50.2213,
+          213.195,
+          57.5574
+        ],
+        "v3-level-number": [
+          76.863,
+          25.15,
+          52.274,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          81.2649,
+          876.0,
+          57.4701,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          796.15,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.95,
+          1392.65,
+          42.4,
+          33.708
+        ],
+        "rules-line-1": [
+          336.812,
+          1013.53,
+          439.971,
+          45.521
+        ],
+        "power-icon": [
+          282.217,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          168.37,
+          1072.53,
+          722.26,
+          45.913
+        ],
+        "rules-line-3": [
+          191.669,
+          1131.53,
+          675.661,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "F",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            336.812,
+            1015.0,
+            17.934,
+            34.3
+          ],
+          "new_visible_bounds": [
+            282.217,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p2-chi-chi.webp",
+        "after_sha256": "9907e79408e807783cdeacced11e4cf28ed01bc2e998bf7c38b1ae5df36d391f",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p2-chi-chi.webp",
+        "after_sha256": "64c5a0a086bbc141581937d7e7026bf428694447555bff61c4848d881a3de56a",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 213.19451371571074,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P3",
+    "id": "world-games-p3-heroic-block",
+    "name": "Heroic Block",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p3-heroic-block.svg",
+    "native_source_sha256": "df0fc13b07112531a6f9ac6f7ab14ea6d940e0a860cfffee44f2a5f47d25810f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/cd6e62ea497bb785289b381b43240fc2dcb5a17670fcaa19e6885cc7f69b5ef9.png",
+        "sha256": "cd6e62ea497bb785289b381b43240fc2dcb5a17670fcaa19e6885cc7f69b5ef9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P3.png",
+      "source_sha256": "cd6e62ea497bb785289b381b43240fc2dcb5a17670fcaa19e6885cc7f69b5ef9",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Sensei Deck. Stops a physical or energy attack",
+        "baseline": 1049.3,
+        "width": 882.7559473684211,
+        "icon_inline": true
+      },
+      {
+        "text": "performed by a Majin, including",
+        "baseline": 1108.3,
+        "width": 555.5620000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "focused attacks. Banish after use.",
+        "baseline": 1167.3,
+        "width": 610.54,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          339.363,
+          50.2213,
+          380.274,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          796.071,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.87,
+          1392.65,
+          42.559,
+          33.708
+        ],
+        "rules-line-1": [
+          89.2735,
+          1013.53,
+          880.453,
+          45.913
+        ],
+        "power-icon": [
+          325.939,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "rules-line-2": [
+          253.532,
+          1072.53,
+          551.936,
+          45.913
+        ],
+        "rules-line-3": [
+          225.455,
+          1131.53,
+          608.09,
+          36.162
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "S",
+          "capital_glyph_index": 11,
+          "previous_visible_bounds": [
+            325.939,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            376.63,
+            1014.61,
+            19.257,
+            35.084
+          ],
+          "new_visible_bounds": [
+            325.939,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.0019999999999527063,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p3-heroic-block.webp",
+        "after_sha256": "16c622718b060dd3d53e8c0e2c5c8ff18867d9030ae3c447f5538182a3ca30d4",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p3-heroic-block.webp",
+        "after_sha256": "fe0eba6845113fbeb81f0fcdc1263e82b660a64edc711ae8d3a503ba3111c638",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 380.2743142144639,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "block",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P4",
+    "id": "world-games-p4-huh",
+    "name": "HUH???",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p4-huh.svg",
+    "native_source_sha256": "1942245efe671e638a89ae36fba40aded168decb922d486fe2fb4ae58a8ee567",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/0c7601737dda6d15ec2575c52323f079db09e60156c783628eed0924b293cd1f.png",
+        "sha256": "0c7601737dda6d15ec2575c52323f079db09e60156c783628eed0924b293cd1f"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P4.png",
+      "source_sha256": "0c7601737dda6d15ec2575c52323f079db09e60156c783628eed0924b293cd1f",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "(Limit 1 per deck.) Sensei Deck only.",
+        "baseline": 1049.3,
+        "width": 640.136,
+        "icon_inline": false
+      },
+      {
+        "text": "POWER: Banish a Dragon Ball",
+        "baseline": 1108.3,
+        "width": 509.992,
+        "icon_inline": false
+      },
+      {
+        "text": "in play. Banish after use.",
+        "baseline": 1167.3,
+        "width": 439.481,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          414.815,
+          51.6409,
+          229.369,
+          54.7182
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          794.428,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          854.227,
+          1392.65,
+          45.845,
+          33.708
+        ],
+        "rules-line-1": [
+          210.241,
+          1012.11,
+          638.519,
+          46.942
+        ],
+        "rules-line-2": [
+          276.391,
+          1072.53,
+          506.219,
+          45.913
+        ],
+        "rules-line-3": [
+          311.279,
+          1131.53,
+          436.443,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p4-huh.webp",
+        "after_sha256": "748c511bf1e014c113f519e780f9d15a54535496d2a5c45d878b0f7d424dbd2b",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p4-huh.webp",
+        "after_sha256": "764a8b579a98739ae8ab8307667e187dce4fa7bd5bf85a1ba76eb13908335fb0",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 229.3690773067332,
+        "visible_height": 54.71820448877806,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 2
+  },
+  {
+    "number": "P5",
+    "id": "world-games-p5-majins-perfect-defense",
+    "name": "Majin's Perfect Defense",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p5-majins-perfect-defense.svg",
+    "native_source_sha256": "b7b91d4c8639b367fee869077db5d72b25211a3f4af7ed2ab3a0703e69b6c5b8",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d065f6f5df1c9c878a2377a5b11dca3ff81c479eb7632465cc87eea7aad9bc1b.png",
+        "sha256": "d065f6f5df1c9c878a2377a5b11dca3ff81c479eb7632465cc87eea7aad9bc1b"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P5.png",
+      "source_sha256": "d065f6f5df1c9c878a2377a5b11dca3ff81c479eb7632465cc87eea7aad9bc1b",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        146.73271889400922,
+        1033,
+        704.5345622119816
+      ]
+    },
+    "rules": [
+      {
+        "text": "Majin only. Stops a physical or energy attack,",
+        "baseline": 1049.3,
+        "width": 854.335947368421,
+        "icon_inline": true
+      },
+      {
+        "text": "including focused attacks. Banish after use.",
+        "baseline": 1108.3,
+        "width": 782.432,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          172.627,
+          44.5,
+          713.746,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          795.488,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.288,
+          1392.65,
+          43.725,
+          33.708
+        ],
+        "rules-line-1": [
+          104.157,
+          1013.53,
+          850.687,
+          45.913
+        ],
+        "power-icon": [
+          301.377,
+          1015.0,
+          37.3689,
+          34.3
+        ],
+        "rules-line-2": [
+          139.803,
+          1072.53,
+          779.394,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "S",
+          "capital_glyph_index": 10,
+          "previous_visible_bounds": [
+            301.377,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            352.069,
+            1014.61,
+            19.257,
+            35.084
+          ],
+          "new_visible_bounds": [
+            301.377,
+            1015.0,
+            37.3689,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.0019999999999527063,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p5-majins-perfect-defense.webp",
+        "after_sha256": "59080701fd0e6a5acb5340d5785673101c1e9c54fed03e5ddeaf5081be643de6",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p5-majins-perfect-defense.webp",
+        "after_sha256": "c81785bc9a4c389cb5c77b083c151ef8731a20c61093dab9897a7471480de5e9",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 713.7456359102246,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "block",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P6",
+    "id": "world-games-p6-quick-recovery-drill",
+    "name": "Quick Recovery Drill",
+    "family": "DRILL",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p6-quick-recovery-drill.svg",
+    "native_source_sha256": "4a79195a46773b3e4d391498f42c5f1e5f8d94c54c6805ee00267ead170fa925",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/259c8adaebd04c14c2313cfa0e5f131598b2022ddd981b8c496d886cf127feff.png",
+        "sha256": "259c8adaebd04c14c2313cfa0e5f131598b2022ddd981b8c496d886cf127feff"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P6.png",
+      "source_sha256": "259c8adaebd04c14c2313cfa0e5f131598b2022ddd981b8c496d886cf127feff",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Sensei Deck. When entering Combat, you",
+        "baseline": 1049.3,
+        "width": 790.93575,
+        "icon_inline": true
+      },
+      {
+        "text": "may banish the bottom card of your opponent's",
+        "baseline": 1108.3,
+        "width": 839.272,
+        "icon_inline": false
+      },
+      {
+        "text": "discard pile. If it is Freestyle, gain 3 stages.",
+        "baseline": 1167.3,
+        "width": 773.122,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          228.335,
+          44.5,
+          602.33,
+          69.0
+        ],
+        "card-category": [
+          448.339,
+          891.991,
+          162.322,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.182,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          135.625,
+          1013.53,
+          787.751,
+          45.913
+        ],
+        "power-icon": [
+          372.29,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          111.187,
+          1072.53,
+          836.626,
+          45.521
+        ],
+        "rules-line-3": [
+          144.483,
+          1131.53,
+          770.035,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "W",
+          "capital_glyph_index": 11,
+          "previous_visible_bounds": [
+            372.29,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            438.863,
+            1015.0,
+            31.7651,
+            34.3
+          ],
+          "new_visible_bounds": [
+            372.29,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p6-quick-recovery-drill.webp",
+        "after_sha256": "f0c5d58da1b9b4aa89b12a5283f8e97f2e26bc2f43a2a4621712e858e417c72a",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p6-quick-recovery-drill.webp",
+        "after_sha256": "620edf882375fe6755697b934a128bfe27fa8085a17f29a037c2f69dadf48173",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 602.3304239401497,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "DRILL",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          162.321775,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P7",
+    "id": "world-games-p7-red-pressured-attack",
+    "name": "Red Pressured Attack",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p7-red-pressured-attack.svg",
+    "native_source_sha256": "76fc0ff2e85d3f399542871e6a0e5a7ab9b082bfdfa37f25df3c9573db477080",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/e836b29468c6ceb9a0bdda555c566d38a699e34de6e6797c9b670f30866db4d1.png",
+        "sha256": "e836b29468c6ceb9a0bdda555c566d38a699e34de6e6797c9b670f30866db4d1"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P7.png",
+      "source_sha256": "e836b29468c6ceb9a0bdda555c566d38a699e34de6e6797c9b670f30866db4d1",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Sensei Deck. Physical attack.",
+        "baseline": 1049.3,
+        "width": 576.3421555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: AT +3 stages. If you declared",
+        "baseline": 1108.3,
+        "width": 679.5320000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "a Tokui Waza and your opponent",
+        "baseline": 1167.3,
+        "width": 578.2,
+        "icon_inline": false
+      },
+      {
+        "text": "declared Orange Tokui Waza, discard all",
+        "baseline": 1226.3,
+        "width": 711.529,
+        "icon_inline": false
+      },
+      {
+        "text": "Drills in play. Banish after use.",
+        "baseline": 1285.3,
+        "width": 539.8820000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          205.363,
+          50.2213,
+          648.273,
+          57.5574
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          796.707,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          856.506,
+          1392.65,
+          41.287,
+          33.708
+        ],
+        "rules-line-1": [
+          242.774,
+          1013.53,
+          573.451,
+          45.521
+        ],
+        "power-icon": [
+          479.439,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          191.743,
+          1073.61,
+          675.514,
+          44.835
+        ],
+        "rules-line-3": [
+          241.429,
+          1131.53,
+          576.142,
+          45.521
+        ],
+        "rules-line-4": [
+          175.328,
+          1190.53,
+          708.344,
+          45.913
+        ],
+        "rules-line-5": [
+          261.421,
+          1249.53,
+          536.158,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 11,
+          "previous_visible_bounds": [
+            479.439,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            533.986,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            479.439,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p7-red-pressured-attack.webp",
+        "after_sha256": "55fbca719ea1c5623bc387a56c4ed517aaeeb6fbb6baaedf4beb0901809d1f08",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p7-red-pressured-attack.webp",
+        "after_sha256": "8bc8205feba12cc1b7d6cbdc293b094d879d8922674b6eb8a2f2f4e8df8b0b10",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 648.2730673316709,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P8",
+    "id": "world-games-p8-saiyan-crush",
+    "name": "Saiyan Crush",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p8-saiyan-crush.svg",
+    "native_source_sha256": "9dd49a1695b4fac8e6c0a688f3991cca1672e3950ff9af7113353db4f4368ac8",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/f497b12c622ead89a54d2f6ec3e5be79e84e71a9866c484647e6a23ef9a658d9.png",
+        "sha256": "f497b12c622ead89a54d2f6ec3e5be79e84e71a9866c484647e6a23ef9a658d9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P8.png",
+      "source_sha256": "f497b12c622ead89a54d2f6ec3e5be79e84e71a9866c484647e6a23ef9a658d9",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Physical attack. DAMAGE: 1 stage per Setup",
+        "baseline": 1049.3,
+        "width": 816.2021555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "or Drill your opponent has in play; 2 stages",
+        "baseline": 1108.3,
+        "width": 756.805,
+        "icon_inline": false
+      },
+      {
+        "text": "per card instead if you declared a Tokui Waza.",
+        "baseline": 1167.3,
+        "width": 823.445,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          334.846,
+          44.5,
+          389.308,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.182,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          176.68,
+          1013.53,
+          760.186,
+          45.913
+        ],
+        "power-icon": [
+          122.134,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          152.274,
+          1072.53,
+          754.453,
+          45.913
+        ],
+        "rules-line-3": [
+          119.566,
+          1131.53,
+          819.868,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            122.134,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            176.68,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            122.134,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p8-saiyan-crush.webp",
+        "after_sha256": "0e93e5d922546b5233dcafe5b4c78c2c70439cc9f563b838def506f587295065",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p8-saiyan-crush.webp",
+        "after_sha256": "8091d196327ecc95e3bec4e679a68d67dc48b812f6a53d17d77ba129dfea9e5b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 389.30798004987537,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P9",
+    "id": "world-games-p9-tapkar-on-the-move",
+    "name": "Tapkar on the Move",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p9-tapkar-on-the-move.svg",
+    "native_source_sha256": "8aa93602ce57b4201a5deaaaf037f0164d7c3ac820642d73488c6e09b75f0586",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/b14dd9d55ecbdf23c736638b87ed4650feef2b8335bd75268ed6fffad8e0e1cf.png",
+        "sha256": "b14dd9d55ecbdf23c736638b87ed4650feef2b8335bd75268ed6fffad8e0e1cf"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P9.png",
+      "source_sha256": "b14dd9d55ecbdf23c736638b87ed4650feef2b8335bd75268ed6fffad8e0e1cf",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Tapkar only. Physical attack.",
+        "baseline": 1049.3,
+        "width": 572.0791555438593,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 1 stage per card in",
+        "baseline": 1108.3,
+        "width": 490.04900000000015,
+        "icon_inline": false
+      },
+      {
+        "text": "your Banished pile. Banish after use.",
+        "baseline": 1167.3,
+        "width": 649.1030000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          236.035,
+          44.5,
+          586.93,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          795.594,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.394,
+          1392.65,
+          43.513,
+          33.708
+        ],
+        "rules-line-1": [
+          244.832,
+          1013.53,
+          569.335,
+          45.521
+        ],
+        "power-icon": [
+          477.381,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          286.386,
+          1072.53,
+          486.227,
+          45.913
+        ],
+        "rules-line-3": [
+          206.051,
+          1131.53,
+          646.898,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 11,
+          "previous_visible_bounds": [
+            477.381,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            531.928,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            477.381,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p9-tapkar-on-the-move.webp",
+        "after_sha256": "779a3532051b05619a761aff84189ea657e6e45b2b24d796d8846b449f9bd2c5",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p9-tapkar-on-the-move.webp",
+        "after_sha256": "98cc1029892f3dbe0b50d3d4dcac6310d256b4381128ed8595d55776b3e05d78",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 586.9301745635911,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 2
+  },
+  {
+    "number": "P10",
+    "id": "world-games-p10-videls-battle-ready",
+    "name": "Videl's Battle Ready",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-p10-videls-battle-ready.svg",
+    "native_source_sha256": "a7b93c5b4994acad09c18508d89ce0f55602d4d320577e56fb5f58ef51c99758",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4a4692b1e8be9e838e577d7b51153ca56df661e77dbe3758825925277b7c179a.png",
+        "sha256": "4a4692b1e8be9e838e577d7b51153ca56df661e77dbe3758825925277b7c179a"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/P10.png",
+      "source_sha256": "4a4692b1e8be9e838e577d7b51153ca56df661e77dbe3758825925277b7c179a",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Videl only. Physical attack.",
+        "baseline": 1049.3,
+        "width": 533.6631555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: AT +5 stages; AT +8 stages",
+        "baseline": 1108.3,
+        "width": 643.419,
+        "icon_inline": false
+      },
+      {
+        "text": "instead against a Villain Main Personality.",
+        "baseline": 1167.3,
+        "width": 738.822,
+        "icon_inline": false
+      },
+      {
+        "text": "Lower your opponent's anger 3 levels.",
+        "baseline": 1226.3,
+        "width": 673.799,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          227.173,
+          44.5,
+          604.653,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          787.67,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.47,
+          1392.65,
+          59.36,
+          33.708
+        ],
+        "rules-line-1": [
+          263.991,
+          1013.53,
+          531.017,
+          45.521
+        ],
+        "power-icon": [
+          458.222,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          209.285,
+          1073.36,
+          640.43,
+          45.08
+        ],
+        "rules-line-3": [
+          161.608,
+          1131.53,
+          735.784,
+          45.913
+        ],
+        "rules-line-4": [
+          194.463,
+          1192.0,
+          670.075,
+          44.443
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 10,
+          "previous_visible_bounds": [
+            458.222,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            512.769,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            458.222,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-p10-videls-battle-ready.webp",
+        "after_sha256": "25440ba33a7c6e524a6cc2ed839ca8c64e3a41e4b835ec1294a1473723832162",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-p10-videls-battle-ready.webp",
+        "after_sha256": "49a75899d4a662b50b57c9d8a025168b0df4191ebace1b3b9df32f5889ca6b87",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 604.6533665835412,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 2
+  },
+  {
+    "number": "PR1",
+    "id": "world-games-pr1-face-off",
+    "name": "Face Off",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr1-face-off.svg",
+    "native_source_sha256": "a34d0b636f153deb500e8d0ce920ab2ce8b49b3701272ddd8019ca49e2e2186a",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/07ddaad253971728c7f02823cf0af37f0221c255a2dd2a91c12ea9742a3b544f.png",
+        "sha256": "07ddaad253971728c7f02823cf0af37f0221c255a2dd2a91c12ea9742a3b544f"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR1.png",
+      "source_sha256": "07ddaad253971728c7f02823cf0af37f0221c255a2dd2a91c12ea9742a3b544f",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Goku or Majin Vegeta only. Use when entering",
+        "baseline": 1049.3,
+        "width": 805.609,
+        "icon_inline": false
+      },
+      {
+        "text": "Combat. Allies and Events cannot be played",
+        "baseline": 1108.3,
+        "width": 771.554,
+        "icon_inline": false
+      },
+      {
+        "text": "or used this Combat. Raise Goku and Majin Vegeta",
+        "baseline": 1167.3,
+        "width": 882.147,
+        "icon_inline": false
+      },
+      {
+        "text": "to their highest stages. Raise your anger 1 level.",
+        "baseline": 1226.3,
+        "width": 850.199,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          407.675,
+          50.2213,
+          243.651,
+          57.5574
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          787.511,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.311,
+          1392.65,
+          59.678,
+          33.708
+        ],
+        "rules-line-1": [
+          128.337,
+          1013.53,
+          802.326,
+          45.913
+        ],
+        "rules-line-2": [
+          145.487,
+          1072.53,
+          768.026,
+          45.521
+        ],
+        "rules-line-3": [
+          89.9455,
+          1131.53,
+          879.109,
+          45.913
+        ],
+        "rules-line-4": [
+          105.503,
+          1190.53,
+          847.994,
+          45.913
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr1-face-off.webp",
+        "after_sha256": "da9fbb7fddf6ec34f069b89ce49953046d269c4fddf23190c7c1c298e458204a",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr1-face-off.webp",
+        "after_sha256": "547b71f392a9dab68a105d8b6732b2f02726bce0b88a266590546992987a0be9",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 243.65087281795513,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 1
+  },
+  {
+    "number": "PR2",
+    "id": "world-games-pr2-righteous-strike",
+    "name": "Righteous Strike",
+    "family": "PHYSICAL COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr2-righteous-strike.svg",
+    "native_source_sha256": "0dadb7349ca56de36d6bdd5c58e120e2d6519b10c3758860186a8a392a3ea085",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/414d728675460261ddb6740bc0ffa6cbcc8730b83908889bd4bd6dfb9cd7a01b.png",
+        "sha256": "414d728675460261ddb6740bc0ffa6cbcc8730b83908889bd4bd6dfb9cd7a01b"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR2.png",
+      "source_sha256": "414d728675460261ddb6740bc0ffa6cbcc8730b83908889bd4bd6dfb9cd7a01b",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Physical attack. DAMAGE: AT +4 stages;",
+        "baseline": 1049.3,
+        "width": 755.3441555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "AT +7 stages instead against a Majin.",
+        "baseline": 1108.3,
+        "width": 655.4730000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Lower your opponent's anger 2 levels.",
+        "baseline": 1167.3,
+        "width": 673.8969999999999,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          282.408,
+          44.5,
+          494.185,
+          69.0
+        ],
+        "card-category": [
+          242.726,
+          891.391,
+          573.549,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          783.722,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.521,
+          1392.65,
+          67.257,
+          33.708
+        ],
+        "rules-line-1": [
+          207.134,
+          1013.53,
+          699.279,
+          45.913
+        ],
+        "power-icon": [
+          152.587,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          202.877,
+          1072.53,
+          653.247,
+          45.913
+        ],
+        "rules-line-3": [
+          194.414,
+          1132.61,
+          670.173,
+          44.835
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            152.587,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            207.134,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            152.587,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr2-righteous-strike.webp",
+        "after_sha256": "d391fd9206278c071349483061fe08eeece84f75f5f4119f24f6b9e316ca5484",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr2-righteous-strike.webp",
+        "after_sha256": "56fd07ec759ab424b7b1362f2f4d82678bdfde0f105d63207dc5e1183a900da0",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 494.18453865336664,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "PHYSICAL COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          573.548525,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 1
+  },
+  {
+    "number": "PR3",
+    "id": "world-games-pr3-evils-true-face",
+    "name": "Evil's True Face",
+    "family": "EVENT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr3-evils-true-face.svg",
+    "native_source_sha256": "74defbc275cd88147aa6afe677dd7c9fa9125b5a8402cbeb55442e50170f0633",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2df6ef96adc3f40f3e89f3ffbcf4ec492d8ac9dbd848c6cc02803bcad2dfb3d8.png",
+        "sha256": "2df6ef96adc3f40f3e89f3ffbcf4ec492d8ac9dbd848c6cc02803bcad2dfb3d8"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR3.png",
+      "source_sha256": "2df6ef96adc3f40f3e89f3ffbcf4ec492d8ac9dbd848c6cc02803bcad2dfb3d8",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.69492084432716,
+        1033,
+        706.6101583113457
+      ]
+    },
+    "rules": [
+      {
+        "text": "Majin only. POWER: Your physical attacks",
+        "baseline": 1049.3,
+        "width": 731.374,
+        "icon_inline": false
+      },
+      {
+        "text": "do +3 stages of damage this Combat.",
+        "baseline": 1108.3,
+        "width": 655.767,
+        "icon_inline": false
+      },
+      {
+        "text": "Draw a card. Banish after use.",
+        "baseline": 1167.3,
+        "width": 535.619,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          297.808,
+          50.2213,
+          463.384,
+          57.5574
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          783.642,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          843.442,
+          1392.65,
+          67.416,
+          33.708
+        ],
+        "rules-line-1": [
+          165.234,
+          1013.53,
+          728.532,
+          45.768
+        ],
+        "rules-line-2": [
+          203.16,
+          1072.53,
+          652.68,
+          45.913
+        ],
+        "rules-line-3": [
+          263.553,
+          1131.53,
+          531.895,
+          36.162
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr3-evils-true-face.webp",
+        "after_sha256": "70839e95180f4a69dd23cb0dc663b934e1246733474aebc695cab7ee7e219c58",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr3-evils-true-face.webp",
+        "after_sha256": "65509585697ffc73596ec96f1ff566715f0319ccdad02619064d2522d042bad1",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 463.38403990024943,
+        "visible_height": 57.55735660847881,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "EVENT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          191.80840000000003,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 3
+  },
+  {
+    "number": "PR4",
+    "id": "world-games-pr4-energy-drain",
+    "name": "Energy Drain",
+    "family": "SETUP",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr4-energy-drain.svg",
+    "native_source_sha256": "864ad0eab7138f69747c434927d62cde101fe9f6d8826185bf4cb09568d22032",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/55be50be7d8408b6153af6adfd80119c9ad3b983924483b34fbe2799e9da13f9.png",
+        "sha256": "55be50be7d8408b6153af6adfd80119c9ad3b983924483b34fbe2799e9da13f9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR4.png",
+      "source_sha256": "55be50be7d8408b6153af6adfd80119c9ad3b983924483b34fbe2799e9da13f9",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "(Limit 1 per deck.) Majin only.",
+        "baseline": 1049.3,
+        "width": 517.048,
+        "icon_inline": false
+      },
+      {
+        "text": "Attach to an opponent's Personality.",
+        "baseline": 1108.3,
+        "width": 709.3067500000002,
+        "icon_inline": true
+      },
+      {
+        "text": "When entering Combat, it loses 2 stages",
+        "baseline": 1167.3,
+        "width": 712.019,
+        "icon_inline": false
+      },
+      {
+        "text": "and your Main Personality gains 2 stages.",
+        "baseline": 1226.3,
+        "width": 735.588,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          340.094,
+          44.5,
+          378.812,
+          69.0
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          781.999,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          841.799,
+          1392.65,
+          70.702,
+          33.708
+        ],
+        "rules-line-1": [
+          271.784,
+          1012.11,
+          515.431,
+          47.189
+        ],
+        "rules-line-2": [
+          241.883,
+          1072.53,
+          641.487,
+          45.521
+        ],
+        "power-icon": [
+          175.631,
+          1079.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-3": [
+          174.397,
+          1131.53,
+          710.206,
+          45.913
+        ],
+        "rules-line-4": [
+          163.054,
+          1190.53,
+          732.893,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-2",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "A",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            175.631,
+            1081.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            241.883,
+            1074.0,
+            22.3226,
+            34.3
+          ],
+          "new_visible_bounds": [
+            175.631,
+            1081.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr4-energy-drain.webp",
+        "after_sha256": "3d1a6e1e3ed889fe6c16bdc1dc8f5804e70240b47151fb728b0b57211ff0c364",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr4-energy-drain.webp",
+        "after_sha256": "977518ef931d195317ea36b471ea32fb015b23d65e924db2a1480b898d201987",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 378.8117206982544,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "SETUP",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          194.85565000000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "constant",
+    "rarity_stars": 3
+  },
+  {
+    "number": "PR5",
+    "id": "world-games-pr5-supreme-kais-power-hold",
+    "name": "Supreme Kai's Power Hold",
+    "family": "ENERGY COMBAT",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr5-supreme-kais-power-hold.svg",
+    "native_source_sha256": "08b91c662cd255c0ba2d6ae0b5c6561541726ffc05916c081aa26f85471890b8",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c876bfbf706646add596ed699dfe21cbfc0e56f5325bbc8e4a2207854d81e13d.png",
+        "sha256": "c876bfbf706646add596ed699dfe21cbfc0e56f5325bbc8e4a2207854d81e13d"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR5.png",
+      "source_sha256": "c876bfbf706646add596ed699dfe21cbfc0e56f5325bbc8e4a2207854d81e13d",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Energy attack costing 2 stages.",
+        "baseline": 1049.3,
+        "width": 613.5381555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 4 life cards. HIT: Your opponent",
+        "baseline": 1108.3,
+        "width": 727.1110000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "must pass during their next Attacker",
+        "baseline": 1167.3,
+        "width": 654.101,
+        "icon_inline": false
+      },
+      {
+        "text": "Attacks phase. Banish after use.",
+        "baseline": 1226.3,
+        "width": 576.7790000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "card-title": [
+          149.5,
+          45.8054,
+          760.0,
+          66.3893
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          783.059,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          842.859,
+          1392.65,
+          68.582,
+          33.708
+        ],
+        "rules-line-1": [
+          278.11,
+          1013.53,
+          557.375,
+          45.913
+        ],
+        "power-icon": [
+          223.515,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          167.488,
+          1072.53,
+          724.024,
+          44.884
+        ],
+        "rules-line-3": [
+          203.542,
+          1131.53,
+          651.916,
+          45.913
+        ],
+        "rules-line-4": [
+          242.224,
+          1190.53,
+          574.553,
+          44.884
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            278.11,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            223.515,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr5-supreme-kais-power-hold.webp",
+        "after_sha256": "406b7bc0b26ead832760aca94f9ff8951f3de768ce956ef1d279df0e4babe2d0",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr5-supreme-kais-power-hold.webp",
+        "after_sha256": "33b62723e9541d70d1ed7b167a0c7625845bbc51f97c4d816f22bfa256b7964b",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": true,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 82.7796536325019,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 760.0,
+        "visible_height": 66.38928221326653,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 760.0,
+        "scale_factor": 0.9621635103371959
+      },
+      "middle_label": {
+        "label": "ENERGY COMBAT",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          517.0614,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  },
+  {
+    "number": "PR6",
+    "id": "world-games-pr6-supreme-kai",
+    "name": "Supreme Kai",
+    "family": "HERO PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr6-supreme-kai.svg",
+    "native_source_sha256": "1e3292a96a243abdc288120211ad55d9ff829585162220dd49be6a0ee6b347b0",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+        "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d77dce49d4087ed6f7f58df88c56f3beb2c5b82e2b68635b03c1557082a5a304.png",
+        "sha256": "d77dce49d4087ed6f7f58df88c56f3beb2c5b82e2b68635b03c1557082a5a304"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR6.png",
+      "source_sha256": "d77dce49d4087ed6f7f58df88c56f3beb2c5b82e2b68635b03c1557082a5a304",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "When entering Combat, look at the top",
+        "baseline": 1049.3,
+        "width": 679.532,
+        "icon_inline": false
+      },
+      {
+        "text": "5 cards of your opponent's Life Deck",
+        "baseline": 1108.3,
+        "width": 648.4170000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "and return them in any order.",
+        "baseline": 1167.3,
+        "width": 520.9680000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "Draw the bottom card of your discard pile.",
+        "baseline": 1226.3,
+        "width": 749.896,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          1015.25,
+          159.755,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-1": [
+          1015.25,
+          219.047,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-2": [
+          1015.25,
+          278.338,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-3": [
+          1015.25,
+          337.63,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-4": [
+          1015.25,
+          396.922,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-5": [
+          1015.25,
+          456.213,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-6": [
+          1015.25,
+          515.505,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-7": [
+          1015.25,
+          574.797,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-8": [
+          1015.25,
+          634.088,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-9": [
+          1015.25,
+          693.38,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-10": [
+          1015.25,
+          752.672,
+          15.75,
+          26.712
+        ],
+        "power-stage-value-11": [
+          1015.17,
+          811.963,
+          15.834,
+          26.712
+        ],
+        "card-title": [
+          341.643,
+          44.5,
+          375.714,
+          69.0
+        ],
+        "v3-level-number": [
+          76.863,
+          25.15,
+          52.274,
+          95.4
+        ],
+        "card-category": [
+          450.823,
+          891.391,
+          157.354,
+          34.2188
+        ],
+        "concept-pur-number": [
+          92.1918,
+          876.0,
+          35.6164,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          782.953,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          842.753,
+          1392.65,
+          68.794,
+          33.708
+        ],
+        "rules-line-1": [
+          190.959,
+          1013.53,
+          677.082,
+          45.913
+        ],
+        "rules-line-2": [
+          206.541,
+          1072.53,
+          645.918,
+          45.521
+        ],
+        "rules-line-3": [
+          270.363,
+          1131.53,
+          518.273,
+          45.521
+        ],
+        "rules-line-4": [
+          156.414,
+          1190.53,
+          746.172,
+          45.521
+        ]
+      },
+      "icons": []
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr6-supreme-kai.webp",
+        "after_sha256": "cfe1491e795c543e53b48872381a6535d040fb778cd6ab76ba658de37ad4bd3a",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr6-supreme-kai.webp",
+        "after_sha256": "5e35c735a053c522edb3144f1f9e51c417dc7213d9ff8f0bb85698f1c88cd90f",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 86.0349127182045,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 375.71446384039905,
+        "visible_height": 69.00000000000001,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 1.0
+      },
+      "middle_label": {
+        "label": "HERO",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          157.35382500000003,
+          34.21875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": null,
+    "rarity_stars": 5
+  },
+  {
+    "number": "PR7",
+    "id": "world-games-pr7-majin-vegeta-the-dark-prince",
+    "name": "Majin Vegeta, the Dark Prince",
+    "family": "VILLAIN PERSONALITY",
+    "native_source_path": "tools/card-templates/v3/world-games-201-promos/world-games-pr7-majin-vegeta-the-dark-prince.svg",
+    "native_source_sha256": "aaae1f7451188c25ae54b3f033b4c0f65c6870c926e28dff45be664950ca0f7f",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+        "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+        "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/3fa370d654d65cae0174da97bcaca618e6820d5f407559a42b4219a5dfa4df85.png",
+        "sha256": "3fa370d654d65cae0174da97bcaca618e6820d5f407559a42b4219a5dfa4df85"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac.png",
+        "sha256": "81f5e828b2cf5832ab1034204f711cd7b6de8bdfdcdbfef298f62b100876e8ac"
+      }
+    ],
+    "artwork": {
+      "mode": "new modern illustration from printed reference",
+      "source": "tools/card-corrections/v3-world-games-201-promos/artwork/PR7.png",
+      "source_sha256": "3fa370d654d65cae0174da97bcaca618e6820d5f407559a42b4219a5dfa4df85",
+      "additional_zoom": false,
+      "localized_correction": null,
+      "native_placement": [
+        14,
+        145.9278180619644,
+        1033,
+        706.1443638760712
+      ]
+    },
+    "rules": [
+      {
+        "text": "Physical attack costing 2 life cards.",
+        "baseline": 1049.3,
+        "width": 688.5571555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: AT +5 stages.",
+        "baseline": 1108.3,
+        "width": 404.54400000000004,
+        "icon_inline": false
+      },
+      {
+        "text": "This attack is focused against Goku.",
+        "baseline": 1167.3,
+        "width": 645.7220000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "HIT: Discard all Allies in play.",
+        "baseline": 1226.3,
+        "width": 512.2950000000001,
+        "icon_inline": false
+      }
+    ],
+    "native_geometry": {
+      "native_outlined_text": true,
+      "bounds": {
+        "power-stage-value-0": [
+          887.36,
+          159.755,
+          143.64,
+          32.802
+        ],
+        "power-stage-value-1": [
+          891.518,
+          219.047,
+          139.482,
+          32.802
+        ],
+        "power-stage-value-2": [
+          890.93,
+          278.338,
+          140.07,
+          32.802
+        ],
+        "power-stage-value-3": [
+          888.158,
+          337.63,
+          142.842,
+          32.802
+        ],
+        "power-stage-value-4": [
+          887.57,
+          396.922,
+          143.43,
+          32.802
+        ],
+        "power-stage-value-5": [
+          888.452,
+          456.213,
+          142.548,
+          32.802
+        ],
+        "power-stage-value-6": [
+          887.864,
+          515.505,
+          143.136,
+          32.802
+        ],
+        "power-stage-value-7": [
+          888.116,
+          574.797,
+          142.884,
+          32.802
+        ],
+        "power-stage-value-8": [
+          887.528,
+          634.088,
+          143.472,
+          32.802
+        ],
+        "power-stage-value-9": [
+          889.04,
+          693.38,
+          141.96,
+          32.802
+        ],
+        "power-stage-value-10": [
+          888.452,
+          752.672,
+          142.548,
+          32.802
+        ],
+        "power-stage-value-11": [
+          1015.17,
+          811.963,
+          15.834,
+          26.712
+        ],
+        "card-title": [
+          209.5,
+          54.0932,
+          640.0,
+          50.559
+        ],
+        "v3-level-number": [
+          76.863,
+          25.15,
+          52.274,
+          95.4
+        ],
+        "card-category": [
+          419.002,
+          891.991,
+          220.996,
+          33.0187
+        ],
+        "concept-pur-number": [
+          92.1918,
+          876.0,
+          35.6164,
+          65.0
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          165.321,
+          1378.35,
+          92.8585,
+          62.2932
+        ],
+        "footer-rarity": [
+          784.278,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          844.078,
+          1392.65,
+          66.144,
+          33.708
+        ],
+        "rules-line-1": [
+          240.552,
+          1013.53,
+          632.443,
+          45.913
+        ],
+        "power-icon": [
+          186.005,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          329.09,
+          1073.61,
+          400.82,
+          44.835
+        ],
+        "rules-line-3": [
+          208.011,
+          1131.53,
+          642.978,
+          45.913
+        ],
+        "rules-line-4": [
+          275.214,
+          1190.53,
+          508.571,
+          45.521
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "P",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            186.005,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            240.552,
+            1014.95,
+            19.698,
+            34.349
+          ],
+          "new_visible_bounds": [
+            186.005,
+            1014.97,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": -0.02549999999996544,
+          "center_error": -0.004500000000007276,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ]
+    },
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/world-games-pr7-majin-vegeta-the-dark-prince.webp",
+        "after_sha256": "c89b05eda7d1cc088e47f50a852175199ab55b362225834b1171b25cd363c1aa",
+        "size": [
+          1060,
+          1484
+        ],
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/world-games-pr7-majin-vegeta-the-dark-prince.webp",
+        "after_sha256": "7aa91bdb92db8845da234205a2ca366f1baa56db70fbe752de8482599372960d",
+        "size": [
+          2120,
+          2968
+        ],
+        "lossless_round_trip": true
+      }
+    ],
+    "tokui_waza_backing": null,
+    "current_preview_revision": {
+      "title_fit": {
+        "font_size": 62.11180124223602,
+        "nominal_font_size": 86.0349127182045,
+        "visible_width": 639.9999999999999,
+        "visible_height": 49.813664596273284,
+        "visible_center": [
+          529.5,
+          79.0
+        ],
+        "max_width": 640.0,
+        "scale_factor": 0.7219371680619316
+      },
+      "middle_label": {
+        "label": "VILLAIN",
+        "font": "Michroma",
+        "font_size": 38.4,
+        "tracking": 4.0,
+        "width_factor": 0.956,
+        "stroke": 4.21875,
+        "visible_center": [
+          529.5,
+          908.5
+        ],
+        "visible_size": [
+          220.99575000000002,
+          33.01875
+        ]
+      },
+      "footer_idempotent": true
+    },
+    "power_icon": "attack",
+    "rarity_stars": 5
+  }
+]
