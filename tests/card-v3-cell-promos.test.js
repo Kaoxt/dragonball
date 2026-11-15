@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/personality-centering-history.js';
 import {codeCardIds} from '../public/decks/code-card-ids.js';
 import {cardPath,cardFromPath,catalogSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';

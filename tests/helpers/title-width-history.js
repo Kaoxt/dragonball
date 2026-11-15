@@ -15,7 +15,7 @@ const revisions=new Map(rows.map(r=>[r.path,r]));
 const name=p=>path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 function current(p){const bytes=beforeBannerFile(p),revision=revisions.get(name(p));if(revision)assert.equal(beforeBannerHash(p),revision.after_sha256,`Current title revision changed: ${p}`);return{bytes,revision};}
-export function historicalCardHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
+export function historicalCardHash(p){const{bytes,revision}=current(p);return revision?.before_sha256??beforeBannerHash(p);}
 export function historicalCardSize(p){const{bytes,revision}=current(p);return revision?.before_size_bytes??bytes.length;}
 export function historicalCardGitHash(p){const{bytes,revision}=current(p);return revision?.before_git_blob_sha??createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${bytes.length}\0`),bytes])).digest('hex');}
 export function readHistoricalCardFile(p,encoding){

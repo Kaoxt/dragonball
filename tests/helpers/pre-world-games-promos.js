@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog,codeCardIds as currentCodeIds,beforeCellPromosFile} from './pre-cell-promos.js';
+import {catalog as currentCatalog,codeCardIds as currentCodeIds,beforeCellPromosFile,beforeCellPromosHash} from './pre-cell-promos.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const release=JSON.parse(fs.readFileSync(new URL('../../tools/card-corrections/v3-world-games-201-promos/publication.json',import.meta.url),'utf8'));
 const added=new Set(release.card_ids),files=new Map(release.integration_files.map(f=>[f.path,f]));
@@ -16,8 +16,12 @@ export function beforeWorldGamesPromosFile(p,encoding){
  const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p);
  const revision=files.get(path.relative(root,absolute));
  if(!revision)return beforeCellPromosFile(absolute,encoding);
- assert.equal(hash(beforeCellPromosFile(absolute)),revision.after_sha256,`Current World Games promo integration changed: ${p}`);
+ assert.equal(beforeCellPromosHash(absolute),revision.after_sha256,`Current World Games promo integration changed: ${p}`);
  const bytes=gunzipSync(fs.readFileSync(path.join(root,revision.before_file)));
  assert.equal(hash(bytes),revision.before_sha256,'Historical World Games baseline changed');
  return encoding?bytes.toString(encoding):bytes;
+}
+export function beforeWorldGamesPromosHash(p){
+ const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p);
+ return files.has(path.relative(root,absolute))?hash(beforeWorldGamesPromosFile(absolute)):beforeCellPromosHash(absolute);
 }

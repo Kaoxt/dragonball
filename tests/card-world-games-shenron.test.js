@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog} from './helpers/personality-centering-history.js';
 import {catalog as beforeCatalog,shenronRelease,beforeWorldGamesShenronFile} from './helpers/world-games-shenron-history.js';
 import {beforeSaiyanStrokeHash} from './helpers/saiyan-stroke-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');

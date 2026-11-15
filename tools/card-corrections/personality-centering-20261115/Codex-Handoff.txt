@@ -1,0 +1,64 @@
+Dragon Ball OCG — Personality Centering Fix
+Prepared November 15, 2026. This package has not been published.
+
+SCOPE
+Review covered 98 personalities. Install the 45 corrected cards:
+17 Frieza Saga, 22 Trunks Saga, 3 Android Saga, and World Games Pikkon
+#161 / #190 / #191. Leave the 53 reviewed, balanced cards as they are.
+Card-Review.csv lists all 98 decisions. REVIEW-NOTES.txt explains QA and
+the narrow background-edge treatments, including Piccolo #169's cape tip.
+
+INCLUDED
+90 lossless WebPs: display 1060x1484; download 2120x2968.
+45 canonical native SVGs, 45 web-resolution native companions, linked
+retained-art assets, two moved Ultra Rare masks and their revision pins.
+Historical native snapshots and review evidence are in the new append-only
+tools/card-corrections/personality-centering-20261115 directory.
+This is a patch for the existing Kaoxt/dragonball repository, not a standalone
+copy of the entire card-art archive. Unchanged dependencies must be present.
+
+APPLY TO AN ISOLATED CURRENT CHECKOUT
+1. Read the current repository AGENTS.md and relevant card audit instructions.
+2. Run from this extracted package:
+     python3 apply_fix.py /absolute/path/to/dragonball
+   This is a dry-run. All payload hashes, existing asset/native hashes,
+   unchanged dependencies, card content and 90 catalog URLs are checked.
+3. If the dry-run passes, install the prepared assets:
+     python3 apply_fix.py /absolute/path/to/dragonball --apply
+   The installer only changes listed files and catalog image/download URLs.
+   It preserves unrelated catalog changes. It never commits, pushes or deploys.
+4. If a conflict is reported, do not force or discard the newer work. Compare
+   the manifest baseline, current card, and supplied revision, then merge that
+   card deliberately. Do not overwrite a newer expression or rules correction.
+
+REPOSITORY INTEGRATION BEFORE PUBLISHING
+- Append this revision to the current historical catalog/native audit chain.
+  Do not rewrite past artwork audits or per-card historical evidence. The
+  manifest stores exact before/after URLs and hashes; before-native retains
+  exact SVG bytes for the historical view. Current per-card metadata may be
+  updated by adding a centering revision, preserving all prior corrections.
+- Keep canonical native files and matching web-1x companions. Reuse supplied
+  WebPs directly; their fixed UI is pixel-identical to the published baseline.
+  Do not globally regenerate illustrations or recompress exports lossily.
+- Retain all existing game rules, deck IDs, rarity, Level/PUR, and stage values.
+  Trunks #192 corrected stage values supersede its original scan's misprint.
+- Verify the two Ultra Rare pinned artwork URLs match the new catalog entries
+  and the translated mask URLs include the new cache revisions. Generic and
+  shared Hi-Tech masks are unchanged.
+- Run current repository-required tests and current catalog/native audit checks
+  with the new historical adapter. Run tests/ultra-rare-foil.test.js.
+- Inspect representative Cards, Decks and Arena views plus both downloads.
+  Confirm regular/foil switching, stage placement and rounded card edges.
+- Commit/publish only when authorized by the user's publishing instruction.
+  Confirm hosted image revisions afterward; this artifact is not a deployment.
+
+VALIDATION PERFORMED HERE
+All 98 metadata/stage checks passed; 45 native sources preserve original
+elements; all 90 lossless exports passed protected-pixel and retained-art
+translation checks. Original-scan comparisons and final-art visual review are
+complete, subject to the source limitations documented in REVIEW-NOTES.txt.
+The installer was checked in an isolated fixture for dry-run, application,
+idempotency, unrelated catalog preservation and stale-file conflict refusal.
+The existing three Ultra Rare renderer tests and targeted mask-revision checks
+passed. The complete current repository test suite remains a publishing-stage
+integration check because this deliverable is an asset patch, not a deployed PR.

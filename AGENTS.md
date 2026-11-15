@@ -1,3 +1,18 @@
+## Personality artwork centering — November 15, 2026
+
+Preserve the supplied horizontal artwork correction on 45 personalities: 17
+Frieza, 22 Trunks, three Android and World Games Pikkon #161/#190/#191.
+The other 53 reviewed cards retain their optical placement. Both lossless
+exports preserve every pixel outside x14–814, y146–852. Keep the original
+native elements, repair layers, scale, vertical position and all gameplay data.
+Canonical SVGs and their web-1x companions retain their linked art assets.
+Frieza #125 and Trunks #156 masks move with their exact pinned artwork revisions.
+Piccolo #169's narrow background/cape edge exception is recorded in REVIEW-NOTES.
+Evidence is in `tools/card-corrections/personality-centering-20261115/`.
+Earlier audits start with `personality-centering-history.js`; use its hash API
+for historical raster identity and its file API for exact native snapshots.
+Do not rerender or recompress the supplied WebPs during publication.
+
 ## Cell Saga promos P1–P10 — November 15, 2026
 
 Preserve the ten supplied native SVGs, linked artwork and twenty lossless

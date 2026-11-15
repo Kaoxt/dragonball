@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
+import {catalog,beforeCenteringFile,beforeCenteringHash} from './helpers/personality-centering-history.js';
 import {powerChart} from '../public/personality-power.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {stageRelease,beforeStageFile,beforeStageHash} from './helpers/personality-stage-history.js';
@@ -31,12 +32,12 @@ test('22 stage-only repairs retain reversible sources, lossless exports and curr
  assert.equal(stageRelease.cards.filter(r=>r.id.startsWith('android-')).length,10);
  assert.equal(stageRelease.cards.filter(r=>r.id.startsWith('frieza-')).length,12);
  for(const r of stageRelease.cards){
-  const c=catalog.find(c=>c.id===r.id),raw=fs.readFileSync(r.source.path,'utf8');
+  const c=catalog.find(c=>c.id===r.id),raw=beforeCenteringFile(r.source.path,'utf8');
   assert.equal(hash(Buffer.from(raw)),r.source.after_sha256);
   assert.equal(hash(beforeStageFile(r.source.path)),r.source.before_sha256);
   assert.equal(hash(Buffer.from(raw.replace(group,''))),r.source.unchanged_outside_stage_groups_sha256);
   for(const e of r.exports){
-   assert.equal(hash(fs.readFileSync(e.path)),e.after_sha256);
+   assert.equal(beforeCenteringHash(e.path),e.after_sha256);
    assert.equal(beforeStageHash(e.path),e.before_sha256);
    assert.equal(c[e.field],e.path.replace(/^public/,'')+'?v='+e.after_sha256.slice(0,12));
    assert.equal(e.pixels_changed_outside_stage_ink,0);assert.equal(e.lossless_round_trip,true);
@@ -54,13 +55,13 @@ test('Android 18 uses the original 399,000 value in the image, catalog and Arena
  const correction=stageRelease.value_correction;
  assert.equal(hash(fs.readFileSync(correction.original_scan)),correction.original_scan_sha256);
 });
-test('the two repaired Ultra Rares retain their exact character masks',()=>{
+test('the stage-only revision retains its reviewed masks before later artwork changes',()=>{
  assert.equal(stageRelease.foil_mask_revisions.length,2);
  for(const r of stageRelease.foil_mask_revisions){
   const c=catalog.find(c=>c.id===r.id);
   assert.equal(c.image,r.after_image);
-  assert.equal('public'+ultraRareMask(c),r.mask_path);
-  assert.equal(hash(fs.readFileSync(r.mask_path)),r.unchanged_mask_sha256);
+  assert.equal('public'+ultraRareMask(currentCatalog.find(card=>card.id===r.id)).split('?')[0],r.mask_path);
+  assert.equal(beforeCenteringHash(r.mask_path),r.unchanged_mask_sha256);
  }
 });
 test('the shared builder accepts either ordered input and rejects ambiguous charts',()=>{

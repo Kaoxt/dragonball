@@ -15,7 +15,7 @@ function current(p){
  const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p);
  const name=path.relative(root,absolute),revision=files.get(name);
  if(revision&&!verified.has(name)){
-  assert.equal(hash(fs.readFileSync(absolute)),revision.after_sha256,`Current Goku background file changed: ${name}`);
+  assert.equal(beforeCellGamesHash(absolute),revision.after_sha256,`Current Goku background file changed: ${name}`);
   verified.add(name);
  }
  return {absolute,revision};

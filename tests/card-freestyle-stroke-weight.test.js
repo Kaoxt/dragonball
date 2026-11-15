@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog} from './helpers/pre-world-games-051-100-catalog.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
+import {beforeCenteringFile} from './helpers/personality-centering-history.js';
 import {freestyleStrokeRelease as release,beforeFreestyleStrokeFile,beforeFreestyleStrokeHash} from './helpers/freestyle-stroke-history.js';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 
@@ -54,10 +55,10 @@ test('Freestyle personalities, Dragon Balls and location emblems stay byte-ident
 
 test('symbol-only revisions retain the exact custom Ultra Rare masks',()=>{
  const profiles=release.foil_profiles;
- assert.equal(hash(fs.readFileSync(profiles.path)),profiles.after_sha256);
+ assert.equal(hash(beforeCenteringFile(profiles.path)),profiles.after_sha256);
  assert.equal(profiles.masks.length,10);
  assert.deepEqual(profiles.masks.map(m=>m.id).sort(),catalog.filter(c=>c.rarity==='Ultra Rare'&&release.cards.some(r=>r.id===c.id)).map(c=>c.id).sort());
- let original=fs.readFileSync(profiles.path,'utf8');
+ let original=beforeCenteringFile(profiles.path,'utf8');
  for(const m of profiles.masks){
   const c=catalog.find(c=>c.id===m.id);
   assert.equal(c.image,m.image_after);

@@ -1,0 +1,63 @@
+PERSONALITY CENTERING — NOVEMBER 15, 2026
+
+98 cards reviewed; 45 corrected; 53 retain their existing optical placement.
+Frieza: 24 reviewed / 17 corrected. Trunks: 61 / 22 (including 3 of 10 Hi-Techs).
+Android: 10 / 3. Approved World Games Pikkons: 3 / 3 (#161, #190, #191).
+
+The usable horizontal window is x14 to x813.75, centered at x413.875.
+Offsets balance the face/torso or complete pose optically; asymmetrical reaching
+and intentionally cropped poses are not forced to a bounding-box midpoint.
+Only horizontal position changes. Character size, vertical position, facial
+expression, existing linework, repairs and associated aura layers are retained.
+Pikkon #161 moves right 16; #190 left 80; #191 left 114 native pixels.
+#190 retains the approved small cape-tip crop and visible reaching hand.
+
+ARTWORK / EDGE EXCEPTIONS
+Rightward moves expose a narrow background strip. Most reuse a mirrored
+20-pixel band of existing background, confined to the empty left edge.
+Frieza #43 and Trunks #106/#171 instead widen a character-free background band
+with a smooth horizontal mapping to keep curved borders and speed lines clean.
+Trunks #169 uses a localized generated woodland extension, plus a tiny native
+vector continuation of the previously cropped cape tip. Only that edge is used;
+the generated source's character is NOT used. Original Piccolo body, face,
+costume and linework are retained. The cape-tip extension is the only new
+foreground detail in this alignment batch. The new edge's 20-pixel blend is
+restricted before the cape tip, preventing doubled white edges.
+
+QA
+All 98 passed title, label, Level, PUR, card number, unique native IDs, outlined
+type and stage checks. Stages match the catalog, descend and end in zero.
+All 45 preserve existing native elements and earlier correction layers.
+All 90 exports pass exact protected-pixel comparison against their published
+baseline: zero changed pixels outside the allowed artwork area and fixed UI.
+The translated opaque main-art region has maximum RGB difference 0 at both
+sizes. Edge-fill regions, fixed overlays and transparent antialiasing are
+excluded from that translation comparison. Lossless WebP round-trips match
+the rendered PNG pixels exactly. Dimensions: 1060x1484 and 2120x2968.
+Every card was compared with its retained original scan; every corrected art
+window was visually reviewed. Tiny details in low-resolution, watermarked or
+foiled scans cannot be independently resolved with certainty. No clear new
+identity, pose, expression or rules error was confirmed in this review.
+Preserve Frieza #125's approved rear-view Goku and earlier expression repairs.
+Trunks Hi-Tech #192's corrected top stages 1,200,000 and 1,100,000 intentionally
+supersede the original scan's misprint. No gameplay content changed here.
+
+FOIL
+Frieza #125 and Trunks #156 subject masks translate with the characters.
+Their exact artwork-revision pins and mask URLs are cache-busted together.
+Unchanged rule-panel paths and fallback behavior are retained. The shared
+Hi-Tech title-mask geometry does not need to move with illustration artwork.
+
+SOURCE / EXPORT POLICY
+Canonical SVGs use the retained 2x artwork raster; -web-1x.svg companions use
+the corresponding native 1x raster. Existing vector UI and original art groups
+remain in each SVG. Do not regenerate or repaint characters, remove repair
+layers, or globally rerender the supplied WebPs before publication. Supplied
+exports preserve the published UI raster exactly. The source files depend on
+existing repository artwork; unchanged dependencies are hash-guarded.
+
+Publication is not performed by this package. It contains reviewed assets,
+native sources, historical source snapshots, checks and a guarded installer.
+The publishing agent must integrate this revision with the repository's
+existing historical audit chain, run current required checks, and deploy only
+under the user's publishing instruction. Prior audits remain immutable.

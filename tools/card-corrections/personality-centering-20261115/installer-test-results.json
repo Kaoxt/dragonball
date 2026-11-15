@@ -1,0 +1,8 @@
+{
+  "dry_run": "PASS: 45 cards; 459 files would change. Dry-run only.",
+  "application": "PASS: installed 459 files for 45 cards. No commit or deployment.",
+  "idempotent": "PASS: installed 0 files for 45 cards. No commit or deployment.",
+  "unrelated_catalog_preserved": true,
+  "stale_file_conflict_refused": true,
+  "all_installed_hashes_match": true
+}

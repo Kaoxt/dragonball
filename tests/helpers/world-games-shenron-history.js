@@ -5,17 +5,18 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {catalog as currentCatalog} from './pre-cell-hi-tech-catalog.js';
+import {beforeHiTechFile,beforeHiTechHash} from './world-games-hi-tech-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 export const shenronRelease=JSON.parse(fs.readFileSync(path.join(root,'tools/card-corrections/v3-world-games-shenron/release.json'),'utf8'));
 const revisions=new Map(shenronRelease.cards.flatMap(r=>[r.source,...r.exports]).map(r=>[r.path,r]));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 function current(p){
  const name=path.relative(root,p instanceof URL?fileURLToPath(p):path.resolve(p));
- const bytes=fs.readFileSync(p),revision=revisions.get(name);
- if(revision)assert.equal(hash(bytes),revision.after_sha256,`Current World Games Shenron changed: ${name}`);
+ const bytes=beforeHiTechFile(p),revision=revisions.get(name);
+ if(revision)assert.equal(beforeHiTechHash(p),revision.after_sha256,`Current World Games Shenron changed: ${name}`);
  return {bytes,revision};
 }
-export function beforeWorldGamesShenronHash(p){const {bytes,revision}=current(p);return revision?.before_sha256??hash(bytes);}
+export function beforeWorldGamesShenronHash(p){const {bytes,revision}=current(p);return revision?.before_sha256??beforeHiTechHash(p);}
 export function beforeWorldGamesShenronFile(p){
  const {bytes,revision}=current(p);
  if(!revision?.reversible_edits)return bytes;
