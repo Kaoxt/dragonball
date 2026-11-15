@@ -97,6 +97,27 @@
       "before_encoding": "gzip",
       "before_sha256": "afdab19342ae346b6795064d709e3aec5b4cefa647c69aa737390735634dfc81",
       "after_sha256": "97d942a303d5e2532d2010512f1148800c30cbd1a1c8f0d45b10ff0a4c7145a6"
+    },
+    {
+      "path": "tests/card-v3-world-games-001-050.test.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/card-v3-world-games-001-050.test.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "eae86d10882d5a9a7db6b1da08f5d9b1d0f3bb515aa8bf488c43d1b088ee335c",
+      "after_sha256": "4faddf6d90f0feca507620324d53f1f56c851e6dd77cfe6cf082820e3cc95119"
+    },
+    {
+      "path": "tests/card-v3-world-games-051-100.test.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/card-v3-world-games-051-100.test.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "c89c6264e15d820ee4c1157743aed2bbeb5ac1ba4c1948a266ecf67d8751b042",
+      "after_sha256": "3c539257ea1f775424f98f01495216ad3af85bdcda314dd62e40f2a6e32ff857"
+    },
+    {
+      "path": "tests/card-v3-world-games-101-150.test.js",
+      "before_file": "tools/card-corrections/v3-world-games-201-promos/baseline-files/tests/card-v3-world-games-101-150.test.js.gz",
+      "before_encoding": "gzip",
+      "before_sha256": "2238367126523923ec49f3f4e120d8340132a658051420fe9d4383855f91ac35",
+      "after_sha256": "827d11fedd0407a24ebc651fbf3bfb2ec45636686879291be1977c653d8efc3b"
     }
   ],
   "source_package": {
@@ -104,5 +125,8 @@
     "filename": "World-Games-Promos-and-Videl-201-Codex-Handoff.zip",
     "sha256": "5b57964d65c7ee85d9db348b5963555ab808233f23883f7efebccb7576da6e07"
   },
-  "preservation": "All supplied native SVGs, linked artwork, audits and 36 lossless exports remain byte-identical. Previous 1264 catalog records and 482 permanent deck-code positions remain unchanged. Preview PR numbering and source provenance are retained. Four explicit charts include Supreme Kai zero followed by eleven Z stages. Shared Hi-Tech masks remain unchanged."
+  "preservation": "All supplied native SVGs, linked artwork, audits and 36 lossless exports remain byte-identical. Previous 1264 catalog records and 482 permanent deck-code positions remain unchanged. Preview PR numbering and source provenance are retained. Four explicit charts include Supreme Kai zero followed by eleven Z stages. Shared Hi-Tech masks remain unchanged.",
+  "integration_parent_commit": "c2cb6cfb341264d8eefbd471b0c0ee59f12f31c2",
+  "concurrent_changes_preserved": "News expand button hover red update; no overlap with card publication.",
+  "validation_followup": "Three current-catalog route tests now expect 218 World Games cards; historical source audits retain their original counts."
 }

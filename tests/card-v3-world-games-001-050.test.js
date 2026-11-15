@@ -80,7 +80,7 @@ test('World Games set and all 50 card pages work at their public URLs',async()=>
  const html=fs.readFileSync('public/cards/index.html','utf8');
  const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
  const set=catalogSets(catalog).find(s=>s.name==='World Games Saga');
- assert.equal(set.count,200);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
+ assert.equal(set.count,218);assert.match(set.image,/world-games-saga-logo-brushed-blue-spaced.svg/);
  const page=await cardPage(new Request('https://dragonballocg.com'+set.path),assets);
  assert.equal(page.status,200);assert.match(await page.text(),/World Games Saga/);
  for(const card of cards){

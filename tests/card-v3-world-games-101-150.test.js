@@ -77,7 +77,7 @@ test('CRD changes and fixed physical damage remain explicit',()=>{
 
 test('all new public card routes work and the next unavailable card stays out',async()=>{
  const html=fs.readFileSync('public/cards/index.html','utf8');const assets={fetch:async()=>new Response(html,{headers:{'Content-Type':'text/html'}})};
- assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,200);
+ assert.equal(catalogSets(catalog).find(s=>s.name==='World Games Saga').count,218);
  for(const card of cards){assert.equal(cardFromPath(cardPath(card),catalog),card);const page=await cardPage(new Request('https://dragonballocg.com'+cardPath(card)),assets);assert.equal(page.status,200);assert.ok((await page.text()).includes(card.image));}
  for(const n of [...pending,9999])assert.equal((await cardPage(new Request('https://dragonballocg.com/cards/world-games-saga/'+n),assets)).status,404);
 });
