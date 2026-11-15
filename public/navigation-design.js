@@ -15,7 +15,7 @@ document.head.append(stylesheet);
 
 const surfaces = document.createElement('link');
 surfaces.rel = 'stylesheet';
-surfaces.href = '/surfaces-design.css?v=20261114-news-logo-red';
+surfaces.href = '/surfaces-design.css?v=20261114-news-deeper-red';
 document.head.append(surfaces);
 
 const header = document.querySelector('.site-header');
