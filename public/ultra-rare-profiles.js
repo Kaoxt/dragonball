@@ -4,8 +4,8 @@ const artworkRevisions = {
   "saiyan-249-medic-kit": "/assets/cards/saiyan-249-medic-kit.webp?v=5de4932ccc80",
   "saiyan-250-chiaotzus-physical-defense": "/assets/cards/saiyan-250-chiaotzus-physical-defense.webp?v=375067ce09e3",
   "frieza-124-frieza-the-master": "/assets/cards/frieza-124-frieza-the-master.webp?v=740400df5f05",
-  "frieza-125-super-saiyan-goku": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=17a855048a48",
-  "trunks-156-krillin-the-warrior": "/assets/cards/trunks-156-krillin-the-warrior.webp?v=006dc8ed27ed",
+  "frieza-125-super-saiyan-goku": "/assets/cards/frieza-125-super-saiyan-goku.webp?v=94d679e0da8c",
+  "trunks-156-krillin-the-warrior": "/assets/cards/trunks-156-krillin-the-warrior.webp?v=663bd5bd86f7",
   "trunks-157-where-theres-life-theres-hope": "/assets/cards/trunks-157-where-theres-life-theres-hope.webp?v=79888889fe15",
   "trunks-158-villains-true-power": "/assets/cards/trunks-158-villains-true-power.webp?v=fb163e31750c",
   "trunks-159-goku-the-unbeatable": "/assets/cards/trunks-159-goku-the-unbeatable.webp?v=1e77569b0941",
@@ -18,7 +18,13 @@ const artworkRevisions = {
   "cell-160-goku-the-all-powerful": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=ac9d2b5a2d1c"
 };
 
+const centeredMaskRevisions = {
+  "frieza-125-super-saiyan-goku": "771a205b7249",
+  "trunks-156-krillin-the-warrior": "4975797b0321"
+};
+
 export function ultraRareMask(card) {
   const name = artworkRevisions[card.id] === card.image ? card.id : card.templateVersion === 3 ? "generic-v3" : "generic-v2";
-  return `/card-effects/ultra-rare/${name}.svg`;
+  const revision = centeredMaskRevisions[name];
+  return `/card-effects/ultra-rare/${name}.svg${revision ? `?v=${revision}` : ""}`;
 }
