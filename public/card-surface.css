@@ -12,8 +12,8 @@
 .is-interacting .card-object,.card-object.is-interacting{will-change:transform;transition:none}
 .card-finish,.card-finish>span{position:absolute;inset:0;pointer-events:none;border-radius:inherit}
 .card-finish[hidden]{display:none!important}
-.card-finish{--art-mask:url('/card-effects/hi-tech-mask.svg?v=20261114-title-contour');--texture-mask:url('/card-effects/hi-tech-background.svg?v=20261114-title-contour')}
-[data-foil-mask="vegeta"] .card-finish{--texture-mask:url('/card-effects/vegeta-background.svg?v=20261114-title-contour')}
+.card-finish{--art-mask:url('/card-effects/hi-tech-mask.svg?v=20261115-middle-contour');--texture-mask:url('/card-effects/hi-tech-background.svg?v=20261115-middle-contour')}
+[data-foil-mask="vegeta"] .card-finish{--texture-mask:url('/card-effects/vegeta-background.svg?v=20261115-middle-contour')}
 .card-finish>span{mask:var(--art-mask) center/100% 100% no-repeat;-webkit-mask:var(--art-mask) center/100% 100% no-repeat;opacity:var(--foil-strength,.7)}
 .card-finish .card-finish-tonal{background:linear-gradient(112deg,#070c208c 12%,#0b141a66 29%,transparent 42%,transparent 51%,#100b1a77 67%,#080d2077 85%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:multiply}
 .card-finish .card-finish-color{background:linear-gradient(112deg,#000 12%,#2c5489 23%,#72b1b1 31%,#b7b8a0 37%,#fff2c3 42%,#eecca3 46%,#989acb 52%,#3e7478 59%,#000 72%);background-size:250% 220%;background-position:var(--spectrum-x,50%) var(--spectrum-y,50%);mask-image:var(--texture-mask);-webkit-mask-image:var(--texture-mask);mix-blend-mode:color-dodge;opacity:calc(var(--foil-strength,.7) * .5)}
