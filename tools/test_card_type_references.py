@@ -68,6 +68,10 @@ class CardTypeReferences(unittest.TestCase):
         audit = json.loads((ROOT / 'docs/card-type-audit-2026-10-25.json').read_text())
         exceptions = {item['id']: item for item in audit['unresolved_references']}
         image_reviews = {item['id']: item['image'] for item in audit['missing_rules_image_reviewed']}
+        remaining_base = ROOT / 'tools/card-corrections/remaining-personality-fixes-20261115'
+        remaining_release = json.loads((remaining_base / 'manifest.json').read_text())
+        remaining_revisions = {row['id']: row for row in remaining_release['cards'] if row.get('exports')}
+        remaining_checks = {row['path']: row for row in json.loads((remaining_base / 'pixel-verification.json').read_text())}
         title_release = ROOT / 'tools/card-corrections/v3-title-footer-width/release.json'
         title_revisions = {row['id']: row for row in json.loads(title_release.read_text())['cards']} if title_release.exists() else {}
         stroke_release = ROOT / 'tools/card-corrections/v3-saiyan-stroke-weight/release.json'
@@ -90,6 +94,18 @@ class CardTypeReferences(unittest.TestCase):
                     reviewed_image = card['image']
                     image_path = reviewed_image.split('?', 1)[0].removeprefix('/')
                     current_hash = hashlib.sha256((ROOT / 'public' / image_path).read_bytes()).hexdigest()
+                    if card['id'] in remaining_revisions:
+                        revision = remaining_revisions[card['id']]
+                        export = next(e for e in revision['exports'] if e['scale'] == 1)
+                        self.assertEqual(current_hash, export['sha256'])
+                        self.assertEqual(reviewed_image, export['path'].removeprefix('public') + '?v=' + export['sha256'][:12])
+                        self.assertEqual(remaining_checks[export['path']]['protected_pixels_changed'], 0)
+                        if export.get('wording'):
+                            self.assertEqual(card['id'], 'saiyan-184-vegeta-lvl-1-ht')
+                            self.assertEqual(export['wording'], 'Stops an energy attack.')
+                            self.assertIn('aria-label="Stops an energy attack."', (ROOT / export['native']).read_text())
+                        current_hash = export['baseline_sha256']
+                        reviewed_image = revision['before_card']['image']
                     if card['id'] in additional_symbol_revisions:
                         style, revision = additional_symbol_revisions[card['id']]
                         export = next(e for e in revision['exports'] if e['field'] == 'image')

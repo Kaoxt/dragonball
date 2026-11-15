@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {catalog,beforeEyeHash,beforeEyeFile} from './helpers/goku-eye-background-history.js';
+import {catalog as currentCatalog} from '../public/cards/catalog.js';
 import {cardPath,cardFromPath} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -87,7 +88,7 @@ test('updated cards retain Hi-Tech finishes, Arena charts, Ally restrictions, ro
   assert.deepEqual(powerChart(c),c.powerStages.toReversed());
   assert.equal(cardFromPath(cardPath(c),catalog),c);
   const response=await cardPage(new Request('https://dragonballocg.com'+cardPath(c)),assets);
-  assert.equal(response.status,200);assert.ok((await response.text()).includes(c.image));
+  assert.equal(response.status,200);assert.ok((await response.text()).includes(currentCatalog.find(card=>card.id===c.id).image));
   const deck=createDeck();deck.personalities[c.level-1]=snapshot(c);
   assert.deepEqual((await decodeDeck(await encodeDeck(deck),catalog)).personalities,deck.personalities);
  }

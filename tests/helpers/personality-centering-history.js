@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeRemainingFile,beforeRemainingHash} from './remaining-personality-history.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 export const centeringRelease=JSON.parse(fs.readFileSync(new URL('../../tools/card-corrections/personality-centering-20261115/publication.json',import.meta.url),'utf8'));
 const files=new Map(centeringRelease.revisions.map(r=>[r.path,r]));
@@ -15,14 +15,14 @@ function current(p){
  const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p);
  const name=path.relative(root,absolute),revision=files.get(name);
  if(revision&&!verified.has(name)){
-  assert.equal(hash(fs.readFileSync(absolute)),revision.after_sha256,`Current personality centering changed: ${name}`);
+  assert.equal(beforeRemainingHash(absolute),revision.after_sha256,`Current personality centering changed: ${name}`);
   verified.add(name);
  }
  return {absolute,revision};
 }
 export function beforeCenteringHash(p){
  const {absolute,revision}=current(p);
- return revision?.before_sha256??hash(fs.readFileSync(absolute));
+ return revision?.before_sha256??beforeRemainingHash(absolute);
 }
 export function beforeCenteringFile(p,encoding){
  const {absolute,revision}=current(p);
@@ -34,7 +34,7 @@ export function beforeCenteringFile(p,encoding){
  }else{
   // As in the older artwork adapters, raster reads expose current image bytes
   // for format/dimension checks. Historical raster identity uses the hash API.
-  bytes=fs.readFileSync(absolute);
+  bytes=beforeRemainingFile(absolute);
  }
  return encoding?bytes.toString(typeof encoding==='string'?encoding:encoding.encoding):bytes;
 }

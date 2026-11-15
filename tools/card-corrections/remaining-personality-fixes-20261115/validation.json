@@ -1,0 +1,17 @@
+{
+  "dry_run": "PASS: 58 cards; 550 files would change. Dry-run only.",
+  "apply": "PASS: installed 550 files for 58 cards. No commit or deployment.",
+  "idempotence": "PASS: installed 0 files for 58 cards. No commit or deployment.",
+  "earlier_45_card_package_preserved": true,
+  "unrelated_catalog_edits_preserved": true,
+  "all_payload_hashes_match": true,
+  "only_goku160_stage_chart_changed": true,
+  "runtime_Arena_and_foil_tests": "passed",
+  "stale_image_conflict_no_writes": true,
+  "semantic_stage_conflict_no_writes": true,
+  "native_UI_element_preservation": "passed in package.py",
+  "114_lossless_exports_protected_pixels_changed": 0,
+  "visual_review": "56 art windows, 4 enlarged-detail checks, wording comparison and repaired edge checks",
+  "full_repository_suite": "Deferred to publishing integration of historical audit chain; not run in this asset-only snapshot",
+  "deployment": "not performed"
+}

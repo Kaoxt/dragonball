@@ -14,7 +14,7 @@ const artworkRevisions = {
   "android-125-trunks-guardian-drill": "/assets/cards/android-125-trunks-guardian-drill.webp?v=81e32faa7aaf",
   "cell-157-z-warriors-gather": "/assets/cards/cell-157-z-warriors-gather.webp?v=a6a38bfae3ea",
   "cell-158-cell-s-presence": "/assets/cards/cell-158-cell-s-presence.webp?v=15f4a9a147bd",
-  "cell-159-vegeta-the-revitalized": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=92827b4574ae",
+  "cell-159-vegeta-the-revitalized": "/assets/cards/cell-159-vegeta-the-revitalized.webp?v=6fd3fb970702",
   "cell-160-goku-the-all-powerful": "/assets/cards/cell-160-goku-the-all-powerful.webp?v=ac9d2b5a2d1c"
 };
 
@@ -25,6 +25,7 @@ const centeredMaskRevisions = {
 
 export function ultraRareMask(card) {
   const name = artworkRevisions[card.id] === card.image ? card.id : card.templateVersion === 3 ? "generic-v3" : "generic-v2";
+  if (name === "cell-159-vegeta-the-revitalized") return `/card-effects/ultra-rare/${name}.svg?v=6a73c5669193`;
   const revision = centeredMaskRevisions[name];
   return `/card-effects/ultra-rare/${name}.svg${revision ? `?v=${revision}` : ""}`;
 }

@@ -1,3 +1,17 @@
+## Remaining Personality corrections — November 15, 2026
+
+Preserve the supplied 56 artwork placement corrections, Saiyan Vegeta #184's
+"Stops an energy attack." wording, and Saiyan Goku #160's Arena stages
+8,000 / 8,500. The 58 affected records include 57 image cards and 114 exact
+lossless exports. Retain native sources, linked artwork, fixed UI and prior
+repair layers. Four recorded proportional framing exceptions retain their
+original artwork; do not regenerate or globally rerender the supplied WebPs.
+Cell #159's subject mask and artwork pin move together; the Hi-Tech title mask
+remains unchanged. Evidence and independent protected-pixel verification are
+in `tools/card-corrections/remaining-personality-fixes-20261115/`.
+Historical audits start with `remaining-personality-history.js` before the
+previous centering history. Preserve earlier audit manifests unchanged.
+
 ## Personality artwork centering — November 15, 2026
 
 Preserve the supplied horizontal artwork correction on 45 personalities: 17
