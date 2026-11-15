@@ -2,6 +2,10 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "world-games-201-videl": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000],
+  "world-games-p2-chi-chi": [0, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000],
+  "world-games-pr6-supreme-kai": [0, "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z"],
+  "world-games-pr7-majin-vegeta-the-dark-prince": [0, 1300000, 1350000, 1400000, 1450000, 1500000, 1550000, 1600000, 1650000, 1700000, 1750000, 1800000],
   "cell-161-goku-the-hero": [0, 425000, 500000, 575000, 650000, 725000, 800000, 875000, 950000, 1025000, 1100000],
   "cell-162-goku-the-saiyan": [0, 300000, 450000, 600000, 750000, 900000, 1050000, 1200000, 1350000, 1500000, 1650000, 1800000],
   "cell-163-goku-the-perfect-warrior": [0, 1000000, 1200000, 1400000, 1600000, 1800000, 2000000, 2200000, 2400000, 2600000, 2800000, 3000000, 3200000],
