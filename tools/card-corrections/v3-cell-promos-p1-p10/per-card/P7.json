@@ -1,0 +1,169 @@
+{
+  "number": "P7",
+  "id": "cell-p7-its-all-about-time",
+  "name": "It's All About Time",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p7-its-all-about-time.svg",
+  "native_source_sha256": "219e11a66b4857de3fcf92c42db5aa7f218960ef95808e63f2bdcb1dceeb67d7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67.png",
+      "sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Use when needed. When your",
+      "baseline": 1049.3,
+      "width": 818.398,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent reaches 5 or more anger, set their",
+      "baseline": 1108.3,
+      "width": 782.9710000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "anger and stages to 0.",
+      "baseline": 1167.3,
+      "width": 395.871,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p7-its-all-about-time.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "0639c490693f991e751315c821234a862a5f48e6860f454e2b72620785359650",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p7-its-all-about-time.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "8f07cc68de3a8abb5627553cee940c9762f937f00fba8e4c1c8f0bfa89f85143",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        259.608,
+        50.2213,
+        539.783,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.707,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.507,
+        1392.65,
+        41.287,
+        33.708
+      ],
+      "rules-line-1": [
+        121.565,
+        1013.53,
+        815.87,
+        45.521
+      ],
+      "rules-line-2": [
+        138.96,
+        1072.53,
+        781.08,
+        45.913
+      ],
+      "rules-line-3": [
+        332.912,
+        1132.46,
+        393.176,
+        44.982
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 3
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 539.7830423940151,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1518,
+      1036
+    ],
+    "source_sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67",
+    "mapping_matrix": [
+      0.6805006587615283,
+      0,
+      0,
+      0.6805006587615283,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false
+  }
+}

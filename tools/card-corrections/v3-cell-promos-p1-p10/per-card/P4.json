@@ -1,0 +1,157 @@
+{
+  "number": "P4",
+  "id": "cell-p4-hes-safe",
+  "name": "He's Safe",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p4-hes-safe.svg",
+  "native_source_sha256": "f2d56c4a990df56884c7db44b9c72da39fb74f9488bbb8381c55198420454b41",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e.png",
+      "sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: Gain 5 stages. Choose 2 cards from your",
+      "baseline": 1049.3,
+      "width": 862.7429999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile and shuffle them into your Life Deck.",
+      "baseline": 1108.3,
+      "width": 872.347,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p4-hes-safe.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "11aa807866625a18c8c0c3d68aae50b6cf3f43134400e52fbef64fdaecf996bd",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p4-hes-safe.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "73defa651a9798117cf04ae070c249c9499bd05502532dcc7e3eeee92f5a5503",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        390.425,
+        50.2213,
+        278.151,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        794.428,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        854.228,
+        1392.65,
+        45.845,
+        33.708
+      ],
+      "rules-line-1": [
+        99.3682,
+        1013.53,
+        860.264,
+        45.913
+      ],
+      "rules-line-2": [
+        94.87,
+        1072.53,
+        869.26,
+        45.521
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 2
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 278.15087281795513,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1521,
+      1034
+    ],
+    "source_sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e",
+    "mapping_matrix": [
+      0.6791584483892176,
+      0,
+      0,
+      0.6791584483892176,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false
+  }
+}

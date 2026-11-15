@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "passed_tests": 34,
+  "checks": [
+    "5 promo integrity, immutable history, rules, routes and deck checks",
+    "13 browser-model checks including promo filtering and both image URLs",
+    "8 permanent deck-code checks",
+    "8 card-page checks",
+    "All 97 manifest paths match supplied SHA-256 values",
+    "Repeated integration preflight reports zero changes",
+    "npm run check: syntax checks and Wrangler dry-run passed"
+  ],
+  "full_source_validation": "Required in the normal Security checks workflow before production package publication. Local checkout omits unrelated artwork."
+}

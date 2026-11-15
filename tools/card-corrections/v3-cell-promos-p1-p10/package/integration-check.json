@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "applied": false,
+      "new_payload_files": 93,
+      "replaced_payload_files": 0,
+      "changed_index_files": [
+        "public/cards/catalog.js",
+        "public/decks/code-card-ids.js"
+      ],
+      "catalog_added": 10,
+      "deck_ids_appended": 10,
+      "cell_cards_after": 210
+    },
+    {
+      "applied": true,
+      "new_payload_files": 93,
+      "replaced_payload_files": 0,
+      "changed_index_files": [
+        "public/cards/catalog.js",
+        "public/decks/code-card-ids.js"
+      ],
+      "catalog_added": 10,
+      "deck_ids_appended": 10,
+      "cell_cards_after": 210
+    },
+    {
+      "applied": true,
+      "new_payload_files": 0,
+      "replaced_payload_files": 0,
+      "changed_index_files": [],
+      "catalog_added": 0,
+      "deck_ids_appended": 0,
+      "cell_cards_after": 210
+    }
+  ],
+  "existing_catalog_entries_preserved": true,
+  "second_apply_byte_idempotent": true,
+  "full_site_tests_run": false
+}

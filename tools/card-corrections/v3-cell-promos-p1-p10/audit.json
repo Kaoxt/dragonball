@@ -1,0 +1,1793 @@
+[
+  {
+    "number": "P1",
+    "id": "cell-p1-cells-self-destruct",
+    "name": "Cell's Self Destruct",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p1-cells-self-destruct.svg",
+    "native_source_sha256": "85f066ab4fc84b80884846b9fabeed4899f46b0ff754ceeae0f4338d1f952667",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3.png",
+        "sha256": "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Limit 1 per deck unless your Main Personality is",
+        "baseline": 1049.3,
+        "width": 837.41,
+        "icon_inline": false
+      },
+      {
+        "text": "Cell. Energy attack costing 2 stages. DAMAGE:",
+        "baseline": 1108.3,
+        "width": 866.0791555438592,
+        "icon_inline": true
+      },
+      {
+        "text": "12 life cards. HIT: If you don't defeat your",
+        "baseline": 1167.3,
+        "width": 727.3560000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent, you lose the game. Banish after use.",
+        "baseline": 1226.3,
+        "width": 831.6280000000002,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p1-cells-self-destruct.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "588026df09de10d1a70fb1fdf3be77639f13bc07cf9e31bd22c7991ce731d870",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p1-cells-self-destruct.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "54e0899b4ed05a29aeb545697376449ecc6c014c326ebb625626fc0e59cfc1a6",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          244.423,
+          50.2213,
+          570.153,
+          57.5574
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          799.94,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          859.739,
+          1392.65,
+          34.821,
+          33.708
+        ],
+        "rules-line-1": [
+          112.29,
+          1013.53,
+          834.421,
+          45.521
+        ],
+        "rules-line-2": [
+          98.6899,
+          1072.53,
+          861.62,
+          45.913
+        ],
+        "power-icon": [
+          184.533,
+          1074.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-3": [
+          166.229,
+          1131.53,
+          726.543,
+          45.521
+        ],
+        "rules-line-4": [
+          115.229,
+          1190.53,
+          828.541,
+          45.913
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-2",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 5,
+          "previous_visible_bounds": [
+            184.533,
+            1074.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            239.128,
+            1074.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            184.533,
+            1074.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 4
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 570.1533665835412,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1520,
+        1034
+      ],
+      "source_sha256": "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3",
+      "mapping_matrix": [
+        0.6796052631578947,
+        0,
+        0,
+        0.6796052631578947,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P2",
+    "id": "cell-p2-cells-domination-drill",
+    "name": "Cell's Domination Drill",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p2-cells-domination-drill.svg",
+    "native_source_sha256": "e3daf3f1aabbfc5f83308adc953f34549f4b136fb6eef7bdf228694d0f1fc509",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729.png",
+        "sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Whenever your opponent places a",
+        "baseline": 1049.3,
+        "width": 669.2247500000001,
+        "icon_inline": true
+      },
+      {
+        "text": "Battleground in play, they discard the top 3 cards",
+        "baseline": 1108.3,
+        "width": 875.4340000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "of their Life Deck.",
+        "baseline": 1167.3,
+        "width": 316.24600000000004,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p2-cells-domination-drill.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "f3072c8270ad1c9496d291f1f17f419adb3ee521acfd79bf90b399a03579fa47",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p2-cells-domination-drill.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "a758d813a543ccd30ab0989b598c9aa9dede9125c23ef07f5ec9b465515881ff",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          197.577,
+          50.2213,
+          663.845,
+          57.5574
+        ],
+        "card-category": [
+          448.339,
+          891.991,
+          162.322,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          796.15,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.95,
+          1392.65,
+          42.4,
+          33.708
+        ],
+        "rules-line-1": [
+          262.221,
+          1015.0,
+          601.132,
+          44.051
+        ],
+        "power-icon": [
+          195.647,
+          1020.36,
+          53.5938,
+          23.5813
+        ],
+        "rules-line-2": [
+          93.2775,
+          1072.53,
+          872.445,
+          45.913
+        ],
+        "rules-line-3": [
+          372.92,
+          1131.53,
+          313.159,
+          36.162
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "infinity_without_colon",
+          "first_capital": "W",
+          "capital_glyph_index": 0,
+          "previous_visible_bounds": [
+            195.647,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "capital_visible_bounds": [
+            262.221,
+            1015.0,
+            31.7651,
+            34.3
+          ],
+          "new_visible_bounds": [
+            195.647,
+            1022.5,
+            41.8031,
+            19.2938
+          ],
+          "vertical_shift": 0,
+          "center_error": -0.003100000000131331,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": true
+        }
+      ],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 3
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 663.8453865336659,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1476,
+        1065
+      ],
+      "source_sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729",
+      "mapping_matrix": [
+        0.6998644986449865,
+        0,
+        0,
+        0.6998644986449865,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 19.677845528455293,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P3",
+    "id": "cell-p3-kamis-idea",
+    "name": "Kami's Idea",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p3-kamis-idea.svg",
+    "native_source_sha256": "376cb77eb2f3afe88147d11b92c010a06b79b6caad536748ffc5eb0e116aa4af",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea.png",
+        "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa.png",
+        "sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Heroes only. POWER: If your opponent has more",
+        "baseline": 1049.3,
+        "width": 844.3680000000002,
+        "icon_inline": false
+      },
+      {
+        "text": "stages than you, raise your Main Personality to its",
+        "baseline": 1108.3,
+        "width": 886.606,
+        "icon_inline": false
+      },
+      {
+        "text": "highest stage and shuffle the bottom card of your",
+        "baseline": 1167.3,
+        "width": 881.4609999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "discard pile into your Life Deck. Lower your",
+        "baseline": 1226.3,
+        "width": 771.5539999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent's anger 2 levels.",
+        "baseline": 1285.3,
+        "width": 464.32400000000007,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p3-kamis-idea.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "6f39d8facc0546abe950146febaae797da354264dc2c001892d4b6f5923fc7aa",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p3-kamis-idea.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "569eb3d619931c1e6728e5c12407994528d5e4784660a20a7c0d6c14c4dde665",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          356.14,
+          50.2213,
+          346.721,
+          57.5574
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          796.071,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.871,
+          1392.65,
+          42.559,
+          33.708
+        ],
+        "rules-line-1": [
+          109.055,
+          1014.61,
+          840.889,
+          44.443
+        ],
+        "rules-line-2": [
+          87.2015,
+          1072.53,
+          884.597,
+          45.913
+        ],
+        "rules-line-3": [
+          89.8867,
+          1131.53,
+          879.227,
+          45.913
+        ],
+        "rules-line-4": [
+          144.669,
+          1190.53,
+          769.663,
+          45.521
+        ],
+        "rules-line-5": [
+          298.881,
+          1250.61,
+          461.237,
+          44.835
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 5
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 346.72069825436415,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "user-selected direct restoration",
+      "source_dimensions": [
+        1624,
+        968
+      ],
+      "source_sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa",
+      "mapping_matrix": [
+        0.6360837438423645,
+        0,
+        0,
+        0.6360837438423645,
+        14,
+        146
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false,
+      "bottom_extension": {
+        "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P03-bottom-extension.png",
+        "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea",
+        "uniform_scale": 0.6537974683544304,
+        "visible_destination": [
+          14,
+          731.7290640394089,
+          1033,
+          120.27093596059115
+        ],
+        "edge_blend_height": 30,
+        "scope": "Lower clothing/scenery continuation with a short edge blend; both approved faces and overlap are outside the blend."
+      }
+    }
+  },
+  {
+    "number": "P4",
+    "id": "cell-p4-hes-safe",
+    "name": "He's Safe",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p4-hes-safe.svg",
+    "native_source_sha256": "f2d56c4a990df56884c7db44b9c72da39fb74f9488bbb8381c55198420454b41",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e.png",
+        "sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "POWER: Gain 5 stages. Choose 2 cards from your",
+        "baseline": 1049.3,
+        "width": 862.7429999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "discard pile and shuffle them into your Life Deck.",
+        "baseline": 1108.3,
+        "width": 872.347,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p4-hes-safe.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "11aa807866625a18c8c0c3d68aae50b6cf3f43134400e52fbef64fdaecf996bd",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p4-hes-safe.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "73defa651a9798117cf04ae070c249c9499bd05502532dcc7e3eeee92f5a5503",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          390.425,
+          50.2213,
+          278.151,
+          57.5574
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          794.428,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          854.228,
+          1392.65,
+          45.845,
+          33.708
+        ],
+        "rules-line-1": [
+          99.3682,
+          1013.53,
+          860.264,
+          45.913
+        ],
+        "rules-line-2": [
+          94.87,
+          1072.53,
+          869.26,
+          45.521
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 278.15087281795513,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1521,
+        1034
+      ],
+      "source_sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e",
+      "mapping_matrix": [
+        0.6791584483892176,
+        0,
+        0,
+        0.6791584483892176,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P5",
+    "id": "cell-p5-just-thinking",
+    "name": "Just Thinking",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p5-just-thinking.svg",
+    "native_source_sha256": "428e0601119916ff9222bd2c59fd0b7db34b0dae26193fa08a689240c0f7e39c",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573.png",
+        "sha256": "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Villains only. Energy attack costing 1 stage.",
+        "baseline": 1049.3,
+        "width": 822.8611555438594,
+        "icon_inline": true
+      },
+      {
+        "text": "DAMAGE: 6 stages.",
+        "baseline": 1108.3,
+        "width": 326.78100000000006,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p5-just-thinking.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "bd716a424c43ddd9c24abcc7a0f542cb15526490d9d4273f913c979c3699c66e",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p5-just-thinking.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "ae4c058d28f04399a48c0a0bbdf854b07a0134f7fdb32404ae2b8708216dfea7",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          329.039,
+          44.5,
+          400.923,
+          69.0
+        ],
+        "card-category": [
+          270.969,
+          891.391,
+          517.061,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          795.488,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.287,
+          1392.65,
+          43.725,
+          33.708
+        ],
+        "rules-line-1": [
+          119.392,
+          1013.53,
+          820.215,
+          45.913
+        ],
+        "power-icon": [
+          355.371,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "rules-line-2": [
+          367.971,
+          1073.61,
+          323.057,
+          44.835
+        ]
+      },
+      "icons": [
+        {
+          "icon": "power-icon",
+          "line": "rules-line-1",
+          "measured_symbol": "whole_icon",
+          "first_capital": "E",
+          "capital_glyph_index": 13,
+          "previous_visible_bounds": [
+            355.371,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "capital_visible_bounds": [
+            409.967,
+            1015.0,
+            17.983,
+            34.3
+          ],
+          "new_visible_bounds": [
+            355.371,
+            1015.0,
+            40.4392,
+            34.3
+          ],
+          "vertical_shift": 0,
+          "center_error": 0.0,
+          "shape_size_and_horizontal_position_preserved": true,
+          "colon_and_text_unchanged": false
+        }
+      ],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 400.922693266833,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1519,
+        1036
+      ],
+      "source_sha256": "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573",
+      "mapping_matrix": [
+        0.6800526662277815,
+        0,
+        0,
+        0.6800526662277815,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P6",
+    "id": "cell-p6-land-in-pain",
+    "name": "Land in Pain",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p6-land-in-pain.svg",
+    "native_source_sha256": "632802513dce2edd3eecec7a9834963b58d58909e5b60ed741a4f71ae034a048",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461.png",
+        "sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "POWER: Discard any Battleground in play. Search",
+        "baseline": 1049.3,
+        "width": 868.182,
+        "icon_inline": false
+      },
+      {
+        "text": "all Life Decks and discard all Battlegrounds.",
+        "baseline": 1108.3,
+        "width": 779.1490000000001,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p6-land-in-pain.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "d79a9dfe80a972176256e2b63122d121d87a530b848731d52a994d4d598d75e2",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p6-land-in-pain.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "19907456a8c636e3a399a09e187544fe536955d28ba8d04fca7d2d23d782bbc9",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          350.203,
+          50.2213,
+          358.594,
+          57.5574
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.181,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          97.2955,
+          1013.53,
+          864.409,
+          45.913
+        ],
+        "rules-line-2": [
+          141.273,
+          1072.53,
+          776.454,
+          45.913
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 358.5935162094764,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1520,
+        1035
+      ],
+      "source_sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461",
+      "mapping_matrix": [
+        0.6796052631578947,
+        0,
+        0,
+        0.6796052631578947,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P7",
+    "id": "cell-p7-its-all-about-time",
+    "name": "It's All About Time",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p7-its-all-about-time.svg",
+    "native_source_sha256": "219e11a66b4857de3fcf92c42db5aa7f218960ef95808e63f2bdcb1dceeb67d7",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67.png",
+        "sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Limit 1 per deck. Use when needed. When your",
+        "baseline": 1049.3,
+        "width": 818.398,
+        "icon_inline": false
+      },
+      {
+        "text": "opponent reaches 5 or more anger, set their",
+        "baseline": 1108.3,
+        "width": 782.9710000000001,
+        "icon_inline": false
+      },
+      {
+        "text": "anger and stages to 0.",
+        "baseline": 1167.3,
+        "width": 395.871,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p7-its-all-about-time.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "0639c490693f991e751315c821234a862a5f48e6860f454e2b72620785359650",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p7-its-all-about-time.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "8f07cc68de3a8abb5627553cee940c9762f937f00fba8e4c1c8f0bfa89f85143",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          259.608,
+          50.2213,
+          539.783,
+          57.5574
+        ],
+        "card-category": [
+          432.072,
+          891.391,
+          194.856,
+          34.2188
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          796.707,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          856.507,
+          1392.65,
+          41.287,
+          33.708
+        ],
+        "rules-line-1": [
+          121.565,
+          1013.53,
+          815.87,
+          45.521
+        ],
+        "rules-line-2": [
+          138.96,
+          1072.53,
+          781.08,
+          45.913
+        ],
+        "rules-line-3": [
+          332.912,
+          1132.46,
+          393.176,
+          44.982
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 3
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 539.7830423940151,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1518,
+        1036
+      ],
+      "source_sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67",
+      "mapping_matrix": [
+        0.6805006587615283,
+        0,
+        0,
+        0.6805006587615283,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P8",
+    "id": "cell-p8-trunks-thinking",
+    "name": "Trunks Thinking",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p8-trunks-thinking.svg",
+    "native_source_sha256": "864c77fed2f07526e7c575caa42e85695040617f703ef646990b5fedc55e0fd0",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b.png",
+        "sha256": "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Limit 1 per deck. POWER: Draw a card. If its title",
+        "baseline": 1049.3,
+        "width": 842.4569999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "contains \"Trunks\", draw another card.",
+        "baseline": 1108.3,
+        "width": 682.1290000000001,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p8-trunks-thinking.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "1029ed3017600ffe519f7eafe2587538a7fde5c92c0c49bf2aee13ac17455dc0",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p8-trunks-thinking.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "40ab3076e4be2bc903d85d6d9abbb03f5d1c28aee361401bbf9f5e3fb5b35bc5",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          291.269,
+          44.5,
+          476.461,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          795.382,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.181,
+          1392.65,
+          43.937,
+          33.708
+        ],
+        "rules-line-1": [
+          110.011,
+          1013.53,
+          838.978,
+          44.884
+        ],
+        "rules-line-2": [
+          189.979,
+          1072.53,
+          679.042,
+          40.572
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 476.46134663341655,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1519,
+        1036
+      ],
+      "source_sha256": "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b",
+      "mapping_matrix": [
+        0.6800526662277815,
+        0,
+        0,
+        0.6800526662277815,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P9",
+    "id": "cell-p9-looking-good",
+    "name": "Looking Good",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p9-looking-good.svg",
+    "native_source_sha256": "88f19fd0e526fd80ee4433c1eb33883872df2cada3600a3b0ee993c3864cd46c",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94.png",
+        "sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "Android 18 only. POWER: Search your Life Deck for",
+        "baseline": 1049.3,
+        "width": 886.3119999999999,
+        "icon_inline": false
+      },
+      {
+        "text": "2 Allies and put them into play at their highest",
+        "baseline": 1108.3,
+        "width": 815.85,
+        "icon_inline": false
+      },
+      {
+        "text": "stage.",
+        "baseline": 1167.3,
+        "width": 110.201,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p9-looking-good.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "bcdfdddad50f9f24c14fc29df313f714c15a356e59449ccd3d5dc6aba87b9e3e",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p9-looking-good.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "4c1ada926eb86eb3734794d3ecd925616e85afc6c8bb11411b663a202a210240",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          330.071,
+          44.5,
+          398.858,
+          69.0
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          795.594,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          855.393,
+          1392.65,
+          43.513,
+          33.708
+        ],
+        "rules-line-1": [
+          86.8594,
+          1013.53,
+          885.281,
+          45.521
+        ],
+        "rules-line-2": [
+          122.628,
+          1072.53,
+          813.743,
+          45.913
+        ],
+        "rules-line-3": [
+          475.772,
+          1135.84,
+          107.457,
+          41.601
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 3
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 398.8578553615961,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1519,
+        1036
+      ],
+      "source_sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94",
+      "mapping_matrix": [
+        0.6800526662277815,
+        0,
+        0,
+        0.6800526662277815,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  },
+  {
+    "number": "P10",
+    "id": "cell-p10-piccolos-fist-block",
+    "name": "Piccolo's Fist Block",
+    "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p10-piccolos-fist-block.svg",
+    "native_source_sha256": "14c971b4ab2958782d8c6130ab096c47443907d041531ceddd8f0245cc64c289",
+    "assets": [
+      {
+        "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+        "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+        "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37.png",
+        "sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+        "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+      },
+      {
+        "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+        "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+      }
+    ],
+    "rules": [
+      {
+        "text": "POWER: Your opponent cannot use Event cards",
+        "baseline": 1049.3,
+        "width": 833.49,
+        "icon_inline": false
+      },
+      {
+        "text": "for the rest of this Combat.",
+        "baseline": 1108.3,
+        "width": 480.00400000000013,
+        "icon_inline": false
+      }
+    ],
+    "exports": [
+      {
+        "field": "image",
+        "path": "public/assets/cards/cell-p10-piccolos-fist-block.webp",
+        "size": [
+          1060,
+          1484
+        ],
+        "sha256": "025adba1d1262b34b132d71f451ee628dcde4d0967c9d720a12f4ab67ef9969d",
+        "lossless_round_trip": true
+      },
+      {
+        "field": "downloadImage",
+        "path": "public/assets/cards/downloads/cell-p10-piccolos-fist-block.webp",
+        "size": [
+          2120,
+          2968
+        ],
+        "sha256": "31abe1f556ef8b6461baca9679c25cdc335ddf9019cd07d2a1f84902c97a4961",
+        "lossless_round_trip": true
+      }
+    ],
+    "native_geometry": {
+      "bounds": {
+        "card-title": [
+          236.551,
+          50.2213,
+          585.898,
+          57.5574
+        ],
+        "card-category": [
+          433.596,
+          891.991,
+          191.808,
+          33.0187
+        ],
+        "footer-text-block": [
+          334.3,
+          1382.98,
+          390.4,
+          53.04
+        ],
+        "saga-emblem": [
+          172.185,
+          1370.67,
+          79.1294,
+          77.6625
+        ],
+        "footer-rarity": [
+          787.67,
+          1385.7,
+          47.6,
+          47.6
+        ],
+        "card-number": [
+          847.47,
+          1392.65,
+          59.36,
+          33.708
+        ],
+        "rules-line-1": [
+          114.225,
+          1014.61,
+          830.55,
+          43.806
+        ],
+        "rules-line-2": [
+          290.723,
+          1072.53,
+          477.554,
+          36.162
+        ]
+      },
+      "icons": [],
+      "validation": {
+        "revision": "2026-11-01-fixed-native-text-components",
+        "native_outlined_text": true,
+        "fixed_category_svg_matches": true,
+        "visible_ink_anchors_verified": true,
+        "rules_rows": 2
+      }
+    },
+    "title_fit": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 585.8977556109727,
+      "visible_height": 57.55735660847881,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "rarity_stars": 2,
+    "artwork": {
+      "mode": "new modern illustration based on original scan",
+      "source_dimensions": [
+        1519,
+        1035
+      ],
+      "source_sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37",
+      "mapping_matrix": [
+        0.6800526662277815,
+        0,
+        0,
+        0.6800526662277815,
+        14,
+        1370.67
+      ],
+      "horizontal_crop": 0,
+      "vertical_template_clip": 0,
+      "additional_zoom": false
+    }
+  }
+]

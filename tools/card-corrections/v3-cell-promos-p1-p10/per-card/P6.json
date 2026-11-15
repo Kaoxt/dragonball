@@ -1,0 +1,157 @@
+{
+  "number": "P6",
+  "id": "cell-p6-land-in-pain",
+  "name": "Land in Pain",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p6-land-in-pain.svg",
+  "native_source_sha256": "632802513dce2edd3eecec7a9834963b58d58909e5b60ed741a4f71ae034a048",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461.png",
+      "sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: Discard any Battleground in play. Search",
+      "baseline": 1049.3,
+      "width": 868.182,
+      "icon_inline": false
+    },
+    {
+      "text": "all Life Decks and discard all Battlegrounds.",
+      "baseline": 1108.3,
+      "width": 779.1490000000001,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p6-land-in-pain.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "d79a9dfe80a972176256e2b63122d121d87a530b848731d52a994d4d598d75e2",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p6-land-in-pain.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "19907456a8c636e3a399a09e187544fe536955d28ba8d04fca7d2d23d782bbc9",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        350.203,
+        50.2213,
+        358.594,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.382,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.181,
+        1392.65,
+        43.937,
+        33.708
+      ],
+      "rules-line-1": [
+        97.2955,
+        1013.53,
+        864.409,
+        45.913
+      ],
+      "rules-line-2": [
+        141.273,
+        1072.53,
+        776.454,
+        45.913
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 2
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 358.5935162094764,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1520,
+      1035
+    ],
+    "source_sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461",
+    "mapping_matrix": [
+      0.6796052631578947,
+      0,
+      0,
+      0.6796052631578947,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false
+  }
+}

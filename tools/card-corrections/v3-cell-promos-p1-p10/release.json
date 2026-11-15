@@ -1,0 +1,24 @@
+{
+  "set": "Cell Saga",
+  "scope": "P1\u2013P10 regular playable promos",
+  "count": 10,
+  "baseline_commit": "ecf893c25b31fd81d64d8f041b75376e71e449fd",
+  "published": false,
+  "exports": 20,
+  "native_sources": 10,
+  "numbered_cards_modified": 0,
+  "render_validation": "Both WebP sizes decoded pixel-identically to their native render/downsample before packaging.",
+  "checks": [
+    "native title/category/footer ink bounds",
+    "rules 1\u20135 rows at fixed font size",
+    "footer spacing idempotence",
+    "power icon alignment idempotence",
+    "no duplicate SVG IDs",
+    "no rasterized card text",
+    "all linked assets resolved",
+    "Freestyle 0.8 outline",
+    "two-star rarity",
+    "original and CRD wording review",
+    "card-type checker: no findings"
+  ]
+}

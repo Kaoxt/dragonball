@@ -1,0 +1,210 @@
+{
+  "number": "P3",
+  "id": "cell-p3-kamis-idea",
+  "name": "Kami's Idea",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p3-kamis-idea.svg",
+  "native_source_sha256": "376cb77eb2f3afe88147d11b92c010a06b79b6caad536748ffc5eb0e116aa4af",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea.png",
+      "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa.png",
+      "sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Heroes only. POWER: If your opponent has more",
+      "baseline": 1049.3,
+      "width": 844.3680000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "stages than you, raise your Main Personality to its",
+      "baseline": 1108.3,
+      "width": 886.606,
+      "icon_inline": false
+    },
+    {
+      "text": "highest stage and shuffle the bottom card of your",
+      "baseline": 1167.3,
+      "width": 881.4609999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile into your Life Deck. Lower your",
+      "baseline": 1226.3,
+      "width": 771.5539999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's anger 2 levels.",
+      "baseline": 1285.3,
+      "width": 464.32400000000007,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p3-kamis-idea.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "6f39d8facc0546abe950146febaae797da354264dc2c001892d4b6f5923fc7aa",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p3-kamis-idea.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "569eb3d619931c1e6728e5c12407994528d5e4784660a20a7c0d6c14c4dde665",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        356.14,
+        50.2213,
+        346.721,
+        57.5574
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.071,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.871,
+        1392.65,
+        42.559,
+        33.708
+      ],
+      "rules-line-1": [
+        109.055,
+        1014.61,
+        840.889,
+        44.443
+      ],
+      "rules-line-2": [
+        87.2015,
+        1072.53,
+        884.597,
+        45.913
+      ],
+      "rules-line-3": [
+        89.8867,
+        1131.53,
+        879.227,
+        45.913
+      ],
+      "rules-line-4": [
+        144.669,
+        1190.53,
+        769.663,
+        45.521
+      ],
+      "rules-line-5": [
+        298.881,
+        1250.61,
+        461.237,
+        44.835
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 5
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 346.72069825436415,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "user-selected direct restoration",
+    "source_dimensions": [
+      1624,
+      968
+    ],
+    "source_sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa",
+    "mapping_matrix": [
+      0.6360837438423645,
+      0,
+      0,
+      0.6360837438423645,
+      14,
+      146
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false,
+    "bottom_extension": {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P03-bottom-extension.png",
+      "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea",
+      "uniform_scale": 0.6537974683544304,
+      "visible_destination": [
+        14,
+        731.7290640394089,
+        1033,
+        120.27093596059115
+      ],
+      "edge_blend_height": 30,
+      "scope": "Lower clothing/scenery continuation with a short edge blend; both approved faces and overlap are outside the blend."
+    }
+  }
+}

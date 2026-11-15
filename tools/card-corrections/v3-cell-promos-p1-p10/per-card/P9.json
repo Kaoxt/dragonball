@@ -1,0 +1,169 @@
+{
+  "number": "P9",
+  "id": "cell-p9-looking-good",
+  "name": "Looking Good",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p9-looking-good.svg",
+  "native_source_sha256": "88f19fd0e526fd80ee4433c1eb33883872df2cada3600a3b0ee993c3864cd46c",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94.png",
+      "sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Android 18 only. POWER: Search your Life Deck for",
+      "baseline": 1049.3,
+      "width": 886.3119999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "2 Allies and put them into play at their highest",
+      "baseline": 1108.3,
+      "width": 815.85,
+      "icon_inline": false
+    },
+    {
+      "text": "stage.",
+      "baseline": 1167.3,
+      "width": 110.201,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p9-looking-good.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "bcdfdddad50f9f24c14fc29df313f714c15a356e59449ccd3d5dc6aba87b9e3e",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p9-looking-good.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "4c1ada926eb86eb3734794d3ecd925616e85afc6c8bb11411b663a202a210240",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        330.071,
+        44.5,
+        398.858,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        795.594,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.393,
+        1392.65,
+        43.513,
+        33.708
+      ],
+      "rules-line-1": [
+        86.8594,
+        1013.53,
+        885.281,
+        45.521
+      ],
+      "rules-line-2": [
+        122.628,
+        1072.53,
+        813.743,
+        45.913
+      ],
+      "rules-line-3": [
+        475.772,
+        1135.84,
+        107.457,
+        41.601
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 3
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 398.8578553615961,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1519,
+      1036
+    ],
+    "source_sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94",
+    "mapping_matrix": [
+      0.6800526662277815,
+      0,
+      0,
+      0.6800526662277815,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false
+  }
+}

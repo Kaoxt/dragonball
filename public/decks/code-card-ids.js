@@ -499,5 +499,15 @@ export const codeCardIds = [
   "world-games-pr4-energy-drain",
   "world-games-pr5-supreme-kais-power-hold",
   "world-games-pr6-supreme-kai",
-  "world-games-pr7-majin-vegeta-the-dark-prince"
+  "world-games-pr7-majin-vegeta-the-dark-prince",
+  "cell-p1-cells-self-destruct",
+  "cell-p2-cells-domination-drill",
+  "cell-p3-kamis-idea",
+  "cell-p4-hes-safe",
+  "cell-p5-just-thinking",
+  "cell-p6-land-in-pain",
+  "cell-p7-its-all-about-time",
+  "cell-p8-trunks-thinking",
+  "cell-p9-looking-good",
+  "cell-p10-piccolos-fist-block"
 ];

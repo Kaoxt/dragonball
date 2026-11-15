@@ -1,0 +1,205 @@
+{
+  "number": "P2",
+  "id": "cell-p2-cells-domination-drill",
+  "name": "Cell's Domination Drill",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p2-cells-domination-drill.svg",
+  "native_source_sha256": "e3daf3f1aabbfc5f83308adc953f34549f4b136fb6eef7bdf228694d0f1fc509",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729.png",
+      "sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Whenever your opponent places a",
+      "baseline": 1049.3,
+      "width": 669.2247500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "Battleground in play, they discard the top 3 cards",
+      "baseline": 1108.3,
+      "width": 875.4340000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "of their Life Deck.",
+      "baseline": 1167.3,
+      "width": 316.24600000000004,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p2-cells-domination-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f3072c8270ad1c9496d291f1f17f419adb3ee521acfd79bf90b399a03579fa47",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p2-cells-domination-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "a758d813a543ccd30ab0989b598c9aa9dede9125c23ef07f5ec9b465515881ff",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        197.577,
+        50.2213,
+        663.845,
+        57.5574
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        796.15,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.95,
+        1392.65,
+        42.4,
+        33.708
+      ],
+      "rules-line-1": [
+        262.221,
+        1015.0,
+        601.132,
+        44.051
+      ],
+      "power-icon": [
+        195.647,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        93.2775,
+        1072.53,
+        872.445,
+        45.913
+      ],
+      "rules-line-3": [
+        372.92,
+        1131.53,
+        313.159,
+        36.162
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "W",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          195.647,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          262.221,
+          1015.0,
+          31.7651,
+          34.3
+        ],
+        "new_visible_bounds": [
+          195.647,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 3
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 663.8453865336659,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1476,
+      1065
+    ],
+    "source_sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729",
+    "mapping_matrix": [
+      0.6998644986449865,
+      0,
+      0,
+      0.6998644986449865,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 19.677845528455293,
+    "additional_zoom": false
+  }
+}

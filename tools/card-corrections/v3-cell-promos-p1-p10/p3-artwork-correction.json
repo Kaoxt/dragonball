@@ -1,0 +1,65 @@
+{
+  "card": "Cell Saga P3",
+  "status": "User-selected restoration rendered; not published",
+  "source": "originals/P03-user-reference.png",
+  "supporting_source": "originals/P03-PSA.webp",
+  "selection": {
+    "user_feedback": "This one looks much better",
+    "approved_artwork": "artwork/P03.png",
+    "approved_artwork_sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa",
+    "source_bytes_retained_exactly": true,
+    "faces_and_overlap_not_regenerated_in_final_card": true,
+    "uniform_width_fit": true,
+    "bottom_extension": "Generated continuation fills the lower edge with a 30-native-unit clothing/scenery transition. Neither face nor the facial overlap is within that transition."
+  },
+  "exports": [
+    {
+      "export": "display",
+      "changed_pixels": 734761,
+      "changed_bbox": [
+        12,
+        143,
+        1049,
+        854
+      ],
+      "pixels_changed_outside_artwork_and_lanczos_halo": 0
+    },
+    {
+      "export": "download",
+      "changed_pixels": 2910970,
+      "changed_bbox": [
+        29,
+        292,
+        2093,
+        1703
+      ],
+      "pixels_changed_outside_artwork_and_lanczos_halo": 0
+    }
+  ],
+  "protected_other_card_files": 27,
+  "native_text_and_symbols_byte_identical": true,
+  "unchanged_native_groups": [
+    "background-brightness-trial-wrapper",
+    "clean-native-artwork-rails",
+    "shared-title-material",
+    "card-title",
+    "shared-rules-component",
+    "middle-paint-art-edge-wrapper",
+    "card-category",
+    "tokui-waza-smoky-backing",
+    "tokui-waza-symbol",
+    "shared-footer-material",
+    "footer-text-block",
+    "saga-emblem",
+    "footer-rarity",
+    "card-number",
+    "rules-line-1",
+    "rules-line-2",
+    "rules-line-3",
+    "rules-line-4",
+    "rules-line-5"
+  ],
+  "final_card_visually_reviewed": true,
+  "bottom_join_reviewed": true,
+  "limitation": "The chosen artwork is a user-approved restoration, not a certified exact tracing of the scan."
+}

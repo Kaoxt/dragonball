@@ -1,0 +1,112 @@
+{
+  "source_file": "Expanded-CRD-reference.txt",
+  "source_sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+  "cards": [
+    {
+      "number": "P1",
+      "original_rules": "Energy attack doing 12 life cards of damage. If successful, and you don't defeat your opponent, you lose the game. Remove from the game after use. Limit 1 per deck, unless your Main Personality is Cell.",
+      "crd_matches": [],
+      "corrected_effect": "Energy attack doing 12 life cards of damage. If successful, and you don't defeat your opponent, you lose the game. Remove from the game after use. Limit 1 per deck, unless your Main Personality is Cell. Costs 2 power stages to perform (CRD default).",
+      "modern_rules": "Limit 1 per deck unless your Main Personality is Cell. Energy attack costing 2 stages. DAMAGE: 12 life cards. HIT: If you don't defeat your opponent, you lose the game. Banish after use.",
+      "notes": [
+        "Unspecified energy cost is 2 stages: CRD lines 643\u2013648. The Cell exception and successful-attack loss condition are retained."
+      ]
+    },
+    {
+      "number": "P2",
+      "original_rules": "Whenever your opponent places a Battleground in play, he discards the top 3 cards from his Life Deck.",
+      "crd_matches": [],
+      "corrected_effect": "Whenever your opponent places a Battleground in play, he discards the top 3 cards from his Life Deck.",
+      "modern_rules": "Whenever your opponent places a Battleground in play, they discard the top 3 cards of their Life Deck.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P3",
+      "original_rules": "Heroes only. If your opponent has more power stages than you, raise your Main Personality to his highest power stage and shuffle the bottom card from your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
+      "crd_matches": [],
+      "corrected_effect": "Heroes only. If your opponent has more power stages than you, raise your Main Personality to his highest power stage and shuffle the bottom card from your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
+      "modern_rules": "Heroes only. POWER: If your opponent has more stages than you, raise your Main Personality to its highest stage and shuffle the bottom card of your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
+      "notes": [
+        "Conditional highest-stage gain and bottom-discard shuffle; separate final anger reduction."
+      ]
+    },
+    {
+      "number": "P4",
+      "original_rules": "Gain 5 power stages. Choose 2 cards from your discard pile and shuffle them into your Life Deck.",
+      "crd_matches": [],
+      "corrected_effect": "Gain 5 power stages. Choose 2 cards from your discard pile and shuffle them into your Life Deck.",
+      "modern_rules": "POWER: Gain 5 stages. Choose 2 cards from your discard pile and shuffle them into your Life Deck.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P5",
+      "original_rules": "Villains only. Energy attack doing 6 power stages of damage. Costs 1 power stage to perform.",
+      "crd_matches": [],
+      "corrected_effect": "Villains only. Energy attack doing 6 power stages of damage. Costs 1 power stage to perform.",
+      "modern_rules": "Villains only. Energy attack costing 1 stage. DAMAGE: 6 stages.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P6",
+      "original_rules": "Discard any Battleground in play. Search all life decks and discard all Battlegrounds.",
+      "crd_matches": [],
+      "corrected_effect": "Discard any Battleground in play. Search all life decks and discard all Battlegrounds.",
+      "modern_rules": "POWER: Discard any Battleground in play. Search all Life Decks and discard all Battlegrounds.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P7",
+      "original_rules": "Use when needed. When your opponent reaches 5 or more anger, set his anger and power stages to 0. Limit 1 per deck.",
+      "crd_matches": [],
+      "corrected_effect": "Use when needed. When your opponent reaches 5 or more anger, set his anger and power stages to 0. Limit 1 per deck.",
+      "modern_rules": "Limit 1 per deck. Use when needed. When your opponent reaches 5 or more anger, set their anger and stages to 0.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P8",
+      "original_rules": "Draw a card. If that card has \"Trunks\" in the card title, draw another card.",
+      "crd_matches": [
+        {
+          "line": 2018,
+          "text": "Trunks Thinking"
+        }
+      ],
+      "corrected_effect": "Limit 1 per deck. Draw a card. If that card has \"Trunks\" in the card title, draw another card.",
+      "modern_rules": "Limit 1 per deck. POWER: Draw a card. If its title contains \"Trunks\", draw another card.",
+      "notes": [
+        "Expanded CRD Restricted List, lines 1993\u20132018, adds Limit 1 per deck."
+      ]
+    },
+    {
+      "number": "P9",
+      "original_rules": "Android 18 only. Choose 2 Allies from your Life Deck and put them into play at their highest power stage.",
+      "crd_matches": [],
+      "corrected_effect": "Android 18 only. Choose 2 Allies from your Life Deck and put them into play at their highest power stage.",
+      "modern_rules": "Android 18 only. POWER: Search your Life Deck for 2 Allies and put them into play at their highest stage.",
+      "notes": [
+        "No title-specific update found in supplied Expanded CRD; source mechanics retained."
+      ]
+    },
+    {
+      "number": "P10",
+      "original_rules": "Your opponent may not use Combat cards for the remainder of Combat.",
+      "crd_matches": [],
+      "corrected_effect": "Your opponent may not use Combat cards for the remainder of Combat.",
+      "modern_rules": "POWER: Your opponent cannot use Event cards for the rest of this Combat.",
+      "notes": [
+        "Standalone Combat card type becomes Event, not the broad attack-card family. Original-era strategy discussion distinguishes this effect from separate Physical/Energy restrictions. No block icon."
+      ]
+    }
+  ],
+  "supplemental_scope_source": "https://www.pojo.com/dragonball/Cardgame/MatthewLow/July2003/ml-17/Re%20Tech%20and%20Questions%20-%20Backlash%20and%20Tapkar.htm"
+}

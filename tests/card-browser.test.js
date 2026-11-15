@@ -240,3 +240,18 @@ test('Android set shows its banner through refresh and hides it outside that set
  assert.equal(browser('/cards/trunks-saga/').elements['collection-logo-android'].hidden,true);
 });
 
+
+test('Cell Saga promos appear in type filters and expose exact display and download images',()=>{
+ const promos=catalog.filter(c=>c.set==='Cell Saga'&&/^P\d+$/.test(c.number));
+ assert.equal(promos.length,10);
+ const set=browser('/cards/cell-saga/');
+ assert.equal(set.elements['results-count'].textContent,'Showing 1–60 of 210 cards in Cell Saga');
+ for(const card of promos){
+  const filtered=browser('/cards/cell-saga/?query='+encodeURIComponent(card.name)+'&type='+encodeURIComponent(card.type));
+  assert.ok(grid(filtered).some(el=>el.href===cardPath(card)),card.name);
+  const direct=browser('/cards/cell-saga/'+card.number);
+  assert.equal(direct.elements['card-detail'].open,true);
+  assert.equal(direct.elements['detail-image'].src,card.image);
+  assert.equal(direct.elements.download.href,card.downloadImage);
+ }
+});

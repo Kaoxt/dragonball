@@ -1,0 +1,157 @@
+{
+  "number": "P10",
+  "id": "cell-p10-piccolos-fist-block",
+  "name": "Piccolo's Fist Block",
+  "native_source_path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p10-piccolos-fist-block.svg",
+  "native_source_sha256": "14c971b4ab2958782d8c6130ab096c47443907d041531ceddd8f0245cc64c289",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37.png",
+      "sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: Your opponent cannot use Event cards",
+      "baseline": 1049.3,
+      "width": 833.49,
+      "icon_inline": false
+    },
+    {
+      "text": "for the rest of this Combat.",
+      "baseline": 1108.3,
+      "width": 480.00400000000013,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-p10-piccolos-fist-block.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "025adba1d1262b34b132d71f451ee628dcde4d0967c9d720a12f4ab67ef9969d",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-p10-piccolos-fist-block.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "31abe1f556ef8b6461baca9679c25cdc335ddf9019cd07d2a1f84902c97a4961",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        236.551,
+        50.2213,
+        585.898,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        114.225,
+        1014.61,
+        830.55,
+        43.806
+      ],
+      "rules-line-2": [
+        290.723,
+        1072.53,
+        477.554,
+        36.162
+      ]
+    },
+    "icons": [],
+    "validation": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 2
+    }
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 585.8977556109727,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new modern illustration based on original scan",
+    "source_dimensions": [
+      1519,
+      1035
+    ],
+    "source_sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37",
+    "mapping_matrix": [
+      0.6800526662277815,
+      0,
+      0,
+      0.6800526662277815,
+      14,
+      1370.67
+    ],
+    "horizontal_crop": 0,
+    "vertical_template_clip": 0,
+    "additional_zoom": false
+  }
+}

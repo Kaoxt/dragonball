@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-15",
+  "set": "Cell Saga",
+  "numbers": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10"
+  ],
+  "card_ids": [
+    "cell-p1-cells-self-destruct",
+    "cell-p2-cells-domination-drill",
+    "cell-p3-kamis-idea",
+    "cell-p4-hes-safe",
+    "cell-p5-just-thinking",
+    "cell-p6-land-in-pain",
+    "cell-p7-its-all-about-time",
+    "cell-p8-trunks-thinking",
+    "cell-p9-looking-good",
+    "cell-p10-piccolos-fist-block"
+  ],
+  "baseline_commit": "fd2dc05824abfb25d679b3ba67a1688dbd283f44",
+  "baseline_catalog_count": 1282,
+  "baseline_catalog_canonical_sha256": "371a0218afa28f7df1278c47412a378691fa84a78730c3081554b0e3e965b532",
+  "source_package": {
+    "url": "https://drive.google.com/file/d/1Y5FvSwFSE1i760vaXujWvhVNnqiKiKE2/view",
+    "sha256": "099ab9a5a50f9d6a9e8a280271c91cc6fac8320aa56fed6a5b1771c84816f268"
+  },
+  "resulting_cell_count": 210,
+  "exports": 20,
+  "native_sources": 10,
+  "integration_files": [
+    {
+      "path": "public/cards/catalog.js",
+      "before_file": "tools/card-corrections/v3-cell-promos-p1-p10/baseline-files/public/cards/catalog.js.gz",
+      "before_sha256": "77bac48801572faa90001fca9e5229655d1793a0f4ab899a3f687a82711bf188",
+      "after_sha256": "bbc135dbd82fc455a2dabc0d49bf79e6585dea33a473d4d613d438d0bc881ccb"
+    },
+    {
+      "path": "public/decks/code-card-ids.js",
+      "before_file": "tools/card-corrections/v3-cell-promos-p1-p10/baseline-files/public/decks/code-card-ids.js.gz",
+      "before_sha256": "a4e2c8fb1339be2e43dd38c6f0aff982d6f815315c7d27ff2cc6c2d4f58c0a93",
+      "after_sha256": "99e023da90cb0c937e0f291df4773045a56db411b2ea25df9324d5b04de9f793"
+    },
+    {
+      "path": "package.json",
+      "before_file": "tools/card-corrections/v3-cell-promos-p1-p10/baseline-files/package.json.gz",
+      "before_sha256": "3ce962a704ef88634e400e4aef2541345e8d61c66aaaca2dfcf469a3f8d9e1f1",
+      "after_sha256": "26d46e7512d9b1f54749c894307968d8448adc82d2db01e941fba7c03710e929"
+    },
+    {
+      "path": "tests/helpers/pre-world-games-promos.js",
+      "before_file": "tools/card-corrections/v3-cell-promos-p1-p10/baseline-files/tests/helpers/pre-world-games-promos.js.gz",
+      "before_sha256": "c47d773bf62ce1e308dc566f019e2308bc9f5904c6906038de49b62da982617f",
+      "after_sha256": "cb671e29553b96352d118048c461027bd5df52404d8e6de19b8344997d1c7bfd"
+    },
+    {
+      "path": "tests/card-v3-world-games-promos.test.js",
+      "before_file": "tools/card-corrections/v3-cell-promos-p1-p10/baseline-files/tests/card-v3-world-games-promos.test.js.gz",
+      "before_sha256": "f8c8fa5a8e5123e209ba442be377f6ec926083643444a8ef5c898aec0dc3f2f9",
+      "after_sha256": "38576e6d3e17ccfd8efcefda8692627c467cc5693f034af5dc9a675f35d3309c"
+    }
+  ],
+  "preservation": "Exact supplied sources, linked artwork and lossless exports; all previous catalog records and permanent deck IDs retained. Includes user-selected P3 restoration. Original handoff and release remain immutable."
+}

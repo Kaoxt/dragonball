@@ -1,3 +1,13 @@
+## Cell Saga promos P1–P10 — November 15, 2026
+
+Preserve the ten supplied native SVGs, linked artwork and twenty lossless
+exports in `cell-promos-p1-p10`, including the approved direct P3 restoration
+and its lower-edge continuation. These ten playable promos extend Cell Saga
+1–200 to 210 cards; numbered cards, Hi-Tech cards and Goku #162 are unchanged.
+Keep the CRD wording, two-star rarity and append-only permanent deck IDs.
+Historical audits start with `pre-cell-promos.js` before the World Games
+promo history. Evidence is in `tools/card-corrections/v3-cell-promos-p1-p10/`.
+
 ## World Games Videl 201, promos and previews — November 15, 2026
 
 Preserve the 18 exact supplied native sources and 36 lossless exports in

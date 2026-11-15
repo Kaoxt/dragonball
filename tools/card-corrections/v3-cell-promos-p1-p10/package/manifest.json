@@ -1,0 +1,790 @@
+{
+  "scope": "Cell Saga P1\u2013P10; P3 approved restoration",
+  "replaces": {
+    "public/assets/cards/cell-p1-cells-self-destruct.webp": [
+      "588026df09de10d1a70fb1fdf3be77639f13bc07cf9e31bd22c7991ce731d870"
+    ],
+    "public/assets/cards/cell-p10-piccolos-fist-block.webp": [
+      "025adba1d1262b34b132d71f451ee628dcde4d0967c9d720a12f4ab67ef9969d"
+    ],
+    "public/assets/cards/cell-p2-cells-domination-drill.webp": [
+      "f3072c8270ad1c9496d291f1f17f419adb3ee521acfd79bf90b399a03579fa47"
+    ],
+    "public/assets/cards/cell-p3-kamis-idea.webp": [
+      "f0380a1f9c24105e2b65e8576a361d0b815b221db43353a51645302d3fb5a6ba",
+      "690ebecfc93f8043eea25039a1232b4ed18985f2cfd2d6d4867d4af0807d0028"
+    ],
+    "public/assets/cards/cell-p4-hes-safe.webp": [
+      "11aa807866625a18c8c0c3d68aae50b6cf3f43134400e52fbef64fdaecf996bd"
+    ],
+    "public/assets/cards/cell-p5-just-thinking.webp": [
+      "bd716a424c43ddd9c24abcc7a0f542cb15526490d9d4273f913c979c3699c66e"
+    ],
+    "public/assets/cards/cell-p6-land-in-pain.webp": [
+      "d79a9dfe80a972176256e2b63122d121d87a530b848731d52a994d4d598d75e2"
+    ],
+    "public/assets/cards/cell-p7-its-all-about-time.webp": [
+      "0639c490693f991e751315c821234a862a5f48e6860f454e2b72620785359650"
+    ],
+    "public/assets/cards/cell-p8-trunks-thinking.webp": [
+      "1029ed3017600ffe519f7eafe2587538a7fde5c92c0c49bf2aee13ac17455dc0"
+    ],
+    "public/assets/cards/cell-p9-looking-good.webp": [
+      "bcdfdddad50f9f24c14fc29df313f714c15a356e59449ccd3d5dc6aba87b9e3e"
+    ],
+    "public/assets/cards/downloads/cell-p1-cells-self-destruct.webp": [
+      "54e0899b4ed05a29aeb545697376449ecc6c014c326ebb625626fc0e59cfc1a6"
+    ],
+    "public/assets/cards/downloads/cell-p10-piccolos-fist-block.webp": [
+      "31abe1f556ef8b6461baca9679c25cdc335ddf9019cd07d2a1f84902c97a4961"
+    ],
+    "public/assets/cards/downloads/cell-p2-cells-domination-drill.webp": [
+      "a758d813a543ccd30ab0989b598c9aa9dede9125c23ef07f5ec9b465515881ff"
+    ],
+    "public/assets/cards/downloads/cell-p3-kamis-idea.webp": [
+      "fecf5bf87ced458e508b2c284e19c79d67e5deaacef8b2f86d2ac24d7ce4c0f0",
+      "b62c6a943b1ab253ea797ad4359c72ac8a2099b8e68c0717cabf47a4ff91b93e"
+    ],
+    "public/assets/cards/downloads/cell-p4-hes-safe.webp": [
+      "73defa651a9798117cf04ae070c249c9499bd05502532dcc7e3eeee92f5a5503"
+    ],
+    "public/assets/cards/downloads/cell-p5-just-thinking.webp": [
+      "ae4c058d28f04399a48c0a0bbdf854b07a0134f7fdb32404ae2b8708216dfea7"
+    ],
+    "public/assets/cards/downloads/cell-p6-land-in-pain.webp": [
+      "19907456a8c636e3a399a09e187544fe536955d28ba8d04fca7d2d23d782bbc9"
+    ],
+    "public/assets/cards/downloads/cell-p7-its-all-about-time.webp": [
+      "8f07cc68de3a8abb5627553cee940c9762f937f00fba8e4c1c8f0bfa89f85143"
+    ],
+    "public/assets/cards/downloads/cell-p8-trunks-thinking.webp": [
+      "40ab3076e4be2bc903d85d6d9abbb03f5d1c28aee361401bbf9f5e3fb5b35bc5"
+    ],
+    "public/assets/cards/downloads/cell-p9-looking-good.webp": [
+      "4c1ada926eb86eb3734794d3ecd925616e85afc6c8bb11411b663a202a210240"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/Expanded-CRD-reference.txt": [
+      "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P01.png": [
+      "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P02.png": [
+      "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P03.png": [
+      "32e575f83336e5ea9620e6fd19a9c924a18dd961cd91b12505476153abd73280",
+      "ada4686f6d8ad5457ed4f3234d571769baf781819dbce92c8836e507bd8d2966"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P04.png": [
+      "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P05.png": [
+      "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P06.png": [
+      "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P07.png": [
+      "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P08.png": [
+      "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P09.png": [
+      "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P10.png": [
+      "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/audit.json": [
+      "f0d6eff1d7a53517b0f6da6c139045d61012a03091c0b4cde60f49101a96fab9",
+      "9a9fcc697f02f05ce3e75cee5e08585a579153162d9be1bcc202b7b5eafcca9c"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/card-type-review.json": [
+      "e8579d1f410a1fec7b9b42138f2b6aabe8d527b1ef53771ffc26d01b7a3ea7dc"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/cards.json": [
+      "36258f9c48a0eb22fde78f4bf8e8d9f7f3be4135e2ac8a90581fe10c44cbee9d"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/catalog-additions.json": [
+      "9bbc35457c1d99065cda08eb11813002b252dfd5d50f9cd769d9e880a173a1ca",
+      "8838111999f21b203e80a431eb798d36f0883d6ab1c3ac486bafdef9ba7353c2"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/crd-review.json": [
+      "ec41c5830a4cac8026fb9a693310ee5351b88df278d9d3369c9ee384ee1befe2"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P01-retrotcg.jpg": [
+      "897d3ab0bc40bbcf0dd41cac6dfb12202637601af9d3c2e22b705c2a59962c93"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P01.jpg": [
+      "ebfb5f5eb0776ab7b24d838cf6fe78e030eeb11428242969d723ad61c1565ebe"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P02-retrotcg.jpg": [
+      "5e95e53129d0b7faaf3051be94720c289a296cfaf477d24b43d9b42b714c1056"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P02.jpg": [
+      "a87c41733ec174d1a8b2301f5fe47307886d3d18e791b8793eba6eeee27c8f75"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03-retrotcg.jpg": [
+      "f3037ebb6e8b5139f1aa3c567ef9921b25968b00cc590dc7537b7d429ec733ae"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03.jpg": [
+      "ef9282e8e58a3e3c54e40d3206ca9f4337e320ae250f3621332fc725581c3824"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P04-retrotcg.jpg": [
+      "f534532053dc20a5e47a3b984ea186f969ce84d1b1fbc4a9d7b6c11357465d91"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P04.jpg": [
+      "533722949d7d821963615b0223e8dbb04b3a75b509f24986d65428fb3bdf3845"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P05.jpg": [
+      "fe0c71a97daeceb67a8073dd7c9d995dbf014e879ec5ef9f7f2e56f23b998ac5"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P06.jpg": [
+      "b2440a91d4e367fe1210f76aa8f21644ec431df5452ba4e9a0205b01cb549afa"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P07.jpg": [
+      "cc43f5891bf4d83900fa0c61017fa035cf3ca267a899fe4a0143e97cef466823"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P08.jpg": [
+      "4c350c7663bb7d808ab328c141e6ce76e5cf9f02d86891feb3455d16dff8aa88"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P09.jpg": [
+      "36360425a0c8e0e36584f0de50d202f84f1bb8c2eda7d0430ce0a344381ba196"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P10.jpg": [
+      "8a6ae46d35a8d4e0bc5a1dd17bb38724214f87d65a62191cb853f68078ee58dd"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P1.json": [
+      "ce968fffb58baa94e9776744ba69a789d1e226a67f6402394468a121bac70d39"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P10.json": [
+      "bdf72e64f837cba42072aa8a76a1b47fdd2e42bf2c99c376839985145d32ba4f"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P2.json": [
+      "0cacc6c5a19652d74553133983ce79b5c136f2455fb66efb4de2d7f424b30f74"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P3.json": [
+      "077e06a56460c3d903dd45fe73ec33200d95d328dd60d64fe3e89de9021fffbc",
+      "6f7c8dd4f2ba21bbb573bb86e2a593e8c6880bc7731a24beebdd973dae9c629e"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P4.json": [
+      "e04b02268da56e2c0cd29ed69194d0adc92f0ef7a18aff61b723cd62ed4bee93"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P5.json": [
+      "d6277613fb8bf5376ff0cf19f6da7af603bebd7e1a2ba9e9366415d3d7b35f87"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P6.json": [
+      "b2b6b750d46b2d94e54336bc5fbd3c1e2acfb5d00cbe7d7d067da086c53f4b92"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P7.json": [
+      "ba953aa398b0d6af62404059a68efcdbff35d4b45cbf1aecb155be09fae0120e"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P8.json": [
+      "28ae11acb9e4ce294413ff6f313d4cd52942d6ce9676e5e184599b1419587ba0"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P9.json": [
+      "a4bffcea8f1f4ee5a6a80133292631b8420eb5725c4c202a80cc7d9cd3f64430"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/release.json": [
+      "42a8df1f4948b55566139cb626ea901e917a493a5f79535a9686e0df4993b584"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/source-pages.json": [
+      "2a66d4920b9212a813ae9a7f50e6de97841435d324f4145341d3847e2dcd04aa",
+      "c19550657c9f0c5e9c1762a22500e54431cc550132f45766efa4af30a5a23383"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/visual-review.json": [
+      "2c0898f87b2a414dc8cb3a13500120bc1e9e2c2811e797b85ff98334eec498ef",
+      "54468bd59b03bb55ac30ba7832d8fc76fa94d3886aad06d5cbae42e898dc47a3"
+    ],
+    "tools/card-templates/v3/assets/2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b.png": [
+      "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b"
+    ],
+    "tools/card-templates/v3/assets/32e575f83336e5ea9620e6fd19a9c924a18dd961cd91b12505476153abd73280.png": [
+      "32e575f83336e5ea9620e6fd19a9c924a18dd961cd91b12505476153abd73280"
+    ],
+    "tools/card-templates/v3/assets/4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461.png": [
+      "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461"
+    ],
+    "tools/card-templates/v3/assets/4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37.png": [
+      "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37"
+    ],
+    "tools/card-templates/v3/assets/49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67.png": [
+      "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67"
+    ],
+    "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png": [
+      "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    ],
+    "tools/card-templates/v3/assets/66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3.png": [
+      "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3"
+    ],
+    "tools/card-templates/v3/assets/69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573.png": [
+      "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573"
+    ],
+    "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png": [
+      "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    ],
+    "tools/card-templates/v3/assets/8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94.png": [
+      "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94"
+    ],
+    "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png": [
+      "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    ],
+    "tools/card-templates/v3/assets/c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729.png": [
+      "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729"
+    ],
+    "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png": [
+      "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    ],
+    "tools/card-templates/v3/assets/e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e.png": [
+      "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e"
+    ],
+    "tools/card-templates/v3/build_cell_promos_p1_p10.py": [
+      "d1012f30b457d4dfb2b29b92b637e78e37c3ff802c19429b3abf2edc0e1048f2"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p1-cells-self-destruct.svg": [
+      "85f066ab4fc84b80884846b9fabeed4899f46b0ff754ceeae0f4338d1f952667"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p10-piccolos-fist-block.svg": [
+      "14c971b4ab2958782d8c6130ab096c47443907d041531ceddd8f0245cc64c289"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p2-cells-domination-drill.svg": [
+      "e3daf3f1aabbfc5f83308adc953f34549f4b136fb6eef7bdf228694d0f1fc509"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p3-kamis-idea.svg": [
+      "ccb5a52c1ce2264f6263fcea3decdaf0ed2026ecd8f8e88b2070c6cdd6c891fa",
+      "d46e596e7d2d158e992f61863750749d4344d17b67aacfc08274436082def963"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p4-hes-safe.svg": [
+      "f2d56c4a990df56884c7db44b9c72da39fb74f9488bbb8381c55198420454b41"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p5-just-thinking.svg": [
+      "428e0601119916ff9222bd2c59fd0b7db34b0dae26193fa08a689240c0f7e39c"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p6-land-in-pain.svg": [
+      "632802513dce2edd3eecec7a9834963b58d58909e5b60ed741a4f71ae034a048"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p7-its-all-about-time.svg": [
+      "219e11a66b4857de3fcf92c42db5aa7f218960ef95808e63f2bdcb1dceeb67d7"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p8-trunks-thinking.svg": [
+      "864c77fed2f07526e7c575caa42e85695040617f703ef646990b5fedc55e0fd0"
+    ],
+    "tools/card-templates/v3/cell-promos-p1-p10/cell-p9-looking-good.svg": [
+      "88f19fd0e526fd80ee4433c1eb33883872df2cada3600a3b0ee993c3864cd46c"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03-PSA.webp": [
+      "762088b76778f9a01f4ac7a9599e78067f62cf9722a5dd122167e3f70e05c701"
+    ],
+    "tools/card-corrections/v3-cell-promos-p1-p10/p3-artwork-correction.json": [
+      "039ca2049d932596babf457a0e0f97d0ceae89e5808385d090d41fe587216f74"
+    ],
+    "tools/card-templates/v3/assets/ada4686f6d8ad5457ed4f3234d571769baf781819dbce92c8836e507bd8d2966.png": [
+      "ada4686f6d8ad5457ed4f3234d571769baf781819dbce92c8836e507bd8d2966"
+    ]
+  },
+  "prior_p3_entries": [
+    {
+      "id": "cell-p3-kamis-idea",
+      "name": "Kami's Idea",
+      "number": "P3",
+      "type": "Setup",
+      "style": "Freestyle",
+      "source": "https://dbzoutpost.com/products/cell-saga-promo-p3",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "rarity": "Promo",
+      "rules": "Heroes only. POWER: If your opponent has more stages than you, raise your Main Personality to its highest stage and shuffle the bottom card of your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
+      "templateVersion": 3,
+      "image": "/assets/cards/cell-p3-kamis-idea.webp?v=f0380a1f9c24",
+      "downloadImage": "/assets/cards/downloads/cell-p3-kamis-idea.webp?v=fecf5bf87ced"
+    },
+    {
+      "id": "cell-p3-kamis-idea",
+      "name": "Kami's Idea",
+      "number": "P3",
+      "type": "Setup",
+      "style": "Freestyle",
+      "source": "https://dbzoutpost.com/products/cell-saga-promo-p3",
+      "set": "Cell Saga",
+      "status": "Ready",
+      "width": 1060,
+      "height": 1484,
+      "rarity": "Promo",
+      "rules": "Heroes only. POWER: If your opponent has more stages than you, raise your Main Personality to its highest stage and shuffle the bottom card of your discard pile into your Life Deck. Lower your opponent's anger 2 levels.",
+      "templateVersion": 3,
+      "image": "/assets/cards/cell-p3-kamis-idea.webp?v=690ebecfc93f",
+      "downloadImage": "/assets/cards/downloads/cell-p3-kamis-idea.webp?v=b62c6a943b1a"
+    }
+  ],
+  "files": [
+    {
+      "path": "public/assets/cards/cell-p1-cells-self-destruct.webp",
+      "sha256": "588026df09de10d1a70fb1fdf3be77639f13bc07cf9e31bd22c7991ce731d870",
+      "bytes": 1353904
+    },
+    {
+      "path": "public/assets/cards/cell-p10-piccolos-fist-block.webp",
+      "sha256": "025adba1d1262b34b132d71f451ee628dcde4d0967c9d720a12f4ab67ef9969d",
+      "bytes": 1320282
+    },
+    {
+      "path": "public/assets/cards/cell-p2-cells-domination-drill.webp",
+      "sha256": "f3072c8270ad1c9496d291f1f17f419adb3ee521acfd79bf90b399a03579fa47",
+      "bytes": 1491512
+    },
+    {
+      "path": "public/assets/cards/cell-p3-kamis-idea.webp",
+      "sha256": "6f39d8facc0546abe950146febaae797da354264dc2c001892d4b6f5923fc7aa",
+      "bytes": 1525936
+    },
+    {
+      "path": "public/assets/cards/cell-p4-hes-safe.webp",
+      "sha256": "11aa807866625a18c8c0c3d68aae50b6cf3f43134400e52fbef64fdaecf996bd",
+      "bytes": 1490178
+    },
+    {
+      "path": "public/assets/cards/cell-p5-just-thinking.webp",
+      "sha256": "bd716a424c43ddd9c24abcc7a0f542cb15526490d9d4273f913c979c3699c66e",
+      "bytes": 1273404
+    },
+    {
+      "path": "public/assets/cards/cell-p6-land-in-pain.webp",
+      "sha256": "d79a9dfe80a972176256e2b63122d121d87a530b848731d52a994d4d598d75e2",
+      "bytes": 1312592
+    },
+    {
+      "path": "public/assets/cards/cell-p7-its-all-about-time.webp",
+      "sha256": "0639c490693f991e751315c821234a862a5f48e6860f454e2b72620785359650",
+      "bytes": 1386262
+    },
+    {
+      "path": "public/assets/cards/cell-p8-trunks-thinking.webp",
+      "sha256": "1029ed3017600ffe519f7eafe2587538a7fde5c92c0c49bf2aee13ac17455dc0",
+      "bytes": 1575680
+    },
+    {
+      "path": "public/assets/cards/cell-p9-looking-good.webp",
+      "sha256": "bcdfdddad50f9f24c14fc29df313f714c15a356e59449ccd3d5dc6aba87b9e3e",
+      "bytes": 1395136
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p1-cells-self-destruct.webp",
+      "sha256": "54e0899b4ed05a29aeb545697376449ecc6c014c326ebb625626fc0e59cfc1a6",
+      "bytes": 3837644
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p10-piccolos-fist-block.webp",
+      "sha256": "31abe1f556ef8b6461baca9679c25cdc335ddf9019cd07d2a1f84902c97a4961",
+      "bytes": 3892796
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p2-cells-domination-drill.webp",
+      "sha256": "a758d813a543ccd30ab0989b598c9aa9dede9125c23ef07f5ec9b465515881ff",
+      "bytes": 4404464
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p3-kamis-idea.webp",
+      "sha256": "569eb3d619931c1e6728e5c12407994528d5e4784660a20a7c0d6c14c4dde665",
+      "bytes": 4645274
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p4-hes-safe.webp",
+      "sha256": "73defa651a9798117cf04ae070c249c9499bd05502532dcc7e3eeee92f5a5503",
+      "bytes": 4400218
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p5-just-thinking.webp",
+      "sha256": "ae4c058d28f04399a48c0a0bbdf854b07a0134f7fdb32404ae2b8708216dfea7",
+      "bytes": 3737464
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p6-land-in-pain.webp",
+      "sha256": "19907456a8c636e3a399a09e187544fe536955d28ba8d04fca7d2d23d782bbc9",
+      "bytes": 3902782
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p7-its-all-about-time.webp",
+      "sha256": "8f07cc68de3a8abb5627553cee940c9762f937f00fba8e4c1c8f0bfa89f85143",
+      "bytes": 4104008
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p8-trunks-thinking.webp",
+      "sha256": "40ab3076e4be2bc903d85d6d9abbb03f5d1c28aee361401bbf9f5e3fb5b35bc5",
+      "bytes": 4756298
+    },
+    {
+      "path": "public/assets/cards/downloads/cell-p9-looking-good.webp",
+      "sha256": "4c1ada926eb86eb3734794d3ecd925616e85afc6c8bb11411b663a202a210240",
+      "bytes": 4237634
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/Expanded-CRD-reference.txt",
+      "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+      "bytes": 194167
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P01.png",
+      "sha256": "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3",
+      "bytes": 1711914
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P02.png",
+      "sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729",
+      "bytes": 2082346
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P03-bottom-extension.png",
+      "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea",
+      "bytes": 2265917
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P03.png",
+      "sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa",
+      "bytes": 2261215
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P04.png",
+      "sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e",
+      "bytes": 2036868
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P05.png",
+      "sha256": "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573",
+      "bytes": 1619312
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P06.png",
+      "sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461",
+      "bytes": 1792882
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P07.png",
+      "sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67",
+      "bytes": 2016649
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P08.png",
+      "sha256": "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b",
+      "bytes": 2284287
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P09.png",
+      "sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94",
+      "bytes": 1915293
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/artwork/P10.png",
+      "sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37",
+      "bytes": 1707400
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/audit.json",
+      "sha256": "4713df2d6970361f3abbdfbaed88a3de174788a5d1abd7d8ebfe76d88819c80d",
+      "bytes": 49757
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/card-type-review.json",
+      "sha256": "e8579d1f410a1fec7b9b42138f2b6aabe8d527b1ef53771ffc26d01b7a3ea7dc",
+      "bytes": 2569
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/cards.json",
+      "sha256": "36258f9c48a0eb22fde78f4bf8e8d9f7f3be4135e2ac8a90581fe10c44cbee9d",
+      "bytes": 7387
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/catalog-additions.json",
+      "sha256": "7db353bb234cb46f7e5d5740aa996cb41f801a167e20bfe5ea99f7b50f1f5f52",
+      "bytes": 6450
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/crd-review.json",
+      "sha256": "ec41c5830a4cac8026fb9a693310ee5351b88df278d9d3369c9ee384ee1befe2",
+      "bytes": 6730
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P01-retrotcg.jpg",
+      "sha256": "897d3ab0bc40bbcf0dd41cac6dfb12202637601af9d3c2e22b705c2a59962c93",
+      "bytes": 49580
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P01.jpg",
+      "sha256": "ebfb5f5eb0776ab7b24d838cf6fe78e030eeb11428242969d723ad61c1565ebe",
+      "bytes": 484648
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P02-retrotcg.jpg",
+      "sha256": "5e95e53129d0b7faaf3051be94720c289a296cfaf477d24b43d9b42b714c1056",
+      "bytes": 46687
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P02.jpg",
+      "sha256": "a87c41733ec174d1a8b2301f5fe47307886d3d18e791b8793eba6eeee27c8f75",
+      "bytes": 501612
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03-PSA.webp",
+      "sha256": "762088b76778f9a01f4ac7a9599e78067f62cf9722a5dd122167e3f70e05c701",
+      "bytes": 618454
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03-retrotcg.jpg",
+      "sha256": "f3037ebb6e8b5139f1aa3c567ef9921b25968b00cc590dc7537b7d429ec733ae",
+      "bytes": 45284
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03-user-reference.png",
+      "sha256": "ef9282e8e58a3e3c54e40d3206ca9f4337e320ae250f3621332fc725581c3824",
+      "bytes": 506999
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P03.jpg",
+      "sha256": "ef9282e8e58a3e3c54e40d3206ca9f4337e320ae250f3621332fc725581c3824",
+      "bytes": 506999
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P04-retrotcg.jpg",
+      "sha256": "f534532053dc20a5e47a3b984ea186f969ce84d1b1fbc4a9d7b6c11357465d91",
+      "bytes": 45308
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P04.jpg",
+      "sha256": "533722949d7d821963615b0223e8dbb04b3a75b509f24986d65428fb3bdf3845",
+      "bytes": 500372
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P05.jpg",
+      "sha256": "fe0c71a97daeceb67a8073dd7c9d995dbf014e879ec5ef9f7f2e56f23b998ac5",
+      "bytes": 478382
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P06.jpg",
+      "sha256": "b2440a91d4e367fe1210f76aa8f21644ec431df5452ba4e9a0205b01cb549afa",
+      "bytes": 454531
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P07.jpg",
+      "sha256": "cc43f5891bf4d83900fa0c61017fa035cf3ca267a899fe4a0143e97cef466823",
+      "bytes": 487536
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P08.jpg",
+      "sha256": "4c350c7663bb7d808ab328c141e6ce76e5cf9f02d86891feb3455d16dff8aa88",
+      "bytes": 499556
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P09.jpg",
+      "sha256": "36360425a0c8e0e36584f0de50d202f84f1bb8c2eda7d0430ce0a344381ba196",
+      "bytes": 506065
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/originals/P10.jpg",
+      "sha256": "8a6ae46d35a8d4e0bc5a1dd17bb38724214f87d65a62191cb853f68078ee58dd",
+      "bytes": 471624
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/p3-artwork-correction.json",
+      "sha256": "e655568db8407bea506b5b0e45658e3d87c4045dcd350992558d29d1514e694f",
+      "bytes": 1966
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P1.json",
+      "sha256": "ce968fffb58baa94e9776744ba69a789d1e226a67f6402394468a121bac70d39",
+      "bytes": 5443
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P10.json",
+      "sha256": "bdf72e64f837cba42072aa8a76a1b47fdd2e42bf2c99c376839985145d32ba4f",
+      "bytes": 4109
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P2.json",
+      "sha256": "0cacc6c5a19652d74553133983ce79b5c136f2455fb66efb4de2d7f424b30f74",
+      "bytes": 5224
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P3.json",
+      "sha256": "a3ddbc12f7417bf99a143eb61fca9071f1814e94c699772c91ab4fe2939944de",
+      "bytes": 5592
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P4.json",
+      "sha256": "e04b02268da56e2c0cd29ed69194d0adc92f0ef7a18aff61b723cd62ed4bee93",
+      "bytes": 4076
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P5.json",
+      "sha256": "d6277613fb8bf5376ff0cf19f6da7af603bebd7e1a2ba9e9366415d3d7b35f87",
+      "bytes": 4866
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P6.json",
+      "sha256": "b2b6b750d46b2d94e54336bc5fbd3c1e2acfb5d00cbe7d7d067da086c53f4b92",
+      "bytes": 4093
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P7.json",
+      "sha256": "ba953aa398b0d6af62404059a68efcdbff35d4b45cbf1aecb155be09fae0120e",
+      "bytes": 4345
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P8.json",
+      "sha256": "28ae11acb9e4ce294413ff6f313d4cd52942d6ce9676e5e184599b1419587ba0",
+      "bytes": 4110
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/per-card/P9.json",
+      "sha256": "a4bffcea8f1f4ee5a6a80133292631b8420eb5725c4c202a80cc7d9cd3f64430",
+      "bytes": 4304
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/release.json",
+      "sha256": "42a8df1f4948b55566139cb626ea901e917a493a5f79535a9686e0df4993b584",
+      "bytes": 777
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/source-pages.json",
+      "sha256": "75292b713fd9785a70c529a3bca52382ce512bc29c2c9b83f07993def4df2500",
+      "bytes": 9058
+    },
+    {
+      "path": "tools/card-corrections/v3-cell-promos-p1-p10/visual-review.json",
+      "sha256": "fd3ae9c8ccde4875a30d54004855a6a7ee0aae42e252d458f9a0de70c06d7c64",
+      "bytes": 4803
+    },
+    {
+      "path": "tools/card-templates/v3/assets/14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea.png",
+      "sha256": "14b55eada0a985a124607f168a80186e3e598b642e42c5e6c6eae73868c2adea",
+      "bytes": 2265917
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b.png",
+      "sha256": "2fda85142f9e9971a06440f249c2034b52c8ad6658a5c1ca53b446f5bcb3550b",
+      "bytes": 2284287
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461.png",
+      "sha256": "4297433283eca2c004ddf05d198d3cea9f9514a19d0bc25def2680b77d778461",
+      "bytes": 1792882
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37.png",
+      "sha256": "4789f8ffbe1bf10b33dfbac971472f01df1d33d6fac66c0e087121101e304b37",
+      "bytes": 1707400
+    },
+    {
+      "path": "tools/card-templates/v3/assets/49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67.png",
+      "sha256": "49c105c82796b5513b5049edd4e386bd32d1568d5277a260b5098b8167b12c67",
+      "bytes": 2016649
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5",
+      "bytes": 928866
+    },
+    {
+      "path": "tools/card-templates/v3/assets/66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3.png",
+      "sha256": "66ab87f8b9dca5b9acb06c5a1bffa411b74c48e169c2ca004eaed64868614fb3",
+      "bytes": 1711914
+    },
+    {
+      "path": "tools/card-templates/v3/assets/69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573.png",
+      "sha256": "69f26dc00fbaeb8687805ac76a762854470bbfd2a29d34a688003b6dd14e3573",
+      "bytes": 1619312
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099",
+      "bytes": 3144450
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94.png",
+      "sha256": "8e51c325daee31e15cfac221c6c5ecfc1c812f4dad29219f06ec71f28a8c1b94",
+      "bytes": 1915293
+    },
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7",
+      "bytes": 98108
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729.png",
+      "sha256": "c2757d730d15d5377e21537d590bb3c8528450d89fcd8628dc7568556b184729",
+      "bytes": 2082346
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa.png",
+      "sha256": "d6852a98cf21b8c48844a7f4d1e77bb6fbf39fbca3d37d85b8289f07086fa1fa",
+      "bytes": 2261215
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb",
+      "bytes": 2701711
+    },
+    {
+      "path": "tools/card-templates/v3/assets/e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e.png",
+      "sha256": "e3ff13612a60c7e96b46481c25680ac4e9738b51434a4af470eca596d5d0ec1e",
+      "bytes": 2036868
+    },
+    {
+      "path": "tools/card-templates/v3/build_cell_promos_p1_p10.py",
+      "sha256": "b8f6c4a9b63389c475bdba958cbedcca057535f78c8a7c1f932a6fcb87f84928",
+      "bytes": 7906
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p1-cells-self-destruct.svg",
+      "sha256": "85f066ab4fc84b80884846b9fabeed4899f46b0ff754ceeae0f4338d1f952667",
+      "bytes": 229839
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p10-piccolos-fist-block.svg",
+      "sha256": "14c971b4ab2958782d8c6130ab096c47443907d041531ceddd8f0245cc64c289",
+      "bytes": 124598
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p2-cells-domination-drill.svg",
+      "sha256": "e3daf3f1aabbfc5f83308adc953f34549f4b136fb6eef7bdf228694d0f1fc509",
+      "bytes": 153903
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p3-kamis-idea.svg",
+      "sha256": "376cb77eb2f3afe88147d11b92c010a06b79b6caad536748ffc5eb0e116aa4af",
+      "bytes": 260239
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p4-hes-safe.svg",
+      "sha256": "f2d56c4a990df56884c7db44b9c72da39fb74f9488bbb8381c55198420454b41",
+      "bytes": 145849
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p5-just-thinking.svg",
+      "sha256": "428e0601119916ff9222bd2c59fd0b7db34b0dae26193fa08a689240c0f7e39c",
+      "bytes": 115724
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p6-land-in-pain.svg",
+      "sha256": "632802513dce2edd3eecec7a9834963b58d58909e5b60ed741a4f71ae034a048",
+      "bytes": 142817
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p7-its-all-about-time.svg",
+      "sha256": "219e11a66b4857de3fcf92c42db5aa7f218960ef95808e63f2bdcb1dceeb67d7",
+      "bytes": 159095
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p8-trunks-thinking.svg",
+      "sha256": "864c77fed2f07526e7c575caa42e85695040617f703ef646990b5fedc55e0fd0",
+      "bytes": 133384
+    },
+    {
+      "path": "tools/card-templates/v3/cell-promos-p1-p10/cell-p9-looking-good.svg",
+      "sha256": "88f19fd0e526fd80ee4433c1eb33883872df2cada3600a3b0ee993c3864cd46c",
+      "bytes": 149373
+    }
+  ]
+}
