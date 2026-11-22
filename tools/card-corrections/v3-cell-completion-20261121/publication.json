@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-21",
+  "status": "prepared",
+  "card_ids": [
+    "cell-pr1-cells-draining",
+    "cell-pr2-cells-arena",
+    "cell-pr3-cells-last-strike",
+    "cell-pr4-theyre-all-there",
+    "cell-pr5-heroes-battleground",
+    "cell-pr6-cells-style",
+    "cell-games-p1-cell-jr-s-flight",
+    "cell-games-p2-a-father-struggles",
+    "cell-games-p3-vegeta-is-lurking",
+    "cell-games-p4-yamchas-revenge",
+    "cell-games-p6-vegeta-at-full-power",
+    "cell-games-p7-can-he-do-that",
+    "cell-games-p8-massive-technology",
+    "cell-games-p9-a-raditz-memory",
+    "cell-games-p10-krillins-surprise",
+    "cell-games-pr1-celestial-games-begin",
+    "cell-games-pr2-goku-helping-drill",
+    "cell-games-pr3-gohan-meditates",
+    "cell-games-pr4-gathering-of-warriors",
+    "cell-games-pr5-brothers-in-training",
+    "cell-games-pr6-chi-chi-on-the-attack",
+    "cell-games-pr7-learning-the-moves"
+  ],
+  "baseline_catalog_count": 1292,
+  "baseline_catalog_canonical_sha256": "b2923eeec6d849d5cd0982d22cc9d8cdd874cf8ed30c4b93f53c48b9018b7c4e",
+  "integration_files": [
+    {
+      "path": "public/cards/catalog.js",
+      "before_sha256": "c592b33dda0891be67ad631277eaf63a44a5dfdaddd2f5585bcfa42210f11a58",
+      "before_file": "tools/card-corrections/v3-cell-completion-20261121/before/catalog.js.gz",
+      "after_sha256": "be0ef9963491a1084067898479c4b62e17211ba232890300a1a8ed55d24ff9c4"
+    },
+    {
+      "path": "public/decks/code-card-ids.js",
+      "before_sha256": "99e023da90cb0c937e0f291df4773045a56db411b2ea25df9324d5b04de9f793",
+      "before_file": "tools/card-corrections/v3-cell-completion-20261121/before/code-card-ids.js.gz",
+      "after_sha256": "2dfbbf9855fee13ba0efd8ad9005bebd7aea3f2f12c196d7daff9c7d3b4f5858"
+    }
+  ],
+  "remaining": [
+    {
+      "set": "Cell Games Saga",
+      "number": "P5",
+      "name": "Goku Charges",
+      "reason": "Image generation rejected; awaiting user decision on original illustration."
+    }
+  ]
+}

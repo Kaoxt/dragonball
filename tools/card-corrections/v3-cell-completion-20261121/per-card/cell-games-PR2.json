@@ -1,0 +1,189 @@
+{
+  "key": "cell-games-PR2",
+  "set": "Cell Games Saga",
+  "number": "PR2",
+  "id": "cell-games-pr2-goku-helping-drill",
+  "name": "Goku Helping Drill",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-pr2-goku-helping-drill.svg",
+  "native_source_sha256": "3351955f7cb31f45569b8baf29e9e4b43baf302de2ba3dcbea48bba99c51d400",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/db5fceebd34effbca1e17f35ee5b7240247823e020e725fef2a35c340bc4a80b.png",
+      "sha256": "db5fceebd34effbca1e17f35ee5b7240247823e020e725fef2a35c340bc4a80b"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "In place of an attack, you may place an Ally",
+      "baseline": 1049.3,
+      "width": 834.6977499999998,
+      "icon_inline": true
+    },
+    {
+      "text": "from your hand in play at 3 stages above 0.",
+      "baseline": 1108.3,
+      "width": 766.556,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-pr2-goku-helping-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dd27e9f011c9712cdc1df83e360500ba95dfe55e6d574f24d732da7d0ca43b61",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-pr2-goku-helping-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "9ebc50b6b648db69f4254d87b742cbe74d1efed1de42377f29d711f326c526ff",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        263.867,
+        44.5,
+        531.266,
+        69.0
+      ],
+      "card-category": [
+        448.339,
+        891.991,
+        162.322,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        783.722,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        843.521,
+        1392.65,
+        67.257,
+        33.708
+      ],
+      "rules-line-1": [
+        180.231,
+        1014.85,
+        766.288,
+        44.2034
+      ],
+      "power-icon": [
+        112.481,
+        1020.36,
+        53.5938,
+        23.5813
+      ],
+      "rules-line-2": [
+        147.447,
+        1072.53,
+        764.106,
+        45.913
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "I",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          112.481,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          180.231,
+          1015.0,
+          6.909,
+          34.3
+        ],
+        "new_visible_bounds": [
+          112.481,
+          1022.5,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -0.003100000000131331,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 531.2655860349128,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 1,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-PR2.png",
+    "source_dimensions": [
+      1518,
+      1036
+    ],
+    "source_sha256": "db5fceebd34effbca1e17f35ee5b7240247823e020e725fef2a35c340bc4a80b",
+    "mapping_matrix": [
+      0.6805006587615283,
+      0,
+      0,
+      0.6805006587615283,
+      14,
+      146.5006587615283
+    ],
+    "additional_zoom": false
+  }
+}

@@ -1,3 +1,25 @@
+## Cell Games P5 completion — November 22, 2026
+
+Cell Games P5 Goku Charges is now finished with the user-approved artwork.
+The combined handoff contains 23 cards and 46 exact lossless exports. Preserve
+all previous 22 cards, linked assets and historical evidence. P5 has its own
+native SVG, reviewed rules and two-star promo ball. Its permanent deck ID is
+appended after the prior 22 entries. Earlier audits first use
+`tests/helpers/pre-cell-games-p5.js`, then `pre-cell-completion.js`.
+Evidence: `tools/card-corrections/v3-cell-games-p5-20261122/`.
+This supersedes the older P5 pending status; no deployment is claimed.
+
+## Cell previews and Cell Games promos/previews — November 21, 2026
+
+Preserve the 22 exact supplied native SVGs and 44 lossless exports in
+`cell-completion-20261121`: Cell PR1–PR6; Cell Games P1–P4, P6–P10 and PR1–PR7.
+Cell Games P5 Goku Charges is pending artwork and is deliberately not playable
+yet. Keep printed rarity stars, CRD restrictions and append-only deck IDs.
+Evidence is in `tools/card-corrections/v3-cell-completion-20261121/`.
+Earlier immutable audits start with `pre-cell-completion.js` before the
+remaining-personality history. Do not regenerate supplied exports or alter
+existing card records during publication. No deployment is claimed.
+
 ## Remaining Personality corrections — November 15, 2026
 
 Preserve the supplied 56 artwork placement corrections, Saiyan Vegeta #184's

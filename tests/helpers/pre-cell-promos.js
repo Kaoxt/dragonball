@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
 import {catalog as currentCatalog,beforeCenteringFile,beforeCenteringHash} from './personality-centering-history.js';
-import {codeCardIds as currentCodeIds} from '../../public/decks/code-card-ids.js';
+import {codeCardIds as currentCodeIds} from './pre-cell-completion.js';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const release=JSON.parse(fs.readFileSync(new URL('../../tools/card-corrections/v3-cell-promos-p1-p10/publication.json',import.meta.url),'utf8'));
 const added=new Set(release.card_ids),files=new Map(release.integration_files.map(f=>[f.path,f]));

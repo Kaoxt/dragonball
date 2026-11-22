@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-22",
+  "status": "prepared-not-published",
+  "card_ids": [
+    "cell-games-p5-goku-charges"
+  ],
+  "card": {
+    "id": "cell-games-p5-goku-charges",
+    "name": "Goku Charges",
+    "number": "P5",
+    "set": "Cell Games Saga",
+    "type": "Physical Combat",
+    "style": "Freestyle",
+    "source": "https://dbzoutpost.com/products/cell-games-saga-promo-p5",
+    "sourceNumber": "P5",
+    "subset": "Promo",
+    "status": "Ready",
+    "width": 1060,
+    "height": 1484,
+    "rarity": "Promo",
+    "rules": "Physical attack. DAMAGE: AT +4 stages. Raise your anger 1 level. Banish after use.",
+    "templateVersion": 3,
+    "image": "/assets/cards/cell-games-p5-goku-charges.webp?v=dbec5e4e4a61",
+    "downloadImage": "/assets/cards/downloads/cell-games-p5-goku-charges.webp?v=1e4630e4aa44"
+  },
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-p5-goku-charges.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dbec5e4e4a61ddf61d66bc7c6dda4f5be15b36882e05edf5f9514618e51243d1",
+      "lossless": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-p5-goku-charges.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "1e4630e4aa441d2e925ddd390b54d66b23f010d7af5b6ebcd55e518a5e1e7556",
+      "lossless": true
+    }
+  ],
+  "native_source_path": "tools/card-templates/v3/cell-games-p5-20261122/cell-games-p5-goku-charges.svg",
+  "native_source_sha256": "2b052388a0170e65c4f8d87e89208561ac531e08f244324d72ed972ccf9c9b8b",
+  "integration_files": [
+    {
+      "path": "public/cards/catalog.js",
+      "before_sha256": "be0ef9963491a1084067898479c4b62e17211ba232890300a1a8ed55d24ff9c4",
+      "after_sha256": "1f86e87ef602832932af301e24b97f6a1f57367af0479e3d619d8492b42525ae",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/before/catalog.js.gz"
+    },
+    {
+      "path": "public/decks/code-card-ids.js",
+      "before_sha256": "2dfbbf9855fee13ba0efd8ad9005bebd7aea3f2f12c196d7daff9c7d3b4f5858",
+      "after_sha256": "b8982daea6b4db07633b867f6a76568220b08d4d9597dd5a9af464ac81f689db",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/before/code-card-ids.js.gz"
+    }
+  ],
+  "previous_batch_card_count": 22,
+  "combined_batch_card_count": 23,
+  "combined_export_count": 46,
+  "remaining": [],
+  "expected_catalog_count": 1315,
+  "expected_set_counts": {
+    "Cell Saga": 216,
+    "Cell Games Saga": 142,
+    "World Games Saga": 218
+  }
+}

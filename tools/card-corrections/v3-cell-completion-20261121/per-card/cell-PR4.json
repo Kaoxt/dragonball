@@ -1,0 +1,165 @@
+{
+  "key": "cell-PR4",
+  "set": "Cell Saga",
+  "number": "PR4",
+  "id": "cell-pr4-theyre-all-there",
+  "name": "They're All There",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-pr4-theyre-all-there.svg",
+  "native_source_sha256": "127242d04bf8b71ecd6fc5ba4736d9ebf9cd9d06a9eab452190ea50559c730a1",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/45ee0e4e5ed5974d1ae868e926440858ef3d3cf0850d870e9be892adcb3bae53.png",
+      "sha256": "45ee0e4e5ed5974d1ae868e926440858ef3d3cf0850d870e9be892adcb3bae53"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Villains only. POWER: If Cell is anywhere",
+      "baseline": 1049.3,
+      "width": 708.197,
+      "icon_inline": false
+    },
+    {
+      "text": "in play, search your Life Deck for 3 Allies",
+      "baseline": 1108.3,
+      "width": 724.171,
+      "icon_inline": false
+    },
+    {
+      "text": "and place them in play at 5 stages above 0.",
+      "baseline": 1167.3,
+      "width": 766.7030000000002,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-pr4-theyre-all-there.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ef60a67d69bb305fbb8013d7e80bea0e9c72d780cf832fe052026a70cdef2e52",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-pr4-theyre-all-there.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "598db98c7c86b39a7b678778794cfd5b49ad6a6ddd213fce1895fd38b5dd08b2",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        278.02,
+        44.5,
+        502.96,
+        69.0
+      ],
+      "card-category": [
+        432.072,
+        891.391,
+        194.856,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        781.999,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        841.799,
+        1392.65,
+        70.702,
+        33.708
+      ],
+      "rules-line-1": [
+        176.602,
+        1013.53,
+        705.796,
+        45.521
+      ],
+      "rules-line-2": [
+        168.566,
+        1072.53,
+        721.868,
+        45.521
+      ],
+      "rules-line-3": [
+        147.496,
+        1131.53,
+        764.008,
+        45.913
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 502.9600997506235,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 3,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-PR4.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "45ee0e4e5ed5974d1ae868e926440858ef3d3cf0850d870e9be892adcb3bae53",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

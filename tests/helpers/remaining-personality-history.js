@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
+import {catalog as currentCatalog,beforeCellCompletionFile,beforeCellCompletionHash} from './pre-cell-completion.js';
 
 const root=fileURLToPath(new URL('../../',import.meta.url));
 export const remainingRelease=JSON.parse(fs.readFileSync(new URL('../../tools/card-corrections/remaining-personality-fixes-20261115/publication.json',import.meta.url),'utf8'));
@@ -16,14 +16,14 @@ function current(p){
  const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p);
  const name=path.relative(root,absolute),revision=files.get(name);
  if(revision&&!verified.has(name)){
-  assert.equal(hash(fs.readFileSync(absolute)),revision.after_sha256,`Current remaining Personality correction changed: ${name}`);
+  assert.equal(beforeCellCompletionHash(absolute),revision.after_sha256,`Current remaining Personality correction changed: ${name}`);
   verified.add(name);
  }
  return {absolute,revision};
 }
 export function beforeRemainingHash(p){
  const {absolute,revision}=current(p);
- return revision?.before_sha256??hash(fs.readFileSync(absolute));
+ return revision?.before_sha256??beforeCellCompletionHash(absolute);
 }
 export function beforeRemainingFile(p,encoding){
  const {absolute,revision}=current(p);
@@ -34,7 +34,7 @@ export function beforeRemainingFile(p,encoding){
   assert.equal(hash(bytes),revision.before_sha256,`Historical remaining Personality snapshot changed: ${absolute}`);
  }else{
   // Raster dimension/format checks use current bytes; identity uses the hash API.
-  bytes=fs.readFileSync(absolute);
+  bytes=beforeCellCompletionFile(absolute);
  }
  return encoding?bytes.toString(typeof encoding==='string'?encoding:encoding.encoding):bytes;
 }

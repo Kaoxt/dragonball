@@ -1,0 +1,153 @@
+{
+  "key": "cell-games-PR5",
+  "set": "Cell Games Saga",
+  "number": "PR5",
+  "id": "cell-games-pr5-brothers-in-training",
+  "name": "Brothers in Training",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-pr5-brothers-in-training.svg",
+  "native_source_sha256": "6b79004f14b91ef82611995ae074612a664b72f7fe1b15e58cc583796cd5dac3",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/9c9c86a83e9cf604962b76ed77eb05412ac85cd06498f75f7c24dae3f50e7504.png",
+      "sha256": "9c9c86a83e9cf604962b76ed77eb05412ac85cd06498f75f7c24dae3f50e7504"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Endurance 3. POWER: Search your",
+      "baseline": 1049.3,
+      "width": 602.749,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a Drill and place it in play.",
+      "baseline": 1108.3,
+      "width": 693.693,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-pr5-brothers-in-training.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "48aff30c5202985d9bdadcd826b249b04f246350c82cea5a1f1ab3babf841387",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-pr5-brothers-in-training.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "cb95c94537e123ce89e522bd216b2bdd143e427bb4f8e160f742e060e8cc9538",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        234.357,
+        44.5,
+        590.286,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        783.059,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        842.859,
+        1392.65,
+        68.582,
+        33.708
+      ],
+      "rules-line-1": [
+        229.39,
+        1014.61,
+        600.221,
+        44.443
+      ],
+      "rules-line-2": [
+        184.516,
+        1072.53,
+        689.969,
+        45.521
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 590.2855361596011,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 5,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-PR5.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "9c9c86a83e9cf604962b76ed77eb05412ac85cd06498f75f7c24dae3f50e7504",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

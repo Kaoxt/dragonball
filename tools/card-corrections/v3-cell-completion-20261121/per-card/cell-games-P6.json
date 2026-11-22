@@ -1,0 +1,165 @@
+{
+  "key": "cell-games-P6",
+  "set": "Cell Games Saga",
+  "number": "P6",
+  "id": "cell-games-p6-vegeta-at-full-power",
+  "name": "Vegeta At Full Power!",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-p6-vegeta-at-full-power.svg",
+  "native_source_sha256": "5d6bc13b047e0817cf58728489dfeaf6a9aa58e4bf1d9b6249dbd33744054bc7",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/b22498dfbd0ea6336c4b8dd90a5454a917a1dc1ce3d70edeedc445f0c7cadb10.png",
+      "sha256": "b22498dfbd0ea6336c4b8dd90a5454a917a1dc1ce3d70edeedc445f0c7cadb10"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Vegeta only. POWER: Raise Vegeta",
+      "baseline": 1049.3,
+      "width": 608.335,
+      "icon_inline": false
+    },
+    {
+      "text": "to his highest stage. Raise your",
+      "baseline": 1108.3,
+      "width": 557.277,
+      "icon_inline": false
+    },
+    {
+      "text": "anger 1 level. Banish after use.",
+      "baseline": 1167.3,
+      "width": 542.969,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-p6-vegeta-at-full-power.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a636b7acf97269b58b64845de5a730b9536929a75c6673f7b71e0e11ba16b0e7",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-p6-vegeta-at-full-power.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e7cb60db3624d6e945e4bc16fd06690cc5e42e9f27201eff25aea417caf33ac3",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        206.912,
+        44.5,
+        645.176,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        795.382,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        855.182,
+        1392.65,
+        43.937,
+        33.708
+      ],
+      "rules-line-1": [
+        226.631,
+        1013.53,
+        605.738,
+        45.913
+      ],
+      "rules-line-2": [
+        251.366,
+        1072.53,
+        556.268,
+        45.913
+      ],
+      "rules-line-3": [
+        259.363,
+        1131.53,
+        540.274,
+        45.913
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 645.1758104738155,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-P6.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "b22498dfbd0ea6336c4b8dd90a5454a917a1dc1ce3d70edeedc445f0c7cadb10",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

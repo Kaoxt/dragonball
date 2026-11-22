@@ -1,0 +1,177 @@
+{
+  "key": "cell-games-P7",
+  "set": "Cell Games Saga",
+  "number": "P7",
+  "id": "cell-games-p7-can-he-do-that",
+  "name": "Can He Do That?",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-p7-can-he-do-that.svg",
+  "native_source_sha256": "6bbed94eb41a425e919b173d4e75ac3883a81b3c7ed3064bca1573471668a424",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/93db5c5c2277332f4d6f6fe8de0e6591059e5fd321f5f2ec8d63e26cf91b044f.png",
+      "sha256": "93db5c5c2277332f4d6f6fe8de0e6591059e5fd321f5f2ec8d63e26cf91b044f"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: Choose a Personality, Setup or",
+      "baseline": 1049.3,
+      "width": 688.793,
+      "icon_inline": false
+    },
+    {
+      "text": "Drill in play. Its power cannot be used",
+      "baseline": 1108.3,
+      "width": 665.2239999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "this Combat. If it is an Ally, it cannot",
+      "baseline": 1167.3,
+      "width": 640.3320000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "take control of Combat this Combat.",
+      "baseline": 1226.3,
+      "width": 640.3810000000001,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-p7-can-he-do-that.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "7e4ada5ace1b6ac8ed6ae848430a3378d5b01f1f08d949c291266dd8ff6b2f10",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-p7-can-he-do-that.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "f511a107c458c88677600943ec84f964284ef6a6d4005d80377c44ae797c0348",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        288.731,
+        50.2213,
+        481.537,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        796.707,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        856.506,
+        1392.65,
+        41.287,
+        33.708
+      ],
+      "rules-line-1": [
+        186.343,
+        1013.53,
+        686.314,
+        45.521
+      ],
+      "rules-line-2": [
+        198.897,
+        1072.53,
+        661.206,
+        45.521
+      ],
+      "rules-line-3": [
+        210.118,
+        1131.53,
+        638.764,
+        45.521
+      ],
+      "rules-line-4": [
+        210.412,
+        1190.53,
+        638.176,
+        36.162
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 481.5374064837906,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-P7.png",
+    "source_dimensions": [
+      1515,
+      1038
+    ],
+    "source_sha256": "93db5c5c2277332f4d6f6fe8de0e6591059e5fd321f5f2ec8d63e26cf91b044f",
+    "mapping_matrix": [
+      0.6818481848184819,
+      0,
+      0,
+      0.6818481848184819,
+      14,
+      145.1207920792079
+    ],
+    "additional_zoom": false
+  }
+}

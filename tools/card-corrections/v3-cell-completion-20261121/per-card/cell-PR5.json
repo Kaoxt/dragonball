@@ -1,0 +1,177 @@
+{
+  "key": "cell-PR5",
+  "set": "Cell Saga",
+  "number": "PR5",
+  "id": "cell-pr5-heroes-battleground",
+  "name": "Heroes' Battleground",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-pr5-heroes-battleground.svg",
+  "native_source_sha256": "7eecfd229ec2745fd12b8e51e9445ab41a9189624aea9358e7230fcc2f8adf6e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/2926e035762ce727e41366a81102b2d54f4c6135fb3ba0c24d52a4510c730961.png",
+      "sha256": "2926e035762ce727e41366a81102b2d54f4c6135fb3ba0c24d52a4510c730961"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "All attacks performed by Allies do +2 stages of damage.",
+      "baseline": 845.483333333333,
+      "width": 1054.6587499999998,
+      "icon_inline": true
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-pr5-heroes-battleground.webp",
+      "size": [
+        1484,
+        1060
+      ],
+      "sha256": "89ca0b2a806df78eb5a6e12087962b9e0583d10d677e189934130ed3727f2469",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-pr5-heroes-battleground.webp",
+      "size": [
+        2968,
+        2120
+      ],
+      "sha256": "89505f676ebab6736eb6cbcf578de5c3d7f7defc4d7cce784a8061ce2c764448",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        423.687,
+        44.5,
+        635.626,
+        69.0
+      ],
+      "card-category": [
+        499.578,
+        668.057,
+        483.844,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        256.985,
+        946.669,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        1122.26,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1182.06,
+        968.646,
+        68.582,
+        33.708
+      ],
+      "rules-line-1": [
+        281.207,
+        809.713,
+        986.839,
+        45.913
+      ],
+      "power-icon": [
+        214.955,
+        816.543,
+        53.5937,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          214.955,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          281.207,
+          811.183,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          214.955,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "max_width": 1184,
+    "visible_center": [
+      741.5,
+      79
+    ]
+  },
+  "rarity_stars": 5,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-PR5.png",
+    "source_dimensions": [
+      2172,
+      724
+    ],
+    "source_sha256": "2926e035762ce727e41366a81102b2d54f4c6135fb3ba0c24d52a4510c730961",
+    "mapping_matrix": [
+      0.66804788213628,
+      0,
+      0,
+      0.66804788213628,
+      16,
+      145.0
+    ],
+    "additional_zoom": false
+  }
+}

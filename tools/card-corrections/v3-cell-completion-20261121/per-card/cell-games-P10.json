@@ -1,0 +1,165 @@
+{
+  "key": "cell-games-P10",
+  "set": "Cell Games Saga",
+  "number": "P10",
+  "id": "cell-games-p10-krillins-surprise",
+  "name": "Krillin's Surprise!",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-p10-krillins-surprise.svg",
+  "native_source_sha256": "c2c8fe17f0a314c6fae143382d5fa7d834157bfaf9341f9ddd81efbe843d4c66",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/1431ba4f26d4204a10b0ed10776328ff93fe6bf31bb189e59fce7ca3b8972f9a.png",
+      "sha256": "1431ba4f26d4204a10b0ed10776328ff93fe6bf31bb189e59fce7ca3b8972f9a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: If your Main Personality is Krillin at Level",
+      "baseline": 1049.3,
+      "width": 871.122,
+      "icon_inline": false
+    },
+    {
+      "text": "1, gain 6 anger. You cannot win by Most Powerful",
+      "baseline": 1108.3,
+      "width": 859.901,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality Victory for the rest of the game.",
+      "baseline": 1167.3,
+      "width": 782.579,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-p10-krillins-surprise.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "9e6ee03db66090bda56c87ab5e6fb631c0a2055a7abb6bd26f5889c3126b3898",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-p10-krillins-surprise.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e183128074567cd1a62bf620bbe317ffdbfd9264ff7f7b1fedcebffc6bd28bdf",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        270.105,
+        44.5,
+        518.791,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        787.67,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.47,
+        1392.65,
+        59.36,
+        33.708
+      ],
+      "rules-line-1": [
+        95.8255,
+        1013.53,
+        867.349,
+        45.521
+      ],
+      "rules-line-2": [
+        100.603,
+        1072.53,
+        857.794,
+        45.913
+      ],
+      "rules-line-3": [
+        140.048,
+        1131.53,
+        778.904,
+        45.913
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 518.7905236907732,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-P10.png",
+    "source_dimensions": [
+      1516,
+      1038
+    ],
+    "source_sha256": "1431ba4f26d4204a10b0ed10776328ff93fe6bf31bb189e59fce7ca3b8972f9a",
+    "mapping_matrix": [
+      0.6813984168865436,
+      0,
+      0,
+      0.6813984168865436,
+      14,
+      145.3542216358839
+    ],
+    "additional_zoom": false
+  }
+}

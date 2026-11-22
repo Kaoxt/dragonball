@@ -1,0 +1,170 @@
+{
+  "card": {
+    "set": "Cell Games Saga",
+    "set_slug": "cell-games",
+    "number": "P5",
+    "key": "cell-games-P5",
+    "id": "cell-games-p5-goku-charges",
+    "name": "Goku Charges",
+    "type": "Physical Combat",
+    "category": "PHYSICAL COMBAT",
+    "style": "Freestyle",
+    "rarity_stars": 2,
+    "power_icon": "attack",
+    "icon_prefix": "",
+    "original_rules": "Physical attack doing +4 power stages of damage. Raise your anger 1 level. Remove from the game after use.",
+    "modern_rules": "Physical attack. DAMAGE: AT +4 stages. Raise your anger 1 level. Banish after use.",
+    "source": "https://dbzoutpost.com/products/cell-games-saga-promo-p5",
+    "original_image_url": "https://cdn.shopify.com/s/files/1/0053/9895/4056/products/P5_fba15cca-8ca3-4667-a271-0f91a5663df4.png?v=1756072680",
+    "artwork_file": "cell-games-P5.png",
+    "sourceNumber": "P5",
+    "subset": "Promo"
+  },
+  "status": "Completed and exported; not published",
+  "template_donor": "tools/card-templates/v3/cell-completion-20261121/cell-games-p4-yamchas-revenge.svg",
+  "template_donor_sha256": "ac9135734e7fbfab029c0543e0e3da804d936b08f153b36b66865ee2085f82ac",
+  "source_archive": "Cell-and-Cell-Games-22-Cards-Codex-Handoff.zip",
+  "source_archive_library_id": "libfile_f9b78db7e0288191954c75c390fd7357",
+  "artwork": {
+    "mode": "Exact user-approved source; no redraw or additional crop",
+    "sha256": "2a82aa5e0a09a5cfd504804354e10f0f0741a365807eaab80b7e5c8aa1bcbe79",
+    "dimensions": [
+      2066,
+      1412
+    ],
+    "mapping_matrix": [
+      0.5,
+      0,
+      0,
+      0.5,
+      14,
+      146
+    ]
+  },
+  "crd": {
+    "source": "Expanded CRD.odt.txt",
+    "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488",
+    "specific_entry": "No matching Goku Charges entry; printed effect preserved"
+  },
+  "native_checks": {
+    "layout": {
+      "revision": "2026-11-01-fixed-native-text-components",
+      "native_outlined_text": true,
+      "fixed_category_svg_matches": true,
+      "visible_ink_anchors_verified": true,
+      "rules_rows": 3
+    },
+    "icon": {
+      "icon": "power-icon",
+      "line": "rules-line-1",
+      "measured_symbol": "whole_icon",
+      "first_capital": "P",
+      "capital_glyph_index": 0,
+      "previous_visible_bounds": [
+        153.886,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "capital_visible_bounds": [
+        206.325,
+        1014.95,
+        19.698,
+        34.349
+      ],
+      "new_visible_bounds": [
+        153.886,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "vertical_shift": 0,
+      "center_error": -0.004500000000007276,
+      "shape_size_and_horizontal_position_preserved": true,
+      "colon_and_text_unchanged": false
+    },
+    "footer": {
+      "revision": "mirrored-side-group-centers-v1",
+      "logo_dx": 0,
+      "ball_and_number_dx": 1.0595,
+      "changed": true,
+      "saga_center_x": 211.75,
+      "right_group_center_x": 847.25,
+      "number_gap_dx": -1.06,
+      "ball_number_gap": 12.200000000000067
+    },
+    "title": {
+      "font_size": 86.0349127182045,
+      "nominal_font_size": 86.0349127182045,
+      "visible_width": 409.61221945137163,
+      "visible_height": 69.00000000000001,
+      "visible_center": [
+        529.5,
+        79.0
+      ],
+      "max_width": 760.0,
+      "scale_factor": 1.0
+    },
+    "idempotent": true,
+    "embedded_art_bytes_identical": true,
+    "protected_components_unchanged": [
+      "card-category",
+      "freestyle-glyph",
+      "footer-text-block",
+      "saga-emblem"
+    ]
+  },
+  "exports": [
+    {
+      "file": "Cell-Games-P5-Goku-Charges-1060x1484.png",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a93d204db5c2c5e9f7b690a98578b46121f6e2aa18c12bcc3dd2583076e72432",
+      "lossless": true
+    },
+    {
+      "file": "Cell-Games-P5-Goku-Charges-1060x1484.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dbec5e4e4a61ddf61d66bc7c6dda4f5be15b36882e05edf5f9514618e51243d1",
+      "lossless": true
+    },
+    {
+      "file": "Cell-Games-P5-Goku-Charges-2120x2968.png",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e743bf9a379540b69aac772b79205bd77c93f0bc3c308d7a04df82e417c0d2c0",
+      "lossless": true
+    },
+    {
+      "file": "Cell-Games-P5-Goku-Charges-2120x2968.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "1e4630e4aa441d2e925ddd390b54d66b23f010d7af5b6ebcd55e518a5e1e7556",
+      "lossless": true
+    }
+  ],
+  "source_svg": {
+    "file": "cell-games-p5-goku-charges.svg",
+    "sha256": "2b052388a0170e65c4f8d87e89208561ac531e08f244324d72ed972ccf9c9b8b",
+    "self_contained": true,
+    "text_outlined": true
+  },
+  "visual_review": {
+    "normal_and_full_resolution_reviewed": true,
+    "approved_art_preserved": true,
+    "expression": "Open shouting mouth, lowered brows and turquoise eyes preserved from supplied artwork.",
+    "anatomy": "Both clenched fists and arm connections preserved; lower-left fist and hair tips retain the supplied edge crops.",
+    "background": "Approved blue sky and cloud arrangement preserved.",
+    "frame_and_text": "Matched Cell Games V3 donor; title, rules, single attack icon, footer P5 and two-star promo ball visually checked.",
+    "original_reference_comparison": "Same character, transformation, torn gi and charging action. User-selected illustration is the approved modern interpretation, not an exact tracing of the Score scan."
+  }
+}

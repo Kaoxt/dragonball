@@ -1,0 +1,153 @@
+{
+  "key": "cell-PR6",
+  "set": "Cell Saga",
+  "number": "PR6",
+  "id": "cell-pr6-cells-style",
+  "name": "Cell's Style",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-pr6-cells-style.svg",
+  "native_source_sha256": "2d74c70fb4ac43b516fe3282b153276886e1e8a8ccc967ea0cf7edda12f21ce4",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7422e9524e617d333d00fee910707b6c0fac919a1847195dd3cf6f306f66b207.png",
+      "sha256": "7422e9524e617d333d00fee910707b6c0fac919a1847195dd3cf6f306f66b207"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Cell only. POWER: Your attacks performed by",
+      "baseline": 1049.3,
+      "width": 795.0250000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Cell do +3 life cards of damage this Combat.",
+      "baseline": 1108.3,
+      "width": 778.414,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-pr6-cells-style.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f652c1f6ebea6c114e7842ce8189e8734d6139d99b7cf2697c1d4df97d8febe2",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-pr6-cells-style.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "cbbb88d178b733932cd119b935575769b5bb18e5e9704b2708d8f8cca5358f48",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        364.614,
+        44.5,
+        329.772,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        782.953,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        842.753,
+        1392.65,
+        68.794,
+        33.708
+      ],
+      "rules-line-1": [
+        133.151,
+        1014.61,
+        792.699,
+        44.443
+      ],
+      "rules-line-2": [
+        141.91,
+        1072.53,
+        775.18,
+        45.913
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 329.77182044887786,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 5,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-PR6.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "7422e9524e617d333d00fee910707b6c0fac919a1847195dd3cf6f306f66b207",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

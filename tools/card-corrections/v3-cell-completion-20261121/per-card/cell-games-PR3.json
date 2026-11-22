@@ -1,0 +1,153 @@
+{
+  "key": "cell-games-PR3",
+  "set": "Cell Games Saga",
+  "number": "PR3",
+  "id": "cell-games-pr3-gohan-meditates",
+  "name": "Gohan Meditates",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-pr3-gohan-meditates.svg",
+  "native_source_sha256": "e6b194c5b2d71ae1962347403dc87dd03a3023b26a1b2bbdb43804b53e2de388",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/60f2f2227d6e343c3bb6808b24227ca57e1783fd16583ff07dcf35c60ebab6e8.png",
+      "sha256": "60f2f2227d6e343c3bb6808b24227ca57e1783fd16583ff07dcf35c60ebab6e8"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "POWER: Lower your opponent's anger 2",
+      "baseline": 1049.3,
+      "width": 695.9469999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "levels, or discard a Setup or Drill in play.",
+      "baseline": 1108.3,
+      "width": 713.93,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-pr3-gohan-meditates.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "6de4c80e08d462a8fcc5ddc49e1ba734e41be9c92efd75ddfe8a3f90fa820a6d",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-pr3-gohan-meditates.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "74850c527623a67763bc044628d7ccd68aa0f5122bdbf194cb045b38e0209790",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        279.009,
+        50.2213,
+        500.981,
+        57.5574
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        783.642,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        843.442,
+        1392.65,
+        67.416,
+        33.708
+      ],
+      "rules-line-1": [
+        182.997,
+        1014.61,
+        693.007,
+        44.835
+      ],
+      "rules-line-2": [
+        174.152,
+        1072.53,
+        710.696,
+        45.521
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 500.9812967581048,
+    "visible_height": 57.55735660847881,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 3,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-PR3.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "60f2f2227d6e343c3bb6808b24227ca57e1783fd16583ff07dcf35c60ebab6e8",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

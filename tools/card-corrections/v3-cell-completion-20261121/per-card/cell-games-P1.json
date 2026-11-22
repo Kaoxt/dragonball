@@ -1,0 +1,201 @@
+{
+  "key": "cell-games-P1",
+  "set": "Cell Games Saga",
+  "number": "P1",
+  "id": "cell-games-p1-cell-jr-s-flight",
+  "name": "Cell Jr.'s Flight",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-games-p1-cell-jr-s-flight.svg",
+  "native_source_sha256": "9cb11bff851e1d098b4a13acf393837886bc93bc8eaa3c038ecce301390a430f",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/62e5e4b7dc5e9a37f526ab763eedcf6706d9c436c73581994490ef1c6552d596.png",
+      "sha256": "62e5e4b7dc5e9a37f526ab763eedcf6706d9c436c73581994490ef1c6552d596"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005.png",
+      "sha256": "c0be062538157d871bd6d4448b6c2be0ec3a63c332f3aa63f37d496a487f1005"
+    }
+  ],
+  "rules": [
+    {
+      "text": "(Limit 1 per deck.) Physical attack.",
+      "baseline": 1049.3,
+      "width": 670.3731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages and +1 life card",
+      "baseline": 1108.3,
+      "width": 671.447,
+      "icon_inline": false
+    },
+    {
+      "text": "per Cell Jr. you have in play.",
+      "baseline": 1167.3,
+      "width": 500.63300000000004,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-games-p1-cell-jr-s-flight.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "43a8566e88115d0de491ab98a6afe4d248084a06e5a61eaa3003bd032d76db9b",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-games-p1-cell-jr-s-flight.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "faf35acf28d87bbfce198d7e449ce34ca3c9b4b3051090fd47efa817ce13c394",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        307.401,
+        44.5,
+        444.198,
+        69.0
+      ],
+      "card-category": [
+        242.726,
+        891.391,
+        573.549,
+        34.2188
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        174.768,
+        1377.19,
+        73.9635,
+        64.6283
+      ],
+      "footer-rarity": [
+        799.94,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        859.74,
+        1392.65,
+        34.821,
+        33.708
+      ],
+      "rules-line-1": [
+        195.122,
+        1012.11,
+        668.756,
+        46.942
+      ],
+      "power-icon": [
+        527.092,
+        1014.97,
+        40.4392,
+        34.3
+      ],
+      "rules-line-2": [
+        195.786,
+        1072.53,
+        667.429,
+        45.913
+      ],
+      "rules-line-3": [
+        280.972,
+        1131.53,
+        497.056,
+        45.521
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "whole_icon",
+        "first_capital": "P",
+        "capital_glyph_index": 16,
+        "previous_visible_bounds": [
+          527.092,
+          1015.0,
+          40.4392,
+          34.3
+        ],
+        "capital_visible_bounds": [
+          581.638,
+          1014.95,
+          19.698,
+          34.349
+        ],
+        "new_visible_bounds": [
+          527.092,
+          1014.97,
+          40.4392,
+          34.3
+        ],
+        "vertical_shift": -0.02549999999996544,
+        "center_error": -0.004500000000007276,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": false
+      }
+    ],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 444.19825436408985,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 2,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-games-P1.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "62e5e4b7dc5e9a37f526ab763eedcf6706d9c436c73581994490ef1c6552d596",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}

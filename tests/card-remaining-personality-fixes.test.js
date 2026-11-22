@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog,beforeCellCompletionHash} from './helpers/pre-cell-completion.js';
 import {powerChart} from '../public/personality-power.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -14,7 +14,7 @@ const base='tools/card-corrections/remaining-personality-fixes-20261115/';
 const manifest=JSON.parse(fs.readFileSync(base+'manifest.json','utf8'));
 const checks=JSON.parse(fs.readFileSync(base+'pixel-verification.json','utf8'));
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const fileHash=p=>hash(fs.readFileSync(p));
+const fileHash=beforeCellCompletionHash;
 
 test('the 58-card correction changes only approved catalog image URLs and preserves deck identities',async()=>{
  assert.equal(release.cards.length,58);

@@ -56,10 +56,10 @@ test('Personality labels appear in filters, result cards and details while legac
  assert.equal(fields[fields.findIndex(c=>c.textContent==='Type')+1].textContent,'Personality');
 });
 
-test('Cell Games Saga exposes 125 reviewed cards across three pages and resolves every detail and download',()=>{
+test('Cell Games Saga exposes 142 reviewed cards across three pages and resolves every detail and download',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
- assert.equal(cards.length,125);assert.equal(grid(b).length,50);
- assert.equal(b.elements['results-count'].textContent,'Showing 1–50 of 125 cards in Cell Games Saga');
+ assert.equal(cards.length,142);assert.equal(grid(b).length,50);
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–50 of 142 cards in Cell Games Saga');
  assert.equal(b.elements['collection-name'].hidden,true);
  assert.equal(b.elements['collection-logo-cell-games'].hidden,false);
  assert.equal(b.elements['collection-logo-cell-games'].alt,'Cell Games Saga');
@@ -69,11 +69,12 @@ test('Cell Games Saga exposes 125 reviewed cards across three pages and resolves
  assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
  const second=browser('/cards/cell-games-saga/?sort=number&page=2');
  const remaining=Array.from({length:50},(_,i)=>i+51);
- assert.equal(second.elements['results-count'].textContent,'Showing 51–100 of 125 cards in Cell Games Saga');
+ assert.equal(second.elements['results-count'].textContent,'Showing 51–100 of 142 cards in Cell Games Saga');
  assert.deepEqual(grid(second).map(c=>c.href),remaining.map(n=>`/cards/cell-games-saga/${String(n).padStart(3,'0')}`));
  const third=browser('/cards/cell-games-saga/?sort=number&page=3');
- assert.equal(third.elements['results-count'].textContent,'Showing 101–125 of 125 cards in Cell Games Saga');
- assert.deepEqual(grid(third).map(c=>c.href),Array.from({length:25},(_,i)=>`/cards/cell-games-saga/${i+101}`));
+ assert.equal(third.elements['results-count'].textContent,'Showing 101–142 of 142 cards in Cell Games Saga');
+ const finalNumbers=[...Array.from({length:25},(_,i)=>String(i+101)),...['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10'],...Array.from({length:7},(_,i)=>`PR${i+1}`)];
+ assert.deepEqual(grid(third).map(c=>c.href),finalNumbers.map(n=>`/cards/cell-games-saga/${n.toLowerCase()}`));
  for(const card of cards){
   const direct=browser(cardPath(card));assert.equal(direct.elements['card-detail'].open,true);
   assert.equal(direct.elements['download'].href,card.downloadImage);
@@ -247,7 +248,7 @@ test('Cell Saga promos appear in type filters and expose exact display and downl
  const promos=catalog.filter(c=>c.set==='Cell Saga'&&/^P\d+$/.test(c.number));
  assert.equal(promos.length,10);
  const set=browser('/cards/cell-saga/');
- assert.equal(set.elements['results-count'].textContent,'Showing 1–50 of 210 cards in Cell Saga');
+ assert.equal(set.elements['results-count'].textContent,'Showing 1–50 of 216 cards in Cell Saga');
  for(const card of promos){
   const filtered=browser('/cards/cell-saga/?query='+encodeURIComponent(card.name)+'&type='+encodeURIComponent(card.type));
   assert.ok(grid(filtered).some(el=>el.href===cardPath(card)),card.name);

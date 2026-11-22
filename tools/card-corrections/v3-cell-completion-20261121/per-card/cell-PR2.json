@@ -1,0 +1,177 @@
+{
+  "key": "cell-PR2",
+  "set": "Cell Saga",
+  "number": "PR2",
+  "id": "cell-pr2-cells-arena",
+  "name": "Cell's Arena",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-pr2-cells-arena.svg",
+  "native_source_sha256": "b9277642d0df446fd50100c01ac764e5dee24b754beafb171ed326fbc0628d11",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/8b83b6063c613696359714b84875ce2d4a4631edbd4a1668dd0720f0fa5bb78a.png",
+      "sha256": "8b83b6063c613696359714b84875ce2d4a4631edbd4a1668dd0720f0fa5bb78a"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "All attacks cost +1 stage to perform and do +2 life cards of damage.",
+      "baseline": 845.483333333333,
+      "width": 1263.7417499999997,
+      "icon_inline": true
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-pr2-cells-arena.webp",
+      "size": [
+        1484,
+        1060
+      ],
+      "sha256": "00238e207be6ccfb8f5b5b1f2e92a7bcfe22c3160321a757f9211f84f8daffe9",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-pr2-cells-arena.webp",
+      "size": [
+        2968,
+        2120
+      ],
+      "sha256": "6f0ffeed4b0b6009b4bf53687e7848f9660d5387e7a39db5d1217b69a35e0bd9",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        564.311,
+        50.2213,
+        354.378,
+        57.5574
+      ],
+      "card-category": [
+        499.578,
+        668.057,
+        483.844,
+        34.2188
+      ],
+      "footer-text-block": [
+        546.3,
+        958.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        256.985,
+        946.669,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        1122.92,
+        961.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        1182.72,
+        968.646,
+        67.257,
+        33.708
+      ],
+      "rules-line-1": [
+        176.665,
+        809.713,
+        1195.92,
+        45.913
+      ],
+      "power-icon": [
+        110.413,
+        816.543,
+        53.5937,
+        23.5812
+      ]
+    },
+    "icons": [
+      {
+        "icon": "power-icon",
+        "line": "rules-line-1",
+        "measured_symbol": "infinity_without_colon",
+        "first_capital": "A",
+        "capital_glyph_index": 0,
+        "previous_visible_bounds": [
+          110.413,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "capital_visible_bounds": [
+          176.665,
+          811.183,
+          22.3226,
+          34.3
+        ],
+        "new_visible_bounds": [
+          110.413,
+          818.686,
+          41.8031,
+          19.2938
+        ],
+        "vertical_shift": 0,
+        "center_error": -9.999999997489795e-05,
+        "shape_size_and_horizontal_position_preserved": true,
+        "colon_and_text_unchanged": true
+      }
+    ],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "max_width": 1184,
+    "visible_center": [
+      741.5,
+      79
+    ]
+  },
+  "rarity_stars": 1,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-PR2.png",
+    "source_dimensions": [
+      2172,
+      724
+    ],
+    "source_sha256": "8b83b6063c613696359714b84875ce2d4a4631edbd4a1668dd0720f0fa5bb78a",
+    "mapping_matrix": [
+      0.66804788213628,
+      0,
+      0,
+      0.66804788213628,
+      16,
+      145.0
+    ],
+    "additional_zoom": false
+  }
+}

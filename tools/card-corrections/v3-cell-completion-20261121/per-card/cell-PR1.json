@@ -1,0 +1,153 @@
+{
+  "key": "cell-PR1",
+  "set": "Cell Saga",
+  "number": "PR1",
+  "id": "cell-pr1-cells-draining",
+  "name": "Cell's Draining",
+  "native_source_path": "tools/card-templates/v3/cell-completion-20261121/cell-pr1-cells-draining.svg",
+  "native_source_sha256": "40fe776a04144772bcf3f5c29718a26443bc7af03e25a3a28f382d5fe437037e",
+  "assets": [
+    {
+      "path": "tools/card-templates/v3/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/6c2e823cee7581054ab5656a57f058b7f7f5975dca97d43d16e5593f1646376d.png",
+      "sha256": "6c2e823cee7581054ab5656a57f058b7f7f5975dca97d43d16e5593f1646376d"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "tools/card-templates/v3/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    }
+  ],
+  "rules": [
+    {
+      "text": "Use when entering Combat. All of your opponent's",
+      "baseline": 1049.3,
+      "width": 879.8439999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Personalities lose 2 stages. Banish after use.",
+      "baseline": 1108.3,
+      "width": 799.19,
+      "icon_inline": false
+    }
+  ],
+  "exports": [
+    {
+      "field": "image",
+      "path": "public/assets/cards/cell-pr1-cells-draining.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f89763ee44108a0317bb6470156766435e92bc1ccb8094461ff6bc4110490768",
+      "lossless_round_trip": true
+    },
+    {
+      "field": "downloadImage",
+      "path": "public/assets/cards/downloads/cell-pr1-cells-draining.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "49d899e5d677f945bddc33911cc9dcb3471ce4effb090ae46125fb2596e70751",
+      "lossless_round_trip": true
+    }
+  ],
+  "native_geometry": {
+    "bounds": {
+      "card-title": [
+        313.94,
+        44.5,
+        431.121,
+        69.0
+      ],
+      "card-category": [
+        433.596,
+        891.991,
+        191.808,
+        33.0187
+      ],
+      "footer-text-block": [
+        334.3,
+        1382.98,
+        390.4,
+        53.04
+      ],
+      "saga-emblem": [
+        172.185,
+        1370.67,
+        79.1294,
+        77.6625
+      ],
+      "footer-rarity": [
+        787.511,
+        1385.7,
+        47.6,
+        47.6
+      ],
+      "card-number": [
+        847.311,
+        1392.65,
+        59.678,
+        33.708
+      ],
+      "rules-line-1": [
+        90.999,
+        1013.53,
+        877.002,
+        45.913
+      ],
+      "rules-line-2": [
+        131.742,
+        1072.53,
+        795.515,
+        45.913
+      ]
+    },
+    "icons": [],
+    "outlined_text": true,
+    "footer_idempotent": true
+  },
+  "title_fit": {
+    "font_size": 86.0349127182045,
+    "nominal_font_size": 86.0349127182045,
+    "visible_width": 431.12094763092273,
+    "visible_height": 69.00000000000001,
+    "visible_center": [
+      529.5,
+      79.0
+    ],
+    "max_width": 760.0,
+    "scale_factor": 1.0
+  },
+  "rarity_stars": 1,
+  "artwork": {
+    "mode": "new original-scan-based illustration",
+    "source": "tools/card-corrections/v3-cell-completion-20261121/artwork/cell-PR1.png",
+    "source_dimensions": [
+      1517,
+      1037
+    ],
+    "source_sha256": "6c2e823cee7581054ab5656a57f058b7f7f5975dca97d43d16e5593f1646376d",
+    "mapping_matrix": [
+      0.6809492419248517,
+      0,
+      0,
+      0.6809492419248517,
+      14,
+      145.9278180619644
+    ],
+    "additional_zoom": false
+  }
+}
