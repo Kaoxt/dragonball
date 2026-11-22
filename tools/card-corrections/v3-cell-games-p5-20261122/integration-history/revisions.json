@@ -1,0 +1,67 @@
+{
+  "base_commit": "b25bb24ceb10469932363ce5eb0c15a259d6daf0",
+  "cellCompletion": [
+    {
+      "path": "AGENTS.md",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/AGENTS.md.gz",
+      "before_sha256": "b1c0517012a2c8e972dbbad151aeaff5d12a6f813fac353ff142e19366f94f57",
+      "after_sha256": "40bb7a056c489374467b2aff8e923f3f18b6e759a559082267f80e4c829a555a"
+    },
+    {
+      "path": "package.json",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/package.json.gz",
+      "before_sha256": "1c30aa4695445de1e8744a9507cd0c27b8bcb1aad32dbdea7b89c47ff10355a3",
+      "after_sha256": "b43848a8f525bafa91dc4e259e0f90f9e9b7fec43a62b18dc39b7570d76f2a4a"
+    },
+    {
+      "path": "tests/card-browser.test.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/tests/card-browser.test.js.gz",
+      "before_sha256": "194382ddcd3280635ec232f5431a4e89034b63abc7390bef180fe82975db5dc6",
+      "after_sha256": "b7d374c2cb61586e20b8e6e1b5c3bdfc89e737ec5802f79fddce038cfd258393"
+    },
+    {
+      "path": "tests/card-remaining-personality-fixes.test.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/tests/card-remaining-personality-fixes.test.js.gz",
+      "before_sha256": "5bf3732987afa87c6c68f638c11d7af42010ecfbcb3cf15314386cef38841ba2",
+      "after_sha256": "6d743dbda4fa4afcb08b8dff1672ede18b57b638bbe154f955bf84dddae8dcb7"
+    },
+    {
+      "path": "tests/card-v3-cell-promos.test.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/tests/card-v3-cell-promos.test.js.gz",
+      "before_sha256": "b24176c2a7a2ba40407edaa220857a4972ae4115dbe95ddd62a5c9cae9a0f122",
+      "after_sha256": "7ab2361273e45f295e698ff66fb8317e3000cc163eaaeb871c66fac45afb787d"
+    },
+    {
+      "path": "tests/helpers/pre-cell-promos.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/tests/helpers/pre-cell-promos.js.gz",
+      "before_sha256": "ba19a30b363d993e0ace97780cda7d46f7def39e9d610a032b659707eb6aaf08",
+      "after_sha256": "4c90dafe291d58e82dbf68405bcd9a233556325685523a9e91cf2ce06d3398fd"
+    },
+    {
+      "path": "tests/helpers/remaining-personality-history.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellCompletion/tests/helpers/remaining-personality-history.js.gz",
+      "before_sha256": "74b16c5231dd7e74e4e0d352b4871671d62e912e954ef2316e31db35a9b979b5",
+      "after_sha256": "d16e300b9ed5f77f3bcd3f83cefb17c198b671e906776aa1c826a501076bcb56"
+    }
+  ],
+  "cellGamesP5": [
+    {
+      "path": "AGENTS.md",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellGamesP5/AGENTS.md.gz",
+      "before_sha256": "40bb7a056c489374467b2aff8e923f3f18b6e759a559082267f80e4c829a555a",
+      "after_sha256": "245a0cd8233ba4368af0f0188be00acf2227436e16ecf5bdedc24367ce6c0ea3"
+    },
+    {
+      "path": "package.json",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellGamesP5/package.json.gz",
+      "before_sha256": "b43848a8f525bafa91dc4e259e0f90f9e9b7fec43a62b18dc39b7570d76f2a4a",
+      "after_sha256": "eecf53c523cadcc16961c4e606b121ed0e0473e9a0d90c2d3911aa9f48e527e9"
+    },
+    {
+      "path": "tests/card-browser.test.js",
+      "before_file": "tools/card-corrections/v3-cell-games-p5-20261122/integration-history/cellGamesP5/tests/card-browser.test.js.gz",
+      "before_sha256": "b7d374c2cb61586e20b8e6e1b5c3bdfc89e737ec5802f79fddce038cfd258393",
+      "after_sha256": "199da9c02ca4dadc90ce4e9eddafe45d81f4f259fef863e010033db086c4b2f7"
+    }
+  ]
+}
