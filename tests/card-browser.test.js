@@ -58,22 +58,22 @@ test('Personality labels appear in filters, result cards and details while legac
 
 test('Cell Games Saga exposes 142 reviewed cards across three pages and resolves every detail and download',()=>{
  const cards=catalog.filter(c=>c.set==='Cell Games Saga'),b=browser('/cards/cell-games-saga/?sort=number');
- assert.equal(cards.length,142);assert.equal(grid(b).length,50);
- assert.equal(b.elements['results-count'].textContent,'Showing 1–50 of 142 cards in Cell Games Saga');
+ assert.equal(cards.length,142);assert.equal(grid(b).length,52);
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–52 of 142 cards in Cell Games Saga');
  assert.equal(b.elements['collection-name'].hidden,true);
  assert.equal(b.elements['collection-logo-cell-games'].hidden,false);
  assert.equal(b.elements['collection-logo-cell-games'].alt,'Cell Games Saga');
  assert.match(b.elements['collection-logo-cell-games'].src,/cell-games-saga-logo-brushed-green\.webp/);
  assert.equal(b.elements['collection-name'].textContent,'Cell Games Saga');
  assert.equal(b.elements['pagination-top'].hidden,false);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:52},(_,i)=>`/cards/cell-games-saga/${String(i+1).padStart(3,'0')}`));
  const second=browser('/cards/cell-games-saga/?sort=number&page=2');
- const remaining=Array.from({length:50},(_,i)=>i+51);
- assert.equal(second.elements['results-count'].textContent,'Showing 51–100 of 142 cards in Cell Games Saga');
+ const remaining=Array.from({length:52},(_,i)=>i+53);
+ assert.equal(second.elements['results-count'].textContent,'Showing 53–104 of 142 cards in Cell Games Saga');
  assert.deepEqual(grid(second).map(c=>c.href),remaining.map(n=>`/cards/cell-games-saga/${String(n).padStart(3,'0')}`));
  const third=browser('/cards/cell-games-saga/?sort=number&page=3');
- assert.equal(third.elements['results-count'].textContent,'Showing 101–142 of 142 cards in Cell Games Saga');
- const finalNumbers=[...Array.from({length:25},(_,i)=>String(i+101)),...['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10'],...Array.from({length:7},(_,i)=>`PR${i+1}`)];
+ assert.equal(third.elements['results-count'].textContent,'Showing 105–142 of 142 cards in Cell Games Saga');
+ const finalNumbers=[...Array.from({length:21},(_,i)=>String(i+105)),...['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10'],...Array.from({length:7},(_,i)=>`PR${i+1}`)];
  assert.deepEqual(grid(third).map(c=>c.href),finalNumbers.map(n=>`/cards/cell-games-saga/${n.toLowerCase()}`));
  for(const card of cards){
   const direct=browser(cardPath(card));assert.equal(direct.elements['card-detail'].open,true);
@@ -89,9 +89,9 @@ test('complete Android Saga includes 125 numbered cards, P1–P11, and a reachab
  for(const n of [...Array.from({length:125},(_,i)=>String(i+1)),...Array.from({length:11},(_,i)=>`P${i+1}`)])
   assert.ok(android.some(c=>c.number===n),`Missing Android ${n}`);
  const b=browser('/cards/android-saga/?page=3');
- const expected=[...android].sort((a,b)=>a.name.localeCompare(b.name)).slice(100).map(cardPath);
+ const expected=[...android].sort((a,b)=>a.name.localeCompare(b.name)).slice(104).map(cardPath);
  assert.deepEqual(grid(b).map(c=>c.href),expected);
- assert.equal(b.elements['results-count'].textContent,'Showing 101–136 of 136 cards in Android Saga');
+ assert.equal(b.elements['results-count'].textContent,'Showing 105–136 of 136 cards in Android Saga');
  assert.equal(android.find(c=>c.number==='P10').width,1484);
  assert.equal(android.find(c=>c.number==='P10').type,'Location');
  for(const c of android.filter(c=>Number(c.number)>=114 && Number(c.number)<=123)){
@@ -100,30 +100,30 @@ test('complete Android Saga includes 125 numbered cards, P1–P11, and a reachab
  }
 });
 
-test('Cards opens all sets directly with 50 cards and no set directory',()=>{
+test('Cards opens all sets directly with 52 cards and no set directory',()=>{
  const b=browser();
- assert.equal(grid(b).length,50);
+ assert.equal(grid(b).length,52);
  assert.equal(b.elements['set-directory'],undefined);
  assert.equal(b.elements.set.value,'');
  assert.equal(b.elements['pagination-top'].hidden,false);
  assert.equal(b.elements['pagination-bottom'].hidden,false);
- assert.equal(b.elements['results-count'].textContent,`Showing 1–50 of ${catalog.length} cards`);
+ assert.equal(b.elements['results-count'].textContent,`Showing 1–52 of ${catalog.length} cards`);
  assert.equal(b.removed(),1);
 });
 
-test('every page contains its 50-card slice without omissions or duplicates',()=>{
+test('every page contains its 52-card slice without omissions or duplicates',()=>{
  const expected=[...catalog].sort((a,b)=>a.name.localeCompare(b.name)).map(cardPath),seen=[];
  const b=browser();
- for(let n=1;n<=Math.ceil(catalog.length/50);n++){
+ for(let n=1;n<=Math.ceil(catalog.length/52);n++){
   if(n>1)b.click(pageLink(b,n));
-  assert.deepEqual(grid(b).map(c=>c.href),expected.slice((n-1)*50,n*50));
+  assert.deepEqual(grid(b).map(c=>c.href),expected.slice((n-1)*52,n*52));
   assert.equal(pageLink(b,n)['aria-current'],'page');
   seen.push(...grid(b).map(c=>c.href));
  }
  assert.deepEqual(seen,expected);
  assert.equal(b.elements['pagination-top'].children.at(-1)['aria-disabled'],'true');
- b.history.back();assert.equal(b.location.search,`?page=${Math.ceil(catalog.length/50)-1}`);
- b.history.forward();assert.equal(b.location.search,`?page=${Math.ceil(catalog.length/50)}`);
+ b.history.back();assert.equal(b.location.search,`?page=${Math.ceil(catalog.length/52)-1}`);
+ b.history.forward();assert.equal(b.location.search,`?page=${Math.ceil(catalog.length/52)}`);
 });
 
 test('page and filter URLs survive refresh and invalid pages are corrected',()=>{
@@ -131,9 +131,9 @@ test('page and filter URLs survive refresh and invalid pages are corrected',()=>
  b.events.pageshow();assert.deepEqual(grid(b).map(c=>c.href),expected);
  assert.deepEqual(grid(browser('/cards/?page=2')).map(c=>c.href),expected);
  for(const page of ['0','-2','NaN','1.5','Infinity','9007199254740992']){
-  const invalid=browser('/cards/?page='+page);assert.equal(invalid.location.search,'');assert.equal(grid(invalid).length,50);
+  const invalid=browser('/cards/?page='+page);assert.equal(invalid.location.search,'');assert.equal(grid(invalid).length,52);
  }
- const last=browser('/cards/?page=999');assert.equal(last.location.search,`?page=${Math.ceil(catalog.length/50)}`);
+ const last=browser('/cards/?page=999');assert.equal(last.location.search,`?page=${Math.ceil(catalog.length/52)}`);
  const filtered=browser('/cards/saiyan-saga/?query=goku&type=Main+Personality&sort=name&page=2');
  assert.equal(filtered.elements.query.value,'goku');assert.equal(filtered.elements.type.value,'Main Personality');
  assert.ok(grid(filtered).every(c=>c.children[1].textContent.toLowerCase().includes('goku')));
@@ -144,21 +144,21 @@ test('search, type, style, sort and Reset return to page one; empty results hide
   const b=browser('/cards/?page=3'),el=b.elements;
   el[key].value={query:'goku',type:'Physical Combat',style:'Orange',sort:'number'}[key];
   (key==='query'?el[key].oninput:el[key].onchange)();
-  assert.ok(!b.location.search.includes('page='));assert.ok(grid(b).length<=50);
+  assert.ok(!b.location.search.includes('page='));assert.ok(grid(b).length<=52);
  }
  const b=browser('/cards/?page=3'),el=b.elements;
  el.query.value='no-such-card-ever';el.query.oninput();
  assert.equal(grid(b).length,0);assert.equal(el['no-results'].hidden,false);assert.equal(el['pagination-top'].hidden,true);
- b.click(el.clear);assert.equal(grid(b).length,50);assert.equal(b.location.search,'');
+ b.click(el.clear);assert.equal(grid(b).length,52);assert.equal(b.location.search,'');
 });
 
 test('set pages and Reset stay within their set; small sets hide pagination',()=>{
  const b=browser('/cards/frieza-saga/'),el=b.elements;
  const count=catalog.filter(c=>c.set==='Frieza Saga').length;
  assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'name');
- const expected=catalog.filter(c=>c.set==='Frieza Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,50).map(cardPath);
+ const expected=catalog.filter(c=>c.set==='Frieza Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,52).map(cardPath);
  assert.deepEqual(grid(b).map(c=>c.href),expected);
- assert.equal(grid(b).length,Math.min(50,count));assert.equal(el['pagination-top'].hidden,count<=50);
+ assert.equal(grid(b).length,Math.min(52,count));assert.equal(el['pagination-top'].hidden,count<=52);
  el.query.value='suspension';el.query.oninput();assert.equal(grid(b).length,1);
  b.events.pageshow();assert.equal(el.query.value,'suspension');
  el.sort.value='number';el.sort.onchange();
@@ -186,44 +186,44 @@ test('card modal preserves page, set and filters through Close, Back and Forward
 });
 
 test('old all-cards links still open the grid and normalize to Cards',()=>{
- const b=browser('/cards/all/?page=2');assert.equal(grid(b).length,50);
+ const b=browser('/cards/all/?page=2');assert.equal(grid(b).length,52);
  assert.equal(b.location.pathname,'/cards/');assert.equal(b.location.search,'?page=2');
 });
 
 test('Trunks Saga shows all 210 cards across five pages, with its wordmark and working detail links',()=>{
  const b=browser('/cards/trunks-saga/?sort=number'),el=b.elements;
- assert.equal(grid(b).length,50);
+ assert.equal(grid(b).length,52);
  assert.equal(el['collection-logo-trunks'].hidden,false);
  assert.equal(el['collection-logo-trunks'].src,'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners');
  assert.equal(el['collection-logo'].hidden,true);
  assert.equal(el['collection-logo-frieza'].hidden,true);
  assert.equal(el['pagination-top'].hidden,false);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/trunks-saga/${String(i+1).padStart(3,'0')}`));
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:52},(_,i)=>`/cards/trunks-saga/${String(i+1).padStart(3,'0')}`));
  b.click(grid(b)[2]);
  assert.equal(el['card-detail'].open,true);
  assert.equal(b.location.pathname,'/cards/trunks-saga/003');
  b.click(el['close-detail']);
  b.click(pageLink(b,2));
- assert.equal(grid(b).length,50);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/trunks-saga/${String(i+51).padStart(3,'0')}`));
+ assert.equal(grid(b).length,52);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:52},(_,i)=>`/cards/trunks-saga/${String(i+53).padStart(3,'0')}`));
  b.click(grid(b)[19]);
  assert.equal(el['card-detail'].open,true);
- assert.equal(b.location.pathname,'/cards/trunks-saga/070');
+ assert.equal(b.location.pathname,'/cards/trunks-saga/072');
  b.click(el['close-detail']);
  b.click(pageLink(b,3));
- assert.equal(grid(b).length,50);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/trunks-saga/${String(i+101).padStart(3,'0')}`));
- b.click(grid(b)[49]);
+ assert.equal(grid(b).length,52);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:52},(_,i)=>`/cards/trunks-saga/${String(i+105).padStart(3,'0')}`));
+ b.click(grid(b)[51]);
  assert.equal(el['card-detail'].open,true);
- assert.equal(b.location.pathname,'/cards/trunks-saga/150');
+ assert.equal(b.location.pathname,'/cards/trunks-saga/156');
  b.click(el['close-detail']);
  b.click(pageLink(b,4));
- assert.equal(grid(b).length,50);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:50},(_,i)=>`/cards/trunks-saga/${151+i}`));
+ assert.equal(grid(b).length,52);
+ assert.deepEqual(grid(b).map(c=>c.href),[...Array.from({length:44},(_,i)=>`/cards/trunks-saga/${157+i}`),...Array.from({length:8},(_,i)=>`/cards/trunks-saga/p${i+1}`)]);
  b.click(pageLink(b,5));
- assert.equal(grid(b).length,10);
- assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:10},(_,i)=>`/cards/trunks-saga/p${i+1}`));
- b.click(grid(b)[9]);
+ assert.equal(grid(b).length,2);
+ assert.deepEqual(grid(b).map(c=>c.href),Array.from({length:2},(_,i)=>`/cards/trunks-saga/p${i+9}`));
+ b.click(grid(b)[1]);
  assert.equal(el['card-detail'].open,true);
  assert.equal(b.location.pathname,'/cards/trunks-saga/p10');
 });
@@ -236,7 +236,7 @@ test('Android set shows its banner through refresh and hides it outside that set
  assert.equal(el['collection-logo-android'].src,'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners');
  assert.equal(el['collection-name'].hidden,true);
  for(const id of ['collection-logo','collection-logo-frieza','collection-logo-trunks'])assert.equal(el[id].hidden,true);
- const expected=catalog.filter(c=>c.set==='Android Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,50).map(cardPath);
+ const expected=catalog.filter(c=>c.set==='Android Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,52).map(cardPath);
  assert.ok(expected.length>0);assert.deepEqual(grid(b).map(c=>c.href),expected);
  b.events.pageshow();assert.equal(el['collection-logo-android'].hidden,false);
  assert.equal(browser('/cards/').elements['collection-logo-android'].hidden,true);
@@ -248,7 +248,7 @@ test('Cell Saga promos appear in type filters and expose exact display and downl
  const promos=catalog.filter(c=>c.set==='Cell Saga'&&/^P\d+$/.test(c.number));
  assert.equal(promos.length,10);
  const set=browser('/cards/cell-saga/');
- assert.equal(set.elements['results-count'].textContent,'Showing 1–50 of 216 cards in Cell Saga');
+ assert.equal(set.elements['results-count'].textContent,'Showing 1–52 of 216 cards in Cell Saga');
  for(const card of promos){
   const filtered=browser('/cards/cell-saga/?query='+encodeURIComponent(card.name)+'&type='+encodeURIComponent(card.type));
   assert.ok(grid(filtered).some(el=>el.href===cardPath(card)),card.name);

@@ -3,12 +3,12 @@ import {catalog} from '../public/cards/catalog.js';
 for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({page})=>{
  await page.setViewportSize({width,height:900});
  await page.goto('/cards/all/');
- await expect(page.locator('.catalog-card')).toHaveCount(catalog.length);
+ await expect(page.locator('.catalog-card')).toHaveCount(Math.min(52,catalog.length));
  for(const img of (await page.locator('.catalog-card img').all()).slice(0,5)){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);}
  await page.evaluate(()=>scrollTo(0,0));
  await page.screenshot({path:`/tmp/arena-database-${width}.png`,fullPage:true});
  await page.locator('#set').selectOption('Saiyan Saga');
- await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.set==='Saiyan Saga').length);
+ await expect(page.locator('.catalog-card')).toHaveCount(Math.min(52,catalog.filter(c=>c.set==='Saiyan Saga').length));
  await page.locator('#query').fill('Orange Standing Fist Punch');
  await page.locator('.catalog-card').click();
  await expect(page.locator('#card-detail')).toBeVisible();
