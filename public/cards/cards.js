@@ -6,7 +6,7 @@ const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
-const PAGE_SIZE=50;
+const PAGE_SIZE=52;
 let activeSet='';
 let currentPage=1;
 function resetFilters(){
