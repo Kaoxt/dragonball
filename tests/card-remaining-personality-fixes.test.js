@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {catalog,beforeCellCompletionHash} from './helpers/pre-cell-completion.js';
+import {catalog,beforeCellCompletionFile,beforeCellCompletionHash} from './helpers/pre-cell-completion.js';
 import {powerChart} from '../public/personality-power.js';
 import {ultraRareMask} from '../public/ultra-rare-profiles.js';
 import {createDeck,snapshot} from '../public/decks/store.js';
@@ -73,7 +73,7 @@ test('Goku 160 Arena chart, Vegeta 184 wording and Cell 159 foil pin match the s
  assert.deepEqual(powerChart(goku),[0,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500]);
  const oldPower=beforeRemainingFile('public/personality-power.js','utf8');
  const stage=manifest.semantic_text_changes.find(c=>c.path==='public/personality-power.js');
- assert.equal(fs.readFileSync(stage.path,'utf8'),oldPower.replace(stage.before,stage.after));
+ assert.equal(beforeCellCompletionFile(stage.path,'utf8'),oldPower.replace(stage.before,stage.after));
  const wording=manifest.cards.find(c=>c.id==='saiyan-184-vegeta-lvl-1-ht');
  for(const e of wording.exports){
   assert.match(fs.readFileSync(e.native,'utf8'),/aria-label="Stops an energy attack\."/);
