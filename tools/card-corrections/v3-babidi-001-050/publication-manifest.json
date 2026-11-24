@@ -1,0 +1,503 @@
+{
+  "set": "Babidi Saga",
+  "set_slug": "babidi-saga",
+  "published": false,
+  "excluded_pending_numbers": [
+    30
+  ],
+  "cards": [
+    {
+      "number": 1,
+      "name": "Android 18's Iron Defense",
+      "id": "babidi-001-android-18s-iron-defense",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-001-android-18s-iron-defense.webp",
+      "download": "downloads/babidi-001-android-18s-iron-defense.webp",
+      "display_sha256": "fbf4e42fd7dd683f0c6186ba1f604da43d0a31817f2b7fdb2a7c85cfc1fea570",
+      "download_sha256": "1634086e987e89ba4c2d2432b7590be1579de58a7595a9041c459c8019dc257b"
+    },
+    {
+      "number": 2,
+      "name": "Black Chained Strike",
+      "id": "babidi-002-black-chained-strike",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-002-black-chained-strike.webp",
+      "download": "downloads/babidi-002-black-chained-strike.webp",
+      "display_sha256": "fb78438b42d1b716b43e723ec5081088be73b05d535c86da90ad85d38120c716",
+      "download_sha256": "b3a576e48be0995f15cabfcdefc4a7235f5110ff1afe7e09112b73370557b969"
+    },
+    {
+      "number": 3,
+      "name": "Black Palm Reversal",
+      "id": "babidi-003-black-palm-reversal",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-003-black-palm-reversal.webp",
+      "download": "downloads/babidi-003-black-palm-reversal.webp",
+      "display_sha256": "dece714435bc78aca9a20233f2429d3c068c91a9a153e2eeb96115e475fd51d1",
+      "download_sha256": "8241e5e17b749ace48c64506851aba29b0a7290f231b3478f33fa17295f7ad15"
+    },
+    {
+      "number": 4,
+      "name": "Black Personal Smack",
+      "id": "babidi-004-black-personal-smack",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-004-black-personal-smack.webp",
+      "download": "downloads/babidi-004-black-personal-smack.webp",
+      "display_sha256": "f4dd4d7d857b434cd60863268e29159ae877fa1a6f6f75af7acd6b7e9f713ad5",
+      "download_sha256": "fb025f5c3e8326483ecf9af1c841f82a454c7573c7e36df2fd4090934223a77c"
+    },
+    {
+      "number": 5,
+      "name": "Black Power Catch",
+      "id": "babidi-005-black-power-catch",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-005-black-power-catch.webp",
+      "download": "downloads/babidi-005-black-power-catch.webp",
+      "display_sha256": "e3be7b3bc04ae004c7b03cbd505f6be1104cb18854bc677c2f5ae8a8efcfcbc9",
+      "download_sha256": "46b9c750ebdca97b05110286946136e10704475f828684923ec214840b2e1561"
+    },
+    {
+      "number": 6,
+      "name": "Black Quick Kick",
+      "id": "babidi-006-black-quick-kick",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-006-black-quick-kick.webp",
+      "download": "downloads/babidi-006-black-quick-kick.webp",
+      "display_sha256": "08b535574ce9bc0f500d8108a017b5d8c0fb40cb39d1e79f904e87ee6bee5345",
+      "download_sha256": "a85e6954f038b56f187311acc50ac4130cb3eaa9ede0980a220a0b37de7e2f5b"
+    },
+    {
+      "number": 7,
+      "name": "Blue Cape Swing",
+      "id": "babidi-007-blue-cape-swing",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-007-blue-cape-swing.webp",
+      "download": "downloads/babidi-007-blue-cape-swing.webp",
+      "display_sha256": "99e0373f6980cde2915ac23ec33ad250ef183af43af76561a602c71be24e5038",
+      "download_sha256": "bbfedc96f79908637365ee1326f56f7328a873bb1901a58880436a0016f078a8"
+    },
+    {
+      "number": 8,
+      "name": "Blue Reflexes",
+      "id": "babidi-008-blue-reflexes",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-008-blue-reflexes.webp",
+      "download": "downloads/babidi-008-blue-reflexes.webp",
+      "display_sha256": "5a5b70c1e13b53004435800f018549a47d704d6813372f643cf22ab4f9a369a9",
+      "download_sha256": "8af50b9c698a2d779fae305839c8cc52f706b83b0b7efaed81e85b8e1b1d2eab"
+    },
+    {
+      "number": 9,
+      "name": "Blue Shifting Maneuver",
+      "id": "babidi-009-blue-shifting-maneuver",
+      "category": "EVENT",
+      "display": "display/babidi-009-blue-shifting-maneuver.webp",
+      "download": "downloads/babidi-009-blue-shifting-maneuver.webp",
+      "display_sha256": "0c256d1de5bc138af2b7817f594d4adfb8331617bfc35b2381f2f7a183e55c4c",
+      "download_sha256": "f004650efcdc127d85dc49248bb9c8b96f3f82240d849bb667bc6ee4d7913e67"
+    },
+    {
+      "number": 10,
+      "name": "Blue Speediness",
+      "id": "babidi-010-blue-speediness",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-010-blue-speediness.webp",
+      "download": "downloads/babidi-010-blue-speediness.webp",
+      "display_sha256": "366c5fa2d0415fd22e249905f9c61d4f588716d745da62bfa85c930c9a8d3bc3",
+      "download_sha256": "476c744e087e96dfe596c6ca74e31376fa777722207151f14fc4da9897294caf"
+    },
+    {
+      "number": 11,
+      "name": "Combo",
+      "id": "babidi-011-combo",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-011-combo.webp",
+      "download": "downloads/babidi-011-combo.webp",
+      "display_sha256": "88e7d3e060095208de66f69a1f5098ee88305c50e98f47c1ff5808c9c9f01130",
+      "download_sha256": "65513ca64b648666aa9fd78dc6c837b2b9b3645fc11191ad819aa43622c09356"
+    },
+    {
+      "number": 12,
+      "name": "Entering the Arena",
+      "id": "babidi-012-entering-the-arena",
+      "category": "SETUP",
+      "display": "display/babidi-012-entering-the-arena.webp",
+      "download": "downloads/babidi-012-entering-the-arena.webp",
+      "display_sha256": "980f3bd55312ecdd3e2f5464528fdba01ad7a758e73d9605f02de9e9594becf7",
+      "download_sha256": "b9cf21f98ff056524a5d2892ff9bcbc0bf1bde5f96cbf59b89d5b3532bf36691"
+    },
+    {
+      "number": 13,
+      "name": "Hercule's Power Stance",
+      "id": "babidi-013-hercules-power-stance",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-013-hercules-power-stance.webp",
+      "download": "downloads/babidi-013-hercules-power-stance.webp",
+      "display_sha256": "a3b1907e62860f275eebb6b1eb1fa67c0f6dd73dbab26a08f155da69e8d9a512",
+      "download_sha256": "6c768793cacee1ec23e7f0505165dfbed1aca03fed1f15598c54f33ccd2c0a26"
+    },
+    {
+      "number": 14,
+      "name": "Heroic Shoulder Slam",
+      "id": "babidi-014-heroic-shoulder-slam",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-014-heroic-shoulder-slam.webp",
+      "download": "downloads/babidi-014-heroic-shoulder-slam.webp",
+      "display_sha256": "f514166612db4562c4122a42fe0b26bf20ae0e2d67cc20fcffc36fbea360df57",
+      "download_sha256": "4bd553a74de4573937e68727d2fb160c24d11964ce8ff5c4c5ba31d839d001ec"
+    },
+    {
+      "number": 15,
+      "name": "Majin Death Focus",
+      "id": "babidi-015-majin-death-focus",
+      "category": "EVENT",
+      "display": "display/babidi-015-majin-death-focus.webp",
+      "download": "downloads/babidi-015-majin-death-focus.webp",
+      "display_sha256": "770b69a7f717470f28664c73fc235ca6f455b830682d98cc4f607b2ee26e5bc1",
+      "download_sha256": "3be0fd945f04c4689ecde10c4a7c24e9d78162f644f5bec813d32fdb4e92e364"
+    },
+    {
+      "number": 16,
+      "name": "Orange Crushing Kick",
+      "id": "babidi-016-orange-crushing-kick",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-016-orange-crushing-kick.webp",
+      "download": "downloads/babidi-016-orange-crushing-kick.webp",
+      "display_sha256": "6f8d5ebed137eaf69714b8ac94d48c364d301a82355fb68758b22b8702f398ab",
+      "download_sha256": "edb9456cb5717711606ea2de3e2015123f18b887af86753c58c925f9cca40714"
+    },
+    {
+      "number": 17,
+      "name": "Orange Dodge",
+      "id": "babidi-017-orange-dodge",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-017-orange-dodge.webp",
+      "download": "downloads/babidi-017-orange-dodge.webp",
+      "display_sha256": "f5504e392598fc2843a9653ff29aad6e90a492a64814c6c3f12bed86542c3d88",
+      "download_sha256": "9f871917338518673fab42ec41c7d0ee44c2b586206eff62cdbc75b225da6a79"
+    },
+    {
+      "number": 18,
+      "name": "Orange Elbow Smash",
+      "id": "babidi-018-orange-elbow-smash",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-018-orange-elbow-smash.webp",
+      "download": "downloads/babidi-018-orange-elbow-smash.webp",
+      "display_sha256": "aef50b8d64c994599e2395786fed553bb9520f0e43bce07057bdf8c34981f2dd",
+      "download_sha256": "26eaf8efd890ca23f2ee485f7979748a0524040f0529a3c432c2d661f1c52f26"
+    },
+    {
+      "number": 19,
+      "name": "Orange Firebreath",
+      "id": "babidi-019-orange-firebreath",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-019-orange-firebreath.webp",
+      "download": "downloads/babidi-019-orange-firebreath.webp",
+      "display_sha256": "6371017c3ecea162cea8b61332e0c8de39886e64c91d34284bd92a57e0484592",
+      "download_sha256": "0f8b5a8343a2f98dac7c38a1eb643468520914fbb1c324fa923df6ec0201dfc9"
+    },
+    {
+      "number": 20,
+      "name": "Orange Right Punch",
+      "id": "babidi-020-orange-right-punch",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-020-orange-right-punch.webp",
+      "download": "downloads/babidi-020-orange-right-punch.webp",
+      "display_sha256": "f1ac10abab6bd1eb818c037765a0d4b2c08bf4c4a7cb15e6ac10c600b49eeeff",
+      "download_sha256": "8ecd7ff8d69bf2783b47f30b02b5b17980980f7e3ceb776092061d9259f6d90a"
+    },
+    {
+      "number": 21,
+      "name": "Red Forearm Block",
+      "id": "babidi-021-red-forearm-block",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-021-red-forearm-block.webp",
+      "download": "downloads/babidi-021-red-forearm-block.webp",
+      "display_sha256": "de2cbdfb103c876442a9b738c23f1fe2733a909b45acd19c0c43ce4cb2cf3121",
+      "download_sha256": "0b1c103aaf17043f4a92272a10fa5f73e4c9781f176b9e84fd0c13e57c2b29d4"
+    },
+    {
+      "number": 22,
+      "name": "Red Resistance",
+      "id": "babidi-022-red-resistance",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-022-red-resistance.webp",
+      "download": "downloads/babidi-022-red-resistance.webp",
+      "display_sha256": "b3ac118bb02400be3172801d59733bb3646b6140b12d0daf9b9b594b52583559",
+      "download_sha256": "f12c6d348e2360b8b0af1652357a04afb3bfe980023faf004f02915a044a71c7"
+    },
+    {
+      "number": 23,
+      "name": "Red Slide",
+      "id": "babidi-023-red-slide",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-023-red-slide.webp",
+      "download": "downloads/babidi-023-red-slide.webp",
+      "display_sha256": "e40758c6ed00257e1bb9183199338f6438250a27e189eba92eb442f15d8d851a",
+      "download_sha256": "ef766275566a8993529134b74b4675bb03471cfa35cfcf13a9a966b945576e5e"
+    },
+    {
+      "number": 24,
+      "name": "Red Thrusting Beam",
+      "id": "babidi-024-red-thrusting-beam",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-024-red-thrusting-beam.webp",
+      "download": "downloads/babidi-024-red-thrusting-beam.webp",
+      "display_sha256": "4d427c6e9cfc20730cf21215da587dfc590bd51ea1c1ae0ad765ccb663f86137",
+      "download_sha256": "f3713e9fc358e3264842eeff621f448801f0efd64ce2583fd2f90afe0a366524"
+    },
+    {
+      "number": 25,
+      "name": "Red Uppercut",
+      "id": "babidi-025-red-uppercut",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-025-red-uppercut.webp",
+      "download": "downloads/babidi-025-red-uppercut.webp",
+      "display_sha256": "97003a005bc33882447e37e4474df67f10461fb2bd908f7129086f8f7c574641",
+      "download_sha256": "916cfcf09cb08029e12c6e78f964e125342329f28db3de598459d5ba4ab0f462"
+    },
+    {
+      "number": 26,
+      "name": "Saiyan Duck",
+      "id": "babidi-026-saiyan-duck",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-026-saiyan-duck.webp",
+      "download": "downloads/babidi-026-saiyan-duck.webp",
+      "display_sha256": "57f4a0f55388a0733f7381dc30e70252739f2e93f1803d41cfc2905b464b6dd9",
+      "download_sha256": "f17ce489db2e574217fd966084c993aecd69240088b2d81ee95a480bc2c70f7f"
+    },
+    {
+      "number": 27,
+      "name": "Saiyan Energy Rupture",
+      "id": "babidi-027-saiyan-energy-rupture",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-027-saiyan-energy-rupture.webp",
+      "download": "downloads/babidi-027-saiyan-energy-rupture.webp",
+      "display_sha256": "fea471981b5f6db3190134a75e5caae87fa6afb4fff5045f40b73bda88fe2ed0",
+      "download_sha256": "a8054ca19dbea804db594f2f80d84f2fc8a66760989afb3d5ebd33b536ef4fec"
+    },
+    {
+      "number": 28,
+      "name": "Saiyan Might",
+      "id": "babidi-028-saiyan-might",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-028-saiyan-might.webp",
+      "download": "downloads/babidi-028-saiyan-might.webp",
+      "display_sha256": "26adfdec62244d3f0975f1094af8b4f4ecbb30fd9194cbeb9b050d47932da6a9",
+      "download_sha256": "92c1d96239893ca992f8ee66464b90a9fd78f29b2a966c0b193aec54059db398"
+    },
+    {
+      "number": 29,
+      "name": "Saiyan Power Block",
+      "id": "babidi-029-saiyan-power-block",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-029-saiyan-power-block.webp",
+      "download": "downloads/babidi-029-saiyan-power-block.webp",
+      "display_sha256": "8a1d2769be611d3d8f9565cb15ba6963e680c641684f056b12d57f1e04385125",
+      "download_sha256": "6059e60e3aba04a6c49c8f2f95785e0c62b78d6e1c155b9070f38e25bde2cfff"
+    },
+    {
+      "number": 31,
+      "name": "Straining Counter Punch",
+      "id": "babidi-031-straining-counter-punch",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-031-straining-counter-punch.webp",
+      "download": "downloads/babidi-031-straining-counter-punch.webp",
+      "display_sha256": "931c3637c7cab5bd3d9579184e9236b80a6d5888089ff9ebab4e397370dd804c",
+      "download_sha256": "6ee4b65e67b6abef421c05e01230ddfbed97fd13d09031f91a14abae776a02da"
+    },
+    {
+      "number": 32,
+      "name": "Android 18's Kneeing Drill",
+      "id": "babidi-032-android-18s-kneeing-drill",
+      "category": "DRILL",
+      "display": "display/babidi-032-android-18s-kneeing-drill.webp",
+      "download": "downloads/babidi-032-android-18s-kneeing-drill.webp",
+      "display_sha256": "2d07534440ffaa092c5591f4f6fc50ef5c06667456357a828e7ff9f86aad0734",
+      "download_sha256": "3ab21d83245197856d2e231c9426f6ddf0ae6e292e7df18489d8a6096d1e4b3b"
+    },
+    {
+      "number": 33,
+      "name": "Android 18's Pressure Routine",
+      "id": "babidi-033-android-18s-pressure-routine",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-033-android-18s-pressure-routine.webp",
+      "download": "downloads/babidi-033-android-18s-pressure-routine.webp",
+      "display_sha256": "5916b60622a910f9bfc3ee95504897dd80a9337b7a04503d12f1b7c514c36047",
+      "download_sha256": "b89b27ae2f49094cdc8cdcd311a575a0ef20d92dba35bec2d0317cd3c5974e8b"
+    },
+    {
+      "number": 34,
+      "name": "Android 18's Throwing Drill",
+      "id": "babidi-034-android-18s-throwing-drill",
+      "category": "DRILL",
+      "display": "display/babidi-034-android-18s-throwing-drill.webp",
+      "download": "downloads/babidi-034-android-18s-throwing-drill.webp",
+      "display_sha256": "6392bc2f544beef854811c14429883f140c86a7aba0bcc728cc0fbedcbc67616",
+      "download_sha256": "69e16a4a30be321ba68b52fc7e1c12c2efd3fe7eb05ef1e007a44d913a5a6cb4"
+    },
+    {
+      "number": 35,
+      "name": "Majin Babidi's Ship",
+      "id": "babidi-035-majin-babidis-ship",
+      "category": "BATTLEGROUND",
+      "display": "display/babidi-035-majin-babidis-ship.webp",
+      "download": "downloads/babidi-035-majin-babidis-ship.webp",
+      "display_sha256": "05cf9ef383eec2173af697d3817e3a94d73f02130b25deafec5dc7ff8f36ff51",
+      "download_sha256": "10416f954435b12cf69ebc7cb2268f157309374c09d71844131b5643c77d44d4"
+    },
+    {
+      "number": 36,
+      "name": "Black Backstab",
+      "id": "babidi-036-black-backstab",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-036-black-backstab.webp",
+      "download": "downloads/babidi-036-black-backstab.webp",
+      "display_sha256": "5fee1eb205bc4cfc387535a4e0e5501eb26e58078126baca0911712881d0a657",
+      "download_sha256": "1d1167ec0382fd4505bcb7b683e6b2394a11cbeab6414d22f0dbdfe0d0134747"
+    },
+    {
+      "number": 37,
+      "name": "Black Conservation Drill",
+      "id": "babidi-037-black-conservation-drill",
+      "category": "DRILL",
+      "display": "display/babidi-037-black-conservation-drill.webp",
+      "download": "downloads/babidi-037-black-conservation-drill.webp",
+      "display_sha256": "eaae8d91a3b861b86839ad6dce87084b4b3a79b3b6b13611143b50d7c728693b",
+      "download_sha256": "0f1e20a9cdeffe4512ce5258b693448d1192988628a6a3a73b8852a87f54f537"
+    },
+    {
+      "number": 38,
+      "name": "Black Face Crush",
+      "id": "babidi-038-black-face-crush",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-038-black-face-crush.webp",
+      "download": "downloads/babidi-038-black-face-crush.webp",
+      "display_sha256": "2c719a4a3357e16cc6146e99201e8dd76fa7757236126665a70e8dab0fce52b4",
+      "download_sha256": "c9b7edd96e25d286564419c9e6e88bbb0db23c8d4c955b08c4da5542f012ed1e"
+    },
+    {
+      "number": 39,
+      "name": "Black Pummeling Strike",
+      "id": "babidi-039-black-pummeling-strike",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-039-black-pummeling-strike.webp",
+      "download": "downloads/babidi-039-black-pummeling-strike.webp",
+      "display_sha256": "2d5e42cc51bf3892b95af2db972f3421831c016f3568e2f41a20d35ba7ce1bae",
+      "download_sha256": "0a66f7729b27ccf7bc4aa432acf935d750c9371ff6532cb893b2c96321be2545"
+    },
+    {
+      "number": 40,
+      "name": "Black Reverse Kick",
+      "id": "babidi-040-black-reverse-kick",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-040-black-reverse-kick.webp",
+      "download": "downloads/babidi-040-black-reverse-kick.webp",
+      "display_sha256": "5ed65335178f1a4758126525c1ffaf65e42c91a756463019c1af9b18c0e4d1f6",
+      "download_sha256": "e54c42adca98ee727a127be45d179abe79bf6e3fba4bd6220a505e520186ad51"
+    },
+    {
+      "number": 41,
+      "name": "Black Surprise Maneuver",
+      "id": "babidi-041-black-surprise-maneuver",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-041-black-surprise-maneuver.webp",
+      "download": "downloads/babidi-041-black-surprise-maneuver.webp",
+      "display_sha256": "c5bf5435ef8cd4c71f9d13fd33445d652ed92dad91473504f142317c9a7be5a8",
+      "download_sha256": "4648ed7eb460908b3968e39cc17f510f5c8dd6e1035b3519c4a3e0f7ae875361"
+    },
+    {
+      "number": 42,
+      "name": "Blue Destruction Beam",
+      "id": "babidi-042-blue-destruction-beam",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-042-blue-destruction-beam.webp",
+      "download": "downloads/babidi-042-blue-destruction-beam.webp",
+      "display_sha256": "c312a6dea90115b122811c7ac9464a4fd12e4cf106e52adc1ab20462e09264dc",
+      "download_sha256": "933b3ed80d2f6c33a77634f9d83ba1ba54addf9e6a8672ff67d14a07880e84b5"
+    },
+    {
+      "number": 43,
+      "name": "Blue Leverage",
+      "id": "babidi-043-blue-leverage",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-043-blue-leverage.webp",
+      "download": "downloads/babidi-043-blue-leverage.webp",
+      "display_sha256": "f4df5533181b3cfcc295a0f035079972e1dc5531b36b69f545647393757eb40d",
+      "download_sha256": "d038aca8f88621675e8aeaf4b8c2e555edaf2faa883225ae7f64ceabd739d95b"
+    },
+    {
+      "number": 44,
+      "name": "Blue Palm Sphere",
+      "id": "babidi-044-blue-palm-sphere",
+      "category": "ENERGY COMBAT",
+      "display": "display/babidi-044-blue-palm-sphere.webp",
+      "download": "downloads/babidi-044-blue-palm-sphere.webp",
+      "display_sha256": "866c04fdce21cfd16367ed5e5df16213c6baad13600bc9df7bd2327f07362346",
+      "download_sha256": "ae2bf2669d57569d5730ea98141168ee6cc79cbf79b945f9c030f9f0a591cb9f"
+    },
+    {
+      "number": 45,
+      "name": "Blue Prevention Drill",
+      "id": "babidi-045-blue-prevention-drill",
+      "category": "DRILL",
+      "display": "display/babidi-045-blue-prevention-drill.webp",
+      "download": "downloads/babidi-045-blue-prevention-drill.webp",
+      "display_sha256": "705f6deced04c55c4eeb26758dcdbae323cdddeea1baf43146d2c423f5c397d4",
+      "download_sha256": "0db9ebef5808d82e4d54bb85440e3a81a505d62932416e9fe7891b380b715d95"
+    },
+    {
+      "number": 46,
+      "name": "Blue Torso Strike",
+      "id": "babidi-046-blue-torso-strike",
+      "category": "PHYSICAL COMBAT",
+      "display": "display/babidi-046-blue-torso-strike.webp",
+      "download": "downloads/babidi-046-blue-torso-strike.webp",
+      "display_sha256": "98d6794b2eeb45276f5ecfe42304aefe6da7a6476d59cd2c8851c23c8f57f41f",
+      "download_sha256": "a7332464a9e2062b1d3d1c0a53278921923b7166cc468c525206550b668833d6"
+    },
+    {
+      "number": 47,
+      "name": "Majin Vegeta",
+      "id": "babidi-047-majin-vegeta",
+      "category": "VILLAIN",
+      "display": "display/babidi-047-majin-vegeta.webp",
+      "download": "downloads/babidi-047-majin-vegeta.webp",
+      "display_sha256": "3dd13d21028fac31d4a44d9ed32a0ed563acda01f90d08607f79953479120cd0",
+      "download_sha256": "47cd14839c1cec00f8a670a86263831721d0737a239a01784cd0f5efe5caf4a9"
+    },
+    {
+      "number": 48,
+      "name": "Chi-Chi's Cheering Drill",
+      "id": "babidi-048-chi-chis-cheering-drill",
+      "category": "DRILL",
+      "display": "display/babidi-048-chi-chis-cheering-drill.webp",
+      "download": "downloads/babidi-048-chi-chis-cheering-drill.webp",
+      "display_sha256": "db5011c886ed1c516476bbedc389b4ea123e99381831af825767df2b38049f4a",
+      "download_sha256": "d984e6b6e534cac2b3d75c18c2688378931235ed34d3c25fcb9f198635fac06c"
+    },
+    {
+      "number": 49,
+      "name": "Majin Dabura's Offensive Leverage",
+      "id": "babidi-049-majin-daburas-offensive-leverage",
+      "category": "EVENT",
+      "display": "display/babidi-049-majin-daburas-offensive-leverage.webp",
+      "download": "downloads/babidi-049-majin-daburas-offensive-leverage.webp",
+      "display_sha256": "071e362cd57bea18099fbfcaf04e5459d74a9f7a5fbdb01509c0aff366d0bdd6",
+      "download_sha256": "87164740af7a921fddad4a4c09ca4cdb4b0e483450a44f5f64f8d2766f6bf39e"
+    },
+    {
+      "number": 50,
+      "name": "Majin Dabura's Petrifying Spit",
+      "id": "babidi-050-majin-daburas-petrifying-spit",
+      "category": "SETUP",
+      "display": "display/babidi-050-majin-daburas-petrifying-spit.webp",
+      "download": "downloads/babidi-050-majin-daburas-petrifying-spit.webp",
+      "display_sha256": "f2053eb8c1e7dfea22ee177b9666a9b327dd69b19676ba399f765bc825a29148",
+      "download_sha256": "70b820931473ba83842c4608772224a352bfad03945b5ae8536f236731cc54cc"
+    }
+  ],
+  "excluded_pending_reasons": {
+    "30": "Supplied artwork placed for review; expression, palette/background and final framing remain pending."
+  }
+}

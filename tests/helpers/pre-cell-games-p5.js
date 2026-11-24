@@ -5,8 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
-import {catalog as currentCatalog} from '../../public/cards/catalog.js';
-import {codeCardIds as currentIds} from '../../public/decks/code-card-ids.js';
+import {catalog as currentCatalog,codeCardIds as currentIds,beforeBabidiFile} from './pre-babidi.js';
 import integrationHistory from '../../tools/card-corrections/v3-cell-games-p5-20261122/integration-history/revisions.json' with {type: 'json'};
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const release=JSON.parse(fs.readFileSync(new URL('../../tools/card-corrections/v3-cell-games-p5-20261122/publication.json',import.meta.url),'utf8'));
@@ -18,7 +17,7 @@ export const catalog=currentCatalog.filter(c=>!added.has(c.id));
 export const codeCardIds=currentIds.filter(id=>!added.has(id));
 export function beforeCellGamesP5File(p,encoding){
  const absolute=p instanceof URL?fileURLToPath(p):path.resolve(p),revision=files.get(path.relative(root,absolute));
- let bytes=fs.readFileSync(absolute);
+ let bytes=beforeBabidiFile(absolute);
  if(revision){
   assert.equal(hash(bytes),revision.after_sha256,`Current P5 integration changed: ${p}`);
   bytes=gunzipSync(fs.readFileSync(path.join(root,revision.before_file)));
