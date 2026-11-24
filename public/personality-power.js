@@ -2,6 +2,7 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "babidi-047-majin-vegeta": [0, 825000, 900000, 975000, 1050000, 1125000, 1200000, 1275000, 1350000, 1425000, 1500000],
   "world-games-201-videl": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000],
   "world-games-p2-chi-chi": [0, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000],
   "world-games-pr6-supreme-kai": [0, "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z"],
