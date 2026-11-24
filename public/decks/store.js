@@ -13,7 +13,7 @@ export function readDecks() {
   return data;
 }
 export function snapshot(card) {
-  return {id: card.id, name: card.name, image: card.image, type: card.type, number: card.number, set: card.set, ...(card.level ? {level:Number(card.level)} : {}), ...(card.pur !== undefined ? {pur:Number(card.pur)} : {})};
+  return {id: card.id, name: card.name, image: card.image, type: card.type, number: card.number, set: card.set, ...(card.level ? {level:Number(card.level)} : {}), ...(card.pur !== undefined ? {pur:card.pur === 'X' ? 'X' : Number(card.pur)} : {})};
 }
 export function count(cards) { return cards.reduce((n,c) => n + (c.qty || 1), 0); }
 export function exportDeck(deck) {
