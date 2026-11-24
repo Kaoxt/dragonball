@@ -1,0 +1,38 @@
+[
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/catalog.js.gz",
+    "before_sha256": "71ddd4a0d8e7ac8ee78b24d034341da4146f84c7c2d04d0df82aefd47bb1a14b",
+    "after_sha256": "6c701dbe2e439f0d26d2fe03df48ba657b2e2399461b7cba37f5e310d36ceacd"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/code-card-ids.js.gz",
+    "before_sha256": "621d08354ce616b69ed33904e34b89d1254e3d0fa1b2cdc52a7ae37f8f136e21",
+    "after_sha256": "bc4a3b8fe4fe590afe233d692e2ea581aeba055166927ac54867dece4e21c7e2"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/personality-power.js.gz",
+    "before_sha256": "6b47331ee04561b7afbc6c3554ba1e0fc1ceb2540bd9451836b937cfea5faef7",
+    "after_sha256": "b5fe20ab7ef36a4ac9a0b29804fa63bbd03babd74e809f0441432733211e2ba7"
+  },
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/package.json.gz",
+    "before_sha256": "b930ed836e2a4bfc6c859e46cc306af4d3b4ea5931e298f7198174a6d8aebbe4",
+    "after_sha256": "d5fccc666f49dafa293acabffdd443e0b5115aa6444370004bb34ce0264b64f3"
+  },
+  {
+    "path": "public/game.js",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/game.js.gz",
+    "before_sha256": "c17ffe9386dde72383fe2263ee551892dbc350f88f7cf318b6741177e29f60aa",
+    "after_sha256": "5ec28f1da551a35806697c9ec8914b2d46850e2aa8450c3fcdc571b4f120cb56"
+  },
+  {
+    "path": "public/decks/store.js",
+    "before_file": "tools/card-corrections/v3-babidi-051-100/before/store.js.gz",
+    "before_sha256": "8f869c42c4286480ad1f8495a91b8a912f514e33519336a024c8d4eb40ddbeda",
+    "after_sha256": "ca91f37658071f3a6ce378e58b211d2a8406d3e81556e9c574ade3884b14b073"
+  }
+]
