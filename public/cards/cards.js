@@ -55,7 +55,8 @@ const collectionBranding = {
  'android saga': {image:'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners', name:'Android Saga', element:'collection-logo-android'},
  'cell saga': {image:'/assets/sets/cell-saga-logo-brushed-blue.png?v=20261028-cell-banner', name:'Cell Saga', element:'collection-logo-cell'},
  'cell games saga': {image:'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner', name:'Cell Games Saga', element:'collection-logo-cell-games'},
- 'world games saga': {image:'/assets/sets/world-games-saga-logo-brushed-blue-spaced.svg?v=20261107-world-games-spaced', name:'World Games Saga', element:'collection-logo-world-games'}
+ 'world games saga': {image:'/assets/sets/world-games-saga-logo-brushed-blue-spaced.svg?v=20261107-world-games-spaced', name:'World Games Saga', element:'collection-logo-world-games'},
+ 'babidi saga': {image:'/assets/sets/babidi-saga-logo-brushed-gold.png?v=20261125-shadow-border', name:'Babidi Saga', element:'collection-logo-babidi'}
 };
 function renderCollectionBrand(){
  const selected=$('set').value;
@@ -154,4 +155,5 @@ $('card-detail').addEventListener('click',e=>{if(e.target===$('card-detail')){co
 window.addEventListener('popstate',()=>syncRoute());
 window.addEventListener('pageshow',()=>syncRoute());
 syncRoute();
+
 
