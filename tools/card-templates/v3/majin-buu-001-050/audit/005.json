@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      48.4077,
+      760.0,
+      61.1845
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      807.466,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      867.266,
+      1392.65,
+      19.769,
+      33.708
+    ],
+    "rules-line-1": [
+      177.89,
+      1013.53,
+      703.22,
+      45.521
+    ],
+    "rules-line-2": [
+      119.37,
+      1072.53,
+      820.26,
+      45.521
+    ],
+    "rules-line-3": [
+      105.674,
+      1131.53,
+      847.651,
+      45.913
+    ],
+    "rules-line-4": [
+      166.63,
+      1190.53,
+      725.739,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 706.943947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "If used by a personality with \"Kai\" or \"Popo\" in",
+      "baseline": 1108.3,
+      "width": 824.0819999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "its title, this may instead stop an energy attack.",
+      "baseline": 1167.3,
+      "width": 850.6890000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Shuffle this into your Life Deck after use.",
+      "baseline": 1226.3,
+      "width": 728.6300000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 5,
+  "id": "majin-buu-005-black-floating-popo-defense",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-005-black-floating-popo-defense.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "487ee38d3bac74c988d4c190a329935084caac0dac5c7fb40aa559ef663403a8",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-005-black-floating-popo-defense.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "119456842a47b113688300d023a51811d1e9374fe4d3c5b56f33d9989ad68b42",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a7dd754afe0ad47ef13e89a88da26e56c8f0e58d86fa765b82a69b9f4e86ddd9",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "05e22835ddf9a3df147e4f1efa431ec0fbc65dc94de416b07351658e6fe9e7ba.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-005-black-floating-popo-defense.webp",
+      "solid_ink_pixels": 66664,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-005-black-floating-popo-defense.webp",
+      "solid_ink_pixels": 293707,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

@@ -1,0 +1,100 @@
+{
+  "bounds": {
+    "card-title": [
+      596.144,
+      44.5,
+      290.712,
+      69.0
+    ],
+    "card-category": [
+      593.699,
+      668.057,
+      295.602,
+      34.2188
+    ],
+    "saga-emblem": [
+      261.226,
+      959.412,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      1136.09,
+      961.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      1195.89,
+      968.646,
+      40.916,
+      33.708
+    ],
+    "rules-line-1": [
+      178.821,
+      809.713,
+      1191.61,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "All players are considered to have +4 Allies in play for card effects.",
+      "baseline": 845.483333333333,
+      "width": 1259.4297499999998,
+      "icon_inline": true
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 37,
+  "id": "majin-buu-037-west-city",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-037-west-city.webp",
+      "size": [
+        1484,
+        1060
+      ],
+      "sha256": "9ca7d0fdb2e1e508dee4591f09ba681a98b0db316aeb690bab044a10ecc7d9df",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-037-west-city.webp",
+      "size": [
+        2968,
+        2120
+      ],
+      "sha256": "ca3121db4d56c245f1081e8aa68e053f01c88b91546c84f8add8a3cff237dcf9",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "acd3d939561bb3bac4870636d35ea100449a6e36a0697a809af3cf2affb48433",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+    "04eff3a6febfdc2586f7c3c532224c719a517372888c685632bb8459ef9b3708.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-037-west-city.webp",
+      "solid_ink_pixels": 29169,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-037-west-city.webp",
+      "solid_ink_pixels": 129564,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

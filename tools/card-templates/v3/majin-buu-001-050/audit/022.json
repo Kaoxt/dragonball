@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      252.468,
+      44.5,
+      554.065,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.707,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.506,
+      1392.65,
+      41.287,
+      33.708
+    ],
+    "rules-line-1": [
+      240.422,
+      1013.53,
+      578.155,
+      45.521
+    ],
+    "rules-line-2": [
+      220.457,
+      1073.61,
+      618.086,
+      44.835
+    ],
+    "rules-line-3": [
+      258.505,
+      1131.53,
+      541.989,
+      45.913
+    ],
+    "rules-line-4": [
+      221.388,
+      1190.53,
+      616.224,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 2. Physical attack.",
+      "baseline": 1049.3,
+      "width": 581.8791555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. Empower 3.",
+      "baseline": 1108.3,
+      "width": 621.81,
+      "icon_inline": false
+    },
+    {
+      "text": "Your Main Personality gains +2",
+      "baseline": 1167.3,
+      "width": 543.9980000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "PUR until the end of your next turn.",
+      "baseline": 1226.3,
+      "width": 619.8990000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 22,
+  "id": "majin-buu-022-orange-chin-break",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-022-orange-chin-break.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "c055b2cfd78b119b1c13bbf4c8b1a99ac949c72f3571cdc4a0d9004ba05b364e",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-022-orange-chin-break.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b2cab4b612538c96530841d16cdf2ac7558a2b5abbc9ad83cc3722b4a6f93f95",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8bcaa6971cd2fab3768da396d99f8015c71801652451833cb4c0457267bd2175",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "48a399d9eccea91248e2be959c1c0448a190e62e6d907348859665c096970148.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-022-orange-chin-break.webp",
+      "solid_ink_pixels": 54827,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-022-orange-chin-break.webp",
+      "solid_ink_pixels": 241447,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

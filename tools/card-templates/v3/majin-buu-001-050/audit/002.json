@@ -1,0 +1,124 @@
+{
+  "bounds": {
+    "card-title": [
+      168.282,
+      44.5,
+      722.435,
+      69.0
+    ],
+    "card-category": [
+      318.814,
+      891.391,
+      421.372,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      807.704,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      867.504,
+      1392.65,
+      19.292,
+      33.708
+    ],
+    "rules-line-1": [
+      105.283,
+      1013.53,
+      848.435,
+      45.913
+    ],
+    "rules-line-2": [
+      214.902,
+      1072.53,
+      695.771,
+      45.913
+    ],
+    "rules-line-3": [
+      146.467,
+      1131.53,
+      766.066,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Raise your Main Personality to its highest stage.",
+      "baseline": 1049.3,
+      "width": 852.159,
+      "icon_inline": false
+    },
+    {
+      "text": "While you control this Dragon Ball, your",
+      "baseline": 1108.3,
+      "width": 762.71675,
+      "icon_inline": true
+    },
+    {
+      "text": "physical attacks deal +3 stages of damage.",
+      "baseline": 1167.3,
+      "width": 769.643,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 2,
+  "id": "majin-buu-002-alt-dende-dragon-ball-2",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-002-alt-dende-dragon-ball-2.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "c4d22fbc0759248a959c23f8f813f9bf733124bdb1ca5362672a153f8d51de03",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-002-alt-dende-dragon-ball-2.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "2f84387b4bc806a467ef3fd8580829c8d67b084d58d4f85b61a74a05b30d0ef9",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "447f5805503cca092d85a4fdca62988c1aa7856e69bee7344010ef0348353ea5",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-002-alt-dende-dragon-ball-2.webp",
+      "solid_ink_pixels": 57758,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-002-alt-dende-dragon-ball-2.webp",
+      "solid_ink_pixels": 253149,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

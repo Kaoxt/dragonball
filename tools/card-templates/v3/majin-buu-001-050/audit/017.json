@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      265.674,
+      46.909,
+      527.652,
+      64.182
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      800.443,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      860.243,
+      1392.65,
+      33.814,
+      33.708
+    ],
+    "rules-line-1": [
+      128.261,
+      1013.53,
+      802.477,
+      45.521
+    ],
+    "rules-line-2": [
+      117.165,
+      1072.53,
+      824.67,
+      45.913
+    ],
+    "rules-line-3": [
+      131.252,
+      1131.53,
+      796.495,
+      45.913
+    ],
+    "rules-line-4": [
+      148.598,
+      1190.53,
+      761.803,
+      45.521
+    ],
+    "rules-line-5": [
+      134.095,
+      1249.53,
+      790.811,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Heroes only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 805.3681555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +4 stages. If your opponent's Main",
+      "baseline": 1108.3,
+      "width": 828.4920000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality is a Majin, this damage cannot be",
+      "baseline": 1167.3,
+      "width": 799.9250000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "prevented and discard 1 of your opponent's",
+      "baseline": 1226.3,
+      "width": 764.6450000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Setups, Drills, Allies or Battlegrounds in play.",
+      "baseline": 1285.3,
+      "width": 793.702,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 17,
+  "id": "majin-buu-017-heroic-quick-kick",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-017-heroic-quick-kick.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f42d2b5996100adbc87ddc68b2ca1e24ebab9778a861802e659ff4b090a46bc7",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-017-heroic-quick-kick.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "58c1fefae1b877320d278ca7a67f4e077d3a05a38149054cf9df9ca8d27d4d6a",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "f60628eee23dd4f3582f13524870bf72ffa04f333659fd7172b91aa826ff038d",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "f8d7ddf40a9c504ea69304830217bab06dc643efa03c20ce2f4736ea7863e22d.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-017-heroic-quick-kick.webp",
+      "solid_ink_pixels": 76312,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-017-heroic-quick-kick.webp",
+      "solid_ink_pixels": 334952,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

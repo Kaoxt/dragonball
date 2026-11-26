@@ -1,0 +1,111 @@
+{
+  "bounds": {
+    "card-title": [
+      153.786,
+      44.5,
+      751.429,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.336,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.135,
+      1392.65,
+      42.029,
+      33.708
+    ],
+    "rules-line-1": [
+      345.175,
+      1014.61,
+      419.342,
+      44.835
+    ],
+    "rules-line-2": [
+      317.06,
+      1072.53,
+      424.879,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 471.6019473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 428.60300000000007,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_source_art_pending",
+  "number": 32,
+  "id": "majin-buu-032-saiyan-energy-deflection",
+  "status": "artwork_pending",
+  "exports": [
+    {
+      "path": "review-only/display/majin-buu-032-saiyan-energy-deflection.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "294e37a130eca48e1e458091008ba63de376ad9ceeec913eeb4b0a4686d17677",
+      "lossless_verified": true
+    },
+    {
+      "path": "review-only/downloads/majin-buu-032-saiyan-energy-deflection.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "5d13576e20a07db855a3c77d9c1ac3b4bf4ca928f263590bcda1b791988ad709",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a0be1472088fe6ef83793aa635a6ce632187a97839055a320daf3d826399ba5d",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "abdde8d7dc19a60d0a7432ffb5e33a596ace15cd291ba2e348bbb45b739285ae.jpg",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "review-only/display/majin-buu-032-saiyan-energy-deflection.webp",
+      "solid_ink_pixels": 40899,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "review-only/downloads/majin-buu-032-saiyan-energy-deflection.webp",
+      "solid_ink_pixels": 178011,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

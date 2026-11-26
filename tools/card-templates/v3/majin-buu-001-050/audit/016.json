@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      217.623,
+      50.2213,
+      623.753,
+      57.5574
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.118,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      858.918,
+      1392.65,
+      36.464,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      185.532,
+      1072.53,
+      687.937,
+      45.521
+    ],
+    "rules-line-3": [
+      163.666,
+      1131.53,
+      731.668,
+      45.913
+    ],
+    "rules-line-4": [
+      142.89,
+      1190.53,
+      773.22,
+      40.572
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If the personality",
+      "baseline": 1108.3,
+      "width": 690.7530000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "performing this attack has \"Saiyan\" in its",
+      "baseline": 1167.3,
+      "width": 734.51,
+      "icon_inline": false
+    },
+    {
+      "text": "title, this deals +4 life cards and is focused.",
+      "baseline": 1226.3,
+      "width": 775.425,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 16,
+  "id": "majin-buu-016-goku-s-power-attack",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-016-goku-s-power-attack.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1b13199ae279eb0781387cdbe2f31206b27eb38b4243ae92b4d115e2e5572f94",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-016-goku-s-power-attack.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e3d042b54969754b611ec84f87d670a5b72fbd6ca4ce9afed8a01c33da46d537",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "637723eb7852b49d7f869a91a8fe3fb974c2457358e73d686b90741949022821",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "c63eb162be5871c1f448579a8462c5cecd6ca9366a3f96e9d577a14c8664f7fe.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-016-goku-s-power-attack.webp",
+      "solid_ink_pixels": 61183,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-016-goku-s-power-attack.webp",
+      "solid_ink_pixels": 269880,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

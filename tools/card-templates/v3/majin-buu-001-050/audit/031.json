@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      328.307,
+      44.5,
+      402.385,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      800.125,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.925,
+      1392.65,
+      34.45,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      158.815,
+      1072.53,
+      741.37,
+      44.884
+    ],
+    "rules-line-3": [
+      169.522,
+      1131.53,
+      719.957,
+      45.521
+    ],
+    "rules-line-4": [
+      194.414,
+      1191.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 life cards. Empower 3. Banish 1",
+      "baseline": 1108.3,
+      "width": 745.29,
+      "icon_inline": false
+    },
+    {
+      "text": "of your opponent's Allies or Drills in play.",
+      "baseline": 1167.3,
+      "width": 723.044,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 31,
+  "id": "majin-buu-031-red-vigor-orb",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-031-red-vigor-orb.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "850ce680827cffacd7dd05078e601c5dac20116519f9d4f8b700b45bba2187ac",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-031-red-vigor-orb.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "38e51fc336919365d89f4d51e66549d143e8a635d82f1a3a7401ccadf25a483d",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a0f0e858210d856f81547b76a46bf101557a0778f41b01d71b74ea63459a38d7",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "ce5cab37b66e1d1904a04a9fd19e175b1b7b85b22f5b1e198ca71f4d4fd12c10.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-031-red-vigor-orb.webp",
+      "solid_ink_pixels": 56149,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-031-red-vigor-orb.webp",
+      "solid_ink_pixels": 247159,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

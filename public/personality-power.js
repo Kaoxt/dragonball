@@ -2,6 +2,7 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "majin-buu-041-bee": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   "movie7-m01-android-13": [0, 1510000, 1520000, 1530000, 1540000, 1550000, 1560000, 1570000, 1580000, 1590000, 1600000],
   "movie7-m02-android-13": [0, 1910000, 1920000, 1930000, 1940000, 1950000, 1960000, 1970000, 1980000, 1990000, 2000000],
   "movie7-m03-super-android-13": [0, 2991000, 2992000, 2993000, 2994000, 2995000, 2996000, 2997000, 2998000, 2999000, 3000000],

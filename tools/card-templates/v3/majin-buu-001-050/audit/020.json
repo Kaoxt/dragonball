@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      328.953,
+      44.5,
+      401.095,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.912,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.711,
+      1392.65,
+      42.877,
+      33.708
+    ],
+    "rules-line-1": [
+      124.905,
+      1013.53,
+      809.19,
+      45.913
+    ],
+    "rules-line-2": [
+      152.579,
+      1072.53,
+      753.842,
+      45.521
+    ],
+    "rules-line-3": [
+      137.732,
+      1131.53,
+      783.536,
+      45.913
+    ],
+    "rules-line-4": [
+      121.709,
+      1190.53,
+      815.582,
+      40.572
+    ],
+    "rules-line-5": [
+      162.759,
+      1249.53,
+      733.481,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 812.7671555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. Empower 2. You may",
+      "baseline": 1108.3,
+      "width": 756.6580000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "reduce this attack's damage by any amount,",
+      "baseline": 1167.3,
+      "width": 787.038,
+      "icon_inline": false
+    },
+    {
+      "text": "to a minimum of 0. For each life card reduced,",
+      "baseline": 1226.3,
+      "width": 817.8589999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "discard 1 of your opponent's Drills in play.",
+      "baseline": 1285.3,
+      "width": 736.5680000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 20,
+  "id": "majin-buu-020-majin-demise",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-020-majin-demise.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "9bfa362f9a612b1cae62d9dbd2ff7bf08dd67aaf44b9d3b28eddec94c2304bf7",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-020-majin-demise.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "27571cb3b0e4971ae9835c7554fff3001d11e2a690035b35a4a056c8133985bd",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "3913d40a2f16fccc24faf1e33ea9d4d7215978051d5834d898ff72cdc8559da6",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "860f6fd3c8b80682e06f54d4d4bb972851a93d232d2f46b20e89fb19ffdae8f0.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-020-majin-demise.webp",
+      "solid_ink_pixels": 71268,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-020-majin-demise.webp",
+      "solid_ink_pixels": 313946,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

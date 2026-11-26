@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      289.377,
+      44.5,
+      480.247,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.534,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.334,
+      1392.65,
+      45.633,
+      33.708
+    ],
+    "rules-line-1": [
+      208.555,
+      1013.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-2": [
+      188.264,
+      1072.53,
+      682.472,
+      45.521
+    ],
+    "rules-line-3": [
+      184.184,
+      1131.53,
+      690.632,
+      45.521
+    ],
+    "rules-line-4": [
+      229.375,
+      1190.53,
+      600.25,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Attach this to 1 of your opponent's",
+      "baseline": 1108.3,
+      "width": 685.461,
+      "icon_inline": false
+    },
+    {
+      "text": "Setups or Drills in play. While attached,",
+      "baseline": 1167.3,
+      "width": 693.595,
+      "icon_inline": false
+    },
+    {
+      "text": "that Setup or Drill cannot be used.",
+      "baseline": 1226.3,
+      "width": 602.4550000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 48,
+  "id": "majin-buu-048-black-snap-kick",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-048-black-snap-kick.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "e7d45d1a69d07aec211e4a2b781c6bfb9b52b1eb5abccf712d0b2ce8340aeeb0",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-048-black-snap-kick.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "830987f86fe7a45d67ee26da0315423c2a53a19c5692c5d214bd2ff9d0503436",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9985e8abfecaef23024b12510d3e3d4bcd12d0bf266fd7c89ff0e98c9a0b4509",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "0e2641447b493be253717e5d5c24bf386f4eee4db8200f1508032311b9cb784f.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-048-black-snap-kick.webp",
+      "solid_ink_pixels": 58379,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-048-black-snap-kick.webp",
+      "solid_ink_pixels": 257173,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

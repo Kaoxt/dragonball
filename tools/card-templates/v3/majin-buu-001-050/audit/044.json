@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      253.414,
+      44.5,
+      552.172,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      793.58,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      853.379,
+      1392.65,
+      47.541,
+      33.708
+    ],
+    "rules-line-1": [
+      122.161,
+      1013.53,
+      814.678,
+      45.521
+    ],
+    "rules-line-2": [
+      175.744,
+      1073.61,
+      707.511,
+      44.835
+    ],
+    "rules-line-3": [
+      171.849,
+      1131.53,
+      715.302,
+      45.521
+    ],
+    "rules-line-4": [
+      171.15,
+      1190.53,
+      716.7,
+      45.913
+    ],
+    "rules-line-5": [
+      145.609,
+      1249.53,
+      767.781,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Endurance 3. Physical attack.",
+      "baseline": 1049.3,
+      "width": 817.5691555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. If you declared a",
+      "baseline": 1108.3,
+      "width": 711.1860000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui-Waza and your opponent declared",
+      "baseline": 1167.3,
+      "width": 718.3400000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Namekian, banish life cards damaged by",
+      "baseline": 1226.3,
+      "width": 719.5160000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your attacks this Combat. Banish after use.",
+      "baseline": 1285.3,
+      "width": 769.9860000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 44,
+  "id": "majin-buu-044-black-gravity-drop",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-044-black-gravity-drop.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "bca1ae01f266ddefb230d2637f67a62d7e80fc4d0b51b59ac47a9a031b6f0fb9",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-044-black-gravity-drop.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "746406a08616780a3abbfae685ad8b051e7a7ac902a6cc3b39d4fbade3942837",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "b6fdd692c86adf67cb93d2a5e003e0f0125853240ce5f5e115829ae097d7d883",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "24ea38f339fbc8304b8826bbd03d385b9ac5177a1772b448abcf8f7eff3593f0.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-044-black-gravity-drop.webp",
+      "solid_ink_pixels": 73785,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-044-black-gravity-drop.webp",
+      "solid_ink_pixels": 324442,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

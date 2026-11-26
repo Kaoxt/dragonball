@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      290.323,
+      44.5,
+      478.354,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      800.496,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      860.296,
+      1392.65,
+      33.708,
+      33.708
+    ],
+    "rules-line-1": [
+      262.497,
+      1013.53,
+      534.006,
+      45.768
+    ],
+    "rules-line-2": [
+      173.873,
+      1072.53,
+      711.255,
+      45.913
+    ],
+    "rules-line-3": [
+      228.64,
+      1132.61,
+      601.72,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 537.5831555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. Raise your anger",
+      "baseline": 1108.3,
+      "width": 713.783,
+      "icon_inline": false
+    },
+    {
+      "text": "1 level. HIT: Capture a Dragon Ball.",
+      "baseline": 1167.3,
+      "width": 603.729,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 21,
+  "id": "majin-buu-021-majin-hand-clap",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-021-majin-hand-clap.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2a9a295a569f6ba6b845b217c54a9d538de4718005077fff1785472b2222da07",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-021-majin-hand-clap.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "9b3b25056238a137dd03f8c85589fb642ecd67f03f087ec69570cc32eed1915d",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "1475db71578da8d92fa92d10545dfc18ef0b36430d9205e79fd2306a8bd062b5",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "cb43aecb6c5edae8d3cab7a7b2c25159f768cca44936c6bcd1d3318c187f3eae.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-021-majin-hand-clap.webp",
+      "solid_ink_pixels": 46923,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-021-majin-hand-clap.webp",
+      "solid_ink_pixels": 206418,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      162.131,
+      44.5,
+      734.738,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.092,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      858.892,
+      1392.65,
+      36.517,
+      33.708
+    ],
+    "rules-line-1": [
+      247.461,
+      1013.53,
+      618.625,
+      45.913
+    ],
+    "rules-line-2": [
+      138.088,
+      1072.53,
+      782.824,
+      45.521
+    ],
+    "rules-line-3": [
+      171.947,
+      1131.53,
+      715.106,
+      45.521
+    ],
+    "rules-line-4": [
+      93.1697,
+      1190.53,
+      872.661,
+      45.913
+    ],
+    "rules-line-5": [
+      152.763,
+      1249.53,
+      753.473,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 3 stages.",
+      "baseline": 1049.3,
+      "width": 674.7391555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "You may discard any of your Setups or Drills",
+      "baseline": 1108.3,
+      "width": 784.8329999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "in play. This deals +3 life cards for each.",
+      "baseline": 1167.3,
+      "width": 718.144,
+      "icon_inline": false
+    },
+    {
+      "text": "Hercule may wait until after determining whether",
+      "baseline": 1226.3,
+      "width": 875.189,
+      "icon_inline": false
+    },
+    {
+      "text": "this hits to discard them. Banish after use.",
+      "baseline": 1285.3,
+      "width": 755.6780000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 10,
+  "id": "majin-buu-010-carpet-attack-technique",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-010-carpet-attack-technique.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5d3b2ec2016c071b108bd11ac39a5a32a69464316f932384c09f41b809e2f11d",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-010-carpet-attack-technique.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3bd9f88dfc8c2833f5afb28ffbaabd9cee3b1ed526ff7a9788686f2c8359b39e",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8c6dbd0a7253908eebdfbdb5e65fa26bfde6da71db92a44dc7ae4acfb18bf05d",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "79b7c578baf821155e96df6aae0dbcc1a2e7901c44ee6f63e9882560b7273523.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-010-carpet-attack-technique.webp",
+      "solid_ink_pixels": 78339,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-010-carpet-attack-technique.webp",
+      "solid_ink_pixels": 344210,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

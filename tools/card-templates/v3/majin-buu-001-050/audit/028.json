@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      318.327,
+      50.2213,
+      422.345,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.938,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.738,
+      1392.65,
+      42.824,
+      33.708
+    ],
+    "rules-line-1": [
+      175.514,
+      1013.53,
+      707.973,
+      45.521
+    ],
+    "rules-line-2": [
+      157.737,
+      1072.53,
+      743.526,
+      44.884
+    ],
+    "rules-line-3": [
+      176.308,
+      1131.53,
+      706.384,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 1. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 711.696947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "Your opponent discards the top 2 cards of",
+      "baseline": 1108.3,
+      "width": 745.731,
+      "icon_inline": false
+    },
+    {
+      "text": "their Life Deck. Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 708.589,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 28,
+  "id": "majin-buu-028-red-fist-catch",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-028-red-fist-catch.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "fe81276981d26776c085686cbf8d9535481625d46bfb340fc187bd602f441b5f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-028-red-fist-catch.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "a1b8f6ead1282b78a3c531e0360f2b4a9974a0bc9bdc2a3ec9552e8ae24e611b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "fa9eb164b7fd0325b419184f454e9d0b999afe7222c55c6ce891d0e9e9995276",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "06c2480a01e0836e5554372531a45b33665ca1b9be6a104c729e158270a14e63.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-028-red-fist-catch.webp",
+      "solid_ink_pixels": 48702,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-028-red-fist-catch.webp",
+      "solid_ink_pixels": 215015,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

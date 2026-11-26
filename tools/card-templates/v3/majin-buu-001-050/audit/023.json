@@ -1,0 +1,111 @@
+{
+  "bounds": {
+    "card-title": [
+      219.086,
+      44.5,
+      620.828,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.627,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.427,
+      1392.65,
+      41.446,
+      33.708
+    ],
+    "rules-line-1": [
+      173.799,
+      1014.61,
+      711.403,
+      44.835
+    ],
+    "rules-line-2": [
+      194.414,
+      1073.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 2. Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 715.126947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1108.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 23,
+  "id": "majin-buu-023-orange-energy-catch",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-023-orange-energy-catch.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "45988135ff2f2155fc9c11e21756845b85712e6017837ba31c81c7e0b16a9a03",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-023-orange-energy-catch.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "0a3e3ab56d98da1977c0ea641dbaed46e1d249a10343bfe5c3170d184d9dfcfd",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "75c3f58114403495ce5660ec3ef751d59908bf81c98afb780842d26d2f90d1f1",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "3df99ea95b62ec56396dcd18b8532477dee8d303dcd3cf32dca3b7f96171d27f.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-023-orange-energy-catch.webp",
+      "solid_ink_pixels": 43417,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-023-orange-energy-catch.webp",
+      "solid_ink_pixels": 190396,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

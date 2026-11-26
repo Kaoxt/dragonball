@@ -1,5 +1,5 @@
 import {isPersonality} from '../cards/card-types.js';
-import {assertNoHiTechAllies} from './eligibility.js';
+import {assertDeckEligible} from './eligibility.js';
 import {createDeck, snapshot} from './store.js';
 import {codeCardIds} from './code-card-ids.js';
 const compactIds=new Map(codeCardIds.map((id,index)=>[id,index]));
@@ -32,6 +32,6 @@ export async function decodeDeck(code,catalog){
  const list=entries=>{if(!Array.isArray(entries)||entries.length>200)throw invalid();const seen=new Set();return entries.map(entry=>{if(!Array.isArray(entry)||entry.length!==2||!Number.isInteger(entry[1])||entry[1]<1||entry[1]>90)throw invalid();const resolved=card(entry[0]);if(seen.has(resolved.id))throw invalid();seen.add(resolved.id);return {...resolved,qty:entry[1]};});};
  const result={...createDeck(),name:name.trim()||'Imported deck',tokui,personalities:personalities.map(id=>card(id,true)),mastery:card(mastery,true),sensei:card(sensei,true),cards:list(cards),senseiDeck:list(senseiDeck)};
  if(result.personalities.some(c=>c&&!isPersonality(c))||(result.mastery&&result.mastery.type!=='Mastery')||(result.sensei&&result.sensei.type!=='Sensei'))throw invalid();
- assertNoHiTechAllies(result);
+ assertDeckEligible(result);
  return result;
 }

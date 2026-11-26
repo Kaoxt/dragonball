@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      306.368,
+      50.2213,
+      446.263,
+      57.5574
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.938,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.738,
+      1392.65,
+      42.824,
+      33.708
+    ],
+    "rules-line-1": [
+      105.525,
+      1013.53,
+      847.949,
+      45.913
+    ],
+    "rules-line-2": [
+      110.82,
+      1072.53,
+      837.361,
+      45.521
+    ],
+    "rules-line-3": [
+      172.192,
+      1131.53,
+      714.616,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Villains only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 850.5951555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 6 life cards. If stopped, your opponent",
+      "baseline": 1108.3,
+      "width": 840.448,
+      "icon_inline": false
+    },
+    {
+      "text": "skips their next Attacker Attacks phase.",
+      "baseline": 1167.3,
+      "width": 717.36,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 26,
+  "id": "majin-buu-026-red-ball-throw",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-026-red-ball-throw.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "34cbc0f6af20684021d5310dd032a6385bf6b70e6bf1d8e05eb02df2bec9de8b",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-026-red-ball-throw.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "ad437f234fb34b7ec2dffb579ae63910e3451f4f117884a052a751fe754bfecf",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "f2ac1026b042297c127a1a07b4df5af5cf68a50b275b436f8332e5c5ec9bfb87",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "f9b46b96921a81405f231568da087fdc33fc34e5ba4d2be0fe913539f962c9cf.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-026-red-ball-throw.webp",
+      "solid_ink_pixels": 52946,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-026-red-ball-throw.webp",
+      "solid_ink_pixels": 233557,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

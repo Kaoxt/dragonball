@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      321.683,
+      44.5,
+      415.635,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.33,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.13,
+      1392.65,
+      36.04,
+      33.708
+    ],
+    "rules-line-1": [
+      243.879,
+      1013.53,
+      571.242,
+      36.162
+    ],
+    "rules-line-2": [
+      260.024,
+      1072.53,
+      538.951,
+      45.521
+    ],
+    "rules-line-3": [
+      243.56,
+      1131.53,
+      571.879,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Choose 2 level 1 Allies in",
+      "baseline": 1049.3,
+      "width": 575.0150000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile and put them",
+      "baseline": 1108.3,
+      "width": 541.2540000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "into play at their highest stages.",
+      "baseline": 1167.3,
+      "width": 574.917,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 19,
+  "id": "majin-buu-019-krillin-s-flight",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-019-krillin-s-flight.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "80b260b8a132a3876e4381ca84ac1c89e3a59510d3803dad4ae4a956712defca",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-019-krillin-s-flight.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "95711d60c16ea0845d6138589445c5c2505c5695fd060dbbbf76a874744960d5",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "886d9e731f814a308edc9008cbe2094211218d1df074a0d1fc50b069f363699a",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "c65dc0eb304b0f1ce578eb77bef45577a61076c4df66624e04bd17606595a710.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-019-krillin-s-flight.webp",
+      "solid_ink_pixels": 39065,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-019-krillin-s-flight.webp",
+      "solid_ink_pixels": 172593,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

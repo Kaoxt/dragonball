@@ -1,0 +1,124 @@
+{
+  "bounds": {
+    "card-title": [
+      165.486,
+      44.5,
+      728.027,
+      69.0
+    ],
+    "card-category": [
+      318.814,
+      891.391,
+      421.372,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.779,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.579,
+      1392.65,
+      43.142,
+      33.708
+    ],
+    "rules-line-1": [
+      226.827,
+      1013.53,
+      605.346,
+      45.913
+    ],
+    "rules-line-2": [
+      153.866,
+      1072.53,
+      751.268,
+      45.521
+    ],
+    "rules-line-3": [
+      147.423,
+      1131.53,
+      764.155,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Raise your MP to its highest stage.",
+      "baseline": 1049.3,
+      "width": 609.07,
+      "icon_inline": false
+    },
+    {
+      "text": "Each player with 3 or more Setups or Drills",
+      "baseline": 1108.3,
+      "width": 754.257,
+      "icon_inline": false
+    },
+    {
+      "text": "in play must discard until they have 2 total.",
+      "baseline": 1167.3,
+      "width": 767.1929999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 39,
+  "id": "majin-buu-039-alt-dende-dragon-ball-4",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-039-alt-dende-dragon-ball-4.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "af2ea845f29d6de9d13a8bc77773212c3d0f03fad5b8031cbb3672c007c9d22b",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-039-alt-dende-dragon-ball-4.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "2b708eb8251653f3076f78fe5a4e908d2be60fe4f5f9a9ab7bee4bf2438e0a26",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "3e5237602cf60c296faa225a47d76e7ef1d6df296d51cc6226be4e84e8f8762f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-039-alt-dende-dragon-ball-4.webp",
+      "solid_ink_pixels": 55024,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-039-alt-dende-dragon-ball-4.webp",
+      "solid_ink_pixels": 240911,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

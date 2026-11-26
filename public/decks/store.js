@@ -1,5 +1,5 @@
 import {isPersonality} from '../cards/card-types.js';
-import {blocksHiTechAlly, HI_TECH_ALLY_ERROR} from './eligibility.js';
+import {deckAdditionError} from './eligibility.js';
 
 export const STORAGE_KEY = 'score-builder-v1';
 export function createDeck() {
@@ -33,7 +33,8 @@ export function removalTarget(deck,card,destination='auto'){
 }
 export function addCard(deck, card, destination = 'auto') {
   if (destination === 'auto') destination = isPersonality(card) ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
-  if (blocksHiTechAlly(card, destination)) throw new Error(HI_TECH_ALLY_ERROR);
+  const error = deckAdditionError(card, destination);
+  if (error) throw new Error(error);
   const c = snapshot(card);
   const character=name=>String(name||'').trim().toLowerCase();
   if(destination==='personalities'){

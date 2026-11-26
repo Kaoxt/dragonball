@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      216.935,
+      44.5,
+      625.13,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.984,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.784,
+      1392.65,
+      44.732,
+      33.708
+    ],
+    "rules-line-1": [
+      173.848,
+      1014.61,
+      711.305,
+      44.835
+    ],
+    "rules-line-2": [
+      140.097,
+      1073.61,
+      778.806,
+      44.443
+    ],
+    "rules-line-3": [
+      147.765,
+      1131.53,
+      763.469,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 3. Stops an energy attack.",
+      "baseline": 1049.3,
+      "width": 715.0289473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "For the rest of Combat, your attacks deal +2",
+      "baseline": 1108.3,
+      "width": 781.795,
+      "icon_inline": false
+    },
+    {
+      "text": "stages of damage. Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 766.213,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 24,
+  "id": "majin-buu-024-orange-energy-guard",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-024-orange-energy-guard.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5e5307ebf72424fea17066c1b89eaf53e5fcdd6637b02657856e86c25a4292a5",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-024-orange-energy-guard.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "85a05bcb62aba984a4d32b657ae2b2ebcaad61e287d3a6707ff70a64d22ffbc6",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "2c44be3b689e553c1543e259983d56d9fef7f14db543050f6bdc80dc32c6e17e",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "f58a37686aaed22d4e195629f8b713fe6021aed50afd17cbbee4504dc81d4a6e.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-024-orange-energy-guard.webp",
+      "solid_ink_pixels": 54854,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-024-orange-energy-guard.webp",
+      "solid_ink_pixels": 240467,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

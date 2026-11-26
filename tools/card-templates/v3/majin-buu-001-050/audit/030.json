@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      276.6,
+      50.2213,
+      505.799,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.541,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.34,
+      1392.65,
+      43.619,
+      33.708
+    ],
+    "rules-line-1": [
+      175.514,
+      1013.53,
+      707.973,
+      45.521
+    ],
+    "rules-line-2": [
+      157.737,
+      1072.53,
+      743.526,
+      44.884
+    ],
+    "rules-line-3": [
+      126.487,
+      1131.53,
+      806.027,
+      45.521
+    ],
+    "rules-line-4": [
+      170.501,
+      1190.53,
+      717.997,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 1. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 711.696947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "Your opponent discards the top 2 cards of",
+      "baseline": 1108.3,
+      "width": 745.731,
+      "icon_inline": false
+    },
+    {
+      "text": "their Life Deck. If you declared a Tokui-Waza,",
+      "baseline": 1167.3,
+      "width": 808.3040000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "banish 1 of your opponent's Drills in play.",
+      "baseline": 1226.3,
+      "width": 721.427,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 30,
+  "id": "majin-buu-030-red-power-block",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-030-red-power-block.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "070fe04a1552717b4d9d80cd323248f049ae59f0e7dee788432c45675b1f5268",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-030-red-power-block.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "292c70b7ca5dcb789c2bbf993fb8999ab1d8121d75d15960554cfd3d333c8a34",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9fc80a908276ca9e675e7b76bdf06e57efe2c638ada2e0cb12fb2c42d599e777",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "eab88a7fca5e9c5b2b1917b8f6d1994970059b74100870a700bb411baed5bfd3.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-030-red-power-block.webp",
+      "solid_ink_pixels": 61647,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-030-red-power-block.webp",
+      "solid_ink_pixels": 271964,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

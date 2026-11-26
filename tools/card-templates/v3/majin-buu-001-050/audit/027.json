@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      346.934,
+      50.2213,
+      365.132,
+      57.5574
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      797.263,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      857.063,
+      1392.65,
+      40.174,
+      33.708
+    ],
+    "rules-line-1": [
+      301.086,
+      1014.61,
+      456.827,
+      44.443
+    ],
+    "rules-line-2": [
+      278.11,
+      1072.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-3": [
+      134.967,
+      1131.53,
+      789.067,
+      45.521
+    ],
+    "rules-line-4": [
+      87.0545,
+      1192.0,
+      884.891,
+      44.443
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 2. Heroes only.",
+      "baseline": 1049.3,
+      "width": 460.5510000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1108.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. Empower 2. Raise your",
+      "baseline": 1167.3,
+      "width": 791.595,
+      "icon_inline": false
+    },
+    {
+      "text": "anger 1 level. Lower your opponent's anger 1 level.",
+      "baseline": 1226.3,
+      "width": 887.5859999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 27,
+  "id": "majin-buu-027-red-fastball",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-027-red-fastball.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "857d4f415314064933c07a953daf401c90ea119cbc45163750e48f8f4d0fc208",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-027-red-fastball.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b6ec92e9b4fac458863e2d2b6335fabe643debcb96ec26c3d721457b23a6c31d",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "7f903d7c7f9233b4bd0d1d76b9649bbd0a3cdee539f2f6d46cb022c71b5177f3",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "362804d441f8671c96ca9487ba4e64c2bdee344eeab6d258e267997b8f936cd0.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-027-red-fastball.webp",
+      "solid_ink_pixels": 54909,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-027-red-fastball.webp",
+      "solid_ink_pixels": 242163,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

@@ -32,3 +32,25 @@ export function assertNoHiTechAllyAdditions(deck, previous) {
     if (quantity > (before.get(key) || 0)) throw new Error(HI_TECH_ALLY_ERROR);
   }
 }
+
+export function banReason(card) {
+  const current = byId.get(String(card?.id ?? '').trim());
+  return current?.banned ? current.banReason || (current.name + ' is banned from decks.') : '';
+}
+
+export function deckAdditionError(card, destination) {
+  return banReason(card) || (blocksHiTechAlly(card, destination) ? HI_TECH_ALLY_ERROR : '');
+}
+
+export function assertNoBannedCards(deck) {
+  const cards = [...(deck.personalities || []), deck.mastery, deck.sensei, ...(deck.cards || []), ...(deck.senseiDeck || [])];
+  for (const card of cards) {
+    const reason = banReason(card);
+    if (reason) throw new Error(reason);
+  }
+}
+
+export function assertDeckEligible(deck) {
+  assertNoBannedCards(deck);
+  assertNoHiTechAllies(deck);
+}

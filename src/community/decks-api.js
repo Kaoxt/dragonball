@@ -1,4 +1,4 @@
-import {assertNoHiTechAllyAdditions} from '../../public/decks/eligibility.js';
+import {assertNoHiTechAllyAdditions, assertNoBannedCards} from '../../public/decks/eligibility.js';
 import {readSession,assertSameOrigin} from './session.js';
 import {IssueError} from './issues.js';
 import {API_SECURITY_HEADERS} from './security.js';
@@ -41,7 +41,12 @@ export async function decksRequest(request,env){
    const row=db.prepare('SELECT data,version FROM account_decks WHERE user_id=?').bind(user.id).first();
    if((row?.version||0)!==body.version)throw new IssueError('Decks changed on another device. Export your changes, then reload.',409);
    const previous=new Map((row?JSON.parse(row.data).decks:[]).map(deck=>[deck.id,deck]));
-   try{for(const deck of data.decks)assertNoHiTechAllyAdditions(deck,previous.get(deck.id));}
+   try{
+    for(const deck of data.decks){
+     assertNoBannedCards(deck);
+     assertNoHiTechAllyAdditions(deck,previous.get(deck.id));
+    }
+   }
    catch(e){throw new IssueError(e.message);}
    const next=body.version+1;
    db.prepare('INSERT INTO account_decks(user_id,data,version,updated_at) VALUES(?,?,?,?) ON CONFLICT(user_id) DO UPDATE SET data=excluded.data,version=excluded.version,updated_at=excluded.updated_at').bind(user.id,JSON.stringify(data),next,new Date().toISOString()).run();

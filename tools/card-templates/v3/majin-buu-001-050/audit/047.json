@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      340.954,
+      50.2213,
+      377.091,
+      57.5574
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.859,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.658,
+      1392.65,
+      42.983,
+      33.708
+    ],
+    "rules-line-1": [
+      123.045,
+      1014.61,
+      812.91,
+      44.443
+    ],
+    "rules-line-2": [
+      203.429,
+      1072.53,
+      652.141,
+      44.884
+    ],
+    "rules-line-3": [
+      162.158,
+      1133.0,
+      734.685,
+      43.414
+    ],
+    "rules-line-4": [
+      152.543,
+      1190.53,
+      753.914,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 2. POWER: Look at your opponent's",
+      "baseline": 1049.3,
+      "width": 815.899,
+      "icon_inline": false
+    },
+    {
+      "text": "hand. Your opponent skips their next",
+      "baseline": 1108.3,
+      "width": 654.9340000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Attacker Attacks phase. Your next attack",
+      "baseline": 1167.3,
+      "width": 736.3230000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "this Combat deals +2 life cards of damage.",
+      "baseline": 1226.3,
+      "width": 756.1189999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 47,
+  "id": "majin-buu-047-black-secret",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-047-black-secret.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "019bcd2f4d565918dfb36729a326d829d6fed9d73bca3941169c28a05cab59d0",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-047-black-secret.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "00d1af454873cbba1894f6e782c173483c702a450f6ff3064209a20e0cbe5aa3",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "de136a02b09a48e0ff8859092ea529e64573763f6106d41bda45d9a37447ec6f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "edf71f26421e1f57e030f3bf1021a216e6da44da537c7d3bc16b8427b4ef227c.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-047-black-secret.webp",
+      "solid_ink_pixels": 53822,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-047-black-secret.webp",
+      "solid_ink_pixels": 238317,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

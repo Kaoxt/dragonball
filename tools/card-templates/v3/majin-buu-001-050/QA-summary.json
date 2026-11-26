@@ -1,0 +1,38 @@
+{
+  "set": "Majin Buu Saga",
+  "numbers": [
+    1,
+    50
+  ],
+  "native_masters": 50,
+  "completed_cards": 49,
+  "review_only": [
+    {
+      "number": 32,
+      "name": "Saiyan Energy Deflection",
+      "reason": "Image generation failed twice; source-art preview only."
+    }
+  ],
+  "banned": [
+    {
+      "number": 49,
+      "name": "Black Weakness Drill",
+      "reason": "User-supplied Expanded CRD"
+    }
+  ],
+  "template": "V3",
+  "source_repository_commit": "8cefbcff9c08b1518d459a4356f385b5e5746c4d",
+  "emblem_visible_width_native": 70,
+  "emblem_visible_height_native": 51.5278,
+  "logo_reference": "Babidi: same 70 native-unit width, natural aspect ratio retained",
+  "export_counts": {
+    "display_ready": 49,
+    "download_ready": 49,
+    "review_only": 2
+  },
+  "native_text_validation": true,
+  "raster_ink_validation": true,
+  "lossless_roundtrip_verified": true,
+  "image_generation_mode": "built-in imagegen",
+  "published": false
+}

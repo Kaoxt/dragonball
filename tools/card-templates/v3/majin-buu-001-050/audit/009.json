@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      382.337,
+      50.2213,
+      294.325,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      807.386,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      867.186,
+      1392.65,
+      19.928,
+      33.708
+    ],
+    "rules-line-1": [
+      240.471,
+      1013.53,
+      578.057,
+      45.521
+    ],
+    "rules-line-2": [
+      224.23,
+      1073.61,
+      610.54,
+      44.835
+    ],
+    "rules-line-3": [
+      194.414,
+      1132.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 3. Physical attack.",
+      "baseline": 1049.3,
+      "width": 581.7811555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. Empower 1.",
+      "baseline": 1108.3,
+      "width": 614.264,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 9,
+  "id": "majin-buu-009-blue-slam",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-009-blue-slam.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1c2944489bd83a7cd6cb0cd836bccd33557c4e360c4e0acb484a1c67509fadc5",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-009-blue-slam.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c4381a56e9499fa9e56803a8d1d29fabfc111066f857f8bf9f9b8cb81c53c28b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "2c63002494885b406d63388e5f4259de72354093677ef1c47e4ccf8b21c63787",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "6f6307677328f21c53d3761694a56a5a44bb211bd0357a136c1cc94c6886f66b.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-009-blue-slam.webp",
+      "solid_ink_pixels": 41338,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-009-blue-slam.webp",
+      "solid_ink_pixels": 183461,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

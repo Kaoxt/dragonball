@@ -1,6 +1,6 @@
 import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories} from './card-links.js?v=20261126-promotional-cards';
+import {cardPath,setPath,catalogRoute,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories} from './card-links.js?v=20261126-majin-buu';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const set of browserSets(catalog)) if(![...$('set').options].some(option=>option.value===set.name))$('set').add(new Option(set.name,set.name));
@@ -52,6 +52,7 @@ function renderPagination(pageCount){
 }
 // Show each set's wordmark only when that set is selected.
 const collectionBranding = {
+ 'majin buu saga': {image:'/assets/sets/majin-buu-saga-logo.png?v=6bd22b7168af', name:'Majin Buu Saga', element:'collection-logo-majin-buu'},
  'saiyan saga': {image:'/assets/sets/saiyan-saga-logo-brushed-blue.webp?v=20261026-set-banners', name:'Saiyan Saga', element:'collection-logo'},
  'frieza saga': {image:'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners', name:'Frieza Saga', element:'collection-logo-frieza'},
  'trunks saga': {image:'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners', name:'Trunks Saga', element:'collection-logo-trunks'},
@@ -111,7 +112,7 @@ function render(){
 }
 function openCard(c){
  document.title=`${c.name} · ${c.set} #${c.number} | Dragon Ball OCG`;
- $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase();
+ $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase()+(c.banned?' · BANNED FROM DECKS':'');
  $('detail-meta').replaceChildren(...[['Number',c.number],['Type',cardTypeLabel(c.type)],['Style',c.style],['Set',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
  $('share-url').value=new URL(cardPath(c),location.origin).href;$('share-status').textContent='';

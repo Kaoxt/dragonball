@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      202.395,
+      50.2213,
+      654.209,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.224,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.024,
+      1392.65,
+      36.252,
+      33.708
+    ],
+    "rules-line-1": [
+      208.506,
+      1013.53,
+      696.535,
+      45.913
+    ],
+    "rules-line-2": [
+      236.848,
+      1072.53,
+      585.305,
+      45.521
+    ],
+    "rules-line-3": [
+      327.399,
+      1131.53,
+      404.201,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +2 stages.",
+      "baseline": 1049.3,
+      "width": 752.6491555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Discard 2 of your opponent's",
+      "baseline": 1108.3,
+      "width": 588.2940000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Setups or Drills in play.",
+      "baseline": 1167.3,
+      "width": 407.0920000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 15,
+  "id": "majin-buu-015-gohan-s-sword-thrust",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-015-gohan-s-sword-thrust.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1607e17023f8994876a554f5b5b5c1f43b121c7a4a18ea7850beb1fb5461f8ee",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-015-gohan-s-sword-thrust.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "51d7da34235bbaa906fa015413f0ed8565ea9d553665f0172968d3c8a10a07a3",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "b0eb55c0ecb4345baa40adc86a695b2dd075226cd2f5c893101cd508081e04b9",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "2b4a9bddab6682250695af4e5d59cc433ddd94e94305478e7a9ba06bd0ed1968.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-015-gohan-s-sword-thrust.webp",
+      "solid_ink_pixels": 48493,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-015-gohan-s-sword-thrust.webp",
+      "solid_ink_pixels": 213486,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

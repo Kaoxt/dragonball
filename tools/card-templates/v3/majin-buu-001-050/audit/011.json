@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      273.847,
+      44.5,
+      511.305,
+      69.0
+    ],
+    "card-category": [
+      432.072,
+      891.391,
+      194.856,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      803.676,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      863.476,
+      1392.65,
+      27.348,
+      33.708
+    ],
+    "rules-line-1": [
+      189.807,
+      1013.53,
+      679.385,
+      45.521
+    ],
+    "rules-line-2": [
+      190.983,
+      1072.53,
+      677.033,
+      45.913
+    ],
+    "rules-line-3": [
+      204.63,
+      1131.53,
+      649.74,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Raise your Main Personality to",
+      "baseline": 1049.3,
+      "width": 682.9620000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "its highest stage. Shuffle 2 cards from",
+      "baseline": 1108.3,
+      "width": 680.1690000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile into your Life Deck.",
+      "baseline": 1167.3,
+      "width": 651.9449999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 11,
+  "id": "majin-buu-011-energy-gathering",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-011-energy-gathering.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "144684832f8365ca060838ef62311eb1e8ae6e72706ace3bf5792200c6f1fa2e",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-011-energy-gathering.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "bd9632ac0f766eadb121d75d1e2b2290d293ed540ae1a1cd775b75cb354cee78",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "80a4222e6555b9fb93a8cf27a46badef5783aab308f926469a7b7184af10b4e0",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "e7b7e03b6368458a5dcf55677258c757af20c658c72d8b90d2f9101c47ec72b8.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-011-energy-gathering.webp",
+      "solid_ink_pixels": 46093,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-011-energy-gathering.webp",
+      "solid_ink_pixels": 202467,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

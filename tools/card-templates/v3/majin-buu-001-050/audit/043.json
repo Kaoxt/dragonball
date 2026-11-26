@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      332.652,
+      50.2213,
+      393.696,
+      57.5574
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.223,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.023,
+      1392.65,
+      44.255,
+      33.708
+    ],
+    "rules-line-1": [
+      118.954,
+      1013.53,
+      821.093,
+      45.913
+    ],
+    "rules-line-2": [
+      115.146,
+      1072.53,
+      828.708,
+      45.521
+    ],
+    "rules-line-3": [
+      96.7075,
+      1131.53,
+      865.585,
+      45.521
+    ],
+    "rules-line-4": [
+      93.596,
+      1190.53,
+      871.808,
+      45.913
+    ],
+    "rules-line-5": [
+      94.527,
+      1249.53,
+      869.946,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, reveal your hand. With",
+      "baseline": 1049.3,
+      "width": 823.7389999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "at least 3 Black Style cards, attach this to your",
+      "baseline": 1108.3,
+      "width": 830.2070000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "MP. While attached, you may discard a hand card",
+      "baseline": 1167.3,
+      "width": 869.456,
+      "icon_inline": false
+    },
+    {
+      "text": "during your Attacker Attacks phase to discard an",
+      "baseline": 1226.3,
+      "width": 874.9929999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "opposing Setup, Drill, Ally or Battleground in play.",
+      "baseline": 1285.3,
+      "width": 873.033,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 43,
+  "id": "majin-buu-043-black-gambit",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-043-black-gambit.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "bf552c70377e29627d21a4575610c7d3beb8ead6e059648366aa226e492fca43",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-043-black-gambit.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3831fcaa2b1ffdbf02947e0a5ac016614c09f7a23c2781216e0eeb1129ad2dec",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "ffe6eb48c8a8c58d33240dfbbb26a95ee93f12a8483e1e3ce86ee47813da35df",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "57b51af75781fbadca2b415467459f7a2e8799e4ad6b4c2e19d248c22dd59180.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-043-black-gambit.webp",
+      "solid_ink_pixels": 73213,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-043-black-gambit.webp",
+      "solid_ink_pixels": 323155,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

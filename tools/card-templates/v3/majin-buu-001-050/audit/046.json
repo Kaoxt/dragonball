@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      185.145,
+      50.2213,
+      688.709,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.534,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.334,
+      1392.65,
+      45.633,
+      33.708
+    ],
+    "rules-line-1": [
+      208.506,
+      1013.53,
+      696.535,
+      45.913
+    ],
+    "rules-line-2": [
+      174.887,
+      1073.85,
+      709.226,
+      43.5664
+    ],
+    "rules-line-3": [
+      216.464,
+      1131.53,
+      626.073,
+      40.572
+    ],
+    "rules-line-4": [
+      197.246,
+      1190.53,
+      664.509,
+      45.521
+    ],
+    "rules-line-5": [
+      188.803,
+      1249.53,
+      681.394,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +2 stages.",
+      "baseline": 1049.3,
+      "width": 752.6491555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "Empower 3. HIT: Your opponent shuffles",
+      "baseline": 1108.3,
+      "width": 712.2150000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "their hand into their Life Deck, then",
+      "baseline": 1167.3,
+      "width": 628.376,
+      "icon_inline": false
+    },
+    {
+      "text": "draws as many cards as were in their",
+      "baseline": 1226.3,
+      "width": 666.4000000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "hand when this attack was performed.",
+      "baseline": 1285.3,
+      "width": 684.8240000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 46,
+  "id": "majin-buu-046-black-overhead-smack",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-046-black-overhead-smack.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "669649c33eca84db2c674fbed274d18781a6934489b8ed1c47b6e1bc3ef1b18b",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-046-black-overhead-smack.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c094628cb087adc621a9ff7b4be8b1a0fe859f3d11ecf7c70209bb48bc354048",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "5bdb3e3f15ab415c46c605fddff98d57bb7097fb136f684e90e35e2962c53e93",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "7cd16e2c0276a161fb540a90074c79188e3ed9cb64b54e5b7cdaef0adbc19d92.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-046-black-overhead-smack.webp",
+      "solid_ink_pixels": 72294,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-046-black-overhead-smack.webp",
+      "solid_ink_pixels": 318566,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

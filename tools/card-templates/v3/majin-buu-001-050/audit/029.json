@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      255.135,
+      50.2213,
+      548.731,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.15,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.95,
+      1392.65,
+      42.4,
+      33.708
+    ],
+    "rules-line-1": [
+      175.514,
+      1013.53,
+      707.973,
+      45.521
+    ],
+    "rules-line-2": [
+      136.167,
+      1072.53,
+      786.666,
+      44.884
+    ],
+    "rules-line-3": [
+      94.6985,
+      1131.53,
+      869.603,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 1. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 711.696947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "Your opponent discards the top card of their",
+      "baseline": 1108.3,
+      "width": 788.214,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck. Raise your anger 1 level. Gain 5 stages.",
+      "baseline": 1167.3,
+      "width": 873.3269999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 29,
+  "id": "majin-buu-029-red-passive-block",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-029-red-passive-block.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "06bb7f16de77959ef20d176161f9dc488d83469829bf6bbe3540d0b3436fc287",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-029-red-passive-block.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "db4e8d925904bf7e453004e4fbcdd65ef3dc2973b1f4a227817bee97eea8abd1",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9d76a52f91485e2418a78bf8b894aab0ad8ffaa07070b32c815437a9a6ed0a33",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "eb34352746a60ac5050983ffebb5b2721207e1a051145f34582071a828df1c69.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-029-red-passive-block.webp",
+      "solid_ink_pixels": 54756,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-029-red-passive-block.webp",
+      "solid_ink_pixels": 240951,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

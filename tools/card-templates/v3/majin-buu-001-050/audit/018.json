@@ -1,0 +1,111 @@
+{
+  "bounds": {
+    "card-title": [
+      398.856,
+      50.2213,
+      261.288,
+      57.5574
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.118,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      858.918,
+      1392.65,
+      36.464,
+      33.708
+    ],
+    "rules-line-1": [
+      210.265,
+      1013.53,
+      638.47,
+      36.162
+    ],
+    "rules-line-2": [
+      229.277,
+      1072.53,
+      600.446,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. POWER: Set all Allies in",
+      "baseline": 1049.3,
+      "width": 641.4590000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "play to 0 stages. Banish after use.",
+      "baseline": 1108.3,
+      "width": 604.0229999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 18,
+  "id": "majin-buu-018-horrified",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-018-horrified.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "4ccd0098f4122d55325cb514bdbc01e32543acdd98032bdd4f37904e3cf4d864",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-018-horrified.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "5104329d0e8e050286cc95716be5794f63a552cea9dbf8f87cb3a3be4d7b4e7a",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "7613adc80414d4478280ea004889ee4c492f52d5e8c9af7dc8fa9e12edcefc9e",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "855307adf5ce94e1ca27baca24d1eb4d2131ab0aa2d5d38d44d0eec23fb5f98e.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-018-horrified.webp",
+      "solid_ink_pixels": 28960,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-018-horrified.webp",
+      "solid_ink_pixels": 128964,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

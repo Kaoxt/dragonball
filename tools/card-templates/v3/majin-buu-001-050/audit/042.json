@@ -1,0 +1,147 @@
+{
+  "bounds": {
+    "card-title": [
+      258.49,
+      50.2213,
+      542.02,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.302,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.102,
+      1392.65,
+      44.096,
+      33.708
+    ],
+    "rules-line-1": [
+      242.774,
+      1013.53,
+      573.451,
+      45.521
+    ],
+    "rules-line-2": [
+      220.457,
+      1073.61,
+      618.086,
+      44.835
+    ],
+    "rules-line-3": [
+      189.112,
+      1131.53,
+      680.777,
+      45.521
+    ],
+    "rules-line-4": [
+      139.692,
+      1190.53,
+      779.616,
+      44.884
+    ],
+    "rules-line-5": [
+      136.005,
+      1249.53,
+      786.989,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Physical attack.",
+      "baseline": 1049.3,
+      "width": 576.3421555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. Empower 2.",
+      "baseline": 1108.3,
+      "width": 621.8100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "If you declared a Tokui-Waza and your",
+      "baseline": 1167.3,
+      "width": 683.305,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent declared a Namekian Tokui-Waza,",
+      "baseline": 1226.3,
+      "width": 782.775,
+      "icon_inline": false
+    },
+    {
+      "text": "banish the bottom 8 cards of their Life Deck.",
+      "baseline": 1285.3,
+      "width": 790.4190000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 42,
+  "id": "majin-buu-042-black-face-smash",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-042-black-face-smash.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2aa728ecc5394313dab5b93cf9e09067397424642c278aaa82dc1b9569b0d156",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-042-black-face-smash.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "87cf01b6300de407278ee3b22887d0b71829cd9f404e4ff74351629f0aaae197",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "0411c0cf318fff9eb7de1fee428f5fb70feb265a05fa3256aa1fda276502b14a",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "137b8edc77aa344927d35e7bde849c927bd59b0bc0fcb27ce33da0d33685830b.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-042-black-face-smash.webp",
+      "solid_ink_pixels": 69161,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-042-black-face-smash.webp",
+      "solid_ink_pixels": 304773,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

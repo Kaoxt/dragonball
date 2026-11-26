@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      154.044,
+      44.5,
+      750.913,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      807.386,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      867.186,
+      1392.65,
+      19.928,
+      33.708
+    ],
+    "rules-line-1": [
+      105.525,
+      1013.53,
+      847.949,
+      45.913
+    ],
+    "rules-line-2": [
+      235.157,
+      1072.53,
+      588.686,
+      44.884
+    ],
+    "rules-line-3": [
+      158.14,
+      1131.53,
+      742.721,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Villains only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 850.5951555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. Empower 2.",
+      "baseline": 1108.3,
+      "width": 592.4100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "All Allies lose 3 stages, to a minimum of 0.",
+      "baseline": 1167.3,
+      "width": 744.947,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 6,
+  "id": "majin-buu-006-black-diving-energy-drop",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-006-black-diving-energy-drop.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f30a0388ba94638f110452c49ee898b6d20ff466c6f0e14fb9af9efab0375d34",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-006-black-diving-energy-drop.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "eb1a21cb69ae4492eab88e711e6c7f9aea2521d4e3cd3527ec6b9bcb5d41cb92",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "496dd6c1dea26e7b21ebdeda2a4b8da4b8fb3b15a8822e753d36447e0babcdb7",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "0eb0c8afc9490c5463c7faafecf6315f18c9a2d391aa2336b522419999c76b6a.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-006-black-diving-energy-drop.webp",
+      "solid_ink_pixels": 57545,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-006-black-diving-energy-drop.webp",
+      "solid_ink_pixels": 251887,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}

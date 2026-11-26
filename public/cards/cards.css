@@ -13,7 +13,8 @@
 .collection-brand{display:flex;flex-direction:column;justify-content:center;gap:6px;align-items:center;flex:0 1 220px;min-width:0;max-width:40%;margin:0 0 0 auto}
 .collection-brand img{display:block;width:100%;height:auto;object-fit:contain;mix-blend-mode:screen}
 /* The transparent Babidi banner keeps its dark emblem and lettering shadows. */
-.collection-brand #collection-logo-babidi{mix-blend-mode:normal}
+.collection-brand #collection-logo-babidi,
+.collection-brand #collection-logo-majin-buu{mix-blend-mode:normal}
 /* Match Cell's taller artwork to the other saga logos without shifting the header. */
 .collection-brand #collection-logo-cell{aspect-ratio:2277/724;box-sizing:border-box;padding-left:10%}
 .collection-brand h2{margin:0;color:#fff;font-size:clamp(14px,2vw,22px)}

@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "card-title": [
+      279.44,
+      50.2213,
+      500.121,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.567,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.367,
+      1392.65,
+      43.566,
+      33.708
+    ],
+    "rules-line-1": [
+      208.555,
+      1013.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-2": [
+      142.915,
+      1072.53,
+      773.171,
+      45.521
+    ],
+    "rules-line-3": [
+      190.043,
+      1131.53,
+      678.915,
+      45.521
+    ],
+    "rules-line-4": [
+      150.289,
+      1190.53,
+      758.422,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "If \"Arqua's Arena\" is in play, this is focused.",
+      "baseline": 1108.3,
+      "width": 776.895,
+      "icon_inline": false
+    },
+    {
+      "text": "If performed by Videl while she is your",
+      "baseline": 1167.3,
+      "width": 681.443,
+      "icon_inline": false
+    },
+    {
+      "text": "Main Personality, raise your anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 761.999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "visually_reviewed",
+  "number": 36,
+  "id": "majin-buu-036-underwater-kick",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-036-underwater-kick.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a24c880399f20f901ad154401fc0543fe55652297b6778c762f7903e7e0a6321",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-036-underwater-kick.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "a9b120f814c0c7ed753fa35372ed5c53d718507ade5c39d5f8a618009777725a",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "bd92efdb928d5e378a276a66a5ee10ef0f3d27b6c10f79f766bbbb64aaf54b07",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "c5b2fe483b131c4319d708bf3f653f9a10865012d90fefd4d54e2705ea1e5b38.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "raster_text_verification": [
+    {
+      "path": "display/majin-buu-036-underwater-kick.webp",
+      "solid_ink_pixels": 60608,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    },
+    {
+      "path": "downloads/majin-buu-036-underwater-kick.webp",
+      "solid_ink_pixels": 268263,
+      "initial_mismatch_pixels": 0,
+      "final_mismatch_pixels": 0,
+      "rerenders": 0
+    }
+  ],
+  "visual_review_notes": "Reviewed full-card framing, expression, hands, text, footer and logo; the original-source preview for #32 is not a release asset."
+}
