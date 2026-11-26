@@ -4,6 +4,7 @@ import {cardPath,setPath,catalogRoute,browserSets,PROMOTIONAL_SET,promoCategory,
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const set of browserSets(catalog)) if(![...$('set').options].some(option=>option.value===set.name))$('set').add(new Option(set.name,set.name));
+for(const category of [...new Set(catalog.filter(c=>promoCategory(c)).sort(comparePromoCategories).map(promoCategory))])$('subset').add(new Option(category,category));
 for(const key of ['type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
@@ -11,12 +12,13 @@ const PAGE_SIZE=52;
 let activeSet='';
 let currentPage=1;
 function resetFilters(){
- $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('sort').value='name';
+ $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('subset').value='';$('sort').value='name';
  currentPage=1;
 }
 function browserURL(page=currentPage){
  const url=new URL(activeSet?setPath(activeSet):'/cards/',location.origin);
  for(const key of ['query','type','style'])if($(key).value)url.searchParams.set(key,$(key).value);
+ if(activeSet===PROMOTIONAL_SET&&$('subset').value)url.searchParams.set('subset',$('subset').value);
  const defaultSort='name';
  if($('sort').value!==defaultSort)url.searchParams.set('sort',$('sort').value);
  if(page>1)url.searchParams.set('page',page);
@@ -74,8 +76,10 @@ function renderCollectionBrand(){
 function render(){
  renderCollectionBrand();
  const promotional=activeSet===PROMOTIONAL_SET;
+ $('subset-field').hidden=!promotional;$('subset').disabled=!promotional;
+ $('filters').setAttribute('data-promotional',String(promotional));
  const query=normalize($('query').value.trim());
- const setCards=catalog.filter(c=>cardInSet(c,activeSet));
+ const setCards=catalog.filter(c=>cardInSet(c,activeSet)&&(!promotional||!$('subset').value||promoCategory(c)===$('subset').value));
  const cards=setCards.filter(c=>normalize(`${c.name} ${c.number} ${c.id}${promotional?' '+promoCategory(c):''}`).includes(query)&&['type','style'].every(key=>!$(key).value||c[key]===$(key).value));
  cards.sort((a,b)=>(promotional?comparePromoCategories(a,b):0)||($('sort').value==='number'?a.number.localeCompare(b.number,undefined,{numeric:true}):a.name.localeCompare(b.name)));
  const pageCount=Math.max(1,Math.ceil(cards.length/PAGE_SIZE));
@@ -128,6 +132,8 @@ function syncRoute(){
   const value=url.searchParams.get(key);
   if(value!==null&&(key==='query'||[...$(key).options].some(option=>option.value===value)))$(key).value=value;
  }
+ const subset=url.searchParams.get('subset');
+ if(activeSet===PROMOTIONAL_SET&&[...$('subset').options].some(option=>option.value===subset))$('subset').value=subset;
  const page=Number(url.searchParams.get('page'));
  currentPage=Number.isSafeInteger(page)&&page>0?page:1;
  $('card-link-error').hidden=route.kind!=='missing';
@@ -149,7 +155,7 @@ function changeFilters(){
 }
 $('filters').onsubmit=e=>e.preventDefault();$('query').oninput=changeFilters;
 $('set').onchange=()=>location.assign($('set').value?setPath($('set').value):'/cards/');
-for(const key of ['type','style','sort'])$(key).onchange=changeFilters;
+for(const key of ['subset','type','style','sort'])$(key).onchange=changeFilters;
 $('clear').onclick=()=>{
  resetFilters();changeFilters();$('query').focus();
 };
