@@ -7,6 +7,7 @@ import {gunzipSync} from 'node:zlib';
 import {catalog} from '../public/cards/catalog.js';
 import {codeCardIds} from '../public/decks/code-card-ids.js';
 import {catalog as prior, codeCardIds as priorIds, beforeBabidi030File} from './helpers/pre-babidi-030.js';
+import {beforeGtBackersFile} from './helpers/pre-gt-backers.js';
 import {beforeMovie7File} from './helpers/pre-movie7.js';
 import {beforeMajinBuuFile} from './helpers/pre-majin-buu.js';
 import {cardPath, catalogRoute} from '../public/cards/card-links.js';
@@ -100,7 +101,7 @@ test('both #30 lossless exports, native source and selected artwork match the re
 
 test('the #30 revision restores exact historical inputs without changing prior release evidence', () => {
   for (const revision of revisions) {
-    assert.equal(hash(readFileSync(revision.path)), revision.after_sha256, revision.path);
+    assert.equal(hash(beforeGtBackersFile(revision.path)), revision.after_sha256, revision.path);
     assert.equal(hash(gunzipSync(readFileSync(revision.before_file))), revision.before_sha256, revision.before_file);
     assert.equal(hash(beforeBabidi030File(revision.path)), revision.before_sha256, revision.path);
   }

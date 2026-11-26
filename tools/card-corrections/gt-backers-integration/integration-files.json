@@ -1,0 +1,44 @@
+[
+  {
+    "path": "AGENTS.md",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/AGENTS.md.gz",
+    "before_sha256": "1879487b452039836b0c967bd69e5bdadd215defb8c64a09b06ba13891bd0fc9",
+    "after_sha256": "c174d11c149d8283c796dd762951dff98f73188f3e2e86cc4bbf5b60a539d3e5"
+  },
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/package.json.gz",
+    "before_sha256": "5acf30878db51e14ccefa9507a5aade58d2634da09a3da7559f5b0909357c79e",
+    "after_sha256": "dabf9ecca664817604a690aa096c6f58c1db774163b62f20efe1ead85588dd16"
+  },
+  {
+    "path": "public/decks/store.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/public/decks/store.js.gz",
+    "before_sha256": "d35cefbea49b3fffd158554c7456d05cad21f1c3cd8f8c3b0861818a06f9bf15",
+    "after_sha256": "03c6467d6039ccea4c8cb0fa05dfa16ce87dcd01ad70d78f49817759772d8d3d"
+  },
+  {
+    "path": "public/game.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/public/game.js.gz",
+    "before_sha256": "96a86c53045dd5d2f4128c921e8e404a017bafb9f7ccd36e8bd214c3df5c9404",
+    "after_sha256": "a80880f6d5681ab4c8831cf15246fb11cf9f5de2a639db2643824cc4b64e94f0"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/public/personality-power.js.gz",
+    "before_sha256": "fac95523df1903e4cbe95bd64fceb4c31159b4079e7d46375562a02e647efa30",
+    "after_sha256": "b0343f9e25ab545e3bb39e6a79a42d44a5f88db11f5308a2fd8a4fab04b6d113"
+  },
+  {
+    "path": "tests/card-v3-babidi-030.test.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/tests/card-v3-babidi-030.test.js.gz",
+    "before_sha256": "6f5a32f7bf9d1a17fb813ce8e9d37abb5f65cc29e437d282fa85caa77c64c8d3",
+    "after_sha256": "84a54326b2c4d59948b7fc4e47bcc4d685852a6ec4971bdc364bd355fb3b469a"
+  },
+  {
+    "path": "tests/helpers/pre-babidi-030.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/tests/helpers/pre-babidi-030.js.gz",
+    "before_sha256": "44d882be1d9d6b635f2bf9d9bd4ca35552ee3a80b13a3f7a392b455b1773c505",
+    "after_sha256": "2562cb2cb295f7d8af00f1f4ceb3b3672ef51b8f1c3fb7f9b091bd1ac0e6bf8a"
+  }
+]

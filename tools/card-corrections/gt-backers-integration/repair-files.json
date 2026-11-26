@@ -1,0 +1,20 @@
+[
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/gt-backers-integration/before-repair/package.json.gz",
+    "before_sha256": "023507a436028e49eae1405ebcaffadd6b4439a23909aa29a0064d19fad8e14f",
+    "after_sha256": "dabf9ecca664817604a690aa096c6f58c1db774163b62f20efe1ead85588dd16"
+  },
+  {
+    "path": "tests/helpers/pre-babidi-030.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/tests/helpers/pre-babidi-030.js.gz",
+    "before_sha256": "44d882be1d9d6b635f2bf9d9bd4ca35552ee3a80b13a3f7a392b455b1773c505",
+    "after_sha256": "2562cb2cb295f7d8af00f1f4ceb3b3672ef51b8f1c3fb7f9b091bd1ac0e6bf8a"
+  },
+  {
+    "path": "tests/card-v3-babidi-030.test.js",
+    "before_file": "tools/card-corrections/gt-backers-integration/before/tests/card-v3-babidi-030.test.js.gz",
+    "before_sha256": "6f5a32f7bf9d1a17fb813ce8e9d37abb5f65cc29e437d282fa85caa77c64c8d3",
+    "after_sha256": "84a54326b2c4d59948b7fc4e47bcc4d685852a6ec4971bdc364bd355fb3b469a"
+  }
+]

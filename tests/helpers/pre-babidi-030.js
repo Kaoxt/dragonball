@@ -5,6 +5,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
+import {beforeGtBackersFile} from './pre-gt-backers.js';
 import revisions from '../../tools/card-corrections/v3-babidi-030/integration-files.json' with {type:'json'};
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
@@ -13,7 +14,7 @@ const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 
 export function beforeBabidi030File(file) {
   const absolute = file instanceof URL ? fileURLToPath(file) : path.resolve(file);
-  const current = readFileSync(absolute);
+  const current = beforeGtBackersFile(absolute);
   const revision = files.get(path.relative(root, absolute));
   if (!revision) return current;
   assert.equal(sha256(current), revision.after_sha256, revision.path);

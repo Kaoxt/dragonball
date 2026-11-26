@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "baseline_commit": "023c12fcbadc598bcdca388388e0d35856f1326e",
+  "feature_commit": "a17cbe24741b03103e10c03cc45fd2a7fbec1886",
+  "scope": "Preserve exact published card audit inputs across GT Backers and its history compatibility repair.",
+  "repair_modified_files": [
+    "package.json",
+    "tests/helpers/pre-babidi-030.js",
+    "tests/card-v3-babidi-030.test.js"
+  ],
+  "unchanged_catalog_files": {
+    "public/cards/catalog.js": "d1859f67d2bdc575fe4452be9492740758186789b5bf7901d7a451a2618a202e",
+    "public/decks/code-card-ids.js": "de294abd6b86ca344894901f82e98004008119998957da59884c4629b91fe9b9"
+  },
+  "unchanged_card_source_trees": {
+    "public/assets/cards": "7c6a09249bdcd8661f51be6210c2e10ab15d8c63",
+    "tools/card-templates": "e577e2732361d6c7116fb2f3c102d7e748d1fb92"
+  },
+  "card_assets_changed": false,
+  "prior_manifests_changed": false,
+  "protected_feature_modified_files": [
+    "AGENTS.md",
+    "package.json",
+    "public/personality-power.js",
+    "public/game.js",
+    "public/decks/store.js"
+  ]
+}
