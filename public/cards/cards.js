@@ -11,6 +11,7 @@ try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
 const PAGE_SIZE=52;
 let activeSet='';
 let currentPage=1;
+let currentCard=null;
 function resetFilters(){
  $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('subset').value='';$('sort').value='name';
  currentPage=1;
@@ -111,11 +112,13 @@ function render(){
  }));
 }
 function openCard(c){
+ currentCard=c;
  document.title=`${c.name} · ${c.set} #${c.number} | Dragon Ball OCG`;
- $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=c.status==='Preview'?'SAIYAN SAGA · DESIGN PREVIEW':c.set.toUpperCase()+(c.banned?' · BANNED FROM DECKS':'');
+ $('detail-image').src=c.image;$('detail-image').alt=c.name;$('detail-name').textContent=c.name;$('detail-status').textContent=[c.status==='Preview'?'DESIGN PREVIEW':'',c.banned?'BANNED FROM DECKS':''].filter(Boolean).join(' · ');
+ $('detail-status').hidden=!$('detail-status').textContent;
  $('detail-meta').replaceChildren(...[['Number',c.number],['Type',cardTypeLabel(c.type)],['Style',c.style],['Set',c.set]].flatMap(([name,value])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;return[dt,dd];}));
  $('download').href=c.downloadImage||c.image;$('download').download=c.id+'.webp';
- $('share-url').value=new URL(cardPath(c),location.origin).href;$('share-status').textContent='';
+ $('share-status').textContent='';
  $('preview-note').hidden=c.status!=='Preview';if(!$('card-detail').open)$('card-detail').showModal();
 }
 function syncRoute(){
@@ -160,9 +163,17 @@ for(const key of ['subset','type','style','sort'])$(key).onchange=changeFilters;
 $('clear').onclick=()=>{
  resetFilters();changeFilters();$('query').focus();
 };
-$('copy-link').onclick=async()=>{
- try{await navigator.clipboard.writeText($('share-url').value);$('share-status').textContent='Link copied.';}
- catch{$('share-url').focus();$('share-url').select();$('share-status').textContent='Select and copy the link above.';}
+$('share-card').onclick=async()=>{
+ if(!currentCard)return;
+ const card=currentCard,url=new URL(cardPath(card),location.origin).href;
+ const status=message=>{if(currentCard===card)$('share-status').textContent=message;};
+ status('');
+ if(typeof navigator.share==='function'){
+  try{await navigator.share({title:card.name,url});return;}
+  catch(error){if(error.name==='AbortError')return;}
+ }
+ try{await navigator.clipboard.writeText(url);status('Link copied.');}
+ catch{status('Copy this link: '+url);}
 };
 $('close-detail').onclick=closeCard;
 $('card-detail').addEventListener('cancel',e=>{e.preventDefault();closeCard();});

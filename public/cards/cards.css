@@ -21,7 +21,7 @@
 .collection-brand [hidden]{display:none}
 @media(max-width:650px){.collection-brand{flex-basis:150px}.database-intro .page-wordmark img{max-height:44px}}
 
-.catalog-card{display:block;color:inherit;text-decoration:none}.catalog-card:focus-visible{outline:2px solid #ff949d;outline-offset:5px}.share-label{display:block;margin-top:24px;font-size:12px}.share-controls{display:flex;align-items:center;gap:8px}.share-controls input{min-width:0;flex:1;font-size:12px;margin:0}.share-controls button{white-space:nowrap;font-size:12px;padding:12px}#share-status{min-height:1.4em}#card-link-error{padding:16px;border:1px solid #674147}
+.catalog-card{display:block;color:inherit;text-decoration:none}.catalog-card:focus-visible{outline:2px solid #ff949d;outline-offset:5px}.detail-actions{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px}#card-detail .detail-actions>:is(a,button){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin:0;padding:12px 18px;font:600 13px/1.5 var(--font-ui);text-align:center;white-space:nowrap}#card-detail .detail-actions svg{display:block;flex:0 0 18px;width:18px;height:18px}#share-status{min-height:1.4em;text-align:center;overflow-wrap:anywhere;user-select:text}#card-link-error{padding:16px;border:1px solid #674147}
 
 .database-page [hidden]{display:none!important}
 .cards-breadcrumbs{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0 0 24px;font-size:14px;color:#b9aeb0}.cards-breadcrumbs a{color:#ff949d;text-decoration:none}.cards-breadcrumbs a:hover{text-decoration:underline}
@@ -42,14 +42,14 @@
 #card-detail .card-finish-switcher button:disabled{cursor:wait;opacity:.65}
 #card-finish-status{margin:10px 0 0;text-align:center}
 
-/* Draw the download pill with an inset ring: Firefox Android can show seams
+/* Draw both action pills with an inset ring: Firefox Android can show seams
    inside a native rounded border at fractional page zoom. Keep its outer size. */
-#card-detail #download{--download-ring:#444046;border:0;padding:12px 18px;box-shadow:inset 0 0 0 1px var(--download-ring)}
-#card-detail #download:hover{--download-ring:#5a545d}
-html[data-site-design=v2] #card-detail #download{--download-ring:#465058}
-html[data-site-design=v2] #card-detail #download:hover{--download-ring:#65717a}
+#card-detail :is(#download,#share-card){--download-ring:#444046;border:0;padding:12px 18px;box-shadow:inset 0 0 0 1px var(--download-ring)}
+#card-detail :is(#download,#share-card):hover{--download-ring:#5a545d}
+html[data-site-design=v2] #card-detail :is(#download,#share-card){--download-ring:#465058}
+html[data-site-design=v2] #card-detail :is(#download,#share-card):hover{--download-ring:#65717a}
 @media(forced-colors:active){
- #card-detail #download{border:1px solid ButtonText;padding:11px 17px;box-shadow:none}
+ #card-detail :is(#download,#share-card){border:1px solid ButtonText;padding:11px 17px;box-shadow:none}
 }
 
 /* Category headings belong to the filtered promo results, below the controls. */
