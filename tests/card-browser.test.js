@@ -46,6 +46,28 @@ function browser(path='/cards/') {
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
 
+test('Movie 7 is discoverable under Promos & Subsets with honest availability and parent links',()=>{
+ const root=browser();
+ assert.equal(root.elements['promo-subsets-section'].hidden,false);
+ const tile=root.elements['promo-subsets-list'].children.find(el=>el.href==='/cards/movie-7-super-android-13/');
+ assert.ok(tile);
+ assert.equal(tile.children[1].children[0].textContent,'Movie 7: Super Android 13');
+ assert.equal(tile.children[1].children[1].textContent,'34 cards available');
+ const movie=browser('/cards/movie-7-super-android-13/?sort=number');
+ assert.equal(movie.elements['promo-subsets-section'].hidden,true);
+ assert.equal(grid(movie).length,34);
+ assert.ok(grid(movie).some(el=>el.href.endsWith('/m16')));
+ const m16=browser('/cards/movie-7-super-android-13/m16');
+ assert.equal(m16.elements['card-detail'].open,true);
+ assert.equal(m16.elements['detail-name'].textContent,'Super Saiyan Goku');
+ assert.equal(m16.elements.download.href,catalog.find(c=>c.id==='movie7-m16-super-saiyan-goku').downloadImage);
+ assert.equal(movie.elements['related-collections'].children[0].href,'/cards/babidi-saga/');
+ assert.equal(movie.elements['related-collections'].children.length,1);
+ const babidi=browser('/cards/babidi-saga/');
+ assert.equal(babidi.elements['related-collections'].children[0].href,tile.href);
+ assert.equal(browser('/cards/saiyan-saga/').elements['related-collections'].hidden,true);
+});
+
 test('Personality labels appear in filters, result cards and details while legacy filter URLs work',()=>{
  const b=browser('/cards/?type=Main+Personality');
  assert.equal(b.elements.type.options.find(o=>o.value==='Main Personality').text,'Personality');

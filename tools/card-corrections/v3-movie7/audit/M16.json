@@ -1,0 +1,150 @@
+{
+  "bounds": {
+    "card-title": [
+      250.79,
+      44.5,
+      557.42,
+      69.0
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      783.563,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      843.363,
+      1392.65,
+      67.575,
+      33.708
+    ],
+    "rules-line-1": [
+      336.812,
+      1013.53,
+      439.971,
+      45.521
+    ],
+    "rules-line-2": [
+      177.754,
+      1073.61,
+      703.493,
+      44.835
+    ],
+    "rules-line-3": [
+      166.949,
+      1131.53,
+      725.102,
+      40.572
+    ],
+    "rules-line-4": [
+      278.277,
+      1192.0,
+      502.446,
+      44.443
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. If your opponent",
+      "baseline": 1108.3,
+      "width": 706.58,
+      "icon_inline": false
+    },
+    {
+      "text": "declared a Tokui Waza, deal +2 life cards",
+      "baseline": 1167.3,
+      "width": 727.4540000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "per Dragon Ball they control.",
+      "baseline": 1226.3,
+      "width": 506.0230000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M16",
+  "id": "movie7-m16-super-saiyan-goku",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m16-super-saiyan-goku.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "3fa0a84fe0698667b508073b8d721d716c5fef9d6496629d66a026ab3fe4ef80",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m16-super-saiyan-goku.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b5ced32f20c8feb615777cc4bf165098885e1b6732811ef34ca5d51a961d19bb",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "240e897135def23d034295b6c36bcf6e6e204a7b83cad2d93b8e47c0807f33bf",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "91cd23a69386bed603e0fc19c049cfe3a04925456a00f621439293484b18b120.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true,
+  "completion_2026_11_25": {
+    "approved_generation_size": [
+      1516,
+      1037
+    ],
+    "artwork_size": [
+      2066,
+      1412
+    ],
+    "artwork_sha256": "91cd23a69386bed603e0fc19c049cfe3a04925456a00f621439293484b18b120",
+    "native_non_artwork_unchanged": true,
+    "outside_artwork_export_pixels_unchanged": true,
+    "illustration_region": [
+      14,
+      146,
+      1033,
+      706
+    ],
+    "stage_left_native": 813.75,
+    "usable_horizontal_center_native": 413.875,
+    "resampling": "Lanczos to 2066x1413; trim one bottom edge pixel; no character redraw",
+    "source_generation": "source/M16-approved-generation.png",
+    "visual_review": {
+      "dual_portrait_retained": true,
+      "hair_tips_inside_art_border": true,
+      "face_and_fist_clear_of_stage_stack": true,
+      "secondary_full_figure_visible": true,
+      "clean_shoulder_edge": true,
+      "frame_and_typography_unchanged": true
+    }
+  }
+}

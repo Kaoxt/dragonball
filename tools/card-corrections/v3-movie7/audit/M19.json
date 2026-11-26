@@ -1,0 +1,128 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      46.7878,
+      760.0,
+      64.4245
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      783.775,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      843.575,
+      1392.65,
+      67.151,
+      33.708
+    ],
+    "rules-line-1": [
+      169.228,
+      1013.53,
+      720.545,
+      45.521
+    ],
+    "rules-line-2": [
+      278.086,
+      1072.53,
+      557.424,
+      45.913
+    ],
+    "rules-line-3": [
+      111.898,
+      1131.53,
+      835.205,
+      44.884
+    ],
+    "rules-line-4": [
+      98.5695,
+      1190.53,
+      861.861,
+      45.521
+    ],
+    "rules-line-5": [
+      129.121,
+      1249.53,
+      800.758,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Endurance 3. Goku only.",
+      "baseline": 1049.3,
+      "width": 724.269,
+      "icon_inline": false
+    },
+    {
+      "text": "Energy attack costing 5 stages.",
+      "baseline": 1108.3,
+      "width": 613.5871555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 12 life cards. Discard all Setups/Drills.",
+      "baseline": 1167.3,
+      "width": 838.929,
+      "icon_inline": false
+    },
+    {
+      "text": "Pass this Combat. If stopped: MP to 0; your Allies",
+      "baseline": 1226.3,
+      "width": 864.8009999999997,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot control this Combat. Banish after use.",
+      "baseline": 1285.3,
+      "width": 803.845,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M19",
+  "id": "movie7-m19-straining-spirit-bomb-move",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m19-straining-spirit-bomb-move.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ea14d2b5e4f8304a05f710b76b8df98ba2857546a729a90284d7a0a6cede5854",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m19-straining-spirit-bomb-move.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "a2080d7c4408534e512f430f60cf23021ad8a0ea4b560dad99301ecd8dba954f",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "7515fb40df61fe69ed3df569ff6349176aeb7f6bc3bf0d5dbac4a620d08b02db",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "3b8f9ef697afb3933d371f0188d0dea4c7705fc9125dba21db25795963df9d73.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

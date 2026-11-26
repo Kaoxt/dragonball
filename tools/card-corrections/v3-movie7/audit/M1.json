@@ -1,0 +1,119 @@
+{
+  "bounds": {
+    "card-title": [
+      374.379,
+      50.2213,
+      310.242,
+      57.5574
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      795.806,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.605,
+      1392.65,
+      43.089,
+      33.708
+    ],
+    "rules-line-1": [
+      208.555,
+      1013.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-2": [
+      199.374,
+      1072.53,
+      660.252,
+      45.521
+    ],
+    "rules-line-3": [
+      179.665,
+      1131.53,
+      699.671,
+      45.913
+    ],
+    "rules-line-4": [
+      282.466,
+      1190.53,
+      494.067,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "With 2+ other \"Android\" Allies in play,",
+      "baseline": 1108.3,
+      "width": 662.8720000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "replace the +3 stages with +4 life cards",
+      "baseline": 1167.3,
+      "width": 702.366,
+      "icon_inline": false
+    },
+    {
+      "text": "and raise your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 496.76200000000006,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M1",
+  "id": "movie7-m01-android-13",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m01-android-13.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "8e8869b8c352aa15b65410806ae607c8d86ac121b26361ce9df1f315e8e17697",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m01-android-13.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "58d0dcc04236cbaa37458b36b4bb78ebaa1c7dd22e407d1c9bfcc3a8ee5600a6",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "3a4790ee488f7036363f163f3d4e6bd9156e51cd92f65e62374f7a703888d58f",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "54e72176a92310432973913754783674abaef045b7670fff3dc9b2b274079fbd.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

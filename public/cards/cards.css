@@ -50,4 +50,15 @@ html[data-site-design=v2] #card-detail #download:hover{--download-ring:#65717a}
 @media(forced-colors:active){
  #card-detail #download{border:1px solid ButtonText;padding:11px 17px;box-shadow:none}
 }
-
+.promo-subsets{margin:0 0 1.5rem;padding:1.1rem 1.3rem;border:1px solid var(--border,#50545a);border-radius:12px;background:#262a2e}
+.promo-subsets h2{margin:0 0 .8rem;font-size:1.25rem}
+.promo-subsets-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:1rem}
+.subset-tile{display:flex;align-items:center;gap:1rem;padding:.7rem 1rem;color:inherit;text-decoration:none;border:1px solid #555960;border-radius:8px;max-width:540px}
+.subset-tile:hover{border-color:#ae2837;background:#303238}
+.subset-tile:focus-visible{outline:3px solid #dc5362;outline-offset:3px}
+.subset-tile img{width:84px;height:76px;object-fit:contain;flex:none}
+.subset-tile strong,.subset-tile span span{display:block}
+.subset-tile span span{margin-top:.4rem;font-size:.85rem;color:#c8cbd0}
+.related-collections{display:flex;flex-wrap:wrap;gap:.7rem 1.5rem;margin:0 0 1rem;font-size:.9rem}
+.related-collections a{color:#f2b5bb;text-underline-offset:3px}
+.related-collections span{color:#c8cbd0}

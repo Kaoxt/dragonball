@@ -1,0 +1,104 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      49.0864,
+      760.0,
+      59.8272
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      784.252,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      844.051,
+      1392.65,
+      66.197,
+      33.708
+    ],
+    "rules-line-1": [
+      198.902,
+      1013.53,
+      715.792,
+      45.913
+    ],
+    "rules-line-2": [
+      189.773,
+      1072.53,
+      679.454,
+      45.521
+    ],
+    "rules-line-3": [
+      143.943,
+      1131.53,
+      771.113,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 771.9551555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: Search your",
+      "baseline": 1108.3,
+      "width": 681.9820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck for a Location and put it into play.",
+      "baseline": 1167.3,
+      "width": 774.8370000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M13",
+  "id": "movie7-m13-gohan-s-braced-energy-beam",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m13-gohan-s-braced-energy-beam.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "7cfca7c5a285ae22d6179997f882552195372fb18130563bca766772a3c6d475",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m13-gohan-s-braced-energy-beam.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "493708dfc192f6763731099194f0d407a7db05e54f717767458a331f039c177c",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "96b3c2aa2d1df0d92527814193fd1f5703be04c047df789e4e80e9162d0b5d4a",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "9a187ec0fde65109def574b71ce0bed02c5f7e864ee291202fe8bb1328ee370c.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

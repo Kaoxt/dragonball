@@ -1,0 +1,107 @@
+{
+  "bounds": {
+    "card-title": [
+      223.13,
+      44.5,
+      612.741,
+      69.0
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      780.939,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      840.739,
+      1392.65,
+      72.822,
+      33.708
+    ],
+    "rules-line-1": [
+      182.571,
+      1013.53,
+      761.607,
+      44.884
+    ],
+    "rules-line-2": [
+      150.154,
+      1072.53,
+      758.693,
+      45.913
+    ],
+    "rules-line-3": [
+      127.847,
+      1131.53,
+      803.306,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Defense Shield: Stops the first 2 unstopped",
+      "baseline": 1049.3,
+      "width": 831.2187499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "physical attacks against you each Combat,",
+      "baseline": 1108.3,
+      "width": 762.3420000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "or only the first if you declared a Tokui Waza.",
+      "baseline": 1167.3,
+      "width": 806.393,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M23",
+  "id": "movie7-m23-super-saiyan-trunks",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m23-super-saiyan-trunks.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "9ec223fc325f0fa316c64d11eeaa39f6057c5a866a605412611011278e066e46",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m23-super-saiyan-trunks.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e6f9d6a69e1ae1b7ca3e971db3e7918e67c0064ed880715de74c19e1210b4b84",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "11ea77220054680dc8596da6b979cb94bf802799714af85b682d910d1f7f907e",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "f337d1b722ca1fa68b924d9f92d5ca1ccd2ed6a05ee9f41cb0e81f2b7d157b2c.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}
