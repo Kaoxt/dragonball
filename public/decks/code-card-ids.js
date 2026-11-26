@@ -714,5 +714,6 @@ export const codeCardIds = [
   "majin-buu-047-black-secret",
   "majin-buu-048-black-snap-kick",
   "majin-buu-049-black-weakness-drill",
-  "majin-buu-050-blue-devastation"
+  "majin-buu-050-blue-devastation",
+  "babidi-030-saiyan-prepared-smash"
 ];

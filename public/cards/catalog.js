@@ -29910,5 +29910,23 @@ export const catalog = [
     "legality": "not_banned_in_checked_crd",
     "image": "/assets/cards/majin-buu-050-blue-devastation.webp?v=32fe537f119e",
     "downloadImage": "/assets/cards/downloads/majin-buu-050-blue-devastation.webp?v=0f0e5ed371f1"
+  },
+  {
+    "id": "babidi-030-saiyan-prepared-smash",
+    "name": "Saiyan Prepared Smash",
+    "number": "30",
+    "set": "Babidi Saga",
+    "type": "Physical Combat",
+    "style": "Saiyan",
+    "source": "https://dbzexchange.com/products/30-saiyan-prepared-smash",
+    "status": "Ready",
+    "rarity": "Common",
+    "rules": "Endurance X. X = Dragon Balls you control. Physical attack. DAMAGE: AT +4 stages. When performing this attack, you may discard a card to double its base AT damage.",
+    "templateVersion": 3,
+    "crd": "No card-specific erratum found in supplied Expanded CRD.",
+    "width": 1060,
+    "height": 1484,
+    "image": "/assets/cards/babidi-030-saiyan-prepared-smash.webp?v=09fc3d4967f8",
+    "downloadImage": "/assets/cards/downloads/babidi-030-saiyan-prepared-smash.webp?v=75b2a2235e54"
   }
 ];

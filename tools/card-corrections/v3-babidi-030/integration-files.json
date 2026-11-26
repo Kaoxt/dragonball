@@ -1,0 +1,32 @@
+[
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-babidi-030/before/public/cards/catalog.js.gz",
+    "before_sha256": "8a8f47a653c296c3e07e07a152ed92fc4e328258ae0dd98b524584236c9b849e",
+    "after_sha256": "d1859f67d2bdc575fe4452be9492740758186789b5bf7901d7a451a2618a202e"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-babidi-030/before/public/decks/code-card-ids.js.gz",
+    "before_sha256": "7088407083c21d3391b2c956baefb72e699dd606ef8defbba0a8d29aeccfa743",
+    "after_sha256": "de294abd6b86ca344894901f82e98004008119998957da59884c4629b91fe9b9"
+  },
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-babidi-030/before/package.json.gz",
+    "before_sha256": "faae6e3b604e26deb37d1de33b2fac3746c72026f91e05b69967cdca5df79f9a",
+    "after_sha256": "5acf30878db51e14ccefa9507a5aade58d2634da09a3da7559f5b0909357c79e"
+  },
+  {
+    "path": "tests/helpers/pre-majin-buu.js",
+    "before_file": "tools/card-corrections/v3-babidi-030/before/tests/helpers/pre-majin-buu.js.gz",
+    "before_sha256": "5fe000770e3febe7bdb1b94b3e4a1cfd119e96fab68da7493931be16f01d586d",
+    "after_sha256": "70461c18ae70e741ac13a18aba5a9c4df6eb20e377a893272f01441b2727ff0c"
+  },
+  {
+    "path": "tests/card-v3-majin-buu.test.js",
+    "before_file": "tools/card-corrections/v3-babidi-030/before/tests/card-v3-majin-buu.test.js.gz",
+    "before_sha256": "bc0c72a4b3a7c8a819023c191a4ef6c05a0e1cd947bdf4d037772dea7b8652db",
+    "after_sha256": "c959ffd1e6475ba942e2137f91be0b06e2f69f561095e88520ce6393ea9a6cb1"
+  }
+]

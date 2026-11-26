@@ -1,0 +1,187 @@
+{
+  "bounds": {
+    "card-title": [
+      174.09,
+      44.5,
+      710.82,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      795.541,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.34,
+      1392.65,
+      43.619,
+      33.708
+    ],
+    "rules-line-1": [
+      155.998,
+      1015.0,
+      747.005,
+      44.443
+    ],
+    "rules-line-2": [
+      207.379,
+      1072.53,
+      698.789,
+      45.913
+    ],
+    "rules-line-3": [
+      190.603,
+      1131.53,
+      677.794,
+      45.913
+    ],
+    "rules-line-4": [
+      131.693,
+      1190.53,
+      795.613,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance X. X = Dragon Balls you control.",
+      "baseline": 1049.3,
+      "width": 750.729,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: AT +4 stages.",
+      "baseline": 1108.3,
+      "width": 754.9031555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "When performing this attack, you may",
+      "baseline": 1167.3,
+      "width": 679.434,
+      "icon_inline": false
+    },
+    {
+      "text": "discard a card to double its base AT damage.",
+      "baseline": 1226.3,
+      "width": 798.7,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 30,
+  "id": "babidi-030-saiyan-prepared-smash",
+  "status": "ready_user_selected_artwork",
+  "exports": [
+    {
+      "path": "display/babidi-030-saiyan-prepared-smash.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "09fc3d4967f8e93281dfbb96e0e8ad6787b2ca2b964d458d24f54fafd1c424b8",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-030-saiyan-prepared-smash.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "75b2a2235e54ffdc08b7cb233978fdc2b8fc3c3d2adf69062654ad1c2a234137",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "ae6f6c240baf2997acade34ac0610c392e35d51b2fccf5236170cad02c927028",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "babidi-030-selected-artwork-2066x1412.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a",
+  "raster_presence_check": {
+    "category_white_pixels": 5844,
+    "emblem_gold_pixels": 1641
+  },
+  "display_equals_resized_download": true,
+  "download_equals_png": true,
+  "visual_review": "Inspected actual display card: title, category, rules, footer and Saiyan symbol are retained; both fists, face, raised leg and supplied cliffs/speed lines are visible. Current selected artwork retained without additional crop or stretch. Hand is not claimed fixed. Character identity and equivalence to the original closed mouth are not asserted.",
+  "artwork_sha256": "66926aa89adb64a2f3ea0518141df35dc6e446853df90ba8c1c75a22a715c082",
+  "artwork_source_dimensions": [
+    2066,
+    1412
+  ],
+  "artwork_source": {
+    "filename": "2425-upscaled-2066x1412.png",
+    "original_supplied_filename": "2425.png"
+  },
+  "artwork_approval": "User requested making and publishing this card with the supplied upscale after being told the hand was unchanged.",
+  "artwork_placement": {
+    "x": 14,
+    "y": 146,
+    "width": 1033,
+    "height": 706,
+    "preserveAspectRatio": "xMidYMid meet",
+    "aspect_ratio_preserved_during_assembly": true,
+    "additional_crop_pixels": 0
+  },
+  "pending_fidelity": [
+    "Optional center-fist correction could not be applied.",
+    "Supplied teeth-showing expression retained; not claimed to exactly reproduce the original closed mouth."
+  ],
+  "unchanged_frame_checks": [
+    {
+      "size": "display",
+      "artwork_bounds": [
+        11,
+        143,
+        1050,
+        855
+      ],
+      "changed_pixels_outside_artwork": 0,
+      "total_changed_pixels": 735706
+    },
+    {
+      "size": "download",
+      "artwork_bounds": [
+        28,
+        292,
+        2094,
+        1704
+      ],
+      "changed_pixels_outside_artwork": 0,
+      "total_changed_pixels": 2909315
+    }
+  ],
+  "original_source_pixels_retained": true,
+  "upscale_note": "Reused the existing exact-size resized artwork; no new detail or hand repair claimed.",
+  "hand_correction": {
+    "applied": false,
+    "result": "Image editor rejected request at output stage."
+  },
+  "published": false,
+  "png_sha256": "a91711be7750daeea0660b5bcc1822455cf17710ac8740191bb2073b9c9211fb",
+  "native_svg_unchanged": true,
+  "scope": "Only Babidi Saga #30 is included and changed in this focused package.",
+  "crd_check": {
+    "source": "source/Expanded-CRD.txt",
+    "card_specific_match_found": false,
+    "modern_rules_unchanged": true
+  },
+  "fullsize_visual_review": "Inspected 1:1 pixel character/hand and rules/footer crops from the full 2120x2968 PNG, plus the complete 1060x1484 display export. Native lettering remains sharp; face and both fists are as supplied; artwork placement introduces no additional crop."
+}

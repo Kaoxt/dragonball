@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "babidi-030-saiyan-prepared-smash",
+  "set": "Babidi Saga",
+  "set_slug": "babidi-saga",
+  "number": 30,
+  "publication_status": "prepared_for_verified_deployment",
+  "baseline": {
+    "source_commit": "56fb7a02350f5edcc5a721b36ee51ae9e883db61",
+    "catalog_count": 1497,
+    "babidi_count": 99,
+    "code_card_ids_count": 715
+  },
+  "card": {
+    "id": "babidi-030-saiyan-prepared-smash",
+    "name": "Saiyan Prepared Smash",
+    "number": "30",
+    "set": "Babidi Saga",
+    "type": "Physical Combat",
+    "style": "Saiyan",
+    "source": "https://dbzexchange.com/products/30-saiyan-prepared-smash",
+    "status": "Ready",
+    "rarity": "Common",
+    "rules": "Endurance X. X = Dragon Balls you control. Physical attack. DAMAGE: AT +4 stages. When performing this attack, you may discard a card to double its base AT damage.",
+    "templateVersion": 3,
+    "crd": "No card-specific erratum found in supplied Expanded CRD.",
+    "width": 1060,
+    "height": 1484,
+    "image": "/assets/cards/babidi-030-saiyan-prepared-smash.webp?v=09fc3d4967f8",
+    "downloadImage": "/assets/cards/downloads/babidi-030-saiyan-prepared-smash.webp?v=75b2a2235e54"
+  },
+  "native_source": "tools/card-templates/v3/babidi-030/production/masters/babidi-030-saiyan-prepared-smash.svg",
+  "artwork_path": "tools/card-templates/v3/babidi-030/production/assets/babidi-030-selected-artwork-2066x1412.png",
+  "audit": "tools/card-corrections/v3-babidi-030/audit/030.json",
+  "original_scan": "tools/card-corrections/v3-babidi-030/source/scans/030.jpg",
+  "crd_source": "tools/card-corrections/v3-babidi-030/source/Expanded-CRD.txt",
+  "previous_cards_unchanged": true,
+  "permanent_deck_id_appended": true,
+  "scope": "Publishes only previously absent Babidi Saga #30 using the selected artwork. The optional hand correction remains unapplied."
+}
