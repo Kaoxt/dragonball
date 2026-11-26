@@ -1,6 +1,6 @@
 import {cardTypeLabel} from '../public/cards/card-types.js';
 import {catalog} from '../public/cards/catalog.js';
-import {catalogRoute, catalogSets} from '../public/cards/card-links.js';
+import {catalogRoute, catalogSets, browserSets, PROMOTIONAL_SET} from '../public/cards/card-links.js';
 
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 
@@ -17,13 +17,14 @@ export async function cardPage(request, assets) {
   if (!response.ok) return response;
   let html = await response.text();
   const card = route.card;
-  const sets = catalogSets(catalog);
-  const set = sets.find(set => set.name === route.set);
+  const sets = browserSets(catalog);
+  const set = [...sets, ...catalogSets(catalog)].find(set => set.name === route.set);
+  const selectedSet = set?.group === 'promos-subsets' ? PROMOTIONAL_SET : route.set;
   const title = card ? `${card.name} · ${card.set} #${card.number} | Dragon Ball OCG`
     : route.kind === 'missing' ? 'Cards not found | Dragon Ball OCG'
     : `${route.set || 'All cards'} | Dragon Ball OCG`;
   html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHTML(title)}</title>`);
-  html = html.replace('<select id="set"><option value="">All sets</option></select>', `<select id="set"><option value=""${!set?' selected':''}>All sets</option>${sets.map(item => `<option value="${escapeHTML(item.name)}"${item.name===route.set?' selected':''}>${escapeHTML(item.name)}</option>`).join('')}</select>`);
+  html = html.replace('<select id="set"><option value="">All sets</option></select>', `<select id="set"><option value=""${!set?' selected':''}>All sets</option>${sets.map(item => `<option value="${escapeHTML(item.name)}"${item.name===selectedSet?' selected':''}>${escapeHTML(item.name)}</option>`).join('')}</select>`);
   if (set) {
     html = html.replace('id="cards-breadcrumbs" hidden', 'id="cards-breadcrumbs"');
     html = html.replace('id="breadcrumb-current" aria-current="page">All cards', `id="breadcrumb-current" aria-current="page">${escapeHTML(route.set)}`);
@@ -31,6 +32,7 @@ export async function cardPage(request, assets) {
   if (route.kind !== 'missing') {
     const canonical = new URL(route.path, url).href;
     const description = card ? `${card.name}, card #${card.number} from ${card.set}. ${cardTypeLabel(card.type)} · ${card.style}. View and download this Dragon Ball OCG card.`
+      : set?.name === PROMOTIONAL_SET ? `Browse ${set.count} promotional cards by category, including Movie 7, in the Dragon Ball OCG card database.`
       : set ? `Browse ${set.count} ${set.name} cards in the Dragon Ball OCG card database.` : 'Browse Dragon Ball OCG sets and cards, view artwork, and download cards.';
     const image = new URL(card?.image || set?.image || '/assets/dragon-ball-online-logo.webp', url).href;
     html = html.replace('</head>', `<link rel="canonical" href="${escapeHTML(canonical)}"><meta name="description" content="${escapeHTML(description)}"><meta property="og:type" content="website"><meta property="og:title" content="${escapeHTML(title)}"><meta property="og:description" content="${escapeHTML(description)}"><meta property="og:url" content="${escapeHTML(canonical)}"><meta property="og:image" content="${escapeHTML(image)}"><meta property="og:image:alt" content="${escapeHTML(card?.name || route.set || 'Dragon Ball OCG')}"><meta name="twitter:card" content="summary_large_image"></head>`);
@@ -44,3 +46,4 @@ export async function cardPage(request, assets) {
   headers.set('Cache-Control', 'public, max-age=60');
   return new Response(request.method === 'HEAD' ? null : html, {status:route.kind==='missing'?404:200, headers});
 }
+

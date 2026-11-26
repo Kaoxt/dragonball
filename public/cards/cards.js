@@ -1,16 +1,17 @@
 import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute,catalogSets} from './card-links.js?v=20261124-movie7';
+import {cardPath,setPath,catalogRoute,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories} from './card-links.js?v=20261126-promotional-cards';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
-for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
+for(const set of browserSets(catalog)) if(![...$('set').options].some(option=>option.value===set.name))$('set').add(new Option(set.name,set.name));
+for(const key of ['type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
 const PAGE_SIZE=52;
 let activeSet='';
 let currentPage=1;
 function resetFilters(){
- $('filters').reset();$('set').value=activeSet;$('sort').value='name';
+ $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('sort').value='name';
  currentPage=1;
 }
 function browserURL(page=currentPage){
@@ -59,7 +60,7 @@ const collectionBranding = {
  'babidi saga': {image:'/assets/sets/babidi-saga-logo-brushed-gold.png?v=20261125-shadow-border', name:'Babidi Saga', element:'collection-logo-babidi'}
 };
 function renderCollectionBrand(){
- const selected=$('set').value;
+ const selected=activeSet;
  let visibleBrands=0;
  for(const [key,brand] of Object.entries(collectionBranding)){
   const logo=$(brand.element);
@@ -72,11 +73,11 @@ function renderCollectionBrand(){
 }
 function render(){
  renderCollectionBrand();
- renderSubsetLinks();
+ const promotional=activeSet===PROMOTIONAL_SET;
  const query=normalize($('query').value.trim());
- const setCards=catalog.filter(c=>!activeSet||c.set===activeSet);
- const cards=setCards.filter(c=>normalize(`${c.name} ${c.number} ${c.id}`).includes(query)&&['type','style'].every(key=>!$(key).value||c[key]===$(key).value));
- cards.sort((a,b)=>$('sort').value==='number'?a.number.localeCompare(b.number,undefined,{numeric:true}):a.name.localeCompare(b.name));
+ const setCards=catalog.filter(c=>cardInSet(c,activeSet));
+ const cards=setCards.filter(c=>normalize(`${c.name} ${c.number} ${c.id}${promotional?' '+promoCategory(c):''}`).includes(query)&&['type','style'].every(key=>!$(key).value||c[key]===$(key).value));
+ cards.sort((a,b)=>(promotional?comparePromoCategories(a,b):0)||($('sort').value==='number'?a.number.localeCompare(b.number,undefined,{numeric:true}):a.name.localeCompare(b.name)));
  const pageCount=Math.max(1,Math.ceil(cards.length/PAGE_SIZE));
  currentPage=Math.min(currentPage,pageCount);
  const start=(currentPage-1)*PAGE_SIZE;
@@ -84,40 +85,25 @@ function render(){
  $('results-count').textContent=cards.length?`Showing ${start+1}–${Math.min(start+PAGE_SIZE,cards.length)} of ${cards.length}${matching} cards${activeSet?' in '+activeSet:''}`:'0 matching cards';
  renderPagination(pageCount);
  $('no-results').hidden=!!cards.length;
- $('card-grid').replaceChildren(...cards.slice(start,start+PAGE_SIZE).map(c=>{
+ let category='';
+ $('card-grid').replaceChildren(...cards.slice(start,start+PAGE_SIZE).flatMap(c=>{
+  const children=[];
+  if(promotional&&promoCategory(c)!==category){
+   category=promoCategory(c);
+   const heading=document.createElement('h2');heading.className='promo-category-heading';heading.textContent=category;children.push(heading);
+  }
   const button=document.createElement('a');button.className='catalog-card';button.href=cardPath(c);button.setAttribute('aria-label',`View ${c.name}, card ${c.number}`);
   const img=document.createElement('img');img.src=c.image;img.alt=c.name;img.loading='lazy';img.width=c.width||1070;img.height=c.height||1470;
   const art=document.createElement('span');art.className='catalog-card-art'+(['Battleground','Location'].includes(c.type)?' catalog-card-art-sideways':'');art.append(img);
-  const title=document.createElement('h2');title.textContent=c.name;
+  const title=document.createElement(promotional?'h3':'h2');title.textContent=c.name;
   const meta=document.createElement('p');meta.textContent=`#${c.number} · ${cardTypeLabel(c.type)}`;
   button.append(art,title,meta);
   if(c.status==='Preview'){const badge=document.createElement('span');badge.className='preview-tag';badge.textContent='SAIYAN SAGA PREVIEW';button.append(badge);}
   button.onclick=e=>{
    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
    e.preventDefault();history.pushState({dbocgCard:true,cardReturnPath:location.pathname+location.search},'',cardPath(c));openCard(c);
-  };return button;
+  };return [...children,button];
  }));
-}
-function renderSubsetLinks(){
- const subsets=catalogSets(catalog).filter(set=>set.group==='promos-subsets');
- const section=$('promo-subsets-section');
- section.hidden=!!activeSet||!subsets.length;
- $('promo-subsets-list').replaceChildren(...subsets.map(set=>{
-  const link=document.createElement('a');link.className='subset-tile';link.href=set.path;
-  const image=document.createElement('img');image.src=set.image;image.alt='';image.width=120;image.height=100;
-  const copy=document.createElement('span');
-  const title=document.createElement('strong');title.textContent=set.name;
-  const count=document.createElement('span');count.textContent=`${set.count} cards available${set.totalCards>set.count?` · ${set.totalCards-set.count} artwork pending`:''}`;
-  copy.append(title,count);link.append(image,copy);return link;
- }));
- const current=subsets.find(set=>set.name===activeSet);
- const related=subsets.filter(set=>set.parentSet===activeSet);
- const links=$('related-collections');links.hidden=!current&&!related.length;links.replaceChildren();
- const add=(name,path)=>{const link=document.createElement('a');link.textContent=name;link.href=path;links.append(link);};
- if(current){
-  add(`From ${current.parentSet}`,setPath(current.parentSet));
-  if(current.totalCards>current.count){const status=document.createElement('span');status.textContent=`${current.count} of ${current.totalCards} cards available; remaining artwork in progress.`;links.append(status);}
- }else for(const set of related)add(`Related subset: ${set.name}`,set.path);
 }
 function openCard(c){
  document.title=`${c.name} · ${c.set} #${c.number} | Dragon Ball OCG`;
@@ -177,5 +163,6 @@ $('card-detail').addEventListener('click',e=>{if(e.target===$('card-detail')){co
 window.addEventListener('popstate',()=>syncRoute());
 window.addEventListener('pageshow',()=>syncRoute());
 syncRoute();
+
 
 
