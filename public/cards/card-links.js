@@ -12,10 +12,17 @@ const logos = {
   'cell-games-saga':'/assets/sets/cell-games-saga-logo-brushed-green.webp?v=20261104-cell-games-banner',
   'world-games-saga':'/assets/sets/world-games-saga-logo-brushed-blue-spaced.svg?v=20261107-world-games-spaced'
 };
+// Subsets have their own numbering and URLs, while retaining their parent saga.
+export const subsetCollections = {
+  'Movie 7: Super Android 13': {
+    group: 'promos-subsets', parentSet: 'Babidi Saga', totalCards: 34,
+    image: '/assets/sets/movie-7-emblem.svg?v=20261124'
+  }
+};
 export function catalogSets(catalog) {
   const sets = new Map();
   for (const card of catalog) {
-    if (!sets.has(card.set)) sets.set(card.set, {name:card.set, slug:setSlug(card.set), path:setPath(card.set), image:logos[setSlug(card.set)] || '', count:0});
+    if (!sets.has(card.set)) sets.set(card.set, {name:card.set, slug:setSlug(card.set), path:setPath(card.set), image:logos[setSlug(card.set)] || '', group:'saga', ...subsetCollections[card.set], count:0});
     sets.get(card.set).count++;
   }
   return [...sets.values()];
