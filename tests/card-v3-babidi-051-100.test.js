@@ -2,19 +2,42 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
-import {catalog} from '../public/cards/catalog.js';
+import {catalog as liveCatalog} from '../public/cards/catalog.js';
 import {cardPath, catalogRoute} from '../public/cards/card-links.js';
-import {codeCardIds} from '../public/decks/code-card-ids.js';
+import {codeCardIds as liveIds} from '../public/decks/code-card-ids.js';
 import {createDeck, snapshot} from '../public/decks/store.js';
 import {encodeDeck, decodeDeck} from '../public/decks/deck-code.js';
 import {act, newGame, addPlayer} from '../public/game.js';
 import {powerChart} from '../public/personality-power.js';
-import {firstBabidiCatalog, firstBabidiIds} from './helpers/pre-babidi.js';
+import {firstBabidiCatalog, firstBabidiIds, secondBabidiCatalog as catalog, secondBabidiIds as codeCardIds} from './helpers/pre-babidi.js';
 import release from '../tools/card-corrections/v3-babidi-051-100/release-manifest.json' with {type:'json'};
 import checksums from '../tools/card-corrections/v3-babidi-051-100/checksums.json' with {type:'json'};
+import auraBlastRelease from '../tools/card-corrections/v3-babidi-089/release-manifest.json' with {type:'json'};
+import auraBlastChecksums from '../tools/card-corrections/v3-babidi-089/sha256-manifest.json' with {type:'json'};
 
 const added = catalog.slice(firstBabidiCatalog.length);
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
+
+test('Saiyan Aura Blast fills #089 and appends one permanent deck ID', () => {
+  const [original] = auraBlastRelease;
+  const card = catalogRoute('/cards/babidi-saga/089', liveCatalog).card;
+  assert.deepEqual(liveCatalog, [...catalog, card]);
+  assert.deepEqual(liveIds, [...codeCardIds, original.id]);
+  assert.equal(card.id, original.id);
+  assert.equal(card.rules, original.modern_rules);
+  assert.deepEqual([card.name, card.type, card.style, card.rarity], [original.name, 'Energy Combat', original.style, 'Uncommon']);
+  assert.equal(cardPath(card), '/cards/babidi-saga/089');
+  for (const [field, source] of [['image', original.display_image], ['downloadImage', original.download_image]]) {
+    const [pathname, version] = card[field].split('?v=');
+    assert.equal(version, auraBlastChecksums[source].slice(0, 12));
+    assert.equal(sha256(readFileSync('public' + pathname)), auraBlastChecksums[source]);
+  }
+  for (const [path, digest] of Object.entries(auraBlastChecksums)) {
+    if (path.startsWith('production/masters/') || path.startsWith('production/assets/')) {
+      assert.equal(sha256(readFileSync('tools/card-templates/v3/babidi-051-100/' + path.slice('production/'.length))), digest, path);
+    }
+  }
+});
 
 test('the second Babidi release appends exactly the 49 ready cards and their permanent deck IDs', () => {
   const ids = release.map(card => card.id);

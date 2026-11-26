@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      264.34,
+      44.5,
+      530.319,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      795.435,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.234,
+      1392.65,
+      43.831,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      198.799,
+      1072.53,
+      661.402,
+      45.521
+    ],
+    "rules-line-3": [
+      162.25,
+      1131.53,
+      734.5,
+      45.913
+    ],
+    "rules-line-4": [
+      187.676,
+      1190.53,
+      683.648,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. You may banish",
+      "baseline": 1108.3,
+      "width": 665.224,
+      "icon_inline": false
+    },
+    {
+      "text": "“Saiyan Energy Throw” from your discard",
+      "baseline": 1167.3,
+      "width": 736.568,
+      "icon_inline": false
+    },
+    {
+      "text": "pile to draw a card and deal +4 stages.",
+      "baseline": 1226.3,
+      "width": 687.225,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 89,
+  "id": "babidi-089-saiyan-aura-blast",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-089-saiyan-aura-blast.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "7f07de3b78883c3bc8bb2326c5ecc3cfae96c1bd8265975e6f130408888b595f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-089-saiyan-aura-blast.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "8cd80e027fca758d2ea2c29515542fdfd27e7b110f31b9caa604f6c6d750d450",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "7b6865db21885d933cbe133a6617ad4a934b99df98a9480ffc5d98d1e73200ea",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-089.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}
