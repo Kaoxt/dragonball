@@ -21,9 +21,9 @@ function browser(path='/cards/') {
     focus(){this.focused=true;} select(){this.selected=true;} scrollIntoView(){}
   }
   const elements=Object.fromEntries([...html.matchAll(/id="([^"]+)"/g)].map(match=>[match[1],new Element()]));
-  for(const key of ['set','type','style'])elements[key].options=[{value:''}];
+  for(const key of ['set','subset','type','style'])elements[key].options=[{value:''}];
   elements.sort.options=[{value:'name'},{value:'number'}];elements.sort.value='name';
-  elements.filters.reset=()=>{for(const key of ['query','set','type','style'])elements[key].value='';};
+  elements.filters.reset=()=>{for(const key of ['query','set','subset','type','style'])elements[key].value='';};
   const events={},location={origin:'https://dragonballocg.com',assign(value){this.assigned=value;}};
   const setLocation=path=>{const url=new URL(path,location.origin);location.pathname=url.pathname;location.search=url.search;};
   setLocation(path);
@@ -99,6 +99,57 @@ test('promo category search, filters, pagination, card close and browser history
  b.history.back();assert.equal(b.location.search,'');
  b.elements.query.value='no such promotional card';b.elements.query.oninput();
  assert.equal(grid(b).length,0);assert.equal(b.elements['no-results'].hidden,false);
+});
+
+test('Subset chooser filters promotional categories and preserves selections through card history and refresh',()=>{
+ const b=browser('/cards/promotional-cards/?page=3&sort=number');
+ assert.equal(b.elements['subset-field'].hidden,false);
+ assert.equal(b.elements.subset.disabled,false);
+ assert.equal(b.elements.subset.options.length,12);
+ assert.equal(b.elements.subset.options[1].text,'Movie 7');
+ b.elements.subset.value='Movie 7';b.elements.subset.onchange();
+ assert.equal(b.elements['results-count'].textContent,'Showing 1–34 of 34 cards in Promotional Cards');
+ assert.equal(b.elements['pagination-top'].hidden,true);
+ assert.equal(grid(b)[0].textContent,'Movie 7');
+ assert.ok(grid(b).slice(1).every(el=>el.href.startsWith('/cards/movie-7-super-android-13/')));
+ const url=b.location.pathname+b.location.search;
+ assert.equal(new URL(url,'https://dragonballocg.com').searchParams.get('subset'),'Movie 7');
+ assert.ok(!b.location.search.includes('page='));
+ const refreshed=browser(url);
+ assert.equal(refreshed.elements.subset.value,'Movie 7');
+ assert.deepEqual(grid(refreshed).slice(1).map(el=>el.href),grid(b).slice(1).map(el=>el.href));
+ b.click(grid(b)[1]);b.elements['close-detail'].onclick();
+ assert.equal(b.elements.subset.value,'Movie 7');
+ assert.equal(b.location.pathname+b.location.search,url);
+ b.elements.type.value='Main Personality';b.elements.type.onchange();
+ assert.ok(grid(b).length>1&&grid(b).length<35);
+ assert.ok(grid(b).slice(1).every(el=>el.children[2].textContent.endsWith(' · Personality')));
+ b.elements.clear.onclick();
+ assert.equal(b.elements.subset.value,'');
+ assert.equal(b.location.pathname,'/cards/promotional-cards/');
+ assert.equal(b.location.search,'');
+ assert.equal(grid(b).filter(el=>el.className==='catalog-card').length,52);
+});
+
+test('every promo subset is selectable, and stale subset parameters cannot hide ordinary set cards',()=>{
+ const expected={'Movie 7':34,'Android Saga Promos':11,'Babidi Saga Previews':7,'Cell Games Saga Previews':6,'Cell Games Saga Promos':10,'Cell Saga Promos':10,'Frieza Saga Promos':11,'Saiyan Saga Promos':7,'Trunks Saga Promos':10,'World Games Saga Previews':7,'World Games Saga Promos':10};
+ for(const [category,count] of Object.entries(expected)){
+  const b=browser('/cards/promotional-cards/?subset='+encodeURIComponent(category));
+  assert.equal(b.elements.subset.value,category);
+  assert.equal(grid(b)[0].textContent,category);
+  assert.equal(grid(b).length,count+1);
+ }
+ const invalid=browser('/cards/promotional-cards/?subset=Missing');
+ assert.equal(invalid.elements.subset.value,'');
+ assert.equal(invalid.location.search,'');
+ for(const path of ['/cards/','/cards/saiyan-saga/']){
+  const b=browser(path+'?subset=Movie+7');
+  assert.equal(b.elements['subset-field'].hidden,true);
+  assert.equal(b.elements.subset.disabled,true);
+  assert.equal(b.elements.subset.value,'');
+  assert.equal(b.location.search,'');
+  assert.equal(grid(b).length,52);
+ }
 });
 
 test('existing Movie 7 set, card, and download links remain usable',()=>{
