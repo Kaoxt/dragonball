@@ -7,10 +7,12 @@ import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
 import firstRelease from '../../tools/card-corrections/v3-babidi-001-050/integration-files.json' with {type:'json'};
 import secondRelease from '../../tools/card-corrections/v3-babidi-051-100/integration-files.json' with {type:'json'};
+import auraBlastRelease from '../../tools/card-corrections/v3-babidi-089/integration-files.json' with {type:'json'};
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const first = new Map(firstRelease.map(row => [row.path, row]));
 const second = new Map(secondRelease.map(row => [row.path, row]));
+const auraBlast = new Map(auraBlastRelease.map(row => [row.path, row]));
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 
 function restore(current, revision) {
@@ -21,8 +23,12 @@ function restore(current, revision) {
   return previous;
 }
 
+function secondReleaseFile(absolute) {
+  return restore(readFileSync(absolute), auraBlast.get(path.relative(root, absolute)));
+}
+
 function firstReleaseFile(absolute) {
-  return restore(readFileSync(absolute), second.get(path.relative(root, absolute)));
+  return restore(secondReleaseFile(absolute), second.get(path.relative(root, absolute)));
 }
 
 export function beforeBabidiFile(file) {
@@ -39,3 +45,5 @@ export const catalog = readArray('public/cards/catalog.js', beforeBabidiFile);
 export const codeCardIds = readArray('public/decks/code-card-ids.js', beforeBabidiFile);
 export const firstBabidiCatalog = readArray('public/cards/catalog.js', firstReleaseFile);
 export const firstBabidiIds = readArray('public/decks/code-card-ids.js', firstReleaseFile);
+export const secondBabidiCatalog = readArray('public/cards/catalog.js', secondReleaseFile);
+export const secondBabidiIds = readArray('public/decks/code-card-ids.js', secondReleaseFile);

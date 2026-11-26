@@ -630,5 +630,6 @@ export const codeCardIds = [
   "babidi-097-daughters-joy",
   "babidi-098-gohan-energized",
   "babidi-099-goku-the-legendary",
-  "babidi-100-hercules-close-save"
+  "babidi-100-hercules-close-save",
+  "babidi-089-saiyan-aura-blast"
 ];
