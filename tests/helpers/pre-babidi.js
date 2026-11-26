@@ -5,6 +5,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
+import {beforeMovie7File} from './pre-movie7.js';
 import firstRelease from '../../tools/card-corrections/v3-babidi-001-050/integration-files.json' with {type:'json'};
 import secondRelease from '../../tools/card-corrections/v3-babidi-051-100/integration-files.json' with {type:'json'};
 import auraBlastRelease from '../../tools/card-corrections/v3-babidi-089/integration-files.json' with {type:'json'};
@@ -24,7 +25,7 @@ function restore(current, revision) {
 }
 
 function secondReleaseFile(absolute) {
-  return restore(readFileSync(absolute), auraBlast.get(path.relative(root, absolute)));
+  return restore(beforeMovie7File(absolute), auraBlast.get(path.relative(root, absolute)));
 }
 
 function firstReleaseFile(absolute) {

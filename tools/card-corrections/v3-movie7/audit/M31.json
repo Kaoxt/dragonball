@@ -1,0 +1,104 @@
+{
+  "bounds": {
+    "card-title": [
+      243.434,
+      44.5,
+      572.132,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      784.384,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      844.184,
+      1392.65,
+      65.932,
+      33.708
+    ],
+    "rules-line-1": [
+      147.913,
+      1013.53,
+      763.175,
+      45.521
+    ],
+    "rules-line-2": [
+      161.657,
+      1072.53,
+      735.686,
+      45.913
+    ],
+    "rules-line-3": [
+      125.642,
+      1131.53,
+      807.716,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Android 19 only. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 765.4009473684212,
+      "icon_inline": true
+    },
+    {
+      "text": "Search your Life Deck for an Orange Style",
+      "baseline": 1108.3,
+      "width": 738.332,
+      "icon_inline": false
+    },
+    {
+      "text": "card and put it in your hand. Banish after use.",
+      "baseline": 1167.3,
+      "width": 810.8030000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M31",
+  "id": "movie7-m31-android-19-s-dodge",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m31-android-19-s-dodge.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5daa780dd36cffbb6109c57c4d37809cfdb0b5f9c883aef83592b64465c7c326",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m31-android-19-s-dodge.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3ba46f13e70093fd8baef0d18be540b84fe145418a5cb7eb2ee06075c58f56ac",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "5e0cf4fd76d3f71d648d22b789ff261718ea4172b4e13f356a074caf3367f864",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "a3098c2a24e63edbf2aeb15cd4716e74c22f579f89067e25891454bde6dc42a1.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

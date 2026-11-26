@@ -1,0 +1,104 @@
+{
+  "bounds": {
+    "card-title": [
+      201.492,
+      50.2213,
+      656.016,
+      57.5574
+    ],
+    "card-category": [
+      448.339,
+      891.991,
+      162.322,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      788.121,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.921,
+      1392.65,
+      58.459,
+      33.708
+    ],
+    "rules-line-1": [
+      218.818,
+      1015.0,
+      687.937,
+      44.051
+    ],
+    "rules-line-2": [
+      106.385,
+      1072.53,
+      846.23,
+      45.521
+    ],
+    "rules-line-3": [
+      231.213,
+      1131.53,
+      596.575,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Whenever you stop an attack, you may",
+      "baseline": 1049.3,
+      "width": 755.17075,
+      "icon_inline": true
+    },
+    {
+      "text": "shuffle your bottom discard into your Life Deck.",
+      "baseline": 1108.3,
+      "width": 848.9739999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "If it is Goku Named, gain 3 stages.",
+      "baseline": 1167.3,
+      "width": 600.299,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M11",
+  "id": "movie7-m11-goku-s-defensive-drill",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m11-goku-s-defensive-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "bee5bf4c7e186eb27574fe5bc1c0d4c3edd99759f8bc6fedaa66c3a030b3b88a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m11-goku-s-defensive-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "edd528af7876361f5b835e60638092f9cbb241560c13664e81bd10d0c177f252",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "e2e5fd204c61c48d9ac3ca48bd1979820610644e32b8b0369f812dcbec7fb280",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "1ad76a350acf038fa104d6f716fce1d913177d27875d12811864668751459eae.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

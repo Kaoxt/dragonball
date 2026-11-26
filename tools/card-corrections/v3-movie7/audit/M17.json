@@ -1,0 +1,116 @@
+{
+  "bounds": {
+    "card-title": [
+      212.676,
+      44.5,
+      633.647,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      784.888,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      844.687,
+      1392.65,
+      64.925,
+      33.708
+    ],
+    "rules-line-1": [
+      168.311,
+      1013.53,
+      722.378,
+      45.521
+    ],
+    "rules-line-2": [
+      152.175,
+      1072.53,
+      754.649,
+      45.913
+    ],
+    "rules-line-3": [
+      165.381,
+      1131.53,
+      728.238,
+      45.913
+    ],
+    "rules-line-4": [
+      160.579,
+      1189.11,
+      737.842,
+      46.942
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Use when you attack. Raise your",
+      "baseline": 1049.3,
+      "width": 724.857,
+      "icon_inline": false
+    },
+    {
+      "text": "MP to their highest stage. Your next attack",
+      "baseline": 1108.3,
+      "width": 757.638,
+      "icon_inline": false
+    },
+    {
+      "text": "does +X stages, where X is stages gained",
+      "baseline": 1167.3,
+      "width": 731.6190000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "this way (maximum +5). Banish after use.",
+      "baseline": 1226.3,
+      "width": 740.047,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M17",
+  "id": "movie7-m17-saiyan-power-stance",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m17-saiyan-power-stance.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "cdf03be6520ed5447b56daa2f4dbd0555aae3c4bb2e174831fbcc6b928c5f52c",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m17-saiyan-power-stance.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "04404cf5435f560b0f4ea1998e241cf4ed125cfdad2ce1eaebe367bb1d94fad0",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "95e8b5fa22053f4743d8ba11a644a5a13396159c8b1ca4a4c39733a61fde52ce",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "7f18dd9c8768395af829437c047c8302f0e17219fcec2f373029072229e8ab3e.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

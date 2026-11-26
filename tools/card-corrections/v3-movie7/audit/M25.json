@@ -1,0 +1,128 @@
+{
+  "bounds": {
+    "card-title": [
+      192.157,
+      44.5,
+      674.686,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      780.356,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      840.156,
+      1392.65,
+      73.988,
+      33.708
+    ],
+    "rules-line-1": [
+      216.472,
+      1013.53,
+      626.056,
+      45.521
+    ],
+    "rules-line-2": [
+      133.163,
+      1073.61,
+      792.673,
+      44.835
+    ],
+    "rules-line-3": [
+      200.097,
+      1131.53,
+      658.805,
+      45.521
+    ],
+    "rules-line-4": [
+      174.103,
+      1190.53,
+      710.794,
+      45.521
+    ],
+    "rules-line-5": [
+      176.406,
+      1249.53,
+      706.188,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Android 18 only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 628.2821555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +5 stages. If you have a Defense",
+      "baseline": 1108.3,
+      "width": 796.152,
+      "icon_inline": false
+    },
+    {
+      "text": "Shield in play and none of yours were",
+      "baseline": 1167.3,
+      "width": 661.451,
+      "icon_inline": false
+    },
+    {
+      "text": "used this Combat, this stays in play for 1",
+      "baseline": 1226.3,
+      "width": 714.2239999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "more use this Combat. Banish after use.",
+      "baseline": 1285.3,
+      "width": 709.569,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M25",
+  "id": "movie7-m25-android-18-s-drop-kick",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m25-android-18-s-drop-kick.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a57e225f573e4075028936ca697284a59270c829e5e92cf2c3b27286d5c5377a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m25-android-18-s-drop-kick.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e470f5d64dac1c437cb605e56ac0f8dcf2e5244d5ea053de78731b4f1ab20161",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4e246b026987793afdb375c9b1f6aa7a49a885900ef380b31e9be8aa7221e26f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "6e4dd50b3ab585520aa950a49f2d83d08b368d8b18155e2a9436dc462be70ee4.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

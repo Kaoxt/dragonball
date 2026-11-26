@@ -1,0 +1,104 @@
+{
+  "bounds": {
+    "card-title": [
+      180.284,
+      44.5,
+      698.431,
+      69.0
+    ],
+    "card-category": [
+      448.339,
+      891.991,
+      162.322,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      779.296,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      839.096,
+      1392.65,
+      76.108,
+      33.708
+    ],
+    "rules-line-1": [
+      329.001,
+      1013.53,
+      467.767,
+      36.162
+    ],
+    "rules-line-2": [
+      293.491,
+      1072.53,
+      472.017,
+      36.162
+    ],
+    "rules-line-3": [
+      177.974,
+      1131.53,
+      703.052,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your attacks with \"Sword\"",
+      "baseline": 1049.3,
+      "width": 535.30775,
+      "icon_inline": true
+    },
+    {
+      "text": "in the title do +2 life cards.",
+      "baseline": 1108.3,
+      "width": 475.05500000000006,
+      "icon_inline": false
+    },
+    {
+      "text": "If you have Trunks in play, his PUR is +1.",
+      "baseline": 1167.3,
+      "width": 706.776,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M24",
+  "id": "movie7-m24-trunks-swordplay-drill",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m24-trunks-swordplay-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1b491b80aa5af30aa2feb3c99c40e34d5a207ea8608966a995c08bd4b38a061d",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m24-trunks-swordplay-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "52b8e37e425e72ebe033e0b4f4eb235b0c49d42063468b877c14efbb745a20b6",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "f134fdce3f3ec01e189a67ccef1d7845867a546508eb6d20176df0c8b64a3d2c",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "c85718ea1b58027cba5f93922bba54572cdbb4c9ce8820bfe488cf49e2b2d914.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

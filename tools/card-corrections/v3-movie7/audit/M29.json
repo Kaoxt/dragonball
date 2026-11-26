@@ -1,0 +1,128 @@
+{
+  "bounds": {
+    "card-title": [
+      261.63,
+      44.5,
+      535.739,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      780.462,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      840.262,
+      1392.65,
+      73.776,
+      33.708
+    ],
+    "rules-line-1": [
+      184.809,
+      1013.53,
+      689.381,
+      45.521
+    ],
+    "rules-line-2": [
+      189.709,
+      1072.53,
+      679.581,
+      45.521
+    ],
+    "rules-line-3": [
+      172.118,
+      1131.53,
+      714.763,
+      45.913
+    ],
+    "rules-line-4": [
+      150.73,
+      1190.53,
+      757.54,
+      45.521
+    ],
+    "rules-line-5": [
+      177.705,
+      1249.53,
+      703.591,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: If your MP is \"Android\", choose",
+      "baseline": 1049.3,
+      "width": 692.811,
+      "icon_inline": false
+    },
+    {
+      "text": "your \"Android\" Ally; it may control this",
+      "baseline": 1108.3,
+      "width": 681.051,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat even if your MP is above 1 stage.",
+      "baseline": 1167.3,
+      "width": 717.9970000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "You may put an \"Android\" personality from",
+      "baseline": 1226.3,
+      "width": 760.3820000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your banished pile into play at 3 stages.",
+      "baseline": 1285.3,
+      "width": 705.7959999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M29",
+  "id": "movie7-m29-android-tag-team",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m29-android-tag-team.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "219f4cd4831780bc2d8eb7a200b5cbcfc8dbb568efd3e73b2793ba16b4df9eea",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m29-android-tag-team.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "7f7693f657e9a23ebf6fb75e8b8f0b0514a9daca464b8b790adaf75410c6c749",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "47776960fc877ba73a3cb4a3246c7ec5e7b140fbe547a08a64de4309cebb6dce",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "d8422fb83d4125a4c02aa860a47cfd91a6f5b4f427b284b6d2db7cc0b3bed544.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

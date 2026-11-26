@@ -1,6 +1,6 @@
 import {cardTypeLabel} from './card-types.js';
 import {catalog} from './catalog.js';
-import {cardPath,setPath,catalogRoute} from './card-links.js?v=20261107-world-games-spaced';
+import {cardPath,setPath,catalogRoute,catalogSets} from './card-links.js?v=20261124-movie7';
 const $=id=>document.getElementById(id);
 const normalize=value=>value.toLocaleLowerCase().replace(/[’']/g,'');
 for(const key of ['set','type','style']) for(const value of [...new Set(catalog.map(c=>c[key]))].sort()) if(![...$(key).options].some(option=>option.value===value))$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));
@@ -72,6 +72,7 @@ function renderCollectionBrand(){
 }
 function render(){
  renderCollectionBrand();
+ renderSubsetLinks();
  const query=normalize($('query').value.trim());
  const setCards=catalog.filter(c=>!activeSet||c.set===activeSet);
  const cards=setCards.filter(c=>normalize(`${c.name} ${c.number} ${c.id}`).includes(query)&&['type','style'].every(key=>!$(key).value||c[key]===$(key).value));
@@ -96,6 +97,27 @@ function render(){
    e.preventDefault();history.pushState({dbocgCard:true,cardReturnPath:location.pathname+location.search},'',cardPath(c));openCard(c);
   };return button;
  }));
+}
+function renderSubsetLinks(){
+ const subsets=catalogSets(catalog).filter(set=>set.group==='promos-subsets');
+ const section=$('promo-subsets-section');
+ section.hidden=!!activeSet||!subsets.length;
+ $('promo-subsets-list').replaceChildren(...subsets.map(set=>{
+  const link=document.createElement('a');link.className='subset-tile';link.href=set.path;
+  const image=document.createElement('img');image.src=set.image;image.alt='';image.width=120;image.height=100;
+  const copy=document.createElement('span');
+  const title=document.createElement('strong');title.textContent=set.name;
+  const count=document.createElement('span');count.textContent=`${set.count} cards available${set.totalCards>set.count?` · ${set.totalCards-set.count} artwork pending`:''}`;
+  copy.append(title,count);link.append(image,copy);return link;
+ }));
+ const current=subsets.find(set=>set.name===activeSet);
+ const related=subsets.filter(set=>set.parentSet===activeSet);
+ const links=$('related-collections');links.hidden=!current&&!related.length;links.replaceChildren();
+ const add=(name,path)=>{const link=document.createElement('a');link.textContent=name;link.href=path;links.append(link);};
+ if(current){
+  add(`From ${current.parentSet}`,setPath(current.parentSet));
+  if(current.totalCards>current.count){const status=document.createElement('span');status.textContent=`${current.count} of ${current.totalCards} cards available; remaining artwork in progress.`;links.append(status);}
+ }else for(const set of related)add(`Related subset: ${set.name}`,set.path);
 }
 function openCard(c){
  document.title=`${c.name} · ${c.set} #${c.number} | Dragon Ball OCG`;

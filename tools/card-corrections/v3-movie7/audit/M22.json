@@ -1,0 +1,104 @@
+{
+  "bounds": {
+    "card-title": [
+      254.231,
+      50.2213,
+      550.537,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      781.019,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      840.819,
+      1392.65,
+      72.663,
+      33.708
+    ],
+    "rules-line-1": [
+      128.261,
+      1013.53,
+      802.477,
+      45.521
+    ],
+    "rules-line-2": [
+      104.67,
+      1072.53,
+      849.66,
+      45.913
+    ],
+    "rules-line-3": [
+      104.401,
+      1131.53,
+      850.199,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck. Heroes only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 805.3681555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages and +2 life cards; against",
+      "baseline": 1108.3,
+      "width": 852.747,
+      "icon_inline": false
+    },
+    {
+      "text": "a Villain, AT +4 stages and +4 life cards instead.",
+      "baseline": 1167.3,
+      "width": 852.894,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M22",
+  "id": "movie7-m22-heroic-final-strike",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m22-heroic-final-strike.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "674636a9d82a36f93986b085f3eba691b1cbab3dc8a6bc6953fa38b1318a5405",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m22-heroic-final-strike.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "f46815a5803f15362ea9d3fbde223a618bb1c1feb1e72ae712bd64be92bb3fdd",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "45a3c270f0e07de00057e1ecf5270d3e7a88f56417ced541e29666a4abfc6117",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "c855390903796674e48edecc372dfec38bd5bdbbb0439e8a00a1072216f43f64.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

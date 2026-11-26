@@ -1,0 +1,116 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      50.1483,
+      760.0,
+      57.7033
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      791.46,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.259,
+      1392.65,
+      51.781,
+      33.708
+    ],
+    "rules-line-1": [
+      208.506,
+      1013.53,
+      696.535,
+      45.913
+    ],
+    "rules-line-2": [
+      189.384,
+      1072.53,
+      680.231,
+      45.521
+    ],
+    "rules-line-3": [
+      209.775,
+      1131.53,
+      639.45,
+      44.884
+    ],
+    "rules-line-4": [
+      202.474,
+      1190.53,
+      654.052,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +2 stages.",
+      "baseline": 1049.3,
+      "width": 752.6491555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "If all your cards in play have \"Android\"",
+      "baseline": 1108.3,
+      "width": 683.1580000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "in the title, deal +1 life card per such",
+      "baseline": 1167.3,
+      "width": 642.586,
+      "icon_inline": false
+    },
+    {
+      "text": "card in play. Raise your anger 1 level.",
+      "baseline": 1226.3,
+      "width": 657.1390000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M9",
+  "id": "movie7-m09-super-android-13-s-ridge-hand",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m09-super-android-13-s-ridge-hand.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "39a4dbcfb880023d387b433277479f16842a2e3fe5e7f262e8e1eaa17860b85f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m09-super-android-13-s-ridge-hand.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "0d5980f5e353419e56052cad5052b3cf3ee21a7b4350d3b15f4f712032930a15",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a4f3339d43118e8a3bf63e7f604fadf15b4f8ab36a2b172d141605ffcda2ba72",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "2ec0085b4f75b5e6f83a731a55ca9bf748f00829cbb96aafad01b9ec4b7d35d3.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}

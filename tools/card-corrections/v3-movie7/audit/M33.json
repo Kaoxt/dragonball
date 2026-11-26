@@ -1,0 +1,128 @@
+{
+  "bounds": {
+    "card-title": [
+      404.878,
+      44.5,
+      249.243,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      168.7,
+      1373.45,
+      86.1,
+      72.0998
+    ],
+    "footer-rarity": [
+      780.515,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      840.315,
+      1392.65,
+      73.67,
+      33.708
+    ],
+    "rules-line-1": [
+      415.653,
+      1013.53,
+      282.24,
+      45.521
+    ],
+    "rules-line-2": [
+      240.326,
+      1072.53,
+      578.347,
+      45.913
+    ],
+    "rules-line-3": [
+      174.678,
+      1131.53,
+      709.644,
+      45.913
+    ],
+    "rules-line-4": [
+      167.072,
+      1190.53,
+      724.857,
+      45.913
+    ],
+    "rules-line-5": [
+      103.714,
+      1249.53,
+      851.571,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack.",
+      "baseline": 1049.3,
+      "width": 338.35415554385935,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +5 life cards.",
+      "baseline": 1108.3,
+      "width": 582.0710000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower opposing anger 2 levels. You may",
+      "baseline": 1167.3,
+      "width": 712.46,
+      "icon_inline": false
+    },
+    {
+      "text": "discard a non-attacking \"Android\" Ally to",
+      "baseline": 1226.3,
+      "width": 727.846,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +2 life cards and make this attack focused.",
+      "baseline": 1285.3,
+      "width": 854.6580000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "M33",
+  "id": "movie7-m33-betrayal",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/movie7-m33-betrayal.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "455c0fe5442d56a3ca76170cec7bf2d8df1c9a2bf8622299a54dbb19bdab742a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/movie7-m33-betrayal.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "d24c20a445654c3c1a0418eb5310c58539bdf7790325ef12f8f03962b3eb8e1d",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "d50a0cd30ee75ee7e089cd6f1f22acad04bf24bc1ff2b6ecbdca11970f955f47",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "706d7b53602c7c113fbfb2a37a429da766c0b3ab094793cd2cc56e48d17e71ad.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png"
+  ],
+  "native_movie7_emblem": true
+}
