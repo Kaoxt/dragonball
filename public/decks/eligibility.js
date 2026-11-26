@@ -8,7 +8,7 @@ export const HI_TECH_ALLY_ERROR = 'Hi-Tech Personality cards cannot be used as A
 export function isHiTechPersonality(card) {
   // Saved snapshots and arena exports may omit rarity or contain stale type data.
   const current = byId.get(card?.id) || card;
-  return isPersonality(current) && (/hi(?:gh)?[\s-]?tech/i.test(current.rarity || '') || /(?:^|-)ht(?:-|$)/i.test(current.id || ''));
+  return isPersonality(current) && (!!current.gtHiTech || /hi(?:gh)?[\s-]?tech/i.test(current.rarity || '') || /(?:^|-)ht(?:-|$)/i.test(current.id || ''));
 }
 export const blocksHiTechAlly = (card, destination) => allyZones.includes(destination) && isHiTechPersonality(card);
 export function hiTechAllies(deck) {

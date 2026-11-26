@@ -588,3 +588,18 @@ test('account saves reject new Hi-Tech Allies while existing invalid decks remai
  deck.cards=[];assert.equal((await save([deck,other])).status,200);
  assert.equal((await call()).data.data.decks[0].cards.length,0);
 });
+
+test('GT Backer survives account and public saves; forged fields and invalid selections never persist',async()=>{
+ const {gtFixture}=await import('./support/gt-backer-fixture.js');
+ const {createBackerSystem}=await import('../public/cards/gt-backers.js');
+ const f=await fixture(),gt=gtFixture(),backers=createBackerSystem(gt.catalog);await f.register('gtplayer');
+ const call=async(body,share)=>{const response=await decksRequest(new Request('https://dragonball.test/api/decks'+(share?'?share='+share:''),{method:body?'POST':'GET',headers:{Cookie:share?'':f.cookies.gtplayer,Origin:'https://dragonball.test','Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{})}),f.env,{backers});return {status:response.status,data:await response.json()};};
+ const owner=(await call()).data;
+ gt.deck.backer={id:gt.backer.id,name:'Forged name',image:'javascript:alert(1)',gtBacker:{pur:99}};
+ const payload={userId:owner.userId,version:0,data:{decks:[gt.deck],active:gt.deck.id}};
+ const saved=await call(payload);assert.equal(saved.status,200,JSON.stringify(saved));
+ const stored=(await call()).data.data.decks[0];assert.equal(stored.backer.name,gt.backer.name);assert.equal(stored.backer.image,gt.backer.image);assert.equal(stored.backer.gtBacker,undefined);
+ const shared=await call(null,saved.data.shares[gt.deck.id]);assert.deepEqual(shared.data.deck.backer,stored.backer);
+ payload.version=1;gt.deck.backer.id='unknown';assert.equal((await call(payload)).status,400);assert.equal((await call()).data.version,1);
+ gt.deck.backer=null;assert.equal((await call(payload)).status,200); // Incomplete drafts remain editable.
+});

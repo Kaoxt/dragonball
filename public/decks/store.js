@@ -1,9 +1,10 @@
+import {gtBackers} from '../cards/gt-backers.js';
 import {isPersonality} from '../cards/card-types.js';
 import {deckAdditionError} from './eligibility.js';
 
 export const STORAGE_KEY = 'score-builder-v1';
 export function createDeck() {
-  return {id: crypto.randomUUID(), name: 'Untitled deck', visibility: 'private', tokui: '', personalities: [null,null,null,null,null], mastery: null, sensei: null, cards: [], senseiDeck: []};
+  return {id: crypto.randomUUID(), name: 'Untitled deck', visibility: 'private', tokui: '', personalities: [null,null,null,null,null], mastery: null, sensei: null, backer: null, cards: [], senseiDeck: []};
 }
 export function readDecks() {
   const raw = localStorage.getItem(STORAGE_KEY);
@@ -18,7 +19,7 @@ export function snapshot(card) {
 export function count(cards) { return cards.reduce((n,c) => n + (c.qty || 1), 0); }
 export function exportDeck(deck) {
   const clean = c => ({id:c.id, name:c.name, image:c.image, ...(c.pur !== undefined ? {pur:c.pur} : {}), ...(c.qty ? {qty:c.qty} : {})});
-  return {name:deck.name, tokui:deck.tokui, personalities:deck.personalities.filter(Boolean).map(clean), mastery:deck.mastery ? clean(deck.mastery) : null, sensei:deck.sensei ? clean(deck.sensei) : null, cards:deck.cards.map(clean), senseiDeck:deck.senseiDeck.map(clean)};
+  return {name:deck.name, tokui:deck.tokui, ...(deck.backer ? {backer:clean(deck.backer)} : {}), personalities:deck.personalities.filter(Boolean).map(clean), mastery:deck.mastery ? clean(deck.mastery) : null, sensei:deck.sensei ? clean(deck.sensei) : null, cards:deck.cards.map(clean), senseiDeck:deck.senseiDeck.map(clean)};
 }
 export const deckLimit = deck => deck.tokui.toLowerCase() === 'namekian' ? 90 : 85;
 export const deckSize = deck => count(deck.cards) + deck.personalities.filter(Boolean).length + Number(!!deck.mastery) + Number(!!deck.sensei);
@@ -30,6 +31,13 @@ export function removalTarget(deck,card,destination='auto'){
   else if(zone==='cards'||zone==='senseiDeck'){const found=deck[zone].find(c=>c.id===card.id);if(found)return {zone,card:found};}
  }
  return null;
+}
+export function selectBacker(deck, card, backers = gtBackers) {
+  const canonical = card ? backers.current(card) : null;
+  if (card && !canonical) throw new Error('Choose a Backer from the current collection.');
+  const next = {...deck,backer:canonical};
+  backers.validateDeck(next);
+  deck.backer = canonical ? snapshot(canonical) : null;
 }
 export function addCard(deck, card, destination = 'auto') {
   if (destination === 'auto') destination = isPersonality(card) ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
@@ -49,7 +57,7 @@ export function addCard(deck, card, destination = 'auto') {
   if((destination==='cards'||addsStarting)&&deckSize(deck)>=deckLimit(deck))throw new Error(`Deck limit is ${deckLimit(deck)} cards including Main Personality levels, Mastery and Sensei. Remove a card first.`);
   if (destination === 'personalities') {
     const index = c.level ? c.level - 1 : deck.personalities.findIndex(x=>!x);
-    if (index < 0 || index > 4) throw new Error('All five personality slots are filled. Remove a level first.');
+    if (index < 0 || index > (gtBackers.isHiTech(card) || gtBackers.needsBacker(deck) ? 5 : 4)) throw new Error('No compatible personality slot is available. Remove a level first.');
     if (deck.personalities[index]) throw new Error(`Level ${index+1} is filled. Remove it before adding a different personality.`);
     deck.personalities[index] = c;
   } else if (destination === 'mastery' || destination === 'sensei') {

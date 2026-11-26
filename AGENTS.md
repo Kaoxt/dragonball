@@ -418,3 +418,7 @@ Android Saga is complete in current V3: all 136 cards, including 101–125 and P
 # Movie 7 subset — November 24, 2026
 
 Movie 7 is a separate 34-number subset under Promos & Subsets, related to Babidi Saga. This package supplies all 34 cards (M1–M34). M16 uses the approved dual Goku artwork completed November 25; its old source-art proof remains historical only. Append the M16 permanent deck ID after the earlier 33 Movie 7 IDs to preserve existing encodings. Preserve the native RR emblem, M-numbering, all 11 printed personality stages, CRD changes and append-only deck IDs. Sources and audits are in `tools/card-corrections/v3-movie7/` and `tools/card-templates/v3/movie7/`. Historical audits restore the pre-Movie-7 inputs through `tests/helpers/pre-movie7.js` before continuing the Babidi history.
+
+## GT Hi-Tech Backers (approved November 26, 2026)
+
+Use the V3 composition contract in `docs/gt-hi-tech-backers.md`. Keep real GT Hi-Tech blank-field masks explicit; preserve printed zero, fixed stages/PUR/powers and original art/frame. One canonical eligible Backer supplies every GT Hi-Tech level, persists with the deck, and locks at Arena setup. Never publish synthetic example/test mechanics as GT cards. Native vectors and clean approved artwork are required; do not generate thousands of precombined catalog entries or redraw card text with AI.

@@ -1,9 +1,10 @@
+import {gtBackers} from '../cards/gt-backers.js';
 import {cardTypeLabel} from '../cards/card-types.js';
 import {deckAdditionError, hiTechAllies, assertDeckEligible} from './eligibility.js';
 import {setupDeckImages} from './deck-image.js';
 import {catalog} from '../cards/catalog.js';
 import {parseDeck} from '../game.js';
-import {STORAGE_KEY, createDeck, readDecks, snapshot, count, exportDeck, addCard, removalTarget, deckSize, deckLimit} from './store.js';
+import {STORAGE_KEY, createDeck, readDecks, snapshot, count, exportDeck, addCard, selectBacker, removalTarget, deckSize, deckLimit} from './store.js';
 const catalogById = new Map(catalog.map(card => [card.id, card]));
 const $ = id => document.getElementById(id);
 const node = (tag, text, className) => { const el=document.createElement(tag); if(text!==undefined)el.textContent=text;if(className)el.className=className;return el; };
@@ -50,9 +51,13 @@ function save(){
  clearTimeout(syncTimer);syncTimer=setTimeout(syncDecks,400);
 }
 function library(){ $('saved-decks').replaceChildren(...data.decks.map(d=>new Option(d.name||'Untitled deck',d.id)));$('saved-decks').value=deck.id; }
-function changed(){save();renderDeck();renderCounts();}
+function changed(){
+ if(deck.backer){try{gtBackers.validateDeck(deck);}catch{deck.backer=null;message('The Backer was cleared because it no longer matches this Main Personality or style.');}}
+ if(!gtBackers.needsBacker(deck)&&deck.personalities.length===6&&!deck.personalities[5])deck.personalities.length=5;
+ save();renderDeck();renderCounts();
+}
 function add(c){try{addCard(deck,c,$('destination').value);changed();message(`Added ${c.name}`);$('preview-status').textContent=`Added ${c.name}`;}catch(e){message(e.message);$('preview-status').textContent=e.message;}}
-function openPreview(c){previewCard=c;$('preview-image').src=c.image;$('preview-image').alt=c.name;$('preview-name').textContent=c.name;$('preview-meta').textContent=[c.set,c.number&&`#${c.number}`].filter(Boolean).join(' · ');$('preview-type').textContent=[cardTypeLabel(c.type),c.style,c.level&&`Level ${c.level}`].filter(Boolean).join(' · ');$('preview-rules').textContent=c.rules||'';updatePreviewEligibility();$('card-preview').showModal();}
+function openPreview(c){previewCard=c;let shown=c;try{if(deck.personalities.some(p=>p?.id===c.id))shown=gtBackers.preview(c,deck);}catch(e){message(e.message);}$('preview-image').src=shown.image;$('preview-image').alt=c.name;$('preview-name').textContent=c.name;$('preview-meta').textContent=[c.set,c.number&&`#${c.number}`].filter(Boolean).join(' · ');$('preview-type').textContent=[cardTypeLabel(c.type),c.style,c.level&&`Level ${c.level}`].filter(Boolean).join(' · ');$('preview-rules').textContent=shown.rules||'';$('download-composite').hidden=!shown.backerId;$('download-composite').href=shown.backerId?shown.downloadImage:'#';$('download-composite').download=c.id+'-with-backer.svg';updatePreviewEligibility();$('card-preview').showModal();}
 function updatePreviewEligibility(){
  const error=deckAdditionError(previewCard,$('destination').value);
  $('preview-add').disabled=Boolean(error);
@@ -99,7 +104,16 @@ function renderSharing(){
  $('deck-visibility').value=deck.visibility||'private';$('deck-visibility').disabled=!syncUser;
  $('share-deck').hidden=!syncUser||deck.visibility!=='public';$('share-deck').disabled=syncDirty||syncBusy||!shares[deck.id];
 }
+function renderBacker(){
+ const panel=$('gt-backer-panel');panel.hidden=!gtBackers.needsBacker(deck);
+ if(panel.hidden)return;
+ const options=gtBackers.choices(deck),select=$('gt-backer');
+ select.replaceChildren(new Option('Choose a Backer',''),...options.map(c=>new Option(c.name+' · '+c.set+' #'+c.number,c.id)));
+ select.value=deck.backer?.id||'';
+ $('gt-backer-note').textContent=deck.backer?'Applies to every GT Hi-Tech level. Excluded from deck size.':options.length?'Choose one Backer for all GT Hi-Tech levels before playing.':'No Backers match this Main Personality and Tokui-Waza.';
+}
 function renderDeck(){
+ renderBacker();
  renderSharing();
  $('deck-name').value=deck.name;$('tokui').value=deck.tokui;
  $('life-count').textContent=$('life-label').textContent=count(deck.cards);$('sensei-count').textContent=$('sensei-label').textContent=count(deck.senseiDeck);$('starting-count').textContent=deck.personalities.filter(Boolean).length+!!deck.mastery+!!deck.sensei;$('tab-count').textContent=count(deck.cards);
@@ -109,6 +123,7 @@ function renderDeck(){
  const cards=[...deck[key]].sort((a,b)=>a.name.localeCompare(b.name));$(id).replaceChildren(...(cards.length?cards.map(c=>row(c,key)):[node('p',empty,'list-empty')]));
  }
  const checks=hiTechAllies(deck).map(({card,zone})=>`${card.name}: remove this Hi-Tech Personality from the ${zone==='cards'?'Life Deck':'Sensei Deck'}; it cannot be an Ally.`);
+ try{gtBackers.validateDeck(deck,{required:true});}catch(e){checks.push(e.message);}
  const stack=deck.personalities.filter(Boolean);
  if(new Set(stack.map(c=>c.id)).size!==stack.length)checks.push('Remove duplicate Main Personality cards: use each card only once.');
  if(new Set(stack.map(c=>c.name.trim().toLowerCase())).size>1)checks.push('All Main Personality levels must belong to the same character.');
@@ -121,6 +136,7 @@ if(deckSize(deck)<50||deckSize(deck)>deckLimit(deck))checks.push(`Deck size: ${d
  $('checks').replaceChildren(...(checks.length?checks:['Basic tabletop checks passed. Review card-specific restrictions.']).map(t=>node('li',t)));
 }
 for(const key of ['set','style','type']){for(const value of [...new Set(catalog.map(c=>c[key]).filter(Boolean))].sort())$(key).add(new Option(key==='type'?cardTypeLabel(value):value,value));$(key).onchange=()=>{visible=48;browse();};}
+$('gt-backer').onchange=()=>{try{selectBacker(deck,$('gt-backer').value?{id:$('gt-backer').value}:null);changed();}catch(e){message(e.message);renderBacker();}};
 $('destination').onchange=()=>{renderCounts();if(previewCard)updatePreviewEligibility();};
 $('filters').onsubmit=e=>e.preventDefault();$('query').oninput=()=>{visible=48;browse();};$('reset-filters').onclick=()=>{$('filters').reset();visible=48;browse();};$('more-cards').onclick=()=>{visible+=48;browse();};
 $('deck-name').oninput=()=>{deck.name=$('deck-name').value.slice(0,70);save();library();};$('deck-name').onblur=()=>{if(!deck.name.trim()){deck.name='Untitled deck';save();library();renderDeck();}};

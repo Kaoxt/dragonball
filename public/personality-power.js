@@ -934,10 +934,12 @@ const charts = {
 export function powerChart(card) {
  if (!card) return null;
  const asset=String(card.image||'').split('?')[0].split('/').pop()?.replace(/\.(webp|jpg)$/,'');
- const known=charts[card.id] || charts[asset];
- if (known) return known;
  const imported=card.powerLevels;
- return Array.isArray(imported)&&imported.length>=2&&imported.length<=21&&imported[0]===0&&imported.every(n=>Number.isSafeInteger(n)&&n>=0&&n<=999999999)?imported:null;
+ const valid=Array.isArray(imported)&&imported.length>=2&&imported.length<=21&&imported[0]===0&&imported.every(n=>Number.isSafeInteger(n)&&n>=0&&n<=999999999);
+ // A resolved GT chart includes the selected Backer; a static base chart cannot replace it.
+ if(card.backerId&&valid)return imported;
+ const known=charts[card.id] || charts[asset];
+ return known || (valid?imported:null);
 }
 export function personalityPower(player) {
  const chart=powerChart(player.personalities[player.level-1]);

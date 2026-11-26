@@ -2,6 +2,7 @@ export { Community } from './community/worker.js';
 import { API_SECURITY_HEADERS } from './community/security.js';
 import { DurableObject } from 'cloudflare:workers';
 import { newGame, addPlayer, act, view } from '../public/game.js';
+import {gtCompositeRequest} from './gt-composite.js';
 import { cardPage } from './card-pages.js';
 import { cardAsset } from './card-assets.js';
 import cardAssets from './card-assets-manifest.json';
@@ -12,6 +13,10 @@ function cookie(req) { return /(?:^|;\s*)score_session=([a-f0-9]{64})(?:;|$)/.ex
 export default {
   async fetch(req, env, ctx) {
     const u = new URL(req.url);
+    if (u.pathname === '/api/cards/gt-composite') {
+      return gtCompositeRequest(req,{context:ctx,cache:globalThis.caches?.default,loadAsset:assetRequest =>
+        env.CARD_ASSETS ? cardAsset(assetRequest,env.CARD_ASSETS,cardAssets,ctx,globalThis.caches?.default) : env.ASSETS.fetch(assetRequest)});
+    }
     if (u.pathname.startsWith('/assets/cards/') && env.CARD_ASSETS) {
       return cardAsset(req, env.CARD_ASSETS, cardAssets, ctx, globalThis.caches?.default);
     }

@@ -1,3 +1,4 @@
+import {gtBackers} from './cards/gt-backers.js';
 import {catalog} from './cards/catalog.js';
 import {createUltraRareFoil} from './ultra-rare-foil.js?v=20261103';
 import {ultraRareMask} from './ultra-rare-profiles.js?v=20261106-title-width';
@@ -16,6 +17,10 @@ export function finishForImage(source, origin = 'https://dragonballocg.com') {
   try {
     const url = new URL(source, origin);
     if (url.origin !== new URL(origin).origin) return null;
+    if (url.pathname === '/api/cards/gt-composite') {
+      const resolved=gtBackers.resolve(url.searchParams.get('hiTech'),url.searchParams.get('backer'),url.searchParams.get('tokui') || '');
+      return {...resolved.card,image:url.pathname+url.search};
+    }
     return finishImages.get(url.pathname.replace(/\.jpg$/, '.webp')) || null;
   } catch { return null; }
 }

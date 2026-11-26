@@ -1,3 +1,4 @@
+import {gtBackers} from './cards/gt-backers.js';
 import { assertDeckEligible } from './decks/eligibility.js';
 import { powerChart, personalityPower } from './personality-power.js';
 import { catalog } from './cards/catalog.js';
@@ -11,27 +12,40 @@ export function shuffle(cards) { for (let i = cards.length - 1; i > 0; i--) { co
 const clean = (v, max = 100) => String(v ?? '').trim().slice(0, max);
 const integer = (v, fallback, max = 20) => Number.isInteger(v) && v >= 0 && v <= max ? v : fallback;
 function url(v) { if (!v) return ''; if (typeof v === 'string' && /^\/assets\/cards\/(?:downloads\/)?[a-zA-Z0-9-]+\.(?:jpg|webp)(?:\?v=[a-zA-Z0-9-]+)?$/.test(v)) return v.replace(/\.jpg(?=\?|$)/, '.webp'); try { const u = new URL(v); return u.protocol === 'https:' ? u.href.slice(0, 1000) : ''; } catch { return ''; } }
-export function cardImage(v) {
-  const image = url(v?.image), current = catalogById.get(clean(v?.id, 60));
+export function cardImage(v, backers = gtBackers) {
+  if (backers.isHiTech(v) && v.backerId) {
+    try { return backers.imageURL(v,v.backerId,v.backerTokui || ''); } catch { return ''; }
+  }
+  const image = url(v?.image), current = catalogById.get(clean(v?.id, 160));
   const path = image.split('?')[0];
   const ownImage = current && [ `/assets/cards/${current.id}.webp`, `/assets/cards/downloads/${current.id}.webp` ].includes(path);
   // Refresh matching catalog artwork without rewriting custom images or saved decks.
   return current && (!v?.image || ownImage) ? current.image : image;
 }
-function card(v) { check(v && typeof v === 'object', 'Invalid card.'); const id = clean(v.id, 60); check(id, 'Every card needs an ID.'); return { uid: crypto.randomUUID(), id, name: clean(v.name || id), image: cardImage(v), rested: false, faceDown: false, stages: 0, pur: catalogById.get(id)?.pur === 'X' ? 'X' : integer(v.pur, 1), maxStages: powerChart(v)?.length-1 || integer(v.maxStages, 10), ...(powerChart(v)?{powerLevels:[...powerChart(v)]}:{}) }; }
+function card(v) { check(v && typeof v === 'object', 'Invalid card.'); const id = clean(v.id, 160); check(id, 'Every card needs an ID.'); return { uid: crypto.randomUUID(), id, name: clean(v.name || id), image: cardImage(v), rested: false, faceDown: false, stages: 0, pur: catalogById.get(id)?.pur === 'X' ? 'X' : integer(v.pur, 1), maxStages: powerChart(v)?.length-1 || integer(v.maxStages, 10), ...(powerChart(v)?{powerLevels:[...powerChart(v)]}:{}) }; }
 function expand(items, max = 90) { check(Array.isArray(items) && items.length <= max, 'Invalid card list.'); const result = []; for (const item of items) { const qty = Number(item.qty ?? 1); check(Number.isInteger(qty) && qty > 0 && qty <= max && result.length + qty <= max, 'Invalid quantity or too many cards.'); for (let i = 0; i < qty; i++) result.push(card(item)); } return result; }
-export function parseDeck(input) {
+export function parseDeck(input, {backers = gtBackers} = {}) {
   check(input && Array.isArray(input.personalities), 'Supply 3–5 Main Personality cards in level order.');
-  check(input.personalities.length >= 3 && input.personalities.length <= 5, 'Main Personality stacks need consecutive levels 1 through 3, 4, or 5.');
+  check(input.personalities.length >= 3 && input.personalities.length <= (backers.needsBacker(input)?6:5), 'Use consecutive Main Personality levels: at least three, up to five (six for GT).');
   assertDeckEligible(input);
-  const personalities = input.personalities.map(card), cards = expand(input.cards), mastery = input.mastery ? card(input.mastery) : null, sensei = input.sensei ? card(input.sensei) : null, senseiDeck = expand(input.senseiDeck || []);
+  const backing = backers.validateDeck(input,{required:true});
+  const personalities = input.personalities.map(value => {
+    const entry = card(value);
+    if (backers.isHiTech(value)) {
+      const resolved = backers.resolve(value,backing,input.tokui);
+      Object.assign(entry,{pur:resolved.pur,powerLevels:resolved.powerLevels,maxStages:resolved.stages.length-1,
+        rules:resolved.power.rules,gtPower:resolved.power,backerId:backing.id,backerTokui:input.tokui || '',
+        image:backers.imageURL(value,backing,input.tokui)});
+    }
+    return entry;
+  }), cards = expand(input.cards), mastery = input.mastery ? card(input.mastery) : null, sensei = input.sensei ? card(input.sensei) : null, senseiDeck = expand(input.senseiDeck || []);
   check(cards.length > 0, 'The Life Deck cannot be empty.'); check(!senseiDeck.length || sensei, 'A Sensei Deck requires a Sensei card.');
   const tokui = clean(input.tokui, 20), total = personalities.length + cards.length + (mastery ? 1 : 0) + (sensei ? 1 : 0), max = tokui.toLowerCase() === 'namekian' ? 90 : 85;
   const warnings = [];
   if (total < 50 || total > max) warnings.push(`Deck size ${total}: Score generally uses 50–${max} including starting cards; verify your format.`);
   const counts = Object.create(null); for (const c of cards) counts[c.id] = (counts[c.id] || 0) + 1;
   for (const [id,n] of Object.entries(counts)) if (n > 3) warnings.push(`${id}: ${n} copies; check Named-card and card-text exceptions.`);
-  return { personalities, cards, mastery, sensei, senseiDeck, tokui, warnings };
+  return { personalities, cards, mastery, sensei, senseiDeck, tokui, warnings, backer:backing?{id:backing.id,name:backing.name,image:backing.image}:null };
 }
 export function newGame() { return { ruleset: 'score-dbz-v1', players: [], status: 'waiting', turn: 0, turnNumber: 1, phase: 'Draw', combatDeclared: false, log: [], updated: Date.now(), version: 0 }; }
 export function log(g, text) { g.log.push({ text, at: Date.now() }); g.log = g.log.slice(-80); }
@@ -45,7 +59,7 @@ function draw(p, n) { check(p.zones.deck.length >= n, 'Not enough Life Deck card
 function applyAction(g, seat, a) {
   check(a && typeof a === 'object' && !Array.isArray(a), 'Invalid action.'); const p = g.players[seat]; check(p, 'Not a player.'); const say = text => log(g, `${p.name} ${text}`);
   if (a.type === 'chat') { const text = clean(a.text, 300); check(text, 'Enter a message.'); say(`: ${text}`); }
-  else if (a.type === 'load') { check(g.status === 'waiting', 'Decks lock when setup begins.'); const d = parseDeck(a.deck); Object.assign(p, { personalities: d.personalities, mastery: d.mastery, sensei: d.sensei, tokui: d.tokui, warnings: d.warnings, loaded: true }); p.zones.deck = d.cards; p.zones.senseiDeck = d.senseiDeck; say(`loaded ${d.cards.length} Life Deck cards and ${d.personalities.length} MP levels.`); }
+  else if (a.type === 'load') { check(g.status === 'waiting', 'Decks lock when setup begins.'); const d = parseDeck(a.deck); Object.assign(p, { personalities: d.personalities, mastery: d.mastery, sensei: d.sensei, backer: d.backer, tokui: d.tokui, warnings: d.warnings, loaded: true }); p.zones.deck = d.cards; p.zones.senseiDeck = d.senseiDeck; say(`loaded ${d.cards.length} Life Deck cards and ${d.personalities.length} MP levels.`); }
   else if (a.type === 'start') { check(seat === 0 && g.status === 'waiting' && g.players.length === 2 && g.players.every(x => x.loaded), 'Both players must load a deck; the host starts setup.'); g.status = 'setup'; for (const x of g.players) shuffle(x.zones.deck); log(g, 'Setup: declare alignment and Tokui-Waza, check Double Power, choose first player, and resolve Sensei swaps. No opening hand is dealt.'); }
   else if (a.type === 'first') { check(seat === 0 && g.status === 'setup' && [0,1].includes(a.seat), 'The host chooses the first player during setup.'); g.turn = a.seat; log(g, `${g.players[g.turn].name} will take the first turn.`); }
   else if (a.type === 'ready') { check(g.status === 'setup' && !p.ready, 'Already ready.'); p.ready = true; say('finished setup.'); if (g.players.every(x => x.ready)) { g.status = 'playing'; log(g, 'Game started. Active player: draw three cards in the Draw Step.'); } }
@@ -68,7 +82,7 @@ function applyAction(g, seat, a) {
         if (pur === 'X') {
           const opponent = g.players[1 - seat];
           const opposingMP = opponent.personalities[opponent.level - 1];
-          pur = catalogById.get(opposingMP.id)?.pur ?? opposingMP.pur;
+          pur = opposingMP.backerId ? opposingMP.pur : catalogById.get(opposingMP.id)?.pur ?? opposingMP.pur;
         }
         p.power = null;
         const printedGain = pur === 'X' ? 0 : pur;
@@ -109,5 +123,5 @@ export function act(g, seat, a) {
   if(previous) g.undo={seat,state:previous,action:a.type};
  }
 }
-export function view(g, seat) { return { canUndo: g.undo?.seat===seat && ['setup','playing'].includes(g.status), ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase === 'Non-Combat' ? 'Planning' : g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
+export function view(g, seat) { return { canUndo: g.undo?.seat===seat && ['setup','playing'].includes(g.status), ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase === 'Non-Combat' ? 'Planning' : g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, backer:p.backer || null, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
 
