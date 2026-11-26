@@ -28091,5 +28091,22 @@ export const catalog = [
     "crd": "Use after taking ALL damage from the attack, not while resolving damage. Expanded CRD: Hercule’s Close Save (Babidi Saga #100).",
     "image": "/assets/cards/babidi-100-hercules-close-save.webp?v=010b96588815",
     "downloadImage": "/assets/cards/downloads/babidi-100-hercules-close-save.webp?v=1a383d227113"
+  },
+  {
+    "id": "babidi-089-saiyan-aura-blast",
+    "name": "Saiyan Aura Blast",
+    "number": "89",
+    "set": "Babidi Saga",
+    "type": "Energy Combat",
+    "style": "Saiyan",
+    "source": "https://dbzexchange.com/products/89-saiyan-aura-blast",
+    "status": "Ready",
+    "width": 1060,
+    "height": 1484,
+    "rarity": "Uncommon",
+    "rules": "Energy attack costing 2 stages. DAMAGE: 5 life cards. You may banish “Saiyan Energy Throw” from your discard pile to draw a card and deal +4 stages.",
+    "templateVersion": 3,
+    "image": "/assets/cards/babidi-089-saiyan-aura-blast.webp?v=7f07de3b7888",
+    "downloadImage": "/assets/cards/downloads/babidi-089-saiyan-aura-blast.webp?v=8cd80e027fca"
   }
 ];
