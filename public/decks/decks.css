@@ -29,3 +29,5 @@ body.deck-builder :is(input,textarea)::placeholder{color:#929da6}
 body.deck-builder select option{background:#151a1e;color:#f5f6fa}
 html[data-site-design=v2] body.deck-builder dialog a.deck-image-download{background:#252c31;border:1px solid #465058;color:#f5f6fa;box-shadow:none}
 html[data-site-design=v2] body.deck-builder dialog a.deck-image-download:is(:hover,:focus-visible){background:#303940;border-color:#65717a;color:#fff;box-shadow:none}
+
+#gt-backer-panel{padding:1rem;border-top:1px solid #555b61}#gt-backer-panel[hidden]{display:none}#gt-backer-panel label{display:block;font-weight:700;margin-bottom:.4rem}#gt-backer{width:100%;font-size:1rem}#gt-backer-note{font-size:.875rem;line-height:1.5;color:#c5ccd4;margin:.6rem 0 0}

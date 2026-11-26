@@ -1,8 +1,9 @@
-import {assertNoHiTechAllyAdditions} from '../../public/decks/eligibility.js';
+import {gtBackers} from '../../public/cards/gt-backers.js';
+import {assertNoHiTechAllyAdditions, assertNoBannedCards} from '../../public/decks/eligibility.js';
 import {readSession,assertSameOrigin} from './session.js';
 import {IssueError} from './issues.js';
 import {API_SECURITY_HEADERS} from './security.js';
-export async function decksRequest(request,env){
+export async function decksRequest(request,env,{backers=gtBackers}={}){
  const db=env.DB,reply=(data,status=200)=>Response.json(data,{status,headers:{...API_SECURITY_HEADERS,'Cache-Control':'no-store'}});
  try{
   db.prepare("CREATE TABLE IF NOT EXISTS public_decks(share_id TEXT PRIMARY KEY,user_id TEXT NOT NULL,deck_id TEXT NOT NULL,data TEXT NOT NULL,UNIQUE(user_id,deck_id))").run();
@@ -28,11 +29,17 @@ export async function decksRequest(request,env){
   if(!data||!Array.isArray(data.decks)||data.decks.length>100)throw new IssueError('Save up to 100 decks.');
   const ids=new Set();
   for(const d of data.decks){
-   if(!d||typeof d.id!=='string'||d.id.length>80||ids.has(d.id)||typeof d.name!=='string'||d.name.length>70||typeof d.tokui!=='string'||d.tokui.length>30||!Array.isArray(d.personalities)||d.personalities.length!==5||!Array.isArray(d.cards)||!Array.isArray(d.senseiDeck)||d.cards.length>200||d.senseiDeck.length>200)throw new IssueError('Invalid deck.');
+   if(!d||typeof d.id!=='string'||d.id.length>80||ids.has(d.id)||typeof d.name!=='string'||d.name.length>70||typeof d.tokui!=='string'||d.tokui.length>30||!Array.isArray(d.personalities)||![5,6].includes(d.personalities.length)||!Array.isArray(d.cards)||!Array.isArray(d.senseiDeck)||d.cards.length>200||d.senseiDeck.length>200)throw new IssueError('Invalid deck.');
    if(d.visibility!==undefined&&!['private','public'].includes(d.visibility))throw new IssueError('Invalid deck visibility.');
    d.visibility=d.visibility||'private';
+   try {
+    if(d.personalities.length===6&&!backers.needsBacker(d))throw new Error('Six levels require a GT Main Personality stack.');
+    const backer=backers.validateDeck(d);
+    // Save only canonical backer identity. Never retain caller-supplied mechanics or image markup.
+    d.backer=backer?{id:backer.id,name:backer.name,image:backer.image,type:backer.type,number:backer.number,set:backer.set}:null;
+   } catch(e) { throw new IssueError(e.message); }
    ids.add(d.id);
-   for(const c of [...d.cards,...d.senseiDeck,...d.personalities,d.mastery,d.sensei].filter(Boolean)){
+   for(const c of [...d.cards,...d.senseiDeck,...d.personalities,d.mastery,d.sensei,d.backer].filter(Boolean)){
     if(typeof c.id!=='string'||c.id.length>160||typeof c.name!=='string'||c.name.length>200||c.qty!==undefined&&(!Number.isInteger(c.qty)||c.qty<1||c.qty>90))throw new IssueError('Invalid card.');
    }
   }
@@ -41,7 +48,12 @@ export async function decksRequest(request,env){
    const row=db.prepare('SELECT data,version FROM account_decks WHERE user_id=?').bind(user.id).first();
    if((row?.version||0)!==body.version)throw new IssueError('Decks changed on another device. Export your changes, then reload.',409);
    const previous=new Map((row?JSON.parse(row.data).decks:[]).map(deck=>[deck.id,deck]));
-   try{for(const deck of data.decks)assertNoHiTechAllyAdditions(deck,previous.get(deck.id));}
+   try{
+    for(const deck of data.decks){
+     assertNoBannedCards(deck);
+     assertNoHiTechAllyAdditions(deck,previous.get(deck.id));
+    }
+   }
    catch(e){throw new IssueError(e.message);}
    const next=body.version+1;
    db.prepare('INSERT INTO account_decks(user_id,data,version,updated_at) VALUES(?,?,?,?) ON CONFLICT(user_id) DO UPDATE SET data=excluded.data,version=excluded.version,updated_at=excluded.updated_at').bind(user.id,JSON.stringify(data),next,new Date().toISOString()).run();

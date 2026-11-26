@@ -4,6 +4,7 @@ export const numberSlug = value => /^\d+$/.test(String(value)) ? String(Number(v
 export const cardPath = card => `/cards/${setSlug(card.set)}/${encodeURIComponent(numberSlug(card.number))}`;
 export const setPath = name => `/cards/${setSlug(name)}/`;
 const logos = {
+  'majin-buu-saga':'/assets/sets/majin-buu-saga-logo.png?v=6bd22b7168af',
   'saiyan-saga':'/assets/sets/saiyan-saga-logo-brushed-blue.webp?v=20261026-set-banners',
   'frieza-saga':'/assets/sets/frieza-saga-logo-brushed-green.webp?v=20261026-set-banners',
   'trunks-saga':'/assets/sets/trunks-saga-logo-brushed-purple.webp?v=20261026-set-banners',

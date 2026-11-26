@@ -8,7 +8,7 @@ export const HI_TECH_ALLY_ERROR = 'Hi-Tech Personality cards cannot be used as A
 export function isHiTechPersonality(card) {
   // Saved snapshots and arena exports may omit rarity or contain stale type data.
   const current = byId.get(card?.id) || card;
-  return isPersonality(current) && (/hi(?:gh)?[\s-]?tech/i.test(current.rarity || '') || /(?:^|-)ht(?:-|$)/i.test(current.id || ''));
+  return isPersonality(current) && (!!current.gtHiTech || /hi(?:gh)?[\s-]?tech/i.test(current.rarity || '') || /(?:^|-)ht(?:-|$)/i.test(current.id || ''));
 }
 export const blocksHiTechAlly = (card, destination) => allyZones.includes(destination) && isHiTechPersonality(card);
 export function hiTechAllies(deck) {
@@ -31,4 +31,26 @@ export function assertNoHiTechAllyAdditions(deck, previous) {
   for (const [key, quantity] of quantities(deck)) {
     if (quantity > (before.get(key) || 0)) throw new Error(HI_TECH_ALLY_ERROR);
   }
+}
+
+export function banReason(card) {
+  const current = byId.get(String(card?.id ?? '').trim());
+  return current?.banned ? current.banReason || (current.name + ' is banned from decks.') : '';
+}
+
+export function deckAdditionError(card, destination) {
+  return banReason(card) || (blocksHiTechAlly(card, destination) ? HI_TECH_ALLY_ERROR : '');
+}
+
+export function assertNoBannedCards(deck) {
+  const cards = [...(deck.personalities || []), deck.mastery, deck.sensei, ...(deck.cards || []), ...(deck.senseiDeck || [])];
+  for (const card of cards) {
+    const reason = banReason(card);
+    if (reason) throw new Error(reason);
+  }
+}
+
+export function assertDeckEligible(deck) {
+  assertNoBannedCards(deck);
+  assertNoHiTechAllies(deck);
 }

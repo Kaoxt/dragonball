@@ -1,5 +1,6 @@
+import {createBackerSystem} from '../cards/gt-backers.js';
 import {isPersonality} from '../cards/card-types.js';
-import {assertNoHiTechAllies} from './eligibility.js';
+import {assertDeckEligible} from './eligibility.js';
 import {createDeck, snapshot} from './store.js';
 import {codeCardIds} from './code-card-ids.js';
 const compactIds=new Map(codeCardIds.map((id,index)=>[id,index]));
@@ -15,6 +16,8 @@ async function transform(bytes, stream, limit){
 export async function encodeDeck(deck){
  const id=c=>c?(compactIds.get(c.id)??c.id):null, list=cards=>cards.map(c=>[id(c),c.qty||1]);
  const payload=[deck.name,deck.tokui,deck.personalities.map(id),id(deck.mastery),id(deck.sensei),list(deck.cards),list(deck.senseiDeck)];
+ // Keep existing seven-field codes byte-compatible. The optional eighth field is the MP Backer.
+ if(deck.backer)payload.push(id(deck.backer));
  let bytes;try{bytes=await transform(new TextEncoder().encode(JSON.stringify(payload)),new CompressionStream('deflate'),1645);}catch{throw Error('This deck is too large for one image code. Reduce the number of cards and try again.');}
  const code=prefix+btoa(String.fromCharCode(...bytes));
  if(code.length>2200)throw Error('This deck is too large for one image code. Reduce the number of cards and try again.');
@@ -24,14 +27,17 @@ export async function decodeDeck(code,catalog){
  if(typeof code!=='string'||!code.startsWith(prefix)||code.length>2200)throw invalid();
  let payload;
  try{const bytes=Uint8Array.from(atob(code.slice(prefix.length)),c=>c.charCodeAt(0));payload=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(await transform(bytes,new DecompressionStream('deflate'),100000)));}catch{throw invalid();}
- if(!Array.isArray(payload)||payload.length!==7)throw invalid();
- const [name,tokui,personalities,mastery,sensei,cards,senseiDeck]=payload;
- if(typeof name!=='string'||name.length>70||typeof tokui!=='string'||!['','Black','Blue','Orange','Red','Saiyan','Namekian','Freestyle'].includes(tokui)||!Array.isArray(personalities)||personalities.length!==5)throw invalid();
+ if(!Array.isArray(payload)||![7,8].includes(payload.length))throw invalid();
+ const [name,tokui,personalities,mastery,sensei,cards,senseiDeck,backer=null]=payload;
+ if(typeof name!=='string'||name.length>70||typeof tokui!=='string'||!['','Black','Blue','Orange','Red','Saiyan','Namekian','Freestyle'].includes(tokui)||!Array.isArray(personalities)||![5,6].includes(personalities.length))throw invalid();
  const byId=new Map(catalog.map(c=>[c.id,c]));
  const card=(id,nullable=false)=>{if(id===null&&nullable)return null;if(Number.isSafeInteger(id)&&id>=0)id=codeCardIds[id];if(typeof id!=='string'||id.length>160)throw invalid();const c=byId.get(id);if(!c)throw Error('This deck contains cards that are not in the current collection. No deck was imported.');return snapshot(c);};
  const list=entries=>{if(!Array.isArray(entries)||entries.length>200)throw invalid();const seen=new Set();return entries.map(entry=>{if(!Array.isArray(entry)||entry.length!==2||!Number.isInteger(entry[1])||entry[1]<1||entry[1]>90)throw invalid();const resolved=card(entry[0]);if(seen.has(resolved.id))throw invalid();seen.add(resolved.id);return {...resolved,qty:entry[1]};});};
- const result={...createDeck(),name:name.trim()||'Imported deck',tokui,personalities:personalities.map(id=>card(id,true)),mastery:card(mastery,true),sensei:card(sensei,true),cards:list(cards),senseiDeck:list(senseiDeck)};
+ const result={...createDeck(),name:name.trim()||'Imported deck',tokui,personalities:personalities.map(id=>card(id,true)),mastery:card(mastery,true),sensei:card(sensei,true),backer:card(backer,true),cards:list(cards),senseiDeck:list(senseiDeck)};
  if(result.personalities.some(c=>c&&!isPersonality(c))||(result.mastery&&result.mastery.type!=='Mastery')||(result.sensei&&result.sensei.type!=='Sensei'))throw invalid();
- assertNoHiTechAllies(result);
+ assertDeckEligible(result);
+ const backers=createBackerSystem(catalog);
+ if(personalities.length===6&&!backers.needsBacker(result))throw invalid();
+ backers.validateDeck(result);
  return result;
 }
