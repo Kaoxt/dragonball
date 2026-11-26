@@ -40,7 +40,7 @@ test('card links open directly, survive refresh and support Back, Forward and cl
  await card.click();
  await expect(page).toHaveURL(/\/cards\/frieza-saga\/011$/);
  await expect(page.locator('#detail-name')).toHaveText('Saiyan Rapid Deflection');
- await expect(page.locator('#share-url')).toHaveValue(/\/cards\/frieza-saga\/011$/);
+ await expect(page.getByRole('button',{name:'Share',exact:true})).toBeVisible();
  await page.goBack();
  await expect(page.locator('#card-detail')).not.toBeVisible();
  await expect(page.locator('#query')).toHaveValue('rapid deflection');
@@ -58,6 +58,7 @@ test('card links open directly, survive refresh and support Back, Forward and cl
 test('filters, Reset and sharing fallback work with restricted browser storage and clipboard',async({page})=>{
  await page.addInitScript(()=>{
   Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Storage blocked','SecurityError');}});
+  Object.defineProperty(navigator,'share',{value:undefined});
   Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw new Error('Clipboard blocked');}}});
  });
  const errors=[];page.on('pageerror',error=>errors.push(error.message));
@@ -65,9 +66,8 @@ test('filters, Reset and sharing fallback work with restricted browser storage a
  await page.locator('#query').fill('suspension');
  await expect(page.locator('.catalog-card h2')).toHaveText(['Red Energy Suspension']);
  await page.locator('.catalog-card').click();
- await page.locator('#copy-link').click();
- await expect(page.locator('#share-status')).toHaveText('Select and copy the link above.');
- await expect(page.locator('#share-url')).toBeFocused();
+ await page.locator('#share-card').click();
+ await expect(page.locator('#share-status')).toHaveText('Copy this link: '+page.url());
  await page.keyboard.press('Escape');
  await expect(page.locator('#card-detail')).not.toBeVisible();
  await page.locator('#clear').click();

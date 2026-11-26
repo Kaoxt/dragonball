@@ -9,7 +9,7 @@ import {cardPath,setPath,catalogRoute,catalogSets,browserSets,PROMOTIONAL_SET,pr
 // Run the real browser module against a small DOM/history adapter, without a browser process.
 const source=readFileSync(new URL('../public/cards/cards.js',import.meta.url),'utf8').replace(/^import .*\n/gm,'');
 const html=readFileSync(new URL('../public/cards/index.html',import.meta.url),'utf8');
-function browser(path='/cards/') {
+function browser(path='/cards/',navigatorOverrides={}) {
   class Element {
     constructor(tag='div'){this.tagName=tag;this.children=[];this.options=[];this.value='';this.open=false;this.events={};}
     add(option){this.options.push(option);}
@@ -37,7 +37,7 @@ function browser(path='/cards/') {
   const document={getElementById:id=>elements[id],createElement:tag=>new Element(tag),title:''};
   const context=vm.createContext({cardTypeLabel,catalog,cardPath,setPath,catalogRoute,catalogSets,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories,document,window,location,history,URL,
     Option:class{constructor(text,value){this.text=text;this.value=value;}},
-    localStorage:{removeItem(){removed++;}},navigator:{clipboard:{writeText:async value=>{copied=value;}}}});
+    localStorage:{removeItem(){removed++;}},navigator:{clipboard:{writeText:async value=>{copied=value;}},...navigatorOverrides}});
   vm.runInContext(source,context);
   return {elements,location,history,events,document,removed:()=>removed,copied:()=>copied,
     click:element=>element.onclick({button:0,preventDefault(){}})};
@@ -291,7 +291,7 @@ test('card modal preserves page, set and filters through Close, Back and Forward
  const b=browser('/cards/?sort=number&page=3'),el=b.elements;
  const before=grid(b).map(c=>c.href);b.click(grid(b)[0]);
  assert.equal(el['card-detail'].open,true);
- await el['copy-link'].onclick();assert.equal(b.copied(),'https://dragonballocg.com'+before[0]);
+ await el['share-card'].onclick();assert.equal(b.copied(),'https://dragonballocg.com'+before[0]);
  b.history.back();assert.equal(el['card-detail'].open,false);assert.equal(b.location.search,'?sort=number&page=3');
  assert.deepEqual(grid(b).map(c=>c.href),before);
  b.history.forward();assert.equal(el['card-detail'].open,true);b.click(el['close-detail']);
@@ -376,3 +376,33 @@ test('Cell Saga promos appear in type filters and expose exact display and downl
  }
 });
 
+test('Share opens native sharing for the active card and leaves the clipboard untouched',async()=>{
+ const shared=[];
+ const b=browser('/cards/android-saga/p3',{share:async data=>shared.push(data)});
+ await b.elements['share-card'].onclick();
+ assert.equal(shared.length,1);
+ assert.equal(shared[0].title,'A Burst of Energy');
+ assert.equal(shared[0].url,'https://dragonballocg.com/cards/android-saga/p3');
+ assert.equal(b.copied(),'');
+ assert.equal(b.elements['share-status'].textContent,'');
+ b.elements['close-detail'].onclick();b.click(grid(b)[0]);
+ await b.elements['share-card'].onclick();
+ assert.equal(shared[1].url,'https://dragonballocg.com'+b.location.pathname);
+});
+
+test('cancelling native Share does not copy a link or show an error',async()=>{
+ const b=browser('/cards/android-saga/p3',{share:async()=>{throw Object.assign(new Error('Cancelled'),{name:'AbortError'});}});
+ await b.elements['share-card'].onclick();
+ assert.equal(b.copied(),'');assert.equal(b.elements['share-status'].textContent,'');
+});
+
+test('unavailable sharing falls back to copying, then a selectable URL when clipboard is blocked',async()=>{
+ const share=async()=>{throw Object.assign(new Error('Blocked'),{name:'NotAllowedError'});};
+ const b=browser('/cards/android-saga/p3',{share});
+ await b.elements['share-card'].onclick();
+ assert.equal(b.copied(),'https://dragonballocg.com/cards/android-saga/p3');
+ assert.equal(b.elements['share-status'].textContent,'Link copied.');
+ const blocked=browser('/cards/android-saga/p3',{clipboard:undefined});
+ await blocked.elements['share-card'].onclick();
+ assert.equal(blocked.elements['share-status'].textContent,'Copy this link: https://dragonballocg.com/cards/android-saga/p3');
+});

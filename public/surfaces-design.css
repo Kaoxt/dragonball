@@ -571,14 +571,14 @@
 
 /* Content actions share the News red in resting, hover and focus states. */
 @media screen{
- html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#copy-link,a#download.primary-link),
- html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#copy-link,a#download.primary-link):is(:hover,:focus-visible),
+ html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#share-card,a#download.primary-link),
+ html[data-site-design=v2] body.database-page :is(main,dialog) :is(#clear,#share-card,a#download.primary-link):is(:hover,:focus-visible),
  html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook),
  html[data-site-design=v2] body.rulebook-page .manual :is(.hero-links a,.chapter-top-link,#browse-chapters,#expand-rules,#print-rulebook):is(:hover,:focus-visible),
  html[data-site-design=v2] body .account-page .account-card.account-auth-card .account-tabs button[aria-pressed=true]:is(:hover,:focus-visible){
   background:var(--action-red);border:1px solid var(--action-red);color:#fff;box-shadow:none;
  }
- html[data-site-design=v2] body.database-page #card-detail #download{--download-ring:var(--action-red)}
+ html[data-site-design=v2] body.database-page #card-detail :is(#download,#share-card){--download-ring:var(--action-red)}
 }
 
 /* The Rules contents panel uses neutral controls and chapter highlights. */

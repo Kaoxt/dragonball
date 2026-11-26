@@ -24,7 +24,7 @@ for(const width of [320,390,1280]) test(`database browsing at ${width}`,async({p
  await page.locator('#type').selectOption('Drill');
  await expect(page.locator('.catalog-card')).toHaveCount(catalog.filter(c=>c.type==='Drill'&&c.set==='Saiyan Saga').length);
  await page.locator('.catalog-card').first().click();
- await expect(page.locator('#share-url')).toBeVisible();
+ await expect(page.getByRole('button',{name:'Share',exact:true})).toBeVisible();
  await page.locator('#close-detail').click();
  for(const path of ['/cards/','/','/rulebook/']){
   await page.goto(path);
