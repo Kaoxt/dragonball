@@ -15,7 +15,7 @@ const logos = {
 // Subsets have their own numbering and URLs, while retaining their parent saga.
 export const subsetCollections = {
   'Movie 7: Super Android 13': {
-    group: 'promos-subsets', parentSet: 'Babidi Saga', totalCards: 34,
+    group: 'promos-subsets', category: 'Movie 7', parentSet: 'Babidi Saga', totalCards: 34,
     image: '/assets/sets/movie-7-emblem.svg?v=20261124'
   }
 };
@@ -26,6 +26,33 @@ export function catalogSets(catalog) {
     sets.get(card.set).count++;
   }
   return [...sets.values()];
+}
+// Promotional Cards is a browsing collection. Original sets and card URLs
+// remain stable so existing shared links and saved decks keep their identity.
+export const PROMOTIONAL_SET = 'Promotional Cards';
+export function promoCategory(card) {
+  if (card.promoCategory) return card.promoCategory;
+  const subset = subsetCollections[card.set];
+  if (subset?.group === 'promos-subsets') return subset.category || card.set;
+  if (/^PR\d+$/i.test(card.number)) {
+    const previewSet = card.subset?.match(/^(.+?) preview\b/i)?.[1];
+    return `${previewSet || card.set} Previews`;
+  }
+  if (card.rarity === 'Promo' || /^P\d+$/i.test(card.number)) return `${card.set} Promos`;
+  return '';
+}
+export const cardInSet = (card, set) => !set || (set === PROMOTIONAL_SET ? !!promoCategory(card) : card.set === set);
+export function browserSets(catalog) {
+  const sets = catalogSets(catalog).filter(set => set.group !== 'promos-subsets');
+  const count = catalog.filter(card => promoCategory(card)).length;
+  if (count) sets.push({name:PROMOTIONAL_SET, slug:setSlug(PROMOTIONAL_SET), path:setPath(PROMOTIONAL_SET), image:'', group:'promotional', count});
+  return sets;
+}
+export function comparePromoCategories(a, b) {
+  // Named releases such as Movie 7 come first, followed by saga promos/previews.
+  const aSubset = subsetCollections[a.set]?.group === 'promos-subsets';
+  const bSubset = subsetCollections[b.set]?.group === 'promos-subsets';
+  return Number(bSubset) - Number(aSubset) || promoCategory(a).localeCompare(promoCategory(b));
 }
 export function cardFromPath(pathname, catalog) {
   const match = /^\/cards\/([^/]+)\/([^/]+)\/?$/.exec(pathname);
@@ -44,7 +71,7 @@ export function catalogRoute(pathname, catalog) {
   const match = /^\/cards\/([^/.]+)\/?$/.exec(pathname);
   if (match) {
     try {
-      const set = catalogSets(catalog).find(set => set.slug === decodeURIComponent(match[1]).toLowerCase());
+      const set = [...browserSets(catalog), ...catalogSets(catalog)].find(set => set.slug === decodeURIComponent(match[1]).toLowerCase());
       if (set) return {kind:'set', path:set.path, set:set.name};
     } catch { /* Malformed URLs become a useful not-found page. */ }
     return {kind:'missing'};
@@ -52,4 +79,5 @@ export function catalogRoute(pathname, catalog) {
   if (/^\/cards\/[^/]+\/[^/]+\/?$/.test(pathname)) return {kind:'missing'};
   return null;
 }
+
 

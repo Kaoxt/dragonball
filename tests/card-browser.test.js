@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {cardTypeLabel} from '../public/cards/card-types.js';
 import {catalog} from '../public/cards/catalog.js';
-import {cardPath,setPath,catalogRoute,catalogSets} from '../public/cards/card-links.js';
+import {cardPath,setPath,catalogRoute,catalogSets,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories} from '../public/cards/card-links.js';
 
 // Run the real browser module against a small DOM/history adapter, without a browser process.
 const source=readFileSync(new URL('../public/cards/cards.js',import.meta.url),'utf8').replace(/^import .*\n/gm,'');
@@ -35,7 +35,7 @@ function browser(path='/cards/') {
     replaceState(state,unused,path){entries[position]={path,state};setLocation(path);},
     back(){if(position){position--;move();}},forward(){if(position<entries.length-1){position++;move();}}};
   const document={getElementById:id=>elements[id],createElement:tag=>new Element(tag),title:''};
-  const context=vm.createContext({cardTypeLabel,catalog,cardPath,setPath,catalogRoute,catalogSets,document,window,location,history,URL,
+  const context=vm.createContext({cardTypeLabel,catalog,cardPath,setPath,catalogRoute,catalogSets,browserSets,PROMOTIONAL_SET,promoCategory,cardInSet,comparePromoCategories,document,window,location,history,URL,
     Option:class{constructor(text,value){this.text=text;this.value=value;}},
     localStorage:{removeItem(){removed++;}},navigator:{clipboard:{writeText:async value=>{copied=value;}}}});
   vm.runInContext(source,context);
@@ -46,26 +46,70 @@ function browser(path='/cards/') {
 const grid=b=>b.elements['card-grid'].children;
 const pageLink=(b,n)=>b.elements['pagination-top'].children.find(el=>el['aria-label']===`Page ${n}`);
 
-test('Movie 7 is discoverable under Promos & Subsets with honest availability and parent links',()=>{
+test('Promotional Cards replaces the top promo panel and individual subset options',()=>{
  const root=browser();
- assert.equal(root.elements['promo-subsets-section'].hidden,false);
- const tile=root.elements['promo-subsets-list'].children.find(el=>el.href==='/cards/movie-7-super-android-13/');
- assert.ok(tile);
- assert.equal(tile.children[1].children[0].textContent,'Movie 7: Super Android 13');
- assert.equal(tile.children[1].children[1].textContent,'34 cards available');
+ assert.equal(root.elements['promo-subsets-section'],undefined);
+ assert.equal(root.elements['related-collections'],undefined);
+ assert.equal(root.elements.set.options.filter(o=>o.value==='Promotional Cards').length,1);
+ assert.ok(!root.elements.set.options.some(o=>o.value==='Movie 7: Super Android 13'));
+ assert.ok(!grid(root).some(el=>el.className==='promo-category-heading'));
+ root.elements.set.value='Promotional Cards';root.elements.set.onchange();
+ assert.equal(root.location.assigned,'/cards/promotional-cards/');
+});
+
+test('promos render in named categories across 52-card pages without duplicates or omissions',()=>{
+ const links=[],headings=[];
+ for(let page=1;page<=3;page++){
+  const b=browser(`/cards/promotional-cards/?sort=number&page=${page}`);
+  assert.equal(b.elements.set.value,'Promotional Cards');
+  assert.equal(b.elements['breadcrumb-current'].textContent,'Promotional Cards');
+  assert.equal(b.elements['collection-name'].textContent,'Promotional Cards');
+  const children=grid(b),cards=children.filter(el=>el.className==='catalog-card');
+  assert.equal(children[0].className,'promo-category-heading');
+  assert.equal(cards.length,page===3?19:52);
+  links.push(...cards.map(el=>el.href));
+  headings.push(...children.filter(el=>el.className==='promo-category-heading').map(el=>el.textContent));
+  assert.ok(cards.every(el=>el.children[1].tagName==='h3'));
+ }
+ assert.equal(links.length,123);assert.equal(new Set(links).size,123);
+ assert.equal(headings[0],'Movie 7');
+ for(const category of ['Saiyan Saga Promos','Frieza Saga Promos','Trunks Saga Promos','Android Saga Promos','Cell Saga Promos','Cell Games Saga Promos','World Games Saga Promos','Cell Games Saga Previews','World Games Saga Previews','Babidi Saga Previews'])assert.ok(headings.includes(category));
+ assert.deepEqual(links.slice(0,34),Array.from({length:34},(_,i)=>`/cards/movie-7-super-android-13/m${i+1}`));
+ for(const card of catalog.filter(c=>/^P(?:R)?\d+$/.test(c.number)))assert.ok(links.includes(cardPath(card)));
+ assert.ok(!links.includes('/cards/world-games-saga/201'));
+});
+
+test('promo category search, filters, pagination, card close and browser history retain the collection',()=>{
+ const b=browser('/cards/promotional-cards/?sort=number');
+ b.elements.query.value='Movie 7';b.elements.query.oninput();
+ assert.equal(grid(b).filter(el=>el.className==='catalog-card').length,34);
+ assert.equal(b.elements['pagination-top'].hidden,true);
+ b.elements.type.value='Main Personality';b.elements.type.onchange();
+ const filtered=grid(b).filter(el=>el.className==='catalog-card');
+ assert.ok(filtered.length>0&&filtered.length<34);
+ const returnPath=b.location.pathname+b.location.search;
+ b.click(filtered[0]);assert.equal(b.elements['card-detail'].open,true);
+ b.elements['close-detail'].onclick();
+ assert.equal(b.location.pathname+b.location.search,returnPath);
+ assert.equal(b.elements.query.value,'Movie 7');assert.equal(b.elements.type.value,'Main Personality');
+ assert.equal(grid(b)[0].textContent,'Movie 7');
+ b.elements.clear.onclick();
+ assert.equal(b.location.pathname,'/cards/promotional-cards/');
+ b.click(pageLink(b,2));assert.equal(b.location.search,'?page=2');
+ b.history.back();assert.equal(b.location.search,'');
+ b.elements.query.value='no such promotional card';b.elements.query.oninput();
+ assert.equal(grid(b).length,0);assert.equal(b.elements['no-results'].hidden,false);
+});
+
+test('existing Movie 7 set, card, and download links remain usable',()=>{
  const movie=browser('/cards/movie-7-super-android-13/?sort=number');
- assert.equal(movie.elements['promo-subsets-section'].hidden,true);
+ assert.equal(movie.elements.set.value,'Promotional Cards');
  assert.equal(grid(movie).length,34);
  assert.ok(grid(movie).some(el=>el.href.endsWith('/m16')));
  const m16=browser('/cards/movie-7-super-android-13/m16');
  assert.equal(m16.elements['card-detail'].open,true);
  assert.equal(m16.elements['detail-name'].textContent,'Super Saiyan Goku');
  assert.equal(m16.elements.download.href,catalog.find(c=>c.id==='movie7-m16-super-saiyan-goku').downloadImage);
- assert.equal(movie.elements['related-collections'].children[0].href,'/cards/babidi-saga/');
- assert.equal(movie.elements['related-collections'].children.length,1);
- const babidi=browser('/cards/babidi-saga/');
- assert.equal(babidi.elements['related-collections'].children[0].href,tile.href);
- assert.equal(browser('/cards/saiyan-saga/').elements['related-collections'].hidden,true);
 });
 
 test('Personality labels appear in filters, result cards and details while legacy filter URLs work',()=>{
@@ -280,3 +324,4 @@ test('Cell Saga promos appear in type filters and expose exact display and downl
   assert.equal(direct.elements.download.href,card.downloadImage);
  }
 });
+

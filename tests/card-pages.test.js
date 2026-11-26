@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {catalog} from '../public/cards/catalog.js';
-import {cardPath, cardFromPath, catalogSets, catalogRoute} from '../public/cards/card-links.js';
+import {cardPath, cardFromPath, catalogSets, catalogRoute, browserSets} from '../public/cards/card-links.js';
 import {cardPage} from '../src/card-pages.js';
 
 const html = readFileSync(new URL('../public/cards/index.html', import.meta.url), 'utf8');
@@ -67,7 +67,7 @@ test('Cards serves the browser directly with set filters and pagination containe
   assert.ok(!body.includes('id="set-directory"'));
   assert.ok(body.includes('id="pagination-top"'));
   assert.ok(body.includes('id="pagination-bottom"'));
-  for(const set of catalogSets(catalog)) assert.ok(body.includes(`<option value="${set.name}"`));
+  for(const set of browserSets(catalog)) assert.ok(body.includes(`<option value="${set.name}"`));
   assert.equal(catalogRoute('/cards/',catalog).kind,'all');
 });
 
@@ -111,4 +111,23 @@ test('Android set sharing metadata uses its matching crimson banner',async()=>{
  assert.equal(response.status,200);
  assert.ok(body.includes('property="og:image" content="https://dragonballocg.com/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners"'));
  assert.ok(body.includes('<option value="Android Saga" selected>'));
+});
+
+
+
+test('Promotional Cards loads directly with the shared collection filter and canonical URL',async()=>{
+ const response=await cardPage(new Request('https://dragonballocg.com/cards/promotional-cards/?page=2'),assets);
+ const body=await response.text();
+ assert.equal(response.status,200);
+ assert.ok(body.includes('<option value="Promotional Cards" selected>'));
+ assert.ok(!body.includes('<option value="Movie 7: Super Android 13"'));
+ assert.ok(!body.includes('id="promo-subsets-section"'));
+ assert.ok(body.includes('Browse 123 promotional cards by category'));
+ assert.ok(body.includes('rel="canonical" href="https://dragonballocg.com/cards/promotional-cards/"'));
+ const alias=await cardPage(new Request('https://dragonballocg.com/cards/Promotional-Cards?query=Movie+7'),assets);
+ assert.equal(alias.status,308);
+ assert.equal(alias.headers.get('location'),'https://dragonballocg.com/cards/promotional-cards/?query=Movie+7');
+ const legacy=await cardPage(new Request('https://dragonballocg.com/cards/movie-7-super-android-13/m16'),assets);
+ assert.equal(legacy.status,200);
+ assert.ok((await legacy.text()).includes('<option value="Promotional Cards" selected>'));
 });
