@@ -1,0 +1,120 @@
+{
+  "bounds": {
+    "card-title": [
+      209.5,
+      53.6953,
+      640.0,
+      51.3666
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      788.81,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      848.61,
+      1392.65,
+      57.081,
+      33.708
+    ],
+    "rules-line-1": [
+      209.265,
+      1013.53,
+      695.016,
+      45.913
+    ],
+    "rules-line-2": [
+      175.755,
+      1072.53,
+      707.49,
+      45.913
+    ],
+    "rules-line-3": [
+      136.875,
+      1131.53,
+      785.251,
+      45.913
+    ],
+    "rules-line-4": [
+      231.653,
+      1190.53,
+      595.693,
+      40.572
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +7 stages.",
+      "baseline": 1049.3,
+      "width": 751.1301555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "Against a Rogue Personality, this attack",
+      "baseline": 1108.3,
+      "width": 709.128,
+      "icon_inline": false
+    },
+    {
+      "text": "deals +4 life cards. If that Rogue Personality",
+      "baseline": 1167.3,
+      "width": 787.4300000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "is a Villain, this attack is focused.",
+      "baseline": 1226.3,
+      "width": 598.731,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 123,
+  "id": "babidi-123-majin-vegeta-the-malevolent",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-123-majin-vegeta-the-malevolent.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "3239da63a969339ca02ab4b5431b07d2ccb0cd5caf676d4bce714e2ad5de19ad",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-123-majin-vegeta-the-malevolent.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c32315dd3cd98790fd13cbbd24d2d0051d380de001487a3f0c3cd87220ae8b7b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "1f655304d09db17db1d9e18bb3eaf62db0df08c94adb0ac902be79e0ed4cbd1e",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-123.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

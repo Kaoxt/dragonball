@@ -1,0 +1,105 @@
+{
+  "bounds": {
+    "card-title": [
+      285.075,
+      44.5,
+      488.85,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      791.407,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.207,
+      1392.65,
+      51.887,
+      33.708
+    ],
+    "rules-line-1": [
+      228.41,
+      1013.53,
+      602.181,
+      45.768
+    ],
+    "rules-line-2": [
+      142.106,
+      1073.85,
+      774.788,
+      43.5664
+    ],
+    "rules-line-3": [
+      253.654,
+      1131.53,
+      551.691,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin only. POWER: Use when your",
+      "baseline": 1049.3,
+      "width": 604.562,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent uses a card effect to draw a card.",
+      "baseline": 1108.3,
+      "width": 777.875,
+      "icon_inline": false
+    },
+    {
+      "text": "Draw 2 cards. Banish after use.",
+      "baseline": 1167.3,
+      "width": 555.4150000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 110,
+  "id": "babidi-110-majin-quickness",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-110-majin-quickness.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "7e0f0179c130781afde4ee80b1524860da4c93afc1fcb0ce6a7bc2359ff1fbb1",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-110-majin-quickness.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "cab82951cc3a71b45f84f0629d87c594e744b2e4a57a7ceb467f455bb074c7ae",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "6fc863a00efda075f6041575132e0eb47396509f034e875053f4953fa55fd4c5",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-110.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

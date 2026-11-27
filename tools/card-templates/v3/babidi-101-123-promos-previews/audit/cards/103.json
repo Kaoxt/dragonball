@@ -1,0 +1,105 @@
+{
+  "bounds": {
+    "card-title": [
+      507.002,
+      51.6409,
+      44.9963,
+      54.7182
+    ],
+    "card-category": [
+      432.072,
+      891.391,
+      194.856,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      787.644,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.444,
+      1392.65,
+      59.413,
+      33.708
+    ],
+    "rules-line-1": [
+      212.225,
+      1013.53,
+      634.55,
+      45.521
+    ],
+    "rules-line-2": [
+      94.87,
+      1072.53,
+      869.26,
+      45.768
+    ],
+    "rules-line-3": [
+      102.514,
+      1131.53,
+      853.972,
+      45.768
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: Attach this card to your MP.",
+      "baseline": 1049.3,
+      "width": 638.225,
+      "icon_inline": false
+    },
+    {
+      "text": "While attached, your MP can use Majin only cards",
+      "baseline": 1108.3,
+      "width": 871.0730000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "and is considered a Majin for other card powers.",
+      "baseline": 1167.3,
+      "width": 856.6670000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 103,
+  "id": "babidi-103-m",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-103-m.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "19cf462aba2d4f3d615f516bc36e8b798a3311ab728de2a2ea49c75364470f20",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-103-m.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "9bc9a006db07eeb346e5ff96533d47859607781763137e46733997ba9323368e",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "aa996da160492f56f83bfe51d127566737deb4332ae4de84457c540139e7531f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-103.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

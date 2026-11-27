@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      313.122,
+      50.2213,
+      432.756,
+      57.5574
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      776.805,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      836.605,
+      1392.65,
+      81.09,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      204.385,
+      1072.53,
+      650.23,
+      45.913
+    ],
+    "rules-line-3": [
+      257.109,
+      1131.53,
+      544.782,
+      45.521
+    ],
+    "rules-line-4": [
+      178.317,
+      1190.53,
+      702.366,
+      45.521
+    ],
+    "rules-line-5": [
+      199.803,
+      1249.53,
+      659.393,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. If Earth Dragon",
+      "baseline": 1108.3,
+      "width": 654.0520000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Ball 1 or 2 is in play, this attack",
+      "baseline": 1167.3,
+      "width": 547.9180000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "deals +1 life card per Blue Style Drill you",
+      "baseline": 1226.3,
+      "width": 705.7470000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "have in play. Raise your anger 1 level.",
+      "baseline": 1285.3,
+      "width": 662.8230000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "Pre3",
+  "id": "babidi-pre3-blue-buu-blast",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-pre3-blue-buu-blast.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "66bdb51cb2ce8d8cd213e1f757000ee1dbf1fadebacc2cc7308f9e8b528f321a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-pre3-blue-buu-blast.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "17f362d4e61e9ef86f8af65f7c29b1752a56f85a99d10bbb8475c31c4282f9e6",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "c5107525d3770b551891b5784b7a7b46d1f37852c68181ef687dfcb2c50a856b",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-Pre3.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

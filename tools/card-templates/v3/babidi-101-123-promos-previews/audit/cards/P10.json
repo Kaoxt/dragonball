@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      253.887,
+      50.2213,
+      551.226,
+      57.5574
+    ],
+    "card-category": [
+      448.339,
+      891.991,
+      162.322,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      787.67,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.47,
+      1392.65,
+      59.36,
+      33.708
+    ],
+    "rules-line-1": [
+      209.273,
+      1013.53,
+      691.978,
+      45.913
+    ],
+    "rules-line-2": [
+      194.904,
+      1073.85,
+      669.193,
+      44.2034
+    ],
+    "rules-line-3": [
+      221.559,
+      1132.61,
+      615.881,
+      44.443
+    ],
+    "rules-line-4": [
+      258.432,
+      1190.53,
+      542.136,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "During Combat, you may discard a card",
+      "baseline": 1049.3,
+      "width": 745.3649473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "from your hand to stop a non-focused",
+      "baseline": 1108.3,
+      "width": 671.9370000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attack. For the rest of Combat, you",
+      "baseline": 1167.3,
+      "width": 618.8700000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "must pass during every phase.",
+      "baseline": 1226.3,
+      "width": 545.517,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P10",
+  "id": "babidi-p10-total-defense-drill",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p10-total-defense-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "3ad06acebeb829c1e598af19bdd29ffbd203492b14541ff8974bf5e12549ff08",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p10-total-defense-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "69da74a8d008479187747a005cb4d818f814144f14d47550f4ff99558863d40a",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4aba4e65ff602466224627b4db0c7ac76d76cfc7eac152d89959733b7303eeec",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-P10.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

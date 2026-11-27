@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      270.062,
+      50.2213,
+      518.877,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      776.222,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      836.022,
+      1392.65,
+      82.256,
+      33.708
+    ],
+    "rules-line-1": [
+      207.379,
+      1013.53,
+      698.789,
+      45.913
+    ],
+    "rules-line-2": [
+      196.888,
+      1072.53,
+      665.224,
+      45.521
+    ],
+    "rules-line-3": [
+      195.604,
+      1131.53,
+      667.792,
+      45.521
+    ],
+    "rules-line-4": [
+      245.839,
+      1190.53,
+      567.322,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +4 stages.",
+      "baseline": 1049.3,
+      "width": 754.9031555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Instead, you may banish 3 Rares from",
+      "baseline": 1108.3,
+      "width": 669.046,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile to stop a physical or",
+      "baseline": 1167.3,
+      "width": 668.801,
+      "icon_inline": false
+    },
+    {
+      "text": "energy attack. Banish after use.",
+      "baseline": 1226.3,
+      "width": 570.4090000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "Pre5",
+  "id": "babidi-pre5-black-choke-hold",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-pre5-black-choke-hold.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dc253e124f7132abe2ab2bc884f81190a4d3ee21cfa9e1bc44ae522aae11b30f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-pre5-black-choke-hold.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "75cb6ec0c471c6f1d34101665ebd13743dd60eb8e900f82efa94889e73ae0574",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "b7ab6f6b9630aa19ff70ed5446c2cbae9433b4586c49f59ea826b5e9711e95eb",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-Pre5.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

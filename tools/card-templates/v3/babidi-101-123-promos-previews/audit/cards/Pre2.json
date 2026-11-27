@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      313.208,
+      44.5,
+      432.584,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      776.885,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      836.685,
+      1392.65,
+      80.931,
+      33.708
+    ],
+    "rules-line-1": [
+      292.757,
+      1014.95,
+      473.487,
+      44.1
+    ],
+    "rules-line-2": [
+      296.062,
+      1072.53,
+      466.876,
+      45.521
+    ],
+    "rules-line-3": [
+      223.373,
+      1131.53,
+      612.255,
+      45.913
+    ],
+    "rules-line-4": [
+      236.578,
+      1190.53,
+      585.844,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance X. X = your MP\u2019s",
+      "baseline": 1049.3,
+      "width": 476.476,
+      "icon_inline": false
+    },
+    {
+      "text": "PUR -1. Physical attack.",
+      "baseline": 1108.3,
+      "width": 470.55115554385935,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +3 life cards +1",
+      "baseline": 1167.3,
+      "width": 616.1750000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "stage for each card in your hand.",
+      "baseline": 1226.3,
+      "width": 588.5880000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "Pre2",
+  "id": "babidi-pre2-saiyan-escape",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-pre2-saiyan-escape.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "bebc7de468d9370d4588b97743ec79eaab5b63557badeb086b42892b01ec2262",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-pre2-saiyan-escape.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "4ee474aa46916bd9ff2cf890257a0c216529d5231f611fcdea639d1bdac1afeb",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4c820613d2a6301e81d6c38ac13c28e03c6846a667f7eab7e742824f253f9c35",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-Pre2.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

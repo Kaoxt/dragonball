@@ -5,6 +5,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
+import {beforeBabidiCompletionFile} from './pre-babidi-completion.js';
 import revisions from '../../tools/card-corrections/v3-majin-buu-dende-summoning/integration-files.json' with {type:'json'};
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
@@ -13,7 +14,7 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 
 export function beforeDendeSummoningFile(file) {
   const absolute = file instanceof URL ? fileURLToPath(file) : path.resolve(file);
-  const current = readFileSync(absolute);
+  const current = beforeBabidiCompletionFile(absolute);
   const revision = files.get(path.relative(root, absolute));
   if (!revision) return current;
   assert.equal(hash(current), revision.after_sha256, revision.path);

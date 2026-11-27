@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      235.863,
+      50.2213,
+      587.274,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      792.202,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      852.002,
+      1392.65,
+      50.297,
+      33.708
+    ],
+    "rules-line-1": [
+      177.89,
+      1013.53,
+      703.22,
+      45.521
+    ],
+    "rules-line-2": [
+      179.805,
+      1072.53,
+      699.39,
+      45.521
+    ],
+    "rules-line-3": [
+      131.252,
+      1131.53,
+      796.495,
+      45.521
+    ],
+    "rules-line-4": [
+      157.076,
+      1190.53,
+      744.849,
+      44.884
+    ],
+    "rules-line-5": [
+      138.602,
+      1249.53,
+      781.795,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Stops a physical attack.",
+      "baseline": 1049.3,
+      "width": 706.943947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "You may banish any number of \"Sword\"",
+      "baseline": 1108.3,
+      "width": 701.337,
+      "icon_inline": false
+    },
+    {
+      "text": "titled cards from your discard pile. Your next",
+      "baseline": 1167.3,
+      "width": 798.0630000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "non-focused, non-unstoppable attack this",
+      "baseline": 1226.3,
+      "width": 747.544,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat deals +1 life card per card banished.",
+      "baseline": 1285.3,
+      "width": 785.0290000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 112,
+  "id": "babidi-112-heroic-sword-catch",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-112-heroic-sword-catch.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "0a0b1b1c586d40ac82009809e776baf172db70a586f53a53a95b6de105982ec1",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-112-heroic-sword-catch.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3cb01f720d9b7dc78f4f54ebf66544b36ab507f8c223340737efb8ccbf50e7a0",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "49df0321d14b8aa3e320e53b3779198e1b8200bfcf32c0a15e747d3cdb9a4f2b",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-112.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

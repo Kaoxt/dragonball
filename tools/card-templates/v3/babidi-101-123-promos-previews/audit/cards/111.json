@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      237.196,
+      44.5,
+      584.607,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      795.991,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.791,
+      1392.65,
+      42.718,
+      33.708
+    ],
+    "rules-line-1": [
+      234.868,
+      1013.53,
+      643.811,
+      45.913
+    ],
+    "rules-line-2": [
+      176.774,
+      1072.53,
+      705.453,
+      45.521
+    ],
+    "rules-line-3": [
+      162.343,
+      1131.53,
+      734.314,
+      45.913
+    ],
+    "rules-line-4": [
+      157.149,
+      1190.53,
+      744.702,
+      45.521
+    ],
+    "rules-line-5": [
+      135.221,
+      1249.53,
+      788.557,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT stages.",
+      "baseline": 1049.3,
+      "width": 699.9251555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "HIT: Discard a Setup, Drill or Ally in play.",
+      "baseline": 1108.3,
+      "width": 709.1769999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "If Namek Dragon Ball 3 or 4 is in play, this",
+      "baseline": 1167.3,
+      "width": 737.303,
+      "icon_inline": false
+    },
+    {
+      "text": "stays in play for X more uses this Combat.",
+      "baseline": 1226.3,
+      "width": 747.4459999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "X = your MP's current level. Banish after use.",
+      "baseline": 1285.3,
+      "width": 791.3500000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 111,
+  "id": "babidi-111-blue-trapped-strike",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-111-blue-trapped-strike.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "72fbc081f4281c84e5e2bc967e75a654923921b137265990c82e783a866c69b1",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-111-blue-trapped-strike.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c0e38791fecd3c6946448b8667d49b3ceeae513aa339d70a5824579cf164c2d9",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "ae912f9c173ade17bedbc405e2beacf845fcc6aae000ccce121a9fa1c52f72a2",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-111.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

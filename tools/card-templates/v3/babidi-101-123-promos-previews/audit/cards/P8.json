@@ -1,0 +1,94 @@
+{
+  "bounds": {
+    "card-title": [
+      562.203,
+      45.9196,
+      358.594,
+      66.1608
+    ],
+    "card-category": [
+      499.578,
+      668.057,
+      483.844,
+      34.2188
+    ],
+    "saga-emblem": [
+      261.55,
+      958.4813664596273,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      1134.58,
+      961.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      1194.38,
+      968.646,
+      43.937,
+      33.708
+    ],
+    "rules-line-1": [
+      212.61,
+      780.213,
+      1124.35,
+      45.913
+    ],
+    "rules-line-2": [
+      167.563,
+      839.213,
+      1147.87,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, a player may banish the bottom 3 cards",
+      "baseline": 815.983333333333,
+      "width": 1191.76075,
+      "icon_inline": true
+    },
+    {
+      "text": "of their discard pile to shuffle its top 2 cards into their Life Deck.",
+      "baseline": 874.983333333333,
+      "width": 1150.961,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P8",
+  "id": "babidi-p8-outer-space",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p8-outer-space.webp",
+      "size": [
+        1484,
+        1060
+      ],
+      "sha256": "399700be6e08be43b9a9ee4a573e98ab8b790461855dd4b92e750210c1eec73a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p8-outer-space.webp",
+      "size": [
+        2968,
+        2120
+      ],
+      "sha256": "ec9e8bae3684ba26590144573e9960689f05b8db59d0b2760a4ab5fd0af226b8",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "23460e30bbafdc8f43a46dd7035729a2e3fbb163764a2590af5c8e0701b6dfa9",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+    "artwork-P8.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

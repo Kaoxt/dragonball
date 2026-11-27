@@ -1,0 +1,132 @@
+{
+  "bounds": {
+    "card-title": [
+      209.5,
+      53.5422,
+      640.0,
+      51.6774
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      792.122,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.922,
+      1392.65,
+      50.456,
+      33.708
+    ],
+    "rules-line-1": [
+      415.653,
+      1013.53,
+      282.24,
+      45.521
+    ],
+    "rules-line-2": [
+      239.224,
+      1072.53,
+      580.552,
+      45.913
+    ],
+    "rules-line-3": [
+      190.603,
+      1131.53,
+      677.794,
+      45.913
+    ],
+    "rules-line-4": [
+      170.869,
+      1190.53,
+      717.262,
+      45.768
+    ],
+    "rules-line-5": [
+      158.374,
+      1249.53,
+      742.252,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack.",
+      "baseline": 1049.3,
+      "width": 338.35415554385935,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +4 life cards.",
+      "baseline": 1108.3,
+      "width": 584.2760000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "When performing this attack, you may",
+      "baseline": 1167.3,
+      "width": 679.434,
+      "icon_inline": false
+    },
+    {
+      "text": "banish 3 cards with \"Majin\" in their titles",
+      "baseline": 1226.3,
+      "width": 719.957,
+      "icon_inline": false
+    },
+    {
+      "text": "from your discard pile to make it focused.",
+      "baseline": 1285.3,
+      "width": 744.702,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 113,
+  "id": "babidi-113-majin-vegeta-uncontrollable",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-113-majin-vegeta-uncontrollable.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "8fd2f9d68c5751f472c522bd7e1ae1be198979bc217337d6246a09f0b97968dd",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-113-majin-vegeta-uncontrollable.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "23f6a61001c7b4d05f59e78ad1af9c091b0cb21002064f6a600ebfc3555645c8",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8ae9422e1ada8c975d3497e9c5d68015e4b0687c48ddfe4b3013a47e9addeb79",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-113.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

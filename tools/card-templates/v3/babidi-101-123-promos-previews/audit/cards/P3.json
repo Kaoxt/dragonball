@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      227.001,
+      44.5,
+      604.998,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      796.071,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.871,
+      1392.65,
+      42.559,
+      33.708
+    ],
+    "rules-line-1": [
+      91.7095,
+      1013.53,
+      875.581,
+      45.913
+    ],
+    "rules-line-2": [
+      191.354,
+      1072.53,
+      726.984,
+      45.913
+    ],
+    "rules-line-3": [
+      182.727,
+      1131.53,
+      693.546,
+      44.884
+    ],
+    "rules-line-4": [
+      155.424,
+      1190.53,
+      748.152,
+      45.913
+    ],
+    "rules-line-5": [
+      141.518,
+      1249.53,
+      775.964,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Discard an Energy Combat card from hand to use.",
+      "baseline": 1049.3,
+      "width": 879.3050000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Stops an energy attack. Both reveal their",
+      "baseline": 1108.3,
+      "width": 778.0479473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "top 3 Life Deck cards. Whoever reveals",
+      "baseline": 1167.3,
+      "width": 695.016,
+      "icon_inline": false
+    },
+    {
+      "text": "fewer Energy Combat cards discards their",
+      "baseline": 1226.3,
+      "width": 749.4060000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "top 4 Life Deck cards. Tie: neither discards.",
+      "baseline": 1285.3,
+      "width": 778.1690000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P3",
+  "id": "babidi-p3-goku-s-energy-clash",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p3-goku-s-energy-clash.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ca9b947ce3ff44a1bfb0599b82abf366757835fd7859babb1cb2148dc4f1bc57",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p3-goku-s-energy-clash.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "67f1d159a0f2f6262e549b9a0cf7b9791cc4a8b7802eea7b7646a4ea5dcabc3b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "106bf0a8b772574784c8710c6550ed355567e0db512b54130ae4e30d17328a43",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-P3.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

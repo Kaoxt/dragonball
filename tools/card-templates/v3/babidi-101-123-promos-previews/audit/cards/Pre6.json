@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      299.873,
+      44.5,
+      459.254,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      776.116,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      835.916,
+      1392.65,
+      82.468,
+      33.708
+    ],
+    "rules-line-1": [
+      204.753,
+      1015.0,
+      649.495,
+      44.443
+    ],
+    "rules-line-2": [
+      208.555,
+      1072.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-3": [
+      205.096,
+      1131.53,
+      648.809,
+      45.521
+    ],
+    "rules-line-4": [
+      158.594,
+      1190.53,
+      741.811,
+      45.913
+    ],
+    "rules-line-5": [
+      231.972,
+      1250.85,
+      595.056,
+      44.5954
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance X. X = your current anger.",
+      "baseline": 1049.3,
+      "width": 653.2189999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1108.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "For this Combat, any HIT effects that",
+      "baseline": 1167.3,
+      "width": 651.896,
+      "icon_inline": false
+    },
+    {
+      "text": "raise your anger or lower your opponent\u2019s",
+      "baseline": 1226.3,
+      "width": 744.5060000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "anger become secondary effects.",
+      "baseline": 1285.3,
+      "width": 597.7510000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "Pre6",
+  "id": "babidi-pre6-red-torso-chop",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-pre6-red-torso-chop.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "12cded0ddfbee1b3fc137bbe81c7fa59606ba838a9eac812ed0cf3ef87be817f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-pre6-red-torso-chop.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3058fd50e595d935e6c2f3bd90a0279754e00f4361803e376974423f9d7da41c",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "95933cd1c4f87ac9f3941fdff124baf2a0b3cfcd3b97e7d11039f1d6420ca3a4",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-Pre6.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

@@ -1,0 +1,105 @@
+{
+  "bounds": {
+    "card-title": [
+      220.893,
+      44.5,
+      617.214,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      799.94,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.739,
+      1392.65,
+      34.821,
+      33.708
+    ],
+    "rules-line-1": [
+      98.545,
+      1013.53,
+      861.91,
+      45.768
+    ],
+    "rules-line-2": [
+      125.534,
+      1072.53,
+      807.932,
+      44.884
+    ],
+    "rules-line-3": [
+      170.526,
+      1131.53,
+      717.948,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin Babidi only. POWER: Discard an Ally in play.",
+      "baseline": 1049.3,
+      "width": 865.4869999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Its controller discards the top 5 cards of their",
+      "baseline": 1108.3,
+      "width": 810.4599999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Life Deck. Draw a card. Banish after use.",
+      "baseline": 1167.3,
+      "width": 721.672,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P1",
+  "id": "babidi-p1-majin-babidi-s-magic",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p1-majin-babidi-s-magic.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2d1e101502636309991bdb93c502185909f3ccddbb118233c1b296e60b60b8fa",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p1-majin-babidi-s-magic.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "8b92fbd1b6175aaad17f9fa6cc614d6720d835f43ebc6e6744046baa542393e6",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "f89e79799df4e75bfff19247096579353601d46ccf45ed10b2d63752aaed7c27",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-P1.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

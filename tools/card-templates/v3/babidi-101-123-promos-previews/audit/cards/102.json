@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      396.963,
+      50.2213,
+      265.074,
+      57.5574
+    ],
+    "card-category": [
+      432.072,
+      891.391,
+      194.856,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      787.723,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.523,
+      1392.65,
+      59.254,
+      33.708
+    ],
+    "rules-line-1": [
+      179.909,
+      1013.53,
+      699.181,
+      45.913
+    ],
+    "rules-line-2": [
+      158.595,
+      1072.53,
+      741.811,
+      45.521
+    ],
+    "rules-line-3": [
+      193.041,
+      1131.53,
+      672.917,
+      45.521
+    ],
+    "rules-line-4": [
+      179.087,
+      1191.61,
+      700.826,
+      43.806
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. When entering Combat",
+      "baseline": 1049.3,
+      "width": 702.268,
+      "icon_inline": false
+    },
+    {
+      "text": "as the defender, you may banish this card",
+      "baseline": 1108.3,
+      "width": 744.8000000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "to make your opponent skip their first",
+      "baseline": 1167.3,
+      "width": 674.4850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Attacker Attacks phase of that Combat.",
+      "baseline": 1226.3,
+      "width": 703.052,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 102,
+  "id": "babidi-102-initiative",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-102-initiative.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f07f4593cdaeeb7d752490fa5933369beda1874349387c09d05d3b5bf734cf90",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-102-initiative.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b9534b8da8474826d02d41c3e566ef5a591534e395dfb490b9a4aa8dfa92c936",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "680132befd3d86cbe33ef9b72fdd634c3e4c4aa17b8e5b4b9d4a7dabddcdc3dd",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-102.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

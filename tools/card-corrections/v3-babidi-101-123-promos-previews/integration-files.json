@@ -1,0 +1,62 @@
+[
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/package.json.gz",
+    "before_sha256": "6ee8586f6401253c0c746c74f69aac3216d8d0c18f542e678281aef61c401c41",
+    "after_sha256": "86012cb49a9090281360732d16194ffdb41903dd8f4eefb18bf5fed1516af6f6"
+  },
+  {
+    "path": "public/cards/card-links.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/public/cards/card-links.js.gz",
+    "before_sha256": "0c9e953a8ba828eb6222fb93ab92af37aed7188cd92ba579d2fe4c231bbf5df6",
+    "after_sha256": "627a7ee96af62d3eba660449b5d2f1b425c7c3485317bee5e1749f0fbd7cee94"
+  },
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/public/cards/catalog.js.gz",
+    "before_sha256": "082e76b89e21d182be10f56a36df76c8506f3e07b6c7db4df3ac2b8e1e70aded",
+    "after_sha256": "9de8d155ca10fe971b38eb97fe00fc8b9888d7b676f60695eb9f85c8e214c5d4"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/public/decks/code-card-ids.js.gz",
+    "before_sha256": "de294abd6b86ca344894901f82e98004008119998957da59884c4629b91fe9b9",
+    "after_sha256": "f43910e0108c24a4e3659f6dd323b6adcd9575518941936e9e5b2ed1e1940f53"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/public/personality-power.js.gz",
+    "before_sha256": "b0343f9e25ab545e3bb39e6a79a42d44a5f88db11f5308a2fd8a4fab04b6d113",
+    "after_sha256": "9e116b964c8f1df428ffe5f61b77311180112a9de5eb9e3ab1ff421b78afeb84"
+  },
+  {
+    "path": "tests/card-browser.test.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/tests/card-browser.test.js.gz",
+    "before_sha256": "82f8cd980ddfadea35c02459a936a8c9421d29c4ab2cb40c5b072b4f2ecd6b90",
+    "after_sha256": "65c0c44058773fce7bf3b20f7a84753fb012077c8bf270c3fdf379d2ec089625"
+  },
+  {
+    "path": "tests/card-majin-buu-dende-summoning.test.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/tests/card-majin-buu-dende-summoning.test.js.gz",
+    "before_sha256": "24d135b63555b5bf034bd2673a6ecd90b3f6fd5aa646260be5d4eb753095d666",
+    "after_sha256": "c9391a5a3cf1e20033449fd403f145c7d36e28c26e8a23c241ec4ce51038e59c"
+  },
+  {
+    "path": "tests/card-pages.test.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/tests/card-pages.test.js.gz",
+    "before_sha256": "b61b7a58ea204791510d9ef23273d2683ae26843cb5b3cfb293af5ca8a015f33",
+    "after_sha256": "23dfd3144ccf2d6b1df2eb64eab86d6fc85f82d74234014fd4611b022cd0544f"
+  },
+  {
+    "path": "tests/card-v3-babidi-030.test.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/tests/card-v3-babidi-030.test.js.gz",
+    "before_sha256": "d291f397e2819266f1adc0c10e48c604dccd580f123841cd235fc81267d906b4",
+    "after_sha256": "2ac64eb6d06fa07158a47f8ab8e87c31c517d79acaf7610f33c2aefe1b8b91e4"
+  },
+  {
+    "path": "tests/helpers/pre-dende-summoning.js",
+    "before_file": "tools/card-corrections/v3-babidi-101-123-promos-previews/before/tests/helpers/pre-dende-summoning.js.gz",
+    "before_sha256": "45dfa0d827928b19e7f11ff9b837daa9f3f1c70034a85af6e762c9b552263902",
+    "after_sha256": "46833305710ed92c5eaa6c0b25bf5363314b61ae550b93655245b74a69c0e5dd"
+  }
+]

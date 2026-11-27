@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      210.87,
+      44.5,
+      637.261,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      796.15,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.95,
+      1392.65,
+      42.4,
+      33.708
+    ],
+    "rules-line-1": [
+      182.898,
+      1013.53,
+      693.203,
+      45.521
+    ],
+    "rules-line-2": [
+      159.77,
+      1074.0,
+      739.459,
+      44.051
+    ],
+    "rules-line-3": [
+      165.749,
+      1131.53,
+      727.503,
+      45.521
+    ],
+    "rules-line-4": [
+      146.639,
+      1190.53,
+      765.723,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "POWER: For this Combat, whenever you",
+      "baseline": 1049.3,
+      "width": 697.172,
+      "icon_inline": false
+    },
+    {
+      "text": "use Endurance, you may place the bottom",
+      "baseline": 1108.3,
+      "width": 742.7909999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "card of your discard pile at the bottom of",
+      "baseline": 1167.3,
+      "width": 730.0509999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck, and your MP gains 2 stages.",
+      "baseline": 1226.3,
+      "width": 767.928,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P2",
+  "id": "babidi-p2-power-through-might",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p2-power-through-might.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "e041a2997c7e086e2a3ff28e1240243abb280e46fe7bb5453c4fbc075e09144f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p2-power-through-might.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "cbcdc47510b2c965ec1da22c4f7a9873588d3b55329cee8d042c489551442587",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "194991b160cf643685d77c74d6051b9a48dc7b6ae7fa2e7658cd86c0b6a2269e",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-P2.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

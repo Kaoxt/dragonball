@@ -1,0 +1,96 @@
+{
+  "bounds": {
+    "card-title": [
+      209.5,
+      48.7466,
+      640.0,
+      61.4122
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      787.167,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      846.967,
+      1392.65,
+      60.367,
+      33.708
+    ],
+    "rules-line-1": [
+      274.829,
+      1013.53,
+      576.113,
+      36.162
+    ],
+    "rules-line-2": [
+      210.951,
+      1072.53,
+      637.098,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your attacks deal +1 life card for",
+      "baseline": 1049.3,
+      "width": 643.25475,
+      "icon_inline": true
+    },
+    {
+      "text": "each card you have drawn this turn.",
+      "baseline": 1108.3,
+      "width": 640.1850000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 109,
+  "id": "babidi-109-majin-dabura-meditated",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-109-majin-dabura-meditated.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a895a62b6cfd4b6efd674a78277111cf58941a272d7046659ae20d42fa2dd73e",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-109-majin-dabura-meditated.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "76f5139521c239e5e44021fb72af02baf4bdcd0663aa94fcee3e5ae184a1959a",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "3208a5553077cfc7fd6a31c1346b000d6e9c1d4f889fbdd64439987229071226",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-109.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

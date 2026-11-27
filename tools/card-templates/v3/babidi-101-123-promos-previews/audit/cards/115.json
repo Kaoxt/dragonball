@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      223.302,
+      44.5,
+      612.397,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      791.539,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.339,
+      1392.65,
+      51.622,
+      33.708
+    ],
+    "rules-line-1": [
+      200.61,
+      1013.53,
+      657.78,
+      45.521
+    ],
+    "rules-line-2": [
+      118.905,
+      1072.53,
+      821.191,
+      45.913
+    ],
+    "rules-line-3": [
+      88.5637,
+      1131.53,
+      881.873,
+      45.913
+    ],
+    "rules-line-4": [
+      88.7352,
+      1190.53,
+      881.53,
+      45.913
+    ],
+    "rules-line-5": [
+      110.795,
+      1249.53,
+      837.41,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Sensei Deck only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 660.6711555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +3 life cards. This Combat:",
+      "baseline": 1108.3,
+      "width": 826.14,
+      "icon_inline": false
+    },
+    {
+      "text": "prevent 2 stages of enemy physical damage; your",
+      "baseline": 1167.3,
+      "width": 884.254,
+      "icon_inline": false
+    },
+    {
+      "text": "physical attacks raise your anger 1 level and their",
+      "baseline": 1226.3,
+      "width": 883.9110000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "damage cannot be prevented. Banish after use.",
+      "baseline": 1285.3,
+      "width": 840.4970000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 115,
+  "id": "babidi-115-orange-rapid-attack",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-115-orange-rapid-attack.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ade8a8f32f8db854d9903bb3acd3f517d73d340a227fc6350d9f438f008a2b92",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-115-orange-rapid-attack.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "da4ca7770c769382cd96920fe3d2bc30847db0da291211d9d33f1e6b646b78a8",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "07dd2de1316c10af3f997079ad7b2333064711b1786379a8778659fd4b68a35a",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-115.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

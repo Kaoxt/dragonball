@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      276.858,
+      44.5,
+      505.283,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      788.094,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.894,
+      1392.65,
+      58.512,
+      33.708
+    ],
+    "rules-line-1": [
+      273.867,
+      1013.53,
+      511.266,
+      44.884
+    ],
+    "rules-line-2": [
+      313.138,
+      1072.53,
+      432.723,
+      45.521
+    ],
+    "rules-line-3": [
+      240.4,
+      1131.53,
+      578.2,
+      45.913
+    ],
+    "rules-line-4": [
+      266.027,
+      1192.0,
+      526.946,
+      44.443
+    ],
+    "rules-line-5": [
+      171.408,
+      1249.53,
+      716.184,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Sensei Deck",
+      "baseline": 1049.3,
+      "width": 514.402,
+      "icon_inline": false
+    },
+    {
+      "text": "only. Physical attack.",
+      "baseline": 1108.3,
+      "width": 435.81015554385937,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT stages +3 life cards.",
+      "baseline": 1167.3,
+      "width": 581.9240000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Damage cannot be prevented.",
+      "baseline": 1226.3,
+      "width": 530.6700000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Draw a card and raise your anger 1 level.",
+      "baseline": 1285.3,
+      "width": 719.9080000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 120,
+  "id": "babidi-120-saiyan-headshot",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-120-saiyan-headshot.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "48f4d378ff3354f614111b068d2c052f5282ac6d3f30f8a318241c1d6e683576",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-120-saiyan-headshot.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "18983d624c5952ae7a6b8996ab32777eae86fa8849030b2fcce0e4d16faccc93",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "af33bd637f6c39a729728fb94779586a792f49f74e7af17d803308ae08d0bf2f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-120.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

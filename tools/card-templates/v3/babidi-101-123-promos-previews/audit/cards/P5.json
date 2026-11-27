@@ -1,0 +1,120 @@
+{
+  "bounds": {
+    "card-title": [
+      440.626,
+      50.2213,
+      177.748,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      795.488,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.287,
+      1392.65,
+      43.725,
+      33.708
+    ],
+    "rules-line-1": [
+      214.593,
+      1014.85,
+      696.388,
+      44.2034
+    ],
+    "rules-line-2": [
+      183.609,
+      1072.53,
+      691.782,
+      45.521
+    ],
+    "rules-line-3": [
+      153.67,
+      1131.53,
+      751.66,
+      45.521
+    ],
+    "rules-line-4": [
+      186.647,
+      1190.53,
+      685.706,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "When your opponent uses a card effect",
+      "baseline": 1049.3,
+      "width": 763.89275,
+      "icon_inline": true
+    },
+    {
+      "text": "to discard any of your Allies, they must",
+      "baseline": 1108.3,
+      "width": 693.3500000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "discard this Ally first. Jewel does not need",
+      "baseline": 1167.3,
+      "width": 755.041,
+      "icon_inline": false
+    },
+    {
+      "text": "to take over Combat to use this power.",
+      "baseline": 1226.3,
+      "width": 687.9110000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P5",
+  "id": "babidi-p5-jewel",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p5-jewel.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "4023b3718365cb099c678f30fa177f8e95d32ed768a9060cd75b09d0e7b73244",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p5-jewel.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "a11e9b7c1a4651480d9421136903c7f5bc972e02bad03ea7e201ffdd2c173e02",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "5b3404eabd5ed8f1085bccf55b1cfa25da5415685876fe20c91adaa77c3d76fe",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "artwork-P5.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

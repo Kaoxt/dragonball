@@ -3,8 +3,7 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFileSync, existsSync} from 'node:fs';
 import path from 'node:path';
-import {catalog} from '../public/cards/catalog.js';
-import {codeCardIds} from '../public/decks/code-card-ids.js';
+import {catalog, codeCardIds, beforeBabidiCompletionFile} from './helpers/pre-babidi-completion.js';
 import {cardPath, catalogRoute} from '../public/cards/card-links.js';
 import {catalog as before, codeCardIds as beforeIds, beforeDendeSummoningFile} from './helpers/pre-dende-summoning.js';
 import release from '../tools/card-corrections/v3-majin-buu-dende-summoning/release.json' with {type:'json'};
@@ -33,7 +32,7 @@ test('only five existing Majin Buu image pairs change; gameplay and all permanen
   assert.equal(catalog.length, before.length);
   assert.equal(catalog.length, release.catalog_count);
   assert.deepEqual(codeCardIds, beforeIds);
-  assert.equal(hash(readFileSync('public/decks/code-card-ids.js')), release.code_card_ids_sha256);
+  assert.equal(hash(beforeBabidiCompletionFile('public/decks/code-card-ids.js')), release.code_card_ids_sha256);
   for (let i = 0; i < catalog.length; i++) {
     const row = changed.get(catalog[i].id);
     if (!row) { assert.deepEqual(catalog[i], before[i]); continue; }
@@ -85,7 +84,7 @@ test('ten published files match approved lossless exports and portable native so
 
 test('earlier inputs are restored exactly instead of rewriting historical audit hashes', () => {
   for (const row of revisions) {
-    assert.equal(hash(readFileSync(row.path)), row.after_sha256, row.path);
+    assert.equal(hash(beforeBabidiCompletionFile(row.path)), row.after_sha256, row.path);
     assert.equal(hash(beforeDendeSummoningFile(row.path)), row.before_sha256, row.path);
   }
 });

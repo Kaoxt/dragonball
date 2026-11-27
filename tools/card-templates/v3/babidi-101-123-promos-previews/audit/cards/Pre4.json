@@ -1,0 +1,105 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      45.8234,
+      760.0,
+      66.3531
+    ],
+    "card-category": [
+      448.339,
+      891.991,
+      162.322,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      775.162,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      834.962,
+      1392.65,
+      84.376,
+      33.708
+    ],
+    "rules-line-1": [
+      196.977,
+      1013.53,
+      731.619,
+      45.913
+    ],
+    "rules-line-2": [
+      124.089,
+      1072.53,
+      810.823,
+      45.521
+    ],
+    "rules-line-3": [
+      90.215,
+      1131.53,
+      878.57,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, look at your top 2",
+      "baseline": 1049.3,
+      "width": 799.0257499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "Life Deck cards. You may place both on top or",
+      "baseline": 1108.3,
+      "width": 813.3509999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "both on the bottom of your Life Deck in any order.",
+      "baseline": 1167.3,
+      "width": 881.9999999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "Pre4",
+  "id": "babidi-pre4-namekian-knowledge-drill",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-pre4-namekian-knowledge-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ddb2eb6545d77057140290a675583f29d73d75e65d15f7d6f6c0adde518e66eb",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-pre4-namekian-knowledge-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "738755c630878ec3ab87d6388ab58c8392d9c311d82c207e88b13fa4abf969b0",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "cb35ffe1d53ec8cffa6a68976adba7079d21fc289e4d03de73571ca61ae3aee8",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-Pre4.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

@@ -1,0 +1,129 @@
+{
+  "bounds": {
+    "card-title": [
+      270.922,
+      44.5,
+      517.156,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      791.433,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.233,
+      1392.65,
+      51.834,
+      33.708
+    ],
+    "rules-line-1": [
+      278.159,
+      1013.53,
+      557.277,
+      45.913
+    ],
+    "rules-line-2": [
+      158.889,
+      1072.53,
+      741.223,
+      45.521
+    ],
+    "rules-line-3": [
+      184.699,
+      1131.53,
+      689.603,
+      45.913
+    ],
+    "rules-line-4": [
+      136.936,
+      1190.53,
+      785.127,
+      45.521
+    ],
+    "rules-line-5": [
+      148.574,
+      1249.53,
+      761.852,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 3 stages.",
+      "baseline": 1049.3,
+      "width": 613.4401555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards +1 per Red Style card",
+      "baseline": 1108.3,
+      "width": 745.2410000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "revealed. If your opponent\u2019s anger is 0,",
+      "baseline": 1167.3,
+      "width": 693.105,
+      "icon_inline": false
+    },
+    {
+      "text": "reveal your top 8 discard or Life Deck cards.",
+      "baseline": 1226.3,
+      "width": 788.5570000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Otherwise, reveal your top 5 discard cards.",
+      "baseline": 1285.3,
+      "width": 765.0860000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": 116,
+  "id": "babidi-116-red-energy-rings",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-116-red-energy-rings.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "b49b2a441a10202434c2896e1c1f6a1e8917c8bb88bb6f0a6414df90ba0433b6",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-116-red-energy-rings.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "8150e01d4e7d208d8467823bdf6c806bc6fb3020cc94a37625b57d9bdfb04dba",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8504072900b8557f68efbc883080722d57634b8074bee9b5915bde59a7a03b5f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-116.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}

@@ -1,0 +1,117 @@
+{
+  "bounds": {
+    "card-title": [
+      153.183,
+      44.5,
+      752.633,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.75,
+      1382.4813664596272,
+      70,
+      54.037267080745345
+    ],
+    "footer-rarity": [
+      795.382,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.181,
+      1392.65,
+      43.937,
+      33.708
+    ],
+    "rules-line-1": [
+      262.497,
+      1013.53,
+      534.006,
+      45.768
+    ],
+    "rules-line-2": [
+      139.092,
+      1073.61,
+      780.815,
+      44.835
+    ],
+    "rules-line-3": [
+      151.039,
+      1131.53,
+      756.923,
+      45.913
+    ],
+    "rules-line-4": [
+      126.475,
+      1190.53,
+      806.05,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 537.5831555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +2 stages. HIT: Your opponent\u2019s",
+      "baseline": 1108.3,
+      "width": 783.8040000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "MP loses 4 stages, to a minimum of 0. Your",
+      "baseline": 1167.3,
+      "width": 759.304,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent cannot play Events for this Combat.",
+      "baseline": 1226.3,
+      "width": 809.1369999999998,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "number": "P6",
+  "id": "babidi-p6-majin-strength-maneuver",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/babidi-p6-majin-strength-maneuver.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "18952bfc445bc1e6f40af0f1e2478262093cb1856116e5a88564e2d6930d5dae",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/babidi-p6-majin-strength-maneuver.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "89f93aa5349bd11a52f1e9f23190dadc47db2f83fca9cbb94fed8c4e62805515",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "3c7b67f9f71b6ad370b0b0ecc09589732d27a537b0e11ce9a3b5e9d841b65599",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "artwork-P6.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "babidi-emblem.png"
+  ],
+  "approved_logo_sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+}
