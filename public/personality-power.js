@@ -2,6 +2,7 @@
 // Index 0 is zero; index 1 is the first printed power stage above zero.
 // Practice placeholders deliberately use the chart of their displayed artwork.
 const charts = {
+  "majin-buu-072-krillin-z-warrior": [0, 425000, 450000, 475000, 500000, 525000, 550000, 575000, 600000, 625000, 650000],
   "babidi-104-majin-pui-pui-the-flashy": [0, 355000, 360000, 365000, 370000, 375000, 380000, 385000, 390000, 395000, 400000],
   "babidi-105-majin-yakon-the-absorber": [0, 1020000, 1040000, 1060000, 1080000, 1100000, 1120000, 1140000, 1160000, 1180000, 1200000],
   "babidi-106-majin-babidi-the-evil-genius": [0, 442000, 454000, 466000, 478000, 490000, 502000, 514000, 526000, 538000, 550000],
