@@ -4,6 +4,10 @@ Alternate Dende Dragon Balls 1–5 (set #1, #2, #38, #39, #40) use the
 user-approved summoning scene with the redesigned Shenron. Preserve the exact
 ten supplied display/download WebPs, current cache revisions and the native
 sources in `tools/card-corrections/v3-majin-buu-dende-summoning/production/`.
+Card #40’s display file has a delivery-only empty RIFF JUNK chunk; its VP8L
+payload and every decoded pixel are unchanged. The exact supplied preview is
+retained in `production/display/`; verify `release.json`’s delivery-container
+record and never rerender it.
 All gameplay fields and permanent deck IDs remain unchanged. The original
 first-50 source/audit package remains immutable history; do not restore its
 superseded Dende artwork. `production/artwork-selection.json` retains the same

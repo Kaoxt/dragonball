@@ -29710,7 +29710,7 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp?v=b03859676543",
+    "image": "/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp?v=7597e2e26ed7",
     "downloadImage": "/assets/cards/downloads/majin-buu-040-alt-dende-dragon-ball-5.webp?v=2f79941265e3"
   },
   {

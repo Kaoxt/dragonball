@@ -55,8 +55,19 @@ test('ten published files match approved lossless exports and portable native so
       const [pathname, version] = row.card[field].split('?v=');
       const bytes = readFileSync('public' + pathname);
       const exportRow = audit.exports.find(e => e.path.startsWith(folder + '/'));
-      assert.equal(hash(bytes), exportRow.sha256);
-      assert.equal(version, exportRow.sha256.slice(0, 12));
+      const delivery = release.delivery_containers?.find(e => e.path === 'public' + pathname);
+      const approved = delivery ? readFileSync(delivery.approved_source) : bytes;
+      if (delivery) {
+        assert.equal(hash(approved), delivery.approved_sha256);
+        assert.equal(hash(bytes), delivery.published_sha256);
+        assert.equal(bytes.length, approved.length + 8);
+        assert.equal(bytes.readUInt32LE(4), bytes.length - 8);
+        assert.deepEqual(bytes.subarray(0, 4), approved.subarray(0, 4));
+        assert.deepEqual(bytes.subarray(8, -8), approved.subarray(8));
+        assert.deepEqual(bytes.subarray(-8), Buffer.from('4a554e4b00000000', 'hex'));
+      }
+      assert.equal(hash(approved), exportRow.sha256);
+      assert.equal(version, hash(bytes).slice(0, 12));
       assert.deepEqual(losslessSize(bytes), size);
       assert.equal(exportRow.lossless_verified, true);
       assert.equal(exportRow.opaque_overlay_pixels_changed_above_two_levels, 0);
