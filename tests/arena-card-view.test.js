@@ -23,14 +23,16 @@ function arena() {
     handlers:{}, getAttribute(name) {return this[name] ?? null;},
     addEventListener(type, fn) {this.handlers[type] = fn;},
     showModal() {this.open = true;}, close() {this.open = false; this.handlers.close?.();},
-    classList:{toggle(){},add(){}}, removeAttribute(){}, remove(){}, cloneNode:() => node()});
-  const ids = ['card-zoom','card-zoom-image','card-zoom-art','card-zoom-placeholder','inspect','pile-dialog','pile-title','pile-cards','pile-help','destination'];
+    getBoundingClientRect:()=>({left:100,top:100,right:300,bottom:300,width:200,height:200}),
+    classList:{toggle(name,value){this[name]=value;},add(){}}, removeAttribute(){}, remove(){}, cloneNode:() => node()});
+  const ids = ['card-zoom','card-zoom-image','card-zoom-art','card-zoom-placeholder','inspect','pile-dialog','pile-title','pile-cards','pile-help','destination','arena-play-target','arena-play-target-destination'];
   const elements = Object.fromEntries(ids.map(id => [id, node()]));
+  elements['arena-play-target'].hidden=true;
   elements['pile-dialog'].querySelector = () => elements['pile-help'];
   const document = {addEventListener:(type, handler) => {events[type] = handler;},querySelectorAll:() => [],body:{append(){}},elementFromPoint:() => null};
   const context = vm.createContext({selected:null, openPile:null, seat:0, game:view(game,0), labels, cardImage, cardPlayPlan,
     $:id => elements[id], esc:value => String(value ?? '').replaceAll('<','&lt;'), document,
-    setTimeout:fn => timers.push(fn), requestAnimationFrame(){}, window:{scrollBy(){}},
+    innerWidth:900, innerHeight:900, setTimeout:fn => timers.push(fn), requestAnimationFrame(){}, window:{scrollBy(){},addEventListener:(type,handler)=>{events['window:'+type]=handler;}},
     send(action) {act(game, context.seat, action);context.game = view(game,context.seat);vm.runInContext('renderInspector()',context);}
   });
   vm.runInContext(pileRendering + '\n' + handlers + '\n' + closeHandler, context);
@@ -112,8 +114,8 @@ test('dragging still suppresses the following click instead of opening a preview
   const target = {...a.node(),dataset:{card:`0:hand:${card.uid}`}};
   target.closest = selector => selector === '[data-movable]' ? target : null;
   a.events.pointerdown({target,button:0,pointerId:1,clientX:50,clientY:50});
-  a.events.pointermove({pointerId:1,clientX:150,clientY:150,preventDefault(){}});
-  a.events.pointerup({pointerId:1,clientX:150,clientY:150});
+  a.events.pointermove({pointerId:1,clientX:50,clientY:450,preventDefault(){}});
+  a.events.pointerup({pointerId:1,clientX:50,clientY:450});
   a.tap('hand',card); assert.equal(a.elements['card-zoom'].open,false);
   a.timers.forEach(fn => fn()); a.tap('hand',card); assert.equal(a.elements['card-zoom'].open,true);
 });
@@ -205,7 +207,7 @@ test('Play and Use actions are reachable from the card preview and route without
   assert.ok(p.zones.removed.some(c=>c.uid===card.uid));
 });
 
-test('dragging a hand card onto the board uses its card type instead of placing every card in combat', () => {
+test('dropping a hand card inside the play square uses its card type', () => {
   const a = arena(), p = a.game.players[0];
   const card = p.zones.deck.find(c=>c.id==='android-008-gravity-chamber') || p.zones.hand.find(c=>c.id==='android-008-gravity-chamber');
   p.zones.deck=p.zones.deck.filter(c=>c.uid!==card.uid);
@@ -216,8 +218,57 @@ test('dragging a hand card onto the board uses its card type instead of placing 
   const target={...a.node(),dataset:{card:`0:hand:${card.uid}`}};
   target.closest=selector=>selector==='[data-movable]'?target:null;
   a.events.pointerdown({target,button:0,pointerId:1,clientX:20,clientY:200});
-  a.events.pointermove({pointerId:1,clientX:100,clientY:50,preventDefault(){}});
-  a.events.pointerup({pointerId:1,clientX:100,clientY:50});
+  a.events.pointermove({pointerId:1,clientX:200,clientY:200,preventDefault(){}});
+  a.events.pointerup({pointerId:1,clientX:200,clientY:200});
   assert.ok(p.zones.location.some(c=>c.uid===card.uid));
   assert.equal(p.zones.combat.length,0);
+});
+
+
+function dragHand(a, pointerId=1) {
+  const card=a.game.players[0].zones.hand[0];
+  const target={...a.node(),dataset:{card:`0:hand:${card.uid}`}};
+  target.closest=selector=>selector==='[data-movable]'?target:null;
+  a.events.pointerdown({target,button:0,pointerId,clientX:50,clientY:450});
+  return card;
+}
+
+test('the play square appears only after a drag, highlights inside, and cancels outside', () => {
+  const a=arena(),card=dragHand(a),square=a.elements['arena-play-target'];
+  a.events.pointermove({pointerId:1,clientX:52,clientY:450,preventDefault(){}});
+  assert.equal(square.hidden,true,'a tap never opens the square');
+  a.events.pointermove({pointerId:1,clientX:50,clientY:420,preventDefault(){}});
+  assert.equal(square.hidden,false);assert.equal(square.classList['is-ready'],false);
+  assert.match(a.elements['arena-play-target-destination'].textContent,/Moves to/);
+  a.events.pointermove({pointerId:1,clientX:200,clientY:200,preventDefault(){}});
+  assert.equal(square.classList['is-ready'],true);
+  a.events.pointerup({pointerId:2,clientX:200,clientY:200});
+  assert.equal(square.hidden,false,'a second finger does not release the card');
+  a.events.pointerup({pointerId:1,clientX:50,clientY:420});
+  assert.equal(square.hidden,true);assert.ok(a.game.players[0].zones.hand.some(c=>c.uid===card.uid));
+  assert.equal(a.game.lastPlay,undefined);
+});
+
+test('Escape, touch cancellation, resize, and focus loss remove the play square without playing', () => {
+  for(const cancel of [a=>a.events.keydown({key:'Escape',preventDefault(){}}),a=>a.events.pointercancel({pointerId:1}),a=>a.events['window:resize'](),a=>a.events['window:blur']()]){
+    const a=arena(),card=dragHand(a);
+    a.events.pointermove({pointerId:1,clientX:200,clientY:200,preventDefault(){}});
+    cancel(a);a.events.pointerup({pointerId:1,clientX:200,clientY:200});
+    assert.equal(a.elements['arena-play-target'].hidden,true);
+    assert.ok(a.game.players[0].zones.hand.some(c=>c.uid===card.uid));
+    assert.equal(a.game.lastPlay,undefined);
+  }
+});
+
+test('opponent cards and setup do not show an automatic play square', () => {
+  const a=arena();a.context.game.status='setup';dragHand(a);
+  a.events.pointermove({pointerId:1,clientX:200,clientY:200,preventDefault(){}});
+  assert.equal(a.elements['arena-play-target'].hidden,true);
+  a.events.pointercancel({pointerId:1});
+  a.context.game.status='playing';
+  const target={...a.node(),dataset:{card:'1:hand:opponent-card'}};
+  target.closest=selector=>selector==='[data-movable]'?target:null;
+  a.events.pointerdown({target,button:0,pointerId:1,clientX:50,clientY:450});
+  a.events.pointermove({pointerId:1,clientX:200,clientY:200,preventDefault(){}});
+  assert.equal(a.elements['arena-play-target'].hidden,true);
 });

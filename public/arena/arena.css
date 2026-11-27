@@ -158,3 +158,17 @@ body.arena-table-page #inspect .arena-play-destination{margin:4px 0 14px;color:#
 @media(prefers-reduced-motion:reduce){.arena-play-ghost{display:none}}
 html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card,
 html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card:is(:hover,:focus-visible){background:var(--action-red,#b50d1b);border-color:var(--action-red,#b50d1b);color:#fff}
+
+
+/* One static drop target, shown only while dragging a playable hand card. */
+.arena-play-target{box-sizing:border-box;position:fixed;z-index:999;left:0;top:0;width:min(560px,76vw,64dvh);aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:20px;border:2px solid #b50d1b;border-radius:16px;background:#1e2428f2;color:#f5f6fa;text-align:center;pointer-events:none;contain:layout paint}
+.arena-play-target[hidden]{display:none}
+.arena-play-target>svg{color:#e7a0a6;flex:none}
+.arena-play-target>strong{font-size:clamp(18px,4vw,25px);line-height:1.2}
+.arena-play-target>span{font-size:14px}
+.arena-play-target>small{color:#b8c0c6;font-size:12px;line-height:1.4}
+.arena-play-target .arena-play-cancel{margin-top:8px;font-size:11px}
+.arena-play-target.is-ready{border-color:#ec8590;background:#3a2228f5}
+.arena-play-target.is-ready>svg{color:#fff}
+
+@media(max-height:420px){.arena-play-target{gap:6px;padding:14px}.arena-play-target>svg{width:24px;height:24px}.arena-play-target .arena-play-cancel{margin-top:0}}
