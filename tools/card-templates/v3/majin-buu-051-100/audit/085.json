@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      309.853,
+      44.5,
+      439.294,
+      69.0
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.329,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.128,
+      1392.65,
+      44.043,
+      33.708
+    ],
+    "rules-line-1": [
+      164.132,
+      1013.53,
+      730.737,
+      45.913
+    ],
+    "rules-line-2": [
+      162.907,
+      1072.53,
+      733.187,
+      45.913
+    ],
+    "rules-line-3": [
+      165.455,
+      1131.53,
+      728.091,
+      45.913
+    ],
+    "rules-line-4": [
+      150.227,
+      1190.53,
+      758.546,
+      45.521
+    ],
+    "rules-line-5": [
+      177.459,
+      1249.53,
+      704.081,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "When entering Combat, reveal your hand.",
+      "baseline": 1049.3,
+      "width": 733.2849999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "If it has at least 3 Orange cards, attach to",
+      "baseline": 1108.3,
+      "width": 736.813,
+      "icon_inline": false
+    },
+    {
+      "text": "your MP. While attached, your MP ignores",
+      "baseline": 1167.3,
+      "width": 729.5609999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "costs from other card effects; you still pay",
+      "baseline": 1226.3,
+      "width": 760.7249999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "the original cost of the card being used.",
+      "baseline": 1285.3,
+      "width": 706.2860000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 85,
+  "id": "majin-buu-085-orange-gambit",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-085-orange-gambit.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "3b8148c365f25d4b6e0470248d47bcec8381d5d70c9d6328e4aab173c012a68a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-085-orange-gambit.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b74ca3241eff2905355b5ce82091b7ccbcb2d71bd65ad1b3afc384375706c3a3",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9f7b203abf2604d521bc9cd537cf516e5db3cabd20af858acce5256b1212ca07",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-085.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

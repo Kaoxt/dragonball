@@ -1,0 +1,106 @@
+{
+  "bounds": {
+    "card-title": [
+      281.203,
+      50.2213,
+      496.594,
+      57.5574
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.938,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.738,
+      1392.65,
+      42.824,
+      33.708
+    ],
+    "rules-line-1": [
+      140.788,
+      1013.53,
+      831.971,
+      45.913
+    ],
+    "rules-line-2": [
+      105.234,
+      1073.61,
+      848.533,
+      44.443
+    ],
+    "rules-line-3": [
+      147.765,
+      1131.53,
+      763.469,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages. For the",
+      "baseline": 1049.3,
+      "width": 887.840155543859,
+      "icon_inline": true
+    },
+    {
+      "text": "rest of Combat, all your focused attacks deal +2",
+      "baseline": 1108.3,
+      "width": 851.228,
+      "icon_inline": false
+    },
+    {
+      "text": "stages of damage. Raise your anger 1 level.",
+      "baseline": 1167.3,
+      "width": 766.213,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 93,
+  "id": "majin-buu-093-red-force-punch",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-093-red-force-punch.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "f5ae047f837c3f14c029359d16db2a3140c5fbe5defc930b9a38917428676454",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-093-red-force-punch.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "459c91b9f15d8d903fedb39e5c22b733b55ca7e957822331e6eafc5fd4b8ba4b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "6093f2026274240403065ab126e98bbd112709a687eae7403ccc5613f7364a6d",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-093.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

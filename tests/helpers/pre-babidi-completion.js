@@ -5,6 +5,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
+import {beforeMajinBuu051File} from './pre-majin-buu-051-100.js';
 import revisions from '../../tools/card-corrections/v3-babidi-101-123-promos-previews/integration-files.json' with {type:'json'};
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
@@ -13,7 +14,7 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 
 export function beforeBabidiCompletionFile(file) {
   const absolute = file instanceof URL ? fileURLToPath(file) : path.resolve(file);
-  const current = readFileSync(absolute);
+  const current = beforeMajinBuu051File(absolute);
   const revision = files.get(path.relative(root, absolute));
   if (!revision) return current;
   assert.equal(hash(current), revision.after_sha256, revision.path);

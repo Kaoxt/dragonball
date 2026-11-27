@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      47.4872,
+      760.0,
+      63.0255
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.68,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.48,
+      1392.65,
+      41.34,
+      33.708
+    ],
+    "rules-line-1": [
+      240.471,
+      1013.53,
+      578.057,
+      45.521
+    ],
+    "rules-line-2": [
+      235.231,
+      1072.53,
+      588.539,
+      44.884
+    ],
+    "rules-line-3": [
+      173.882,
+      1131.53,
+      711.235,
+      45.521
+    ],
+    "rules-line-4": [
+      179.468,
+      1190.53,
+      700.063,
+      45.521
+    ],
+    "rules-line-5": [
+      172.461,
+      1249.53,
+      714.077,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 3. Physical attack.",
+      "baseline": 1049.3,
+      "width": 581.7811555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 life cards. Empower 2.",
+      "baseline": 1108.3,
+      "width": 592.263,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Attach to an opponent's Ally in play.",
+      "baseline": 1167.3,
+      "width": 714.9590000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "While attached, that Ally cannot control",
+      "baseline": 1226.3,
+      "width": 702.709,
+      "icon_inline": false
+    },
+    {
+      "text": "Combat or have damage redirected to it.",
+      "baseline": 1285.3,
+      "width": 717.311,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 76,
+  "id": "majin-buu-076-majin-buu-s-stomach-throw",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-076-majin-buu-s-stomach-throw.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2cd93813dc3fe586ca70f613c8e41147584c813b44e6334172e6009e4cb34581",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-076-majin-buu-s-stomach-throw.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3893327b0512fe9ce8b83362c3cf5d2dcdc944e4ca766302a464163ec9e80cd4",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "d69070b93261e4ec7a2e6a3e13dee1541d2a034106008ad8fd3f6681ebd2531a",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-076.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

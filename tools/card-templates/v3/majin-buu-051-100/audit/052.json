@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      243.391,
+      44.5,
+      572.218,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.336,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.136,
+      1392.65,
+      42.029,
+      33.708
+    ],
+    "rules-line-1": [
+      277.743,
+      1013.53,
+      558.11,
+      45.913
+    ],
+    "rules-line-2": [
+      215.018,
+      1072.53,
+      628.964,
+      45.913
+    ],
+    "rules-line-3": [
+      147.888,
+      1131.53,
+      763.224,
+      45.913
+    ],
+    "rules-line-4": [
+      253.164,
+      1190.53,
+      552.671,
+      36.162
+    ],
+    "rules-line-5": [
+      245.251,
+      1249.53,
+      568.498,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 0 stages.",
+      "baseline": 1049.3,
+      "width": 614.2731555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. The attacking",
+      "baseline": 1108.3,
+      "width": 632.7370000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "personality may pay any number of stages.",
+      "baseline": 1167.3,
+      "width": 766.801,
+      "icon_inline": false
+    },
+    {
+      "text": "This attack deals +1 life card of",
+      "baseline": 1226.3,
+      "width": 554.876,
+      "icon_inline": false
+    },
+    {
+      "text": "damage for every 2 stages paid.",
+      "baseline": 1285.3,
+      "width": 571.585,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 52,
+  "id": "majin-buu-052-blue-draining-blast",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-052-blue-draining-blast.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1c1716939e816a01a2b3600a637a45330e883e95626882b025020a2f86072a76",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-052-blue-draining-blast.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "73e3653031dc2bb80fc3eee4ee37c625b1062b042263b5b3016f76edf1a4c9b4",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9c2448cb86e3a9a85673140e31b9f669d9daee1e3127d06e92821e6284d0e29e",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-052.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

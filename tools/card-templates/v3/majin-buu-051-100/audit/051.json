@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      306.11,
+      44.5,
+      446.779,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      800.125,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.925,
+      1392.65,
+      34.45,
+      33.708
+    ],
+    "rules-line-1": [
+      246.572,
+      1013.53,
+      565.856,
+      45.521
+    ],
+    "rules-line-2": [
+      264.572,
+      1073.61,
+      529.857,
+      44.835
+    ],
+    "rules-line-3": [
+      218.595,
+      1131.53,
+      621.81,
+      45.521
+    ],
+    "rules-line-4": [
+      193.179,
+      1190.53,
+      672.643,
+      45.521
+    ],
+    "rules-line-5": [
+      189.146,
+      1250.61,
+      680.708,
+      35.084
+    ]
+  },
+  "rules": [
+    {
+      "text": "Heroes only. Physical attack.",
+      "baseline": 1049.3,
+      "width": 569.5801555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +4 stages. If your",
+      "baseline": 1108.3,
+      "width": 532.3850000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "opponent's Main Personality has no",
+      "baseline": 1167.3,
+      "width": 624.7990000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "constant power, its personality power",
+      "baseline": 1226.3,
+      "width": 674.5340000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cannot be used for the rest of Combat.",
+      "baseline": 1285.3,
+      "width": 683.7950000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 51,
+  "id": "majin-buu-051-blue-belly-kick",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-051-blue-belly-kick.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "33822b9909a0f269fa15bcf848718761db6b9313fccc23ba9b3e5ba1ad765d94",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-051-blue-belly-kick.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c8d79aad66a3e8ebe8861ff38f0f4d955e9a32d5546cd0d25af546fba82618c7",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "1c41401246b197406419e74ab7cf2d08d935b8e80dc8267fb06f0159ac2ac1b6",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-051.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

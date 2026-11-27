@@ -1,0 +1,118 @@
+{
+  "bounds": {
+    "card-title": [
+      225.065,
+      44.5,
+      608.869,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.408,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.208,
+      1392.65,
+      43.884,
+      33.708
+    ],
+    "rules-line-1": [
+      237.022,
+      1013.53,
+      635.648,
+      45.913
+    ],
+    "rules-line-2": [
+      195.173,
+      1073.85,
+      668.654,
+      43.5664
+    ],
+    "rules-line-3": [
+      214.773,
+      1131.53,
+      629.454,
+      45.521
+    ],
+    "rules-line-4": [
+      239.42,
+      1190.53,
+      580.16,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Stops an energy attack. During your",
+      "baseline": 1049.3,
+      "width": 686.7119473684211,
+      "icon_inline": true
+    },
+    {
+      "text": "next Attacker Attacks phase, perform",
+      "baseline": 1108.3,
+      "width": 672.182,
+      "icon_inline": false
+    },
+    {
+      "text": "the exact attack this stopped if you",
+      "baseline": 1167.3,
+      "width": 631.953,
+      "icon_inline": false
+    },
+    {
+      "text": "have enough stages to pay for it.",
+      "baseline": 1226.3,
+      "width": 583.59,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 66,
+  "id": "majin-buu-066-goku-swiftly-moving",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-066-goku-swiftly-moving.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "99cb284855273d777d01da795c99f912902a5f3e4bf6e2fb46fda6abc361c5d3",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-066-goku-swiftly-moving.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3e3c1631d546d3e8bd2f81c05db1ff4d1d746719bbf652233b9cef183805d0aa",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9a96e32d1c77d724ea51ab6008761aa1d01e4cd58382d6de6819070c3482540f",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-066.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

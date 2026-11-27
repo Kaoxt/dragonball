@@ -1,0 +1,118 @@
+{
+  "bounds": {
+    "card-title": [
+      330.759,
+      44.5,
+      397.481,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.269,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.069,
+      1392.65,
+      46.163,
+      33.708
+    ],
+    "rules-line-1": [
+      240.471,
+      1013.53,
+      578.057,
+      45.521
+    ],
+    "rules-line-2": [
+      156.218,
+      1073.61,
+      746.564,
+      44.835
+    ],
+    "rules-line-3": [
+      111.114,
+      1132.61,
+      836.773,
+      44.835
+    ],
+    "rules-line-4": [
+      194.414,
+      1191.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 3. Physical attack.",
+      "baseline": 1049.3,
+      "width": 581.7811555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +4 stages. Your other attacks",
+      "baseline": 1108.3,
+      "width": 749.5530000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "deal +1 stage of damage for the rest of Combat.",
+      "baseline": 1167.3,
+      "width": 839.8599999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1226.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 84,
+  "id": "majin-buu-084-orange-flight",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-084-orange-flight.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dc46442037110bf214152df3dc826604d7f680d0e9279b1301682943d781dcd4",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-084-orange-flight.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c79aadf7dae053d6aac2b44c03b2f4cfe75c11cf6f11e28aee16132f91658def",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8549189b7acd934ecacacdc30c272b4f645a8636f9a9bfc5acbab5d893684cbe",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-084.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

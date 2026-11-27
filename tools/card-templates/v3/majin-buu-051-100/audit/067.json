@@ -1,0 +1,106 @@
+{
+  "bounds": {
+    "card-title": [
+      314.026,
+      44.5,
+      430.949,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.733,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.533,
+      1392.65,
+      41.234,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      124.662,
+      1072.53,
+      809.676,
+      45.913
+    ],
+    "rules-line-3": [
+      208.281,
+      1133.0,
+      642.439,
+      44.443
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. Raise your anger 1 level.",
+      "baseline": 1108.3,
+      "width": 813.4,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 646.163,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 67,
+  "id": "majin-buu-067-goku-s-escape",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-067-goku-s-escape.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "b4af5351e9bc82b559015f1ccb9fe4ccd5b68d100360f6694d664561516b08f1",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-067-goku-s-escape.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "da214f43c52e2929760c378e2d6dcb6bf41315c229096f0764a9da451a10a297",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8307e1a3bfacf9985b74fa2f59ddf86ad923fcd4f8073e151d88b750d3eb0fea",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-067.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

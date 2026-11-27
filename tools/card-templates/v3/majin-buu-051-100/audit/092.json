@@ -1,0 +1,106 @@
+{
+  "bounds": {
+    "card-title": [
+      305.293,
+      44.5,
+      448.414,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.018,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.818,
+      1392.65,
+      42.665,
+      33.708
+    ],
+    "rules-line-1": [
+      94.2064,
+      1013.53,
+      870.587,
+      45.913
+    ],
+    "rules-line-2": [
+      92.861,
+      1072.53,
+      873.278,
+      45.913
+    ],
+    "rules-line-3": [
+      131.816,
+      1131.53,
+      795.368,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin only. Physical attack. DAMAGE: 6 stages.",
+      "baseline": 1049.3,
+      "width": 874.1641555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Banish any life cards of damage this attack deals",
+      "baseline": 1108.3,
+      "width": 876.267,
+      "icon_inline": false
+    },
+    {
+      "text": "instead of discarding them. Banish after use.",
+      "baseline": 1167.3,
+      "width": 798.4060000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 92,
+  "id": "majin-buu-092-red-arm-swipe",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-092-red-arm-swipe.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "25e3f6e4ee582b2012ae768784c88ee04275a6641ae711b852827f07cade8ac5",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-092-red-arm-swipe.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e3749af5a5b76da15ab541c0d781cd8c22a81e83b462830e0e472e71ae89691d",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "031c17ffd32997a9bcc7f1443f406e2802b344bd4c236fac7627c46c2d5a940d",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-092.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

@@ -1,0 +1,109 @@
+{
+  "bounds": {
+    "card-title": [
+      280.902,
+      50.2213,
+      497.196,
+      70.0324
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      797.449,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      857.249,
+      1392.65,
+      39.803,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      92.567,
+      1072.53,
+      873.866,
+      36.162
+    ],
+    "rules-line-3": [
+      194.414,
+      1132.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 +X life cards. X is Krillin's current PUR.",
+      "baseline": 1108.3,
+      "width": 877.5899999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1167.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 72,
+  "id": "majin-buu-072-krillin-z-warrior",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-072-krillin-z-warrior.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5b7677e9b4d63a057c74606ea39b485689894a5bfb0af3db0384d5e41d225b0d",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-072-krillin-z-warrior.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "6b57f3134dcc3be0c28cf6023b9ef29f6527600eacf3af54b02e228649fb06e4",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "d5d39a2700dd7d1832177dcd835c67d6981ffe89399ae8843fd8f2a66b649bf3",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "art-072.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

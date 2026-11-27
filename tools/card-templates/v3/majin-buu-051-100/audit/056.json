@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      350.246,
+      50.2213,
+      358.507,
+      57.5574
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.567,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.367,
+      1392.65,
+      43.566,
+      33.708
+    ],
+    "rules-line-1": [
+      125.201,
+      1013.53,
+      808.598,
+      45.913
+    ],
+    "rules-line-2": [
+      223.997,
+      1072.53,
+      611.007,
+      45.521
+    ],
+    "rules-line-3": [
+      210.142,
+      1131.53,
+      638.715,
+      45.521
+    ],
+    "rules-line-4": [
+      151.587,
+      1190.53,
+      755.825,
+      45.521
+    ],
+    "rules-line-5": [
+      113.0,
+      1249.53,
+      833.0,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Use when entering Combat. Reveal your hand.",
+      "baseline": 1049.3,
+      "width": 812.175,
+      "icon_inline": false
+    },
+    {
+      "text": "If it has at least 3 Blue Style cards,",
+      "baseline": 1108.3,
+      "width": 614.8030000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "attach this to your Main Personality.",
+      "baseline": 1167.3,
+      "width": 641.4100000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "While attached, you may play Allies up to 2",
+      "baseline": 1226.3,
+      "width": 757.638,
+      "icon_inline": false
+    },
+    {
+      "text": "personality levels above your Main Personality.",
+      "baseline": 1285.3,
+      "width": 836.5770000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 56,
+  "id": "majin-buu-056-blue-gambit",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-056-blue-gambit.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "fee49d7aa77d07e4593b86da81452d9ab9262301dcf0a8460ec07ffddffa18e1",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-056-blue-gambit.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "2e9d7736cef6da1d03e04e5e6f206a76afc7f89dab6df0be93a8d7773ae96a00",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "f72a32969f7b4a0076aea9127a82ced90f1b71bb892544207b95a3ceeb4e62fa",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-056.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

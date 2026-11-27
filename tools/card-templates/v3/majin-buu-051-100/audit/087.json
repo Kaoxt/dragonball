@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      245.542,
+      44.5,
+      567.916,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.548,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      856.348,
+      1392.65,
+      41.605,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      234.103,
+      1072.53,
+      590.793,
+      44.884
+    ],
+    "rules-line-3": [
+      154.405,
+      1131.53,
+      750.19,
+      45.913
+    ],
+    "rules-line-4": [
+      230.771,
+      1191.61,
+      597.457,
+      44.835
+    ],
+    "rules-line-5": [
+      194.414,
+      1250.61,
+      670.173,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. Empower 3.",
+      "baseline": 1108.3,
+      "width": 594.517,
+      "icon_inline": false
+    },
+    {
+      "text": "Your other energy attacks deal +1 life card",
+      "baseline": 1167.3,
+      "width": 753.228,
+      "icon_inline": false
+    },
+    {
+      "text": "of damage for the rest of Combat.",
+      "baseline": 1226.3,
+      "width": 600.5440000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Lower your opponent's anger 2 levels.",
+      "baseline": 1285.3,
+      "width": 673.8969999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 87,
+  "id": "majin-buu-087-orange-mouth-shot",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-087-orange-mouth-shot.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "82098c0d2667d3a0507b1108d683a122eba51bb47713330a9644c6f82de2522d",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-087-orange-mouth-shot.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "604e7918fd554e3449a74bf7581a6e74da18fe591900b87db880b822844be857",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "5ca5681a7273cc426c1acb7b806d965f41deb27bedd14203bdf88d0eff2d3a94",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-087.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

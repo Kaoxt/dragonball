@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      301.249,
+      44.5,
+      456.501,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.613,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.413,
+      1392.65,
+      45.474,
+      33.708
+    ],
+    "rules-line-1": [
+      336.812,
+      1013.53,
+      439.971,
+      45.521
+    ],
+    "rules-line-2": [
+      127.333,
+      1073.61,
+      804.335,
+      44.835
+    ],
+    "rules-line-3": [
+      108.909,
+      1131.53,
+      841.183,
+      45.913
+    ],
+    "rules-line-4": [
+      197.77,
+      1190.53,
+      663.46,
+      45.521
+    ],
+    "rules-line-5": [
+      181.747,
+      1249.53,
+      695.506,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack.",
+      "baseline": 1049.3,
+      "width": 496.13415554385944,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. HIT: Attach to your MP",
+      "baseline": 1108.3,
+      "width": 807.471,
+      "icon_inline": false
+    },
+    {
+      "text": "until your opponent deals you life card damage.",
+      "baseline": 1167.3,
+      "width": 844.4169999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "While attached, they cannot play/use",
+      "baseline": 1226.3,
+      "width": 665.7630000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "cards to look at your hand or Life Deck.",
+      "baseline": 1285.3,
+      "width": 698.5930000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 54,
+  "id": "majin-buu-054-blue-eye-gouge",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-054-blue-eye-gouge.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "fe8c8202661fb62fe5d4902564dbfdde80ca0d6faafbc37755258bb9c6147561",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-054-blue-eye-gouge.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c61345e26b637b5ca28e6625338bfdfbf7d3251a27c4d3cd11865f3e64b5001b",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "9338df7da933d09451cc5372daecac765ae373467a1929f46bbc0c66aef62391",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-054.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

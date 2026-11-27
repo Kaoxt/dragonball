@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      215.559,
+      44.5,
+      627.883,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.435,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.234,
+      1392.65,
+      43.831,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      227.244,
+      1072.53,
+      604.513,
+      36.162
+    ],
+    "rules-line-3": [
+      216.684,
+      1131.53,
+      625.632,
+      45.521
+    ],
+    "rules-line-4": [
+      233.613,
+      1190.53,
+      591.773,
+      45.521
+    ],
+    "rules-line-5": [
+      250.102,
+      1249.53,
+      558.796,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. Name a card",
+      "baseline": 1108.3,
+      "width": 608.5310000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "that can perform a physical attack.",
+      "baseline": 1167.3,
+      "width": 627.8370000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Search your opponent's Life Deck",
+      "baseline": 1226.3,
+      "width": 594.0760000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "for all copies and discard them.",
+      "baseline": 1285.3,
+      "width": 561.2460000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 89,
+  "id": "majin-buu-089-orange-sneak-attack",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-089-orange-sneak-attack.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "df29a340d93b3e0115012da51176b30fb95b93cdd7f928edc9f2ab4514851dd6",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-089-orange-sneak-attack.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "0f74c19e365e021c511457ac7c2a0329a9147b35b4ff6472e71a48fdddf26039",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4e068260b807d2c8ba2d26566a2ccebc3d6fdc1741cc55f0976e1635f99234cc",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-089.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

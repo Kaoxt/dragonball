@@ -1,0 +1,118 @@
+{
+  "bounds": {
+    "card-title": [
+      286.537,
+      44.5,
+      485.925,
+      69.0
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      796.097,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.897,
+      1392.65,
+      42.506,
+      33.708
+    ],
+    "rules-line-1": [
+      120.217,
+      1013.53,
+      818.566,
+      45.913
+    ],
+    "rules-line-2": [
+      105.738,
+      1074.0,
+      847.524,
+      44.443
+    ],
+    "rules-line-3": [
+      98.7165,
+      1131.53,
+      861.567,
+      45.521
+    ],
+    "rules-line-4": [
+      96.095,
+      1190.53,
+      866.81,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Endurance 3. Stops an energy attack. Raise",
+      "baseline": 1049.3,
+      "width": 822.044947368421,
+      "icon_inline": true
+    },
+    {
+      "text": "your anger 1 level. Lower your opponent's anger",
+      "baseline": 1108.3,
+      "width": 848.5330000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "1 level. You may banish 2 cards from your Sensei",
+      "baseline": 1167.3,
+      "width": 863.576,
+      "icon_inline": false
+    },
+    {
+      "text": "Deck to shuffle this into your Life Deck after use.",
+      "baseline": 1226.3,
+      "width": 870.5340000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 63,
+  "id": "majin-buu-063-energy-ricochet",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-063-energy-ricochet.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "63dbff44b91773d16e5974737d2d28657cdec9c6caaf8e469c81a58631a6a24f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-063-energy-ricochet.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "3810c77b9aec3c1a01c85ca1d69cb8c897f9b207565b687fd89f68045efd511e",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "987f1e9f88b2d9cb3f966d5a7c1ca16ca0fab3c2ea520021cae81d201b56be53",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-063.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

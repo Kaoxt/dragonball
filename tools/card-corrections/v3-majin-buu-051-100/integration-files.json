@@ -1,0 +1,38 @@
+[
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/package.json.gz",
+    "before_sha256": "86012cb49a9090281360732d16194ffdb41903dd8f4eefb18bf5fed1516af6f6",
+    "after_sha256": "c29550241724657ff774147592fdcbdeb3ae763f08e8fa730e660ac3c3bbd1b8"
+  },
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/public/cards/catalog.js.gz",
+    "before_sha256": "9de8d155ca10fe971b38eb97fe00fc8b9888d7b676f60695eb9f85c8e214c5d4",
+    "after_sha256": "9f43a84fc58647c840c968c6e5d1da947b4e3521f3c67704413818f47c0bd923"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/public/decks/code-card-ids.js.gz",
+    "before_sha256": "f43910e0108c24a4e3659f6dd323b6adcd9575518941936e9e5b2ed1e1940f53",
+    "after_sha256": "1fab06097e5ba77e9aa6735669e75dcbb8da0ccd43441bb946b6377294901b68"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/public/personality-power.js.gz",
+    "before_sha256": "9e116b964c8f1df428ffe5f61b77311180112a9de5eb9e3ab1ff421b78afeb84",
+    "after_sha256": "2762472cafa92586f7afaa24ba848d740801245997a48079106f88846cd91c87"
+  },
+  {
+    "path": "tests/card-babidi-completion.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/tests/card-babidi-completion.test.js.gz",
+    "before_sha256": "581f41a5b3b9d8bc361c74bb7711061d256564cfee7fb9e5771f099d7ca6e0ca",
+    "after_sha256": "191e0023cb86c509bc873198afbc52cb55c2c3ad51a506ca9c6e003420040020"
+  },
+  {
+    "path": "tests/helpers/pre-babidi-completion.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-051-100/before/tests/helpers/pre-babidi-completion.js.gz",
+    "before_sha256": "9a86dc973923f2bb9bc3dfd31bb7550bf1629a65b25bf427c6aec76238336451",
+    "after_sha256": "8362094e39e01a63c47374598a905b77cfa8985e84fbcebfbac6cdbb145a7df5"
+  }
+]
