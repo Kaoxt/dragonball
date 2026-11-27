@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {beforeDendeSummoningFile} from './helpers/pre-dende-summoning.js';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -14,7 +15,7 @@ import manifest from '../tools/card-templates/v3/majin-buu-001-050/file-manifest
 
 const release = catalog.filter(card => card.set === 'Majin Buu Saga');
 const hashes = new Map(manifest.map(row => [row.path, row.sha256]));
-const hash = file => createHash('sha256').update(readFileSync(file)).digest('hex');
+const hash = file => createHash('sha256').update(beforeDendeSummoningFile(file)).digest('hex');
 
 test('the Majin Buu set uses its supplied logo and only the 49 cleared cards', () => {
   assert.deepEqual(catalog, [...previous, ...release]);

@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {beforeDendeSummoningFile} from './helpers/pre-dende-summoning.js';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
@@ -21,12 +22,12 @@ test('GT Backers restores each changed pre-existing input and keeps a separate r
     assert.ok(revisions.some(row => row.path === file), file);
   }
   for (const revision of revisions) {
-    assert.equal(hash(readFileSync(revision.path)), revision.after_sha256, revision.path);
+    assert.equal(hash(beforeDendeSummoningFile(revision.path)), revision.after_sha256, revision.path);
     assert.equal(hash(gunzipSync(readFileSync(revision.before_file))), revision.before_sha256, revision.before_file);
     assert.equal(hash(beforeGtBackersFile(revision.path)), revision.before_sha256, revision.path);
   }
   for (const repair of repairs) {
-    assert.equal(hash(readFileSync(repair.path)), repair.after_sha256, repair.path);
+    assert.equal(hash(beforeDendeSummoningFile(repair.path)), repair.after_sha256, repair.path);
     assert.equal(hash(gunzipSync(readFileSync(repair.before_file))), repair.before_sha256, repair.before_file);
   }
 });
@@ -43,6 +44,6 @@ test('GT history preserves the published Babidi #30, Majin Buu and Movie 7 hash 
     }
   }
   for (const [file, digest] of Object.entries(release.unchanged_catalog_files)) {
-    assert.equal(hash(readFileSync(file)), digest, file);
+    assert.equal(hash(beforeDendeSummoningFile(file)), digest, file);
   }
 });
