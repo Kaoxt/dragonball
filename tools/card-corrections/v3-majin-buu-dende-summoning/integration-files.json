@@ -1,0 +1,104 @@
+[
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/cards/catalog.js.gz",
+    "before_sha256": "d1859f67d2bdc575fe4452be9492740758186789b5bf7901d7a451a2618a202e",
+    "after_sha256": "082e76b89e21d182be10f56a36df76c8506f3e07b6c7db4df3ac2b8e1e70aded"
+  },
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/package.json.gz",
+    "before_sha256": "dabf9ecca664817604a690aa096c6f58c1db774163b62f20efe1ead85588dd16",
+    "after_sha256": "6ee8586f6401253c0c746c74f69aac3216d8d0c18f542e678281aef61c401c41"
+  },
+  {
+    "path": "AGENTS.md",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/AGENTS.md.gz",
+    "before_sha256": "c174d11c149d8283c796dd762951dff98f73188f3e2e86cc4bbf5b60a539d3e5",
+    "after_sha256": "884f4d05a6e29b5c5266dca2cacc5d5507f3b77918ddf915b52040bffedc56cc"
+  },
+  {
+    "path": "tests/helpers/pre-gt-backers.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/tests/helpers/pre-gt-backers.js.gz",
+    "before_sha256": "4c8a0d21ae3b0225191defbb7b768e55e08b2d9ee6a9cfa38b26bd1a30a56846",
+    "after_sha256": "39f555d920c6fb377b88e2ca23cfc0e4f3804e92a69cef5396684e75e302e854"
+  },
+  {
+    "path": "tests/gt-backers-history.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/tests/gt-backers-history.test.js.gz",
+    "before_sha256": "4b490aa8cfa382356f814eff9495f8c1700722dd02aba89c9920fec20c8325a5",
+    "after_sha256": "972b1019cf765c60337a7dbe224f478c1b4d9f5960bc21aa043ba63b741c2020"
+  },
+  {
+    "path": "tests/card-v3-babidi-030.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/tests/card-v3-babidi-030.test.js.gz",
+    "before_sha256": "84a54326b2c4d59948b7fc4e47bcc4d685852a6ec4971bdc364bd355fb3b469a",
+    "after_sha256": "d291f397e2819266f1adc0c10e48c604dccd580f123841cd235fc81267d906b4"
+  },
+  {
+    "path": "tests/card-v3-majin-buu.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/tests/card-v3-majin-buu.test.js.gz",
+    "before_sha256": "c959ffd1e6475ba942e2137f91be0b06e2f69f561095e88520ce6393ea9a6cb1",
+    "after_sha256": "9f65cc463756359079fa278d1db5aebc64c02fa0f6272fa18ffa72ec8229d87a"
+  },
+  {
+    "path": "public/assets/cards/majin-buu-001-alt-dende-dragon-ball-1.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/majin-buu-001-alt-dende-dragon-ball-1.webp.gz",
+    "before_sha256": "1bb497206991b8e47b2a0b45086c0a3b23e626727cd36226d8cb4067e96607b6",
+    "after_sha256": "efa790408ce31bf31e8c482daf5cbfab3878aabd0a1c690c0be2b83209fdc3cd"
+  },
+  {
+    "path": "public/assets/cards/downloads/majin-buu-001-alt-dende-dragon-ball-1.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/downloads/majin-buu-001-alt-dende-dragon-ball-1.webp.gz",
+    "before_sha256": "0432838dcede6700d3caaff105cb3940e7210ea42e5e4581c009819d3e61b830",
+    "after_sha256": "67294958d670b7002cd6d6c948ea7a2793c34390d5047fd37a15547c63642faa"
+  },
+  {
+    "path": "public/assets/cards/majin-buu-002-alt-dende-dragon-ball-2.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/majin-buu-002-alt-dende-dragon-ball-2.webp.gz",
+    "before_sha256": "c4d22fbc0759248a959c23f8f813f9bf733124bdb1ca5362672a153f8d51de03",
+    "after_sha256": "b1d62067db8f8facdbad3e844c2a8fd71b407aedf3e112b878a0998789dd1931"
+  },
+  {
+    "path": "public/assets/cards/downloads/majin-buu-002-alt-dende-dragon-ball-2.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/downloads/majin-buu-002-alt-dende-dragon-ball-2.webp.gz",
+    "before_sha256": "2f84387b4bc806a467ef3fd8580829c8d67b084d58d4f85b61a74a05b30d0ef9",
+    "after_sha256": "b858b3c94d946f480508aa18815f141110a8b5fcf6d3f623070387998ab0d08e"
+  },
+  {
+    "path": "public/assets/cards/majin-buu-038-alt-dende-dragon-ball-3.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/majin-buu-038-alt-dende-dragon-ball-3.webp.gz",
+    "before_sha256": "2eb546c01afe0c0b052cec0b0b5d9cbcb8a6db8b3d66c5c5be26e848d604aac6",
+    "after_sha256": "bbb7b0bcdad36a392cd2d0972982909da95b06d90084afc0a5e7afc3129e6155"
+  },
+  {
+    "path": "public/assets/cards/downloads/majin-buu-038-alt-dende-dragon-ball-3.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/downloads/majin-buu-038-alt-dende-dragon-ball-3.webp.gz",
+    "before_sha256": "bdf006ec2c587dce0acf1197681759eef80168620ee511d5f9f52af40a5352e2",
+    "after_sha256": "5a1e16c7a2e883cc66d98e3c477d5e03df6fcba20dedc217bf01204102babe5c"
+  },
+  {
+    "path": "public/assets/cards/majin-buu-039-alt-dende-dragon-ball-4.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/majin-buu-039-alt-dende-dragon-ball-4.webp.gz",
+    "before_sha256": "af2ea845f29d6de9d13a8bc77773212c3d0f03fad5b8031cbb3672c007c9d22b",
+    "after_sha256": "04bffdb48f494e7cc2ac663efd24405b428eafd943e43504b974c2c397aca57a"
+  },
+  {
+    "path": "public/assets/cards/downloads/majin-buu-039-alt-dende-dragon-ball-4.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/downloads/majin-buu-039-alt-dende-dragon-ball-4.webp.gz",
+    "before_sha256": "2b708eb8251653f3076f78fe5a4e908d2be60fe4f5f9a9ab7bee4bf2438e0a26",
+    "after_sha256": "63c0b8af2b7f7a7ee2e24c4394f630c2aa39def3b7218f1071bb719e7eb4b435"
+  },
+  {
+    "path": "public/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp.gz",
+    "before_sha256": "a9557c364fe2c615b2da4a8460b9dafb1f970feca63229ad0bd255bb2640e6a8",
+    "after_sha256": "7597e2e26ed7d97eb13662366fba59caddcde2cc4648864eac6758d3e7f8755d"
+  },
+  {
+    "path": "public/assets/cards/downloads/majin-buu-040-alt-dende-dragon-ball-5.webp",
+    "before_file": "tools/card-corrections/v3-majin-buu-dende-summoning/before/public/assets/cards/downloads/majin-buu-040-alt-dende-dragon-ball-5.webp.gz",
+    "before_sha256": "93cba8d929a304dd27b287c2c486cda0d832a6d7f0d146e1bba7802d09456419",
+    "after_sha256": "2f79941265e3f3095402909802048e18fe83349c01a254fdb5f122bfcb7e22d4"
+  }
+]
